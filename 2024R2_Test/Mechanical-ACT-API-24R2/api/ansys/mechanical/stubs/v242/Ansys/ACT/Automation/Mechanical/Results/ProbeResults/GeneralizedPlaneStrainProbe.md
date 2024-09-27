@@ -1,6 +1,6 @@
 # `GeneralizedPlaneStrainProbe`
 
-
+<a id="ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Results.ProbeResults.GeneralizedPlaneStrainProbe"></a>
 
 #### *class* ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Results.ProbeResults.GeneralizedPlaneStrainProbe
 
@@ -17,137 +17,83 @@ Defines a GeneralizedPlaneStrainProbe.
 ### Methods
 
 | Name | Description |
-|---------------------------|-----------------------------------------------------------------------------------|
-| `ExportAnimation`         | Run the ExportAnimation action.                                                   |
-| `ClearGeneratedData`      | Run the ClearGeneratedData action.                                                |
-| `DuplicateWithoutResults` | Run the DuplicateWithoutResults action.                                           |
-| `EvaluateAllResults`      | Run the EvaluateAllResults action.                                                |
-| `SnapToMeshNodes`         | Snap the coordinates of probe result to the mesh nodes.                           |
-| `RenameBasedOnDefinition` | Run the RenameBasedOnDefinition action.                                           |
-| `Delete`                  | Run the Delete action.                                                            |
-| `GetChildren`             | Gets the list of children, filtered by type.                                      |
-| `GetChildren`             | Gets the list of children, filtered by type.                                      |
-| `AddComment`              | Creates a new child Comment.                                                      |
-| `AddFigure`               | Creates a new child Figure.                                                       |
-| `AddImage`                | Creates a new child Image.                                                        |
-| `Activate`                | Activate the current object.                                                      |
-| `CopyTo`                  | Copies all visible properties from this object to another.                        |
-| `Duplicate`               | Creates a copy of the current DataModelObject.                                    |
-| `GroupAllSimilarChildren` | Run the GroupAllSimilarChildren action.                                           |
-| `GroupSimilarObjects`     | Run the GroupSimilarObjects action.                                               |
-| `PropertyByName`          | Get a property by its unique name.                                                |
-| `PropertyByAPIName`       | Get a property by its API name.                                                   |
-| `CreateParameter`         | Creates a new parameter for a Property.                                           |
-| `GetParameter`            | Gets the parameter corresponding to the given property.                           |
-| `RemoveParameter`         | Removes the parameter from the parameter set corresponding to the given property. |
+|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------|
+| [`Activate`](#GeneralizedPlaneStrainProbe.Activate)                               | Activate the current object.                                                      |
+| [`AddComment`](#GeneralizedPlaneStrainProbe.AddComment)                           | Creates a new child Comment.                                                      |
+| [`AddFigure`](#GeneralizedPlaneStrainProbe.AddFigure)                             | Creates a new child Figure.                                                       |
+| [`AddImage`](#GeneralizedPlaneStrainProbe.AddImage)                               | Creates a new child Image.                                                        |
+| [`ClearGeneratedData`](#GeneralizedPlaneStrainProbe.ClearGeneratedData)           | Run the ClearGeneratedData action.                                                |
+| [`CopyTo`](#GeneralizedPlaneStrainProbe.CopyTo)                                   | Copies all visible properties from this object to another.                        |
+| [`CreateParameter`](#GeneralizedPlaneStrainProbe.CreateParameter)                 | Creates a new parameter for a Property.                                           |
+| [`Delete`](#GeneralizedPlaneStrainProbe.Delete)                                   | Run the Delete action.                                                            |
+| [`Duplicate`](#GeneralizedPlaneStrainProbe.Duplicate)                             | Creates a copy of the current DataModelObject.                                    |
+| [`DuplicateWithoutResults`](#GeneralizedPlaneStrainProbe.DuplicateWithoutResults) | Run the DuplicateWithoutResults action.                                           |
+| [`EvaluateAllResults`](#GeneralizedPlaneStrainProbe.EvaluateAllResults)           | Run the EvaluateAllResults action.                                                |
+| [`ExportAnimation`](#GeneralizedPlaneStrainProbe.ExportAnimation)                 | Run the ExportAnimation action.                                                   |
+| [`GetChildren`](#GeneralizedPlaneStrainProbe.GetChildren)                         | Gets the list of children, filtered by type.                                      |
+| [`GetParameter`](#GeneralizedPlaneStrainProbe.GetParameter)                       | Gets the parameter corresponding to the given property.                           |
+| [`GroupAllSimilarChildren`](#GeneralizedPlaneStrainProbe.GroupAllSimilarChildren) | Run the GroupAllSimilarChildren action.                                           |
+| [`GroupSimilarObjects`](#GeneralizedPlaneStrainProbe.GroupSimilarObjects)         | Run the GroupSimilarObjects action.                                               |
+| [`PropertyByAPIName`](#GeneralizedPlaneStrainProbe.PropertyByAPIName)             | Get a property by its API name.                                                   |
+| [`PropertyByName`](#GeneralizedPlaneStrainProbe.PropertyByName)                   | Get a property by its unique name.                                                |
+| [`RemoveParameter`](#GeneralizedPlaneStrainProbe.RemoveParameter)                 | Removes the parameter from the parameter set corresponding to the given property. |
+| [`RenameBasedOnDefinition`](#GeneralizedPlaneStrainProbe.RenameBasedOnDefinition) | Run the RenameBasedOnDefinition action.                                           |
+| [`SnapToMeshNodes`](#GeneralizedPlaneStrainProbe.SnapToMeshNodes)                 | Snap the coordinates of probe result to the mesh nodes.                           |
 
 ### Properties
 
 | Name | Description |
-|------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| `InternalObject`             | Gets the internal object. For advanced usage only.                                                                                                                         |
-| `DataModelObjectCategory`    | Gets the current DataModelObject's category.                                                                                                                               |
-| `Summation`                  | Gets or sets the Summation.                                                                                                                                                |
-| `LocationMethod`             | Gets or sets the LocationMethod.                                                                                                                                           |
-| `GeometryLocation`           | Gets or sets the GeometryLocation.                                                                                                                                         |
-| `CoordinateSystemSelection`  | Gets or sets the CoordinateSystemSelection.                                                                                                                                |
-| `BoundaryConditionSelection` | Gets or sets the BoundaryConditionSelection. In order to select the option 'WeakSprings', please use the property 'LocationMethod = LocationDefinitionMethod.WeakSprings'. |
-| `ContactRegionSelection`     | Gets or sets the ContactRegionSelection.                                                                                                                                   |
-| `RemotePointSelection`       | Gets or sets the RemotePointSelection.                                                                                                                                     |
-| `BeamSelection`              | Gets or sets the BeamSelection.                                                                                                                                            |
-| `MeshConnectionSelection`    | Gets or sets the MeshConnectionSelection.                                                                                                                                  |
-| `SurfaceSelection`           | Gets or sets the MeshConnectionSelection.                                                                                                                                  |
-| `SpringSelection`            | Gets or sets the SpringSelection.                                                                                                                                          |
-| `IsSolved`                   | Gets the IsSolved.                                                                                                                                                         |
-| `Orientation`                | Gets or sets the Orientation. Accepts/Returns None if it is the Solution Coordinate System.                                                                                |
-| `IterationNumber`            | Gets the IterationNumber.                                                                                                                                                  |
-| `LoadStep`                   | Gets the LoadStep.                                                                                                                                                         |
-| `LoadStepNumber`             | Gets or sets the LoadStepNumber.                                                                                                                                           |
-| `Substep`                    | Gets the Substep.                                                                                                                                                          |
-| `DisplayTime`                | Gets or sets the DisplayTime.                                                                                                                                              |
-| `MaximumTotal`               | Gets the MaximumTotal.                                                                                                                                                     |
-| `MaximumXAxis`               | Gets the MaximumXAxis.                                                                                                                                                     |
-| `MaximumYAxis`               | Gets the MaximumYAxis.                                                                                                                                                     |
-| `MaximumZAxis`               | Gets the MaximumZAxis.                                                                                                                                                     |
-| `MinimumTotal`               | Gets the MinimumTotal.                                                                                                                                                     |
-| `MinimumXAxis`               | Gets the MinimumXAxis.                                                                                                                                                     |
-| `MinimumYAxis`               | Gets the MinimumYAxis.                                                                                                                                                     |
-| `MinimumZAxis`               | Gets the MinimumZAxis.                                                                                                                                                     |
-| `Time`                       | Gets the Time.                                                                                                                                                             |
-| `Total`                      | Gets the Total.                                                                                                                                                            |
-| `XAxis`                      | Gets the XAxis.                                                                                                                                                            |
-| `YAxis`                      | Gets the YAxis.                                                                                                                                                            |
-| `ZAxis`                      | Gets the ZAxis.                                                                                                                                                            |
-| `ResultSelection`            | Gets or sets the ResultSelection.                                                                                                                                          |
-| `SpatialResolution`          | Gets or sets the SpatialResolution.                                                                                                                                        |
-| `Type`                       | Gets the Type.                                                                                                                                                             |
-| `DpfEvaluation`              | Gets or sets the DpfEvaluation.                                                                                                                                            |
-| `Suppressed`                 | Gets or sets the Suppressed.                                                                                                                                               |
-| `Children`                   | Gets the list of children.                                                                                                                                                 |
-| `Comments`                   | Gets the list of associated comments.                                                                                                                                      |
-| `Figures`                    | Gets the list of associated figures.                                                                                                                                       |
-| `Images`                     | Gets the list of associated images.                                                                                                                                        |
-| `InternalObject`             | Gets the internal object. For advanced usage only.                                                                                                                         |
-| `Properties`                 | Gets the list of properties for this object.                                                                                                                               |
-| `VisibleProperties`          | Gets the list of properties that are visible for this object.                                                                                                              |
+|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| [`BeamSelection`](#GeneralizedPlaneStrainProbe.BeamSelection)                           | Gets or sets the BeamSelection.                                                                                                                                            |
+| [`BoundaryConditionSelection`](#GeneralizedPlaneStrainProbe.BoundaryConditionSelection) | Gets or sets the BoundaryConditionSelection. In order to select the option ‘WeakSprings’, please use the property ‘LocationMethod = LocationDefinitionMethod.WeakSprings’. |
+| [`Children`](#GeneralizedPlaneStrainProbe.Children)                                     | Gets the list of children.                                                                                                                                                 |
+| [`Comments`](#GeneralizedPlaneStrainProbe.Comments)                                     | Gets the list of associated comments.                                                                                                                                      |
+| [`ContactRegionSelection`](#GeneralizedPlaneStrainProbe.ContactRegionSelection)         | Gets or sets the ContactRegionSelection.                                                                                                                                   |
+| [`CoordinateSystemSelection`](#GeneralizedPlaneStrainProbe.CoordinateSystemSelection)   | Gets or sets the CoordinateSystemSelection.                                                                                                                                |
+| [`DataModelObjectCategory`](#GeneralizedPlaneStrainProbe.DataModelObjectCategory)       | Gets the current DataModelObject’s category.                                                                                                                               |
+| [`DisplayTime`](#GeneralizedPlaneStrainProbe.DisplayTime)                               | Gets or sets the DisplayTime.                                                                                                                                              |
+| [`DpfEvaluation`](#GeneralizedPlaneStrainProbe.DpfEvaluation)                           | Gets or sets the DpfEvaluation.                                                                                                                                            |
+| [`Figures`](#GeneralizedPlaneStrainProbe.Figures)                                       | Gets the list of associated figures.                                                                                                                                       |
+| [`GeometryLocation`](#GeneralizedPlaneStrainProbe.GeometryLocation)                     | Gets or sets the GeometryLocation.                                                                                                                                         |
+| [`Images`](#GeneralizedPlaneStrainProbe.Images)                                         | Gets the list of associated images.                                                                                                                                        |
+| [`InternalObject`](#GeneralizedPlaneStrainProbe.InternalObject)                         | Gets the internal object. For advanced usage only.                                                                                                                         |
+| [`IsSolved`](#GeneralizedPlaneStrainProbe.IsSolved)                                     | Gets the IsSolved.                                                                                                                                                         |
+| [`IterationNumber`](#GeneralizedPlaneStrainProbe.IterationNumber)                       | Gets the IterationNumber.                                                                                                                                                  |
+| [`LoadStep`](#GeneralizedPlaneStrainProbe.LoadStep)                                     | Gets the LoadStep.                                                                                                                                                         |
+| [`LoadStepNumber`](#GeneralizedPlaneStrainProbe.LoadStepNumber)                         | Gets or sets the LoadStepNumber.                                                                                                                                           |
+| [`LocationMethod`](#GeneralizedPlaneStrainProbe.LocationMethod)                         | Gets or sets the LocationMethod.                                                                                                                                           |
+| [`MaximumTotal`](#GeneralizedPlaneStrainProbe.MaximumTotal)                             | Gets the MaximumTotal.                                                                                                                                                     |
+| [`MaximumXAxis`](#GeneralizedPlaneStrainProbe.MaximumXAxis)                             | Gets the MaximumXAxis.                                                                                                                                                     |
+| [`MaximumYAxis`](#GeneralizedPlaneStrainProbe.MaximumYAxis)                             | Gets the MaximumYAxis.                                                                                                                                                     |
+| [`MaximumZAxis`](#GeneralizedPlaneStrainProbe.MaximumZAxis)                             | Gets the MaximumZAxis.                                                                                                                                                     |
+| [`MeshConnectionSelection`](#GeneralizedPlaneStrainProbe.MeshConnectionSelection)       | Gets or sets the MeshConnectionSelection.                                                                                                                                  |
+| [`MinimumTotal`](#GeneralizedPlaneStrainProbe.MinimumTotal)                             | Gets the MinimumTotal.                                                                                                                                                     |
+| [`MinimumXAxis`](#GeneralizedPlaneStrainProbe.MinimumXAxis)                             | Gets the MinimumXAxis.                                                                                                                                                     |
+| [`MinimumYAxis`](#GeneralizedPlaneStrainProbe.MinimumYAxis)                             | Gets the MinimumYAxis.                                                                                                                                                     |
+| [`MinimumZAxis`](#GeneralizedPlaneStrainProbe.MinimumZAxis)                             | Gets the MinimumZAxis.                                                                                                                                                     |
+| [`Orientation`](#GeneralizedPlaneStrainProbe.Orientation)                               | Gets or sets the Orientation. Accepts/Returns None if it is the Solution Coordinate System.                                                                                |
+| [`Properties`](#GeneralizedPlaneStrainProbe.Properties)                                 | Gets the list of properties for this object.                                                                                                                               |
+| [`RemotePointSelection`](#GeneralizedPlaneStrainProbe.RemotePointSelection)             | Gets or sets the RemotePointSelection.                                                                                                                                     |
+| [`ResultSelection`](#GeneralizedPlaneStrainProbe.ResultSelection)                       | Gets or sets the ResultSelection.                                                                                                                                          |
+| [`SpatialResolution`](#GeneralizedPlaneStrainProbe.SpatialResolution)                   | Gets or sets the SpatialResolution.                                                                                                                                        |
+| [`SpringSelection`](#GeneralizedPlaneStrainProbe.SpringSelection)                       | Gets or sets the SpringSelection.                                                                                                                                          |
+| [`Substep`](#GeneralizedPlaneStrainProbe.Substep)                                       | Gets the Substep.                                                                                                                                                          |
+| [`Summation`](#GeneralizedPlaneStrainProbe.Summation)                                   | Gets or sets the Summation.                                                                                                                                                |
+| [`Suppressed`](#GeneralizedPlaneStrainProbe.Suppressed)                                 | Gets or sets the Suppressed.                                                                                                                                               |
+| [`SurfaceSelection`](#GeneralizedPlaneStrainProbe.SurfaceSelection)                     | Gets or sets the MeshConnectionSelection.                                                                                                                                  |
+| [`Time`](#GeneralizedPlaneStrainProbe.Time)                                             | Gets the Time.                                                                                                                                                             |
+| [`Total`](#GeneralizedPlaneStrainProbe.Total)                                           | Gets the Total.                                                                                                                                                            |
+| [`Type`](#GeneralizedPlaneStrainProbe.Type)                                             | Gets the Type.                                                                                                                                                             |
+| [`VisibleProperties`](#GeneralizedPlaneStrainProbe.VisibleProperties)                   | Gets the list of properties that are visible for this object.                                                                                                              |
+| [`XAxis`](#GeneralizedPlaneStrainProbe.XAxis)                                           | Gets the XAxis.                                                                                                                                                            |
+| [`YAxis`](#GeneralizedPlaneStrainProbe.YAxis)                                           | Gets the YAxis.                                                                                                                                                            |
+| [`ZAxis`](#GeneralizedPlaneStrainProbe.ZAxis)                                           | Gets the ZAxis.                                                                                                                                                            |
 
 <a id="property-detail"></a>
 
 ## Property detail
 
-### *property* GeneralizedPlaneStrainProbe.InternalObject *: Ansys.Common.Interop.DSObjectsAuto.IDSProbeResultAuto | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets the internal object. For advanced usage only.
-
-<!-- !! processed by numpydoc !! -->
-
-### *property* GeneralizedPlaneStrainProbe.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../../../v241/Ansys/Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets the current DataModelObject's category.
-
-<!-- !! processed by numpydoc !! -->
-
-### *property* GeneralizedPlaneStrainProbe.Summation *: [Ansys.Mechanical.DataModel.Enums.MomentsAtSummationPointType](../../../../../../../v241/Ansys/Mechanical/DataModel/Enums/MomentsAtSummationPointType.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.MomentsAtSummationPointType) | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the Summation.
-
-<!-- !! processed by numpydoc !! -->
-
-### *property* GeneralizedPlaneStrainProbe.LocationMethod *: [Ansys.Mechanical.DataModel.Enums.LocationDefinitionMethod](../../../../../../../v241/Ansys/Mechanical/DataModel/Enums/LocationDefinitionMethod.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.LocationDefinitionMethod) | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the LocationMethod.
-
-<!-- !! processed by numpydoc !! -->
-
-### *property* GeneralizedPlaneStrainProbe.GeometryLocation *: Ansys.ACT.Interfaces.Common.ISelectionInfo | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the GeometryLocation.
-
-<!-- !! processed by numpydoc !! -->
-
-### *property* GeneralizedPlaneStrainProbe.CoordinateSystemSelection *: [Ansys.ACT.Automation.Mechanical.CoordinateSystem](../../../../../../../v241/Ansys/ACT/Automation/Mechanical/CoordinateSystem.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.CoordinateSystem) | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the CoordinateSystemSelection.
-
-<!-- !! processed by numpydoc !! -->
-
-### *property* GeneralizedPlaneStrainProbe.BoundaryConditionSelection *: Ansys.ACT.Automation.Mechanical.DataModelObject | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the BoundaryConditionSelection. In order to select the option 'WeakSprings', please use the property 'LocationMethod = LocationDefinitionMethod.WeakSprings'.
-
-<!-- !! processed by numpydoc !! -->
-
-### *property* GeneralizedPlaneStrainProbe.ContactRegionSelection *: [Ansys.ACT.Automation.Mechanical.Connections.ContactRegion](../../../../../../../v241/Ansys/ACT/Automation/Mechanical/Connections/ContactRegion.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Connections.ContactRegion) | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the ContactRegionSelection.
-
-<!-- !! processed by numpydoc !! -->
-
-### *property* GeneralizedPlaneStrainProbe.RemotePointSelection *: [Ansys.ACT.Automation.Mechanical.RemotePoint](../../../../../../../v241/Ansys/ACT/Automation/Mechanical/RemotePoint.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.RemotePoint) | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the RemotePointSelection.
-
-<!-- !! processed by numpydoc !! -->
+<a id="GeneralizedPlaneStrainProbe.BeamSelection"></a>
 
 ### *property* GeneralizedPlaneStrainProbe.BeamSelection *: [Ansys.ACT.Automation.Mechanical.Connections.Beam](../../../../../../../v241/Ansys/ACT/Automation/Mechanical/Connections/Beam.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Connections.Beam) | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -155,173 +101,15 @@ Gets or sets the BeamSelection.
 
 <!-- !! processed by numpydoc !! -->
 
-### *property* GeneralizedPlaneStrainProbe.MeshConnectionSelection *: [Ansys.ACT.Automation.Mechanical.MeshConnection](../../../../../../../v241/Ansys/ACT/Automation/Mechanical/MeshConnection.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.MeshConnection) | [None](https://docs.python.org/3/library/constants.html#None)*
+<a id="GeneralizedPlaneStrainProbe.BoundaryConditionSelection"></a>
 
-Gets or sets the MeshConnectionSelection.
+### *property* GeneralizedPlaneStrainProbe.BoundaryConditionSelection *: Ansys.ACT.Automation.Mechanical.DataModelObject | [None](https://docs.python.org/3/library/constants.html#None)*
 
-<!-- !! processed by numpydoc !! -->
-
-### *property* GeneralizedPlaneStrainProbe.SurfaceSelection *: [Ansys.ACT.Automation.Mechanical.Surface](../../../../../../../v241/Ansys/ACT/Automation/Mechanical/Surface.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Surface) | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the MeshConnectionSelection.
+Gets or sets the BoundaryConditionSelection. In order to select the option ‘WeakSprings’, please use the property ‘LocationMethod = LocationDefinitionMethod.WeakSprings’.
 
 <!-- !! processed by numpydoc !! -->
 
-### *property* GeneralizedPlaneStrainProbe.SpringSelection *: [Ansys.ACT.Automation.Mechanical.Connections.Spring](../../../../../../../v241/Ansys/ACT/Automation/Mechanical/Connections/Spring.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Connections.Spring) | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the SpringSelection.
-
-<!-- !! processed by numpydoc !! -->
-
-### *property* GeneralizedPlaneStrainProbe.IsSolved *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets the IsSolved.
-
-<!-- !! processed by numpydoc !! -->
-
-### *property* GeneralizedPlaneStrainProbe.Orientation *: [Ansys.ACT.Automation.Mechanical.CoordinateSystem](../../../../../../../v241/Ansys/ACT/Automation/Mechanical/CoordinateSystem.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.CoordinateSystem) | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the Orientation. Accepts/Returns None if it is the Solution Coordinate System.
-
-<!-- !! processed by numpydoc !! -->
-
-### *property* GeneralizedPlaneStrainProbe.IterationNumber *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets the IterationNumber.
-
-<!-- !! processed by numpydoc !! -->
-
-### *property* GeneralizedPlaneStrainProbe.LoadStep *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets the LoadStep.
-
-<!-- !! processed by numpydoc !! -->
-
-### *property* GeneralizedPlaneStrainProbe.LoadStepNumber *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the LoadStepNumber.
-
-<!-- !! processed by numpydoc !! -->
-
-### *property* GeneralizedPlaneStrainProbe.Substep *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets the Substep.
-
-<!-- !! processed by numpydoc !! -->
-
-### *property* GeneralizedPlaneStrainProbe.DisplayTime *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the DisplayTime.
-
-<!-- !! processed by numpydoc !! -->
-
-### *property* GeneralizedPlaneStrainProbe.MaximumTotal *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets the MaximumTotal.
-
-<!-- !! processed by numpydoc !! -->
-
-### *property* GeneralizedPlaneStrainProbe.MaximumXAxis *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets the MaximumXAxis.
-
-<!-- !! processed by numpydoc !! -->
-
-### *property* GeneralizedPlaneStrainProbe.MaximumYAxis *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets the MaximumYAxis.
-
-<!-- !! processed by numpydoc !! -->
-
-### *property* GeneralizedPlaneStrainProbe.MaximumZAxis *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets the MaximumZAxis.
-
-<!-- !! processed by numpydoc !! -->
-
-### *property* GeneralizedPlaneStrainProbe.MinimumTotal *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets the MinimumTotal.
-
-<!-- !! processed by numpydoc !! -->
-
-### *property* GeneralizedPlaneStrainProbe.MinimumXAxis *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets the MinimumXAxis.
-
-<!-- !! processed by numpydoc !! -->
-
-### *property* GeneralizedPlaneStrainProbe.MinimumYAxis *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets the MinimumYAxis.
-
-<!-- !! processed by numpydoc !! -->
-
-### *property* GeneralizedPlaneStrainProbe.MinimumZAxis *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets the MinimumZAxis.
-
-<!-- !! processed by numpydoc !! -->
-
-### *property* GeneralizedPlaneStrainProbe.Time *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets the Time.
-
-<!-- !! processed by numpydoc !! -->
-
-### *property* GeneralizedPlaneStrainProbe.Total *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets the Total.
-
-<!-- !! processed by numpydoc !! -->
-
-### *property* GeneralizedPlaneStrainProbe.XAxis *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets the XAxis.
-
-<!-- !! processed by numpydoc !! -->
-
-### *property* GeneralizedPlaneStrainProbe.YAxis *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets the YAxis.
-
-<!-- !! processed by numpydoc !! -->
-
-### *property* GeneralizedPlaneStrainProbe.ZAxis *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets the ZAxis.
-
-<!-- !! processed by numpydoc !! -->
-
-### *property* GeneralizedPlaneStrainProbe.ResultSelection *: [Ansys.Mechanical.DataModel.Enums.ProbeDisplayFilter](../../../../../../../v241/Ansys/Mechanical/DataModel/Enums/ProbeDisplayFilter.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.ProbeDisplayFilter) | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the ResultSelection.
-
-<!-- !! processed by numpydoc !! -->
-
-### *property* GeneralizedPlaneStrainProbe.SpatialResolution *: [Ansys.Mechanical.DataModel.Enums.MinimumOrMaximum](../../../../../../../v241/Ansys/Mechanical/DataModel/Enums/MinimumOrMaximum.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.MinimumOrMaximum) | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the SpatialResolution.
-
-<!-- !! processed by numpydoc !! -->
-
-### *property* GeneralizedPlaneStrainProbe.Type *: [Ansys.Mechanical.DataModel.Enums.ProbeResultType](../../../../../../../v241/Ansys/Mechanical/DataModel/Enums/ProbeResultType.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.ProbeResultType) | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets the Type.
-
-<!-- !! processed by numpydoc !! -->
-
-### *property* GeneralizedPlaneStrainProbe.DpfEvaluation *: [Ansys.Mechanical.DataModel.Enums.DpfEvaluationType](../../../../../../../v241/Ansys/Mechanical/DataModel/Enums/DpfEvaluationType.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DpfEvaluationType) | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the DpfEvaluation.
-
-<!-- !! processed by numpydoc !! -->
-
-### *property* GeneralizedPlaneStrainProbe.Suppressed *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the Suppressed.
-
-<!-- !! processed by numpydoc !! -->
+<a id="GeneralizedPlaneStrainProbe.Children"></a>
 
 ### *property* GeneralizedPlaneStrainProbe.Children *: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -329,11 +117,55 @@ Gets the list of children.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="GeneralizedPlaneStrainProbe.Comments"></a>
+
 ### *property* GeneralizedPlaneStrainProbe.Comments *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Comment](../../../../../../../v241/Ansys/ACT/Automation/Mechanical/Comment.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated comments.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="GeneralizedPlaneStrainProbe.ContactRegionSelection"></a>
+
+### *property* GeneralizedPlaneStrainProbe.ContactRegionSelection *: [Ansys.ACT.Automation.Mechanical.Connections.ContactRegion](../../../../../../../v241/Ansys/ACT/Automation/Mechanical/Connections/ContactRegion.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Connections.ContactRegion) | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the ContactRegionSelection.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="GeneralizedPlaneStrainProbe.CoordinateSystemSelection"></a>
+
+### *property* GeneralizedPlaneStrainProbe.CoordinateSystemSelection *: [Ansys.ACT.Automation.Mechanical.CoordinateSystem](../../../../../../../v241/Ansys/ACT/Automation/Mechanical/CoordinateSystem.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.CoordinateSystem) | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the CoordinateSystemSelection.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="GeneralizedPlaneStrainProbe.DataModelObjectCategory"></a>
+
+### *property* GeneralizedPlaneStrainProbe.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets the current DataModelObject’s category.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="GeneralizedPlaneStrainProbe.DisplayTime"></a>
+
+### *property* GeneralizedPlaneStrainProbe.DisplayTime *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the DisplayTime.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="GeneralizedPlaneStrainProbe.DpfEvaluation"></a>
+
+### *property* GeneralizedPlaneStrainProbe.DpfEvaluation *: [Ansys.Mechanical.DataModel.Enums.DpfEvaluationType](../../../../../Mechanical/DataModel/Enums/DpfEvaluationType.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.DpfEvaluationType) | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the DpfEvaluation.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="GeneralizedPlaneStrainProbe.Figures"></a>
 
 ### *property* GeneralizedPlaneStrainProbe.Figures *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Figure](../../../../../../../v241/Ansys/ACT/Automation/Mechanical/Figure.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -341,17 +173,151 @@ Gets the list of associated figures.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="GeneralizedPlaneStrainProbe.GeometryLocation"></a>
+
+### *property* GeneralizedPlaneStrainProbe.GeometryLocation *: Ansys.ACT.Interfaces.Common.ISelectionInfo | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the GeometryLocation.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="GeneralizedPlaneStrainProbe.Images"></a>
+
 ### *property* GeneralizedPlaneStrainProbe.Images *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Image](../../../../../../../v241/Ansys/ACT/Automation/Mechanical/Image.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated images.
 
 <!-- !! processed by numpydoc !! -->
 
-### *property* GeneralizedPlaneStrainProbe.InternalObject *: System.Object | [None](https://docs.python.org/3/library/constants.html#None)*
+<a id="GeneralizedPlaneStrainProbe.InternalObject"></a>
+
+### *property* GeneralizedPlaneStrainProbe.InternalObject *: Ansys.Common.Interop.DSObjectsAuto.IDSProbeResultAuto | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the internal object. For advanced usage only.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="GeneralizedPlaneStrainProbe.IsSolved"></a>
+
+### *property* GeneralizedPlaneStrainProbe.IsSolved *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets the IsSolved.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="GeneralizedPlaneStrainProbe.IterationNumber"></a>
+
+### *property* GeneralizedPlaneStrainProbe.IterationNumber *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets the IterationNumber.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="GeneralizedPlaneStrainProbe.LoadStep"></a>
+
+### *property* GeneralizedPlaneStrainProbe.LoadStep *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets the LoadStep.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="GeneralizedPlaneStrainProbe.LoadStepNumber"></a>
+
+### *property* GeneralizedPlaneStrainProbe.LoadStepNumber *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the LoadStepNumber.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="GeneralizedPlaneStrainProbe.LocationMethod"></a>
+
+### *property* GeneralizedPlaneStrainProbe.LocationMethod *: [Ansys.Mechanical.DataModel.Enums.LocationDefinitionMethod](../../../../../Mechanical/DataModel/Enums/LocationDefinitionMethod.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.LocationDefinitionMethod) | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the LocationMethod.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="GeneralizedPlaneStrainProbe.MaximumTotal"></a>
+
+### *property* GeneralizedPlaneStrainProbe.MaximumTotal *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets the MaximumTotal.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="GeneralizedPlaneStrainProbe.MaximumXAxis"></a>
+
+### *property* GeneralizedPlaneStrainProbe.MaximumXAxis *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets the MaximumXAxis.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="GeneralizedPlaneStrainProbe.MaximumYAxis"></a>
+
+### *property* GeneralizedPlaneStrainProbe.MaximumYAxis *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets the MaximumYAxis.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="GeneralizedPlaneStrainProbe.MaximumZAxis"></a>
+
+### *property* GeneralizedPlaneStrainProbe.MaximumZAxis *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets the MaximumZAxis.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="GeneralizedPlaneStrainProbe.MeshConnectionSelection"></a>
+
+### *property* GeneralizedPlaneStrainProbe.MeshConnectionSelection *: [Ansys.ACT.Automation.Mechanical.MeshConnection](../../../../../../../v241/Ansys/ACT/Automation/Mechanical/MeshConnection.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.MeshConnection) | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the MeshConnectionSelection.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="GeneralizedPlaneStrainProbe.MinimumTotal"></a>
+
+### *property* GeneralizedPlaneStrainProbe.MinimumTotal *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets the MinimumTotal.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="GeneralizedPlaneStrainProbe.MinimumXAxis"></a>
+
+### *property* GeneralizedPlaneStrainProbe.MinimumXAxis *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets the MinimumXAxis.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="GeneralizedPlaneStrainProbe.MinimumYAxis"></a>
+
+### *property* GeneralizedPlaneStrainProbe.MinimumYAxis *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets the MinimumYAxis.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="GeneralizedPlaneStrainProbe.MinimumZAxis"></a>
+
+### *property* GeneralizedPlaneStrainProbe.MinimumZAxis *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets the MinimumZAxis.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="GeneralizedPlaneStrainProbe.Orientation"></a>
+
+### *property* GeneralizedPlaneStrainProbe.Orientation *: [Ansys.ACT.Automation.Mechanical.CoordinateSystem](../../../../../../../v241/Ansys/ACT/Automation/Mechanical/CoordinateSystem.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.CoordinateSystem) | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the Orientation. Accepts/Returns None if it is the Solution Coordinate System.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="GeneralizedPlaneStrainProbe.Properties"></a>
 
 ### *property* GeneralizedPlaneStrainProbe.Properties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -359,9 +325,123 @@ Gets the list of properties for this object.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="GeneralizedPlaneStrainProbe.RemotePointSelection"></a>
+
+### *property* GeneralizedPlaneStrainProbe.RemotePointSelection *: [Ansys.ACT.Automation.Mechanical.RemotePoint](../../RemotePoint.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.RemotePoint) | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the RemotePointSelection.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="GeneralizedPlaneStrainProbe.ResultSelection"></a>
+
+### *property* GeneralizedPlaneStrainProbe.ResultSelection *: [Ansys.Mechanical.DataModel.Enums.ProbeDisplayFilter](../../../../../Mechanical/DataModel/Enums/ProbeDisplayFilter.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.ProbeDisplayFilter) | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the ResultSelection.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="GeneralizedPlaneStrainProbe.SpatialResolution"></a>
+
+### *property* GeneralizedPlaneStrainProbe.SpatialResolution *: [Ansys.Mechanical.DataModel.Enums.MinimumOrMaximum](../../../../../Mechanical/DataModel/Enums/MinimumOrMaximum.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.MinimumOrMaximum) | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the SpatialResolution.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="GeneralizedPlaneStrainProbe.SpringSelection"></a>
+
+### *property* GeneralizedPlaneStrainProbe.SpringSelection *: [Ansys.ACT.Automation.Mechanical.Connections.Spring](../../../../../../../v241/Ansys/ACT/Automation/Mechanical/Connections/Spring.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Connections.Spring) | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the SpringSelection.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="GeneralizedPlaneStrainProbe.Substep"></a>
+
+### *property* GeneralizedPlaneStrainProbe.Substep *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets the Substep.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="GeneralizedPlaneStrainProbe.Summation"></a>
+
+### *property* GeneralizedPlaneStrainProbe.Summation *: [Ansys.Mechanical.DataModel.Enums.MomentsAtSummationPointType](../../../../../Mechanical/DataModel/Enums/MomentsAtSummationPointType.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.MomentsAtSummationPointType) | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the Summation.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="GeneralizedPlaneStrainProbe.Suppressed"></a>
+
+### *property* GeneralizedPlaneStrainProbe.Suppressed *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the Suppressed.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="GeneralizedPlaneStrainProbe.SurfaceSelection"></a>
+
+### *property* GeneralizedPlaneStrainProbe.SurfaceSelection *: [Ansys.ACT.Automation.Mechanical.Surface](../../Surface.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Surface) | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the MeshConnectionSelection.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="GeneralizedPlaneStrainProbe.Time"></a>
+
+### *property* GeneralizedPlaneStrainProbe.Time *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets the Time.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="GeneralizedPlaneStrainProbe.Total"></a>
+
+### *property* GeneralizedPlaneStrainProbe.Total *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets the Total.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="GeneralizedPlaneStrainProbe.Type"></a>
+
+### *property* GeneralizedPlaneStrainProbe.Type *: [Ansys.Mechanical.DataModel.Enums.ProbeResultType](../../../../../Mechanical/DataModel/Enums/ProbeResultType.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.ProbeResultType) | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets the Type.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="GeneralizedPlaneStrainProbe.VisibleProperties"></a>
+
 ### *property* GeneralizedPlaneStrainProbe.VisibleProperties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of properties that are visible for this object.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="GeneralizedPlaneStrainProbe.XAxis"></a>
+
+### *property* GeneralizedPlaneStrainProbe.XAxis *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets the XAxis.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="GeneralizedPlaneStrainProbe.YAxis"></a>
+
+### *property* GeneralizedPlaneStrainProbe.YAxis *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets the YAxis.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="GeneralizedPlaneStrainProbe.ZAxis"></a>
+
+### *property* GeneralizedPlaneStrainProbe.ZAxis *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets the ZAxis.
 
 <!-- !! processed by numpydoc !! -->
 
@@ -369,59 +449,15 @@ Gets the list of properties that are visible for this object.
 
 ## Method detail
 
-### GeneralizedPlaneStrainProbe.ExportAnimation(filePath: System.String, format: [Ansys.Mechanical.DataModel.Enums.GraphicsAnimationExportFormat](../../../../../../../v241/Ansys/Mechanical/DataModel/Enums/GraphicsAnimationExportFormat.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.GraphicsAnimationExportFormat), settings: [Ansys.Mechanical.Graphics.AnimationExportSettings](../../../../../../../v241/Ansys/Mechanical/Graphics/AnimationExportSettings.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.Graphics.AnimationExportSettings))
+<a id="GeneralizedPlaneStrainProbe.Activate"></a>
 
-Run the ExportAnimation action.
+### GeneralizedPlaneStrainProbe.Activate()
 
-<!-- !! processed by numpydoc !! -->
-
-### GeneralizedPlaneStrainProbe.ClearGeneratedData()
-
-Run the ClearGeneratedData action.
+Activate the current object.
 
 <!-- !! processed by numpydoc !! -->
 
-### GeneralizedPlaneStrainProbe.DuplicateWithoutResults()
-
-Run the DuplicateWithoutResults action.
-
-<!-- !! processed by numpydoc !! -->
-
-### GeneralizedPlaneStrainProbe.EvaluateAllResults()
-
-Run the EvaluateAllResults action.
-
-<!-- !! processed by numpydoc !! -->
-
-### GeneralizedPlaneStrainProbe.SnapToMeshNodes()
-
-Snap the coordinates of probe result to the mesh nodes.
-
-<!-- !! processed by numpydoc !! -->
-
-### GeneralizedPlaneStrainProbe.RenameBasedOnDefinition()
-
-Run the RenameBasedOnDefinition action.
-
-<!-- !! processed by numpydoc !! -->
-
-### GeneralizedPlaneStrainProbe.Delete()
-
-Run the Delete action.
-
-<!-- !! processed by numpydoc !! -->
-
-### GeneralizedPlaneStrainProbe.GetChildren(recurses: System.Boolean, children: System.Collections.Generic.IList[ChildrenType])
-
-Gets the list of children, filtered by type.
-
-<!-- !! processed by numpydoc !! -->
-
-### GeneralizedPlaneStrainProbe.GetChildren(category: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../../../v241/Ansys/Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory), recurses: System.Boolean, children: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject])
-
-Gets the list of children, filtered by type.
-
-<!-- !! processed by numpydoc !! -->
+<a id="GeneralizedPlaneStrainProbe.AddComment"></a>
 
 ### GeneralizedPlaneStrainProbe.AddComment()
 
@@ -429,11 +465,15 @@ Creates a new child Comment.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="GeneralizedPlaneStrainProbe.AddFigure"></a>
+
 ### GeneralizedPlaneStrainProbe.AddFigure()
 
 Creates a new child Figure.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="GeneralizedPlaneStrainProbe.AddImage"></a>
 
 ### GeneralizedPlaneStrainProbe.AddImage(filePath: System.String)
 
@@ -445,11 +485,15 @@ if not, the image will be a screen capture of the Geometry window.
 
 <!-- !! processed by numpydoc !! -->
 
-### GeneralizedPlaneStrainProbe.Activate()
+<a id="GeneralizedPlaneStrainProbe.ClearGeneratedData"></a>
 
-Activate the current object.
+### GeneralizedPlaneStrainProbe.ClearGeneratedData()
+
+Run the ClearGeneratedData action.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="GeneralizedPlaneStrainProbe.CopyTo"></a>
 
 ### GeneralizedPlaneStrainProbe.CopyTo(other: Ansys.ACT.Automation.Mechanical.DataModelObject)
 
@@ -457,11 +501,71 @@ Copies all visible properties from this object to another.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="GeneralizedPlaneStrainProbe.CreateParameter"></a>
+
+### GeneralizedPlaneStrainProbe.CreateParameter(propName: System.String)
+
+Creates a new parameter for a Property.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="GeneralizedPlaneStrainProbe.Delete"></a>
+
+### GeneralizedPlaneStrainProbe.Delete()
+
+Run the Delete action.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="GeneralizedPlaneStrainProbe.Duplicate"></a>
+
 ### GeneralizedPlaneStrainProbe.Duplicate()
 
 Creates a copy of the current DataModelObject.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="GeneralizedPlaneStrainProbe.DuplicateWithoutResults"></a>
+
+### GeneralizedPlaneStrainProbe.DuplicateWithoutResults()
+
+Run the DuplicateWithoutResults action.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="GeneralizedPlaneStrainProbe.EvaluateAllResults"></a>
+
+### GeneralizedPlaneStrainProbe.EvaluateAllResults()
+
+Run the EvaluateAllResults action.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="GeneralizedPlaneStrainProbe.ExportAnimation"></a>
+
+### GeneralizedPlaneStrainProbe.ExportAnimation(filePath: System.String, format: [Ansys.Mechanical.DataModel.Enums.GraphicsAnimationExportFormat](../../../../../Mechanical/DataModel/Enums/GraphicsAnimationExportFormat.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.GraphicsAnimationExportFormat), settings: [Ansys.Mechanical.Graphics.AnimationExportSettings](../../../../../Mechanical/Graphics/AnimationExportSettings.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.Graphics.AnimationExportSettings))
+
+Run the ExportAnimation action.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="GeneralizedPlaneStrainProbe.GetChildren"></a>
+
+### GeneralizedPlaneStrainProbe.GetChildren(recurses: System.Boolean, children: System.Collections.Generic.IList[ChildrenType])
+
+Gets the list of children, filtered by type.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="GeneralizedPlaneStrainProbe.GetParameter"></a>
+
+### GeneralizedPlaneStrainProbe.GetParameter(propName: System.String)
+
+Gets the parameter corresponding to the given property.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="GeneralizedPlaneStrainProbe.GroupAllSimilarChildren"></a>
 
 ### GeneralizedPlaneStrainProbe.GroupAllSimilarChildren()
 
@@ -469,17 +573,15 @@ Run the GroupAllSimilarChildren action.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="GeneralizedPlaneStrainProbe.GroupSimilarObjects"></a>
+
 ### GeneralizedPlaneStrainProbe.GroupSimilarObjects()
 
 Run the GroupSimilarObjects action.
 
 <!-- !! processed by numpydoc !! -->
 
-### GeneralizedPlaneStrainProbe.PropertyByName(name: System.String)
-
-Get a property by its unique name.
-
-<!-- !! processed by numpydoc !! -->
+<a id="GeneralizedPlaneStrainProbe.PropertyByAPIName"></a>
 
 ### GeneralizedPlaneStrainProbe.PropertyByAPIName(name: System.String)
 
@@ -490,21 +592,35 @@ If multiple properties have the same API Name, only the first property with that
 
 <!-- !! processed by numpydoc !! -->
 
-### GeneralizedPlaneStrainProbe.CreateParameter(propName: System.String)
+<a id="GeneralizedPlaneStrainProbe.PropertyByName"></a>
 
-Creates a new parameter for a Property.
+### GeneralizedPlaneStrainProbe.PropertyByName(name: System.String)
 
-<!-- !! processed by numpydoc !! -->
-
-### GeneralizedPlaneStrainProbe.GetParameter(propName: System.String)
-
-Gets the parameter corresponding to the given property.
+Get a property by its unique name.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="GeneralizedPlaneStrainProbe.RemoveParameter"></a>
 
 ### GeneralizedPlaneStrainProbe.RemoveParameter(propName: System.String)
 
 Removes the parameter from the parameter set corresponding to the given property.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="GeneralizedPlaneStrainProbe.RenameBasedOnDefinition"></a>
+
+### GeneralizedPlaneStrainProbe.RenameBasedOnDefinition()
+
+Run the RenameBasedOnDefinition action.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="GeneralizedPlaneStrainProbe.SnapToMeshNodes"></a>
+
+### GeneralizedPlaneStrainProbe.SnapToMeshNodes()
+
+Snap the coordinates of probe result to the mesh nodes.
 
 <!-- !! processed by numpydoc !! -->
 

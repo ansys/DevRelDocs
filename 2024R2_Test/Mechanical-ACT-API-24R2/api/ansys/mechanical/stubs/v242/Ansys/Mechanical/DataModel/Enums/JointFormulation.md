@@ -1,6 +1,6 @@
 # `JointFormulation`
 
-
+<a id="ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.JointFormulation"></a>
 
 #### *class* ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.JointFormulation
 
@@ -17,7 +17,7 @@ Specifies the JointFormulation.
 ### Attributes
 
 | Name |
-| ------------------------------------------ |
+| ------------------------------------------------------------------------------------------------------------------ |
 | [`Bushing`](#JointFormulation.Bushing) |
 | [`MPC`](#JointFormulation.MPC) |
 

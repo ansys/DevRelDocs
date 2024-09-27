@@ -1,6 +1,6 @@
 # `DataImportStatus`
 
-
+<a id="ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.DataImportStatus"></a>
 
 #### *class* ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.DataImportStatus
 
@@ -17,7 +17,7 @@ Specifies the DataImportStatus.
 ### Attributes
 
 | Name |
-| ------------------------------------------ |
+| ------------------------------------------------------------------------------------------------------------------ |
 | [`Failed`](#DataImportStatus.Failed) |
 | [`NoData`](#DataImportStatus.NoData) |
 | [`Obsolete`](#DataImportStatus.Obsolete) |

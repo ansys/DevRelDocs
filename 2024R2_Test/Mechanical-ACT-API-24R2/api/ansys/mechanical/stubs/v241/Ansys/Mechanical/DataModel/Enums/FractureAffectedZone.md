@@ -1,6 +1,6 @@
 # `FractureAffectedZone`
 
-
+<a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.FractureAffectedZone"></a>
 
 #### *class* ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.FractureAffectedZone
 
@@ -17,20 +17,20 @@ Specifies the FractureAffectedZone.
 ### Attributes
 
 | Name |
-| ---------------------------------------------------------------------------------------------------------------------------------------------- |
-| [`ProgramControlled`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/FractureAffectedZone.md#FractureAffectedZone.ProgramControlled) |
-| [`Manual`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/FractureAffectedZone.md#FractureAffectedZone.Manual) |
+| ---------------------------------------------------------------- |
+| [`Manual`](#FractureAffectedZone.Manual) |
+| [`ProgramControlled`](#FractureAffectedZone.ProgramControlled) |
 
 <a id="attribute-detail"></a>
 
 ## Attribute detail
 
-<a id="FractureAffectedZone.ProgramControlled"></a>
-
-### FractureAffectedZone.ProgramControlled *= 1*
-
 <a id="FractureAffectedZone.Manual"></a>
 
 ### FractureAffectedZone.Manual *= 2*
+
+<a id="FractureAffectedZone.ProgramControlled"></a>
+
+### FractureAffectedZone.ProgramControlled *= 1*
 
 

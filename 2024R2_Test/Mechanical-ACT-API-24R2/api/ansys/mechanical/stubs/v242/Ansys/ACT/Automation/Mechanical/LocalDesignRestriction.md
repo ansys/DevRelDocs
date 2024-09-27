@@ -1,6 +1,6 @@
 # `LocalDesignRestriction`
 
-
+<a id="ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.LocalDesignRestriction"></a>
 
 #### *class* ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.LocalDesignRestriction
 
@@ -17,63 +17,39 @@ Defines a LocalDesignRestriction.
 ### Methods
 
 | Name | Description |
-|---------------------------|-----------------------------------------------------------------------------------|
-| `Delete`                  | Run the Delete action.                                                            |
-| `GetChildren`             | Gets the list of children, filtered by type.                                      |
-| `GetChildren`             | Gets the list of children, filtered by type.                                      |
-| `Activate`                | Activate the current object.                                                      |
-| `CopyTo`                  | Copies all visible properties from this object to another.                        |
-| `Duplicate`               | Creates a copy of the current DataModelObject.                                    |
-| `GroupAllSimilarChildren` | Run the GroupAllSimilarChildren action.                                           |
-| `GroupSimilarObjects`     | Run the GroupSimilarObjects action.                                               |
-| `PropertyByName`          | Get a property by its unique name.                                                |
-| `PropertyByAPIName`       | Get a property by its API name.                                                   |
-| `CreateParameter`         | Creates a new parameter for a Property.                                           |
-| `GetParameter`            | Gets the parameter corresponding to the given property.                           |
-| `RemoveParameter`         | Removes the parameter from the parameter set corresponding to the given property. |
+|------------------------------------------------------------------------------|-----------------------------------------------------------------------------------|
+| [`Activate`](#LocalDesignRestriction.Activate)                               | Activate the current object.                                                      |
+| [`CopyTo`](#LocalDesignRestriction.CopyTo)                                   | Copies all visible properties from this object to another.                        |
+| [`CreateParameter`](#LocalDesignRestriction.CreateParameter)                 | Creates a new parameter for a Property.                                           |
+| [`Delete`](#LocalDesignRestriction.Delete)                                   | Run the Delete action.                                                            |
+| [`Duplicate`](#LocalDesignRestriction.Duplicate)                             | Creates a copy of the current DataModelObject.                                    |
+| [`GetChildren`](#LocalDesignRestriction.GetChildren)                         | Gets the list of children, filtered by type.                                      |
+| [`GetParameter`](#LocalDesignRestriction.GetParameter)                       | Gets the parameter corresponding to the given property.                           |
+| [`GroupAllSimilarChildren`](#LocalDesignRestriction.GroupAllSimilarChildren) | Run the GroupAllSimilarChildren action.                                           |
+| [`GroupSimilarObjects`](#LocalDesignRestriction.GroupSimilarObjects)         | Run the GroupSimilarObjects action.                                               |
+| [`PropertyByAPIName`](#LocalDesignRestriction.PropertyByAPIName)             | Get a property by its API name.                                                   |
+| [`PropertyByName`](#LocalDesignRestriction.PropertyByName)                   | Get a property by its unique name.                                                |
+| [`RemoveParameter`](#LocalDesignRestriction.RemoveParameter)                 | Removes the parameter from the parameter set corresponding to the given property. |
 
 ### Properties
 
 | Name | Description |
-|-----------------------------------|---------------------------------------------------------------|
-| `InternalObject`                  | Gets the internal object. For advanced usage only.            |
-| `DataModelObjectCategory`         | Gets the current DataModelObject's category.                  |
-| `ExclusionRegionLocation`         | Gets or sets the ExclusionRegionLocation.                     |
-| `ExclusionScopingMethod`          | Gets or sets the ExclusionScopingMethod.                      |
-| `Children`                        | Gets the list of children.                                    |
-| `MaxCumulatedDisplacementControl` | Gets or sets the MaxCumulatedDisplacementControl.             |
-| `MorphingTotalMoveLimit`          | Gets or sets the MorphingTotalMoveLimit.                      |
-| `InternalObject`                  | Gets the internal object. For advanced usage only.            |
-| `Properties`                      | Gets the list of properties for this object.                  |
-| `VisibleProperties`               | Gets the list of properties that are visible for this object. |
+|----------------------------------------------------------------------------------------------|---------------------------------------------------------------|
+| [`Children`](#LocalDesignRestriction.Children)                                               | Gets the list of children.                                    |
+| [`DataModelObjectCategory`](#LocalDesignRestriction.DataModelObjectCategory)                 | Gets the current DataModelObject’s category.                  |
+| [`ExclusionRegionLocation`](#LocalDesignRestriction.ExclusionRegionLocation)                 | Gets or sets the ExclusionRegionLocation.                     |
+| [`ExclusionScopingMethod`](#LocalDesignRestriction.ExclusionScopingMethod)                   | Gets or sets the ExclusionScopingMethod.                      |
+| [`InternalObject`](#LocalDesignRestriction.InternalObject)                                   | Gets the internal object. For advanced usage only.            |
+| [`MaxCumulatedDisplacementControl`](#LocalDesignRestriction.MaxCumulatedDisplacementControl) | Gets or sets the MaxCumulatedDisplacementControl.             |
+| [`MorphingTotalMoveLimit`](#LocalDesignRestriction.MorphingTotalMoveLimit)                   | Gets or sets the MorphingTotalMoveLimit.                      |
+| [`Properties`](#LocalDesignRestriction.Properties)                                           | Gets the list of properties for this object.                  |
+| [`VisibleProperties`](#LocalDesignRestriction.VisibleProperties)                             | Gets the list of properties that are visible for this object. |
 
 <a id="property-detail"></a>
 
 ## Property detail
 
-### *property* LocalDesignRestriction.InternalObject *: Ansys.Common.Interop.DSObjectsAuto.IDSOptimizationRegionAuto | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets the internal object. For advanced usage only.
-
-<!-- !! processed by numpydoc !! -->
-
-### *property* LocalDesignRestriction.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../v241/Ansys/Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets the current DataModelObject's category.
-
-<!-- !! processed by numpydoc !! -->
-
-### *property* LocalDesignRestriction.ExclusionRegionLocation *: Ansys.ACT.Interfaces.Common.ISelectionInfo | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the ExclusionRegionLocation.
-
-<!-- !! processed by numpydoc !! -->
-
-### *property* LocalDesignRestriction.ExclusionScopingMethod *: [Ansys.Mechanical.DataModel.Enums.GeometryDefineByType](../../../../../v241/Ansys/Mechanical/DataModel/Enums/GeometryDefineByType.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.GeometryDefineByType) | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the ExclusionScopingMethod.
-
-<!-- !! processed by numpydoc !! -->
+<a id="LocalDesignRestriction.Children"></a>
 
 ### *property* LocalDesignRestriction.Children *: System.Collections.Generic.IList[Ansys.ACT.Automation.Mechanical.DataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -81,11 +57,47 @@ Gets the list of children.
 
 <!-- !! processed by numpydoc !! -->
 
-### *property* LocalDesignRestriction.MaxCumulatedDisplacementControl *: [Ansys.Mechanical.DataModel.Enums.TopoPropertyControlType](../../../../../v241/Ansys/Mechanical/DataModel/Enums/TopoPropertyControlType.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.TopoPropertyControlType) | [None](https://docs.python.org/3/library/constants.html#None)*
+<a id="LocalDesignRestriction.DataModelObjectCategory"></a>
+
+### *property* LocalDesignRestriction.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets the current DataModelObject’s category.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="LocalDesignRestriction.ExclusionRegionLocation"></a>
+
+### *property* LocalDesignRestriction.ExclusionRegionLocation *: Ansys.ACT.Interfaces.Common.ISelectionInfo | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the ExclusionRegionLocation.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="LocalDesignRestriction.ExclusionScopingMethod"></a>
+
+### *property* LocalDesignRestriction.ExclusionScopingMethod *: [Ansys.Mechanical.DataModel.Enums.GeometryDefineByType](../../../Mechanical/DataModel/Enums/GeometryDefineByType.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.GeometryDefineByType) | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the ExclusionScopingMethod.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="LocalDesignRestriction.InternalObject"></a>
+
+### *property* LocalDesignRestriction.InternalObject *: Ansys.Common.Interop.DSObjectsAuto.IDSOptimizationRegionAuto | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets the internal object. For advanced usage only.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="LocalDesignRestriction.MaxCumulatedDisplacementControl"></a>
+
+### *property* LocalDesignRestriction.MaxCumulatedDisplacementControl *: [Ansys.Mechanical.DataModel.Enums.TopoPropertyControlType](../../../Mechanical/DataModel/Enums/TopoPropertyControlType.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.TopoPropertyControlType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the MaxCumulatedDisplacementControl.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="LocalDesignRestriction.MorphingTotalMoveLimit"></a>
 
 ### *property* LocalDesignRestriction.MorphingTotalMoveLimit *: System.Double | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -93,17 +105,15 @@ Gets or sets the MorphingTotalMoveLimit.
 
 <!-- !! processed by numpydoc !! -->
 
-### *property* LocalDesignRestriction.InternalObject *: System.Object | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets the internal object. For advanced usage only.
-
-<!-- !! processed by numpydoc !! -->
+<a id="LocalDesignRestriction.Properties"></a>
 
 ### *property* LocalDesignRestriction.Properties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of properties for this object.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="LocalDesignRestriction.VisibleProperties"></a>
 
 ### *property* LocalDesignRestriction.VisibleProperties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -115,23 +125,7 @@ Gets the list of properties that are visible for this object.
 
 ## Method detail
 
-### LocalDesignRestriction.Delete()
-
-Run the Delete action.
-
-<!-- !! processed by numpydoc !! -->
-
-### LocalDesignRestriction.GetChildren(recurses: System.Boolean, children: System.Collections.Generic.IList[ChildrenType])
-
-Gets the list of children, filtered by type.
-
-<!-- !! processed by numpydoc !! -->
-
-### LocalDesignRestriction.GetChildren(category: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../v241/Ansys/Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory), recurses: System.Boolean, children: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject])
-
-Gets the list of children, filtered by type.
-
-<!-- !! processed by numpydoc !! -->
+<a id="LocalDesignRestriction.Activate"></a>
 
 ### LocalDesignRestriction.Activate()
 
@@ -139,11 +133,31 @@ Activate the current object.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="LocalDesignRestriction.CopyTo"></a>
+
 ### LocalDesignRestriction.CopyTo(other: Ansys.ACT.Automation.Mechanical.DataModelObject)
 
 Copies all visible properties from this object to another.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="LocalDesignRestriction.CreateParameter"></a>
+
+### LocalDesignRestriction.CreateParameter(propName: System.String)
+
+Creates a new parameter for a Property.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="LocalDesignRestriction.Delete"></a>
+
+### LocalDesignRestriction.Delete()
+
+Run the Delete action.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="LocalDesignRestriction.Duplicate"></a>
 
 ### LocalDesignRestriction.Duplicate()
 
@@ -151,11 +165,31 @@ Creates a copy of the current DataModelObject.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="LocalDesignRestriction.GetChildren"></a>
+
+### LocalDesignRestriction.GetChildren(recurses: System.Boolean, children: System.Collections.Generic.IList[ChildrenType])
+
+Gets the list of children, filtered by type.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="LocalDesignRestriction.GetParameter"></a>
+
+### LocalDesignRestriction.GetParameter(propName: System.String)
+
+Gets the parameter corresponding to the given property.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="LocalDesignRestriction.GroupAllSimilarChildren"></a>
+
 ### LocalDesignRestriction.GroupAllSimilarChildren()
 
 Run the GroupAllSimilarChildren action.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="LocalDesignRestriction.GroupSimilarObjects"></a>
 
 ### LocalDesignRestriction.GroupSimilarObjects()
 
@@ -163,11 +197,7 @@ Run the GroupSimilarObjects action.
 
 <!-- !! processed by numpydoc !! -->
 
-### LocalDesignRestriction.PropertyByName(name: System.String)
-
-Get a property by its unique name.
-
-<!-- !! processed by numpydoc !! -->
+<a id="LocalDesignRestriction.PropertyByAPIName"></a>
 
 ### LocalDesignRestriction.PropertyByAPIName(name: System.String)
 
@@ -178,17 +208,15 @@ If multiple properties have the same API Name, only the first property with that
 
 <!-- !! processed by numpydoc !! -->
 
-### LocalDesignRestriction.CreateParameter(propName: System.String)
+<a id="LocalDesignRestriction.PropertyByName"></a>
 
-Creates a new parameter for a Property.
+### LocalDesignRestriction.PropertyByName(name: System.String)
 
-<!-- !! processed by numpydoc !! -->
-
-### LocalDesignRestriction.GetParameter(propName: System.String)
-
-Gets the parameter corresponding to the given property.
+Get a property by its unique name.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="LocalDesignRestriction.RemoveParameter"></a>
 
 ### LocalDesignRestriction.RemoveParameter(propName: System.String)
 

@@ -1,6 +1,6 @@
 # `IMechanicalUserLoad`
 
-
+<a id="ansys.mechanical.stubs.v241.Ansys.ACT.Interfaces.Mechanical.IMechanicalUserLoad"></a>
 
 #### *class* ansys.mechanical.stubs.v241.Ansys.ACT.Interfaces.Mechanical.IMechanicalUserLoad
 

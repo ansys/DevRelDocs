@@ -1,6 +1,6 @@
 # `DSCampbellYAxisDataType`
 
-
+<a id="ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.DSCampbellYAxisDataType"></a>
 
 #### *class* ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.DSCampbellYAxisDataType
 
@@ -17,7 +17,7 @@ Specifies the DSCampbellYAxisDataType.
 ### Attributes
 
 | Name |
-| ------------------------------------------------------------------------- |
+| -------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | [`Frequency`](#DSCampbellYAxisDataType.Frequency) |
 | [`LogarithmicDecrement`](#DSCampbellYAxisDataType.LogarithmicDecrement) |
 | [`ModalDampingRatio`](#DSCampbellYAxisDataType.ModalDampingRatio) |

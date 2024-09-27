@@ -1,6 +1,6 @@
 # `ZCrossSection`
 
-
+<a id="ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.ZCrossSection"></a>
 
 #### *class* ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.ZCrossSection
 
@@ -17,57 +17,51 @@ Defines a ZCrossSection.
 ### Methods
 
 | Name | Description |
-|---------------------------|-----------------------------------------------------------------------------------|
-| `Delete`                  | Run the Delete action.                                                            |
-| `GetChildren`             | Gets the list of children, filtered by type.                                      |
-| `GetChildren`             | Gets the list of children, filtered by type.                                      |
-| `AddComment`              | Creates a new child Comment.                                                      |
-| `AddFigure`               | Creates a new child Figure.                                                       |
-| `AddImage`                | Creates a new child Image.                                                        |
-| `Activate`                | Activate the current object.                                                      |
-| `CopyTo`                  | Copies all visible properties from this object to another.                        |
-| `Duplicate`               | Creates a copy of the current DataModelObject.                                    |
-| `GroupAllSimilarChildren` | Run the GroupAllSimilarChildren action.                                           |
-| `GroupSimilarObjects`     | Run the GroupSimilarObjects action.                                               |
-| `PropertyByName`          | Get a property by its unique name.                                                |
-| `PropertyByAPIName`       | Get a property by its API name.                                                   |
-| `CreateParameter`         | Creates a new parameter for a Property.                                           |
-| `GetParameter`            | Gets the parameter corresponding to the given property.                           |
-| `RemoveParameter`         | Removes the parameter from the parameter set corresponding to the given property. |
+|---------------------------------------------------------------------|-----------------------------------------------------------------------------------|
+| [`Activate`](#ZCrossSection.Activate)                               | Activate the current object.                                                      |
+| [`AddComment`](#ZCrossSection.AddComment)                           | Creates a new child Comment.                                                      |
+| [`AddFigure`](#ZCrossSection.AddFigure)                             | Creates a new child Figure.                                                       |
+| [`AddImage`](#ZCrossSection.AddImage)                               | Creates a new child Image.                                                        |
+| [`CopyTo`](#ZCrossSection.CopyTo)                                   | Copies all visible properties from this object to another.                        |
+| [`CreateParameter`](#ZCrossSection.CreateParameter)                 | Creates a new parameter for a Property.                                           |
+| [`Delete`](#ZCrossSection.Delete)                                   | Run the Delete action.                                                            |
+| [`Duplicate`](#ZCrossSection.Duplicate)                             | Creates a copy of the current DataModelObject.                                    |
+| [`GetChildren`](#ZCrossSection.GetChildren)                         | Gets the list of children, filtered by type.                                      |
+| [`GetParameter`](#ZCrossSection.GetParameter)                       | Gets the parameter corresponding to the given property.                           |
+| [`GroupAllSimilarChildren`](#ZCrossSection.GroupAllSimilarChildren) | Run the GroupAllSimilarChildren action.                                           |
+| [`GroupSimilarObjects`](#ZCrossSection.GroupSimilarObjects)         | Run the GroupSimilarObjects action.                                               |
+| [`PropertyByAPIName`](#ZCrossSection.PropertyByAPIName)             | Get a property by its API name.                                                   |
+| [`PropertyByName`](#ZCrossSection.PropertyByName)                   | Get a property by its unique name.                                                |
+| [`RemoveParameter`](#ZCrossSection.RemoveParameter)                 | Removes the parameter from the parameter set corresponding to the given property. |
 
 ### Properties
 
 | Name | Description |
-|---------------------------|---------------------------------------------------------------|
-| `InternalObject`          | Gets the internal object. For advanced usage only.            |
-| `Area`                    | Gets the Area.                                                |
-| `IYY`                     | Gets the IYY.                                                 |
-| `IZZ`                     | Gets the IZZ.                                                 |
-| `Thick1`                  | Gets or sets the Thick1.                                      |
-| `Thick2`                  | Gets or sets the Thick2.                                      |
-| `Thick3`                  | Gets or sets the Thick3.                                      |
-| `Width1`                  | Gets or sets the Width1.                                      |
-| `Width2`                  | Gets or sets the Width2.                                      |
-| `Width3`                  | Gets or sets the Width3.                                      |
-| `DataModelObjectCategory` | Gets the current DataModelObject's category.                  |
-| `Children`                | Gets the list of children.                                    |
-| `Comments`                | Gets the list of associated comments.                         |
-| `Figures`                 | Gets the list of associated figures.                          |
-| `Images`                  | Gets the list of associated images.                           |
-| `ReadOnly`                | Gets or sets the ReadOnly.                                    |
-| `InternalObject`          | Gets the internal object. For advanced usage only.            |
-| `Properties`              | Gets the list of properties for this object.                  |
-| `VisibleProperties`       | Gets the list of properties that are visible for this object. |
+|---------------------------------------------------------------------|---------------------------------------------------------------|
+| [`Area`](#ZCrossSection.Area)                                       | Gets the Area.                                                |
+| [`Children`](#ZCrossSection.Children)                               | Gets the list of children.                                    |
+| [`Comments`](#ZCrossSection.Comments)                               | Gets the list of associated comments.                         |
+| [`DataModelObjectCategory`](#ZCrossSection.DataModelObjectCategory) | Gets the current DataModelObject’s category.                  |
+| [`Figures`](#ZCrossSection.Figures)                                 | Gets the list of associated figures.                          |
+| [`IYY`](#ZCrossSection.IYY)                                         | Gets the IYY.                                                 |
+| [`IZZ`](#ZCrossSection.IZZ)                                         | Gets the IZZ.                                                 |
+| [`Images`](#ZCrossSection.Images)                                   | Gets the list of associated images.                           |
+| [`InternalObject`](#ZCrossSection.InternalObject)                   | Gets the internal object. For advanced usage only.            |
+| [`Properties`](#ZCrossSection.Properties)                           | Gets the list of properties for this object.                  |
+| [`ReadOnly`](#ZCrossSection.ReadOnly)                               | Gets or sets the ReadOnly.                                    |
+| [`Thick1`](#ZCrossSection.Thick1)                                   | Gets or sets the Thick1.                                      |
+| [`Thick2`](#ZCrossSection.Thick2)                                   | Gets or sets the Thick2.                                      |
+| [`Thick3`](#ZCrossSection.Thick3)                                   | Gets or sets the Thick3.                                      |
+| [`VisibleProperties`](#ZCrossSection.VisibleProperties)             | Gets the list of properties that are visible for this object. |
+| [`Width1`](#ZCrossSection.Width1)                                   | Gets or sets the Width1.                                      |
+| [`Width2`](#ZCrossSection.Width2)                                   | Gets or sets the Width2.                                      |
+| [`Width3`](#ZCrossSection.Width3)                                   | Gets or sets the Width3.                                      |
 
 <a id="property-detail"></a>
 
 ## Property detail
 
-### *property* ZCrossSection.InternalObject *: Ansys.Common.Interop.DSObjectsAuto.IDSCrossSectionAuto | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets the internal object. For advanced usage only.
-
-<!-- !! processed by numpydoc !! -->
+<a id="ZCrossSection.Area"></a>
 
 ### *property* ZCrossSection.Area *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -75,59 +69,7 @@ Gets the Area.
 
 <!-- !! processed by numpydoc !! -->
 
-### *property* ZCrossSection.IYY *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets the IYY.
-
-<!-- !! processed by numpydoc !! -->
-
-### *property* ZCrossSection.IZZ *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets the IZZ.
-
-<!-- !! processed by numpydoc !! -->
-
-### *property* ZCrossSection.Thick1 *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the Thick1.
-
-<!-- !! processed by numpydoc !! -->
-
-### *property* ZCrossSection.Thick2 *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the Thick2.
-
-<!-- !! processed by numpydoc !! -->
-
-### *property* ZCrossSection.Thick3 *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the Thick3.
-
-<!-- !! processed by numpydoc !! -->
-
-### *property* ZCrossSection.Width1 *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the Width1.
-
-<!-- !! processed by numpydoc !! -->
-
-### *property* ZCrossSection.Width2 *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the Width2.
-
-<!-- !! processed by numpydoc !! -->
-
-### *property* ZCrossSection.Width3 *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the Width3.
-
-<!-- !! processed by numpydoc !! -->
-
-### *property* ZCrossSection.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets the current DataModelObject's category.
-
-<!-- !! processed by numpydoc !! -->
+<a id="ZCrossSection.Children"></a>
 
 ### *property* ZCrossSection.Children *: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -135,11 +77,23 @@ Gets the list of children.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="ZCrossSection.Comments"></a>
+
 ### *property* ZCrossSection.Comments *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Comment](Comment.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated comments.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="ZCrossSection.DataModelObjectCategory"></a>
+
+### *property* ZCrossSection.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../v242/Ansys/Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets the current DataModelObject’s category.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ZCrossSection.Figures"></a>
 
 ### *property* ZCrossSection.Figures *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Figure](Figure.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -147,23 +101,39 @@ Gets the list of associated figures.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="ZCrossSection.IYY"></a>
+
+### *property* ZCrossSection.IYY *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets the IYY.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ZCrossSection.IZZ"></a>
+
+### *property* ZCrossSection.IZZ *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets the IZZ.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ZCrossSection.Images"></a>
+
 ### *property* ZCrossSection.Images *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Image](Image.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated images.
 
 <!-- !! processed by numpydoc !! -->
 
-### *property* ZCrossSection.ReadOnly *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+<a id="ZCrossSection.InternalObject"></a>
 
-Gets or sets the ReadOnly.
-
-<!-- !! processed by numpydoc !! -->
-
-### *property* ZCrossSection.InternalObject *: System.Object | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ZCrossSection.InternalObject *: Ansys.Common.Interop.DSObjectsAuto.IDSCrossSectionAuto | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the internal object. For advanced usage only.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="ZCrossSection.Properties"></a>
 
 ### *property* ZCrossSection.Properties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -171,9 +141,67 @@ Gets the list of properties for this object.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="ZCrossSection.ReadOnly"></a>
+
+### *property* ZCrossSection.ReadOnly *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the ReadOnly.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ZCrossSection.Thick1"></a>
+
+### *property* ZCrossSection.Thick1 *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the Thick1.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ZCrossSection.Thick2"></a>
+
+### *property* ZCrossSection.Thick2 *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the Thick2.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ZCrossSection.Thick3"></a>
+
+### *property* ZCrossSection.Thick3 *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the Thick3.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ZCrossSection.VisibleProperties"></a>
+
 ### *property* ZCrossSection.VisibleProperties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of properties that are visible for this object.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ZCrossSection.Width1"></a>
+
+### *property* ZCrossSection.Width1 *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the Width1.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ZCrossSection.Width2"></a>
+
+### *property* ZCrossSection.Width2 *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the Width2.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ZCrossSection.Width3"></a>
+
+### *property* ZCrossSection.Width3 *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the Width3.
 
 <!-- !! processed by numpydoc !! -->
 
@@ -181,23 +209,15 @@ Gets the list of properties that are visible for this object.
 
 ## Method detail
 
-### ZCrossSection.Delete()
+<a id="ZCrossSection.Activate"></a>
 
-Run the Delete action.
+### ZCrossSection.Activate()
 
-<!-- !! processed by numpydoc !! -->
-
-### ZCrossSection.GetChildren(recurses: System.Boolean, children: System.Collections.Generic.IList[ChildrenType])
-
-Gets the list of children, filtered by type.
+Activate the current object.
 
 <!-- !! processed by numpydoc !! -->
 
-### ZCrossSection.GetChildren(category: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory), recurses: System.Boolean, children: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject])
-
-Gets the list of children, filtered by type.
-
-<!-- !! processed by numpydoc !! -->
+<a id="ZCrossSection.AddComment"></a>
 
 ### ZCrossSection.AddComment()
 
@@ -205,11 +225,15 @@ Creates a new child Comment.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="ZCrossSection.AddFigure"></a>
+
 ### ZCrossSection.AddFigure()
 
 Creates a new child Figure.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="ZCrossSection.AddImage"></a>
 
 ### ZCrossSection.AddImage(filePath: System.String)
 
@@ -221,11 +245,7 @@ if not, the image will be a screen capture of the Geometry window.
 
 <!-- !! processed by numpydoc !! -->
 
-### ZCrossSection.Activate()
-
-Activate the current object.
-
-<!-- !! processed by numpydoc !! -->
+<a id="ZCrossSection.CopyTo"></a>
 
 ### ZCrossSection.CopyTo(other: Ansys.ACT.Automation.Mechanical.DataModelObject)
 
@@ -233,11 +253,47 @@ Copies all visible properties from this object to another.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="ZCrossSection.CreateParameter"></a>
+
+### ZCrossSection.CreateParameter(propName: System.String)
+
+Creates a new parameter for a Property.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ZCrossSection.Delete"></a>
+
+### ZCrossSection.Delete()
+
+Run the Delete action.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ZCrossSection.Duplicate"></a>
+
 ### ZCrossSection.Duplicate()
 
 Creates a copy of the current DataModelObject.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="ZCrossSection.GetChildren"></a>
+
+### ZCrossSection.GetChildren(recurses: System.Boolean, children: System.Collections.Generic.IList[ChildrenType])
+
+Gets the list of children, filtered by type.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ZCrossSection.GetParameter"></a>
+
+### ZCrossSection.GetParameter(propName: System.String)
+
+Gets the parameter corresponding to the given property.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ZCrossSection.GroupAllSimilarChildren"></a>
 
 ### ZCrossSection.GroupAllSimilarChildren()
 
@@ -245,17 +301,15 @@ Run the GroupAllSimilarChildren action.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="ZCrossSection.GroupSimilarObjects"></a>
+
 ### ZCrossSection.GroupSimilarObjects()
 
 Run the GroupSimilarObjects action.
 
 <!-- !! processed by numpydoc !! -->
 
-### ZCrossSection.PropertyByName(name: System.String)
-
-Get a property by its unique name.
-
-<!-- !! processed by numpydoc !! -->
+<a id="ZCrossSection.PropertyByAPIName"></a>
 
 ### ZCrossSection.PropertyByAPIName(name: System.String)
 
@@ -266,17 +320,15 @@ If multiple properties have the same API Name, only the first property with that
 
 <!-- !! processed by numpydoc !! -->
 
-### ZCrossSection.CreateParameter(propName: System.String)
+<a id="ZCrossSection.PropertyByName"></a>
 
-Creates a new parameter for a Property.
+### ZCrossSection.PropertyByName(name: System.String)
 
-<!-- !! processed by numpydoc !! -->
-
-### ZCrossSection.GetParameter(propName: System.String)
-
-Gets the parameter corresponding to the given property.
+Get a property by its unique name.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="ZCrossSection.RemoveParameter"></a>
 
 ### ZCrossSection.RemoveParameter(propName: System.String)
 

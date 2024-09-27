@@ -1,12 +1,12 @@
 # `OutcomeType`
 
-
+<a id="ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.MechanicalEnums.MeshWorkflow.OutcomeType"></a>
 
 #### *class* ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.MechanicalEnums.MeshWorkflow.OutcomeType
 
 Bases: [`enum.Enum`](https://docs.python.org/3/library/enum.html#enum.Enum)
 
-This enum is referenced in the ìOutcomeî tree node and reflects the type of outcome being configured. Based on the type of an outcome different rules are applied which define the applicable list of outcome data to be used.
+This enum is referenced in the ‚ÄúOutcome‚Äù tree node and reflects the type of outcome being configured. Based on the type of an outcome different rules are applied which define the applicable list of outcome data to be used.
 
 <!-- !! processed by numpydoc !! -->
 
@@ -17,7 +17,7 @@ This enum is referenced in the ìOutcomeî tree node and reflects the type of outc
 ### Attributes
 
 | Name |
-| ------------------------------------------------------------------- |
+| ---------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | [`EnclosureExternalScope`](#OutcomeType.EnclosureExternalScope) |
 | [`EnclosureInternalScope`](#OutcomeType.EnclosureInternalScope) |
 | [`ExtrusionEndScope`](#OutcomeType.ExtrusionEndScope) |

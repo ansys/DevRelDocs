@@ -1,6 +1,6 @@
 # `JointRotationDOFType`
 
-
+<a id="ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.JointRotationDOFType"></a>
 
 #### *class* ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.JointRotationDOFType
 
@@ -17,10 +17,10 @@ Specifies the JointRotationDOFType.
 ### Attributes
 
 | Name |
-| -------------------------------------------- |
+| ------------------------------------------------------------------------------------------------------------------------ |
 | [`FixAll`](#JointRotationDOFType.FixAll) |
-| [`FreeX`](#JointRotationDOFType.FreeX) |
 | [`FreeAll`](#JointRotationDOFType.FreeAll) |
+| [`FreeX`](#JointRotationDOFType.FreeX) |
 | [`FreeY`](#JointRotationDOFType.FreeY) |
 | [`FreeZ`](#JointRotationDOFType.FreeZ) |
 
@@ -32,13 +32,13 @@ Specifies the JointRotationDOFType.
 
 ### JointRotationDOFType.FixAll *= 0*
 
-<a id="JointRotationDOFType.FreeX"></a>
-
-### JointRotationDOFType.FreeX *= 1*
-
 <a id="JointRotationDOFType.FreeAll"></a>
 
 ### JointRotationDOFType.FreeAll *= 4*
+
+<a id="JointRotationDOFType.FreeX"></a>
+
+### JointRotationDOFType.FreeX *= 1*
 
 <a id="JointRotationDOFType.FreeY"></a>
 

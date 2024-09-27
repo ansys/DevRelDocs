@@ -1,6 +1,6 @@
 # `SlidingContactType`
 
-
+<a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.SlidingContactType"></a>
 
 #### *class* ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.SlidingContactType
 
@@ -17,9 +17,9 @@ Specifies the SlidingContactType.
 ### Attributes
 
 | Name |
-| ---------------------------------------------------------------------------------------------------------------------------------------- |
-| [`ConnectedSurface`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/SlidingContactType.md#SlidingContactType.ConnectedSurface) |
-| [`DiscreteSurface`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/SlidingContactType.md#SlidingContactType.DiscreteSurface) |
+| -------------------------------------------------------------- |
+| [`ConnectedSurface`](#SlidingContactType.ConnectedSurface) |
+| [`DiscreteSurface`](#SlidingContactType.DiscreteSurface) |
 
 <a id="attribute-detail"></a>
 

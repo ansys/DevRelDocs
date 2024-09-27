@@ -1,6 +1,6 @@
 # `ContactSearchingType`
 
-
+<a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.ContactSearchingType"></a>
 
 #### *class* ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.ContactSearchingType
 
@@ -17,12 +17,12 @@ Specifies the ContactSearchingType.
 ### Attributes
 
 | Name |
-| -------------------------------------------------------------------------------------------------------------------------------------------- |
-| [`AcrossAssemblies`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/ContactSearchingType.md#ContactSearchingType.AcrossAssemblies) |
-| [`AcrossBodies`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/ContactSearchingType.md#ContactSearchingType.AcrossBodies) |
-| [`AcrossFiles`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/ContactSearchingType.md#ContactSearchingType.AcrossFiles) |
-| [`AcrossParts`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/ContactSearchingType.md#ContactSearchingType.AcrossParts) |
-| [`Anywhere`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/ContactSearchingType.md#ContactSearchingType.Anywhere) |
+| ---------------------------------------------------------------- |
+| [`AcrossAssemblies`](#ContactSearchingType.AcrossAssemblies) |
+| [`AcrossBodies`](#ContactSearchingType.AcrossBodies) |
+| [`AcrossFiles`](#ContactSearchingType.AcrossFiles) |
+| [`AcrossParts`](#ContactSearchingType.AcrossParts) |
+| [`Anywhere`](#ContactSearchingType.Anywhere) |
 
 <a id="attribute-detail"></a>
 

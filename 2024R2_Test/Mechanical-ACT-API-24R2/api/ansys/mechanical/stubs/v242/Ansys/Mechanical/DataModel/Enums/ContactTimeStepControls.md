@@ -1,6 +1,6 @@
 # `ContactTimeStepControls`
 
-
+<a id="ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.ContactTimeStepControls"></a>
 
 #### *class* ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.ContactTimeStepControls
 
@@ -17,7 +17,7 @@ Specifies the ContactTimeStepControls.
 ### Attributes
 
 | Name |
-| ------------------------------------------------------------------------- |
+| -------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | [`AutomaticBisection`](#ContactTimeStepControls.AutomaticBisection) |
 | [`None_`](#ContactTimeStepControls.None_) |
 | [`PredictForImpact`](#ContactTimeStepControls.PredictForImpact) |

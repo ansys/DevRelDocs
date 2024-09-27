@@ -1,6 +1,6 @@
 # `ChannelCrossSection`
 
-
+<a id="ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.ChannelCrossSection"></a>
 
 #### *class* ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.ChannelCrossSection
 
@@ -17,57 +17,51 @@ Defines a ChannelCrossSection.
 ### Methods
 
 | Name | Description |
-|---------------------------|-----------------------------------------------------------------------------------|
-| `Delete`                  | Run the Delete action.                                                            |
-| `GetChildren`             | Gets the list of children, filtered by type.                                      |
-| `GetChildren`             | Gets the list of children, filtered by type.                                      |
-| `AddComment`              | Creates a new child Comment.                                                      |
-| `AddFigure`               | Creates a new child Figure.                                                       |
-| `AddImage`                | Creates a new child Image.                                                        |
-| `Activate`                | Activate the current object.                                                      |
-| `CopyTo`                  | Copies all visible properties from this object to another.                        |
-| `Duplicate`               | Creates a copy of the current DataModelObject.                                    |
-| `GroupAllSimilarChildren` | Run the GroupAllSimilarChildren action.                                           |
-| `GroupSimilarObjects`     | Run the GroupSimilarObjects action.                                               |
-| `PropertyByName`          | Get a property by its unique name.                                                |
-| `PropertyByAPIName`       | Get a property by its API name.                                                   |
-| `CreateParameter`         | Creates a new parameter for a Property.                                           |
-| `GetParameter`            | Gets the parameter corresponding to the given property.                           |
-| `RemoveParameter`         | Removes the parameter from the parameter set corresponding to the given property. |
+|---------------------------------------------------------------------------|-----------------------------------------------------------------------------------|
+| [`Activate`](#ChannelCrossSection.Activate)                               | Activate the current object.                                                      |
+| [`AddComment`](#ChannelCrossSection.AddComment)                           | Creates a new child Comment.                                                      |
+| [`AddFigure`](#ChannelCrossSection.AddFigure)                             | Creates a new child Figure.                                                       |
+| [`AddImage`](#ChannelCrossSection.AddImage)                               | Creates a new child Image.                                                        |
+| [`CopyTo`](#ChannelCrossSection.CopyTo)                                   | Copies all visible properties from this object to another.                        |
+| [`CreateParameter`](#ChannelCrossSection.CreateParameter)                 | Creates a new parameter for a Property.                                           |
+| [`Delete`](#ChannelCrossSection.Delete)                                   | Run the Delete action.                                                            |
+| [`Duplicate`](#ChannelCrossSection.Duplicate)                             | Creates a copy of the current DataModelObject.                                    |
+| [`GetChildren`](#ChannelCrossSection.GetChildren)                         | Gets the list of children, filtered by type.                                      |
+| [`GetParameter`](#ChannelCrossSection.GetParameter)                       | Gets the parameter corresponding to the given property.                           |
+| [`GroupAllSimilarChildren`](#ChannelCrossSection.GroupAllSimilarChildren) | Run the GroupAllSimilarChildren action.                                           |
+| [`GroupSimilarObjects`](#ChannelCrossSection.GroupSimilarObjects)         | Run the GroupSimilarObjects action.                                               |
+| [`PropertyByAPIName`](#ChannelCrossSection.PropertyByAPIName)             | Get a property by its API name.                                                   |
+| [`PropertyByName`](#ChannelCrossSection.PropertyByName)                   | Get a property by its unique name.                                                |
+| [`RemoveParameter`](#ChannelCrossSection.RemoveParameter)                 | Removes the parameter from the parameter set corresponding to the given property. |
 
 ### Properties
 
 | Name | Description |
-|---------------------------|---------------------------------------------------------------|
-| `InternalObject`          | Gets the internal object. For advanced usage only.            |
-| `Area`                    | Gets the Area.                                                |
-| `IYY`                     | Gets the IYY.                                                 |
-| `IZZ`                     | Gets the IZZ.                                                 |
-| `Thick1`                  | Gets or sets the Thick1.                                      |
-| `Thick2`                  | Gets or sets the Thick2.                                      |
-| `Thick3`                  | Gets or sets the Thick3.                                      |
-| `Width1`                  | Gets or sets the Width1.                                      |
-| `Width2`                  | Gets or sets the Width2.                                      |
-| `Width3`                  | Gets or sets the Width3.                                      |
-| `DataModelObjectCategory` | Gets the current DataModelObject's category.                  |
-| `Children`                | Gets the list of children.                                    |
-| `Comments`                | Gets the list of associated comments.                         |
-| `Figures`                 | Gets the list of associated figures.                          |
-| `Images`                  | Gets the list of associated images.                           |
-| `ReadOnly`                | Gets or sets the ReadOnly.                                    |
-| `InternalObject`          | Gets the internal object. For advanced usage only.            |
-| `Properties`              | Gets the list of properties for this object.                  |
-| `VisibleProperties`       | Gets the list of properties that are visible for this object. |
+|---------------------------------------------------------------------------|---------------------------------------------------------------|
+| [`Area`](#ChannelCrossSection.Area)                                       | Gets the Area.                                                |
+| [`Children`](#ChannelCrossSection.Children)                               | Gets the list of children.                                    |
+| [`Comments`](#ChannelCrossSection.Comments)                               | Gets the list of associated comments.                         |
+| [`DataModelObjectCategory`](#ChannelCrossSection.DataModelObjectCategory) | Gets the current DataModelObject’s category.                  |
+| [`Figures`](#ChannelCrossSection.Figures)                                 | Gets the list of associated figures.                          |
+| [`IYY`](#ChannelCrossSection.IYY)                                         | Gets the IYY.                                                 |
+| [`IZZ`](#ChannelCrossSection.IZZ)                                         | Gets the IZZ.                                                 |
+| [`Images`](#ChannelCrossSection.Images)                                   | Gets the list of associated images.                           |
+| [`InternalObject`](#ChannelCrossSection.InternalObject)                   | Gets the internal object. For advanced usage only.            |
+| [`Properties`](#ChannelCrossSection.Properties)                           | Gets the list of properties for this object.                  |
+| [`ReadOnly`](#ChannelCrossSection.ReadOnly)                               | Gets or sets the ReadOnly.                                    |
+| [`Thick1`](#ChannelCrossSection.Thick1)                                   | Gets or sets the Thick1.                                      |
+| [`Thick2`](#ChannelCrossSection.Thick2)                                   | Gets or sets the Thick2.                                      |
+| [`Thick3`](#ChannelCrossSection.Thick3)                                   | Gets or sets the Thick3.                                      |
+| [`VisibleProperties`](#ChannelCrossSection.VisibleProperties)             | Gets the list of properties that are visible for this object. |
+| [`Width1`](#ChannelCrossSection.Width1)                                   | Gets or sets the Width1.                                      |
+| [`Width2`](#ChannelCrossSection.Width2)                                   | Gets or sets the Width2.                                      |
+| [`Width3`](#ChannelCrossSection.Width3)                                   | Gets or sets the Width3.                                      |
 
 <a id="property-detail"></a>
 
 ## Property detail
 
-### *property* ChannelCrossSection.InternalObject *: Ansys.Common.Interop.DSObjectsAuto.IDSCrossSectionAuto | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets the internal object. For advanced usage only.
-
-<!-- !! processed by numpydoc !! -->
+<a id="ChannelCrossSection.Area"></a>
 
 ### *property* ChannelCrossSection.Area *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -75,59 +69,7 @@ Gets the Area.
 
 <!-- !! processed by numpydoc !! -->
 
-### *property* ChannelCrossSection.IYY *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets the IYY.
-
-<!-- !! processed by numpydoc !! -->
-
-### *property* ChannelCrossSection.IZZ *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets the IZZ.
-
-<!-- !! processed by numpydoc !! -->
-
-### *property* ChannelCrossSection.Thick1 *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the Thick1.
-
-<!-- !! processed by numpydoc !! -->
-
-### *property* ChannelCrossSection.Thick2 *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the Thick2.
-
-<!-- !! processed by numpydoc !! -->
-
-### *property* ChannelCrossSection.Thick3 *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the Thick3.
-
-<!-- !! processed by numpydoc !! -->
-
-### *property* ChannelCrossSection.Width1 *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the Width1.
-
-<!-- !! processed by numpydoc !! -->
-
-### *property* ChannelCrossSection.Width2 *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the Width2.
-
-<!-- !! processed by numpydoc !! -->
-
-### *property* ChannelCrossSection.Width3 *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the Width3.
-
-<!-- !! processed by numpydoc !! -->
-
-### *property* ChannelCrossSection.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../v241/Ansys/Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets the current DataModelObject's category.
-
-<!-- !! processed by numpydoc !! -->
+<a id="ChannelCrossSection.Children"></a>
 
 ### *property* ChannelCrossSection.Children *: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -135,11 +77,23 @@ Gets the list of children.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="ChannelCrossSection.Comments"></a>
+
 ### *property* ChannelCrossSection.Comments *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Comment](../../../../../v241/Ansys/ACT/Automation/Mechanical/Comment.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated comments.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="ChannelCrossSection.DataModelObjectCategory"></a>
+
+### *property* ChannelCrossSection.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets the current DataModelObject’s category.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ChannelCrossSection.Figures"></a>
 
 ### *property* ChannelCrossSection.Figures *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Figure](../../../../../v241/Ansys/ACT/Automation/Mechanical/Figure.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -147,23 +101,39 @@ Gets the list of associated figures.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="ChannelCrossSection.IYY"></a>
+
+### *property* ChannelCrossSection.IYY *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets the IYY.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ChannelCrossSection.IZZ"></a>
+
+### *property* ChannelCrossSection.IZZ *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets the IZZ.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ChannelCrossSection.Images"></a>
+
 ### *property* ChannelCrossSection.Images *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Image](../../../../../v241/Ansys/ACT/Automation/Mechanical/Image.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated images.
 
 <!-- !! processed by numpydoc !! -->
 
-### *property* ChannelCrossSection.ReadOnly *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+<a id="ChannelCrossSection.InternalObject"></a>
 
-Gets or sets the ReadOnly.
-
-<!-- !! processed by numpydoc !! -->
-
-### *property* ChannelCrossSection.InternalObject *: System.Object | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ChannelCrossSection.InternalObject *: Ansys.Common.Interop.DSObjectsAuto.IDSCrossSectionAuto | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the internal object. For advanced usage only.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="ChannelCrossSection.Properties"></a>
 
 ### *property* ChannelCrossSection.Properties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -171,9 +141,67 @@ Gets the list of properties for this object.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="ChannelCrossSection.ReadOnly"></a>
+
+### *property* ChannelCrossSection.ReadOnly *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the ReadOnly.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ChannelCrossSection.Thick1"></a>
+
+### *property* ChannelCrossSection.Thick1 *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the Thick1.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ChannelCrossSection.Thick2"></a>
+
+### *property* ChannelCrossSection.Thick2 *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the Thick2.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ChannelCrossSection.Thick3"></a>
+
+### *property* ChannelCrossSection.Thick3 *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the Thick3.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ChannelCrossSection.VisibleProperties"></a>
+
 ### *property* ChannelCrossSection.VisibleProperties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of properties that are visible for this object.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ChannelCrossSection.Width1"></a>
+
+### *property* ChannelCrossSection.Width1 *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the Width1.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ChannelCrossSection.Width2"></a>
+
+### *property* ChannelCrossSection.Width2 *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the Width2.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ChannelCrossSection.Width3"></a>
+
+### *property* ChannelCrossSection.Width3 *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the Width3.
 
 <!-- !! processed by numpydoc !! -->
 
@@ -181,23 +209,15 @@ Gets the list of properties that are visible for this object.
 
 ## Method detail
 
-### ChannelCrossSection.Delete()
+<a id="ChannelCrossSection.Activate"></a>
 
-Run the Delete action.
+### ChannelCrossSection.Activate()
 
-<!-- !! processed by numpydoc !! -->
-
-### ChannelCrossSection.GetChildren(recurses: System.Boolean, children: System.Collections.Generic.IList[ChildrenType])
-
-Gets the list of children, filtered by type.
+Activate the current object.
 
 <!-- !! processed by numpydoc !! -->
 
-### ChannelCrossSection.GetChildren(category: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../v241/Ansys/Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory), recurses: System.Boolean, children: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject])
-
-Gets the list of children, filtered by type.
-
-<!-- !! processed by numpydoc !! -->
+<a id="ChannelCrossSection.AddComment"></a>
 
 ### ChannelCrossSection.AddComment()
 
@@ -205,11 +225,15 @@ Creates a new child Comment.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="ChannelCrossSection.AddFigure"></a>
+
 ### ChannelCrossSection.AddFigure()
 
 Creates a new child Figure.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="ChannelCrossSection.AddImage"></a>
 
 ### ChannelCrossSection.AddImage(filePath: System.String)
 
@@ -221,11 +245,7 @@ if not, the image will be a screen capture of the Geometry window.
 
 <!-- !! processed by numpydoc !! -->
 
-### ChannelCrossSection.Activate()
-
-Activate the current object.
-
-<!-- !! processed by numpydoc !! -->
+<a id="ChannelCrossSection.CopyTo"></a>
 
 ### ChannelCrossSection.CopyTo(other: Ansys.ACT.Automation.Mechanical.DataModelObject)
 
@@ -233,11 +253,47 @@ Copies all visible properties from this object to another.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="ChannelCrossSection.CreateParameter"></a>
+
+### ChannelCrossSection.CreateParameter(propName: System.String)
+
+Creates a new parameter for a Property.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ChannelCrossSection.Delete"></a>
+
+### ChannelCrossSection.Delete()
+
+Run the Delete action.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ChannelCrossSection.Duplicate"></a>
+
 ### ChannelCrossSection.Duplicate()
 
 Creates a copy of the current DataModelObject.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="ChannelCrossSection.GetChildren"></a>
+
+### ChannelCrossSection.GetChildren(recurses: System.Boolean, children: System.Collections.Generic.IList[ChildrenType])
+
+Gets the list of children, filtered by type.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ChannelCrossSection.GetParameter"></a>
+
+### ChannelCrossSection.GetParameter(propName: System.String)
+
+Gets the parameter corresponding to the given property.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ChannelCrossSection.GroupAllSimilarChildren"></a>
 
 ### ChannelCrossSection.GroupAllSimilarChildren()
 
@@ -245,17 +301,15 @@ Run the GroupAllSimilarChildren action.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="ChannelCrossSection.GroupSimilarObjects"></a>
+
 ### ChannelCrossSection.GroupSimilarObjects()
 
 Run the GroupSimilarObjects action.
 
 <!-- !! processed by numpydoc !! -->
 
-### ChannelCrossSection.PropertyByName(name: System.String)
-
-Get a property by its unique name.
-
-<!-- !! processed by numpydoc !! -->
+<a id="ChannelCrossSection.PropertyByAPIName"></a>
 
 ### ChannelCrossSection.PropertyByAPIName(name: System.String)
 
@@ -266,17 +320,15 @@ If multiple properties have the same API Name, only the first property with that
 
 <!-- !! processed by numpydoc !! -->
 
-### ChannelCrossSection.CreateParameter(propName: System.String)
+<a id="ChannelCrossSection.PropertyByName"></a>
 
-Creates a new parameter for a Property.
+### ChannelCrossSection.PropertyByName(name: System.String)
 
-<!-- !! processed by numpydoc !! -->
-
-### ChannelCrossSection.GetParameter(propName: System.String)
-
-Gets the parameter corresponding to the given property.
+Get a property by its unique name.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="ChannelCrossSection.RemoveParameter"></a>
 
 ### ChannelCrossSection.RemoveParameter(propName: System.String)
 

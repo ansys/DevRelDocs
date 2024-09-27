@@ -1,6 +1,6 @@
 # `VirtualCellClassType`
 
-
+<a id="ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.VirtualCellClassType"></a>
 
 #### *class* ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.VirtualCellClassType
 
@@ -17,20 +17,20 @@ Specifies the VirtualCellClassType.
 ### Attributes
 
 | Name |
-| ------------------------------------------------------ |
-| [`VirtualFace`](#VirtualCellClassType.VirtualFace) |
+| ---------------------------------------------------------------------------------------------------------------------------------- |
 | [`VirtualEdge`](#VirtualCellClassType.VirtualEdge) |
+| [`VirtualFace`](#VirtualCellClassType.VirtualFace) |
 
 <a id="attribute-detail"></a>
 
 ## Attribute detail
 
-<a id="VirtualCellClassType.VirtualFace"></a>
-
-### VirtualCellClassType.VirtualFace *= 0*
-
 <a id="VirtualCellClassType.VirtualEdge"></a>
 
 ### VirtualCellClassType.VirtualEdge *= 1*
+
+<a id="VirtualCellClassType.VirtualFace"></a>
+
+### VirtualCellClassType.VirtualFace *= 0*
 
 

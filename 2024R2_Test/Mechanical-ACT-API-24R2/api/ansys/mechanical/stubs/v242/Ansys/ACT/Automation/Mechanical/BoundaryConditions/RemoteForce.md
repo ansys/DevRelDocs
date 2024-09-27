@@ -1,6 +1,6 @@
 # `RemoteForce`
 
-
+<a id="ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.BoundaryConditions.RemoteForce"></a>
 
 #### *class* ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.BoundaryConditions.RemoteForce
 
@@ -17,101 +17,83 @@ Defines a RemoteForce.
 ### Methods
 
 | Name | Description |
-|----------------------------------|-----------------------------------------------------------------------------------|
-| `PromoteToRemotePoint`           | Run the PromoteToRemotePoint action.                                              |
-| `GetActivateAtLoadStep`          | GetActivateAtLoadStep method.                                                     |
-| `SetActivateAtLoadStep`          | SetActivateAtLoadStep method.                                                     |
-| `GetComponentActivateAtLoadStep` | GetComponentActivateAtLoadStep method.                                            |
-| `SetComponentActivateAtLoadStep` | SetComponentActivateAtLoadStep method.                                            |
-| `PromoteToNamedSelection`        | Run the PromoteToNamedSelection action.                                           |
-| `Delete`                         | Run the Delete action.                                                            |
-| `GetChildren`                    | Gets the list of children, filtered by type.                                      |
-| `GetChildren`                    | Gets the list of children, filtered by type.                                      |
-| `AddComment`                     | Creates a new child Comment.                                                      |
-| `AddFigure`                      | Creates a new child Figure.                                                       |
-| `AddImage`                       | Creates a new child Image.                                                        |
-| `Activate`                       | Activate the current object.                                                      |
-| `CopyTo`                         | Copies all visible properties from this object to another.                        |
-| `Duplicate`                      | Creates a copy of the current DataModelObject.                                    |
-| `GroupAllSimilarChildren`        | Run the GroupAllSimilarChildren action.                                           |
-| `GroupSimilarObjects`            | Run the GroupSimilarObjects action.                                               |
-| `PropertyByName`                 | Get a property by its unique name.                                                |
-| `PropertyByAPIName`              | Get a property by its API name.                                                   |
-| `CreateParameter`                | Creates a new parameter for a Property.                                           |
-| `GetParameter`                   | Gets the parameter corresponding to the given property.                           |
-| `RemoveParameter`                | Removes the parameter from the parameter set corresponding to the given property. |
+|---------------------------------------------------------------------------------|-----------------------------------------------------------------------------------|
+| [`Activate`](#RemoteForce.Activate)                                             | Activate the current object.                                                      |
+| [`AddComment`](#RemoteForce.AddComment)                                         | Creates a new child Comment.                                                      |
+| [`AddFigure`](#RemoteForce.AddFigure)                                           | Creates a new child Figure.                                                       |
+| [`AddImage`](#RemoteForce.AddImage)                                             | Creates a new child Image.                                                        |
+| [`CopyTo`](#RemoteForce.CopyTo)                                                 | Copies all visible properties from this object to another.                        |
+| [`CreateParameter`](#RemoteForce.CreateParameter)                               | Creates a new parameter for a Property.                                           |
+| [`Delete`](#RemoteForce.Delete)                                                 | Run the Delete action.                                                            |
+| [`Duplicate`](#RemoteForce.Duplicate)                                           | Creates a copy of the current DataModelObject.                                    |
+| [`GetActivateAtLoadStep`](#RemoteForce.GetActivateAtLoadStep)                   | GetActivateAtLoadStep method.                                                     |
+| [`GetChildren`](#RemoteForce.GetChildren)                                       | Gets the list of children, filtered by type.                                      |
+| [`GetComponentActivateAtLoadStep`](#RemoteForce.GetComponentActivateAtLoadStep) | GetComponentActivateAtLoadStep method.                                            |
+| [`GetParameter`](#RemoteForce.GetParameter)                                     | Gets the parameter corresponding to the given property.                           |
+| [`GroupAllSimilarChildren`](#RemoteForce.GroupAllSimilarChildren)               | Run the GroupAllSimilarChildren action.                                           |
+| [`GroupSimilarObjects`](#RemoteForce.GroupSimilarObjects)                       | Run the GroupSimilarObjects action.                                               |
+| [`PromoteToNamedSelection`](#RemoteForce.PromoteToNamedSelection)               | Run the PromoteToNamedSelection action.                                           |
+| [`PromoteToRemotePoint`](#RemoteForce.PromoteToRemotePoint)                     | Run the PromoteToRemotePoint action.                                              |
+| [`PropertyByAPIName`](#RemoteForce.PropertyByAPIName)                           | Get a property by its API name.                                                   |
+| [`PropertyByName`](#RemoteForce.PropertyByName)                                 | Get a property by its unique name.                                                |
+| [`RemoveParameter`](#RemoteForce.RemoveParameter)                               | Removes the parameter from the parameter set corresponding to the given property. |
+| [`SetActivateAtLoadStep`](#RemoteForce.SetActivateAtLoadStep)                   | SetActivateAtLoadStep method.                                                     |
+| [`SetComponentActivateAtLoadStep`](#RemoteForce.SetComponentActivateAtLoadStep) | SetComponentActivateAtLoadStep method.                                            |
 
 ### Properties
 
 | Name | Description |
-|---------------------------|---------------------------------------------------------------|
-| `Direction`               | Gets or sets the Direction.                                   |
-| `StepSelection`           | Gets or sets the StepSelection.                               |
-| `InternalObject`          | Gets the internal object. For advanced usage only.            |
-| `BeamMaterial`            | Gets or sets the BeamMaterial.                                |
-| `NumberOfSegments`        | Gets or sets the NumberOfSegments.                            |
-| `XComponent`              | Gets the XComponent.                                          |
-| `XComponentImag`          | Gets the XComponentImag.                                      |
-| `YComponent`              | Gets the YComponent.                                          |
-| `YComponentImag`          | Gets the YComponentImag.                                      |
-| `ZComponent`              | Gets the ZComponent.                                          |
-| `ZComponentImag`          | Gets the ZComponentImag.                                      |
-| `HarmonicIndex`           | Gets or sets the HarmonicIndex.                               |
-| `SectorNumber`            | Gets or sets the SectorNumber.                                |
-| `Magnitude`               | Gets the Magnitude.                                           |
-| `MagnitudeImag`           | Gets the MagnitudeImag.                                       |
-| `PhaseAngle`              | Gets the PhaseAngle.                                          |
-| `XPhaseAngle`             | Gets the XPhaseAngle.                                         |
-| `YPhaseAngle`             | Gets the YPhaseAngle.                                         |
-| `ZPhaseAngle`             | Gets the ZPhaseAngle.                                         |
-| `BeamRadius`              | Gets or sets the BeamRadius.                                  |
-| `XCoordinate`             | Gets or sets the XCoordinate.                                 |
-| `YCoordinate`             | Gets or sets the YCoordinate.                                 |
-| `ZCoordinate`             | Gets or sets the ZCoordinate.                                 |
-| `PinballRegion`           | Gets or sets the PinballRegion.                               |
-| `RpmSelection`            | Gets or sets the RpmSelection.                                |
-| `Behavior`                | Gets or sets the Behavior.                                    |
-| `DefineBy`                | Gets or sets the DefineBy.                                    |
-| `LoadingApplicationType`  | Gets or sets the LoadingApplicationType.                      |
-| `StepVarying`             | Gets or sets the StepVarying.                                 |
-| `NonCyclicLoadingType`    | Gets or sets the NonCyclicLoadingType.                        |
-| `IndependentVariable`     | Gets or sets the IndependentVariable.                         |
-| `FollowerLoad`            | Gets or sets the FollowerLoad.                                |
-| `CoordinateSystem`        | Gets or sets the CoordinateSystem.                            |
-| `Location`                | Gets or sets the Location.                                    |
-| `DataModelObjectCategory` | Gets the current DataModelObject's category.                  |
-| `Suppressed`              | Gets or sets the Suppressed.                                  |
-| `SharedRefBody`           | Gets or sets the SharedRefBody.                               |
-| `Children`                | Gets the list of children.                                    |
-| `Comments`                | Gets the list of associated comments.                         |
-| `Figures`                 | Gets the list of associated figures.                          |
-| `Images`                  | Gets the list of associated images.                           |
-| `ReadOnly`                | Gets or sets the ReadOnly.                                    |
-| `InternalObject`          | Gets the internal object. For advanced usage only.            |
-| `Properties`              | Gets the list of properties for this object.                  |
-| `VisibleProperties`       | Gets the list of properties that are visible for this object. |
+|-------------------------------------------------------------------|---------------------------------------------------------------|
+| [`BeamMaterial`](#RemoteForce.BeamMaterial)                       | Gets or sets the BeamMaterial.                                |
+| [`BeamRadius`](#RemoteForce.BeamRadius)                           | Gets or sets the BeamRadius.                                  |
+| [`Behavior`](#RemoteForce.Behavior)                               | Gets or sets the Behavior.                                    |
+| [`Children`](#RemoteForce.Children)                               | Gets the list of children.                                    |
+| [`Comments`](#RemoteForce.Comments)                               | Gets the list of associated comments.                         |
+| [`CoordinateSystem`](#RemoteForce.CoordinateSystem)               | Gets or sets the CoordinateSystem.                            |
+| [`DataModelObjectCategory`](#RemoteForce.DataModelObjectCategory) | Gets the current DataModelObject’s category.                  |
+| [`DefineBy`](#RemoteForce.DefineBy)                               | Gets or sets the DefineBy.                                    |
+| [`Direction`](#RemoteForce.Direction)                             | Gets or sets the Direction.                                   |
+| [`Figures`](#RemoteForce.Figures)                                 | Gets the list of associated figures.                          |
+| [`FollowerLoad`](#RemoteForce.FollowerLoad)                       | Gets or sets the FollowerLoad.                                |
+| [`HarmonicIndex`](#RemoteForce.HarmonicIndex)                     | Gets or sets the HarmonicIndex.                               |
+| [`Images`](#RemoteForce.Images)                                   | Gets the list of associated images.                           |
+| [`IndependentVariable`](#RemoteForce.IndependentVariable)         | Gets or sets the IndependentVariable.                         |
+| [`InternalObject`](#RemoteForce.InternalObject)                   | Gets the internal object. For advanced usage only.            |
+| [`LoadingApplicationType`](#RemoteForce.LoadingApplicationType)   | Gets or sets the LoadingApplicationType.                      |
+| [`Location`](#RemoteForce.Location)                               | Gets or sets the Location.                                    |
+| [`Magnitude`](#RemoteForce.Magnitude)                             | Gets the Magnitude.                                           |
+| [`MagnitudeImag`](#RemoteForce.MagnitudeImag)                     | Gets the MagnitudeImag.                                       |
+| [`NonCyclicLoadingType`](#RemoteForce.NonCyclicLoadingType)       | Gets or sets the NonCyclicLoadingType.                        |
+| [`NumberOfSegments`](#RemoteForce.NumberOfSegments)               | Gets or sets the NumberOfSegments.                            |
+| [`PhaseAngle`](#RemoteForce.PhaseAngle)                           | Gets the PhaseAngle.                                          |
+| [`PinballRegion`](#RemoteForce.PinballRegion)                     | Gets or sets the PinballRegion.                               |
+| [`Properties`](#RemoteForce.Properties)                           | Gets the list of properties for this object.                  |
+| [`ReadOnly`](#RemoteForce.ReadOnly)                               | Gets or sets the ReadOnly.                                    |
+| [`RpmSelection`](#RemoteForce.RpmSelection)                       | Gets or sets the RpmSelection.                                |
+| [`SectorNumber`](#RemoteForce.SectorNumber)                       | Gets or sets the SectorNumber.                                |
+| [`SharedRefBody`](#RemoteForce.SharedRefBody)                     | Gets or sets the SharedRefBody.                               |
+| [`StepSelection`](#RemoteForce.StepSelection)                     | Gets or sets the StepSelection.                               |
+| [`StepVarying`](#RemoteForce.StepVarying)                         | Gets or sets the StepVarying.                                 |
+| [`Suppressed`](#RemoteForce.Suppressed)                           | Gets or sets the Suppressed.                                  |
+| [`VisibleProperties`](#RemoteForce.VisibleProperties)             | Gets the list of properties that are visible for this object. |
+| [`XComponent`](#RemoteForce.XComponent)                           | Gets the XComponent.                                          |
+| [`XComponentImag`](#RemoteForce.XComponentImag)                   | Gets the XComponentImag.                                      |
+| [`XCoordinate`](#RemoteForce.XCoordinate)                         | Gets or sets the XCoordinate.                                 |
+| [`XPhaseAngle`](#RemoteForce.XPhaseAngle)                         | Gets the XPhaseAngle.                                         |
+| [`YComponent`](#RemoteForce.YComponent)                           | Gets the YComponent.                                          |
+| [`YComponentImag`](#RemoteForce.YComponentImag)                   | Gets the YComponentImag.                                      |
+| [`YCoordinate`](#RemoteForce.YCoordinate)                         | Gets or sets the YCoordinate.                                 |
+| [`YPhaseAngle`](#RemoteForce.YPhaseAngle)                         | Gets the YPhaseAngle.                                         |
+| [`ZComponent`](#RemoteForce.ZComponent)                           | Gets the ZComponent.                                          |
+| [`ZComponentImag`](#RemoteForce.ZComponentImag)                   | Gets the ZComponentImag.                                      |
+| [`ZCoordinate`](#RemoteForce.ZCoordinate)                         | Gets or sets the ZCoordinate.                                 |
+| [`ZPhaseAngle`](#RemoteForce.ZPhaseAngle)                         | Gets the ZPhaseAngle.                                         |
 
 <a id="property-detail"></a>
 
 ## Property detail
 
-### *property* RemoteForce.Direction *: Ansys.ACT.Math.Vector3D | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the Direction.
-
-<!-- !! processed by numpydoc !! -->
-
-### *property* RemoteForce.StepSelection *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the StepSelection.
-
-<!-- !! processed by numpydoc !! -->
-
-### *property* RemoteForce.InternalObject *: Ansys.Common.Interop.DSObjectsAuto.IDSLoadAuto | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets the internal object. For advanced usage only.
-
-<!-- !! processed by numpydoc !! -->
+<a id="RemoteForce.BeamMaterial"></a>
 
 ### *property* RemoteForce.BeamMaterial *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -119,95 +101,7 @@ Gets or sets the BeamMaterial.
 
 <!-- !! processed by numpydoc !! -->
 
-### *property* RemoteForce.NumberOfSegments *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the NumberOfSegments.
-
-<!-- !! processed by numpydoc !! -->
-
-### *property* RemoteForce.XComponent *: [Ansys.ACT.Mechanical.Fields.Field](../../../../../../v241/Ansys/ACT/Mechanical/Fields/Field.md#ansys.mechanical.stubs.v241.Ansys.ACT.Mechanical.Fields.Field) | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets the XComponent.
-
-<!-- !! processed by numpydoc !! -->
-
-### *property* RemoteForce.XComponentImag *: [Ansys.ACT.Mechanical.Fields.Field](../../../../../../v241/Ansys/ACT/Mechanical/Fields/Field.md#ansys.mechanical.stubs.v241.Ansys.ACT.Mechanical.Fields.Field) | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets the XComponentImag.
-
-<!-- !! processed by numpydoc !! -->
-
-### *property* RemoteForce.YComponent *: [Ansys.ACT.Mechanical.Fields.Field](../../../../../../v241/Ansys/ACT/Mechanical/Fields/Field.md#ansys.mechanical.stubs.v241.Ansys.ACT.Mechanical.Fields.Field) | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets the YComponent.
-
-<!-- !! processed by numpydoc !! -->
-
-### *property* RemoteForce.YComponentImag *: [Ansys.ACT.Mechanical.Fields.Field](../../../../../../v241/Ansys/ACT/Mechanical/Fields/Field.md#ansys.mechanical.stubs.v241.Ansys.ACT.Mechanical.Fields.Field) | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets the YComponentImag.
-
-<!-- !! processed by numpydoc !! -->
-
-### *property* RemoteForce.ZComponent *: [Ansys.ACT.Mechanical.Fields.Field](../../../../../../v241/Ansys/ACT/Mechanical/Fields/Field.md#ansys.mechanical.stubs.v241.Ansys.ACT.Mechanical.Fields.Field) | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets the ZComponent.
-
-<!-- !! processed by numpydoc !! -->
-
-### *property* RemoteForce.ZComponentImag *: [Ansys.ACT.Mechanical.Fields.Field](../../../../../../v241/Ansys/ACT/Mechanical/Fields/Field.md#ansys.mechanical.stubs.v241.Ansys.ACT.Mechanical.Fields.Field) | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets the ZComponentImag.
-
-<!-- !! processed by numpydoc !! -->
-
-### *property* RemoteForce.HarmonicIndex *: [Ansys.ACT.Mechanical.Fields.Field](../../../../../../v241/Ansys/ACT/Mechanical/Fields/Field.md#ansys.mechanical.stubs.v241.Ansys.ACT.Mechanical.Fields.Field) | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the HarmonicIndex.
-
-<!-- !! processed by numpydoc !! -->
-
-### *property* RemoteForce.SectorNumber *: [Ansys.ACT.Mechanical.Fields.Field](../../../../../../v241/Ansys/ACT/Mechanical/Fields/Field.md#ansys.mechanical.stubs.v241.Ansys.ACT.Mechanical.Fields.Field) | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the SectorNumber.
-
-<!-- !! processed by numpydoc !! -->
-
-### *property* RemoteForce.Magnitude *: [Ansys.ACT.Mechanical.Fields.Field](../../../../../../v241/Ansys/ACT/Mechanical/Fields/Field.md#ansys.mechanical.stubs.v241.Ansys.ACT.Mechanical.Fields.Field) | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets the Magnitude.
-
-<!-- !! processed by numpydoc !! -->
-
-### *property* RemoteForce.MagnitudeImag *: [Ansys.ACT.Mechanical.Fields.Field](../../../../../../v241/Ansys/ACT/Mechanical/Fields/Field.md#ansys.mechanical.stubs.v241.Ansys.ACT.Mechanical.Fields.Field) | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets the MagnitudeImag.
-
-<!-- !! processed by numpydoc !! -->
-
-### *property* RemoteForce.PhaseAngle *: [Ansys.ACT.Mechanical.Fields.Field](../../../../../../v241/Ansys/ACT/Mechanical/Fields/Field.md#ansys.mechanical.stubs.v241.Ansys.ACT.Mechanical.Fields.Field) | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets the PhaseAngle.
-
-<!-- !! processed by numpydoc !! -->
-
-### *property* RemoteForce.XPhaseAngle *: [Ansys.ACT.Mechanical.Fields.Field](../../../../../../v241/Ansys/ACT/Mechanical/Fields/Field.md#ansys.mechanical.stubs.v241.Ansys.ACT.Mechanical.Fields.Field) | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets the XPhaseAngle.
-
-<!-- !! processed by numpydoc !! -->
-
-### *property* RemoteForce.YPhaseAngle *: [Ansys.ACT.Mechanical.Fields.Field](../../../../../../v241/Ansys/ACT/Mechanical/Fields/Field.md#ansys.mechanical.stubs.v241.Ansys.ACT.Mechanical.Fields.Field) | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets the YPhaseAngle.
-
-<!-- !! processed by numpydoc !! -->
-
-### *property* RemoteForce.ZPhaseAngle *: [Ansys.ACT.Mechanical.Fields.Field](../../../../../../v241/Ansys/ACT/Mechanical/Fields/Field.md#ansys.mechanical.stubs.v241.Ansys.ACT.Mechanical.Fields.Field) | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets the ZPhaseAngle.
-
-<!-- !! processed by numpydoc !! -->
+<a id="RemoteForce.BeamRadius"></a>
 
 ### *property* RemoteForce.BeamRadius *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -215,107 +109,15 @@ Gets or sets the BeamRadius.
 
 <!-- !! processed by numpydoc !! -->
 
-### *property* RemoteForce.XCoordinate *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
+<a id="RemoteForce.Behavior"></a>
 
-Gets or sets the XCoordinate.
-
-<!-- !! processed by numpydoc !! -->
-
-### *property* RemoteForce.YCoordinate *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the YCoordinate.
-
-<!-- !! processed by numpydoc !! -->
-
-### *property* RemoteForce.ZCoordinate *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the ZCoordinate.
-
-<!-- !! processed by numpydoc !! -->
-
-### *property* RemoteForce.PinballRegion *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the PinballRegion.
-
-<!-- !! processed by numpydoc !! -->
-
-### *property* RemoteForce.RpmSelection *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the RpmSelection.
-
-<!-- !! processed by numpydoc !! -->
-
-### *property* RemoteForce.Behavior *: [Ansys.Mechanical.DataModel.Enums.LoadBehavior](../../../../../../v241/Ansys/Mechanical/DataModel/Enums/LoadBehavior.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.LoadBehavior) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* RemoteForce.Behavior *: [Ansys.Mechanical.DataModel.Enums.LoadBehavior](../../../../Mechanical/DataModel/Enums/LoadBehavior.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.LoadBehavior) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Behavior.
 
 <!-- !! processed by numpydoc !! -->
 
-### *property* RemoteForce.DefineBy *: [Ansys.Mechanical.DataModel.Enums.LoadDefineBy](../../../../../../v241/Ansys/Mechanical/DataModel/Enums/LoadDefineBy.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.LoadDefineBy) | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the DefineBy.
-
-<!-- !! processed by numpydoc !! -->
-
-### *property* RemoteForce.LoadingApplicationType *: [Ansys.Mechanical.DataModel.Enums.LoadingApplicationType](../../../../../../v241/Ansys/Mechanical/DataModel/Enums/LoadingApplicationType.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.LoadingApplicationType) | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the LoadingApplicationType.
-
-<!-- !! processed by numpydoc !! -->
-
-### *property* RemoteForce.StepVarying *: [Ansys.Mechanical.DataModel.Enums.StepVarying](../../../../../../v241/Ansys/Mechanical/DataModel/Enums/StepVarying.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.StepVarying) | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the StepVarying.
-
-<!-- !! processed by numpydoc !! -->
-
-### *property* RemoteForce.NonCyclicLoadingType *: [Ansys.Mechanical.DataModel.Enums.NonCyclicLoadingType](../../../../../../v241/Ansys/Mechanical/DataModel/Enums/NonCyclicLoadingType.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.NonCyclicLoadingType) | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the NonCyclicLoadingType.
-
-<!-- !! processed by numpydoc !! -->
-
-### *property* RemoteForce.IndependentVariable *: [Ansys.Mechanical.DataModel.Enums.LoadVariableVariationType](../../../../../../v241/Ansys/Mechanical/DataModel/Enums/LoadVariableVariationType.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.LoadVariableVariationType) | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the IndependentVariable.
-
-<!-- !! processed by numpydoc !! -->
-
-### *property* RemoteForce.FollowerLoad *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the FollowerLoad.
-
-<!-- !! processed by numpydoc !! -->
-
-### *property* RemoteForce.CoordinateSystem *: [Ansys.ACT.Automation.Mechanical.CoordinateSystem](../../../../../../v241/Ansys/ACT/Automation/Mechanical/CoordinateSystem.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.CoordinateSystem) | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the CoordinateSystem.
-
-<!-- !! processed by numpydoc !! -->
-
-### *property* RemoteForce.Location *: Ansys.ACT.Interfaces.Common.ISelectionInfo | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the Location.
-
-<!-- !! processed by numpydoc !! -->
-
-### *property* RemoteForce.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../../v241/Ansys/Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets the current DataModelObject's category.
-
-<!-- !! processed by numpydoc !! -->
-
-### *property* RemoteForce.Suppressed *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the Suppressed.
-
-<!-- !! processed by numpydoc !! -->
-
-### *property* RemoteForce.SharedRefBody *: [Ansys.ACT.Automation.Mechanical.Body](../../../../../../v241/Ansys/ACT/Automation/Mechanical/Body.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Body) | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the SharedRefBody.
-
-<!-- !! processed by numpydoc !! -->
+<a id="RemoteForce.Children"></a>
 
 ### *property* RemoteForce.Children *: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -323,11 +125,47 @@ Gets the list of children.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="RemoteForce.Comments"></a>
+
 ### *property* RemoteForce.Comments *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Comment](../../../../../../v241/Ansys/ACT/Automation/Mechanical/Comment.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated comments.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="RemoteForce.CoordinateSystem"></a>
+
+### *property* RemoteForce.CoordinateSystem *: [Ansys.ACT.Automation.Mechanical.CoordinateSystem](../../../../../../v241/Ansys/ACT/Automation/Mechanical/CoordinateSystem.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.CoordinateSystem) | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the CoordinateSystem.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="RemoteForce.DataModelObjectCategory"></a>
+
+### *property* RemoteForce.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets the current DataModelObject’s category.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="RemoteForce.DefineBy"></a>
+
+### *property* RemoteForce.DefineBy *: [Ansys.Mechanical.DataModel.Enums.LoadDefineBy](../../../../Mechanical/DataModel/Enums/LoadDefineBy.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.LoadDefineBy) | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the DefineBy.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="RemoteForce.Direction"></a>
+
+### *property* RemoteForce.Direction *: Ansys.ACT.Math.Vector3D | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the Direction.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="RemoteForce.Figures"></a>
 
 ### *property* RemoteForce.Figures *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Figure](../../../../../../v241/Ansys/ACT/Automation/Mechanical/Figure.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -335,23 +173,111 @@ Gets the list of associated figures.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="RemoteForce.FollowerLoad"></a>
+
+### *property* RemoteForce.FollowerLoad *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the FollowerLoad.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="RemoteForce.HarmonicIndex"></a>
+
+### *property* RemoteForce.HarmonicIndex *: [Ansys.ACT.Mechanical.Fields.Field](../../../Mechanical/Fields/Field.md#ansys.mechanical.stubs.v242.Ansys.ACT.Mechanical.Fields.Field) | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the HarmonicIndex.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="RemoteForce.Images"></a>
+
 ### *property* RemoteForce.Images *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Image](../../../../../../v241/Ansys/ACT/Automation/Mechanical/Image.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated images.
 
 <!-- !! processed by numpydoc !! -->
 
-### *property* RemoteForce.ReadOnly *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+<a id="RemoteForce.IndependentVariable"></a>
 
-Gets or sets the ReadOnly.
+### *property* RemoteForce.IndependentVariable *: [Ansys.Mechanical.DataModel.Enums.LoadVariableVariationType](../../../../Mechanical/DataModel/Enums/LoadVariableVariationType.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.LoadVariableVariationType) | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the IndependentVariable.
 
 <!-- !! processed by numpydoc !! -->
 
-### *property* RemoteForce.InternalObject *: System.Object | [None](https://docs.python.org/3/library/constants.html#None)*
+<a id="RemoteForce.InternalObject"></a>
+
+### *property* RemoteForce.InternalObject *: Ansys.Common.Interop.DSObjectsAuto.IDSLoadAuto | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the internal object. For advanced usage only.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="RemoteForce.LoadingApplicationType"></a>
+
+### *property* RemoteForce.LoadingApplicationType *: [Ansys.Mechanical.DataModel.Enums.LoadingApplicationType](../../../../Mechanical/DataModel/Enums/LoadingApplicationType.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.LoadingApplicationType) | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the LoadingApplicationType.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="RemoteForce.Location"></a>
+
+### *property* RemoteForce.Location *: Ansys.ACT.Interfaces.Common.ISelectionInfo | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the Location.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="RemoteForce.Magnitude"></a>
+
+### *property* RemoteForce.Magnitude *: [Ansys.ACT.Mechanical.Fields.Field](../../../Mechanical/Fields/Field.md#ansys.mechanical.stubs.v242.Ansys.ACT.Mechanical.Fields.Field) | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets the Magnitude.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="RemoteForce.MagnitudeImag"></a>
+
+### *property* RemoteForce.MagnitudeImag *: [Ansys.ACT.Mechanical.Fields.Field](../../../Mechanical/Fields/Field.md#ansys.mechanical.stubs.v242.Ansys.ACT.Mechanical.Fields.Field) | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets the MagnitudeImag.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="RemoteForce.NonCyclicLoadingType"></a>
+
+### *property* RemoteForce.NonCyclicLoadingType *: [Ansys.Mechanical.DataModel.Enums.NonCyclicLoadingType](../../../../Mechanical/DataModel/Enums/NonCyclicLoadingType.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.NonCyclicLoadingType) | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the NonCyclicLoadingType.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="RemoteForce.NumberOfSegments"></a>
+
+### *property* RemoteForce.NumberOfSegments *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the NumberOfSegments.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="RemoteForce.PhaseAngle"></a>
+
+### *property* RemoteForce.PhaseAngle *: [Ansys.ACT.Mechanical.Fields.Field](../../../Mechanical/Fields/Field.md#ansys.mechanical.stubs.v242.Ansys.ACT.Mechanical.Fields.Field) | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets the PhaseAngle.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="RemoteForce.PinballRegion"></a>
+
+### *property* RemoteForce.PinballRegion *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the PinballRegion.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="RemoteForce.Properties"></a>
 
 ### *property* RemoteForce.Properties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -359,9 +285,163 @@ Gets the list of properties for this object.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="RemoteForce.ReadOnly"></a>
+
+### *property* RemoteForce.ReadOnly *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the ReadOnly.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="RemoteForce.RpmSelection"></a>
+
+### *property* RemoteForce.RpmSelection *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the RpmSelection.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="RemoteForce.SectorNumber"></a>
+
+### *property* RemoteForce.SectorNumber *: [Ansys.ACT.Mechanical.Fields.Field](../../../Mechanical/Fields/Field.md#ansys.mechanical.stubs.v242.Ansys.ACT.Mechanical.Fields.Field) | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the SectorNumber.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="RemoteForce.SharedRefBody"></a>
+
+### *property* RemoteForce.SharedRefBody *: [Ansys.ACT.Automation.Mechanical.Body](../../../../../../v241/Ansys/ACT/Automation/Mechanical/Body.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Body) | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the SharedRefBody.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="RemoteForce.StepSelection"></a>
+
+### *property* RemoteForce.StepSelection *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the StepSelection.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="RemoteForce.StepVarying"></a>
+
+### *property* RemoteForce.StepVarying *: [Ansys.Mechanical.DataModel.Enums.StepVarying](../../../../Mechanical/DataModel/Enums/StepVarying.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.StepVarying) | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the StepVarying.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="RemoteForce.Suppressed"></a>
+
+### *property* RemoteForce.Suppressed *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the Suppressed.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="RemoteForce.VisibleProperties"></a>
+
 ### *property* RemoteForce.VisibleProperties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of properties that are visible for this object.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="RemoteForce.XComponent"></a>
+
+### *property* RemoteForce.XComponent *: [Ansys.ACT.Mechanical.Fields.Field](../../../Mechanical/Fields/Field.md#ansys.mechanical.stubs.v242.Ansys.ACT.Mechanical.Fields.Field) | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets the XComponent.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="RemoteForce.XComponentImag"></a>
+
+### *property* RemoteForce.XComponentImag *: [Ansys.ACT.Mechanical.Fields.Field](../../../Mechanical/Fields/Field.md#ansys.mechanical.stubs.v242.Ansys.ACT.Mechanical.Fields.Field) | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets the XComponentImag.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="RemoteForce.XCoordinate"></a>
+
+### *property* RemoteForce.XCoordinate *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the XCoordinate.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="RemoteForce.XPhaseAngle"></a>
+
+### *property* RemoteForce.XPhaseAngle *: [Ansys.ACT.Mechanical.Fields.Field](../../../Mechanical/Fields/Field.md#ansys.mechanical.stubs.v242.Ansys.ACT.Mechanical.Fields.Field) | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets the XPhaseAngle.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="RemoteForce.YComponent"></a>
+
+### *property* RemoteForce.YComponent *: [Ansys.ACT.Mechanical.Fields.Field](../../../Mechanical/Fields/Field.md#ansys.mechanical.stubs.v242.Ansys.ACT.Mechanical.Fields.Field) | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets the YComponent.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="RemoteForce.YComponentImag"></a>
+
+### *property* RemoteForce.YComponentImag *: [Ansys.ACT.Mechanical.Fields.Field](../../../Mechanical/Fields/Field.md#ansys.mechanical.stubs.v242.Ansys.ACT.Mechanical.Fields.Field) | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets the YComponentImag.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="RemoteForce.YCoordinate"></a>
+
+### *property* RemoteForce.YCoordinate *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the YCoordinate.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="RemoteForce.YPhaseAngle"></a>
+
+### *property* RemoteForce.YPhaseAngle *: [Ansys.ACT.Mechanical.Fields.Field](../../../Mechanical/Fields/Field.md#ansys.mechanical.stubs.v242.Ansys.ACT.Mechanical.Fields.Field) | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets the YPhaseAngle.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="RemoteForce.ZComponent"></a>
+
+### *property* RemoteForce.ZComponent *: [Ansys.ACT.Mechanical.Fields.Field](../../../Mechanical/Fields/Field.md#ansys.mechanical.stubs.v242.Ansys.ACT.Mechanical.Fields.Field) | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets the ZComponent.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="RemoteForce.ZComponentImag"></a>
+
+### *property* RemoteForce.ZComponentImag *: [Ansys.ACT.Mechanical.Fields.Field](../../../Mechanical/Fields/Field.md#ansys.mechanical.stubs.v242.Ansys.ACT.Mechanical.Fields.Field) | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets the ZComponentImag.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="RemoteForce.ZCoordinate"></a>
+
+### *property* RemoteForce.ZCoordinate *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the ZCoordinate.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="RemoteForce.ZPhaseAngle"></a>
+
+### *property* RemoteForce.ZPhaseAngle *: [Ansys.ACT.Mechanical.Fields.Field](../../../Mechanical/Fields/Field.md#ansys.mechanical.stubs.v242.Ansys.ACT.Mechanical.Fields.Field) | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets the ZPhaseAngle.
 
 <!-- !! processed by numpydoc !! -->
 
@@ -369,59 +449,15 @@ Gets the list of properties that are visible for this object.
 
 ## Method detail
 
-### RemoteForce.PromoteToRemotePoint()
+<a id="RemoteForce.Activate"></a>
 
-Run the PromoteToRemotePoint action.
+### RemoteForce.Activate()
 
-<!-- !! processed by numpydoc !! -->
-
-### RemoteForce.GetActivateAtLoadStep(stepNumber: System.UInt32)
-
-GetActivateAtLoadStep method.
+Activate the current object.
 
 <!-- !! processed by numpydoc !! -->
 
-### RemoteForce.SetActivateAtLoadStep(stepNumber: System.UInt32, bActive: System.Boolean)
-
-SetActivateAtLoadStep method.
-
-<!-- !! processed by numpydoc !! -->
-
-### RemoteForce.GetComponentActivateAtLoadStep(component: System.String, stepNumber: System.UInt32)
-
-GetComponentActivateAtLoadStep method.
-
-<!-- !! processed by numpydoc !! -->
-
-### RemoteForce.SetComponentActivateAtLoadStep(component: System.String, stepNumber: System.UInt32, bActive: System.Boolean)
-
-SetComponentActivateAtLoadStep method.
-
-<!-- !! processed by numpydoc !! -->
-
-### RemoteForce.PromoteToNamedSelection()
-
-Run the PromoteToNamedSelection action.
-
-<!-- !! processed by numpydoc !! -->
-
-### RemoteForce.Delete()
-
-Run the Delete action.
-
-<!-- !! processed by numpydoc !! -->
-
-### RemoteForce.GetChildren(recurses: System.Boolean, children: System.Collections.Generic.IList[ChildrenType])
-
-Gets the list of children, filtered by type.
-
-<!-- !! processed by numpydoc !! -->
-
-### RemoteForce.GetChildren(category: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../../v241/Ansys/Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory), recurses: System.Boolean, children: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject])
-
-Gets the list of children, filtered by type.
-
-<!-- !! processed by numpydoc !! -->
+<a id="RemoteForce.AddComment"></a>
 
 ### RemoteForce.AddComment()
 
@@ -429,11 +465,15 @@ Creates a new child Comment.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="RemoteForce.AddFigure"></a>
+
 ### RemoteForce.AddFigure()
 
 Creates a new child Figure.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="RemoteForce.AddImage"></a>
 
 ### RemoteForce.AddImage(filePath: System.String)
 
@@ -445,11 +485,7 @@ if not, the image will be a screen capture of the Geometry window.
 
 <!-- !! processed by numpydoc !! -->
 
-### RemoteForce.Activate()
-
-Activate the current object.
-
-<!-- !! processed by numpydoc !! -->
+<a id="RemoteForce.CopyTo"></a>
 
 ### RemoteForce.CopyTo(other: Ansys.ACT.Automation.Mechanical.DataModelObject)
 
@@ -457,11 +493,63 @@ Copies all visible properties from this object to another.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="RemoteForce.CreateParameter"></a>
+
+### RemoteForce.CreateParameter(propName: System.String)
+
+Creates a new parameter for a Property.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="RemoteForce.Delete"></a>
+
+### RemoteForce.Delete()
+
+Run the Delete action.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="RemoteForce.Duplicate"></a>
+
 ### RemoteForce.Duplicate()
 
 Creates a copy of the current DataModelObject.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="RemoteForce.GetActivateAtLoadStep"></a>
+
+### RemoteForce.GetActivateAtLoadStep(stepNumber: System.UInt32)
+
+GetActivateAtLoadStep method.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="RemoteForce.GetChildren"></a>
+
+### RemoteForce.GetChildren(recurses: System.Boolean, children: System.Collections.Generic.IList[ChildrenType])
+
+Gets the list of children, filtered by type.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="RemoteForce.GetComponentActivateAtLoadStep"></a>
+
+### RemoteForce.GetComponentActivateAtLoadStep(component: System.String, stepNumber: System.UInt32)
+
+GetComponentActivateAtLoadStep method.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="RemoteForce.GetParameter"></a>
+
+### RemoteForce.GetParameter(propName: System.String)
+
+Gets the parameter corresponding to the given property.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="RemoteForce.GroupAllSimilarChildren"></a>
 
 ### RemoteForce.GroupAllSimilarChildren()
 
@@ -469,17 +557,31 @@ Run the GroupAllSimilarChildren action.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="RemoteForce.GroupSimilarObjects"></a>
+
 ### RemoteForce.GroupSimilarObjects()
 
 Run the GroupSimilarObjects action.
 
 <!-- !! processed by numpydoc !! -->
 
-### RemoteForce.PropertyByName(name: System.String)
+<a id="RemoteForce.PromoteToNamedSelection"></a>
 
-Get a property by its unique name.
+### RemoteForce.PromoteToNamedSelection()
+
+Run the PromoteToNamedSelection action.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="RemoteForce.PromoteToRemotePoint"></a>
+
+### RemoteForce.PromoteToRemotePoint()
+
+Run the PromoteToRemotePoint action.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="RemoteForce.PropertyByAPIName"></a>
 
 ### RemoteForce.PropertyByAPIName(name: System.String)
 
@@ -490,21 +592,35 @@ If multiple properties have the same API Name, only the first property with that
 
 <!-- !! processed by numpydoc !! -->
 
-### RemoteForce.CreateParameter(propName: System.String)
+<a id="RemoteForce.PropertyByName"></a>
 
-Creates a new parameter for a Property.
+### RemoteForce.PropertyByName(name: System.String)
 
-<!-- !! processed by numpydoc !! -->
-
-### RemoteForce.GetParameter(propName: System.String)
-
-Gets the parameter corresponding to the given property.
+Get a property by its unique name.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="RemoteForce.RemoveParameter"></a>
 
 ### RemoteForce.RemoveParameter(propName: System.String)
 
 Removes the parameter from the parameter set corresponding to the given property.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="RemoteForce.SetActivateAtLoadStep"></a>
+
+### RemoteForce.SetActivateAtLoadStep(stepNumber: System.UInt32, bActive: System.Boolean)
+
+SetActivateAtLoadStep method.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="RemoteForce.SetComponentActivateAtLoadStep"></a>
+
+### RemoteForce.SetComponentActivateAtLoadStep(component: System.String, stepNumber: System.UInt32, bActive: System.Boolean)
+
+SetComponentActivateAtLoadStep method.
 
 <!-- !! processed by numpydoc !! -->
 

@@ -1,6 +1,6 @@
 # `ContactTotalForceFromContactPressureYTracker`
 
-
+<a id="ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Results.ResultTrackers.ContactTotalForceFromContactPressureYTracker"></a>
 
 #### *class* ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Results.ResultTrackers.ContactTotalForceFromContactPressureYTracker
 
@@ -17,115 +17,93 @@ Defines a ContactTotalForceFromContactPressureYTracker.
 ### Methods
 
 | Name | Description |
-|---------------------------|-----------------------------------------------------------------------------------|
-| `ExportAnimation`         | Run the ExportAnimation action.                                                   |
-| `ClearGeneratedData`      | Run the ClearGeneratedData action.                                                |
-| `EvaluateAllResults`      | Run the EvaluateAllResults action.                                                |
-| `RenameBasedOnDefinition` | Run the RenameBasedOnDefinition action.                                           |
-| `Delete`                  | Run the Delete action.                                                            |
-| `GetChildren`             | Gets the list of children, filtered by type.                                      |
-| `GetChildren`             | Gets the list of children, filtered by type.                                      |
-| `AddComment`              | Creates a new child Comment.                                                      |
-| `AddImage`                | Creates a new child Image.                                                        |
-| `Activate`                | Activate the current object.                                                      |
-| `CopyTo`                  | Copies all visible properties from this object to another.                        |
-| `Duplicate`               | Creates a copy of the current DataModelObject.                                    |
-| `GroupAllSimilarChildren` | Run the GroupAllSimilarChildren action.                                           |
-| `GroupSimilarObjects`     | Run the GroupSimilarObjects action.                                               |
-| `PropertyByName`          | Get a property by its unique name.                                                |
-| `PropertyByAPIName`       | Get a property by its API name.                                                   |
-| `CreateParameter`         | Creates a new parameter for a Property.                                           |
-| `GetParameter`            | Gets the parameter corresponding to the given property.                           |
-| `RemoveParameter`         | Removes the parameter from the parameter set corresponding to the given property. |
+|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------|
+| [`Activate`](#ContactTotalForceFromContactPressureYTracker.Activate)                               | Activate the current object.                                                      |
+| [`AddComment`](#ContactTotalForceFromContactPressureYTracker.AddComment)                           | Creates a new child Comment.                                                      |
+| [`AddImage`](#ContactTotalForceFromContactPressureYTracker.AddImage)                               | Creates a new child Image.                                                        |
+| [`ClearGeneratedData`](#ContactTotalForceFromContactPressureYTracker.ClearGeneratedData)           | Run the ClearGeneratedData action.                                                |
+| [`CopyTo`](#ContactTotalForceFromContactPressureYTracker.CopyTo)                                   | Copies all visible properties from this object to another.                        |
+| [`CreateParameter`](#ContactTotalForceFromContactPressureYTracker.CreateParameter)                 | Creates a new parameter for a Property.                                           |
+| [`Delete`](#ContactTotalForceFromContactPressureYTracker.Delete)                                   | Run the Delete action.                                                            |
+| [`Duplicate`](#ContactTotalForceFromContactPressureYTracker.Duplicate)                             | Creates a copy of the current DataModelObject.                                    |
+| [`EvaluateAllResults`](#ContactTotalForceFromContactPressureYTracker.EvaluateAllResults)           | Run the EvaluateAllResults action.                                                |
+| [`ExportAnimation`](#ContactTotalForceFromContactPressureYTracker.ExportAnimation)                 | Run the ExportAnimation action.                                                   |
+| [`GetChildren`](#ContactTotalForceFromContactPressureYTracker.GetChildren)                         | Gets the list of children, filtered by type.                                      |
+| [`GetParameter`](#ContactTotalForceFromContactPressureYTracker.GetParameter)                       | Gets the parameter corresponding to the given property.                           |
+| [`GroupAllSimilarChildren`](#ContactTotalForceFromContactPressureYTracker.GroupAllSimilarChildren) | Run the GroupAllSimilarChildren action.                                           |
+| [`GroupSimilarObjects`](#ContactTotalForceFromContactPressureYTracker.GroupSimilarObjects)         | Run the GroupSimilarObjects action.                                               |
+| [`PropertyByAPIName`](#ContactTotalForceFromContactPressureYTracker.PropertyByAPIName)             | Get a property by its API name.                                                   |
+| [`PropertyByName`](#ContactTotalForceFromContactPressureYTracker.PropertyByName)                   | Get a property by its unique name.                                                |
+| [`RemoveParameter`](#ContactTotalForceFromContactPressureYTracker.RemoveParameter)                 | Removes the parameter from the parameter set corresponding to the given property. |
+| [`RenameBasedOnDefinition`](#ContactTotalForceFromContactPressureYTracker.RenameBasedOnDefinition) | Run the RenameBasedOnDefinition action.                                           |
 
 ### Properties
 
 | Name | Description |
-|-------------------------------|---------------------------------------------------------------|
-| `InternalObject`              | Gets the internal object. For advanced usage only.            |
-| `ContactRegion`               | Gets or sets the ContactRegion.                               |
-| `DataModelObjectCategory`     | Gets the current DataModelObject's category.                  |
-| `IsSolved`                    | Gets the IsSolved.                                            |
-| `ChartDimensions`             | Gets or sets the Chart Dimensions                             |
-| `BoundaryCondition`           | Gets or sets the BoundaryCondition.                           |
-| `CutFrequency`                | Gets or sets the CutFrequency.                                |
-| `SectorNumber`                | Gets or sets the SectorNumber.                                |
-| `GeometrySelectionString`     | Gets or sets the GeometrySelectionString.                     |
-| `LoadStepNumber`              | Gets or sets the LoadStepNumber.                              |
-| `ReportedFrequency`           | Gets the ReportedFrequency.                                   |
-| `Duration`                    | Gets or sets the Duration.                                    |
-| `FilterMaximum`               | Gets the FilterMaximum.                                       |
-| `FilterMinimum`               | Gets the FilterMinimum.                                       |
-| `FrequencyAtMaximumAmplitude` | Gets the FrequencyAtMaximumAmplitude.                         |
-| `ImaginaryAtMaximumAmplitude` | Gets the ImaginaryAtMaximumAmplitude.                         |
-| `MaximumAmplitude`            | Gets the MaximumAmplitude.                                    |
-| `MaximumFrequency`            | Gets or sets the MaximumFrequency.                            |
-| `Maximum`                     | Gets the Maximum.                                             |
-| `MinimumFrequency`            | Gets or sets the MinimumFrequency.                            |
-| `Minimum`                     | Gets the Minimum.                                             |
-| `PhaseAngle`                  | Gets the PhaseAngle.                                          |
-| `RealAtMaximumAmplitude`      | Gets the RealAtMaximumAmplitude.                              |
-| `RequestedFrequency`          | Gets or sets the RequestedFrequency.                          |
-| `AccelerationType`            | Gets or sets the AccelerationType.                            |
-| `ChartViewingStyle`           | Gets or sets the ChartViewingStyle.                           |
-| `DeformationType`             | Gets or sets the DeformationType.                             |
-| `FilterType`                  | Gets or sets the FilterType.                                  |
-| `SpatialResolution`           | Gets or sets the SpatialResolution.                           |
-| `NormalOrientation`           | Gets or sets the NormalOrientation.                           |
-| `CurvesAppearanceDisplay`     | Gets or sets the CurvesAppearanceDisplay.                     |
-| `ResultChartType`             | Gets the ResultChartType.                                     |
-| `DpfEvaluation`               | Gets or sets the DpfEvaluation.                               |
-| `XAxisValues`                 | Gets or sets the XAxisValues.                                 |
-| `ShearOrientation`            | Gets or sets the ShearOrientation.                            |
-| `StressStrainType`            | Gets or sets the StressStrainType.                            |
-| `TimeHistoryDisplay`          | Gets or sets the TimeHistoryDisplay.                          |
-| `VelocityType`                | Gets or sets the VelocityType.                                |
-| `Suppressed`                  | Gets or sets the Suppressed.                                  |
-| `EnhancedTracking`            | Gets the EnhancedTracking.                                    |
-| `UseParentFrequencyRange`     | Gets or sets the UseParentFrequencyRange.                     |
-| `CoordinateSystem`            | Gets or sets the CoordinateSystem.                            |
-| `Spring`                      | Gets or sets the Spring.                                      |
-| `Location`                    | Gets or sets the Location.                                    |
-| `Children`                    | Gets the list of children.                                    |
-| `Comments`                    | Gets the list of associated comments.                         |
-| `Images`                      | Gets the list of associated images.                           |
-| `InternalObject`              | Gets the internal object. For advanced usage only.            |
-| `Properties`                  | Gets the list of properties for this object.                  |
-| `VisibleProperties`           | Gets the list of properties that are visible for this object. |
+|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------|
+| [`AccelerationType`](#ContactTotalForceFromContactPressureYTracker.AccelerationType)                       | Gets or sets the AccelerationType.                            |
+| [`BoundaryCondition`](#ContactTotalForceFromContactPressureYTracker.BoundaryCondition)                     | Gets or sets the BoundaryCondition.                           |
+| [`ChartDimensions`](#ContactTotalForceFromContactPressureYTracker.ChartDimensions)                         | Gets or sets the Chart Dimensions                             |
+| [`ChartViewingStyle`](#ContactTotalForceFromContactPressureYTracker.ChartViewingStyle)                     | Gets or sets the ChartViewingStyle.                           |
+| [`Children`](#ContactTotalForceFromContactPressureYTracker.Children)                                       | Gets the list of children.                                    |
+| [`Comments`](#ContactTotalForceFromContactPressureYTracker.Comments)                                       | Gets the list of associated comments.                         |
+| [`ContactRegion`](#ContactTotalForceFromContactPressureYTracker.ContactRegion)                             | Gets or sets the ContactRegion.                               |
+| [`CoordinateSystem`](#ContactTotalForceFromContactPressureYTracker.CoordinateSystem)                       | Gets or sets the CoordinateSystem.                            |
+| [`CurvesAppearanceDisplay`](#ContactTotalForceFromContactPressureYTracker.CurvesAppearanceDisplay)         | Gets or sets the CurvesAppearanceDisplay.                     |
+| [`CutFrequency`](#ContactTotalForceFromContactPressureYTracker.CutFrequency)                               | Gets or sets the CutFrequency.                                |
+| [`DataModelObjectCategory`](#ContactTotalForceFromContactPressureYTracker.DataModelObjectCategory)         | Gets the current DataModelObject’s category.                  |
+| [`DeformationType`](#ContactTotalForceFromContactPressureYTracker.DeformationType)                         | Gets or sets the DeformationType.                             |
+| [`DpfEvaluation`](#ContactTotalForceFromContactPressureYTracker.DpfEvaluation)                             | Gets or sets the DpfEvaluation.                               |
+| [`Duration`](#ContactTotalForceFromContactPressureYTracker.Duration)                                       | Gets or sets the Duration.                                    |
+| [`EnhancedTracking`](#ContactTotalForceFromContactPressureYTracker.EnhancedTracking)                       | Gets the EnhancedTracking.                                    |
+| [`FilterMaximum`](#ContactTotalForceFromContactPressureYTracker.FilterMaximum)                             | Gets the FilterMaximum.                                       |
+| [`FilterMinimum`](#ContactTotalForceFromContactPressureYTracker.FilterMinimum)                             | Gets the FilterMinimum.                                       |
+| [`FilterType`](#ContactTotalForceFromContactPressureYTracker.FilterType)                                   | Gets or sets the FilterType.                                  |
+| [`FrequencyAtMaximumAmplitude`](#ContactTotalForceFromContactPressureYTracker.FrequencyAtMaximumAmplitude) | Gets the FrequencyAtMaximumAmplitude.                         |
+| [`GeometrySelectionString`](#ContactTotalForceFromContactPressureYTracker.GeometrySelectionString)         | Gets or sets the GeometrySelectionString.                     |
+| [`Images`](#ContactTotalForceFromContactPressureYTracker.Images)                                           | Gets the list of associated images.                           |
+| [`ImaginaryAtMaximumAmplitude`](#ContactTotalForceFromContactPressureYTracker.ImaginaryAtMaximumAmplitude) | Gets the ImaginaryAtMaximumAmplitude.                         |
+| [`InternalObject`](#ContactTotalForceFromContactPressureYTracker.InternalObject)                           | Gets the internal object. For advanced usage only.            |
+| [`IsSolved`](#ContactTotalForceFromContactPressureYTracker.IsSolved)                                       | Gets the IsSolved.                                            |
+| [`LoadStepNumber`](#ContactTotalForceFromContactPressureYTracker.LoadStepNumber)                           | Gets or sets the LoadStepNumber.                              |
+| [`Location`](#ContactTotalForceFromContactPressureYTracker.Location)                                       | Gets or sets the Location.                                    |
+| [`Maximum`](#ContactTotalForceFromContactPressureYTracker.Maximum)                                         | Gets the Maximum.                                             |
+| [`MaximumAmplitude`](#ContactTotalForceFromContactPressureYTracker.MaximumAmplitude)                       | Gets the MaximumAmplitude.                                    |
+| [`MaximumFrequency`](#ContactTotalForceFromContactPressureYTracker.MaximumFrequency)                       | Gets or sets the MaximumFrequency.                            |
+| [`Minimum`](#ContactTotalForceFromContactPressureYTracker.Minimum)                                         | Gets the Minimum.                                             |
+| [`MinimumFrequency`](#ContactTotalForceFromContactPressureYTracker.MinimumFrequency)                       | Gets or sets the MinimumFrequency.                            |
+| [`NormalOrientation`](#ContactTotalForceFromContactPressureYTracker.NormalOrientation)                     | Gets or sets the NormalOrientation.                           |
+| [`PhaseAngle`](#ContactTotalForceFromContactPressureYTracker.PhaseAngle)                                   | Gets the PhaseAngle.                                          |
+| [`Properties`](#ContactTotalForceFromContactPressureYTracker.Properties)                                   | Gets the list of properties for this object.                  |
+| [`RealAtMaximumAmplitude`](#ContactTotalForceFromContactPressureYTracker.RealAtMaximumAmplitude)           | Gets the RealAtMaximumAmplitude.                              |
+| [`ReportedFrequency`](#ContactTotalForceFromContactPressureYTracker.ReportedFrequency)                     | Gets the ReportedFrequency.                                   |
+| [`RequestedFrequency`](#ContactTotalForceFromContactPressureYTracker.RequestedFrequency)                   | Gets or sets the RequestedFrequency.                          |
+| [`ResultChartType`](#ContactTotalForceFromContactPressureYTracker.ResultChartType)                         | Gets the ResultChartType.                                     |
+| [`SectorNumber`](#ContactTotalForceFromContactPressureYTracker.SectorNumber)                               | Gets or sets the SectorNumber.                                |
+| [`ShearOrientation`](#ContactTotalForceFromContactPressureYTracker.ShearOrientation)                       | Gets or sets the ShearOrientation.                            |
+| [`SpatialResolution`](#ContactTotalForceFromContactPressureYTracker.SpatialResolution)                     | Gets or sets the SpatialResolution.                           |
+| [`Spring`](#ContactTotalForceFromContactPressureYTracker.Spring)                                           | Gets or sets the Spring.                                      |
+| [`StressStrainType`](#ContactTotalForceFromContactPressureYTracker.StressStrainType)                       | Gets or sets the StressStrainType.                            |
+| [`Suppressed`](#ContactTotalForceFromContactPressureYTracker.Suppressed)                                   | Gets or sets the Suppressed.                                  |
+| [`TimeHistoryDisplay`](#ContactTotalForceFromContactPressureYTracker.TimeHistoryDisplay)                   | Gets or sets the TimeHistoryDisplay.                          |
+| [`UseParentFrequencyRange`](#ContactTotalForceFromContactPressureYTracker.UseParentFrequencyRange)         | Gets or sets the UseParentFrequencyRange.                     |
+| [`VelocityType`](#ContactTotalForceFromContactPressureYTracker.VelocityType)                               | Gets or sets the VelocityType.                                |
+| [`VisibleProperties`](#ContactTotalForceFromContactPressureYTracker.VisibleProperties)                     | Gets the list of properties that are visible for this object. |
+| [`XAxisValues`](#ContactTotalForceFromContactPressureYTracker.XAxisValues)                                 | Gets or sets the XAxisValues.                                 |
 
 <a id="property-detail"></a>
 
 ## Property detail
 
-### *property* ContactTotalForceFromContactPressureYTracker.InternalObject *: Ansys.Common.Interop.DSObjectsAuto.IDSResultChartAuto | [None](https://docs.python.org/3/library/constants.html#None)*
+<a id="ContactTotalForceFromContactPressureYTracker.AccelerationType"></a>
 
-Gets the internal object. For advanced usage only.
+### *property* ContactTotalForceFromContactPressureYTracker.AccelerationType *: [Ansys.Mechanical.DataModel.Enums.TotalOrDirectional](../../../../../Mechanical/DataModel/Enums/TotalOrDirectional.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.TotalOrDirectional) | [None](https://docs.python.org/3/library/constants.html#None)*
 
-<!-- !! processed by numpydoc !! -->
-
-### *property* ContactTotalForceFromContactPressureYTracker.ContactRegion *: [Ansys.ACT.Automation.Mechanical.Connections.ContactRegion](../../../../../../../v241/Ansys/ACT/Automation/Mechanical/Connections/ContactRegion.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Connections.ContactRegion) | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the ContactRegion.
+Gets or sets the AccelerationType.
 
 <!-- !! processed by numpydoc !! -->
 
-### *property* ContactTotalForceFromContactPressureYTracker.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../../../v241/Ansys/Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets the current DataModelObject's category.
-
-<!-- !! processed by numpydoc !! -->
-
-### *property* ContactTotalForceFromContactPressureYTracker.IsSolved *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets the IsSolved.
-
-<!-- !! processed by numpydoc !! -->
-
-### *property* ContactTotalForceFromContactPressureYTracker.ChartDimensions *: [Ansys.Mechanical.DataModel.Enums.ChartDimensions](../../../../../../../v241/Ansys/Mechanical/DataModel/Enums/ChartDimensions.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.ChartDimensions) | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the Chart Dimensions
-
-<!-- !! processed by numpydoc !! -->
+<a id="ContactTotalForceFromContactPressureYTracker.BoundaryCondition"></a>
 
 ### *property* ContactTotalForceFromContactPressureYTracker.BoundaryCondition *: [Ansys.ACT.Automation.Mechanical.BoundaryConditions.GenericBoundaryCondition](../../../../../../../v241/Ansys/ACT/Automation/Mechanical/BoundaryConditions/GenericBoundaryCondition.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.BoundaryConditions.GenericBoundaryCondition) | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -133,233 +111,23 @@ Gets or sets the BoundaryCondition.
 
 <!-- !! processed by numpydoc !! -->
 
-### *property* ContactTotalForceFromContactPressureYTracker.CutFrequency *: System.Double | [None](https://docs.python.org/3/library/constants.html#None)*
+<a id="ContactTotalForceFromContactPressureYTracker.ChartDimensions"></a>
 
-Gets or sets the CutFrequency.
+### *property* ContactTotalForceFromContactPressureYTracker.ChartDimensions *: [Ansys.Mechanical.DataModel.Enums.ChartDimensions](../../../../../Mechanical/DataModel/Enums/ChartDimensions.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.ChartDimensions) | [None](https://docs.python.org/3/library/constants.html#None)*
 
-<!-- !! processed by numpydoc !! -->
-
-### *property* ContactTotalForceFromContactPressureYTracker.SectorNumber *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the SectorNumber.
+Gets or sets the Chart Dimensions
 
 <!-- !! processed by numpydoc !! -->
 
-### *property* ContactTotalForceFromContactPressureYTracker.GeometrySelectionString *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+<a id="ContactTotalForceFromContactPressureYTracker.ChartViewingStyle"></a>
 
-Gets or sets the GeometrySelectionString.
-
-<!-- !! processed by numpydoc !! -->
-
-### *property* ContactTotalForceFromContactPressureYTracker.LoadStepNumber *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the LoadStepNumber.
-
-<!-- !! processed by numpydoc !! -->
-
-### *property* ContactTotalForceFromContactPressureYTracker.ReportedFrequency *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets the ReportedFrequency.
-
-<!-- !! processed by numpydoc !! -->
-
-### *property* ContactTotalForceFromContactPressureYTracker.Duration *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the Duration.
-
-<!-- !! processed by numpydoc !! -->
-
-### *property* ContactTotalForceFromContactPressureYTracker.FilterMaximum *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets the FilterMaximum.
-
-<!-- !! processed by numpydoc !! -->
-
-### *property* ContactTotalForceFromContactPressureYTracker.FilterMinimum *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets the FilterMinimum.
-
-<!-- !! processed by numpydoc !! -->
-
-### *property* ContactTotalForceFromContactPressureYTracker.FrequencyAtMaximumAmplitude *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets the FrequencyAtMaximumAmplitude.
-
-<!-- !! processed by numpydoc !! -->
-
-### *property* ContactTotalForceFromContactPressureYTracker.ImaginaryAtMaximumAmplitude *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets the ImaginaryAtMaximumAmplitude.
-
-<!-- !! processed by numpydoc !! -->
-
-### *property* ContactTotalForceFromContactPressureYTracker.MaximumAmplitude *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets the MaximumAmplitude.
-
-<!-- !! processed by numpydoc !! -->
-
-### *property* ContactTotalForceFromContactPressureYTracker.MaximumFrequency *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the MaximumFrequency.
-
-<!-- !! processed by numpydoc !! -->
-
-### *property* ContactTotalForceFromContactPressureYTracker.Maximum *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets the Maximum.
-
-<!-- !! processed by numpydoc !! -->
-
-### *property* ContactTotalForceFromContactPressureYTracker.MinimumFrequency *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the MinimumFrequency.
-
-<!-- !! processed by numpydoc !! -->
-
-### *property* ContactTotalForceFromContactPressureYTracker.Minimum *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets the Minimum.
-
-<!-- !! processed by numpydoc !! -->
-
-### *property* ContactTotalForceFromContactPressureYTracker.PhaseAngle *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets the PhaseAngle.
-
-<!-- !! processed by numpydoc !! -->
-
-### *property* ContactTotalForceFromContactPressureYTracker.RealAtMaximumAmplitude *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets the RealAtMaximumAmplitude.
-
-<!-- !! processed by numpydoc !! -->
-
-### *property* ContactTotalForceFromContactPressureYTracker.RequestedFrequency *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the RequestedFrequency.
-
-<!-- !! processed by numpydoc !! -->
-
-### *property* ContactTotalForceFromContactPressureYTracker.AccelerationType *: [Ansys.Mechanical.DataModel.Enums.TotalOrDirectional](../../../../../../../v241/Ansys/Mechanical/DataModel/Enums/TotalOrDirectional.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.TotalOrDirectional) | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the AccelerationType.
-
-<!-- !! processed by numpydoc !! -->
-
-### *property* ContactTotalForceFromContactPressureYTracker.ChartViewingStyle *: [Ansys.Mechanical.DataModel.Enums.ChartAxisScaleType](../../../../../../../v241/Ansys/Mechanical/DataModel/Enums/ChartAxisScaleType.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.ChartAxisScaleType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ContactTotalForceFromContactPressureYTracker.ChartViewingStyle *: [Ansys.Mechanical.DataModel.Enums.ChartAxisScaleType](../../../../../Mechanical/DataModel/Enums/ChartAxisScaleType.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.ChartAxisScaleType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the ChartViewingStyle.
 
 <!-- !! processed by numpydoc !! -->
 
-### *property* ContactTotalForceFromContactPressureYTracker.DeformationType *: [Ansys.Mechanical.DataModel.Enums.TotalOrDirectional](../../../../../../../v241/Ansys/Mechanical/DataModel/Enums/TotalOrDirectional.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.TotalOrDirectional) | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the DeformationType.
-
-<!-- !! processed by numpydoc !! -->
-
-### *property* ContactTotalForceFromContactPressureYTracker.FilterType *: [Ansys.Mechanical.DataModel.Enums.FilterType](../../../../../../../v241/Ansys/Mechanical/DataModel/Enums/FilterType.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.FilterType) | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the FilterType.
-
-<!-- !! processed by numpydoc !! -->
-
-### *property* ContactTotalForceFromContactPressureYTracker.SpatialResolution *: [Ansys.Mechanical.DataModel.Enums.MultipleNodeType](../../../../../../../v241/Ansys/Mechanical/DataModel/Enums/MultipleNodeType.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.MultipleNodeType) | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the SpatialResolution.
-
-<!-- !! processed by numpydoc !! -->
-
-### *property* ContactTotalForceFromContactPressureYTracker.NormalOrientation *: [Ansys.Mechanical.DataModel.Enums.NormalOrientationType](../../../../../../../v241/Ansys/Mechanical/DataModel/Enums/NormalOrientationType.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.NormalOrientationType) | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the NormalOrientation.
-
-<!-- !! processed by numpydoc !! -->
-
-### *property* ContactTotalForceFromContactPressureYTracker.CurvesAppearanceDisplay *: [Ansys.Mechanical.DataModel.Enums.ChartPlotStyle](../../../../../../../v241/Ansys/Mechanical/DataModel/Enums/ChartPlotStyle.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.ChartPlotStyle) | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the CurvesAppearanceDisplay.
-
-<!-- !! processed by numpydoc !! -->
-
-### *property* ContactTotalForceFromContactPressureYTracker.ResultChartType *: [Ansys.Mechanical.DataModel.Enums.ChartResultType](../../../../../../../v241/Ansys/Mechanical/DataModel/Enums/ChartResultType.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.ChartResultType) | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets the ResultChartType.
-
-<!-- !! processed by numpydoc !! -->
-
-### *property* ContactTotalForceFromContactPressureYTracker.DpfEvaluation *: [Ansys.Mechanical.DataModel.Enums.DpfEvaluationType](../../../../../../../v241/Ansys/Mechanical/DataModel/Enums/DpfEvaluationType.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DpfEvaluationType) | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the DpfEvaluation.
-
-<!-- !! processed by numpydoc !! -->
-
-### *property* ContactTotalForceFromContactPressureYTracker.XAxisValues *: [Ansys.Mechanical.DataModel.Enums.XAxisValues](../../../../../../../v241/Ansys/Mechanical/DataModel/Enums/XAxisValues.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.XAxisValues) | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the XAxisValues.
-
-<!-- !! processed by numpydoc !! -->
-
-### *property* ContactTotalForceFromContactPressureYTracker.ShearOrientation *: [Ansys.Mechanical.DataModel.Enums.ShearOrientationType](../../../../../../../v241/Ansys/Mechanical/DataModel/Enums/ShearOrientationType.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.ShearOrientationType) | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the ShearOrientation.
-
-<!-- !! processed by numpydoc !! -->
-
-### *property* ContactTotalForceFromContactPressureYTracker.StressStrainType *: [Ansys.Mechanical.DataModel.Enums.StressStrainType](../../../../../../../v241/Ansys/Mechanical/DataModel/Enums/StressStrainType.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.StressStrainType) | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the StressStrainType.
-
-<!-- !! processed by numpydoc !! -->
-
-### *property* ContactTotalForceFromContactPressureYTracker.TimeHistoryDisplay *: [Ansys.Mechanical.DataModel.Enums.TimeHistoryDisplayType](../../../../../../../v241/Ansys/Mechanical/DataModel/Enums/TimeHistoryDisplayType.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.TimeHistoryDisplayType) | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the TimeHistoryDisplay.
-
-<!-- !! processed by numpydoc !! -->
-
-### *property* ContactTotalForceFromContactPressureYTracker.VelocityType *: [Ansys.Mechanical.DataModel.Enums.TotalOrDirectional](../../../../../../../v241/Ansys/Mechanical/DataModel/Enums/TotalOrDirectional.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.TotalOrDirectional) | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the VelocityType.
-
-<!-- !! processed by numpydoc !! -->
-
-### *property* ContactTotalForceFromContactPressureYTracker.Suppressed *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the Suppressed.
-
-<!-- !! processed by numpydoc !! -->
-
-### *property* ContactTotalForceFromContactPressureYTracker.EnhancedTracking *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets the EnhancedTracking.
-
-<!-- !! processed by numpydoc !! -->
-
-### *property* ContactTotalForceFromContactPressureYTracker.UseParentFrequencyRange *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the UseParentFrequencyRange.
-
-<!-- !! processed by numpydoc !! -->
-
-### *property* ContactTotalForceFromContactPressureYTracker.CoordinateSystem *: [Ansys.ACT.Automation.Mechanical.CoordinateSystem](../../../../../../../v241/Ansys/ACT/Automation/Mechanical/CoordinateSystem.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.CoordinateSystem) | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the CoordinateSystem.
-
-<!-- !! processed by numpydoc !! -->
-
-### *property* ContactTotalForceFromContactPressureYTracker.Spring *: [Ansys.ACT.Automation.Mechanical.Connections.Spring](../../../../../../../v241/Ansys/ACT/Automation/Mechanical/Connections/Spring.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Connections.Spring) | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the Spring.
-
-<!-- !! processed by numpydoc !! -->
-
-### *property* ContactTotalForceFromContactPressureYTracker.Location *: Ansys.ACT.Interfaces.Common.ISelectionInfo | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the Location.
-
-<!-- !! processed by numpydoc !! -->
+<a id="ContactTotalForceFromContactPressureYTracker.Children"></a>
 
 ### *property* ContactTotalForceFromContactPressureYTracker.Children *: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -367,11 +135,127 @@ Gets the list of children.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="ContactTotalForceFromContactPressureYTracker.Comments"></a>
+
 ### *property* ContactTotalForceFromContactPressureYTracker.Comments *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Comment](../../../../../../../v241/Ansys/ACT/Automation/Mechanical/Comment.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated comments.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="ContactTotalForceFromContactPressureYTracker.ContactRegion"></a>
+
+### *property* ContactTotalForceFromContactPressureYTracker.ContactRegion *: [Ansys.ACT.Automation.Mechanical.Connections.ContactRegion](../../../../../../../v241/Ansys/ACT/Automation/Mechanical/Connections/ContactRegion.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Connections.ContactRegion) | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the ContactRegion.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ContactTotalForceFromContactPressureYTracker.CoordinateSystem"></a>
+
+### *property* ContactTotalForceFromContactPressureYTracker.CoordinateSystem *: [Ansys.ACT.Automation.Mechanical.CoordinateSystem](../../../../../../../v241/Ansys/ACT/Automation/Mechanical/CoordinateSystem.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.CoordinateSystem) | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the CoordinateSystem.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ContactTotalForceFromContactPressureYTracker.CurvesAppearanceDisplay"></a>
+
+### *property* ContactTotalForceFromContactPressureYTracker.CurvesAppearanceDisplay *: [Ansys.Mechanical.DataModel.Enums.ChartPlotStyle](../../../../../Mechanical/DataModel/Enums/ChartPlotStyle.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.ChartPlotStyle) | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the CurvesAppearanceDisplay.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ContactTotalForceFromContactPressureYTracker.CutFrequency"></a>
+
+### *property* ContactTotalForceFromContactPressureYTracker.CutFrequency *: System.Double | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the CutFrequency.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ContactTotalForceFromContactPressureYTracker.DataModelObjectCategory"></a>
+
+### *property* ContactTotalForceFromContactPressureYTracker.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets the current DataModelObject’s category.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ContactTotalForceFromContactPressureYTracker.DeformationType"></a>
+
+### *property* ContactTotalForceFromContactPressureYTracker.DeformationType *: [Ansys.Mechanical.DataModel.Enums.TotalOrDirectional](../../../../../Mechanical/DataModel/Enums/TotalOrDirectional.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.TotalOrDirectional) | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the DeformationType.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ContactTotalForceFromContactPressureYTracker.DpfEvaluation"></a>
+
+### *property* ContactTotalForceFromContactPressureYTracker.DpfEvaluation *: [Ansys.Mechanical.DataModel.Enums.DpfEvaluationType](../../../../../Mechanical/DataModel/Enums/DpfEvaluationType.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.DpfEvaluationType) | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the DpfEvaluation.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ContactTotalForceFromContactPressureYTracker.Duration"></a>
+
+### *property* ContactTotalForceFromContactPressureYTracker.Duration *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the Duration.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ContactTotalForceFromContactPressureYTracker.EnhancedTracking"></a>
+
+### *property* ContactTotalForceFromContactPressureYTracker.EnhancedTracking *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets the EnhancedTracking.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ContactTotalForceFromContactPressureYTracker.FilterMaximum"></a>
+
+### *property* ContactTotalForceFromContactPressureYTracker.FilterMaximum *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets the FilterMaximum.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ContactTotalForceFromContactPressureYTracker.FilterMinimum"></a>
+
+### *property* ContactTotalForceFromContactPressureYTracker.FilterMinimum *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets the FilterMinimum.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ContactTotalForceFromContactPressureYTracker.FilterType"></a>
+
+### *property* ContactTotalForceFromContactPressureYTracker.FilterType *: [Ansys.Mechanical.DataModel.Enums.FilterType](../../../../../Mechanical/DataModel/Enums/FilterType.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.FilterType) | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the FilterType.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ContactTotalForceFromContactPressureYTracker.FrequencyAtMaximumAmplitude"></a>
+
+### *property* ContactTotalForceFromContactPressureYTracker.FrequencyAtMaximumAmplitude *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets the FrequencyAtMaximumAmplitude.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ContactTotalForceFromContactPressureYTracker.GeometrySelectionString"></a>
+
+### *property* ContactTotalForceFromContactPressureYTracker.GeometrySelectionString *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the GeometrySelectionString.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ContactTotalForceFromContactPressureYTracker.Images"></a>
 
 ### *property* ContactTotalForceFromContactPressureYTracker.Images *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Image](../../../../../../../v241/Ansys/ACT/Automation/Mechanical/Image.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -379,11 +263,103 @@ Gets the list of associated images.
 
 <!-- !! processed by numpydoc !! -->
 
-### *property* ContactTotalForceFromContactPressureYTracker.InternalObject *: System.Object | [None](https://docs.python.org/3/library/constants.html#None)*
+<a id="ContactTotalForceFromContactPressureYTracker.ImaginaryAtMaximumAmplitude"></a>
+
+### *property* ContactTotalForceFromContactPressureYTracker.ImaginaryAtMaximumAmplitude *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets the ImaginaryAtMaximumAmplitude.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ContactTotalForceFromContactPressureYTracker.InternalObject"></a>
+
+### *property* ContactTotalForceFromContactPressureYTracker.InternalObject *: Ansys.Common.Interop.DSObjectsAuto.IDSResultChartAuto | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the internal object. For advanced usage only.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="ContactTotalForceFromContactPressureYTracker.IsSolved"></a>
+
+### *property* ContactTotalForceFromContactPressureYTracker.IsSolved *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets the IsSolved.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ContactTotalForceFromContactPressureYTracker.LoadStepNumber"></a>
+
+### *property* ContactTotalForceFromContactPressureYTracker.LoadStepNumber *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the LoadStepNumber.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ContactTotalForceFromContactPressureYTracker.Location"></a>
+
+### *property* ContactTotalForceFromContactPressureYTracker.Location *: Ansys.ACT.Interfaces.Common.ISelectionInfo | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the Location.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ContactTotalForceFromContactPressureYTracker.Maximum"></a>
+
+### *property* ContactTotalForceFromContactPressureYTracker.Maximum *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets the Maximum.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ContactTotalForceFromContactPressureYTracker.MaximumAmplitude"></a>
+
+### *property* ContactTotalForceFromContactPressureYTracker.MaximumAmplitude *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets the MaximumAmplitude.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ContactTotalForceFromContactPressureYTracker.MaximumFrequency"></a>
+
+### *property* ContactTotalForceFromContactPressureYTracker.MaximumFrequency *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the MaximumFrequency.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ContactTotalForceFromContactPressureYTracker.Minimum"></a>
+
+### *property* ContactTotalForceFromContactPressureYTracker.Minimum *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets the Minimum.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ContactTotalForceFromContactPressureYTracker.MinimumFrequency"></a>
+
+### *property* ContactTotalForceFromContactPressureYTracker.MinimumFrequency *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the MinimumFrequency.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ContactTotalForceFromContactPressureYTracker.NormalOrientation"></a>
+
+### *property* ContactTotalForceFromContactPressureYTracker.NormalOrientation *: [Ansys.Mechanical.DataModel.Enums.NormalOrientationType](../../../../../Mechanical/DataModel/Enums/NormalOrientationType.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.NormalOrientationType) | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the NormalOrientation.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ContactTotalForceFromContactPressureYTracker.PhaseAngle"></a>
+
+### *property* ContactTotalForceFromContactPressureYTracker.PhaseAngle *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets the PhaseAngle.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ContactTotalForceFromContactPressureYTracker.Properties"></a>
 
 ### *property* ContactTotalForceFromContactPressureYTracker.Properties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -391,9 +367,123 @@ Gets the list of properties for this object.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="ContactTotalForceFromContactPressureYTracker.RealAtMaximumAmplitude"></a>
+
+### *property* ContactTotalForceFromContactPressureYTracker.RealAtMaximumAmplitude *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets the RealAtMaximumAmplitude.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ContactTotalForceFromContactPressureYTracker.ReportedFrequency"></a>
+
+### *property* ContactTotalForceFromContactPressureYTracker.ReportedFrequency *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets the ReportedFrequency.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ContactTotalForceFromContactPressureYTracker.RequestedFrequency"></a>
+
+### *property* ContactTotalForceFromContactPressureYTracker.RequestedFrequency *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the RequestedFrequency.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ContactTotalForceFromContactPressureYTracker.ResultChartType"></a>
+
+### *property* ContactTotalForceFromContactPressureYTracker.ResultChartType *: [Ansys.Mechanical.DataModel.Enums.ChartResultType](../../../../../Mechanical/DataModel/Enums/ChartResultType.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.ChartResultType) | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets the ResultChartType.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ContactTotalForceFromContactPressureYTracker.SectorNumber"></a>
+
+### *property* ContactTotalForceFromContactPressureYTracker.SectorNumber *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the SectorNumber.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ContactTotalForceFromContactPressureYTracker.ShearOrientation"></a>
+
+### *property* ContactTotalForceFromContactPressureYTracker.ShearOrientation *: [Ansys.Mechanical.DataModel.Enums.ShearOrientationType](../../../../../Mechanical/DataModel/Enums/ShearOrientationType.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.ShearOrientationType) | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the ShearOrientation.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ContactTotalForceFromContactPressureYTracker.SpatialResolution"></a>
+
+### *property* ContactTotalForceFromContactPressureYTracker.SpatialResolution *: [Ansys.Mechanical.DataModel.Enums.MultipleNodeType](../../../../../Mechanical/DataModel/Enums/MultipleNodeType.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.MultipleNodeType) | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the SpatialResolution.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ContactTotalForceFromContactPressureYTracker.Spring"></a>
+
+### *property* ContactTotalForceFromContactPressureYTracker.Spring *: [Ansys.ACT.Automation.Mechanical.Connections.Spring](../../../../../../../v241/Ansys/ACT/Automation/Mechanical/Connections/Spring.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Connections.Spring) | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the Spring.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ContactTotalForceFromContactPressureYTracker.StressStrainType"></a>
+
+### *property* ContactTotalForceFromContactPressureYTracker.StressStrainType *: [Ansys.Mechanical.DataModel.Enums.StressStrainType](../../../../../Mechanical/DataModel/Enums/StressStrainType.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.StressStrainType) | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the StressStrainType.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ContactTotalForceFromContactPressureYTracker.Suppressed"></a>
+
+### *property* ContactTotalForceFromContactPressureYTracker.Suppressed *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the Suppressed.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ContactTotalForceFromContactPressureYTracker.TimeHistoryDisplay"></a>
+
+### *property* ContactTotalForceFromContactPressureYTracker.TimeHistoryDisplay *: [Ansys.Mechanical.DataModel.Enums.TimeHistoryDisplayType](../../../../../Mechanical/DataModel/Enums/TimeHistoryDisplayType.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.TimeHistoryDisplayType) | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the TimeHistoryDisplay.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ContactTotalForceFromContactPressureYTracker.UseParentFrequencyRange"></a>
+
+### *property* ContactTotalForceFromContactPressureYTracker.UseParentFrequencyRange *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the UseParentFrequencyRange.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ContactTotalForceFromContactPressureYTracker.VelocityType"></a>
+
+### *property* ContactTotalForceFromContactPressureYTracker.VelocityType *: [Ansys.Mechanical.DataModel.Enums.TotalOrDirectional](../../../../../Mechanical/DataModel/Enums/TotalOrDirectional.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.TotalOrDirectional) | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the VelocityType.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ContactTotalForceFromContactPressureYTracker.VisibleProperties"></a>
+
 ### *property* ContactTotalForceFromContactPressureYTracker.VisibleProperties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of properties that are visible for this object.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ContactTotalForceFromContactPressureYTracker.XAxisValues"></a>
+
+### *property* ContactTotalForceFromContactPressureYTracker.XAxisValues *: [Ansys.Mechanical.DataModel.Enums.XAxisValues](../../../../../Mechanical/DataModel/Enums/XAxisValues.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.XAxisValues) | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the XAxisValues.
 
 <!-- !! processed by numpydoc !! -->
 
@@ -401,53 +491,23 @@ Gets the list of properties that are visible for this object.
 
 ## Method detail
 
-### ContactTotalForceFromContactPressureYTracker.ExportAnimation(filePath: System.String, format: [Ansys.Mechanical.DataModel.Enums.GraphicsAnimationExportFormat](../../../../../../../v241/Ansys/Mechanical/DataModel/Enums/GraphicsAnimationExportFormat.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.GraphicsAnimationExportFormat), settings: [Ansys.Mechanical.Graphics.AnimationExportSettings](../../../../../../../v241/Ansys/Mechanical/Graphics/AnimationExportSettings.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.Graphics.AnimationExportSettings))
+<a id="ContactTotalForceFromContactPressureYTracker.Activate"></a>
 
-Run the ExportAnimation action.
+### ContactTotalForceFromContactPressureYTracker.Activate()
 
-<!-- !! processed by numpydoc !! -->
-
-### ContactTotalForceFromContactPressureYTracker.ClearGeneratedData()
-
-Run the ClearGeneratedData action.
+Activate the current object.
 
 <!-- !! processed by numpydoc !! -->
 
-### ContactTotalForceFromContactPressureYTracker.EvaluateAllResults()
-
-Run the EvaluateAllResults action.
-
-<!-- !! processed by numpydoc !! -->
-
-### ContactTotalForceFromContactPressureYTracker.RenameBasedOnDefinition()
-
-Run the RenameBasedOnDefinition action.
-
-<!-- !! processed by numpydoc !! -->
-
-### ContactTotalForceFromContactPressureYTracker.Delete()
-
-Run the Delete action.
-
-<!-- !! processed by numpydoc !! -->
-
-### ContactTotalForceFromContactPressureYTracker.GetChildren(recurses: System.Boolean, children: System.Collections.Generic.IList[ChildrenType])
-
-Gets the list of children, filtered by type.
-
-<!-- !! processed by numpydoc !! -->
-
-### ContactTotalForceFromContactPressureYTracker.GetChildren(category: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../../../v241/Ansys/Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory), recurses: System.Boolean, children: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject])
-
-Gets the list of children, filtered by type.
-
-<!-- !! processed by numpydoc !! -->
+<a id="ContactTotalForceFromContactPressureYTracker.AddComment"></a>
 
 ### ContactTotalForceFromContactPressureYTracker.AddComment()
 
 Creates a new child Comment.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="ContactTotalForceFromContactPressureYTracker.AddImage"></a>
 
 ### ContactTotalForceFromContactPressureYTracker.AddImage(filePath: System.String)
 
@@ -459,11 +519,15 @@ if not, the image will be a screen capture of the Geometry window.
 
 <!-- !! processed by numpydoc !! -->
 
-### ContactTotalForceFromContactPressureYTracker.Activate()
+<a id="ContactTotalForceFromContactPressureYTracker.ClearGeneratedData"></a>
 
-Activate the current object.
+### ContactTotalForceFromContactPressureYTracker.ClearGeneratedData()
+
+Run the ClearGeneratedData action.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="ContactTotalForceFromContactPressureYTracker.CopyTo"></a>
 
 ### ContactTotalForceFromContactPressureYTracker.CopyTo(other: Ansys.ACT.Automation.Mechanical.DataModelObject)
 
@@ -471,11 +535,63 @@ Copies all visible properties from this object to another.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="ContactTotalForceFromContactPressureYTracker.CreateParameter"></a>
+
+### ContactTotalForceFromContactPressureYTracker.CreateParameter(propName: System.String)
+
+Creates a new parameter for a Property.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ContactTotalForceFromContactPressureYTracker.Delete"></a>
+
+### ContactTotalForceFromContactPressureYTracker.Delete()
+
+Run the Delete action.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ContactTotalForceFromContactPressureYTracker.Duplicate"></a>
+
 ### ContactTotalForceFromContactPressureYTracker.Duplicate()
 
 Creates a copy of the current DataModelObject.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="ContactTotalForceFromContactPressureYTracker.EvaluateAllResults"></a>
+
+### ContactTotalForceFromContactPressureYTracker.EvaluateAllResults()
+
+Run the EvaluateAllResults action.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ContactTotalForceFromContactPressureYTracker.ExportAnimation"></a>
+
+### ContactTotalForceFromContactPressureYTracker.ExportAnimation(filePath: System.String, format: [Ansys.Mechanical.DataModel.Enums.GraphicsAnimationExportFormat](../../../../../Mechanical/DataModel/Enums/GraphicsAnimationExportFormat.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.GraphicsAnimationExportFormat), settings: [Ansys.Mechanical.Graphics.AnimationExportSettings](../../../../../Mechanical/Graphics/AnimationExportSettings.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.Graphics.AnimationExportSettings))
+
+Run the ExportAnimation action.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ContactTotalForceFromContactPressureYTracker.GetChildren"></a>
+
+### ContactTotalForceFromContactPressureYTracker.GetChildren(recurses: System.Boolean, children: System.Collections.Generic.IList[ChildrenType])
+
+Gets the list of children, filtered by type.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ContactTotalForceFromContactPressureYTracker.GetParameter"></a>
+
+### ContactTotalForceFromContactPressureYTracker.GetParameter(propName: System.String)
+
+Gets the parameter corresponding to the given property.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ContactTotalForceFromContactPressureYTracker.GroupAllSimilarChildren"></a>
 
 ### ContactTotalForceFromContactPressureYTracker.GroupAllSimilarChildren()
 
@@ -483,17 +599,15 @@ Run the GroupAllSimilarChildren action.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="ContactTotalForceFromContactPressureYTracker.GroupSimilarObjects"></a>
+
 ### ContactTotalForceFromContactPressureYTracker.GroupSimilarObjects()
 
 Run the GroupSimilarObjects action.
 
 <!-- !! processed by numpydoc !! -->
 
-### ContactTotalForceFromContactPressureYTracker.PropertyByName(name: System.String)
-
-Get a property by its unique name.
-
-<!-- !! processed by numpydoc !! -->
+<a id="ContactTotalForceFromContactPressureYTracker.PropertyByAPIName"></a>
 
 ### ContactTotalForceFromContactPressureYTracker.PropertyByAPIName(name: System.String)
 
@@ -504,21 +618,27 @@ If multiple properties have the same API Name, only the first property with that
 
 <!-- !! processed by numpydoc !! -->
 
-### ContactTotalForceFromContactPressureYTracker.CreateParameter(propName: System.String)
+<a id="ContactTotalForceFromContactPressureYTracker.PropertyByName"></a>
 
-Creates a new parameter for a Property.
+### ContactTotalForceFromContactPressureYTracker.PropertyByName(name: System.String)
 
-<!-- !! processed by numpydoc !! -->
-
-### ContactTotalForceFromContactPressureYTracker.GetParameter(propName: System.String)
-
-Gets the parameter corresponding to the given property.
+Get a property by its unique name.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="ContactTotalForceFromContactPressureYTracker.RemoveParameter"></a>
 
 ### ContactTotalForceFromContactPressureYTracker.RemoveParameter(propName: System.String)
 
 Removes the parameter from the parameter set corresponding to the given property.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ContactTotalForceFromContactPressureYTracker.RenameBasedOnDefinition"></a>
+
+### ContactTotalForceFromContactPressureYTracker.RenameBasedOnDefinition()
+
+Run the RenameBasedOnDefinition action.
 
 <!-- !! processed by numpydoc !! -->
 

@@ -1,6 +1,6 @@
 # `PipeLoadingType`
 
-
+<a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.PipeLoadingType"></a>
 
 #### *class* ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.PipeLoadingType
 
@@ -17,9 +17,9 @@ Specifies the PipeLoadingType.
 ### Attributes
 
 | Name |
-| ------------------------------------------------------------------------------------------------------------------ |
-| [`External`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/PipeLoadingType.md#PipeLoadingType.External) |
-| [`Internal`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/PipeLoadingType.md#PipeLoadingType.Internal) |
+| ------------------------------------------- |
+| [`External`](#PipeLoadingType.External) |
+| [`Internal`](#PipeLoadingType.Internal) |
 
 <a id="attribute-detail"></a>
 

@@ -1,6 +1,6 @@
 # `GasketResultType`
 
-
+<a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.GasketResultType"></a>
 
 #### *class* ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.GasketResultType
 
@@ -17,9 +17,9 @@ Specifies the GasketResultType.
 ### Attributes
 
 | Name |
-| ---------------------------------------------------------------------------------------------------------------------------- |
-| [`NormalGasket`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/GasketResultType.md#GasketResultType.NormalGasket) |
-| [`ShearGasket`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/GasketResultType.md#GasketResultType.ShearGasket) |
+| ---------------------------------------------------- |
+| [`NormalGasket`](#GasketResultType.NormalGasket) |
+| [`ShearGasket`](#GasketResultType.ShearGasket) |
 
 <a id="attribute-detail"></a>
 

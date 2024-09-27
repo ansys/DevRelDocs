@@ -1,6 +1,6 @@
 # `FrequencySpacingType`
 
-
+<a id="ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.FrequencySpacingType"></a>
 
 #### *class* ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.FrequencySpacingType
 
@@ -17,7 +17,7 @@ Specifies the FrequencySpacingType.
 ### Attributes
 
 | Name |
-| ------------------------------------------------------ |
+| ---------------------------------------------------------------------------------------------------------------------------------- |
 | [`Linear`](#FrequencySpacingType.Linear) |
 | [`Logarithmic`](#FrequencySpacingType.Logarithmic) |
 | [`OctaveBand1`](#FrequencySpacingType.OctaveBand1) |

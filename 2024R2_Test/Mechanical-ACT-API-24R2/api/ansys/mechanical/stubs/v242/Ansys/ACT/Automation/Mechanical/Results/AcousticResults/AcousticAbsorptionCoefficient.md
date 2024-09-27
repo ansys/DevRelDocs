@@ -1,6 +1,6 @@
 # `AcousticAbsorptionCoefficient`
 
-
+<a id="ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Results.AcousticResults.AcousticAbsorptionCoefficient"></a>
 
 #### *class* ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Results.AcousticResults.AcousticAbsorptionCoefficient
 
@@ -17,196 +17,112 @@ Defines a AcousticAbsorptionCoefficient.
 ### Methods
 
 | Name | Description |
-|---------------------------|-----------------------------------------------------------------------------------|
-| `ClearGeneratedData`      | Run the ClearGeneratedData action.                                                |
-| `EvaluateAllResults`      | Run the EvaluateAllResults action.                                                |
-| `FetchRemoteResults`      | Run the FetchRemoteResult action.                                                 |
-| `ExportToTextFile`        | Run the ExportToTextFile action.                                                  |
-| `ExportAnimation`         | Run the ExportAnimation action.                                                   |
-| `DuplicateWithoutResults` | Run the DuplicateWithoutResults action.                                           |
-| `CreateResultsAtAllSets`  | Creates results at all sets for results under a solution.                         |
-| `PromoteToNamedSelection` | Run the PromoteToNamedSelection action.                                           |
-| `CreateParameter`         | CreateParameter method.                                                           |
-| `AddAlert`                | Creates a new Alert                                                               |
-| `AddConvergence`          | Creates a new Convergence                                                         |
-| `RenameBasedOnDefinition` | Run the RenameBasedOnDefinition action.                                           |
-| `Delete`                  | Run the Delete action.                                                            |
-| `GetChildren`             | Gets the list of children, filtered by type.                                      |
-| `GetChildren`             | Gets the list of children, filtered by type.                                      |
-| `AddComment`              | Creates a new child Comment.                                                      |
-| `AddFigure`               | Creates a new child Figure.                                                       |
-| `AddImage`                | Creates a new child Image.                                                        |
-| `Activate`                | Activate the current object.                                                      |
-| `CopyTo`                  | Copies all visible properties from this object to another.                        |
-| `Duplicate`               | Creates a copy of the current DataModelObject.                                    |
-| `GroupAllSimilarChildren` | Run the GroupAllSimilarChildren action.                                           |
-| `GroupSimilarObjects`     | Run the GroupSimilarObjects action.                                               |
-| `PropertyByName`          | Get a property by its unique name.                                                |
-| `PropertyByAPIName`       | Get a property by its API name.                                                   |
-| `GetParameter`            | Gets the parameter corresponding to the given property.                           |
-| `RemoveParameter`         | Removes the parameter from the parameter set corresponding to the given property. |
+|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------|
+| [`Activate`](#AcousticAbsorptionCoefficient.Activate)                               | Activate the current object.                                                      |
+| [`AddAlert`](#AcousticAbsorptionCoefficient.AddAlert)                               | Creates a new Alert                                                               |
+| [`AddComment`](#AcousticAbsorptionCoefficient.AddComment)                           | Creates a new child Comment.                                                      |
+| [`AddConvergence`](#AcousticAbsorptionCoefficient.AddConvergence)                   | Creates a new Convergence                                                         |
+| [`AddFigure`](#AcousticAbsorptionCoefficient.AddFigure)                             | Creates a new child Figure.                                                       |
+| [`AddImage`](#AcousticAbsorptionCoefficient.AddImage)                               | Creates a new child Image.                                                        |
+| [`ClearGeneratedData`](#AcousticAbsorptionCoefficient.ClearGeneratedData)           | Run the ClearGeneratedData action.                                                |
+| [`CopyTo`](#AcousticAbsorptionCoefficient.CopyTo)                                   | Copies all visible properties from this object to another.                        |
+| [`CreateParameter`](#AcousticAbsorptionCoefficient.CreateParameter)                 | CreateParameter method.                                                           |
+| [`CreateResultsAtAllSets`](#AcousticAbsorptionCoefficient.CreateResultsAtAllSets)   | Creates results at all sets for results under a solution.                         |
+| [`Delete`](#AcousticAbsorptionCoefficient.Delete)                                   | Run the Delete action.                                                            |
+| [`Duplicate`](#AcousticAbsorptionCoefficient.Duplicate)                             | Creates a copy of the current DataModelObject.                                    |
+| [`DuplicateWithoutResults`](#AcousticAbsorptionCoefficient.DuplicateWithoutResults) | Run the DuplicateWithoutResults action.                                           |
+| [`EvaluateAllResults`](#AcousticAbsorptionCoefficient.EvaluateAllResults)           | Run the EvaluateAllResults action.                                                |
+| [`ExportAnimation`](#AcousticAbsorptionCoefficient.ExportAnimation)                 | Run the ExportAnimation action.                                                   |
+| [`ExportToTextFile`](#AcousticAbsorptionCoefficient.ExportToTextFile)               | Run the ExportToTextFile action.                                                  |
+| [`FetchRemoteResults`](#AcousticAbsorptionCoefficient.FetchRemoteResults)           | Run the FetchRemoteResult action.                                                 |
+| [`GetChildren`](#AcousticAbsorptionCoefficient.GetChildren)                         | Gets the list of children, filtered by type.                                      |
+| [`GetParameter`](#AcousticAbsorptionCoefficient.GetParameter)                       | Gets the parameter corresponding to the given property.                           |
+| [`GroupAllSimilarChildren`](#AcousticAbsorptionCoefficient.GroupAllSimilarChildren) | Run the GroupAllSimilarChildren action.                                           |
+| [`GroupSimilarObjects`](#AcousticAbsorptionCoefficient.GroupSimilarObjects)         | Run the GroupSimilarObjects action.                                               |
+| [`PromoteToNamedSelection`](#AcousticAbsorptionCoefficient.PromoteToNamedSelection) | Run the PromoteToNamedSelection action.                                           |
+| [`PropertyByAPIName`](#AcousticAbsorptionCoefficient.PropertyByAPIName)             | Get a property by its API name.                                                   |
+| [`PropertyByName`](#AcousticAbsorptionCoefficient.PropertyByName)                   | Get a property by its unique name.                                                |
+| [`RemoveParameter`](#AcousticAbsorptionCoefficient.RemoveParameter)                 | Removes the parameter from the parameter set corresponding to the given property. |
+| [`RenameBasedOnDefinition`](#AcousticAbsorptionCoefficient.RenameBasedOnDefinition) | Run the RenameBasedOnDefinition action.                                           |
 
 ### Properties
 
 | Name | Description |
-|-------------------------------------|------------------------------------------------------------------------|
-| `InputPort`                         | Gets or sets the InputPort.                                            |
-| `InternalObject`                    | Gets the internal object. For advanced usage only.                     |
-| `MaximumFrequency`                  | Gets or sets the MaximumFrequency.                                     |
-| `MinimumFrequency`                  | Gets or sets the MinimumFrequency.                                     |
-| `FrequencyRange`                    | Gets or sets the FrequencyRange.                                       |
-| `DataModelObjectCategory`           | Gets the current DataModelObject's category.                           |
-| `Mode`                              | Gets or sets the Mode.                                                 |
-| `ReportedFrequency`                 | Gets the ReportedFrequency.                                            |
-| `DampedFrequency`                   | Gets the DampedFrequency.                                              |
-| `LogarithmicDecrement`              | Gets the LogarithmicDecrement.                                         |
-| `ModalDampingRatio`                 | Gets the ModalDampingRatio.                                            |
-| `Stability`                         | Gets the Stability.                                                    |
-| `SweepingPhase`                     | Gets or sets the SweepingPhase.                                        |
-| `Frequency`                         | Gets or sets the Frequency.                                            |
-| `Amplitude`                         | Gets or sets the Amplitude.                                            |
-| `PlotData`                          | Gets the result table.                                                 |
-| `Location`                          | Gets or sets the Location.                                             |
-| `TimeForMinimumOfMinimumValues`     | Get the Time for the minimum of minimum values.                        |
-| `TimeForMinimumOfMaximumValues`     | Get the Time for the minimum of maximum values.                        |
-| `LoadStepForMinimumOfMinimumValues` | Get the Load Step for the minimum of minimum values.                   |
-| `LoadStepForMinimumOfMaximumValues` | Get the Load Step for the minimum of maximum values.                   |
-| `TimeForMaximumOfMinimumValues`     | Get the Time for the maximum of minimum values.                        |
-| `TimeForMaximumOfMaximumValues`     | Get the Time for the maximum of maximum values.                        |
-| `LoadStepForMaximumOfMinimumValues` | Get the Load Step for the maximum of minimum values.                   |
-| `LoadStepForMaximumOfMaximumValues` | Get the Load Step for the maximum of maximum values.                   |
-| `IsSolved`                          | Gets the IsSolved.                                                     |
-| `CoordinateSystem`                  | Gets or sets the Coordinate System.                                    |
-| `ScopingMethod`                     | Gets or sets the ScopingMethod.                                        |
-| `SetNumber`                         | Gets or sets the Set Number.                                           |
-| `CombinationNumber`                 | Gets or sets the Combination Number for a Solution Combination result. |
-| `SolutionCombinationDriver`         | Gets or sets the SolutionCombinationDriver.                            |
-| `Path`                              | Path property.                                                         |
-| `Surface`                           | Surface property.                                                      |
-| `SurfaceCoating`                    | SurfaceCoating property.                                               |
-| `NamedSelections`                   | Gets or sets the NamedSelections.                                      |
-| `WaterfallShowTextOnMosaic`         | Gets or sets the Waterfall Mosaic Text Property.                       |
-| `CrackFrontNumber`                  | Gets or sets the CrackFrontNumber.                                     |
-| `GlobalIDs`                         | Gets or sets the GlobalIDs.                                            |
-| `Identifier`                        | Gets or sets the Identifier.                                           |
-| `IterationNumber`                   | Gets the IterationNumber.                                              |
-| `LoadStep`                          | Gets the LoadStep.                                                     |
-| `MaximumOccursOn`                   | Gets the MaximumOccursOn.                                              |
-| `MinimumOccursOn`                   | Gets the MinimumOccursOn.                                              |
-| `LoadStepNumber`                    | Gets or sets the LoadStepNumber.                                       |
-| `SolverComponentIDs`                | Gets or sets the SolverComponentIDs.                                   |
-| `Substep`                           | Gets the Substep.                                                      |
-| `Average`                           | Gets the Average.                                                      |
-| `Maximum`                           | Gets the Maximum.                                                      |
-| `MaximumOfMaximumOverTime`          | Gets the MaximumOfMaximumOverTime.                                     |
-| `MaximumOfMinimumOverTime`          | Gets the MaximumOfMinimumOverTime.                                     |
-| `Minimum`                           | Gets the Minimum.                                                      |
-| `MinimumOfMaximumOverTime`          | Gets the MinimumOfMaximumOverTime.                                     |
-| `MinimumOfMinimumOverTime`          | Gets the MinimumOfMinimumOverTime.                                     |
-| `Time`                              | Gets the Time.                                                         |
-| `DisplayTime`                       | Gets or sets the DisplayTime.                                          |
-| `GraphControlsXAxis`                | Gets or sets the GraphControlsXAxis.                                   |
-| `DisplayOption`                     | Gets or sets the DisplayOption.                                        |
-| `DpfEvaluation`                     | Gets or sets the DpfEvaluation.                                        |
-| `By`                                | Gets or sets the By.                                                   |
-| `ItemType`                          | Gets or sets the ItemType.                                             |
-| `CalculateTimeHistory`              | Gets or sets the CalculateTimeHistory.                                 |
-| `Suppressed`                        | Gets or sets the Suppressed.                                           |
-| `Children`                          | Gets the list of children.                                             |
-| `Comments`                          | Gets the list of associated comments.                                  |
-| `Figures`                           | Gets the list of associated figures.                                   |
-| `Images`                            | Gets the list of associated images.                                    |
-| `InternalObject`                    | Gets the internal object. For advanced usage only.                     |
-| `Properties`                        | Gets the list of properties for this object.                           |
-| `VisibleProperties`                 | Gets the list of properties that are visible for this object.          |
+|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------|
+| [`Amplitude`](#AcousticAbsorptionCoefficient.Amplitude)                                                 | Gets or sets the Amplitude.                                            |
+| [`Average`](#AcousticAbsorptionCoefficient.Average)                                                     | Gets the Average.                                                      |
+| [`By`](#AcousticAbsorptionCoefficient.By)                                                               | Gets or sets the By.                                                   |
+| [`CalculateTimeHistory`](#AcousticAbsorptionCoefficient.CalculateTimeHistory)                           | Gets or sets the CalculateTimeHistory.                                 |
+| [`Children`](#AcousticAbsorptionCoefficient.Children)                                                   | Gets the list of children.                                             |
+| [`CombinationNumber`](#AcousticAbsorptionCoefficient.CombinationNumber)                                 | Gets or sets the Combination Number for a Solution Combination result. |
+| [`Comments`](#AcousticAbsorptionCoefficient.Comments)                                                   | Gets the list of associated comments.                                  |
+| [`CoordinateSystem`](#AcousticAbsorptionCoefficient.CoordinateSystem)                                   | Gets or sets the Coordinate System.                                    |
+| [`CrackFrontNumber`](#AcousticAbsorptionCoefficient.CrackFrontNumber)                                   | Gets or sets the CrackFrontNumber.                                     |
+| [`DampedFrequency`](#AcousticAbsorptionCoefficient.DampedFrequency)                                     | Gets the DampedFrequency.                                              |
+| [`DataModelObjectCategory`](#AcousticAbsorptionCoefficient.DataModelObjectCategory)                     | Gets the current DataModelObject’s category.                           |
+| [`DisplayOption`](#AcousticAbsorptionCoefficient.DisplayOption)                                         | Gets or sets the DisplayOption.                                        |
+| [`DisplayTime`](#AcousticAbsorptionCoefficient.DisplayTime)                                             | Gets or sets the DisplayTime.                                          |
+| [`DpfEvaluation`](#AcousticAbsorptionCoefficient.DpfEvaluation)                                         | Gets or sets the DpfEvaluation.                                        |
+| [`Figures`](#AcousticAbsorptionCoefficient.Figures)                                                     | Gets the list of associated figures.                                   |
+| [`Frequency`](#AcousticAbsorptionCoefficient.Frequency)                                                 | Gets or sets the Frequency.                                            |
+| [`FrequencyRange`](#AcousticAbsorptionCoefficient.FrequencyRange)                                       | Gets or sets the FrequencyRange.                                       |
+| [`GlobalIDs`](#AcousticAbsorptionCoefficient.GlobalIDs)                                                 | Gets or sets the GlobalIDs.                                            |
+| [`GraphControlsXAxis`](#AcousticAbsorptionCoefficient.GraphControlsXAxis)                               | Gets or sets the GraphControlsXAxis.                                   |
+| [`Identifier`](#AcousticAbsorptionCoefficient.Identifier)                                               | Gets or sets the Identifier.                                           |
+| [`Images`](#AcousticAbsorptionCoefficient.Images)                                                       | Gets the list of associated images.                                    |
+| [`InputPort`](#AcousticAbsorptionCoefficient.InputPort)                                                 | Gets or sets the InputPort.                                            |
+| [`InternalObject`](#AcousticAbsorptionCoefficient.InternalObject)                                       | Gets the internal object. For advanced usage only.                     |
+| [`IsSolved`](#AcousticAbsorptionCoefficient.IsSolved)                                                   | Gets the IsSolved.                                                     |
+| [`ItemType`](#AcousticAbsorptionCoefficient.ItemType)                                                   | Gets or sets the ItemType.                                             |
+| [`IterationNumber`](#AcousticAbsorptionCoefficient.IterationNumber)                                     | Gets the IterationNumber.                                              |
+| [`LoadStep`](#AcousticAbsorptionCoefficient.LoadStep)                                                   | Gets the LoadStep.                                                     |
+| [`LoadStepForMaximumOfMaximumValues`](#AcousticAbsorptionCoefficient.LoadStepForMaximumOfMaximumValues) | Get the Load Step for the maximum of maximum values.                   |
+| [`LoadStepForMaximumOfMinimumValues`](#AcousticAbsorptionCoefficient.LoadStepForMaximumOfMinimumValues) | Get the Load Step for the maximum of minimum values.                   |
+| [`LoadStepForMinimumOfMaximumValues`](#AcousticAbsorptionCoefficient.LoadStepForMinimumOfMaximumValues) | Get the Load Step for the minimum of maximum values.                   |
+| [`LoadStepForMinimumOfMinimumValues`](#AcousticAbsorptionCoefficient.LoadStepForMinimumOfMinimumValues) | Get the Load Step for the minimum of minimum values.                   |
+| [`LoadStepNumber`](#AcousticAbsorptionCoefficient.LoadStepNumber)                                       | Gets or sets the LoadStepNumber.                                       |
+| [`Location`](#AcousticAbsorptionCoefficient.Location)                                                   | Gets or sets the Location.                                             |
+| [`LogarithmicDecrement`](#AcousticAbsorptionCoefficient.LogarithmicDecrement)                           | Gets the LogarithmicDecrement.                                         |
+| [`Maximum`](#AcousticAbsorptionCoefficient.Maximum)                                                     | Gets the Maximum.                                                      |
+| [`MaximumFrequency`](#AcousticAbsorptionCoefficient.MaximumFrequency)                                   | Gets or sets the MaximumFrequency.                                     |
+| [`MaximumOccursOn`](#AcousticAbsorptionCoefficient.MaximumOccursOn)                                     | Gets the MaximumOccursOn.                                              |
+| [`MaximumOfMaximumOverTime`](#AcousticAbsorptionCoefficient.MaximumOfMaximumOverTime)                   | Gets the MaximumOfMaximumOverTime.                                     |
+| [`MaximumOfMinimumOverTime`](#AcousticAbsorptionCoefficient.MaximumOfMinimumOverTime)                   | Gets the MaximumOfMinimumOverTime.                                     |
+| [`Minimum`](#AcousticAbsorptionCoefficient.Minimum)                                                     | Gets the Minimum.                                                      |
+| [`MinimumFrequency`](#AcousticAbsorptionCoefficient.MinimumFrequency)                                   | Gets or sets the MinimumFrequency.                                     |
+| [`MinimumOccursOn`](#AcousticAbsorptionCoefficient.MinimumOccursOn)                                     | Gets the MinimumOccursOn.                                              |
+| [`MinimumOfMaximumOverTime`](#AcousticAbsorptionCoefficient.MinimumOfMaximumOverTime)                   | Gets the MinimumOfMaximumOverTime.                                     |
+| [`MinimumOfMinimumOverTime`](#AcousticAbsorptionCoefficient.MinimumOfMinimumOverTime)                   | Gets the MinimumOfMinimumOverTime.                                     |
+| [`ModalDampingRatio`](#AcousticAbsorptionCoefficient.ModalDampingRatio)                                 | Gets the ModalDampingRatio.                                            |
+| [`Mode`](#AcousticAbsorptionCoefficient.Mode)                                                           | Gets or sets the Mode.                                                 |
+| [`NamedSelections`](#AcousticAbsorptionCoefficient.NamedSelections)                                     | Gets or sets the NamedSelections.                                      |
+| [`Path`](#AcousticAbsorptionCoefficient.Path)                                                           | Path property.                                                         |
+| [`PlotData`](#AcousticAbsorptionCoefficient.PlotData)                                                   | Gets the result table.                                                 |
+| [`Properties`](#AcousticAbsorptionCoefficient.Properties)                                               | Gets the list of properties for this object.                           |
+| [`ReportedFrequency`](#AcousticAbsorptionCoefficient.ReportedFrequency)                                 | Gets the ReportedFrequency.                                            |
+| [`ScopingMethod`](#AcousticAbsorptionCoefficient.ScopingMethod)                                         | Gets or sets the ScopingMethod.                                        |
+| [`SetNumber`](#AcousticAbsorptionCoefficient.SetNumber)                                                 | Gets or sets the Set Number.                                           |
+| [`SolutionCombinationDriver`](#AcousticAbsorptionCoefficient.SolutionCombinationDriver)                 | Gets or sets the SolutionCombinationDriver.                            |
+| [`SolverComponentIDs`](#AcousticAbsorptionCoefficient.SolverComponentIDs)                               | Gets or sets the SolverComponentIDs.                                   |
+| [`Stability`](#AcousticAbsorptionCoefficient.Stability)                                                 | Gets the Stability.                                                    |
+| [`Substep`](#AcousticAbsorptionCoefficient.Substep)                                                     | Gets the Substep.                                                      |
+| [`Suppressed`](#AcousticAbsorptionCoefficient.Suppressed)                                               | Gets or sets the Suppressed.                                           |
+| [`Surface`](#AcousticAbsorptionCoefficient.Surface)                                                     | Surface property.                                                      |
+| [`SurfaceCoating`](#AcousticAbsorptionCoefficient.SurfaceCoating)                                                                                                                                                         | SurfaceCoating property.                                               |
+| [`SweepingPhase`](#AcousticAbsorptionCoefficient.SweepingPhase)                                         | Gets or sets the SweepingPhase.                                        |
+| [`Time`](#AcousticAbsorptionCoefficient.Time)                                                           | Gets the Time.                                                         |
+| [`TimeForMaximumOfMaximumValues`](#AcousticAbsorptionCoefficient.TimeForMaximumOfMaximumValues)         | Get the Time for the maximum of maximum values.                        |
+| [`TimeForMaximumOfMinimumValues`](#AcousticAbsorptionCoefficient.TimeForMaximumOfMinimumValues)         | Get the Time for the maximum of minimum values.                        |
+| [`TimeForMinimumOfMaximumValues`](#AcousticAbsorptionCoefficient.TimeForMinimumOfMaximumValues)         | Get the Time for the minimum of maximum values.                        |
+| [`TimeForMinimumOfMinimumValues`](#AcousticAbsorptionCoefficient.TimeForMinimumOfMinimumValues)         | Get the Time for the minimum of minimum values.                        |
+| [`VisibleProperties`](#AcousticAbsorptionCoefficient.VisibleProperties)                                 | Gets the list of properties that are visible for this object.          |
+| [`WaterfallShowTextOnMosaic`](#AcousticAbsorptionCoefficient.WaterfallShowTextOnMosaic)                                                                                                                                   | Gets or sets the Waterfall Mosaic Text Property.                       |
 
 <a id="property-detail"></a>
 
 ## Property detail
 
-### *property* AcousticAbsorptionCoefficient.InputPort *: [Ansys.ACT.Automation.Mechanical.BoundaryConditions.AcousticPort](../../../../../../../v241/Ansys/ACT/Automation/Mechanical/BoundaryConditions/AcousticPort.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.BoundaryConditions.AcousticPort) | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the InputPort.
-
-<!-- !! processed by numpydoc !! -->
-
-### *property* AcousticAbsorptionCoefficient.InternalObject *: Ansys.Common.Interop.DSObjectsAuto.IDSResultAuto | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets the internal object. For advanced usage only.
-
-<!-- !! processed by numpydoc !! -->
-
-### *property* AcousticAbsorptionCoefficient.MaximumFrequency *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the MaximumFrequency.
-
-<!-- !! processed by numpydoc !! -->
-
-### *property* AcousticAbsorptionCoefficient.MinimumFrequency *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the MinimumFrequency.
-
-<!-- !! processed by numpydoc !! -->
-
-### *property* AcousticAbsorptionCoefficient.FrequencyRange *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the FrequencyRange.
-
-<!-- !! processed by numpydoc !! -->
-
-### *property* AcousticAbsorptionCoefficient.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../../../v241/Ansys/Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets the current DataModelObject's category.
-
-<!-- !! processed by numpydoc !! -->
-
-### *property* AcousticAbsorptionCoefficient.Mode *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the Mode.
-
-<!-- !! processed by numpydoc !! -->
-
-### *property* AcousticAbsorptionCoefficient.ReportedFrequency *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets the ReportedFrequency.
-
-<!-- !! processed by numpydoc !! -->
-
-### *property* AcousticAbsorptionCoefficient.DampedFrequency *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets the DampedFrequency.
-
-<!-- !! processed by numpydoc !! -->
-
-### *property* AcousticAbsorptionCoefficient.LogarithmicDecrement *: System.Double | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets the LogarithmicDecrement.
-
-<!-- !! processed by numpydoc !! -->
-
-### *property* AcousticAbsorptionCoefficient.ModalDampingRatio *: System.Double | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets the ModalDampingRatio.
-
-<!-- !! processed by numpydoc !! -->
-
-### *property* AcousticAbsorptionCoefficient.Stability *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets the Stability.
-
-<!-- !! processed by numpydoc !! -->
-
-### *property* AcousticAbsorptionCoefficient.SweepingPhase *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the SweepingPhase.
-
-<!-- !! processed by numpydoc !! -->
-
-### *property* AcousticAbsorptionCoefficient.Frequency *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the Frequency.
-
-<!-- !! processed by numpydoc !! -->
+<a id="AcousticAbsorptionCoefficient.Amplitude"></a>
 
 ### *property* AcousticAbsorptionCoefficient.Amplitude *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -214,71 +130,55 @@ Gets or sets the Amplitude.
 
 <!-- !! processed by numpydoc !! -->
 
-### *property* AcousticAbsorptionCoefficient.PlotData *: [Ansys.Mechanical.DataModel.Results.ResultDataTable](../../../../../../../v241/Ansys/Mechanical/DataModel/Results/ResultDataTable.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Results.ResultDataTable) | [None](https://docs.python.org/3/library/constants.html#None)*
+<a id="AcousticAbsorptionCoefficient.Average"></a>
 
-Gets the result table.
+### *property* AcousticAbsorptionCoefficient.Average *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
 
-<!-- !! processed by numpydoc !! -->
-
-### *property* AcousticAbsorptionCoefficient.Location *: Ansys.ACT.Interfaces.Common.ISelectionInfo | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the Location.
+Gets the Average.
 
 <!-- !! processed by numpydoc !! -->
 
-### *property* AcousticAbsorptionCoefficient.TimeForMinimumOfMinimumValues *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
+<a id="AcousticAbsorptionCoefficient.By"></a>
 
-Get the Time for the minimum of minimum values.
+### *property* AcousticAbsorptionCoefficient.By *: [Ansys.Mechanical.DataModel.Enums.SetDriverStyle](../../../../../Mechanical/DataModel/Enums/SetDriverStyle.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.SetDriverStyle) | [None](https://docs.python.org/3/library/constants.html#None)*
 
-<!-- !! processed by numpydoc !! -->
-
-### *property* AcousticAbsorptionCoefficient.TimeForMinimumOfMaximumValues *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Get the Time for the minimum of maximum values.
+Gets or sets the By.
 
 <!-- !! processed by numpydoc !! -->
 
-### *property* AcousticAbsorptionCoefficient.LoadStepForMinimumOfMinimumValues *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+<a id="AcousticAbsorptionCoefficient.CalculateTimeHistory"></a>
 
-Get the Load Step for the minimum of minimum values.
+### *property* AcousticAbsorptionCoefficient.CalculateTimeHistory *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
 
-<!-- !! processed by numpydoc !! -->
-
-### *property* AcousticAbsorptionCoefficient.LoadStepForMinimumOfMaximumValues *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Get the Load Step for the minimum of maximum values.
+Gets or sets the CalculateTimeHistory.
 
 <!-- !! processed by numpydoc !! -->
 
-### *property* AcousticAbsorptionCoefficient.TimeForMaximumOfMinimumValues *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
+<a id="AcousticAbsorptionCoefficient.Children"></a>
 
-Get the Time for the maximum of minimum values.
+### *property* AcousticAbsorptionCoefficient.Children *: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
 
-<!-- !! processed by numpydoc !! -->
-
-### *property* AcousticAbsorptionCoefficient.TimeForMaximumOfMaximumValues *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Get the Time for the maximum of maximum values.
+Gets the list of children.
 
 <!-- !! processed by numpydoc !! -->
 
-### *property* AcousticAbsorptionCoefficient.LoadStepForMaximumOfMinimumValues *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+<a id="AcousticAbsorptionCoefficient.CombinationNumber"></a>
 
-Get the Load Step for the maximum of minimum values.
+### *property* AcousticAbsorptionCoefficient.CombinationNumber *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
 
-<!-- !! processed by numpydoc !! -->
-
-### *property* AcousticAbsorptionCoefficient.LoadStepForMaximumOfMaximumValues *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Get the Load Step for the maximum of maximum values.
+Gets or sets the Combination Number for a Solution Combination result.
 
 <!-- !! processed by numpydoc !! -->
 
-### *property* AcousticAbsorptionCoefficient.IsSolved *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+<a id="AcousticAbsorptionCoefficient.Comments"></a>
 
-Gets the IsSolved.
+### *property* AcousticAbsorptionCoefficient.Comments *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Comment](../../../../../../../v241/Ansys/ACT/Automation/Mechanical/Comment.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets the list of associated comments.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="AcousticAbsorptionCoefficient.CoordinateSystem"></a>
 
 ### *property* AcousticAbsorptionCoefficient.CoordinateSystem *: [Ansys.ACT.Automation.Mechanical.CoordinateSystem](../../../../../../../v241/Ansys/ACT/Automation/Mechanical/CoordinateSystem.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.CoordinateSystem) | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -288,59 +188,7 @@ Accepts/Returns None for Fiber Coordinate System for a result that is sub scoped
 
 <!-- !! processed by numpydoc !! -->
 
-### *property* AcousticAbsorptionCoefficient.ScopingMethod *: [Ansys.Mechanical.DataModel.Enums.GeometryDefineByType](../../../../../../../v241/Ansys/Mechanical/DataModel/Enums/GeometryDefineByType.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.GeometryDefineByType) | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the ScopingMethod.
-
-<!-- !! processed by numpydoc !! -->
-
-### *property* AcousticAbsorptionCoefficient.SetNumber *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the Set Number.
-
-<!-- !! processed by numpydoc !! -->
-
-### *property* AcousticAbsorptionCoefficient.CombinationNumber *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the Combination Number for a Solution Combination result.
-
-<!-- !! processed by numpydoc !! -->
-
-### *property* AcousticAbsorptionCoefficient.SolutionCombinationDriver *: [Ansys.Mechanical.DataModel.Enums.SolutionCombinationDriverStyle](../../../../../../../v241/Ansys/Mechanical/DataModel/Enums/SolutionCombinationDriverStyle.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.SolutionCombinationDriverStyle) | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the SolutionCombinationDriver.
-
-<!-- !! processed by numpydoc !! -->
-
-### *property* AcousticAbsorptionCoefficient.Path *: [Ansys.ACT.Automation.Mechanical.Path](../../../../../../../v241/Ansys/ACT/Automation/Mechanical/Path.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Path) | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Path property.
-
-<!-- !! processed by numpydoc !! -->
-
-### *property* AcousticAbsorptionCoefficient.Surface *: [Ansys.ACT.Automation.Mechanical.Surface](../../../../../../../v241/Ansys/ACT/Automation/Mechanical/Surface.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Surface) | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Surface property.
-
-<!-- !! processed by numpydoc !! -->
-
-### *property* AcousticAbsorptionCoefficient.SurfaceCoating *: [Ansys.ACT.Automation.Mechanical.SurfaceCoating](../../../../../../../v241/Ansys/ACT/Automation/Mechanical/SurfaceCoating.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.SurfaceCoating) | [None](https://docs.python.org/3/library/constants.html#None)*
-
-SurfaceCoating property.
-
-<!-- !! processed by numpydoc !! -->
-
-### *property* AcousticAbsorptionCoefficient.NamedSelections *: System.Collections.Generic.IEnumerable[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the NamedSelections.
-
-<!-- !! processed by numpydoc !! -->
-
-### *property* AcousticAbsorptionCoefficient.WaterfallShowTextOnMosaic *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the Waterfall Mosaic Text Property.
-
-<!-- !! processed by numpydoc !! -->
+<a id="AcousticAbsorptionCoefficient.CrackFrontNumber"></a>
 
 ### *property* AcousticAbsorptionCoefficient.CrackFrontNumber *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -348,107 +196,31 @@ Gets or sets the CrackFrontNumber.
 
 <!-- !! processed by numpydoc !! -->
 
-### *property* AcousticAbsorptionCoefficient.GlobalIDs *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+<a id="AcousticAbsorptionCoefficient.DampedFrequency"></a>
 
-Gets or sets the GlobalIDs.
+### *property* AcousticAbsorptionCoefficient.DampedFrequency *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
 
-<!-- !! processed by numpydoc !! -->
-
-### *property* AcousticAbsorptionCoefficient.Identifier *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the Identifier.
+Gets the DampedFrequency.
 
 <!-- !! processed by numpydoc !! -->
 
-### *property* AcousticAbsorptionCoefficient.IterationNumber *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+<a id="AcousticAbsorptionCoefficient.DataModelObjectCategory"></a>
 
-Gets the IterationNumber.
+### *property* AcousticAbsorptionCoefficient.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
-<!-- !! processed by numpydoc !! -->
-
-### *property* AcousticAbsorptionCoefficient.LoadStep *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets the LoadStep.
+Gets the current DataModelObject’s category.
 
 <!-- !! processed by numpydoc !! -->
 
-### *property* AcousticAbsorptionCoefficient.MaximumOccursOn *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+<a id="AcousticAbsorptionCoefficient.DisplayOption"></a>
 
-Gets the MaximumOccursOn.
+### *property* AcousticAbsorptionCoefficient.DisplayOption *: [Ansys.Mechanical.DataModel.Enums.ResultAveragingType](../../../../../Mechanical/DataModel/Enums/ResultAveragingType.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.ResultAveragingType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
-<!-- !! processed by numpydoc !! -->
-
-### *property* AcousticAbsorptionCoefficient.MinimumOccursOn *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets the MinimumOccursOn.
+Gets or sets the DisplayOption.
 
 <!-- !! processed by numpydoc !! -->
 
-### *property* AcousticAbsorptionCoefficient.LoadStepNumber *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the LoadStepNumber.
-
-<!-- !! processed by numpydoc !! -->
-
-### *property* AcousticAbsorptionCoefficient.SolverComponentIDs *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the SolverComponentIDs.
-
-<!-- !! processed by numpydoc !! -->
-
-### *property* AcousticAbsorptionCoefficient.Substep *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets the Substep.
-
-<!-- !! processed by numpydoc !! -->
-
-### *property* AcousticAbsorptionCoefficient.Average *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets the Average.
-
-<!-- !! processed by numpydoc !! -->
-
-### *property* AcousticAbsorptionCoefficient.Maximum *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets the Maximum.
-
-<!-- !! processed by numpydoc !! -->
-
-### *property* AcousticAbsorptionCoefficient.MaximumOfMaximumOverTime *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets the MaximumOfMaximumOverTime.
-
-<!-- !! processed by numpydoc !! -->
-
-### *property* AcousticAbsorptionCoefficient.MaximumOfMinimumOverTime *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets the MaximumOfMinimumOverTime.
-
-<!-- !! processed by numpydoc !! -->
-
-### *property* AcousticAbsorptionCoefficient.Minimum *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets the Minimum.
-
-<!-- !! processed by numpydoc !! -->
-
-### *property* AcousticAbsorptionCoefficient.MinimumOfMaximumOverTime *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets the MinimumOfMaximumOverTime.
-
-<!-- !! processed by numpydoc !! -->
-
-### *property* AcousticAbsorptionCoefficient.MinimumOfMinimumOverTime *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets the MinimumOfMinimumOverTime.
-
-<!-- !! processed by numpydoc !! -->
-
-### *property* AcousticAbsorptionCoefficient.Time *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets the Time.
-
-<!-- !! processed by numpydoc !! -->
+<a id="AcousticAbsorptionCoefficient.DisplayTime"></a>
 
 ### *property* AcousticAbsorptionCoefficient.DisplayTime *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -456,59 +228,15 @@ Gets or sets the DisplayTime.
 
 <!-- !! processed by numpydoc !! -->
 
-### *property* AcousticAbsorptionCoefficient.GraphControlsXAxis *: [Ansys.Mechanical.DataModel.Enums.GraphControlsXAxis](../../../../../../../v241/Ansys/Mechanical/DataModel/Enums/GraphControlsXAxis.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.GraphControlsXAxis) | [None](https://docs.python.org/3/library/constants.html#None)*
+<a id="AcousticAbsorptionCoefficient.DpfEvaluation"></a>
 
-Gets or sets the GraphControlsXAxis.
-
-<!-- !! processed by numpydoc !! -->
-
-### *property* AcousticAbsorptionCoefficient.DisplayOption *: [Ansys.Mechanical.DataModel.Enums.ResultAveragingType](../../../../../../../v241/Ansys/Mechanical/DataModel/Enums/ResultAveragingType.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.ResultAveragingType) | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the DisplayOption.
-
-<!-- !! processed by numpydoc !! -->
-
-### *property* AcousticAbsorptionCoefficient.DpfEvaluation *: [Ansys.Mechanical.DataModel.Enums.DpfEvaluationType](../../../../../../../v241/Ansys/Mechanical/DataModel/Enums/DpfEvaluationType.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DpfEvaluationType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AcousticAbsorptionCoefficient.DpfEvaluation *: [Ansys.Mechanical.DataModel.Enums.DpfEvaluationType](../../../../../Mechanical/DataModel/Enums/DpfEvaluationType.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.DpfEvaluationType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the DpfEvaluation.
 
 <!-- !! processed by numpydoc !! -->
 
-### *property* AcousticAbsorptionCoefficient.By *: [Ansys.Mechanical.DataModel.Enums.SetDriverStyle](../../../../../../../v241/Ansys/Mechanical/DataModel/Enums/SetDriverStyle.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.SetDriverStyle) | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the By.
-
-<!-- !! processed by numpydoc !! -->
-
-### *property* AcousticAbsorptionCoefficient.ItemType *: [Ansys.Mechanical.DataModel.Enums.ResultFileItemType](../../../../../../../v241/Ansys/Mechanical/DataModel/Enums/ResultFileItemType.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.ResultFileItemType) | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the ItemType.
-
-<!-- !! processed by numpydoc !! -->
-
-### *property* AcousticAbsorptionCoefficient.CalculateTimeHistory *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the CalculateTimeHistory.
-
-<!-- !! processed by numpydoc !! -->
-
-### *property* AcousticAbsorptionCoefficient.Suppressed *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the Suppressed.
-
-<!-- !! processed by numpydoc !! -->
-
-### *property* AcousticAbsorptionCoefficient.Children *: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets the list of children.
-
-<!-- !! processed by numpydoc !! -->
-
-### *property* AcousticAbsorptionCoefficient.Comments *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Comment](../../../../../../../v241/Ansys/ACT/Automation/Mechanical/Comment.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets the list of associated comments.
-
-<!-- !! processed by numpydoc !! -->
+<a id="AcousticAbsorptionCoefficient.Figures"></a>
 
 ### *property* AcousticAbsorptionCoefficient.Figures *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Figure](../../../../../../../v241/Ansys/ACT/Automation/Mechanical/Figure.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -516,17 +244,279 @@ Gets the list of associated figures.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="AcousticAbsorptionCoefficient.Frequency"></a>
+
+### *property* AcousticAbsorptionCoefficient.Frequency *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the Frequency.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="AcousticAbsorptionCoefficient.FrequencyRange"></a>
+
+### *property* AcousticAbsorptionCoefficient.FrequencyRange *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the FrequencyRange.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="AcousticAbsorptionCoefficient.GlobalIDs"></a>
+
+### *property* AcousticAbsorptionCoefficient.GlobalIDs *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the GlobalIDs.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="AcousticAbsorptionCoefficient.GraphControlsXAxis"></a>
+
+### *property* AcousticAbsorptionCoefficient.GraphControlsXAxis *: [Ansys.Mechanical.DataModel.Enums.GraphControlsXAxis](../../../../../Mechanical/DataModel/Enums/GraphControlsXAxis.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.GraphControlsXAxis) | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the GraphControlsXAxis.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="AcousticAbsorptionCoefficient.Identifier"></a>
+
+### *property* AcousticAbsorptionCoefficient.Identifier *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the Identifier.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="AcousticAbsorptionCoefficient.Images"></a>
+
 ### *property* AcousticAbsorptionCoefficient.Images *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Image](../../../../../../../v241/Ansys/ACT/Automation/Mechanical/Image.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated images.
 
 <!-- !! processed by numpydoc !! -->
 
-### *property* AcousticAbsorptionCoefficient.InternalObject *: System.Object | [None](https://docs.python.org/3/library/constants.html#None)*
+<a id="AcousticAbsorptionCoefficient.InputPort"></a>
+
+### *property* AcousticAbsorptionCoefficient.InputPort *: [Ansys.ACT.Automation.Mechanical.BoundaryConditions.AcousticPort](../../../../../../../v241/Ansys/ACT/Automation/Mechanical/BoundaryConditions/AcousticPort.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.BoundaryConditions.AcousticPort) | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the InputPort.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="AcousticAbsorptionCoefficient.InternalObject"></a>
+
+### *property* AcousticAbsorptionCoefficient.InternalObject *: Ansys.Common.Interop.DSObjectsAuto.IDSResultAuto | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the internal object. For advanced usage only.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="AcousticAbsorptionCoefficient.IsSolved"></a>
+
+### *property* AcousticAbsorptionCoefficient.IsSolved *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets the IsSolved.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="AcousticAbsorptionCoefficient.ItemType"></a>
+
+### *property* AcousticAbsorptionCoefficient.ItemType *: [Ansys.Mechanical.DataModel.Enums.ResultFileItemType](../../../../../Mechanical/DataModel/Enums/ResultFileItemType.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.ResultFileItemType) | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the ItemType.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="AcousticAbsorptionCoefficient.IterationNumber"></a>
+
+### *property* AcousticAbsorptionCoefficient.IterationNumber *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets the IterationNumber.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="AcousticAbsorptionCoefficient.LoadStep"></a>
+
+### *property* AcousticAbsorptionCoefficient.LoadStep *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets the LoadStep.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="AcousticAbsorptionCoefficient.LoadStepForMaximumOfMaximumValues"></a>
+
+### *property* AcousticAbsorptionCoefficient.LoadStepForMaximumOfMaximumValues *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Get the Load Step for the maximum of maximum values.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="AcousticAbsorptionCoefficient.LoadStepForMaximumOfMinimumValues"></a>
+
+### *property* AcousticAbsorptionCoefficient.LoadStepForMaximumOfMinimumValues *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Get the Load Step for the maximum of minimum values.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="AcousticAbsorptionCoefficient.LoadStepForMinimumOfMaximumValues"></a>
+
+### *property* AcousticAbsorptionCoefficient.LoadStepForMinimumOfMaximumValues *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Get the Load Step for the minimum of maximum values.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="AcousticAbsorptionCoefficient.LoadStepForMinimumOfMinimumValues"></a>
+
+### *property* AcousticAbsorptionCoefficient.LoadStepForMinimumOfMinimumValues *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Get the Load Step for the minimum of minimum values.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="AcousticAbsorptionCoefficient.LoadStepNumber"></a>
+
+### *property* AcousticAbsorptionCoefficient.LoadStepNumber *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the LoadStepNumber.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="AcousticAbsorptionCoefficient.Location"></a>
+
+### *property* AcousticAbsorptionCoefficient.Location *: Ansys.ACT.Interfaces.Common.ISelectionInfo | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the Location.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="AcousticAbsorptionCoefficient.LogarithmicDecrement"></a>
+
+### *property* AcousticAbsorptionCoefficient.LogarithmicDecrement *: System.Double | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets the LogarithmicDecrement.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="AcousticAbsorptionCoefficient.Maximum"></a>
+
+### *property* AcousticAbsorptionCoefficient.Maximum *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets the Maximum.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="AcousticAbsorptionCoefficient.MaximumFrequency"></a>
+
+### *property* AcousticAbsorptionCoefficient.MaximumFrequency *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the MaximumFrequency.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="AcousticAbsorptionCoefficient.MaximumOccursOn"></a>
+
+### *property* AcousticAbsorptionCoefficient.MaximumOccursOn *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets the MaximumOccursOn.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="AcousticAbsorptionCoefficient.MaximumOfMaximumOverTime"></a>
+
+### *property* AcousticAbsorptionCoefficient.MaximumOfMaximumOverTime *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets the MaximumOfMaximumOverTime.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="AcousticAbsorptionCoefficient.MaximumOfMinimumOverTime"></a>
+
+### *property* AcousticAbsorptionCoefficient.MaximumOfMinimumOverTime *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets the MaximumOfMinimumOverTime.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="AcousticAbsorptionCoefficient.Minimum"></a>
+
+### *property* AcousticAbsorptionCoefficient.Minimum *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets the Minimum.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="AcousticAbsorptionCoefficient.MinimumFrequency"></a>
+
+### *property* AcousticAbsorptionCoefficient.MinimumFrequency *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the MinimumFrequency.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="AcousticAbsorptionCoefficient.MinimumOccursOn"></a>
+
+### *property* AcousticAbsorptionCoefficient.MinimumOccursOn *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets the MinimumOccursOn.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="AcousticAbsorptionCoefficient.MinimumOfMaximumOverTime"></a>
+
+### *property* AcousticAbsorptionCoefficient.MinimumOfMaximumOverTime *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets the MinimumOfMaximumOverTime.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="AcousticAbsorptionCoefficient.MinimumOfMinimumOverTime"></a>
+
+### *property* AcousticAbsorptionCoefficient.MinimumOfMinimumOverTime *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets the MinimumOfMinimumOverTime.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="AcousticAbsorptionCoefficient.ModalDampingRatio"></a>
+
+### *property* AcousticAbsorptionCoefficient.ModalDampingRatio *: System.Double | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets the ModalDampingRatio.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="AcousticAbsorptionCoefficient.Mode"></a>
+
+### *property* AcousticAbsorptionCoefficient.Mode *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the Mode.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="AcousticAbsorptionCoefficient.NamedSelections"></a>
+
+### *property* AcousticAbsorptionCoefficient.NamedSelections *: System.Collections.Generic.IEnumerable[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the NamedSelections.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="AcousticAbsorptionCoefficient.Path"></a>
+
+### *property* AcousticAbsorptionCoefficient.Path *: [Ansys.ACT.Automation.Mechanical.Path](../../Path.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Path) | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Path property.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="AcousticAbsorptionCoefficient.PlotData"></a>
+
+### *property* AcousticAbsorptionCoefficient.PlotData *: [Ansys.Mechanical.DataModel.Results.ResultDataTable](../../../../../Mechanical/DataModel/Results/ResultDataTable.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Results.ResultDataTable) | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets the result table.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="AcousticAbsorptionCoefficient.Properties"></a>
 
 ### *property* AcousticAbsorptionCoefficient.Properties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -534,9 +524,147 @@ Gets the list of properties for this object.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="AcousticAbsorptionCoefficient.ReportedFrequency"></a>
+
+### *property* AcousticAbsorptionCoefficient.ReportedFrequency *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets the ReportedFrequency.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="AcousticAbsorptionCoefficient.ScopingMethod"></a>
+
+### *property* AcousticAbsorptionCoefficient.ScopingMethod *: [Ansys.Mechanical.DataModel.Enums.GeometryDefineByType](../../../../../Mechanical/DataModel/Enums/GeometryDefineByType.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.GeometryDefineByType) | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the ScopingMethod.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="AcousticAbsorptionCoefficient.SetNumber"></a>
+
+### *property* AcousticAbsorptionCoefficient.SetNumber *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the Set Number.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="AcousticAbsorptionCoefficient.SolutionCombinationDriver"></a>
+
+### *property* AcousticAbsorptionCoefficient.SolutionCombinationDriver *: [Ansys.Mechanical.DataModel.Enums.SolutionCombinationDriverStyle](../../../../../Mechanical/DataModel/Enums/SolutionCombinationDriverStyle.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.SolutionCombinationDriverStyle) | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the SolutionCombinationDriver.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="AcousticAbsorptionCoefficient.SolverComponentIDs"></a>
+
+### *property* AcousticAbsorptionCoefficient.SolverComponentIDs *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the SolverComponentIDs.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="AcousticAbsorptionCoefficient.Stability"></a>
+
+### *property* AcousticAbsorptionCoefficient.Stability *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets the Stability.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="AcousticAbsorptionCoefficient.Substep"></a>
+
+### *property* AcousticAbsorptionCoefficient.Substep *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets the Substep.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="AcousticAbsorptionCoefficient.Suppressed"></a>
+
+### *property* AcousticAbsorptionCoefficient.Suppressed *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the Suppressed.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="AcousticAbsorptionCoefficient.Surface"></a>
+
+### *property* AcousticAbsorptionCoefficient.Surface *: [Ansys.ACT.Automation.Mechanical.Surface](../../Surface.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Surface) | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Surface property.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="AcousticAbsorptionCoefficient.SurfaceCoating"></a>
+
+### *property* AcousticAbsorptionCoefficient.SurfaceCoating *: [Ansys.ACT.Automation.Mechanical.SurfaceCoating](../../SurfaceCoating.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.SurfaceCoating) | [None](https://docs.python.org/3/library/constants.html#None)*
+
+SurfaceCoating property.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="AcousticAbsorptionCoefficient.SweepingPhase"></a>
+
+### *property* AcousticAbsorptionCoefficient.SweepingPhase *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the SweepingPhase.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="AcousticAbsorptionCoefficient.Time"></a>
+
+### *property* AcousticAbsorptionCoefficient.Time *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets the Time.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="AcousticAbsorptionCoefficient.TimeForMaximumOfMaximumValues"></a>
+
+### *property* AcousticAbsorptionCoefficient.TimeForMaximumOfMaximumValues *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Get the Time for the maximum of maximum values.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="AcousticAbsorptionCoefficient.TimeForMaximumOfMinimumValues"></a>
+
+### *property* AcousticAbsorptionCoefficient.TimeForMaximumOfMinimumValues *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Get the Time for the maximum of minimum values.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="AcousticAbsorptionCoefficient.TimeForMinimumOfMaximumValues"></a>
+
+### *property* AcousticAbsorptionCoefficient.TimeForMinimumOfMaximumValues *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Get the Time for the minimum of maximum values.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="AcousticAbsorptionCoefficient.TimeForMinimumOfMinimumValues"></a>
+
+### *property* AcousticAbsorptionCoefficient.TimeForMinimumOfMinimumValues *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Get the Time for the minimum of minimum values.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="AcousticAbsorptionCoefficient.VisibleProperties"></a>
+
 ### *property* AcousticAbsorptionCoefficient.VisibleProperties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of properties that are visible for this object.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="AcousticAbsorptionCoefficient.WaterfallShowTextOnMosaic"></a>
+
+### *property* AcousticAbsorptionCoefficient.WaterfallShowTextOnMosaic *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the Waterfall Mosaic Text Property.
 
 <!-- !! processed by numpydoc !! -->
 
@@ -544,59 +672,15 @@ Gets the list of properties that are visible for this object.
 
 ## Method detail
 
-### AcousticAbsorptionCoefficient.ClearGeneratedData()
+<a id="AcousticAbsorptionCoefficient.Activate"></a>
 
-Run the ClearGeneratedData action.
+### AcousticAbsorptionCoefficient.Activate()
 
-<!-- !! processed by numpydoc !! -->
-
-### AcousticAbsorptionCoefficient.EvaluateAllResults()
-
-Run the EvaluateAllResults action.
+Activate the current object.
 
 <!-- !! processed by numpydoc !! -->
 
-### AcousticAbsorptionCoefficient.FetchRemoteResults()
-
-Run the FetchRemoteResult action.
-
-<!-- !! processed by numpydoc !! -->
-
-### AcousticAbsorptionCoefficient.ExportToTextFile(filePath: System.String)
-
-Run the ExportToTextFile action.
-
-<!-- !! processed by numpydoc !! -->
-
-### AcousticAbsorptionCoefficient.ExportAnimation(filePath: System.String, format: [Ansys.Mechanical.DataModel.Enums.GraphicsAnimationExportFormat](../../../../../../../v241/Ansys/Mechanical/DataModel/Enums/GraphicsAnimationExportFormat.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.GraphicsAnimationExportFormat), settings: [Ansys.Mechanical.Graphics.AnimationExportSettings](../../../../../../../v241/Ansys/Mechanical/Graphics/AnimationExportSettings.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.Graphics.AnimationExportSettings))
-
-Run the ExportAnimation action.
-
-<!-- !! processed by numpydoc !! -->
-
-### AcousticAbsorptionCoefficient.DuplicateWithoutResults()
-
-Run the DuplicateWithoutResults action.
-
-<!-- !! processed by numpydoc !! -->
-
-### AcousticAbsorptionCoefficient.CreateResultsAtAllSets()
-
-Creates results at all sets for results under a solution.
-
-<!-- !! processed by numpydoc !! -->
-
-### AcousticAbsorptionCoefficient.PromoteToNamedSelection()
-
-Run the PromoteToNamedSelection action.
-
-<!-- !! processed by numpydoc !! -->
-
-### AcousticAbsorptionCoefficient.CreateParameter(propName: System.String)
-
-CreateParameter method.
-
-<!-- !! processed by numpydoc !! -->
+<a id="AcousticAbsorptionCoefficient.AddAlert"></a>
 
 ### AcousticAbsorptionCoefficient.AddAlert()
 
@@ -604,35 +688,7 @@ Creates a new Alert
 
 <!-- !! processed by numpydoc !! -->
 
-### AcousticAbsorptionCoefficient.AddConvergence()
-
-Creates a new Convergence
-
-<!-- !! processed by numpydoc !! -->
-
-### AcousticAbsorptionCoefficient.RenameBasedOnDefinition()
-
-Run the RenameBasedOnDefinition action.
-
-<!-- !! processed by numpydoc !! -->
-
-### AcousticAbsorptionCoefficient.Delete()
-
-Run the Delete action.
-
-<!-- !! processed by numpydoc !! -->
-
-### AcousticAbsorptionCoefficient.GetChildren(recurses: System.Boolean, children: System.Collections.Generic.IList[ChildrenType])
-
-Gets the list of children, filtered by type.
-
-<!-- !! processed by numpydoc !! -->
-
-### AcousticAbsorptionCoefficient.GetChildren(category: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../../../v241/Ansys/Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory), recurses: System.Boolean, children: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject])
-
-Gets the list of children, filtered by type.
-
-<!-- !! processed by numpydoc !! -->
+<a id="AcousticAbsorptionCoefficient.AddComment"></a>
 
 ### AcousticAbsorptionCoefficient.AddComment()
 
@@ -640,11 +696,23 @@ Creates a new child Comment.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="AcousticAbsorptionCoefficient.AddConvergence"></a>
+
+### AcousticAbsorptionCoefficient.AddConvergence()
+
+Creates a new Convergence
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="AcousticAbsorptionCoefficient.AddFigure"></a>
+
 ### AcousticAbsorptionCoefficient.AddFigure()
 
 Creates a new child Figure.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="AcousticAbsorptionCoefficient.AddImage"></a>
 
 ### AcousticAbsorptionCoefficient.AddImage(filePath: System.String)
 
@@ -656,11 +724,15 @@ if not, the image will be a screen capture of the Geometry window.
 
 <!-- !! processed by numpydoc !! -->
 
-### AcousticAbsorptionCoefficient.Activate()
+<a id="AcousticAbsorptionCoefficient.ClearGeneratedData"></a>
 
-Activate the current object.
+### AcousticAbsorptionCoefficient.ClearGeneratedData()
+
+Run the ClearGeneratedData action.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="AcousticAbsorptionCoefficient.CopyTo"></a>
 
 ### AcousticAbsorptionCoefficient.CopyTo(other: Ansys.ACT.Automation.Mechanical.DataModelObject)
 
@@ -668,11 +740,95 @@ Copies all visible properties from this object to another.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="AcousticAbsorptionCoefficient.CreateParameter"></a>
+
+### AcousticAbsorptionCoefficient.CreateParameter(propName: System.String)
+
+CreateParameter method.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="AcousticAbsorptionCoefficient.CreateResultsAtAllSets"></a>
+
+### AcousticAbsorptionCoefficient.CreateResultsAtAllSets()
+
+Creates results at all sets for results under a solution.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="AcousticAbsorptionCoefficient.Delete"></a>
+
+### AcousticAbsorptionCoefficient.Delete()
+
+Run the Delete action.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="AcousticAbsorptionCoefficient.Duplicate"></a>
+
 ### AcousticAbsorptionCoefficient.Duplicate()
 
 Creates a copy of the current DataModelObject.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="AcousticAbsorptionCoefficient.DuplicateWithoutResults"></a>
+
+### AcousticAbsorptionCoefficient.DuplicateWithoutResults()
+
+Run the DuplicateWithoutResults action.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="AcousticAbsorptionCoefficient.EvaluateAllResults"></a>
+
+### AcousticAbsorptionCoefficient.EvaluateAllResults()
+
+Run the EvaluateAllResults action.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="AcousticAbsorptionCoefficient.ExportAnimation"></a>
+
+### AcousticAbsorptionCoefficient.ExportAnimation(filePath: System.String, format: [Ansys.Mechanical.DataModel.Enums.GraphicsAnimationExportFormat](../../../../../Mechanical/DataModel/Enums/GraphicsAnimationExportFormat.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.GraphicsAnimationExportFormat), settings: [Ansys.Mechanical.Graphics.AnimationExportSettings](../../../../../Mechanical/Graphics/AnimationExportSettings.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.Graphics.AnimationExportSettings))
+
+Run the ExportAnimation action.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="AcousticAbsorptionCoefficient.ExportToTextFile"></a>
+
+### AcousticAbsorptionCoefficient.ExportToTextFile(filePath: System.String)
+
+Run the ExportToTextFile action.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="AcousticAbsorptionCoefficient.FetchRemoteResults"></a>
+
+### AcousticAbsorptionCoefficient.FetchRemoteResults()
+
+Run the FetchRemoteResult action.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="AcousticAbsorptionCoefficient.GetChildren"></a>
+
+### AcousticAbsorptionCoefficient.GetChildren(recurses: System.Boolean, children: System.Collections.Generic.IList[ChildrenType])
+
+Gets the list of children, filtered by type.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="AcousticAbsorptionCoefficient.GetParameter"></a>
+
+### AcousticAbsorptionCoefficient.GetParameter(propName: System.String)
+
+Gets the parameter corresponding to the given property.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="AcousticAbsorptionCoefficient.GroupAllSimilarChildren"></a>
 
 ### AcousticAbsorptionCoefficient.GroupAllSimilarChildren()
 
@@ -680,17 +836,23 @@ Run the GroupAllSimilarChildren action.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="AcousticAbsorptionCoefficient.GroupSimilarObjects"></a>
+
 ### AcousticAbsorptionCoefficient.GroupSimilarObjects()
 
 Run the GroupSimilarObjects action.
 
 <!-- !! processed by numpydoc !! -->
 
-### AcousticAbsorptionCoefficient.PropertyByName(name: System.String)
+<a id="AcousticAbsorptionCoefficient.PromoteToNamedSelection"></a>
 
-Get a property by its unique name.
+### AcousticAbsorptionCoefficient.PromoteToNamedSelection()
+
+Run the PromoteToNamedSelection action.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="AcousticAbsorptionCoefficient.PropertyByAPIName"></a>
 
 ### AcousticAbsorptionCoefficient.PropertyByAPIName(name: System.String)
 
@@ -701,15 +863,27 @@ If multiple properties have the same API Name, only the first property with that
 
 <!-- !! processed by numpydoc !! -->
 
-### AcousticAbsorptionCoefficient.GetParameter(propName: System.String)
+<a id="AcousticAbsorptionCoefficient.PropertyByName"></a>
 
-Gets the parameter corresponding to the given property.
+### AcousticAbsorptionCoefficient.PropertyByName(name: System.String)
+
+Get a property by its unique name.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="AcousticAbsorptionCoefficient.RemoveParameter"></a>
 
 ### AcousticAbsorptionCoefficient.RemoveParameter(propName: System.String)
 
 Removes the parameter from the parameter set corresponding to the given property.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="AcousticAbsorptionCoefficient.RenameBasedOnDefinition"></a>
+
+### AcousticAbsorptionCoefficient.RenameBasedOnDefinition()
+
+Run the RenameBasedOnDefinition action.
 
 <!-- !! processed by numpydoc !! -->
 

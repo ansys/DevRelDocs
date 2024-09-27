@@ -1,6 +1,6 @@
 # `Keywords`
 
-
+<a id="ansys.mechanical.stubs.v241.Ansys.ACT.Mechanical.Fields.Adapters.Keywords"></a>
 
 #### *class* ansys.mechanical.stubs.v241.Ansys.ACT.Mechanical.Fields.Adapters.Keywords
 
@@ -17,8 +17,8 @@ Keywords class.
 ### Constructors
 
 | Name | Description |
-|-------------------------------------------------------------------------------------------------|---------------|
-| [`Get`](../../../../../../v242/Ansys/ACT/Mechanical/Fields/Adapters/Keywords.md#Keywords.Get)   | Get method.   |
+|--------------------------|---------------|
+| [`Get`](#Keywords.Get)   | Get method.   |
 
 <a id="method-detail"></a>
 
@@ -27,8 +27,6 @@ Keywords class.
 <a id="Keywords.Get"></a>
 
 ### *classmethod* Keywords.Get(type: Ansys.Common.Interop.AnsMaterial.kEDDataType)
-
-* **No-index:**
 
 Get method.
 

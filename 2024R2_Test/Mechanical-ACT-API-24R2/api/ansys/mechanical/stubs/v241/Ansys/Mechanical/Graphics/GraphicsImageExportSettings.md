@@ -1,6 +1,6 @@
 # `GraphicsImageExportSettings`
 
-
+<a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.Graphics.GraphicsImageExportSettings"></a>
 
 #### *class* ansys.mechanical.stubs.v241.Ansys.Mechanical.Graphics.GraphicsImageExportSettings
 
@@ -17,25 +17,21 @@ GraphicsImageExportSettings class.
 ### Properties
 
 | Name | Description |
-|----------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| `CurrentGraphicsDisplay`   | Specifies whether to use the current graphics display settings. Defaults to true.                                                                                                                                                                                                       |
-| `AppendGraph`              | Specifies whether to append the viewport graph(s) to the exported image. Defaults to false.                                                                                                                                                                                             |
-| `Resolution`               | Specifies the resolution type. Defaults to NormalResolution.                                                                                                                                                                                                                            |
-| `Capture`                  | Specifies what to include in the capture. Defaults to ImageAndLegend.                                                                                                                                                                                                                   |
-| `Background`               | Specifies the background color. Defaults to GraphicsAppearanceSetting.                                                                                                                                                                                                                  |
-| `FontMagnification`        | Specifies the font magnification factor. Defaults to 1.0.                                                                                                                                                                                                                               |
-| `Width`                    | Specifies the image width. Defaults to 0. If width AND height are zero, this uses the current dimensions. If only one of the two are nonzero, the current dimension's ratio is used along with the nonzero of the two properties to determine the computed value of the zero property.  |
-| `Height`                   | Specifies the image height. Defaults to 0. If width AND height are zero, this uses the current dimensions. If only one of the two are nonzero, the current dimension's ratio is used along with the nonzero of the two properties to determine the computed value of the zero property. |
+|---------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| [`AppendGraph`](#GraphicsImageExportSettings.AppendGraph)                       | Specifies whether to append the viewport graph(s) to the exported image. Defaults to false.                                                                                                                                                                                             |
+| [`Background`](#GraphicsImageExportSettings.Background)                         | Specifies the background color. Defaults to GraphicsAppearanceSetting.                                                                                                                                                                                                                  |
+| [`Capture`](#GraphicsImageExportSettings.Capture)                               | Specifies what to include in the capture. Defaults to ImageAndLegend.                                                                                                                                                                                                                   |
+| [`CurrentGraphicsDisplay`](#GraphicsImageExportSettings.CurrentGraphicsDisplay) | Specifies whether to use the current graphics display settings. Defaults to true.                                                                                                                                                                                                       |
+| [`FontMagnification`](#GraphicsImageExportSettings.FontMagnification)           | Specifies the font magnification factor. Defaults to 1.0.                                                                                                                                                                                                                               |
+| [`Height`](#GraphicsImageExportSettings.Height)                                 | Specifies the image height. Defaults to 0. If width AND height are zero, this uses the current dimensions. If only one of the two are nonzero, the current dimension’s ratio is used along with the nonzero of the two properties to determine the computed value of the zero property. |
+| [`Resolution`](#GraphicsImageExportSettings.Resolution)                         | Specifies the resolution type. Defaults to NormalResolution.                                                                                                                                                                                                                            |
+| [`Width`](#GraphicsImageExportSettings.Width)                                   | Specifies the image width. Defaults to 0. If width AND height are zero, this uses the current dimensions. If only one of the two are nonzero, the current dimension’s ratio is used along with the nonzero of the two properties to determine the computed value of the zero property.  |
 
 <a id="property-detail"></a>
 
 ## Property detail
 
-### *property* GraphicsImageExportSettings.CurrentGraphicsDisplay *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Specifies whether to use the current graphics display settings. Defaults to true.
-
-<!-- !! processed by numpydoc !! -->
+<a id="GraphicsImageExportSettings.AppendGraph"></a>
 
 ### *property* GraphicsImageExportSettings.AppendGraph *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -43,23 +39,31 @@ Specifies whether to append the viewport graph(s) to the exported image. Default
 
 <!-- !! processed by numpydoc !! -->
 
-### *property* GraphicsImageExportSettings.Resolution *: [Ansys.Mechanical.DataModel.Enums.GraphicsResolutionType](../DataModel/Enums/GraphicsResolutionType.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.GraphicsResolutionType) | [None](https://docs.python.org/3/library/constants.html#None)*
+<a id="GraphicsImageExportSettings.Background"></a>
 
-Specifies the resolution type. Defaults to NormalResolution.
+### *property* GraphicsImageExportSettings.Background *: [Ansys.Mechanical.DataModel.Enums.GraphicsBackgroundType](../../../../v242/Ansys/Mechanical/DataModel/Enums/GraphicsBackgroundType.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.GraphicsBackgroundType) | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Specifies the background color. Defaults to GraphicsAppearanceSetting.
 
 <!-- !! processed by numpydoc !! -->
 
-### *property* GraphicsImageExportSettings.Capture *: [Ansys.Mechanical.DataModel.Enums.GraphicsCaptureType](../DataModel/Enums/GraphicsCaptureType.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.GraphicsCaptureType) | [None](https://docs.python.org/3/library/constants.html#None)*
+<a id="GraphicsImageExportSettings.Capture"></a>
+
+### *property* GraphicsImageExportSettings.Capture *: [Ansys.Mechanical.DataModel.Enums.GraphicsCaptureType](../../../../v242/Ansys/Mechanical/DataModel/Enums/GraphicsCaptureType.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.GraphicsCaptureType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Specifies what to include in the capture. Defaults to ImageAndLegend.
 
 <!-- !! processed by numpydoc !! -->
 
-### *property* GraphicsImageExportSettings.Background *: [Ansys.Mechanical.DataModel.Enums.GraphicsBackgroundType](../DataModel/Enums/GraphicsBackgroundType.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.GraphicsBackgroundType) | [None](https://docs.python.org/3/library/constants.html#None)*
+<a id="GraphicsImageExportSettings.CurrentGraphicsDisplay"></a>
 
-Specifies the background color. Defaults to GraphicsAppearanceSetting.
+### *property* GraphicsImageExportSettings.CurrentGraphicsDisplay *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Specifies whether to use the current graphics display settings. Defaults to true.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="GraphicsImageExportSettings.FontMagnification"></a>
 
 ### *property* GraphicsImageExportSettings.FontMagnification *: System.Double | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -67,15 +71,27 @@ Specifies the font magnification factor. Defaults to 1.0.
 
 <!-- !! processed by numpydoc !! -->
 
-### *property* GraphicsImageExportSettings.Width *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Specifies the image width. Defaults to 0. If width AND height are zero, this uses the current dimensions. If only one of the two are nonzero, the current dimension's ratio is used along with the nonzero of the two properties to determine the computed value of the zero property.
-
-<!-- !! processed by numpydoc !! -->
+<a id="GraphicsImageExportSettings.Height"></a>
 
 ### *property* GraphicsImageExportSettings.Height *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Specifies the image height. Defaults to 0. If width AND height are zero, this uses the current dimensions. If only one of the two are nonzero, the current dimension's ratio is used along with the nonzero of the two properties to determine the computed value of the zero property.
+Specifies the image height. Defaults to 0. If width AND height are zero, this uses the current dimensions. If only one of the two are nonzero, the current dimension’s ratio is used along with the nonzero of the two properties to determine the computed value of the zero property.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="GraphicsImageExportSettings.Resolution"></a>
+
+### *property* GraphicsImageExportSettings.Resolution *: [Ansys.Mechanical.DataModel.Enums.GraphicsResolutionType](../../../../v242/Ansys/Mechanical/DataModel/Enums/GraphicsResolutionType.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.GraphicsResolutionType) | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Specifies the resolution type. Defaults to NormalResolution.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="GraphicsImageExportSettings.Width"></a>
+
+### *property* GraphicsImageExportSettings.Width *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Specifies the image width. Defaults to 0. If width AND height are zero, this uses the current dimensions. If only one of the two are nonzero, the current dimension’s ratio is used along with the nonzero of the two properties to determine the computed value of the zero property.
 
 <!-- !! processed by numpydoc !! -->
 

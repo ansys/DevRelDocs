@@ -1,6 +1,6 @@
 # `OptimizationSolverType`
 
-
+<a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.OptimizationSolverType"></a>
 
 #### *class* ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.OptimizationSolverType
 
@@ -17,10 +17,10 @@ Specifies the OptimizationSolverType.
 ### Attributes
 
 | Name |
-| -------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| [`OptimalityCriteria`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/OptimizationSolverType.md#OptimizationSolverType.OptimalityCriteria) |
-| [`ProgramControlled`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/OptimizationSolverType.md#OptimizationSolverType.ProgramControlled) |
-| [`SequentialConvexProgramming`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/OptimizationSolverType.md#OptimizationSolverType.SequentialConvexProgramming) |
+| -------------------------------------------------------------------------------------- |
+| [`OptimalityCriteria`](#OptimizationSolverType.OptimalityCriteria) |
+| [`ProgramControlled`](#OptimizationSolverType.ProgramControlled) |
+| [`SequentialConvexProgramming`](#OptimizationSolverType.SequentialConvexProgramming) |
 
 <a id="attribute-detail"></a>
 

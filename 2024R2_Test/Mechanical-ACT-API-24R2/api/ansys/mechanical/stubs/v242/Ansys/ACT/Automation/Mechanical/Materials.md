@@ -1,6 +1,6 @@
 # `Materials`
 
-
+<a id="ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Materials"></a>
 
 #### *class* ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Materials
 
@@ -17,73 +17,49 @@ Defines a Materials.
 ### Methods
 
 | Name | Description |
-|--------------------------------|-----------------------------------------------------------------------------------|
-| `AddMaterialCombination`       | Creates a new MaterialCombination                                                 |
-| `AddImportedTraceExternalData` | Creates a new Imported Trace (External Data).                                     |
-| `Import`                       |                                                                                   |
-| `AddMaterialAssignment`        | Creates a new MaterialAssignment                                                  |
-| `AddMaterialPlot`              | Creates a new MaterialPlot                                                        |
-| `RefreshMaterials`             | Run the RefreshMaterials action.                                                  |
-| `GetChildren`                  | Gets the list of children, filtered by type.                                      |
-| `GetChildren`                  | Gets the list of children, filtered by type.                                      |
-| `AddComment`                   | Creates a new child Comment.                                                      |
-| `AddFigure`                    | Creates a new child Figure.                                                       |
-| `AddImage`                     | Creates a new child Image.                                                        |
-| `Activate`                     | Activate the current object.                                                      |
-| `CopyTo`                       | Copies all visible properties from this object to another.                        |
-| `Duplicate`                    | Creates a copy of the current DataModelObject.                                    |
-| `GroupAllSimilarChildren`      | Run the GroupAllSimilarChildren action.                                           |
-| `GroupSimilarObjects`          | Run the GroupSimilarObjects action.                                               |
-| `PropertyByName`               | Get a property by its unique name.                                                |
-| `PropertyByAPIName`            | Get a property by its API name.                                                   |
-| `CreateParameter`              | Creates a new parameter for a Property.                                           |
-| `GetParameter`                 | Gets the parameter corresponding to the given property.                           |
-| `RemoveParameter`              | Removes the parameter from the parameter set corresponding to the given property. |
+|---------------------------------------------------------------------------|-----------------------------------------------------------------------------------|
+| [`Activate`](#Materials.Activate)                                         | Activate the current object.                                                      |
+| [`AddComment`](#Materials.AddComment)                                     | Creates a new child Comment.                                                      |
+| [`AddFigure`](#Materials.AddFigure)                                       | Creates a new child Figure.                                                       |
+| [`AddImage`](#Materials.AddImage)                                         | Creates a new child Image.                                                        |
+| [`AddImportedTraceExternalData`](#Materials.AddImportedTraceExternalData) | Creates a new Imported Trace (External Data).                                     |
+| [`AddMaterialAssignment`](#Materials.AddMaterialAssignment)               | Creates a new MaterialAssignment                                                  |
+| [`AddMaterialCombination`](#Materials.AddMaterialCombination)             | Creates a new MaterialCombination                                                 |
+| [`AddMaterialPlot`](#Materials.AddMaterialPlot)                           | Creates a new MaterialPlot                                                        |
+| [`CopyTo`](#Materials.CopyTo)                                             | Copies all visible properties from this object to another.                        |
+| [`CreateParameter`](#Materials.CreateParameter)                           | Creates a new parameter for a Property.                                           |
+| [`Duplicate`](#Materials.Duplicate)                                       | Creates a copy of the current DataModelObject.                                    |
+| [`GetChildren`](#Materials.GetChildren)                                   | Gets the list of children, filtered by type.                                      |
+| [`GetParameter`](#Materials.GetParameter)                                 | Gets the parameter corresponding to the given property.                           |
+| [`GroupAllSimilarChildren`](#Materials.GroupAllSimilarChildren)           | Run the GroupAllSimilarChildren action.                                           |
+| [`GroupSimilarObjects`](#Materials.GroupSimilarObjects)                   | Run the GroupSimilarObjects action.                                               |
+| [`Import`](#Materials.Import)                                             |                                                                                   |
+| [`PropertyByAPIName`](#Materials.PropertyByAPIName)                       | Get a property by its API name.                                                   |
+| [`PropertyByName`](#Materials.PropertyByName)                             | Get a property by its unique name.                                                |
+| [`RefreshMaterials`](#Materials.RefreshMaterials)                         | Run the RefreshMaterials action.                                                  |
+| [`RemoveParameter`](#Materials.RemoveParameter)                           | Removes the parameter from the parameter set corresponding to the given property. |
 
 ### Properties
 
 | Name | Description |
-|---------------------------|---------------------------------------------------------------|
-| `InternalObject`          | Gets the internal object. For advanced usage only.            |
-| `MaterialAssignments`     | Gets the MaterialAssignments.                                 |
-| `MaterialCount`           | Gets the MaterialCount.                                       |
-| `DataModelObjectCategory` | Gets the current DataModelObject's category.                  |
-| `Children`                | Gets the list of children.                                    |
-| `Comments`                | Gets the list of associated comments.                         |
-| `Figures`                 | Gets the list of associated figures.                          |
-| `Images`                  | Gets the list of associated images.                           |
-| `ReadOnly`                | Gets or sets the ReadOnly.                                    |
-| `InternalObject`          | Gets the internal object. For advanced usage only.            |
-| `Properties`              | Gets the list of properties for this object.                  |
-| `VisibleProperties`       | Gets the list of properties that are visible for this object. |
+|-----------------------------------------------------------------|---------------------------------------------------------------|
+| [`Children`](#Materials.Children)                               | Gets the list of children.                                    |
+| [`Comments`](#Materials.Comments)                               | Gets the list of associated comments.                         |
+| [`DataModelObjectCategory`](#Materials.DataModelObjectCategory) | Gets the current DataModelObject’s category.                  |
+| [`Figures`](#Materials.Figures)                                 | Gets the list of associated figures.                          |
+| [`Images`](#Materials.Images)                                   | Gets the list of associated images.                           |
+| [`InternalObject`](#Materials.InternalObject)                   | Gets the internal object. For advanced usage only.            |
+| [`MaterialAssignments`](#Materials.MaterialAssignments)         | Gets the MaterialAssignments.                                 |
+| [`MaterialCount`](#Materials.MaterialCount)                     | Gets the MaterialCount.                                       |
+| [`Properties`](#Materials.Properties)                           | Gets the list of properties for this object.                  |
+| [`ReadOnly`](#Materials.ReadOnly)                               | Gets or sets the ReadOnly.                                    |
+| [`VisibleProperties`](#Materials.VisibleProperties)             | Gets the list of properties that are visible for this object. |
 
 <a id="property-detail"></a>
 
 ## Property detail
 
-### *property* Materials.InternalObject *: Ansys.Common.Interop.DSObjectsAuto.IDSMaterialGroupAuto | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets the internal object. For advanced usage only.
-
-<!-- !! processed by numpydoc !! -->
-
-### *property* Materials.MaterialAssignments *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets the MaterialAssignments.
-
-<!-- !! processed by numpydoc !! -->
-
-### *property* Materials.MaterialCount *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets the MaterialCount.
-
-<!-- !! processed by numpydoc !! -->
-
-### *property* Materials.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../v241/Ansys/Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets the current DataModelObject's category.
-
-<!-- !! processed by numpydoc !! -->
+<a id="Materials.Children"></a>
 
 ### *property* Materials.Children *: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -91,11 +67,23 @@ Gets the list of children.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="Materials.Comments"></a>
+
 ### *property* Materials.Comments *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Comment](../../../../../v241/Ansys/ACT/Automation/Mechanical/Comment.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated comments.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="Materials.DataModelObjectCategory"></a>
+
+### *property* Materials.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets the current DataModelObject’s category.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="Materials.Figures"></a>
 
 ### *property* Materials.Figures *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Figure](../../../../../v241/Ansys/ACT/Automation/Mechanical/Figure.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -103,11 +91,47 @@ Gets the list of associated figures.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="Materials.Images"></a>
+
 ### *property* Materials.Images *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Image](../../../../../v241/Ansys/ACT/Automation/Mechanical/Image.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated images.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="Materials.InternalObject"></a>
+
+### *property* Materials.InternalObject *: Ansys.Common.Interop.DSObjectsAuto.IDSMaterialGroupAuto | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets the internal object. For advanced usage only.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="Materials.MaterialAssignments"></a>
+
+### *property* Materials.MaterialAssignments *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets the MaterialAssignments.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="Materials.MaterialCount"></a>
+
+### *property* Materials.MaterialCount *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets the MaterialCount.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="Materials.Properties"></a>
+
+### *property* Materials.Properties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets the list of properties for this object.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="Materials.ReadOnly"></a>
 
 ### *property* Materials.ReadOnly *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -115,17 +139,7 @@ Gets or sets the ReadOnly.
 
 <!-- !! processed by numpydoc !! -->
 
-### *property* Materials.InternalObject *: System.Object | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets the internal object. For advanced usage only.
-
-<!-- !! processed by numpydoc !! -->
-
-### *property* Materials.Properties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets the list of properties for this object.
-
-<!-- !! processed by numpydoc !! -->
+<a id="Materials.VisibleProperties"></a>
 
 ### *property* Materials.VisibleProperties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -137,51 +151,15 @@ Gets the list of properties that are visible for this object.
 
 ## Method detail
 
-### Materials.AddMaterialCombination()
+<a id="Materials.Activate"></a>
 
-Creates a new MaterialCombination
+### Materials.Activate()
 
-<!-- !! processed by numpydoc !! -->
-
-### Materials.AddImportedTraceExternalData()
-
-Creates a new Imported Trace (External Data).
+Activate the current object.
 
 <!-- !! processed by numpydoc !! -->
 
-### Materials.Import(materialURI: System.String, format: [Ansys.Mechanical.DataModel.MechanicalEnums.Materials.ImportFormat](../../../../../v241/Ansys/Mechanical/DataModel/MechanicalEnums/Materials/ImportFormat.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.MechanicalEnums.Materials.ImportFormat), settings: [Ansys.Mechanical.Materials.ImportSettings](../../../../../v241/Ansys/Mechanical/Materials/ImportSettings.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.Materials.ImportSettings))
-
-<!-- !! processed by numpydoc !! -->
-
-### Materials.AddMaterialAssignment()
-
-Creates a new MaterialAssignment
-
-<!-- !! processed by numpydoc !! -->
-
-### Materials.AddMaterialPlot()
-
-Creates a new MaterialPlot
-
-<!-- !! processed by numpydoc !! -->
-
-### Materials.RefreshMaterials()
-
-Run the RefreshMaterials action.
-
-<!-- !! processed by numpydoc !! -->
-
-### Materials.GetChildren(recurses: System.Boolean, children: System.Collections.Generic.IList[ChildrenType])
-
-Gets the list of children, filtered by type.
-
-<!-- !! processed by numpydoc !! -->
-
-### Materials.GetChildren(category: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../v241/Ansys/Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory), recurses: System.Boolean, children: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject])
-
-Gets the list of children, filtered by type.
-
-<!-- !! processed by numpydoc !! -->
+<a id="Materials.AddComment"></a>
 
 ### Materials.AddComment()
 
@@ -189,11 +167,15 @@ Creates a new child Comment.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="Materials.AddFigure"></a>
+
 ### Materials.AddFigure()
 
 Creates a new child Figure.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="Materials.AddImage"></a>
 
 ### Materials.AddImage(filePath: System.String)
 
@@ -205,11 +187,39 @@ if not, the image will be a screen capture of the Geometry window.
 
 <!-- !! processed by numpydoc !! -->
 
-### Materials.Activate()
+<a id="Materials.AddImportedTraceExternalData"></a>
 
-Activate the current object.
+### Materials.AddImportedTraceExternalData()
+
+Creates a new Imported Trace (External Data).
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="Materials.AddMaterialAssignment"></a>
+
+### Materials.AddMaterialAssignment()
+
+Creates a new MaterialAssignment
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="Materials.AddMaterialCombination"></a>
+
+### Materials.AddMaterialCombination()
+
+Creates a new MaterialCombination
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="Materials.AddMaterialPlot"></a>
+
+### Materials.AddMaterialPlot()
+
+Creates a new MaterialPlot
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="Materials.CopyTo"></a>
 
 ### Materials.CopyTo(other: Ansys.ACT.Automation.Mechanical.DataModelObject)
 
@@ -217,11 +227,39 @@ Copies all visible properties from this object to another.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="Materials.CreateParameter"></a>
+
+### Materials.CreateParameter(propName: System.String)
+
+Creates a new parameter for a Property.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="Materials.Duplicate"></a>
+
 ### Materials.Duplicate()
 
 Creates a copy of the current DataModelObject.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="Materials.GetChildren"></a>
+
+### Materials.GetChildren(recurses: System.Boolean, children: System.Collections.Generic.IList[ChildrenType])
+
+Gets the list of children, filtered by type.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="Materials.GetParameter"></a>
+
+### Materials.GetParameter(propName: System.String)
+
+Gets the parameter corresponding to the given property.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="Materials.GroupAllSimilarChildren"></a>
 
 ### Materials.GroupAllSimilarChildren()
 
@@ -229,17 +267,21 @@ Run the GroupAllSimilarChildren action.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="Materials.GroupSimilarObjects"></a>
+
 ### Materials.GroupSimilarObjects()
 
 Run the GroupSimilarObjects action.
 
 <!-- !! processed by numpydoc !! -->
 
-### Materials.PropertyByName(name: System.String)
+<a id="Materials.Import"></a>
 
-Get a property by its unique name.
+### Materials.Import(materialURI: System.String, format: [Ansys.Mechanical.DataModel.MechanicalEnums.Materials.ImportFormat](../../../Mechanical/DataModel/MechanicalEnums/Materials/ImportFormat.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.MechanicalEnums.Materials.ImportFormat), settings: [Ansys.Mechanical.Materials.ImportSettings](../../../Mechanical/Materials/ImportSettings.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.Materials.ImportSettings))
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="Materials.PropertyByAPIName"></a>
 
 ### Materials.PropertyByAPIName(name: System.String)
 
@@ -250,17 +292,23 @@ If multiple properties have the same API Name, only the first property with that
 
 <!-- !! processed by numpydoc !! -->
 
-### Materials.CreateParameter(propName: System.String)
+<a id="Materials.PropertyByName"></a>
 
-Creates a new parameter for a Property.
+### Materials.PropertyByName(name: System.String)
+
+Get a property by its unique name.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="Materials.RefreshMaterials"></a>
+
+### Materials.RefreshMaterials()
+
+Run the RefreshMaterials action.
 
 <!-- !! processed by numpydoc !! -->
 
-### Materials.GetParameter(propName: System.String)
-
-Gets the parameter corresponding to the given property.
-
-<!-- !! processed by numpydoc !! -->
+<a id="Materials.RemoveParameter"></a>
 
 ### Materials.RemoveParameter(propName: System.String)
 

@@ -1,6 +1,6 @@
 # `ImportedPlies`
 
-
+<a id="ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.ImportedPlies"></a>
 
 #### *class* ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.ImportedPlies
 
@@ -17,95 +17,47 @@ Defines a ImportedPlies.
 ### Methods
 
 | Name | Description |
-|---------------------------|-----------------------------------------------------------------------------------|
-| `RegroupToDefault`        | Run the RegroupToDefault action.                                                  |
-| `GetChildren`             | Gets the list of children, filtered by type.                                      |
-| `GetChildren`             | Gets the list of children, filtered by type.                                      |
-| `AddComment`              | Creates a new child Comment.                                                      |
-| `AddFigure`               | Creates a new child Figure.                                                       |
-| `AddImage`                | Creates a new child Image.                                                        |
-| `Activate`                | Activate the current object.                                                      |
-| `CopyTo`                  | Copies all visible properties from this object to another.                        |
-| `Duplicate`               | Creates a copy of the current DataModelObject.                                    |
-| `GroupAllSimilarChildren` | Run the GroupAllSimilarChildren action.                                           |
-| `GroupSimilarObjects`     | Run the GroupSimilarObjects action.                                               |
-| `PropertyByName`          | Get a property by its unique name.                                                |
-| `PropertyByAPIName`       | Get a property by its API name.                                                   |
-| `CreateParameter`         | Creates a new parameter for a Property.                                           |
-| `GetParameter`            | Gets the parameter corresponding to the given property.                           |
-| `RemoveParameter`         | Removes the parameter from the parameter set corresponding to the given property. |
+|---------------------------------------------------------------------|-----------------------------------------------------------------------------------|
+| [`Activate`](#ImportedPlies.Activate)                               | Activate the current object.                                                      |
+| [`AddComment`](#ImportedPlies.AddComment)                           | Creates a new child Comment.                                                      |
+| [`AddFigure`](#ImportedPlies.AddFigure)                             | Creates a new child Figure.                                                       |
+| [`AddImage`](#ImportedPlies.AddImage)                               | Creates a new child Image.                                                        |
+| [`CopyTo`](#ImportedPlies.CopyTo)                                   | Copies all visible properties from this object to another.                        |
+| [`CreateParameter`](#ImportedPlies.CreateParameter)                 | Creates a new parameter for a Property.                                           |
+| [`Duplicate`](#ImportedPlies.Duplicate)                             | Creates a copy of the current DataModelObject.                                    |
+| [`GetChildren`](#ImportedPlies.GetChildren)                         | Gets the list of children, filtered by type.                                      |
+| [`GetParameter`](#ImportedPlies.GetParameter)                       | Gets the parameter corresponding to the given property.                           |
+| [`GroupAllSimilarChildren`](#ImportedPlies.GroupAllSimilarChildren) | Run the GroupAllSimilarChildren action.                                           |
+| [`GroupSimilarObjects`](#ImportedPlies.GroupSimilarObjects)         | Run the GroupSimilarObjects action.                                               |
+| [`PropertyByAPIName`](#ImportedPlies.PropertyByAPIName)             | Get a property by its API name.                                                   |
+| [`PropertyByName`](#ImportedPlies.PropertyByName)                   | Get a property by its unique name.                                                |
+| [`RegroupToDefault`](#ImportedPlies.RegroupToDefault)               | Run the RegroupToDefault action.                                                  |
+| [`RemoveParameter`](#ImportedPlies.RemoveParameter)                 | Removes the parameter from the parameter set corresponding to the given property. |
 
 ### Properties
 
 | Name | Description |
-|---------------------------|---------------------------------------------------------------|
-| `InternalObject`          | Gets the internal object. For advanced usage only.            |
-| `DataModelObjectCategory` | Gets the current DataModelObject's category.                  |
-| `LayerToDisplay`          | Gets or sets the LayerToDisplay.                              |
-| `MaximumNumberOfLayers`   | Gets the MaximumNumberOfLayers.                               |
-| `Type`                    | Gets the Type.                                                |
-| `NonlinearEffects`        | Gets or sets the NonlinearEffects.                            |
-| `Suppressed`              | Gets or sets the Suppressed.                                  |
-| `ThermalStrainEffects`    | Gets or sets the ThermalStrainEffects.                        |
-| `Children`                | Gets the list of children.                                    |
-| `Comments`                | Gets the list of associated comments.                         |
-| `Figures`                 | Gets the list of associated figures.                          |
-| `Images`                  | Gets the list of associated images.                           |
-| `InternalObject`          | Gets the internal object. For advanced usage only.            |
-| `Properties`              | Gets the list of properties for this object.                  |
-| `VisibleProperties`       | Gets the list of properties that are visible for this object. |
+|---------------------------------------------------------------------|---------------------------------------------------------------|
+| [`Children`](#ImportedPlies.Children)                               | Gets the list of children.                                    |
+| [`Comments`](#ImportedPlies.Comments)                               | Gets the list of associated comments.                         |
+| [`DataModelObjectCategory`](#ImportedPlies.DataModelObjectCategory) | Gets the current DataModelObject’s category.                  |
+| [`Figures`](#ImportedPlies.Figures)                                 | Gets the list of associated figures.                          |
+| [`Images`](#ImportedPlies.Images)                                   | Gets the list of associated images.                           |
+| [`InternalObject`](#ImportedPlies.InternalObject)                   | Gets the internal object. For advanced usage only.            |
+| [`LayerToDisplay`](#ImportedPlies.LayerToDisplay)                   | Gets or sets the LayerToDisplay.                              |
+| [`MaximumNumberOfLayers`](#ImportedPlies.MaximumNumberOfLayers)     | Gets the MaximumNumberOfLayers.                               |
+| [`NonlinearEffects`](#ImportedPlies.NonlinearEffects)               | Gets or sets the NonlinearEffects.                            |
+| [`Properties`](#ImportedPlies.Properties)                           | Gets the list of properties for this object.                  |
+| [`Suppressed`](#ImportedPlies.Suppressed)                           | Gets or sets the Suppressed.                                  |
+| [`ThermalStrainEffects`](#ImportedPlies.ThermalStrainEffects)       | Gets or sets the ThermalStrainEffects.                        |
+| [`Type`](#ImportedPlies.Type)                                       | Gets the Type.                                                |
+| [`VisibleProperties`](#ImportedPlies.VisibleProperties)             | Gets the list of properties that are visible for this object. |
 
 <a id="property-detail"></a>
 
 ## Property detail
 
-### *property* ImportedPlies.InternalObject *: Ansys.Common.Interop.DSObjectsAuto.IDSExternalEnhancedModelAuto | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets the internal object. For advanced usage only.
-
-<!-- !! processed by numpydoc !! -->
-
-### *property* ImportedPlies.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../v241/Ansys/Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets the current DataModelObject's category.
-
-<!-- !! processed by numpydoc !! -->
-
-### *property* ImportedPlies.LayerToDisplay *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the LayerToDisplay.
-
-<!-- !! processed by numpydoc !! -->
-
-### *property* ImportedPlies.MaximumNumberOfLayers *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets the MaximumNumberOfLayers.
-
-<!-- !! processed by numpydoc !! -->
-
-### *property* ImportedPlies.Type *: [Ansys.Mechanical.DataModel.Enums.ExternalEnhancedModelType](../../../../../v241/Ansys/Mechanical/DataModel/Enums/ExternalEnhancedModelType.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.ExternalEnhancedModelType) | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets the Type.
-
-<!-- !! processed by numpydoc !! -->
-
-### *property* ImportedPlies.NonlinearEffects *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the NonlinearEffects.
-
-<!-- !! processed by numpydoc !! -->
-
-### *property* ImportedPlies.Suppressed *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the Suppressed.
-
-<!-- !! processed by numpydoc !! -->
-
-### *property* ImportedPlies.ThermalStrainEffects *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the ThermalStrainEffects.
-
-<!-- !! processed by numpydoc !! -->
+<a id="ImportedPlies.Children"></a>
 
 ### *property* ImportedPlies.Children *: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -113,11 +65,23 @@ Gets the list of children.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="ImportedPlies.Comments"></a>
+
 ### *property* ImportedPlies.Comments *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Comment](../../../../../v241/Ansys/ACT/Automation/Mechanical/Comment.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated comments.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="ImportedPlies.DataModelObjectCategory"></a>
+
+### *property* ImportedPlies.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets the current DataModelObject’s category.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ImportedPlies.Figures"></a>
 
 ### *property* ImportedPlies.Figures *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Figure](../../../../../v241/Ansys/ACT/Automation/Mechanical/Figure.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -125,23 +89,79 @@ Gets the list of associated figures.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="ImportedPlies.Images"></a>
+
 ### *property* ImportedPlies.Images *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Image](../../../../../v241/Ansys/ACT/Automation/Mechanical/Image.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated images.
 
 <!-- !! processed by numpydoc !! -->
 
-### *property* ImportedPlies.InternalObject *: System.Object | [None](https://docs.python.org/3/library/constants.html#None)*
+<a id="ImportedPlies.InternalObject"></a>
+
+### *property* ImportedPlies.InternalObject *: Ansys.Common.Interop.DSObjectsAuto.IDSExternalEnhancedModelAuto | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the internal object. For advanced usage only.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="ImportedPlies.LayerToDisplay"></a>
+
+### *property* ImportedPlies.LayerToDisplay *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the LayerToDisplay.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ImportedPlies.MaximumNumberOfLayers"></a>
+
+### *property* ImportedPlies.MaximumNumberOfLayers *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets the MaximumNumberOfLayers.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ImportedPlies.NonlinearEffects"></a>
+
+### *property* ImportedPlies.NonlinearEffects *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the NonlinearEffects.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ImportedPlies.Properties"></a>
 
 ### *property* ImportedPlies.Properties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of properties for this object.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="ImportedPlies.Suppressed"></a>
+
+### *property* ImportedPlies.Suppressed *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the Suppressed.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ImportedPlies.ThermalStrainEffects"></a>
+
+### *property* ImportedPlies.ThermalStrainEffects *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the ThermalStrainEffects.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ImportedPlies.Type"></a>
+
+### *property* ImportedPlies.Type *: [Ansys.Mechanical.DataModel.Enums.ExternalEnhancedModelType](../../../Mechanical/DataModel/Enums/ExternalEnhancedModelType.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.ExternalEnhancedModelType) | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets the Type.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ImportedPlies.VisibleProperties"></a>
 
 ### *property* ImportedPlies.VisibleProperties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -153,23 +173,15 @@ Gets the list of properties that are visible for this object.
 
 ## Method detail
 
-### ImportedPlies.RegroupToDefault()
+<a id="ImportedPlies.Activate"></a>
 
-Run the RegroupToDefault action.
+### ImportedPlies.Activate()
 
-<!-- !! processed by numpydoc !! -->
-
-### ImportedPlies.GetChildren(recurses: System.Boolean, children: System.Collections.Generic.IList[ChildrenType])
-
-Gets the list of children, filtered by type.
+Activate the current object.
 
 <!-- !! processed by numpydoc !! -->
 
-### ImportedPlies.GetChildren(category: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../v241/Ansys/Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory), recurses: System.Boolean, children: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject])
-
-Gets the list of children, filtered by type.
-
-<!-- !! processed by numpydoc !! -->
+<a id="ImportedPlies.AddComment"></a>
 
 ### ImportedPlies.AddComment()
 
@@ -177,11 +189,15 @@ Creates a new child Comment.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="ImportedPlies.AddFigure"></a>
+
 ### ImportedPlies.AddFigure()
 
 Creates a new child Figure.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="ImportedPlies.AddImage"></a>
 
 ### ImportedPlies.AddImage(filePath: System.String)
 
@@ -193,11 +209,7 @@ if not, the image will be a screen capture of the Geometry window.
 
 <!-- !! processed by numpydoc !! -->
 
-### ImportedPlies.Activate()
-
-Activate the current object.
-
-<!-- !! processed by numpydoc !! -->
+<a id="ImportedPlies.CopyTo"></a>
 
 ### ImportedPlies.CopyTo(other: Ansys.ACT.Automation.Mechanical.DataModelObject)
 
@@ -205,11 +217,39 @@ Copies all visible properties from this object to another.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="ImportedPlies.CreateParameter"></a>
+
+### ImportedPlies.CreateParameter(propName: System.String)
+
+Creates a new parameter for a Property.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ImportedPlies.Duplicate"></a>
+
 ### ImportedPlies.Duplicate()
 
 Creates a copy of the current DataModelObject.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="ImportedPlies.GetChildren"></a>
+
+### ImportedPlies.GetChildren(recurses: System.Boolean, children: System.Collections.Generic.IList[ChildrenType])
+
+Gets the list of children, filtered by type.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ImportedPlies.GetParameter"></a>
+
+### ImportedPlies.GetParameter(propName: System.String)
+
+Gets the parameter corresponding to the given property.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ImportedPlies.GroupAllSimilarChildren"></a>
 
 ### ImportedPlies.GroupAllSimilarChildren()
 
@@ -217,17 +257,15 @@ Run the GroupAllSimilarChildren action.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="ImportedPlies.GroupSimilarObjects"></a>
+
 ### ImportedPlies.GroupSimilarObjects()
 
 Run the GroupSimilarObjects action.
 
 <!-- !! processed by numpydoc !! -->
 
-### ImportedPlies.PropertyByName(name: System.String)
-
-Get a property by its unique name.
-
-<!-- !! processed by numpydoc !! -->
+<a id="ImportedPlies.PropertyByAPIName"></a>
 
 ### ImportedPlies.PropertyByAPIName(name: System.String)
 
@@ -238,17 +276,23 @@ If multiple properties have the same API Name, only the first property with that
 
 <!-- !! processed by numpydoc !! -->
 
-### ImportedPlies.CreateParameter(propName: System.String)
+<a id="ImportedPlies.PropertyByName"></a>
 
-Creates a new parameter for a Property.
+### ImportedPlies.PropertyByName(name: System.String)
+
+Get a property by its unique name.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ImportedPlies.RegroupToDefault"></a>
+
+### ImportedPlies.RegroupToDefault()
+
+Run the RegroupToDefault action.
 
 <!-- !! processed by numpydoc !! -->
 
-### ImportedPlies.GetParameter(propName: System.String)
-
-Gets the parameter corresponding to the given property.
-
-<!-- !! processed by numpydoc !! -->
+<a id="ImportedPlies.RemoveParameter"></a>
 
 ### ImportedPlies.RemoveParameter(propName: System.String)
 

@@ -1,12 +1,12 @@
 # `SurfaceMeshType`
 
-
+<a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.MechanicalEnums.MeshWorkflow.SurfaceMeshType"></a>
 
 #### *class* ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.MechanicalEnums.MeshWorkflow.SurfaceMeshType
 
 Bases: [`enum.Enum`](https://docs.python.org/3/library/enum.html#enum.Enum)
 
-This enum is referenced in the ìControlî tree node and reflects the type of surface mesh being configured.
+This enum is referenced in the ‚ÄúControl‚Äù tree node and reflects the type of surface mesh being configured.
 
 <!-- !! processed by numpydoc !! -->
 
@@ -17,9 +17,9 @@ This enum is referenced in the ìControlî tree node and reflects the type of surf
 ### Attributes
 
 | Name |
-| -------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| [`Quadrilaterals`](../../../../../../v242/Ansys/Mechanical/DataModel/MechanicalEnums/MeshWorkflow/SurfaceMeshType.md#SurfaceMeshType.Quadrilaterals) |
-| [`Triangles`](../../../../../../v242/Ansys/Mechanical/DataModel/MechanicalEnums/MeshWorkflow/SurfaceMeshType.md#SurfaceMeshType.Triangles) |
+| ------------------------------------------------------- |
+| [`Quadrilaterals`](#SurfaceMeshType.Quadrilaterals) |
+| [`Triangles`](#SurfaceMeshType.Triangles) |
 
 <a id="attribute-detail"></a>
 

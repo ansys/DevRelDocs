@@ -1,6 +1,6 @@
 # `DelaminationFailureCriteriaOption`
 
-
+<a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DelaminationFailureCriteriaOption"></a>
 
 #### *class* ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DelaminationFailureCriteriaOption
 
@@ -17,11 +17,11 @@ Specifies the DelaminationFailureCriteriaOption.
 ### Attributes
 
 | Name |
-| ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| [`EnergyReleaseRate`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/DelaminationFailureCriteriaOption.md#DelaminationFailureCriteriaOption.EnergyReleaseRate) |
-| [`JIntegral`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/DelaminationFailureCriteriaOption.md#DelaminationFailureCriteriaOption.JIntegral) |
-| [`MaterialDataTable`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/DelaminationFailureCriteriaOption.md#DelaminationFailureCriteriaOption.MaterialDataTable) |
-| [`StressIntensityFactor`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/DelaminationFailureCriteriaOption.md#DelaminationFailureCriteriaOption.StressIntensityFactor) |
+| ------------------------------------------------------------------------------------- |
+| [`EnergyReleaseRate`](#DelaminationFailureCriteriaOption.EnergyReleaseRate) |
+| [`JIntegral`](#DelaminationFailureCriteriaOption.JIntegral) |
+| [`MaterialDataTable`](#DelaminationFailureCriteriaOption.MaterialDataTable) |
+| [`StressIntensityFactor`](#DelaminationFailureCriteriaOption.StressIntensityFactor) |
 
 <a id="attribute-detail"></a>
 

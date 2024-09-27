@@ -1,6 +1,6 @@
 # `GraphControlsXAxis`
 
-
+<a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.GraphControlsXAxis"></a>
 
 #### *class* ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.GraphControlsXAxis
 
@@ -17,12 +17,12 @@ Specifies the GraphControlsXAxis.
 ### Attributes
 
 | Name |
-| -------------------------------------------------------------------------------------------------------------------------- |
-| [`Frequency`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/GraphControlsXAxis.md#GraphControlsXAxis.Frequency) |
-| [`Mode`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/GraphControlsXAxis.md#GraphControlsXAxis.Mode) |
-| [`Phase`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/GraphControlsXAxis.md#GraphControlsXAxis.Phase) |
-| [`S`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/GraphControlsXAxis.md#GraphControlsXAxis.S) |
-| [`Time`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/GraphControlsXAxis.md#GraphControlsXAxis.Time) |
+| ------------------------------------------------ |
+| [`Frequency`](#GraphControlsXAxis.Frequency) |
+| [`Mode`](#GraphControlsXAxis.Mode) |
+| [`Phase`](#GraphControlsXAxis.Phase) |
+| [`S`](#GraphControlsXAxis.S) |
+| [`Time`](#GraphControlsXAxis.Time) |
 
 <a id="attribute-detail"></a>
 

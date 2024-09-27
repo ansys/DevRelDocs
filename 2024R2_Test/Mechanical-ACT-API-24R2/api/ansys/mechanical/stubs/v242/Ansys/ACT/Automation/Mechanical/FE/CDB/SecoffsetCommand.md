@@ -1,6 +1,6 @@
 # `SecoffsetCommand`
 
-
+<a id="ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.FE.CDB.SecoffsetCommand"></a>
 
 #### *class* ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.FE.CDB.SecoffsetCommand
 
@@ -17,15 +17,25 @@ Represents a SECOFFSET command.
 ### Properties
 
 | Name | Description |
-|--------------|----------------------------------------------|
-| `Location`   | Gets the location of nodes in the section.   |
-| `Values`     | Gets the values.                             |
-| `Name`       | Gets the command name.                       |
-| `Index`      | Gets the command index.                      |
+|------------------------------------------|--------------------------------------------|
+| [`Index`](#SecoffsetCommand.Index)       | Gets the command index.                    |
+| [`Location`](#SecoffsetCommand.Location) | Gets the location of nodes in the section. |
+| [`Name`](#SecoffsetCommand.Name)         | Gets the command name.                     |
+| [`Values`](#SecoffsetCommand.Values)     | Gets the values.                           |
 
 <a id="property-detail"></a>
 
 ## Property detail
+
+<a id="SecoffsetCommand.Index"></a>
+
+### *property* SecoffsetCommand.Index *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets the command index.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="SecoffsetCommand.Location"></a>
 
 ### *property* SecoffsetCommand.Location *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -33,11 +43,7 @@ Gets the location of nodes in the section.
 
 <!-- !! processed by numpydoc !! -->
 
-### *property* SecoffsetCommand.Values *: System.Collections.Generic.IReadOnlyList[System.Double] | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets the values.
-
-<!-- !! processed by numpydoc !! -->
+<a id="SecoffsetCommand.Name"></a>
 
 ### *property* SecoffsetCommand.Name *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -45,9 +51,11 @@ Gets the command name.
 
 <!-- !! processed by numpydoc !! -->
 
-### *property* SecoffsetCommand.Index *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+<a id="SecoffsetCommand.Values"></a>
 
-Gets the command index.
+### *property* SecoffsetCommand.Values *: System.Collections.Generic.IReadOnlyList[System.Double] | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets the values.
 
 <!-- !! processed by numpydoc !! -->
 

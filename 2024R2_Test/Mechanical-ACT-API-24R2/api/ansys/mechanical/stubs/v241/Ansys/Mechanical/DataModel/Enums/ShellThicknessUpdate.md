@@ -1,6 +1,6 @@
 # `ShellThicknessUpdate`
 
-
+<a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.ShellThicknessUpdate"></a>
 
 #### *class* ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.ShellThicknessUpdate
 
@@ -17,9 +17,9 @@ Specifies the ShellThicknessUpdate.
 ### Attributes
 
 | Name |
-| ------------------------------------------------------------------------------------------------------------------------------ |
-| [`Elemental`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/ShellThicknessUpdate.md#ShellThicknessUpdate.Elemental) |
-| [`Nodal`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/ShellThicknessUpdate.md#ShellThicknessUpdate.Nodal) |
+| -------------------------------------------------- |
+| [`Elemental`](#ShellThicknessUpdate.Elemental) |
+| [`Nodal`](#ShellThicknessUpdate.Nodal) |
 
 <a id="attribute-detail"></a>
 

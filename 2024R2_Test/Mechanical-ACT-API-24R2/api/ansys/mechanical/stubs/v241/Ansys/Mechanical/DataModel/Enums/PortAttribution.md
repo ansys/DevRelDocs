@@ -1,6 +1,6 @@
 # `PortAttribution`
 
-
+<a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.PortAttribution"></a>
 
 #### *class* ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.PortAttribution
 
@@ -17,9 +17,9 @@ Specifies the PortAttribution.
 ### Attributes
 
 | Name |
-| ------------------------------------------------------------------------------------------------------------ |
-| [`Inlet`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/PortAttribution.md#PortAttribution.Inlet) |
-| [`Outlet`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/PortAttribution.md#PortAttribution.Outlet) |
+| ------------------------------------- |
+| [`Inlet`](#PortAttribution.Inlet) |
+| [`Outlet`](#PortAttribution.Outlet) |
 
 <a id="attribute-detail"></a>
 

@@ -1,6 +1,6 @@
 # `MAPDLSurfaceLoadData`
 
-
+<a id="ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.SolverData.MAPDLSurfaceLoadData"></a>
 
 #### *class* ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.SolverData.MAPDLSurfaceLoadData
 
@@ -17,12 +17,14 @@ MAPDLSurfaceLoadData class.
 ### Properties
 
 | Name | Description |
-|--------------------------------|-------------------------------------------------------------|
-| `SurfaceEffectElementTypeId`   | Gets the Surface Effect Element Type Id used by the load.   |
+|---------------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------|
+| [`SurfaceEffectElementTypeId`](#MAPDLSurfaceLoadData.SurfaceEffectElementTypeId)   | Gets the Surface Effect Element Type Id used by the load.   |
 
 <a id="property-detail"></a>
 
 ## Property detail
+
+<a id="MAPDLSurfaceLoadData.SurfaceEffectElementTypeId"></a>
 
 ### *property* MAPDLSurfaceLoadData.SurfaceEffectElementTypeId *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
 

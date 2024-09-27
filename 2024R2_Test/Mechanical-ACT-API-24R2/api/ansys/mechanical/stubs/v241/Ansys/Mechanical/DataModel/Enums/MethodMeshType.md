@@ -1,6 +1,6 @@
 # `MethodMeshType`
 
-
+<a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.MethodMeshType"></a>
 
 #### *class* ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.MethodMeshType
 
@@ -19,9 +19,9 @@ Derive from this class to define new enumerations.
 ### Attributes
 
 | Name |
-| -------------------------------------------------------------------------------------------------------------- |
-| [`Quad`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/MethodMeshType.md#MethodMeshType.Quad) |
-| [`Triangle`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/MethodMeshType.md#MethodMeshType.Triangle) |
+| ---------------------------------------- |
+| [`Quad`](#MethodMeshType.Quad) |
+| [`Triangle`](#MethodMeshType.Triangle) |
 
 <a id="attribute-detail"></a>
 

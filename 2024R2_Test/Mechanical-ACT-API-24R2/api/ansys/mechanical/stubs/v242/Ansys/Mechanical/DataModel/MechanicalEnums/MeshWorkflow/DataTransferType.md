@@ -1,12 +1,12 @@
 # `DataTransferType`
 
-
+<a id="ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.MechanicalEnums.MeshWorkflow.DataTransferType"></a>
 
 #### *class* ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.MechanicalEnums.MeshWorkflow.DataTransferType
 
 Bases: [`enum.Enum`](https://docs.python.org/3/library/enum.html#enum.Enum)
 
-This enum is referenced in the ìOutputî tree node and defines how the generated Mesh Workflow data should be transferred back into Mechanical geometry part(s) together with the associated mesh.
+This enum is referenced in the ‚ÄúOutput‚Äù tree node and defines how the generated Mesh Workflow data should be transferred back into Mechanical geometry part(s) together with the associated mesh.
 
 <!-- !! processed by numpydoc !! -->
 
@@ -17,7 +17,7 @@ This enum is referenced in the ìOutputî tree node and defines how the generated 
 ### Attributes
 
 | Name |
-| ------------------------------------------------------------ |
+| -------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | [`ByTopology`](#DataTransferType.ByTopology) |
 | [`ByZones`](#DataTransferType.ByZones) |
 | [`ProgramControlled`](#DataTransferType.ProgramControlled) |

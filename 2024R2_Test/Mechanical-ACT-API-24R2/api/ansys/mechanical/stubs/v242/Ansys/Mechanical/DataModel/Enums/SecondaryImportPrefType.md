@@ -1,6 +1,6 @@
 # `SecondaryImportPrefType`
 
-
+<a id="ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.SecondaryImportPrefType"></a>
 
 #### *class* ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.SecondaryImportPrefType
 
@@ -17,17 +17,21 @@ Specifies the SecondaryImportPrefType.
 ### Attributes
 
 | Name |
-| --------------------------------------------------------------- |
+| ---------------------------------------------------------------------------------------------------------------------------------------------- |
+| [`Line`](#SecondaryImportPrefType.Line) |
 | [`None_`](#SecondaryImportPrefType.None_) |
 | [`Solid`](#SecondaryImportPrefType.Solid) |
-| [`Surface`](#SecondaryImportPrefType.Surface) |
-| [`Line`](#SecondaryImportPrefType.Line) |
 | [`SolidAndSurface`](#SecondaryImportPrefType.SolidAndSurface) |
+| [`Surface`](#SecondaryImportPrefType.Surface) |
 | [`SurfaceAndLine`](#SecondaryImportPrefType.SurfaceAndLine) |
 
 <a id="attribute-detail"></a>
 
 ## Attribute detail
+
+<a id="SecondaryImportPrefType.Line"></a>
+
+### SecondaryImportPrefType.Line *= 3*
 
 <a id="SecondaryImportPrefType.None_"></a>
 
@@ -37,17 +41,13 @@ Specifies the SecondaryImportPrefType.
 
 ### SecondaryImportPrefType.Solid *= 1*
 
-<a id="SecondaryImportPrefType.Surface"></a>
-
-### SecondaryImportPrefType.Surface *= 2*
-
-<a id="SecondaryImportPrefType.Line"></a>
-
-### SecondaryImportPrefType.Line *= 3*
-
 <a id="SecondaryImportPrefType.SolidAndSurface"></a>
 
 ### SecondaryImportPrefType.SolidAndSurface *= 4*
+
+<a id="SecondaryImportPrefType.Surface"></a>
+
+### SecondaryImportPrefType.Surface *= 2*
 
 <a id="SecondaryImportPrefType.SurfaceAndLine"></a>
 

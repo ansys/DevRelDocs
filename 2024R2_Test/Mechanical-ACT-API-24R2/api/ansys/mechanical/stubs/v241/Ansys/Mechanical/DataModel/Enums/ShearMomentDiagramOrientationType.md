@@ -1,6 +1,6 @@
 # `ShearMomentDiagramOrientationType`
 
-
+<a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.ShearMomentDiagramOrientationType"></a>
 
 #### *class* ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.ShearMomentDiagramOrientationType
 
@@ -17,10 +17,10 @@ Specifies the ShearMomentDiagramOrientationType.
 ### Attributes
 
 | Name |
-| ---------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| [`BendingMoment`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/ShearMomentDiagramOrientationType.md#ShearMomentDiagramOrientationType.BendingMoment) |
-| [`Displacement`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/ShearMomentDiagramOrientationType.md#ShearMomentDiagramOrientationType.Displacement) |
-| [`ShearForce`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/ShearMomentDiagramOrientationType.md#ShearMomentDiagramOrientationType.ShearForce) |
+| ----------------------------------------------------------------------- |
+| [`BendingMoment`](#ShearMomentDiagramOrientationType.BendingMoment) |
+| [`Displacement`](#ShearMomentDiagramOrientationType.Displacement) |
+| [`ShearForce`](#ShearMomentDiagramOrientationType.ShearForce) |
 
 <a id="attribute-detail"></a>
 

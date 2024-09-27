@@ -1,6 +1,6 @@
 # `ContactBehavior`
 
-
+<a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.ContactBehavior"></a>
 
 #### *class* ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.ContactBehavior
 
@@ -17,11 +17,11 @@ Specifies the ContactBehavior.
 ### Attributes
 
 | Name |
-| ---------------------------------------------------------------------------------------------------------------------------------- |
-| [`Asymmetric`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/ContactBehavior.md#ContactBehavior.Asymmetric) |
-| [`AutoAsymmetric`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/ContactBehavior.md#ContactBehavior.AutoAsymmetric) |
-| [`ProgramControlled`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/ContactBehavior.md#ContactBehavior.ProgramControlled) |
-| [`Symmetric`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/ContactBehavior.md#ContactBehavior.Symmetric) |
+| ----------------------------------------------------------- |
+| [`Asymmetric`](#ContactBehavior.Asymmetric) |
+| [`AutoAsymmetric`](#ContactBehavior.AutoAsymmetric) |
+| [`ProgramControlled`](#ContactBehavior.ProgramControlled) |
+| [`Symmetric`](#ContactBehavior.Symmetric) |
 
 <a id="attribute-detail"></a>
 

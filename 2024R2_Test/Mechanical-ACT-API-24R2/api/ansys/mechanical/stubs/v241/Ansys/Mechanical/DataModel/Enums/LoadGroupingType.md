@@ -1,6 +1,6 @@
 # `LoadGroupingType`
 
-
+<a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.LoadGroupingType"></a>
 
 #### *class* ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.LoadGroupingType
 
@@ -17,9 +17,9 @@ Specifies the LoadGroupingType.
 ### Attributes
 
 | Name |
-| ------------------------------------------------------------------------------------------------------------------------ |
-| [`ByLocation`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/LoadGroupingType.md#LoadGroupingType.ByLocation) |
-| [`No`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/LoadGroupingType.md#LoadGroupingType.No) |
+| ------------------------------------------------ |
+| [`ByLocation`](#LoadGroupingType.ByLocation) |
+| [`No`](#LoadGroupingType.No) |
 
 <a id="attribute-detail"></a>
 

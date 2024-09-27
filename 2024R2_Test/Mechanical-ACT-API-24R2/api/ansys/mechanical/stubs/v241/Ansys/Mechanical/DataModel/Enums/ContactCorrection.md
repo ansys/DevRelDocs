@@ -1,6 +1,6 @@
 # `ContactCorrection`
 
-
+<a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.ContactCorrection"></a>
 
 #### *class* ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.ContactCorrection
 
@@ -17,10 +17,10 @@ Specifies the ContactCorrection.
 ### Attributes
 
 | Name |
-| ---------------------------------------------------------------------------------------------------------------------- |
-| [`Bolt`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/ContactCorrection.md#ContactCorrection.Bolt) |
-| [`No`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/ContactCorrection.md#ContactCorrection.No) |
-| [`Smoothing`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/ContactCorrection.md#ContactCorrection.Smoothing) |
+| --------------------------------------------- |
+| [`Bolt`](#ContactCorrection.Bolt) |
+| [`No`](#ContactCorrection.No) |
+| [`Smoothing`](#ContactCorrection.Smoothing) |
 
 <a id="attribute-detail"></a>
 

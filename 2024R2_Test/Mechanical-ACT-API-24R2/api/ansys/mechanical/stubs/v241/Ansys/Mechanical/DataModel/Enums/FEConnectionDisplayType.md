@@ -1,6 +1,6 @@
 # `FEConnectionDisplayType`
 
-
+<a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.FEConnectionDisplayType"></a>
 
 #### *class* ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.FEConnectionDisplayType
 
@@ -17,10 +17,10 @@ Specifies the FEConnectionDisplayType.
 ### Attributes
 
 | Name |
-| -------------------------------------------------------------------------------------------------------------------------------------------- |
-| [`Lines`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/FEConnectionDisplayType.md#FEConnectionDisplayType.Lines) |
-| [`LinesAndPoints`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/FEConnectionDisplayType.md#FEConnectionDisplayType.LinesAndPoints) |
-| [`Points`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/FEConnectionDisplayType.md#FEConnectionDisplayType.Points) |
+| ------------------------------------------------------------- |
+| [`Lines`](#FEConnectionDisplayType.Lines) |
+| [`LinesAndPoints`](#FEConnectionDisplayType.LinesAndPoints) |
+| [`Points`](#FEConnectionDisplayType.Points) |
 
 <a id="attribute-detail"></a>
 

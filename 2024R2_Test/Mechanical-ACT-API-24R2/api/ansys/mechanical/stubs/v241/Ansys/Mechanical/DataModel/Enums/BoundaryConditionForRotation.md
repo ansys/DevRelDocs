@@ -1,6 +1,6 @@
 # `BoundaryConditionForRotation`
 
-
+<a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.BoundaryConditionForRotation"></a>
 
 #### *class* ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.BoundaryConditionForRotation
 
@@ -17,10 +17,10 @@ Specifies the BoundaryConditionForRotation.
 ### Attributes
 
 | Name |
-| ------------------------------------------------------------------------------------------------------------------------------------------ |
-| [`Free`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/BoundaryConditionForRotation.md#BoundaryConditionForRotation.Free) |
-| [`Moment`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/BoundaryConditionForRotation.md#BoundaryConditionForRotation.Moment) |
-| [`Rotation`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/BoundaryConditionForRotation.md#BoundaryConditionForRotation.Rotation) |
+| ------------------------------------------------------ |
+| [`Free`](#BoundaryConditionForRotation.Free) |
+| [`Moment`](#BoundaryConditionForRotation.Moment) |
+| [`Rotation`](#BoundaryConditionForRotation.Rotation) |
 
 <a id="attribute-detail"></a>
 

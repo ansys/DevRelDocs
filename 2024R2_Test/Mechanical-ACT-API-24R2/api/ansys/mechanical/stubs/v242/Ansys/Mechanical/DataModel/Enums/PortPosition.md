@@ -1,6 +1,6 @@
 # `PortPosition`
 
-
+<a id="ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.PortPosition"></a>
 
 #### *class* ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.PortPosition
 
@@ -17,7 +17,7 @@ Specifies the PortPosition.
 ### Attributes
 
 | Name |
-| ---------------------------------------- |
+| ------------------------------------------------------------------------------------------------------------ |
 | [`Exterior`](#PortPosition.Exterior) |
 | [`Interior`](#PortPosition.Interior) |
 

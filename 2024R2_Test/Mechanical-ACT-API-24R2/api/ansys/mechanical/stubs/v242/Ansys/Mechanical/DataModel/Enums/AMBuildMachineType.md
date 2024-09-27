@@ -1,6 +1,6 @@
 # `AMBuildMachineType`
 
-
+<a id="ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.AMBuildMachineType"></a>
 
 #### *class* ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.AMBuildMachineType
 
@@ -17,7 +17,7 @@ Specifies the AMBuildMachineType.
 ### Attributes
 
 | Name |
-| ---------------------------------------------- |
+| ------------------------------------------------------------------------------------------------------------------------ |
 | [`Ai`](#AMBuildMachineType.Ai) |
 | [`Eos`](#AMBuildMachineType.Eos) |
 | [`Hb3d`](#AMBuildMachineType.Hb3d) |

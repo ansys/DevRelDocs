@@ -1,6 +1,6 @@
 # `PreStressMode`
 
-
+<a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.PreStressMode"></a>
 
 #### *class* ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.PreStressMode
 
@@ -17,9 +17,9 @@ Specifies the PreStressMode.
 ### Attributes
 
 | Name |
-| ------------------------------------------------------------------------------------------------------------------------ |
-| [`Displacements`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/PreStressMode.md#PreStressMode.Displacements) |
-| [`MaterialState`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/PreStressMode.md#PreStressMode.MaterialState) |
+| --------------------------------------------------- |
+| [`Displacements`](#PreStressMode.Displacements) |
+| [`MaterialState`](#PreStressMode.MaterialState) |
 
 <a id="attribute-detail"></a>
 

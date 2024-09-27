@@ -1,6 +1,6 @@
 # `BeamEndReleaseBehavior`
 
-
+<a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.BeamEndReleaseBehavior"></a>
 
 #### *class* ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.BeamEndReleaseBehavior
 
@@ -17,9 +17,9 @@ Specifies the BeamEndReleaseBehavior.
 ### Attributes
 
 | Name |
-| ------------------------------------------------------------------------------------------------------------------------------ |
-| [`Coupled`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/BeamEndReleaseBehavior.md#BeamEndReleaseBehavior.Coupled) |
-| [`Joint`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/BeamEndReleaseBehavior.md#BeamEndReleaseBehavior.Joint) |
+| ------------------------------------------------ |
+| [`Coupled`](#BeamEndReleaseBehavior.Coupled) |
+| [`Joint`](#BeamEndReleaseBehavior.Joint) |
 
 <a id="attribute-detail"></a>
 

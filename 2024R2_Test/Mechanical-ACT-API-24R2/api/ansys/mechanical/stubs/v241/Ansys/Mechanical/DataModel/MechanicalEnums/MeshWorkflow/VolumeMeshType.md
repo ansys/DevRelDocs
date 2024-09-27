@@ -1,12 +1,12 @@
 # `VolumeMeshType`
 
-
+<a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.MechanicalEnums.MeshWorkflow.VolumeMeshType"></a>
 
 #### *class* ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.MechanicalEnums.MeshWorkflow.VolumeMeshType
 
 Bases: [`enum.Enum`](https://docs.python.org/3/library/enum.html#enum.Enum)
 
-This enum is referenced in the ìControlî tree node and reflects the type of volume mesh being configured.
+This enum is referenced in the ‚ÄúControl‚Äù tree node and reflects the type of volume mesh being configured.
 
 <!-- !! processed by numpydoc !! -->
 
@@ -17,9 +17,9 @@ This enum is referenced in the ìControlî tree node and reflects the type of volu
 ### Attributes
 
 | Name |
-| ---------------------------------------------------------------------------------------------------------------------------------------------- |
-| [`HexCore`](../../../../../../v242/Ansys/Mechanical/DataModel/MechanicalEnums/MeshWorkflow/VolumeMeshType.md#VolumeMeshType.HexCore) |
-| [`Tetrahedral`](../../../../../../v242/Ansys/Mechanical/DataModel/MechanicalEnums/MeshWorkflow/VolumeMeshType.md#VolumeMeshType.Tetrahedral) |
+| ---------------------------------------------- |
+| [`HexCore`](#VolumeMeshType.HexCore) |
+| [`Tetrahedral`](#VolumeMeshType.Tetrahedral) |
 
 <a id="attribute-detail"></a>
 

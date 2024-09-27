@@ -1,6 +1,6 @@
 # `LayeredSectionWorksheet`
 
-
+<a id="ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.LayeredSectionWorksheet"></a>
 
 #### *class* ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.LayeredSectionWorksheet
 
@@ -17,27 +17,29 @@ LayeredSectionWorksheet class.
 ### Methods
 
 | Name | Description |
-|-----------------------------|------------------------------------------------------------------------|
-| `AddThicknessLayer`         | Add a row to the LayeredSectionWorksheet                               |
-| `InsertThicknessLayerAbove` | Insert a new layer to the LayeredSectionWorksheet                      |
-| `InsertThicknessLayerBelow` | Insert a new layer to the LayeredSectionWorksheet                      |
-| `DeleteRow`                 | Delete a row from the LayeredSectionWorksheet                          |
-| `SetThickness`              | Set the thickness for the LayeredSection at the row index specifiied.  |
-| `SetAngle`                  | Set the angle for the LayeredSection at the row index specifiied.      |
-| `SetMaterial`               | Set the material for the LayeredSection at the row index specifiied.   |
-| `GetThickness`              | Gets the thickness for the LayeredSection at the row index specifiied. |
-| `GetAngle`                  | Gets the angle for the LayeredSection at the row index specifiied.     |
-| `GetMaterial`               | Gets the material for the LayeredSection at the row index specifiied.  |
+|-----------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------|
+| [`AddThicknessLayer`](#LayeredSectionWorksheet.AddThicknessLayer)                 | Add a row to the LayeredSectionWorksheet                               |
+| [`DeleteRow`](#LayeredSectionWorksheet.DeleteRow)                                 | Delete a row from the LayeredSectionWorksheet                          |
+| [`GetAngle`](#LayeredSectionWorksheet.GetAngle)                                   | Gets the angle for the LayeredSection at the row index specifiied.     |
+| [`GetMaterial`](#LayeredSectionWorksheet.GetMaterial)                             | Gets the material for the LayeredSection at the row index specifiied.  |
+| [`GetThickness`](#LayeredSectionWorksheet.GetThickness)                           | Gets the thickness for the LayeredSection at the row index specifiied. |
+| [`InsertThicknessLayerAbove`](#LayeredSectionWorksheet.InsertThicknessLayerAbove) | Insert a new layer to the LayeredSectionWorksheet                      |
+| [`InsertThicknessLayerBelow`](#LayeredSectionWorksheet.InsertThicknessLayerBelow) | Insert a new layer to the LayeredSectionWorksheet                      |
+| [`SetAngle`](#LayeredSectionWorksheet.SetAngle)                                   | Set the angle for the LayeredSection at the row index specifiied.      |
+| [`SetMaterial`](#LayeredSectionWorksheet.SetMaterial)                             | Set the material for the LayeredSection at the row index specifiied.   |
+| [`SetThickness`](#LayeredSectionWorksheet.SetThickness)                           | Set the thickness for the LayeredSection at the row index specifiied.  |
 
 ### Properties
 
 | Name | Description |
-|--------------|-------------------------------------------------------|
-| `RowCount`   | Gets the number of entries (rows) in the worksheet.   |
+|---------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------|
+| [`RowCount`](#LayeredSectionWorksheet.RowCount)   | Gets the number of entries (rows) in the worksheet.   |
 
 <a id="property-detail"></a>
 
 ## Property detail
+
+<a id="LayeredSectionWorksheet.RowCount"></a>
 
 ### *property* LayeredSectionWorksheet.RowCount *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -49,6 +51,8 @@ Gets the number of entries (rows) in the worksheet.
 
 ## Method detail
 
+<a id="LayeredSectionWorksheet.AddThicknessLayer"></a>
+
 ### LayeredSectionWorksheet.AddThicknessLayer(materialname: System.String, thickness: System.Double, angle: System.Double)
 
 ```text
@@ -58,6 +62,52 @@ LayeredSectionWorksheet indices are zero based and ordered in the Z direction.
 ```
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="LayeredSectionWorksheet.DeleteRow"></a>
+
+### LayeredSectionWorksheet.DeleteRow(index: System.Int32)
+
+```text
+Delete a row from the LayeredSectionWorksheet
+LayeredSectionWorksheet indices are zero based and ordered in the Z direction.
+```
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="LayeredSectionWorksheet.GetAngle"></a>
+
+### LayeredSectionWorksheet.GetAngle(index: System.Int32)
+
+```text
+Gets the angle for the LayeredSection at the row index specifiied.
+LayeredSectionWorksheet indices are zero based and ordered in the Z direction.
+```
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="LayeredSectionWorksheet.GetMaterial"></a>
+
+### LayeredSectionWorksheet.GetMaterial(index: System.Int32)
+
+```text
+Gets the material for the LayeredSection at the row index specifiied.
+LayeredSectionWorksheet indices are zero based and ordered in the Z direction.
+```
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="LayeredSectionWorksheet.GetThickness"></a>
+
+### LayeredSectionWorksheet.GetThickness(index: System.Int32)
+
+```text
+Gets the thickness for the LayeredSection at the row index specifiied.
+LayeredSectionWorksheet indices are zero based and ordered in the Z direction.
+```
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="LayeredSectionWorksheet.InsertThicknessLayerAbove"></a>
 
 ### LayeredSectionWorksheet.InsertThicknessLayerAbove(materialname: System.String, thickness: System.Double, angle: System.Double, index: System.Int32)
 
@@ -69,6 +119,8 @@ LayeredSectionWorksheet indices are zero based and ordered in the Z direction.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="LayeredSectionWorksheet.InsertThicknessLayerBelow"></a>
+
 ### LayeredSectionWorksheet.InsertThicknessLayerBelow(materialname: System.String, thickness: System.Double, angle: System.Double, index: System.Int32)
 
 ```text
@@ -79,23 +131,7 @@ LayeredSectionWorksheet indices are zero based and ordered in the Z direction.
 
 <!-- !! processed by numpydoc !! -->
 
-### LayeredSectionWorksheet.DeleteRow(index: System.Int32)
-
-```text
-Delete a row from the LayeredSectionWorksheet
-LayeredSectionWorksheet indices are zero based and ordered in the Z direction.
-```
-
-<!-- !! processed by numpydoc !! -->
-
-### LayeredSectionWorksheet.SetThickness(index: System.Int32, thickness: System.Double)
-
-```text
-Set the thickness for the LayeredSection at the row index specifiied.
-LayeredSectionWorksheet indices are zero based and ordered in the Z direction.
-```
-
-<!-- !! processed by numpydoc !! -->
+<a id="LayeredSectionWorksheet.SetAngle"></a>
 
 ### LayeredSectionWorksheet.SetAngle(index: System.Int32, angle: System.Double)
 
@@ -106,6 +142,8 @@ LayeredSectionWorksheet indices are zero based and ordered in the Z direction.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="LayeredSectionWorksheet.SetMaterial"></a>
+
 ### LayeredSectionWorksheet.SetMaterial(index: System.Int32, materialname: System.String)
 
 ```text
@@ -115,28 +153,12 @@ LayeredSectionWorksheet indices are zero based and ordered in the Z direction.
 
 <!-- !! processed by numpydoc !! -->
 
-### LayeredSectionWorksheet.GetThickness(index: System.Int32)
+<a id="LayeredSectionWorksheet.SetThickness"></a>
+
+### LayeredSectionWorksheet.SetThickness(index: System.Int32, thickness: System.Double)
 
 ```text
-Gets the thickness for the LayeredSection at the row index specifiied.
-LayeredSectionWorksheet indices are zero based and ordered in the Z direction.
-```
-
-<!-- !! processed by numpydoc !! -->
-
-### LayeredSectionWorksheet.GetAngle(index: System.Int32)
-
-```text
-Gets the angle for the LayeredSection at the row index specifiied.
-LayeredSectionWorksheet indices are zero based and ordered in the Z direction.
-```
-
-<!-- !! processed by numpydoc !! -->
-
-### LayeredSectionWorksheet.GetMaterial(index: System.Int32)
-
-```text
-Gets the material for the LayeredSection at the row index specifiied.
+Set the thickness for the LayeredSection at the row index specifiied.
 LayeredSectionWorksheet indices are zero based and ordered in the Z direction.
 ```
 

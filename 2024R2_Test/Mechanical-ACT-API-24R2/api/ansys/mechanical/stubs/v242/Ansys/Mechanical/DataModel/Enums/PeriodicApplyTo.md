@@ -1,6 +1,6 @@
 # `PeriodicApplyTo`
 
-
+<a id="ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.PeriodicApplyTo"></a>
 
 #### *class* ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.PeriodicApplyTo
 
@@ -17,7 +17,7 @@ Specifies the PeriodicApplyTo.
 ### Attributes
 
 | Name |
-| ----------------------------------------------------- |
+| ---------------------------------------------------------------------------------------------------------------------------- |
 | [`ApplicableDOF`](#PeriodicApplyTo.ApplicableDOF) |
 | [`Displacement`](#PeriodicApplyTo.Displacement) |
 | [`Voltage`](#PeriodicApplyTo.Voltage) |

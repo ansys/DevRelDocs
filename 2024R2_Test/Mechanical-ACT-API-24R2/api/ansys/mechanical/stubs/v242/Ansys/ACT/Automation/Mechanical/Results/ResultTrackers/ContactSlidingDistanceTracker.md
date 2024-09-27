@@ -1,6 +1,6 @@
 # `ContactSlidingDistanceTracker`
 
-
+<a id="ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Results.ResultTrackers.ContactSlidingDistanceTracker"></a>
 
 #### *class* ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Results.ResultTrackers.ContactSlidingDistanceTracker
 
@@ -17,122 +17,94 @@ Defines a ContactSlidingDistanceTracker.
 ### Methods
 
 | Name | Description |
-|---------------------------|-----------------------------------------------------------------------------------|
-| `ExportAnimation`         | Run the ExportAnimation action.                                                   |
-| `ClearGeneratedData`      | Run the ClearGeneratedData action.                                                |
-| `EvaluateAllResults`      | Run the EvaluateAllResults action.                                                |
-| `RenameBasedOnDefinition` | Run the RenameBasedOnDefinition action.                                           |
-| `Delete`                  | Run the Delete action.                                                            |
-| `GetChildren`             | Gets the list of children, filtered by type.                                      |
-| `GetChildren`             | Gets the list of children, filtered by type.                                      |
-| `AddComment`              | Creates a new child Comment.                                                      |
-| `AddImage`                | Creates a new child Image.                                                        |
-| `Activate`                | Activate the current object.                                                      |
-| `CopyTo`                  | Copies all visible properties from this object to another.                        |
-| `Duplicate`               | Creates a copy of the current DataModelObject.                                    |
-| `GroupAllSimilarChildren` | Run the GroupAllSimilarChildren action.                                           |
-| `GroupSimilarObjects`     | Run the GroupSimilarObjects action.                                               |
-| `PropertyByName`          | Get a property by its unique name.                                                |
-| `PropertyByAPIName`       | Get a property by its API name.                                                   |
-| `CreateParameter`         | Creates a new parameter for a Property.                                           |
-| `GetParameter`            | Gets the parameter corresponding to the given property.                           |
-| `RemoveParameter`         | Removes the parameter from the parameter set corresponding to the given property. |
+|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------|
+| [`Activate`](#ContactSlidingDistanceTracker.Activate)                               | Activate the current object.                                                      |
+| [`AddComment`](#ContactSlidingDistanceTracker.AddComment)                           | Creates a new child Comment.                                                      |
+| [`AddImage`](#ContactSlidingDistanceTracker.AddImage)                               | Creates a new child Image.                                                        |
+| [`ClearGeneratedData`](#ContactSlidingDistanceTracker.ClearGeneratedData)           | Run the ClearGeneratedData action.                                                |
+| [`CopyTo`](#ContactSlidingDistanceTracker.CopyTo)                                   | Copies all visible properties from this object to another.                        |
+| [`CreateParameter`](#ContactSlidingDistanceTracker.CreateParameter)                 | Creates a new parameter for a Property.                                           |
+| [`Delete`](#ContactSlidingDistanceTracker.Delete)                                   | Run the Delete action.                                                            |
+| [`Duplicate`](#ContactSlidingDistanceTracker.Duplicate)                             | Creates a copy of the current DataModelObject.                                    |
+| [`EvaluateAllResults`](#ContactSlidingDistanceTracker.EvaluateAllResults)           | Run the EvaluateAllResults action.                                                |
+| [`ExportAnimation`](#ContactSlidingDistanceTracker.ExportAnimation)                 | Run the ExportAnimation action.                                                   |
+| [`GetChildren`](#ContactSlidingDistanceTracker.GetChildren)                         | Gets the list of children, filtered by type.                                      |
+| [`GetParameter`](#ContactSlidingDistanceTracker.GetParameter)                       | Gets the parameter corresponding to the given property.                           |
+| [`GroupAllSimilarChildren`](#ContactSlidingDistanceTracker.GroupAllSimilarChildren) | Run the GroupAllSimilarChildren action.                                           |
+| [`GroupSimilarObjects`](#ContactSlidingDistanceTracker.GroupSimilarObjects)         | Run the GroupSimilarObjects action.                                               |
+| [`PropertyByAPIName`](#ContactSlidingDistanceTracker.PropertyByAPIName)             | Get a property by its API name.                                                   |
+| [`PropertyByName`](#ContactSlidingDistanceTracker.PropertyByName)                   | Get a property by its unique name.                                                |
+| [`RemoveParameter`](#ContactSlidingDistanceTracker.RemoveParameter)                 | Removes the parameter from the parameter set corresponding to the given property. |
+| [`RenameBasedOnDefinition`](#ContactSlidingDistanceTracker.RenameBasedOnDefinition) | Run the RenameBasedOnDefinition action.                                           |
 
 ### Properties
 
 | Name | Description |
-|-------------------------------|---------------------------------------------------------------|
-| `InternalObject`              | Gets the internal object. For advanced usage only.            |
-| `ContactSide`                 | Gets or sets the ContactSide.                                 |
-| `ContactRegion`               | Gets or sets the ContactRegion.                               |
-| `DataModelObjectCategory`     | Gets the current DataModelObject's category.                  |
-| `IsSolved`                    | Gets the IsSolved.                                            |
-| `ChartDimensions`             | Gets or sets the Chart Dimensions                             |
-| `BoundaryCondition`           | Gets or sets the BoundaryCondition.                           |
-| `CutFrequency`                | Gets or sets the CutFrequency.                                |
-| `SectorNumber`                | Gets or sets the SectorNumber.                                |
-| `GeometrySelectionString`     | Gets or sets the GeometrySelectionString.                     |
-| `LoadStepNumber`              | Gets or sets the LoadStepNumber.                              |
-| `ReportedFrequency`           | Gets the ReportedFrequency.                                   |
-| `Duration`                    | Gets or sets the Duration.                                    |
-| `FilterMaximum`               | Gets the FilterMaximum.                                       |
-| `FilterMinimum`               | Gets the FilterMinimum.                                       |
-| `FrequencyAtMaximumAmplitude` | Gets the FrequencyAtMaximumAmplitude.                         |
-| `ImaginaryAtMaximumAmplitude` | Gets the ImaginaryAtMaximumAmplitude.                         |
-| `MaximumAmplitude`            | Gets the MaximumAmplitude.                                    |
-| `MaximumFrequency`            | Gets or sets the MaximumFrequency.                            |
-| `Maximum`                     | Gets the Maximum.                                             |
-| `MinimumFrequency`            | Gets or sets the MinimumFrequency.                            |
-| `Minimum`                     | Gets the Minimum.                                             |
-| `PhaseAngle`                  | Gets the PhaseAngle.                                          |
-| `RealAtMaximumAmplitude`      | Gets the RealAtMaximumAmplitude.                              |
-| `RequestedFrequency`          | Gets or sets the RequestedFrequency.                          |
-| `AccelerationType`            | Gets or sets the AccelerationType.                            |
-| `ChartViewingStyle`           | Gets or sets the ChartViewingStyle.                           |
-| `DeformationType`             | Gets or sets the DeformationType.                             |
-| `FilterType`                  | Gets or sets the FilterType.                                  |
-| `SpatialResolution`           | Gets or sets the SpatialResolution.                           |
-| `NormalOrientation`           | Gets or sets the NormalOrientation.                           |
-| `CurvesAppearanceDisplay`     | Gets or sets the CurvesAppearanceDisplay.                     |
-| `ResultChartType`             | Gets the ResultChartType.                                     |
-| `DpfEvaluation`               | Gets or sets the DpfEvaluation.                               |
-| `XAxisValues`                 | Gets or sets the XAxisValues.                                 |
-| `ShearOrientation`            | Gets or sets the ShearOrientation.                            |
-| `StressStrainType`            | Gets or sets the StressStrainType.                            |
-| `TimeHistoryDisplay`          | Gets or sets the TimeHistoryDisplay.                          |
-| `VelocityType`                | Gets or sets the VelocityType.                                |
-| `Suppressed`                  | Gets or sets the Suppressed.                                  |
-| `EnhancedTracking`            | Gets the EnhancedTracking.                                    |
-| `UseParentFrequencyRange`     | Gets or sets the UseParentFrequencyRange.                     |
-| `CoordinateSystem`            | Gets or sets the CoordinateSystem.                            |
-| `Spring`                      | Gets or sets the Spring.                                      |
-| `Location`                    | Gets or sets the Location.                                    |
-| `Children`                    | Gets the list of children.                                    |
-| `Comments`                    | Gets the list of associated comments.                         |
-| `Images`                      | Gets the list of associated images.                           |
-| `InternalObject`              | Gets the internal object. For advanced usage only.            |
-| `Properties`                  | Gets the list of properties for this object.                  |
-| `VisibleProperties`           | Gets the list of properties that are visible for this object. |
+|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------|
+| [`AccelerationType`](#ContactSlidingDistanceTracker.AccelerationType)                       | Gets or sets the AccelerationType.                            |
+| [`BoundaryCondition`](#ContactSlidingDistanceTracker.BoundaryCondition)                     | Gets or sets the BoundaryCondition.                           |
+| [`ChartDimensions`](#ContactSlidingDistanceTracker.ChartDimensions)                         | Gets or sets the Chart Dimensions                             |
+| [`ChartViewingStyle`](#ContactSlidingDistanceTracker.ChartViewingStyle)                     | Gets or sets the ChartViewingStyle.                           |
+| [`Children`](#ContactSlidingDistanceTracker.Children)                                       | Gets the list of children.                                    |
+| [`Comments`](#ContactSlidingDistanceTracker.Comments)                                       | Gets the list of associated comments.                         |
+| [`ContactRegion`](#ContactSlidingDistanceTracker.ContactRegion)                             | Gets or sets the ContactRegion.                               |
+| [`ContactSide`](#ContactSlidingDistanceTracker.ContactSide)                                 | Gets or sets the ContactSide.                                 |
+| [`CoordinateSystem`](#ContactSlidingDistanceTracker.CoordinateSystem)                       | Gets or sets the CoordinateSystem.                            |
+| [`CurvesAppearanceDisplay`](#ContactSlidingDistanceTracker.CurvesAppearanceDisplay)         | Gets or sets the CurvesAppearanceDisplay.                     |
+| [`CutFrequency`](#ContactSlidingDistanceTracker.CutFrequency)                               | Gets or sets the CutFrequency.                                |
+| [`DataModelObjectCategory`](#ContactSlidingDistanceTracker.DataModelObjectCategory)         | Gets the current DataModelObject’s category.                  |
+| [`DeformationType`](#ContactSlidingDistanceTracker.DeformationType)                         | Gets or sets the DeformationType.                             |
+| [`DpfEvaluation`](#ContactSlidingDistanceTracker.DpfEvaluation)                             | Gets or sets the DpfEvaluation.                               |
+| [`Duration`](#ContactSlidingDistanceTracker.Duration)                                       | Gets or sets the Duration.                                    |
+| [`EnhancedTracking`](#ContactSlidingDistanceTracker.EnhancedTracking)                       | Gets the EnhancedTracking.                                    |
+| [`FilterMaximum`](#ContactSlidingDistanceTracker.FilterMaximum)                             | Gets the FilterMaximum.                                       |
+| [`FilterMinimum`](#ContactSlidingDistanceTracker.FilterMinimum)                             | Gets the FilterMinimum.                                       |
+| [`FilterType`](#ContactSlidingDistanceTracker.FilterType)                                   | Gets or sets the FilterType.                                  |
+| [`FrequencyAtMaximumAmplitude`](#ContactSlidingDistanceTracker.FrequencyAtMaximumAmplitude) | Gets the FrequencyAtMaximumAmplitude.                         |
+| [`GeometrySelectionString`](#ContactSlidingDistanceTracker.GeometrySelectionString)         | Gets or sets the GeometrySelectionString.                     |
+| [`Images`](#ContactSlidingDistanceTracker.Images)                                           | Gets the list of associated images.                           |
+| [`ImaginaryAtMaximumAmplitude`](#ContactSlidingDistanceTracker.ImaginaryAtMaximumAmplitude) | Gets the ImaginaryAtMaximumAmplitude.                         |
+| [`InternalObject`](#ContactSlidingDistanceTracker.InternalObject)                           | Gets the internal object. For advanced usage only.            |
+| [`IsSolved`](#ContactSlidingDistanceTracker.IsSolved)                                       | Gets the IsSolved.                                            |
+| [`LoadStepNumber`](#ContactSlidingDistanceTracker.LoadStepNumber)                           | Gets or sets the LoadStepNumber.                              |
+| [`Location`](#ContactSlidingDistanceTracker.Location)                                       | Gets or sets the Location.                                    |
+| [`Maximum`](#ContactSlidingDistanceTracker.Maximum)                                         | Gets the Maximum.                                             |
+| [`MaximumAmplitude`](#ContactSlidingDistanceTracker.MaximumAmplitude)                       | Gets the MaximumAmplitude.                                    |
+| [`MaximumFrequency`](#ContactSlidingDistanceTracker.MaximumFrequency)                       | Gets or sets the MaximumFrequency.                            |
+| [`Minimum`](#ContactSlidingDistanceTracker.Minimum)                                         | Gets the Minimum.                                             |
+| [`MinimumFrequency`](#ContactSlidingDistanceTracker.MinimumFrequency)                       | Gets or sets the MinimumFrequency.                            |
+| [`NormalOrientation`](#ContactSlidingDistanceTracker.NormalOrientation)                     | Gets or sets the NormalOrientation.                           |
+| [`PhaseAngle`](#ContactSlidingDistanceTracker.PhaseAngle)                                   | Gets the PhaseAngle.                                          |
+| [`Properties`](#ContactSlidingDistanceTracker.Properties)                                   | Gets the list of properties for this object.                  |
+| [`RealAtMaximumAmplitude`](#ContactSlidingDistanceTracker.RealAtMaximumAmplitude)           | Gets the RealAtMaximumAmplitude.                              |
+| [`ReportedFrequency`](#ContactSlidingDistanceTracker.ReportedFrequency)                     | Gets the ReportedFrequency.                                   |
+| [`RequestedFrequency`](#ContactSlidingDistanceTracker.RequestedFrequency)                   | Gets or sets the RequestedFrequency.                          |
+| [`ResultChartType`](#ContactSlidingDistanceTracker.ResultChartType)                         | Gets the ResultChartType.                                     |
+| [`SectorNumber`](#ContactSlidingDistanceTracker.SectorNumber)                               | Gets or sets the SectorNumber.                                |
+| [`ShearOrientation`](#ContactSlidingDistanceTracker.ShearOrientation)                       | Gets or sets the ShearOrientation.                            |
+| [`SpatialResolution`](#ContactSlidingDistanceTracker.SpatialResolution)                     | Gets or sets the SpatialResolution.                           |
+| [`Spring`](#ContactSlidingDistanceTracker.Spring)                                           | Gets or sets the Spring.                                      |
+| [`StressStrainType`](#ContactSlidingDistanceTracker.StressStrainType)                       | Gets or sets the StressStrainType.                            |
+| [`Suppressed`](#ContactSlidingDistanceTracker.Suppressed)                                   | Gets or sets the Suppressed.                                  |
+| [`TimeHistoryDisplay`](#ContactSlidingDistanceTracker.TimeHistoryDisplay)                   | Gets or sets the TimeHistoryDisplay.                          |
+| [`UseParentFrequencyRange`](#ContactSlidingDistanceTracker.UseParentFrequencyRange)         | Gets or sets the UseParentFrequencyRange.                     |
+| [`VelocityType`](#ContactSlidingDistanceTracker.VelocityType)                               | Gets or sets the VelocityType.                                |
+| [`VisibleProperties`](#ContactSlidingDistanceTracker.VisibleProperties)                     | Gets the list of properties that are visible for this object. |
+| [`XAxisValues`](#ContactSlidingDistanceTracker.XAxisValues)                                 | Gets or sets the XAxisValues.                                 |
 
 <a id="property-detail"></a>
 
 ## Property detail
 
-### *property* ContactSlidingDistanceTracker.InternalObject *: Ansys.Common.Interop.DSObjectsAuto.IDSResultChartAuto | [None](https://docs.python.org/3/library/constants.html#None)*
+<a id="ContactSlidingDistanceTracker.AccelerationType"></a>
 
-Gets the internal object. For advanced usage only.
+### *property* ContactSlidingDistanceTracker.AccelerationType *: [Ansys.Mechanical.DataModel.Enums.TotalOrDirectional](../../../../../Mechanical/DataModel/Enums/TotalOrDirectional.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.TotalOrDirectional) | [None](https://docs.python.org/3/library/constants.html#None)*
 
-<!-- !! processed by numpydoc !! -->
-
-### *property* ContactSlidingDistanceTracker.ContactSide *: [Ansys.Mechanical.DataModel.Enums.ContactScopingType](../../../../../../../v241/Ansys/Mechanical/DataModel/Enums/ContactScopingType.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.ContactScopingType) | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the ContactSide.
+Gets or sets the AccelerationType.
 
 <!-- !! processed by numpydoc !! -->
 
-### *property* ContactSlidingDistanceTracker.ContactRegion *: [Ansys.ACT.Automation.Mechanical.Connections.ContactRegion](../../../../../../../v241/Ansys/ACT/Automation/Mechanical/Connections/ContactRegion.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Connections.ContactRegion) | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the ContactRegion.
-
-<!-- !! processed by numpydoc !! -->
-
-### *property* ContactSlidingDistanceTracker.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../../../v241/Ansys/Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets the current DataModelObject's category.
-
-<!-- !! processed by numpydoc !! -->
-
-### *property* ContactSlidingDistanceTracker.IsSolved *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets the IsSolved.
-
-<!-- !! processed by numpydoc !! -->
-
-### *property* ContactSlidingDistanceTracker.ChartDimensions *: [Ansys.Mechanical.DataModel.Enums.ChartDimensions](../../../../../../../v241/Ansys/Mechanical/DataModel/Enums/ChartDimensions.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.ChartDimensions) | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the Chart Dimensions
-
-<!-- !! processed by numpydoc !! -->
+<a id="ContactSlidingDistanceTracker.BoundaryCondition"></a>
 
 ### *property* ContactSlidingDistanceTracker.BoundaryCondition *: [Ansys.ACT.Automation.Mechanical.BoundaryConditions.GenericBoundaryCondition](../../../../../../../v241/Ansys/ACT/Automation/Mechanical/BoundaryConditions/GenericBoundaryCondition.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.BoundaryConditions.GenericBoundaryCondition) | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -140,233 +112,23 @@ Gets or sets the BoundaryCondition.
 
 <!-- !! processed by numpydoc !! -->
 
-### *property* ContactSlidingDistanceTracker.CutFrequency *: System.Double | [None](https://docs.python.org/3/library/constants.html#None)*
+<a id="ContactSlidingDistanceTracker.ChartDimensions"></a>
 
-Gets or sets the CutFrequency.
+### *property* ContactSlidingDistanceTracker.ChartDimensions *: [Ansys.Mechanical.DataModel.Enums.ChartDimensions](../../../../../Mechanical/DataModel/Enums/ChartDimensions.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.ChartDimensions) | [None](https://docs.python.org/3/library/constants.html#None)*
 
-<!-- !! processed by numpydoc !! -->
-
-### *property* ContactSlidingDistanceTracker.SectorNumber *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the SectorNumber.
+Gets or sets the Chart Dimensions
 
 <!-- !! processed by numpydoc !! -->
 
-### *property* ContactSlidingDistanceTracker.GeometrySelectionString *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+<a id="ContactSlidingDistanceTracker.ChartViewingStyle"></a>
 
-Gets or sets the GeometrySelectionString.
-
-<!-- !! processed by numpydoc !! -->
-
-### *property* ContactSlidingDistanceTracker.LoadStepNumber *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the LoadStepNumber.
-
-<!-- !! processed by numpydoc !! -->
-
-### *property* ContactSlidingDistanceTracker.ReportedFrequency *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets the ReportedFrequency.
-
-<!-- !! processed by numpydoc !! -->
-
-### *property* ContactSlidingDistanceTracker.Duration *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the Duration.
-
-<!-- !! processed by numpydoc !! -->
-
-### *property* ContactSlidingDistanceTracker.FilterMaximum *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets the FilterMaximum.
-
-<!-- !! processed by numpydoc !! -->
-
-### *property* ContactSlidingDistanceTracker.FilterMinimum *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets the FilterMinimum.
-
-<!-- !! processed by numpydoc !! -->
-
-### *property* ContactSlidingDistanceTracker.FrequencyAtMaximumAmplitude *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets the FrequencyAtMaximumAmplitude.
-
-<!-- !! processed by numpydoc !! -->
-
-### *property* ContactSlidingDistanceTracker.ImaginaryAtMaximumAmplitude *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets the ImaginaryAtMaximumAmplitude.
-
-<!-- !! processed by numpydoc !! -->
-
-### *property* ContactSlidingDistanceTracker.MaximumAmplitude *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets the MaximumAmplitude.
-
-<!-- !! processed by numpydoc !! -->
-
-### *property* ContactSlidingDistanceTracker.MaximumFrequency *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the MaximumFrequency.
-
-<!-- !! processed by numpydoc !! -->
-
-### *property* ContactSlidingDistanceTracker.Maximum *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets the Maximum.
-
-<!-- !! processed by numpydoc !! -->
-
-### *property* ContactSlidingDistanceTracker.MinimumFrequency *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the MinimumFrequency.
-
-<!-- !! processed by numpydoc !! -->
-
-### *property* ContactSlidingDistanceTracker.Minimum *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets the Minimum.
-
-<!-- !! processed by numpydoc !! -->
-
-### *property* ContactSlidingDistanceTracker.PhaseAngle *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets the PhaseAngle.
-
-<!-- !! processed by numpydoc !! -->
-
-### *property* ContactSlidingDistanceTracker.RealAtMaximumAmplitude *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets the RealAtMaximumAmplitude.
-
-<!-- !! processed by numpydoc !! -->
-
-### *property* ContactSlidingDistanceTracker.RequestedFrequency *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the RequestedFrequency.
-
-<!-- !! processed by numpydoc !! -->
-
-### *property* ContactSlidingDistanceTracker.AccelerationType *: [Ansys.Mechanical.DataModel.Enums.TotalOrDirectional](../../../../../../../v241/Ansys/Mechanical/DataModel/Enums/TotalOrDirectional.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.TotalOrDirectional) | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the AccelerationType.
-
-<!-- !! processed by numpydoc !! -->
-
-### *property* ContactSlidingDistanceTracker.ChartViewingStyle *: [Ansys.Mechanical.DataModel.Enums.ChartAxisScaleType](../../../../../../../v241/Ansys/Mechanical/DataModel/Enums/ChartAxisScaleType.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.ChartAxisScaleType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ContactSlidingDistanceTracker.ChartViewingStyle *: [Ansys.Mechanical.DataModel.Enums.ChartAxisScaleType](../../../../../Mechanical/DataModel/Enums/ChartAxisScaleType.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.ChartAxisScaleType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the ChartViewingStyle.
 
 <!-- !! processed by numpydoc !! -->
 
-### *property* ContactSlidingDistanceTracker.DeformationType *: [Ansys.Mechanical.DataModel.Enums.TotalOrDirectional](../../../../../../../v241/Ansys/Mechanical/DataModel/Enums/TotalOrDirectional.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.TotalOrDirectional) | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the DeformationType.
-
-<!-- !! processed by numpydoc !! -->
-
-### *property* ContactSlidingDistanceTracker.FilterType *: [Ansys.Mechanical.DataModel.Enums.FilterType](../../../../../../../v241/Ansys/Mechanical/DataModel/Enums/FilterType.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.FilterType) | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the FilterType.
-
-<!-- !! processed by numpydoc !! -->
-
-### *property* ContactSlidingDistanceTracker.SpatialResolution *: [Ansys.Mechanical.DataModel.Enums.MultipleNodeType](../../../../../../../v241/Ansys/Mechanical/DataModel/Enums/MultipleNodeType.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.MultipleNodeType) | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the SpatialResolution.
-
-<!-- !! processed by numpydoc !! -->
-
-### *property* ContactSlidingDistanceTracker.NormalOrientation *: [Ansys.Mechanical.DataModel.Enums.NormalOrientationType](../../../../../../../v241/Ansys/Mechanical/DataModel/Enums/NormalOrientationType.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.NormalOrientationType) | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the NormalOrientation.
-
-<!-- !! processed by numpydoc !! -->
-
-### *property* ContactSlidingDistanceTracker.CurvesAppearanceDisplay *: [Ansys.Mechanical.DataModel.Enums.ChartPlotStyle](../../../../../../../v241/Ansys/Mechanical/DataModel/Enums/ChartPlotStyle.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.ChartPlotStyle) | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the CurvesAppearanceDisplay.
-
-<!-- !! processed by numpydoc !! -->
-
-### *property* ContactSlidingDistanceTracker.ResultChartType *: [Ansys.Mechanical.DataModel.Enums.ChartResultType](../../../../../../../v241/Ansys/Mechanical/DataModel/Enums/ChartResultType.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.ChartResultType) | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets the ResultChartType.
-
-<!-- !! processed by numpydoc !! -->
-
-### *property* ContactSlidingDistanceTracker.DpfEvaluation *: [Ansys.Mechanical.DataModel.Enums.DpfEvaluationType](../../../../../../../v241/Ansys/Mechanical/DataModel/Enums/DpfEvaluationType.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DpfEvaluationType) | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the DpfEvaluation.
-
-<!-- !! processed by numpydoc !! -->
-
-### *property* ContactSlidingDistanceTracker.XAxisValues *: [Ansys.Mechanical.DataModel.Enums.XAxisValues](../../../../../../../v241/Ansys/Mechanical/DataModel/Enums/XAxisValues.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.XAxisValues) | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the XAxisValues.
-
-<!-- !! processed by numpydoc !! -->
-
-### *property* ContactSlidingDistanceTracker.ShearOrientation *: [Ansys.Mechanical.DataModel.Enums.ShearOrientationType](../../../../../../../v241/Ansys/Mechanical/DataModel/Enums/ShearOrientationType.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.ShearOrientationType) | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the ShearOrientation.
-
-<!-- !! processed by numpydoc !! -->
-
-### *property* ContactSlidingDistanceTracker.StressStrainType *: [Ansys.Mechanical.DataModel.Enums.StressStrainType](../../../../../../../v241/Ansys/Mechanical/DataModel/Enums/StressStrainType.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.StressStrainType) | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the StressStrainType.
-
-<!-- !! processed by numpydoc !! -->
-
-### *property* ContactSlidingDistanceTracker.TimeHistoryDisplay *: [Ansys.Mechanical.DataModel.Enums.TimeHistoryDisplayType](../../../../../../../v241/Ansys/Mechanical/DataModel/Enums/TimeHistoryDisplayType.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.TimeHistoryDisplayType) | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the TimeHistoryDisplay.
-
-<!-- !! processed by numpydoc !! -->
-
-### *property* ContactSlidingDistanceTracker.VelocityType *: [Ansys.Mechanical.DataModel.Enums.TotalOrDirectional](../../../../../../../v241/Ansys/Mechanical/DataModel/Enums/TotalOrDirectional.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.TotalOrDirectional) | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the VelocityType.
-
-<!-- !! processed by numpydoc !! -->
-
-### *property* ContactSlidingDistanceTracker.Suppressed *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the Suppressed.
-
-<!-- !! processed by numpydoc !! -->
-
-### *property* ContactSlidingDistanceTracker.EnhancedTracking *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets the EnhancedTracking.
-
-<!-- !! processed by numpydoc !! -->
-
-### *property* ContactSlidingDistanceTracker.UseParentFrequencyRange *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the UseParentFrequencyRange.
-
-<!-- !! processed by numpydoc !! -->
-
-### *property* ContactSlidingDistanceTracker.CoordinateSystem *: [Ansys.ACT.Automation.Mechanical.CoordinateSystem](../../../../../../../v241/Ansys/ACT/Automation/Mechanical/CoordinateSystem.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.CoordinateSystem) | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the CoordinateSystem.
-
-<!-- !! processed by numpydoc !! -->
-
-### *property* ContactSlidingDistanceTracker.Spring *: [Ansys.ACT.Automation.Mechanical.Connections.Spring](../../../../../../../v241/Ansys/ACT/Automation/Mechanical/Connections/Spring.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Connections.Spring) | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the Spring.
-
-<!-- !! processed by numpydoc !! -->
-
-### *property* ContactSlidingDistanceTracker.Location *: Ansys.ACT.Interfaces.Common.ISelectionInfo | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the Location.
-
-<!-- !! processed by numpydoc !! -->
+<a id="ContactSlidingDistanceTracker.Children"></a>
 
 ### *property* ContactSlidingDistanceTracker.Children *: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -374,11 +136,135 @@ Gets the list of children.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="ContactSlidingDistanceTracker.Comments"></a>
+
 ### *property* ContactSlidingDistanceTracker.Comments *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Comment](../../../../../../../v241/Ansys/ACT/Automation/Mechanical/Comment.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated comments.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="ContactSlidingDistanceTracker.ContactRegion"></a>
+
+### *property* ContactSlidingDistanceTracker.ContactRegion *: [Ansys.ACT.Automation.Mechanical.Connections.ContactRegion](../../../../../../../v241/Ansys/ACT/Automation/Mechanical/Connections/ContactRegion.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Connections.ContactRegion) | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the ContactRegion.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ContactSlidingDistanceTracker.ContactSide"></a>
+
+### *property* ContactSlidingDistanceTracker.ContactSide *: [Ansys.Mechanical.DataModel.Enums.ContactScopingType](../../../../../Mechanical/DataModel/Enums/ContactScopingType.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.ContactScopingType) | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the ContactSide.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ContactSlidingDistanceTracker.CoordinateSystem"></a>
+
+### *property* ContactSlidingDistanceTracker.CoordinateSystem *: [Ansys.ACT.Automation.Mechanical.CoordinateSystem](../../../../../../../v241/Ansys/ACT/Automation/Mechanical/CoordinateSystem.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.CoordinateSystem) | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the CoordinateSystem.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ContactSlidingDistanceTracker.CurvesAppearanceDisplay"></a>
+
+### *property* ContactSlidingDistanceTracker.CurvesAppearanceDisplay *: [Ansys.Mechanical.DataModel.Enums.ChartPlotStyle](../../../../../Mechanical/DataModel/Enums/ChartPlotStyle.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.ChartPlotStyle) | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the CurvesAppearanceDisplay.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ContactSlidingDistanceTracker.CutFrequency"></a>
+
+### *property* ContactSlidingDistanceTracker.CutFrequency *: System.Double | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the CutFrequency.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ContactSlidingDistanceTracker.DataModelObjectCategory"></a>
+
+### *property* ContactSlidingDistanceTracker.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets the current DataModelObject’s category.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ContactSlidingDistanceTracker.DeformationType"></a>
+
+### *property* ContactSlidingDistanceTracker.DeformationType *: [Ansys.Mechanical.DataModel.Enums.TotalOrDirectional](../../../../../Mechanical/DataModel/Enums/TotalOrDirectional.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.TotalOrDirectional) | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the DeformationType.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ContactSlidingDistanceTracker.DpfEvaluation"></a>
+
+### *property* ContactSlidingDistanceTracker.DpfEvaluation *: [Ansys.Mechanical.DataModel.Enums.DpfEvaluationType](../../../../../Mechanical/DataModel/Enums/DpfEvaluationType.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.DpfEvaluationType) | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the DpfEvaluation.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ContactSlidingDistanceTracker.Duration"></a>
+
+### *property* ContactSlidingDistanceTracker.Duration *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the Duration.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ContactSlidingDistanceTracker.EnhancedTracking"></a>
+
+### *property* ContactSlidingDistanceTracker.EnhancedTracking *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets the EnhancedTracking.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ContactSlidingDistanceTracker.FilterMaximum"></a>
+
+### *property* ContactSlidingDistanceTracker.FilterMaximum *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets the FilterMaximum.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ContactSlidingDistanceTracker.FilterMinimum"></a>
+
+### *property* ContactSlidingDistanceTracker.FilterMinimum *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets the FilterMinimum.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ContactSlidingDistanceTracker.FilterType"></a>
+
+### *property* ContactSlidingDistanceTracker.FilterType *: [Ansys.Mechanical.DataModel.Enums.FilterType](../../../../../Mechanical/DataModel/Enums/FilterType.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.FilterType) | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the FilterType.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ContactSlidingDistanceTracker.FrequencyAtMaximumAmplitude"></a>
+
+### *property* ContactSlidingDistanceTracker.FrequencyAtMaximumAmplitude *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets the FrequencyAtMaximumAmplitude.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ContactSlidingDistanceTracker.GeometrySelectionString"></a>
+
+### *property* ContactSlidingDistanceTracker.GeometrySelectionString *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the GeometrySelectionString.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ContactSlidingDistanceTracker.Images"></a>
 
 ### *property* ContactSlidingDistanceTracker.Images *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Image](../../../../../../../v241/Ansys/ACT/Automation/Mechanical/Image.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -386,11 +272,103 @@ Gets the list of associated images.
 
 <!-- !! processed by numpydoc !! -->
 
-### *property* ContactSlidingDistanceTracker.InternalObject *: System.Object | [None](https://docs.python.org/3/library/constants.html#None)*
+<a id="ContactSlidingDistanceTracker.ImaginaryAtMaximumAmplitude"></a>
+
+### *property* ContactSlidingDistanceTracker.ImaginaryAtMaximumAmplitude *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets the ImaginaryAtMaximumAmplitude.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ContactSlidingDistanceTracker.InternalObject"></a>
+
+### *property* ContactSlidingDistanceTracker.InternalObject *: Ansys.Common.Interop.DSObjectsAuto.IDSResultChartAuto | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the internal object. For advanced usage only.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="ContactSlidingDistanceTracker.IsSolved"></a>
+
+### *property* ContactSlidingDistanceTracker.IsSolved *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets the IsSolved.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ContactSlidingDistanceTracker.LoadStepNumber"></a>
+
+### *property* ContactSlidingDistanceTracker.LoadStepNumber *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the LoadStepNumber.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ContactSlidingDistanceTracker.Location"></a>
+
+### *property* ContactSlidingDistanceTracker.Location *: Ansys.ACT.Interfaces.Common.ISelectionInfo | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the Location.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ContactSlidingDistanceTracker.Maximum"></a>
+
+### *property* ContactSlidingDistanceTracker.Maximum *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets the Maximum.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ContactSlidingDistanceTracker.MaximumAmplitude"></a>
+
+### *property* ContactSlidingDistanceTracker.MaximumAmplitude *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets the MaximumAmplitude.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ContactSlidingDistanceTracker.MaximumFrequency"></a>
+
+### *property* ContactSlidingDistanceTracker.MaximumFrequency *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the MaximumFrequency.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ContactSlidingDistanceTracker.Minimum"></a>
+
+### *property* ContactSlidingDistanceTracker.Minimum *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets the Minimum.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ContactSlidingDistanceTracker.MinimumFrequency"></a>
+
+### *property* ContactSlidingDistanceTracker.MinimumFrequency *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the MinimumFrequency.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ContactSlidingDistanceTracker.NormalOrientation"></a>
+
+### *property* ContactSlidingDistanceTracker.NormalOrientation *: [Ansys.Mechanical.DataModel.Enums.NormalOrientationType](../../../../../Mechanical/DataModel/Enums/NormalOrientationType.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.NormalOrientationType) | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the NormalOrientation.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ContactSlidingDistanceTracker.PhaseAngle"></a>
+
+### *property* ContactSlidingDistanceTracker.PhaseAngle *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets the PhaseAngle.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ContactSlidingDistanceTracker.Properties"></a>
 
 ### *property* ContactSlidingDistanceTracker.Properties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -398,9 +376,123 @@ Gets the list of properties for this object.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="ContactSlidingDistanceTracker.RealAtMaximumAmplitude"></a>
+
+### *property* ContactSlidingDistanceTracker.RealAtMaximumAmplitude *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets the RealAtMaximumAmplitude.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ContactSlidingDistanceTracker.ReportedFrequency"></a>
+
+### *property* ContactSlidingDistanceTracker.ReportedFrequency *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets the ReportedFrequency.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ContactSlidingDistanceTracker.RequestedFrequency"></a>
+
+### *property* ContactSlidingDistanceTracker.RequestedFrequency *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the RequestedFrequency.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ContactSlidingDistanceTracker.ResultChartType"></a>
+
+### *property* ContactSlidingDistanceTracker.ResultChartType *: [Ansys.Mechanical.DataModel.Enums.ChartResultType](../../../../../Mechanical/DataModel/Enums/ChartResultType.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.ChartResultType) | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets the ResultChartType.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ContactSlidingDistanceTracker.SectorNumber"></a>
+
+### *property* ContactSlidingDistanceTracker.SectorNumber *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the SectorNumber.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ContactSlidingDistanceTracker.ShearOrientation"></a>
+
+### *property* ContactSlidingDistanceTracker.ShearOrientation *: [Ansys.Mechanical.DataModel.Enums.ShearOrientationType](../../../../../Mechanical/DataModel/Enums/ShearOrientationType.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.ShearOrientationType) | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the ShearOrientation.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ContactSlidingDistanceTracker.SpatialResolution"></a>
+
+### *property* ContactSlidingDistanceTracker.SpatialResolution *: [Ansys.Mechanical.DataModel.Enums.MultipleNodeType](../../../../../Mechanical/DataModel/Enums/MultipleNodeType.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.MultipleNodeType) | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the SpatialResolution.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ContactSlidingDistanceTracker.Spring"></a>
+
+### *property* ContactSlidingDistanceTracker.Spring *: [Ansys.ACT.Automation.Mechanical.Connections.Spring](../../../../../../../v241/Ansys/ACT/Automation/Mechanical/Connections/Spring.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Connections.Spring) | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the Spring.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ContactSlidingDistanceTracker.StressStrainType"></a>
+
+### *property* ContactSlidingDistanceTracker.StressStrainType *: [Ansys.Mechanical.DataModel.Enums.StressStrainType](../../../../../Mechanical/DataModel/Enums/StressStrainType.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.StressStrainType) | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the StressStrainType.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ContactSlidingDistanceTracker.Suppressed"></a>
+
+### *property* ContactSlidingDistanceTracker.Suppressed *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the Suppressed.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ContactSlidingDistanceTracker.TimeHistoryDisplay"></a>
+
+### *property* ContactSlidingDistanceTracker.TimeHistoryDisplay *: [Ansys.Mechanical.DataModel.Enums.TimeHistoryDisplayType](../../../../../Mechanical/DataModel/Enums/TimeHistoryDisplayType.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.TimeHistoryDisplayType) | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the TimeHistoryDisplay.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ContactSlidingDistanceTracker.UseParentFrequencyRange"></a>
+
+### *property* ContactSlidingDistanceTracker.UseParentFrequencyRange *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the UseParentFrequencyRange.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ContactSlidingDistanceTracker.VelocityType"></a>
+
+### *property* ContactSlidingDistanceTracker.VelocityType *: [Ansys.Mechanical.DataModel.Enums.TotalOrDirectional](../../../../../Mechanical/DataModel/Enums/TotalOrDirectional.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.TotalOrDirectional) | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the VelocityType.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ContactSlidingDistanceTracker.VisibleProperties"></a>
+
 ### *property* ContactSlidingDistanceTracker.VisibleProperties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of properties that are visible for this object.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ContactSlidingDistanceTracker.XAxisValues"></a>
+
+### *property* ContactSlidingDistanceTracker.XAxisValues *: [Ansys.Mechanical.DataModel.Enums.XAxisValues](../../../../../Mechanical/DataModel/Enums/XAxisValues.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.XAxisValues) | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the XAxisValues.
 
 <!-- !! processed by numpydoc !! -->
 
@@ -408,53 +500,23 @@ Gets the list of properties that are visible for this object.
 
 ## Method detail
 
-### ContactSlidingDistanceTracker.ExportAnimation(filePath: System.String, format: [Ansys.Mechanical.DataModel.Enums.GraphicsAnimationExportFormat](../../../../../../../v241/Ansys/Mechanical/DataModel/Enums/GraphicsAnimationExportFormat.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.GraphicsAnimationExportFormat), settings: [Ansys.Mechanical.Graphics.AnimationExportSettings](../../../../../../../v241/Ansys/Mechanical/Graphics/AnimationExportSettings.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.Graphics.AnimationExportSettings))
+<a id="ContactSlidingDistanceTracker.Activate"></a>
 
-Run the ExportAnimation action.
+### ContactSlidingDistanceTracker.Activate()
 
-<!-- !! processed by numpydoc !! -->
-
-### ContactSlidingDistanceTracker.ClearGeneratedData()
-
-Run the ClearGeneratedData action.
+Activate the current object.
 
 <!-- !! processed by numpydoc !! -->
 
-### ContactSlidingDistanceTracker.EvaluateAllResults()
-
-Run the EvaluateAllResults action.
-
-<!-- !! processed by numpydoc !! -->
-
-### ContactSlidingDistanceTracker.RenameBasedOnDefinition()
-
-Run the RenameBasedOnDefinition action.
-
-<!-- !! processed by numpydoc !! -->
-
-### ContactSlidingDistanceTracker.Delete()
-
-Run the Delete action.
-
-<!-- !! processed by numpydoc !! -->
-
-### ContactSlidingDistanceTracker.GetChildren(recurses: System.Boolean, children: System.Collections.Generic.IList[ChildrenType])
-
-Gets the list of children, filtered by type.
-
-<!-- !! processed by numpydoc !! -->
-
-### ContactSlidingDistanceTracker.GetChildren(category: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../../../v241/Ansys/Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory), recurses: System.Boolean, children: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject])
-
-Gets the list of children, filtered by type.
-
-<!-- !! processed by numpydoc !! -->
+<a id="ContactSlidingDistanceTracker.AddComment"></a>
 
 ### ContactSlidingDistanceTracker.AddComment()
 
 Creates a new child Comment.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="ContactSlidingDistanceTracker.AddImage"></a>
 
 ### ContactSlidingDistanceTracker.AddImage(filePath: System.String)
 
@@ -466,11 +528,15 @@ if not, the image will be a screen capture of the Geometry window.
 
 <!-- !! processed by numpydoc !! -->
 
-### ContactSlidingDistanceTracker.Activate()
+<a id="ContactSlidingDistanceTracker.ClearGeneratedData"></a>
 
-Activate the current object.
+### ContactSlidingDistanceTracker.ClearGeneratedData()
+
+Run the ClearGeneratedData action.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="ContactSlidingDistanceTracker.CopyTo"></a>
 
 ### ContactSlidingDistanceTracker.CopyTo(other: Ansys.ACT.Automation.Mechanical.DataModelObject)
 
@@ -478,11 +544,63 @@ Copies all visible properties from this object to another.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="ContactSlidingDistanceTracker.CreateParameter"></a>
+
+### ContactSlidingDistanceTracker.CreateParameter(propName: System.String)
+
+Creates a new parameter for a Property.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ContactSlidingDistanceTracker.Delete"></a>
+
+### ContactSlidingDistanceTracker.Delete()
+
+Run the Delete action.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ContactSlidingDistanceTracker.Duplicate"></a>
+
 ### ContactSlidingDistanceTracker.Duplicate()
 
 Creates a copy of the current DataModelObject.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="ContactSlidingDistanceTracker.EvaluateAllResults"></a>
+
+### ContactSlidingDistanceTracker.EvaluateAllResults()
+
+Run the EvaluateAllResults action.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ContactSlidingDistanceTracker.ExportAnimation"></a>
+
+### ContactSlidingDistanceTracker.ExportAnimation(filePath: System.String, format: [Ansys.Mechanical.DataModel.Enums.GraphicsAnimationExportFormat](../../../../../Mechanical/DataModel/Enums/GraphicsAnimationExportFormat.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.GraphicsAnimationExportFormat), settings: [Ansys.Mechanical.Graphics.AnimationExportSettings](../../../../../Mechanical/Graphics/AnimationExportSettings.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.Graphics.AnimationExportSettings))
+
+Run the ExportAnimation action.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ContactSlidingDistanceTracker.GetChildren"></a>
+
+### ContactSlidingDistanceTracker.GetChildren(recurses: System.Boolean, children: System.Collections.Generic.IList[ChildrenType])
+
+Gets the list of children, filtered by type.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ContactSlidingDistanceTracker.GetParameter"></a>
+
+### ContactSlidingDistanceTracker.GetParameter(propName: System.String)
+
+Gets the parameter corresponding to the given property.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ContactSlidingDistanceTracker.GroupAllSimilarChildren"></a>
 
 ### ContactSlidingDistanceTracker.GroupAllSimilarChildren()
 
@@ -490,17 +608,15 @@ Run the GroupAllSimilarChildren action.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="ContactSlidingDistanceTracker.GroupSimilarObjects"></a>
+
 ### ContactSlidingDistanceTracker.GroupSimilarObjects()
 
 Run the GroupSimilarObjects action.
 
 <!-- !! processed by numpydoc !! -->
 
-### ContactSlidingDistanceTracker.PropertyByName(name: System.String)
-
-Get a property by its unique name.
-
-<!-- !! processed by numpydoc !! -->
+<a id="ContactSlidingDistanceTracker.PropertyByAPIName"></a>
 
 ### ContactSlidingDistanceTracker.PropertyByAPIName(name: System.String)
 
@@ -511,21 +627,27 @@ If multiple properties have the same API Name, only the first property with that
 
 <!-- !! processed by numpydoc !! -->
 
-### ContactSlidingDistanceTracker.CreateParameter(propName: System.String)
+<a id="ContactSlidingDistanceTracker.PropertyByName"></a>
 
-Creates a new parameter for a Property.
+### ContactSlidingDistanceTracker.PropertyByName(name: System.String)
 
-<!-- !! processed by numpydoc !! -->
-
-### ContactSlidingDistanceTracker.GetParameter(propName: System.String)
-
-Gets the parameter corresponding to the given property.
+Get a property by its unique name.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="ContactSlidingDistanceTracker.RemoveParameter"></a>
 
 ### ContactSlidingDistanceTracker.RemoveParameter(propName: System.String)
 
 Removes the parameter from the parameter set corresponding to the given property.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ContactSlidingDistanceTracker.RenameBasedOnDefinition"></a>
+
+### ContactSlidingDistanceTracker.RenameBasedOnDefinition()
+
+Run the RenameBasedOnDefinition action.
 
 <!-- !! processed by numpydoc !! -->
 

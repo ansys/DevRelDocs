@@ -1,6 +1,6 @@
 # `CondensedPartExpansionState`
 
-
+<a id="ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.CondensedPartExpansionState"></a>
 
 #### *class* ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.CondensedPartExpansionState
 
@@ -17,23 +17,27 @@ CondensedPartExpansionState class.
 ### Properties
 
 | Name | Description |
-|----------------|----------------------------------------|
-| `Stress`       | Gets or sets the Stress Property       |
-| `Displacement` | Gets or sets the Displacement Property |
+|---------------------------------------------------------------|------------------------------------------|
+| [`Displacement`](#CondensedPartExpansionState.Displacement)   | Gets or sets the Displacement Property   |
+| [`Stress`](#CondensedPartExpansionState.Stress)               | Gets or sets the Stress Property         |
 
 <a id="property-detail"></a>
 
 ## Property detail
 
-### *property* CondensedPartExpansionState.Stress *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the Stress Property
-
-<!-- !! processed by numpydoc !! -->
+<a id="CondensedPartExpansionState.Displacement"></a>
 
 ### *property* CondensedPartExpansionState.Displacement *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Displacement Property
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="CondensedPartExpansionState.Stress"></a>
+
+### *property* CondensedPartExpansionState.Stress *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the Stress Property
 
 <!-- !! processed by numpydoc !! -->
 

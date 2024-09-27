@@ -1,6 +1,6 @@
 # `GeometryImportPreferences`
 
-
+<a id="ansys.mechanical.stubs.v242.Ansys.ACT.Mechanical.Utilities.GeometryImportPreferences"></a>
 
 #### *class* ansys.mechanical.stubs.v242.Ansys.ACT.Mechanical.Utilities.GeometryImportPreferences
 
@@ -15,60 +15,46 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 ### Properties
 
 | Name | Description |
-|-------------------------------|------------------------------------------------------------------------------------------|
-| `ProcessSolids`               | Import solid bodies.                                                                     |
-| `ProcessSurfaces`             | Import surface bodies.                                                                   |
-| `ProcessLines`                | Import lines bodies.                                                                     |
-| `ProcessAttributes`           | Import CAD system attributes.                                                            |
-| `AttributeKey`                | If ProcessAttributes is true, import only those attributes with this prefix.             |
-| `ProcessNamedSelections`      | Import/create named selections.                                                          |
-| `NamedSelectionKey`           | If ProcessNamedSelections is true, import only those named selections with this          |
-| `ProcessMaterialProperties`   | Import primary material data defined in the CAD source.                                  |
-| `AnalysisType`                | Specify the analysis type to target during import.                                       |
-| `CADAssociativity`            | Allow associativity.                                                                     |
-| `ProcessCoordinateSystems`    | Import coordinate systems defined in the CAD source.                                     |
-| `CoordinateSystemKey`         | If ProcessCoordinateSystems is true, import only those coordinate systems with this      |
-| `ProcessWorkPoints`           | Import work points.                                                                      |
-| `ReaderSaveFile`              | Save the part file of a model after the import.                                          |
-| `ProcessInstances`            | Honor part instance specifications.                                                      |
-| `DoSmartUpdate`               | Speed up refreshes for models with unmodified components. Causes changes to other import |
-| `ComparePartsOnUpdate`        | Enable mesh preservation on refresh for unmodified entities.                             |
-| `ComparePartsTolerance`       | Specifies the tolerance to use when comparing parts.                                     |
-| `EnclosureSymmetryProcessing` | Enable the processing of enclosure and symmetry named selections.                        |
-| `DecomposeDisjointGeometry`   | Enable the decomposition of disjoint geometries for the following associative geometry   |
-| `MixedImportResolution`       | Allows mixed-dimension parts to be imported as assembly components with parts of         |
-| `Clean`                       | Clean unwanted features when importing geometry.                                         |
-| `StitchType`                  | Specifies how surfaces should be stitched together.                                      |
-| `StitchTolerance`             | If StitchType is User, specifies the tolerance to use for stitching detection.           |
-| `FacetQuality`                | Specifies what facet quality should be used for the import.                              |
+|------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------|
+| [`AnalysisType`](#GeometryImportPreferences.AnalysisType)                               | Specify the analysis type to target during import.                                       |
+| [`AttributeKey`](#GeometryImportPreferences.AttributeKey)                               | If ProcessAttributes is true, import only those attributes with this prefix.             |
+| [`CADAssociativity`](#GeometryImportPreferences.CADAssociativity)                       | Allow associativity.                                                                     |
+| [`Clean`](#GeometryImportPreferences.Clean)                                             | Clean unwanted features when importing geometry.                                         |
+| [`ComparePartsOnUpdate`](#GeometryImportPreferences.ComparePartsOnUpdate)               | Enable mesh preservation on refresh for unmodified entities.                             |
+| [`ComparePartsTolerance`](#GeometryImportPreferences.ComparePartsTolerance)             | Specifies the tolerance to use when comparing parts.                                     |
+| [`CoordinateSystemKey`](#GeometryImportPreferences.CoordinateSystemKey)                 | If ProcessCoordinateSystems is true, import only those coordinate systems with this      |
+| [`DecomposeDisjointGeometry`](#GeometryImportPreferences.DecomposeDisjointGeometry)     | Enable the decomposition of disjoint geometries for the following associative geometry   |
+| [`DoSmartUpdate`](#GeometryImportPreferences.DoSmartUpdate)                             | Speed up refreshes for models with unmodified components. Causes changes to other import |
+| [`EnclosureSymmetryProcessing`](#GeometryImportPreferences.EnclosureSymmetryProcessing) | Enable the processing of enclosure and symmetry named selections.                        |
+| [`FacetQuality`](#GeometryImportPreferences.FacetQuality)                               | Specifies what facet quality should be used for the import.                              |
+| [`MixedImportResolution`](#GeometryImportPreferences.MixedImportResolution)             | Allows mixed-dimension parts to be imported as assembly components with parts of         |
+| [`NamedSelectionKey`](#GeometryImportPreferences.NamedSelectionKey)                     | If ProcessNamedSelections is true, import only those named selections with this          |
+| [`ProcessAttributes`](#GeometryImportPreferences.ProcessAttributes)                     | Import CAD system attributes.                                                            |
+| [`ProcessCoordinateSystems`](#GeometryImportPreferences.ProcessCoordinateSystems)       | Import coordinate systems defined in the CAD source.                                     |
+| [`ProcessInstances`](#GeometryImportPreferences.ProcessInstances)                       | Honor part instance specifications.                                                      |
+| [`ProcessLines`](#GeometryImportPreferences.ProcessLines)                               | Import lines bodies.                                                                     |
+| [`ProcessMaterialProperties`](#GeometryImportPreferences.ProcessMaterialProperties)     | Import primary material data defined in the CAD source.                                  |
+| [`ProcessNamedSelections`](#GeometryImportPreferences.ProcessNamedSelections)           | Import/create named selections.                                                          |
+| [`ProcessSolids`](#GeometryImportPreferences.ProcessSolids)                             | Import solid bodies.                                                                     |
+| [`ProcessSurfaces`](#GeometryImportPreferences.ProcessSurfaces)                         | Import surface bodies.                                                                   |
+| [`ProcessWorkPoints`](#GeometryImportPreferences.ProcessWorkPoints)                     | Import work points.                                                                      |
+| [`ReaderSaveFile`](#GeometryImportPreferences.ReaderSaveFile)                           | Save the part file of a model after the import.                                          |
+| [`StitchTolerance`](#GeometryImportPreferences.StitchTolerance)                         | If StitchType is User, specifies the tolerance to use for stitching detection.           |
+| [`StitchType`](#GeometryImportPreferences.StitchType)                                   | Specifies how surfaces should be stitched together.                                      |
 
 <a id="property-detail"></a>
 
 ## Property detail
 
-### *property* GeometryImportPreferences.ProcessSolids *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+<a id="GeometryImportPreferences.AnalysisType"></a>
 
-Import solid bodies.
+### *property* GeometryImportPreferences.AnalysisType *: [Ansys.Mechanical.DataModel.Enums.GeometryImportPreference.AnalysisType](../../../Mechanical/DataModel/Enums/GeometryImportPreference/AnalysisType.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.GeometryImportPreference.AnalysisType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
-<!-- !! processed by numpydoc !! -->
-
-### *property* GeometryImportPreferences.ProcessSurfaces *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Import surface bodies.
+Specify the analysis type to target during import.
 
 <!-- !! processed by numpydoc !! -->
 
-### *property* GeometryImportPreferences.ProcessLines *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Import lines bodies.
-
-<!-- !! processed by numpydoc !! -->
-
-### *property* GeometryImportPreferences.ProcessAttributes *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Import CAD system attributes.
-
-<!-- !! processed by numpydoc !! -->
+<a id="GeometryImportPreferences.AttributeKey"></a>
 
 ### *property* GeometryImportPreferences.AttributeKey *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -78,30 +64,7 @@ everything.
 
 <!-- !! processed by numpydoc !! -->
 
-### *property* GeometryImportPreferences.ProcessNamedSelections *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Import/create named selections.
-
-<!-- !! processed by numpydoc !! -->
-
-### *property* GeometryImportPreferences.NamedSelectionKey *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
-
-If ProcessNamedSelections is true, import only those named selections with this
-prefix. Multiple semicolon-delimited filters may be specified.
-
-<!-- !! processed by numpydoc !! -->
-
-### *property* GeometryImportPreferences.ProcessMaterialProperties *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Import primary material data defined in the CAD source.
-
-<!-- !! processed by numpydoc !! -->
-
-### *property* GeometryImportPreferences.AnalysisType *: [Ansys.Mechanical.DataModel.Enums.GeometryImportPreference.AnalysisType](../../../../../v241/Ansys/Mechanical/DataModel/Enums/GeometryImportPreference/AnalysisType.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.GeometryImportPreference.AnalysisType) | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Specify the analysis type to target during import.
-
-<!-- !! processed by numpydoc !! -->
+<a id="GeometryImportPreferences.CADAssociativity"></a>
 
 ### *property* GeometryImportPreferences.CADAssociativity *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -109,11 +72,31 @@ Allow associativity.
 
 <!-- !! processed by numpydoc !! -->
 
-### *property* GeometryImportPreferences.ProcessCoordinateSystems *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+<a id="GeometryImportPreferences.Clean"></a>
 
-Import coordinate systems defined in the CAD source.
+### *property* GeometryImportPreferences.Clean *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Clean unwanted features when importing geometry.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="GeometryImportPreferences.ComparePartsOnUpdate"></a>
+
+### *property* GeometryImportPreferences.ComparePartsOnUpdate *: [Ansys.Mechanical.DataModel.Enums.GeometryImportPreference.ComparePartsOnUpdate](../../../Mechanical/DataModel/Enums/GeometryImportPreference/ComparePartsOnUpdate.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.GeometryImportPreference.ComparePartsOnUpdate) | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Enable mesh preservation on refresh for unmodified entities.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="GeometryImportPreferences.ComparePartsTolerance"></a>
+
+### *property* GeometryImportPreferences.ComparePartsTolerance *: [Ansys.Mechanical.DataModel.Enums.GeometryImportPreference.ComparePartsTolerance](../../../Mechanical/DataModel/Enums/GeometryImportPreference/ComparePartsTolerance.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.GeometryImportPreference.ComparePartsTolerance) | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Specifies the tolerance to use when comparing parts.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="GeometryImportPreferences.CoordinateSystemKey"></a>
 
 ### *property* GeometryImportPreferences.CoordinateSystemKey *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -123,48 +106,7 @@ everything.
 
 <!-- !! processed by numpydoc !! -->
 
-### *property* GeometryImportPreferences.ProcessWorkPoints *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Import work points.
-
-<!-- !! processed by numpydoc !! -->
-
-### *property* GeometryImportPreferences.ReaderSaveFile *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Save the part file of a model after the import.
-
-<!-- !! processed by numpydoc !! -->
-
-### *property* GeometryImportPreferences.ProcessInstances *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Honor part instance specifications.
-
-<!-- !! processed by numpydoc !! -->
-
-### *property* GeometryImportPreferences.DoSmartUpdate *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Speed up refreshes for models with unmodified components. Causes changes to other import
-preferences to be ignored during refresh.
-
-<!-- !! processed by numpydoc !! -->
-
-### *property* GeometryImportPreferences.ComparePartsOnUpdate *: [Ansys.Mechanical.DataModel.Enums.GeometryImportPreference.ComparePartsOnUpdate](../../../../../v241/Ansys/Mechanical/DataModel/Enums/GeometryImportPreference/ComparePartsOnUpdate.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.GeometryImportPreference.ComparePartsOnUpdate) | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Enable mesh preservation on refresh for unmodified entities.
-
-<!-- !! processed by numpydoc !! -->
-
-### *property* GeometryImportPreferences.ComparePartsTolerance *: [Ansys.Mechanical.DataModel.Enums.GeometryImportPreference.ComparePartsTolerance](../../../../../v241/Ansys/Mechanical/DataModel/Enums/GeometryImportPreference/ComparePartsTolerance.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.GeometryImportPreference.ComparePartsTolerance) | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Specifies the tolerance to use when comparing parts.
-
-<!-- !! processed by numpydoc !! -->
-
-### *property* GeometryImportPreferences.EnclosureSymmetryProcessing *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Enable the processing of enclosure and symmetry named selections.
-
-<!-- !! processed by numpydoc !! -->
+<a id="GeometryImportPreferences.DecomposeDisjointGeometry"></a>
 
 ### *property* GeometryImportPreferences.DecomposeDisjointGeometry *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -174,24 +116,134 @@ bullet
 
 <!-- !! processed by numpydoc !! -->
 
-### *property* GeometryImportPreferences.MixedImportResolution *: [Ansys.Mechanical.DataModel.Enums.GeometryImportPreference.MixedImportResolution](../../../../../v241/Ansys/Mechanical/DataModel/Enums/GeometryImportPreference/MixedImportResolution.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.GeometryImportPreference.MixedImportResolution) | [None](https://docs.python.org/3/library/constants.html#None)*
+<a id="GeometryImportPreferences.DoSmartUpdate"></a>
+
+### *property* GeometryImportPreferences.DoSmartUpdate *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Speed up refreshes for models with unmodified components. Causes changes to other import
+preferences to be ignored during refresh.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="GeometryImportPreferences.EnclosureSymmetryProcessing"></a>
+
+### *property* GeometryImportPreferences.EnclosureSymmetryProcessing *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Enable the processing of enclosure and symmetry named selections.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="GeometryImportPreferences.FacetQuality"></a>
+
+### *property* GeometryImportPreferences.FacetQuality *: [Ansys.Mechanical.DataModel.Enums.GeometryImportPreference.FacetQuality](../../../Mechanical/DataModel/Enums/GeometryImportPreference/FacetQuality.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.GeometryImportPreference.FacetQuality) | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Specifies what facet quality should be used for the import.
+The default value is Source meaning that the facets as represented in the CAD
+system or use a Normal option for those that do not have display.
+The others are relative settings compared to ‚Äúnormal‚Äù facet quality.
+Typically, better facet quality requires more memory and may take additional time to import/update.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="GeometryImportPreferences.MixedImportResolution"></a>
+
+### *property* GeometryImportPreferences.MixedImportResolution *: [Ansys.Mechanical.DataModel.Enums.GeometryImportPreference.MixedImportResolution](../../../Mechanical/DataModel/Enums/GeometryImportPreference/MixedImportResolution.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.GeometryImportPreference.MixedImportResolution) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Allows mixed-dimension parts to be imported as assembly components with parts of
 different dimensions.
 
 <!-- !! processed by numpydoc !! -->
 
-### *property* GeometryImportPreferences.Clean *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+<a id="GeometryImportPreferences.NamedSelectionKey"></a>
 
-Clean unwanted features when importing geometry.
+### *property* GeometryImportPreferences.NamedSelectionKey *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+
+If ProcessNamedSelections is true, import only those named selections with this
+prefix. Multiple semicolon-delimited filters may be specified.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="GeometryImportPreferences.ProcessAttributes"></a>
+
+### *property* GeometryImportPreferences.ProcessAttributes *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Import CAD system attributes.
 
 <!-- !! processed by numpydoc !! -->
 
-### *property* GeometryImportPreferences.StitchType *: [Ansys.Mechanical.DataModel.Enums.GeometryImportPreference.StitchSurfacesOnImport](../../../../../v241/Ansys/Mechanical/DataModel/Enums/GeometryImportPreference/StitchSurfacesOnImport.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.GeometryImportPreference.StitchSurfacesOnImport) | [None](https://docs.python.org/3/library/constants.html#None)*
+<a id="GeometryImportPreferences.ProcessCoordinateSystems"></a>
 
-Specifies how surfaces should be stitched together.
+### *property* GeometryImportPreferences.ProcessCoordinateSystems *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Import coordinate systems defined in the CAD source.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="GeometryImportPreferences.ProcessInstances"></a>
+
+### *property* GeometryImportPreferences.ProcessInstances *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Honor part instance specifications.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="GeometryImportPreferences.ProcessLines"></a>
+
+### *property* GeometryImportPreferences.ProcessLines *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Import lines bodies.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="GeometryImportPreferences.ProcessMaterialProperties"></a>
+
+### *property* GeometryImportPreferences.ProcessMaterialProperties *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Import primary material data defined in the CAD source.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="GeometryImportPreferences.ProcessNamedSelections"></a>
+
+### *property* GeometryImportPreferences.ProcessNamedSelections *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Import/create named selections.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="GeometryImportPreferences.ProcessSolids"></a>
+
+### *property* GeometryImportPreferences.ProcessSolids *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Import solid bodies.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="GeometryImportPreferences.ProcessSurfaces"></a>
+
+### *property* GeometryImportPreferences.ProcessSurfaces *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Import surface bodies.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="GeometryImportPreferences.ProcessWorkPoints"></a>
+
+### *property* GeometryImportPreferences.ProcessWorkPoints *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Import work points.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="GeometryImportPreferences.ReaderSaveFile"></a>
+
+### *property* GeometryImportPreferences.ReaderSaveFile *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Save the part file of a model after the import.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="GeometryImportPreferences.StitchTolerance"></a>
 
 ### *property* GeometryImportPreferences.StitchTolerance *: System.Double | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -199,13 +251,11 @@ If StitchType is User, specifies the tolerance to use for stitching detection.
 
 <!-- !! processed by numpydoc !! -->
 
-### *property* GeometryImportPreferences.FacetQuality *: [Ansys.Mechanical.DataModel.Enums.GeometryImportPreference.FacetQuality](../../../../../v241/Ansys/Mechanical/DataModel/Enums/GeometryImportPreference/FacetQuality.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.GeometryImportPreference.FacetQuality) | [None](https://docs.python.org/3/library/constants.html#None)*
+<a id="GeometryImportPreferences.StitchType"></a>
 
-Specifies what facet quality should be used for the import.
-The default value is Source meaning that the facets as represented in the CAD
-system or use a Normal option for those that do not have display.
-The others are relative settings compared to ìnormalî facet quality.
-Typically, better facet quality requires more memory and may take additional time to import/update.
+### *property* GeometryImportPreferences.StitchType *: [Ansys.Mechanical.DataModel.Enums.GeometryImportPreference.StitchSurfacesOnImport](../../../Mechanical/DataModel/Enums/GeometryImportPreference/StitchSurfacesOnImport.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.GeometryImportPreference.StitchSurfacesOnImport) | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Specifies how surfaces should be stitched together.
 
 <!-- !! processed by numpydoc !! -->
 

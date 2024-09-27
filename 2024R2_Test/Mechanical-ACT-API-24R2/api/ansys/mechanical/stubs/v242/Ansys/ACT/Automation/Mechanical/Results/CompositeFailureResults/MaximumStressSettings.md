@@ -1,6 +1,6 @@
 # `MaximumStressSettings`
 
-
+<a id="ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Results.CompositeFailureResults.MaximumStressSettings"></a>
 
 #### *class* ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Results.CompositeFailureResults.MaximumStressSettings
 
@@ -17,36 +17,85 @@ Defines the configuration for the Maximum Stress failure criterion for reinforce
 ### Methods
 
 | Name | Description |
-|-----------|------------------------------------------------|
-| `Reset`   | Resets the settings to their default values.   |
+|-------------------------------------------|------------------------------------------------|
+| [`Reset`](#MaximumStressSettings.Reset)   | Resets the settings to their default values.   |
 
 ### Properties
 
 | Name | Description |
-|------------------------------------------------|--------------------------------------------------------------------------------------------|
-| `EvaluateMaterialOneDirectionFailure`          | Gets or sets whether the failure criterion is evaluated in the material 1 direction.       |
-| `MaterialOneDirectionFailureWeightingFactor`   | Gets or sets the weighting factor for the failure criterion in the material 1 direction.   |
-| `EvaluateMaterialTwoDirectionFailure`          | Gets or sets whether the failure criterion is evaluated in the material 2 direction.       |
-| `MaterialTwoDirectionFailureWeightingFactor`   | Gets or sets the weighting factor for the failure criterion in the material 2 direction.   |
-| `EvaluateMaterialThreeDirectionFailure`        | Gets or sets whether the failure criterion is evaluated in the out-of-plane direction.     |
-| `MaterialThreeDirectionFailureWeightingFactor` | Gets or sets the weighting factor for the failure criterion in the out-of-plane direction. |
-| `EvaluateShearOneTwoFailure`                   | Gets or sets whether failure is evaluated for the in-plane shear s12.                      |
-| `ShearOneTwoFailureWeightingFactor`            | Gets or sets the weighting factor for failure due to in-plane shear s12.                   |
-| `EvaluateShearOneThreeFailure`                 | Gets or sets whether failure is evaluated for the out-of-plane shear s13.                  |
-| `ShearOneThreeFailureWeightingFactor`          | Gets or sets the weighting factor for failure due to out-of-plane shear s13.               |
-| `EvaluateShearTwoThreeFailure`                 | Gets or sets whether failure is evaluated for the out-of-plane shear s23.                  |
-| `ShearTwoThreeFailureWeightingFactor`          | Gets or sets the weighting factor for failure due to out-of-plane shear s23.               |
+|-----------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------|
+| [`EvaluateMaterialOneDirectionFailure`](#MaximumStressSettings.EvaluateMaterialOneDirectionFailure)                   | Gets or sets whether the failure criterion is evaluated in the material 1 direction.       |
+| [`EvaluateMaterialThreeDirectionFailure`](#MaximumStressSettings.EvaluateMaterialThreeDirectionFailure)               | Gets or sets whether the failure criterion is evaluated in the out-of-plane direction.     |
+| [`EvaluateMaterialTwoDirectionFailure`](#MaximumStressSettings.EvaluateMaterialTwoDirectionFailure)                   | Gets or sets whether the failure criterion is evaluated in the material 2 direction.       |
+| [`EvaluateShearOneThreeFailure`](#MaximumStressSettings.EvaluateShearOneThreeFailure)                                 | Gets or sets whether failure is evaluated for the out-of-plane shear s13.                  |
+| [`EvaluateShearOneTwoFailure`](#MaximumStressSettings.EvaluateShearOneTwoFailure)                                     | Gets or sets whether failure is evaluated for the in-plane shear s12.                      |
+| [`EvaluateShearTwoThreeFailure`](#MaximumStressSettings.EvaluateShearTwoThreeFailure)                                 | Gets or sets whether failure is evaluated for the out-of-plane shear s23.                  |
+| [`MaterialOneDirectionFailureWeightingFactor`](#MaximumStressSettings.MaterialOneDirectionFailureWeightingFactor)     | Gets or sets the weighting factor for the failure criterion in the material 1 direction.   |
+| [`MaterialThreeDirectionFailureWeightingFactor`](#MaximumStressSettings.MaterialThreeDirectionFailureWeightingFactor) | Gets or sets the weighting factor for the failure criterion in the out-of-plane direction. |
+| [`MaterialTwoDirectionFailureWeightingFactor`](#MaximumStressSettings.MaterialTwoDirectionFailureWeightingFactor)     | Gets or sets the weighting factor for the failure criterion in the material 2 direction.   |
+| [`ShearOneThreeFailureWeightingFactor`](#MaximumStressSettings.ShearOneThreeFailureWeightingFactor)                   | Gets or sets the weighting factor for failure due to out-of-plane shear s13.               |
+| [`ShearOneTwoFailureWeightingFactor`](#MaximumStressSettings.ShearOneTwoFailureWeightingFactor)                       | Gets or sets the weighting factor for failure due to in-plane shear s12.                   |
+| [`ShearTwoThreeFailureWeightingFactor`](#MaximumStressSettings.ShearTwoThreeFailureWeightingFactor)                   | Gets or sets the weighting factor for failure due to out-of-plane shear s23.               |
 
 <a id="property-detail"></a>
 
 ## Property detail
 
+<a id="MaximumStressSettings.EvaluateMaterialOneDirectionFailure"></a>
+
 ### *property* MaximumStressSettings.EvaluateMaterialOneDirectionFailure *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets whether the failure criterion is evaluated in the material 1 direction.
-: The corresponding failure label is 's1'.
+: The corresponding failure label is ‘s1’.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="MaximumStressSettings.EvaluateMaterialThreeDirectionFailure"></a>
+
+### *property* MaximumStressSettings.EvaluateMaterialThreeDirectionFailure *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets whether the failure criterion is evaluated in the out-of-plane direction.
+: The corresponding failure label is ‘s3’.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="MaximumStressSettings.EvaluateMaterialTwoDirectionFailure"></a>
+
+### *property* MaximumStressSettings.EvaluateMaterialTwoDirectionFailure *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets whether the failure criterion is evaluated in the material 2 direction.
+: The corresponding failure label is ‘s2’.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="MaximumStressSettings.EvaluateShearOneThreeFailure"></a>
+
+### *property* MaximumStressSettings.EvaluateShearOneThreeFailure *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets whether failure is evaluated for the out-of-plane shear s13.
+: The corresponding failure label is ‘s13’.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="MaximumStressSettings.EvaluateShearOneTwoFailure"></a>
+
+### *property* MaximumStressSettings.EvaluateShearOneTwoFailure *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets whether failure is evaluated for the in-plane shear s12.
+: The corresponding failure label is ‘s12’.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="MaximumStressSettings.EvaluateShearTwoThreeFailure"></a>
+
+### *property* MaximumStressSettings.EvaluateShearTwoThreeFailure *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets whether failure is evaluated for the out-of-plane shear s23.
+: The corresponding failure label is ‘s23’.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="MaximumStressSettings.MaterialOneDirectionFailureWeightingFactor"></a>
 
 ### *property* MaximumStressSettings.MaterialOneDirectionFailureWeightingFactor *: System.Double | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -54,25 +103,7 @@ Gets or sets the weighting factor for the failure criterion in the material 1 di
 
 <!-- !! processed by numpydoc !! -->
 
-### *property* MaximumStressSettings.EvaluateMaterialTwoDirectionFailure *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets whether the failure criterion is evaluated in the material 2 direction.
-: The corresponding failure label is 's2'.
-
-<!-- !! processed by numpydoc !! -->
-
-### *property* MaximumStressSettings.MaterialTwoDirectionFailureWeightingFactor *: System.Double | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the weighting factor for the failure criterion in the material 2 direction.
-
-<!-- !! processed by numpydoc !! -->
-
-### *property* MaximumStressSettings.EvaluateMaterialThreeDirectionFailure *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets whether the failure criterion is evaluated in the out-of-plane direction.
-: The corresponding failure label is 's3'.
-
-<!-- !! processed by numpydoc !! -->
+<a id="MaximumStressSettings.MaterialThreeDirectionFailureWeightingFactor"></a>
 
 ### *property* MaximumStressSettings.MaterialThreeDirectionFailureWeightingFactor *: System.Double | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -80,25 +111,15 @@ Gets or sets the weighting factor for the failure criterion in the out-of-plane 
 
 <!-- !! processed by numpydoc !! -->
 
-### *property* MaximumStressSettings.EvaluateShearOneTwoFailure *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+<a id="MaximumStressSettings.MaterialTwoDirectionFailureWeightingFactor"></a>
 
-Gets or sets whether failure is evaluated for the in-plane shear s12.
-: The corresponding failure label is 's12'.
+### *property* MaximumStressSettings.MaterialTwoDirectionFailureWeightingFactor *: System.Double | [None](https://docs.python.org/3/library/constants.html#None)*
 
-<!-- !! processed by numpydoc !! -->
-
-### *property* MaximumStressSettings.ShearOneTwoFailureWeightingFactor *: System.Double | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the weighting factor for failure due to in-plane shear s12.
+Gets or sets the weighting factor for the failure criterion in the material 2 direction.
 
 <!-- !! processed by numpydoc !! -->
 
-### *property* MaximumStressSettings.EvaluateShearOneThreeFailure *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets whether failure is evaluated for the out-of-plane shear s13.
-: The corresponding failure label is 's13'.
-
-<!-- !! processed by numpydoc !! -->
+<a id="MaximumStressSettings.ShearOneThreeFailureWeightingFactor"></a>
 
 ### *property* MaximumStressSettings.ShearOneThreeFailureWeightingFactor *: System.Double | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -106,12 +127,15 @@ Gets or sets the weighting factor for failure due to out-of-plane shear s13.
 
 <!-- !! processed by numpydoc !! -->
 
-### *property* MaximumStressSettings.EvaluateShearTwoThreeFailure *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+<a id="MaximumStressSettings.ShearOneTwoFailureWeightingFactor"></a>
 
-Gets or sets whether failure is evaluated for the out-of-plane shear s23.
-: The corresponding failure label is 's23'.
+### *property* MaximumStressSettings.ShearOneTwoFailureWeightingFactor *: System.Double | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the weighting factor for failure due to in-plane shear s12.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="MaximumStressSettings.ShearTwoThreeFailureWeightingFactor"></a>
 
 ### *property* MaximumStressSettings.ShearTwoThreeFailureWeightingFactor *: System.Double | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -122,6 +146,8 @@ Gets or sets the weighting factor for failure due to out-of-plane shear s23.
 <a id="method-detail"></a>
 
 ## Method detail
+
+<a id="MaximumStressSettings.Reset"></a>
 
 ### MaximumStressSettings.Reset()
 

@@ -1,6 +1,6 @@
 # `GeneralMiscellaneousOptionType`
 
-
+<a id="ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.GeneralMiscellaneousOptionType"></a>
 
 #### *class* ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.GeneralMiscellaneousOptionType
 
@@ -17,7 +17,7 @@ Specifies the GeneralMiscellaneousOptionType.
 ### Attributes
 
 | Name |
-| -------------------------------------------------------------------------- |
+| ---------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | [`AcousticBodies`](#GeneralMiscellaneousOptionType.AcousticBodies) |
 | [`AllBodies`](#GeneralMiscellaneousOptionType.AllBodies) |
 | [`ProgramControlled`](#GeneralMiscellaneousOptionType.ProgramControlled) |

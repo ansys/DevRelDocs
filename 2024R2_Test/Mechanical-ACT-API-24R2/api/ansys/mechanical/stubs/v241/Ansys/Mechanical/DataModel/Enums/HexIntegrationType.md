@@ -1,6 +1,6 @@
 # `HexIntegrationType`
 
-
+<a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.HexIntegrationType"></a>
 
 #### *class* ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.HexIntegrationType
 
@@ -17,20 +17,20 @@ Specifies the HexIntegrationType.
 ### Attributes
 
 | Name |
-| ---------------------------------------------------------------------------------------------------------------------------- |
-| [`OnePtGauss`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/HexIntegrationType.md#HexIntegrationType.OnePtGauss) |
-| [`Exact`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/HexIntegrationType.md#HexIntegrationType.Exact) |
+| ------------------------------------------------ |
+| [`Exact`](#HexIntegrationType.Exact) |
+| [`OnePtGauss`](#HexIntegrationType.OnePtGauss) |
 
 <a id="attribute-detail"></a>
 
 ## Attribute detail
 
-<a id="HexIntegrationType.OnePtGauss"></a>
-
-### HexIntegrationType.OnePtGauss *= 1*
-
 <a id="HexIntegrationType.Exact"></a>
 
 ### HexIntegrationType.Exact *= 0*
+
+<a id="HexIntegrationType.OnePtGauss"></a>
+
+### HexIntegrationType.OnePtGauss *= 1*
 
 

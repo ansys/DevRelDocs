@@ -1,6 +1,6 @@
 # `HarmonicMethod`
 
-
+<a id="ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.HarmonicMethod"></a>
 
 #### *class* ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.HarmonicMethod
 
@@ -17,7 +17,7 @@ Specifies the HarmonicMethod.
 ### Attributes
 
 | Name |
-| ------------------------------------------------------------------ |
+| ---------------------------------------------------------------------------------------------------------------------------------------- |
 | [`Full`](#HarmonicMethod.Full) |
 | [`Krylov`](#HarmonicMethod.Krylov) |
 | [`ModeSuperposition`](#HarmonicMethod.ModeSuperposition) |

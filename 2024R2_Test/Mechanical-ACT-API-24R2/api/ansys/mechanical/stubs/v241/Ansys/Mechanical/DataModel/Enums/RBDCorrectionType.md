@@ -1,6 +1,6 @@
 # `RBDCorrectionType`
 
-
+<a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.RBDCorrectionType"></a>
 
 #### *class* ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.RBDCorrectionType
 
@@ -15,14 +15,18 @@ Bases: [`enum.Enum`](https://docs.python.org/3/library/enum.html#enum.Enum)
 ### Attributes
 
 | Name |
-| -------------------------------------------------------------------------------------------------------------------------------------- |
-| [`PureKinematic`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/RBDCorrectionType.md#RBDCorrectionType.PureKinematic) |
-| [`WithInertiaMatrix`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/RBDCorrectionType.md#RBDCorrectionType.WithInertiaMatrix) |
-| [`ProgramControlled`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/RBDCorrectionType.md#RBDCorrectionType.ProgramControlled) |
+| --------------------------------------------------------------- |
+| [`ProgramControlled`](#RBDCorrectionType.ProgramControlled) |
+| [`PureKinematic`](#RBDCorrectionType.PureKinematic) |
+| [`WithInertiaMatrix`](#RBDCorrectionType.WithInertiaMatrix) |
 
 <a id="attribute-detail"></a>
 
 ## Attribute detail
+
+<a id="RBDCorrectionType.ProgramControlled"></a>
+
+### RBDCorrectionType.ProgramControlled *= 2*
 
 <a id="RBDCorrectionType.PureKinematic"></a>
 
@@ -31,9 +35,5 @@ Bases: [`enum.Enum`](https://docs.python.org/3/library/enum.html#enum.Enum)
 <a id="RBDCorrectionType.WithInertiaMatrix"></a>
 
 ### RBDCorrectionType.WithInertiaMatrix *= 1*
-
-<a id="RBDCorrectionType.ProgramControlled"></a>
-
-### RBDCorrectionType.ProgramControlled *= 2*
 
 

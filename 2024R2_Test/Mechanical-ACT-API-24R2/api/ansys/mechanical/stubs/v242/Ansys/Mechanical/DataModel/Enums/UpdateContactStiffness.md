@@ -1,6 +1,6 @@
 # `UpdateContactStiffness`
 
-
+<a id="ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.UpdateContactStiffness"></a>
 
 #### *class* ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.UpdateContactStiffness
 
@@ -17,7 +17,7 @@ Specifies the UpdateContactStiffness.
 ### Attributes
 
 | Name |
-| -------------------------------------------------------------------------------- |
+| -------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | [`EachIteration`](#UpdateContactStiffness.EachIteration) |
 | [`EachIterationAggressive`](#UpdateContactStiffness.EachIterationAggressive) |
 | [`EachIterationExponential`](#UpdateContactStiffness.EachIterationExponential) |

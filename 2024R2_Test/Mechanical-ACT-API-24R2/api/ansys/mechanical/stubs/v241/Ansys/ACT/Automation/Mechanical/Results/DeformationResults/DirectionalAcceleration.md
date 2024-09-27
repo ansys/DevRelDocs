@@ -1,6 +1,6 @@
 # `DirectionalAcceleration`
 
-
+<a id="ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Results.DeformationResults.DirectionalAcceleration"></a>
 
 #### *class* ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Results.DeformationResults.DirectionalAcceleration
 
@@ -17,260 +17,122 @@ Defines a DirectionalAcceleration.
 ### Methods
 
 | Name | Description |
-|---------------------------|-----------------------------------------------------------------------------------|
-| `ClearGeneratedData`      | Run the ClearGeneratedData action.                                                |
-| `EvaluateAllResults`      | Run the EvaluateAllResults action.                                                |
-| `FetchRemoteResults`      | Run the FetchRemoteResult action.                                                 |
-| `ExportToTextFile`        | Run the ExportToTextFile action.                                                  |
-| `ExportAnimation`         | Run the ExportAnimation action.                                                   |
-| `DuplicateWithoutResults` | Run the DuplicateWithoutResults action.                                           |
-| `CreateResultsAtAllSets`  | Creates results at all sets for results under a solution.                         |
-| `PromoteToNamedSelection` | Run the PromoteToNamedSelection action.                                           |
-| `CreateParameter`         | CreateParameter method.                                                           |
-| `AddAlert`                | Creates a new Alert                                                               |
-| `AddConvergence`          | Creates a new Convergence                                                         |
-| `RenameBasedOnDefinition` | Run the RenameBasedOnDefinition action.                                           |
-| `Delete`                  | Run the Delete action.                                                            |
-| `GetChildren`             | Gets the list of children, filtered by type.                                      |
-| `GetChildren`             | Gets the list of children, filtered by type.                                      |
-| `AddComment`              | Creates a new child Comment.                                                      |
-| `AddFigure`               | Creates a new child Figure.                                                       |
-| `AddImage`                | Creates a new child Image.                                                        |
-| `Activate`                | Activate the current object.                                                      |
-| `CopyTo`                  | Copies all visible properties from this object to another.                        |
-| `Duplicate`               | Creates a copy of the current DataModelObject.                                    |
-| `GroupAllSimilarChildren` | Run the GroupAllSimilarChildren action.                                           |
-| `GroupSimilarObjects`     | Run the GroupSimilarObjects action.                                               |
-| `PropertyByName`          | Get a property by its unique name.                                                |
-| `PropertyByAPIName`       | Get a property by its API name.                                                   |
-| `GetParameter`            | Gets the parameter corresponding to the given property.                           |
-| `RemoveParameter`         | Removes the parameter from the parameter set corresponding to the given property. |
+|-------------------------------------------------------------------------------|-----------------------------------------------------------------------------------|
+| [`Activate`](#DirectionalAcceleration.Activate)                               | Activate the current object.                                                      |
+| [`AddAlert`](#DirectionalAcceleration.AddAlert)                               | Creates a new Alert                                                               |
+| [`AddComment`](#DirectionalAcceleration.AddComment)                           | Creates a new child Comment.                                                      |
+| [`AddConvergence`](#DirectionalAcceleration.AddConvergence)                   | Creates a new Convergence                                                         |
+| [`AddFigure`](#DirectionalAcceleration.AddFigure)                             | Creates a new child Figure.                                                       |
+| [`AddImage`](#DirectionalAcceleration.AddImage)                               | Creates a new child Image.                                                        |
+| [`ClearGeneratedData`](#DirectionalAcceleration.ClearGeneratedData)           | Run the ClearGeneratedData action.                                                |
+| [`CopyTo`](#DirectionalAcceleration.CopyTo)                                   | Copies all visible properties from this object to another.                        |
+| [`CreateParameter`](#DirectionalAcceleration.CreateParameter)                 | CreateParameter method.                                                           |
+| [`CreateResultsAtAllSets`](#DirectionalAcceleration.CreateResultsAtAllSets)   | Creates results at all sets for results under a solution.                         |
+| [`Delete`](#DirectionalAcceleration.Delete)                                   | Run the Delete action.                                                            |
+| [`Duplicate`](#DirectionalAcceleration.Duplicate)                             | Creates a copy of the current DataModelObject.                                    |
+| [`DuplicateWithoutResults`](#DirectionalAcceleration.DuplicateWithoutResults) | Run the DuplicateWithoutResults action.                                           |
+| [`EvaluateAllResults`](#DirectionalAcceleration.EvaluateAllResults)           | Run the EvaluateAllResults action.                                                |
+| [`ExportAnimation`](#DirectionalAcceleration.ExportAnimation)                 | Run the ExportAnimation action.                                                   |
+| [`ExportToTextFile`](#DirectionalAcceleration.ExportToTextFile)               | Run the ExportToTextFile action.                                                  |
+| [`FetchRemoteResults`](#DirectionalAcceleration.FetchRemoteResults)           | Run the FetchRemoteResult action.                                                 |
+| [`GetChildren`](#DirectionalAcceleration.GetChildren)                         | Gets the list of children, filtered by type.                                      |
+| [`GetParameter`](#DirectionalAcceleration.GetParameter)                       | Gets the parameter corresponding to the given property.                           |
+| [`GroupAllSimilarChildren`](#DirectionalAcceleration.GroupAllSimilarChildren) | Run the GroupAllSimilarChildren action.                                           |
+| [`GroupSimilarObjects`](#DirectionalAcceleration.GroupSimilarObjects)         | Run the GroupSimilarObjects action.                                               |
+| [`PromoteToNamedSelection`](#DirectionalAcceleration.PromoteToNamedSelection) | Run the PromoteToNamedSelection action.                                           |
+| [`PropertyByAPIName`](#DirectionalAcceleration.PropertyByAPIName)             | Get a property by its API name.                                                   |
+| [`PropertyByName`](#DirectionalAcceleration.PropertyByName)                   | Get a property by its unique name.                                                |
+| [`RemoveParameter`](#DirectionalAcceleration.RemoveParameter)                 | Removes the parameter from the parameter set corresponding to the given property. |
+| [`RenameBasedOnDefinition`](#DirectionalAcceleration.RenameBasedOnDefinition) | Run the RenameBasedOnDefinition action.                                           |
 
 ### Properties
 
 | Name | Description |
-|-------------------------------------|------------------------------------------------------------------------|
-| `InternalObject`                    | Gets the internal object. For advanced usage only.                     |
-| `NormalOrientation`                 | Gets or sets the NormalOrientation.                                    |
-| `DataModelObjectCategory`           | Gets the current DataModelObject's category.                           |
-| `Mode`                              | Gets or sets the Mode.                                                 |
-| `ReportedFrequency`                 | Gets the ReportedFrequency.                                            |
-| `DampedFrequency`                   | Gets the DampedFrequency.                                              |
-| `EnvironmentSelection`              | Gets or sets the EnvironmentSelection.                                 |
-| `LogarithmicDecrement`              | Gets the LogarithmicDecrement.                                         |
-| `ModalDampingRatio`                 | Gets the ModalDampingRatio.                                            |
-| `HarmonicIndex`                     | Gets or sets the HarmonicIndex.                                        |
-| `CyclicMode`                        | Gets or sets the CyclicMode.                                           |
-| `IterationStep`                     | Gets or sets the IterationStep.                                        |
-| `LoadMultiplier`                    | Gets the LoadMultiplier.                                               |
-| `Probability`                       | Gets the Probability.                                                  |
-| `ScaleFactorValue`                  | Gets or sets the ScaleFactorValue.                                     |
-| `Stability`                         | Gets the Stability.                                                    |
-| `CyclicPhase`                       | Gets or sets the CyclicPhase.                                          |
-| `SweepingPhase`                     | Gets or sets the SweepingPhase.                                        |
-| `PhaseIncrement`                    | Gets or sets the PhaseIncrement.                                       |
-| `Frequency`                         | Gets or sets the Frequency.                                            |
-| `DeformationType`                   | Gets or sets the DeformationType.                                      |
-| `Reference`                         | Gets the Reference.                                                    |
-| `ScaleFactor`                       | Gets or sets the ScaleFactor.                                          |
-| `AccelerationInG`                   | Gets or sets the AccelerationInG.                                      |
-| `Amplitude`                         | Gets or sets the Amplitude.                                            |
-| `AllowPhaseSweep`                   | Gets or sets the AllowPhaseSweep.                                      |
-| `PlotData`                          | Gets the result table.                                                 |
-| `Location`                          | Gets or sets the Location.                                             |
-| `TimeForMinimumOfMinimumValues`     | Get the Time for the minimum of minimum values.                        |
-| `TimeForMinimumOfMaximumValues`     | Get the Time for the minimum of maximum values.                        |
-| `LoadStepForMinimumOfMinimumValues` | Get the Load Step for the minimum of minimum values.                   |
-| `LoadStepForMinimumOfMaximumValues` | Get the Load Step for the minimum of maximum values.                   |
-| `TimeForMaximumOfMinimumValues`     | Get the Time for the maximum of minimum values.                        |
-| `TimeForMaximumOfMaximumValues`     | Get the Time for the maximum of maximum values.                        |
-| `LoadStepForMaximumOfMinimumValues` | Get the Load Step for the maximum of minimum values.                   |
-| `LoadStepForMaximumOfMaximumValues` | Get the Load Step for the maximum of maximum values.                   |
-| `IsSolved`                          | Gets the IsSolved.                                                     |
-| `CoordinateSystem`                  | Gets or sets the Coordinate System.                                    |
-| `ScopingMethod`                     | Gets or sets the ScopingMethod.                                        |
-| `SetNumber`                         | Gets or sets the Set Number.                                           |
-| `CombinationNumber`                 | Gets or sets the Combination Number for a Solution Combination result. |
-| `SolutionCombinationDriver`         | Gets or sets the SolutionCombinationDriver.                            |
-| `Path`                              | Path property.                                                         |
-| `Surface`                           | Surface property.                                                      |
-| `NamedSelections`                   | Gets or sets the NamedSelections.                                      |
-| `WaterfallPanelShowTextOnMosaic`    | Gets or sets the Waterfall Panel Mosaic Text Property.                 |
-| `CrackFrontNumber`                  | Gets or sets the CrackFrontNumber.                                     |
-| `GlobalIDs`                         | Gets or sets the GlobalIDs.                                            |
-| `Identifier`                        | Gets or sets the Identifier.                                           |
-| `IterationNumber`                   | Gets the IterationNumber.                                              |
-| `LoadStep`                          | Gets the LoadStep.                                                     |
-| `MaximumOccursOn`                   | Gets the MaximumOccursOn.                                              |
-| `MinimumOccursOn`                   | Gets the MinimumOccursOn.                                              |
-| `LoadStepNumber`                    | Gets or sets the LoadStepNumber.                                       |
-| `SolverComponentIDs`                | Gets or sets the SolverComponentIDs.                                   |
-| `Substep`                           | Gets the Substep.                                                      |
-| `Average`                           | Gets the Average.                                                      |
-| `Maximum`                           | Gets the Maximum.                                                      |
-| `MaximumOfMaximumOverTime`          | Gets the MaximumOfMaximumOverTime.                                     |
-| `MaximumOfMinimumOverTime`          | Gets the MaximumOfMinimumOverTime.                                     |
-| `Minimum`                           | Gets the Minimum.                                                      |
-| `MinimumOfMaximumOverTime`          | Gets the MinimumOfMaximumOverTime.                                     |
-| `MinimumOfMinimumOverTime`          | Gets the MinimumOfMinimumOverTime.                                     |
-| `Time`                              | Gets the Time.                                                         |
-| `DisplayTime`                       | Gets or sets the DisplayTime.                                          |
-| `GraphControlsXAxis`                | Gets or sets the GraphControlsXAxis.                                   |
-| `DisplayOption`                     | Gets or sets the DisplayOption.                                        |
-| `DpfEvaluation`                     | Gets or sets the DpfEvaluation.                                        |
-| `By`                                | Gets or sets the By.                                                   |
-| `ItemType`                          | Gets or sets the ItemType.                                             |
-| `CalculateTimeHistory`              | Gets or sets the CalculateTimeHistory.                                 |
-| `Suppressed`                        | Gets or sets the Suppressed.                                           |
-| `Children`                          | Gets the list of children.                                             |
-| `Comments`                          | Gets the list of associated comments.                                  |
-| `Figures`                           | Gets the list of associated figures.                                   |
-| `Images`                            | Gets the list of associated images.                                    |
-| `InternalObject`                    | Gets the internal object. For advanced usage only.                     |
-| `Properties`                        | Gets the list of properties for this object.                           |
-| `VisibleProperties`                 | Gets the list of properties that are visible for this object.          |
+|---------------------------------------------------------------------------------------------------|------------------------------------------------------------------------|
+| [`AccelerationInG`](#DirectionalAcceleration.AccelerationInG)                                     | Gets or sets the AccelerationInG.                                      |
+| [`AllowPhaseSweep`](#DirectionalAcceleration.AllowPhaseSweep)                                     | Gets or sets the AllowPhaseSweep.                                      |
+| [`Amplitude`](#DirectionalAcceleration.Amplitude)                                                 | Gets or sets the Amplitude.                                            |
+| [`Average`](#DirectionalAcceleration.Average)                                                     | Gets the Average.                                                      |
+| [`By`](#DirectionalAcceleration.By)                                                               | Gets or sets the By.                                                   |
+| [`CalculateTimeHistory`](#DirectionalAcceleration.CalculateTimeHistory)                           | Gets or sets the CalculateTimeHistory.                                 |
+| [`Children`](#DirectionalAcceleration.Children)                                                   | Gets the list of children.                                             |
+| [`CombinationNumber`](#DirectionalAcceleration.CombinationNumber)                                 | Gets or sets the Combination Number for a Solution Combination result. |
+| [`Comments`](#DirectionalAcceleration.Comments)                                                   | Gets the list of associated comments.                                  |
+| [`CoordinateSystem`](#DirectionalAcceleration.CoordinateSystem)                                   | Gets or sets the Coordinate System.                                    |
+| [`CrackFrontNumber`](#DirectionalAcceleration.CrackFrontNumber)                                   | Gets or sets the CrackFrontNumber.                                     |
+| [`CyclicMode`](#DirectionalAcceleration.CyclicMode)                                               | Gets or sets the CyclicMode.                                           |
+| [`CyclicPhase`](#DirectionalAcceleration.CyclicPhase)                                             | Gets or sets the CyclicPhase.                                          |
+| [`DampedFrequency`](#DirectionalAcceleration.DampedFrequency)                                     | Gets the DampedFrequency.                                              |
+| [`DataModelObjectCategory`](#DirectionalAcceleration.DataModelObjectCategory)                     | Gets the current DataModelObject’s category.                           |
+| [`DeformationType`](#DirectionalAcceleration.DeformationType)                                     | Gets or sets the DeformationType.                                      |
+| [`DisplayOption`](#DirectionalAcceleration.DisplayOption)                                         | Gets or sets the DisplayOption.                                        |
+| [`DisplayTime`](#DirectionalAcceleration.DisplayTime)                                             | Gets or sets the DisplayTime.                                          |
+| [`DpfEvaluation`](#DirectionalAcceleration.DpfEvaluation)                                         | Gets or sets the DpfEvaluation.                                        |
+| [`EnvironmentSelection`](#DirectionalAcceleration.EnvironmentSelection)                           | Gets or sets the EnvironmentSelection.                                 |
+| [`Figures`](#DirectionalAcceleration.Figures)                                                     | Gets the list of associated figures.                                   |
+| [`Frequency`](#DirectionalAcceleration.Frequency)                                                 | Gets or sets the Frequency.                                            |
+| [`GlobalIDs`](#DirectionalAcceleration.GlobalIDs)                                                 | Gets or sets the GlobalIDs.                                            |
+| [`GraphControlsXAxis`](#DirectionalAcceleration.GraphControlsXAxis)                               | Gets or sets the GraphControlsXAxis.                                   |
+| [`HarmonicIndex`](#DirectionalAcceleration.HarmonicIndex)                                         | Gets or sets the HarmonicIndex.                                        |
+| [`Identifier`](#DirectionalAcceleration.Identifier)                                               | Gets or sets the Identifier.                                           |
+| [`Images`](#DirectionalAcceleration.Images)                                                       | Gets the list of associated images.                                    |
+| [`InternalObject`](#DirectionalAcceleration.InternalObject)                                       | Gets the internal object. For advanced usage only.                     |
+| [`IsSolved`](#DirectionalAcceleration.IsSolved)                                                   | Gets the IsSolved.                                                     |
+| [`ItemType`](#DirectionalAcceleration.ItemType)                                                   | Gets or sets the ItemType.                                             |
+| [`IterationNumber`](#DirectionalAcceleration.IterationNumber)                                     | Gets the IterationNumber.                                              |
+| [`IterationStep`](#DirectionalAcceleration.IterationStep)                                         | Gets or sets the IterationStep.                                        |
+| [`LoadMultiplier`](#DirectionalAcceleration.LoadMultiplier)                                       | Gets the LoadMultiplier.                                               |
+| [`LoadStep`](#DirectionalAcceleration.LoadStep)                                                   | Gets the LoadStep.                                                     |
+| [`LoadStepForMaximumOfMaximumValues`](#DirectionalAcceleration.LoadStepForMaximumOfMaximumValues) | Get the Load Step for the maximum of maximum values.                   |
+| [`LoadStepForMaximumOfMinimumValues`](#DirectionalAcceleration.LoadStepForMaximumOfMinimumValues) | Get the Load Step for the maximum of minimum values.                   |
+| [`LoadStepForMinimumOfMaximumValues`](#DirectionalAcceleration.LoadStepForMinimumOfMaximumValues) | Get the Load Step for the minimum of maximum values.                   |
+| [`LoadStepForMinimumOfMinimumValues`](#DirectionalAcceleration.LoadStepForMinimumOfMinimumValues) | Get the Load Step for the minimum of minimum values.                   |
+| [`LoadStepNumber`](#DirectionalAcceleration.LoadStepNumber)                                       | Gets or sets the LoadStepNumber.                                       |
+| [`Location`](#DirectionalAcceleration.Location)                                                   | Gets or sets the Location.                                             |
+| [`LogarithmicDecrement`](#DirectionalAcceleration.LogarithmicDecrement)                           | Gets the LogarithmicDecrement.                                         |
+| [`Maximum`](#DirectionalAcceleration.Maximum)                                                     | Gets the Maximum.                                                      |
+| [`MaximumOccursOn`](#DirectionalAcceleration.MaximumOccursOn)                                     | Gets the MaximumOccursOn.                                              |
+| [`MaximumOfMaximumOverTime`](#DirectionalAcceleration.MaximumOfMaximumOverTime)                   | Gets the MaximumOfMaximumOverTime.                                     |
+| [`MaximumOfMinimumOverTime`](#DirectionalAcceleration.MaximumOfMinimumOverTime)                   | Gets the MaximumOfMinimumOverTime.                                     |
+| [`Minimum`](#DirectionalAcceleration.Minimum)                                                     | Gets the Minimum.                                                      |
+| [`MinimumOccursOn`](#DirectionalAcceleration.MinimumOccursOn)                                     | Gets the MinimumOccursOn.                                              |
+| [`MinimumOfMaximumOverTime`](#DirectionalAcceleration.MinimumOfMaximumOverTime)                   | Gets the MinimumOfMaximumOverTime.                                     |
+| [`MinimumOfMinimumOverTime`](#DirectionalAcceleration.MinimumOfMinimumOverTime)                   | Gets the MinimumOfMinimumOverTime.                                     |
+| [`ModalDampingRatio`](#DirectionalAcceleration.ModalDampingRatio)                                 | Gets the ModalDampingRatio.                                            |
+| [`Mode`](#DirectionalAcceleration.Mode)                                                           | Gets or sets the Mode.                                                 |
+| [`NamedSelections`](#DirectionalAcceleration.NamedSelections)                                     | Gets or sets the NamedSelections.                                      |
+| [`NormalOrientation`](#DirectionalAcceleration.NormalOrientation)                                 | Gets or sets the NormalOrientation.                                    |
+| [`Path`](#DirectionalAcceleration.Path)                                                           | Path property.                                                         |
+| [`PhaseIncrement`](#DirectionalAcceleration.PhaseIncrement)                                       | Gets or sets the PhaseIncrement.                                       |
+| [`PlotData`](#DirectionalAcceleration.PlotData)                                                   | Gets the result table.                                                 |
+| [`Probability`](#DirectionalAcceleration.Probability)                                             | Gets the Probability.                                                  |
+| [`Properties`](#DirectionalAcceleration.Properties)                                               | Gets the list of properties for this object.                           |
+| [`Reference`](#DirectionalAcceleration.Reference)                                                 | Gets the Reference.                                                    |
+| [`ReportedFrequency`](#DirectionalAcceleration.ReportedFrequency)                                 | Gets the ReportedFrequency.                                            |
+| [`ScaleFactor`](#DirectionalAcceleration.ScaleFactor)                                             | Gets or sets the ScaleFactor.                                          |
+| [`ScaleFactorValue`](#DirectionalAcceleration.ScaleFactorValue)                                   | Gets or sets the ScaleFactorValue.                                     |
+| [`ScopingMethod`](#DirectionalAcceleration.ScopingMethod)                                         | Gets or sets the ScopingMethod.                                        |
+| [`SetNumber`](#DirectionalAcceleration.SetNumber)                                                 | Gets or sets the Set Number.                                           |
+| [`SolutionCombinationDriver`](#DirectionalAcceleration.SolutionCombinationDriver)                 | Gets or sets the SolutionCombinationDriver.                            |
+| [`SolverComponentIDs`](#DirectionalAcceleration.SolverComponentIDs)                               | Gets or sets the SolverComponentIDs.                                   |
+| [`Stability`](#DirectionalAcceleration.Stability)                                                 | Gets the Stability.                                                    |
+| [`Substep`](#DirectionalAcceleration.Substep)                                                     | Gets the Substep.                                                      |
+| [`Suppressed`](#DirectionalAcceleration.Suppressed)                                               | Gets or sets the Suppressed.                                           |
+| [`Surface`](#DirectionalAcceleration.Surface)                                                     | Surface property.                                                      |
+| [`SweepingPhase`](#DirectionalAcceleration.SweepingPhase)                                         | Gets or sets the SweepingPhase.                                        |
+| [`Time`](#DirectionalAcceleration.Time)                                                           | Gets the Time.                                                         |
+| [`TimeForMaximumOfMaximumValues`](#DirectionalAcceleration.TimeForMaximumOfMaximumValues)         | Get the Time for the maximum of maximum values.                        |
+| [`TimeForMaximumOfMinimumValues`](#DirectionalAcceleration.TimeForMaximumOfMinimumValues)         | Get the Time for the maximum of minimum values.                        |
+| [`TimeForMinimumOfMaximumValues`](#DirectionalAcceleration.TimeForMinimumOfMaximumValues)         | Get the Time for the minimum of maximum values.                        |
+| [`TimeForMinimumOfMinimumValues`](#DirectionalAcceleration.TimeForMinimumOfMinimumValues)         | Get the Time for the minimum of minimum values.                        |
+| [`VisibleProperties`](#DirectionalAcceleration.VisibleProperties)                                 | Gets the list of properties that are visible for this object.          |
+| [`WaterfallPanelShowTextOnMosaic`](#DirectionalAcceleration.WaterfallPanelShowTextOnMosaic)       | Gets or sets the Waterfall Panel Mosaic Text Property.                 |
 
 <a id="property-detail"></a>
 
 ## Property detail
 
-### *property* DirectionalAcceleration.InternalObject *: Ansys.Common.Interop.DSObjectsAuto.IDSResultAuto | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets the internal object. For advanced usage only.
-
-<!-- !! processed by numpydoc !! -->
-
-### *property* DirectionalAcceleration.NormalOrientation *: [Ansys.Mechanical.DataModel.Enums.NormalOrientationType](../../../../../Mechanical/DataModel/Enums/NormalOrientationType.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.NormalOrientationType) | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the NormalOrientation.
-
-<!-- !! processed by numpydoc !! -->
-
-### *property* DirectionalAcceleration.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets the current DataModelObject's category.
-
-<!-- !! processed by numpydoc !! -->
-
-### *property* DirectionalAcceleration.Mode *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the Mode.
-
-<!-- !! processed by numpydoc !! -->
-
-### *property* DirectionalAcceleration.ReportedFrequency *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets the ReportedFrequency.
-
-<!-- !! processed by numpydoc !! -->
-
-### *property* DirectionalAcceleration.DampedFrequency *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets the DampedFrequency.
-
-<!-- !! processed by numpydoc !! -->
-
-### *property* DirectionalAcceleration.EnvironmentSelection *: [Ansys.ACT.Automation.Mechanical.Analysis](../../Analysis.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Analysis) | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the EnvironmentSelection.
-
-<!-- !! processed by numpydoc !! -->
-
-### *property* DirectionalAcceleration.LogarithmicDecrement *: System.Double | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets the LogarithmicDecrement.
-
-<!-- !! processed by numpydoc !! -->
-
-### *property* DirectionalAcceleration.ModalDampingRatio *: System.Double | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets the ModalDampingRatio.
-
-<!-- !! processed by numpydoc !! -->
-
-### *property* DirectionalAcceleration.HarmonicIndex *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the HarmonicIndex.
-
-<!-- !! processed by numpydoc !! -->
-
-### *property* DirectionalAcceleration.CyclicMode *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the CyclicMode.
-
-<!-- !! processed by numpydoc !! -->
-
-### *property* DirectionalAcceleration.IterationStep *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the IterationStep.
-
-<!-- !! processed by numpydoc !! -->
-
-### *property* DirectionalAcceleration.LoadMultiplier *: System.Double | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets the LoadMultiplier.
-
-<!-- !! processed by numpydoc !! -->
-
-### *property* DirectionalAcceleration.Probability *: System.Double | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets the Probability.
-
-<!-- !! processed by numpydoc !! -->
-
-### *property* DirectionalAcceleration.ScaleFactorValue *: System.Double | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the ScaleFactorValue.
-
-<!-- !! processed by numpydoc !! -->
-
-### *property* DirectionalAcceleration.Stability *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets the Stability.
-
-<!-- !! processed by numpydoc !! -->
-
-### *property* DirectionalAcceleration.CyclicPhase *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the CyclicPhase.
-
-<!-- !! processed by numpydoc !! -->
-
-### *property* DirectionalAcceleration.SweepingPhase *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the SweepingPhase.
-
-<!-- !! processed by numpydoc !! -->
-
-### *property* DirectionalAcceleration.PhaseIncrement *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the PhaseIncrement.
-
-<!-- !! processed by numpydoc !! -->
-
-### *property* DirectionalAcceleration.Frequency *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the Frequency.
-
-<!-- !! processed by numpydoc !! -->
-
-### *property* DirectionalAcceleration.DeformationType *: [Ansys.Mechanical.DataModel.Enums.TotalOrDirectional](../../../../../Mechanical/DataModel/Enums/TotalOrDirectional.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.TotalOrDirectional) | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the DeformationType.
-
-<!-- !! processed by numpydoc !! -->
-
-### *property* DirectionalAcceleration.Reference *: [Ansys.Mechanical.DataModel.Enums.ResultRelativityType](../../../../../Mechanical/DataModel/Enums/ResultRelativityType.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.ResultRelativityType) | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets the Reference.
-
-<!-- !! processed by numpydoc !! -->
-
-### *property* DirectionalAcceleration.ScaleFactor *: [Ansys.Mechanical.DataModel.Enums.ScaleFactorType](../../../../../Mechanical/DataModel/Enums/ScaleFactorType.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.ScaleFactorType) | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the ScaleFactor.
-
-<!-- !! processed by numpydoc !! -->
+<a id="DirectionalAcceleration.AccelerationInG"></a>
 
 ### *property* DirectionalAcceleration.AccelerationInG *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -278,11 +140,7 @@ Gets or sets the AccelerationInG.
 
 <!-- !! processed by numpydoc !! -->
 
-### *property* DirectionalAcceleration.Amplitude *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the Amplitude.
-
-<!-- !! processed by numpydoc !! -->
+<a id="DirectionalAcceleration.AllowPhaseSweep"></a>
 
 ### *property* DirectionalAcceleration.AllowPhaseSweep *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -290,71 +148,63 @@ Gets or sets the AllowPhaseSweep.
 
 <!-- !! processed by numpydoc !! -->
 
-### *property* DirectionalAcceleration.PlotData *: [Ansys.Mechanical.DataModel.Results.ResultDataTable](../../../../../Mechanical/DataModel/Results/ResultDataTable.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Results.ResultDataTable) | [None](https://docs.python.org/3/library/constants.html#None)*
+<a id="DirectionalAcceleration.Amplitude"></a>
 
-Gets the result table.
+### *property* DirectionalAcceleration.Amplitude *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
 
-<!-- !! processed by numpydoc !! -->
-
-### *property* DirectionalAcceleration.Location *: Ansys.ACT.Interfaces.Common.ISelectionInfo | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the Location.
+Gets or sets the Amplitude.
 
 <!-- !! processed by numpydoc !! -->
 
-### *property* DirectionalAcceleration.TimeForMinimumOfMinimumValues *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
+<a id="DirectionalAcceleration.Average"></a>
 
-Get the Time for the minimum of minimum values.
+### *property* DirectionalAcceleration.Average *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
 
-<!-- !! processed by numpydoc !! -->
-
-### *property* DirectionalAcceleration.TimeForMinimumOfMaximumValues *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Get the Time for the minimum of maximum values.
+Gets the Average.
 
 <!-- !! processed by numpydoc !! -->
 
-### *property* DirectionalAcceleration.LoadStepForMinimumOfMinimumValues *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+<a id="DirectionalAcceleration.By"></a>
 
-Get the Load Step for the minimum of minimum values.
+### *property* DirectionalAcceleration.By *: [Ansys.Mechanical.DataModel.Enums.SetDriverStyle](../../../../../../../v242/Ansys/Mechanical/DataModel/Enums/SetDriverStyle.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.SetDriverStyle) | [None](https://docs.python.org/3/library/constants.html#None)*
 
-<!-- !! processed by numpydoc !! -->
-
-### *property* DirectionalAcceleration.LoadStepForMinimumOfMaximumValues *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Get the Load Step for the minimum of maximum values.
+Gets or sets the By.
 
 <!-- !! processed by numpydoc !! -->
 
-### *property* DirectionalAcceleration.TimeForMaximumOfMinimumValues *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
+<a id="DirectionalAcceleration.CalculateTimeHistory"></a>
 
-Get the Time for the maximum of minimum values.
+### *property* DirectionalAcceleration.CalculateTimeHistory *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
 
-<!-- !! processed by numpydoc !! -->
-
-### *property* DirectionalAcceleration.TimeForMaximumOfMaximumValues *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Get the Time for the maximum of maximum values.
+Gets or sets the CalculateTimeHistory.
 
 <!-- !! processed by numpydoc !! -->
 
-### *property* DirectionalAcceleration.LoadStepForMaximumOfMinimumValues *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+<a id="DirectionalAcceleration.Children"></a>
 
-Get the Load Step for the maximum of minimum values.
+### *property* DirectionalAcceleration.Children *: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
 
-<!-- !! processed by numpydoc !! -->
-
-### *property* DirectionalAcceleration.LoadStepForMaximumOfMaximumValues *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Get the Load Step for the maximum of maximum values.
+Gets the list of children.
 
 <!-- !! processed by numpydoc !! -->
 
-### *property* DirectionalAcceleration.IsSolved *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+<a id="DirectionalAcceleration.CombinationNumber"></a>
 
-Gets the IsSolved.
+### *property* DirectionalAcceleration.CombinationNumber *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the Combination Number for a Solution Combination result.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="DirectionalAcceleration.Comments"></a>
+
+### *property* DirectionalAcceleration.Comments *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Comment](../../Comment.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets the list of associated comments.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="DirectionalAcceleration.CoordinateSystem"></a>
 
 ### *property* DirectionalAcceleration.CoordinateSystem *: [Ansys.ACT.Automation.Mechanical.CoordinateSystem](../../CoordinateSystem.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.CoordinateSystem) | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -364,53 +214,7 @@ Accepts/Returns None for Fiber Coordinate System for a result that is sub scoped
 
 <!-- !! processed by numpydoc !! -->
 
-### *property* DirectionalAcceleration.ScopingMethod *: [Ansys.Mechanical.DataModel.Enums.GeometryDefineByType](../../../../../Mechanical/DataModel/Enums/GeometryDefineByType.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.GeometryDefineByType) | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the ScopingMethod.
-
-<!-- !! processed by numpydoc !! -->
-
-### *property* DirectionalAcceleration.SetNumber *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the Set Number.
-
-<!-- !! processed by numpydoc !! -->
-
-### *property* DirectionalAcceleration.CombinationNumber *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the Combination Number for a Solution Combination result.
-
-<!-- !! processed by numpydoc !! -->
-
-### *property* DirectionalAcceleration.SolutionCombinationDriver *: [Ansys.Mechanical.DataModel.Enums.SolutionCombinationDriverStyle](../../../../../Mechanical/DataModel/Enums/SolutionCombinationDriverStyle.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.SolutionCombinationDriverStyle) | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the SolutionCombinationDriver.
-
-<!-- !! processed by numpydoc !! -->
-
-### *property* DirectionalAcceleration.Path *: [Ansys.ACT.Automation.Mechanical.Path](../../Path.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Path) | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Path property.
-
-<!-- !! processed by numpydoc !! -->
-
-### *property* DirectionalAcceleration.Surface *: [Ansys.ACT.Automation.Mechanical.Surface](../../Surface.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Surface) | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Surface property.
-
-<!-- !! processed by numpydoc !! -->
-
-### *property* DirectionalAcceleration.NamedSelections *: System.Collections.Generic.IEnumerable[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the NamedSelections.
-
-<!-- !! processed by numpydoc !! -->
-
-### *property* DirectionalAcceleration.WaterfallPanelShowTextOnMosaic *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the Waterfall Panel Mosaic Text Property.
-
-<!-- !! processed by numpydoc !! -->
+<a id="DirectionalAcceleration.CrackFrontNumber"></a>
 
 ### *property* DirectionalAcceleration.CrackFrontNumber *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -418,107 +222,55 @@ Gets or sets the CrackFrontNumber.
 
 <!-- !! processed by numpydoc !! -->
 
-### *property* DirectionalAcceleration.GlobalIDs *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+<a id="DirectionalAcceleration.CyclicMode"></a>
 
-Gets or sets the GlobalIDs.
+### *property* DirectionalAcceleration.CyclicMode *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
 
-<!-- !! processed by numpydoc !! -->
-
-### *property* DirectionalAcceleration.Identifier *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the Identifier.
+Gets or sets the CyclicMode.
 
 <!-- !! processed by numpydoc !! -->
 
-### *property* DirectionalAcceleration.IterationNumber *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+<a id="DirectionalAcceleration.CyclicPhase"></a>
 
-Gets the IterationNumber.
+### *property* DirectionalAcceleration.CyclicPhase *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
 
-<!-- !! processed by numpydoc !! -->
-
-### *property* DirectionalAcceleration.LoadStep *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets the LoadStep.
+Gets or sets the CyclicPhase.
 
 <!-- !! processed by numpydoc !! -->
 
-### *property* DirectionalAcceleration.MaximumOccursOn *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+<a id="DirectionalAcceleration.DampedFrequency"></a>
 
-Gets the MaximumOccursOn.
+### *property* DirectionalAcceleration.DampedFrequency *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
 
-<!-- !! processed by numpydoc !! -->
-
-### *property* DirectionalAcceleration.MinimumOccursOn *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets the MinimumOccursOn.
+Gets the DampedFrequency.
 
 <!-- !! processed by numpydoc !! -->
 
-### *property* DirectionalAcceleration.LoadStepNumber *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+<a id="DirectionalAcceleration.DataModelObjectCategory"></a>
 
-Gets or sets the LoadStepNumber.
+### *property* DirectionalAcceleration.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../../../v242/Ansys/Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
-<!-- !! processed by numpydoc !! -->
-
-### *property* DirectionalAcceleration.SolverComponentIDs *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the SolverComponentIDs.
+Gets the current DataModelObject’s category.
 
 <!-- !! processed by numpydoc !! -->
 
-### *property* DirectionalAcceleration.Substep *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+<a id="DirectionalAcceleration.DeformationType"></a>
 
-Gets the Substep.
+### *property* DirectionalAcceleration.DeformationType *: [Ansys.Mechanical.DataModel.Enums.TotalOrDirectional](../../../../../../../v242/Ansys/Mechanical/DataModel/Enums/TotalOrDirectional.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.TotalOrDirectional) | [None](https://docs.python.org/3/library/constants.html#None)*
 
-<!-- !! processed by numpydoc !! -->
-
-### *property* DirectionalAcceleration.Average *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets the Average.
+Gets or sets the DeformationType.
 
 <!-- !! processed by numpydoc !! -->
 
-### *property* DirectionalAcceleration.Maximum *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
+<a id="DirectionalAcceleration.DisplayOption"></a>
 
-Gets the Maximum.
+### *property* DirectionalAcceleration.DisplayOption *: [Ansys.Mechanical.DataModel.Enums.ResultAveragingType](../../../../../../../v242/Ansys/Mechanical/DataModel/Enums/ResultAveragingType.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.ResultAveragingType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
-<!-- !! processed by numpydoc !! -->
-
-### *property* DirectionalAcceleration.MaximumOfMaximumOverTime *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets the MaximumOfMaximumOverTime.
+Gets or sets the DisplayOption.
 
 <!-- !! processed by numpydoc !! -->
 
-### *property* DirectionalAcceleration.MaximumOfMinimumOverTime *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets the MaximumOfMinimumOverTime.
-
-<!-- !! processed by numpydoc !! -->
-
-### *property* DirectionalAcceleration.Minimum *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets the Minimum.
-
-<!-- !! processed by numpydoc !! -->
-
-### *property* DirectionalAcceleration.MinimumOfMaximumOverTime *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets the MinimumOfMaximumOverTime.
-
-<!-- !! processed by numpydoc !! -->
-
-### *property* DirectionalAcceleration.MinimumOfMinimumOverTime *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets the MinimumOfMinimumOverTime.
-
-<!-- !! processed by numpydoc !! -->
-
-### *property* DirectionalAcceleration.Time *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets the Time.
-
-<!-- !! processed by numpydoc !! -->
+<a id="DirectionalAcceleration.DisplayTime"></a>
 
 ### *property* DirectionalAcceleration.DisplayTime *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -526,59 +278,23 @@ Gets or sets the DisplayTime.
 
 <!-- !! processed by numpydoc !! -->
 
-### *property* DirectionalAcceleration.GraphControlsXAxis *: [Ansys.Mechanical.DataModel.Enums.GraphControlsXAxis](../../../../../Mechanical/DataModel/Enums/GraphControlsXAxis.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.GraphControlsXAxis) | [None](https://docs.python.org/3/library/constants.html#None)*
+<a id="DirectionalAcceleration.DpfEvaluation"></a>
 
-Gets or sets the GraphControlsXAxis.
-
-<!-- !! processed by numpydoc !! -->
-
-### *property* DirectionalAcceleration.DisplayOption *: [Ansys.Mechanical.DataModel.Enums.ResultAveragingType](../../../../../Mechanical/DataModel/Enums/ResultAveragingType.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.ResultAveragingType) | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the DisplayOption.
-
-<!-- !! processed by numpydoc !! -->
-
-### *property* DirectionalAcceleration.DpfEvaluation *: [Ansys.Mechanical.DataModel.Enums.DpfEvaluationType](../../../../../Mechanical/DataModel/Enums/DpfEvaluationType.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DpfEvaluationType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* DirectionalAcceleration.DpfEvaluation *: [Ansys.Mechanical.DataModel.Enums.DpfEvaluationType](../../../../../../../v242/Ansys/Mechanical/DataModel/Enums/DpfEvaluationType.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.DpfEvaluationType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the DpfEvaluation.
 
 <!-- !! processed by numpydoc !! -->
 
-### *property* DirectionalAcceleration.By *: [Ansys.Mechanical.DataModel.Enums.SetDriverStyle](../../../../../Mechanical/DataModel/Enums/SetDriverStyle.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.SetDriverStyle) | [None](https://docs.python.org/3/library/constants.html#None)*
+<a id="DirectionalAcceleration.EnvironmentSelection"></a>
 
-Gets or sets the By.
+### *property* DirectionalAcceleration.EnvironmentSelection *: [Ansys.ACT.Automation.Mechanical.Analysis](../../Analysis.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Analysis) | [None](https://docs.python.org/3/library/constants.html#None)*
 
-<!-- !! processed by numpydoc !! -->
-
-### *property* DirectionalAcceleration.ItemType *: [Ansys.Mechanical.DataModel.Enums.ResultFileItemType](../../../../../Mechanical/DataModel/Enums/ResultFileItemType.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.ResultFileItemType) | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the ItemType.
+Gets or sets the EnvironmentSelection.
 
 <!-- !! processed by numpydoc !! -->
 
-### *property* DirectionalAcceleration.CalculateTimeHistory *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the CalculateTimeHistory.
-
-<!-- !! processed by numpydoc !! -->
-
-### *property* DirectionalAcceleration.Suppressed *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the Suppressed.
-
-<!-- !! processed by numpydoc !! -->
-
-### *property* DirectionalAcceleration.Children *: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets the list of children.
-
-<!-- !! processed by numpydoc !! -->
-
-### *property* DirectionalAcceleration.Comments *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Comment](../../Comment.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets the list of associated comments.
-
-<!-- !! processed by numpydoc !! -->
+<a id="DirectionalAcceleration.Figures"></a>
 
 ### *property* DirectionalAcceleration.Figures *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Figure](../../Figure.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -586,17 +302,295 @@ Gets the list of associated figures.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="DirectionalAcceleration.Frequency"></a>
+
+### *property* DirectionalAcceleration.Frequency *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the Frequency.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="DirectionalAcceleration.GlobalIDs"></a>
+
+### *property* DirectionalAcceleration.GlobalIDs *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the GlobalIDs.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="DirectionalAcceleration.GraphControlsXAxis"></a>
+
+### *property* DirectionalAcceleration.GraphControlsXAxis *: [Ansys.Mechanical.DataModel.Enums.GraphControlsXAxis](../../../../../../../v242/Ansys/Mechanical/DataModel/Enums/GraphControlsXAxis.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.GraphControlsXAxis) | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the GraphControlsXAxis.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="DirectionalAcceleration.HarmonicIndex"></a>
+
+### *property* DirectionalAcceleration.HarmonicIndex *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the HarmonicIndex.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="DirectionalAcceleration.Identifier"></a>
+
+### *property* DirectionalAcceleration.Identifier *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the Identifier.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="DirectionalAcceleration.Images"></a>
+
 ### *property* DirectionalAcceleration.Images *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Image](../../Image.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated images.
 
 <!-- !! processed by numpydoc !! -->
 
-### *property* DirectionalAcceleration.InternalObject *: System.Object | [None](https://docs.python.org/3/library/constants.html#None)*
+<a id="DirectionalAcceleration.InternalObject"></a>
+
+### *property* DirectionalAcceleration.InternalObject *: Ansys.Common.Interop.DSObjectsAuto.IDSResultAuto | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the internal object. For advanced usage only.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="DirectionalAcceleration.IsSolved"></a>
+
+### *property* DirectionalAcceleration.IsSolved *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets the IsSolved.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="DirectionalAcceleration.ItemType"></a>
+
+### *property* DirectionalAcceleration.ItemType *: [Ansys.Mechanical.DataModel.Enums.ResultFileItemType](../../../../../../../v242/Ansys/Mechanical/DataModel/Enums/ResultFileItemType.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.ResultFileItemType) | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the ItemType.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="DirectionalAcceleration.IterationNumber"></a>
+
+### *property* DirectionalAcceleration.IterationNumber *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets the IterationNumber.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="DirectionalAcceleration.IterationStep"></a>
+
+### *property* DirectionalAcceleration.IterationStep *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the IterationStep.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="DirectionalAcceleration.LoadMultiplier"></a>
+
+### *property* DirectionalAcceleration.LoadMultiplier *: System.Double | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets the LoadMultiplier.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="DirectionalAcceleration.LoadStep"></a>
+
+### *property* DirectionalAcceleration.LoadStep *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets the LoadStep.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="DirectionalAcceleration.LoadStepForMaximumOfMaximumValues"></a>
+
+### *property* DirectionalAcceleration.LoadStepForMaximumOfMaximumValues *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Get the Load Step for the maximum of maximum values.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="DirectionalAcceleration.LoadStepForMaximumOfMinimumValues"></a>
+
+### *property* DirectionalAcceleration.LoadStepForMaximumOfMinimumValues *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Get the Load Step for the maximum of minimum values.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="DirectionalAcceleration.LoadStepForMinimumOfMaximumValues"></a>
+
+### *property* DirectionalAcceleration.LoadStepForMinimumOfMaximumValues *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Get the Load Step for the minimum of maximum values.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="DirectionalAcceleration.LoadStepForMinimumOfMinimumValues"></a>
+
+### *property* DirectionalAcceleration.LoadStepForMinimumOfMinimumValues *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Get the Load Step for the minimum of minimum values.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="DirectionalAcceleration.LoadStepNumber"></a>
+
+### *property* DirectionalAcceleration.LoadStepNumber *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the LoadStepNumber.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="DirectionalAcceleration.Location"></a>
+
+### *property* DirectionalAcceleration.Location *: Ansys.ACT.Interfaces.Common.ISelectionInfo | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the Location.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="DirectionalAcceleration.LogarithmicDecrement"></a>
+
+### *property* DirectionalAcceleration.LogarithmicDecrement *: System.Double | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets the LogarithmicDecrement.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="DirectionalAcceleration.Maximum"></a>
+
+### *property* DirectionalAcceleration.Maximum *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets the Maximum.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="DirectionalAcceleration.MaximumOccursOn"></a>
+
+### *property* DirectionalAcceleration.MaximumOccursOn *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets the MaximumOccursOn.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="DirectionalAcceleration.MaximumOfMaximumOverTime"></a>
+
+### *property* DirectionalAcceleration.MaximumOfMaximumOverTime *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets the MaximumOfMaximumOverTime.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="DirectionalAcceleration.MaximumOfMinimumOverTime"></a>
+
+### *property* DirectionalAcceleration.MaximumOfMinimumOverTime *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets the MaximumOfMinimumOverTime.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="DirectionalAcceleration.Minimum"></a>
+
+### *property* DirectionalAcceleration.Minimum *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets the Minimum.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="DirectionalAcceleration.MinimumOccursOn"></a>
+
+### *property* DirectionalAcceleration.MinimumOccursOn *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets the MinimumOccursOn.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="DirectionalAcceleration.MinimumOfMaximumOverTime"></a>
+
+### *property* DirectionalAcceleration.MinimumOfMaximumOverTime *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets the MinimumOfMaximumOverTime.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="DirectionalAcceleration.MinimumOfMinimumOverTime"></a>
+
+### *property* DirectionalAcceleration.MinimumOfMinimumOverTime *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets the MinimumOfMinimumOverTime.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="DirectionalAcceleration.ModalDampingRatio"></a>
+
+### *property* DirectionalAcceleration.ModalDampingRatio *: System.Double | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets the ModalDampingRatio.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="DirectionalAcceleration.Mode"></a>
+
+### *property* DirectionalAcceleration.Mode *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the Mode.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="DirectionalAcceleration.NamedSelections"></a>
+
+### *property* DirectionalAcceleration.NamedSelections *: System.Collections.Generic.IEnumerable[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the NamedSelections.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="DirectionalAcceleration.NormalOrientation"></a>
+
+### *property* DirectionalAcceleration.NormalOrientation *: [Ansys.Mechanical.DataModel.Enums.NormalOrientationType](../../../../../../../v242/Ansys/Mechanical/DataModel/Enums/NormalOrientationType.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.NormalOrientationType) | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the NormalOrientation.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="DirectionalAcceleration.Path"></a>
+
+### *property* DirectionalAcceleration.Path *: [Ansys.ACT.Automation.Mechanical.Path](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Path.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Path) | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Path property.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="DirectionalAcceleration.PhaseIncrement"></a>
+
+### *property* DirectionalAcceleration.PhaseIncrement *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the PhaseIncrement.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="DirectionalAcceleration.PlotData"></a>
+
+### *property* DirectionalAcceleration.PlotData *: [Ansys.Mechanical.DataModel.Results.ResultDataTable](../../../../../../../v242/Ansys/Mechanical/DataModel/Results/ResultDataTable.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Results.ResultDataTable) | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets the result table.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="DirectionalAcceleration.Probability"></a>
+
+### *property* DirectionalAcceleration.Probability *: System.Double | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets the Probability.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="DirectionalAcceleration.Properties"></a>
 
 ### *property* DirectionalAcceleration.Properties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -604,9 +598,163 @@ Gets the list of properties for this object.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="DirectionalAcceleration.Reference"></a>
+
+### *property* DirectionalAcceleration.Reference *: [Ansys.Mechanical.DataModel.Enums.ResultRelativityType](../../../../../../../v242/Ansys/Mechanical/DataModel/Enums/ResultRelativityType.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.ResultRelativityType) | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets the Reference.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="DirectionalAcceleration.ReportedFrequency"></a>
+
+### *property* DirectionalAcceleration.ReportedFrequency *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets the ReportedFrequency.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="DirectionalAcceleration.ScaleFactor"></a>
+
+### *property* DirectionalAcceleration.ScaleFactor *: [Ansys.Mechanical.DataModel.Enums.ScaleFactorType](../../../../../../../v242/Ansys/Mechanical/DataModel/Enums/ScaleFactorType.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.ScaleFactorType) | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the ScaleFactor.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="DirectionalAcceleration.ScaleFactorValue"></a>
+
+### *property* DirectionalAcceleration.ScaleFactorValue *: System.Double | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the ScaleFactorValue.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="DirectionalAcceleration.ScopingMethod"></a>
+
+### *property* DirectionalAcceleration.ScopingMethod *: [Ansys.Mechanical.DataModel.Enums.GeometryDefineByType](../../../../../../../v242/Ansys/Mechanical/DataModel/Enums/GeometryDefineByType.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.GeometryDefineByType) | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the ScopingMethod.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="DirectionalAcceleration.SetNumber"></a>
+
+### *property* DirectionalAcceleration.SetNumber *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the Set Number.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="DirectionalAcceleration.SolutionCombinationDriver"></a>
+
+### *property* DirectionalAcceleration.SolutionCombinationDriver *: [Ansys.Mechanical.DataModel.Enums.SolutionCombinationDriverStyle](../../../../../../../v242/Ansys/Mechanical/DataModel/Enums/SolutionCombinationDriverStyle.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.SolutionCombinationDriverStyle) | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the SolutionCombinationDriver.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="DirectionalAcceleration.SolverComponentIDs"></a>
+
+### *property* DirectionalAcceleration.SolverComponentIDs *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the SolverComponentIDs.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="DirectionalAcceleration.Stability"></a>
+
+### *property* DirectionalAcceleration.Stability *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets the Stability.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="DirectionalAcceleration.Substep"></a>
+
+### *property* DirectionalAcceleration.Substep *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets the Substep.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="DirectionalAcceleration.Suppressed"></a>
+
+### *property* DirectionalAcceleration.Suppressed *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the Suppressed.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="DirectionalAcceleration.Surface"></a>
+
+### *property* DirectionalAcceleration.Surface *: [Ansys.ACT.Automation.Mechanical.Surface](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Surface.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Surface) | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Surface property.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="DirectionalAcceleration.SweepingPhase"></a>
+
+### *property* DirectionalAcceleration.SweepingPhase *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the SweepingPhase.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="DirectionalAcceleration.Time"></a>
+
+### *property* DirectionalAcceleration.Time *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets the Time.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="DirectionalAcceleration.TimeForMaximumOfMaximumValues"></a>
+
+### *property* DirectionalAcceleration.TimeForMaximumOfMaximumValues *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Get the Time for the maximum of maximum values.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="DirectionalAcceleration.TimeForMaximumOfMinimumValues"></a>
+
+### *property* DirectionalAcceleration.TimeForMaximumOfMinimumValues *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Get the Time for the maximum of minimum values.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="DirectionalAcceleration.TimeForMinimumOfMaximumValues"></a>
+
+### *property* DirectionalAcceleration.TimeForMinimumOfMaximumValues *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Get the Time for the minimum of maximum values.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="DirectionalAcceleration.TimeForMinimumOfMinimumValues"></a>
+
+### *property* DirectionalAcceleration.TimeForMinimumOfMinimumValues *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Get the Time for the minimum of minimum values.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="DirectionalAcceleration.VisibleProperties"></a>
+
 ### *property* DirectionalAcceleration.VisibleProperties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of properties that are visible for this object.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="DirectionalAcceleration.WaterfallPanelShowTextOnMosaic"></a>
+
+### *property* DirectionalAcceleration.WaterfallPanelShowTextOnMosaic *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the Waterfall Panel Mosaic Text Property.
 
 <!-- !! processed by numpydoc !! -->
 
@@ -614,59 +762,15 @@ Gets the list of properties that are visible for this object.
 
 ## Method detail
 
-### DirectionalAcceleration.ClearGeneratedData()
+<a id="DirectionalAcceleration.Activate"></a>
 
-Run the ClearGeneratedData action.
+### DirectionalAcceleration.Activate()
 
-<!-- !! processed by numpydoc !! -->
-
-### DirectionalAcceleration.EvaluateAllResults()
-
-Run the EvaluateAllResults action.
+Activate the current object.
 
 <!-- !! processed by numpydoc !! -->
 
-### DirectionalAcceleration.FetchRemoteResults()
-
-Run the FetchRemoteResult action.
-
-<!-- !! processed by numpydoc !! -->
-
-### DirectionalAcceleration.ExportToTextFile(filePath: System.String)
-
-Run the ExportToTextFile action.
-
-<!-- !! processed by numpydoc !! -->
-
-### DirectionalAcceleration.ExportAnimation(filePath: System.String, format: [Ansys.Mechanical.DataModel.Enums.GraphicsAnimationExportFormat](../../../../../Mechanical/DataModel/Enums/GraphicsAnimationExportFormat.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.GraphicsAnimationExportFormat), settings: [Ansys.Mechanical.Graphics.AnimationExportSettings](../../../../../Mechanical/Graphics/AnimationExportSettings.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.Graphics.AnimationExportSettings))
-
-Run the ExportAnimation action.
-
-<!-- !! processed by numpydoc !! -->
-
-### DirectionalAcceleration.DuplicateWithoutResults()
-
-Run the DuplicateWithoutResults action.
-
-<!-- !! processed by numpydoc !! -->
-
-### DirectionalAcceleration.CreateResultsAtAllSets()
-
-Creates results at all sets for results under a solution.
-
-<!-- !! processed by numpydoc !! -->
-
-### DirectionalAcceleration.PromoteToNamedSelection()
-
-Run the PromoteToNamedSelection action.
-
-<!-- !! processed by numpydoc !! -->
-
-### DirectionalAcceleration.CreateParameter(propName: System.String)
-
-CreateParameter method.
-
-<!-- !! processed by numpydoc !! -->
+<a id="DirectionalAcceleration.AddAlert"></a>
 
 ### DirectionalAcceleration.AddAlert()
 
@@ -674,35 +778,7 @@ Creates a new Alert
 
 <!-- !! processed by numpydoc !! -->
 
-### DirectionalAcceleration.AddConvergence()
-
-Creates a new Convergence
-
-<!-- !! processed by numpydoc !! -->
-
-### DirectionalAcceleration.RenameBasedOnDefinition()
-
-Run the RenameBasedOnDefinition action.
-
-<!-- !! processed by numpydoc !! -->
-
-### DirectionalAcceleration.Delete()
-
-Run the Delete action.
-
-<!-- !! processed by numpydoc !! -->
-
-### DirectionalAcceleration.GetChildren(recurses: System.Boolean, children: System.Collections.Generic.IList[ChildrenType])
-
-Gets the list of children, filtered by type.
-
-<!-- !! processed by numpydoc !! -->
-
-### DirectionalAcceleration.GetChildren(category: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory), recurses: System.Boolean, children: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject])
-
-Gets the list of children, filtered by type.
-
-<!-- !! processed by numpydoc !! -->
+<a id="DirectionalAcceleration.AddComment"></a>
 
 ### DirectionalAcceleration.AddComment()
 
@@ -710,11 +786,23 @@ Creates a new child Comment.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="DirectionalAcceleration.AddConvergence"></a>
+
+### DirectionalAcceleration.AddConvergence()
+
+Creates a new Convergence
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="DirectionalAcceleration.AddFigure"></a>
+
 ### DirectionalAcceleration.AddFigure()
 
 Creates a new child Figure.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="DirectionalAcceleration.AddImage"></a>
 
 ### DirectionalAcceleration.AddImage(filePath: System.String)
 
@@ -726,11 +814,15 @@ if not, the image will be a screen capture of the Geometry window.
 
 <!-- !! processed by numpydoc !! -->
 
-### DirectionalAcceleration.Activate()
+<a id="DirectionalAcceleration.ClearGeneratedData"></a>
 
-Activate the current object.
+### DirectionalAcceleration.ClearGeneratedData()
+
+Run the ClearGeneratedData action.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="DirectionalAcceleration.CopyTo"></a>
 
 ### DirectionalAcceleration.CopyTo(other: Ansys.ACT.Automation.Mechanical.DataModelObject)
 
@@ -738,11 +830,95 @@ Copies all visible properties from this object to another.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="DirectionalAcceleration.CreateParameter"></a>
+
+### DirectionalAcceleration.CreateParameter(propName: System.String)
+
+CreateParameter method.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="DirectionalAcceleration.CreateResultsAtAllSets"></a>
+
+### DirectionalAcceleration.CreateResultsAtAllSets()
+
+Creates results at all sets for results under a solution.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="DirectionalAcceleration.Delete"></a>
+
+### DirectionalAcceleration.Delete()
+
+Run the Delete action.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="DirectionalAcceleration.Duplicate"></a>
+
 ### DirectionalAcceleration.Duplicate()
 
 Creates a copy of the current DataModelObject.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="DirectionalAcceleration.DuplicateWithoutResults"></a>
+
+### DirectionalAcceleration.DuplicateWithoutResults()
+
+Run the DuplicateWithoutResults action.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="DirectionalAcceleration.EvaluateAllResults"></a>
+
+### DirectionalAcceleration.EvaluateAllResults()
+
+Run the EvaluateAllResults action.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="DirectionalAcceleration.ExportAnimation"></a>
+
+### DirectionalAcceleration.ExportAnimation(filePath: System.String, format: [Ansys.Mechanical.DataModel.Enums.GraphicsAnimationExportFormat](../../../../../../../v242/Ansys/Mechanical/DataModel/Enums/GraphicsAnimationExportFormat.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.GraphicsAnimationExportFormat), settings: [Ansys.Mechanical.Graphics.AnimationExportSettings](../../../../../../../v242/Ansys/Mechanical/Graphics/AnimationExportSettings.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.Graphics.AnimationExportSettings))
+
+Run the ExportAnimation action.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="DirectionalAcceleration.ExportToTextFile"></a>
+
+### DirectionalAcceleration.ExportToTextFile(filePath: System.String)
+
+Run the ExportToTextFile action.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="DirectionalAcceleration.FetchRemoteResults"></a>
+
+### DirectionalAcceleration.FetchRemoteResults()
+
+Run the FetchRemoteResult action.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="DirectionalAcceleration.GetChildren"></a>
+
+### DirectionalAcceleration.GetChildren(recurses: System.Boolean, children: System.Collections.Generic.IList[ChildrenType])
+
+Gets the list of children, filtered by type.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="DirectionalAcceleration.GetParameter"></a>
+
+### DirectionalAcceleration.GetParameter(propName: System.String)
+
+Gets the parameter corresponding to the given property.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="DirectionalAcceleration.GroupAllSimilarChildren"></a>
 
 ### DirectionalAcceleration.GroupAllSimilarChildren()
 
@@ -750,17 +926,23 @@ Run the GroupAllSimilarChildren action.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="DirectionalAcceleration.GroupSimilarObjects"></a>
+
 ### DirectionalAcceleration.GroupSimilarObjects()
 
 Run the GroupSimilarObjects action.
 
 <!-- !! processed by numpydoc !! -->
 
-### DirectionalAcceleration.PropertyByName(name: System.String)
+<a id="DirectionalAcceleration.PromoteToNamedSelection"></a>
 
-Get a property by its unique name.
+### DirectionalAcceleration.PromoteToNamedSelection()
+
+Run the PromoteToNamedSelection action.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="DirectionalAcceleration.PropertyByAPIName"></a>
 
 ### DirectionalAcceleration.PropertyByAPIName(name: System.String)
 
@@ -771,15 +953,27 @@ If multiple properties have the same API Name, only the first property with that
 
 <!-- !! processed by numpydoc !! -->
 
-### DirectionalAcceleration.GetParameter(propName: System.String)
+<a id="DirectionalAcceleration.PropertyByName"></a>
 
-Gets the parameter corresponding to the given property.
+### DirectionalAcceleration.PropertyByName(name: System.String)
+
+Get a property by its unique name.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="DirectionalAcceleration.RemoveParameter"></a>
 
 ### DirectionalAcceleration.RemoveParameter(propName: System.String)
 
 Removes the parameter from the parameter set corresponding to the given property.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="DirectionalAcceleration.RenameBasedOnDefinition"></a>
+
+### DirectionalAcceleration.RenameBasedOnDefinition()
+
+Run the RenameBasedOnDefinition action.
 
 <!-- !! processed by numpydoc !! -->
 

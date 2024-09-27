@@ -1,6 +1,6 @@
 # `NodalPlanesVisible`
 
-
+<a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.NodalPlanesVisible"></a>
 
 #### *class* ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.NodalPlanesVisible
 
@@ -17,9 +17,9 @@ Specifies the NodalPlanesVisible.
 ### Attributes
 
 | Name |
-| ---------------------------------------------------------------------------------------------------------------- |
-| [`All`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/NodalPlanesVisible.md#NodalPlanesVisible.All) |
-| [`Range`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/NodalPlanesVisible.md#NodalPlanesVisible.Range) |
+| -------------------------------------- |
+| [`All`](#NodalPlanesVisible.All) |
+| [`Range`](#NodalPlanesVisible.Range) |
 
 <a id="attribute-detail"></a>
 

@@ -1,6 +1,6 @@
 # `MeshRestartRetainFilesType`
 
-
+<a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.MeshRestartRetainFilesType"></a>
 
 #### *class* ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.MeshRestartRetainFilesType
 
@@ -17,9 +17,9 @@ Specifies the MeshRestartRetainFilesType.
 ### Attributes
 
 | Name |
-| ---------------------------------------------------------------------------------------------------------------------------- |
-| [`No`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/MeshRestartRetainFilesType.md#MeshRestartRetainFilesType.No) |
-| [`Yes`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/MeshRestartRetainFilesType.md#MeshRestartRetainFilesType.Yes) |
+| ------------------------------------------ |
+| [`No`](#MeshRestartRetainFilesType.No) |
+| [`Yes`](#MeshRestartRetainFilesType.Yes) |
 
 <a id="attribute-detail"></a>
 

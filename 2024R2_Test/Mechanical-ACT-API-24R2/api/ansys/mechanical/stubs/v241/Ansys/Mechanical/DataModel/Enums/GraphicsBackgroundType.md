@@ -1,6 +1,6 @@
 # `GraphicsBackgroundType`
 
-
+<a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.GraphicsBackgroundType"></a>
 
 #### *class* ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.GraphicsBackgroundType
 
@@ -17,9 +17,9 @@ Specifies the Graphics Image Background Type.
 ### Attributes
 
 | Name |
-| ------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| [`GraphicsAppearanceSetting`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/GraphicsBackgroundType.md#GraphicsBackgroundType.GraphicsAppearanceSetting) |
-| [`White`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/GraphicsBackgroundType.md#GraphicsBackgroundType.White) |
+| ------------------------------------------------------------------------------------ |
+| [`GraphicsAppearanceSetting`](#GraphicsBackgroundType.GraphicsAppearanceSetting) |
+| [`White`](#GraphicsBackgroundType.White) |
 
 <a id="attribute-detail"></a>
 

@@ -1,6 +1,6 @@
 # `TopoConstraintStressType`
 
-
+<a id="ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.TopoConstraintStressType"></a>
 
 #### *class* ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.TopoConstraintStressType
 
@@ -17,7 +17,7 @@ Specifies the TopoConstraintStressType.
 ### Attributes
 
 | Name |
-| ------------------------------------------------------------------------------ |
+| -------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | [`LocalStrainEnergy`](#TopoConstraintStressType.LocalStrainEnergy) |
 | [`MaximumPrincipalStress`](#TopoConstraintStressType.MaximumPrincipalStress) |
 | [`VonMisesStress`](#TopoConstraintStressType.VonMisesStress) |

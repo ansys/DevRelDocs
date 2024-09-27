@@ -1,6 +1,6 @@
 # `GraphicsAnimationExportFormat`
 
-
+<a id="ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.GraphicsAnimationExportFormat"></a>
 
 #### *class* ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.GraphicsAnimationExportFormat
 
@@ -17,23 +17,15 @@ Specifies the Animation Export File Format.
 ### Attributes
 
 | Name |
-| ----------------------------------------------- |
-| [`MP4`](#GraphicsAnimationExportFormat.MP4) |
-| [`WMV`](#GraphicsAnimationExportFormat.WMV) |
+| ------------------------------------------------------------------------------------------------------------------------------------ |
 | [`AVI`](#GraphicsAnimationExportFormat.AVI) |
 | [`GIF`](#GraphicsAnimationExportFormat.GIF) |
+| [`MP4`](#GraphicsAnimationExportFormat.MP4) |
+| [`WMV`](#GraphicsAnimationExportFormat.WMV) |
 
 <a id="attribute-detail"></a>
 
 ## Attribute detail
-
-<a id="GraphicsAnimationExportFormat.MP4"></a>
-
-### GraphicsAnimationExportFormat.MP4 *= 0*
-
-<a id="GraphicsAnimationExportFormat.WMV"></a>
-
-### GraphicsAnimationExportFormat.WMV *= 1*
 
 <a id="GraphicsAnimationExportFormat.AVI"></a>
 
@@ -42,5 +34,13 @@ Specifies the Animation Export File Format.
 <a id="GraphicsAnimationExportFormat.GIF"></a>
 
 ### GraphicsAnimationExportFormat.GIF *= 3*
+
+<a id="GraphicsAnimationExportFormat.MP4"></a>
+
+### GraphicsAnimationExportFormat.MP4 *= 0*
+
+<a id="GraphicsAnimationExportFormat.WMV"></a>
+
+### GraphicsAnimationExportFormat.WMV *= 1*
 
 

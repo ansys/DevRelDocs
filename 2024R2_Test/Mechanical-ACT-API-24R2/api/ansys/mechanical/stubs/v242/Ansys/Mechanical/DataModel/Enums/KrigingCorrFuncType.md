@@ -1,6 +1,6 @@
 # `KrigingCorrFuncType`
 
-
+<a id="ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.KrigingCorrFuncType"></a>
 
 #### *class* ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.KrigingCorrFuncType
 
@@ -15,23 +15,23 @@ Bases: [`enum.Enum`](https://docs.python.org/3/library/enum.html#enum.Enum)
 ### Attributes
 
 | Name |
-| ------------------------------------------------------------------------- |
-| [`CorrFuncNone`](#KrigingCorrFuncType.CorrFuncNone) |
+| ---------------------------------------------------------------------------------------------------------------------------------------------------- |
+| [`CorrFuncCubic`](#KrigingCorrFuncType.CorrFuncCubic) |
 | [`CorrFuncExp`](#KrigingCorrFuncType.CorrFuncExp) |
 | [`CorrFuncGauss`](#KrigingCorrFuncType.CorrFuncGauss) |
 | [`CorrFuncLin`](#KrigingCorrFuncType.CorrFuncLin) |
-| [`CorrFuncSpherical`](#KrigingCorrFuncType.CorrFuncSpherical) |
-| [`CorrFuncCubic`](#KrigingCorrFuncType.CorrFuncCubic) |
 | [`CorrFuncMultiQuadratic`](#KrigingCorrFuncType.CorrFuncMultiQuadratic) |
+| [`CorrFuncNone`](#KrigingCorrFuncType.CorrFuncNone) |
+| [`CorrFuncSpherical`](#KrigingCorrFuncType.CorrFuncSpherical) |
 | [`CorrFuncThinPlateSpine`](#KrigingCorrFuncType.CorrFuncThinPlateSpine) |
 
 <a id="attribute-detail"></a>
 
 ## Attribute detail
 
-<a id="KrigingCorrFuncType.CorrFuncNone"></a>
+<a id="KrigingCorrFuncType.CorrFuncCubic"></a>
 
-### KrigingCorrFuncType.CorrFuncNone *= 0*
+### KrigingCorrFuncType.CorrFuncCubic *= 5*
 
 <a id="KrigingCorrFuncType.CorrFuncExp"></a>
 
@@ -45,17 +45,17 @@ Bases: [`enum.Enum`](https://docs.python.org/3/library/enum.html#enum.Enum)
 
 ### KrigingCorrFuncType.CorrFuncLin *= 3*
 
-<a id="KrigingCorrFuncType.CorrFuncSpherical"></a>
-
-### KrigingCorrFuncType.CorrFuncSpherical *= 4*
-
-<a id="KrigingCorrFuncType.CorrFuncCubic"></a>
-
-### KrigingCorrFuncType.CorrFuncCubic *= 5*
-
 <a id="KrigingCorrFuncType.CorrFuncMultiQuadratic"></a>
 
 ### KrigingCorrFuncType.CorrFuncMultiQuadratic *= 6*
+
+<a id="KrigingCorrFuncType.CorrFuncNone"></a>
+
+### KrigingCorrFuncType.CorrFuncNone *= 0*
+
+<a id="KrigingCorrFuncType.CorrFuncSpherical"></a>
+
+### KrigingCorrFuncType.CorrFuncSpherical *= 4*
 
 <a id="KrigingCorrFuncType.CorrFuncThinPlateSpine"></a>
 

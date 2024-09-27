@@ -1,6 +1,6 @@
 # `ShellBodyDimension`
 
-
+<a id="ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.ShellBodyDimension"></a>
 
 #### *class* ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.ShellBodyDimension
 
@@ -17,20 +17,20 @@ Specifies the ShellBodyDimension.
 ### Attributes
 
 | Name |
-| ------------------------------------------ |
-| [`Two_D`](#ShellBodyDimension.Two_D) |
+| ---------------------------------------------------------------------------------------------------------------------- |
 | [`Three_D`](#ShellBodyDimension.Three_D) |
+| [`Two_D`](#ShellBodyDimension.Two_D) |
 
 <a id="attribute-detail"></a>
 
 ## Attribute detail
 
-<a id="ShellBodyDimension.Two_D"></a>
-
-### ShellBodyDimension.Two_D *= 2*
-
 <a id="ShellBodyDimension.Three_D"></a>
 
 ### ShellBodyDimension.Three_D *= 3*
+
+<a id="ShellBodyDimension.Two_D"></a>
+
+### ShellBodyDimension.Two_D *= 2*
 
 

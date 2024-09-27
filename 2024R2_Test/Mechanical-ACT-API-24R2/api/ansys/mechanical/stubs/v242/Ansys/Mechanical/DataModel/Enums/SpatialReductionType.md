@@ -1,6 +1,6 @@
 # `SpatialReductionType`
 
-
+<a id="ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.SpatialReductionType"></a>
 
 #### *class* ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.SpatialReductionType
 
@@ -17,7 +17,7 @@ Specifies the SpatialReductionType.
 ### Attributes
 
 | Name |
-| ---------------------------------------------------------------- |
+| -------------------------------------------------------------------------------------------------------------------------------------------- |
 | [`AbsoluteMax`](#SpatialReductionType.AbsoluteMax) |
 | [`Average`](#SpatialReductionType.Average) |
 | [`StandardDeviation`](#SpatialReductionType.StandardDeviation) |

@@ -1,6 +1,6 @@
 # `SolverPivotChecking`
 
-
+<a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.SolverPivotChecking"></a>
 
 #### *class* ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.SolverPivotChecking
 
@@ -17,11 +17,11 @@ Specifies the SolverPivotChecking.
 ### Attributes
 
 | Name |
-| ------------------------------------------------------------------------------------------------------------------------------------------ |
-| [`Error`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/SolverPivotChecking.md#SolverPivotChecking.Error) |
-| [`Off`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/SolverPivotChecking.md#SolverPivotChecking.Off) |
-| [`ProgramControlled`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/SolverPivotChecking.md#SolverPivotChecking.ProgramControlled) |
-| [`Warning`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/SolverPivotChecking.md#SolverPivotChecking.Warning) |
+| --------------------------------------------------------------- |
+| [`Error`](#SolverPivotChecking.Error) |
+| [`Off`](#SolverPivotChecking.Off) |
+| [`ProgramControlled`](#SolverPivotChecking.ProgramControlled) |
+| [`Warning`](#SolverPivotChecking.Warning) |
 
 <a id="attribute-detail"></a>
 

@@ -1,6 +1,6 @@
 # `RepairTopology`
 
-
+<a id="ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.MeshControls.RepairTopology"></a>
 
 #### *class* ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.MeshControls.RepairTopology
 
@@ -17,356 +17,86 @@ Defines a RepairTopology.
 ### Methods
 
 | Name | Description |
-|---------------------------|-----------------------------------------------------------------------------------|
-| `GenerateMesh`            | Generate the Mesh.                                                                |
-| `RenameBasedOnDefinition` | Run the RenameBasedOnDefinition action.                                           |
-| `Delete`                  | Run the Delete action.                                                            |
-| `GetChildren`             | Gets the list of children, filtered by type.                                      |
-| `GetChildren`             | Gets the list of children, filtered by type.                                      |
-| `AddComment`              | Creates a new child Comment.                                                      |
-| `AddFigure`               | Creates a new child Figure.                                                       |
-| `AddImage`                | Creates a new child Image.                                                        |
-| `Activate`                | Activate the current object.                                                      |
-| `CopyTo`                  | Copies all visible properties from this object to another.                        |
-| `Duplicate`               | Creates a copy of the current DataModelObject.                                    |
-| `GroupAllSimilarChildren` | Run the GroupAllSimilarChildren action.                                           |
-| `GroupSimilarObjects`     | Run the GroupSimilarObjects action.                                               |
-| `PropertyByName`          | Get a property by its unique name.                                                |
-| `PropertyByAPIName`       | Get a property by its API name.                                                   |
-| `CreateParameter`         | Creates a new parameter for a Property.                                           |
-| `GetParameter`            | Gets the parameter corresponding to the given property.                           |
-| `RemoveParameter`         | Removes the parameter from the parameter set corresponding to the given property. |
+|-----------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------|
+| [`Activate`](#RepairTopology.Activate)                               | Activate the current object.                                                      |
+| [`AddComment`](#RepairTopology.AddComment)                           | Creates a new child Comment.                                                      |
+| [`AddFigure`](#RepairTopology.AddFigure)                             | Creates a new child Figure.                                                       |
+| [`AddImage`](#RepairTopology.AddImage)                               | Creates a new child Image.                                                        |
+| [`CopyTo`](#RepairTopology.CopyTo)                                   | Copies all visible properties from this object to another.                        |
+| [`CreateParameter`](#RepairTopology.CreateParameter)                 | Creates a new parameter for a Property.                                           |
+| [`Delete`](#RepairTopology.Delete)                                   | Run the Delete action.                                                            |
+| [`Duplicate`](#RepairTopology.Duplicate)                             | Creates a copy of the current DataModelObject.                                    |
+| [`GenerateMesh`](#RepairTopology.GenerateMesh)                       | Generate the Mesh.                                                                |
+| [`GetChildren`](#RepairTopology.GetChildren)                         | Gets the list of children, filtered by type.                                      |
+| [`GetParameter`](#RepairTopology.GetParameter)                       | Gets the parameter corresponding to the given property.                           |
+| [`GroupAllSimilarChildren`](#RepairTopology.GroupAllSimilarChildren) | Run the GroupAllSimilarChildren action.                                           |
+| [`GroupSimilarObjects`](#RepairTopology.GroupSimilarObjects)         | Run the GroupSimilarObjects action.                                               |
+| [`PropertyByAPIName`](#RepairTopology.PropertyByAPIName)             | Get a property by its API name.                                                   |
+| [`PropertyByName`](#RepairTopology.PropertyByName)                   | Get a property by its unique name.                                                |
+| [`RemoveParameter`](#RepairTopology.RemoveParameter)                 | Removes the parameter from the parameter set corresponding to the given property. |
+| [`RenameBasedOnDefinition`](#RepairTopology.RenameBasedOnDefinition) | Run the RenameBasedOnDefinition action.                                           |
 
 ### Properties
 
 | Name | Description |
-|------------------------------------------|---------------------------------------------------------------|
-| `InternalObject`                         | Gets the internal object. For advanced usage only.            |
-| `FeatureAngle`                           | Gets or sets the FeatureAngle.                                |
-| `PinchTolerance`                         | Gets or sets the PinchTolerance.                              |
-| `SharpAngle`                             | Gets or sets the SharpAngle.                                  |
-| `ShortEdgeLength`                        | Gets or sets the ShortEdgeLength.                             |
-| `ThinFaceWidth`                          | Gets or sets the ThinFaceWidth.                               |
-| `CollapseShortEdges`                     | Gets or sets the CollapseShortEdges.                          |
-| `FillHole`                               | Gets or sets the FillHole.                                    |
-| `FillHoleGeometryDefineBy`               | Gets or sets the FillHoleGeometryDefineBy.                    |
-| `MergeFaces`                             | Gets or sets the MergeFaces.                                  |
-| `MergeFacesGeometryDefineBy`             | Gets or sets the MergeFacesGeometryDefineBy.                  |
-| `PinchFaces`                             | Gets or sets the PinchFaces.                                  |
-| `PinchFacesGeometryDefineBy`             | Gets or sets the PinchFacesGeometryDefineBy.                  |
-| `PinchFacesUseLocalScoping`              | Gets or sets the PinchFacesUseLocalScoping.                   |
-| `RemoveSharpAngleFaces`                  | Gets or sets the RemoveSharpAngleFaces.                       |
-| `RemoveThinFaces`                        | Gets or sets the RemoveThinFaces.                             |
-| `RepairPartialDefeature`                 | Gets or sets the RepairPartialDefeature.                      |
-| `RepairPartialDefeatureGeometryDefineBy` | Gets or sets the RepairPartialDefeatureGeometryDefineBy.      |
-| `SharpAngleGeometryDefineBy`             | Gets or sets the SharpAngleGeometryDefineBy.                  |
-| `SharpAngleUseLocalScoping`              | Gets or sets the SharpAngleUseLocalScoping.                   |
-| `ShortEdgeGeometryDefineBy`              | Gets or sets the ShortEdgeGeometryDefineBy.                   |
-| `ShortEdgeUseLocalScoping`               | Gets or sets the ShortEdgeUseLocalScoping.                    |
-| `SuppressEdgesGeometryDefineBy`          | Gets or sets the SuppressEdgesGeometryDefineBy.               |
-| `SuppressEdges`                          | Gets or sets the SuppressEdges.                               |
-| `ThinFaceGeometryDefineBy`               | Gets or sets the ThinFaceGeometryDefineBy.                    |
-| `ThinFacesUseLocalScoping`               | Gets or sets the ThinFacesUseLocalScoping.                    |
-| `FillHoleNamedSelection`                 | Gets or sets the FillHoleNamedSelection.                      |
-| `MergeFacesNamedSelection`               | Gets or sets the MergeFacesNamedSelection.                    |
-| `PartialDefeatureNamedSelection`         | Gets or sets the PartialDefeatureNamedSelection.              |
-| `PinchFacesNamedSelection`               | Gets or sets the PinchFacesNamedSelection.                    |
-| `SharpAngleNamedSelection`               | Gets or sets the SharpAngleNamedSelection.                    |
-| `ShortEdgeNamedSelection`                | Gets or sets the ShortEdgeNamedSelection.                     |
-| `SuppressEdgesNamedSelection`            | Gets or sets the SuppressEdgesNamedSelection.                 |
-| `ThinFaceNamedSelection`                 | Gets or sets the ThinFaceNamedSelection.                      |
-| `FillHoleGeometrySelection`              | Gets or sets the FillHoleGeometrySelection.                   |
-| `MergeFacesGeometrySelection`            | Gets or sets the MergeFacesGeometrySelection.                 |
-| `PartialDefeatureGeometrySelection`      | Gets or sets the PartialDefeatureGeometrySelection.           |
-| `PinchFacesGeometrySelection`            | Gets or sets the PinchFacesGeometrySelection.                 |
-| `SharpAngleGeometrySelection`            | Gets or sets the SharpAngleGeometrySelection.                 |
-| `ShortEdgeGeometrySelection`             | Gets or sets the ShortEdgeGeometrySelection.                  |
-| `SuppressEdgesGeometrySelection`         | Gets or sets the SuppressEdgesGeometrySelection.              |
-| `ThinFaceGeometrySelection`              | Gets or sets the ThinFaceGeometrySelection.                   |
-| `DataModelObjectCategory`                | Gets the current DataModelObject's category.                  |
-| `ScopingMethod`                          | Gets or sets the ScopingMethod.                               |
-| `Suppressed`                             | Gets or sets the Suppressed.                                  |
-| `Children`                               | Gets the list of children.                                    |
-| `Comments`                               | Gets the list of associated comments.                         |
-| `Figures`                                | Gets the list of associated figures.                          |
-| `Images`                                 | Gets the list of associated images.                           |
-| `InternalObject`                         | Gets the internal object. For advanced usage only.            |
-| `Properties`                             | Gets the list of properties for this object.                  |
-| `VisibleProperties`                      | Gets the list of properties that are visible for this object. |
+|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------|
+| [`Children`](#RepairTopology.Children)                                             | Gets the list of children.                                    |
+| [`CollapseShortEdges`](#RepairTopology.CollapseShortEdges)                         | Gets or sets the CollapseShortEdges.                          |
+| [`Comments`](#RepairTopology.Comments)                                             | Gets the list of associated comments.                         |
+| [`DataModelObjectCategory`](#RepairTopology.DataModelObjectCategory)               | Gets the current DataModelObject’s category.                  |
+| [`FeatureAngle`](#RepairTopology.FeatureAngle)                                                                                                                          | Gets or sets the FeatureAngle.                                |
+| [`Figures`](#RepairTopology.Figures)                                               | Gets the list of associated figures.                          |
+| [`FillHole`](#RepairTopology.FillHole)                                             | Gets or sets the FillHole.                                    |
+| [`FillHoleGeometryDefineBy`](#RepairTopology.FillHoleGeometryDefineBy)             | Gets or sets the FillHoleGeometryDefineBy.                    |
+| [`FillHoleGeometrySelection`](#RepairTopology.FillHoleGeometrySelection)           | Gets or sets the FillHoleGeometrySelection.                   |
+| [`FillHoleNamedSelection`](#RepairTopology.FillHoleNamedSelection)                 | Gets or sets the FillHoleNamedSelection.                      |
+| [`Images`](#RepairTopology.Images)                                                 | Gets the list of associated images.                           |
+| [`InternalObject`](#RepairTopology.InternalObject)                                 | Gets the internal object. For advanced usage only.            |
+| [`MergeFaces`](#RepairTopology.MergeFaces)                                         | Gets or sets the MergeFaces.                                  |
+| [`MergeFacesGeometryDefineBy`](#RepairTopology.MergeFacesGeometryDefineBy)         | Gets or sets the MergeFacesGeometryDefineBy.                  |
+| [`MergeFacesGeometrySelection`](#RepairTopology.MergeFacesGeometrySelection)       | Gets or sets the MergeFacesGeometrySelection.                 |
+| [`MergeFacesNamedSelection`](#RepairTopology.MergeFacesNamedSelection)             | Gets or sets the MergeFacesNamedSelection.                    |
+| [`PartialDefeatureGeometrySelection`](#RepairTopology.PartialDefeatureGeometrySelection)                                                                                | Gets or sets the PartialDefeatureGeometrySelection.           |
+| [`PartialDefeatureNamedSelection`](#RepairTopology.PartialDefeatureNamedSelection)                                                                                      | Gets or sets the PartialDefeatureNamedSelection.              |
+| [`PinchFaces`](#RepairTopology.PinchFaces)                                         | Gets or sets the PinchFaces.                                  |
+| [`PinchFacesGeometryDefineBy`](#RepairTopology.PinchFacesGeometryDefineBy)         | Gets or sets the PinchFacesGeometryDefineBy.                  |
+| [`PinchFacesGeometrySelection`](#RepairTopology.PinchFacesGeometrySelection)       | Gets or sets the PinchFacesGeometrySelection.                 |
+| [`PinchFacesNamedSelection`](#RepairTopology.PinchFacesNamedSelection)             | Gets or sets the PinchFacesNamedSelection.                    |
+| [`PinchFacesUseLocalScoping`](#RepairTopology.PinchFacesUseLocalScoping)           | Gets or sets the PinchFacesUseLocalScoping.                   |
+| [`PinchTolerance`](#RepairTopology.PinchTolerance)                                 | Gets or sets the PinchTolerance.                              |
+| [`Properties`](#RepairTopology.Properties)                                         | Gets the list of properties for this object.                  |
+| [`RemoveSharpAngleFaces`](#RepairTopology.RemoveSharpAngleFaces)                   | Gets or sets the RemoveSharpAngleFaces.                       |
+| [`RemoveThinFaces`](#RepairTopology.RemoveThinFaces)                               | Gets or sets the RemoveThinFaces.                             |
+| [`RepairPartialDefeature`](#RepairTopology.RepairPartialDefeature)                                                                                                      | Gets or sets the RepairPartialDefeature.                      |
+| [`RepairPartialDefeatureGeometryDefineBy`](#RepairTopology.RepairPartialDefeatureGeometryDefineBy)                                                                      | Gets or sets the RepairPartialDefeatureGeometryDefineBy.      |
+| [`ScopingMethod`](#RepairTopology.ScopingMethod)                                   | Gets or sets the ScopingMethod.                               |
+| [`SharpAngle`](#RepairTopology.SharpAngle)                                         | Gets or sets the SharpAngle.                                  |
+| [`SharpAngleGeometryDefineBy`](#RepairTopology.SharpAngleGeometryDefineBy)         | Gets or sets the SharpAngleGeometryDefineBy.                  |
+| [`SharpAngleGeometrySelection`](#RepairTopology.SharpAngleGeometrySelection)       | Gets or sets the SharpAngleGeometrySelection.                 |
+| [`SharpAngleNamedSelection`](#RepairTopology.SharpAngleNamedSelection)             | Gets or sets the SharpAngleNamedSelection.                    |
+| [`SharpAngleUseLocalScoping`](#RepairTopology.SharpAngleUseLocalScoping)           | Gets or sets the SharpAngleUseLocalScoping.                   |
+| [`ShortEdgeGeometryDefineBy`](#RepairTopology.ShortEdgeGeometryDefineBy)           | Gets or sets the ShortEdgeGeometryDefineBy.                   |
+| [`ShortEdgeGeometrySelection`](#RepairTopology.ShortEdgeGeometrySelection)         | Gets or sets the ShortEdgeGeometrySelection.                  |
+| [`ShortEdgeLength`](#RepairTopology.ShortEdgeLength)                               | Gets or sets the ShortEdgeLength.                             |
+| [`ShortEdgeNamedSelection`](#RepairTopology.ShortEdgeNamedSelection)               | Gets or sets the ShortEdgeNamedSelection.                     |
+| [`ShortEdgeUseLocalScoping`](#RepairTopology.ShortEdgeUseLocalScoping)             | Gets or sets the ShortEdgeUseLocalScoping.                    |
+| [`SuppressEdges`](#RepairTopology.SuppressEdges)                                   | Gets or sets the SuppressEdges.                               |
+| [`SuppressEdgesGeometryDefineBy`](#RepairTopology.SuppressEdgesGeometryDefineBy)   | Gets or sets the SuppressEdgesGeometryDefineBy.               |
+| [`SuppressEdgesGeometrySelection`](#RepairTopology.SuppressEdgesGeometrySelection) | Gets or sets the SuppressEdgesGeometrySelection.              |
+| [`SuppressEdgesNamedSelection`](#RepairTopology.SuppressEdgesNamedSelection)       | Gets or sets the SuppressEdgesNamedSelection.                 |
+| [`Suppressed`](#RepairTopology.Suppressed)                                         | Gets or sets the Suppressed.                                  |
+| [`ThinFaceGeometryDefineBy`](#RepairTopology.ThinFaceGeometryDefineBy)             | Gets or sets the ThinFaceGeometryDefineBy.                    |
+| [`ThinFaceGeometrySelection`](#RepairTopology.ThinFaceGeometrySelection)           | Gets or sets the ThinFaceGeometrySelection.                   |
+| [`ThinFaceNamedSelection`](#RepairTopology.ThinFaceNamedSelection)                 | Gets or sets the ThinFaceNamedSelection.                      |
+| [`ThinFaceWidth`](#RepairTopology.ThinFaceWidth)                                   | Gets or sets the ThinFaceWidth.                               |
+| [`ThinFacesUseLocalScoping`](#RepairTopology.ThinFacesUseLocalScoping)             | Gets or sets the ThinFacesUseLocalScoping.                    |
+| [`VisibleProperties`](#RepairTopology.VisibleProperties)                           | Gets the list of properties that are visible for this object. |
 
 <a id="property-detail"></a>
 
 ## Property detail
 
-### *property* RepairTopology.InternalObject *: Ansys.Common.Interop.DSObjectsAuto.IDSMeshControlAuto | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets the internal object. For advanced usage only.
-
-<!-- !! processed by numpydoc !! -->
-
-### *property* RepairTopology.FeatureAngle *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the FeatureAngle.
-
-<!-- !! processed by numpydoc !! -->
-
-### *property* RepairTopology.PinchTolerance *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the PinchTolerance.
-
-<!-- !! processed by numpydoc !! -->
-
-### *property* RepairTopology.SharpAngle *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the SharpAngle.
-
-<!-- !! processed by numpydoc !! -->
-
-### *property* RepairTopology.ShortEdgeLength *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the ShortEdgeLength.
-
-<!-- !! processed by numpydoc !! -->
-
-### *property* RepairTopology.ThinFaceWidth *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the ThinFaceWidth.
-
-<!-- !! processed by numpydoc !! -->
-
-### *property* RepairTopology.CollapseShortEdges *: [Ansys.Mechanical.DataModel.Enums.YesNoType](../../../../../../v241/Ansys/Mechanical/DataModel/Enums/YesNoType.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.YesNoType) | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the CollapseShortEdges.
-
-<!-- !! processed by numpydoc !! -->
-
-### *property* RepairTopology.FillHole *: [Ansys.Mechanical.DataModel.Enums.YesNoType](../../../../../../v241/Ansys/Mechanical/DataModel/Enums/YesNoType.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.YesNoType) | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the FillHole.
-
-<!-- !! processed by numpydoc !! -->
-
-### *property* RepairTopology.FillHoleGeometryDefineBy *: [Ansys.Mechanical.DataModel.Enums.GeometryDefineByType](../../../../../../v241/Ansys/Mechanical/DataModel/Enums/GeometryDefineByType.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.GeometryDefineByType) | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the FillHoleGeometryDefineBy.
-
-<!-- !! processed by numpydoc !! -->
-
-### *property* RepairTopology.MergeFaces *: [Ansys.Mechanical.DataModel.Enums.YesNoType](../../../../../../v241/Ansys/Mechanical/DataModel/Enums/YesNoType.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.YesNoType) | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the MergeFaces.
-
-<!-- !! processed by numpydoc !! -->
-
-### *property* RepairTopology.MergeFacesGeometryDefineBy *: [Ansys.Mechanical.DataModel.Enums.GeometryDefineByType](../../../../../../v241/Ansys/Mechanical/DataModel/Enums/GeometryDefineByType.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.GeometryDefineByType) | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the MergeFacesGeometryDefineBy.
-
-<!-- !! processed by numpydoc !! -->
-
-### *property* RepairTopology.PinchFaces *: [Ansys.Mechanical.DataModel.Enums.YesNoType](../../../../../../v241/Ansys/Mechanical/DataModel/Enums/YesNoType.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.YesNoType) | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the PinchFaces.
-
-<!-- !! processed by numpydoc !! -->
-
-### *property* RepairTopology.PinchFacesGeometryDefineBy *: [Ansys.Mechanical.DataModel.Enums.GeometryDefineByType](../../../../../../v241/Ansys/Mechanical/DataModel/Enums/GeometryDefineByType.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.GeometryDefineByType) | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the PinchFacesGeometryDefineBy.
-
-<!-- !! processed by numpydoc !! -->
-
-### *property* RepairTopology.PinchFacesUseLocalScoping *: [Ansys.Mechanical.DataModel.Enums.YesNoType](../../../../../../v241/Ansys/Mechanical/DataModel/Enums/YesNoType.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.YesNoType) | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the PinchFacesUseLocalScoping.
-
-<!-- !! processed by numpydoc !! -->
-
-### *property* RepairTopology.RemoveSharpAngleFaces *: [Ansys.Mechanical.DataModel.Enums.YesNoType](../../../../../../v241/Ansys/Mechanical/DataModel/Enums/YesNoType.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.YesNoType) | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the RemoveSharpAngleFaces.
-
-<!-- !! processed by numpydoc !! -->
-
-### *property* RepairTopology.RemoveThinFaces *: [Ansys.Mechanical.DataModel.Enums.YesNoType](../../../../../../v241/Ansys/Mechanical/DataModel/Enums/YesNoType.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.YesNoType) | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the RemoveThinFaces.
-
-<!-- !! processed by numpydoc !! -->
-
-### *property* RepairTopology.RepairPartialDefeature *: [Ansys.Mechanical.DataModel.Enums.YesNoType](../../../../../../v241/Ansys/Mechanical/DataModel/Enums/YesNoType.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.YesNoType) | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the RepairPartialDefeature.
-
-<!-- !! processed by numpydoc !! -->
-
-### *property* RepairTopology.RepairPartialDefeatureGeometryDefineBy *: [Ansys.Mechanical.DataModel.Enums.GeometryDefineByType](../../../../../../v241/Ansys/Mechanical/DataModel/Enums/GeometryDefineByType.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.GeometryDefineByType) | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the RepairPartialDefeatureGeometryDefineBy.
-
-<!-- !! processed by numpydoc !! -->
-
-### *property* RepairTopology.SharpAngleGeometryDefineBy *: [Ansys.Mechanical.DataModel.Enums.GeometryDefineByType](../../../../../../v241/Ansys/Mechanical/DataModel/Enums/GeometryDefineByType.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.GeometryDefineByType) | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the SharpAngleGeometryDefineBy.
-
-<!-- !! processed by numpydoc !! -->
-
-### *property* RepairTopology.SharpAngleUseLocalScoping *: [Ansys.Mechanical.DataModel.Enums.YesNoType](../../../../../../v241/Ansys/Mechanical/DataModel/Enums/YesNoType.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.YesNoType) | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the SharpAngleUseLocalScoping.
-
-<!-- !! processed by numpydoc !! -->
-
-### *property* RepairTopology.ShortEdgeGeometryDefineBy *: [Ansys.Mechanical.DataModel.Enums.GeometryDefineByType](../../../../../../v241/Ansys/Mechanical/DataModel/Enums/GeometryDefineByType.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.GeometryDefineByType) | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the ShortEdgeGeometryDefineBy.
-
-<!-- !! processed by numpydoc !! -->
-
-### *property* RepairTopology.ShortEdgeUseLocalScoping *: [Ansys.Mechanical.DataModel.Enums.YesNoType](../../../../../../v241/Ansys/Mechanical/DataModel/Enums/YesNoType.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.YesNoType) | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the ShortEdgeUseLocalScoping.
-
-<!-- !! processed by numpydoc !! -->
-
-### *property* RepairTopology.SuppressEdgesGeometryDefineBy *: [Ansys.Mechanical.DataModel.Enums.GeometryDefineByType](../../../../../../v241/Ansys/Mechanical/DataModel/Enums/GeometryDefineByType.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.GeometryDefineByType) | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the SuppressEdgesGeometryDefineBy.
-
-<!-- !! processed by numpydoc !! -->
-
-### *property* RepairTopology.SuppressEdges *: [Ansys.Mechanical.DataModel.Enums.YesNoType](../../../../../../v241/Ansys/Mechanical/DataModel/Enums/YesNoType.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.YesNoType) | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the SuppressEdges.
-
-<!-- !! processed by numpydoc !! -->
-
-### *property* RepairTopology.ThinFaceGeometryDefineBy *: [Ansys.Mechanical.DataModel.Enums.GeometryDefineByType](../../../../../../v241/Ansys/Mechanical/DataModel/Enums/GeometryDefineByType.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.GeometryDefineByType) | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the ThinFaceGeometryDefineBy.
-
-<!-- !! processed by numpydoc !! -->
-
-### *property* RepairTopology.ThinFacesUseLocalScoping *: [Ansys.Mechanical.DataModel.Enums.YesNoType](../../../../../../v241/Ansys/Mechanical/DataModel/Enums/YesNoType.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.YesNoType) | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the ThinFacesUseLocalScoping.
-
-<!-- !! processed by numpydoc !! -->
-
-### *property* RepairTopology.FillHoleNamedSelection *: [Ansys.ACT.Automation.Mechanical.NamedSelection](../../../../../../v241/Ansys/ACT/Automation/Mechanical/NamedSelection.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.NamedSelection) | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the FillHoleNamedSelection.
-
-<!-- !! processed by numpydoc !! -->
-
-### *property* RepairTopology.MergeFacesNamedSelection *: [Ansys.ACT.Automation.Mechanical.NamedSelection](../../../../../../v241/Ansys/ACT/Automation/Mechanical/NamedSelection.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.NamedSelection) | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the MergeFacesNamedSelection.
-
-<!-- !! processed by numpydoc !! -->
-
-### *property* RepairTopology.PartialDefeatureNamedSelection *: [Ansys.ACT.Automation.Mechanical.NamedSelection](../../../../../../v241/Ansys/ACT/Automation/Mechanical/NamedSelection.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.NamedSelection) | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the PartialDefeatureNamedSelection.
-
-<!-- !! processed by numpydoc !! -->
-
-### *property* RepairTopology.PinchFacesNamedSelection *: [Ansys.ACT.Automation.Mechanical.NamedSelection](../../../../../../v241/Ansys/ACT/Automation/Mechanical/NamedSelection.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.NamedSelection) | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the PinchFacesNamedSelection.
-
-<!-- !! processed by numpydoc !! -->
-
-### *property* RepairTopology.SharpAngleNamedSelection *: [Ansys.ACT.Automation.Mechanical.NamedSelection](../../../../../../v241/Ansys/ACT/Automation/Mechanical/NamedSelection.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.NamedSelection) | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the SharpAngleNamedSelection.
-
-<!-- !! processed by numpydoc !! -->
-
-### *property* RepairTopology.ShortEdgeNamedSelection *: [Ansys.ACT.Automation.Mechanical.NamedSelection](../../../../../../v241/Ansys/ACT/Automation/Mechanical/NamedSelection.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.NamedSelection) | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the ShortEdgeNamedSelection.
-
-<!-- !! processed by numpydoc !! -->
-
-### *property* RepairTopology.SuppressEdgesNamedSelection *: [Ansys.ACT.Automation.Mechanical.NamedSelection](../../../../../../v241/Ansys/ACT/Automation/Mechanical/NamedSelection.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.NamedSelection) | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the SuppressEdgesNamedSelection.
-
-<!-- !! processed by numpydoc !! -->
-
-### *property* RepairTopology.ThinFaceNamedSelection *: [Ansys.ACT.Automation.Mechanical.NamedSelection](../../../../../../v241/Ansys/ACT/Automation/Mechanical/NamedSelection.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.NamedSelection) | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the ThinFaceNamedSelection.
-
-<!-- !! processed by numpydoc !! -->
-
-### *property* RepairTopology.FillHoleGeometrySelection *: Ansys.ACT.Interfaces.Common.ISelectionInfo | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the FillHoleGeometrySelection.
-
-<!-- !! processed by numpydoc !! -->
-
-### *property* RepairTopology.MergeFacesGeometrySelection *: Ansys.ACT.Interfaces.Common.ISelectionInfo | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the MergeFacesGeometrySelection.
-
-<!-- !! processed by numpydoc !! -->
-
-### *property* RepairTopology.PartialDefeatureGeometrySelection *: Ansys.ACT.Interfaces.Common.ISelectionInfo | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the PartialDefeatureGeometrySelection.
-
-<!-- !! processed by numpydoc !! -->
-
-### *property* RepairTopology.PinchFacesGeometrySelection *: Ansys.ACT.Interfaces.Common.ISelectionInfo | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the PinchFacesGeometrySelection.
-
-<!-- !! processed by numpydoc !! -->
-
-### *property* RepairTopology.SharpAngleGeometrySelection *: Ansys.ACT.Interfaces.Common.ISelectionInfo | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the SharpAngleGeometrySelection.
-
-<!-- !! processed by numpydoc !! -->
-
-### *property* RepairTopology.ShortEdgeGeometrySelection *: Ansys.ACT.Interfaces.Common.ISelectionInfo | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the ShortEdgeGeometrySelection.
-
-<!-- !! processed by numpydoc !! -->
-
-### *property* RepairTopology.SuppressEdgesGeometrySelection *: Ansys.ACT.Interfaces.Common.ISelectionInfo | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the SuppressEdgesGeometrySelection.
-
-<!-- !! processed by numpydoc !! -->
-
-### *property* RepairTopology.ThinFaceGeometrySelection *: Ansys.ACT.Interfaces.Common.ISelectionInfo | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the ThinFaceGeometrySelection.
-
-<!-- !! processed by numpydoc !! -->
-
-### *property* RepairTopology.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../../v241/Ansys/Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets the current DataModelObject's category.
-
-<!-- !! processed by numpydoc !! -->
-
-### *property* RepairTopology.ScopingMethod *: [Ansys.Mechanical.DataModel.Enums.GeometryDefineByType](../../../../../../v241/Ansys/Mechanical/DataModel/Enums/GeometryDefineByType.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.GeometryDefineByType) | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the ScopingMethod.
-
-<!-- !! processed by numpydoc !! -->
-
-### *property* RepairTopology.Suppressed *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the Suppressed.
-
-<!-- !! processed by numpydoc !! -->
+<a id="RepairTopology.Children"></a>
 
 ### *property* RepairTopology.Children *: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -374,11 +104,39 @@ Gets the list of children.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="RepairTopology.CollapseShortEdges"></a>
+
+### *property* RepairTopology.CollapseShortEdges *: [Ansys.Mechanical.DataModel.Enums.YesNoType](../../../../Mechanical/DataModel/Enums/YesNoType.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.YesNoType) | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the CollapseShortEdges.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="RepairTopology.Comments"></a>
+
 ### *property* RepairTopology.Comments *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Comment](../../../../../../v241/Ansys/ACT/Automation/Mechanical/Comment.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated comments.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="RepairTopology.DataModelObjectCategory"></a>
+
+### *property* RepairTopology.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets the current DataModelObject’s category.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="RepairTopology.FeatureAngle"></a>
+
+### *property* RepairTopology.FeatureAngle *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the FeatureAngle.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="RepairTopology.Figures"></a>
 
 ### *property* RepairTopology.Figures *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Figure](../../../../../../v241/Ansys/ACT/Automation/Mechanical/Figure.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -386,23 +144,359 @@ Gets the list of associated figures.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="RepairTopology.FillHole"></a>
+
+### *property* RepairTopology.FillHole *: [Ansys.Mechanical.DataModel.Enums.YesNoType](../../../../Mechanical/DataModel/Enums/YesNoType.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.YesNoType) | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the FillHole.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="RepairTopology.FillHoleGeometryDefineBy"></a>
+
+### *property* RepairTopology.FillHoleGeometryDefineBy *: [Ansys.Mechanical.DataModel.Enums.GeometryDefineByType](../../../../Mechanical/DataModel/Enums/GeometryDefineByType.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.GeometryDefineByType) | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the FillHoleGeometryDefineBy.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="RepairTopology.FillHoleGeometrySelection"></a>
+
+### *property* RepairTopology.FillHoleGeometrySelection *: Ansys.ACT.Interfaces.Common.ISelectionInfo | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the FillHoleGeometrySelection.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="RepairTopology.FillHoleNamedSelection"></a>
+
+### *property* RepairTopology.FillHoleNamedSelection *: [Ansys.ACT.Automation.Mechanical.NamedSelection](../NamedSelection.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.NamedSelection) | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the FillHoleNamedSelection.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="RepairTopology.Images"></a>
+
 ### *property* RepairTopology.Images *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Image](../../../../../../v241/Ansys/ACT/Automation/Mechanical/Image.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated images.
 
 <!-- !! processed by numpydoc !! -->
 
-### *property* RepairTopology.InternalObject *: System.Object | [None](https://docs.python.org/3/library/constants.html#None)*
+<a id="RepairTopology.InternalObject"></a>
+
+### *property* RepairTopology.InternalObject *: Ansys.Common.Interop.DSObjectsAuto.IDSMeshControlAuto | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the internal object. For advanced usage only.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="RepairTopology.MergeFaces"></a>
+
+### *property* RepairTopology.MergeFaces *: [Ansys.Mechanical.DataModel.Enums.YesNoType](../../../../Mechanical/DataModel/Enums/YesNoType.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.YesNoType) | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the MergeFaces.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="RepairTopology.MergeFacesGeometryDefineBy"></a>
+
+### *property* RepairTopology.MergeFacesGeometryDefineBy *: [Ansys.Mechanical.DataModel.Enums.GeometryDefineByType](../../../../Mechanical/DataModel/Enums/GeometryDefineByType.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.GeometryDefineByType) | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the MergeFacesGeometryDefineBy.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="RepairTopology.MergeFacesGeometrySelection"></a>
+
+### *property* RepairTopology.MergeFacesGeometrySelection *: Ansys.ACT.Interfaces.Common.ISelectionInfo | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the MergeFacesGeometrySelection.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="RepairTopology.MergeFacesNamedSelection"></a>
+
+### *property* RepairTopology.MergeFacesNamedSelection *: [Ansys.ACT.Automation.Mechanical.NamedSelection](../NamedSelection.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.NamedSelection) | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the MergeFacesNamedSelection.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="RepairTopology.PartialDefeatureGeometrySelection"></a>
+
+### *property* RepairTopology.PartialDefeatureGeometrySelection *: Ansys.ACT.Interfaces.Common.ISelectionInfo | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the PartialDefeatureGeometrySelection.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="RepairTopology.PartialDefeatureNamedSelection"></a>
+
+### *property* RepairTopology.PartialDefeatureNamedSelection *: [Ansys.ACT.Automation.Mechanical.NamedSelection](../NamedSelection.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.NamedSelection) | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the PartialDefeatureNamedSelection.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="RepairTopology.PinchFaces"></a>
+
+### *property* RepairTopology.PinchFaces *: [Ansys.Mechanical.DataModel.Enums.YesNoType](../../../../Mechanical/DataModel/Enums/YesNoType.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.YesNoType) | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the PinchFaces.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="RepairTopology.PinchFacesGeometryDefineBy"></a>
+
+### *property* RepairTopology.PinchFacesGeometryDefineBy *: [Ansys.Mechanical.DataModel.Enums.GeometryDefineByType](../../../../Mechanical/DataModel/Enums/GeometryDefineByType.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.GeometryDefineByType) | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the PinchFacesGeometryDefineBy.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="RepairTopology.PinchFacesGeometrySelection"></a>
+
+### *property* RepairTopology.PinchFacesGeometrySelection *: Ansys.ACT.Interfaces.Common.ISelectionInfo | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the PinchFacesGeometrySelection.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="RepairTopology.PinchFacesNamedSelection"></a>
+
+### *property* RepairTopology.PinchFacesNamedSelection *: [Ansys.ACT.Automation.Mechanical.NamedSelection](../NamedSelection.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.NamedSelection) | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the PinchFacesNamedSelection.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="RepairTopology.PinchFacesUseLocalScoping"></a>
+
+### *property* RepairTopology.PinchFacesUseLocalScoping *: [Ansys.Mechanical.DataModel.Enums.YesNoType](../../../../Mechanical/DataModel/Enums/YesNoType.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.YesNoType) | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the PinchFacesUseLocalScoping.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="RepairTopology.PinchTolerance"></a>
+
+### *property* RepairTopology.PinchTolerance *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the PinchTolerance.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="RepairTopology.Properties"></a>
 
 ### *property* RepairTopology.Properties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of properties for this object.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="RepairTopology.RemoveSharpAngleFaces"></a>
+
+### *property* RepairTopology.RemoveSharpAngleFaces *: [Ansys.Mechanical.DataModel.Enums.YesNoType](../../../../Mechanical/DataModel/Enums/YesNoType.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.YesNoType) | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the RemoveSharpAngleFaces.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="RepairTopology.RemoveThinFaces"></a>
+
+### *property* RepairTopology.RemoveThinFaces *: [Ansys.Mechanical.DataModel.Enums.YesNoType](../../../../Mechanical/DataModel/Enums/YesNoType.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.YesNoType) | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the RemoveThinFaces.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="RepairTopology.RepairPartialDefeature"></a>
+
+### *property* RepairTopology.RepairPartialDefeature *: [Ansys.Mechanical.DataModel.Enums.YesNoType](../../../../Mechanical/DataModel/Enums/YesNoType.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.YesNoType) | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the RepairPartialDefeature.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="RepairTopology.RepairPartialDefeatureGeometryDefineBy"></a>
+
+### *property* RepairTopology.RepairPartialDefeatureGeometryDefineBy *: [Ansys.Mechanical.DataModel.Enums.GeometryDefineByType](../../../../Mechanical/DataModel/Enums/GeometryDefineByType.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.GeometryDefineByType) | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the RepairPartialDefeatureGeometryDefineBy.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="RepairTopology.ScopingMethod"></a>
+
+### *property* RepairTopology.ScopingMethod *: [Ansys.Mechanical.DataModel.Enums.GeometryDefineByType](../../../../Mechanical/DataModel/Enums/GeometryDefineByType.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.GeometryDefineByType) | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the ScopingMethod.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="RepairTopology.SharpAngle"></a>
+
+### *property* RepairTopology.SharpAngle *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the SharpAngle.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="RepairTopology.SharpAngleGeometryDefineBy"></a>
+
+### *property* RepairTopology.SharpAngleGeometryDefineBy *: [Ansys.Mechanical.DataModel.Enums.GeometryDefineByType](../../../../Mechanical/DataModel/Enums/GeometryDefineByType.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.GeometryDefineByType) | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the SharpAngleGeometryDefineBy.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="RepairTopology.SharpAngleGeometrySelection"></a>
+
+### *property* RepairTopology.SharpAngleGeometrySelection *: Ansys.ACT.Interfaces.Common.ISelectionInfo | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the SharpAngleGeometrySelection.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="RepairTopology.SharpAngleNamedSelection"></a>
+
+### *property* RepairTopology.SharpAngleNamedSelection *: [Ansys.ACT.Automation.Mechanical.NamedSelection](../NamedSelection.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.NamedSelection) | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the SharpAngleNamedSelection.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="RepairTopology.SharpAngleUseLocalScoping"></a>
+
+### *property* RepairTopology.SharpAngleUseLocalScoping *: [Ansys.Mechanical.DataModel.Enums.YesNoType](../../../../Mechanical/DataModel/Enums/YesNoType.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.YesNoType) | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the SharpAngleUseLocalScoping.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="RepairTopology.ShortEdgeGeometryDefineBy"></a>
+
+### *property* RepairTopology.ShortEdgeGeometryDefineBy *: [Ansys.Mechanical.DataModel.Enums.GeometryDefineByType](../../../../Mechanical/DataModel/Enums/GeometryDefineByType.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.GeometryDefineByType) | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the ShortEdgeGeometryDefineBy.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="RepairTopology.ShortEdgeGeometrySelection"></a>
+
+### *property* RepairTopology.ShortEdgeGeometrySelection *: Ansys.ACT.Interfaces.Common.ISelectionInfo | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the ShortEdgeGeometrySelection.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="RepairTopology.ShortEdgeLength"></a>
+
+### *property* RepairTopology.ShortEdgeLength *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the ShortEdgeLength.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="RepairTopology.ShortEdgeNamedSelection"></a>
+
+### *property* RepairTopology.ShortEdgeNamedSelection *: [Ansys.ACT.Automation.Mechanical.NamedSelection](../NamedSelection.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.NamedSelection) | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the ShortEdgeNamedSelection.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="RepairTopology.ShortEdgeUseLocalScoping"></a>
+
+### *property* RepairTopology.ShortEdgeUseLocalScoping *: [Ansys.Mechanical.DataModel.Enums.YesNoType](../../../../Mechanical/DataModel/Enums/YesNoType.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.YesNoType) | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the ShortEdgeUseLocalScoping.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="RepairTopology.SuppressEdges"></a>
+
+### *property* RepairTopology.SuppressEdges *: [Ansys.Mechanical.DataModel.Enums.YesNoType](../../../../Mechanical/DataModel/Enums/YesNoType.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.YesNoType) | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the SuppressEdges.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="RepairTopology.SuppressEdgesGeometryDefineBy"></a>
+
+### *property* RepairTopology.SuppressEdgesGeometryDefineBy *: [Ansys.Mechanical.DataModel.Enums.GeometryDefineByType](../../../../Mechanical/DataModel/Enums/GeometryDefineByType.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.GeometryDefineByType) | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the SuppressEdgesGeometryDefineBy.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="RepairTopology.SuppressEdgesGeometrySelection"></a>
+
+### *property* RepairTopology.SuppressEdgesGeometrySelection *: Ansys.ACT.Interfaces.Common.ISelectionInfo | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the SuppressEdgesGeometrySelection.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="RepairTopology.SuppressEdgesNamedSelection"></a>
+
+### *property* RepairTopology.SuppressEdgesNamedSelection *: [Ansys.ACT.Automation.Mechanical.NamedSelection](../NamedSelection.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.NamedSelection) | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the SuppressEdgesNamedSelection.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="RepairTopology.Suppressed"></a>
+
+### *property* RepairTopology.Suppressed *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the Suppressed.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="RepairTopology.ThinFaceGeometryDefineBy"></a>
+
+### *property* RepairTopology.ThinFaceGeometryDefineBy *: [Ansys.Mechanical.DataModel.Enums.GeometryDefineByType](../../../../Mechanical/DataModel/Enums/GeometryDefineByType.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.GeometryDefineByType) | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the ThinFaceGeometryDefineBy.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="RepairTopology.ThinFaceGeometrySelection"></a>
+
+### *property* RepairTopology.ThinFaceGeometrySelection *: Ansys.ACT.Interfaces.Common.ISelectionInfo | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the ThinFaceGeometrySelection.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="RepairTopology.ThinFaceNamedSelection"></a>
+
+### *property* RepairTopology.ThinFaceNamedSelection *: [Ansys.ACT.Automation.Mechanical.NamedSelection](../NamedSelection.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.NamedSelection) | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the ThinFaceNamedSelection.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="RepairTopology.ThinFaceWidth"></a>
+
+### *property* RepairTopology.ThinFaceWidth *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the ThinFaceWidth.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="RepairTopology.ThinFacesUseLocalScoping"></a>
+
+### *property* RepairTopology.ThinFacesUseLocalScoping *: [Ansys.Mechanical.DataModel.Enums.YesNoType](../../../../Mechanical/DataModel/Enums/YesNoType.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.YesNoType) | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the ThinFacesUseLocalScoping.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="RepairTopology.VisibleProperties"></a>
 
 ### *property* RepairTopology.VisibleProperties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -414,35 +508,15 @@ Gets the list of properties that are visible for this object.
 
 ## Method detail
 
-### RepairTopology.GenerateMesh()
+<a id="RepairTopology.Activate"></a>
 
-Generate the Mesh.
+### RepairTopology.Activate()
 
-<!-- !! processed by numpydoc !! -->
-
-### RepairTopology.RenameBasedOnDefinition()
-
-Run the RenameBasedOnDefinition action.
+Activate the current object.
 
 <!-- !! processed by numpydoc !! -->
 
-### RepairTopology.Delete()
-
-Run the Delete action.
-
-<!-- !! processed by numpydoc !! -->
-
-### RepairTopology.GetChildren(recurses: System.Boolean, children: System.Collections.Generic.IList[ChildrenType])
-
-Gets the list of children, filtered by type.
-
-<!-- !! processed by numpydoc !! -->
-
-### RepairTopology.GetChildren(category: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../../v241/Ansys/Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory), recurses: System.Boolean, children: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject])
-
-Gets the list of children, filtered by type.
-
-<!-- !! processed by numpydoc !! -->
+<a id="RepairTopology.AddComment"></a>
 
 ### RepairTopology.AddComment()
 
@@ -450,11 +524,15 @@ Creates a new child Comment.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="RepairTopology.AddFigure"></a>
+
 ### RepairTopology.AddFigure()
 
 Creates a new child Figure.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="RepairTopology.AddImage"></a>
 
 ### RepairTopology.AddImage(filePath: System.String)
 
@@ -466,11 +544,7 @@ if not, the image will be a screen capture of the Geometry window.
 
 <!-- !! processed by numpydoc !! -->
 
-### RepairTopology.Activate()
-
-Activate the current object.
-
-<!-- !! processed by numpydoc !! -->
+<a id="RepairTopology.CopyTo"></a>
 
 ### RepairTopology.CopyTo(other: Ansys.ACT.Automation.Mechanical.DataModelObject)
 
@@ -478,11 +552,55 @@ Copies all visible properties from this object to another.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="RepairTopology.CreateParameter"></a>
+
+### RepairTopology.CreateParameter(propName: System.String)
+
+Creates a new parameter for a Property.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="RepairTopology.Delete"></a>
+
+### RepairTopology.Delete()
+
+Run the Delete action.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="RepairTopology.Duplicate"></a>
+
 ### RepairTopology.Duplicate()
 
 Creates a copy of the current DataModelObject.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="RepairTopology.GenerateMesh"></a>
+
+### RepairTopology.GenerateMesh()
+
+Generate the Mesh.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="RepairTopology.GetChildren"></a>
+
+### RepairTopology.GetChildren(recurses: System.Boolean, children: System.Collections.Generic.IList[ChildrenType])
+
+Gets the list of children, filtered by type.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="RepairTopology.GetParameter"></a>
+
+### RepairTopology.GetParameter(propName: System.String)
+
+Gets the parameter corresponding to the given property.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="RepairTopology.GroupAllSimilarChildren"></a>
 
 ### RepairTopology.GroupAllSimilarChildren()
 
@@ -490,17 +608,15 @@ Run the GroupAllSimilarChildren action.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="RepairTopology.GroupSimilarObjects"></a>
+
 ### RepairTopology.GroupSimilarObjects()
 
 Run the GroupSimilarObjects action.
 
 <!-- !! processed by numpydoc !! -->
 
-### RepairTopology.PropertyByName(name: System.String)
-
-Get a property by its unique name.
-
-<!-- !! processed by numpydoc !! -->
+<a id="RepairTopology.PropertyByAPIName"></a>
 
 ### RepairTopology.PropertyByAPIName(name: System.String)
 
@@ -511,21 +627,27 @@ If multiple properties have the same API Name, only the first property with that
 
 <!-- !! processed by numpydoc !! -->
 
-### RepairTopology.CreateParameter(propName: System.String)
+<a id="RepairTopology.PropertyByName"></a>
 
-Creates a new parameter for a Property.
+### RepairTopology.PropertyByName(name: System.String)
 
-<!-- !! processed by numpydoc !! -->
-
-### RepairTopology.GetParameter(propName: System.String)
-
-Gets the parameter corresponding to the given property.
+Get a property by its unique name.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="RepairTopology.RemoveParameter"></a>
 
 ### RepairTopology.RemoveParameter(propName: System.String)
 
 Removes the parameter from the parameter set corresponding to the given property.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="RepairTopology.RenameBasedOnDefinition"></a>
+
+### RepairTopology.RenameBasedOnDefinition()
+
+Run the RenameBasedOnDefinition action.
 
 <!-- !! processed by numpydoc !! -->
 

@@ -1,6 +1,6 @@
 # `ImportedSurfaceLoadType`
 
-
+<a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.ExternalModel.ImportedSurfaceLoadType"></a>
 
 #### *class* ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.ExternalModel.ImportedSurfaceLoadType
 
@@ -17,25 +17,25 @@ Specifies the ImportedSurfaceLoadType.
 ### Attributes
 
 | Name |
-| ----------------------------------------------------------------------------------------------------------------------------------------------------- |
-| [`Pressure`](../../../../../../v242/Ansys/Mechanical/DataModel/Enums/ExternalModel/ImportedSurfaceLoadType.md#ImportedSurfaceLoadType.Pressure) |
-| [`HeatFlux`](../../../../../../v242/Ansys/Mechanical/DataModel/Enums/ExternalModel/ImportedSurfaceLoadType.md#ImportedSurfaceLoadType.HeatFlux) |
-| [`Convection`](../../../../../../v242/Ansys/Mechanical/DataModel/Enums/ExternalModel/ImportedSurfaceLoadType.md#ImportedSurfaceLoadType.Convection) |
+| ------------------------------------------------------- |
+| [`Convection`](#ImportedSurfaceLoadType.Convection) |
+| [`HeatFlux`](#ImportedSurfaceLoadType.HeatFlux) |
+| [`Pressure`](#ImportedSurfaceLoadType.Pressure) |
 
 <a id="attribute-detail"></a>
 
 ## Attribute detail
 
-<a id="ImportedSurfaceLoadType.Pressure"></a>
+<a id="ImportedSurfaceLoadType.Convection"></a>
 
-### ImportedSurfaceLoadType.Pressure *= 1*
+### ImportedSurfaceLoadType.Convection *= 23*
 
 <a id="ImportedSurfaceLoadType.HeatFlux"></a>
 
 ### ImportedSurfaceLoadType.HeatFlux *= 22*
 
-<a id="ImportedSurfaceLoadType.Convection"></a>
+<a id="ImportedSurfaceLoadType.Pressure"></a>
 
-### ImportedSurfaceLoadType.Convection *= 23*
+### ImportedSurfaceLoadType.Pressure *= 1*
 
 

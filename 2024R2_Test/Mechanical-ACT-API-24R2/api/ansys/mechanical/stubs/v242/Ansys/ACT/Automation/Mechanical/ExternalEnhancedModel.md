@@ -1,6 +1,6 @@
 # `ExternalEnhancedModel`
 
-
+<a id="ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.ExternalEnhancedModel"></a>
 
 #### *class* ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.ExternalEnhancedModel
 
@@ -17,95 +17,47 @@ Defines a ExternalEnhancedModel.
 ### Methods
 
 | Name | Description |
-|---------------------------|-----------------------------------------------------------------------------------|
-| `RegroupToDefault`        | Run the RegroupToDefault action.                                                  |
-| `GetChildren`             | Gets the list of children, filtered by type.                                      |
-| `GetChildren`             | Gets the list of children, filtered by type.                                      |
-| `AddComment`              | Creates a new child Comment.                                                      |
-| `AddFigure`               | Creates a new child Figure.                                                       |
-| `AddImage`                | Creates a new child Image.                                                        |
-| `Activate`                | Activate the current object.                                                      |
-| `CopyTo`                  | Copies all visible properties from this object to another.                        |
-| `Duplicate`               | Creates a copy of the current DataModelObject.                                    |
-| `GroupAllSimilarChildren` | Run the GroupAllSimilarChildren action.                                           |
-| `GroupSimilarObjects`     | Run the GroupSimilarObjects action.                                               |
-| `PropertyByName`          | Get a property by its unique name.                                                |
-| `PropertyByAPIName`       | Get a property by its API name.                                                   |
-| `CreateParameter`         | Creates a new parameter for a Property.                                           |
-| `GetParameter`            | Gets the parameter corresponding to the given property.                           |
-| `RemoveParameter`         | Removes the parameter from the parameter set corresponding to the given property. |
+|-----------------------------------------------------------------------------|-----------------------------------------------------------------------------------|
+| [`Activate`](#ExternalEnhancedModel.Activate)                               | Activate the current object.                                                      |
+| [`AddComment`](#ExternalEnhancedModel.AddComment)                           | Creates a new child Comment.                                                      |
+| [`AddFigure`](#ExternalEnhancedModel.AddFigure)                             | Creates a new child Figure.                                                       |
+| [`AddImage`](#ExternalEnhancedModel.AddImage)                               | Creates a new child Image.                                                        |
+| [`CopyTo`](#ExternalEnhancedModel.CopyTo)                                   | Copies all visible properties from this object to another.                        |
+| [`CreateParameter`](#ExternalEnhancedModel.CreateParameter)                 | Creates a new parameter for a Property.                                           |
+| [`Duplicate`](#ExternalEnhancedModel.Duplicate)                             | Creates a copy of the current DataModelObject.                                    |
+| [`GetChildren`](#ExternalEnhancedModel.GetChildren)                         | Gets the list of children, filtered by type.                                      |
+| [`GetParameter`](#ExternalEnhancedModel.GetParameter)                       | Gets the parameter corresponding to the given property.                           |
+| [`GroupAllSimilarChildren`](#ExternalEnhancedModel.GroupAllSimilarChildren) | Run the GroupAllSimilarChildren action.                                           |
+| [`GroupSimilarObjects`](#ExternalEnhancedModel.GroupSimilarObjects)         | Run the GroupSimilarObjects action.                                               |
+| [`PropertyByAPIName`](#ExternalEnhancedModel.PropertyByAPIName)             | Get a property by its API name.                                                   |
+| [`PropertyByName`](#ExternalEnhancedModel.PropertyByName)                   | Get a property by its unique name.                                                |
+| [`RegroupToDefault`](#ExternalEnhancedModel.RegroupToDefault)               | Run the RegroupToDefault action.                                                  |
+| [`RemoveParameter`](#ExternalEnhancedModel.RemoveParameter)                 | Removes the parameter from the parameter set corresponding to the given property. |
 
 ### Properties
 
 | Name | Description |
-|---------------------------|---------------------------------------------------------------|
-| `InternalObject`          | Gets the internal object. For advanced usage only.            |
-| `LayerToDisplay`          | Gets or sets the LayerToDisplay.                              |
-| `MaximumNumberOfLayers`   | Gets the MaximumNumberOfLayers.                               |
-| `Type`                    | Gets the Type.                                                |
-| `NonlinearEffects`        | Gets or sets the NonlinearEffects.                            |
-| `Suppressed`              | Gets or sets the Suppressed.                                  |
-| `ThermalStrainEffects`    | Gets or sets the ThermalStrainEffects.                        |
-| `DataModelObjectCategory` | Gets the current DataModelObject's category.                  |
-| `Children`                | Gets the list of children.                                    |
-| `Comments`                | Gets the list of associated comments.                         |
-| `Figures`                 | Gets the list of associated figures.                          |
-| `Images`                  | Gets the list of associated images.                           |
-| `InternalObject`          | Gets the internal object. For advanced usage only.            |
-| `Properties`              | Gets the list of properties for this object.                  |
-| `VisibleProperties`       | Gets the list of properties that are visible for this object. |
+|-----------------------------------------------------------------------------|---------------------------------------------------------------|
+| [`Children`](#ExternalEnhancedModel.Children)                               | Gets the list of children.                                    |
+| [`Comments`](#ExternalEnhancedModel.Comments)                               | Gets the list of associated comments.                         |
+| [`DataModelObjectCategory`](#ExternalEnhancedModel.DataModelObjectCategory) | Gets the current DataModelObject’s category.                  |
+| [`Figures`](#ExternalEnhancedModel.Figures)                                 | Gets the list of associated figures.                          |
+| [`Images`](#ExternalEnhancedModel.Images)                                   | Gets the list of associated images.                           |
+| [`InternalObject`](#ExternalEnhancedModel.InternalObject)                   | Gets the internal object. For advanced usage only.            |
+| [`LayerToDisplay`](#ExternalEnhancedModel.LayerToDisplay)                   | Gets or sets the LayerToDisplay.                              |
+| [`MaximumNumberOfLayers`](#ExternalEnhancedModel.MaximumNumberOfLayers)     | Gets the MaximumNumberOfLayers.                               |
+| [`NonlinearEffects`](#ExternalEnhancedModel.NonlinearEffects)               | Gets or sets the NonlinearEffects.                            |
+| [`Properties`](#ExternalEnhancedModel.Properties)                           | Gets the list of properties for this object.                  |
+| [`Suppressed`](#ExternalEnhancedModel.Suppressed)                           | Gets or sets the Suppressed.                                  |
+| [`ThermalStrainEffects`](#ExternalEnhancedModel.ThermalStrainEffects)       | Gets or sets the ThermalStrainEffects.                        |
+| [`Type`](#ExternalEnhancedModel.Type)                                       | Gets the Type.                                                |
+| [`VisibleProperties`](#ExternalEnhancedModel.VisibleProperties)             | Gets the list of properties that are visible for this object. |
 
 <a id="property-detail"></a>
 
 ## Property detail
 
-### *property* ExternalEnhancedModel.InternalObject *: Ansys.Common.Interop.DSObjectsAuto.IDSExternalEnhancedModelAuto | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets the internal object. For advanced usage only.
-
-<!-- !! processed by numpydoc !! -->
-
-### *property* ExternalEnhancedModel.LayerToDisplay *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the LayerToDisplay.
-
-<!-- !! processed by numpydoc !! -->
-
-### *property* ExternalEnhancedModel.MaximumNumberOfLayers *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets the MaximumNumberOfLayers.
-
-<!-- !! processed by numpydoc !! -->
-
-### *property* ExternalEnhancedModel.Type *: [Ansys.Mechanical.DataModel.Enums.ExternalEnhancedModelType](../../../../../v241/Ansys/Mechanical/DataModel/Enums/ExternalEnhancedModelType.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.ExternalEnhancedModelType) | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets the Type.
-
-<!-- !! processed by numpydoc !! -->
-
-### *property* ExternalEnhancedModel.NonlinearEffects *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the NonlinearEffects.
-
-<!-- !! processed by numpydoc !! -->
-
-### *property* ExternalEnhancedModel.Suppressed *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the Suppressed.
-
-<!-- !! processed by numpydoc !! -->
-
-### *property* ExternalEnhancedModel.ThermalStrainEffects *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the ThermalStrainEffects.
-
-<!-- !! processed by numpydoc !! -->
-
-### *property* ExternalEnhancedModel.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../v241/Ansys/Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets the current DataModelObject's category.
-
-<!-- !! processed by numpydoc !! -->
+<a id="ExternalEnhancedModel.Children"></a>
 
 ### *property* ExternalEnhancedModel.Children *: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -113,11 +65,23 @@ Gets the list of children.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="ExternalEnhancedModel.Comments"></a>
+
 ### *property* ExternalEnhancedModel.Comments *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Comment](../../../../../v241/Ansys/ACT/Automation/Mechanical/Comment.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated comments.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="ExternalEnhancedModel.DataModelObjectCategory"></a>
+
+### *property* ExternalEnhancedModel.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets the current DataModelObject’s category.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ExternalEnhancedModel.Figures"></a>
 
 ### *property* ExternalEnhancedModel.Figures *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Figure](../../../../../v241/Ansys/ACT/Automation/Mechanical/Figure.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -125,23 +89,79 @@ Gets the list of associated figures.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="ExternalEnhancedModel.Images"></a>
+
 ### *property* ExternalEnhancedModel.Images *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Image](../../../../../v241/Ansys/ACT/Automation/Mechanical/Image.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated images.
 
 <!-- !! processed by numpydoc !! -->
 
-### *property* ExternalEnhancedModel.InternalObject *: System.Object | [None](https://docs.python.org/3/library/constants.html#None)*
+<a id="ExternalEnhancedModel.InternalObject"></a>
+
+### *property* ExternalEnhancedModel.InternalObject *: Ansys.Common.Interop.DSObjectsAuto.IDSExternalEnhancedModelAuto | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the internal object. For advanced usage only.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="ExternalEnhancedModel.LayerToDisplay"></a>
+
+### *property* ExternalEnhancedModel.LayerToDisplay *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the LayerToDisplay.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ExternalEnhancedModel.MaximumNumberOfLayers"></a>
+
+### *property* ExternalEnhancedModel.MaximumNumberOfLayers *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets the MaximumNumberOfLayers.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ExternalEnhancedModel.NonlinearEffects"></a>
+
+### *property* ExternalEnhancedModel.NonlinearEffects *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the NonlinearEffects.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ExternalEnhancedModel.Properties"></a>
 
 ### *property* ExternalEnhancedModel.Properties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of properties for this object.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="ExternalEnhancedModel.Suppressed"></a>
+
+### *property* ExternalEnhancedModel.Suppressed *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the Suppressed.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ExternalEnhancedModel.ThermalStrainEffects"></a>
+
+### *property* ExternalEnhancedModel.ThermalStrainEffects *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the ThermalStrainEffects.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ExternalEnhancedModel.Type"></a>
+
+### *property* ExternalEnhancedModel.Type *: [Ansys.Mechanical.DataModel.Enums.ExternalEnhancedModelType](../../../Mechanical/DataModel/Enums/ExternalEnhancedModelType.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.ExternalEnhancedModelType) | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets the Type.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ExternalEnhancedModel.VisibleProperties"></a>
 
 ### *property* ExternalEnhancedModel.VisibleProperties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -153,23 +173,15 @@ Gets the list of properties that are visible for this object.
 
 ## Method detail
 
-### ExternalEnhancedModel.RegroupToDefault()
+<a id="ExternalEnhancedModel.Activate"></a>
 
-Run the RegroupToDefault action.
+### ExternalEnhancedModel.Activate()
 
-<!-- !! processed by numpydoc !! -->
-
-### ExternalEnhancedModel.GetChildren(recurses: System.Boolean, children: System.Collections.Generic.IList[ChildrenType])
-
-Gets the list of children, filtered by type.
+Activate the current object.
 
 <!-- !! processed by numpydoc !! -->
 
-### ExternalEnhancedModel.GetChildren(category: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../v241/Ansys/Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory), recurses: System.Boolean, children: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject])
-
-Gets the list of children, filtered by type.
-
-<!-- !! processed by numpydoc !! -->
+<a id="ExternalEnhancedModel.AddComment"></a>
 
 ### ExternalEnhancedModel.AddComment()
 
@@ -177,11 +189,15 @@ Creates a new child Comment.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="ExternalEnhancedModel.AddFigure"></a>
+
 ### ExternalEnhancedModel.AddFigure()
 
 Creates a new child Figure.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="ExternalEnhancedModel.AddImage"></a>
 
 ### ExternalEnhancedModel.AddImage(filePath: System.String)
 
@@ -193,11 +209,7 @@ if not, the image will be a screen capture of the Geometry window.
 
 <!-- !! processed by numpydoc !! -->
 
-### ExternalEnhancedModel.Activate()
-
-Activate the current object.
-
-<!-- !! processed by numpydoc !! -->
+<a id="ExternalEnhancedModel.CopyTo"></a>
 
 ### ExternalEnhancedModel.CopyTo(other: Ansys.ACT.Automation.Mechanical.DataModelObject)
 
@@ -205,11 +217,39 @@ Copies all visible properties from this object to another.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="ExternalEnhancedModel.CreateParameter"></a>
+
+### ExternalEnhancedModel.CreateParameter(propName: System.String)
+
+Creates a new parameter for a Property.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ExternalEnhancedModel.Duplicate"></a>
+
 ### ExternalEnhancedModel.Duplicate()
 
 Creates a copy of the current DataModelObject.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="ExternalEnhancedModel.GetChildren"></a>
+
+### ExternalEnhancedModel.GetChildren(recurses: System.Boolean, children: System.Collections.Generic.IList[ChildrenType])
+
+Gets the list of children, filtered by type.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ExternalEnhancedModel.GetParameter"></a>
+
+### ExternalEnhancedModel.GetParameter(propName: System.String)
+
+Gets the parameter corresponding to the given property.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ExternalEnhancedModel.GroupAllSimilarChildren"></a>
 
 ### ExternalEnhancedModel.GroupAllSimilarChildren()
 
@@ -217,17 +257,15 @@ Run the GroupAllSimilarChildren action.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="ExternalEnhancedModel.GroupSimilarObjects"></a>
+
 ### ExternalEnhancedModel.GroupSimilarObjects()
 
 Run the GroupSimilarObjects action.
 
 <!-- !! processed by numpydoc !! -->
 
-### ExternalEnhancedModel.PropertyByName(name: System.String)
-
-Get a property by its unique name.
-
-<!-- !! processed by numpydoc !! -->
+<a id="ExternalEnhancedModel.PropertyByAPIName"></a>
 
 ### ExternalEnhancedModel.PropertyByAPIName(name: System.String)
 
@@ -238,17 +276,23 @@ If multiple properties have the same API Name, only the first property with that
 
 <!-- !! processed by numpydoc !! -->
 
-### ExternalEnhancedModel.CreateParameter(propName: System.String)
+<a id="ExternalEnhancedModel.PropertyByName"></a>
 
-Creates a new parameter for a Property.
+### ExternalEnhancedModel.PropertyByName(name: System.String)
+
+Get a property by its unique name.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ExternalEnhancedModel.RegroupToDefault"></a>
+
+### ExternalEnhancedModel.RegroupToDefault()
+
+Run the RegroupToDefault action.
 
 <!-- !! processed by numpydoc !! -->
 
-### ExternalEnhancedModel.GetParameter(propName: System.String)
-
-Gets the parameter corresponding to the given property.
-
-<!-- !! processed by numpydoc !! -->
+<a id="ExternalEnhancedModel.RemoveParameter"></a>
 
 ### ExternalEnhancedModel.RemoveParameter(propName: System.String)
 

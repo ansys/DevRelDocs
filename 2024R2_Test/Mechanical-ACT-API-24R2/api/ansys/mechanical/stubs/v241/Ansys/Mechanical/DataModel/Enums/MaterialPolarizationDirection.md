@@ -1,6 +1,6 @@
 # `MaterialPolarizationDirection`
 
-
+<a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.MaterialPolarizationDirection"></a>
 
 #### *class* ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.MaterialPolarizationDirection
 
@@ -17,9 +17,9 @@ Specifies the MaterialPolarizationDirection.
 ### Attributes
 
 | Name |
-| ------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| [`NegativeXDirection`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/MaterialPolarizationDirection.md#MaterialPolarizationDirection.NegativeXDirection) |
-| [`PositiveXDirection`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/MaterialPolarizationDirection.md#MaterialPolarizationDirection.PositiveXDirection) |
+| ----------------------------------------------------------------------------- |
+| [`NegativeXDirection`](#MaterialPolarizationDirection.NegativeXDirection) |
+| [`PositiveXDirection`](#MaterialPolarizationDirection.PositiveXDirection) |
 
 <a id="attribute-detail"></a>
 

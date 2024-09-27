@@ -1,6 +1,6 @@
 # `CombineRestartFilesType`
 
-
+<a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.CombineRestartFilesType"></a>
 
 #### *class* ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.CombineRestartFilesType
 
@@ -17,10 +17,10 @@ Specifies the CombineRestartFilesType.
 ### Attributes
 
 | Name |
-| -------------------------------------------------------------------------------------------------------------------------------------------------- |
-| [`No`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/CombineRestartFilesType.md#CombineRestartFilesType.No) |
-| [`ProgramControlled`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/CombineRestartFilesType.md#CombineRestartFilesType.ProgramControlled) |
-| [`Yes`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/CombineRestartFilesType.md#CombineRestartFilesType.Yes) |
+| ------------------------------------------------------------------- |
+| [`No`](#CombineRestartFilesType.No) |
+| [`ProgramControlled`](#CombineRestartFilesType.ProgramControlled) |
+| [`Yes`](#CombineRestartFilesType.Yes) |
 
 <a id="attribute-detail"></a>
 

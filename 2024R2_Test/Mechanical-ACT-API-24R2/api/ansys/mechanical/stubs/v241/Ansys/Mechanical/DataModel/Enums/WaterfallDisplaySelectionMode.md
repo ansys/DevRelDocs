@@ -1,6 +1,6 @@
 # `WaterfallDisplaySelectionMode`
 
-
+<a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.WaterfallDisplaySelectionMode"></a>
 
 #### *class* ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.WaterfallDisplaySelectionMode
 
@@ -17,25 +17,25 @@ Specifies the Selection Mode Type.
 ### Attributes
 
 | Name |
-| ----------------------------------------------------------------- |
-| [`RPM`](#WaterfallDisplaySelectionMode.RPM) |
-| [`Order`](#WaterfallDisplaySelectionMode.Order) |
+| ------------------------------------------------------------------- |
 | [`NotApplicable`](#WaterfallDisplaySelectionMode.NotApplicable) |
+| [`Order`](#WaterfallDisplaySelectionMode.Order) |
+| [`RPM`](#WaterfallDisplaySelectionMode.RPM) |
 
 <a id="attribute-detail"></a>
 
 ## Attribute detail
 
-<a id="WaterfallDisplaySelectionMode.RPM"></a>
+<a id="WaterfallDisplaySelectionMode.NotApplicable"></a>
 
-### WaterfallDisplaySelectionMode.RPM *= 0*
+### WaterfallDisplaySelectionMode.NotApplicable *= 2*
 
 <a id="WaterfallDisplaySelectionMode.Order"></a>
 
 ### WaterfallDisplaySelectionMode.Order *= 1*
 
-<a id="WaterfallDisplaySelectionMode.NotApplicable"></a>
+<a id="WaterfallDisplaySelectionMode.RPM"></a>
 
-### WaterfallDisplaySelectionMode.NotApplicable *= 2*
+### WaterfallDisplaySelectionMode.RPM *= 0*
 
 

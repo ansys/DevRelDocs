@@ -1,6 +1,6 @@
 # `RadiusOfReferenceSphereDefineBy`
 
-
+<a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.RadiusOfReferenceSphereDefineBy"></a>
 
 #### *class* ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.RadiusOfReferenceSphereDefineBy
 
@@ -17,9 +17,9 @@ Specifies the RadiusOfReferenceSphereDefineBy.
 ### Attributes
 
 | Name |
-| -------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| [`ProgramControlled`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/RadiusOfReferenceSphereDefineBy.md#RadiusOfReferenceSphereDefineBy.ProgramControlled) |
-| [`UserDefined`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/RadiusOfReferenceSphereDefineBy.md#RadiusOfReferenceSphereDefineBy.UserDefined) |
+| ----------------------------------------------------------------------------- |
+| [`ProgramControlled`](#RadiusOfReferenceSphereDefineBy.ProgramControlled) |
+| [`UserDefined`](#RadiusOfReferenceSphereDefineBy.UserDefined) |
 
 <a id="attribute-detail"></a>
 

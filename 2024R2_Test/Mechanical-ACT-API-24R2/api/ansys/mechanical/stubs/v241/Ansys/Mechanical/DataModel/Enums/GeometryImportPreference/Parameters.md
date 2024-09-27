@@ -1,6 +1,6 @@
 # `Parameters`
 
-
+<a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.GeometryImportPreference.Parameters"></a>
 
 #### *class* ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.GeometryImportPreference.Parameters
 
@@ -17,25 +17,25 @@ Defines how parameters in the CAD source are processed.
 ### Attributes
 
 | Name |
-| ---------------------------------------------------------------------------------------------------------------------------------------- |
-| [`None_`](../../../../../../v242/Ansys/Mechanical/DataModel/Enums/GeometryImportPreference/Parameters.md#Parameters.None_) |
-| [`Independent`](../../../../../../v242/Ansys/Mechanical/DataModel/Enums/GeometryImportPreference/Parameters.md#Parameters.Independent) |
-| [`All`](../../../../../../v242/Ansys/Mechanical/DataModel/Enums/GeometryImportPreference/Parameters.md#Parameters.All) |
+| ------------------------------------------ |
+| [`All`](#Parameters.All) |
+| [`Independent`](#Parameters.Independent) |
+| [`None_`](#Parameters.None_) |
 
 <a id="attribute-detail"></a>
 
 ## Attribute detail
 
-<a id="Parameters.None_"></a>
+<a id="Parameters.All"></a>
 
-### Parameters.None_ *= 0*
+### Parameters.All *= 3*
 
 <a id="Parameters.Independent"></a>
 
 ### Parameters.Independent *= 1*
 
-<a id="Parameters.All"></a>
+<a id="Parameters.None_"></a>
 
-### Parameters.All *= 3*
+### Parameters.None_ *= 0*
 
 

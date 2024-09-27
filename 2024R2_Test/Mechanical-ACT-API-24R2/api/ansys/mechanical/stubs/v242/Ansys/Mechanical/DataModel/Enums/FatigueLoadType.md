@@ -1,6 +1,6 @@
 # `FatigueLoadType`
 
-
+<a id="ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.FatigueLoadType"></a>
 
 #### *class* ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.FatigueLoadType
 
@@ -17,7 +17,7 @@ Specifies the FatigueLoadType.
 ### Attributes
 
 | Name |
-| ------------------------------------------------------- |
+| ------------------------------------------------------------------------------------------------------------------------------ |
 | [`FullyReversed`](#FatigueLoadType.FullyReversed) |
 | [`HistoryData`](#FatigueLoadType.HistoryData) |
 | [`NonProportional`](#FatigueLoadType.NonProportional) |

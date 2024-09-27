@@ -1,6 +1,6 @@
 # `CyclicHarmonicIndex`
 
-
+<a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.CyclicHarmonicIndex"></a>
 
 #### *class* ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.CyclicHarmonicIndex
 
@@ -17,9 +17,9 @@ Specifies the CyclicHarmonicIndex.
 ### Attributes
 
 | Name |
-| ------------------------------------------------------------------------------------------------------------------------------------------ |
-| [`Manual`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/CyclicHarmonicIndex.md#CyclicHarmonicIndex.Manual) |
-| [`ProgramControlled`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/CyclicHarmonicIndex.md#CyclicHarmonicIndex.ProgramControlled) |
+| --------------------------------------------------------------- |
+| [`Manual`](#CyclicHarmonicIndex.Manual) |
+| [`ProgramControlled`](#CyclicHarmonicIndex.ProgramControlled) |
 
 <a id="attribute-detail"></a>
 

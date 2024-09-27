@@ -1,6 +1,6 @@
 # `ForceComponentSelectionType`
 
-
+<a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.ForceComponentSelectionType"></a>
 
 #### *class* ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.ForceComponentSelectionType
 
@@ -17,30 +17,30 @@ Specifies the ForceComponentType.
 ### Attributes
 
 | Name |
-| ---------------------------------------------------------------------------------------------------------------------------------------- |
-| [`Support`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/ForceComponentSelectionType.md#ForceComponentSelectionType.Support) |
-| [`Coupling`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/ForceComponentSelectionType.md#ForceComponentSelectionType.Coupling) |
-| [`Contact`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/ForceComponentSelectionType.md#ForceComponentSelectionType.Contact) |
-| [`All`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/ForceComponentSelectionType.md#ForceComponentSelectionType.All) |
+| ----------------------------------------------------- |
+| [`All`](#ForceComponentSelectionType.All) |
+| [`Contact`](#ForceComponentSelectionType.Contact) |
+| [`Coupling`](#ForceComponentSelectionType.Coupling) |
+| [`Support`](#ForceComponentSelectionType.Support) |
 
 <a id="attribute-detail"></a>
 
 ## Attribute detail
 
-<a id="ForceComponentSelectionType.Support"></a>
+<a id="ForceComponentSelectionType.All"></a>
 
-### ForceComponentSelectionType.Support *= 1*
-
-<a id="ForceComponentSelectionType.Coupling"></a>
-
-### ForceComponentSelectionType.Coupling *= 3*
+### ForceComponentSelectionType.All *= 4*
 
 <a id="ForceComponentSelectionType.Contact"></a>
 
 ### ForceComponentSelectionType.Contact *= 2*
 
-<a id="ForceComponentSelectionType.All"></a>
+<a id="ForceComponentSelectionType.Coupling"></a>
 
-### ForceComponentSelectionType.All *= 4*
+### ForceComponentSelectionType.Coupling *= 3*
+
+<a id="ForceComponentSelectionType.Support"></a>
+
+### ForceComponentSelectionType.Support *= 1*
 
 

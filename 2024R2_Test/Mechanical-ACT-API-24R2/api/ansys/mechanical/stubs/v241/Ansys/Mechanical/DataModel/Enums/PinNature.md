@@ -1,6 +1,6 @@
 # `PinNature`
 
-
+<a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.PinNature"></a>
 
 #### *class* ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.PinNature
 
@@ -17,9 +17,9 @@ FMI standards
 ### Attributes
 
 | Name |
-| -------------------------------------------------------------------------------------------------------------------- |
-| [`InputQuantities`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/PinNature.md#PinNature.InputQuantities) |
-| [`OutputQuantities`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/PinNature.md#PinNature.OutputQuantities) |
+| --------------------------------------------------- |
+| [`InputQuantities`](#PinNature.InputQuantities) |
+| [`OutputQuantities`](#PinNature.OutputQuantities) |
 
 <a id="attribute-detail"></a>
 

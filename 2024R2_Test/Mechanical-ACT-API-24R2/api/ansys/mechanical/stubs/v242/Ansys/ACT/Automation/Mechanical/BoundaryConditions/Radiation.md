@@ -1,6 +1,6 @@
 # `Radiation`
 
-
+<a id="ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.BoundaryConditions.Radiation"></a>
 
 #### *class* ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.BoundaryConditions.Radiation
 
@@ -17,136 +17,66 @@ Defines a Radiation.
 ### Methods
 
 | Name | Description |
-|----------------------------------|-----------------------------------------------------------------------------------|
-| `GetActivateAtLoadStep`          | GetActivateAtLoadStep method.                                                     |
-| `SetActivateAtLoadStep`          | SetActivateAtLoadStep method.                                                     |
-| `GetComponentActivateAtLoadStep` | GetComponentActivateAtLoadStep method.                                            |
-| `SetComponentActivateAtLoadStep` | SetComponentActivateAtLoadStep method.                                            |
-| `PromoteToNamedSelection`        | Run the PromoteToNamedSelection action.                                           |
-| `Delete`                         | Run the Delete action.                                                            |
-| `GetChildren`                    | Gets the list of children, filtered by type.                                      |
-| `GetChildren`                    | Gets the list of children, filtered by type.                                      |
-| `AddComment`                     | Creates a new child Comment.                                                      |
-| `AddFigure`                      | Creates a new child Figure.                                                       |
-| `AddImage`                       | Creates a new child Image.                                                        |
-| `Activate`                       | Activate the current object.                                                      |
-| `CopyTo`                         | Copies all visible properties from this object to another.                        |
-| `Duplicate`                      | Creates a copy of the current DataModelObject.                                    |
-| `GroupAllSimilarChildren`        | Run the GroupAllSimilarChildren action.                                           |
-| `GroupSimilarObjects`            | Run the GroupSimilarObjects action.                                               |
-| `PropertyByName`                 | Get a property by its unique name.                                                |
-| `PropertyByAPIName`              | Get a property by its API name.                                                   |
-| `CreateParameter`                | Creates a new parameter for a Property.                                           |
-| `GetParameter`                   | Gets the parameter corresponding to the given property.                           |
-| `RemoveParameter`                | Removes the parameter from the parameter set corresponding to the given property. |
+|-------------------------------------------------------------------------------|-----------------------------------------------------------------------------------|
+| [`Activate`](#Radiation.Activate)                                             | Activate the current object.                                                      |
+| [`AddComment`](#Radiation.AddComment)                                         | Creates a new child Comment.                                                      |
+| [`AddFigure`](#Radiation.AddFigure)                                           | Creates a new child Figure.                                                       |
+| [`AddImage`](#Radiation.AddImage)                                             | Creates a new child Image.                                                        |
+| [`CopyTo`](#Radiation.CopyTo)                                                 | Copies all visible properties from this object to another.                        |
+| [`CreateParameter`](#Radiation.CreateParameter)                               | Creates a new parameter for a Property.                                           |
+| [`Delete`](#Radiation.Delete)                                                 | Run the Delete action.                                                            |
+| [`Duplicate`](#Radiation.Duplicate)                                           | Creates a copy of the current DataModelObject.                                    |
+| [`GetActivateAtLoadStep`](#Radiation.GetActivateAtLoadStep)                   | GetActivateAtLoadStep method.                                                     |
+| [`GetChildren`](#Radiation.GetChildren)                                       | Gets the list of children, filtered by type.                                      |
+| [`GetComponentActivateAtLoadStep`](#Radiation.GetComponentActivateAtLoadStep) | GetComponentActivateAtLoadStep method.                                            |
+| [`GetParameter`](#Radiation.GetParameter)                                     | Gets the parameter corresponding to the given property.                           |
+| [`GroupAllSimilarChildren`](#Radiation.GroupAllSimilarChildren)               | Run the GroupAllSimilarChildren action.                                           |
+| [`GroupSimilarObjects`](#Radiation.GroupSimilarObjects)                       | Run the GroupSimilarObjects action.                                               |
+| [`PromoteToNamedSelection`](#Radiation.PromoteToNamedSelection)               | Run the PromoteToNamedSelection action.                                           |
+| [`PropertyByAPIName`](#Radiation.PropertyByAPIName)                           | Get a property by its API name.                                                   |
+| [`PropertyByName`](#Radiation.PropertyByName)                                 | Get a property by its unique name.                                                |
+| [`RemoveParameter`](#Radiation.RemoveParameter)                               | Removes the parameter from the parameter set corresponding to the given property. |
+| [`SetActivateAtLoadStep`](#Radiation.SetActivateAtLoadStep)                   | SetActivateAtLoadStep method.                                                     |
+| [`SetComponentActivateAtLoadStep`](#Radiation.SetComponentActivateAtLoadStep) | SetComponentActivateAtLoadStep method.                                            |
 
 ### Properties
 
 | Name | Description |
-|---------------------------|---------------------------------------------------------------|
-| `InternalObject`          | Gets the internal object. For advanced usage only.            |
-| `NumberOfSegments`        | Gets or sets the NumberOfSegments.                            |
-| `Enclosure`               | Gets or sets the Enclosure.                                   |
-| `Emissivity`              | Gets or sets the Emissivity.                                  |
-| `AmbientTemperature`      | Gets the AmbientTemperature.                                  |
-| `EditDataFor`             | Gets or sets the EditDataFor.                                 |
-| `EnclosureType`           | Gets or sets the EnclosureType.                               |
-| `Correlation`             | Gets or sets the Correlation.                                 |
-| `ShellFace`               | Gets or sets the ShellFace.                                   |
-| `Location`                | Gets or sets the Location.                                    |
-| `DataModelObjectCategory` | Gets the current DataModelObject's category.                  |
-| `Suppressed`              | Gets or sets the Suppressed.                                  |
-| `SharedRefBody`           | Gets or sets the SharedRefBody.                               |
-| `Children`                | Gets the list of children.                                    |
-| `Comments`                | Gets the list of associated comments.                         |
-| `Figures`                 | Gets the list of associated figures.                          |
-| `Images`                  | Gets the list of associated images.                           |
-| `ReadOnly`                | Gets or sets the ReadOnly.                                    |
-| `InternalObject`          | Gets the internal object. For advanced usage only.            |
-| `Properties`              | Gets the list of properties for this object.                  |
-| `VisibleProperties`       | Gets the list of properties that are visible for this object. |
+|-----------------------------------------------------------------|---------------------------------------------------------------|
+| [`AmbientTemperature`](#Radiation.AmbientTemperature)           | Gets the AmbientTemperature.                                  |
+| [`Children`](#Radiation.Children)                               | Gets the list of children.                                    |
+| [`Comments`](#Radiation.Comments)                               | Gets the list of associated comments.                         |
+| [`Correlation`](#Radiation.Correlation)                         | Gets or sets the Correlation.                                 |
+| [`DataModelObjectCategory`](#Radiation.DataModelObjectCategory) | Gets the current DataModelObject’s category.                  |
+| [`EditDataFor`](#Radiation.EditDataFor)                         | Gets or sets the EditDataFor.                                 |
+| [`Emissivity`](#Radiation.Emissivity)                           | Gets or sets the Emissivity.                                  |
+| [`Enclosure`](#Radiation.Enclosure)                             | Gets or sets the Enclosure.                                   |
+| [`EnclosureType`](#Radiation.EnclosureType)                     | Gets or sets the EnclosureType.                               |
+| [`Figures`](#Radiation.Figures)                                 | Gets the list of associated figures.                          |
+| [`Images`](#Radiation.Images)                                   | Gets the list of associated images.                           |
+| [`InternalObject`](#Radiation.InternalObject)                   | Gets the internal object. For advanced usage only.            |
+| [`Location`](#Radiation.Location)                               | Gets or sets the Location.                                    |
+| [`NumberOfSegments`](#Radiation.NumberOfSegments)               | Gets or sets the NumberOfSegments.                            |
+| [`Properties`](#Radiation.Properties)                           | Gets the list of properties for this object.                  |
+| [`ReadOnly`](#Radiation.ReadOnly)                               | Gets or sets the ReadOnly.                                    |
+| [`SharedRefBody`](#Radiation.SharedRefBody)                     | Gets or sets the SharedRefBody.                               |
+| [`ShellFace`](#Radiation.ShellFace)                             | Gets or sets the ShellFace.                                   |
+| [`Suppressed`](#Radiation.Suppressed)                           | Gets or sets the Suppressed.                                  |
+| [`VisibleProperties`](#Radiation.VisibleProperties)             | Gets the list of properties that are visible for this object. |
 
 <a id="property-detail"></a>
 
 ## Property detail
 
-### *property* Radiation.InternalObject *: Ansys.Common.Interop.DSObjectsAuto.IDSLoadAuto | [None](https://docs.python.org/3/library/constants.html#None)*
+<a id="Radiation.AmbientTemperature"></a>
 
-Gets the internal object. For advanced usage only.
-
-<!-- !! processed by numpydoc !! -->
-
-### *property* Radiation.NumberOfSegments *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the NumberOfSegments.
-
-<!-- !! processed by numpydoc !! -->
-
-### *property* Radiation.Enclosure *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the Enclosure.
-
-<!-- !! processed by numpydoc !! -->
-
-### *property* Radiation.Emissivity *: [Ansys.ACT.Mechanical.Fields.Field](../../../../../../v241/Ansys/ACT/Mechanical/Fields/Field.md#ansys.mechanical.stubs.v241.Ansys.ACT.Mechanical.Fields.Field) | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the Emissivity.
-
-<!-- !! processed by numpydoc !! -->
-
-### *property* Radiation.AmbientTemperature *: [Ansys.ACT.Mechanical.Fields.Field](../../../../../../v241/Ansys/ACT/Mechanical/Fields/Field.md#ansys.mechanical.stubs.v241.Ansys.ACT.Mechanical.Fields.Field) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Radiation.AmbientTemperature *: [Ansys.ACT.Mechanical.Fields.Field](../../../Mechanical/Fields/Field.md#ansys.mechanical.stubs.v242.Ansys.ACT.Mechanical.Fields.Field) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the AmbientTemperature.
 
 <!-- !! processed by numpydoc !! -->
 
-### *property* Radiation.EditDataFor *: [Ansys.Mechanical.DataModel.Enums.ConvectionTableSelection](../../../../../../v241/Ansys/Mechanical/DataModel/Enums/ConvectionTableSelection.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.ConvectionTableSelection) | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the EditDataFor.
-
-<!-- !! processed by numpydoc !! -->
-
-### *property* Radiation.EnclosureType *: [Ansys.Mechanical.DataModel.Enums.EnclosureType](../../../../../../v241/Ansys/Mechanical/DataModel/Enums/EnclosureType.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.EnclosureType) | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the EnclosureType.
-
-<!-- !! processed by numpydoc !! -->
-
-### *property* Radiation.Correlation *: [Ansys.Mechanical.DataModel.Enums.RadiationType](../../../../../../v241/Ansys/Mechanical/DataModel/Enums/RadiationType.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.RadiationType) | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the Correlation.
-
-<!-- !! processed by numpydoc !! -->
-
-### *property* Radiation.ShellFace *: [Ansys.Mechanical.DataModel.Enums.ShellFaceType](../../../../../../v241/Ansys/Mechanical/DataModel/Enums/ShellFaceType.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.ShellFaceType) | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the ShellFace.
-
-<!-- !! processed by numpydoc !! -->
-
-### *property* Radiation.Location *: Ansys.ACT.Interfaces.Common.ISelectionInfo | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the Location.
-
-<!-- !! processed by numpydoc !! -->
-
-### *property* Radiation.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../../v241/Ansys/Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets the current DataModelObject's category.
-
-<!-- !! processed by numpydoc !! -->
-
-### *property* Radiation.Suppressed *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the Suppressed.
-
-<!-- !! processed by numpydoc !! -->
-
-### *property* Radiation.SharedRefBody *: [Ansys.ACT.Automation.Mechanical.Body](../../../../../../v241/Ansys/ACT/Automation/Mechanical/Body.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Body) | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the SharedRefBody.
-
-<!-- !! processed by numpydoc !! -->
+<a id="Radiation.Children"></a>
 
 ### *property* Radiation.Children *: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -154,11 +84,63 @@ Gets the list of children.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="Radiation.Comments"></a>
+
 ### *property* Radiation.Comments *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Comment](../../../../../../v241/Ansys/ACT/Automation/Mechanical/Comment.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated comments.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="Radiation.Correlation"></a>
+
+### *property* Radiation.Correlation *: [Ansys.Mechanical.DataModel.Enums.RadiationType](../../../../Mechanical/DataModel/Enums/RadiationType.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.RadiationType) | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the Correlation.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="Radiation.DataModelObjectCategory"></a>
+
+### *property* Radiation.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets the current DataModelObject’s category.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="Radiation.EditDataFor"></a>
+
+### *property* Radiation.EditDataFor *: [Ansys.Mechanical.DataModel.Enums.ConvectionTableSelection](../../../../Mechanical/DataModel/Enums/ConvectionTableSelection.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.ConvectionTableSelection) | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the EditDataFor.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="Radiation.Emissivity"></a>
+
+### *property* Radiation.Emissivity *: [Ansys.ACT.Mechanical.Fields.Field](../../../Mechanical/Fields/Field.md#ansys.mechanical.stubs.v242.Ansys.ACT.Mechanical.Fields.Field) | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the Emissivity.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="Radiation.Enclosure"></a>
+
+### *property* Radiation.Enclosure *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the Enclosure.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="Radiation.EnclosureType"></a>
+
+### *property* Radiation.EnclosureType *: [Ansys.Mechanical.DataModel.Enums.EnclosureType](../../../../Mechanical/DataModel/Enums/EnclosureType.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.EnclosureType) | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the EnclosureType.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="Radiation.Figures"></a>
 
 ### *property* Radiation.Figures *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Figure](../../../../../../v241/Ansys/ACT/Automation/Mechanical/Figure.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -166,11 +148,47 @@ Gets the list of associated figures.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="Radiation.Images"></a>
+
 ### *property* Radiation.Images *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Image](../../../../../../v241/Ansys/ACT/Automation/Mechanical/Image.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated images.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="Radiation.InternalObject"></a>
+
+### *property* Radiation.InternalObject *: Ansys.Common.Interop.DSObjectsAuto.IDSLoadAuto | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets the internal object. For advanced usage only.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="Radiation.Location"></a>
+
+### *property* Radiation.Location *: Ansys.ACT.Interfaces.Common.ISelectionInfo | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the Location.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="Radiation.NumberOfSegments"></a>
+
+### *property* Radiation.NumberOfSegments *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the NumberOfSegments.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="Radiation.Properties"></a>
+
+### *property* Radiation.Properties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets the list of properties for this object.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="Radiation.ReadOnly"></a>
 
 ### *property* Radiation.ReadOnly *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -178,17 +196,31 @@ Gets or sets the ReadOnly.
 
 <!-- !! processed by numpydoc !! -->
 
-### *property* Radiation.InternalObject *: System.Object | [None](https://docs.python.org/3/library/constants.html#None)*
+<a id="Radiation.SharedRefBody"></a>
 
-Gets the internal object. For advanced usage only.
+### *property* Radiation.SharedRefBody *: [Ansys.ACT.Automation.Mechanical.Body](../../../../../../v241/Ansys/ACT/Automation/Mechanical/Body.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Body) | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the SharedRefBody.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="Radiation.ShellFace"></a>
+
+### *property* Radiation.ShellFace *: [Ansys.Mechanical.DataModel.Enums.ShellFaceType](../../../../Mechanical/DataModel/Enums/ShellFaceType.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.ShellFaceType) | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the ShellFace.
 
 <!-- !! processed by numpydoc !! -->
 
-### *property* Radiation.Properties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
+<a id="Radiation.Suppressed"></a>
 
-Gets the list of properties for this object.
+### *property* Radiation.Suppressed *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the Suppressed.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="Radiation.VisibleProperties"></a>
 
 ### *property* Radiation.VisibleProperties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -200,53 +232,15 @@ Gets the list of properties that are visible for this object.
 
 ## Method detail
 
-### Radiation.GetActivateAtLoadStep(stepNumber: System.UInt32)
+<a id="Radiation.Activate"></a>
 
-GetActivateAtLoadStep method.
+### Radiation.Activate()
 
-<!-- !! processed by numpydoc !! -->
-
-### Radiation.SetActivateAtLoadStep(stepNumber: System.UInt32, bActive: System.Boolean)
-
-SetActivateAtLoadStep method.
+Activate the current object.
 
 <!-- !! processed by numpydoc !! -->
 
-### Radiation.GetComponentActivateAtLoadStep(component: System.String, stepNumber: System.UInt32)
-
-GetComponentActivateAtLoadStep method.
-
-<!-- !! processed by numpydoc !! -->
-
-### Radiation.SetComponentActivateAtLoadStep(component: System.String, stepNumber: System.UInt32, bActive: System.Boolean)
-
-SetComponentActivateAtLoadStep method.
-
-<!-- !! processed by numpydoc !! -->
-
-### Radiation.PromoteToNamedSelection()
-
-Run the PromoteToNamedSelection action.
-
-<!-- !! processed by numpydoc !! -->
-
-### Radiation.Delete()
-
-Run the Delete action.
-
-<!-- !! processed by numpydoc !! -->
-
-### Radiation.GetChildren(recurses: System.Boolean, children: System.Collections.Generic.IList[ChildrenType])
-
-Gets the list of children, filtered by type.
-
-<!-- !! processed by numpydoc !! -->
-
-### Radiation.GetChildren(category: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../../v241/Ansys/Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory), recurses: System.Boolean, children: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject])
-
-Gets the list of children, filtered by type.
-
-<!-- !! processed by numpydoc !! -->
+<a id="Radiation.AddComment"></a>
 
 ### Radiation.AddComment()
 
@@ -254,11 +248,15 @@ Creates a new child Comment.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="Radiation.AddFigure"></a>
+
 ### Radiation.AddFigure()
 
 Creates a new child Figure.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="Radiation.AddImage"></a>
 
 ### Radiation.AddImage(filePath: System.String)
 
@@ -270,11 +268,7 @@ if not, the image will be a screen capture of the Geometry window.
 
 <!-- !! processed by numpydoc !! -->
 
-### Radiation.Activate()
-
-Activate the current object.
-
-<!-- !! processed by numpydoc !! -->
+<a id="Radiation.CopyTo"></a>
 
 ### Radiation.CopyTo(other: Ansys.ACT.Automation.Mechanical.DataModelObject)
 
@@ -282,11 +276,63 @@ Copies all visible properties from this object to another.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="Radiation.CreateParameter"></a>
+
+### Radiation.CreateParameter(propName: System.String)
+
+Creates a new parameter for a Property.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="Radiation.Delete"></a>
+
+### Radiation.Delete()
+
+Run the Delete action.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="Radiation.Duplicate"></a>
+
 ### Radiation.Duplicate()
 
 Creates a copy of the current DataModelObject.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="Radiation.GetActivateAtLoadStep"></a>
+
+### Radiation.GetActivateAtLoadStep(stepNumber: System.UInt32)
+
+GetActivateAtLoadStep method.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="Radiation.GetChildren"></a>
+
+### Radiation.GetChildren(recurses: System.Boolean, children: System.Collections.Generic.IList[ChildrenType])
+
+Gets the list of children, filtered by type.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="Radiation.GetComponentActivateAtLoadStep"></a>
+
+### Radiation.GetComponentActivateAtLoadStep(component: System.String, stepNumber: System.UInt32)
+
+GetComponentActivateAtLoadStep method.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="Radiation.GetParameter"></a>
+
+### Radiation.GetParameter(propName: System.String)
+
+Gets the parameter corresponding to the given property.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="Radiation.GroupAllSimilarChildren"></a>
 
 ### Radiation.GroupAllSimilarChildren()
 
@@ -294,17 +340,23 @@ Run the GroupAllSimilarChildren action.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="Radiation.GroupSimilarObjects"></a>
+
 ### Radiation.GroupSimilarObjects()
 
 Run the GroupSimilarObjects action.
 
 <!-- !! processed by numpydoc !! -->
 
-### Radiation.PropertyByName(name: System.String)
+<a id="Radiation.PromoteToNamedSelection"></a>
 
-Get a property by its unique name.
+### Radiation.PromoteToNamedSelection()
+
+Run the PromoteToNamedSelection action.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="Radiation.PropertyByAPIName"></a>
 
 ### Radiation.PropertyByAPIName(name: System.String)
 
@@ -315,21 +367,35 @@ If multiple properties have the same API Name, only the first property with that
 
 <!-- !! processed by numpydoc !! -->
 
-### Radiation.CreateParameter(propName: System.String)
+<a id="Radiation.PropertyByName"></a>
 
-Creates a new parameter for a Property.
+### Radiation.PropertyByName(name: System.String)
 
-<!-- !! processed by numpydoc !! -->
-
-### Radiation.GetParameter(propName: System.String)
-
-Gets the parameter corresponding to the given property.
+Get a property by its unique name.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="Radiation.RemoveParameter"></a>
 
 ### Radiation.RemoveParameter(propName: System.String)
 
 Removes the parameter from the parameter set corresponding to the given property.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="Radiation.SetActivateAtLoadStep"></a>
+
+### Radiation.SetActivateAtLoadStep(stepNumber: System.UInt32, bActive: System.Boolean)
+
+SetActivateAtLoadStep method.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="Radiation.SetComponentActivateAtLoadStep"></a>
+
+### Radiation.SetComponentActivateAtLoadStep(component: System.String, stepNumber: System.UInt32, bActive: System.Boolean)
+
+SetComponentActivateAtLoadStep method.
 
 <!-- !! processed by numpydoc !! -->
 

@@ -1,6 +1,6 @@
 # `SpringsStiffnessType`
 
-
+<a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.SpringsStiffnessType"></a>
 
 #### *class* ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.SpringsStiffnessType
 
@@ -17,10 +17,10 @@ Specifies the SpringsStiffnessType.
 ### Attributes
 
 | Name |
-| -------------------------------------------------------------------------------------------------------------------------------------------- |
-| [`Factor`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/SpringsStiffnessType.md#SpringsStiffnessType.Factor) |
-| [`Manual`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/SpringsStiffnessType.md#SpringsStiffnessType.Manual) |
-| [`ProgramControlled`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/SpringsStiffnessType.md#SpringsStiffnessType.ProgramControlled) |
+| ---------------------------------------------------------------- |
+| [`Factor`](#SpringsStiffnessType.Factor) |
+| [`Manual`](#SpringsStiffnessType.Manual) |
+| [`ProgramControlled`](#SpringsStiffnessType.ProgramControlled) |
 
 <a id="attribute-detail"></a>
 

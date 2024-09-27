@@ -1,6 +1,6 @@
 # `GravityOrientationType`
 
-
+<a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.GravityOrientationType"></a>
 
 #### *class* ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.GravityOrientationType
 
@@ -17,13 +17,13 @@ Specifies the GravityOrientationType.
 ### Attributes
 
 | Name |
-| ------------------------------------------------------------------------------------------------------------------------------------------ |
-| [`NegativeXAxis`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/GravityOrientationType.md#GravityOrientationType.NegativeXAxis) |
-| [`NegativeYAxis`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/GravityOrientationType.md#GravityOrientationType.NegativeYAxis) |
-| [`NegativeZAxis`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/GravityOrientationType.md#GravityOrientationType.NegativeZAxis) |
-| [`PositiveXAxis`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/GravityOrientationType.md#GravityOrientationType.PositiveXAxis) |
-| [`PositiveYAxis`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/GravityOrientationType.md#GravityOrientationType.PositiveYAxis) |
-| [`PositiveZAxis`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/GravityOrientationType.md#GravityOrientationType.PositiveZAxis) |
+| ------------------------------------------------------------ |
+| [`NegativeXAxis`](#GravityOrientationType.NegativeXAxis) |
+| [`NegativeYAxis`](#GravityOrientationType.NegativeYAxis) |
+| [`NegativeZAxis`](#GravityOrientationType.NegativeZAxis) |
+| [`PositiveXAxis`](#GravityOrientationType.PositiveXAxis) |
+| [`PositiveYAxis`](#GravityOrientationType.PositiveYAxis) |
+| [`PositiveZAxis`](#GravityOrientationType.PositiveZAxis) |
 
 <a id="attribute-detail"></a>
 

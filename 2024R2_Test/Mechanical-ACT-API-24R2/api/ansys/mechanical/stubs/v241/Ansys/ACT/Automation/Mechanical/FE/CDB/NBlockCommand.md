@@ -1,6 +1,6 @@
 # `NBlockCommand`
 
-
+<a id="ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.FE.CDB.NBlockCommand"></a>
 
 #### *class* ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.FE.CDB.NBlockCommand
 
@@ -17,20 +17,24 @@ Represents a NBLOCK command.
 ### Properties
 
 | Name | Description |
-|-----------|-------------------------|
-| `Nodes`   | Gets the nodes.         |
-| `Name`    | Gets the command name.  |
-| `Index`   | Gets the command index. |
+|--------------------------------------------------------------------------------------------------------------------|---------------------------|
+| [`Index`](#NBlockCommand.Index)   | Gets the command index.   |
+| [`Name`](#NBlockCommand.Name)     | Gets the command name.    |
+| [`Nodes`](#NBlockCommand.Nodes)   | Gets the nodes.           |
 
 <a id="property-detail"></a>
 
 ## Property detail
 
-### *property* NBlockCommand.Nodes *: System.Collections.Generic.IReadOnlyList[[Ansys.ACT.Automation.Mechanical.FE.CDB.CommandNode](CommandNode.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.FE.CDB.CommandNode)] | [None](https://docs.python.org/3/library/constants.html#None)*
+<a id="NBlockCommand.Index"></a>
 
-Gets the nodes.
+### *property* NBlockCommand.Index *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets the command index.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="NBlockCommand.Name"></a>
 
 ### *property* NBlockCommand.Name *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -38,9 +42,11 @@ Gets the command name.
 
 <!-- !! processed by numpydoc !! -->
 
-### *property* NBlockCommand.Index *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+<a id="NBlockCommand.Nodes"></a>
 
-Gets the command index.
+### *property* NBlockCommand.Nodes *: System.Collections.Generic.IReadOnlyList[[Ansys.ACT.Automation.Mechanical.FE.CDB.CommandNode](CommandNode.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.FE.CDB.CommandNode)] | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets the nodes.
 
 <!-- !! processed by numpydoc !! -->
 

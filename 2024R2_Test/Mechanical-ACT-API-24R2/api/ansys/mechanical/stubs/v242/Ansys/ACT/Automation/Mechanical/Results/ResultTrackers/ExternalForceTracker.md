@@ -1,6 +1,6 @@
 # `ExternalForceTracker`
 
-
+<a id="ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Results.ResultTrackers.ExternalForceTracker"></a>
 
 #### *class* ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Results.ResultTrackers.ExternalForceTracker
 
@@ -17,108 +17,92 @@ Defines a ExternalForceTracker.
 ### Methods
 
 | Name | Description |
-|---------------------------|-----------------------------------------------------------------------------------|
-| `ExportAnimation`         | Run the ExportAnimation action.                                                   |
-| `ClearGeneratedData`      | Run the ClearGeneratedData action.                                                |
-| `EvaluateAllResults`      | Run the EvaluateAllResults action.                                                |
-| `RenameBasedOnDefinition` | Run the RenameBasedOnDefinition action.                                           |
-| `Delete`                  | Run the Delete action.                                                            |
-| `GetChildren`             | Gets the list of children, filtered by type.                                      |
-| `GetChildren`             | Gets the list of children, filtered by type.                                      |
-| `AddComment`              | Creates a new child Comment.                                                      |
-| `AddImage`                | Creates a new child Image.                                                        |
-| `Activate`                | Activate the current object.                                                      |
-| `CopyTo`                  | Copies all visible properties from this object to another.                        |
-| `Duplicate`               | Creates a copy of the current DataModelObject.                                    |
-| `GroupAllSimilarChildren` | Run the GroupAllSimilarChildren action.                                           |
-| `GroupSimilarObjects`     | Run the GroupSimilarObjects action.                                               |
-| `PropertyByName`          | Get a property by its unique name.                                                |
-| `PropertyByAPIName`       | Get a property by its API name.                                                   |
-| `CreateParameter`         | Creates a new parameter for a Property.                                           |
-| `GetParameter`            | Gets the parameter corresponding to the given property.                           |
-| `RemoveParameter`         | Removes the parameter from the parameter set corresponding to the given property. |
+|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------|
+| [`Activate`](#ExternalForceTracker.Activate)                               | Activate the current object.                                                      |
+| [`AddComment`](#ExternalForceTracker.AddComment)                           | Creates a new child Comment.                                                      |
+| [`AddImage`](#ExternalForceTracker.AddImage)                               | Creates a new child Image.                                                        |
+| [`ClearGeneratedData`](#ExternalForceTracker.ClearGeneratedData)           | Run the ClearGeneratedData action.                                                |
+| [`CopyTo`](#ExternalForceTracker.CopyTo)                                   | Copies all visible properties from this object to another.                        |
+| [`CreateParameter`](#ExternalForceTracker.CreateParameter)                 | Creates a new parameter for a Property.                                           |
+| [`Delete`](#ExternalForceTracker.Delete)                                   | Run the Delete action.                                                            |
+| [`Duplicate`](#ExternalForceTracker.Duplicate)                             | Creates a copy of the current DataModelObject.                                    |
+| [`EvaluateAllResults`](#ExternalForceTracker.EvaluateAllResults)           | Run the EvaluateAllResults action.                                                |
+| [`ExportAnimation`](#ExternalForceTracker.ExportAnimation)                 | Run the ExportAnimation action.                                                   |
+| [`GetChildren`](#ExternalForceTracker.GetChildren)                         | Gets the list of children, filtered by type.                                      |
+| [`GetParameter`](#ExternalForceTracker.GetParameter)                       | Gets the parameter corresponding to the given property.                           |
+| [`GroupAllSimilarChildren`](#ExternalForceTracker.GroupAllSimilarChildren) | Run the GroupAllSimilarChildren action.                                           |
+| [`GroupSimilarObjects`](#ExternalForceTracker.GroupSimilarObjects)         | Run the GroupSimilarObjects action.                                               |
+| [`PropertyByAPIName`](#ExternalForceTracker.PropertyByAPIName)             | Get a property by its API name.                                                   |
+| [`PropertyByName`](#ExternalForceTracker.PropertyByName)                   | Get a property by its unique name.                                                |
+| [`RemoveParameter`](#ExternalForceTracker.RemoveParameter)                 | Removes the parameter from the parameter set corresponding to the given property. |
+| [`RenameBasedOnDefinition`](#ExternalForceTracker.RenameBasedOnDefinition) | Run the RenameBasedOnDefinition action.                                           |
 
 ### Properties
 
 | Name | Description |
-|-------------------------------|---------------------------------------------------------------|
-| `InternalObject`              | Gets the internal object. For advanced usage only.            |
-| `DataModelObjectCategory`     | Gets the current DataModelObject's category.                  |
-| `IsSolved`                    | Gets the IsSolved.                                            |
-| `ChartDimensions`             | Gets or sets the Chart Dimensions                             |
-| `BoundaryCondition`           | Gets or sets the BoundaryCondition.                           |
-| `CutFrequency`                | Gets or sets the CutFrequency.                                |
-| `SectorNumber`                | Gets or sets the SectorNumber.                                |
-| `GeometrySelectionString`     | Gets or sets the GeometrySelectionString.                     |
-| `LoadStepNumber`              | Gets or sets the LoadStepNumber.                              |
-| `ReportedFrequency`           | Gets the ReportedFrequency.                                   |
-| `Duration`                    | Gets or sets the Duration.                                    |
-| `FilterMaximum`               | Gets the FilterMaximum.                                       |
-| `FilterMinimum`               | Gets the FilterMinimum.                                       |
-| `FrequencyAtMaximumAmplitude` | Gets the FrequencyAtMaximumAmplitude.                         |
-| `ImaginaryAtMaximumAmplitude` | Gets the ImaginaryAtMaximumAmplitude.                         |
-| `MaximumAmplitude`            | Gets the MaximumAmplitude.                                    |
-| `MaximumFrequency`            | Gets or sets the MaximumFrequency.                            |
-| `Maximum`                     | Gets the Maximum.                                             |
-| `MinimumFrequency`            | Gets or sets the MinimumFrequency.                            |
-| `Minimum`                     | Gets the Minimum.                                             |
-| `PhaseAngle`                  | Gets the PhaseAngle.                                          |
-| `RealAtMaximumAmplitude`      | Gets the RealAtMaximumAmplitude.                              |
-| `RequestedFrequency`          | Gets or sets the RequestedFrequency.                          |
-| `AccelerationType`            | Gets or sets the AccelerationType.                            |
-| `ChartViewingStyle`           | Gets or sets the ChartViewingStyle.                           |
-| `DeformationType`             | Gets or sets the DeformationType.                             |
-| `FilterType`                  | Gets or sets the FilterType.                                  |
-| `SpatialResolution`           | Gets or sets the SpatialResolution.                           |
-| `NormalOrientation`           | Gets or sets the NormalOrientation.                           |
-| `CurvesAppearanceDisplay`     | Gets or sets the CurvesAppearanceDisplay.                     |
-| `ResultChartType`             | Gets the ResultChartType.                                     |
-| `DpfEvaluation`               | Gets or sets the DpfEvaluation.                               |
-| `XAxisValues`                 | Gets or sets the XAxisValues.                                 |
-| `ShearOrientation`            | Gets or sets the ShearOrientation.                            |
-| `StressStrainType`            | Gets or sets the StressStrainType.                            |
-| `TimeHistoryDisplay`          | Gets or sets the TimeHistoryDisplay.                          |
-| `VelocityType`                | Gets or sets the VelocityType.                                |
-| `Suppressed`                  | Gets or sets the Suppressed.                                  |
-| `EnhancedTracking`            | Gets the EnhancedTracking.                                    |
-| `UseParentFrequencyRange`     | Gets or sets the UseParentFrequencyRange.                     |
-| `CoordinateSystem`            | Gets or sets the CoordinateSystem.                            |
-| `Spring`                      | Gets or sets the Spring.                                      |
-| `Location`                    | Gets or sets the Location.                                    |
-| `Children`                    | Gets the list of children.                                    |
-| `Comments`                    | Gets the list of associated comments.                         |
-| `Images`                      | Gets the list of associated images.                           |
-| `InternalObject`              | Gets the internal object. For advanced usage only.            |
-| `Properties`                  | Gets the list of properties for this object.                  |
-| `VisibleProperties`           | Gets the list of properties that are visible for this object. |
+|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------|
+| [`AccelerationType`](#ExternalForceTracker.AccelerationType)                       | Gets or sets the AccelerationType.                            |
+| [`BoundaryCondition`](#ExternalForceTracker.BoundaryCondition)                     | Gets or sets the BoundaryCondition.                           |
+| [`ChartDimensions`](#ExternalForceTracker.ChartDimensions)                         | Gets or sets the Chart Dimensions                             |
+| [`ChartViewingStyle`](#ExternalForceTracker.ChartViewingStyle)                     | Gets or sets the ChartViewingStyle.                           |
+| [`Children`](#ExternalForceTracker.Children)                                       | Gets the list of children.                                    |
+| [`Comments`](#ExternalForceTracker.Comments)                                       | Gets the list of associated comments.                         |
+| [`CoordinateSystem`](#ExternalForceTracker.CoordinateSystem)                       | Gets or sets the CoordinateSystem.                            |
+| [`CurvesAppearanceDisplay`](#ExternalForceTracker.CurvesAppearanceDisplay)         | Gets or sets the CurvesAppearanceDisplay.                     |
+| [`CutFrequency`](#ExternalForceTracker.CutFrequency)                               | Gets or sets the CutFrequency.                                |
+| [`DataModelObjectCategory`](#ExternalForceTracker.DataModelObjectCategory)         | Gets the current DataModelObject’s category.                  |
+| [`DeformationType`](#ExternalForceTracker.DeformationType)                         | Gets or sets the DeformationType.                             |
+| [`DpfEvaluation`](#ExternalForceTracker.DpfEvaluation)                             | Gets or sets the DpfEvaluation.                               |
+| [`Duration`](#ExternalForceTracker.Duration)                                       | Gets or sets the Duration.                                    |
+| [`EnhancedTracking`](#ExternalForceTracker.EnhancedTracking)                       | Gets the EnhancedTracking.                                    |
+| [`FilterMaximum`](#ExternalForceTracker.FilterMaximum)                             | Gets the FilterMaximum.                                       |
+| [`FilterMinimum`](#ExternalForceTracker.FilterMinimum)                             | Gets the FilterMinimum.                                       |
+| [`FilterType`](#ExternalForceTracker.FilterType)                                   | Gets or sets the FilterType.                                  |
+| [`FrequencyAtMaximumAmplitude`](#ExternalForceTracker.FrequencyAtMaximumAmplitude) | Gets the FrequencyAtMaximumAmplitude.                         |
+| [`GeometrySelectionString`](#ExternalForceTracker.GeometrySelectionString)         | Gets or sets the GeometrySelectionString.                     |
+| [`Images`](#ExternalForceTracker.Images)                                           | Gets the list of associated images.                           |
+| [`ImaginaryAtMaximumAmplitude`](#ExternalForceTracker.ImaginaryAtMaximumAmplitude) | Gets the ImaginaryAtMaximumAmplitude.                         |
+| [`InternalObject`](#ExternalForceTracker.InternalObject)                           | Gets the internal object. For advanced usage only.            |
+| [`IsSolved`](#ExternalForceTracker.IsSolved)                                       | Gets the IsSolved.                                            |
+| [`LoadStepNumber`](#ExternalForceTracker.LoadStepNumber)                           | Gets or sets the LoadStepNumber.                              |
+| [`Location`](#ExternalForceTracker.Location)                                       | Gets or sets the Location.                                    |
+| [`Maximum`](#ExternalForceTracker.Maximum)                                         | Gets the Maximum.                                             |
+| [`MaximumAmplitude`](#ExternalForceTracker.MaximumAmplitude)                       | Gets the MaximumAmplitude.                                    |
+| [`MaximumFrequency`](#ExternalForceTracker.MaximumFrequency)                       | Gets or sets the MaximumFrequency.                            |
+| [`Minimum`](#ExternalForceTracker.Minimum)                                         | Gets the Minimum.                                             |
+| [`MinimumFrequency`](#ExternalForceTracker.MinimumFrequency)                       | Gets or sets the MinimumFrequency.                            |
+| [`NormalOrientation`](#ExternalForceTracker.NormalOrientation)                     | Gets or sets the NormalOrientation.                           |
+| [`PhaseAngle`](#ExternalForceTracker.PhaseAngle)                                   | Gets the PhaseAngle.                                          |
+| [`Properties`](#ExternalForceTracker.Properties)                                   | Gets the list of properties for this object.                  |
+| [`RealAtMaximumAmplitude`](#ExternalForceTracker.RealAtMaximumAmplitude)           | Gets the RealAtMaximumAmplitude.                              |
+| [`ReportedFrequency`](#ExternalForceTracker.ReportedFrequency)                     | Gets the ReportedFrequency.                                   |
+| [`RequestedFrequency`](#ExternalForceTracker.RequestedFrequency)                   | Gets or sets the RequestedFrequency.                          |
+| [`ResultChartType`](#ExternalForceTracker.ResultChartType)                         | Gets the ResultChartType.                                     |
+| [`SectorNumber`](#ExternalForceTracker.SectorNumber)                               | Gets or sets the SectorNumber.                                |
+| [`ShearOrientation`](#ExternalForceTracker.ShearOrientation)                       | Gets or sets the ShearOrientation.                            |
+| [`SpatialResolution`](#ExternalForceTracker.SpatialResolution)                     | Gets or sets the SpatialResolution.                           |
+| [`Spring`](#ExternalForceTracker.Spring)                                           | Gets or sets the Spring.                                      |
+| [`StressStrainType`](#ExternalForceTracker.StressStrainType)                       | Gets or sets the StressStrainType.                            |
+| [`Suppressed`](#ExternalForceTracker.Suppressed)                                   | Gets or sets the Suppressed.                                  |
+| [`TimeHistoryDisplay`](#ExternalForceTracker.TimeHistoryDisplay)                   | Gets or sets the TimeHistoryDisplay.                          |
+| [`UseParentFrequencyRange`](#ExternalForceTracker.UseParentFrequencyRange)         | Gets or sets the UseParentFrequencyRange.                     |
+| [`VelocityType`](#ExternalForceTracker.VelocityType)                               | Gets or sets the VelocityType.                                |
+| [`VisibleProperties`](#ExternalForceTracker.VisibleProperties)                     | Gets the list of properties that are visible for this object. |
+| [`XAxisValues`](#ExternalForceTracker.XAxisValues)                                 | Gets or sets the XAxisValues.                                 |
 
 <a id="property-detail"></a>
 
 ## Property detail
 
-### *property* ExternalForceTracker.InternalObject *: Ansys.Common.Interop.DSObjectsAuto.IDSResultChartAuto | [None](https://docs.python.org/3/library/constants.html#None)*
+<a id="ExternalForceTracker.AccelerationType"></a>
 
-Gets the internal object. For advanced usage only.
+### *property* ExternalForceTracker.AccelerationType *: [Ansys.Mechanical.DataModel.Enums.TotalOrDirectional](../../../../../Mechanical/DataModel/Enums/TotalOrDirectional.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.TotalOrDirectional) | [None](https://docs.python.org/3/library/constants.html#None)*
 
-<!-- !! processed by numpydoc !! -->
-
-### *property* ExternalForceTracker.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../../../v241/Ansys/Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets the current DataModelObject's category.
+Gets or sets the AccelerationType.
 
 <!-- !! processed by numpydoc !! -->
 
-### *property* ExternalForceTracker.IsSolved *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets the IsSolved.
-
-<!-- !! processed by numpydoc !! -->
-
-### *property* ExternalForceTracker.ChartDimensions *: [Ansys.Mechanical.DataModel.Enums.ChartDimensions](../../../../../../../v241/Ansys/Mechanical/DataModel/Enums/ChartDimensions.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.ChartDimensions) | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the Chart Dimensions
-
-<!-- !! processed by numpydoc !! -->
+<a id="ExternalForceTracker.BoundaryCondition"></a>
 
 ### *property* ExternalForceTracker.BoundaryCondition *: [Ansys.ACT.Automation.Mechanical.BoundaryConditions.GenericBoundaryCondition](../../../../../../../v241/Ansys/ACT/Automation/Mechanical/BoundaryConditions/GenericBoundaryCondition.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.BoundaryConditions.GenericBoundaryCondition) | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -126,233 +110,23 @@ Gets or sets the BoundaryCondition.
 
 <!-- !! processed by numpydoc !! -->
 
-### *property* ExternalForceTracker.CutFrequency *: System.Double | [None](https://docs.python.org/3/library/constants.html#None)*
+<a id="ExternalForceTracker.ChartDimensions"></a>
 
-Gets or sets the CutFrequency.
+### *property* ExternalForceTracker.ChartDimensions *: [Ansys.Mechanical.DataModel.Enums.ChartDimensions](../../../../../Mechanical/DataModel/Enums/ChartDimensions.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.ChartDimensions) | [None](https://docs.python.org/3/library/constants.html#None)*
 
-<!-- !! processed by numpydoc !! -->
-
-### *property* ExternalForceTracker.SectorNumber *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the SectorNumber.
+Gets or sets the Chart Dimensions
 
 <!-- !! processed by numpydoc !! -->
 
-### *property* ExternalForceTracker.GeometrySelectionString *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+<a id="ExternalForceTracker.ChartViewingStyle"></a>
 
-Gets or sets the GeometrySelectionString.
-
-<!-- !! processed by numpydoc !! -->
-
-### *property* ExternalForceTracker.LoadStepNumber *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the LoadStepNumber.
-
-<!-- !! processed by numpydoc !! -->
-
-### *property* ExternalForceTracker.ReportedFrequency *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets the ReportedFrequency.
-
-<!-- !! processed by numpydoc !! -->
-
-### *property* ExternalForceTracker.Duration *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the Duration.
-
-<!-- !! processed by numpydoc !! -->
-
-### *property* ExternalForceTracker.FilterMaximum *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets the FilterMaximum.
-
-<!-- !! processed by numpydoc !! -->
-
-### *property* ExternalForceTracker.FilterMinimum *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets the FilterMinimum.
-
-<!-- !! processed by numpydoc !! -->
-
-### *property* ExternalForceTracker.FrequencyAtMaximumAmplitude *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets the FrequencyAtMaximumAmplitude.
-
-<!-- !! processed by numpydoc !! -->
-
-### *property* ExternalForceTracker.ImaginaryAtMaximumAmplitude *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets the ImaginaryAtMaximumAmplitude.
-
-<!-- !! processed by numpydoc !! -->
-
-### *property* ExternalForceTracker.MaximumAmplitude *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets the MaximumAmplitude.
-
-<!-- !! processed by numpydoc !! -->
-
-### *property* ExternalForceTracker.MaximumFrequency *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the MaximumFrequency.
-
-<!-- !! processed by numpydoc !! -->
-
-### *property* ExternalForceTracker.Maximum *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets the Maximum.
-
-<!-- !! processed by numpydoc !! -->
-
-### *property* ExternalForceTracker.MinimumFrequency *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the MinimumFrequency.
-
-<!-- !! processed by numpydoc !! -->
-
-### *property* ExternalForceTracker.Minimum *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets the Minimum.
-
-<!-- !! processed by numpydoc !! -->
-
-### *property* ExternalForceTracker.PhaseAngle *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets the PhaseAngle.
-
-<!-- !! processed by numpydoc !! -->
-
-### *property* ExternalForceTracker.RealAtMaximumAmplitude *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets the RealAtMaximumAmplitude.
-
-<!-- !! processed by numpydoc !! -->
-
-### *property* ExternalForceTracker.RequestedFrequency *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the RequestedFrequency.
-
-<!-- !! processed by numpydoc !! -->
-
-### *property* ExternalForceTracker.AccelerationType *: [Ansys.Mechanical.DataModel.Enums.TotalOrDirectional](../../../../../../../v241/Ansys/Mechanical/DataModel/Enums/TotalOrDirectional.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.TotalOrDirectional) | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the AccelerationType.
-
-<!-- !! processed by numpydoc !! -->
-
-### *property* ExternalForceTracker.ChartViewingStyle *: [Ansys.Mechanical.DataModel.Enums.ChartAxisScaleType](../../../../../../../v241/Ansys/Mechanical/DataModel/Enums/ChartAxisScaleType.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.ChartAxisScaleType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ExternalForceTracker.ChartViewingStyle *: [Ansys.Mechanical.DataModel.Enums.ChartAxisScaleType](../../../../../Mechanical/DataModel/Enums/ChartAxisScaleType.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.ChartAxisScaleType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the ChartViewingStyle.
 
 <!-- !! processed by numpydoc !! -->
 
-### *property* ExternalForceTracker.DeformationType *: [Ansys.Mechanical.DataModel.Enums.TotalOrDirectional](../../../../../../../v241/Ansys/Mechanical/DataModel/Enums/TotalOrDirectional.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.TotalOrDirectional) | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the DeformationType.
-
-<!-- !! processed by numpydoc !! -->
-
-### *property* ExternalForceTracker.FilterType *: [Ansys.Mechanical.DataModel.Enums.FilterType](../../../../../../../v241/Ansys/Mechanical/DataModel/Enums/FilterType.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.FilterType) | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the FilterType.
-
-<!-- !! processed by numpydoc !! -->
-
-### *property* ExternalForceTracker.SpatialResolution *: [Ansys.Mechanical.DataModel.Enums.MultipleNodeType](../../../../../../../v241/Ansys/Mechanical/DataModel/Enums/MultipleNodeType.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.MultipleNodeType) | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the SpatialResolution.
-
-<!-- !! processed by numpydoc !! -->
-
-### *property* ExternalForceTracker.NormalOrientation *: [Ansys.Mechanical.DataModel.Enums.NormalOrientationType](../../../../../../../v241/Ansys/Mechanical/DataModel/Enums/NormalOrientationType.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.NormalOrientationType) | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the NormalOrientation.
-
-<!-- !! processed by numpydoc !! -->
-
-### *property* ExternalForceTracker.CurvesAppearanceDisplay *: [Ansys.Mechanical.DataModel.Enums.ChartPlotStyle](../../../../../../../v241/Ansys/Mechanical/DataModel/Enums/ChartPlotStyle.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.ChartPlotStyle) | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the CurvesAppearanceDisplay.
-
-<!-- !! processed by numpydoc !! -->
-
-### *property* ExternalForceTracker.ResultChartType *: [Ansys.Mechanical.DataModel.Enums.ChartResultType](../../../../../../../v241/Ansys/Mechanical/DataModel/Enums/ChartResultType.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.ChartResultType) | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets the ResultChartType.
-
-<!-- !! processed by numpydoc !! -->
-
-### *property* ExternalForceTracker.DpfEvaluation *: [Ansys.Mechanical.DataModel.Enums.DpfEvaluationType](../../../../../../../v241/Ansys/Mechanical/DataModel/Enums/DpfEvaluationType.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DpfEvaluationType) | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the DpfEvaluation.
-
-<!-- !! processed by numpydoc !! -->
-
-### *property* ExternalForceTracker.XAxisValues *: [Ansys.Mechanical.DataModel.Enums.XAxisValues](../../../../../../../v241/Ansys/Mechanical/DataModel/Enums/XAxisValues.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.XAxisValues) | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the XAxisValues.
-
-<!-- !! processed by numpydoc !! -->
-
-### *property* ExternalForceTracker.ShearOrientation *: [Ansys.Mechanical.DataModel.Enums.ShearOrientationType](../../../../../../../v241/Ansys/Mechanical/DataModel/Enums/ShearOrientationType.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.ShearOrientationType) | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the ShearOrientation.
-
-<!-- !! processed by numpydoc !! -->
-
-### *property* ExternalForceTracker.StressStrainType *: [Ansys.Mechanical.DataModel.Enums.StressStrainType](../../../../../../../v241/Ansys/Mechanical/DataModel/Enums/StressStrainType.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.StressStrainType) | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the StressStrainType.
-
-<!-- !! processed by numpydoc !! -->
-
-### *property* ExternalForceTracker.TimeHistoryDisplay *: [Ansys.Mechanical.DataModel.Enums.TimeHistoryDisplayType](../../../../../../../v241/Ansys/Mechanical/DataModel/Enums/TimeHistoryDisplayType.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.TimeHistoryDisplayType) | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the TimeHistoryDisplay.
-
-<!-- !! processed by numpydoc !! -->
-
-### *property* ExternalForceTracker.VelocityType *: [Ansys.Mechanical.DataModel.Enums.TotalOrDirectional](../../../../../../../v241/Ansys/Mechanical/DataModel/Enums/TotalOrDirectional.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.TotalOrDirectional) | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the VelocityType.
-
-<!-- !! processed by numpydoc !! -->
-
-### *property* ExternalForceTracker.Suppressed *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the Suppressed.
-
-<!-- !! processed by numpydoc !! -->
-
-### *property* ExternalForceTracker.EnhancedTracking *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets the EnhancedTracking.
-
-<!-- !! processed by numpydoc !! -->
-
-### *property* ExternalForceTracker.UseParentFrequencyRange *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the UseParentFrequencyRange.
-
-<!-- !! processed by numpydoc !! -->
-
-### *property* ExternalForceTracker.CoordinateSystem *: [Ansys.ACT.Automation.Mechanical.CoordinateSystem](../../../../../../../v241/Ansys/ACT/Automation/Mechanical/CoordinateSystem.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.CoordinateSystem) | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the CoordinateSystem.
-
-<!-- !! processed by numpydoc !! -->
-
-### *property* ExternalForceTracker.Spring *: [Ansys.ACT.Automation.Mechanical.Connections.Spring](../../../../../../../v241/Ansys/ACT/Automation/Mechanical/Connections/Spring.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Connections.Spring) | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the Spring.
-
-<!-- !! processed by numpydoc !! -->
-
-### *property* ExternalForceTracker.Location *: Ansys.ACT.Interfaces.Common.ISelectionInfo | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the Location.
-
-<!-- !! processed by numpydoc !! -->
+<a id="ExternalForceTracker.Children"></a>
 
 ### *property* ExternalForceTracker.Children *: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -360,11 +134,119 @@ Gets the list of children.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="ExternalForceTracker.Comments"></a>
+
 ### *property* ExternalForceTracker.Comments *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Comment](../../../../../../../v241/Ansys/ACT/Automation/Mechanical/Comment.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated comments.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="ExternalForceTracker.CoordinateSystem"></a>
+
+### *property* ExternalForceTracker.CoordinateSystem *: [Ansys.ACT.Automation.Mechanical.CoordinateSystem](../../../../../../../v241/Ansys/ACT/Automation/Mechanical/CoordinateSystem.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.CoordinateSystem) | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the CoordinateSystem.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ExternalForceTracker.CurvesAppearanceDisplay"></a>
+
+### *property* ExternalForceTracker.CurvesAppearanceDisplay *: [Ansys.Mechanical.DataModel.Enums.ChartPlotStyle](../../../../../Mechanical/DataModel/Enums/ChartPlotStyle.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.ChartPlotStyle) | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the CurvesAppearanceDisplay.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ExternalForceTracker.CutFrequency"></a>
+
+### *property* ExternalForceTracker.CutFrequency *: System.Double | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the CutFrequency.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ExternalForceTracker.DataModelObjectCategory"></a>
+
+### *property* ExternalForceTracker.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets the current DataModelObject’s category.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ExternalForceTracker.DeformationType"></a>
+
+### *property* ExternalForceTracker.DeformationType *: [Ansys.Mechanical.DataModel.Enums.TotalOrDirectional](../../../../../Mechanical/DataModel/Enums/TotalOrDirectional.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.TotalOrDirectional) | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the DeformationType.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ExternalForceTracker.DpfEvaluation"></a>
+
+### *property* ExternalForceTracker.DpfEvaluation *: [Ansys.Mechanical.DataModel.Enums.DpfEvaluationType](../../../../../Mechanical/DataModel/Enums/DpfEvaluationType.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.DpfEvaluationType) | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the DpfEvaluation.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ExternalForceTracker.Duration"></a>
+
+### *property* ExternalForceTracker.Duration *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the Duration.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ExternalForceTracker.EnhancedTracking"></a>
+
+### *property* ExternalForceTracker.EnhancedTracking *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets the EnhancedTracking.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ExternalForceTracker.FilterMaximum"></a>
+
+### *property* ExternalForceTracker.FilterMaximum *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets the FilterMaximum.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ExternalForceTracker.FilterMinimum"></a>
+
+### *property* ExternalForceTracker.FilterMinimum *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets the FilterMinimum.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ExternalForceTracker.FilterType"></a>
+
+### *property* ExternalForceTracker.FilterType *: [Ansys.Mechanical.DataModel.Enums.FilterType](../../../../../Mechanical/DataModel/Enums/FilterType.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.FilterType) | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the FilterType.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ExternalForceTracker.FrequencyAtMaximumAmplitude"></a>
+
+### *property* ExternalForceTracker.FrequencyAtMaximumAmplitude *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets the FrequencyAtMaximumAmplitude.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ExternalForceTracker.GeometrySelectionString"></a>
+
+### *property* ExternalForceTracker.GeometrySelectionString *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the GeometrySelectionString.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ExternalForceTracker.Images"></a>
 
 ### *property* ExternalForceTracker.Images *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Image](../../../../../../../v241/Ansys/ACT/Automation/Mechanical/Image.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -372,11 +254,103 @@ Gets the list of associated images.
 
 <!-- !! processed by numpydoc !! -->
 
-### *property* ExternalForceTracker.InternalObject *: System.Object | [None](https://docs.python.org/3/library/constants.html#None)*
+<a id="ExternalForceTracker.ImaginaryAtMaximumAmplitude"></a>
+
+### *property* ExternalForceTracker.ImaginaryAtMaximumAmplitude *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets the ImaginaryAtMaximumAmplitude.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ExternalForceTracker.InternalObject"></a>
+
+### *property* ExternalForceTracker.InternalObject *: Ansys.Common.Interop.DSObjectsAuto.IDSResultChartAuto | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the internal object. For advanced usage only.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="ExternalForceTracker.IsSolved"></a>
+
+### *property* ExternalForceTracker.IsSolved *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets the IsSolved.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ExternalForceTracker.LoadStepNumber"></a>
+
+### *property* ExternalForceTracker.LoadStepNumber *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the LoadStepNumber.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ExternalForceTracker.Location"></a>
+
+### *property* ExternalForceTracker.Location *: Ansys.ACT.Interfaces.Common.ISelectionInfo | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the Location.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ExternalForceTracker.Maximum"></a>
+
+### *property* ExternalForceTracker.Maximum *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets the Maximum.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ExternalForceTracker.MaximumAmplitude"></a>
+
+### *property* ExternalForceTracker.MaximumAmplitude *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets the MaximumAmplitude.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ExternalForceTracker.MaximumFrequency"></a>
+
+### *property* ExternalForceTracker.MaximumFrequency *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the MaximumFrequency.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ExternalForceTracker.Minimum"></a>
+
+### *property* ExternalForceTracker.Minimum *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets the Minimum.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ExternalForceTracker.MinimumFrequency"></a>
+
+### *property* ExternalForceTracker.MinimumFrequency *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the MinimumFrequency.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ExternalForceTracker.NormalOrientation"></a>
+
+### *property* ExternalForceTracker.NormalOrientation *: [Ansys.Mechanical.DataModel.Enums.NormalOrientationType](../../../../../Mechanical/DataModel/Enums/NormalOrientationType.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.NormalOrientationType) | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the NormalOrientation.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ExternalForceTracker.PhaseAngle"></a>
+
+### *property* ExternalForceTracker.PhaseAngle *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets the PhaseAngle.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ExternalForceTracker.Properties"></a>
 
 ### *property* ExternalForceTracker.Properties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -384,9 +358,123 @@ Gets the list of properties for this object.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="ExternalForceTracker.RealAtMaximumAmplitude"></a>
+
+### *property* ExternalForceTracker.RealAtMaximumAmplitude *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets the RealAtMaximumAmplitude.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ExternalForceTracker.ReportedFrequency"></a>
+
+### *property* ExternalForceTracker.ReportedFrequency *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets the ReportedFrequency.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ExternalForceTracker.RequestedFrequency"></a>
+
+### *property* ExternalForceTracker.RequestedFrequency *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the RequestedFrequency.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ExternalForceTracker.ResultChartType"></a>
+
+### *property* ExternalForceTracker.ResultChartType *: [Ansys.Mechanical.DataModel.Enums.ChartResultType](../../../../../Mechanical/DataModel/Enums/ChartResultType.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.ChartResultType) | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets the ResultChartType.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ExternalForceTracker.SectorNumber"></a>
+
+### *property* ExternalForceTracker.SectorNumber *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the SectorNumber.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ExternalForceTracker.ShearOrientation"></a>
+
+### *property* ExternalForceTracker.ShearOrientation *: [Ansys.Mechanical.DataModel.Enums.ShearOrientationType](../../../../../Mechanical/DataModel/Enums/ShearOrientationType.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.ShearOrientationType) | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the ShearOrientation.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ExternalForceTracker.SpatialResolution"></a>
+
+### *property* ExternalForceTracker.SpatialResolution *: [Ansys.Mechanical.DataModel.Enums.MultipleNodeType](../../../../../Mechanical/DataModel/Enums/MultipleNodeType.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.MultipleNodeType) | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the SpatialResolution.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ExternalForceTracker.Spring"></a>
+
+### *property* ExternalForceTracker.Spring *: [Ansys.ACT.Automation.Mechanical.Connections.Spring](../../../../../../../v241/Ansys/ACT/Automation/Mechanical/Connections/Spring.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Connections.Spring) | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the Spring.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ExternalForceTracker.StressStrainType"></a>
+
+### *property* ExternalForceTracker.StressStrainType *: [Ansys.Mechanical.DataModel.Enums.StressStrainType](../../../../../Mechanical/DataModel/Enums/StressStrainType.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.StressStrainType) | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the StressStrainType.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ExternalForceTracker.Suppressed"></a>
+
+### *property* ExternalForceTracker.Suppressed *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the Suppressed.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ExternalForceTracker.TimeHistoryDisplay"></a>
+
+### *property* ExternalForceTracker.TimeHistoryDisplay *: [Ansys.Mechanical.DataModel.Enums.TimeHistoryDisplayType](../../../../../Mechanical/DataModel/Enums/TimeHistoryDisplayType.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.TimeHistoryDisplayType) | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the TimeHistoryDisplay.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ExternalForceTracker.UseParentFrequencyRange"></a>
+
+### *property* ExternalForceTracker.UseParentFrequencyRange *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the UseParentFrequencyRange.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ExternalForceTracker.VelocityType"></a>
+
+### *property* ExternalForceTracker.VelocityType *: [Ansys.Mechanical.DataModel.Enums.TotalOrDirectional](../../../../../Mechanical/DataModel/Enums/TotalOrDirectional.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.TotalOrDirectional) | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the VelocityType.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ExternalForceTracker.VisibleProperties"></a>
+
 ### *property* ExternalForceTracker.VisibleProperties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of properties that are visible for this object.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ExternalForceTracker.XAxisValues"></a>
+
+### *property* ExternalForceTracker.XAxisValues *: [Ansys.Mechanical.DataModel.Enums.XAxisValues](../../../../../Mechanical/DataModel/Enums/XAxisValues.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.XAxisValues) | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the XAxisValues.
 
 <!-- !! processed by numpydoc !! -->
 
@@ -394,53 +482,23 @@ Gets the list of properties that are visible for this object.
 
 ## Method detail
 
-### ExternalForceTracker.ExportAnimation(filePath: System.String, format: [Ansys.Mechanical.DataModel.Enums.GraphicsAnimationExportFormat](../../../../../../../v241/Ansys/Mechanical/DataModel/Enums/GraphicsAnimationExportFormat.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.GraphicsAnimationExportFormat), settings: [Ansys.Mechanical.Graphics.AnimationExportSettings](../../../../../../../v241/Ansys/Mechanical/Graphics/AnimationExportSettings.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.Graphics.AnimationExportSettings))
+<a id="ExternalForceTracker.Activate"></a>
 
-Run the ExportAnimation action.
+### ExternalForceTracker.Activate()
 
-<!-- !! processed by numpydoc !! -->
-
-### ExternalForceTracker.ClearGeneratedData()
-
-Run the ClearGeneratedData action.
+Activate the current object.
 
 <!-- !! processed by numpydoc !! -->
 
-### ExternalForceTracker.EvaluateAllResults()
-
-Run the EvaluateAllResults action.
-
-<!-- !! processed by numpydoc !! -->
-
-### ExternalForceTracker.RenameBasedOnDefinition()
-
-Run the RenameBasedOnDefinition action.
-
-<!-- !! processed by numpydoc !! -->
-
-### ExternalForceTracker.Delete()
-
-Run the Delete action.
-
-<!-- !! processed by numpydoc !! -->
-
-### ExternalForceTracker.GetChildren(recurses: System.Boolean, children: System.Collections.Generic.IList[ChildrenType])
-
-Gets the list of children, filtered by type.
-
-<!-- !! processed by numpydoc !! -->
-
-### ExternalForceTracker.GetChildren(category: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../../../v241/Ansys/Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory), recurses: System.Boolean, children: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject])
-
-Gets the list of children, filtered by type.
-
-<!-- !! processed by numpydoc !! -->
+<a id="ExternalForceTracker.AddComment"></a>
 
 ### ExternalForceTracker.AddComment()
 
 Creates a new child Comment.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="ExternalForceTracker.AddImage"></a>
 
 ### ExternalForceTracker.AddImage(filePath: System.String)
 
@@ -452,11 +510,15 @@ if not, the image will be a screen capture of the Geometry window.
 
 <!-- !! processed by numpydoc !! -->
 
-### ExternalForceTracker.Activate()
+<a id="ExternalForceTracker.ClearGeneratedData"></a>
 
-Activate the current object.
+### ExternalForceTracker.ClearGeneratedData()
+
+Run the ClearGeneratedData action.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="ExternalForceTracker.CopyTo"></a>
 
 ### ExternalForceTracker.CopyTo(other: Ansys.ACT.Automation.Mechanical.DataModelObject)
 
@@ -464,11 +526,63 @@ Copies all visible properties from this object to another.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="ExternalForceTracker.CreateParameter"></a>
+
+### ExternalForceTracker.CreateParameter(propName: System.String)
+
+Creates a new parameter for a Property.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ExternalForceTracker.Delete"></a>
+
+### ExternalForceTracker.Delete()
+
+Run the Delete action.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ExternalForceTracker.Duplicate"></a>
+
 ### ExternalForceTracker.Duplicate()
 
 Creates a copy of the current DataModelObject.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="ExternalForceTracker.EvaluateAllResults"></a>
+
+### ExternalForceTracker.EvaluateAllResults()
+
+Run the EvaluateAllResults action.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ExternalForceTracker.ExportAnimation"></a>
+
+### ExternalForceTracker.ExportAnimation(filePath: System.String, format: [Ansys.Mechanical.DataModel.Enums.GraphicsAnimationExportFormat](../../../../../Mechanical/DataModel/Enums/GraphicsAnimationExportFormat.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.GraphicsAnimationExportFormat), settings: [Ansys.Mechanical.Graphics.AnimationExportSettings](../../../../../Mechanical/Graphics/AnimationExportSettings.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.Graphics.AnimationExportSettings))
+
+Run the ExportAnimation action.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ExternalForceTracker.GetChildren"></a>
+
+### ExternalForceTracker.GetChildren(recurses: System.Boolean, children: System.Collections.Generic.IList[ChildrenType])
+
+Gets the list of children, filtered by type.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ExternalForceTracker.GetParameter"></a>
+
+### ExternalForceTracker.GetParameter(propName: System.String)
+
+Gets the parameter corresponding to the given property.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ExternalForceTracker.GroupAllSimilarChildren"></a>
 
 ### ExternalForceTracker.GroupAllSimilarChildren()
 
@@ -476,17 +590,15 @@ Run the GroupAllSimilarChildren action.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="ExternalForceTracker.GroupSimilarObjects"></a>
+
 ### ExternalForceTracker.GroupSimilarObjects()
 
 Run the GroupSimilarObjects action.
 
 <!-- !! processed by numpydoc !! -->
 
-### ExternalForceTracker.PropertyByName(name: System.String)
-
-Get a property by its unique name.
-
-<!-- !! processed by numpydoc !! -->
+<a id="ExternalForceTracker.PropertyByAPIName"></a>
 
 ### ExternalForceTracker.PropertyByAPIName(name: System.String)
 
@@ -497,21 +609,27 @@ If multiple properties have the same API Name, only the first property with that
 
 <!-- !! processed by numpydoc !! -->
 
-### ExternalForceTracker.CreateParameter(propName: System.String)
+<a id="ExternalForceTracker.PropertyByName"></a>
 
-Creates a new parameter for a Property.
+### ExternalForceTracker.PropertyByName(name: System.String)
 
-<!-- !! processed by numpydoc !! -->
-
-### ExternalForceTracker.GetParameter(propName: System.String)
-
-Gets the parameter corresponding to the given property.
+Get a property by its unique name.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="ExternalForceTracker.RemoveParameter"></a>
 
 ### ExternalForceTracker.RemoveParameter(propName: System.String)
 
 Removes the parameter from the parameter set corresponding to the given property.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ExternalForceTracker.RenameBasedOnDefinition"></a>
+
+### ExternalForceTracker.RenameBasedOnDefinition()
+
+Run the RenameBasedOnDefinition action.
 
 <!-- !! processed by numpydoc !! -->
 

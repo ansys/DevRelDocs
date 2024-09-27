@@ -1,6 +1,6 @@
 # `MeshWorkflowGroup`
 
-
+<a id="ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.MeshWorkflowGroup"></a>
 
 #### *class* ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.MeshWorkflowGroup
 
@@ -17,64 +17,54 @@ Defines a MeshWorkflowGroup.
 ### Methods
 
 | Name | Description |
-|------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| `GenerateWorkflows`                      | Generates all mesh workflows, i.e. executes the ìInputî, the ìStepsî, and the ìOutputî as needed.                                                                                                                                                                                                                      |
-| `ClearGeneratedData`                     | Resets all mesh workflows completely, i.e. also the geometry scoping transferred into each mesh workflow will be reset and all inactive geometry parts/bodies will become active again. Steps, controls, and outcomes will be reset to their initial state while any user-defined property settings will remain as-is. |
-| `AddMeshWorkflow`                        | Adds a new workflow to the ìMeshWorkflowGroupî object.                                                                                                                                                                                                                                                                 |
-| `GetSolidSurfaceMeshQualityWarningLimit` | Get Mesh Quality Warning Limit                                                                                                                                                                                                                                                                                         |
-| `Delete`                                 | Run the Delete action.                                                                                                                                                                                                                                                                                                 |
-| `GetChildren`                            | Gets the list of children, filtered by type.                                                                                                                                                                                                                                                                           |
-| `GetChildren`                            | Gets the list of children, filtered by type.                                                                                                                                                                                                                                                                           |
-| `AddComment`                             | Creates a new child Comment.                                                                                                                                                                                                                                                                                           |
-| `AddFigure`                              | Creates a new child Figure.                                                                                                                                                                                                                                                                                            |
-| `AddImage`                               | Creates a new child Image.                                                                                                                                                                                                                                                                                             |
-| `Activate`                               | Activate the current object.                                                                                                                                                                                                                                                                                           |
-| `CopyTo`                                 | Copies all visible properties from this object to another.                                                                                                                                                                                                                                                             |
-| `Duplicate`                              | Creates a copy of the current DataModelObject.                                                                                                                                                                                                                                                                         |
-| `GroupAllSimilarChildren`                | Run the GroupAllSimilarChildren action.                                                                                                                                                                                                                                                                                |
-| `GroupSimilarObjects`                    | Run the GroupSimilarObjects action.                                                                                                                                                                                                                                                                                    |
-| `PropertyByName`                         | Get a property by its unique name.                                                                                                                                                                                                                                                                                     |
-| `PropertyByAPIName`                      | Get a property by its API name.                                                                                                                                                                                                                                                                                        |
-| `CreateParameter`                        | Creates a new parameter for a Property.                                                                                                                                                                                                                                                                                |
-| `GetParameter`                           | Gets the parameter corresponding to the given property.                                                                                                                                                                                                                                                                |
-| `RemoveParameter`                        | Removes the parameter from the parameter set corresponding to the given property.                                                                                                                                                                                                                                      |
+|-------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| [`Activate`](#MeshWorkflowGroup.Activate)                               | Activate the current object.                                                                                                                                                                                                                                                                                           |
+| [`AddComment`](#MeshWorkflowGroup.AddComment)                           | Creates a new child Comment.                                                                                                                                                                                                                                                                                           |
+| [`AddFigure`](#MeshWorkflowGroup.AddFigure)                             | Creates a new child Figure.                                                                                                                                                                                                                                                                                            |
+| [`AddImage`](#MeshWorkflowGroup.AddImage)                               | Creates a new child Image.                                                                                                                                                                                                                                                                                             |
+| [`AddMeshWorkflow`](#MeshWorkflowGroup.AddMeshWorkflow)                 | Adds a new workflow to the ‚ÄúMeshWorkflowGroup‚Äù object.                                                                                                                                                                                                                                                                 |
+| [`ClearGeneratedData`](#MeshWorkflowGroup.ClearGeneratedData)           | Resets all mesh workflows completely, i.e. also the geometry scoping transferred into each mesh workflow will be reset and all inactive geometry parts/bodies will become active again. Steps, controls, and outcomes will be reset to their initial state while any user-defined property settings will remain as-is. |
+| [`CopyTo`](#MeshWorkflowGroup.CopyTo)                                   | Copies all visible properties from this object to another.                                                                                                                                                                                                                                                             |
+| [`CreateParameter`](#MeshWorkflowGroup.CreateParameter)                 | Creates a new parameter for a Property.                                                                                                                                                                                                                                                                                |
+| [`Delete`](#MeshWorkflowGroup.Delete)                                   | Run the Delete action.                                                                                                                                                                                                                                                                                                 |
+| [`Duplicate`](#MeshWorkflowGroup.Duplicate)                             | Creates a copy of the current DataModelObject.                                                                                                                                                                                                                                                                         |
+| [`GenerateWorkflows`](#MeshWorkflowGroup.GenerateWorkflows)             | Generates all mesh workflows, i.e. executes the ‚ÄúInput‚Äù, the ‚ÄúSteps‚Äù, and the ‚ÄúOutput‚Äù as needed.                                                                                                                                                                                                                      |
+| [`GetChildren`](#MeshWorkflowGroup.GetChildren)                         | Gets the list of children, filtered by type.                                                                                                                                                                                                                                                                           |
+| [`GetParameter`](#MeshWorkflowGroup.GetParameter)                       | Gets the parameter corresponding to the given property.                                                                                                                                                                                                                                                                |
+| [`GetSolidSurfaceMeshQualityWarningLimit`](#MeshWorkflowGroup.GetSolidSurfaceMeshQualityWarningLimit)                                           | Get Mesh Quality Warning Limit                                                                                                                                                                                                                                                                                         |
+| [`GroupAllSimilarChildren`](#MeshWorkflowGroup.GroupAllSimilarChildren) | Run the GroupAllSimilarChildren action.                                                                                                                                                                                                                                                                                |
+| [`GroupSimilarObjects`](#MeshWorkflowGroup.GroupSimilarObjects)         | Run the GroupSimilarObjects action.                                                                                                                                                                                                                                                                                    |
+| [`PropertyByAPIName`](#MeshWorkflowGroup.PropertyByAPIName)             | Get a property by its API name.                                                                                                                                                                                                                                                                                        |
+| [`PropertyByName`](#MeshWorkflowGroup.PropertyByName)                   | Get a property by its unique name.                                                                                                                                                                                                                                                                                     |
+| [`RemoveParameter`](#MeshWorkflowGroup.RemoveParameter)                 | Removes the parameter from the parameter set corresponding to the given property.                                                                                                                                                                                                                                      |
 
 ### Properties
 
 | Name | Description |
-|---------------------------|---------------------------------------------------------------|
-| `InternalObject`          | Gets the internal object. For advanced usage only.            |
-| `ActiveWorkflow`          | Gets the ActiveWorkflow.                                      |
-| `DataModelObjectCategory` | Gets the current DataModelObject's category.                  |
-| `Children`                | Gets the list of children.                                    |
-| `Comments`                | Gets the list of associated comments.                         |
-| `Figures`                 | Gets the list of associated figures.                          |
-| `Images`                  | Gets the list of associated images.                           |
-| `InternalObject`          | Gets the internal object. For advanced usage only.            |
-| `Properties`              | Gets the list of properties for this object.                  |
-| `VisibleProperties`       | Gets the list of properties that are visible for this object. |
+|-------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------|
+| [`ActiveWorkflow`](#MeshWorkflowGroup.ActiveWorkflow)                   | Gets the ActiveWorkflow.                                      |
+| [`Children`](#MeshWorkflowGroup.Children)                               | Gets the list of children.                                    |
+| [`Comments`](#MeshWorkflowGroup.Comments)                               | Gets the list of associated comments.                         |
+| [`DataModelObjectCategory`](#MeshWorkflowGroup.DataModelObjectCategory) | Gets the current DataModelObject‚Äôs category.                  |
+| [`Figures`](#MeshWorkflowGroup.Figures)                                 | Gets the list of associated figures.                          |
+| [`Images`](#MeshWorkflowGroup.Images)                                   | Gets the list of associated images.                           |
+| [`InternalObject`](#MeshWorkflowGroup.InternalObject)                   | Gets the internal object. For advanced usage only.            |
+| [`Properties`](#MeshWorkflowGroup.Properties)                           | Gets the list of properties for this object.                  |
+| [`VisibleProperties`](#MeshWorkflowGroup.VisibleProperties)             | Gets the list of properties that are visible for this object. |
 
 <a id="property-detail"></a>
 
 ## Property detail
 
-### *property* MeshWorkflowGroup.InternalObject *: Ansys.Common.Interop.DSObjectsAuto.IDSEngineeringModelAuto | [None](https://docs.python.org/3/library/constants.html#None)*
+<a id="MeshWorkflowGroup.ActiveWorkflow"></a>
 
-Gets the internal object. For advanced usage only.
-
-<!-- !! processed by numpydoc !! -->
-
-### *property* MeshWorkflowGroup.ActiveWorkflow *: [Ansys.ACT.Automation.Mechanical.MeshWorkflow](../../../../../v241/Ansys/ACT/Automation/Mechanical/MeshWorkflow.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.MeshWorkflow) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* MeshWorkflowGroup.ActiveWorkflow *: [Ansys.ACT.Automation.Mechanical.MeshWorkflow](MeshWorkflow.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.MeshWorkflow) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the ActiveWorkflow.
 
 <!-- !! processed by numpydoc !! -->
 
-### *property* MeshWorkflowGroup.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../v241/Ansys/Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets the current DataModelObject's category.
-
-<!-- !! processed by numpydoc !! -->
+<a id="MeshWorkflowGroup.Children"></a>
 
 ### *property* MeshWorkflowGroup.Children *: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -82,11 +72,23 @@ Gets the list of children.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="MeshWorkflowGroup.Comments"></a>
+
 ### *property* MeshWorkflowGroup.Comments *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Comment](../../../../../v241/Ansys/ACT/Automation/Mechanical/Comment.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated comments.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="MeshWorkflowGroup.DataModelObjectCategory"></a>
+
+### *property* MeshWorkflowGroup.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets the current DataModelObject‚Äôs category.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="MeshWorkflowGroup.Figures"></a>
 
 ### *property* MeshWorkflowGroup.Figures *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Figure](../../../../../v241/Ansys/ACT/Automation/Mechanical/Figure.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -94,23 +96,31 @@ Gets the list of associated figures.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="MeshWorkflowGroup.Images"></a>
+
 ### *property* MeshWorkflowGroup.Images *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Image](../../../../../v241/Ansys/ACT/Automation/Mechanical/Image.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated images.
 
 <!-- !! processed by numpydoc !! -->
 
-### *property* MeshWorkflowGroup.InternalObject *: System.Object | [None](https://docs.python.org/3/library/constants.html#None)*
+<a id="MeshWorkflowGroup.InternalObject"></a>
+
+### *property* MeshWorkflowGroup.InternalObject *: Ansys.Common.Interop.DSObjectsAuto.IDSEngineeringModelAuto | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the internal object. For advanced usage only.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="MeshWorkflowGroup.Properties"></a>
 
 ### *property* MeshWorkflowGroup.Properties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of properties for this object.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="MeshWorkflowGroup.VisibleProperties"></a>
 
 ### *property* MeshWorkflowGroup.VisibleProperties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -122,47 +132,15 @@ Gets the list of properties that are visible for this object.
 
 ## Method detail
 
-### MeshWorkflowGroup.GenerateWorkflows()
+<a id="MeshWorkflowGroup.Activate"></a>
 
-Generates all mesh workflows, i.e. executes the ìInputî, the ìStepsî, and the ìOutputî as needed.
+### MeshWorkflowGroup.Activate()
 
-<!-- !! processed by numpydoc !! -->
-
-### MeshWorkflowGroup.ClearGeneratedData()
-
-Resets all mesh workflows completely, i.e. also the geometry scoping transferred into each mesh workflow will be reset and all inactive geometry parts/bodies will become active again. Steps, controls, and outcomes will be reset to their initial state while any user-defined property settings will remain as-is.
+Activate the current object.
 
 <!-- !! processed by numpydoc !! -->
 
-### MeshWorkflowGroup.AddMeshWorkflow(type: [Ansys.Mechanical.DataModel.MechanicalEnums.MeshWorkflow.WorkflowType](../../../../../v241/Ansys/Mechanical/DataModel/MechanicalEnums/MeshWorkflow/WorkflowType.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.MechanicalEnums.MeshWorkflow.WorkflowType))
-
-Adds a new workflow to the ìMeshWorkflowGroupî object.
-
-<!-- !! processed by numpydoc !! -->
-
-### MeshWorkflowGroup.GetSolidSurfaceMeshQualityWarningLimit(meshMetric: [Ansys.Mechanical.DataModel.Enums.MeshMetricType](../../../../../v241/Ansys/Mechanical/DataModel/Enums/MeshMetricType.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.MeshMetricType))
-
-Get Mesh Quality Warning Limit
-
-<!-- !! processed by numpydoc !! -->
-
-### MeshWorkflowGroup.Delete()
-
-Run the Delete action.
-
-<!-- !! processed by numpydoc !! -->
-
-### MeshWorkflowGroup.GetChildren(recurses: System.Boolean, children: System.Collections.Generic.IList[ChildrenType])
-
-Gets the list of children, filtered by type.
-
-<!-- !! processed by numpydoc !! -->
-
-### MeshWorkflowGroup.GetChildren(category: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../v241/Ansys/Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory), recurses: System.Boolean, children: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject])
-
-Gets the list of children, filtered by type.
-
-<!-- !! processed by numpydoc !! -->
+<a id="MeshWorkflowGroup.AddComment"></a>
 
 ### MeshWorkflowGroup.AddComment()
 
@@ -170,11 +148,15 @@ Creates a new child Comment.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="MeshWorkflowGroup.AddFigure"></a>
+
 ### MeshWorkflowGroup.AddFigure()
 
 Creates a new child Figure.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="MeshWorkflowGroup.AddImage"></a>
 
 ### MeshWorkflowGroup.AddImage(filePath: System.String)
 
@@ -186,11 +168,23 @@ if not, the image will be a screen capture of the Geometry window.
 
 <!-- !! processed by numpydoc !! -->
 
-### MeshWorkflowGroup.Activate()
+<a id="MeshWorkflowGroup.AddMeshWorkflow"></a>
 
-Activate the current object.
+### MeshWorkflowGroup.AddMeshWorkflow(type: [Ansys.Mechanical.DataModel.MechanicalEnums.MeshWorkflow.WorkflowType](../../../Mechanical/DataModel/MechanicalEnums/MeshWorkflow/WorkflowType.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.MechanicalEnums.MeshWorkflow.WorkflowType))
+
+Adds a new workflow to the ‚ÄúMeshWorkflowGroup‚Äù object.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="MeshWorkflowGroup.ClearGeneratedData"></a>
+
+### MeshWorkflowGroup.ClearGeneratedData()
+
+Resets all mesh workflows completely, i.e. also the geometry scoping transferred into each mesh workflow will be reset and all inactive geometry parts/bodies will become active again. Steps, controls, and outcomes will be reset to their initial state while any user-defined property settings will remain as-is.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="MeshWorkflowGroup.CopyTo"></a>
 
 ### MeshWorkflowGroup.CopyTo(other: Ansys.ACT.Automation.Mechanical.DataModelObject)
 
@@ -198,11 +192,63 @@ Copies all visible properties from this object to another.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="MeshWorkflowGroup.CreateParameter"></a>
+
+### MeshWorkflowGroup.CreateParameter(propName: System.String)
+
+Creates a new parameter for a Property.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="MeshWorkflowGroup.Delete"></a>
+
+### MeshWorkflowGroup.Delete()
+
+Run the Delete action.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="MeshWorkflowGroup.Duplicate"></a>
+
 ### MeshWorkflowGroup.Duplicate()
 
 Creates a copy of the current DataModelObject.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="MeshWorkflowGroup.GenerateWorkflows"></a>
+
+### MeshWorkflowGroup.GenerateWorkflows()
+
+Generates all mesh workflows, i.e. executes the ‚ÄúInput‚Äù, the ‚ÄúSteps‚Äù, and the ‚ÄúOutput‚Äù as needed.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="MeshWorkflowGroup.GetChildren"></a>
+
+### MeshWorkflowGroup.GetChildren(recurses: System.Boolean, children: System.Collections.Generic.IList[ChildrenType])
+
+Gets the list of children, filtered by type.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="MeshWorkflowGroup.GetParameter"></a>
+
+### MeshWorkflowGroup.GetParameter(propName: System.String)
+
+Gets the parameter corresponding to the given property.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="MeshWorkflowGroup.GetSolidSurfaceMeshQualityWarningLimit"></a>
+
+### MeshWorkflowGroup.GetSolidSurfaceMeshQualityWarningLimit(meshMetric: [Ansys.Mechanical.DataModel.Enums.MeshMetricType](../../../Mechanical/DataModel/Enums/MeshMetricType.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.MeshMetricType))
+
+Get Mesh Quality Warning Limit
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="MeshWorkflowGroup.GroupAllSimilarChildren"></a>
 
 ### MeshWorkflowGroup.GroupAllSimilarChildren()
 
@@ -210,17 +256,15 @@ Run the GroupAllSimilarChildren action.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="MeshWorkflowGroup.GroupSimilarObjects"></a>
+
 ### MeshWorkflowGroup.GroupSimilarObjects()
 
 Run the GroupSimilarObjects action.
 
 <!-- !! processed by numpydoc !! -->
 
-### MeshWorkflowGroup.PropertyByName(name: System.String)
-
-Get a property by its unique name.
-
-<!-- !! processed by numpydoc !! -->
+<a id="MeshWorkflowGroup.PropertyByAPIName"></a>
 
 ### MeshWorkflowGroup.PropertyByAPIName(name: System.String)
 
@@ -231,17 +275,15 @@ If multiple properties have the same API Name, only the first property with that
 
 <!-- !! processed by numpydoc !! -->
 
-### MeshWorkflowGroup.CreateParameter(propName: System.String)
+<a id="MeshWorkflowGroup.PropertyByName"></a>
 
-Creates a new parameter for a Property.
+### MeshWorkflowGroup.PropertyByName(name: System.String)
 
-<!-- !! processed by numpydoc !! -->
-
-### MeshWorkflowGroup.GetParameter(propName: System.String)
-
-Gets the parameter corresponding to the given property.
+Get a property by its unique name.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="MeshWorkflowGroup.RemoveParameter"></a>
 
 ### MeshWorkflowGroup.RemoveParameter(propName: System.String)
 

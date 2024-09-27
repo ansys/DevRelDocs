@@ -1,6 +1,6 @@
 # `RLBlockCommand`
 
-
+<a id="ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.FE.CDB.RLBlockCommand"></a>
 
 #### *class* ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.FE.CDB.RLBlockCommand
 
@@ -17,20 +17,24 @@ Represents a RLBLOCK command.
 ### Properties
 
 | Name | Description |
-|-----------|--------------------------------|
-| `Reals`   | Gets the real constant sets.   |
-| `Name`    | Gets the command name.         |
-| `Index`   | Gets the command index.        |
+|----------------------------------------------------------------------------------------------------------------------|------------------------------|
+| [`Index`](#RLBlockCommand.Index)   | Gets the command index.      |
+| [`Name`](#RLBlockCommand.Name)     | Gets the command name.       |
+| [`Reals`](#RLBlockCommand.Reals)   | Gets the real constant sets. |
 
 <a id="property-detail"></a>
 
 ## Property detail
 
-### *property* RLBlockCommand.Reals *: System.Collections.Generic.IReadOnlyList[[Ansys.ACT.Automation.Mechanical.FE.CDB.CommandReal](CommandReal.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.FE.CDB.CommandReal)] | [None](https://docs.python.org/3/library/constants.html#None)*
+<a id="RLBlockCommand.Index"></a>
 
-Gets the real constant sets.
+### *property* RLBlockCommand.Index *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets the command index.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="RLBlockCommand.Name"></a>
 
 ### *property* RLBlockCommand.Name *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -38,9 +42,11 @@ Gets the command name.
 
 <!-- !! processed by numpydoc !! -->
 
-### *property* RLBlockCommand.Index *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+<a id="RLBlockCommand.Reals"></a>
 
-Gets the command index.
+### *property* RLBlockCommand.Reals *: System.Collections.Generic.IReadOnlyList[[Ansys.ACT.Automation.Mechanical.FE.CDB.CommandReal](CommandReal.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.FE.CDB.CommandReal)] | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets the real constant sets.
 
 <!-- !! processed by numpydoc !! -->
 

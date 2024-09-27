@@ -1,6 +1,6 @@
 # `EXDEulerSizeDefType`
 
-
+<a id="ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.EXDEulerSizeDefType"></a>
 
 #### *class* ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.EXDEulerSizeDefType
 
@@ -15,7 +15,7 @@ Bases: [`enum.Enum`](https://docs.python.org/3/library/enum.html#enum.Enum)
 ### Attributes
 
 | Name |
-| ------------------------------------------- |
+| ---------------------------------------------------------------------------------------------------------------------- |
 | [`eAuto`](#EXDEulerSizeDefType.eAuto) |
 | [`eManual`](#EXDEulerSizeDefType.eManual) |
 

@@ -1,6 +1,6 @@
 # `ElementOrder`
 
-
+<a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.ElementOrder"></a>
 
 #### *class* ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.ElementOrder
 
@@ -17,18 +17,14 @@ Specifies the ElementOrder.
 ### Attributes
 
 | Name |
-| ---------------------------------------------------------------------------------------------------------------------------- |
-| [`Quadratic`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/ElementOrder.md#ElementOrder.Quadratic) |
-| [`Linear`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/ElementOrder.md#ElementOrder.Linear) |
-| [`ProgramControlled`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/ElementOrder.md#ElementOrder.ProgramControlled) |
+| -------------------------------------------------------- |
+| [`Linear`](#ElementOrder.Linear) |
+| [`ProgramControlled`](#ElementOrder.ProgramControlled) |
+| [`Quadratic`](#ElementOrder.Quadratic) |
 
 <a id="attribute-detail"></a>
 
 ## Attribute detail
-
-<a id="ElementOrder.Quadratic"></a>
-
-### ElementOrder.Quadratic *= 2*
 
 <a id="ElementOrder.Linear"></a>
 
@@ -37,5 +33,9 @@ Specifies the ElementOrder.
 <a id="ElementOrder.ProgramControlled"></a>
 
 ### ElementOrder.ProgramControlled *= 0*
+
+<a id="ElementOrder.Quadratic"></a>
+
+### ElementOrder.Quadratic *= 2*
 
 

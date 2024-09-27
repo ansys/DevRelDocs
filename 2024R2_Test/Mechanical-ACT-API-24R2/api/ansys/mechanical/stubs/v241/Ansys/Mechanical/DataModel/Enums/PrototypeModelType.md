@@ -1,6 +1,6 @@
 # `PrototypeModelType`
 
-
+<a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.PrototypeModelType"></a>
 
 #### *class* ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.PrototypeModelType
 
@@ -17,15 +17,15 @@ Specifies the PrototypeModelType.
 ### Attributes
 
 | Name |
-| ------------------------------------------------------------------------------------------------------------------------------------------------ |
-| [`AxisymmetricShell`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/PrototypeModelType.md#PrototypeModelType.AxisymmetricShell) |
-| [`Beam`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/PrototypeModelType.md#PrototypeModelType.Beam) |
-| [`Cable`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/PrototypeModelType.md#PrototypeModelType.Cable) |
-| [`ModelPhysicsTypeFluid`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/PrototypeModelType.md#PrototypeModelType.ModelPhysicsTypeFluid) |
-| [`Link`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/PrototypeModelType.md#PrototypeModelType.Link) |
-| [`Pipe`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/PrototypeModelType.md#PrototypeModelType.Pipe) |
-| [`Reinforcement`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/PrototypeModelType.md#PrototypeModelType.Reinforcement) |
-| [`Shell`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/PrototypeModelType.md#PrototypeModelType.Shell) |
+| ---------------------------------------------------------------------- |
+| [`AxisymmetricShell`](#PrototypeModelType.AxisymmetricShell) |
+| [`Beam`](#PrototypeModelType.Beam) |
+| [`Cable`](#PrototypeModelType.Cable) |
+| [`Link`](#PrototypeModelType.Link) |
+| [`ModelPhysicsTypeFluid`](#PrototypeModelType.ModelPhysicsTypeFluid) |
+| [`Pipe`](#PrototypeModelType.Pipe) |
+| [`Reinforcement`](#PrototypeModelType.Reinforcement) |
+| [`Shell`](#PrototypeModelType.Shell) |
 
 <a id="attribute-detail"></a>
 
@@ -43,13 +43,13 @@ Specifies the PrototypeModelType.
 
 ### PrototypeModelType.Cable *= 5*
 
-<a id="PrototypeModelType.ModelPhysicsTypeFluid"></a>
-
-### PrototypeModelType.ModelPhysicsTypeFluid *= 1*
-
 <a id="PrototypeModelType.Link"></a>
 
 ### PrototypeModelType.Link *= 3*
+
+<a id="PrototypeModelType.ModelPhysicsTypeFluid"></a>
+
+### PrototypeModelType.ModelPhysicsTypeFluid *= 1*
 
 <a id="PrototypeModelType.Pipe"></a>
 

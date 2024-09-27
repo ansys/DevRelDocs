@@ -1,6 +1,6 @@
 # `PFactorResultType`
 
-
+<a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.PFactorResultType"></a>
 
 #### *class* ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.PFactorResultType
 
@@ -17,11 +17,11 @@ Specifies the PFactorResultType.
 ### Attributes
 
 | Name |
-| -------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| [`CumulativeEffectiveMassRatio`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/PFactorResultType.md#PFactorResultType.CumulativeEffectiveMassRatio) |
-| [`EffectiveMass`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/PFactorResultType.md#PFactorResultType.EffectiveMass) |
-| [`ParticipationFactor`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/PFactorResultType.md#PFactorResultType.ParticipationFactor) |
-| [`PFactorAll`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/PFactorResultType.md#PFactorResultType.PFactorAll) |
+| ------------------------------------------------------------------------------------- |
+| [`CumulativeEffectiveMassRatio`](#PFactorResultType.CumulativeEffectiveMassRatio) |
+| [`EffectiveMass`](#PFactorResultType.EffectiveMass) |
+| [`PFactorAll`](#PFactorResultType.PFactorAll) |
+| [`ParticipationFactor`](#PFactorResultType.ParticipationFactor) |
 
 <a id="attribute-detail"></a>
 
@@ -35,12 +35,12 @@ Specifies the PFactorResultType.
 
 ### PFactorResultType.EffectiveMass *= 1*
 
-<a id="PFactorResultType.ParticipationFactor"></a>
-
-### PFactorResultType.ParticipationFactor *= 0*
-
 <a id="PFactorResultType.PFactorAll"></a>
 
 ### PFactorResultType.PFactorAll *= 3*
+
+<a id="PFactorResultType.ParticipationFactor"></a>
+
+### PFactorResultType.ParticipationFactor *= 0*
 
 

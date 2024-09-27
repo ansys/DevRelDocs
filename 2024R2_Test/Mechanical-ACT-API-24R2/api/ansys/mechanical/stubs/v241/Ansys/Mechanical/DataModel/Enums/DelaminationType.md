@@ -1,6 +1,6 @@
 # `DelaminationType`
 
-
+<a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DelaminationType"></a>
 
 #### *class* ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DelaminationType
 
@@ -17,10 +17,10 @@ Specifies the DelaminationType.
 ### Attributes
 
 | Name |
-| -------------------------------------------------------------------------------------------------------------------------------------------- |
-| [`ContactDebonding`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/DelaminationType.md#DelaminationType.ContactDebonding) |
-| [`CrackGrowth`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/DelaminationType.md#DelaminationType.CrackGrowth) |
-| [`InterfaceDelamination`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/DelaminationType.md#DelaminationType.InterfaceDelamination) |
+| -------------------------------------------------------------------- |
+| [`ContactDebonding`](#DelaminationType.ContactDebonding) |
+| [`CrackGrowth`](#DelaminationType.CrackGrowth) |
+| [`InterfaceDelamination`](#DelaminationType.InterfaceDelamination) |
 
 <a id="attribute-detail"></a>
 

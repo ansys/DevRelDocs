@@ -1,6 +1,6 @@
 # `ImportedLoadType`
 
-
+<a id="ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.ImportedLoadType"></a>
 
 #### *class* ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.ImportedLoadType
 
@@ -17,29 +17,29 @@ Specifies the ImportedLoadType.
 ### Attributes
 
 | Name |
-| ------------------------------------------------------------------------------------------------ |
-| [`ImportedConvection`](#ImportedLoadType.ImportedConvection) |
-| [`ImportedDisplacement`](#ImportedLoadType.ImportedDisplacement) |
-| [`ImportedDisplacementAndRotation`](#ImportedLoadType.ImportedDisplacementAndRotation) |
-| [`ElementOrientation`](#ImportedLoadType.ElementOrientation) |
-| [`ImportedHeatGeneration`](#ImportedLoadType.ImportedHeatGeneration) |
-| [`FiberRatio`](#ImportedLoadType.FiberRatio) |
-| [`ImportedForce`](#ImportedLoadType.ImportedForce) |
+| ------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
 | [`BodyForceDensity`](#ImportedLoadType.BodyForceDensity) |
-| [`ImportedHeatFlux`](#ImportedLoadType.ImportedHeatFlux) |
-| [`ImportedLatticeKnockdownFactor`](#ImportedLoadType.ImportedLatticeKnockdownFactor) |
-| [`ImportedMaterialField`](#ImportedLoadType.ImportedMaterialField) |
-| [`ImportedTrace`](#ImportedLoadType.ImportedTrace) |
-| [`ImportedPressure`](#ImportedLoadType.ImportedPressure) |
+| [`ElementOrientation`](#ImportedLoadType.ElementOrientation) |
+| [`FiberRatio`](#ImportedLoadType.FiberRatio) |
+| [`ImportedBodyTemperature`](#ImportedLoadType.ImportedBodyTemperature) |
+| [`ImportedConvection`](#ImportedLoadType.ImportedConvection) |
 | [`ImportedCutBoundaryRemoteConstraint`](#ImportedLoadType.ImportedCutBoundaryRemoteConstraint) |
 | [`ImportedCutBoundaryRemoteForce`](#ImportedLoadType.ImportedCutBoundaryRemoteForce) |
+| [`ImportedDisplacement`](#ImportedLoadType.ImportedDisplacement) |
+| [`ImportedDisplacementAndRotation`](#ImportedLoadType.ImportedDisplacementAndRotation) |
+| [`ImportedForce`](#ImportedLoadType.ImportedForce) |
+| [`ImportedHeatFlux`](#ImportedLoadType.ImportedHeatFlux) |
+| [`ImportedHeatGeneration`](#ImportedLoadType.ImportedHeatGeneration) |
 | [`ImportedInitialStrain`](#ImportedLoadType.ImportedInitialStrain) |
 | [`ImportedInitialStress`](#ImportedLoadType.ImportedInitialStress) |
-| [`SurfaceForceDensity`](#ImportedLoadType.SurfaceForceDensity) |
+| [`ImportedLatticeKnockdownFactor`](#ImportedLoadType.ImportedLatticeKnockdownFactor) |
+| [`ImportedMaterialField`](#ImportedLoadType.ImportedMaterialField) |
+| [`ImportedPressure`](#ImportedLoadType.ImportedPressure) |
 | [`ImportedTemperature`](#ImportedLoadType.ImportedTemperature) |
-| [`ImportedBodyTemperature`](#ImportedLoadType.ImportedBodyTemperature) |
 | [`ImportedThickness`](#ImportedLoadType.ImportedThickness) |
+| [`ImportedTrace`](#ImportedLoadType.ImportedTrace) |
 | [`ImportedVelocity`](#ImportedLoadType.ImportedVelocity) |
+| [`SurfaceForceDensity`](#ImportedLoadType.SurfaceForceDensity) |
 | [`WarpWeftRatio`](#ImportedLoadType.WarpWeftRatio) |
 | [`YarnAngle`](#ImportedLoadType.YarnAngle) |
 
@@ -47,57 +47,25 @@ Specifies the ImportedLoadType.
 
 ## Attribute detail
 
-<a id="ImportedLoadType.ImportedConvection"></a>
+<a id="ImportedLoadType.BodyForceDensity"></a>
 
-### ImportedLoadType.ImportedConvection *= 2*
-
-<a id="ImportedLoadType.ImportedDisplacement"></a>
-
-### ImportedLoadType.ImportedDisplacement *= 14*
-
-<a id="ImportedLoadType.ImportedDisplacementAndRotation"></a>
-
-### ImportedLoadType.ImportedDisplacementAndRotation *= 18*
+### ImportedLoadType.BodyForceDensity *= 8*
 
 <a id="ImportedLoadType.ElementOrientation"></a>
 
 ### ImportedLoadType.ElementOrientation *= 9*
 
-<a id="ImportedLoadType.ImportedHeatGeneration"></a>
-
-### ImportedLoadType.ImportedHeatGeneration *= 4*
-
 <a id="ImportedLoadType.FiberRatio"></a>
 
 ### ImportedLoadType.FiberRatio *= 12*
 
-<a id="ImportedLoadType.ImportedForce"></a>
+<a id="ImportedLoadType.ImportedBodyTemperature"></a>
 
-### ImportedLoadType.ImportedForce *= 15*
+### ImportedLoadType.ImportedBodyTemperature *= 3*
 
-<a id="ImportedLoadType.BodyForceDensity"></a>
+<a id="ImportedLoadType.ImportedConvection"></a>
 
-### ImportedLoadType.BodyForceDensity *= 8*
-
-<a id="ImportedLoadType.ImportedHeatFlux"></a>
-
-### ImportedLoadType.ImportedHeatFlux *= 7*
-
-<a id="ImportedLoadType.ImportedLatticeKnockdownFactor"></a>
-
-### ImportedLoadType.ImportedLatticeKnockdownFactor *= 31*
-
-<a id="ImportedLoadType.ImportedMaterialField"></a>
-
-### ImportedLoadType.ImportedMaterialField *= 30*
-
-<a id="ImportedLoadType.ImportedTrace"></a>
-
-### ImportedLoadType.ImportedTrace *= 26*
-
-<a id="ImportedLoadType.ImportedPressure"></a>
-
-### ImportedLoadType.ImportedPressure *= 0*
+### ImportedLoadType.ImportedConvection *= 2*
 
 <a id="ImportedLoadType.ImportedCutBoundaryRemoteConstraint"></a>
 
@@ -107,6 +75,26 @@ Specifies the ImportedLoadType.
 
 ### ImportedLoadType.ImportedCutBoundaryRemoteForce *= 27*
 
+<a id="ImportedLoadType.ImportedDisplacement"></a>
+
+### ImportedLoadType.ImportedDisplacement *= 14*
+
+<a id="ImportedLoadType.ImportedDisplacementAndRotation"></a>
+
+### ImportedLoadType.ImportedDisplacementAndRotation *= 18*
+
+<a id="ImportedLoadType.ImportedForce"></a>
+
+### ImportedLoadType.ImportedForce *= 15*
+
+<a id="ImportedLoadType.ImportedHeatFlux"></a>
+
+### ImportedLoadType.ImportedHeatFlux *= 7*
+
+<a id="ImportedLoadType.ImportedHeatGeneration"></a>
+
+### ImportedLoadType.ImportedHeatGeneration *= 4*
+
 <a id="ImportedLoadType.ImportedInitialStrain"></a>
 
 ### ImportedLoadType.ImportedInitialStrain *= 20*
@@ -115,25 +103,37 @@ Specifies the ImportedLoadType.
 
 ### ImportedLoadType.ImportedInitialStress *= 19*
 
-<a id="ImportedLoadType.SurfaceForceDensity"></a>
+<a id="ImportedLoadType.ImportedLatticeKnockdownFactor"></a>
 
-### ImportedLoadType.SurfaceForceDensity *= 13*
+### ImportedLoadType.ImportedLatticeKnockdownFactor *= 31*
+
+<a id="ImportedLoadType.ImportedMaterialField"></a>
+
+### ImportedLoadType.ImportedMaterialField *= 30*
+
+<a id="ImportedLoadType.ImportedPressure"></a>
+
+### ImportedLoadType.ImportedPressure *= 0*
 
 <a id="ImportedLoadType.ImportedTemperature"></a>
 
 ### ImportedLoadType.ImportedTemperature *= 1*
 
-<a id="ImportedLoadType.ImportedBodyTemperature"></a>
-
-### ImportedLoadType.ImportedBodyTemperature *= 3*
-
 <a id="ImportedLoadType.ImportedThickness"></a>
 
 ### ImportedLoadType.ImportedThickness *= 6*
 
+<a id="ImportedLoadType.ImportedTrace"></a>
+
+### ImportedLoadType.ImportedTrace *= 26*
+
 <a id="ImportedLoadType.ImportedVelocity"></a>
 
 ### ImportedLoadType.ImportedVelocity *= 16*
+
+<a id="ImportedLoadType.SurfaceForceDensity"></a>
+
+### ImportedLoadType.SurfaceForceDensity *= 13*
 
 <a id="ImportedLoadType.WarpWeftRatio"></a>
 

@@ -1,6 +1,6 @@
 # `UnitsHelper`
 
-
+<a id="ansys.mechanical.stubs.v241.Ansys.ACT.Mechanical.UnitsHelper"></a>
 
 #### *class* ansys.mechanical.stubs.v241.Ansys.ACT.Mechanical.UnitsHelper
 
@@ -17,9 +17,9 @@ Defines set of methods that can be used to find mechanical unit information
 ### Constructors
 
 | Name | Description |
-|-----------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------|
-| [`ConvertMechanicalUnitToCoreUnit`](../../../../v242/Ansys/ACT/Mechanical/UnitsHelper.md#UnitsHelper.ConvertMechanicalUnitToCoreUnit)   | Takes input mechanical unit string and category string   |
-| [`GetValidQuantityNamesAndUnits`](../../../../v242/Ansys/ACT/Mechanical/UnitsHelper.md#UnitsHelper.GetValidQuantityNamesAndUnits)       | Retrieve a dictionary of quantity names to unit strings. |
+|-------------------------------------------------------------------------------------|----------------------------------------------------------|
+| [`ConvertMechanicalUnitToCoreUnit`](#UnitsHelper.ConvertMechanicalUnitToCoreUnit)   | Takes input mechanical unit string and category string   |
+| [`GetValidQuantityNamesAndUnits`](#UnitsHelper.GetValidQuantityNamesAndUnits)       | Retrieve a dictionary of quantity names to unit strings. |
 
 <a id="method-detail"></a>
 
@@ -28,8 +28,6 @@ Defines set of methods that can be used to find mechanical unit information
 <a id="UnitsHelper.ConvertMechanicalUnitToCoreUnit"></a>
 
 ### *classmethod* UnitsHelper.ConvertMechanicalUnitToCoreUnit(mechanicalUnit: System.String, unitCategory: System.String)
-
-* **No-index:**
 
 ```text
 Takes input mechanical unit string and category string
@@ -41,8 +39,6 @@ And returns framework unit string which can be used for conversion
 <a id="UnitsHelper.GetValidQuantityNamesAndUnits"></a>
 
 ### *classmethod* UnitsHelper.GetValidQuantityNamesAndUnits()
-
-* **No-index:**
 
 ```text
 Retrieve a dictionary of quantity names to unit strings.

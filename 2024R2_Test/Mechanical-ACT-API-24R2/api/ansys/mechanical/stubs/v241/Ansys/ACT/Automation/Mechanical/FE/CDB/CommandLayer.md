@@ -1,6 +1,6 @@
 # `CommandLayer`
 
-
+<a id="ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.FE.CDB.CommandLayer"></a>
 
 #### *class* ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.FE.CDB.CommandLayer
 
@@ -17,21 +17,17 @@ Represents a layer associated to a shell SECBLOCK command.
 ### Properties
 
 | Name | Description |
-|-----------|-----------------------------------------------------|
-| `Thick`   | Gets the thickness.                                 |
-| `Mat`     | Gets the material number.                           |
-| `Theta`   | Gets the layer orientation angle.                   |
-| `Numpt`   | Gets the number of integration points in the layer. |
+|----------------------------------------------------------------------------------------------------------------|-----------------------------------------------------|
+| [`Mat`](#CommandLayer.Mat)     | Gets the material number.                           |
+| [`Numpt`](#CommandLayer.Numpt) | Gets the number of integration points in the layer. |
+| [`Theta`](#CommandLayer.Theta) | Gets the layer orientation angle.                   |
+| [`Thick`](#CommandLayer.Thick) | Gets the thickness.                                 |
 
 <a id="property-detail"></a>
 
 ## Property detail
 
-### *property* CommandLayer.Thick *: System.Double | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets the thickness.
-
-<!-- !! processed by numpydoc !! -->
+<a id="CommandLayer.Mat"></a>
 
 ### *property* CommandLayer.Mat *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -39,15 +35,27 @@ Gets the material number.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="CommandLayer.Numpt"></a>
+
+### *property* CommandLayer.Numpt *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets the number of integration points in the layer.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="CommandLayer.Theta"></a>
+
 ### *property* CommandLayer.Theta *: System.Double | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the layer orientation angle.
 
 <!-- !! processed by numpydoc !! -->
 
-### *property* CommandLayer.Numpt *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+<a id="CommandLayer.Thick"></a>
 
-Gets the number of integration points in the layer.
+### *property* CommandLayer.Thick *: System.Double | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets the thickness.
 
 <!-- !! processed by numpydoc !! -->
 

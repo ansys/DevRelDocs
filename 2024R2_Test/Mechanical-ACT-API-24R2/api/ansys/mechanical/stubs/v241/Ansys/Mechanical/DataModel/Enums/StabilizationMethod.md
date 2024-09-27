@@ -1,6 +1,6 @@
 # `StabilizationMethod`
 
-
+<a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.StabilizationMethod"></a>
 
 #### *class* ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.StabilizationMethod
 
@@ -17,9 +17,9 @@ Specifies the StabilizationMethod.
 ### Attributes
 
 | Name |
-| ------------------------------------------------------------------------------------------------------------------------ |
-| [`Damping`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/StabilizationMethod.md#StabilizationMethod.Damping) |
-| [`Energy`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/StabilizationMethod.md#StabilizationMethod.Energy) |
+| --------------------------------------------- |
+| [`Damping`](#StabilizationMethod.Damping) |
+| [`Energy`](#StabilizationMethod.Energy) |
 
 <a id="attribute-detail"></a>
 

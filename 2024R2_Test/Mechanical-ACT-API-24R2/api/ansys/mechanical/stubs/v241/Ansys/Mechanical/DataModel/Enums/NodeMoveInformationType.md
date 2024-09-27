@@ -1,6 +1,6 @@
 # `NodeMoveInformationType`
 
-
+<a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.NodeMoveInformationType"></a>
 
 #### *class* ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.NodeMoveInformationType
 
@@ -17,8 +17,8 @@ Specifies the NodeMoveInformationType.
 ### Attributes
 
 | Name |
-| -------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| [`F4KeytoMoveAnywhere`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/NodeMoveInformationType.md#NodeMoveInformationType.F4KeytoMoveAnywhere) |
+| ------------------------------------------------------------------------- |
+| [`F4KeytoMoveAnywhere`](#NodeMoveInformationType.F4KeytoMoveAnywhere) |
 
 <a id="attribute-detail"></a>
 

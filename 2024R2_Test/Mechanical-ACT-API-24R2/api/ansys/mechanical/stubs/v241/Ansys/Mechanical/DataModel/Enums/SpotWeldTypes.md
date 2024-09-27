@@ -1,6 +1,6 @@
 # `SpotWeldTypes`
 
-
+<a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.SpotWeldTypes"></a>
 
 #### *class* ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.SpotWeldTypes
 
@@ -17,9 +17,9 @@ Specifies the SpotWeldTypes.
 ### Attributes
 
 | Name |
-| ------------------------------------------------------------------------------------------------------------------ |
-| [`Dependent`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/SpotWeldTypes.md#SpotWeldTypes.Dependent) |
-| [`Independent`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/SpotWeldTypes.md#SpotWeldTypes.Independent) |
+| --------------------------------------------- |
+| [`Dependent`](#SpotWeldTypes.Dependent) |
+| [`Independent`](#SpotWeldTypes.Independent) |
 
 <a id="attribute-detail"></a>
 

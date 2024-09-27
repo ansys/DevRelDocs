@@ -1,6 +1,6 @@
 # `CrackGrowthIncrementType`
 
-
+<a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.CrackGrowthIncrementType"></a>
 
 #### *class* ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.CrackGrowthIncrementType
 
@@ -17,9 +17,9 @@ Specifies the CrackGrowthIncrementType.
 ### Attributes
 
 | Name |
-| ---------------------------------------------------------------------------------------------------------------------------------------------------- |
-| [`Manual`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/CrackGrowthIncrementType.md#CrackGrowthIncrementType.Manual) |
-| [`ProgramControlled`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/CrackGrowthIncrementType.md#CrackGrowthIncrementType.ProgramControlled) |
+| -------------------------------------------------------------------- |
+| [`Manual`](#CrackGrowthIncrementType.Manual) |
+| [`ProgramControlled`](#CrackGrowthIncrementType.ProgramControlled) |
 
 <a id="attribute-detail"></a>
 

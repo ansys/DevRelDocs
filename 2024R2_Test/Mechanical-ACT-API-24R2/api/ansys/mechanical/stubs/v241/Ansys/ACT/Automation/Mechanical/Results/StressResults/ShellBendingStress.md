@@ -1,6 +1,6 @@
 # `ShellBendingStress`
 
-
+<a id="ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Results.StressResults.ShellBendingStress"></a>
 
 #### *class* ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Results.StressResults.ShellBendingStress
 
@@ -17,378 +17,137 @@ Defines a ShellBendingStress.
 ### Methods
 
 | Name | Description |
-|---------------------------|-----------------------------------------------------------------------------------|
-| `ClearGeneratedData`      | Run the ClearGeneratedData action.                                                |
-| `EvaluateAllResults`      | Run the EvaluateAllResults action.                                                |
-| `FetchRemoteResults`      | Run the FetchRemoteResult action.                                                 |
-| `ExportToTextFile`        | Run the ExportToTextFile action.                                                  |
-| `ExportAnimation`         | Run the ExportAnimation action.                                                   |
-| `DuplicateWithoutResults` | Run the DuplicateWithoutResults action.                                           |
-| `CreateResultsAtAllSets`  | Creates results at all sets for results under a solution.                         |
-| `PromoteToNamedSelection` | Run the PromoteToNamedSelection action.                                           |
-| `CreateParameter`         | CreateParameter method.                                                           |
-| `AddAlert`                | Creates a new Alert                                                               |
-| `AddConvergence`          | Creates a new Convergence                                                         |
-| `RenameBasedOnDefinition` | Run the RenameBasedOnDefinition action.                                           |
-| `Delete`                  | Run the Delete action.                                                            |
-| `GetChildren`             | Gets the list of children, filtered by type.                                      |
-| `GetChildren`             | Gets the list of children, filtered by type.                                      |
-| `AddComment`              | Creates a new child Comment.                                                      |
-| `AddFigure`               | Creates a new child Figure.                                                       |
-| `AddImage`                | Creates a new child Image.                                                        |
-| `Activate`                | Activate the current object.                                                      |
-| `CopyTo`                  | Copies all visible properties from this object to another.                        |
-| `Duplicate`               | Creates a copy of the current DataModelObject.                                    |
-| `GroupAllSimilarChildren` | Run the GroupAllSimilarChildren action.                                           |
-| `GroupSimilarObjects`     | Run the GroupSimilarObjects action.                                               |
-| `PropertyByName`          | Get a property by its unique name.                                                |
-| `PropertyByAPIName`       | Get a property by its API name.                                                   |
-| `GetParameter`            | Gets the parameter corresponding to the given property.                           |
-| `RemoveParameter`         | Removes the parameter from the parameter set corresponding to the given property. |
+|--------------------------------------------------------------------------|-----------------------------------------------------------------------------------|
+| [`Activate`](#ShellBendingStress.Activate)                               | Activate the current object.                                                      |
+| [`AddAlert`](#ShellBendingStress.AddAlert)                               | Creates a new Alert                                                               |
+| [`AddComment`](#ShellBendingStress.AddComment)                           | Creates a new child Comment.                                                      |
+| [`AddConvergence`](#ShellBendingStress.AddConvergence)                   | Creates a new Convergence                                                         |
+| [`AddFigure`](#ShellBendingStress.AddFigure)                             | Creates a new child Figure.                                                       |
+| [`AddImage`](#ShellBendingStress.AddImage)                               | Creates a new child Image.                                                        |
+| [`ClearGeneratedData`](#ShellBendingStress.ClearGeneratedData)           | Run the ClearGeneratedData action.                                                |
+| [`CopyTo`](#ShellBendingStress.CopyTo)                                   | Copies all visible properties from this object to another.                        |
+| [`CreateParameter`](#ShellBendingStress.CreateParameter)                 | CreateParameter method.                                                           |
+| [`CreateResultsAtAllSets`](#ShellBendingStress.CreateResultsAtAllSets)   | Creates results at all sets for results under a solution.                         |
+| [`Delete`](#ShellBendingStress.Delete)                                   | Run the Delete action.                                                            |
+| [`Duplicate`](#ShellBendingStress.Duplicate)                             | Creates a copy of the current DataModelObject.                                    |
+| [`DuplicateWithoutResults`](#ShellBendingStress.DuplicateWithoutResults) | Run the DuplicateWithoutResults action.                                           |
+| [`EvaluateAllResults`](#ShellBendingStress.EvaluateAllResults)           | Run the EvaluateAllResults action.                                                |
+| [`ExportAnimation`](#ShellBendingStress.ExportAnimation)                 | Run the ExportAnimation action.                                                   |
+| [`ExportToTextFile`](#ShellBendingStress.ExportToTextFile)               | Run the ExportToTextFile action.                                                  |
+| [`FetchRemoteResults`](#ShellBendingStress.FetchRemoteResults)           | Run the FetchRemoteResult action.                                                 |
+| [`GetChildren`](#ShellBendingStress.GetChildren)                         | Gets the list of children, filtered by type.                                      |
+| [`GetParameter`](#ShellBendingStress.GetParameter)                       | Gets the parameter corresponding to the given property.                           |
+| [`GroupAllSimilarChildren`](#ShellBendingStress.GroupAllSimilarChildren) | Run the GroupAllSimilarChildren action.                                           |
+| [`GroupSimilarObjects`](#ShellBendingStress.GroupSimilarObjects)         | Run the GroupSimilarObjects action.                                               |
+| [`PromoteToNamedSelection`](#ShellBendingStress.PromoteToNamedSelection) | Run the PromoteToNamedSelection action.                                           |
+| [`PropertyByAPIName`](#ShellBendingStress.PropertyByAPIName)             | Get a property by its API name.                                                   |
+| [`PropertyByName`](#ShellBendingStress.PropertyByName)                   | Get a property by its unique name.                                                |
+| [`RemoveParameter`](#ShellBendingStress.RemoveParameter)                 | Removes the parameter from the parameter set corresponding to the given property. |
+| [`RenameBasedOnDefinition`](#ShellBendingStress.RenameBasedOnDefinition) | Run the RenameBasedOnDefinition action.                                           |
 
 ### Properties
 
 | Name | Description |
-|-------------------------------------|------------------------------------------------------------------------|
-| `NormalOrientation`                 | Gets or sets the NormalOrientation.                                    |
-| `InternalObject`                    | Gets the internal object. For advanced usage only.                     |
-| `ScaleFactorValue`                  | Gets or sets the ScaleFactorValue.                                     |
-| `ShellMBPType`                      | Gets the ShellMBPType.                                                 |
-| `DataModelObjectCategory`           | Gets the current DataModelObject's category.                           |
-| `Mode`                              | Gets or sets the Mode.                                                 |
-| `Ply`                               | Gets or sets the Ply selection.                                        |
-| `Plies`                             | Plies property.                                                        |
-| `EnvironmentSelection`              | Gets or sets the EnvironmentSelection.                                 |
-| `HarmonicIndex`                     | Gets or sets the HarmonicIndex.                                        |
-| `CyclicMode`                        | Gets or sets the CyclicMode.                                           |
-| `IterationStep`                     | Gets or sets the IterationStep.                                        |
-| `Layer`                             | Gets or sets the Layer.                                                |
-| `LoadMultiplier`                    | Gets the LoadMultiplier.                                               |
-| `Probability`                       | Gets the Probability.                                                  |
-| `ReportedFrequency`                 | Gets the ReportedFrequency.                                            |
-| `AverageRadiusOfCurvature`          | Gets or sets the AverageRadiusOfCurvature.                             |
-| `BendingInside`                     | Gets the BendingInside.                                                |
-| `BendingOutside`                    | Gets the BendingOutside.                                               |
-| `MembraneBendingCenter`             | Gets the MembraneBendingCenter.                                        |
-| `MembraneBendingInside`             | Gets the MembraneBendingInside.                                        |
-| `MembraneBendingOutside`            | Gets the MembraneBendingOutside.                                       |
-| `Membrane`                          | Gets the Membrane.                                                     |
-| `PeakCenter`                        | Gets the PeakCenter.                                                   |
-| `PeakInside`                        | Gets the PeakInside.                                                   |
-| `PeakOutside`                       | Gets the PeakOutside.                                                  |
-| `SweepingPhase`                     | Gets or sets the SweepingPhase.                                        |
-| `PhaseIncrement`                    | Gets or sets the PhaseIncrement.                                       |
-| `Frequency`                         | Gets or sets the Frequency.                                            |
-| `TotalCenter`                       | Gets the TotalCenter.                                                  |
-| `TotalInside`                       | Gets the TotalInside.                                                  |
-| `TotalOutside`                      | Gets the TotalOutside.                                                 |
-| `Linearized2DBehavior`              | Gets or sets the Linearized2DBehavior.                                 |
-| `Subtype`                           | Gets or sets the Subtype.                                              |
-| `NormalOrientation`                 | Gets or sets the NormalOrientation.                                    |
-| `ScaleFactor`                       | Gets or sets the ScaleFactor.                                          |
-| `Position`                          | Gets or sets the Position.                                             |
-| `StressStrainType`                  | Gets or sets the StressStrainType.                                     |
-| `SubScopeBy`                        | Gets or sets the SubScopeBy.                                           |
-| `ThroughThicknessBendingStress`     | Gets or sets the ThroughThicknessBendingStress.                        |
-| `Amplitude`                         | Gets or sets the Amplitude.                                            |
-| `AverageAcrossBodies`               | Gets or sets the AverageAcrossBodies.                                  |
-| `PlotData`                          | Gets the result table.                                                 |
-| `Location`                          | Gets or sets the Location.                                             |
-| `TimeForMinimumOfMinimumValues`     | Get the Time for the minimum of minimum values.                        |
-| `TimeForMinimumOfMaximumValues`     | Get the Time for the minimum of maximum values.                        |
-| `LoadStepForMinimumOfMinimumValues` | Get the Load Step for the minimum of minimum values.                   |
-| `LoadStepForMinimumOfMaximumValues` | Get the Load Step for the minimum of maximum values.                   |
-| `TimeForMaximumOfMinimumValues`     | Get the Time for the maximum of minimum values.                        |
-| `TimeForMaximumOfMaximumValues`     | Get the Time for the maximum of maximum values.                        |
-| `LoadStepForMaximumOfMinimumValues` | Get the Load Step for the maximum of minimum values.                   |
-| `LoadStepForMaximumOfMaximumValues` | Get the Load Step for the maximum of maximum values.                   |
-| `IsSolved`                          | Gets the IsSolved.                                                     |
-| `CoordinateSystem`                  | Gets or sets the Coordinate System.                                    |
-| `ScopingMethod`                     | Gets or sets the ScopingMethod.                                        |
-| `SetNumber`                         | Gets or sets the Set Number.                                           |
-| `CombinationNumber`                 | Gets or sets the Combination Number for a Solution Combination result. |
-| `SolutionCombinationDriver`         | Gets or sets the SolutionCombinationDriver.                            |
-| `Path`                              | Path property.                                                         |
-| `Surface`                           | Surface property.                                                      |
-| `NamedSelections`                   | Gets or sets the NamedSelections.                                      |
-| `WaterfallPanelShowTextOnMosaic`    | Gets or sets the Waterfall Panel Mosaic Text Property.                 |
-| `CrackFrontNumber`                  | Gets or sets the CrackFrontNumber.                                     |
-| `GlobalIDs`                         | Gets or sets the GlobalIDs.                                            |
-| `Identifier`                        | Gets or sets the Identifier.                                           |
-| `IterationNumber`                   | Gets the IterationNumber.                                              |
-| `LoadStep`                          | Gets the LoadStep.                                                     |
-| `MaximumOccursOn`                   | Gets the MaximumOccursOn.                                              |
-| `MinimumOccursOn`                   | Gets the MinimumOccursOn.                                              |
-| `LoadStepNumber`                    | Gets or sets the LoadStepNumber.                                       |
-| `SolverComponentIDs`                | Gets or sets the SolverComponentIDs.                                   |
-| `Substep`                           | Gets the Substep.                                                      |
-| `Average`                           | Gets the Average.                                                      |
-| `Maximum`                           | Gets the Maximum.                                                      |
-| `MaximumOfMaximumOverTime`          | Gets the MaximumOfMaximumOverTime.                                     |
-| `MaximumOfMinimumOverTime`          | Gets the MaximumOfMinimumOverTime.                                     |
-| `Minimum`                           | Gets the Minimum.                                                      |
-| `MinimumOfMaximumOverTime`          | Gets the MinimumOfMaximumOverTime.                                     |
-| `MinimumOfMinimumOverTime`          | Gets the MinimumOfMinimumOverTime.                                     |
-| `Time`                              | Gets the Time.                                                         |
-| `DisplayTime`                       | Gets or sets the DisplayTime.                                          |
-| `GraphControlsXAxis`                | Gets or sets the GraphControlsXAxis.                                   |
-| `DisplayOption`                     | Gets or sets the DisplayOption.                                        |
-| `DpfEvaluation`                     | Gets or sets the DpfEvaluation.                                        |
-| `By`                                | Gets or sets the By.                                                   |
-| `ItemType`                          | Gets or sets the ItemType.                                             |
-| `CalculateTimeHistory`              | Gets or sets the CalculateTimeHistory.                                 |
-| `Suppressed`                        | Gets or sets the Suppressed.                                           |
-| `Children`                          | Gets the list of children.                                             |
-| `Comments`                          | Gets the list of associated comments.                                  |
-| `Figures`                           | Gets the list of associated figures.                                   |
-| `Images`                            | Gets the list of associated images.                                    |
-| `InternalObject`                    | Gets the internal object. For advanced usage only.                     |
-| `Properties`                        | Gets the list of properties for this object.                           |
-| `VisibleProperties`                 | Gets the list of properties that are visible for this object.          |
+|----------------------------------------------------------------------------------------------|------------------------------------------------------------------------|
+| [`Amplitude`](#ShellBendingStress.Amplitude)                                                 | Gets or sets the Amplitude.                                            |
+| [`Average`](#ShellBendingStress.Average)                                                     | Gets the Average.                                                      |
+| [`AverageAcrossBodies`](#ShellBendingStress.AverageAcrossBodies)                             | Gets or sets the AverageAcrossBodies.                                  |
+| [`AverageRadiusOfCurvature`](#ShellBendingStress.AverageRadiusOfCurvature)                   | Gets or sets the AverageRadiusOfCurvature.                             |
+| [`BendingInside`](#ShellBendingStress.BendingInside)                                         | Gets the BendingInside.                                                |
+| [`BendingOutside`](#ShellBendingStress.BendingOutside)                                       | Gets the BendingOutside.                                               |
+| [`By`](#ShellBendingStress.By)                                                               | Gets or sets the By.                                                   |
+| [`CalculateTimeHistory`](#ShellBendingStress.CalculateTimeHistory)                           | Gets or sets the CalculateTimeHistory.                                 |
+| [`Children`](#ShellBendingStress.Children)                                                   | Gets the list of children.                                             |
+| [`CombinationNumber`](#ShellBendingStress.CombinationNumber)                                 | Gets or sets the Combination Number for a Solution Combination result. |
+| [`Comments`](#ShellBendingStress.Comments)                                                   | Gets the list of associated comments.                                  |
+| [`CoordinateSystem`](#ShellBendingStress.CoordinateSystem)                                   | Gets or sets the Coordinate System.                                    |
+| [`CrackFrontNumber`](#ShellBendingStress.CrackFrontNumber)                                   | Gets or sets the CrackFrontNumber.                                     |
+| [`CyclicMode`](#ShellBendingStress.CyclicMode)                                               | Gets or sets the CyclicMode.                                           |
+| [`DataModelObjectCategory`](#ShellBendingStress.DataModelObjectCategory)                     | Gets the current DataModelObject’s category.                           |
+| [`DisplayOption`](#ShellBendingStress.DisplayOption)                                         | Gets or sets the DisplayOption.                                        |
+| [`DisplayTime`](#ShellBendingStress.DisplayTime)                                             | Gets or sets the DisplayTime.                                          |
+| [`DpfEvaluation`](#ShellBendingStress.DpfEvaluation)                                         | Gets or sets the DpfEvaluation.                                        |
+| [`EnvironmentSelection`](#ShellBendingStress.EnvironmentSelection)                           | Gets or sets the EnvironmentSelection.                                 |
+| [`Figures`](#ShellBendingStress.Figures)                                                     | Gets the list of associated figures.                                   |
+| [`Frequency`](#ShellBendingStress.Frequency)                                                 | Gets or sets the Frequency.                                            |
+| [`GlobalIDs`](#ShellBendingStress.GlobalIDs)                                                 | Gets or sets the GlobalIDs.                                            |
+| [`GraphControlsXAxis`](#ShellBendingStress.GraphControlsXAxis)                               | Gets or sets the GraphControlsXAxis.                                   |
+| [`HarmonicIndex`](#ShellBendingStress.HarmonicIndex)                                         | Gets or sets the HarmonicIndex.                                        |
+| [`Identifier`](#ShellBendingStress.Identifier)                                               | Gets or sets the Identifier.                                           |
+| [`Images`](#ShellBendingStress.Images)                                                       | Gets the list of associated images.                                    |
+| [`InternalObject`](#ShellBendingStress.InternalObject)                                       | Gets the internal object. For advanced usage only.                     |
+| [`IsSolved`](#ShellBendingStress.IsSolved)                                                   | Gets the IsSolved.                                                     |
+| [`ItemType`](#ShellBendingStress.ItemType)                                                   | Gets or sets the ItemType.                                             |
+| [`IterationNumber`](#ShellBendingStress.IterationNumber)                                     | Gets the IterationNumber.                                              |
+| [`IterationStep`](#ShellBendingStress.IterationStep)                                         | Gets or sets the IterationStep.                                        |
+| [`Layer`](#ShellBendingStress.Layer)                                                         | Gets or sets the Layer.                                                |
+| [`Linearized2DBehavior`](#ShellBendingStress.Linearized2DBehavior)                           | Gets or sets the Linearized2DBehavior.                                 |
+| [`LoadMultiplier`](#ShellBendingStress.LoadMultiplier)                                       | Gets the LoadMultiplier.                                               |
+| [`LoadStep`](#ShellBendingStress.LoadStep)                                                   | Gets the LoadStep.                                                     |
+| [`LoadStepForMaximumOfMaximumValues`](#ShellBendingStress.LoadStepForMaximumOfMaximumValues) | Get the Load Step for the maximum of maximum values.                   |
+| [`LoadStepForMaximumOfMinimumValues`](#ShellBendingStress.LoadStepForMaximumOfMinimumValues) | Get the Load Step for the maximum of minimum values.                   |
+| [`LoadStepForMinimumOfMaximumValues`](#ShellBendingStress.LoadStepForMinimumOfMaximumValues) | Get the Load Step for the minimum of maximum values.                   |
+| [`LoadStepForMinimumOfMinimumValues`](#ShellBendingStress.LoadStepForMinimumOfMinimumValues) | Get the Load Step for the minimum of minimum values.                   |
+| [`LoadStepNumber`](#ShellBendingStress.LoadStepNumber)                                       | Gets or sets the LoadStepNumber.                                       |
+| [`Location`](#ShellBendingStress.Location)                                                   | Gets or sets the Location.                                             |
+| [`Maximum`](#ShellBendingStress.Maximum)                                                     | Gets the Maximum.                                                      |
+| [`MaximumOccursOn`](#ShellBendingStress.MaximumOccursOn)                                     | Gets the MaximumOccursOn.                                              |
+| [`MaximumOfMaximumOverTime`](#ShellBendingStress.MaximumOfMaximumOverTime)                   | Gets the MaximumOfMaximumOverTime.                                     |
+| [`MaximumOfMinimumOverTime`](#ShellBendingStress.MaximumOfMinimumOverTime)                   | Gets the MaximumOfMinimumOverTime.                                     |
+| [`Membrane`](#ShellBendingStress.Membrane)                                                   | Gets the Membrane.                                                     |
+| [`MembraneBendingCenter`](#ShellBendingStress.MembraneBendingCenter)                         | Gets the MembraneBendingCenter.                                        |
+| [`MembraneBendingInside`](#ShellBendingStress.MembraneBendingInside)                         | Gets the MembraneBendingInside.                                        |
+| [`MembraneBendingOutside`](#ShellBendingStress.MembraneBendingOutside)                       | Gets the MembraneBendingOutside.                                       |
+| [`Minimum`](#ShellBendingStress.Minimum)                                                     | Gets the Minimum.                                                      |
+| [`MinimumOccursOn`](#ShellBendingStress.MinimumOccursOn)                                     | Gets the MinimumOccursOn.                                              |
+| [`MinimumOfMaximumOverTime`](#ShellBendingStress.MinimumOfMaximumOverTime)                   | Gets the MinimumOfMaximumOverTime.                                     |
+| [`MinimumOfMinimumOverTime`](#ShellBendingStress.MinimumOfMinimumOverTime)                   | Gets the MinimumOfMinimumOverTime.                                     |
+| [`Mode`](#ShellBendingStress.Mode)                                                           | Gets or sets the Mode.                                                 |
+| [`NamedSelections`](#ShellBendingStress.NamedSelections)                                     | Gets or sets the NamedSelections.                                      |
+| [`NormalOrientation`](#ShellBendingStress.NormalOrientation)                                 | Gets or sets the NormalOrientation.                                    |
+| [`Path`](#ShellBendingStress.Path)                                                           | Path property.                                                         |
+| [`PeakCenter`](#ShellBendingStress.PeakCenter)                                               | Gets the PeakCenter.                                                   |
+| [`PeakInside`](#ShellBendingStress.PeakInside)                                               | Gets the PeakInside.                                                   |
+| [`PeakOutside`](#ShellBendingStress.PeakOutside)                                             | Gets the PeakOutside.                                                  |
+| [`PhaseIncrement`](#ShellBendingStress.PhaseIncrement)                                       | Gets or sets the PhaseIncrement.                                       |
+| [`Plies`](#ShellBendingStress.Plies)                                                         | Plies property.                                                        |
+| [`PlotData`](#ShellBendingStress.PlotData)                                                   | Gets the result table.                                                 |
+| [`Ply`](#ShellBendingStress.Ply)                                                             | Gets or sets the Ply selection.                                        |
+| [`Position`](#ShellBendingStress.Position)                                                   | Gets or sets the Position.                                             |
+| [`Probability`](#ShellBendingStress.Probability)                                             | Gets the Probability.                                                  |
+| [`Properties`](#ShellBendingStress.Properties)                                               | Gets the list of properties for this object.                           |
+| [`ReportedFrequency`](#ShellBendingStress.ReportedFrequency)                                 | Gets the ReportedFrequency.                                            |
+| [`ScaleFactor`](#ShellBendingStress.ScaleFactor)                                             | Gets or sets the ScaleFactor.                                          |
+| [`ScaleFactorValue`](#ShellBendingStress.ScaleFactorValue)                                   | Gets or sets the ScaleFactorValue.                                     |
+| [`ScopingMethod`](#ShellBendingStress.ScopingMethod)                                         | Gets or sets the ScopingMethod.                                        |
+| [`SetNumber`](#ShellBendingStress.SetNumber)                                                 | Gets or sets the Set Number.                                           |
+| [`ShellMBPType`](#ShellBendingStress.ShellMBPType)                                           | Gets the ShellMBPType.                                                 |
+| [`SolutionCombinationDriver`](#ShellBendingStress.SolutionCombinationDriver)                 | Gets or sets the SolutionCombinationDriver.                            |
+| [`SolverComponentIDs`](#ShellBendingStress.SolverComponentIDs)                               | Gets or sets the SolverComponentIDs.                                   |
+| [`StressStrainType`](#ShellBendingStress.StressStrainType)                                   | Gets or sets the StressStrainType.                                     |
+| [`SubScopeBy`](#ShellBendingStress.SubScopeBy)                                               | Gets or sets the SubScopeBy.                                           |
+| [`Substep`](#ShellBendingStress.Substep)                                                     | Gets the Substep.                                                      |
+| [`Subtype`](#ShellBendingStress.Subtype)                                                     | Gets or sets the Subtype.                                              |
+| [`Suppressed`](#ShellBendingStress.Suppressed)                                               | Gets or sets the Suppressed.                                           |
+| [`Surface`](#ShellBendingStress.Surface)                                                     | Surface property.                                                      |
+| [`SweepingPhase`](#ShellBendingStress.SweepingPhase)                                         | Gets or sets the SweepingPhase.                                        |
+| [`ThroughThicknessBendingStress`](#ShellBendingStress.ThroughThicknessBendingStress)         | Gets or sets the ThroughThicknessBendingStress.                        |
+| [`Time`](#ShellBendingStress.Time)                                                           | Gets the Time.                                                         |
+| [`TimeForMaximumOfMaximumValues`](#ShellBendingStress.TimeForMaximumOfMaximumValues)         | Get the Time for the maximum of maximum values.                        |
+| [`TimeForMaximumOfMinimumValues`](#ShellBendingStress.TimeForMaximumOfMinimumValues)         | Get the Time for the maximum of minimum values.                        |
+| [`TimeForMinimumOfMaximumValues`](#ShellBendingStress.TimeForMinimumOfMaximumValues)         | Get the Time for the minimum of maximum values.                        |
+| [`TimeForMinimumOfMinimumValues`](#ShellBendingStress.TimeForMinimumOfMinimumValues)         | Get the Time for the minimum of minimum values.                        |
+| [`TotalCenter`](#ShellBendingStress.TotalCenter)                                             | Gets the TotalCenter.                                                  |
+| [`TotalInside`](#ShellBendingStress.TotalInside)                                             | Gets the TotalInside.                                                  |
+| [`TotalOutside`](#ShellBendingStress.TotalOutside)                                           | Gets the TotalOutside.                                                 |
+| [`VisibleProperties`](#ShellBendingStress.VisibleProperties)                                 | Gets the list of properties that are visible for this object.          |
+| [`WaterfallPanelShowTextOnMosaic`](#ShellBendingStress.WaterfallPanelShowTextOnMosaic)       | Gets or sets the Waterfall Panel Mosaic Text Property.                 |
 
 <a id="property-detail"></a>
 
 ## Property detail
 
-### *property* ShellBendingStress.NormalOrientation *: [Ansys.Mechanical.DataModel.Enums.ShellMBPOrientationType](../../../../../Mechanical/DataModel/Enums/ShellMBPOrientationType.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.ShellMBPOrientationType) | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the NormalOrientation.
-
-<!-- !! processed by numpydoc !! -->
-
-### *property* ShellBendingStress.InternalObject *: Ansys.Common.Interop.DSObjectsAuto.IDSResultAuto | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets the internal object. For advanced usage only.
-
-<!-- !! processed by numpydoc !! -->
-
-### *property* ShellBendingStress.ScaleFactorValue *: System.Double | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the ScaleFactorValue.
-
-<!-- !! processed by numpydoc !! -->
-
-### *property* ShellBendingStress.ShellMBPType *: [Ansys.Mechanical.DataModel.Enums.ShellMBPType](../../../../../Mechanical/DataModel/Enums/ShellMBPType.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.ShellMBPType) | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets the ShellMBPType.
-
-<!-- !! processed by numpydoc !! -->
-
-### *property* ShellBendingStress.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets the current DataModelObject's category.
-
-<!-- !! processed by numpydoc !! -->
-
-### *property* ShellBendingStress.Mode *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the Mode.
-
-<!-- !! processed by numpydoc !! -->
-
-### *property* ShellBendingStress.Ply *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.AnalysisPly](../../AnalysisPly.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.AnalysisPly)] | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the Ply selection.
-
-<!-- !! processed by numpydoc !! -->
-
-### *property* ShellBendingStress.Plies *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.ImportedPliesCollection](../../ImportedPliesCollection.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.ImportedPliesCollection)] | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Plies property.
-
-<!-- !! processed by numpydoc !! -->
-
-### *property* ShellBendingStress.EnvironmentSelection *: [Ansys.ACT.Automation.Mechanical.Analysis](../../Analysis.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Analysis) | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the EnvironmentSelection.
-
-<!-- !! processed by numpydoc !! -->
-
-### *property* ShellBendingStress.HarmonicIndex *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the HarmonicIndex.
-
-<!-- !! processed by numpydoc !! -->
-
-### *property* ShellBendingStress.CyclicMode *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the CyclicMode.
-
-<!-- !! processed by numpydoc !! -->
-
-### *property* ShellBendingStress.IterationStep *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the IterationStep.
-
-<!-- !! processed by numpydoc !! -->
-
-### *property* ShellBendingStress.Layer *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the Layer.
-
-<!-- !! processed by numpydoc !! -->
-
-### *property* ShellBendingStress.LoadMultiplier *: System.Double | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets the LoadMultiplier.
-
-<!-- !! processed by numpydoc !! -->
-
-### *property* ShellBendingStress.Probability *: System.Double | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets the Probability.
-
-<!-- !! processed by numpydoc !! -->
-
-### *property* ShellBendingStress.ReportedFrequency *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets the ReportedFrequency.
-
-<!-- !! processed by numpydoc !! -->
-
-### *property* ShellBendingStress.AverageRadiusOfCurvature *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the AverageRadiusOfCurvature.
-
-<!-- !! processed by numpydoc !! -->
-
-### *property* ShellBendingStress.BendingInside *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets the BendingInside.
-
-<!-- !! processed by numpydoc !! -->
-
-### *property* ShellBendingStress.BendingOutside *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets the BendingOutside.
-
-<!-- !! processed by numpydoc !! -->
-
-### *property* ShellBendingStress.MembraneBendingCenter *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets the MembraneBendingCenter.
-
-<!-- !! processed by numpydoc !! -->
-
-### *property* ShellBendingStress.MembraneBendingInside *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets the MembraneBendingInside.
-
-<!-- !! processed by numpydoc !! -->
-
-### *property* ShellBendingStress.MembraneBendingOutside *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets the MembraneBendingOutside.
-
-<!-- !! processed by numpydoc !! -->
-
-### *property* ShellBendingStress.Membrane *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets the Membrane.
-
-<!-- !! processed by numpydoc !! -->
-
-### *property* ShellBendingStress.PeakCenter *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets the PeakCenter.
-
-<!-- !! processed by numpydoc !! -->
-
-### *property* ShellBendingStress.PeakInside *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets the PeakInside.
-
-<!-- !! processed by numpydoc !! -->
-
-### *property* ShellBendingStress.PeakOutside *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets the PeakOutside.
-
-<!-- !! processed by numpydoc !! -->
-
-### *property* ShellBendingStress.SweepingPhase *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the SweepingPhase.
-
-<!-- !! processed by numpydoc !! -->
-
-### *property* ShellBendingStress.PhaseIncrement *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the PhaseIncrement.
-
-<!-- !! processed by numpydoc !! -->
-
-### *property* ShellBendingStress.Frequency *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the Frequency.
-
-<!-- !! processed by numpydoc !! -->
-
-### *property* ShellBendingStress.TotalCenter *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets the TotalCenter.
-
-<!-- !! processed by numpydoc !! -->
-
-### *property* ShellBendingStress.TotalInside *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets the TotalInside.
-
-<!-- !! processed by numpydoc !! -->
-
-### *property* ShellBendingStress.TotalOutside *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets the TotalOutside.
-
-<!-- !! processed by numpydoc !! -->
-
-### *property* ShellBendingStress.Linearized2DBehavior *: [Ansys.Mechanical.DataModel.Enums.Linearized2DBehavior](../../../../../Mechanical/DataModel/Enums/Linearized2DBehavior.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.Linearized2DBehavior) | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the Linearized2DBehavior.
-
-<!-- !! processed by numpydoc !! -->
-
-### *property* ShellBendingStress.Subtype *: [Ansys.Mechanical.DataModel.Enums.LinearizedSubtype](../../../../../Mechanical/DataModel/Enums/LinearizedSubtype.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.LinearizedSubtype) | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the Subtype.
-
-<!-- !! processed by numpydoc !! -->
-
-### *property* ShellBendingStress.NormalOrientation *: [Ansys.Mechanical.DataModel.Enums.NormalOrientationType](../../../../../Mechanical/DataModel/Enums/NormalOrientationType.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.NormalOrientationType) | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the NormalOrientation.
-
-<!-- !! processed by numpydoc !! -->
-
-### *property* ShellBendingStress.ScaleFactor *: [Ansys.Mechanical.DataModel.Enums.ScaleFactorType](../../../../../Mechanical/DataModel/Enums/ScaleFactorType.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.ScaleFactorType) | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the ScaleFactor.
-
-<!-- !! processed by numpydoc !! -->
-
-### *property* ShellBendingStress.Position *: [Ansys.Mechanical.DataModel.Enums.ShellFaceType](../../../../../Mechanical/DataModel/Enums/ShellFaceType.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.ShellFaceType) | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the Position.
-
-<!-- !! processed by numpydoc !! -->
-
-### *property* ShellBendingStress.StressStrainType *: [Ansys.Mechanical.DataModel.Enums.StressStrainType](../../../../../Mechanical/DataModel/Enums/StressStrainType.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.StressStrainType) | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the StressStrainType.
-
-<!-- !! processed by numpydoc !! -->
-
-### *property* ShellBendingStress.SubScopeBy *: [Ansys.Mechanical.DataModel.Enums.SubScopingDefineByType](../../../../../Mechanical/DataModel/Enums/SubScopingDefineByType.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.SubScopingDefineByType) | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the SubScopeBy.
-
-<!-- !! processed by numpydoc !! -->
-
-### *property* ShellBendingStress.ThroughThicknessBendingStress *: [Ansys.Mechanical.DataModel.Enums.ThroughThicknessBendingStress](../../../../../Mechanical/DataModel/Enums/ThroughThicknessBendingStress.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.ThroughThicknessBendingStress) | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the ThroughThicknessBendingStress.
-
-<!-- !! processed by numpydoc !! -->
+<a id="ShellBendingStress.Amplitude"></a>
 
 ### *property* ShellBendingStress.Amplitude *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -396,77 +155,87 @@ Gets or sets the Amplitude.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="ShellBendingStress.Average"></a>
+
+### *property* ShellBendingStress.Average *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets the Average.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ShellBendingStress.AverageAcrossBodies"></a>
+
 ### *property* ShellBendingStress.AverageAcrossBodies *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the AverageAcrossBodies.
 
 <!-- !! processed by numpydoc !! -->
 
-### *property* ShellBendingStress.PlotData *: [Ansys.Mechanical.DataModel.Results.ResultDataTable](../../../../../Mechanical/DataModel/Results/ResultDataTable.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Results.ResultDataTable) | [None](https://docs.python.org/3/library/constants.html#None)*
+<a id="ShellBendingStress.AverageRadiusOfCurvature"></a>
 
-Gets the result table.
+### *property* ShellBendingStress.AverageRadiusOfCurvature *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
 
-<!-- !! processed by numpydoc !! -->
-
-### *property* ShellBendingStress.Location *: Ansys.ACT.Interfaces.Common.ISelectionInfo | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the Location.
+Gets or sets the AverageRadiusOfCurvature.
 
 <!-- !! processed by numpydoc !! -->
 
-### *property* ShellBendingStress.TimeForMinimumOfMinimumValues *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
+<a id="ShellBendingStress.BendingInside"></a>
 
-Get the Time for the minimum of minimum values.
+### *property* ShellBendingStress.BendingInside *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
 
-<!-- !! processed by numpydoc !! -->
-
-### *property* ShellBendingStress.TimeForMinimumOfMaximumValues *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Get the Time for the minimum of maximum values.
+Gets the BendingInside.
 
 <!-- !! processed by numpydoc !! -->
 
-### *property* ShellBendingStress.LoadStepForMinimumOfMinimumValues *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+<a id="ShellBendingStress.BendingOutside"></a>
 
-Get the Load Step for the minimum of minimum values.
+### *property* ShellBendingStress.BendingOutside *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
 
-<!-- !! processed by numpydoc !! -->
-
-### *property* ShellBendingStress.LoadStepForMinimumOfMaximumValues *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Get the Load Step for the minimum of maximum values.
+Gets the BendingOutside.
 
 <!-- !! processed by numpydoc !! -->
 
-### *property* ShellBendingStress.TimeForMaximumOfMinimumValues *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
+<a id="ShellBendingStress.By"></a>
 
-Get the Time for the maximum of minimum values.
+### *property* ShellBendingStress.By *: [Ansys.Mechanical.DataModel.Enums.SetDriverStyle](../../../../../../../v242/Ansys/Mechanical/DataModel/Enums/SetDriverStyle.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.SetDriverStyle) | [None](https://docs.python.org/3/library/constants.html#None)*
 
-<!-- !! processed by numpydoc !! -->
-
-### *property* ShellBendingStress.TimeForMaximumOfMaximumValues *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Get the Time for the maximum of maximum values.
+Gets or sets the By.
 
 <!-- !! processed by numpydoc !! -->
 
-### *property* ShellBendingStress.LoadStepForMaximumOfMinimumValues *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+<a id="ShellBendingStress.CalculateTimeHistory"></a>
 
-Get the Load Step for the maximum of minimum values.
+### *property* ShellBendingStress.CalculateTimeHistory *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
 
-<!-- !! processed by numpydoc !! -->
-
-### *property* ShellBendingStress.LoadStepForMaximumOfMaximumValues *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Get the Load Step for the maximum of maximum values.
+Gets or sets the CalculateTimeHistory.
 
 <!-- !! processed by numpydoc !! -->
 
-### *property* ShellBendingStress.IsSolved *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+<a id="ShellBendingStress.Children"></a>
 
-Gets the IsSolved.
+### *property* ShellBendingStress.Children *: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets the list of children.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="ShellBendingStress.CombinationNumber"></a>
+
+### *property* ShellBendingStress.CombinationNumber *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the Combination Number for a Solution Combination result.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ShellBendingStress.Comments"></a>
+
+### *property* ShellBendingStress.Comments *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Comment](../../Comment.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets the list of associated comments.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ShellBendingStress.CoordinateSystem"></a>
 
 ### *property* ShellBendingStress.CoordinateSystem *: [Ansys.ACT.Automation.Mechanical.CoordinateSystem](../../CoordinateSystem.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.CoordinateSystem) | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -476,53 +245,7 @@ Accepts/Returns None for Fiber Coordinate System for a result that is sub scoped
 
 <!-- !! processed by numpydoc !! -->
 
-### *property* ShellBendingStress.ScopingMethod *: [Ansys.Mechanical.DataModel.Enums.GeometryDefineByType](../../../../../Mechanical/DataModel/Enums/GeometryDefineByType.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.GeometryDefineByType) | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the ScopingMethod.
-
-<!-- !! processed by numpydoc !! -->
-
-### *property* ShellBendingStress.SetNumber *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the Set Number.
-
-<!-- !! processed by numpydoc !! -->
-
-### *property* ShellBendingStress.CombinationNumber *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the Combination Number for a Solution Combination result.
-
-<!-- !! processed by numpydoc !! -->
-
-### *property* ShellBendingStress.SolutionCombinationDriver *: [Ansys.Mechanical.DataModel.Enums.SolutionCombinationDriverStyle](../../../../../Mechanical/DataModel/Enums/SolutionCombinationDriverStyle.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.SolutionCombinationDriverStyle) | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the SolutionCombinationDriver.
-
-<!-- !! processed by numpydoc !! -->
-
-### *property* ShellBendingStress.Path *: [Ansys.ACT.Automation.Mechanical.Path](../../Path.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Path) | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Path property.
-
-<!-- !! processed by numpydoc !! -->
-
-### *property* ShellBendingStress.Surface *: [Ansys.ACT.Automation.Mechanical.Surface](../../Surface.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Surface) | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Surface property.
-
-<!-- !! processed by numpydoc !! -->
-
-### *property* ShellBendingStress.NamedSelections *: System.Collections.Generic.IEnumerable[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the NamedSelections.
-
-<!-- !! processed by numpydoc !! -->
-
-### *property* ShellBendingStress.WaterfallPanelShowTextOnMosaic *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the Waterfall Panel Mosaic Text Property.
-
-<!-- !! processed by numpydoc !! -->
+<a id="ShellBendingStress.CrackFrontNumber"></a>
 
 ### *property* ShellBendingStress.CrackFrontNumber *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -530,107 +253,31 @@ Gets or sets the CrackFrontNumber.
 
 <!-- !! processed by numpydoc !! -->
 
-### *property* ShellBendingStress.GlobalIDs *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+<a id="ShellBendingStress.CyclicMode"></a>
 
-Gets or sets the GlobalIDs.
+### *property* ShellBendingStress.CyclicMode *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
 
-<!-- !! processed by numpydoc !! -->
-
-### *property* ShellBendingStress.Identifier *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the Identifier.
+Gets or sets the CyclicMode.
 
 <!-- !! processed by numpydoc !! -->
 
-### *property* ShellBendingStress.IterationNumber *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+<a id="ShellBendingStress.DataModelObjectCategory"></a>
 
-Gets the IterationNumber.
+### *property* ShellBendingStress.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../../../v242/Ansys/Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
-<!-- !! processed by numpydoc !! -->
-
-### *property* ShellBendingStress.LoadStep *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets the LoadStep.
+Gets the current DataModelObject’s category.
 
 <!-- !! processed by numpydoc !! -->
 
-### *property* ShellBendingStress.MaximumOccursOn *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+<a id="ShellBendingStress.DisplayOption"></a>
 
-Gets the MaximumOccursOn.
+### *property* ShellBendingStress.DisplayOption *: [Ansys.Mechanical.DataModel.Enums.ResultAveragingType](../../../../../../../v242/Ansys/Mechanical/DataModel/Enums/ResultAveragingType.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.ResultAveragingType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
-<!-- !! processed by numpydoc !! -->
-
-### *property* ShellBendingStress.MinimumOccursOn *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets the MinimumOccursOn.
+Gets or sets the DisplayOption.
 
 <!-- !! processed by numpydoc !! -->
 
-### *property* ShellBendingStress.LoadStepNumber *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the LoadStepNumber.
-
-<!-- !! processed by numpydoc !! -->
-
-### *property* ShellBendingStress.SolverComponentIDs *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the SolverComponentIDs.
-
-<!-- !! processed by numpydoc !! -->
-
-### *property* ShellBendingStress.Substep *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets the Substep.
-
-<!-- !! processed by numpydoc !! -->
-
-### *property* ShellBendingStress.Average *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets the Average.
-
-<!-- !! processed by numpydoc !! -->
-
-### *property* ShellBendingStress.Maximum *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets the Maximum.
-
-<!-- !! processed by numpydoc !! -->
-
-### *property* ShellBendingStress.MaximumOfMaximumOverTime *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets the MaximumOfMaximumOverTime.
-
-<!-- !! processed by numpydoc !! -->
-
-### *property* ShellBendingStress.MaximumOfMinimumOverTime *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets the MaximumOfMinimumOverTime.
-
-<!-- !! processed by numpydoc !! -->
-
-### *property* ShellBendingStress.Minimum *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets the Minimum.
-
-<!-- !! processed by numpydoc !! -->
-
-### *property* ShellBendingStress.MinimumOfMaximumOverTime *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets the MinimumOfMaximumOverTime.
-
-<!-- !! processed by numpydoc !! -->
-
-### *property* ShellBendingStress.MinimumOfMinimumOverTime *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets the MinimumOfMinimumOverTime.
-
-<!-- !! processed by numpydoc !! -->
-
-### *property* ShellBendingStress.Time *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets the Time.
-
-<!-- !! processed by numpydoc !! -->
+<a id="ShellBendingStress.DisplayTime"></a>
 
 ### *property* ShellBendingStress.DisplayTime *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -638,59 +285,23 @@ Gets or sets the DisplayTime.
 
 <!-- !! processed by numpydoc !! -->
 
-### *property* ShellBendingStress.GraphControlsXAxis *: [Ansys.Mechanical.DataModel.Enums.GraphControlsXAxis](../../../../../Mechanical/DataModel/Enums/GraphControlsXAxis.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.GraphControlsXAxis) | [None](https://docs.python.org/3/library/constants.html#None)*
+<a id="ShellBendingStress.DpfEvaluation"></a>
 
-Gets or sets the GraphControlsXAxis.
-
-<!-- !! processed by numpydoc !! -->
-
-### *property* ShellBendingStress.DisplayOption *: [Ansys.Mechanical.DataModel.Enums.ResultAveragingType](../../../../../Mechanical/DataModel/Enums/ResultAveragingType.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.ResultAveragingType) | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the DisplayOption.
-
-<!-- !! processed by numpydoc !! -->
-
-### *property* ShellBendingStress.DpfEvaluation *: [Ansys.Mechanical.DataModel.Enums.DpfEvaluationType](../../../../../Mechanical/DataModel/Enums/DpfEvaluationType.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DpfEvaluationType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ShellBendingStress.DpfEvaluation *: [Ansys.Mechanical.DataModel.Enums.DpfEvaluationType](../../../../../../../v242/Ansys/Mechanical/DataModel/Enums/DpfEvaluationType.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.DpfEvaluationType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the DpfEvaluation.
 
 <!-- !! processed by numpydoc !! -->
 
-### *property* ShellBendingStress.By *: [Ansys.Mechanical.DataModel.Enums.SetDriverStyle](../../../../../Mechanical/DataModel/Enums/SetDriverStyle.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.SetDriverStyle) | [None](https://docs.python.org/3/library/constants.html#None)*
+<a id="ShellBendingStress.EnvironmentSelection"></a>
 
-Gets or sets the By.
+### *property* ShellBendingStress.EnvironmentSelection *: [Ansys.ACT.Automation.Mechanical.Analysis](../../Analysis.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Analysis) | [None](https://docs.python.org/3/library/constants.html#None)*
 
-<!-- !! processed by numpydoc !! -->
-
-### *property* ShellBendingStress.ItemType *: [Ansys.Mechanical.DataModel.Enums.ResultFileItemType](../../../../../Mechanical/DataModel/Enums/ResultFileItemType.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.ResultFileItemType) | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the ItemType.
+Gets or sets the EnvironmentSelection.
 
 <!-- !! processed by numpydoc !! -->
 
-### *property* ShellBendingStress.CalculateTimeHistory *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the CalculateTimeHistory.
-
-<!-- !! processed by numpydoc !! -->
-
-### *property* ShellBendingStress.Suppressed *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the Suppressed.
-
-<!-- !! processed by numpydoc !! -->
-
-### *property* ShellBendingStress.Children *: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets the list of children.
-
-<!-- !! processed by numpydoc !! -->
-
-### *property* ShellBendingStress.Comments *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Comment](../../Comment.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets the list of associated comments.
-
-<!-- !! processed by numpydoc !! -->
+<a id="ShellBendingStress.Figures"></a>
 
 ### *property* ShellBendingStress.Figures *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Figure](../../Figure.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -698,17 +309,375 @@ Gets the list of associated figures.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="ShellBendingStress.Frequency"></a>
+
+### *property* ShellBendingStress.Frequency *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the Frequency.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ShellBendingStress.GlobalIDs"></a>
+
+### *property* ShellBendingStress.GlobalIDs *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the GlobalIDs.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ShellBendingStress.GraphControlsXAxis"></a>
+
+### *property* ShellBendingStress.GraphControlsXAxis *: [Ansys.Mechanical.DataModel.Enums.GraphControlsXAxis](../../../../../../../v242/Ansys/Mechanical/DataModel/Enums/GraphControlsXAxis.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.GraphControlsXAxis) | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the GraphControlsXAxis.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ShellBendingStress.HarmonicIndex"></a>
+
+### *property* ShellBendingStress.HarmonicIndex *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the HarmonicIndex.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ShellBendingStress.Identifier"></a>
+
+### *property* ShellBendingStress.Identifier *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the Identifier.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ShellBendingStress.Images"></a>
+
 ### *property* ShellBendingStress.Images *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Image](../../Image.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated images.
 
 <!-- !! processed by numpydoc !! -->
 
-### *property* ShellBendingStress.InternalObject *: System.Object | [None](https://docs.python.org/3/library/constants.html#None)*
+<a id="ShellBendingStress.InternalObject"></a>
+
+### *property* ShellBendingStress.InternalObject *: Ansys.Common.Interop.DSObjectsAuto.IDSResultAuto | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the internal object. For advanced usage only.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="ShellBendingStress.IsSolved"></a>
+
+### *property* ShellBendingStress.IsSolved *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets the IsSolved.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ShellBendingStress.ItemType"></a>
+
+### *property* ShellBendingStress.ItemType *: [Ansys.Mechanical.DataModel.Enums.ResultFileItemType](../../../../../../../v242/Ansys/Mechanical/DataModel/Enums/ResultFileItemType.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.ResultFileItemType) | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the ItemType.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ShellBendingStress.IterationNumber"></a>
+
+### *property* ShellBendingStress.IterationNumber *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets the IterationNumber.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ShellBendingStress.IterationStep"></a>
+
+### *property* ShellBendingStress.IterationStep *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the IterationStep.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ShellBendingStress.Layer"></a>
+
+### *property* ShellBendingStress.Layer *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the Layer.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ShellBendingStress.Linearized2DBehavior"></a>
+
+### *property* ShellBendingStress.Linearized2DBehavior *: [Ansys.Mechanical.DataModel.Enums.Linearized2DBehavior](../../../../../../../v242/Ansys/Mechanical/DataModel/Enums/Linearized2DBehavior.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.Linearized2DBehavior) | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the Linearized2DBehavior.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ShellBendingStress.LoadMultiplier"></a>
+
+### *property* ShellBendingStress.LoadMultiplier *: System.Double | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets the LoadMultiplier.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ShellBendingStress.LoadStep"></a>
+
+### *property* ShellBendingStress.LoadStep *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets the LoadStep.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ShellBendingStress.LoadStepForMaximumOfMaximumValues"></a>
+
+### *property* ShellBendingStress.LoadStepForMaximumOfMaximumValues *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Get the Load Step for the maximum of maximum values.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ShellBendingStress.LoadStepForMaximumOfMinimumValues"></a>
+
+### *property* ShellBendingStress.LoadStepForMaximumOfMinimumValues *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Get the Load Step for the maximum of minimum values.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ShellBendingStress.LoadStepForMinimumOfMaximumValues"></a>
+
+### *property* ShellBendingStress.LoadStepForMinimumOfMaximumValues *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Get the Load Step for the minimum of maximum values.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ShellBendingStress.LoadStepForMinimumOfMinimumValues"></a>
+
+### *property* ShellBendingStress.LoadStepForMinimumOfMinimumValues *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Get the Load Step for the minimum of minimum values.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ShellBendingStress.LoadStepNumber"></a>
+
+### *property* ShellBendingStress.LoadStepNumber *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the LoadStepNumber.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ShellBendingStress.Location"></a>
+
+### *property* ShellBendingStress.Location *: Ansys.ACT.Interfaces.Common.ISelectionInfo | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the Location.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ShellBendingStress.Maximum"></a>
+
+### *property* ShellBendingStress.Maximum *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets the Maximum.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ShellBendingStress.MaximumOccursOn"></a>
+
+### *property* ShellBendingStress.MaximumOccursOn *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets the MaximumOccursOn.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ShellBendingStress.MaximumOfMaximumOverTime"></a>
+
+### *property* ShellBendingStress.MaximumOfMaximumOverTime *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets the MaximumOfMaximumOverTime.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ShellBendingStress.MaximumOfMinimumOverTime"></a>
+
+### *property* ShellBendingStress.MaximumOfMinimumOverTime *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets the MaximumOfMinimumOverTime.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ShellBendingStress.Membrane"></a>
+
+### *property* ShellBendingStress.Membrane *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets the Membrane.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ShellBendingStress.MembraneBendingCenter"></a>
+
+### *property* ShellBendingStress.MembraneBendingCenter *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets the MembraneBendingCenter.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ShellBendingStress.MembraneBendingInside"></a>
+
+### *property* ShellBendingStress.MembraneBendingInside *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets the MembraneBendingInside.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ShellBendingStress.MembraneBendingOutside"></a>
+
+### *property* ShellBendingStress.MembraneBendingOutside *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets the MembraneBendingOutside.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ShellBendingStress.Minimum"></a>
+
+### *property* ShellBendingStress.Minimum *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets the Minimum.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ShellBendingStress.MinimumOccursOn"></a>
+
+### *property* ShellBendingStress.MinimumOccursOn *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets the MinimumOccursOn.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ShellBendingStress.MinimumOfMaximumOverTime"></a>
+
+### *property* ShellBendingStress.MinimumOfMaximumOverTime *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets the MinimumOfMaximumOverTime.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ShellBendingStress.MinimumOfMinimumOverTime"></a>
+
+### *property* ShellBendingStress.MinimumOfMinimumOverTime *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets the MinimumOfMinimumOverTime.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ShellBendingStress.Mode"></a>
+
+### *property* ShellBendingStress.Mode *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the Mode.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ShellBendingStress.NamedSelections"></a>
+
+### *property* ShellBendingStress.NamedSelections *: System.Collections.Generic.IEnumerable[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the NamedSelections.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ShellBendingStress.NormalOrientation"></a>
+
+### *property* ShellBendingStress.NormalOrientation *: [Ansys.Mechanical.DataModel.Enums.ShellMBPOrientationType](../../../../../../../v242/Ansys/Mechanical/DataModel/Enums/ShellMBPOrientationType.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.ShellMBPOrientationType) | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the NormalOrientation.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ShellBendingStress.Path"></a>
+
+### *property* ShellBendingStress.Path *: [Ansys.ACT.Automation.Mechanical.Path](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Path.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Path) | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Path property.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ShellBendingStress.PeakCenter"></a>
+
+### *property* ShellBendingStress.PeakCenter *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets the PeakCenter.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ShellBendingStress.PeakInside"></a>
+
+### *property* ShellBendingStress.PeakInside *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets the PeakInside.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ShellBendingStress.PeakOutside"></a>
+
+### *property* ShellBendingStress.PeakOutside *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets the PeakOutside.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ShellBendingStress.PhaseIncrement"></a>
+
+### *property* ShellBendingStress.PhaseIncrement *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the PhaseIncrement.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ShellBendingStress.Plies"></a>
+
+### *property* ShellBendingStress.Plies *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.ImportedPliesCollection](../../ImportedPliesCollection.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.ImportedPliesCollection)] | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Plies property.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ShellBendingStress.PlotData"></a>
+
+### *property* ShellBendingStress.PlotData *: [Ansys.Mechanical.DataModel.Results.ResultDataTable](../../../../../../../v242/Ansys/Mechanical/DataModel/Results/ResultDataTable.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Results.ResultDataTable) | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets the result table.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ShellBendingStress.Ply"></a>
+
+### *property* ShellBendingStress.Ply *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.AnalysisPly](../../AnalysisPly.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.AnalysisPly)] | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the Ply selection.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ShellBendingStress.Position"></a>
+
+### *property* ShellBendingStress.Position *: [Ansys.Mechanical.DataModel.Enums.ShellFaceType](../../../../../../../v242/Ansys/Mechanical/DataModel/Enums/ShellFaceType.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.ShellFaceType) | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the Position.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ShellBendingStress.Probability"></a>
+
+### *property* ShellBendingStress.Probability *: System.Double | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets the Probability.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ShellBendingStress.Properties"></a>
 
 ### *property* ShellBendingStress.Properties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -716,9 +685,211 @@ Gets the list of properties for this object.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="ShellBendingStress.ReportedFrequency"></a>
+
+### *property* ShellBendingStress.ReportedFrequency *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets the ReportedFrequency.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ShellBendingStress.ScaleFactor"></a>
+
+### *property* ShellBendingStress.ScaleFactor *: [Ansys.Mechanical.DataModel.Enums.ScaleFactorType](../../../../../../../v242/Ansys/Mechanical/DataModel/Enums/ScaleFactorType.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.ScaleFactorType) | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the ScaleFactor.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ShellBendingStress.ScaleFactorValue"></a>
+
+### *property* ShellBendingStress.ScaleFactorValue *: System.Double | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the ScaleFactorValue.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ShellBendingStress.ScopingMethod"></a>
+
+### *property* ShellBendingStress.ScopingMethod *: [Ansys.Mechanical.DataModel.Enums.GeometryDefineByType](../../../../../../../v242/Ansys/Mechanical/DataModel/Enums/GeometryDefineByType.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.GeometryDefineByType) | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the ScopingMethod.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ShellBendingStress.SetNumber"></a>
+
+### *property* ShellBendingStress.SetNumber *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the Set Number.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ShellBendingStress.ShellMBPType"></a>
+
+### *property* ShellBendingStress.ShellMBPType *: [Ansys.Mechanical.DataModel.Enums.ShellMBPType](../../../../../../../v242/Ansys/Mechanical/DataModel/Enums/ShellMBPType.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.ShellMBPType) | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets the ShellMBPType.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ShellBendingStress.SolutionCombinationDriver"></a>
+
+### *property* ShellBendingStress.SolutionCombinationDriver *: [Ansys.Mechanical.DataModel.Enums.SolutionCombinationDriverStyle](../../../../../../../v242/Ansys/Mechanical/DataModel/Enums/SolutionCombinationDriverStyle.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.SolutionCombinationDriverStyle) | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the SolutionCombinationDriver.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ShellBendingStress.SolverComponentIDs"></a>
+
+### *property* ShellBendingStress.SolverComponentIDs *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the SolverComponentIDs.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ShellBendingStress.StressStrainType"></a>
+
+### *property* ShellBendingStress.StressStrainType *: [Ansys.Mechanical.DataModel.Enums.StressStrainType](../../../../../../../v242/Ansys/Mechanical/DataModel/Enums/StressStrainType.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.StressStrainType) | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the StressStrainType.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ShellBendingStress.SubScopeBy"></a>
+
+### *property* ShellBendingStress.SubScopeBy *: [Ansys.Mechanical.DataModel.Enums.SubScopingDefineByType](../../../../../../../v242/Ansys/Mechanical/DataModel/Enums/SubScopingDefineByType.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.SubScopingDefineByType) | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the SubScopeBy.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ShellBendingStress.Substep"></a>
+
+### *property* ShellBendingStress.Substep *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets the Substep.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ShellBendingStress.Subtype"></a>
+
+### *property* ShellBendingStress.Subtype *: [Ansys.Mechanical.DataModel.Enums.LinearizedSubtype](../../../../../../../v242/Ansys/Mechanical/DataModel/Enums/LinearizedSubtype.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.LinearizedSubtype) | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the Subtype.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ShellBendingStress.Suppressed"></a>
+
+### *property* ShellBendingStress.Suppressed *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the Suppressed.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ShellBendingStress.Surface"></a>
+
+### *property* ShellBendingStress.Surface *: [Ansys.ACT.Automation.Mechanical.Surface](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Surface.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Surface) | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Surface property.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ShellBendingStress.SweepingPhase"></a>
+
+### *property* ShellBendingStress.SweepingPhase *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the SweepingPhase.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ShellBendingStress.ThroughThicknessBendingStress"></a>
+
+### *property* ShellBendingStress.ThroughThicknessBendingStress *: [Ansys.Mechanical.DataModel.Enums.ThroughThicknessBendingStress](../../../../../../../v242/Ansys/Mechanical/DataModel/Enums/ThroughThicknessBendingStress.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.ThroughThicknessBendingStress) | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the ThroughThicknessBendingStress.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ShellBendingStress.Time"></a>
+
+### *property* ShellBendingStress.Time *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets the Time.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ShellBendingStress.TimeForMaximumOfMaximumValues"></a>
+
+### *property* ShellBendingStress.TimeForMaximumOfMaximumValues *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Get the Time for the maximum of maximum values.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ShellBendingStress.TimeForMaximumOfMinimumValues"></a>
+
+### *property* ShellBendingStress.TimeForMaximumOfMinimumValues *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Get the Time for the maximum of minimum values.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ShellBendingStress.TimeForMinimumOfMaximumValues"></a>
+
+### *property* ShellBendingStress.TimeForMinimumOfMaximumValues *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Get the Time for the minimum of maximum values.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ShellBendingStress.TimeForMinimumOfMinimumValues"></a>
+
+### *property* ShellBendingStress.TimeForMinimumOfMinimumValues *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Get the Time for the minimum of minimum values.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ShellBendingStress.TotalCenter"></a>
+
+### *property* ShellBendingStress.TotalCenter *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets the TotalCenter.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ShellBendingStress.TotalInside"></a>
+
+### *property* ShellBendingStress.TotalInside *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets the TotalInside.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ShellBendingStress.TotalOutside"></a>
+
+### *property* ShellBendingStress.TotalOutside *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets the TotalOutside.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ShellBendingStress.VisibleProperties"></a>
+
 ### *property* ShellBendingStress.VisibleProperties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of properties that are visible for this object.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ShellBendingStress.WaterfallPanelShowTextOnMosaic"></a>
+
+### *property* ShellBendingStress.WaterfallPanelShowTextOnMosaic *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the Waterfall Panel Mosaic Text Property.
 
 <!-- !! processed by numpydoc !! -->
 
@@ -726,59 +897,15 @@ Gets the list of properties that are visible for this object.
 
 ## Method detail
 
-### ShellBendingStress.ClearGeneratedData()
+<a id="ShellBendingStress.Activate"></a>
 
-Run the ClearGeneratedData action.
+### ShellBendingStress.Activate()
 
-<!-- !! processed by numpydoc !! -->
-
-### ShellBendingStress.EvaluateAllResults()
-
-Run the EvaluateAllResults action.
+Activate the current object.
 
 <!-- !! processed by numpydoc !! -->
 
-### ShellBendingStress.FetchRemoteResults()
-
-Run the FetchRemoteResult action.
-
-<!-- !! processed by numpydoc !! -->
-
-### ShellBendingStress.ExportToTextFile(filePath: System.String)
-
-Run the ExportToTextFile action.
-
-<!-- !! processed by numpydoc !! -->
-
-### ShellBendingStress.ExportAnimation(filePath: System.String, format: [Ansys.Mechanical.DataModel.Enums.GraphicsAnimationExportFormat](../../../../../Mechanical/DataModel/Enums/GraphicsAnimationExportFormat.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.GraphicsAnimationExportFormat), settings: [Ansys.Mechanical.Graphics.AnimationExportSettings](../../../../../Mechanical/Graphics/AnimationExportSettings.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.Graphics.AnimationExportSettings))
-
-Run the ExportAnimation action.
-
-<!-- !! processed by numpydoc !! -->
-
-### ShellBendingStress.DuplicateWithoutResults()
-
-Run the DuplicateWithoutResults action.
-
-<!-- !! processed by numpydoc !! -->
-
-### ShellBendingStress.CreateResultsAtAllSets()
-
-Creates results at all sets for results under a solution.
-
-<!-- !! processed by numpydoc !! -->
-
-### ShellBendingStress.PromoteToNamedSelection()
-
-Run the PromoteToNamedSelection action.
-
-<!-- !! processed by numpydoc !! -->
-
-### ShellBendingStress.CreateParameter(propName: System.String)
-
-CreateParameter method.
-
-<!-- !! processed by numpydoc !! -->
+<a id="ShellBendingStress.AddAlert"></a>
 
 ### ShellBendingStress.AddAlert()
 
@@ -786,35 +913,7 @@ Creates a new Alert
 
 <!-- !! processed by numpydoc !! -->
 
-### ShellBendingStress.AddConvergence()
-
-Creates a new Convergence
-
-<!-- !! processed by numpydoc !! -->
-
-### ShellBendingStress.RenameBasedOnDefinition()
-
-Run the RenameBasedOnDefinition action.
-
-<!-- !! processed by numpydoc !! -->
-
-### ShellBendingStress.Delete()
-
-Run the Delete action.
-
-<!-- !! processed by numpydoc !! -->
-
-### ShellBendingStress.GetChildren(recurses: System.Boolean, children: System.Collections.Generic.IList[ChildrenType])
-
-Gets the list of children, filtered by type.
-
-<!-- !! processed by numpydoc !! -->
-
-### ShellBendingStress.GetChildren(category: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory), recurses: System.Boolean, children: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject])
-
-Gets the list of children, filtered by type.
-
-<!-- !! processed by numpydoc !! -->
+<a id="ShellBendingStress.AddComment"></a>
 
 ### ShellBendingStress.AddComment()
 
@@ -822,11 +921,23 @@ Creates a new child Comment.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="ShellBendingStress.AddConvergence"></a>
+
+### ShellBendingStress.AddConvergence()
+
+Creates a new Convergence
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ShellBendingStress.AddFigure"></a>
+
 ### ShellBendingStress.AddFigure()
 
 Creates a new child Figure.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="ShellBendingStress.AddImage"></a>
 
 ### ShellBendingStress.AddImage(filePath: System.String)
 
@@ -838,11 +949,15 @@ if not, the image will be a screen capture of the Geometry window.
 
 <!-- !! processed by numpydoc !! -->
 
-### ShellBendingStress.Activate()
+<a id="ShellBendingStress.ClearGeneratedData"></a>
 
-Activate the current object.
+### ShellBendingStress.ClearGeneratedData()
+
+Run the ClearGeneratedData action.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="ShellBendingStress.CopyTo"></a>
 
 ### ShellBendingStress.CopyTo(other: Ansys.ACT.Automation.Mechanical.DataModelObject)
 
@@ -850,11 +965,95 @@ Copies all visible properties from this object to another.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="ShellBendingStress.CreateParameter"></a>
+
+### ShellBendingStress.CreateParameter(propName: System.String)
+
+CreateParameter method.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ShellBendingStress.CreateResultsAtAllSets"></a>
+
+### ShellBendingStress.CreateResultsAtAllSets()
+
+Creates results at all sets for results under a solution.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ShellBendingStress.Delete"></a>
+
+### ShellBendingStress.Delete()
+
+Run the Delete action.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ShellBendingStress.Duplicate"></a>
+
 ### ShellBendingStress.Duplicate()
 
 Creates a copy of the current DataModelObject.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="ShellBendingStress.DuplicateWithoutResults"></a>
+
+### ShellBendingStress.DuplicateWithoutResults()
+
+Run the DuplicateWithoutResults action.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ShellBendingStress.EvaluateAllResults"></a>
+
+### ShellBendingStress.EvaluateAllResults()
+
+Run the EvaluateAllResults action.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ShellBendingStress.ExportAnimation"></a>
+
+### ShellBendingStress.ExportAnimation(filePath: System.String, format: [Ansys.Mechanical.DataModel.Enums.GraphicsAnimationExportFormat](../../../../../../../v242/Ansys/Mechanical/DataModel/Enums/GraphicsAnimationExportFormat.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.GraphicsAnimationExportFormat), settings: [Ansys.Mechanical.Graphics.AnimationExportSettings](../../../../../../../v242/Ansys/Mechanical/Graphics/AnimationExportSettings.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.Graphics.AnimationExportSettings))
+
+Run the ExportAnimation action.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ShellBendingStress.ExportToTextFile"></a>
+
+### ShellBendingStress.ExportToTextFile(filePath: System.String)
+
+Run the ExportToTextFile action.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ShellBendingStress.FetchRemoteResults"></a>
+
+### ShellBendingStress.FetchRemoteResults()
+
+Run the FetchRemoteResult action.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ShellBendingStress.GetChildren"></a>
+
+### ShellBendingStress.GetChildren(recurses: System.Boolean, children: System.Collections.Generic.IList[ChildrenType])
+
+Gets the list of children, filtered by type.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ShellBendingStress.GetParameter"></a>
+
+### ShellBendingStress.GetParameter(propName: System.String)
+
+Gets the parameter corresponding to the given property.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ShellBendingStress.GroupAllSimilarChildren"></a>
 
 ### ShellBendingStress.GroupAllSimilarChildren()
 
@@ -862,17 +1061,23 @@ Run the GroupAllSimilarChildren action.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="ShellBendingStress.GroupSimilarObjects"></a>
+
 ### ShellBendingStress.GroupSimilarObjects()
 
 Run the GroupSimilarObjects action.
 
 <!-- !! processed by numpydoc !! -->
 
-### ShellBendingStress.PropertyByName(name: System.String)
+<a id="ShellBendingStress.PromoteToNamedSelection"></a>
 
-Get a property by its unique name.
+### ShellBendingStress.PromoteToNamedSelection()
+
+Run the PromoteToNamedSelection action.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="ShellBendingStress.PropertyByAPIName"></a>
 
 ### ShellBendingStress.PropertyByAPIName(name: System.String)
 
@@ -883,15 +1088,27 @@ If multiple properties have the same API Name, only the first property with that
 
 <!-- !! processed by numpydoc !! -->
 
-### ShellBendingStress.GetParameter(propName: System.String)
+<a id="ShellBendingStress.PropertyByName"></a>
 
-Gets the parameter corresponding to the given property.
+### ShellBendingStress.PropertyByName(name: System.String)
+
+Get a property by its unique name.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="ShellBendingStress.RemoveParameter"></a>
 
 ### ShellBendingStress.RemoveParameter(propName: System.String)
 
 Removes the parameter from the parameter set corresponding to the given property.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ShellBendingStress.RenameBasedOnDefinition"></a>
+
+### ShellBendingStress.RenameBasedOnDefinition()
+
+Run the RenameBasedOnDefinition action.
 
 <!-- !! processed by numpydoc !! -->
 

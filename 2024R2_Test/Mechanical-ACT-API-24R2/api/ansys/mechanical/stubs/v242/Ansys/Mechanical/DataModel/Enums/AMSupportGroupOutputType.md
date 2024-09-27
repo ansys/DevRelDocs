@@ -1,6 +1,6 @@
 # `AMSupportGroupOutputType`
 
-
+<a id="ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.AMSupportGroupOutputType"></a>
 
 #### *class* ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.AMSupportGroupOutputType
 
@@ -17,20 +17,20 @@ Specifies the AMSupportGroupOutputType.
 ### Attributes
 
 | Name |
-| ---------------------------------------------------------------- |
-| [`NamedSelection`](#AMSupportGroupOutputType.NamedSelection) |
+| ---------------------------------------------------------------------------------------------------------------------------------------------- |
 | [`AMSupport`](#AMSupportGroupOutputType.AMSupport) |
+| [`NamedSelection`](#AMSupportGroupOutputType.NamedSelection) |
 
 <a id="attribute-detail"></a>
 
 ## Attribute detail
 
-<a id="AMSupportGroupOutputType.NamedSelection"></a>
-
-### AMSupportGroupOutputType.NamedSelection *= 0*
-
 <a id="AMSupportGroupOutputType.AMSupport"></a>
 
 ### AMSupportGroupOutputType.AMSupport *= 1*
+
+<a id="AMSupportGroupOutputType.NamedSelection"></a>
+
+### AMSupportGroupOutputType.NamedSelection *= 0*
 
 

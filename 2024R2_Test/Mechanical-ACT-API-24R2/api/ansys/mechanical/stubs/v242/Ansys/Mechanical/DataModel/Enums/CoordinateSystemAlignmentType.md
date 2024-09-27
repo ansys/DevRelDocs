@@ -1,6 +1,6 @@
 # `CoordinateSystemAlignmentType`
 
-
+<a id="ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.CoordinateSystemAlignmentType"></a>
 
 #### *class* ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.CoordinateSystemAlignmentType
 
@@ -17,7 +17,7 @@ Specifies the CoordinateSystemAlignmentType.
 ### Attributes
 
 | Name |
-| --------------------------------------------------------------- |
+| ---------------------------------------------------------------------------------------------------------------------------------------------------- |
 | [`Associative`](#CoordinateSystemAlignmentType.Associative) |
 | [`Component`](#CoordinateSystemAlignmentType.Component) |
 | [`Fixed`](#CoordinateSystemAlignmentType.Fixed) |

@@ -1,12 +1,12 @@
 # `WrapperRegionType`
 
-
+<a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.MechanicalEnums.MeshWorkflow.WrapperRegionType"></a>
 
 #### *class* ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.MechanicalEnums.MeshWorkflow.WrapperRegionType
 
 Bases: [`enum.Enum`](https://docs.python.org/3/library/enum.html#enum.Enum)
 
-This enum is referenced in the ìControlî tree node and reflects the type of wrapper region being configured.
+This enum is referenced in the ‚ÄúControl‚Äù tree node and reflects the type of wrapper region being configured.
 
 <!-- !! processed by numpydoc !! -->
 
@@ -17,9 +17,9 @@ This enum is referenced in the ìControlî tree node and reflects the type of wrap
 ### Attributes
 
 | Name |
-| -------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| [`External`](../../../../../../v242/Ansys/Mechanical/DataModel/MechanicalEnums/MeshWorkflow/WrapperRegionType.md#WrapperRegionType.External) |
-| [`MaterialPoint`](../../../../../../v242/Ansys/Mechanical/DataModel/MechanicalEnums/MeshWorkflow/WrapperRegionType.md#WrapperRegionType.MaterialPoint) |
+| ----------------------------------------------------- |
+| [`External`](#WrapperRegionType.External) |
+| [`MaterialPoint`](#WrapperRegionType.MaterialPoint) |
 
 <a id="attribute-detail"></a>
 

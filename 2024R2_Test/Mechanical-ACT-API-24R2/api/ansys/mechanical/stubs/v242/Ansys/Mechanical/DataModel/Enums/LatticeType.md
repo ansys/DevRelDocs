@@ -1,6 +1,6 @@
 # `LatticeType`
 
-
+<a id="ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.LatticeType"></a>
 
 #### *class* ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.LatticeType
 
@@ -17,7 +17,7 @@ Specifies the LatticeType.
 ### Attributes
 
 | Name |
-| ------------------------------------------- |
+| -------------------------------------------------------------------------------------------------------------- |
 | [`Crossed`](#LatticeType.Crossed) |
 | [`Cubic`](#LatticeType.Cubic) |
 | [`Diagonal`](#LatticeType.Diagonal) |

@@ -1,6 +1,6 @@
 # `CoordinateSystemType`
 
-
+<a id="ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.CoordinateSystemType"></a>
 
 #### *class* ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.CoordinateSystemType
 
@@ -17,7 +17,7 @@ Specifies the CoordinateSystemType.
 ### Attributes
 
 | Name |
-| ---------------------------------------------------- |
+| -------------------------------------------------------------------------------------------------------------------------------- |
 | [`Cartesian`](#CoordinateSystemType.Cartesian) |
 | [`Cylindrical`](#CoordinateSystemType.Cylindrical) |
 | [`Spherical`](#CoordinateSystemType.Spherical) |

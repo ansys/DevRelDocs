@@ -1,6 +1,6 @@
 # `ShellFaceType`
 
-
+<a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.ShellFaceType"></a>
 
 #### *class* ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.ShellFaceType
 
@@ -17,14 +17,14 @@ Specifies the ShellFaceType.
 ### Attributes
 
 | Name |
-| ------------------------------------------------------------------------------------------------------------------------------ |
-| [`All`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/ShellFaceType.md#ShellFaceType.All) |
-| [`Bending`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/ShellFaceType.md#ShellFaceType.Bending) |
-| [`Bottom`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/ShellFaceType.md#ShellFaceType.Bottom) |
-| [`Middle`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/ShellFaceType.md#ShellFaceType.Middle) |
-| [`ProgramControlled`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/ShellFaceType.md#ShellFaceType.ProgramControlled) |
-| [`TopAndBottom`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/ShellFaceType.md#ShellFaceType.TopAndBottom) |
-| [`Top`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/ShellFaceType.md#ShellFaceType.Top) |
+| --------------------------------------------------------- |
+| [`All`](#ShellFaceType.All) |
+| [`Bending`](#ShellFaceType.Bending) |
+| [`Bottom`](#ShellFaceType.Bottom) |
+| [`Middle`](#ShellFaceType.Middle) |
+| [`ProgramControlled`](#ShellFaceType.ProgramControlled) |
+| [`Top`](#ShellFaceType.Top) |
+| [`TopAndBottom`](#ShellFaceType.TopAndBottom) |
 
 <a id="attribute-detail"></a>
 
@@ -50,12 +50,12 @@ Specifies the ShellFaceType.
 
 ### ShellFaceType.ProgramControlled *= 5*
 
-<a id="ShellFaceType.TopAndBottom"></a>
-
-### ShellFaceType.TopAndBottom *= 2*
-
 <a id="ShellFaceType.Top"></a>
 
 ### ShellFaceType.Top *= 0*
+
+<a id="ShellFaceType.TopAndBottom"></a>
+
+### ShellFaceType.TopAndBottom *= 2*
 
 

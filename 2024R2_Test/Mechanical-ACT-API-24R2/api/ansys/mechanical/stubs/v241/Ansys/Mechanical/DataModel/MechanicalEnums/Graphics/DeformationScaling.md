@@ -1,6 +1,6 @@
 # `DeformationScaling`
 
-
+<a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.MechanicalEnums.Graphics.DeformationScaling"></a>
 
 #### *class* ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.MechanicalEnums.Graphics.DeformationScaling
 
@@ -17,20 +17,20 @@ Specifies the DeformationScaling.
 ### Attributes
 
 | Name |
-| ---------------------------------------------------------------------------------------------------------------------------------------- |
-| [`True_`](../../../../../../v242/Ansys/Mechanical/DataModel/MechanicalEnums/Graphics/DeformationScaling.md#DeformationScaling.True_) |
-| [`Auto`](../../../../../../v242/Ansys/Mechanical/DataModel/MechanicalEnums/Graphics/DeformationScaling.md#DeformationScaling.Auto) |
+| -------------------------------------- |
+| [`Auto`](#DeformationScaling.Auto) |
+| [`True_`](#DeformationScaling.True_) |
 
 <a id="attribute-detail"></a>
 
 ## Attribute detail
 
-<a id="DeformationScaling.True_"></a>
-
-### DeformationScaling.True_ *= 0*
-
 <a id="DeformationScaling.Auto"></a>
 
 ### DeformationScaling.Auto *= 1*
+
+<a id="DeformationScaling.True_"></a>
+
+### DeformationScaling.True_ *= 0*
 
 

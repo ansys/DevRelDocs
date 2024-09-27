@@ -1,6 +1,6 @@
 # `EdgeCrack`
 
-
+<a id="ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.EdgeCrack"></a>
 
 #### *class* ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.EdgeCrack
 
@@ -17,139 +17,73 @@ Defines a EdgeCrack.
 ### Methods
 
 | Name | Description |
-|---------------------------|-----------------------------------------------------------------------------------|
-| `AddCommandSnippet`       | Creates a new CommandSnippet                                                      |
-| `Delete`                  | Run the Delete action.                                                            |
-| `GetChildren`             | Gets the list of children, filtered by type.                                      |
-| `GetChildren`             | Gets the list of children, filtered by type.                                      |
-| `AddComment`              | Creates a new child Comment.                                                      |
-| `AddFigure`               | Creates a new child Figure.                                                       |
-| `AddImage`                | Creates a new child Image.                                                        |
-| `Activate`                | Activate the current object.                                                      |
-| `CopyTo`                  | Copies all visible properties from this object to another.                        |
-| `Duplicate`               | Creates a copy of the current DataModelObject.                                    |
-| `GroupAllSimilarChildren` | Run the GroupAllSimilarChildren action.                                           |
-| `GroupSimilarObjects`     | Run the GroupSimilarObjects action.                                               |
-| `PropertyByName`          | Get a property by its unique name.                                                |
-| `PropertyByAPIName`       | Get a property by its API name.                                                   |
-| `CreateParameter`         | Creates a new parameter for a Property.                                           |
-| `GetParameter`            | Gets the parameter corresponding to the given property.                           |
-| `RemoveParameter`         | Removes the parameter from the parameter set corresponding to the given property. |
+|-----------------------------------------------------------------|-----------------------------------------------------------------------------------|
+| [`Activate`](#EdgeCrack.Activate)                               | Activate the current object.                                                      |
+| [`AddCommandSnippet`](#EdgeCrack.AddCommandSnippet)             | Creates a new CommandSnippet                                                      |
+| [`AddComment`](#EdgeCrack.AddComment)                           | Creates a new child Comment.                                                      |
+| [`AddFigure`](#EdgeCrack.AddFigure)                             | Creates a new child Figure.                                                       |
+| [`AddImage`](#EdgeCrack.AddImage)                               | Creates a new child Image.                                                        |
+| [`CopyTo`](#EdgeCrack.CopyTo)                                   | Copies all visible properties from this object to another.                        |
+| [`CreateParameter`](#EdgeCrack.CreateParameter)                 | Creates a new parameter for a Property.                                           |
+| [`Delete`](#EdgeCrack.Delete)                                   | Run the Delete action.                                                            |
+| [`Duplicate`](#EdgeCrack.Duplicate)                             | Creates a copy of the current DataModelObject.                                    |
+| [`GetChildren`](#EdgeCrack.GetChildren)                         | Gets the list of children, filtered by type.                                      |
+| [`GetParameter`](#EdgeCrack.GetParameter)                       | Gets the parameter corresponding to the given property.                           |
+| [`GroupAllSimilarChildren`](#EdgeCrack.GroupAllSimilarChildren) | Run the GroupAllSimilarChildren action.                                           |
+| [`GroupSimilarObjects`](#EdgeCrack.GroupSimilarObjects)         | Run the GroupSimilarObjects action.                                               |
+| [`PropertyByAPIName`](#EdgeCrack.PropertyByAPIName)             | Get a property by its API name.                                                   |
+| [`PropertyByName`](#EdgeCrack.PropertyByName)                   | Get a property by its unique name.                                                |
+| [`RemoveParameter`](#EdgeCrack.RemoveParameter)                 | Removes the parameter from the parameter set corresponding to the given property. |
 
 ### Properties
 
 | Name | Description |
-|------------------------------|---------------------------------------------------------------|
-| `InternalObject`             | Gets the internal object. For advanced usage only.            |
-| `XScaleFactor`               | Gets or sets the XScaleFactor.                                |
-| `YScaleFactor`               | Gets or sets the YScaleFactor.                                |
-| `ZScaleFactor`               | Gets or sets the ZScaleFactor.                                |
-| `CircumferentialDivisions`   | Gets or sets the CircumferentialDivisions.                    |
-| `CrackFrontDivisions`        | Gets or sets the CrackFrontDivisions.                         |
-| `GrowthRate`                 | Gets or sets the GrowthRate.                                  |
-| `MeshContours`               | Gets or sets the MeshContours.                                |
-| `SolutionContours`           | Gets or sets the SolutionContours.                            |
-| `Contact1Nodes`              | Gets or sets the Contact1Nodes.                               |
-| `CrackFrontNodes`            | Gets or sets the CrackFrontNodes.                             |
-| `BottomFaceNodes`            | Gets or sets the BottomFaceNodes.                             |
-| `TopFaceNodes`               | Gets or sets the TopFaceNodes.                                |
-| `Target1Nodes`               | Gets or sets the Target1Nodes.                                |
-| `FractureAffectedZoneHeight` | Gets or sets the FractureAffectedZoneHeight.                  |
-| `FrontElementSize`           | Gets or sets the FrontElementSize.                            |
-| `LargestContourRadius`       | Gets or sets the LargestContourRadius.                        |
-| `Depth`                      | Gets or sets the Depth.                                       |
-| `EndWidth`                   | Gets or sets the EndWidth.                                    |
-| `MidWidth`                   | Gets or sets the MidWidth.                                    |
-| `StartWidth`                 | Gets or sets the StartWidth.                                  |
-| `FractureAffectedZone`       | Gets or sets the FractureAffectedZone.                        |
-| `CrackMeshMethod`            | Gets or sets the CrackMeshMethod.                             |
-| `CrackShape`                 | Gets the CrackShape.                                          |
-| `CrackSourceType`            | Gets the CrackSourceType.                                     |
-| `ContactPairsNodes`          | Gets or sets the ContactPairsNodes.                           |
-| `CrackFacesNodes`            | Gets or sets the CrackFacesNodes.                             |
-| `Suppressed`                 | Gets or sets the Suppressed.                                  |
-| `CoordinateSystem`           | Gets or sets the CoordinateSystem.                            |
-| `Location`                   | Gets or sets the Location.                                    |
-| `DataModelObjectCategory`    | Gets the current DataModelObject's category.                  |
-| `CrackID`                    | Gets the CrackID.                                             |
-| `Children`                   | Gets the list of children.                                    |
-| `Comments`                   | Gets the list of associated comments.                         |
-| `Figures`                    | Gets the list of associated figures.                          |
-| `Images`                     | Gets the list of associated images.                           |
-| `ReadOnly`                   | Gets or sets the ReadOnly.                                    |
-| `InternalObject`             | Gets the internal object. For advanced usage only.            |
-| `Properties`                 | Gets the list of properties for this object.                  |
-| `VisibleProperties`          | Gets the list of properties that are visible for this object. |
+|-----------------------------------------------------------------------|---------------------------------------------------------------|
+| [`BottomFaceNodes`](#EdgeCrack.BottomFaceNodes)                       | Gets or sets the BottomFaceNodes.                             |
+| [`Children`](#EdgeCrack.Children)                                     | Gets the list of children.                                    |
+| [`CircumferentialDivisions`](#EdgeCrack.CircumferentialDivisions)     | Gets or sets the CircumferentialDivisions.                    |
+| [`Comments`](#EdgeCrack.Comments)                                     | Gets the list of associated comments.                         |
+| [`Contact1Nodes`](#EdgeCrack.Contact1Nodes)                           | Gets or sets the Contact1Nodes.                               |
+| [`ContactPairsNodes`](#EdgeCrack.ContactPairsNodes)                   | Gets or sets the ContactPairsNodes.                           |
+| [`CoordinateSystem`](#EdgeCrack.CoordinateSystem)                     | Gets or sets the CoordinateSystem.                            |
+| [`CrackFacesNodes`](#EdgeCrack.CrackFacesNodes)                       | Gets or sets the CrackFacesNodes.                             |
+| [`CrackFrontDivisions`](#EdgeCrack.CrackFrontDivisions)               | Gets or sets the CrackFrontDivisions.                         |
+| [`CrackFrontNodes`](#EdgeCrack.CrackFrontNodes)                       | Gets or sets the CrackFrontNodes.                             |
+| [`CrackID`](#EdgeCrack.CrackID)                                       | Gets the CrackID.                                             |
+| [`CrackMeshMethod`](#EdgeCrack.CrackMeshMethod)                       | Gets or sets the CrackMeshMethod.                             |
+| [`CrackShape`](#EdgeCrack.CrackShape)                                 | Gets the CrackShape.                                          |
+| [`CrackSourceType`](#EdgeCrack.CrackSourceType)                       | Gets the CrackSourceType.                                     |
+| [`DataModelObjectCategory`](#EdgeCrack.DataModelObjectCategory)       | Gets the current DataModelObject’s category.                  |
+| [`Depth`](#EdgeCrack.Depth)                                           | Gets or sets the Depth.                                       |
+| [`EndWidth`](#EdgeCrack.EndWidth)                                     | Gets or sets the EndWidth.                                    |
+| [`Figures`](#EdgeCrack.Figures)                                       | Gets the list of associated figures.                          |
+| [`FractureAffectedZone`](#EdgeCrack.FractureAffectedZone)             | Gets or sets the FractureAffectedZone.                        |
+| [`FractureAffectedZoneHeight`](#EdgeCrack.FractureAffectedZoneHeight) | Gets or sets the FractureAffectedZoneHeight.                  |
+| [`FrontElementSize`](#EdgeCrack.FrontElementSize)                     | Gets or sets the FrontElementSize.                            |
+| [`GrowthRate`](#EdgeCrack.GrowthRate)                                 | Gets or sets the GrowthRate.                                  |
+| [`Images`](#EdgeCrack.Images)                                         | Gets the list of associated images.                           |
+| [`InternalObject`](#EdgeCrack.InternalObject)                         | Gets the internal object. For advanced usage only.            |
+| [`LargestContourRadius`](#EdgeCrack.LargestContourRadius)             | Gets or sets the LargestContourRadius.                        |
+| [`Location`](#EdgeCrack.Location)                                     | Gets or sets the Location.                                    |
+| [`MeshContours`](#EdgeCrack.MeshContours)                             | Gets or sets the MeshContours.                                |
+| [`MidWidth`](#EdgeCrack.MidWidth)                                     | Gets or sets the MidWidth.                                    |
+| [`Properties`](#EdgeCrack.Properties)                                 | Gets the list of properties for this object.                  |
+| [`ReadOnly`](#EdgeCrack.ReadOnly)                                     | Gets or sets the ReadOnly.                                    |
+| [`SolutionContours`](#EdgeCrack.SolutionContours)                     | Gets or sets the SolutionContours.                            |
+| [`StartWidth`](#EdgeCrack.StartWidth)                                 | Gets or sets the StartWidth.                                  |
+| [`Suppressed`](#EdgeCrack.Suppressed)                                 | Gets or sets the Suppressed.                                  |
+| [`Target1Nodes`](#EdgeCrack.Target1Nodes)                             | Gets or sets the Target1Nodes.                                |
+| [`TopFaceNodes`](#EdgeCrack.TopFaceNodes)                             | Gets or sets the TopFaceNodes.                                |
+| [`VisibleProperties`](#EdgeCrack.VisibleProperties)                   | Gets the list of properties that are visible for this object. |
+| [`XScaleFactor`](#EdgeCrack.XScaleFactor)                             | Gets or sets the XScaleFactor.                                |
+| [`YScaleFactor`](#EdgeCrack.YScaleFactor)                             | Gets or sets the YScaleFactor.                                |
+| [`ZScaleFactor`](#EdgeCrack.ZScaleFactor)                             | Gets or sets the ZScaleFactor.                                |
 
 <a id="property-detail"></a>
 
 ## Property detail
 
-### *property* EdgeCrack.InternalObject *: Ansys.Common.Interop.DSObjectsAuto.IDSCrackAuto | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets the internal object. For advanced usage only.
-
-<!-- !! processed by numpydoc !! -->
-
-### *property* EdgeCrack.XScaleFactor *: System.Double | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the XScaleFactor.
-
-<!-- !! processed by numpydoc !! -->
-
-### *property* EdgeCrack.YScaleFactor *: System.Double | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the YScaleFactor.
-
-<!-- !! processed by numpydoc !! -->
-
-### *property* EdgeCrack.ZScaleFactor *: System.Double | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the ZScaleFactor.
-
-<!-- !! processed by numpydoc !! -->
-
-### *property* EdgeCrack.CircumferentialDivisions *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the CircumferentialDivisions.
-
-<!-- !! processed by numpydoc !! -->
-
-### *property* EdgeCrack.CrackFrontDivisions *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the CrackFrontDivisions.
-
-<!-- !! processed by numpydoc !! -->
-
-### *property* EdgeCrack.GrowthRate *: System.Double | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the GrowthRate.
-
-<!-- !! processed by numpydoc !! -->
-
-### *property* EdgeCrack.MeshContours *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the MeshContours.
-
-<!-- !! processed by numpydoc !! -->
-
-### *property* EdgeCrack.SolutionContours *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the SolutionContours.
-
-<!-- !! processed by numpydoc !! -->
-
-### *property* EdgeCrack.Contact1Nodes *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the Contact1Nodes.
-
-<!-- !! processed by numpydoc !! -->
-
-### *property* EdgeCrack.CrackFrontNodes *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the CrackFrontNodes.
-
-<!-- !! processed by numpydoc !! -->
+<a id="EdgeCrack.BottomFaceNodes"></a>
 
 ### *property* EdgeCrack.BottomFaceNodes *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -157,125 +91,7 @@ Gets or sets the BottomFaceNodes.
 
 <!-- !! processed by numpydoc !! -->
 
-### *property* EdgeCrack.TopFaceNodes *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the TopFaceNodes.
-
-<!-- !! processed by numpydoc !! -->
-
-### *property* EdgeCrack.Target1Nodes *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the Target1Nodes.
-
-<!-- !! processed by numpydoc !! -->
-
-### *property* EdgeCrack.FractureAffectedZoneHeight *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the FractureAffectedZoneHeight.
-
-<!-- !! processed by numpydoc !! -->
-
-### *property* EdgeCrack.FrontElementSize *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the FrontElementSize.
-
-<!-- !! processed by numpydoc !! -->
-
-### *property* EdgeCrack.LargestContourRadius *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the LargestContourRadius.
-
-<!-- !! processed by numpydoc !! -->
-
-### *property* EdgeCrack.Depth *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the Depth.
-
-<!-- !! processed by numpydoc !! -->
-
-### *property* EdgeCrack.EndWidth *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the EndWidth.
-
-<!-- !! processed by numpydoc !! -->
-
-### *property* EdgeCrack.MidWidth *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the MidWidth.
-
-<!-- !! processed by numpydoc !! -->
-
-### *property* EdgeCrack.StartWidth *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the StartWidth.
-
-<!-- !! processed by numpydoc !! -->
-
-### *property* EdgeCrack.FractureAffectedZone *: [Ansys.Mechanical.DataModel.Enums.FractureAffectedZone](../../../../../v241/Ansys/Mechanical/DataModel/Enums/FractureAffectedZone.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.FractureAffectedZone) | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the FractureAffectedZone.
-
-<!-- !! processed by numpydoc !! -->
-
-### *property* EdgeCrack.CrackMeshMethod *: [Ansys.Mechanical.DataModel.Enums.CrackMeshMethod](../../../../../v241/Ansys/Mechanical/DataModel/Enums/CrackMeshMethod.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.CrackMeshMethod) | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the CrackMeshMethod.
-
-<!-- !! processed by numpydoc !! -->
-
-### *property* EdgeCrack.CrackShape *: [Ansys.Mechanical.DataModel.Enums.CrackShapeType](../../../../../v241/Ansys/Mechanical/DataModel/Enums/CrackShapeType.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.CrackShapeType) | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets the CrackShape.
-
-<!-- !! processed by numpydoc !! -->
-
-### *property* EdgeCrack.CrackSourceType *: [Ansys.Mechanical.DataModel.Enums.CrackSourceType](../../../../../v241/Ansys/Mechanical/DataModel/Enums/CrackSourceType.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.CrackSourceType) | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets the CrackSourceType.
-
-<!-- !! processed by numpydoc !! -->
-
-### *property* EdgeCrack.ContactPairsNodes *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the ContactPairsNodes.
-
-<!-- !! processed by numpydoc !! -->
-
-### *property* EdgeCrack.CrackFacesNodes *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the CrackFacesNodes.
-
-<!-- !! processed by numpydoc !! -->
-
-### *property* EdgeCrack.Suppressed *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the Suppressed.
-
-<!-- !! processed by numpydoc !! -->
-
-### *property* EdgeCrack.CoordinateSystem *: [Ansys.ACT.Automation.Mechanical.CoordinateSystem](../../../../../v241/Ansys/ACT/Automation/Mechanical/CoordinateSystem.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.CoordinateSystem) | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the CoordinateSystem.
-
-<!-- !! processed by numpydoc !! -->
-
-### *property* EdgeCrack.Location *: Ansys.ACT.Interfaces.Common.ISelectionInfo | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the Location.
-
-<!-- !! processed by numpydoc !! -->
-
-### *property* EdgeCrack.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../v241/Ansys/Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets the current DataModelObject's category.
-
-<!-- !! processed by numpydoc !! -->
-
-### *property* EdgeCrack.CrackID *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets the CrackID.
-
-<!-- !! processed by numpydoc !! -->
+<a id="EdgeCrack.Children"></a>
 
 ### *property* EdgeCrack.Children *: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -283,11 +99,127 @@ Gets the list of children.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="EdgeCrack.CircumferentialDivisions"></a>
+
+### *property* EdgeCrack.CircumferentialDivisions *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the CircumferentialDivisions.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="EdgeCrack.Comments"></a>
+
 ### *property* EdgeCrack.Comments *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Comment](../../../../../v241/Ansys/ACT/Automation/Mechanical/Comment.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated comments.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="EdgeCrack.Contact1Nodes"></a>
+
+### *property* EdgeCrack.Contact1Nodes *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the Contact1Nodes.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="EdgeCrack.ContactPairsNodes"></a>
+
+### *property* EdgeCrack.ContactPairsNodes *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the ContactPairsNodes.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="EdgeCrack.CoordinateSystem"></a>
+
+### *property* EdgeCrack.CoordinateSystem *: [Ansys.ACT.Automation.Mechanical.CoordinateSystem](../../../../../v241/Ansys/ACT/Automation/Mechanical/CoordinateSystem.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.CoordinateSystem) | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the CoordinateSystem.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="EdgeCrack.CrackFacesNodes"></a>
+
+### *property* EdgeCrack.CrackFacesNodes *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the CrackFacesNodes.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="EdgeCrack.CrackFrontDivisions"></a>
+
+### *property* EdgeCrack.CrackFrontDivisions *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the CrackFrontDivisions.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="EdgeCrack.CrackFrontNodes"></a>
+
+### *property* EdgeCrack.CrackFrontNodes *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the CrackFrontNodes.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="EdgeCrack.CrackID"></a>
+
+### *property* EdgeCrack.CrackID *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets the CrackID.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="EdgeCrack.CrackMeshMethod"></a>
+
+### *property* EdgeCrack.CrackMeshMethod *: [Ansys.Mechanical.DataModel.Enums.CrackMeshMethod](../../../Mechanical/DataModel/Enums/CrackMeshMethod.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.CrackMeshMethod) | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the CrackMeshMethod.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="EdgeCrack.CrackShape"></a>
+
+### *property* EdgeCrack.CrackShape *: [Ansys.Mechanical.DataModel.Enums.CrackShapeType](../../../Mechanical/DataModel/Enums/CrackShapeType.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.CrackShapeType) | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets the CrackShape.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="EdgeCrack.CrackSourceType"></a>
+
+### *property* EdgeCrack.CrackSourceType *: [Ansys.Mechanical.DataModel.Enums.CrackSourceType](../../../Mechanical/DataModel/Enums/CrackSourceType.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.CrackSourceType) | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets the CrackSourceType.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="EdgeCrack.DataModelObjectCategory"></a>
+
+### *property* EdgeCrack.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets the current DataModelObject’s category.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="EdgeCrack.Depth"></a>
+
+### *property* EdgeCrack.Depth *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the Depth.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="EdgeCrack.EndWidth"></a>
+
+### *property* EdgeCrack.EndWidth *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the EndWidth.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="EdgeCrack.Figures"></a>
 
 ### *property* EdgeCrack.Figures *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Figure](../../../../../v241/Ansys/ACT/Automation/Mechanical/Figure.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -295,23 +227,87 @@ Gets the list of associated figures.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="EdgeCrack.FractureAffectedZone"></a>
+
+### *property* EdgeCrack.FractureAffectedZone *: [Ansys.Mechanical.DataModel.Enums.FractureAffectedZone](../../../Mechanical/DataModel/Enums/FractureAffectedZone.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.FractureAffectedZone) | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the FractureAffectedZone.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="EdgeCrack.FractureAffectedZoneHeight"></a>
+
+### *property* EdgeCrack.FractureAffectedZoneHeight *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the FractureAffectedZoneHeight.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="EdgeCrack.FrontElementSize"></a>
+
+### *property* EdgeCrack.FrontElementSize *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the FrontElementSize.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="EdgeCrack.GrowthRate"></a>
+
+### *property* EdgeCrack.GrowthRate *: System.Double | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the GrowthRate.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="EdgeCrack.Images"></a>
+
 ### *property* EdgeCrack.Images *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Image](../../../../../v241/Ansys/ACT/Automation/Mechanical/Image.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated images.
 
 <!-- !! processed by numpydoc !! -->
 
-### *property* EdgeCrack.ReadOnly *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+<a id="EdgeCrack.InternalObject"></a>
 
-Gets or sets the ReadOnly.
-
-<!-- !! processed by numpydoc !! -->
-
-### *property* EdgeCrack.InternalObject *: System.Object | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* EdgeCrack.InternalObject *: Ansys.Common.Interop.DSObjectsAuto.IDSCrackAuto | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the internal object. For advanced usage only.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="EdgeCrack.LargestContourRadius"></a>
+
+### *property* EdgeCrack.LargestContourRadius *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the LargestContourRadius.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="EdgeCrack.Location"></a>
+
+### *property* EdgeCrack.Location *: Ansys.ACT.Interfaces.Common.ISelectionInfo | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the Location.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="EdgeCrack.MeshContours"></a>
+
+### *property* EdgeCrack.MeshContours *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the MeshContours.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="EdgeCrack.MidWidth"></a>
+
+### *property* EdgeCrack.MidWidth *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the MidWidth.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="EdgeCrack.Properties"></a>
 
 ### *property* EdgeCrack.Properties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -319,9 +315,83 @@ Gets the list of properties for this object.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="EdgeCrack.ReadOnly"></a>
+
+### *property* EdgeCrack.ReadOnly *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the ReadOnly.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="EdgeCrack.SolutionContours"></a>
+
+### *property* EdgeCrack.SolutionContours *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the SolutionContours.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="EdgeCrack.StartWidth"></a>
+
+### *property* EdgeCrack.StartWidth *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the StartWidth.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="EdgeCrack.Suppressed"></a>
+
+### *property* EdgeCrack.Suppressed *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the Suppressed.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="EdgeCrack.Target1Nodes"></a>
+
+### *property* EdgeCrack.Target1Nodes *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the Target1Nodes.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="EdgeCrack.TopFaceNodes"></a>
+
+### *property* EdgeCrack.TopFaceNodes *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the TopFaceNodes.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="EdgeCrack.VisibleProperties"></a>
+
 ### *property* EdgeCrack.VisibleProperties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of properties that are visible for this object.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="EdgeCrack.XScaleFactor"></a>
+
+### *property* EdgeCrack.XScaleFactor *: System.Double | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the XScaleFactor.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="EdgeCrack.YScaleFactor"></a>
+
+### *property* EdgeCrack.YScaleFactor *: System.Double | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the YScaleFactor.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="EdgeCrack.ZScaleFactor"></a>
+
+### *property* EdgeCrack.ZScaleFactor *: System.Double | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the ZScaleFactor.
 
 <!-- !! processed by numpydoc !! -->
 
@@ -329,29 +399,23 @@ Gets the list of properties that are visible for this object.
 
 ## Method detail
 
+<a id="EdgeCrack.Activate"></a>
+
+### EdgeCrack.Activate()
+
+Activate the current object.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="EdgeCrack.AddCommandSnippet"></a>
+
 ### EdgeCrack.AddCommandSnippet()
 
 Creates a new CommandSnippet
 
 <!-- !! processed by numpydoc !! -->
 
-### EdgeCrack.Delete()
-
-Run the Delete action.
-
-<!-- !! processed by numpydoc !! -->
-
-### EdgeCrack.GetChildren(recurses: System.Boolean, children: System.Collections.Generic.IList[ChildrenType])
-
-Gets the list of children, filtered by type.
-
-<!-- !! processed by numpydoc !! -->
-
-### EdgeCrack.GetChildren(category: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../v241/Ansys/Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory), recurses: System.Boolean, children: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject])
-
-Gets the list of children, filtered by type.
-
-<!-- !! processed by numpydoc !! -->
+<a id="EdgeCrack.AddComment"></a>
 
 ### EdgeCrack.AddComment()
 
@@ -359,11 +423,15 @@ Creates a new child Comment.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="EdgeCrack.AddFigure"></a>
+
 ### EdgeCrack.AddFigure()
 
 Creates a new child Figure.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="EdgeCrack.AddImage"></a>
 
 ### EdgeCrack.AddImage(filePath: System.String)
 
@@ -375,11 +443,7 @@ if not, the image will be a screen capture of the Geometry window.
 
 <!-- !! processed by numpydoc !! -->
 
-### EdgeCrack.Activate()
-
-Activate the current object.
-
-<!-- !! processed by numpydoc !! -->
+<a id="EdgeCrack.CopyTo"></a>
 
 ### EdgeCrack.CopyTo(other: Ansys.ACT.Automation.Mechanical.DataModelObject)
 
@@ -387,11 +451,47 @@ Copies all visible properties from this object to another.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="EdgeCrack.CreateParameter"></a>
+
+### EdgeCrack.CreateParameter(propName: System.String)
+
+Creates a new parameter for a Property.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="EdgeCrack.Delete"></a>
+
+### EdgeCrack.Delete()
+
+Run the Delete action.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="EdgeCrack.Duplicate"></a>
+
 ### EdgeCrack.Duplicate()
 
 Creates a copy of the current DataModelObject.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="EdgeCrack.GetChildren"></a>
+
+### EdgeCrack.GetChildren(recurses: System.Boolean, children: System.Collections.Generic.IList[ChildrenType])
+
+Gets the list of children, filtered by type.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="EdgeCrack.GetParameter"></a>
+
+### EdgeCrack.GetParameter(propName: System.String)
+
+Gets the parameter corresponding to the given property.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="EdgeCrack.GroupAllSimilarChildren"></a>
 
 ### EdgeCrack.GroupAllSimilarChildren()
 
@@ -399,17 +499,15 @@ Run the GroupAllSimilarChildren action.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="EdgeCrack.GroupSimilarObjects"></a>
+
 ### EdgeCrack.GroupSimilarObjects()
 
 Run the GroupSimilarObjects action.
 
 <!-- !! processed by numpydoc !! -->
 
-### EdgeCrack.PropertyByName(name: System.String)
-
-Get a property by its unique name.
-
-<!-- !! processed by numpydoc !! -->
+<a id="EdgeCrack.PropertyByAPIName"></a>
 
 ### EdgeCrack.PropertyByAPIName(name: System.String)
 
@@ -420,17 +518,15 @@ If multiple properties have the same API Name, only the first property with that
 
 <!-- !! processed by numpydoc !! -->
 
-### EdgeCrack.CreateParameter(propName: System.String)
+<a id="EdgeCrack.PropertyByName"></a>
 
-Creates a new parameter for a Property.
+### EdgeCrack.PropertyByName(name: System.String)
 
-<!-- !! processed by numpydoc !! -->
-
-### EdgeCrack.GetParameter(propName: System.String)
-
-Gets the parameter corresponding to the given property.
+Get a property by its unique name.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="EdgeCrack.RemoveParameter"></a>
 
 ### EdgeCrack.RemoveParameter(propName: System.String)
 

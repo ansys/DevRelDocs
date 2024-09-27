@@ -1,6 +1,6 @@
 # `AlgorithmType`
 
-
+<a id="ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.AlgorithmType"></a>
 
 #### *class* ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.AlgorithmType
 
@@ -17,7 +17,7 @@ Specifies the AlgorithmType.
 ### Attributes
 
 | Name |
-| --------------------------------------------------------- |
+| ------------------------------------------------------------------------------------------------------------------------------ |
 | [`MFD`](#AlgorithmType.MFD) |
 | [`ProgramControlled`](#AlgorithmType.ProgramControlled) |
 | [`SCPIP`](#AlgorithmType.SCPIP) |

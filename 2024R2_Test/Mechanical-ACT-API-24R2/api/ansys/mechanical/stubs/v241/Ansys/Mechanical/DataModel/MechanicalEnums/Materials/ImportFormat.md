@@ -1,6 +1,6 @@
 # `ImportFormat`
 
-
+<a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.MechanicalEnums.Materials.ImportFormat"></a>
 
 #### *class* ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.MechanicalEnums.Materials.ImportFormat
 
@@ -17,8 +17,8 @@ Specifies how to interpret the material URI when importing.
 ### Attributes
 
 | Name |
-| ------------------------------------------------------------------------------------------------------------------------------------- |
-| [`Automatic`](../../../../../../v242/Ansys/Mechanical/DataModel/MechanicalEnums/Materials/ImportFormat.md#ImportFormat.Automatic) |
+| ------------------------------------------ |
+| [`Automatic`](#ImportFormat.Automatic) |
 
 <a id="attribute-detail"></a>
 

@@ -1,6 +1,6 @@
 # `ModelViewManager`
 
-
+<a id="ansys.mechanical.stubs.v242.Ansys.ACT.Common.Graphics.ModelViewManager"></a>
 
 #### *class* ansys.mechanical.stubs.v242.Ansys.ACT.Common.Graphics.ModelViewManager
 
@@ -17,37 +17,28 @@ ModelViewManager class.
 ### Methods
 
 | Name | Description |
-|---------------------|--------------------------------------------------------------|
-| `CreateView`        | Create a view from current graphics with default naming.     |
-| `CreateView`        | Create a view from current graphics with the specified name. |
-| `RenameView`        | Rename the model view specified by viewIndex to newLabel.    |
-| `RenameView`        | Rename the model view specified  to newLabel.                |
-| `DeleteView`        | Delete the specified view by name.                           |
-| `DeleteView`        | Delete the specified view by index.                          |
-| `ApplyModelView`    | Apply the view specified by index.                           |
-| `ApplyModelView`    | Apply the view specified by name.                            |
-| `ImportModelViews`  | Import model views from the specified file.                  |
-| `ExportModelViews`  | Export model views to the specified file.                    |
-| `SetViewPorts`      | Set the number of viewports displayed.                       |
-| `SetActiveViewPort` | Set the active of viewport.                                  |
-| `SetActiveViewPort` | Active a viewport.                                           |
+|-----------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------|
+| [`ApplyModelView`](#ModelViewManager.ApplyModelView)       | Apply the view specified by index.                        |
+| [`CreateView`](#ModelViewManager.CreateView)               | Create a view from current graphics with default naming.  |
+| [`DeleteView`](#ModelViewManager.DeleteView)               | Delete the specified view by name.                        |
+| [`ExportModelViews`](#ModelViewManager.ExportModelViews)   | Export model views to the specified file.                 |
+| [`ImportModelViews`](#ModelViewManager.ImportModelViews)   | Import model views from the specified file.               |
+| [`RenameView`](#ModelViewManager.RenameView)               | Rename the model view specified by viewIndex to newLabel. |
+| [`SetActiveViewPort`](#ModelViewManager.SetActiveViewPort) | Set the active of viewport.                               |
+| [`SetViewPorts`](#ModelViewManager.SetViewPorts)           | Set the number of viewports displayed.                    |
 
 ### Properties
 
 | Name | Description |
-|-------------------|------------------------------------------|
-| `NumberOfViews`   | The number of views currently defined.   |
-| `ActiveViewPort`  | ActiveViewPort property.                 |
+|-------------------------------------------------------------------------------------------------------------------------|----------------------------------------|
+| [`ActiveViewPort`](#ModelViewManager.ActiveViewPort)   | ActiveViewPort property.               |
+| [`NumberOfViews`](#ModelViewManager.NumberOfViews)     | The number of views currently defined. |
 
 <a id="property-detail"></a>
 
 ## Property detail
 
-### *property* ModelViewManager.NumberOfViews *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
-
-The number of views currently defined.
-
-<!-- !! processed by numpydoc !! -->
+<a id="ModelViewManager.ActiveViewPort"></a>
 
 ### *property* ModelViewManager.ActiveViewPort *: Ansys.ACT.Common.Graphics.MechanicalViewPort | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -55,45 +46,19 @@ ActiveViewPort property.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="ModelViewManager.NumberOfViews"></a>
+
+### *property* ModelViewManager.NumberOfViews *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+
+The number of views currently defined.
+
+<!-- !! processed by numpydoc !! -->
+
 <a id="method-detail"></a>
 
 ## Method detail
 
-### ModelViewManager.CreateView()
-
-Create a view from current graphics with default naming.
-
-<!-- !! processed by numpydoc !! -->
-
-### ModelViewManager.CreateView(viewName: System.String)
-
-Create a view from current graphics with the specified name.
-
-<!-- !! processed by numpydoc !! -->
-
-### ModelViewManager.RenameView(viewIndex: System.Int32, newLabel: System.String)
-
-Rename the model view specified by viewIndex to newLabel.
-
-<!-- !! processed by numpydoc !! -->
-
-### ModelViewManager.RenameView(viewLabel: System.String, newLabel: System.String)
-
-Rename the model view specified  to newLabel.
-
-<!-- !! processed by numpydoc !! -->
-
-### ModelViewManager.DeleteView(viewLabel: System.String)
-
-Delete the specified view by name.
-
-<!-- !! processed by numpydoc !! -->
-
-### ModelViewManager.DeleteView(viewIndex: System.Int32)
-
-Delete the specified view by index.
-
-<!-- !! processed by numpydoc !! -->
+<a id="ModelViewManager.ApplyModelView"></a>
 
 ### ModelViewManager.ApplyModelView(viewIndex: System.Int32)
 
@@ -101,17 +66,23 @@ Apply the view specified by index.
 
 <!-- !! processed by numpydoc !! -->
 
-### ModelViewManager.ApplyModelView(viewLabel: System.String)
+<a id="ModelViewManager.CreateView"></a>
 
-Apply the view specified by name.
+### ModelViewManager.CreateView()
+
+Create a view from current graphics with default naming.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ModelViewManager.DeleteView"></a>
+
+### ModelViewManager.DeleteView(viewLabel: System.String)
+
+Delete the specified view by name.
 
 <!-- !! processed by numpydoc !! -->
 
-### ModelViewManager.ImportModelViews(viewfilepath: System.String)
-
-Import model views from the specified file.
-
-<!-- !! processed by numpydoc !! -->
+<a id="ModelViewManager.ExportModelViews"></a>
 
 ### ModelViewManager.ExportModelViews(viewfilepath: System.String)
 
@@ -119,11 +90,23 @@ Export model views to the specified file.
 
 <!-- !! processed by numpydoc !! -->
 
-### ModelViewManager.SetViewPorts(numViewPorts: System.Int32, horizontal: System.Boolean)
+<a id="ModelViewManager.ImportModelViews"></a>
 
-Set the number of viewports displayed.
+### ModelViewManager.ImportModelViews(viewfilepath: System.String)
+
+Import model views from the specified file.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="ModelViewManager.RenameView"></a>
+
+### ModelViewManager.RenameView(viewIndex: System.Int32, newLabel: System.String)
+
+Rename the model view specified by viewIndex to newLabel.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ModelViewManager.SetActiveViewPort"></a>
 
 ### ModelViewManager.SetActiveViewPort(winRowIndex: System.Int32, winColIndex: System.Int32)
 
@@ -131,9 +114,11 @@ Set the active of viewport.
 
 <!-- !! processed by numpydoc !! -->
 
-### ModelViewManager.SetActiveViewPort(windowsId: System.Int32)
+<a id="ModelViewManager.SetViewPorts"></a>
 
-Active a viewport.
+### ModelViewManager.SetViewPorts(numViewPorts: System.Int32, horizontal: System.Boolean)
+
+Set the number of viewports displayed.
 
 <!-- !! processed by numpydoc !! -->
 

@@ -1,6 +1,6 @@
 # `TimePointsOptions`
 
-
+<a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.TimePointsOptions"></a>
 
 #### *class* ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.TimePointsOptions
 
@@ -17,11 +17,11 @@ Specifies the TimePointsOptions.
 ### Attributes
 
 | Name |
-| -------------------------------------------------------------------------------------------------------------------------------------------------- |
-| [`AllTimePoints`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/TimePointsOptions.md#TimePointsOptions.AllTimePoints) |
-| [`EquallySpacedPoints`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/TimePointsOptions.md#TimePointsOptions.EquallySpacedPoints) |
-| [`LastTimePoints`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/TimePointsOptions.md#TimePointsOptions.LastTimePoints) |
-| [`SpecifiedRecurrenceRate`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/TimePointsOptions.md#TimePointsOptions.SpecifiedRecurrenceRate) |
+| ------------------------------------------------------------------------- |
+| [`AllTimePoints`](#TimePointsOptions.AllTimePoints) |
+| [`EquallySpacedPoints`](#TimePointsOptions.EquallySpacedPoints) |
+| [`LastTimePoints`](#TimePointsOptions.LastTimePoints) |
+| [`SpecifiedRecurrenceRate`](#TimePointsOptions.SpecifiedRecurrenceRate) |
 
 <a id="attribute-detail"></a>
 

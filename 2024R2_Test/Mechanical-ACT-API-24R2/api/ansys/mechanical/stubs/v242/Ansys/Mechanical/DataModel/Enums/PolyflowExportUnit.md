@@ -1,6 +1,6 @@
 # `PolyflowExportUnit`
 
-
+<a id="ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.PolyflowExportUnit"></a>
 
 #### *class* ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.PolyflowExportUnit
 
@@ -17,45 +17,45 @@ Specifies the Polyflow Export Unit Type.
 ### Attributes
 
 | Name |
-| ---------------------------------------------------------- |
-| [`UseProjectUnit`](#PolyflowExportUnit.UseProjectUnit) |
-| [`Meters`](#PolyflowExportUnit.Meters) |
+| ---------------------------------------------------------------------------------------------------------------------------------- |
 | [`Centimeters`](#PolyflowExportUnit.Centimeters) |
-| [`Millimeters`](#PolyflowExportUnit.Millimeters) |
-| [`Micrometers`](#PolyflowExportUnit.Micrometers) |
-| [`Inches`](#PolyflowExportUnit.Inches) |
 | [`Feet`](#PolyflowExportUnit.Feet) |
+| [`Inches`](#PolyflowExportUnit.Inches) |
+| [`Meters`](#PolyflowExportUnit.Meters) |
+| [`Micrometers`](#PolyflowExportUnit.Micrometers) |
+| [`Millimeters`](#PolyflowExportUnit.Millimeters) |
+| [`UseProjectUnit`](#PolyflowExportUnit.UseProjectUnit) |
 
 <a id="attribute-detail"></a>
 
 ## Attribute detail
 
-<a id="PolyflowExportUnit.UseProjectUnit"></a>
-
-### PolyflowExportUnit.UseProjectUnit *= 0*
-
-<a id="PolyflowExportUnit.Meters"></a>
-
-### PolyflowExportUnit.Meters *= 1*
-
 <a id="PolyflowExportUnit.Centimeters"></a>
 
 ### PolyflowExportUnit.Centimeters *= 2*
 
-<a id="PolyflowExportUnit.Millimeters"></a>
+<a id="PolyflowExportUnit.Feet"></a>
 
-### PolyflowExportUnit.Millimeters *= 3*
-
-<a id="PolyflowExportUnit.Micrometers"></a>
-
-### PolyflowExportUnit.Micrometers *= 4*
+### PolyflowExportUnit.Feet *= 6*
 
 <a id="PolyflowExportUnit.Inches"></a>
 
 ### PolyflowExportUnit.Inches *= 5*
 
-<a id="PolyflowExportUnit.Feet"></a>
+<a id="PolyflowExportUnit.Meters"></a>
 
-### PolyflowExportUnit.Feet *= 6*
+### PolyflowExportUnit.Meters *= 1*
+
+<a id="PolyflowExportUnit.Micrometers"></a>
+
+### PolyflowExportUnit.Micrometers *= 4*
+
+<a id="PolyflowExportUnit.Millimeters"></a>
+
+### PolyflowExportUnit.Millimeters *= 3*
+
+<a id="PolyflowExportUnit.UseProjectUnit"></a>
+
+### PolyflowExportUnit.UseProjectUnit *= 0*
 
 

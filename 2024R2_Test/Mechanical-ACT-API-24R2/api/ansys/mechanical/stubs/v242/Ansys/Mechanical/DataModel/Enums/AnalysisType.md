@@ -1,6 +1,6 @@
 # `AnalysisType`
 
-
+<a id="ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.AnalysisType"></a>
 
 #### *class* ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.AnalysisType
 
@@ -17,7 +17,7 @@ Specifies the AnalysisType.
 ### Attributes
 
 | Name |
-| -------------------------------------------------------------- |
+| ---------------------------------------------------------------------------------------------------------------------------------- |
 | [`Buckling`](#AnalysisType.Buckling) |
 | [`DesignAssessment`](#AnalysisType.DesignAssessment) |
 | [`ExplicitDynamics`](#AnalysisType.ExplicitDynamics) |

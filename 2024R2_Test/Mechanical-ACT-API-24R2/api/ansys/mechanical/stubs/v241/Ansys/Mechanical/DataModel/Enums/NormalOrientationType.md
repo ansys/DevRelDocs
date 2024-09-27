@@ -1,6 +1,6 @@
 # `NormalOrientationType`
 
-
+<a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.NormalOrientationType"></a>
 
 #### *class* ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.NormalOrientationType
 
@@ -17,16 +17,16 @@ Specifies the NormalOrientationType.
 ### Attributes
 
 | Name |
-| -------------------------------------------------------------------------------------------------------------------------- |
-| [`None_`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/NormalOrientationType.md#NormalOrientationType.None_) |
-| [`Total`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/NormalOrientationType.md#NormalOrientationType.Total) |
-| [`XAxis`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/NormalOrientationType.md#NormalOrientationType.XAxis) |
-| [`XYAxis`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/NormalOrientationType.md#NormalOrientationType.XYAxis) |
-| [`XYZAxis`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/NormalOrientationType.md#NormalOrientationType.XYZAxis) |
-| [`XZAxis`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/NormalOrientationType.md#NormalOrientationType.XZAxis) |
-| [`YAxis`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/NormalOrientationType.md#NormalOrientationType.YAxis) |
-| [`YZAxis`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/NormalOrientationType.md#NormalOrientationType.YZAxis) |
-| [`ZAxis`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/NormalOrientationType.md#NormalOrientationType.ZAxis) |
+| --------------------------------------------- |
+| [`None_`](#NormalOrientationType.None_) |
+| [`Total`](#NormalOrientationType.Total) |
+| [`XAxis`](#NormalOrientationType.XAxis) |
+| [`XYAxis`](#NormalOrientationType.XYAxis) |
+| [`XYZAxis`](#NormalOrientationType.XYZAxis) |
+| [`XZAxis`](#NormalOrientationType.XZAxis) |
+| [`YAxis`](#NormalOrientationType.YAxis) |
+| [`YZAxis`](#NormalOrientationType.YZAxis) |
+| [`ZAxis`](#NormalOrientationType.ZAxis) |
 
 <a id="attribute-detail"></a>
 

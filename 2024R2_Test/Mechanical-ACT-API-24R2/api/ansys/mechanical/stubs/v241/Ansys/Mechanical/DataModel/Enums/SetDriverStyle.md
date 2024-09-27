@@ -1,6 +1,6 @@
 # `SetDriverStyle`
 
-
+<a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.SetDriverStyle"></a>
 
 #### *class* ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.SetDriverStyle
 
@@ -17,19 +17,19 @@ Specifies the SetDriverStyle.
 ### Attributes
 
 | Name |
-| ---------------------------------------------------------------------------------------------------------------------------------------- |
-| [`CyclicPhaseOfMaximum`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/SetDriverStyle.md#SetDriverStyle.CyclicPhaseOfMaximum) |
-| [`MaximumOfCyclicPhase`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/SetDriverStyle.md#SetDriverStyle.MaximumOfCyclicPhase) |
-| [`MaximumOverModes`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/SetDriverStyle.md#SetDriverStyle.MaximumOverModes) |
-| [`MaximumOverPhase`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/SetDriverStyle.md#SetDriverStyle.MaximumOverPhase) |
-| [`MaximumOverTime`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/SetDriverStyle.md#SetDriverStyle.MaximumOverTime) |
-| [`MinimumOverTime`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/SetDriverStyle.md#SetDriverStyle.MinimumOverTime) |
-| [`ModeOfMaximum`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/SetDriverStyle.md#SetDriverStyle.ModeOfMaximum) |
-| [`PhaseOfMaximum`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/SetDriverStyle.md#SetDriverStyle.PhaseOfMaximum) |
-| [`ResultSet`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/SetDriverStyle.md#SetDriverStyle.ResultSet) |
-| [`Time`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/SetDriverStyle.md#SetDriverStyle.Time) |
-| [`TimeOfMaximum`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/SetDriverStyle.md#SetDriverStyle.TimeOfMaximum) |
-| [`TimeOfMinimum`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/SetDriverStyle.md#SetDriverStyle.TimeOfMinimum) |
+| ------------------------------------------------------------------ |
+| [`CyclicPhaseOfMaximum`](#SetDriverStyle.CyclicPhaseOfMaximum) |
+| [`MaximumOfCyclicPhase`](#SetDriverStyle.MaximumOfCyclicPhase) |
+| [`MaximumOverModes`](#SetDriverStyle.MaximumOverModes) |
+| [`MaximumOverPhase`](#SetDriverStyle.MaximumOverPhase) |
+| [`MaximumOverTime`](#SetDriverStyle.MaximumOverTime) |
+| [`MinimumOverTime`](#SetDriverStyle.MinimumOverTime) |
+| [`ModeOfMaximum`](#SetDriverStyle.ModeOfMaximum) |
+| [`PhaseOfMaximum`](#SetDriverStyle.PhaseOfMaximum) |
+| [`ResultSet`](#SetDriverStyle.ResultSet) |
+| [`Time`](#SetDriverStyle.Time) |
+| [`TimeOfMaximum`](#SetDriverStyle.TimeOfMaximum) |
+| [`TimeOfMinimum`](#SetDriverStyle.TimeOfMinimum) |
 
 <a id="attribute-detail"></a>
 

@@ -1,6 +1,6 @@
 # `GraphDisplay`
 
-
+<a id="ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.MechanicalEnums.FluidPenetrationPressure.GraphDisplay"></a>
 
 #### *class* ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.MechanicalEnums.FluidPenetrationPressure.GraphDisplay
 

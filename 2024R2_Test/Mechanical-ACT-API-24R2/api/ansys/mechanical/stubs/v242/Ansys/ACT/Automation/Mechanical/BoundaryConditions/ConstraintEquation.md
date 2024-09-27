@@ -1,6 +1,6 @@
 # `ConstraintEquation`
 
-
+<a id="ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.BoundaryConditions.ConstraintEquation"></a>
 
 #### *class* ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.BoundaryConditions.ConstraintEquation
 
@@ -17,59 +17,41 @@ Defines a ConstraintEquation.
 ### Methods
 
 | Name | Description |
-|---------------------------|-----------------------------------------------------------------------------------|
-| `AddCommandSnippet`       | Creates a new CommandSnippet                                                      |
-| `Delete`                  | Run the Delete action.                                                            |
-| `GetChildren`             | Gets the list of children, filtered by type.                                      |
-| `GetChildren`             | Gets the list of children, filtered by type.                                      |
-| `AddComment`              | Creates a new child Comment.                                                      |
-| `AddFigure`               | Creates a new child Figure.                                                       |
-| `Activate`                | Activate the current object.                                                      |
-| `CopyTo`                  | Copies all visible properties from this object to another.                        |
-| `Duplicate`               | Creates a copy of the current DataModelObject.                                    |
-| `GroupAllSimilarChildren` | Run the GroupAllSimilarChildren action.                                           |
-| `GroupSimilarObjects`     | Run the GroupSimilarObjects action.                                               |
-| `PropertyByName`          | Get a property by its unique name.                                                |
-| `PropertyByAPIName`       | Get a property by its API name.                                                   |
-| `CreateParameter`         | Creates a new parameter for a Property.                                           |
-| `GetParameter`            | Gets the parameter corresponding to the given property.                           |
-| `RemoveParameter`         | Removes the parameter from the parameter set corresponding to the given property. |
+|--------------------------------------------------------------------------|-----------------------------------------------------------------------------------|
+| [`Activate`](#ConstraintEquation.Activate)                               | Activate the current object.                                                      |
+| [`AddCommandSnippet`](#ConstraintEquation.AddCommandSnippet)             | Creates a new CommandSnippet                                                      |
+| [`AddComment`](#ConstraintEquation.AddComment)                           | Creates a new child Comment.                                                      |
+| [`AddFigure`](#ConstraintEquation.AddFigure)                             | Creates a new child Figure.                                                       |
+| [`CopyTo`](#ConstraintEquation.CopyTo)                                   | Copies all visible properties from this object to another.                        |
+| [`CreateParameter`](#ConstraintEquation.CreateParameter)                 | Creates a new parameter for a Property.                                           |
+| [`Delete`](#ConstraintEquation.Delete)                                   | Run the Delete action.                                                            |
+| [`Duplicate`](#ConstraintEquation.Duplicate)                             | Creates a copy of the current DataModelObject.                                    |
+| [`GetChildren`](#ConstraintEquation.GetChildren)                         | Gets the list of children, filtered by type.                                      |
+| [`GetParameter`](#ConstraintEquation.GetParameter)                       | Gets the parameter corresponding to the given property.                           |
+| [`GroupAllSimilarChildren`](#ConstraintEquation.GroupAllSimilarChildren) | Run the GroupAllSimilarChildren action.                                           |
+| [`GroupSimilarObjects`](#ConstraintEquation.GroupSimilarObjects)         | Run the GroupSimilarObjects action.                                               |
+| [`PropertyByAPIName`](#ConstraintEquation.PropertyByAPIName)             | Get a property by its API name.                                                   |
+| [`PropertyByName`](#ConstraintEquation.PropertyByName)                   | Get a property by its unique name.                                                |
+| [`RemoveParameter`](#ConstraintEquation.RemoveParameter)                 | Removes the parameter from the parameter set corresponding to the given property. |
 
 ### Properties
 
 | Name | Description |
-|---------------------------|---------------------------------------------------------------|
-| `InternalObject`          | Gets the internal object. For advanced usage only.            |
-| `Suppressed`              | Gets or sets the Suppressed.                                  |
-| `DataModelObjectCategory` | Gets the current DataModelObject's category.                  |
-| `Children`                | Gets the list of children.                                    |
-| `Comments`                | Gets the list of associated comments.                         |
-| `Figures`                 | Gets the list of associated figures.                          |
-| `InternalObject`          | Gets the internal object. For advanced usage only.            |
-| `Properties`              | Gets the list of properties for this object.                  |
-| `VisibleProperties`       | Gets the list of properties that are visible for this object. |
+|--------------------------------------------------------------------------|---------------------------------------------------------------|
+| [`Children`](#ConstraintEquation.Children)                               | Gets the list of children.                                    |
+| [`Comments`](#ConstraintEquation.Comments)                               | Gets the list of associated comments.                         |
+| [`DataModelObjectCategory`](#ConstraintEquation.DataModelObjectCategory) | Gets the current DataModelObject’s category.                  |
+| [`Figures`](#ConstraintEquation.Figures)                                 | Gets the list of associated figures.                          |
+| [`InternalObject`](#ConstraintEquation.InternalObject)                   | Gets the internal object. For advanced usage only.            |
+| [`Properties`](#ConstraintEquation.Properties)                           | Gets the list of properties for this object.                  |
+| [`Suppressed`](#ConstraintEquation.Suppressed)                           | Gets or sets the Suppressed.                                  |
+| [`VisibleProperties`](#ConstraintEquation.VisibleProperties)             | Gets the list of properties that are visible for this object. |
 
 <a id="property-detail"></a>
 
 ## Property detail
 
-### *property* ConstraintEquation.InternalObject *: Ansys.Common.Interop.DSObjectsAuto.IDSConstraintEquationAuto | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets the internal object. For advanced usage only.
-
-<!-- !! processed by numpydoc !! -->
-
-### *property* ConstraintEquation.Suppressed *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the Suppressed.
-
-<!-- !! processed by numpydoc !! -->
-
-### *property* ConstraintEquation.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../../v241/Ansys/Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets the current DataModelObject's category.
-
-<!-- !! processed by numpydoc !! -->
+<a id="ConstraintEquation.Children"></a>
 
 ### *property* ConstraintEquation.Children *: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -77,11 +59,23 @@ Gets the list of children.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="ConstraintEquation.Comments"></a>
+
 ### *property* ConstraintEquation.Comments *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Comment](../../../../../../v241/Ansys/ACT/Automation/Mechanical/Comment.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated comments.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="ConstraintEquation.DataModelObjectCategory"></a>
+
+### *property* ConstraintEquation.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets the current DataModelObject’s category.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ConstraintEquation.Figures"></a>
 
 ### *property* ConstraintEquation.Figures *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Figure](../../../../../../v241/Ansys/ACT/Automation/Mechanical/Figure.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -89,17 +83,31 @@ Gets the list of associated figures.
 
 <!-- !! processed by numpydoc !! -->
 
-### *property* ConstraintEquation.InternalObject *: System.Object | [None](https://docs.python.org/3/library/constants.html#None)*
+<a id="ConstraintEquation.InternalObject"></a>
+
+### *property* ConstraintEquation.InternalObject *: Ansys.Common.Interop.DSObjectsAuto.IDSConstraintEquationAuto | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the internal object. For advanced usage only.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="ConstraintEquation.Properties"></a>
 
 ### *property* ConstraintEquation.Properties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of properties for this object.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="ConstraintEquation.Suppressed"></a>
+
+### *property* ConstraintEquation.Suppressed *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the Suppressed.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ConstraintEquation.VisibleProperties"></a>
 
 ### *property* ConstraintEquation.VisibleProperties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -111,41 +119,7 @@ Gets the list of properties that are visible for this object.
 
 ## Method detail
 
-### ConstraintEquation.AddCommandSnippet()
-
-Creates a new CommandSnippet
-
-<!-- !! processed by numpydoc !! -->
-
-### ConstraintEquation.Delete()
-
-Run the Delete action.
-
-<!-- !! processed by numpydoc !! -->
-
-### ConstraintEquation.GetChildren(recurses: System.Boolean, children: System.Collections.Generic.IList[ChildrenType])
-
-Gets the list of children, filtered by type.
-
-<!-- !! processed by numpydoc !! -->
-
-### ConstraintEquation.GetChildren(category: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../../v241/Ansys/Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory), recurses: System.Boolean, children: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject])
-
-Gets the list of children, filtered by type.
-
-<!-- !! processed by numpydoc !! -->
-
-### ConstraintEquation.AddComment()
-
-Creates a new child Comment.
-
-<!-- !! processed by numpydoc !! -->
-
-### ConstraintEquation.AddFigure()
-
-Creates a new child Figure.
-
-<!-- !! processed by numpydoc !! -->
+<a id="ConstraintEquation.Activate"></a>
 
 ### ConstraintEquation.Activate()
 
@@ -153,11 +127,55 @@ Activate the current object.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="ConstraintEquation.AddCommandSnippet"></a>
+
+### ConstraintEquation.AddCommandSnippet()
+
+Creates a new CommandSnippet
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ConstraintEquation.AddComment"></a>
+
+### ConstraintEquation.AddComment()
+
+Creates a new child Comment.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ConstraintEquation.AddFigure"></a>
+
+### ConstraintEquation.AddFigure()
+
+Creates a new child Figure.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ConstraintEquation.CopyTo"></a>
+
 ### ConstraintEquation.CopyTo(other: Ansys.ACT.Automation.Mechanical.DataModelObject)
 
 Copies all visible properties from this object to another.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="ConstraintEquation.CreateParameter"></a>
+
+### ConstraintEquation.CreateParameter(propName: System.String)
+
+Creates a new parameter for a Property.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ConstraintEquation.Delete"></a>
+
+### ConstraintEquation.Delete()
+
+Run the Delete action.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ConstraintEquation.Duplicate"></a>
 
 ### ConstraintEquation.Duplicate()
 
@@ -165,11 +183,31 @@ Creates a copy of the current DataModelObject.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="ConstraintEquation.GetChildren"></a>
+
+### ConstraintEquation.GetChildren(recurses: System.Boolean, children: System.Collections.Generic.IList[ChildrenType])
+
+Gets the list of children, filtered by type.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ConstraintEquation.GetParameter"></a>
+
+### ConstraintEquation.GetParameter(propName: System.String)
+
+Gets the parameter corresponding to the given property.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ConstraintEquation.GroupAllSimilarChildren"></a>
+
 ### ConstraintEquation.GroupAllSimilarChildren()
 
 Run the GroupAllSimilarChildren action.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="ConstraintEquation.GroupSimilarObjects"></a>
 
 ### ConstraintEquation.GroupSimilarObjects()
 
@@ -177,11 +215,7 @@ Run the GroupSimilarObjects action.
 
 <!-- !! processed by numpydoc !! -->
 
-### ConstraintEquation.PropertyByName(name: System.String)
-
-Get a property by its unique name.
-
-<!-- !! processed by numpydoc !! -->
+<a id="ConstraintEquation.PropertyByAPIName"></a>
 
 ### ConstraintEquation.PropertyByAPIName(name: System.String)
 
@@ -192,17 +226,15 @@ If multiple properties have the same API Name, only the first property with that
 
 <!-- !! processed by numpydoc !! -->
 
-### ConstraintEquation.CreateParameter(propName: System.String)
+<a id="ConstraintEquation.PropertyByName"></a>
 
-Creates a new parameter for a Property.
+### ConstraintEquation.PropertyByName(name: System.String)
 
-<!-- !! processed by numpydoc !! -->
-
-### ConstraintEquation.GetParameter(propName: System.String)
-
-Gets the parameter corresponding to the given property.
+Get a property by its unique name.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="ConstraintEquation.RemoveParameter"></a>
 
 ### ConstraintEquation.RemoveParameter(propName: System.String)
 

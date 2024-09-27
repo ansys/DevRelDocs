@@ -1,6 +1,6 @@
 # `TransientApplicationType`
 
-
+<a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.TransientApplicationType"></a>
 
 #### *class* ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.TransientApplicationType
 
@@ -17,13 +17,13 @@ Specifies the TransientApplicationType.
 ### Attributes
 
 | Name |
-| ------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| [`HighSpeedDynamics`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/TransientApplicationType.md#TransientApplicationType.HighSpeedDynamics) |
-| [`Impact`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/TransientApplicationType.md#TransientApplicationType.Impact) |
-| [`LowSpeedDynamics`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/TransientApplicationType.md#TransientApplicationType.LowSpeedDynamics) |
-| [`ModerateSpeedDynamics`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/TransientApplicationType.md#TransientApplicationType.ModerateSpeedDynamics) |
-| [`QuasiStatic`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/TransientApplicationType.md#TransientApplicationType.QuasiStatic) |
-| [`UserDefined`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/TransientApplicationType.md#TransientApplicationType.UserDefined) |
+| ---------------------------------------------------------------------------- |
+| [`HighSpeedDynamics`](#TransientApplicationType.HighSpeedDynamics) |
+| [`Impact`](#TransientApplicationType.Impact) |
+| [`LowSpeedDynamics`](#TransientApplicationType.LowSpeedDynamics) |
+| [`ModerateSpeedDynamics`](#TransientApplicationType.ModerateSpeedDynamics) |
+| [`QuasiStatic`](#TransientApplicationType.QuasiStatic) |
+| [`UserDefined`](#TransientApplicationType.UserDefined) |
 
 <a id="attribute-detail"></a>
 

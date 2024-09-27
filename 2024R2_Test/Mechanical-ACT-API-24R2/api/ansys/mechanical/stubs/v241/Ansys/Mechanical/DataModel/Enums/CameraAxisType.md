@@ -1,6 +1,6 @@
 # `CameraAxisType`
 
-
+<a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.CameraAxisType"></a>
 
 #### *class* ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.CameraAxisType
 
@@ -17,29 +17,17 @@ Specifies the Axis type.
 ### Attributes
 
 | Name |
-| -------------------------------------------------------------------------------------------------------------- |
-| [`ScreenX`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/CameraAxisType.md#CameraAxisType.ScreenX) |
-| [`ScreenY`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/CameraAxisType.md#CameraAxisType.ScreenY) |
-| [`ScreenZ`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/CameraAxisType.md#CameraAxisType.ScreenZ) |
-| [`GlobalX`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/CameraAxisType.md#CameraAxisType.GlobalX) |
-| [`GlobalY`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/CameraAxisType.md#CameraAxisType.GlobalY) |
-| [`GlobalZ`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/CameraAxisType.md#CameraAxisType.GlobalZ) |
+| ---------------------------------------- |
+| [`GlobalX`](#CameraAxisType.GlobalX) |
+| [`GlobalY`](#CameraAxisType.GlobalY) |
+| [`GlobalZ`](#CameraAxisType.GlobalZ) |
+| [`ScreenX`](#CameraAxisType.ScreenX) |
+| [`ScreenY`](#CameraAxisType.ScreenY) |
+| [`ScreenZ`](#CameraAxisType.ScreenZ) |
 
 <a id="attribute-detail"></a>
 
 ## Attribute detail
-
-<a id="CameraAxisType.ScreenX"></a>
-
-### CameraAxisType.ScreenX *= 0*
-
-<a id="CameraAxisType.ScreenY"></a>
-
-### CameraAxisType.ScreenY *= 1*
-
-<a id="CameraAxisType.ScreenZ"></a>
-
-### CameraAxisType.ScreenZ *= 2*
 
 <a id="CameraAxisType.GlobalX"></a>
 
@@ -52,5 +40,17 @@ Specifies the Axis type.
 <a id="CameraAxisType.GlobalZ"></a>
 
 ### CameraAxisType.GlobalZ *= 5*
+
+<a id="CameraAxisType.ScreenX"></a>
+
+### CameraAxisType.ScreenX *= 0*
+
+<a id="CameraAxisType.ScreenY"></a>
+
+### CameraAxisType.ScreenY *= 1*
+
+<a id="CameraAxisType.ScreenZ"></a>
+
+### CameraAxisType.ScreenZ *= 2*
 
 

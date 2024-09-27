@@ -1,6 +1,6 @@
 # `PreStressContactStatus`
 
-
+<a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.PreStressContactStatus"></a>
 
 #### *class* ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.PreStressContactStatus
 
@@ -17,10 +17,10 @@ Specifies the PreStressContactStatus.
 ### Attributes
 
 | Name |
-| ---------------------------------------------------------------------------------------------------------------------------------------- |
-| [`ForceBonded`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/PreStressContactStatus.md#PreStressContactStatus.ForceBonded) |
-| [`ForceSticking`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/PreStressContactStatus.md#PreStressContactStatus.ForceSticking) |
-| [`UseTrueStatus`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/PreStressContactStatus.md#PreStressContactStatus.UseTrueStatus) |
+| ---------------------------------------------------------- |
+| [`ForceBonded`](#PreStressContactStatus.ForceBonded) |
+| [`ForceSticking`](#PreStressContactStatus.ForceSticking) |
+| [`UseTrueStatus`](#PreStressContactStatus.UseTrueStatus) |
 
 <a id="attribute-detail"></a>
 

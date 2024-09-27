@@ -1,6 +1,6 @@
 # `NastranOption`
 
-
+<a id="ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.FE.NASTRAN.NastranOption"></a>
 
 #### *class* ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.FE.NASTRAN.NastranOption
 

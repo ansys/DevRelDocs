@@ -1,6 +1,6 @@
 # `ConvergenceToleranceType`
 
-
+<a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.ConvergenceToleranceType"></a>
 
 #### *class* ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.ConvergenceToleranceType
 
@@ -17,18 +17,14 @@ Specifies the ConvergenceToleranceType.
 ### Attributes
 
 | Name |
-| ---------------------------------------------------------------------------------------------------------------------------------------------------- |
-| [`Remove`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/ConvergenceToleranceType.md#ConvergenceToleranceType.Remove) |
-| [`On`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/ConvergenceToleranceType.md#ConvergenceToleranceType.On) |
-| [`ProgramControlled`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/ConvergenceToleranceType.md#ConvergenceToleranceType.ProgramControlled) |
+| -------------------------------------------------------------------- |
+| [`On`](#ConvergenceToleranceType.On) |
+| [`ProgramControlled`](#ConvergenceToleranceType.ProgramControlled) |
+| [`Remove`](#ConvergenceToleranceType.Remove) |
 
 <a id="attribute-detail"></a>
 
 ## Attribute detail
-
-<a id="ConvergenceToleranceType.Remove"></a>
-
-### ConvergenceToleranceType.Remove *= 2*
 
 <a id="ConvergenceToleranceType.On"></a>
 
@@ -37,5 +33,9 @@ Specifies the ConvergenceToleranceType.
 <a id="ConvergenceToleranceType.ProgramControlled"></a>
 
 ### ConvergenceToleranceType.ProgramControlled *= 0*
+
+<a id="ConvergenceToleranceType.Remove"></a>
+
+### ConvergenceToleranceType.Remove *= 2*
 
 

@@ -1,6 +1,6 @@
 # `EBlockCommand`
 
-
+<a id="ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.FE.CDB.EBlockCommand"></a>
 
 #### *class* ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.FE.CDB.EBlockCommand
 
@@ -17,14 +17,16 @@ Represents an EBLOCK command.
 ### Properties
 
 | Name | Description |
-|--------------|-------------------------|
-| `Elements`   | Gets the elements.      |
-| `Name`       | Gets the command name.  |
-| `Index`      | Gets the command index. |
+|-----------------------------------------|-------------------------|
+| [`Elements`](#EBlockCommand.Elements)   | Gets the elements.      |
+| [`Index`](#EBlockCommand.Index)         | Gets the command index. |
+| [`Name`](#EBlockCommand.Name)           | Gets the command name.  |
 
 <a id="property-detail"></a>
 
 ## Property detail
+
+<a id="EBlockCommand.Elements"></a>
 
 ### *property* EBlockCommand.Elements *: System.Collections.Generic.IReadOnlyList[[Ansys.ACT.Automation.Mechanical.FE.CDB.CommandElement](../../../../../../../v241/Ansys/ACT/Automation/Mechanical/FE/CDB/CommandElement.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.FE.CDB.CommandElement)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -32,15 +34,19 @@ Gets the elements.
 
 <!-- !! processed by numpydoc !! -->
 
-### *property* EBlockCommand.Name *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets the command name.
-
-<!-- !! processed by numpydoc !! -->
+<a id="EBlockCommand.Index"></a>
 
 ### *property* EBlockCommand.Index *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the command index.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="EBlockCommand.Name"></a>
+
+### *property* EBlockCommand.Name *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets the command name.
 
 <!-- !! processed by numpydoc !! -->
 

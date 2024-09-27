@@ -1,6 +1,6 @@
 # `FluidBehavior`
 
-
+<a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.FluidBehavior"></a>
 
 #### *class* ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.FluidBehavior
 
@@ -17,9 +17,9 @@ Specifies the FluidBehavior.
 ### Attributes
 
 | Name |
-| ------------------------------------------------------------------------------------------------------------------------ |
-| [`Compressible`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/FluidBehavior.md#FluidBehavior.Compressible) |
-| [`Incompressible`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/FluidBehavior.md#FluidBehavior.Incompressible) |
+| --------------------------------------------------- |
+| [`Compressible`](#FluidBehavior.Compressible) |
+| [`Incompressible`](#FluidBehavior.Incompressible) |
 
 <a id="attribute-detail"></a>
 

@@ -1,6 +1,6 @@
 # `JointFrictionType`
 
-
+<a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.JointFrictionType"></a>
 
 #### *class* ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.JointFrictionType
 
@@ -17,18 +17,14 @@ Specifies the JointFrictionType.
 ### Attributes
 
 | Name |
-| -------------------------------------------------------------------------------------------------------------------------------------------------- |
-| [`ProgramControlled`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/JointFrictionType.md#JointFrictionType.ProgramControlled) |
-| [`ForcedFrictionalSliding`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/JointFrictionType.md#JointFrictionType.ForcedFrictionalSliding) |
-| [`FrictionWithTransitions`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/JointFrictionType.md#JointFrictionType.FrictionWithTransitions) |
+| --------------------------------------------------------------------------- |
+| [`ForcedFrictionalSliding`](#JointFrictionType.ForcedFrictionalSliding) |
+| [`FrictionWithTransitions`](#JointFrictionType.FrictionWithTransitions) |
+| [`ProgramControlled`](#JointFrictionType.ProgramControlled) |
 
 <a id="attribute-detail"></a>
 
 ## Attribute detail
-
-<a id="JointFrictionType.ProgramControlled"></a>
-
-### JointFrictionType.ProgramControlled *= 0*
 
 <a id="JointFrictionType.ForcedFrictionalSliding"></a>
 
@@ -37,5 +33,9 @@ Specifies the JointFrictionType.
 <a id="JointFrictionType.FrictionWithTransitions"></a>
 
 ### JointFrictionType.FrictionWithTransitions *= 1*
+
+<a id="JointFrictionType.ProgramControlled"></a>
+
+### JointFrictionType.ProgramControlled *= 0*
 
 

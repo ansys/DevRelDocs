@@ -1,6 +1,6 @@
 # `ContactDataTable`
 
-
+<a id="ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Results.ContactDataTable"></a>
 
 #### *class* ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Results.ContactDataTable
 
@@ -17,52 +17,40 @@ Defines a ContactDataTable.
 ### Methods
 
 | Name | Description |
-|---------------------------|-----------------------------------------------------------------------------------|
-| `ExportTextFile`          | Run the ExportTextFile action.                                                    |
-| `Delete`                  | Run the Delete action.                                                            |
-| `GetChildren`             | Gets the list of children, filtered by type.                                      |
-| `GetChildren`             | Gets the list of children, filtered by type.                                      |
-| `AddComment`              | Creates a new child Comment.                                                      |
-| `AddFigure`               | Creates a new child Figure.                                                       |
-| `Activate`                | Activate the current object.                                                      |
-| `CopyTo`                  | Copies all visible properties from this object to another.                        |
-| `Duplicate`               | Creates a copy of the current DataModelObject.                                    |
-| `GroupAllSimilarChildren` | Run the GroupAllSimilarChildren action.                                           |
-| `GroupSimilarObjects`     | Run the GroupSimilarObjects action.                                               |
-| `PropertyByName`          | Get a property by its unique name.                                                |
-| `PropertyByAPIName`       | Get a property by its API name.                                                   |
-| `CreateParameter`         | Creates a new parameter for a Property.                                           |
-| `GetParameter`            | Gets the parameter corresponding to the given property.                           |
-| `RemoveParameter`         | Removes the parameter from the parameter set corresponding to the given property. |
+|------------------------------------------------------------------------|-----------------------------------------------------------------------------------|
+| [`Activate`](#ContactDataTable.Activate)                               | Activate the current object.                                                      |
+| [`AddComment`](#ContactDataTable.AddComment)                           | Creates a new child Comment.                                                      |
+| [`AddFigure`](#ContactDataTable.AddFigure)                             | Creates a new child Figure.                                                       |
+| [`CopyTo`](#ContactDataTable.CopyTo)                                   | Copies all visible properties from this object to another.                        |
+| [`CreateParameter`](#ContactDataTable.CreateParameter)                 | Creates a new parameter for a Property.                                           |
+| [`Delete`](#ContactDataTable.Delete)                                   | Run the Delete action.                                                            |
+| [`Duplicate`](#ContactDataTable.Duplicate)                             | Creates a copy of the current DataModelObject.                                    |
+| [`ExportTextFile`](#ContactDataTable.ExportTextFile)                   | Run the ExportTextFile action.                                                    |
+| [`GetChildren`](#ContactDataTable.GetChildren)                         | Gets the list of children, filtered by type.                                      |
+| [`GetParameter`](#ContactDataTable.GetParameter)                       | Gets the parameter corresponding to the given property.                           |
+| [`GroupAllSimilarChildren`](#ContactDataTable.GroupAllSimilarChildren) | Run the GroupAllSimilarChildren action.                                           |
+| [`GroupSimilarObjects`](#ContactDataTable.GroupSimilarObjects)         | Run the GroupSimilarObjects action.                                               |
+| [`PropertyByAPIName`](#ContactDataTable.PropertyByAPIName)             | Get a property by its API name.                                                   |
+| [`PropertyByName`](#ContactDataTable.PropertyByName)                   | Get a property by its unique name.                                                |
+| [`RemoveParameter`](#ContactDataTable.RemoveParameter)                 | Removes the parameter from the parameter set corresponding to the given property. |
 
 ### Properties
 
 | Name | Description |
-|---------------------------|---------------------------------------------------------------|
-| `InternalObject`          | Gets the internal object. For advanced usage only.            |
-| `DataModelObjectCategory` | Gets the current DataModelObject's category.                  |
-| `Children`                | Gets the list of children.                                    |
-| `Comments`                | Gets the list of associated comments.                         |
-| `Figures`                 | Gets the list of associated figures.                          |
-| `InternalObject`          | Gets the internal object. For advanced usage only.            |
-| `Properties`              | Gets the list of properties for this object.                  |
-| `VisibleProperties`       | Gets the list of properties that are visible for this object. |
+|------------------------------------------------------------------------|---------------------------------------------------------------|
+| [`Children`](#ContactDataTable.Children)                               | Gets the list of children.                                    |
+| [`Comments`](#ContactDataTable.Comments)                               | Gets the list of associated comments.                         |
+| [`DataModelObjectCategory`](#ContactDataTable.DataModelObjectCategory) | Gets the current DataModelObject’s category.                  |
+| [`Figures`](#ContactDataTable.Figures)                                 | Gets the list of associated figures.                          |
+| [`InternalObject`](#ContactDataTable.InternalObject)                   | Gets the internal object. For advanced usage only.            |
+| [`Properties`](#ContactDataTable.Properties)                           | Gets the list of properties for this object.                  |
+| [`VisibleProperties`](#ContactDataTable.VisibleProperties)             | Gets the list of properties that are visible for this object. |
 
 <a id="property-detail"></a>
 
 ## Property detail
 
-### *property* ContactDataTable.InternalObject *: Ansys.Common.Interop.DSObjectsAuto.IDSContactDataTableAuto | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets the internal object. For advanced usage only.
-
-<!-- !! processed by numpydoc !! -->
-
-### *property* ContactDataTable.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets the current DataModelObject's category.
-
-<!-- !! processed by numpydoc !! -->
+<a id="ContactDataTable.Children"></a>
 
 ### *property* ContactDataTable.Children *: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -70,11 +58,23 @@ Gets the list of children.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="ContactDataTable.Comments"></a>
+
 ### *property* ContactDataTable.Comments *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Comment](../Comment.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated comments.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="ContactDataTable.DataModelObjectCategory"></a>
+
+### *property* ContactDataTable.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../../v242/Ansys/Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets the current DataModelObject’s category.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ContactDataTable.Figures"></a>
 
 ### *property* ContactDataTable.Figures *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Figure](../Figure.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -82,17 +82,23 @@ Gets the list of associated figures.
 
 <!-- !! processed by numpydoc !! -->
 
-### *property* ContactDataTable.InternalObject *: System.Object | [None](https://docs.python.org/3/library/constants.html#None)*
+<a id="ContactDataTable.InternalObject"></a>
+
+### *property* ContactDataTable.InternalObject *: Ansys.Common.Interop.DSObjectsAuto.IDSContactDataTableAuto | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the internal object. For advanced usage only.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="ContactDataTable.Properties"></a>
 
 ### *property* ContactDataTable.Properties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of properties for this object.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="ContactDataTable.VisibleProperties"></a>
 
 ### *property* ContactDataTable.VisibleProperties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -104,41 +110,7 @@ Gets the list of properties that are visible for this object.
 
 ## Method detail
 
-### ContactDataTable.ExportTextFile(fileName: System.String)
-
-Run the ExportTextFile action.
-
-<!-- !! processed by numpydoc !! -->
-
-### ContactDataTable.Delete()
-
-Run the Delete action.
-
-<!-- !! processed by numpydoc !! -->
-
-### ContactDataTable.GetChildren(recurses: System.Boolean, children: System.Collections.Generic.IList[ChildrenType])
-
-Gets the list of children, filtered by type.
-
-<!-- !! processed by numpydoc !! -->
-
-### ContactDataTable.GetChildren(category: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory), recurses: System.Boolean, children: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject])
-
-Gets the list of children, filtered by type.
-
-<!-- !! processed by numpydoc !! -->
-
-### ContactDataTable.AddComment()
-
-Creates a new child Comment.
-
-<!-- !! processed by numpydoc !! -->
-
-### ContactDataTable.AddFigure()
-
-Creates a new child Figure.
-
-<!-- !! processed by numpydoc !! -->
+<a id="ContactDataTable.Activate"></a>
 
 ### ContactDataTable.Activate()
 
@@ -146,11 +118,47 @@ Activate the current object.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="ContactDataTable.AddComment"></a>
+
+### ContactDataTable.AddComment()
+
+Creates a new child Comment.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ContactDataTable.AddFigure"></a>
+
+### ContactDataTable.AddFigure()
+
+Creates a new child Figure.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ContactDataTable.CopyTo"></a>
+
 ### ContactDataTable.CopyTo(other: Ansys.ACT.Automation.Mechanical.DataModelObject)
 
 Copies all visible properties from this object to another.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="ContactDataTable.CreateParameter"></a>
+
+### ContactDataTable.CreateParameter(propName: System.String)
+
+Creates a new parameter for a Property.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ContactDataTable.Delete"></a>
+
+### ContactDataTable.Delete()
+
+Run the Delete action.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ContactDataTable.Duplicate"></a>
 
 ### ContactDataTable.Duplicate()
 
@@ -158,11 +166,39 @@ Creates a copy of the current DataModelObject.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="ContactDataTable.ExportTextFile"></a>
+
+### ContactDataTable.ExportTextFile(fileName: System.String)
+
+Run the ExportTextFile action.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ContactDataTable.GetChildren"></a>
+
+### ContactDataTable.GetChildren(recurses: System.Boolean, children: System.Collections.Generic.IList[ChildrenType])
+
+Gets the list of children, filtered by type.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ContactDataTable.GetParameter"></a>
+
+### ContactDataTable.GetParameter(propName: System.String)
+
+Gets the parameter corresponding to the given property.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ContactDataTable.GroupAllSimilarChildren"></a>
+
 ### ContactDataTable.GroupAllSimilarChildren()
 
 Run the GroupAllSimilarChildren action.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="ContactDataTable.GroupSimilarObjects"></a>
 
 ### ContactDataTable.GroupSimilarObjects()
 
@@ -170,11 +206,7 @@ Run the GroupSimilarObjects action.
 
 <!-- !! processed by numpydoc !! -->
 
-### ContactDataTable.PropertyByName(name: System.String)
-
-Get a property by its unique name.
-
-<!-- !! processed by numpydoc !! -->
+<a id="ContactDataTable.PropertyByAPIName"></a>
 
 ### ContactDataTable.PropertyByAPIName(name: System.String)
 
@@ -185,17 +217,15 @@ If multiple properties have the same API Name, only the first property with that
 
 <!-- !! processed by numpydoc !! -->
 
-### ContactDataTable.CreateParameter(propName: System.String)
+<a id="ContactDataTable.PropertyByName"></a>
 
-Creates a new parameter for a Property.
+### ContactDataTable.PropertyByName(name: System.String)
 
-<!-- !! processed by numpydoc !! -->
-
-### ContactDataTable.GetParameter(propName: System.String)
-
-Gets the parameter corresponding to the given property.
+Get a property by its unique name.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="ContactDataTable.RemoveParameter"></a>
 
 ### ContactDataTable.RemoveParameter(propName: System.String)
 

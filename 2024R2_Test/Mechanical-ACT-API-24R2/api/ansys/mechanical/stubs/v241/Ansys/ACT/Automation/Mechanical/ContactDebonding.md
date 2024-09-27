@@ -1,6 +1,6 @@
 # `ContactDebonding`
 
-
+<a id="ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.ContactDebonding"></a>
 
 #### *class* ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.ContactDebonding
 
@@ -17,104 +17,45 @@ Defines a ContactDebonding.
 ### Methods
 
 | Name | Description |
-|---------------------------|-----------------------------------------------------------------------------------|
-| `AddCommandSnippet`       | Creates a new CommandSnippet                                                      |
-| `Delete`                  | Run the Delete action.                                                            |
-| `Activate`                | Activate the current object.                                                      |
-| `CopyTo`                  | Copies all visible properties from this object to another.                        |
-| `Duplicate`               | Creates a copy of the current DataModelObject.                                    |
-| `GroupAllSimilarChildren` | Run the GroupAllSimilarChildren action.                                           |
-| `GroupSimilarObjects`     | Run the GroupSimilarObjects action.                                               |
-| `PropertyByName`          | Get a property by its unique name.                                                |
-| `PropertyByAPIName`       | Get a property by its API name.                                                   |
-| `CreateParameter`         | Creates a new parameter for a Property.                                           |
-| `GetParameter`            | Gets the parameter corresponding to the given property.                           |
-| `RemoveParameter`         | Removes the parameter from the parameter set corresponding to the given property. |
+|-----------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------|
+| [`Activate`](#ContactDebonding.Activate)                               | Activate the current object.                                                      |
+| [`AddCommandSnippet`](#ContactDebonding.AddCommandSnippet)             | Creates a new CommandSnippet                                                      |
+| [`CopyTo`](#ContactDebonding.CopyTo)                                   | Copies all visible properties from this object to another.                        |
+| [`CreateParameter`](#ContactDebonding.CreateParameter)                 | Creates a new parameter for a Property.                                           |
+| [`Delete`](#ContactDebonding.Delete)                                   | Run the Delete action.                                                            |
+| [`Duplicate`](#ContactDebonding.Duplicate)                             | Creates a copy of the current DataModelObject.                                    |
+| [`GetParameter`](#ContactDebonding.GetParameter)                       | Gets the parameter corresponding to the given property.                           |
+| [`GroupAllSimilarChildren`](#ContactDebonding.GroupAllSimilarChildren) | Run the GroupAllSimilarChildren action.                                           |
+| [`GroupSimilarObjects`](#ContactDebonding.GroupSimilarObjects)         | Run the GroupSimilarObjects action.                                               |
+| [`PropertyByAPIName`](#ContactDebonding.PropertyByAPIName)             | Get a property by its API name.                                                   |
+| [`PropertyByName`](#ContactDebonding.PropertyByName)                   | Get a property by its unique name.                                                |
+| [`RemoveParameter`](#ContactDebonding.RemoveParameter)                 | Removes the parameter from the parameter set corresponding to the given property. |
 
 ### Properties
 
 | Name | Description |
-|---------------------------|---------------------------------------------------------------|
-| `InternalObject`          | Gets the internal object. For advanced usage only.            |
-| `Material`                | Gets or sets the Material.                                    |
-| `CriticalRate`            | Gets or sets the CriticalRate.                                |
-| `InitialTimeStep`         | Gets or sets the InitialTimeStep.                             |
-| `MaximumTimeStep`         | Gets or sets the MaximumTimeStep.                             |
-| `MinimumTimeStep`         | Gets or sets the MinimumTimeStep.                             |
-| `Method`                  | Gets or sets the Method.                                      |
-| `Type`                    | Gets the Type.                                                |
-| `GenerationMethod`        | Gets or sets the GenerationMethod.                            |
-| `Suppressed`              | Gets or sets the Suppressed.                                  |
-| `ContactRegion`           | Gets or sets the ContactRegion.                               |
-| `InitialCrack`            | Gets or sets the InitialCrack.                                |
-| `DataModelObjectCategory` | Gets the current DataModelObject's category.                  |
-| `InternalObject`          | Gets the internal object. For advanced usage only.            |
-| `Properties`              | Gets the list of properties for this object.                  |
-| `VisibleProperties`       | Gets the list of properties that are visible for this object. |
+|-----------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------|
+| [`ContactRegion`](#ContactDebonding.ContactRegion)                     | Gets or sets the ContactRegion.                               |
+| [`CriticalRate`](#ContactDebonding.CriticalRate)                       | Gets or sets the CriticalRate.                                |
+| [`DataModelObjectCategory`](#ContactDebonding.DataModelObjectCategory) | Gets the current DataModelObject’s category.                  |
+| [`GenerationMethod`](#ContactDebonding.GenerationMethod)               | Gets or sets the GenerationMethod.                            |
+| [`InitialCrack`](#ContactDebonding.InitialCrack)                       | Gets or sets the InitialCrack.                                |
+| [`InitialTimeStep`](#ContactDebonding.InitialTimeStep)                 | Gets or sets the InitialTimeStep.                             |
+| [`InternalObject`](#ContactDebonding.InternalObject)                   | Gets the internal object. For advanced usage only.            |
+| [`Material`](#ContactDebonding.Material)                               | Gets or sets the Material.                                    |
+| [`MaximumTimeStep`](#ContactDebonding.MaximumTimeStep)                 | Gets or sets the MaximumTimeStep.                             |
+| [`Method`](#ContactDebonding.Method)                                   | Gets or sets the Method.                                      |
+| [`MinimumTimeStep`](#ContactDebonding.MinimumTimeStep)                 | Gets or sets the MinimumTimeStep.                             |
+| [`Properties`](#ContactDebonding.Properties)                           | Gets the list of properties for this object.                  |
+| [`Suppressed`](#ContactDebonding.Suppressed)                           | Gets or sets the Suppressed.                                  |
+| [`Type`](#ContactDebonding.Type)                                       | Gets the Type.                                                |
+| [`VisibleProperties`](#ContactDebonding.VisibleProperties)             | Gets the list of properties that are visible for this object. |
 
 <a id="property-detail"></a>
 
 ## Property detail
 
-### *property* ContactDebonding.InternalObject *: Ansys.Common.Interop.DSObjectsAuto.IDSDelaminationAuto | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets the internal object. For advanced usage only.
-
-<!-- !! processed by numpydoc !! -->
-
-### *property* ContactDebonding.Material *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the Material.
-
-<!-- !! processed by numpydoc !! -->
-
-### *property* ContactDebonding.CriticalRate *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the CriticalRate.
-
-<!-- !! processed by numpydoc !! -->
-
-### *property* ContactDebonding.InitialTimeStep *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the InitialTimeStep.
-
-<!-- !! processed by numpydoc !! -->
-
-### *property* ContactDebonding.MaximumTimeStep *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the MaximumTimeStep.
-
-<!-- !! processed by numpydoc !! -->
-
-### *property* ContactDebonding.MinimumTimeStep *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the MinimumTimeStep.
-
-<!-- !! processed by numpydoc !! -->
-
-### *property* ContactDebonding.Method *: [Ansys.Mechanical.DataModel.Enums.DelaminationMethod](../../../Mechanical/DataModel/Enums/DelaminationMethod.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DelaminationMethod) | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the Method.
-
-<!-- !! processed by numpydoc !! -->
-
-### *property* ContactDebonding.Type *: [Ansys.Mechanical.DataModel.Enums.DelaminationType](../../../Mechanical/DataModel/Enums/DelaminationType.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DelaminationType) | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets the Type.
-
-<!-- !! processed by numpydoc !! -->
-
-### *property* ContactDebonding.GenerationMethod *: [Ansys.Mechanical.DataModel.Enums.DelaminationGenerationMethod](../../../Mechanical/DataModel/Enums/DelaminationGenerationMethod.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DelaminationGenerationMethod) | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the GenerationMethod.
-
-<!-- !! processed by numpydoc !! -->
-
-### *property* ContactDebonding.Suppressed *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the Suppressed.
-
-<!-- !! processed by numpydoc !! -->
+<a id="ContactDebonding.ContactRegion"></a>
 
 ### *property* ContactDebonding.ContactRegion *: [Ansys.ACT.Automation.Mechanical.Connections.ContactRegion](Connections/ContactRegion.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Connections.ContactRegion) | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -122,29 +63,111 @@ Gets or sets the ContactRegion.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="ContactDebonding.CriticalRate"></a>
+
+### *property* ContactDebonding.CriticalRate *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the CriticalRate.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ContactDebonding.DataModelObjectCategory"></a>
+
+### *property* ContactDebonding.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../v242/Ansys/Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets the current DataModelObject’s category.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ContactDebonding.GenerationMethod"></a>
+
+### *property* ContactDebonding.GenerationMethod *: [Ansys.Mechanical.DataModel.Enums.DelaminationGenerationMethod](../../../../../v242/Ansys/Mechanical/DataModel/Enums/DelaminationGenerationMethod.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.DelaminationGenerationMethod) | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the GenerationMethod.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ContactDebonding.InitialCrack"></a>
+
 ### *property* ContactDebonding.InitialCrack *: [Ansys.ACT.Automation.Mechanical.GenericCrack](GenericCrack.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.GenericCrack) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the InitialCrack.
 
 <!-- !! processed by numpydoc !! -->
 
-### *property* ContactDebonding.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
+<a id="ContactDebonding.InitialTimeStep"></a>
 
-Gets the current DataModelObject's category.
+### *property* ContactDebonding.InitialTimeStep *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the InitialTimeStep.
 
 <!-- !! processed by numpydoc !! -->
 
-### *property* ContactDebonding.InternalObject *: System.Object | [None](https://docs.python.org/3/library/constants.html#None)*
+<a id="ContactDebonding.InternalObject"></a>
+
+### *property* ContactDebonding.InternalObject *: Ansys.Common.Interop.DSObjectsAuto.IDSDelaminationAuto | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the internal object. For advanced usage only.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="ContactDebonding.Material"></a>
+
+### *property* ContactDebonding.Material *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the Material.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ContactDebonding.MaximumTimeStep"></a>
+
+### *property* ContactDebonding.MaximumTimeStep *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the MaximumTimeStep.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ContactDebonding.Method"></a>
+
+### *property* ContactDebonding.Method *: [Ansys.Mechanical.DataModel.Enums.DelaminationMethod](../../../../../v242/Ansys/Mechanical/DataModel/Enums/DelaminationMethod.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.DelaminationMethod) | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the Method.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ContactDebonding.MinimumTimeStep"></a>
+
+### *property* ContactDebonding.MinimumTimeStep *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the MinimumTimeStep.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ContactDebonding.Properties"></a>
 
 ### *property* ContactDebonding.Properties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of properties for this object.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="ContactDebonding.Suppressed"></a>
+
+### *property* ContactDebonding.Suppressed *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the Suppressed.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ContactDebonding.Type"></a>
+
+### *property* ContactDebonding.Type *: [Ansys.Mechanical.DataModel.Enums.DelaminationType](../../../../../v242/Ansys/Mechanical/DataModel/Enums/DelaminationType.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.DelaminationType) | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets the Type.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ContactDebonding.VisibleProperties"></a>
 
 ### *property* ContactDebonding.VisibleProperties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -156,17 +179,7 @@ Gets the list of properties that are visible for this object.
 
 ## Method detail
 
-### ContactDebonding.AddCommandSnippet()
-
-Creates a new CommandSnippet
-
-<!-- !! processed by numpydoc !! -->
-
-### ContactDebonding.Delete()
-
-Run the Delete action.
-
-<!-- !! processed by numpydoc !! -->
+<a id="ContactDebonding.Activate"></a>
 
 ### ContactDebonding.Activate()
 
@@ -174,11 +187,39 @@ Activate the current object.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="ContactDebonding.AddCommandSnippet"></a>
+
+### ContactDebonding.AddCommandSnippet()
+
+Creates a new CommandSnippet
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ContactDebonding.CopyTo"></a>
+
 ### ContactDebonding.CopyTo(other: Ansys.ACT.Automation.Mechanical.DataModelObject)
 
 Copies all visible properties from this object to another.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="ContactDebonding.CreateParameter"></a>
+
+### ContactDebonding.CreateParameter(propName: System.String)
+
+Creates a new parameter for a Property.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ContactDebonding.Delete"></a>
+
+### ContactDebonding.Delete()
+
+Run the Delete action.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ContactDebonding.Duplicate"></a>
 
 ### ContactDebonding.Duplicate()
 
@@ -186,11 +227,23 @@ Creates a copy of the current DataModelObject.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="ContactDebonding.GetParameter"></a>
+
+### ContactDebonding.GetParameter(propName: System.String)
+
+Gets the parameter corresponding to the given property.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ContactDebonding.GroupAllSimilarChildren"></a>
+
 ### ContactDebonding.GroupAllSimilarChildren()
 
 Run the GroupAllSimilarChildren action.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="ContactDebonding.GroupSimilarObjects"></a>
 
 ### ContactDebonding.GroupSimilarObjects()
 
@@ -198,11 +251,7 @@ Run the GroupSimilarObjects action.
 
 <!-- !! processed by numpydoc !! -->
 
-### ContactDebonding.PropertyByName(name: System.String)
-
-Get a property by its unique name.
-
-<!-- !! processed by numpydoc !! -->
+<a id="ContactDebonding.PropertyByAPIName"></a>
 
 ### ContactDebonding.PropertyByAPIName(name: System.String)
 
@@ -213,17 +262,15 @@ If multiple properties have the same API Name, only the first property with that
 
 <!-- !! processed by numpydoc !! -->
 
-### ContactDebonding.CreateParameter(propName: System.String)
+<a id="ContactDebonding.PropertyByName"></a>
 
-Creates a new parameter for a Property.
+### ContactDebonding.PropertyByName(name: System.String)
 
-<!-- !! processed by numpydoc !! -->
-
-### ContactDebonding.GetParameter(propName: System.String)
-
-Gets the parameter corresponding to the given property.
+Get a property by its unique name.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="ContactDebonding.RemoveParameter"></a>
 
 ### ContactDebonding.RemoveParameter(propName: System.String)
 

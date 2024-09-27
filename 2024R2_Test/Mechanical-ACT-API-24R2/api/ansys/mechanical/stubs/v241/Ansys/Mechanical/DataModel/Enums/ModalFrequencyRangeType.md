@@ -1,6 +1,6 @@
 # `ModalFrequencyRangeType`
 
-
+<a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.ModalFrequencyRangeType"></a>
 
 #### *class* ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.ModalFrequencyRangeType
 
@@ -17,9 +17,9 @@ Specifies the ModalFrequencyRangeType.
 ### Attributes
 
 | Name |
-| -------------------------------------------------------------------------------------------------------------------------------------------------- |
-| [`Manual`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/ModalFrequencyRangeType.md#ModalFrequencyRangeType.Manual) |
-| [`ProgramControlled`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/ModalFrequencyRangeType.md#ModalFrequencyRangeType.ProgramControlled) |
+| ------------------------------------------------------------------- |
+| [`Manual`](#ModalFrequencyRangeType.Manual) |
+| [`ProgramControlled`](#ModalFrequencyRangeType.ProgramControlled) |
 
 <a id="attribute-detail"></a>
 

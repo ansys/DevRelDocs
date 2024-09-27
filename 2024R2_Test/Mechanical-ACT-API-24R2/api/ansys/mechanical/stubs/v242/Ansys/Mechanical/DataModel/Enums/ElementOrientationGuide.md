@@ -1,6 +1,6 @@
 # `ElementOrientationGuide`
 
-
+<a id="ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.ElementOrientationGuide"></a>
 
 #### *class* ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.ElementOrientationGuide
 
@@ -17,7 +17,7 @@ Specifies the ElementOrientationGuide.
 ### Attributes
 
 | Name |
-| ----------------------------------------------------------------------------- |
+| ------------------------------------------------------------------------------------------------------------------------------------------------------------ |
 | [`CoordinateSystemGuide`](#ElementOrientationGuide.CoordinateSystemGuide) |
 | [`SurfaceEdgeGuide`](#ElementOrientationGuide.SurfaceEdgeGuide) |
 

@@ -1,6 +1,6 @@
 # `NodalOrientation`
 
-
+<a id="ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.BoundaryConditions.NodalOrientation"></a>
 
 #### *class* ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.BoundaryConditions.NodalOrientation
 
@@ -17,72 +17,42 @@ Defines a NodalOrientation.
 ### Methods
 
 | Name | Description |
-|---------------------------|-----------------------------------------------------------------------------------|
-| `Delete`                  | Run the Delete action.                                                            |
-| `GetChildren`             | Gets the list of children, filtered by type.                                      |
-| `GetChildren`             | Gets the list of children, filtered by type.                                      |
-| `AddComment`              | Creates a new child Comment.                                                      |
-| `AddImage`                | Creates a new child Image.                                                        |
-| `Activate`                | Activate the current object.                                                      |
-| `CopyTo`                  | Copies all visible properties from this object to another.                        |
-| `Duplicate`               | Creates a copy of the current DataModelObject.                                    |
-| `GroupAllSimilarChildren` | Run the GroupAllSimilarChildren action.                                           |
-| `GroupSimilarObjects`     | Run the GroupSimilarObjects action.                                               |
-| `PropertyByName`          | Get a property by its unique name.                                                |
-| `PropertyByAPIName`       | Get a property by its API name.                                                   |
-| `CreateParameter`         | Creates a new parameter for a Property.                                           |
-| `GetParameter`            | Gets the parameter corresponding to the given property.                           |
-| `RemoveParameter`         | Removes the parameter from the parameter set corresponding to the given property. |
+|------------------------------------------------------------------------|-----------------------------------------------------------------------------------|
+| [`Activate`](#NodalOrientation.Activate)                               | Activate the current object.                                                      |
+| [`AddComment`](#NodalOrientation.AddComment)                           | Creates a new child Comment.                                                      |
+| [`AddImage`](#NodalOrientation.AddImage)                               | Creates a new child Image.                                                        |
+| [`CopyTo`](#NodalOrientation.CopyTo)                                   | Copies all visible properties from this object to another.                        |
+| [`CreateParameter`](#NodalOrientation.CreateParameter)                 | Creates a new parameter for a Property.                                           |
+| [`Delete`](#NodalOrientation.Delete)                                   | Run the Delete action.                                                            |
+| [`Duplicate`](#NodalOrientation.Duplicate)                             | Creates a copy of the current DataModelObject.                                    |
+| [`GetChildren`](#NodalOrientation.GetChildren)                         | Gets the list of children, filtered by type.                                      |
+| [`GetParameter`](#NodalOrientation.GetParameter)                       | Gets the parameter corresponding to the given property.                           |
+| [`GroupAllSimilarChildren`](#NodalOrientation.GroupAllSimilarChildren) | Run the GroupAllSimilarChildren action.                                           |
+| [`GroupSimilarObjects`](#NodalOrientation.GroupSimilarObjects)         | Run the GroupSimilarObjects action.                                               |
+| [`PropertyByAPIName`](#NodalOrientation.PropertyByAPIName)             | Get a property by its API name.                                                   |
+| [`PropertyByName`](#NodalOrientation.PropertyByName)                   | Get a property by its unique name.                                                |
+| [`RemoveParameter`](#NodalOrientation.RemoveParameter)                 | Removes the parameter from the parameter set corresponding to the given property. |
 
 ### Properties
 
 | Name | Description |
-|---------------------------|---------------------------------------------------------------|
-| `Location`                | Gets the Location.                                            |
-| `InternalObject`          | Gets the internal object. For advanced usage only.            |
-| `Suppressed`              | Gets or sets the Suppressed.                                  |
-| `CoordinateSystem`        | Gets or sets the CoordinateSystem.                            |
-| `DataModelObjectCategory` | Gets the current DataModelObject's category.                  |
-| `Children`                | Gets the list of children.                                    |
-| `Comments`                | Gets the list of associated comments.                         |
-| `Images`                  | Gets the list of associated images.                           |
-| `InternalObject`          | Gets the internal object. For advanced usage only.            |
-| `Properties`              | Gets the list of properties for this object.                  |
-| `VisibleProperties`       | Gets the list of properties that are visible for this object. |
+|------------------------------------------------------------------------|---------------------------------------------------------------|
+| [`Children`](#NodalOrientation.Children)                               | Gets the list of children.                                    |
+| [`Comments`](#NodalOrientation.Comments)                               | Gets the list of associated comments.                         |
+| [`CoordinateSystem`](#NodalOrientation.CoordinateSystem)               | Gets or sets the CoordinateSystem.                            |
+| [`DataModelObjectCategory`](#NodalOrientation.DataModelObjectCategory) | Gets the current DataModelObject’s category.                  |
+| [`Images`](#NodalOrientation.Images)                                   | Gets the list of associated images.                           |
+| [`InternalObject`](#NodalOrientation.InternalObject)                   | Gets the internal object. For advanced usage only.            |
+| [`Location`](#NodalOrientation.Location)                               | Gets the Location.                                            |
+| [`Properties`](#NodalOrientation.Properties)                           | Gets the list of properties for this object.                  |
+| [`Suppressed`](#NodalOrientation.Suppressed)                           | Gets or sets the Suppressed.                                  |
+| [`VisibleProperties`](#NodalOrientation.VisibleProperties)             | Gets the list of properties that are visible for this object. |
 
 <a id="property-detail"></a>
 
 ## Property detail
 
-### *property* NodalOrientation.Location *: Ansys.ACT.Interfaces.Common.ISelectionInfo | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets the Location.
-
-<!-- !! processed by numpydoc !! -->
-
-### *property* NodalOrientation.InternalObject *: Ansys.Common.Interop.DSObjectsAuto.IDSNodalRotationAuto | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets the internal object. For advanced usage only.
-
-<!-- !! processed by numpydoc !! -->
-
-### *property* NodalOrientation.Suppressed *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the Suppressed.
-
-<!-- !! processed by numpydoc !! -->
-
-### *property* NodalOrientation.CoordinateSystem *: [Ansys.ACT.Automation.Mechanical.CoordinateSystem](../../../../../../v241/Ansys/ACT/Automation/Mechanical/CoordinateSystem.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.CoordinateSystem) | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the CoordinateSystem.
-
-<!-- !! processed by numpydoc !! -->
-
-### *property* NodalOrientation.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../../v241/Ansys/Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets the current DataModelObject's category.
-
-<!-- !! processed by numpydoc !! -->
+<a id="NodalOrientation.Children"></a>
 
 ### *property* NodalOrientation.Children *: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -90,11 +60,31 @@ Gets the list of children.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="NodalOrientation.Comments"></a>
+
 ### *property* NodalOrientation.Comments *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Comment](../../../../../../v241/Ansys/ACT/Automation/Mechanical/Comment.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated comments.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="NodalOrientation.CoordinateSystem"></a>
+
+### *property* NodalOrientation.CoordinateSystem *: [Ansys.ACT.Automation.Mechanical.CoordinateSystem](../../../../../../v241/Ansys/ACT/Automation/Mechanical/CoordinateSystem.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.CoordinateSystem) | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the CoordinateSystem.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="NodalOrientation.DataModelObjectCategory"></a>
+
+### *property* NodalOrientation.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets the current DataModelObject’s category.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="NodalOrientation.Images"></a>
 
 ### *property* NodalOrientation.Images *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Image](../../../../../../v241/Ansys/ACT/Automation/Mechanical/Image.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -102,17 +92,39 @@ Gets the list of associated images.
 
 <!-- !! processed by numpydoc !! -->
 
-### *property* NodalOrientation.InternalObject *: System.Object | [None](https://docs.python.org/3/library/constants.html#None)*
+<a id="NodalOrientation.InternalObject"></a>
+
+### *property* NodalOrientation.InternalObject *: Ansys.Common.Interop.DSObjectsAuto.IDSNodalRotationAuto | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the internal object. For advanced usage only.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="NodalOrientation.Location"></a>
+
+### *property* NodalOrientation.Location *: Ansys.ACT.Interfaces.Common.ISelectionInfo | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets the Location.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="NodalOrientation.Properties"></a>
 
 ### *property* NodalOrientation.Properties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of properties for this object.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="NodalOrientation.Suppressed"></a>
+
+### *property* NodalOrientation.Suppressed *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the Suppressed.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="NodalOrientation.VisibleProperties"></a>
 
 ### *property* NodalOrientation.VisibleProperties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -124,29 +136,23 @@ Gets the list of properties that are visible for this object.
 
 ## Method detail
 
-### NodalOrientation.Delete()
+<a id="NodalOrientation.Activate"></a>
 
-Run the Delete action.
+### NodalOrientation.Activate()
 
-<!-- !! processed by numpydoc !! -->
-
-### NodalOrientation.GetChildren(recurses: System.Boolean, children: System.Collections.Generic.IList[ChildrenType])
-
-Gets the list of children, filtered by type.
+Activate the current object.
 
 <!-- !! processed by numpydoc !! -->
 
-### NodalOrientation.GetChildren(category: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../../v241/Ansys/Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory), recurses: System.Boolean, children: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject])
-
-Gets the list of children, filtered by type.
-
-<!-- !! processed by numpydoc !! -->
+<a id="NodalOrientation.AddComment"></a>
 
 ### NodalOrientation.AddComment()
 
 Creates a new child Comment.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="NodalOrientation.AddImage"></a>
 
 ### NodalOrientation.AddImage(filePath: System.String)
 
@@ -158,11 +164,7 @@ if not, the image will be a screen capture of the Geometry window.
 
 <!-- !! processed by numpydoc !! -->
 
-### NodalOrientation.Activate()
-
-Activate the current object.
-
-<!-- !! processed by numpydoc !! -->
+<a id="NodalOrientation.CopyTo"></a>
 
 ### NodalOrientation.CopyTo(other: Ansys.ACT.Automation.Mechanical.DataModelObject)
 
@@ -170,11 +172,47 @@ Copies all visible properties from this object to another.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="NodalOrientation.CreateParameter"></a>
+
+### NodalOrientation.CreateParameter(propName: System.String)
+
+Creates a new parameter for a Property.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="NodalOrientation.Delete"></a>
+
+### NodalOrientation.Delete()
+
+Run the Delete action.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="NodalOrientation.Duplicate"></a>
+
 ### NodalOrientation.Duplicate()
 
 Creates a copy of the current DataModelObject.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="NodalOrientation.GetChildren"></a>
+
+### NodalOrientation.GetChildren(recurses: System.Boolean, children: System.Collections.Generic.IList[ChildrenType])
+
+Gets the list of children, filtered by type.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="NodalOrientation.GetParameter"></a>
+
+### NodalOrientation.GetParameter(propName: System.String)
+
+Gets the parameter corresponding to the given property.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="NodalOrientation.GroupAllSimilarChildren"></a>
 
 ### NodalOrientation.GroupAllSimilarChildren()
 
@@ -182,17 +220,15 @@ Run the GroupAllSimilarChildren action.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="NodalOrientation.GroupSimilarObjects"></a>
+
 ### NodalOrientation.GroupSimilarObjects()
 
 Run the GroupSimilarObjects action.
 
 <!-- !! processed by numpydoc !! -->
 
-### NodalOrientation.PropertyByName(name: System.String)
-
-Get a property by its unique name.
-
-<!-- !! processed by numpydoc !! -->
+<a id="NodalOrientation.PropertyByAPIName"></a>
 
 ### NodalOrientation.PropertyByAPIName(name: System.String)
 
@@ -203,17 +239,15 @@ If multiple properties have the same API Name, only the first property with that
 
 <!-- !! processed by numpydoc !! -->
 
-### NodalOrientation.CreateParameter(propName: System.String)
+<a id="NodalOrientation.PropertyByName"></a>
 
-Creates a new parameter for a Property.
+### NodalOrientation.PropertyByName(name: System.String)
 
-<!-- !! processed by numpydoc !! -->
-
-### NodalOrientation.GetParameter(propName: System.String)
-
-Gets the parameter corresponding to the given property.
+Get a property by its unique name.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="NodalOrientation.RemoveParameter"></a>
 
 ### NodalOrientation.RemoveParameter(propName: System.String)
 

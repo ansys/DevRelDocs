@@ -1,6 +1,6 @@
 # `ContactSmallSlidingType`
 
-
+<a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.ContactSmallSlidingType"></a>
 
 #### *class* ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.ContactSmallSlidingType
 
@@ -17,11 +17,11 @@ Specifies the ContactSmallSlidingType.
 ### Attributes
 
 | Name |
-| -------------------------------------------------------------------------------------------------------------------------------------------------- |
-| [`Adaptive`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/ContactSmallSlidingType.md#ContactSmallSlidingType.Adaptive) |
-| [`Off`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/ContactSmallSlidingType.md#ContactSmallSlidingType.Off) |
-| [`On`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/ContactSmallSlidingType.md#ContactSmallSlidingType.On) |
-| [`ProgramControlled`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/ContactSmallSlidingType.md#ContactSmallSlidingType.ProgramControlled) |
+| ------------------------------------------------------------------- |
+| [`Adaptive`](#ContactSmallSlidingType.Adaptive) |
+| [`Off`](#ContactSmallSlidingType.Off) |
+| [`On`](#ContactSmallSlidingType.On) |
+| [`ProgramControlled`](#ContactSmallSlidingType.ProgramControlled) |
 
 <a id="attribute-detail"></a>
 

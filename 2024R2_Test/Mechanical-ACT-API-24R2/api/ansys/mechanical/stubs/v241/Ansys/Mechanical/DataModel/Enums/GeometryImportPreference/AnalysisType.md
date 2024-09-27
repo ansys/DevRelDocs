@@ -1,6 +1,6 @@
 # `AnalysisType`
 
-
+<a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.GeometryImportPreference.AnalysisType"></a>
 
 #### *class* ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.GeometryImportPreference.AnalysisType
 
@@ -17,20 +17,20 @@ Specifies the type of analysis to target during import.
 ### Attributes
 
 | Name |
-| ------------------------------------------------------------------------------------------------------------------------------------ |
-| [`Type3D`](../../../../../../v242/Ansys/Mechanical/DataModel/Enums/GeometryImportPreference/AnalysisType.md#AnalysisType.Type3D) |
-| [`Type2D`](../../../../../../v242/Ansys/Mechanical/DataModel/Enums/GeometryImportPreference/AnalysisType.md#AnalysisType.Type2D) |
+| ------------------------------------ |
+| [`Type2D`](#AnalysisType.Type2D) |
+| [`Type3D`](#AnalysisType.Type3D) |
 
 <a id="attribute-detail"></a>
 
 ## Attribute detail
 
-<a id="AnalysisType.Type3D"></a>
-
-### AnalysisType.Type3D *= 0*
-
 <a id="AnalysisType.Type2D"></a>
 
 ### AnalysisType.Type2D *= 1*
+
+<a id="AnalysisType.Type3D"></a>
+
+### AnalysisType.Type3D *= 0*
 
 

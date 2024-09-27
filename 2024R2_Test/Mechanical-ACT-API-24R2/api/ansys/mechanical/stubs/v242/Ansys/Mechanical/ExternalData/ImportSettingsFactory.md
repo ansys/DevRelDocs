@@ -1,6 +1,6 @@
 # `ImportSettingsFactory`
 
-
+<a id="ansys.mechanical.stubs.v242.Ansys.Mechanical.ExternalData.ImportSettingsFactory"></a>
 
 #### *class* ansys.mechanical.stubs.v242.Ansys.Mechanical.ExternalData.ImportSettingsFactory
 
@@ -17,8 +17,8 @@ ImportSettingsFactory interface.
 ### Constructors
 
 | Name | Description |
-|----------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [`GetSettingsForFormat`](../Table/ImportSettingsFactory.md#ImportSettingsFactory.GetSettingsForFormat)   | M:Ansys.Mechanical.ExternalData.ImportSettingsFactory.GetSettingsForFormat(Ansys.Mechanical.DataModel.MechanicalEnums.ExternalData.ImportFormat) constructs and returns the correct settings class   |
+|------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| [`GetSettingsForFormat`](#ImportSettingsFactory.GetSettingsForFormat)   | M:Ansys.Mechanical.ExternalData.ImportSettingsFactory.GetSettingsForFormat(Ansys.Mechanical.DataModel.MechanicalEnums.ExternalData.ImportFormat) constructs and returns the correct settings class   |
 
 <a id="method-detail"></a>
 
@@ -26,9 +26,7 @@ ImportSettingsFactory interface.
 
 <a id="ImportSettingsFactory.GetSettingsForFormat"></a>
 
-### *classmethod* ImportSettingsFactory.GetSettingsForFormat(format: [Ansys.Mechanical.DataModel.MechanicalEnums.ExternalData.ImportFormat](../../../../v241/Ansys/Mechanical/DataModel/MechanicalEnums/ExternalData/ImportFormat.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.MechanicalEnums.ExternalData.ImportFormat))
-
-* **No-index:**
+### *classmethod* ImportSettingsFactory.GetSettingsForFormat(format: [Ansys.Mechanical.DataModel.MechanicalEnums.ExternalData.ImportFormat](../DataModel/MechanicalEnums/ExternalData/ImportFormat.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.MechanicalEnums.ExternalData.ImportFormat))
 
 ```text
 M:Ansys.Mechanical.ExternalData.ImportSettingsFactory.GetSettingsForFormat(Ansys.Mechanical.DataModel.MechanicalEnums.ExternalData.ImportFormat) constructs and returns the correct settings class

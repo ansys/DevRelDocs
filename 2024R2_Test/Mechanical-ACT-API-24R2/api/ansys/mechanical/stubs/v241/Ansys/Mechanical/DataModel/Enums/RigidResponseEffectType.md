@@ -1,6 +1,6 @@
 # `RigidResponseEffectType`
 
-
+<a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.RigidResponseEffectType"></a>
 
 #### *class* ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.RigidResponseEffectType
 
@@ -17,9 +17,9 @@ Specifies the RigidResponseEffectType.
 ### Attributes
 
 | Name |
-| ------------------------------------------------------------------------------------------------------------------------------ |
-| [`Gupta`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/RigidResponseEffectType.md#RigidResponseEffectType.Gupta) |
-| [`Lindely`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/RigidResponseEffectType.md#RigidResponseEffectType.Lindely) |
+| ----------------------------------------------- |
+| [`Gupta`](#RigidResponseEffectType.Gupta) |
+| [`Lindely`](#RigidResponseEffectType.Lindely) |
 
 <a id="attribute-detail"></a>
 

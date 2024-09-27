@@ -1,6 +1,6 @@
 # `ResultAveragingType`
 
-
+<a id="ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.ResultAveragingType"></a>
 
 #### *class* ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.ResultAveragingType
 
@@ -17,34 +17,22 @@ Specifies the ResultAveragingType.
 ### Attributes
 
 | Name |
-| ------------------------------------------------------------------- |
-| [`Unaveraged`](#ResultAveragingType.Unaveraged) |
+| ---------------------------------------------------------------------------------------------------------------------------------------------- |
 | [`Averaged`](#ResultAveragingType.Averaged) |
-| [`NodalDifference`](#ResultAveragingType.NodalDifference) |
-| [`NodalFraction`](#ResultAveragingType.NodalFraction) |
 | [`ElementalDifference`](#ResultAveragingType.ElementalDifference) |
 | [`ElementalFraction`](#ResultAveragingType.ElementalFraction) |
 | [`ElementalMean`](#ResultAveragingType.ElementalMean) |
+| [`NodalDifference`](#ResultAveragingType.NodalDifference) |
+| [`NodalFraction`](#ResultAveragingType.NodalFraction) |
+| [`Unaveraged`](#ResultAveragingType.Unaveraged) |
 
 <a id="attribute-detail"></a>
 
 ## Attribute detail
 
-<a id="ResultAveragingType.Unaveraged"></a>
-
-### ResultAveragingType.Unaveraged *= 0*
-
 <a id="ResultAveragingType.Averaged"></a>
 
 ### ResultAveragingType.Averaged *= 1*
-
-<a id="ResultAveragingType.NodalDifference"></a>
-
-### ResultAveragingType.NodalDifference *= 2*
-
-<a id="ResultAveragingType.NodalFraction"></a>
-
-### ResultAveragingType.NodalFraction *= 3*
 
 <a id="ResultAveragingType.ElementalDifference"></a>
 
@@ -57,5 +45,17 @@ Specifies the ResultAveragingType.
 <a id="ResultAveragingType.ElementalMean"></a>
 
 ### ResultAveragingType.ElementalMean *= 6*
+
+<a id="ResultAveragingType.NodalDifference"></a>
+
+### ResultAveragingType.NodalDifference *= 2*
+
+<a id="ResultAveragingType.NodalFraction"></a>
+
+### ResultAveragingType.NodalFraction *= 3*
+
+<a id="ResultAveragingType.Unaveraged"></a>
+
+### ResultAveragingType.Unaveraged *= 0*
 
 

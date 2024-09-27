@@ -1,6 +1,6 @@
 # `ContactType`
 
-
+<a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.ContactType"></a>
 
 #### *class* ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.ContactType
 
@@ -17,19 +17,19 @@ Specifies the ContactType.
 ### Attributes
 
 | Name |
-| -------------------------------------------------------------------------------------------------------------------------------------- |
-| [`Bonded`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/ContactType.md#ContactType.Bonded) |
-| [`BondedInitial`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/ContactType.md#ContactType.BondedInitial) |
-| [`ForcedFrictionalSliding`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/ContactType.md#ContactType.ForcedFrictionalSliding) |
-| [`Frictional`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/ContactType.md#ContactType.Frictional) |
-| [`Frictionless`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/ContactType.md#ContactType.Frictionless) |
-| [`GeneralWeld`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/ContactType.md#ContactType.GeneralWeld) |
-| [`InterStage`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/ContactType.md#ContactType.InterStage) |
-| [`NoSeparation`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/ContactType.md#ContactType.NoSeparation) |
-| [`NoSeparationSliding`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/ContactType.md#ContactType.NoSeparationSliding) |
-| [`Reinforcement`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/ContactType.md#ContactType.Reinforcement) |
-| [`Rough`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/ContactType.md#ContactType.Rough) |
-| [`SpotWeld`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/ContactType.md#ContactType.SpotWeld) |
+| ------------------------------------------------------------------- |
+| [`Bonded`](#ContactType.Bonded) |
+| [`BondedInitial`](#ContactType.BondedInitial) |
+| [`ForcedFrictionalSliding`](#ContactType.ForcedFrictionalSliding) |
+| [`Frictional`](#ContactType.Frictional) |
+| [`Frictionless`](#ContactType.Frictionless) |
+| [`GeneralWeld`](#ContactType.GeneralWeld) |
+| [`InterStage`](#ContactType.InterStage) |
+| [`NoSeparation`](#ContactType.NoSeparation) |
+| [`NoSeparationSliding`](#ContactType.NoSeparationSliding) |
+| [`Reinforcement`](#ContactType.Reinforcement) |
+| [`Rough`](#ContactType.Rough) |
+| [`SpotWeld`](#ContactType.SpotWeld) |
 
 <a id="attribute-detail"></a>
 

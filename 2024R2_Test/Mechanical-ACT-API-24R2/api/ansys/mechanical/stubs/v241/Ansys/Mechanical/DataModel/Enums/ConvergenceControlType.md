@@ -1,6 +1,6 @@
 # `ConvergenceControlType`
 
-
+<a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.ConvergenceControlType"></a>
 
 #### *class* ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.ConvergenceControlType
 
@@ -17,9 +17,9 @@ Specifies the ConvergenceControlType.
 ### Attributes
 
 | Name |
-| ------------------------------------------------------------------------------------------------------------------------------------------------ |
-| [`Manual`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/ConvergenceControlType.md#ConvergenceControlType.Manual) |
-| [`ProgramControlled`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/ConvergenceControlType.md#ConvergenceControlType.ProgramControlled) |
+| ------------------------------------------------------------------ |
+| [`Manual`](#ConvergenceControlType.Manual) |
+| [`ProgramControlled`](#ConvergenceControlType.ProgramControlled) |
 
 <a id="attribute-detail"></a>
 

@@ -1,6 +1,6 @@
 # `SolutionStatusType`
 
-
+<a id="ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.SolutionStatusType"></a>
 
 #### *class* ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.SolutionStatusType
 
@@ -17,31 +17,31 @@ Specifies the SolutionStatusType.
 ### Attributes
 
 | Name |
-| ---------------------------------------------------------------------------------------------------- |
-| [`Done`](#SolutionStatusType.Done) |
+| ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
 | [`AdaptiveRefinementRequired`](#SolutionStatusType.AdaptiveRefinementRequired) |
-| [`SolveRequired`](#SolutionStatusType.SolveRequired) |
+| [`Done`](#SolutionStatusType.Done) |
+| [`ExecutePostCommands`](#SolutionStatusType.ExecutePostCommands) |
 | [`InputFileGenerationRequired`](#SolutionStatusType.InputFileGenerationRequired) |
 | [`PostProcessingRequired`](#SolutionStatusType.PostProcessingRequired) |
 | [`RestartRequired`](#SolutionStatusType.RestartRequired) |
-| [`ExecutePostCommands`](#SolutionStatusType.ExecutePostCommands) |
+| [`SolveRequired`](#SolutionStatusType.SolveRequired) |
 | [`SolveRequiredPartialResultsAvailable`](#SolutionStatusType.SolveRequiredPartialResultsAvailable) |
 
 <a id="attribute-detail"></a>
 
 ## Attribute detail
 
-<a id="SolutionStatusType.Done"></a>
-
-### SolutionStatusType.Done *= 0*
-
 <a id="SolutionStatusType.AdaptiveRefinementRequired"></a>
 
 ### SolutionStatusType.AdaptiveRefinementRequired *= 3*
 
-<a id="SolutionStatusType.SolveRequired"></a>
+<a id="SolutionStatusType.Done"></a>
 
-### SolutionStatusType.SolveRequired *= 1*
+### SolutionStatusType.Done *= 0*
+
+<a id="SolutionStatusType.ExecutePostCommands"></a>
+
+### SolutionStatusType.ExecutePostCommands *= 7*
 
 <a id="SolutionStatusType.InputFileGenerationRequired"></a>
 
@@ -55,9 +55,9 @@ Specifies the SolutionStatusType.
 
 ### SolutionStatusType.RestartRequired *= 6*
 
-<a id="SolutionStatusType.ExecutePostCommands"></a>
+<a id="SolutionStatusType.SolveRequired"></a>
 
-### SolutionStatusType.ExecutePostCommands *= 7*
+### SolutionStatusType.SolveRequired *= 1*
 
 <a id="SolutionStatusType.SolveRequiredPartialResultsAvailable"></a>
 

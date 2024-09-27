@@ -1,6 +1,6 @@
 # `ExportFormat`
 
-
+<a id="ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.MechanicalEnums.Substructure.ExportFormat"></a>
 
 #### *class* ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.MechanicalEnums.Substructure.ExportFormat
 
@@ -17,20 +17,20 @@ Specifies the Condensed Part Export Format.
 ### Attributes
 
 | Name |
-| ---------------------------------------------- |
-| [`Unspecified`](#ExportFormat.Unspecified) |
+| ----------------------------------------------------------------------------- |
 | [`Automatic`](#ExportFormat.Automatic) |
+| [`Unspecified`](#ExportFormat.Unspecified) |
 
 <a id="attribute-detail"></a>
 
 ## Attribute detail
 
-<a id="ExportFormat.Unspecified"></a>
-
-### ExportFormat.Unspecified *= 0*
-
 <a id="ExportFormat.Automatic"></a>
 
 ### ExportFormat.Automatic *= 1*
+
+<a id="ExportFormat.Unspecified"></a>
+
+### ExportFormat.Unspecified *= 0*
 
 

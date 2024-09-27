@@ -1,6 +1,6 @@
 # `ManuMemberSizeControlledType`
 
-
+<a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.ManuMemberSizeControlledType"></a>
 
 #### *class* ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.ManuMemberSizeControlledType
 
@@ -17,10 +17,10 @@ Specifies the ManuMemberSizeControlledType.
 ### Attributes
 
 | Name |
-| ------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| [`Free`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/ManuMemberSizeControlledType.md#ManuMemberSizeControlledType.Free) |
-| [`Manual`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/ManuMemberSizeControlledType.md#ManuMemberSizeControlledType.Manual) |
-| [`ProgramControlled`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/ManuMemberSizeControlledType.md#ManuMemberSizeControlledType.ProgramControlled) |
+| ------------------------------------------------------------------------ |
+| [`Free`](#ManuMemberSizeControlledType.Free) |
+| [`Manual`](#ManuMemberSizeControlledType.Manual) |
+| [`ProgramControlled`](#ManuMemberSizeControlledType.ProgramControlled) |
 
 <a id="attribute-detail"></a>
 

@@ -1,6 +1,6 @@
 # `Chart`
 
-
+<a id="ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Chart"></a>
 
 #### *class* ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Chart
 
@@ -17,67 +17,49 @@ Defines a Chart.
 ### Methods
 
 | Name | Description |
-|---------------------------|-----------------------------------------------------------------------------------|
-| `Delete`                  | Run the Delete action.                                                            |
-| `GetChildren`             | Gets the list of children, filtered by type.                                      |
-| `GetChildren`             | Gets the list of children, filtered by type.                                      |
-| `AddComment`              | Creates a new child Comment.                                                      |
-| `AddImage`                | Creates a new child Image.                                                        |
-| `Activate`                | Activate the current object.                                                      |
-| `CopyTo`                  | Copies all visible properties from this object to another.                        |
-| `Duplicate`               | Creates a copy of the current DataModelObject.                                    |
-| `GroupAllSimilarChildren` | Run the GroupAllSimilarChildren action.                                           |
-| `GroupSimilarObjects`     | Run the GroupSimilarObjects action.                                               |
-| `PropertyByName`          | Get a property by its unique name.                                                |
-| `PropertyByAPIName`       | Get a property by its API name.                                                   |
-| `CreateParameter`         | Creates a new parameter for a Property.                                           |
-| `GetParameter`            | Gets the parameter corresponding to the given property.                           |
-| `RemoveParameter`         | Removes the parameter from the parameter set corresponding to the given property. |
+|-------------------------------------------------------------|-----------------------------------------------------------------------------------|
+| [`Activate`](#Chart.Activate)                               | Activate the current object.                                                      |
+| [`AddComment`](#Chart.AddComment)                           | Creates a new child Comment.                                                      |
+| [`AddImage`](#Chart.AddImage)                               | Creates a new child Image.                                                        |
+| [`CopyTo`](#Chart.CopyTo)                                   | Copies all visible properties from this object to another.                        |
+| [`CreateParameter`](#Chart.CreateParameter)                 | Creates a new parameter for a Property.                                           |
+| [`Delete`](#Chart.Delete)                                   | Run the Delete action.                                                            |
+| [`Duplicate`](#Chart.Duplicate)                             | Creates a copy of the current DataModelObject.                                    |
+| [`GetChildren`](#Chart.GetChildren)                         | Gets the list of children, filtered by type.                                      |
+| [`GetParameter`](#Chart.GetParameter)                       | Gets the parameter corresponding to the given property.                           |
+| [`GroupAllSimilarChildren`](#Chart.GroupAllSimilarChildren) | Run the GroupAllSimilarChildren action.                                           |
+| [`GroupSimilarObjects`](#Chart.GroupSimilarObjects)         | Run the GroupSimilarObjects action.                                               |
+| [`PropertyByAPIName`](#Chart.PropertyByAPIName)             | Get a property by its API name.                                                   |
+| [`PropertyByName`](#Chart.PropertyByName)                   | Get a property by its unique name.                                                |
+| [`RemoveParameter`](#Chart.RemoveParameter)                 | Removes the parameter from the parameter set corresponding to the given property. |
 
 ### Properties
 
 | Name | Description |
-|---------------------------|---------------------------------------------------------------|
-| `OutlineSelection`        | Gets or sets the OutlineSelection.                            |
-| `XAxis`                   | Use to control the X Axis property of the chart.              |
-| `InternalObject`          | Gets the internal object. For advanced usage only.            |
-| `Caption`                 | Gets or sets the Caption.                                     |
-| `XAxisLabel`              | Gets or sets the XAxisLabel.                                  |
-| `YAxisLabel`              | Gets or sets the YAxisLabel.                                  |
-| `Gridlines`               | Gets or sets the Gridlines.                                   |
-| `ModalDisplayType`        | Gets or sets the ModalDisplayType.                            |
-| `PlotStyle`               | Gets or sets the PlotStyle.                                   |
-| `Content`                 | Gets or sets the Content.                                     |
-| `Scale`                   | Gets or sets the Scale.                                       |
-| `DataModelObjectCategory` | Gets the current DataModelObject's category.                  |
-| `Children`                | Gets the list of children.                                    |
-| `Comments`                | Gets the list of associated comments.                         |
-| `Images`                  | Gets the list of associated images.                           |
-| `InternalObject`          | Gets the internal object. For advanced usage only.            |
-| `Properties`              | Gets the list of properties for this object.                  |
-| `VisibleProperties`       | Gets the list of properties that are visible for this object. |
+|-------------------------------------------------------------|---------------------------------------------------------------|
+| [`Caption`](#Chart.Caption)                                 | Gets or sets the Caption.                                     |
+| [`Children`](#Chart.Children)                               | Gets the list of children.                                    |
+| [`Comments`](#Chart.Comments)                               | Gets the list of associated comments.                         |
+| [`Content`](#Chart.Content)                                 | Gets or sets the Content.                                     |
+| [`DataModelObjectCategory`](#Chart.DataModelObjectCategory) | Gets the current DataModelObject’s category.                  |
+| [`Gridlines`](#Chart.Gridlines)                             | Gets or sets the Gridlines.                                   |
+| [`Images`](#Chart.Images)                                   | Gets the list of associated images.                           |
+| [`InternalObject`](#Chart.InternalObject)                   | Gets the internal object. For advanced usage only.            |
+| [`ModalDisplayType`](#Chart.ModalDisplayType)               | Gets or sets the ModalDisplayType.                            |
+| [`OutlineSelection`](#Chart.OutlineSelection)               | Gets or sets the OutlineSelection.                            |
+| [`PlotStyle`](#Chart.PlotStyle)                             | Gets or sets the PlotStyle.                                   |
+| [`Properties`](#Chart.Properties)                           | Gets the list of properties for this object.                  |
+| [`Scale`](#Chart.Scale)                                     | Gets or sets the Scale.                                       |
+| [`VisibleProperties`](#Chart.VisibleProperties)             | Gets the list of properties that are visible for this object. |
+| [`XAxis`](#Chart.XAxis)                                     | Use to control the X Axis property of the chart.              |
+| [`XAxisLabel`](#Chart.XAxisLabel)                           | Gets or sets the XAxisLabel.                                  |
+| [`YAxisLabel`](#Chart.YAxisLabel)                           | Gets or sets the YAxisLabel.                                  |
 
 <a id="property-detail"></a>
 
 ## Property detail
 
-### *property* Chart.OutlineSelection *: System.Collections.Generic.IEnumerable[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the OutlineSelection.
-
-<!-- !! processed by numpydoc !! -->
-
-### *property* Chart.XAxis *: [Ansys.ACT.Automation.Mechanical.ChartXAxis](../../../../../v241/Ansys/ACT/Automation/Mechanical/ChartXAxis.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.ChartXAxis) | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Use to control the X Axis property of the chart.
-
-<!-- !! processed by numpydoc !! -->
-
-### *property* Chart.InternalObject *: Ansys.Common.Interop.DSObjectsAuto.IDSChartAuto | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets the internal object. For advanced usage only.
-
-<!-- !! processed by numpydoc !! -->
+<a id="Chart.Caption"></a>
 
 ### *property* Chart.Caption *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -85,53 +67,7 @@ Gets or sets the Caption.
 
 <!-- !! processed by numpydoc !! -->
 
-### *property* Chart.XAxisLabel *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the XAxisLabel.
-
-<!-- !! processed by numpydoc !! -->
-
-### *property* Chart.YAxisLabel *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the YAxisLabel.
-
-<!-- !! processed by numpydoc !! -->
-
-### *property* Chart.Gridlines *: [Ansys.Mechanical.DataModel.Enums.ChartGridlines](../../../../../v241/Ansys/Mechanical/DataModel/Enums/ChartGridlines.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.ChartGridlines) | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the Gridlines.
-
-<!-- !! processed by numpydoc !! -->
-
-### *property* Chart.ModalDisplayType *: [Ansys.Mechanical.DataModel.Enums.ChartModalType](../../../../../v241/Ansys/Mechanical/DataModel/Enums/ChartModalType.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.ChartModalType) | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the ModalDisplayType.
-
-<!-- !! processed by numpydoc !! -->
-
-### *property* Chart.PlotStyle *: [Ansys.Mechanical.DataModel.Enums.ChartPlotStyle](../../../../../v241/Ansys/Mechanical/DataModel/Enums/ChartPlotStyle.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.ChartPlotStyle) | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the PlotStyle.
-
-<!-- !! processed by numpydoc !! -->
-
-### *property* Chart.Content *: [Ansys.Mechanical.DataModel.Enums.ChartReportType](../../../../../v241/Ansys/Mechanical/DataModel/Enums/ChartReportType.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.ChartReportType) | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the Content.
-
-<!-- !! processed by numpydoc !! -->
-
-### *property* Chart.Scale *: [Ansys.Mechanical.DataModel.Enums.ChartScale](../../../../../v241/Ansys/Mechanical/DataModel/Enums/ChartScale.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.ChartScale) | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the Scale.
-
-<!-- !! processed by numpydoc !! -->
-
-### *property* Chart.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../v241/Ansys/Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets the current DataModelObject's category.
-
-<!-- !! processed by numpydoc !! -->
+<a id="Chart.Children"></a>
 
 ### *property* Chart.Children *: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -139,11 +75,39 @@ Gets the list of children.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="Chart.Comments"></a>
+
 ### *property* Chart.Comments *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Comment](../../../../../v241/Ansys/ACT/Automation/Mechanical/Comment.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated comments.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="Chart.Content"></a>
+
+### *property* Chart.Content *: [Ansys.Mechanical.DataModel.Enums.ChartReportType](../../../Mechanical/DataModel/Enums/ChartReportType.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.ChartReportType) | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the Content.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="Chart.DataModelObjectCategory"></a>
+
+### *property* Chart.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets the current DataModelObject’s category.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="Chart.Gridlines"></a>
+
+### *property* Chart.Gridlines *: [Ansys.Mechanical.DataModel.Enums.ChartGridlines](../../../Mechanical/DataModel/Enums/ChartGridlines.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.ChartGridlines) | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the Gridlines.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="Chart.Images"></a>
 
 ### *property* Chart.Images *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Image](../../../../../v241/Ansys/ACT/Automation/Mechanical/Image.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -151,11 +115,39 @@ Gets the list of associated images.
 
 <!-- !! processed by numpydoc !! -->
 
-### *property* Chart.InternalObject *: System.Object | [None](https://docs.python.org/3/library/constants.html#None)*
+<a id="Chart.InternalObject"></a>
+
+### *property* Chart.InternalObject *: Ansys.Common.Interop.DSObjectsAuto.IDSChartAuto | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the internal object. For advanced usage only.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="Chart.ModalDisplayType"></a>
+
+### *property* Chart.ModalDisplayType *: [Ansys.Mechanical.DataModel.Enums.ChartModalType](../../../Mechanical/DataModel/Enums/ChartModalType.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.ChartModalType) | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the ModalDisplayType.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="Chart.OutlineSelection"></a>
+
+### *property* Chart.OutlineSelection *: System.Collections.Generic.IEnumerable[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the OutlineSelection.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="Chart.PlotStyle"></a>
+
+### *property* Chart.PlotStyle *: [Ansys.Mechanical.DataModel.Enums.ChartPlotStyle](../../../Mechanical/DataModel/Enums/ChartPlotStyle.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.ChartPlotStyle) | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the PlotStyle.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="Chart.Properties"></a>
 
 ### *property* Chart.Properties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -163,9 +155,43 @@ Gets the list of properties for this object.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="Chart.Scale"></a>
+
+### *property* Chart.Scale *: [Ansys.Mechanical.DataModel.Enums.ChartScale](../../../Mechanical/DataModel/Enums/ChartScale.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.ChartScale) | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the Scale.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="Chart.VisibleProperties"></a>
+
 ### *property* Chart.VisibleProperties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of properties that are visible for this object.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="Chart.XAxis"></a>
+
+### *property* Chart.XAxis *: [Ansys.ACT.Automation.Mechanical.ChartXAxis](../../../../../v241/Ansys/ACT/Automation/Mechanical/ChartXAxis.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.ChartXAxis) | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Use to control the X Axis property of the chart.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="Chart.XAxisLabel"></a>
+
+### *property* Chart.XAxisLabel *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the XAxisLabel.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="Chart.YAxisLabel"></a>
+
+### *property* Chart.YAxisLabel *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the YAxisLabel.
 
 <!-- !! processed by numpydoc !! -->
 
@@ -173,29 +199,23 @@ Gets the list of properties that are visible for this object.
 
 ## Method detail
 
-### Chart.Delete()
+<a id="Chart.Activate"></a>
 
-Run the Delete action.
+### Chart.Activate()
 
-<!-- !! processed by numpydoc !! -->
-
-### Chart.GetChildren(recurses: System.Boolean, children: System.Collections.Generic.IList[ChildrenType])
-
-Gets the list of children, filtered by type.
+Activate the current object.
 
 <!-- !! processed by numpydoc !! -->
 
-### Chart.GetChildren(category: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../v241/Ansys/Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory), recurses: System.Boolean, children: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject])
-
-Gets the list of children, filtered by type.
-
-<!-- !! processed by numpydoc !! -->
+<a id="Chart.AddComment"></a>
 
 ### Chart.AddComment()
 
 Creates a new child Comment.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="Chart.AddImage"></a>
 
 ### Chart.AddImage(filePath: System.String)
 
@@ -207,11 +227,7 @@ if not, the image will be a screen capture of the Geometry window.
 
 <!-- !! processed by numpydoc !! -->
 
-### Chart.Activate()
-
-Activate the current object.
-
-<!-- !! processed by numpydoc !! -->
+<a id="Chart.CopyTo"></a>
 
 ### Chart.CopyTo(other: Ansys.ACT.Automation.Mechanical.DataModelObject)
 
@@ -219,11 +235,47 @@ Copies all visible properties from this object to another.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="Chart.CreateParameter"></a>
+
+### Chart.CreateParameter(propName: System.String)
+
+Creates a new parameter for a Property.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="Chart.Delete"></a>
+
+### Chart.Delete()
+
+Run the Delete action.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="Chart.Duplicate"></a>
+
 ### Chart.Duplicate()
 
 Creates a copy of the current DataModelObject.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="Chart.GetChildren"></a>
+
+### Chart.GetChildren(recurses: System.Boolean, children: System.Collections.Generic.IList[ChildrenType])
+
+Gets the list of children, filtered by type.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="Chart.GetParameter"></a>
+
+### Chart.GetParameter(propName: System.String)
+
+Gets the parameter corresponding to the given property.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="Chart.GroupAllSimilarChildren"></a>
 
 ### Chart.GroupAllSimilarChildren()
 
@@ -231,17 +283,15 @@ Run the GroupAllSimilarChildren action.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="Chart.GroupSimilarObjects"></a>
+
 ### Chart.GroupSimilarObjects()
 
 Run the GroupSimilarObjects action.
 
 <!-- !! processed by numpydoc !! -->
 
-### Chart.PropertyByName(name: System.String)
-
-Get a property by its unique name.
-
-<!-- !! processed by numpydoc !! -->
+<a id="Chart.PropertyByAPIName"></a>
 
 ### Chart.PropertyByAPIName(name: System.String)
 
@@ -252,17 +302,15 @@ If multiple properties have the same API Name, only the first property with that
 
 <!-- !! processed by numpydoc !! -->
 
-### Chart.CreateParameter(propName: System.String)
+<a id="Chart.PropertyByName"></a>
 
-Creates a new parameter for a Property.
+### Chart.PropertyByName(name: System.String)
 
-<!-- !! processed by numpydoc !! -->
-
-### Chart.GetParameter(propName: System.String)
-
-Gets the parameter corresponding to the given property.
+Get a property by its unique name.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="Chart.RemoveParameter"></a>
 
 ### Chart.RemoveParameter(propName: System.String)
 

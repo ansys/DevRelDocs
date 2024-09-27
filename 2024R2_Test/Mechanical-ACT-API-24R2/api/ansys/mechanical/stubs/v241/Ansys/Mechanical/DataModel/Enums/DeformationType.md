@@ -1,6 +1,6 @@
 # `DeformationType`
 
-
+<a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DeformationType"></a>
 
 #### *class* ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DeformationType
 
@@ -17,9 +17,9 @@ Specifies the DeformationType.
 ### Attributes
 
 | Name |
-| ------------------------------------------------------------------------------------------------------------------------ |
-| [`Directional`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/DeformationType.md#DeformationType.Directional) |
-| [`Total`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/DeformationType.md#DeformationType.Total) |
+| ------------------------------------------------- |
+| [`Directional`](#DeformationType.Directional) |
+| [`Total`](#DeformationType.Total) |
 
 <a id="attribute-detail"></a>
 

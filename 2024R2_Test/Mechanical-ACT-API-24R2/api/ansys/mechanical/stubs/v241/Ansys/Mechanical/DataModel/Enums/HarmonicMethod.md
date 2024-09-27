@@ -1,6 +1,6 @@
 # `HarmonicMethod`
 
-
+<a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.HarmonicMethod"></a>
 
 #### *class* ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.HarmonicMethod
 
@@ -17,12 +17,12 @@ Specifies the HarmonicMethod.
 ### Attributes
 
 | Name |
-| ---------------------------------------------------------------------------------------------------------------------------------------- |
-| [`Full`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/HarmonicMethod.md#HarmonicMethod.Full) |
-| [`Krylov`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/HarmonicMethod.md#HarmonicMethod.Krylov) |
-| [`ModeSuperposition`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/HarmonicMethod.md#HarmonicMethod.ModeSuperposition) |
-| [`ProgramControlled`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/HarmonicMethod.md#HarmonicMethod.ProgramControlled) |
-| [`VariationalTechnology`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/HarmonicMethod.md#HarmonicMethod.VariationalTechnology) |
+| ------------------------------------------------------------------ |
+| [`Full`](#HarmonicMethod.Full) |
+| [`Krylov`](#HarmonicMethod.Krylov) |
+| [`ModeSuperposition`](#HarmonicMethod.ModeSuperposition) |
+| [`ProgramControlled`](#HarmonicMethod.ProgramControlled) |
+| [`VariationalTechnology`](#HarmonicMethod.VariationalTechnology) |
 
 <a id="attribute-detail"></a>
 

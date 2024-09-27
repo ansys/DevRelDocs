@@ -1,6 +1,6 @@
 # `ImportedCondensedPartStatus`
 
-
+<a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.ImportedCondensedPartStatus"></a>
 
 #### *class* ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.ImportedCondensedPartStatus
 
@@ -17,11 +17,11 @@ Specifies the ImportedCondensedPartStatus.
 ### Attributes
 
 | Name |
-| -------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| [`FileSelectionRequired`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/ImportedCondensedPartStatus.md#ImportedCondensedPartStatus.FileSelectionRequired) |
-| [`ImportFailed`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/ImportedCondensedPartStatus.md#ImportedCondensedPartStatus.ImportFailed) |
-| [`ImportRequired`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/ImportedCondensedPartStatus.md#ImportedCondensedPartStatus.ImportRequired) |
-| [`ImportSuccessful`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/ImportedCondensedPartStatus.md#ImportedCondensedPartStatus.ImportSuccessful) |
+| --------------------------------------------------------------------------------- |
+| [`FileSelectionRequired`](#ImportedCondensedPartStatus.FileSelectionRequired) |
+| [`ImportFailed`](#ImportedCondensedPartStatus.ImportFailed) |
+| [`ImportRequired`](#ImportedCondensedPartStatus.ImportRequired) |
+| [`ImportSuccessful`](#ImportedCondensedPartStatus.ImportSuccessful) |
 
 <a id="attribute-detail"></a>
 

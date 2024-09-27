@@ -1,6 +1,6 @@
 # `DSRotationAdapter`
 
-
+<a id="ansys.mechanical.stubs.v242.Ansys.ACT.Mechanical.Fields.Adapters.DSRotationAdapter"></a>
 
 #### *class* ansys.mechanical.stubs.v242.Ansys.ACT.Mechanical.Fields.Adapters.DSRotationAdapter
 
@@ -17,18 +17,20 @@ Adapter dedicated to IDSRotationAuto objects.
 ### Methods
 
 | Name | Description |
-|-------------------------------|-------------------------------------|
-| `ChangeFieldDefinitionType`   | ChangeFieldDefinitionType method.   |
+|---------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------|
+| [`ChangeFieldDefinitionType`](#DSRotationAdapter.ChangeFieldDefinitionType)   | ChangeFieldDefinitionType method.   |
 
 ### Properties
 
 | Name | Description |
-|-------------------|--------------------------------------------|
-| `FieldProvider`   | Gets the wrapped object from Mechanical.   |
+|---------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------|
+| [`FieldProvider`](#DSRotationAdapter.FieldProvider)   | Gets the wrapped object from Mechanical.   |
 
 <a id="property-detail"></a>
 
 ## Property detail
+
+<a id="DSRotationAdapter.FieldProvider"></a>
 
 ### *property* DSRotationAdapter.FieldProvider *: Ansys.Common.Interop.DSObjects.IDSBCInformation | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -39,6 +41,8 @@ Gets the wrapped object from Mechanical.
 <a id="method-detail"></a>
 
 ## Method detail
+
+<a id="DSRotationAdapter.ChangeFieldDefinitionType"></a>
 
 ### DSRotationAdapter.ChangeFieldDefinitionType(componentType: Ansys.Common.Interop.CAERepObjects.AnsBCLVType, newType: Ansys.Common.Interop.AnsMaterial.kEDDataType)
 

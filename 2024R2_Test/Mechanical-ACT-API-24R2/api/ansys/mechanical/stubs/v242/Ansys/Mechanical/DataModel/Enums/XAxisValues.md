@@ -1,6 +1,6 @@
 # `XAxisValues`
 
-
+<a id="ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.XAxisValues"></a>
 
 #### *class* ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.XAxisValues
 
@@ -17,7 +17,7 @@ Specifies the XAxisValues.
 ### Attributes
 
 | Name |
-| ------------------------------------------------------------- |
+| -------------------------------------------------------------------------------------------------------------------------------- |
 | [`CumulativeIteration`](#XAxisValues.CumulativeIteration) |
 | [`Time`](#XAxisValues.Time) |
 

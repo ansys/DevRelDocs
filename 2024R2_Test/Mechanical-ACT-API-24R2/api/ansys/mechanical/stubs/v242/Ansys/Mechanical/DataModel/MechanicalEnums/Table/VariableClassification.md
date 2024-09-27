@@ -1,6 +1,6 @@
 # `VariableClassification`
 
-
+<a id="ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.MechanicalEnums.Table.VariableClassification"></a>
 
 #### *class* ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.MechanicalEnums.Table.VariableClassification
 
@@ -24,7 +24,7 @@ same name in the frontend Angular project.
 ### Attributes
 
 | Name |
-| -------------------------------------------------------- |
+| --------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | [`Independent`](#VariableClassification.Independent) |
 | [`Real`](#VariableClassification.Real) |
 | [`Real_i`](#VariableClassification.Real_i) |

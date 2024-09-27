@@ -1,6 +1,6 @@
 # `CoordinateSystemAxisType`
 
-
+<a id="ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.CoordinateSystemAxisType"></a>
 
 #### *class* ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.CoordinateSystemAxisType
 
@@ -17,7 +17,7 @@ Specifies the CoordinateSystemAxisType.
 ### Attributes
 
 | Name |
-| -------------------------------------------------------------- |
+| ---------------------------------------------------------------------------------------------------------------------------------------------- |
 | [`NegativeXAxis`](#CoordinateSystemAxisType.NegativeXAxis) |
 | [`NegativeYAxis`](#CoordinateSystemAxisType.NegativeYAxis) |
 | [`NegativeZAxis`](#CoordinateSystemAxisType.NegativeZAxis) |

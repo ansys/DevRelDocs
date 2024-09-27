@@ -1,6 +1,6 @@
 # `ProximitySFSourcesType`
 
-
+<a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.ProximitySFSourcesType"></a>
 
 #### *class* ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.ProximitySFSourcesType
 
@@ -17,25 +17,25 @@ Specifies the ProximitySFSourcesType.
 ### Attributes
 
 | Name |
-| ------------------------------------------------------------------------------------------------------------------------------------------ |
-| [`FacesAndEdges`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/ProximitySFSourcesType.md#ProximitySFSourcesType.FacesAndEdges) |
-| [`Faces`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/ProximitySFSourcesType.md#ProximitySFSourcesType.Faces) |
-| [`Edges`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/ProximitySFSourcesType.md#ProximitySFSourcesType.Edges) |
+| ---------------------------------------------------------- |
+| [`Edges`](#ProximitySFSourcesType.Edges) |
+| [`Faces`](#ProximitySFSourcesType.Faces) |
+| [`FacesAndEdges`](#ProximitySFSourcesType.FacesAndEdges) |
 
 <a id="attribute-detail"></a>
 
 ## Attribute detail
 
-<a id="ProximitySFSourcesType.FacesAndEdges"></a>
+<a id="ProximitySFSourcesType.Edges"></a>
 
-### ProximitySFSourcesType.FacesAndEdges *= 0*
+### ProximitySFSourcesType.Edges *= 2*
 
 <a id="ProximitySFSourcesType.Faces"></a>
 
 ### ProximitySFSourcesType.Faces *= 1*
 
-<a id="ProximitySFSourcesType.Edges"></a>
+<a id="ProximitySFSourcesType.FacesAndEdges"></a>
 
-### ProximitySFSourcesType.Edges *= 2*
+### ProximitySFSourcesType.FacesAndEdges *= 0*
 
 

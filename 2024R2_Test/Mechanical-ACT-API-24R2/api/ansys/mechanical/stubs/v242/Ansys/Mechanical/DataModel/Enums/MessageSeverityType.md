@@ -1,6 +1,6 @@
 # `MessageSeverityType`
 
-
+<a id="ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.MessageSeverityType"></a>
 
 #### *class* ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.MessageSeverityType
 
@@ -17,18 +17,14 @@ Specifies the Message Severity Type.
 ### Attributes
 
 | Name |
-| --------------------------------------------- |
-| [`Warning`](#MessageSeverityType.Warning) |
+| ---------------------------------------------------------------------------------------------------------------------- |
 | [`Error`](#MessageSeverityType.Error) |
 | [`Info`](#MessageSeverityType.Info) |
+| [`Warning`](#MessageSeverityType.Warning) |
 
 <a id="attribute-detail"></a>
 
 ## Attribute detail
-
-<a id="MessageSeverityType.Warning"></a>
-
-### MessageSeverityType.Warning *= 0*
 
 <a id="MessageSeverityType.Error"></a>
 
@@ -37,5 +33,9 @@ Specifies the Message Severity Type.
 <a id="MessageSeverityType.Info"></a>
 
 ### MessageSeverityType.Info *= 2*
+
+<a id="MessageSeverityType.Warning"></a>
+
+### MessageSeverityType.Warning *= 0*
 
 

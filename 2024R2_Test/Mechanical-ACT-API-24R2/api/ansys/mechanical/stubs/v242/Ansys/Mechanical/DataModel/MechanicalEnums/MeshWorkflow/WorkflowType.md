@@ -1,12 +1,12 @@
 # `WorkflowType`
 
-
+<a id="ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.MechanicalEnums.MeshWorkflow.WorkflowType"></a>
 
 #### *class* ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.MechanicalEnums.MeshWorkflow.WorkflowType
 
 Bases: [`enum.Enum`](https://docs.python.org/3/library/enum.html#enum.Enum)
 
-This enum is referenced in the ìStepsî tree node and reflects the type of workflow being configured. Based on the type of workflow different rules are applied which define the applicable order and type of operations which can be added.
+This enum is referenced in the ‚ÄúSteps‚Äù tree node and reflects the type of workflow being configured. Based on the type of workflow different rules are applied which define the applicable order and type of operations which can be added.
 
 <!-- !! processed by numpydoc !! -->
 
@@ -17,7 +17,7 @@ This enum is referenced in the ìStepsî tree node and reflects the type of workfl
 ### Attributes
 
 | Name |
-| -------------------------------------------------------------------- |
+| ------------------------------------------------------------------------------------------------------------------------------------------------------------ |
 | [`BEMAcoustics`](#WorkflowType.BEMAcoustics) |
 | [`FEMAcousticsExternal`](#WorkflowType.FEMAcousticsExternal) |
 | [`FEMAcousticsFSI`](#WorkflowType.FEMAcousticsFSI) |

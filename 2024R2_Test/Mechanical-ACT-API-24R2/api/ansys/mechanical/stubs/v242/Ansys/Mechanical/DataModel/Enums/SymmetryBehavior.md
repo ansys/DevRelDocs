@@ -1,6 +1,6 @@
 # `SymmetryBehavior`
 
-
+<a id="ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.SymmetryBehavior"></a>
 
 #### *class* ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.SymmetryBehavior
 
@@ -17,7 +17,7 @@ Specifies the SymmetryBehavior.
 ### Attributes
 
 | Name |
-| ------------------------------------------ |
+| ------------------------------------------------------------------------------------------------------------------ |
 | [`Coupled`](#SymmetryBehavior.Coupled) |
 | [`Free`](#SymmetryBehavior.Free) |
 

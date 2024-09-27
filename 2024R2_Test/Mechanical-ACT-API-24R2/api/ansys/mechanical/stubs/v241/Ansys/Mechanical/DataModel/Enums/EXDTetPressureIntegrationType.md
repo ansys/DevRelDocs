@@ -1,6 +1,6 @@
 # `EXDTetPressureIntegrationType`
 
-
+<a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.EXDTetPressureIntegrationType"></a>
 
 #### *class* ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.EXDTetPressureIntegrationType
 
@@ -15,10 +15,10 @@ Bases: [`enum.Enum`](https://docs.python.org/3/library/enum.html#enum.Enum)
 ### Attributes
 
 | Name |
-| ------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| [`AverageNodal`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/EXDTetPressureIntegrationType.md#EXDTetPressureIntegrationType.AverageNodal) |
-| [`Constant`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/EXDTetPressureIntegrationType.md#EXDTetPressureIntegrationType.Constant) |
-| [`NBS`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/EXDTetPressureIntegrationType.md#EXDTetPressureIntegrationType.NBS) |
+| ----------------------------------------------------------------- |
+| [`AverageNodal`](#EXDTetPressureIntegrationType.AverageNodal) |
+| [`Constant`](#EXDTetPressureIntegrationType.Constant) |
+| [`NBS`](#EXDTetPressureIntegrationType.NBS) |
 
 <a id="attribute-detail"></a>
 

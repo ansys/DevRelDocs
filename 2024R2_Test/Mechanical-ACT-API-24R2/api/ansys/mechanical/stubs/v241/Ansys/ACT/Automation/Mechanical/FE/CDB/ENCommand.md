@@ -1,6 +1,6 @@
 # `ENCommand`
 
-
+<a id="ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.FE.CDB.ENCommand"></a>
 
 #### *class* ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.FE.CDB.ENCommand
 
@@ -17,27 +17,25 @@ Represents an EN command.
 ### Properties
 
 | Name | Description |
-|----------|--------------------------------------|
-| `Type`   | Gets the type (attribute or node).   |
-| `Values` | Gets the values.                     |
-| `Name`   | Gets the command name.               |
-| `Index`  | Gets the command index.              |
+|------------------------------------------------------------------------------------------------------------|------------------------------------|
+| [`Index`](#ENCommand.Index)   | Gets the command index.            |
+| [`Name`](#ENCommand.Name)     | Gets the command name.             |
+| [`Type`](#ENCommand.Type)     | Gets the type (attribute or node). |
+| [`Values`](#ENCommand.Values) | Gets the values.                   |
 
 <a id="property-detail"></a>
 
 ## Property detail
 
-### *property* ENCommand.Type *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+<a id="ENCommand.Index"></a>
 
-Gets the type (attribute or node).
+### *property* ENCommand.Index *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
 
-<!-- !! processed by numpydoc !! -->
-
-### *property* ENCommand.Values *: System.Collections.Generic.IReadOnlyList[System.Int32] | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets the values.
+Gets the command index.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="ENCommand.Name"></a>
 
 ### *property* ENCommand.Name *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -45,9 +43,19 @@ Gets the command name.
 
 <!-- !! processed by numpydoc !! -->
 
-### *property* ENCommand.Index *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+<a id="ENCommand.Type"></a>
 
-Gets the command index.
+### *property* ENCommand.Type *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets the type (attribute or node).
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ENCommand.Values"></a>
+
+### *property* ENCommand.Values *: System.Collections.Generic.IReadOnlyList[System.Int32] | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets the values.
 
 <!-- !! processed by numpydoc !! -->
 

@@ -1,6 +1,6 @@
 # `ImportedCondensedPartStatus`
 
-
+<a id="ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.ImportedCondensedPartStatus"></a>
 
 #### *class* ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.ImportedCondensedPartStatus
 
@@ -17,7 +17,7 @@ Specifies the ImportedCondensedPartStatus.
 ### Attributes
 
 | Name |
-| --------------------------------------------------------------------------------- |
+| -------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | [`FileSelectionRequired`](#ImportedCondensedPartStatus.FileSelectionRequired) |
 | [`ImportFailed`](#ImportedCondensedPartStatus.ImportFailed) |
 | [`ImportRequired`](#ImportedCondensedPartStatus.ImportRequired) |

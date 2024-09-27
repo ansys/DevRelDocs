@@ -1,6 +1,6 @@
 # `OptimizationResponseConstraintComponentType`
 
-
+<a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.OptimizationResponseConstraintComponentType"></a>
 
 #### *class* ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.OptimizationResponseConstraintComponentType
 
@@ -17,10 +17,10 @@ Specifies the OptimizationResponseConstraintComponentType.
 ### Attributes
 
 | Name |
-| ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| [`XComponentMax`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/OptimizationResponseConstraintComponentType.md#OptimizationResponseConstraintComponentType.XComponentMax) |
-| [`YComponentMax`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/OptimizationResponseConstraintComponentType.md#OptimizationResponseConstraintComponentType.YComponentMax) |
-| [`ZComponentMax`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/OptimizationResponseConstraintComponentType.md#OptimizationResponseConstraintComponentType.ZComponentMax) |
+| --------------------------------------------------------------------------------- |
+| [`XComponentMax`](#OptimizationResponseConstraintComponentType.XComponentMax) |
+| [`YComponentMax`](#OptimizationResponseConstraintComponentType.YComponentMax) |
+| [`ZComponentMax`](#OptimizationResponseConstraintComponentType.ZComponentMax) |
 
 <a id="attribute-detail"></a>
 

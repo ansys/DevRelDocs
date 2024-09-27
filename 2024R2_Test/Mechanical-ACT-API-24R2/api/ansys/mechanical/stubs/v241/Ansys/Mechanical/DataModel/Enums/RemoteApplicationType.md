@@ -1,6 +1,6 @@
 # `RemoteApplicationType`
 
-
+<a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.RemoteApplicationType"></a>
 
 #### *class* ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.RemoteApplicationType
 
@@ -17,9 +17,9 @@ Specifies the RemoteApplicationType.
 ### Attributes
 
 | Name |
-| ---------------------------------------------------------------------------------------------------------------------------------------------- |
-| [`DirectAttachment`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/RemoteApplicationType.md#RemoteApplicationType.DirectAttachment) |
-| [`RemoteAttachment`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/RemoteApplicationType.md#RemoteApplicationType.RemoteAttachment) |
+| ----------------------------------------------------------------- |
+| [`DirectAttachment`](#RemoteApplicationType.DirectAttachment) |
+| [`RemoteAttachment`](#RemoteApplicationType.RemoteAttachment) |
 
 <a id="attribute-detail"></a>
 

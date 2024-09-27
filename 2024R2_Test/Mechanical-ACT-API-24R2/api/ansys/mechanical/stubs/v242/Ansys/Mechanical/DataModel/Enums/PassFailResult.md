@@ -1,6 +1,6 @@
 # `PassFailResult`
 
-
+<a id="ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.PassFailResult"></a>
 
 #### *class* ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.PassFailResult
 
@@ -17,7 +17,7 @@ Specifies the PassFailResult.
 ### Attributes
 
 | Name |
-| ------------------------------------------------ |
+| ---------------------------------------------------------------------------------------------------------------------- |
 | [`FailedAbove`](#PassFailResult.FailedAbove) |
 | [`FailedBelow`](#PassFailResult.FailedBelow) |
 | [`PassedAbove`](#PassFailResult.PassedAbove) |
