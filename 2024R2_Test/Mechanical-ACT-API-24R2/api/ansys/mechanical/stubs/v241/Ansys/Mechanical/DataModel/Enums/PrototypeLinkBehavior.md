@@ -1,6 +1,6 @@
 # `PrototypeLinkBehavior`
 
-
+<a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.PrototypeLinkBehavior"></a>
 
 #### *class* ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.PrototypeLinkBehavior
 
@@ -17,10 +17,10 @@ Specifies the PrototypeLinkBehavior.
 ### Attributes
 
 | Name |
-| ------------------------------------------------------------------------------------------------------------------------------------------------ |
-| [`Compression`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/PrototypeLinkBehavior.md#PrototypeLinkBehavior.Compression) |
-| [`Tension`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/PrototypeLinkBehavior.md#PrototypeLinkBehavior.Tension) |
-| [`TensionCompression`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/PrototypeLinkBehavior.md#PrototypeLinkBehavior.TensionCompression) |
+| ------------------------------------------------------------------- |
+| [`Compression`](#PrototypeLinkBehavior.Compression) |
+| [`Tension`](#PrototypeLinkBehavior.Tension) |
+| [`TensionCompression`](#PrototypeLinkBehavior.TensionCompression) |
 
 <a id="attribute-detail"></a>
 

@@ -1,6 +1,6 @@
 # `TotalOrDirectional`
 
-
+<a id="ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.TotalOrDirectional"></a>
 
 #### *class* ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.TotalOrDirectional
 
@@ -17,7 +17,7 @@ Specifies the TotalOrDirectional.
 ### Attributes
 
 | Name |
-| ---------------------------------------------------- |
+| ------------------------------------------------------------------------------------------------------------------------------ |
 | [`Directional`](#TotalOrDirectional.Directional) |
 | [`Total`](#TotalOrDirectional.Total) |
 

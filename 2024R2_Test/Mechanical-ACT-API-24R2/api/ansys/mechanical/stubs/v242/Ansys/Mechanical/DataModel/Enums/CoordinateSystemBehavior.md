@@ -1,6 +1,6 @@
 # `CoordinateSystemBehavior`
 
-
+<a id="ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.CoordinateSystemBehavior"></a>
 
 #### *class* ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.CoordinateSystemBehavior
 
@@ -17,7 +17,7 @@ Specifies the CoordinateSystemBehavior.
 ### Attributes
 
 | Name |
-| -------------------------------------------------------------------- |
+| ---------------------------------------------------------------------------------------------------------------------------------------------------- |
 | [`Manual`](#CoordinateSystemBehavior.Manual) |
 | [`ProgramControlled`](#CoordinateSystemBehavior.ProgramControlled) |
 

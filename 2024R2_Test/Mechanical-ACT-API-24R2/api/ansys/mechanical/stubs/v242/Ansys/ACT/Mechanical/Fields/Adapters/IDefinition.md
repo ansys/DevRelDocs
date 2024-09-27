@@ -1,6 +1,6 @@
 # `IDefinition`
 
-
+<a id="ansys.mechanical.stubs.v242.Ansys.ACT.Mechanical.Fields.Adapters.IDefinition"></a>
 
 #### *class* ansys.mechanical.stubs.v242.Ansys.ACT.Mechanical.Fields.Adapters.IDefinition
 
@@ -17,12 +17,14 @@ IDefinition interface.
 ### Methods
 
 | Name | Description |
-|-----------|---------------------------------------------------------------|
-| `Adapt`   | Creates an adapter for a given load object from Mechanical.   |
+|-----------------------------------------------------------------------------------------------------------|---------------------------------------------------------------|
+| [`Adapt`](#IDefinition.Adapt)   | Creates an adapter for a given load object from Mechanical.   |
 
 <a id="method-detail"></a>
 
 ## Method detail
+
+<a id="IDefinition.Adapt"></a>
 
 ### IDefinition.Adapt(load: Ansys.Common.Interop.DSObjects.IDSBCInformation)
 

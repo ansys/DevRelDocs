@@ -1,6 +1,6 @@
 # `MAPDLLayeredSectionData`
 
-
+<a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.SolverData.MAPDLLayeredSectionData"></a>
 
 #### *class* ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.SolverData.MAPDLLayeredSectionData
 
@@ -17,12 +17,14 @@ MAPDLLayeredSectionData class.
 ### Properties
 
 | Name | Description |
-|---------------|------------------------------------------------|
-| `SectionId`   | Gets the section Id for the layered section.   |
+|-----------------------------------------------------|------------------------------------------------|
+| [`SectionId`](#MAPDLLayeredSectionData.SectionId)   | Gets the section Id for the layered section.   |
 
 <a id="property-detail"></a>
 
 ## Property detail
+
+<a id="MAPDLLayeredSectionData.SectionId"></a>
 
 ### *property* MAPDLLayeredSectionData.SectionId *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
 

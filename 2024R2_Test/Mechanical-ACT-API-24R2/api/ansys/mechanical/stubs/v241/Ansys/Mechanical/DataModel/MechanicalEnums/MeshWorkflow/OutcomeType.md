@@ -1,12 +1,12 @@
 # `OutcomeType`
 
-
+<a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.MechanicalEnums.MeshWorkflow.OutcomeType"></a>
 
 #### *class* ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.MechanicalEnums.MeshWorkflow.OutcomeType
 
 Bases: [`enum.Enum`](https://docs.python.org/3/library/enum.html#enum.Enum)
 
-This enum is referenced in the ìOutcomeî tree node and reflects the type of outcome being configured. Based on the type of an outcome different rules are applied which define the applicable list of outcome data to be used.
+This enum is referenced in the ‚ÄúOutcome‚Äù tree node and reflects the type of outcome being configured. Based on the type of an outcome different rules are applied which define the applicable list of outcome data to be used.
 
 <!-- !! processed by numpydoc !! -->
 
@@ -17,15 +17,15 @@ This enum is referenced in the ìOutcomeî tree node and reflects the type of outc
 ### Attributes
 
 | Name |
-| ---------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| [`EnclosureExternalScope`](../../../../../../v242/Ansys/Mechanical/DataModel/MechanicalEnums/MeshWorkflow/OutcomeType.md#OutcomeType.EnclosureExternalScope) |
-| [`EnclosureInternalScope`](../../../../../../v242/Ansys/Mechanical/DataModel/MechanicalEnums/MeshWorkflow/OutcomeType.md#OutcomeType.EnclosureInternalScope) |
-| [`ExtrusionEndScope`](../../../../../../v242/Ansys/Mechanical/DataModel/MechanicalEnums/MeshWorkflow/OutcomeType.md#OutcomeType.ExtrusionEndScope) |
-| [`ExtrusionStartScope`](../../../../../../v242/Ansys/Mechanical/DataModel/MechanicalEnums/MeshWorkflow/OutcomeType.md#OutcomeType.ExtrusionStartScope) |
-| [`FaceZoneScope`](../../../../../../v242/Ansys/Mechanical/DataModel/MechanicalEnums/MeshWorkflow/OutcomeType.md#OutcomeType.FaceZoneScope) |
-| [`FailureInfo`](../../../../../../v242/Ansys/Mechanical/DataModel/MechanicalEnums/MeshWorkflow/OutcomeType.md#OutcomeType.FailureInfo) |
-| [`Scope`](../../../../../../v242/Ansys/Mechanical/DataModel/MechanicalEnums/MeshWorkflow/OutcomeType.md#OutcomeType.Scope) |
-| [`VolumeZoneScope`](../../../../../../v242/Ansys/Mechanical/DataModel/MechanicalEnums/MeshWorkflow/OutcomeType.md#OutcomeType.VolumeZoneScope) |
+| ------------------------------------------------------------------- |
+| [`EnclosureExternalScope`](#OutcomeType.EnclosureExternalScope) |
+| [`EnclosureInternalScope`](#OutcomeType.EnclosureInternalScope) |
+| [`ExtrusionEndScope`](#OutcomeType.ExtrusionEndScope) |
+| [`ExtrusionStartScope`](#OutcomeType.ExtrusionStartScope) |
+| [`FaceZoneScope`](#OutcomeType.FaceZoneScope) |
+| [`FailureInfo`](#OutcomeType.FailureInfo) |
+| [`Scope`](#OutcomeType.Scope) |
+| [`VolumeZoneScope`](#OutcomeType.VolumeZoneScope) |
 
 <a id="attribute-detail"></a>
 

@@ -1,6 +1,6 @@
 # `SelectionOperatorType`
 
-
+<a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.SelectionOperatorType"></a>
 
 #### *class* ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.SelectionOperatorType
 
@@ -17,32 +17,44 @@ Specifies the selection operator type.
 ### Attributes
 
 | Name |
-| ------------------------------------------------------------------------------------------------------------------------------------------------ |
-| [`Equal`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/SelectionOperatorType.md#SelectionOperatorType.Equal) |
-| [`NotEqual`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/SelectionOperatorType.md#SelectionOperatorType.NotEqual) |
-| [`LessThan`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/SelectionOperatorType.md#SelectionOperatorType.LessThan) |
-| [`LessThanOrEqual`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/SelectionOperatorType.md#SelectionOperatorType.LessThanOrEqual) |
-| [`GreaterThan`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/SelectionOperatorType.md#SelectionOperatorType.GreaterThan) |
-| [`GreaterThanOrEqual`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/SelectionOperatorType.md#SelectionOperatorType.GreaterThanOrEqual) |
-| [`RangeExclude`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/SelectionOperatorType.md#SelectionOperatorType.RangeExclude) |
-| [`RangeInclude`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/SelectionOperatorType.md#SelectionOperatorType.RangeInclude) |
-| [`Smallest`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/SelectionOperatorType.md#SelectionOperatorType.Smallest) |
-| [`Largest`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/SelectionOperatorType.md#SelectionOperatorType.Largest) |
-| [`Yes`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/SelectionOperatorType.md#SelectionOperatorType.Yes) |
-| [`No`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/SelectionOperatorType.md#SelectionOperatorType.No) |
-| [`Contains`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/SelectionOperatorType.md#SelectionOperatorType.Contains) |
+| ------------------------------------------------------------------- |
+| [`Contains`](#SelectionOperatorType.Contains) |
+| [`Equal`](#SelectionOperatorType.Equal) |
+| [`GreaterThan`](#SelectionOperatorType.GreaterThan) |
+| [`GreaterThanOrEqual`](#SelectionOperatorType.GreaterThanOrEqual) |
+| [`Largest`](#SelectionOperatorType.Largest) |
+| [`LessThan`](#SelectionOperatorType.LessThan) |
+| [`LessThanOrEqual`](#SelectionOperatorType.LessThanOrEqual) |
+| [`No`](#SelectionOperatorType.No) |
+| [`NotEqual`](#SelectionOperatorType.NotEqual) |
+| [`RangeExclude`](#SelectionOperatorType.RangeExclude) |
+| [`RangeInclude`](#SelectionOperatorType.RangeInclude) |
+| [`Smallest`](#SelectionOperatorType.Smallest) |
+| [`Yes`](#SelectionOperatorType.Yes) |
 
 <a id="attribute-detail"></a>
 
 ## Attribute detail
 
+<a id="SelectionOperatorType.Contains"></a>
+
+### SelectionOperatorType.Contains *= 13*
+
 <a id="SelectionOperatorType.Equal"></a>
 
 ### SelectionOperatorType.Equal *= 1*
 
-<a id="SelectionOperatorType.NotEqual"></a>
+<a id="SelectionOperatorType.GreaterThan"></a>
 
-### SelectionOperatorType.NotEqual *= 2*
+### SelectionOperatorType.GreaterThan *= 5*
+
+<a id="SelectionOperatorType.GreaterThanOrEqual"></a>
+
+### SelectionOperatorType.GreaterThanOrEqual *= 6*
+
+<a id="SelectionOperatorType.Largest"></a>
+
+### SelectionOperatorType.Largest *= 10*
 
 <a id="SelectionOperatorType.LessThan"></a>
 
@@ -52,13 +64,13 @@ Specifies the selection operator type.
 
 ### SelectionOperatorType.LessThanOrEqual *= 4*
 
-<a id="SelectionOperatorType.GreaterThan"></a>
+<a id="SelectionOperatorType.No"></a>
 
-### SelectionOperatorType.GreaterThan *= 5*
+### SelectionOperatorType.No *= 12*
 
-<a id="SelectionOperatorType.GreaterThanOrEqual"></a>
+<a id="SelectionOperatorType.NotEqual"></a>
 
-### SelectionOperatorType.GreaterThanOrEqual *= 6*
+### SelectionOperatorType.NotEqual *= 2*
 
 <a id="SelectionOperatorType.RangeExclude"></a>
 
@@ -72,20 +84,8 @@ Specifies the selection operator type.
 
 ### SelectionOperatorType.Smallest *= 9*
 
-<a id="SelectionOperatorType.Largest"></a>
-
-### SelectionOperatorType.Largest *= 10*
-
 <a id="SelectionOperatorType.Yes"></a>
 
 ### SelectionOperatorType.Yes *= 11*
-
-<a id="SelectionOperatorType.No"></a>
-
-### SelectionOperatorType.No *= 12*
-
-<a id="SelectionOperatorType.Contains"></a>
-
-### SelectionOperatorType.Contains *= 13*
 
 

@@ -1,6 +1,6 @@
 # `HyperbolicProjectionType`
 
-
+<a id="ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.HyperbolicProjectionType"></a>
 
 #### *class* ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.HyperbolicProjectionType
 
@@ -17,7 +17,7 @@ Specifies the HyperbolicProjectionType.
 ### Attributes
 
 | Name |
-| -------------------------------------------------------------------- |
+| ---------------------------------------------------------------------------------------------------------------------------------------------------- |
 | [`No`](#HyperbolicProjectionType.No) |
 | [`ProgramControlled`](#HyperbolicProjectionType.ProgramControlled) |
 | [`Yes`](#HyperbolicProjectionType.Yes) |

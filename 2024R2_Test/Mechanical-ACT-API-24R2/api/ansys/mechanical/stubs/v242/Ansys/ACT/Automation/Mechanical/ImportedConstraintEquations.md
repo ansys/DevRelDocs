@@ -1,6 +1,6 @@
 # `ImportedConstraintEquations`
 
-
+<a id="ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.ImportedConstraintEquations"></a>
 
 #### *class* ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.ImportedConstraintEquations
 
@@ -17,68 +17,44 @@ Defines a ImportedConstraintEquations.
 ### Methods
 
 | Name | Description |
-|---------------------------|-----------------------------------------------------------------------------------|
-| `Delete`                  | Run the Delete action.                                                            |
-| `GetChildren`             | Gets the list of children, filtered by type.                                      |
-| `GetChildren`             | Gets the list of children, filtered by type.                                      |
-| `AddComment`              | Creates a new child Comment.                                                      |
-| `AddFigure`               | Creates a new child Figure.                                                       |
-| `AddImage`                | Creates a new child Image.                                                        |
-| `Activate`                | Activate the current object.                                                      |
-| `CopyTo`                  | Copies all visible properties from this object to another.                        |
-| `Duplicate`               | Creates a copy of the current DataModelObject.                                    |
-| `GroupAllSimilarChildren` | Run the GroupAllSimilarChildren action.                                           |
-| `GroupSimilarObjects`     | Run the GroupSimilarObjects action.                                               |
-| `PropertyByName`          | Get a property by its unique name.                                                |
-| `PropertyByAPIName`       | Get a property by its API name.                                                   |
-| `CreateParameter`         | Creates a new parameter for a Property.                                           |
-| `GetParameter`            | Gets the parameter corresponding to the given property.                           |
-| `RemoveParameter`         | Removes the parameter from the parameter set corresponding to the given property. |
+|-----------------------------------------------------------------------------------|-----------------------------------------------------------------------------------|
+| [`Activate`](#ImportedConstraintEquations.Activate)                               | Activate the current object.                                                      |
+| [`AddComment`](#ImportedConstraintEquations.AddComment)                           | Creates a new child Comment.                                                      |
+| [`AddFigure`](#ImportedConstraintEquations.AddFigure)                             | Creates a new child Figure.                                                       |
+| [`AddImage`](#ImportedConstraintEquations.AddImage)                               | Creates a new child Image.                                                        |
+| [`CopyTo`](#ImportedConstraintEquations.CopyTo)                                   | Copies all visible properties from this object to another.                        |
+| [`CreateParameter`](#ImportedConstraintEquations.CreateParameter)                 | Creates a new parameter for a Property.                                           |
+| [`Delete`](#ImportedConstraintEquations.Delete)                                   | Run the Delete action.                                                            |
+| [`Duplicate`](#ImportedConstraintEquations.Duplicate)                             | Creates a copy of the current DataModelObject.                                    |
+| [`GetChildren`](#ImportedConstraintEquations.GetChildren)                         | Gets the list of children, filtered by type.                                      |
+| [`GetParameter`](#ImportedConstraintEquations.GetParameter)                       | Gets the parameter corresponding to the given property.                           |
+| [`GroupAllSimilarChildren`](#ImportedConstraintEquations.GroupAllSimilarChildren) | Run the GroupAllSimilarChildren action.                                           |
+| [`GroupSimilarObjects`](#ImportedConstraintEquations.GroupSimilarObjects)         | Run the GroupSimilarObjects action.                                               |
+| [`PropertyByAPIName`](#ImportedConstraintEquations.PropertyByAPIName)             | Get a property by its API name.                                                   |
+| [`PropertyByName`](#ImportedConstraintEquations.PropertyByName)                   | Get a property by its unique name.                                                |
+| [`RemoveParameter`](#ImportedConstraintEquations.RemoveParameter)                 | Removes the parameter from the parameter set corresponding to the given property. |
 
 ### Properties
 
 | Name | Description |
-|---------------------------|---------------------------------------------------------------|
-| `InternalObject`          | Gets the internal object. For advanced usage only.            |
-| `DataModelObjectCategory` | Gets the current DataModelObject's category.                  |
-| `Count`                   | Gets the NumberOfRows.                                        |
-| `Suppressed`              | Gets or sets the Suppressed.                                  |
-| `Children`                | Gets the list of children.                                    |
-| `Comments`                | Gets the list of associated comments.                         |
-| `Figures`                 | Gets the list of associated figures.                          |
-| `Images`                  | Gets the list of associated images.                           |
-| `ReadOnly`                | Gets or sets the ReadOnly.                                    |
-| `InternalObject`          | Gets the internal object. For advanced usage only.            |
-| `Properties`              | Gets the list of properties for this object.                  |
-| `VisibleProperties`       | Gets the list of properties that are visible for this object. |
+|-----------------------------------------------------------------------------------|---------------------------------------------------------------|
+| [`Children`](#ImportedConstraintEquations.Children)                               | Gets the list of children.                                    |
+| [`Comments`](#ImportedConstraintEquations.Comments)                               | Gets the list of associated comments.                         |
+| [`Count`](#ImportedConstraintEquations.Count)                                     | Gets the NumberOfRows.                                        |
+| [`DataModelObjectCategory`](#ImportedConstraintEquations.DataModelObjectCategory) | Gets the current DataModelObject’s category.                  |
+| [`Figures`](#ImportedConstraintEquations.Figures)                                 | Gets the list of associated figures.                          |
+| [`Images`](#ImportedConstraintEquations.Images)                                   | Gets the list of associated images.                           |
+| [`InternalObject`](#ImportedConstraintEquations.InternalObject)                   | Gets the internal object. For advanced usage only.            |
+| [`Properties`](#ImportedConstraintEquations.Properties)                           | Gets the list of properties for this object.                  |
+| [`ReadOnly`](#ImportedConstraintEquations.ReadOnly)                               | Gets or sets the ReadOnly.                                    |
+| [`Suppressed`](#ImportedConstraintEquations.Suppressed)                           | Gets or sets the Suppressed.                                  |
+| [`VisibleProperties`](#ImportedConstraintEquations.VisibleProperties)             | Gets the list of properties that are visible for this object. |
 
 <a id="property-detail"></a>
 
 ## Property detail
 
-### *property* ImportedConstraintEquations.InternalObject *: Ansys.Common.Interop.DSObjectsAuto.IDSExternalModelDataCollAuto | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets the internal object. For advanced usage only.
-
-<!-- !! processed by numpydoc !! -->
-
-### *property* ImportedConstraintEquations.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../v241/Ansys/Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets the current DataModelObject's category.
-
-<!-- !! processed by numpydoc !! -->
-
-### *property* ImportedConstraintEquations.Count *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets the NumberOfRows.
-
-<!-- !! processed by numpydoc !! -->
-
-### *property* ImportedConstraintEquations.Suppressed *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the Suppressed.
-
-<!-- !! processed by numpydoc !! -->
+<a id="ImportedConstraintEquations.Children"></a>
 
 ### *property* ImportedConstraintEquations.Children *: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -86,11 +62,31 @@ Gets the list of children.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="ImportedConstraintEquations.Comments"></a>
+
 ### *property* ImportedConstraintEquations.Comments *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Comment](../../../../../v241/Ansys/ACT/Automation/Mechanical/Comment.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated comments.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="ImportedConstraintEquations.Count"></a>
+
+### *property* ImportedConstraintEquations.Count *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets the NumberOfRows.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ImportedConstraintEquations.DataModelObjectCategory"></a>
+
+### *property* ImportedConstraintEquations.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets the current DataModelObject’s category.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ImportedConstraintEquations.Figures"></a>
 
 ### *property* ImportedConstraintEquations.Figures *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Figure](../../../../../v241/Ansys/ACT/Automation/Mechanical/Figure.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -98,11 +94,31 @@ Gets the list of associated figures.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="ImportedConstraintEquations.Images"></a>
+
 ### *property* ImportedConstraintEquations.Images *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Image](../../../../../v241/Ansys/ACT/Automation/Mechanical/Image.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated images.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="ImportedConstraintEquations.InternalObject"></a>
+
+### *property* ImportedConstraintEquations.InternalObject *: Ansys.Common.Interop.DSObjectsAuto.IDSExternalModelDataCollAuto | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets the internal object. For advanced usage only.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ImportedConstraintEquations.Properties"></a>
+
+### *property* ImportedConstraintEquations.Properties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets the list of properties for this object.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ImportedConstraintEquations.ReadOnly"></a>
 
 ### *property* ImportedConstraintEquations.ReadOnly *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -110,17 +126,15 @@ Gets or sets the ReadOnly.
 
 <!-- !! processed by numpydoc !! -->
 
-### *property* ImportedConstraintEquations.InternalObject *: System.Object | [None](https://docs.python.org/3/library/constants.html#None)*
+<a id="ImportedConstraintEquations.Suppressed"></a>
 
-Gets the internal object. For advanced usage only.
+### *property* ImportedConstraintEquations.Suppressed *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
 
-<!-- !! processed by numpydoc !! -->
-
-### *property* ImportedConstraintEquations.Properties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets the list of properties for this object.
+Gets or sets the Suppressed.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="ImportedConstraintEquations.VisibleProperties"></a>
 
 ### *property* ImportedConstraintEquations.VisibleProperties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -132,23 +146,15 @@ Gets the list of properties that are visible for this object.
 
 ## Method detail
 
-### ImportedConstraintEquations.Delete()
+<a id="ImportedConstraintEquations.Activate"></a>
 
-Run the Delete action.
+### ImportedConstraintEquations.Activate()
 
-<!-- !! processed by numpydoc !! -->
-
-### ImportedConstraintEquations.GetChildren(recurses: System.Boolean, children: System.Collections.Generic.IList[ChildrenType])
-
-Gets the list of children, filtered by type.
+Activate the current object.
 
 <!-- !! processed by numpydoc !! -->
 
-### ImportedConstraintEquations.GetChildren(category: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../v241/Ansys/Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory), recurses: System.Boolean, children: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject])
-
-Gets the list of children, filtered by type.
-
-<!-- !! processed by numpydoc !! -->
+<a id="ImportedConstraintEquations.AddComment"></a>
 
 ### ImportedConstraintEquations.AddComment()
 
@@ -156,11 +162,15 @@ Creates a new child Comment.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="ImportedConstraintEquations.AddFigure"></a>
+
 ### ImportedConstraintEquations.AddFigure()
 
 Creates a new child Figure.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="ImportedConstraintEquations.AddImage"></a>
 
 ### ImportedConstraintEquations.AddImage(filePath: System.String)
 
@@ -172,11 +182,7 @@ if not, the image will be a screen capture of the Geometry window.
 
 <!-- !! processed by numpydoc !! -->
 
-### ImportedConstraintEquations.Activate()
-
-Activate the current object.
-
-<!-- !! processed by numpydoc !! -->
+<a id="ImportedConstraintEquations.CopyTo"></a>
 
 ### ImportedConstraintEquations.CopyTo(other: Ansys.ACT.Automation.Mechanical.DataModelObject)
 
@@ -184,11 +190,47 @@ Copies all visible properties from this object to another.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="ImportedConstraintEquations.CreateParameter"></a>
+
+### ImportedConstraintEquations.CreateParameter(propName: System.String)
+
+Creates a new parameter for a Property.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ImportedConstraintEquations.Delete"></a>
+
+### ImportedConstraintEquations.Delete()
+
+Run the Delete action.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ImportedConstraintEquations.Duplicate"></a>
+
 ### ImportedConstraintEquations.Duplicate()
 
 Creates a copy of the current DataModelObject.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="ImportedConstraintEquations.GetChildren"></a>
+
+### ImportedConstraintEquations.GetChildren(recurses: System.Boolean, children: System.Collections.Generic.IList[ChildrenType])
+
+Gets the list of children, filtered by type.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ImportedConstraintEquations.GetParameter"></a>
+
+### ImportedConstraintEquations.GetParameter(propName: System.String)
+
+Gets the parameter corresponding to the given property.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ImportedConstraintEquations.GroupAllSimilarChildren"></a>
 
 ### ImportedConstraintEquations.GroupAllSimilarChildren()
 
@@ -196,17 +238,15 @@ Run the GroupAllSimilarChildren action.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="ImportedConstraintEquations.GroupSimilarObjects"></a>
+
 ### ImportedConstraintEquations.GroupSimilarObjects()
 
 Run the GroupSimilarObjects action.
 
 <!-- !! processed by numpydoc !! -->
 
-### ImportedConstraintEquations.PropertyByName(name: System.String)
-
-Get a property by its unique name.
-
-<!-- !! processed by numpydoc !! -->
+<a id="ImportedConstraintEquations.PropertyByAPIName"></a>
 
 ### ImportedConstraintEquations.PropertyByAPIName(name: System.String)
 
@@ -217,17 +257,15 @@ If multiple properties have the same API Name, only the first property with that
 
 <!-- !! processed by numpydoc !! -->
 
-### ImportedConstraintEquations.CreateParameter(propName: System.String)
+<a id="ImportedConstraintEquations.PropertyByName"></a>
 
-Creates a new parameter for a Property.
+### ImportedConstraintEquations.PropertyByName(name: System.String)
 
-<!-- !! processed by numpydoc !! -->
-
-### ImportedConstraintEquations.GetParameter(propName: System.String)
-
-Gets the parameter corresponding to the given property.
+Get a property by its unique name.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="ImportedConstraintEquations.RemoveParameter"></a>
 
 ### ImportedConstraintEquations.RemoveParameter(propName: System.String)
 

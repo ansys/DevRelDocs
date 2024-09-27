@@ -1,6 +1,6 @@
 # `AxisSelectionType`
 
-
+<a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.AxisSelectionType"></a>
 
 #### *class* ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.AxisSelectionType
 
@@ -17,11 +17,11 @@ Specifies the AxisSelectionType.
 ### Attributes
 
 | Name |
-| -------------------------------------------------------------------------------------------------------------- |
-| [`All`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/AxisSelectionType.md#AxisSelectionType.All) |
-| [`XAxis`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/AxisSelectionType.md#AxisSelectionType.XAxis) |
-| [`YAxis`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/AxisSelectionType.md#AxisSelectionType.YAxis) |
-| [`ZAxis`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/AxisSelectionType.md#AxisSelectionType.ZAxis) |
+| ------------------------------------- |
+| [`All`](#AxisSelectionType.All) |
+| [`XAxis`](#AxisSelectionType.XAxis) |
+| [`YAxis`](#AxisSelectionType.YAxis) |
+| [`ZAxis`](#AxisSelectionType.ZAxis) |
 
 <a id="attribute-detail"></a>
 

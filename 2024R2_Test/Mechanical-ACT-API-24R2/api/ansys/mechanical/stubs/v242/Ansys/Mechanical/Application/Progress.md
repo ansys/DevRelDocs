@@ -1,6 +1,6 @@
 # `Progress`
 
-
+<a id="ansys.mechanical.stubs.v242.Ansys.Mechanical.Application.Progress"></a>
 
 #### *class* ansys.mechanical.stubs.v242.Ansys.Mechanical.Application.Progress
 
@@ -17,12 +17,14 @@ Defines a Progress.
 ### Methods
 
 | Name | Description |
-|-----------------|----------------------------------|
-| `SetProgress`   | Set the current progress state   |
+|---------------------------------------------------------------------------------------------------|----------------------------------|
+| [`SetProgress`](#Progress.SetProgress)   | Set the current progress state   |
 
 <a id="method-detail"></a>
 
 ## Method detail
+
+<a id="Progress.SetProgress"></a>
 
 ### Progress.SetProgress(uiProgress: System.UInt32, uiMessage: System.String, uiSubProgress: System.UInt32, uiSubMessage: System.String)
 

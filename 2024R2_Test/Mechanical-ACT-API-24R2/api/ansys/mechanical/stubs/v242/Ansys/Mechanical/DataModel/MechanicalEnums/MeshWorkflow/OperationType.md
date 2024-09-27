@@ -1,12 +1,12 @@
 # `OperationType`
 
-
+<a id="ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.MechanicalEnums.MeshWorkflow.OperationType"></a>
 
 #### *class* ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.MechanicalEnums.MeshWorkflow.OperationType
 
 Bases: [`enum.Enum`](https://docs.python.org/3/library/enum.html#enum.Enum)
 
-This enum is referenced in the ìStepî tree node and reflects the type of operation being configured. Based on the type of an operation different rules are applied which define the applicable list of controls and outcomes which can be added.
+This enum is referenced in the ‚ÄúStep‚Äù tree node and reflects the type of operation being configured. Based on the type of an operation different rules are applied which define the applicable list of controls and outcomes which can be added.
 
 <!-- !! processed by numpydoc !! -->
 
@@ -17,22 +17,22 @@ This enum is referenced in the ìStepî tree node and reflects the type of operati
 ### Attributes
 
 | Name |
-| --------------------------------------------------------------- |
+| -------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | [`CreateEnclosure`](#OperationType.CreateEnclosure) |
+| [`CreateSurfaceMesh`](#OperationType.CreateSurfaceMesh) |
 | [`CreateTopology`](#OperationType.CreateTopology) |
+| [`CreateVolumeMesh`](#OperationType.CreateVolumeMesh) |
+| [`ExportMesh`](#OperationType.ExportMesh) |
 | [`Extrude`](#OperationType.Extrude) |
 | [`FillHoles`](#OperationType.FillHoles) |
+| [`ImportMesh`](#OperationType.ImportMesh) |
 | [`ImproveSurfaceMesh`](#OperationType.ImproveSurfaceMesh) |
 | [`ImproveVolumeMesh`](#OperationType.ImproveVolumeMesh) |
 | [`ManageZoneProperties`](#OperationType.ManageZoneProperties) |
 | [`MergeParts`](#OperationType.MergeParts) |
 | [`MergeVolumes`](#OperationType.MergeVolumes) |
 | [`PatchHoles`](#OperationType.PatchHoles) |
-| [`ImportMesh`](#OperationType.ImportMesh) |
-| [`CreateSurfaceMesh`](#OperationType.CreateSurfaceMesh) |
-| [`CreateVolumeMesh`](#OperationType.CreateVolumeMesh) |
 | [`Wrap`](#OperationType.Wrap) |
-| [`ExportMesh`](#OperationType.ExportMesh) |
 
 <a id="attribute-detail"></a>
 
@@ -42,9 +42,21 @@ This enum is referenced in the ìStepî tree node and reflects the type of operati
 
 ### OperationType.CreateEnclosure *= 7*
 
+<a id="OperationType.CreateSurfaceMesh"></a>
+
+### OperationType.CreateSurfaceMesh *= 20*
+
 <a id="OperationType.CreateTopology"></a>
 
 ### OperationType.CreateTopology *= 9*
+
+<a id="OperationType.CreateVolumeMesh"></a>
+
+### OperationType.CreateVolumeMesh *= 21*
+
+<a id="OperationType.ExportMesh"></a>
+
+### OperationType.ExportMesh *= 5*
 
 <a id="OperationType.Extrude"></a>
 
@@ -53,6 +65,10 @@ This enum is referenced in the ìStepî tree node and reflects the type of operati
 <a id="OperationType.FillHoles"></a>
 
 ### OperationType.FillHoles *= 12*
+
+<a id="OperationType.ImportMesh"></a>
+
+### OperationType.ImportMesh *= 4*
 
 <a id="OperationType.ImproveSurfaceMesh"></a>
 
@@ -78,24 +94,8 @@ This enum is referenced in the ìStepî tree node and reflects the type of operati
 
 ### OperationType.PatchHoles *= 13*
 
-<a id="OperationType.ImportMesh"></a>
-
-### OperationType.ImportMesh *= 4*
-
-<a id="OperationType.CreateSurfaceMesh"></a>
-
-### OperationType.CreateSurfaceMesh *= 20*
-
-<a id="OperationType.CreateVolumeMesh"></a>
-
-### OperationType.CreateVolumeMesh *= 21*
-
 <a id="OperationType.Wrap"></a>
 
 ### OperationType.Wrap *= 25*
-
-<a id="OperationType.ExportMesh"></a>
-
-### OperationType.ExportMesh *= 5*
 
 

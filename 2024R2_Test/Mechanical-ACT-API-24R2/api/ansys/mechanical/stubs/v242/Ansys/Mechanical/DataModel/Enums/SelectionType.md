@@ -1,6 +1,6 @@
 # `SelectionType`
 
-
+<a id="ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.SelectionType"></a>
 
 #### *class* ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.SelectionType
 
@@ -17,23 +17,23 @@ Specifies the selection type.
 ### Attributes
 
 | Name |
-| ----------------------------------------------------- |
-| [`GeoVertex`](#SelectionType.GeoVertex) |
+| -------------------------------------------------------------------------------------------------------------------------- |
+| [`GeoBody`](#SelectionType.GeoBody) |
 | [`GeoEdge`](#SelectionType.GeoEdge) |
 | [`GeoFace`](#SelectionType.GeoFace) |
-| [`GeoBody`](#SelectionType.GeoBody) |
-| [`MeshNode`](#SelectionType.MeshNode) |
+| [`GeoVertex`](#SelectionType.GeoVertex) |
 | [`MeshElement`](#SelectionType.MeshElement) |
-| [`MeshFace`](#SelectionType.MeshFace) |
 | [`MeshElementFace`](#SelectionType.MeshElementFace) |
+| [`MeshFace`](#SelectionType.MeshFace) |
+| [`MeshNode`](#SelectionType.MeshNode) |
 
 <a id="attribute-detail"></a>
 
 ## Attribute detail
 
-<a id="SelectionType.GeoVertex"></a>
+<a id="SelectionType.GeoBody"></a>
 
-### SelectionType.GeoVertex *= 4*
+### SelectionType.GeoBody *= 1*
 
 <a id="SelectionType.GeoEdge"></a>
 
@@ -43,24 +43,24 @@ Specifies the selection type.
 
 ### SelectionType.GeoFace *= 2*
 
-<a id="SelectionType.GeoBody"></a>
+<a id="SelectionType.GeoVertex"></a>
 
-### SelectionType.GeoBody *= 1*
-
-<a id="SelectionType.MeshNode"></a>
-
-### SelectionType.MeshNode *= 5*
+### SelectionType.GeoVertex *= 4*
 
 <a id="SelectionType.MeshElement"></a>
 
 ### SelectionType.MeshElement *= 6*
 
+<a id="SelectionType.MeshElementFace"></a>
+
+### SelectionType.MeshElementFace *= 9*
+
 <a id="SelectionType.MeshFace"></a>
 
 ### SelectionType.MeshFace *= 7*
 
-<a id="SelectionType.MeshElementFace"></a>
+<a id="SelectionType.MeshNode"></a>
 
-### SelectionType.MeshElementFace *= 9*
+### SelectionType.MeshNode *= 5*
 
 

@@ -1,6 +1,6 @@
 # `PointType`
 
-
+<a id="ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.ConstructionLines.PointType"></a>
 
 #### *class* ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.ConstructionLines.PointType
 

@@ -1,6 +1,6 @@
 # `ShellSecBlockCommand`
 
-
+<a id="ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.FE.CDB.ShellSecBlockCommand"></a>
 
 #### *class* ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.FE.CDB.ShellSecBlockCommand
 
@@ -17,21 +17,25 @@ Represents a shell SECBLOCK command.
 ### Properties
 
 | Name | Description |
-|----------|-------------------------|
-| `Type`   | Get the section type.   |
-| `Layers` | Gets the layers.        |
-| `Name`   | Gets the command name.  |
-| `Index`  | Gets the command index. |
+|----------------------------------------------------------------------------------------------------------------------------------|---------------------------|
+| [`Index`](#ShellSecBlockCommand.Index)   | Gets the command index.   |
+| [`Layers`](#ShellSecBlockCommand.Layers) | Gets the layers.          |
+| [`Name`](#ShellSecBlockCommand.Name)     | Gets the command name.    |
+| [`Type`](#ShellSecBlockCommand.Type)     | Get the section type.     |
 
 <a id="property-detail"></a>
 
 ## Property detail
 
-### *property* ShellSecBlockCommand.Type *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+<a id="ShellSecBlockCommand.Index"></a>
 
-Get the section type.
+### *property* ShellSecBlockCommand.Index *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets the command index.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="ShellSecBlockCommand.Layers"></a>
 
 ### *property* ShellSecBlockCommand.Layers *: System.Collections.Generic.IReadOnlyList[[Ansys.ACT.Automation.Mechanical.FE.CDB.CommandLayer](CommandLayer.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.FE.CDB.CommandLayer)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -39,15 +43,19 @@ Gets the layers.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="ShellSecBlockCommand.Name"></a>
+
 ### *property* ShellSecBlockCommand.Name *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the command name.
 
 <!-- !! processed by numpydoc !! -->
 
-### *property* ShellSecBlockCommand.Index *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+<a id="ShellSecBlockCommand.Type"></a>
 
-Gets the command index.
+### *property* ShellSecBlockCommand.Type *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Get the section type.
 
 <!-- !! processed by numpydoc !! -->
 

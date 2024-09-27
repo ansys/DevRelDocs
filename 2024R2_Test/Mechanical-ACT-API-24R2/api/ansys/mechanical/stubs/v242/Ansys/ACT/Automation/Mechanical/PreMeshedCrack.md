@@ -1,6 +1,6 @@
 # `PreMeshedCrack`
 
-
+<a id="ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.PreMeshedCrack"></a>
 
 #### *class* ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.PreMeshedCrack
 
@@ -17,132 +17,62 @@ Defines a PreMeshedCrack.
 ### Methods
 
 | Name | Description |
-|---------------------------|-----------------------------------------------------------------------------------|
-| `AddCommandSnippet`       | Creates a new CommandSnippet                                                      |
-| `Delete`                  | Run the Delete action.                                                            |
-| `GetChildren`             | Gets the list of children, filtered by type.                                      |
-| `GetChildren`             | Gets the list of children, filtered by type.                                      |
-| `AddComment`              | Creates a new child Comment.                                                      |
-| `AddFigure`               | Creates a new child Figure.                                                       |
-| `AddImage`                | Creates a new child Image.                                                        |
-| `Activate`                | Activate the current object.                                                      |
-| `CopyTo`                  | Copies all visible properties from this object to another.                        |
-| `Duplicate`               | Creates a copy of the current DataModelObject.                                    |
-| `GroupAllSimilarChildren` | Run the GroupAllSimilarChildren action.                                           |
-| `GroupSimilarObjects`     | Run the GroupSimilarObjects action.                                               |
-| `PropertyByName`          | Get a property by its unique name.                                                |
-| `PropertyByAPIName`       | Get a property by its API name.                                                   |
-| `CreateParameter`         | Creates a new parameter for a Property.                                           |
-| `GetParameter`            | Gets the parameter corresponding to the given property.                           |
-| `RemoveParameter`         | Removes the parameter from the parameter set corresponding to the given property. |
+|-------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------|
+| [`Activate`](#PreMeshedCrack.Activate)                               | Activate the current object.                                                      |
+| [`AddCommandSnippet`](#PreMeshedCrack.AddCommandSnippet)             | Creates a new CommandSnippet                                                      |
+| [`AddComment`](#PreMeshedCrack.AddComment)                           | Creates a new child Comment.                                                      |
+| [`AddFigure`](#PreMeshedCrack.AddFigure)                             | Creates a new child Figure.                                                       |
+| [`AddImage`](#PreMeshedCrack.AddImage)                               | Creates a new child Image.                                                        |
+| [`CopyTo`](#PreMeshedCrack.CopyTo)                                   | Copies all visible properties from this object to another.                        |
+| [`CreateParameter`](#PreMeshedCrack.CreateParameter)                 | Creates a new parameter for a Property.                                           |
+| [`Delete`](#PreMeshedCrack.Delete)                                   | Run the Delete action.                                                            |
+| [`Duplicate`](#PreMeshedCrack.Duplicate)                             | Creates a copy of the current DataModelObject.                                    |
+| [`GetChildren`](#PreMeshedCrack.GetChildren)                         | Gets the list of children, filtered by type.                                      |
+| [`GetParameter`](#PreMeshedCrack.GetParameter)                       | Gets the parameter corresponding to the given property.                           |
+| [`GroupAllSimilarChildren`](#PreMeshedCrack.GroupAllSimilarChildren) | Run the GroupAllSimilarChildren action.                                           |
+| [`GroupSimilarObjects`](#PreMeshedCrack.GroupSimilarObjects)         | Run the GroupSimilarObjects action.                                               |
+| [`PropertyByAPIName`](#PreMeshedCrack.PropertyByAPIName)             | Get a property by its API name.                                                   |
+| [`PropertyByName`](#PreMeshedCrack.PropertyByName)                   | Get a property by its unique name.                                                |
+| [`RemoveParameter`](#PreMeshedCrack.RemoveParameter)                 | Removes the parameter from the parameter set corresponding to the given property. |
 
 ### Properties
 
 | Name | Description |
-|---------------------------|---------------------------------------------------------------|
-| `InternalObject`          | Gets the internal object. For advanced usage only.            |
-| `SolutionContours`        | Gets or sets the SolutionContours.                            |
-| `CrackSourceType`         | Gets the CrackSourceType.                                     |
-| `ScopingMethod`           | Gets the ScopingMethod.                                       |
-| `CrackSymmetry`           | Gets or sets the CrackSymmetry.                               |
-| `CrackFacesNodes`         | Gets or sets the CrackFacesNodes.                             |
-| `Suppressed`              | Gets or sets the Suppressed.                                  |
-| `CrackFront`              | Gets or sets the CrackFront.                                  |
-| `CoordinateSystem`        | Gets or sets the CoordinateSystem.                            |
-| `BottomFaceNodes`         | Gets or sets the BottomFaceNodes.                             |
-| `TopFaceNodes`            | Gets or sets the TopFaceNodes.                                |
-| `DataModelObjectCategory` | Gets the current DataModelObject's category.                  |
-| `CrackID`                 | Gets the CrackID.                                             |
-| `Children`                | Gets the list of children.                                    |
-| `Comments`                | Gets the list of associated comments.                         |
-| `Figures`                 | Gets the list of associated figures.                          |
-| `Images`                  | Gets the list of associated images.                           |
-| `ReadOnly`                | Gets or sets the ReadOnly.                                    |
-| `InternalObject`          | Gets the internal object. For advanced usage only.            |
-| `Properties`              | Gets the list of properties for this object.                  |
-| `VisibleProperties`       | Gets the list of properties that are visible for this object. |
+|-------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------|
+| [`BottomFaceNodes`](#PreMeshedCrack.BottomFaceNodes)                 | Gets or sets the BottomFaceNodes.                             |
+| [`Children`](#PreMeshedCrack.Children)                               | Gets the list of children.                                    |
+| [`Comments`](#PreMeshedCrack.Comments)                               | Gets the list of associated comments.                         |
+| [`CoordinateSystem`](#PreMeshedCrack.CoordinateSystem)               | Gets or sets the CoordinateSystem.                            |
+| [`CrackFacesNodes`](#PreMeshedCrack.CrackFacesNodes)                 | Gets or sets the CrackFacesNodes.                             |
+| [`CrackFront`](#PreMeshedCrack.CrackFront)                           | Gets or sets the CrackFront.                                  |
+| [`CrackID`](#PreMeshedCrack.CrackID)                                 | Gets the CrackID.                                             |
+| [`CrackSourceType`](#PreMeshedCrack.CrackSourceType)                 | Gets the CrackSourceType.                                     |
+| [`CrackSymmetry`](#PreMeshedCrack.CrackSymmetry)                     | Gets or sets the CrackSymmetry.                               |
+| [`DataModelObjectCategory`](#PreMeshedCrack.DataModelObjectCategory) | Gets the current DataModelObject’s category.                  |
+| [`Figures`](#PreMeshedCrack.Figures)                                 | Gets the list of associated figures.                          |
+| [`Images`](#PreMeshedCrack.Images)                                   | Gets the list of associated images.                           |
+| [`InternalObject`](#PreMeshedCrack.InternalObject)                   | Gets the internal object. For advanced usage only.            |
+| [`Properties`](#PreMeshedCrack.Properties)                           | Gets the list of properties for this object.                  |
+| [`ReadOnly`](#PreMeshedCrack.ReadOnly)                               | Gets or sets the ReadOnly.                                    |
+| [`ScopingMethod`](#PreMeshedCrack.ScopingMethod)                     | Gets the ScopingMethod.                                       |
+| [`SolutionContours`](#PreMeshedCrack.SolutionContours)               | Gets or sets the SolutionContours.                            |
+| [`Suppressed`](#PreMeshedCrack.Suppressed)                           | Gets or sets the Suppressed.                                  |
+| [`TopFaceNodes`](#PreMeshedCrack.TopFaceNodes)                       | Gets or sets the TopFaceNodes.                                |
+| [`VisibleProperties`](#PreMeshedCrack.VisibleProperties)             | Gets the list of properties that are visible for this object. |
 
 <a id="property-detail"></a>
 
 ## Property detail
 
-### *property* PreMeshedCrack.InternalObject *: Ansys.Common.Interop.DSObjectsAuto.IDSCrackAuto | [None](https://docs.python.org/3/library/constants.html#None)*
+<a id="PreMeshedCrack.BottomFaceNodes"></a>
 
-Gets the internal object. For advanced usage only.
-
-<!-- !! processed by numpydoc !! -->
-
-### *property* PreMeshedCrack.SolutionContours *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the SolutionContours.
-
-<!-- !! processed by numpydoc !! -->
-
-### *property* PreMeshedCrack.CrackSourceType *: [Ansys.Mechanical.DataModel.Enums.CrackSourceType](../../../../../v241/Ansys/Mechanical/DataModel/Enums/CrackSourceType.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.CrackSourceType) | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets the CrackSourceType.
-
-<!-- !! processed by numpydoc !! -->
-
-### *property* PreMeshedCrack.ScopingMethod *: [Ansys.Mechanical.DataModel.Enums.GeometryDefineByType](../../../../../v241/Ansys/Mechanical/DataModel/Enums/GeometryDefineByType.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.GeometryDefineByType) | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets the ScopingMethod.
-
-<!-- !! processed by numpydoc !! -->
-
-### *property* PreMeshedCrack.CrackSymmetry *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the CrackSymmetry.
-
-<!-- !! processed by numpydoc !! -->
-
-### *property* PreMeshedCrack.CrackFacesNodes *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the CrackFacesNodes.
-
-<!-- !! processed by numpydoc !! -->
-
-### *property* PreMeshedCrack.Suppressed *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the Suppressed.
-
-<!-- !! processed by numpydoc !! -->
-
-### *property* PreMeshedCrack.CrackFront *: [Ansys.ACT.Automation.Mechanical.NamedSelection](../../../../../v241/Ansys/ACT/Automation/Mechanical/NamedSelection.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.NamedSelection) | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the CrackFront.
-
-<!-- !! processed by numpydoc !! -->
-
-### *property* PreMeshedCrack.CoordinateSystem *: [Ansys.ACT.Automation.Mechanical.CoordinateSystem](../../../../../v241/Ansys/ACT/Automation/Mechanical/CoordinateSystem.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.CoordinateSystem) | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the CoordinateSystem.
-
-<!-- !! processed by numpydoc !! -->
-
-### *property* PreMeshedCrack.BottomFaceNodes *: [Ansys.ACT.Automation.Mechanical.NamedSelection](../../../../../v241/Ansys/ACT/Automation/Mechanical/NamedSelection.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.NamedSelection) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* PreMeshedCrack.BottomFaceNodes *: [Ansys.ACT.Automation.Mechanical.NamedSelection](NamedSelection.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.NamedSelection) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the BottomFaceNodes.
 
 <!-- !! processed by numpydoc !! -->
 
-### *property* PreMeshedCrack.TopFaceNodes *: [Ansys.ACT.Automation.Mechanical.NamedSelection](../../../../../v241/Ansys/ACT/Automation/Mechanical/NamedSelection.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.NamedSelection) | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the TopFaceNodes.
-
-<!-- !! processed by numpydoc !! -->
-
-### *property* PreMeshedCrack.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../v241/Ansys/Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets the current DataModelObject's category.
-
-<!-- !! processed by numpydoc !! -->
-
-### *property* PreMeshedCrack.CrackID *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets the CrackID.
-
-<!-- !! processed by numpydoc !! -->
+<a id="PreMeshedCrack.Children"></a>
 
 ### *property* PreMeshedCrack.Children *: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -150,11 +80,71 @@ Gets the list of children.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="PreMeshedCrack.Comments"></a>
+
 ### *property* PreMeshedCrack.Comments *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Comment](../../../../../v241/Ansys/ACT/Automation/Mechanical/Comment.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated comments.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="PreMeshedCrack.CoordinateSystem"></a>
+
+### *property* PreMeshedCrack.CoordinateSystem *: [Ansys.ACT.Automation.Mechanical.CoordinateSystem](../../../../../v241/Ansys/ACT/Automation/Mechanical/CoordinateSystem.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.CoordinateSystem) | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the CoordinateSystem.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="PreMeshedCrack.CrackFacesNodes"></a>
+
+### *property* PreMeshedCrack.CrackFacesNodes *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the CrackFacesNodes.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="PreMeshedCrack.CrackFront"></a>
+
+### *property* PreMeshedCrack.CrackFront *: [Ansys.ACT.Automation.Mechanical.NamedSelection](NamedSelection.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.NamedSelection) | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the CrackFront.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="PreMeshedCrack.CrackID"></a>
+
+### *property* PreMeshedCrack.CrackID *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets the CrackID.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="PreMeshedCrack.CrackSourceType"></a>
+
+### *property* PreMeshedCrack.CrackSourceType *: [Ansys.Mechanical.DataModel.Enums.CrackSourceType](../../../Mechanical/DataModel/Enums/CrackSourceType.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.CrackSourceType) | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets the CrackSourceType.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="PreMeshedCrack.CrackSymmetry"></a>
+
+### *property* PreMeshedCrack.CrackSymmetry *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the CrackSymmetry.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="PreMeshedCrack.DataModelObjectCategory"></a>
+
+### *property* PreMeshedCrack.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets the current DataModelObject’s category.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="PreMeshedCrack.Figures"></a>
 
 ### *property* PreMeshedCrack.Figures *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Figure](../../../../../v241/Ansys/ACT/Automation/Mechanical/Figure.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -162,11 +152,31 @@ Gets the list of associated figures.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="PreMeshedCrack.Images"></a>
+
 ### *property* PreMeshedCrack.Images *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Image](../../../../../v241/Ansys/ACT/Automation/Mechanical/Image.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated images.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="PreMeshedCrack.InternalObject"></a>
+
+### *property* PreMeshedCrack.InternalObject *: Ansys.Common.Interop.DSObjectsAuto.IDSCrackAuto | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets the internal object. For advanced usage only.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="PreMeshedCrack.Properties"></a>
+
+### *property* PreMeshedCrack.Properties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets the list of properties for this object.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="PreMeshedCrack.ReadOnly"></a>
 
 ### *property* PreMeshedCrack.ReadOnly *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -174,17 +184,39 @@ Gets or sets the ReadOnly.
 
 <!-- !! processed by numpydoc !! -->
 
-### *property* PreMeshedCrack.InternalObject *: System.Object | [None](https://docs.python.org/3/library/constants.html#None)*
+<a id="PreMeshedCrack.ScopingMethod"></a>
 
-Gets the internal object. For advanced usage only.
+### *property* PreMeshedCrack.ScopingMethod *: [Ansys.Mechanical.DataModel.Enums.GeometryDefineByType](../../../Mechanical/DataModel/Enums/GeometryDefineByType.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.GeometryDefineByType) | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets the ScopingMethod.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="PreMeshedCrack.SolutionContours"></a>
+
+### *property* PreMeshedCrack.SolutionContours *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the SolutionContours.
 
 <!-- !! processed by numpydoc !! -->
 
-### *property* PreMeshedCrack.Properties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
+<a id="PreMeshedCrack.Suppressed"></a>
 
-Gets the list of properties for this object.
+### *property* PreMeshedCrack.Suppressed *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the Suppressed.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="PreMeshedCrack.TopFaceNodes"></a>
+
+### *property* PreMeshedCrack.TopFaceNodes *: [Ansys.ACT.Automation.Mechanical.NamedSelection](NamedSelection.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.NamedSelection) | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the TopFaceNodes.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="PreMeshedCrack.VisibleProperties"></a>
 
 ### *property* PreMeshedCrack.VisibleProperties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -196,29 +228,23 @@ Gets the list of properties that are visible for this object.
 
 ## Method detail
 
+<a id="PreMeshedCrack.Activate"></a>
+
+### PreMeshedCrack.Activate()
+
+Activate the current object.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="PreMeshedCrack.AddCommandSnippet"></a>
+
 ### PreMeshedCrack.AddCommandSnippet()
 
 Creates a new CommandSnippet
 
 <!-- !! processed by numpydoc !! -->
 
-### PreMeshedCrack.Delete()
-
-Run the Delete action.
-
-<!-- !! processed by numpydoc !! -->
-
-### PreMeshedCrack.GetChildren(recurses: System.Boolean, children: System.Collections.Generic.IList[ChildrenType])
-
-Gets the list of children, filtered by type.
-
-<!-- !! processed by numpydoc !! -->
-
-### PreMeshedCrack.GetChildren(category: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../v241/Ansys/Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory), recurses: System.Boolean, children: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject])
-
-Gets the list of children, filtered by type.
-
-<!-- !! processed by numpydoc !! -->
+<a id="PreMeshedCrack.AddComment"></a>
 
 ### PreMeshedCrack.AddComment()
 
@@ -226,11 +252,15 @@ Creates a new child Comment.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="PreMeshedCrack.AddFigure"></a>
+
 ### PreMeshedCrack.AddFigure()
 
 Creates a new child Figure.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="PreMeshedCrack.AddImage"></a>
 
 ### PreMeshedCrack.AddImage(filePath: System.String)
 
@@ -242,11 +272,7 @@ if not, the image will be a screen capture of the Geometry window.
 
 <!-- !! processed by numpydoc !! -->
 
-### PreMeshedCrack.Activate()
-
-Activate the current object.
-
-<!-- !! processed by numpydoc !! -->
+<a id="PreMeshedCrack.CopyTo"></a>
 
 ### PreMeshedCrack.CopyTo(other: Ansys.ACT.Automation.Mechanical.DataModelObject)
 
@@ -254,11 +280,47 @@ Copies all visible properties from this object to another.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="PreMeshedCrack.CreateParameter"></a>
+
+### PreMeshedCrack.CreateParameter(propName: System.String)
+
+Creates a new parameter for a Property.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="PreMeshedCrack.Delete"></a>
+
+### PreMeshedCrack.Delete()
+
+Run the Delete action.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="PreMeshedCrack.Duplicate"></a>
+
 ### PreMeshedCrack.Duplicate()
 
 Creates a copy of the current DataModelObject.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="PreMeshedCrack.GetChildren"></a>
+
+### PreMeshedCrack.GetChildren(recurses: System.Boolean, children: System.Collections.Generic.IList[ChildrenType])
+
+Gets the list of children, filtered by type.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="PreMeshedCrack.GetParameter"></a>
+
+### PreMeshedCrack.GetParameter(propName: System.String)
+
+Gets the parameter corresponding to the given property.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="PreMeshedCrack.GroupAllSimilarChildren"></a>
 
 ### PreMeshedCrack.GroupAllSimilarChildren()
 
@@ -266,17 +328,15 @@ Run the GroupAllSimilarChildren action.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="PreMeshedCrack.GroupSimilarObjects"></a>
+
 ### PreMeshedCrack.GroupSimilarObjects()
 
 Run the GroupSimilarObjects action.
 
 <!-- !! processed by numpydoc !! -->
 
-### PreMeshedCrack.PropertyByName(name: System.String)
-
-Get a property by its unique name.
-
-<!-- !! processed by numpydoc !! -->
+<a id="PreMeshedCrack.PropertyByAPIName"></a>
 
 ### PreMeshedCrack.PropertyByAPIName(name: System.String)
 
@@ -287,17 +347,15 @@ If multiple properties have the same API Name, only the first property with that
 
 <!-- !! processed by numpydoc !! -->
 
-### PreMeshedCrack.CreateParameter(propName: System.String)
+<a id="PreMeshedCrack.PropertyByName"></a>
 
-Creates a new parameter for a Property.
+### PreMeshedCrack.PropertyByName(name: System.String)
 
-<!-- !! processed by numpydoc !! -->
-
-### PreMeshedCrack.GetParameter(propName: System.String)
-
-Gets the parameter corresponding to the given property.
+Get a property by its unique name.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="PreMeshedCrack.RemoveParameter"></a>
 
 ### PreMeshedCrack.RemoveParameter(propName: System.String)
 

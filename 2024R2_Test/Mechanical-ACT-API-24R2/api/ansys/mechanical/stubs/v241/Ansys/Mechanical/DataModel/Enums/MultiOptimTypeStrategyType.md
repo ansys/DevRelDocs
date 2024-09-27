@@ -1,6 +1,6 @@
 # `MultiOptimTypeStrategyType`
 
-
+<a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.MultiOptimTypeStrategyType"></a>
 
 #### *class* ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.MultiOptimTypeStrategyType
 
@@ -17,10 +17,10 @@ Specifies the MultiOptimTypeStrategyType.
 ### Attributes
 
 | Name |
-| -------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| [`Off`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/MultiOptimTypeStrategyType.md#MultiOptimTypeStrategyType.Off) |
-| [`On`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/MultiOptimTypeStrategyType.md#MultiOptimTypeStrategyType.On) |
-| [`ProgramControlled`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/MultiOptimTypeStrategyType.md#MultiOptimTypeStrategyType.ProgramControlled) |
+| ---------------------------------------------------------------------- |
+| [`Off`](#MultiOptimTypeStrategyType.Off) |
+| [`On`](#MultiOptimTypeStrategyType.On) |
+| [`ProgramControlled`](#MultiOptimTypeStrategyType.ProgramControlled) |
 
 <a id="attribute-detail"></a>
 

@@ -1,6 +1,6 @@
 # `ResultMesh`
 
-
+<a id="ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.ResultMesh"></a>
 
 #### *class* ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.ResultMesh
 
@@ -17,98 +17,50 @@ Defines a ResultMesh.
 ### Methods
 
 | Name | Description |
-|----------------------------------|-----------------------------------------------------------------------------------|
-| `Generate`                       | Generate the mesh data                                                            |
-| `ClearGeneratedData`             | Clear the generated mesh data                                                     |
-| `AddNamedSelection`              | Creates a new NamedSelection                                                      |
-| `ImportComponentsFromResultFile` | Import solver components from result file                                         |
-| `GetChildren`                    | Gets the list of children, filtered by type.                                      |
-| `GetChildren`                    | Gets the list of children, filtered by type.                                      |
-| `AddComment`                     | Creates a new child Comment.                                                      |
-| `AddFigure`                      | Creates a new child Figure.                                                       |
-| `AddImage`                       | Creates a new child Image.                                                        |
-| `Activate`                       | Activate the current object.                                                      |
-| `CopyTo`                         | Copies all visible properties from this object to another.                        |
-| `Duplicate`                      | Creates a copy of the current DataModelObject.                                    |
-| `GroupAllSimilarChildren`        | Run the GroupAllSimilarChildren action.                                           |
-| `GroupSimilarObjects`            | Run the GroupSimilarObjects action.                                               |
-| `PropertyByName`                 | Get a property by its unique name.                                                |
-| `PropertyByAPIName`              | Get a property by its API name.                                                   |
-| `CreateParameter`                | Creates a new parameter for a Property.                                           |
-| `GetParameter`                   | Gets the parameter corresponding to the given property.                           |
-| `RemoveParameter`                | Removes the parameter from the parameter set corresponding to the given property. |
+|--------------------------------------------------------------------------------|-----------------------------------------------------------------------------------|
+| [`Activate`](#ResultMesh.Activate)                                             | Activate the current object.                                                      |
+| [`AddComment`](#ResultMesh.AddComment)                                         | Creates a new child Comment.                                                      |
+| [`AddFigure`](#ResultMesh.AddFigure)                                           | Creates a new child Figure.                                                       |
+| [`AddImage`](#ResultMesh.AddImage)                                             | Creates a new child Image.                                                        |
+| [`AddNamedSelection`](#ResultMesh.AddNamedSelection)                           | Creates a new NamedSelection                                                      |
+| [`ClearGeneratedData`](#ResultMesh.ClearGeneratedData)                         | Clear the generated mesh data                                                     |
+| [`CopyTo`](#ResultMesh.CopyTo)                                                 | Copies all visible properties from this object to another.                        |
+| [`CreateParameter`](#ResultMesh.CreateParameter)                               | Creates a new parameter for a Property.                                           |
+| [`Duplicate`](#ResultMesh.Duplicate)                                           | Creates a copy of the current DataModelObject.                                    |
+| [`Generate`](#ResultMesh.Generate)                                             | Generate the mesh data                                                            |
+| [`GetChildren`](#ResultMesh.GetChildren)                                       | Gets the list of children, filtered by type.                                      |
+| [`GetParameter`](#ResultMesh.GetParameter)                                     | Gets the parameter corresponding to the given property.                           |
+| [`GroupAllSimilarChildren`](#ResultMesh.GroupAllSimilarChildren)               | Run the GroupAllSimilarChildren action.                                           |
+| [`GroupSimilarObjects`](#ResultMesh.GroupSimilarObjects)                       | Run the GroupSimilarObjects action.                                               |
+| [`ImportComponentsFromResultFile`](#ResultMesh.ImportComponentsFromResultFile) | Import solver components from result file                                         |
+| [`PropertyByAPIName`](#ResultMesh.PropertyByAPIName)                           | Get a property by its API name.                                                   |
+| [`PropertyByName`](#ResultMesh.PropertyByName)                                 | Get a property by its unique name.                                                |
+| [`RemoveParameter`](#ResultMesh.RemoveParameter)                               | Removes the parameter from the parameter set corresponding to the given property. |
 
 ### Properties
 
 | Name | Description |
-|---------------------------|---------------------------------------------------------------|
-| `FEBodies`                | Gets FE Bodies                                                |
-| `InternalObject`          | Gets the internal object. For advanced usage only.            |
-| `ConfigurationId`         | Gets the ConfigurationId.                                     |
-| `Elements`                | Gets the Elements.                                            |
-| `Nodes`                   | Gets the Nodes.                                               |
-| `SourceFile`              | Gets the SourceFile.                                          |
-| `Suppressed`              | Gets or sets the Suppressed.                                  |
-| `DataModelObjectCategory` | Gets the current DataModelObject's category.                  |
-| `Children`                | Gets the list of children.                                    |
-| `Comments`                | Gets the list of associated comments.                         |
-| `Figures`                 | Gets the list of associated figures.                          |
-| `Images`                  | Gets the list of associated images.                           |
-| `InternalObject`          | Gets the internal object. For advanced usage only.            |
-| `Properties`              | Gets the list of properties for this object.                  |
-| `VisibleProperties`       | Gets the list of properties that are visible for this object. |
+|------------------------------------------------------------------|---------------------------------------------------------------|
+| [`Children`](#ResultMesh.Children)                               | Gets the list of children.                                    |
+| [`Comments`](#ResultMesh.Comments)                               | Gets the list of associated comments.                         |
+| [`ConfigurationId`](#ResultMesh.ConfigurationId)                 | Gets the ConfigurationId.                                     |
+| [`DataModelObjectCategory`](#ResultMesh.DataModelObjectCategory) | Gets the current DataModelObject’s category.                  |
+| [`Elements`](#ResultMesh.Elements)                               | Gets the Elements.                                            |
+| [`FEBodies`](#ResultMesh.FEBodies)                               | Gets FE Bodies                                                |
+| [`Figures`](#ResultMesh.Figures)                                 | Gets the list of associated figures.                          |
+| [`Images`](#ResultMesh.Images)                                   | Gets the list of associated images.                           |
+| [`InternalObject`](#ResultMesh.InternalObject)                   | Gets the internal object. For advanced usage only.            |
+| [`Nodes`](#ResultMesh.Nodes)                                     | Gets the Nodes.                                               |
+| [`Properties`](#ResultMesh.Properties)                           | Gets the list of properties for this object.                  |
+| [`SourceFile`](#ResultMesh.SourceFile)                           | Gets the SourceFile.                                          |
+| [`Suppressed`](#ResultMesh.Suppressed)                           | Gets or sets the Suppressed.                                  |
+| [`VisibleProperties`](#ResultMesh.VisibleProperties)             | Gets the list of properties that are visible for this object. |
 
 <a id="property-detail"></a>
 
 ## Property detail
 
-### *property* ResultMesh.FEBodies *: [Ansys.ACT.Automation.Mechanical.Part](Part.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Part) | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets FE Bodies
-
-<!-- !! processed by numpydoc !! -->
-
-### *property* ResultMesh.InternalObject *: Ansys.Common.Interop.DSObjectsAuto.IDSExtraMeshAuto | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets the internal object. For advanced usage only.
-
-<!-- !! processed by numpydoc !! -->
-
-### *property* ResultMesh.ConfigurationId *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets the ConfigurationId.
-
-<!-- !! processed by numpydoc !! -->
-
-### *property* ResultMesh.Elements *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets the Elements.
-
-<!-- !! processed by numpydoc !! -->
-
-### *property* ResultMesh.Nodes *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets the Nodes.
-
-<!-- !! processed by numpydoc !! -->
-
-### *property* ResultMesh.SourceFile *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets the SourceFile.
-
-<!-- !! processed by numpydoc !! -->
-
-### *property* ResultMesh.Suppressed *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the Suppressed.
-
-<!-- !! processed by numpydoc !! -->
-
-### *property* ResultMesh.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets the current DataModelObject's category.
-
-<!-- !! processed by numpydoc !! -->
+<a id="ResultMesh.Children"></a>
 
 ### *property* ResultMesh.Children *: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -116,11 +68,47 @@ Gets the list of children.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="ResultMesh.Comments"></a>
+
 ### *property* ResultMesh.Comments *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Comment](Comment.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated comments.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="ResultMesh.ConfigurationId"></a>
+
+### *property* ResultMesh.ConfigurationId *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets the ConfigurationId.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ResultMesh.DataModelObjectCategory"></a>
+
+### *property* ResultMesh.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../v242/Ansys/Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets the current DataModelObject’s category.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ResultMesh.Elements"></a>
+
+### *property* ResultMesh.Elements *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets the Elements.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ResultMesh.FEBodies"></a>
+
+### *property* ResultMesh.FEBodies *: [Ansys.ACT.Automation.Mechanical.Part](../../../../../v242/Ansys/ACT/Automation/Mechanical/Part.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Part) | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets FE Bodies
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ResultMesh.Figures"></a>
 
 ### *property* ResultMesh.Figures *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Figure](Figure.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -128,23 +116,55 @@ Gets the list of associated figures.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="ResultMesh.Images"></a>
+
 ### *property* ResultMesh.Images *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Image](Image.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated images.
 
 <!-- !! processed by numpydoc !! -->
 
-### *property* ResultMesh.InternalObject *: System.Object | [None](https://docs.python.org/3/library/constants.html#None)*
+<a id="ResultMesh.InternalObject"></a>
+
+### *property* ResultMesh.InternalObject *: Ansys.Common.Interop.DSObjectsAuto.IDSExtraMeshAuto | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the internal object. For advanced usage only.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="ResultMesh.Nodes"></a>
+
+### *property* ResultMesh.Nodes *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets the Nodes.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ResultMesh.Properties"></a>
 
 ### *property* ResultMesh.Properties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of properties for this object.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="ResultMesh.SourceFile"></a>
+
+### *property* ResultMesh.SourceFile *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets the SourceFile.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ResultMesh.Suppressed"></a>
+
+### *property* ResultMesh.Suppressed *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the Suppressed.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ResultMesh.VisibleProperties"></a>
 
 ### *property* ResultMesh.VisibleProperties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -156,41 +176,15 @@ Gets the list of properties that are visible for this object.
 
 ## Method detail
 
-### ResultMesh.Generate()
+<a id="ResultMesh.Activate"></a>
 
-Generate the mesh data
+### ResultMesh.Activate()
 
-<!-- !! processed by numpydoc !! -->
-
-### ResultMesh.ClearGeneratedData()
-
-Clear the generated mesh data
+Activate the current object.
 
 <!-- !! processed by numpydoc !! -->
 
-### ResultMesh.AddNamedSelection()
-
-Creates a new NamedSelection
-
-<!-- !! processed by numpydoc !! -->
-
-### ResultMesh.ImportComponentsFromResultFile()
-
-Import solver components from result file
-
-<!-- !! processed by numpydoc !! -->
-
-### ResultMesh.GetChildren(recurses: System.Boolean, children: System.Collections.Generic.IList[ChildrenType])
-
-Gets the list of children, filtered by type.
-
-<!-- !! processed by numpydoc !! -->
-
-### ResultMesh.GetChildren(category: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory), recurses: System.Boolean, children: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject])
-
-Gets the list of children, filtered by type.
-
-<!-- !! processed by numpydoc !! -->
+<a id="ResultMesh.AddComment"></a>
 
 ### ResultMesh.AddComment()
 
@@ -198,11 +192,15 @@ Creates a new child Comment.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="ResultMesh.AddFigure"></a>
+
 ### ResultMesh.AddFigure()
 
 Creates a new child Figure.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="ResultMesh.AddImage"></a>
 
 ### ResultMesh.AddImage(filePath: System.String)
 
@@ -214,11 +212,23 @@ if not, the image will be a screen capture of the Geometry window.
 
 <!-- !! processed by numpydoc !! -->
 
-### ResultMesh.Activate()
+<a id="ResultMesh.AddNamedSelection"></a>
 
-Activate the current object.
+### ResultMesh.AddNamedSelection()
+
+Creates a new NamedSelection
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="ResultMesh.ClearGeneratedData"></a>
+
+### ResultMesh.ClearGeneratedData()
+
+Clear the generated mesh data
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ResultMesh.CopyTo"></a>
 
 ### ResultMesh.CopyTo(other: Ansys.ACT.Automation.Mechanical.DataModelObject)
 
@@ -226,11 +236,47 @@ Copies all visible properties from this object to another.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="ResultMesh.CreateParameter"></a>
+
+### ResultMesh.CreateParameter(propName: System.String)
+
+Creates a new parameter for a Property.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ResultMesh.Duplicate"></a>
+
 ### ResultMesh.Duplicate()
 
 Creates a copy of the current DataModelObject.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="ResultMesh.Generate"></a>
+
+### ResultMesh.Generate()
+
+Generate the mesh data
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ResultMesh.GetChildren"></a>
+
+### ResultMesh.GetChildren(recurses: System.Boolean, children: System.Collections.Generic.IList[ChildrenType])
+
+Gets the list of children, filtered by type.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ResultMesh.GetParameter"></a>
+
+### ResultMesh.GetParameter(propName: System.String)
+
+Gets the parameter corresponding to the given property.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ResultMesh.GroupAllSimilarChildren"></a>
 
 ### ResultMesh.GroupAllSimilarChildren()
 
@@ -238,17 +284,23 @@ Run the GroupAllSimilarChildren action.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="ResultMesh.GroupSimilarObjects"></a>
+
 ### ResultMesh.GroupSimilarObjects()
 
 Run the GroupSimilarObjects action.
 
 <!-- !! processed by numpydoc !! -->
 
-### ResultMesh.PropertyByName(name: System.String)
+<a id="ResultMesh.ImportComponentsFromResultFile"></a>
 
-Get a property by its unique name.
+### ResultMesh.ImportComponentsFromResultFile()
+
+Import solver components from result file
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="ResultMesh.PropertyByAPIName"></a>
 
 ### ResultMesh.PropertyByAPIName(name: System.String)
 
@@ -259,17 +311,15 @@ If multiple properties have the same API Name, only the first property with that
 
 <!-- !! processed by numpydoc !! -->
 
-### ResultMesh.CreateParameter(propName: System.String)
+<a id="ResultMesh.PropertyByName"></a>
 
-Creates a new parameter for a Property.
+### ResultMesh.PropertyByName(name: System.String)
 
-<!-- !! processed by numpydoc !! -->
-
-### ResultMesh.GetParameter(propName: System.String)
-
-Gets the parameter corresponding to the given property.
+Get a property by its unique name.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="ResultMesh.RemoveParameter"></a>
 
 ### ResultMesh.RemoveParameter(propName: System.String)
 

@@ -1,6 +1,6 @@
 # `JointConditionType`
 
-
+<a id="ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.JointConditionType"></a>
 
 #### *class* ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.JointConditionType
 
@@ -17,43 +17,27 @@ Specifies the Joint Condition Type.
 ### Attributes
 
 | Name |
-| ------------------------------------------------------------------------ |
-| [`Displacement`](#JointConditionType.Displacement) |
-| [`Rotation`](#JointConditionType.Rotation) |
-| [`RotationalVelocity`](#JointConditionType.RotationalVelocity) |
+| -------------------------------------------------------------------------------------------------------------------------------------------------- |
 | [`Acceleration`](#JointConditionType.Acceleration) |
-| [`RotationalAcceleration`](#JointConditionType.RotationalAcceleration) |
-| [`Velocity`](#JointConditionType.Velocity) |
+| [`Displacement`](#JointConditionType.Displacement) |
 | [`Force`](#JointConditionType.Force) |
 | [`Moment`](#JointConditionType.Moment) |
+| [`Rotation`](#JointConditionType.Rotation) |
+| [`RotationalAcceleration`](#JointConditionType.RotationalAcceleration) |
+| [`RotationalVelocity`](#JointConditionType.RotationalVelocity) |
+| [`Velocity`](#JointConditionType.Velocity) |
 
 <a id="attribute-detail"></a>
 
 ## Attribute detail
 
-<a id="JointConditionType.Displacement"></a>
-
-### JointConditionType.Displacement *= 105*
-
-<a id="JointConditionType.Rotation"></a>
-
-### JointConditionType.Rotation *= 111*
-
-<a id="JointConditionType.RotationalVelocity"></a>
-
-### JointConditionType.RotationalVelocity *= 109*
-
 <a id="JointConditionType.Acceleration"></a>
 
 ### JointConditionType.Acceleration *= 110*
 
-<a id="JointConditionType.RotationalAcceleration"></a>
+<a id="JointConditionType.Displacement"></a>
 
-### JointConditionType.RotationalAcceleration *= 113*
-
-<a id="JointConditionType.Velocity"></a>
-
-### JointConditionType.Velocity *= 112*
+### JointConditionType.Displacement *= 105*
 
 <a id="JointConditionType.Force"></a>
 
@@ -62,5 +46,21 @@ Specifies the Joint Condition Type.
 <a id="JointConditionType.Moment"></a>
 
 ### JointConditionType.Moment *= 106*
+
+<a id="JointConditionType.Rotation"></a>
+
+### JointConditionType.Rotation *= 111*
+
+<a id="JointConditionType.RotationalAcceleration"></a>
+
+### JointConditionType.RotationalAcceleration *= 113*
+
+<a id="JointConditionType.RotationalVelocity"></a>
+
+### JointConditionType.RotationalVelocity *= 109*
+
+<a id="JointConditionType.Velocity"></a>
+
+### JointConditionType.Velocity *= 112*
 
 

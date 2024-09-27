@@ -1,6 +1,6 @@
 # `FilterType`
 
-
+<a id="ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.FilterType"></a>
 
 #### *class* ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.FilterType
 
@@ -17,7 +17,7 @@ Specifies the FilterType.
 ### Attributes
 
 | Name |
-| -------------------------------------------- |
+| -------------------------------------------------------------------------------------------------------------- |
 | [`Butterworth`](#FilterType.Butterworth) |
 | [`None_`](#FilterType.None_) |
 | [`SAE`](#FilterType.SAE) |

@@ -1,6 +1,6 @@
 # `ImportedFlexibleRemoteConnectors`
 
-
+<a id="ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.ImportedFlexibleRemoteConnectors"></a>
 
 #### *class* ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.ImportedFlexibleRemoteConnectors
 
@@ -17,68 +17,44 @@ Defines a ImportedFlexibleRemoteConnectors.
 ### Methods
 
 | Name | Description |
-|---------------------------|-----------------------------------------------------------------------------------|
-| `Delete`                  | Run the Delete action.                                                            |
-| `GetChildren`             | Gets the list of children, filtered by type.                                      |
-| `GetChildren`             | Gets the list of children, filtered by type.                                      |
-| `AddComment`              | Creates a new child Comment.                                                      |
-| `AddFigure`               | Creates a new child Figure.                                                       |
-| `AddImage`                | Creates a new child Image.                                                        |
-| `Activate`                | Activate the current object.                                                      |
-| `CopyTo`                  | Copies all visible properties from this object to another.                        |
-| `Duplicate`               | Creates a copy of the current DataModelObject.                                    |
-| `GroupAllSimilarChildren` | Run the GroupAllSimilarChildren action.                                           |
-| `GroupSimilarObjects`     | Run the GroupSimilarObjects action.                                               |
-| `PropertyByName`          | Get a property by its unique name.                                                |
-| `PropertyByAPIName`       | Get a property by its API name.                                                   |
-| `CreateParameter`         | Creates a new parameter for a Property.                                           |
-| `GetParameter`            | Gets the parameter corresponding to the given property.                           |
-| `RemoveParameter`         | Removes the parameter from the parameter set corresponding to the given property. |
+|----------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------|
+| [`Activate`](#ImportedFlexibleRemoteConnectors.Activate)                               | Activate the current object.                                                      |
+| [`AddComment`](#ImportedFlexibleRemoteConnectors.AddComment)                           | Creates a new child Comment.                                                      |
+| [`AddFigure`](#ImportedFlexibleRemoteConnectors.AddFigure)                             | Creates a new child Figure.                                                       |
+| [`AddImage`](#ImportedFlexibleRemoteConnectors.AddImage)                               | Creates a new child Image.                                                        |
+| [`CopyTo`](#ImportedFlexibleRemoteConnectors.CopyTo)                                   | Copies all visible properties from this object to another.                        |
+| [`CreateParameter`](#ImportedFlexibleRemoteConnectors.CreateParameter)                 | Creates a new parameter for a Property.                                           |
+| [`Delete`](#ImportedFlexibleRemoteConnectors.Delete)                                   | Run the Delete action.                                                            |
+| [`Duplicate`](#ImportedFlexibleRemoteConnectors.Duplicate)                             | Creates a copy of the current DataModelObject.                                    |
+| [`GetChildren`](#ImportedFlexibleRemoteConnectors.GetChildren)                         | Gets the list of children, filtered by type.                                      |
+| [`GetParameter`](#ImportedFlexibleRemoteConnectors.GetParameter)                       | Gets the parameter corresponding to the given property.                           |
+| [`GroupAllSimilarChildren`](#ImportedFlexibleRemoteConnectors.GroupAllSimilarChildren) | Run the GroupAllSimilarChildren action.                                           |
+| [`GroupSimilarObjects`](#ImportedFlexibleRemoteConnectors.GroupSimilarObjects)         | Run the GroupSimilarObjects action.                                               |
+| [`PropertyByAPIName`](#ImportedFlexibleRemoteConnectors.PropertyByAPIName)             | Get a property by its API name.                                                   |
+| [`PropertyByName`](#ImportedFlexibleRemoteConnectors.PropertyByName)                   | Get a property by its unique name.                                                |
+| [`RemoveParameter`](#ImportedFlexibleRemoteConnectors.RemoveParameter)                 | Removes the parameter from the parameter set corresponding to the given property. |
 
 ### Properties
 
 | Name | Description |
-|---------------------------|---------------------------------------------------------------|
-| `InternalObject`          | Gets the internal object. For advanced usage only.            |
-| `DataModelObjectCategory` | Gets the current DataModelObject's category.                  |
-| `Count`                   | Gets the NumberOfRows.                                        |
-| `Suppressed`              | Gets or sets the Suppressed.                                  |
-| `Children`                | Gets the list of children.                                    |
-| `Comments`                | Gets the list of associated comments.                         |
-| `Figures`                 | Gets the list of associated figures.                          |
-| `Images`                  | Gets the list of associated images.                           |
-| `ReadOnly`                | Gets or sets the ReadOnly.                                    |
-| `InternalObject`          | Gets the internal object. For advanced usage only.            |
-| `Properties`              | Gets the list of properties for this object.                  |
-| `VisibleProperties`       | Gets the list of properties that are visible for this object. |
+|----------------------------------------------------------------------------------------|---------------------------------------------------------------|
+| [`Children`](#ImportedFlexibleRemoteConnectors.Children)                               | Gets the list of children.                                    |
+| [`Comments`](#ImportedFlexibleRemoteConnectors.Comments)                               | Gets the list of associated comments.                         |
+| [`Count`](#ImportedFlexibleRemoteConnectors.Count)                                     | Gets the NumberOfRows.                                        |
+| [`DataModelObjectCategory`](#ImportedFlexibleRemoteConnectors.DataModelObjectCategory) | Gets the current DataModelObject’s category.                  |
+| [`Figures`](#ImportedFlexibleRemoteConnectors.Figures)                                 | Gets the list of associated figures.                          |
+| [`Images`](#ImportedFlexibleRemoteConnectors.Images)                                   | Gets the list of associated images.                           |
+| [`InternalObject`](#ImportedFlexibleRemoteConnectors.InternalObject)                   | Gets the internal object. For advanced usage only.            |
+| [`Properties`](#ImportedFlexibleRemoteConnectors.Properties)                           | Gets the list of properties for this object.                  |
+| [`ReadOnly`](#ImportedFlexibleRemoteConnectors.ReadOnly)                               | Gets or sets the ReadOnly.                                    |
+| [`Suppressed`](#ImportedFlexibleRemoteConnectors.Suppressed)                           | Gets or sets the Suppressed.                                  |
+| [`VisibleProperties`](#ImportedFlexibleRemoteConnectors.VisibleProperties)             | Gets the list of properties that are visible for this object. |
 
 <a id="property-detail"></a>
 
 ## Property detail
 
-### *property* ImportedFlexibleRemoteConnectors.InternalObject *: Ansys.Common.Interop.DSObjectsAuto.IDSExternalModelDataCollAuto | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets the internal object. For advanced usage only.
-
-<!-- !! processed by numpydoc !! -->
-
-### *property* ImportedFlexibleRemoteConnectors.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../v241/Ansys/Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets the current DataModelObject's category.
-
-<!-- !! processed by numpydoc !! -->
-
-### *property* ImportedFlexibleRemoteConnectors.Count *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets the NumberOfRows.
-
-<!-- !! processed by numpydoc !! -->
-
-### *property* ImportedFlexibleRemoteConnectors.Suppressed *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the Suppressed.
-
-<!-- !! processed by numpydoc !! -->
+<a id="ImportedFlexibleRemoteConnectors.Children"></a>
 
 ### *property* ImportedFlexibleRemoteConnectors.Children *: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -86,11 +62,31 @@ Gets the list of children.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="ImportedFlexibleRemoteConnectors.Comments"></a>
+
 ### *property* ImportedFlexibleRemoteConnectors.Comments *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Comment](../../../../../v241/Ansys/ACT/Automation/Mechanical/Comment.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated comments.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="ImportedFlexibleRemoteConnectors.Count"></a>
+
+### *property* ImportedFlexibleRemoteConnectors.Count *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets the NumberOfRows.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ImportedFlexibleRemoteConnectors.DataModelObjectCategory"></a>
+
+### *property* ImportedFlexibleRemoteConnectors.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets the current DataModelObject’s category.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ImportedFlexibleRemoteConnectors.Figures"></a>
 
 ### *property* ImportedFlexibleRemoteConnectors.Figures *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Figure](../../../../../v241/Ansys/ACT/Automation/Mechanical/Figure.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -98,11 +94,31 @@ Gets the list of associated figures.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="ImportedFlexibleRemoteConnectors.Images"></a>
+
 ### *property* ImportedFlexibleRemoteConnectors.Images *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Image](../../../../../v241/Ansys/ACT/Automation/Mechanical/Image.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated images.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="ImportedFlexibleRemoteConnectors.InternalObject"></a>
+
+### *property* ImportedFlexibleRemoteConnectors.InternalObject *: Ansys.Common.Interop.DSObjectsAuto.IDSExternalModelDataCollAuto | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets the internal object. For advanced usage only.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ImportedFlexibleRemoteConnectors.Properties"></a>
+
+### *property* ImportedFlexibleRemoteConnectors.Properties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets the list of properties for this object.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ImportedFlexibleRemoteConnectors.ReadOnly"></a>
 
 ### *property* ImportedFlexibleRemoteConnectors.ReadOnly *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -110,17 +126,15 @@ Gets or sets the ReadOnly.
 
 <!-- !! processed by numpydoc !! -->
 
-### *property* ImportedFlexibleRemoteConnectors.InternalObject *: System.Object | [None](https://docs.python.org/3/library/constants.html#None)*
+<a id="ImportedFlexibleRemoteConnectors.Suppressed"></a>
 
-Gets the internal object. For advanced usage only.
+### *property* ImportedFlexibleRemoteConnectors.Suppressed *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
 
-<!-- !! processed by numpydoc !! -->
-
-### *property* ImportedFlexibleRemoteConnectors.Properties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets the list of properties for this object.
+Gets or sets the Suppressed.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="ImportedFlexibleRemoteConnectors.VisibleProperties"></a>
 
 ### *property* ImportedFlexibleRemoteConnectors.VisibleProperties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -132,23 +146,15 @@ Gets the list of properties that are visible for this object.
 
 ## Method detail
 
-### ImportedFlexibleRemoteConnectors.Delete()
+<a id="ImportedFlexibleRemoteConnectors.Activate"></a>
 
-Run the Delete action.
+### ImportedFlexibleRemoteConnectors.Activate()
 
-<!-- !! processed by numpydoc !! -->
-
-### ImportedFlexibleRemoteConnectors.GetChildren(recurses: System.Boolean, children: System.Collections.Generic.IList[ChildrenType])
-
-Gets the list of children, filtered by type.
+Activate the current object.
 
 <!-- !! processed by numpydoc !! -->
 
-### ImportedFlexibleRemoteConnectors.GetChildren(category: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../v241/Ansys/Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory), recurses: System.Boolean, children: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject])
-
-Gets the list of children, filtered by type.
-
-<!-- !! processed by numpydoc !! -->
+<a id="ImportedFlexibleRemoteConnectors.AddComment"></a>
 
 ### ImportedFlexibleRemoteConnectors.AddComment()
 
@@ -156,11 +162,15 @@ Creates a new child Comment.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="ImportedFlexibleRemoteConnectors.AddFigure"></a>
+
 ### ImportedFlexibleRemoteConnectors.AddFigure()
 
 Creates a new child Figure.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="ImportedFlexibleRemoteConnectors.AddImage"></a>
 
 ### ImportedFlexibleRemoteConnectors.AddImage(filePath: System.String)
 
@@ -172,11 +182,7 @@ if not, the image will be a screen capture of the Geometry window.
 
 <!-- !! processed by numpydoc !! -->
 
-### ImportedFlexibleRemoteConnectors.Activate()
-
-Activate the current object.
-
-<!-- !! processed by numpydoc !! -->
+<a id="ImportedFlexibleRemoteConnectors.CopyTo"></a>
 
 ### ImportedFlexibleRemoteConnectors.CopyTo(other: Ansys.ACT.Automation.Mechanical.DataModelObject)
 
@@ -184,11 +190,47 @@ Copies all visible properties from this object to another.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="ImportedFlexibleRemoteConnectors.CreateParameter"></a>
+
+### ImportedFlexibleRemoteConnectors.CreateParameter(propName: System.String)
+
+Creates a new parameter for a Property.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ImportedFlexibleRemoteConnectors.Delete"></a>
+
+### ImportedFlexibleRemoteConnectors.Delete()
+
+Run the Delete action.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ImportedFlexibleRemoteConnectors.Duplicate"></a>
+
 ### ImportedFlexibleRemoteConnectors.Duplicate()
 
 Creates a copy of the current DataModelObject.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="ImportedFlexibleRemoteConnectors.GetChildren"></a>
+
+### ImportedFlexibleRemoteConnectors.GetChildren(recurses: System.Boolean, children: System.Collections.Generic.IList[ChildrenType])
+
+Gets the list of children, filtered by type.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ImportedFlexibleRemoteConnectors.GetParameter"></a>
+
+### ImportedFlexibleRemoteConnectors.GetParameter(propName: System.String)
+
+Gets the parameter corresponding to the given property.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ImportedFlexibleRemoteConnectors.GroupAllSimilarChildren"></a>
 
 ### ImportedFlexibleRemoteConnectors.GroupAllSimilarChildren()
 
@@ -196,17 +238,15 @@ Run the GroupAllSimilarChildren action.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="ImportedFlexibleRemoteConnectors.GroupSimilarObjects"></a>
+
 ### ImportedFlexibleRemoteConnectors.GroupSimilarObjects()
 
 Run the GroupSimilarObjects action.
 
 <!-- !! processed by numpydoc !! -->
 
-### ImportedFlexibleRemoteConnectors.PropertyByName(name: System.String)
-
-Get a property by its unique name.
-
-<!-- !! processed by numpydoc !! -->
+<a id="ImportedFlexibleRemoteConnectors.PropertyByAPIName"></a>
 
 ### ImportedFlexibleRemoteConnectors.PropertyByAPIName(name: System.String)
 
@@ -217,17 +257,15 @@ If multiple properties have the same API Name, only the first property with that
 
 <!-- !! processed by numpydoc !! -->
 
-### ImportedFlexibleRemoteConnectors.CreateParameter(propName: System.String)
+<a id="ImportedFlexibleRemoteConnectors.PropertyByName"></a>
 
-Creates a new parameter for a Property.
+### ImportedFlexibleRemoteConnectors.PropertyByName(name: System.String)
 
-<!-- !! processed by numpydoc !! -->
-
-### ImportedFlexibleRemoteConnectors.GetParameter(propName: System.String)
-
-Gets the parameter corresponding to the given property.
+Get a property by its unique name.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="ImportedFlexibleRemoteConnectors.RemoveParameter"></a>
 
 ### ImportedFlexibleRemoteConnectors.RemoveParameter(propName: System.String)
 

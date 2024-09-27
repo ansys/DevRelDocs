@@ -1,6 +1,6 @@
 # `ShellMBPType`
 
-
+<a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.ShellMBPType"></a>
 
 #### *class* ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.ShellMBPType
 
@@ -17,11 +17,11 @@ Specifies the ShellMBPType.
 ### Attributes
 
 | Name |
-| -------------------------------------------------------------------------------------------------------------------------- |
-| [`BendingStress`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/ShellMBPType.md#ShellMBPType.BendingStress) |
-| [`BottomPeakStress`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/ShellMBPType.md#ShellMBPType.BottomPeakStress) |
-| [`MembraneStress`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/ShellMBPType.md#ShellMBPType.MembraneStress) |
-| [`TopPeakStress`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/ShellMBPType.md#ShellMBPType.TopPeakStress) |
+| ------------------------------------------------------ |
+| [`BendingStress`](#ShellMBPType.BendingStress) |
+| [`BottomPeakStress`](#ShellMBPType.BottomPeakStress) |
+| [`MembraneStress`](#ShellMBPType.MembraneStress) |
+| [`TopPeakStress`](#ShellMBPType.TopPeakStress) |
 
 <a id="attribute-detail"></a>
 

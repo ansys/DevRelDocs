@@ -1,6 +1,6 @@
 # `RBDProgramControlType`
 
-
+<a id="ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.RBDProgramControlType"></a>
 
 #### *class* ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.RBDProgramControlType
 
@@ -15,25 +15,25 @@ Bases: [`enum.Enum`](https://docs.python.org/3/library/enum.html#enum.Enum)
 ### Attributes
 
 | Name |
-| ------------------------------------------------------------------- |
-| [`ProgramControlled`](#RBDProgramControlType.ProgramControlled) |
-| [`On`](#RBDProgramControlType.On) |
+| ---------------------------------------------------------------------------------------------------------------------------------------------- |
 | [`Off`](#RBDProgramControlType.Off) |
+| [`On`](#RBDProgramControlType.On) |
+| [`ProgramControlled`](#RBDProgramControlType.ProgramControlled) |
 
 <a id="attribute-detail"></a>
 
 ## Attribute detail
 
-<a id="RBDProgramControlType.ProgramControlled"></a>
+<a id="RBDProgramControlType.Off"></a>
 
-### RBDProgramControlType.ProgramControlled *= 0*
+### RBDProgramControlType.Off *= 2*
 
 <a id="RBDProgramControlType.On"></a>
 
 ### RBDProgramControlType.On *= 1*
 
-<a id="RBDProgramControlType.Off"></a>
+<a id="RBDProgramControlType.ProgramControlled"></a>
 
-### RBDProgramControlType.Off *= 2*
+### RBDProgramControlType.ProgramControlled *= 0*
 
 

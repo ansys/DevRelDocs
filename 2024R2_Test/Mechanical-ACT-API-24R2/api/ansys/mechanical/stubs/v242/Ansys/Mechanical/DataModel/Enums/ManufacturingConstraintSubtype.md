@@ -1,6 +1,6 @@
 # `ManufacturingConstraintSubtype`
 
-
+<a id="ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.ManufacturingConstraintSubtype"></a>
 
 #### *class* ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.ManufacturingConstraintSubtype
 
@@ -17,7 +17,7 @@ Specifies the ManufacturingConstraintSubtype.
 ### Attributes
 
 | Name |
-| ---------------------------------------------------------------------------------------------------------------------- |
+| ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
 | [`ComplexityIndexConstraint`](#ManufacturingConstraintSubtype.ComplexityIndexConstraint) |
 | [`CyclicManufacturingConstraint`](#ManufacturingConstraintSubtype.CyclicManufacturingConstraint) |
 | [`ExtrusionManufacturingConstraint`](#ManufacturingConstraintSubtype.ExtrusionManufacturingConstraint) |

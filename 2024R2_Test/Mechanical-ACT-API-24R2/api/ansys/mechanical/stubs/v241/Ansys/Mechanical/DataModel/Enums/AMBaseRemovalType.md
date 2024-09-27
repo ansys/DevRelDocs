@@ -1,6 +1,6 @@
 # `AMBaseRemovalType`
 
-
+<a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.AMBaseRemovalType"></a>
 
 #### *class* ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.AMBaseRemovalType
 
@@ -17,9 +17,9 @@ Specifies the AMBaseRemovalType.
 ### Attributes
 
 | Name |
-| ------------------------------------------------------------------------------------------------------------------------------ |
-| [`Directional`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/AMBaseRemovalType.md#AMBaseRemovalType.Directional) |
-| [`Instantaneous`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/AMBaseRemovalType.md#AMBaseRemovalType.Instantaneous) |
+| ----------------------------------------------------- |
+| [`Directional`](#AMBaseRemovalType.Directional) |
+| [`Instantaneous`](#AMBaseRemovalType.Instantaneous) |
 
 <a id="attribute-detail"></a>
 

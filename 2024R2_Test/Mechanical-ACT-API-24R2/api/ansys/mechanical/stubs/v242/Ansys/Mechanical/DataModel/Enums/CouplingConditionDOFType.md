@@ -1,6 +1,6 @@
 # `CouplingConditionDOFType`
 
-
+<a id="ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.CouplingConditionDOFType"></a>
 
 #### *class* ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.CouplingConditionDOFType
 
@@ -17,32 +17,20 @@ Specifies the CouplingConditionDOFType.
 ### Attributes
 
 | Name |
-| ------------------------------------------------------------ |
-| [`XRotation`](#CouplingConditionDOFType.XRotation) |
-| [`YRotation`](#CouplingConditionDOFType.YRotation) |
-| [`ZRotation`](#CouplingConditionDOFType.ZRotation) |
+| -------------------------------------------------------------------------------------------------------------------------------------------- |
 | [`Temperature`](#CouplingConditionDOFType.Temperature) |
 | [`Unknown`](#CouplingConditionDOFType.Unknown) |
-| [`XDisplacement`](#CouplingConditionDOFType.XDisplacement) |
-| [`YDisplacement`](#CouplingConditionDOFType.YDisplacement) |
-| [`ZDisplacement`](#CouplingConditionDOFType.ZDisplacement) |
 | [`Voltage`](#CouplingConditionDOFType.Voltage) |
+| [`XDisplacement`](#CouplingConditionDOFType.XDisplacement) |
+| [`XRotation`](#CouplingConditionDOFType.XRotation) |
+| [`YDisplacement`](#CouplingConditionDOFType.YDisplacement) |
+| [`YRotation`](#CouplingConditionDOFType.YRotation) |
+| [`ZDisplacement`](#CouplingConditionDOFType.ZDisplacement) |
+| [`ZRotation`](#CouplingConditionDOFType.ZRotation) |
 
 <a id="attribute-detail"></a>
 
 ## Attribute detail
-
-<a id="CouplingConditionDOFType.XRotation"></a>
-
-### CouplingConditionDOFType.XRotation *= 4*
-
-<a id="CouplingConditionDOFType.YRotation"></a>
-
-### CouplingConditionDOFType.YRotation *= 5*
-
-<a id="CouplingConditionDOFType.ZRotation"></a>
-
-### CouplingConditionDOFType.ZRotation *= 6*
 
 <a id="CouplingConditionDOFType.Temperature"></a>
 
@@ -52,20 +40,32 @@ Specifies the CouplingConditionDOFType.
 
 ### CouplingConditionDOFType.Unknown *= 0*
 
+<a id="CouplingConditionDOFType.Voltage"></a>
+
+### CouplingConditionDOFType.Voltage *= 7*
+
 <a id="CouplingConditionDOFType.XDisplacement"></a>
 
 ### CouplingConditionDOFType.XDisplacement *= 1*
+
+<a id="CouplingConditionDOFType.XRotation"></a>
+
+### CouplingConditionDOFType.XRotation *= 4*
 
 <a id="CouplingConditionDOFType.YDisplacement"></a>
 
 ### CouplingConditionDOFType.YDisplacement *= 2*
 
+<a id="CouplingConditionDOFType.YRotation"></a>
+
+### CouplingConditionDOFType.YRotation *= 5*
+
 <a id="CouplingConditionDOFType.ZDisplacement"></a>
 
 ### CouplingConditionDOFType.ZDisplacement *= 3*
 
-<a id="CouplingConditionDOFType.Voltage"></a>
+<a id="CouplingConditionDOFType.ZRotation"></a>
 
-### CouplingConditionDOFType.Voltage *= 7*
+### CouplingConditionDOFType.ZRotation *= 6*
 
 

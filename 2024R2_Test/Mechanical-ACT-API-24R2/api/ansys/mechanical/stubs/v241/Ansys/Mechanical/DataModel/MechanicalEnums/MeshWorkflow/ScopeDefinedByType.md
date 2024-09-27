@@ -1,12 +1,12 @@
 # `ScopeDefinedByType`
 
-
+<a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.MechanicalEnums.MeshWorkflow.ScopeDefinedByType"></a>
 
 #### *class* ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.MechanicalEnums.MeshWorkflow.ScopeDefinedByType
 
 Bases: [`enum.Enum`](https://docs.python.org/3/library/enum.html#enum.Enum)
 
-This enum is referenced in the ìControlî tree node and reflects how a scope is being defined. Based on the type of a scope definition different rules are applied which define the applicable list of scope definitions to be used.
+This enum is referenced in the ‚ÄúControl‚Äù tree node and reflects how a scope is being defined. Based on the type of a scope definition different rules are applied which define the applicable list of scope definitions to be used.
 
 <!-- !! processed by numpydoc !! -->
 
@@ -17,9 +17,9 @@ This enum is referenced in the ìControlî tree node and reflects how a scope is b
 ### Attributes
 
 | Name |
-| ------------------------------------------------------------------------------------------------------------------------------------------------ |
-| [`Outcome`](../../../../../../v242/Ansys/Mechanical/DataModel/MechanicalEnums/MeshWorkflow/ScopeDefinedByType.md#ScopeDefinedByType.Outcome) |
-| [`Value`](../../../../../../v242/Ansys/Mechanical/DataModel/MechanicalEnums/MeshWorkflow/ScopeDefinedByType.md#ScopeDefinedByType.Value) |
+| -------------------------------------------- |
+| [`Outcome`](#ScopeDefinedByType.Outcome) |
+| [`Value`](#ScopeDefinedByType.Value) |
 
 <a id="attribute-detail"></a>
 

@@ -1,6 +1,6 @@
 # `CheckpointDefinitionType`
 
-
+<a id="ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.MechanicalEnums.MeshWorkflow.CheckpointDefinitionType"></a>
 
 #### *class* ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.MechanicalEnums.MeshWorkflow.CheckpointDefinitionType
 
@@ -17,7 +17,7 @@ To select the MeshWorkflow Process Entity Type.
 ### Attributes
 
 | Name |
-| ---------------------------------------------------- |
+| -------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | [`Disabled`](#CheckpointDefinitionType.Disabled) |
 | [`Enabled`](#CheckpointDefinitionType.Enabled) |
 

@@ -1,6 +1,6 @@
 # `SolverUnitsControlType`
 
-
+<a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.SolverUnitsControlType"></a>
 
 #### *class* ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.SolverUnitsControlType
 
@@ -17,9 +17,9 @@ Specifies the SolverUnitsControlType.
 ### Attributes
 
 | Name |
-| ---------------------------------------------------------------------------------------------------------------------------------------- |
-| [`ActiveSystem`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/SolverUnitsControlType.md#SolverUnitsControlType.ActiveSystem) |
-| [`Manual`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/SolverUnitsControlType.md#SolverUnitsControlType.Manual) |
+| ---------------------------------------------------------- |
+| [`ActiveSystem`](#SolverUnitsControlType.ActiveSystem) |
+| [`Manual`](#SolverUnitsControlType.Manual) |
 
 <a id="attribute-detail"></a>
 

@@ -1,6 +1,6 @@
 # `AMInherentStrainDefinition`
 
-
+<a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.AMInherentStrainDefinition"></a>
 
 #### *class* ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.AMInherentStrainDefinition
 
@@ -17,11 +17,11 @@ Specifies the AMInherentStrainDefinition.
 ### Attributes
 
 | Name |
-| ------------------------------------------------------------------------------------------------------------------------------------------------ |
-| [`Anisotropic`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/AMInherentStrainDefinition.md#AMInherentStrainDefinition.Anisotropic) |
-| [`Isotropic`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/AMInherentStrainDefinition.md#AMInherentStrainDefinition.Isotropic) |
-| [`ScanPattern`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/AMInherentStrainDefinition.md#AMInherentStrainDefinition.ScanPattern) |
-| [`ThermalStrain`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/AMInherentStrainDefinition.md#AMInherentStrainDefinition.ThermalStrain) |
+| -------------------------------------------------------------- |
+| [`Anisotropic`](#AMInherentStrainDefinition.Anisotropic) |
+| [`Isotropic`](#AMInherentStrainDefinition.Isotropic) |
+| [`ScanPattern`](#AMInherentStrainDefinition.ScanPattern) |
+| [`ThermalStrain`](#AMInherentStrainDefinition.ThermalStrain) |
 
 <a id="attribute-detail"></a>
 

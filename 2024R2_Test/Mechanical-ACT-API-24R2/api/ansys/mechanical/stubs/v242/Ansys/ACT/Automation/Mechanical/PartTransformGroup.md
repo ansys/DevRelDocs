@@ -1,6 +1,6 @@
 # `PartTransformGroup`
 
-
+<a id="ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.PartTransformGroup"></a>
 
 #### *class* ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.PartTransformGroup
 
@@ -17,76 +17,46 @@ Defines a PartTransformGroup.
 ### Methods
 
 | Name | Description |
-|---------------------------|-----------------------------------------------------------------------------------|
-| `TransformGeometry`       | TransformGeometry method.                                                         |
-| `AddPartTransform`        | Creates a new PartTransform                                                       |
-| `Delete`                  | Run the Delete action.                                                            |
-| `GetChildren`             | Gets the list of children, filtered by type.                                      |
-| `GetChildren`             | Gets the list of children, filtered by type.                                      |
-| `AddComment`              | Creates a new child Comment.                                                      |
-| `AddFigure`               | Creates a new child Figure.                                                       |
-| `AddImage`                | Creates a new child Image.                                                        |
-| `Activate`                | Activate the current object.                                                      |
-| `CopyTo`                  | Copies all visible properties from this object to another.                        |
-| `Duplicate`               | Creates a copy of the current DataModelObject.                                    |
-| `GroupAllSimilarChildren` | Run the GroupAllSimilarChildren action.                                           |
-| `GroupSimilarObjects`     | Run the GroupSimilarObjects action.                                               |
-| `PropertyByName`          | Get a property by its unique name.                                                |
-| `PropertyByAPIName`       | Get a property by its API name.                                                   |
-| `CreateParameter`         | Creates a new parameter for a Property.                                           |
-| `GetParameter`            | Gets the parameter corresponding to the given property.                           |
-| `RemoveParameter`         | Removes the parameter from the parameter set corresponding to the given property. |
+|---------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------|
+| [`Activate`](#PartTransformGroup.Activate)                               | Activate the current object.                                                      |
+| [`AddComment`](#PartTransformGroup.AddComment)                           | Creates a new child Comment.                                                      |
+| [`AddFigure`](#PartTransformGroup.AddFigure)                             | Creates a new child Figure.                                                       |
+| [`AddImage`](#PartTransformGroup.AddImage)                               | Creates a new child Image.                                                        |
+| [`AddPartTransform`](#PartTransformGroup.AddPartTransform)               | Creates a new PartTransform                                                       |
+| [`CopyTo`](#PartTransformGroup.CopyTo)                                   | Copies all visible properties from this object to another.                        |
+| [`CreateParameter`](#PartTransformGroup.CreateParameter)                 | Creates a new parameter for a Property.                                           |
+| [`Delete`](#PartTransformGroup.Delete)                                   | Run the Delete action.                                                            |
+| [`Duplicate`](#PartTransformGroup.Duplicate)                             | Creates a copy of the current DataModelObject.                                    |
+| [`GetChildren`](#PartTransformGroup.GetChildren)                         | Gets the list of children, filtered by type.                                      |
+| [`GetParameter`](#PartTransformGroup.GetParameter)                       | Gets the parameter corresponding to the given property.                           |
+| [`GroupAllSimilarChildren`](#PartTransformGroup.GroupAllSimilarChildren) | Run the GroupAllSimilarChildren action.                                           |
+| [`GroupSimilarObjects`](#PartTransformGroup.GroupSimilarObjects)         | Run the GroupSimilarObjects action.                                               |
+| [`PropertyByAPIName`](#PartTransformGroup.PropertyByAPIName)             | Get a property by its API name.                                                   |
+| [`PropertyByName`](#PartTransformGroup.PropertyByName)                   | Get a property by its unique name.                                                |
+| [`RemoveParameter`](#PartTransformGroup.RemoveParameter)                 | Removes the parameter from the parameter set corresponding to the given property. |
+| [`TransformGeometry`](#PartTransformGroup.TransformGeometry)             | TransformGeometry method.                                                         |
 
 ### Properties
 
 | Name | Description |
-|---------------------------|---------------------------------------------------------------|
-| `InternalObject`          | Gets the internal object. For advanced usage only.            |
-| `RegenerateContacts`      | Gets or sets the RegenerateContacts.                          |
-| `Suppressed`              | Gets or sets the Suppressed.                                  |
-| `TransformMesh`           | Gets or sets the TransformMesh.                               |
-| `DataModelObjectCategory` | Gets the current DataModelObject's category.                  |
-| `Children`                | Gets the list of children.                                    |
-| `Comments`                | Gets the list of associated comments.                         |
-| `Figures`                 | Gets the list of associated figures.                          |
-| `Images`                  | Gets the list of associated images.                           |
-| `InternalObject`          | Gets the internal object. For advanced usage only.            |
-| `Properties`              | Gets the list of properties for this object.                  |
-| `VisibleProperties`       | Gets the list of properties that are visible for this object. |
+|---------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------|
+| [`Children`](#PartTransformGroup.Children)                               | Gets the list of children.                                    |
+| [`Comments`](#PartTransformGroup.Comments)                               | Gets the list of associated comments.                         |
+| [`DataModelObjectCategory`](#PartTransformGroup.DataModelObjectCategory) | Gets the current DataModelObject’s category.                  |
+| [`Figures`](#PartTransformGroup.Figures)                                 | Gets the list of associated figures.                          |
+| [`Images`](#PartTransformGroup.Images)                                   | Gets the list of associated images.                           |
+| [`InternalObject`](#PartTransformGroup.InternalObject)                   | Gets the internal object. For advanced usage only.            |
+| [`Properties`](#PartTransformGroup.Properties)                           | Gets the list of properties for this object.                  |
+| [`RegenerateContacts`](#PartTransformGroup.RegenerateContacts)           | Gets or sets the RegenerateContacts.                          |
+| [`Suppressed`](#PartTransformGroup.Suppressed)                           | Gets or sets the Suppressed.                                  |
+| [`TransformMesh`](#PartTransformGroup.TransformMesh)                     | Gets or sets the TransformMesh.                               |
+| [`VisibleProperties`](#PartTransformGroup.VisibleProperties)             | Gets the list of properties that are visible for this object. |
 
 <a id="property-detail"></a>
 
 ## Property detail
 
-### *property* PartTransformGroup.InternalObject *: Ansys.Common.Interop.DSObjectsAuto.IDSPartTransformGroupAuto | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets the internal object. For advanced usage only.
-
-<!-- !! processed by numpydoc !! -->
-
-### *property* PartTransformGroup.RegenerateContacts *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the RegenerateContacts.
-
-<!-- !! processed by numpydoc !! -->
-
-### *property* PartTransformGroup.Suppressed *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the Suppressed.
-
-<!-- !! processed by numpydoc !! -->
-
-### *property* PartTransformGroup.TransformMesh *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the TransformMesh.
-
-<!-- !! processed by numpydoc !! -->
-
-### *property* PartTransformGroup.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../v241/Ansys/Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets the current DataModelObject's category.
-
-<!-- !! processed by numpydoc !! -->
+<a id="PartTransformGroup.Children"></a>
 
 ### *property* PartTransformGroup.Children *: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -94,11 +64,23 @@ Gets the list of children.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="PartTransformGroup.Comments"></a>
+
 ### *property* PartTransformGroup.Comments *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Comment](../../../../../v241/Ansys/ACT/Automation/Mechanical/Comment.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated comments.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="PartTransformGroup.DataModelObjectCategory"></a>
+
+### *property* PartTransformGroup.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets the current DataModelObject’s category.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="PartTransformGroup.Figures"></a>
 
 ### *property* PartTransformGroup.Figures *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Figure](../../../../../v241/Ansys/ACT/Automation/Mechanical/Figure.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -106,23 +88,55 @@ Gets the list of associated figures.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="PartTransformGroup.Images"></a>
+
 ### *property* PartTransformGroup.Images *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Image](../../../../../v241/Ansys/ACT/Automation/Mechanical/Image.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated images.
 
 <!-- !! processed by numpydoc !! -->
 
-### *property* PartTransformGroup.InternalObject *: System.Object | [None](https://docs.python.org/3/library/constants.html#None)*
+<a id="PartTransformGroup.InternalObject"></a>
+
+### *property* PartTransformGroup.InternalObject *: Ansys.Common.Interop.DSObjectsAuto.IDSPartTransformGroupAuto | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the internal object. For advanced usage only.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="PartTransformGroup.Properties"></a>
 
 ### *property* PartTransformGroup.Properties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of properties for this object.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="PartTransformGroup.RegenerateContacts"></a>
+
+### *property* PartTransformGroup.RegenerateContacts *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the RegenerateContacts.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="PartTransformGroup.Suppressed"></a>
+
+### *property* PartTransformGroup.Suppressed *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the Suppressed.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="PartTransformGroup.TransformMesh"></a>
+
+### *property* PartTransformGroup.TransformMesh *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the TransformMesh.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="PartTransformGroup.VisibleProperties"></a>
 
 ### *property* PartTransformGroup.VisibleProperties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -134,35 +148,15 @@ Gets the list of properties that are visible for this object.
 
 ## Method detail
 
-### PartTransformGroup.TransformGeometry()
+<a id="PartTransformGroup.Activate"></a>
 
-TransformGeometry method.
+### PartTransformGroup.Activate()
 
-<!-- !! processed by numpydoc !! -->
-
-### PartTransformGroup.AddPartTransform()
-
-Creates a new PartTransform
+Activate the current object.
 
 <!-- !! processed by numpydoc !! -->
 
-### PartTransformGroup.Delete()
-
-Run the Delete action.
-
-<!-- !! processed by numpydoc !! -->
-
-### PartTransformGroup.GetChildren(recurses: System.Boolean, children: System.Collections.Generic.IList[ChildrenType])
-
-Gets the list of children, filtered by type.
-
-<!-- !! processed by numpydoc !! -->
-
-### PartTransformGroup.GetChildren(category: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../v241/Ansys/Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory), recurses: System.Boolean, children: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject])
-
-Gets the list of children, filtered by type.
-
-<!-- !! processed by numpydoc !! -->
+<a id="PartTransformGroup.AddComment"></a>
 
 ### PartTransformGroup.AddComment()
 
@@ -170,11 +164,15 @@ Creates a new child Comment.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="PartTransformGroup.AddFigure"></a>
+
 ### PartTransformGroup.AddFigure()
 
 Creates a new child Figure.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="PartTransformGroup.AddImage"></a>
 
 ### PartTransformGroup.AddImage(filePath: System.String)
 
@@ -186,11 +184,15 @@ if not, the image will be a screen capture of the Geometry window.
 
 <!-- !! processed by numpydoc !! -->
 
-### PartTransformGroup.Activate()
+<a id="PartTransformGroup.AddPartTransform"></a>
 
-Activate the current object.
+### PartTransformGroup.AddPartTransform()
+
+Creates a new PartTransform
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="PartTransformGroup.CopyTo"></a>
 
 ### PartTransformGroup.CopyTo(other: Ansys.ACT.Automation.Mechanical.DataModelObject)
 
@@ -198,11 +200,47 @@ Copies all visible properties from this object to another.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="PartTransformGroup.CreateParameter"></a>
+
+### PartTransformGroup.CreateParameter(propName: System.String)
+
+Creates a new parameter for a Property.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="PartTransformGroup.Delete"></a>
+
+### PartTransformGroup.Delete()
+
+Run the Delete action.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="PartTransformGroup.Duplicate"></a>
+
 ### PartTransformGroup.Duplicate()
 
 Creates a copy of the current DataModelObject.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="PartTransformGroup.GetChildren"></a>
+
+### PartTransformGroup.GetChildren(recurses: System.Boolean, children: System.Collections.Generic.IList[ChildrenType])
+
+Gets the list of children, filtered by type.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="PartTransformGroup.GetParameter"></a>
+
+### PartTransformGroup.GetParameter(propName: System.String)
+
+Gets the parameter corresponding to the given property.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="PartTransformGroup.GroupAllSimilarChildren"></a>
 
 ### PartTransformGroup.GroupAllSimilarChildren()
 
@@ -210,17 +248,15 @@ Run the GroupAllSimilarChildren action.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="PartTransformGroup.GroupSimilarObjects"></a>
+
 ### PartTransformGroup.GroupSimilarObjects()
 
 Run the GroupSimilarObjects action.
 
 <!-- !! processed by numpydoc !! -->
 
-### PartTransformGroup.PropertyByName(name: System.String)
-
-Get a property by its unique name.
-
-<!-- !! processed by numpydoc !! -->
+<a id="PartTransformGroup.PropertyByAPIName"></a>
 
 ### PartTransformGroup.PropertyByAPIName(name: System.String)
 
@@ -231,21 +267,27 @@ If multiple properties have the same API Name, only the first property with that
 
 <!-- !! processed by numpydoc !! -->
 
-### PartTransformGroup.CreateParameter(propName: System.String)
+<a id="PartTransformGroup.PropertyByName"></a>
 
-Creates a new parameter for a Property.
+### PartTransformGroup.PropertyByName(name: System.String)
 
-<!-- !! processed by numpydoc !! -->
-
-### PartTransformGroup.GetParameter(propName: System.String)
-
-Gets the parameter corresponding to the given property.
+Get a property by its unique name.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="PartTransformGroup.RemoveParameter"></a>
 
 ### PartTransformGroup.RemoveParameter(propName: System.String)
 
 Removes the parameter from the parameter set corresponding to the given property.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="PartTransformGroup.TransformGeometry"></a>
+
+### PartTransformGroup.TransformGeometry()
+
+TransformGeometry method.
 
 <!-- !! processed by numpydoc !! -->
 

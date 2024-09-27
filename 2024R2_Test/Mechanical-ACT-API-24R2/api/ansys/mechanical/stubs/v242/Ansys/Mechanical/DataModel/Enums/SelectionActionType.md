@@ -1,6 +1,6 @@
 # `SelectionActionType`
 
-
+<a id="ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.SelectionActionType"></a>
 
 #### *class* ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.SelectionActionType
 
@@ -17,29 +17,17 @@ Specifies the selction action type.
 ### Attributes
 
 | Name |
-| --------------------------------------------------- |
-| [`Filter`](#SelectionActionType.Filter) |
-| [`Remove`](#SelectionActionType.Remove) |
-| [`Invert`](#SelectionActionType.Invert) |
+| ------------------------------------------------------------------------------------------------------------------------------ |
 | [`Add`](#SelectionActionType.Add) |
 | [`Convert`](#SelectionActionType.Convert) |
 | [`Diagnostics`](#SelectionActionType.Diagnostics) |
+| [`Filter`](#SelectionActionType.Filter) |
+| [`Invert`](#SelectionActionType.Invert) |
+| [`Remove`](#SelectionActionType.Remove) |
 
 <a id="attribute-detail"></a>
 
 ## Attribute detail
-
-<a id="SelectionActionType.Filter"></a>
-
-### SelectionActionType.Filter *= 1*
-
-<a id="SelectionActionType.Remove"></a>
-
-### SelectionActionType.Remove *= 2*
-
-<a id="SelectionActionType.Invert"></a>
-
-### SelectionActionType.Invert *= 3*
 
 <a id="SelectionActionType.Add"></a>
 
@@ -52,5 +40,17 @@ Specifies the selction action type.
 <a id="SelectionActionType.Diagnostics"></a>
 
 ### SelectionActionType.Diagnostics *= 6*
+
+<a id="SelectionActionType.Filter"></a>
+
+### SelectionActionType.Filter *= 1*
+
+<a id="SelectionActionType.Invert"></a>
+
+### SelectionActionType.Invert *= 3*
+
+<a id="SelectionActionType.Remove"></a>
+
+### SelectionActionType.Remove *= 2*
 
 

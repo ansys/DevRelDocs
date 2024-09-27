@@ -1,6 +1,6 @@
 # `ModelImportUnitSystemType`
 
-
+<a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.ModelImportUnitSystemType"></a>
 
 #### *class* ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.ModelImportUnitSystemType
 
@@ -17,20 +17,20 @@ To select the Unit System Type for the Model Import File being imported.
 ### Attributes
 
 | Name |
-| ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| [`UnitSystemConsistentBFT`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/ModelImportUnitSystemType.md#ModelImportUnitSystemType.UnitSystemConsistentBFT) |
-| [`UnitSystemConsistentBIN`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/ModelImportUnitSystemType.md#ModelImportUnitSystemType.UnitSystemConsistentBIN) |
-| [`UnitSystemConsistentCGS`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/ModelImportUnitSystemType.md#ModelImportUnitSystemType.UnitSystemConsistentCGS) |
-| [`UnitSystemConsistentNMM`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/ModelImportUnitSystemType.md#ModelImportUnitSystemType.UnitSystemConsistentNMM) |
-| [`UnitSystemConsistentNMMKGMMMS`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/ModelImportUnitSystemType.md#ModelImportUnitSystemType.UnitSystemConsistentNMMKGMMMS) |
-| [`UnitSystemConsistentuMKS`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/ModelImportUnitSystemType.md#ModelImportUnitSystemType.UnitSystemConsistentuMKS) |
-| [`UnitSystemMetricCGS`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/ModelImportUnitSystemType.md#ModelImportUnitSystemType.UnitSystemMetricCGS) |
-| [`UnitSystemMetricMKS`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/ModelImportUnitSystemType.md#ModelImportUnitSystemType.UnitSystemMetricMKS) |
-| [`UnitSystemMetricNMM`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/ModelImportUnitSystemType.md#ModelImportUnitSystemType.UnitSystemMetricNMM) |
-| [`UnitSystemMetricNMMDton`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/ModelImportUnitSystemType.md#ModelImportUnitSystemType.UnitSystemMetricNMMDton) |
-| [`UnitSystemMetricNMMton`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/ModelImportUnitSystemType.md#ModelImportUnitSystemType.UnitSystemMetricNMMton) |
-| [`UnitSystemMetricUMKS`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/ModelImportUnitSystemType.md#ModelImportUnitSystemType.UnitSystemMetricUMKS) |
-| [`UnitSystemSI`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/ModelImportUnitSystemType.md#ModelImportUnitSystemType.UnitSystemSI) |
+| --------------------------------------------------------------------------------------------- |
+| [`UnitSystemConsistentBFT`](#ModelImportUnitSystemType.UnitSystemConsistentBFT) |
+| [`UnitSystemConsistentBIN`](#ModelImportUnitSystemType.UnitSystemConsistentBIN) |
+| [`UnitSystemConsistentCGS`](#ModelImportUnitSystemType.UnitSystemConsistentCGS) |
+| [`UnitSystemConsistentNMM`](#ModelImportUnitSystemType.UnitSystemConsistentNMM) |
+| [`UnitSystemConsistentNMMKGMMMS`](#ModelImportUnitSystemType.UnitSystemConsistentNMMKGMMMS) |
+| [`UnitSystemConsistentuMKS`](#ModelImportUnitSystemType.UnitSystemConsistentuMKS) |
+| [`UnitSystemMetricCGS`](#ModelImportUnitSystemType.UnitSystemMetricCGS) |
+| [`UnitSystemMetricMKS`](#ModelImportUnitSystemType.UnitSystemMetricMKS) |
+| [`UnitSystemMetricNMM`](#ModelImportUnitSystemType.UnitSystemMetricNMM) |
+| [`UnitSystemMetricNMMDton`](#ModelImportUnitSystemType.UnitSystemMetricNMMDton) |
+| [`UnitSystemMetricNMMton`](#ModelImportUnitSystemType.UnitSystemMetricNMMton) |
+| [`UnitSystemMetricUMKS`](#ModelImportUnitSystemType.UnitSystemMetricUMKS) |
+| [`UnitSystemSI`](#ModelImportUnitSystemType.UnitSystemSI) |
 
 <a id="attribute-detail"></a>
 

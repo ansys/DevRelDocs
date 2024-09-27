@@ -1,6 +1,6 @@
 # `ContactStrainEnergyTracker`
 
-
+<a id="ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Results.ResultTrackers.ContactStrainEnergyTracker"></a>
 
 #### *class* ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Results.ResultTrackers.ContactStrainEnergyTracker
 
@@ -17,115 +17,93 @@ Defines a ContactStrainEnergyTracker.
 ### Methods
 
 | Name | Description |
-|---------------------------|-----------------------------------------------------------------------------------|
-| `ExportAnimation`         | Run the ExportAnimation action.                                                   |
-| `ClearGeneratedData`      | Run the ClearGeneratedData action.                                                |
-| `EvaluateAllResults`      | Run the EvaluateAllResults action.                                                |
-| `RenameBasedOnDefinition` | Run the RenameBasedOnDefinition action.                                           |
-| `Delete`                  | Run the Delete action.                                                            |
-| `GetChildren`             | Gets the list of children, filtered by type.                                      |
-| `GetChildren`             | Gets the list of children, filtered by type.                                      |
-| `AddComment`              | Creates a new child Comment.                                                      |
-| `AddImage`                | Creates a new child Image.                                                        |
-| `Activate`                | Activate the current object.                                                      |
-| `CopyTo`                  | Copies all visible properties from this object to another.                        |
-| `Duplicate`               | Creates a copy of the current DataModelObject.                                    |
-| `GroupAllSimilarChildren` | Run the GroupAllSimilarChildren action.                                           |
-| `GroupSimilarObjects`     | Run the GroupSimilarObjects action.                                               |
-| `PropertyByName`          | Get a property by its unique name.                                                |
-| `PropertyByAPIName`       | Get a property by its API name.                                                   |
-| `CreateParameter`         | Creates a new parameter for a Property.                                           |
-| `GetParameter`            | Gets the parameter corresponding to the given property.                           |
-| `RemoveParameter`         | Removes the parameter from the parameter set corresponding to the given property. |
+|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------|
+| [`Activate`](#ContactStrainEnergyTracker.Activate)                               | Activate the current object.                                                      |
+| [`AddComment`](#ContactStrainEnergyTracker.AddComment)                           | Creates a new child Comment.                                                      |
+| [`AddImage`](#ContactStrainEnergyTracker.AddImage)                               | Creates a new child Image.                                                        |
+| [`ClearGeneratedData`](#ContactStrainEnergyTracker.ClearGeneratedData)           | Run the ClearGeneratedData action.                                                |
+| [`CopyTo`](#ContactStrainEnergyTracker.CopyTo)                                   | Copies all visible properties from this object to another.                        |
+| [`CreateParameter`](#ContactStrainEnergyTracker.CreateParameter)                 | Creates a new parameter for a Property.                                           |
+| [`Delete`](#ContactStrainEnergyTracker.Delete)                                   | Run the Delete action.                                                            |
+| [`Duplicate`](#ContactStrainEnergyTracker.Duplicate)                             | Creates a copy of the current DataModelObject.                                    |
+| [`EvaluateAllResults`](#ContactStrainEnergyTracker.EvaluateAllResults)           | Run the EvaluateAllResults action.                                                |
+| [`ExportAnimation`](#ContactStrainEnergyTracker.ExportAnimation)                 | Run the ExportAnimation action.                                                   |
+| [`GetChildren`](#ContactStrainEnergyTracker.GetChildren)                         | Gets the list of children, filtered by type.                                      |
+| [`GetParameter`](#ContactStrainEnergyTracker.GetParameter)                       | Gets the parameter corresponding to the given property.                           |
+| [`GroupAllSimilarChildren`](#ContactStrainEnergyTracker.GroupAllSimilarChildren) | Run the GroupAllSimilarChildren action.                                           |
+| [`GroupSimilarObjects`](#ContactStrainEnergyTracker.GroupSimilarObjects)         | Run the GroupSimilarObjects action.                                               |
+| [`PropertyByAPIName`](#ContactStrainEnergyTracker.PropertyByAPIName)             | Get a property by its API name.                                                   |
+| [`PropertyByName`](#ContactStrainEnergyTracker.PropertyByName)                   | Get a property by its unique name.                                                |
+| [`RemoveParameter`](#ContactStrainEnergyTracker.RemoveParameter)                 | Removes the parameter from the parameter set corresponding to the given property. |
+| [`RenameBasedOnDefinition`](#ContactStrainEnergyTracker.RenameBasedOnDefinition) | Run the RenameBasedOnDefinition action.                                           |
 
 ### Properties
 
 | Name | Description |
-|-------------------------------|---------------------------------------------------------------|
-| `InternalObject`              | Gets the internal object. For advanced usage only.            |
-| `ContactRegion`               | Gets or sets the ContactRegion.                               |
-| `DataModelObjectCategory`     | Gets the current DataModelObject's category.                  |
-| `IsSolved`                    | Gets the IsSolved.                                            |
-| `ChartDimensions`             | Gets or sets the Chart Dimensions                             |
-| `BoundaryCondition`           | Gets or sets the BoundaryCondition.                           |
-| `CutFrequency`                | Gets or sets the CutFrequency.                                |
-| `SectorNumber`                | Gets or sets the SectorNumber.                                |
-| `GeometrySelectionString`     | Gets or sets the GeometrySelectionString.                     |
-| `LoadStepNumber`              | Gets or sets the LoadStepNumber.                              |
-| `ReportedFrequency`           | Gets the ReportedFrequency.                                   |
-| `Duration`                    | Gets or sets the Duration.                                    |
-| `FilterMaximum`               | Gets the FilterMaximum.                                       |
-| `FilterMinimum`               | Gets the FilterMinimum.                                       |
-| `FrequencyAtMaximumAmplitude` | Gets the FrequencyAtMaximumAmplitude.                         |
-| `ImaginaryAtMaximumAmplitude` | Gets the ImaginaryAtMaximumAmplitude.                         |
-| `MaximumAmplitude`            | Gets the MaximumAmplitude.                                    |
-| `MaximumFrequency`            | Gets or sets the MaximumFrequency.                            |
-| `Maximum`                     | Gets the Maximum.                                             |
-| `MinimumFrequency`            | Gets or sets the MinimumFrequency.                            |
-| `Minimum`                     | Gets the Minimum.                                             |
-| `PhaseAngle`                  | Gets the PhaseAngle.                                          |
-| `RealAtMaximumAmplitude`      | Gets the RealAtMaximumAmplitude.                              |
-| `RequestedFrequency`          | Gets or sets the RequestedFrequency.                          |
-| `AccelerationType`            | Gets or sets the AccelerationType.                            |
-| `ChartViewingStyle`           | Gets or sets the ChartViewingStyle.                           |
-| `DeformationType`             | Gets or sets the DeformationType.                             |
-| `FilterType`                  | Gets or sets the FilterType.                                  |
-| `SpatialResolution`           | Gets or sets the SpatialResolution.                           |
-| `NormalOrientation`           | Gets or sets the NormalOrientation.                           |
-| `CurvesAppearanceDisplay`     | Gets or sets the CurvesAppearanceDisplay.                     |
-| `ResultChartType`             | Gets the ResultChartType.                                     |
-| `DpfEvaluation`               | Gets or sets the DpfEvaluation.                               |
-| `XAxisValues`                 | Gets or sets the XAxisValues.                                 |
-| `ShearOrientation`            | Gets or sets the ShearOrientation.                            |
-| `StressStrainType`            | Gets or sets the StressStrainType.                            |
-| `TimeHistoryDisplay`          | Gets or sets the TimeHistoryDisplay.                          |
-| `VelocityType`                | Gets or sets the VelocityType.                                |
-| `Suppressed`                  | Gets or sets the Suppressed.                                  |
-| `EnhancedTracking`            | Gets the EnhancedTracking.                                    |
-| `UseParentFrequencyRange`     | Gets or sets the UseParentFrequencyRange.                     |
-| `CoordinateSystem`            | Gets or sets the CoordinateSystem.                            |
-| `Spring`                      | Gets or sets the Spring.                                      |
-| `Location`                    | Gets or sets the Location.                                    |
-| `Children`                    | Gets the list of children.                                    |
-| `Comments`                    | Gets the list of associated comments.                         |
-| `Images`                      | Gets the list of associated images.                           |
-| `InternalObject`              | Gets the internal object. For advanced usage only.            |
-| `Properties`                  | Gets the list of properties for this object.                  |
-| `VisibleProperties`           | Gets the list of properties that are visible for this object. |
+|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------|
+| [`AccelerationType`](#ContactStrainEnergyTracker.AccelerationType)                       | Gets or sets the AccelerationType.                            |
+| [`BoundaryCondition`](#ContactStrainEnergyTracker.BoundaryCondition)                     | Gets or sets the BoundaryCondition.                           |
+| [`ChartDimensions`](#ContactStrainEnergyTracker.ChartDimensions)                         | Gets or sets the Chart Dimensions                             |
+| [`ChartViewingStyle`](#ContactStrainEnergyTracker.ChartViewingStyle)                     | Gets or sets the ChartViewingStyle.                           |
+| [`Children`](#ContactStrainEnergyTracker.Children)                                       | Gets the list of children.                                    |
+| [`Comments`](#ContactStrainEnergyTracker.Comments)                                       | Gets the list of associated comments.                         |
+| [`ContactRegion`](#ContactStrainEnergyTracker.ContactRegion)                             | Gets or sets the ContactRegion.                               |
+| [`CoordinateSystem`](#ContactStrainEnergyTracker.CoordinateSystem)                       | Gets or sets the CoordinateSystem.                            |
+| [`CurvesAppearanceDisplay`](#ContactStrainEnergyTracker.CurvesAppearanceDisplay)         | Gets or sets the CurvesAppearanceDisplay.                     |
+| [`CutFrequency`](#ContactStrainEnergyTracker.CutFrequency)                               | Gets or sets the CutFrequency.                                |
+| [`DataModelObjectCategory`](#ContactStrainEnergyTracker.DataModelObjectCategory)         | Gets the current DataModelObject’s category.                  |
+| [`DeformationType`](#ContactStrainEnergyTracker.DeformationType)                         | Gets or sets the DeformationType.                             |
+| [`DpfEvaluation`](#ContactStrainEnergyTracker.DpfEvaluation)                             | Gets or sets the DpfEvaluation.                               |
+| [`Duration`](#ContactStrainEnergyTracker.Duration)                                       | Gets or sets the Duration.                                    |
+| [`EnhancedTracking`](#ContactStrainEnergyTracker.EnhancedTracking)                       | Gets the EnhancedTracking.                                    |
+| [`FilterMaximum`](#ContactStrainEnergyTracker.FilterMaximum)                             | Gets the FilterMaximum.                                       |
+| [`FilterMinimum`](#ContactStrainEnergyTracker.FilterMinimum)                             | Gets the FilterMinimum.                                       |
+| [`FilterType`](#ContactStrainEnergyTracker.FilterType)                                   | Gets or sets the FilterType.                                  |
+| [`FrequencyAtMaximumAmplitude`](#ContactStrainEnergyTracker.FrequencyAtMaximumAmplitude) | Gets the FrequencyAtMaximumAmplitude.                         |
+| [`GeometrySelectionString`](#ContactStrainEnergyTracker.GeometrySelectionString)         | Gets or sets the GeometrySelectionString.                     |
+| [`Images`](#ContactStrainEnergyTracker.Images)                                           | Gets the list of associated images.                           |
+| [`ImaginaryAtMaximumAmplitude`](#ContactStrainEnergyTracker.ImaginaryAtMaximumAmplitude) | Gets the ImaginaryAtMaximumAmplitude.                         |
+| [`InternalObject`](#ContactStrainEnergyTracker.InternalObject)                           | Gets the internal object. For advanced usage only.            |
+| [`IsSolved`](#ContactStrainEnergyTracker.IsSolved)                                       | Gets the IsSolved.                                            |
+| [`LoadStepNumber`](#ContactStrainEnergyTracker.LoadStepNumber)                           | Gets or sets the LoadStepNumber.                              |
+| [`Location`](#ContactStrainEnergyTracker.Location)                                       | Gets or sets the Location.                                    |
+| [`Maximum`](#ContactStrainEnergyTracker.Maximum)                                         | Gets the Maximum.                                             |
+| [`MaximumAmplitude`](#ContactStrainEnergyTracker.MaximumAmplitude)                       | Gets the MaximumAmplitude.                                    |
+| [`MaximumFrequency`](#ContactStrainEnergyTracker.MaximumFrequency)                       | Gets or sets the MaximumFrequency.                            |
+| [`Minimum`](#ContactStrainEnergyTracker.Minimum)                                         | Gets the Minimum.                                             |
+| [`MinimumFrequency`](#ContactStrainEnergyTracker.MinimumFrequency)                       | Gets or sets the MinimumFrequency.                            |
+| [`NormalOrientation`](#ContactStrainEnergyTracker.NormalOrientation)                     | Gets or sets the NormalOrientation.                           |
+| [`PhaseAngle`](#ContactStrainEnergyTracker.PhaseAngle)                                   | Gets the PhaseAngle.                                          |
+| [`Properties`](#ContactStrainEnergyTracker.Properties)                                   | Gets the list of properties for this object.                  |
+| [`RealAtMaximumAmplitude`](#ContactStrainEnergyTracker.RealAtMaximumAmplitude)           | Gets the RealAtMaximumAmplitude.                              |
+| [`ReportedFrequency`](#ContactStrainEnergyTracker.ReportedFrequency)                     | Gets the ReportedFrequency.                                   |
+| [`RequestedFrequency`](#ContactStrainEnergyTracker.RequestedFrequency)                   | Gets or sets the RequestedFrequency.                          |
+| [`ResultChartType`](#ContactStrainEnergyTracker.ResultChartType)                         | Gets the ResultChartType.                                     |
+| [`SectorNumber`](#ContactStrainEnergyTracker.SectorNumber)                               | Gets or sets the SectorNumber.                                |
+| [`ShearOrientation`](#ContactStrainEnergyTracker.ShearOrientation)                       | Gets or sets the ShearOrientation.                            |
+| [`SpatialResolution`](#ContactStrainEnergyTracker.SpatialResolution)                     | Gets or sets the SpatialResolution.                           |
+| [`Spring`](#ContactStrainEnergyTracker.Spring)                                           | Gets or sets the Spring.                                      |
+| [`StressStrainType`](#ContactStrainEnergyTracker.StressStrainType)                       | Gets or sets the StressStrainType.                            |
+| [`Suppressed`](#ContactStrainEnergyTracker.Suppressed)                                   | Gets or sets the Suppressed.                                  |
+| [`TimeHistoryDisplay`](#ContactStrainEnergyTracker.TimeHistoryDisplay)                   | Gets or sets the TimeHistoryDisplay.                          |
+| [`UseParentFrequencyRange`](#ContactStrainEnergyTracker.UseParentFrequencyRange)         | Gets or sets the UseParentFrequencyRange.                     |
+| [`VelocityType`](#ContactStrainEnergyTracker.VelocityType)                               | Gets or sets the VelocityType.                                |
+| [`VisibleProperties`](#ContactStrainEnergyTracker.VisibleProperties)                     | Gets the list of properties that are visible for this object. |
+| [`XAxisValues`](#ContactStrainEnergyTracker.XAxisValues)                                 | Gets or sets the XAxisValues.                                 |
 
 <a id="property-detail"></a>
 
 ## Property detail
 
-### *property* ContactStrainEnergyTracker.InternalObject *: Ansys.Common.Interop.DSObjectsAuto.IDSResultChartAuto | [None](https://docs.python.org/3/library/constants.html#None)*
+<a id="ContactStrainEnergyTracker.AccelerationType"></a>
 
-Gets the internal object. For advanced usage only.
+### *property* ContactStrainEnergyTracker.AccelerationType *: [Ansys.Mechanical.DataModel.Enums.TotalOrDirectional](../../../../../Mechanical/DataModel/Enums/TotalOrDirectional.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.TotalOrDirectional) | [None](https://docs.python.org/3/library/constants.html#None)*
 
-<!-- !! processed by numpydoc !! -->
-
-### *property* ContactStrainEnergyTracker.ContactRegion *: [Ansys.ACT.Automation.Mechanical.Connections.ContactRegion](../../../../../../../v241/Ansys/ACT/Automation/Mechanical/Connections/ContactRegion.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Connections.ContactRegion) | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the ContactRegion.
+Gets or sets the AccelerationType.
 
 <!-- !! processed by numpydoc !! -->
 
-### *property* ContactStrainEnergyTracker.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../../../v241/Ansys/Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets the current DataModelObject's category.
-
-<!-- !! processed by numpydoc !! -->
-
-### *property* ContactStrainEnergyTracker.IsSolved *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets the IsSolved.
-
-<!-- !! processed by numpydoc !! -->
-
-### *property* ContactStrainEnergyTracker.ChartDimensions *: [Ansys.Mechanical.DataModel.Enums.ChartDimensions](../../../../../../../v241/Ansys/Mechanical/DataModel/Enums/ChartDimensions.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.ChartDimensions) | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the Chart Dimensions
-
-<!-- !! processed by numpydoc !! -->
+<a id="ContactStrainEnergyTracker.BoundaryCondition"></a>
 
 ### *property* ContactStrainEnergyTracker.BoundaryCondition *: [Ansys.ACT.Automation.Mechanical.BoundaryConditions.GenericBoundaryCondition](../../../../../../../v241/Ansys/ACT/Automation/Mechanical/BoundaryConditions/GenericBoundaryCondition.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.BoundaryConditions.GenericBoundaryCondition) | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -133,233 +111,23 @@ Gets or sets the BoundaryCondition.
 
 <!-- !! processed by numpydoc !! -->
 
-### *property* ContactStrainEnergyTracker.CutFrequency *: System.Double | [None](https://docs.python.org/3/library/constants.html#None)*
+<a id="ContactStrainEnergyTracker.ChartDimensions"></a>
 
-Gets or sets the CutFrequency.
+### *property* ContactStrainEnergyTracker.ChartDimensions *: [Ansys.Mechanical.DataModel.Enums.ChartDimensions](../../../../../Mechanical/DataModel/Enums/ChartDimensions.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.ChartDimensions) | [None](https://docs.python.org/3/library/constants.html#None)*
 
-<!-- !! processed by numpydoc !! -->
-
-### *property* ContactStrainEnergyTracker.SectorNumber *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the SectorNumber.
+Gets or sets the Chart Dimensions
 
 <!-- !! processed by numpydoc !! -->
 
-### *property* ContactStrainEnergyTracker.GeometrySelectionString *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+<a id="ContactStrainEnergyTracker.ChartViewingStyle"></a>
 
-Gets or sets the GeometrySelectionString.
-
-<!-- !! processed by numpydoc !! -->
-
-### *property* ContactStrainEnergyTracker.LoadStepNumber *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the LoadStepNumber.
-
-<!-- !! processed by numpydoc !! -->
-
-### *property* ContactStrainEnergyTracker.ReportedFrequency *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets the ReportedFrequency.
-
-<!-- !! processed by numpydoc !! -->
-
-### *property* ContactStrainEnergyTracker.Duration *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the Duration.
-
-<!-- !! processed by numpydoc !! -->
-
-### *property* ContactStrainEnergyTracker.FilterMaximum *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets the FilterMaximum.
-
-<!-- !! processed by numpydoc !! -->
-
-### *property* ContactStrainEnergyTracker.FilterMinimum *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets the FilterMinimum.
-
-<!-- !! processed by numpydoc !! -->
-
-### *property* ContactStrainEnergyTracker.FrequencyAtMaximumAmplitude *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets the FrequencyAtMaximumAmplitude.
-
-<!-- !! processed by numpydoc !! -->
-
-### *property* ContactStrainEnergyTracker.ImaginaryAtMaximumAmplitude *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets the ImaginaryAtMaximumAmplitude.
-
-<!-- !! processed by numpydoc !! -->
-
-### *property* ContactStrainEnergyTracker.MaximumAmplitude *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets the MaximumAmplitude.
-
-<!-- !! processed by numpydoc !! -->
-
-### *property* ContactStrainEnergyTracker.MaximumFrequency *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the MaximumFrequency.
-
-<!-- !! processed by numpydoc !! -->
-
-### *property* ContactStrainEnergyTracker.Maximum *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets the Maximum.
-
-<!-- !! processed by numpydoc !! -->
-
-### *property* ContactStrainEnergyTracker.MinimumFrequency *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the MinimumFrequency.
-
-<!-- !! processed by numpydoc !! -->
-
-### *property* ContactStrainEnergyTracker.Minimum *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets the Minimum.
-
-<!-- !! processed by numpydoc !! -->
-
-### *property* ContactStrainEnergyTracker.PhaseAngle *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets the PhaseAngle.
-
-<!-- !! processed by numpydoc !! -->
-
-### *property* ContactStrainEnergyTracker.RealAtMaximumAmplitude *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets the RealAtMaximumAmplitude.
-
-<!-- !! processed by numpydoc !! -->
-
-### *property* ContactStrainEnergyTracker.RequestedFrequency *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the RequestedFrequency.
-
-<!-- !! processed by numpydoc !! -->
-
-### *property* ContactStrainEnergyTracker.AccelerationType *: [Ansys.Mechanical.DataModel.Enums.TotalOrDirectional](../../../../../../../v241/Ansys/Mechanical/DataModel/Enums/TotalOrDirectional.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.TotalOrDirectional) | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the AccelerationType.
-
-<!-- !! processed by numpydoc !! -->
-
-### *property* ContactStrainEnergyTracker.ChartViewingStyle *: [Ansys.Mechanical.DataModel.Enums.ChartAxisScaleType](../../../../../../../v241/Ansys/Mechanical/DataModel/Enums/ChartAxisScaleType.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.ChartAxisScaleType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ContactStrainEnergyTracker.ChartViewingStyle *: [Ansys.Mechanical.DataModel.Enums.ChartAxisScaleType](../../../../../Mechanical/DataModel/Enums/ChartAxisScaleType.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.ChartAxisScaleType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the ChartViewingStyle.
 
 <!-- !! processed by numpydoc !! -->
 
-### *property* ContactStrainEnergyTracker.DeformationType *: [Ansys.Mechanical.DataModel.Enums.TotalOrDirectional](../../../../../../../v241/Ansys/Mechanical/DataModel/Enums/TotalOrDirectional.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.TotalOrDirectional) | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the DeformationType.
-
-<!-- !! processed by numpydoc !! -->
-
-### *property* ContactStrainEnergyTracker.FilterType *: [Ansys.Mechanical.DataModel.Enums.FilterType](../../../../../../../v241/Ansys/Mechanical/DataModel/Enums/FilterType.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.FilterType) | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the FilterType.
-
-<!-- !! processed by numpydoc !! -->
-
-### *property* ContactStrainEnergyTracker.SpatialResolution *: [Ansys.Mechanical.DataModel.Enums.MultipleNodeType](../../../../../../../v241/Ansys/Mechanical/DataModel/Enums/MultipleNodeType.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.MultipleNodeType) | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the SpatialResolution.
-
-<!-- !! processed by numpydoc !! -->
-
-### *property* ContactStrainEnergyTracker.NormalOrientation *: [Ansys.Mechanical.DataModel.Enums.NormalOrientationType](../../../../../../../v241/Ansys/Mechanical/DataModel/Enums/NormalOrientationType.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.NormalOrientationType) | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the NormalOrientation.
-
-<!-- !! processed by numpydoc !! -->
-
-### *property* ContactStrainEnergyTracker.CurvesAppearanceDisplay *: [Ansys.Mechanical.DataModel.Enums.ChartPlotStyle](../../../../../../../v241/Ansys/Mechanical/DataModel/Enums/ChartPlotStyle.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.ChartPlotStyle) | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the CurvesAppearanceDisplay.
-
-<!-- !! processed by numpydoc !! -->
-
-### *property* ContactStrainEnergyTracker.ResultChartType *: [Ansys.Mechanical.DataModel.Enums.ChartResultType](../../../../../../../v241/Ansys/Mechanical/DataModel/Enums/ChartResultType.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.ChartResultType) | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets the ResultChartType.
-
-<!-- !! processed by numpydoc !! -->
-
-### *property* ContactStrainEnergyTracker.DpfEvaluation *: [Ansys.Mechanical.DataModel.Enums.DpfEvaluationType](../../../../../../../v241/Ansys/Mechanical/DataModel/Enums/DpfEvaluationType.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DpfEvaluationType) | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the DpfEvaluation.
-
-<!-- !! processed by numpydoc !! -->
-
-### *property* ContactStrainEnergyTracker.XAxisValues *: [Ansys.Mechanical.DataModel.Enums.XAxisValues](../../../../../../../v241/Ansys/Mechanical/DataModel/Enums/XAxisValues.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.XAxisValues) | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the XAxisValues.
-
-<!-- !! processed by numpydoc !! -->
-
-### *property* ContactStrainEnergyTracker.ShearOrientation *: [Ansys.Mechanical.DataModel.Enums.ShearOrientationType](../../../../../../../v241/Ansys/Mechanical/DataModel/Enums/ShearOrientationType.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.ShearOrientationType) | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the ShearOrientation.
-
-<!-- !! processed by numpydoc !! -->
-
-### *property* ContactStrainEnergyTracker.StressStrainType *: [Ansys.Mechanical.DataModel.Enums.StressStrainType](../../../../../../../v241/Ansys/Mechanical/DataModel/Enums/StressStrainType.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.StressStrainType) | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the StressStrainType.
-
-<!-- !! processed by numpydoc !! -->
-
-### *property* ContactStrainEnergyTracker.TimeHistoryDisplay *: [Ansys.Mechanical.DataModel.Enums.TimeHistoryDisplayType](../../../../../../../v241/Ansys/Mechanical/DataModel/Enums/TimeHistoryDisplayType.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.TimeHistoryDisplayType) | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the TimeHistoryDisplay.
-
-<!-- !! processed by numpydoc !! -->
-
-### *property* ContactStrainEnergyTracker.VelocityType *: [Ansys.Mechanical.DataModel.Enums.TotalOrDirectional](../../../../../../../v241/Ansys/Mechanical/DataModel/Enums/TotalOrDirectional.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.TotalOrDirectional) | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the VelocityType.
-
-<!-- !! processed by numpydoc !! -->
-
-### *property* ContactStrainEnergyTracker.Suppressed *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the Suppressed.
-
-<!-- !! processed by numpydoc !! -->
-
-### *property* ContactStrainEnergyTracker.EnhancedTracking *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets the EnhancedTracking.
-
-<!-- !! processed by numpydoc !! -->
-
-### *property* ContactStrainEnergyTracker.UseParentFrequencyRange *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the UseParentFrequencyRange.
-
-<!-- !! processed by numpydoc !! -->
-
-### *property* ContactStrainEnergyTracker.CoordinateSystem *: [Ansys.ACT.Automation.Mechanical.CoordinateSystem](../../../../../../../v241/Ansys/ACT/Automation/Mechanical/CoordinateSystem.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.CoordinateSystem) | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the CoordinateSystem.
-
-<!-- !! processed by numpydoc !! -->
-
-### *property* ContactStrainEnergyTracker.Spring *: [Ansys.ACT.Automation.Mechanical.Connections.Spring](../../../../../../../v241/Ansys/ACT/Automation/Mechanical/Connections/Spring.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Connections.Spring) | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the Spring.
-
-<!-- !! processed by numpydoc !! -->
-
-### *property* ContactStrainEnergyTracker.Location *: Ansys.ACT.Interfaces.Common.ISelectionInfo | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the Location.
-
-<!-- !! processed by numpydoc !! -->
+<a id="ContactStrainEnergyTracker.Children"></a>
 
 ### *property* ContactStrainEnergyTracker.Children *: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -367,11 +135,127 @@ Gets the list of children.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="ContactStrainEnergyTracker.Comments"></a>
+
 ### *property* ContactStrainEnergyTracker.Comments *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Comment](../../../../../../../v241/Ansys/ACT/Automation/Mechanical/Comment.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated comments.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="ContactStrainEnergyTracker.ContactRegion"></a>
+
+### *property* ContactStrainEnergyTracker.ContactRegion *: [Ansys.ACT.Automation.Mechanical.Connections.ContactRegion](../../../../../../../v241/Ansys/ACT/Automation/Mechanical/Connections/ContactRegion.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Connections.ContactRegion) | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the ContactRegion.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ContactStrainEnergyTracker.CoordinateSystem"></a>
+
+### *property* ContactStrainEnergyTracker.CoordinateSystem *: [Ansys.ACT.Automation.Mechanical.CoordinateSystem](../../../../../../../v241/Ansys/ACT/Automation/Mechanical/CoordinateSystem.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.CoordinateSystem) | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the CoordinateSystem.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ContactStrainEnergyTracker.CurvesAppearanceDisplay"></a>
+
+### *property* ContactStrainEnergyTracker.CurvesAppearanceDisplay *: [Ansys.Mechanical.DataModel.Enums.ChartPlotStyle](../../../../../Mechanical/DataModel/Enums/ChartPlotStyle.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.ChartPlotStyle) | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the CurvesAppearanceDisplay.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ContactStrainEnergyTracker.CutFrequency"></a>
+
+### *property* ContactStrainEnergyTracker.CutFrequency *: System.Double | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the CutFrequency.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ContactStrainEnergyTracker.DataModelObjectCategory"></a>
+
+### *property* ContactStrainEnergyTracker.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets the current DataModelObject’s category.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ContactStrainEnergyTracker.DeformationType"></a>
+
+### *property* ContactStrainEnergyTracker.DeformationType *: [Ansys.Mechanical.DataModel.Enums.TotalOrDirectional](../../../../../Mechanical/DataModel/Enums/TotalOrDirectional.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.TotalOrDirectional) | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the DeformationType.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ContactStrainEnergyTracker.DpfEvaluation"></a>
+
+### *property* ContactStrainEnergyTracker.DpfEvaluation *: [Ansys.Mechanical.DataModel.Enums.DpfEvaluationType](../../../../../Mechanical/DataModel/Enums/DpfEvaluationType.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.DpfEvaluationType) | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the DpfEvaluation.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ContactStrainEnergyTracker.Duration"></a>
+
+### *property* ContactStrainEnergyTracker.Duration *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the Duration.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ContactStrainEnergyTracker.EnhancedTracking"></a>
+
+### *property* ContactStrainEnergyTracker.EnhancedTracking *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets the EnhancedTracking.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ContactStrainEnergyTracker.FilterMaximum"></a>
+
+### *property* ContactStrainEnergyTracker.FilterMaximum *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets the FilterMaximum.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ContactStrainEnergyTracker.FilterMinimum"></a>
+
+### *property* ContactStrainEnergyTracker.FilterMinimum *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets the FilterMinimum.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ContactStrainEnergyTracker.FilterType"></a>
+
+### *property* ContactStrainEnergyTracker.FilterType *: [Ansys.Mechanical.DataModel.Enums.FilterType](../../../../../Mechanical/DataModel/Enums/FilterType.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.FilterType) | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the FilterType.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ContactStrainEnergyTracker.FrequencyAtMaximumAmplitude"></a>
+
+### *property* ContactStrainEnergyTracker.FrequencyAtMaximumAmplitude *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets the FrequencyAtMaximumAmplitude.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ContactStrainEnergyTracker.GeometrySelectionString"></a>
+
+### *property* ContactStrainEnergyTracker.GeometrySelectionString *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the GeometrySelectionString.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ContactStrainEnergyTracker.Images"></a>
 
 ### *property* ContactStrainEnergyTracker.Images *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Image](../../../../../../../v241/Ansys/ACT/Automation/Mechanical/Image.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -379,11 +263,103 @@ Gets the list of associated images.
 
 <!-- !! processed by numpydoc !! -->
 
-### *property* ContactStrainEnergyTracker.InternalObject *: System.Object | [None](https://docs.python.org/3/library/constants.html#None)*
+<a id="ContactStrainEnergyTracker.ImaginaryAtMaximumAmplitude"></a>
+
+### *property* ContactStrainEnergyTracker.ImaginaryAtMaximumAmplitude *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets the ImaginaryAtMaximumAmplitude.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ContactStrainEnergyTracker.InternalObject"></a>
+
+### *property* ContactStrainEnergyTracker.InternalObject *: Ansys.Common.Interop.DSObjectsAuto.IDSResultChartAuto | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the internal object. For advanced usage only.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="ContactStrainEnergyTracker.IsSolved"></a>
+
+### *property* ContactStrainEnergyTracker.IsSolved *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets the IsSolved.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ContactStrainEnergyTracker.LoadStepNumber"></a>
+
+### *property* ContactStrainEnergyTracker.LoadStepNumber *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the LoadStepNumber.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ContactStrainEnergyTracker.Location"></a>
+
+### *property* ContactStrainEnergyTracker.Location *: Ansys.ACT.Interfaces.Common.ISelectionInfo | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the Location.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ContactStrainEnergyTracker.Maximum"></a>
+
+### *property* ContactStrainEnergyTracker.Maximum *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets the Maximum.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ContactStrainEnergyTracker.MaximumAmplitude"></a>
+
+### *property* ContactStrainEnergyTracker.MaximumAmplitude *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets the MaximumAmplitude.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ContactStrainEnergyTracker.MaximumFrequency"></a>
+
+### *property* ContactStrainEnergyTracker.MaximumFrequency *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the MaximumFrequency.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ContactStrainEnergyTracker.Minimum"></a>
+
+### *property* ContactStrainEnergyTracker.Minimum *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets the Minimum.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ContactStrainEnergyTracker.MinimumFrequency"></a>
+
+### *property* ContactStrainEnergyTracker.MinimumFrequency *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the MinimumFrequency.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ContactStrainEnergyTracker.NormalOrientation"></a>
+
+### *property* ContactStrainEnergyTracker.NormalOrientation *: [Ansys.Mechanical.DataModel.Enums.NormalOrientationType](../../../../../Mechanical/DataModel/Enums/NormalOrientationType.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.NormalOrientationType) | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the NormalOrientation.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ContactStrainEnergyTracker.PhaseAngle"></a>
+
+### *property* ContactStrainEnergyTracker.PhaseAngle *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets the PhaseAngle.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ContactStrainEnergyTracker.Properties"></a>
 
 ### *property* ContactStrainEnergyTracker.Properties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -391,9 +367,123 @@ Gets the list of properties for this object.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="ContactStrainEnergyTracker.RealAtMaximumAmplitude"></a>
+
+### *property* ContactStrainEnergyTracker.RealAtMaximumAmplitude *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets the RealAtMaximumAmplitude.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ContactStrainEnergyTracker.ReportedFrequency"></a>
+
+### *property* ContactStrainEnergyTracker.ReportedFrequency *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets the ReportedFrequency.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ContactStrainEnergyTracker.RequestedFrequency"></a>
+
+### *property* ContactStrainEnergyTracker.RequestedFrequency *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the RequestedFrequency.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ContactStrainEnergyTracker.ResultChartType"></a>
+
+### *property* ContactStrainEnergyTracker.ResultChartType *: [Ansys.Mechanical.DataModel.Enums.ChartResultType](../../../../../Mechanical/DataModel/Enums/ChartResultType.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.ChartResultType) | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets the ResultChartType.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ContactStrainEnergyTracker.SectorNumber"></a>
+
+### *property* ContactStrainEnergyTracker.SectorNumber *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the SectorNumber.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ContactStrainEnergyTracker.ShearOrientation"></a>
+
+### *property* ContactStrainEnergyTracker.ShearOrientation *: [Ansys.Mechanical.DataModel.Enums.ShearOrientationType](../../../../../Mechanical/DataModel/Enums/ShearOrientationType.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.ShearOrientationType) | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the ShearOrientation.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ContactStrainEnergyTracker.SpatialResolution"></a>
+
+### *property* ContactStrainEnergyTracker.SpatialResolution *: [Ansys.Mechanical.DataModel.Enums.MultipleNodeType](../../../../../Mechanical/DataModel/Enums/MultipleNodeType.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.MultipleNodeType) | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the SpatialResolution.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ContactStrainEnergyTracker.Spring"></a>
+
+### *property* ContactStrainEnergyTracker.Spring *: [Ansys.ACT.Automation.Mechanical.Connections.Spring](../../../../../../../v241/Ansys/ACT/Automation/Mechanical/Connections/Spring.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Connections.Spring) | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the Spring.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ContactStrainEnergyTracker.StressStrainType"></a>
+
+### *property* ContactStrainEnergyTracker.StressStrainType *: [Ansys.Mechanical.DataModel.Enums.StressStrainType](../../../../../Mechanical/DataModel/Enums/StressStrainType.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.StressStrainType) | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the StressStrainType.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ContactStrainEnergyTracker.Suppressed"></a>
+
+### *property* ContactStrainEnergyTracker.Suppressed *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the Suppressed.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ContactStrainEnergyTracker.TimeHistoryDisplay"></a>
+
+### *property* ContactStrainEnergyTracker.TimeHistoryDisplay *: [Ansys.Mechanical.DataModel.Enums.TimeHistoryDisplayType](../../../../../Mechanical/DataModel/Enums/TimeHistoryDisplayType.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.TimeHistoryDisplayType) | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the TimeHistoryDisplay.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ContactStrainEnergyTracker.UseParentFrequencyRange"></a>
+
+### *property* ContactStrainEnergyTracker.UseParentFrequencyRange *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the UseParentFrequencyRange.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ContactStrainEnergyTracker.VelocityType"></a>
+
+### *property* ContactStrainEnergyTracker.VelocityType *: [Ansys.Mechanical.DataModel.Enums.TotalOrDirectional](../../../../../Mechanical/DataModel/Enums/TotalOrDirectional.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.TotalOrDirectional) | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the VelocityType.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ContactStrainEnergyTracker.VisibleProperties"></a>
+
 ### *property* ContactStrainEnergyTracker.VisibleProperties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of properties that are visible for this object.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ContactStrainEnergyTracker.XAxisValues"></a>
+
+### *property* ContactStrainEnergyTracker.XAxisValues *: [Ansys.Mechanical.DataModel.Enums.XAxisValues](../../../../../Mechanical/DataModel/Enums/XAxisValues.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.XAxisValues) | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the XAxisValues.
 
 <!-- !! processed by numpydoc !! -->
 
@@ -401,53 +491,23 @@ Gets the list of properties that are visible for this object.
 
 ## Method detail
 
-### ContactStrainEnergyTracker.ExportAnimation(filePath: System.String, format: [Ansys.Mechanical.DataModel.Enums.GraphicsAnimationExportFormat](../../../../../../../v241/Ansys/Mechanical/DataModel/Enums/GraphicsAnimationExportFormat.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.GraphicsAnimationExportFormat), settings: [Ansys.Mechanical.Graphics.AnimationExportSettings](../../../../../../../v241/Ansys/Mechanical/Graphics/AnimationExportSettings.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.Graphics.AnimationExportSettings))
+<a id="ContactStrainEnergyTracker.Activate"></a>
 
-Run the ExportAnimation action.
+### ContactStrainEnergyTracker.Activate()
 
-<!-- !! processed by numpydoc !! -->
-
-### ContactStrainEnergyTracker.ClearGeneratedData()
-
-Run the ClearGeneratedData action.
+Activate the current object.
 
 <!-- !! processed by numpydoc !! -->
 
-### ContactStrainEnergyTracker.EvaluateAllResults()
-
-Run the EvaluateAllResults action.
-
-<!-- !! processed by numpydoc !! -->
-
-### ContactStrainEnergyTracker.RenameBasedOnDefinition()
-
-Run the RenameBasedOnDefinition action.
-
-<!-- !! processed by numpydoc !! -->
-
-### ContactStrainEnergyTracker.Delete()
-
-Run the Delete action.
-
-<!-- !! processed by numpydoc !! -->
-
-### ContactStrainEnergyTracker.GetChildren(recurses: System.Boolean, children: System.Collections.Generic.IList[ChildrenType])
-
-Gets the list of children, filtered by type.
-
-<!-- !! processed by numpydoc !! -->
-
-### ContactStrainEnergyTracker.GetChildren(category: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../../../v241/Ansys/Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory), recurses: System.Boolean, children: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject])
-
-Gets the list of children, filtered by type.
-
-<!-- !! processed by numpydoc !! -->
+<a id="ContactStrainEnergyTracker.AddComment"></a>
 
 ### ContactStrainEnergyTracker.AddComment()
 
 Creates a new child Comment.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="ContactStrainEnergyTracker.AddImage"></a>
 
 ### ContactStrainEnergyTracker.AddImage(filePath: System.String)
 
@@ -459,11 +519,15 @@ if not, the image will be a screen capture of the Geometry window.
 
 <!-- !! processed by numpydoc !! -->
 
-### ContactStrainEnergyTracker.Activate()
+<a id="ContactStrainEnergyTracker.ClearGeneratedData"></a>
 
-Activate the current object.
+### ContactStrainEnergyTracker.ClearGeneratedData()
+
+Run the ClearGeneratedData action.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="ContactStrainEnergyTracker.CopyTo"></a>
 
 ### ContactStrainEnergyTracker.CopyTo(other: Ansys.ACT.Automation.Mechanical.DataModelObject)
 
@@ -471,11 +535,63 @@ Copies all visible properties from this object to another.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="ContactStrainEnergyTracker.CreateParameter"></a>
+
+### ContactStrainEnergyTracker.CreateParameter(propName: System.String)
+
+Creates a new parameter for a Property.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ContactStrainEnergyTracker.Delete"></a>
+
+### ContactStrainEnergyTracker.Delete()
+
+Run the Delete action.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ContactStrainEnergyTracker.Duplicate"></a>
+
 ### ContactStrainEnergyTracker.Duplicate()
 
 Creates a copy of the current DataModelObject.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="ContactStrainEnergyTracker.EvaluateAllResults"></a>
+
+### ContactStrainEnergyTracker.EvaluateAllResults()
+
+Run the EvaluateAllResults action.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ContactStrainEnergyTracker.ExportAnimation"></a>
+
+### ContactStrainEnergyTracker.ExportAnimation(filePath: System.String, format: [Ansys.Mechanical.DataModel.Enums.GraphicsAnimationExportFormat](../../../../../Mechanical/DataModel/Enums/GraphicsAnimationExportFormat.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.GraphicsAnimationExportFormat), settings: [Ansys.Mechanical.Graphics.AnimationExportSettings](../../../../../Mechanical/Graphics/AnimationExportSettings.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.Graphics.AnimationExportSettings))
+
+Run the ExportAnimation action.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ContactStrainEnergyTracker.GetChildren"></a>
+
+### ContactStrainEnergyTracker.GetChildren(recurses: System.Boolean, children: System.Collections.Generic.IList[ChildrenType])
+
+Gets the list of children, filtered by type.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ContactStrainEnergyTracker.GetParameter"></a>
+
+### ContactStrainEnergyTracker.GetParameter(propName: System.String)
+
+Gets the parameter corresponding to the given property.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ContactStrainEnergyTracker.GroupAllSimilarChildren"></a>
 
 ### ContactStrainEnergyTracker.GroupAllSimilarChildren()
 
@@ -483,17 +599,15 @@ Run the GroupAllSimilarChildren action.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="ContactStrainEnergyTracker.GroupSimilarObjects"></a>
+
 ### ContactStrainEnergyTracker.GroupSimilarObjects()
 
 Run the GroupSimilarObjects action.
 
 <!-- !! processed by numpydoc !! -->
 
-### ContactStrainEnergyTracker.PropertyByName(name: System.String)
-
-Get a property by its unique name.
-
-<!-- !! processed by numpydoc !! -->
+<a id="ContactStrainEnergyTracker.PropertyByAPIName"></a>
 
 ### ContactStrainEnergyTracker.PropertyByAPIName(name: System.String)
 
@@ -504,21 +618,27 @@ If multiple properties have the same API Name, only the first property with that
 
 <!-- !! processed by numpydoc !! -->
 
-### ContactStrainEnergyTracker.CreateParameter(propName: System.String)
+<a id="ContactStrainEnergyTracker.PropertyByName"></a>
 
-Creates a new parameter for a Property.
+### ContactStrainEnergyTracker.PropertyByName(name: System.String)
 
-<!-- !! processed by numpydoc !! -->
-
-### ContactStrainEnergyTracker.GetParameter(propName: System.String)
-
-Gets the parameter corresponding to the given property.
+Get a property by its unique name.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="ContactStrainEnergyTracker.RemoveParameter"></a>
 
 ### ContactStrainEnergyTracker.RemoveParameter(propName: System.String)
 
 Removes the parameter from the parameter set corresponding to the given property.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ContactStrainEnergyTracker.RenameBasedOnDefinition"></a>
+
+### ContactStrainEnergyTracker.RenameBasedOnDefinition()
+
+Run the RenameBasedOnDefinition action.
 
 <!-- !! processed by numpydoc !! -->
 

@@ -1,6 +1,6 @@
 # `CompositeCriterion`
 
-
+<a id="ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.CompositeCriterion"></a>
 
 #### *class* ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.CompositeCriterion
 
@@ -17,71 +17,47 @@ Defines a CompositeCriterion.
 ### Methods
 
 | Name | Description |
-|---------------------------|-----------------------------------------------------------------------------------|
-| `GetDefinition`           | Gets the Worksheet Definition.                                                    |
-| `EvaluateAllResults`      | Run the EvaluateAllResults action.                                                |
-| `ClearGeneratedData`      | Run the ClearGeneratedData action.                                                |
-| `Delete`                  | Run the Delete action.                                                            |
-| `GetChildren`             | Gets the list of children, filtered by type.                                      |
-| `GetChildren`             | Gets the list of children, filtered by type.                                      |
-| `AddComment`              | Creates a new child Comment.                                                      |
-| `AddFigure`               | Creates a new child Figure.                                                       |
-| `AddImage`                | Creates a new child Image.                                                        |
-| `Activate`                | Activate the current object.                                                      |
-| `CopyTo`                  | Copies all visible properties from this object to another.                        |
-| `Duplicate`               | Creates a copy of the current DataModelObject.                                    |
-| `GroupAllSimilarChildren` | Run the GroupAllSimilarChildren action.                                           |
-| `GroupSimilarObjects`     | Run the GroupSimilarObjects action.                                               |
-| `PropertyByName`          | Get a property by its unique name.                                                |
-| `PropertyByAPIName`       | Get a property by its API name.                                                   |
-| `CreateParameter`         | Creates a new parameter for a Property.                                           |
-| `GetParameter`            | Gets the parameter corresponding to the given property.                           |
-| `RemoveParameter`         | Removes the parameter from the parameter set corresponding to the given property. |
+|--------------------------------------------------------------------------|-----------------------------------------------------------------------------------|
+| [`Activate`](#CompositeCriterion.Activate)                               | Activate the current object.                                                      |
+| [`AddComment`](#CompositeCriterion.AddComment)                           | Creates a new child Comment.                                                      |
+| [`AddFigure`](#CompositeCriterion.AddFigure)                             | Creates a new child Figure.                                                       |
+| [`AddImage`](#CompositeCriterion.AddImage)                               | Creates a new child Image.                                                        |
+| [`ClearGeneratedData`](#CompositeCriterion.ClearGeneratedData)           | Run the ClearGeneratedData action.                                                |
+| [`CopyTo`](#CompositeCriterion.CopyTo)                                   | Copies all visible properties from this object to another.                        |
+| [`CreateParameter`](#CompositeCriterion.CreateParameter)                 | Creates a new parameter for a Property.                                           |
+| [`Delete`](#CompositeCriterion.Delete)                                   | Run the Delete action.                                                            |
+| [`Duplicate`](#CompositeCriterion.Duplicate)                             | Creates a copy of the current DataModelObject.                                    |
+| [`EvaluateAllResults`](#CompositeCriterion.EvaluateAllResults)           | Run the EvaluateAllResults action.                                                |
+| [`GetChildren`](#CompositeCriterion.GetChildren)                         | Gets the list of children, filtered by type.                                      |
+| [`GetDefinition`](#CompositeCriterion.GetDefinition)                     | Gets the Worksheet Definition.                                                    |
+| [`GetParameter`](#CompositeCriterion.GetParameter)                       | Gets the parameter corresponding to the given property.                           |
+| [`GroupAllSimilarChildren`](#CompositeCriterion.GroupAllSimilarChildren) | Run the GroupAllSimilarChildren action.                                           |
+| [`GroupSimilarObjects`](#CompositeCriterion.GroupSimilarObjects)         | Run the GroupSimilarObjects action.                                               |
+| [`PropertyByAPIName`](#CompositeCriterion.PropertyByAPIName)             | Get a property by its API name.                                                   |
+| [`PropertyByName`](#CompositeCriterion.PropertyByName)                   | Get a property by its unique name.                                                |
+| [`RemoveParameter`](#CompositeCriterion.RemoveParameter)                 | Removes the parameter from the parameter set corresponding to the given property. |
 
 ### Properties
 
 | Name | Description |
-|---------------------------|---------------------------------------------------------------|
-| `InternalObject`          | Gets the internal object. For advanced usage only.            |
-| `Value`                   | Gets the Value.                                               |
-| `DataModelObjectCategory` | Gets the current DataModelObject's category.                  |
-| `Suppressed`              | Gets or sets the Suppressed.                                  |
-| `Children`                | Gets the list of children.                                    |
-| `Comments`                | Gets the list of associated comments.                         |
-| `Figures`                 | Gets the list of associated figures.                          |
-| `Images`                  | Gets the list of associated images.                           |
-| `ReadOnly`                | Gets or sets the ReadOnly.                                    |
-| `InternalObject`          | Gets the internal object. For advanced usage only.            |
-| `Properties`              | Gets the list of properties for this object.                  |
-| `VisibleProperties`       | Gets the list of properties that are visible for this object. |
+|--------------------------------------------------------------------------|---------------------------------------------------------------|
+| [`Children`](#CompositeCriterion.Children)                               | Gets the list of children.                                    |
+| [`Comments`](#CompositeCriterion.Comments)                               | Gets the list of associated comments.                         |
+| [`DataModelObjectCategory`](#CompositeCriterion.DataModelObjectCategory) | Gets the current DataModelObject’s category.                  |
+| [`Figures`](#CompositeCriterion.Figures)                                 | Gets the list of associated figures.                          |
+| [`Images`](#CompositeCriterion.Images)                                   | Gets the list of associated images.                           |
+| [`InternalObject`](#CompositeCriterion.InternalObject)                   | Gets the internal object. For advanced usage only.            |
+| [`Properties`](#CompositeCriterion.Properties)                           | Gets the list of properties for this object.                  |
+| [`ReadOnly`](#CompositeCriterion.ReadOnly)                               | Gets or sets the ReadOnly.                                    |
+| [`Suppressed`](#CompositeCriterion.Suppressed)                           | Gets or sets the Suppressed.                                  |
+| [`Value`](#CompositeCriterion.Value)                                     | Gets the Value.                                               |
+| [`VisibleProperties`](#CompositeCriterion.VisibleProperties)             | Gets the list of properties that are visible for this object. |
 
 <a id="property-detail"></a>
 
 ## Property detail
 
-### *property* CompositeCriterion.InternalObject *: Ansys.Common.Interop.DSObjectsAuto.IDSTopoCriterionAuto | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets the internal object. For advanced usage only.
-
-<!-- !! processed by numpydoc !! -->
-
-### *property* CompositeCriterion.Value *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets the Value.
-
-<!-- !! processed by numpydoc !! -->
-
-### *property* CompositeCriterion.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../v241/Ansys/Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets the current DataModelObject's category.
-
-<!-- !! processed by numpydoc !! -->
-
-### *property* CompositeCriterion.Suppressed *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the Suppressed.
-
-<!-- !! processed by numpydoc !! -->
+<a id="CompositeCriterion.Children"></a>
 
 ### *property* CompositeCriterion.Children *: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -89,11 +65,23 @@ Gets the list of children.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="CompositeCriterion.Comments"></a>
+
 ### *property* CompositeCriterion.Comments *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Comment](../../../../../v241/Ansys/ACT/Automation/Mechanical/Comment.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated comments.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="CompositeCriterion.DataModelObjectCategory"></a>
+
+### *property* CompositeCriterion.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets the current DataModelObject’s category.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="CompositeCriterion.Figures"></a>
 
 ### *property* CompositeCriterion.Figures *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Figure](../../../../../v241/Ansys/ACT/Automation/Mechanical/Figure.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -101,11 +89,31 @@ Gets the list of associated figures.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="CompositeCriterion.Images"></a>
+
 ### *property* CompositeCriterion.Images *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Image](../../../../../v241/Ansys/ACT/Automation/Mechanical/Image.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated images.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="CompositeCriterion.InternalObject"></a>
+
+### *property* CompositeCriterion.InternalObject *: Ansys.Common.Interop.DSObjectsAuto.IDSTopoCriterionAuto | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets the internal object. For advanced usage only.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="CompositeCriterion.Properties"></a>
+
+### *property* CompositeCriterion.Properties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets the list of properties for this object.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="CompositeCriterion.ReadOnly"></a>
 
 ### *property* CompositeCriterion.ReadOnly *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -113,17 +121,23 @@ Gets or sets the ReadOnly.
 
 <!-- !! processed by numpydoc !! -->
 
-### *property* CompositeCriterion.InternalObject *: System.Object | [None](https://docs.python.org/3/library/constants.html#None)*
+<a id="CompositeCriterion.Suppressed"></a>
 
-Gets the internal object. For advanced usage only.
+### *property* CompositeCriterion.Suppressed *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the Suppressed.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="CompositeCriterion.Value"></a>
+
+### *property* CompositeCriterion.Value *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets the Value.
 
 <!-- !! processed by numpydoc !! -->
 
-### *property* CompositeCriterion.Properties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets the list of properties for this object.
-
-<!-- !! processed by numpydoc !! -->
+<a id="CompositeCriterion.VisibleProperties"></a>
 
 ### *property* CompositeCriterion.VisibleProperties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -135,44 +149,15 @@ Gets the list of properties that are visible for this object.
 
 ## Method detail
 
-### CompositeCriterion.GetDefinition()
+<a id="CompositeCriterion.Activate"></a>
 
-```text
-Gets the Worksheet Definition.
-This Definition is a list of CompositeCriterionTerms.
-```
+### CompositeCriterion.Activate()
 
-<!-- !! processed by numpydoc !! -->
-
-### CompositeCriterion.EvaluateAllResults()
-
-Run the EvaluateAllResults action.
+Activate the current object.
 
 <!-- !! processed by numpydoc !! -->
 
-### CompositeCriterion.ClearGeneratedData()
-
-Run the ClearGeneratedData action.
-
-<!-- !! processed by numpydoc !! -->
-
-### CompositeCriterion.Delete()
-
-Run the Delete action.
-
-<!-- !! processed by numpydoc !! -->
-
-### CompositeCriterion.GetChildren(recurses: System.Boolean, children: System.Collections.Generic.IList[ChildrenType])
-
-Gets the list of children, filtered by type.
-
-<!-- !! processed by numpydoc !! -->
-
-### CompositeCriterion.GetChildren(category: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../v241/Ansys/Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory), recurses: System.Boolean, children: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject])
-
-Gets the list of children, filtered by type.
-
-<!-- !! processed by numpydoc !! -->
+<a id="CompositeCriterion.AddComment"></a>
 
 ### CompositeCriterion.AddComment()
 
@@ -180,11 +165,15 @@ Creates a new child Comment.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="CompositeCriterion.AddFigure"></a>
+
 ### CompositeCriterion.AddFigure()
 
 Creates a new child Figure.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="CompositeCriterion.AddImage"></a>
 
 ### CompositeCriterion.AddImage(filePath: System.String)
 
@@ -196,11 +185,15 @@ if not, the image will be a screen capture of the Geometry window.
 
 <!-- !! processed by numpydoc !! -->
 
-### CompositeCriterion.Activate()
+<a id="CompositeCriterion.ClearGeneratedData"></a>
 
-Activate the current object.
+### CompositeCriterion.ClearGeneratedData()
+
+Run the ClearGeneratedData action.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="CompositeCriterion.CopyTo"></a>
 
 ### CompositeCriterion.CopyTo(other: Ansys.ACT.Automation.Mechanical.DataModelObject)
 
@@ -208,11 +201,66 @@ Copies all visible properties from this object to another.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="CompositeCriterion.CreateParameter"></a>
+
+### CompositeCriterion.CreateParameter(propName: System.String)
+
+Creates a new parameter for a Property.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="CompositeCriterion.Delete"></a>
+
+### CompositeCriterion.Delete()
+
+Run the Delete action.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="CompositeCriterion.Duplicate"></a>
+
 ### CompositeCriterion.Duplicate()
 
 Creates a copy of the current DataModelObject.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="CompositeCriterion.EvaluateAllResults"></a>
+
+### CompositeCriterion.EvaluateAllResults()
+
+Run the EvaluateAllResults action.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="CompositeCriterion.GetChildren"></a>
+
+### CompositeCriterion.GetChildren(recurses: System.Boolean, children: System.Collections.Generic.IList[ChildrenType])
+
+Gets the list of children, filtered by type.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="CompositeCriterion.GetDefinition"></a>
+
+### CompositeCriterion.GetDefinition()
+
+```text
+Gets the Worksheet Definition.
+This Definition is a list of CompositeCriterionTerms.
+```
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="CompositeCriterion.GetParameter"></a>
+
+### CompositeCriterion.GetParameter(propName: System.String)
+
+Gets the parameter corresponding to the given property.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="CompositeCriterion.GroupAllSimilarChildren"></a>
 
 ### CompositeCriterion.GroupAllSimilarChildren()
 
@@ -220,17 +268,15 @@ Run the GroupAllSimilarChildren action.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="CompositeCriterion.GroupSimilarObjects"></a>
+
 ### CompositeCriterion.GroupSimilarObjects()
 
 Run the GroupSimilarObjects action.
 
 <!-- !! processed by numpydoc !! -->
 
-### CompositeCriterion.PropertyByName(name: System.String)
-
-Get a property by its unique name.
-
-<!-- !! processed by numpydoc !! -->
+<a id="CompositeCriterion.PropertyByAPIName"></a>
 
 ### CompositeCriterion.PropertyByAPIName(name: System.String)
 
@@ -241,17 +287,15 @@ If multiple properties have the same API Name, only the first property with that
 
 <!-- !! processed by numpydoc !! -->
 
-### CompositeCriterion.CreateParameter(propName: System.String)
+<a id="CompositeCriterion.PropertyByName"></a>
 
-Creates a new parameter for a Property.
+### CompositeCriterion.PropertyByName(name: System.String)
 
-<!-- !! processed by numpydoc !! -->
-
-### CompositeCriterion.GetParameter(propName: System.String)
-
-Gets the parameter corresponding to the given property.
+Get a property by its unique name.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="CompositeCriterion.RemoveParameter"></a>
 
 ### CompositeCriterion.RemoveParameter(propName: System.String)
 

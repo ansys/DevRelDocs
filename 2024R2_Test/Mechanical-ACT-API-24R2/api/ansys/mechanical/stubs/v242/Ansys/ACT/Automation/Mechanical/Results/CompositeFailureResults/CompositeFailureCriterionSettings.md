@@ -1,6 +1,6 @@
 # `CompositeFailureCriterionSettings`
 
-
+<a id="ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Results.CompositeFailureResults.CompositeFailureCriterionSettings"></a>
 
 #### *class* ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Results.CompositeFailureResults.CompositeFailureCriterionSettings
 
@@ -17,18 +17,20 @@ Base class for settings objects which contain the configuration of a single fail
 ### Methods
 
 | Name | Description |
-|-----------|------------------------------------------------|
-| `Reset`   | Resets the settings to their default values.   |
+|-------------------------------------------------------|------------------------------------------------|
+| [`Reset`](#CompositeFailureCriterionSettings.Reset)   | Resets the settings to their default values.   |
 
 ### Properties
 
 | Name | Description |
-|------------|------------------------------------------------------------|
-| `Active`   | Gets or sets whether the failure criterion is evaluated.   |
+|---------------------------------------------------------|------------------------------------------------------------|
+| [`Active`](#CompositeFailureCriterionSettings.Active)   | Gets or sets whether the failure criterion is evaluated.   |
 
 <a id="property-detail"></a>
 
 ## Property detail
+
+<a id="CompositeFailureCriterionSettings.Active"></a>
 
 ### *property* CompositeFailureCriterionSettings.Active *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -39,6 +41,8 @@ Gets or sets whether the failure criterion is evaluated.
 <a id="method-detail"></a>
 
 ## Method detail
+
+<a id="CompositeFailureCriterionSettings.Reset"></a>
 
 ### CompositeFailureCriterionSettings.Reset()
 

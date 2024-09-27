@@ -1,6 +1,6 @@
 # `DropDirection`
 
-
+<a id="ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.DropDirection"></a>
 
 #### *class* ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.DropDirection
 
@@ -17,7 +17,7 @@ Specifies the DropDirection.
 ### Attributes
 
 | Name |
-| ------------------------------------------- |
+| ---------------------------------------------------------------------------------------------------------------- |
 | [`NegativeX`](#DropDirection.NegativeX) |
 | [`NegativeY`](#DropDirection.NegativeY) |
 | [`NegativeZ`](#DropDirection.NegativeZ) |

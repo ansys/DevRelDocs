@@ -1,6 +1,6 @@
 # `ContactConstraintType`
 
-
+<a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.ContactConstraintType"></a>
 
 #### *class* ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.ContactConstraintType
 
@@ -17,13 +17,13 @@ Specifies the ContactConstraintType.
 ### Attributes
 
 | Name |
-| ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| [`DistributedAllDirections`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/ContactConstraintType.md#ContactConstraintType.DistributedAllDirections) |
-| [`DistributedAnywhereInsidePinball`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/ContactConstraintType.md#ContactConstraintType.DistributedAnywhereInsidePinball) |
-| [`DistributedNormalOnly`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/ContactConstraintType.md#ContactConstraintType.DistributedNormalOnly) |
-| [`ProgramControlled`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/ContactConstraintType.md#ContactConstraintType.ProgramControlled) |
-| [`ProjectedDisplacementOnly`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/ContactConstraintType.md#ContactConstraintType.ProjectedDisplacementOnly) |
-| [`ProjectedUncoupleUtoROT`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/ContactConstraintType.md#ContactConstraintType.ProjectedUncoupleUtoROT) |
+| ----------------------------------------------------------------------------------------------- |
+| [`DistributedAllDirections`](#ContactConstraintType.DistributedAllDirections) |
+| [`DistributedAnywhereInsidePinball`](#ContactConstraintType.DistributedAnywhereInsidePinball) |
+| [`DistributedNormalOnly`](#ContactConstraintType.DistributedNormalOnly) |
+| [`ProgramControlled`](#ContactConstraintType.ProgramControlled) |
+| [`ProjectedDisplacementOnly`](#ContactConstraintType.ProjectedDisplacementOnly) |
+| [`ProjectedUncoupleUtoROT`](#ContactConstraintType.ProjectedUncoupleUtoROT) |
 
 <a id="attribute-detail"></a>
 

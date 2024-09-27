@@ -1,6 +1,6 @@
 # `TopoObjectiveFormulation`
 
-
+<a id="ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.TopoObjectiveFormulation"></a>
 
 #### *class* ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.TopoObjectiveFormulation
 
@@ -17,7 +17,7 @@ Specifies the TopoObjectiveFormulation.
 ### Attributes
 
 | Name |
-| ------------------------------------------------------------------------------ |
+| -------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | [`Displacement`](#TopoObjectiveFormulation.Displacement) |
 | [`Force`](#TopoObjectiveFormulation.Force) |
 | [`LocalStrainEnergy`](#TopoObjectiveFormulation.LocalStrainEnergy) |

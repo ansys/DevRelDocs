@@ -1,6 +1,6 @@
 # `ElementOrientationAxisType`
 
-
+<a id="ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.ElementOrientationAxisType"></a>
 
 #### *class* ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.ElementOrientationAxisType
 
@@ -17,7 +17,7 @@ Specifies the ElementOrientationAxisType.
 ### Attributes
 
 | Name |
-| ---------------------------------------------------------------- |
+| -------------------------------------------------------------------------------------------------------------------------------------------------- |
 | [`AxisUndefined`](#ElementOrientationAxisType.AxisUndefined) |
 | [`NegativeXAxis`](#ElementOrientationAxisType.NegativeXAxis) |
 | [`NegativeYAxis`](#ElementOrientationAxisType.NegativeYAxis) |

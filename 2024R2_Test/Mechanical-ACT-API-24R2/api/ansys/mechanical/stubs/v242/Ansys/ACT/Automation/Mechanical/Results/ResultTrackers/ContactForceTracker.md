@@ -1,6 +1,6 @@
 # `ContactForceTracker`
 
-
+<a id="ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Results.ResultTrackers.ContactForceTracker"></a>
 
 #### *class* ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Results.ResultTrackers.ContactForceTracker
 
@@ -17,122 +17,94 @@ Defines a ContactForceTracker.
 ### Methods
 
 | Name | Description |
-|---------------------------|-----------------------------------------------------------------------------------|
-| `ExportAnimation`         | Run the ExportAnimation action.                                                   |
-| `ClearGeneratedData`      | Run the ClearGeneratedData action.                                                |
-| `EvaluateAllResults`      | Run the EvaluateAllResults action.                                                |
-| `RenameBasedOnDefinition` | Run the RenameBasedOnDefinition action.                                           |
-| `Delete`                  | Run the Delete action.                                                            |
-| `GetChildren`             | Gets the list of children, filtered by type.                                      |
-| `GetChildren`             | Gets the list of children, filtered by type.                                      |
-| `AddComment`              | Creates a new child Comment.                                                      |
-| `AddImage`                | Creates a new child Image.                                                        |
-| `Activate`                | Activate the current object.                                                      |
-| `CopyTo`                  | Copies all visible properties from this object to another.                        |
-| `Duplicate`               | Creates a copy of the current DataModelObject.                                    |
-| `GroupAllSimilarChildren` | Run the GroupAllSimilarChildren action.                                           |
-| `GroupSimilarObjects`     | Run the GroupSimilarObjects action.                                               |
-| `PropertyByName`          | Get a property by its unique name.                                                |
-| `PropertyByAPIName`       | Get a property by its API name.                                                   |
-| `CreateParameter`         | Creates a new parameter for a Property.                                           |
-| `GetParameter`            | Gets the parameter corresponding to the given property.                           |
-| `RemoveParameter`         | Removes the parameter from the parameter set corresponding to the given property. |
+|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------|
+| [`Activate`](#ContactForceTracker.Activate)                               | Activate the current object.                                                      |
+| [`AddComment`](#ContactForceTracker.AddComment)                           | Creates a new child Comment.                                                      |
+| [`AddImage`](#ContactForceTracker.AddImage)                               | Creates a new child Image.                                                        |
+| [`ClearGeneratedData`](#ContactForceTracker.ClearGeneratedData)           | Run the ClearGeneratedData action.                                                |
+| [`CopyTo`](#ContactForceTracker.CopyTo)                                   | Copies all visible properties from this object to another.                        |
+| [`CreateParameter`](#ContactForceTracker.CreateParameter)                 | Creates a new parameter for a Property.                                           |
+| [`Delete`](#ContactForceTracker.Delete)                                   | Run the Delete action.                                                            |
+| [`Duplicate`](#ContactForceTracker.Duplicate)                             | Creates a copy of the current DataModelObject.                                    |
+| [`EvaluateAllResults`](#ContactForceTracker.EvaluateAllResults)           | Run the EvaluateAllResults action.                                                |
+| [`ExportAnimation`](#ContactForceTracker.ExportAnimation)                 | Run the ExportAnimation action.                                                   |
+| [`GetChildren`](#ContactForceTracker.GetChildren)                         | Gets the list of children, filtered by type.                                      |
+| [`GetParameter`](#ContactForceTracker.GetParameter)                       | Gets the parameter corresponding to the given property.                           |
+| [`GroupAllSimilarChildren`](#ContactForceTracker.GroupAllSimilarChildren) | Run the GroupAllSimilarChildren action.                                           |
+| [`GroupSimilarObjects`](#ContactForceTracker.GroupSimilarObjects)         | Run the GroupSimilarObjects action.                                               |
+| [`PropertyByAPIName`](#ContactForceTracker.PropertyByAPIName)             | Get a property by its API name.                                                   |
+| [`PropertyByName`](#ContactForceTracker.PropertyByName)                   | Get a property by its unique name.                                                |
+| [`RemoveParameter`](#ContactForceTracker.RemoveParameter)                 | Removes the parameter from the parameter set corresponding to the given property. |
+| [`RenameBasedOnDefinition`](#ContactForceTracker.RenameBasedOnDefinition) | Run the RenameBasedOnDefinition action.                                           |
 
 ### Properties
 
 | Name | Description |
-|-------------------------------|---------------------------------------------------------------|
-| `ContactRegion`               | Gets or sets the ContactRegion.                               |
-| `InternalObject`              | Gets the internal object. For advanced usage only.            |
-| `ContactSide`                 | Gets or sets the ContactSide.                                 |
-| `DataModelObjectCategory`     | Gets the current DataModelObject's category.                  |
-| `IsSolved`                    | Gets the IsSolved.                                            |
-| `ChartDimensions`             | Gets or sets the Chart Dimensions                             |
-| `BoundaryCondition`           | Gets or sets the BoundaryCondition.                           |
-| `CutFrequency`                | Gets or sets the CutFrequency.                                |
-| `SectorNumber`                | Gets or sets the SectorNumber.                                |
-| `GeometrySelectionString`     | Gets or sets the GeometrySelectionString.                     |
-| `LoadStepNumber`              | Gets or sets the LoadStepNumber.                              |
-| `ReportedFrequency`           | Gets the ReportedFrequency.                                   |
-| `Duration`                    | Gets or sets the Duration.                                    |
-| `FilterMaximum`               | Gets the FilterMaximum.                                       |
-| `FilterMinimum`               | Gets the FilterMinimum.                                       |
-| `FrequencyAtMaximumAmplitude` | Gets the FrequencyAtMaximumAmplitude.                         |
-| `ImaginaryAtMaximumAmplitude` | Gets the ImaginaryAtMaximumAmplitude.                         |
-| `MaximumAmplitude`            | Gets the MaximumAmplitude.                                    |
-| `MaximumFrequency`            | Gets or sets the MaximumFrequency.                            |
-| `Maximum`                     | Gets the Maximum.                                             |
-| `MinimumFrequency`            | Gets or sets the MinimumFrequency.                            |
-| `Minimum`                     | Gets the Minimum.                                             |
-| `PhaseAngle`                  | Gets the PhaseAngle.                                          |
-| `RealAtMaximumAmplitude`      | Gets the RealAtMaximumAmplitude.                              |
-| `RequestedFrequency`          | Gets or sets the RequestedFrequency.                          |
-| `AccelerationType`            | Gets or sets the AccelerationType.                            |
-| `ChartViewingStyle`           | Gets or sets the ChartViewingStyle.                           |
-| `DeformationType`             | Gets or sets the DeformationType.                             |
-| `FilterType`                  | Gets or sets the FilterType.                                  |
-| `SpatialResolution`           | Gets or sets the SpatialResolution.                           |
-| `NormalOrientation`           | Gets or sets the NormalOrientation.                           |
-| `CurvesAppearanceDisplay`     | Gets or sets the CurvesAppearanceDisplay.                     |
-| `ResultChartType`             | Gets the ResultChartType.                                     |
-| `DpfEvaluation`               | Gets or sets the DpfEvaluation.                               |
-| `XAxisValues`                 | Gets or sets the XAxisValues.                                 |
-| `ShearOrientation`            | Gets or sets the ShearOrientation.                            |
-| `StressStrainType`            | Gets or sets the StressStrainType.                            |
-| `TimeHistoryDisplay`          | Gets or sets the TimeHistoryDisplay.                          |
-| `VelocityType`                | Gets or sets the VelocityType.                                |
-| `Suppressed`                  | Gets or sets the Suppressed.                                  |
-| `EnhancedTracking`            | Gets the EnhancedTracking.                                    |
-| `UseParentFrequencyRange`     | Gets or sets the UseParentFrequencyRange.                     |
-| `CoordinateSystem`            | Gets or sets the CoordinateSystem.                            |
-| `Spring`                      | Gets or sets the Spring.                                      |
-| `Location`                    | Gets or sets the Location.                                    |
-| `Children`                    | Gets the list of children.                                    |
-| `Comments`                    | Gets the list of associated comments.                         |
-| `Images`                      | Gets the list of associated images.                           |
-| `InternalObject`              | Gets the internal object. For advanced usage only.            |
-| `Properties`                  | Gets the list of properties for this object.                  |
-| `VisibleProperties`           | Gets the list of properties that are visible for this object. |
+|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------|
+| [`AccelerationType`](#ContactForceTracker.AccelerationType)                       | Gets or sets the AccelerationType.                            |
+| [`BoundaryCondition`](#ContactForceTracker.BoundaryCondition)                     | Gets or sets the BoundaryCondition.                           |
+| [`ChartDimensions`](#ContactForceTracker.ChartDimensions)                         | Gets or sets the Chart Dimensions                             |
+| [`ChartViewingStyle`](#ContactForceTracker.ChartViewingStyle)                     | Gets or sets the ChartViewingStyle.                           |
+| [`Children`](#ContactForceTracker.Children)                                       | Gets the list of children.                                    |
+| [`Comments`](#ContactForceTracker.Comments)                                       | Gets the list of associated comments.                         |
+| [`ContactRegion`](#ContactForceTracker.ContactRegion)                             | Gets or sets the ContactRegion.                               |
+| [`ContactSide`](#ContactForceTracker.ContactSide)                                 | Gets or sets the ContactSide.                                 |
+| [`CoordinateSystem`](#ContactForceTracker.CoordinateSystem)                       | Gets or sets the CoordinateSystem.                            |
+| [`CurvesAppearanceDisplay`](#ContactForceTracker.CurvesAppearanceDisplay)         | Gets or sets the CurvesAppearanceDisplay.                     |
+| [`CutFrequency`](#ContactForceTracker.CutFrequency)                               | Gets or sets the CutFrequency.                                |
+| [`DataModelObjectCategory`](#ContactForceTracker.DataModelObjectCategory)         | Gets the current DataModelObject’s category.                  |
+| [`DeformationType`](#ContactForceTracker.DeformationType)                         | Gets or sets the DeformationType.                             |
+| [`DpfEvaluation`](#ContactForceTracker.DpfEvaluation)                             | Gets or sets the DpfEvaluation.                               |
+| [`Duration`](#ContactForceTracker.Duration)                                       | Gets or sets the Duration.                                    |
+| [`EnhancedTracking`](#ContactForceTracker.EnhancedTracking)                       | Gets the EnhancedTracking.                                    |
+| [`FilterMaximum`](#ContactForceTracker.FilterMaximum)                             | Gets the FilterMaximum.                                       |
+| [`FilterMinimum`](#ContactForceTracker.FilterMinimum)                             | Gets the FilterMinimum.                                       |
+| [`FilterType`](#ContactForceTracker.FilterType)                                   | Gets or sets the FilterType.                                  |
+| [`FrequencyAtMaximumAmplitude`](#ContactForceTracker.FrequencyAtMaximumAmplitude) | Gets the FrequencyAtMaximumAmplitude.                         |
+| [`GeometrySelectionString`](#ContactForceTracker.GeometrySelectionString)         | Gets or sets the GeometrySelectionString.                     |
+| [`Images`](#ContactForceTracker.Images)                                           | Gets the list of associated images.                           |
+| [`ImaginaryAtMaximumAmplitude`](#ContactForceTracker.ImaginaryAtMaximumAmplitude) | Gets the ImaginaryAtMaximumAmplitude.                         |
+| [`InternalObject`](#ContactForceTracker.InternalObject)                           | Gets the internal object. For advanced usage only.            |
+| [`IsSolved`](#ContactForceTracker.IsSolved)                                       | Gets the IsSolved.                                            |
+| [`LoadStepNumber`](#ContactForceTracker.LoadStepNumber)                           | Gets or sets the LoadStepNumber.                              |
+| [`Location`](#ContactForceTracker.Location)                                       | Gets or sets the Location.                                    |
+| [`Maximum`](#ContactForceTracker.Maximum)                                         | Gets the Maximum.                                             |
+| [`MaximumAmplitude`](#ContactForceTracker.MaximumAmplitude)                       | Gets the MaximumAmplitude.                                    |
+| [`MaximumFrequency`](#ContactForceTracker.MaximumFrequency)                       | Gets or sets the MaximumFrequency.                            |
+| [`Minimum`](#ContactForceTracker.Minimum)                                         | Gets the Minimum.                                             |
+| [`MinimumFrequency`](#ContactForceTracker.MinimumFrequency)                       | Gets or sets the MinimumFrequency.                            |
+| [`NormalOrientation`](#ContactForceTracker.NormalOrientation)                     | Gets or sets the NormalOrientation.                           |
+| [`PhaseAngle`](#ContactForceTracker.PhaseAngle)                                   | Gets the PhaseAngle.                                          |
+| [`Properties`](#ContactForceTracker.Properties)                                   | Gets the list of properties for this object.                  |
+| [`RealAtMaximumAmplitude`](#ContactForceTracker.RealAtMaximumAmplitude)           | Gets the RealAtMaximumAmplitude.                              |
+| [`ReportedFrequency`](#ContactForceTracker.ReportedFrequency)                     | Gets the ReportedFrequency.                                   |
+| [`RequestedFrequency`](#ContactForceTracker.RequestedFrequency)                   | Gets or sets the RequestedFrequency.                          |
+| [`ResultChartType`](#ContactForceTracker.ResultChartType)                         | Gets the ResultChartType.                                     |
+| [`SectorNumber`](#ContactForceTracker.SectorNumber)                               | Gets or sets the SectorNumber.                                |
+| [`ShearOrientation`](#ContactForceTracker.ShearOrientation)                       | Gets or sets the ShearOrientation.                            |
+| [`SpatialResolution`](#ContactForceTracker.SpatialResolution)                     | Gets or sets the SpatialResolution.                           |
+| [`Spring`](#ContactForceTracker.Spring)                                           | Gets or sets the Spring.                                      |
+| [`StressStrainType`](#ContactForceTracker.StressStrainType)                       | Gets or sets the StressStrainType.                            |
+| [`Suppressed`](#ContactForceTracker.Suppressed)                                   | Gets or sets the Suppressed.                                  |
+| [`TimeHistoryDisplay`](#ContactForceTracker.TimeHistoryDisplay)                   | Gets or sets the TimeHistoryDisplay.                          |
+| [`UseParentFrequencyRange`](#ContactForceTracker.UseParentFrequencyRange)         | Gets or sets the UseParentFrequencyRange.                     |
+| [`VelocityType`](#ContactForceTracker.VelocityType)                               | Gets or sets the VelocityType.                                |
+| [`VisibleProperties`](#ContactForceTracker.VisibleProperties)                     | Gets the list of properties that are visible for this object. |
+| [`XAxisValues`](#ContactForceTracker.XAxisValues)                                 | Gets or sets the XAxisValues.                                 |
 
 <a id="property-detail"></a>
 
 ## Property detail
 
-### *property* ContactForceTracker.ContactRegion *: Ansys.ACT.Automation.Mechanical.DataModelObject | [None](https://docs.python.org/3/library/constants.html#None)*
+<a id="ContactForceTracker.AccelerationType"></a>
 
-Gets or sets the ContactRegion.
+### *property* ContactForceTracker.AccelerationType *: [Ansys.Mechanical.DataModel.Enums.TotalOrDirectional](../../../../../Mechanical/DataModel/Enums/TotalOrDirectional.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.TotalOrDirectional) | [None](https://docs.python.org/3/library/constants.html#None)*
 
-<!-- !! processed by numpydoc !! -->
-
-### *property* ContactForceTracker.InternalObject *: Ansys.Common.Interop.DSObjectsAuto.IDSResultChartAuto | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets the internal object. For advanced usage only.
+Gets or sets the AccelerationType.
 
 <!-- !! processed by numpydoc !! -->
 
-### *property* ContactForceTracker.ContactSide *: [Ansys.Mechanical.DataModel.Enums.ContactScopingType](../../../../../../../v241/Ansys/Mechanical/DataModel/Enums/ContactScopingType.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.ContactScopingType) | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the ContactSide.
-
-<!-- !! processed by numpydoc !! -->
-
-### *property* ContactForceTracker.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../../../v241/Ansys/Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets the current DataModelObject's category.
-
-<!-- !! processed by numpydoc !! -->
-
-### *property* ContactForceTracker.IsSolved *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets the IsSolved.
-
-<!-- !! processed by numpydoc !! -->
-
-### *property* ContactForceTracker.ChartDimensions *: [Ansys.Mechanical.DataModel.Enums.ChartDimensions](../../../../../../../v241/Ansys/Mechanical/DataModel/Enums/ChartDimensions.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.ChartDimensions) | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the Chart Dimensions
-
-<!-- !! processed by numpydoc !! -->
+<a id="ContactForceTracker.BoundaryCondition"></a>
 
 ### *property* ContactForceTracker.BoundaryCondition *: [Ansys.ACT.Automation.Mechanical.BoundaryConditions.GenericBoundaryCondition](../../../../../../../v241/Ansys/ACT/Automation/Mechanical/BoundaryConditions/GenericBoundaryCondition.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.BoundaryConditions.GenericBoundaryCondition) | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -140,233 +112,23 @@ Gets or sets the BoundaryCondition.
 
 <!-- !! processed by numpydoc !! -->
 
-### *property* ContactForceTracker.CutFrequency *: System.Double | [None](https://docs.python.org/3/library/constants.html#None)*
+<a id="ContactForceTracker.ChartDimensions"></a>
 
-Gets or sets the CutFrequency.
+### *property* ContactForceTracker.ChartDimensions *: [Ansys.Mechanical.DataModel.Enums.ChartDimensions](../../../../../Mechanical/DataModel/Enums/ChartDimensions.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.ChartDimensions) | [None](https://docs.python.org/3/library/constants.html#None)*
 
-<!-- !! processed by numpydoc !! -->
-
-### *property* ContactForceTracker.SectorNumber *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the SectorNumber.
+Gets or sets the Chart Dimensions
 
 <!-- !! processed by numpydoc !! -->
 
-### *property* ContactForceTracker.GeometrySelectionString *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+<a id="ContactForceTracker.ChartViewingStyle"></a>
 
-Gets or sets the GeometrySelectionString.
-
-<!-- !! processed by numpydoc !! -->
-
-### *property* ContactForceTracker.LoadStepNumber *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the LoadStepNumber.
-
-<!-- !! processed by numpydoc !! -->
-
-### *property* ContactForceTracker.ReportedFrequency *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets the ReportedFrequency.
-
-<!-- !! processed by numpydoc !! -->
-
-### *property* ContactForceTracker.Duration *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the Duration.
-
-<!-- !! processed by numpydoc !! -->
-
-### *property* ContactForceTracker.FilterMaximum *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets the FilterMaximum.
-
-<!-- !! processed by numpydoc !! -->
-
-### *property* ContactForceTracker.FilterMinimum *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets the FilterMinimum.
-
-<!-- !! processed by numpydoc !! -->
-
-### *property* ContactForceTracker.FrequencyAtMaximumAmplitude *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets the FrequencyAtMaximumAmplitude.
-
-<!-- !! processed by numpydoc !! -->
-
-### *property* ContactForceTracker.ImaginaryAtMaximumAmplitude *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets the ImaginaryAtMaximumAmplitude.
-
-<!-- !! processed by numpydoc !! -->
-
-### *property* ContactForceTracker.MaximumAmplitude *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets the MaximumAmplitude.
-
-<!-- !! processed by numpydoc !! -->
-
-### *property* ContactForceTracker.MaximumFrequency *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the MaximumFrequency.
-
-<!-- !! processed by numpydoc !! -->
-
-### *property* ContactForceTracker.Maximum *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets the Maximum.
-
-<!-- !! processed by numpydoc !! -->
-
-### *property* ContactForceTracker.MinimumFrequency *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the MinimumFrequency.
-
-<!-- !! processed by numpydoc !! -->
-
-### *property* ContactForceTracker.Minimum *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets the Minimum.
-
-<!-- !! processed by numpydoc !! -->
-
-### *property* ContactForceTracker.PhaseAngle *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets the PhaseAngle.
-
-<!-- !! processed by numpydoc !! -->
-
-### *property* ContactForceTracker.RealAtMaximumAmplitude *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets the RealAtMaximumAmplitude.
-
-<!-- !! processed by numpydoc !! -->
-
-### *property* ContactForceTracker.RequestedFrequency *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the RequestedFrequency.
-
-<!-- !! processed by numpydoc !! -->
-
-### *property* ContactForceTracker.AccelerationType *: [Ansys.Mechanical.DataModel.Enums.TotalOrDirectional](../../../../../../../v241/Ansys/Mechanical/DataModel/Enums/TotalOrDirectional.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.TotalOrDirectional) | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the AccelerationType.
-
-<!-- !! processed by numpydoc !! -->
-
-### *property* ContactForceTracker.ChartViewingStyle *: [Ansys.Mechanical.DataModel.Enums.ChartAxisScaleType](../../../../../../../v241/Ansys/Mechanical/DataModel/Enums/ChartAxisScaleType.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.ChartAxisScaleType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ContactForceTracker.ChartViewingStyle *: [Ansys.Mechanical.DataModel.Enums.ChartAxisScaleType](../../../../../Mechanical/DataModel/Enums/ChartAxisScaleType.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.ChartAxisScaleType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the ChartViewingStyle.
 
 <!-- !! processed by numpydoc !! -->
 
-### *property* ContactForceTracker.DeformationType *: [Ansys.Mechanical.DataModel.Enums.TotalOrDirectional](../../../../../../../v241/Ansys/Mechanical/DataModel/Enums/TotalOrDirectional.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.TotalOrDirectional) | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the DeformationType.
-
-<!-- !! processed by numpydoc !! -->
-
-### *property* ContactForceTracker.FilterType *: [Ansys.Mechanical.DataModel.Enums.FilterType](../../../../../../../v241/Ansys/Mechanical/DataModel/Enums/FilterType.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.FilterType) | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the FilterType.
-
-<!-- !! processed by numpydoc !! -->
-
-### *property* ContactForceTracker.SpatialResolution *: [Ansys.Mechanical.DataModel.Enums.MultipleNodeType](../../../../../../../v241/Ansys/Mechanical/DataModel/Enums/MultipleNodeType.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.MultipleNodeType) | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the SpatialResolution.
-
-<!-- !! processed by numpydoc !! -->
-
-### *property* ContactForceTracker.NormalOrientation *: [Ansys.Mechanical.DataModel.Enums.NormalOrientationType](../../../../../../../v241/Ansys/Mechanical/DataModel/Enums/NormalOrientationType.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.NormalOrientationType) | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the NormalOrientation.
-
-<!-- !! processed by numpydoc !! -->
-
-### *property* ContactForceTracker.CurvesAppearanceDisplay *: [Ansys.Mechanical.DataModel.Enums.ChartPlotStyle](../../../../../../../v241/Ansys/Mechanical/DataModel/Enums/ChartPlotStyle.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.ChartPlotStyle) | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the CurvesAppearanceDisplay.
-
-<!-- !! processed by numpydoc !! -->
-
-### *property* ContactForceTracker.ResultChartType *: [Ansys.Mechanical.DataModel.Enums.ChartResultType](../../../../../../../v241/Ansys/Mechanical/DataModel/Enums/ChartResultType.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.ChartResultType) | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets the ResultChartType.
-
-<!-- !! processed by numpydoc !! -->
-
-### *property* ContactForceTracker.DpfEvaluation *: [Ansys.Mechanical.DataModel.Enums.DpfEvaluationType](../../../../../../../v241/Ansys/Mechanical/DataModel/Enums/DpfEvaluationType.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DpfEvaluationType) | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the DpfEvaluation.
-
-<!-- !! processed by numpydoc !! -->
-
-### *property* ContactForceTracker.XAxisValues *: [Ansys.Mechanical.DataModel.Enums.XAxisValues](../../../../../../../v241/Ansys/Mechanical/DataModel/Enums/XAxisValues.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.XAxisValues) | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the XAxisValues.
-
-<!-- !! processed by numpydoc !! -->
-
-### *property* ContactForceTracker.ShearOrientation *: [Ansys.Mechanical.DataModel.Enums.ShearOrientationType](../../../../../../../v241/Ansys/Mechanical/DataModel/Enums/ShearOrientationType.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.ShearOrientationType) | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the ShearOrientation.
-
-<!-- !! processed by numpydoc !! -->
-
-### *property* ContactForceTracker.StressStrainType *: [Ansys.Mechanical.DataModel.Enums.StressStrainType](../../../../../../../v241/Ansys/Mechanical/DataModel/Enums/StressStrainType.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.StressStrainType) | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the StressStrainType.
-
-<!-- !! processed by numpydoc !! -->
-
-### *property* ContactForceTracker.TimeHistoryDisplay *: [Ansys.Mechanical.DataModel.Enums.TimeHistoryDisplayType](../../../../../../../v241/Ansys/Mechanical/DataModel/Enums/TimeHistoryDisplayType.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.TimeHistoryDisplayType) | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the TimeHistoryDisplay.
-
-<!-- !! processed by numpydoc !! -->
-
-### *property* ContactForceTracker.VelocityType *: [Ansys.Mechanical.DataModel.Enums.TotalOrDirectional](../../../../../../../v241/Ansys/Mechanical/DataModel/Enums/TotalOrDirectional.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.TotalOrDirectional) | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the VelocityType.
-
-<!-- !! processed by numpydoc !! -->
-
-### *property* ContactForceTracker.Suppressed *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the Suppressed.
-
-<!-- !! processed by numpydoc !! -->
-
-### *property* ContactForceTracker.EnhancedTracking *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets the EnhancedTracking.
-
-<!-- !! processed by numpydoc !! -->
-
-### *property* ContactForceTracker.UseParentFrequencyRange *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the UseParentFrequencyRange.
-
-<!-- !! processed by numpydoc !! -->
-
-### *property* ContactForceTracker.CoordinateSystem *: [Ansys.ACT.Automation.Mechanical.CoordinateSystem](../../../../../../../v241/Ansys/ACT/Automation/Mechanical/CoordinateSystem.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.CoordinateSystem) | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the CoordinateSystem.
-
-<!-- !! processed by numpydoc !! -->
-
-### *property* ContactForceTracker.Spring *: [Ansys.ACT.Automation.Mechanical.Connections.Spring](../../../../../../../v241/Ansys/ACT/Automation/Mechanical/Connections/Spring.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Connections.Spring) | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the Spring.
-
-<!-- !! processed by numpydoc !! -->
-
-### *property* ContactForceTracker.Location *: Ansys.ACT.Interfaces.Common.ISelectionInfo | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the Location.
-
-<!-- !! processed by numpydoc !! -->
+<a id="ContactForceTracker.Children"></a>
 
 ### *property* ContactForceTracker.Children *: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -374,11 +136,135 @@ Gets the list of children.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="ContactForceTracker.Comments"></a>
+
 ### *property* ContactForceTracker.Comments *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Comment](../../../../../../../v241/Ansys/ACT/Automation/Mechanical/Comment.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated comments.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="ContactForceTracker.ContactRegion"></a>
+
+### *property* ContactForceTracker.ContactRegion *: Ansys.ACT.Automation.Mechanical.DataModelObject | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the ContactRegion.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ContactForceTracker.ContactSide"></a>
+
+### *property* ContactForceTracker.ContactSide *: [Ansys.Mechanical.DataModel.Enums.ContactScopingType](../../../../../Mechanical/DataModel/Enums/ContactScopingType.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.ContactScopingType) | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the ContactSide.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ContactForceTracker.CoordinateSystem"></a>
+
+### *property* ContactForceTracker.CoordinateSystem *: [Ansys.ACT.Automation.Mechanical.CoordinateSystem](../../../../../../../v241/Ansys/ACT/Automation/Mechanical/CoordinateSystem.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.CoordinateSystem) | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the CoordinateSystem.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ContactForceTracker.CurvesAppearanceDisplay"></a>
+
+### *property* ContactForceTracker.CurvesAppearanceDisplay *: [Ansys.Mechanical.DataModel.Enums.ChartPlotStyle](../../../../../Mechanical/DataModel/Enums/ChartPlotStyle.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.ChartPlotStyle) | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the CurvesAppearanceDisplay.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ContactForceTracker.CutFrequency"></a>
+
+### *property* ContactForceTracker.CutFrequency *: System.Double | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the CutFrequency.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ContactForceTracker.DataModelObjectCategory"></a>
+
+### *property* ContactForceTracker.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets the current DataModelObject’s category.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ContactForceTracker.DeformationType"></a>
+
+### *property* ContactForceTracker.DeformationType *: [Ansys.Mechanical.DataModel.Enums.TotalOrDirectional](../../../../../Mechanical/DataModel/Enums/TotalOrDirectional.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.TotalOrDirectional) | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the DeformationType.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ContactForceTracker.DpfEvaluation"></a>
+
+### *property* ContactForceTracker.DpfEvaluation *: [Ansys.Mechanical.DataModel.Enums.DpfEvaluationType](../../../../../Mechanical/DataModel/Enums/DpfEvaluationType.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.DpfEvaluationType) | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the DpfEvaluation.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ContactForceTracker.Duration"></a>
+
+### *property* ContactForceTracker.Duration *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the Duration.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ContactForceTracker.EnhancedTracking"></a>
+
+### *property* ContactForceTracker.EnhancedTracking *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets the EnhancedTracking.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ContactForceTracker.FilterMaximum"></a>
+
+### *property* ContactForceTracker.FilterMaximum *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets the FilterMaximum.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ContactForceTracker.FilterMinimum"></a>
+
+### *property* ContactForceTracker.FilterMinimum *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets the FilterMinimum.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ContactForceTracker.FilterType"></a>
+
+### *property* ContactForceTracker.FilterType *: [Ansys.Mechanical.DataModel.Enums.FilterType](../../../../../Mechanical/DataModel/Enums/FilterType.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.FilterType) | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the FilterType.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ContactForceTracker.FrequencyAtMaximumAmplitude"></a>
+
+### *property* ContactForceTracker.FrequencyAtMaximumAmplitude *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets the FrequencyAtMaximumAmplitude.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ContactForceTracker.GeometrySelectionString"></a>
+
+### *property* ContactForceTracker.GeometrySelectionString *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the GeometrySelectionString.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ContactForceTracker.Images"></a>
 
 ### *property* ContactForceTracker.Images *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Image](../../../../../../../v241/Ansys/ACT/Automation/Mechanical/Image.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -386,11 +272,103 @@ Gets the list of associated images.
 
 <!-- !! processed by numpydoc !! -->
 
-### *property* ContactForceTracker.InternalObject *: System.Object | [None](https://docs.python.org/3/library/constants.html#None)*
+<a id="ContactForceTracker.ImaginaryAtMaximumAmplitude"></a>
+
+### *property* ContactForceTracker.ImaginaryAtMaximumAmplitude *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets the ImaginaryAtMaximumAmplitude.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ContactForceTracker.InternalObject"></a>
+
+### *property* ContactForceTracker.InternalObject *: Ansys.Common.Interop.DSObjectsAuto.IDSResultChartAuto | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the internal object. For advanced usage only.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="ContactForceTracker.IsSolved"></a>
+
+### *property* ContactForceTracker.IsSolved *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets the IsSolved.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ContactForceTracker.LoadStepNumber"></a>
+
+### *property* ContactForceTracker.LoadStepNumber *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the LoadStepNumber.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ContactForceTracker.Location"></a>
+
+### *property* ContactForceTracker.Location *: Ansys.ACT.Interfaces.Common.ISelectionInfo | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the Location.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ContactForceTracker.Maximum"></a>
+
+### *property* ContactForceTracker.Maximum *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets the Maximum.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ContactForceTracker.MaximumAmplitude"></a>
+
+### *property* ContactForceTracker.MaximumAmplitude *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets the MaximumAmplitude.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ContactForceTracker.MaximumFrequency"></a>
+
+### *property* ContactForceTracker.MaximumFrequency *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the MaximumFrequency.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ContactForceTracker.Minimum"></a>
+
+### *property* ContactForceTracker.Minimum *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets the Minimum.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ContactForceTracker.MinimumFrequency"></a>
+
+### *property* ContactForceTracker.MinimumFrequency *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the MinimumFrequency.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ContactForceTracker.NormalOrientation"></a>
+
+### *property* ContactForceTracker.NormalOrientation *: [Ansys.Mechanical.DataModel.Enums.NormalOrientationType](../../../../../Mechanical/DataModel/Enums/NormalOrientationType.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.NormalOrientationType) | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the NormalOrientation.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ContactForceTracker.PhaseAngle"></a>
+
+### *property* ContactForceTracker.PhaseAngle *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets the PhaseAngle.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ContactForceTracker.Properties"></a>
 
 ### *property* ContactForceTracker.Properties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -398,9 +376,123 @@ Gets the list of properties for this object.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="ContactForceTracker.RealAtMaximumAmplitude"></a>
+
+### *property* ContactForceTracker.RealAtMaximumAmplitude *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets the RealAtMaximumAmplitude.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ContactForceTracker.ReportedFrequency"></a>
+
+### *property* ContactForceTracker.ReportedFrequency *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets the ReportedFrequency.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ContactForceTracker.RequestedFrequency"></a>
+
+### *property* ContactForceTracker.RequestedFrequency *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the RequestedFrequency.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ContactForceTracker.ResultChartType"></a>
+
+### *property* ContactForceTracker.ResultChartType *: [Ansys.Mechanical.DataModel.Enums.ChartResultType](../../../../../Mechanical/DataModel/Enums/ChartResultType.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.ChartResultType) | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets the ResultChartType.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ContactForceTracker.SectorNumber"></a>
+
+### *property* ContactForceTracker.SectorNumber *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the SectorNumber.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ContactForceTracker.ShearOrientation"></a>
+
+### *property* ContactForceTracker.ShearOrientation *: [Ansys.Mechanical.DataModel.Enums.ShearOrientationType](../../../../../Mechanical/DataModel/Enums/ShearOrientationType.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.ShearOrientationType) | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the ShearOrientation.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ContactForceTracker.SpatialResolution"></a>
+
+### *property* ContactForceTracker.SpatialResolution *: [Ansys.Mechanical.DataModel.Enums.MultipleNodeType](../../../../../Mechanical/DataModel/Enums/MultipleNodeType.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.MultipleNodeType) | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the SpatialResolution.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ContactForceTracker.Spring"></a>
+
+### *property* ContactForceTracker.Spring *: [Ansys.ACT.Automation.Mechanical.Connections.Spring](../../../../../../../v241/Ansys/ACT/Automation/Mechanical/Connections/Spring.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Connections.Spring) | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the Spring.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ContactForceTracker.StressStrainType"></a>
+
+### *property* ContactForceTracker.StressStrainType *: [Ansys.Mechanical.DataModel.Enums.StressStrainType](../../../../../Mechanical/DataModel/Enums/StressStrainType.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.StressStrainType) | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the StressStrainType.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ContactForceTracker.Suppressed"></a>
+
+### *property* ContactForceTracker.Suppressed *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the Suppressed.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ContactForceTracker.TimeHistoryDisplay"></a>
+
+### *property* ContactForceTracker.TimeHistoryDisplay *: [Ansys.Mechanical.DataModel.Enums.TimeHistoryDisplayType](../../../../../Mechanical/DataModel/Enums/TimeHistoryDisplayType.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.TimeHistoryDisplayType) | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the TimeHistoryDisplay.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ContactForceTracker.UseParentFrequencyRange"></a>
+
+### *property* ContactForceTracker.UseParentFrequencyRange *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the UseParentFrequencyRange.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ContactForceTracker.VelocityType"></a>
+
+### *property* ContactForceTracker.VelocityType *: [Ansys.Mechanical.DataModel.Enums.TotalOrDirectional](../../../../../Mechanical/DataModel/Enums/TotalOrDirectional.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.TotalOrDirectional) | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the VelocityType.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ContactForceTracker.VisibleProperties"></a>
+
 ### *property* ContactForceTracker.VisibleProperties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of properties that are visible for this object.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ContactForceTracker.XAxisValues"></a>
+
+### *property* ContactForceTracker.XAxisValues *: [Ansys.Mechanical.DataModel.Enums.XAxisValues](../../../../../Mechanical/DataModel/Enums/XAxisValues.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.XAxisValues) | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the XAxisValues.
 
 <!-- !! processed by numpydoc !! -->
 
@@ -408,53 +500,23 @@ Gets the list of properties that are visible for this object.
 
 ## Method detail
 
-### ContactForceTracker.ExportAnimation(filePath: System.String, format: [Ansys.Mechanical.DataModel.Enums.GraphicsAnimationExportFormat](../../../../../../../v241/Ansys/Mechanical/DataModel/Enums/GraphicsAnimationExportFormat.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.GraphicsAnimationExportFormat), settings: [Ansys.Mechanical.Graphics.AnimationExportSettings](../../../../../../../v241/Ansys/Mechanical/Graphics/AnimationExportSettings.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.Graphics.AnimationExportSettings))
+<a id="ContactForceTracker.Activate"></a>
 
-Run the ExportAnimation action.
+### ContactForceTracker.Activate()
 
-<!-- !! processed by numpydoc !! -->
-
-### ContactForceTracker.ClearGeneratedData()
-
-Run the ClearGeneratedData action.
+Activate the current object.
 
 <!-- !! processed by numpydoc !! -->
 
-### ContactForceTracker.EvaluateAllResults()
-
-Run the EvaluateAllResults action.
-
-<!-- !! processed by numpydoc !! -->
-
-### ContactForceTracker.RenameBasedOnDefinition()
-
-Run the RenameBasedOnDefinition action.
-
-<!-- !! processed by numpydoc !! -->
-
-### ContactForceTracker.Delete()
-
-Run the Delete action.
-
-<!-- !! processed by numpydoc !! -->
-
-### ContactForceTracker.GetChildren(recurses: System.Boolean, children: System.Collections.Generic.IList[ChildrenType])
-
-Gets the list of children, filtered by type.
-
-<!-- !! processed by numpydoc !! -->
-
-### ContactForceTracker.GetChildren(category: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../../../v241/Ansys/Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory), recurses: System.Boolean, children: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject])
-
-Gets the list of children, filtered by type.
-
-<!-- !! processed by numpydoc !! -->
+<a id="ContactForceTracker.AddComment"></a>
 
 ### ContactForceTracker.AddComment()
 
 Creates a new child Comment.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="ContactForceTracker.AddImage"></a>
 
 ### ContactForceTracker.AddImage(filePath: System.String)
 
@@ -466,11 +528,15 @@ if not, the image will be a screen capture of the Geometry window.
 
 <!-- !! processed by numpydoc !! -->
 
-### ContactForceTracker.Activate()
+<a id="ContactForceTracker.ClearGeneratedData"></a>
 
-Activate the current object.
+### ContactForceTracker.ClearGeneratedData()
+
+Run the ClearGeneratedData action.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="ContactForceTracker.CopyTo"></a>
 
 ### ContactForceTracker.CopyTo(other: Ansys.ACT.Automation.Mechanical.DataModelObject)
 
@@ -478,11 +544,63 @@ Copies all visible properties from this object to another.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="ContactForceTracker.CreateParameter"></a>
+
+### ContactForceTracker.CreateParameter(propName: System.String)
+
+Creates a new parameter for a Property.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ContactForceTracker.Delete"></a>
+
+### ContactForceTracker.Delete()
+
+Run the Delete action.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ContactForceTracker.Duplicate"></a>
+
 ### ContactForceTracker.Duplicate()
 
 Creates a copy of the current DataModelObject.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="ContactForceTracker.EvaluateAllResults"></a>
+
+### ContactForceTracker.EvaluateAllResults()
+
+Run the EvaluateAllResults action.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ContactForceTracker.ExportAnimation"></a>
+
+### ContactForceTracker.ExportAnimation(filePath: System.String, format: [Ansys.Mechanical.DataModel.Enums.GraphicsAnimationExportFormat](../../../../../Mechanical/DataModel/Enums/GraphicsAnimationExportFormat.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.GraphicsAnimationExportFormat), settings: [Ansys.Mechanical.Graphics.AnimationExportSettings](../../../../../Mechanical/Graphics/AnimationExportSettings.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.Graphics.AnimationExportSettings))
+
+Run the ExportAnimation action.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ContactForceTracker.GetChildren"></a>
+
+### ContactForceTracker.GetChildren(recurses: System.Boolean, children: System.Collections.Generic.IList[ChildrenType])
+
+Gets the list of children, filtered by type.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ContactForceTracker.GetParameter"></a>
+
+### ContactForceTracker.GetParameter(propName: System.String)
+
+Gets the parameter corresponding to the given property.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ContactForceTracker.GroupAllSimilarChildren"></a>
 
 ### ContactForceTracker.GroupAllSimilarChildren()
 
@@ -490,17 +608,15 @@ Run the GroupAllSimilarChildren action.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="ContactForceTracker.GroupSimilarObjects"></a>
+
 ### ContactForceTracker.GroupSimilarObjects()
 
 Run the GroupSimilarObjects action.
 
 <!-- !! processed by numpydoc !! -->
 
-### ContactForceTracker.PropertyByName(name: System.String)
-
-Get a property by its unique name.
-
-<!-- !! processed by numpydoc !! -->
+<a id="ContactForceTracker.PropertyByAPIName"></a>
 
 ### ContactForceTracker.PropertyByAPIName(name: System.String)
 
@@ -511,21 +627,27 @@ If multiple properties have the same API Name, only the first property with that
 
 <!-- !! processed by numpydoc !! -->
 
-### ContactForceTracker.CreateParameter(propName: System.String)
+<a id="ContactForceTracker.PropertyByName"></a>
 
-Creates a new parameter for a Property.
+### ContactForceTracker.PropertyByName(name: System.String)
 
-<!-- !! processed by numpydoc !! -->
-
-### ContactForceTracker.GetParameter(propName: System.String)
-
-Gets the parameter corresponding to the given property.
+Get a property by its unique name.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="ContactForceTracker.RemoveParameter"></a>
 
 ### ContactForceTracker.RemoveParameter(propName: System.String)
 
 Removes the parameter from the parameter set corresponding to the given property.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ContactForceTracker.RenameBasedOnDefinition"></a>
+
+### ContactForceTracker.RenameBasedOnDefinition()
+
+Run the RenameBasedOnDefinition action.
 
 <!-- !! processed by numpydoc !! -->
 

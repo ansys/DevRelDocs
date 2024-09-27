@@ -1,6 +1,6 @@
 # `PeriodicRegionType`
 
-
+<a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.PeriodicRegionType"></a>
 
 #### *class* ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.PeriodicRegionType
 
@@ -17,9 +17,9 @@ Specifies the PeriodicRegionType.
 ### Attributes
 
 | Name |
-| -------------------------------------------------------------------------------------------------------------------------------- |
-| [`EvenPeriodic`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/PeriodicRegionType.md#PeriodicRegionType.EvenPeriodic) |
-| [`OddPeriodic`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/PeriodicRegionType.md#PeriodicRegionType.OddPeriodic) |
+| ------------------------------------------------------ |
+| [`EvenPeriodic`](#PeriodicRegionType.EvenPeriodic) |
+| [`OddPeriodic`](#PeriodicRegionType.OddPeriodic) |
 
 <a id="attribute-detail"></a>
 

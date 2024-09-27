@@ -1,6 +1,6 @@
 # `LimitBCDirection`
 
-
+<a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.LimitBCDirection"></a>
 
 #### *class* ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.LimitBCDirection
 
@@ -17,11 +17,11 @@ Specifies the LimitBCDirection.
 ### Attributes
 
 | Name |
-| ---------------------------------------------------------------------------------------------------------- |
-| [`All`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/LimitBCDirection.md#LimitBCDirection.All) |
-| [`X`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/LimitBCDirection.md#LimitBCDirection.X) |
-| [`Y`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/LimitBCDirection.md#LimitBCDirection.Y) |
-| [`Z`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/LimitBCDirection.md#LimitBCDirection.Z) |
+| ---------------------------------- |
+| [`All`](#LimitBCDirection.All) |
+| [`X`](#LimitBCDirection.X) |
+| [`Y`](#LimitBCDirection.Y) |
+| [`Z`](#LimitBCDirection.Z) |
 
 <a id="attribute-detail"></a>
 

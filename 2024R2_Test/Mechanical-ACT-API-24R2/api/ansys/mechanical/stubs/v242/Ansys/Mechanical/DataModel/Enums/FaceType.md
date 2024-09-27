@@ -1,6 +1,6 @@
 # `FaceType`
 
-
+<a id="ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.FaceType"></a>
 
 #### *class* ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.FaceType
 
@@ -17,34 +17,34 @@ Specifies the FaceType.
 ### Attributes
 
 | Name |
-| ---------------------------------- |
-| [`Plane`](#FaceType.Plane) |
-| [`Cylinder`](#FaceType.Cylinder) |
+| -------------------------------------------------------------------------------------------------- |
 | [`Cone`](#FaceType.Cone) |
-| [`Torus`](#FaceType.Torus) |
+| [`Cylinder`](#FaceType.Cylinder) |
+| [`Faceted`](#FaceType.Faceted) |
+| [`Plane`](#FaceType.Plane) |
 | [`Sphere`](#FaceType.Sphere) |
 | [`Spline`](#FaceType.Spline) |
-| [`Faceted`](#FaceType.Faceted) |
+| [`Torus`](#FaceType.Torus) |
 
 <a id="attribute-detail"></a>
 
 ## Attribute detail
 
-<a id="FaceType.Plane"></a>
+<a id="FaceType.Cone"></a>
 
-### FaceType.Plane *= 1*
+### FaceType.Cone *= 4*
 
 <a id="FaceType.Cylinder"></a>
 
 ### FaceType.Cylinder *= 2*
 
-<a id="FaceType.Cone"></a>
+<a id="FaceType.Faceted"></a>
 
-### FaceType.Cone *= 4*
+### FaceType.Faceted *= 9*
 
-<a id="FaceType.Torus"></a>
+<a id="FaceType.Plane"></a>
 
-### FaceType.Torus *= 6*
+### FaceType.Plane *= 1*
 
 <a id="FaceType.Sphere"></a>
 
@@ -54,8 +54,8 @@ Specifies the FaceType.
 
 ### FaceType.Spline *= 8*
 
-<a id="FaceType.Faceted"></a>
+<a id="FaceType.Torus"></a>
 
-### FaceType.Faceted *= 9*
+### FaceType.Torus *= 6*
 
 

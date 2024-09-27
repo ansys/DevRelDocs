@@ -1,6 +1,6 @@
 # `SeqSelectionMode`
 
-
+<a id="ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.SeqSelectionMode"></a>
 
 #### *class* ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.SeqSelectionMode
 
@@ -17,7 +17,7 @@ Specifies the SeqSelectionMode.
 ### Attributes
 
 | Name |
-| -------------------------------------------- |
+| -------------------------------------------------------------------------------------------------------------------- |
 | [`ByNumber`](#SeqSelectionMode.ByNumber) |
 | [`First`](#SeqSelectionMode.First) |
 | [`Last`](#SeqSelectionMode.Last) |

@@ -1,6 +1,6 @@
 # `DropTestDefineBy`
 
-
+<a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DropTestDefineBy"></a>
 
 #### *class* ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DropTestDefineBy
 
@@ -17,9 +17,9 @@ Specifies the DropTestDefineBy.
 ### Attributes
 
 | Name |
-| ------------------------------------------------------------------------------------------------------------------------------ |
-| [`DropHeight`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/DropTestDefineBy.md#DropTestDefineBy.DropHeight) |
-| [`ImpactVelocity`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/DropTestDefineBy.md#DropTestDefineBy.ImpactVelocity) |
+| ------------------------------------------------------ |
+| [`DropHeight`](#DropTestDefineBy.DropHeight) |
+| [`ImpactVelocity`](#DropTestDefineBy.ImpactVelocity) |
 
 <a id="attribute-detail"></a>
 

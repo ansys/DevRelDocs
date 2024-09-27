@@ -1,6 +1,6 @@
 # `MixedImportResolution`
 
-
+<a id="ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.GeometryImportPreference.MixedImportResolution"></a>
 
 #### *class* ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.GeometryImportPreference.MixedImportResolution
 
@@ -18,17 +18,21 @@ of assemblies which have parts of different dimension.
 ### Attributes
 
 | Name |
-| ------------------------------------------------------- |
+| ---------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| [`Line`](#MixedImportResolution.Line) |
 | [`None_`](#MixedImportResolution.None_) |
 | [`Solid`](#MixedImportResolution.Solid) |
-| [`Surface`](#MixedImportResolution.Surface) |
-| [`Line`](#MixedImportResolution.Line) |
 | [`SolidSurface`](#MixedImportResolution.SolidSurface) |
+| [`Surface`](#MixedImportResolution.Surface) |
 | [`SurfaceLine`](#MixedImportResolution.SurfaceLine) |
 
 <a id="attribute-detail"></a>
 
 ## Attribute detail
+
+<a id="MixedImportResolution.Line"></a>
+
+### MixedImportResolution.Line *= 3*
 
 <a id="MixedImportResolution.None_"></a>
 
@@ -38,17 +42,13 @@ of assemblies which have parts of different dimension.
 
 ### MixedImportResolution.Solid *= 1*
 
-<a id="MixedImportResolution.Surface"></a>
-
-### MixedImportResolution.Surface *= 2*
-
-<a id="MixedImportResolution.Line"></a>
-
-### MixedImportResolution.Line *= 3*
-
 <a id="MixedImportResolution.SolidSurface"></a>
 
 ### MixedImportResolution.SolidSurface *= 5*
+
+<a id="MixedImportResolution.Surface"></a>
+
+### MixedImportResolution.Surface *= 2*
 
 <a id="MixedImportResolution.SurfaceLine"></a>
 

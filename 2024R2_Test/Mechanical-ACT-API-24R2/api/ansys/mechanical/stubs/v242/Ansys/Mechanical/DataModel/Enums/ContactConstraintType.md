@@ -1,6 +1,6 @@
 # `ContactConstraintType`
 
-
+<a id="ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.ContactConstraintType"></a>
 
 #### *class* ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.ContactConstraintType
 
@@ -17,7 +17,7 @@ Specifies the ContactConstraintType.
 ### Attributes
 
 | Name |
-| ----------------------------------------------------------------------------------------------- |
+| ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | [`DistributedAllDirections`](#ContactConstraintType.DistributedAllDirections) |
 | [`DistributedAnywhereInsidePinball`](#ContactConstraintType.DistributedAnywhereInsidePinball) |
 | [`DistributedNormalOnly`](#ContactConstraintType.DistributedNormalOnly) |

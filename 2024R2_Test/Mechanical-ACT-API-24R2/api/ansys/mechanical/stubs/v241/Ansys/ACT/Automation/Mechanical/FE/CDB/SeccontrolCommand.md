@@ -1,6 +1,6 @@
 # `SeccontrolCommand`
 
-
+<a id="ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.FE.CDB.SeccontrolCommand"></a>
 
 #### *class* ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.FE.CDB.SeccontrolCommand
 
@@ -17,20 +17,24 @@ Represents a SECCONTROL command.
 ### Properties
 
 | Name | Description |
-|------------|-------------------------|
-| `Values`   | Gets the values.        |
-| `Name`     | Gets the command name.  |
-| `Index`    | Gets the command index. |
+|----------------------------------------------------------------------------------------------------------------------------|---------------------------|
+| [`Index`](#SeccontrolCommand.Index)   | Gets the command index.   |
+| [`Name`](#SeccontrolCommand.Name)     | Gets the command name.    |
+| [`Values`](#SeccontrolCommand.Values) | Gets the values.          |
 
 <a id="property-detail"></a>
 
 ## Property detail
 
-### *property* SeccontrolCommand.Values *: System.Collections.Generic.IReadOnlyList[System.Double] | [None](https://docs.python.org/3/library/constants.html#None)*
+<a id="SeccontrolCommand.Index"></a>
 
-Gets the values.
+### *property* SeccontrolCommand.Index *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets the command index.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="SeccontrolCommand.Name"></a>
 
 ### *property* SeccontrolCommand.Name *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -38,9 +42,11 @@ Gets the command name.
 
 <!-- !! processed by numpydoc !! -->
 
-### *property* SeccontrolCommand.Index *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+<a id="SeccontrolCommand.Values"></a>
 
-Gets the command index.
+### *property* SeccontrolCommand.Values *: System.Collections.Generic.IReadOnlyList[System.Double] | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets the values.
 
 <!-- !! processed by numpydoc !! -->
 

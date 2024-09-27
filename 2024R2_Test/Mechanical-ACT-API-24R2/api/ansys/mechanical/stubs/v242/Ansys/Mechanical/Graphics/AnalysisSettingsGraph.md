@@ -1,6 +1,6 @@
 # `AnalysisSettingsGraph`
 
-
+<a id="ansys.mechanical.stubs.v242.Ansys.Mechanical.Graphics.AnalysisSettingsGraph"></a>
 
 #### *class* ansys.mechanical.stubs.v242.Ansys.Mechanical.Graphics.AnalysisSettingsGraph
 
@@ -17,12 +17,14 @@ AnalysisSettingsGraph class.
 ### Properties
 
 | Name | Description |
-|---------------------------------|-----------------------------------------|
-| `BoundaryConditionVisibility`   | BoundaryConditionVisibility property.   |
+|----------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------|
+| [`BoundaryConditionVisibility`](#AnalysisSettingsGraph.BoundaryConditionVisibility)   | BoundaryConditionVisibility property.   |
 
 <a id="property-detail"></a>
 
 ## Property detail
+
+<a id="AnalysisSettingsGraph.BoundaryConditionVisibility"></a>
 
 ### *property* AnalysisSettingsGraph.BoundaryConditionVisibility *: Ansys.Mechanical.Graphics.BoundaryConditionVisibilityDictionary | [None](https://docs.python.org/3/library/constants.html#None)*
 

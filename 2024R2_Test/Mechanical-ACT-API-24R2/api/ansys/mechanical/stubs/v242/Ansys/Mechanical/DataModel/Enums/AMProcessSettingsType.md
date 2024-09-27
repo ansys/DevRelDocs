@@ -1,6 +1,6 @@
 # `AMProcessSettingsType`
 
-
+<a id="ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.AMProcessSettingsType"></a>
 
 #### *class* ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.AMProcessSettingsType
 
@@ -17,7 +17,7 @@ Specifies the AMProcessSettingsType.
 ### Attributes
 
 | Name |
-| ----------------------------------------------------------------------- |
+| ---------------------------------------------------------------------------------------------------------------------------------------------------- |
 | [`PreheatTemperature`](#AMProcessSettingsType.PreheatTemperature) |
 | [`RoomTemperature`](#AMProcessSettingsType.RoomTemperature) |
 | [`SpecifiedTemperature`](#AMProcessSettingsType.SpecifiedTemperature) |

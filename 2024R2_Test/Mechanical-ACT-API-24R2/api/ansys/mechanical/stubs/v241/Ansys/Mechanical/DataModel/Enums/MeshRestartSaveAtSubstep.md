@@ -1,6 +1,6 @@
 # `MeshRestartSaveAtSubstep`
 
-
+<a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.MeshRestartSaveAtSubstep"></a>
 
 #### *class* ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.MeshRestartSaveAtSubstep
 
@@ -17,10 +17,10 @@ Specifies the MeshRestartSaveAtSubstep.
 ### Attributes
 
 | Name |
-| -------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| [`All`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/MeshRestartSaveAtSubstep.md#MeshRestartSaveAtSubstep.All) |
-| [`Last`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/MeshRestartSaveAtSubstep.md#MeshRestartSaveAtSubstep.Last) |
-| [`SaveAtSubstepSpecified`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/MeshRestartSaveAtSubstep.md#MeshRestartSaveAtSubstep.SaveAtSubstepSpecified) |
+| ------------------------------------------------------------------------------ |
+| [`All`](#MeshRestartSaveAtSubstep.All) |
+| [`Last`](#MeshRestartSaveAtSubstep.Last) |
+| [`SaveAtSubstepSpecified`](#MeshRestartSaveAtSubstep.SaveAtSubstepSpecified) |
 
 <a id="attribute-detail"></a>
 

@@ -1,6 +1,6 @@
 # `ProbeResultType`
 
-
+<a id="ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.ProbeResultType"></a>
 
 #### *class* ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.ProbeResultType
 
@@ -17,12 +17,13 @@ Specifies the ProbeResultType.
 ### Attributes
 
 | Name |
-| ------------------------------------------------------------------------------------------------- |
+| ------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
 | [`AccelerationProbe`](#ProbeResultType.AccelerationProbe) |
 | [`AngularAccelerationProbe`](#ProbeResultType.AngularAccelerationProbe) |
 | [`AngularVelocityProbe`](#ProbeResultType.AngularVelocityProbe) |
 | [`BeamProbe`](#ProbeResultType.BeamProbe) |
 | [`BearingProbe`](#ProbeResultType.BearingProbe) |
+| [`BoltPretension`](#ProbeResultType.BoltPretension) |
 | [`ChargeReaction`](#ProbeResultType.ChargeReaction) |
 | [`ConstraintForce`](#ProbeResultType.ConstraintForce) |
 | [`ConstraintMoment`](#ProbeResultType.ConstraintMoment) |
@@ -31,40 +32,39 @@ Specifies the ProbeResultType.
 | [`DampingForce`](#ProbeResultType.DampingForce) |
 | [`DampingMoment`](#ProbeResultType.DampingMoment) |
 | [`DeformationProbe`](#ProbeResultType.DeformationProbe) |
-| [`MagneticFluxProbe`](#ProbeResultType.MagneticFluxProbe) |
 | [`ElasticForce`](#ProbeResultType.ElasticForce) |
 | [`ElasticMoment`](#ProbeResultType.ElasticMoment) |
 | [`ElasticPlusFrictionMoment`](#ProbeResultType.ElasticPlusFrictionMoment) |
-| [`Impedance`](#ProbeResultType.Impedance) |
-| [`FieldIntensity`](#ProbeResultType.FieldIntensity) |
-| [`VoltageProbe`](#ProbeResultType.VoltageProbe) |
 | [`ElectromechanicalCouplingCoefficient`](#ProbeResultType.ElectromechanicalCouplingCoefficient) |
 | [`EmagReactionProbe`](#ProbeResultType.EmagReactionProbe) |
 | [`Energy`](#ProbeResultType.Energy) |
+| [`FieldIntensity`](#ProbeResultType.FieldIntensity) |
 | [`FieldIntensityProbe`](#ProbeResultType.FieldIntensityProbe) |
 | [`FlexibleRotationProbe`](#ProbeResultType.FlexibleRotationProbe) |
 | [`FluxDensityProbe`](#ProbeResultType.FluxDensityProbe) |
+| [`ForceReaction`](#ProbeResultType.ForceReaction) |
 | [`FrictionForceProbe`](#ProbeResultType.FrictionForceProbe) |
 | [`FrictionMomentProbe`](#ProbeResultType.FrictionMomentProbe) |
 | [`GeneralizedPlaneStrainProbe`](#ProbeResultType.GeneralizedPlaneStrainProbe) |
 | [`HeatFluxProbe`](#ProbeResultType.HeatFluxProbe) |
+| [`Impedance`](#ProbeResultType.Impedance) |
 | [`JointProbe`](#ProbeResultType.JointProbe) |
 | [`JouleHeatProbe`](#ProbeResultType.JouleHeatProbe) |
+| [`MagneticFluxProbe`](#ProbeResultType.MagneticFluxProbe) |
+| [`MomentReaction`](#ProbeResultType.MomentReaction) |
 | [`Position`](#ProbeResultType.Position) |
-| [`BoltPretension`](#ProbeResultType.BoltPretension) |
+| [`ProbeStatus`](#ProbeResultType.ProbeStatus) |
 | [`QualityFactor`](#ProbeResultType.QualityFactor) |
 | [`RadiationProbe`](#ProbeResultType.RadiationProbe) |
 | [`ReactionProbe`](#ProbeResultType.ReactionProbe) |
-| [`ForceReaction`](#ProbeResultType.ForceReaction) |
-| [`MomentReaction`](#ProbeResultType.MomentReaction) |
 | [`ResponsePSD`](#ProbeResultType.ResponsePSD) |
 | [`RotationProbe`](#ProbeResultType.RotationProbe) |
 | [`SpringProbe`](#ProbeResultType.SpringProbe) |
-| [`ProbeStatus`](#ProbeResultType.ProbeStatus) |
 | [`StrainProbe`](#ProbeResultType.StrainProbe) |
 | [`StressProbe`](#ProbeResultType.StressProbe) |
 | [`TemperatureProbe`](#ProbeResultType.TemperatureProbe) |
 | [`VelocityProbe`](#ProbeResultType.VelocityProbe) |
+| [`VoltageProbe`](#ProbeResultType.VoltageProbe) |
 | [`VolumeProbe`](#ProbeResultType.VolumeProbe) |
 
 <a id="attribute-detail"></a>
@@ -90,6 +90,10 @@ Specifies the ProbeResultType.
 <a id="ProbeResultType.BearingProbe"></a>
 
 ### ProbeResultType.BearingProbe *= 36*
+
+<a id="ProbeResultType.BoltPretension"></a>
+
+### ProbeResultType.BoltPretension *= 21*
 
 <a id="ProbeResultType.ChargeReaction"></a>
 
@@ -123,10 +127,6 @@ Specifies the ProbeResultType.
 
 ### ProbeResultType.DeformationProbe *= 3*
 
-<a id="ProbeResultType.MagneticFluxProbe"></a>
-
-### ProbeResultType.MagneticFluxProbe *= 27*
-
 <a id="ProbeResultType.ElasticForce"></a>
 
 ### ProbeResultType.ElasticForce *= 30*
@@ -138,18 +138,6 @@ Specifies the ProbeResultType.
 <a id="ProbeResultType.ElasticPlusFrictionMoment"></a>
 
 ### ProbeResultType.ElasticPlusFrictionMoment *= 56*
-
-<a id="ProbeResultType.Impedance"></a>
-
-### ProbeResultType.Impedance *= 53*
-
-<a id="ProbeResultType.FieldIntensity"></a>
-
-### ProbeResultType.FieldIntensity *= 26*
-
-<a id="ProbeResultType.VoltageProbe"></a>
-
-### ProbeResultType.VoltageProbe *= 24*
 
 <a id="ProbeResultType.ElectromechanicalCouplingCoefficient"></a>
 
@@ -163,6 +151,10 @@ Specifies the ProbeResultType.
 
 ### ProbeResultType.Energy *= 14*
 
+<a id="ProbeResultType.FieldIntensity"></a>
+
+### ProbeResultType.FieldIntensity *= 26*
+
 <a id="ProbeResultType.FieldIntensityProbe"></a>
 
 ### ProbeResultType.FieldIntensityProbe *= 7*
@@ -174,6 +166,10 @@ Specifies the ProbeResultType.
 <a id="ProbeResultType.FluxDensityProbe"></a>
 
 ### ProbeResultType.FluxDensityProbe *= 6*
+
+<a id="ProbeResultType.ForceReaction"></a>
+
+### ProbeResultType.ForceReaction *= 15*
 
 <a id="ProbeResultType.FrictionForceProbe"></a>
 
@@ -191,6 +187,10 @@ Specifies the ProbeResultType.
 
 ### ProbeResultType.HeatFluxProbe *= 5*
 
+<a id="ProbeResultType.Impedance"></a>
+
+### ProbeResultType.Impedance *= 53*
+
 <a id="ProbeResultType.JointProbe"></a>
 
 ### ProbeResultType.JointProbe *= 12*
@@ -199,13 +199,21 @@ Specifies the ProbeResultType.
 
 ### ProbeResultType.JouleHeatProbe *= 40*
 
+<a id="ProbeResultType.MagneticFluxProbe"></a>
+
+### ProbeResultType.MagneticFluxProbe *= 27*
+
+<a id="ProbeResultType.MomentReaction"></a>
+
+### ProbeResultType.MomentReaction *= 16*
+
 <a id="ProbeResultType.Position"></a>
 
 ### ProbeResultType.Position *= 20*
 
-<a id="ProbeResultType.BoltPretension"></a>
+<a id="ProbeResultType.ProbeStatus"></a>
 
-### ProbeResultType.BoltPretension *= 21*
+### ProbeResultType.ProbeStatus *= 57*
 
 <a id="ProbeResultType.QualityFactor"></a>
 
@@ -219,14 +227,6 @@ Specifies the ProbeResultType.
 
 ### ProbeResultType.ReactionProbe *= 9*
 
-<a id="ProbeResultType.ForceReaction"></a>
-
-### ProbeResultType.ForceReaction *= 15*
-
-<a id="ProbeResultType.MomentReaction"></a>
-
-### ProbeResultType.MomentReaction *= 16*
-
 <a id="ProbeResultType.ResponsePSD"></a>
 
 ### ProbeResultType.ResponsePSD *= 23*
@@ -238,10 +238,6 @@ Specifies the ProbeResultType.
 <a id="ProbeResultType.SpringProbe"></a>
 
 ### ProbeResultType.SpringProbe *= 13*
-
-<a id="ProbeResultType.ProbeStatus"></a>
-
-### ProbeResultType.ProbeStatus *= 57*
 
 <a id="ProbeResultType.StrainProbe"></a>
 
@@ -258,6 +254,10 @@ Specifies the ProbeResultType.
 <a id="ProbeResultType.VelocityProbe"></a>
 
 ### ProbeResultType.VelocityProbe *= 10*
+
+<a id="ProbeResultType.VoltageProbe"></a>
+
+### ProbeResultType.VoltageProbe *= 24*
 
 <a id="ProbeResultType.VolumeProbe"></a>
 

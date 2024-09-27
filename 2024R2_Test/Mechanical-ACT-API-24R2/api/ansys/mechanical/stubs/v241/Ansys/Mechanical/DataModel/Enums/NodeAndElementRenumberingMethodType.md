@@ -1,6 +1,6 @@
 # `NodeAndElementRenumberingMethodType`
 
-
+<a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.NodeAndElementRenumberingMethodType"></a>
 
 #### *class* ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.NodeAndElementRenumberingMethodType
 
@@ -17,9 +17,9 @@ To select the method of Node And Element Renumbering under the Model Import Obje
 ### Attributes
 
 | Name |
-| ------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| [`Automatic`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/NodeAndElementRenumberingMethodType.md#NodeAndElementRenumberingMethodType.Automatic) |
-| [`Offset`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/NodeAndElementRenumberingMethodType.md#NodeAndElementRenumberingMethodType.Offset) |
+| ----------------------------------------------------------------- |
+| [`Automatic`](#NodeAndElementRenumberingMethodType.Automatic) |
+| [`Offset`](#NodeAndElementRenumberingMethodType.Offset) |
 
 <a id="attribute-detail"></a>
 

@@ -1,6 +1,6 @@
 # `RSBoundaryConditionSelectionType`
 
-
+<a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.RSBoundaryConditionSelectionType"></a>
 
 #### *class* ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.RSBoundaryConditionSelectionType
 
@@ -17,20 +17,20 @@ Specifies the RSBoundaryConditionSelectionType.
 ### Attributes
 
 | Name |
-| -------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| [`None_`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/RSBoundaryConditionSelectionType.md#RSBoundaryConditionSelectionType.None_) |
-| [`AllSupports`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/RSBoundaryConditionSelectionType.md#RSBoundaryConditionSelectionType.AllSupports) |
+| ------------------------------------------------------------------ |
+| [`AllSupports`](#RSBoundaryConditionSelectionType.AllSupports) |
+| [`None_`](#RSBoundaryConditionSelectionType.None_) |
 
 <a id="attribute-detail"></a>
 
 ## Attribute detail
 
-<a id="RSBoundaryConditionSelectionType.None_"></a>
-
-### RSBoundaryConditionSelectionType.None_ *= 0*
-
 <a id="RSBoundaryConditionSelectionType.AllSupports"></a>
 
 ### RSBoundaryConditionSelectionType.AllSupports *= 1*
+
+<a id="RSBoundaryConditionSelectionType.None_"></a>
+
+### RSBoundaryConditionSelectionType.None_ *= 0*
 
 

@@ -1,6 +1,6 @@
 # `WaveType`
 
-
+<a id="ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.WaveType"></a>
 
 #### *class* ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.WaveType
 
@@ -17,7 +17,7 @@ Specifies the WaveType.
 ### Attributes
 
 | Name |
-| ------------------------------------------------------------------ |
+| ---------------------------------------------------------------------------------------------------------------------------------- |
 | [`BackEnclosedLoudspeaker`](#WaveType.BackEnclosedLoudspeaker) |
 | [`BareLoudspeaker`](#WaveType.BareLoudspeaker) |
 | [`CircularDuct`](#WaveType.CircularDuct) |

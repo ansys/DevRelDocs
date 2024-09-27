@@ -1,6 +1,6 @@
 # `GenericCrack`
 
-
+<a id="ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.GenericCrack"></a>
 
 #### *class* ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.GenericCrack
 
@@ -17,62 +17,44 @@ Defines a GenericCrack.
 ### Methods
 
 | Name | Description |
-|---------------------------|-----------------------------------------------------------------------------------|
-| `AddCommandSnippet`       | Creates a new CommandSnippet                                                      |
-| `Delete`                  | Run the Delete action.                                                            |
-| `GetChildren`             | Gets the list of children, filtered by type.                                      |
-| `GetChildren`             | Gets the list of children, filtered by type.                                      |
-| `AddComment`              | Creates a new child Comment.                                                      |
-| `AddFigure`               | Creates a new child Figure.                                                       |
-| `AddImage`                | Creates a new child Image.                                                        |
-| `Activate`                | Activate the current object.                                                      |
-| `CopyTo`                  | Copies all visible properties from this object to another.                        |
-| `Duplicate`               | Creates a copy of the current DataModelObject.                                    |
-| `GroupAllSimilarChildren` | Run the GroupAllSimilarChildren action.                                           |
-| `GroupSimilarObjects`     | Run the GroupSimilarObjects action.                                               |
-| `PropertyByName`          | Get a property by its unique name.                                                |
-| `PropertyByAPIName`       | Get a property by its API name.                                                   |
-| `CreateParameter`         | Creates a new parameter for a Property.                                           |
-| `GetParameter`            | Gets the parameter corresponding to the given property.                           |
-| `RemoveParameter`         | Removes the parameter from the parameter set corresponding to the given property. |
+|---------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------|
+| [`Activate`](#GenericCrack.Activate)                               | Activate the current object.                                                      |
+| [`AddCommandSnippet`](#GenericCrack.AddCommandSnippet)             | Creates a new CommandSnippet                                                      |
+| [`AddComment`](#GenericCrack.AddComment)                           | Creates a new child Comment.                                                      |
+| [`AddFigure`](#GenericCrack.AddFigure)                             | Creates a new child Figure.                                                       |
+| [`AddImage`](#GenericCrack.AddImage)                               | Creates a new child Image.                                                        |
+| [`CopyTo`](#GenericCrack.CopyTo)                                   | Copies all visible properties from this object to another.                        |
+| [`CreateParameter`](#GenericCrack.CreateParameter)                 | Creates a new parameter for a Property.                                           |
+| [`Delete`](#GenericCrack.Delete)                                   | Run the Delete action.                                                            |
+| [`Duplicate`](#GenericCrack.Duplicate)                             | Creates a copy of the current DataModelObject.                                    |
+| [`GetChildren`](#GenericCrack.GetChildren)                         | Gets the list of children, filtered by type.                                      |
+| [`GetParameter`](#GenericCrack.GetParameter)                       | Gets the parameter corresponding to the given property.                           |
+| [`GroupAllSimilarChildren`](#GenericCrack.GroupAllSimilarChildren) | Run the GroupAllSimilarChildren action.                                           |
+| [`GroupSimilarObjects`](#GenericCrack.GroupSimilarObjects)         | Run the GroupSimilarObjects action.                                               |
+| [`PropertyByAPIName`](#GenericCrack.PropertyByAPIName)             | Get a property by its API name.                                                   |
+| [`PropertyByName`](#GenericCrack.PropertyByName)                   | Get a property by its unique name.                                                |
+| [`RemoveParameter`](#GenericCrack.RemoveParameter)                 | Removes the parameter from the parameter set corresponding to the given property. |
 
 ### Properties
 
 | Name | Description |
-|---------------------------|---------------------------------------------------------------|
-| `InternalObject`          | Gets the internal object. For advanced usage only.            |
-| `CrackID`                 | Gets the CrackID.                                             |
-| `DataModelObjectCategory` | Gets the current DataModelObject's category.                  |
-| `Children`                | Gets the list of children.                                    |
-| `Comments`                | Gets the list of associated comments.                         |
-| `Figures`                 | Gets the list of associated figures.                          |
-| `Images`                  | Gets the list of associated images.                           |
-| `ReadOnly`                | Gets or sets the ReadOnly.                                    |
-| `InternalObject`          | Gets the internal object. For advanced usage only.            |
-| `Properties`              | Gets the list of properties for this object.                  |
-| `VisibleProperties`       | Gets the list of properties that are visible for this object. |
+|---------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------|
+| [`Children`](#GenericCrack.Children)                               | Gets the list of children.                                    |
+| [`Comments`](#GenericCrack.Comments)                               | Gets the list of associated comments.                         |
+| [`CrackID`](#GenericCrack.CrackID)                                 | Gets the CrackID.                                             |
+| [`DataModelObjectCategory`](#GenericCrack.DataModelObjectCategory) | Gets the current DataModelObject’s category.                  |
+| [`Figures`](#GenericCrack.Figures)                                 | Gets the list of associated figures.                          |
+| [`Images`](#GenericCrack.Images)                                   | Gets the list of associated images.                           |
+| [`InternalObject`](#GenericCrack.InternalObject)                   | Gets the internal object. For advanced usage only.            |
+| [`Properties`](#GenericCrack.Properties)                           | Gets the list of properties for this object.                  |
+| [`ReadOnly`](#GenericCrack.ReadOnly)                               | Gets or sets the ReadOnly.                                    |
+| [`VisibleProperties`](#GenericCrack.VisibleProperties)             | Gets the list of properties that are visible for this object. |
 
 <a id="property-detail"></a>
 
 ## Property detail
 
-### *property* GenericCrack.InternalObject *: Ansys.Common.Interop.DSObjectsAuto.IDSCrackAuto | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets the internal object. For advanced usage only.
-
-<!-- !! processed by numpydoc !! -->
-
-### *property* GenericCrack.CrackID *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets the CrackID.
-
-<!-- !! processed by numpydoc !! -->
-
-### *property* GenericCrack.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets the current DataModelObject's category.
-
-<!-- !! processed by numpydoc !! -->
+<a id="GenericCrack.Children"></a>
 
 ### *property* GenericCrack.Children *: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -80,11 +62,31 @@ Gets the list of children.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="GenericCrack.Comments"></a>
+
 ### *property* GenericCrack.Comments *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Comment](Comment.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated comments.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="GenericCrack.CrackID"></a>
+
+### *property* GenericCrack.CrackID *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets the CrackID.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="GenericCrack.DataModelObjectCategory"></a>
+
+### *property* GenericCrack.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../v242/Ansys/Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets the current DataModelObject’s category.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="GenericCrack.Figures"></a>
 
 ### *property* GenericCrack.Figures *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Figure](Figure.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -92,11 +94,31 @@ Gets the list of associated figures.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="GenericCrack.Images"></a>
+
 ### *property* GenericCrack.Images *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Image](Image.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated images.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="GenericCrack.InternalObject"></a>
+
+### *property* GenericCrack.InternalObject *: Ansys.Common.Interop.DSObjectsAuto.IDSCrackAuto | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets the internal object. For advanced usage only.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="GenericCrack.Properties"></a>
+
+### *property* GenericCrack.Properties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets the list of properties for this object.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="GenericCrack.ReadOnly"></a>
 
 ### *property* GenericCrack.ReadOnly *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -104,17 +126,7 @@ Gets or sets the ReadOnly.
 
 <!-- !! processed by numpydoc !! -->
 
-### *property* GenericCrack.InternalObject *: System.Object | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets the internal object. For advanced usage only.
-
-<!-- !! processed by numpydoc !! -->
-
-### *property* GenericCrack.Properties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets the list of properties for this object.
-
-<!-- !! processed by numpydoc !! -->
+<a id="GenericCrack.VisibleProperties"></a>
 
 ### *property* GenericCrack.VisibleProperties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -126,29 +138,23 @@ Gets the list of properties that are visible for this object.
 
 ## Method detail
 
+<a id="GenericCrack.Activate"></a>
+
+### GenericCrack.Activate()
+
+Activate the current object.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="GenericCrack.AddCommandSnippet"></a>
+
 ### GenericCrack.AddCommandSnippet()
 
 Creates a new CommandSnippet
 
 <!-- !! processed by numpydoc !! -->
 
-### GenericCrack.Delete()
-
-Run the Delete action.
-
-<!-- !! processed by numpydoc !! -->
-
-### GenericCrack.GetChildren(recurses: System.Boolean, children: System.Collections.Generic.IList[ChildrenType])
-
-Gets the list of children, filtered by type.
-
-<!-- !! processed by numpydoc !! -->
-
-### GenericCrack.GetChildren(category: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory), recurses: System.Boolean, children: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject])
-
-Gets the list of children, filtered by type.
-
-<!-- !! processed by numpydoc !! -->
+<a id="GenericCrack.AddComment"></a>
 
 ### GenericCrack.AddComment()
 
@@ -156,11 +162,15 @@ Creates a new child Comment.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="GenericCrack.AddFigure"></a>
+
 ### GenericCrack.AddFigure()
 
 Creates a new child Figure.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="GenericCrack.AddImage"></a>
 
 ### GenericCrack.AddImage(filePath: System.String)
 
@@ -172,11 +182,7 @@ if not, the image will be a screen capture of the Geometry window.
 
 <!-- !! processed by numpydoc !! -->
 
-### GenericCrack.Activate()
-
-Activate the current object.
-
-<!-- !! processed by numpydoc !! -->
+<a id="GenericCrack.CopyTo"></a>
 
 ### GenericCrack.CopyTo(other: Ansys.ACT.Automation.Mechanical.DataModelObject)
 
@@ -184,11 +190,47 @@ Copies all visible properties from this object to another.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="GenericCrack.CreateParameter"></a>
+
+### GenericCrack.CreateParameter(propName: System.String)
+
+Creates a new parameter for a Property.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="GenericCrack.Delete"></a>
+
+### GenericCrack.Delete()
+
+Run the Delete action.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="GenericCrack.Duplicate"></a>
+
 ### GenericCrack.Duplicate()
 
 Creates a copy of the current DataModelObject.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="GenericCrack.GetChildren"></a>
+
+### GenericCrack.GetChildren(recurses: System.Boolean, children: System.Collections.Generic.IList[ChildrenType])
+
+Gets the list of children, filtered by type.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="GenericCrack.GetParameter"></a>
+
+### GenericCrack.GetParameter(propName: System.String)
+
+Gets the parameter corresponding to the given property.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="GenericCrack.GroupAllSimilarChildren"></a>
 
 ### GenericCrack.GroupAllSimilarChildren()
 
@@ -196,17 +238,15 @@ Run the GroupAllSimilarChildren action.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="GenericCrack.GroupSimilarObjects"></a>
+
 ### GenericCrack.GroupSimilarObjects()
 
 Run the GroupSimilarObjects action.
 
 <!-- !! processed by numpydoc !! -->
 
-### GenericCrack.PropertyByName(name: System.String)
-
-Get a property by its unique name.
-
-<!-- !! processed by numpydoc !! -->
+<a id="GenericCrack.PropertyByAPIName"></a>
 
 ### GenericCrack.PropertyByAPIName(name: System.String)
 
@@ -217,17 +257,15 @@ If multiple properties have the same API Name, only the first property with that
 
 <!-- !! processed by numpydoc !! -->
 
-### GenericCrack.CreateParameter(propName: System.String)
+<a id="GenericCrack.PropertyByName"></a>
 
-Creates a new parameter for a Property.
+### GenericCrack.PropertyByName(name: System.String)
 
-<!-- !! processed by numpydoc !! -->
-
-### GenericCrack.GetParameter(propName: System.String)
-
-Gets the parameter corresponding to the given property.
+Get a property by its unique name.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="GenericCrack.RemoveParameter"></a>
 
 ### GenericCrack.RemoveParameter(propName: System.String)
 

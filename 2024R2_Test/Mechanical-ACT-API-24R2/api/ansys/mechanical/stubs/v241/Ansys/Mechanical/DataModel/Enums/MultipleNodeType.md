@@ -1,6 +1,6 @@
 # `MultipleNodeType`
 
-
+<a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.MultipleNodeType"></a>
 
 #### *class* ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.MultipleNodeType
 
@@ -17,10 +17,10 @@ Specifies the MultipleNodeType.
 ### Attributes
 
 | Name |
-| ------------------------------------------------------------------------------------------------------------------ |
-| [`Average`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/MultipleNodeType.md#MultipleNodeType.Average) |
-| [`Maximum`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/MultipleNodeType.md#MultipleNodeType.Maximum) |
-| [`Minimum`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/MultipleNodeType.md#MultipleNodeType.Minimum) |
+| ------------------------------------------ |
+| [`Average`](#MultipleNodeType.Average) |
+| [`Maximum`](#MultipleNodeType.Maximum) |
+| [`Minimum`](#MultipleNodeType.Minimum) |
 
 <a id="attribute-detail"></a>
 

@@ -1,6 +1,6 @@
 # `ICEPAKImportSettings`
 
-
+<a id="ansys.mechanical.stubs.v242.Ansys.Mechanical.ExternalData.ICEPAKImportSettings"></a>
 
 #### *class* ansys.mechanical.stubs.v242.Ansys.Mechanical.ExternalData.ICEPAKImportSettings
 
@@ -17,21 +17,33 @@ T:Ansys.Mechanical.ExternalData.ICEPAKImportSettings defines how to import exter
 ### Properties
 
 | Name | Description |
-|-----------------------------|--------------------------------------------------------------------------------------------------|
-| `SupportingFilePath`        | The supporting file path of the ICEPAK INFO file.                                                |
-| `SupportingFileIdentifier`  | The supporting file identifier. The identifier should be unique, otherwise, an exception will be |
-| `SupportingFileDescription` | The supporting file description. This is optional.                                               |
-| `Format`                    | Gets the existing corresponding format.                                                          |
+|------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------|
+| [`Format`](#ICEPAKImportSettings.Format)                                       | Gets the existing corresponding format.                                                          |
+| [`SupportingFileDescription`](#ICEPAKImportSettings.SupportingFileDescription) | The supporting file description. This is optional.                                               |
+| [`SupportingFileIdentifier`](#ICEPAKImportSettings.SupportingFileIdentifier)   | The supporting file identifier. The identifier should be unique, otherwise, an exception will be |
+| [`SupportingFilePath`](#ICEPAKImportSettings.SupportingFilePath)               | The supporting file path of the ICEPAK INFO file.                                                |
 
 <a id="property-detail"></a>
 
 ## Property detail
 
-### *property* ICEPAKImportSettings.SupportingFilePath *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+<a id="ICEPAKImportSettings.Format"></a>
 
-The supporting file path of the ICEPAK INFO file.
+### *property* ICEPAKImportSettings.Format *: [Ansys.Mechanical.DataModel.MechanicalEnums.ExternalData.ImportFormat](../DataModel/MechanicalEnums/ExternalData/ImportFormat.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.MechanicalEnums.ExternalData.ImportFormat) | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets the existing corresponding format.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="ICEPAKImportSettings.SupportingFileDescription"></a>
+
+### *property* ICEPAKImportSettings.SupportingFileDescription *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+
+The supporting file description. This is optional.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ICEPAKImportSettings.SupportingFileIdentifier"></a>
 
 ### *property* ICEPAKImportSettings.SupportingFileIdentifier *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -40,15 +52,11 @@ thrown during the import.
 
 <!-- !! processed by numpydoc !! -->
 
-### *property* ICEPAKImportSettings.SupportingFileDescription *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+<a id="ICEPAKImportSettings.SupportingFilePath"></a>
 
-The supporting file description. This is optional.
+### *property* ICEPAKImportSettings.SupportingFilePath *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
 
-<!-- !! processed by numpydoc !! -->
-
-### *property* ICEPAKImportSettings.Format *: [Ansys.Mechanical.DataModel.MechanicalEnums.ExternalData.ImportFormat](../../../../v241/Ansys/Mechanical/DataModel/MechanicalEnums/ExternalData/ImportFormat.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.MechanicalEnums.ExternalData.ImportFormat) | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets the existing corresponding format.
+The supporting file path of the ICEPAK INFO file.
 
 <!-- !! processed by numpydoc !! -->
 

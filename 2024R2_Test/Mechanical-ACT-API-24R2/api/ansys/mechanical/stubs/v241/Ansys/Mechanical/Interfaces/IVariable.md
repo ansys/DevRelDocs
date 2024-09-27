@@ -1,6 +1,6 @@
 # `IVariable`
 
-
+<a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.Interfaces.IVariable"></a>
 
 #### *class* ansys.mechanical.stubs.v241.Ansys.Mechanical.Interfaces.IVariable
 
@@ -17,23 +17,27 @@ Exposes a variable, which is a one dimensional array of real numbers with a unit
 ### Properties
 
 | Name | Description |
-|----------------|--------------------------------------------------------------------------|
-| `Unit`         | The unit of the variable.  For example, this could be ìmmî.              |
-| `QuantityName` | The quantity name of the variable.  For example, this could be ìLengthî. |
+|---------------------------------------------|----------------------------------------------------------------------------|
+| [`QuantityName`](#IVariable.QuantityName)   | The quantity name of the variable.  For example, this could be ‚ÄúLength‚Äù.   |
+| [`Unit`](#IVariable.Unit)                   | The unit of the variable.  For example, this could be ‚Äúmm‚Äù.                |
 
 <a id="property-detail"></a>
 
 ## Property detail
 
-### *property* IVariable.Unit *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
-
-The unit of the variable.  For example, this could be ìmmî.
-
-<!-- !! processed by numpydoc !! -->
+<a id="IVariable.QuantityName"></a>
 
 ### *property* IVariable.QuantityName *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
 
-The quantity name of the variable.  For example, this could be ìLengthî.
+The quantity name of the variable.  For example, this could be ‚ÄúLength‚Äù.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="IVariable.Unit"></a>
+
+### *property* IVariable.Unit *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+
+The unit of the variable.  For example, this could be ‚Äúmm‚Äù.
 
 <!-- !! processed by numpydoc !! -->
 

@@ -1,6 +1,6 @@
 # `SymmetryBoundaryDOFOrientation`
 
-
+<a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.SymmetryBoundaryDOFOrientation"></a>
 
 #### *class* ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.SymmetryBoundaryDOFOrientation
 
@@ -17,20 +17,20 @@ Specifies the SymmetryBoundaryDOFOrientation.
 ### Attributes
 
 | Name |
-| ---------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| [`Manual`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/SymmetryBoundaryDOFOrientation.md#SymmetryBoundaryDOFOrientation.Manual) |
-| [`ChosenBySolver`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/SymmetryBoundaryDOFOrientation.md#SymmetryBoundaryDOFOrientation.ChosenBySolver) |
+| ---------------------------------------------------------------------- |
+| [`ChosenBySolver`](#SymmetryBoundaryDOFOrientation.ChosenBySolver) |
+| [`Manual`](#SymmetryBoundaryDOFOrientation.Manual) |
 
 <a id="attribute-detail"></a>
 
 ## Attribute detail
 
-<a id="SymmetryBoundaryDOFOrientation.Manual"></a>
-
-### SymmetryBoundaryDOFOrientation.Manual *= 0*
-
 <a id="SymmetryBoundaryDOFOrientation.ChosenBySolver"></a>
 
 ### SymmetryBoundaryDOFOrientation.ChosenBySolver *= 1*
+
+<a id="SymmetryBoundaryDOFOrientation.Manual"></a>
+
+### SymmetryBoundaryDOFOrientation.Manual *= 0*
 
 

@@ -1,6 +1,6 @@
 # `ContactType`
 
-
+<a id="ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.ContactType"></a>
 
 #### *class* ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.ContactType
 
@@ -17,7 +17,7 @@ Specifies the ContactType.
 ### Attributes
 
 | Name |
-| ------------------------------------------------------------------- |
+| -------------------------------------------------------------------------------------------------------------------------------------- |
 | [`Bonded`](#ContactType.Bonded) |
 | [`BondedInitial`](#ContactType.BondedInitial) |
 | [`ForcedFrictionalSliding`](#ContactType.ForcedFrictionalSliding) |

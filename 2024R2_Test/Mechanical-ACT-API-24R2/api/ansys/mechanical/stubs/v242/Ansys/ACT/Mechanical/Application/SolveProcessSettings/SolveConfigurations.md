@@ -1,12 +1,12 @@
 # `SolveConfigurations`
 
-
+<a id="ansys.mechanical.stubs.v242.Ansys.ACT.Mechanical.Application.SolveProcessSettings.SolveConfigurations"></a>
 
 #### *class* ansys.mechanical.stubs.v242.Ansys.ACT.Mechanical.Application.SolveProcessSettings.SolveConfigurations
 
 Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
-The application's collection of solve configurations.
+The application’s collection of solve configurations.
 
 <!-- !! processed by numpydoc !! -->
 
@@ -17,19 +17,21 @@ The application's collection of solve configurations.
 ### Methods
 
 | Name | Description |
-|----------|---------------------------------------------------------------|
-| `Add`    | Adds the given SolveConfiguration object to the collection.   |
-| `Remove` | Removes the given SolveConfiguration from the collection.     |
+|--------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------|
+| [`Add`](#SolveConfigurations.Add)       | Adds the given SolveConfiguration object to the collection.   |
+| [`Remove`](#SolveConfigurations.Remove) | Removes the given SolveConfiguration from the collection.     |
 
 ### Properties
 
 | Name | Description |
-|-----------|---------------------------------------------------------|
-| `Count`   | The number of solve configurations in the collection.   |
+|--------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------|
+| [`Count`](#SolveConfigurations.Count)   | The number of solve configurations in the collection.   |
 
 <a id="property-detail"></a>
 
 ## Property detail
+
+<a id="SolveConfigurations.Count"></a>
 
 ### *property* SolveConfigurations.Count *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -41,13 +43,17 @@ The number of solve configurations in the collection.
 
 ## Method detail
 
-### SolveConfigurations.Add(item: [Ansys.ACT.Mechanical.Application.SolveProcessSettings.SolveConfiguration](../../../../../../v241/Ansys/ACT/Mechanical/Application/SolveProcessSettings/SolveConfiguration.md#ansys.mechanical.stubs.v241.Ansys.ACT.Mechanical.Application.SolveProcessSettings.SolveConfiguration))
+<a id="SolveConfigurations.Add"></a>
+
+### SolveConfigurations.Add(item: [Ansys.ACT.Mechanical.Application.SolveProcessSettings.SolveConfiguration](SolveConfiguration.md#ansys.mechanical.stubs.v242.Ansys.ACT.Mechanical.Application.SolveProcessSettings.SolveConfiguration))
 
 Adds the given SolveConfiguration object to the collection.
 
 <!-- !! processed by numpydoc !! -->
 
-### SolveConfigurations.Remove(item: [Ansys.ACT.Mechanical.Application.SolveProcessSettings.SolveConfiguration](../../../../../../v241/Ansys/ACT/Mechanical/Application/SolveProcessSettings/SolveConfiguration.md#ansys.mechanical.stubs.v241.Ansys.ACT.Mechanical.Application.SolveProcessSettings.SolveConfiguration))
+<a id="SolveConfigurations.Remove"></a>
+
+### SolveConfigurations.Remove(item: [Ansys.ACT.Mechanical.Application.SolveProcessSettings.SolveConfiguration](SolveConfiguration.md#ansys.mechanical.stubs.v242.Ansys.ACT.Mechanical.Application.SolveProcessSettings.SolveConfiguration))
 
 Removes the given SolveConfiguration from the collection.
 

@@ -1,6 +1,6 @@
 # `ElementOrientation`
 
-
+<a id="ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.ElementOrientation"></a>
 
 #### *class* ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.ElementOrientation
 
@@ -17,87 +17,67 @@ Defines a ElementOrientation.
 ### Methods
 
 | Name | Description |
-|---------------------------|-----------------------------------------------------------------------------------|
-| `GenerateOrientations`    | Runs the GenerateOrientations acton.                                              |
-| `Delete`                  | Run the Delete action.                                                            |
-| `GetChildren`             | Gets the list of children, filtered by type.                                      |
-| `GetChildren`             | Gets the list of children, filtered by type.                                      |
-| `AddComment`              | Creates a new child Comment.                                                      |
-| `AddFigure`               | Creates a new child Figure.                                                       |
-| `AddImage`                | Creates a new child Image.                                                        |
-| `Activate`                | Activate the current object.                                                      |
-| `CopyTo`                  | Copies all visible properties from this object to another.                        |
-| `Duplicate`               | Creates a copy of the current DataModelObject.                                    |
-| `GroupAllSimilarChildren` | Run the GroupAllSimilarChildren action.                                           |
-| `GroupSimilarObjects`     | Run the GroupSimilarObjects action.                                               |
-| `PropertyByName`          | Get a property by its unique name.                                                |
-| `PropertyByAPIName`       | Get a property by its API name.                                                   |
-| `CreateParameter`         | Creates a new parameter for a Property.                                           |
-| `GetParameter`            | Gets the parameter corresponding to the given property.                           |
-| `RemoveParameter`         | Removes the parameter from the parameter set corresponding to the given property. |
+|--------------------------------------------------------------------------|-----------------------------------------------------------------------------------|
+| [`Activate`](#ElementOrientation.Activate)                               | Activate the current object.                                                      |
+| [`AddComment`](#ElementOrientation.AddComment)                           | Creates a new child Comment.                                                      |
+| [`AddFigure`](#ElementOrientation.AddFigure)                             | Creates a new child Figure.                                                       |
+| [`AddImage`](#ElementOrientation.AddImage)                               | Creates a new child Image.                                                        |
+| [`CopyTo`](#ElementOrientation.CopyTo)                                   | Copies all visible properties from this object to another.                        |
+| [`CreateParameter`](#ElementOrientation.CreateParameter)                 | Creates a new parameter for a Property.                                           |
+| [`Delete`](#ElementOrientation.Delete)                                   | Run the Delete action.                                                            |
+| [`Duplicate`](#ElementOrientation.Duplicate)                             | Creates a copy of the current DataModelObject.                                    |
+| [`GenerateOrientations`](#ElementOrientation.GenerateOrientations)       | Runs the GenerateOrientations acton.                                              |
+| [`GetChildren`](#ElementOrientation.GetChildren)                         | Gets the list of children, filtered by type.                                      |
+| [`GetParameter`](#ElementOrientation.GetParameter)                       | Gets the parameter corresponding to the given property.                           |
+| [`GroupAllSimilarChildren`](#ElementOrientation.GroupAllSimilarChildren) | Run the GroupAllSimilarChildren action.                                           |
+| [`GroupSimilarObjects`](#ElementOrientation.GroupSimilarObjects)         | Run the GroupSimilarObjects action.                                               |
+| [`PropertyByAPIName`](#ElementOrientation.PropertyByAPIName)             | Get a property by its API name.                                                   |
+| [`PropertyByName`](#ElementOrientation.PropertyByName)                   | Get a property by its unique name.                                                |
+| [`RemoveParameter`](#ElementOrientation.RemoveParameter)                 | Removes the parameter from the parameter set corresponding to the given property. |
 
 ### Properties
 
 | Name | Description |
-|-----------------------------|---------------------------------------------------------------|
-| `InternalObject`            | Gets the internal object. For advanced usage only.            |
-| `AxisEdgeOrientation`       | Gets or sets the AxisEdgeOrientation.                         |
-| `AxisSurfaceOrientation`    | Gets or sets the AxisSurfaceOrientation.                      |
-| `OrientationGuideDefinedBy` | Gets or sets the OrientationGuideDefinedBy.                   |
-| `Suppressed`                | Gets or sets the Suppressed.                                  |
-| `CoordinateSystem`          | Gets or sets the CoordinateSystem.                            |
-| `BodyLocation`              | Gets or sets the BodyLocation.                                |
-| `EdgeLocation`              | Gets or sets the EdgeLocation.                                |
-| `SurfaceLocation`           | Gets or sets the SurfaceLocation.                             |
-| `DataModelObjectCategory`   | Gets the current DataModelObject's category.                  |
-| `Children`                  | Gets the list of children.                                    |
-| `Comments`                  | Gets the list of associated comments.                         |
-| `Figures`                   | Gets the list of associated figures.                          |
-| `Images`                    | Gets the list of associated images.                           |
-| `ReadOnly`                  | Gets or sets the ReadOnly.                                    |
-| `InternalObject`            | Gets the internal object. For advanced usage only.            |
-| `Properties`                | Gets the list of properties for this object.                  |
-| `VisibleProperties`         | Gets the list of properties that are visible for this object. |
+|------------------------------------------------------------------------------|---------------------------------------------------------------|
+| [`AxisEdgeOrientation`](#ElementOrientation.AxisEdgeOrientation)             | Gets or sets the AxisEdgeOrientation.                         |
+| [`AxisSurfaceOrientation`](#ElementOrientation.AxisSurfaceOrientation)       | Gets or sets the AxisSurfaceOrientation.                      |
+| [`BodyLocation`](#ElementOrientation.BodyLocation)                           | Gets or sets the BodyLocation.                                |
+| [`Children`](#ElementOrientation.Children)                                   | Gets the list of children.                                    |
+| [`Comments`](#ElementOrientation.Comments)                                   | Gets the list of associated comments.                         |
+| [`CoordinateSystem`](#ElementOrientation.CoordinateSystem)                   | Gets or sets the CoordinateSystem.                            |
+| [`DataModelObjectCategory`](#ElementOrientation.DataModelObjectCategory)     | Gets the current DataModelObject’s category.                  |
+| [`EdgeLocation`](#ElementOrientation.EdgeLocation)                           | Gets or sets the EdgeLocation.                                |
+| [`Figures`](#ElementOrientation.Figures)                                     | Gets the list of associated figures.                          |
+| [`Images`](#ElementOrientation.Images)                                       | Gets the list of associated images.                           |
+| [`InternalObject`](#ElementOrientation.InternalObject)                       | Gets the internal object. For advanced usage only.            |
+| [`OrientationGuideDefinedBy`](#ElementOrientation.OrientationGuideDefinedBy) | Gets or sets the OrientationGuideDefinedBy.                   |
+| [`Properties`](#ElementOrientation.Properties)                               | Gets the list of properties for this object.                  |
+| [`ReadOnly`](#ElementOrientation.ReadOnly)                                   | Gets or sets the ReadOnly.                                    |
+| [`Suppressed`](#ElementOrientation.Suppressed)                               | Gets or sets the Suppressed.                                  |
+| [`SurfaceLocation`](#ElementOrientation.SurfaceLocation)                     | Gets or sets the SurfaceLocation.                             |
+| [`VisibleProperties`](#ElementOrientation.VisibleProperties)                 | Gets the list of properties that are visible for this object. |
 
 <a id="property-detail"></a>
 
 ## Property detail
 
-### *property* ElementOrientation.InternalObject *: Ansys.Common.Interop.DSObjectsAuto.IDSElementOrientationAuto | [None](https://docs.python.org/3/library/constants.html#None)*
+<a id="ElementOrientation.AxisEdgeOrientation"></a>
 
-Gets the internal object. For advanced usage only.
-
-<!-- !! processed by numpydoc !! -->
-
-### *property* ElementOrientation.AxisEdgeOrientation *: [Ansys.Mechanical.DataModel.Enums.ElementOrientationAxisType](../../../../../v241/Ansys/Mechanical/DataModel/Enums/ElementOrientationAxisType.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.ElementOrientationAxisType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ElementOrientation.AxisEdgeOrientation *: [Ansys.Mechanical.DataModel.Enums.ElementOrientationAxisType](../../../Mechanical/DataModel/Enums/ElementOrientationAxisType.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.ElementOrientationAxisType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the AxisEdgeOrientation.
 
 <!-- !! processed by numpydoc !! -->
 
-### *property* ElementOrientation.AxisSurfaceOrientation *: [Ansys.Mechanical.DataModel.Enums.ElementOrientationAxisType](../../../../../v241/Ansys/Mechanical/DataModel/Enums/ElementOrientationAxisType.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.ElementOrientationAxisType) | [None](https://docs.python.org/3/library/constants.html#None)*
+<a id="ElementOrientation.AxisSurfaceOrientation"></a>
+
+### *property* ElementOrientation.AxisSurfaceOrientation *: [Ansys.Mechanical.DataModel.Enums.ElementOrientationAxisType](../../../Mechanical/DataModel/Enums/ElementOrientationAxisType.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.ElementOrientationAxisType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the AxisSurfaceOrientation.
 
 <!-- !! processed by numpydoc !! -->
 
-### *property* ElementOrientation.OrientationGuideDefinedBy *: [Ansys.Mechanical.DataModel.Enums.ElementOrientationGuide](../../../../../v241/Ansys/Mechanical/DataModel/Enums/ElementOrientationGuide.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.ElementOrientationGuide) | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the OrientationGuideDefinedBy.
-
-<!-- !! processed by numpydoc !! -->
-
-### *property* ElementOrientation.Suppressed *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the Suppressed.
-
-<!-- !! processed by numpydoc !! -->
-
-### *property* ElementOrientation.CoordinateSystem *: [Ansys.ACT.Automation.Mechanical.CoordinateSystem](../../../../../v241/Ansys/ACT/Automation/Mechanical/CoordinateSystem.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.CoordinateSystem) | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the CoordinateSystem.
-
-<!-- !! processed by numpydoc !! -->
+<a id="ElementOrientation.BodyLocation"></a>
 
 ### *property* ElementOrientation.BodyLocation *: Ansys.ACT.Interfaces.Common.ISelectionInfo | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -105,23 +85,7 @@ Gets or sets the BodyLocation.
 
 <!-- !! processed by numpydoc !! -->
 
-### *property* ElementOrientation.EdgeLocation *: Ansys.ACT.Interfaces.Common.ISelectionInfo | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the EdgeLocation.
-
-<!-- !! processed by numpydoc !! -->
-
-### *property* ElementOrientation.SurfaceLocation *: Ansys.ACT.Interfaces.Common.ISelectionInfo | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the SurfaceLocation.
-
-<!-- !! processed by numpydoc !! -->
-
-### *property* ElementOrientation.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../v241/Ansys/Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets the current DataModelObject's category.
-
-<!-- !! processed by numpydoc !! -->
+<a id="ElementOrientation.Children"></a>
 
 ### *property* ElementOrientation.Children *: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -129,11 +93,39 @@ Gets the list of children.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="ElementOrientation.Comments"></a>
+
 ### *property* ElementOrientation.Comments *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Comment](../../../../../v241/Ansys/ACT/Automation/Mechanical/Comment.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated comments.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="ElementOrientation.CoordinateSystem"></a>
+
+### *property* ElementOrientation.CoordinateSystem *: [Ansys.ACT.Automation.Mechanical.CoordinateSystem](../../../../../v241/Ansys/ACT/Automation/Mechanical/CoordinateSystem.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.CoordinateSystem) | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the CoordinateSystem.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ElementOrientation.DataModelObjectCategory"></a>
+
+### *property* ElementOrientation.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets the current DataModelObject’s category.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ElementOrientation.EdgeLocation"></a>
+
+### *property* ElementOrientation.EdgeLocation *: Ansys.ACT.Interfaces.Common.ISelectionInfo | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the EdgeLocation.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ElementOrientation.Figures"></a>
 
 ### *property* ElementOrientation.Figures *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Figure](../../../../../v241/Ansys/ACT/Automation/Mechanical/Figure.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -141,11 +133,39 @@ Gets the list of associated figures.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="ElementOrientation.Images"></a>
+
 ### *property* ElementOrientation.Images *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Image](../../../../../v241/Ansys/ACT/Automation/Mechanical/Image.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated images.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="ElementOrientation.InternalObject"></a>
+
+### *property* ElementOrientation.InternalObject *: Ansys.Common.Interop.DSObjectsAuto.IDSElementOrientationAuto | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets the internal object. For advanced usage only.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ElementOrientation.OrientationGuideDefinedBy"></a>
+
+### *property* ElementOrientation.OrientationGuideDefinedBy *: [Ansys.Mechanical.DataModel.Enums.ElementOrientationGuide](../../../Mechanical/DataModel/Enums/ElementOrientationGuide.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.ElementOrientationGuide) | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the OrientationGuideDefinedBy.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ElementOrientation.Properties"></a>
+
+### *property* ElementOrientation.Properties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets the list of properties for this object.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ElementOrientation.ReadOnly"></a>
 
 ### *property* ElementOrientation.ReadOnly *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -153,17 +173,23 @@ Gets or sets the ReadOnly.
 
 <!-- !! processed by numpydoc !! -->
 
-### *property* ElementOrientation.InternalObject *: System.Object | [None](https://docs.python.org/3/library/constants.html#None)*
+<a id="ElementOrientation.Suppressed"></a>
 
-Gets the internal object. For advanced usage only.
+### *property* ElementOrientation.Suppressed *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the Suppressed.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ElementOrientation.SurfaceLocation"></a>
+
+### *property* ElementOrientation.SurfaceLocation *: Ansys.ACT.Interfaces.Common.ISelectionInfo | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the SurfaceLocation.
 
 <!-- !! processed by numpydoc !! -->
 
-### *property* ElementOrientation.Properties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets the list of properties for this object.
-
-<!-- !! processed by numpydoc !! -->
+<a id="ElementOrientation.VisibleProperties"></a>
 
 ### *property* ElementOrientation.VisibleProperties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -175,29 +201,15 @@ Gets the list of properties that are visible for this object.
 
 ## Method detail
 
-### ElementOrientation.GenerateOrientations()
+<a id="ElementOrientation.Activate"></a>
 
-Runs the GenerateOrientations acton.
+### ElementOrientation.Activate()
 
-<!-- !! processed by numpydoc !! -->
-
-### ElementOrientation.Delete()
-
-Run the Delete action.
+Activate the current object.
 
 <!-- !! processed by numpydoc !! -->
 
-### ElementOrientation.GetChildren(recurses: System.Boolean, children: System.Collections.Generic.IList[ChildrenType])
-
-Gets the list of children, filtered by type.
-
-<!-- !! processed by numpydoc !! -->
-
-### ElementOrientation.GetChildren(category: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../v241/Ansys/Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory), recurses: System.Boolean, children: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject])
-
-Gets the list of children, filtered by type.
-
-<!-- !! processed by numpydoc !! -->
+<a id="ElementOrientation.AddComment"></a>
 
 ### ElementOrientation.AddComment()
 
@@ -205,11 +217,15 @@ Creates a new child Comment.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="ElementOrientation.AddFigure"></a>
+
 ### ElementOrientation.AddFigure()
 
 Creates a new child Figure.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="ElementOrientation.AddImage"></a>
 
 ### ElementOrientation.AddImage(filePath: System.String)
 
@@ -221,11 +237,7 @@ if not, the image will be a screen capture of the Geometry window.
 
 <!-- !! processed by numpydoc !! -->
 
-### ElementOrientation.Activate()
-
-Activate the current object.
-
-<!-- !! processed by numpydoc !! -->
+<a id="ElementOrientation.CopyTo"></a>
 
 ### ElementOrientation.CopyTo(other: Ansys.ACT.Automation.Mechanical.DataModelObject)
 
@@ -233,11 +245,55 @@ Copies all visible properties from this object to another.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="ElementOrientation.CreateParameter"></a>
+
+### ElementOrientation.CreateParameter(propName: System.String)
+
+Creates a new parameter for a Property.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ElementOrientation.Delete"></a>
+
+### ElementOrientation.Delete()
+
+Run the Delete action.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ElementOrientation.Duplicate"></a>
+
 ### ElementOrientation.Duplicate()
 
 Creates a copy of the current DataModelObject.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="ElementOrientation.GenerateOrientations"></a>
+
+### ElementOrientation.GenerateOrientations()
+
+Runs the GenerateOrientations acton.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ElementOrientation.GetChildren"></a>
+
+### ElementOrientation.GetChildren(recurses: System.Boolean, children: System.Collections.Generic.IList[ChildrenType])
+
+Gets the list of children, filtered by type.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ElementOrientation.GetParameter"></a>
+
+### ElementOrientation.GetParameter(propName: System.String)
+
+Gets the parameter corresponding to the given property.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ElementOrientation.GroupAllSimilarChildren"></a>
 
 ### ElementOrientation.GroupAllSimilarChildren()
 
@@ -245,17 +301,15 @@ Run the GroupAllSimilarChildren action.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="ElementOrientation.GroupSimilarObjects"></a>
+
 ### ElementOrientation.GroupSimilarObjects()
 
 Run the GroupSimilarObjects action.
 
 <!-- !! processed by numpydoc !! -->
 
-### ElementOrientation.PropertyByName(name: System.String)
-
-Get a property by its unique name.
-
-<!-- !! processed by numpydoc !! -->
+<a id="ElementOrientation.PropertyByAPIName"></a>
 
 ### ElementOrientation.PropertyByAPIName(name: System.String)
 
@@ -266,17 +320,15 @@ If multiple properties have the same API Name, only the first property with that
 
 <!-- !! processed by numpydoc !! -->
 
-### ElementOrientation.CreateParameter(propName: System.String)
+<a id="ElementOrientation.PropertyByName"></a>
 
-Creates a new parameter for a Property.
+### ElementOrientation.PropertyByName(name: System.String)
 
-<!-- !! processed by numpydoc !! -->
-
-### ElementOrientation.GetParameter(propName: System.String)
-
-Gets the parameter corresponding to the given property.
+Get a property by its unique name.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="ElementOrientation.RemoveParameter"></a>
 
 ### ElementOrientation.RemoveParameter(propName: System.String)
 

@@ -1,6 +1,6 @@
 # `DSBearingAdapter`
 
-
+<a id="ansys.mechanical.stubs.v242.Ansys.ACT.Mechanical.Fields.Adapters.DSBearingAdapter"></a>
 
 #### *class* ansys.mechanical.stubs.v242.Ansys.ACT.Mechanical.Fields.Adapters.DSBearingAdapter
 
@@ -17,18 +17,20 @@ Adapter dedicated to IDSBearingAuto objects.
 ### Methods
 
 | Name | Description |
-|-------------------------------|-------------------------------------|
-| `ChangeFieldDefinitionType`   | ChangeFieldDefinitionType method.   |
+|-------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------|
+| [`ChangeFieldDefinitionType`](#DSBearingAdapter.ChangeFieldDefinitionType)   | ChangeFieldDefinitionType method.   |
 
 ### Properties
 
 | Name | Description |
-|-------------------|--------------------------------------------|
-| `FieldProvider`   | Gets the wrapped object from Mechanical.   |
+|-------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------|
+| [`FieldProvider`](#DSBearingAdapter.FieldProvider)   | Gets the wrapped object from Mechanical.   |
 
 <a id="property-detail"></a>
 
 ## Property detail
+
+<a id="DSBearingAdapter.FieldProvider"></a>
 
 ### *property* DSBearingAdapter.FieldProvider *: Ansys.Common.Interop.DSObjects.IDSBCInformation | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -39,6 +41,8 @@ Gets the wrapped object from Mechanical.
 <a id="method-detail"></a>
 
 ## Method detail
+
+<a id="DSBearingAdapter.ChangeFieldDefinitionType"></a>
 
 ### DSBearingAdapter.ChangeFieldDefinitionType(componentType: Ansys.Common.Interop.CAERepObjects.AnsBCLVType, newType: Ansys.Common.Interop.AnsMaterial.kEDDataType)
 

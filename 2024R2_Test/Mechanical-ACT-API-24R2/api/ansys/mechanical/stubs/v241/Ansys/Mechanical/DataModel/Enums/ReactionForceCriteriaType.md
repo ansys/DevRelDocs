@@ -1,6 +1,6 @@
 # `ReactionForceCriteriaType`
 
-
+<a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.ReactionForceCriteriaType"></a>
 
 #### *class* ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.ReactionForceCriteriaType
 
@@ -17,9 +17,9 @@ Specifies the ReactionForceCriteriaType.
 ### Attributes
 
 | Name |
-| ---------------------------------------------------------------------------------------------------------------------------------------------------- |
-| [`AbsoluteMaximum`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/ReactionForceCriteriaType.md#ReactionForceCriteriaType.AbsoluteMaximum) |
-| [`Sum`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/ReactionForceCriteriaType.md#ReactionForceCriteriaType.Sum) |
+| ------------------------------------------------------------------- |
+| [`AbsoluteMaximum`](#ReactionForceCriteriaType.AbsoluteMaximum) |
+| [`Sum`](#ReactionForceCriteriaType.Sum) |
 
 <a id="attribute-detail"></a>
 

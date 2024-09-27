@@ -1,6 +1,6 @@
 # `PassFailResult`
 
-
+<a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.PassFailResult"></a>
 
 #### *class* ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.PassFailResult
 
@@ -17,12 +17,12 @@ Specifies the PassFailResult.
 ### Attributes
 
 | Name |
-| ---------------------------------------------------------------------------------------------------------------------- |
-| [`FailedAbove`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/PassFailResult.md#PassFailResult.FailedAbove) |
-| [`FailedBelow`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/PassFailResult.md#PassFailResult.FailedBelow) |
-| [`PassedAbove`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/PassFailResult.md#PassFailResult.PassedAbove) |
-| [`PassedBelow`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/PassFailResult.md#PassFailResult.PassedBelow) |
-| [`Unknown`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/PassFailResult.md#PassFailResult.Unknown) |
+| ------------------------------------------------ |
+| [`FailedAbove`](#PassFailResult.FailedAbove) |
+| [`FailedBelow`](#PassFailResult.FailedBelow) |
+| [`PassedAbove`](#PassFailResult.PassedAbove) |
+| [`PassedBelow`](#PassFailResult.PassedBelow) |
+| [`Unknown`](#PassFailResult.Unknown) |
 
 <a id="attribute-detail"></a>
 

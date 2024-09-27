@@ -1,6 +1,6 @@
 # `ExternalLoadDisplayComponentType`
 
-
+<a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.ExternalLoadDisplayComponentType"></a>
 
 #### *class* ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.ExternalLoadDisplayComponentType
 
@@ -17,19 +17,19 @@ Specifies the ExternalLoadDisplayComponentType.
 ### Attributes
 
 | Name |
-| -------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| [`All`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/ExternalLoadDisplayComponentType.md#ExternalLoadDisplayComponentType.All) |
-| [`Total`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/ExternalLoadDisplayComponentType.md#ExternalLoadDisplayComponentType.Total) |
-| [`Undefined`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/ExternalLoadDisplayComponentType.md#ExternalLoadDisplayComponentType.Undefined) |
-| [`XComponent`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/ExternalLoadDisplayComponentType.md#ExternalLoadDisplayComponentType.XComponent) |
-| [`XXComponent`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/ExternalLoadDisplayComponentType.md#ExternalLoadDisplayComponentType.XXComponent) |
-| [`XYComponent`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/ExternalLoadDisplayComponentType.md#ExternalLoadDisplayComponentType.XYComponent) |
-| [`XZComponent`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/ExternalLoadDisplayComponentType.md#ExternalLoadDisplayComponentType.XZComponent) |
-| [`YComponent`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/ExternalLoadDisplayComponentType.md#ExternalLoadDisplayComponentType.YComponent) |
-| [`YYComponent`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/ExternalLoadDisplayComponentType.md#ExternalLoadDisplayComponentType.YYComponent) |
-| [`YZComponent`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/ExternalLoadDisplayComponentType.md#ExternalLoadDisplayComponentType.YZComponent) |
-| [`ZComponent`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/ExternalLoadDisplayComponentType.md#ExternalLoadDisplayComponentType.ZComponent) |
-| [`ZZComponent`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/ExternalLoadDisplayComponentType.md#ExternalLoadDisplayComponentType.ZZComponent) |
+| ---------------------------------------------------------------- |
+| [`All`](#ExternalLoadDisplayComponentType.All) |
+| [`Total`](#ExternalLoadDisplayComponentType.Total) |
+| [`Undefined`](#ExternalLoadDisplayComponentType.Undefined) |
+| [`XComponent`](#ExternalLoadDisplayComponentType.XComponent) |
+| [`XXComponent`](#ExternalLoadDisplayComponentType.XXComponent) |
+| [`XYComponent`](#ExternalLoadDisplayComponentType.XYComponent) |
+| [`XZComponent`](#ExternalLoadDisplayComponentType.XZComponent) |
+| [`YComponent`](#ExternalLoadDisplayComponentType.YComponent) |
+| [`YYComponent`](#ExternalLoadDisplayComponentType.YYComponent) |
+| [`YZComponent`](#ExternalLoadDisplayComponentType.YZComponent) |
+| [`ZComponent`](#ExternalLoadDisplayComponentType.ZComponent) |
+| [`ZZComponent`](#ExternalLoadDisplayComponentType.ZZComponent) |
 
 <a id="attribute-detail"></a>
 

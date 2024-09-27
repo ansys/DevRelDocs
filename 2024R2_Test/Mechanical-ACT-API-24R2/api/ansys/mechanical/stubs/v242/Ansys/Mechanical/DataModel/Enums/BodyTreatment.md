@@ -1,6 +1,6 @@
 # `BodyTreatment`
 
-
+<a id="ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.BodyTreatment"></a>
 
 #### *class* ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.BodyTreatment
 
@@ -17,7 +17,7 @@ Specifies the BodyTreatment.
 ### Attributes
 
 | Name |
-| --------------------------------------------------------- |
+| ------------------------------------------------------------------------------------------------------------------------------ |
 | [`ConstructionBody`](#BodyTreatment.ConstructionBody) |
 | [`None_`](#BodyTreatment.None_) |
 

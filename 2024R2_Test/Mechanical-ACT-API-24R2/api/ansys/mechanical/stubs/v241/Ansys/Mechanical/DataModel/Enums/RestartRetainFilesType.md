@@ -1,6 +1,6 @@
 # `RestartRetainFilesType`
 
-
+<a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.RestartRetainFilesType"></a>
 
 #### *class* ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.RestartRetainFilesType
 
@@ -17,9 +17,9 @@ Specifies the RestartRetainFilesType.
 ### Attributes
 
 | Name |
-| -------------------------------------------------------------------------------------------------------------------- |
-| [`No`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/RestartRetainFilesType.md#RestartRetainFilesType.No) |
-| [`Yes`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/RestartRetainFilesType.md#RestartRetainFilesType.Yes) |
+| -------------------------------------- |
+| [`No`](#RestartRetainFilesType.No) |
+| [`Yes`](#RestartRetainFilesType.Yes) |
 
 <a id="attribute-detail"></a>
 

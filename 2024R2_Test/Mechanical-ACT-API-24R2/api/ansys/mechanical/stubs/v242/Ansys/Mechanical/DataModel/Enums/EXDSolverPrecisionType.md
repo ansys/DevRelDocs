@@ -1,6 +1,6 @@
 # `EXDSolverPrecisionType`
 
-
+<a id="ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.EXDSolverPrecisionType"></a>
 
 #### *class* ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.EXDSolverPrecisionType
 
@@ -15,20 +15,20 @@ Bases: [`enum.Enum`](https://docs.python.org/3/library/enum.html#enum.Enum)
 ### Attributes
 
 | Name |
-| ---------------------------------------------- |
-| [`Single`](#EXDSolverPrecisionType.Single) |
+| ---------------------------------------------------------------------------------------------------------------------------- |
 | [`Double`](#EXDSolverPrecisionType.Double) |
+| [`Single`](#EXDSolverPrecisionType.Single) |
 
 <a id="attribute-detail"></a>
 
 ## Attribute detail
 
-<a id="EXDSolverPrecisionType.Single"></a>
-
-### EXDSolverPrecisionType.Single *= 0*
-
 <a id="EXDSolverPrecisionType.Double"></a>
 
 ### EXDSolverPrecisionType.Double *= 1*
+
+<a id="EXDSolverPrecisionType.Single"></a>
+
+### EXDSolverPrecisionType.Single *= 0*
 
 

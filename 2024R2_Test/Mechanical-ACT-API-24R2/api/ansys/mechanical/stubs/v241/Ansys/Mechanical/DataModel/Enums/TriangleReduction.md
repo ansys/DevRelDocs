@@ -1,6 +1,6 @@
 # `TriangleReduction`
 
-
+<a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.TriangleReduction"></a>
 
 #### *class* ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.TriangleReduction
 
@@ -19,10 +19,10 @@ Derive from this class to define new enumerations.
 ### Attributes
 
 | Name |
-| ---------------------------------------------------------------------------------------------------------------------------- |
-| [`Aggressive`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/TriangleReduction.md#TriangleReduction.Aggressive) |
-| [`Conservative`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/TriangleReduction.md#TriangleReduction.Conservative) |
-| [`None_`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/TriangleReduction.md#TriangleReduction.None_) |
+| --------------------------------------------------- |
+| [`Aggressive`](#TriangleReduction.Aggressive) |
+| [`Conservative`](#TriangleReduction.Conservative) |
+| [`None_`](#TriangleReduction.None_) |
 
 <a id="attribute-detail"></a>
 

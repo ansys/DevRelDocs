@@ -1,6 +1,6 @@
 # `FluidSolidInterface`
 
-
+<a id="ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.BoundaryConditions.FluidSolidInterface"></a>
 
 #### *class* ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.BoundaryConditions.FluidSolidInterface
 
@@ -17,90 +17,48 @@ Defines a FluidSolidInterface.
 ### Methods
 
 | Name | Description |
-|-----------------------------|-----------------------------------------------------------------------------------|
-| `PromoteToNamedSelection`   | Run the PromoteToNamedSelection action.                                           |
-| `Delete`                    | Run the Delete action.                                                            |
-| `GetChildren`               | Gets the list of children, filtered by type.                                      |
-| `GetChildren`               | Gets the list of children, filtered by type.                                      |
-| `AddComment`                | Creates a new child Comment.                                                      |
-| `AddFigure`                 | Creates a new child Figure.                                                       |
-| `AddImage`                  | Creates a new child Image.                                                        |
-| `Activate`                  | Activate the current object.                                                      |
-| `CopyTo`                    | Copies all visible properties from this object to another.                        |
-| `Duplicate`                 | Creates a copy of the current DataModelObject.                                    |
-| `GroupAllSimilarChildren`   | Run the GroupAllSimilarChildren action.                                           |
-| `GroupSimilarObjects`       | Run the GroupSimilarObjects action.                                               |
-| `PropertyByName`            | Get a property by its unique name.                                                |
-| `PropertyByAPIName`         | Get a property by its API name.                                                   |
-| `CreateParameter`           | Creates a new parameter for a Property.                                           |
-| `GetParameter`              | Gets the parameter corresponding to the given property.                           |
-| `RemoveParameter`           | Removes the parameter from the parameter set corresponding to the given property. |
+|---------------------------------------------------------------------------|-----------------------------------------------------------------------------------|
+| [`Activate`](#FluidSolidInterface.Activate)                               | Activate the current object.                                                      |
+| [`AddComment`](#FluidSolidInterface.AddComment)                           | Creates a new child Comment.                                                      |
+| [`AddFigure`](#FluidSolidInterface.AddFigure)                             | Creates a new child Figure.                                                       |
+| [`AddImage`](#FluidSolidInterface.AddImage)                               | Creates a new child Image.                                                        |
+| [`CopyTo`](#FluidSolidInterface.CopyTo)                                   | Copies all visible properties from this object to another.                        |
+| [`CreateParameter`](#FluidSolidInterface.CreateParameter)                 | Creates a new parameter for a Property.                                           |
+| [`Delete`](#FluidSolidInterface.Delete)                                   | Run the Delete action.                                                            |
+| [`Duplicate`](#FluidSolidInterface.Duplicate)                             | Creates a copy of the current DataModelObject.                                    |
+| [`GetChildren`](#FluidSolidInterface.GetChildren)                         | Gets the list of children, filtered by type.                                      |
+| [`GetParameter`](#FluidSolidInterface.GetParameter)                       | Gets the parameter corresponding to the given property.                           |
+| [`GroupAllSimilarChildren`](#FluidSolidInterface.GroupAllSimilarChildren) | Run the GroupAllSimilarChildren action.                                           |
+| [`GroupSimilarObjects`](#FluidSolidInterface.GroupSimilarObjects)         | Run the GroupSimilarObjects action.                                               |
+| [`PromoteToNamedSelection`](#FluidSolidInterface.PromoteToNamedSelection) | Run the PromoteToNamedSelection action.                                           |
+| [`PropertyByAPIName`](#FluidSolidInterface.PropertyByAPIName)             | Get a property by its API name.                                                   |
+| [`PropertyByName`](#FluidSolidInterface.PropertyByName)                   | Get a property by its unique name.                                                |
+| [`RemoveParameter`](#FluidSolidInterface.RemoveParameter)                 | Removes the parameter from the parameter set corresponding to the given property. |
 
 ### Properties
 
 | Name | Description |
-|---------------------------|---------------------------------------------------------------|
-| `InternalObject`          | Gets the internal object. For advanced usage only.            |
-| `InterfaceNumber`         | Gets or sets the InterfaceNumber.                             |
-| `ExportResults`           | Gets or sets the ExportResults.                               |
-| `Location`                | Gets or sets the Location.                                    |
-| `DataModelObjectCategory` | Gets the current DataModelObject's category.                  |
-| `Suppressed`              | Gets or sets the Suppressed.                                  |
-| `SharedRefBody`           | Gets or sets the SharedRefBody.                               |
-| `Children`                | Gets the list of children.                                    |
-| `Comments`                | Gets the list of associated comments.                         |
-| `Figures`                 | Gets the list of associated figures.                          |
-| `Images`                  | Gets the list of associated images.                           |
-| `ReadOnly`                | Gets or sets the ReadOnly.                                    |
-| `InternalObject`          | Gets the internal object. For advanced usage only.            |
-| `Properties`              | Gets the list of properties for this object.                  |
-| `VisibleProperties`       | Gets the list of properties that are visible for this object. |
+|---------------------------------------------------------------------------|---------------------------------------------------------------|
+| [`Children`](#FluidSolidInterface.Children)                               | Gets the list of children.                                    |
+| [`Comments`](#FluidSolidInterface.Comments)                               | Gets the list of associated comments.                         |
+| [`DataModelObjectCategory`](#FluidSolidInterface.DataModelObjectCategory) | Gets the current DataModelObject’s category.                  |
+| [`ExportResults`](#FluidSolidInterface.ExportResults)                     | Gets or sets the ExportResults.                               |
+| [`Figures`](#FluidSolidInterface.Figures)                                 | Gets the list of associated figures.                          |
+| [`Images`](#FluidSolidInterface.Images)                                   | Gets the list of associated images.                           |
+| [`InterfaceNumber`](#FluidSolidInterface.InterfaceNumber)                 | Gets or sets the InterfaceNumber.                             |
+| [`InternalObject`](#FluidSolidInterface.InternalObject)                   | Gets the internal object. For advanced usage only.            |
+| [`Location`](#FluidSolidInterface.Location)                               | Gets or sets the Location.                                    |
+| [`Properties`](#FluidSolidInterface.Properties)                           | Gets the list of properties for this object.                  |
+| [`ReadOnly`](#FluidSolidInterface.ReadOnly)                               | Gets or sets the ReadOnly.                                    |
+| [`SharedRefBody`](#FluidSolidInterface.SharedRefBody)                     | Gets or sets the SharedRefBody.                               |
+| [`Suppressed`](#FluidSolidInterface.Suppressed)                           | Gets or sets the Suppressed.                                  |
+| [`VisibleProperties`](#FluidSolidInterface.VisibleProperties)             | Gets the list of properties that are visible for this object. |
 
 <a id="property-detail"></a>
 
 ## Property detail
 
-### *property* FluidSolidInterface.InternalObject *: Ansys.Common.Interop.DSObjectsAuto.IDSLoadAuto | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets the internal object. For advanced usage only.
-
-<!-- !! processed by numpydoc !! -->
-
-### *property* FluidSolidInterface.InterfaceNumber *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the InterfaceNumber.
-
-<!-- !! processed by numpydoc !! -->
-
-### *property* FluidSolidInterface.ExportResults *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the ExportResults.
-
-<!-- !! processed by numpydoc !! -->
-
-### *property* FluidSolidInterface.Location *: Ansys.ACT.Interfaces.Common.ISelectionInfo | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the Location.
-
-<!-- !! processed by numpydoc !! -->
-
-### *property* FluidSolidInterface.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../../v241/Ansys/Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets the current DataModelObject's category.
-
-<!-- !! processed by numpydoc !! -->
-
-### *property* FluidSolidInterface.Suppressed *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the Suppressed.
-
-<!-- !! processed by numpydoc !! -->
-
-### *property* FluidSolidInterface.SharedRefBody *: [Ansys.ACT.Automation.Mechanical.Body](../../../../../../v241/Ansys/ACT/Automation/Mechanical/Body.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Body) | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the SharedRefBody.
-
-<!-- !! processed by numpydoc !! -->
+<a id="FluidSolidInterface.Children"></a>
 
 ### *property* FluidSolidInterface.Children *: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -108,11 +66,31 @@ Gets the list of children.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="FluidSolidInterface.Comments"></a>
+
 ### *property* FluidSolidInterface.Comments *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Comment](../../../../../../v241/Ansys/ACT/Automation/Mechanical/Comment.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated comments.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="FluidSolidInterface.DataModelObjectCategory"></a>
+
+### *property* FluidSolidInterface.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets the current DataModelObject’s category.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="FluidSolidInterface.ExportResults"></a>
+
+### *property* FluidSolidInterface.ExportResults *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the ExportResults.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="FluidSolidInterface.Figures"></a>
 
 ### *property* FluidSolidInterface.Figures *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Figure](../../../../../../v241/Ansys/ACT/Automation/Mechanical/Figure.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -120,11 +98,47 @@ Gets the list of associated figures.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="FluidSolidInterface.Images"></a>
+
 ### *property* FluidSolidInterface.Images *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Image](../../../../../../v241/Ansys/ACT/Automation/Mechanical/Image.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated images.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="FluidSolidInterface.InterfaceNumber"></a>
+
+### *property* FluidSolidInterface.InterfaceNumber *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the InterfaceNumber.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="FluidSolidInterface.InternalObject"></a>
+
+### *property* FluidSolidInterface.InternalObject *: Ansys.Common.Interop.DSObjectsAuto.IDSLoadAuto | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets the internal object. For advanced usage only.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="FluidSolidInterface.Location"></a>
+
+### *property* FluidSolidInterface.Location *: Ansys.ACT.Interfaces.Common.ISelectionInfo | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the Location.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="FluidSolidInterface.Properties"></a>
+
+### *property* FluidSolidInterface.Properties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets the list of properties for this object.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="FluidSolidInterface.ReadOnly"></a>
 
 ### *property* FluidSolidInterface.ReadOnly *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -132,17 +146,23 @@ Gets or sets the ReadOnly.
 
 <!-- !! processed by numpydoc !! -->
 
-### *property* FluidSolidInterface.InternalObject *: System.Object | [None](https://docs.python.org/3/library/constants.html#None)*
+<a id="FluidSolidInterface.SharedRefBody"></a>
 
-Gets the internal object. For advanced usage only.
+### *property* FluidSolidInterface.SharedRefBody *: [Ansys.ACT.Automation.Mechanical.Body](../../../../../../v241/Ansys/ACT/Automation/Mechanical/Body.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Body) | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the SharedRefBody.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="FluidSolidInterface.Suppressed"></a>
+
+### *property* FluidSolidInterface.Suppressed *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the Suppressed.
 
 <!-- !! processed by numpydoc !! -->
 
-### *property* FluidSolidInterface.Properties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets the list of properties for this object.
-
-<!-- !! processed by numpydoc !! -->
+<a id="FluidSolidInterface.VisibleProperties"></a>
 
 ### *property* FluidSolidInterface.VisibleProperties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -154,29 +174,15 @@ Gets the list of properties that are visible for this object.
 
 ## Method detail
 
-### FluidSolidInterface.PromoteToNamedSelection()
+<a id="FluidSolidInterface.Activate"></a>
 
-Run the PromoteToNamedSelection action.
+### FluidSolidInterface.Activate()
 
-<!-- !! processed by numpydoc !! -->
-
-### FluidSolidInterface.Delete()
-
-Run the Delete action.
+Activate the current object.
 
 <!-- !! processed by numpydoc !! -->
 
-### FluidSolidInterface.GetChildren(recurses: System.Boolean, children: System.Collections.Generic.IList[ChildrenType])
-
-Gets the list of children, filtered by type.
-
-<!-- !! processed by numpydoc !! -->
-
-### FluidSolidInterface.GetChildren(category: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../../v241/Ansys/Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory), recurses: System.Boolean, children: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject])
-
-Gets the list of children, filtered by type.
-
-<!-- !! processed by numpydoc !! -->
+<a id="FluidSolidInterface.AddComment"></a>
 
 ### FluidSolidInterface.AddComment()
 
@@ -184,11 +190,15 @@ Creates a new child Comment.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="FluidSolidInterface.AddFigure"></a>
+
 ### FluidSolidInterface.AddFigure()
 
 Creates a new child Figure.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="FluidSolidInterface.AddImage"></a>
 
 ### FluidSolidInterface.AddImage(filePath: System.String)
 
@@ -200,11 +210,7 @@ if not, the image will be a screen capture of the Geometry window.
 
 <!-- !! processed by numpydoc !! -->
 
-### FluidSolidInterface.Activate()
-
-Activate the current object.
-
-<!-- !! processed by numpydoc !! -->
+<a id="FluidSolidInterface.CopyTo"></a>
 
 ### FluidSolidInterface.CopyTo(other: Ansys.ACT.Automation.Mechanical.DataModelObject)
 
@@ -212,11 +218,47 @@ Copies all visible properties from this object to another.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="FluidSolidInterface.CreateParameter"></a>
+
+### FluidSolidInterface.CreateParameter(propName: System.String)
+
+Creates a new parameter for a Property.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="FluidSolidInterface.Delete"></a>
+
+### FluidSolidInterface.Delete()
+
+Run the Delete action.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="FluidSolidInterface.Duplicate"></a>
+
 ### FluidSolidInterface.Duplicate()
 
 Creates a copy of the current DataModelObject.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="FluidSolidInterface.GetChildren"></a>
+
+### FluidSolidInterface.GetChildren(recurses: System.Boolean, children: System.Collections.Generic.IList[ChildrenType])
+
+Gets the list of children, filtered by type.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="FluidSolidInterface.GetParameter"></a>
+
+### FluidSolidInterface.GetParameter(propName: System.String)
+
+Gets the parameter corresponding to the given property.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="FluidSolidInterface.GroupAllSimilarChildren"></a>
 
 ### FluidSolidInterface.GroupAllSimilarChildren()
 
@@ -224,17 +266,23 @@ Run the GroupAllSimilarChildren action.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="FluidSolidInterface.GroupSimilarObjects"></a>
+
 ### FluidSolidInterface.GroupSimilarObjects()
 
 Run the GroupSimilarObjects action.
 
 <!-- !! processed by numpydoc !! -->
 
-### FluidSolidInterface.PropertyByName(name: System.String)
+<a id="FluidSolidInterface.PromoteToNamedSelection"></a>
 
-Get a property by its unique name.
+### FluidSolidInterface.PromoteToNamedSelection()
+
+Run the PromoteToNamedSelection action.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="FluidSolidInterface.PropertyByAPIName"></a>
 
 ### FluidSolidInterface.PropertyByAPIName(name: System.String)
 
@@ -245,17 +293,15 @@ If multiple properties have the same API Name, only the first property with that
 
 <!-- !! processed by numpydoc !! -->
 
-### FluidSolidInterface.CreateParameter(propName: System.String)
+<a id="FluidSolidInterface.PropertyByName"></a>
 
-Creates a new parameter for a Property.
+### FluidSolidInterface.PropertyByName(name: System.String)
 
-<!-- !! processed by numpydoc !! -->
-
-### FluidSolidInterface.GetParameter(propName: System.String)
-
-Gets the parameter corresponding to the given property.
+Get a property by its unique name.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="FluidSolidInterface.RemoveParameter"></a>
 
 ### FluidSolidInterface.RemoveParameter(propName: System.String)
 

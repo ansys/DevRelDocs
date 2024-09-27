@@ -1,6 +1,6 @@
 # `ExclusionParticipantType`
 
-
+<a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.ExclusionParticipantType"></a>
 
 #### *class* ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.ExclusionParticipantType
 
@@ -17,9 +17,9 @@ Specifies the ExclusionParticipantType.
 ### Attributes
 
 | Name |
-| ---------------------------------------------------------------------------------------------------------------------------------------------------- |
-| [`ExcludeExclusion`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/ExclusionParticipantType.md#ExclusionParticipantType.ExcludeExclusion) |
-| [`IncludeExclusion`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/ExclusionParticipantType.md#ExclusionParticipantType.IncludeExclusion) |
+| -------------------------------------------------------------------- |
+| [`ExcludeExclusion`](#ExclusionParticipantType.ExcludeExclusion) |
+| [`IncludeExclusion`](#ExclusionParticipantType.IncludeExclusion) |
 
 <a id="attribute-detail"></a>
 

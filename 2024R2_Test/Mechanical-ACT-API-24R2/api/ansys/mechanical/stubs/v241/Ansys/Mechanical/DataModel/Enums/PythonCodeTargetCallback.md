@@ -1,6 +1,6 @@
 # `PythonCodeTargetCallback`
 
-
+<a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.PythonCodeTargetCallback"></a>
 
 #### *class* ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.PythonCodeTargetCallback
 
@@ -17,18 +17,18 @@ Specifies the PythonCodeTargetCallback.
 ### Attributes
 
 | Name |
-| -------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| [`GetBodyCommands`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/PythonCodeTargetCallback.md#PythonCodeTargetCallback.GetBodyCommands) |
-| [`GetContactCommands`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/PythonCodeTargetCallback.md#PythonCodeTargetCallback.GetContactCommands) |
-| [`GetPostCommands`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/PythonCodeTargetCallback.md#PythonCodeTargetCallback.GetPostCommands) |
-| [`GetSolveCommands`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/PythonCodeTargetCallback.md#PythonCodeTargetCallback.GetSolveCommands) |
-| [`OnAfterGeometryChanged`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/PythonCodeTargetCallback.md#PythonCodeTargetCallback.OnAfterGeometryChanged) |
-| [`OnAfterMeshGenerated`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/PythonCodeTargetCallback.md#PythonCodeTargetCallback.OnAfterMeshGenerated) |
-| [`OnAfterObjectChanged`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/PythonCodeTargetCallback.md#PythonCodeTargetCallback.OnAfterObjectChanged) |
-| [`OnAfterPost`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/PythonCodeTargetCallback.md#PythonCodeTargetCallback.OnAfterPost) |
-| [`OnAfterSolve`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/PythonCodeTargetCallback.md#PythonCodeTargetCallback.OnAfterSolve) |
-| [`OnBeforeSolve`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/PythonCodeTargetCallback.md#PythonCodeTargetCallback.OnBeforeSolve) |
-| [`Unknown`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/PythonCodeTargetCallback.md#PythonCodeTargetCallback.Unknown) |
+| ------------------------------------------------------------------------------ |
+| [`GetBodyCommands`](#PythonCodeTargetCallback.GetBodyCommands) |
+| [`GetContactCommands`](#PythonCodeTargetCallback.GetContactCommands) |
+| [`GetPostCommands`](#PythonCodeTargetCallback.GetPostCommands) |
+| [`GetSolveCommands`](#PythonCodeTargetCallback.GetSolveCommands) |
+| [`OnAfterGeometryChanged`](#PythonCodeTargetCallback.OnAfterGeometryChanged) |
+| [`OnAfterMeshGenerated`](#PythonCodeTargetCallback.OnAfterMeshGenerated) |
+| [`OnAfterObjectChanged`](#PythonCodeTargetCallback.OnAfterObjectChanged) |
+| [`OnAfterPost`](#PythonCodeTargetCallback.OnAfterPost) |
+| [`OnAfterSolve`](#PythonCodeTargetCallback.OnAfterSolve) |
+| [`OnBeforeSolve`](#PythonCodeTargetCallback.OnBeforeSolve) |
+| [`Unknown`](#PythonCodeTargetCallback.Unknown) |
 
 <a id="attribute-detail"></a>
 

@@ -1,6 +1,6 @@
 # `ShearGasketTotalClosure`
 
-
+<a id="ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Results.GasketResults.ShearGasketTotalClosure"></a>
 
 #### *class* ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Results.GasketResults.ShearGasketTotalClosure
 
@@ -17,191 +17,149 @@ Defines a ShearGasketTotalClosure.
 ### Methods
 
 | Name | Description |
-|---------------------------|-----------------------------------------------------------------------------------|
-| `ClearGeneratedData`      | Run the ClearGeneratedData action.                                                |
-| `EvaluateAllResults`      | Run the EvaluateAllResults action.                                                |
-| `FetchRemoteResults`      | Run the FetchRemoteResult action.                                                 |
-| `ExportToTextFile`        | Run the ExportToTextFile action.                                                  |
-| `ExportAnimation`         | Run the ExportAnimation action.                                                   |
-| `DuplicateWithoutResults` | Run the DuplicateWithoutResults action.                                           |
-| `CreateResultsAtAllSets`  | Creates results at all sets for results under a solution.                         |
-| `PromoteToNamedSelection` | Run the PromoteToNamedSelection action.                                           |
-| `CreateParameter`         | CreateParameter method.                                                           |
-| `AddAlert`                | Creates a new Alert                                                               |
-| `AddConvergence`          | Creates a new Convergence                                                         |
-| `RenameBasedOnDefinition` | Run the RenameBasedOnDefinition action.                                           |
-| `Delete`                  | Run the Delete action.                                                            |
-| `GetChildren`             | Gets the list of children, filtered by type.                                      |
-| `GetChildren`             | Gets the list of children, filtered by type.                                      |
-| `AddComment`              | Creates a new child Comment.                                                      |
-| `AddFigure`               | Creates a new child Figure.                                                       |
-| `AddImage`                | Creates a new child Image.                                                        |
-| `Activate`                | Activate the current object.                                                      |
-| `CopyTo`                  | Copies all visible properties from this object to another.                        |
-| `Duplicate`               | Creates a copy of the current DataModelObject.                                    |
-| `GroupAllSimilarChildren` | Run the GroupAllSimilarChildren action.                                           |
-| `GroupSimilarObjects`     | Run the GroupSimilarObjects action.                                               |
-| `PropertyByName`          | Get a property by its unique name.                                                |
-| `PropertyByAPIName`       | Get a property by its API name.                                                   |
-| `GetParameter`            | Gets the parameter corresponding to the given property.                           |
-| `RemoveParameter`         | Removes the parameter from the parameter set corresponding to the given property. |
+|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------|
+| [`Activate`](#ShearGasketTotalClosure.Activate)                               | Activate the current object.                                                      |
+| [`AddAlert`](#ShearGasketTotalClosure.AddAlert)                               | Creates a new Alert                                                               |
+| [`AddComment`](#ShearGasketTotalClosure.AddComment)                           | Creates a new child Comment.                                                      |
+| [`AddConvergence`](#ShearGasketTotalClosure.AddConvergence)                   | Creates a new Convergence                                                         |
+| [`AddFigure`](#ShearGasketTotalClosure.AddFigure)                             | Creates a new child Figure.                                                       |
+| [`AddImage`](#ShearGasketTotalClosure.AddImage)                               | Creates a new child Image.                                                        |
+| [`ClearGeneratedData`](#ShearGasketTotalClosure.ClearGeneratedData)           | Run the ClearGeneratedData action.                                                |
+| [`CopyTo`](#ShearGasketTotalClosure.CopyTo)                                   | Copies all visible properties from this object to another.                        |
+| [`CreateParameter`](#ShearGasketTotalClosure.CreateParameter)                 | CreateParameter method.                                                           |
+| [`CreateResultsAtAllSets`](#ShearGasketTotalClosure.CreateResultsAtAllSets)   | Creates results at all sets for results under a solution.                         |
+| [`Delete`](#ShearGasketTotalClosure.Delete)                                   | Run the Delete action.                                                            |
+| [`Duplicate`](#ShearGasketTotalClosure.Duplicate)                             | Creates a copy of the current DataModelObject.                                    |
+| [`DuplicateWithoutResults`](#ShearGasketTotalClosure.DuplicateWithoutResults) | Run the DuplicateWithoutResults action.                                           |
+| [`EvaluateAllResults`](#ShearGasketTotalClosure.EvaluateAllResults)           | Run the EvaluateAllResults action.                                                |
+| [`ExportAnimation`](#ShearGasketTotalClosure.ExportAnimation)                 | Run the ExportAnimation action.                                                   |
+| [`ExportToTextFile`](#ShearGasketTotalClosure.ExportToTextFile)               | Run the ExportToTextFile action.                                                  |
+| [`FetchRemoteResults`](#ShearGasketTotalClosure.FetchRemoteResults)           | Run the FetchRemoteResult action.                                                 |
+| [`GetChildren`](#ShearGasketTotalClosure.GetChildren)                         | Gets the list of children, filtered by type.                                      |
+| [`GetParameter`](#ShearGasketTotalClosure.GetParameter)                       | Gets the parameter corresponding to the given property.                           |
+| [`GroupAllSimilarChildren`](#ShearGasketTotalClosure.GroupAllSimilarChildren) | Run the GroupAllSimilarChildren action.                                           |
+| [`GroupSimilarObjects`](#ShearGasketTotalClosure.GroupSimilarObjects)         | Run the GroupSimilarObjects action.                                               |
+| [`PromoteToNamedSelection`](#ShearGasketTotalClosure.PromoteToNamedSelection) | Run the PromoteToNamedSelection action.                                           |
+| [`PropertyByAPIName`](#ShearGasketTotalClosure.PropertyByAPIName)             | Get a property by its API name.                                                   |
+| [`PropertyByName`](#ShearGasketTotalClosure.PropertyByName)                   | Get a property by its unique name.                                                |
+| [`RemoveParameter`](#ShearGasketTotalClosure.RemoveParameter)                 | Removes the parameter from the parameter set corresponding to the given property. |
+| [`RenameBasedOnDefinition`](#ShearGasketTotalClosure.RenameBasedOnDefinition) | Run the RenameBasedOnDefinition action.                                           |
 
 ### Properties
 
 | Name | Description |
-|-------------------------------------|------------------------------------------------------------------------|
-| `InternalObject`                    | Gets the internal object. For advanced usage only.                     |
-| `ShearOrientation`                  | Gets or sets the ShearOrientation.                                     |
-| `DataModelObjectCategory`           | Gets the current DataModelObject's category.                           |
-| `GasketResultType`                  | Gets or sets the GasketResultType.                                     |
-| `PlotData`                          | Gets the result table.                                                 |
-| `Location`                          | Gets or sets the Location.                                             |
-| `TimeForMinimumOfMinimumValues`     | Get the Time for the minimum of minimum values.                        |
-| `TimeForMinimumOfMaximumValues`     | Get the Time for the minimum of maximum values.                        |
-| `LoadStepForMinimumOfMinimumValues` | Get the Load Step for the minimum of minimum values.                   |
-| `LoadStepForMinimumOfMaximumValues` | Get the Load Step for the minimum of maximum values.                   |
-| `TimeForMaximumOfMinimumValues`     | Get the Time for the maximum of minimum values.                        |
-| `TimeForMaximumOfMaximumValues`     | Get the Time for the maximum of maximum values.                        |
-| `LoadStepForMaximumOfMinimumValues` | Get the Load Step for the maximum of minimum values.                   |
-| `LoadStepForMaximumOfMaximumValues` | Get the Load Step for the maximum of maximum values.                   |
-| `IsSolved`                          | Gets the IsSolved.                                                     |
-| `CoordinateSystem`                  | Gets or sets the Coordinate System.                                    |
-| `ScopingMethod`                     | Gets or sets the ScopingMethod.                                        |
-| `SetNumber`                         | Gets or sets the Set Number.                                           |
-| `CombinationNumber`                 | Gets or sets the Combination Number for a Solution Combination result. |
-| `SolutionCombinationDriver`         | Gets or sets the SolutionCombinationDriver.                            |
-| `Path`                              | Path property.                                                         |
-| `Surface`                           | Surface property.                                                      |
-| `SurfaceCoating`                    | SurfaceCoating property.                                               |
-| `NamedSelections`                   | Gets or sets the NamedSelections.                                      |
-| `WaterfallShowTextOnMosaic`         | Gets or sets the Waterfall Mosaic Text Property.                       |
-| `CrackFrontNumber`                  | Gets or sets the CrackFrontNumber.                                     |
-| `GlobalIDs`                         | Gets or sets the GlobalIDs.                                            |
-| `Identifier`                        | Gets or sets the Identifier.                                           |
-| `IterationNumber`                   | Gets the IterationNumber.                                              |
-| `LoadStep`                          | Gets the LoadStep.                                                     |
-| `MaximumOccursOn`                   | Gets the MaximumOccursOn.                                              |
-| `MinimumOccursOn`                   | Gets the MinimumOccursOn.                                              |
-| `LoadStepNumber`                    | Gets or sets the LoadStepNumber.                                       |
-| `SolverComponentIDs`                | Gets or sets the SolverComponentIDs.                                   |
-| `Substep`                           | Gets the Substep.                                                      |
-| `Average`                           | Gets the Average.                                                      |
-| `Maximum`                           | Gets the Maximum.                                                      |
-| `MaximumOfMaximumOverTime`          | Gets the MaximumOfMaximumOverTime.                                     |
-| `MaximumOfMinimumOverTime`          | Gets the MaximumOfMinimumOverTime.                                     |
-| `Minimum`                           | Gets the Minimum.                                                      |
-| `MinimumOfMaximumOverTime`          | Gets the MinimumOfMaximumOverTime.                                     |
-| `MinimumOfMinimumOverTime`          | Gets the MinimumOfMinimumOverTime.                                     |
-| `Time`                              | Gets the Time.                                                         |
-| `DisplayTime`                       | Gets or sets the DisplayTime.                                          |
-| `GraphControlsXAxis`                | Gets or sets the GraphControlsXAxis.                                   |
-| `DisplayOption`                     | Gets or sets the DisplayOption.                                        |
-| `DpfEvaluation`                     | Gets or sets the DpfEvaluation.                                        |
-| `By`                                | Gets or sets the By.                                                   |
-| `ItemType`                          | Gets or sets the ItemType.                                             |
-| `CalculateTimeHistory`              | Gets or sets the CalculateTimeHistory.                                 |
-| `Suppressed`                        | Gets or sets the Suppressed.                                           |
-| `Children`                          | Gets the list of children.                                             |
-| `Comments`                          | Gets the list of associated comments.                                  |
-| `Figures`                           | Gets the list of associated figures.                                   |
-| `Images`                            | Gets the list of associated images.                                    |
-| `InternalObject`                    | Gets the internal object. For advanced usage only.                     |
-| `Properties`                        | Gets the list of properties for this object.                           |
-| `VisibleProperties`                 | Gets the list of properties that are visible for this object.          |
+|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------|
+| [`Average`](#ShearGasketTotalClosure.Average)                                                     | Gets the Average.                                                      |
+| [`By`](#ShearGasketTotalClosure.By)                                                               | Gets or sets the By.                                                   |
+| [`CalculateTimeHistory`](#ShearGasketTotalClosure.CalculateTimeHistory)                           | Gets or sets the CalculateTimeHistory.                                 |
+| [`Children`](#ShearGasketTotalClosure.Children)                                                   | Gets the list of children.                                             |
+| [`CombinationNumber`](#ShearGasketTotalClosure.CombinationNumber)                                 | Gets or sets the Combination Number for a Solution Combination result. |
+| [`Comments`](#ShearGasketTotalClosure.Comments)                                                   | Gets the list of associated comments.                                  |
+| [`CoordinateSystem`](#ShearGasketTotalClosure.CoordinateSystem)                                   | Gets or sets the Coordinate System.                                    |
+| [`CrackFrontNumber`](#ShearGasketTotalClosure.CrackFrontNumber)                                   | Gets or sets the CrackFrontNumber.                                     |
+| [`DataModelObjectCategory`](#ShearGasketTotalClosure.DataModelObjectCategory)                     | Gets the current DataModelObject’s category.                           |
+| [`DisplayOption`](#ShearGasketTotalClosure.DisplayOption)                                         | Gets or sets the DisplayOption.                                        |
+| [`DisplayTime`](#ShearGasketTotalClosure.DisplayTime)                                             | Gets or sets the DisplayTime.                                          |
+| [`DpfEvaluation`](#ShearGasketTotalClosure.DpfEvaluation)                                         | Gets or sets the DpfEvaluation.                                        |
+| [`Figures`](#ShearGasketTotalClosure.Figures)                                                     | Gets the list of associated figures.                                   |
+| [`GasketResultType`](#ShearGasketTotalClosure.GasketResultType)                                   | Gets or sets the GasketResultType.                                     |
+| [`GlobalIDs`](#ShearGasketTotalClosure.GlobalIDs)                                                 | Gets or sets the GlobalIDs.                                            |
+| [`GraphControlsXAxis`](#ShearGasketTotalClosure.GraphControlsXAxis)                               | Gets or sets the GraphControlsXAxis.                                   |
+| [`Identifier`](#ShearGasketTotalClosure.Identifier)                                               | Gets or sets the Identifier.                                           |
+| [`Images`](#ShearGasketTotalClosure.Images)                                                       | Gets the list of associated images.                                    |
+| [`InternalObject`](#ShearGasketTotalClosure.InternalObject)                                       | Gets the internal object. For advanced usage only.                     |
+| [`IsSolved`](#ShearGasketTotalClosure.IsSolved)                                                   | Gets the IsSolved.                                                     |
+| [`ItemType`](#ShearGasketTotalClosure.ItemType)                                                   | Gets or sets the ItemType.                                             |
+| [`IterationNumber`](#ShearGasketTotalClosure.IterationNumber)                                     | Gets the IterationNumber.                                              |
+| [`LoadStep`](#ShearGasketTotalClosure.LoadStep)                                                   | Gets the LoadStep.                                                     |
+| [`LoadStepForMaximumOfMaximumValues`](#ShearGasketTotalClosure.LoadStepForMaximumOfMaximumValues) | Get the Load Step for the maximum of maximum values.                   |
+| [`LoadStepForMaximumOfMinimumValues`](#ShearGasketTotalClosure.LoadStepForMaximumOfMinimumValues) | Get the Load Step for the maximum of minimum values.                   |
+| [`LoadStepForMinimumOfMaximumValues`](#ShearGasketTotalClosure.LoadStepForMinimumOfMaximumValues) | Get the Load Step for the minimum of maximum values.                   |
+| [`LoadStepForMinimumOfMinimumValues`](#ShearGasketTotalClosure.LoadStepForMinimumOfMinimumValues) | Get the Load Step for the minimum of minimum values.                   |
+| [`LoadStepNumber`](#ShearGasketTotalClosure.LoadStepNumber)                                       | Gets or sets the LoadStepNumber.                                       |
+| [`Location`](#ShearGasketTotalClosure.Location)                                                   | Gets or sets the Location.                                             |
+| [`Maximum`](#ShearGasketTotalClosure.Maximum)                                                     | Gets the Maximum.                                                      |
+| [`MaximumOccursOn`](#ShearGasketTotalClosure.MaximumOccursOn)                                     | Gets the MaximumOccursOn.                                              |
+| [`MaximumOfMaximumOverTime`](#ShearGasketTotalClosure.MaximumOfMaximumOverTime)                   | Gets the MaximumOfMaximumOverTime.                                     |
+| [`MaximumOfMinimumOverTime`](#ShearGasketTotalClosure.MaximumOfMinimumOverTime)                   | Gets the MaximumOfMinimumOverTime.                                     |
+| [`Minimum`](#ShearGasketTotalClosure.Minimum)                                                     | Gets the Minimum.                                                      |
+| [`MinimumOccursOn`](#ShearGasketTotalClosure.MinimumOccursOn)                                     | Gets the MinimumOccursOn.                                              |
+| [`MinimumOfMaximumOverTime`](#ShearGasketTotalClosure.MinimumOfMaximumOverTime)                   | Gets the MinimumOfMaximumOverTime.                                     |
+| [`MinimumOfMinimumOverTime`](#ShearGasketTotalClosure.MinimumOfMinimumOverTime)                   | Gets the MinimumOfMinimumOverTime.                                     |
+| [`NamedSelections`](#ShearGasketTotalClosure.NamedSelections)                                     | Gets or sets the NamedSelections.                                      |
+| [`Path`](#ShearGasketTotalClosure.Path)                                                           | Path property.                                                         |
+| [`PlotData`](#ShearGasketTotalClosure.PlotData)                                                   | Gets the result table.                                                 |
+| [`Properties`](#ShearGasketTotalClosure.Properties)                                               | Gets the list of properties for this object.                           |
+| [`ScopingMethod`](#ShearGasketTotalClosure.ScopingMethod)                                         | Gets or sets the ScopingMethod.                                        |
+| [`SetNumber`](#ShearGasketTotalClosure.SetNumber)                                                 | Gets or sets the Set Number.                                           |
+| [`ShearOrientation`](#ShearGasketTotalClosure.ShearOrientation)                                   | Gets or sets the ShearOrientation.                                     |
+| [`SolutionCombinationDriver`](#ShearGasketTotalClosure.SolutionCombinationDriver)                 | Gets or sets the SolutionCombinationDriver.                            |
+| [`SolverComponentIDs`](#ShearGasketTotalClosure.SolverComponentIDs)                               | Gets or sets the SolverComponentIDs.                                   |
+| [`Substep`](#ShearGasketTotalClosure.Substep)                                                     | Gets the Substep.                                                      |
+| [`Suppressed`](#ShearGasketTotalClosure.Suppressed)                                               | Gets or sets the Suppressed.                                           |
+| [`Surface`](#ShearGasketTotalClosure.Surface)                                                     | Surface property.                                                      |
+| [`SurfaceCoating`](#ShearGasketTotalClosure.SurfaceCoating)                                                                                                                                                 | SurfaceCoating property.                                               |
+| [`Time`](#ShearGasketTotalClosure.Time)                                                           | Gets the Time.                                                         |
+| [`TimeForMaximumOfMaximumValues`](#ShearGasketTotalClosure.TimeForMaximumOfMaximumValues)         | Get the Time for the maximum of maximum values.                        |
+| [`TimeForMaximumOfMinimumValues`](#ShearGasketTotalClosure.TimeForMaximumOfMinimumValues)         | Get the Time for the maximum of minimum values.                        |
+| [`TimeForMinimumOfMaximumValues`](#ShearGasketTotalClosure.TimeForMinimumOfMaximumValues)         | Get the Time for the minimum of maximum values.                        |
+| [`TimeForMinimumOfMinimumValues`](#ShearGasketTotalClosure.TimeForMinimumOfMinimumValues)         | Get the Time for the minimum of minimum values.                        |
+| [`VisibleProperties`](#ShearGasketTotalClosure.VisibleProperties)                                 | Gets the list of properties that are visible for this object.          |
+| [`WaterfallShowTextOnMosaic`](#ShearGasketTotalClosure.WaterfallShowTextOnMosaic)                                                                                                                           | Gets or sets the Waterfall Mosaic Text Property.                       |
 
 <a id="property-detail"></a>
 
 ## Property detail
 
-### *property* ShearGasketTotalClosure.InternalObject *: Ansys.Common.Interop.DSObjectsAuto.IDSResultAuto | [None](https://docs.python.org/3/library/constants.html#None)*
+<a id="ShearGasketTotalClosure.Average"></a>
 
-Gets the internal object. For advanced usage only.
+### *property* ShearGasketTotalClosure.Average *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
 
-<!-- !! processed by numpydoc !! -->
-
-### *property* ShearGasketTotalClosure.ShearOrientation *: [Ansys.Mechanical.DataModel.Enums.ShearOrientationType](../../../../../../../v241/Ansys/Mechanical/DataModel/Enums/ShearOrientationType.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.ShearOrientationType) | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the ShearOrientation.
+Gets the Average.
 
 <!-- !! processed by numpydoc !! -->
 
-### *property* ShearGasketTotalClosure.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../../../v241/Ansys/Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
+<a id="ShearGasketTotalClosure.By"></a>
 
-Gets the current DataModelObject's category.
+### *property* ShearGasketTotalClosure.By *: [Ansys.Mechanical.DataModel.Enums.SetDriverStyle](../../../../../Mechanical/DataModel/Enums/SetDriverStyle.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.SetDriverStyle) | [None](https://docs.python.org/3/library/constants.html#None)*
 
-<!-- !! processed by numpydoc !! -->
-
-### *property* ShearGasketTotalClosure.GasketResultType *: [Ansys.Mechanical.DataModel.Enums.GasketResultType](../../../../../../../v241/Ansys/Mechanical/DataModel/Enums/GasketResultType.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.GasketResultType) | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the GasketResultType.
+Gets or sets the By.
 
 <!-- !! processed by numpydoc !! -->
 
-### *property* ShearGasketTotalClosure.PlotData *: [Ansys.Mechanical.DataModel.Results.ResultDataTable](../../../../../../../v241/Ansys/Mechanical/DataModel/Results/ResultDataTable.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Results.ResultDataTable) | [None](https://docs.python.org/3/library/constants.html#None)*
+<a id="ShearGasketTotalClosure.CalculateTimeHistory"></a>
 
-Gets the result table.
+### *property* ShearGasketTotalClosure.CalculateTimeHistory *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
 
-<!-- !! processed by numpydoc !! -->
-
-### *property* ShearGasketTotalClosure.Location *: Ansys.ACT.Interfaces.Common.ISelectionInfo | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the Location.
+Gets or sets the CalculateTimeHistory.
 
 <!-- !! processed by numpydoc !! -->
 
-### *property* ShearGasketTotalClosure.TimeForMinimumOfMinimumValues *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
+<a id="ShearGasketTotalClosure.Children"></a>
 
-Get the Time for the minimum of minimum values.
+### *property* ShearGasketTotalClosure.Children *: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
 
-<!-- !! processed by numpydoc !! -->
-
-### *property* ShearGasketTotalClosure.TimeForMinimumOfMaximumValues *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Get the Time for the minimum of maximum values.
+Gets the list of children.
 
 <!-- !! processed by numpydoc !! -->
 
-### *property* ShearGasketTotalClosure.LoadStepForMinimumOfMinimumValues *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+<a id="ShearGasketTotalClosure.CombinationNumber"></a>
 
-Get the Load Step for the minimum of minimum values.
+### *property* ShearGasketTotalClosure.CombinationNumber *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
 
-<!-- !! processed by numpydoc !! -->
-
-### *property* ShearGasketTotalClosure.LoadStepForMinimumOfMaximumValues *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Get the Load Step for the minimum of maximum values.
+Gets or sets the Combination Number for a Solution Combination result.
 
 <!-- !! processed by numpydoc !! -->
 
-### *property* ShearGasketTotalClosure.TimeForMaximumOfMinimumValues *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
+<a id="ShearGasketTotalClosure.Comments"></a>
 
-Get the Time for the maximum of minimum values.
+### *property* ShearGasketTotalClosure.Comments *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Comment](../../../../../../../v241/Ansys/ACT/Automation/Mechanical/Comment.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
-<!-- !! processed by numpydoc !! -->
-
-### *property* ShearGasketTotalClosure.TimeForMaximumOfMaximumValues *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Get the Time for the maximum of maximum values.
+Gets the list of associated comments.
 
 <!-- !! processed by numpydoc !! -->
 
-### *property* ShearGasketTotalClosure.LoadStepForMaximumOfMinimumValues *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Get the Load Step for the maximum of minimum values.
-
-<!-- !! processed by numpydoc !! -->
-
-### *property* ShearGasketTotalClosure.LoadStepForMaximumOfMaximumValues *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Get the Load Step for the maximum of maximum values.
-
-<!-- !! processed by numpydoc !! -->
-
-### *property* ShearGasketTotalClosure.IsSolved *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets the IsSolved.
-
-<!-- !! processed by numpydoc !! -->
+<a id="ShearGasketTotalClosure.CoordinateSystem"></a>
 
 ### *property* ShearGasketTotalClosure.CoordinateSystem *: [Ansys.ACT.Automation.Mechanical.CoordinateSystem](../../../../../../../v241/Ansys/ACT/Automation/Mechanical/CoordinateSystem.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.CoordinateSystem) | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -211,59 +169,7 @@ Accepts/Returns None for Fiber Coordinate System for a result that is sub scoped
 
 <!-- !! processed by numpydoc !! -->
 
-### *property* ShearGasketTotalClosure.ScopingMethod *: [Ansys.Mechanical.DataModel.Enums.GeometryDefineByType](../../../../../../../v241/Ansys/Mechanical/DataModel/Enums/GeometryDefineByType.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.GeometryDefineByType) | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the ScopingMethod.
-
-<!-- !! processed by numpydoc !! -->
-
-### *property* ShearGasketTotalClosure.SetNumber *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the Set Number.
-
-<!-- !! processed by numpydoc !! -->
-
-### *property* ShearGasketTotalClosure.CombinationNumber *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the Combination Number for a Solution Combination result.
-
-<!-- !! processed by numpydoc !! -->
-
-### *property* ShearGasketTotalClosure.SolutionCombinationDriver *: [Ansys.Mechanical.DataModel.Enums.SolutionCombinationDriverStyle](../../../../../../../v241/Ansys/Mechanical/DataModel/Enums/SolutionCombinationDriverStyle.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.SolutionCombinationDriverStyle) | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the SolutionCombinationDriver.
-
-<!-- !! processed by numpydoc !! -->
-
-### *property* ShearGasketTotalClosure.Path *: [Ansys.ACT.Automation.Mechanical.Path](../../../../../../../v241/Ansys/ACT/Automation/Mechanical/Path.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Path) | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Path property.
-
-<!-- !! processed by numpydoc !! -->
-
-### *property* ShearGasketTotalClosure.Surface *: [Ansys.ACT.Automation.Mechanical.Surface](../../../../../../../v241/Ansys/ACT/Automation/Mechanical/Surface.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Surface) | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Surface property.
-
-<!-- !! processed by numpydoc !! -->
-
-### *property* ShearGasketTotalClosure.SurfaceCoating *: [Ansys.ACT.Automation.Mechanical.SurfaceCoating](../../../../../../../v241/Ansys/ACT/Automation/Mechanical/SurfaceCoating.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.SurfaceCoating) | [None](https://docs.python.org/3/library/constants.html#None)*
-
-SurfaceCoating property.
-
-<!-- !! processed by numpydoc !! -->
-
-### *property* ShearGasketTotalClosure.NamedSelections *: System.Collections.Generic.IEnumerable[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the NamedSelections.
-
-<!-- !! processed by numpydoc !! -->
-
-### *property* ShearGasketTotalClosure.WaterfallShowTextOnMosaic *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the Waterfall Mosaic Text Property.
-
-<!-- !! processed by numpydoc !! -->
+<a id="ShearGasketTotalClosure.CrackFrontNumber"></a>
 
 ### *property* ShearGasketTotalClosure.CrackFrontNumber *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -271,107 +177,23 @@ Gets or sets the CrackFrontNumber.
 
 <!-- !! processed by numpydoc !! -->
 
-### *property* ShearGasketTotalClosure.GlobalIDs *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+<a id="ShearGasketTotalClosure.DataModelObjectCategory"></a>
 
-Gets or sets the GlobalIDs.
+### *property* ShearGasketTotalClosure.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
-<!-- !! processed by numpydoc !! -->
-
-### *property* ShearGasketTotalClosure.Identifier *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the Identifier.
+Gets the current DataModelObject’s category.
 
 <!-- !! processed by numpydoc !! -->
 
-### *property* ShearGasketTotalClosure.IterationNumber *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+<a id="ShearGasketTotalClosure.DisplayOption"></a>
 
-Gets the IterationNumber.
+### *property* ShearGasketTotalClosure.DisplayOption *: [Ansys.Mechanical.DataModel.Enums.ResultAveragingType](../../../../../Mechanical/DataModel/Enums/ResultAveragingType.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.ResultAveragingType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
-<!-- !! processed by numpydoc !! -->
-
-### *property* ShearGasketTotalClosure.LoadStep *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets the LoadStep.
+Gets or sets the DisplayOption.
 
 <!-- !! processed by numpydoc !! -->
 
-### *property* ShearGasketTotalClosure.MaximumOccursOn *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets the MaximumOccursOn.
-
-<!-- !! processed by numpydoc !! -->
-
-### *property* ShearGasketTotalClosure.MinimumOccursOn *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets the MinimumOccursOn.
-
-<!-- !! processed by numpydoc !! -->
-
-### *property* ShearGasketTotalClosure.LoadStepNumber *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the LoadStepNumber.
-
-<!-- !! processed by numpydoc !! -->
-
-### *property* ShearGasketTotalClosure.SolverComponentIDs *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the SolverComponentIDs.
-
-<!-- !! processed by numpydoc !! -->
-
-### *property* ShearGasketTotalClosure.Substep *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets the Substep.
-
-<!-- !! processed by numpydoc !! -->
-
-### *property* ShearGasketTotalClosure.Average *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets the Average.
-
-<!-- !! processed by numpydoc !! -->
-
-### *property* ShearGasketTotalClosure.Maximum *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets the Maximum.
-
-<!-- !! processed by numpydoc !! -->
-
-### *property* ShearGasketTotalClosure.MaximumOfMaximumOverTime *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets the MaximumOfMaximumOverTime.
-
-<!-- !! processed by numpydoc !! -->
-
-### *property* ShearGasketTotalClosure.MaximumOfMinimumOverTime *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets the MaximumOfMinimumOverTime.
-
-<!-- !! processed by numpydoc !! -->
-
-### *property* ShearGasketTotalClosure.Minimum *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets the Minimum.
-
-<!-- !! processed by numpydoc !! -->
-
-### *property* ShearGasketTotalClosure.MinimumOfMaximumOverTime *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets the MinimumOfMaximumOverTime.
-
-<!-- !! processed by numpydoc !! -->
-
-### *property* ShearGasketTotalClosure.MinimumOfMinimumOverTime *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets the MinimumOfMinimumOverTime.
-
-<!-- !! processed by numpydoc !! -->
-
-### *property* ShearGasketTotalClosure.Time *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets the Time.
-
-<!-- !! processed by numpydoc !! -->
+<a id="ShearGasketTotalClosure.DisplayTime"></a>
 
 ### *property* ShearGasketTotalClosure.DisplayTime *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -379,59 +201,15 @@ Gets or sets the DisplayTime.
 
 <!-- !! processed by numpydoc !! -->
 
-### *property* ShearGasketTotalClosure.GraphControlsXAxis *: [Ansys.Mechanical.DataModel.Enums.GraphControlsXAxis](../../../../../../../v241/Ansys/Mechanical/DataModel/Enums/GraphControlsXAxis.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.GraphControlsXAxis) | [None](https://docs.python.org/3/library/constants.html#None)*
+<a id="ShearGasketTotalClosure.DpfEvaluation"></a>
 
-Gets or sets the GraphControlsXAxis.
-
-<!-- !! processed by numpydoc !! -->
-
-### *property* ShearGasketTotalClosure.DisplayOption *: [Ansys.Mechanical.DataModel.Enums.ResultAveragingType](../../../../../../../v241/Ansys/Mechanical/DataModel/Enums/ResultAveragingType.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.ResultAveragingType) | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the DisplayOption.
-
-<!-- !! processed by numpydoc !! -->
-
-### *property* ShearGasketTotalClosure.DpfEvaluation *: [Ansys.Mechanical.DataModel.Enums.DpfEvaluationType](../../../../../../../v241/Ansys/Mechanical/DataModel/Enums/DpfEvaluationType.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DpfEvaluationType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ShearGasketTotalClosure.DpfEvaluation *: [Ansys.Mechanical.DataModel.Enums.DpfEvaluationType](../../../../../Mechanical/DataModel/Enums/DpfEvaluationType.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.DpfEvaluationType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the DpfEvaluation.
 
 <!-- !! processed by numpydoc !! -->
 
-### *property* ShearGasketTotalClosure.By *: [Ansys.Mechanical.DataModel.Enums.SetDriverStyle](../../../../../../../v241/Ansys/Mechanical/DataModel/Enums/SetDriverStyle.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.SetDriverStyle) | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the By.
-
-<!-- !! processed by numpydoc !! -->
-
-### *property* ShearGasketTotalClosure.ItemType *: [Ansys.Mechanical.DataModel.Enums.ResultFileItemType](../../../../../../../v241/Ansys/Mechanical/DataModel/Enums/ResultFileItemType.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.ResultFileItemType) | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the ItemType.
-
-<!-- !! processed by numpydoc !! -->
-
-### *property* ShearGasketTotalClosure.CalculateTimeHistory *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the CalculateTimeHistory.
-
-<!-- !! processed by numpydoc !! -->
-
-### *property* ShearGasketTotalClosure.Suppressed *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the Suppressed.
-
-<!-- !! processed by numpydoc !! -->
-
-### *property* ShearGasketTotalClosure.Children *: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets the list of children.
-
-<!-- !! processed by numpydoc !! -->
-
-### *property* ShearGasketTotalClosure.Comments *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Comment](../../../../../../../v241/Ansys/ACT/Automation/Mechanical/Comment.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets the list of associated comments.
-
-<!-- !! processed by numpydoc !! -->
+<a id="ShearGasketTotalClosure.Figures"></a>
 
 ### *property* ShearGasketTotalClosure.Figures *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Figure](../../../../../../../v241/Ansys/ACT/Automation/Mechanical/Figure.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -439,17 +217,223 @@ Gets the list of associated figures.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="ShearGasketTotalClosure.GasketResultType"></a>
+
+### *property* ShearGasketTotalClosure.GasketResultType *: [Ansys.Mechanical.DataModel.Enums.GasketResultType](../../../../../Mechanical/DataModel/Enums/GasketResultType.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.GasketResultType) | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the GasketResultType.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ShearGasketTotalClosure.GlobalIDs"></a>
+
+### *property* ShearGasketTotalClosure.GlobalIDs *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the GlobalIDs.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ShearGasketTotalClosure.GraphControlsXAxis"></a>
+
+### *property* ShearGasketTotalClosure.GraphControlsXAxis *: [Ansys.Mechanical.DataModel.Enums.GraphControlsXAxis](../../../../../Mechanical/DataModel/Enums/GraphControlsXAxis.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.GraphControlsXAxis) | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the GraphControlsXAxis.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ShearGasketTotalClosure.Identifier"></a>
+
+### *property* ShearGasketTotalClosure.Identifier *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the Identifier.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ShearGasketTotalClosure.Images"></a>
+
 ### *property* ShearGasketTotalClosure.Images *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Image](../../../../../../../v241/Ansys/ACT/Automation/Mechanical/Image.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated images.
 
 <!-- !! processed by numpydoc !! -->
 
-### *property* ShearGasketTotalClosure.InternalObject *: System.Object | [None](https://docs.python.org/3/library/constants.html#None)*
+<a id="ShearGasketTotalClosure.InternalObject"></a>
+
+### *property* ShearGasketTotalClosure.InternalObject *: Ansys.Common.Interop.DSObjectsAuto.IDSResultAuto | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the internal object. For advanced usage only.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="ShearGasketTotalClosure.IsSolved"></a>
+
+### *property* ShearGasketTotalClosure.IsSolved *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets the IsSolved.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ShearGasketTotalClosure.ItemType"></a>
+
+### *property* ShearGasketTotalClosure.ItemType *: [Ansys.Mechanical.DataModel.Enums.ResultFileItemType](../../../../../Mechanical/DataModel/Enums/ResultFileItemType.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.ResultFileItemType) | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the ItemType.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ShearGasketTotalClosure.IterationNumber"></a>
+
+### *property* ShearGasketTotalClosure.IterationNumber *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets the IterationNumber.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ShearGasketTotalClosure.LoadStep"></a>
+
+### *property* ShearGasketTotalClosure.LoadStep *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets the LoadStep.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ShearGasketTotalClosure.LoadStepForMaximumOfMaximumValues"></a>
+
+### *property* ShearGasketTotalClosure.LoadStepForMaximumOfMaximumValues *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Get the Load Step for the maximum of maximum values.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ShearGasketTotalClosure.LoadStepForMaximumOfMinimumValues"></a>
+
+### *property* ShearGasketTotalClosure.LoadStepForMaximumOfMinimumValues *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Get the Load Step for the maximum of minimum values.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ShearGasketTotalClosure.LoadStepForMinimumOfMaximumValues"></a>
+
+### *property* ShearGasketTotalClosure.LoadStepForMinimumOfMaximumValues *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Get the Load Step for the minimum of maximum values.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ShearGasketTotalClosure.LoadStepForMinimumOfMinimumValues"></a>
+
+### *property* ShearGasketTotalClosure.LoadStepForMinimumOfMinimumValues *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Get the Load Step for the minimum of minimum values.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ShearGasketTotalClosure.LoadStepNumber"></a>
+
+### *property* ShearGasketTotalClosure.LoadStepNumber *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the LoadStepNumber.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ShearGasketTotalClosure.Location"></a>
+
+### *property* ShearGasketTotalClosure.Location *: Ansys.ACT.Interfaces.Common.ISelectionInfo | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the Location.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ShearGasketTotalClosure.Maximum"></a>
+
+### *property* ShearGasketTotalClosure.Maximum *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets the Maximum.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ShearGasketTotalClosure.MaximumOccursOn"></a>
+
+### *property* ShearGasketTotalClosure.MaximumOccursOn *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets the MaximumOccursOn.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ShearGasketTotalClosure.MaximumOfMaximumOverTime"></a>
+
+### *property* ShearGasketTotalClosure.MaximumOfMaximumOverTime *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets the MaximumOfMaximumOverTime.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ShearGasketTotalClosure.MaximumOfMinimumOverTime"></a>
+
+### *property* ShearGasketTotalClosure.MaximumOfMinimumOverTime *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets the MaximumOfMinimumOverTime.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ShearGasketTotalClosure.Minimum"></a>
+
+### *property* ShearGasketTotalClosure.Minimum *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets the Minimum.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ShearGasketTotalClosure.MinimumOccursOn"></a>
+
+### *property* ShearGasketTotalClosure.MinimumOccursOn *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets the MinimumOccursOn.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ShearGasketTotalClosure.MinimumOfMaximumOverTime"></a>
+
+### *property* ShearGasketTotalClosure.MinimumOfMaximumOverTime *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets the MinimumOfMaximumOverTime.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ShearGasketTotalClosure.MinimumOfMinimumOverTime"></a>
+
+### *property* ShearGasketTotalClosure.MinimumOfMinimumOverTime *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets the MinimumOfMinimumOverTime.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ShearGasketTotalClosure.NamedSelections"></a>
+
+### *property* ShearGasketTotalClosure.NamedSelections *: System.Collections.Generic.IEnumerable[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the NamedSelections.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ShearGasketTotalClosure.Path"></a>
+
+### *property* ShearGasketTotalClosure.Path *: [Ansys.ACT.Automation.Mechanical.Path](../../Path.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Path) | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Path property.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ShearGasketTotalClosure.PlotData"></a>
+
+### *property* ShearGasketTotalClosure.PlotData *: [Ansys.Mechanical.DataModel.Results.ResultDataTable](../../../../../Mechanical/DataModel/Results/ResultDataTable.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Results.ResultDataTable) | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets the result table.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ShearGasketTotalClosure.Properties"></a>
 
 ### *property* ShearGasketTotalClosure.Properties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -457,9 +441,131 @@ Gets the list of properties for this object.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="ShearGasketTotalClosure.ScopingMethod"></a>
+
+### *property* ShearGasketTotalClosure.ScopingMethod *: [Ansys.Mechanical.DataModel.Enums.GeometryDefineByType](../../../../../Mechanical/DataModel/Enums/GeometryDefineByType.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.GeometryDefineByType) | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the ScopingMethod.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ShearGasketTotalClosure.SetNumber"></a>
+
+### *property* ShearGasketTotalClosure.SetNumber *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the Set Number.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ShearGasketTotalClosure.ShearOrientation"></a>
+
+### *property* ShearGasketTotalClosure.ShearOrientation *: [Ansys.Mechanical.DataModel.Enums.ShearOrientationType](../../../../../Mechanical/DataModel/Enums/ShearOrientationType.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.ShearOrientationType) | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the ShearOrientation.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ShearGasketTotalClosure.SolutionCombinationDriver"></a>
+
+### *property* ShearGasketTotalClosure.SolutionCombinationDriver *: [Ansys.Mechanical.DataModel.Enums.SolutionCombinationDriverStyle](../../../../../Mechanical/DataModel/Enums/SolutionCombinationDriverStyle.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.SolutionCombinationDriverStyle) | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the SolutionCombinationDriver.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ShearGasketTotalClosure.SolverComponentIDs"></a>
+
+### *property* ShearGasketTotalClosure.SolverComponentIDs *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the SolverComponentIDs.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ShearGasketTotalClosure.Substep"></a>
+
+### *property* ShearGasketTotalClosure.Substep *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets the Substep.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ShearGasketTotalClosure.Suppressed"></a>
+
+### *property* ShearGasketTotalClosure.Suppressed *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the Suppressed.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ShearGasketTotalClosure.Surface"></a>
+
+### *property* ShearGasketTotalClosure.Surface *: [Ansys.ACT.Automation.Mechanical.Surface](../../Surface.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Surface) | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Surface property.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ShearGasketTotalClosure.SurfaceCoating"></a>
+
+### *property* ShearGasketTotalClosure.SurfaceCoating *: [Ansys.ACT.Automation.Mechanical.SurfaceCoating](../../SurfaceCoating.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.SurfaceCoating) | [None](https://docs.python.org/3/library/constants.html#None)*
+
+SurfaceCoating property.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ShearGasketTotalClosure.Time"></a>
+
+### *property* ShearGasketTotalClosure.Time *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets the Time.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ShearGasketTotalClosure.TimeForMaximumOfMaximumValues"></a>
+
+### *property* ShearGasketTotalClosure.TimeForMaximumOfMaximumValues *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Get the Time for the maximum of maximum values.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ShearGasketTotalClosure.TimeForMaximumOfMinimumValues"></a>
+
+### *property* ShearGasketTotalClosure.TimeForMaximumOfMinimumValues *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Get the Time for the maximum of minimum values.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ShearGasketTotalClosure.TimeForMinimumOfMaximumValues"></a>
+
+### *property* ShearGasketTotalClosure.TimeForMinimumOfMaximumValues *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Get the Time for the minimum of maximum values.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ShearGasketTotalClosure.TimeForMinimumOfMinimumValues"></a>
+
+### *property* ShearGasketTotalClosure.TimeForMinimumOfMinimumValues *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Get the Time for the minimum of minimum values.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ShearGasketTotalClosure.VisibleProperties"></a>
+
 ### *property* ShearGasketTotalClosure.VisibleProperties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of properties that are visible for this object.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ShearGasketTotalClosure.WaterfallShowTextOnMosaic"></a>
+
+### *property* ShearGasketTotalClosure.WaterfallShowTextOnMosaic *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the Waterfall Mosaic Text Property.
 
 <!-- !! processed by numpydoc !! -->
 
@@ -467,59 +573,15 @@ Gets the list of properties that are visible for this object.
 
 ## Method detail
 
-### ShearGasketTotalClosure.ClearGeneratedData()
+<a id="ShearGasketTotalClosure.Activate"></a>
 
-Run the ClearGeneratedData action.
+### ShearGasketTotalClosure.Activate()
 
-<!-- !! processed by numpydoc !! -->
-
-### ShearGasketTotalClosure.EvaluateAllResults()
-
-Run the EvaluateAllResults action.
+Activate the current object.
 
 <!-- !! processed by numpydoc !! -->
 
-### ShearGasketTotalClosure.FetchRemoteResults()
-
-Run the FetchRemoteResult action.
-
-<!-- !! processed by numpydoc !! -->
-
-### ShearGasketTotalClosure.ExportToTextFile(filePath: System.String)
-
-Run the ExportToTextFile action.
-
-<!-- !! processed by numpydoc !! -->
-
-### ShearGasketTotalClosure.ExportAnimation(filePath: System.String, format: [Ansys.Mechanical.DataModel.Enums.GraphicsAnimationExportFormat](../../../../../../../v241/Ansys/Mechanical/DataModel/Enums/GraphicsAnimationExportFormat.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.GraphicsAnimationExportFormat), settings: [Ansys.Mechanical.Graphics.AnimationExportSettings](../../../../../../../v241/Ansys/Mechanical/Graphics/AnimationExportSettings.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.Graphics.AnimationExportSettings))
-
-Run the ExportAnimation action.
-
-<!-- !! processed by numpydoc !! -->
-
-### ShearGasketTotalClosure.DuplicateWithoutResults()
-
-Run the DuplicateWithoutResults action.
-
-<!-- !! processed by numpydoc !! -->
-
-### ShearGasketTotalClosure.CreateResultsAtAllSets()
-
-Creates results at all sets for results under a solution.
-
-<!-- !! processed by numpydoc !! -->
-
-### ShearGasketTotalClosure.PromoteToNamedSelection()
-
-Run the PromoteToNamedSelection action.
-
-<!-- !! processed by numpydoc !! -->
-
-### ShearGasketTotalClosure.CreateParameter(propName: System.String)
-
-CreateParameter method.
-
-<!-- !! processed by numpydoc !! -->
+<a id="ShearGasketTotalClosure.AddAlert"></a>
 
 ### ShearGasketTotalClosure.AddAlert()
 
@@ -527,35 +589,7 @@ Creates a new Alert
 
 <!-- !! processed by numpydoc !! -->
 
-### ShearGasketTotalClosure.AddConvergence()
-
-Creates a new Convergence
-
-<!-- !! processed by numpydoc !! -->
-
-### ShearGasketTotalClosure.RenameBasedOnDefinition()
-
-Run the RenameBasedOnDefinition action.
-
-<!-- !! processed by numpydoc !! -->
-
-### ShearGasketTotalClosure.Delete()
-
-Run the Delete action.
-
-<!-- !! processed by numpydoc !! -->
-
-### ShearGasketTotalClosure.GetChildren(recurses: System.Boolean, children: System.Collections.Generic.IList[ChildrenType])
-
-Gets the list of children, filtered by type.
-
-<!-- !! processed by numpydoc !! -->
-
-### ShearGasketTotalClosure.GetChildren(category: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../../../v241/Ansys/Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory), recurses: System.Boolean, children: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject])
-
-Gets the list of children, filtered by type.
-
-<!-- !! processed by numpydoc !! -->
+<a id="ShearGasketTotalClosure.AddComment"></a>
 
 ### ShearGasketTotalClosure.AddComment()
 
@@ -563,11 +597,23 @@ Creates a new child Comment.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="ShearGasketTotalClosure.AddConvergence"></a>
+
+### ShearGasketTotalClosure.AddConvergence()
+
+Creates a new Convergence
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ShearGasketTotalClosure.AddFigure"></a>
+
 ### ShearGasketTotalClosure.AddFigure()
 
 Creates a new child Figure.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="ShearGasketTotalClosure.AddImage"></a>
 
 ### ShearGasketTotalClosure.AddImage(filePath: System.String)
 
@@ -579,11 +625,15 @@ if not, the image will be a screen capture of the Geometry window.
 
 <!-- !! processed by numpydoc !! -->
 
-### ShearGasketTotalClosure.Activate()
+<a id="ShearGasketTotalClosure.ClearGeneratedData"></a>
 
-Activate the current object.
+### ShearGasketTotalClosure.ClearGeneratedData()
+
+Run the ClearGeneratedData action.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="ShearGasketTotalClosure.CopyTo"></a>
 
 ### ShearGasketTotalClosure.CopyTo(other: Ansys.ACT.Automation.Mechanical.DataModelObject)
 
@@ -591,11 +641,95 @@ Copies all visible properties from this object to another.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="ShearGasketTotalClosure.CreateParameter"></a>
+
+### ShearGasketTotalClosure.CreateParameter(propName: System.String)
+
+CreateParameter method.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ShearGasketTotalClosure.CreateResultsAtAllSets"></a>
+
+### ShearGasketTotalClosure.CreateResultsAtAllSets()
+
+Creates results at all sets for results under a solution.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ShearGasketTotalClosure.Delete"></a>
+
+### ShearGasketTotalClosure.Delete()
+
+Run the Delete action.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ShearGasketTotalClosure.Duplicate"></a>
+
 ### ShearGasketTotalClosure.Duplicate()
 
 Creates a copy of the current DataModelObject.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="ShearGasketTotalClosure.DuplicateWithoutResults"></a>
+
+### ShearGasketTotalClosure.DuplicateWithoutResults()
+
+Run the DuplicateWithoutResults action.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ShearGasketTotalClosure.EvaluateAllResults"></a>
+
+### ShearGasketTotalClosure.EvaluateAllResults()
+
+Run the EvaluateAllResults action.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ShearGasketTotalClosure.ExportAnimation"></a>
+
+### ShearGasketTotalClosure.ExportAnimation(filePath: System.String, format: [Ansys.Mechanical.DataModel.Enums.GraphicsAnimationExportFormat](../../../../../Mechanical/DataModel/Enums/GraphicsAnimationExportFormat.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.GraphicsAnimationExportFormat), settings: [Ansys.Mechanical.Graphics.AnimationExportSettings](../../../../../Mechanical/Graphics/AnimationExportSettings.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.Graphics.AnimationExportSettings))
+
+Run the ExportAnimation action.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ShearGasketTotalClosure.ExportToTextFile"></a>
+
+### ShearGasketTotalClosure.ExportToTextFile(filePath: System.String)
+
+Run the ExportToTextFile action.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ShearGasketTotalClosure.FetchRemoteResults"></a>
+
+### ShearGasketTotalClosure.FetchRemoteResults()
+
+Run the FetchRemoteResult action.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ShearGasketTotalClosure.GetChildren"></a>
+
+### ShearGasketTotalClosure.GetChildren(recurses: System.Boolean, children: System.Collections.Generic.IList[ChildrenType])
+
+Gets the list of children, filtered by type.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ShearGasketTotalClosure.GetParameter"></a>
+
+### ShearGasketTotalClosure.GetParameter(propName: System.String)
+
+Gets the parameter corresponding to the given property.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ShearGasketTotalClosure.GroupAllSimilarChildren"></a>
 
 ### ShearGasketTotalClosure.GroupAllSimilarChildren()
 
@@ -603,17 +737,23 @@ Run the GroupAllSimilarChildren action.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="ShearGasketTotalClosure.GroupSimilarObjects"></a>
+
 ### ShearGasketTotalClosure.GroupSimilarObjects()
 
 Run the GroupSimilarObjects action.
 
 <!-- !! processed by numpydoc !! -->
 
-### ShearGasketTotalClosure.PropertyByName(name: System.String)
+<a id="ShearGasketTotalClosure.PromoteToNamedSelection"></a>
 
-Get a property by its unique name.
+### ShearGasketTotalClosure.PromoteToNamedSelection()
+
+Run the PromoteToNamedSelection action.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="ShearGasketTotalClosure.PropertyByAPIName"></a>
 
 ### ShearGasketTotalClosure.PropertyByAPIName(name: System.String)
 
@@ -624,15 +764,27 @@ If multiple properties have the same API Name, only the first property with that
 
 <!-- !! processed by numpydoc !! -->
 
-### ShearGasketTotalClosure.GetParameter(propName: System.String)
+<a id="ShearGasketTotalClosure.PropertyByName"></a>
 
-Gets the parameter corresponding to the given property.
+### ShearGasketTotalClosure.PropertyByName(name: System.String)
+
+Get a property by its unique name.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="ShearGasketTotalClosure.RemoveParameter"></a>
 
 ### ShearGasketTotalClosure.RemoveParameter(propName: System.String)
 
 Removes the parameter from the parameter set corresponding to the given property.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ShearGasketTotalClosure.RenameBasedOnDefinition"></a>
+
+### ShearGasketTotalClosure.RenameBasedOnDefinition()
+
+Run the RenameBasedOnDefinition action.
 
 <!-- !! processed by numpydoc !! -->
 

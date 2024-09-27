@@ -1,6 +1,6 @@
 # `RestartSaveAtSubstep`
 
-
+<a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.RestartSaveAtSubstep"></a>
 
 #### *class* ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.RestartSaveAtSubstep
 
@@ -17,11 +17,11 @@ Specifies the RestartSaveAtSubstep.
 ### Attributes
 
 | Name |
-| ------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| [`All`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/RestartSaveAtSubstep.md#RestartSaveAtSubstep.All) |
-| [`EquallySpaced`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/RestartSaveAtSubstep.md#RestartSaveAtSubstep.EquallySpaced) |
-| [`Last`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/RestartSaveAtSubstep.md#RestartSaveAtSubstep.Last) |
-| [`SaveAtSubstepSpecified`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/RestartSaveAtSubstep.md#RestartSaveAtSubstep.SaveAtSubstepSpecified) |
+| -------------------------------------------------------------------------- |
+| [`All`](#RestartSaveAtSubstep.All) |
+| [`EquallySpaced`](#RestartSaveAtSubstep.EquallySpaced) |
+| [`Last`](#RestartSaveAtSubstep.Last) |
+| [`SaveAtSubstepSpecified`](#RestartSaveAtSubstep.SaveAtSubstepSpecified) |
 
 <a id="attribute-detail"></a>
 

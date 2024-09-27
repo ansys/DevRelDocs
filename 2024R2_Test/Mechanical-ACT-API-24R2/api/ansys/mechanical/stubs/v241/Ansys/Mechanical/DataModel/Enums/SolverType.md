@@ -1,6 +1,6 @@
 # `SolverType`
 
-
+<a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.SolverType"></a>
 
 #### *class* ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.SolverType
 
@@ -17,27 +17,27 @@ Specifies the SolverType.
 ### Attributes
 
 | Name |
-| ------------------------------------------------------------------------------------------------------------------------ |
-| [`FullDamped`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/SolverType.md#SolverType.FullDamped) |
-| [`Direct`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/SolverType.md#SolverType.Direct) |
-| [`Iterative`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/SolverType.md#SolverType.Iterative) |
-| [`ProgramControlled`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/SolverType.md#SolverType.ProgramControlled) |
-| [`ReducedDamped`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/SolverType.md#SolverType.ReducedDamped) |
-| [`Supernode`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/SolverType.md#SolverType.Supernode) |
-| [`Subspace`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/SolverType.md#SolverType.Subspace) |
-| [`Unsymmetric`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/SolverType.md#SolverType.Unsymmetric) |
+| ------------------------------------------------------ |
+| [`Direct`](#SolverType.Direct) |
+| [`FullDamped`](#SolverType.FullDamped) |
+| [`Iterative`](#SolverType.Iterative) |
+| [`ProgramControlled`](#SolverType.ProgramControlled) |
+| [`ReducedDamped`](#SolverType.ReducedDamped) |
+| [`Subspace`](#SolverType.Subspace) |
+| [`Supernode`](#SolverType.Supernode) |
+| [`Unsymmetric`](#SolverType.Unsymmetric) |
 
 <a id="attribute-detail"></a>
 
 ## Attribute detail
 
-<a id="SolverType.FullDamped"></a>
-
-### SolverType.FullDamped *= 4*
-
 <a id="SolverType.Direct"></a>
 
 ### SolverType.Direct *= 1*
+
+<a id="SolverType.FullDamped"></a>
+
+### SolverType.FullDamped *= 4*
 
 <a id="SolverType.Iterative"></a>
 
@@ -51,13 +51,13 @@ Specifies the SolverType.
 
 ### SolverType.ReducedDamped *= 5*
 
-<a id="SolverType.Supernode"></a>
-
-### SolverType.Supernode *= 6*
-
 <a id="SolverType.Subspace"></a>
 
 ### SolverType.Subspace *= 7*
+
+<a id="SolverType.Supernode"></a>
+
+### SolverType.Supernode *= 6*
 
 <a id="SolverType.Unsymmetric"></a>
 

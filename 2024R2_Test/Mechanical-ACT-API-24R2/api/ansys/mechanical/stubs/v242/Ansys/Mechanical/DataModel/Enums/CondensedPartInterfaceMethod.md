@@ -1,6 +1,6 @@
 # `CondensedPartInterfaceMethod`
 
-
+<a id="ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.CondensedPartInterfaceMethod"></a>
 
 #### *class* ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.CondensedPartInterfaceMethod
 
@@ -17,7 +17,7 @@ Specifies the CondensedPartInterfaceMethod.
 ### Attributes
 
 | Name |
-| ------------------------------------------------------------------------------ |
+| ------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
 | [`Fixed`](#CondensedPartInterfaceMethod.Fixed) |
 | [`Free`](#CondensedPartInterfaceMethod.Free) |
 | [`ResidualFlexibleFree`](#CondensedPartInterfaceMethod.ResidualFlexibleFree) |

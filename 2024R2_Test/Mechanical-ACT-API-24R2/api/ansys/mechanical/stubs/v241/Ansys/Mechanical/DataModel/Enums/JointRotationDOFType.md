@@ -1,6 +1,6 @@
 # `JointRotationDOFType`
 
-
+<a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.JointRotationDOFType"></a>
 
 #### *class* ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.JointRotationDOFType
 
@@ -17,12 +17,12 @@ Specifies the JointRotationDOFType.
 ### Attributes
 
 | Name |
-| ------------------------------------------------------------------------------------------------------------------------ |
-| [`FixAll`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/JointRotationDOFType.md#JointRotationDOFType.FixAll) |
-| [`FreeX`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/JointRotationDOFType.md#JointRotationDOFType.FreeX) |
-| [`FreeAll`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/JointRotationDOFType.md#JointRotationDOFType.FreeAll) |
-| [`FreeY`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/JointRotationDOFType.md#JointRotationDOFType.FreeY) |
-| [`FreeZ`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/JointRotationDOFType.md#JointRotationDOFType.FreeZ) |
+| -------------------------------------------- |
+| [`FixAll`](#JointRotationDOFType.FixAll) |
+| [`FreeAll`](#JointRotationDOFType.FreeAll) |
+| [`FreeX`](#JointRotationDOFType.FreeX) |
+| [`FreeY`](#JointRotationDOFType.FreeY) |
+| [`FreeZ`](#JointRotationDOFType.FreeZ) |
 
 <a id="attribute-detail"></a>
 
@@ -32,13 +32,13 @@ Specifies the JointRotationDOFType.
 
 ### JointRotationDOFType.FixAll *= 0*
 
-<a id="JointRotationDOFType.FreeX"></a>
-
-### JointRotationDOFType.FreeX *= 1*
-
 <a id="JointRotationDOFType.FreeAll"></a>
 
 ### JointRotationDOFType.FreeAll *= 4*
+
+<a id="JointRotationDOFType.FreeX"></a>
+
+### JointRotationDOFType.FreeX *= 1*
 
 <a id="JointRotationDOFType.FreeY"></a>
 

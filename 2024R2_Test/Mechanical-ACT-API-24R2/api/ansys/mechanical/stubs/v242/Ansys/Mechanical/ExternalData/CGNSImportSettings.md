@@ -1,6 +1,6 @@
 # `CGNSImportSettings`
 
-
+<a id="ansys.mechanical.stubs.v242.Ansys.Mechanical.ExternalData.CGNSImportSettings"></a>
 
 #### *class* ansys.mechanical.stubs.v242.Ansys.Mechanical.ExternalData.CGNSImportSettings
 
@@ -17,14 +17,16 @@ T:Ansys.Mechanical.ExternalData.CGNSImportSettings defines how to import externa
 ### Properties
 
 | Name | Description |
-|------------|-------------------------------------------|
-| `Format`   | Gets the existing corresponding format.   |
+|------------------------------------------|-------------------------------------------|
+| [`Format`](#CGNSImportSettings.Format)   | Gets the existing corresponding format.   |
 
 <a id="property-detail"></a>
 
 ## Property detail
 
-### *property* CGNSImportSettings.Format *: [Ansys.Mechanical.DataModel.MechanicalEnums.ExternalData.ImportFormat](../../../../v241/Ansys/Mechanical/DataModel/MechanicalEnums/ExternalData/ImportFormat.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.MechanicalEnums.ExternalData.ImportFormat) | [None](https://docs.python.org/3/library/constants.html#None)*
+<a id="CGNSImportSettings.Format"></a>
+
+### *property* CGNSImportSettings.Format *: [Ansys.Mechanical.DataModel.MechanicalEnums.ExternalData.ImportFormat](../DataModel/MechanicalEnums/ExternalData/ImportFormat.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.MechanicalEnums.ExternalData.ImportFormat) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the existing corresponding format.
 

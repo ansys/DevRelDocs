@@ -1,6 +1,6 @@
 # `ChartResultType`
 
-
+<a id="ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.ChartResultType"></a>
 
 #### *class* ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.ChartResultType
 
@@ -17,56 +17,28 @@ Specifies the Chart Result Type.
 ### Attributes
 
 | Name |
-| ----------------------------------------------------------------------------------------------------- |
-| [`ContactResultPressure`](#ChartResultType.ContactResultPressure) |
-| [`ContactResultPenetration`](#ChartResultType.ContactResultPenetration) |
-| [`ContactResultGap`](#ChartResultType.ContactResultGap) |
-| [`ContactResultFrictionalStress`](#ChartResultType.ContactResultFrictionalStress) |
-| [`ContactResultSlidingDistance`](#ChartResultType.ContactResultSlidingDistance) |
-| [`ContactNumElementInStickingDefaultName`](#ChartResultType.ContactNumElementInStickingDefaultName) |
-| [`ContactNumElementInContact`](#ChartResultType.ContactNumElementInContact) |
+| ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | [`ContactCNOS`](#ChartResultType.ContactCNOS) |
 | [`ContactElasticSlip`](#ChartResultType.ContactElasticSlip) |
-| [`ContactNormalStiffness`](#ChartResultType.ContactNormalStiffness) |
+| [`ContactMaxDampingPressure`](#ChartResultType.ContactMaxDampingPressure) |
 | [`ContactMaxTangentialStiffness`](#ChartResultType.ContactMaxTangentialStiffness) |
 | [`ContactMinTangentialStiffness`](#ChartResultType.ContactMinTangentialStiffness) |
+| [`ContactNormalStiffness`](#ChartResultType.ContactNormalStiffness) |
+| [`ContactNumElementInContact`](#ChartResultType.ContactNumElementInContact) |
+| [`ContactNumElementInStickingDefaultName`](#ChartResultType.ContactNumElementInStickingDefaultName) |
 | [`ContactResultContactingArea`](#ChartResultType.ContactResultContactingArea) |
-| [`ContactMaxDampingPressure`](#ChartResultType.ContactMaxDampingPressure) |
 | [`ContactResultFluidPressure`](#ChartResultType.ContactResultFluidPressure) |
-| [`MinGeometricSlidingDistance`](#ChartResultType.MinGeometricSlidingDistance) |
+| [`ContactResultFrictionalStress`](#ChartResultType.ContactResultFrictionalStress) |
+| [`ContactResultGap`](#ChartResultType.ContactResultGap) |
+| [`ContactResultPenetration`](#ChartResultType.ContactResultPenetration) |
+| [`ContactResultPressure`](#ChartResultType.ContactResultPressure) |
+| [`ContactResultSlidingDistance`](#ChartResultType.ContactResultSlidingDistance) |
 | [`MaxGeometricSlidingDistance`](#ChartResultType.MaxGeometricSlidingDistance) |
+| [`MinGeometricSlidingDistance`](#ChartResultType.MinGeometricSlidingDistance) |
 
 <a id="attribute-detail"></a>
 
 ## Attribute detail
-
-<a id="ChartResultType.ContactResultPressure"></a>
-
-### ChartResultType.ContactResultPressure *= 0*
-
-<a id="ChartResultType.ContactResultPenetration"></a>
-
-### ChartResultType.ContactResultPenetration *= 1*
-
-<a id="ChartResultType.ContactResultGap"></a>
-
-### ChartResultType.ContactResultGap *= 2*
-
-<a id="ChartResultType.ContactResultFrictionalStress"></a>
-
-### ChartResultType.ContactResultFrictionalStress *= 3*
-
-<a id="ChartResultType.ContactResultSlidingDistance"></a>
-
-### ChartResultType.ContactResultSlidingDistance *= 4*
-
-<a id="ChartResultType.ContactNumElementInStickingDefaultName"></a>
-
-### ChartResultType.ContactNumElementInStickingDefaultName *= 5*
-
-<a id="ChartResultType.ContactNumElementInContact"></a>
-
-### ChartResultType.ContactNumElementInContact *= 6*
 
 <a id="ChartResultType.ContactCNOS"></a>
 
@@ -76,9 +48,9 @@ Specifies the Chart Result Type.
 
 ### ChartResultType.ContactElasticSlip *= 8*
 
-<a id="ChartResultType.ContactNormalStiffness"></a>
+<a id="ChartResultType.ContactMaxDampingPressure"></a>
 
-### ChartResultType.ContactNormalStiffness *= 9*
+### ChartResultType.ContactMaxDampingPressure *= 13*
 
 <a id="ChartResultType.ContactMaxTangentialStiffness"></a>
 
@@ -88,24 +60,52 @@ Specifies the Chart Result Type.
 
 ### ChartResultType.ContactMinTangentialStiffness *= 11*
 
+<a id="ChartResultType.ContactNormalStiffness"></a>
+
+### ChartResultType.ContactNormalStiffness *= 9*
+
+<a id="ChartResultType.ContactNumElementInContact"></a>
+
+### ChartResultType.ContactNumElementInContact *= 6*
+
+<a id="ChartResultType.ContactNumElementInStickingDefaultName"></a>
+
+### ChartResultType.ContactNumElementInStickingDefaultName *= 5*
+
 <a id="ChartResultType.ContactResultContactingArea"></a>
 
 ### ChartResultType.ContactResultContactingArea *= 12*
-
-<a id="ChartResultType.ContactMaxDampingPressure"></a>
-
-### ChartResultType.ContactMaxDampingPressure *= 13*
 
 <a id="ChartResultType.ContactResultFluidPressure"></a>
 
 ### ChartResultType.ContactResultFluidPressure *= 14*
 
-<a id="ChartResultType.MinGeometricSlidingDistance"></a>
+<a id="ChartResultType.ContactResultFrictionalStress"></a>
 
-### ChartResultType.MinGeometricSlidingDistance *= 15*
+### ChartResultType.ContactResultFrictionalStress *= 3*
+
+<a id="ChartResultType.ContactResultGap"></a>
+
+### ChartResultType.ContactResultGap *= 2*
+
+<a id="ChartResultType.ContactResultPenetration"></a>
+
+### ChartResultType.ContactResultPenetration *= 1*
+
+<a id="ChartResultType.ContactResultPressure"></a>
+
+### ChartResultType.ContactResultPressure *= 0*
+
+<a id="ChartResultType.ContactResultSlidingDistance"></a>
+
+### ChartResultType.ContactResultSlidingDistance *= 4*
 
 <a id="ChartResultType.MaxGeometricSlidingDistance"></a>
 
 ### ChartResultType.MaxGeometricSlidingDistance *= 16*
+
+<a id="ChartResultType.MinGeometricSlidingDistance"></a>
+
+### ChartResultType.MinGeometricSlidingDistance *= 15*
 
 

@@ -1,6 +1,6 @@
 # `AccelerationProbe`
 
-
+<a id="ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Results.ProbeResults.AccelerationProbe"></a>
 
 #### *class* ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Results.ProbeResults.AccelerationProbe
 
@@ -17,137 +17,83 @@ Defines a AccelerationProbe.
 ### Methods
 
 | Name | Description |
-|---------------------------|-----------------------------------------------------------------------------------|
-| `ExportAnimation`         | Run the ExportAnimation action.                                                   |
-| `ClearGeneratedData`      | Run the ClearGeneratedData action.                                                |
-| `DuplicateWithoutResults` | Run the DuplicateWithoutResults action.                                           |
-| `EvaluateAllResults`      | Run the EvaluateAllResults action.                                                |
-| `SnapToMeshNodes`         | Snap the coordinates of probe result to the mesh nodes.                           |
-| `RenameBasedOnDefinition` | Run the RenameBasedOnDefinition action.                                           |
-| `Delete`                  | Run the Delete action.                                                            |
-| `GetChildren`             | Gets the list of children, filtered by type.                                      |
-| `GetChildren`             | Gets the list of children, filtered by type.                                      |
-| `AddComment`              | Creates a new child Comment.                                                      |
-| `AddFigure`               | Creates a new child Figure.                                                       |
-| `AddImage`                | Creates a new child Image.                                                        |
-| `Activate`                | Activate the current object.                                                      |
-| `CopyTo`                  | Copies all visible properties from this object to another.                        |
-| `Duplicate`               | Creates a copy of the current DataModelObject.                                    |
-| `GroupAllSimilarChildren` | Run the GroupAllSimilarChildren action.                                           |
-| `GroupSimilarObjects`     | Run the GroupSimilarObjects action.                                               |
-| `PropertyByName`          | Get a property by its unique name.                                                |
-| `PropertyByAPIName`       | Get a property by its API name.                                                   |
-| `CreateParameter`         | Creates a new parameter for a Property.                                           |
-| `GetParameter`            | Gets the parameter corresponding to the given property.                           |
-| `RemoveParameter`         | Removes the parameter from the parameter set corresponding to the given property. |
+|-------------------------------------------------------------------------|-----------------------------------------------------------------------------------|
+| [`Activate`](#AccelerationProbe.Activate)                               | Activate the current object.                                                      |
+| [`AddComment`](#AccelerationProbe.AddComment)                           | Creates a new child Comment.                                                      |
+| [`AddFigure`](#AccelerationProbe.AddFigure)                             | Creates a new child Figure.                                                       |
+| [`AddImage`](#AccelerationProbe.AddImage)                               | Creates a new child Image.                                                        |
+| [`ClearGeneratedData`](#AccelerationProbe.ClearGeneratedData)           | Run the ClearGeneratedData action.                                                |
+| [`CopyTo`](#AccelerationProbe.CopyTo)                                   | Copies all visible properties from this object to another.                        |
+| [`CreateParameter`](#AccelerationProbe.CreateParameter)                 | Creates a new parameter for a Property.                                           |
+| [`Delete`](#AccelerationProbe.Delete)                                   | Run the Delete action.                                                            |
+| [`Duplicate`](#AccelerationProbe.Duplicate)                             | Creates a copy of the current DataModelObject.                                    |
+| [`DuplicateWithoutResults`](#AccelerationProbe.DuplicateWithoutResults) | Run the DuplicateWithoutResults action.                                           |
+| [`EvaluateAllResults`](#AccelerationProbe.EvaluateAllResults)           | Run the EvaluateAllResults action.                                                |
+| [`ExportAnimation`](#AccelerationProbe.ExportAnimation)                 | Run the ExportAnimation action.                                                   |
+| [`GetChildren`](#AccelerationProbe.GetChildren)                         | Gets the list of children, filtered by type.                                      |
+| [`GetParameter`](#AccelerationProbe.GetParameter)                       | Gets the parameter corresponding to the given property.                           |
+| [`GroupAllSimilarChildren`](#AccelerationProbe.GroupAllSimilarChildren) | Run the GroupAllSimilarChildren action.                                           |
+| [`GroupSimilarObjects`](#AccelerationProbe.GroupSimilarObjects)         | Run the GroupSimilarObjects action.                                               |
+| [`PropertyByAPIName`](#AccelerationProbe.PropertyByAPIName)             | Get a property by its API name.                                                   |
+| [`PropertyByName`](#AccelerationProbe.PropertyByName)                   | Get a property by its unique name.                                                |
+| [`RemoveParameter`](#AccelerationProbe.RemoveParameter)                 | Removes the parameter from the parameter set corresponding to the given property. |
+| [`RenameBasedOnDefinition`](#AccelerationProbe.RenameBasedOnDefinition) | Run the RenameBasedOnDefinition action.                                           |
+| [`SnapToMeshNodes`](#AccelerationProbe.SnapToMeshNodes)                 | Snap the coordinates of probe result to the mesh nodes.                           |
 
 ### Properties
 
 | Name | Description |
-|------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| `InternalObject`             | Gets the internal object. For advanced usage only.                                                                                                                         |
-| `DataModelObjectCategory`    | Gets the current DataModelObject's category.                                                                                                                               |
-| `Summation`                  | Gets or sets the Summation.                                                                                                                                                |
-| `LocationMethod`             | Gets or sets the LocationMethod.                                                                                                                                           |
-| `GeometryLocation`           | Gets or sets the GeometryLocation.                                                                                                                                         |
-| `CoordinateSystemSelection`  | Gets or sets the CoordinateSystemSelection.                                                                                                                                |
-| `BoundaryConditionSelection` | Gets or sets the BoundaryConditionSelection. In order to select the option 'WeakSprings', please use the property 'LocationMethod = LocationDefinitionMethod.WeakSprings'. |
-| `ContactRegionSelection`     | Gets or sets the ContactRegionSelection.                                                                                                                                   |
-| `RemotePointSelection`       | Gets or sets the RemotePointSelection.                                                                                                                                     |
-| `BeamSelection`              | Gets or sets the BeamSelection.                                                                                                                                            |
-| `MeshConnectionSelection`    | Gets or sets the MeshConnectionSelection.                                                                                                                                  |
-| `SurfaceSelection`           | Gets or sets the MeshConnectionSelection.                                                                                                                                  |
-| `SpringSelection`            | Gets or sets the SpringSelection.                                                                                                                                          |
-| `IsSolved`                   | Gets the IsSolved.                                                                                                                                                         |
-| `Orientation`                | Gets or sets the Orientation. Accepts/Returns None if it is the Solution Coordinate System.                                                                                |
-| `IterationNumber`            | Gets the IterationNumber.                                                                                                                                                  |
-| `LoadStep`                   | Gets the LoadStep.                                                                                                                                                         |
-| `LoadStepNumber`             | Gets or sets the LoadStepNumber.                                                                                                                                           |
-| `Substep`                    | Gets the Substep.                                                                                                                                                          |
-| `DisplayTime`                | Gets or sets the DisplayTime.                                                                                                                                              |
-| `MaximumTotal`               | Gets the MaximumTotal.                                                                                                                                                     |
-| `MaximumXAxis`               | Gets the MaximumXAxis.                                                                                                                                                     |
-| `MaximumYAxis`               | Gets the MaximumYAxis.                                                                                                                                                     |
-| `MaximumZAxis`               | Gets the MaximumZAxis.                                                                                                                                                     |
-| `MinimumTotal`               | Gets the MinimumTotal.                                                                                                                                                     |
-| `MinimumXAxis`               | Gets the MinimumXAxis.                                                                                                                                                     |
-| `MinimumYAxis`               | Gets the MinimumYAxis.                                                                                                                                                     |
-| `MinimumZAxis`               | Gets the MinimumZAxis.                                                                                                                                                     |
-| `Time`                       | Gets the Time.                                                                                                                                                             |
-| `Total`                      | Gets the Total.                                                                                                                                                            |
-| `XAxis`                      | Gets the XAxis.                                                                                                                                                            |
-| `YAxis`                      | Gets the YAxis.                                                                                                                                                            |
-| `ZAxis`                      | Gets the ZAxis.                                                                                                                                                            |
-| `ResultSelection`            | Gets or sets the ResultSelection.                                                                                                                                          |
-| `SpatialResolution`          | Gets or sets the SpatialResolution.                                                                                                                                        |
-| `Type`                       | Gets the Type.                                                                                                                                                             |
-| `DpfEvaluation`              | Gets or sets the DpfEvaluation.                                                                                                                                            |
-| `Suppressed`                 | Gets or sets the Suppressed.                                                                                                                                               |
-| `Children`                   | Gets the list of children.                                                                                                                                                 |
-| `Comments`                   | Gets the list of associated comments.                                                                                                                                      |
-| `Figures`                    | Gets the list of associated figures.                                                                                                                                       |
-| `Images`                     | Gets the list of associated images.                                                                                                                                        |
-| `InternalObject`             | Gets the internal object. For advanced usage only.                                                                                                                         |
-| `Properties`                 | Gets the list of properties for this object.                                                                                                                               |
-| `VisibleProperties`          | Gets the list of properties that are visible for this object.                                                                                                              |
+|-------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| [`BeamSelection`](#AccelerationProbe.BeamSelection)                           | Gets or sets the BeamSelection.                                                                                                                                            |
+| [`BoundaryConditionSelection`](#AccelerationProbe.BoundaryConditionSelection) | Gets or sets the BoundaryConditionSelection. In order to select the option ‘WeakSprings’, please use the property ‘LocationMethod = LocationDefinitionMethod.WeakSprings’. |
+| [`Children`](#AccelerationProbe.Children)                                     | Gets the list of children.                                                                                                                                                 |
+| [`Comments`](#AccelerationProbe.Comments)                                     | Gets the list of associated comments.                                                                                                                                      |
+| [`ContactRegionSelection`](#AccelerationProbe.ContactRegionSelection)         | Gets or sets the ContactRegionSelection.                                                                                                                                   |
+| [`CoordinateSystemSelection`](#AccelerationProbe.CoordinateSystemSelection)   | Gets or sets the CoordinateSystemSelection.                                                                                                                                |
+| [`DataModelObjectCategory`](#AccelerationProbe.DataModelObjectCategory)       | Gets the current DataModelObject’s category.                                                                                                                               |
+| [`DisplayTime`](#AccelerationProbe.DisplayTime)                               | Gets or sets the DisplayTime.                                                                                                                                              |
+| [`DpfEvaluation`](#AccelerationProbe.DpfEvaluation)                           | Gets or sets the DpfEvaluation.                                                                                                                                            |
+| [`Figures`](#AccelerationProbe.Figures)                                       | Gets the list of associated figures.                                                                                                                                       |
+| [`GeometryLocation`](#AccelerationProbe.GeometryLocation)                     | Gets or sets the GeometryLocation.                                                                                                                                         |
+| [`Images`](#AccelerationProbe.Images)                                         | Gets the list of associated images.                                                                                                                                        |
+| [`InternalObject`](#AccelerationProbe.InternalObject)                         | Gets the internal object. For advanced usage only.                                                                                                                         |
+| [`IsSolved`](#AccelerationProbe.IsSolved)                                     | Gets the IsSolved.                                                                                                                                                         |
+| [`IterationNumber`](#AccelerationProbe.IterationNumber)                       | Gets the IterationNumber.                                                                                                                                                  |
+| [`LoadStep`](#AccelerationProbe.LoadStep)                                     | Gets the LoadStep.                                                                                                                                                         |
+| [`LoadStepNumber`](#AccelerationProbe.LoadStepNumber)                         | Gets or sets the LoadStepNumber.                                                                                                                                           |
+| [`LocationMethod`](#AccelerationProbe.LocationMethod)                         | Gets or sets the LocationMethod.                                                                                                                                           |
+| [`MaximumTotal`](#AccelerationProbe.MaximumTotal)                             | Gets the MaximumTotal.                                                                                                                                                     |
+| [`MaximumXAxis`](#AccelerationProbe.MaximumXAxis)                             | Gets the MaximumXAxis.                                                                                                                                                     |
+| [`MaximumYAxis`](#AccelerationProbe.MaximumYAxis)                             | Gets the MaximumYAxis.                                                                                                                                                     |
+| [`MaximumZAxis`](#AccelerationProbe.MaximumZAxis)                             | Gets the MaximumZAxis.                                                                                                                                                     |
+| [`MeshConnectionSelection`](#AccelerationProbe.MeshConnectionSelection)       | Gets or sets the MeshConnectionSelection.                                                                                                                                  |
+| [`MinimumTotal`](#AccelerationProbe.MinimumTotal)                             | Gets the MinimumTotal.                                                                                                                                                     |
+| [`MinimumXAxis`](#AccelerationProbe.MinimumXAxis)                             | Gets the MinimumXAxis.                                                                                                                                                     |
+| [`MinimumYAxis`](#AccelerationProbe.MinimumYAxis)                             | Gets the MinimumYAxis.                                                                                                                                                     |
+| [`MinimumZAxis`](#AccelerationProbe.MinimumZAxis)                             | Gets the MinimumZAxis.                                                                                                                                                     |
+| [`Orientation`](#AccelerationProbe.Orientation)                               | Gets or sets the Orientation. Accepts/Returns None if it is the Solution Coordinate System.                                                                                |
+| [`Properties`](#AccelerationProbe.Properties)                                 | Gets the list of properties for this object.                                                                                                                               |
+| [`RemotePointSelection`](#AccelerationProbe.RemotePointSelection)             | Gets or sets the RemotePointSelection.                                                                                                                                     |
+| [`ResultSelection`](#AccelerationProbe.ResultSelection)                       | Gets or sets the ResultSelection.                                                                                                                                          |
+| [`SpatialResolution`](#AccelerationProbe.SpatialResolution)                   | Gets or sets the SpatialResolution.                                                                                                                                        |
+| [`SpringSelection`](#AccelerationProbe.SpringSelection)                       | Gets or sets the SpringSelection.                                                                                                                                          |
+| [`Substep`](#AccelerationProbe.Substep)                                       | Gets the Substep.                                                                                                                                                          |
+| [`Summation`](#AccelerationProbe.Summation)                                   | Gets or sets the Summation.                                                                                                                                                |
+| [`Suppressed`](#AccelerationProbe.Suppressed)                                 | Gets or sets the Suppressed.                                                                                                                                               |
+| [`SurfaceSelection`](#AccelerationProbe.SurfaceSelection)                     | Gets or sets the MeshConnectionSelection.                                                                                                                                  |
+| [`Time`](#AccelerationProbe.Time)                                             | Gets the Time.                                                                                                                                                             |
+| [`Total`](#AccelerationProbe.Total)                                           | Gets the Total.                                                                                                                                                            |
+| [`Type`](#AccelerationProbe.Type)                                             | Gets the Type.                                                                                                                                                             |
+| [`VisibleProperties`](#AccelerationProbe.VisibleProperties)                   | Gets the list of properties that are visible for this object.                                                                                                              |
+| [`XAxis`](#AccelerationProbe.XAxis)                                           | Gets the XAxis.                                                                                                                                                            |
+| [`YAxis`](#AccelerationProbe.YAxis)                                           | Gets the YAxis.                                                                                                                                                            |
+| [`ZAxis`](#AccelerationProbe.ZAxis)                                           | Gets the ZAxis.                                                                                                                                                            |
 
 <a id="property-detail"></a>
 
 ## Property detail
 
-### *property* AccelerationProbe.InternalObject *: Ansys.Common.Interop.DSObjectsAuto.IDSProbeResultAuto | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets the internal object. For advanced usage only.
-
-<!-- !! processed by numpydoc !! -->
-
-### *property* AccelerationProbe.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets the current DataModelObject's category.
-
-<!-- !! processed by numpydoc !! -->
-
-### *property* AccelerationProbe.Summation *: [Ansys.Mechanical.DataModel.Enums.MomentsAtSummationPointType](../../../../../Mechanical/DataModel/Enums/MomentsAtSummationPointType.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.MomentsAtSummationPointType) | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the Summation.
-
-<!-- !! processed by numpydoc !! -->
-
-### *property* AccelerationProbe.LocationMethod *: [Ansys.Mechanical.DataModel.Enums.LocationDefinitionMethod](../../../../../Mechanical/DataModel/Enums/LocationDefinitionMethod.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.LocationDefinitionMethod) | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the LocationMethod.
-
-<!-- !! processed by numpydoc !! -->
-
-### *property* AccelerationProbe.GeometryLocation *: Ansys.ACT.Interfaces.Common.ISelectionInfo | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the GeometryLocation.
-
-<!-- !! processed by numpydoc !! -->
-
-### *property* AccelerationProbe.CoordinateSystemSelection *: [Ansys.ACT.Automation.Mechanical.CoordinateSystem](../../CoordinateSystem.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.CoordinateSystem) | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the CoordinateSystemSelection.
-
-<!-- !! processed by numpydoc !! -->
-
-### *property* AccelerationProbe.BoundaryConditionSelection *: Ansys.ACT.Automation.Mechanical.DataModelObject | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the BoundaryConditionSelection. In order to select the option 'WeakSprings', please use the property 'LocationMethod = LocationDefinitionMethod.WeakSprings'.
-
-<!-- !! processed by numpydoc !! -->
-
-### *property* AccelerationProbe.ContactRegionSelection *: [Ansys.ACT.Automation.Mechanical.Connections.ContactRegion](../../Connections/ContactRegion.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Connections.ContactRegion) | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the ContactRegionSelection.
-
-<!-- !! processed by numpydoc !! -->
-
-### *property* AccelerationProbe.RemotePointSelection *: [Ansys.ACT.Automation.Mechanical.RemotePoint](../../RemotePoint.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.RemotePoint) | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the RemotePointSelection.
-
-<!-- !! processed by numpydoc !! -->
+<a id="AccelerationProbe.BeamSelection"></a>
 
 ### *property* AccelerationProbe.BeamSelection *: [Ansys.ACT.Automation.Mechanical.Connections.Beam](../../Connections/Beam.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Connections.Beam) | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -155,173 +101,15 @@ Gets or sets the BeamSelection.
 
 <!-- !! processed by numpydoc !! -->
 
-### *property* AccelerationProbe.MeshConnectionSelection *: [Ansys.ACT.Automation.Mechanical.MeshConnection](../../MeshConnection.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.MeshConnection) | [None](https://docs.python.org/3/library/constants.html#None)*
+<a id="AccelerationProbe.BoundaryConditionSelection"></a>
 
-Gets or sets the MeshConnectionSelection.
+### *property* AccelerationProbe.BoundaryConditionSelection *: Ansys.ACT.Automation.Mechanical.DataModelObject | [None](https://docs.python.org/3/library/constants.html#None)*
 
-<!-- !! processed by numpydoc !! -->
-
-### *property* AccelerationProbe.SurfaceSelection *: [Ansys.ACT.Automation.Mechanical.Surface](../../Surface.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Surface) | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the MeshConnectionSelection.
+Gets or sets the BoundaryConditionSelection. In order to select the option ‘WeakSprings’, please use the property ‘LocationMethod = LocationDefinitionMethod.WeakSprings’.
 
 <!-- !! processed by numpydoc !! -->
 
-### *property* AccelerationProbe.SpringSelection *: [Ansys.ACT.Automation.Mechanical.Connections.Spring](../../Connections/Spring.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Connections.Spring) | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the SpringSelection.
-
-<!-- !! processed by numpydoc !! -->
-
-### *property* AccelerationProbe.IsSolved *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets the IsSolved.
-
-<!-- !! processed by numpydoc !! -->
-
-### *property* AccelerationProbe.Orientation *: [Ansys.ACT.Automation.Mechanical.CoordinateSystem](../../CoordinateSystem.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.CoordinateSystem) | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the Orientation. Accepts/Returns None if it is the Solution Coordinate System.
-
-<!-- !! processed by numpydoc !! -->
-
-### *property* AccelerationProbe.IterationNumber *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets the IterationNumber.
-
-<!-- !! processed by numpydoc !! -->
-
-### *property* AccelerationProbe.LoadStep *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets the LoadStep.
-
-<!-- !! processed by numpydoc !! -->
-
-### *property* AccelerationProbe.LoadStepNumber *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the LoadStepNumber.
-
-<!-- !! processed by numpydoc !! -->
-
-### *property* AccelerationProbe.Substep *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets the Substep.
-
-<!-- !! processed by numpydoc !! -->
-
-### *property* AccelerationProbe.DisplayTime *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the DisplayTime.
-
-<!-- !! processed by numpydoc !! -->
-
-### *property* AccelerationProbe.MaximumTotal *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets the MaximumTotal.
-
-<!-- !! processed by numpydoc !! -->
-
-### *property* AccelerationProbe.MaximumXAxis *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets the MaximumXAxis.
-
-<!-- !! processed by numpydoc !! -->
-
-### *property* AccelerationProbe.MaximumYAxis *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets the MaximumYAxis.
-
-<!-- !! processed by numpydoc !! -->
-
-### *property* AccelerationProbe.MaximumZAxis *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets the MaximumZAxis.
-
-<!-- !! processed by numpydoc !! -->
-
-### *property* AccelerationProbe.MinimumTotal *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets the MinimumTotal.
-
-<!-- !! processed by numpydoc !! -->
-
-### *property* AccelerationProbe.MinimumXAxis *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets the MinimumXAxis.
-
-<!-- !! processed by numpydoc !! -->
-
-### *property* AccelerationProbe.MinimumYAxis *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets the MinimumYAxis.
-
-<!-- !! processed by numpydoc !! -->
-
-### *property* AccelerationProbe.MinimumZAxis *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets the MinimumZAxis.
-
-<!-- !! processed by numpydoc !! -->
-
-### *property* AccelerationProbe.Time *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets the Time.
-
-<!-- !! processed by numpydoc !! -->
-
-### *property* AccelerationProbe.Total *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets the Total.
-
-<!-- !! processed by numpydoc !! -->
-
-### *property* AccelerationProbe.XAxis *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets the XAxis.
-
-<!-- !! processed by numpydoc !! -->
-
-### *property* AccelerationProbe.YAxis *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets the YAxis.
-
-<!-- !! processed by numpydoc !! -->
-
-### *property* AccelerationProbe.ZAxis *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets the ZAxis.
-
-<!-- !! processed by numpydoc !! -->
-
-### *property* AccelerationProbe.ResultSelection *: [Ansys.Mechanical.DataModel.Enums.ProbeDisplayFilter](../../../../../Mechanical/DataModel/Enums/ProbeDisplayFilter.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.ProbeDisplayFilter) | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the ResultSelection.
-
-<!-- !! processed by numpydoc !! -->
-
-### *property* AccelerationProbe.SpatialResolution *: [Ansys.Mechanical.DataModel.Enums.MinimumOrMaximum](../../../../../Mechanical/DataModel/Enums/MinimumOrMaximum.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.MinimumOrMaximum) | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the SpatialResolution.
-
-<!-- !! processed by numpydoc !! -->
-
-### *property* AccelerationProbe.Type *: [Ansys.Mechanical.DataModel.Enums.ProbeResultType](../../../../../Mechanical/DataModel/Enums/ProbeResultType.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.ProbeResultType) | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets the Type.
-
-<!-- !! processed by numpydoc !! -->
-
-### *property* AccelerationProbe.DpfEvaluation *: [Ansys.Mechanical.DataModel.Enums.DpfEvaluationType](../../../../../Mechanical/DataModel/Enums/DpfEvaluationType.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DpfEvaluationType) | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the DpfEvaluation.
-
-<!-- !! processed by numpydoc !! -->
-
-### *property* AccelerationProbe.Suppressed *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the Suppressed.
-
-<!-- !! processed by numpydoc !! -->
+<a id="AccelerationProbe.Children"></a>
 
 ### *property* AccelerationProbe.Children *: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -329,11 +117,55 @@ Gets the list of children.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="AccelerationProbe.Comments"></a>
+
 ### *property* AccelerationProbe.Comments *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Comment](../../Comment.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated comments.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="AccelerationProbe.ContactRegionSelection"></a>
+
+### *property* AccelerationProbe.ContactRegionSelection *: [Ansys.ACT.Automation.Mechanical.Connections.ContactRegion](../../Connections/ContactRegion.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Connections.ContactRegion) | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the ContactRegionSelection.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="AccelerationProbe.CoordinateSystemSelection"></a>
+
+### *property* AccelerationProbe.CoordinateSystemSelection *: [Ansys.ACT.Automation.Mechanical.CoordinateSystem](../../CoordinateSystem.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.CoordinateSystem) | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the CoordinateSystemSelection.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="AccelerationProbe.DataModelObjectCategory"></a>
+
+### *property* AccelerationProbe.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../../../v242/Ansys/Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets the current DataModelObject’s category.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="AccelerationProbe.DisplayTime"></a>
+
+### *property* AccelerationProbe.DisplayTime *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the DisplayTime.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="AccelerationProbe.DpfEvaluation"></a>
+
+### *property* AccelerationProbe.DpfEvaluation *: [Ansys.Mechanical.DataModel.Enums.DpfEvaluationType](../../../../../../../v242/Ansys/Mechanical/DataModel/Enums/DpfEvaluationType.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.DpfEvaluationType) | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the DpfEvaluation.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="AccelerationProbe.Figures"></a>
 
 ### *property* AccelerationProbe.Figures *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Figure](../../Figure.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -341,17 +173,151 @@ Gets the list of associated figures.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="AccelerationProbe.GeometryLocation"></a>
+
+### *property* AccelerationProbe.GeometryLocation *: Ansys.ACT.Interfaces.Common.ISelectionInfo | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the GeometryLocation.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="AccelerationProbe.Images"></a>
+
 ### *property* AccelerationProbe.Images *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Image](../../Image.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated images.
 
 <!-- !! processed by numpydoc !! -->
 
-### *property* AccelerationProbe.InternalObject *: System.Object | [None](https://docs.python.org/3/library/constants.html#None)*
+<a id="AccelerationProbe.InternalObject"></a>
+
+### *property* AccelerationProbe.InternalObject *: Ansys.Common.Interop.DSObjectsAuto.IDSProbeResultAuto | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the internal object. For advanced usage only.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="AccelerationProbe.IsSolved"></a>
+
+### *property* AccelerationProbe.IsSolved *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets the IsSolved.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="AccelerationProbe.IterationNumber"></a>
+
+### *property* AccelerationProbe.IterationNumber *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets the IterationNumber.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="AccelerationProbe.LoadStep"></a>
+
+### *property* AccelerationProbe.LoadStep *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets the LoadStep.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="AccelerationProbe.LoadStepNumber"></a>
+
+### *property* AccelerationProbe.LoadStepNumber *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the LoadStepNumber.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="AccelerationProbe.LocationMethod"></a>
+
+### *property* AccelerationProbe.LocationMethod *: [Ansys.Mechanical.DataModel.Enums.LocationDefinitionMethod](../../../../../../../v242/Ansys/Mechanical/DataModel/Enums/LocationDefinitionMethod.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.LocationDefinitionMethod) | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the LocationMethod.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="AccelerationProbe.MaximumTotal"></a>
+
+### *property* AccelerationProbe.MaximumTotal *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets the MaximumTotal.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="AccelerationProbe.MaximumXAxis"></a>
+
+### *property* AccelerationProbe.MaximumXAxis *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets the MaximumXAxis.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="AccelerationProbe.MaximumYAxis"></a>
+
+### *property* AccelerationProbe.MaximumYAxis *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets the MaximumYAxis.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="AccelerationProbe.MaximumZAxis"></a>
+
+### *property* AccelerationProbe.MaximumZAxis *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets the MaximumZAxis.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="AccelerationProbe.MeshConnectionSelection"></a>
+
+### *property* AccelerationProbe.MeshConnectionSelection *: [Ansys.ACT.Automation.Mechanical.MeshConnection](../../MeshConnection.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.MeshConnection) | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the MeshConnectionSelection.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="AccelerationProbe.MinimumTotal"></a>
+
+### *property* AccelerationProbe.MinimumTotal *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets the MinimumTotal.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="AccelerationProbe.MinimumXAxis"></a>
+
+### *property* AccelerationProbe.MinimumXAxis *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets the MinimumXAxis.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="AccelerationProbe.MinimumYAxis"></a>
+
+### *property* AccelerationProbe.MinimumYAxis *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets the MinimumYAxis.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="AccelerationProbe.MinimumZAxis"></a>
+
+### *property* AccelerationProbe.MinimumZAxis *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets the MinimumZAxis.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="AccelerationProbe.Orientation"></a>
+
+### *property* AccelerationProbe.Orientation *: [Ansys.ACT.Automation.Mechanical.CoordinateSystem](../../CoordinateSystem.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.CoordinateSystem) | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the Orientation. Accepts/Returns None if it is the Solution Coordinate System.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="AccelerationProbe.Properties"></a>
 
 ### *property* AccelerationProbe.Properties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -359,9 +325,123 @@ Gets the list of properties for this object.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="AccelerationProbe.RemotePointSelection"></a>
+
+### *property* AccelerationProbe.RemotePointSelection *: [Ansys.ACT.Automation.Mechanical.RemotePoint](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/RemotePoint.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.RemotePoint) | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the RemotePointSelection.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="AccelerationProbe.ResultSelection"></a>
+
+### *property* AccelerationProbe.ResultSelection *: [Ansys.Mechanical.DataModel.Enums.ProbeDisplayFilter](../../../../../../../v242/Ansys/Mechanical/DataModel/Enums/ProbeDisplayFilter.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.ProbeDisplayFilter) | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the ResultSelection.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="AccelerationProbe.SpatialResolution"></a>
+
+### *property* AccelerationProbe.SpatialResolution *: [Ansys.Mechanical.DataModel.Enums.MinimumOrMaximum](../../../../../../../v242/Ansys/Mechanical/DataModel/Enums/MinimumOrMaximum.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.MinimumOrMaximum) | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the SpatialResolution.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="AccelerationProbe.SpringSelection"></a>
+
+### *property* AccelerationProbe.SpringSelection *: [Ansys.ACT.Automation.Mechanical.Connections.Spring](../../Connections/Spring.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Connections.Spring) | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the SpringSelection.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="AccelerationProbe.Substep"></a>
+
+### *property* AccelerationProbe.Substep *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets the Substep.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="AccelerationProbe.Summation"></a>
+
+### *property* AccelerationProbe.Summation *: [Ansys.Mechanical.DataModel.Enums.MomentsAtSummationPointType](../../../../../../../v242/Ansys/Mechanical/DataModel/Enums/MomentsAtSummationPointType.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.MomentsAtSummationPointType) | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the Summation.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="AccelerationProbe.Suppressed"></a>
+
+### *property* AccelerationProbe.Suppressed *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the Suppressed.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="AccelerationProbe.SurfaceSelection"></a>
+
+### *property* AccelerationProbe.SurfaceSelection *: [Ansys.ACT.Automation.Mechanical.Surface](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Surface.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Surface) | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the MeshConnectionSelection.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="AccelerationProbe.Time"></a>
+
+### *property* AccelerationProbe.Time *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets the Time.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="AccelerationProbe.Total"></a>
+
+### *property* AccelerationProbe.Total *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets the Total.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="AccelerationProbe.Type"></a>
+
+### *property* AccelerationProbe.Type *: [Ansys.Mechanical.DataModel.Enums.ProbeResultType](../../../../../../../v242/Ansys/Mechanical/DataModel/Enums/ProbeResultType.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.ProbeResultType) | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets the Type.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="AccelerationProbe.VisibleProperties"></a>
+
 ### *property* AccelerationProbe.VisibleProperties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of properties that are visible for this object.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="AccelerationProbe.XAxis"></a>
+
+### *property* AccelerationProbe.XAxis *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets the XAxis.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="AccelerationProbe.YAxis"></a>
+
+### *property* AccelerationProbe.YAxis *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets the YAxis.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="AccelerationProbe.ZAxis"></a>
+
+### *property* AccelerationProbe.ZAxis *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets the ZAxis.
 
 <!-- !! processed by numpydoc !! -->
 
@@ -369,59 +449,15 @@ Gets the list of properties that are visible for this object.
 
 ## Method detail
 
-### AccelerationProbe.ExportAnimation(filePath: System.String, format: [Ansys.Mechanical.DataModel.Enums.GraphicsAnimationExportFormat](../../../../../Mechanical/DataModel/Enums/GraphicsAnimationExportFormat.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.GraphicsAnimationExportFormat), settings: [Ansys.Mechanical.Graphics.AnimationExportSettings](../../../../../Mechanical/Graphics/AnimationExportSettings.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.Graphics.AnimationExportSettings))
+<a id="AccelerationProbe.Activate"></a>
 
-Run the ExportAnimation action.
+### AccelerationProbe.Activate()
 
-<!-- !! processed by numpydoc !! -->
-
-### AccelerationProbe.ClearGeneratedData()
-
-Run the ClearGeneratedData action.
+Activate the current object.
 
 <!-- !! processed by numpydoc !! -->
 
-### AccelerationProbe.DuplicateWithoutResults()
-
-Run the DuplicateWithoutResults action.
-
-<!-- !! processed by numpydoc !! -->
-
-### AccelerationProbe.EvaluateAllResults()
-
-Run the EvaluateAllResults action.
-
-<!-- !! processed by numpydoc !! -->
-
-### AccelerationProbe.SnapToMeshNodes()
-
-Snap the coordinates of probe result to the mesh nodes.
-
-<!-- !! processed by numpydoc !! -->
-
-### AccelerationProbe.RenameBasedOnDefinition()
-
-Run the RenameBasedOnDefinition action.
-
-<!-- !! processed by numpydoc !! -->
-
-### AccelerationProbe.Delete()
-
-Run the Delete action.
-
-<!-- !! processed by numpydoc !! -->
-
-### AccelerationProbe.GetChildren(recurses: System.Boolean, children: System.Collections.Generic.IList[ChildrenType])
-
-Gets the list of children, filtered by type.
-
-<!-- !! processed by numpydoc !! -->
-
-### AccelerationProbe.GetChildren(category: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory), recurses: System.Boolean, children: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject])
-
-Gets the list of children, filtered by type.
-
-<!-- !! processed by numpydoc !! -->
+<a id="AccelerationProbe.AddComment"></a>
 
 ### AccelerationProbe.AddComment()
 
@@ -429,11 +465,15 @@ Creates a new child Comment.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="AccelerationProbe.AddFigure"></a>
+
 ### AccelerationProbe.AddFigure()
 
 Creates a new child Figure.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="AccelerationProbe.AddImage"></a>
 
 ### AccelerationProbe.AddImage(filePath: System.String)
 
@@ -445,11 +485,15 @@ if not, the image will be a screen capture of the Geometry window.
 
 <!-- !! processed by numpydoc !! -->
 
-### AccelerationProbe.Activate()
+<a id="AccelerationProbe.ClearGeneratedData"></a>
 
-Activate the current object.
+### AccelerationProbe.ClearGeneratedData()
+
+Run the ClearGeneratedData action.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="AccelerationProbe.CopyTo"></a>
 
 ### AccelerationProbe.CopyTo(other: Ansys.ACT.Automation.Mechanical.DataModelObject)
 
@@ -457,11 +501,71 @@ Copies all visible properties from this object to another.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="AccelerationProbe.CreateParameter"></a>
+
+### AccelerationProbe.CreateParameter(propName: System.String)
+
+Creates a new parameter for a Property.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="AccelerationProbe.Delete"></a>
+
+### AccelerationProbe.Delete()
+
+Run the Delete action.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="AccelerationProbe.Duplicate"></a>
+
 ### AccelerationProbe.Duplicate()
 
 Creates a copy of the current DataModelObject.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="AccelerationProbe.DuplicateWithoutResults"></a>
+
+### AccelerationProbe.DuplicateWithoutResults()
+
+Run the DuplicateWithoutResults action.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="AccelerationProbe.EvaluateAllResults"></a>
+
+### AccelerationProbe.EvaluateAllResults()
+
+Run the EvaluateAllResults action.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="AccelerationProbe.ExportAnimation"></a>
+
+### AccelerationProbe.ExportAnimation(filePath: System.String, format: [Ansys.Mechanical.DataModel.Enums.GraphicsAnimationExportFormat](../../../../../../../v242/Ansys/Mechanical/DataModel/Enums/GraphicsAnimationExportFormat.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.GraphicsAnimationExportFormat), settings: [Ansys.Mechanical.Graphics.AnimationExportSettings](../../../../../../../v242/Ansys/Mechanical/Graphics/AnimationExportSettings.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.Graphics.AnimationExportSettings))
+
+Run the ExportAnimation action.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="AccelerationProbe.GetChildren"></a>
+
+### AccelerationProbe.GetChildren(recurses: System.Boolean, children: System.Collections.Generic.IList[ChildrenType])
+
+Gets the list of children, filtered by type.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="AccelerationProbe.GetParameter"></a>
+
+### AccelerationProbe.GetParameter(propName: System.String)
+
+Gets the parameter corresponding to the given property.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="AccelerationProbe.GroupAllSimilarChildren"></a>
 
 ### AccelerationProbe.GroupAllSimilarChildren()
 
@@ -469,17 +573,15 @@ Run the GroupAllSimilarChildren action.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="AccelerationProbe.GroupSimilarObjects"></a>
+
 ### AccelerationProbe.GroupSimilarObjects()
 
 Run the GroupSimilarObjects action.
 
 <!-- !! processed by numpydoc !! -->
 
-### AccelerationProbe.PropertyByName(name: System.String)
-
-Get a property by its unique name.
-
-<!-- !! processed by numpydoc !! -->
+<a id="AccelerationProbe.PropertyByAPIName"></a>
 
 ### AccelerationProbe.PropertyByAPIName(name: System.String)
 
@@ -490,21 +592,35 @@ If multiple properties have the same API Name, only the first property with that
 
 <!-- !! processed by numpydoc !! -->
 
-### AccelerationProbe.CreateParameter(propName: System.String)
+<a id="AccelerationProbe.PropertyByName"></a>
 
-Creates a new parameter for a Property.
+### AccelerationProbe.PropertyByName(name: System.String)
 
-<!-- !! processed by numpydoc !! -->
-
-### AccelerationProbe.GetParameter(propName: System.String)
-
-Gets the parameter corresponding to the given property.
+Get a property by its unique name.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="AccelerationProbe.RemoveParameter"></a>
 
 ### AccelerationProbe.RemoveParameter(propName: System.String)
 
 Removes the parameter from the parameter set corresponding to the given property.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="AccelerationProbe.RenameBasedOnDefinition"></a>
+
+### AccelerationProbe.RenameBasedOnDefinition()
+
+Run the RenameBasedOnDefinition action.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="AccelerationProbe.SnapToMeshNodes"></a>
+
+### AccelerationProbe.SnapToMeshNodes()
+
+Snap the coordinates of probe result to the mesh nodes.
 
 <!-- !! processed by numpydoc !! -->
 

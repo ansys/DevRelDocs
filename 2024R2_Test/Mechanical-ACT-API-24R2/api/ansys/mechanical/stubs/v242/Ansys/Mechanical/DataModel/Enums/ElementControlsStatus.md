@@ -1,6 +1,6 @@
 # `ElementControlsStatus`
 
-
+<a id="ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.ElementControlsStatus"></a>
 
 #### *class* ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.ElementControlsStatus
 
@@ -17,7 +17,7 @@ Specifies the ElementControlsStatus.
 ### Attributes
 
 | Name |
-| ------------------------------------------- |
+| ------------------------------------------------------------------------------------------------------------------------ |
 | [`Alive`](#ElementControlsStatus.Alive) |
 | [`Dead`](#ElementControlsStatus.Dead) |
 

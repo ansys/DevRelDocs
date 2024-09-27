@@ -1,6 +1,6 @@
 # `DBWeightingType`
 
-
+<a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DBWeightingType"></a>
 
 #### *class* ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DBWeightingType
 

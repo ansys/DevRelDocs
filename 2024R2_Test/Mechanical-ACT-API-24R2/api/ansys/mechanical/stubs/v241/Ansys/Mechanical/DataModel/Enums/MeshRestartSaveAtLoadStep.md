@@ -1,6 +1,6 @@
 # `MeshRestartSaveAtLoadStep`
 
-
+<a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.MeshRestartSaveAtLoadStep"></a>
 
 #### *class* ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.MeshRestartSaveAtLoadStep
 
@@ -17,10 +17,10 @@ Specifies the MeshRestartSaveAtLoadStep.
 ### Attributes
 
 | Name |
-| ------------------------------------------------------------------------------------------------------------------------------ |
-| [`All`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/MeshRestartSaveAtLoadStep.md#MeshRestartSaveAtLoadStep.All) |
-| [`Last`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/MeshRestartSaveAtLoadStep.md#MeshRestartSaveAtLoadStep.Last) |
-| [`None_`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/MeshRestartSaveAtLoadStep.md#MeshRestartSaveAtLoadStep.None_) |
+| --------------------------------------------- |
+| [`All`](#MeshRestartSaveAtLoadStep.All) |
+| [`Last`](#MeshRestartSaveAtLoadStep.Last) |
+| [`None_`](#MeshRestartSaveAtLoadStep.None_) |
 
 <a id="attribute-detail"></a>
 

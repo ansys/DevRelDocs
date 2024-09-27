@@ -1,6 +1,6 @@
 # `ResponseConstraintType`
 
-
+<a id="ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.ResponseConstraintType"></a>
 
 #### *class* ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.ResponseConstraintType
 
@@ -17,19 +17,19 @@ Specifies the ResponseConstraintType.
 ### Attributes
 
 | Name |
-| -------------------------------------------------------------------------------------------- |
+| -------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | [`CenterOfGravityConstraint`](#ResponseConstraintType.CenterOfGravityConstraint) |
 | [`ComplianceConstraint`](#ResponseConstraintType.ComplianceConstraint) |
 | [`CriterionConstraint`](#ResponseConstraintType.CriterionConstraint) |
 | [`DisplacementConstraint`](#ResponseConstraintType.DisplacementConstraint) |
-| [`NaturalFrequencyConstraint`](#ResponseConstraintType.NaturalFrequencyConstraint) |
+| [`GlobalVonMisesStressConstraint`](#ResponseConstraintType.GlobalVonMisesStressConstraint) |
 | [`LocalVonMisesStressConstraint`](#ResponseConstraintType.LocalVonMisesStressConstraint) |
 | [`MassConstraint`](#ResponseConstraintType.MassConstraint) |
 | [`MomentOfInertiaConstraint`](#ResponseConstraintType.MomentOfInertiaConstraint) |
+| [`NaturalFrequencyConstraint`](#ResponseConstraintType.NaturalFrequencyConstraint) |
 | [`ReactionForceConstraint`](#ResponseConstraintType.ReactionForceConstraint) |
 | [`TemperatureConstraint`](#ResponseConstraintType.TemperatureConstraint) |
 | [`VolumeConstraint`](#ResponseConstraintType.VolumeConstraint) |
-| [`GlobalVonMisesStressConstraint`](#ResponseConstraintType.GlobalVonMisesStressConstraint) |
 
 <a id="attribute-detail"></a>
 
@@ -51,9 +51,9 @@ Specifies the ResponseConstraintType.
 
 ### ResponseConstraintType.DisplacementConstraint *= 5*
 
-<a id="ResponseConstraintType.NaturalFrequencyConstraint"></a>
+<a id="ResponseConstraintType.GlobalVonMisesStressConstraint"></a>
 
-### ResponseConstraintType.NaturalFrequencyConstraint *= 4*
+### ResponseConstraintType.GlobalVonMisesStressConstraint *= 3*
 
 <a id="ResponseConstraintType.LocalVonMisesStressConstraint"></a>
 
@@ -67,6 +67,10 @@ Specifies the ResponseConstraintType.
 
 ### ResponseConstraintType.MomentOfInertiaConstraint *= 12*
 
+<a id="ResponseConstraintType.NaturalFrequencyConstraint"></a>
+
+### ResponseConstraintType.NaturalFrequencyConstraint *= 4*
+
 <a id="ResponseConstraintType.ReactionForceConstraint"></a>
 
 ### ResponseConstraintType.ReactionForceConstraint *= 7*
@@ -78,9 +82,5 @@ Specifies the ResponseConstraintType.
 <a id="ResponseConstraintType.VolumeConstraint"></a>
 
 ### ResponseConstraintType.VolumeConstraint *= 2*
-
-<a id="ResponseConstraintType.GlobalVonMisesStressConstraint"></a>
-
-### ResponseConstraintType.GlobalVonMisesStressConstraint *= 3*
 
 

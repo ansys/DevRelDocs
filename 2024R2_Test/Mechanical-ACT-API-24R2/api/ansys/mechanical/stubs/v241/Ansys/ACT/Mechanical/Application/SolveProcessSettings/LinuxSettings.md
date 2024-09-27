@@ -1,6 +1,6 @@
 # `LinuxSettings`
 
-
+<a id="ansys.mechanical.stubs.v241.Ansys.ACT.Mechanical.Application.SolveProcessSettings.LinuxSettings"></a>
 
 #### *class* ansys.mechanical.stubs.v241.Ansys.ACT.Mechanical.Application.SolveProcessSettings.LinuxSettings
 
@@ -17,14 +17,16 @@ The class representing the linux settings portion of the solve process settings.
 ### Properties
 
 | Name | Description |
-|-----------------|------------------------------------------|
-| `Active`        | Whether the linux settings are active.   |
-| `UserName`      | The user name.                           |
-| `WorkingFolder` | The working folder.                      |
+|-------------------------------------------------|------------------------------------------|
+| [`Active`](#LinuxSettings.Active)               | Whether the linux settings are active.   |
+| [`UserName`](#LinuxSettings.UserName)           | The user name.                           |
+| [`WorkingFolder`](#LinuxSettings.WorkingFolder) | The working folder.                      |
 
 <a id="property-detail"></a>
 
 ## Property detail
+
+<a id="LinuxSettings.Active"></a>
 
 ### *property* LinuxSettings.Active *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -32,11 +34,15 @@ Whether the linux settings are active.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="LinuxSettings.UserName"></a>
+
 ### *property* LinuxSettings.UserName *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
 
 The user name.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="LinuxSettings.WorkingFolder"></a>
 
 ### *property* LinuxSettings.WorkingFolder *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
 

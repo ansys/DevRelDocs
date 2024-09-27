@@ -1,6 +1,6 @@
 # `ExistingMaterialOperation`
 
-
+<a id="ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.MechanicalEnums.Materials.ExistingMaterialOperation"></a>
 
 #### *class* ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.MechanicalEnums.Materials.ExistingMaterialOperation
 
@@ -18,7 +18,7 @@ a material which already exists in Mechanical.
 ### Attributes
 
 | Name |
-| ------------------------------------------------- |
+| --------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | [`New`](#ExistingMaterialOperation.New) |
 | [`Replace`](#ExistingMaterialOperation.Replace) |
 

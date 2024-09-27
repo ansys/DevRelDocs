@@ -1,6 +1,6 @@
 # `ContactFaceEdgeOption`
 
-
+<a id="ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.ContactFaceEdgeOption"></a>
 
 #### *class* ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.ContactFaceEdgeOption
 
@@ -17,7 +17,7 @@ Specifies the ContactFaceEdgeOption.
 ### Attributes
 
 | Name |
-| ----------------------------------------------------------------------- |
+| ---------------------------------------------------------------------------------------------------------------------------------------------------- |
 | [`No`](#ContactFaceEdgeOption.No) |
 | [`OnlyBeamBodyEdges`](#ContactFaceEdgeOption.OnlyBeamBodyEdges) |
 | [`OnlySolidBodyEdges`](#ContactFaceEdgeOption.OnlySolidBodyEdges) |

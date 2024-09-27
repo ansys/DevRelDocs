@@ -7,15 +7,15 @@
 ### Interfaces
 
 | Name | Description |
-|------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------|
-| [`IMechanicalGraphics`](IMechanicalGraphics.md#ansys.mechanical.stubs.v242.Ansys.ACT.Interfaces.Mechanical.IMechanicalGraphics)                | Interface for MechanicalGraphics.                     |
-| [`IMechanicalSelectionInfo`](IMechanicalSelectionInfo.md#ansys.mechanical.stubs.v242.Ansys.ACT.Interfaces.Mechanical.IMechanicalSelectionInfo) | Defines the mechanical selection information.         |
-| [`IMechanicalDataModel`](IMechanicalDataModel.md#ansys.mechanical.stubs.v242.Ansys.ACT.Interfaces.Mechanical.IMechanicalDataModel)             | Defines the data model of the Mechanical application. |
-| [`IMechanicalExtAPI`](IMechanicalExtAPI.md#ansys.mechanical.stubs.v242.Ansys.ACT.Interfaces.Mechanical.IMechanicalExtAPI)                      | Exposes the main entry point of all ATC APIs.         |
-| [`IMechanicalUserLoad`](IMechanicalUserLoad.md#ansys.mechanical.stubs.v242.Ansys.ACT.Interfaces.Mechanical.IMechanicalUserLoad)                | Defines a Mechanical user load.                       |
-| [`IMechanicalUserObject`](IMechanicalUserObject.md#ansys.mechanical.stubs.v242.Ansys.ACT.Interfaces.Mechanical.IMechanicalUserObject)          | Defines a Mechanical user object.                     |
-| [`IMechanicalUserResult`](IMechanicalUserResult.md#ansys.mechanical.stubs.v242.Ansys.ACT.Interfaces.Mechanical.IMechanicalUserResult)          | Defines a Mechanical user result.                     |
-| [`IMechanicalUserSolver`](IMechanicalUserSolver.md#ansys.mechanical.stubs.v242.Ansys.ACT.Interfaces.Mechanical.IMechanicalUserSolver)          | Defines a Mechanical user solver.                     |
+|------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------|
+| [`IMechanicalDataModel`](IMechanicalDataModel.md#ansys.mechanical.stubs.v242.Ansys.ACT.Interfaces.Mechanical.IMechanicalDataModel)             | Defines the data model of the Mechanical application.   |
+| [`IMechanicalExtAPI`](IMechanicalExtAPI.md#ansys.mechanical.stubs.v242.Ansys.ACT.Interfaces.Mechanical.IMechanicalExtAPI)                      | Exposes the main entry point of all ATC APIs.           |
+| [`IMechanicalGraphics`](IMechanicalGraphics.md#ansys.mechanical.stubs.v242.Ansys.ACT.Interfaces.Mechanical.IMechanicalGraphics)                | Interface for MechanicalGraphics.                       |
+| [`IMechanicalSelectionInfo`](IMechanicalSelectionInfo.md#ansys.mechanical.stubs.v242.Ansys.ACT.Interfaces.Mechanical.IMechanicalSelectionInfo) | Defines the mechanical selection information.           |
+| [`IMechanicalUserLoad`](IMechanicalUserLoad.md#ansys.mechanical.stubs.v242.Ansys.ACT.Interfaces.Mechanical.IMechanicalUserLoad)                | Defines a Mechanical user load.                         |
+| [`IMechanicalUserObject`](IMechanicalUserObject.md#ansys.mechanical.stubs.v242.Ansys.ACT.Interfaces.Mechanical.IMechanicalUserObject)          | Defines a Mechanical user object.                       |
+| [`IMechanicalUserResult`](IMechanicalUserResult.md#ansys.mechanical.stubs.v242.Ansys.ACT.Interfaces.Mechanical.IMechanicalUserResult)          | Defines a Mechanical user result.                       |
+| [`IMechanicalUserSolver`](IMechanicalUserSolver.md#ansys.mechanical.stubs.v242.Ansys.ACT.Interfaces.Mechanical.IMechanicalUserSolver)          | Defines a Mechanical user solver.                       |
 
 ### Enums
 

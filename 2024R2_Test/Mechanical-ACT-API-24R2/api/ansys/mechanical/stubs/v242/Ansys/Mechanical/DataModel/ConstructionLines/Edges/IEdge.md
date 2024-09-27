@@ -1,6 +1,6 @@
 # `IEdge`
 
-
+<a id="ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.ConstructionLines.Edges.IEdge"></a>
 
 #### *class* ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.ConstructionLines.Edges.IEdge
 
@@ -17,12 +17,14 @@ Interface for edges created by ConstructionLine.
 ### Properties
 
 | Name | Description |
-|------------|--------------------------------|
-| `Length`   | Get the length of this edge.   |
+|---------------------------------------------------------------------------------------------------------------|--------------------------------|
+| [`Length`](#IEdge.Length)   | Get the length of this edge.   |
 
 <a id="property-detail"></a>
 
 ## Property detail
+
+<a id="IEdge.Length"></a>
 
 ### *property* IEdge.Length *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
 

@@ -1,6 +1,6 @@
 # `CommandSnippet`
 
-
+<a id="ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.CommandSnippet"></a>
 
 #### *class* ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.CommandSnippet
 
@@ -17,198 +17,66 @@ Defines a CommandSnippet.
 ### Methods
 
 | Name | Description |
-|---------------------------|-----------------------------------------------------------------------------------|
-| `AppendText`              | Append Text.                                                                      |
-| `ImportTextFile`          | Import from Textfile.                                                             |
-| `ExportTextFile`          | Export to Textfile.                                                               |
-| `RenameBasedOnDefinition` | Run the RenameBasedOnDefinition action.                                           |
-| `Delete`                  | Run the Delete action.                                                            |
-| `GetChildren`             | Gets the list of children, filtered by type.                                      |
-| `GetChildren`             | Gets the list of children, filtered by type.                                      |
-| `AddComment`              | Creates a new child Comment.                                                      |
-| `AddFigure`               | Creates a new child Figure.                                                       |
-| `AddImage`                | Creates a new child Image.                                                        |
-| `Activate`                | Activate the current object.                                                      |
-| `CopyTo`                  | Copies all visible properties from this object to another.                        |
-| `Duplicate`               | Creates a copy of the current DataModelObject.                                    |
-| `GroupAllSimilarChildren` | Run the GroupAllSimilarChildren action.                                           |
-| `GroupSimilarObjects`     | Run the GroupSimilarObjects action.                                               |
-| `PropertyByName`          | Get a property by its unique name.                                                |
-| `PropertyByAPIName`       | Get a property by its API name.                                                   |
-| `CreateParameter`         | Creates a new parameter for a Property.                                           |
-| `GetParameter`            | Gets the parameter corresponding to the given property.                           |
-| `RemoveParameter`         | Removes the parameter from the parameter set corresponding to the given property. |
+|-------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------|
+| [`Activate`](#CommandSnippet.Activate)                               | Activate the current object.                                                      |
+| [`AddComment`](#CommandSnippet.AddComment)                           | Creates a new child Comment.                                                      |
+| [`AddFigure`](#CommandSnippet.AddFigure)                             | Creates a new child Figure.                                                       |
+| [`AddImage`](#CommandSnippet.AddImage)                               | Creates a new child Image.                                                        |
+| [`AppendText`](#CommandSnippet.AppendText)                           | Append Text.                                                                      |
+| [`CopyTo`](#CommandSnippet.CopyTo)                                   | Copies all visible properties from this object to another.                        |
+| [`CreateParameter`](#CommandSnippet.CreateParameter)                 | Creates a new parameter for a Property.                                           |
+| [`Delete`](#CommandSnippet.Delete)                                   | Run the Delete action.                                                            |
+| [`Duplicate`](#CommandSnippet.Duplicate)                             | Creates a copy of the current DataModelObject.                                    |
+| [`ExportTextFile`](#CommandSnippet.ExportTextFile)                   | Export to Textfile.                                                               |
+| [`GetChildren`](#CommandSnippet.GetChildren)                         | Gets the list of children, filtered by type.                                      |
+| [`GetParameter`](#CommandSnippet.GetParameter)                       | Gets the parameter corresponding to the given property.                           |
+| [`GroupAllSimilarChildren`](#CommandSnippet.GroupAllSimilarChildren) | Run the GroupAllSimilarChildren action.                                           |
+| [`GroupSimilarObjects`](#CommandSnippet.GroupSimilarObjects)         | Run the GroupSimilarObjects action.                                               |
+| [`ImportTextFile`](#CommandSnippet.ImportTextFile)                   | Import from Textfile.                                                             |
+| [`PropertyByAPIName`](#CommandSnippet.PropertyByAPIName)             | Get a property by its API name.                                                   |
+| [`PropertyByName`](#CommandSnippet.PropertyByName)                   | Get a property by its unique name.                                                |
+| [`RemoveParameter`](#CommandSnippet.RemoveParameter)                 | Removes the parameter from the parameter set corresponding to the given property. |
+| [`RenameBasedOnDefinition`](#CommandSnippet.RenameBasedOnDefinition) | Run the RenameBasedOnDefinition action.                                           |
 
 ### Properties
 
 | Name | Description |
-|---------------------------|---------------------------------------------------------------|
-| `Input`                   | Gets or sets the Text.                                        |
-| `OutputParameters`        | Gets a list of the command snippet's output parameters.       |
-| `InternalObject`          | Gets the internal object. For advanced usage only.            |
-| `InputArgument1`          | Gets or sets the InputArgument1.                              |
-| `InputArgument2`          | Gets or sets the InputArgument2.                              |
-| `InputArgument3`          | Gets or sets the InputArgument3.                              |
-| `InputArgument4`          | Gets or sets the InputArgument4.                              |
-| `InputArgument5`          | Gets or sets the InputArgument5.                              |
-| `InputArgument6`          | Gets or sets the InputArgument6.                              |
-| `InputArgument7`          | Gets or sets the InputArgument7.                              |
-| `InputArgument8`          | Gets or sets the InputArgument8.                              |
-| `InputArgument9`          | Gets or sets the InputArgument9.                              |
-| `OutputSearchPrefix`      | Gets or sets the OutputSearchPrefix.                          |
-| `StepNumber`              | Gets or sets the StepNumber.                                  |
-| `FileName`                | Gets the FileName.                                            |
-| `SnippetFileStatus`       | Gets the SnippetFileStatus.                                   |
-| `StepSelectionMode`       | Gets or sets the StepSelectionMode.                           |
-| `SolverTarget`            | Gets the SolverTarget.                                        |
-| `IssueSolveCommand`       | Gets or sets the IssueSolveCommand.                           |
-| `InvalidateSolution`      | Gets or sets the InvalidateSolution.                          |
-| `Suppressed`              | Gets or sets the Suppressed.                                  |
-| `DataModelObjectCategory` | Gets the current DataModelObject's category.                  |
-| `Children`                | Gets the list of children.                                    |
-| `Comments`                | Gets the list of associated comments.                         |
-| `Figures`                 | Gets the list of associated figures.                          |
-| `Images`                  | Gets the list of associated images.                           |
-| `ReadOnly`                | Gets or sets the ReadOnly.                                    |
-| `InternalObject`          | Gets the internal object. For advanced usage only.            |
-| `Properties`              | Gets the list of properties for this object.                  |
-| `VisibleProperties`       | Gets the list of properties that are visible for this object. |
+|-------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------|
+| [`Children`](#CommandSnippet.Children)                               | Gets the list of children.                                    |
+| [`Comments`](#CommandSnippet.Comments)                               | Gets the list of associated comments.                         |
+| [`DataModelObjectCategory`](#CommandSnippet.DataModelObjectCategory) | Gets the current DataModelObject’s category.                  |
+| [`Figures`](#CommandSnippet.Figures)                                 | Gets the list of associated figures.                          |
+| [`FileName`](#CommandSnippet.FileName)                               | Gets the FileName.                                            |
+| [`Images`](#CommandSnippet.Images)                                   | Gets the list of associated images.                           |
+| [`Input`](#CommandSnippet.Input)                                     | Gets or sets the Text.                                        |
+| [`InputArgument1`](#CommandSnippet.InputArgument1)                   | Gets or sets the InputArgument1.                              |
+| [`InputArgument2`](#CommandSnippet.InputArgument2)                   | Gets or sets the InputArgument2.                              |
+| [`InputArgument3`](#CommandSnippet.InputArgument3)                   | Gets or sets the InputArgument3.                              |
+| [`InputArgument4`](#CommandSnippet.InputArgument4)                   | Gets or sets the InputArgument4.                              |
+| [`InputArgument5`](#CommandSnippet.InputArgument5)                   | Gets or sets the InputArgument5.                              |
+| [`InputArgument6`](#CommandSnippet.InputArgument6)                   | Gets or sets the InputArgument6.                              |
+| [`InputArgument7`](#CommandSnippet.InputArgument7)                   | Gets or sets the InputArgument7.                              |
+| [`InputArgument8`](#CommandSnippet.InputArgument8)                   | Gets or sets the InputArgument8.                              |
+| [`InputArgument9`](#CommandSnippet.InputArgument9)                   | Gets or sets the InputArgument9.                              |
+| [`InternalObject`](#CommandSnippet.InternalObject)                   | Gets the internal object. For advanced usage only.            |
+| [`InvalidateSolution`](#CommandSnippet.InvalidateSolution)           | Gets or sets the InvalidateSolution.                          |
+| [`IssueSolveCommand`](#CommandSnippet.IssueSolveCommand)             | Gets or sets the IssueSolveCommand.                           |
+| [`OutputParameters`](#CommandSnippet.OutputParameters)               | Gets a list of the command snippet’s output parameters.       |
+| [`OutputSearchPrefix`](#CommandSnippet.OutputSearchPrefix)           | Gets or sets the OutputSearchPrefix.                          |
+| [`Properties`](#CommandSnippet.Properties)                           | Gets the list of properties for this object.                  |
+| [`ReadOnly`](#CommandSnippet.ReadOnly)                               | Gets or sets the ReadOnly.                                    |
+| [`SnippetFileStatus`](#CommandSnippet.SnippetFileStatus)             | Gets the SnippetFileStatus.                                   |
+| [`SolverTarget`](#CommandSnippet.SolverTarget)                       | Gets the SolverTarget.                                        |
+| [`StepNumber`](#CommandSnippet.StepNumber)                           | Gets or sets the StepNumber.                                  |
+| [`StepSelectionMode`](#CommandSnippet.StepSelectionMode)             | Gets or sets the StepSelectionMode.                           |
+| [`Suppressed`](#CommandSnippet.Suppressed)                           | Gets or sets the Suppressed.                                  |
+| [`VisibleProperties`](#CommandSnippet.VisibleProperties)             | Gets the list of properties that are visible for this object. |
 
 <a id="property-detail"></a>
 
 ## Property detail
 
-### *property* CommandSnippet.Input *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the Text.
-
-<!-- !! processed by numpydoc !! -->
-
-### *property* CommandSnippet.OutputParameters *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.CommandOutputParameter] | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets a list of the command snippet's output parameters.
-
-<!-- !! processed by numpydoc !! -->
-
-### *property* CommandSnippet.InternalObject *: Ansys.Common.Interop.DSObjectsAuto.IDSCommandEditorAuto | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets the internal object. For advanced usage only.
-
-<!-- !! processed by numpydoc !! -->
-
-### *property* CommandSnippet.InputArgument1 *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the InputArgument1.
-
-<!-- !! processed by numpydoc !! -->
-
-### *property* CommandSnippet.InputArgument2 *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the InputArgument2.
-
-<!-- !! processed by numpydoc !! -->
-
-### *property* CommandSnippet.InputArgument3 *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the InputArgument3.
-
-<!-- !! processed by numpydoc !! -->
-
-### *property* CommandSnippet.InputArgument4 *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the InputArgument4.
-
-<!-- !! processed by numpydoc !! -->
-
-### *property* CommandSnippet.InputArgument5 *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the InputArgument5.
-
-<!-- !! processed by numpydoc !! -->
-
-### *property* CommandSnippet.InputArgument6 *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the InputArgument6.
-
-<!-- !! processed by numpydoc !! -->
-
-### *property* CommandSnippet.InputArgument7 *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the InputArgument7.
-
-<!-- !! processed by numpydoc !! -->
-
-### *property* CommandSnippet.InputArgument8 *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the InputArgument8.
-
-<!-- !! processed by numpydoc !! -->
-
-### *property* CommandSnippet.InputArgument9 *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the InputArgument9.
-
-<!-- !! processed by numpydoc !! -->
-
-### *property* CommandSnippet.OutputSearchPrefix *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the OutputSearchPrefix.
-
-<!-- !! processed by numpydoc !! -->
-
-### *property* CommandSnippet.StepNumber *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the StepNumber.
-
-<!-- !! processed by numpydoc !! -->
-
-### *property* CommandSnippet.FileName *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets the FileName.
-
-<!-- !! processed by numpydoc !! -->
-
-### *property* CommandSnippet.SnippetFileStatus *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets the SnippetFileStatus.
-
-<!-- !! processed by numpydoc !! -->
-
-### *property* CommandSnippet.StepSelectionMode *: [Ansys.Mechanical.DataModel.Enums.SequenceSelectionType](../../../Mechanical/DataModel/Enums/SequenceSelectionType.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.SequenceSelectionType) | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the StepSelectionMode.
-
-<!-- !! processed by numpydoc !! -->
-
-### *property* CommandSnippet.SolverTarget *: [Ansys.Mechanical.DataModel.Enums.CommandEditorTarget](../../../Mechanical/DataModel/Enums/CommandEditorTarget.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.CommandEditorTarget) | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets the SolverTarget.
-
-<!-- !! processed by numpydoc !! -->
-
-### *property* CommandSnippet.IssueSolveCommand *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the IssueSolveCommand.
-
-<!-- !! processed by numpydoc !! -->
-
-### *property* CommandSnippet.InvalidateSolution *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the InvalidateSolution.
-
-<!-- !! processed by numpydoc !! -->
-
-### *property* CommandSnippet.Suppressed *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the Suppressed.
-
-<!-- !! processed by numpydoc !! -->
-
-### *property* CommandSnippet.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets the current DataModelObject's category.
-
-<!-- !! processed by numpydoc !! -->
+<a id="CommandSnippet.Children"></a>
 
 ### *property* CommandSnippet.Children *: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -216,11 +84,23 @@ Gets the list of children.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="CommandSnippet.Comments"></a>
+
 ### *property* CommandSnippet.Comments *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Comment](Comment.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated comments.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="CommandSnippet.DataModelObjectCategory"></a>
+
+### *property* CommandSnippet.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../v242/Ansys/Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets the current DataModelObject’s category.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="CommandSnippet.Figures"></a>
 
 ### *property* CommandSnippet.Figures *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Figure](Figure.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -228,11 +108,151 @@ Gets the list of associated figures.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="CommandSnippet.FileName"></a>
+
+### *property* CommandSnippet.FileName *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets the FileName.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="CommandSnippet.Images"></a>
+
 ### *property* CommandSnippet.Images *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Image](Image.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated images.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="CommandSnippet.Input"></a>
+
+### *property* CommandSnippet.Input *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the Text.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="CommandSnippet.InputArgument1"></a>
+
+### *property* CommandSnippet.InputArgument1 *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the InputArgument1.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="CommandSnippet.InputArgument2"></a>
+
+### *property* CommandSnippet.InputArgument2 *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the InputArgument2.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="CommandSnippet.InputArgument3"></a>
+
+### *property* CommandSnippet.InputArgument3 *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the InputArgument3.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="CommandSnippet.InputArgument4"></a>
+
+### *property* CommandSnippet.InputArgument4 *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the InputArgument4.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="CommandSnippet.InputArgument5"></a>
+
+### *property* CommandSnippet.InputArgument5 *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the InputArgument5.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="CommandSnippet.InputArgument6"></a>
+
+### *property* CommandSnippet.InputArgument6 *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the InputArgument6.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="CommandSnippet.InputArgument7"></a>
+
+### *property* CommandSnippet.InputArgument7 *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the InputArgument7.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="CommandSnippet.InputArgument8"></a>
+
+### *property* CommandSnippet.InputArgument8 *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the InputArgument8.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="CommandSnippet.InputArgument9"></a>
+
+### *property* CommandSnippet.InputArgument9 *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the InputArgument9.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="CommandSnippet.InternalObject"></a>
+
+### *property* CommandSnippet.InternalObject *: Ansys.Common.Interop.DSObjectsAuto.IDSCommandEditorAuto | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets the internal object. For advanced usage only.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="CommandSnippet.InvalidateSolution"></a>
+
+### *property* CommandSnippet.InvalidateSolution *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the InvalidateSolution.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="CommandSnippet.IssueSolveCommand"></a>
+
+### *property* CommandSnippet.IssueSolveCommand *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the IssueSolveCommand.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="CommandSnippet.OutputParameters"></a>
+
+### *property* CommandSnippet.OutputParameters *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.CommandOutputParameter] | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets a list of the command snippet’s output parameters.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="CommandSnippet.OutputSearchPrefix"></a>
+
+### *property* CommandSnippet.OutputSearchPrefix *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the OutputSearchPrefix.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="CommandSnippet.Properties"></a>
+
+### *property* CommandSnippet.Properties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets the list of properties for this object.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="CommandSnippet.ReadOnly"></a>
 
 ### *property* CommandSnippet.ReadOnly *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -240,17 +260,47 @@ Gets or sets the ReadOnly.
 
 <!-- !! processed by numpydoc !! -->
 
-### *property* CommandSnippet.InternalObject *: System.Object | [None](https://docs.python.org/3/library/constants.html#None)*
+<a id="CommandSnippet.SnippetFileStatus"></a>
 
-Gets the internal object. For advanced usage only.
+### *property* CommandSnippet.SnippetFileStatus *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets the SnippetFileStatus.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="CommandSnippet.SolverTarget"></a>
+
+### *property* CommandSnippet.SolverTarget *: [Ansys.Mechanical.DataModel.Enums.CommandEditorTarget](../../../../../v242/Ansys/Mechanical/DataModel/Enums/CommandEditorTarget.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.CommandEditorTarget) | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets the SolverTarget.
 
 <!-- !! processed by numpydoc !! -->
 
-### *property* CommandSnippet.Properties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
+<a id="CommandSnippet.StepNumber"></a>
 
-Gets the list of properties for this object.
+### *property* CommandSnippet.StepNumber *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the StepNumber.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="CommandSnippet.StepSelectionMode"></a>
+
+### *property* CommandSnippet.StepSelectionMode *: [Ansys.Mechanical.DataModel.Enums.SequenceSelectionType](../../../../../v242/Ansys/Mechanical/DataModel/Enums/SequenceSelectionType.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.SequenceSelectionType) | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the StepSelectionMode.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="CommandSnippet.Suppressed"></a>
+
+### *property* CommandSnippet.Suppressed *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the Suppressed.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="CommandSnippet.VisibleProperties"></a>
 
 ### *property* CommandSnippet.VisibleProperties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -262,47 +312,15 @@ Gets the list of properties that are visible for this object.
 
 ## Method detail
 
-### CommandSnippet.AppendText(NewText: System.String)
+<a id="CommandSnippet.Activate"></a>
 
-Append Text.
+### CommandSnippet.Activate()
 
-<!-- !! processed by numpydoc !! -->
-
-### CommandSnippet.ImportTextFile(TextFile: System.String)
-
-Import from Textfile.
+Activate the current object.
 
 <!-- !! processed by numpydoc !! -->
 
-### CommandSnippet.ExportTextFile(TextFile: System.String)
-
-Export to Textfile.
-
-<!-- !! processed by numpydoc !! -->
-
-### CommandSnippet.RenameBasedOnDefinition()
-
-Run the RenameBasedOnDefinition action.
-
-<!-- !! processed by numpydoc !! -->
-
-### CommandSnippet.Delete()
-
-Run the Delete action.
-
-<!-- !! processed by numpydoc !! -->
-
-### CommandSnippet.GetChildren(recurses: System.Boolean, children: System.Collections.Generic.IList[ChildrenType])
-
-Gets the list of children, filtered by type.
-
-<!-- !! processed by numpydoc !! -->
-
-### CommandSnippet.GetChildren(category: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory), recurses: System.Boolean, children: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject])
-
-Gets the list of children, filtered by type.
-
-<!-- !! processed by numpydoc !! -->
+<a id="CommandSnippet.AddComment"></a>
 
 ### CommandSnippet.AddComment()
 
@@ -310,11 +328,15 @@ Creates a new child Comment.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="CommandSnippet.AddFigure"></a>
+
 ### CommandSnippet.AddFigure()
 
 Creates a new child Figure.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="CommandSnippet.AddImage"></a>
 
 ### CommandSnippet.AddImage(filePath: System.String)
 
@@ -326,11 +348,15 @@ if not, the image will be a screen capture of the Geometry window.
 
 <!-- !! processed by numpydoc !! -->
 
-### CommandSnippet.Activate()
+<a id="CommandSnippet.AppendText"></a>
 
-Activate the current object.
+### CommandSnippet.AppendText(NewText: System.String)
+
+Append Text.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="CommandSnippet.CopyTo"></a>
 
 ### CommandSnippet.CopyTo(other: Ansys.ACT.Automation.Mechanical.DataModelObject)
 
@@ -338,11 +364,55 @@ Copies all visible properties from this object to another.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="CommandSnippet.CreateParameter"></a>
+
+### CommandSnippet.CreateParameter(propName: System.String)
+
+Creates a new parameter for a Property.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="CommandSnippet.Delete"></a>
+
+### CommandSnippet.Delete()
+
+Run the Delete action.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="CommandSnippet.Duplicate"></a>
+
 ### CommandSnippet.Duplicate()
 
 Creates a copy of the current DataModelObject.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="CommandSnippet.ExportTextFile"></a>
+
+### CommandSnippet.ExportTextFile(TextFile: System.String)
+
+Export to Textfile.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="CommandSnippet.GetChildren"></a>
+
+### CommandSnippet.GetChildren(recurses: System.Boolean, children: System.Collections.Generic.IList[ChildrenType])
+
+Gets the list of children, filtered by type.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="CommandSnippet.GetParameter"></a>
+
+### CommandSnippet.GetParameter(propName: System.String)
+
+Gets the parameter corresponding to the given property.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="CommandSnippet.GroupAllSimilarChildren"></a>
 
 ### CommandSnippet.GroupAllSimilarChildren()
 
@@ -350,17 +420,23 @@ Run the GroupAllSimilarChildren action.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="CommandSnippet.GroupSimilarObjects"></a>
+
 ### CommandSnippet.GroupSimilarObjects()
 
 Run the GroupSimilarObjects action.
 
 <!-- !! processed by numpydoc !! -->
 
-### CommandSnippet.PropertyByName(name: System.String)
+<a id="CommandSnippet.ImportTextFile"></a>
 
-Get a property by its unique name.
+### CommandSnippet.ImportTextFile(TextFile: System.String)
+
+Import from Textfile.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="CommandSnippet.PropertyByAPIName"></a>
 
 ### CommandSnippet.PropertyByAPIName(name: System.String)
 
@@ -371,21 +447,27 @@ If multiple properties have the same API Name, only the first property with that
 
 <!-- !! processed by numpydoc !! -->
 
-### CommandSnippet.CreateParameter(propName: System.String)
+<a id="CommandSnippet.PropertyByName"></a>
 
-Creates a new parameter for a Property.
+### CommandSnippet.PropertyByName(name: System.String)
 
-<!-- !! processed by numpydoc !! -->
-
-### CommandSnippet.GetParameter(propName: System.String)
-
-Gets the parameter corresponding to the given property.
+Get a property by its unique name.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="CommandSnippet.RemoveParameter"></a>
 
 ### CommandSnippet.RemoveParameter(propName: System.String)
 
 Removes the parameter from the parameter set corresponding to the given property.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="CommandSnippet.RenameBasedOnDefinition"></a>
+
+### CommandSnippet.RenameBasedOnDefinition()
+
+Run the RenameBasedOnDefinition action.
 
 <!-- !! processed by numpydoc !! -->
 

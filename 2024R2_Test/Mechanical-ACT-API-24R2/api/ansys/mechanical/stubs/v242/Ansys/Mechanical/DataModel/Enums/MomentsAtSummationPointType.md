@@ -1,6 +1,6 @@
 # `MomentsAtSummationPointType`
 
-
+<a id="ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.MomentsAtSummationPointType"></a>
 
 #### *class* ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.MomentsAtSummationPointType
 
@@ -17,20 +17,20 @@ Specifies the Moments at summation point type.
 ### Attributes
 
 | Name |
-| ------------------------------------------------------------------------- |
-| [`OrientationSystem`](#MomentsAtSummationPointType.OrientationSystem) |
+| ---------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | [`Centroid`](#MomentsAtSummationPointType.Centroid) |
+| [`OrientationSystem`](#MomentsAtSummationPointType.OrientationSystem) |
 
 <a id="attribute-detail"></a>
 
 ## Attribute detail
 
-<a id="MomentsAtSummationPointType.OrientationSystem"></a>
-
-### MomentsAtSummationPointType.OrientationSystem *= 0*
-
 <a id="MomentsAtSummationPointType.Centroid"></a>
 
 ### MomentsAtSummationPointType.Centroid *= 1*
+
+<a id="MomentsAtSummationPointType.OrientationSystem"></a>
+
+### MomentsAtSummationPointType.OrientationSystem *= 0*
 
 

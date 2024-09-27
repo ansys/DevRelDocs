@@ -1,6 +1,6 @@
 # `FarFieldRadiationSurfaceType`
 
-
+<a id="ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.FarFieldRadiationSurfaceType"></a>
 
 #### *class* ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.FarFieldRadiationSurfaceType
 
@@ -17,7 +17,7 @@ Specifies the FarFieldRadiationSurfaceType.
 ### Attributes
 
 | Name |
-| ------------------------------------------------------------------------ |
+| ------------------------------------------------------------------------------------------------------------------------------------------------------------ |
 | [`Manual`](#FarFieldRadiationSurfaceType.Manual) |
 | [`No`](#FarFieldRadiationSurfaceType.No) |
 | [`ProgramControlled`](#FarFieldRadiationSurfaceType.ProgramControlled) |

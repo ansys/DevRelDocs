@@ -1,6 +1,6 @@
 # `GPUAccelerationDevicesType`
 
-
+<a id="ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.GPUAccelerationDevicesType"></a>
 
 #### *class* ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.GPUAccelerationDevicesType
 
@@ -17,25 +17,25 @@ Specifies the GPUAccelerationDevicesType.
 ### Attributes
 
 | Name |
-| ------------------------------------------------ |
-| [`None_`](#GPUAccelerationDevicesType.None_) |
-| [`NVidia`](#GPUAccelerationDevicesType.NVidia) |
+| ---------------------------------------------------------------------------------------------------------------------------------- |
 | [`AMD`](#GPUAccelerationDevicesType.AMD) |
+| [`NVidia`](#GPUAccelerationDevicesType.NVidia) |
+| [`None_`](#GPUAccelerationDevicesType.None_) |
 
 <a id="attribute-detail"></a>
 
 ## Attribute detail
 
-<a id="GPUAccelerationDevicesType.None_"></a>
+<a id="GPUAccelerationDevicesType.AMD"></a>
 
-### GPUAccelerationDevicesType.None_ *= 0*
+### GPUAccelerationDevicesType.AMD *= 2*
 
 <a id="GPUAccelerationDevicesType.NVidia"></a>
 
 ### GPUAccelerationDevicesType.NVidia *= 1*
 
-<a id="GPUAccelerationDevicesType.AMD"></a>
+<a id="GPUAccelerationDevicesType.None_"></a>
 
-### GPUAccelerationDevicesType.AMD *= 2*
+### GPUAccelerationDevicesType.None_ *= 0*
 
 

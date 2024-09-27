@@ -1,6 +1,6 @@
 # `IterationOptions`
 
-
+<a id="ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.IterationOptions"></a>
 
 #### *class* ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.IterationOptions
 
@@ -17,10 +17,10 @@ Specifies the IterationOptions.
 ### Attributes
 
 | Name |
-| ------------------------------------------------------------------------ |
+| ------------------------------------------------------------------------------------------------------------------------------------------------ |
 | [`AllIterations`](#IterationOptions.AllIterations) |
-| [`LastIteration`](#IterationOptions.LastIteration) |
 | [`EquallySpacedPoints`](#IterationOptions.EquallySpacedPoints) |
+| [`LastIteration`](#IterationOptions.LastIteration) |
 | [`SpecifiedRecurrenceRate`](#IterationOptions.SpecifiedRecurrenceRate) |
 
 <a id="attribute-detail"></a>
@@ -31,13 +31,13 @@ Specifies the IterationOptions.
 
 ### IterationOptions.AllIterations *= 0*
 
-<a id="IterationOptions.LastIteration"></a>
-
-### IterationOptions.LastIteration *= 1*
-
 <a id="IterationOptions.EquallySpacedPoints"></a>
 
 ### IterationOptions.EquallySpacedPoints *= 2*
+
+<a id="IterationOptions.LastIteration"></a>
+
+### IterationOptions.LastIteration *= 1*
 
 <a id="IterationOptions.SpecifiedRecurrenceRate"></a>
 

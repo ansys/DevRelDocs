@@ -1,6 +1,6 @@
 # `RotationBoundaryCondition`
 
-
+<a id="ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.BoundaryConditions.RotationBoundaryCondition"></a>
 
 #### *class* ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.BoundaryConditions.RotationBoundaryCondition
 
@@ -17,75 +17,53 @@ Defines a RotationBoundaryCondition.
 ### Methods
 
 | Name | Description |
-|---------------------------|-----------------------------------------------------------------------------------|
-| `Delete`                  | Run the Delete action.                                                            |
-| `GetChildren`             | Gets the list of children, filtered by type.                                      |
-| `GetChildren`             | Gets the list of children, filtered by type.                                      |
-| `AddComment`              | Creates a new child Comment.                                                      |
-| `AddFigure`               | Creates a new child Figure.                                                       |
-| `AddImage`                | Creates a new child Image.                                                        |
-| `Activate`                | Activate the current object.                                                      |
-| `CopyTo`                  | Copies all visible properties from this object to another.                        |
-| `Duplicate`               | Creates a copy of the current DataModelObject.                                    |
-| `GroupAllSimilarChildren` | Run the GroupAllSimilarChildren action.                                           |
-| `GroupSimilarObjects`     | Run the GroupSimilarObjects action.                                               |
-| `PropertyByName`          | Get a property by its unique name.                                                |
-| `PropertyByAPIName`       | Get a property by its API name.                                                   |
-| `CreateParameter`         | Creates a new parameter for a Property.                                           |
-| `GetParameter`            | Gets the parameter corresponding to the given property.                           |
-| `RemoveParameter`         | Removes the parameter from the parameter set corresponding to the given property. |
+|---------------------------------------------------------------------------------|-----------------------------------------------------------------------------------|
+| [`Activate`](#RotationBoundaryCondition.Activate)                               | Activate the current object.                                                      |
+| [`AddComment`](#RotationBoundaryCondition.AddComment)                           | Creates a new child Comment.                                                      |
+| [`AddFigure`](#RotationBoundaryCondition.AddFigure)                             | Creates a new child Figure.                                                       |
+| [`AddImage`](#RotationBoundaryCondition.AddImage)                               | Creates a new child Image.                                                        |
+| [`CopyTo`](#RotationBoundaryCondition.CopyTo)                                   | Copies all visible properties from this object to another.                        |
+| [`CreateParameter`](#RotationBoundaryCondition.CreateParameter)                 | Creates a new parameter for a Property.                                           |
+| [`Delete`](#RotationBoundaryCondition.Delete)                                   | Run the Delete action.                                                            |
+| [`Duplicate`](#RotationBoundaryCondition.Duplicate)                             | Creates a copy of the current DataModelObject.                                    |
+| [`GetChildren`](#RotationBoundaryCondition.GetChildren)                         | Gets the list of children, filtered by type.                                      |
+| [`GetParameter`](#RotationBoundaryCondition.GetParameter)                       | Gets the parameter corresponding to the given property.                           |
+| [`GroupAllSimilarChildren`](#RotationBoundaryCondition.GroupAllSimilarChildren) | Run the GroupAllSimilarChildren action.                                           |
+| [`GroupSimilarObjects`](#RotationBoundaryCondition.GroupSimilarObjects)         | Run the GroupSimilarObjects action.                                               |
+| [`PropertyByAPIName`](#RotationBoundaryCondition.PropertyByAPIName)             | Get a property by its API name.                                                   |
+| [`PropertyByName`](#RotationBoundaryCondition.PropertyByName)                   | Get a property by its unique name.                                                |
+| [`RemoveParameter`](#RotationBoundaryCondition.RemoveParameter)                 | Removes the parameter from the parameter set corresponding to the given property. |
 
 ### Properties
 
 | Name | Description |
-|---------------------------|---------------------------------------------------------------|
-| `Axis`                    | Gets or sets the Axis.                                        |
-| `InternalObject`          | Gets the internal object. For advanced usage only.            |
-| `NumberOfSegments`        | Gets or sets the NumberOfSegments.                            |
-| `Suppressed`              | Gets or sets the Suppressed.                                  |
-| `DataModelObjectCategory` | Gets the current DataModelObject's category.                  |
-| `Children`                | Gets the list of children.                                    |
-| `Comments`                | Gets the list of associated comments.                         |
-| `Figures`                 | Gets the list of associated figures.                          |
-| `Images`                  | Gets the list of associated images.                           |
-| `ReadOnly`                | Gets or sets the ReadOnly.                                    |
-| `InternalObject`          | Gets the internal object. For advanced usage only.            |
-| `Properties`              | Gets the list of properties for this object.                  |
-| `VisibleProperties`       | Gets the list of properties that are visible for this object. |
+|---------------------------------------------------------------------------------|---------------------------------------------------------------|
+| [`Axis`](#RotationBoundaryCondition.Axis)                                       | Gets or sets the Axis.                                        |
+| [`Children`](#RotationBoundaryCondition.Children)                               | Gets the list of children.                                    |
+| [`Comments`](#RotationBoundaryCondition.Comments)                               | Gets the list of associated comments.                         |
+| [`DataModelObjectCategory`](#RotationBoundaryCondition.DataModelObjectCategory) | Gets the current DataModelObject’s category.                  |
+| [`Figures`](#RotationBoundaryCondition.Figures)                                 | Gets the list of associated figures.                          |
+| [`Images`](#RotationBoundaryCondition.Images)                                   | Gets the list of associated images.                           |
+| [`InternalObject`](#RotationBoundaryCondition.InternalObject)                   | Gets the internal object. For advanced usage only.            |
+| [`NumberOfSegments`](#RotationBoundaryCondition.NumberOfSegments)               | Gets or sets the NumberOfSegments.                            |
+| [`Properties`](#RotationBoundaryCondition.Properties)                           | Gets the list of properties for this object.                  |
+| [`ReadOnly`](#RotationBoundaryCondition.ReadOnly)                               | Gets or sets the ReadOnly.                                    |
+| [`Suppressed`](#RotationBoundaryCondition.Suppressed)                           | Gets or sets the Suppressed.                                  |
+| [`VisibleProperties`](#RotationBoundaryCondition.VisibleProperties)             | Gets the list of properties that are visible for this object. |
 
 <a id="property-detail"></a>
 
 ## Property detail
 
-### *property* RotationBoundaryCondition.Axis *: [Ansys.Mechanical.Math.BoundVector](../../../../../../v241/Ansys/Mechanical/Math/BoundVector.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.Math.BoundVector) | [None](https://docs.python.org/3/library/constants.html#None)*
+<a id="RotationBoundaryCondition.Axis"></a>
+
+### *property* RotationBoundaryCondition.Axis *: [Ansys.Mechanical.Math.BoundVector](../../../../Mechanical/Math/BoundVector.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.Math.BoundVector) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Axis.
 
 <!-- !! processed by numpydoc !! -->
 
-### *property* RotationBoundaryCondition.InternalObject *: Ansys.Common.Interop.DSObjectsAuto.IDSRotationAuto | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets the internal object. For advanced usage only.
-
-<!-- !! processed by numpydoc !! -->
-
-### *property* RotationBoundaryCondition.NumberOfSegments *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the NumberOfSegments.
-
-<!-- !! processed by numpydoc !! -->
-
-### *property* RotationBoundaryCondition.Suppressed *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the Suppressed.
-
-<!-- !! processed by numpydoc !! -->
-
-### *property* RotationBoundaryCondition.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../../v241/Ansys/Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets the current DataModelObject's category.
-
-<!-- !! processed by numpydoc !! -->
+<a id="RotationBoundaryCondition.Children"></a>
 
 ### *property* RotationBoundaryCondition.Children *: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -93,11 +71,23 @@ Gets the list of children.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="RotationBoundaryCondition.Comments"></a>
+
 ### *property* RotationBoundaryCondition.Comments *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Comment](../../../../../../v241/Ansys/ACT/Automation/Mechanical/Comment.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated comments.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="RotationBoundaryCondition.DataModelObjectCategory"></a>
+
+### *property* RotationBoundaryCondition.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets the current DataModelObject’s category.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="RotationBoundaryCondition.Figures"></a>
 
 ### *property* RotationBoundaryCondition.Figures *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Figure](../../../../../../v241/Ansys/ACT/Automation/Mechanical/Figure.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -105,11 +95,39 @@ Gets the list of associated figures.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="RotationBoundaryCondition.Images"></a>
+
 ### *property* RotationBoundaryCondition.Images *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Image](../../../../../../v241/Ansys/ACT/Automation/Mechanical/Image.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated images.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="RotationBoundaryCondition.InternalObject"></a>
+
+### *property* RotationBoundaryCondition.InternalObject *: Ansys.Common.Interop.DSObjectsAuto.IDSRotationAuto | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets the internal object. For advanced usage only.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="RotationBoundaryCondition.NumberOfSegments"></a>
+
+### *property* RotationBoundaryCondition.NumberOfSegments *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the NumberOfSegments.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="RotationBoundaryCondition.Properties"></a>
+
+### *property* RotationBoundaryCondition.Properties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets the list of properties for this object.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="RotationBoundaryCondition.ReadOnly"></a>
 
 ### *property* RotationBoundaryCondition.ReadOnly *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -117,17 +135,15 @@ Gets or sets the ReadOnly.
 
 <!-- !! processed by numpydoc !! -->
 
-### *property* RotationBoundaryCondition.InternalObject *: System.Object | [None](https://docs.python.org/3/library/constants.html#None)*
+<a id="RotationBoundaryCondition.Suppressed"></a>
 
-Gets the internal object. For advanced usage only.
+### *property* RotationBoundaryCondition.Suppressed *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
 
-<!-- !! processed by numpydoc !! -->
-
-### *property* RotationBoundaryCondition.Properties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets the list of properties for this object.
+Gets or sets the Suppressed.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="RotationBoundaryCondition.VisibleProperties"></a>
 
 ### *property* RotationBoundaryCondition.VisibleProperties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -139,23 +155,15 @@ Gets the list of properties that are visible for this object.
 
 ## Method detail
 
-### RotationBoundaryCondition.Delete()
+<a id="RotationBoundaryCondition.Activate"></a>
 
-Run the Delete action.
+### RotationBoundaryCondition.Activate()
 
-<!-- !! processed by numpydoc !! -->
-
-### RotationBoundaryCondition.GetChildren(recurses: System.Boolean, children: System.Collections.Generic.IList[ChildrenType])
-
-Gets the list of children, filtered by type.
+Activate the current object.
 
 <!-- !! processed by numpydoc !! -->
 
-### RotationBoundaryCondition.GetChildren(category: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../../v241/Ansys/Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory), recurses: System.Boolean, children: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject])
-
-Gets the list of children, filtered by type.
-
-<!-- !! processed by numpydoc !! -->
+<a id="RotationBoundaryCondition.AddComment"></a>
 
 ### RotationBoundaryCondition.AddComment()
 
@@ -163,11 +171,15 @@ Creates a new child Comment.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="RotationBoundaryCondition.AddFigure"></a>
+
 ### RotationBoundaryCondition.AddFigure()
 
 Creates a new child Figure.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="RotationBoundaryCondition.AddImage"></a>
 
 ### RotationBoundaryCondition.AddImage(filePath: System.String)
 
@@ -179,11 +191,7 @@ if not, the image will be a screen capture of the Geometry window.
 
 <!-- !! processed by numpydoc !! -->
 
-### RotationBoundaryCondition.Activate()
-
-Activate the current object.
-
-<!-- !! processed by numpydoc !! -->
+<a id="RotationBoundaryCondition.CopyTo"></a>
 
 ### RotationBoundaryCondition.CopyTo(other: Ansys.ACT.Automation.Mechanical.DataModelObject)
 
@@ -191,11 +199,47 @@ Copies all visible properties from this object to another.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="RotationBoundaryCondition.CreateParameter"></a>
+
+### RotationBoundaryCondition.CreateParameter(propName: System.String)
+
+Creates a new parameter for a Property.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="RotationBoundaryCondition.Delete"></a>
+
+### RotationBoundaryCondition.Delete()
+
+Run the Delete action.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="RotationBoundaryCondition.Duplicate"></a>
+
 ### RotationBoundaryCondition.Duplicate()
 
 Creates a copy of the current DataModelObject.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="RotationBoundaryCondition.GetChildren"></a>
+
+### RotationBoundaryCondition.GetChildren(recurses: System.Boolean, children: System.Collections.Generic.IList[ChildrenType])
+
+Gets the list of children, filtered by type.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="RotationBoundaryCondition.GetParameter"></a>
+
+### RotationBoundaryCondition.GetParameter(propName: System.String)
+
+Gets the parameter corresponding to the given property.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="RotationBoundaryCondition.GroupAllSimilarChildren"></a>
 
 ### RotationBoundaryCondition.GroupAllSimilarChildren()
 
@@ -203,17 +247,15 @@ Run the GroupAllSimilarChildren action.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="RotationBoundaryCondition.GroupSimilarObjects"></a>
+
 ### RotationBoundaryCondition.GroupSimilarObjects()
 
 Run the GroupSimilarObjects action.
 
 <!-- !! processed by numpydoc !! -->
 
-### RotationBoundaryCondition.PropertyByName(name: System.String)
-
-Get a property by its unique name.
-
-<!-- !! processed by numpydoc !! -->
+<a id="RotationBoundaryCondition.PropertyByAPIName"></a>
 
 ### RotationBoundaryCondition.PropertyByAPIName(name: System.String)
 
@@ -224,17 +266,15 @@ If multiple properties have the same API Name, only the first property with that
 
 <!-- !! processed by numpydoc !! -->
 
-### RotationBoundaryCondition.CreateParameter(propName: System.String)
+<a id="RotationBoundaryCondition.PropertyByName"></a>
 
-Creates a new parameter for a Property.
+### RotationBoundaryCondition.PropertyByName(name: System.String)
 
-<!-- !! processed by numpydoc !! -->
-
-### RotationBoundaryCondition.GetParameter(propName: System.String)
-
-Gets the parameter corresponding to the given property.
+Get a property by its unique name.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="RotationBoundaryCondition.RemoveParameter"></a>
 
 ### RotationBoundaryCondition.RemoveParameter(propName: System.String)
 

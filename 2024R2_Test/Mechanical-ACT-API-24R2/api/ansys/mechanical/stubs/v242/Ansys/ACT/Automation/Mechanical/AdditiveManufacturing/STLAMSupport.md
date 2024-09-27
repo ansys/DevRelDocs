@@ -1,6 +1,6 @@
 # `STLAMSupport`
 
-
+<a id="ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.AdditiveManufacturing.STLAMSupport"></a>
 
 #### *class* ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.AdditiveManufacturing.STLAMSupport
 
@@ -17,250 +17,76 @@ Defines a STLAMSupport.
 ### Methods
 
 | Name | Description |
-|----------------------------------------------|-----------------------------------------------------------------------------------|
-| `ClearGeneratedData`                         | Run the ClearGeneratedData action.                                                |
-| `GenerateSupportBodies`                      | Generate Support Bodies.                                                          |
-| `CreateNamedSelectionOfGeneratedElements`    | Create a named selection of the generated elements.                               |
-| `CreateNamedSelectionOfExternalElementFaces` | Create a named selection of the generated exterior element faces.                 |
-| `ExportStl`                                  | Export STL data.                                                                  |
-| `GetGeneratedBody`                           | Returns the generated body object                                                 |
-| `ImportSTL`                                  | Run the ImportSTL action.                                                         |
-| `AddCommandSnippet`                          | Creates a new CommandSnippet                                                      |
-| `Delete`                                     | Run the Delete action.                                                            |
-| `GetChildren`                                | Gets the list of children, filtered by type.                                      |
-| `GetChildren`                                | Gets the list of children, filtered by type.                                      |
-| `AddComment`                                 | Creates a new child Comment.                                                      |
-| `AddFigure`                                  | Creates a new child Figure.                                                       |
-| `AddImage`                                   | Creates a new child Image.                                                        |
-| `Activate`                                   | Activate the current object.                                                      |
-| `CopyTo`                                     | Copies all visible properties from this object to another.                        |
-| `Duplicate`                                  | Creates a copy of the current DataModelObject.                                    |
-| `GroupAllSimilarChildren`                    | Run the GroupAllSimilarChildren action.                                           |
-| `GroupSimilarObjects`                        | Run the GroupSimilarObjects action.                                               |
-| `PropertyByName`                             | Get a property by its unique name.                                                |
-| `PropertyByAPIName`                          | Get a property by its API name.                                                   |
-| `CreateParameter`                            | Creates a new parameter for a Property.                                           |
-| `GetParameter`                               | Gets the parameter corresponding to the given property.                           |
-| `RemoveParameter`                            | Removes the parameter from the parameter set corresponding to the given property. |
+|----------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------|
+| [`Activate`](#STLAMSupport.Activate)                                                                     | Activate the current object.                                                      |
+| [`AddCommandSnippet`](#STLAMSupport.AddCommandSnippet)                                                   | Creates a new CommandSnippet                                                      |
+| [`AddComment`](#STLAMSupport.AddComment)                                                                 | Creates a new child Comment.                                                      |
+| [`AddFigure`](#STLAMSupport.AddFigure)                                                                   | Creates a new child Figure.                                                       |
+| [`AddImage`](#STLAMSupport.AddImage)                                                                     | Creates a new child Image.                                                        |
+| [`ClearGeneratedData`](#STLAMSupport.ClearGeneratedData)                                                 | Run the ClearGeneratedData action.                                                |
+| [`CopyTo`](#STLAMSupport.CopyTo)                                                                         | Copies all visible properties from this object to another.                        |
+| [`CreateNamedSelectionOfExternalElementFaces`](#STLAMSupport.CreateNamedSelectionOfExternalElementFaces) | Create a named selection of the generated exterior element faces.                 |
+| [`CreateNamedSelectionOfGeneratedElements`](#STLAMSupport.CreateNamedSelectionOfGeneratedElements)       | Create a named selection of the generated elements.                               |
+| [`CreateParameter`](#STLAMSupport.CreateParameter)                                                       | Creates a new parameter for a Property.                                           |
+| [`Delete`](#STLAMSupport.Delete)                                                                         | Run the Delete action.                                                            |
+| [`Duplicate`](#STLAMSupport.Duplicate)                                                                   | Creates a copy of the current DataModelObject.                                    |
+| [`ExportStl`](#STLAMSupport.ExportStl)                                                                   | Export STL data.                                                                  |
+| [`GenerateSupportBodies`](#STLAMSupport.GenerateSupportBodies)                                           | Generate Support Bodies.                                                          |
+| [`GetChildren`](#STLAMSupport.GetChildren)                                                               | Gets the list of children, filtered by type.                                      |
+| [`GetGeneratedBody`](#STLAMSupport.GetGeneratedBody)                                                     | Returns the generated body object                                                 |
+| [`GetParameter`](#STLAMSupport.GetParameter)                                                             | Gets the parameter corresponding to the given property.                           |
+| [`GroupAllSimilarChildren`](#STLAMSupport.GroupAllSimilarChildren)                                       | Run the GroupAllSimilarChildren action.                                           |
+| [`GroupSimilarObjects`](#STLAMSupport.GroupSimilarObjects)                                               | Run the GroupSimilarObjects action.                                               |
+| [`ImportSTL`](#STLAMSupport.ImportSTL)                                                                   | Run the ImportSTL action.                                                         |
+| [`PropertyByAPIName`](#STLAMSupport.PropertyByAPIName)                                                   | Get a property by its API name.                                                   |
+| [`PropertyByName`](#STLAMSupport.PropertyByName)                                                         | Get a property by its unique name.                                                |
+| [`RemoveParameter`](#STLAMSupport.RemoveParameter)                                                       | Removes the parameter from the parameter set corresponding to the given property. |
 
 ### Properties
 
 | Name | Description |
-|----------------------------------|---------------------------------------------------------------|
-| `VoxelSize`                      | Gets the VoxelSize.                                           |
-| `InternalObject`                 | Gets the internal object. For advanced usage only.            |
-| `Filename`                       | Gets or sets the Filename.                                    |
-| `SubsampleRate`                  | Gets or sets the SubsampleRate.                               |
-| `ElementSize`                    | Gets the ElementSize.                                         |
-| `StlWallThickness`               | Gets or sets the StlWallThickness.                            |
-| `LengthUnits`                    | Gets or sets the LengthUnits.                                 |
-| `STLSupportView`                 | Gets or sets the STLSupportView.                              |
-| `Source`                         | Gets or sets the Source.                                      |
-| `STLSupportType`                 | Gets or sets the STLSupportType.                              |
-| `STL`                            | Gets or sets the STL.                                         |
-| `GeometrySelection`              | Gets or sets the GeometrySelection.                           |
-| `DataModelObjectCategory`        | Gets the current DataModelObject's category.                  |
-| `ThermalConductivityMultipleInX` | Gets or sets the ThermalConductivityMultipleInX.              |
-| `ThermalConductivityMultipleInY` | Gets or sets the ThermalConductivityMultipleInY.              |
-| `ThermalConductivityMultipleInZ` | Gets or sets the ThermalConductivityMultipleInZ.              |
-| `DensityMultiple`                | Gets or sets the DensityMultiple.                             |
-| `MaterialMultiplier`             | Gets or sets the MaterialMultiplier.                          |
-| `ElasticModulusMultipleInX`      | Gets or sets the ElasticModulusMultipleInX.                   |
-| `ElasticModulusMultipleInY`      | Gets or sets the ElasticModulusMultipleInY.                   |
-| `ElasticModulusMultipleInZ`      | Gets or sets the ElasticModulusMultipleInZ.                   |
-| `ShearModulusMultipleInXY`       | Gets or sets the ShearModulusMultipleInXY.                    |
-| `ShearModulusMultipleInXZ`       | Gets or sets the ShearModulusMultipleInXZ.                    |
-| `ShearModulusMultipleInYZ`       | Gets or sets the ShearModulusMultipleInYZ.                    |
-| `WallSpacing`                    | Gets or sets the WallSpacing.                                 |
-| `WallThickness`                  | Gets or sets the WallThickness.                               |
-| `Volume`                         | Gets or sets the Volume.                                      |
-| `MultiplierEntry`                | Gets or sets the MultiplierEntry.                             |
-| `SupportType`                    | Gets or sets the SupportType.                                 |
-| `Children`                       | Gets the list of children.                                    |
-| `Comments`                       | Gets the list of associated comments.                         |
-| `Figures`                        | Gets the list of associated figures.                          |
-| `Images`                         | Gets the list of associated images.                           |
-| `InternalObject`                 | Gets the internal object. For advanced usage only.            |
-| `Properties`                     | Gets the list of properties for this object.                  |
-| `VisibleProperties`              | Gets the list of properties that are visible for this object. |
+|----------------------------------------------------------------------------------|---------------------------------------------------------------|
+| [`Children`](#STLAMSupport.Children)                                             | Gets the list of children.                                    |
+| [`Comments`](#STLAMSupport.Comments)                                             | Gets the list of associated comments.                         |
+| [`DataModelObjectCategory`](#STLAMSupport.DataModelObjectCategory)               | Gets the current DataModelObject’s category.                  |
+| [`DensityMultiple`](#STLAMSupport.DensityMultiple)                               | Gets or sets the DensityMultiple.                             |
+| [`ElasticModulusMultipleInX`](#STLAMSupport.ElasticModulusMultipleInX)           | Gets or sets the ElasticModulusMultipleInX.                   |
+| [`ElasticModulusMultipleInY`](#STLAMSupport.ElasticModulusMultipleInY)           | Gets or sets the ElasticModulusMultipleInY.                   |
+| [`ElasticModulusMultipleInZ`](#STLAMSupport.ElasticModulusMultipleInZ)           | Gets or sets the ElasticModulusMultipleInZ.                   |
+| [`ElementSize`](#STLAMSupport.ElementSize)                                       | Gets the ElementSize.                                         |
+| [`Figures`](#STLAMSupport.Figures)                                               | Gets the list of associated figures.                          |
+| [`Filename`](#STLAMSupport.Filename)                                             | Gets or sets the Filename.                                    |
+| [`GeometrySelection`](#STLAMSupport.GeometrySelection)                           | Gets or sets the GeometrySelection.                           |
+| [`Images`](#STLAMSupport.Images)                                                 | Gets the list of associated images.                           |
+| [`InternalObject`](#STLAMSupport.InternalObject)                                 | Gets the internal object. For advanced usage only.            |
+| [`LengthUnits`](#STLAMSupport.LengthUnits)                                       | Gets or sets the LengthUnits.                                 |
+| [`MaterialMultiplier`](#STLAMSupport.MaterialMultiplier)                         | Gets or sets the MaterialMultiplier.                          |
+| [`MultiplierEntry`](#STLAMSupport.MultiplierEntry)                               | Gets or sets the MultiplierEntry.                             |
+| [`Properties`](#STLAMSupport.Properties)                                         | Gets the list of properties for this object.                  |
+| [`STL`](#STLAMSupport.STL)                                                       | Gets or sets the STL.                                         |
+| [`STLSupportType`](#STLAMSupport.STLSupportType)                                 | Gets or sets the STLSupportType.                              |
+| [`STLSupportView`](#STLAMSupport.STLSupportView)                                 | Gets or sets the STLSupportView.                              |
+| [`ShearModulusMultipleInXY`](#STLAMSupport.ShearModulusMultipleInXY)             | Gets or sets the ShearModulusMultipleInXY.                    |
+| [`ShearModulusMultipleInXZ`](#STLAMSupport.ShearModulusMultipleInXZ)             | Gets or sets the ShearModulusMultipleInXZ.                    |
+| [`ShearModulusMultipleInYZ`](#STLAMSupport.ShearModulusMultipleInYZ)             | Gets or sets the ShearModulusMultipleInYZ.                    |
+| [`Source`](#STLAMSupport.Source)                                                 | Gets or sets the Source.                                      |
+| [`StlWallThickness`](#STLAMSupport.StlWallThickness)                             | Gets or sets the StlWallThickness.                            |
+| [`SubsampleRate`](#STLAMSupport.SubsampleRate)                                   | Gets or sets the SubsampleRate.                               |
+| [`SupportType`](#STLAMSupport.SupportType)                                       | Gets or sets the SupportType.                                 |
+| [`ThermalConductivityMultipleInX`](#STLAMSupport.ThermalConductivityMultipleInX) | Gets or sets the ThermalConductivityMultipleInX.              |
+| [`ThermalConductivityMultipleInY`](#STLAMSupport.ThermalConductivityMultipleInY) | Gets or sets the ThermalConductivityMultipleInY.              |
+| [`ThermalConductivityMultipleInZ`](#STLAMSupport.ThermalConductivityMultipleInZ) | Gets or sets the ThermalConductivityMultipleInZ.              |
+| [`VisibleProperties`](#STLAMSupport.VisibleProperties)                           | Gets the list of properties that are visible for this object. |
+| [`Volume`](#STLAMSupport.Volume)                                                 | Gets or sets the Volume.                                      |
+| [`VoxelSize`](#STLAMSupport.VoxelSize)                                           | Gets the VoxelSize.                                           |
+| [`WallSpacing`](#STLAMSupport.WallSpacing)                                       | Gets or sets the WallSpacing.                                 |
+| [`WallThickness`](#STLAMSupport.WallThickness)                                   | Gets or sets the WallThickness.                               |
 
 <a id="property-detail"></a>
 
 ## Property detail
 
-### *property* STLAMSupport.VoxelSize *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets the VoxelSize.
-
-<!-- !! processed by numpydoc !! -->
-
-### *property* STLAMSupport.InternalObject *: Ansys.Common.Interop.DSObjectsAuto.IDSAMSupportAuto | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets the internal object. For advanced usage only.
-
-<!-- !! processed by numpydoc !! -->
-
-### *property* STLAMSupport.Filename *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the Filename.
-
-<!-- !! processed by numpydoc !! -->
-
-### *property* STLAMSupport.SubsampleRate *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the SubsampleRate.
-
-<!-- !! processed by numpydoc !! -->
-
-### *property* STLAMSupport.ElementSize *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets the ElementSize.
-
-<!-- !! processed by numpydoc !! -->
-
-### *property* STLAMSupport.StlWallThickness *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the StlWallThickness.
-
-<!-- !! processed by numpydoc !! -->
-
-### *property* STLAMSupport.LengthUnits *: [Ansys.Mechanical.DataModel.Enums.WBUnitSystemType](../../../../../../v241/Ansys/Mechanical/DataModel/Enums/WBUnitSystemType.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.WBUnitSystemType) | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the LengthUnits.
-
-<!-- !! processed by numpydoc !! -->
-
-### *property* STLAMSupport.STLSupportView *: [Ansys.Mechanical.DataModel.Enums.STLSupportViewType](../../../../../../v241/Ansys/Mechanical/DataModel/Enums/STLSupportViewType.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.STLSupportViewType) | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the STLSupportView.
-
-<!-- !! processed by numpydoc !! -->
-
-### *property* STLAMSupport.Source *: [Ansys.Mechanical.DataModel.Enums.AMStlSource](../../../../../../v241/Ansys/Mechanical/DataModel/Enums/AMStlSource.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.AMStlSource) | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the Source.
-
-<!-- !! processed by numpydoc !! -->
-
-### *property* STLAMSupport.STLSupportType *: [Ansys.Mechanical.DataModel.Enums.AMSupportSTLType](../../../../../../v241/Ansys/Mechanical/DataModel/Enums/AMSupportSTLType.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.AMSupportSTLType) | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the STLSupportType.
-
-<!-- !! processed by numpydoc !! -->
-
-### *property* STLAMSupport.STL *: [Ansys.ACT.Automation.Mechanical.STL](../../../../../../v241/Ansys/ACT/Automation/Mechanical/STL.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.STL) | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the STL.
-
-<!-- !! processed by numpydoc !! -->
-
-### *property* STLAMSupport.GeometrySelection *: Ansys.ACT.Interfaces.Common.ISelectionInfo | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the GeometrySelection.
-
-<!-- !! processed by numpydoc !! -->
-
-### *property* STLAMSupport.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../../v241/Ansys/Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets the current DataModelObject's category.
-
-<!-- !! processed by numpydoc !! -->
-
-### *property* STLAMSupport.ThermalConductivityMultipleInX *: System.Double | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the ThermalConductivityMultipleInX.
-
-<!-- !! processed by numpydoc !! -->
-
-### *property* STLAMSupport.ThermalConductivityMultipleInY *: System.Double | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the ThermalConductivityMultipleInY.
-
-<!-- !! processed by numpydoc !! -->
-
-### *property* STLAMSupport.ThermalConductivityMultipleInZ *: System.Double | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the ThermalConductivityMultipleInZ.
-
-<!-- !! processed by numpydoc !! -->
-
-### *property* STLAMSupport.DensityMultiple *: System.Double | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the DensityMultiple.
-
-<!-- !! processed by numpydoc !! -->
-
-### *property* STLAMSupport.MaterialMultiplier *: System.Double | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the MaterialMultiplier.
-
-<!-- !! processed by numpydoc !! -->
-
-### *property* STLAMSupport.ElasticModulusMultipleInX *: System.Double | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the ElasticModulusMultipleInX.
-
-<!-- !! processed by numpydoc !! -->
-
-### *property* STLAMSupport.ElasticModulusMultipleInY *: System.Double | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the ElasticModulusMultipleInY.
-
-<!-- !! processed by numpydoc !! -->
-
-### *property* STLAMSupport.ElasticModulusMultipleInZ *: System.Double | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the ElasticModulusMultipleInZ.
-
-<!-- !! processed by numpydoc !! -->
-
-### *property* STLAMSupport.ShearModulusMultipleInXY *: System.Double | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the ShearModulusMultipleInXY.
-
-<!-- !! processed by numpydoc !! -->
-
-### *property* STLAMSupport.ShearModulusMultipleInXZ *: System.Double | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the ShearModulusMultipleInXZ.
-
-<!-- !! processed by numpydoc !! -->
-
-### *property* STLAMSupport.ShearModulusMultipleInYZ *: System.Double | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the ShearModulusMultipleInYZ.
-
-<!-- !! processed by numpydoc !! -->
-
-### *property* STLAMSupport.WallSpacing *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the WallSpacing.
-
-<!-- !! processed by numpydoc !! -->
-
-### *property* STLAMSupport.WallThickness *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the WallThickness.
-
-<!-- !! processed by numpydoc !! -->
-
-### *property* STLAMSupport.Volume *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the Volume.
-
-<!-- !! processed by numpydoc !! -->
-
-### *property* STLAMSupport.MultiplierEntry *: [Ansys.Mechanical.DataModel.Enums.AMMultiplierEntryType](../../../../../../v241/Ansys/Mechanical/DataModel/Enums/AMMultiplierEntryType.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.AMMultiplierEntryType) | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the MultiplierEntry.
-
-<!-- !! processed by numpydoc !! -->
-
-### *property* STLAMSupport.SupportType *: [Ansys.Mechanical.DataModel.Enums.AMSupportType](../../../../../../v241/Ansys/Mechanical/DataModel/Enums/AMSupportType.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.AMSupportType) | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the SupportType.
-
-<!-- !! processed by numpydoc !! -->
+<a id="STLAMSupport.Children"></a>
 
 ### *property* STLAMSupport.Children *: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -268,11 +94,63 @@ Gets the list of children.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="STLAMSupport.Comments"></a>
+
 ### *property* STLAMSupport.Comments *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Comment](../../../../../../v241/Ansys/ACT/Automation/Mechanical/Comment.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated comments.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="STLAMSupport.DataModelObjectCategory"></a>
+
+### *property* STLAMSupport.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets the current DataModelObject’s category.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="STLAMSupport.DensityMultiple"></a>
+
+### *property* STLAMSupport.DensityMultiple *: System.Double | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the DensityMultiple.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="STLAMSupport.ElasticModulusMultipleInX"></a>
+
+### *property* STLAMSupport.ElasticModulusMultipleInX *: System.Double | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the ElasticModulusMultipleInX.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="STLAMSupport.ElasticModulusMultipleInY"></a>
+
+### *property* STLAMSupport.ElasticModulusMultipleInY *: System.Double | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the ElasticModulusMultipleInY.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="STLAMSupport.ElasticModulusMultipleInZ"></a>
+
+### *property* STLAMSupport.ElasticModulusMultipleInZ *: System.Double | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the ElasticModulusMultipleInZ.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="STLAMSupport.ElementSize"></a>
+
+### *property* STLAMSupport.ElementSize *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets the ElementSize.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="STLAMSupport.Figures"></a>
 
 ### *property* STLAMSupport.Figures *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Figure](../../../../../../v241/Ansys/ACT/Automation/Mechanical/Figure.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -280,17 +158,63 @@ Gets the list of associated figures.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="STLAMSupport.Filename"></a>
+
+### *property* STLAMSupport.Filename *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the Filename.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="STLAMSupport.GeometrySelection"></a>
+
+### *property* STLAMSupport.GeometrySelection *: Ansys.ACT.Interfaces.Common.ISelectionInfo | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the GeometrySelection.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="STLAMSupport.Images"></a>
+
 ### *property* STLAMSupport.Images *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Image](../../../../../../v241/Ansys/ACT/Automation/Mechanical/Image.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated images.
 
 <!-- !! processed by numpydoc !! -->
 
-### *property* STLAMSupport.InternalObject *: System.Object | [None](https://docs.python.org/3/library/constants.html#None)*
+<a id="STLAMSupport.InternalObject"></a>
+
+### *property* STLAMSupport.InternalObject *: Ansys.Common.Interop.DSObjectsAuto.IDSAMSupportAuto | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the internal object. For advanced usage only.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="STLAMSupport.LengthUnits"></a>
+
+### *property* STLAMSupport.LengthUnits *: [Ansys.Mechanical.DataModel.Enums.WBUnitSystemType](../../../../Mechanical/DataModel/Enums/WBUnitSystemType.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.WBUnitSystemType) | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the LengthUnits.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="STLAMSupport.MaterialMultiplier"></a>
+
+### *property* STLAMSupport.MaterialMultiplier *: System.Double | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the MaterialMultiplier.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="STLAMSupport.MultiplierEntry"></a>
+
+### *property* STLAMSupport.MultiplierEntry *: [Ansys.Mechanical.DataModel.Enums.AMMultiplierEntryType](../../../../Mechanical/DataModel/Enums/AMMultiplierEntryType.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.AMMultiplierEntryType) | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the MultiplierEntry.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="STLAMSupport.Properties"></a>
 
 ### *property* STLAMSupport.Properties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -298,9 +222,147 @@ Gets the list of properties for this object.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="STLAMSupport.STL"></a>
+
+### *property* STLAMSupport.STL *: [Ansys.ACT.Automation.Mechanical.STL](../STL.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.STL) | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the STL.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="STLAMSupport.STLSupportType"></a>
+
+### *property* STLAMSupport.STLSupportType *: [Ansys.Mechanical.DataModel.Enums.AMSupportSTLType](../../../../Mechanical/DataModel/Enums/AMSupportSTLType.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.AMSupportSTLType) | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the STLSupportType.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="STLAMSupport.STLSupportView"></a>
+
+### *property* STLAMSupport.STLSupportView *: [Ansys.Mechanical.DataModel.Enums.STLSupportViewType](../../../../Mechanical/DataModel/Enums/STLSupportViewType.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.STLSupportViewType) | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the STLSupportView.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="STLAMSupport.ShearModulusMultipleInXY"></a>
+
+### *property* STLAMSupport.ShearModulusMultipleInXY *: System.Double | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the ShearModulusMultipleInXY.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="STLAMSupport.ShearModulusMultipleInXZ"></a>
+
+### *property* STLAMSupport.ShearModulusMultipleInXZ *: System.Double | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the ShearModulusMultipleInXZ.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="STLAMSupport.ShearModulusMultipleInYZ"></a>
+
+### *property* STLAMSupport.ShearModulusMultipleInYZ *: System.Double | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the ShearModulusMultipleInYZ.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="STLAMSupport.Source"></a>
+
+### *property* STLAMSupport.Source *: [Ansys.Mechanical.DataModel.Enums.AMStlSource](../../../../Mechanical/DataModel/Enums/AMStlSource.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.AMStlSource) | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the Source.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="STLAMSupport.StlWallThickness"></a>
+
+### *property* STLAMSupport.StlWallThickness *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the StlWallThickness.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="STLAMSupport.SubsampleRate"></a>
+
+### *property* STLAMSupport.SubsampleRate *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the SubsampleRate.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="STLAMSupport.SupportType"></a>
+
+### *property* STLAMSupport.SupportType *: [Ansys.Mechanical.DataModel.Enums.AMSupportType](../../../../Mechanical/DataModel/Enums/AMSupportType.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.AMSupportType) | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the SupportType.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="STLAMSupport.ThermalConductivityMultipleInX"></a>
+
+### *property* STLAMSupport.ThermalConductivityMultipleInX *: System.Double | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the ThermalConductivityMultipleInX.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="STLAMSupport.ThermalConductivityMultipleInY"></a>
+
+### *property* STLAMSupport.ThermalConductivityMultipleInY *: System.Double | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the ThermalConductivityMultipleInY.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="STLAMSupport.ThermalConductivityMultipleInZ"></a>
+
+### *property* STLAMSupport.ThermalConductivityMultipleInZ *: System.Double | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the ThermalConductivityMultipleInZ.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="STLAMSupport.VisibleProperties"></a>
+
 ### *property* STLAMSupport.VisibleProperties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of properties that are visible for this object.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="STLAMSupport.Volume"></a>
+
+### *property* STLAMSupport.Volume *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the Volume.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="STLAMSupport.VoxelSize"></a>
+
+### *property* STLAMSupport.VoxelSize *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets the VoxelSize.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="STLAMSupport.WallSpacing"></a>
+
+### *property* STLAMSupport.WallSpacing *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the WallSpacing.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="STLAMSupport.WallThickness"></a>
+
+### *property* STLAMSupport.WallThickness *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the WallThickness.
 
 <!-- !! processed by numpydoc !! -->
 
@@ -308,47 +370,15 @@ Gets the list of properties that are visible for this object.
 
 ## Method detail
 
-### STLAMSupport.ClearGeneratedData()
+<a id="STLAMSupport.Activate"></a>
 
-Run the ClearGeneratedData action.
+### STLAMSupport.Activate()
 
-<!-- !! processed by numpydoc !! -->
-
-### STLAMSupport.GenerateSupportBodies(progress: [Ansys.Mechanical.Application.Progress](../../../../../../v241/Ansys/Mechanical/Application/Progress.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.Application.Progress))
-
-Generate Support Bodies.
+Activate the current object.
 
 <!-- !! processed by numpydoc !! -->
 
-### STLAMSupport.CreateNamedSelectionOfGeneratedElements()
-
-Create a named selection of the generated elements.
-
-<!-- !! processed by numpydoc !! -->
-
-### STLAMSupport.CreateNamedSelectionOfExternalElementFaces()
-
-Create a named selection of the generated exterior element faces.
-
-<!-- !! processed by numpydoc !! -->
-
-### STLAMSupport.ExportStl(filename: System.String, progress: [Ansys.Mechanical.Application.Progress](../../../../../../v241/Ansys/Mechanical/Application/Progress.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.Application.Progress))
-
-Export STL data.
-
-<!-- !! processed by numpydoc !! -->
-
-### STLAMSupport.GetGeneratedBody()
-
-Returns the generated body object
-
-<!-- !! processed by numpydoc !! -->
-
-### STLAMSupport.ImportSTL()
-
-Run the ImportSTL action.
-
-<!-- !! processed by numpydoc !! -->
+<a id="STLAMSupport.AddCommandSnippet"></a>
 
 ### STLAMSupport.AddCommandSnippet()
 
@@ -356,23 +386,7 @@ Creates a new CommandSnippet
 
 <!-- !! processed by numpydoc !! -->
 
-### STLAMSupport.Delete()
-
-Run the Delete action.
-
-<!-- !! processed by numpydoc !! -->
-
-### STLAMSupport.GetChildren(recurses: System.Boolean, children: System.Collections.Generic.IList[ChildrenType])
-
-Gets the list of children, filtered by type.
-
-<!-- !! processed by numpydoc !! -->
-
-### STLAMSupport.GetChildren(category: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../../v241/Ansys/Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory), recurses: System.Boolean, children: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject])
-
-Gets the list of children, filtered by type.
-
-<!-- !! processed by numpydoc !! -->
+<a id="STLAMSupport.AddComment"></a>
 
 ### STLAMSupport.AddComment()
 
@@ -380,11 +394,15 @@ Creates a new child Comment.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="STLAMSupport.AddFigure"></a>
+
 ### STLAMSupport.AddFigure()
 
 Creates a new child Figure.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="STLAMSupport.AddImage"></a>
 
 ### STLAMSupport.AddImage(filePath: System.String)
 
@@ -396,11 +414,15 @@ if not, the image will be a screen capture of the Geometry window.
 
 <!-- !! processed by numpydoc !! -->
 
-### STLAMSupport.Activate()
+<a id="STLAMSupport.ClearGeneratedData"></a>
 
-Activate the current object.
+### STLAMSupport.ClearGeneratedData()
+
+Run the ClearGeneratedData action.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="STLAMSupport.CopyTo"></a>
 
 ### STLAMSupport.CopyTo(other: Ansys.ACT.Automation.Mechanical.DataModelObject)
 
@@ -408,11 +430,87 @@ Copies all visible properties from this object to another.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="STLAMSupport.CreateNamedSelectionOfExternalElementFaces"></a>
+
+### STLAMSupport.CreateNamedSelectionOfExternalElementFaces()
+
+Create a named selection of the generated exterior element faces.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="STLAMSupport.CreateNamedSelectionOfGeneratedElements"></a>
+
+### STLAMSupport.CreateNamedSelectionOfGeneratedElements()
+
+Create a named selection of the generated elements.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="STLAMSupport.CreateParameter"></a>
+
+### STLAMSupport.CreateParameter(propName: System.String)
+
+Creates a new parameter for a Property.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="STLAMSupport.Delete"></a>
+
+### STLAMSupport.Delete()
+
+Run the Delete action.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="STLAMSupport.Duplicate"></a>
+
 ### STLAMSupport.Duplicate()
 
 Creates a copy of the current DataModelObject.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="STLAMSupport.ExportStl"></a>
+
+### STLAMSupport.ExportStl(filename: System.String, progress: [Ansys.Mechanical.Application.Progress](../../../../Mechanical/Application/Progress.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.Application.Progress))
+
+Export STL data.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="STLAMSupport.GenerateSupportBodies"></a>
+
+### STLAMSupport.GenerateSupportBodies(progress: [Ansys.Mechanical.Application.Progress](../../../../Mechanical/Application/Progress.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.Application.Progress))
+
+Generate Support Bodies.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="STLAMSupport.GetChildren"></a>
+
+### STLAMSupport.GetChildren(recurses: System.Boolean, children: System.Collections.Generic.IList[ChildrenType])
+
+Gets the list of children, filtered by type.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="STLAMSupport.GetGeneratedBody"></a>
+
+### STLAMSupport.GetGeneratedBody()
+
+Returns the generated body object
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="STLAMSupport.GetParameter"></a>
+
+### STLAMSupport.GetParameter(propName: System.String)
+
+Gets the parameter corresponding to the given property.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="STLAMSupport.GroupAllSimilarChildren"></a>
 
 ### STLAMSupport.GroupAllSimilarChildren()
 
@@ -420,17 +518,23 @@ Run the GroupAllSimilarChildren action.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="STLAMSupport.GroupSimilarObjects"></a>
+
 ### STLAMSupport.GroupSimilarObjects()
 
 Run the GroupSimilarObjects action.
 
 <!-- !! processed by numpydoc !! -->
 
-### STLAMSupport.PropertyByName(name: System.String)
+<a id="STLAMSupport.ImportSTL"></a>
 
-Get a property by its unique name.
+### STLAMSupport.ImportSTL()
+
+Run the ImportSTL action.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="STLAMSupport.PropertyByAPIName"></a>
 
 ### STLAMSupport.PropertyByAPIName(name: System.String)
 
@@ -441,17 +545,15 @@ If multiple properties have the same API Name, only the first property with that
 
 <!-- !! processed by numpydoc !! -->
 
-### STLAMSupport.CreateParameter(propName: System.String)
+<a id="STLAMSupport.PropertyByName"></a>
 
-Creates a new parameter for a Property.
+### STLAMSupport.PropertyByName(name: System.String)
 
-<!-- !! processed by numpydoc !! -->
-
-### STLAMSupport.GetParameter(propName: System.String)
-
-Gets the parameter corresponding to the given property.
+Get a property by its unique name.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="STLAMSupport.RemoveParameter"></a>
 
 ### STLAMSupport.RemoveParameter(propName: System.String)
 

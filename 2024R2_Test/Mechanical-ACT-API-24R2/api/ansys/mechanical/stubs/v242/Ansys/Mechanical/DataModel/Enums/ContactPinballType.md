@@ -1,6 +1,6 @@
 # `ContactPinballType`
 
-
+<a id="ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.ContactPinballType"></a>
 
 #### *class* ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.ContactPinballType
 
@@ -17,11 +17,11 @@ Specifies the ContactPinballType.
 ### Attributes
 
 | Name |
-| ------------------------------------------------------------------ |
+| -------------------------------------------------------------------------------------------------------------------------------------------- |
 | [`AutoDetectionValue`](#ContactPinballType.AutoDetectionValue) |
 | [`Factor`](#ContactPinballType.Factor) |
-| [`Radius`](#ContactPinballType.Radius) |
 | [`ProgramControlled`](#ContactPinballType.ProgramControlled) |
+| [`Radius`](#ContactPinballType.Radius) |
 
 <a id="attribute-detail"></a>
 
@@ -35,12 +35,12 @@ Specifies the ContactPinballType.
 
 ### ContactPinballType.Factor *= 2*
 
-<a id="ContactPinballType.Radius"></a>
-
-### ContactPinballType.Radius *= 1*
-
 <a id="ContactPinballType.ProgramControlled"></a>
 
 ### ContactPinballType.ProgramControlled *= 0*
+
+<a id="ContactPinballType.Radius"></a>
+
+### ContactPinballType.Radius *= 1*
 
 

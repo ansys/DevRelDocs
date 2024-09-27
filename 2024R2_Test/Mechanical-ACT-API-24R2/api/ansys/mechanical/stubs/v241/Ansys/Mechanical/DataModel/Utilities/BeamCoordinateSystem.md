@@ -1,6 +1,6 @@
 # `BeamCoordinateSystem`
 
-
+<a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Utilities.BeamCoordinateSystem"></a>
 
 #### *class* ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Utilities.BeamCoordinateSystem
 

@@ -1,6 +1,6 @@
 # `DSCampbellYAxisDataType`
 
-
+<a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DSCampbellYAxisDataType"></a>
 
 #### *class* ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DSCampbellYAxisDataType
 
@@ -17,11 +17,11 @@ Specifies the DSCampbellYAxisDataType.
 ### Attributes
 
 | Name |
-| -------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| [`Frequency`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/DSCampbellYAxisDataType.md#DSCampbellYAxisDataType.Frequency) |
-| [`LogarithmicDecrement`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/DSCampbellYAxisDataType.md#DSCampbellYAxisDataType.LogarithmicDecrement) |
-| [`ModalDampingRatio`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/DSCampbellYAxisDataType.md#DSCampbellYAxisDataType.ModalDampingRatio) |
-| [`Stability`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/DSCampbellYAxisDataType.md#DSCampbellYAxisDataType.Stability) |
+| ------------------------------------------------------------------------- |
+| [`Frequency`](#DSCampbellYAxisDataType.Frequency) |
+| [`LogarithmicDecrement`](#DSCampbellYAxisDataType.LogarithmicDecrement) |
+| [`ModalDampingRatio`](#DSCampbellYAxisDataType.ModalDampingRatio) |
+| [`Stability`](#DSCampbellYAxisDataType.Stability) |
 
 <a id="attribute-detail"></a>
 

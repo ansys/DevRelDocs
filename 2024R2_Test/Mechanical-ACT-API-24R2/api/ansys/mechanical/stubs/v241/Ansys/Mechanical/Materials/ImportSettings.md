@@ -1,6 +1,6 @@
 # `ImportSettings`
 
-
+<a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.Materials.ImportSettings"></a>
 
 #### *class* ansys.mechanical.stubs.v241.Ansys.Mechanical.Materials.ImportSettings
 
@@ -17,12 +17,14 @@ ImportSettings interface.
 ### Properties
 
 | Name | Description |
-|------------|---------------------------------------------------------------|
-| `Filter`   | All materials will be imported if this list of the names of   |
+|--------------------------------------|---------------------------------------------------------------|
+| [`Filter`](#ImportSettings.Filter)   | All materials will be imported if this list of the names of   |
 
 <a id="property-detail"></a>
 
 ## Property detail
+
+<a id="ImportSettings.Filter"></a>
 
 ### *property* ImportSettings.Filter *: System.Collections.Generic.IList[System.String] | [None](https://docs.python.org/3/library/constants.html#None)*
 

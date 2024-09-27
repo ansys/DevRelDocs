@@ -1,6 +1,6 @@
 # `AbaqusKeywordArgumentColl`
 
-
+<a id="ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.FE.ABAQUS.AbaqusKeywordArgumentColl"></a>
 
 #### *class* ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.FE.ABAQUS.AbaqusKeywordArgumentColl
 
@@ -17,12 +17,14 @@ Collection of keyword arguments.
 ### Properties
 
 | Name | Description |
-|-----------|-------------------------------|
-| `Items`   | Gets the list of arguments.   |
+|-----------------------------------------------|-------------------------------|
+| [`Items`](#AbaqusKeywordArgumentColl.Items)   | Gets the list of arguments.   |
 
 <a id="property-detail"></a>
 
 ## Property detail
+
+<a id="AbaqusKeywordArgumentColl.Items"></a>
 
 ### *property* AbaqusKeywordArgumentColl.Items *: System.Collections.Generic.IReadOnlyList[[Ansys.ACT.Automation.Mechanical.FE.ABAQUS.AbaqusKeywordArgument](../../../../../../../v241/Ansys/ACT/Automation/Mechanical/FE/ABAQUS/AbaqusKeywordArgument.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.FE.ABAQUS.AbaqusKeywordArgument)] | [None](https://docs.python.org/3/library/constants.html#None)*
 

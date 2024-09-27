@@ -1,6 +1,6 @@
 # `NonlinearAdaptivityUpdateType`
 
-
+<a id="ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.NonlinearAdaptivityUpdateType"></a>
 
 #### *class* ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.NonlinearAdaptivityUpdateType
 
@@ -17,20 +17,20 @@ Specifies the NonlinearAdaptivityUpdateType.
 ### Attributes
 
 | Name |
-| --------------------------------------------------------------------------------------- |
-| [`SpecifiedRecurrenceRate`](#NonlinearAdaptivityUpdateType.SpecifiedRecurrenceRate) |
+| -------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | [`EquallySpacedPoints`](#NonlinearAdaptivityUpdateType.EquallySpacedPoints) |
+| [`SpecifiedRecurrenceRate`](#NonlinearAdaptivityUpdateType.SpecifiedRecurrenceRate) |
 
 <a id="attribute-detail"></a>
 
 ## Attribute detail
 
-<a id="NonlinearAdaptivityUpdateType.SpecifiedRecurrenceRate"></a>
-
-### NonlinearAdaptivityUpdateType.SpecifiedRecurrenceRate *= 1*
-
 <a id="NonlinearAdaptivityUpdateType.EquallySpacedPoints"></a>
 
 ### NonlinearAdaptivityUpdateType.EquallySpacedPoints *= 2*
+
+<a id="NonlinearAdaptivityUpdateType.SpecifiedRecurrenceRate"></a>
+
+### NonlinearAdaptivityUpdateType.SpecifiedRecurrenceRate *= 1*
 
 

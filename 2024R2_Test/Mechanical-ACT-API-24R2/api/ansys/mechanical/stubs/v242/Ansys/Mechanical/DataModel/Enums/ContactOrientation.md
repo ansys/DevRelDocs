@@ -1,6 +1,6 @@
 # `ContactOrientation`
 
-
+<a id="ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.ContactOrientation"></a>
 
 #### *class* ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.ContactOrientation
 
@@ -17,11 +17,11 @@ Specifies the ContactOrientation.
 ### Attributes
 
 | Name |
-| -------------------------------------------------------------- |
+| ---------------------------------------------------------------------------------------------------------------------------------------- |
 | [`Circle`](#ContactOrientation.Circle) |
 | [`Cylinder`](#ContactOrientation.Cylinder) |
-| [`Sphere`](#ContactOrientation.Sphere) |
 | [`ProgramControlled`](#ContactOrientation.ProgramControlled) |
+| [`Sphere`](#ContactOrientation.Sphere) |
 
 <a id="attribute-detail"></a>
 
@@ -35,12 +35,12 @@ Specifies the ContactOrientation.
 
 ### ContactOrientation.Cylinder *= 3*
 
-<a id="ContactOrientation.Sphere"></a>
-
-### ContactOrientation.Sphere *= 2*
-
 <a id="ContactOrientation.ProgramControlled"></a>
 
 ### ContactOrientation.ProgramControlled *= 0*
+
+<a id="ContactOrientation.Sphere"></a>
+
+### ContactOrientation.Sphere *= 2*
 
 

@@ -1,6 +1,6 @@
 # `ContactSolutionInformation`
 
-
+<a id="ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.ContactSolutionInformation"></a>
 
 #### *class* ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.ContactSolutionInformation
 
@@ -17,58 +17,40 @@ Defines a ContactSolutionInformation.
 ### Methods
 
 | Name | Description |
-|---------------------------|-----------------------------------------------------------------------------------|
-| `Delete`                  | Run the Delete action.                                                            |
-| `GetChildren`             | Gets the list of children, filtered by type.                                      |
-| `GetChildren`             | Gets the list of children, filtered by type.                                      |
-| `AddComment`              | Creates a new child Comment.                                                      |
-| `AddImage`                | Creates a new child Image.                                                        |
-| `Activate`                | Activate the current object.                                                      |
-| `CopyTo`                  | Copies all visible properties from this object to another.                        |
-| `Duplicate`               | Creates a copy of the current DataModelObject.                                    |
-| `GroupAllSimilarChildren` | Run the GroupAllSimilarChildren action.                                           |
-| `GroupSimilarObjects`     | Run the GroupSimilarObjects action.                                               |
-| `PropertyByName`          | Get a property by its unique name.                                                |
-| `PropertyByAPIName`       | Get a property by its API name.                                                   |
-| `CreateParameter`         | Creates a new parameter for a Property.                                           |
-| `GetParameter`            | Gets the parameter corresponding to the given property.                           |
-| `RemoveParameter`         | Removes the parameter from the parameter set corresponding to the given property. |
+|----------------------------------------------------------------------------------|-----------------------------------------------------------------------------------|
+| [`Activate`](#ContactSolutionInformation.Activate)                               | Activate the current object.                                                      |
+| [`AddComment`](#ContactSolutionInformation.AddComment)                           | Creates a new child Comment.                                                      |
+| [`AddImage`](#ContactSolutionInformation.AddImage)                               | Creates a new child Image.                                                        |
+| [`CopyTo`](#ContactSolutionInformation.CopyTo)                                   | Copies all visible properties from this object to another.                        |
+| [`CreateParameter`](#ContactSolutionInformation.CreateParameter)                 | Creates a new parameter for a Property.                                           |
+| [`Delete`](#ContactSolutionInformation.Delete)                                   | Run the Delete action.                                                            |
+| [`Duplicate`](#ContactSolutionInformation.Duplicate)                             | Creates a copy of the current DataModelObject.                                    |
+| [`GetChildren`](#ContactSolutionInformation.GetChildren)                         | Gets the list of children, filtered by type.                                      |
+| [`GetParameter`](#ContactSolutionInformation.GetParameter)                       | Gets the parameter corresponding to the given property.                           |
+| [`GroupAllSimilarChildren`](#ContactSolutionInformation.GroupAllSimilarChildren) | Run the GroupAllSimilarChildren action.                                           |
+| [`GroupSimilarObjects`](#ContactSolutionInformation.GroupSimilarObjects)         | Run the GroupSimilarObjects action.                                               |
+| [`PropertyByAPIName`](#ContactSolutionInformation.PropertyByAPIName)             | Get a property by its API name.                                                   |
+| [`PropertyByName`](#ContactSolutionInformation.PropertyByName)                   | Get a property by its unique name.                                                |
+| [`RemoveParameter`](#ContactSolutionInformation.RemoveParameter)                 | Removes the parameter from the parameter set corresponding to the given property. |
 
 ### Properties
 
 | Name | Description |
-|---------------------------|---------------------------------------------------------------|
-| `InternalObject`          | Gets the internal object. For advanced usage only.            |
-| `UpdateInterval`          | Gets or sets the UpdateInterval.                              |
-| `DataModelObjectCategory` | Gets the current DataModelObject's category.                  |
-| `Children`                | Gets the list of children.                                    |
-| `Comments`                | Gets the list of associated comments.                         |
-| `Images`                  | Gets the list of associated images.                           |
-| `InternalObject`          | Gets the internal object. For advanced usage only.            |
-| `Properties`              | Gets the list of properties for this object.                  |
-| `VisibleProperties`       | Gets the list of properties that are visible for this object. |
+|----------------------------------------------------------------------------------|---------------------------------------------------------------|
+| [`Children`](#ContactSolutionInformation.Children)                               | Gets the list of children.                                    |
+| [`Comments`](#ContactSolutionInformation.Comments)                               | Gets the list of associated comments.                         |
+| [`DataModelObjectCategory`](#ContactSolutionInformation.DataModelObjectCategory) | Gets the current DataModelObject’s category.                  |
+| [`Images`](#ContactSolutionInformation.Images)                                   | Gets the list of associated images.                           |
+| [`InternalObject`](#ContactSolutionInformation.InternalObject)                   | Gets the internal object. For advanced usage only.            |
+| [`Properties`](#ContactSolutionInformation.Properties)                           | Gets the list of properties for this object.                  |
+| [`UpdateInterval`](#ContactSolutionInformation.UpdateInterval)                   | Gets or sets the UpdateInterval.                              |
+| [`VisibleProperties`](#ContactSolutionInformation.VisibleProperties)             | Gets the list of properties that are visible for this object. |
 
 <a id="property-detail"></a>
 
 ## Property detail
 
-### *property* ContactSolutionInformation.InternalObject *: Ansys.Common.Interop.DSObjectsAuto.IDSContactInfoToolAuto | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets the internal object. For advanced usage only.
-
-<!-- !! processed by numpydoc !! -->
-
-### *property* ContactSolutionInformation.UpdateInterval *: System.Double | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the UpdateInterval.
-
-<!-- !! processed by numpydoc !! -->
-
-### *property* ContactSolutionInformation.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../v241/Ansys/Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets the current DataModelObject's category.
-
-<!-- !! processed by numpydoc !! -->
+<a id="ContactSolutionInformation.Children"></a>
 
 ### *property* ContactSolutionInformation.Children *: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -76,11 +58,23 @@ Gets the list of children.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="ContactSolutionInformation.Comments"></a>
+
 ### *property* ContactSolutionInformation.Comments *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Comment](../../../../../v241/Ansys/ACT/Automation/Mechanical/Comment.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated comments.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="ContactSolutionInformation.DataModelObjectCategory"></a>
+
+### *property* ContactSolutionInformation.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets the current DataModelObject’s category.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ContactSolutionInformation.Images"></a>
 
 ### *property* ContactSolutionInformation.Images *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Image](../../../../../v241/Ansys/ACT/Automation/Mechanical/Image.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -88,17 +82,31 @@ Gets the list of associated images.
 
 <!-- !! processed by numpydoc !! -->
 
-### *property* ContactSolutionInformation.InternalObject *: System.Object | [None](https://docs.python.org/3/library/constants.html#None)*
+<a id="ContactSolutionInformation.InternalObject"></a>
+
+### *property* ContactSolutionInformation.InternalObject *: Ansys.Common.Interop.DSObjectsAuto.IDSContactInfoToolAuto | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the internal object. For advanced usage only.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="ContactSolutionInformation.Properties"></a>
 
 ### *property* ContactSolutionInformation.Properties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of properties for this object.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="ContactSolutionInformation.UpdateInterval"></a>
+
+### *property* ContactSolutionInformation.UpdateInterval *: System.Double | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the UpdateInterval.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ContactSolutionInformation.VisibleProperties"></a>
 
 ### *property* ContactSolutionInformation.VisibleProperties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -110,29 +118,23 @@ Gets the list of properties that are visible for this object.
 
 ## Method detail
 
-### ContactSolutionInformation.Delete()
+<a id="ContactSolutionInformation.Activate"></a>
 
-Run the Delete action.
+### ContactSolutionInformation.Activate()
 
-<!-- !! processed by numpydoc !! -->
-
-### ContactSolutionInformation.GetChildren(recurses: System.Boolean, children: System.Collections.Generic.IList[ChildrenType])
-
-Gets the list of children, filtered by type.
+Activate the current object.
 
 <!-- !! processed by numpydoc !! -->
 
-### ContactSolutionInformation.GetChildren(category: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../v241/Ansys/Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory), recurses: System.Boolean, children: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject])
-
-Gets the list of children, filtered by type.
-
-<!-- !! processed by numpydoc !! -->
+<a id="ContactSolutionInformation.AddComment"></a>
 
 ### ContactSolutionInformation.AddComment()
 
 Creates a new child Comment.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="ContactSolutionInformation.AddImage"></a>
 
 ### ContactSolutionInformation.AddImage(filePath: System.String)
 
@@ -144,11 +146,7 @@ if not, the image will be a screen capture of the Geometry window.
 
 <!-- !! processed by numpydoc !! -->
 
-### ContactSolutionInformation.Activate()
-
-Activate the current object.
-
-<!-- !! processed by numpydoc !! -->
+<a id="ContactSolutionInformation.CopyTo"></a>
 
 ### ContactSolutionInformation.CopyTo(other: Ansys.ACT.Automation.Mechanical.DataModelObject)
 
@@ -156,11 +154,47 @@ Copies all visible properties from this object to another.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="ContactSolutionInformation.CreateParameter"></a>
+
+### ContactSolutionInformation.CreateParameter(propName: System.String)
+
+Creates a new parameter for a Property.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ContactSolutionInformation.Delete"></a>
+
+### ContactSolutionInformation.Delete()
+
+Run the Delete action.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ContactSolutionInformation.Duplicate"></a>
+
 ### ContactSolutionInformation.Duplicate()
 
 Creates a copy of the current DataModelObject.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="ContactSolutionInformation.GetChildren"></a>
+
+### ContactSolutionInformation.GetChildren(recurses: System.Boolean, children: System.Collections.Generic.IList[ChildrenType])
+
+Gets the list of children, filtered by type.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ContactSolutionInformation.GetParameter"></a>
+
+### ContactSolutionInformation.GetParameter(propName: System.String)
+
+Gets the parameter corresponding to the given property.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ContactSolutionInformation.GroupAllSimilarChildren"></a>
 
 ### ContactSolutionInformation.GroupAllSimilarChildren()
 
@@ -168,17 +202,15 @@ Run the GroupAllSimilarChildren action.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="ContactSolutionInformation.GroupSimilarObjects"></a>
+
 ### ContactSolutionInformation.GroupSimilarObjects()
 
 Run the GroupSimilarObjects action.
 
 <!-- !! processed by numpydoc !! -->
 
-### ContactSolutionInformation.PropertyByName(name: System.String)
-
-Get a property by its unique name.
-
-<!-- !! processed by numpydoc !! -->
+<a id="ContactSolutionInformation.PropertyByAPIName"></a>
 
 ### ContactSolutionInformation.PropertyByAPIName(name: System.String)
 
@@ -189,17 +221,15 @@ If multiple properties have the same API Name, only the first property with that
 
 <!-- !! processed by numpydoc !! -->
 
-### ContactSolutionInformation.CreateParameter(propName: System.String)
+<a id="ContactSolutionInformation.PropertyByName"></a>
 
-Creates a new parameter for a Property.
+### ContactSolutionInformation.PropertyByName(name: System.String)
 
-<!-- !! processed by numpydoc !! -->
-
-### ContactSolutionInformation.GetParameter(propName: System.String)
-
-Gets the parameter corresponding to the given property.
+Get a property by its unique name.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="ContactSolutionInformation.RemoveParameter"></a>
 
 ### ContactSolutionInformation.RemoveParameter(propName: System.String)
 

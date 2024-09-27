@@ -1,6 +1,6 @@
 # `ExternalLoadDisplayDataType`
 
-
+<a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.ExternalLoadDisplayDataType"></a>
 
 #### *class* ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.ExternalLoadDisplayDataType
 
@@ -17,23 +17,23 @@ Specifies the ExternalLoadDisplayDataType.
 ### Attributes
 
 | Name |
-| -------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| [`ConvectionCoefficient`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/ExternalLoadDisplayDataType.md#ExternalLoadDisplayDataType.ConvectionCoefficient) |
-| [`Displacement`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/ExternalLoadDisplayDataType.md#ExternalLoadDisplayDataType.Displacement) |
-| [`Force`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/ExternalLoadDisplayDataType.md#ExternalLoadDisplayDataType.Force) |
-| [`ForceDensity`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/ExternalLoadDisplayDataType.md#ExternalLoadDisplayDataType.ForceDensity) |
-| [`HeatFlux`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/ExternalLoadDisplayDataType.md#ExternalLoadDisplayDataType.HeatFlux) |
-| [`HeatGeneration`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/ExternalLoadDisplayDataType.md#ExternalLoadDisplayDataType.HeatGeneration) |
-| [`MetalFraction`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/ExternalLoadDisplayDataType.md#ExternalLoadDisplayDataType.MetalFraction) |
-| [`Pressure`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/ExternalLoadDisplayDataType.md#ExternalLoadDisplayDataType.Pressure) |
-| [`Rotation`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/ExternalLoadDisplayDataType.md#ExternalLoadDisplayDataType.Rotation) |
-| [`RotationPrincipals`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/ExternalLoadDisplayDataType.md#ExternalLoadDisplayDataType.RotationPrincipals) |
-| [`Strain`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/ExternalLoadDisplayDataType.md#ExternalLoadDisplayDataType.Strain) |
-| [`Stress`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/ExternalLoadDisplayDataType.md#ExternalLoadDisplayDataType.Stress) |
-| [`Temperature`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/ExternalLoadDisplayDataType.md#ExternalLoadDisplayDataType.Temperature) |
-| [`Thickness`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/ExternalLoadDisplayDataType.md#ExternalLoadDisplayDataType.Thickness) |
-| [`Undefined`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/ExternalLoadDisplayDataType.md#ExternalLoadDisplayDataType.Undefined) |
-| [`Velocity`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/ExternalLoadDisplayDataType.md#ExternalLoadDisplayDataType.Velocity) |
+| --------------------------------------------------------------------------------- |
+| [`ConvectionCoefficient`](#ExternalLoadDisplayDataType.ConvectionCoefficient) |
+| [`Displacement`](#ExternalLoadDisplayDataType.Displacement) |
+| [`Force`](#ExternalLoadDisplayDataType.Force) |
+| [`ForceDensity`](#ExternalLoadDisplayDataType.ForceDensity) |
+| [`HeatFlux`](#ExternalLoadDisplayDataType.HeatFlux) |
+| [`HeatGeneration`](#ExternalLoadDisplayDataType.HeatGeneration) |
+| [`MetalFraction`](#ExternalLoadDisplayDataType.MetalFraction) |
+| [`Pressure`](#ExternalLoadDisplayDataType.Pressure) |
+| [`Rotation`](#ExternalLoadDisplayDataType.Rotation) |
+| [`RotationPrincipals`](#ExternalLoadDisplayDataType.RotationPrincipals) |
+| [`Strain`](#ExternalLoadDisplayDataType.Strain) |
+| [`Stress`](#ExternalLoadDisplayDataType.Stress) |
+| [`Temperature`](#ExternalLoadDisplayDataType.Temperature) |
+| [`Thickness`](#ExternalLoadDisplayDataType.Thickness) |
+| [`Undefined`](#ExternalLoadDisplayDataType.Undefined) |
+| [`Velocity`](#ExternalLoadDisplayDataType.Velocity) |
 
 <a id="attribute-detail"></a>
 

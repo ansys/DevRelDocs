@@ -1,6 +1,6 @@
 # `MeshSolverPreferenceType`
 
-
+<a id="ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.MeshSolverPreferenceType"></a>
 
 #### *class* ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.MeshSolverPreferenceType
 
@@ -17,32 +17,32 @@ Specifies the Mesh Solver Preference Type.
 ### Attributes
 
 | Name |
-| ---------------------------------------------------------------------- |
-| [`Fluent`](#MeshSolverPreferenceType.Fluent) |
-| [`CFX`](#MeshSolverPreferenceType.CFX) |
-| [`MechanicalAPDL`](#MeshSolverPreferenceType.MechanicalAPDL) |
+| -------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | [`ANSYSRigidDynamics`](#MeshSolverPreferenceType.ANSYSRigidDynamics) |
+| [`CFX`](#MeshSolverPreferenceType.CFX) |
+| [`Fluent`](#MeshSolverPreferenceType.Fluent) |
+| [`MechanicalAPDL`](#MeshSolverPreferenceType.MechanicalAPDL) |
 | [`Polyflow`](#MeshSolverPreferenceType.Polyflow) |
 
 <a id="attribute-detail"></a>
 
 ## Attribute detail
 
-<a id="MeshSolverPreferenceType.Fluent"></a>
+<a id="MeshSolverPreferenceType.ANSYSRigidDynamics"></a>
 
-### MeshSolverPreferenceType.Fluent *= 0*
+### MeshSolverPreferenceType.ANSYSRigidDynamics *= 3*
 
 <a id="MeshSolverPreferenceType.CFX"></a>
 
 ### MeshSolverPreferenceType.CFX *= 1*
 
+<a id="MeshSolverPreferenceType.Fluent"></a>
+
+### MeshSolverPreferenceType.Fluent *= 0*
+
 <a id="MeshSolverPreferenceType.MechanicalAPDL"></a>
 
 ### MeshSolverPreferenceType.MechanicalAPDL *= 2*
-
-<a id="MeshSolverPreferenceType.ANSYSRigidDynamics"></a>
-
-### MeshSolverPreferenceType.ANSYSRigidDynamics *= 3*
 
 <a id="MeshSolverPreferenceType.Polyflow"></a>
 

@@ -1,6 +1,6 @@
 # `WBUnitSystemType`
 
-
+<a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.WBUnitSystemType"></a>
 
 #### *class* ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.WBUnitSystemType
 
@@ -17,24 +17,24 @@ Specifies the WBUnitSystemType.
 ### Attributes
 
 | Name |
-| ------------------------------------------------------------------------------------------------------------------------------ |
-| [`ConsistentBFT`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/WBUnitSystemType.md#WBUnitSystemType.ConsistentBFT) |
-| [`ConsistentBIN`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/WBUnitSystemType.md#WBUnitSystemType.ConsistentBIN) |
-| [`ConsistentCGS`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/WBUnitSystemType.md#WBUnitSystemType.ConsistentCGS) |
-| [`ConsistentMKS`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/WBUnitSystemType.md#WBUnitSystemType.ConsistentMKS) |
-| [`ConsistentNMM`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/WBUnitSystemType.md#WBUnitSystemType.ConsistentNMM) |
-| [`ConsistentUMKS`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/WBUnitSystemType.md#WBUnitSystemType.ConsistentUMKS) |
-| [`NoUnitSystem`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/WBUnitSystemType.md#WBUnitSystemType.NoUnitSystem) |
-| [`StandardBFT`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/WBUnitSystemType.md#WBUnitSystemType.StandardBFT) |
-| [`StandardBIN`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/WBUnitSystemType.md#WBUnitSystemType.StandardBIN) |
-| [`StandardCGS`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/WBUnitSystemType.md#WBUnitSystemType.StandardCGS) |
-| [`StandardCUST`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/WBUnitSystemType.md#WBUnitSystemType.StandardCUST) |
-| [`StandardKNMS`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/WBUnitSystemType.md#WBUnitSystemType.StandardKNMS) |
-| [`StandardMKS`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/WBUnitSystemType.md#WBUnitSystemType.StandardMKS) |
-| [`StandardNMM`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/WBUnitSystemType.md#WBUnitSystemType.StandardNMM) |
-| [`StandardNMMdat`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/WBUnitSystemType.md#WBUnitSystemType.StandardNMMdat) |
-| [`StandardNMMton`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/WBUnitSystemType.md#WBUnitSystemType.StandardNMMton) |
-| [`StandardUMKS`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/WBUnitSystemType.md#WBUnitSystemType.StandardUMKS) |
+| ------------------------------------------------------ |
+| [`ConsistentBFT`](#WBUnitSystemType.ConsistentBFT) |
+| [`ConsistentBIN`](#WBUnitSystemType.ConsistentBIN) |
+| [`ConsistentCGS`](#WBUnitSystemType.ConsistentCGS) |
+| [`ConsistentMKS`](#WBUnitSystemType.ConsistentMKS) |
+| [`ConsistentNMM`](#WBUnitSystemType.ConsistentNMM) |
+| [`ConsistentUMKS`](#WBUnitSystemType.ConsistentUMKS) |
+| [`NoUnitSystem`](#WBUnitSystemType.NoUnitSystem) |
+| [`StandardBFT`](#WBUnitSystemType.StandardBFT) |
+| [`StandardBIN`](#WBUnitSystemType.StandardBIN) |
+| [`StandardCGS`](#WBUnitSystemType.StandardCGS) |
+| [`StandardCUST`](#WBUnitSystemType.StandardCUST) |
+| [`StandardKNMS`](#WBUnitSystemType.StandardKNMS) |
+| [`StandardMKS`](#WBUnitSystemType.StandardMKS) |
+| [`StandardNMM`](#WBUnitSystemType.StandardNMM) |
+| [`StandardNMMdat`](#WBUnitSystemType.StandardNMMdat) |
+| [`StandardNMMton`](#WBUnitSystemType.StandardNMMton) |
+| [`StandardUMKS`](#WBUnitSystemType.StandardUMKS) |
 
 <a id="attribute-detail"></a>
 

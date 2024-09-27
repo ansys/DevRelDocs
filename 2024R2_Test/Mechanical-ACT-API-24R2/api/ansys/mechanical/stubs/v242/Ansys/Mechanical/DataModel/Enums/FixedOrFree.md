@@ -1,6 +1,6 @@
 # `FixedOrFree`
 
-
+<a id="ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.FixedOrFree"></a>
 
 #### *class* ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.FixedOrFree
 
@@ -17,7 +17,7 @@ Specifies the FixedOrFree.
 ### Attributes
 
 | Name |
-| ----------------------------------------------------- |
+| ------------------------------------------------------------------------------------------------------------------------ |
 | [`Fixed`](#FixedOrFree.Fixed) |
 | [`Free`](#FixedOrFree.Free) |
 | [`MixedConstraints`](#FixedOrFree.MixedConstraints) |

@@ -1,6 +1,6 @@
 # `TargetOrientation`
 
-
+<a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.TargetOrientation"></a>
 
 #### *class* ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.TargetOrientation
 
@@ -17,11 +17,11 @@ Specifies the TargetOrientation.
 ### Attributes
 
 | Name |
-| -------------------------------------------------------------------------------------------------------------------------------------- |
-| [`Circle`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/TargetOrientation.md#TargetOrientation.Circle) |
-| [`Cylinder`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/TargetOrientation.md#TargetOrientation.Cylinder) |
-| [`Sphere`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/TargetOrientation.md#TargetOrientation.Sphere) |
-| [`ProgramControlled`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/TargetOrientation.md#TargetOrientation.ProgramControlled) |
+| ------------------------------------------------------------- |
+| [`Circle`](#TargetOrientation.Circle) |
+| [`Cylinder`](#TargetOrientation.Cylinder) |
+| [`ProgramControlled`](#TargetOrientation.ProgramControlled) |
+| [`Sphere`](#TargetOrientation.Sphere) |
 
 <a id="attribute-detail"></a>
 
@@ -35,12 +35,12 @@ Specifies the TargetOrientation.
 
 ### TargetOrientation.Cylinder *= 3*
 
-<a id="TargetOrientation.Sphere"></a>
-
-### TargetOrientation.Sphere *= 2*
-
 <a id="TargetOrientation.ProgramControlled"></a>
 
 ### TargetOrientation.ProgramControlled *= 0*
+
+<a id="TargetOrientation.Sphere"></a>
+
+### TargetOrientation.Sphere *= 2*
 
 

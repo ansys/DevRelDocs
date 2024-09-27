@@ -1,6 +1,6 @@
 # `TimeStepDefineByType`
 
-
+<a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.TimeStepDefineByType"></a>
 
 #### *class* ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.TimeStepDefineByType
 
@@ -17,9 +17,9 @@ Specifies the TimeStepDefineByType.
 ### Attributes
 
 | Name |
-| ---------------------------------------------------------------------------------------------------------------------------- |
-| [`Substeps`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/TimeStepDefineByType.md#TimeStepDefineByType.Substeps) |
-| [`Time`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/TimeStepDefineByType.md#TimeStepDefineByType.Time) |
+| ------------------------------------------------ |
+| [`Substeps`](#TimeStepDefineByType.Substeps) |
+| [`Time`](#TimeStepDefineByType.Time) |
 
 <a id="attribute-detail"></a>
 

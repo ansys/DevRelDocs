@@ -1,6 +1,6 @@
 # `MappingIsolineLineType`
 
-
+<a id="ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.MappingIsolineLineType"></a>
 
 #### *class* ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.MappingIsolineLineType
 
@@ -15,20 +15,20 @@ Bases: [`enum.Enum`](https://docs.python.org/3/library/enum.html#enum.Enum)
 ### Attributes
 
 | Name |
-| -------------------------------------------- |
-| [`Solid`](#MappingIsolineLineType.Solid) |
+| ---------------------------------------------------------------------------------------------------------------------------- |
 | [`Dashed`](#MappingIsolineLineType.Dashed) |
+| [`Solid`](#MappingIsolineLineType.Solid) |
 
 <a id="attribute-detail"></a>
 
 ## Attribute detail
 
-<a id="MappingIsolineLineType.Solid"></a>
-
-### MappingIsolineLineType.Solid *= 0*
-
 <a id="MappingIsolineLineType.Dashed"></a>
 
 ### MappingIsolineLineType.Dashed *= 1*
+
+<a id="MappingIsolineLineType.Solid"></a>
+
+### MappingIsolineLineType.Solid *= 0*
 
 

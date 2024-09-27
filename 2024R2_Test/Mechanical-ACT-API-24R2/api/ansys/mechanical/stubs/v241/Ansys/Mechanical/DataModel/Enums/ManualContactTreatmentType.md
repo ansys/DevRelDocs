@@ -1,6 +1,6 @@
 # `ManualContactTreatmentType`
 
-
+<a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.ManualContactTreatmentType"></a>
 
 #### *class* ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.ManualContactTreatmentType
 
@@ -17,9 +17,9 @@ Specifies the ManualContactTreatmentType.
 ### Attributes
 
 | Name |
-| -------------------------------------------------------------------------------------------------------------------------------------- |
-| [`Lumped`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/ManualContactTreatmentType.md#ManualContactTreatmentType.Lumped) |
-| [`Pairwise`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/ManualContactTreatmentType.md#ManualContactTreatmentType.Pairwise) |
+| ---------------------------------------------------- |
+| [`Lumped`](#ManualContactTreatmentType.Lumped) |
+| [`Pairwise`](#ManualContactTreatmentType.Pairwise) |
 
 <a id="attribute-detail"></a>
 

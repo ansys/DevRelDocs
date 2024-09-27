@@ -1,6 +1,6 @@
 # `RemotePointUpdateOptions`
 
-
+<a id="ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.RemotePointUpdateOptions"></a>
 
 #### *class* ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.RemotePointUpdateOptions
 
@@ -17,7 +17,7 @@ Specifies the RemotePointUpdateOptions.
 ### Attributes
 
 | Name |
-| -------------------------------------------------------- |
+| ---------------------------------------------------------------------------------------------------------------------------------------- |
 | [`Regenerate`](#RemotePointUpdateOptions.Regenerate) |
 | [`Reuse`](#RemotePointUpdateOptions.Reuse) |
 

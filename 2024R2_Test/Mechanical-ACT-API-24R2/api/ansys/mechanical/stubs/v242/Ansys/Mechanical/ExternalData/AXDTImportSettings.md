@@ -1,6 +1,6 @@
 # `AXDTImportSettings`
 
-
+<a id="ansys.mechanical.stubs.v242.Ansys.Mechanical.ExternalData.AXDTImportSettings"></a>
 
 #### *class* ansys.mechanical.stubs.v242.Ansys.Mechanical.ExternalData.AXDTImportSettings
 
@@ -17,21 +17,25 @@ T:Ansys.Mechanical.ExternalData.AXDTImportSettings defines how to import externa
 ### Properties
 
 | Name | Description |
-|---------------|-----------------------------------------|
-| `Dimension`   | The dimension of the AXDT file.         |
-| `Format`      | Gets the existing corresponding format. |
+|--------------------------------------------------------------------------------------------------------------------|-----------------------------------------|
+| [`Dimension`](#AXDTImportSettings.Dimension)   | The dimension of the AXDT file.         |
+| [`Format`](#AXDTImportSettings.Format)         | Gets the existing corresponding format. |
 
 <a id="property-detail"></a>
 
 ## Property detail
 
-### *property* AXDTImportSettings.Dimension *: [Ansys.Mechanical.DataModel.Enums.SourceDimension](../../../../v241/Ansys/Mechanical/DataModel/Enums/SourceDimension.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.SourceDimension) | [None](https://docs.python.org/3/library/constants.html#None)*
+<a id="AXDTImportSettings.Dimension"></a>
+
+### *property* AXDTImportSettings.Dimension *: [Ansys.Mechanical.DataModel.Enums.SourceDimension](../DataModel/Enums/SourceDimension.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.SourceDimension) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 The dimension of the AXDT file.
 
 <!-- !! processed by numpydoc !! -->
 
-### *property* AXDTImportSettings.Format *: [Ansys.Mechanical.DataModel.MechanicalEnums.ExternalData.ImportFormat](../../../../v241/Ansys/Mechanical/DataModel/MechanicalEnums/ExternalData/ImportFormat.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.MechanicalEnums.ExternalData.ImportFormat) | [None](https://docs.python.org/3/library/constants.html#None)*
+<a id="AXDTImportSettings.Format"></a>
+
+### *property* AXDTImportSettings.Format *: [Ansys.Mechanical.DataModel.MechanicalEnums.ExternalData.ImportFormat](../DataModel/MechanicalEnums/ExternalData/ImportFormat.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.MechanicalEnums.ExternalData.ImportFormat) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the existing corresponding format.
 

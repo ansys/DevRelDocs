@@ -1,6 +1,6 @@
 # `ImportHelpers`
 
-
+<a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.Table.ImportHelpers"></a>
 
 #### *class* ansys.mechanical.stubs.v241.Ansys.Mechanical.Table.ImportHelpers
 

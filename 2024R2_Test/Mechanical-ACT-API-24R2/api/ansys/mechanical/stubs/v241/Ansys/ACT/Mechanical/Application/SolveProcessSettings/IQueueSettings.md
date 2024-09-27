@@ -1,6 +1,6 @@
 # `IQueueSettings`
 
-
+<a id="ansys.mechanical.stubs.v241.Ansys.ACT.Mechanical.Application.SolveProcessSettings.IQueueSettings"></a>
 
 #### *class* ansys.mechanical.stubs.v241.Ansys.ACT.Mechanical.Application.SolveProcessSettings.IQueueSettings
 
@@ -17,36 +17,28 @@ IQueueSettings interface.
 ### Properties
 
 | Name | Description |
-|---------------------------|---------------------------------------------------------------------|
-| `Name`                    | Gets or sets the name of the current queue for the configuration.   |
-| `JobName`                 | Gets or sets the Job Name field for the queue settings.             |
-| `License`                 | Gets or sets the License field for the queue settings.              |
-| `DCSUrl`                  | DCSUrl property.                                                    |
-| `SolutionExecutionTarget` | SolutionExecutionTarget property.                                   |
-| `DCSUsername`             | DCSUsername property.                                               |
-| `DCSPassword`             | DCSPassword property.                                               |
+|----------------------------------------------------------------------|-------------------------------------------------------------------|
+| [`DCSPassword`](#IQueueSettings.DCSPassword)                         | DCSPassword property.                                             |
+| [`DCSUrl`](#IQueueSettings.DCSUrl)                                   | DCSUrl property.                                                  |
+| [`DCSUsername`](#IQueueSettings.DCSUsername)                         | DCSUsername property.                                             |
+| [`JobName`](#IQueueSettings.JobName)                                 | Gets or sets the Job Name field for the queue settings.           |
+| [`License`](#IQueueSettings.License)                                 | Gets or sets the License field for the queue settings.            |
+| [`Name`](#IQueueSettings.Name)                                       | Gets or sets the name of the current queue for the configuration. |
+| [`SolutionExecutionTarget`](#IQueueSettings.SolutionExecutionTarget) | SolutionExecutionTarget property.                                 |
 
 <a id="property-detail"></a>
 
 ## Property detail
 
-### *property* IQueueSettings.Name *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+<a id="IQueueSettings.DCSPassword"></a>
 
-Gets or sets the name of the current queue for the configuration.
+### *property* IQueueSettings.DCSPassword *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
 
-<!-- !! processed by numpydoc !! -->
-
-### *property* IQueueSettings.JobName *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the Job Name field for the queue settings.
+DCSPassword property.
 
 <!-- !! processed by numpydoc !! -->
 
-### *property* IQueueSettings.License *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the License field for the queue settings.
-
-<!-- !! processed by numpydoc !! -->
+<a id="IQueueSettings.DCSUrl"></a>
 
 ### *property* IQueueSettings.DCSUrl *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -54,11 +46,7 @@ DCSUrl property.
 
 <!-- !! processed by numpydoc !! -->
 
-### *property* IQueueSettings.SolutionExecutionTarget *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
-
-SolutionExecutionTarget property.
-
-<!-- !! processed by numpydoc !! -->
+<a id="IQueueSettings.DCSUsername"></a>
 
 ### *property* IQueueSettings.DCSUsername *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -66,9 +54,35 @@ DCSUsername property.
 
 <!-- !! processed by numpydoc !! -->
 
-### *property* IQueueSettings.DCSPassword *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+<a id="IQueueSettings.JobName"></a>
 
-DCSPassword property.
+### *property* IQueueSettings.JobName *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the Job Name field for the queue settings.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="IQueueSettings.License"></a>
+
+### *property* IQueueSettings.License *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the License field for the queue settings.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="IQueueSettings.Name"></a>
+
+### *property* IQueueSettings.Name *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the name of the current queue for the configuration.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="IQueueSettings.SolutionExecutionTarget"></a>
+
+### *property* IQueueSettings.SolutionExecutionTarget *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+
+SolutionExecutionTarget property.
 
 <!-- !! processed by numpydoc !! -->
 

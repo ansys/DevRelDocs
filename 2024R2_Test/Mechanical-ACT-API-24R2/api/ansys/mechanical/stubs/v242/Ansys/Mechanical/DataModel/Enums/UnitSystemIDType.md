@@ -1,6 +1,6 @@
 # `UnitSystemIDType`
 
-
+<a id="ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.UnitSystemIDType"></a>
 
 #### *class* ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.UnitSystemIDType
 
@@ -17,30 +17,18 @@ Specifies the Unit System ID Type.
 ### Attributes
 
 | Name |
-| -------------------------------------------- |
-| [`UnitsMKS`](#UnitSystemIDType.UnitsMKS) |
-| [`UnitsCGS`](#UnitSystemIDType.UnitsCGS) |
-| [`UnitsNMM`](#UnitSystemIDType.UnitsNMM) |
+| -------------------------------------------------------------------------------------------------------------------- |
 | [`UnitsBFT`](#UnitSystemIDType.UnitsBFT) |
 | [`UnitsBIN`](#UnitSystemIDType.UnitsBIN) |
-| [`UnitsUMKS`](#UnitSystemIDType.UnitsUMKS) |
+| [`UnitsCGS`](#UnitSystemIDType.UnitsCGS) |
 | [`UnitsKNMS`](#UnitSystemIDType.UnitsKNMS) |
+| [`UnitsMKS`](#UnitSystemIDType.UnitsMKS) |
+| [`UnitsNMM`](#UnitSystemIDType.UnitsNMM) |
+| [`UnitsUMKS`](#UnitSystemIDType.UnitsUMKS) |
 
 <a id="attribute-detail"></a>
 
 ## Attribute detail
-
-<a id="UnitSystemIDType.UnitsMKS"></a>
-
-### UnitSystemIDType.UnitsMKS *= 0*
-
-<a id="UnitSystemIDType.UnitsCGS"></a>
-
-### UnitSystemIDType.UnitsCGS *= 1*
-
-<a id="UnitSystemIDType.UnitsNMM"></a>
-
-### UnitSystemIDType.UnitsNMM *= 2*
 
 <a id="UnitSystemIDType.UnitsBFT"></a>
 
@@ -50,12 +38,24 @@ Specifies the Unit System ID Type.
 
 ### UnitSystemIDType.UnitsBIN *= 6*
 
-<a id="UnitSystemIDType.UnitsUMKS"></a>
+<a id="UnitSystemIDType.UnitsCGS"></a>
 
-### UnitSystemIDType.UnitsUMKS *= 7*
+### UnitSystemIDType.UnitsCGS *= 1*
 
 <a id="UnitSystemIDType.UnitsKNMS"></a>
 
 ### UnitSystemIDType.UnitsKNMS *= 15*
+
+<a id="UnitSystemIDType.UnitsMKS"></a>
+
+### UnitSystemIDType.UnitsMKS *= 0*
+
+<a id="UnitSystemIDType.UnitsNMM"></a>
+
+### UnitSystemIDType.UnitsNMM *= 2*
+
+<a id="UnitSystemIDType.UnitsUMKS"></a>
+
+### UnitSystemIDType.UnitsUMKS *= 7*
 
 

@@ -1,12 +1,12 @@
 # `SphereCenterDefinitionType`
 
-
+<a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.MechanicalEnums.MeshWorkflow.SphereCenterDefinitionType"></a>
 
 #### *class* ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.MechanicalEnums.MeshWorkflow.SphereCenterDefinitionType
 
 Bases: [`enum.Enum`](https://docs.python.org/3/library/enum.html#enum.Enum)
 
-This enum is referenced in the ìControlî tree node and reflects the type of sphere center modality being configured. Based on the type of an sphere center modality different rules are applied which define the applicable list of modality data to be used for creating a spherical enclosure.
+This enum is referenced in the ‚ÄúControl‚Äù tree node and reflects the type of sphere center modality being configured. Based on the type of an sphere center modality different rules are applied which define the applicable list of modality data to be used for creating a spherical enclosure.
 
 <!-- !! processed by numpydoc !! -->
 
@@ -17,10 +17,10 @@ This enum is referenced in the ìControlî tree node and reflects the type of sphe
 ### Attributes
 
 | Name |
-| ---------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| [`Centered`](../../../../../../v242/Ansys/Mechanical/DataModel/MechanicalEnums/MeshWorkflow/SphereCenterDefinitionType.md#SphereCenterDefinitionType.Centered) |
-| [`Minimal`](../../../../../../v242/Ansys/Mechanical/DataModel/MechanicalEnums/MeshWorkflow/SphereCenterDefinitionType.md#SphereCenterDefinitionType.Minimal) |
-| [`UserDefined`](../../../../../../v242/Ansys/Mechanical/DataModel/MechanicalEnums/MeshWorkflow/SphereCenterDefinitionType.md#SphereCenterDefinitionType.UserDefined) |
+| ---------------------------------------------------------- |
+| [`Centered`](#SphereCenterDefinitionType.Centered) |
+| [`Minimal`](#SphereCenterDefinitionType.Minimal) |
+| [`UserDefined`](#SphereCenterDefinitionType.UserDefined) |
 
 <a id="attribute-detail"></a>
 

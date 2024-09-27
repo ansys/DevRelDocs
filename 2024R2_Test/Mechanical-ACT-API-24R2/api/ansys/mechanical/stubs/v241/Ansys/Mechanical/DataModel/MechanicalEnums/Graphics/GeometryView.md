@@ -1,6 +1,6 @@
 # `GeometryView`
 
-
+<a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.MechanicalEnums.Graphics.GeometryView"></a>
 
 #### *class* ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.MechanicalEnums.Graphics.GeometryView
 
@@ -17,15 +17,19 @@ Specifies the GeometryView.
 ### Attributes
 
 | Name |
-| ------------------------------------------------------------------------------------------------------------------------------------------------ |
-| [`Exterior`](../../../../../../v242/Ansys/Mechanical/DataModel/MechanicalEnums/Graphics/GeometryView.md#GeometryView.Exterior) |
-| [`Isosurface`](../../../../../../v242/Ansys/Mechanical/DataModel/MechanicalEnums/Graphics/GeometryView.md#GeometryView.Isosurface) |
-| [`CappedIsosurface`](../../../../../../v242/Ansys/Mechanical/DataModel/MechanicalEnums/Graphics/GeometryView.md#GeometryView.CappedIsosurface) |
-| [`SlicePlane`](../../../../../../v242/Ansys/Mechanical/DataModel/MechanicalEnums/Graphics/GeometryView.md#GeometryView.SlicePlane) |
+| -------------------------------------------------------- |
+| [`CappedIsosurface`](#GeometryView.CappedIsosurface) |
+| [`Exterior`](#GeometryView.Exterior) |
+| [`Isosurface`](#GeometryView.Isosurface) |
+| [`SlicePlane`](#GeometryView.SlicePlane) |
 
 <a id="attribute-detail"></a>
 
 ## Attribute detail
+
+<a id="GeometryView.CappedIsosurface"></a>
+
+### GeometryView.CappedIsosurface *= 2*
 
 <a id="GeometryView.Exterior"></a>
 
@@ -34,10 +38,6 @@ Specifies the GeometryView.
 <a id="GeometryView.Isosurface"></a>
 
 ### GeometryView.Isosurface *= 1*
-
-<a id="GeometryView.CappedIsosurface"></a>
-
-### GeometryView.CappedIsosurface *= 2*
 
 <a id="GeometryView.SlicePlane"></a>
 

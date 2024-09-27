@@ -1,6 +1,6 @@
 # `DynamicRelaxationBehaviorType`
 
-
+<a id="ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.DynamicRelaxationBehaviorType"></a>
 
 #### *class* ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.DynamicRelaxationBehaviorType
 
@@ -17,7 +17,7 @@ Specifies the DynamicRelaxationBehaviorType.
 ### Attributes
 
 | Name |
-| ------------------------------------------------------------------------------------------- |
+| -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | [`Both`](#DynamicRelaxationBehaviorType.Both) |
 | [`DynamicRelaxationPhaseOnly`](#DynamicRelaxationBehaviorType.DynamicRelaxationPhaseOnly) |
 | [`NormalPhaseOnly`](#DynamicRelaxationBehaviorType.NormalPhaseOnly) |

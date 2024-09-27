@@ -1,6 +1,6 @@
 # `PreadCommand`
 
-
+<a id="ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.FE.CDB.PreadCommand"></a>
 
 #### *class* ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.FE.CDB.PreadCommand
 
@@ -23,15 +23,17 @@ PREAD command.
 ### Properties
 
 | Name | Description |
-|-----------|-------------------------|
-| `Aname`   | Gets the table name.    |
-| `Values`  | Gets the values.        |
-| `Name`    | Gets the command name.  |
-| `Index`   | Gets the command index. |
+|------------------------------------------------------------------------------------------------------------------|-------------------------|
+| [`Aname`](#PreadCommand.Aname)   | Gets the table name.    |
+| [`Index`](#PreadCommand.Index)   | Gets the command index. |
+| [`Name`](#PreadCommand.Name)     | Gets the command name.  |
+| [`Values`](#PreadCommand.Values) | Gets the values.        |
 
 <a id="property-detail"></a>
 
 ## Property detail
+
+<a id="PreadCommand.Aname"></a>
 
 ### *property* PreadCommand.Aname *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -39,11 +41,15 @@ Gets the table name.
 
 <!-- !! processed by numpydoc !! -->
 
-### *property* PreadCommand.Values *: System.Collections.Generic.IReadOnlyList[System.Double] | [None](https://docs.python.org/3/library/constants.html#None)*
+<a id="PreadCommand.Index"></a>
 
-Gets the values.
+### *property* PreadCommand.Index *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets the command index.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="PreadCommand.Name"></a>
 
 ### *property* PreadCommand.Name *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -51,9 +57,11 @@ Gets the command name.
 
 <!-- !! processed by numpydoc !! -->
 
-### *property* PreadCommand.Index *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+<a id="PreadCommand.Values"></a>
 
-Gets the command index.
+### *property* PreadCommand.Values *: System.Collections.Generic.IReadOnlyList[System.Double] | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets the values.
 
 <!-- !! processed by numpydoc !! -->
 

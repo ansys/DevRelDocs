@@ -1,6 +1,6 @@
 # `TopoOptimizationExportDesignProperties`
 
-
+<a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.TopoOptimizationExportDesignProperties"></a>
 
 #### *class* ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.TopoOptimizationExportDesignProperties
 
@@ -17,11 +17,11 @@ Specifies the TopoOptimizationExportDesignProperties.
 ### Attributes
 
 | Name |
-| ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| [`AllAcceptedIterations`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/TopoOptimizationExportDesignProperties.md#TopoOptimizationExportDesignProperties.AllAcceptedIterations) |
-| [`LastAcceptedIteration`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/TopoOptimizationExportDesignProperties.md#TopoOptimizationExportDesignProperties.LastAcceptedIteration) |
-| [`No`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/TopoOptimizationExportDesignProperties.md#TopoOptimizationExportDesignProperties.No) |
-| [`OnFinalDesign`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/TopoOptimizationExportDesignProperties.md#TopoOptimizationExportDesignProperties.OnFinalDesign) |
+| -------------------------------------------------------------------------------------------- |
+| [`AllAcceptedIterations`](#TopoOptimizationExportDesignProperties.AllAcceptedIterations) |
+| [`LastAcceptedIteration`](#TopoOptimizationExportDesignProperties.LastAcceptedIteration) |
+| [`No`](#TopoOptimizationExportDesignProperties.No) |
+| [`OnFinalDesign`](#TopoOptimizationExportDesignProperties.OnFinalDesign) |
 
 <a id="attribute-detail"></a>
 

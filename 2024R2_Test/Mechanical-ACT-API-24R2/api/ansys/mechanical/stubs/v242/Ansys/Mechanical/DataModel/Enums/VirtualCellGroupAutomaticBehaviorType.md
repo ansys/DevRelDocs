@@ -1,6 +1,6 @@
 # `VirtualCellGroupAutomaticBehaviorType`
 
-
+<a id="ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.VirtualCellGroupAutomaticBehaviorType"></a>
 
 #### *class* ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.VirtualCellGroupAutomaticBehaviorType
 
@@ -17,16 +17,28 @@ Specifies the VirtualCellGroupAutomaticBehaviorType.
 ### Attributes
 
 | Name |
-| ----------------------------------------------------------------- |
+| -------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| [`Custom`](#VirtualCellGroupAutomaticBehaviorType.Custom) |
+| [`EdgesOnly`](#VirtualCellGroupAutomaticBehaviorType.EdgesOnly) |
+| [`High`](#VirtualCellGroupAutomaticBehaviorType.High) |
 | [`Low`](#VirtualCellGroupAutomaticBehaviorType.Low) |
 | [`Medium`](#VirtualCellGroupAutomaticBehaviorType.Medium) |
-| [`High`](#VirtualCellGroupAutomaticBehaviorType.High) |
-| [`EdgesOnly`](#VirtualCellGroupAutomaticBehaviorType.EdgesOnly) |
-| [`Custom`](#VirtualCellGroupAutomaticBehaviorType.Custom) |
 
 <a id="attribute-detail"></a>
 
 ## Attribute detail
+
+<a id="VirtualCellGroupAutomaticBehaviorType.Custom"></a>
+
+### VirtualCellGroupAutomaticBehaviorType.Custom *= 4*
+
+<a id="VirtualCellGroupAutomaticBehaviorType.EdgesOnly"></a>
+
+### VirtualCellGroupAutomaticBehaviorType.EdgesOnly *= 3*
+
+<a id="VirtualCellGroupAutomaticBehaviorType.High"></a>
+
+### VirtualCellGroupAutomaticBehaviorType.High *= 2*
 
 <a id="VirtualCellGroupAutomaticBehaviorType.Low"></a>
 
@@ -35,17 +47,5 @@ Specifies the VirtualCellGroupAutomaticBehaviorType.
 <a id="VirtualCellGroupAutomaticBehaviorType.Medium"></a>
 
 ### VirtualCellGroupAutomaticBehaviorType.Medium *= 1*
-
-<a id="VirtualCellGroupAutomaticBehaviorType.High"></a>
-
-### VirtualCellGroupAutomaticBehaviorType.High *= 2*
-
-<a id="VirtualCellGroupAutomaticBehaviorType.EdgesOnly"></a>
-
-### VirtualCellGroupAutomaticBehaviorType.EdgesOnly *= 3*
-
-<a id="VirtualCellGroupAutomaticBehaviorType.Custom"></a>
-
-### VirtualCellGroupAutomaticBehaviorType.Custom *= 4*
 
 

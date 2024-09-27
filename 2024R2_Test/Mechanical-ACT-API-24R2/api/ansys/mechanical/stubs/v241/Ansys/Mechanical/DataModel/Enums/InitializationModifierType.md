@@ -1,6 +1,6 @@
 # `InitializationModifierType`
 
-
+<a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.InitializationModifierType"></a>
 
 #### *class* ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.InitializationModifierType
 
@@ -17,9 +17,9 @@ Specifies the InitializationModifierType.
 ### Attributes
 
 | Name |
-| ---------------------------------------------------------------------------------------------------------------------------------- |
-| [`Holes`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/InitializationModifierType.md#InitializationModifierType.Holes) |
-| [`None_`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/InitializationModifierType.md#InitializationModifierType.None_) |
+| ------------------------------------------------ |
+| [`Holes`](#InitializationModifierType.Holes) |
+| [`None_`](#InitializationModifierType.None_) |
 
 <a id="attribute-detail"></a>
 

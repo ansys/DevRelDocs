@@ -1,6 +1,6 @@
 # `TransferAdmittanceModelType`
 
-
+<a id="ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.TransferAdmittanceModelType"></a>
 
 #### *class* ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.TransferAdmittanceModelType
 
@@ -17,7 +17,7 @@ Specifies the TransferAdmittanceModelType.
 ### Attributes
 
 | Name |
-| ----------------------------------------------------------------------------------- |
+| ---------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | [`HexagonalGridStructure`](#TransferAdmittanceModelType.HexagonalGridStructure) |
 | [`PerforatedPlate`](#TransferAdmittanceModelType.PerforatedPlate) |
 | [`SquareGridStructure`](#TransferAdmittanceModelType.SquareGridStructure) |

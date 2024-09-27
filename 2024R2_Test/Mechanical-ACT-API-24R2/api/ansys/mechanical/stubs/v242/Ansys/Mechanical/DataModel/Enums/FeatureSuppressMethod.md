@@ -1,6 +1,6 @@
 # `FeatureSuppressMethod`
 
-
+<a id="ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.FeatureSuppressMethod"></a>
 
 #### *class* ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.FeatureSuppressMethod
 
@@ -17,7 +17,7 @@ To select the method of FeatureSuppress.
 ### Attributes
 
 | Name |
-| ----------------------------------------------------------- |
+| ---------------------------------------------------------------------------------------------------------------------------------------- |
 | [`Automatic`](#FeatureSuppressMethod.Automatic) |
 | [`DefeatureFaces`](#FeatureSuppressMethod.DefeatureFaces) |
 | [`ParentFaces`](#FeatureSuppressMethod.ParentFaces) |

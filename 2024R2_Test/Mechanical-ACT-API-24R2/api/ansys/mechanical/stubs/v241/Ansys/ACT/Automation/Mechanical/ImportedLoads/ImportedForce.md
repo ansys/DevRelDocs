@@ -1,6 +1,6 @@
 # `ImportedForce`
 
-
+<a id="ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.ImportedLoads.ImportedForce"></a>
 
 #### *class* ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.ImportedLoads.ImportedForce
 
@@ -17,144 +17,106 @@ Defines a ImportedForce.
 ### Methods
 
 | Name | Description |
-|---------------------------|-----------------------------------------------------------------------------------|
-| `ExportToTextFile`        | Run the ExportToTextFile action.                                                  |
-| `Import`                  | Import.                                                                           |
-| `ImportLoad`              | Run the ImportLoad action.                                                        |
-| `GetActivateAtLoadStep`   | GetActivateAtLoadStep method.                                                     |
-| `SetActivateAtLoadStep`   | SetActivateAtLoadStep method.                                                     |
-| `AddMappingValidation`    | Creates a new MappingValidation                                                   |
-| `ClearGeneratedData`      | Run the ClearGeneratedData action.                                                |
-| `Delete`                  | Run the Delete action.                                                            |
-| `GetChildren`             | Gets the list of children, filtered by type.                                      |
-| `GetChildren`             | Gets the list of children, filtered by type.                                      |
-| `AddComment`              | Creates a new child Comment.                                                      |
-| `AddFigure`               | Creates a new child Figure.                                                       |
-| `AddImage`                | Creates a new child Image.                                                        |
-| `Activate`                | Activate the current object.                                                      |
-| `CopyTo`                  | Copies all visible properties from this object to another.                        |
-| `Duplicate`               | Creates a copy of the current DataModelObject.                                    |
-| `GroupAllSimilarChildren` | Run the GroupAllSimilarChildren action.                                           |
-| `GroupSimilarObjects`     | Run the GroupSimilarObjects action.                                               |
-| `PropertyByName`          | Get a property by its unique name.                                                |
-| `PropertyByAPIName`       | Get a property by its API name.                                                   |
-| `CreateParameter`         | Creates a new parameter for a Property.                                           |
-| `GetParameter`            | Gets the parameter corresponding to the given property.                           |
-| `RemoveParameter`         | Removes the parameter from the parameter set corresponding to the given property. |
+|----------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------|
+| [`Activate`](#ImportedForce.Activate)                               | Activate the current object.                                                      |
+| [`AddComment`](#ImportedForce.AddComment)                           | Creates a new child Comment.                                                      |
+| [`AddFigure`](#ImportedForce.AddFigure)                             | Creates a new child Figure.                                                       |
+| [`AddImage`](#ImportedForce.AddImage)                               | Creates a new child Image.                                                        |
+| [`AddMappingValidation`](#ImportedForce.AddMappingValidation)       | Creates a new MappingValidation                                                   |
+| [`ClearGeneratedData`](#ImportedForce.ClearGeneratedData)           | Run the ClearGeneratedData action.                                                |
+| [`CopyTo`](#ImportedForce.CopyTo)                                   | Copies all visible properties from this object to another.                        |
+| [`CreateParameter`](#ImportedForce.CreateParameter)                 | Creates a new parameter for a Property.                                           |
+| [`Delete`](#ImportedForce.Delete)                                   | Run the Delete action.                                                            |
+| [`Duplicate`](#ImportedForce.Duplicate)                             | Creates a copy of the current DataModelObject.                                    |
+| [`ExportToTextFile`](#ImportedForce.ExportToTextFile)               | Run the ExportToTextFile action.                                                  |
+| [`GetActivateAtLoadStep`](#ImportedForce.GetActivateAtLoadStep)     | GetActivateAtLoadStep method.                                                     |
+| [`GetChildren`](#ImportedForce.GetChildren)                         | Gets the list of children, filtered by type.                                      |
+| [`GetParameter`](#ImportedForce.GetParameter)                       | Gets the parameter corresponding to the given property.                           |
+| [`GroupAllSimilarChildren`](#ImportedForce.GroupAllSimilarChildren) | Run the GroupAllSimilarChildren action.                                           |
+| [`GroupSimilarObjects`](#ImportedForce.GroupSimilarObjects)         | Run the GroupSimilarObjects action.                                               |
+| [`Import`](#ImportedForce.Import)                                   | Import.                                                                           |
+| [`ImportLoad`](#ImportedForce.ImportLoad)                           | Run the ImportLoad action.                                                        |
+| [`PropertyByAPIName`](#ImportedForce.PropertyByAPIName)             | Get a property by its API name.                                                   |
+| [`PropertyByName`](#ImportedForce.PropertyByName)                   | Get a property by its unique name.                                                |
+| [`RemoveParameter`](#ImportedForce.RemoveParameter)                 | Removes the parameter from the parameter set corresponding to the given property. |
+| [`SetActivateAtLoadStep`](#ImportedForce.SetActivateAtLoadStep)     | SetActivateAtLoadStep method.                                                     |
 
 ### Properties
 
 | Name | Description |
-|----------------------------------------|---------------------------------------------------------------------------------------------------------|
-| `InternalObject`                       | Gets the internal object. For advanced usage only.                                                      |
-| `DataModelObjectCategory`              | Gets the current DataModelObject's category.                                                            |
-| `Weighting`                            | Weighting property.                                                                                     |
-| `MappingControl`                       | MappingControl property.                                                                                |
-| `DisplaySourcePoints`                  | DisplaySourcePoints property.                                                                           |
-| `DisplaySourcePointIds`                | DisplaySourcePointIds property.                                                                         |
-| `DisplayInteriorPoints`                | DisplayInteriorPoints property.                                                                         |
-| `DisplayProjectionPlane`               | DisplayProjectionPlane property.                                                                        |
-| `Algorithm`                            | Algorithm property.                                                                                     |
-| `BoundingBoxTolerance`                 | BoundingBoxTolerance property.                                                                          |
-| `CreateNameSelectionForMappedNodes`    | CreateNameSelectionForMappedNodes property.                                                             |
-| `CreateNameSelectionForOutsideNodes`   | CreateNameSelectionForOutsideNodes property.                                                            |
-| `CreateNameSelectionForUnmappedNodes`  | CreateNameSelectionForUnmappedNodes property.                                                           |
-| `Mapping`                              | Mapping property.                                                                                       |
-| `LegendMaximum`                        | LegendMaximum property.                                                                                 |
-| `LegendMinimum`                        | LegendMinimum property.                                                                                 |
-| `LegendRange`                          | LegendRange property.                                                                                   |
-| `MaxOutsideDistance`                   | MaxOutsideDistance property.                                                                            |
-| `Method`                               | Method property.                                                                                        |
-| `OutsideDistanceCheck`                 | OutsideDistanceCheck property.                                                                          |
-| `OutsideOption`                        | OutsideOption property.                                                                                 |
-| `Projection`                           | Projection property.                                                                                    |
-| `RigidBodyTransformationType`          | RigidBodyTransformationType property.                                                                   |
-| `RigidTransformSourceCoordinateSystem` | RigidTransformSourceCoordinateSystem property.                                                          |
-| `RigidTransformTargetCoordinateSystem` | RigidTransformTargetCoordinateSystem property.                                                          |
-| `ShellThicknessFactor`                 | ShellThicknessFactor property.                                                                          |
-| `SourceMaximum`                        | SourceMaximum property.                                                                                 |
-| `SourceMinimum`                        | SourceMinimum property.                                                                                 |
-| `VariableType`                         | VariableType property.                                                                                  |
-| `Interpolation`                        | Interpolation property.                                                                                 |
-| `UnmappedNodesName`                    | UnmappedNodesName property.                                                                             |
-| `MappedNodesName`                      | MappedNodesName property.                                                                               |
-| `OutsideNodesName`                     | OutsideNodesName property.                                                                              |
-| `Pinball`                              | Pinball property.                                                                                       |
-| `NumberOfPoints`                       | NumberOfPoints property.                                                                                |
-| `OrientationRealignment`               | OrientationRealignment property.                                                                        |
-| `Limit`                                | Limit property.                                                                                         |
-| `KrigingCorrelationFunction`           | KrigingCorrelationFunction property.                                                                    |
-| `KrigingPolynom`                       | KrigingPolynom property.                                                                                |
-| `ExtrapolationTolerancePercent`        | ExtrapolationTolerancePercent property.                                                                 |
-| `ApplyAs`                              | This controls how the imported load is applied, either as a boundary condition or an initial condition. |
-| `Suppressed`                           | Gets or sets the Suppressed.                                                                            |
-| `SharedRefBody`                        | Gets or sets the SharedRefBody.                                                                         |
-| `Location`                             | Gets or sets the Location.                                                                              |
-| `Children`                             | Gets the list of children.                                                                              |
-| `Comments`                             | Gets the list of associated comments.                                                                   |
-| `Figures`                              | Gets the list of associated figures.                                                                    |
-| `Images`                               | Gets the list of associated images.                                                                     |
-| `InternalObject`                       | Gets the internal object. For advanced usage only.                                                      |
-| `Properties`                           | Gets the list of properties for this object.                                                            |
-| `VisibleProperties`                    | Gets the list of properties that are visible for this object.                                           |
+|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------|
+| [`Algorithm`](#ImportedForce.Algorithm)                                                       | Algorithm property.                                                                                     |
+| [`ApplyAs`](#ImportedForce.ApplyAs)                                                           | This controls how the imported load is applied, either as a boundary condition or an initial condition. |
+| [`BoundingBoxTolerance`](#ImportedForce.BoundingBoxTolerance)                                 | BoundingBoxTolerance property.                                                                          |
+| [`Children`](#ImportedForce.Children)                                                         | Gets the list of children.                                                                              |
+| [`Comments`](#ImportedForce.Comments)                                                         | Gets the list of associated comments.                                                                   |
+| [`CreateNameSelectionForMappedNodes`](#ImportedForce.CreateNameSelectionForMappedNodes)       | CreateNameSelectionForMappedNodes property.                                                             |
+| [`CreateNameSelectionForOutsideNodes`](#ImportedForce.CreateNameSelectionForOutsideNodes)     | CreateNameSelectionForOutsideNodes property.                                                            |
+| [`CreateNameSelectionForUnmappedNodes`](#ImportedForce.CreateNameSelectionForUnmappedNodes)   | CreateNameSelectionForUnmappedNodes property.                                                           |
+| [`DataModelObjectCategory`](#ImportedForce.DataModelObjectCategory)                           | Gets the current DataModelObject’s category.                                                            |
+| [`DisplayInteriorPoints`](#ImportedForce.DisplayInteriorPoints)                               | DisplayInteriorPoints property.                                                                         |
+| [`DisplayProjectionPlane`](#ImportedForce.DisplayProjectionPlane)                             | DisplayProjectionPlane property.                                                                        |
+| [`DisplaySourcePointIds`](#ImportedForce.DisplaySourcePointIds)                               | DisplaySourcePointIds property.                                                                         |
+| [`DisplaySourcePoints`](#ImportedForce.DisplaySourcePoints)                                   | DisplaySourcePoints property.                                                                           |
+| [`ExtrapolationTolerancePercent`](#ImportedForce.ExtrapolationTolerancePercent)               | ExtrapolationTolerancePercent property.                                                                 |
+| [`Figures`](#ImportedForce.Figures)                                                           | Gets the list of associated figures.                                                                    |
+| [`Images`](#ImportedForce.Images)                                                             | Gets the list of associated images.                                                                     |
+| [`InternalObject`](#ImportedForce.InternalObject)                                             | Gets the internal object. For advanced usage only.                                                      |
+| [`Interpolation`](#ImportedForce.Interpolation)                                               | Interpolation property.                                                                                 |
+| [`KrigingCorrelationFunction`](#ImportedForce.KrigingCorrelationFunction)                     | KrigingCorrelationFunction property.                                                                    |
+| [`KrigingPolynom`](#ImportedForce.KrigingPolynom)                                             | KrigingPolynom property.                                                                                |
+| [`LegendMaximum`](#ImportedForce.LegendMaximum)                                               | LegendMaximum property.                                                                                 |
+| [`LegendMinimum`](#ImportedForce.LegendMinimum)                                               | LegendMinimum property.                                                                                 |
+| [`LegendRange`](#ImportedForce.LegendRange)                                                   | LegendRange property.                                                                                   |
+| [`Limit`](#ImportedForce.Limit)                                                               | Limit property.                                                                                         |
+| [`Location`](#ImportedForce.Location)                                                         | Gets or sets the Location.                                                                              |
+| [`MappedNodesName`](#ImportedForce.MappedNodesName)                                           | MappedNodesName property.                                                                               |
+| [`Mapping`](#ImportedForce.Mapping)                                                           | Mapping property.                                                                                       |
+| [`MappingControl`](#ImportedForce.MappingControl)                                             | MappingControl property.                                                                                |
+| [`MaxOutsideDistance`](#ImportedForce.MaxOutsideDistance)                                     | MaxOutsideDistance property.                                                                            |
+| [`Method`](#ImportedForce.Method)                                                             | Method property.                                                                                        |
+| [`NumberOfPoints`](#ImportedForce.NumberOfPoints)                                             | NumberOfPoints property.                                                                                |
+| [`OrientationRealignment`](#ImportedForce.OrientationRealignment)                             | OrientationRealignment property.                                                                        |
+| [`OutsideDistanceCheck`](#ImportedForce.OutsideDistanceCheck)                                 | OutsideDistanceCheck property.                                                                          |
+| [`OutsideNodesName`](#ImportedForce.OutsideNodesName)                                         | OutsideNodesName property.                                                                              |
+| [`OutsideOption`](#ImportedForce.OutsideOption)                                               | OutsideOption property.                                                                                 |
+| [`Pinball`](#ImportedForce.Pinball)                                                           | Pinball property.                                                                                       |
+| [`Projection`](#ImportedForce.Projection)                                                     | Projection property.                                                                                    |
+| [`Properties`](#ImportedForce.Properties)                                                     | Gets the list of properties for this object.                                                            |
+| [`RigidBodyTransformationType`](#ImportedForce.RigidBodyTransformationType)                   | RigidBodyTransformationType property.                                                                   |
+| [`RigidTransformSourceCoordinateSystem`](#ImportedForce.RigidTransformSourceCoordinateSystem) | RigidTransformSourceCoordinateSystem property.                                                          |
+| [`RigidTransformTargetCoordinateSystem`](#ImportedForce.RigidTransformTargetCoordinateSystem) | RigidTransformTargetCoordinateSystem property.                                                          |
+| [`SharedRefBody`](#ImportedForce.SharedRefBody)                                               | Gets or sets the SharedRefBody.                                                                         |
+| [`ShellThicknessFactor`](#ImportedForce.ShellThicknessFactor)                                 | ShellThicknessFactor property.                                                                          |
+| [`SourceMaximum`](#ImportedForce.SourceMaximum)                                               | SourceMaximum property.                                                                                 |
+| [`SourceMinimum`](#ImportedForce.SourceMinimum)                                               | SourceMinimum property.                                                                                 |
+| [`Suppressed`](#ImportedForce.Suppressed)                                                     | Gets or sets the Suppressed.                                                                            |
+| [`UnmappedNodesName`](#ImportedForce.UnmappedNodesName)                                       | UnmappedNodesName property.                                                                             |
+| [`VariableType`](#ImportedForce.VariableType)                                                 | VariableType property.                                                                                  |
+| [`VisibleProperties`](#ImportedForce.VisibleProperties)                                       | Gets the list of properties that are visible for this object.                                           |
+| [`Weighting`](#ImportedForce.Weighting)                                                       | Weighting property.                                                                                     |
 
 <a id="property-detail"></a>
 
 ## Property detail
 
-### *property* ImportedForce.InternalObject *: Ansys.Common.Interop.DSObjectsAuto.IDSExternalLoadAuto | [None](https://docs.python.org/3/library/constants.html#None)*
+<a id="ImportedForce.Algorithm"></a>
 
-Gets the internal object. For advanced usage only.
-
-<!-- !! processed by numpydoc !! -->
-
-### *property* ImportedForce.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets the current DataModelObject's category.
-
-<!-- !! processed by numpydoc !! -->
-
-### *property* ImportedForce.Weighting *: [Ansys.Mechanical.DataModel.Enums.WeightingType](../../../../Mechanical/DataModel/Enums/WeightingType.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.WeightingType) | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Weighting property.
-
-<!-- !! processed by numpydoc !! -->
-
-### *property* ImportedForce.MappingControl *: [Ansys.Mechanical.DataModel.Enums.MappingControlType](../../../../Mechanical/DataModel/Enums/MappingControlType.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.MappingControlType) | [None](https://docs.python.org/3/library/constants.html#None)*
-
-MappingControl property.
-
-<!-- !! processed by numpydoc !! -->
-
-### *property* ImportedForce.DisplaySourcePoints *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
-
-DisplaySourcePoints property.
-
-<!-- !! processed by numpydoc !! -->
-
-### *property* ImportedForce.DisplaySourcePointIds *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
-
-DisplaySourcePointIds property.
-
-<!-- !! processed by numpydoc !! -->
-
-### *property* ImportedForce.DisplayInteriorPoints *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
-
-DisplayInteriorPoints property.
-
-<!-- !! processed by numpydoc !! -->
-
-### *property* ImportedForce.DisplayProjectionPlane *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
-
-DisplayProjectionPlane property.
-
-<!-- !! processed by numpydoc !! -->
-
-### *property* ImportedForce.Algorithm *: [Ansys.Mechanical.DataModel.Enums.MappingAlgorithm](../../../../Mechanical/DataModel/Enums/MappingAlgorithm.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.MappingAlgorithm) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ImportedForce.Algorithm *: [Ansys.Mechanical.DataModel.Enums.MappingAlgorithm](../../../../../../v242/Ansys/Mechanical/DataModel/Enums/MappingAlgorithm.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.MappingAlgorithm) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Algorithm property.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="ImportedForce.ApplyAs"></a>
+
+### *property* ImportedForce.ApplyAs *: [Ansys.Mechanical.DataModel.Enums.ExternalLoadApplicationType](../../../../../../v242/Ansys/Mechanical/DataModel/Enums/ExternalLoadApplicationType.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.ExternalLoadApplicationType) | [None](https://docs.python.org/3/library/constants.html#None)*
+
+This controls how the imported load is applied, either as a boundary condition or an initial condition.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ImportedForce.BoundingBoxTolerance"></a>
 
 ### *property* ImportedForce.BoundingBoxTolerance *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -162,209 +124,7 @@ BoundingBoxTolerance property.
 
 <!-- !! processed by numpydoc !! -->
 
-### *property* ImportedForce.CreateNameSelectionForMappedNodes *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
-
-CreateNameSelectionForMappedNodes property.
-
-<!-- !! processed by numpydoc !! -->
-
-### *property* ImportedForce.CreateNameSelectionForOutsideNodes *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
-
-CreateNameSelectionForOutsideNodes property.
-
-<!-- !! processed by numpydoc !! -->
-
-### *property* ImportedForce.CreateNameSelectionForUnmappedNodes *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
-
-CreateNameSelectionForUnmappedNodes property.
-
-<!-- !! processed by numpydoc !! -->
-
-### *property* ImportedForce.Mapping *: [Ansys.Mechanical.DataModel.Enums.MappingInterpolationType](../../../../Mechanical/DataModel/Enums/MappingInterpolationType.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.MappingInterpolationType) | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Mapping property.
-
-<!-- !! processed by numpydoc !! -->
-
-### *property* ImportedForce.LegendMaximum *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
-
-LegendMaximum property.
-
-<!-- !! processed by numpydoc !! -->
-
-### *property* ImportedForce.LegendMinimum *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
-
-LegendMinimum property.
-
-<!-- !! processed by numpydoc !! -->
-
-### *property* ImportedForce.LegendRange *: [Ansys.Mechanical.DataModel.Enums.LegendRangeType](../../../../Mechanical/DataModel/Enums/LegendRangeType.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.LegendRangeType) | [None](https://docs.python.org/3/library/constants.html#None)*
-
-LegendRange property.
-
-<!-- !! processed by numpydoc !! -->
-
-### *property* ImportedForce.MaxOutsideDistance *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
-
-MaxOutsideDistance property.
-
-<!-- !! processed by numpydoc !! -->
-
-### *property* ImportedForce.Method *: [Ansys.Mechanical.DataModel.Enums.MappingMethod](../../../../Mechanical/DataModel/Enums/MappingMethod.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.MappingMethod) | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Method property.
-
-<!-- !! processed by numpydoc !! -->
-
-### *property* ImportedForce.OutsideDistanceCheck *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
-
-OutsideDistanceCheck property.
-
-<!-- !! processed by numpydoc !! -->
-
-### *property* ImportedForce.OutsideOption *: [Ansys.Mechanical.DataModel.Enums.MappingOutsideOption](../../../../Mechanical/DataModel/Enums/MappingOutsideOption.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.MappingOutsideOption) | [None](https://docs.python.org/3/library/constants.html#None)*
-
-OutsideOption property.
-
-<!-- !! processed by numpydoc !! -->
-
-### *property* ImportedForce.Projection *: [Ansys.ACT.Automation.Mechanical.CoordinateSystem](../CoordinateSystem.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.CoordinateSystem) | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Projection property.
-
-<!-- !! processed by numpydoc !! -->
-
-### *property* ImportedForce.RigidBodyTransformationType *: [Ansys.Mechanical.DataModel.Enums.RigidBodyTransformationType](../../../../Mechanical/DataModel/Enums/RigidBodyTransformationType.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.RigidBodyTransformationType) | [None](https://docs.python.org/3/library/constants.html#None)*
-
-RigidBodyTransformationType property.
-
-<!-- !! processed by numpydoc !! -->
-
-### *property* ImportedForce.RigidTransformSourceCoordinateSystem *: [Ansys.ACT.Automation.Mechanical.CoordinateSystem](../CoordinateSystem.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.CoordinateSystem) | [None](https://docs.python.org/3/library/constants.html#None)*
-
-RigidTransformSourceCoordinateSystem property.
-
-<!-- !! processed by numpydoc !! -->
-
-### *property* ImportedForce.RigidTransformTargetCoordinateSystem *: [Ansys.ACT.Automation.Mechanical.CoordinateSystem](../CoordinateSystem.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.CoordinateSystem) | [None](https://docs.python.org/3/library/constants.html#None)*
-
-RigidTransformTargetCoordinateSystem property.
-
-<!-- !! processed by numpydoc !! -->
-
-### *property* ImportedForce.ShellThicknessFactor *: System.Double | [None](https://docs.python.org/3/library/constants.html#None)*
-
-ShellThicknessFactor property.
-
-<!-- !! processed by numpydoc !! -->
-
-### *property* ImportedForce.SourceMaximum *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
-
-SourceMaximum property.
-
-<!-- !! processed by numpydoc !! -->
-
-### *property* ImportedForce.SourceMinimum *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
-
-SourceMinimum property.
-
-<!-- !! processed by numpydoc !! -->
-
-### *property* ImportedForce.VariableType *: [Ansys.Mechanical.DataModel.Enums.MappingVariableType](../../../../Mechanical/DataModel/Enums/MappingVariableType.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.MappingVariableType) | [None](https://docs.python.org/3/library/constants.html#None)*
-
-VariableType property.
-
-<!-- !! processed by numpydoc !! -->
-
-### *property* ImportedForce.Interpolation *: [Ansys.Mechanical.DataModel.Enums.InterpolationType](../../../../Mechanical/DataModel/Enums/InterpolationType.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.InterpolationType) | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Interpolation property.
-
-<!-- !! processed by numpydoc !! -->
-
-### *property* ImportedForce.UnmappedNodesName *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
-
-UnmappedNodesName property.
-
-<!-- !! processed by numpydoc !! -->
-
-### *property* ImportedForce.MappedNodesName *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
-
-MappedNodesName property.
-
-<!-- !! processed by numpydoc !! -->
-
-### *property* ImportedForce.OutsideNodesName *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
-
-OutsideNodesName property.
-
-<!-- !! processed by numpydoc !! -->
-
-### *property* ImportedForce.Pinball *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Pinball property.
-
-<!-- !! processed by numpydoc !! -->
-
-### *property* ImportedForce.NumberOfPoints *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
-
-NumberOfPoints property.
-
-<!-- !! processed by numpydoc !! -->
-
-### *property* ImportedForce.OrientationRealignment *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
-
-OrientationRealignment property.
-
-<!-- !! processed by numpydoc !! -->
-
-### *property* ImportedForce.Limit *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Limit property.
-
-<!-- !! processed by numpydoc !! -->
-
-### *property* ImportedForce.KrigingCorrelationFunction *: [Ansys.Mechanical.DataModel.Enums.KrigingCorrFuncType](../../../../Mechanical/DataModel/Enums/KrigingCorrFuncType.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.KrigingCorrFuncType) | [None](https://docs.python.org/3/library/constants.html#None)*
-
-KrigingCorrelationFunction property.
-
-<!-- !! processed by numpydoc !! -->
-
-### *property* ImportedForce.KrigingPolynom *: [Ansys.Mechanical.DataModel.Enums.KrigingPolynomType](../../../../Mechanical/DataModel/Enums/KrigingPolynomType.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.KrigingPolynomType) | [None](https://docs.python.org/3/library/constants.html#None)*
-
-KrigingPolynom property.
-
-<!-- !! processed by numpydoc !! -->
-
-### *property* ImportedForce.ExtrapolationTolerancePercent *: System.Double | [None](https://docs.python.org/3/library/constants.html#None)*
-
-ExtrapolationTolerancePercent property.
-
-<!-- !! processed by numpydoc !! -->
-
-### *property* ImportedForce.ApplyAs *: [Ansys.Mechanical.DataModel.Enums.ExternalLoadApplicationType](../../../../Mechanical/DataModel/Enums/ExternalLoadApplicationType.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.ExternalLoadApplicationType) | [None](https://docs.python.org/3/library/constants.html#None)*
-
-This controls how the imported load is applied, either as a boundary condition or an initial condition.
-
-<!-- !! processed by numpydoc !! -->
-
-### *property* ImportedForce.Suppressed *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the Suppressed.
-
-<!-- !! processed by numpydoc !! -->
-
-### *property* ImportedForce.SharedRefBody *: [Ansys.ACT.Automation.Mechanical.Body](../Body.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Body) | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the SharedRefBody.
-
-<!-- !! processed by numpydoc !! -->
-
-### *property* ImportedForce.Location *: Ansys.ACT.Interfaces.Common.ISelectionInfo | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the Location.
-
-<!-- !! processed by numpydoc !! -->
+<a id="ImportedForce.Children"></a>
 
 ### *property* ImportedForce.Children *: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -372,11 +132,87 @@ Gets the list of children.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="ImportedForce.Comments"></a>
+
 ### *property* ImportedForce.Comments *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Comment](../Comment.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated comments.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="ImportedForce.CreateNameSelectionForMappedNodes"></a>
+
+### *property* ImportedForce.CreateNameSelectionForMappedNodes *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+
+CreateNameSelectionForMappedNodes property.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ImportedForce.CreateNameSelectionForOutsideNodes"></a>
+
+### *property* ImportedForce.CreateNameSelectionForOutsideNodes *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+
+CreateNameSelectionForOutsideNodes property.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ImportedForce.CreateNameSelectionForUnmappedNodes"></a>
+
+### *property* ImportedForce.CreateNameSelectionForUnmappedNodes *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+
+CreateNameSelectionForUnmappedNodes property.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ImportedForce.DataModelObjectCategory"></a>
+
+### *property* ImportedForce.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../../v242/Ansys/Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets the current DataModelObject’s category.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ImportedForce.DisplayInteriorPoints"></a>
+
+### *property* ImportedForce.DisplayInteriorPoints *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+
+DisplayInteriorPoints property.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ImportedForce.DisplayProjectionPlane"></a>
+
+### *property* ImportedForce.DisplayProjectionPlane *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+
+DisplayProjectionPlane property.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ImportedForce.DisplaySourcePointIds"></a>
+
+### *property* ImportedForce.DisplaySourcePointIds *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+
+DisplaySourcePointIds property.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ImportedForce.DisplaySourcePoints"></a>
+
+### *property* ImportedForce.DisplaySourcePoints *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+
+DisplaySourcePoints property.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ImportedForce.ExtrapolationTolerancePercent"></a>
+
+### *property* ImportedForce.ExtrapolationTolerancePercent *: System.Double | [None](https://docs.python.org/3/library/constants.html#None)*
+
+ExtrapolationTolerancePercent property.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ImportedForce.Figures"></a>
 
 ### *property* ImportedForce.Figures *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Figure](../Figure.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -384,17 +220,183 @@ Gets the list of associated figures.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="ImportedForce.Images"></a>
+
 ### *property* ImportedForce.Images *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Image](../Image.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated images.
 
 <!-- !! processed by numpydoc !! -->
 
-### *property* ImportedForce.InternalObject *: System.Object | [None](https://docs.python.org/3/library/constants.html#None)*
+<a id="ImportedForce.InternalObject"></a>
+
+### *property* ImportedForce.InternalObject *: Ansys.Common.Interop.DSObjectsAuto.IDSExternalLoadAuto | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the internal object. For advanced usage only.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="ImportedForce.Interpolation"></a>
+
+### *property* ImportedForce.Interpolation *: [Ansys.Mechanical.DataModel.Enums.InterpolationType](../../../../../../v242/Ansys/Mechanical/DataModel/Enums/InterpolationType.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.InterpolationType) | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Interpolation property.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ImportedForce.KrigingCorrelationFunction"></a>
+
+### *property* ImportedForce.KrigingCorrelationFunction *: [Ansys.Mechanical.DataModel.Enums.KrigingCorrFuncType](../../../../../../v242/Ansys/Mechanical/DataModel/Enums/KrigingCorrFuncType.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.KrigingCorrFuncType) | [None](https://docs.python.org/3/library/constants.html#None)*
+
+KrigingCorrelationFunction property.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ImportedForce.KrigingPolynom"></a>
+
+### *property* ImportedForce.KrigingPolynom *: [Ansys.Mechanical.DataModel.Enums.KrigingPolynomType](../../../../../../v242/Ansys/Mechanical/DataModel/Enums/KrigingPolynomType.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.KrigingPolynomType) | [None](https://docs.python.org/3/library/constants.html#None)*
+
+KrigingPolynom property.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ImportedForce.LegendMaximum"></a>
+
+### *property* ImportedForce.LegendMaximum *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
+
+LegendMaximum property.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ImportedForce.LegendMinimum"></a>
+
+### *property* ImportedForce.LegendMinimum *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
+
+LegendMinimum property.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ImportedForce.LegendRange"></a>
+
+### *property* ImportedForce.LegendRange *: [Ansys.Mechanical.DataModel.Enums.LegendRangeType](../../../../../../v242/Ansys/Mechanical/DataModel/Enums/LegendRangeType.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.LegendRangeType) | [None](https://docs.python.org/3/library/constants.html#None)*
+
+LegendRange property.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ImportedForce.Limit"></a>
+
+### *property* ImportedForce.Limit *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Limit property.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ImportedForce.Location"></a>
+
+### *property* ImportedForce.Location *: Ansys.ACT.Interfaces.Common.ISelectionInfo | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the Location.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ImportedForce.MappedNodesName"></a>
+
+### *property* ImportedForce.MappedNodesName *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+
+MappedNodesName property.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ImportedForce.Mapping"></a>
+
+### *property* ImportedForce.Mapping *: [Ansys.Mechanical.DataModel.Enums.MappingInterpolationType](../../../../../../v242/Ansys/Mechanical/DataModel/Enums/MappingInterpolationType.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.MappingInterpolationType) | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Mapping property.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ImportedForce.MappingControl"></a>
+
+### *property* ImportedForce.MappingControl *: [Ansys.Mechanical.DataModel.Enums.MappingControlType](../../../../../../v242/Ansys/Mechanical/DataModel/Enums/MappingControlType.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.MappingControlType) | [None](https://docs.python.org/3/library/constants.html#None)*
+
+MappingControl property.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ImportedForce.MaxOutsideDistance"></a>
+
+### *property* ImportedForce.MaxOutsideDistance *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
+
+MaxOutsideDistance property.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ImportedForce.Method"></a>
+
+### *property* ImportedForce.Method *: [Ansys.Mechanical.DataModel.Enums.MappingMethod](../../../../../../v242/Ansys/Mechanical/DataModel/Enums/MappingMethod.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.MappingMethod) | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Method property.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ImportedForce.NumberOfPoints"></a>
+
+### *property* ImportedForce.NumberOfPoints *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+
+NumberOfPoints property.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ImportedForce.OrientationRealignment"></a>
+
+### *property* ImportedForce.OrientationRealignment *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+
+OrientationRealignment property.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ImportedForce.OutsideDistanceCheck"></a>
+
+### *property* ImportedForce.OutsideDistanceCheck *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+
+OutsideDistanceCheck property.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ImportedForce.OutsideNodesName"></a>
+
+### *property* ImportedForce.OutsideNodesName *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+
+OutsideNodesName property.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ImportedForce.OutsideOption"></a>
+
+### *property* ImportedForce.OutsideOption *: [Ansys.Mechanical.DataModel.Enums.MappingOutsideOption](../../../../../../v242/Ansys/Mechanical/DataModel/Enums/MappingOutsideOption.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.MappingOutsideOption) | [None](https://docs.python.org/3/library/constants.html#None)*
+
+OutsideOption property.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ImportedForce.Pinball"></a>
+
+### *property* ImportedForce.Pinball *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Pinball property.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ImportedForce.Projection"></a>
+
+### *property* ImportedForce.Projection *: [Ansys.ACT.Automation.Mechanical.CoordinateSystem](../CoordinateSystem.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.CoordinateSystem) | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Projection property.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ImportedForce.Properties"></a>
 
 ### *property* ImportedForce.Properties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -402,9 +404,99 @@ Gets the list of properties for this object.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="ImportedForce.RigidBodyTransformationType"></a>
+
+### *property* ImportedForce.RigidBodyTransformationType *: [Ansys.Mechanical.DataModel.Enums.RigidBodyTransformationType](../../../../../../v242/Ansys/Mechanical/DataModel/Enums/RigidBodyTransformationType.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.RigidBodyTransformationType) | [None](https://docs.python.org/3/library/constants.html#None)*
+
+RigidBodyTransformationType property.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ImportedForce.RigidTransformSourceCoordinateSystem"></a>
+
+### *property* ImportedForce.RigidTransformSourceCoordinateSystem *: [Ansys.ACT.Automation.Mechanical.CoordinateSystem](../CoordinateSystem.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.CoordinateSystem) | [None](https://docs.python.org/3/library/constants.html#None)*
+
+RigidTransformSourceCoordinateSystem property.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ImportedForce.RigidTransformTargetCoordinateSystem"></a>
+
+### *property* ImportedForce.RigidTransformTargetCoordinateSystem *: [Ansys.ACT.Automation.Mechanical.CoordinateSystem](../CoordinateSystem.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.CoordinateSystem) | [None](https://docs.python.org/3/library/constants.html#None)*
+
+RigidTransformTargetCoordinateSystem property.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ImportedForce.SharedRefBody"></a>
+
+### *property* ImportedForce.SharedRefBody *: [Ansys.ACT.Automation.Mechanical.Body](../Body.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Body) | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the SharedRefBody.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ImportedForce.ShellThicknessFactor"></a>
+
+### *property* ImportedForce.ShellThicknessFactor *: System.Double | [None](https://docs.python.org/3/library/constants.html#None)*
+
+ShellThicknessFactor property.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ImportedForce.SourceMaximum"></a>
+
+### *property* ImportedForce.SourceMaximum *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
+
+SourceMaximum property.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ImportedForce.SourceMinimum"></a>
+
+### *property* ImportedForce.SourceMinimum *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
+
+SourceMinimum property.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ImportedForce.Suppressed"></a>
+
+### *property* ImportedForce.Suppressed *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the Suppressed.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ImportedForce.UnmappedNodesName"></a>
+
+### *property* ImportedForce.UnmappedNodesName *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+
+UnmappedNodesName property.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ImportedForce.VariableType"></a>
+
+### *property* ImportedForce.VariableType *: [Ansys.Mechanical.DataModel.Enums.MappingVariableType](../../../../../../v242/Ansys/Mechanical/DataModel/Enums/MappingVariableType.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.MappingVariableType) | [None](https://docs.python.org/3/library/constants.html#None)*
+
+VariableType property.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ImportedForce.VisibleProperties"></a>
+
 ### *property* ImportedForce.VisibleProperties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of properties that are visible for this object.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ImportedForce.Weighting"></a>
+
+### *property* ImportedForce.Weighting *: [Ansys.Mechanical.DataModel.Enums.WeightingType](../../../../../../v242/Ansys/Mechanical/DataModel/Enums/WeightingType.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.WeightingType) | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Weighting property.
 
 <!-- !! processed by numpydoc !! -->
 
@@ -412,65 +504,15 @@ Gets the list of properties that are visible for this object.
 
 ## Method detail
 
-### ImportedForce.ExportToTextFile(filePath: System.String)
+<a id="ImportedForce.Activate"></a>
 
-Run the ExportToTextFile action.
+### ImportedForce.Activate()
 
-<!-- !! processed by numpydoc !! -->
-
-### ImportedForce.Import()
-
-Import.
+Activate the current object.
 
 <!-- !! processed by numpydoc !! -->
 
-### ImportedForce.ImportLoad()
-
-Run the ImportLoad action.
-
-<!-- !! processed by numpydoc !! -->
-
-### ImportedForce.GetActivateAtLoadStep(stepNumber: System.UInt32)
-
-GetActivateAtLoadStep method.
-
-<!-- !! processed by numpydoc !! -->
-
-### ImportedForce.SetActivateAtLoadStep(stepNumber: System.UInt32, bActive: System.Boolean)
-
-SetActivateAtLoadStep method.
-
-<!-- !! processed by numpydoc !! -->
-
-### ImportedForce.AddMappingValidation()
-
-Creates a new MappingValidation
-
-<!-- !! processed by numpydoc !! -->
-
-### ImportedForce.ClearGeneratedData()
-
-Run the ClearGeneratedData action.
-
-<!-- !! processed by numpydoc !! -->
-
-### ImportedForce.Delete()
-
-Run the Delete action.
-
-<!-- !! processed by numpydoc !! -->
-
-### ImportedForce.GetChildren(recurses: System.Boolean, children: System.Collections.Generic.IList[ChildrenType])
-
-Gets the list of children, filtered by type.
-
-<!-- !! processed by numpydoc !! -->
-
-### ImportedForce.GetChildren(category: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory), recurses: System.Boolean, children: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject])
-
-Gets the list of children, filtered by type.
-
-<!-- !! processed by numpydoc !! -->
+<a id="ImportedForce.AddComment"></a>
 
 ### ImportedForce.AddComment()
 
@@ -478,11 +520,15 @@ Creates a new child Comment.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="ImportedForce.AddFigure"></a>
+
 ### ImportedForce.AddFigure()
 
 Creates a new child Figure.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="ImportedForce.AddImage"></a>
 
 ### ImportedForce.AddImage(filePath: System.String)
 
@@ -494,11 +540,23 @@ if not, the image will be a screen capture of the Geometry window.
 
 <!-- !! processed by numpydoc !! -->
 
-### ImportedForce.Activate()
+<a id="ImportedForce.AddMappingValidation"></a>
 
-Activate the current object.
+### ImportedForce.AddMappingValidation()
+
+Creates a new MappingValidation
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="ImportedForce.ClearGeneratedData"></a>
+
+### ImportedForce.ClearGeneratedData()
+
+Run the ClearGeneratedData action.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ImportedForce.CopyTo"></a>
 
 ### ImportedForce.CopyTo(other: Ansys.ACT.Automation.Mechanical.DataModelObject)
 
@@ -506,11 +564,63 @@ Copies all visible properties from this object to another.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="ImportedForce.CreateParameter"></a>
+
+### ImportedForce.CreateParameter(propName: System.String)
+
+Creates a new parameter for a Property.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ImportedForce.Delete"></a>
+
+### ImportedForce.Delete()
+
+Run the Delete action.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ImportedForce.Duplicate"></a>
+
 ### ImportedForce.Duplicate()
 
 Creates a copy of the current DataModelObject.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="ImportedForce.ExportToTextFile"></a>
+
+### ImportedForce.ExportToTextFile(filePath: System.String)
+
+Run the ExportToTextFile action.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ImportedForce.GetActivateAtLoadStep"></a>
+
+### ImportedForce.GetActivateAtLoadStep(stepNumber: System.UInt32)
+
+GetActivateAtLoadStep method.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ImportedForce.GetChildren"></a>
+
+### ImportedForce.GetChildren(recurses: System.Boolean, children: System.Collections.Generic.IList[ChildrenType])
+
+Gets the list of children, filtered by type.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ImportedForce.GetParameter"></a>
+
+### ImportedForce.GetParameter(propName: System.String)
+
+Gets the parameter corresponding to the given property.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ImportedForce.GroupAllSimilarChildren"></a>
 
 ### ImportedForce.GroupAllSimilarChildren()
 
@@ -518,17 +628,31 @@ Run the GroupAllSimilarChildren action.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="ImportedForce.GroupSimilarObjects"></a>
+
 ### ImportedForce.GroupSimilarObjects()
 
 Run the GroupSimilarObjects action.
 
 <!-- !! processed by numpydoc !! -->
 
-### ImportedForce.PropertyByName(name: System.String)
+<a id="ImportedForce.Import"></a>
 
-Get a property by its unique name.
+### ImportedForce.Import()
+
+Import.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="ImportedForce.ImportLoad"></a>
+
+### ImportedForce.ImportLoad()
+
+Run the ImportLoad action.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ImportedForce.PropertyByAPIName"></a>
 
 ### ImportedForce.PropertyByAPIName(name: System.String)
 
@@ -539,21 +663,27 @@ If multiple properties have the same API Name, only the first property with that
 
 <!-- !! processed by numpydoc !! -->
 
-### ImportedForce.CreateParameter(propName: System.String)
+<a id="ImportedForce.PropertyByName"></a>
 
-Creates a new parameter for a Property.
+### ImportedForce.PropertyByName(name: System.String)
 
-<!-- !! processed by numpydoc !! -->
-
-### ImportedForce.GetParameter(propName: System.String)
-
-Gets the parameter corresponding to the given property.
+Get a property by its unique name.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="ImportedForce.RemoveParameter"></a>
 
 ### ImportedForce.RemoveParameter(propName: System.String)
 
 Removes the parameter from the parameter set corresponding to the given property.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ImportedForce.SetActivateAtLoadStep"></a>
+
+### ImportedForce.SetActivateAtLoadStep(stepNumber: System.UInt32, bActive: System.Boolean)
+
+SetActivateAtLoadStep method.
 
 <!-- !! processed by numpydoc !! -->
 

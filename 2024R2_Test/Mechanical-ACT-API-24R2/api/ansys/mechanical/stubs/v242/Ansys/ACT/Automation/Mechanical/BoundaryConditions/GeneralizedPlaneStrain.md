@@ -1,6 +1,6 @@
 # `GeneralizedPlaneStrain`
 
-
+<a id="ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.BoundaryConditions.GeneralizedPlaneStrain"></a>
 
 #### *class* ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.BoundaryConditions.GeneralizedPlaneStrain
 
@@ -17,123 +17,75 @@ Defines a GeneralizedPlaneStrain.
 ### Methods
 
 | Name | Description |
-|---------------------------|-----------------------------------------------------------------------------------|
-| `Delete`                  | Run the Delete action.                                                            |
-| `GetChildren`             | Gets the list of children, filtered by type.                                      |
-| `GetChildren`             | Gets the list of children, filtered by type.                                      |
-| `AddComment`              | Creates a new child Comment.                                                      |
-| `AddFigure`               | Creates a new child Figure.                                                       |
-| `AddImage`                | Creates a new child Image.                                                        |
-| `Activate`                | Activate the current object.                                                      |
-| `CopyTo`                  | Copies all visible properties from this object to another.                        |
-| `Duplicate`               | Creates a copy of the current DataModelObject.                                    |
-| `GroupAllSimilarChildren` | Run the GroupAllSimilarChildren action.                                           |
-| `GroupSimilarObjects`     | Run the GroupSimilarObjects action.                                               |
-| `PropertyByName`          | Get a property by its unique name.                                                |
-| `PropertyByAPIName`       | Get a property by its API name.                                                   |
-| `CreateParameter`         | Creates a new parameter for a Property.                                           |
-| `GetParameter`            | Gets the parameter corresponding to the given property.                           |
-| `RemoveParameter`         | Removes the parameter from the parameter set corresponding to the given property. |
+|------------------------------------------------------------------------------|-----------------------------------------------------------------------------------|
+| [`Activate`](#GeneralizedPlaneStrain.Activate)                               | Activate the current object.                                                      |
+| [`AddComment`](#GeneralizedPlaneStrain.AddComment)                           | Creates a new child Comment.                                                      |
+| [`AddFigure`](#GeneralizedPlaneStrain.AddFigure)                             | Creates a new child Figure.                                                       |
+| [`AddImage`](#GeneralizedPlaneStrain.AddImage)                               | Creates a new child Image.                                                        |
+| [`CopyTo`](#GeneralizedPlaneStrain.CopyTo)                                   | Copies all visible properties from this object to another.                        |
+| [`CreateParameter`](#GeneralizedPlaneStrain.CreateParameter)                 | Creates a new parameter for a Property.                                           |
+| [`Delete`](#GeneralizedPlaneStrain.Delete)                                   | Run the Delete action.                                                            |
+| [`Duplicate`](#GeneralizedPlaneStrain.Duplicate)                             | Creates a copy of the current DataModelObject.                                    |
+| [`GetChildren`](#GeneralizedPlaneStrain.GetChildren)                         | Gets the list of children, filtered by type.                                      |
+| [`GetParameter`](#GeneralizedPlaneStrain.GetParameter)                       | Gets the parameter corresponding to the given property.                           |
+| [`GroupAllSimilarChildren`](#GeneralizedPlaneStrain.GroupAllSimilarChildren) | Run the GroupAllSimilarChildren action.                                           |
+| [`GroupSimilarObjects`](#GeneralizedPlaneStrain.GroupSimilarObjects)         | Run the GroupSimilarObjects action.                                               |
+| [`PropertyByAPIName`](#GeneralizedPlaneStrain.PropertyByAPIName)             | Get a property by its API name.                                                   |
+| [`PropertyByName`](#GeneralizedPlaneStrain.PropertyByName)                   | Get a property by its unique name.                                                |
+| [`RemoveParameter`](#GeneralizedPlaneStrain.RemoveParameter)                 | Removes the parameter from the parameter set corresponding to the given property. |
 
 ### Properties
 
 | Name | Description |
-|--------------------------------------|---------------------------------------------------------------|
-| `InternalObject`                     | Gets the internal object. For advanced usage only.            |
-| `MagnitudeAlongFiber`                | Gets or sets the MagnitudeAlongFiber.                         |
-| `MagnitudeRotationX`                 | Gets or sets the MagnitudeRotationX.                          |
-| `MagnitudeRotationY`                 | Gets or sets the MagnitudeRotationY.                          |
-| `XCoordinateOfRefPoint`              | Gets or sets the XCoordinateOfRefPoint.                       |
-| `YCoordinateOfRefPoint`              | Gets or sets the YCoordinateOfRefPoint.                       |
-| `BoundaryConditionAlongFiber`        | Gets or sets the BoundaryConditionAlongFiber.                 |
-| `BoundaryConditionForRotationAboutX` | Gets or sets the BoundaryConditionForRotationAboutX.          |
-| `BoundaryConditionForRotationAboutY` | Gets or sets the BoundaryConditionForRotationAboutY.          |
-| `Suppressed`                         | Gets or sets the Suppressed.                                  |
-| `CoordinateSystem`                   | Gets or sets the CoordinateSystem.                            |
-| `DataModelObjectCategory`            | Gets the current DataModelObject's category.                  |
-| `Children`                           | Gets the list of children.                                    |
-| `Comments`                           | Gets the list of associated comments.                         |
-| `Figures`                            | Gets the list of associated figures.                          |
-| `Images`                             | Gets the list of associated images.                           |
-| `InternalObject`                     | Gets the internal object. For advanced usage only.            |
-| `Properties`                         | Gets the list of properties for this object.                  |
-| `VisibleProperties`                  | Gets the list of properties that are visible for this object. |
+|----------------------------------------------------------------------------------------------------|---------------------------------------------------------------|
+| [`BoundaryConditionAlongFiber`](#GeneralizedPlaneStrain.BoundaryConditionAlongFiber)               | Gets or sets the BoundaryConditionAlongFiber.                 |
+| [`BoundaryConditionForRotationAboutX`](#GeneralizedPlaneStrain.BoundaryConditionForRotationAboutX) | Gets or sets the BoundaryConditionForRotationAboutX.          |
+| [`BoundaryConditionForRotationAboutY`](#GeneralizedPlaneStrain.BoundaryConditionForRotationAboutY) | Gets or sets the BoundaryConditionForRotationAboutY.          |
+| [`Children`](#GeneralizedPlaneStrain.Children)                                                     | Gets the list of children.                                    |
+| [`Comments`](#GeneralizedPlaneStrain.Comments)                                                     | Gets the list of associated comments.                         |
+| [`CoordinateSystem`](#GeneralizedPlaneStrain.CoordinateSystem)                                     | Gets or sets the CoordinateSystem.                            |
+| [`DataModelObjectCategory`](#GeneralizedPlaneStrain.DataModelObjectCategory)                       | Gets the current DataModelObject’s category.                  |
+| [`Figures`](#GeneralizedPlaneStrain.Figures)                                                       | Gets the list of associated figures.                          |
+| [`Images`](#GeneralizedPlaneStrain.Images)                                                         | Gets the list of associated images.                           |
+| [`InternalObject`](#GeneralizedPlaneStrain.InternalObject)                                         | Gets the internal object. For advanced usage only.            |
+| [`MagnitudeAlongFiber`](#GeneralizedPlaneStrain.MagnitudeAlongFiber)                               | Gets or sets the MagnitudeAlongFiber.                         |
+| [`MagnitudeRotationX`](#GeneralizedPlaneStrain.MagnitudeRotationX)                                 | Gets or sets the MagnitudeRotationX.                          |
+| [`MagnitudeRotationY`](#GeneralizedPlaneStrain.MagnitudeRotationY)                                 | Gets or sets the MagnitudeRotationY.                          |
+| [`Properties`](#GeneralizedPlaneStrain.Properties)                                                 | Gets the list of properties for this object.                  |
+| [`Suppressed`](#GeneralizedPlaneStrain.Suppressed)                                                 | Gets or sets the Suppressed.                                  |
+| [`VisibleProperties`](#GeneralizedPlaneStrain.VisibleProperties)                                   | Gets the list of properties that are visible for this object. |
+| [`XCoordinateOfRefPoint`](#GeneralizedPlaneStrain.XCoordinateOfRefPoint)                           | Gets or sets the XCoordinateOfRefPoint.                       |
+| [`YCoordinateOfRefPoint`](#GeneralizedPlaneStrain.YCoordinateOfRefPoint)                           | Gets or sets the YCoordinateOfRefPoint.                       |
 
 <a id="property-detail"></a>
 
 ## Property detail
 
-### *property* GeneralizedPlaneStrain.InternalObject *: Ansys.Common.Interop.DSObjectsAuto.IDSGenPlaneStrainAuto | [None](https://docs.python.org/3/library/constants.html#None)*
+<a id="GeneralizedPlaneStrain.BoundaryConditionAlongFiber"></a>
 
-Gets the internal object. For advanced usage only.
-
-<!-- !! processed by numpydoc !! -->
-
-### *property* GeneralizedPlaneStrain.MagnitudeAlongFiber *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the MagnitudeAlongFiber.
-
-<!-- !! processed by numpydoc !! -->
-
-### *property* GeneralizedPlaneStrain.MagnitudeRotationX *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the MagnitudeRotationX.
-
-<!-- !! processed by numpydoc !! -->
-
-### *property* GeneralizedPlaneStrain.MagnitudeRotationY *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the MagnitudeRotationY.
-
-<!-- !! processed by numpydoc !! -->
-
-### *property* GeneralizedPlaneStrain.XCoordinateOfRefPoint *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the XCoordinateOfRefPoint.
-
-<!-- !! processed by numpydoc !! -->
-
-### *property* GeneralizedPlaneStrain.YCoordinateOfRefPoint *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the YCoordinateOfRefPoint.
-
-<!-- !! processed by numpydoc !! -->
-
-### *property* GeneralizedPlaneStrain.BoundaryConditionAlongFiber *: [Ansys.Mechanical.DataModel.Enums.BoundaryConditionAlongFiber](../../../../../../v241/Ansys/Mechanical/DataModel/Enums/BoundaryConditionAlongFiber.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.BoundaryConditionAlongFiber) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* GeneralizedPlaneStrain.BoundaryConditionAlongFiber *: [Ansys.Mechanical.DataModel.Enums.BoundaryConditionAlongFiber](../../../../Mechanical/DataModel/Enums/BoundaryConditionAlongFiber.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.BoundaryConditionAlongFiber) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the BoundaryConditionAlongFiber.
 
 <!-- !! processed by numpydoc !! -->
 
-### *property* GeneralizedPlaneStrain.BoundaryConditionForRotationAboutX *: [Ansys.Mechanical.DataModel.Enums.BoundaryConditionForRotation](../../../../../../v241/Ansys/Mechanical/DataModel/Enums/BoundaryConditionForRotation.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.BoundaryConditionForRotation) | [None](https://docs.python.org/3/library/constants.html#None)*
+<a id="GeneralizedPlaneStrain.BoundaryConditionForRotationAboutX"></a>
+
+### *property* GeneralizedPlaneStrain.BoundaryConditionForRotationAboutX *: [Ansys.Mechanical.DataModel.Enums.BoundaryConditionForRotation](../../../../Mechanical/DataModel/Enums/BoundaryConditionForRotation.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.BoundaryConditionForRotation) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the BoundaryConditionForRotationAboutX.
 
 <!-- !! processed by numpydoc !! -->
 
-### *property* GeneralizedPlaneStrain.BoundaryConditionForRotationAboutY *: [Ansys.Mechanical.DataModel.Enums.BoundaryConditionForRotation](../../../../../../v241/Ansys/Mechanical/DataModel/Enums/BoundaryConditionForRotation.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.BoundaryConditionForRotation) | [None](https://docs.python.org/3/library/constants.html#None)*
+<a id="GeneralizedPlaneStrain.BoundaryConditionForRotationAboutY"></a>
+
+### *property* GeneralizedPlaneStrain.BoundaryConditionForRotationAboutY *: [Ansys.Mechanical.DataModel.Enums.BoundaryConditionForRotation](../../../../Mechanical/DataModel/Enums/BoundaryConditionForRotation.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.BoundaryConditionForRotation) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the BoundaryConditionForRotationAboutY.
 
 <!-- !! processed by numpydoc !! -->
 
-### *property* GeneralizedPlaneStrain.Suppressed *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the Suppressed.
-
-<!-- !! processed by numpydoc !! -->
-
-### *property* GeneralizedPlaneStrain.CoordinateSystem *: [Ansys.ACT.Automation.Mechanical.CoordinateSystem](../../../../../../v241/Ansys/ACT/Automation/Mechanical/CoordinateSystem.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.CoordinateSystem) | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the CoordinateSystem.
-
-<!-- !! processed by numpydoc !! -->
-
-### *property* GeneralizedPlaneStrain.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../../v241/Ansys/Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets the current DataModelObject's category.
-
-<!-- !! processed by numpydoc !! -->
+<a id="GeneralizedPlaneStrain.Children"></a>
 
 ### *property* GeneralizedPlaneStrain.Children *: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -141,11 +93,31 @@ Gets the list of children.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="GeneralizedPlaneStrain.Comments"></a>
+
 ### *property* GeneralizedPlaneStrain.Comments *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Comment](../../../../../../v241/Ansys/ACT/Automation/Mechanical/Comment.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated comments.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="GeneralizedPlaneStrain.CoordinateSystem"></a>
+
+### *property* GeneralizedPlaneStrain.CoordinateSystem *: [Ansys.ACT.Automation.Mechanical.CoordinateSystem](../../../../../../v241/Ansys/ACT/Automation/Mechanical/CoordinateSystem.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.CoordinateSystem) | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the CoordinateSystem.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="GeneralizedPlaneStrain.DataModelObjectCategory"></a>
+
+### *property* GeneralizedPlaneStrain.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets the current DataModelObject’s category.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="GeneralizedPlaneStrain.Figures"></a>
 
 ### *property* GeneralizedPlaneStrain.Figures *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Figure](../../../../../../v241/Ansys/ACT/Automation/Mechanical/Figure.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -153,17 +125,47 @@ Gets the list of associated figures.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="GeneralizedPlaneStrain.Images"></a>
+
 ### *property* GeneralizedPlaneStrain.Images *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Image](../../../../../../v241/Ansys/ACT/Automation/Mechanical/Image.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated images.
 
 <!-- !! processed by numpydoc !! -->
 
-### *property* GeneralizedPlaneStrain.InternalObject *: System.Object | [None](https://docs.python.org/3/library/constants.html#None)*
+<a id="GeneralizedPlaneStrain.InternalObject"></a>
+
+### *property* GeneralizedPlaneStrain.InternalObject *: Ansys.Common.Interop.DSObjectsAuto.IDSGenPlaneStrainAuto | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the internal object. For advanced usage only.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="GeneralizedPlaneStrain.MagnitudeAlongFiber"></a>
+
+### *property* GeneralizedPlaneStrain.MagnitudeAlongFiber *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the MagnitudeAlongFiber.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="GeneralizedPlaneStrain.MagnitudeRotationX"></a>
+
+### *property* GeneralizedPlaneStrain.MagnitudeRotationX *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the MagnitudeRotationX.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="GeneralizedPlaneStrain.MagnitudeRotationY"></a>
+
+### *property* GeneralizedPlaneStrain.MagnitudeRotationY *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the MagnitudeRotationY.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="GeneralizedPlaneStrain.Properties"></a>
 
 ### *property* GeneralizedPlaneStrain.Properties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -171,9 +173,35 @@ Gets the list of properties for this object.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="GeneralizedPlaneStrain.Suppressed"></a>
+
+### *property* GeneralizedPlaneStrain.Suppressed *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the Suppressed.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="GeneralizedPlaneStrain.VisibleProperties"></a>
+
 ### *property* GeneralizedPlaneStrain.VisibleProperties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of properties that are visible for this object.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="GeneralizedPlaneStrain.XCoordinateOfRefPoint"></a>
+
+### *property* GeneralizedPlaneStrain.XCoordinateOfRefPoint *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the XCoordinateOfRefPoint.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="GeneralizedPlaneStrain.YCoordinateOfRefPoint"></a>
+
+### *property* GeneralizedPlaneStrain.YCoordinateOfRefPoint *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the YCoordinateOfRefPoint.
 
 <!-- !! processed by numpydoc !! -->
 
@@ -181,23 +209,15 @@ Gets the list of properties that are visible for this object.
 
 ## Method detail
 
-### GeneralizedPlaneStrain.Delete()
+<a id="GeneralizedPlaneStrain.Activate"></a>
 
-Run the Delete action.
+### GeneralizedPlaneStrain.Activate()
 
-<!-- !! processed by numpydoc !! -->
-
-### GeneralizedPlaneStrain.GetChildren(recurses: System.Boolean, children: System.Collections.Generic.IList[ChildrenType])
-
-Gets the list of children, filtered by type.
+Activate the current object.
 
 <!-- !! processed by numpydoc !! -->
 
-### GeneralizedPlaneStrain.GetChildren(category: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../../v241/Ansys/Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory), recurses: System.Boolean, children: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject])
-
-Gets the list of children, filtered by type.
-
-<!-- !! processed by numpydoc !! -->
+<a id="GeneralizedPlaneStrain.AddComment"></a>
 
 ### GeneralizedPlaneStrain.AddComment()
 
@@ -205,11 +225,15 @@ Creates a new child Comment.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="GeneralizedPlaneStrain.AddFigure"></a>
+
 ### GeneralizedPlaneStrain.AddFigure()
 
 Creates a new child Figure.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="GeneralizedPlaneStrain.AddImage"></a>
 
 ### GeneralizedPlaneStrain.AddImage(filePath: System.String)
 
@@ -221,11 +245,7 @@ if not, the image will be a screen capture of the Geometry window.
 
 <!-- !! processed by numpydoc !! -->
 
-### GeneralizedPlaneStrain.Activate()
-
-Activate the current object.
-
-<!-- !! processed by numpydoc !! -->
+<a id="GeneralizedPlaneStrain.CopyTo"></a>
 
 ### GeneralizedPlaneStrain.CopyTo(other: Ansys.ACT.Automation.Mechanical.DataModelObject)
 
@@ -233,11 +253,47 @@ Copies all visible properties from this object to another.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="GeneralizedPlaneStrain.CreateParameter"></a>
+
+### GeneralizedPlaneStrain.CreateParameter(propName: System.String)
+
+Creates a new parameter for a Property.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="GeneralizedPlaneStrain.Delete"></a>
+
+### GeneralizedPlaneStrain.Delete()
+
+Run the Delete action.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="GeneralizedPlaneStrain.Duplicate"></a>
+
 ### GeneralizedPlaneStrain.Duplicate()
 
 Creates a copy of the current DataModelObject.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="GeneralizedPlaneStrain.GetChildren"></a>
+
+### GeneralizedPlaneStrain.GetChildren(recurses: System.Boolean, children: System.Collections.Generic.IList[ChildrenType])
+
+Gets the list of children, filtered by type.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="GeneralizedPlaneStrain.GetParameter"></a>
+
+### GeneralizedPlaneStrain.GetParameter(propName: System.String)
+
+Gets the parameter corresponding to the given property.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="GeneralizedPlaneStrain.GroupAllSimilarChildren"></a>
 
 ### GeneralizedPlaneStrain.GroupAllSimilarChildren()
 
@@ -245,17 +301,15 @@ Run the GroupAllSimilarChildren action.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="GeneralizedPlaneStrain.GroupSimilarObjects"></a>
+
 ### GeneralizedPlaneStrain.GroupSimilarObjects()
 
 Run the GroupSimilarObjects action.
 
 <!-- !! processed by numpydoc !! -->
 
-### GeneralizedPlaneStrain.PropertyByName(name: System.String)
-
-Get a property by its unique name.
-
-<!-- !! processed by numpydoc !! -->
+<a id="GeneralizedPlaneStrain.PropertyByAPIName"></a>
 
 ### GeneralizedPlaneStrain.PropertyByAPIName(name: System.String)
 
@@ -266,17 +320,15 @@ If multiple properties have the same API Name, only the first property with that
 
 <!-- !! processed by numpydoc !! -->
 
-### GeneralizedPlaneStrain.CreateParameter(propName: System.String)
+<a id="GeneralizedPlaneStrain.PropertyByName"></a>
 
-Creates a new parameter for a Property.
+### GeneralizedPlaneStrain.PropertyByName(name: System.String)
 
-<!-- !! processed by numpydoc !! -->
-
-### GeneralizedPlaneStrain.GetParameter(propName: System.String)
-
-Gets the parameter corresponding to the given property.
+Get a property by its unique name.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="GeneralizedPlaneStrain.RemoveParameter"></a>
 
 ### GeneralizedPlaneStrain.RemoveParameter(propName: System.String)
 

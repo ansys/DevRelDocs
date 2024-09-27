@@ -1,6 +1,6 @@
 # `ShellInertiaUpdate`
 
-
+<a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.ShellInertiaUpdate"></a>
 
 #### *class* ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.ShellInertiaUpdate
 
@@ -17,9 +17,9 @@ Specifies the ShellInertiaUpdate.
 ### Attributes
 
 | Name |
-| -------------------------------------------------------------------------------------------------------------------------- |
-| [`Recompute`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/ShellInertiaUpdate.md#ShellInertiaUpdate.Recompute) |
-| [`Rotate`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/ShellInertiaUpdate.md#ShellInertiaUpdate.Rotate) |
+| ------------------------------------------------ |
+| [`Recompute`](#ShellInertiaUpdate.Recompute) |
+| [`Rotate`](#ShellInertiaUpdate.Rotate) |
 
 <a id="attribute-detail"></a>
 

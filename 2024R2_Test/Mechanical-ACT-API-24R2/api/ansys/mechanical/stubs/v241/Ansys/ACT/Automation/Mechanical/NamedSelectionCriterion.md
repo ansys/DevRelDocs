@@ -1,6 +1,6 @@
 # `NamedSelectionCriterion`
 
-
+<a id="ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.NamedSelectionCriterion"></a>
 
 #### *class* ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.NamedSelectionCriterion
 
@@ -17,20 +17,30 @@ NamedSelectionCriterion class.
 ### Properties
 
 | Name | Description |
-|--------------------|----------------------------|
-| `Active`           | Active property.           |
-| `Action`           | Action property.           |
-| `EntityType`       | EntityType property.       |
-| `Criterion`        | Criterion property.        |
-| `Operator`         | Operator property.         |
-| `Value`            | Value property.            |
-| `LowerBound`       | LowerBound property.       |
-| `UpperBound`       | UpperBound property.       |
-| `CoordinateSystem` | CoordinateSystem property. |
+|-----------------------------------------------------------------|----------------------------|
+| [`Action`](#NamedSelectionCriterion.Action)                     | Action property.           |
+| [`Active`](#NamedSelectionCriterion.Active)                     | Active property.           |
+| [`CoordinateSystem`](#NamedSelectionCriterion.CoordinateSystem) | CoordinateSystem property. |
+| [`Criterion`](#NamedSelectionCriterion.Criterion)               | Criterion property.        |
+| [`EntityType`](#NamedSelectionCriterion.EntityType)             | EntityType property.       |
+| [`LowerBound`](#NamedSelectionCriterion.LowerBound)             | LowerBound property.       |
+| [`Operator`](#NamedSelectionCriterion.Operator)                 | Operator property.         |
+| [`UpperBound`](#NamedSelectionCriterion.UpperBound)             | UpperBound property.       |
+| [`Value`](#NamedSelectionCriterion.Value)                       | Value property.            |
 
 <a id="property-detail"></a>
 
 ## Property detail
+
+<a id="NamedSelectionCriterion.Action"></a>
+
+### *property* NamedSelectionCriterion.Action *: [Ansys.Mechanical.DataModel.Enums.SelectionActionType](../../../../../v242/Ansys/Mechanical/DataModel/Enums/SelectionActionType.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.SelectionActionType) | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Action property.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="NamedSelectionCriterion.Active"></a>
 
 ### *property* NamedSelectionCriterion.Active *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -38,35 +48,31 @@ Active property.
 
 <!-- !! processed by numpydoc !! -->
 
-### *property* NamedSelectionCriterion.Action *: [Ansys.Mechanical.DataModel.Enums.SelectionActionType](../../../Mechanical/DataModel/Enums/SelectionActionType.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.SelectionActionType) | [None](https://docs.python.org/3/library/constants.html#None)*
+<a id="NamedSelectionCriterion.CoordinateSystem"></a>
 
-Action property.
+### *property* NamedSelectionCriterion.CoordinateSystem *: [Ansys.ACT.Automation.Mechanical.CoordinateSystem](CoordinateSystem.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.CoordinateSystem) | [None](https://docs.python.org/3/library/constants.html#None)*
 
-<!-- !! processed by numpydoc !! -->
-
-### *property* NamedSelectionCriterion.EntityType *: [Ansys.Mechanical.DataModel.Enums.SelectionType](../../../Mechanical/DataModel/Enums/SelectionType.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.SelectionType) | [None](https://docs.python.org/3/library/constants.html#None)*
-
-EntityType property.
+CoordinateSystem property.
 
 <!-- !! processed by numpydoc !! -->
 
-### *property* NamedSelectionCriterion.Criterion *: [Ansys.Mechanical.DataModel.Enums.SelectionCriterionType](../../../Mechanical/DataModel/Enums/SelectionCriterionType.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.SelectionCriterionType) | [None](https://docs.python.org/3/library/constants.html#None)*
+<a id="NamedSelectionCriterion.Criterion"></a>
+
+### *property* NamedSelectionCriterion.Criterion *: [Ansys.Mechanical.DataModel.Enums.SelectionCriterionType](../../../../../v242/Ansys/Mechanical/DataModel/Enums/SelectionCriterionType.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.SelectionCriterionType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Criterion property.
 
 <!-- !! processed by numpydoc !! -->
 
-### *property* NamedSelectionCriterion.Operator *: [Ansys.Mechanical.DataModel.Enums.SelectionOperatorType](../../../Mechanical/DataModel/Enums/SelectionOperatorType.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.SelectionOperatorType) | [None](https://docs.python.org/3/library/constants.html#None)*
+<a id="NamedSelectionCriterion.EntityType"></a>
 
-Operator property.
+### *property* NamedSelectionCriterion.EntityType *: [Ansys.Mechanical.DataModel.Enums.SelectionType](../../../../../v242/Ansys/Mechanical/DataModel/Enums/SelectionType.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.SelectionType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
-<!-- !! processed by numpydoc !! -->
-
-### *property* NamedSelectionCriterion.Value *: System.Object | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Value property.
+EntityType property.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="NamedSelectionCriterion.LowerBound"></a>
 
 ### *property* NamedSelectionCriterion.LowerBound *: System.Object | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -74,15 +80,27 @@ LowerBound property.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="NamedSelectionCriterion.Operator"></a>
+
+### *property* NamedSelectionCriterion.Operator *: [Ansys.Mechanical.DataModel.Enums.SelectionOperatorType](../../../../../v242/Ansys/Mechanical/DataModel/Enums/SelectionOperatorType.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.SelectionOperatorType) | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Operator property.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="NamedSelectionCriterion.UpperBound"></a>
+
 ### *property* NamedSelectionCriterion.UpperBound *: System.Object | [None](https://docs.python.org/3/library/constants.html#None)*
 
 UpperBound property.
 
 <!-- !! processed by numpydoc !! -->
 
-### *property* NamedSelectionCriterion.CoordinateSystem *: [Ansys.ACT.Automation.Mechanical.CoordinateSystem](CoordinateSystem.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.CoordinateSystem) | [None](https://docs.python.org/3/library/constants.html#None)*
+<a id="NamedSelectionCriterion.Value"></a>
 
-CoordinateSystem property.
+### *property* NamedSelectionCriterion.Value *: System.Object | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Value property.
 
 <!-- !! processed by numpydoc !! -->
 

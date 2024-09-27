@@ -1,6 +1,6 @@
 # `CylindricalSupport`
 
-
+<a id="ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.BoundaryConditions.CylindricalSupport"></a>
 
 #### *class* ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.BoundaryConditions.CylindricalSupport
 
@@ -17,97 +17,57 @@ Defines a CylindricalSupport.
 ### Methods
 
 | Name | Description |
-|-----------------------------|-----------------------------------------------------------------------------------|
-| `PromoteToNamedSelection`   | Run the PromoteToNamedSelection action.                                           |
-| `Delete`                    | Run the Delete action.                                                            |
-| `GetChildren`               | Gets the list of children, filtered by type.                                      |
-| `GetChildren`               | Gets the list of children, filtered by type.                                      |
-| `AddComment`                | Creates a new child Comment.                                                      |
-| `AddFigure`                 | Creates a new child Figure.                                                       |
-| `AddImage`                  | Creates a new child Image.                                                        |
-| `Activate`                  | Activate the current object.                                                      |
-| `CopyTo`                    | Copies all visible properties from this object to another.                        |
-| `Duplicate`                 | Creates a copy of the current DataModelObject.                                    |
-| `GroupAllSimilarChildren`   | Run the GroupAllSimilarChildren action.                                           |
-| `GroupSimilarObjects`       | Run the GroupSimilarObjects action.                                               |
-| `PropertyByName`            | Get a property by its unique name.                                                |
-| `PropertyByAPIName`         | Get a property by its API name.                                                   |
-| `CreateParameter`           | Creates a new parameter for a Property.                                           |
-| `GetParameter`              | Gets the parameter corresponding to the given property.                           |
-| `RemoveParameter`           | Removes the parameter from the parameter set corresponding to the given property. |
+|--------------------------------------------------------------------------|-----------------------------------------------------------------------------------|
+| [`Activate`](#CylindricalSupport.Activate)                               | Activate the current object.                                                      |
+| [`AddComment`](#CylindricalSupport.AddComment)                           | Creates a new child Comment.                                                      |
+| [`AddFigure`](#CylindricalSupport.AddFigure)                             | Creates a new child Figure.                                                       |
+| [`AddImage`](#CylindricalSupport.AddImage)                               | Creates a new child Image.                                                        |
+| [`CopyTo`](#CylindricalSupport.CopyTo)                                   | Copies all visible properties from this object to another.                        |
+| [`CreateParameter`](#CylindricalSupport.CreateParameter)                 | Creates a new parameter for a Property.                                           |
+| [`Delete`](#CylindricalSupport.Delete)                                   | Run the Delete action.                                                            |
+| [`Duplicate`](#CylindricalSupport.Duplicate)                             | Creates a copy of the current DataModelObject.                                    |
+| [`GetChildren`](#CylindricalSupport.GetChildren)                         | Gets the list of children, filtered by type.                                      |
+| [`GetParameter`](#CylindricalSupport.GetParameter)                       | Gets the parameter corresponding to the given property.                           |
+| [`GroupAllSimilarChildren`](#CylindricalSupport.GroupAllSimilarChildren) | Run the GroupAllSimilarChildren action.                                           |
+| [`GroupSimilarObjects`](#CylindricalSupport.GroupSimilarObjects)         | Run the GroupSimilarObjects action.                                               |
+| [`PromoteToNamedSelection`](#CylindricalSupport.PromoteToNamedSelection) | Run the PromoteToNamedSelection action.                                           |
+| [`PropertyByAPIName`](#CylindricalSupport.PropertyByAPIName)             | Get a property by its API name.                                                   |
+| [`PropertyByName`](#CylindricalSupport.PropertyByName)                   | Get a property by its unique name.                                                |
+| [`RemoveParameter`](#CylindricalSupport.RemoveParameter)                 | Removes the parameter from the parameter set corresponding to the given property. |
 
 ### Properties
 
 | Name | Description |
-|---------------------------|---------------------------------------------------------------|
-| `InternalObject`          | Gets the internal object. For advanced usage only.            |
-| `Axial`                   | Gets or sets the Axial.                                       |
-| `Radial`                  | Gets or sets the Radial.                                      |
-| `Tangential`              | Gets or sets the Tangential.                                  |
-| `Location`                | Gets or sets the Location.                                    |
-| `DataModelObjectCategory` | Gets the current DataModelObject's category.                  |
-| `Suppressed`              | Gets or sets the Suppressed.                                  |
-| `SharedRefBody`           | Gets or sets the SharedRefBody.                               |
-| `Children`                | Gets the list of children.                                    |
-| `Comments`                | Gets the list of associated comments.                         |
-| `Figures`                 | Gets the list of associated figures.                          |
-| `Images`                  | Gets the list of associated images.                           |
-| `ReadOnly`                | Gets or sets the ReadOnly.                                    |
-| `InternalObject`          | Gets the internal object. For advanced usage only.            |
-| `Properties`              | Gets the list of properties for this object.                  |
-| `VisibleProperties`       | Gets the list of properties that are visible for this object. |
+|--------------------------------------------------------------------------|---------------------------------------------------------------|
+| [`Axial`](#CylindricalSupport.Axial)                                     | Gets or sets the Axial.                                       |
+| [`Children`](#CylindricalSupport.Children)                               | Gets the list of children.                                    |
+| [`Comments`](#CylindricalSupport.Comments)                               | Gets the list of associated comments.                         |
+| [`DataModelObjectCategory`](#CylindricalSupport.DataModelObjectCategory) | Gets the current DataModelObject’s category.                  |
+| [`Figures`](#CylindricalSupport.Figures)                                 | Gets the list of associated figures.                          |
+| [`Images`](#CylindricalSupport.Images)                                   | Gets the list of associated images.                           |
+| [`InternalObject`](#CylindricalSupport.InternalObject)                   | Gets the internal object. For advanced usage only.            |
+| [`Location`](#CylindricalSupport.Location)                               | Gets or sets the Location.                                    |
+| [`Properties`](#CylindricalSupport.Properties)                           | Gets the list of properties for this object.                  |
+| [`Radial`](#CylindricalSupport.Radial)                                   | Gets or sets the Radial.                                      |
+| [`ReadOnly`](#CylindricalSupport.ReadOnly)                               | Gets or sets the ReadOnly.                                    |
+| [`SharedRefBody`](#CylindricalSupport.SharedRefBody)                     | Gets or sets the SharedRefBody.                               |
+| [`Suppressed`](#CylindricalSupport.Suppressed)                           | Gets or sets the Suppressed.                                  |
+| [`Tangential`](#CylindricalSupport.Tangential)                           | Gets or sets the Tangential.                                  |
+| [`VisibleProperties`](#CylindricalSupport.VisibleProperties)             | Gets the list of properties that are visible for this object. |
 
 <a id="property-detail"></a>
 
 ## Property detail
 
-### *property* CylindricalSupport.InternalObject *: Ansys.Common.Interop.DSObjectsAuto.IDSLoadAuto | [None](https://docs.python.org/3/library/constants.html#None)*
+<a id="CylindricalSupport.Axial"></a>
 
-Gets the internal object. For advanced usage only.
-
-<!-- !! processed by numpydoc !! -->
-
-### *property* CylindricalSupport.Axial *: [Ansys.Mechanical.DataModel.Enums.FixedOrFree](../../../../../../v241/Ansys/Mechanical/DataModel/Enums/FixedOrFree.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.FixedOrFree) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* CylindricalSupport.Axial *: [Ansys.Mechanical.DataModel.Enums.FixedOrFree](../../../../Mechanical/DataModel/Enums/FixedOrFree.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.FixedOrFree) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Axial.
 
 <!-- !! processed by numpydoc !! -->
 
-### *property* CylindricalSupport.Radial *: [Ansys.Mechanical.DataModel.Enums.FixedOrFree](../../../../../../v241/Ansys/Mechanical/DataModel/Enums/FixedOrFree.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.FixedOrFree) | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the Radial.
-
-<!-- !! processed by numpydoc !! -->
-
-### *property* CylindricalSupport.Tangential *: [Ansys.Mechanical.DataModel.Enums.FixedOrFree](../../../../../../v241/Ansys/Mechanical/DataModel/Enums/FixedOrFree.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.FixedOrFree) | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the Tangential.
-
-<!-- !! processed by numpydoc !! -->
-
-### *property* CylindricalSupport.Location *: Ansys.ACT.Interfaces.Common.ISelectionInfo | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the Location.
-
-<!-- !! processed by numpydoc !! -->
-
-### *property* CylindricalSupport.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../../v241/Ansys/Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets the current DataModelObject's category.
-
-<!-- !! processed by numpydoc !! -->
-
-### *property* CylindricalSupport.Suppressed *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the Suppressed.
-
-<!-- !! processed by numpydoc !! -->
-
-### *property* CylindricalSupport.SharedRefBody *: [Ansys.ACT.Automation.Mechanical.Body](../../../../../../v241/Ansys/ACT/Automation/Mechanical/Body.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Body) | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the SharedRefBody.
-
-<!-- !! processed by numpydoc !! -->
+<a id="CylindricalSupport.Children"></a>
 
 ### *property* CylindricalSupport.Children *: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -115,11 +75,23 @@ Gets the list of children.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="CylindricalSupport.Comments"></a>
+
 ### *property* CylindricalSupport.Comments *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Comment](../../../../../../v241/Ansys/ACT/Automation/Mechanical/Comment.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated comments.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="CylindricalSupport.DataModelObjectCategory"></a>
+
+### *property* CylindricalSupport.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets the current DataModelObject’s category.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="CylindricalSupport.Figures"></a>
 
 ### *property* CylindricalSupport.Figures *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Figure](../../../../../../v241/Ansys/ACT/Automation/Mechanical/Figure.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -127,11 +99,47 @@ Gets the list of associated figures.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="CylindricalSupport.Images"></a>
+
 ### *property* CylindricalSupport.Images *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Image](../../../../../../v241/Ansys/ACT/Automation/Mechanical/Image.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated images.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="CylindricalSupport.InternalObject"></a>
+
+### *property* CylindricalSupport.InternalObject *: Ansys.Common.Interop.DSObjectsAuto.IDSLoadAuto | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets the internal object. For advanced usage only.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="CylindricalSupport.Location"></a>
+
+### *property* CylindricalSupport.Location *: Ansys.ACT.Interfaces.Common.ISelectionInfo | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the Location.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="CylindricalSupport.Properties"></a>
+
+### *property* CylindricalSupport.Properties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets the list of properties for this object.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="CylindricalSupport.Radial"></a>
+
+### *property* CylindricalSupport.Radial *: [Ansys.Mechanical.DataModel.Enums.FixedOrFree](../../../../Mechanical/DataModel/Enums/FixedOrFree.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.FixedOrFree) | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the Radial.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="CylindricalSupport.ReadOnly"></a>
 
 ### *property* CylindricalSupport.ReadOnly *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -139,17 +147,31 @@ Gets or sets the ReadOnly.
 
 <!-- !! processed by numpydoc !! -->
 
-### *property* CylindricalSupport.InternalObject *: System.Object | [None](https://docs.python.org/3/library/constants.html#None)*
+<a id="CylindricalSupport.SharedRefBody"></a>
 
-Gets the internal object. For advanced usage only.
+### *property* CylindricalSupport.SharedRefBody *: [Ansys.ACT.Automation.Mechanical.Body](../../../../../../v241/Ansys/ACT/Automation/Mechanical/Body.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Body) | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the SharedRefBody.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="CylindricalSupport.Suppressed"></a>
+
+### *property* CylindricalSupport.Suppressed *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the Suppressed.
 
 <!-- !! processed by numpydoc !! -->
 
-### *property* CylindricalSupport.Properties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
+<a id="CylindricalSupport.Tangential"></a>
 
-Gets the list of properties for this object.
+### *property* CylindricalSupport.Tangential *: [Ansys.Mechanical.DataModel.Enums.FixedOrFree](../../../../Mechanical/DataModel/Enums/FixedOrFree.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.FixedOrFree) | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the Tangential.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="CylindricalSupport.VisibleProperties"></a>
 
 ### *property* CylindricalSupport.VisibleProperties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -161,29 +183,15 @@ Gets the list of properties that are visible for this object.
 
 ## Method detail
 
-### CylindricalSupport.PromoteToNamedSelection()
+<a id="CylindricalSupport.Activate"></a>
 
-Run the PromoteToNamedSelection action.
+### CylindricalSupport.Activate()
 
-<!-- !! processed by numpydoc !! -->
-
-### CylindricalSupport.Delete()
-
-Run the Delete action.
+Activate the current object.
 
 <!-- !! processed by numpydoc !! -->
 
-### CylindricalSupport.GetChildren(recurses: System.Boolean, children: System.Collections.Generic.IList[ChildrenType])
-
-Gets the list of children, filtered by type.
-
-<!-- !! processed by numpydoc !! -->
-
-### CylindricalSupport.GetChildren(category: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../../v241/Ansys/Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory), recurses: System.Boolean, children: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject])
-
-Gets the list of children, filtered by type.
-
-<!-- !! processed by numpydoc !! -->
+<a id="CylindricalSupport.AddComment"></a>
 
 ### CylindricalSupport.AddComment()
 
@@ -191,11 +199,15 @@ Creates a new child Comment.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="CylindricalSupport.AddFigure"></a>
+
 ### CylindricalSupport.AddFigure()
 
 Creates a new child Figure.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="CylindricalSupport.AddImage"></a>
 
 ### CylindricalSupport.AddImage(filePath: System.String)
 
@@ -207,11 +219,7 @@ if not, the image will be a screen capture of the Geometry window.
 
 <!-- !! processed by numpydoc !! -->
 
-### CylindricalSupport.Activate()
-
-Activate the current object.
-
-<!-- !! processed by numpydoc !! -->
+<a id="CylindricalSupport.CopyTo"></a>
 
 ### CylindricalSupport.CopyTo(other: Ansys.ACT.Automation.Mechanical.DataModelObject)
 
@@ -219,11 +227,47 @@ Copies all visible properties from this object to another.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="CylindricalSupport.CreateParameter"></a>
+
+### CylindricalSupport.CreateParameter(propName: System.String)
+
+Creates a new parameter for a Property.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="CylindricalSupport.Delete"></a>
+
+### CylindricalSupport.Delete()
+
+Run the Delete action.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="CylindricalSupport.Duplicate"></a>
+
 ### CylindricalSupport.Duplicate()
 
 Creates a copy of the current DataModelObject.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="CylindricalSupport.GetChildren"></a>
+
+### CylindricalSupport.GetChildren(recurses: System.Boolean, children: System.Collections.Generic.IList[ChildrenType])
+
+Gets the list of children, filtered by type.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="CylindricalSupport.GetParameter"></a>
+
+### CylindricalSupport.GetParameter(propName: System.String)
+
+Gets the parameter corresponding to the given property.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="CylindricalSupport.GroupAllSimilarChildren"></a>
 
 ### CylindricalSupport.GroupAllSimilarChildren()
 
@@ -231,17 +275,23 @@ Run the GroupAllSimilarChildren action.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="CylindricalSupport.GroupSimilarObjects"></a>
+
 ### CylindricalSupport.GroupSimilarObjects()
 
 Run the GroupSimilarObjects action.
 
 <!-- !! processed by numpydoc !! -->
 
-### CylindricalSupport.PropertyByName(name: System.String)
+<a id="CylindricalSupport.PromoteToNamedSelection"></a>
 
-Get a property by its unique name.
+### CylindricalSupport.PromoteToNamedSelection()
+
+Run the PromoteToNamedSelection action.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="CylindricalSupport.PropertyByAPIName"></a>
 
 ### CylindricalSupport.PropertyByAPIName(name: System.String)
 
@@ -252,17 +302,15 @@ If multiple properties have the same API Name, only the first property with that
 
 <!-- !! processed by numpydoc !! -->
 
-### CylindricalSupport.CreateParameter(propName: System.String)
+<a id="CylindricalSupport.PropertyByName"></a>
 
-Creates a new parameter for a Property.
+### CylindricalSupport.PropertyByName(name: System.String)
 
-<!-- !! processed by numpydoc !! -->
-
-### CylindricalSupport.GetParameter(propName: System.String)
-
-Gets the parameter corresponding to the given property.
+Get a property by its unique name.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="CylindricalSupport.RemoveParameter"></a>
 
 ### CylindricalSupport.RemoveParameter(propName: System.String)
 

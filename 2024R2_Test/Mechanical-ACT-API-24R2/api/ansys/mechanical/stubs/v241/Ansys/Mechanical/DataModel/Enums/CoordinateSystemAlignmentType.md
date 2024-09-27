@@ -1,6 +1,6 @@
 # `CoordinateSystemAlignmentType`
 
-
+<a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.CoordinateSystemAlignmentType"></a>
 
 #### *class* ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.CoordinateSystemAlignmentType
 
@@ -17,15 +17,15 @@ Specifies the CoordinateSystemAlignmentType.
 ### Attributes
 
 | Name |
-| ---------------------------------------------------------------------------------------------------------------------------------------------------- |
-| [`Associative`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/CoordinateSystemAlignmentType.md#CoordinateSystemAlignmentType.Associative) |
-| [`Component`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/CoordinateSystemAlignmentType.md#CoordinateSystemAlignmentType.Component) |
-| [`Fixed`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/CoordinateSystemAlignmentType.md#CoordinateSystemAlignmentType.Fixed) |
-| [`Free`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/CoordinateSystemAlignmentType.md#CoordinateSystemAlignmentType.Free) |
-| [`GlobalX`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/CoordinateSystemAlignmentType.md#CoordinateSystemAlignmentType.GlobalX) |
-| [`GlobalY`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/CoordinateSystemAlignmentType.md#CoordinateSystemAlignmentType.GlobalY) |
-| [`GlobalZ`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/CoordinateSystemAlignmentType.md#CoordinateSystemAlignmentType.GlobalZ) |
-| [`HitPoint`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/CoordinateSystemAlignmentType.md#CoordinateSystemAlignmentType.HitPoint) |
+| --------------------------------------------------------------- |
+| [`Associative`](#CoordinateSystemAlignmentType.Associative) |
+| [`Component`](#CoordinateSystemAlignmentType.Component) |
+| [`Fixed`](#CoordinateSystemAlignmentType.Fixed) |
+| [`Free`](#CoordinateSystemAlignmentType.Free) |
+| [`GlobalX`](#CoordinateSystemAlignmentType.GlobalX) |
+| [`GlobalY`](#CoordinateSystemAlignmentType.GlobalY) |
+| [`GlobalZ`](#CoordinateSystemAlignmentType.GlobalZ) |
+| [`HitPoint`](#CoordinateSystemAlignmentType.HitPoint) |
 
 <a id="attribute-detail"></a>
 

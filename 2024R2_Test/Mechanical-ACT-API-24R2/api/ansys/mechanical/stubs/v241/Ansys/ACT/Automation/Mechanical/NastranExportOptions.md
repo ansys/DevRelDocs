@@ -1,6 +1,6 @@
 # `NastranExportOptions`
 
-
+<a id="ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.NastranExportOptions"></a>
 
 #### *class* ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.NastranExportOptions
 
@@ -17,27 +17,23 @@ Defines the NastranExportOptions.
 ### Properties
 
 | Name | Description |
-|---------------------|-------------------------------------|
-| `NastranFilename`   | Full path of Nastran export file.   |
-| `AnalysisType`      | Analysis type.                      |
-| `GridCS`            | Grid coordinate system number.      |
-| `Offset`            | Offset.                             |
-| `WTMass`            | WTMass.                             |
-| `JointStiffness`    | Joint stiffness.                    |
-| `PyramidElements`   | Pyramid elements.                   |
-| `Modes`             | Modes.                              |
-| `Time`              | Time.                               |
-| `GroundCheck`       | Ground check.                       |
+|------------------------------------------------------------|-----------------------------------|
+| [`AnalysisType`](#NastranExportOptions.AnalysisType)       | Analysis type.                    |
+| [`GridCS`](#NastranExportOptions.GridCS)                   | Grid coordinate system number.    |
+| [`GroundCheck`](#NastranExportOptions.GroundCheck)         | Ground check.                     |
+| [`JointStiffness`](#NastranExportOptions.JointStiffness)   | Joint stiffness.                  |
+| [`Modes`](#NastranExportOptions.Modes)                     | Modes.                            |
+| [`NastranFilename`](#NastranExportOptions.NastranFilename) | Full path of Nastran export file. |
+| [`Offset`](#NastranExportOptions.Offset)                   | Offset.                           |
+| [`PyramidElements`](#NastranExportOptions.PyramidElements) | Pyramid elements.                 |
+| [`Time`](#NastranExportOptions.Time)                       | Time.                             |
+| [`WTMass`](#NastranExportOptions.WTMass)                   | WTMass.                           |
 
 <a id="property-detail"></a>
 
 ## Property detail
 
-### *property* NastranExportOptions.NastranFilename *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Full path of Nastran export file.
-
-<!-- !! processed by numpydoc !! -->
+<a id="NastranExportOptions.AnalysisType"></a>
 
 ### *property* NastranExportOptions.AnalysisType *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -45,23 +41,23 @@ Analysis type.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="NastranExportOptions.GridCS"></a>
+
 ### *property* NastranExportOptions.GridCS *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Grid coordinate system number.
 
 <!-- !! processed by numpydoc !! -->
 
-### *property* NastranExportOptions.Offset *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+<a id="NastranExportOptions.GroundCheck"></a>
 
-Offset.
+### *property* NastranExportOptions.GroundCheck *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
 
-<!-- !! processed by numpydoc !! -->
-
-### *property* NastranExportOptions.WTMass *: System.Double | [None](https://docs.python.org/3/library/constants.html#None)*
-
-WTMass.
+Ground check.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="NastranExportOptions.JointStiffness"></a>
 
 ### *property* NastranExportOptions.JointStiffness *: System.Double | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -69,11 +65,7 @@ Joint stiffness.
 
 <!-- !! processed by numpydoc !! -->
 
-### *property* NastranExportOptions.PyramidElements *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Pyramid elements.
-
-<!-- !! processed by numpydoc !! -->
+<a id="NastranExportOptions.Modes"></a>
 
 ### *property* NastranExportOptions.Modes *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -81,15 +73,43 @@ Modes.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="NastranExportOptions.NastranFilename"></a>
+
+### *property* NastranExportOptions.NastranFilename *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Full path of Nastran export file.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="NastranExportOptions.Offset"></a>
+
+### *property* NastranExportOptions.Offset *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Offset.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="NastranExportOptions.PyramidElements"></a>
+
+### *property* NastranExportOptions.PyramidElements *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Pyramid elements.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="NastranExportOptions.Time"></a>
+
 ### *property* NastranExportOptions.Time *: System.Double | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Time.
 
 <!-- !! processed by numpydoc !! -->
 
-### *property* NastranExportOptions.GroundCheck *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+<a id="NastranExportOptions.WTMass"></a>
 
-Ground check.
+### *property* NastranExportOptions.WTMass *: System.Double | [None](https://docs.python.org/3/library/constants.html#None)*
+
+WTMass.
 
 <!-- !! processed by numpydoc !! -->
 

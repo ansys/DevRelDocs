@@ -1,6 +1,6 @@
 # `IMechanicalUserSolver`
 
-
+<a id="ansys.mechanical.stubs.v242.Ansys.ACT.Interfaces.Mechanical.IMechanicalUserSolver"></a>
 
 #### *class* ansys.mechanical.stubs.v242.Ansys.ACT.Interfaces.Mechanical.IMechanicalUserSolver
 

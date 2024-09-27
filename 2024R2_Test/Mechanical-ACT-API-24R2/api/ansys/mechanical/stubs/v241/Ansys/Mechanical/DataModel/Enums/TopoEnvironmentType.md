@@ -1,6 +1,6 @@
 # `TopoEnvironmentType`
 
-
+<a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.TopoEnvironmentType"></a>
 
 #### *class* ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.TopoEnvironmentType
 
@@ -17,25 +17,25 @@ Specifies the Topology Environment Type.
 ### Attributes
 
 | Name |
-| ---------------------------------------------------------------------------------------------------------------------------------------------- |
-| [`Unknown`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/TopoEnvironmentType.md#TopoEnvironmentType.Unknown) |
-| [`AllStaticStructural`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/TopoEnvironmentType.md#TopoEnvironmentType.AllStaticStructural) |
-| [`AllModal`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/TopoEnvironmentType.md#TopoEnvironmentType.AllModal) |
+| ------------------------------------------------------------------- |
+| [`AllModal`](#TopoEnvironmentType.AllModal) |
+| [`AllStaticStructural`](#TopoEnvironmentType.AllStaticStructural) |
+| [`Unknown`](#TopoEnvironmentType.Unknown) |
 
 <a id="attribute-detail"></a>
 
 ## Attribute detail
 
-<a id="TopoEnvironmentType.Unknown"></a>
+<a id="TopoEnvironmentType.AllModal"></a>
 
-### TopoEnvironmentType.Unknown *= 0*
+### TopoEnvironmentType.AllModal *= 2*
 
 <a id="TopoEnvironmentType.AllStaticStructural"></a>
 
 ### TopoEnvironmentType.AllStaticStructural *= 1*
 
-<a id="TopoEnvironmentType.AllModal"></a>
+<a id="TopoEnvironmentType.Unknown"></a>
 
-### TopoEnvironmentType.AllModal *= 2*
+### TopoEnvironmentType.Unknown *= 0*
 
 

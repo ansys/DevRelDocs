@@ -1,6 +1,6 @@
 # `GenericPointMass`
 
-
+<a id="ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.GenericPointMass"></a>
 
 #### *class* ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.GenericPointMass
 
@@ -17,76 +17,46 @@ Defines a GenericPointMass.
 ### Methods
 
 | Name | Description |
-|---------------------------|-----------------------------------------------------------------------------------|
-| `AddCommandSnippet`       | Creates a new CommandSnippet                                                      |
-| `Delete`                  | Run the Delete action.                                                            |
-| `GetChildren`             | Gets the list of children, filtered by type.                                      |
-| `GetChildren`             | Gets the list of children, filtered by type.                                      |
-| `AddComment`              | Creates a new child Comment.                                                      |
-| `AddFigure`               | Creates a new child Figure.                                                       |
-| `AddImage`                | Creates a new child Image.                                                        |
-| `Activate`                | Activate the current object.                                                      |
-| `CopyTo`                  | Copies all visible properties from this object to another.                        |
-| `Duplicate`               | Creates a copy of the current DataModelObject.                                    |
-| `GroupAllSimilarChildren` | Run the GroupAllSimilarChildren action.                                           |
-| `GroupSimilarObjects`     | Run the GroupSimilarObjects action.                                               |
-| `PropertyByName`          | Get a property by its unique name.                                                |
-| `PropertyByAPIName`       | Get a property by its API name.                                                   |
-| `CreateParameter`         | Creates a new parameter for a Property.                                           |
-| `GetParameter`            | Gets the parameter corresponding to the given property.                           |
-| `RemoveParameter`         | Removes the parameter from the parameter set corresponding to the given property. |
+|------------------------------------------------------------------------|-----------------------------------------------------------------------------------|
+| [`Activate`](#GenericPointMass.Activate)                               | Activate the current object.                                                      |
+| [`AddCommandSnippet`](#GenericPointMass.AddCommandSnippet)             | Creates a new CommandSnippet                                                      |
+| [`AddComment`](#GenericPointMass.AddComment)                           | Creates a new child Comment.                                                      |
+| [`AddFigure`](#GenericPointMass.AddFigure)                             | Creates a new child Figure.                                                       |
+| [`AddImage`](#GenericPointMass.AddImage)                               | Creates a new child Image.                                                        |
+| [`CopyTo`](#GenericPointMass.CopyTo)                                   | Copies all visible properties from this object to another.                        |
+| [`CreateParameter`](#GenericPointMass.CreateParameter)                 | Creates a new parameter for a Property.                                           |
+| [`Delete`](#GenericPointMass.Delete)                                   | Run the Delete action.                                                            |
+| [`Duplicate`](#GenericPointMass.Duplicate)                             | Creates a copy of the current DataModelObject.                                    |
+| [`GetChildren`](#GenericPointMass.GetChildren)                         | Gets the list of children, filtered by type.                                      |
+| [`GetParameter`](#GenericPointMass.GetParameter)                       | Gets the parameter corresponding to the given property.                           |
+| [`GroupAllSimilarChildren`](#GenericPointMass.GroupAllSimilarChildren) | Run the GroupAllSimilarChildren action.                                           |
+| [`GroupSimilarObjects`](#GenericPointMass.GroupSimilarObjects)         | Run the GroupSimilarObjects action.                                               |
+| [`PropertyByAPIName`](#GenericPointMass.PropertyByAPIName)             | Get a property by its API name.                                                   |
+| [`PropertyByName`](#GenericPointMass.PropertyByName)                   | Get a property by its unique name.                                                |
+| [`RemoveParameter`](#GenericPointMass.RemoveParameter)                 | Removes the parameter from the parameter set corresponding to the given property. |
 
 ### Properties
 
 | Name | Description |
-|---------------------------|---------------------------------------------------------------|
-| `RemotePoint`             | Gets the remote point associated to the point mass.           |
-| `IsDistributedMass`       | Gets the IsDistributedMass.                                   |
-| `Location`                | Gets or sets the Geometry.                                    |
-| `InternalObject`          | Gets the internal object. For advanced usage only.            |
-| `DataModelObjectCategory` | Gets the current DataModelObject's category.                  |
-| `Children`                | Gets the list of children.                                    |
-| `Comments`                | Gets the list of associated comments.                         |
-| `Figures`                 | Gets the list of associated figures.                          |
-| `Images`                  | Gets the list of associated images.                           |
-| `ReadOnly`                | Gets or sets the ReadOnly.                                    |
-| `InternalObject`          | Gets the internal object. For advanced usage only.            |
-| `Properties`              | Gets the list of properties for this object.                  |
-| `VisibleProperties`       | Gets the list of properties that are visible for this object. |
+|------------------------------------------------------------------------|---------------------------------------------------------------|
+| [`Children`](#GenericPointMass.Children)                               | Gets the list of children.                                    |
+| [`Comments`](#GenericPointMass.Comments)                               | Gets the list of associated comments.                         |
+| [`DataModelObjectCategory`](#GenericPointMass.DataModelObjectCategory) | Gets the current DataModelObject’s category.                  |
+| [`Figures`](#GenericPointMass.Figures)                                 | Gets the list of associated figures.                          |
+| [`Images`](#GenericPointMass.Images)                                   | Gets the list of associated images.                           |
+| [`InternalObject`](#GenericPointMass.InternalObject)                   | Gets the internal object. For advanced usage only.            |
+| [`IsDistributedMass`](#GenericPointMass.IsDistributedMass)             | Gets the IsDistributedMass.                                   |
+| [`Location`](#GenericPointMass.Location)                               | Gets or sets the Geometry.                                    |
+| [`Properties`](#GenericPointMass.Properties)                           | Gets the list of properties for this object.                  |
+| [`ReadOnly`](#GenericPointMass.ReadOnly)                               | Gets or sets the ReadOnly.                                    |
+| [`RemotePoint`](#GenericPointMass.RemotePoint)                         | Gets the remote point associated to the point mass.           |
+| [`VisibleProperties`](#GenericPointMass.VisibleProperties)             | Gets the list of properties that are visible for this object. |
 
 <a id="property-detail"></a>
 
 ## Property detail
 
-### *property* GenericPointMass.RemotePoint *: [Ansys.ACT.Automation.Mechanical.RemotePoint](../../../../../v241/Ansys/ACT/Automation/Mechanical/RemotePoint.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.RemotePoint) | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets the remote point associated to the point mass.
-
-<!-- !! processed by numpydoc !! -->
-
-### *property* GenericPointMass.IsDistributedMass *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets the IsDistributedMass.
-
-<!-- !! processed by numpydoc !! -->
-
-### *property* GenericPointMass.Location *: Ansys.ACT.Interfaces.Common.ISelectionInfo | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the Geometry.
-
-<!-- !! processed by numpydoc !! -->
-
-### *property* GenericPointMass.InternalObject *: Ansys.Common.Interop.DSObjectsAuto.IDSPointMassAuto | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets the internal object. For advanced usage only.
-
-<!-- !! processed by numpydoc !! -->
-
-### *property* GenericPointMass.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../v241/Ansys/Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets the current DataModelObject's category.
-
-<!-- !! processed by numpydoc !! -->
+<a id="GenericPointMass.Children"></a>
 
 ### *property* GenericPointMass.Children *: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -94,11 +64,23 @@ Gets the list of children.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="GenericPointMass.Comments"></a>
+
 ### *property* GenericPointMass.Comments *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Comment](../../../../../v241/Ansys/ACT/Automation/Mechanical/Comment.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated comments.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="GenericPointMass.DataModelObjectCategory"></a>
+
+### *property* GenericPointMass.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets the current DataModelObject’s category.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="GenericPointMass.Figures"></a>
 
 ### *property* GenericPointMass.Figures *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Figure](../../../../../v241/Ansys/ACT/Automation/Mechanical/Figure.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -106,11 +88,47 @@ Gets the list of associated figures.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="GenericPointMass.Images"></a>
+
 ### *property* GenericPointMass.Images *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Image](../../../../../v241/Ansys/ACT/Automation/Mechanical/Image.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated images.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="GenericPointMass.InternalObject"></a>
+
+### *property* GenericPointMass.InternalObject *: Ansys.Common.Interop.DSObjectsAuto.IDSPointMassAuto | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets the internal object. For advanced usage only.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="GenericPointMass.IsDistributedMass"></a>
+
+### *property* GenericPointMass.IsDistributedMass *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets the IsDistributedMass.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="GenericPointMass.Location"></a>
+
+### *property* GenericPointMass.Location *: Ansys.ACT.Interfaces.Common.ISelectionInfo | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the Geometry.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="GenericPointMass.Properties"></a>
+
+### *property* GenericPointMass.Properties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets the list of properties for this object.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="GenericPointMass.ReadOnly"></a>
 
 ### *property* GenericPointMass.ReadOnly *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -118,17 +136,15 @@ Gets or sets the ReadOnly.
 
 <!-- !! processed by numpydoc !! -->
 
-### *property* GenericPointMass.InternalObject *: System.Object | [None](https://docs.python.org/3/library/constants.html#None)*
+<a id="GenericPointMass.RemotePoint"></a>
 
-Gets the internal object. For advanced usage only.
+### *property* GenericPointMass.RemotePoint *: [Ansys.ACT.Automation.Mechanical.RemotePoint](RemotePoint.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.RemotePoint) | [None](https://docs.python.org/3/library/constants.html#None)*
 
-<!-- !! processed by numpydoc !! -->
-
-### *property* GenericPointMass.Properties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets the list of properties for this object.
+Gets the remote point associated to the point mass.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="GenericPointMass.VisibleProperties"></a>
 
 ### *property* GenericPointMass.VisibleProperties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -140,29 +156,23 @@ Gets the list of properties that are visible for this object.
 
 ## Method detail
 
+<a id="GenericPointMass.Activate"></a>
+
+### GenericPointMass.Activate()
+
+Activate the current object.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="GenericPointMass.AddCommandSnippet"></a>
+
 ### GenericPointMass.AddCommandSnippet()
 
 Creates a new CommandSnippet
 
 <!-- !! processed by numpydoc !! -->
 
-### GenericPointMass.Delete()
-
-Run the Delete action.
-
-<!-- !! processed by numpydoc !! -->
-
-### GenericPointMass.GetChildren(recurses: System.Boolean, children: System.Collections.Generic.IList[ChildrenType])
-
-Gets the list of children, filtered by type.
-
-<!-- !! processed by numpydoc !! -->
-
-### GenericPointMass.GetChildren(category: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../v241/Ansys/Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory), recurses: System.Boolean, children: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject])
-
-Gets the list of children, filtered by type.
-
-<!-- !! processed by numpydoc !! -->
+<a id="GenericPointMass.AddComment"></a>
 
 ### GenericPointMass.AddComment()
 
@@ -170,11 +180,15 @@ Creates a new child Comment.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="GenericPointMass.AddFigure"></a>
+
 ### GenericPointMass.AddFigure()
 
 Creates a new child Figure.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="GenericPointMass.AddImage"></a>
 
 ### GenericPointMass.AddImage(filePath: System.String)
 
@@ -186,11 +200,7 @@ if not, the image will be a screen capture of the Geometry window.
 
 <!-- !! processed by numpydoc !! -->
 
-### GenericPointMass.Activate()
-
-Activate the current object.
-
-<!-- !! processed by numpydoc !! -->
+<a id="GenericPointMass.CopyTo"></a>
 
 ### GenericPointMass.CopyTo(other: Ansys.ACT.Automation.Mechanical.DataModelObject)
 
@@ -198,11 +208,47 @@ Copies all visible properties from this object to another.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="GenericPointMass.CreateParameter"></a>
+
+### GenericPointMass.CreateParameter(propName: System.String)
+
+Creates a new parameter for a Property.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="GenericPointMass.Delete"></a>
+
+### GenericPointMass.Delete()
+
+Run the Delete action.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="GenericPointMass.Duplicate"></a>
+
 ### GenericPointMass.Duplicate()
 
 Creates a copy of the current DataModelObject.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="GenericPointMass.GetChildren"></a>
+
+### GenericPointMass.GetChildren(recurses: System.Boolean, children: System.Collections.Generic.IList[ChildrenType])
+
+Gets the list of children, filtered by type.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="GenericPointMass.GetParameter"></a>
+
+### GenericPointMass.GetParameter(propName: System.String)
+
+Gets the parameter corresponding to the given property.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="GenericPointMass.GroupAllSimilarChildren"></a>
 
 ### GenericPointMass.GroupAllSimilarChildren()
 
@@ -210,17 +256,15 @@ Run the GroupAllSimilarChildren action.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="GenericPointMass.GroupSimilarObjects"></a>
+
 ### GenericPointMass.GroupSimilarObjects()
 
 Run the GroupSimilarObjects action.
 
 <!-- !! processed by numpydoc !! -->
 
-### GenericPointMass.PropertyByName(name: System.String)
-
-Get a property by its unique name.
-
-<!-- !! processed by numpydoc !! -->
+<a id="GenericPointMass.PropertyByAPIName"></a>
 
 ### GenericPointMass.PropertyByAPIName(name: System.String)
 
@@ -231,17 +275,15 @@ If multiple properties have the same API Name, only the first property with that
 
 <!-- !! processed by numpydoc !! -->
 
-### GenericPointMass.CreateParameter(propName: System.String)
+<a id="GenericPointMass.PropertyByName"></a>
 
-Creates a new parameter for a Property.
+### GenericPointMass.PropertyByName(name: System.String)
 
-<!-- !! processed by numpydoc !! -->
-
-### GenericPointMass.GetParameter(propName: System.String)
-
-Gets the parameter corresponding to the given property.
+Get a property by its unique name.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="GenericPointMass.RemoveParameter"></a>
 
 ### GenericPointMass.RemoveParameter(propName: System.String)
 

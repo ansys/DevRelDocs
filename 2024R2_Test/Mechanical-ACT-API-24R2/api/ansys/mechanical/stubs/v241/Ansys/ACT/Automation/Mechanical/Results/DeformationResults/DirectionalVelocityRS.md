@@ -1,6 +1,6 @@
 # `DirectionalVelocityRS`
 
-
+<a id="ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Results.DeformationResults.DirectionalVelocityRS"></a>
 
 #### *class* ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Results.DeformationResults.DirectionalVelocityRS
 
@@ -17,260 +17,122 @@ Defines a DirectionalVelocityRS.
 ### Methods
 
 | Name | Description |
-|---------------------------|-----------------------------------------------------------------------------------|
-| `ClearGeneratedData`      | Run the ClearGeneratedData action.                                                |
-| `EvaluateAllResults`      | Run the EvaluateAllResults action.                                                |
-| `FetchRemoteResults`      | Run the FetchRemoteResult action.                                                 |
-| `ExportToTextFile`        | Run the ExportToTextFile action.                                                  |
-| `ExportAnimation`         | Run the ExportAnimation action.                                                   |
-| `DuplicateWithoutResults` | Run the DuplicateWithoutResults action.                                           |
-| `CreateResultsAtAllSets`  | Creates results at all sets for results under a solution.                         |
-| `PromoteToNamedSelection` | Run the PromoteToNamedSelection action.                                           |
-| `CreateParameter`         | CreateParameter method.                                                           |
-| `AddAlert`                | Creates a new Alert                                                               |
-| `AddConvergence`          | Creates a new Convergence                                                         |
-| `RenameBasedOnDefinition` | Run the RenameBasedOnDefinition action.                                           |
-| `Delete`                  | Run the Delete action.                                                            |
-| `GetChildren`             | Gets the list of children, filtered by type.                                      |
-| `GetChildren`             | Gets the list of children, filtered by type.                                      |
-| `AddComment`              | Creates a new child Comment.                                                      |
-| `AddFigure`               | Creates a new child Figure.                                                       |
-| `AddImage`                | Creates a new child Image.                                                        |
-| `Activate`                | Activate the current object.                                                      |
-| `CopyTo`                  | Copies all visible properties from this object to another.                        |
-| `Duplicate`               | Creates a copy of the current DataModelObject.                                    |
-| `GroupAllSimilarChildren` | Run the GroupAllSimilarChildren action.                                           |
-| `GroupSimilarObjects`     | Run the GroupSimilarObjects action.                                               |
-| `PropertyByName`          | Get a property by its unique name.                                                |
-| `PropertyByAPIName`       | Get a property by its API name.                                                   |
-| `GetParameter`            | Gets the parameter corresponding to the given property.                           |
-| `RemoveParameter`         | Removes the parameter from the parameter set corresponding to the given property. |
+|-----------------------------------------------------------------------------|-----------------------------------------------------------------------------------|
+| [`Activate`](#DirectionalVelocityRS.Activate)                               | Activate the current object.                                                      |
+| [`AddAlert`](#DirectionalVelocityRS.AddAlert)                               | Creates a new Alert                                                               |
+| [`AddComment`](#DirectionalVelocityRS.AddComment)                           | Creates a new child Comment.                                                      |
+| [`AddConvergence`](#DirectionalVelocityRS.AddConvergence)                   | Creates a new Convergence                                                         |
+| [`AddFigure`](#DirectionalVelocityRS.AddFigure)                             | Creates a new child Figure.                                                       |
+| [`AddImage`](#DirectionalVelocityRS.AddImage)                               | Creates a new child Image.                                                        |
+| [`ClearGeneratedData`](#DirectionalVelocityRS.ClearGeneratedData)           | Run the ClearGeneratedData action.                                                |
+| [`CopyTo`](#DirectionalVelocityRS.CopyTo)                                   | Copies all visible properties from this object to another.                        |
+| [`CreateParameter`](#DirectionalVelocityRS.CreateParameter)                 | CreateParameter method.                                                           |
+| [`CreateResultsAtAllSets`](#DirectionalVelocityRS.CreateResultsAtAllSets)   | Creates results at all sets for results under a solution.                         |
+| [`Delete`](#DirectionalVelocityRS.Delete)                                   | Run the Delete action.                                                            |
+| [`Duplicate`](#DirectionalVelocityRS.Duplicate)                             | Creates a copy of the current DataModelObject.                                    |
+| [`DuplicateWithoutResults`](#DirectionalVelocityRS.DuplicateWithoutResults) | Run the DuplicateWithoutResults action.                                           |
+| [`EvaluateAllResults`](#DirectionalVelocityRS.EvaluateAllResults)           | Run the EvaluateAllResults action.                                                |
+| [`ExportAnimation`](#DirectionalVelocityRS.ExportAnimation)                 | Run the ExportAnimation action.                                                   |
+| [`ExportToTextFile`](#DirectionalVelocityRS.ExportToTextFile)               | Run the ExportToTextFile action.                                                  |
+| [`FetchRemoteResults`](#DirectionalVelocityRS.FetchRemoteResults)           | Run the FetchRemoteResult action.                                                 |
+| [`GetChildren`](#DirectionalVelocityRS.GetChildren)                         | Gets the list of children, filtered by type.                                      |
+| [`GetParameter`](#DirectionalVelocityRS.GetParameter)                       | Gets the parameter corresponding to the given property.                           |
+| [`GroupAllSimilarChildren`](#DirectionalVelocityRS.GroupAllSimilarChildren) | Run the GroupAllSimilarChildren action.                                           |
+| [`GroupSimilarObjects`](#DirectionalVelocityRS.GroupSimilarObjects)         | Run the GroupSimilarObjects action.                                               |
+| [`PromoteToNamedSelection`](#DirectionalVelocityRS.PromoteToNamedSelection) | Run the PromoteToNamedSelection action.                                           |
+| [`PropertyByAPIName`](#DirectionalVelocityRS.PropertyByAPIName)             | Get a property by its API name.                                                   |
+| [`PropertyByName`](#DirectionalVelocityRS.PropertyByName)                   | Get a property by its unique name.                                                |
+| [`RemoveParameter`](#DirectionalVelocityRS.RemoveParameter)                 | Removes the parameter from the parameter set corresponding to the given property. |
+| [`RenameBasedOnDefinition`](#DirectionalVelocityRS.RenameBasedOnDefinition) | Run the RenameBasedOnDefinition action.                                           |
 
 ### Properties
 
 | Name | Description |
-|-------------------------------------|------------------------------------------------------------------------|
-| `InternalObject`                    | Gets the internal object. For advanced usage only.                     |
-| `NormalOrientation`                 | Gets or sets the NormalOrientation.                                    |
-| `DataModelObjectCategory`           | Gets the current DataModelObject's category.                           |
-| `Mode`                              | Gets or sets the Mode.                                                 |
-| `ReportedFrequency`                 | Gets the ReportedFrequency.                                            |
-| `DampedFrequency`                   | Gets the DampedFrequency.                                              |
-| `EnvironmentSelection`              | Gets or sets the EnvironmentSelection.                                 |
-| `LogarithmicDecrement`              | Gets the LogarithmicDecrement.                                         |
-| `ModalDampingRatio`                 | Gets the ModalDampingRatio.                                            |
-| `HarmonicIndex`                     | Gets or sets the HarmonicIndex.                                        |
-| `CyclicMode`                        | Gets or sets the CyclicMode.                                           |
-| `IterationStep`                     | Gets or sets the IterationStep.                                        |
-| `LoadMultiplier`                    | Gets the LoadMultiplier.                                               |
-| `Probability`                       | Gets the Probability.                                                  |
-| `ScaleFactorValue`                  | Gets or sets the ScaleFactorValue.                                     |
-| `Stability`                         | Gets the Stability.                                                    |
-| `CyclicPhase`                       | Gets or sets the CyclicPhase.                                          |
-| `SweepingPhase`                     | Gets or sets the SweepingPhase.                                        |
-| `PhaseIncrement`                    | Gets or sets the PhaseIncrement.                                       |
-| `Frequency`                         | Gets or sets the Frequency.                                            |
-| `DeformationType`                   | Gets or sets the DeformationType.                                      |
-| `Reference`                         | Gets the Reference.                                                    |
-| `ScaleFactor`                       | Gets or sets the ScaleFactor.                                          |
-| `AccelerationInG`                   | Gets or sets the AccelerationInG.                                      |
-| `Amplitude`                         | Gets or sets the Amplitude.                                            |
-| `AllowPhaseSweep`                   | Gets or sets the AllowPhaseSweep.                                      |
-| `PlotData`                          | Gets the result table.                                                 |
-| `Location`                          | Gets or sets the Location.                                             |
-| `TimeForMinimumOfMinimumValues`     | Get the Time for the minimum of minimum values.                        |
-| `TimeForMinimumOfMaximumValues`     | Get the Time for the minimum of maximum values.                        |
-| `LoadStepForMinimumOfMinimumValues` | Get the Load Step for the minimum of minimum values.                   |
-| `LoadStepForMinimumOfMaximumValues` | Get the Load Step for the minimum of maximum values.                   |
-| `TimeForMaximumOfMinimumValues`     | Get the Time for the maximum of minimum values.                        |
-| `TimeForMaximumOfMaximumValues`     | Get the Time for the maximum of maximum values.                        |
-| `LoadStepForMaximumOfMinimumValues` | Get the Load Step for the maximum of minimum values.                   |
-| `LoadStepForMaximumOfMaximumValues` | Get the Load Step for the maximum of maximum values.                   |
-| `IsSolved`                          | Gets the IsSolved.                                                     |
-| `CoordinateSystem`                  | Gets or sets the Coordinate System.                                    |
-| `ScopingMethod`                     | Gets or sets the ScopingMethod.                                        |
-| `SetNumber`                         | Gets or sets the Set Number.                                           |
-| `CombinationNumber`                 | Gets or sets the Combination Number for a Solution Combination result. |
-| `SolutionCombinationDriver`         | Gets or sets the SolutionCombinationDriver.                            |
-| `Path`                              | Path property.                                                         |
-| `Surface`                           | Surface property.                                                      |
-| `NamedSelections`                   | Gets or sets the NamedSelections.                                      |
-| `WaterfallPanelShowTextOnMosaic`    | Gets or sets the Waterfall Panel Mosaic Text Property.                 |
-| `CrackFrontNumber`                  | Gets or sets the CrackFrontNumber.                                     |
-| `GlobalIDs`                         | Gets or sets the GlobalIDs.                                            |
-| `Identifier`                        | Gets or sets the Identifier.                                           |
-| `IterationNumber`                   | Gets the IterationNumber.                                              |
-| `LoadStep`                          | Gets the LoadStep.                                                     |
-| `MaximumOccursOn`                   | Gets the MaximumOccursOn.                                              |
-| `MinimumOccursOn`                   | Gets the MinimumOccursOn.                                              |
-| `LoadStepNumber`                    | Gets or sets the LoadStepNumber.                                       |
-| `SolverComponentIDs`                | Gets or sets the SolverComponentIDs.                                   |
-| `Substep`                           | Gets the Substep.                                                      |
-| `Average`                           | Gets the Average.                                                      |
-| `Maximum`                           | Gets the Maximum.                                                      |
-| `MaximumOfMaximumOverTime`          | Gets the MaximumOfMaximumOverTime.                                     |
-| `MaximumOfMinimumOverTime`          | Gets the MaximumOfMinimumOverTime.                                     |
-| `Minimum`                           | Gets the Minimum.                                                      |
-| `MinimumOfMaximumOverTime`          | Gets the MinimumOfMaximumOverTime.                                     |
-| `MinimumOfMinimumOverTime`          | Gets the MinimumOfMinimumOverTime.                                     |
-| `Time`                              | Gets the Time.                                                         |
-| `DisplayTime`                       | Gets or sets the DisplayTime.                                          |
-| `GraphControlsXAxis`                | Gets or sets the GraphControlsXAxis.                                   |
-| `DisplayOption`                     | Gets or sets the DisplayOption.                                        |
-| `DpfEvaluation`                     | Gets or sets the DpfEvaluation.                                        |
-| `By`                                | Gets or sets the By.                                                   |
-| `ItemType`                          | Gets or sets the ItemType.                                             |
-| `CalculateTimeHistory`              | Gets or sets the CalculateTimeHistory.                                 |
-| `Suppressed`                        | Gets or sets the Suppressed.                                           |
-| `Children`                          | Gets the list of children.                                             |
-| `Comments`                          | Gets the list of associated comments.                                  |
-| `Figures`                           | Gets the list of associated figures.                                   |
-| `Images`                            | Gets the list of associated images.                                    |
-| `InternalObject`                    | Gets the internal object. For advanced usage only.                     |
-| `Properties`                        | Gets the list of properties for this object.                           |
-| `VisibleProperties`                 | Gets the list of properties that are visible for this object.          |
+|-------------------------------------------------------------------------------------------------|------------------------------------------------------------------------|
+| [`AccelerationInG`](#DirectionalVelocityRS.AccelerationInG)                                     | Gets or sets the AccelerationInG.                                      |
+| [`AllowPhaseSweep`](#DirectionalVelocityRS.AllowPhaseSweep)                                     | Gets or sets the AllowPhaseSweep.                                      |
+| [`Amplitude`](#DirectionalVelocityRS.Amplitude)                                                 | Gets or sets the Amplitude.                                            |
+| [`Average`](#DirectionalVelocityRS.Average)                                                     | Gets the Average.                                                      |
+| [`By`](#DirectionalVelocityRS.By)                                                               | Gets or sets the By.                                                   |
+| [`CalculateTimeHistory`](#DirectionalVelocityRS.CalculateTimeHistory)                           | Gets or sets the CalculateTimeHistory.                                 |
+| [`Children`](#DirectionalVelocityRS.Children)                                                   | Gets the list of children.                                             |
+| [`CombinationNumber`](#DirectionalVelocityRS.CombinationNumber)                                 | Gets or sets the Combination Number for a Solution Combination result. |
+| [`Comments`](#DirectionalVelocityRS.Comments)                                                   | Gets the list of associated comments.                                  |
+| [`CoordinateSystem`](#DirectionalVelocityRS.CoordinateSystem)                                   | Gets or sets the Coordinate System.                                    |
+| [`CrackFrontNumber`](#DirectionalVelocityRS.CrackFrontNumber)                                   | Gets or sets the CrackFrontNumber.                                     |
+| [`CyclicMode`](#DirectionalVelocityRS.CyclicMode)                                               | Gets or sets the CyclicMode.                                           |
+| [`CyclicPhase`](#DirectionalVelocityRS.CyclicPhase)                                             | Gets or sets the CyclicPhase.                                          |
+| [`DampedFrequency`](#DirectionalVelocityRS.DampedFrequency)                                     | Gets the DampedFrequency.                                              |
+| [`DataModelObjectCategory`](#DirectionalVelocityRS.DataModelObjectCategory)                     | Gets the current DataModelObject’s category.                           |
+| [`DeformationType`](#DirectionalVelocityRS.DeformationType)                                     | Gets or sets the DeformationType.                                      |
+| [`DisplayOption`](#DirectionalVelocityRS.DisplayOption)                                         | Gets or sets the DisplayOption.                                        |
+| [`DisplayTime`](#DirectionalVelocityRS.DisplayTime)                                             | Gets or sets the DisplayTime.                                          |
+| [`DpfEvaluation`](#DirectionalVelocityRS.DpfEvaluation)                                         | Gets or sets the DpfEvaluation.                                        |
+| [`EnvironmentSelection`](#DirectionalVelocityRS.EnvironmentSelection)                           | Gets or sets the EnvironmentSelection.                                 |
+| [`Figures`](#DirectionalVelocityRS.Figures)                                                     | Gets the list of associated figures.                                   |
+| [`Frequency`](#DirectionalVelocityRS.Frequency)                                                 | Gets or sets the Frequency.                                            |
+| [`GlobalIDs`](#DirectionalVelocityRS.GlobalIDs)                                                 | Gets or sets the GlobalIDs.                                            |
+| [`GraphControlsXAxis`](#DirectionalVelocityRS.GraphControlsXAxis)                               | Gets or sets the GraphControlsXAxis.                                   |
+| [`HarmonicIndex`](#DirectionalVelocityRS.HarmonicIndex)                                         | Gets or sets the HarmonicIndex.                                        |
+| [`Identifier`](#DirectionalVelocityRS.Identifier)                                               | Gets or sets the Identifier.                                           |
+| [`Images`](#DirectionalVelocityRS.Images)                                                       | Gets the list of associated images.                                    |
+| [`InternalObject`](#DirectionalVelocityRS.InternalObject)                                       | Gets the internal object. For advanced usage only.                     |
+| [`IsSolved`](#DirectionalVelocityRS.IsSolved)                                                   | Gets the IsSolved.                                                     |
+| [`ItemType`](#DirectionalVelocityRS.ItemType)                                                   | Gets or sets the ItemType.                                             |
+| [`IterationNumber`](#DirectionalVelocityRS.IterationNumber)                                     | Gets the IterationNumber.                                              |
+| [`IterationStep`](#DirectionalVelocityRS.IterationStep)                                         | Gets or sets the IterationStep.                                        |
+| [`LoadMultiplier`](#DirectionalVelocityRS.LoadMultiplier)                                       | Gets the LoadMultiplier.                                               |
+| [`LoadStep`](#DirectionalVelocityRS.LoadStep)                                                   | Gets the LoadStep.                                                     |
+| [`LoadStepForMaximumOfMaximumValues`](#DirectionalVelocityRS.LoadStepForMaximumOfMaximumValues) | Get the Load Step for the maximum of maximum values.                   |
+| [`LoadStepForMaximumOfMinimumValues`](#DirectionalVelocityRS.LoadStepForMaximumOfMinimumValues) | Get the Load Step for the maximum of minimum values.                   |
+| [`LoadStepForMinimumOfMaximumValues`](#DirectionalVelocityRS.LoadStepForMinimumOfMaximumValues) | Get the Load Step for the minimum of maximum values.                   |
+| [`LoadStepForMinimumOfMinimumValues`](#DirectionalVelocityRS.LoadStepForMinimumOfMinimumValues) | Get the Load Step for the minimum of minimum values.                   |
+| [`LoadStepNumber`](#DirectionalVelocityRS.LoadStepNumber)                                       | Gets or sets the LoadStepNumber.                                       |
+| [`Location`](#DirectionalVelocityRS.Location)                                                   | Gets or sets the Location.                                             |
+| [`LogarithmicDecrement`](#DirectionalVelocityRS.LogarithmicDecrement)                           | Gets the LogarithmicDecrement.                                         |
+| [`Maximum`](#DirectionalVelocityRS.Maximum)                                                     | Gets the Maximum.                                                      |
+| [`MaximumOccursOn`](#DirectionalVelocityRS.MaximumOccursOn)                                     | Gets the MaximumOccursOn.                                              |
+| [`MaximumOfMaximumOverTime`](#DirectionalVelocityRS.MaximumOfMaximumOverTime)                   | Gets the MaximumOfMaximumOverTime.                                     |
+| [`MaximumOfMinimumOverTime`](#DirectionalVelocityRS.MaximumOfMinimumOverTime)                   | Gets the MaximumOfMinimumOverTime.                                     |
+| [`Minimum`](#DirectionalVelocityRS.Minimum)                                                     | Gets the Minimum.                                                      |
+| [`MinimumOccursOn`](#DirectionalVelocityRS.MinimumOccursOn)                                     | Gets the MinimumOccursOn.                                              |
+| [`MinimumOfMaximumOverTime`](#DirectionalVelocityRS.MinimumOfMaximumOverTime)                   | Gets the MinimumOfMaximumOverTime.                                     |
+| [`MinimumOfMinimumOverTime`](#DirectionalVelocityRS.MinimumOfMinimumOverTime)                   | Gets the MinimumOfMinimumOverTime.                                     |
+| [`ModalDampingRatio`](#DirectionalVelocityRS.ModalDampingRatio)                                 | Gets the ModalDampingRatio.                                            |
+| [`Mode`](#DirectionalVelocityRS.Mode)                                                           | Gets or sets the Mode.                                                 |
+| [`NamedSelections`](#DirectionalVelocityRS.NamedSelections)                                     | Gets or sets the NamedSelections.                                      |
+| [`NormalOrientation`](#DirectionalVelocityRS.NormalOrientation)                                 | Gets or sets the NormalOrientation.                                    |
+| [`Path`](#DirectionalVelocityRS.Path)                                                           | Path property.                                                         |
+| [`PhaseIncrement`](#DirectionalVelocityRS.PhaseIncrement)                                       | Gets or sets the PhaseIncrement.                                       |
+| [`PlotData`](#DirectionalVelocityRS.PlotData)                                                   | Gets the result table.                                                 |
+| [`Probability`](#DirectionalVelocityRS.Probability)                                             | Gets the Probability.                                                  |
+| [`Properties`](#DirectionalVelocityRS.Properties)                                               | Gets the list of properties for this object.                           |
+| [`Reference`](#DirectionalVelocityRS.Reference)                                                 | Gets the Reference.                                                    |
+| [`ReportedFrequency`](#DirectionalVelocityRS.ReportedFrequency)                                 | Gets the ReportedFrequency.                                            |
+| [`ScaleFactor`](#DirectionalVelocityRS.ScaleFactor)                                             | Gets or sets the ScaleFactor.                                          |
+| [`ScaleFactorValue`](#DirectionalVelocityRS.ScaleFactorValue)                                   | Gets or sets the ScaleFactorValue.                                     |
+| [`ScopingMethod`](#DirectionalVelocityRS.ScopingMethod)                                         | Gets or sets the ScopingMethod.                                        |
+| [`SetNumber`](#DirectionalVelocityRS.SetNumber)                                                 | Gets or sets the Set Number.                                           |
+| [`SolutionCombinationDriver`](#DirectionalVelocityRS.SolutionCombinationDriver)                 | Gets or sets the SolutionCombinationDriver.                            |
+| [`SolverComponentIDs`](#DirectionalVelocityRS.SolverComponentIDs)                               | Gets or sets the SolverComponentIDs.                                   |
+| [`Stability`](#DirectionalVelocityRS.Stability)                                                 | Gets the Stability.                                                    |
+| [`Substep`](#DirectionalVelocityRS.Substep)                                                     | Gets the Substep.                                                      |
+| [`Suppressed`](#DirectionalVelocityRS.Suppressed)                                               | Gets or sets the Suppressed.                                           |
+| [`Surface`](#DirectionalVelocityRS.Surface)                                                     | Surface property.                                                      |
+| [`SweepingPhase`](#DirectionalVelocityRS.SweepingPhase)                                         | Gets or sets the SweepingPhase.                                        |
+| [`Time`](#DirectionalVelocityRS.Time)                                                           | Gets the Time.                                                         |
+| [`TimeForMaximumOfMaximumValues`](#DirectionalVelocityRS.TimeForMaximumOfMaximumValues)         | Get the Time for the maximum of maximum values.                        |
+| [`TimeForMaximumOfMinimumValues`](#DirectionalVelocityRS.TimeForMaximumOfMinimumValues)         | Get the Time for the maximum of minimum values.                        |
+| [`TimeForMinimumOfMaximumValues`](#DirectionalVelocityRS.TimeForMinimumOfMaximumValues)         | Get the Time for the minimum of maximum values.                        |
+| [`TimeForMinimumOfMinimumValues`](#DirectionalVelocityRS.TimeForMinimumOfMinimumValues)         | Get the Time for the minimum of minimum values.                        |
+| [`VisibleProperties`](#DirectionalVelocityRS.VisibleProperties)                                 | Gets the list of properties that are visible for this object.          |
+| [`WaterfallPanelShowTextOnMosaic`](#DirectionalVelocityRS.WaterfallPanelShowTextOnMosaic)       | Gets or sets the Waterfall Panel Mosaic Text Property.                 |
 
 <a id="property-detail"></a>
 
 ## Property detail
 
-### *property* DirectionalVelocityRS.InternalObject *: Ansys.Common.Interop.DSObjectsAuto.IDSResultAuto | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets the internal object. For advanced usage only.
-
-<!-- !! processed by numpydoc !! -->
-
-### *property* DirectionalVelocityRS.NormalOrientation *: [Ansys.Mechanical.DataModel.Enums.NormalOrientationType](../../../../../Mechanical/DataModel/Enums/NormalOrientationType.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.NormalOrientationType) | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the NormalOrientation.
-
-<!-- !! processed by numpydoc !! -->
-
-### *property* DirectionalVelocityRS.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets the current DataModelObject's category.
-
-<!-- !! processed by numpydoc !! -->
-
-### *property* DirectionalVelocityRS.Mode *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the Mode.
-
-<!-- !! processed by numpydoc !! -->
-
-### *property* DirectionalVelocityRS.ReportedFrequency *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets the ReportedFrequency.
-
-<!-- !! processed by numpydoc !! -->
-
-### *property* DirectionalVelocityRS.DampedFrequency *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets the DampedFrequency.
-
-<!-- !! processed by numpydoc !! -->
-
-### *property* DirectionalVelocityRS.EnvironmentSelection *: [Ansys.ACT.Automation.Mechanical.Analysis](../../Analysis.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Analysis) | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the EnvironmentSelection.
-
-<!-- !! processed by numpydoc !! -->
-
-### *property* DirectionalVelocityRS.LogarithmicDecrement *: System.Double | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets the LogarithmicDecrement.
-
-<!-- !! processed by numpydoc !! -->
-
-### *property* DirectionalVelocityRS.ModalDampingRatio *: System.Double | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets the ModalDampingRatio.
-
-<!-- !! processed by numpydoc !! -->
-
-### *property* DirectionalVelocityRS.HarmonicIndex *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the HarmonicIndex.
-
-<!-- !! processed by numpydoc !! -->
-
-### *property* DirectionalVelocityRS.CyclicMode *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the CyclicMode.
-
-<!-- !! processed by numpydoc !! -->
-
-### *property* DirectionalVelocityRS.IterationStep *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the IterationStep.
-
-<!-- !! processed by numpydoc !! -->
-
-### *property* DirectionalVelocityRS.LoadMultiplier *: System.Double | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets the LoadMultiplier.
-
-<!-- !! processed by numpydoc !! -->
-
-### *property* DirectionalVelocityRS.Probability *: System.Double | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets the Probability.
-
-<!-- !! processed by numpydoc !! -->
-
-### *property* DirectionalVelocityRS.ScaleFactorValue *: System.Double | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the ScaleFactorValue.
-
-<!-- !! processed by numpydoc !! -->
-
-### *property* DirectionalVelocityRS.Stability *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets the Stability.
-
-<!-- !! processed by numpydoc !! -->
-
-### *property* DirectionalVelocityRS.CyclicPhase *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the CyclicPhase.
-
-<!-- !! processed by numpydoc !! -->
-
-### *property* DirectionalVelocityRS.SweepingPhase *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the SweepingPhase.
-
-<!-- !! processed by numpydoc !! -->
-
-### *property* DirectionalVelocityRS.PhaseIncrement *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the PhaseIncrement.
-
-<!-- !! processed by numpydoc !! -->
-
-### *property* DirectionalVelocityRS.Frequency *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the Frequency.
-
-<!-- !! processed by numpydoc !! -->
-
-### *property* DirectionalVelocityRS.DeformationType *: [Ansys.Mechanical.DataModel.Enums.TotalOrDirectional](../../../../../Mechanical/DataModel/Enums/TotalOrDirectional.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.TotalOrDirectional) | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the DeformationType.
-
-<!-- !! processed by numpydoc !! -->
-
-### *property* DirectionalVelocityRS.Reference *: [Ansys.Mechanical.DataModel.Enums.ResultRelativityType](../../../../../Mechanical/DataModel/Enums/ResultRelativityType.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.ResultRelativityType) | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets the Reference.
-
-<!-- !! processed by numpydoc !! -->
-
-### *property* DirectionalVelocityRS.ScaleFactor *: [Ansys.Mechanical.DataModel.Enums.ScaleFactorType](../../../../../Mechanical/DataModel/Enums/ScaleFactorType.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.ScaleFactorType) | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the ScaleFactor.
-
-<!-- !! processed by numpydoc !! -->
+<a id="DirectionalVelocityRS.AccelerationInG"></a>
 
 ### *property* DirectionalVelocityRS.AccelerationInG *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -278,11 +140,7 @@ Gets or sets the AccelerationInG.
 
 <!-- !! processed by numpydoc !! -->
 
-### *property* DirectionalVelocityRS.Amplitude *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the Amplitude.
-
-<!-- !! processed by numpydoc !! -->
+<a id="DirectionalVelocityRS.AllowPhaseSweep"></a>
 
 ### *property* DirectionalVelocityRS.AllowPhaseSweep *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -290,71 +148,63 @@ Gets or sets the AllowPhaseSweep.
 
 <!-- !! processed by numpydoc !! -->
 
-### *property* DirectionalVelocityRS.PlotData *: [Ansys.Mechanical.DataModel.Results.ResultDataTable](../../../../../Mechanical/DataModel/Results/ResultDataTable.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Results.ResultDataTable) | [None](https://docs.python.org/3/library/constants.html#None)*
+<a id="DirectionalVelocityRS.Amplitude"></a>
 
-Gets the result table.
+### *property* DirectionalVelocityRS.Amplitude *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
 
-<!-- !! processed by numpydoc !! -->
-
-### *property* DirectionalVelocityRS.Location *: Ansys.ACT.Interfaces.Common.ISelectionInfo | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the Location.
+Gets or sets the Amplitude.
 
 <!-- !! processed by numpydoc !! -->
 
-### *property* DirectionalVelocityRS.TimeForMinimumOfMinimumValues *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
+<a id="DirectionalVelocityRS.Average"></a>
 
-Get the Time for the minimum of minimum values.
+### *property* DirectionalVelocityRS.Average *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
 
-<!-- !! processed by numpydoc !! -->
-
-### *property* DirectionalVelocityRS.TimeForMinimumOfMaximumValues *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Get the Time for the minimum of maximum values.
+Gets the Average.
 
 <!-- !! processed by numpydoc !! -->
 
-### *property* DirectionalVelocityRS.LoadStepForMinimumOfMinimumValues *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+<a id="DirectionalVelocityRS.By"></a>
 
-Get the Load Step for the minimum of minimum values.
+### *property* DirectionalVelocityRS.By *: [Ansys.Mechanical.DataModel.Enums.SetDriverStyle](../../../../../../../v242/Ansys/Mechanical/DataModel/Enums/SetDriverStyle.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.SetDriverStyle) | [None](https://docs.python.org/3/library/constants.html#None)*
 
-<!-- !! processed by numpydoc !! -->
-
-### *property* DirectionalVelocityRS.LoadStepForMinimumOfMaximumValues *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Get the Load Step for the minimum of maximum values.
+Gets or sets the By.
 
 <!-- !! processed by numpydoc !! -->
 
-### *property* DirectionalVelocityRS.TimeForMaximumOfMinimumValues *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
+<a id="DirectionalVelocityRS.CalculateTimeHistory"></a>
 
-Get the Time for the maximum of minimum values.
+### *property* DirectionalVelocityRS.CalculateTimeHistory *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
 
-<!-- !! processed by numpydoc !! -->
-
-### *property* DirectionalVelocityRS.TimeForMaximumOfMaximumValues *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Get the Time for the maximum of maximum values.
+Gets or sets the CalculateTimeHistory.
 
 <!-- !! processed by numpydoc !! -->
 
-### *property* DirectionalVelocityRS.LoadStepForMaximumOfMinimumValues *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+<a id="DirectionalVelocityRS.Children"></a>
 
-Get the Load Step for the maximum of minimum values.
+### *property* DirectionalVelocityRS.Children *: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
 
-<!-- !! processed by numpydoc !! -->
-
-### *property* DirectionalVelocityRS.LoadStepForMaximumOfMaximumValues *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Get the Load Step for the maximum of maximum values.
+Gets the list of children.
 
 <!-- !! processed by numpydoc !! -->
 
-### *property* DirectionalVelocityRS.IsSolved *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+<a id="DirectionalVelocityRS.CombinationNumber"></a>
 
-Gets the IsSolved.
+### *property* DirectionalVelocityRS.CombinationNumber *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the Combination Number for a Solution Combination result.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="DirectionalVelocityRS.Comments"></a>
+
+### *property* DirectionalVelocityRS.Comments *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Comment](../../Comment.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets the list of associated comments.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="DirectionalVelocityRS.CoordinateSystem"></a>
 
 ### *property* DirectionalVelocityRS.CoordinateSystem *: [Ansys.ACT.Automation.Mechanical.CoordinateSystem](../../CoordinateSystem.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.CoordinateSystem) | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -364,53 +214,7 @@ Accepts/Returns None for Fiber Coordinate System for a result that is sub scoped
 
 <!-- !! processed by numpydoc !! -->
 
-### *property* DirectionalVelocityRS.ScopingMethod *: [Ansys.Mechanical.DataModel.Enums.GeometryDefineByType](../../../../../Mechanical/DataModel/Enums/GeometryDefineByType.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.GeometryDefineByType) | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the ScopingMethod.
-
-<!-- !! processed by numpydoc !! -->
-
-### *property* DirectionalVelocityRS.SetNumber *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the Set Number.
-
-<!-- !! processed by numpydoc !! -->
-
-### *property* DirectionalVelocityRS.CombinationNumber *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the Combination Number for a Solution Combination result.
-
-<!-- !! processed by numpydoc !! -->
-
-### *property* DirectionalVelocityRS.SolutionCombinationDriver *: [Ansys.Mechanical.DataModel.Enums.SolutionCombinationDriverStyle](../../../../../Mechanical/DataModel/Enums/SolutionCombinationDriverStyle.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.SolutionCombinationDriverStyle) | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the SolutionCombinationDriver.
-
-<!-- !! processed by numpydoc !! -->
-
-### *property* DirectionalVelocityRS.Path *: [Ansys.ACT.Automation.Mechanical.Path](../../Path.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Path) | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Path property.
-
-<!-- !! processed by numpydoc !! -->
-
-### *property* DirectionalVelocityRS.Surface *: [Ansys.ACT.Automation.Mechanical.Surface](../../Surface.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Surface) | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Surface property.
-
-<!-- !! processed by numpydoc !! -->
-
-### *property* DirectionalVelocityRS.NamedSelections *: System.Collections.Generic.IEnumerable[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the NamedSelections.
-
-<!-- !! processed by numpydoc !! -->
-
-### *property* DirectionalVelocityRS.WaterfallPanelShowTextOnMosaic *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the Waterfall Panel Mosaic Text Property.
-
-<!-- !! processed by numpydoc !! -->
+<a id="DirectionalVelocityRS.CrackFrontNumber"></a>
 
 ### *property* DirectionalVelocityRS.CrackFrontNumber *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -418,107 +222,55 @@ Gets or sets the CrackFrontNumber.
 
 <!-- !! processed by numpydoc !! -->
 
-### *property* DirectionalVelocityRS.GlobalIDs *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+<a id="DirectionalVelocityRS.CyclicMode"></a>
 
-Gets or sets the GlobalIDs.
+### *property* DirectionalVelocityRS.CyclicMode *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
 
-<!-- !! processed by numpydoc !! -->
-
-### *property* DirectionalVelocityRS.Identifier *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the Identifier.
+Gets or sets the CyclicMode.
 
 <!-- !! processed by numpydoc !! -->
 
-### *property* DirectionalVelocityRS.IterationNumber *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+<a id="DirectionalVelocityRS.CyclicPhase"></a>
 
-Gets the IterationNumber.
+### *property* DirectionalVelocityRS.CyclicPhase *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
 
-<!-- !! processed by numpydoc !! -->
-
-### *property* DirectionalVelocityRS.LoadStep *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets the LoadStep.
+Gets or sets the CyclicPhase.
 
 <!-- !! processed by numpydoc !! -->
 
-### *property* DirectionalVelocityRS.MaximumOccursOn *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+<a id="DirectionalVelocityRS.DampedFrequency"></a>
 
-Gets the MaximumOccursOn.
+### *property* DirectionalVelocityRS.DampedFrequency *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
 
-<!-- !! processed by numpydoc !! -->
-
-### *property* DirectionalVelocityRS.MinimumOccursOn *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets the MinimumOccursOn.
+Gets the DampedFrequency.
 
 <!-- !! processed by numpydoc !! -->
 
-### *property* DirectionalVelocityRS.LoadStepNumber *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+<a id="DirectionalVelocityRS.DataModelObjectCategory"></a>
 
-Gets or sets the LoadStepNumber.
+### *property* DirectionalVelocityRS.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../../../v242/Ansys/Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
-<!-- !! processed by numpydoc !! -->
-
-### *property* DirectionalVelocityRS.SolverComponentIDs *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the SolverComponentIDs.
+Gets the current DataModelObject’s category.
 
 <!-- !! processed by numpydoc !! -->
 
-### *property* DirectionalVelocityRS.Substep *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+<a id="DirectionalVelocityRS.DeformationType"></a>
 
-Gets the Substep.
+### *property* DirectionalVelocityRS.DeformationType *: [Ansys.Mechanical.DataModel.Enums.TotalOrDirectional](../../../../../../../v242/Ansys/Mechanical/DataModel/Enums/TotalOrDirectional.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.TotalOrDirectional) | [None](https://docs.python.org/3/library/constants.html#None)*
 
-<!-- !! processed by numpydoc !! -->
-
-### *property* DirectionalVelocityRS.Average *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets the Average.
+Gets or sets the DeformationType.
 
 <!-- !! processed by numpydoc !! -->
 
-### *property* DirectionalVelocityRS.Maximum *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
+<a id="DirectionalVelocityRS.DisplayOption"></a>
 
-Gets the Maximum.
+### *property* DirectionalVelocityRS.DisplayOption *: [Ansys.Mechanical.DataModel.Enums.ResultAveragingType](../../../../../../../v242/Ansys/Mechanical/DataModel/Enums/ResultAveragingType.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.ResultAveragingType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
-<!-- !! processed by numpydoc !! -->
-
-### *property* DirectionalVelocityRS.MaximumOfMaximumOverTime *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets the MaximumOfMaximumOverTime.
+Gets or sets the DisplayOption.
 
 <!-- !! processed by numpydoc !! -->
 
-### *property* DirectionalVelocityRS.MaximumOfMinimumOverTime *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets the MaximumOfMinimumOverTime.
-
-<!-- !! processed by numpydoc !! -->
-
-### *property* DirectionalVelocityRS.Minimum *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets the Minimum.
-
-<!-- !! processed by numpydoc !! -->
-
-### *property* DirectionalVelocityRS.MinimumOfMaximumOverTime *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets the MinimumOfMaximumOverTime.
-
-<!-- !! processed by numpydoc !! -->
-
-### *property* DirectionalVelocityRS.MinimumOfMinimumOverTime *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets the MinimumOfMinimumOverTime.
-
-<!-- !! processed by numpydoc !! -->
-
-### *property* DirectionalVelocityRS.Time *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets the Time.
-
-<!-- !! processed by numpydoc !! -->
+<a id="DirectionalVelocityRS.DisplayTime"></a>
 
 ### *property* DirectionalVelocityRS.DisplayTime *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -526,59 +278,23 @@ Gets or sets the DisplayTime.
 
 <!-- !! processed by numpydoc !! -->
 
-### *property* DirectionalVelocityRS.GraphControlsXAxis *: [Ansys.Mechanical.DataModel.Enums.GraphControlsXAxis](../../../../../Mechanical/DataModel/Enums/GraphControlsXAxis.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.GraphControlsXAxis) | [None](https://docs.python.org/3/library/constants.html#None)*
+<a id="DirectionalVelocityRS.DpfEvaluation"></a>
 
-Gets or sets the GraphControlsXAxis.
-
-<!-- !! processed by numpydoc !! -->
-
-### *property* DirectionalVelocityRS.DisplayOption *: [Ansys.Mechanical.DataModel.Enums.ResultAveragingType](../../../../../Mechanical/DataModel/Enums/ResultAveragingType.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.ResultAveragingType) | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the DisplayOption.
-
-<!-- !! processed by numpydoc !! -->
-
-### *property* DirectionalVelocityRS.DpfEvaluation *: [Ansys.Mechanical.DataModel.Enums.DpfEvaluationType](../../../../../Mechanical/DataModel/Enums/DpfEvaluationType.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DpfEvaluationType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* DirectionalVelocityRS.DpfEvaluation *: [Ansys.Mechanical.DataModel.Enums.DpfEvaluationType](../../../../../../../v242/Ansys/Mechanical/DataModel/Enums/DpfEvaluationType.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.DpfEvaluationType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the DpfEvaluation.
 
 <!-- !! processed by numpydoc !! -->
 
-### *property* DirectionalVelocityRS.By *: [Ansys.Mechanical.DataModel.Enums.SetDriverStyle](../../../../../Mechanical/DataModel/Enums/SetDriverStyle.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.SetDriverStyle) | [None](https://docs.python.org/3/library/constants.html#None)*
+<a id="DirectionalVelocityRS.EnvironmentSelection"></a>
 
-Gets or sets the By.
+### *property* DirectionalVelocityRS.EnvironmentSelection *: [Ansys.ACT.Automation.Mechanical.Analysis](../../Analysis.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Analysis) | [None](https://docs.python.org/3/library/constants.html#None)*
 
-<!-- !! processed by numpydoc !! -->
-
-### *property* DirectionalVelocityRS.ItemType *: [Ansys.Mechanical.DataModel.Enums.ResultFileItemType](../../../../../Mechanical/DataModel/Enums/ResultFileItemType.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.ResultFileItemType) | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the ItemType.
+Gets or sets the EnvironmentSelection.
 
 <!-- !! processed by numpydoc !! -->
 
-### *property* DirectionalVelocityRS.CalculateTimeHistory *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the CalculateTimeHistory.
-
-<!-- !! processed by numpydoc !! -->
-
-### *property* DirectionalVelocityRS.Suppressed *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the Suppressed.
-
-<!-- !! processed by numpydoc !! -->
-
-### *property* DirectionalVelocityRS.Children *: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets the list of children.
-
-<!-- !! processed by numpydoc !! -->
-
-### *property* DirectionalVelocityRS.Comments *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Comment](../../Comment.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets the list of associated comments.
-
-<!-- !! processed by numpydoc !! -->
+<a id="DirectionalVelocityRS.Figures"></a>
 
 ### *property* DirectionalVelocityRS.Figures *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Figure](../../Figure.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -586,17 +302,295 @@ Gets the list of associated figures.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="DirectionalVelocityRS.Frequency"></a>
+
+### *property* DirectionalVelocityRS.Frequency *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the Frequency.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="DirectionalVelocityRS.GlobalIDs"></a>
+
+### *property* DirectionalVelocityRS.GlobalIDs *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the GlobalIDs.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="DirectionalVelocityRS.GraphControlsXAxis"></a>
+
+### *property* DirectionalVelocityRS.GraphControlsXAxis *: [Ansys.Mechanical.DataModel.Enums.GraphControlsXAxis](../../../../../../../v242/Ansys/Mechanical/DataModel/Enums/GraphControlsXAxis.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.GraphControlsXAxis) | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the GraphControlsXAxis.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="DirectionalVelocityRS.HarmonicIndex"></a>
+
+### *property* DirectionalVelocityRS.HarmonicIndex *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the HarmonicIndex.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="DirectionalVelocityRS.Identifier"></a>
+
+### *property* DirectionalVelocityRS.Identifier *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the Identifier.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="DirectionalVelocityRS.Images"></a>
+
 ### *property* DirectionalVelocityRS.Images *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Image](../../Image.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated images.
 
 <!-- !! processed by numpydoc !! -->
 
-### *property* DirectionalVelocityRS.InternalObject *: System.Object | [None](https://docs.python.org/3/library/constants.html#None)*
+<a id="DirectionalVelocityRS.InternalObject"></a>
+
+### *property* DirectionalVelocityRS.InternalObject *: Ansys.Common.Interop.DSObjectsAuto.IDSResultAuto | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the internal object. For advanced usage only.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="DirectionalVelocityRS.IsSolved"></a>
+
+### *property* DirectionalVelocityRS.IsSolved *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets the IsSolved.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="DirectionalVelocityRS.ItemType"></a>
+
+### *property* DirectionalVelocityRS.ItemType *: [Ansys.Mechanical.DataModel.Enums.ResultFileItemType](../../../../../../../v242/Ansys/Mechanical/DataModel/Enums/ResultFileItemType.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.ResultFileItemType) | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the ItemType.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="DirectionalVelocityRS.IterationNumber"></a>
+
+### *property* DirectionalVelocityRS.IterationNumber *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets the IterationNumber.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="DirectionalVelocityRS.IterationStep"></a>
+
+### *property* DirectionalVelocityRS.IterationStep *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the IterationStep.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="DirectionalVelocityRS.LoadMultiplier"></a>
+
+### *property* DirectionalVelocityRS.LoadMultiplier *: System.Double | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets the LoadMultiplier.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="DirectionalVelocityRS.LoadStep"></a>
+
+### *property* DirectionalVelocityRS.LoadStep *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets the LoadStep.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="DirectionalVelocityRS.LoadStepForMaximumOfMaximumValues"></a>
+
+### *property* DirectionalVelocityRS.LoadStepForMaximumOfMaximumValues *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Get the Load Step for the maximum of maximum values.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="DirectionalVelocityRS.LoadStepForMaximumOfMinimumValues"></a>
+
+### *property* DirectionalVelocityRS.LoadStepForMaximumOfMinimumValues *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Get the Load Step for the maximum of minimum values.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="DirectionalVelocityRS.LoadStepForMinimumOfMaximumValues"></a>
+
+### *property* DirectionalVelocityRS.LoadStepForMinimumOfMaximumValues *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Get the Load Step for the minimum of maximum values.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="DirectionalVelocityRS.LoadStepForMinimumOfMinimumValues"></a>
+
+### *property* DirectionalVelocityRS.LoadStepForMinimumOfMinimumValues *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Get the Load Step for the minimum of minimum values.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="DirectionalVelocityRS.LoadStepNumber"></a>
+
+### *property* DirectionalVelocityRS.LoadStepNumber *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the LoadStepNumber.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="DirectionalVelocityRS.Location"></a>
+
+### *property* DirectionalVelocityRS.Location *: Ansys.ACT.Interfaces.Common.ISelectionInfo | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the Location.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="DirectionalVelocityRS.LogarithmicDecrement"></a>
+
+### *property* DirectionalVelocityRS.LogarithmicDecrement *: System.Double | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets the LogarithmicDecrement.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="DirectionalVelocityRS.Maximum"></a>
+
+### *property* DirectionalVelocityRS.Maximum *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets the Maximum.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="DirectionalVelocityRS.MaximumOccursOn"></a>
+
+### *property* DirectionalVelocityRS.MaximumOccursOn *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets the MaximumOccursOn.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="DirectionalVelocityRS.MaximumOfMaximumOverTime"></a>
+
+### *property* DirectionalVelocityRS.MaximumOfMaximumOverTime *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets the MaximumOfMaximumOverTime.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="DirectionalVelocityRS.MaximumOfMinimumOverTime"></a>
+
+### *property* DirectionalVelocityRS.MaximumOfMinimumOverTime *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets the MaximumOfMinimumOverTime.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="DirectionalVelocityRS.Minimum"></a>
+
+### *property* DirectionalVelocityRS.Minimum *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets the Minimum.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="DirectionalVelocityRS.MinimumOccursOn"></a>
+
+### *property* DirectionalVelocityRS.MinimumOccursOn *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets the MinimumOccursOn.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="DirectionalVelocityRS.MinimumOfMaximumOverTime"></a>
+
+### *property* DirectionalVelocityRS.MinimumOfMaximumOverTime *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets the MinimumOfMaximumOverTime.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="DirectionalVelocityRS.MinimumOfMinimumOverTime"></a>
+
+### *property* DirectionalVelocityRS.MinimumOfMinimumOverTime *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets the MinimumOfMinimumOverTime.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="DirectionalVelocityRS.ModalDampingRatio"></a>
+
+### *property* DirectionalVelocityRS.ModalDampingRatio *: System.Double | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets the ModalDampingRatio.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="DirectionalVelocityRS.Mode"></a>
+
+### *property* DirectionalVelocityRS.Mode *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the Mode.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="DirectionalVelocityRS.NamedSelections"></a>
+
+### *property* DirectionalVelocityRS.NamedSelections *: System.Collections.Generic.IEnumerable[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the NamedSelections.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="DirectionalVelocityRS.NormalOrientation"></a>
+
+### *property* DirectionalVelocityRS.NormalOrientation *: [Ansys.Mechanical.DataModel.Enums.NormalOrientationType](../../../../../../../v242/Ansys/Mechanical/DataModel/Enums/NormalOrientationType.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.NormalOrientationType) | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the NormalOrientation.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="DirectionalVelocityRS.Path"></a>
+
+### *property* DirectionalVelocityRS.Path *: [Ansys.ACT.Automation.Mechanical.Path](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Path.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Path) | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Path property.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="DirectionalVelocityRS.PhaseIncrement"></a>
+
+### *property* DirectionalVelocityRS.PhaseIncrement *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the PhaseIncrement.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="DirectionalVelocityRS.PlotData"></a>
+
+### *property* DirectionalVelocityRS.PlotData *: [Ansys.Mechanical.DataModel.Results.ResultDataTable](../../../../../../../v242/Ansys/Mechanical/DataModel/Results/ResultDataTable.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Results.ResultDataTable) | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets the result table.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="DirectionalVelocityRS.Probability"></a>
+
+### *property* DirectionalVelocityRS.Probability *: System.Double | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets the Probability.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="DirectionalVelocityRS.Properties"></a>
 
 ### *property* DirectionalVelocityRS.Properties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -604,9 +598,163 @@ Gets the list of properties for this object.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="DirectionalVelocityRS.Reference"></a>
+
+### *property* DirectionalVelocityRS.Reference *: [Ansys.Mechanical.DataModel.Enums.ResultRelativityType](../../../../../../../v242/Ansys/Mechanical/DataModel/Enums/ResultRelativityType.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.ResultRelativityType) | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets the Reference.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="DirectionalVelocityRS.ReportedFrequency"></a>
+
+### *property* DirectionalVelocityRS.ReportedFrequency *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets the ReportedFrequency.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="DirectionalVelocityRS.ScaleFactor"></a>
+
+### *property* DirectionalVelocityRS.ScaleFactor *: [Ansys.Mechanical.DataModel.Enums.ScaleFactorType](../../../../../../../v242/Ansys/Mechanical/DataModel/Enums/ScaleFactorType.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.ScaleFactorType) | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the ScaleFactor.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="DirectionalVelocityRS.ScaleFactorValue"></a>
+
+### *property* DirectionalVelocityRS.ScaleFactorValue *: System.Double | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the ScaleFactorValue.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="DirectionalVelocityRS.ScopingMethod"></a>
+
+### *property* DirectionalVelocityRS.ScopingMethod *: [Ansys.Mechanical.DataModel.Enums.GeometryDefineByType](../../../../../../../v242/Ansys/Mechanical/DataModel/Enums/GeometryDefineByType.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.GeometryDefineByType) | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the ScopingMethod.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="DirectionalVelocityRS.SetNumber"></a>
+
+### *property* DirectionalVelocityRS.SetNumber *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the Set Number.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="DirectionalVelocityRS.SolutionCombinationDriver"></a>
+
+### *property* DirectionalVelocityRS.SolutionCombinationDriver *: [Ansys.Mechanical.DataModel.Enums.SolutionCombinationDriverStyle](../../../../../../../v242/Ansys/Mechanical/DataModel/Enums/SolutionCombinationDriverStyle.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.SolutionCombinationDriverStyle) | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the SolutionCombinationDriver.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="DirectionalVelocityRS.SolverComponentIDs"></a>
+
+### *property* DirectionalVelocityRS.SolverComponentIDs *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the SolverComponentIDs.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="DirectionalVelocityRS.Stability"></a>
+
+### *property* DirectionalVelocityRS.Stability *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets the Stability.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="DirectionalVelocityRS.Substep"></a>
+
+### *property* DirectionalVelocityRS.Substep *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets the Substep.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="DirectionalVelocityRS.Suppressed"></a>
+
+### *property* DirectionalVelocityRS.Suppressed *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the Suppressed.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="DirectionalVelocityRS.Surface"></a>
+
+### *property* DirectionalVelocityRS.Surface *: [Ansys.ACT.Automation.Mechanical.Surface](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Surface.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Surface) | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Surface property.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="DirectionalVelocityRS.SweepingPhase"></a>
+
+### *property* DirectionalVelocityRS.SweepingPhase *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the SweepingPhase.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="DirectionalVelocityRS.Time"></a>
+
+### *property* DirectionalVelocityRS.Time *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets the Time.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="DirectionalVelocityRS.TimeForMaximumOfMaximumValues"></a>
+
+### *property* DirectionalVelocityRS.TimeForMaximumOfMaximumValues *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Get the Time for the maximum of maximum values.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="DirectionalVelocityRS.TimeForMaximumOfMinimumValues"></a>
+
+### *property* DirectionalVelocityRS.TimeForMaximumOfMinimumValues *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Get the Time for the maximum of minimum values.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="DirectionalVelocityRS.TimeForMinimumOfMaximumValues"></a>
+
+### *property* DirectionalVelocityRS.TimeForMinimumOfMaximumValues *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Get the Time for the minimum of maximum values.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="DirectionalVelocityRS.TimeForMinimumOfMinimumValues"></a>
+
+### *property* DirectionalVelocityRS.TimeForMinimumOfMinimumValues *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Get the Time for the minimum of minimum values.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="DirectionalVelocityRS.VisibleProperties"></a>
+
 ### *property* DirectionalVelocityRS.VisibleProperties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of properties that are visible for this object.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="DirectionalVelocityRS.WaterfallPanelShowTextOnMosaic"></a>
+
+### *property* DirectionalVelocityRS.WaterfallPanelShowTextOnMosaic *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the Waterfall Panel Mosaic Text Property.
 
 <!-- !! processed by numpydoc !! -->
 
@@ -614,59 +762,15 @@ Gets the list of properties that are visible for this object.
 
 ## Method detail
 
-### DirectionalVelocityRS.ClearGeneratedData()
+<a id="DirectionalVelocityRS.Activate"></a>
 
-Run the ClearGeneratedData action.
+### DirectionalVelocityRS.Activate()
 
-<!-- !! processed by numpydoc !! -->
-
-### DirectionalVelocityRS.EvaluateAllResults()
-
-Run the EvaluateAllResults action.
+Activate the current object.
 
 <!-- !! processed by numpydoc !! -->
 
-### DirectionalVelocityRS.FetchRemoteResults()
-
-Run the FetchRemoteResult action.
-
-<!-- !! processed by numpydoc !! -->
-
-### DirectionalVelocityRS.ExportToTextFile(filePath: System.String)
-
-Run the ExportToTextFile action.
-
-<!-- !! processed by numpydoc !! -->
-
-### DirectionalVelocityRS.ExportAnimation(filePath: System.String, format: [Ansys.Mechanical.DataModel.Enums.GraphicsAnimationExportFormat](../../../../../Mechanical/DataModel/Enums/GraphicsAnimationExportFormat.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.GraphicsAnimationExportFormat), settings: [Ansys.Mechanical.Graphics.AnimationExportSettings](../../../../../Mechanical/Graphics/AnimationExportSettings.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.Graphics.AnimationExportSettings))
-
-Run the ExportAnimation action.
-
-<!-- !! processed by numpydoc !! -->
-
-### DirectionalVelocityRS.DuplicateWithoutResults()
-
-Run the DuplicateWithoutResults action.
-
-<!-- !! processed by numpydoc !! -->
-
-### DirectionalVelocityRS.CreateResultsAtAllSets()
-
-Creates results at all sets for results under a solution.
-
-<!-- !! processed by numpydoc !! -->
-
-### DirectionalVelocityRS.PromoteToNamedSelection()
-
-Run the PromoteToNamedSelection action.
-
-<!-- !! processed by numpydoc !! -->
-
-### DirectionalVelocityRS.CreateParameter(propName: System.String)
-
-CreateParameter method.
-
-<!-- !! processed by numpydoc !! -->
+<a id="DirectionalVelocityRS.AddAlert"></a>
 
 ### DirectionalVelocityRS.AddAlert()
 
@@ -674,35 +778,7 @@ Creates a new Alert
 
 <!-- !! processed by numpydoc !! -->
 
-### DirectionalVelocityRS.AddConvergence()
-
-Creates a new Convergence
-
-<!-- !! processed by numpydoc !! -->
-
-### DirectionalVelocityRS.RenameBasedOnDefinition()
-
-Run the RenameBasedOnDefinition action.
-
-<!-- !! processed by numpydoc !! -->
-
-### DirectionalVelocityRS.Delete()
-
-Run the Delete action.
-
-<!-- !! processed by numpydoc !! -->
-
-### DirectionalVelocityRS.GetChildren(recurses: System.Boolean, children: System.Collections.Generic.IList[ChildrenType])
-
-Gets the list of children, filtered by type.
-
-<!-- !! processed by numpydoc !! -->
-
-### DirectionalVelocityRS.GetChildren(category: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory), recurses: System.Boolean, children: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject])
-
-Gets the list of children, filtered by type.
-
-<!-- !! processed by numpydoc !! -->
+<a id="DirectionalVelocityRS.AddComment"></a>
 
 ### DirectionalVelocityRS.AddComment()
 
@@ -710,11 +786,23 @@ Creates a new child Comment.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="DirectionalVelocityRS.AddConvergence"></a>
+
+### DirectionalVelocityRS.AddConvergence()
+
+Creates a new Convergence
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="DirectionalVelocityRS.AddFigure"></a>
+
 ### DirectionalVelocityRS.AddFigure()
 
 Creates a new child Figure.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="DirectionalVelocityRS.AddImage"></a>
 
 ### DirectionalVelocityRS.AddImage(filePath: System.String)
 
@@ -726,11 +814,15 @@ if not, the image will be a screen capture of the Geometry window.
 
 <!-- !! processed by numpydoc !! -->
 
-### DirectionalVelocityRS.Activate()
+<a id="DirectionalVelocityRS.ClearGeneratedData"></a>
 
-Activate the current object.
+### DirectionalVelocityRS.ClearGeneratedData()
+
+Run the ClearGeneratedData action.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="DirectionalVelocityRS.CopyTo"></a>
 
 ### DirectionalVelocityRS.CopyTo(other: Ansys.ACT.Automation.Mechanical.DataModelObject)
 
@@ -738,11 +830,95 @@ Copies all visible properties from this object to another.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="DirectionalVelocityRS.CreateParameter"></a>
+
+### DirectionalVelocityRS.CreateParameter(propName: System.String)
+
+CreateParameter method.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="DirectionalVelocityRS.CreateResultsAtAllSets"></a>
+
+### DirectionalVelocityRS.CreateResultsAtAllSets()
+
+Creates results at all sets for results under a solution.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="DirectionalVelocityRS.Delete"></a>
+
+### DirectionalVelocityRS.Delete()
+
+Run the Delete action.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="DirectionalVelocityRS.Duplicate"></a>
+
 ### DirectionalVelocityRS.Duplicate()
 
 Creates a copy of the current DataModelObject.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="DirectionalVelocityRS.DuplicateWithoutResults"></a>
+
+### DirectionalVelocityRS.DuplicateWithoutResults()
+
+Run the DuplicateWithoutResults action.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="DirectionalVelocityRS.EvaluateAllResults"></a>
+
+### DirectionalVelocityRS.EvaluateAllResults()
+
+Run the EvaluateAllResults action.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="DirectionalVelocityRS.ExportAnimation"></a>
+
+### DirectionalVelocityRS.ExportAnimation(filePath: System.String, format: [Ansys.Mechanical.DataModel.Enums.GraphicsAnimationExportFormat](../../../../../../../v242/Ansys/Mechanical/DataModel/Enums/GraphicsAnimationExportFormat.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.GraphicsAnimationExportFormat), settings: [Ansys.Mechanical.Graphics.AnimationExportSettings](../../../../../../../v242/Ansys/Mechanical/Graphics/AnimationExportSettings.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.Graphics.AnimationExportSettings))
+
+Run the ExportAnimation action.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="DirectionalVelocityRS.ExportToTextFile"></a>
+
+### DirectionalVelocityRS.ExportToTextFile(filePath: System.String)
+
+Run the ExportToTextFile action.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="DirectionalVelocityRS.FetchRemoteResults"></a>
+
+### DirectionalVelocityRS.FetchRemoteResults()
+
+Run the FetchRemoteResult action.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="DirectionalVelocityRS.GetChildren"></a>
+
+### DirectionalVelocityRS.GetChildren(recurses: System.Boolean, children: System.Collections.Generic.IList[ChildrenType])
+
+Gets the list of children, filtered by type.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="DirectionalVelocityRS.GetParameter"></a>
+
+### DirectionalVelocityRS.GetParameter(propName: System.String)
+
+Gets the parameter corresponding to the given property.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="DirectionalVelocityRS.GroupAllSimilarChildren"></a>
 
 ### DirectionalVelocityRS.GroupAllSimilarChildren()
 
@@ -750,17 +926,23 @@ Run the GroupAllSimilarChildren action.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="DirectionalVelocityRS.GroupSimilarObjects"></a>
+
 ### DirectionalVelocityRS.GroupSimilarObjects()
 
 Run the GroupSimilarObjects action.
 
 <!-- !! processed by numpydoc !! -->
 
-### DirectionalVelocityRS.PropertyByName(name: System.String)
+<a id="DirectionalVelocityRS.PromoteToNamedSelection"></a>
 
-Get a property by its unique name.
+### DirectionalVelocityRS.PromoteToNamedSelection()
+
+Run the PromoteToNamedSelection action.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="DirectionalVelocityRS.PropertyByAPIName"></a>
 
 ### DirectionalVelocityRS.PropertyByAPIName(name: System.String)
 
@@ -771,15 +953,27 @@ If multiple properties have the same API Name, only the first property with that
 
 <!-- !! processed by numpydoc !! -->
 
-### DirectionalVelocityRS.GetParameter(propName: System.String)
+<a id="DirectionalVelocityRS.PropertyByName"></a>
 
-Gets the parameter corresponding to the given property.
+### DirectionalVelocityRS.PropertyByName(name: System.String)
+
+Get a property by its unique name.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="DirectionalVelocityRS.RemoveParameter"></a>
 
 ### DirectionalVelocityRS.RemoveParameter(propName: System.String)
 
 Removes the parameter from the parameter set corresponding to the given property.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="DirectionalVelocityRS.RenameBasedOnDefinition"></a>
+
+### DirectionalVelocityRS.RenameBasedOnDefinition()
+
+Run the RenameBasedOnDefinition action.
 
 <!-- !! processed by numpydoc !! -->
 

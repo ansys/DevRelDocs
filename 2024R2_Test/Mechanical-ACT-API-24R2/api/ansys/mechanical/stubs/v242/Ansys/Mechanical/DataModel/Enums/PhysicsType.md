@@ -1,6 +1,6 @@
 # `PhysicsType`
 
-
+<a id="ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.PhysicsType"></a>
 
 #### *class* ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.PhysicsType
 
@@ -17,26 +17,34 @@ Specifies the PhysicsType.
 ### Attributes
 
 | Name |
-| --------------------------------------------------------------------- |
+| ---------------------------------------------------------------------------------------------------------------------------------------- |
+| [`Acoustic`](#PhysicsType.Acoustic) |
 | [`Customizable`](#PhysicsType.Customizable) |
+| [`ElectricCharge`](#PhysicsType.ElectricCharge) |
 | [`ElectricConduction`](#PhysicsType.ElectricConduction) |
 | [`Electromagnetic`](#PhysicsType.Electromagnetic) |
 | [`ExplicitCDI`](#PhysicsType.ExplicitCDI) |
 | [`Mechanical`](#PhysicsType.Mechanical) |
+| [`MechanicalAcoustic`](#PhysicsType.MechanicalAcoustic) |
+| [`MechanicalElectricCharge`](#PhysicsType.MechanicalElectricCharge) |
 | [`Thermal`](#PhysicsType.Thermal) |
 | [`ThermalElectric`](#PhysicsType.ThermalElectric) |
-| [`Acoustic`](#PhysicsType.Acoustic) |
-| [`MechanicalAcoustic`](#PhysicsType.MechanicalAcoustic) |
-| [`ElectricCharge`](#PhysicsType.ElectricCharge) |
-| [`MechanicalElectricCharge`](#PhysicsType.MechanicalElectricCharge) |
 
 <a id="attribute-detail"></a>
 
 ## Attribute detail
 
+<a id="PhysicsType.Acoustic"></a>
+
+### PhysicsType.Acoustic *= 64*
+
 <a id="PhysicsType.Customizable"></a>
 
 ### PhysicsType.Customizable *= 32*
+
+<a id="PhysicsType.ElectricCharge"></a>
+
+### PhysicsType.ElectricCharge *= 128*
 
 <a id="PhysicsType.ElectricConduction"></a>
 
@@ -54,6 +62,14 @@ Specifies the PhysicsType.
 
 ### PhysicsType.Mechanical *= 1*
 
+<a id="PhysicsType.MechanicalAcoustic"></a>
+
+### PhysicsType.MechanicalAcoustic *= 65*
+
+<a id="PhysicsType.MechanicalElectricCharge"></a>
+
+### PhysicsType.MechanicalElectricCharge *= 129*
+
 <a id="PhysicsType.Thermal"></a>
 
 ### PhysicsType.Thermal *= 2*
@@ -61,21 +77,5 @@ Specifies the PhysicsType.
 <a id="PhysicsType.ThermalElectric"></a>
 
 ### PhysicsType.ThermalElectric *= 6*
-
-<a id="PhysicsType.Acoustic"></a>
-
-### PhysicsType.Acoustic *= 64*
-
-<a id="PhysicsType.MechanicalAcoustic"></a>
-
-### PhysicsType.MechanicalAcoustic *= 65*
-
-<a id="PhysicsType.ElectricCharge"></a>
-
-### PhysicsType.ElectricCharge *= 128*
-
-<a id="PhysicsType.MechanicalElectricCharge"></a>
-
-### PhysicsType.MechanicalElectricCharge *= 129*
 
 

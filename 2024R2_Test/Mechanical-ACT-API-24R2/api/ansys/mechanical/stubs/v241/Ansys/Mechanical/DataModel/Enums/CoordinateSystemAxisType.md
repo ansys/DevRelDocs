@@ -1,6 +1,6 @@
 # `CoordinateSystemAxisType`
 
-
+<a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.CoordinateSystemAxisType"></a>
 
 #### *class* ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.CoordinateSystemAxisType
 
@@ -17,14 +17,14 @@ Specifies the CoordinateSystemAxisType.
 ### Attributes
 
 | Name |
-| ---------------------------------------------------------------------------------------------------------------------------------------------- |
-| [`NegativeXAxis`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/CoordinateSystemAxisType.md#CoordinateSystemAxisType.NegativeXAxis) |
-| [`NegativeYAxis`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/CoordinateSystemAxisType.md#CoordinateSystemAxisType.NegativeYAxis) |
-| [`NegativeZAxis`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/CoordinateSystemAxisType.md#CoordinateSystemAxisType.NegativeZAxis) |
-| [`Origin`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/CoordinateSystemAxisType.md#CoordinateSystemAxisType.Origin) |
-| [`PositiveXAxis`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/CoordinateSystemAxisType.md#CoordinateSystemAxisType.PositiveXAxis) |
-| [`PositiveYAxis`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/CoordinateSystemAxisType.md#CoordinateSystemAxisType.PositiveYAxis) |
-| [`PositiveZAxis`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/CoordinateSystemAxisType.md#CoordinateSystemAxisType.PositiveZAxis) |
+| -------------------------------------------------------------- |
+| [`NegativeXAxis`](#CoordinateSystemAxisType.NegativeXAxis) |
+| [`NegativeYAxis`](#CoordinateSystemAxisType.NegativeYAxis) |
+| [`NegativeZAxis`](#CoordinateSystemAxisType.NegativeZAxis) |
+| [`Origin`](#CoordinateSystemAxisType.Origin) |
+| [`PositiveXAxis`](#CoordinateSystemAxisType.PositiveXAxis) |
+| [`PositiveYAxis`](#CoordinateSystemAxisType.PositiveYAxis) |
+| [`PositiveZAxis`](#CoordinateSystemAxisType.PositiveZAxis) |
 
 <a id="attribute-detail"></a>
 

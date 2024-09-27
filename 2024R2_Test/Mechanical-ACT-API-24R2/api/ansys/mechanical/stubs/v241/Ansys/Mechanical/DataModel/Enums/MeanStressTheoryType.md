@@ -1,6 +1,6 @@
 # `MeanStressTheoryType`
 
-
+<a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.MeanStressTheoryType"></a>
 
 #### *class* ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.MeanStressTheoryType
 
@@ -17,37 +17,45 @@ Specifies the EnclosureType.
 ### Attributes
 
 | Name |
-| ------------------------------------------------------------------------------------------------------------------------------------------ |
-| [`Goodman`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/MeanStressTheoryType.md#MeanStressTheoryType.Goodman) |
-| [`Soderberg`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/MeanStressTheoryType.md#MeanStressTheoryType.Soderberg) |
-| [`Gerber`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/MeanStressTheoryType.md#MeanStressTheoryType.Gerber) |
-| [`MeanStressCurves`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/MeanStressTheoryType.md#MeanStressTheoryType.MeanStressCurves) |
-| [`NoneStrain`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/MeanStressTheoryType.md#MeanStressTheoryType.NoneStrain) |
-| [`NoneStress`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/MeanStressTheoryType.md#MeanStressTheoryType.NoneStress) |
-| [`Morrow`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/MeanStressTheoryType.md#MeanStressTheoryType.Morrow) |
-| [`SWT`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/MeanStressTheoryType.md#MeanStressTheoryType.SWT) |
-| [`MansonHalford`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/MeanStressTheoryType.md#MeanStressTheoryType.MansonHalford) |
-| [`ASMEElliptical`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/MeanStressTheoryType.md#MeanStressTheoryType.ASMEElliptical) |
+| -------------------------------------------------------------- |
+| [`ASMEElliptical`](#MeanStressTheoryType.ASMEElliptical) |
+| [`Gerber`](#MeanStressTheoryType.Gerber) |
+| [`Goodman`](#MeanStressTheoryType.Goodman) |
+| [`MansonHalford`](#MeanStressTheoryType.MansonHalford) |
+| [`MeanStressCurves`](#MeanStressTheoryType.MeanStressCurves) |
+| [`Morrow`](#MeanStressTheoryType.Morrow) |
+| [`NoneStrain`](#MeanStressTheoryType.NoneStrain) |
+| [`NoneStress`](#MeanStressTheoryType.NoneStress) |
+| [`SWT`](#MeanStressTheoryType.SWT) |
+| [`Soderberg`](#MeanStressTheoryType.Soderberg) |
 
 <a id="attribute-detail"></a>
 
 ## Attribute detail
 
-<a id="MeanStressTheoryType.Goodman"></a>
+<a id="MeanStressTheoryType.ASMEElliptical"></a>
 
-### MeanStressTheoryType.Goodman *= 0*
-
-<a id="MeanStressTheoryType.Soderberg"></a>
-
-### MeanStressTheoryType.Soderberg *= 1*
+### MeanStressTheoryType.ASMEElliptical *= 15*
 
 <a id="MeanStressTheoryType.Gerber"></a>
 
 ### MeanStressTheoryType.Gerber *= 2*
 
+<a id="MeanStressTheoryType.Goodman"></a>
+
+### MeanStressTheoryType.Goodman *= 0*
+
+<a id="MeanStressTheoryType.MansonHalford"></a>
+
+### MeanStressTheoryType.MansonHalford *= 10*
+
 <a id="MeanStressTheoryType.MeanStressCurves"></a>
 
 ### MeanStressTheoryType.MeanStressCurves *= 4*
+
+<a id="MeanStressTheoryType.Morrow"></a>
+
+### MeanStressTheoryType.Morrow *= 7*
 
 <a id="MeanStressTheoryType.NoneStrain"></a>
 
@@ -57,20 +65,12 @@ Specifies the EnclosureType.
 
 ### MeanStressTheoryType.NoneStress *= 5*
 
-<a id="MeanStressTheoryType.Morrow"></a>
-
-### MeanStressTheoryType.Morrow *= 7*
-
 <a id="MeanStressTheoryType.SWT"></a>
 
 ### MeanStressTheoryType.SWT *= 8*
 
-<a id="MeanStressTheoryType.MansonHalford"></a>
+<a id="MeanStressTheoryType.Soderberg"></a>
 
-### MeanStressTheoryType.MansonHalford *= 10*
-
-<a id="MeanStressTheoryType.ASMEElliptical"></a>
-
-### MeanStressTheoryType.ASMEElliptical *= 15*
+### MeanStressTheoryType.Soderberg *= 1*
 
 

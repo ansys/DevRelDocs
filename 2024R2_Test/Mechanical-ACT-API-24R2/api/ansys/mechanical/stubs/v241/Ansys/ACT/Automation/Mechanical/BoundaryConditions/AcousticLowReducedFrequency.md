@@ -1,6 +1,6 @@
 # `AcousticLowReducedFrequency`
 
-
+<a id="ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.BoundaryConditions.AcousticLowReducedFrequency"></a>
 
 #### *class* ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.BoundaryConditions.AcousticLowReducedFrequency
 
@@ -17,111 +17,51 @@ Defines a AcousticLowReducedFrequency.
 ### Methods
 
 | Name | Description |
-|-----------------------------|-----------------------------------------------------------------------------------|
-| `PromoteToNamedSelection`   | Run the PromoteToNamedSelection action.                                           |
-| `Delete`                    | Run the Delete action.                                                            |
-| `GetChildren`               | Gets the list of children, filtered by type.                                      |
-| `GetChildren`               | Gets the list of children, filtered by type.                                      |
-| `AddComment`                | Creates a new child Comment.                                                      |
-| `AddFigure`                 | Creates a new child Figure.                                                       |
-| `AddImage`                  | Creates a new child Image.                                                        |
-| `Activate`                  | Activate the current object.                                                      |
-| `CopyTo`                    | Copies all visible properties from this object to another.                        |
-| `Duplicate`                 | Creates a copy of the current DataModelObject.                                    |
-| `GroupAllSimilarChildren`   | Run the GroupAllSimilarChildren action.                                           |
-| `GroupSimilarObjects`       | Run the GroupSimilarObjects action.                                               |
-| `PropertyByName`            | Get a property by its unique name.                                                |
-| `PropertyByAPIName`         | Get a property by its API name.                                                   |
-| `CreateParameter`           | Creates a new parameter for a Property.                                           |
-| `GetParameter`              | Gets the parameter corresponding to the given property.                           |
-| `RemoveParameter`           | Removes the parameter from the parameter set corresponding to the given property. |
+|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------|
+| [`Activate`](#AcousticLowReducedFrequency.Activate)                               | Activate the current object.                                                      |
+| [`AddComment`](#AcousticLowReducedFrequency.AddComment)                           | Creates a new child Comment.                                                      |
+| [`AddFigure`](#AcousticLowReducedFrequency.AddFigure)                             | Creates a new child Figure.                                                       |
+| [`AddImage`](#AcousticLowReducedFrequency.AddImage)                               | Creates a new child Image.                                                        |
+| [`CopyTo`](#AcousticLowReducedFrequency.CopyTo)                                   | Copies all visible properties from this object to another.                        |
+| [`CreateParameter`](#AcousticLowReducedFrequency.CreateParameter)                 | Creates a new parameter for a Property.                                           |
+| [`Delete`](#AcousticLowReducedFrequency.Delete)                                   | Run the Delete action.                                                            |
+| [`Duplicate`](#AcousticLowReducedFrequency.Duplicate)                             | Creates a copy of the current DataModelObject.                                    |
+| [`GetChildren`](#AcousticLowReducedFrequency.GetChildren)                         | Gets the list of children, filtered by type.                                      |
+| [`GetParameter`](#AcousticLowReducedFrequency.GetParameter)                       | Gets the parameter corresponding to the given property.                           |
+| [`GroupAllSimilarChildren`](#AcousticLowReducedFrequency.GroupAllSimilarChildren) | Run the GroupAllSimilarChildren action.                                           |
+| [`GroupSimilarObjects`](#AcousticLowReducedFrequency.GroupSimilarObjects)         | Run the GroupSimilarObjects action.                                               |
+| [`PromoteToNamedSelection`](#AcousticLowReducedFrequency.PromoteToNamedSelection) | Run the PromoteToNamedSelection action.                                           |
+| [`PropertyByAPIName`](#AcousticLowReducedFrequency.PropertyByAPIName)             | Get a property by its API name.                                                   |
+| [`PropertyByName`](#AcousticLowReducedFrequency.PropertyByName)                   | Get a property by its unique name.                                                |
+| [`RemoveParameter`](#AcousticLowReducedFrequency.RemoveParameter)                 | Removes the parameter from the parameter set corresponding to the given property. |
 
 ### Properties
 
 | Name | Description |
-|----------------------------|---------------------------------------------------------------|
-| `InternalObject`           | Gets the internal object. For advanced usage only.            |
-| `HeightOfRectangle`        | Gets or sets the HeightOfRectangle.                           |
-| `RadiusOfCircle`           | Gets or sets the RadiusOfCircle.                              |
-| `ThicknessOfLayer`         | Gets or sets the ThicknessOfLayer.                            |
-| `WidthOfRectangle`         | Gets or sets the WidthOfRectangle.                            |
-| `LowReducedFrequencyModel` | Gets or sets the LowReducedFrequencyModel.                    |
-| `Location`                 | Gets or sets the Location.                                    |
-| `DataModelObjectCategory`  | Gets the current DataModelObject's category.                  |
-| `Suppressed`               | Gets or sets the Suppressed.                                  |
-| `SharedRefBody`            | Gets or sets the SharedRefBody.                               |
-| `Children`                 | Gets the list of children.                                    |
-| `Comments`                 | Gets the list of associated comments.                         |
-| `Figures`                  | Gets the list of associated figures.                          |
-| `Images`                   | Gets the list of associated images.                           |
-| `ReadOnly`                 | Gets or sets the ReadOnly.                                    |
-| `InternalObject`           | Gets the internal object. For advanced usage only.            |
-| `Properties`               | Gets the list of properties for this object.                  |
-| `VisibleProperties`        | Gets the list of properties that are visible for this object. |
+|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------|
+| [`Children`](#AcousticLowReducedFrequency.Children)                                 | Gets the list of children.                                    |
+| [`Comments`](#AcousticLowReducedFrequency.Comments)                                 | Gets the list of associated comments.                         |
+| [`DataModelObjectCategory`](#AcousticLowReducedFrequency.DataModelObjectCategory)   | Gets the current DataModelObject’s category.                  |
+| [`Figures`](#AcousticLowReducedFrequency.Figures)                                   | Gets the list of associated figures.                          |
+| [`HeightOfRectangle`](#AcousticLowReducedFrequency.HeightOfRectangle)               | Gets or sets the HeightOfRectangle.                           |
+| [`Images`](#AcousticLowReducedFrequency.Images)                                     | Gets the list of associated images.                           |
+| [`InternalObject`](#AcousticLowReducedFrequency.InternalObject)                     | Gets the internal object. For advanced usage only.            |
+| [`Location`](#AcousticLowReducedFrequency.Location)                                 | Gets or sets the Location.                                    |
+| [`LowReducedFrequencyModel`](#AcousticLowReducedFrequency.LowReducedFrequencyModel) | Gets or sets the LowReducedFrequencyModel.                    |
+| [`Properties`](#AcousticLowReducedFrequency.Properties)                             | Gets the list of properties for this object.                  |
+| [`RadiusOfCircle`](#AcousticLowReducedFrequency.RadiusOfCircle)                     | Gets or sets the RadiusOfCircle.                              |
+| [`ReadOnly`](#AcousticLowReducedFrequency.ReadOnly)                                 | Gets or sets the ReadOnly.                                    |
+| [`SharedRefBody`](#AcousticLowReducedFrequency.SharedRefBody)                       | Gets or sets the SharedRefBody.                               |
+| [`Suppressed`](#AcousticLowReducedFrequency.Suppressed)                             | Gets or sets the Suppressed.                                  |
+| [`ThicknessOfLayer`](#AcousticLowReducedFrequency.ThicknessOfLayer)                 | Gets or sets the ThicknessOfLayer.                            |
+| [`VisibleProperties`](#AcousticLowReducedFrequency.VisibleProperties)               | Gets the list of properties that are visible for this object. |
+| [`WidthOfRectangle`](#AcousticLowReducedFrequency.WidthOfRectangle)                 | Gets or sets the WidthOfRectangle.                            |
 
 <a id="property-detail"></a>
 
 ## Property detail
 
-### *property* AcousticLowReducedFrequency.InternalObject *: Ansys.Common.Interop.DSObjectsAuto.IDSLoadAuto | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets the internal object. For advanced usage only.
-
-<!-- !! processed by numpydoc !! -->
-
-### *property* AcousticLowReducedFrequency.HeightOfRectangle *: [Ansys.ACT.Mechanical.Fields.Field](../../../Mechanical/Fields/Field.md#ansys.mechanical.stubs.v241.Ansys.ACT.Mechanical.Fields.Field) | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the HeightOfRectangle.
-
-<!-- !! processed by numpydoc !! -->
-
-### *property* AcousticLowReducedFrequency.RadiusOfCircle *: [Ansys.ACT.Mechanical.Fields.Field](../../../Mechanical/Fields/Field.md#ansys.mechanical.stubs.v241.Ansys.ACT.Mechanical.Fields.Field) | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the RadiusOfCircle.
-
-<!-- !! processed by numpydoc !! -->
-
-### *property* AcousticLowReducedFrequency.ThicknessOfLayer *: [Ansys.ACT.Mechanical.Fields.Field](../../../Mechanical/Fields/Field.md#ansys.mechanical.stubs.v241.Ansys.ACT.Mechanical.Fields.Field) | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the ThicknessOfLayer.
-
-<!-- !! processed by numpydoc !! -->
-
-### *property* AcousticLowReducedFrequency.WidthOfRectangle *: [Ansys.ACT.Mechanical.Fields.Field](../../../Mechanical/Fields/Field.md#ansys.mechanical.stubs.v241.Ansys.ACT.Mechanical.Fields.Field) | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the WidthOfRectangle.
-
-<!-- !! processed by numpydoc !! -->
-
-### *property* AcousticLowReducedFrequency.LowReducedFrequencyModel *: [Ansys.Mechanical.DataModel.Enums.LowReducedFrequencyModelType](../../../../Mechanical/DataModel/Enums/LowReducedFrequencyModelType.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.LowReducedFrequencyModelType) | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the LowReducedFrequencyModel.
-
-<!-- !! processed by numpydoc !! -->
-
-### *property* AcousticLowReducedFrequency.Location *: Ansys.ACT.Interfaces.Common.ISelectionInfo | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the Location.
-
-<!-- !! processed by numpydoc !! -->
-
-### *property* AcousticLowReducedFrequency.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets the current DataModelObject's category.
-
-<!-- !! processed by numpydoc !! -->
-
-### *property* AcousticLowReducedFrequency.Suppressed *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the Suppressed.
-
-<!-- !! processed by numpydoc !! -->
-
-### *property* AcousticLowReducedFrequency.SharedRefBody *: [Ansys.ACT.Automation.Mechanical.Body](../Body.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Body) | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the SharedRefBody.
-
-<!-- !! processed by numpydoc !! -->
+<a id="AcousticLowReducedFrequency.Children"></a>
 
 ### *property* AcousticLowReducedFrequency.Children *: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -129,11 +69,23 @@ Gets the list of children.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="AcousticLowReducedFrequency.Comments"></a>
+
 ### *property* AcousticLowReducedFrequency.Comments *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Comment](../Comment.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated comments.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="AcousticLowReducedFrequency.DataModelObjectCategory"></a>
+
+### *property* AcousticLowReducedFrequency.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../../v242/Ansys/Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets the current DataModelObject’s category.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="AcousticLowReducedFrequency.Figures"></a>
 
 ### *property* AcousticLowReducedFrequency.Figures *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Figure](../Figure.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -141,23 +93,47 @@ Gets the list of associated figures.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="AcousticLowReducedFrequency.HeightOfRectangle"></a>
+
+### *property* AcousticLowReducedFrequency.HeightOfRectangle *: [Ansys.ACT.Mechanical.Fields.Field](../../../../../../v242/Ansys/ACT/Mechanical/Fields/Field.md#ansys.mechanical.stubs.v242.Ansys.ACT.Mechanical.Fields.Field) | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the HeightOfRectangle.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="AcousticLowReducedFrequency.Images"></a>
+
 ### *property* AcousticLowReducedFrequency.Images *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Image](../Image.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated images.
 
 <!-- !! processed by numpydoc !! -->
 
-### *property* AcousticLowReducedFrequency.ReadOnly *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+<a id="AcousticLowReducedFrequency.InternalObject"></a>
 
-Gets or sets the ReadOnly.
-
-<!-- !! processed by numpydoc !! -->
-
-### *property* AcousticLowReducedFrequency.InternalObject *: System.Object | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AcousticLowReducedFrequency.InternalObject *: Ansys.Common.Interop.DSObjectsAuto.IDSLoadAuto | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the internal object. For advanced usage only.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="AcousticLowReducedFrequency.Location"></a>
+
+### *property* AcousticLowReducedFrequency.Location *: Ansys.ACT.Interfaces.Common.ISelectionInfo | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the Location.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="AcousticLowReducedFrequency.LowReducedFrequencyModel"></a>
+
+### *property* AcousticLowReducedFrequency.LowReducedFrequencyModel *: [Ansys.Mechanical.DataModel.Enums.LowReducedFrequencyModelType](../../../../../../v242/Ansys/Mechanical/DataModel/Enums/LowReducedFrequencyModelType.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.LowReducedFrequencyModelType) | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the LowReducedFrequencyModel.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="AcousticLowReducedFrequency.Properties"></a>
 
 ### *property* AcousticLowReducedFrequency.Properties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
@@ -165,9 +141,59 @@ Gets the list of properties for this object.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="AcousticLowReducedFrequency.RadiusOfCircle"></a>
+
+### *property* AcousticLowReducedFrequency.RadiusOfCircle *: [Ansys.ACT.Mechanical.Fields.Field](../../../../../../v242/Ansys/ACT/Mechanical/Fields/Field.md#ansys.mechanical.stubs.v242.Ansys.ACT.Mechanical.Fields.Field) | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the RadiusOfCircle.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="AcousticLowReducedFrequency.ReadOnly"></a>
+
+### *property* AcousticLowReducedFrequency.ReadOnly *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the ReadOnly.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="AcousticLowReducedFrequency.SharedRefBody"></a>
+
+### *property* AcousticLowReducedFrequency.SharedRefBody *: [Ansys.ACT.Automation.Mechanical.Body](../Body.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Body) | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the SharedRefBody.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="AcousticLowReducedFrequency.Suppressed"></a>
+
+### *property* AcousticLowReducedFrequency.Suppressed *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the Suppressed.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="AcousticLowReducedFrequency.ThicknessOfLayer"></a>
+
+### *property* AcousticLowReducedFrequency.ThicknessOfLayer *: [Ansys.ACT.Mechanical.Fields.Field](../../../../../../v242/Ansys/ACT/Mechanical/Fields/Field.md#ansys.mechanical.stubs.v242.Ansys.ACT.Mechanical.Fields.Field) | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the ThicknessOfLayer.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="AcousticLowReducedFrequency.VisibleProperties"></a>
+
 ### *property* AcousticLowReducedFrequency.VisibleProperties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of properties that are visible for this object.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="AcousticLowReducedFrequency.WidthOfRectangle"></a>
+
+### *property* AcousticLowReducedFrequency.WidthOfRectangle *: [Ansys.ACT.Mechanical.Fields.Field](../../../../../../v242/Ansys/ACT/Mechanical/Fields/Field.md#ansys.mechanical.stubs.v242.Ansys.ACT.Mechanical.Fields.Field) | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the WidthOfRectangle.
 
 <!-- !! processed by numpydoc !! -->
 
@@ -175,29 +201,15 @@ Gets the list of properties that are visible for this object.
 
 ## Method detail
 
-### AcousticLowReducedFrequency.PromoteToNamedSelection()
+<a id="AcousticLowReducedFrequency.Activate"></a>
 
-Run the PromoteToNamedSelection action.
+### AcousticLowReducedFrequency.Activate()
 
-<!-- !! processed by numpydoc !! -->
-
-### AcousticLowReducedFrequency.Delete()
-
-Run the Delete action.
+Activate the current object.
 
 <!-- !! processed by numpydoc !! -->
 
-### AcousticLowReducedFrequency.GetChildren(recurses: System.Boolean, children: System.Collections.Generic.IList[ChildrenType])
-
-Gets the list of children, filtered by type.
-
-<!-- !! processed by numpydoc !! -->
-
-### AcousticLowReducedFrequency.GetChildren(category: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory), recurses: System.Boolean, children: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject])
-
-Gets the list of children, filtered by type.
-
-<!-- !! processed by numpydoc !! -->
+<a id="AcousticLowReducedFrequency.AddComment"></a>
 
 ### AcousticLowReducedFrequency.AddComment()
 
@@ -205,11 +217,15 @@ Creates a new child Comment.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="AcousticLowReducedFrequency.AddFigure"></a>
+
 ### AcousticLowReducedFrequency.AddFigure()
 
 Creates a new child Figure.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="AcousticLowReducedFrequency.AddImage"></a>
 
 ### AcousticLowReducedFrequency.AddImage(filePath: System.String)
 
@@ -221,11 +237,7 @@ if not, the image will be a screen capture of the Geometry window.
 
 <!-- !! processed by numpydoc !! -->
 
-### AcousticLowReducedFrequency.Activate()
-
-Activate the current object.
-
-<!-- !! processed by numpydoc !! -->
+<a id="AcousticLowReducedFrequency.CopyTo"></a>
 
 ### AcousticLowReducedFrequency.CopyTo(other: Ansys.ACT.Automation.Mechanical.DataModelObject)
 
@@ -233,11 +245,47 @@ Copies all visible properties from this object to another.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="AcousticLowReducedFrequency.CreateParameter"></a>
+
+### AcousticLowReducedFrequency.CreateParameter(propName: System.String)
+
+Creates a new parameter for a Property.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="AcousticLowReducedFrequency.Delete"></a>
+
+### AcousticLowReducedFrequency.Delete()
+
+Run the Delete action.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="AcousticLowReducedFrequency.Duplicate"></a>
+
 ### AcousticLowReducedFrequency.Duplicate()
 
 Creates a copy of the current DataModelObject.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="AcousticLowReducedFrequency.GetChildren"></a>
+
+### AcousticLowReducedFrequency.GetChildren(recurses: System.Boolean, children: System.Collections.Generic.IList[ChildrenType])
+
+Gets the list of children, filtered by type.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="AcousticLowReducedFrequency.GetParameter"></a>
+
+### AcousticLowReducedFrequency.GetParameter(propName: System.String)
+
+Gets the parameter corresponding to the given property.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="AcousticLowReducedFrequency.GroupAllSimilarChildren"></a>
 
 ### AcousticLowReducedFrequency.GroupAllSimilarChildren()
 
@@ -245,17 +293,23 @@ Run the GroupAllSimilarChildren action.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="AcousticLowReducedFrequency.GroupSimilarObjects"></a>
+
 ### AcousticLowReducedFrequency.GroupSimilarObjects()
 
 Run the GroupSimilarObjects action.
 
 <!-- !! processed by numpydoc !! -->
 
-### AcousticLowReducedFrequency.PropertyByName(name: System.String)
+<a id="AcousticLowReducedFrequency.PromoteToNamedSelection"></a>
 
-Get a property by its unique name.
+### AcousticLowReducedFrequency.PromoteToNamedSelection()
+
+Run the PromoteToNamedSelection action.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="AcousticLowReducedFrequency.PropertyByAPIName"></a>
 
 ### AcousticLowReducedFrequency.PropertyByAPIName(name: System.String)
 
@@ -266,17 +320,15 @@ If multiple properties have the same API Name, only the first property with that
 
 <!-- !! processed by numpydoc !! -->
 
-### AcousticLowReducedFrequency.CreateParameter(propName: System.String)
+<a id="AcousticLowReducedFrequency.PropertyByName"></a>
 
-Creates a new parameter for a Property.
+### AcousticLowReducedFrequency.PropertyByName(name: System.String)
 
-<!-- !! processed by numpydoc !! -->
-
-### AcousticLowReducedFrequency.GetParameter(propName: System.String)
-
-Gets the parameter corresponding to the given property.
+Get a property by its unique name.
 
 <!-- !! processed by numpydoc !! -->
+
+<a id="AcousticLowReducedFrequency.RemoveParameter"></a>
 
 ### AcousticLowReducedFrequency.RemoveParameter(propName: System.String)
 

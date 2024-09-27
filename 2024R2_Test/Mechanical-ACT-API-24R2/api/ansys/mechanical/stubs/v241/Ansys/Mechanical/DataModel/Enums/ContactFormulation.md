@@ -1,6 +1,6 @@
 # `ContactFormulation`
 
-
+<a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.ContactFormulation"></a>
 
 #### *class* ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.ContactFormulation
 
@@ -17,14 +17,14 @@ Specifies the ContactFormulation.
 ### Attributes
 
 | Name |
-| ------------------------------------------------------------------------------------------------------------------------------------------ |
-| [`AugmentedLagrange`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/ContactFormulation.md#ContactFormulation.AugmentedLagrange) |
-| [`Beam`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/ContactFormulation.md#ContactFormulation.Beam) |
-| [`NormalLagrange`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/ContactFormulation.md#ContactFormulation.NormalLagrange) |
-| [`MPC`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/ContactFormulation.md#ContactFormulation.MPC) |
-| [`ProgramControlled`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/ContactFormulation.md#ContactFormulation.ProgramControlled) |
-| [`PureLagrange`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/ContactFormulation.md#ContactFormulation.PureLagrange) |
-| [`PurePenalty`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/ContactFormulation.md#ContactFormulation.PurePenalty) |
+| ---------------------------------------------------------------- |
+| [`AugmentedLagrange`](#ContactFormulation.AugmentedLagrange) |
+| [`Beam`](#ContactFormulation.Beam) |
+| [`MPC`](#ContactFormulation.MPC) |
+| [`NormalLagrange`](#ContactFormulation.NormalLagrange) |
+| [`ProgramControlled`](#ContactFormulation.ProgramControlled) |
+| [`PureLagrange`](#ContactFormulation.PureLagrange) |
+| [`PurePenalty`](#ContactFormulation.PurePenalty) |
 
 <a id="attribute-detail"></a>
 
@@ -38,13 +38,13 @@ Specifies the ContactFormulation.
 
 ### ContactFormulation.Beam *= 4*
 
-<a id="ContactFormulation.NormalLagrange"></a>
-
-### ContactFormulation.NormalLagrange *= 3*
-
 <a id="ContactFormulation.MPC"></a>
 
 ### ContactFormulation.MPC *= 2*
+
+<a id="ContactFormulation.NormalLagrange"></a>
+
+### ContactFormulation.NormalLagrange *= 3*
 
 <a id="ContactFormulation.ProgramControlled"></a>
 

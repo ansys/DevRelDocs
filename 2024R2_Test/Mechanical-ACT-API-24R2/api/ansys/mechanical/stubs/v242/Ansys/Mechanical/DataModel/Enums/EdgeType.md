@@ -1,6 +1,6 @@
 # `EdgeType`
 
-
+<a id="ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.EdgeType"></a>
 
 #### *class* ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.EdgeType
 
@@ -17,30 +17,30 @@ Specifies the EdgeType.
 ### Attributes
 
 | Name |
-| -------------------------------- |
-| [`Line`](#EdgeType.Line) |
+| ------------------------------------------------------------------------------------------------ |
 | [`Circle`](#EdgeType.Circle) |
-| [`Spline`](#EdgeType.Spline) |
 | [`Faceted`](#EdgeType.Faceted) |
+| [`Line`](#EdgeType.Line) |
+| [`Spline`](#EdgeType.Spline) |
 
 <a id="attribute-detail"></a>
 
 ## Attribute detail
 
-<a id="EdgeType.Line"></a>
-
-### EdgeType.Line *= 1*
-
 <a id="EdgeType.Circle"></a>
 
 ### EdgeType.Circle *= 3*
 
-<a id="EdgeType.Spline"></a>
-
-### EdgeType.Spline *= 7*
-
 <a id="EdgeType.Faceted"></a>
 
 ### EdgeType.Faceted *= 8*
+
+<a id="EdgeType.Line"></a>
+
+### EdgeType.Line *= 1*
+
+<a id="EdgeType.Spline"></a>
+
+### EdgeType.Spline *= 7*
 
 
