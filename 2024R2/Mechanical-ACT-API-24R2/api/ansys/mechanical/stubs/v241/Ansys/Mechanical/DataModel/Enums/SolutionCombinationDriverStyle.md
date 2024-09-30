@@ -1,6 +1,6 @@
 # `SolutionCombinationDriverStyle`
 
-
+<a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.SolutionCombinationDriverStyle"></a>
 
 #### *class* ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.SolutionCombinationDriverStyle
 
@@ -17,12 +17,12 @@ Specifies the SolutionCombinationDriverStyle.
 ### Attributes
 
 | Name |
-| ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| [`CombinationOfMaximum`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/SolutionCombinationDriverStyle.md#SolutionCombinationDriverStyle.CombinationOfMaximum) |
-| [`CombinationOfMinimum`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/SolutionCombinationDriverStyle.md#SolutionCombinationDriverStyle.CombinationOfMinimum) |
-| [`Default`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/SolutionCombinationDriverStyle.md#SolutionCombinationDriverStyle.Default) |
-| [`MaximumOverCombinations`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/SolutionCombinationDriverStyle.md#SolutionCombinationDriverStyle.MaximumOverCombinations) |
-| [`MinimumOverCombinations`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/SolutionCombinationDriverStyle.md#SolutionCombinationDriverStyle.MinimumOverCombinations) |
+| -------------------------------------------------------------------------------------- |
+| [`CombinationOfMaximum`](#SolutionCombinationDriverStyle.CombinationOfMaximum) |
+| [`CombinationOfMinimum`](#SolutionCombinationDriverStyle.CombinationOfMinimum) |
+| [`Default`](#SolutionCombinationDriverStyle.Default) |
+| [`MaximumOverCombinations`](#SolutionCombinationDriverStyle.MaximumOverCombinations) |
+| [`MinimumOverCombinations`](#SolutionCombinationDriverStyle.MinimumOverCombinations) |
 
 <a id="attribute-detail"></a>
 

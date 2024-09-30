@@ -1,6 +1,6 @@
 # `EdgeContactType`
 
-
+<a id="ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.EdgeContactType"></a>
 
 #### *class* ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.EdgeContactType
 
@@ -17,7 +17,7 @@ Specifies the EdgeContactType.
 ### Attributes
 
 | Name |
-| ----------------------------------------------------------- |
+| ---------------------------------------------------------------------------------------------------------------------------------- |
 | [`LineSegments`](#EdgeContactType.LineSegments) |
 | [`NodesOnEdge`](#EdgeContactType.NodesOnEdge) |
 | [`ProgramControlled`](#EdgeContactType.ProgramControlled) |

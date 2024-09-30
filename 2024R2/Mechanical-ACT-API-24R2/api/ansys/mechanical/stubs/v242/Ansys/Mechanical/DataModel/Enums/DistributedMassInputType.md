@@ -1,6 +1,6 @@
 # `DistributedMassInputType`
 
-
+<a id="ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.DistributedMassInputType"></a>
 
 #### *class* ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.DistributedMassInputType
 
@@ -17,7 +17,7 @@ Specifies the DistributedMassInputType.
 ### Attributes
 
 | Name |
-| ------------------------------------------------------------------ |
+| -------------------------------------------------------------------------------------------------------------------------------------------------- |
 | [`MassPerUnitArea`](#DistributedMassInputType.MassPerUnitArea) |
 | [`TotalMass`](#DistributedMassInputType.TotalMass) |
 

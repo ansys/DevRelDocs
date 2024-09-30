@@ -1,6 +1,6 @@
 # `MeshControlPinchGeomtryType`
 
-
+<a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.MeshControlPinchGeomtryType"></a>
 
 #### *class* ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.MeshControlPinchGeomtryType
 
@@ -17,11 +17,11 @@ Specifies the MeshControlPinchGeomtryType.
 ### Attributes
 
 | Name |
-| ------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| [`AddPinchMaster`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/MeshControlPinchGeomtryType.md#MeshControlPinchGeomtryType.AddPinchMaster) |
-| [`AddPinchSlave`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/MeshControlPinchGeomtryType.md#MeshControlPinchGeomtryType.AddPinchSlave) |
-| [`SetPinchMaster`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/MeshControlPinchGeomtryType.md#MeshControlPinchGeomtryType.SetPinchMaster) |
-| [`SetPinchSlave`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/MeshControlPinchGeomtryType.md#MeshControlPinchGeomtryType.SetPinchSlave) |
+| ------------------------------------------------------------------- |
+| [`AddPinchMaster`](#MeshControlPinchGeomtryType.AddPinchMaster) |
+| [`AddPinchSlave`](#MeshControlPinchGeomtryType.AddPinchSlave) |
+| [`SetPinchMaster`](#MeshControlPinchGeomtryType.SetPinchMaster) |
+| [`SetPinchSlave`](#MeshControlPinchGeomtryType.SetPinchSlave) |
 
 <a id="attribute-detail"></a>
 

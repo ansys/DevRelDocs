@@ -1,6 +1,6 @@
 # `FractureTool`
 
-
+<a id="ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Results.FractureToolResults.FractureTool"></a>
 
 #### *class* ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Results.FractureToolResults.FractureTool
 
@@ -17,133 +17,67 @@ Defines a FractureTool.
 ### Methods
 
 | Name | Description |
-|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------|
-| [`AddSIFSK1`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/FractureToolResults/FractureTool.md#FractureTool.AddSIFSK1)                                     | Creates a new FractureSIFSK1                                                      |
-| [`AddSIFSK2`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/FractureToolResults/FractureTool.md#FractureTool.AddSIFSK2)                                     | Creates a new FractureSIFSK2                                                      |
-| [`AddSIFSK3`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/FractureToolResults/FractureTool.md#FractureTool.AddSIFSK3)                                     | Creates a new FractureSIFSK3                                                      |
-| [`AddJINT`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/FractureToolResults/FractureTool.md#FractureTool.AddJINT)                                         | Creates a new FractureJINT                                                        |
-| [`AddMaterialForceX`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/FractureToolResults/FractureTool.md#FractureTool.AddMaterialForceX)                     | Creates a new FractureMaterialForceX                                              |
-| [`AddMaterialForceY`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/FractureToolResults/FractureTool.md#FractureTool.AddMaterialForceY)                     | Creates a new FractureMaterialForceY                                              |
-| [`AddMaterialForceZ`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/FractureToolResults/FractureTool.md#FractureTool.AddMaterialForceZ)                     | Creates a new FractureMaterialForceZ                                              |
-| [`AddTSTRESS`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/FractureToolResults/FractureTool.md#FractureTool.AddTSTRESS)                                   | Creates a new FractureTSTRESS                                                     |
-| [`AddVCCTG1`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/FractureToolResults/FractureTool.md#FractureTool.AddVCCTG1)                                     | Creates a new FractureVCCTG1                                                      |
-| [`AddVCCTG2`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/FractureToolResults/FractureTool.md#FractureTool.AddVCCTG2)                                     | Creates a new FractureVCCTG2                                                      |
-| [`AddVCCTG3`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/FractureToolResults/FractureTool.md#FractureTool.AddVCCTG3)                                     | Creates a new FractureVCCTG3                                                      |
-| [`AddVCCTGT`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/FractureToolResults/FractureTool.md#FractureTool.AddVCCTGT)                                     | Creates a new FractureVCCTGT                                                      |
-| [`AddCStarIntegral`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/FractureToolResults/FractureTool.md#FractureTool.AddCStarIntegral)                       | Creates a new FractureCSTAR                                                       |
-| [`AddEquivalentSIFSRange`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/FractureToolResults/FractureTool.md#FractureTool.AddEquivalentSIFSRange)           | Creates a new FractureEquivalentSIFSRange                                         |
-| [`EvaluateAllResults`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/FractureToolResults/FractureTool.md#FractureTool.EvaluateAllResults)                   | Run the EvaluateAllResults action.                                                |
-| [`AddCrackExtensionProbe`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/FractureToolResults/FractureTool.md#FractureTool.AddCrackExtensionProbe)           | Creates a new FractureCrackExtensionProbe                                         |
-| [`AddEquivalentSIFSRangeProbe`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/FractureToolResults/FractureTool.md#FractureTool.AddEquivalentSIFSRangeProbe) | Creates a new FractureEquivalentSIFSRangeProbe                                    |
-| [`AddJINTProbe`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/FractureToolResults/FractureTool.md#FractureTool.AddJINTProbe)                               | Creates a new FractureJINTProbe                                                   |
-| [`AddSIFSK1Probe`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/FractureToolResults/FractureTool.md#FractureTool.AddSIFSK1Probe)                           | Creates a new FractureSIFSProbe                                                   |
-| [`AddSIFSK2Probe`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/FractureToolResults/FractureTool.md#FractureTool.AddSIFSK2Probe)                           | Creates a new FractureSIFSProbe                                                   |
-| [`AddSIFSK3Probe`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/FractureToolResults/FractureTool.md#FractureTool.AddSIFSK3Probe)                           | Creates a new FractureSIFSProbe                                                   |
-| [`AddNumberOfCyclesProbe`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/FractureToolResults/FractureTool.md#FractureTool.AddNumberOfCyclesProbe)           | Creates a new FractureTotalNumberOfCyclesProbe                                    |
-| [`Delete`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/FractureToolResults/FractureTool.md#FractureTool.Delete)                                           | Run the Delete action.                                                            |
-| [`GetChildren`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/FractureToolResults/FractureTool.md#id1)                                                      | Gets the list of children, filtered by type.                                      |
-| [`GetChildren`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/FractureToolResults/FractureTool.md#id1)                                                      | Gets the list of children, filtered by type.                                      |
-| [`AddComment`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/FractureToolResults/FractureTool.md#FractureTool.AddComment)                                   | Creates a new child Comment.                                                      |
-| [`AddFigure`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/FractureToolResults/FractureTool.md#FractureTool.AddFigure)                                     | Creates a new child Figure.                                                       |
-| [`AddImage`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/FractureToolResults/FractureTool.md#FractureTool.AddImage)                                       | Creates a new child Image.                                                        |
-| [`Activate`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/FractureToolResults/FractureTool.md#FractureTool.Activate)                                       | Activate the current object.                                                      |
-| [`CopyTo`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/FractureToolResults/FractureTool.md#FractureTool.CopyTo)                                           | Copies all visible properties from this object to another.                        |
-| [`Duplicate`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/FractureToolResults/FractureTool.md#FractureTool.Duplicate)                                     | Creates a copy of the current DataModelObject.                                    |
-| [`GroupAllSimilarChildren`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/FractureToolResults/FractureTool.md#FractureTool.GroupAllSimilarChildren)         | Run the GroupAllSimilarChildren action.                                           |
-| [`GroupSimilarObjects`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/FractureToolResults/FractureTool.md#FractureTool.GroupSimilarObjects)                 | Run the GroupSimilarObjects action.                                               |
-| [`PropertyByName`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/FractureToolResults/FractureTool.md#FractureTool.PropertyByName)                           | Get a property by its unique name.                                                |
-| [`PropertyByAPIName`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/FractureToolResults/FractureTool.md#FractureTool.PropertyByAPIName)                     | Get a property by its API name.                                                   |
-| [`CreateParameter`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/FractureToolResults/FractureTool.md#FractureTool.CreateParameter)                         | Creates a new parameter for a Property.                                           |
-| [`GetParameter`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/FractureToolResults/FractureTool.md#FractureTool.GetParameter)                               | Gets the parameter corresponding to the given property.                           |
-| [`RemoveParameter`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/FractureToolResults/FractureTool.md#FractureTool.RemoveParameter)                         | Removes the parameter from the parameter set corresponding to the given property. |
+|----------------------------------------------------------------------------|-----------------------------------------------------------------------------------|
+| [`Activate`](#FractureTool.Activate)                                       | Activate the current object.                                                      |
+| [`AddCStarIntegral`](#FractureTool.AddCStarIntegral)                       | Creates a new FractureCSTAR                                                       |
+| [`AddComment`](#FractureTool.AddComment)                                   | Creates a new child Comment.                                                      |
+| [`AddCrackExtensionProbe`](#FractureTool.AddCrackExtensionProbe)           | Creates a new FractureCrackExtensionProbe                                         |
+| [`AddEquivalentSIFSRange`](#FractureTool.AddEquivalentSIFSRange)           | Creates a new FractureEquivalentSIFSRange                                         |
+| [`AddEquivalentSIFSRangeProbe`](#FractureTool.AddEquivalentSIFSRangeProbe) | Creates a new FractureEquivalentSIFSRangeProbe                                    |
+| [`AddFigure`](#FractureTool.AddFigure)                                     | Creates a new child Figure.                                                       |
+| [`AddImage`](#FractureTool.AddImage)                                       | Creates a new child Image.                                                        |
+| [`AddJINT`](#FractureTool.AddJINT)                                         | Creates a new FractureJINT                                                        |
+| [`AddJINTProbe`](#FractureTool.AddJINTProbe)                               | Creates a new FractureJINTProbe                                                   |
+| [`AddMaterialForceX`](#FractureTool.AddMaterialForceX)                     | Creates a new FractureMaterialForceX                                              |
+| [`AddMaterialForceY`](#FractureTool.AddMaterialForceY)                     | Creates a new FractureMaterialForceY                                              |
+| [`AddMaterialForceZ`](#FractureTool.AddMaterialForceZ)                     | Creates a new FractureMaterialForceZ                                              |
+| [`AddNumberOfCyclesProbe`](#FractureTool.AddNumberOfCyclesProbe)           | Creates a new FractureTotalNumberOfCyclesProbe                                    |
+| [`AddSIFSK1`](#FractureTool.AddSIFSK1)                                     | Creates a new FractureSIFSK1                                                      |
+| [`AddSIFSK1Probe`](#FractureTool.AddSIFSK1Probe)                           | Creates a new FractureSIFSProbe                                                   |
+| [`AddSIFSK2`](#FractureTool.AddSIFSK2)                                     | Creates a new FractureSIFSK2                                                      |
+| [`AddSIFSK2Probe`](#FractureTool.AddSIFSK2Probe)                           | Creates a new FractureSIFSProbe                                                   |
+| [`AddSIFSK3`](#FractureTool.AddSIFSK3)                                     | Creates a new FractureSIFSK3                                                      |
+| [`AddSIFSK3Probe`](#FractureTool.AddSIFSK3Probe)                           | Creates a new FractureSIFSProbe                                                   |
+| [`AddTSTRESS`](#FractureTool.AddTSTRESS)                                   | Creates a new FractureTSTRESS                                                     |
+| [`AddVCCTG1`](#FractureTool.AddVCCTG1)                                     | Creates a new FractureVCCTG1                                                      |
+| [`AddVCCTG2`](#FractureTool.AddVCCTG2)                                     | Creates a new FractureVCCTG2                                                      |
+| [`AddVCCTG3`](#FractureTool.AddVCCTG3)                                     | Creates a new FractureVCCTG3                                                      |
+| [`AddVCCTGT`](#FractureTool.AddVCCTGT)                                     | Creates a new FractureVCCTGT                                                      |
+| [`CopyTo`](#FractureTool.CopyTo)                                           | Copies all visible properties from this object to another.                        |
+| [`CreateParameter`](#FractureTool.CreateParameter)                         | Creates a new parameter for a Property.                                           |
+| [`Delete`](#FractureTool.Delete)                                           | Run the Delete action.                                                            |
+| [`Duplicate`](#FractureTool.Duplicate)                                     | Creates a copy of the current DataModelObject.                                    |
+| [`EvaluateAllResults`](#FractureTool.EvaluateAllResults)                   | Run the EvaluateAllResults action.                                                |
+| [`GetChildren`](#FractureTool.GetChildren)                                 | Gets the list of children, filtered by type.                                      |
+| [`GetParameter`](#FractureTool.GetParameter)                               | Gets the parameter corresponding to the given property.                           |
+| [`GroupAllSimilarChildren`](#FractureTool.GroupAllSimilarChildren)         | Run the GroupAllSimilarChildren action.                                           |
+| [`GroupSimilarObjects`](#FractureTool.GroupSimilarObjects)                 | Run the GroupSimilarObjects action.                                               |
+| [`PropertyByAPIName`](#FractureTool.PropertyByAPIName)                     | Get a property by its API name.                                                   |
+| [`PropertyByName`](#FractureTool.PropertyByName)                           | Get a property by its unique name.                                                |
+| [`RemoveParameter`](#FractureTool.RemoveParameter)                         | Removes the parameter from the parameter set corresponding to the given property. |
 
 ### Properties
 
 | Name | Description |
-|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------|
-| [`MultipleCracksSelection`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/FractureToolResults/FractureTool.md#FractureTool.MultipleCracksSelection)   | Get/Set multiple cracks to Fracture tool                      |
-| [`InternalObject`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/FractureToolResults/FractureTool.md#id0)                                             | Gets the internal object. For advanced usage only.            |
-| [`CrackFrontNumber`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/FractureToolResults/FractureTool.md#FractureTool.CrackFrontNumber)                 | Gets or sets the CrackFrontNumber.                            |
-| [`CrackSelectionMode`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/FractureToolResults/FractureTool.md#FractureTool.CrackSelectionMode)             | Gets or sets the CrackSelectionMode.                          |
-| [`ScopingMethod`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/FractureToolResults/FractureTool.md#FractureTool.ScopingMethod)                       | Gets or sets the ScopingMethod.                               |
-| [`Suppressed`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/FractureToolResults/FractureTool.md#FractureTool.Suppressed)                             | Gets or sets the Suppressed.                                  |
-| [`CrackSelection`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/FractureToolResults/FractureTool.md#FractureTool.CrackSelection)                     | Gets or sets the CrackSelection.                              |
-| [`DataModelObjectCategory`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/FractureToolResults/FractureTool.md#FractureTool.DataModelObjectCategory)   | Gets the current DataModelObject's category.                  |
-| [`Children`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/FractureToolResults/FractureTool.md#FractureTool.Children)                                 | Gets the list of children.                                    |
-| [`Comments`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/FractureToolResults/FractureTool.md#FractureTool.Comments)                                 | Gets the list of associated comments.                         |
-| [`Figures`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/FractureToolResults/FractureTool.md#FractureTool.Figures)                                   | Gets the list of associated figures.                          |
-| [`Images`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/FractureToolResults/FractureTool.md#FractureTool.Images)                                     | Gets the list of associated images.                           |
-| [`InternalObject`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/FractureToolResults/FractureTool.md#id0)                                             | Gets the internal object. For advanced usage only.            |
-| [`Properties`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/FractureToolResults/FractureTool.md#FractureTool.Properties)                             | Gets the list of properties for this object.                  |
-| [`VisibleProperties`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/FractureToolResults/FractureTool.md#FractureTool.VisibleProperties)               | Gets the list of properties that are visible for this object. |
+|--------------------------------------------------------------------|---------------------------------------------------------------|
+| [`Children`](#FractureTool.Children)                               | Gets the list of children.                                    |
+| [`Comments`](#FractureTool.Comments)                               | Gets the list of associated comments.                         |
+| [`CrackFrontNumber`](#FractureTool.CrackFrontNumber)               | Gets or sets the CrackFrontNumber.                            |
+| [`CrackSelection`](#FractureTool.CrackSelection)                   | Gets or sets the CrackSelection.                              |
+| [`CrackSelectionMode`](#FractureTool.CrackSelectionMode)           | Gets or sets the CrackSelectionMode.                          |
+| [`DataModelObjectCategory`](#FractureTool.DataModelObjectCategory) | Gets the current DataModelObject’s category.                  |
+| [`Figures`](#FractureTool.Figures)                                 | Gets the list of associated figures.                          |
+| [`Images`](#FractureTool.Images)                                   | Gets the list of associated images.                           |
+| [`InternalObject`](#FractureTool.InternalObject)                   | Gets the internal object. For advanced usage only.            |
+| [`MultipleCracksSelection`](#FractureTool.MultipleCracksSelection) | Get/Set multiple cracks to Fracture tool                      |
+| [`Properties`](#FractureTool.Properties)                           | Gets the list of properties for this object.                  |
+| [`ScopingMethod`](#FractureTool.ScopingMethod)                     | Gets or sets the ScopingMethod.                               |
+| [`Suppressed`](#FractureTool.Suppressed)                           | Gets or sets the Suppressed.                                  |
+| [`VisibleProperties`](#FractureTool.VisibleProperties)             | Gets the list of properties that are visible for this object. |
 
 <a id="property-detail"></a>
 
 ## Property detail
-
-<a id="FractureTool.MultipleCracksSelection"></a>
-
-### *property* FractureTool.MultipleCracksSelection *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.GenericCrack](../../GenericCrack.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.GenericCrack)] | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Get/Set multiple cracks to Fracture tool
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="FractureTool.InternalObject"></a>
-
-### *property* FractureTool.InternalObject *: Ansys.Common.Interop.DSObjectsAuto.IDSFractureToolAuto | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets the internal object. For advanced usage only.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="FractureTool.CrackFrontNumber"></a>
-
-### *property* FractureTool.CrackFrontNumber *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the CrackFrontNumber.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="FractureTool.CrackSelectionMode"></a>
-
-### *property* FractureTool.CrackSelectionMode *: [Ansys.Mechanical.DataModel.Enums.CrackSelectionModeType](../../../../../Mechanical/DataModel/Enums/CrackSelectionModeType.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.CrackSelectionModeType) | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the CrackSelectionMode.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="FractureTool.ScopingMethod"></a>
-
-### *property* FractureTool.ScopingMethod *: [Ansys.Mechanical.DataModel.Enums.FractureToolScopeType](../../../../../Mechanical/DataModel/Enums/FractureToolScopeType.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.FractureToolScopeType) | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the ScopingMethod.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="FractureTool.Suppressed"></a>
-
-### *property* FractureTool.Suppressed *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the Suppressed.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="FractureTool.CrackSelection"></a>
-
-### *property* FractureTool.CrackSelection *: [Ansys.ACT.Automation.Mechanical.GenericCrack](../../GenericCrack.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.GenericCrack) | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the CrackSelection.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="FractureTool.DataModelObjectCategory"></a>
-
-### *property* FractureTool.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets the current DataModelObject's category.
-
-<!-- !! processed by numpydoc !! -->
 
 <a id="FractureTool.Children"></a>
 
@@ -158,6 +92,38 @@ Gets the list of children.
 ### *property* FractureTool.Comments *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Comment](../../Comment.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated comments.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="FractureTool.CrackFrontNumber"></a>
+
+### *property* FractureTool.CrackFrontNumber *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the CrackFrontNumber.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="FractureTool.CrackSelection"></a>
+
+### *property* FractureTool.CrackSelection *: [Ansys.ACT.Automation.Mechanical.GenericCrack](../../GenericCrack.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.GenericCrack) | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the CrackSelection.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="FractureTool.CrackSelectionMode"></a>
+
+### *property* FractureTool.CrackSelectionMode *: [Ansys.Mechanical.DataModel.Enums.CrackSelectionModeType](../../../../../../../v242/Ansys/Mechanical/DataModel/Enums/CrackSelectionModeType.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.CrackSelectionModeType) | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the CrackSelectionMode.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="FractureTool.DataModelObjectCategory"></a>
+
+### *property* FractureTool.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../../../v242/Ansys/Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets the current DataModelObject’s category.
 
 <!-- !! processed by numpydoc !! -->
 
@@ -177,11 +143,19 @@ Gets the list of associated images.
 
 <!-- !! processed by numpydoc !! -->
 
-<a id="id0"></a>
+<a id="FractureTool.InternalObject"></a>
 
-### *property* FractureTool.InternalObject *: System.Object | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* FractureTool.InternalObject *: Ansys.Common.Interop.DSObjectsAuto.IDSFractureToolAuto | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the internal object. For advanced usage only.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="FractureTool.MultipleCracksSelection"></a>
+
+### *property* FractureTool.MultipleCracksSelection *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.GenericCrack](../../GenericCrack.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.GenericCrack)] | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Get/Set multiple cracks to Fracture tool
 
 <!-- !! processed by numpydoc !! -->
 
@@ -190,6 +164,22 @@ Gets the internal object. For advanced usage only.
 ### *property* FractureTool.Properties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of properties for this object.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="FractureTool.ScopingMethod"></a>
+
+### *property* FractureTool.ScopingMethod *: [Ansys.Mechanical.DataModel.Enums.FractureToolScopeType](../../../../../../../v242/Ansys/Mechanical/DataModel/Enums/FractureToolScopeType.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.FractureToolScopeType) | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the ScopingMethod.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="FractureTool.Suppressed"></a>
+
+### *property* FractureTool.Suppressed *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the Suppressed.
 
 <!-- !! processed by numpydoc !! -->
 
@@ -205,27 +195,71 @@ Gets the list of properties that are visible for this object.
 
 ## Method detail
 
-<a id="FractureTool.AddSIFSK1"></a>
+<a id="FractureTool.Activate"></a>
 
-### FractureTool.AddSIFSK1()
+### FractureTool.Activate()
 
-Creates a new FractureSIFSK1
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="FractureTool.AddSIFSK2"></a>
-
-### FractureTool.AddSIFSK2()
-
-Creates a new FractureSIFSK2
+Activate the current object.
 
 <!-- !! processed by numpydoc !! -->
 
-<a id="FractureTool.AddSIFSK3"></a>
+<a id="FractureTool.AddCStarIntegral"></a>
 
-### FractureTool.AddSIFSK3()
+### FractureTool.AddCStarIntegral()
 
-Creates a new FractureSIFSK3
+Creates a new FractureCSTAR
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="FractureTool.AddComment"></a>
+
+### FractureTool.AddComment()
+
+Creates a new child Comment.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="FractureTool.AddCrackExtensionProbe"></a>
+
+### FractureTool.AddCrackExtensionProbe()
+
+Creates a new FractureCrackExtensionProbe
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="FractureTool.AddEquivalentSIFSRange"></a>
+
+### FractureTool.AddEquivalentSIFSRange()
+
+Creates a new FractureEquivalentSIFSRange
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="FractureTool.AddEquivalentSIFSRangeProbe"></a>
+
+### FractureTool.AddEquivalentSIFSRangeProbe()
+
+Creates a new FractureEquivalentSIFSRangeProbe
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="FractureTool.AddFigure"></a>
+
+### FractureTool.AddFigure()
+
+Creates a new child Figure.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="FractureTool.AddImage"></a>
+
+### FractureTool.AddImage(filePath: System.String)
+
+```text
+Creates a new child Image.
+If a filePath is provided, the image will be loaded from that file,
+if not, the image will be a screen capture of the Geometry window.
+```
 
 <!-- !! processed by numpydoc !! -->
 
@@ -234,6 +268,14 @@ Creates a new FractureSIFSK3
 ### FractureTool.AddJINT()
 
 Creates a new FractureJINT
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="FractureTool.AddJINTProbe"></a>
+
+### FractureTool.AddJINTProbe()
+
+Creates a new FractureJINTProbe
 
 <!-- !! processed by numpydoc !! -->
 
@@ -258,6 +300,62 @@ Creates a new FractureMaterialForceY
 ### FractureTool.AddMaterialForceZ()
 
 Creates a new FractureMaterialForceZ
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="FractureTool.AddNumberOfCyclesProbe"></a>
+
+### FractureTool.AddNumberOfCyclesProbe()
+
+Creates a new FractureTotalNumberOfCyclesProbe
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="FractureTool.AddSIFSK1"></a>
+
+### FractureTool.AddSIFSK1()
+
+Creates a new FractureSIFSK1
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="FractureTool.AddSIFSK1Probe"></a>
+
+### FractureTool.AddSIFSK1Probe()
+
+Creates a new FractureSIFSProbe
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="FractureTool.AddSIFSK2"></a>
+
+### FractureTool.AddSIFSK2()
+
+Creates a new FractureSIFSK2
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="FractureTool.AddSIFSK2Probe"></a>
+
+### FractureTool.AddSIFSK2Probe()
+
+Creates a new FractureSIFSProbe
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="FractureTool.AddSIFSK3"></a>
+
+### FractureTool.AddSIFSK3()
+
+Creates a new FractureSIFSK3
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="FractureTool.AddSIFSK3Probe"></a>
+
+### FractureTool.AddSIFSK3Probe()
+
+Creates a new FractureSIFSProbe
 
 <!-- !! processed by numpydoc !! -->
 
@@ -301,83 +399,19 @@ Creates a new FractureVCCTGT
 
 <!-- !! processed by numpydoc !! -->
 
-<a id="FractureTool.AddCStarIntegral"></a>
+<a id="FractureTool.CopyTo"></a>
 
-### FractureTool.AddCStarIntegral()
+### FractureTool.CopyTo(other: Ansys.ACT.Automation.Mechanical.DataModelObject)
 
-Creates a new FractureCSTAR
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="FractureTool.AddEquivalentSIFSRange"></a>
-
-### FractureTool.AddEquivalentSIFSRange()
-
-Creates a new FractureEquivalentSIFSRange
+Copies all visible properties from this object to another.
 
 <!-- !! processed by numpydoc !! -->
 
-<a id="FractureTool.EvaluateAllResults"></a>
+<a id="FractureTool.CreateParameter"></a>
 
-### FractureTool.EvaluateAllResults()
+### FractureTool.CreateParameter(propName: System.String)
 
-Run the EvaluateAllResults action.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="FractureTool.AddCrackExtensionProbe"></a>
-
-### FractureTool.AddCrackExtensionProbe()
-
-Creates a new FractureCrackExtensionProbe
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="FractureTool.AddEquivalentSIFSRangeProbe"></a>
-
-### FractureTool.AddEquivalentSIFSRangeProbe()
-
-Creates a new FractureEquivalentSIFSRangeProbe
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="FractureTool.AddJINTProbe"></a>
-
-### FractureTool.AddJINTProbe()
-
-Creates a new FractureJINTProbe
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="FractureTool.AddSIFSK1Probe"></a>
-
-### FractureTool.AddSIFSK1Probe()
-
-Creates a new FractureSIFSProbe
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="FractureTool.AddSIFSK2Probe"></a>
-
-### FractureTool.AddSIFSK2Probe()
-
-Creates a new FractureSIFSProbe
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="FractureTool.AddSIFSK3Probe"></a>
-
-### FractureTool.AddSIFSK3Probe()
-
-Creates a new FractureSIFSProbe
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="FractureTool.AddNumberOfCyclesProbe"></a>
-
-### FractureTool.AddNumberOfCyclesProbe()
-
-Creates a new FractureTotalNumberOfCyclesProbe
+Creates a new parameter for a Property.
 
 <!-- !! processed by numpydoc !! -->
 
@@ -389,6 +423,22 @@ Run the Delete action.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="FractureTool.Duplicate"></a>
+
+### FractureTool.Duplicate()
+
+Creates a copy of the current DataModelObject.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="FractureTool.EvaluateAllResults"></a>
+
+### FractureTool.EvaluateAllResults()
+
+Run the EvaluateAllResults action.
+
+<!-- !! processed by numpydoc !! -->
+
 <a id="FractureTool.GetChildren"></a>
 
 ### FractureTool.GetChildren(recurses: System.Boolean, children: System.Collections.Generic.IList[ChildrenType])
@@ -397,61 +447,11 @@ Gets the list of children, filtered by type.
 
 <!-- !! processed by numpydoc !! -->
 
-<a id="id1"></a>
+<a id="FractureTool.GetParameter"></a>
 
-### FractureTool.GetChildren(category: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory), recurses: System.Boolean, children: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject])
+### FractureTool.GetParameter(propName: System.String)
 
-Gets the list of children, filtered by type.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="FractureTool.AddComment"></a>
-
-### FractureTool.AddComment()
-
-Creates a new child Comment.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="FractureTool.AddFigure"></a>
-
-### FractureTool.AddFigure()
-
-Creates a new child Figure.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="FractureTool.AddImage"></a>
-
-### FractureTool.AddImage(filePath: System.String)
-
-Creates a new child Image.
-If a filePath is provided, the image will be loaded from that file,
-if not, the image will be a screen capture of the Geometry window.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="FractureTool.Activate"></a>
-
-### FractureTool.Activate()
-
-Activate the current object.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="FractureTool.CopyTo"></a>
-
-### FractureTool.CopyTo(other: Ansys.ACT.Automation.Mechanical.DataModelObject)
-
-Copies all visible properties from this object to another.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="FractureTool.Duplicate"></a>
-
-### FractureTool.Duplicate()
-
-Creates a copy of the current DataModelObject.
+Gets the parameter corresponding to the given property.
 
 <!-- !! processed by numpydoc !! -->
 
@@ -471,36 +471,22 @@ Run the GroupSimilarObjects action.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="FractureTool.PropertyByAPIName"></a>
+
+### FractureTool.PropertyByAPIName(name: System.String)
+
+```text
+Get a property by its API name.
+If multiple properties have the same API Name, only the first property with that name will be returned.
+```
+
+<!-- !! processed by numpydoc !! -->
+
 <a id="FractureTool.PropertyByName"></a>
 
 ### FractureTool.PropertyByName(name: System.String)
 
 Get a property by its unique name.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="FractureTool.PropertyByAPIName"></a>
-
-### FractureTool.PropertyByAPIName(name: System.String)
-
-Get a property by its API name.
-If multiple properties have the same API Name, only the first property with that name will be returned.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="FractureTool.CreateParameter"></a>
-
-### FractureTool.CreateParameter(propName: System.String)
-
-Creates a new parameter for a Property.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="FractureTool.GetParameter"></a>
-
-### FractureTool.GetParameter(propName: System.String)
-
-Gets the parameter corresponding to the given property.
 
 <!-- !! processed by numpydoc !! -->
 

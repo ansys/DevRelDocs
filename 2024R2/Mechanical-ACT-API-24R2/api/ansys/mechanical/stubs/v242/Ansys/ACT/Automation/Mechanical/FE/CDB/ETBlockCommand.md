@@ -1,6 +1,6 @@
 # `ETBlockCommand`
 
-
+<a id="ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.FE.CDB.ETBlockCommand"></a>
 
 #### *class* ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.FE.CDB.ETBlockCommand
 
@@ -20,8 +20,8 @@ Represents a ETBLOCK command.
 |----------------------------------------------------------|--------------------------------|
 | [`ElementTypeCount`](#ETBlockCommand.ElementTypeCount)   | Gets the element type count.   |
 | [`ElementTypes`](#ETBlockCommand.ElementTypes)           | Gets the element types.        |
-| [`Name`](#ETBlockCommand.Name)                           | Gets the command name.         |
 | [`Index`](#ETBlockCommand.Index)                         | Gets the command index.        |
+| [`Name`](#ETBlockCommand.Name)                           | Gets the command name.         |
 
 <a id="property-detail"></a>
 
@@ -43,19 +43,19 @@ Gets the element types.
 
 <!-- !! processed by numpydoc !! -->
 
-<a id="ETBlockCommand.Name"></a>
-
-### *property* ETBlockCommand.Name *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets the command name.
-
-<!-- !! processed by numpydoc !! -->
-
 <a id="ETBlockCommand.Index"></a>
 
 ### *property* ETBlockCommand.Index *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the command index.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ETBlockCommand.Name"></a>
+
+### *property* ETBlockCommand.Name *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets the command name.
 
 <!-- !! processed by numpydoc !! -->
 

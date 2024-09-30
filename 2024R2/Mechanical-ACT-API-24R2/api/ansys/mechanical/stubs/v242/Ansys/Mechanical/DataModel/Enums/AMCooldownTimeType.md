@@ -1,6 +1,6 @@
 # `AMCooldownTimeType`
 
-
+<a id="ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.AMCooldownTimeType"></a>
 
 #### *class* ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.AMCooldownTimeType
 
@@ -17,7 +17,7 @@ Specifies the AMCooldownTimeType.
 ### Attributes
 
 | Name |
-| ---------------------------------------------------------------- |
+| ------------------------------------------------------------------------------------------------------------------------------------------ |
 | [`ProgramControlled`](#AMCooldownTimeType.ProgramControlled) |
 | [`UserSpecified`](#AMCooldownTimeType.UserSpecified) |
 

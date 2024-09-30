@@ -1,6 +1,6 @@
 # `CondensedPartCMSAttachmentMethod`
 
-
+<a id="ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.CondensedPartCMSAttachmentMethod"></a>
 
 #### *class* ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.CondensedPartCMSAttachmentMethod
 
@@ -17,7 +17,7 @@ Specifies the CondensedPartCMSAttachmentMethod.
 ### Attributes
 
 | Name |
-| ---------------------------------------------------------------------------- |
+| -------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | [`FixedMaster`](#CondensedPartCMSAttachmentMethod.FixedMaster) |
 | [`Orthogonalization`](#CondensedPartCMSAttachmentMethod.Orthogonalization) |
 | [`ProgramControlled`](#CondensedPartCMSAttachmentMethod.ProgramControlled) |

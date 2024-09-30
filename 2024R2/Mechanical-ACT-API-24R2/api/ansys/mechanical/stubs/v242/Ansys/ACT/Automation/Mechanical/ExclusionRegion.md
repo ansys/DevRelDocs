@@ -1,6 +1,6 @@
 # `ExclusionRegion`
 
-
+<a id="ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.ExclusionRegion"></a>
 
 #### *class* ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.ExclusionRegion
 
@@ -18,63 +18,52 @@ ExclusionRegion class.
 
 | Name | Description |
 |-----------------------------------------------------------------------|-----------------------------------------------------------------------------------|
-| [`CopyTo`](#id2)                                                      | Copies all visible properties from this object to another.                        |
-| [`RenameBasedOnDefinition`](#ExclusionRegion.RenameBasedOnDefinition) | Run the RenameBasedOnDefinition action.                                           |
-| [`Delete`](#ExclusionRegion.Delete)                                   | Run the Delete action.                                                            |
-| [`GetChildren`](#id1)                                                 | Gets the list of children, filtered by type.                                      |
-| [`GetChildren`](#id1)                                                 | Gets the list of children, filtered by type.                                      |
 | [`Activate`](#ExclusionRegion.Activate)                               | Activate the current object.                                                      |
-| [`CopyTo`](#id2)                                                      | Copies all visible properties from this object to another.                        |
+| [`CopyTo`](#ExclusionRegion.CopyTo)                                   | Copies all visible properties from this object to another.                        |
+| [`CreateParameter`](#ExclusionRegion.CreateParameter)                 | Creates a new parameter for a Property.                                           |
+| [`Delete`](#ExclusionRegion.Delete)                                   | Run the Delete action.                                                            |
 | [`Duplicate`](#ExclusionRegion.Duplicate)                             | Creates a copy of the current DataModelObject.                                    |
+| [`GetChildren`](#ExclusionRegion.GetChildren)                         | Gets the list of children, filtered by type.                                      |
+| [`GetParameter`](#ExclusionRegion.GetParameter)                       | Gets the parameter corresponding to the given property.                           |
 | [`GroupAllSimilarChildren`](#ExclusionRegion.GroupAllSimilarChildren) | Run the GroupAllSimilarChildren action.                                           |
 | [`GroupSimilarObjects`](#ExclusionRegion.GroupSimilarObjects)         | Run the GroupSimilarObjects action.                                               |
-| [`PropertyByName`](#ExclusionRegion.PropertyByName)                   | Get a property by its unique name.                                                |
 | [`PropertyByAPIName`](#ExclusionRegion.PropertyByAPIName)             | Get a property by its API name.                                                   |
-| [`CreateParameter`](#ExclusionRegion.CreateParameter)                 | Creates a new parameter for a Property.                                           |
-| [`GetParameter`](#ExclusionRegion.GetParameter)                       | Gets the parameter corresponding to the given property.                           |
+| [`PropertyByName`](#ExclusionRegion.PropertyByName)                   | Get a property by its unique name.                                                |
 | [`RemoveParameter`](#ExclusionRegion.RemoveParameter)                 | Removes the parameter from the parameter set corresponding to the given property. |
+| [`RenameBasedOnDefinition`](#ExclusionRegion.RenameBasedOnDefinition) | Run the RenameBasedOnDefinition action.                                           |
 
 ### Properties
 
 | Name | Description |
 |---------------------------------------------------------------------------------------|---------------------------------------------------------------|
-| [`InternalObject`](#id0)                                                              | InternalObject property.                                      |
-| [`Suppressed`](#ExclusionRegion.Suppressed)                                           | Gets or sets the Suppressed.                                  |
-| [`DataModelObjectCategory`](#ExclusionRegion.DataModelObjectCategory)                 | Gets the current DataModelObject's category.                  |
+| [`Children`](#ExclusionRegion.Children)                                               | Gets the list of children.                                    |
+| [`DataModelObjectCategory`](#ExclusionRegion.DataModelObjectCategory)                 | Gets the current DataModelObject’s category.                  |
 | [`ExclusionRegionLocation`](#ExclusionRegion.ExclusionRegionLocation)                 | Gets or sets the ExclusionRegionLocation.                     |
 | [`ExclusionScopingMethod`](#ExclusionRegion.ExclusionScopingMethod)                   | Gets or sets the ExclusionScopingMethod.                      |
-| [`Children`](#ExclusionRegion.Children)                                               | Gets the list of children.                                    |
+| [`InternalObject`](#ExclusionRegion.InternalObject)                                   | InternalObject property.                                      |
 | [`MaxCumulatedDisplacementControl`](#ExclusionRegion.MaxCumulatedDisplacementControl) | Gets or sets the MaxCumulatedDisplacementControl.             |
 | [`MorphingTotalMoveLimit`](#ExclusionRegion.MorphingTotalMoveLimit)                   | Gets or sets the MorphingTotalMoveLimit.                      |
-| [`InternalObject`](#id0)                                                              | Gets the internal object. For advanced usage only.            |
 | [`Properties`](#ExclusionRegion.Properties)                                           | Gets the list of properties for this object.                  |
+| [`Suppressed`](#ExclusionRegion.Suppressed)                                           | Gets or sets the Suppressed.                                  |
 | [`VisibleProperties`](#ExclusionRegion.VisibleProperties)                             | Gets the list of properties that are visible for this object. |
 
 <a id="property-detail"></a>
 
 ## Property detail
 
-<a id="ExclusionRegion.InternalObject"></a>
+<a id="ExclusionRegion.Children"></a>
 
-### *property* ExclusionRegion.InternalObject *: Ansys.Common.Interop.DSObjectsAuto.IDSOptimizationRegionAuto | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ExclusionRegion.Children *: System.Collections.Generic.IList[Ansys.ACT.Automation.Mechanical.DataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
 
-InternalObject property.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="ExclusionRegion.Suppressed"></a>
-
-### *property* ExclusionRegion.Suppressed *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the Suppressed.
+Gets the list of children.
 
 <!-- !! processed by numpydoc !! -->
 
 <a id="ExclusionRegion.DataModelObjectCategory"></a>
 
-### *property* ExclusionRegion.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../v241/Ansys/Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ExclusionRegion.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets the current DataModelObject's category.
+Gets the current DataModelObject’s category.
 
 <!-- !! processed by numpydoc !! -->
 
@@ -88,23 +77,23 @@ Gets or sets the ExclusionRegionLocation.
 
 <a id="ExclusionRegion.ExclusionScopingMethod"></a>
 
-### *property* ExclusionRegion.ExclusionScopingMethod *: [Ansys.Mechanical.DataModel.Enums.GeometryDefineByType](../../../../../v241/Ansys/Mechanical/DataModel/Enums/GeometryDefineByType.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.GeometryDefineByType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ExclusionRegion.ExclusionScopingMethod *: [Ansys.Mechanical.DataModel.Enums.GeometryDefineByType](../../../Mechanical/DataModel/Enums/GeometryDefineByType.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.GeometryDefineByType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the ExclusionScopingMethod.
 
 <!-- !! processed by numpydoc !! -->
 
-<a id="ExclusionRegion.Children"></a>
+<a id="ExclusionRegion.InternalObject"></a>
 
-### *property* ExclusionRegion.Children *: System.Collections.Generic.IList[Ansys.ACT.Automation.Mechanical.DataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ExclusionRegion.InternalObject *: Ansys.Common.Interop.DSObjectsAuto.IDSOptimizationRegionAuto | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets the list of children.
+InternalObject property.
 
 <!-- !! processed by numpydoc !! -->
 
 <a id="ExclusionRegion.MaxCumulatedDisplacementControl"></a>
 
-### *property* ExclusionRegion.MaxCumulatedDisplacementControl *: [Ansys.Mechanical.DataModel.Enums.TopoPropertyControlType](../../../../../v241/Ansys/Mechanical/DataModel/Enums/TopoPropertyControlType.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.TopoPropertyControlType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ExclusionRegion.MaxCumulatedDisplacementControl *: [Ansys.Mechanical.DataModel.Enums.TopoPropertyControlType](../../../Mechanical/DataModel/Enums/TopoPropertyControlType.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.TopoPropertyControlType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the MaxCumulatedDisplacementControl.
 
@@ -118,19 +107,19 @@ Gets or sets the MorphingTotalMoveLimit.
 
 <!-- !! processed by numpydoc !! -->
 
-<a id="id0"></a>
-
-### *property* ExclusionRegion.InternalObject *: System.Object | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets the internal object. For advanced usage only.
-
-<!-- !! processed by numpydoc !! -->
-
 <a id="ExclusionRegion.Properties"></a>
 
 ### *property* ExclusionRegion.Properties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of properties for this object.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ExclusionRegion.Suppressed"></a>
+
+### *property* ExclusionRegion.Suppressed *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the Suppressed.
 
 <!-- !! processed by numpydoc !! -->
 
@@ -146,20 +135,30 @@ Gets the list of properties that are visible for this object.
 
 ## Method detail
 
+<a id="ExclusionRegion.Activate"></a>
+
+### ExclusionRegion.Activate()
+
+Activate the current object.
+
+<!-- !! processed by numpydoc !! -->
+
 <a id="ExclusionRegion.CopyTo"></a>
 
 ### ExclusionRegion.CopyTo(other: [Ansys.ACT.Automation.Mechanical.ExclusionRegion](../../../../../v241/Ansys/ACT/Automation/Mechanical/ExclusionRegion.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.ExclusionRegion))
 
+```text
 Copies all visible properties from this object to another.
 Override because of copy order of properties
+```
 
 <!-- !! processed by numpydoc !! -->
 
-<a id="ExclusionRegion.RenameBasedOnDefinition"></a>
+<a id="ExclusionRegion.CreateParameter"></a>
 
-### ExclusionRegion.RenameBasedOnDefinition()
+### ExclusionRegion.CreateParameter(propName: System.String)
 
-Run the RenameBasedOnDefinition action.
+Creates a new parameter for a Property.
 
 <!-- !! processed by numpydoc !! -->
 
@@ -171,6 +170,14 @@ Run the Delete action.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="ExclusionRegion.Duplicate"></a>
+
+### ExclusionRegion.Duplicate()
+
+Creates a copy of the current DataModelObject.
+
+<!-- !! processed by numpydoc !! -->
+
 <a id="ExclusionRegion.GetChildren"></a>
 
 ### ExclusionRegion.GetChildren(recurses: System.Boolean, children: System.Collections.Generic.IList[ChildrenType])
@@ -179,35 +186,11 @@ Gets the list of children, filtered by type.
 
 <!-- !! processed by numpydoc !! -->
 
-<a id="id1"></a>
+<a id="ExclusionRegion.GetParameter"></a>
 
-### ExclusionRegion.GetChildren(category: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../v241/Ansys/Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory), recurses: System.Boolean, children: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject])
+### ExclusionRegion.GetParameter(propName: System.String)
 
-Gets the list of children, filtered by type.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="ExclusionRegion.Activate"></a>
-
-### ExclusionRegion.Activate()
-
-Activate the current object.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="id2"></a>
-
-### ExclusionRegion.CopyTo(other: Ansys.ACT.Automation.Mechanical.DataModelObject)
-
-Copies all visible properties from this object to another.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="ExclusionRegion.Duplicate"></a>
-
-### ExclusionRegion.Duplicate()
-
-Creates a copy of the current DataModelObject.
+Gets the parameter corresponding to the given property.
 
 <!-- !! processed by numpydoc !! -->
 
@@ -227,6 +210,17 @@ Run the GroupSimilarObjects action.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="ExclusionRegion.PropertyByAPIName"></a>
+
+### ExclusionRegion.PropertyByAPIName(name: System.String)
+
+```text
+Get a property by its API name.
+If multiple properties have the same API Name, only the first property with that name will be returned.
+```
+
+<!-- !! processed by numpydoc !! -->
+
 <a id="ExclusionRegion.PropertyByName"></a>
 
 ### ExclusionRegion.PropertyByName(name: System.String)
@@ -235,36 +229,19 @@ Get a property by its unique name.
 
 <!-- !! processed by numpydoc !! -->
 
-<a id="ExclusionRegion.PropertyByAPIName"></a>
-
-### ExclusionRegion.PropertyByAPIName(name: System.String)
-
-Get a property by its API name.
-If multiple properties have the same API Name, only the first property with that name will be returned.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="ExclusionRegion.CreateParameter"></a>
-
-### ExclusionRegion.CreateParameter(propName: System.String)
-
-Creates a new parameter for a Property.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="ExclusionRegion.GetParameter"></a>
-
-### ExclusionRegion.GetParameter(propName: System.String)
-
-Gets the parameter corresponding to the given property.
-
-<!-- !! processed by numpydoc !! -->
-
 <a id="ExclusionRegion.RemoveParameter"></a>
 
 ### ExclusionRegion.RemoveParameter(propName: System.String)
 
 Removes the parameter from the parameter set corresponding to the given property.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ExclusionRegion.RenameBasedOnDefinition"></a>
+
+### ExclusionRegion.RenameBasedOnDefinition()
+
+Run the RenameBasedOnDefinition action.
 
 <!-- !! processed by numpydoc !! -->
 

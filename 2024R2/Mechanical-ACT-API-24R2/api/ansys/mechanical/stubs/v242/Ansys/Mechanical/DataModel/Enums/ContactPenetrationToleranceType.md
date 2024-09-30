@@ -1,6 +1,6 @@
 # `ContactPenetrationToleranceType`
 
-
+<a id="ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.ContactPenetrationToleranceType"></a>
 
 #### *class* ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.ContactPenetrationToleranceType
 
@@ -17,7 +17,7 @@ Specifies the ContactPenetrationToleranceType.
 ### Attributes
 
 | Name |
-| --------------------------------------------------------------------------- |
+| ------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
 | [`Factor`](#ContactPenetrationToleranceType.Factor) |
 | [`ProgramControlled`](#ContactPenetrationToleranceType.ProgramControlled) |
 | [`Value`](#ContactPenetrationToleranceType.Value) |

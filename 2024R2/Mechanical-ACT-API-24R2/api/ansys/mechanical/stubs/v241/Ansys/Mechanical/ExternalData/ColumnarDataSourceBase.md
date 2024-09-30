@@ -1,10 +1,14 @@
 # `ColumnarDataSourceBase`
 
-
+<a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.ExternalData.ColumnarDataSourceBase"></a>
 
 #### *class* ansys.mechanical.stubs.v241.Ansys.Mechanical.ExternalData.ColumnarDataSourceBase
 
 Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
+
+T:Ansys.Mechanical.ExternalData.ColumnarDataSourceBase is a class that provides foundational behavior for
+import settings that consume data from columnar data sources (such as delimited or
+fixed-width files).
 
 <!-- !! processed by numpydoc !! -->
 
@@ -15,21 +19,21 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 ### Methods
 
 | Name | Description |
-|---------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------|
-| [`Clear`](../../../../v242/Ansys/Mechanical/Table/ColumnarDataSourceBase.md#ColumnarDataSourceBase.Clear)                 |                                                       |
-| [`GetEnumerator`](../../../../v242/Ansys/Mechanical/Table/ColumnarDataSourceBase.md#ColumnarDataSourceBase.GetEnumerator) |                                                       |
-| [`RemoveAt`](../../../../v242/Ansys/Mechanical/Table/ColumnarDataSourceBase.md#ColumnarDataSourceBase.RemoveAt)           | Removes the import definition at the specified index. |
-| [`UseColumn`](../../../../v242/Ansys/Mechanical/Table/ColumnarDataSourceBase.md#ColumnarDataSourceBase.UseColumn)         |                                                       |
+|----------------------------------------------------------|-------------------------------------------------------|
+| [`Clear`](#ColumnarDataSourceBase.Clear)                 |                                                       |
+| [`GetEnumerator`](#ColumnarDataSourceBase.GetEnumerator) |                                                       |
+| [`RemoveAt`](#ColumnarDataSourceBase.RemoveAt)           | Removes the import definition at the specified index. |
+| [`UseColumn`](#ColumnarDataSourceBase.UseColumn)         |                                                       |
 
 ### Properties
 
 | Name | Description |
-|---------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------|
-| [`Count`](../../../../v242/Ansys/Mechanical/Table/ColumnarDataSourceBase.md#ColumnarDataSourceBase.Count)           | Gets the number of column definitions.                                               |
-| [`Item`](../../../../v242/Ansys/Mechanical/Table/ColumnarDataSourceBase.md#ColumnarDataSourceBase.Item)             | Item property.                                                                       |
-| [`SkipFooter`](../../../../v242/Ansys/Mechanical/Table/ColumnarDataSourceBase.md#ColumnarDataSourceBase.SkipFooter) | Gets or sets the number of rows to ignore at the end of the file during import.      |
-| [`SkipRows`](../../../../v242/Ansys/Mechanical/Table/ColumnarDataSourceBase.md#ColumnarDataSourceBase.SkipRows)     | Gets or sets the number of rows to skip over at the start of the file during import. |
-| [`Format`](../../../../v242/Ansys/Mechanical/Table/ColumnarDataSourceBase.md#ColumnarDataSourceBase.Format)         | Gets the existing corresponding format.                                              |
+|----------------------------------------------------|--------------------------------------------------------------------------------------|
+| [`Count`](#ColumnarDataSourceBase.Count)           | Gets the number of column definitions.                                               |
+| [`Format`](#ColumnarDataSourceBase.Format)         | Gets the existing corresponding format.                                              |
+| [`Item`](#ColumnarDataSourceBase.Item)             | Item property.                                                                       |
+| [`SkipFooter`](#ColumnarDataSourceBase.SkipFooter) | Gets or sets the number of rows to ignore at the end of the file during import.      |
+| [`SkipRows`](#ColumnarDataSourceBase.SkipRows)     | Gets or sets the number of rows to skip over at the start of the file during import. |
 
 <a id="property-detail"></a>
 
@@ -43,9 +47,17 @@ Gets the number of column definitions.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="ColumnarDataSourceBase.Format"></a>
+
+### *property* ColumnarDataSourceBase.Format *: [Ansys.Mechanical.DataModel.MechanicalEnums.ExternalData.ImportFormat](../../../../v242/Ansys/Mechanical/DataModel/MechanicalEnums/ExternalData/ImportFormat.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.MechanicalEnums.ExternalData.ImportFormat) | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets the existing corresponding format.
+
+<!-- !! processed by numpydoc !! -->
+
 <a id="ColumnarDataSourceBase.Item"></a>
 
-### *property* ColumnarDataSourceBase.Item *: [Ansys.Mechanical.ExternalData.ColumnarDataImportDefinition](ColumnarDataImportDefinition.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.ExternalData.ColumnarDataImportDefinition) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ColumnarDataSourceBase.Item *: [Ansys.Mechanical.ExternalData.ColumnarDataImportDefinition](../../../../v242/Ansys/Mechanical/ExternalData/ColumnarDataImportDefinition.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.ExternalData.ColumnarDataImportDefinition) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Item property.
 
@@ -64,14 +76,6 @@ Gets or sets the number of rows to ignore at the end of the file during import.
 ### *property* ColumnarDataSourceBase.SkipRows *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the number of rows to skip over at the start of the file during import.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="ColumnarDataSourceBase.Format"></a>
-
-### *property* ColumnarDataSourceBase.Format *: [Ansys.Mechanical.DataModel.MechanicalEnums.ExternalData.ImportFormat](../DataModel/MechanicalEnums/ExternalData/ImportFormat.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.MechanicalEnums.ExternalData.ImportFormat) | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets the existing corresponding format.
 
 <!-- !! processed by numpydoc !! -->
 
@@ -97,7 +101,7 @@ Removes the import definition at the specified index.
 
 <a id="ColumnarDataSourceBase.UseColumn"></a>
 
-### ColumnarDataSourceBase.UseColumn(index: System.Int32, variableType: [Ansys.Mechanical.DataModel.MechanicalEnums.ExternalData.VariableType](../DataModel/MechanicalEnums/ExternalData/VariableType.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.MechanicalEnums.ExternalData.VariableType), unit: System.String, name: System.String)
+### ColumnarDataSourceBase.UseColumn(index: System.Int32, variableType: [Ansys.Mechanical.DataModel.MechanicalEnums.ExternalData.VariableType](../../../../v242/Ansys/Mechanical/DataModel/MechanicalEnums/ExternalData/VariableType.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.MechanicalEnums.ExternalData.VariableType), unit: System.String, name: System.String)
 
 <!-- !! processed by numpydoc !! -->
 

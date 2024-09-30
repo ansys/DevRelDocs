@@ -1,6 +1,6 @@
 # `FractureToolScopeType`
 
-
+<a id="ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.FractureToolScopeType"></a>
 
 #### *class* ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.FractureToolScopeType
 
@@ -17,7 +17,7 @@ Specifies the FractureToolScopeType.
 ### Attributes
 
 | Name |
-| ------------------------------------------------------------- |
+| ------------------------------------------------------------------------------------------------------------------------------------------ |
 | [`CrackSelection`](#FractureToolScopeType.CrackSelection) |
 | [`ResultFileItem`](#FractureToolScopeType.ResultFileItem) |
 

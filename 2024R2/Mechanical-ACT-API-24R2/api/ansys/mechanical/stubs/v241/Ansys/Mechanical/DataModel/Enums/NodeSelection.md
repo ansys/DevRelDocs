@@ -1,6 +1,6 @@
 # `NodeSelection`
 
-
+<a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.NodeSelection"></a>
 
 #### *class* ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.NodeSelection
 
@@ -17,9 +17,9 @@ Specifies the NodeSelection.
 ### Attributes
 
 | Name |
-| -------------------------------------------------------------------------------------------------------------------- |
-| [`AllNodes`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/NodeSelection.md#NodeSelection.AllNodes) |
-| [`VisibleNodes`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/NodeSelection.md#NodeSelection.VisibleNodes) |
+| ----------------------------------------------- |
+| [`AllNodes`](#NodeSelection.AllNodes) |
+| [`VisibleNodes`](#NodeSelection.VisibleNodes) |
 
 <a id="attribute-detail"></a>
 

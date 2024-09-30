@@ -1,6 +1,6 @@
 # `EXDLinearViscosityExpansionType`
 
-
+<a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.EXDLinearViscosityExpansionType"></a>
 
 #### *class* ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.EXDLinearViscosityExpansionType
 
@@ -15,9 +15,9 @@ Bases: [`enum.Enum`](https://docs.python.org/3/library/enum.html#enum.Enum)
 ### Attributes
 
 | Name |
-| -------------------------------------------------------------------------------------------------------------------------------------- |
-| [`No`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/EXDLinearViscosityExpansionType.md#EXDLinearViscosityExpansionType.No) |
-| [`Yes`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/EXDLinearViscosityExpansionType.md#EXDLinearViscosityExpansionType.Yes) |
+| ----------------------------------------------- |
+| [`No`](#EXDLinearViscosityExpansionType.No) |
+| [`Yes`](#EXDLinearViscosityExpansionType.Yes) |
 
 <a id="attribute-detail"></a>
 

@@ -1,6 +1,6 @@
 # `StepVarying`
 
-
+<a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.StepVarying"></a>
 
 #### *class* ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.StepVarying
 
@@ -17,9 +17,9 @@ Specifies the StepVarying.
 ### Attributes
 
 | Name |
-| ---------------------------------------------------------------------------------------------- |
-| [`No`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/StepVarying.md#StepVarying.No) |
-| [`Yes`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/StepVarying.md#StepVarying.Yes) |
+| --------------------------- |
+| [`No`](#StepVarying.No) |
+| [`Yes`](#StepVarying.Yes) |
 
 <a id="attribute-detail"></a>
 

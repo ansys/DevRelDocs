@@ -1,6 +1,6 @@
 # `DirectionalElectricFluxDensity`
 
-
+<a id="ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Results.ElectricResults.DirectionalElectricFluxDensity"></a>
 
 #### *class* ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Results.ElectricResults.DirectionalElectricFluxDensity
 
@@ -17,177 +17,119 @@ Defines a DirectionalElectricFluxDensity.
 ### Methods
 
 | Name | Description |
-|--------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------|
-| [`ClearGeneratedData`](#DirectionalElectricFluxDensity.ClearGeneratedData)           | Run the ClearGeneratedData action.                                                |
-| [`EvaluateAllResults`](#DirectionalElectricFluxDensity.EvaluateAllResults)           | Run the EvaluateAllResults action.                                                |
-| [`FetchRemoteResults`](#DirectionalElectricFluxDensity.FetchRemoteResults)           | Run the FetchRemoteResult action.                                                 |
-| [`ExportToTextFile`](#DirectionalElectricFluxDensity.ExportToTextFile)               | Run the ExportToTextFile action.                                                  |
-| [`ExportAnimation`](#DirectionalElectricFluxDensity.ExportAnimation)                 | Run the ExportAnimation action.                                                   |
-| [`DuplicateWithoutResults`](#DirectionalElectricFluxDensity.DuplicateWithoutResults) | Run the DuplicateWithoutResults action.                                           |
-| [`CreateResultsAtAllSets`](#DirectionalElectricFluxDensity.CreateResultsAtAllSets)   | Creates results at all sets for results under a solution.                         |
-| [`PromoteToNamedSelection`](#DirectionalElectricFluxDensity.PromoteToNamedSelection) | Run the PromoteToNamedSelection action.                                           |
-| [`CreateParameter`](#DirectionalElectricFluxDensity.CreateParameter)                 | CreateParameter method.                                                           |
+|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------|
+| [`Activate`](#DirectionalElectricFluxDensity.Activate)                               | Activate the current object.                                                      |
 | [`AddAlert`](#DirectionalElectricFluxDensity.AddAlert)                               | Creates a new Alert                                                               |
-| [`AddConvergence`](#DirectionalElectricFluxDensity.AddConvergence)                   | Creates a new Convergence                                                         |
-| [`RenameBasedOnDefinition`](#DirectionalElectricFluxDensity.RenameBasedOnDefinition) | Run the RenameBasedOnDefinition action.                                           |
-| [`Delete`](#DirectionalElectricFluxDensity.Delete)                                   | Run the Delete action.                                                            |
-| [`GetChildren`](#id1)                                                                | Gets the list of children, filtered by type.                                      |
-| [`GetChildren`](#id1)                                                                | Gets the list of children, filtered by type.                                      |
 | [`AddComment`](#DirectionalElectricFluxDensity.AddComment)                           | Creates a new child Comment.                                                      |
+| [`AddConvergence`](#DirectionalElectricFluxDensity.AddConvergence)                   | Creates a new Convergence                                                         |
 | [`AddFigure`](#DirectionalElectricFluxDensity.AddFigure)                             | Creates a new child Figure.                                                       |
 | [`AddImage`](#DirectionalElectricFluxDensity.AddImage)                               | Creates a new child Image.                                                        |
-| [`Activate`](#DirectionalElectricFluxDensity.Activate)                               | Activate the current object.                                                      |
+| [`ClearGeneratedData`](#DirectionalElectricFluxDensity.ClearGeneratedData)           | Run the ClearGeneratedData action.                                                |
 | [`CopyTo`](#DirectionalElectricFluxDensity.CopyTo)                                   | Copies all visible properties from this object to another.                        |
+| [`CreateParameter`](#DirectionalElectricFluxDensity.CreateParameter)                 | CreateParameter method.                                                           |
+| [`CreateResultsAtAllSets`](#DirectionalElectricFluxDensity.CreateResultsAtAllSets)   | Creates results at all sets for results under a solution.                         |
+| [`Delete`](#DirectionalElectricFluxDensity.Delete)                                   | Run the Delete action.                                                            |
 | [`Duplicate`](#DirectionalElectricFluxDensity.Duplicate)                             | Creates a copy of the current DataModelObject.                                    |
+| [`DuplicateWithoutResults`](#DirectionalElectricFluxDensity.DuplicateWithoutResults) | Run the DuplicateWithoutResults action.                                           |
+| [`EvaluateAllResults`](#DirectionalElectricFluxDensity.EvaluateAllResults)           | Run the EvaluateAllResults action.                                                |
+| [`ExportAnimation`](#DirectionalElectricFluxDensity.ExportAnimation)                 | Run the ExportAnimation action.                                                   |
+| [`ExportToTextFile`](#DirectionalElectricFluxDensity.ExportToTextFile)               | Run the ExportToTextFile action.                                                  |
+| [`FetchRemoteResults`](#DirectionalElectricFluxDensity.FetchRemoteResults)           | Run the FetchRemoteResult action.                                                 |
+| [`GetChildren`](#DirectionalElectricFluxDensity.GetChildren)                         | Gets the list of children, filtered by type.                                      |
+| [`GetParameter`](#DirectionalElectricFluxDensity.GetParameter)                       | Gets the parameter corresponding to the given property.                           |
 | [`GroupAllSimilarChildren`](#DirectionalElectricFluxDensity.GroupAllSimilarChildren) | Run the GroupAllSimilarChildren action.                                           |
 | [`GroupSimilarObjects`](#DirectionalElectricFluxDensity.GroupSimilarObjects)         | Run the GroupSimilarObjects action.                                               |
-| [`PropertyByName`](#DirectionalElectricFluxDensity.PropertyByName)                   | Get a property by its unique name.                                                |
+| [`PromoteToNamedSelection`](#DirectionalElectricFluxDensity.PromoteToNamedSelection) | Run the PromoteToNamedSelection action.                                           |
 | [`PropertyByAPIName`](#DirectionalElectricFluxDensity.PropertyByAPIName)             | Get a property by its API name.                                                   |
-| [`GetParameter`](#DirectionalElectricFluxDensity.GetParameter)                       | Gets the parameter corresponding to the given property.                           |
+| [`PropertyByName`](#DirectionalElectricFluxDensity.PropertyByName)                   | Get a property by its unique name.                                                |
 | [`RemoveParameter`](#DirectionalElectricFluxDensity.RemoveParameter)                 | Removes the parameter from the parameter set corresponding to the given property. |
+| [`RenameBasedOnDefinition`](#DirectionalElectricFluxDensity.RenameBasedOnDefinition) | Run the RenameBasedOnDefinition action.                                           |
 
 ### Properties
 
 | Name | Description |
-|----------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------|
-| [`InternalObject`](#id0)                                                                                 | Gets the internal object. For advanced usage only.                     |
-| [`NormalOrientation`](#DirectionalElectricFluxDensity.NormalOrientation)                                 | Gets or sets the NormalOrientation.                                    |
-| [`DataModelObjectCategory`](#DirectionalElectricFluxDensity.DataModelObjectCategory)                     | Gets the current DataModelObject's category.                           |
-| [`ReportedFrequency`](#DirectionalElectricFluxDensity.ReportedFrequency)                                 | Gets the ReportedFrequency.                                            |
-| [`SweepingPhase`](#DirectionalElectricFluxDensity.SweepingPhase)                                         | Gets or sets the SweepingPhase.                                        |
-| [`PhaseIncrement`](#DirectionalElectricFluxDensity.PhaseIncrement)                                       | Gets or sets the PhaseIncrement.                                       |
-| [`Frequency`](#DirectionalElectricFluxDensity.Frequency)                                                 | Gets or sets the Frequency.                                            |
-| [`ElectricResultType`](#DirectionalElectricFluxDensity.ElectricResultType)                               | Gets or sets the ElectricResultType.                                   |
+|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------|
 | [`Amplitude`](#DirectionalElectricFluxDensity.Amplitude)                                                 | Gets or sets the Amplitude.                                            |
+| [`Average`](#DirectionalElectricFluxDensity.Average)                                                     | Gets the Average.                                                      |
 | [`AverageAcrossBodies`](#DirectionalElectricFluxDensity.AverageAcrossBodies)                             | Gets or sets the AverageAcrossBodies.                                  |
-| [`PlotData`](#DirectionalElectricFluxDensity.PlotData)                                                   | Gets the result table.                                                 |
-| [`Location`](#DirectionalElectricFluxDensity.Location)                                                   | Gets or sets the Location.                                             |
-| [`TimeForMinimumOfMinimumValues`](#DirectionalElectricFluxDensity.TimeForMinimumOfMinimumValues)         | Get the Time for the minimum of minimum values.                        |
-| [`TimeForMinimumOfMaximumValues`](#DirectionalElectricFluxDensity.TimeForMinimumOfMaximumValues)         | Get the Time for the minimum of maximum values.                        |
-| [`LoadStepForMinimumOfMinimumValues`](#DirectionalElectricFluxDensity.LoadStepForMinimumOfMinimumValues) | Get the Load Step for the minimum of minimum values.                   |
-| [`LoadStepForMinimumOfMaximumValues`](#DirectionalElectricFluxDensity.LoadStepForMinimumOfMaximumValues) | Get the Load Step for the minimum of maximum values.                   |
-| [`TimeForMaximumOfMinimumValues`](#DirectionalElectricFluxDensity.TimeForMaximumOfMinimumValues)         | Get the Time for the maximum of minimum values.                        |
-| [`TimeForMaximumOfMaximumValues`](#DirectionalElectricFluxDensity.TimeForMaximumOfMaximumValues)         | Get the Time for the maximum of maximum values.                        |
-| [`LoadStepForMaximumOfMinimumValues`](#DirectionalElectricFluxDensity.LoadStepForMaximumOfMinimumValues) | Get the Load Step for the maximum of minimum values.                   |
-| [`LoadStepForMaximumOfMaximumValues`](#DirectionalElectricFluxDensity.LoadStepForMaximumOfMaximumValues) | Get the Load Step for the maximum of maximum values.                   |
-| [`IsSolved`](#DirectionalElectricFluxDensity.IsSolved)                                                   | Gets the IsSolved.                                                     |
-| [`CoordinateSystem`](#DirectionalElectricFluxDensity.CoordinateSystem)                                   | Gets or sets the Coordinate System.                                    |
-| [`ScopingMethod`](#DirectionalElectricFluxDensity.ScopingMethod)                                         | Gets or sets the ScopingMethod.                                        |
-| [`SetNumber`](#DirectionalElectricFluxDensity.SetNumber)                                                 | Gets or sets the Set Number.                                           |
+| [`By`](#DirectionalElectricFluxDensity.By)                                                               | Gets or sets the By.                                                   |
+| [`CalculateTimeHistory`](#DirectionalElectricFluxDensity.CalculateTimeHistory)                           | Gets or sets the CalculateTimeHistory.                                 |
+| [`Children`](#DirectionalElectricFluxDensity.Children)                                                   | Gets the list of children.                                             |
 | [`CombinationNumber`](#DirectionalElectricFluxDensity.CombinationNumber)                                 | Gets or sets the Combination Number for a Solution Combination result. |
-| [`SolutionCombinationDriver`](#DirectionalElectricFluxDensity.SolutionCombinationDriver)                 | Gets or sets the SolutionCombinationDriver.                            |
-| [`Path`](#DirectionalElectricFluxDensity.Path)                                                           | Path property.                                                         |
-| [`Surface`](#DirectionalElectricFluxDensity.Surface)                                                     | Surface property.                                                      |
-| [`SurfaceCoating`](#DirectionalElectricFluxDensity.SurfaceCoating)                                       | SurfaceCoating property.                                               |
-| [`NamedSelections`](#DirectionalElectricFluxDensity.NamedSelections)                                     | Gets or sets the NamedSelections.                                      |
-| [`WaterfallShowTextOnMosaic`](#DirectionalElectricFluxDensity.WaterfallShowTextOnMosaic)                 | Gets or sets the Waterfall Mosaic Text Property.                       |
+| [`Comments`](#DirectionalElectricFluxDensity.Comments)                                                   | Gets the list of associated comments.                                  |
+| [`CoordinateSystem`](#DirectionalElectricFluxDensity.CoordinateSystem)                                   | Gets or sets the Coordinate System.                                    |
 | [`CrackFrontNumber`](#DirectionalElectricFluxDensity.CrackFrontNumber)                                   | Gets or sets the CrackFrontNumber.                                     |
+| [`DataModelObjectCategory`](#DirectionalElectricFluxDensity.DataModelObjectCategory)                     | Gets the current DataModelObject’s category.                           |
+| [`DisplayOption`](#DirectionalElectricFluxDensity.DisplayOption)                                         | Gets or sets the DisplayOption.                                        |
+| [`DisplayTime`](#DirectionalElectricFluxDensity.DisplayTime)                                             | Gets or sets the DisplayTime.                                          |
+| [`DpfEvaluation`](#DirectionalElectricFluxDensity.DpfEvaluation)                                         | Gets or sets the DpfEvaluation.                                        |
+| [`ElectricResultType`](#DirectionalElectricFluxDensity.ElectricResultType)                               | Gets or sets the ElectricResultType.                                   |
+| [`Figures`](#DirectionalElectricFluxDensity.Figures)                                                     | Gets the list of associated figures.                                   |
+| [`Frequency`](#DirectionalElectricFluxDensity.Frequency)                                                 | Gets or sets the Frequency.                                            |
 | [`GlobalIDs`](#DirectionalElectricFluxDensity.GlobalIDs)                                                 | Gets or sets the GlobalIDs.                                            |
+| [`GraphControlsXAxis`](#DirectionalElectricFluxDensity.GraphControlsXAxis)                               | Gets or sets the GraphControlsXAxis.                                   |
 | [`Identifier`](#DirectionalElectricFluxDensity.Identifier)                                               | Gets or sets the Identifier.                                           |
+| [`Images`](#DirectionalElectricFluxDensity.Images)                                                       | Gets the list of associated images.                                    |
+| [`InternalObject`](#DirectionalElectricFluxDensity.InternalObject)                                       | Gets the internal object. For advanced usage only.                     |
+| [`IsSolved`](#DirectionalElectricFluxDensity.IsSolved)                                                   | Gets the IsSolved.                                                     |
+| [`ItemType`](#DirectionalElectricFluxDensity.ItemType)                                                   | Gets or sets the ItemType.                                             |
 | [`IterationNumber`](#DirectionalElectricFluxDensity.IterationNumber)                                     | Gets the IterationNumber.                                              |
 | [`LoadStep`](#DirectionalElectricFluxDensity.LoadStep)                                                   | Gets the LoadStep.                                                     |
-| [`MaximumOccursOn`](#DirectionalElectricFluxDensity.MaximumOccursOn)                                     | Gets the MaximumOccursOn.                                              |
-| [`MinimumOccursOn`](#DirectionalElectricFluxDensity.MinimumOccursOn)                                     | Gets the MinimumOccursOn.                                              |
+| [`LoadStepForMaximumOfMaximumValues`](#DirectionalElectricFluxDensity.LoadStepForMaximumOfMaximumValues) | Get the Load Step for the maximum of maximum values.                   |
+| [`LoadStepForMaximumOfMinimumValues`](#DirectionalElectricFluxDensity.LoadStepForMaximumOfMinimumValues) | Get the Load Step for the maximum of minimum values.                   |
+| [`LoadStepForMinimumOfMaximumValues`](#DirectionalElectricFluxDensity.LoadStepForMinimumOfMaximumValues) | Get the Load Step for the minimum of maximum values.                   |
+| [`LoadStepForMinimumOfMinimumValues`](#DirectionalElectricFluxDensity.LoadStepForMinimumOfMinimumValues) | Get the Load Step for the minimum of minimum values.                   |
 | [`LoadStepNumber`](#DirectionalElectricFluxDensity.LoadStepNumber)                                       | Gets or sets the LoadStepNumber.                                       |
-| [`SolverComponentIDs`](#DirectionalElectricFluxDensity.SolverComponentIDs)                               | Gets or sets the SolverComponentIDs.                                   |
-| [`Substep`](#DirectionalElectricFluxDensity.Substep)                                                     | Gets the Substep.                                                      |
-| [`Average`](#DirectionalElectricFluxDensity.Average)                                                     | Gets the Average.                                                      |
+| [`Location`](#DirectionalElectricFluxDensity.Location)                                                   | Gets or sets the Location.                                             |
 | [`Maximum`](#DirectionalElectricFluxDensity.Maximum)                                                     | Gets the Maximum.                                                      |
+| [`MaximumOccursOn`](#DirectionalElectricFluxDensity.MaximumOccursOn)                                     | Gets the MaximumOccursOn.                                              |
 | [`MaximumOfMaximumOverTime`](#DirectionalElectricFluxDensity.MaximumOfMaximumOverTime)                   | Gets the MaximumOfMaximumOverTime.                                     |
 | [`MaximumOfMinimumOverTime`](#DirectionalElectricFluxDensity.MaximumOfMinimumOverTime)                   | Gets the MaximumOfMinimumOverTime.                                     |
 | [`Minimum`](#DirectionalElectricFluxDensity.Minimum)                                                     | Gets the Minimum.                                                      |
+| [`MinimumOccursOn`](#DirectionalElectricFluxDensity.MinimumOccursOn)                                     | Gets the MinimumOccursOn.                                              |
 | [`MinimumOfMaximumOverTime`](#DirectionalElectricFluxDensity.MinimumOfMaximumOverTime)                   | Gets the MinimumOfMaximumOverTime.                                     |
 | [`MinimumOfMinimumOverTime`](#DirectionalElectricFluxDensity.MinimumOfMinimumOverTime)                   | Gets the MinimumOfMinimumOverTime.                                     |
-| [`Time`](#DirectionalElectricFluxDensity.Time)                                                           | Gets the Time.                                                         |
-| [`DisplayTime`](#DirectionalElectricFluxDensity.DisplayTime)                                             | Gets or sets the DisplayTime.                                          |
-| [`GraphControlsXAxis`](#DirectionalElectricFluxDensity.GraphControlsXAxis)                               | Gets or sets the GraphControlsXAxis.                                   |
-| [`DisplayOption`](#DirectionalElectricFluxDensity.DisplayOption)                                         | Gets or sets the DisplayOption.                                        |
-| [`DpfEvaluation`](#DirectionalElectricFluxDensity.DpfEvaluation)                                         | Gets or sets the DpfEvaluation.                                        |
-| [`By`](#DirectionalElectricFluxDensity.By)                                                               | Gets or sets the By.                                                   |
-| [`ItemType`](#DirectionalElectricFluxDensity.ItemType)                                                   | Gets or sets the ItemType.                                             |
-| [`CalculateTimeHistory`](#DirectionalElectricFluxDensity.CalculateTimeHistory)                           | Gets or sets the CalculateTimeHistory.                                 |
-| [`Suppressed`](#DirectionalElectricFluxDensity.Suppressed)                                               | Gets or sets the Suppressed.                                           |
-| [`Children`](#DirectionalElectricFluxDensity.Children)                                                   | Gets the list of children.                                             |
-| [`Comments`](#DirectionalElectricFluxDensity.Comments)                                                   | Gets the list of associated comments.                                  |
-| [`Figures`](#DirectionalElectricFluxDensity.Figures)                                                     | Gets the list of associated figures.                                   |
-| [`Images`](#DirectionalElectricFluxDensity.Images)                                                       | Gets the list of associated images.                                    |
-| [`InternalObject`](#id0)                                                                                 | Gets the internal object. For advanced usage only.                     |
+| [`NamedSelections`](#DirectionalElectricFluxDensity.NamedSelections)                                     | Gets or sets the NamedSelections.                                      |
+| [`NormalOrientation`](#DirectionalElectricFluxDensity.NormalOrientation)                                 | Gets or sets the NormalOrientation.                                    |
+| [`Path`](#DirectionalElectricFluxDensity.Path)                                                           | Path property.                                                         |
+| [`PhaseIncrement`](#DirectionalElectricFluxDensity.PhaseIncrement)                                       | Gets or sets the PhaseIncrement.                                       |
+| [`PlotData`](#DirectionalElectricFluxDensity.PlotData)                                                   | Gets the result table.                                                 |
 | [`Properties`](#DirectionalElectricFluxDensity.Properties)                                               | Gets the list of properties for this object.                           |
+| [`ReportedFrequency`](#DirectionalElectricFluxDensity.ReportedFrequency)                                 | Gets the ReportedFrequency.                                            |
+| [`ScopingMethod`](#DirectionalElectricFluxDensity.ScopingMethod)                                         | Gets or sets the ScopingMethod.                                        |
+| [`SetNumber`](#DirectionalElectricFluxDensity.SetNumber)                                                 | Gets or sets the Set Number.                                           |
+| [`SolutionCombinationDriver`](#DirectionalElectricFluxDensity.SolutionCombinationDriver)                 | Gets or sets the SolutionCombinationDriver.                            |
+| [`SolverComponentIDs`](#DirectionalElectricFluxDensity.SolverComponentIDs)                               | Gets or sets the SolverComponentIDs.                                   |
+| [`Substep`](#DirectionalElectricFluxDensity.Substep)                                                     | Gets the Substep.                                                      |
+| [`Suppressed`](#DirectionalElectricFluxDensity.Suppressed)                                               | Gets or sets the Suppressed.                                           |
+| [`Surface`](#DirectionalElectricFluxDensity.Surface)                                                     | Surface property.                                                      |
+| [`SurfaceCoating`](#DirectionalElectricFluxDensity.SurfaceCoating)                                                                                                                                                          | SurfaceCoating property.                                               |
+| [`SweepingPhase`](#DirectionalElectricFluxDensity.SweepingPhase)                                         | Gets or sets the SweepingPhase.                                        |
+| [`Time`](#DirectionalElectricFluxDensity.Time)                                                           | Gets the Time.                                                         |
+| [`TimeForMaximumOfMaximumValues`](#DirectionalElectricFluxDensity.TimeForMaximumOfMaximumValues)         | Get the Time for the maximum of maximum values.                        |
+| [`TimeForMaximumOfMinimumValues`](#DirectionalElectricFluxDensity.TimeForMaximumOfMinimumValues)         | Get the Time for the maximum of minimum values.                        |
+| [`TimeForMinimumOfMaximumValues`](#DirectionalElectricFluxDensity.TimeForMinimumOfMaximumValues)         | Get the Time for the minimum of maximum values.                        |
+| [`TimeForMinimumOfMinimumValues`](#DirectionalElectricFluxDensity.TimeForMinimumOfMinimumValues)         | Get the Time for the minimum of minimum values.                        |
 | [`VisibleProperties`](#DirectionalElectricFluxDensity.VisibleProperties)                                 | Gets the list of properties that are visible for this object.          |
+| [`WaterfallShowTextOnMosaic`](#DirectionalElectricFluxDensity.WaterfallShowTextOnMosaic)                                                                                                                                    | Gets or sets the Waterfall Mosaic Text Property.                       |
 
 <a id="property-detail"></a>
 
 ## Property detail
-
-<a id="DirectionalElectricFluxDensity.InternalObject"></a>
-
-### *property* DirectionalElectricFluxDensity.InternalObject *: Ansys.Common.Interop.DSObjectsAuto.IDSResultAuto | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets the internal object. For advanced usage only.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="DirectionalElectricFluxDensity.NormalOrientation"></a>
-
-### *property* DirectionalElectricFluxDensity.NormalOrientation *: [Ansys.Mechanical.DataModel.Enums.NormalOrientationType](../../../../../../../v241/Ansys/Mechanical/DataModel/Enums/NormalOrientationType.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.NormalOrientationType) | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the NormalOrientation.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="DirectionalElectricFluxDensity.DataModelObjectCategory"></a>
-
-### *property* DirectionalElectricFluxDensity.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../../../v241/Ansys/Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets the current DataModelObject's category.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="DirectionalElectricFluxDensity.ReportedFrequency"></a>
-
-### *property* DirectionalElectricFluxDensity.ReportedFrequency *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets the ReportedFrequency.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="DirectionalElectricFluxDensity.SweepingPhase"></a>
-
-### *property* DirectionalElectricFluxDensity.SweepingPhase *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the SweepingPhase.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="DirectionalElectricFluxDensity.PhaseIncrement"></a>
-
-### *property* DirectionalElectricFluxDensity.PhaseIncrement *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the PhaseIncrement.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="DirectionalElectricFluxDensity.Frequency"></a>
-
-### *property* DirectionalElectricFluxDensity.Frequency *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the Frequency.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="DirectionalElectricFluxDensity.ElectricResultType"></a>
-
-### *property* DirectionalElectricFluxDensity.ElectricResultType *: [Ansys.Mechanical.DataModel.Enums.TotalOrDirectional](../../../../../../../v241/Ansys/Mechanical/DataModel/Enums/TotalOrDirectional.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.TotalOrDirectional) | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the ElectricResultType.
-
-<!-- !! processed by numpydoc !! -->
 
 <a id="DirectionalElectricFluxDensity.Amplitude"></a>
 
 ### *property* DirectionalElectricFluxDensity.Amplitude *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Amplitude.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="DirectionalElectricFluxDensity.Average"></a>
+
+### *property* DirectionalElectricFluxDensity.Average *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets the Average.
 
 <!-- !! processed by numpydoc !! -->
 
@@ -199,91 +141,43 @@ Gets or sets the AverageAcrossBodies.
 
 <!-- !! processed by numpydoc !! -->
 
-<a id="DirectionalElectricFluxDensity.PlotData"></a>
+<a id="DirectionalElectricFluxDensity.By"></a>
 
-### *property* DirectionalElectricFluxDensity.PlotData *: [Ansys.Mechanical.DataModel.Results.ResultDataTable](../../../../../../../v241/Ansys/Mechanical/DataModel/Results/ResultDataTable.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Results.ResultDataTable) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* DirectionalElectricFluxDensity.By *: [Ansys.Mechanical.DataModel.Enums.SetDriverStyle](../../../../../Mechanical/DataModel/Enums/SetDriverStyle.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.SetDriverStyle) | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets the result table.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="DirectionalElectricFluxDensity.Location"></a>
-
-### *property* DirectionalElectricFluxDensity.Location *: Ansys.ACT.Interfaces.Common.ISelectionInfo | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the Location.
+Gets or sets the By.
 
 <!-- !! processed by numpydoc !! -->
 
-<a id="DirectionalElectricFluxDensity.TimeForMinimumOfMinimumValues"></a>
+<a id="DirectionalElectricFluxDensity.CalculateTimeHistory"></a>
 
-### *property* DirectionalElectricFluxDensity.TimeForMinimumOfMinimumValues *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* DirectionalElectricFluxDensity.CalculateTimeHistory *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Get the Time for the minimum of minimum values.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="DirectionalElectricFluxDensity.TimeForMinimumOfMaximumValues"></a>
-
-### *property* DirectionalElectricFluxDensity.TimeForMinimumOfMaximumValues *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Get the Time for the minimum of maximum values.
+Gets or sets the CalculateTimeHistory.
 
 <!-- !! processed by numpydoc !! -->
 
-<a id="DirectionalElectricFluxDensity.LoadStepForMinimumOfMinimumValues"></a>
+<a id="DirectionalElectricFluxDensity.Children"></a>
 
-### *property* DirectionalElectricFluxDensity.LoadStepForMinimumOfMinimumValues *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* DirectionalElectricFluxDensity.Children *: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Get the Load Step for the minimum of minimum values.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="DirectionalElectricFluxDensity.LoadStepForMinimumOfMaximumValues"></a>
-
-### *property* DirectionalElectricFluxDensity.LoadStepForMinimumOfMaximumValues *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Get the Load Step for the minimum of maximum values.
+Gets the list of children.
 
 <!-- !! processed by numpydoc !! -->
 
-<a id="DirectionalElectricFluxDensity.TimeForMaximumOfMinimumValues"></a>
+<a id="DirectionalElectricFluxDensity.CombinationNumber"></a>
 
-### *property* DirectionalElectricFluxDensity.TimeForMaximumOfMinimumValues *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* DirectionalElectricFluxDensity.CombinationNumber *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Get the Time for the maximum of minimum values.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="DirectionalElectricFluxDensity.TimeForMaximumOfMaximumValues"></a>
-
-### *property* DirectionalElectricFluxDensity.TimeForMaximumOfMaximumValues *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Get the Time for the maximum of maximum values.
+Gets or sets the Combination Number for a Solution Combination result.
 
 <!-- !! processed by numpydoc !! -->
 
-<a id="DirectionalElectricFluxDensity.LoadStepForMaximumOfMinimumValues"></a>
+<a id="DirectionalElectricFluxDensity.Comments"></a>
 
-### *property* DirectionalElectricFluxDensity.LoadStepForMaximumOfMinimumValues *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* DirectionalElectricFluxDensity.Comments *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Comment](../../../../../../../v241/Ansys/ACT/Automation/Mechanical/Comment.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Get the Load Step for the maximum of minimum values.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="DirectionalElectricFluxDensity.LoadStepForMaximumOfMaximumValues"></a>
-
-### *property* DirectionalElectricFluxDensity.LoadStepForMaximumOfMaximumValues *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Get the Load Step for the maximum of maximum values.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="DirectionalElectricFluxDensity.IsSolved"></a>
-
-### *property* DirectionalElectricFluxDensity.IsSolved *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets the IsSolved.
+Gets the list of associated comments.
 
 <!-- !! processed by numpydoc !! -->
 
@@ -297,83 +191,67 @@ Accepts/Returns None for Fiber Coordinate System for a result that is sub scoped
 
 <!-- !! processed by numpydoc !! -->
 
-<a id="DirectionalElectricFluxDensity.ScopingMethod"></a>
-
-### *property* DirectionalElectricFluxDensity.ScopingMethod *: [Ansys.Mechanical.DataModel.Enums.GeometryDefineByType](../../../../../../../v241/Ansys/Mechanical/DataModel/Enums/GeometryDefineByType.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.GeometryDefineByType) | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the ScopingMethod.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="DirectionalElectricFluxDensity.SetNumber"></a>
-
-### *property* DirectionalElectricFluxDensity.SetNumber *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the Set Number.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="DirectionalElectricFluxDensity.CombinationNumber"></a>
-
-### *property* DirectionalElectricFluxDensity.CombinationNumber *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the Combination Number for a Solution Combination result.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="DirectionalElectricFluxDensity.SolutionCombinationDriver"></a>
-
-### *property* DirectionalElectricFluxDensity.SolutionCombinationDriver *: [Ansys.Mechanical.DataModel.Enums.SolutionCombinationDriverStyle](../../../../../../../v241/Ansys/Mechanical/DataModel/Enums/SolutionCombinationDriverStyle.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.SolutionCombinationDriverStyle) | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the SolutionCombinationDriver.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="DirectionalElectricFluxDensity.Path"></a>
-
-### *property* DirectionalElectricFluxDensity.Path *: [Ansys.ACT.Automation.Mechanical.Path](../../../../../../../v241/Ansys/ACT/Automation/Mechanical/Path.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Path) | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Path property.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="DirectionalElectricFluxDensity.Surface"></a>
-
-### *property* DirectionalElectricFluxDensity.Surface *: [Ansys.ACT.Automation.Mechanical.Surface](../../../../../../../v241/Ansys/ACT/Automation/Mechanical/Surface.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Surface) | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Surface property.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="DirectionalElectricFluxDensity.SurfaceCoating"></a>
-
-### *property* DirectionalElectricFluxDensity.SurfaceCoating *: [Ansys.ACT.Automation.Mechanical.SurfaceCoating](../../../../../../../v241/Ansys/ACT/Automation/Mechanical/SurfaceCoating.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.SurfaceCoating) | [None](https://docs.python.org/3/library/constants.html#None)*
-
-SurfaceCoating property.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="DirectionalElectricFluxDensity.NamedSelections"></a>
-
-### *property* DirectionalElectricFluxDensity.NamedSelections *: System.Collections.Generic.IEnumerable[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the NamedSelections.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="DirectionalElectricFluxDensity.WaterfallShowTextOnMosaic"></a>
-
-### *property* DirectionalElectricFluxDensity.WaterfallShowTextOnMosaic *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the Waterfall Mosaic Text Property.
-
-<!-- !! processed by numpydoc !! -->
-
 <a id="DirectionalElectricFluxDensity.CrackFrontNumber"></a>
 
 ### *property* DirectionalElectricFluxDensity.CrackFrontNumber *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the CrackFrontNumber.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="DirectionalElectricFluxDensity.DataModelObjectCategory"></a>
+
+### *property* DirectionalElectricFluxDensity.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets the current DataModelObject’s category.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="DirectionalElectricFluxDensity.DisplayOption"></a>
+
+### *property* DirectionalElectricFluxDensity.DisplayOption *: [Ansys.Mechanical.DataModel.Enums.ResultAveragingType](../../../../../Mechanical/DataModel/Enums/ResultAveragingType.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.ResultAveragingType) | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the DisplayOption.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="DirectionalElectricFluxDensity.DisplayTime"></a>
+
+### *property* DirectionalElectricFluxDensity.DisplayTime *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the DisplayTime.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="DirectionalElectricFluxDensity.DpfEvaluation"></a>
+
+### *property* DirectionalElectricFluxDensity.DpfEvaluation *: [Ansys.Mechanical.DataModel.Enums.DpfEvaluationType](../../../../../Mechanical/DataModel/Enums/DpfEvaluationType.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.DpfEvaluationType) | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the DpfEvaluation.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="DirectionalElectricFluxDensity.ElectricResultType"></a>
+
+### *property* DirectionalElectricFluxDensity.ElectricResultType *: [Ansys.Mechanical.DataModel.Enums.TotalOrDirectional](../../../../../Mechanical/DataModel/Enums/TotalOrDirectional.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.TotalOrDirectional) | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the ElectricResultType.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="DirectionalElectricFluxDensity.Figures"></a>
+
+### *property* DirectionalElectricFluxDensity.Figures *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Figure](../../../../../../../v241/Ansys/ACT/Automation/Mechanical/Figure.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets the list of associated figures.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="DirectionalElectricFluxDensity.Frequency"></a>
+
+### *property* DirectionalElectricFluxDensity.Frequency *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the Frequency.
 
 <!-- !! processed by numpydoc !! -->
 
@@ -385,11 +263,51 @@ Gets or sets the GlobalIDs.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="DirectionalElectricFluxDensity.GraphControlsXAxis"></a>
+
+### *property* DirectionalElectricFluxDensity.GraphControlsXAxis *: [Ansys.Mechanical.DataModel.Enums.GraphControlsXAxis](../../../../../Mechanical/DataModel/Enums/GraphControlsXAxis.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.GraphControlsXAxis) | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the GraphControlsXAxis.
+
+<!-- !! processed by numpydoc !! -->
+
 <a id="DirectionalElectricFluxDensity.Identifier"></a>
 
 ### *property* DirectionalElectricFluxDensity.Identifier *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Identifier.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="DirectionalElectricFluxDensity.Images"></a>
+
+### *property* DirectionalElectricFluxDensity.Images *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Image](../../../../../../../v241/Ansys/ACT/Automation/Mechanical/Image.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets the list of associated images.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="DirectionalElectricFluxDensity.InternalObject"></a>
+
+### *property* DirectionalElectricFluxDensity.InternalObject *: Ansys.Common.Interop.DSObjectsAuto.IDSResultAuto | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets the internal object. For advanced usage only.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="DirectionalElectricFluxDensity.IsSolved"></a>
+
+### *property* DirectionalElectricFluxDensity.IsSolved *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets the IsSolved.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="DirectionalElectricFluxDensity.ItemType"></a>
+
+### *property* DirectionalElectricFluxDensity.ItemType *: [Ansys.Mechanical.DataModel.Enums.ResultFileItemType](../../../../../Mechanical/DataModel/Enums/ResultFileItemType.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.ResultFileItemType) | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the ItemType.
 
 <!-- !! processed by numpydoc !! -->
 
@@ -409,19 +327,35 @@ Gets the LoadStep.
 
 <!-- !! processed by numpydoc !! -->
 
-<a id="DirectionalElectricFluxDensity.MaximumOccursOn"></a>
+<a id="DirectionalElectricFluxDensity.LoadStepForMaximumOfMaximumValues"></a>
 
-### *property* DirectionalElectricFluxDensity.MaximumOccursOn *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* DirectionalElectricFluxDensity.LoadStepForMaximumOfMaximumValues *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets the MaximumOccursOn.
+Get the Load Step for the maximum of maximum values.
 
 <!-- !! processed by numpydoc !! -->
 
-<a id="DirectionalElectricFluxDensity.MinimumOccursOn"></a>
+<a id="DirectionalElectricFluxDensity.LoadStepForMaximumOfMinimumValues"></a>
 
-### *property* DirectionalElectricFluxDensity.MinimumOccursOn *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* DirectionalElectricFluxDensity.LoadStepForMaximumOfMinimumValues *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets the MinimumOccursOn.
+Get the Load Step for the maximum of minimum values.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="DirectionalElectricFluxDensity.LoadStepForMinimumOfMaximumValues"></a>
+
+### *property* DirectionalElectricFluxDensity.LoadStepForMinimumOfMaximumValues *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Get the Load Step for the minimum of maximum values.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="DirectionalElectricFluxDensity.LoadStepForMinimumOfMinimumValues"></a>
+
+### *property* DirectionalElectricFluxDensity.LoadStepForMinimumOfMinimumValues *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Get the Load Step for the minimum of minimum values.
 
 <!-- !! processed by numpydoc !! -->
 
@@ -433,27 +367,11 @@ Gets or sets the LoadStepNumber.
 
 <!-- !! processed by numpydoc !! -->
 
-<a id="DirectionalElectricFluxDensity.SolverComponentIDs"></a>
+<a id="DirectionalElectricFluxDensity.Location"></a>
 
-### *property* DirectionalElectricFluxDensity.SolverComponentIDs *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* DirectionalElectricFluxDensity.Location *: Ansys.ACT.Interfaces.Common.ISelectionInfo | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets or sets the SolverComponentIDs.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="DirectionalElectricFluxDensity.Substep"></a>
-
-### *property* DirectionalElectricFluxDensity.Substep *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets the Substep.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="DirectionalElectricFluxDensity.Average"></a>
-
-### *property* DirectionalElectricFluxDensity.Average *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets the Average.
+Gets or sets the Location.
 
 <!-- !! processed by numpydoc !! -->
 
@@ -462,6 +380,14 @@ Gets the Average.
 ### *property* DirectionalElectricFluxDensity.Maximum *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the Maximum.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="DirectionalElectricFluxDensity.MaximumOccursOn"></a>
+
+### *property* DirectionalElectricFluxDensity.MaximumOccursOn *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets the MaximumOccursOn.
 
 <!-- !! processed by numpydoc !! -->
 
@@ -489,6 +415,14 @@ Gets the Minimum.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="DirectionalElectricFluxDensity.MinimumOccursOn"></a>
+
+### *property* DirectionalElectricFluxDensity.MinimumOccursOn *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets the MinimumOccursOn.
+
+<!-- !! processed by numpydoc !! -->
+
 <a id="DirectionalElectricFluxDensity.MinimumOfMaximumOverTime"></a>
 
 ### *property* DirectionalElectricFluxDensity.MinimumOfMaximumOverTime *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
@@ -505,115 +439,43 @@ Gets the MinimumOfMinimumOverTime.
 
 <!-- !! processed by numpydoc !! -->
 
-<a id="DirectionalElectricFluxDensity.Time"></a>
+<a id="DirectionalElectricFluxDensity.NamedSelections"></a>
 
-### *property* DirectionalElectricFluxDensity.Time *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* DirectionalElectricFluxDensity.NamedSelections *: System.Collections.Generic.IEnumerable[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets the Time.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="DirectionalElectricFluxDensity.DisplayTime"></a>
-
-### *property* DirectionalElectricFluxDensity.DisplayTime *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the DisplayTime.
+Gets or sets the NamedSelections.
 
 <!-- !! processed by numpydoc !! -->
 
-<a id="DirectionalElectricFluxDensity.GraphControlsXAxis"></a>
+<a id="DirectionalElectricFluxDensity.NormalOrientation"></a>
 
-### *property* DirectionalElectricFluxDensity.GraphControlsXAxis *: [Ansys.Mechanical.DataModel.Enums.GraphControlsXAxis](../../../../../../../v241/Ansys/Mechanical/DataModel/Enums/GraphControlsXAxis.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.GraphControlsXAxis) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* DirectionalElectricFluxDensity.NormalOrientation *: [Ansys.Mechanical.DataModel.Enums.NormalOrientationType](../../../../../Mechanical/DataModel/Enums/NormalOrientationType.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.NormalOrientationType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets or sets the GraphControlsXAxis.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="DirectionalElectricFluxDensity.DisplayOption"></a>
-
-### *property* DirectionalElectricFluxDensity.DisplayOption *: [Ansys.Mechanical.DataModel.Enums.ResultAveragingType](../../../../../../../v241/Ansys/Mechanical/DataModel/Enums/ResultAveragingType.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.ResultAveragingType) | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the DisplayOption.
+Gets or sets the NormalOrientation.
 
 <!-- !! processed by numpydoc !! -->
 
-<a id="DirectionalElectricFluxDensity.DpfEvaluation"></a>
+<a id="DirectionalElectricFluxDensity.Path"></a>
 
-### *property* DirectionalElectricFluxDensity.DpfEvaluation *: [Ansys.Mechanical.DataModel.Enums.DpfEvaluationType](../../../../../../../v241/Ansys/Mechanical/DataModel/Enums/DpfEvaluationType.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DpfEvaluationType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* DirectionalElectricFluxDensity.Path *: [Ansys.ACT.Automation.Mechanical.Path](../../Path.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Path) | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets or sets the DpfEvaluation.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="DirectionalElectricFluxDensity.By"></a>
-
-### *property* DirectionalElectricFluxDensity.By *: [Ansys.Mechanical.DataModel.Enums.SetDriverStyle](../../../../../../../v241/Ansys/Mechanical/DataModel/Enums/SetDriverStyle.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.SetDriverStyle) | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the By.
+Path property.
 
 <!-- !! processed by numpydoc !! -->
 
-<a id="DirectionalElectricFluxDensity.ItemType"></a>
+<a id="DirectionalElectricFluxDensity.PhaseIncrement"></a>
 
-### *property* DirectionalElectricFluxDensity.ItemType *: [Ansys.Mechanical.DataModel.Enums.ResultFileItemType](../../../../../../../v241/Ansys/Mechanical/DataModel/Enums/ResultFileItemType.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.ResultFileItemType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* DirectionalElectricFluxDensity.PhaseIncrement *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets or sets the ItemType.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="DirectionalElectricFluxDensity.CalculateTimeHistory"></a>
-
-### *property* DirectionalElectricFluxDensity.CalculateTimeHistory *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the CalculateTimeHistory.
+Gets or sets the PhaseIncrement.
 
 <!-- !! processed by numpydoc !! -->
 
-<a id="DirectionalElectricFluxDensity.Suppressed"></a>
+<a id="DirectionalElectricFluxDensity.PlotData"></a>
 
-### *property* DirectionalElectricFluxDensity.Suppressed *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* DirectionalElectricFluxDensity.PlotData *: [Ansys.Mechanical.DataModel.Results.ResultDataTable](../../../../../Mechanical/DataModel/Results/ResultDataTable.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Results.ResultDataTable) | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets or sets the Suppressed.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="DirectionalElectricFluxDensity.Children"></a>
-
-### *property* DirectionalElectricFluxDensity.Children *: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets the list of children.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="DirectionalElectricFluxDensity.Comments"></a>
-
-### *property* DirectionalElectricFluxDensity.Comments *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Comment](../../../../../../../v241/Ansys/ACT/Automation/Mechanical/Comment.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets the list of associated comments.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="DirectionalElectricFluxDensity.Figures"></a>
-
-### *property* DirectionalElectricFluxDensity.Figures *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Figure](../../../../../../../v241/Ansys/ACT/Automation/Mechanical/Figure.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets the list of associated figures.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="DirectionalElectricFluxDensity.Images"></a>
-
-### *property* DirectionalElectricFluxDensity.Images *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Image](../../../../../../../v241/Ansys/ACT/Automation/Mechanical/Image.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets the list of associated images.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="id0"></a>
-
-### *property* DirectionalElectricFluxDensity.InternalObject *: System.Object | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets the internal object. For advanced usage only.
+Gets the result table.
 
 <!-- !! processed by numpydoc !! -->
 
@@ -625,6 +487,126 @@ Gets the list of properties for this object.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="DirectionalElectricFluxDensity.ReportedFrequency"></a>
+
+### *property* DirectionalElectricFluxDensity.ReportedFrequency *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets the ReportedFrequency.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="DirectionalElectricFluxDensity.ScopingMethod"></a>
+
+### *property* DirectionalElectricFluxDensity.ScopingMethod *: [Ansys.Mechanical.DataModel.Enums.GeometryDefineByType](../../../../../Mechanical/DataModel/Enums/GeometryDefineByType.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.GeometryDefineByType) | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the ScopingMethod.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="DirectionalElectricFluxDensity.SetNumber"></a>
+
+### *property* DirectionalElectricFluxDensity.SetNumber *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the Set Number.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="DirectionalElectricFluxDensity.SolutionCombinationDriver"></a>
+
+### *property* DirectionalElectricFluxDensity.SolutionCombinationDriver *: [Ansys.Mechanical.DataModel.Enums.SolutionCombinationDriverStyle](../../../../../Mechanical/DataModel/Enums/SolutionCombinationDriverStyle.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.SolutionCombinationDriverStyle) | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the SolutionCombinationDriver.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="DirectionalElectricFluxDensity.SolverComponentIDs"></a>
+
+### *property* DirectionalElectricFluxDensity.SolverComponentIDs *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the SolverComponentIDs.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="DirectionalElectricFluxDensity.Substep"></a>
+
+### *property* DirectionalElectricFluxDensity.Substep *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets the Substep.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="DirectionalElectricFluxDensity.Suppressed"></a>
+
+### *property* DirectionalElectricFluxDensity.Suppressed *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the Suppressed.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="DirectionalElectricFluxDensity.Surface"></a>
+
+### *property* DirectionalElectricFluxDensity.Surface *: [Ansys.ACT.Automation.Mechanical.Surface](../../Surface.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Surface) | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Surface property.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="DirectionalElectricFluxDensity.SurfaceCoating"></a>
+
+### *property* DirectionalElectricFluxDensity.SurfaceCoating *: [Ansys.ACT.Automation.Mechanical.SurfaceCoating](../../SurfaceCoating.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.SurfaceCoating) | [None](https://docs.python.org/3/library/constants.html#None)*
+
+SurfaceCoating property.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="DirectionalElectricFluxDensity.SweepingPhase"></a>
+
+### *property* DirectionalElectricFluxDensity.SweepingPhase *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the SweepingPhase.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="DirectionalElectricFluxDensity.Time"></a>
+
+### *property* DirectionalElectricFluxDensity.Time *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets the Time.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="DirectionalElectricFluxDensity.TimeForMaximumOfMaximumValues"></a>
+
+### *property* DirectionalElectricFluxDensity.TimeForMaximumOfMaximumValues *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Get the Time for the maximum of maximum values.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="DirectionalElectricFluxDensity.TimeForMaximumOfMinimumValues"></a>
+
+### *property* DirectionalElectricFluxDensity.TimeForMaximumOfMinimumValues *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Get the Time for the maximum of minimum values.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="DirectionalElectricFluxDensity.TimeForMinimumOfMaximumValues"></a>
+
+### *property* DirectionalElectricFluxDensity.TimeForMinimumOfMaximumValues *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Get the Time for the minimum of maximum values.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="DirectionalElectricFluxDensity.TimeForMinimumOfMinimumValues"></a>
+
+### *property* DirectionalElectricFluxDensity.TimeForMinimumOfMinimumValues *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Get the Time for the minimum of minimum values.
+
+<!-- !! processed by numpydoc !! -->
+
 <a id="DirectionalElectricFluxDensity.VisibleProperties"></a>
 
 ### *property* DirectionalElectricFluxDensity.VisibleProperties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
@@ -633,79 +615,23 @@ Gets the list of properties that are visible for this object.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="DirectionalElectricFluxDensity.WaterfallShowTextOnMosaic"></a>
+
+### *property* DirectionalElectricFluxDensity.WaterfallShowTextOnMosaic *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the Waterfall Mosaic Text Property.
+
+<!-- !! processed by numpydoc !! -->
+
 <a id="method-detail"></a>
 
 ## Method detail
 
-<a id="DirectionalElectricFluxDensity.ClearGeneratedData"></a>
+<a id="DirectionalElectricFluxDensity.Activate"></a>
 
-### DirectionalElectricFluxDensity.ClearGeneratedData()
+### DirectionalElectricFluxDensity.Activate()
 
-Run the ClearGeneratedData action.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="DirectionalElectricFluxDensity.EvaluateAllResults"></a>
-
-### DirectionalElectricFluxDensity.EvaluateAllResults()
-
-Run the EvaluateAllResults action.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="DirectionalElectricFluxDensity.FetchRemoteResults"></a>
-
-### DirectionalElectricFluxDensity.FetchRemoteResults()
-
-Run the FetchRemoteResult action.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="DirectionalElectricFluxDensity.ExportToTextFile"></a>
-
-### DirectionalElectricFluxDensity.ExportToTextFile(filePath: System.String)
-
-Run the ExportToTextFile action.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="DirectionalElectricFluxDensity.ExportAnimation"></a>
-
-### DirectionalElectricFluxDensity.ExportAnimation(filePath: System.String, format: [Ansys.Mechanical.DataModel.Enums.GraphicsAnimationExportFormat](../../../../../../../v241/Ansys/Mechanical/DataModel/Enums/GraphicsAnimationExportFormat.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.GraphicsAnimationExportFormat), settings: [Ansys.Mechanical.Graphics.AnimationExportSettings](../../../../../../../v241/Ansys/Mechanical/Graphics/AnimationExportSettings.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.Graphics.AnimationExportSettings))
-
-Run the ExportAnimation action.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="DirectionalElectricFluxDensity.DuplicateWithoutResults"></a>
-
-### DirectionalElectricFluxDensity.DuplicateWithoutResults()
-
-Run the DuplicateWithoutResults action.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="DirectionalElectricFluxDensity.CreateResultsAtAllSets"></a>
-
-### DirectionalElectricFluxDensity.CreateResultsAtAllSets()
-
-Creates results at all sets for results under a solution.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="DirectionalElectricFluxDensity.PromoteToNamedSelection"></a>
-
-### DirectionalElectricFluxDensity.PromoteToNamedSelection()
-
-Run the PromoteToNamedSelection action.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="DirectionalElectricFluxDensity.CreateParameter"></a>
-
-### DirectionalElectricFluxDensity.CreateParameter(propName: System.String)
-
-CreateParameter method.
+Activate the current object.
 
 <!-- !! processed by numpydoc !! -->
 
@@ -717,51 +643,19 @@ Creates a new Alert
 
 <!-- !! processed by numpydoc !! -->
 
-<a id="DirectionalElectricFluxDensity.AddConvergence"></a>
-
-### DirectionalElectricFluxDensity.AddConvergence()
-
-Creates a new Convergence
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="DirectionalElectricFluxDensity.RenameBasedOnDefinition"></a>
-
-### DirectionalElectricFluxDensity.RenameBasedOnDefinition()
-
-Run the RenameBasedOnDefinition action.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="DirectionalElectricFluxDensity.Delete"></a>
-
-### DirectionalElectricFluxDensity.Delete()
-
-Run the Delete action.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="DirectionalElectricFluxDensity.GetChildren"></a>
-
-### DirectionalElectricFluxDensity.GetChildren(recurses: System.Boolean, children: System.Collections.Generic.IList[ChildrenType])
-
-Gets the list of children, filtered by type.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="id1"></a>
-
-### DirectionalElectricFluxDensity.GetChildren(category: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../../../v241/Ansys/Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory), recurses: System.Boolean, children: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject])
-
-Gets the list of children, filtered by type.
-
-<!-- !! processed by numpydoc !! -->
-
 <a id="DirectionalElectricFluxDensity.AddComment"></a>
 
 ### DirectionalElectricFluxDensity.AddComment()
 
 Creates a new child Comment.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="DirectionalElectricFluxDensity.AddConvergence"></a>
+
+### DirectionalElectricFluxDensity.AddConvergence()
+
+Creates a new Convergence
 
 <!-- !! processed by numpydoc !! -->
 
@@ -777,17 +671,19 @@ Creates a new child Figure.
 
 ### DirectionalElectricFluxDensity.AddImage(filePath: System.String)
 
+```text
 Creates a new child Image.
 If a filePath is provided, the image will be loaded from that file,
 if not, the image will be a screen capture of the Geometry window.
+```
 
 <!-- !! processed by numpydoc !! -->
 
-<a id="DirectionalElectricFluxDensity.Activate"></a>
+<a id="DirectionalElectricFluxDensity.ClearGeneratedData"></a>
 
-### DirectionalElectricFluxDensity.Activate()
+### DirectionalElectricFluxDensity.ClearGeneratedData()
 
-Activate the current object.
+Run the ClearGeneratedData action.
 
 <!-- !! processed by numpydoc !! -->
 
@@ -799,11 +695,91 @@ Copies all visible properties from this object to another.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="DirectionalElectricFluxDensity.CreateParameter"></a>
+
+### DirectionalElectricFluxDensity.CreateParameter(propName: System.String)
+
+CreateParameter method.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="DirectionalElectricFluxDensity.CreateResultsAtAllSets"></a>
+
+### DirectionalElectricFluxDensity.CreateResultsAtAllSets()
+
+Creates results at all sets for results under a solution.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="DirectionalElectricFluxDensity.Delete"></a>
+
+### DirectionalElectricFluxDensity.Delete()
+
+Run the Delete action.
+
+<!-- !! processed by numpydoc !! -->
+
 <a id="DirectionalElectricFluxDensity.Duplicate"></a>
 
 ### DirectionalElectricFluxDensity.Duplicate()
 
 Creates a copy of the current DataModelObject.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="DirectionalElectricFluxDensity.DuplicateWithoutResults"></a>
+
+### DirectionalElectricFluxDensity.DuplicateWithoutResults()
+
+Run the DuplicateWithoutResults action.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="DirectionalElectricFluxDensity.EvaluateAllResults"></a>
+
+### DirectionalElectricFluxDensity.EvaluateAllResults()
+
+Run the EvaluateAllResults action.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="DirectionalElectricFluxDensity.ExportAnimation"></a>
+
+### DirectionalElectricFluxDensity.ExportAnimation(filePath: System.String, format: [Ansys.Mechanical.DataModel.Enums.GraphicsAnimationExportFormat](../../../../../Mechanical/DataModel/Enums/GraphicsAnimationExportFormat.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.GraphicsAnimationExportFormat), settings: [Ansys.Mechanical.Graphics.AnimationExportSettings](../../../../../Mechanical/Graphics/AnimationExportSettings.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.Graphics.AnimationExportSettings))
+
+Run the ExportAnimation action.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="DirectionalElectricFluxDensity.ExportToTextFile"></a>
+
+### DirectionalElectricFluxDensity.ExportToTextFile(filePath: System.String)
+
+Run the ExportToTextFile action.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="DirectionalElectricFluxDensity.FetchRemoteResults"></a>
+
+### DirectionalElectricFluxDensity.FetchRemoteResults()
+
+Run the FetchRemoteResult action.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="DirectionalElectricFluxDensity.GetChildren"></a>
+
+### DirectionalElectricFluxDensity.GetChildren(recurses: System.Boolean, children: System.Collections.Generic.IList[ChildrenType])
+
+Gets the list of children, filtered by type.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="DirectionalElectricFluxDensity.GetParameter"></a>
+
+### DirectionalElectricFluxDensity.GetParameter(propName: System.String)
+
+Gets the parameter corresponding to the given property.
 
 <!-- !! processed by numpydoc !! -->
 
@@ -823,6 +799,25 @@ Run the GroupSimilarObjects action.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="DirectionalElectricFluxDensity.PromoteToNamedSelection"></a>
+
+### DirectionalElectricFluxDensity.PromoteToNamedSelection()
+
+Run the PromoteToNamedSelection action.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="DirectionalElectricFluxDensity.PropertyByAPIName"></a>
+
+### DirectionalElectricFluxDensity.PropertyByAPIName(name: System.String)
+
+```text
+Get a property by its API name.
+If multiple properties have the same API Name, only the first property with that name will be returned.
+```
+
+<!-- !! processed by numpydoc !! -->
+
 <a id="DirectionalElectricFluxDensity.PropertyByName"></a>
 
 ### DirectionalElectricFluxDensity.PropertyByName(name: System.String)
@@ -831,28 +826,19 @@ Get a property by its unique name.
 
 <!-- !! processed by numpydoc !! -->
 
-<a id="DirectionalElectricFluxDensity.PropertyByAPIName"></a>
-
-### DirectionalElectricFluxDensity.PropertyByAPIName(name: System.String)
-
-Get a property by its API name.
-If multiple properties have the same API Name, only the first property with that name will be returned.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="DirectionalElectricFluxDensity.GetParameter"></a>
-
-### DirectionalElectricFluxDensity.GetParameter(propName: System.String)
-
-Gets the parameter corresponding to the given property.
-
-<!-- !! processed by numpydoc !! -->
-
 <a id="DirectionalElectricFluxDensity.RemoveParameter"></a>
 
 ### DirectionalElectricFluxDensity.RemoveParameter(propName: System.String)
 
 Removes the parameter from the parameter set corresponding to the given property.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="DirectionalElectricFluxDensity.RenameBasedOnDefinition"></a>
+
+### DirectionalElectricFluxDensity.RenameBasedOnDefinition()
+
+Run the RenameBasedOnDefinition action.
 
 <!-- !! processed by numpydoc !! -->
 

@@ -1,6 +1,6 @@
 # `NonLinearValueType`
 
-
+<a id="ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.NonLinearValueType"></a>
 
 #### *class* ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.NonLinearValueType
 
@@ -17,7 +17,7 @@ Specifies the NonLinearValueType.
 ### Attributes
 
 | Name |
-| ------------------------------------------------------------------ |
+| -------------------------------------------------------------------------------------------------------------------------------------------- |
 | [`CalculatedBySolver`](#NonLinearValueType.CalculatedBySolver) |
 | [`UserInput`](#NonLinearValueType.UserInput) |
 

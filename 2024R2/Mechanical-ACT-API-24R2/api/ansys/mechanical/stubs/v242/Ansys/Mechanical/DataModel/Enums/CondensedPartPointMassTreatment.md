@@ -1,6 +1,6 @@
 # `CondensedPartPointMassTreatment`
 
-
+<a id="ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.CondensedPartPointMassTreatment"></a>
 
 #### *class* ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.CondensedPartPointMassTreatment
 
@@ -17,7 +17,7 @@ Specifies the CondensedPartPointMassTreatment.
 ### Attributes
 
 | Name |
-| --------------------------------------------------------------- |
+| ------------------------------------------------------------------------------------------------------------------------------------------------------ |
 | [`Internal`](#CondensedPartPointMassTreatment.Internal) |
 | [`OnInterface`](#CondensedPartPointMassTreatment.OnInterface) |
 

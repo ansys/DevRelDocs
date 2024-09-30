@@ -1,6 +1,6 @@
 # `DiagonalOrConsistent`
 
-
+<a id="ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.DiagonalOrConsistent"></a>
 
 #### *class* ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.DiagonalOrConsistent
 
@@ -17,7 +17,7 @@ Specifies the DiagonalOrConsistent.
 ### Attributes
 
 | Name |
-| ---------------------------------------------------------------- |
+| -------------------------------------------------------------------------------------------------------------------------------------------- |
 | [`Consistent`](#DiagonalOrConsistent.Consistent) |
 | [`Diagonal`](#DiagonalOrConsistent.Diagonal) |
 | [`ProgramControlled`](#DiagonalOrConsistent.ProgramControlled) |

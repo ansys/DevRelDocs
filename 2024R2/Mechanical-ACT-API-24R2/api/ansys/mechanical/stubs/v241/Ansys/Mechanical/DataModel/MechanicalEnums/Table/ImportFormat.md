@@ -1,6 +1,6 @@
 # `ImportFormat`
 
-
+<a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.MechanicalEnums.Table.ImportFormat"></a>
 
 #### *class* ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.MechanicalEnums.Table.ImportFormat
 
@@ -17,9 +17,9 @@ Specifies how to interpret the variable data source.
 ### Attributes
 
 | Name |
-| --------------------------------------------------------------------------------------------------------------------------------- |
-| [`Delimited`](../../../../../../v242/Ansys/Mechanical/DataModel/MechanicalEnums/Table/ImportFormat.md#ImportFormat.Delimited) |
-| [`FixedWidth`](../../../../../../v242/Ansys/Mechanical/DataModel/MechanicalEnums/Table/ImportFormat.md#ImportFormat.FixedWidth) |
+| ------------------------------------------ |
+| [`Delimited`](#ImportFormat.Delimited) |
+| [`FixedWidth`](#ImportFormat.FixedWidth) |
 
 <a id="attribute-detail"></a>
 

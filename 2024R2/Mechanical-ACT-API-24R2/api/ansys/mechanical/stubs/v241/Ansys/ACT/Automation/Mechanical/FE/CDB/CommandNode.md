@@ -1,6 +1,6 @@
 # `CommandNode`
 
-
+<a id="ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.FE.CDB.CommandNode"></a>
 
 #### *class* ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.FE.CDB.CommandNode
 
@@ -18,9 +18,9 @@ Represents a node associated to a NBLOCK command.
 
 | Name | Description |
 |--------------------------------------------------------------------------------------------------------------------|---------------------------|
-| [`Id`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/FE/CDB/CommandNode.md#CommandNode.Id)             | Gets the node number.     |
-| [`Location`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/FE/CDB/CommandNode.md#CommandNode.Location) | Gets the coordinates.     |
-| [`Rotation`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/FE/CDB/CommandNode.md#CommandNode.Rotation) | Gets the rotation angles. |
+| [`Id`](#CommandNode.Id)             | Gets the node number.     |
+| [`Location`](#CommandNode.Location) | Gets the coordinates.     |
+| [`Rotation`](#CommandNode.Rotation) | Gets the rotation angles. |
 
 <a id="property-detail"></a>
 

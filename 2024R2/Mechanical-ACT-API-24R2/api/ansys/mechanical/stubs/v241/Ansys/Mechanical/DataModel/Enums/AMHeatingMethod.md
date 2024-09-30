@@ -1,6 +1,6 @@
 # `AMHeatingMethod`
 
-
+<a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.AMHeatingMethod"></a>
 
 #### *class* ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.AMHeatingMethod
 
@@ -17,9 +17,9 @@ Specifies the AMHeatingMethod.
 ### Attributes
 
 | Name |
-| -------------------------------------------------------------------------------------------------------------------------------------- |
-| [`MeltingTemperature`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/AMHeatingMethod.md#AMHeatingMethod.MeltingTemperature) |
-| [`Power`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/AMHeatingMethod.md#AMHeatingMethod.Power) |
+| --------------------------------------------------------------- |
+| [`MeltingTemperature`](#AMHeatingMethod.MeltingTemperature) |
+| [`Power`](#AMHeatingMethod.Power) |
 
 <a id="attribute-detail"></a>
 

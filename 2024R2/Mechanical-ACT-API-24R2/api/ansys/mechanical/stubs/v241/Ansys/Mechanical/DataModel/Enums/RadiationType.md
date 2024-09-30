@@ -1,6 +1,6 @@
 # `RadiationType`
 
-
+<a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.RadiationType"></a>
 
 #### *class* ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.RadiationType
 
@@ -17,20 +17,20 @@ Specifies the RadiationType.
 ### Attributes
 
 | Name |
-| ---------------------------------------------------------------------------------------------------------------------------- |
-| [`ToAmbient`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/RadiationType.md#RadiationType.ToAmbient) |
-| [`SurfaceToSurface`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/RadiationType.md#RadiationType.SurfaceToSurface) |
+| --------------------------------------------------------- |
+| [`SurfaceToSurface`](#RadiationType.SurfaceToSurface) |
+| [`ToAmbient`](#RadiationType.ToAmbient) |
 
 <a id="attribute-detail"></a>
 
 ## Attribute detail
 
-<a id="RadiationType.ToAmbient"></a>
-
-### RadiationType.ToAmbient *= 0*
-
 <a id="RadiationType.SurfaceToSurface"></a>
 
 ### RadiationType.SurfaceToSurface *= 1*
+
+<a id="RadiationType.ToAmbient"></a>
+
+### RadiationType.ToAmbient *= 0*
 
 

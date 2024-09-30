@@ -1,6 +1,6 @@
 # `KrigingPolynomType`
 
-
+<a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.KrigingPolynomType"></a>
 
 #### *class* ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.KrigingPolynomType
 
@@ -17,35 +17,35 @@ Represents the various types of Polynomial which combines with Kriging model.
 ### Attributes
 
 | Name |
-| -------------------------------------------------------------------------------------------------------------------------------- |
-| [`PolyNone`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/KrigingPolynomType.md#KrigingPolynomType.PolyNone) |
-| [`PolyConst`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/KrigingPolynomType.md#KrigingPolynomType.PolyConst) |
-| [`PolyLinear`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/KrigingPolynomType.md#KrigingPolynomType.PolyLinear) |
-| [`PolyPureQuad`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/KrigingPolynomType.md#KrigingPolynomType.PolyPureQuad) |
-| [`PolyCrossQuad`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/KrigingPolynomType.md#KrigingPolynomType.PolyCrossQuad) |
+| ------------------------------------------------------ |
+| [`PolyConst`](#KrigingPolynomType.PolyConst) |
+| [`PolyCrossQuad`](#KrigingPolynomType.PolyCrossQuad) |
+| [`PolyLinear`](#KrigingPolynomType.PolyLinear) |
+| [`PolyNone`](#KrigingPolynomType.PolyNone) |
+| [`PolyPureQuad`](#KrigingPolynomType.PolyPureQuad) |
 
 <a id="attribute-detail"></a>
 
 ## Attribute detail
 
-<a id="KrigingPolynomType.PolyNone"></a>
-
-### KrigingPolynomType.PolyNone *= 0*
-
 <a id="KrigingPolynomType.PolyConst"></a>
 
 ### KrigingPolynomType.PolyConst *= 1*
+
+<a id="KrigingPolynomType.PolyCrossQuad"></a>
+
+### KrigingPolynomType.PolyCrossQuad *= 4*
 
 <a id="KrigingPolynomType.PolyLinear"></a>
 
 ### KrigingPolynomType.PolyLinear *= 2*
 
+<a id="KrigingPolynomType.PolyNone"></a>
+
+### KrigingPolynomType.PolyNone *= 0*
+
 <a id="KrigingPolynomType.PolyPureQuad"></a>
 
 ### KrigingPolynomType.PolyPureQuad *= 3*
-
-<a id="KrigingPolynomType.PolyCrossQuad"></a>
-
-### KrigingPolynomType.PolyCrossQuad *= 4*
 
 

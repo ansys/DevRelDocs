@@ -1,6 +1,6 @@
 # `ScatteredFieldFormulation`
 
-
+<a id="ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.ScatteredFieldFormulation"></a>
 
 #### *class* ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.ScatteredFieldFormulation
 
@@ -17,7 +17,7 @@ Specifies the ScatteredFieldFormulation.
 ### Attributes
 
 | Name |
-| --------------------------------------------------------------------- |
+| ------------------------------------------------------------------------------------------------------------------------------------------------------ |
 | [`Off`](#ScatteredFieldFormulation.Off) |
 | [`On`](#ScatteredFieldFormulation.On) |
 | [`ProgramControlled`](#ScatteredFieldFormulation.ProgramControlled) |

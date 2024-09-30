@@ -1,6 +1,6 @@
 # `DropDirection`
 
-
+<a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DropDirection"></a>
 
 #### *class* ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DropDirection
 
@@ -17,13 +17,13 @@ Specifies the DropDirection.
 ### Attributes
 
 | Name |
-| ---------------------------------------------------------------------------------------------------------------- |
-| [`NegativeX`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/DropDirection.md#DropDirection.NegativeX) |
-| [`NegativeY`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/DropDirection.md#DropDirection.NegativeY) |
-| [`NegativeZ`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/DropDirection.md#DropDirection.NegativeZ) |
-| [`PositiveX`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/DropDirection.md#DropDirection.PositiveX) |
-| [`PositiveY`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/DropDirection.md#DropDirection.PositiveY) |
-| [`PositiveZ`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/DropDirection.md#DropDirection.PositiveZ) |
+| ------------------------------------------- |
+| [`NegativeX`](#DropDirection.NegativeX) |
+| [`NegativeY`](#DropDirection.NegativeY) |
+| [`NegativeZ`](#DropDirection.NegativeZ) |
+| [`PositiveX`](#DropDirection.PositiveX) |
+| [`PositiveY`](#DropDirection.PositiveY) |
+| [`PositiveZ`](#DropDirection.PositiveZ) |
 
 <a id="attribute-detail"></a>
 

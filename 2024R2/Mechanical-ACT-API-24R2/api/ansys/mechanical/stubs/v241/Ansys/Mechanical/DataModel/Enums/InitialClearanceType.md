@@ -1,6 +1,6 @@
 # `InitialClearanceType`
 
-
+<a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.InitialClearanceType"></a>
 
 #### *class* ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.InitialClearanceType
 
@@ -17,10 +17,10 @@ Specifies the InitialClearanceType.
 ### Attributes
 
 | Name |
-| -------------------------------------------------------------------------------------------------------------------------------------------- |
-| [`Factor`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/InitialClearanceType.md#InitialClearanceType.Factor) |
-| [`ProgramControlled`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/InitialClearanceType.md#InitialClearanceType.ProgramControlled) |
-| [`Value`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/InitialClearanceType.md#InitialClearanceType.Value) |
+| ---------------------------------------------------------------- |
+| [`Factor`](#InitialClearanceType.Factor) |
+| [`ProgramControlled`](#InitialClearanceType.ProgramControlled) |
+| [`Value`](#InitialClearanceType.Value) |
 
 <a id="attribute-detail"></a>
 

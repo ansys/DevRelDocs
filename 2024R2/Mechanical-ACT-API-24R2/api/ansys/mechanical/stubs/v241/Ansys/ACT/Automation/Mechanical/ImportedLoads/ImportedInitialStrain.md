@@ -1,6 +1,6 @@
 # `ImportedInitialStrain`
 
-
+<a id="ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.ImportedLoads.ImportedInitialStrain"></a>
 
 #### *class* ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.ImportedLoads.ImportedInitialStrain
 
@@ -18,159 +18,101 @@ Defines a ImportedInitialStrain.
 
 | Name | Description |
 |--------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------|
-| [`ExportToTextFile`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/ImportedLoads/ImportedInitialStrain.md#ImportedInitialStrain.ExportToTextFile)               | Run the ExportToTextFile action.                                                  |
-| [`Import`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/ImportedLoads/ImportedInitialStrain.md#ImportedInitialStrain.Import)                                   | Import.                                                                           |
-| [`ImportLoad`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/ImportedLoads/ImportedInitialStrain.md#ImportedInitialStrain.ImportLoad)                           | Run the ImportLoad action.                                                        |
-| [`GetActivateAtLoadStep`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/ImportedLoads/ImportedInitialStrain.md#ImportedInitialStrain.GetActivateAtLoadStep)     | GetActivateAtLoadStep method.                                                     |
-| [`SetActivateAtLoadStep`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/ImportedLoads/ImportedInitialStrain.md#ImportedInitialStrain.SetActivateAtLoadStep)     | SetActivateAtLoadStep method.                                                     |
-| [`AddMappingValidation`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/ImportedLoads/ImportedInitialStrain.md#ImportedInitialStrain.AddMappingValidation)       | Creates a new MappingValidation                                                   |
-| [`ClearGeneratedData`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/ImportedLoads/ImportedInitialStrain.md#ImportedInitialStrain.ClearGeneratedData)           | Run the ClearGeneratedData action.                                                |
-| [`Delete`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/ImportedLoads/ImportedInitialStrain.md#ImportedInitialStrain.Delete)                                   | Run the Delete action.                                                            |
-| [`GetChildren`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/ImportedLoads/ImportedInitialStrain.md#id1)                                                       | Gets the list of children, filtered by type.                                      |
-| [`GetChildren`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/ImportedLoads/ImportedInitialStrain.md#id1)                                                       | Gets the list of children, filtered by type.                                      |
-| [`AddComment`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/ImportedLoads/ImportedInitialStrain.md#ImportedInitialStrain.AddComment)                           | Creates a new child Comment.                                                      |
-| [`AddFigure`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/ImportedLoads/ImportedInitialStrain.md#ImportedInitialStrain.AddFigure)                             | Creates a new child Figure.                                                       |
-| [`AddImage`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/ImportedLoads/ImportedInitialStrain.md#ImportedInitialStrain.AddImage)                               | Creates a new child Image.                                                        |
-| [`Activate`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/ImportedLoads/ImportedInitialStrain.md#ImportedInitialStrain.Activate)                               | Activate the current object.                                                      |
-| [`CopyTo`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/ImportedLoads/ImportedInitialStrain.md#ImportedInitialStrain.CopyTo)                                   | Copies all visible properties from this object to another.                        |
-| [`Duplicate`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/ImportedLoads/ImportedInitialStrain.md#ImportedInitialStrain.Duplicate)                             | Creates a copy of the current DataModelObject.                                    |
-| [`GroupAllSimilarChildren`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/ImportedLoads/ImportedInitialStrain.md#ImportedInitialStrain.GroupAllSimilarChildren) | Run the GroupAllSimilarChildren action.                                           |
-| [`GroupSimilarObjects`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/ImportedLoads/ImportedInitialStrain.md#ImportedInitialStrain.GroupSimilarObjects)         | Run the GroupSimilarObjects action.                                               |
-| [`PropertyByName`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/ImportedLoads/ImportedInitialStrain.md#ImportedInitialStrain.PropertyByName)                   | Get a property by its unique name.                                                |
-| [`PropertyByAPIName`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/ImportedLoads/ImportedInitialStrain.md#ImportedInitialStrain.PropertyByAPIName)             | Get a property by its API name.                                                   |
-| [`CreateParameter`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/ImportedLoads/ImportedInitialStrain.md#ImportedInitialStrain.CreateParameter)                 | Creates a new parameter for a Property.                                           |
-| [`GetParameter`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/ImportedLoads/ImportedInitialStrain.md#ImportedInitialStrain.GetParameter)                       | Gets the parameter corresponding to the given property.                           |
-| [`RemoveParameter`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/ImportedLoads/ImportedInitialStrain.md#ImportedInitialStrain.RemoveParameter)                 | Removes the parameter from the parameter set corresponding to the given property. |
+| [`Activate`](#ImportedInitialStrain.Activate)                               | Activate the current object.                                                      |
+| [`AddComment`](#ImportedInitialStrain.AddComment)                           | Creates a new child Comment.                                                      |
+| [`AddFigure`](#ImportedInitialStrain.AddFigure)                             | Creates a new child Figure.                                                       |
+| [`AddImage`](#ImportedInitialStrain.AddImage)                               | Creates a new child Image.                                                        |
+| [`AddMappingValidation`](#ImportedInitialStrain.AddMappingValidation)       | Creates a new MappingValidation                                                   |
+| [`ClearGeneratedData`](#ImportedInitialStrain.ClearGeneratedData)           | Run the ClearGeneratedData action.                                                |
+| [`CopyTo`](#ImportedInitialStrain.CopyTo)                                   | Copies all visible properties from this object to another.                        |
+| [`CreateParameter`](#ImportedInitialStrain.CreateParameter)                 | Creates a new parameter for a Property.                                           |
+| [`Delete`](#ImportedInitialStrain.Delete)                                   | Run the Delete action.                                                            |
+| [`Duplicate`](#ImportedInitialStrain.Duplicate)                             | Creates a copy of the current DataModelObject.                                    |
+| [`ExportToTextFile`](#ImportedInitialStrain.ExportToTextFile)               | Run the ExportToTextFile action.                                                  |
+| [`GetActivateAtLoadStep`](#ImportedInitialStrain.GetActivateAtLoadStep)     | GetActivateAtLoadStep method.                                                     |
+| [`GetChildren`](#ImportedInitialStrain.GetChildren)                         | Gets the list of children, filtered by type.                                      |
+| [`GetParameter`](#ImportedInitialStrain.GetParameter)                       | Gets the parameter corresponding to the given property.                           |
+| [`GroupAllSimilarChildren`](#ImportedInitialStrain.GroupAllSimilarChildren) | Run the GroupAllSimilarChildren action.                                           |
+| [`GroupSimilarObjects`](#ImportedInitialStrain.GroupSimilarObjects)         | Run the GroupSimilarObjects action.                                               |
+| [`Import`](#ImportedInitialStrain.Import)                                   | Import.                                                                           |
+| [`ImportLoad`](#ImportedInitialStrain.ImportLoad)                           | Run the ImportLoad action.                                                        |
+| [`PropertyByAPIName`](#ImportedInitialStrain.PropertyByAPIName)             | Get a property by its API name.                                                   |
+| [`PropertyByName`](#ImportedInitialStrain.PropertyByName)                   | Get a property by its unique name.                                                |
+| [`RemoveParameter`](#ImportedInitialStrain.RemoveParameter)                 | Removes the parameter from the parameter set corresponding to the given property. |
+| [`SetActivateAtLoadStep`](#ImportedInitialStrain.SetActivateAtLoadStep)     | SetActivateAtLoadStep method.                                                     |
 
 ### Properties
 
 | Name | Description |
 |----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------|
-| [`InternalObject`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/ImportedLoads/ImportedInitialStrain.md#id0)                                                                              | Gets the internal object. For advanced usage only.                                                      |
-| [`DataModelObjectCategory`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/ImportedLoads/ImportedInitialStrain.md#ImportedInitialStrain.DataModelObjectCategory)                           | Gets the current DataModelObject's category.                                                            |
-| [`Weighting`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/ImportedLoads/ImportedInitialStrain.md#ImportedInitialStrain.Weighting)                                                       | Weighting property.                                                                                     |
-| [`MappingControl`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/ImportedLoads/ImportedInitialStrain.md#ImportedInitialStrain.MappingControl)                                             | MappingControl property.                                                                                |
-| [`DisplaySourcePoints`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/ImportedLoads/ImportedInitialStrain.md#ImportedInitialStrain.DisplaySourcePoints)                                   | DisplaySourcePoints property.                                                                           |
-| [`DisplaySourcePointIds`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/ImportedLoads/ImportedInitialStrain.md#ImportedInitialStrain.DisplaySourcePointIds)                               | DisplaySourcePointIds property.                                                                         |
-| [`DisplayInteriorPoints`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/ImportedLoads/ImportedInitialStrain.md#ImportedInitialStrain.DisplayInteriorPoints)                               | DisplayInteriorPoints property.                                                                         |
-| [`DisplayProjectionPlane`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/ImportedLoads/ImportedInitialStrain.md#ImportedInitialStrain.DisplayProjectionPlane)                             | DisplayProjectionPlane property.                                                                        |
-| [`Algorithm`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/ImportedLoads/ImportedInitialStrain.md#ImportedInitialStrain.Algorithm)                                                       | Algorithm property.                                                                                     |
-| [`BoundingBoxTolerance`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/ImportedLoads/ImportedInitialStrain.md#ImportedInitialStrain.BoundingBoxTolerance)                                 | BoundingBoxTolerance property.                                                                          |
-| [`CreateNameSelectionForMappedNodes`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/ImportedLoads/ImportedInitialStrain.md#ImportedInitialStrain.CreateNameSelectionForMappedNodes)       | CreateNameSelectionForMappedNodes property.                                                             |
-| [`CreateNameSelectionForOutsideNodes`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/ImportedLoads/ImportedInitialStrain.md#ImportedInitialStrain.CreateNameSelectionForOutsideNodes)     | CreateNameSelectionForOutsideNodes property.                                                            |
-| [`CreateNameSelectionForUnmappedNodes`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/ImportedLoads/ImportedInitialStrain.md#ImportedInitialStrain.CreateNameSelectionForUnmappedNodes)   | CreateNameSelectionForUnmappedNodes property.                                                           |
-| [`Mapping`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/ImportedLoads/ImportedInitialStrain.md#ImportedInitialStrain.Mapping)                                                           | Mapping property.                                                                                       |
-| [`LegendMaximum`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/ImportedLoads/ImportedInitialStrain.md#ImportedInitialStrain.LegendMaximum)                                               | LegendMaximum property.                                                                                 |
-| [`LegendMinimum`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/ImportedLoads/ImportedInitialStrain.md#ImportedInitialStrain.LegendMinimum)                                               | LegendMinimum property.                                                                                 |
-| [`LegendRange`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/ImportedLoads/ImportedInitialStrain.md#ImportedInitialStrain.LegendRange)                                                   | LegendRange property.                                                                                   |
-| [`MaxOutsideDistance`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/ImportedLoads/ImportedInitialStrain.md#ImportedInitialStrain.MaxOutsideDistance)                                     | MaxOutsideDistance property.                                                                            |
-| [`Method`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/ImportedLoads/ImportedInitialStrain.md#ImportedInitialStrain.Method)                                                             | Method property.                                                                                        |
-| [`OutsideDistanceCheck`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/ImportedLoads/ImportedInitialStrain.md#ImportedInitialStrain.OutsideDistanceCheck)                                 | OutsideDistanceCheck property.                                                                          |
-| [`OutsideOption`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/ImportedLoads/ImportedInitialStrain.md#ImportedInitialStrain.OutsideOption)                                               | OutsideOption property.                                                                                 |
-| [`Projection`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/ImportedLoads/ImportedInitialStrain.md#ImportedInitialStrain.Projection)                                                     | Projection property.                                                                                    |
-| [`RigidBodyTransformationType`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/ImportedLoads/ImportedInitialStrain.md#ImportedInitialStrain.RigidBodyTransformationType)                   | RigidBodyTransformationType property.                                                                   |
-| [`RigidTransformSourceCoordinateSystem`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/ImportedLoads/ImportedInitialStrain.md#ImportedInitialStrain.RigidTransformSourceCoordinateSystem) | RigidTransformSourceCoordinateSystem property.                                                          |
-| [`RigidTransformTargetCoordinateSystem`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/ImportedLoads/ImportedInitialStrain.md#ImportedInitialStrain.RigidTransformTargetCoordinateSystem) | RigidTransformTargetCoordinateSystem property.                                                          |
-| [`ShellThicknessFactor`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/ImportedLoads/ImportedInitialStrain.md#ImportedInitialStrain.ShellThicknessFactor)                                 | ShellThicknessFactor property.                                                                          |
-| [`SourceMaximum`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/ImportedLoads/ImportedInitialStrain.md#ImportedInitialStrain.SourceMaximum)                                               | SourceMaximum property.                                                                                 |
-| [`SourceMinimum`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/ImportedLoads/ImportedInitialStrain.md#ImportedInitialStrain.SourceMinimum)                                               | SourceMinimum property.                                                                                 |
-| [`VariableType`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/ImportedLoads/ImportedInitialStrain.md#ImportedInitialStrain.VariableType)                                                 | VariableType property.                                                                                  |
-| [`Interpolation`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/ImportedLoads/ImportedInitialStrain.md#ImportedInitialStrain.Interpolation)                                               | Interpolation property.                                                                                 |
-| [`UnmappedNodesName`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/ImportedLoads/ImportedInitialStrain.md#ImportedInitialStrain.UnmappedNodesName)                                       | UnmappedNodesName property.                                                                             |
-| [`MappedNodesName`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/ImportedLoads/ImportedInitialStrain.md#ImportedInitialStrain.MappedNodesName)                                           | MappedNodesName property.                                                                               |
-| [`OutsideNodesName`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/ImportedLoads/ImportedInitialStrain.md#ImportedInitialStrain.OutsideNodesName)                                         | OutsideNodesName property.                                                                              |
-| [`Pinball`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/ImportedLoads/ImportedInitialStrain.md#ImportedInitialStrain.Pinball)                                                           | Pinball property.                                                                                       |
-| [`NumberOfPoints`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/ImportedLoads/ImportedInitialStrain.md#ImportedInitialStrain.NumberOfPoints)                                             | NumberOfPoints property.                                                                                |
-| [`OrientationRealignment`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/ImportedLoads/ImportedInitialStrain.md#ImportedInitialStrain.OrientationRealignment)                             | OrientationRealignment property.                                                                        |
-| [`Limit`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/ImportedLoads/ImportedInitialStrain.md#ImportedInitialStrain.Limit)                                                               | Limit property.                                                                                         |
-| [`KrigingCorrelationFunction`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/ImportedLoads/ImportedInitialStrain.md#ImportedInitialStrain.KrigingCorrelationFunction)                     | KrigingCorrelationFunction property.                                                                    |
-| [`KrigingPolynom`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/ImportedLoads/ImportedInitialStrain.md#ImportedInitialStrain.KrigingPolynom)                                             | KrigingPolynom property.                                                                                |
-| [`ExtrapolationTolerancePercent`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/ImportedLoads/ImportedInitialStrain.md#ImportedInitialStrain.ExtrapolationTolerancePercent)               | ExtrapolationTolerancePercent property.                                                                 |
-| [`ApplyAs`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/ImportedLoads/ImportedInitialStrain.md#ImportedInitialStrain.ApplyAs)                                                           | This controls how the imported load is applied, either as a boundary condition or an initial condition. |
-| [`Suppressed`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/ImportedLoads/ImportedInitialStrain.md#ImportedInitialStrain.Suppressed)                                                     | Gets or sets the Suppressed.                                                                            |
-| [`SharedRefBody`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/ImportedLoads/ImportedInitialStrain.md#ImportedInitialStrain.SharedRefBody)                                               | Gets or sets the SharedRefBody.                                                                         |
-| [`Location`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/ImportedLoads/ImportedInitialStrain.md#ImportedInitialStrain.Location)                                                         | Gets or sets the Location.                                                                              |
-| [`Children`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/ImportedLoads/ImportedInitialStrain.md#ImportedInitialStrain.Children)                                                         | Gets the list of children.                                                                              |
-| [`Comments`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/ImportedLoads/ImportedInitialStrain.md#ImportedInitialStrain.Comments)                                                         | Gets the list of associated comments.                                                                   |
-| [`Figures`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/ImportedLoads/ImportedInitialStrain.md#ImportedInitialStrain.Figures)                                                           | Gets the list of associated figures.                                                                    |
-| [`Images`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/ImportedLoads/ImportedInitialStrain.md#ImportedInitialStrain.Images)                                                             | Gets the list of associated images.                                                                     |
-| [`InternalObject`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/ImportedLoads/ImportedInitialStrain.md#id0)                                                                              | Gets the internal object. For advanced usage only.                                                      |
-| [`Properties`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/ImportedLoads/ImportedInitialStrain.md#ImportedInitialStrain.Properties)                                                     | Gets the list of properties for this object.                                                            |
-| [`VisibleProperties`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/ImportedLoads/ImportedInitialStrain.md#ImportedInitialStrain.VisibleProperties)                                       | Gets the list of properties that are visible for this object.                                           |
+| [`Algorithm`](#ImportedInitialStrain.Algorithm)                                                       | Algorithm property.                                                                                     |
+| [`ApplyAs`](#ImportedInitialStrain.ApplyAs)                                                           | This controls how the imported load is applied, either as a boundary condition or an initial condition. |
+| [`BoundingBoxTolerance`](#ImportedInitialStrain.BoundingBoxTolerance)                                 | BoundingBoxTolerance property.                                                                          |
+| [`Children`](#ImportedInitialStrain.Children)                                                         | Gets the list of children.                                                                              |
+| [`Comments`](#ImportedInitialStrain.Comments)                                                         | Gets the list of associated comments.                                                                   |
+| [`CreateNameSelectionForMappedNodes`](#ImportedInitialStrain.CreateNameSelectionForMappedNodes)       | CreateNameSelectionForMappedNodes property.                                                             |
+| [`CreateNameSelectionForOutsideNodes`](#ImportedInitialStrain.CreateNameSelectionForOutsideNodes)     | CreateNameSelectionForOutsideNodes property.                                                            |
+| [`CreateNameSelectionForUnmappedNodes`](#ImportedInitialStrain.CreateNameSelectionForUnmappedNodes)   | CreateNameSelectionForUnmappedNodes property.                                                           |
+| [`DataModelObjectCategory`](#ImportedInitialStrain.DataModelObjectCategory)                           | Gets the current DataModelObject’s category.                                                            |
+| [`DisplayInteriorPoints`](#ImportedInitialStrain.DisplayInteriorPoints)                               | DisplayInteriorPoints property.                                                                         |
+| [`DisplayProjectionPlane`](#ImportedInitialStrain.DisplayProjectionPlane)                             | DisplayProjectionPlane property.                                                                        |
+| [`DisplaySourcePointIds`](#ImportedInitialStrain.DisplaySourcePointIds)                               | DisplaySourcePointIds property.                                                                         |
+| [`DisplaySourcePoints`](#ImportedInitialStrain.DisplaySourcePoints)                                   | DisplaySourcePoints property.                                                                           |
+| [`ExtrapolationTolerancePercent`](#ImportedInitialStrain.ExtrapolationTolerancePercent)               | ExtrapolationTolerancePercent property.                                                                 |
+| [`Figures`](#ImportedInitialStrain.Figures)                                                           | Gets the list of associated figures.                                                                    |
+| [`Images`](#ImportedInitialStrain.Images)                                                             | Gets the list of associated images.                                                                     |
+| [`InternalObject`](#ImportedInitialStrain.InternalObject)                                             | Gets the internal object. For advanced usage only.                                                      |
+| [`Interpolation`](#ImportedInitialStrain.Interpolation)                                               | Interpolation property.                                                                                 |
+| [`KrigingCorrelationFunction`](#ImportedInitialStrain.KrigingCorrelationFunction)                     | KrigingCorrelationFunction property.                                                                    |
+| [`KrigingPolynom`](#ImportedInitialStrain.KrigingPolynom)                                             | KrigingPolynom property.                                                                                |
+| [`LegendMaximum`](#ImportedInitialStrain.LegendMaximum)                                               | LegendMaximum property.                                                                                 |
+| [`LegendMinimum`](#ImportedInitialStrain.LegendMinimum)                                               | LegendMinimum property.                                                                                 |
+| [`LegendRange`](#ImportedInitialStrain.LegendRange)                                                   | LegendRange property.                                                                                   |
+| [`Limit`](#ImportedInitialStrain.Limit)                                                               | Limit property.                                                                                         |
+| [`Location`](#ImportedInitialStrain.Location)                                                         | Gets or sets the Location.                                                                              |
+| [`MappedNodesName`](#ImportedInitialStrain.MappedNodesName)                                           | MappedNodesName property.                                                                               |
+| [`Mapping`](#ImportedInitialStrain.Mapping)                                                           | Mapping property.                                                                                       |
+| [`MappingControl`](#ImportedInitialStrain.MappingControl)                                             | MappingControl property.                                                                                |
+| [`MaxOutsideDistance`](#ImportedInitialStrain.MaxOutsideDistance)                                     | MaxOutsideDistance property.                                                                            |
+| [`Method`](#ImportedInitialStrain.Method)                                                             | Method property.                                                                                        |
+| [`NumberOfPoints`](#ImportedInitialStrain.NumberOfPoints)                                             | NumberOfPoints property.                                                                                |
+| [`OrientationRealignment`](#ImportedInitialStrain.OrientationRealignment)                             | OrientationRealignment property.                                                                        |
+| [`OutsideDistanceCheck`](#ImportedInitialStrain.OutsideDistanceCheck)                                 | OutsideDistanceCheck property.                                                                          |
+| [`OutsideNodesName`](#ImportedInitialStrain.OutsideNodesName)                                         | OutsideNodesName property.                                                                              |
+| [`OutsideOption`](#ImportedInitialStrain.OutsideOption)                                               | OutsideOption property.                                                                                 |
+| [`Pinball`](#ImportedInitialStrain.Pinball)                                                           | Pinball property.                                                                                       |
+| [`Projection`](#ImportedInitialStrain.Projection)                                                     | Projection property.                                                                                    |
+| [`Properties`](#ImportedInitialStrain.Properties)                                                     | Gets the list of properties for this object.                                                            |
+| [`RigidBodyTransformationType`](#ImportedInitialStrain.RigidBodyTransformationType)                   | RigidBodyTransformationType property.                                                                   |
+| [`RigidTransformSourceCoordinateSystem`](#ImportedInitialStrain.RigidTransformSourceCoordinateSystem) | RigidTransformSourceCoordinateSystem property.                                                          |
+| [`RigidTransformTargetCoordinateSystem`](#ImportedInitialStrain.RigidTransformTargetCoordinateSystem) | RigidTransformTargetCoordinateSystem property.                                                          |
+| [`SharedRefBody`](#ImportedInitialStrain.SharedRefBody)                                               | Gets or sets the SharedRefBody.                                                                         |
+| [`ShellThicknessFactor`](#ImportedInitialStrain.ShellThicknessFactor)                                 | ShellThicknessFactor property.                                                                          |
+| [`SourceMaximum`](#ImportedInitialStrain.SourceMaximum)                                               | SourceMaximum property.                                                                                 |
+| [`SourceMinimum`](#ImportedInitialStrain.SourceMinimum)                                               | SourceMinimum property.                                                                                 |
+| [`Suppressed`](#ImportedInitialStrain.Suppressed)                                                     | Gets or sets the Suppressed.                                                                            |
+| [`UnmappedNodesName`](#ImportedInitialStrain.UnmappedNodesName)                                       | UnmappedNodesName property.                                                                             |
+| [`VariableType`](#ImportedInitialStrain.VariableType)                                                 | VariableType property.                                                                                  |
+| [`VisibleProperties`](#ImportedInitialStrain.VisibleProperties)                                       | Gets the list of properties that are visible for this object.                                           |
+| [`Weighting`](#ImportedInitialStrain.Weighting)                                                       | Weighting property.                                                                                     |
 
 <a id="property-detail"></a>
 
 ## Property detail
 
-<a id="ImportedInitialStrain.InternalObject"></a>
-
-### *property* ImportedInitialStrain.InternalObject *: Ansys.Common.Interop.DSObjectsAuto.IDSExternalLoadAuto | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets the internal object. For advanced usage only.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="ImportedInitialStrain.DataModelObjectCategory"></a>
-
-### *property* ImportedInitialStrain.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets the current DataModelObject's category.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="ImportedInitialStrain.Weighting"></a>
-
-### *property* ImportedInitialStrain.Weighting *: [Ansys.Mechanical.DataModel.Enums.WeightingType](../../../../Mechanical/DataModel/Enums/WeightingType.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.WeightingType) | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Weighting property.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="ImportedInitialStrain.MappingControl"></a>
-
-### *property* ImportedInitialStrain.MappingControl *: [Ansys.Mechanical.DataModel.Enums.MappingControlType](../../../../Mechanical/DataModel/Enums/MappingControlType.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.MappingControlType) | [None](https://docs.python.org/3/library/constants.html#None)*
-
-MappingControl property.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="ImportedInitialStrain.DisplaySourcePoints"></a>
-
-### *property* ImportedInitialStrain.DisplaySourcePoints *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
-
-DisplaySourcePoints property.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="ImportedInitialStrain.DisplaySourcePointIds"></a>
-
-### *property* ImportedInitialStrain.DisplaySourcePointIds *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
-
-DisplaySourcePointIds property.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="ImportedInitialStrain.DisplayInteriorPoints"></a>
-
-### *property* ImportedInitialStrain.DisplayInteriorPoints *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
-
-DisplayInteriorPoints property.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="ImportedInitialStrain.DisplayProjectionPlane"></a>
-
-### *property* ImportedInitialStrain.DisplayProjectionPlane *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
-
-DisplayProjectionPlane property.
-
-<!-- !! processed by numpydoc !! -->
-
 <a id="ImportedInitialStrain.Algorithm"></a>
 
-### *property* ImportedInitialStrain.Algorithm *: [Ansys.Mechanical.DataModel.Enums.MappingAlgorithm](../../../../Mechanical/DataModel/Enums/MappingAlgorithm.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.MappingAlgorithm) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ImportedInitialStrain.Algorithm *: [Ansys.Mechanical.DataModel.Enums.MappingAlgorithm](../../../../../../v242/Ansys/Mechanical/DataModel/Enums/MappingAlgorithm.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.MappingAlgorithm) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Algorithm property.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ImportedInitialStrain.ApplyAs"></a>
+
+### *property* ImportedInitialStrain.ApplyAs *: [Ansys.Mechanical.DataModel.Enums.ExternalLoadApplicationType](../../../../../../v242/Ansys/Mechanical/DataModel/Enums/ExternalLoadApplicationType.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.ExternalLoadApplicationType) | [None](https://docs.python.org/3/library/constants.html#None)*
+
+This controls how the imported load is applied, either as a boundary condition or an initial condition.
 
 <!-- !! processed by numpydoc !! -->
 
@@ -179,6 +121,22 @@ Algorithm property.
 ### *property* ImportedInitialStrain.BoundingBoxTolerance *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
 
 BoundingBoxTolerance property.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ImportedInitialStrain.Children"></a>
+
+### *property* ImportedInitialStrain.Children *: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets the list of children.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ImportedInitialStrain.Comments"></a>
+
+### *property* ImportedInitialStrain.Comments *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Comment](../Comment.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets the list of associated comments.
 
 <!-- !! processed by numpydoc !! -->
 
@@ -206,11 +164,99 @@ CreateNameSelectionForUnmappedNodes property.
 
 <!-- !! processed by numpydoc !! -->
 
-<a id="ImportedInitialStrain.Mapping"></a>
+<a id="ImportedInitialStrain.DataModelObjectCategory"></a>
 
-### *property* ImportedInitialStrain.Mapping *: [Ansys.Mechanical.DataModel.Enums.MappingInterpolationType](../../../../Mechanical/DataModel/Enums/MappingInterpolationType.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.MappingInterpolationType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ImportedInitialStrain.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../../v242/Ansys/Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Mapping property.
+Gets the current DataModelObject’s category.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ImportedInitialStrain.DisplayInteriorPoints"></a>
+
+### *property* ImportedInitialStrain.DisplayInteriorPoints *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+
+DisplayInteriorPoints property.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ImportedInitialStrain.DisplayProjectionPlane"></a>
+
+### *property* ImportedInitialStrain.DisplayProjectionPlane *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+
+DisplayProjectionPlane property.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ImportedInitialStrain.DisplaySourcePointIds"></a>
+
+### *property* ImportedInitialStrain.DisplaySourcePointIds *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+
+DisplaySourcePointIds property.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ImportedInitialStrain.DisplaySourcePoints"></a>
+
+### *property* ImportedInitialStrain.DisplaySourcePoints *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+
+DisplaySourcePoints property.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ImportedInitialStrain.ExtrapolationTolerancePercent"></a>
+
+### *property* ImportedInitialStrain.ExtrapolationTolerancePercent *: System.Double | [None](https://docs.python.org/3/library/constants.html#None)*
+
+ExtrapolationTolerancePercent property.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ImportedInitialStrain.Figures"></a>
+
+### *property* ImportedInitialStrain.Figures *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Figure](../Figure.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets the list of associated figures.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ImportedInitialStrain.Images"></a>
+
+### *property* ImportedInitialStrain.Images *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Image](../Image.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets the list of associated images.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ImportedInitialStrain.InternalObject"></a>
+
+### *property* ImportedInitialStrain.InternalObject *: Ansys.Common.Interop.DSObjectsAuto.IDSExternalLoadAuto | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets the internal object. For advanced usage only.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ImportedInitialStrain.Interpolation"></a>
+
+### *property* ImportedInitialStrain.Interpolation *: [Ansys.Mechanical.DataModel.Enums.InterpolationType](../../../../../../v242/Ansys/Mechanical/DataModel/Enums/InterpolationType.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.InterpolationType) | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Interpolation property.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ImportedInitialStrain.KrigingCorrelationFunction"></a>
+
+### *property* ImportedInitialStrain.KrigingCorrelationFunction *: [Ansys.Mechanical.DataModel.Enums.KrigingCorrFuncType](../../../../../../v242/Ansys/Mechanical/DataModel/Enums/KrigingCorrFuncType.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.KrigingCorrFuncType) | [None](https://docs.python.org/3/library/constants.html#None)*
+
+KrigingCorrelationFunction property.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ImportedInitialStrain.KrigingPolynom"></a>
+
+### *property* ImportedInitialStrain.KrigingPolynom *: [Ansys.Mechanical.DataModel.Enums.KrigingPolynomType](../../../../../../v242/Ansys/Mechanical/DataModel/Enums/KrigingPolynomType.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.KrigingPolynomType) | [None](https://docs.python.org/3/library/constants.html#None)*
+
+KrigingPolynom property.
 
 <!-- !! processed by numpydoc !! -->
 
@@ -232,9 +278,49 @@ LegendMinimum property.
 
 <a id="ImportedInitialStrain.LegendRange"></a>
 
-### *property* ImportedInitialStrain.LegendRange *: [Ansys.Mechanical.DataModel.Enums.LegendRangeType](../../../../Mechanical/DataModel/Enums/LegendRangeType.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.LegendRangeType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ImportedInitialStrain.LegendRange *: [Ansys.Mechanical.DataModel.Enums.LegendRangeType](../../../../../../v242/Ansys/Mechanical/DataModel/Enums/LegendRangeType.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.LegendRangeType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 LegendRange property.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ImportedInitialStrain.Limit"></a>
+
+### *property* ImportedInitialStrain.Limit *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Limit property.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ImportedInitialStrain.Location"></a>
+
+### *property* ImportedInitialStrain.Location *: Ansys.ACT.Interfaces.Common.ISelectionInfo | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the Location.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ImportedInitialStrain.MappedNodesName"></a>
+
+### *property* ImportedInitialStrain.MappedNodesName *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+
+MappedNodesName property.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ImportedInitialStrain.Mapping"></a>
+
+### *property* ImportedInitialStrain.Mapping *: [Ansys.Mechanical.DataModel.Enums.MappingInterpolationType](../../../../../../v242/Ansys/Mechanical/DataModel/Enums/MappingInterpolationType.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.MappingInterpolationType) | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Mapping property.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ImportedInitialStrain.MappingControl"></a>
+
+### *property* ImportedInitialStrain.MappingControl *: [Ansys.Mechanical.DataModel.Enums.MappingControlType](../../../../../../v242/Ansys/Mechanical/DataModel/Enums/MappingControlType.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.MappingControlType) | [None](https://docs.python.org/3/library/constants.html#None)*
+
+MappingControl property.
 
 <!-- !! processed by numpydoc !! -->
 
@@ -248,9 +334,25 @@ MaxOutsideDistance property.
 
 <a id="ImportedInitialStrain.Method"></a>
 
-### *property* ImportedInitialStrain.Method *: [Ansys.Mechanical.DataModel.Enums.MappingMethod](../../../../Mechanical/DataModel/Enums/MappingMethod.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.MappingMethod) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ImportedInitialStrain.Method *: [Ansys.Mechanical.DataModel.Enums.MappingMethod](../../../../../../v242/Ansys/Mechanical/DataModel/Enums/MappingMethod.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.MappingMethod) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Method property.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ImportedInitialStrain.NumberOfPoints"></a>
+
+### *property* ImportedInitialStrain.NumberOfPoints *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+
+NumberOfPoints property.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ImportedInitialStrain.OrientationRealignment"></a>
+
+### *property* ImportedInitialStrain.OrientationRealignment *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+
+OrientationRealignment property.
 
 <!-- !! processed by numpydoc !! -->
 
@@ -262,11 +364,27 @@ OutsideDistanceCheck property.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="ImportedInitialStrain.OutsideNodesName"></a>
+
+### *property* ImportedInitialStrain.OutsideNodesName *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+
+OutsideNodesName property.
+
+<!-- !! processed by numpydoc !! -->
+
 <a id="ImportedInitialStrain.OutsideOption"></a>
 
-### *property* ImportedInitialStrain.OutsideOption *: [Ansys.Mechanical.DataModel.Enums.MappingOutsideOption](../../../../Mechanical/DataModel/Enums/MappingOutsideOption.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.MappingOutsideOption) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ImportedInitialStrain.OutsideOption *: [Ansys.Mechanical.DataModel.Enums.MappingOutsideOption](../../../../../../v242/Ansys/Mechanical/DataModel/Enums/MappingOutsideOption.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.MappingOutsideOption) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 OutsideOption property.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ImportedInitialStrain.Pinball"></a>
+
+### *property* ImportedInitialStrain.Pinball *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Pinball property.
 
 <!-- !! processed by numpydoc !! -->
 
@@ -278,9 +396,17 @@ Projection property.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="ImportedInitialStrain.Properties"></a>
+
+### *property* ImportedInitialStrain.Properties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets the list of properties for this object.
+
+<!-- !! processed by numpydoc !! -->
+
 <a id="ImportedInitialStrain.RigidBodyTransformationType"></a>
 
-### *property* ImportedInitialStrain.RigidBodyTransformationType *: [Ansys.Mechanical.DataModel.Enums.RigidBodyTransformationType](../../../../Mechanical/DataModel/Enums/RigidBodyTransformationType.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.RigidBodyTransformationType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ImportedInitialStrain.RigidBodyTransformationType *: [Ansys.Mechanical.DataModel.Enums.RigidBodyTransformationType](../../../../../../v242/Ansys/Mechanical/DataModel/Enums/RigidBodyTransformationType.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.RigidBodyTransformationType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 RigidBodyTransformationType property.
 
@@ -299,6 +425,14 @@ RigidTransformSourceCoordinateSystem property.
 ### *property* ImportedInitialStrain.RigidTransformTargetCoordinateSystem *: [Ansys.ACT.Automation.Mechanical.CoordinateSystem](../CoordinateSystem.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.CoordinateSystem) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 RigidTransformTargetCoordinateSystem property.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ImportedInitialStrain.SharedRefBody"></a>
+
+### *property* ImportedInitialStrain.SharedRefBody *: [Ansys.ACT.Automation.Mechanical.Body](../Body.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Body) | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the SharedRefBody.
 
 <!-- !! processed by numpydoc !! -->
 
@@ -326,19 +460,11 @@ SourceMinimum property.
 
 <!-- !! processed by numpydoc !! -->
 
-<a id="ImportedInitialStrain.VariableType"></a>
+<a id="ImportedInitialStrain.Suppressed"></a>
 
-### *property* ImportedInitialStrain.VariableType *: [Ansys.Mechanical.DataModel.Enums.MappingVariableType](../../../../Mechanical/DataModel/Enums/MappingVariableType.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.MappingVariableType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ImportedInitialStrain.Suppressed *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
 
-VariableType property.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="ImportedInitialStrain.Interpolation"></a>
-
-### *property* ImportedInitialStrain.Interpolation *: [Ansys.Mechanical.DataModel.Enums.InterpolationType](../../../../Mechanical/DataModel/Enums/InterpolationType.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.InterpolationType) | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Interpolation property.
+Gets or sets the Suppressed.
 
 <!-- !! processed by numpydoc !! -->
 
@@ -350,155 +476,11 @@ UnmappedNodesName property.
 
 <!-- !! processed by numpydoc !! -->
 
-<a id="ImportedInitialStrain.MappedNodesName"></a>
+<a id="ImportedInitialStrain.VariableType"></a>
 
-### *property* ImportedInitialStrain.MappedNodesName *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ImportedInitialStrain.VariableType *: [Ansys.Mechanical.DataModel.Enums.MappingVariableType](../../../../../../v242/Ansys/Mechanical/DataModel/Enums/MappingVariableType.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.MappingVariableType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
-MappedNodesName property.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="ImportedInitialStrain.OutsideNodesName"></a>
-
-### *property* ImportedInitialStrain.OutsideNodesName *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
-
-OutsideNodesName property.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="ImportedInitialStrain.Pinball"></a>
-
-### *property* ImportedInitialStrain.Pinball *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Pinball property.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="ImportedInitialStrain.NumberOfPoints"></a>
-
-### *property* ImportedInitialStrain.NumberOfPoints *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
-
-NumberOfPoints property.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="ImportedInitialStrain.OrientationRealignment"></a>
-
-### *property* ImportedInitialStrain.OrientationRealignment *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
-
-OrientationRealignment property.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="ImportedInitialStrain.Limit"></a>
-
-### *property* ImportedInitialStrain.Limit *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Limit property.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="ImportedInitialStrain.KrigingCorrelationFunction"></a>
-
-### *property* ImportedInitialStrain.KrigingCorrelationFunction *: [Ansys.Mechanical.DataModel.Enums.KrigingCorrFuncType](../../../../Mechanical/DataModel/Enums/KrigingCorrFuncType.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.KrigingCorrFuncType) | [None](https://docs.python.org/3/library/constants.html#None)*
-
-KrigingCorrelationFunction property.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="ImportedInitialStrain.KrigingPolynom"></a>
-
-### *property* ImportedInitialStrain.KrigingPolynom *: [Ansys.Mechanical.DataModel.Enums.KrigingPolynomType](../../../../Mechanical/DataModel/Enums/KrigingPolynomType.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.KrigingPolynomType) | [None](https://docs.python.org/3/library/constants.html#None)*
-
-KrigingPolynom property.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="ImportedInitialStrain.ExtrapolationTolerancePercent"></a>
-
-### *property* ImportedInitialStrain.ExtrapolationTolerancePercent *: System.Double | [None](https://docs.python.org/3/library/constants.html#None)*
-
-ExtrapolationTolerancePercent property.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="ImportedInitialStrain.ApplyAs"></a>
-
-### *property* ImportedInitialStrain.ApplyAs *: [Ansys.Mechanical.DataModel.Enums.ExternalLoadApplicationType](../../../../Mechanical/DataModel/Enums/ExternalLoadApplicationType.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.ExternalLoadApplicationType) | [None](https://docs.python.org/3/library/constants.html#None)*
-
-This controls how the imported load is applied, either as a boundary condition or an initial condition.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="ImportedInitialStrain.Suppressed"></a>
-
-### *property* ImportedInitialStrain.Suppressed *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the Suppressed.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="ImportedInitialStrain.SharedRefBody"></a>
-
-### *property* ImportedInitialStrain.SharedRefBody *: [Ansys.ACT.Automation.Mechanical.Body](../Body.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Body) | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the SharedRefBody.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="ImportedInitialStrain.Location"></a>
-
-### *property* ImportedInitialStrain.Location *: Ansys.ACT.Interfaces.Common.ISelectionInfo | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the Location.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="ImportedInitialStrain.Children"></a>
-
-### *property* ImportedInitialStrain.Children *: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets the list of children.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="ImportedInitialStrain.Comments"></a>
-
-### *property* ImportedInitialStrain.Comments *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Comment](../Comment.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets the list of associated comments.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="ImportedInitialStrain.Figures"></a>
-
-### *property* ImportedInitialStrain.Figures *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Figure](../Figure.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets the list of associated figures.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="ImportedInitialStrain.Images"></a>
-
-### *property* ImportedInitialStrain.Images *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Image](../Image.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets the list of associated images.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="id0"></a>
-
-### *property* ImportedInitialStrain.InternalObject *: System.Object | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets the internal object. For advanced usage only.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="ImportedInitialStrain.Properties"></a>
-
-### *property* ImportedInitialStrain.Properties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets the list of properties for this object.
+VariableType property.
 
 <!-- !! processed by numpydoc !! -->
 
@@ -510,87 +492,23 @@ Gets the list of properties that are visible for this object.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="ImportedInitialStrain.Weighting"></a>
+
+### *property* ImportedInitialStrain.Weighting *: [Ansys.Mechanical.DataModel.Enums.WeightingType](../../../../../../v242/Ansys/Mechanical/DataModel/Enums/WeightingType.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.WeightingType) | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Weighting property.
+
+<!-- !! processed by numpydoc !! -->
+
 <a id="method-detail"></a>
 
 ## Method detail
 
-<a id="ImportedInitialStrain.ExportToTextFile"></a>
+<a id="ImportedInitialStrain.Activate"></a>
 
-### ImportedInitialStrain.ExportToTextFile(filePath: System.String)
+### ImportedInitialStrain.Activate()
 
-Run the ExportToTextFile action.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="ImportedInitialStrain.Import"></a>
-
-### ImportedInitialStrain.Import()
-
-Import.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="ImportedInitialStrain.ImportLoad"></a>
-
-### ImportedInitialStrain.ImportLoad()
-
-Run the ImportLoad action.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="ImportedInitialStrain.GetActivateAtLoadStep"></a>
-
-### ImportedInitialStrain.GetActivateAtLoadStep(stepNumber: System.UInt32)
-
-GetActivateAtLoadStep method.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="ImportedInitialStrain.SetActivateAtLoadStep"></a>
-
-### ImportedInitialStrain.SetActivateAtLoadStep(stepNumber: System.UInt32, bActive: System.Boolean)
-
-SetActivateAtLoadStep method.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="ImportedInitialStrain.AddMappingValidation"></a>
-
-### ImportedInitialStrain.AddMappingValidation()
-
-Creates a new MappingValidation
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="ImportedInitialStrain.ClearGeneratedData"></a>
-
-### ImportedInitialStrain.ClearGeneratedData()
-
-Run the ClearGeneratedData action.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="ImportedInitialStrain.Delete"></a>
-
-### ImportedInitialStrain.Delete()
-
-Run the Delete action.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="ImportedInitialStrain.GetChildren"></a>
-
-### ImportedInitialStrain.GetChildren(recurses: System.Boolean, children: System.Collections.Generic.IList[ChildrenType])
-
-Gets the list of children, filtered by type.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="id1"></a>
-
-### ImportedInitialStrain.GetChildren(category: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory), recurses: System.Boolean, children: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject])
-
-Gets the list of children, filtered by type.
+Activate the current object.
 
 <!-- !! processed by numpydoc !! -->
 
@@ -614,17 +532,27 @@ Creates a new child Figure.
 
 ### ImportedInitialStrain.AddImage(filePath: System.String)
 
+```text
 Creates a new child Image.
 If a filePath is provided, the image will be loaded from that file,
 if not, the image will be a screen capture of the Geometry window.
+```
 
 <!-- !! processed by numpydoc !! -->
 
-<a id="ImportedInitialStrain.Activate"></a>
+<a id="ImportedInitialStrain.AddMappingValidation"></a>
 
-### ImportedInitialStrain.Activate()
+### ImportedInitialStrain.AddMappingValidation()
 
-Activate the current object.
+Creates a new MappingValidation
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ImportedInitialStrain.ClearGeneratedData"></a>
+
+### ImportedInitialStrain.ClearGeneratedData()
+
+Run the ClearGeneratedData action.
 
 <!-- !! processed by numpydoc !! -->
 
@@ -636,11 +564,59 @@ Copies all visible properties from this object to another.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="ImportedInitialStrain.CreateParameter"></a>
+
+### ImportedInitialStrain.CreateParameter(propName: System.String)
+
+Creates a new parameter for a Property.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ImportedInitialStrain.Delete"></a>
+
+### ImportedInitialStrain.Delete()
+
+Run the Delete action.
+
+<!-- !! processed by numpydoc !! -->
+
 <a id="ImportedInitialStrain.Duplicate"></a>
 
 ### ImportedInitialStrain.Duplicate()
 
 Creates a copy of the current DataModelObject.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ImportedInitialStrain.ExportToTextFile"></a>
+
+### ImportedInitialStrain.ExportToTextFile(filePath: System.String)
+
+Run the ExportToTextFile action.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ImportedInitialStrain.GetActivateAtLoadStep"></a>
+
+### ImportedInitialStrain.GetActivateAtLoadStep(stepNumber: System.UInt32)
+
+GetActivateAtLoadStep method.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ImportedInitialStrain.GetChildren"></a>
+
+### ImportedInitialStrain.GetChildren(recurses: System.Boolean, children: System.Collections.Generic.IList[ChildrenType])
+
+Gets the list of children, filtered by type.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ImportedInitialStrain.GetParameter"></a>
+
+### ImportedInitialStrain.GetParameter(propName: System.String)
+
+Gets the parameter corresponding to the given property.
 
 <!-- !! processed by numpydoc !! -->
 
@@ -660,6 +636,33 @@ Run the GroupSimilarObjects action.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="ImportedInitialStrain.Import"></a>
+
+### ImportedInitialStrain.Import()
+
+Import.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ImportedInitialStrain.ImportLoad"></a>
+
+### ImportedInitialStrain.ImportLoad()
+
+Run the ImportLoad action.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ImportedInitialStrain.PropertyByAPIName"></a>
+
+### ImportedInitialStrain.PropertyByAPIName(name: System.String)
+
+```text
+Get a property by its API name.
+If multiple properties have the same API Name, only the first property with that name will be returned.
+```
+
+<!-- !! processed by numpydoc !! -->
+
 <a id="ImportedInitialStrain.PropertyByName"></a>
 
 ### ImportedInitialStrain.PropertyByName(name: System.String)
@@ -668,36 +671,19 @@ Get a property by its unique name.
 
 <!-- !! processed by numpydoc !! -->
 
-<a id="ImportedInitialStrain.PropertyByAPIName"></a>
-
-### ImportedInitialStrain.PropertyByAPIName(name: System.String)
-
-Get a property by its API name.
-If multiple properties have the same API Name, only the first property with that name will be returned.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="ImportedInitialStrain.CreateParameter"></a>
-
-### ImportedInitialStrain.CreateParameter(propName: System.String)
-
-Creates a new parameter for a Property.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="ImportedInitialStrain.GetParameter"></a>
-
-### ImportedInitialStrain.GetParameter(propName: System.String)
-
-Gets the parameter corresponding to the given property.
-
-<!-- !! processed by numpydoc !! -->
-
 <a id="ImportedInitialStrain.RemoveParameter"></a>
 
 ### ImportedInitialStrain.RemoveParameter(propName: System.String)
 
 Removes the parameter from the parameter set corresponding to the given property.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ImportedInitialStrain.SetActivateAtLoadStep"></a>
+
+### ImportedInitialStrain.SetActivateAtLoadStep(stepNumber: System.UInt32, bActive: System.Boolean)
+
+SetActivateAtLoadStep method.
 
 <!-- !! processed by numpydoc !! -->
 

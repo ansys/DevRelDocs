@@ -1,6 +1,6 @@
 # `TopoOptimizationOutputLog`
 
-
+<a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.TopoOptimizationOutputLog"></a>
 
 #### *class* ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.TopoOptimizationOutputLog
 
@@ -17,11 +17,11 @@ Specifies the TopoOptimizationOutputLog.
 ### Attributes
 
 | Name |
-| ------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| [`High`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/TopoOptimizationOutputLog.md#TopoOptimizationOutputLog.High) |
-| [`Low`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/TopoOptimizationOutputLog.md#TopoOptimizationOutputLog.Low) |
-| [`Medium`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/TopoOptimizationOutputLog.md#TopoOptimizationOutputLog.Medium) |
-| [`ProgramControlled`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/TopoOptimizationOutputLog.md#TopoOptimizationOutputLog.ProgramControlled) |
+| --------------------------------------------------------------------- |
+| [`High`](#TopoOptimizationOutputLog.High) |
+| [`Low`](#TopoOptimizationOutputLog.Low) |
+| [`Medium`](#TopoOptimizationOutputLog.Medium) |
+| [`ProgramControlled`](#TopoOptimizationOutputLog.ProgramControlled) |
 
 <a id="attribute-detail"></a>
 

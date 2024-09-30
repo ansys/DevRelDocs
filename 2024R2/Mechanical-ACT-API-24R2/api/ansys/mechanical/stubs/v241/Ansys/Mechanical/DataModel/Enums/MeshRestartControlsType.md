@@ -1,6 +1,6 @@
 # `MeshRestartControlsType`
 
-
+<a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.MeshRestartControlsType"></a>
 
 #### *class* ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.MeshRestartControlsType
 
@@ -17,9 +17,9 @@ Specifies the MeshRestartControlsType.
 ### Attributes
 
 | Name |
-| -------------------------------------------------------------------------------------------------------------------------------------------------- |
-| [`Manual`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/MeshRestartControlsType.md#MeshRestartControlsType.Manual) |
-| [`ProgramControlled`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/MeshRestartControlsType.md#MeshRestartControlsType.ProgramControlled) |
+| ------------------------------------------------------------------- |
+| [`Manual`](#MeshRestartControlsType.Manual) |
+| [`ProgramControlled`](#MeshRestartControlsType.ProgramControlled) |
 
 <a id="attribute-detail"></a>
 

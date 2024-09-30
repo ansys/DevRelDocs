@@ -1,6 +1,6 @@
 # `EXDEulerResolutionDefType`
 
-
+<a id="ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.EXDEulerResolutionDefType"></a>
 
 #### *class* ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.EXDEulerResolutionDefType
 
@@ -15,18 +15,14 @@ Bases: [`enum.Enum`](https://docs.python.org/3/library/enum.html#enum.Enum)
 ### Attributes
 
 | Name |
-| ----------------------------------------------------------------- |
-| [`eTotalCells`](#EXDEulerResolutionDefType.eTotalCells) |
+| -------------------------------------------------------------------------------------------------------------------------------------------------- |
 | [`eCellSize`](#EXDEulerResolutionDefType.eCellSize) |
 | [`eComponentCells`](#EXDEulerResolutionDefType.eComponentCells) |
+| [`eTotalCells`](#EXDEulerResolutionDefType.eTotalCells) |
 
 <a id="attribute-detail"></a>
 
 ## Attribute detail
-
-<a id="EXDEulerResolutionDefType.eTotalCells"></a>
-
-### EXDEulerResolutionDefType.eTotalCells *= 0*
 
 <a id="EXDEulerResolutionDefType.eCellSize"></a>
 
@@ -35,5 +31,9 @@ Bases: [`enum.Enum`](https://docs.python.org/3/library/enum.html#enum.Enum)
 <a id="EXDEulerResolutionDefType.eComponentCells"></a>
 
 ### EXDEulerResolutionDefType.eComponentCells *= 2*
+
+<a id="EXDEulerResolutionDefType.eTotalCells"></a>
+
+### EXDEulerResolutionDefType.eTotalCells *= 0*
 
 

@@ -1,6 +1,6 @@
 # `CrackSourceType`
 
-
+<a id="ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.CrackSourceType"></a>
 
 #### *class* ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.CrackSourceType
 
@@ -17,25 +17,25 @@ Specifies the CrackSourceType.
 ### Attributes
 
 | Name |
-| ------------------------------------------------------- |
-| [`PreMeshed`](#CrackSourceType.PreMeshed) |
-| [`CrackInitiation`](#CrackSourceType.CrackInitiation) |
+| ------------------------------------------------------------------------------------------------------------------ |
 | [`Crack`](#CrackSourceType.Crack) |
+| [`CrackInitiation`](#CrackSourceType.CrackInitiation) |
+| [`PreMeshed`](#CrackSourceType.PreMeshed) |
 
 <a id="attribute-detail"></a>
 
 ## Attribute detail
 
-<a id="CrackSourceType.PreMeshed"></a>
+<a id="CrackSourceType.Crack"></a>
 
-### CrackSourceType.PreMeshed *= 2*
+### CrackSourceType.Crack *= 1*
 
 <a id="CrackSourceType.CrackInitiation"></a>
 
 ### CrackSourceType.CrackInitiation *= 3*
 
-<a id="CrackSourceType.Crack"></a>
+<a id="CrackSourceType.PreMeshed"></a>
 
-### CrackSourceType.Crack *= 1*
+### CrackSourceType.PreMeshed *= 2*
 
 

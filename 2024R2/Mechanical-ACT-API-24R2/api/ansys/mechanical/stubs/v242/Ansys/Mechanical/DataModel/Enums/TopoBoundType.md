@@ -1,6 +1,6 @@
 # `TopoBoundType`
 
-
+<a id="ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.TopoBoundType"></a>
 
 #### *class* ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.TopoBoundType
 
@@ -17,7 +17,7 @@ Specifies the TopoBoundType.
 ### Attributes
 
 | Name |
-| --------------------------------------------- |
+| ------------------------------------------------------------------------------------------------------------------ |
 | [`LowerBound`](#TopoBoundType.LowerBound) |
 | [`UpperBound`](#TopoBoundType.UpperBound) |
 

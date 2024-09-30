@@ -1,6 +1,6 @@
 # `FarFieldMicrophoneDefinitionMethodType`
 
-
+<a id="ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.FarFieldMicrophoneDefinitionMethodType"></a>
 
 #### *class* ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.FarFieldMicrophoneDefinitionMethodType
 
@@ -17,7 +17,7 @@ Specifies the FarFieldMicrophoneDefinitionMethodType.
 ### Attributes
 
 | Name |
-| ------------------------------------------------------------------------ |
+| ---------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | [`Coordinates`](#FarFieldMicrophoneDefinitionMethodType.Coordinates) |
 | [`Worksheet`](#FarFieldMicrophoneDefinitionMethodType.Worksheet) |
 

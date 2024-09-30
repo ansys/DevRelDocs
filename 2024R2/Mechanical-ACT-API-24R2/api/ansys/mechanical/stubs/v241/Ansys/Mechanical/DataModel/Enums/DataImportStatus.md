@@ -1,6 +1,6 @@
 # `DataImportStatus`
 
-
+<a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataImportStatus"></a>
 
 #### *class* ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataImportStatus
 
@@ -17,12 +17,12 @@ Specifies the DataImportStatus.
 ### Attributes
 
 | Name |
-| ------------------------------------------------------------------------------------------------------------------ |
-| [`Failed`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/DataImportStatus.md#DataImportStatus.Failed) |
-| [`NoData`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/DataImportStatus.md#DataImportStatus.NoData) |
-| [`Obsolete`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/DataImportStatus.md#DataImportStatus.Obsolete) |
-| [`Unknown`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/DataImportStatus.md#DataImportStatus.Unknown) |
-| [`Uptodate`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/DataImportStatus.md#DataImportStatus.Uptodate) |
+| ------------------------------------------ |
+| [`Failed`](#DataImportStatus.Failed) |
+| [`NoData`](#DataImportStatus.NoData) |
+| [`Obsolete`](#DataImportStatus.Obsolete) |
+| [`Unknown`](#DataImportStatus.Unknown) |
+| [`Uptodate`](#DataImportStatus.Uptodate) |
 
 <a id="attribute-detail"></a>
 

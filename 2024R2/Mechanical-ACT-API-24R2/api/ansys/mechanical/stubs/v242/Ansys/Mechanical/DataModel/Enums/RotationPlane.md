@@ -1,6 +1,6 @@
 # `RotationPlane`
 
-
+<a id="ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.RotationPlane"></a>
 
 #### *class* ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.RotationPlane
 
@@ -17,7 +17,7 @@ Specifies the RotationPlane.
 ### Attributes
 
 | Name |
-| ----------------------------------- |
+| -------------------------------------------------------------------------------------------------------- |
 | [`None_`](#RotationPlane.None_) |
 | [`XY`](#RotationPlane.XY) |
 | [`XZ`](#RotationPlane.XZ) |

@@ -1,6 +1,6 @@
 # `TimeHistoryDisplayType`
 
-
+<a id="ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.TimeHistoryDisplayType"></a>
 
 #### *class* ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.TimeHistoryDisplayType
 
@@ -17,40 +17,40 @@ Specifies the Time History Display Type.
 ### Attributes
 
 | Name |
-| ---------------------------------------------------------------- |
-| [`Real`](#TimeHistoryDisplayType.Real) |
-| [`Imaginary`](#TimeHistoryDisplayType.Imaginary) |
-| [`RealAndImaginary`](#TimeHistoryDisplayType.RealAndImaginary) |
+| ---------------------------------------------------------------------------------------------------------------------------------------------- |
 | [`Amplitude`](#TimeHistoryDisplayType.Amplitude) |
-| [`PhaseAngle`](#TimeHistoryDisplayType.PhaseAngle) |
 | [`Bode`](#TimeHistoryDisplayType.Bode) |
+| [`Imaginary`](#TimeHistoryDisplayType.Imaginary) |
+| [`PhaseAngle`](#TimeHistoryDisplayType.PhaseAngle) |
+| [`Real`](#TimeHistoryDisplayType.Real) |
+| [`RealAndImaginary`](#TimeHistoryDisplayType.RealAndImaginary) |
 
 <a id="attribute-detail"></a>
 
 ## Attribute detail
 
-<a id="TimeHistoryDisplayType.Real"></a>
+<a id="TimeHistoryDisplayType.Amplitude"></a>
 
-### TimeHistoryDisplayType.Real *= 0*
+### TimeHistoryDisplayType.Amplitude *= 3*
+
+<a id="TimeHistoryDisplayType.Bode"></a>
+
+### TimeHistoryDisplayType.Bode *= 5*
 
 <a id="TimeHistoryDisplayType.Imaginary"></a>
 
 ### TimeHistoryDisplayType.Imaginary *= 1*
 
-<a id="TimeHistoryDisplayType.RealAndImaginary"></a>
-
-### TimeHistoryDisplayType.RealAndImaginary *= 2*
-
-<a id="TimeHistoryDisplayType.Amplitude"></a>
-
-### TimeHistoryDisplayType.Amplitude *= 3*
-
 <a id="TimeHistoryDisplayType.PhaseAngle"></a>
 
 ### TimeHistoryDisplayType.PhaseAngle *= 4*
 
-<a id="TimeHistoryDisplayType.Bode"></a>
+<a id="TimeHistoryDisplayType.Real"></a>
 
-### TimeHistoryDisplayType.Bode *= 5*
+### TimeHistoryDisplayType.Real *= 0*
+
+<a id="TimeHistoryDisplayType.RealAndImaginary"></a>
+
+### TimeHistoryDisplayType.RealAndImaginary *= 2*
 
 

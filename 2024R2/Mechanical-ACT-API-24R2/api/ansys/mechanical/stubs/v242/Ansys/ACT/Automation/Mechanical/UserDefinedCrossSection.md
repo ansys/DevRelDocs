@@ -1,6 +1,6 @@
 # `UserDefinedCrossSection`
 
-
+<a id="ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.UserDefinedCrossSection"></a>
 
 #### *class* ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.UserDefinedCrossSection
 
@@ -17,65 +17,55 @@ Defines a UserDefinedCrossSection.
 ### Methods
 
 | Name | Description |
-|-------------------------------------------------------------------------------|-----------------------------------------------------------------------------------|
-| [`Delete`](#UserDefinedCrossSection.Delete)                                   | Run the Delete action.                                                            |
-| [`GetChildren`](#id1)                                                         | Gets the list of children, filtered by type.                                      |
-| [`GetChildren`](#id1)                                                         | Gets the list of children, filtered by type.                                      |
+|-------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------|
+| [`Activate`](#UserDefinedCrossSection.Activate)                               | Activate the current object.                                                      |
 | [`AddComment`](#UserDefinedCrossSection.AddComment)                           | Creates a new child Comment.                                                      |
 | [`AddFigure`](#UserDefinedCrossSection.AddFigure)                             | Creates a new child Figure.                                                       |
 | [`AddImage`](#UserDefinedCrossSection.AddImage)                               | Creates a new child Image.                                                        |
-| [`Activate`](#UserDefinedCrossSection.Activate)                               | Activate the current object.                                                      |
 | [`CopyTo`](#UserDefinedCrossSection.CopyTo)                                   | Copies all visible properties from this object to another.                        |
+| [`CreateParameter`](#UserDefinedCrossSection.CreateParameter)                 | Creates a new parameter for a Property.                                           |
+| [`Delete`](#UserDefinedCrossSection.Delete)                                   | Run the Delete action.                                                            |
 | [`Duplicate`](#UserDefinedCrossSection.Duplicate)                             | Creates a copy of the current DataModelObject.                                    |
+| [`GetChildren`](#UserDefinedCrossSection.GetChildren)                         | Gets the list of children, filtered by type.                                      |
+| [`GetParameter`](#UserDefinedCrossSection.GetParameter)                       | Gets the parameter corresponding to the given property.                           |
 | [`GroupAllSimilarChildren`](#UserDefinedCrossSection.GroupAllSimilarChildren) | Run the GroupAllSimilarChildren action.                                           |
 | [`GroupSimilarObjects`](#UserDefinedCrossSection.GroupSimilarObjects)         | Run the GroupSimilarObjects action.                                               |
-| [`PropertyByName`](#UserDefinedCrossSection.PropertyByName)                   | Get a property by its unique name.                                                |
 | [`PropertyByAPIName`](#UserDefinedCrossSection.PropertyByAPIName)             | Get a property by its API name.                                                   |
-| [`CreateParameter`](#UserDefinedCrossSection.CreateParameter)                 | Creates a new parameter for a Property.                                           |
-| [`GetParameter`](#UserDefinedCrossSection.GetParameter)                       | Gets the parameter corresponding to the given property.                           |
+| [`PropertyByName`](#UserDefinedCrossSection.PropertyByName)                   | Get a property by its unique name.                                                |
 | [`RemoveParameter`](#UserDefinedCrossSection.RemoveParameter)                 | Removes the parameter from the parameter set corresponding to the given property. |
 
 ### Properties
 
 | Name | Description |
-|-------------------------------------------------------------------------------|---------------------------------------------------------------|
-| [`InternalObject`](#id0)                                                      | Gets the internal object. For advanced usage only.            |
-| [`CGy`](#UserDefinedCrossSection.CGy)                                         | Gets or sets the CGy.                                         |
-| [`CGZ`](#UserDefinedCrossSection.CGZ)                                         | Gets or sets the CGZ.                                         |
+|-------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------|
 | [`Area`](#UserDefinedCrossSection.Area)                                       | Gets or sets the Area.                                        |
-| [`Iyy`](#UserDefinedCrossSection.Iyy)                                         | Gets or sets the Iyy.                                         |
-| [`Izz`](#UserDefinedCrossSection.Izz)                                         | Gets or sets the Izz.                                         |
-| [`SHy`](#UserDefinedCrossSection.SHy)                                         | Gets or sets the SHy.                                         |
-| [`SHz`](#UserDefinedCrossSection.SHz)                                         | Gets or sets the SHz.                                         |
-| [`J`](#UserDefinedCrossSection.J)                                             | Gets or sets the J.                                           |
-| [`Iw`](#UserDefinedCrossSection.Iw)                                           | Gets or sets the Iw.                                          |
-| [`DataModelObjectCategory`](#UserDefinedCrossSection.DataModelObjectCategory) | Gets the current DataModelObject's category.                  |
+| [`CGZ`](#UserDefinedCrossSection.CGZ)                                         | Gets or sets the CGZ.                                         |
+| [`CGy`](#UserDefinedCrossSection.CGy)                                         | Gets or sets the CGy.                                         |
 | [`Children`](#UserDefinedCrossSection.Children)                               | Gets the list of children.                                    |
 | [`Comments`](#UserDefinedCrossSection.Comments)                               | Gets the list of associated comments.                         |
+| [`DataModelObjectCategory`](#UserDefinedCrossSection.DataModelObjectCategory) | Gets the current DataModelObject’s category.                  |
 | [`Figures`](#UserDefinedCrossSection.Figures)                                 | Gets the list of associated figures.                          |
 | [`Images`](#UserDefinedCrossSection.Images)                                   | Gets the list of associated images.                           |
-| [`ReadOnly`](#UserDefinedCrossSection.ReadOnly)                               | Gets or sets the ReadOnly.                                    |
-| [`InternalObject`](#id0)                                                      | Gets the internal object. For advanced usage only.            |
+| [`InternalObject`](#UserDefinedCrossSection.InternalObject)                   | Gets the internal object. For advanced usage only.            |
+| [`Iw`](#UserDefinedCrossSection.Iw)                                           | Gets or sets the Iw.                                          |
+| [`Iyy`](#UserDefinedCrossSection.Iyy)                                         | Gets or sets the Iyy.                                         |
+| [`Izz`](#UserDefinedCrossSection.Izz)                                         | Gets or sets the Izz.                                         |
+| [`J`](#UserDefinedCrossSection.J)                                             | Gets or sets the J.                                           |
 | [`Properties`](#UserDefinedCrossSection.Properties)                           | Gets the list of properties for this object.                  |
+| [`ReadOnly`](#UserDefinedCrossSection.ReadOnly)                               | Gets or sets the ReadOnly.                                    |
+| [`SHy`](#UserDefinedCrossSection.SHy)                                         | Gets or sets the SHy.                                         |
+| [`SHz`](#UserDefinedCrossSection.SHz)                                         | Gets or sets the SHz.                                         |
 | [`VisibleProperties`](#UserDefinedCrossSection.VisibleProperties)             | Gets the list of properties that are visible for this object. |
 
 <a id="property-detail"></a>
 
 ## Property detail
 
-<a id="UserDefinedCrossSection.InternalObject"></a>
+<a id="UserDefinedCrossSection.Area"></a>
 
-### *property* UserDefinedCrossSection.InternalObject *: Ansys.Common.Interop.DSObjectsAuto.IDSCrossSectionAuto | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* UserDefinedCrossSection.Area *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets the internal object. For advanced usage only.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="UserDefinedCrossSection.CGy"></a>
-
-### *property* UserDefinedCrossSection.CGy *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the CGy.
+Gets or sets the Area.
 
 <!-- !! processed by numpydoc !! -->
 
@@ -87,67 +77,11 @@ Gets or sets the CGZ.
 
 <!-- !! processed by numpydoc !! -->
 
-<a id="UserDefinedCrossSection.Area"></a>
+<a id="UserDefinedCrossSection.CGy"></a>
 
-### *property* UserDefinedCrossSection.Area *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* UserDefinedCrossSection.CGy *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets or sets the Area.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="UserDefinedCrossSection.Iyy"></a>
-
-### *property* UserDefinedCrossSection.Iyy *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the Iyy.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="UserDefinedCrossSection.Izz"></a>
-
-### *property* UserDefinedCrossSection.Izz *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the Izz.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="UserDefinedCrossSection.SHy"></a>
-
-### *property* UserDefinedCrossSection.SHy *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the SHy.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="UserDefinedCrossSection.SHz"></a>
-
-### *property* UserDefinedCrossSection.SHz *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the SHz.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="UserDefinedCrossSection.J"></a>
-
-### *property* UserDefinedCrossSection.J *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the J.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="UserDefinedCrossSection.Iw"></a>
-
-### *property* UserDefinedCrossSection.Iw *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the Iw.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="UserDefinedCrossSection.DataModelObjectCategory"></a>
-
-### *property* UserDefinedCrossSection.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../v241/Ansys/Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets the current DataModelObject's category.
+Gets or sets the CGy.
 
 <!-- !! processed by numpydoc !! -->
 
@@ -167,6 +101,14 @@ Gets the list of associated comments.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="UserDefinedCrossSection.DataModelObjectCategory"></a>
+
+### *property* UserDefinedCrossSection.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets the current DataModelObject’s category.
+
+<!-- !! processed by numpydoc !! -->
+
 <a id="UserDefinedCrossSection.Figures"></a>
 
 ### *property* UserDefinedCrossSection.Figures *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Figure](../../../../../v241/Ansys/ACT/Automation/Mechanical/Figure.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
@@ -183,19 +125,43 @@ Gets the list of associated images.
 
 <!-- !! processed by numpydoc !! -->
 
-<a id="UserDefinedCrossSection.ReadOnly"></a>
+<a id="UserDefinedCrossSection.InternalObject"></a>
 
-### *property* UserDefinedCrossSection.ReadOnly *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* UserDefinedCrossSection.InternalObject *: Ansys.Common.Interop.DSObjectsAuto.IDSCrossSectionAuto | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets or sets the ReadOnly.
+Gets the internal object. For advanced usage only.
 
 <!-- !! processed by numpydoc !! -->
 
-<a id="id0"></a>
+<a id="UserDefinedCrossSection.Iw"></a>
 
-### *property* UserDefinedCrossSection.InternalObject *: System.Object | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* UserDefinedCrossSection.Iw *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets the internal object. For advanced usage only.
+Gets or sets the Iw.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="UserDefinedCrossSection.Iyy"></a>
+
+### *property* UserDefinedCrossSection.Iyy *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the Iyy.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="UserDefinedCrossSection.Izz"></a>
+
+### *property* UserDefinedCrossSection.Izz *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the Izz.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="UserDefinedCrossSection.J"></a>
+
+### *property* UserDefinedCrossSection.J *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the J.
 
 <!-- !! processed by numpydoc !! -->
 
@@ -204,6 +170,30 @@ Gets the internal object. For advanced usage only.
 ### *property* UserDefinedCrossSection.Properties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of properties for this object.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="UserDefinedCrossSection.ReadOnly"></a>
+
+### *property* UserDefinedCrossSection.ReadOnly *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the ReadOnly.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="UserDefinedCrossSection.SHy"></a>
+
+### *property* UserDefinedCrossSection.SHy *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the SHy.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="UserDefinedCrossSection.SHz"></a>
+
+### *property* UserDefinedCrossSection.SHz *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the SHz.
 
 <!-- !! processed by numpydoc !! -->
 
@@ -219,27 +209,11 @@ Gets the list of properties that are visible for this object.
 
 ## Method detail
 
-<a id="UserDefinedCrossSection.Delete"></a>
+<a id="UserDefinedCrossSection.Activate"></a>
 
-### UserDefinedCrossSection.Delete()
+### UserDefinedCrossSection.Activate()
 
-Run the Delete action.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="UserDefinedCrossSection.GetChildren"></a>
-
-### UserDefinedCrossSection.GetChildren(recurses: System.Boolean, children: System.Collections.Generic.IList[ChildrenType])
-
-Gets the list of children, filtered by type.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="id1"></a>
-
-### UserDefinedCrossSection.GetChildren(category: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../v241/Ansys/Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory), recurses: System.Boolean, children: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject])
-
-Gets the list of children, filtered by type.
+Activate the current object.
 
 <!-- !! processed by numpydoc !! -->
 
@@ -263,17 +237,11 @@ Creates a new child Figure.
 
 ### UserDefinedCrossSection.AddImage(filePath: System.String)
 
+```text
 Creates a new child Image.
 If a filePath is provided, the image will be loaded from that file,
 if not, the image will be a screen capture of the Geometry window.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="UserDefinedCrossSection.Activate"></a>
-
-### UserDefinedCrossSection.Activate()
-
-Activate the current object.
+```
 
 <!-- !! processed by numpydoc !! -->
 
@@ -285,11 +253,43 @@ Copies all visible properties from this object to another.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="UserDefinedCrossSection.CreateParameter"></a>
+
+### UserDefinedCrossSection.CreateParameter(propName: System.String)
+
+Creates a new parameter for a Property.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="UserDefinedCrossSection.Delete"></a>
+
+### UserDefinedCrossSection.Delete()
+
+Run the Delete action.
+
+<!-- !! processed by numpydoc !! -->
+
 <a id="UserDefinedCrossSection.Duplicate"></a>
 
 ### UserDefinedCrossSection.Duplicate()
 
 Creates a copy of the current DataModelObject.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="UserDefinedCrossSection.GetChildren"></a>
+
+### UserDefinedCrossSection.GetChildren(recurses: System.Boolean, children: System.Collections.Generic.IList[ChildrenType])
+
+Gets the list of children, filtered by type.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="UserDefinedCrossSection.GetParameter"></a>
+
+### UserDefinedCrossSection.GetParameter(propName: System.String)
+
+Gets the parameter corresponding to the given property.
 
 <!-- !! processed by numpydoc !! -->
 
@@ -309,36 +309,22 @@ Run the GroupSimilarObjects action.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="UserDefinedCrossSection.PropertyByAPIName"></a>
+
+### UserDefinedCrossSection.PropertyByAPIName(name: System.String)
+
+```text
+Get a property by its API name.
+If multiple properties have the same API Name, only the first property with that name will be returned.
+```
+
+<!-- !! processed by numpydoc !! -->
+
 <a id="UserDefinedCrossSection.PropertyByName"></a>
 
 ### UserDefinedCrossSection.PropertyByName(name: System.String)
 
 Get a property by its unique name.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="UserDefinedCrossSection.PropertyByAPIName"></a>
-
-### UserDefinedCrossSection.PropertyByAPIName(name: System.String)
-
-Get a property by its API name.
-If multiple properties have the same API Name, only the first property with that name will be returned.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="UserDefinedCrossSection.CreateParameter"></a>
-
-### UserDefinedCrossSection.CreateParameter(propName: System.String)
-
-Creates a new parameter for a Property.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="UserDefinedCrossSection.GetParameter"></a>
-
-### UserDefinedCrossSection.GetParameter(propName: System.String)
-
-Gets the parameter corresponding to the given property.
 
 <!-- !! processed by numpydoc !! -->
 

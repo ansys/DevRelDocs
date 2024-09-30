@@ -1,6 +1,6 @@
 # `FrequencySpacingType`
 
-
+<a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.FrequencySpacingType"></a>
 
 #### *class* ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.FrequencySpacingType
 
@@ -17,16 +17,16 @@ Specifies the FrequencySpacingType.
 ### Attributes
 
 | Name |
-| ---------------------------------------------------------------------------------------------------------------------------------- |
-| [`Linear`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/FrequencySpacingType.md#FrequencySpacingType.Linear) |
-| [`Logarithmic`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/FrequencySpacingType.md#FrequencySpacingType.Logarithmic) |
-| [`OctaveBand1`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/FrequencySpacingType.md#FrequencySpacingType.OctaveBand1) |
-| [`OctaveBand12`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/FrequencySpacingType.md#FrequencySpacingType.OctaveBand12) |
-| [`OctaveBand2`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/FrequencySpacingType.md#FrequencySpacingType.OctaveBand2) |
-| [`OctaveBand24`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/FrequencySpacingType.md#FrequencySpacingType.OctaveBand24) |
-| [`OctaveBand3`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/FrequencySpacingType.md#FrequencySpacingType.OctaveBand3) |
-| [`OctaveBand6`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/FrequencySpacingType.md#FrequencySpacingType.OctaveBand6) |
-| [`OrderBased`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/FrequencySpacingType.md#FrequencySpacingType.OrderBased) |
+| ------------------------------------------------------ |
+| [`Linear`](#FrequencySpacingType.Linear) |
+| [`Logarithmic`](#FrequencySpacingType.Logarithmic) |
+| [`OctaveBand1`](#FrequencySpacingType.OctaveBand1) |
+| [`OctaveBand12`](#FrequencySpacingType.OctaveBand12) |
+| [`OctaveBand2`](#FrequencySpacingType.OctaveBand2) |
+| [`OctaveBand24`](#FrequencySpacingType.OctaveBand24) |
+| [`OctaveBand3`](#FrequencySpacingType.OctaveBand3) |
+| [`OctaveBand6`](#FrequencySpacingType.OctaveBand6) |
+| [`OrderBased`](#FrequencySpacingType.OrderBased) |
 
 <a id="attribute-detail"></a>
 

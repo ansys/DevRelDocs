@@ -1,6 +1,6 @@
 # `ComparePartsToleranceType`
 
-
+<a id="ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.ComparePartsToleranceType"></a>
 
 #### *class* ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.ComparePartsToleranceType
 
@@ -17,7 +17,7 @@ Specifies the ComparePartsTolerance Type.
 ### Attributes
 
 | Name |
-| ----------------------------------------------- |
+| -------------------------------------------------------------------------------------------------------------------------------- |
 | [`Loose`](#ComparePartsToleranceType.Loose) |
 | [`Normal`](#ComparePartsToleranceType.Normal) |
 | [`Tight`](#ComparePartsToleranceType.Tight) |

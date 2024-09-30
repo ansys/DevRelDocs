@@ -1,6 +1,6 @@
 # `NonlinearAdaptivityTimeRange`
 
-
+<a id="ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.NonlinearAdaptivityTimeRange"></a>
 
 #### *class* ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.NonlinearAdaptivityTimeRange
 
@@ -17,7 +17,7 @@ Specifies the NonlinearAdaptivityTimeRange.
 ### Attributes
 
 | Name |
-| -------------------------------------------------------------------- |
+| -------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | [`EntireLoadStep`](#NonlinearAdaptivityTimeRange.EntireLoadStep) |
 | [`Manual`](#NonlinearAdaptivityTimeRange.Manual) |
 

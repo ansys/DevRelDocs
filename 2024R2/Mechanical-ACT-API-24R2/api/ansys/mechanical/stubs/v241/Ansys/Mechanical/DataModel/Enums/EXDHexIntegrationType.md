@@ -1,6 +1,6 @@
 # `EXDHexIntegrationType`
 
-
+<a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.EXDHexIntegrationType"></a>
 
 #### *class* ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.EXDHexIntegrationType
 
@@ -15,9 +15,9 @@ Bases: [`enum.Enum`](https://docs.python.org/3/library/enum.html#enum.Enum)
 ### Attributes
 
 | Name |
-| -------------------------------------------------------------------------------------------------------------------------------- |
-| [`Exact`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/EXDHexIntegrationType.md#EXDHexIntegrationType.Exact) |
-| [`OnePtGauss`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/EXDHexIntegrationType.md#EXDHexIntegrationType.OnePtGauss) |
+| --------------------------------------------------- |
+| [`Exact`](#EXDHexIntegrationType.Exact) |
+| [`OnePtGauss`](#EXDHexIntegrationType.OnePtGauss) |
 
 <a id="attribute-detail"></a>
 

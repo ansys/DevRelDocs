@@ -1,6 +1,6 @@
 # `ShearOrientationType`
 
-
+<a id="ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.ShearOrientationType"></a>
 
 #### *class* ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.ShearOrientationType
 
@@ -17,7 +17,7 @@ Specifies the ShearOrientationType.
 ### Attributes
 
 | Name |
-| ---------------------------------------------- |
+| -------------------------------------------------------------------------------------------------------------------------- |
 | [`XYPlane`](#ShearOrientationType.XYPlane) |
 | [`XZPlane`](#ShearOrientationType.XZPlane) |
 | [`YZPlane`](#ShearOrientationType.YZPlane) |

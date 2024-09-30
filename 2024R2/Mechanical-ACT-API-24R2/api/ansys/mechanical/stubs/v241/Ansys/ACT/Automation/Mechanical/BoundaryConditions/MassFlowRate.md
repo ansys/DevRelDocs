@@ -1,6 +1,6 @@
 # `MassFlowRate`
 
-
+<a id="ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.BoundaryConditions.MassFlowRate"></a>
 
 #### *class* ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.BoundaryConditions.MassFlowRate
 
@@ -17,95 +17,45 @@ Defines a MassFlowRate.
 ### Methods
 
 | Name | Description |
-|---------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------|
-| [`PromoteToNamedSelection`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/BoundaryConditions/MassFlowRate.md#MassFlowRate.PromoteToNamedSelection)   | Run the PromoteToNamedSelection action.                                           |
-| [`Delete`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/BoundaryConditions/MassFlowRate.md#MassFlowRate.Delete)                                     | Run the Delete action.                                                            |
-| [`GetChildren`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/BoundaryConditions/MassFlowRate.md#id1)                                                | Gets the list of children, filtered by type.                                      |
-| [`GetChildren`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/BoundaryConditions/MassFlowRate.md#id1)                                                | Gets the list of children, filtered by type.                                      |
-| [`AddComment`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/BoundaryConditions/MassFlowRate.md#MassFlowRate.AddComment)                             | Creates a new child Comment.                                                      |
-| [`AddFigure`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/BoundaryConditions/MassFlowRate.md#MassFlowRate.AddFigure)                               | Creates a new child Figure.                                                       |
-| [`AddImage`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/BoundaryConditions/MassFlowRate.md#MassFlowRate.AddImage)                                 | Creates a new child Image.                                                        |
-| [`Activate`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/BoundaryConditions/MassFlowRate.md#MassFlowRate.Activate)                                 | Activate the current object.                                                      |
-| [`CopyTo`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/BoundaryConditions/MassFlowRate.md#MassFlowRate.CopyTo)                                     | Copies all visible properties from this object to another.                        |
-| [`Duplicate`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/BoundaryConditions/MassFlowRate.md#MassFlowRate.Duplicate)                               | Creates a copy of the current DataModelObject.                                    |
-| [`GroupAllSimilarChildren`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/BoundaryConditions/MassFlowRate.md#MassFlowRate.GroupAllSimilarChildren)   | Run the GroupAllSimilarChildren action.                                           |
-| [`GroupSimilarObjects`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/BoundaryConditions/MassFlowRate.md#MassFlowRate.GroupSimilarObjects)           | Run the GroupSimilarObjects action.                                               |
-| [`PropertyByName`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/BoundaryConditions/MassFlowRate.md#MassFlowRate.PropertyByName)                     | Get a property by its unique name.                                                |
-| [`PropertyByAPIName`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/BoundaryConditions/MassFlowRate.md#MassFlowRate.PropertyByAPIName)               | Get a property by its API name.                                                   |
-| [`CreateParameter`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/BoundaryConditions/MassFlowRate.md#MassFlowRate.CreateParameter)                   | Creates a new parameter for a Property.                                           |
-| [`GetParameter`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/BoundaryConditions/MassFlowRate.md#MassFlowRate.GetParameter)                         | Gets the parameter corresponding to the given property.                           |
-| [`RemoveParameter`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/BoundaryConditions/MassFlowRate.md#MassFlowRate.RemoveParameter)                   | Removes the parameter from the parameter set corresponding to the given property. |
+|-------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------|
+| [`Activate`](#MassFlowRate.Activate)                               | Activate the current object.                                                      |
+| [`AddComment`](#MassFlowRate.AddComment)                           | Creates a new child Comment.                                                      |
+| [`AddFigure`](#MassFlowRate.AddFigure)                             | Creates a new child Figure.                                                       |
+| [`AddImage`](#MassFlowRate.AddImage)                               | Creates a new child Image.                                                        |
+| [`CopyTo`](#MassFlowRate.CopyTo)                                   | Copies all visible properties from this object to another.                        |
+| [`CreateParameter`](#MassFlowRate.CreateParameter)                 | Creates a new parameter for a Property.                                           |
+| [`Delete`](#MassFlowRate.Delete)                                   | Run the Delete action.                                                            |
+| [`Duplicate`](#MassFlowRate.Duplicate)                             | Creates a copy of the current DataModelObject.                                    |
+| [`GetChildren`](#MassFlowRate.GetChildren)                         | Gets the list of children, filtered by type.                                      |
+| [`GetParameter`](#MassFlowRate.GetParameter)                       | Gets the parameter corresponding to the given property.                           |
+| [`GroupAllSimilarChildren`](#MassFlowRate.GroupAllSimilarChildren) | Run the GroupAllSimilarChildren action.                                           |
+| [`GroupSimilarObjects`](#MassFlowRate.GroupSimilarObjects)         | Run the GroupSimilarObjects action.                                               |
+| [`PromoteToNamedSelection`](#MassFlowRate.PromoteToNamedSelection) | Run the PromoteToNamedSelection action.                                           |
+| [`PropertyByAPIName`](#MassFlowRate.PropertyByAPIName)             | Get a property by its API name.                                                   |
+| [`PropertyByName`](#MassFlowRate.PropertyByName)                   | Get a property by its unique name.                                                |
+| [`RemoveParameter`](#MassFlowRate.RemoveParameter)                 | Removes the parameter from the parameter set corresponding to the given property. |
 
 ### Properties
 
 | Name | Description |
 |-------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------|
-| [`InternalObject`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/BoundaryConditions/MassFlowRate.md#id0)                                           | Gets the internal object. For advanced usage only.            |
-| [`Magnitude`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/BoundaryConditions/MassFlowRate.md#MassFlowRate.Magnitude)                             | Gets the Magnitude.                                           |
-| [`Location`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/BoundaryConditions/MassFlowRate.md#MassFlowRate.Location)                               | Gets or sets the Location.                                    |
-| [`DataModelObjectCategory`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/BoundaryConditions/MassFlowRate.md#MassFlowRate.DataModelObjectCategory) | Gets the current DataModelObject's category.                  |
-| [`Suppressed`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/BoundaryConditions/MassFlowRate.md#MassFlowRate.Suppressed)                           | Gets or sets the Suppressed.                                  |
-| [`SharedRefBody`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/BoundaryConditions/MassFlowRate.md#MassFlowRate.SharedRefBody)                     | Gets or sets the SharedRefBody.                               |
-| [`Children`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/BoundaryConditions/MassFlowRate.md#MassFlowRate.Children)                               | Gets the list of children.                                    |
-| [`Comments`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/BoundaryConditions/MassFlowRate.md#MassFlowRate.Comments)                               | Gets the list of associated comments.                         |
-| [`Figures`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/BoundaryConditions/MassFlowRate.md#MassFlowRate.Figures)                                 | Gets the list of associated figures.                          |
-| [`Images`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/BoundaryConditions/MassFlowRate.md#MassFlowRate.Images)                                   | Gets the list of associated images.                           |
-| [`ReadOnly`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/BoundaryConditions/MassFlowRate.md#MassFlowRate.ReadOnly)                               | Gets or sets the ReadOnly.                                    |
-| [`InternalObject`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/BoundaryConditions/MassFlowRate.md#id0)                                           | Gets the internal object. For advanced usage only.            |
-| [`Properties`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/BoundaryConditions/MassFlowRate.md#MassFlowRate.Properties)                           | Gets the list of properties for this object.                  |
-| [`VisibleProperties`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/BoundaryConditions/MassFlowRate.md#MassFlowRate.VisibleProperties)             | Gets the list of properties that are visible for this object. |
+| [`Children`](#MassFlowRate.Children)                               | Gets the list of children.                                    |
+| [`Comments`](#MassFlowRate.Comments)                               | Gets the list of associated comments.                         |
+| [`DataModelObjectCategory`](#MassFlowRate.DataModelObjectCategory) | Gets the current DataModelObject’s category.                  |
+| [`Figures`](#MassFlowRate.Figures)                                 | Gets the list of associated figures.                          |
+| [`Images`](#MassFlowRate.Images)                                   | Gets the list of associated images.                           |
+| [`InternalObject`](#MassFlowRate.InternalObject)                   | Gets the internal object. For advanced usage only.            |
+| [`Location`](#MassFlowRate.Location)                               | Gets or sets the Location.                                    |
+| [`Magnitude`](#MassFlowRate.Magnitude)                             | Gets the Magnitude.                                           |
+| [`Properties`](#MassFlowRate.Properties)                           | Gets the list of properties for this object.                  |
+| [`ReadOnly`](#MassFlowRate.ReadOnly)                               | Gets or sets the ReadOnly.                                    |
+| [`SharedRefBody`](#MassFlowRate.SharedRefBody)                     | Gets or sets the SharedRefBody.                               |
+| [`Suppressed`](#MassFlowRate.Suppressed)                           | Gets or sets the Suppressed.                                  |
+| [`VisibleProperties`](#MassFlowRate.VisibleProperties)             | Gets the list of properties that are visible for this object. |
 
 <a id="property-detail"></a>
 
 ## Property detail
-
-<a id="MassFlowRate.InternalObject"></a>
-
-### *property* MassFlowRate.InternalObject *: Ansys.Common.Interop.DSObjectsAuto.IDSLoadAuto | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets the internal object. For advanced usage only.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="MassFlowRate.Magnitude"></a>
-
-### *property* MassFlowRate.Magnitude *: [Ansys.ACT.Mechanical.Fields.Field](../../../Mechanical/Fields/Field.md#ansys.mechanical.stubs.v241.Ansys.ACT.Mechanical.Fields.Field) | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets the Magnitude.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="MassFlowRate.Location"></a>
-
-### *property* MassFlowRate.Location *: Ansys.ACT.Interfaces.Common.ISelectionInfo | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the Location.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="MassFlowRate.DataModelObjectCategory"></a>
-
-### *property* MassFlowRate.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets the current DataModelObject's category.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="MassFlowRate.Suppressed"></a>
-
-### *property* MassFlowRate.Suppressed *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the Suppressed.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="MassFlowRate.SharedRefBody"></a>
-
-### *property* MassFlowRate.SharedRefBody *: [Ansys.ACT.Automation.Mechanical.Body](../Body.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Body) | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the SharedRefBody.
-
-<!-- !! processed by numpydoc !! -->
 
 <a id="MassFlowRate.Children"></a>
 
@@ -120,6 +70,14 @@ Gets the list of children.
 ### *property* MassFlowRate.Comments *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Comment](../Comment.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated comments.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="MassFlowRate.DataModelObjectCategory"></a>
+
+### *property* MassFlowRate.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../../v242/Ansys/Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets the current DataModelObject’s category.
 
 <!-- !! processed by numpydoc !! -->
 
@@ -139,19 +97,27 @@ Gets the list of associated images.
 
 <!-- !! processed by numpydoc !! -->
 
-<a id="MassFlowRate.ReadOnly"></a>
+<a id="MassFlowRate.InternalObject"></a>
 
-### *property* MassFlowRate.ReadOnly *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* MassFlowRate.InternalObject *: Ansys.Common.Interop.DSObjectsAuto.IDSLoadAuto | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets or sets the ReadOnly.
+Gets the internal object. For advanced usage only.
 
 <!-- !! processed by numpydoc !! -->
 
-<a id="id0"></a>
+<a id="MassFlowRate.Location"></a>
 
-### *property* MassFlowRate.InternalObject *: System.Object | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* MassFlowRate.Location *: Ansys.ACT.Interfaces.Common.ISelectionInfo | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets the internal object. For advanced usage only.
+Gets or sets the Location.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="MassFlowRate.Magnitude"></a>
+
+### *property* MassFlowRate.Magnitude *: [Ansys.ACT.Mechanical.Fields.Field](../../../../../../v242/Ansys/ACT/Mechanical/Fields/Field.md#ansys.mechanical.stubs.v242.Ansys.ACT.Mechanical.Fields.Field) | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets the Magnitude.
 
 <!-- !! processed by numpydoc !! -->
 
@@ -160,6 +126,30 @@ Gets the internal object. For advanced usage only.
 ### *property* MassFlowRate.Properties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of properties for this object.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="MassFlowRate.ReadOnly"></a>
+
+### *property* MassFlowRate.ReadOnly *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the ReadOnly.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="MassFlowRate.SharedRefBody"></a>
+
+### *property* MassFlowRate.SharedRefBody *: [Ansys.ACT.Automation.Mechanical.Body](../Body.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Body) | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the SharedRefBody.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="MassFlowRate.Suppressed"></a>
+
+### *property* MassFlowRate.Suppressed *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the Suppressed.
 
 <!-- !! processed by numpydoc !! -->
 
@@ -175,35 +165,11 @@ Gets the list of properties that are visible for this object.
 
 ## Method detail
 
-<a id="MassFlowRate.PromoteToNamedSelection"></a>
+<a id="MassFlowRate.Activate"></a>
 
-### MassFlowRate.PromoteToNamedSelection()
+### MassFlowRate.Activate()
 
-Run the PromoteToNamedSelection action.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="MassFlowRate.Delete"></a>
-
-### MassFlowRate.Delete()
-
-Run the Delete action.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="MassFlowRate.GetChildren"></a>
-
-### MassFlowRate.GetChildren(recurses: System.Boolean, children: System.Collections.Generic.IList[ChildrenType])
-
-Gets the list of children, filtered by type.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="id1"></a>
-
-### MassFlowRate.GetChildren(category: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory), recurses: System.Boolean, children: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject])
-
-Gets the list of children, filtered by type.
+Activate the current object.
 
 <!-- !! processed by numpydoc !! -->
 
@@ -227,17 +193,11 @@ Creates a new child Figure.
 
 ### MassFlowRate.AddImage(filePath: System.String)
 
+```text
 Creates a new child Image.
 If a filePath is provided, the image will be loaded from that file,
 if not, the image will be a screen capture of the Geometry window.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="MassFlowRate.Activate"></a>
-
-### MassFlowRate.Activate()
-
-Activate the current object.
+```
 
 <!-- !! processed by numpydoc !! -->
 
@@ -249,11 +209,43 @@ Copies all visible properties from this object to another.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="MassFlowRate.CreateParameter"></a>
+
+### MassFlowRate.CreateParameter(propName: System.String)
+
+Creates a new parameter for a Property.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="MassFlowRate.Delete"></a>
+
+### MassFlowRate.Delete()
+
+Run the Delete action.
+
+<!-- !! processed by numpydoc !! -->
+
 <a id="MassFlowRate.Duplicate"></a>
 
 ### MassFlowRate.Duplicate()
 
 Creates a copy of the current DataModelObject.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="MassFlowRate.GetChildren"></a>
+
+### MassFlowRate.GetChildren(recurses: System.Boolean, children: System.Collections.Generic.IList[ChildrenType])
+
+Gets the list of children, filtered by type.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="MassFlowRate.GetParameter"></a>
+
+### MassFlowRate.GetParameter(propName: System.String)
+
+Gets the parameter corresponding to the given property.
 
 <!-- !! processed by numpydoc !! -->
 
@@ -273,11 +265,11 @@ Run the GroupSimilarObjects action.
 
 <!-- !! processed by numpydoc !! -->
 
-<a id="MassFlowRate.PropertyByName"></a>
+<a id="MassFlowRate.PromoteToNamedSelection"></a>
 
-### MassFlowRate.PropertyByName(name: System.String)
+### MassFlowRate.PromoteToNamedSelection()
 
-Get a property by its unique name.
+Run the PromoteToNamedSelection action.
 
 <!-- !! processed by numpydoc !! -->
 
@@ -285,24 +277,18 @@ Get a property by its unique name.
 
 ### MassFlowRate.PropertyByAPIName(name: System.String)
 
+```text
 Get a property by its API name.
 If multiple properties have the same API Name, only the first property with that name will be returned.
+```
 
 <!-- !! processed by numpydoc !! -->
 
-<a id="MassFlowRate.CreateParameter"></a>
+<a id="MassFlowRate.PropertyByName"></a>
 
-### MassFlowRate.CreateParameter(propName: System.String)
+### MassFlowRate.PropertyByName(name: System.String)
 
-Creates a new parameter for a Property.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="MassFlowRate.GetParameter"></a>
-
-### MassFlowRate.GetParameter(propName: System.String)
-
-Gets the parameter corresponding to the given property.
+Get a property by its unique name.
 
 <!-- !! processed by numpydoc !! -->
 

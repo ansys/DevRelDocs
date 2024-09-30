@@ -1,6 +1,6 @@
 # `RestartType`
 
-
+<a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.RestartType"></a>
 
 #### *class* ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.RestartType
 
@@ -17,10 +17,10 @@ Specifies the RestartType.
 ### Attributes
 
 | Name |
-| -------------------------------------------------------------------------------------------------------------------------- |
-| [`Manual`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/RestartType.md#RestartType.Manual) |
-| [`Off`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/RestartType.md#RestartType.Off) |
-| [`ProgramControlled`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/RestartType.md#RestartType.ProgramControlled) |
+| ------------------------------------------------------- |
+| [`Manual`](#RestartType.Manual) |
+| [`Off`](#RestartType.Off) |
+| [`ProgramControlled`](#RestartType.ProgramControlled) |
 
 <a id="attribute-detail"></a>
 

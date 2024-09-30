@@ -1,6 +1,6 @@
 # `CrackSelectionModeType`
 
-
+<a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.CrackSelectionModeType"></a>
 
 #### *class* ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.CrackSelectionModeType
 
@@ -17,9 +17,9 @@ Specifies the CrackSelectionModeType.
 ### Attributes
 
 | Name |
-| ------------------------------------------------------------------------------------------------------------------------------------ |
-| [`AllCracks`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/CrackSelectionModeType.md#CrackSelectionModeType.AllCracks) |
-| [`SingleCrack`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/CrackSelectionModeType.md#CrackSelectionModeType.SingleCrack) |
+| ------------------------------------------------------ |
+| [`AllCracks`](#CrackSelectionModeType.AllCracks) |
+| [`SingleCrack`](#CrackSelectionModeType.SingleCrack) |
 
 <a id="attribute-detail"></a>
 

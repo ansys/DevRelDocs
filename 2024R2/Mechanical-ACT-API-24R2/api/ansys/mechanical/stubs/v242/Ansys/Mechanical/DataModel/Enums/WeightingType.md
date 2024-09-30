@@ -1,6 +1,6 @@
 # `WeightingType`
 
-
+<a id="ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.WeightingType"></a>
 
 #### *class* ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.WeightingType
 
@@ -15,34 +15,42 @@ Bases: [`enum.Enum`](https://docs.python.org/3/library/enum.html#enum.Enum)
 ### Attributes
 
 | Name |
-| --------------------------------------------------------------- |
-| [`WeightUndefined`](#WeightingType.WeightUndefined) |
-| [`RadialBasisFunctions`](#WeightingType.RadialBasisFunctions) |
+| ------------------------------------------------------------------------------------------------------------------------------------ |
+| [`Assignment`](#WeightingType.Assignment) |
 | [`ClosestPoint`](#WeightingType.ClosestPoint) |
+| [`KrigingFunction`](#WeightingType.KrigingFunction) |
+| [`Quaternion`](#WeightingType.Quaternion) |
+| [`RadialBasisFunctions`](#WeightingType.RadialBasisFunctions) |
 | [`ShapeFunctions`](#WeightingType.ShapeFunctions) |
 | [`Triangulation`](#WeightingType.Triangulation) |
-| [`WeightedAverage`](#WeightingType.WeightedAverage) |
-| [`KrigingFunction`](#WeightingType.KrigingFunction) |
 | [`UVMapping`](#WeightingType.UVMapping) |
 | [`VolumeFraction`](#WeightingType.VolumeFraction) |
-| [`Assignment`](#WeightingType.Assignment) |
-| [`Quaternion`](#WeightingType.Quaternion) |
+| [`WeightUndefined`](#WeightingType.WeightUndefined) |
+| [`WeightedAverage`](#WeightingType.WeightedAverage) |
 
 <a id="attribute-detail"></a>
 
 ## Attribute detail
 
-<a id="WeightingType.WeightUndefined"></a>
+<a id="WeightingType.Assignment"></a>
 
-### WeightingType.WeightUndefined *= 0*
-
-<a id="WeightingType.RadialBasisFunctions"></a>
-
-### WeightingType.RadialBasisFunctions *= 1*
+### WeightingType.Assignment *= 9*
 
 <a id="WeightingType.ClosestPoint"></a>
 
 ### WeightingType.ClosestPoint *= 2*
+
+<a id="WeightingType.KrigingFunction"></a>
+
+### WeightingType.KrigingFunction *= 6*
+
+<a id="WeightingType.Quaternion"></a>
+
+### WeightingType.Quaternion *= 10*
+
+<a id="WeightingType.RadialBasisFunctions"></a>
+
+### WeightingType.RadialBasisFunctions *= 1*
 
 <a id="WeightingType.ShapeFunctions"></a>
 
@@ -52,14 +60,6 @@ Bases: [`enum.Enum`](https://docs.python.org/3/library/enum.html#enum.Enum)
 
 ### WeightingType.Triangulation *= 4*
 
-<a id="WeightingType.WeightedAverage"></a>
-
-### WeightingType.WeightedAverage *= 5*
-
-<a id="WeightingType.KrigingFunction"></a>
-
-### WeightingType.KrigingFunction *= 6*
-
 <a id="WeightingType.UVMapping"></a>
 
 ### WeightingType.UVMapping *= 7*
@@ -68,12 +68,12 @@ Bases: [`enum.Enum`](https://docs.python.org/3/library/enum.html#enum.Enum)
 
 ### WeightingType.VolumeFraction *= 8*
 
-<a id="WeightingType.Assignment"></a>
+<a id="WeightingType.WeightUndefined"></a>
 
-### WeightingType.Assignment *= 9*
+### WeightingType.WeightUndefined *= 0*
 
-<a id="WeightingType.Quaternion"></a>
+<a id="WeightingType.WeightedAverage"></a>
 
-### WeightingType.Quaternion *= 10*
+### WeightingType.WeightedAverage *= 5*
 
 

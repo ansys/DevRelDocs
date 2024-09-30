@@ -1,6 +1,6 @@
 # `MPDataCommand`
 
-
+<a id="ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.FE.CDB.MPDataCommand"></a>
 
 #### *class* ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.FE.CDB.MPDataCommand
 
@@ -17,17 +17,33 @@ Represents a MPDATA command.
 ### Properties
 
 | Name | Description |
-|-----------------------------------|-----------------------------|
-| [`Mat`](#MPDataCommand.Mat)       | Gets the material number.   |
-| [`Lab`](#MPDataCommand.Lab)       | Gets the label.             |
-| [`Temps`](#MPDataCommand.Temps)   | Gets the temperatures.      |
-| [`Values`](#MPDataCommand.Values) | Gets the values.            |
-| [`Name`](#MPDataCommand.Name)     | Gets the command name.      |
-| [`Index`](#MPDataCommand.Index)   | Gets the command index.     |
+|-----------------------------------|---------------------------|
+| [`Index`](#MPDataCommand.Index)   | Gets the command index.   |
+| [`Lab`](#MPDataCommand.Lab)       | Gets the label.           |
+| [`Mat`](#MPDataCommand.Mat)       | Gets the material number. |
+| [`Name`](#MPDataCommand.Name)     | Gets the command name.    |
+| [`Temps`](#MPDataCommand.Temps)   | Gets the temperatures.    |
+| [`Values`](#MPDataCommand.Values) | Gets the values.          |
 
 <a id="property-detail"></a>
 
 ## Property detail
+
+<a id="MPDataCommand.Index"></a>
+
+### *property* MPDataCommand.Index *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets the command index.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="MPDataCommand.Lab"></a>
+
+### *property* MPDataCommand.Lab *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets the label.
+
+<!-- !! processed by numpydoc !! -->
 
 <a id="MPDataCommand.Mat"></a>
 
@@ -37,11 +53,11 @@ Gets the material number.
 
 <!-- !! processed by numpydoc !! -->
 
-<a id="MPDataCommand.Lab"></a>
+<a id="MPDataCommand.Name"></a>
 
-### *property* MPDataCommand.Lab *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* MPDataCommand.Name *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets the label.
+Gets the command name.
 
 <!-- !! processed by numpydoc !! -->
 
@@ -58,22 +74,6 @@ Gets the temperatures.
 ### *property* MPDataCommand.Values *: System.Collections.Generic.IReadOnlyList[System.Double] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the values.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="MPDataCommand.Name"></a>
-
-### *property* MPDataCommand.Name *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets the command name.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="MPDataCommand.Index"></a>
-
-### *property* MPDataCommand.Index *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets the command index.
 
 <!-- !! processed by numpydoc !! -->
 

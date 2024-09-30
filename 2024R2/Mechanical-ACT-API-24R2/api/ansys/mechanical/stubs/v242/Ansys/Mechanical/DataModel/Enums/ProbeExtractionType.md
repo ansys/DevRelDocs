@@ -1,6 +1,6 @@
 # `ProbeExtractionType`
 
-
+<a id="ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.ProbeExtractionType"></a>
 
 #### *class* ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.ProbeExtractionType
 
@@ -17,45 +17,45 @@ Specifies the ProbeExtractionType.
 ### Attributes
 
 | Name |
-| ----------------------------------------------------------- |
-| [`Master`](#ProbeExtractionType.Master) |
-| [`Slave`](#ProbeExtractionType.Slave) |
-| [`MeshPositive`](#ProbeExtractionType.MeshPositive) |
-| [`MeshNegative`](#ProbeExtractionType.MeshNegative) |
-| [`ContactSide`](#ProbeExtractionType.ContactSide) |
-| [`TargetSide`](#ProbeExtractionType.TargetSide) |
+| ---------------------------------------------------------------------------------------------------------------------------------------- |
 | [`ContactElements`](#ProbeExtractionType.ContactElements) |
+| [`ContactSide`](#ProbeExtractionType.ContactSide) |
+| [`Master`](#ProbeExtractionType.Master) |
+| [`MeshNegative`](#ProbeExtractionType.MeshNegative) |
+| [`MeshPositive`](#ProbeExtractionType.MeshPositive) |
+| [`Slave`](#ProbeExtractionType.Slave) |
+| [`TargetSide`](#ProbeExtractionType.TargetSide) |
 
 <a id="attribute-detail"></a>
 
 ## Attribute detail
 
-<a id="ProbeExtractionType.Master"></a>
+<a id="ProbeExtractionType.ContactElements"></a>
 
-### ProbeExtractionType.Master *= 1*
-
-<a id="ProbeExtractionType.Slave"></a>
-
-### ProbeExtractionType.Slave *= 2*
-
-<a id="ProbeExtractionType.MeshPositive"></a>
-
-### ProbeExtractionType.MeshPositive *= 1*
-
-<a id="ProbeExtractionType.MeshNegative"></a>
-
-### ProbeExtractionType.MeshNegative *= 2*
+### ProbeExtractionType.ContactElements *= 5*
 
 <a id="ProbeExtractionType.ContactSide"></a>
 
 ### ProbeExtractionType.ContactSide *= 1*
 
+<a id="ProbeExtractionType.Master"></a>
+
+### ProbeExtractionType.Master *= 1*
+
+<a id="ProbeExtractionType.MeshNegative"></a>
+
+### ProbeExtractionType.MeshNegative *= 2*
+
+<a id="ProbeExtractionType.MeshPositive"></a>
+
+### ProbeExtractionType.MeshPositive *= 1*
+
+<a id="ProbeExtractionType.Slave"></a>
+
+### ProbeExtractionType.Slave *= 2*
+
 <a id="ProbeExtractionType.TargetSide"></a>
 
 ### ProbeExtractionType.TargetSide *= 2*
-
-<a id="ProbeExtractionType.ContactElements"></a>
-
-### ProbeExtractionType.ContactElements *= 5*
 
 

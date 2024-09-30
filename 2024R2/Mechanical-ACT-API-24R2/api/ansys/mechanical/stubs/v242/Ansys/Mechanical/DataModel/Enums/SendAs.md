@@ -1,6 +1,6 @@
 # `SendAs`
 
-
+<a id="ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.SendAs"></a>
 
 #### *class* ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.SendAs
 
@@ -17,7 +17,7 @@ Specifies the SendAs.
 ### Attributes
 
 | Name |
-| ------------------------------------------ |
+| -------------------------------------------------------------------------------------------------------- |
 | [`Mesh200`](#SendAs.Mesh200) |
 | [`Nodes`](#SendAs.Nodes) |
 | [`NotApplicable`](#SendAs.NotApplicable) |

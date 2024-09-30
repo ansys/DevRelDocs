@@ -1,6 +1,6 @@
 # `PythonCode`
 
-
+<a id="ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.PythonCode"></a>
 
 #### *class* ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.PythonCode
 
@@ -17,71 +17,38 @@ Defines a PythonCode.
 ### Methods
 
 | Name | Description |
-|------------------------------------------------------------------|-----------------------------------------------------------------------------------|
-| [`ReloadProperties`](#PythonCode.ReloadProperties)               | Reload properties to update properties provided by the provider.                  |
-| [`Connect`](#PythonCode.Connect)                                 | Register the python code.                                                         |
-| [`Duplicate`](#PythonCode.Duplicate)                             | Duplicate method.                                                                 |
-| [`Delete`](#PythonCode.Delete)                                   | Run the Delete action.                                                            |
+|-----------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------|
 | [`Activate`](#PythonCode.Activate)                               | Activate the current object.                                                      |
+| [`Connect`](#PythonCode.Connect)                                 | Register the python code.                                                         |
 | [`CopyTo`](#PythonCode.CopyTo)                                   | Copies all visible properties from this object to another.                        |
+| [`CreateParameter`](#PythonCode.CreateParameter)                 | Creates a new parameter for a Property.                                           |
+| [`Delete`](#PythonCode.Delete)                                   | Run the Delete action.                                                            |
+| [`Duplicate`](#PythonCode.Duplicate)                             | Duplicate method.                                                                 |
+| [`GetParameter`](#PythonCode.GetParameter)                       | Gets the parameter corresponding to the given property.                           |
 | [`GroupAllSimilarChildren`](#PythonCode.GroupAllSimilarChildren) | Run the GroupAllSimilarChildren action.                                           |
 | [`GroupSimilarObjects`](#PythonCode.GroupSimilarObjects)         | Run the GroupSimilarObjects action.                                               |
-| [`PropertyByName`](#PythonCode.PropertyByName)                   | Get a property by its unique name.                                                |
 | [`PropertyByAPIName`](#PythonCode.PropertyByAPIName)             | Get a property by its API name.                                                   |
-| [`CreateParameter`](#PythonCode.CreateParameter)                 | Creates a new parameter for a Property.                                           |
-| [`GetParameter`](#PythonCode.GetParameter)                       | Gets the parameter corresponding to the given property.                           |
+| [`PropertyByName`](#PythonCode.PropertyByName)                   | Get a property by its unique name.                                                |
+| [`ReloadProperties`](#PythonCode.ReloadProperties)               | Reload properties to update properties provided by the provider.                  |
 | [`RemoveParameter`](#PythonCode.RemoveParameter)                 | Removes the parameter from the parameter set corresponding to the given property. |
 
 ### Properties
 
 | Name | Description |
-|------------------------------------------------------------------|---------------------------------------------------------------------------------------|
-| [`Text`](#PythonCode.Text)                                       | Gets or sets the text in the script tab for the Python Code object.                   |
-| [`PropertyProvider`](#PythonCode.PropertyProvider)               | Gets or sets the propperty provider instance associated with this python code object. |
-| [`InternalObject`](#id0)                                         | Gets the internal object. For advanced usage only.                                    |
-| [`ScriptExecutionScope`](#PythonCode.ScriptExecutionScope)       | The scope identifier in which the code execution will take place.                     |
-| [`AllowRecursion`](#PythonCode.AllowRecursion)                   | Gets or Sets whether the PythonCode allows recursion.                                 |
+|-----------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------|
+| [`AllowRecursion`](#PythonCode.AllowRecursion)                                                                                    | Gets or Sets whether the PythonCode allows recursion.                                 |
 | [`Connected`](#PythonCode.Connected)                             | Gets whether the callbacks are currently connected.                                   |
-| [`DataModelObjectCategory`](#PythonCode.DataModelObjectCategory) | Gets the current DataModelObject's category.                                          |
-| [`InternalObject`](#id0)                                         | Gets the internal object. For advanced usage only.                                    |
+| [`DataModelObjectCategory`](#PythonCode.DataModelObjectCategory) | Gets the current DataModelObject’s category.                                          |
+| [`InternalObject`](#PythonCode.InternalObject)                   | Gets the internal object. For advanced usage only.                                    |
 | [`Properties`](#PythonCode.Properties)                           | Gets the list of properties for this object.                                          |
+| [`PropertyProvider`](#PythonCode.PropertyProvider)               | Gets or sets the propperty provider instance associated with this python code object. |
+| [`ScriptExecutionScope`](#PythonCode.ScriptExecutionScope)       | The scope identifier in which the code execution will take place.                     |
+| [`Text`](#PythonCode.Text)                                       | Gets or sets the text in the script tab for the Python Code object.                   |
 | [`VisibleProperties`](#PythonCode.VisibleProperties)             | Gets the list of properties that are visible for this object.                         |
 
 <a id="property-detail"></a>
 
 ## Property detail
-
-<a id="PythonCode.Text"></a>
-
-### *property* PythonCode.Text *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the text in the script tab for the Python Code object.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="PythonCode.PropertyProvider"></a>
-
-### *property* PythonCode.PropertyProvider *: Ansys.ACT.Interfaces.Mechanical.IPropertyProvider | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the propperty provider instance associated with this python code object.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="PythonCode.InternalObject"></a>
-
-### *property* PythonCode.InternalObject *: Ansys.Common.Interop.DSObjectsAuto.IDSPythonCodeAuto | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets the internal object. For advanced usage only.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="PythonCode.ScriptExecutionScope"></a>
-
-### *property* PythonCode.ScriptExecutionScope *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
-
-The scope identifier in which the code execution will take place.
-
-<!-- !! processed by numpydoc !! -->
 
 <a id="PythonCode.AllowRecursion"></a>
 
@@ -101,15 +68,15 @@ Gets whether the callbacks are currently connected.
 
 <a id="PythonCode.DataModelObjectCategory"></a>
 
-### *property* PythonCode.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../v241/Ansys/Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* PythonCode.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets the current DataModelObject's category.
+Gets the current DataModelObject’s category.
 
 <!-- !! processed by numpydoc !! -->
 
-<a id="id0"></a>
+<a id="PythonCode.InternalObject"></a>
 
-### *property* PythonCode.InternalObject *: System.Object | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* PythonCode.InternalObject *: Ansys.Common.Interop.DSObjectsAuto.IDSPythonCodeAuto | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the internal object. For advanced usage only.
 
@@ -120,6 +87,30 @@ Gets the internal object. For advanced usage only.
 ### *property* PythonCode.Properties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of properties for this object.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="PythonCode.PropertyProvider"></a>
+
+### *property* PythonCode.PropertyProvider *: Ansys.ACT.Interfaces.Mechanical.IPropertyProvider | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the propperty provider instance associated with this python code object.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="PythonCode.ScriptExecutionScope"></a>
+
+### *property* PythonCode.ScriptExecutionScope *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+
+The scope identifier in which the code execution will take place.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="PythonCode.Text"></a>
+
+### *property* PythonCode.Text *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the text in the script tab for the Python Code object.
 
 <!-- !! processed by numpydoc !! -->
 
@@ -135,11 +126,11 @@ Gets the list of properties that are visible for this object.
 
 ## Method detail
 
-<a id="PythonCode.ReloadProperties"></a>
+<a id="PythonCode.Activate"></a>
 
-### PythonCode.ReloadProperties()
+### PythonCode.Activate()
 
-Reload properties to update properties provided by the provider.
+Activate the current object.
 
 <!-- !! processed by numpydoc !! -->
 
@@ -151,11 +142,19 @@ Register the python code.
 
 <!-- !! processed by numpydoc !! -->
 
-<a id="PythonCode.Duplicate"></a>
+<a id="PythonCode.CopyTo"></a>
 
-### PythonCode.Duplicate()
+### PythonCode.CopyTo(other: Ansys.ACT.Automation.Mechanical.DataModelObject)
 
-Duplicate method.
+Copies all visible properties from this object to another.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="PythonCode.CreateParameter"></a>
+
+### PythonCode.CreateParameter(propName: System.String)
+
+Creates a new parameter for a Property.
 
 <!-- !! processed by numpydoc !! -->
 
@@ -167,19 +166,19 @@ Run the Delete action.
 
 <!-- !! processed by numpydoc !! -->
 
-<a id="PythonCode.Activate"></a>
+<a id="PythonCode.Duplicate"></a>
 
-### PythonCode.Activate()
+### PythonCode.Duplicate()
 
-Activate the current object.
+Duplicate method.
 
 <!-- !! processed by numpydoc !! -->
 
-<a id="PythonCode.CopyTo"></a>
+<a id="PythonCode.GetParameter"></a>
 
-### PythonCode.CopyTo(other: Ansys.ACT.Automation.Mechanical.DataModelObject)
+### PythonCode.GetParameter(propName: System.String)
 
-Copies all visible properties from this object to another.
+Gets the parameter corresponding to the given property.
 
 <!-- !! processed by numpydoc !! -->
 
@@ -199,6 +198,17 @@ Run the GroupSimilarObjects action.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="PythonCode.PropertyByAPIName"></a>
+
+### PythonCode.PropertyByAPIName(name: System.String)
+
+```text
+Get a property by its API name.
+If multiple properties have the same API Name, only the first property with that name will be returned.
+```
+
+<!-- !! processed by numpydoc !! -->
+
 <a id="PythonCode.PropertyByName"></a>
 
 ### PythonCode.PropertyByName(name: System.String)
@@ -207,28 +217,11 @@ Get a property by its unique name.
 
 <!-- !! processed by numpydoc !! -->
 
-<a id="PythonCode.PropertyByAPIName"></a>
+<a id="PythonCode.ReloadProperties"></a>
 
-### PythonCode.PropertyByAPIName(name: System.String)
+### PythonCode.ReloadProperties()
 
-Get a property by its API name.
-If multiple properties have the same API Name, only the first property with that name will be returned.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="PythonCode.CreateParameter"></a>
-
-### PythonCode.CreateParameter(propName: System.String)
-
-Creates a new parameter for a Property.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="PythonCode.GetParameter"></a>
-
-### PythonCode.GetParameter(propName: System.String)
-
-Gets the parameter corresponding to the given property.
+Reload properties to update properties provided by the provider.
 
 <!-- !! processed by numpydoc !! -->
 

@@ -1,6 +1,6 @@
 # `ModeSelectionMethod`
 
-
+<a id="ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.ModeSelectionMethod"></a>
 
 #### *class* ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.ModeSelectionMethod
 
@@ -17,7 +17,7 @@ Specifies the ModeSelectionMethod.
 ### Attributes
 
 | Name |
-| ------------------------------------------------------------------- |
+| ---------------------------------------------------------------------------------------------------------------------------------------------- |
 | [`ModalEffectiveMass`](#ModeSelectionMethod.ModalEffectiveMass) |
 | [`None_`](#ModeSelectionMethod.None_) |
 

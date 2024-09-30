@@ -1,6 +1,6 @@
 # `ICEMCFDBehavior`
 
-
+<a id="ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.ICEMCFDBehavior"></a>
 
 #### *class* ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.ICEMCFDBehavior
 
@@ -15,7 +15,7 @@ Bases: [`enum.Enum`](https://docs.python.org/3/library/enum.html#enum.Enum)
 ### Attributes
 
 | Name |
-| --------------------------------------------------- |
+| -------------------------------------------------------------------------------------------------------------------------- |
 | [`GenerateMesh`](#ICEMCFDBehavior.GenerateMesh) |
 | [`SkipMeshing`](#ICEMCFDBehavior.SkipMeshing) |
 

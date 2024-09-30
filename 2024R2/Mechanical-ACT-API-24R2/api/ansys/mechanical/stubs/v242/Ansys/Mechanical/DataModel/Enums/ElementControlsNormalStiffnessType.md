@@ -1,6 +1,6 @@
 # `ElementControlsNormalStiffnessType`
 
-
+<a id="ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.ElementControlsNormalStiffnessType"></a>
 
 #### *class* ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.ElementControlsNormalStiffnessType
 
@@ -17,7 +17,7 @@ Specifies the ElementControlsNormalStiffnessType.
 ### Attributes
 
 | Name |
-| ------------------------------------------------------------------------------ |
+| ------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
 | [`AbsoluteValue`](#ElementControlsNormalStiffnessType.AbsoluteValue) |
 | [`Factor`](#ElementControlsNormalStiffnessType.Factor) |
 | [`FromContactRegion`](#ElementControlsNormalStiffnessType.FromContactRegion) |

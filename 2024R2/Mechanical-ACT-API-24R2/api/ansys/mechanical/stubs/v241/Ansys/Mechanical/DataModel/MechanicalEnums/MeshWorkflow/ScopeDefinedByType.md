@@ -1,6 +1,6 @@
 # `ScopeDefinedByType`
 
-
+<a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.MechanicalEnums.MeshWorkflow.ScopeDefinedByType"></a>
 
 #### *class* ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.MechanicalEnums.MeshWorkflow.ScopeDefinedByType
 
@@ -17,9 +17,9 @@ This enum is referenced in the “Control” tree node and reflects how a scope 
 ### Attributes
 
 | Name |
-| ------------------------------------------------------------------------------------------------------------------------------------------------ |
-| [`Outcome`](../../../../../../v242/Ansys/Mechanical/DataModel/MechanicalEnums/MeshWorkflow/ScopeDefinedByType.md#ScopeDefinedByType.Outcome) |
-| [`Value`](../../../../../../v242/Ansys/Mechanical/DataModel/MechanicalEnums/MeshWorkflow/ScopeDefinedByType.md#ScopeDefinedByType.Value) |
+| -------------------------------------------- |
+| [`Outcome`](#ScopeDefinedByType.Outcome) |
+| [`Value`](#ScopeDefinedByType.Value) |
 
 <a id="attribute-detail"></a>
 

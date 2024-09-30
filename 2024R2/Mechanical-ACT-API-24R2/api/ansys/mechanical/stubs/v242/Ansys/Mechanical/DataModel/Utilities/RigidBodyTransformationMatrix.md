@@ -1,6 +1,6 @@
 # `RigidBodyTransformationMatrix`
 
-
+<a id="ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Utilities.RigidBodyTransformationMatrix"></a>
 
 #### *class* ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Utilities.RigidBodyTransformationMatrix
 
@@ -28,8 +28,12 @@ with rigid body transformations and getting a RigidBodyTransformationMatrix obje
 ### Properties
 
 | Name | Description |
-|-------------------------------------------------|------------------------------------------------------------------------------|
+|------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------|
 | [`Data`](#RigidBodyTransformationMatrix.Data)   | A 16-value list representing a linearized 4x4 transformation matrix.         |
+| [`S`](#RigidBodyTransformationMatrix.S)         | Element 15: the transformation scale, which must be ‘1.0’ for rigid body     |
+| [`T_x`](#RigidBodyTransformationMatrix.T_x)     | Element 3: the x component of the translation.                               |
+| [`T_y`](#RigidBodyTransformationMatrix.T_y)     | Element 7: the y component of the translation.                               |
+| [`T_z`](#RigidBodyTransformationMatrix.T_z)     | Element 11: the z component of the translation.                              |
 | [`X_x`](#RigidBodyTransformationMatrix.X_x)     | Element 0: the x component of the X axis rotation.                           |
 | [`X_y`](#RigidBodyTransformationMatrix.X_y)     | Element 4: the y component of the X axis rotation.                           |
 | [`X_z`](#RigidBodyTransformationMatrix.X_z)     | Element 8: the z component of the X axis rotation.                           |
@@ -39,13 +43,9 @@ with rigid body transformations and getting a RigidBodyTransformationMatrix obje
 | [`Z_x`](#RigidBodyTransformationMatrix.Z_x)     | Element 2: the x component of the Z axis rotation.                           |
 | [`Z_y`](#RigidBodyTransformationMatrix.Z_y)     | Element 6: the y component of the Z axis rotation.                           |
 | [`Z_z`](#RigidBodyTransformationMatrix.Z_z)     | Element 10: the z component of the Z axis rotation.                          |
-| [`T_x`](#RigidBodyTransformationMatrix.T_x)     | Element 3: the x component of the translation.                               |
-| [`T_y`](#RigidBodyTransformationMatrix.T_y)     | Element 7: the y component of the translation.                               |
-| [`T_z`](#RigidBodyTransformationMatrix.T_z)     | Element 11: the z component of the translation.                              |
-| [`tau_x`](#RigidBodyTransformationMatrix.tau_x) | Element 12: the x component of the shear, which must be â€˜0.0' for rigid body |
-| [`tau_y`](#RigidBodyTransformationMatrix.tau_y) | Element 13: the y component of the shear, which must be â€˜0.0' for rigid body |
-| [`tau_z`](#RigidBodyTransformationMatrix.tau_z) | Element 14: the z component of the shear, which must be â€˜0.0' for rigid body |
-| [`S`](#RigidBodyTransformationMatrix.S)         | Element 15: the transformation scale, which must be â€˜1.0' for rigid body     |
+| [`tau_x`](#RigidBodyTransformationMatrix.tau_x) | Element 12: the x component of the shear, which must be ‘0.0’ for rigid body |
+| [`tau_y`](#RigidBodyTransformationMatrix.tau_y) | Element 13: the y component of the shear, which must be ‘0.0’ for rigid body |
+| [`tau_z`](#RigidBodyTransformationMatrix.tau_z) | Element 14: the z component of the shear, which must be ‘0.0’ for rigid body |
 
 <a id="property-detail"></a>
 
@@ -56,6 +56,39 @@ with rigid body transformations and getting a RigidBodyTransformationMatrix obje
 ### *property* RigidBodyTransformationMatrix.Data *: System.Collections.Generic.IList[System.Object] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 A 16-value list representing a linearized 4x4 transformation matrix.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="RigidBodyTransformationMatrix.S"></a>
+
+### *property* RigidBodyTransformationMatrix.S *: System.Double | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Element 15: the transformation scale, which must be ‘1.0’ for rigid body
+transformations.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="RigidBodyTransformationMatrix.T_x"></a>
+
+### *property* RigidBodyTransformationMatrix.T_x *: System.Double | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Element 3: the x component of the translation.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="RigidBodyTransformationMatrix.T_y"></a>
+
+### *property* RigidBodyTransformationMatrix.T_y *: System.Double | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Element 7: the y component of the translation.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="RigidBodyTransformationMatrix.T_z"></a>
+
+### *property* RigidBodyTransformationMatrix.T_z *: System.Double | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Element 11: the z component of the translation.
 
 <!-- !! processed by numpydoc !! -->
 
@@ -131,35 +164,11 @@ Element 10: the z component of the Z axis rotation.
 
 <!-- !! processed by numpydoc !! -->
 
-<a id="RigidBodyTransformationMatrix.T_x"></a>
-
-### *property* RigidBodyTransformationMatrix.T_x *: System.Double | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Element 3: the x component of the translation.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="RigidBodyTransformationMatrix.T_y"></a>
-
-### *property* RigidBodyTransformationMatrix.T_y *: System.Double | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Element 7: the y component of the translation.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="RigidBodyTransformationMatrix.T_z"></a>
-
-### *property* RigidBodyTransformationMatrix.T_z *: System.Double | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Element 11: the z component of the translation.
-
-<!-- !! processed by numpydoc !! -->
-
 <a id="RigidBodyTransformationMatrix.tau_x"></a>
 
 ### *property* RigidBodyTransformationMatrix.tau_x *: System.Double | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Element 12: the x component of the shear, which must be â€˜0.0' for rigid body
+Element 12: the x component of the shear, which must be ‘0.0’ for rigid body
 transformations.
 
 <!-- !! processed by numpydoc !! -->
@@ -168,7 +177,7 @@ transformations.
 
 ### *property* RigidBodyTransformationMatrix.tau_y *: System.Double | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Element 13: the y component of the shear, which must be â€˜0.0' for rigid body
+Element 13: the y component of the shear, which must be ‘0.0’ for rigid body
 transformations.
 
 <!-- !! processed by numpydoc !! -->
@@ -177,16 +186,7 @@ transformations.
 
 ### *property* RigidBodyTransformationMatrix.tau_z *: System.Double | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Element 14: the z component of the shear, which must be â€˜0.0' for rigid body
-transformations.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="RigidBodyTransformationMatrix.S"></a>
-
-### *property* RigidBodyTransformationMatrix.S *: System.Double | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Element 15: the transformation scale, which must be â€˜1.0' for rigid body
+Element 14: the z component of the shear, which must be ‘0.0’ for rigid body
 transformations.
 
 <!-- !! processed by numpydoc !! -->

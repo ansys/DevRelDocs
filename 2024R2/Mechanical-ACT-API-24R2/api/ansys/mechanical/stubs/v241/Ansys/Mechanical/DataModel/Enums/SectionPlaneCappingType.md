@@ -1,6 +1,6 @@
 # `SectionPlaneCappingType`
 
-
+<a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.SectionPlaneCappingType"></a>
 
 #### *class* ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.SectionPlaneCappingType
 
@@ -17,10 +17,10 @@ Specifies the Section Plane Capping Style
 ### Attributes
 
 | Name |
-| ---------------------------------------------------------------------------------------------------------------------------------------------- |
-| [`Hide`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/SectionPlaneCappingType.md#SectionPlaneCappingType.Hide) |
-| [`Show`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/SectionPlaneCappingType.md#SectionPlaneCappingType.Show) |
-| [`ShowByBodyColor`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/SectionPlaneCappingType.md#SectionPlaneCappingType.ShowByBodyColor) |
+| --------------------------------------------------------------- |
+| [`Hide`](#SectionPlaneCappingType.Hide) |
+| [`Show`](#SectionPlaneCappingType.Show) |
+| [`ShowByBodyColor`](#SectionPlaneCappingType.ShowByBodyColor) |
 
 <a id="attribute-detail"></a>
 

@@ -1,6 +1,6 @@
 # `CommandCETerm`
 
-
+<a id="ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.FE.CDB.CommandCETerm"></a>
 
 #### *class* ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.FE.CDB.CommandCETerm
 
@@ -17,20 +17,20 @@ Represents a term associated to a CE command.
 ### Properties
 
 | Name | Description |
-|------------------------------------------------------------------------------------------------------------------------------|-----------------------------|
-| [`Node`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/FE/CDB/CommandCETerm.md#CommandCETerm.Node)               | Gets the node number.       |
-| [`Dof`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/FE/CDB/CommandCETerm.md#CommandCETerm.Dof)                 | Gets the degree of freedom. |
-| [`Coefficient`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/FE/CDB/CommandCETerm.md#CommandCETerm.Coefficient) | Gets the coefficient.       |
+|--------------------------------------------------------------------------------------------------------------------------------|-----------------------------|
+| [`Coefficient`](#CommandCETerm.Coefficient)   | Gets the coefficient.       |
+| [`Dof`](#CommandCETerm.Dof)                   | Gets the degree of freedom. |
+| [`Node`](#CommandCETerm.Node)                 | Gets the node number.       |
 
 <a id="property-detail"></a>
 
 ## Property detail
 
-<a id="CommandCETerm.Node"></a>
+<a id="CommandCETerm.Coefficient"></a>
 
-### *property* CommandCETerm.Node *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* CommandCETerm.Coefficient *: System.Double | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets the node number.
+Gets the coefficient.
 
 <!-- !! processed by numpydoc !! -->
 
@@ -42,11 +42,11 @@ Gets the degree of freedom.
 
 <!-- !! processed by numpydoc !! -->
 
-<a id="CommandCETerm.Coefficient"></a>
+<a id="CommandCETerm.Node"></a>
 
-### *property* CommandCETerm.Coefficient *: System.Double | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* CommandCETerm.Node *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets the coefficient.
+Gets the node number.
 
 <!-- !! processed by numpydoc !! -->
 

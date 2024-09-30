@@ -1,12 +1,12 @@
 # `ExpansionStatus`
 
-
+<a id="ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.ExpansionStatus"></a>
 
 #### *class* ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.ExpansionStatus
 
 Bases: [`enum.Enum`](https://docs.python.org/3/library/enum.html#enum.Enum)
 
-"DSImportedCondensedPartExpansionStatus" is a status enum which specifies if the results can be expanded on this imported condensed part.
+“DSImportedCondensedPartExpansionStatus” is a status enum which specifies if the results can be expanded on this imported condensed part.
 
 <!-- !! processed by numpydoc !! -->
 

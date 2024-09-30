@@ -1,6 +1,6 @@
 # `FEConnectionLineThicknessType`
 
-
+<a id="ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.FEConnectionLineThicknessType"></a>
 
 #### *class* ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.FEConnectionLineThicknessType
 
@@ -17,22 +17,22 @@ Specifies the FEConnectionLineThicknessType.
 ### Attributes
 
 | Name |
-| ----------------------------------------------------- |
-| [`Single`](#FEConnectionLineThicknessType.Single) |
+| ------------------------------------------------------------------------------------------------------------------------------------------ |
 | [`Double`](#FEConnectionLineThicknessType.Double) |
+| [`Single`](#FEConnectionLineThicknessType.Single) |
 | [`Triple`](#FEConnectionLineThicknessType.Triple) |
 
 <a id="attribute-detail"></a>
 
 ## Attribute detail
 
-<a id="FEConnectionLineThicknessType.Single"></a>
-
-### FEConnectionLineThicknessType.Single *= 0*
-
 <a id="FEConnectionLineThicknessType.Double"></a>
 
 ### FEConnectionLineThicknessType.Double *= 1*
+
+<a id="FEConnectionLineThicknessType.Single"></a>
+
+### FEConnectionLineThicknessType.Single *= 0*
 
 <a id="FEConnectionLineThicknessType.Triple"></a>
 

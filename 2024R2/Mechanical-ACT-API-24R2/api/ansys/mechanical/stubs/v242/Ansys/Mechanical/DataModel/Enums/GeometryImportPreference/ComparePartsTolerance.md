@@ -1,6 +1,6 @@
 # `ComparePartsTolerance`
 
-
+<a id="ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.GeometryImportPreference.ComparePartsTolerance"></a>
 
 #### *class* ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.GeometryImportPreference.ComparePartsTolerance
 
@@ -19,25 +19,25 @@ Specifies the tolerance to use when comparing parts. This provides comparison ro
 ### Attributes
 
 | Name |
-| ------------------------------------------- |
-| [`Tight`](#ComparePartsTolerance.Tight) |
-| [`Normal`](#ComparePartsTolerance.Normal) |
+| ---------------------------------------------------------------------------------------------------------------------------------------------------- |
 | [`Loose`](#ComparePartsTolerance.Loose) |
+| [`Normal`](#ComparePartsTolerance.Normal) |
+| [`Tight`](#ComparePartsTolerance.Tight) |
 
 <a id="attribute-detail"></a>
 
 ## Attribute detail
 
-<a id="ComparePartsTolerance.Tight"></a>
+<a id="ComparePartsTolerance.Loose"></a>
 
-### ComparePartsTolerance.Tight *= 2*
+### ComparePartsTolerance.Loose *= 0*
 
 <a id="ComparePartsTolerance.Normal"></a>
 
 ### ComparePartsTolerance.Normal *= 1*
 
-<a id="ComparePartsTolerance.Loose"></a>
+<a id="ComparePartsTolerance.Tight"></a>
 
-### ComparePartsTolerance.Loose *= 0*
+### ComparePartsTolerance.Tight *= 2*
 
 

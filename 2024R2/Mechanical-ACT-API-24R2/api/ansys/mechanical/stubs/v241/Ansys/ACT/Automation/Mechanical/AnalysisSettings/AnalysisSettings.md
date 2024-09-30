@@ -1,6 +1,6 @@
 # `AnalysisSettings`
 
-
+<a id="ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.AnalysisSettings.AnalysisSettings"></a>
 
 #### *class* ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.AnalysisSettings.AnalysisSettings
 
@@ -18,49 +18,87 @@ Defines a AnalysisSettings.
 
 | Name | Description |
 |-------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------|
-| [`DeleteAllRestartPoints`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/AnalysisSettings/AnalysisSettings.md#AnalysisSettings.DeleteAllRestartPoints)   | DeleteAllRestartPoints method.                                                    |
-| [`GetChildren`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/AnalysisSettings/AnalysisSettings.md#id1)                                                  | Gets the list of children, filtered by type.                                      |
-| [`GetChildren`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/AnalysisSettings/AnalysisSettings.md#id1)                                                  | Gets the list of children, filtered by type.                                      |
-| [`AddComment`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/AnalysisSettings/AnalysisSettings.md#AnalysisSettings.AddComment)                           | Creates a new child Comment.                                                      |
-| [`AddFigure`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/AnalysisSettings/AnalysisSettings.md#AnalysisSettings.AddFigure)                             | Creates a new child Figure.                                                       |
-| [`AddImage`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/AnalysisSettings/AnalysisSettings.md#AnalysisSettings.AddImage)                               | Creates a new child Image.                                                        |
-| [`Activate`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/AnalysisSettings/AnalysisSettings.md#AnalysisSettings.Activate)                               | Activate the current object.                                                      |
-| [`CopyTo`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/AnalysisSettings/AnalysisSettings.md#AnalysisSettings.CopyTo)                                   | Copies all visible properties from this object to another.                        |
-| [`Duplicate`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/AnalysisSettings/AnalysisSettings.md#AnalysisSettings.Duplicate)                             | Creates a copy of the current DataModelObject.                                    |
-| [`GroupAllSimilarChildren`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/AnalysisSettings/AnalysisSettings.md#AnalysisSettings.GroupAllSimilarChildren) | Run the GroupAllSimilarChildren action.                                           |
-| [`GroupSimilarObjects`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/AnalysisSettings/AnalysisSettings.md#AnalysisSettings.GroupSimilarObjects)         | Run the GroupSimilarObjects action.                                               |
-| [`PropertyByName`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/AnalysisSettings/AnalysisSettings.md#AnalysisSettings.PropertyByName)                   | Get a property by its unique name.                                                |
-| [`PropertyByAPIName`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/AnalysisSettings/AnalysisSettings.md#AnalysisSettings.PropertyByAPIName)             | Get a property by its API name.                                                   |
-| [`CreateParameter`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/AnalysisSettings/AnalysisSettings.md#AnalysisSettings.CreateParameter)                 | Creates a new parameter for a Property.                                           |
-| [`GetParameter`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/AnalysisSettings/AnalysisSettings.md#AnalysisSettings.GetParameter)                       | Gets the parameter corresponding to the given property.                           |
-| [`RemoveParameter`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/AnalysisSettings/AnalysisSettings.md#AnalysisSettings.RemoveParameter)                 | Removes the parameter from the parameter set corresponding to the given property. |
+| [`Activate`](#AnalysisSettings.Activate)                               | Activate the current object.                                                      |
+| [`AddComment`](#AnalysisSettings.AddComment)                           | Creates a new child Comment.                                                      |
+| [`AddFigure`](#AnalysisSettings.AddFigure)                             | Creates a new child Figure.                                                       |
+| [`AddImage`](#AnalysisSettings.AddImage)                               | Creates a new child Image.                                                        |
+| [`CopyTo`](#AnalysisSettings.CopyTo)                                   | Copies all visible properties from this object to another.                        |
+| [`CreateParameter`](#AnalysisSettings.CreateParameter)                 | Creates a new parameter for a Property.                                           |
+| [`DeleteAllRestartPoints`](#AnalysisSettings.DeleteAllRestartPoints)   | DeleteAllRestartPoints method.                                                    |
+| [`Duplicate`](#AnalysisSettings.Duplicate)                             | Creates a copy of the current DataModelObject.                                    |
+| [`GetChildren`](#AnalysisSettings.GetChildren)                         | Gets the list of children, filtered by type.                                      |
+| [`GetParameter`](#AnalysisSettings.GetParameter)                       | Gets the parameter corresponding to the given property.                           |
+| [`GroupAllSimilarChildren`](#AnalysisSettings.GroupAllSimilarChildren) | Run the GroupAllSimilarChildren action.                                           |
+| [`GroupSimilarObjects`](#AnalysisSettings.GroupSimilarObjects)         | Run the GroupSimilarObjects action.                                               |
+| [`PropertyByAPIName`](#AnalysisSettings.PropertyByAPIName)             | Get a property by its API name.                                                   |
+| [`PropertyByName`](#AnalysisSettings.PropertyByName)                   | Get a property by its unique name.                                                |
+| [`RemoveParameter`](#AnalysisSettings.RemoveParameter)                 | Removes the parameter from the parameter set corresponding to the given property. |
 
 ### Properties
 
 | Name | Description |
 |---------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------|
-| [`Graph`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/AnalysisSettings/AnalysisSettings.md#AnalysisSettings.Graph)                                             | Graph property.                                               |
-| [`InternalObject`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/AnalysisSettings/AnalysisSettings.md#id0)                                                       | Gets the internal object. For advanced usage only.            |
-| [`ScratchSolverFilesDirectory`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/AnalysisSettings/AnalysisSettings.md#AnalysisSettings.ScratchSolverFilesDirectory) | Gets the ScratchSolverFilesDirectory.                         |
-| [`SolverFilesDirectory`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/AnalysisSettings/AnalysisSettings.md#AnalysisSettings.SolverFilesDirectory)               | Gets the SolverFilesDirectory.                                |
-| [`DataModelObjectCategory`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/AnalysisSettings/AnalysisSettings.md#AnalysisSettings.DataModelObjectCategory)         | Gets the current DataModelObject's category.                  |
-| [`Children`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/AnalysisSettings/AnalysisSettings.md#AnalysisSettings.Children)                                       | Gets the list of children.                                    |
-| [`Comments`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/AnalysisSettings/AnalysisSettings.md#AnalysisSettings.Comments)                                       | Gets the list of associated comments.                         |
-| [`Figures`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/AnalysisSettings/AnalysisSettings.md#AnalysisSettings.Figures)                                         | Gets the list of associated figures.                          |
-| [`Images`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/AnalysisSettings/AnalysisSettings.md#AnalysisSettings.Images)                                           | Gets the list of associated images.                           |
-| [`InternalObject`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/AnalysisSettings/AnalysisSettings.md#id0)                                                       | Gets the internal object. For advanced usage only.            |
-| [`Properties`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/AnalysisSettings/AnalysisSettings.md#AnalysisSettings.Properties)                                   | Gets the list of properties for this object.                  |
-| [`VisibleProperties`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/AnalysisSettings/AnalysisSettings.md#AnalysisSettings.VisibleProperties)                     | Gets the list of properties that are visible for this object. |
+| [`Children`](#AnalysisSettings.Children)                                       | Gets the list of children.                                    |
+| [`Comments`](#AnalysisSettings.Comments)                                       | Gets the list of associated comments.                         |
+| [`DataModelObjectCategory`](#AnalysisSettings.DataModelObjectCategory)         | Gets the current DataModelObject’s category.                  |
+| [`Figures`](#AnalysisSettings.Figures)                                         | Gets the list of associated figures.                          |
+| [`Graph`](#AnalysisSettings.Graph)                                             | Graph property.                                               |
+| [`Images`](#AnalysisSettings.Images)                                           | Gets the list of associated images.                           |
+| [`InternalObject`](#AnalysisSettings.InternalObject)                           | Gets the internal object. For advanced usage only.            |
+| [`Properties`](#AnalysisSettings.Properties)                                   | Gets the list of properties for this object.                  |
+| [`ScratchSolverFilesDirectory`](#AnalysisSettings.ScratchSolverFilesDirectory) | Gets the ScratchSolverFilesDirectory.                         |
+| [`SolverFilesDirectory`](#AnalysisSettings.SolverFilesDirectory)               | Gets the SolverFilesDirectory.                                |
+| [`VisibleProperties`](#AnalysisSettings.VisibleProperties)                     | Gets the list of properties that are visible for this object. |
 
 <a id="property-detail"></a>
 
 ## Property detail
 
+<a id="AnalysisSettings.Children"></a>
+
+### *property* AnalysisSettings.Children *: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets the list of children.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="AnalysisSettings.Comments"></a>
+
+### *property* AnalysisSettings.Comments *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Comment](../Comment.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets the list of associated comments.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="AnalysisSettings.DataModelObjectCategory"></a>
+
+### *property* AnalysisSettings.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../../v242/Ansys/Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets the current DataModelObject’s category.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="AnalysisSettings.Figures"></a>
+
+### *property* AnalysisSettings.Figures *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Figure](../Figure.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets the list of associated figures.
+
+<!-- !! processed by numpydoc !! -->
+
 <a id="AnalysisSettings.Graph"></a>
 
-### *property* AnalysisSettings.Graph *: [Ansys.Mechanical.Graphics.AnalysisSettingsGraph](../../../../Mechanical/Graphics/AnalysisSettingsGraph.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.Graphics.AnalysisSettingsGraph) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AnalysisSettings.Graph *: [Ansys.Mechanical.Graphics.AnalysisSettingsGraph](../../../../../../v242/Ansys/Mechanical/Graphics/AnalysisSettingsGraph.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.Graphics.AnalysisSettingsGraph) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Graph property.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="AnalysisSettings.Images"></a>
+
+### *property* AnalysisSettings.Images *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Image](../Image.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets the list of associated images.
 
 <!-- !! processed by numpydoc !! -->
 
@@ -69,6 +107,14 @@ Graph property.
 ### *property* AnalysisSettings.InternalObject *: Ansys.Common.Interop.DSObjectsAuto.IDSAnalysisSettings | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the internal object. For advanced usage only.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="AnalysisSettings.Properties"></a>
+
+### *property* AnalysisSettings.Properties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets the list of properties for this object.
 
 <!-- !! processed by numpydoc !! -->
 
@@ -88,62 +134,6 @@ Gets the SolverFilesDirectory.
 
 <!-- !! processed by numpydoc !! -->
 
-<a id="AnalysisSettings.DataModelObjectCategory"></a>
-
-### *property* AnalysisSettings.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets the current DataModelObject's category.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="AnalysisSettings.Children"></a>
-
-### *property* AnalysisSettings.Children *: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets the list of children.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="AnalysisSettings.Comments"></a>
-
-### *property* AnalysisSettings.Comments *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Comment](../Comment.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets the list of associated comments.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="AnalysisSettings.Figures"></a>
-
-### *property* AnalysisSettings.Figures *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Figure](../Figure.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets the list of associated figures.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="AnalysisSettings.Images"></a>
-
-### *property* AnalysisSettings.Images *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Image](../Image.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets the list of associated images.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="id0"></a>
-
-### *property* AnalysisSettings.InternalObject *: System.Object | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets the internal object. For advanced usage only.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="AnalysisSettings.Properties"></a>
-
-### *property* AnalysisSettings.Properties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets the list of properties for this object.
-
-<!-- !! processed by numpydoc !! -->
-
 <a id="AnalysisSettings.VisibleProperties"></a>
 
 ### *property* AnalysisSettings.VisibleProperties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
@@ -156,27 +146,11 @@ Gets the list of properties that are visible for this object.
 
 ## Method detail
 
-<a id="AnalysisSettings.DeleteAllRestartPoints"></a>
+<a id="AnalysisSettings.Activate"></a>
 
-### AnalysisSettings.DeleteAllRestartPoints()
+### AnalysisSettings.Activate()
 
-DeleteAllRestartPoints method.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="AnalysisSettings.GetChildren"></a>
-
-### AnalysisSettings.GetChildren(recurses: System.Boolean, children: System.Collections.Generic.IList[ChildrenType])
-
-Gets the list of children, filtered by type.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="id1"></a>
-
-### AnalysisSettings.GetChildren(category: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory), recurses: System.Boolean, children: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject])
-
-Gets the list of children, filtered by type.
+Activate the current object.
 
 <!-- !! processed by numpydoc !! -->
 
@@ -200,17 +174,11 @@ Creates a new child Figure.
 
 ### AnalysisSettings.AddImage(filePath: System.String)
 
+```text
 Creates a new child Image.
 If a filePath is provided, the image will be loaded from that file,
 if not, the image will be a screen capture of the Geometry window.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="AnalysisSettings.Activate"></a>
-
-### AnalysisSettings.Activate()
-
-Activate the current object.
+```
 
 <!-- !! processed by numpydoc !! -->
 
@@ -222,11 +190,43 @@ Copies all visible properties from this object to another.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="AnalysisSettings.CreateParameter"></a>
+
+### AnalysisSettings.CreateParameter(propName: System.String)
+
+Creates a new parameter for a Property.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="AnalysisSettings.DeleteAllRestartPoints"></a>
+
+### AnalysisSettings.DeleteAllRestartPoints()
+
+DeleteAllRestartPoints method.
+
+<!-- !! processed by numpydoc !! -->
+
 <a id="AnalysisSettings.Duplicate"></a>
 
 ### AnalysisSettings.Duplicate()
 
 Creates a copy of the current DataModelObject.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="AnalysisSettings.GetChildren"></a>
+
+### AnalysisSettings.GetChildren(recurses: System.Boolean, children: System.Collections.Generic.IList[ChildrenType])
+
+Gets the list of children, filtered by type.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="AnalysisSettings.GetParameter"></a>
+
+### AnalysisSettings.GetParameter(propName: System.String)
+
+Gets the parameter corresponding to the given property.
 
 <!-- !! processed by numpydoc !! -->
 
@@ -246,36 +246,22 @@ Run the GroupSimilarObjects action.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="AnalysisSettings.PropertyByAPIName"></a>
+
+### AnalysisSettings.PropertyByAPIName(name: System.String)
+
+```text
+Get a property by its API name.
+If multiple properties have the same API Name, only the first property with that name will be returned.
+```
+
+<!-- !! processed by numpydoc !! -->
+
 <a id="AnalysisSettings.PropertyByName"></a>
 
 ### AnalysisSettings.PropertyByName(name: System.String)
 
 Get a property by its unique name.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="AnalysisSettings.PropertyByAPIName"></a>
-
-### AnalysisSettings.PropertyByAPIName(name: System.String)
-
-Get a property by its API name.
-If multiple properties have the same API Name, only the first property with that name will be returned.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="AnalysisSettings.CreateParameter"></a>
-
-### AnalysisSettings.CreateParameter(propName: System.String)
-
-Creates a new parameter for a Property.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="AnalysisSettings.GetParameter"></a>
-
-### AnalysisSettings.GetParameter(propName: System.String)
-
-Gets the parameter corresponding to the given property.
 
 <!-- !! processed by numpydoc !! -->
 

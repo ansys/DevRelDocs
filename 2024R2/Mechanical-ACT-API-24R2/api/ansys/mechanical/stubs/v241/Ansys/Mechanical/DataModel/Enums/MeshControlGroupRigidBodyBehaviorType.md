@@ -1,6 +1,6 @@
 # `MeshControlGroupRigidBodyBehaviorType`
 
-
+<a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.MeshControlGroupRigidBodyBehaviorType"></a>
 
 #### *class* ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.MeshControlGroupRigidBodyBehaviorType
 
@@ -17,20 +17,20 @@ Specifies the MeshControlGroupRigidBodyBehaviorType.
 ### Attributes
 
 | Name |
-| ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| [`FullMesh`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/MeshControlGroupRigidBodyBehaviorType.md#MeshControlGroupRigidBodyBehaviorType.FullMesh) |
-| [`DimensionallyReduced`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/MeshControlGroupRigidBodyBehaviorType.md#MeshControlGroupRigidBodyBehaviorType.DimensionallyReduced) |
+| ----------------------------------------------------------------------------------------- |
+| [`DimensionallyReduced`](#MeshControlGroupRigidBodyBehaviorType.DimensionallyReduced) |
+| [`FullMesh`](#MeshControlGroupRigidBodyBehaviorType.FullMesh) |
 
 <a id="attribute-detail"></a>
 
 ## Attribute detail
 
-<a id="MeshControlGroupRigidBodyBehaviorType.FullMesh"></a>
-
-### MeshControlGroupRigidBodyBehaviorType.FullMesh *= 1*
-
 <a id="MeshControlGroupRigidBodyBehaviorType.DimensionallyReduced"></a>
 
 ### MeshControlGroupRigidBodyBehaviorType.DimensionallyReduced *= 0*
+
+<a id="MeshControlGroupRigidBodyBehaviorType.FullMesh"></a>
+
+### MeshControlGroupRigidBodyBehaviorType.FullMesh *= 1*
 
 

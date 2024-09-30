@@ -1,6 +1,6 @@
 # `AMProcessType`
 
-
+<a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.AMProcessType"></a>
 
 #### *class* ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.AMProcessType
 
@@ -17,9 +17,9 @@ Specifies the AMProcessType.
 ### Attributes
 
 | Name |
-| ---------------------------------------------------------------------------------------------------------------------------------------------- |
-| [`DirectedEnergyDeposition`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/AMProcessType.md#AMProcessType.DirectedEnergyDeposition) |
-| [`PowderBedFusion`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/AMProcessType.md#AMProcessType.PowderBedFusion) |
+| ------------------------------------------------------------------------- |
+| [`DirectedEnergyDeposition`](#AMProcessType.DirectedEnergyDeposition) |
+| [`PowderBedFusion`](#AMProcessType.PowderBedFusion) |
 
 <a id="attribute-detail"></a>
 

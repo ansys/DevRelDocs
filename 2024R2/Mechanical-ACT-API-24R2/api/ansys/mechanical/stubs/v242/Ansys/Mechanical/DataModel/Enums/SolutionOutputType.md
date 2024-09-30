@@ -1,6 +1,6 @@
 # `SolutionOutputType`
 
-
+<a id="ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.SolutionOutputType"></a>
 
 #### *class* ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.SolutionOutputType
 
@@ -17,55 +17,55 @@ Specifies the SolutionOutputType.
 ### Attributes
 
 | Name |
-| -------------------------------------------------------------------------------------------------------------------------- |
-| [`CurrentConvergence`](#SolutionOutputType.CurrentConvergence) |
+| ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| [`CSGConvergence`](#SolutionOutputType.CSGConvergence) |
 | [`ChargeConvergence`](#SolutionOutputType.ChargeConvergence) |
 | [`ContactOutput`](#SolutionOutputType.ContactOutput) |
-| [`CSGConvergence`](#SolutionOutputType.CSGConvergence) |
-| [`EvaluateScriptOutput`](#SolutionOutputType.EvaluateScriptOutput) |
-| [`SolveScriptOutput`](#SolutionOutputType.SolveScriptOutput) |
+| [`CurrentConvergence`](#SolutionOutputType.CurrentConvergence) |
 | [`DisplacementConvergence`](#SolutionOutputType.DisplacementConvergence) |
 | [`EnergyConservation`](#SolutionOutputType.EnergyConservation) |
 | [`EnergySummary`](#SolutionOutputType.EnergySummary) |
+| [`EvaluateScriptOutput`](#SolutionOutputType.EvaluateScriptOutput) |
 | [`ForceConvergence`](#SolutionOutputType.ForceConvergence) |
 | [`FrequencyConvergence`](#SolutionOutputType.FrequencyConvergence) |
 | [`HeatConvergence`](#SolutionOutputType.HeatConvergence) |
-| [`Time`](#SolutionOutputType.Time) |
 | [`KineticEnergy`](#SolutionOutputType.KineticEnergy) |
 | [`LineSearch`](#SolutionOutputType.LineSearch) |
 | [`MaximumDOFIncrement`](#SolutionOutputType.MaximumDOFIncrement) |
 | [`MaximumDOFNodeAndIncrement`](#SolutionOutputType.MaximumDOFNodeAndIncrement) |
 | [`MomentConvergence`](#SolutionOutputType.MomentConvergence) |
-| [`ParticipationFactor`](#SolutionOutputType.ParticipationFactor) |
-| [`PostOutput`](#SolutionOutputType.PostOutput) |
-| [`StiffnessEnergy`](#SolutionOutputType.StiffnessEnergy) |
-| [`PropertyChange`](#SolutionOutputType.PropertyChange) |
-| [`SolverOutput`](#SolutionOutputType.SolverOutput) |
-| [`RotationConvergence`](#SolutionOutputType.RotationConvergence) |
-| [`SolutionStatistics`](#SolutionOutputType.SolutionStatistics) |
-| [`SolutionTracking`](#SolutionOutputType.SolutionTracking) |
-| [`TemperatureConvergence`](#SolutionOutputType.TemperatureConvergence) |
-| [`TemperatureChange`](#SolutionOutputType.TemperatureChange) |
-| [`TimeIncrement`](#SolutionOutputType.TimeIncrement) |
-| [`TimeIncrementVSTime`](#SolutionOutputType.TimeIncrementVSTime) |
 | [`ObjectiveAndAllConstraintConvergence`](#SolutionOutputType.ObjectiveAndAllConstraintConvergence) |
-| [`ObjectiveAndManufacturingConvergence`](#SolutionOutputType.ObjectiveAndManufacturingConvergence) |
 | [`ObjectiveAndDisplacementResponseConvergence`](#SolutionOutputType.ObjectiveAndDisplacementResponseConvergence) |
 | [`ObjectiveAndGlobalStressResponseConvergence`](#SolutionOutputType.ObjectiveAndGlobalStressResponseConvergence) |
 | [`ObjectiveAndLocalStressResponseConvergence`](#SolutionOutputType.ObjectiveAndLocalStressResponseConvergence) |
+| [`ObjectiveAndManufacturingConvergence`](#SolutionOutputType.ObjectiveAndManufacturingConvergence) |
 | [`ObjectiveAndMassResponseConvergence`](#SolutionOutputType.ObjectiveAndMassResponseConvergence) |
 | [`ObjectiveAndNaturalFrequencyResponseConvergence`](#SolutionOutputType.ObjectiveAndNaturalFrequencyResponseConvergence) |
 | [`ObjectiveAndReactionForceResponseConvergence`](#SolutionOutputType.ObjectiveAndReactionForceResponseConvergence) |
 | [`ObjectiveAndVolumeResponseConvergence`](#SolutionOutputType.ObjectiveAndVolumeResponseConvergence) |
 | [`OptimizationOutput`](#SolutionOutputType.OptimizationOutput) |
+| [`ParticipationFactor`](#SolutionOutputType.ParticipationFactor) |
+| [`PostOutput`](#SolutionOutputType.PostOutput) |
+| [`PropertyChange`](#SolutionOutputType.PropertyChange) |
+| [`RotationConvergence`](#SolutionOutputType.RotationConvergence) |
+| [`SolutionStatistics`](#SolutionOutputType.SolutionStatistics) |
+| [`SolutionTracking`](#SolutionOutputType.SolutionTracking) |
+| [`SolveScriptOutput`](#SolutionOutputType.SolveScriptOutput) |
+| [`SolverOutput`](#SolutionOutputType.SolverOutput) |
+| [`StiffnessEnergy`](#SolutionOutputType.StiffnessEnergy) |
+| [`TemperatureChange`](#SolutionOutputType.TemperatureChange) |
+| [`TemperatureConvergence`](#SolutionOutputType.TemperatureConvergence) |
+| [`Time`](#SolutionOutputType.Time) |
+| [`TimeIncrement`](#SolutionOutputType.TimeIncrement) |
+| [`TimeIncrementVSTime`](#SolutionOutputType.TimeIncrementVSTime) |
 
 <a id="attribute-detail"></a>
 
 ## Attribute detail
 
-<a id="SolutionOutputType.CurrentConvergence"></a>
+<a id="SolutionOutputType.CSGConvergence"></a>
 
-### SolutionOutputType.CurrentConvergence *= 21*
+### SolutionOutputType.CSGConvergence *= 13*
 
 <a id="SolutionOutputType.ChargeConvergence"></a>
 
@@ -75,17 +75,9 @@ Specifies the SolutionOutputType.
 
 ### SolutionOutputType.ContactOutput *= 22*
 
-<a id="SolutionOutputType.CSGConvergence"></a>
+<a id="SolutionOutputType.CurrentConvergence"></a>
 
-### SolutionOutputType.CSGConvergence *= 13*
-
-<a id="SolutionOutputType.EvaluateScriptOutput"></a>
-
-### SolutionOutputType.EvaluateScriptOutput *= 23*
-
-<a id="SolutionOutputType.SolveScriptOutput"></a>
-
-### SolutionOutputType.SolveScriptOutput *= 24*
+### SolutionOutputType.CurrentConvergence *= 21*
 
 <a id="SolutionOutputType.DisplacementConvergence"></a>
 
@@ -99,6 +91,10 @@ Specifies the SolutionOutputType.
 
 ### SolutionOutputType.EnergySummary *= 20*
 
+<a id="SolutionOutputType.EvaluateScriptOutput"></a>
+
+### SolutionOutputType.EvaluateScriptOutput *= 23*
+
 <a id="SolutionOutputType.ForceConvergence"></a>
 
 ### SolutionOutputType.ForceConvergence *= 1*
@@ -110,10 +106,6 @@ Specifies the SolutionOutputType.
 <a id="SolutionOutputType.HeatConvergence"></a>
 
 ### SolutionOutputType.HeatConvergence *= 3*
-
-<a id="SolutionOutputType.Time"></a>
-
-### SolutionOutputType.Time *= 8*
 
 <a id="SolutionOutputType.KineticEnergy"></a>
 
@@ -135,61 +127,9 @@ Specifies the SolutionOutputType.
 
 ### SolutionOutputType.MomentConvergence *= 16*
 
-<a id="SolutionOutputType.ParticipationFactor"></a>
-
-### SolutionOutputType.ParticipationFactor *= 28*
-
-<a id="SolutionOutputType.PostOutput"></a>
-
-### SolutionOutputType.PostOutput *= 25*
-
-<a id="SolutionOutputType.StiffnessEnergy"></a>
-
-### SolutionOutputType.StiffnessEnergy *= 53*
-
-<a id="SolutionOutputType.PropertyChange"></a>
-
-### SolutionOutputType.PropertyChange *= 15*
-
-<a id="SolutionOutputType.SolverOutput"></a>
-
-### SolutionOutputType.SolverOutput *= 0*
-
-<a id="SolutionOutputType.RotationConvergence"></a>
-
-### SolutionOutputType.RotationConvergence *= 17*
-
-<a id="SolutionOutputType.SolutionStatistics"></a>
-
-### SolutionOutputType.SolutionStatistics *= 40*
-
-<a id="SolutionOutputType.SolutionTracking"></a>
-
-### SolutionOutputType.SolutionTracking *= 44*
-
-<a id="SolutionOutputType.TemperatureConvergence"></a>
-
-### SolutionOutputType.TemperatureConvergence *= 4*
-
-<a id="SolutionOutputType.TemperatureChange"></a>
-
-### SolutionOutputType.TemperatureChange *= 14*
-
-<a id="SolutionOutputType.TimeIncrement"></a>
-
-### SolutionOutputType.TimeIncrement *= 10*
-
-<a id="SolutionOutputType.TimeIncrementVSTime"></a>
-
-### SolutionOutputType.TimeIncrementVSTime *= 6*
-
 <a id="SolutionOutputType.ObjectiveAndAllConstraintConvergence"></a>
 
 ### SolutionOutputType.ObjectiveAndAllConstraintConvergence *= 42*
-
-<a id="SolutionOutputType.ObjectiveAndManufacturingConvergence"></a>
-
-### SolutionOutputType.ObjectiveAndManufacturingConvergence *= 32*
 
 <a id="SolutionOutputType.ObjectiveAndDisplacementResponseConvergence"></a>
 
@@ -202,6 +142,10 @@ Specifies the SolutionOutputType.
 <a id="SolutionOutputType.ObjectiveAndLocalStressResponseConvergence"></a>
 
 ### SolutionOutputType.ObjectiveAndLocalStressResponseConvergence *= 37*
+
+<a id="SolutionOutputType.ObjectiveAndManufacturingConvergence"></a>
+
+### SolutionOutputType.ObjectiveAndManufacturingConvergence *= 32*
 
 <a id="SolutionOutputType.ObjectiveAndMassResponseConvergence"></a>
 
@@ -222,5 +166,61 @@ Specifies the SolutionOutputType.
 <a id="SolutionOutputType.OptimizationOutput"></a>
 
 ### SolutionOutputType.OptimizationOutput *= 29*
+
+<a id="SolutionOutputType.ParticipationFactor"></a>
+
+### SolutionOutputType.ParticipationFactor *= 28*
+
+<a id="SolutionOutputType.PostOutput"></a>
+
+### SolutionOutputType.PostOutput *= 25*
+
+<a id="SolutionOutputType.PropertyChange"></a>
+
+### SolutionOutputType.PropertyChange *= 15*
+
+<a id="SolutionOutputType.RotationConvergence"></a>
+
+### SolutionOutputType.RotationConvergence *= 17*
+
+<a id="SolutionOutputType.SolutionStatistics"></a>
+
+### SolutionOutputType.SolutionStatistics *= 40*
+
+<a id="SolutionOutputType.SolutionTracking"></a>
+
+### SolutionOutputType.SolutionTracking *= 44*
+
+<a id="SolutionOutputType.SolveScriptOutput"></a>
+
+### SolutionOutputType.SolveScriptOutput *= 24*
+
+<a id="SolutionOutputType.SolverOutput"></a>
+
+### SolutionOutputType.SolverOutput *= 0*
+
+<a id="SolutionOutputType.StiffnessEnergy"></a>
+
+### SolutionOutputType.StiffnessEnergy *= 53*
+
+<a id="SolutionOutputType.TemperatureChange"></a>
+
+### SolutionOutputType.TemperatureChange *= 14*
+
+<a id="SolutionOutputType.TemperatureConvergence"></a>
+
+### SolutionOutputType.TemperatureConvergence *= 4*
+
+<a id="SolutionOutputType.Time"></a>
+
+### SolutionOutputType.Time *= 8*
+
+<a id="SolutionOutputType.TimeIncrement"></a>
+
+### SolutionOutputType.TimeIncrement *= 10*
+
+<a id="SolutionOutputType.TimeIncrementVSTime"></a>
+
+### SolutionOutputType.TimeIncrementVSTime *= 6*
 
 

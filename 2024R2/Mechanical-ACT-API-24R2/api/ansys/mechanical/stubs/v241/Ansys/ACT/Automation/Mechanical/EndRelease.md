@@ -1,6 +1,6 @@
 # `EndRelease`
 
-
+<a id="ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.EndRelease"></a>
 
 #### *class* ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.EndRelease
 
@@ -18,162 +18,56 @@ Defines a EndRelease.
 
 | Name | Description |
 |-----------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------|
-| [`Delete`](../../../../../v242/Ansys/ACT/Automation/Mechanical/EndRelease.md#EndRelease.Delete)                                   | Run the Delete action.                                                            |
-| [`GetChildren`](../../../../../v242/Ansys/ACT/Automation/Mechanical/EndRelease.md#id1)                                            | Gets the list of children, filtered by type.                                      |
-| [`GetChildren`](../../../../../v242/Ansys/ACT/Automation/Mechanical/EndRelease.md#id1)                                            | Gets the list of children, filtered by type.                                      |
-| [`AddComment`](../../../../../v242/Ansys/ACT/Automation/Mechanical/EndRelease.md#EndRelease.AddComment)                           | Creates a new child Comment.                                                      |
-| [`AddFigure`](../../../../../v242/Ansys/ACT/Automation/Mechanical/EndRelease.md#EndRelease.AddFigure)                             | Creates a new child Figure.                                                       |
-| [`AddImage`](../../../../../v242/Ansys/ACT/Automation/Mechanical/EndRelease.md#EndRelease.AddImage)                               | Creates a new child Image.                                                        |
-| [`Activate`](../../../../../v242/Ansys/ACT/Automation/Mechanical/EndRelease.md#EndRelease.Activate)                               | Activate the current object.                                                      |
-| [`CopyTo`](../../../../../v242/Ansys/ACT/Automation/Mechanical/EndRelease.md#EndRelease.CopyTo)                                   | Copies all visible properties from this object to another.                        |
-| [`Duplicate`](../../../../../v242/Ansys/ACT/Automation/Mechanical/EndRelease.md#EndRelease.Duplicate)                             | Creates a copy of the current DataModelObject.                                    |
-| [`GroupAllSimilarChildren`](../../../../../v242/Ansys/ACT/Automation/Mechanical/EndRelease.md#EndRelease.GroupAllSimilarChildren) | Run the GroupAllSimilarChildren action.                                           |
-| [`GroupSimilarObjects`](../../../../../v242/Ansys/ACT/Automation/Mechanical/EndRelease.md#EndRelease.GroupSimilarObjects)         | Run the GroupSimilarObjects action.                                               |
-| [`PropertyByName`](../../../../../v242/Ansys/ACT/Automation/Mechanical/EndRelease.md#EndRelease.PropertyByName)                   | Get a property by its unique name.                                                |
-| [`PropertyByAPIName`](../../../../../v242/Ansys/ACT/Automation/Mechanical/EndRelease.md#EndRelease.PropertyByAPIName)             | Get a property by its API name.                                                   |
-| [`CreateParameter`](../../../../../v242/Ansys/ACT/Automation/Mechanical/EndRelease.md#EndRelease.CreateParameter)                 | Creates a new parameter for a Property.                                           |
-| [`GetParameter`](../../../../../v242/Ansys/ACT/Automation/Mechanical/EndRelease.md#EndRelease.GetParameter)                       | Gets the parameter corresponding to the given property.                           |
-| [`RemoveParameter`](../../../../../v242/Ansys/ACT/Automation/Mechanical/EndRelease.md#EndRelease.RemoveParameter)                 | Removes the parameter from the parameter set corresponding to the given property. |
+| [`Activate`](#EndRelease.Activate)                               | Activate the current object.                                                      |
+| [`AddComment`](#EndRelease.AddComment)                           | Creates a new child Comment.                                                      |
+| [`AddFigure`](#EndRelease.AddFigure)                             | Creates a new child Figure.                                                       |
+| [`AddImage`](#EndRelease.AddImage)                               | Creates a new child Image.                                                        |
+| [`CopyTo`](#EndRelease.CopyTo)                                   | Copies all visible properties from this object to another.                        |
+| [`CreateParameter`](#EndRelease.CreateParameter)                 | Creates a new parameter for a Property.                                           |
+| [`Delete`](#EndRelease.Delete)                                   | Run the Delete action.                                                            |
+| [`Duplicate`](#EndRelease.Duplicate)                             | Creates a copy of the current DataModelObject.                                    |
+| [`GetChildren`](#EndRelease.GetChildren)                         | Gets the list of children, filtered by type.                                      |
+| [`GetParameter`](#EndRelease.GetParameter)                       | Gets the parameter corresponding to the given property.                           |
+| [`GroupAllSimilarChildren`](#EndRelease.GroupAllSimilarChildren) | Run the GroupAllSimilarChildren action.                                           |
+| [`GroupSimilarObjects`](#EndRelease.GroupSimilarObjects)         | Run the GroupSimilarObjects action.                                               |
+| [`PropertyByAPIName`](#EndRelease.PropertyByAPIName)             | Get a property by its API name.                                                   |
+| [`PropertyByName`](#EndRelease.PropertyByName)                   | Get a property by its unique name.                                                |
+| [`RemoveParameter`](#EndRelease.RemoveParameter)                 | Removes the parameter from the parameter set corresponding to the given property. |
 
 ### Properties
 
 | Name | Description |
 |-----------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------|
-| [`CoordinateSystem`](../../../../../v242/Ansys/ACT/Automation/Mechanical/EndRelease.md#EndRelease.CoordinateSystem)               | Gets or sets the Coordinate System.                           |
-| [`InternalObject`](../../../../../v242/Ansys/ACT/Automation/Mechanical/EndRelease.md#id0)                                         | Gets the internal object. For advanced usage only.            |
-| [`Behavior`](../../../../../v242/Ansys/ACT/Automation/Mechanical/EndRelease.md#EndRelease.Behavior)                               | Gets or sets the Behavior.                                    |
-| [`RotationX`](../../../../../v242/Ansys/ACT/Automation/Mechanical/EndRelease.md#EndRelease.RotationX)                             | Gets or sets the RotationX.                                   |
-| [`RotationY`](../../../../../v242/Ansys/ACT/Automation/Mechanical/EndRelease.md#EndRelease.RotationY)                             | Gets or sets the RotationY.                                   |
-| [`RotationZ`](../../../../../v242/Ansys/ACT/Automation/Mechanical/EndRelease.md#EndRelease.RotationZ)                             | Gets or sets the RotationZ.                                   |
-| [`TranslationX`](../../../../../v242/Ansys/ACT/Automation/Mechanical/EndRelease.md#EndRelease.TranslationX)                       | Gets or sets the TranslationX.                                |
-| [`TranslationY`](../../../../../v242/Ansys/ACT/Automation/Mechanical/EndRelease.md#EndRelease.TranslationY)                       | Gets or sets the TranslationY.                                |
-| [`TranslationZ`](../../../../../v242/Ansys/ACT/Automation/Mechanical/EndRelease.md#EndRelease.TranslationZ)                       | Gets or sets the TranslationZ.                                |
-| [`IndependentEdges`](../../../../../v242/Ansys/ACT/Automation/Mechanical/EndRelease.md#EndRelease.IndependentEdges)               | Gets or sets the IndependentEdges.                            |
-| [`Suppressed`](../../../../../v242/Ansys/ACT/Automation/Mechanical/EndRelease.md#EndRelease.Suppressed)                           | Gets or sets the Suppressed.                                  |
-| [`EdgeLocation`](../../../../../v242/Ansys/ACT/Automation/Mechanical/EndRelease.md#EndRelease.EdgeLocation)                       | Gets or sets the EdgeLocation.                                |
-| [`VertexLocation`](../../../../../v242/Ansys/ACT/Automation/Mechanical/EndRelease.md#EndRelease.VertexLocation)                   | Gets or sets the VertexLocation.                              |
-| [`DataModelObjectCategory`](../../../../../v242/Ansys/ACT/Automation/Mechanical/EndRelease.md#EndRelease.DataModelObjectCategory) | Gets the current DataModelObject's category.                  |
-| [`Children`](../../../../../v242/Ansys/ACT/Automation/Mechanical/EndRelease.md#EndRelease.Children)                               | Gets the list of children.                                    |
-| [`Comments`](../../../../../v242/Ansys/ACT/Automation/Mechanical/EndRelease.md#EndRelease.Comments)                               | Gets the list of associated comments.                         |
-| [`Figures`](../../../../../v242/Ansys/ACT/Automation/Mechanical/EndRelease.md#EndRelease.Figures)                                 | Gets the list of associated figures.                          |
-| [`Images`](../../../../../v242/Ansys/ACT/Automation/Mechanical/EndRelease.md#EndRelease.Images)                                   | Gets the list of associated images.                           |
-| [`InternalObject`](../../../../../v242/Ansys/ACT/Automation/Mechanical/EndRelease.md#id0)                                         | Gets the internal object. For advanced usage only.            |
-| [`Properties`](../../../../../v242/Ansys/ACT/Automation/Mechanical/EndRelease.md#EndRelease.Properties)                           | Gets the list of properties for this object.                  |
-| [`VisibleProperties`](../../../../../v242/Ansys/ACT/Automation/Mechanical/EndRelease.md#EndRelease.VisibleProperties)             | Gets the list of properties that are visible for this object. |
+| [`Behavior`](#EndRelease.Behavior)                               | Gets or sets the Behavior.                                    |
+| [`Children`](#EndRelease.Children)                               | Gets the list of children.                                    |
+| [`Comments`](#EndRelease.Comments)                               | Gets the list of associated comments.                         |
+| [`CoordinateSystem`](#EndRelease.CoordinateSystem)               | Gets or sets the Coordinate System.                           |
+| [`DataModelObjectCategory`](#EndRelease.DataModelObjectCategory) | Gets the current DataModelObject’s category.                  |
+| [`EdgeLocation`](#EndRelease.EdgeLocation)                       | Gets or sets the EdgeLocation.                                |
+| [`Figures`](#EndRelease.Figures)                                 | Gets the list of associated figures.                          |
+| [`Images`](#EndRelease.Images)                                   | Gets the list of associated images.                           |
+| [`IndependentEdges`](#EndRelease.IndependentEdges)               | Gets or sets the IndependentEdges.                            |
+| [`InternalObject`](#EndRelease.InternalObject)                   | Gets the internal object. For advanced usage only.            |
+| [`Properties`](#EndRelease.Properties)                           | Gets the list of properties for this object.                  |
+| [`RotationX`](#EndRelease.RotationX)                             | Gets or sets the RotationX.                                   |
+| [`RotationY`](#EndRelease.RotationY)                             | Gets or sets the RotationY.                                   |
+| [`RotationZ`](#EndRelease.RotationZ)                             | Gets or sets the RotationZ.                                   |
+| [`Suppressed`](#EndRelease.Suppressed)                           | Gets or sets the Suppressed.                                  |
+| [`TranslationX`](#EndRelease.TranslationX)                       | Gets or sets the TranslationX.                                |
+| [`TranslationY`](#EndRelease.TranslationY)                       | Gets or sets the TranslationY.                                |
+| [`TranslationZ`](#EndRelease.TranslationZ)                       | Gets or sets the TranslationZ.                                |
+| [`VertexLocation`](#EndRelease.VertexLocation)                   | Gets or sets the VertexLocation.                              |
+| [`VisibleProperties`](#EndRelease.VisibleProperties)             | Gets the list of properties that are visible for this object. |
 
 <a id="property-detail"></a>
 
 ## Property detail
 
-<a id="EndRelease.CoordinateSystem"></a>
-
-### *property* EndRelease.CoordinateSystem *: Ansys.Mechanical.DataModel.Interfaces.ICoordinateSystemSelection | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the Coordinate System.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="EndRelease.InternalObject"></a>
-
-### *property* EndRelease.InternalObject *: Ansys.Common.Interop.DSObjectsAuto.IDSBeamEndReleaseAuto | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets the internal object. For advanced usage only.
-
-<!-- !! processed by numpydoc !! -->
-
 <a id="EndRelease.Behavior"></a>
 
-### *property* EndRelease.Behavior *: [Ansys.Mechanical.DataModel.Enums.BeamEndReleaseBehavior](../../../Mechanical/DataModel/Enums/BeamEndReleaseBehavior.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.BeamEndReleaseBehavior) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* EndRelease.Behavior *: [Ansys.Mechanical.DataModel.Enums.BeamEndReleaseBehavior](../../../../../v242/Ansys/Mechanical/DataModel/Enums/BeamEndReleaseBehavior.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.BeamEndReleaseBehavior) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Behavior.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="EndRelease.RotationX"></a>
-
-### *property* EndRelease.RotationX *: [Ansys.Mechanical.DataModel.Enums.FixedOrFree](../../../Mechanical/DataModel/Enums/FixedOrFree.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.FixedOrFree) | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the RotationX.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="EndRelease.RotationY"></a>
-
-### *property* EndRelease.RotationY *: [Ansys.Mechanical.DataModel.Enums.FixedOrFree](../../../Mechanical/DataModel/Enums/FixedOrFree.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.FixedOrFree) | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the RotationY.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="EndRelease.RotationZ"></a>
-
-### *property* EndRelease.RotationZ *: [Ansys.Mechanical.DataModel.Enums.FixedOrFree](../../../Mechanical/DataModel/Enums/FixedOrFree.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.FixedOrFree) | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the RotationZ.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="EndRelease.TranslationX"></a>
-
-### *property* EndRelease.TranslationX *: [Ansys.Mechanical.DataModel.Enums.FixedOrFree](../../../Mechanical/DataModel/Enums/FixedOrFree.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.FixedOrFree) | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the TranslationX.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="EndRelease.TranslationY"></a>
-
-### *property* EndRelease.TranslationY *: [Ansys.Mechanical.DataModel.Enums.FixedOrFree](../../../Mechanical/DataModel/Enums/FixedOrFree.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.FixedOrFree) | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the TranslationY.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="EndRelease.TranslationZ"></a>
-
-### *property* EndRelease.TranslationZ *: [Ansys.Mechanical.DataModel.Enums.FixedOrFree](../../../Mechanical/DataModel/Enums/FixedOrFree.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.FixedOrFree) | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the TranslationZ.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="EndRelease.IndependentEdges"></a>
-
-### *property* EndRelease.IndependentEdges *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the IndependentEdges.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="EndRelease.Suppressed"></a>
-
-### *property* EndRelease.Suppressed *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the Suppressed.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="EndRelease.EdgeLocation"></a>
-
-### *property* EndRelease.EdgeLocation *: Ansys.ACT.Interfaces.Common.ISelectionInfo | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the EdgeLocation.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="EndRelease.VertexLocation"></a>
-
-### *property* EndRelease.VertexLocation *: Ansys.ACT.Interfaces.Common.ISelectionInfo | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the VertexLocation.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="EndRelease.DataModelObjectCategory"></a>
-
-### *property* EndRelease.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets the current DataModelObject's category.
 
 <!-- !! processed by numpydoc !! -->
 
@@ -193,6 +87,30 @@ Gets the list of associated comments.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="EndRelease.CoordinateSystem"></a>
+
+### *property* EndRelease.CoordinateSystem *: Ansys.Mechanical.DataModel.Interfaces.ICoordinateSystemSelection | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the Coordinate System.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="EndRelease.DataModelObjectCategory"></a>
+
+### *property* EndRelease.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../v242/Ansys/Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets the current DataModelObject’s category.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="EndRelease.EdgeLocation"></a>
+
+### *property* EndRelease.EdgeLocation *: Ansys.ACT.Interfaces.Common.ISelectionInfo | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the EdgeLocation.
+
+<!-- !! processed by numpydoc !! -->
+
 <a id="EndRelease.Figures"></a>
 
 ### *property* EndRelease.Figures *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Figure](Figure.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
@@ -209,9 +127,17 @@ Gets the list of associated images.
 
 <!-- !! processed by numpydoc !! -->
 
-<a id="id0"></a>
+<a id="EndRelease.IndependentEdges"></a>
 
-### *property* EndRelease.InternalObject *: System.Object | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* EndRelease.IndependentEdges *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the IndependentEdges.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="EndRelease.InternalObject"></a>
+
+### *property* EndRelease.InternalObject *: Ansys.Common.Interop.DSObjectsAuto.IDSBeamEndReleaseAuto | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the internal object. For advanced usage only.
 
@@ -222,6 +148,70 @@ Gets the internal object. For advanced usage only.
 ### *property* EndRelease.Properties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of properties for this object.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="EndRelease.RotationX"></a>
+
+### *property* EndRelease.RotationX *: [Ansys.Mechanical.DataModel.Enums.FixedOrFree](../../../../../v242/Ansys/Mechanical/DataModel/Enums/FixedOrFree.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.FixedOrFree) | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the RotationX.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="EndRelease.RotationY"></a>
+
+### *property* EndRelease.RotationY *: [Ansys.Mechanical.DataModel.Enums.FixedOrFree](../../../../../v242/Ansys/Mechanical/DataModel/Enums/FixedOrFree.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.FixedOrFree) | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the RotationY.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="EndRelease.RotationZ"></a>
+
+### *property* EndRelease.RotationZ *: [Ansys.Mechanical.DataModel.Enums.FixedOrFree](../../../../../v242/Ansys/Mechanical/DataModel/Enums/FixedOrFree.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.FixedOrFree) | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the RotationZ.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="EndRelease.Suppressed"></a>
+
+### *property* EndRelease.Suppressed *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the Suppressed.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="EndRelease.TranslationX"></a>
+
+### *property* EndRelease.TranslationX *: [Ansys.Mechanical.DataModel.Enums.FixedOrFree](../../../../../v242/Ansys/Mechanical/DataModel/Enums/FixedOrFree.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.FixedOrFree) | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the TranslationX.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="EndRelease.TranslationY"></a>
+
+### *property* EndRelease.TranslationY *: [Ansys.Mechanical.DataModel.Enums.FixedOrFree](../../../../../v242/Ansys/Mechanical/DataModel/Enums/FixedOrFree.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.FixedOrFree) | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the TranslationY.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="EndRelease.TranslationZ"></a>
+
+### *property* EndRelease.TranslationZ *: [Ansys.Mechanical.DataModel.Enums.FixedOrFree](../../../../../v242/Ansys/Mechanical/DataModel/Enums/FixedOrFree.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.FixedOrFree) | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the TranslationZ.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="EndRelease.VertexLocation"></a>
+
+### *property* EndRelease.VertexLocation *: Ansys.ACT.Interfaces.Common.ISelectionInfo | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the VertexLocation.
 
 <!-- !! processed by numpydoc !! -->
 
@@ -237,27 +227,11 @@ Gets the list of properties that are visible for this object.
 
 ## Method detail
 
-<a id="EndRelease.Delete"></a>
+<a id="EndRelease.Activate"></a>
 
-### EndRelease.Delete()
+### EndRelease.Activate()
 
-Run the Delete action.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="EndRelease.GetChildren"></a>
-
-### EndRelease.GetChildren(recurses: System.Boolean, children: System.Collections.Generic.IList[ChildrenType])
-
-Gets the list of children, filtered by type.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="id1"></a>
-
-### EndRelease.GetChildren(category: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory), recurses: System.Boolean, children: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject])
-
-Gets the list of children, filtered by type.
+Activate the current object.
 
 <!-- !! processed by numpydoc !! -->
 
@@ -281,17 +255,11 @@ Creates a new child Figure.
 
 ### EndRelease.AddImage(filePath: System.String)
 
+```text
 Creates a new child Image.
 If a filePath is provided, the image will be loaded from that file,
 if not, the image will be a screen capture of the Geometry window.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="EndRelease.Activate"></a>
-
-### EndRelease.Activate()
-
-Activate the current object.
+```
 
 <!-- !! processed by numpydoc !! -->
 
@@ -303,11 +271,43 @@ Copies all visible properties from this object to another.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="EndRelease.CreateParameter"></a>
+
+### EndRelease.CreateParameter(propName: System.String)
+
+Creates a new parameter for a Property.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="EndRelease.Delete"></a>
+
+### EndRelease.Delete()
+
+Run the Delete action.
+
+<!-- !! processed by numpydoc !! -->
+
 <a id="EndRelease.Duplicate"></a>
 
 ### EndRelease.Duplicate()
 
 Creates a copy of the current DataModelObject.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="EndRelease.GetChildren"></a>
+
+### EndRelease.GetChildren(recurses: System.Boolean, children: System.Collections.Generic.IList[ChildrenType])
+
+Gets the list of children, filtered by type.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="EndRelease.GetParameter"></a>
+
+### EndRelease.GetParameter(propName: System.String)
+
+Gets the parameter corresponding to the given property.
 
 <!-- !! processed by numpydoc !! -->
 
@@ -327,36 +327,22 @@ Run the GroupSimilarObjects action.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="EndRelease.PropertyByAPIName"></a>
+
+### EndRelease.PropertyByAPIName(name: System.String)
+
+```text
+Get a property by its API name.
+If multiple properties have the same API Name, only the first property with that name will be returned.
+```
+
+<!-- !! processed by numpydoc !! -->
+
 <a id="EndRelease.PropertyByName"></a>
 
 ### EndRelease.PropertyByName(name: System.String)
 
 Get a property by its unique name.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="EndRelease.PropertyByAPIName"></a>
-
-### EndRelease.PropertyByAPIName(name: System.String)
-
-Get a property by its API name.
-If multiple properties have the same API Name, only the first property with that name will be returned.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="EndRelease.CreateParameter"></a>
-
-### EndRelease.CreateParameter(propName: System.String)
-
-Creates a new parameter for a Property.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="EndRelease.GetParameter"></a>
-
-### EndRelease.GetParameter(propName: System.String)
-
-Gets the parameter corresponding to the given property.
 
 <!-- !! processed by numpydoc !! -->
 

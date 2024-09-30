@@ -1,6 +1,6 @@
 # `InitialConditionsType`
 
-
+<a id="ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.InitialConditionsType"></a>
 
 #### *class* ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.InitialConditionsType
 
@@ -17,12 +17,12 @@ Specifies the InitialConditionsType.
 ### Attributes
 
 | Name |
-| ------------------------------------------------------------- |
+| ------------------------------------------------------------------------------------------------------------------------------------------ |
 | [`Acceleration`](#InitialConditionsType.Acceleration) |
+| [`AngularVelocity`](#InitialConditionsType.AngularVelocity) |
 | [`AtRest`](#InitialConditionsType.AtRest) |
 | [`DropHeight`](#InitialConditionsType.DropHeight) |
 | [`Environment`](#InitialConditionsType.Environment) |
-| [`AngularVelocity`](#InitialConditionsType.AngularVelocity) |
 | [`Unknown`](#InitialConditionsType.Unknown) |
 | [`Velocity`](#InitialConditionsType.Velocity) |
 
@@ -33,6 +33,10 @@ Specifies the InitialConditionsType.
 <a id="InitialConditionsType.Acceleration"></a>
 
 ### InitialConditionsType.Acceleration *= 3*
+
+<a id="InitialConditionsType.AngularVelocity"></a>
+
+### InitialConditionsType.AngularVelocity *= 4*
 
 <a id="InitialConditionsType.AtRest"></a>
 
@@ -45,10 +49,6 @@ Specifies the InitialConditionsType.
 <a id="InitialConditionsType.Environment"></a>
 
 ### InitialConditionsType.Environment *= 5*
-
-<a id="InitialConditionsType.AngularVelocity"></a>
-
-### InitialConditionsType.AngularVelocity *= 4*
 
 <a id="InitialConditionsType.Unknown"></a>
 

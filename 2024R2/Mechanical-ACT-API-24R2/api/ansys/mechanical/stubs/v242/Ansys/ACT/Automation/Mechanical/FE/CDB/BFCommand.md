@@ -1,6 +1,6 @@
 # `BFCommand`
 
-
+<a id="ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.FE.CDB.BFCommand"></a>
 
 #### *class* ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.FE.CDB.BFCommand
 
@@ -18,22 +18,22 @@ Represents a BF command.
 
 | Name | Description |
 |-----------------------------------|----------------------------|
-| [`Node`](#BFCommand.Node)         | Gets the node number.      |
+| [`Index`](#BFCommand.Index)       | Gets the command index.    |
 | [`Lab`](#BFCommand.Lab)           | Gets the label.            |
+| [`Name`](#BFCommand.Name)         | Gets the command name.     |
+| [`Node`](#BFCommand.Node)         | Gets the node number.      |
 | [`ValCount`](#BFCommand.ValCount) | Gets the number of values. |
 | [`Values`](#BFCommand.Values)     | Gets the values.           |
-| [`Name`](#BFCommand.Name)         | Gets the command name.     |
-| [`Index`](#BFCommand.Index)       | Gets the command index.    |
 
 <a id="property-detail"></a>
 
 ## Property detail
 
-<a id="BFCommand.Node"></a>
+<a id="BFCommand.Index"></a>
 
-### *property* BFCommand.Node *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* BFCommand.Index *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets the node number.
+Gets the command index.
 
 <!-- !! processed by numpydoc !! -->
 
@@ -42,6 +42,22 @@ Gets the node number.
 ### *property* BFCommand.Lab *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the label.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="BFCommand.Name"></a>
+
+### *property* BFCommand.Name *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets the command name.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="BFCommand.Node"></a>
+
+### *property* BFCommand.Node *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets the node number.
 
 <!-- !! processed by numpydoc !! -->
 
@@ -58,22 +74,6 @@ Gets the number of values.
 ### *property* BFCommand.Values *: System.Collections.Generic.IReadOnlyList[System.Object] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the values.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="BFCommand.Name"></a>
-
-### *property* BFCommand.Name *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets the command name.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="BFCommand.Index"></a>
-
-### *property* BFCommand.Index *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets the command index.
 
 <!-- !! processed by numpydoc !! -->
 

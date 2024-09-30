@@ -1,10 +1,12 @@
 # `H5ImportSettings`
 
-
+<a id="ansys.mechanical.stubs.v242.Ansys.Mechanical.ExternalData.H5ImportSettings"></a>
 
 #### *class* ansys.mechanical.stubs.v242.Ansys.Mechanical.ExternalData.H5ImportSettings
 
 Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
+
+T:Ansys.Mechanical.ExternalData.H5ImportSettings defines how to import external data from a H5 file.
 
 <!-- !! processed by numpydoc !! -->
 
@@ -24,7 +26,7 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 <a id="H5ImportSettings.Format"></a>
 
-### *property* H5ImportSettings.Format *: [Ansys.Mechanical.DataModel.MechanicalEnums.ExternalData.ImportFormat](../../../../v241/Ansys/Mechanical/DataModel/MechanicalEnums/ExternalData/ImportFormat.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.MechanicalEnums.ExternalData.ImportFormat) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* H5ImportSettings.Format *: [Ansys.Mechanical.DataModel.MechanicalEnums.ExternalData.ImportFormat](../DataModel/MechanicalEnums/ExternalData/ImportFormat.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.MechanicalEnums.ExternalData.ImportFormat) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the existing corresponding format.
 

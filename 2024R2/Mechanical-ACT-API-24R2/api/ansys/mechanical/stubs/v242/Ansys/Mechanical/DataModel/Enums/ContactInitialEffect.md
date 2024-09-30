@@ -1,6 +1,6 @@
 # `ContactInitialEffect`
 
-
+<a id="ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.ContactInitialEffect"></a>
 
 #### *class* ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.ContactInitialEffect
 
@@ -17,14 +17,14 @@ Specifies the ContactInitialEffect.
 ### Attributes
 
 | Name |
-| ------------------------------------------------------------------------------------------------------------------ |
+| ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | [`AddOffsetNoRamping`](#ContactInitialEffect.AddOffsetNoRamping) |
 | [`AddOffsetRampedEffects`](#ContactInitialEffect.AddOffsetRampedEffects) |
 | [`AdjustToTouch`](#ContactInitialEffect.AdjustToTouch) |
-| [`OffsetOnlyNoRampingIgnoreInitialStatus`](#ContactInitialEffect.OffsetOnlyNoRampingIgnoreInitialStatus) |
-| [`OffsetOnlyRampedEffectsIgnoreInitialStatus`](#ContactInitialEffect.OffsetOnlyRampedEffectsIgnoreInitialStatus) |
 | [`OffsetOnlyNoRamping`](#ContactInitialEffect.OffsetOnlyNoRamping) |
+| [`OffsetOnlyNoRampingIgnoreInitialStatus`](#ContactInitialEffect.OffsetOnlyNoRampingIgnoreInitialStatus) |
 | [`OffsetOnlyRampedEffects`](#ContactInitialEffect.OffsetOnlyRampedEffects) |
+| [`OffsetOnlyRampedEffectsIgnoreInitialStatus`](#ContactInitialEffect.OffsetOnlyRampedEffectsIgnoreInitialStatus) |
 
 <a id="attribute-detail"></a>
 
@@ -42,20 +42,20 @@ Specifies the ContactInitialEffect.
 
 ### ContactInitialEffect.AdjustToTouch *= 1*
 
-<a id="ContactInitialEffect.OffsetOnlyNoRampingIgnoreInitialStatus"></a>
-
-### ContactInitialEffect.OffsetOnlyNoRampingIgnoreInitialStatus *= 9*
-
-<a id="ContactInitialEffect.OffsetOnlyRampedEffectsIgnoreInitialStatus"></a>
-
-### ContactInitialEffect.OffsetOnlyRampedEffectsIgnoreInitialStatus *= 8*
-
 <a id="ContactInitialEffect.OffsetOnlyNoRamping"></a>
 
 ### ContactInitialEffect.OffsetOnlyNoRamping *= 7*
 
+<a id="ContactInitialEffect.OffsetOnlyNoRampingIgnoreInitialStatus"></a>
+
+### ContactInitialEffect.OffsetOnlyNoRampingIgnoreInitialStatus *= 9*
+
 <a id="ContactInitialEffect.OffsetOnlyRampedEffects"></a>
 
 ### ContactInitialEffect.OffsetOnlyRampedEffects *= 6*
+
+<a id="ContactInitialEffect.OffsetOnlyRampedEffectsIgnoreInitialStatus"></a>
+
+### ContactInitialEffect.OffsetOnlyRampedEffectsIgnoreInitialStatus *= 8*
 
 

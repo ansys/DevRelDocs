@@ -1,6 +1,6 @@
 # `SymmetryManufacturingConstraint`
 
-
+<a id="ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.SymmetryManufacturingConstraint"></a>
 
 #### *class* ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.SymmetryManufacturingConstraint
 
@@ -17,104 +17,46 @@ Defines a SymmetryManufacturingConstraint.
 ### Methods
 
 | Name | Description |
-|-----------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------|
-| [`RenameBasedOnDefinition`](#SymmetryManufacturingConstraint.RenameBasedOnDefinition)   | Run the RenameBasedOnDefinition action.                                           |
-| [`Delete`](#SymmetryManufacturingConstraint.Delete)                                     | Run the Delete action.                                                            |
-| [`GetChildren`](#id1)                                                                   | Gets the list of children, filtered by type.                                      |
-| [`GetChildren`](#id1)                                                                   | Gets the list of children, filtered by type.                                      |
-| [`Activate`](#SymmetryManufacturingConstraint.Activate)                                 | Activate the current object.                                                      |
-| [`CopyTo`](#SymmetryManufacturingConstraint.CopyTo)                                     | Copies all visible properties from this object to another.                        |
-| [`Duplicate`](#SymmetryManufacturingConstraint.Duplicate)                               | Creates a copy of the current DataModelObject.                                    |
-| [`GroupAllSimilarChildren`](#SymmetryManufacturingConstraint.GroupAllSimilarChildren)   | Run the GroupAllSimilarChildren action.                                           |
-| [`GroupSimilarObjects`](#SymmetryManufacturingConstraint.GroupSimilarObjects)           | Run the GroupSimilarObjects action.                                               |
-| [`PropertyByName`](#SymmetryManufacturingConstraint.PropertyByName)                     | Get a property by its unique name.                                                |
-| [`PropertyByAPIName`](#SymmetryManufacturingConstraint.PropertyByAPIName)               | Get a property by its API name.                                                   |
-| [`CreateParameter`](#SymmetryManufacturingConstraint.CreateParameter)                   | Creates a new parameter for a Property.                                           |
-| [`GetParameter`](#SymmetryManufacturingConstraint.GetParameter)                         | Gets the parameter corresponding to the given property.                           |
-| [`RemoveParameter`](#SymmetryManufacturingConstraint.RemoveParameter)                   | Removes the parameter from the parameter set corresponding to the given property. |
+|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------|
+| [`Activate`](#SymmetryManufacturingConstraint.Activate)                               | Activate the current object.                                                      |
+| [`CopyTo`](#SymmetryManufacturingConstraint.CopyTo)                                   | Copies all visible properties from this object to another.                        |
+| [`CreateParameter`](#SymmetryManufacturingConstraint.CreateParameter)                 | Creates a new parameter for a Property.                                           |
+| [`Delete`](#SymmetryManufacturingConstraint.Delete)                                   | Run the Delete action.                                                            |
+| [`Duplicate`](#SymmetryManufacturingConstraint.Duplicate)                             | Creates a copy of the current DataModelObject.                                    |
+| [`GetChildren`](#SymmetryManufacturingConstraint.GetChildren)                         | Gets the list of children, filtered by type.                                      |
+| [`GetParameter`](#SymmetryManufacturingConstraint.GetParameter)                       | Gets the parameter corresponding to the given property.                           |
+| [`GroupAllSimilarChildren`](#SymmetryManufacturingConstraint.GroupAllSimilarChildren) | Run the GroupAllSimilarChildren action.                                           |
+| [`GroupSimilarObjects`](#SymmetryManufacturingConstraint.GroupSimilarObjects)         | Run the GroupSimilarObjects action.                                               |
+| [`PropertyByAPIName`](#SymmetryManufacturingConstraint.PropertyByAPIName)             | Get a property by its API name.                                                   |
+| [`PropertyByName`](#SymmetryManufacturingConstraint.PropertyByName)                   | Get a property by its unique name.                                                |
+| [`RemoveParameter`](#SymmetryManufacturingConstraint.RemoveParameter)                 | Removes the parameter from the parameter set corresponding to the given property. |
+| [`RenameBasedOnDefinition`](#SymmetryManufacturingConstraint.RenameBasedOnDefinition) | Run the RenameBasedOnDefinition action.                                           |
 
 ### Properties
 
 | Name | Description |
-|---------------------------------------------------------------------------------------|---------------------------------------------------------------|
-| [`InternalObject`](#id0)                                                              | Gets the internal object. For advanced usage only.            |
+|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------|
 | [`Axis`](#SymmetryManufacturingConstraint.Axis)                                       | Gets or sets the Axis.                                        |
-| [`ScopingMethod`](#SymmetryManufacturingConstraint.ScopingMethod)                     | Gets or sets the ScopingMethod.                               |
-| [`CoordinateSystem`](#SymmetryManufacturingConstraint.CoordinateSystem)               | Gets or sets the CoordinateSystem.                            |
-| [`Location`](#SymmetryManufacturingConstraint.Location)                               | Gets or sets the Location.                                    |
-| [`DataModelObjectCategory`](#SymmetryManufacturingConstraint.DataModelObjectCategory) | Gets the current DataModelObject's category.                  |
-| [`Suppressed`](#SymmetryManufacturingConstraint.Suppressed)                           | Gets or sets the Suppressed.                                  |
-| [`Selection`](#SymmetryManufacturingConstraint.Selection)                             | Gets or sets the Selection.                                   |
 | [`Children`](#SymmetryManufacturingConstraint.Children)                               | Gets the list of children.                                    |
-| [`InternalObject`](#id0)                                                              | Gets the internal object. For advanced usage only.            |
+| [`CoordinateSystem`](#SymmetryManufacturingConstraint.CoordinateSystem)               | Gets or sets the CoordinateSystem.                            |
+| [`DataModelObjectCategory`](#SymmetryManufacturingConstraint.DataModelObjectCategory) | Gets the current DataModelObject’s category.                  |
+| [`InternalObject`](#SymmetryManufacturingConstraint.InternalObject)                   | Gets the internal object. For advanced usage only.            |
+| [`Location`](#SymmetryManufacturingConstraint.Location)                               | Gets or sets the Location.                                    |
 | [`Properties`](#SymmetryManufacturingConstraint.Properties)                           | Gets the list of properties for this object.                  |
+| [`ScopingMethod`](#SymmetryManufacturingConstraint.ScopingMethod)                     | Gets or sets the ScopingMethod.                               |
+| [`Selection`](#SymmetryManufacturingConstraint.Selection)                             | Gets or sets the Selection.                                   |
+| [`Suppressed`](#SymmetryManufacturingConstraint.Suppressed)                           | Gets or sets the Suppressed.                                  |
 | [`VisibleProperties`](#SymmetryManufacturingConstraint.VisibleProperties)             | Gets the list of properties that are visible for this object. |
 
 <a id="property-detail"></a>
 
 ## Property detail
 
-<a id="SymmetryManufacturingConstraint.InternalObject"></a>
-
-### *property* SymmetryManufacturingConstraint.InternalObject *: Ansys.Common.Interop.DSObjectsAuto.IDSTopoConstraintAuto | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets the internal object. For advanced usage only.
-
-<!-- !! processed by numpydoc !! -->
-
 <a id="SymmetryManufacturingConstraint.Axis"></a>
 
-### *property* SymmetryManufacturingConstraint.Axis *: [Ansys.Mechanical.DataModel.Enums.CoordinateSystemAxisType](../../../../../v241/Ansys/Mechanical/DataModel/Enums/CoordinateSystemAxisType.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.CoordinateSystemAxisType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* SymmetryManufacturingConstraint.Axis *: [Ansys.Mechanical.DataModel.Enums.CoordinateSystemAxisType](../../../Mechanical/DataModel/Enums/CoordinateSystemAxisType.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.CoordinateSystemAxisType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Axis.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="SymmetryManufacturingConstraint.ScopingMethod"></a>
-
-### *property* SymmetryManufacturingConstraint.ScopingMethod *: [Ansys.Mechanical.DataModel.Enums.GeometryDefineByType](../../../../../v241/Ansys/Mechanical/DataModel/Enums/GeometryDefineByType.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.GeometryDefineByType) | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the ScopingMethod.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="SymmetryManufacturingConstraint.CoordinateSystem"></a>
-
-### *property* SymmetryManufacturingConstraint.CoordinateSystem *: [Ansys.ACT.Automation.Mechanical.CoordinateSystem](../../../../../v241/Ansys/ACT/Automation/Mechanical/CoordinateSystem.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.CoordinateSystem) | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the CoordinateSystem.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="SymmetryManufacturingConstraint.Location"></a>
-
-### *property* SymmetryManufacturingConstraint.Location *: Ansys.ACT.Interfaces.Common.ISelectionInfo | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the Location.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="SymmetryManufacturingConstraint.DataModelObjectCategory"></a>
-
-### *property* SymmetryManufacturingConstraint.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../v241/Ansys/Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets the current DataModelObject's category.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="SymmetryManufacturingConstraint.Suppressed"></a>
-
-### *property* SymmetryManufacturingConstraint.Suppressed *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the Suppressed.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="SymmetryManufacturingConstraint.Selection"></a>
-
-### *property* SymmetryManufacturingConstraint.Selection *: [Ansys.ACT.Automation.Mechanical.OptimizationRegion](../../../../../v241/Ansys/ACT/Automation/Mechanical/OptimizationRegion.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.OptimizationRegion) | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the Selection.
 
 <!-- !! processed by numpydoc !! -->
 
@@ -126,11 +68,35 @@ Gets the list of children.
 
 <!-- !! processed by numpydoc !! -->
 
-<a id="id0"></a>
+<a id="SymmetryManufacturingConstraint.CoordinateSystem"></a>
 
-### *property* SymmetryManufacturingConstraint.InternalObject *: System.Object | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* SymmetryManufacturingConstraint.CoordinateSystem *: [Ansys.ACT.Automation.Mechanical.CoordinateSystem](../../../../../v241/Ansys/ACT/Automation/Mechanical/CoordinateSystem.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.CoordinateSystem) | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the CoordinateSystem.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="SymmetryManufacturingConstraint.DataModelObjectCategory"></a>
+
+### *property* SymmetryManufacturingConstraint.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets the current DataModelObject’s category.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="SymmetryManufacturingConstraint.InternalObject"></a>
+
+### *property* SymmetryManufacturingConstraint.InternalObject *: Ansys.Common.Interop.DSObjectsAuto.IDSTopoConstraintAuto | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the internal object. For advanced usage only.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="SymmetryManufacturingConstraint.Location"></a>
+
+### *property* SymmetryManufacturingConstraint.Location *: Ansys.ACT.Interfaces.Common.ISelectionInfo | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the Location.
 
 <!-- !! processed by numpydoc !! -->
 
@@ -139,6 +105,30 @@ Gets the internal object. For advanced usage only.
 ### *property* SymmetryManufacturingConstraint.Properties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of properties for this object.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="SymmetryManufacturingConstraint.ScopingMethod"></a>
+
+### *property* SymmetryManufacturingConstraint.ScopingMethod *: [Ansys.Mechanical.DataModel.Enums.GeometryDefineByType](../../../Mechanical/DataModel/Enums/GeometryDefineByType.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.GeometryDefineByType) | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the ScopingMethod.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="SymmetryManufacturingConstraint.Selection"></a>
+
+### *property* SymmetryManufacturingConstraint.Selection *: [Ansys.ACT.Automation.Mechanical.OptimizationRegion](OptimizationRegion.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.OptimizationRegion) | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the Selection.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="SymmetryManufacturingConstraint.Suppressed"></a>
+
+### *property* SymmetryManufacturingConstraint.Suppressed *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the Suppressed.
 
 <!-- !! processed by numpydoc !! -->
 
@@ -153,38 +143,6 @@ Gets the list of properties that are visible for this object.
 <a id="method-detail"></a>
 
 ## Method detail
-
-<a id="SymmetryManufacturingConstraint.RenameBasedOnDefinition"></a>
-
-### SymmetryManufacturingConstraint.RenameBasedOnDefinition()
-
-Run the RenameBasedOnDefinition action.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="SymmetryManufacturingConstraint.Delete"></a>
-
-### SymmetryManufacturingConstraint.Delete()
-
-Run the Delete action.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="SymmetryManufacturingConstraint.GetChildren"></a>
-
-### SymmetryManufacturingConstraint.GetChildren(recurses: System.Boolean, children: System.Collections.Generic.IList[ChildrenType])
-
-Gets the list of children, filtered by type.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="id1"></a>
-
-### SymmetryManufacturingConstraint.GetChildren(category: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../v241/Ansys/Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory), recurses: System.Boolean, children: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject])
-
-Gets the list of children, filtered by type.
-
-<!-- !! processed by numpydoc !! -->
 
 <a id="SymmetryManufacturingConstraint.Activate"></a>
 
@@ -202,11 +160,43 @@ Copies all visible properties from this object to another.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="SymmetryManufacturingConstraint.CreateParameter"></a>
+
+### SymmetryManufacturingConstraint.CreateParameter(propName: System.String)
+
+Creates a new parameter for a Property.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="SymmetryManufacturingConstraint.Delete"></a>
+
+### SymmetryManufacturingConstraint.Delete()
+
+Run the Delete action.
+
+<!-- !! processed by numpydoc !! -->
+
 <a id="SymmetryManufacturingConstraint.Duplicate"></a>
 
 ### SymmetryManufacturingConstraint.Duplicate()
 
 Creates a copy of the current DataModelObject.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="SymmetryManufacturingConstraint.GetChildren"></a>
+
+### SymmetryManufacturingConstraint.GetChildren(recurses: System.Boolean, children: System.Collections.Generic.IList[ChildrenType])
+
+Gets the list of children, filtered by type.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="SymmetryManufacturingConstraint.GetParameter"></a>
+
+### SymmetryManufacturingConstraint.GetParameter(propName: System.String)
+
+Gets the parameter corresponding to the given property.
 
 <!-- !! processed by numpydoc !! -->
 
@@ -226,6 +216,17 @@ Run the GroupSimilarObjects action.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="SymmetryManufacturingConstraint.PropertyByAPIName"></a>
+
+### SymmetryManufacturingConstraint.PropertyByAPIName(name: System.String)
+
+```text
+Get a property by its API name.
+If multiple properties have the same API Name, only the first property with that name will be returned.
+```
+
+<!-- !! processed by numpydoc !! -->
+
 <a id="SymmetryManufacturingConstraint.PropertyByName"></a>
 
 ### SymmetryManufacturingConstraint.PropertyByName(name: System.String)
@@ -234,36 +235,19 @@ Get a property by its unique name.
 
 <!-- !! processed by numpydoc !! -->
 
-<a id="SymmetryManufacturingConstraint.PropertyByAPIName"></a>
-
-### SymmetryManufacturingConstraint.PropertyByAPIName(name: System.String)
-
-Get a property by its API name.
-If multiple properties have the same API Name, only the first property with that name will be returned.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="SymmetryManufacturingConstraint.CreateParameter"></a>
-
-### SymmetryManufacturingConstraint.CreateParameter(propName: System.String)
-
-Creates a new parameter for a Property.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="SymmetryManufacturingConstraint.GetParameter"></a>
-
-### SymmetryManufacturingConstraint.GetParameter(propName: System.String)
-
-Gets the parameter corresponding to the given property.
-
-<!-- !! processed by numpydoc !! -->
-
 <a id="SymmetryManufacturingConstraint.RemoveParameter"></a>
 
 ### SymmetryManufacturingConstraint.RemoveParameter(propName: System.String)
 
 Removes the parameter from the parameter set corresponding to the given property.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="SymmetryManufacturingConstraint.RenameBasedOnDefinition"></a>
+
+### SymmetryManufacturingConstraint.RenameBasedOnDefinition()
+
+Run the RenameBasedOnDefinition action.
 
 <!-- !! processed by numpydoc !! -->
 

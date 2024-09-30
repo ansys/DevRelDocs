@@ -1,6 +1,6 @@
 # `PeriodicityDirectionType`
 
-
+<a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.PeriodicityDirectionType"></a>
 
 #### *class* ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.PeriodicityDirectionType
 
@@ -17,10 +17,10 @@ Specifies the PeriodicityDirectionType.
 ### Attributes
 
 | Name |
-| ------------------------------------------------------------------------------------------------------------------------------ |
-| [`XAxis`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/PeriodicityDirectionType.md#PeriodicityDirectionType.XAxis) |
-| [`YAxis`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/PeriodicityDirectionType.md#PeriodicityDirectionType.YAxis) |
-| [`ZAxis`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/PeriodicityDirectionType.md#PeriodicityDirectionType.ZAxis) |
+| ---------------------------------------------- |
+| [`XAxis`](#PeriodicityDirectionType.XAxis) |
+| [`YAxis`](#PeriodicityDirectionType.YAxis) |
+| [`ZAxis`](#PeriodicityDirectionType.ZAxis) |
 
 <a id="attribute-detail"></a>
 

@@ -1,6 +1,6 @@
 # `ThermoelasticDampingType`
 
-
+<a id="ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.ThermoelasticDampingType"></a>
 
 #### *class* ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.ThermoelasticDampingType
 
@@ -17,7 +17,7 @@ Specifies the ThermoelasticDampingType.
 ### Attributes
 
 | Name |
-| ------------------------------------------ |
+| -------------------------------------------------------------------------------------------------------------------------- |
 | [`Off`](#ThermoelasticDampingType.Off) |
 | [`On`](#ThermoelasticDampingType.On) |
 

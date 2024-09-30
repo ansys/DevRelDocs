@@ -1,6 +1,6 @@
 # `UnitSystemIDType`
 
-
+<a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.UnitSystemIDType"></a>
 
 #### *class* ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.UnitSystemIDType
 
@@ -17,29 +17,17 @@ Specifies the Unit System ID Type.
 ### Attributes
 
 | Name |
-| -------------------------------------------------------------------------------------------------------------------- |
-| [`UnitsMKS`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/UnitSystemIDType.md#UnitSystemIDType.UnitsMKS) |
-| [`UnitsCGS`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/UnitSystemIDType.md#UnitSystemIDType.UnitsCGS) |
-| [`UnitsNMM`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/UnitSystemIDType.md#UnitSystemIDType.UnitsNMM) |
-| [`UnitsBFT`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/UnitSystemIDType.md#UnitSystemIDType.UnitsBFT) |
-| [`UnitsBIN`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/UnitSystemIDType.md#UnitSystemIDType.UnitsBIN) |
-| [`UnitsUMKS`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/UnitSystemIDType.md#UnitSystemIDType.UnitsUMKS) |
+| -------------------------------------------- |
+| [`UnitsBFT`](#UnitSystemIDType.UnitsBFT) |
+| [`UnitsBIN`](#UnitSystemIDType.UnitsBIN) |
+| [`UnitsCGS`](#UnitSystemIDType.UnitsCGS) |
+| [`UnitsMKS`](#UnitSystemIDType.UnitsMKS) |
+| [`UnitsNMM`](#UnitSystemIDType.UnitsNMM) |
+| [`UnitsUMKS`](#UnitSystemIDType.UnitsUMKS) |
 
 <a id="attribute-detail"></a>
 
 ## Attribute detail
-
-<a id="UnitSystemIDType.UnitsMKS"></a>
-
-### UnitSystemIDType.UnitsMKS *= 0*
-
-<a id="UnitSystemIDType.UnitsCGS"></a>
-
-### UnitSystemIDType.UnitsCGS *= 1*
-
-<a id="UnitSystemIDType.UnitsNMM"></a>
-
-### UnitSystemIDType.UnitsNMM *= 2*
 
 <a id="UnitSystemIDType.UnitsBFT"></a>
 
@@ -48,6 +36,18 @@ Specifies the Unit System ID Type.
 <a id="UnitSystemIDType.UnitsBIN"></a>
 
 ### UnitSystemIDType.UnitsBIN *= 6*
+
+<a id="UnitSystemIDType.UnitsCGS"></a>
+
+### UnitSystemIDType.UnitsCGS *= 1*
+
+<a id="UnitSystemIDType.UnitsMKS"></a>
+
+### UnitSystemIDType.UnitsMKS *= 0*
+
+<a id="UnitSystemIDType.UnitsNMM"></a>
+
+### UnitSystemIDType.UnitsNMM *= 2*
 
 <a id="UnitSystemIDType.UnitsUMKS"></a>
 

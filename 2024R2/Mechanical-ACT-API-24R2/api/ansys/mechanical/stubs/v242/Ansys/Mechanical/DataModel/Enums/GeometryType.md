@@ -1,6 +1,6 @@
 # `GeometryType`
 
-
+<a id="ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.GeometryType"></a>
 
 #### *class* ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.GeometryType
 
@@ -17,34 +17,18 @@ Specifies the GeometryType.
 ### Attributes
 
 | Name |
-| -------------------------------------------- |
-| [`Solid`](#GeometryType.Solid) |
-| [`Surface`](#GeometryType.Surface) |
-| [`Mixed`](#GeometryType.Mixed) |
-| [`Line`](#GeometryType.Line) |
+| ---------------------------------------------------------------------------------------------------------------- |
 | [`Empty`](#GeometryType.Empty) |
 | [`Lightweight`](#GeometryType.Lightweight) |
+| [`Line`](#GeometryType.Line) |
+| [`Mixed`](#GeometryType.Mixed) |
+| [`Solid`](#GeometryType.Solid) |
+| [`Surface`](#GeometryType.Surface) |
 | [`Unknown`](#GeometryType.Unknown) |
 
 <a id="attribute-detail"></a>
 
 ## Attribute detail
-
-<a id="GeometryType.Solid"></a>
-
-### GeometryType.Solid *= 0*
-
-<a id="GeometryType.Surface"></a>
-
-### GeometryType.Surface *= 1*
-
-<a id="GeometryType.Mixed"></a>
-
-### GeometryType.Mixed *= 2*
-
-<a id="GeometryType.Line"></a>
-
-### GeometryType.Line *= 3*
 
 <a id="GeometryType.Empty"></a>
 
@@ -53,6 +37,22 @@ Specifies the GeometryType.
 <a id="GeometryType.Lightweight"></a>
 
 ### GeometryType.Lightweight *= 5*
+
+<a id="GeometryType.Line"></a>
+
+### GeometryType.Line *= 3*
+
+<a id="GeometryType.Mixed"></a>
+
+### GeometryType.Mixed *= 2*
+
+<a id="GeometryType.Solid"></a>
+
+### GeometryType.Solid *= 0*
+
+<a id="GeometryType.Surface"></a>
+
+### GeometryType.Surface *= 1*
 
 <a id="GeometryType.Unknown"></a>
 

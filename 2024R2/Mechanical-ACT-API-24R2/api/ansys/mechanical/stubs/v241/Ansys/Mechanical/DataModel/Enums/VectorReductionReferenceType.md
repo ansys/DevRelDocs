@@ -1,6 +1,6 @@
 # `VectorReductionReferenceType`
 
-
+<a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.VectorReductionReferenceType"></a>
 
 #### *class* ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.VectorReductionReferenceType
 
@@ -17,9 +17,9 @@ Specifies the VectorReductionReferenceType.
 ### Attributes
 
 | Name |
-| -------------------------------------------------------------------------------------------------------------------------------------------- |
-| [`Constant`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/VectorReductionReferenceType.md#VectorReductionReferenceType.Constant) |
-| [`None_`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/VectorReductionReferenceType.md#VectorReductionReferenceType.None_) |
+| -------------------------------------------------------- |
+| [`Constant`](#VectorReductionReferenceType.Constant) |
+| [`None_`](#VectorReductionReferenceType.None_) |
 
 <a id="attribute-detail"></a>
 

@@ -1,6 +1,6 @@
 # `CommandReal`
 
-
+<a id="ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.FE.CDB.CommandReal"></a>
 
 #### *class* ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.FE.CDB.CommandReal
 
@@ -18,8 +18,8 @@ Represent a real constant set associated to a RLBLOCK command.
 
 | Name | Description |
 |----------------------------------------------------------------------------------------------------------------|--------------------------------------|
-| [`Id`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/FE/CDB/CommandReal.md#CommandReal.Id)         | Gets the real constant set number.   |
-| [`Values`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/FE/CDB/CommandReal.md#CommandReal.Values) | Gets the values.                     |
+| [`Id`](#CommandReal.Id)         | Gets the real constant set number.   |
+| [`Values`](#CommandReal.Values) | Gets the values.                     |
 
 <a id="property-detail"></a>
 

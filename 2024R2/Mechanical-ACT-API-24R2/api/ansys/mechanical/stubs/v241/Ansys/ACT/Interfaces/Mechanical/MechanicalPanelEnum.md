@@ -1,6 +1,6 @@
 # `MechanicalPanelEnum`
 
-
+<a id="ansys.mechanical.stubs.v241.Ansys.ACT.Interfaces.Mechanical.MechanicalPanelEnum"></a>
 
 #### *class* ansys.mechanical.stubs.v241.Ansys.ACT.Interfaces.Mechanical.MechanicalPanelEnum
 
@@ -17,14 +17,14 @@ Specifies the panel type.
 ### Attributes
 
 | Name |
-| ----------------------------------------------------------------------------------------------------------------------------- |
-| [`DataView`](../../../../../v242/Ansys/ACT/Interfaces/Mechanical/MechanicalPanelEnum.md#MechanicalPanelEnum.DataView) |
-| [`Worksheet`](../../../../../v242/Ansys/ACT/Interfaces/Mechanical/MechanicalPanelEnum.md#MechanicalPanelEnum.Worksheet) |
-| [`TabularData`](../../../../../v242/Ansys/ACT/Interfaces/Mechanical/MechanicalPanelEnum.md#MechanicalPanelEnum.TabularData) |
-| [`Graph`](../../../../../v242/Ansys/ACT/Interfaces/Mechanical/MechanicalPanelEnum.md#MechanicalPanelEnum.Graph) |
-| [`Outline`](../../../../../v242/Ansys/ACT/Interfaces/Mechanical/MechanicalPanelEnum.md#MechanicalPanelEnum.Outline) |
-| [`Graphics`](../../../../../v242/Ansys/ACT/Interfaces/Mechanical/MechanicalPanelEnum.md#MechanicalPanelEnum.Graphics) |
-| [`Wizard`](../../../../../v242/Ansys/ACT/Interfaces/Mechanical/MechanicalPanelEnum.md#MechanicalPanelEnum.Wizard) |
+| --------------------------------------------------- |
+| [`DataView`](#MechanicalPanelEnum.DataView) |
+| [`Graph`](#MechanicalPanelEnum.Graph) |
+| [`Graphics`](#MechanicalPanelEnum.Graphics) |
+| [`Outline`](#MechanicalPanelEnum.Outline) |
+| [`TabularData`](#MechanicalPanelEnum.TabularData) |
+| [`Wizard`](#MechanicalPanelEnum.Wizard) |
+| [`Worksheet`](#MechanicalPanelEnum.Worksheet) |
 
 <a id="attribute-detail"></a>
 
@@ -34,28 +34,28 @@ Specifies the panel type.
 
 ### MechanicalPanelEnum.DataView *= 0*
 
-<a id="MechanicalPanelEnum.Worksheet"></a>
-
-### MechanicalPanelEnum.Worksheet *= 1*
-
-<a id="MechanicalPanelEnum.TabularData"></a>
-
-### MechanicalPanelEnum.TabularData *= 2*
-
 <a id="MechanicalPanelEnum.Graph"></a>
 
 ### MechanicalPanelEnum.Graph *= 3*
-
-<a id="MechanicalPanelEnum.Outline"></a>
-
-### MechanicalPanelEnum.Outline *= 4*
 
 <a id="MechanicalPanelEnum.Graphics"></a>
 
 ### MechanicalPanelEnum.Graphics *= 5*
 
+<a id="MechanicalPanelEnum.Outline"></a>
+
+### MechanicalPanelEnum.Outline *= 4*
+
+<a id="MechanicalPanelEnum.TabularData"></a>
+
+### MechanicalPanelEnum.TabularData *= 2*
+
 <a id="MechanicalPanelEnum.Wizard"></a>
 
 ### MechanicalPanelEnum.Wizard *= 6*
+
+<a id="MechanicalPanelEnum.Worksheet"></a>
+
+### MechanicalPanelEnum.Worksheet *= 1*
 
 

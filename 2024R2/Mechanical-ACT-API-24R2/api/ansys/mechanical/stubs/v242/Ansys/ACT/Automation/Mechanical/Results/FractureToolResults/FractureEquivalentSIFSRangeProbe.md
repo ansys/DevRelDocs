@@ -1,6 +1,6 @@
 # `FractureEquivalentSIFSRangeProbe`
 
-
+<a id="ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Results.FractureToolResults.FractureEquivalentSIFSRangeProbe"></a>
 
 #### *class* ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Results.FractureToolResults.FractureEquivalentSIFSRangeProbe
 
@@ -17,207 +17,93 @@ Defines a FractureEquivalentSIFSRangeProbe.
 ### Methods
 
 | Name | Description |
-|----------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------|
-| [`ExportAnimation`](#FractureEquivalentSIFSRangeProbe.ExportAnimation)                 | Run the ExportAnimation action.                                                   |
-| [`ClearGeneratedData`](#FractureEquivalentSIFSRangeProbe.ClearGeneratedData)           | Run the ClearGeneratedData action.                                                |
-| [`DuplicateWithoutResults`](#FractureEquivalentSIFSRangeProbe.DuplicateWithoutResults) | Run the DuplicateWithoutResults action.                                           |
-| [`EvaluateAllResults`](#FractureEquivalentSIFSRangeProbe.EvaluateAllResults)           | Run the EvaluateAllResults action.                                                |
-| [`SnapToMeshNodes`](#FractureEquivalentSIFSRangeProbe.SnapToMeshNodes)                 | Snap the coordinates of probe result to the mesh nodes.                           |
-| [`RenameBasedOnDefinition`](#FractureEquivalentSIFSRangeProbe.RenameBasedOnDefinition) | Run the RenameBasedOnDefinition action.                                           |
-| [`Delete`](#FractureEquivalentSIFSRangeProbe.Delete)                                   | Run the Delete action.                                                            |
-| [`GetChildren`](#id1)                                                                  | Gets the list of children, filtered by type.                                      |
-| [`GetChildren`](#id1)                                                                  | Gets the list of children, filtered by type.                                      |
+|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------|
+| [`Activate`](#FractureEquivalentSIFSRangeProbe.Activate)                               | Activate the current object.                                                      |
 | [`AddComment`](#FractureEquivalentSIFSRangeProbe.AddComment)                           | Creates a new child Comment.                                                      |
 | [`AddFigure`](#FractureEquivalentSIFSRangeProbe.AddFigure)                             | Creates a new child Figure.                                                       |
 | [`AddImage`](#FractureEquivalentSIFSRangeProbe.AddImage)                               | Creates a new child Image.                                                        |
-| [`Activate`](#FractureEquivalentSIFSRangeProbe.Activate)                               | Activate the current object.                                                      |
+| [`ClearGeneratedData`](#FractureEquivalentSIFSRangeProbe.ClearGeneratedData)           | Run the ClearGeneratedData action.                                                |
 | [`CopyTo`](#FractureEquivalentSIFSRangeProbe.CopyTo)                                   | Copies all visible properties from this object to another.                        |
+| [`CreateParameter`](#FractureEquivalentSIFSRangeProbe.CreateParameter)                 | Creates a new parameter for a Property.                                           |
+| [`Delete`](#FractureEquivalentSIFSRangeProbe.Delete)                                   | Run the Delete action.                                                            |
 | [`Duplicate`](#FractureEquivalentSIFSRangeProbe.Duplicate)                             | Creates a copy of the current DataModelObject.                                    |
+| [`DuplicateWithoutResults`](#FractureEquivalentSIFSRangeProbe.DuplicateWithoutResults) | Run the DuplicateWithoutResults action.                                           |
+| [`EvaluateAllResults`](#FractureEquivalentSIFSRangeProbe.EvaluateAllResults)           | Run the EvaluateAllResults action.                                                |
+| [`ExportAnimation`](#FractureEquivalentSIFSRangeProbe.ExportAnimation)                 | Run the ExportAnimation action.                                                   |
+| [`GetChildren`](#FractureEquivalentSIFSRangeProbe.GetChildren)                         | Gets the list of children, filtered by type.                                      |
+| [`GetParameter`](#FractureEquivalentSIFSRangeProbe.GetParameter)                       | Gets the parameter corresponding to the given property.                           |
 | [`GroupAllSimilarChildren`](#FractureEquivalentSIFSRangeProbe.GroupAllSimilarChildren) | Run the GroupAllSimilarChildren action.                                           |
 | [`GroupSimilarObjects`](#FractureEquivalentSIFSRangeProbe.GroupSimilarObjects)         | Run the GroupSimilarObjects action.                                               |
-| [`PropertyByName`](#FractureEquivalentSIFSRangeProbe.PropertyByName)                   | Get a property by its unique name.                                                |
 | [`PropertyByAPIName`](#FractureEquivalentSIFSRangeProbe.PropertyByAPIName)             | Get a property by its API name.                                                   |
-| [`CreateParameter`](#FractureEquivalentSIFSRangeProbe.CreateParameter)                 | Creates a new parameter for a Property.                                           |
-| [`GetParameter`](#FractureEquivalentSIFSRangeProbe.GetParameter)                       | Gets the parameter corresponding to the given property.                           |
+| [`PropertyByName`](#FractureEquivalentSIFSRangeProbe.PropertyByName)                   | Get a property by its unique name.                                                |
 | [`RemoveParameter`](#FractureEquivalentSIFSRangeProbe.RemoveParameter)                 | Removes the parameter from the parameter set corresponding to the given property. |
+| [`RenameBasedOnDefinition`](#FractureEquivalentSIFSRangeProbe.RenameBasedOnDefinition) | Run the RenameBasedOnDefinition action.                                           |
+| [`SnapToMeshNodes`](#FractureEquivalentSIFSRangeProbe.SnapToMeshNodes)                 | Snap the coordinates of probe result to the mesh nodes.                           |
 
 ### Properties
 
 | Name | Description |
-|----------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [`InternalObject`](#id0)                                                                     | Gets the internal object. For advanced usage only.                                                                                                                         |
-| [`ResultProbeValue`](#FractureEquivalentSIFSRangeProbe.ResultProbeValue)                     | Gets the ResultProbeValue.                                                                                                                                                 |
-| [`MaximumValueOverTime`](#FractureEquivalentSIFSRangeProbe.MaximumValueOverTime)             | Gets the MaximumValueOverTime.                                                                                                                                             |
-| [`MinimumValueOverTime`](#FractureEquivalentSIFSRangeProbe.MinimumValueOverTime)             | Gets the MinimumValueOverTime.                                                                                                                                             |
-| [`DataModelObjectCategory`](#FractureEquivalentSIFSRangeProbe.DataModelObjectCategory)       | Gets the current DataModelObject's category.                                                                                                                               |
+|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [`ActiveContour`](#FractureEquivalentSIFSRangeProbe.ActiveContour)                           | Gets or sets the ActiveContour.                                                                                                                                            |
-| [`CrackLengthPercentage`](#FractureEquivalentSIFSRangeProbe.CrackLengthPercentage)           | Gets or sets the CrackLengthPercentage.                                                                                                                                    |
-| [`SolverID`](#FractureEquivalentSIFSRangeProbe.SolverID)                                     | Gets or sets the SolverID.                                                                                                                                                 |
-| [`Summation`](#FractureEquivalentSIFSRangeProbe.Summation)                                   | Gets or sets the Summation.                                                                                                                                                |
-| [`LocationMethod`](#FractureEquivalentSIFSRangeProbe.LocationMethod)                         | Gets or sets the LocationMethod.                                                                                                                                           |
-| [`GeometryLocation`](#FractureEquivalentSIFSRangeProbe.GeometryLocation)                     | Gets or sets the GeometryLocation.                                                                                                                                         |
-| [`CoordinateSystemSelection`](#FractureEquivalentSIFSRangeProbe.CoordinateSystemSelection)   | Gets or sets the CoordinateSystemSelection.                                                                                                                                |
-| [`BoundaryConditionSelection`](#FractureEquivalentSIFSRangeProbe.BoundaryConditionSelection) | Gets or sets the BoundaryConditionSelection. In order to select the option â€˜WeakSprings', please use the property â€˜LocationMethod = LocationDefinitionMethod.WeakSprings'. |
-| [`ContactRegionSelection`](#FractureEquivalentSIFSRangeProbe.ContactRegionSelection)         | Gets or sets the ContactRegionSelection.                                                                                                                                   |
-| [`RemotePointSelection`](#FractureEquivalentSIFSRangeProbe.RemotePointSelection)             | Gets or sets the RemotePointSelection.                                                                                                                                     |
 | [`BeamSelection`](#FractureEquivalentSIFSRangeProbe.BeamSelection)                           | Gets or sets the BeamSelection.                                                                                                                                            |
-| [`MeshConnectionSelection`](#FractureEquivalentSIFSRangeProbe.MeshConnectionSelection)       | Gets or sets the MeshConnectionSelection.                                                                                                                                  |
-| [`SurfaceSelection`](#FractureEquivalentSIFSRangeProbe.SurfaceSelection)                     | Gets or sets the MeshConnectionSelection.                                                                                                                                  |
-| [`SpringSelection`](#FractureEquivalentSIFSRangeProbe.SpringSelection)                       | Gets or sets the SpringSelection.                                                                                                                                          |
+| [`BoundaryConditionSelection`](#FractureEquivalentSIFSRangeProbe.BoundaryConditionSelection) | Gets or sets the BoundaryConditionSelection. In order to select the option ‘WeakSprings’, please use the property ‘LocationMethod = LocationDefinitionMethod.WeakSprings’. |
+| [`Children`](#FractureEquivalentSIFSRangeProbe.Children)                                     | Gets the list of children.                                                                                                                                                 |
+| [`Comments`](#FractureEquivalentSIFSRangeProbe.Comments)                                     | Gets the list of associated comments.                                                                                                                                      |
+| [`ContactRegionSelection`](#FractureEquivalentSIFSRangeProbe.ContactRegionSelection)         | Gets or sets the ContactRegionSelection.                                                                                                                                   |
+| [`CoordinateSystemSelection`](#FractureEquivalentSIFSRangeProbe.CoordinateSystemSelection)   | Gets or sets the CoordinateSystemSelection.                                                                                                                                |
+| [`CrackLengthPercentage`](#FractureEquivalentSIFSRangeProbe.CrackLengthPercentage)           | Gets or sets the CrackLengthPercentage.                                                                                                                                    |
+| [`DataModelObjectCategory`](#FractureEquivalentSIFSRangeProbe.DataModelObjectCategory)       | Gets the current DataModelObject’s category.                                                                                                                               |
+| [`DisplayTime`](#FractureEquivalentSIFSRangeProbe.DisplayTime)                               | Gets or sets the DisplayTime.                                                                                                                                              |
+| [`DpfEvaluation`](#FractureEquivalentSIFSRangeProbe.DpfEvaluation)                           | Gets or sets the DpfEvaluation.                                                                                                                                            |
+| [`Figures`](#FractureEquivalentSIFSRangeProbe.Figures)                                       | Gets the list of associated figures.                                                                                                                                       |
+| [`GeometryLocation`](#FractureEquivalentSIFSRangeProbe.GeometryLocation)                     | Gets or sets the GeometryLocation.                                                                                                                                         |
+| [`Images`](#FractureEquivalentSIFSRangeProbe.Images)                                         | Gets the list of associated images.                                                                                                                                        |
+| [`InternalObject`](#FractureEquivalentSIFSRangeProbe.InternalObject)                         | Gets the internal object. For advanced usage only.                                                                                                                         |
 | [`IsSolved`](#FractureEquivalentSIFSRangeProbe.IsSolved)                                     | Gets the IsSolved.                                                                                                                                                         |
-| [`Orientation`](#FractureEquivalentSIFSRangeProbe.Orientation)                               | Gets or sets the Orientation. Accepts/Returns None if it is the Solution Coordinate System.                                                                                |
 | [`IterationNumber`](#FractureEquivalentSIFSRangeProbe.IterationNumber)                       | Gets the IterationNumber.                                                                                                                                                  |
 | [`LoadStep`](#FractureEquivalentSIFSRangeProbe.LoadStep)                                     | Gets the LoadStep.                                                                                                                                                         |
 | [`LoadStepNumber`](#FractureEquivalentSIFSRangeProbe.LoadStepNumber)                         | Gets or sets the LoadStepNumber.                                                                                                                                           |
-| [`Substep`](#FractureEquivalentSIFSRangeProbe.Substep)                                       | Gets the Substep.                                                                                                                                                          |
-| [`DisplayTime`](#FractureEquivalentSIFSRangeProbe.DisplayTime)                               | Gets or sets the DisplayTime.                                                                                                                                              |
+| [`LocationMethod`](#FractureEquivalentSIFSRangeProbe.LocationMethod)                         | Gets or sets the LocationMethod.                                                                                                                                           |
 | [`MaximumTotal`](#FractureEquivalentSIFSRangeProbe.MaximumTotal)                             | Gets the MaximumTotal.                                                                                                                                                     |
+| [`MaximumValueOverTime`](#FractureEquivalentSIFSRangeProbe.MaximumValueOverTime)             | Gets the MaximumValueOverTime.                                                                                                                                             |
 | [`MaximumXAxis`](#FractureEquivalentSIFSRangeProbe.MaximumXAxis)                             | Gets the MaximumXAxis.                                                                                                                                                     |
 | [`MaximumYAxis`](#FractureEquivalentSIFSRangeProbe.MaximumYAxis)                             | Gets the MaximumYAxis.                                                                                                                                                     |
 | [`MaximumZAxis`](#FractureEquivalentSIFSRangeProbe.MaximumZAxis)                             | Gets the MaximumZAxis.                                                                                                                                                     |
+| [`MeshConnectionSelection`](#FractureEquivalentSIFSRangeProbe.MeshConnectionSelection)       | Gets or sets the MeshConnectionSelection.                                                                                                                                  |
 | [`MinimumTotal`](#FractureEquivalentSIFSRangeProbe.MinimumTotal)                             | Gets the MinimumTotal.                                                                                                                                                     |
+| [`MinimumValueOverTime`](#FractureEquivalentSIFSRangeProbe.MinimumValueOverTime)             | Gets the MinimumValueOverTime.                                                                                                                                             |
 | [`MinimumXAxis`](#FractureEquivalentSIFSRangeProbe.MinimumXAxis)                             | Gets the MinimumXAxis.                                                                                                                                                     |
 | [`MinimumYAxis`](#FractureEquivalentSIFSRangeProbe.MinimumYAxis)                             | Gets the MinimumYAxis.                                                                                                                                                     |
 | [`MinimumZAxis`](#FractureEquivalentSIFSRangeProbe.MinimumZAxis)                             | Gets the MinimumZAxis.                                                                                                                                                     |
+| [`Orientation`](#FractureEquivalentSIFSRangeProbe.Orientation)                               | Gets or sets the Orientation. Accepts/Returns None if it is the Solution Coordinate System.                                                                                |
+| [`Properties`](#FractureEquivalentSIFSRangeProbe.Properties)                                 | Gets the list of properties for this object.                                                                                                                               |
+| [`RemotePointSelection`](#FractureEquivalentSIFSRangeProbe.RemotePointSelection)             | Gets or sets the RemotePointSelection.                                                                                                                                     |
+| [`ResultProbeValue`](#FractureEquivalentSIFSRangeProbe.ResultProbeValue)                     | Gets the ResultProbeValue.                                                                                                                                                 |
+| [`ResultSelection`](#FractureEquivalentSIFSRangeProbe.ResultSelection)                       | Gets or sets the ResultSelection.                                                                                                                                          |
+| [`SolverID`](#FractureEquivalentSIFSRangeProbe.SolverID)                                     | Gets or sets the SolverID.                                                                                                                                                 |
+| [`SpatialResolution`](#FractureEquivalentSIFSRangeProbe.SpatialResolution)                   | Gets or sets the SpatialResolution.                                                                                                                                        |
+| [`SpringSelection`](#FractureEquivalentSIFSRangeProbe.SpringSelection)                       | Gets or sets the SpringSelection.                                                                                                                                          |
+| [`Substep`](#FractureEquivalentSIFSRangeProbe.Substep)                                       | Gets the Substep.                                                                                                                                                          |
+| [`Summation`](#FractureEquivalentSIFSRangeProbe.Summation)                                   | Gets or sets the Summation.                                                                                                                                                |
+| [`Suppressed`](#FractureEquivalentSIFSRangeProbe.Suppressed)                                 | Gets or sets the Suppressed.                                                                                                                                               |
+| [`SurfaceSelection`](#FractureEquivalentSIFSRangeProbe.SurfaceSelection)                     | Gets or sets the MeshConnectionSelection.                                                                                                                                  |
 | [`Time`](#FractureEquivalentSIFSRangeProbe.Time)                                             | Gets the Time.                                                                                                                                                             |
 | [`Total`](#FractureEquivalentSIFSRangeProbe.Total)                                           | Gets the Total.                                                                                                                                                            |
+| [`Type`](#FractureEquivalentSIFSRangeProbe.Type)                                             | Gets the Type.                                                                                                                                                             |
+| [`VisibleProperties`](#FractureEquivalentSIFSRangeProbe.VisibleProperties)                   | Gets the list of properties that are visible for this object.                                                                                                              |
 | [`XAxis`](#FractureEquivalentSIFSRangeProbe.XAxis)                                           | Gets the XAxis.                                                                                                                                                            |
 | [`YAxis`](#FractureEquivalentSIFSRangeProbe.YAxis)                                           | Gets the YAxis.                                                                                                                                                            |
 | [`ZAxis`](#FractureEquivalentSIFSRangeProbe.ZAxis)                                           | Gets the ZAxis.                                                                                                                                                            |
-| [`ResultSelection`](#FractureEquivalentSIFSRangeProbe.ResultSelection)                       | Gets or sets the ResultSelection.                                                                                                                                          |
-| [`SpatialResolution`](#FractureEquivalentSIFSRangeProbe.SpatialResolution)                   | Gets or sets the SpatialResolution.                                                                                                                                        |
-| [`Type`](#FractureEquivalentSIFSRangeProbe.Type)                                             | Gets the Type.                                                                                                                                                             |
-| [`DpfEvaluation`](#FractureEquivalentSIFSRangeProbe.DpfEvaluation)                           | Gets or sets the DpfEvaluation.                                                                                                                                            |
-| [`Suppressed`](#FractureEquivalentSIFSRangeProbe.Suppressed)                                 | Gets or sets the Suppressed.                                                                                                                                               |
-| [`Children`](#FractureEquivalentSIFSRangeProbe.Children)                                     | Gets the list of children.                                                                                                                                                 |
-| [`Comments`](#FractureEquivalentSIFSRangeProbe.Comments)                                     | Gets the list of associated comments.                                                                                                                                      |
-| [`Figures`](#FractureEquivalentSIFSRangeProbe.Figures)                                       | Gets the list of associated figures.                                                                                                                                       |
-| [`Images`](#FractureEquivalentSIFSRangeProbe.Images)                                         | Gets the list of associated images.                                                                                                                                        |
-| [`InternalObject`](#id0)                                                                     | Gets the internal object. For advanced usage only.                                                                                                                         |
-| [`Properties`](#FractureEquivalentSIFSRangeProbe.Properties)                                 | Gets the list of properties for this object.                                                                                                                               |
-| [`VisibleProperties`](#FractureEquivalentSIFSRangeProbe.VisibleProperties)                   | Gets the list of properties that are visible for this object.                                                                                                              |
 
 <a id="property-detail"></a>
 
 ## Property detail
-
-<a id="FractureEquivalentSIFSRangeProbe.InternalObject"></a>
-
-### *property* FractureEquivalentSIFSRangeProbe.InternalObject *: Ansys.Common.Interop.DSObjectsAuto.IDSProbeResultAuto | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets the internal object. For advanced usage only.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="FractureEquivalentSIFSRangeProbe.ResultProbeValue"></a>
-
-### *property* FractureEquivalentSIFSRangeProbe.ResultProbeValue *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets the ResultProbeValue.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="FractureEquivalentSIFSRangeProbe.MaximumValueOverTime"></a>
-
-### *property* FractureEquivalentSIFSRangeProbe.MaximumValueOverTime *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets the MaximumValueOverTime.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="FractureEquivalentSIFSRangeProbe.MinimumValueOverTime"></a>
-
-### *property* FractureEquivalentSIFSRangeProbe.MinimumValueOverTime *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets the MinimumValueOverTime.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="FractureEquivalentSIFSRangeProbe.DataModelObjectCategory"></a>
-
-### *property* FractureEquivalentSIFSRangeProbe.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../../../v241/Ansys/Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets the current DataModelObject's category.
-
-<!-- !! processed by numpydoc !! -->
 
 <a id="FractureEquivalentSIFSRangeProbe.ActiveContour"></a>
 
 ### *property* FractureEquivalentSIFSRangeProbe.ActiveContour *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the ActiveContour.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="FractureEquivalentSIFSRangeProbe.CrackLengthPercentage"></a>
-
-### *property* FractureEquivalentSIFSRangeProbe.CrackLengthPercentage *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the CrackLengthPercentage.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="FractureEquivalentSIFSRangeProbe.SolverID"></a>
-
-### *property* FractureEquivalentSIFSRangeProbe.SolverID *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the SolverID.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="FractureEquivalentSIFSRangeProbe.Summation"></a>
-
-### *property* FractureEquivalentSIFSRangeProbe.Summation *: [Ansys.Mechanical.DataModel.Enums.MomentsAtSummationPointType](../../../../../../../v241/Ansys/Mechanical/DataModel/Enums/MomentsAtSummationPointType.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.MomentsAtSummationPointType) | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the Summation.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="FractureEquivalentSIFSRangeProbe.LocationMethod"></a>
-
-### *property* FractureEquivalentSIFSRangeProbe.LocationMethod *: [Ansys.Mechanical.DataModel.Enums.LocationDefinitionMethod](../../../../../../../v241/Ansys/Mechanical/DataModel/Enums/LocationDefinitionMethod.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.LocationDefinitionMethod) | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the LocationMethod.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="FractureEquivalentSIFSRangeProbe.GeometryLocation"></a>
-
-### *property* FractureEquivalentSIFSRangeProbe.GeometryLocation *: Ansys.ACT.Interfaces.Common.ISelectionInfo | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the GeometryLocation.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="FractureEquivalentSIFSRangeProbe.CoordinateSystemSelection"></a>
-
-### *property* FractureEquivalentSIFSRangeProbe.CoordinateSystemSelection *: [Ansys.ACT.Automation.Mechanical.CoordinateSystem](../../../../../../../v241/Ansys/ACT/Automation/Mechanical/CoordinateSystem.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.CoordinateSystem) | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the CoordinateSystemSelection.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="FractureEquivalentSIFSRangeProbe.BoundaryConditionSelection"></a>
-
-### *property* FractureEquivalentSIFSRangeProbe.BoundaryConditionSelection *: Ansys.ACT.Automation.Mechanical.DataModelObject | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the BoundaryConditionSelection. In order to select the option â€˜WeakSprings', please use the property â€˜LocationMethod = LocationDefinitionMethod.WeakSprings'.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="FractureEquivalentSIFSRangeProbe.ContactRegionSelection"></a>
-
-### *property* FractureEquivalentSIFSRangeProbe.ContactRegionSelection *: [Ansys.ACT.Automation.Mechanical.Connections.ContactRegion](../../../../../../../v241/Ansys/ACT/Automation/Mechanical/Connections/ContactRegion.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Connections.ContactRegion) | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the ContactRegionSelection.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="FractureEquivalentSIFSRangeProbe.RemotePointSelection"></a>
-
-### *property* FractureEquivalentSIFSRangeProbe.RemotePointSelection *: [Ansys.ACT.Automation.Mechanical.RemotePoint](../../../../../../../v241/Ansys/ACT/Automation/Mechanical/RemotePoint.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.RemotePoint) | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the RemotePointSelection.
 
 <!-- !! processed by numpydoc !! -->
 
@@ -229,27 +115,107 @@ Gets or sets the BeamSelection.
 
 <!-- !! processed by numpydoc !! -->
 
-<a id="FractureEquivalentSIFSRangeProbe.MeshConnectionSelection"></a>
+<a id="FractureEquivalentSIFSRangeProbe.BoundaryConditionSelection"></a>
 
-### *property* FractureEquivalentSIFSRangeProbe.MeshConnectionSelection *: [Ansys.ACT.Automation.Mechanical.MeshConnection](../../../../../../../v241/Ansys/ACT/Automation/Mechanical/MeshConnection.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.MeshConnection) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* FractureEquivalentSIFSRangeProbe.BoundaryConditionSelection *: Ansys.ACT.Automation.Mechanical.DataModelObject | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets or sets the MeshConnectionSelection.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="FractureEquivalentSIFSRangeProbe.SurfaceSelection"></a>
-
-### *property* FractureEquivalentSIFSRangeProbe.SurfaceSelection *: [Ansys.ACT.Automation.Mechanical.Surface](../../../../../../../v241/Ansys/ACT/Automation/Mechanical/Surface.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Surface) | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the MeshConnectionSelection.
+Gets or sets the BoundaryConditionSelection. In order to select the option ‘WeakSprings’, please use the property ‘LocationMethod = LocationDefinitionMethod.WeakSprings’.
 
 <!-- !! processed by numpydoc !! -->
 
-<a id="FractureEquivalentSIFSRangeProbe.SpringSelection"></a>
+<a id="FractureEquivalentSIFSRangeProbe.Children"></a>
 
-### *property* FractureEquivalentSIFSRangeProbe.SpringSelection *: [Ansys.ACT.Automation.Mechanical.Connections.Spring](../../../../../../../v241/Ansys/ACT/Automation/Mechanical/Connections/Spring.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Connections.Spring) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* FractureEquivalentSIFSRangeProbe.Children *: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets or sets the SpringSelection.
+Gets the list of children.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="FractureEquivalentSIFSRangeProbe.Comments"></a>
+
+### *property* FractureEquivalentSIFSRangeProbe.Comments *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Comment](../../../../../../../v241/Ansys/ACT/Automation/Mechanical/Comment.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets the list of associated comments.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="FractureEquivalentSIFSRangeProbe.ContactRegionSelection"></a>
+
+### *property* FractureEquivalentSIFSRangeProbe.ContactRegionSelection *: [Ansys.ACT.Automation.Mechanical.Connections.ContactRegion](../../../../../../../v241/Ansys/ACT/Automation/Mechanical/Connections/ContactRegion.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Connections.ContactRegion) | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the ContactRegionSelection.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="FractureEquivalentSIFSRangeProbe.CoordinateSystemSelection"></a>
+
+### *property* FractureEquivalentSIFSRangeProbe.CoordinateSystemSelection *: [Ansys.ACT.Automation.Mechanical.CoordinateSystem](../../../../../../../v241/Ansys/ACT/Automation/Mechanical/CoordinateSystem.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.CoordinateSystem) | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the CoordinateSystemSelection.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="FractureEquivalentSIFSRangeProbe.CrackLengthPercentage"></a>
+
+### *property* FractureEquivalentSIFSRangeProbe.CrackLengthPercentage *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the CrackLengthPercentage.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="FractureEquivalentSIFSRangeProbe.DataModelObjectCategory"></a>
+
+### *property* FractureEquivalentSIFSRangeProbe.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets the current DataModelObject’s category.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="FractureEquivalentSIFSRangeProbe.DisplayTime"></a>
+
+### *property* FractureEquivalentSIFSRangeProbe.DisplayTime *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the DisplayTime.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="FractureEquivalentSIFSRangeProbe.DpfEvaluation"></a>
+
+### *property* FractureEquivalentSIFSRangeProbe.DpfEvaluation *: [Ansys.Mechanical.DataModel.Enums.DpfEvaluationType](../../../../../Mechanical/DataModel/Enums/DpfEvaluationType.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.DpfEvaluationType) | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the DpfEvaluation.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="FractureEquivalentSIFSRangeProbe.Figures"></a>
+
+### *property* FractureEquivalentSIFSRangeProbe.Figures *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Figure](../../../../../../../v241/Ansys/ACT/Automation/Mechanical/Figure.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets the list of associated figures.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="FractureEquivalentSIFSRangeProbe.GeometryLocation"></a>
+
+### *property* FractureEquivalentSIFSRangeProbe.GeometryLocation *: Ansys.ACT.Interfaces.Common.ISelectionInfo | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the GeometryLocation.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="FractureEquivalentSIFSRangeProbe.Images"></a>
+
+### *property* FractureEquivalentSIFSRangeProbe.Images *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Image](../../../../../../../v241/Ansys/ACT/Automation/Mechanical/Image.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets the list of associated images.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="FractureEquivalentSIFSRangeProbe.InternalObject"></a>
+
+### *property* FractureEquivalentSIFSRangeProbe.InternalObject *: Ansys.Common.Interop.DSObjectsAuto.IDSProbeResultAuto | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets the internal object. For advanced usage only.
 
 <!-- !! processed by numpydoc !! -->
 
@@ -258,14 +224,6 @@ Gets or sets the SpringSelection.
 ### *property* FractureEquivalentSIFSRangeProbe.IsSolved *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the IsSolved.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="FractureEquivalentSIFSRangeProbe.Orientation"></a>
-
-### *property* FractureEquivalentSIFSRangeProbe.Orientation *: [Ansys.ACT.Automation.Mechanical.CoordinateSystem](../../../../../../../v241/Ansys/ACT/Automation/Mechanical/CoordinateSystem.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.CoordinateSystem) | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the Orientation. Accepts/Returns None if it is the Solution Coordinate System.
 
 <!-- !! processed by numpydoc !! -->
 
@@ -293,19 +251,11 @@ Gets or sets the LoadStepNumber.
 
 <!-- !! processed by numpydoc !! -->
 
-<a id="FractureEquivalentSIFSRangeProbe.Substep"></a>
+<a id="FractureEquivalentSIFSRangeProbe.LocationMethod"></a>
 
-### *property* FractureEquivalentSIFSRangeProbe.Substep *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* FractureEquivalentSIFSRangeProbe.LocationMethod *: [Ansys.Mechanical.DataModel.Enums.LocationDefinitionMethod](../../../../../Mechanical/DataModel/Enums/LocationDefinitionMethod.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.LocationDefinitionMethod) | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets the Substep.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="FractureEquivalentSIFSRangeProbe.DisplayTime"></a>
-
-### *property* FractureEquivalentSIFSRangeProbe.DisplayTime *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the DisplayTime.
+Gets or sets the LocationMethod.
 
 <!-- !! processed by numpydoc !! -->
 
@@ -314,6 +264,14 @@ Gets or sets the DisplayTime.
 ### *property* FractureEquivalentSIFSRangeProbe.MaximumTotal *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the MaximumTotal.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="FractureEquivalentSIFSRangeProbe.MaximumValueOverTime"></a>
+
+### *property* FractureEquivalentSIFSRangeProbe.MaximumValueOverTime *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets the MaximumValueOverTime.
 
 <!-- !! processed by numpydoc !! -->
 
@@ -341,11 +299,27 @@ Gets the MaximumZAxis.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="FractureEquivalentSIFSRangeProbe.MeshConnectionSelection"></a>
+
+### *property* FractureEquivalentSIFSRangeProbe.MeshConnectionSelection *: [Ansys.ACT.Automation.Mechanical.MeshConnection](../../../../../../../v241/Ansys/ACT/Automation/Mechanical/MeshConnection.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.MeshConnection) | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the MeshConnectionSelection.
+
+<!-- !! processed by numpydoc !! -->
+
 <a id="FractureEquivalentSIFSRangeProbe.MinimumTotal"></a>
 
 ### *property* FractureEquivalentSIFSRangeProbe.MinimumTotal *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the MinimumTotal.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="FractureEquivalentSIFSRangeProbe.MinimumValueOverTime"></a>
+
+### *property* FractureEquivalentSIFSRangeProbe.MinimumValueOverTime *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets the MinimumValueOverTime.
 
 <!-- !! processed by numpydoc !! -->
 
@@ -373,6 +347,102 @@ Gets the MinimumZAxis.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="FractureEquivalentSIFSRangeProbe.Orientation"></a>
+
+### *property* FractureEquivalentSIFSRangeProbe.Orientation *: [Ansys.ACT.Automation.Mechanical.CoordinateSystem](../../../../../../../v241/Ansys/ACT/Automation/Mechanical/CoordinateSystem.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.CoordinateSystem) | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the Orientation. Accepts/Returns None if it is the Solution Coordinate System.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="FractureEquivalentSIFSRangeProbe.Properties"></a>
+
+### *property* FractureEquivalentSIFSRangeProbe.Properties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets the list of properties for this object.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="FractureEquivalentSIFSRangeProbe.RemotePointSelection"></a>
+
+### *property* FractureEquivalentSIFSRangeProbe.RemotePointSelection *: [Ansys.ACT.Automation.Mechanical.RemotePoint](../../RemotePoint.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.RemotePoint) | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the RemotePointSelection.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="FractureEquivalentSIFSRangeProbe.ResultProbeValue"></a>
+
+### *property* FractureEquivalentSIFSRangeProbe.ResultProbeValue *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets the ResultProbeValue.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="FractureEquivalentSIFSRangeProbe.ResultSelection"></a>
+
+### *property* FractureEquivalentSIFSRangeProbe.ResultSelection *: [Ansys.Mechanical.DataModel.Enums.ProbeDisplayFilter](../../../../../Mechanical/DataModel/Enums/ProbeDisplayFilter.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.ProbeDisplayFilter) | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the ResultSelection.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="FractureEquivalentSIFSRangeProbe.SolverID"></a>
+
+### *property* FractureEquivalentSIFSRangeProbe.SolverID *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the SolverID.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="FractureEquivalentSIFSRangeProbe.SpatialResolution"></a>
+
+### *property* FractureEquivalentSIFSRangeProbe.SpatialResolution *: [Ansys.Mechanical.DataModel.Enums.MinimumOrMaximum](../../../../../Mechanical/DataModel/Enums/MinimumOrMaximum.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.MinimumOrMaximum) | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the SpatialResolution.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="FractureEquivalentSIFSRangeProbe.SpringSelection"></a>
+
+### *property* FractureEquivalentSIFSRangeProbe.SpringSelection *: [Ansys.ACT.Automation.Mechanical.Connections.Spring](../../../../../../../v241/Ansys/ACT/Automation/Mechanical/Connections/Spring.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Connections.Spring) | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the SpringSelection.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="FractureEquivalentSIFSRangeProbe.Substep"></a>
+
+### *property* FractureEquivalentSIFSRangeProbe.Substep *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets the Substep.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="FractureEquivalentSIFSRangeProbe.Summation"></a>
+
+### *property* FractureEquivalentSIFSRangeProbe.Summation *: [Ansys.Mechanical.DataModel.Enums.MomentsAtSummationPointType](../../../../../Mechanical/DataModel/Enums/MomentsAtSummationPointType.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.MomentsAtSummationPointType) | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the Summation.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="FractureEquivalentSIFSRangeProbe.Suppressed"></a>
+
+### *property* FractureEquivalentSIFSRangeProbe.Suppressed *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the Suppressed.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="FractureEquivalentSIFSRangeProbe.SurfaceSelection"></a>
+
+### *property* FractureEquivalentSIFSRangeProbe.SurfaceSelection *: [Ansys.ACT.Automation.Mechanical.Surface](../../Surface.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Surface) | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the MeshConnectionSelection.
+
+<!-- !! processed by numpydoc !! -->
+
 <a id="FractureEquivalentSIFSRangeProbe.Time"></a>
 
 ### *property* FractureEquivalentSIFSRangeProbe.Time *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
@@ -386,6 +456,22 @@ Gets the Time.
 ### *property* FractureEquivalentSIFSRangeProbe.Total *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the Total.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="FractureEquivalentSIFSRangeProbe.Type"></a>
+
+### *property* FractureEquivalentSIFSRangeProbe.Type *: [Ansys.Mechanical.DataModel.Enums.ProbeResultType](../../../../../Mechanical/DataModel/Enums/ProbeResultType.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.ProbeResultType) | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets the Type.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="FractureEquivalentSIFSRangeProbe.VisibleProperties"></a>
+
+### *property* FractureEquivalentSIFSRangeProbe.VisibleProperties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets the list of properties that are visible for this object.
 
 <!-- !! processed by numpydoc !! -->
 
@@ -413,175 +499,15 @@ Gets the ZAxis.
 
 <!-- !! processed by numpydoc !! -->
 
-<a id="FractureEquivalentSIFSRangeProbe.ResultSelection"></a>
-
-### *property* FractureEquivalentSIFSRangeProbe.ResultSelection *: [Ansys.Mechanical.DataModel.Enums.ProbeDisplayFilter](../../../../../../../v241/Ansys/Mechanical/DataModel/Enums/ProbeDisplayFilter.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.ProbeDisplayFilter) | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the ResultSelection.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="FractureEquivalentSIFSRangeProbe.SpatialResolution"></a>
-
-### *property* FractureEquivalentSIFSRangeProbe.SpatialResolution *: [Ansys.Mechanical.DataModel.Enums.MinimumOrMaximum](../../../../../../../v241/Ansys/Mechanical/DataModel/Enums/MinimumOrMaximum.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.MinimumOrMaximum) | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the SpatialResolution.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="FractureEquivalentSIFSRangeProbe.Type"></a>
-
-### *property* FractureEquivalentSIFSRangeProbe.Type *: [Ansys.Mechanical.DataModel.Enums.ProbeResultType](../../../../../../../v241/Ansys/Mechanical/DataModel/Enums/ProbeResultType.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.ProbeResultType) | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets the Type.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="FractureEquivalentSIFSRangeProbe.DpfEvaluation"></a>
-
-### *property* FractureEquivalentSIFSRangeProbe.DpfEvaluation *: [Ansys.Mechanical.DataModel.Enums.DpfEvaluationType](../../../../../../../v241/Ansys/Mechanical/DataModel/Enums/DpfEvaluationType.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DpfEvaluationType) | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the DpfEvaluation.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="FractureEquivalentSIFSRangeProbe.Suppressed"></a>
-
-### *property* FractureEquivalentSIFSRangeProbe.Suppressed *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the Suppressed.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="FractureEquivalentSIFSRangeProbe.Children"></a>
-
-### *property* FractureEquivalentSIFSRangeProbe.Children *: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets the list of children.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="FractureEquivalentSIFSRangeProbe.Comments"></a>
-
-### *property* FractureEquivalentSIFSRangeProbe.Comments *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Comment](../../../../../../../v241/Ansys/ACT/Automation/Mechanical/Comment.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets the list of associated comments.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="FractureEquivalentSIFSRangeProbe.Figures"></a>
-
-### *property* FractureEquivalentSIFSRangeProbe.Figures *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Figure](../../../../../../../v241/Ansys/ACT/Automation/Mechanical/Figure.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets the list of associated figures.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="FractureEquivalentSIFSRangeProbe.Images"></a>
-
-### *property* FractureEquivalentSIFSRangeProbe.Images *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Image](../../../../../../../v241/Ansys/ACT/Automation/Mechanical/Image.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets the list of associated images.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="id0"></a>
-
-### *property* FractureEquivalentSIFSRangeProbe.InternalObject *: System.Object | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets the internal object. For advanced usage only.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="FractureEquivalentSIFSRangeProbe.Properties"></a>
-
-### *property* FractureEquivalentSIFSRangeProbe.Properties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets the list of properties for this object.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="FractureEquivalentSIFSRangeProbe.VisibleProperties"></a>
-
-### *property* FractureEquivalentSIFSRangeProbe.VisibleProperties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets the list of properties that are visible for this object.
-
-<!-- !! processed by numpydoc !! -->
-
 <a id="method-detail"></a>
 
 ## Method detail
 
-<a id="FractureEquivalentSIFSRangeProbe.ExportAnimation"></a>
+<a id="FractureEquivalentSIFSRangeProbe.Activate"></a>
 
-### FractureEquivalentSIFSRangeProbe.ExportAnimation(filePath: System.String, format: [Ansys.Mechanical.DataModel.Enums.GraphicsAnimationExportFormat](../../../../../../../v241/Ansys/Mechanical/DataModel/Enums/GraphicsAnimationExportFormat.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.GraphicsAnimationExportFormat), settings: [Ansys.Mechanical.Graphics.AnimationExportSettings](../../../../../../../v241/Ansys/Mechanical/Graphics/AnimationExportSettings.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.Graphics.AnimationExportSettings))
+### FractureEquivalentSIFSRangeProbe.Activate()
 
-Run the ExportAnimation action.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="FractureEquivalentSIFSRangeProbe.ClearGeneratedData"></a>
-
-### FractureEquivalentSIFSRangeProbe.ClearGeneratedData()
-
-Run the ClearGeneratedData action.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="FractureEquivalentSIFSRangeProbe.DuplicateWithoutResults"></a>
-
-### FractureEquivalentSIFSRangeProbe.DuplicateWithoutResults()
-
-Run the DuplicateWithoutResults action.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="FractureEquivalentSIFSRangeProbe.EvaluateAllResults"></a>
-
-### FractureEquivalentSIFSRangeProbe.EvaluateAllResults()
-
-Run the EvaluateAllResults action.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="FractureEquivalentSIFSRangeProbe.SnapToMeshNodes"></a>
-
-### FractureEquivalentSIFSRangeProbe.SnapToMeshNodes()
-
-Snap the coordinates of probe result to the mesh nodes.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="FractureEquivalentSIFSRangeProbe.RenameBasedOnDefinition"></a>
-
-### FractureEquivalentSIFSRangeProbe.RenameBasedOnDefinition()
-
-Run the RenameBasedOnDefinition action.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="FractureEquivalentSIFSRangeProbe.Delete"></a>
-
-### FractureEquivalentSIFSRangeProbe.Delete()
-
-Run the Delete action.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="FractureEquivalentSIFSRangeProbe.GetChildren"></a>
-
-### FractureEquivalentSIFSRangeProbe.GetChildren(recurses: System.Boolean, children: System.Collections.Generic.IList[ChildrenType])
-
-Gets the list of children, filtered by type.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="id1"></a>
-
-### FractureEquivalentSIFSRangeProbe.GetChildren(category: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../../../v241/Ansys/Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory), recurses: System.Boolean, children: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject])
-
-Gets the list of children, filtered by type.
+Activate the current object.
 
 <!-- !! processed by numpydoc !! -->
 
@@ -605,17 +531,19 @@ Creates a new child Figure.
 
 ### FractureEquivalentSIFSRangeProbe.AddImage(filePath: System.String)
 
+```text
 Creates a new child Image.
 If a filePath is provided, the image will be loaded from that file,
 if not, the image will be a screen capture of the Geometry window.
+```
 
 <!-- !! processed by numpydoc !! -->
 
-<a id="FractureEquivalentSIFSRangeProbe.Activate"></a>
+<a id="FractureEquivalentSIFSRangeProbe.ClearGeneratedData"></a>
 
-### FractureEquivalentSIFSRangeProbe.Activate()
+### FractureEquivalentSIFSRangeProbe.ClearGeneratedData()
 
-Activate the current object.
+Run the ClearGeneratedData action.
 
 <!-- !! processed by numpydoc !! -->
 
@@ -627,11 +555,67 @@ Copies all visible properties from this object to another.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="FractureEquivalentSIFSRangeProbe.CreateParameter"></a>
+
+### FractureEquivalentSIFSRangeProbe.CreateParameter(propName: System.String)
+
+Creates a new parameter for a Property.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="FractureEquivalentSIFSRangeProbe.Delete"></a>
+
+### FractureEquivalentSIFSRangeProbe.Delete()
+
+Run the Delete action.
+
+<!-- !! processed by numpydoc !! -->
+
 <a id="FractureEquivalentSIFSRangeProbe.Duplicate"></a>
 
 ### FractureEquivalentSIFSRangeProbe.Duplicate()
 
 Creates a copy of the current DataModelObject.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="FractureEquivalentSIFSRangeProbe.DuplicateWithoutResults"></a>
+
+### FractureEquivalentSIFSRangeProbe.DuplicateWithoutResults()
+
+Run the DuplicateWithoutResults action.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="FractureEquivalentSIFSRangeProbe.EvaluateAllResults"></a>
+
+### FractureEquivalentSIFSRangeProbe.EvaluateAllResults()
+
+Run the EvaluateAllResults action.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="FractureEquivalentSIFSRangeProbe.ExportAnimation"></a>
+
+### FractureEquivalentSIFSRangeProbe.ExportAnimation(filePath: System.String, format: [Ansys.Mechanical.DataModel.Enums.GraphicsAnimationExportFormat](../../../../../Mechanical/DataModel/Enums/GraphicsAnimationExportFormat.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.GraphicsAnimationExportFormat), settings: [Ansys.Mechanical.Graphics.AnimationExportSettings](../../../../../Mechanical/Graphics/AnimationExportSettings.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.Graphics.AnimationExportSettings))
+
+Run the ExportAnimation action.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="FractureEquivalentSIFSRangeProbe.GetChildren"></a>
+
+### FractureEquivalentSIFSRangeProbe.GetChildren(recurses: System.Boolean, children: System.Collections.Generic.IList[ChildrenType])
+
+Gets the list of children, filtered by type.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="FractureEquivalentSIFSRangeProbe.GetParameter"></a>
+
+### FractureEquivalentSIFSRangeProbe.GetParameter(propName: System.String)
+
+Gets the parameter corresponding to the given property.
 
 <!-- !! processed by numpydoc !! -->
 
@@ -651,6 +635,17 @@ Run the GroupSimilarObjects action.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="FractureEquivalentSIFSRangeProbe.PropertyByAPIName"></a>
+
+### FractureEquivalentSIFSRangeProbe.PropertyByAPIName(name: System.String)
+
+```text
+Get a property by its API name.
+If multiple properties have the same API Name, only the first property with that name will be returned.
+```
+
+<!-- !! processed by numpydoc !! -->
+
 <a id="FractureEquivalentSIFSRangeProbe.PropertyByName"></a>
 
 ### FractureEquivalentSIFSRangeProbe.PropertyByName(name: System.String)
@@ -659,36 +654,27 @@ Get a property by its unique name.
 
 <!-- !! processed by numpydoc !! -->
 
-<a id="FractureEquivalentSIFSRangeProbe.PropertyByAPIName"></a>
-
-### FractureEquivalentSIFSRangeProbe.PropertyByAPIName(name: System.String)
-
-Get a property by its API name.
-If multiple properties have the same API Name, only the first property with that name will be returned.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="FractureEquivalentSIFSRangeProbe.CreateParameter"></a>
-
-### FractureEquivalentSIFSRangeProbe.CreateParameter(propName: System.String)
-
-Creates a new parameter for a Property.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="FractureEquivalentSIFSRangeProbe.GetParameter"></a>
-
-### FractureEquivalentSIFSRangeProbe.GetParameter(propName: System.String)
-
-Gets the parameter corresponding to the given property.
-
-<!-- !! processed by numpydoc !! -->
-
 <a id="FractureEquivalentSIFSRangeProbe.RemoveParameter"></a>
 
 ### FractureEquivalentSIFSRangeProbe.RemoveParameter(propName: System.String)
 
 Removes the parameter from the parameter set corresponding to the given property.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="FractureEquivalentSIFSRangeProbe.RenameBasedOnDefinition"></a>
+
+### FractureEquivalentSIFSRangeProbe.RenameBasedOnDefinition()
+
+Run the RenameBasedOnDefinition action.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="FractureEquivalentSIFSRangeProbe.SnapToMeshNodes"></a>
+
+### FractureEquivalentSIFSRangeProbe.SnapToMeshNodes()
+
+Snap the coordinates of probe result to the mesh nodes.
 
 <!-- !! processed by numpydoc !! -->
 

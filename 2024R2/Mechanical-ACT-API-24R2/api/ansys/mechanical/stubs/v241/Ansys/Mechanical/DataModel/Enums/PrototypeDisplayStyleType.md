@@ -1,6 +1,6 @@
 # `PrototypeDisplayStyleType`
 
-
+<a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.PrototypeDisplayStyleType"></a>
 
 #### *class* ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.PrototypeDisplayStyleType
 
@@ -17,15 +17,15 @@ Specifies the PrototypeDisplayStyleType.
 ### Attributes
 
 | Name |
-| -------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| [`AssemblyColor`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/PrototypeDisplayStyleType.md#PrototypeDisplayStyleType.AssemblyColor) |
-| [`BodyColor`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/PrototypeDisplayStyleType.md#PrototypeDisplayStyleType.BodyColor) |
-| [`Material`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/PrototypeDisplayStyleType.md#PrototypeDisplayStyleType.Material) |
-| [`NonLinearMaterialEffects`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/PrototypeDisplayStyleType.md#PrototypeDisplayStyleType.NonLinearMaterialEffects) |
-| [`PartColor`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/PrototypeDisplayStyleType.md#PrototypeDisplayStyleType.PartColor) |
-| [`StiffnessBehavior`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/PrototypeDisplayStyleType.md#PrototypeDisplayStyleType.StiffnessBehavior) |
-| [`ShellThickness`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/PrototypeDisplayStyleType.md#PrototypeDisplayStyleType.ShellThickness) |
-| [`VisibleThickness`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/PrototypeDisplayStyleType.md#PrototypeDisplayStyleType.VisibleThickness) |
+| ----------------------------------------------------------------------------------- |
+| [`AssemblyColor`](#PrototypeDisplayStyleType.AssemblyColor) |
+| [`BodyColor`](#PrototypeDisplayStyleType.BodyColor) |
+| [`Material`](#PrototypeDisplayStyleType.Material) |
+| [`NonLinearMaterialEffects`](#PrototypeDisplayStyleType.NonLinearMaterialEffects) |
+| [`PartColor`](#PrototypeDisplayStyleType.PartColor) |
+| [`ShellThickness`](#PrototypeDisplayStyleType.ShellThickness) |
+| [`StiffnessBehavior`](#PrototypeDisplayStyleType.StiffnessBehavior) |
+| [`VisibleThickness`](#PrototypeDisplayStyleType.VisibleThickness) |
 
 <a id="attribute-detail"></a>
 
@@ -51,13 +51,13 @@ Specifies the PrototypeDisplayStyleType.
 
 ### PrototypeDisplayStyleType.PartColor *= 5*
 
-<a id="PrototypeDisplayStyleType.StiffnessBehavior"></a>
-
-### PrototypeDisplayStyleType.StiffnessBehavior *= 4*
-
 <a id="PrototypeDisplayStyleType.ShellThickness"></a>
 
 ### PrototypeDisplayStyleType.ShellThickness *= 1*
+
+<a id="PrototypeDisplayStyleType.StiffnessBehavior"></a>
+
+### PrototypeDisplayStyleType.StiffnessBehavior *= 4*
 
 <a id="PrototypeDisplayStyleType.VisibleThickness"></a>
 

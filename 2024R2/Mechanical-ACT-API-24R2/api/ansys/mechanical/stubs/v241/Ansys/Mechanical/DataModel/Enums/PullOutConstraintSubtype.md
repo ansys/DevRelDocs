@@ -1,6 +1,6 @@
 # `PullOutConstraintSubtype`
 
-
+<a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.PullOutConstraintSubtype"></a>
 
 #### *class* ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.PullOutConstraintSubtype
 
@@ -17,10 +17,10 @@ Specifies the PullOutConstraintSubtype.
 ### Attributes
 
 | Name |
-| ---------------------------------------------------------------------------------------------------------------------------------- |
-| [`NoHole`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/PullOutConstraintSubtype.md#PullOutConstraintSubtype.NoHole) |
-| [`NoOption`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/PullOutConstraintSubtype.md#PullOutConstraintSubtype.NoOption) |
-| [`Stamping`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/PullOutConstraintSubtype.md#PullOutConstraintSubtype.Stamping) |
+| -------------------------------------------------- |
+| [`NoHole`](#PullOutConstraintSubtype.NoHole) |
+| [`NoOption`](#PullOutConstraintSubtype.NoOption) |
+| [`Stamping`](#PullOutConstraintSubtype.Stamping) |
 
 <a id="attribute-detail"></a>
 

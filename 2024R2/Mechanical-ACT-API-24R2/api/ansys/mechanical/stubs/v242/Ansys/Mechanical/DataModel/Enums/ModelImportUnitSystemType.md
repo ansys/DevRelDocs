@@ -1,6 +1,6 @@
 # `ModelImportUnitSystemType`
 
-
+<a id="ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.ModelImportUnitSystemType"></a>
 
 #### *class* ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.ModelImportUnitSystemType
 
@@ -17,7 +17,7 @@ To select the Unit System Type for the Model Import File being imported.
 ### Attributes
 
 | Name |
-| --------------------------------------------------------------------------------------------- |
+| ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
 | [`UnitSystemConsistentBFT`](#ModelImportUnitSystemType.UnitSystemConsistentBFT) |
 | [`UnitSystemConsistentBIN`](#ModelImportUnitSystemType.UnitSystemConsistentBIN) |
 | [`UnitSystemConsistentCGS`](#ModelImportUnitSystemType.UnitSystemConsistentCGS) |

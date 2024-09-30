@@ -1,6 +1,6 @@
 # `CommandsType`
 
-
+<a id="ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.FE.CommandsType"></a>
 
 #### *class* ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.FE.CommandsType
 
@@ -18,13 +18,17 @@ Commands type.
 
 | Name |
 | -------------------------------------------- |
+| [`All`](#CommandsType.All) |
 | [`Processed`](#CommandsType.Processed) |
 | [`UnProcessed`](#CommandsType.UnProcessed) |
-| [`All`](#CommandsType.All) |
 
 <a id="attribute-detail"></a>
 
 ## Attribute detail
+
+<a id="CommandsType.All"></a>
+
+### CommandsType.All *= 3*
 
 <a id="CommandsType.Processed"></a>
 
@@ -33,9 +37,5 @@ Commands type.
 <a id="CommandsType.UnProcessed"></a>
 
 ### CommandsType.UnProcessed *= 2*
-
-<a id="CommandsType.All"></a>
-
-### CommandsType.All *= 3*
 
 

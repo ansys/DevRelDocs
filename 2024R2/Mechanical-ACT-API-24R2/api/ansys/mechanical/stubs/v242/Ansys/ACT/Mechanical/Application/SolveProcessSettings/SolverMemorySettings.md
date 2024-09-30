@@ -1,6 +1,6 @@
 # `SolverMemorySettings`
 
-
+<a id="ansys.mechanical.stubs.v242.Ansys.ACT.Mechanical.Application.SolveProcessSettings.SolverMemorySettings"></a>
 
 #### *class* ansys.mechanical.stubs.v242.Ansys.ACT.Mechanical.Application.SolveProcessSettings.SolverMemorySettings
 
@@ -17,10 +17,10 @@ The class representing the solver memory settings portion of the solve process s
 ### Properties
 
 | Name | Description |
-|------------------------------------------------|--------------------------------------------------|
+|----------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------|
 | [`Active`](#SolverMemorySettings.Active)       | Whether the solver memory settings are active.   |
-| [`Workspace`](#SolverMemorySettings.Workspace) | Workspace size.                                  |
 | [`Database`](#SolverMemorySettings.Database)   | Database size.                                   |
+| [`Workspace`](#SolverMemorySettings.Workspace) | Workspace size.                                  |
 
 <a id="property-detail"></a>
 
@@ -34,19 +34,19 @@ Whether the solver memory settings are active.
 
 <!-- !! processed by numpydoc !! -->
 
-<a id="SolverMemorySettings.Workspace"></a>
-
-### *property* SolverMemorySettings.Workspace *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Workspace size.
-
-<!-- !! processed by numpydoc !! -->
-
 <a id="SolverMemorySettings.Database"></a>
 
 ### *property* SolverMemorySettings.Database *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Database size.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="SolverMemorySettings.Workspace"></a>
+
+### *property* SolverMemorySettings.Workspace *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Workspace size.
 
 <!-- !! processed by numpydoc !! -->
 

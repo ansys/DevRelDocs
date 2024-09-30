@@ -1,6 +1,6 @@
 # `CondensedPartPhysics`
 
-
+<a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.CondensedPartPhysics"></a>
 
 #### *class* ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.CondensedPartPhysics
 
@@ -17,9 +17,9 @@ Specifies the CondensedPartPhysics.
 ### Attributes
 
 | Name |
-| -------------------------------------------------------------------------------------------------------------------------------- |
-| [`Structural`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/CondensedPartPhysics.md#CondensedPartPhysics.Structural) |
-| [`Thermal`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/CondensedPartPhysics.md#CondensedPartPhysics.Thermal) |
+| ---------------------------------------------------- |
+| [`Structural`](#CondensedPartPhysics.Structural) |
+| [`Thermal`](#CondensedPartPhysics.Thermal) |
 
 <a id="attribute-detail"></a>
 

@@ -1,6 +1,6 @@
 # `SolverData`
 
-
+<a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.SolverData.SolverData"></a>
 
 #### *class* ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.SolverData.SolverData
 
@@ -17,8 +17,8 @@ SolverData class.
 ### Methods
 
 | Name | Description |
-|-----------------------------------------------------------------------------------------------------------------------|-------------------------|
-| [`GetObjectData`](../../../../../v242/Ansys/Mechanical/DataModel/SolverData/SolverData.md#SolverData.GetObjectData)   | Gets the object data.   |
+|------------------------------------------------|-------------------------|
+| [`GetObjectData`](#SolverData.GetObjectData)   | Gets the object data.   |
 
 <a id="method-detail"></a>
 

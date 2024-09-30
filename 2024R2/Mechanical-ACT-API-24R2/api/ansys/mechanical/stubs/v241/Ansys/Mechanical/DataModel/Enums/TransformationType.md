@@ -1,6 +1,6 @@
 # `TransformationType`
 
-
+<a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.TransformationType"></a>
 
 #### *class* ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.TransformationType
 
@@ -17,11 +17,11 @@ Specifies the TransformationType.
 ### Attributes
 
 | Name |
-| ---------------------------------------------------------------------------------------------------------------------- |
-| [`Custom`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/TransformationType.md#TransformationType.Custom) |
-| [`Flip`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/TransformationType.md#TransformationType.Flip) |
-| [`Offset`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/TransformationType.md#TransformationType.Offset) |
-| [`Rotation`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/TransformationType.md#TransformationType.Rotation) |
+| -------------------------------------------- |
+| [`Custom`](#TransformationType.Custom) |
+| [`Flip`](#TransformationType.Flip) |
+| [`Offset`](#TransformationType.Offset) |
+| [`Rotation`](#TransformationType.Rotation) |
 
 <a id="attribute-detail"></a>
 

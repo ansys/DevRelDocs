@@ -1,6 +1,6 @@
 # `AnalysisSettingsGraph`
 
-
+<a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.Graphics.AnalysisSettingsGraph"></a>
 
 #### *class* ansys.mechanical.stubs.v241.Ansys.Mechanical.Graphics.AnalysisSettingsGraph
 
@@ -17,8 +17,8 @@ AnalysisSettingsGraph class.
 ### Properties
 
 | Name | Description |
-|----------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------|
-| [`BoundaryConditionVisibility`](../../../../v242/Ansys/Mechanical/Graphics/AnalysisSettingsGraph.md#AnalysisSettingsGraph.BoundaryConditionVisibility)   | BoundaryConditionVisibility property.   |
+|---------------------------------------------------------------------------------------|-----------------------------------------|
+| [`BoundaryConditionVisibility`](#AnalysisSettingsGraph.BoundaryConditionVisibility)   | BoundaryConditionVisibility property.   |
 
 <a id="property-detail"></a>
 

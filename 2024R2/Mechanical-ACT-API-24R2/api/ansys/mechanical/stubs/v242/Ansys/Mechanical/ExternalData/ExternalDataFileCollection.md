@@ -1,10 +1,13 @@
 # `ExternalDataFileCollection`
 
-
+<a id="ansys.mechanical.stubs.v242.Ansys.Mechanical.ExternalData.ExternalDataFileCollection"></a>
 
 #### *class* ansys.mechanical.stubs.v242.Ansys.Mechanical.ExternalData.ExternalDataFileCollection
 
 Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
+
+T:Ansys.Mechanical.ExternalData.ExternalDataFileCollection is a class that provides foundational behavior for
+holding external data files.
 
 <!-- !! processed by numpydoc !! -->
 
@@ -15,7 +18,7 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 ### Methods
 
 | Name | Description |
-|--------------------------------------------------------------|----------------|
+|------------------------------------------------------------------------------------------------------------------------------------------|----------------|
 | [`Add`](#ExternalDataFileCollection.Add)                     |                |
 | [`Clear`](#ExternalDataFileCollection.Clear)                 |                |
 | [`Contains`](#ExternalDataFileCollection.Contains)           |                |
@@ -29,14 +32,30 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 ### Properties
 
 | Name | Description |
-|------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------|
-| [`SaveFilesWithProject`](#ExternalDataFileCollection.SaveFilesWithProject)   | Gets or sets the flag controlling if the external data files will be copied to the project directory.   |
-| [`Item`](#ExternalDataFileCollection.Item)                                   | Item property.                                                                                          |
-| [`Count`](#ExternalDataFileCollection.Count)                                 | Gets the number of external data files.                                                                 |
+|--------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------|
+| [`Count`](#ExternalDataFileCollection.Count)                               | Gets the number of external data files.                                                               |
+| [`Item`](#ExternalDataFileCollection.Item)                                 | Item property.                                                                                        |
+| [`SaveFilesWithProject`](#ExternalDataFileCollection.SaveFilesWithProject) | Gets or sets the flag controlling if the external data files will be copied to the project directory. |
 
 <a id="property-detail"></a>
 
 ## Property detail
+
+<a id="ExternalDataFileCollection.Count"></a>
+
+### *property* ExternalDataFileCollection.Count *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets the number of external data files.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ExternalDataFileCollection.Item"></a>
+
+### *property* ExternalDataFileCollection.Item *: [Ansys.Mechanical.ExternalData.ExternalDataFile](ExternalDataFile.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.ExternalData.ExternalDataFile) | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Item property.
+
+<!-- !! processed by numpydoc !! -->
 
 <a id="ExternalDataFileCollection.SaveFilesWithProject"></a>
 
@@ -48,29 +67,13 @@ The default is False.
 
 <!-- !! processed by numpydoc !! -->
 
-<a id="ExternalDataFileCollection.Item"></a>
-
-### *property* ExternalDataFileCollection.Item *: [Ansys.Mechanical.ExternalData.ExternalDataFile](../../../../v241/Ansys/Mechanical/ExternalData/ExternalDataFile.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.ExternalData.ExternalDataFile) | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Item property.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="ExternalDataFileCollection.Count"></a>
-
-### *property* ExternalDataFileCollection.Count *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets the number of external data files.
-
-<!-- !! processed by numpydoc !! -->
-
 <a id="method-detail"></a>
 
 ## Method detail
 
 <a id="ExternalDataFileCollection.Add"></a>
 
-### ExternalDataFileCollection.Add(item: [Ansys.Mechanical.ExternalData.ExternalDataFile](../../../../v241/Ansys/Mechanical/ExternalData/ExternalDataFile.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.ExternalData.ExternalDataFile))
+### ExternalDataFileCollection.Add(item: [Ansys.Mechanical.ExternalData.ExternalDataFile](ExternalDataFile.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.ExternalData.ExternalDataFile))
 
 <a id="ExternalDataFileCollection.Clear"></a>
 
@@ -78,11 +81,11 @@ Gets the number of external data files.
 
 <a id="ExternalDataFileCollection.Contains"></a>
 
-### ExternalDataFileCollection.Contains(item: [Ansys.Mechanical.ExternalData.ExternalDataFile](../../../../v241/Ansys/Mechanical/ExternalData/ExternalDataFile.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.ExternalData.ExternalDataFile))
+### ExternalDataFileCollection.Contains(item: [Ansys.Mechanical.ExternalData.ExternalDataFile](ExternalDataFile.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.ExternalData.ExternalDataFile))
 
 <a id="ExternalDataFileCollection.CopyTo"></a>
 
-### ExternalDataFileCollection.CopyTo(array: [Ansys.Mechanical.ExternalData.ExternalDataFile](../../../../v241/Ansys/Mechanical/ExternalData/ExternalDataFile.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.ExternalData.ExternalDataFile), arrayIndex: System.Int32)
+### ExternalDataFileCollection.CopyTo(array: [Ansys.Mechanical.ExternalData.ExternalDataFile](ExternalDataFile.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.ExternalData.ExternalDataFile), arrayIndex: System.Int32)
 
 CopyTo method.
 
@@ -94,15 +97,15 @@ CopyTo method.
 
 <a id="ExternalDataFileCollection.IndexOf"></a>
 
-### ExternalDataFileCollection.IndexOf(item: [Ansys.Mechanical.ExternalData.ExternalDataFile](../../../../v241/Ansys/Mechanical/ExternalData/ExternalDataFile.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.ExternalData.ExternalDataFile))
+### ExternalDataFileCollection.IndexOf(item: [Ansys.Mechanical.ExternalData.ExternalDataFile](ExternalDataFile.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.ExternalData.ExternalDataFile))
 
 <a id="ExternalDataFileCollection.Insert"></a>
 
-### ExternalDataFileCollection.Insert(index: System.Int32, item: [Ansys.Mechanical.ExternalData.ExternalDataFile](../../../../v241/Ansys/Mechanical/ExternalData/ExternalDataFile.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.ExternalData.ExternalDataFile))
+### ExternalDataFileCollection.Insert(index: System.Int32, item: [Ansys.Mechanical.ExternalData.ExternalDataFile](ExternalDataFile.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.ExternalData.ExternalDataFile))
 
 <a id="ExternalDataFileCollection.Remove"></a>
 
-### ExternalDataFileCollection.Remove(item: [Ansys.Mechanical.ExternalData.ExternalDataFile](../../../../v241/Ansys/Mechanical/ExternalData/ExternalDataFile.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.ExternalData.ExternalDataFile))
+### ExternalDataFileCollection.Remove(item: [Ansys.Mechanical.ExternalData.ExternalDataFile](ExternalDataFile.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.ExternalData.ExternalDataFile))
 
 <a id="ExternalDataFileCollection.RemoveAt"></a>
 

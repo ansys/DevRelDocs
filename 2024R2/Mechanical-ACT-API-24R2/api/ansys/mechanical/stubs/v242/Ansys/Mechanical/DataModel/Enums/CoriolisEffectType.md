@@ -1,6 +1,6 @@
 # `CoriolisEffectType`
 
-
+<a id="ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.CoriolisEffectType"></a>
 
 #### *class* ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.CoriolisEffectType
 
@@ -17,7 +17,7 @@ Specifies the CoriolisEffectType.
 ### Attributes
 
 | Name |
-| -------------------------------------------------------------------------------- |
+| ---------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | [`Off`](#CoriolisEffectType.Off) |
 | [`OnRotatingReferenceFrame`](#CoriolisEffectType.OnRotatingReferenceFrame) |
 | [`OnStationaryReferenceFrame`](#CoriolisEffectType.OnStationaryReferenceFrame) |

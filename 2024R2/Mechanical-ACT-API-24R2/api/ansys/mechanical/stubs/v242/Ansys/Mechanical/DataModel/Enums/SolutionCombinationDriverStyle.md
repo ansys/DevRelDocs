@@ -1,6 +1,6 @@
 # `SolutionCombinationDriverStyle`
 
-
+<a id="ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.SolutionCombinationDriverStyle"></a>
 
 #### *class* ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.SolutionCombinationDriverStyle
 
@@ -17,7 +17,7 @@ Specifies the SolutionCombinationDriverStyle.
 ### Attributes
 
 | Name |
-| -------------------------------------------------------------------------------------- |
+| ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | [`CombinationOfMaximum`](#SolutionCombinationDriverStyle.CombinationOfMaximum) |
 | [`CombinationOfMinimum`](#SolutionCombinationDriverStyle.CombinationOfMinimum) |
 | [`Default`](#SolutionCombinationDriverStyle.Default) |

@@ -1,6 +1,6 @@
 # `NonlinearAdaptivityControlsRefinementAlgorithmType`
 
-
+<a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.NonlinearAdaptivityControlsRefinementAlgorithmType"></a>
 
 #### *class* ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.NonlinearAdaptivityControlsRefinementAlgorithmType
 
@@ -17,9 +17,9 @@ Specifies the NonlinearAdaptivityControlsRefinementAlgorithmType.
 ### Attributes
 
 | Name |
-| -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| [`GeneralRemeshing`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/NonlinearAdaptivityControlsRefinementAlgorithmType.md#NonlinearAdaptivityControlsRefinementAlgorithmType.GeneralRemeshing) |
-| [`MeshSplitting`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/NonlinearAdaptivityControlsRefinementAlgorithmType.md#NonlinearAdaptivityControlsRefinementAlgorithmType.MeshSplitting) |
+| ---------------------------------------------------------------------------------------------- |
+| [`GeneralRemeshing`](#NonlinearAdaptivityControlsRefinementAlgorithmType.GeneralRemeshing) |
+| [`MeshSplitting`](#NonlinearAdaptivityControlsRefinementAlgorithmType.MeshSplitting) |
 
 <a id="attribute-detail"></a>
 

@@ -1,6 +1,6 @@
 # `FormulationType`
 
-
+<a id="ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.FormulationType"></a>
 
 #### *class* ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.FormulationType
 
@@ -17,18 +17,14 @@ Specifies the FormulationType.
 ### Attributes
 
 | Name |
-| ----------------------------------------------------------- |
-| [`SmallRotation`](#FormulationType.SmallRotation) |
+| ---------------------------------------------------------------------------------------------------------------------------------- |
 | [`Joint`](#FormulationType.Joint) |
 | [`ProgramControlled`](#FormulationType.ProgramControlled) |
+| [`SmallRotation`](#FormulationType.SmallRotation) |
 
 <a id="attribute-detail"></a>
 
 ## Attribute detail
-
-<a id="FormulationType.SmallRotation"></a>
-
-### FormulationType.SmallRotation *= 1*
 
 <a id="FormulationType.Joint"></a>
 
@@ -37,5 +33,9 @@ Specifies the FormulationType.
 <a id="FormulationType.ProgramControlled"></a>
 
 ### FormulationType.ProgramControlled *= 0*
+
+<a id="FormulationType.SmallRotation"></a>
+
+### FormulationType.SmallRotation *= 1*
 
 

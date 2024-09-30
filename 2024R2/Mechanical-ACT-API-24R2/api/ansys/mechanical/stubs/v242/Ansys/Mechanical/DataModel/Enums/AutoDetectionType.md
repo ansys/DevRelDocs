@@ -1,6 +1,6 @@
 # `AutoDetectionType`
 
-
+<a id="ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.AutoDetectionType"></a>
 
 #### *class* ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.AutoDetectionType
 
@@ -17,7 +17,7 @@ Specifies the AutoDetectionType.
 ### Attributes
 
 | Name |
-| ------------------------------------------- |
+| -------------------------------------------------------------------------------------------------------------------- |
 | [`Contact`](#AutoDetectionType.Contact) |
 | [`Joint`](#AutoDetectionType.Joint) |
 

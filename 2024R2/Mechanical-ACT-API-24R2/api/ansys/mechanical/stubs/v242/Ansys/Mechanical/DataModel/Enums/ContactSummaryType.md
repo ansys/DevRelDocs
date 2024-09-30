@@ -1,6 +1,6 @@
 # `ContactSummaryType`
 
-
+<a id="ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.ContactSummaryType"></a>
 
 #### *class* ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.ContactSummaryType
 
@@ -17,7 +17,7 @@ Specifies the ContactSummaryType.
 ### Attributes
 
 | Name |
-| -------------------------------------------------------------- |
+| ---------------------------------------------------------------------------------------------------------------------------------------- |
 | [`CNMFile`](#ContactSummaryType.CNMFile) |
 | [`ProgramControlled`](#ContactSummaryType.ProgramControlled) |
 | [`SolverOutput`](#ContactSummaryType.SolverOutput) |

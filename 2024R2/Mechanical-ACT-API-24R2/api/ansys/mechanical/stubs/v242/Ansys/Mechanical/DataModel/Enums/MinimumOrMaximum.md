@@ -1,6 +1,6 @@
 # `MinimumOrMaximum`
 
-
+<a id="ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.MinimumOrMaximum"></a>
 
 #### *class* ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.MinimumOrMaximum
 
@@ -17,7 +17,7 @@ Specifies the MinimumOrMaximum.
 ### Attributes
 
 | Name |
-| ------------------------------------------ |
+| ------------------------------------------------------------------------------------------------------------------ |
 | [`Maximum`](#MinimumOrMaximum.Maximum) |
 | [`Minimum`](#MinimumOrMaximum.Minimum) |
 

@@ -1,6 +1,6 @@
 # `DataTransferType`
 
-
+<a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.MechanicalEnums.MeshWorkflow.DataTransferType"></a>
 
 #### *class* ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.MechanicalEnums.MeshWorkflow.DataTransferType
 
@@ -17,10 +17,10 @@ This enum is referenced in the “Output” tree node and defines how the genera
 ### Attributes
 
 | Name |
-| -------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| [`ByTopology`](../../../../../../v242/Ansys/Mechanical/DataModel/MechanicalEnums/MeshWorkflow/DataTransferType.md#DataTransferType.ByTopology) |
-| [`ByZones`](../../../../../../v242/Ansys/Mechanical/DataModel/MechanicalEnums/MeshWorkflow/DataTransferType.md#DataTransferType.ByZones) |
-| [`ProgramControlled`](../../../../../../v242/Ansys/Mechanical/DataModel/MechanicalEnums/MeshWorkflow/DataTransferType.md#DataTransferType.ProgramControlled) |
+| ------------------------------------------------------------ |
+| [`ByTopology`](#DataTransferType.ByTopology) |
+| [`ByZones`](#DataTransferType.ByZones) |
+| [`ProgramControlled`](#DataTransferType.ProgramControlled) |
 
 <a id="attribute-detail"></a>
 

@@ -1,6 +1,6 @@
 # `ContactDetection`
 
-
+<a id="ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.ContactDetection"></a>
 
 #### *class* ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.ContactDetection
 
@@ -17,7 +17,7 @@ Specifies the ContactDetection.
 ### Attributes
 
 | Name |
-| -------------------------------------------------------- |
+| -------------------------------------------------------------------------------------------------------------------------------- |
 | [`ProximityBased`](#ContactDetection.ProximityBased) |
 | [`Trajectory`](#ContactDetection.Trajectory) |
 

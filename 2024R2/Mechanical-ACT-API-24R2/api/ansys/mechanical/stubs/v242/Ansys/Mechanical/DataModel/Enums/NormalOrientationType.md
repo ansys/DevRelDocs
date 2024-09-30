@@ -1,6 +1,6 @@
 # `NormalOrientationType`
 
-
+<a id="ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.NormalOrientationType"></a>
 
 #### *class* ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.NormalOrientationType
 
@@ -17,7 +17,7 @@ Specifies the NormalOrientationType.
 ### Attributes
 
 | Name |
-| --------------------------------------------- |
+| -------------------------------------------------------------------------------------------------------------------------- |
 | [`None_`](#NormalOrientationType.None_) |
 | [`Total`](#NormalOrientationType.Total) |
 | [`XAxis`](#NormalOrientationType.XAxis) |

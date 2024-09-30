@@ -1,6 +1,6 @@
 # `Image`
 
-
+<a id="ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Image"></a>
 
 #### *class* ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Image
 
@@ -18,54 +18,36 @@ Defines a Image.
 
 | Name | Description |
 |-------------------------------------------------------------|-----------------------------------------------------------------------------------|
-| [`Delete`](#Image.Delete)                                   | Run the Delete action.                                                            |
-| [`GetChildren`](#id1)                                       | Gets the list of children, filtered by type.                                      |
-| [`GetChildren`](#id1)                                       | Gets the list of children, filtered by type.                                      |
+| [`Activate`](#Image.Activate)                               | Activate the current object.                                                      |
 | [`AddComment`](#Image.AddComment)                           | Creates a new child Comment.                                                      |
 | [`AddImage`](#Image.AddImage)                               | Creates a new child Image.                                                        |
-| [`Activate`](#Image.Activate)                               | Activate the current object.                                                      |
 | [`CopyTo`](#Image.CopyTo)                                   | Copies all visible properties from this object to another.                        |
+| [`CreateParameter`](#Image.CreateParameter)                 | Creates a new parameter for a Property.                                           |
+| [`Delete`](#Image.Delete)                                   | Run the Delete action.                                                            |
 | [`Duplicate`](#Image.Duplicate)                             | Creates a copy of the current DataModelObject.                                    |
+| [`GetChildren`](#Image.GetChildren)                         | Gets the list of children, filtered by type.                                      |
+| [`GetParameter`](#Image.GetParameter)                       | Gets the parameter corresponding to the given property.                           |
 | [`GroupAllSimilarChildren`](#Image.GroupAllSimilarChildren) | Run the GroupAllSimilarChildren action.                                           |
 | [`GroupSimilarObjects`](#Image.GroupSimilarObjects)         | Run the GroupSimilarObjects action.                                               |
-| [`PropertyByName`](#Image.PropertyByName)                   | Get a property by its unique name.                                                |
 | [`PropertyByAPIName`](#Image.PropertyByAPIName)             | Get a property by its API name.                                                   |
-| [`CreateParameter`](#Image.CreateParameter)                 | Creates a new parameter for a Property.                                           |
-| [`GetParameter`](#Image.GetParameter)                       | Gets the parameter corresponding to the given property.                           |
+| [`PropertyByName`](#Image.PropertyByName)                   | Get a property by its unique name.                                                |
 | [`RemoveParameter`](#Image.RemoveParameter)                 | Removes the parameter from the parameter set corresponding to the given property. |
 
 ### Properties
 
 | Name | Description |
 |-------------------------------------------------------------|---------------------------------------------------------------|
-| [`InternalObject`](#id0)                                    | Gets the internal object. For advanced usage only.            |
-| [`DataModelObjectCategory`](#Image.DataModelObjectCategory) | Gets the current DataModelObject's category.                  |
 | [`Children`](#Image.Children)                               | Gets the list of children.                                    |
 | [`Comments`](#Image.Comments)                               | Gets the list of associated comments.                         |
+| [`DataModelObjectCategory`](#Image.DataModelObjectCategory) | Gets the current DataModelObject’s category.                  |
 | [`Images`](#Image.Images)                                   | Gets the list of associated images.                           |
-| [`InternalObject`](#id0)                                    | Gets the internal object. For advanced usage only.            |
+| [`InternalObject`](#Image.InternalObject)                   | Gets the internal object. For advanced usage only.            |
 | [`Properties`](#Image.Properties)                           | Gets the list of properties for this object.                  |
 | [`VisibleProperties`](#Image.VisibleProperties)             | Gets the list of properties that are visible for this object. |
 
 <a id="property-detail"></a>
 
 ## Property detail
-
-<a id="Image.InternalObject"></a>
-
-### *property* Image.InternalObject *: Ansys.Common.Interop.DSObjectsAuto.IDSAdvancedPostOutputAuto | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets the internal object. For advanced usage only.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="Image.DataModelObjectCategory"></a>
-
-### *property* Image.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../v241/Ansys/Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets the current DataModelObject's category.
-
-<!-- !! processed by numpydoc !! -->
 
 <a id="Image.Children"></a>
 
@@ -83,6 +65,14 @@ Gets the list of associated comments.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="Image.DataModelObjectCategory"></a>
+
+### *property* Image.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets the current DataModelObject’s category.
+
+<!-- !! processed by numpydoc !! -->
+
 <a id="Image.Images"></a>
 
 ### *property* Image.Images *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Image](../../../../../v241/Ansys/ACT/Automation/Mechanical/Image.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
@@ -91,9 +81,9 @@ Gets the list of associated images.
 
 <!-- !! processed by numpydoc !! -->
 
-<a id="id0"></a>
+<a id="Image.InternalObject"></a>
 
-### *property* Image.InternalObject *: System.Object | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Image.InternalObject *: Ansys.Common.Interop.DSObjectsAuto.IDSAdvancedPostOutputAuto | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the internal object. For advanced usage only.
 
@@ -119,27 +109,11 @@ Gets the list of properties that are visible for this object.
 
 ## Method detail
 
-<a id="Image.Delete"></a>
+<a id="Image.Activate"></a>
 
-### Image.Delete()
+### Image.Activate()
 
-Run the Delete action.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="Image.GetChildren"></a>
-
-### Image.GetChildren(recurses: System.Boolean, children: System.Collections.Generic.IList[ChildrenType])
-
-Gets the list of children, filtered by type.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="id1"></a>
-
-### Image.GetChildren(category: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../v241/Ansys/Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory), recurses: System.Boolean, children: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject])
-
-Gets the list of children, filtered by type.
+Activate the current object.
 
 <!-- !! processed by numpydoc !! -->
 
@@ -155,17 +129,11 @@ Creates a new child Comment.
 
 ### Image.AddImage(filePath: System.String)
 
+```text
 Creates a new child Image.
 If a filePath is provided, the image will be loaded from that file,
 if not, the image will be a screen capture of the Geometry window.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="Image.Activate"></a>
-
-### Image.Activate()
-
-Activate the current object.
+```
 
 <!-- !! processed by numpydoc !! -->
 
@@ -177,11 +145,43 @@ Copies all visible properties from this object to another.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="Image.CreateParameter"></a>
+
+### Image.CreateParameter(propName: System.String)
+
+Creates a new parameter for a Property.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="Image.Delete"></a>
+
+### Image.Delete()
+
+Run the Delete action.
+
+<!-- !! processed by numpydoc !! -->
+
 <a id="Image.Duplicate"></a>
 
 ### Image.Duplicate()
 
 Creates a copy of the current DataModelObject.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="Image.GetChildren"></a>
+
+### Image.GetChildren(recurses: System.Boolean, children: System.Collections.Generic.IList[ChildrenType])
+
+Gets the list of children, filtered by type.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="Image.GetParameter"></a>
+
+### Image.GetParameter(propName: System.String)
+
+Gets the parameter corresponding to the given property.
 
 <!-- !! processed by numpydoc !! -->
 
@@ -201,36 +201,22 @@ Run the GroupSimilarObjects action.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="Image.PropertyByAPIName"></a>
+
+### Image.PropertyByAPIName(name: System.String)
+
+```text
+Get a property by its API name.
+If multiple properties have the same API Name, only the first property with that name will be returned.
+```
+
+<!-- !! processed by numpydoc !! -->
+
 <a id="Image.PropertyByName"></a>
 
 ### Image.PropertyByName(name: System.String)
 
 Get a property by its unique name.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="Image.PropertyByAPIName"></a>
-
-### Image.PropertyByAPIName(name: System.String)
-
-Get a property by its API name.
-If multiple properties have the same API Name, only the first property with that name will be returned.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="Image.CreateParameter"></a>
-
-### Image.CreateParameter(propName: System.String)
-
-Creates a new parameter for a Property.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="Image.GetParameter"></a>
-
-### Image.GetParameter(propName: System.String)
-
-Gets the parameter corresponding to the given property.
 
 <!-- !! processed by numpydoc !! -->
 

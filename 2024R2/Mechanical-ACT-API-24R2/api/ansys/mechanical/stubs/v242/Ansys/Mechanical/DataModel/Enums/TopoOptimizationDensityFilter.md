@@ -1,6 +1,6 @@
 # `TopoOptimizationDensityFilter`
 
-
+<a id="ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.TopoOptimizationDensityFilter"></a>
 
 #### *class* ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.TopoOptimizationDensityFilter
 
@@ -17,7 +17,7 @@ Specifies the TopoOptimizationDensityFilter.
 ### Attributes
 
 | Name |
-| ------------------------------------------------------------------------- |
+| -------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | [`Linear`](#TopoOptimizationDensityFilter.Linear) |
 | [`NonLinear`](#TopoOptimizationDensityFilter.NonLinear) |
 | [`ProgramControlled`](#TopoOptimizationDensityFilter.ProgramControlled) |

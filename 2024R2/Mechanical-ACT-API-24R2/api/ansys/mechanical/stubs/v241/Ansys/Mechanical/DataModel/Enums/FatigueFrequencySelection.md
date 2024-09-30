@@ -1,6 +1,6 @@
 # `FatigueFrequencySelection`
 
-
+<a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.FatigueFrequencySelection"></a>
 
 #### *class* ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.FatigueFrequencySelection
 
@@ -17,18 +17,14 @@ Specifies the EnclosureType.
 ### Attributes
 
 | Name |
-| ------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| [`SingleFrequency`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/FatigueFrequencySelection.md#FatigueFrequencySelection.SingleFrequency) |
-| [`MultipleFrequency`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/FatigueFrequencySelection.md#FatigueFrequencySelection.MultipleFrequency) |
-| [`SineSweep`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/FatigueFrequencySelection.md#FatigueFrequencySelection.SineSweep) |
+| ----------------------------------------------------------------------- |
+| [`MultipleFrequency`](#FatigueFrequencySelection.MultipleFrequency) |
+| [`SineSweep`](#FatigueFrequencySelection.SineSweep) |
+| [`SingleFrequency`](#FatigueFrequencySelection.SingleFrequency) |
 
 <a id="attribute-detail"></a>
 
 ## Attribute detail
-
-<a id="FatigueFrequencySelection.SingleFrequency"></a>
-
-### FatigueFrequencySelection.SingleFrequency *= 0*
 
 <a id="FatigueFrequencySelection.MultipleFrequency"></a>
 
@@ -37,5 +33,9 @@ Specifies the EnclosureType.
 <a id="FatigueFrequencySelection.SineSweep"></a>
 
 ### FatigueFrequencySelection.SineSweep *= 2*
+
+<a id="FatigueFrequencySelection.SingleFrequency"></a>
+
+### FatigueFrequencySelection.SingleFrequency *= 0*
 
 

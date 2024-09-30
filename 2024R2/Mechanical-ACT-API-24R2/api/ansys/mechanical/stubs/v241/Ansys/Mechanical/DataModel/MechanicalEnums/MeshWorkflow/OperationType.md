@@ -1,6 +1,6 @@
 # `OperationType`
 
-
+<a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.MechanicalEnums.MeshWorkflow.OperationType"></a>
 
 #### *class* ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.MechanicalEnums.MeshWorkflow.OperationType
 
@@ -17,20 +17,20 @@ This enum is referenced in the “Step” tree node and reflects the type of ope
 ### Attributes
 
 | Name |
-| -------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| [`CreateEnclosure`](../../../../../../v242/Ansys/Mechanical/DataModel/MechanicalEnums/MeshWorkflow/OperationType.md#OperationType.CreateEnclosure) |
-| [`CreateTopology`](../../../../../../v242/Ansys/Mechanical/DataModel/MechanicalEnums/MeshWorkflow/OperationType.md#OperationType.CreateTopology) |
-| [`Extrude`](../../../../../../v242/Ansys/Mechanical/DataModel/MechanicalEnums/MeshWorkflow/OperationType.md#OperationType.Extrude) |
-| [`FillHoles`](../../../../../../v242/Ansys/Mechanical/DataModel/MechanicalEnums/MeshWorkflow/OperationType.md#OperationType.FillHoles) |
-| [`ImproveSurfaceMesh`](../../../../../../v242/Ansys/Mechanical/DataModel/MechanicalEnums/MeshWorkflow/OperationType.md#OperationType.ImproveSurfaceMesh) |
-| [`ImproveVolumeMesh`](../../../../../../v242/Ansys/Mechanical/DataModel/MechanicalEnums/MeshWorkflow/OperationType.md#OperationType.ImproveVolumeMesh) |
-| [`ManageZoneProperties`](../../../../../../v242/Ansys/Mechanical/DataModel/MechanicalEnums/MeshWorkflow/OperationType.md#OperationType.ManageZoneProperties) |
-| [`MergeVolumes`](../../../../../../v242/Ansys/Mechanical/DataModel/MechanicalEnums/MeshWorkflow/OperationType.md#OperationType.MergeVolumes) |
-| [`ImportMesh`](../../../../../../v242/Ansys/Mechanical/DataModel/MechanicalEnums/MeshWorkflow/OperationType.md#OperationType.ImportMesh) |
-| [`CreateSurfaceMesh`](../../../../../../v242/Ansys/Mechanical/DataModel/MechanicalEnums/MeshWorkflow/OperationType.md#OperationType.CreateSurfaceMesh) |
-| [`CreateVolumeMesh`](../../../../../../v242/Ansys/Mechanical/DataModel/MechanicalEnums/MeshWorkflow/OperationType.md#OperationType.CreateVolumeMesh) |
-| [`Wrap`](../../../../../../v242/Ansys/Mechanical/DataModel/MechanicalEnums/MeshWorkflow/OperationType.md#OperationType.Wrap) |
-| [`ExportMesh`](../../../../../../v242/Ansys/Mechanical/DataModel/MechanicalEnums/MeshWorkflow/OperationType.md#OperationType.ExportMesh) |
+| --------------------------------------------------------------- |
+| [`CreateEnclosure`](#OperationType.CreateEnclosure) |
+| [`CreateSurfaceMesh`](#OperationType.CreateSurfaceMesh) |
+| [`CreateTopology`](#OperationType.CreateTopology) |
+| [`CreateVolumeMesh`](#OperationType.CreateVolumeMesh) |
+| [`ExportMesh`](#OperationType.ExportMesh) |
+| [`Extrude`](#OperationType.Extrude) |
+| [`FillHoles`](#OperationType.FillHoles) |
+| [`ImportMesh`](#OperationType.ImportMesh) |
+| [`ImproveSurfaceMesh`](#OperationType.ImproveSurfaceMesh) |
+| [`ImproveVolumeMesh`](#OperationType.ImproveVolumeMesh) |
+| [`ManageZoneProperties`](#OperationType.ManageZoneProperties) |
+| [`MergeVolumes`](#OperationType.MergeVolumes) |
+| [`Wrap`](#OperationType.Wrap) |
 
 <a id="attribute-detail"></a>
 
@@ -40,9 +40,21 @@ This enum is referenced in the “Step” tree node and reflects the type of ope
 
 ### OperationType.CreateEnclosure *= 7*
 
+<a id="OperationType.CreateSurfaceMesh"></a>
+
+### OperationType.CreateSurfaceMesh *= 19*
+
 <a id="OperationType.CreateTopology"></a>
 
 ### OperationType.CreateTopology *= 9*
+
+<a id="OperationType.CreateVolumeMesh"></a>
+
+### OperationType.CreateVolumeMesh *= 20*
+
+<a id="OperationType.ExportMesh"></a>
+
+### OperationType.ExportMesh *= 5*
 
 <a id="OperationType.Extrude"></a>
 
@@ -51,6 +63,10 @@ This enum is referenced in the “Step” tree node and reflects the type of ope
 <a id="OperationType.FillHoles"></a>
 
 ### OperationType.FillHoles *= 12*
+
+<a id="OperationType.ImportMesh"></a>
+
+### OperationType.ImportMesh *= 4*
 
 <a id="OperationType.ImproveSurfaceMesh"></a>
 
@@ -68,24 +84,8 @@ This enum is referenced in the “Step” tree node and reflects the type of ope
 
 ### OperationType.MergeVolumes *= 13*
 
-<a id="OperationType.ImportMesh"></a>
-
-### OperationType.ImportMesh *= 4*
-
-<a id="OperationType.CreateSurfaceMesh"></a>
-
-### OperationType.CreateSurfaceMesh *= 19*
-
-<a id="OperationType.CreateVolumeMesh"></a>
-
-### OperationType.CreateVolumeMesh *= 20*
-
 <a id="OperationType.Wrap"></a>
 
 ### OperationType.Wrap *= 23*
-
-<a id="OperationType.ExportMesh"></a>
-
-### OperationType.ExportMesh *= 5*
 
 

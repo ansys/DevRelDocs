@@ -1,6 +1,6 @@
 # `ContactFaceEdgePriority`
 
-
+<a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.ContactFaceEdgePriority"></a>
 
 #### *class* ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.ContactFaceEdgePriority
 
@@ -17,10 +17,10 @@ Specifies the ContactFaceEdgePriority.
 ### Attributes
 
 | Name |
-| ------------------------------------------------------------------------------------------------------------------------------------------ |
-| [`EdgeOverFace`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/ContactFaceEdgePriority.md#ContactFaceEdgePriority.EdgeOverFace) |
-| [`FaceOverEdge`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/ContactFaceEdgePriority.md#ContactFaceEdgePriority.FaceOverEdge) |
-| [`IncludeAll`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/ContactFaceEdgePriority.md#ContactFaceEdgePriority.IncludeAll) |
+| ----------------------------------------------------------- |
+| [`EdgeOverFace`](#ContactFaceEdgePriority.EdgeOverFace) |
+| [`FaceOverEdge`](#ContactFaceEdgePriority.FaceOverEdge) |
+| [`IncludeAll`](#ContactFaceEdgePriority.IncludeAll) |
 
 <a id="attribute-detail"></a>
 

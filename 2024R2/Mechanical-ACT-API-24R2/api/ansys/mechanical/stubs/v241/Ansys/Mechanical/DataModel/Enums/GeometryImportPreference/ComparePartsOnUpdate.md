@@ -1,6 +1,6 @@
 # `ComparePartsOnUpdate`
 
-
+<a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.GeometryImportPreference.ComparePartsOnUpdate"></a>
 
 #### *class* ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.GeometryImportPreference.ComparePartsOnUpdate
 
@@ -17,18 +17,14 @@ Specifies how to enable mesh preservation on parts during update.
 ### Attributes
 
 | Name |
-| ---------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| [`None_`](../../../../../../v242/Ansys/Mechanical/DataModel/Enums/GeometryImportPreference/ComparePartsOnUpdate.md#ComparePartsOnUpdate.None_) |
-| [`Associatively`](../../../../../../v242/Ansys/Mechanical/DataModel/Enums/GeometryImportPreference/ComparePartsOnUpdate.md#ComparePartsOnUpdate.Associatively) |
-| [`NonAssociatively`](../../../../../../v242/Ansys/Mechanical/DataModel/Enums/GeometryImportPreference/ComparePartsOnUpdate.md#ComparePartsOnUpdate.NonAssociatively) |
+| -------------------------------------------------------------- |
+| [`Associatively`](#ComparePartsOnUpdate.Associatively) |
+| [`NonAssociatively`](#ComparePartsOnUpdate.NonAssociatively) |
+| [`None_`](#ComparePartsOnUpdate.None_) |
 
 <a id="attribute-detail"></a>
 
 ## Attribute detail
-
-<a id="ComparePartsOnUpdate.None_"></a>
-
-### ComparePartsOnUpdate.None_ *= 0*
 
 <a id="ComparePartsOnUpdate.Associatively"></a>
 
@@ -37,5 +33,9 @@ Specifies how to enable mesh preservation on parts during update.
 <a id="ComparePartsOnUpdate.NonAssociatively"></a>
 
 ### ComparePartsOnUpdate.NonAssociatively *= 2*
+
+<a id="ComparePartsOnUpdate.None_"></a>
+
+### ComparePartsOnUpdate.None_ *= 0*
 
 

@@ -1,6 +1,6 @@
 # `HarmonicMultiStepType`
 
-
+<a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.HarmonicMultiStepType"></a>
 
 #### *class* ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.HarmonicMultiStepType
 
@@ -17,9 +17,9 @@ Specifies the HarmonicMultiStepType.
 ### Attributes
 
 | Name |
-| -------------------------------------------------------------------------------------------------------------------------------- |
-| [`Load_Step`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/HarmonicMultiStepType.md#HarmonicMultiStepType.Load_Step) |
-| [`RPM`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/HarmonicMultiStepType.md#HarmonicMultiStepType.RPM) |
+| --------------------------------------------------- |
+| [`Load_Step`](#HarmonicMultiStepType.Load_Step) |
+| [`RPM`](#HarmonicMultiStepType.RPM) |
 
 <a id="attribute-detail"></a>
 

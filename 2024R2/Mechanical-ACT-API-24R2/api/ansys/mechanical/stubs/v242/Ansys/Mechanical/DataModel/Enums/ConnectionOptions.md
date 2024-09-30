@@ -1,6 +1,6 @@
 # `ConnectionOptions`
 
-
+<a id="ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.ConnectionOptions"></a>
 
 #### *class* ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.ConnectionOptions
 
@@ -17,7 +17,7 @@ Specifies the ConnectionOptions.
 ### Attributes
 
 | Name |
-| ----------------------------------------------- |
+| ------------------------------------------------------------------------------------------------------------------------ |
 | [`AllToAll`](#ConnectionOptions.AllToAll) |
 | [`FreeToAll`](#ConnectionOptions.FreeToAll) |
 | [`FreeToFree`](#ConnectionOptions.FreeToFree) |

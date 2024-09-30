@@ -1,6 +1,6 @@
 # `ExclusionType`
 
-
+<a id="ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.ExclusionType"></a>
 
 #### *class* ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.ExclusionType
 
@@ -17,7 +17,7 @@ Specifies the ExclusionType.
 ### Attributes
 
 | Name |
-| --------------------------------------------- |
+| ------------------------------------------------------------------------------------------------------------------ |
 | [`Isotropic`](#ExclusionType.Isotropic) |
 | [`Orthotropic`](#ExclusionType.Orthotropic) |
 

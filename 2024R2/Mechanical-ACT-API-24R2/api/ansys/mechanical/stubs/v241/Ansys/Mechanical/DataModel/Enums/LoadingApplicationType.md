@@ -1,6 +1,6 @@
 # `LoadingApplicationType`
 
-
+<a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.LoadingApplicationType"></a>
 
 #### *class* ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.LoadingApplicationType
 
@@ -17,9 +17,9 @@ Specifies the LoadingApplicationType.
 ### Attributes
 
 | Name |
-| ------------------------------------------------------------------------------------------------------------------------------------ |
-| [`LoadVector`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/LoadingApplicationType.md#LoadingApplicationType.LoadVector) |
-| [`Table`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/LoadingApplicationType.md#LoadingApplicationType.Table) |
+| ------------------------------------------------------ |
+| [`LoadVector`](#LoadingApplicationType.LoadVector) |
+| [`Table`](#LoadingApplicationType.Table) |
 
 <a id="attribute-detail"></a>
 

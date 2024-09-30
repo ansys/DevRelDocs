@@ -1,6 +1,6 @@
 # `DMGraphicsWrapper`
 
-
+<a id="ansys.mechanical.stubs.v242.Ansys.ACT.Common.Graphics.DMGraphicsWrapper"></a>
 
 #### *class* ansys.mechanical.stubs.v242.Ansys.ACT.Common.Graphics.DMGraphicsWrapper
 
@@ -17,19 +17,19 @@ Wrapper for Graphics in Design Modeler.
 ### Methods
 
 | Name | Description |
-|-----------------------------------------------------------------|------------------------------------------------------------------------------------------|
+|-----------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------|
+| [`CreatePixelPoint`](#DMGraphicsWrapper.CreatePixelPoint)       | Creates a point from pixel coordinates (ie. window coordinates).                         |
+| [`CreateVector3D`](#DMGraphicsWrapper.CreateVector3D)           | Create a 3D vector from world coordinates.                                               |
+| [`CreateWorldPoint`](#DMGraphicsWrapper.CreateWorldPoint)       | Create a point from world coordinates.                                                   |
+| [`ExportScreenToImage`](#DMGraphicsWrapper.ExportScreenToImage) | Exports the current Graphics screen to a file.                                           |
+| [`ForceResume`](#DMGraphicsWrapper.ForceResume)                 | Forces the scene to resume. Useful in interactive context (console) if a reference on an |
 | [`Redraw`](#DMGraphicsWrapper.Redraw)                           | Forces the scene to redraw its content.                                                  |
 | [`Suspend`](#DMGraphicsWrapper.Suspend)                         | Prevents the scene to redraw until the Resume controller method was called.              |
-| [`ForceResume`](#DMGraphicsWrapper.ForceResume)                 | Forces the scene to resume. Useful in interactive context (console) if a reference on an |
-| [`CreatePixelPoint`](#DMGraphicsWrapper.CreatePixelPoint)       | Creates a point from pixel coordinates (ie. window coordinates).                         |
-| [`CreateWorldPoint`](#DMGraphicsWrapper.CreateWorldPoint)       | Create a point from world coordinates.                                                   |
-| [`CreateVector3D`](#DMGraphicsWrapper.CreateVector3D)           | Create a 3D vector from world coordinates.                                               |
-| [`ExportScreenToImage`](#DMGraphicsWrapper.ExportScreenToImage) | Exports the current Graphics screen to a file.                                           |
 
 ### Properties
 
 | Name | Description |
-|---------------------------------------|-------------------|
+|---------------------------------------------------------------------------------------------------------|-------------------|
 | [`Scene`](#DMGraphicsWrapper.Scene)   | Gets the scene.   |
 
 <a id="property-detail"></a>
@@ -48,6 +48,49 @@ Gets the scene.
 
 ## Method detail
 
+<a id="DMGraphicsWrapper.CreatePixelPoint"></a>
+
+### DMGraphicsWrapper.CreatePixelPoint(x: System.Int32, y: System.Int32)
+
+Creates a point from pixel coordinates (ie. window coordinates).
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="DMGraphicsWrapper.CreateVector3D"></a>
+
+### DMGraphicsWrapper.CreateVector3D(x: System.Double, y: System.Double, z: System.Double)
+
+Create a 3D vector from world coordinates.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="DMGraphicsWrapper.CreateWorldPoint"></a>
+
+### DMGraphicsWrapper.CreateWorldPoint(x: System.Double, y: System.Double, z: System.Double)
+
+Create a point from world coordinates.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="DMGraphicsWrapper.ExportScreenToImage"></a>
+
+### DMGraphicsWrapper.ExportScreenToImage(filePath: System.String)
+
+Exports the current Graphics screen to a file.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="DMGraphicsWrapper.ForceResume"></a>
+
+### DMGraphicsWrapper.ForceResume()
+
+```text
+Forces the scene to resume. Useful in interactive context (console) if a reference on an
+operation has been lost.
+```
+
+<!-- !! processed by numpydoc !! -->
+
 <a id="DMGraphicsWrapper.Redraw"></a>
 
 ### DMGraphicsWrapper.Redraw()
@@ -61,47 +104,6 @@ Forces the scene to redraw its content.
 ### DMGraphicsWrapper.Suspend()
 
 Prevents the scene to redraw until the Resume controller method was called.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="DMGraphicsWrapper.ForceResume"></a>
-
-### DMGraphicsWrapper.ForceResume()
-
-Forces the scene to resume. Useful in interactive context (console) if a reference on an
-operation has been lost.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="DMGraphicsWrapper.CreatePixelPoint"></a>
-
-### DMGraphicsWrapper.CreatePixelPoint(x: System.Int32, y: System.Int32)
-
-Creates a point from pixel coordinates (ie. window coordinates).
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="DMGraphicsWrapper.CreateWorldPoint"></a>
-
-### DMGraphicsWrapper.CreateWorldPoint(x: System.Double, y: System.Double, z: System.Double)
-
-Create a point from world coordinates.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="DMGraphicsWrapper.CreateVector3D"></a>
-
-### DMGraphicsWrapper.CreateVector3D(x: System.Double, y: System.Double, z: System.Double)
-
-Create a 3D vector from world coordinates.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="DMGraphicsWrapper.ExportScreenToImage"></a>
-
-### DMGraphicsWrapper.ExportScreenToImage(filePath: System.String)
-
-Exports the current Graphics screen to a file.
 
 <!-- !! processed by numpydoc !! -->
 

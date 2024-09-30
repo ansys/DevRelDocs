@@ -1,6 +1,6 @@
 # `GraphControlsXAxis`
 
-
+<a id="ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.GraphControlsXAxis"></a>
 
 #### *class* ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.GraphControlsXAxis
 
@@ -17,7 +17,7 @@ Specifies the GraphControlsXAxis.
 ### Attributes
 
 | Name |
-| ------------------------------------------------ |
+| -------------------------------------------------------------------------------------------------------------------------- |
 | [`Frequency`](#GraphControlsXAxis.Frequency) |
 | [`Mode`](#GraphControlsXAxis.Mode) |
 | [`Phase`](#GraphControlsXAxis.Phase) |

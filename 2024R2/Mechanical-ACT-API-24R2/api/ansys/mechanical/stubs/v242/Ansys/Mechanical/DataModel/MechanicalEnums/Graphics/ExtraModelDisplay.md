@@ -1,6 +1,6 @@
 # `ExtraModelDisplay`
 
-
+<a id="ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.MechanicalEnums.Graphics.ExtraModelDisplay"></a>
 
 #### *class* ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.MechanicalEnums.Graphics.ExtraModelDisplay
 
@@ -17,11 +17,11 @@ Specifies the ExtraModelDisplay.
 ### Attributes
 
 | Name |
-| ----------------------------------------------------------------- |
+| ---------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | [`NoWireframe`](#ExtraModelDisplay.NoWireframe) |
-| [`UndeformedWireframe`](#ExtraModelDisplay.UndeformedWireframe) |
-| [`UndeformedModel`](#ExtraModelDisplay.UndeformedModel) |
 | [`ShowElements`](#ExtraModelDisplay.ShowElements) |
+| [`UndeformedModel`](#ExtraModelDisplay.UndeformedModel) |
+| [`UndeformedWireframe`](#ExtraModelDisplay.UndeformedWireframe) |
 
 <a id="attribute-detail"></a>
 
@@ -31,16 +31,16 @@ Specifies the ExtraModelDisplay.
 
 ### ExtraModelDisplay.NoWireframe *= 0*
 
-<a id="ExtraModelDisplay.UndeformedWireframe"></a>
+<a id="ExtraModelDisplay.ShowElements"></a>
 
-### ExtraModelDisplay.UndeformedWireframe *= 1*
+### ExtraModelDisplay.ShowElements *= 3*
 
 <a id="ExtraModelDisplay.UndeformedModel"></a>
 
 ### ExtraModelDisplay.UndeformedModel *= 2*
 
-<a id="ExtraModelDisplay.ShowElements"></a>
+<a id="ExtraModelDisplay.UndeformedWireframe"></a>
 
-### ExtraModelDisplay.ShowElements *= 3*
+### ExtraModelDisplay.UndeformedWireframe *= 1*
 
 

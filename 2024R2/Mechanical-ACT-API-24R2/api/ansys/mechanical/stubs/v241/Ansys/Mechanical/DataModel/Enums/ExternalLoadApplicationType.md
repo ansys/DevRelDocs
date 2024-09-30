@@ -1,6 +1,6 @@
 # `ExternalLoadApplicationType`
 
-
+<a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.ExternalLoadApplicationType"></a>
 
 #### *class* ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.ExternalLoadApplicationType
 
@@ -17,9 +17,9 @@ Specifies the ExternalLoadApplicationType.
 ### Attributes
 
 | Name |
-| ------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| [`BoundaryCondition`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/ExternalLoadApplicationType.md#ExternalLoadApplicationType.BoundaryCondition) |
-| [`InitialCondition`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/ExternalLoadApplicationType.md#ExternalLoadApplicationType.InitialCondition) |
+| ------------------------------------------------------------------------- |
+| [`BoundaryCondition`](#ExternalLoadApplicationType.BoundaryCondition) |
+| [`InitialCondition`](#ExternalLoadApplicationType.InitialCondition) |
 
 <a id="attribute-detail"></a>
 

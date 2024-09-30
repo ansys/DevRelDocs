@@ -1,6 +1,6 @@
 # `ResponsePSDTool`
 
-
+<a id="ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.ResponsePSDTool"></a>
 
 #### *class* ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.ResponsePSDTool
 
@@ -17,40 +17,38 @@ Defines a ResponsePSDTool.
 ### Methods
 
 | Name | Description |
-|-----------------------------------------------------------------------|-----------------------------------------------------------------------------------|
-| [`EvaluateAllResults`](#ResponsePSDTool.EvaluateAllResults)           | Run the EvaluateAllResults action.                                                |
-| [`AddResponsePSD`](#ResponsePSDTool.AddResponsePSD)                   | Creates a new ResponsePSD                                                         |
-| [`Delete`](#ResponsePSDTool.Delete)                                   | Run the Delete action.                                                            |
-| [`GetChildren`](#id1)                                                 | Gets the list of children, filtered by type.                                      |
-| [`GetChildren`](#id1)                                                 | Gets the list of children, filtered by type.                                      |
+|---------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------|
+| [`Activate`](#ResponsePSDTool.Activate)                               | Activate the current object.                                                      |
 | [`AddComment`](#ResponsePSDTool.AddComment)                           | Creates a new child Comment.                                                      |
 | [`AddFigure`](#ResponsePSDTool.AddFigure)                             | Creates a new child Figure.                                                       |
 | [`AddImage`](#ResponsePSDTool.AddImage)                               | Creates a new child Image.                                                        |
-| [`Activate`](#ResponsePSDTool.Activate)                               | Activate the current object.                                                      |
+| [`AddResponsePSD`](#ResponsePSDTool.AddResponsePSD)                   | Creates a new ResponsePSD                                                         |
 | [`CopyTo`](#ResponsePSDTool.CopyTo)                                   | Copies all visible properties from this object to another.                        |
+| [`CreateParameter`](#ResponsePSDTool.CreateParameter)                 | Creates a new parameter for a Property.                                           |
+| [`Delete`](#ResponsePSDTool.Delete)                                   | Run the Delete action.                                                            |
 | [`Duplicate`](#ResponsePSDTool.Duplicate)                             | Creates a copy of the current DataModelObject.                                    |
+| [`EvaluateAllResults`](#ResponsePSDTool.EvaluateAllResults)           | Run the EvaluateAllResults action.                                                |
+| [`GetChildren`](#ResponsePSDTool.GetChildren)                         | Gets the list of children, filtered by type.                                      |
+| [`GetParameter`](#ResponsePSDTool.GetParameter)                       | Gets the parameter corresponding to the given property.                           |
 | [`GroupAllSimilarChildren`](#ResponsePSDTool.GroupAllSimilarChildren) | Run the GroupAllSimilarChildren action.                                           |
 | [`GroupSimilarObjects`](#ResponsePSDTool.GroupSimilarObjects)         | Run the GroupSimilarObjects action.                                               |
-| [`PropertyByName`](#ResponsePSDTool.PropertyByName)                   | Get a property by its unique name.                                                |
 | [`PropertyByAPIName`](#ResponsePSDTool.PropertyByAPIName)             | Get a property by its API name.                                                   |
-| [`CreateParameter`](#ResponsePSDTool.CreateParameter)                 | Creates a new parameter for a Property.                                           |
-| [`GetParameter`](#ResponsePSDTool.GetParameter)                       | Gets the parameter corresponding to the given property.                           |
+| [`PropertyByName`](#ResponsePSDTool.PropertyByName)                   | Get a property by its unique name.                                                |
 | [`RemoveParameter`](#ResponsePSDTool.RemoveParameter)                 | Removes the parameter from the parameter set corresponding to the given property. |
 
 ### Properties
 
 | Name | Description |
-|---------------------------------------------------------------------------------------|---------------------------------------------------------------|
-| [`InternalObject`](#id0)                                                              | Gets the internal object. For advanced usage only.            |
-| [`ClusteringFrequencyPoints`](#ResponsePSDTool.ClusteringFrequencyPoints)             | Gets or sets the ClusteringFrequencyPoints.                   |
-| [`IncludeAllExcitationFrequencies`](#ResponsePSDTool.IncludeAllExcitationFrequencies) | Gets or sets the IncludeAllExcitationFrequencies.             |
-| [`IncludeUserDefinedFrequencies`](#ResponsePSDTool.IncludeUserDefinedFrequencies)     | Gets or sets the IncludeUserDefinedFrequencies.               |
-| [`DataModelObjectCategory`](#ResponsePSDTool.DataModelObjectCategory)                 | Gets the current DataModelObject's category.                  |
+|-------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------|
 | [`Children`](#ResponsePSDTool.Children)                                               | Gets the list of children.                                    |
+| [`ClusteringFrequencyPoints`](#ResponsePSDTool.ClusteringFrequencyPoints)             | Gets or sets the ClusteringFrequencyPoints.                   |
 | [`Comments`](#ResponsePSDTool.Comments)                                               | Gets the list of associated comments.                         |
+| [`DataModelObjectCategory`](#ResponsePSDTool.DataModelObjectCategory)                 | Gets the current DataModelObject’s category.                  |
 | [`Figures`](#ResponsePSDTool.Figures)                                                 | Gets the list of associated figures.                          |
 | [`Images`](#ResponsePSDTool.Images)                                                   | Gets the list of associated images.                           |
-| [`InternalObject`](#id0)                                                              | Gets the internal object. For advanced usage only.            |
+| [`IncludeAllExcitationFrequencies`](#ResponsePSDTool.IncludeAllExcitationFrequencies) | Gets or sets the IncludeAllExcitationFrequencies.             |
+| [`IncludeUserDefinedFrequencies`](#ResponsePSDTool.IncludeUserDefinedFrequencies)     | Gets or sets the IncludeUserDefinedFrequencies.               |
+| [`InternalObject`](#ResponsePSDTool.InternalObject)                                   | Gets the internal object. For advanced usage only.            |
 | [`Properties`](#ResponsePSDTool.Properties)                                           | Gets the list of properties for this object.                  |
 | [`VisibleProperties`](#ResponsePSDTool.VisibleProperties)                             | Gets the list of properties that are visible for this object. |
 
@@ -58,11 +56,11 @@ Defines a ResponsePSDTool.
 
 ## Property detail
 
-<a id="ResponsePSDTool.InternalObject"></a>
+<a id="ResponsePSDTool.Children"></a>
 
-### *property* ResponsePSDTool.InternalObject *: Ansys.Common.Interop.DSObjectsAuto.IDSResponsePSDToolAuto | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ResponsePSDTool.Children *: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets the internal object. For advanced usage only.
+Gets the list of children.
 
 <!-- !! processed by numpydoc !! -->
 
@@ -74,43 +72,19 @@ Gets or sets the ClusteringFrequencyPoints.
 
 <!-- !! processed by numpydoc !! -->
 
-<a id="ResponsePSDTool.IncludeAllExcitationFrequencies"></a>
-
-### *property* ResponsePSDTool.IncludeAllExcitationFrequencies *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the IncludeAllExcitationFrequencies.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="ResponsePSDTool.IncludeUserDefinedFrequencies"></a>
-
-### *property* ResponsePSDTool.IncludeUserDefinedFrequencies *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the IncludeUserDefinedFrequencies.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="ResponsePSDTool.DataModelObjectCategory"></a>
-
-### *property* ResponsePSDTool.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../v241/Ansys/Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets the current DataModelObject's category.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="ResponsePSDTool.Children"></a>
-
-### *property* ResponsePSDTool.Children *: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets the list of children.
-
-<!-- !! processed by numpydoc !! -->
-
 <a id="ResponsePSDTool.Comments"></a>
 
 ### *property* ResponsePSDTool.Comments *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Comment](../../../../../v241/Ansys/ACT/Automation/Mechanical/Comment.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated comments.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ResponsePSDTool.DataModelObjectCategory"></a>
+
+### *property* ResponsePSDTool.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets the current DataModelObject’s category.
 
 <!-- !! processed by numpydoc !! -->
 
@@ -130,9 +104,25 @@ Gets the list of associated images.
 
 <!-- !! processed by numpydoc !! -->
 
-<a id="id0"></a>
+<a id="ResponsePSDTool.IncludeAllExcitationFrequencies"></a>
 
-### *property* ResponsePSDTool.InternalObject *: System.Object | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ResponsePSDTool.IncludeAllExcitationFrequencies *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the IncludeAllExcitationFrequencies.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ResponsePSDTool.IncludeUserDefinedFrequencies"></a>
+
+### *property* ResponsePSDTool.IncludeUserDefinedFrequencies *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the IncludeUserDefinedFrequencies.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ResponsePSDTool.InternalObject"></a>
+
+### *property* ResponsePSDTool.InternalObject *: Ansys.Common.Interop.DSObjectsAuto.IDSResponsePSDToolAuto | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the internal object. For advanced usage only.
 
@@ -158,43 +148,11 @@ Gets the list of properties that are visible for this object.
 
 ## Method detail
 
-<a id="ResponsePSDTool.EvaluateAllResults"></a>
+<a id="ResponsePSDTool.Activate"></a>
 
-### ResponsePSDTool.EvaluateAllResults()
+### ResponsePSDTool.Activate()
 
-Run the EvaluateAllResults action.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="ResponsePSDTool.AddResponsePSD"></a>
-
-### ResponsePSDTool.AddResponsePSD()
-
-Creates a new ResponsePSD
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="ResponsePSDTool.Delete"></a>
-
-### ResponsePSDTool.Delete()
-
-Run the Delete action.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="ResponsePSDTool.GetChildren"></a>
-
-### ResponsePSDTool.GetChildren(recurses: System.Boolean, children: System.Collections.Generic.IList[ChildrenType])
-
-Gets the list of children, filtered by type.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="id1"></a>
-
-### ResponsePSDTool.GetChildren(category: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../v241/Ansys/Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory), recurses: System.Boolean, children: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject])
-
-Gets the list of children, filtered by type.
+Activate the current object.
 
 <!-- !! processed by numpydoc !! -->
 
@@ -218,17 +176,19 @@ Creates a new child Figure.
 
 ### ResponsePSDTool.AddImage(filePath: System.String)
 
+```text
 Creates a new child Image.
 If a filePath is provided, the image will be loaded from that file,
 if not, the image will be a screen capture of the Geometry window.
+```
 
 <!-- !! processed by numpydoc !! -->
 
-<a id="ResponsePSDTool.Activate"></a>
+<a id="ResponsePSDTool.AddResponsePSD"></a>
 
-### ResponsePSDTool.Activate()
+### ResponsePSDTool.AddResponsePSD()
 
-Activate the current object.
+Creates a new ResponsePSD
 
 <!-- !! processed by numpydoc !! -->
 
@@ -240,11 +200,51 @@ Copies all visible properties from this object to another.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="ResponsePSDTool.CreateParameter"></a>
+
+### ResponsePSDTool.CreateParameter(propName: System.String)
+
+Creates a new parameter for a Property.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ResponsePSDTool.Delete"></a>
+
+### ResponsePSDTool.Delete()
+
+Run the Delete action.
+
+<!-- !! processed by numpydoc !! -->
+
 <a id="ResponsePSDTool.Duplicate"></a>
 
 ### ResponsePSDTool.Duplicate()
 
 Creates a copy of the current DataModelObject.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ResponsePSDTool.EvaluateAllResults"></a>
+
+### ResponsePSDTool.EvaluateAllResults()
+
+Run the EvaluateAllResults action.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ResponsePSDTool.GetChildren"></a>
+
+### ResponsePSDTool.GetChildren(recurses: System.Boolean, children: System.Collections.Generic.IList[ChildrenType])
+
+Gets the list of children, filtered by type.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ResponsePSDTool.GetParameter"></a>
+
+### ResponsePSDTool.GetParameter(propName: System.String)
+
+Gets the parameter corresponding to the given property.
 
 <!-- !! processed by numpydoc !! -->
 
@@ -264,36 +264,22 @@ Run the GroupSimilarObjects action.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="ResponsePSDTool.PropertyByAPIName"></a>
+
+### ResponsePSDTool.PropertyByAPIName(name: System.String)
+
+```text
+Get a property by its API name.
+If multiple properties have the same API Name, only the first property with that name will be returned.
+```
+
+<!-- !! processed by numpydoc !! -->
+
 <a id="ResponsePSDTool.PropertyByName"></a>
 
 ### ResponsePSDTool.PropertyByName(name: System.String)
 
 Get a property by its unique name.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="ResponsePSDTool.PropertyByAPIName"></a>
-
-### ResponsePSDTool.PropertyByAPIName(name: System.String)
-
-Get a property by its API name.
-If multiple properties have the same API Name, only the first property with that name will be returned.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="ResponsePSDTool.CreateParameter"></a>
-
-### ResponsePSDTool.CreateParameter(propName: System.String)
-
-Creates a new parameter for a Property.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="ResponsePSDTool.GetParameter"></a>
-
-### ResponsePSDTool.GetParameter(propName: System.String)
-
-Gets the parameter corresponding to the given property.
 
 <!-- !! processed by numpydoc !! -->
 

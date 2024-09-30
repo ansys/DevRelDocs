@@ -1,6 +1,6 @@
 # `AcousticMassSource`
 
-
+<a id="ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.BoundaryConditions.AcousticMassSource"></a>
 
 #### *class* ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.BoundaryConditions.AcousticMassSource
 
@@ -17,104 +17,46 @@ Defines a AcousticMassSource.
 ### Methods
 
 | Name | Description |
-|----------------------------------------------------------------------------|-----------------------------------------------------------------------------------|
-| [`PromoteToNamedSelection`](#AcousticMassSource.PromoteToNamedSelection)   | Run the PromoteToNamedSelection action.                                           |
-| [`Delete`](#AcousticMassSource.Delete)                                     | Run the Delete action.                                                            |
-| [`GetChildren`](#id1)                                                      | Gets the list of children, filtered by type.                                      |
-| [`GetChildren`](#id1)                                                      | Gets the list of children, filtered by type.                                      |
-| [`AddComment`](#AcousticMassSource.AddComment)                             | Creates a new child Comment.                                                      |
-| [`AddFigure`](#AcousticMassSource.AddFigure)                               | Creates a new child Figure.                                                       |
-| [`AddImage`](#AcousticMassSource.AddImage)                                 | Creates a new child Image.                                                        |
-| [`Activate`](#AcousticMassSource.Activate)                                 | Activate the current object.                                                      |
-| [`CopyTo`](#AcousticMassSource.CopyTo)                                     | Copies all visible properties from this object to another.                        |
-| [`Duplicate`](#AcousticMassSource.Duplicate)                               | Creates a copy of the current DataModelObject.                                    |
-| [`GroupAllSimilarChildren`](#AcousticMassSource.GroupAllSimilarChildren)   | Run the GroupAllSimilarChildren action.                                           |
-| [`GroupSimilarObjects`](#AcousticMassSource.GroupSimilarObjects)           | Run the GroupSimilarObjects action.                                               |
-| [`PropertyByName`](#AcousticMassSource.PropertyByName)                     | Get a property by its unique name.                                                |
-| [`PropertyByAPIName`](#AcousticMassSource.PropertyByAPIName)               | Get a property by its API name.                                                   |
-| [`CreateParameter`](#AcousticMassSource.CreateParameter)                   | Creates a new parameter for a Property.                                           |
-| [`GetParameter`](#AcousticMassSource.GetParameter)                         | Gets the parameter corresponding to the given property.                           |
-| [`RemoveParameter`](#AcousticMassSource.RemoveParameter)                   | Removes the parameter from the parameter set corresponding to the given property. |
+|--------------------------------------------------------------------------|-----------------------------------------------------------------------------------|
+| [`Activate`](#AcousticMassSource.Activate)                               | Activate the current object.                                                      |
+| [`AddComment`](#AcousticMassSource.AddComment)                           | Creates a new child Comment.                                                      |
+| [`AddFigure`](#AcousticMassSource.AddFigure)                             | Creates a new child Figure.                                                       |
+| [`AddImage`](#AcousticMassSource.AddImage)                               | Creates a new child Image.                                                        |
+| [`CopyTo`](#AcousticMassSource.CopyTo)                                   | Copies all visible properties from this object to another.                        |
+| [`CreateParameter`](#AcousticMassSource.CreateParameter)                 | Creates a new parameter for a Property.                                           |
+| [`Delete`](#AcousticMassSource.Delete)                                   | Run the Delete action.                                                            |
+| [`Duplicate`](#AcousticMassSource.Duplicate)                             | Creates a copy of the current DataModelObject.                                    |
+| [`GetChildren`](#AcousticMassSource.GetChildren)                         | Gets the list of children, filtered by type.                                      |
+| [`GetParameter`](#AcousticMassSource.GetParameter)                       | Gets the parameter corresponding to the given property.                           |
+| [`GroupAllSimilarChildren`](#AcousticMassSource.GroupAllSimilarChildren) | Run the GroupAllSimilarChildren action.                                           |
+| [`GroupSimilarObjects`](#AcousticMassSource.GroupSimilarObjects)         | Run the GroupSimilarObjects action.                                               |
+| [`PromoteToNamedSelection`](#AcousticMassSource.PromoteToNamedSelection) | Run the PromoteToNamedSelection action.                                           |
+| [`PropertyByAPIName`](#AcousticMassSource.PropertyByAPIName)             | Get a property by its API name.                                                   |
+| [`PropertyByName`](#AcousticMassSource.PropertyByName)                   | Get a property by its unique name.                                                |
+| [`RemoveParameter`](#AcousticMassSource.RemoveParameter)                 | Removes the parameter from the parameter set corresponding to the given property. |
 
 ### Properties
 
 | Name | Description |
 |--------------------------------------------------------------------------|---------------------------------------------------------------|
-| [`InternalObject`](#id0)                                                 | Gets the internal object. For advanced usage only.            |
-| [`Magnitude`](#AcousticMassSource.Magnitude)                             | Gets or sets the Magnitude.                                   |
-| [`PhaseAngle`](#AcousticMassSource.PhaseAngle)                           | Gets or sets the PhaseAngle.                                  |
-| [`Location`](#AcousticMassSource.Location)                               | Gets or sets the Location.                                    |
-| [`DataModelObjectCategory`](#AcousticMassSource.DataModelObjectCategory) | Gets the current DataModelObject's category.                  |
-| [`Suppressed`](#AcousticMassSource.Suppressed)                           | Gets or sets the Suppressed.                                  |
-| [`SharedRefBody`](#AcousticMassSource.SharedRefBody)                     | Gets or sets the SharedRefBody.                               |
 | [`Children`](#AcousticMassSource.Children)                               | Gets the list of children.                                    |
 | [`Comments`](#AcousticMassSource.Comments)                               | Gets the list of associated comments.                         |
+| [`DataModelObjectCategory`](#AcousticMassSource.DataModelObjectCategory) | Gets the current DataModelObject’s category.                  |
 | [`Figures`](#AcousticMassSource.Figures)                                 | Gets the list of associated figures.                          |
 | [`Images`](#AcousticMassSource.Images)                                   | Gets the list of associated images.                           |
-| [`ReadOnly`](#AcousticMassSource.ReadOnly)                               | Gets or sets the ReadOnly.                                    |
-| [`InternalObject`](#id0)                                                 | Gets the internal object. For advanced usage only.            |
+| [`InternalObject`](#AcousticMassSource.InternalObject)                   | Gets the internal object. For advanced usage only.            |
+| [`Location`](#AcousticMassSource.Location)                               | Gets or sets the Location.                                    |
+| [`Magnitude`](#AcousticMassSource.Magnitude)                             | Gets or sets the Magnitude.                                   |
+| [`PhaseAngle`](#AcousticMassSource.PhaseAngle)                           | Gets or sets the PhaseAngle.                                  |
 | [`Properties`](#AcousticMassSource.Properties)                           | Gets the list of properties for this object.                  |
+| [`ReadOnly`](#AcousticMassSource.ReadOnly)                               | Gets or sets the ReadOnly.                                    |
+| [`SharedRefBody`](#AcousticMassSource.SharedRefBody)                     | Gets or sets the SharedRefBody.                               |
+| [`Suppressed`](#AcousticMassSource.Suppressed)                           | Gets or sets the Suppressed.                                  |
 | [`VisibleProperties`](#AcousticMassSource.VisibleProperties)             | Gets the list of properties that are visible for this object. |
 
 <a id="property-detail"></a>
 
 ## Property detail
-
-<a id="AcousticMassSource.InternalObject"></a>
-
-### *property* AcousticMassSource.InternalObject *: Ansys.Common.Interop.DSObjectsAuto.IDSLoadAuto | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets the internal object. For advanced usage only.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="AcousticMassSource.Magnitude"></a>
-
-### *property* AcousticMassSource.Magnitude *: [Ansys.ACT.Mechanical.Fields.Field](../../../../../../v241/Ansys/ACT/Mechanical/Fields/Field.md#ansys.mechanical.stubs.v241.Ansys.ACT.Mechanical.Fields.Field) | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the Magnitude.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="AcousticMassSource.PhaseAngle"></a>
-
-### *property* AcousticMassSource.PhaseAngle *: [Ansys.ACT.Mechanical.Fields.Field](../../../../../../v241/Ansys/ACT/Mechanical/Fields/Field.md#ansys.mechanical.stubs.v241.Ansys.ACT.Mechanical.Fields.Field) | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the PhaseAngle.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="AcousticMassSource.Location"></a>
-
-### *property* AcousticMassSource.Location *: Ansys.ACT.Interfaces.Common.ISelectionInfo | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the Location.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="AcousticMassSource.DataModelObjectCategory"></a>
-
-### *property* AcousticMassSource.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../../v241/Ansys/Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets the current DataModelObject's category.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="AcousticMassSource.Suppressed"></a>
-
-### *property* AcousticMassSource.Suppressed *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the Suppressed.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="AcousticMassSource.SharedRefBody"></a>
-
-### *property* AcousticMassSource.SharedRefBody *: [Ansys.ACT.Automation.Mechanical.Body](../../../../../../v241/Ansys/ACT/Automation/Mechanical/Body.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Body) | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the SharedRefBody.
-
-<!-- !! processed by numpydoc !! -->
 
 <a id="AcousticMassSource.Children"></a>
 
@@ -129,6 +71,14 @@ Gets the list of children.
 ### *property* AcousticMassSource.Comments *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Comment](../../../../../../v241/Ansys/ACT/Automation/Mechanical/Comment.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated comments.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="AcousticMassSource.DataModelObjectCategory"></a>
+
+### *property* AcousticMassSource.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets the current DataModelObject’s category.
 
 <!-- !! processed by numpydoc !! -->
 
@@ -148,19 +98,35 @@ Gets the list of associated images.
 
 <!-- !! processed by numpydoc !! -->
 
-<a id="AcousticMassSource.ReadOnly"></a>
+<a id="AcousticMassSource.InternalObject"></a>
 
-### *property* AcousticMassSource.ReadOnly *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AcousticMassSource.InternalObject *: Ansys.Common.Interop.DSObjectsAuto.IDSLoadAuto | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets or sets the ReadOnly.
+Gets the internal object. For advanced usage only.
 
 <!-- !! processed by numpydoc !! -->
 
-<a id="id0"></a>
+<a id="AcousticMassSource.Location"></a>
 
-### *property* AcousticMassSource.InternalObject *: System.Object | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AcousticMassSource.Location *: Ansys.ACT.Interfaces.Common.ISelectionInfo | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets the internal object. For advanced usage only.
+Gets or sets the Location.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="AcousticMassSource.Magnitude"></a>
+
+### *property* AcousticMassSource.Magnitude *: [Ansys.ACT.Mechanical.Fields.Field](../../../Mechanical/Fields/Field.md#ansys.mechanical.stubs.v242.Ansys.ACT.Mechanical.Fields.Field) | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the Magnitude.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="AcousticMassSource.PhaseAngle"></a>
+
+### *property* AcousticMassSource.PhaseAngle *: [Ansys.ACT.Mechanical.Fields.Field](../../../Mechanical/Fields/Field.md#ansys.mechanical.stubs.v242.Ansys.ACT.Mechanical.Fields.Field) | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the PhaseAngle.
 
 <!-- !! processed by numpydoc !! -->
 
@@ -169,6 +135,30 @@ Gets the internal object. For advanced usage only.
 ### *property* AcousticMassSource.Properties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of properties for this object.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="AcousticMassSource.ReadOnly"></a>
+
+### *property* AcousticMassSource.ReadOnly *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the ReadOnly.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="AcousticMassSource.SharedRefBody"></a>
+
+### *property* AcousticMassSource.SharedRefBody *: [Ansys.ACT.Automation.Mechanical.Body](../../../../../../v241/Ansys/ACT/Automation/Mechanical/Body.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Body) | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the SharedRefBody.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="AcousticMassSource.Suppressed"></a>
+
+### *property* AcousticMassSource.Suppressed *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the Suppressed.
 
 <!-- !! processed by numpydoc !! -->
 
@@ -184,35 +174,11 @@ Gets the list of properties that are visible for this object.
 
 ## Method detail
 
-<a id="AcousticMassSource.PromoteToNamedSelection"></a>
+<a id="AcousticMassSource.Activate"></a>
 
-### AcousticMassSource.PromoteToNamedSelection()
+### AcousticMassSource.Activate()
 
-Run the PromoteToNamedSelection action.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="AcousticMassSource.Delete"></a>
-
-### AcousticMassSource.Delete()
-
-Run the Delete action.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="AcousticMassSource.GetChildren"></a>
-
-### AcousticMassSource.GetChildren(recurses: System.Boolean, children: System.Collections.Generic.IList[ChildrenType])
-
-Gets the list of children, filtered by type.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="id1"></a>
-
-### AcousticMassSource.GetChildren(category: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../../v241/Ansys/Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory), recurses: System.Boolean, children: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject])
-
-Gets the list of children, filtered by type.
+Activate the current object.
 
 <!-- !! processed by numpydoc !! -->
 
@@ -236,17 +202,11 @@ Creates a new child Figure.
 
 ### AcousticMassSource.AddImage(filePath: System.String)
 
+```text
 Creates a new child Image.
 If a filePath is provided, the image will be loaded from that file,
 if not, the image will be a screen capture of the Geometry window.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="AcousticMassSource.Activate"></a>
-
-### AcousticMassSource.Activate()
-
-Activate the current object.
+```
 
 <!-- !! processed by numpydoc !! -->
 
@@ -258,11 +218,43 @@ Copies all visible properties from this object to another.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="AcousticMassSource.CreateParameter"></a>
+
+### AcousticMassSource.CreateParameter(propName: System.String)
+
+Creates a new parameter for a Property.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="AcousticMassSource.Delete"></a>
+
+### AcousticMassSource.Delete()
+
+Run the Delete action.
+
+<!-- !! processed by numpydoc !! -->
+
 <a id="AcousticMassSource.Duplicate"></a>
 
 ### AcousticMassSource.Duplicate()
 
 Creates a copy of the current DataModelObject.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="AcousticMassSource.GetChildren"></a>
+
+### AcousticMassSource.GetChildren(recurses: System.Boolean, children: System.Collections.Generic.IList[ChildrenType])
+
+Gets the list of children, filtered by type.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="AcousticMassSource.GetParameter"></a>
+
+### AcousticMassSource.GetParameter(propName: System.String)
+
+Gets the parameter corresponding to the given property.
 
 <!-- !! processed by numpydoc !! -->
 
@@ -282,11 +274,11 @@ Run the GroupSimilarObjects action.
 
 <!-- !! processed by numpydoc !! -->
 
-<a id="AcousticMassSource.PropertyByName"></a>
+<a id="AcousticMassSource.PromoteToNamedSelection"></a>
 
-### AcousticMassSource.PropertyByName(name: System.String)
+### AcousticMassSource.PromoteToNamedSelection()
 
-Get a property by its unique name.
+Run the PromoteToNamedSelection action.
 
 <!-- !! processed by numpydoc !! -->
 
@@ -294,24 +286,18 @@ Get a property by its unique name.
 
 ### AcousticMassSource.PropertyByAPIName(name: System.String)
 
+```text
 Get a property by its API name.
 If multiple properties have the same API Name, only the first property with that name will be returned.
+```
 
 <!-- !! processed by numpydoc !! -->
 
-<a id="AcousticMassSource.CreateParameter"></a>
+<a id="AcousticMassSource.PropertyByName"></a>
 
-### AcousticMassSource.CreateParameter(propName: System.String)
+### AcousticMassSource.PropertyByName(name: System.String)
 
-Creates a new parameter for a Property.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="AcousticMassSource.GetParameter"></a>
-
-### AcousticMassSource.GetParameter(propName: System.String)
-
-Gets the parameter corresponding to the given property.
+Get a property by its unique name.
 
 <!-- !! processed by numpydoc !! -->
 

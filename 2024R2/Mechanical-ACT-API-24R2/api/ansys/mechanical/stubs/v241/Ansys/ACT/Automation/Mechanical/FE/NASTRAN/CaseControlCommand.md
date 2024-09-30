@@ -1,6 +1,6 @@
 # `CaseControlCommand`
 
-
+<a id="ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.FE.NASTRAN.CaseControlCommand"></a>
 
 #### *class* ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.FE.NASTRAN.CaseControlCommand
 
@@ -17,20 +17,20 @@ Case control command.
 ### Properties
 
 | Name | Description |
-|--------------------------------------------------------------------------------------------------------------------------------|-------------------------|
-| [`Text`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/FE/NASTRAN/CaseControlCommand.md#CaseControlCommand.Text)   | Gets the text.          |
-| [`Name`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/FE/NASTRAN/CaseControlCommand.md#CaseControlCommand.Name)   | Gets the command name.  |
-| [`Index`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/FE/NASTRAN/CaseControlCommand.md#CaseControlCommand.Index) | Gets the command index. |
+|----------------------------------------------------------------------------------------------------------------------------------|---------------------------|
+| [`Index`](#CaseControlCommand.Index)   | Gets the command index.   |
+| [`Name`](#CaseControlCommand.Name)     | Gets the command name.    |
+| [`Text`](#CaseControlCommand.Text)     | Gets the text.            |
 
 <a id="property-detail"></a>
 
 ## Property detail
 
-<a id="CaseControlCommand.Text"></a>
+<a id="CaseControlCommand.Index"></a>
 
-### *property* CaseControlCommand.Text *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* CaseControlCommand.Index *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets the text.
+Gets the command index.
 
 <!-- !! processed by numpydoc !! -->
 
@@ -42,11 +42,11 @@ Gets the command name.
 
 <!-- !! processed by numpydoc !! -->
 
-<a id="CaseControlCommand.Index"></a>
+<a id="CaseControlCommand.Text"></a>
 
-### *property* CaseControlCommand.Index *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* CaseControlCommand.Text *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets the command index.
+Gets the text.
 
 <!-- !! processed by numpydoc !! -->
 

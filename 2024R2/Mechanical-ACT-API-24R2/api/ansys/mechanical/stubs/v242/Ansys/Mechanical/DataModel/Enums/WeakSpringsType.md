@@ -1,6 +1,6 @@
 # `WeakSpringsType`
 
-
+<a id="ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.WeakSpringsType"></a>
 
 #### *class* ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.WeakSpringsType
 
@@ -17,7 +17,7 @@ Specifies the WeakSpringsType.
 ### Attributes
 
 | Name |
-| ----------------------------------------------------------- |
+| ---------------------------------------------------------------------------------------------------------------------------------- |
 | [`Off`](#WeakSpringsType.Off) |
 | [`On`](#WeakSpringsType.On) |
 | [`ProgramControlled`](#WeakSpringsType.ProgramControlled) |

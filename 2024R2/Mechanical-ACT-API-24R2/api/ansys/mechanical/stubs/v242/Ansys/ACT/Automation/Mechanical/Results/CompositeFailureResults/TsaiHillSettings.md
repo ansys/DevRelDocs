@@ -1,6 +1,6 @@
 # `TsaiHillSettings`
 
-
+<a id="ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Results.CompositeFailureResults.TsaiHillSettings"></a>
 
 #### *class* ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Results.CompositeFailureResults.TsaiHillSettings
 
@@ -45,7 +45,7 @@ Gets or sets whether the failure criterion is evaluated only in-plane (2D),
 ### *property* TsaiHillSettings.WeightingFactor *: System.Double | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the weighting factor for the failure criterion.
-: The corresponding failure label is â€˜th'.
+: The corresponding failure label is ‘th’.
 
 <!-- !! processed by numpydoc !! -->
 

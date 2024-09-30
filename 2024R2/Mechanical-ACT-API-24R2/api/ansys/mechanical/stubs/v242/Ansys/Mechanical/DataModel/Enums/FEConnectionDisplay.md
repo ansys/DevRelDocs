@@ -1,6 +1,6 @@
 # `FEConnectionDisplay`
 
-
+<a id="ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.FEConnectionDisplay"></a>
 
 #### *class* ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.FEConnectionDisplay
 
@@ -17,7 +17,7 @@ Specifies the FEConnectionDisplay.
 ### Attributes
 
 | Name |
-| --------------------------------------------------- |
+| ------------------------------------------------------------------------------------------------------------------------------ |
 | [`All`](#FEConnectionDisplay.All) |
 | [`Beam`](#FEConnectionDisplay.Beam) |
 | [`CE`](#FEConnectionDisplay.CE) |

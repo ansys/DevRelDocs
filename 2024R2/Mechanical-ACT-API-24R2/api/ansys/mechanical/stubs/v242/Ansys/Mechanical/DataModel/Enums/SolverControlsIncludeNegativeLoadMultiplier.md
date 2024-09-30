@@ -1,6 +1,6 @@
 # `SolverControlsIncludeNegativeLoadMultiplier`
 
-
+<a id="ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.SolverControlsIncludeNegativeLoadMultiplier"></a>
 
 #### *class* ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.SolverControlsIncludeNegativeLoadMultiplier
 
@@ -17,7 +17,7 @@ Specifies the SolverControlsIncludeNegativeLoadMultiplier.
 ### Attributes
 
 | Name |
-| --------------------------------------------------------------------------------------- |
+| ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
 | [`No`](#SolverControlsIncludeNegativeLoadMultiplier.No) |
 | [`ProgramControlled`](#SolverControlsIncludeNegativeLoadMultiplier.ProgramControlled) |
 | [`Yes`](#SolverControlsIncludeNegativeLoadMultiplier.Yes) |

@@ -1,6 +1,6 @@
 # `CondensedPartLumpedMassFormulation`
 
-
+<a id="ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.CondensedPartLumpedMassFormulation"></a>
 
 #### *class* ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.CondensedPartLumpedMassFormulation
 
@@ -17,7 +17,7 @@ Specifies the CondensedPartLumpedMassFormulation.
 ### Attributes
 
 | Name |
-| ------------------------------------------------------------------------------ |
+| ------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
 | [`Off`](#CondensedPartLumpedMassFormulation.Off) |
 | [`On`](#CondensedPartLumpedMassFormulation.On) |
 | [`ProgramControlled`](#CondensedPartLumpedMassFormulation.ProgramControlled) |

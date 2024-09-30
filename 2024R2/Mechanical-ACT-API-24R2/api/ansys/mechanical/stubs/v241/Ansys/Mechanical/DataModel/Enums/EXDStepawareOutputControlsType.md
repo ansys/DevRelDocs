@@ -1,6 +1,6 @@
 # `EXDStepawareOutputControlsType`
 
-
+<a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.EXDStepawareOutputControlsType"></a>
 
 #### *class* ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.EXDStepawareOutputControlsType
 
@@ -15,9 +15,9 @@ Bases: [`enum.Enum`](https://docs.python.org/3/library/enum.html#enum.Enum)
 ### Attributes
 
 | Name |
-| ------------------------------------------------------------------------------------------------------------------------------------ |
-| [`No`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/EXDStepawareOutputControlsType.md#EXDStepawareOutputControlsType.No) |
-| [`Yes`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/EXDStepawareOutputControlsType.md#EXDStepawareOutputControlsType.Yes) |
+| ---------------------------------------------- |
+| [`No`](#EXDStepawareOutputControlsType.No) |
+| [`Yes`](#EXDStepawareOutputControlsType.Yes) |
 
 <a id="attribute-detail"></a>
 

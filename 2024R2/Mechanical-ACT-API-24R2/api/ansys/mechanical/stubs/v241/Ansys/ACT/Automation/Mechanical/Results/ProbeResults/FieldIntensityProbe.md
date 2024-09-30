@@ -1,6 +1,6 @@
 # `FieldIntensityProbe`
 
-
+<a id="ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Results.ProbeResults.FieldIntensityProbe"></a>
 
 #### *class* ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Results.ProbeResults.FieldIntensityProbe
 
@@ -17,147 +17,89 @@ Defines a FieldIntensityProbe.
 ### Methods
 
 | Name | Description |
-|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------|
-| [`ExportAnimation`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/ProbeResults/FieldIntensityProbe.md#FieldIntensityProbe.ExportAnimation)                 | Run the ExportAnimation action.                                                   |
-| [`ClearGeneratedData`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/ProbeResults/FieldIntensityProbe.md#FieldIntensityProbe.ClearGeneratedData)           | Run the ClearGeneratedData action.                                                |
-| [`DuplicateWithoutResults`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/ProbeResults/FieldIntensityProbe.md#FieldIntensityProbe.DuplicateWithoutResults) | Run the DuplicateWithoutResults action.                                           |
-| [`EvaluateAllResults`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/ProbeResults/FieldIntensityProbe.md#FieldIntensityProbe.EvaluateAllResults)           | Run the EvaluateAllResults action.                                                |
-| [`SnapToMeshNodes`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/ProbeResults/FieldIntensityProbe.md#FieldIntensityProbe.SnapToMeshNodes)                 | Snap the coordinates of probe result to the mesh nodes.                           |
-| [`RenameBasedOnDefinition`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/ProbeResults/FieldIntensityProbe.md#FieldIntensityProbe.RenameBasedOnDefinition) | Run the RenameBasedOnDefinition action.                                           |
-| [`Delete`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/ProbeResults/FieldIntensityProbe.md#FieldIntensityProbe.Delete)                                   | Run the Delete action.                                                            |
-| [`GetChildren`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/ProbeResults/FieldIntensityProbe.md#id1)                                                     | Gets the list of children, filtered by type.                                      |
-| [`GetChildren`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/ProbeResults/FieldIntensityProbe.md#id1)                                                     | Gets the list of children, filtered by type.                                      |
-| [`AddComment`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/ProbeResults/FieldIntensityProbe.md#FieldIntensityProbe.AddComment)                           | Creates a new child Comment.                                                      |
-| [`AddFigure`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/ProbeResults/FieldIntensityProbe.md#FieldIntensityProbe.AddFigure)                             | Creates a new child Figure.                                                       |
-| [`AddImage`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/ProbeResults/FieldIntensityProbe.md#FieldIntensityProbe.AddImage)                               | Creates a new child Image.                                                        |
-| [`Activate`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/ProbeResults/FieldIntensityProbe.md#FieldIntensityProbe.Activate)                               | Activate the current object.                                                      |
-| [`CopyTo`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/ProbeResults/FieldIntensityProbe.md#FieldIntensityProbe.CopyTo)                                   | Copies all visible properties from this object to another.                        |
-| [`Duplicate`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/ProbeResults/FieldIntensityProbe.md#FieldIntensityProbe.Duplicate)                             | Creates a copy of the current DataModelObject.                                    |
-| [`GroupAllSimilarChildren`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/ProbeResults/FieldIntensityProbe.md#FieldIntensityProbe.GroupAllSimilarChildren) | Run the GroupAllSimilarChildren action.                                           |
-| [`GroupSimilarObjects`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/ProbeResults/FieldIntensityProbe.md#FieldIntensityProbe.GroupSimilarObjects)         | Run the GroupSimilarObjects action.                                               |
-| [`PropertyByName`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/ProbeResults/FieldIntensityProbe.md#FieldIntensityProbe.PropertyByName)                   | Get a property by its unique name.                                                |
-| [`PropertyByAPIName`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/ProbeResults/FieldIntensityProbe.md#FieldIntensityProbe.PropertyByAPIName)             | Get a property by its API name.                                                   |
-| [`CreateParameter`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/ProbeResults/FieldIntensityProbe.md#FieldIntensityProbe.CreateParameter)                 | Creates a new parameter for a Property.                                           |
-| [`GetParameter`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/ProbeResults/FieldIntensityProbe.md#FieldIntensityProbe.GetParameter)                       | Gets the parameter corresponding to the given property.                           |
-| [`RemoveParameter`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/ProbeResults/FieldIntensityProbe.md#FieldIntensityProbe.RemoveParameter)                 | Removes the parameter from the parameter set corresponding to the given property. |
+|---------------------------------------------------------------------------|-----------------------------------------------------------------------------------|
+| [`Activate`](#FieldIntensityProbe.Activate)                               | Activate the current object.                                                      |
+| [`AddComment`](#FieldIntensityProbe.AddComment)                           | Creates a new child Comment.                                                      |
+| [`AddFigure`](#FieldIntensityProbe.AddFigure)                             | Creates a new child Figure.                                                       |
+| [`AddImage`](#FieldIntensityProbe.AddImage)                               | Creates a new child Image.                                                        |
+| [`ClearGeneratedData`](#FieldIntensityProbe.ClearGeneratedData)           | Run the ClearGeneratedData action.                                                |
+| [`CopyTo`](#FieldIntensityProbe.CopyTo)                                   | Copies all visible properties from this object to another.                        |
+| [`CreateParameter`](#FieldIntensityProbe.CreateParameter)                 | Creates a new parameter for a Property.                                           |
+| [`Delete`](#FieldIntensityProbe.Delete)                                   | Run the Delete action.                                                            |
+| [`Duplicate`](#FieldIntensityProbe.Duplicate)                             | Creates a copy of the current DataModelObject.                                    |
+| [`DuplicateWithoutResults`](#FieldIntensityProbe.DuplicateWithoutResults) | Run the DuplicateWithoutResults action.                                           |
+| [`EvaluateAllResults`](#FieldIntensityProbe.EvaluateAllResults)           | Run the EvaluateAllResults action.                                                |
+| [`ExportAnimation`](#FieldIntensityProbe.ExportAnimation)                 | Run the ExportAnimation action.                                                   |
+| [`GetChildren`](#FieldIntensityProbe.GetChildren)                         | Gets the list of children, filtered by type.                                      |
+| [`GetParameter`](#FieldIntensityProbe.GetParameter)                       | Gets the parameter corresponding to the given property.                           |
+| [`GroupAllSimilarChildren`](#FieldIntensityProbe.GroupAllSimilarChildren) | Run the GroupAllSimilarChildren action.                                           |
+| [`GroupSimilarObjects`](#FieldIntensityProbe.GroupSimilarObjects)         | Run the GroupSimilarObjects action.                                               |
+| [`PropertyByAPIName`](#FieldIntensityProbe.PropertyByAPIName)             | Get a property by its API name.                                                   |
+| [`PropertyByName`](#FieldIntensityProbe.PropertyByName)                   | Get a property by its unique name.                                                |
+| [`RemoveParameter`](#FieldIntensityProbe.RemoveParameter)                 | Removes the parameter from the parameter set corresponding to the given property. |
+| [`RenameBasedOnDefinition`](#FieldIntensityProbe.RenameBasedOnDefinition) | Run the RenameBasedOnDefinition action.                                           |
+| [`SnapToMeshNodes`](#FieldIntensityProbe.SnapToMeshNodes)                 | Snap the coordinates of probe result to the mesh nodes.                           |
 
 ### Properties
 
 | Name | Description |
-|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [`InternalObject`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/ProbeResults/FieldIntensityProbe.md#id0)                                                        | Gets the internal object. For advanced usage only.                                                                                                                         |
-| [`TotalFieldIntensity`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/ProbeResults/FieldIntensityProbe.md#FieldIntensityProbe.TotalFieldIntensity)               | Gets the TotalFieldIntensity.                                                                                                                                              |
-| [`YAxisFieldIntensity`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/ProbeResults/FieldIntensityProbe.md#FieldIntensityProbe.YAxisFieldIntensity)               | Gets the YAxisFieldIntensity.                                                                                                                                              |
-| [`DataModelObjectCategory`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/ProbeResults/FieldIntensityProbe.md#FieldIntensityProbe.DataModelObjectCategory)       | Gets the current DataModelObject's category.                                                                                                                               |
-| [`Summation`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/ProbeResults/FieldIntensityProbe.md#FieldIntensityProbe.Summation)                                   | Gets or sets the Summation.                                                                                                                                                |
-| [`LocationMethod`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/ProbeResults/FieldIntensityProbe.md#FieldIntensityProbe.LocationMethod)                         | Gets or sets the LocationMethod.                                                                                                                                           |
-| [`GeometryLocation`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/ProbeResults/FieldIntensityProbe.md#FieldIntensityProbe.GeometryLocation)                     | Gets or sets the GeometryLocation.                                                                                                                                         |
-| [`CoordinateSystemSelection`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/ProbeResults/FieldIntensityProbe.md#FieldIntensityProbe.CoordinateSystemSelection)   | Gets or sets the CoordinateSystemSelection.                                                                                                                                |
-| [`BoundaryConditionSelection`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/ProbeResults/FieldIntensityProbe.md#FieldIntensityProbe.BoundaryConditionSelection) | Gets or sets the BoundaryConditionSelection. In order to select the option â€˜WeakSprings', please use the property â€˜LocationMethod = LocationDefinitionMethod.WeakSprings'. |
-| [`ContactRegionSelection`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/ProbeResults/FieldIntensityProbe.md#FieldIntensityProbe.ContactRegionSelection)         | Gets or sets the ContactRegionSelection.                                                                                                                                   |
-| [`RemotePointSelection`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/ProbeResults/FieldIntensityProbe.md#FieldIntensityProbe.RemotePointSelection)             | Gets or sets the RemotePointSelection.                                                                                                                                     |
-| [`BeamSelection`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/ProbeResults/FieldIntensityProbe.md#FieldIntensityProbe.BeamSelection)                           | Gets or sets the BeamSelection.                                                                                                                                            |
-| [`MeshConnectionSelection`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/ProbeResults/FieldIntensityProbe.md#FieldIntensityProbe.MeshConnectionSelection)       | Gets or sets the MeshConnectionSelection.                                                                                                                                  |
-| [`SurfaceSelection`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/ProbeResults/FieldIntensityProbe.md#FieldIntensityProbe.SurfaceSelection)                     | Gets or sets the MeshConnectionSelection.                                                                                                                                  |
-| [`SpringSelection`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/ProbeResults/FieldIntensityProbe.md#FieldIntensityProbe.SpringSelection)                       | Gets or sets the SpringSelection.                                                                                                                                          |
-| [`IsSolved`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/ProbeResults/FieldIntensityProbe.md#FieldIntensityProbe.IsSolved)                                     | Gets the IsSolved.                                                                                                                                                         |
-| [`Orientation`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/ProbeResults/FieldIntensityProbe.md#FieldIntensityProbe.Orientation)                               | Gets or sets the Orientation. Accepts/Returns None if it is the Solution Coordinate System.                                                                                |
-| [`IterationNumber`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/ProbeResults/FieldIntensityProbe.md#FieldIntensityProbe.IterationNumber)                       | Gets the IterationNumber.                                                                                                                                                  |
-| [`LoadStep`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/ProbeResults/FieldIntensityProbe.md#FieldIntensityProbe.LoadStep)                                     | Gets the LoadStep.                                                                                                                                                         |
-| [`LoadStepNumber`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/ProbeResults/FieldIntensityProbe.md#FieldIntensityProbe.LoadStepNumber)                         | Gets or sets the LoadStepNumber.                                                                                                                                           |
-| [`Substep`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/ProbeResults/FieldIntensityProbe.md#FieldIntensityProbe.Substep)                                       | Gets the Substep.                                                                                                                                                          |
-| [`DisplayTime`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/ProbeResults/FieldIntensityProbe.md#FieldIntensityProbe.DisplayTime)                               | Gets or sets the DisplayTime.                                                                                                                                              |
-| [`MaximumTotal`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/ProbeResults/FieldIntensityProbe.md#FieldIntensityProbe.MaximumTotal)                             | Gets the MaximumTotal.                                                                                                                                                     |
-| [`MaximumXAxis`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/ProbeResults/FieldIntensityProbe.md#FieldIntensityProbe.MaximumXAxis)                             | Gets the MaximumXAxis.                                                                                                                                                     |
-| [`MaximumYAxis`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/ProbeResults/FieldIntensityProbe.md#FieldIntensityProbe.MaximumYAxis)                             | Gets the MaximumYAxis.                                                                                                                                                     |
-| [`MaximumZAxis`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/ProbeResults/FieldIntensityProbe.md#FieldIntensityProbe.MaximumZAxis)                             | Gets the MaximumZAxis.                                                                                                                                                     |
-| [`MinimumTotal`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/ProbeResults/FieldIntensityProbe.md#FieldIntensityProbe.MinimumTotal)                             | Gets the MinimumTotal.                                                                                                                                                     |
-| [`MinimumXAxis`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/ProbeResults/FieldIntensityProbe.md#FieldIntensityProbe.MinimumXAxis)                             | Gets the MinimumXAxis.                                                                                                                                                     |
-| [`MinimumYAxis`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/ProbeResults/FieldIntensityProbe.md#FieldIntensityProbe.MinimumYAxis)                             | Gets the MinimumYAxis.                                                                                                                                                     |
-| [`MinimumZAxis`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/ProbeResults/FieldIntensityProbe.md#FieldIntensityProbe.MinimumZAxis)                             | Gets the MinimumZAxis.                                                                                                                                                     |
-| [`Time`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/ProbeResults/FieldIntensityProbe.md#FieldIntensityProbe.Time)                                             | Gets the Time.                                                                                                                                                             |
-| [`Total`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/ProbeResults/FieldIntensityProbe.md#FieldIntensityProbe.Total)                                           | Gets the Total.                                                                                                                                                            |
-| [`XAxis`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/ProbeResults/FieldIntensityProbe.md#FieldIntensityProbe.XAxis)                                           | Gets the XAxis.                                                                                                                                                            |
-| [`YAxis`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/ProbeResults/FieldIntensityProbe.md#FieldIntensityProbe.YAxis)                                           | Gets the YAxis.                                                                                                                                                            |
-| [`ZAxis`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/ProbeResults/FieldIntensityProbe.md#FieldIntensityProbe.ZAxis)                                           | Gets the ZAxis.                                                                                                                                                            |
-| [`ResultSelection`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/ProbeResults/FieldIntensityProbe.md#FieldIntensityProbe.ResultSelection)                       | Gets or sets the ResultSelection.                                                                                                                                          |
-| [`SpatialResolution`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/ProbeResults/FieldIntensityProbe.md#FieldIntensityProbe.SpatialResolution)                   | Gets or sets the SpatialResolution.                                                                                                                                        |
-| [`Type`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/ProbeResults/FieldIntensityProbe.md#FieldIntensityProbe.Type)                                             | Gets the Type.                                                                                                                                                             |
-| [`DpfEvaluation`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/ProbeResults/FieldIntensityProbe.md#FieldIntensityProbe.DpfEvaluation)                           | Gets or sets the DpfEvaluation.                                                                                                                                            |
-| [`Suppressed`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/ProbeResults/FieldIntensityProbe.md#FieldIntensityProbe.Suppressed)                                 | Gets or sets the Suppressed.                                                                                                                                               |
-| [`Children`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/ProbeResults/FieldIntensityProbe.md#FieldIntensityProbe.Children)                                     | Gets the list of children.                                                                                                                                                 |
-| [`Comments`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/ProbeResults/FieldIntensityProbe.md#FieldIntensityProbe.Comments)                                     | Gets the list of associated comments.                                                                                                                                      |
-| [`Figures`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/ProbeResults/FieldIntensityProbe.md#FieldIntensityProbe.Figures)                                       | Gets the list of associated figures.                                                                                                                                       |
-| [`Images`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/ProbeResults/FieldIntensityProbe.md#FieldIntensityProbe.Images)                                         | Gets the list of associated images.                                                                                                                                        |
-| [`InternalObject`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/ProbeResults/FieldIntensityProbe.md#id0)                                                        | Gets the internal object. For advanced usage only.                                                                                                                         |
-| [`Properties`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/ProbeResults/FieldIntensityProbe.md#FieldIntensityProbe.Properties)                                 | Gets the list of properties for this object.                                                                                                                               |
-| [`VisibleProperties`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/ProbeResults/FieldIntensityProbe.md#FieldIntensityProbe.VisibleProperties)                   | Gets the list of properties that are visible for this object.                                                                                                              |
+|---------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| [`BeamSelection`](#FieldIntensityProbe.BeamSelection)                           | Gets or sets the BeamSelection.                                                                                                                                            |
+| [`BoundaryConditionSelection`](#FieldIntensityProbe.BoundaryConditionSelection) | Gets or sets the BoundaryConditionSelection. In order to select the option ‘WeakSprings’, please use the property ‘LocationMethod = LocationDefinitionMethod.WeakSprings’. |
+| [`Children`](#FieldIntensityProbe.Children)                                     | Gets the list of children.                                                                                                                                                 |
+| [`Comments`](#FieldIntensityProbe.Comments)                                     | Gets the list of associated comments.                                                                                                                                      |
+| [`ContactRegionSelection`](#FieldIntensityProbe.ContactRegionSelection)         | Gets or sets the ContactRegionSelection.                                                                                                                                   |
+| [`CoordinateSystemSelection`](#FieldIntensityProbe.CoordinateSystemSelection)   | Gets or sets the CoordinateSystemSelection.                                                                                                                                |
+| [`DataModelObjectCategory`](#FieldIntensityProbe.DataModelObjectCategory)       | Gets the current DataModelObject’s category.                                                                                                                               |
+| [`DisplayTime`](#FieldIntensityProbe.DisplayTime)                               | Gets or sets the DisplayTime.                                                                                                                                              |
+| [`DpfEvaluation`](#FieldIntensityProbe.DpfEvaluation)                           | Gets or sets the DpfEvaluation.                                                                                                                                            |
+| [`Figures`](#FieldIntensityProbe.Figures)                                       | Gets the list of associated figures.                                                                                                                                       |
+| [`GeometryLocation`](#FieldIntensityProbe.GeometryLocation)                     | Gets or sets the GeometryLocation.                                                                                                                                         |
+| [`Images`](#FieldIntensityProbe.Images)                                         | Gets the list of associated images.                                                                                                                                        |
+| [`InternalObject`](#FieldIntensityProbe.InternalObject)                         | Gets the internal object. For advanced usage only.                                                                                                                         |
+| [`IsSolved`](#FieldIntensityProbe.IsSolved)                                     | Gets the IsSolved.                                                                                                                                                         |
+| [`IterationNumber`](#FieldIntensityProbe.IterationNumber)                       | Gets the IterationNumber.                                                                                                                                                  |
+| [`LoadStep`](#FieldIntensityProbe.LoadStep)                                     | Gets the LoadStep.                                                                                                                                                         |
+| [`LoadStepNumber`](#FieldIntensityProbe.LoadStepNumber)                         | Gets or sets the LoadStepNumber.                                                                                                                                           |
+| [`LocationMethod`](#FieldIntensityProbe.LocationMethod)                         | Gets or sets the LocationMethod.                                                                                                                                           |
+| [`MaximumTotal`](#FieldIntensityProbe.MaximumTotal)                             | Gets the MaximumTotal.                                                                                                                                                     |
+| [`MaximumXAxis`](#FieldIntensityProbe.MaximumXAxis)                             | Gets the MaximumXAxis.                                                                                                                                                     |
+| [`MaximumYAxis`](#FieldIntensityProbe.MaximumYAxis)                             | Gets the MaximumYAxis.                                                                                                                                                     |
+| [`MaximumZAxis`](#FieldIntensityProbe.MaximumZAxis)                             | Gets the MaximumZAxis.                                                                                                                                                     |
+| [`MeshConnectionSelection`](#FieldIntensityProbe.MeshConnectionSelection)       | Gets or sets the MeshConnectionSelection.                                                                                                                                  |
+| [`MinimumTotal`](#FieldIntensityProbe.MinimumTotal)                             | Gets the MinimumTotal.                                                                                                                                                     |
+| [`MinimumXAxis`](#FieldIntensityProbe.MinimumXAxis)                             | Gets the MinimumXAxis.                                                                                                                                                     |
+| [`MinimumYAxis`](#FieldIntensityProbe.MinimumYAxis)                             | Gets the MinimumYAxis.                                                                                                                                                     |
+| [`MinimumZAxis`](#FieldIntensityProbe.MinimumZAxis)                             | Gets the MinimumZAxis.                                                                                                                                                     |
+| [`Orientation`](#FieldIntensityProbe.Orientation)                               | Gets or sets the Orientation. Accepts/Returns None if it is the Solution Coordinate System.                                                                                |
+| [`Properties`](#FieldIntensityProbe.Properties)                                 | Gets the list of properties for this object.                                                                                                                               |
+| [`RemotePointSelection`](#FieldIntensityProbe.RemotePointSelection)             | Gets or sets the RemotePointSelection.                                                                                                                                     |
+| [`ResultSelection`](#FieldIntensityProbe.ResultSelection)                       | Gets or sets the ResultSelection.                                                                                                                                          |
+| [`SpatialResolution`](#FieldIntensityProbe.SpatialResolution)                   | Gets or sets the SpatialResolution.                                                                                                                                        |
+| [`SpringSelection`](#FieldIntensityProbe.SpringSelection)                       | Gets or sets the SpringSelection.                                                                                                                                          |
+| [`Substep`](#FieldIntensityProbe.Substep)                                       | Gets the Substep.                                                                                                                                                          |
+| [`Summation`](#FieldIntensityProbe.Summation)                                   | Gets or sets the Summation.                                                                                                                                                |
+| [`Suppressed`](#FieldIntensityProbe.Suppressed)                                 | Gets or sets the Suppressed.                                                                                                                                               |
+| [`SurfaceSelection`](#FieldIntensityProbe.SurfaceSelection)                     | Gets or sets the MeshConnectionSelection.                                                                                                                                  |
+| [`Time`](#FieldIntensityProbe.Time)                                             | Gets the Time.                                                                                                                                                             |
+| [`Total`](#FieldIntensityProbe.Total)                                           | Gets the Total.                                                                                                                                                            |
+| [`TotalFieldIntensity`](#FieldIntensityProbe.TotalFieldIntensity)               | Gets the TotalFieldIntensity.                                                                                                                                              |
+| [`Type`](#FieldIntensityProbe.Type)                                             | Gets the Type.                                                                                                                                                             |
+| [`VisibleProperties`](#FieldIntensityProbe.VisibleProperties)                   | Gets the list of properties that are visible for this object.                                                                                                              |
+| [`XAxis`](#FieldIntensityProbe.XAxis)                                           | Gets the XAxis.                                                                                                                                                            |
+| [`YAxis`](#FieldIntensityProbe.YAxis)                                           | Gets the YAxis.                                                                                                                                                            |
+| [`YAxisFieldIntensity`](#FieldIntensityProbe.YAxisFieldIntensity)               | Gets the YAxisFieldIntensity.                                                                                                                                              |
+| [`ZAxis`](#FieldIntensityProbe.ZAxis)                                           | Gets the ZAxis.                                                                                                                                                            |
 
 <a id="property-detail"></a>
 
 ## Property detail
 
-<a id="FieldIntensityProbe.InternalObject"></a>
+<a id="FieldIntensityProbe.BeamSelection"></a>
 
-### *property* FieldIntensityProbe.InternalObject *: Ansys.Common.Interop.DSObjectsAuto.IDSProbeResultAuto | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* FieldIntensityProbe.BeamSelection *: [Ansys.ACT.Automation.Mechanical.Connections.Beam](../../Connections/Beam.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Connections.Beam) | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets the internal object. For advanced usage only.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="FieldIntensityProbe.TotalFieldIntensity"></a>
-
-### *property* FieldIntensityProbe.TotalFieldIntensity *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets the TotalFieldIntensity.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="FieldIntensityProbe.YAxisFieldIntensity"></a>
-
-### *property* FieldIntensityProbe.YAxisFieldIntensity *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets the YAxisFieldIntensity.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="FieldIntensityProbe.DataModelObjectCategory"></a>
-
-### *property* FieldIntensityProbe.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets the current DataModelObject's category.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="FieldIntensityProbe.Summation"></a>
-
-### *property* FieldIntensityProbe.Summation *: [Ansys.Mechanical.DataModel.Enums.MomentsAtSummationPointType](../../../../../Mechanical/DataModel/Enums/MomentsAtSummationPointType.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.MomentsAtSummationPointType) | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the Summation.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="FieldIntensityProbe.LocationMethod"></a>
-
-### *property* FieldIntensityProbe.LocationMethod *: [Ansys.Mechanical.DataModel.Enums.LocationDefinitionMethod](../../../../../Mechanical/DataModel/Enums/LocationDefinitionMethod.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.LocationDefinitionMethod) | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the LocationMethod.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="FieldIntensityProbe.GeometryLocation"></a>
-
-### *property* FieldIntensityProbe.GeometryLocation *: Ansys.ACT.Interfaces.Common.ISelectionInfo | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the GeometryLocation.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="FieldIntensityProbe.CoordinateSystemSelection"></a>
-
-### *property* FieldIntensityProbe.CoordinateSystemSelection *: [Ansys.ACT.Automation.Mechanical.CoordinateSystem](../../CoordinateSystem.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.CoordinateSystem) | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the CoordinateSystemSelection.
+Gets or sets the BeamSelection.
 
 <!-- !! processed by numpydoc !! -->
 
@@ -165,7 +107,23 @@ Gets or sets the CoordinateSystemSelection.
 
 ### *property* FieldIntensityProbe.BoundaryConditionSelection *: Ansys.ACT.Automation.Mechanical.DataModelObject | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets or sets the BoundaryConditionSelection. In order to select the option â€˜WeakSprings', please use the property â€˜LocationMethod = LocationDefinitionMethod.WeakSprings'.
+Gets or sets the BoundaryConditionSelection. In order to select the option ‘WeakSprings’, please use the property ‘LocationMethod = LocationDefinitionMethod.WeakSprings’.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="FieldIntensityProbe.Children"></a>
+
+### *property* FieldIntensityProbe.Children *: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets the list of children.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="FieldIntensityProbe.Comments"></a>
+
+### *property* FieldIntensityProbe.Comments *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Comment](../../Comment.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets the list of associated comments.
 
 <!-- !! processed by numpydoc !! -->
 
@@ -177,43 +135,67 @@ Gets or sets the ContactRegionSelection.
 
 <!-- !! processed by numpydoc !! -->
 
-<a id="FieldIntensityProbe.RemotePointSelection"></a>
+<a id="FieldIntensityProbe.CoordinateSystemSelection"></a>
 
-### *property* FieldIntensityProbe.RemotePointSelection *: [Ansys.ACT.Automation.Mechanical.RemotePoint](../../RemotePoint.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.RemotePoint) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* FieldIntensityProbe.CoordinateSystemSelection *: [Ansys.ACT.Automation.Mechanical.CoordinateSystem](../../CoordinateSystem.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.CoordinateSystem) | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets or sets the RemotePointSelection.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="FieldIntensityProbe.BeamSelection"></a>
-
-### *property* FieldIntensityProbe.BeamSelection *: [Ansys.ACT.Automation.Mechanical.Connections.Beam](../../Connections/Beam.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Connections.Beam) | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the BeamSelection.
+Gets or sets the CoordinateSystemSelection.
 
 <!-- !! processed by numpydoc !! -->
 
-<a id="FieldIntensityProbe.MeshConnectionSelection"></a>
+<a id="FieldIntensityProbe.DataModelObjectCategory"></a>
 
-### *property* FieldIntensityProbe.MeshConnectionSelection *: [Ansys.ACT.Automation.Mechanical.MeshConnection](../../MeshConnection.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.MeshConnection) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* FieldIntensityProbe.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../../../v242/Ansys/Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets or sets the MeshConnectionSelection.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="FieldIntensityProbe.SurfaceSelection"></a>
-
-### *property* FieldIntensityProbe.SurfaceSelection *: [Ansys.ACT.Automation.Mechanical.Surface](../../Surface.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Surface) | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the MeshConnectionSelection.
+Gets the current DataModelObject’s category.
 
 <!-- !! processed by numpydoc !! -->
 
-<a id="FieldIntensityProbe.SpringSelection"></a>
+<a id="FieldIntensityProbe.DisplayTime"></a>
 
-### *property* FieldIntensityProbe.SpringSelection *: [Ansys.ACT.Automation.Mechanical.Connections.Spring](../../Connections/Spring.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Connections.Spring) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* FieldIntensityProbe.DisplayTime *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets or sets the SpringSelection.
+Gets or sets the DisplayTime.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="FieldIntensityProbe.DpfEvaluation"></a>
+
+### *property* FieldIntensityProbe.DpfEvaluation *: [Ansys.Mechanical.DataModel.Enums.DpfEvaluationType](../../../../../../../v242/Ansys/Mechanical/DataModel/Enums/DpfEvaluationType.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.DpfEvaluationType) | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the DpfEvaluation.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="FieldIntensityProbe.Figures"></a>
+
+### *property* FieldIntensityProbe.Figures *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Figure](../../Figure.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets the list of associated figures.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="FieldIntensityProbe.GeometryLocation"></a>
+
+### *property* FieldIntensityProbe.GeometryLocation *: Ansys.ACT.Interfaces.Common.ISelectionInfo | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the GeometryLocation.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="FieldIntensityProbe.Images"></a>
+
+### *property* FieldIntensityProbe.Images *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Image](../../Image.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets the list of associated images.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="FieldIntensityProbe.InternalObject"></a>
+
+### *property* FieldIntensityProbe.InternalObject *: Ansys.Common.Interop.DSObjectsAuto.IDSProbeResultAuto | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets the internal object. For advanced usage only.
 
 <!-- !! processed by numpydoc !! -->
 
@@ -222,14 +204,6 @@ Gets or sets the SpringSelection.
 ### *property* FieldIntensityProbe.IsSolved *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the IsSolved.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="FieldIntensityProbe.Orientation"></a>
-
-### *property* FieldIntensityProbe.Orientation *: [Ansys.ACT.Automation.Mechanical.CoordinateSystem](../../CoordinateSystem.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.CoordinateSystem) | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the Orientation. Accepts/Returns None if it is the Solution Coordinate System.
 
 <!-- !! processed by numpydoc !! -->
 
@@ -257,19 +231,11 @@ Gets or sets the LoadStepNumber.
 
 <!-- !! processed by numpydoc !! -->
 
-<a id="FieldIntensityProbe.Substep"></a>
+<a id="FieldIntensityProbe.LocationMethod"></a>
 
-### *property* FieldIntensityProbe.Substep *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* FieldIntensityProbe.LocationMethod *: [Ansys.Mechanical.DataModel.Enums.LocationDefinitionMethod](../../../../../../../v242/Ansys/Mechanical/DataModel/Enums/LocationDefinitionMethod.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.LocationDefinitionMethod) | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets the Substep.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="FieldIntensityProbe.DisplayTime"></a>
-
-### *property* FieldIntensityProbe.DisplayTime *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the DisplayTime.
+Gets or sets the LocationMethod.
 
 <!-- !! processed by numpydoc !! -->
 
@@ -305,6 +271,14 @@ Gets the MaximumZAxis.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="FieldIntensityProbe.MeshConnectionSelection"></a>
+
+### *property* FieldIntensityProbe.MeshConnectionSelection *: [Ansys.ACT.Automation.Mechanical.MeshConnection](../../MeshConnection.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.MeshConnection) | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the MeshConnectionSelection.
+
+<!-- !! processed by numpydoc !! -->
+
 <a id="FieldIntensityProbe.MinimumTotal"></a>
 
 ### *property* FieldIntensityProbe.MinimumTotal *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
@@ -337,6 +311,86 @@ Gets the MinimumZAxis.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="FieldIntensityProbe.Orientation"></a>
+
+### *property* FieldIntensityProbe.Orientation *: [Ansys.ACT.Automation.Mechanical.CoordinateSystem](../../CoordinateSystem.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.CoordinateSystem) | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the Orientation. Accepts/Returns None if it is the Solution Coordinate System.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="FieldIntensityProbe.Properties"></a>
+
+### *property* FieldIntensityProbe.Properties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets the list of properties for this object.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="FieldIntensityProbe.RemotePointSelection"></a>
+
+### *property* FieldIntensityProbe.RemotePointSelection *: [Ansys.ACT.Automation.Mechanical.RemotePoint](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/RemotePoint.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.RemotePoint) | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the RemotePointSelection.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="FieldIntensityProbe.ResultSelection"></a>
+
+### *property* FieldIntensityProbe.ResultSelection *: [Ansys.Mechanical.DataModel.Enums.ProbeDisplayFilter](../../../../../../../v242/Ansys/Mechanical/DataModel/Enums/ProbeDisplayFilter.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.ProbeDisplayFilter) | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the ResultSelection.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="FieldIntensityProbe.SpatialResolution"></a>
+
+### *property* FieldIntensityProbe.SpatialResolution *: [Ansys.Mechanical.DataModel.Enums.MinimumOrMaximum](../../../../../../../v242/Ansys/Mechanical/DataModel/Enums/MinimumOrMaximum.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.MinimumOrMaximum) | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the SpatialResolution.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="FieldIntensityProbe.SpringSelection"></a>
+
+### *property* FieldIntensityProbe.SpringSelection *: [Ansys.ACT.Automation.Mechanical.Connections.Spring](../../Connections/Spring.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Connections.Spring) | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the SpringSelection.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="FieldIntensityProbe.Substep"></a>
+
+### *property* FieldIntensityProbe.Substep *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets the Substep.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="FieldIntensityProbe.Summation"></a>
+
+### *property* FieldIntensityProbe.Summation *: [Ansys.Mechanical.DataModel.Enums.MomentsAtSummationPointType](../../../../../../../v242/Ansys/Mechanical/DataModel/Enums/MomentsAtSummationPointType.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.MomentsAtSummationPointType) | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the Summation.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="FieldIntensityProbe.Suppressed"></a>
+
+### *property* FieldIntensityProbe.Suppressed *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the Suppressed.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="FieldIntensityProbe.SurfaceSelection"></a>
+
+### *property* FieldIntensityProbe.SurfaceSelection *: [Ansys.ACT.Automation.Mechanical.Surface](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Surface.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Surface) | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the MeshConnectionSelection.
+
+<!-- !! processed by numpydoc !! -->
+
 <a id="FieldIntensityProbe.Time"></a>
 
 ### *property* FieldIntensityProbe.Time *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
@@ -350,6 +404,30 @@ Gets the Time.
 ### *property* FieldIntensityProbe.Total *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the Total.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="FieldIntensityProbe.TotalFieldIntensity"></a>
+
+### *property* FieldIntensityProbe.TotalFieldIntensity *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets the TotalFieldIntensity.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="FieldIntensityProbe.Type"></a>
+
+### *property* FieldIntensityProbe.Type *: [Ansys.Mechanical.DataModel.Enums.ProbeResultType](../../../../../../../v242/Ansys/Mechanical/DataModel/Enums/ProbeResultType.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.ProbeResultType) | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets the Type.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="FieldIntensityProbe.VisibleProperties"></a>
+
+### *property* FieldIntensityProbe.VisibleProperties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets the list of properties that are visible for this object.
 
 <!-- !! processed by numpydoc !! -->
 
@@ -369,6 +447,14 @@ Gets the YAxis.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="FieldIntensityProbe.YAxisFieldIntensity"></a>
+
+### *property* FieldIntensityProbe.YAxisFieldIntensity *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets the YAxisFieldIntensity.
+
+<!-- !! processed by numpydoc !! -->
+
 <a id="FieldIntensityProbe.ZAxis"></a>
 
 ### *property* FieldIntensityProbe.ZAxis *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
@@ -377,175 +463,15 @@ Gets the ZAxis.
 
 <!-- !! processed by numpydoc !! -->
 
-<a id="FieldIntensityProbe.ResultSelection"></a>
-
-### *property* FieldIntensityProbe.ResultSelection *: [Ansys.Mechanical.DataModel.Enums.ProbeDisplayFilter](../../../../../Mechanical/DataModel/Enums/ProbeDisplayFilter.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.ProbeDisplayFilter) | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the ResultSelection.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="FieldIntensityProbe.SpatialResolution"></a>
-
-### *property* FieldIntensityProbe.SpatialResolution *: [Ansys.Mechanical.DataModel.Enums.MinimumOrMaximum](../../../../../Mechanical/DataModel/Enums/MinimumOrMaximum.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.MinimumOrMaximum) | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the SpatialResolution.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="FieldIntensityProbe.Type"></a>
-
-### *property* FieldIntensityProbe.Type *: [Ansys.Mechanical.DataModel.Enums.ProbeResultType](../../../../../Mechanical/DataModel/Enums/ProbeResultType.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.ProbeResultType) | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets the Type.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="FieldIntensityProbe.DpfEvaluation"></a>
-
-### *property* FieldIntensityProbe.DpfEvaluation *: [Ansys.Mechanical.DataModel.Enums.DpfEvaluationType](../../../../../Mechanical/DataModel/Enums/DpfEvaluationType.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DpfEvaluationType) | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the DpfEvaluation.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="FieldIntensityProbe.Suppressed"></a>
-
-### *property* FieldIntensityProbe.Suppressed *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the Suppressed.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="FieldIntensityProbe.Children"></a>
-
-### *property* FieldIntensityProbe.Children *: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets the list of children.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="FieldIntensityProbe.Comments"></a>
-
-### *property* FieldIntensityProbe.Comments *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Comment](../../Comment.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets the list of associated comments.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="FieldIntensityProbe.Figures"></a>
-
-### *property* FieldIntensityProbe.Figures *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Figure](../../Figure.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets the list of associated figures.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="FieldIntensityProbe.Images"></a>
-
-### *property* FieldIntensityProbe.Images *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Image](../../Image.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets the list of associated images.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="id0"></a>
-
-### *property* FieldIntensityProbe.InternalObject *: System.Object | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets the internal object. For advanced usage only.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="FieldIntensityProbe.Properties"></a>
-
-### *property* FieldIntensityProbe.Properties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets the list of properties for this object.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="FieldIntensityProbe.VisibleProperties"></a>
-
-### *property* FieldIntensityProbe.VisibleProperties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets the list of properties that are visible for this object.
-
-<!-- !! processed by numpydoc !! -->
-
 <a id="method-detail"></a>
 
 ## Method detail
 
-<a id="FieldIntensityProbe.ExportAnimation"></a>
+<a id="FieldIntensityProbe.Activate"></a>
 
-### FieldIntensityProbe.ExportAnimation(filePath: System.String, format: [Ansys.Mechanical.DataModel.Enums.GraphicsAnimationExportFormat](../../../../../Mechanical/DataModel/Enums/GraphicsAnimationExportFormat.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.GraphicsAnimationExportFormat), settings: [Ansys.Mechanical.Graphics.AnimationExportSettings](../../../../../Mechanical/Graphics/AnimationExportSettings.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.Graphics.AnimationExportSettings))
+### FieldIntensityProbe.Activate()
 
-Run the ExportAnimation action.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="FieldIntensityProbe.ClearGeneratedData"></a>
-
-### FieldIntensityProbe.ClearGeneratedData()
-
-Run the ClearGeneratedData action.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="FieldIntensityProbe.DuplicateWithoutResults"></a>
-
-### FieldIntensityProbe.DuplicateWithoutResults()
-
-Run the DuplicateWithoutResults action.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="FieldIntensityProbe.EvaluateAllResults"></a>
-
-### FieldIntensityProbe.EvaluateAllResults()
-
-Run the EvaluateAllResults action.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="FieldIntensityProbe.SnapToMeshNodes"></a>
-
-### FieldIntensityProbe.SnapToMeshNodes()
-
-Snap the coordinates of probe result to the mesh nodes.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="FieldIntensityProbe.RenameBasedOnDefinition"></a>
-
-### FieldIntensityProbe.RenameBasedOnDefinition()
-
-Run the RenameBasedOnDefinition action.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="FieldIntensityProbe.Delete"></a>
-
-### FieldIntensityProbe.Delete()
-
-Run the Delete action.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="FieldIntensityProbe.GetChildren"></a>
-
-### FieldIntensityProbe.GetChildren(recurses: System.Boolean, children: System.Collections.Generic.IList[ChildrenType])
-
-Gets the list of children, filtered by type.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="id1"></a>
-
-### FieldIntensityProbe.GetChildren(category: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory), recurses: System.Boolean, children: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject])
-
-Gets the list of children, filtered by type.
+Activate the current object.
 
 <!-- !! processed by numpydoc !! -->
 
@@ -569,17 +495,19 @@ Creates a new child Figure.
 
 ### FieldIntensityProbe.AddImage(filePath: System.String)
 
+```text
 Creates a new child Image.
 If a filePath is provided, the image will be loaded from that file,
 if not, the image will be a screen capture of the Geometry window.
+```
 
 <!-- !! processed by numpydoc !! -->
 
-<a id="FieldIntensityProbe.Activate"></a>
+<a id="FieldIntensityProbe.ClearGeneratedData"></a>
 
-### FieldIntensityProbe.Activate()
+### FieldIntensityProbe.ClearGeneratedData()
 
-Activate the current object.
+Run the ClearGeneratedData action.
 
 <!-- !! processed by numpydoc !! -->
 
@@ -591,11 +519,67 @@ Copies all visible properties from this object to another.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="FieldIntensityProbe.CreateParameter"></a>
+
+### FieldIntensityProbe.CreateParameter(propName: System.String)
+
+Creates a new parameter for a Property.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="FieldIntensityProbe.Delete"></a>
+
+### FieldIntensityProbe.Delete()
+
+Run the Delete action.
+
+<!-- !! processed by numpydoc !! -->
+
 <a id="FieldIntensityProbe.Duplicate"></a>
 
 ### FieldIntensityProbe.Duplicate()
 
 Creates a copy of the current DataModelObject.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="FieldIntensityProbe.DuplicateWithoutResults"></a>
+
+### FieldIntensityProbe.DuplicateWithoutResults()
+
+Run the DuplicateWithoutResults action.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="FieldIntensityProbe.EvaluateAllResults"></a>
+
+### FieldIntensityProbe.EvaluateAllResults()
+
+Run the EvaluateAllResults action.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="FieldIntensityProbe.ExportAnimation"></a>
+
+### FieldIntensityProbe.ExportAnimation(filePath: System.String, format: [Ansys.Mechanical.DataModel.Enums.GraphicsAnimationExportFormat](../../../../../../../v242/Ansys/Mechanical/DataModel/Enums/GraphicsAnimationExportFormat.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.GraphicsAnimationExportFormat), settings: [Ansys.Mechanical.Graphics.AnimationExportSettings](../../../../../../../v242/Ansys/Mechanical/Graphics/AnimationExportSettings.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.Graphics.AnimationExportSettings))
+
+Run the ExportAnimation action.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="FieldIntensityProbe.GetChildren"></a>
+
+### FieldIntensityProbe.GetChildren(recurses: System.Boolean, children: System.Collections.Generic.IList[ChildrenType])
+
+Gets the list of children, filtered by type.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="FieldIntensityProbe.GetParameter"></a>
+
+### FieldIntensityProbe.GetParameter(propName: System.String)
+
+Gets the parameter corresponding to the given property.
 
 <!-- !! processed by numpydoc !! -->
 
@@ -615,6 +599,17 @@ Run the GroupSimilarObjects action.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="FieldIntensityProbe.PropertyByAPIName"></a>
+
+### FieldIntensityProbe.PropertyByAPIName(name: System.String)
+
+```text
+Get a property by its API name.
+If multiple properties have the same API Name, only the first property with that name will be returned.
+```
+
+<!-- !! processed by numpydoc !! -->
+
 <a id="FieldIntensityProbe.PropertyByName"></a>
 
 ### FieldIntensityProbe.PropertyByName(name: System.String)
@@ -623,36 +618,27 @@ Get a property by its unique name.
 
 <!-- !! processed by numpydoc !! -->
 
-<a id="FieldIntensityProbe.PropertyByAPIName"></a>
-
-### FieldIntensityProbe.PropertyByAPIName(name: System.String)
-
-Get a property by its API name.
-If multiple properties have the same API Name, only the first property with that name will be returned.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="FieldIntensityProbe.CreateParameter"></a>
-
-### FieldIntensityProbe.CreateParameter(propName: System.String)
-
-Creates a new parameter for a Property.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="FieldIntensityProbe.GetParameter"></a>
-
-### FieldIntensityProbe.GetParameter(propName: System.String)
-
-Gets the parameter corresponding to the given property.
-
-<!-- !! processed by numpydoc !! -->
-
 <a id="FieldIntensityProbe.RemoveParameter"></a>
 
 ### FieldIntensityProbe.RemoveParameter(propName: System.String)
 
 Removes the parameter from the parameter set corresponding to the given property.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="FieldIntensityProbe.RenameBasedOnDefinition"></a>
+
+### FieldIntensityProbe.RenameBasedOnDefinition()
+
+Run the RenameBasedOnDefinition action.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="FieldIntensityProbe.SnapToMeshNodes"></a>
+
+### FieldIntensityProbe.SnapToMeshNodes()
+
+Snap the coordinates of probe result to the mesh nodes.
 
 <!-- !! processed by numpydoc !! -->
 

@@ -1,6 +1,6 @@
 # `CoreResultType`
 
-
+<a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.CoreResultType"></a>
 
 #### *class* ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.CoreResultType
 
@@ -17,11 +17,11 @@ Specifies the CoreResultType.
 ### Attributes
 
 | Name |
-| ------------------------------------------------------------------------------------------------------------------------ |
-| [`Acceleration`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/CoreResultType.md#CoreResultType.Acceleration) |
-| [`Displacement`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/CoreResultType.md#CoreResultType.Displacement) |
-| [`OtherResult`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/CoreResultType.md#CoreResultType.OtherResult) |
-| [`Velocity`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/CoreResultType.md#CoreResultType.Velocity) |
+| -------------------------------------------------- |
+| [`Acceleration`](#CoreResultType.Acceleration) |
+| [`Displacement`](#CoreResultType.Displacement) |
+| [`OtherResult`](#CoreResultType.OtherResult) |
+| [`Velocity`](#CoreResultType.Velocity) |
 
 <a id="attribute-detail"></a>
 

@@ -1,6 +1,6 @@
 # `EffectiveStrainTracker`
 
-
+<a id="ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Results.ResultTrackers.EffectiveStrainTracker"></a>
 
 #### *class* ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Results.ResultTrackers.EffectiveStrainTracker
 
@@ -17,95 +17,301 @@ Defines a EffectiveStrainTracker.
 ### Methods
 
 | Name | Description |
-|------------------------------------------------------------------------------|-----------------------------------------------------------------------------------|
-| [`ExportAnimation`](#EffectiveStrainTracker.ExportAnimation)                 | Run the ExportAnimation action.                                                   |
-| [`ClearGeneratedData`](#EffectiveStrainTracker.ClearGeneratedData)           | Run the ClearGeneratedData action.                                                |
-| [`EvaluateAllResults`](#EffectiveStrainTracker.EvaluateAllResults)           | Run the EvaluateAllResults action.                                                |
-| [`RenameBasedOnDefinition`](#EffectiveStrainTracker.RenameBasedOnDefinition) | Run the RenameBasedOnDefinition action.                                           |
-| [`Delete`](#EffectiveStrainTracker.Delete)                                   | Run the Delete action.                                                            |
-| [`GetChildren`](#id1)                                                        | Gets the list of children, filtered by type.                                      |
-| [`GetChildren`](#id1)                                                        | Gets the list of children, filtered by type.                                      |
+|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------|
+| [`Activate`](#EffectiveStrainTracker.Activate)                               | Activate the current object.                                                      |
 | [`AddComment`](#EffectiveStrainTracker.AddComment)                           | Creates a new child Comment.                                                      |
 | [`AddImage`](#EffectiveStrainTracker.AddImage)                               | Creates a new child Image.                                                        |
-| [`Activate`](#EffectiveStrainTracker.Activate)                               | Activate the current object.                                                      |
+| [`ClearGeneratedData`](#EffectiveStrainTracker.ClearGeneratedData)           | Run the ClearGeneratedData action.                                                |
 | [`CopyTo`](#EffectiveStrainTracker.CopyTo)                                   | Copies all visible properties from this object to another.                        |
+| [`CreateParameter`](#EffectiveStrainTracker.CreateParameter)                 | Creates a new parameter for a Property.                                           |
+| [`Delete`](#EffectiveStrainTracker.Delete)                                   | Run the Delete action.                                                            |
 | [`Duplicate`](#EffectiveStrainTracker.Duplicate)                             | Creates a copy of the current DataModelObject.                                    |
+| [`EvaluateAllResults`](#EffectiveStrainTracker.EvaluateAllResults)           | Run the EvaluateAllResults action.                                                |
+| [`ExportAnimation`](#EffectiveStrainTracker.ExportAnimation)                 | Run the ExportAnimation action.                                                   |
+| [`GetChildren`](#EffectiveStrainTracker.GetChildren)                         | Gets the list of children, filtered by type.                                      |
+| [`GetParameter`](#EffectiveStrainTracker.GetParameter)                       | Gets the parameter corresponding to the given property.                           |
 | [`GroupAllSimilarChildren`](#EffectiveStrainTracker.GroupAllSimilarChildren) | Run the GroupAllSimilarChildren action.                                           |
 | [`GroupSimilarObjects`](#EffectiveStrainTracker.GroupSimilarObjects)         | Run the GroupSimilarObjects action.                                               |
-| [`PropertyByName`](#EffectiveStrainTracker.PropertyByName)                   | Get a property by its unique name.                                                |
 | [`PropertyByAPIName`](#EffectiveStrainTracker.PropertyByAPIName)             | Get a property by its API name.                                                   |
-| [`CreateParameter`](#EffectiveStrainTracker.CreateParameter)                 | Creates a new parameter for a Property.                                           |
-| [`GetParameter`](#EffectiveStrainTracker.GetParameter)                       | Gets the parameter corresponding to the given property.                           |
+| [`PropertyByName`](#EffectiveStrainTracker.PropertyByName)                   | Get a property by its unique name.                                                |
 | [`RemoveParameter`](#EffectiveStrainTracker.RemoveParameter)                 | Removes the parameter from the parameter set corresponding to the given property. |
+| [`RenameBasedOnDefinition`](#EffectiveStrainTracker.RenameBasedOnDefinition) | Run the RenameBasedOnDefinition action.                                           |
 
 ### Properties
 
 | Name | Description |
-|--------------------------------------------------------------------------------------|---------------------------------------------------------------|
-| [`InternalObject`](#id0)                                                             | Gets the internal object. For advanced usage only.            |
+|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------|
+| [`AccelerationType`](#EffectiveStrainTracker.AccelerationType)                       | Gets or sets the AccelerationType.                            |
+| [`BoundaryCondition`](#EffectiveStrainTracker.BoundaryCondition)                     | Gets or sets the BoundaryCondition.                           |
+| [`ChartDimensions`](#EffectiveStrainTracker.ChartDimensions)                         | Gets or sets the Chart Dimensions                             |
+| [`ChartViewingStyle`](#EffectiveStrainTracker.ChartViewingStyle)                     | Gets or sets the ChartViewingStyle.                           |
+| [`Children`](#EffectiveStrainTracker.Children)                                       | Gets the list of children.                                    |
+| [`Comments`](#EffectiveStrainTracker.Comments)                                       | Gets the list of associated comments.                         |
+| [`CoordinateSystem`](#EffectiveStrainTracker.CoordinateSystem)                       | Gets or sets the CoordinateSystem.                            |
+| [`CurvesAppearanceDisplay`](#EffectiveStrainTracker.CurvesAppearanceDisplay)         | Gets or sets the CurvesAppearanceDisplay.                     |
+| [`CutFrequency`](#EffectiveStrainTracker.CutFrequency)                               | Gets or sets the CutFrequency.                                |
+| [`DataModelObjectCategory`](#EffectiveStrainTracker.DataModelObjectCategory)         | Gets the current DataModelObject’s category.                  |
+| [`DeformationType`](#EffectiveStrainTracker.DeformationType)                         | Gets or sets the DeformationType.                             |
+| [`DpfEvaluation`](#EffectiveStrainTracker.DpfEvaluation)                             | Gets or sets the DpfEvaluation.                               |
+| [`Duration`](#EffectiveStrainTracker.Duration)                                       | Gets or sets the Duration.                                    |
+| [`EnhancedTracking`](#EffectiveStrainTracker.EnhancedTracking)                       | Gets the EnhancedTracking.                                    |
+| [`FilterMaximum`](#EffectiveStrainTracker.FilterMaximum)                             | Gets the FilterMaximum.                                       |
+| [`FilterMinimum`](#EffectiveStrainTracker.FilterMinimum)                             | Gets the FilterMinimum.                                       |
+| [`FilterType`](#EffectiveStrainTracker.FilterType)                                   | Gets or sets the FilterType.                                  |
+| [`FrequencyAtMaximumAmplitude`](#EffectiveStrainTracker.FrequencyAtMaximumAmplitude) | Gets the FrequencyAtMaximumAmplitude.                         |
+| [`GeometrySelectionString`](#EffectiveStrainTracker.GeometrySelectionString)         | Gets or sets the GeometrySelectionString.                     |
+| [`Images`](#EffectiveStrainTracker.Images)                                           | Gets the list of associated images.                           |
+| [`ImaginaryAtMaximumAmplitude`](#EffectiveStrainTracker.ImaginaryAtMaximumAmplitude) | Gets the ImaginaryAtMaximumAmplitude.                         |
+| [`InternalObject`](#EffectiveStrainTracker.InternalObject)                           | Gets the internal object. For advanced usage only.            |
+| [`IsSolved`](#EffectiveStrainTracker.IsSolved)                                       | Gets the IsSolved.                                            |
+| [`LoadStepNumber`](#EffectiveStrainTracker.LoadStepNumber)                           | Gets or sets the LoadStepNumber.                              |
+| [`Location`](#EffectiveStrainTracker.Location)                                       | Gets or sets the Location.                                    |
+| [`LocationCoordinateSystem`](#EffectiveStrainTracker.LocationCoordinateSystem)       | Gets or sets the LocationCoordinateSystem.                    |
+| [`LocationMethod`](#EffectiveStrainTracker.LocationMethod)                           | Gets or sets the LocationMethod.                              |
 | [`LocationXCoordinate`](#EffectiveStrainTracker.LocationXCoordinate)                 | Gets or sets the LocationXCoordinate.                         |
 | [`LocationYCoordinate`](#EffectiveStrainTracker.LocationYCoordinate)                 | Gets or sets the LocationYCoordinate.                         |
 | [`LocationZCoordinate`](#EffectiveStrainTracker.LocationZCoordinate)                 | Gets or sets the LocationZCoordinate.                         |
-| [`LocationMethod`](#EffectiveStrainTracker.LocationMethod)                           | Gets or sets the LocationMethod.                              |
-| [`LocationCoordinateSystem`](#EffectiveStrainTracker.LocationCoordinateSystem)       | Gets or sets the LocationCoordinateSystem.                    |
-| [`DataModelObjectCategory`](#EffectiveStrainTracker.DataModelObjectCategory)         | Gets the current DataModelObject's category.                  |
-| [`IsSolved`](#EffectiveStrainTracker.IsSolved)                                       | Gets the IsSolved.                                            |
-| [`ChartDimensions`](#EffectiveStrainTracker.ChartDimensions)                         | Gets or sets the Chart Dimensions                             |
-| [`BoundaryCondition`](#EffectiveStrainTracker.BoundaryCondition)                     | Gets or sets the BoundaryCondition.                           |
-| [`CutFrequency`](#EffectiveStrainTracker.CutFrequency)                               | Gets or sets the CutFrequency.                                |
-| [`SectorNumber`](#EffectiveStrainTracker.SectorNumber)                               | Gets or sets the SectorNumber.                                |
-| [`GeometrySelectionString`](#EffectiveStrainTracker.GeometrySelectionString)         | Gets or sets the GeometrySelectionString.                     |
-| [`LoadStepNumber`](#EffectiveStrainTracker.LoadStepNumber)                           | Gets or sets the LoadStepNumber.                              |
-| [`ReportedFrequency`](#EffectiveStrainTracker.ReportedFrequency)                     | Gets the ReportedFrequency.                                   |
-| [`Duration`](#EffectiveStrainTracker.Duration)                                       | Gets or sets the Duration.                                    |
-| [`FilterMaximum`](#EffectiveStrainTracker.FilterMaximum)                             | Gets the FilterMaximum.                                       |
-| [`FilterMinimum`](#EffectiveStrainTracker.FilterMinimum)                             | Gets the FilterMinimum.                                       |
-| [`FrequencyAtMaximumAmplitude`](#EffectiveStrainTracker.FrequencyAtMaximumAmplitude) | Gets the FrequencyAtMaximumAmplitude.                         |
-| [`ImaginaryAtMaximumAmplitude`](#EffectiveStrainTracker.ImaginaryAtMaximumAmplitude) | Gets the ImaginaryAtMaximumAmplitude.                         |
+| [`Maximum`](#EffectiveStrainTracker.Maximum)                                         | Gets the Maximum.                                             |
 | [`MaximumAmplitude`](#EffectiveStrainTracker.MaximumAmplitude)                       | Gets the MaximumAmplitude.                                    |
 | [`MaximumFrequency`](#EffectiveStrainTracker.MaximumFrequency)                       | Gets or sets the MaximumFrequency.                            |
-| [`Maximum`](#EffectiveStrainTracker.Maximum)                                         | Gets the Maximum.                                             |
-| [`MinimumFrequency`](#EffectiveStrainTracker.MinimumFrequency)                       | Gets or sets the MinimumFrequency.                            |
 | [`Minimum`](#EffectiveStrainTracker.Minimum)                                         | Gets the Minimum.                                             |
-| [`PhaseAngle`](#EffectiveStrainTracker.PhaseAngle)                                   | Gets the PhaseAngle.                                          |
-| [`RealAtMaximumAmplitude`](#EffectiveStrainTracker.RealAtMaximumAmplitude)           | Gets the RealAtMaximumAmplitude.                              |
-| [`RequestedFrequency`](#EffectiveStrainTracker.RequestedFrequency)                   | Gets or sets the RequestedFrequency.                          |
-| [`AccelerationType`](#EffectiveStrainTracker.AccelerationType)                       | Gets or sets the AccelerationType.                            |
-| [`ChartViewingStyle`](#EffectiveStrainTracker.ChartViewingStyle)                     | Gets or sets the ChartViewingStyle.                           |
-| [`DeformationType`](#EffectiveStrainTracker.DeformationType)                         | Gets or sets the DeformationType.                             |
-| [`FilterType`](#EffectiveStrainTracker.FilterType)                                   | Gets or sets the FilterType.                                  |
-| [`SpatialResolution`](#EffectiveStrainTracker.SpatialResolution)                     | Gets or sets the SpatialResolution.                           |
+| [`MinimumFrequency`](#EffectiveStrainTracker.MinimumFrequency)                       | Gets or sets the MinimumFrequency.                            |
 | [`NormalOrientation`](#EffectiveStrainTracker.NormalOrientation)                     | Gets or sets the NormalOrientation.                           |
-| [`CurvesAppearanceDisplay`](#EffectiveStrainTracker.CurvesAppearanceDisplay)         | Gets or sets the CurvesAppearanceDisplay.                     |
-| [`ResultChartType`](#EffectiveStrainTracker.ResultChartType)                         | Gets the ResultChartType.                                     |
-| [`DpfEvaluation`](#EffectiveStrainTracker.DpfEvaluation)                             | Gets or sets the DpfEvaluation.                               |
-| [`XAxisValues`](#EffectiveStrainTracker.XAxisValues)                                 | Gets or sets the XAxisValues.                                 |
-| [`ShearOrientation`](#EffectiveStrainTracker.ShearOrientation)                       | Gets or sets the ShearOrientation.                            |
-| [`StressStrainType`](#EffectiveStrainTracker.StressStrainType)                       | Gets or sets the StressStrainType.                            |
-| [`TimeHistoryDisplay`](#EffectiveStrainTracker.TimeHistoryDisplay)                   | Gets or sets the TimeHistoryDisplay.                          |
-| [`VelocityType`](#EffectiveStrainTracker.VelocityType)                               | Gets or sets the VelocityType.                                |
-| [`Suppressed`](#EffectiveStrainTracker.Suppressed)                                   | Gets or sets the Suppressed.                                  |
-| [`EnhancedTracking`](#EffectiveStrainTracker.EnhancedTracking)                       | Gets the EnhancedTracking.                                    |
-| [`UseParentFrequencyRange`](#EffectiveStrainTracker.UseParentFrequencyRange)         | Gets or sets the UseParentFrequencyRange.                     |
-| [`CoordinateSystem`](#EffectiveStrainTracker.CoordinateSystem)                       | Gets or sets the CoordinateSystem.                            |
-| [`Spring`](#EffectiveStrainTracker.Spring)                                           | Gets or sets the Spring.                                      |
-| [`Location`](#EffectiveStrainTracker.Location)                                       | Gets or sets the Location.                                    |
-| [`Children`](#EffectiveStrainTracker.Children)                                       | Gets the list of children.                                    |
-| [`Comments`](#EffectiveStrainTracker.Comments)                                       | Gets the list of associated comments.                         |
-| [`Images`](#EffectiveStrainTracker.Images)                                           | Gets the list of associated images.                           |
-| [`InternalObject`](#id0)                                                             | Gets the internal object. For advanced usage only.            |
+| [`PhaseAngle`](#EffectiveStrainTracker.PhaseAngle)                                   | Gets the PhaseAngle.                                          |
 | [`Properties`](#EffectiveStrainTracker.Properties)                                   | Gets the list of properties for this object.                  |
+| [`RealAtMaximumAmplitude`](#EffectiveStrainTracker.RealAtMaximumAmplitude)           | Gets the RealAtMaximumAmplitude.                              |
+| [`ReportedFrequency`](#EffectiveStrainTracker.ReportedFrequency)                     | Gets the ReportedFrequency.                                   |
+| [`RequestedFrequency`](#EffectiveStrainTracker.RequestedFrequency)                   | Gets or sets the RequestedFrequency.                          |
+| [`ResultChartType`](#EffectiveStrainTracker.ResultChartType)                         | Gets the ResultChartType.                                     |
+| [`SectorNumber`](#EffectiveStrainTracker.SectorNumber)                               | Gets or sets the SectorNumber.                                |
+| [`ShearOrientation`](#EffectiveStrainTracker.ShearOrientation)                       | Gets or sets the ShearOrientation.                            |
+| [`SpatialResolution`](#EffectiveStrainTracker.SpatialResolution)                     | Gets or sets the SpatialResolution.                           |
+| [`Spring`](#EffectiveStrainTracker.Spring)                                           | Gets or sets the Spring.                                      |
+| [`StressStrainType`](#EffectiveStrainTracker.StressStrainType)                       | Gets or sets the StressStrainType.                            |
+| [`Suppressed`](#EffectiveStrainTracker.Suppressed)                                   | Gets or sets the Suppressed.                                  |
+| [`TimeHistoryDisplay`](#EffectiveStrainTracker.TimeHistoryDisplay)                   | Gets or sets the TimeHistoryDisplay.                          |
+| [`UseParentFrequencyRange`](#EffectiveStrainTracker.UseParentFrequencyRange)         | Gets or sets the UseParentFrequencyRange.                     |
+| [`VelocityType`](#EffectiveStrainTracker.VelocityType)                               | Gets or sets the VelocityType.                                |
 | [`VisibleProperties`](#EffectiveStrainTracker.VisibleProperties)                     | Gets the list of properties that are visible for this object. |
+| [`XAxisValues`](#EffectiveStrainTracker.XAxisValues)                                 | Gets or sets the XAxisValues.                                 |
 
 <a id="property-detail"></a>
 
 ## Property detail
+
+<a id="EffectiveStrainTracker.AccelerationType"></a>
+
+### *property* EffectiveStrainTracker.AccelerationType *: [Ansys.Mechanical.DataModel.Enums.TotalOrDirectional](../../../../../Mechanical/DataModel/Enums/TotalOrDirectional.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.TotalOrDirectional) | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the AccelerationType.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="EffectiveStrainTracker.BoundaryCondition"></a>
+
+### *property* EffectiveStrainTracker.BoundaryCondition *: [Ansys.ACT.Automation.Mechanical.BoundaryConditions.GenericBoundaryCondition](../../../../../../../v241/Ansys/ACT/Automation/Mechanical/BoundaryConditions/GenericBoundaryCondition.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.BoundaryConditions.GenericBoundaryCondition) | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the BoundaryCondition.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="EffectiveStrainTracker.ChartDimensions"></a>
+
+### *property* EffectiveStrainTracker.ChartDimensions *: [Ansys.Mechanical.DataModel.Enums.ChartDimensions](../../../../../Mechanical/DataModel/Enums/ChartDimensions.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.ChartDimensions) | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the Chart Dimensions
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="EffectiveStrainTracker.ChartViewingStyle"></a>
+
+### *property* EffectiveStrainTracker.ChartViewingStyle *: [Ansys.Mechanical.DataModel.Enums.ChartAxisScaleType](../../../../../Mechanical/DataModel/Enums/ChartAxisScaleType.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.ChartAxisScaleType) | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the ChartViewingStyle.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="EffectiveStrainTracker.Children"></a>
+
+### *property* EffectiveStrainTracker.Children *: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets the list of children.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="EffectiveStrainTracker.Comments"></a>
+
+### *property* EffectiveStrainTracker.Comments *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Comment](../../../../../../../v241/Ansys/ACT/Automation/Mechanical/Comment.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets the list of associated comments.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="EffectiveStrainTracker.CoordinateSystem"></a>
+
+### *property* EffectiveStrainTracker.CoordinateSystem *: [Ansys.ACT.Automation.Mechanical.CoordinateSystem](../../../../../../../v241/Ansys/ACT/Automation/Mechanical/CoordinateSystem.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.CoordinateSystem) | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the CoordinateSystem.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="EffectiveStrainTracker.CurvesAppearanceDisplay"></a>
+
+### *property* EffectiveStrainTracker.CurvesAppearanceDisplay *: [Ansys.Mechanical.DataModel.Enums.ChartPlotStyle](../../../../../Mechanical/DataModel/Enums/ChartPlotStyle.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.ChartPlotStyle) | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the CurvesAppearanceDisplay.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="EffectiveStrainTracker.CutFrequency"></a>
+
+### *property* EffectiveStrainTracker.CutFrequency *: System.Double | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the CutFrequency.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="EffectiveStrainTracker.DataModelObjectCategory"></a>
+
+### *property* EffectiveStrainTracker.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets the current DataModelObject’s category.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="EffectiveStrainTracker.DeformationType"></a>
+
+### *property* EffectiveStrainTracker.DeformationType *: [Ansys.Mechanical.DataModel.Enums.TotalOrDirectional](../../../../../Mechanical/DataModel/Enums/TotalOrDirectional.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.TotalOrDirectional) | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the DeformationType.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="EffectiveStrainTracker.DpfEvaluation"></a>
+
+### *property* EffectiveStrainTracker.DpfEvaluation *: [Ansys.Mechanical.DataModel.Enums.DpfEvaluationType](../../../../../Mechanical/DataModel/Enums/DpfEvaluationType.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.DpfEvaluationType) | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the DpfEvaluation.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="EffectiveStrainTracker.Duration"></a>
+
+### *property* EffectiveStrainTracker.Duration *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the Duration.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="EffectiveStrainTracker.EnhancedTracking"></a>
+
+### *property* EffectiveStrainTracker.EnhancedTracking *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets the EnhancedTracking.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="EffectiveStrainTracker.FilterMaximum"></a>
+
+### *property* EffectiveStrainTracker.FilterMaximum *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets the FilterMaximum.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="EffectiveStrainTracker.FilterMinimum"></a>
+
+### *property* EffectiveStrainTracker.FilterMinimum *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets the FilterMinimum.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="EffectiveStrainTracker.FilterType"></a>
+
+### *property* EffectiveStrainTracker.FilterType *: [Ansys.Mechanical.DataModel.Enums.FilterType](../../../../../Mechanical/DataModel/Enums/FilterType.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.FilterType) | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the FilterType.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="EffectiveStrainTracker.FrequencyAtMaximumAmplitude"></a>
+
+### *property* EffectiveStrainTracker.FrequencyAtMaximumAmplitude *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets the FrequencyAtMaximumAmplitude.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="EffectiveStrainTracker.GeometrySelectionString"></a>
+
+### *property* EffectiveStrainTracker.GeometrySelectionString *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the GeometrySelectionString.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="EffectiveStrainTracker.Images"></a>
+
+### *property* EffectiveStrainTracker.Images *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Image](../../../../../../../v241/Ansys/ACT/Automation/Mechanical/Image.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets the list of associated images.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="EffectiveStrainTracker.ImaginaryAtMaximumAmplitude"></a>
+
+### *property* EffectiveStrainTracker.ImaginaryAtMaximumAmplitude *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets the ImaginaryAtMaximumAmplitude.
+
+<!-- !! processed by numpydoc !! -->
 
 <a id="EffectiveStrainTracker.InternalObject"></a>
 
 ### *property* EffectiveStrainTracker.InternalObject *: Ansys.Common.Interop.DSObjectsAuto.IDSResultChartAuto | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the internal object. For advanced usage only.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="EffectiveStrainTracker.IsSolved"></a>
+
+### *property* EffectiveStrainTracker.IsSolved *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets the IsSolved.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="EffectiveStrainTracker.LoadStepNumber"></a>
+
+### *property* EffectiveStrainTracker.LoadStepNumber *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the LoadStepNumber.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="EffectiveStrainTracker.Location"></a>
+
+### *property* EffectiveStrainTracker.Location *: Ansys.ACT.Interfaces.Common.ISelectionInfo | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the Location.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="EffectiveStrainTracker.LocationCoordinateSystem"></a>
+
+### *property* EffectiveStrainTracker.LocationCoordinateSystem *: [Ansys.ACT.Automation.Mechanical.CoordinateSystem](../../../../../../../v241/Ansys/ACT/Automation/Mechanical/CoordinateSystem.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.CoordinateSystem) | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the LocationCoordinateSystem.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="EffectiveStrainTracker.LocationMethod"></a>
+
+### *property* EffectiveStrainTracker.LocationMethod *: [Ansys.Mechanical.DataModel.Enums.LocationDefinitionMethod](../../../../../Mechanical/DataModel/Enums/LocationDefinitionMethod.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.LocationDefinitionMethod) | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the LocationMethod.
 
 <!-- !! processed by numpydoc !! -->
 
@@ -133,131 +339,11 @@ Gets or sets the LocationZCoordinate.
 
 <!-- !! processed by numpydoc !! -->
 
-<a id="EffectiveStrainTracker.LocationMethod"></a>
+<a id="EffectiveStrainTracker.Maximum"></a>
 
-### *property* EffectiveStrainTracker.LocationMethod *: [Ansys.Mechanical.DataModel.Enums.LocationDefinitionMethod](../../../../../../../v241/Ansys/Mechanical/DataModel/Enums/LocationDefinitionMethod.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.LocationDefinitionMethod) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* EffectiveStrainTracker.Maximum *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets or sets the LocationMethod.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="EffectiveStrainTracker.LocationCoordinateSystem"></a>
-
-### *property* EffectiveStrainTracker.LocationCoordinateSystem *: [Ansys.ACT.Automation.Mechanical.CoordinateSystem](../../../../../../../v241/Ansys/ACT/Automation/Mechanical/CoordinateSystem.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.CoordinateSystem) | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the LocationCoordinateSystem.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="EffectiveStrainTracker.DataModelObjectCategory"></a>
-
-### *property* EffectiveStrainTracker.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../../../v241/Ansys/Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets the current DataModelObject's category.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="EffectiveStrainTracker.IsSolved"></a>
-
-### *property* EffectiveStrainTracker.IsSolved *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets the IsSolved.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="EffectiveStrainTracker.ChartDimensions"></a>
-
-### *property* EffectiveStrainTracker.ChartDimensions *: [Ansys.Mechanical.DataModel.Enums.ChartDimensions](../../../../../../../v241/Ansys/Mechanical/DataModel/Enums/ChartDimensions.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.ChartDimensions) | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the Chart Dimensions
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="EffectiveStrainTracker.BoundaryCondition"></a>
-
-### *property* EffectiveStrainTracker.BoundaryCondition *: [Ansys.ACT.Automation.Mechanical.BoundaryConditions.GenericBoundaryCondition](../../../../../../../v241/Ansys/ACT/Automation/Mechanical/BoundaryConditions/GenericBoundaryCondition.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.BoundaryConditions.GenericBoundaryCondition) | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the BoundaryCondition.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="EffectiveStrainTracker.CutFrequency"></a>
-
-### *property* EffectiveStrainTracker.CutFrequency *: System.Double | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the CutFrequency.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="EffectiveStrainTracker.SectorNumber"></a>
-
-### *property* EffectiveStrainTracker.SectorNumber *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the SectorNumber.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="EffectiveStrainTracker.GeometrySelectionString"></a>
-
-### *property* EffectiveStrainTracker.GeometrySelectionString *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the GeometrySelectionString.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="EffectiveStrainTracker.LoadStepNumber"></a>
-
-### *property* EffectiveStrainTracker.LoadStepNumber *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the LoadStepNumber.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="EffectiveStrainTracker.ReportedFrequency"></a>
-
-### *property* EffectiveStrainTracker.ReportedFrequency *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets the ReportedFrequency.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="EffectiveStrainTracker.Duration"></a>
-
-### *property* EffectiveStrainTracker.Duration *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the Duration.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="EffectiveStrainTracker.FilterMaximum"></a>
-
-### *property* EffectiveStrainTracker.FilterMaximum *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets the FilterMaximum.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="EffectiveStrainTracker.FilterMinimum"></a>
-
-### *property* EffectiveStrainTracker.FilterMinimum *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets the FilterMinimum.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="EffectiveStrainTracker.FrequencyAtMaximumAmplitude"></a>
-
-### *property* EffectiveStrainTracker.FrequencyAtMaximumAmplitude *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets the FrequencyAtMaximumAmplitude.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="EffectiveStrainTracker.ImaginaryAtMaximumAmplitude"></a>
-
-### *property* EffectiveStrainTracker.ImaginaryAtMaximumAmplitude *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets the ImaginaryAtMaximumAmplitude.
+Gets the Maximum.
 
 <!-- !! processed by numpydoc !! -->
 
@@ -277,11 +363,11 @@ Gets or sets the MaximumFrequency.
 
 <!-- !! processed by numpydoc !! -->
 
-<a id="EffectiveStrainTracker.Maximum"></a>
+<a id="EffectiveStrainTracker.Minimum"></a>
 
-### *property* EffectiveStrainTracker.Maximum *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* EffectiveStrainTracker.Minimum *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets the Maximum.
+Gets the Minimum.
 
 <!-- !! processed by numpydoc !! -->
 
@@ -293,11 +379,11 @@ Gets or sets the MinimumFrequency.
 
 <!-- !! processed by numpydoc !! -->
 
-<a id="EffectiveStrainTracker.Minimum"></a>
+<a id="EffectiveStrainTracker.NormalOrientation"></a>
 
-### *property* EffectiveStrainTracker.Minimum *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* EffectiveStrainTracker.NormalOrientation *: [Ansys.Mechanical.DataModel.Enums.NormalOrientationType](../../../../../Mechanical/DataModel/Enums/NormalOrientationType.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.NormalOrientationType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets the Minimum.
+Gets or sets the NormalOrientation.
 
 <!-- !! processed by numpydoc !! -->
 
@@ -309,11 +395,27 @@ Gets the PhaseAngle.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="EffectiveStrainTracker.Properties"></a>
+
+### *property* EffectiveStrainTracker.Properties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets the list of properties for this object.
+
+<!-- !! processed by numpydoc !! -->
+
 <a id="EffectiveStrainTracker.RealAtMaximumAmplitude"></a>
 
 ### *property* EffectiveStrainTracker.RealAtMaximumAmplitude *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the RealAtMaximumAmplitude.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="EffectiveStrainTracker.ReportedFrequency"></a>
+
+### *property* EffectiveStrainTracker.ReportedFrequency *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets the ReportedFrequency.
 
 <!-- !! processed by numpydoc !! -->
 
@@ -325,147 +427,35 @@ Gets or sets the RequestedFrequency.
 
 <!-- !! processed by numpydoc !! -->
 
-<a id="EffectiveStrainTracker.AccelerationType"></a>
-
-### *property* EffectiveStrainTracker.AccelerationType *: [Ansys.Mechanical.DataModel.Enums.TotalOrDirectional](../../../../../../../v241/Ansys/Mechanical/DataModel/Enums/TotalOrDirectional.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.TotalOrDirectional) | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the AccelerationType.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="EffectiveStrainTracker.ChartViewingStyle"></a>
-
-### *property* EffectiveStrainTracker.ChartViewingStyle *: [Ansys.Mechanical.DataModel.Enums.ChartAxisScaleType](../../../../../../../v241/Ansys/Mechanical/DataModel/Enums/ChartAxisScaleType.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.ChartAxisScaleType) | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the ChartViewingStyle.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="EffectiveStrainTracker.DeformationType"></a>
-
-### *property* EffectiveStrainTracker.DeformationType *: [Ansys.Mechanical.DataModel.Enums.TotalOrDirectional](../../../../../../../v241/Ansys/Mechanical/DataModel/Enums/TotalOrDirectional.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.TotalOrDirectional) | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the DeformationType.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="EffectiveStrainTracker.FilterType"></a>
-
-### *property* EffectiveStrainTracker.FilterType *: [Ansys.Mechanical.DataModel.Enums.FilterType](../../../../../../../v241/Ansys/Mechanical/DataModel/Enums/FilterType.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.FilterType) | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the FilterType.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="EffectiveStrainTracker.SpatialResolution"></a>
-
-### *property* EffectiveStrainTracker.SpatialResolution *: [Ansys.Mechanical.DataModel.Enums.MultipleNodeType](../../../../../../../v241/Ansys/Mechanical/DataModel/Enums/MultipleNodeType.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.MultipleNodeType) | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the SpatialResolution.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="EffectiveStrainTracker.NormalOrientation"></a>
-
-### *property* EffectiveStrainTracker.NormalOrientation *: [Ansys.Mechanical.DataModel.Enums.NormalOrientationType](../../../../../../../v241/Ansys/Mechanical/DataModel/Enums/NormalOrientationType.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.NormalOrientationType) | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the NormalOrientation.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="EffectiveStrainTracker.CurvesAppearanceDisplay"></a>
-
-### *property* EffectiveStrainTracker.CurvesAppearanceDisplay *: [Ansys.Mechanical.DataModel.Enums.ChartPlotStyle](../../../../../../../v241/Ansys/Mechanical/DataModel/Enums/ChartPlotStyle.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.ChartPlotStyle) | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the CurvesAppearanceDisplay.
-
-<!-- !! processed by numpydoc !! -->
-
 <a id="EffectiveStrainTracker.ResultChartType"></a>
 
-### *property* EffectiveStrainTracker.ResultChartType *: [Ansys.Mechanical.DataModel.Enums.ChartResultType](../../../../../../../v241/Ansys/Mechanical/DataModel/Enums/ChartResultType.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.ChartResultType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* EffectiveStrainTracker.ResultChartType *: [Ansys.Mechanical.DataModel.Enums.ChartResultType](../../../../../Mechanical/DataModel/Enums/ChartResultType.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.ChartResultType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the ResultChartType.
 
 <!-- !! processed by numpydoc !! -->
 
-<a id="EffectiveStrainTracker.DpfEvaluation"></a>
+<a id="EffectiveStrainTracker.SectorNumber"></a>
 
-### *property* EffectiveStrainTracker.DpfEvaluation *: [Ansys.Mechanical.DataModel.Enums.DpfEvaluationType](../../../../../../../v241/Ansys/Mechanical/DataModel/Enums/DpfEvaluationType.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DpfEvaluationType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* EffectiveStrainTracker.SectorNumber *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets or sets the DpfEvaluation.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="EffectiveStrainTracker.XAxisValues"></a>
-
-### *property* EffectiveStrainTracker.XAxisValues *: [Ansys.Mechanical.DataModel.Enums.XAxisValues](../../../../../../../v241/Ansys/Mechanical/DataModel/Enums/XAxisValues.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.XAxisValues) | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the XAxisValues.
+Gets or sets the SectorNumber.
 
 <!-- !! processed by numpydoc !! -->
 
 <a id="EffectiveStrainTracker.ShearOrientation"></a>
 
-### *property* EffectiveStrainTracker.ShearOrientation *: [Ansys.Mechanical.DataModel.Enums.ShearOrientationType](../../../../../../../v241/Ansys/Mechanical/DataModel/Enums/ShearOrientationType.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.ShearOrientationType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* EffectiveStrainTracker.ShearOrientation *: [Ansys.Mechanical.DataModel.Enums.ShearOrientationType](../../../../../Mechanical/DataModel/Enums/ShearOrientationType.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.ShearOrientationType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the ShearOrientation.
 
 <!-- !! processed by numpydoc !! -->
 
-<a id="EffectiveStrainTracker.StressStrainType"></a>
+<a id="EffectiveStrainTracker.SpatialResolution"></a>
 
-### *property* EffectiveStrainTracker.StressStrainType *: [Ansys.Mechanical.DataModel.Enums.StressStrainType](../../../../../../../v241/Ansys/Mechanical/DataModel/Enums/StressStrainType.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.StressStrainType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* EffectiveStrainTracker.SpatialResolution *: [Ansys.Mechanical.DataModel.Enums.MultipleNodeType](../../../../../Mechanical/DataModel/Enums/MultipleNodeType.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.MultipleNodeType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets or sets the StressStrainType.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="EffectiveStrainTracker.TimeHistoryDisplay"></a>
-
-### *property* EffectiveStrainTracker.TimeHistoryDisplay *: [Ansys.Mechanical.DataModel.Enums.TimeHistoryDisplayType](../../../../../../../v241/Ansys/Mechanical/DataModel/Enums/TimeHistoryDisplayType.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.TimeHistoryDisplayType) | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the TimeHistoryDisplay.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="EffectiveStrainTracker.VelocityType"></a>
-
-### *property* EffectiveStrainTracker.VelocityType *: [Ansys.Mechanical.DataModel.Enums.TotalOrDirectional](../../../../../../../v241/Ansys/Mechanical/DataModel/Enums/TotalOrDirectional.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.TotalOrDirectional) | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the VelocityType.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="EffectiveStrainTracker.Suppressed"></a>
-
-### *property* EffectiveStrainTracker.Suppressed *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the Suppressed.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="EffectiveStrainTracker.EnhancedTracking"></a>
-
-### *property* EffectiveStrainTracker.EnhancedTracking *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets the EnhancedTracking.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="EffectiveStrainTracker.UseParentFrequencyRange"></a>
-
-### *property* EffectiveStrainTracker.UseParentFrequencyRange *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the UseParentFrequencyRange.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="EffectiveStrainTracker.CoordinateSystem"></a>
-
-### *property* EffectiveStrainTracker.CoordinateSystem *: [Ansys.ACT.Automation.Mechanical.CoordinateSystem](../../../../../../../v241/Ansys/ACT/Automation/Mechanical/CoordinateSystem.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.CoordinateSystem) | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the CoordinateSystem.
+Gets or sets the SpatialResolution.
 
 <!-- !! processed by numpydoc !! -->
 
@@ -477,51 +467,43 @@ Gets or sets the Spring.
 
 <!-- !! processed by numpydoc !! -->
 
-<a id="EffectiveStrainTracker.Location"></a>
+<a id="EffectiveStrainTracker.StressStrainType"></a>
 
-### *property* EffectiveStrainTracker.Location *: Ansys.ACT.Interfaces.Common.ISelectionInfo | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* EffectiveStrainTracker.StressStrainType *: [Ansys.Mechanical.DataModel.Enums.StressStrainType](../../../../../Mechanical/DataModel/Enums/StressStrainType.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.StressStrainType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets or sets the Location.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="EffectiveStrainTracker.Children"></a>
-
-### *property* EffectiveStrainTracker.Children *: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets the list of children.
+Gets or sets the StressStrainType.
 
 <!-- !! processed by numpydoc !! -->
 
-<a id="EffectiveStrainTracker.Comments"></a>
+<a id="EffectiveStrainTracker.Suppressed"></a>
 
-### *property* EffectiveStrainTracker.Comments *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Comment](../../../../../../../v241/Ansys/ACT/Automation/Mechanical/Comment.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* EffectiveStrainTracker.Suppressed *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets the list of associated comments.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="EffectiveStrainTracker.Images"></a>
-
-### *property* EffectiveStrainTracker.Images *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Image](../../../../../../../v241/Ansys/ACT/Automation/Mechanical/Image.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets the list of associated images.
+Gets or sets the Suppressed.
 
 <!-- !! processed by numpydoc !! -->
 
-<a id="id0"></a>
+<a id="EffectiveStrainTracker.TimeHistoryDisplay"></a>
 
-### *property* EffectiveStrainTracker.InternalObject *: System.Object | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* EffectiveStrainTracker.TimeHistoryDisplay *: [Ansys.Mechanical.DataModel.Enums.TimeHistoryDisplayType](../../../../../Mechanical/DataModel/Enums/TimeHistoryDisplayType.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.TimeHistoryDisplayType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets the internal object. For advanced usage only.
+Gets or sets the TimeHistoryDisplay.
 
 <!-- !! processed by numpydoc !! -->
 
-<a id="EffectiveStrainTracker.Properties"></a>
+<a id="EffectiveStrainTracker.UseParentFrequencyRange"></a>
 
-### *property* EffectiveStrainTracker.Properties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* EffectiveStrainTracker.UseParentFrequencyRange *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets the list of properties for this object.
+Gets or sets the UseParentFrequencyRange.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="EffectiveStrainTracker.VelocityType"></a>
+
+### *property* EffectiveStrainTracker.VelocityType *: [Ansys.Mechanical.DataModel.Enums.TotalOrDirectional](../../../../../Mechanical/DataModel/Enums/TotalOrDirectional.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.TotalOrDirectional) | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the VelocityType.
 
 <!-- !! processed by numpydoc !! -->
 
@@ -533,63 +515,23 @@ Gets the list of properties that are visible for this object.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="EffectiveStrainTracker.XAxisValues"></a>
+
+### *property* EffectiveStrainTracker.XAxisValues *: [Ansys.Mechanical.DataModel.Enums.XAxisValues](../../../../../Mechanical/DataModel/Enums/XAxisValues.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.XAxisValues) | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the XAxisValues.
+
+<!-- !! processed by numpydoc !! -->
+
 <a id="method-detail"></a>
 
 ## Method detail
 
-<a id="EffectiveStrainTracker.ExportAnimation"></a>
+<a id="EffectiveStrainTracker.Activate"></a>
 
-### EffectiveStrainTracker.ExportAnimation(filePath: System.String, format: [Ansys.Mechanical.DataModel.Enums.GraphicsAnimationExportFormat](../../../../../../../v241/Ansys/Mechanical/DataModel/Enums/GraphicsAnimationExportFormat.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.GraphicsAnimationExportFormat), settings: [Ansys.Mechanical.Graphics.AnimationExportSettings](../../../../../../../v241/Ansys/Mechanical/Graphics/AnimationExportSettings.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.Graphics.AnimationExportSettings))
+### EffectiveStrainTracker.Activate()
 
-Run the ExportAnimation action.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="EffectiveStrainTracker.ClearGeneratedData"></a>
-
-### EffectiveStrainTracker.ClearGeneratedData()
-
-Run the ClearGeneratedData action.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="EffectiveStrainTracker.EvaluateAllResults"></a>
-
-### EffectiveStrainTracker.EvaluateAllResults()
-
-Run the EvaluateAllResults action.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="EffectiveStrainTracker.RenameBasedOnDefinition"></a>
-
-### EffectiveStrainTracker.RenameBasedOnDefinition()
-
-Run the RenameBasedOnDefinition action.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="EffectiveStrainTracker.Delete"></a>
-
-### EffectiveStrainTracker.Delete()
-
-Run the Delete action.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="EffectiveStrainTracker.GetChildren"></a>
-
-### EffectiveStrainTracker.GetChildren(recurses: System.Boolean, children: System.Collections.Generic.IList[ChildrenType])
-
-Gets the list of children, filtered by type.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="id1"></a>
-
-### EffectiveStrainTracker.GetChildren(category: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../../../v241/Ansys/Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory), recurses: System.Boolean, children: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject])
-
-Gets the list of children, filtered by type.
+Activate the current object.
 
 <!-- !! processed by numpydoc !! -->
 
@@ -605,17 +547,19 @@ Creates a new child Comment.
 
 ### EffectiveStrainTracker.AddImage(filePath: System.String)
 
+```text
 Creates a new child Image.
 If a filePath is provided, the image will be loaded from that file,
 if not, the image will be a screen capture of the Geometry window.
+```
 
 <!-- !! processed by numpydoc !! -->
 
-<a id="EffectiveStrainTracker.Activate"></a>
+<a id="EffectiveStrainTracker.ClearGeneratedData"></a>
 
-### EffectiveStrainTracker.Activate()
+### EffectiveStrainTracker.ClearGeneratedData()
 
-Activate the current object.
+Run the ClearGeneratedData action.
 
 <!-- !! processed by numpydoc !! -->
 
@@ -627,11 +571,59 @@ Copies all visible properties from this object to another.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="EffectiveStrainTracker.CreateParameter"></a>
+
+### EffectiveStrainTracker.CreateParameter(propName: System.String)
+
+Creates a new parameter for a Property.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="EffectiveStrainTracker.Delete"></a>
+
+### EffectiveStrainTracker.Delete()
+
+Run the Delete action.
+
+<!-- !! processed by numpydoc !! -->
+
 <a id="EffectiveStrainTracker.Duplicate"></a>
 
 ### EffectiveStrainTracker.Duplicate()
 
 Creates a copy of the current DataModelObject.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="EffectiveStrainTracker.EvaluateAllResults"></a>
+
+### EffectiveStrainTracker.EvaluateAllResults()
+
+Run the EvaluateAllResults action.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="EffectiveStrainTracker.ExportAnimation"></a>
+
+### EffectiveStrainTracker.ExportAnimation(filePath: System.String, format: [Ansys.Mechanical.DataModel.Enums.GraphicsAnimationExportFormat](../../../../../Mechanical/DataModel/Enums/GraphicsAnimationExportFormat.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.GraphicsAnimationExportFormat), settings: [Ansys.Mechanical.Graphics.AnimationExportSettings](../../../../../Mechanical/Graphics/AnimationExportSettings.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.Graphics.AnimationExportSettings))
+
+Run the ExportAnimation action.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="EffectiveStrainTracker.GetChildren"></a>
+
+### EffectiveStrainTracker.GetChildren(recurses: System.Boolean, children: System.Collections.Generic.IList[ChildrenType])
+
+Gets the list of children, filtered by type.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="EffectiveStrainTracker.GetParameter"></a>
+
+### EffectiveStrainTracker.GetParameter(propName: System.String)
+
+Gets the parameter corresponding to the given property.
 
 <!-- !! processed by numpydoc !! -->
 
@@ -651,6 +643,17 @@ Run the GroupSimilarObjects action.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="EffectiveStrainTracker.PropertyByAPIName"></a>
+
+### EffectiveStrainTracker.PropertyByAPIName(name: System.String)
+
+```text
+Get a property by its API name.
+If multiple properties have the same API Name, only the first property with that name will be returned.
+```
+
+<!-- !! processed by numpydoc !! -->
+
 <a id="EffectiveStrainTracker.PropertyByName"></a>
 
 ### EffectiveStrainTracker.PropertyByName(name: System.String)
@@ -659,36 +662,19 @@ Get a property by its unique name.
 
 <!-- !! processed by numpydoc !! -->
 
-<a id="EffectiveStrainTracker.PropertyByAPIName"></a>
-
-### EffectiveStrainTracker.PropertyByAPIName(name: System.String)
-
-Get a property by its API name.
-If multiple properties have the same API Name, only the first property with that name will be returned.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="EffectiveStrainTracker.CreateParameter"></a>
-
-### EffectiveStrainTracker.CreateParameter(propName: System.String)
-
-Creates a new parameter for a Property.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="EffectiveStrainTracker.GetParameter"></a>
-
-### EffectiveStrainTracker.GetParameter(propName: System.String)
-
-Gets the parameter corresponding to the given property.
-
-<!-- !! processed by numpydoc !! -->
-
 <a id="EffectiveStrainTracker.RemoveParameter"></a>
 
 ### EffectiveStrainTracker.RemoveParameter(propName: System.String)
 
 Removes the parameter from the parameter set corresponding to the given property.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="EffectiveStrainTracker.RenameBasedOnDefinition"></a>
+
+### EffectiveStrainTracker.RenameBasedOnDefinition()
+
+Run the RenameBasedOnDefinition action.
 
 <!-- !! processed by numpydoc !! -->
 

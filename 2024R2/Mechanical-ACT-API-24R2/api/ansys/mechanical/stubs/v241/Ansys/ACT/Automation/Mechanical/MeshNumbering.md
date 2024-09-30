@@ -1,6 +1,6 @@
 # `MeshNumbering`
 
-
+<a id="ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.MeshNumbering"></a>
 
 #### *class* ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.MeshNumbering
 
@@ -17,95 +17,45 @@ Defines a MeshNumbering.
 ### Methods
 
 | Name | Description |
-|-----------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------|
-| [`AddNumberingControl`](../../../../../v242/Ansys/ACT/Automation/Mechanical/MeshNumbering.md#MeshNumbering.AddNumberingControl)         | Creates a new NumberingControl                                                    |
-| [`RenumberMesh`](../../../../../v242/Ansys/ACT/Automation/Mechanical/MeshNumbering.md#MeshNumbering.RenumberMesh)                       | Run the RenumberMesh action.                                                      |
-| [`Delete`](../../../../../v242/Ansys/ACT/Automation/Mechanical/MeshNumbering.md#MeshNumbering.Delete)                                   | Run the Delete action.                                                            |
-| [`GetChildren`](../../../../../v242/Ansys/ACT/Automation/Mechanical/MeshNumbering.md#id1)                                               | Gets the list of children, filtered by type.                                      |
-| [`GetChildren`](../../../../../v242/Ansys/ACT/Automation/Mechanical/MeshNumbering.md#id1)                                               | Gets the list of children, filtered by type.                                      |
-| [`AddComment`](../../../../../v242/Ansys/ACT/Automation/Mechanical/MeshNumbering.md#MeshNumbering.AddComment)                           | Creates a new child Comment.                                                      |
-| [`AddFigure`](../../../../../v242/Ansys/ACT/Automation/Mechanical/MeshNumbering.md#MeshNumbering.AddFigure)                             | Creates a new child Figure.                                                       |
-| [`AddImage`](../../../../../v242/Ansys/ACT/Automation/Mechanical/MeshNumbering.md#MeshNumbering.AddImage)                               | Creates a new child Image.                                                        |
-| [`Activate`](../../../../../v242/Ansys/ACT/Automation/Mechanical/MeshNumbering.md#MeshNumbering.Activate)                               | Activate the current object.                                                      |
-| [`CopyTo`](../../../../../v242/Ansys/ACT/Automation/Mechanical/MeshNumbering.md#MeshNumbering.CopyTo)                                   | Copies all visible properties from this object to another.                        |
-| [`Duplicate`](../../../../../v242/Ansys/ACT/Automation/Mechanical/MeshNumbering.md#MeshNumbering.Duplicate)                             | Creates a copy of the current DataModelObject.                                    |
-| [`GroupAllSimilarChildren`](../../../../../v242/Ansys/ACT/Automation/Mechanical/MeshNumbering.md#MeshNumbering.GroupAllSimilarChildren) | Run the GroupAllSimilarChildren action.                                           |
-| [`GroupSimilarObjects`](../../../../../v242/Ansys/ACT/Automation/Mechanical/MeshNumbering.md#MeshNumbering.GroupSimilarObjects)         | Run the GroupSimilarObjects action.                                               |
-| [`PropertyByName`](../../../../../v242/Ansys/ACT/Automation/Mechanical/MeshNumbering.md#MeshNumbering.PropertyByName)                   | Get a property by its unique name.                                                |
-| [`PropertyByAPIName`](../../../../../v242/Ansys/ACT/Automation/Mechanical/MeshNumbering.md#MeshNumbering.PropertyByAPIName)             | Get a property by its API name.                                                   |
-| [`CreateParameter`](../../../../../v242/Ansys/ACT/Automation/Mechanical/MeshNumbering.md#MeshNumbering.CreateParameter)                 | Creates a new parameter for a Property.                                           |
-| [`GetParameter`](../../../../../v242/Ansys/ACT/Automation/Mechanical/MeshNumbering.md#MeshNumbering.GetParameter)                       | Gets the parameter corresponding to the given property.                           |
-| [`RemoveParameter`](../../../../../v242/Ansys/ACT/Automation/Mechanical/MeshNumbering.md#MeshNumbering.RemoveParameter)                 | Removes the parameter from the parameter set corresponding to the given property. |
+|---------------------------------------------------------------------|-----------------------------------------------------------------------------------|
+| [`Activate`](#MeshNumbering.Activate)                               | Activate the current object.                                                      |
+| [`AddComment`](#MeshNumbering.AddComment)                           | Creates a new child Comment.                                                      |
+| [`AddFigure`](#MeshNumbering.AddFigure)                             | Creates a new child Figure.                                                       |
+| [`AddImage`](#MeshNumbering.AddImage)                               | Creates a new child Image.                                                        |
+| [`AddNumberingControl`](#MeshNumbering.AddNumberingControl)         | Creates a new NumberingControl                                                    |
+| [`CopyTo`](#MeshNumbering.CopyTo)                                   | Copies all visible properties from this object to another.                        |
+| [`CreateParameter`](#MeshNumbering.CreateParameter)                 | Creates a new parameter for a Property.                                           |
+| [`Delete`](#MeshNumbering.Delete)                                   | Run the Delete action.                                                            |
+| [`Duplicate`](#MeshNumbering.Duplicate)                             | Creates a copy of the current DataModelObject.                                    |
+| [`GetChildren`](#MeshNumbering.GetChildren)                         | Gets the list of children, filtered by type.                                      |
+| [`GetParameter`](#MeshNumbering.GetParameter)                       | Gets the parameter corresponding to the given property.                           |
+| [`GroupAllSimilarChildren`](#MeshNumbering.GroupAllSimilarChildren) | Run the GroupAllSimilarChildren action.                                           |
+| [`GroupSimilarObjects`](#MeshNumbering.GroupSimilarObjects)         | Run the GroupSimilarObjects action.                                               |
+| [`PropertyByAPIName`](#MeshNumbering.PropertyByAPIName)             | Get a property by its API name.                                                   |
+| [`PropertyByName`](#MeshNumbering.PropertyByName)                   | Get a property by its unique name.                                                |
+| [`RemoveParameter`](#MeshNumbering.RemoveParameter)                 | Removes the parameter from the parameter set corresponding to the given property. |
+| [`RenumberMesh`](#MeshNumbering.RenumberMesh)                       | Run the RenumberMesh action.                                                      |
 
 ### Properties
 
 | Name | Description |
-|-----------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------|
-| [`InternalObject`](../../../../../v242/Ansys/ACT/Automation/Mechanical/MeshNumbering.md#id0)                                            | Gets the internal object. For advanced usage only.            |
-| [`ElementOffset`](../../../../../v242/Ansys/ACT/Automation/Mechanical/MeshNumbering.md#MeshNumbering.ElementOffset)                     | Gets or sets the ElementOffset.                               |
-| [`NodeOffset`](../../../../../v242/Ansys/ACT/Automation/Mechanical/MeshNumbering.md#MeshNumbering.NodeOffset)                           | Gets or sets the NodeOffset.                                  |
-| [`CompressNodeNumbers`](../../../../../v242/Ansys/ACT/Automation/Mechanical/MeshNumbering.md#MeshNumbering.CompressNodeNumbers)         | Gets or sets the CompressNodeNumbers.                         |
-| [`Suppressed`](../../../../../v242/Ansys/ACT/Automation/Mechanical/MeshNumbering.md#MeshNumbering.Suppressed)                           | Gets or sets the Suppressed.                                  |
-| [`DataModelObjectCategory`](../../../../../v242/Ansys/ACT/Automation/Mechanical/MeshNumbering.md#MeshNumbering.DataModelObjectCategory) | Gets the current DataModelObject's category.                  |
-| [`Children`](../../../../../v242/Ansys/ACT/Automation/Mechanical/MeshNumbering.md#MeshNumbering.Children)                               | Gets the list of children.                                    |
-| [`Comments`](../../../../../v242/Ansys/ACT/Automation/Mechanical/MeshNumbering.md#MeshNumbering.Comments)                               | Gets the list of associated comments.                         |
-| [`Figures`](../../../../../v242/Ansys/ACT/Automation/Mechanical/MeshNumbering.md#MeshNumbering.Figures)                                 | Gets the list of associated figures.                          |
-| [`Images`](../../../../../v242/Ansys/ACT/Automation/Mechanical/MeshNumbering.md#MeshNumbering.Images)                                   | Gets the list of associated images.                           |
-| [`InternalObject`](../../../../../v242/Ansys/ACT/Automation/Mechanical/MeshNumbering.md#id0)                                            | Gets the internal object. For advanced usage only.            |
-| [`Properties`](../../../../../v242/Ansys/ACT/Automation/Mechanical/MeshNumbering.md#MeshNumbering.Properties)                           | Gets the list of properties for this object.                  |
-| [`VisibleProperties`](../../../../../v242/Ansys/ACT/Automation/Mechanical/MeshNumbering.md#MeshNumbering.VisibleProperties)             | Gets the list of properties that are visible for this object. |
+|---------------------------------------------------------------------|---------------------------------------------------------------|
+| [`Children`](#MeshNumbering.Children)                               | Gets the list of children.                                    |
+| [`Comments`](#MeshNumbering.Comments)                               | Gets the list of associated comments.                         |
+| [`CompressNodeNumbers`](#MeshNumbering.CompressNodeNumbers)         | Gets or sets the CompressNodeNumbers.                         |
+| [`DataModelObjectCategory`](#MeshNumbering.DataModelObjectCategory) | Gets the current DataModelObject’s category.                  |
+| [`ElementOffset`](#MeshNumbering.ElementOffset)                     | Gets or sets the ElementOffset.                               |
+| [`Figures`](#MeshNumbering.Figures)                                 | Gets the list of associated figures.                          |
+| [`Images`](#MeshNumbering.Images)                                   | Gets the list of associated images.                           |
+| [`InternalObject`](#MeshNumbering.InternalObject)                   | Gets the internal object. For advanced usage only.            |
+| [`NodeOffset`](#MeshNumbering.NodeOffset)                           | Gets or sets the NodeOffset.                                  |
+| [`Properties`](#MeshNumbering.Properties)                           | Gets the list of properties for this object.                  |
+| [`Suppressed`](#MeshNumbering.Suppressed)                           | Gets or sets the Suppressed.                                  |
+| [`VisibleProperties`](#MeshNumbering.VisibleProperties)             | Gets the list of properties that are visible for this object. |
 
 <a id="property-detail"></a>
 
 ## Property detail
-
-<a id="MeshNumbering.InternalObject"></a>
-
-### *property* MeshNumbering.InternalObject *: Ansys.Common.Interop.DSObjectsAuto.IDSMeshRenumberingControlGroupAuto | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets the internal object. For advanced usage only.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="MeshNumbering.ElementOffset"></a>
-
-### *property* MeshNumbering.ElementOffset *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the ElementOffset.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="MeshNumbering.NodeOffset"></a>
-
-### *property* MeshNumbering.NodeOffset *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the NodeOffset.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="MeshNumbering.CompressNodeNumbers"></a>
-
-### *property* MeshNumbering.CompressNodeNumbers *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the CompressNodeNumbers.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="MeshNumbering.Suppressed"></a>
-
-### *property* MeshNumbering.Suppressed *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the Suppressed.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="MeshNumbering.DataModelObjectCategory"></a>
-
-### *property* MeshNumbering.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets the current DataModelObject's category.
-
-<!-- !! processed by numpydoc !! -->
 
 <a id="MeshNumbering.Children"></a>
 
@@ -120,6 +70,30 @@ Gets the list of children.
 ### *property* MeshNumbering.Comments *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Comment](Comment.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated comments.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="MeshNumbering.CompressNodeNumbers"></a>
+
+### *property* MeshNumbering.CompressNodeNumbers *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the CompressNodeNumbers.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="MeshNumbering.DataModelObjectCategory"></a>
+
+### *property* MeshNumbering.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../v242/Ansys/Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets the current DataModelObject’s category.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="MeshNumbering.ElementOffset"></a>
+
+### *property* MeshNumbering.ElementOffset *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the ElementOffset.
 
 <!-- !! processed by numpydoc !! -->
 
@@ -139,11 +113,19 @@ Gets the list of associated images.
 
 <!-- !! processed by numpydoc !! -->
 
-<a id="id0"></a>
+<a id="MeshNumbering.InternalObject"></a>
 
-### *property* MeshNumbering.InternalObject *: System.Object | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* MeshNumbering.InternalObject *: Ansys.Common.Interop.DSObjectsAuto.IDSMeshRenumberingControlGroupAuto | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the internal object. For advanced usage only.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="MeshNumbering.NodeOffset"></a>
+
+### *property* MeshNumbering.NodeOffset *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the NodeOffset.
 
 <!-- !! processed by numpydoc !! -->
 
@@ -152,6 +134,14 @@ Gets the internal object. For advanced usage only.
 ### *property* MeshNumbering.Properties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of properties for this object.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="MeshNumbering.Suppressed"></a>
+
+### *property* MeshNumbering.Suppressed *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the Suppressed.
 
 <!-- !! processed by numpydoc !! -->
 
@@ -167,43 +157,11 @@ Gets the list of properties that are visible for this object.
 
 ## Method detail
 
-<a id="MeshNumbering.AddNumberingControl"></a>
+<a id="MeshNumbering.Activate"></a>
 
-### MeshNumbering.AddNumberingControl()
+### MeshNumbering.Activate()
 
-Creates a new NumberingControl
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="MeshNumbering.RenumberMesh"></a>
-
-### MeshNumbering.RenumberMesh()
-
-Run the RenumberMesh action.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="MeshNumbering.Delete"></a>
-
-### MeshNumbering.Delete()
-
-Run the Delete action.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="MeshNumbering.GetChildren"></a>
-
-### MeshNumbering.GetChildren(recurses: System.Boolean, children: System.Collections.Generic.IList[ChildrenType])
-
-Gets the list of children, filtered by type.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="id1"></a>
-
-### MeshNumbering.GetChildren(category: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory), recurses: System.Boolean, children: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject])
-
-Gets the list of children, filtered by type.
+Activate the current object.
 
 <!-- !! processed by numpydoc !! -->
 
@@ -227,17 +185,19 @@ Creates a new child Figure.
 
 ### MeshNumbering.AddImage(filePath: System.String)
 
+```text
 Creates a new child Image.
 If a filePath is provided, the image will be loaded from that file,
 if not, the image will be a screen capture of the Geometry window.
+```
 
 <!-- !! processed by numpydoc !! -->
 
-<a id="MeshNumbering.Activate"></a>
+<a id="MeshNumbering.AddNumberingControl"></a>
 
-### MeshNumbering.Activate()
+### MeshNumbering.AddNumberingControl()
 
-Activate the current object.
+Creates a new NumberingControl
 
 <!-- !! processed by numpydoc !! -->
 
@@ -249,11 +209,43 @@ Copies all visible properties from this object to another.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="MeshNumbering.CreateParameter"></a>
+
+### MeshNumbering.CreateParameter(propName: System.String)
+
+Creates a new parameter for a Property.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="MeshNumbering.Delete"></a>
+
+### MeshNumbering.Delete()
+
+Run the Delete action.
+
+<!-- !! processed by numpydoc !! -->
+
 <a id="MeshNumbering.Duplicate"></a>
 
 ### MeshNumbering.Duplicate()
 
 Creates a copy of the current DataModelObject.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="MeshNumbering.GetChildren"></a>
+
+### MeshNumbering.GetChildren(recurses: System.Boolean, children: System.Collections.Generic.IList[ChildrenType])
+
+Gets the list of children, filtered by type.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="MeshNumbering.GetParameter"></a>
+
+### MeshNumbering.GetParameter(propName: System.String)
+
+Gets the parameter corresponding to the given property.
 
 <!-- !! processed by numpydoc !! -->
 
@@ -273,6 +265,17 @@ Run the GroupSimilarObjects action.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="MeshNumbering.PropertyByAPIName"></a>
+
+### MeshNumbering.PropertyByAPIName(name: System.String)
+
+```text
+Get a property by its API name.
+If multiple properties have the same API Name, only the first property with that name will be returned.
+```
+
+<!-- !! processed by numpydoc !! -->
+
 <a id="MeshNumbering.PropertyByName"></a>
 
 ### MeshNumbering.PropertyByName(name: System.String)
@@ -281,36 +284,19 @@ Get a property by its unique name.
 
 <!-- !! processed by numpydoc !! -->
 
-<a id="MeshNumbering.PropertyByAPIName"></a>
-
-### MeshNumbering.PropertyByAPIName(name: System.String)
-
-Get a property by its API name.
-If multiple properties have the same API Name, only the first property with that name will be returned.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="MeshNumbering.CreateParameter"></a>
-
-### MeshNumbering.CreateParameter(propName: System.String)
-
-Creates a new parameter for a Property.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="MeshNumbering.GetParameter"></a>
-
-### MeshNumbering.GetParameter(propName: System.String)
-
-Gets the parameter corresponding to the given property.
-
-<!-- !! processed by numpydoc !! -->
-
 <a id="MeshNumbering.RemoveParameter"></a>
 
 ### MeshNumbering.RemoveParameter(propName: System.String)
 
 Removes the parameter from the parameter set corresponding to the given property.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="MeshNumbering.RenumberMesh"></a>
+
+### MeshNumbering.RenumberMesh()
+
+Run the RenumberMesh action.
 
 <!-- !! processed by numpydoc !! -->
 

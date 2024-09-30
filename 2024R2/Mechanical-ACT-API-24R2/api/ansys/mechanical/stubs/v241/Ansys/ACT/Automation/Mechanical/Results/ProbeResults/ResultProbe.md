@@ -1,6 +1,6 @@
 # `ResultProbe`
 
-
+<a id="ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Results.ProbeResults.ResultProbe"></a>
 
 #### *class* ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Results.ProbeResults.ResultProbe
 
@@ -17,113 +17,87 @@ Defines a ResultProbe.
 ### Methods
 
 | Name | Description |
-|----------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------|
-| [`ExportAnimation`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/ProbeResults/ResultProbe.md#ResultProbe.ExportAnimation)                 | Run the ExportAnimation action.                                                   |
-| [`ClearGeneratedData`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/ProbeResults/ResultProbe.md#ResultProbe.ClearGeneratedData)           | Run the ClearGeneratedData action.                                                |
-| [`DuplicateWithoutResults`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/ProbeResults/ResultProbe.md#ResultProbe.DuplicateWithoutResults) | Run the DuplicateWithoutResults action.                                           |
-| [`EvaluateAllResults`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/ProbeResults/ResultProbe.md#ResultProbe.EvaluateAllResults)           | Run the EvaluateAllResults action.                                                |
-| [`SnapToMeshNodes`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/ProbeResults/ResultProbe.md#ResultProbe.SnapToMeshNodes)                 | Snap the coordinates of probe result to the mesh nodes.                           |
-| [`RenameBasedOnDefinition`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/ProbeResults/ResultProbe.md#ResultProbe.RenameBasedOnDefinition) | Run the RenameBasedOnDefinition action.                                           |
-| [`Delete`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/ProbeResults/ResultProbe.md#ResultProbe.Delete)                                   | Run the Delete action.                                                            |
-| [`GetChildren`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/ProbeResults/ResultProbe.md#id1)                                             | Gets the list of children, filtered by type.                                      |
-| [`GetChildren`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/ProbeResults/ResultProbe.md#id1)                                             | Gets the list of children, filtered by type.                                      |
-| [`AddComment`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/ProbeResults/ResultProbe.md#ResultProbe.AddComment)                           | Creates a new child Comment.                                                      |
-| [`AddFigure`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/ProbeResults/ResultProbe.md#ResultProbe.AddFigure)                             | Creates a new child Figure.                                                       |
-| [`AddImage`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/ProbeResults/ResultProbe.md#ResultProbe.AddImage)                               | Creates a new child Image.                                                        |
-| [`Activate`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/ProbeResults/ResultProbe.md#ResultProbe.Activate)                               | Activate the current object.                                                      |
-| [`CopyTo`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/ProbeResults/ResultProbe.md#ResultProbe.CopyTo)                                   | Copies all visible properties from this object to another.                        |
-| [`Duplicate`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/ProbeResults/ResultProbe.md#ResultProbe.Duplicate)                             | Creates a copy of the current DataModelObject.                                    |
-| [`GroupAllSimilarChildren`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/ProbeResults/ResultProbe.md#ResultProbe.GroupAllSimilarChildren) | Run the GroupAllSimilarChildren action.                                           |
-| [`GroupSimilarObjects`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/ProbeResults/ResultProbe.md#ResultProbe.GroupSimilarObjects)         | Run the GroupSimilarObjects action.                                               |
-| [`PropertyByName`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/ProbeResults/ResultProbe.md#ResultProbe.PropertyByName)                   | Get a property by its unique name.                                                |
-| [`PropertyByAPIName`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/ProbeResults/ResultProbe.md#ResultProbe.PropertyByAPIName)             | Get a property by its API name.                                                   |
-| [`CreateParameter`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/ProbeResults/ResultProbe.md#ResultProbe.CreateParameter)                 | Creates a new parameter for a Property.                                           |
-| [`GetParameter`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/ProbeResults/ResultProbe.md#ResultProbe.GetParameter)                       | Gets the parameter corresponding to the given property.                           |
-| [`RemoveParameter`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/ProbeResults/ResultProbe.md#ResultProbe.RemoveParameter)                 | Removes the parameter from the parameter set corresponding to the given property. |
+|-------------------------------------------------------------------|-----------------------------------------------------------------------------------|
+| [`Activate`](#ResultProbe.Activate)                               | Activate the current object.                                                      |
+| [`AddComment`](#ResultProbe.AddComment)                           | Creates a new child Comment.                                                      |
+| [`AddFigure`](#ResultProbe.AddFigure)                             | Creates a new child Figure.                                                       |
+| [`AddImage`](#ResultProbe.AddImage)                               | Creates a new child Image.                                                        |
+| [`ClearGeneratedData`](#ResultProbe.ClearGeneratedData)           | Run the ClearGeneratedData action.                                                |
+| [`CopyTo`](#ResultProbe.CopyTo)                                   | Copies all visible properties from this object to another.                        |
+| [`CreateParameter`](#ResultProbe.CreateParameter)                 | Creates a new parameter for a Property.                                           |
+| [`Delete`](#ResultProbe.Delete)                                   | Run the Delete action.                                                            |
+| [`Duplicate`](#ResultProbe.Duplicate)                             | Creates a copy of the current DataModelObject.                                    |
+| [`DuplicateWithoutResults`](#ResultProbe.DuplicateWithoutResults) | Run the DuplicateWithoutResults action.                                           |
+| [`EvaluateAllResults`](#ResultProbe.EvaluateAllResults)           | Run the EvaluateAllResults action.                                                |
+| [`ExportAnimation`](#ResultProbe.ExportAnimation)                 | Run the ExportAnimation action.                                                   |
+| [`GetChildren`](#ResultProbe.GetChildren)                         | Gets the list of children, filtered by type.                                      |
+| [`GetParameter`](#ResultProbe.GetParameter)                       | Gets the parameter corresponding to the given property.                           |
+| [`GroupAllSimilarChildren`](#ResultProbe.GroupAllSimilarChildren) | Run the GroupAllSimilarChildren action.                                           |
+| [`GroupSimilarObjects`](#ResultProbe.GroupSimilarObjects)         | Run the GroupSimilarObjects action.                                               |
+| [`PropertyByAPIName`](#ResultProbe.PropertyByAPIName)             | Get a property by its API name.                                                   |
+| [`PropertyByName`](#ResultProbe.PropertyByName)                   | Get a property by its unique name.                                                |
+| [`RemoveParameter`](#ResultProbe.RemoveParameter)                 | Removes the parameter from the parameter set corresponding to the given property. |
+| [`RenameBasedOnDefinition`](#ResultProbe.RenameBasedOnDefinition) | Run the RenameBasedOnDefinition action.                                           |
+| [`SnapToMeshNodes`](#ResultProbe.SnapToMeshNodes)                 | Snap the coordinates of probe result to the mesh nodes.                           |
 
 ### Properties
 
 | Name | Description |
-|----------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [`Summation`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/ProbeResults/ResultProbe.md#ResultProbe.Summation)                                   | Gets or sets the Summation.                                                                                                                                                |
-| [`LocationMethod`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/ProbeResults/ResultProbe.md#ResultProbe.LocationMethod)                         | Gets or sets the LocationMethod.                                                                                                                                           |
-| [`GeometryLocation`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/ProbeResults/ResultProbe.md#ResultProbe.GeometryLocation)                     | Gets or sets the GeometryLocation.                                                                                                                                         |
-| [`CoordinateSystemSelection`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/ProbeResults/ResultProbe.md#ResultProbe.CoordinateSystemSelection)   | Gets or sets the CoordinateSystemSelection.                                                                                                                                |
-| [`BoundaryConditionSelection`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/ProbeResults/ResultProbe.md#ResultProbe.BoundaryConditionSelection) | Gets or sets the BoundaryConditionSelection. In order to select the option â€˜WeakSprings', please use the property â€˜LocationMethod = LocationDefinitionMethod.WeakSprings'. |
-| [`ContactRegionSelection`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/ProbeResults/ResultProbe.md#ResultProbe.ContactRegionSelection)         | Gets or sets the ContactRegionSelection.                                                                                                                                   |
-| [`RemotePointSelection`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/ProbeResults/ResultProbe.md#ResultProbe.RemotePointSelection)             | Gets or sets the RemotePointSelection.                                                                                                                                     |
-| [`BeamSelection`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/ProbeResults/ResultProbe.md#ResultProbe.BeamSelection)                           | Gets or sets the BeamSelection.                                                                                                                                            |
-| [`MeshConnectionSelection`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/ProbeResults/ResultProbe.md#ResultProbe.MeshConnectionSelection)       | Gets or sets the MeshConnectionSelection.                                                                                                                                  |
-| [`SurfaceSelection`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/ProbeResults/ResultProbe.md#ResultProbe.SurfaceSelection)                     | Gets or sets the MeshConnectionSelection.                                                                                                                                  |
-| [`SpringSelection`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/ProbeResults/ResultProbe.md#ResultProbe.SpringSelection)                       | Gets or sets the SpringSelection.                                                                                                                                          |
-| [`IsSolved`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/ProbeResults/ResultProbe.md#ResultProbe.IsSolved)                                     | Gets the IsSolved.                                                                                                                                                         |
-| [`Orientation`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/ProbeResults/ResultProbe.md#ResultProbe.Orientation)                               | Gets or sets the Orientation. Accepts/Returns None if it is the Solution Coordinate System.                                                                                |
-| [`InternalObject`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/ProbeResults/ResultProbe.md#id0)                                                | Gets the internal object. For advanced usage only.                                                                                                                         |
-| [`IterationNumber`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/ProbeResults/ResultProbe.md#ResultProbe.IterationNumber)                       | Gets the IterationNumber.                                                                                                                                                  |
-| [`LoadStep`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/ProbeResults/ResultProbe.md#ResultProbe.LoadStep)                                     | Gets the LoadStep.                                                                                                                                                         |
-| [`LoadStepNumber`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/ProbeResults/ResultProbe.md#ResultProbe.LoadStepNumber)                         | Gets or sets the LoadStepNumber.                                                                                                                                           |
-| [`Substep`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/ProbeResults/ResultProbe.md#ResultProbe.Substep)                                       | Gets the Substep.                                                                                                                                                          |
-| [`DisplayTime`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/ProbeResults/ResultProbe.md#ResultProbe.DisplayTime)                               | Gets or sets the DisplayTime.                                                                                                                                              |
-| [`MaximumTotal`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/ProbeResults/ResultProbe.md#ResultProbe.MaximumTotal)                             | Gets the MaximumTotal.                                                                                                                                                     |
-| [`MaximumXAxis`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/ProbeResults/ResultProbe.md#ResultProbe.MaximumXAxis)                             | Gets the MaximumXAxis.                                                                                                                                                     |
-| [`MaximumYAxis`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/ProbeResults/ResultProbe.md#ResultProbe.MaximumYAxis)                             | Gets the MaximumYAxis.                                                                                                                                                     |
-| [`MaximumZAxis`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/ProbeResults/ResultProbe.md#ResultProbe.MaximumZAxis)                             | Gets the MaximumZAxis.                                                                                                                                                     |
-| [`MinimumTotal`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/ProbeResults/ResultProbe.md#ResultProbe.MinimumTotal)                             | Gets the MinimumTotal.                                                                                                                                                     |
-| [`MinimumXAxis`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/ProbeResults/ResultProbe.md#ResultProbe.MinimumXAxis)                             | Gets the MinimumXAxis.                                                                                                                                                     |
-| [`MinimumYAxis`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/ProbeResults/ResultProbe.md#ResultProbe.MinimumYAxis)                             | Gets the MinimumYAxis.                                                                                                                                                     |
-| [`MinimumZAxis`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/ProbeResults/ResultProbe.md#ResultProbe.MinimumZAxis)                             | Gets the MinimumZAxis.                                                                                                                                                     |
-| [`Time`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/ProbeResults/ResultProbe.md#ResultProbe.Time)                                             | Gets the Time.                                                                                                                                                             |
-| [`Total`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/ProbeResults/ResultProbe.md#ResultProbe.Total)                                           | Gets the Total.                                                                                                                                                            |
-| [`XAxis`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/ProbeResults/ResultProbe.md#ResultProbe.XAxis)                                           | Gets the XAxis.                                                                                                                                                            |
-| [`YAxis`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/ProbeResults/ResultProbe.md#ResultProbe.YAxis)                                           | Gets the YAxis.                                                                                                                                                            |
-| [`ZAxis`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/ProbeResults/ResultProbe.md#ResultProbe.ZAxis)                                           | Gets the ZAxis.                                                                                                                                                            |
-| [`ResultSelection`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/ProbeResults/ResultProbe.md#ResultProbe.ResultSelection)                       | Gets or sets the ResultSelection.                                                                                                                                          |
-| [`SpatialResolution`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/ProbeResults/ResultProbe.md#ResultProbe.SpatialResolution)                   | Gets or sets the SpatialResolution.                                                                                                                                        |
-| [`Type`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/ProbeResults/ResultProbe.md#ResultProbe.Type)                                             | Gets the Type.                                                                                                                                                             |
-| [`DpfEvaluation`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/ProbeResults/ResultProbe.md#ResultProbe.DpfEvaluation)                           | Gets or sets the DpfEvaluation.                                                                                                                                            |
-| [`Suppressed`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/ProbeResults/ResultProbe.md#ResultProbe.Suppressed)                                 | Gets or sets the Suppressed.                                                                                                                                               |
-| [`DataModelObjectCategory`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/ProbeResults/ResultProbe.md#ResultProbe.DataModelObjectCategory)       | Gets the current DataModelObject's category.                                                                                                                               |
-| [`Children`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/ProbeResults/ResultProbe.md#ResultProbe.Children)                                     | Gets the list of children.                                                                                                                                                 |
-| [`Comments`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/ProbeResults/ResultProbe.md#ResultProbe.Comments)                                     | Gets the list of associated comments.                                                                                                                                      |
-| [`Figures`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/ProbeResults/ResultProbe.md#ResultProbe.Figures)                                       | Gets the list of associated figures.                                                                                                                                       |
-| [`Images`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/ProbeResults/ResultProbe.md#ResultProbe.Images)                                         | Gets the list of associated images.                                                                                                                                        |
-| [`InternalObject`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/ProbeResults/ResultProbe.md#id0)                                                | Gets the internal object. For advanced usage only.                                                                                                                         |
-| [`Properties`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/ProbeResults/ResultProbe.md#ResultProbe.Properties)                                 | Gets the list of properties for this object.                                                                                                                               |
-| [`VisibleProperties`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/ProbeResults/ResultProbe.md#ResultProbe.VisibleProperties)                   | Gets the list of properties that are visible for this object.                                                                                                              |
+|-------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| [`BeamSelection`](#ResultProbe.BeamSelection)                           | Gets or sets the BeamSelection.                                                                                                                                            |
+| [`BoundaryConditionSelection`](#ResultProbe.BoundaryConditionSelection) | Gets or sets the BoundaryConditionSelection. In order to select the option ‘WeakSprings’, please use the property ‘LocationMethod = LocationDefinitionMethod.WeakSprings’. |
+| [`Children`](#ResultProbe.Children)                                     | Gets the list of children.                                                                                                                                                 |
+| [`Comments`](#ResultProbe.Comments)                                     | Gets the list of associated comments.                                                                                                                                      |
+| [`ContactRegionSelection`](#ResultProbe.ContactRegionSelection)         | Gets or sets the ContactRegionSelection.                                                                                                                                   |
+| [`CoordinateSystemSelection`](#ResultProbe.CoordinateSystemSelection)   | Gets or sets the CoordinateSystemSelection.                                                                                                                                |
+| [`DataModelObjectCategory`](#ResultProbe.DataModelObjectCategory)       | Gets the current DataModelObject’s category.                                                                                                                               |
+| [`DisplayTime`](#ResultProbe.DisplayTime)                               | Gets or sets the DisplayTime.                                                                                                                                              |
+| [`DpfEvaluation`](#ResultProbe.DpfEvaluation)                           | Gets or sets the DpfEvaluation.                                                                                                                                            |
+| [`Figures`](#ResultProbe.Figures)                                       | Gets the list of associated figures.                                                                                                                                       |
+| [`GeometryLocation`](#ResultProbe.GeometryLocation)                     | Gets or sets the GeometryLocation.                                                                                                                                         |
+| [`Images`](#ResultProbe.Images)                                         | Gets the list of associated images.                                                                                                                                        |
+| [`InternalObject`](#ResultProbe.InternalObject)                         | Gets the internal object. For advanced usage only.                                                                                                                         |
+| [`IsSolved`](#ResultProbe.IsSolved)                                     | Gets the IsSolved.                                                                                                                                                         |
+| [`IterationNumber`](#ResultProbe.IterationNumber)                       | Gets the IterationNumber.                                                                                                                                                  |
+| [`LoadStep`](#ResultProbe.LoadStep)                                     | Gets the LoadStep.                                                                                                                                                         |
+| [`LoadStepNumber`](#ResultProbe.LoadStepNumber)                         | Gets or sets the LoadStepNumber.                                                                                                                                           |
+| [`LocationMethod`](#ResultProbe.LocationMethod)                         | Gets or sets the LocationMethod.                                                                                                                                           |
+| [`MaximumTotal`](#ResultProbe.MaximumTotal)                             | Gets the MaximumTotal.                                                                                                                                                     |
+| [`MaximumXAxis`](#ResultProbe.MaximumXAxis)                             | Gets the MaximumXAxis.                                                                                                                                                     |
+| [`MaximumYAxis`](#ResultProbe.MaximumYAxis)                             | Gets the MaximumYAxis.                                                                                                                                                     |
+| [`MaximumZAxis`](#ResultProbe.MaximumZAxis)                             | Gets the MaximumZAxis.                                                                                                                                                     |
+| [`MeshConnectionSelection`](#ResultProbe.MeshConnectionSelection)       | Gets or sets the MeshConnectionSelection.                                                                                                                                  |
+| [`MinimumTotal`](#ResultProbe.MinimumTotal)                             | Gets the MinimumTotal.                                                                                                                                                     |
+| [`MinimumXAxis`](#ResultProbe.MinimumXAxis)                             | Gets the MinimumXAxis.                                                                                                                                                     |
+| [`MinimumYAxis`](#ResultProbe.MinimumYAxis)                             | Gets the MinimumYAxis.                                                                                                                                                     |
+| [`MinimumZAxis`](#ResultProbe.MinimumZAxis)                             | Gets the MinimumZAxis.                                                                                                                                                     |
+| [`Orientation`](#ResultProbe.Orientation)                               | Gets or sets the Orientation. Accepts/Returns None if it is the Solution Coordinate System.                                                                                |
+| [`Properties`](#ResultProbe.Properties)                                 | Gets the list of properties for this object.                                                                                                                               |
+| [`RemotePointSelection`](#ResultProbe.RemotePointSelection)             | Gets or sets the RemotePointSelection.                                                                                                                                     |
+| [`ResultSelection`](#ResultProbe.ResultSelection)                       | Gets or sets the ResultSelection.                                                                                                                                          |
+| [`SpatialResolution`](#ResultProbe.SpatialResolution)                   | Gets or sets the SpatialResolution.                                                                                                                                        |
+| [`SpringSelection`](#ResultProbe.SpringSelection)                       | Gets or sets the SpringSelection.                                                                                                                                          |
+| [`Substep`](#ResultProbe.Substep)                                       | Gets the Substep.                                                                                                                                                          |
+| [`Summation`](#ResultProbe.Summation)                                   | Gets or sets the Summation.                                                                                                                                                |
+| [`Suppressed`](#ResultProbe.Suppressed)                                 | Gets or sets the Suppressed.                                                                                                                                               |
+| [`SurfaceSelection`](#ResultProbe.SurfaceSelection)                     | Gets or sets the MeshConnectionSelection.                                                                                                                                  |
+| [`Time`](#ResultProbe.Time)                                             | Gets the Time.                                                                                                                                                             |
+| [`Total`](#ResultProbe.Total)                                           | Gets the Total.                                                                                                                                                            |
+| [`Type`](#ResultProbe.Type)                                             | Gets the Type.                                                                                                                                                             |
+| [`VisibleProperties`](#ResultProbe.VisibleProperties)                   | Gets the list of properties that are visible for this object.                                                                                                              |
+| [`XAxis`](#ResultProbe.XAxis)                                           | Gets the XAxis.                                                                                                                                                            |
+| [`YAxis`](#ResultProbe.YAxis)                                           | Gets the YAxis.                                                                                                                                                            |
+| [`ZAxis`](#ResultProbe.ZAxis)                                           | Gets the ZAxis.                                                                                                                                                            |
 
 <a id="property-detail"></a>
 
 ## Property detail
 
-<a id="ResultProbe.Summation"></a>
+<a id="ResultProbe.BeamSelection"></a>
 
-### *property* ResultProbe.Summation *: [Ansys.Mechanical.DataModel.Enums.MomentsAtSummationPointType](../../../../../Mechanical/DataModel/Enums/MomentsAtSummationPointType.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.MomentsAtSummationPointType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ResultProbe.BeamSelection *: [Ansys.ACT.Automation.Mechanical.Connections.Beam](../../Connections/Beam.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Connections.Beam) | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets or sets the Summation.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="ResultProbe.LocationMethod"></a>
-
-### *property* ResultProbe.LocationMethod *: [Ansys.Mechanical.DataModel.Enums.LocationDefinitionMethod](../../../../../Mechanical/DataModel/Enums/LocationDefinitionMethod.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.LocationDefinitionMethod) | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the LocationMethod.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="ResultProbe.GeometryLocation"></a>
-
-### *property* ResultProbe.GeometryLocation *: Ansys.ACT.Interfaces.Common.ISelectionInfo | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the GeometryLocation.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="ResultProbe.CoordinateSystemSelection"></a>
-
-### *property* ResultProbe.CoordinateSystemSelection *: [Ansys.ACT.Automation.Mechanical.CoordinateSystem](../../CoordinateSystem.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.CoordinateSystem) | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the CoordinateSystemSelection.
+Gets or sets the BeamSelection.
 
 <!-- !! processed by numpydoc !! -->
 
@@ -131,7 +105,23 @@ Gets or sets the CoordinateSystemSelection.
 
 ### *property* ResultProbe.BoundaryConditionSelection *: Ansys.ACT.Automation.Mechanical.DataModelObject | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets or sets the BoundaryConditionSelection. In order to select the option â€˜WeakSprings', please use the property â€˜LocationMethod = LocationDefinitionMethod.WeakSprings'.
+Gets or sets the BoundaryConditionSelection. In order to select the option ‘WeakSprings’, please use the property ‘LocationMethod = LocationDefinitionMethod.WeakSprings’.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ResultProbe.Children"></a>
+
+### *property* ResultProbe.Children *: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets the list of children.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ResultProbe.Comments"></a>
+
+### *property* ResultProbe.Comments *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Comment](../../Comment.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets the list of associated comments.
 
 <!-- !! processed by numpydoc !! -->
 
@@ -143,59 +133,59 @@ Gets or sets the ContactRegionSelection.
 
 <!-- !! processed by numpydoc !! -->
 
-<a id="ResultProbe.RemotePointSelection"></a>
+<a id="ResultProbe.CoordinateSystemSelection"></a>
 
-### *property* ResultProbe.RemotePointSelection *: [Ansys.ACT.Automation.Mechanical.RemotePoint](../../RemotePoint.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.RemotePoint) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ResultProbe.CoordinateSystemSelection *: [Ansys.ACT.Automation.Mechanical.CoordinateSystem](../../CoordinateSystem.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.CoordinateSystem) | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets or sets the RemotePointSelection.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="ResultProbe.BeamSelection"></a>
-
-### *property* ResultProbe.BeamSelection *: [Ansys.ACT.Automation.Mechanical.Connections.Beam](../../Connections/Beam.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Connections.Beam) | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the BeamSelection.
+Gets or sets the CoordinateSystemSelection.
 
 <!-- !! processed by numpydoc !! -->
 
-<a id="ResultProbe.MeshConnectionSelection"></a>
+<a id="ResultProbe.DataModelObjectCategory"></a>
 
-### *property* ResultProbe.MeshConnectionSelection *: [Ansys.ACT.Automation.Mechanical.MeshConnection](../../MeshConnection.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.MeshConnection) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ResultProbe.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../../../v242/Ansys/Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets or sets the MeshConnectionSelection.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="ResultProbe.SurfaceSelection"></a>
-
-### *property* ResultProbe.SurfaceSelection *: [Ansys.ACT.Automation.Mechanical.Surface](../../Surface.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Surface) | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the MeshConnectionSelection.
+Gets the current DataModelObject’s category.
 
 <!-- !! processed by numpydoc !! -->
 
-<a id="ResultProbe.SpringSelection"></a>
+<a id="ResultProbe.DisplayTime"></a>
 
-### *property* ResultProbe.SpringSelection *: [Ansys.ACT.Automation.Mechanical.Connections.Spring](../../Connections/Spring.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Connections.Spring) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ResultProbe.DisplayTime *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets or sets the SpringSelection.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="ResultProbe.IsSolved"></a>
-
-### *property* ResultProbe.IsSolved *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets the IsSolved.
+Gets or sets the DisplayTime.
 
 <!-- !! processed by numpydoc !! -->
 
-<a id="ResultProbe.Orientation"></a>
+<a id="ResultProbe.DpfEvaluation"></a>
 
-### *property* ResultProbe.Orientation *: [Ansys.ACT.Automation.Mechanical.CoordinateSystem](../../CoordinateSystem.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.CoordinateSystem) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ResultProbe.DpfEvaluation *: [Ansys.Mechanical.DataModel.Enums.DpfEvaluationType](../../../../../../../v242/Ansys/Mechanical/DataModel/Enums/DpfEvaluationType.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.DpfEvaluationType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets or sets the Orientation. Accepts/Returns None if it is the Solution Coordinate System.
+Gets or sets the DpfEvaluation.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ResultProbe.Figures"></a>
+
+### *property* ResultProbe.Figures *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Figure](../../Figure.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets the list of associated figures.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ResultProbe.GeometryLocation"></a>
+
+### *property* ResultProbe.GeometryLocation *: Ansys.ACT.Interfaces.Common.ISelectionInfo | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the GeometryLocation.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ResultProbe.Images"></a>
+
+### *property* ResultProbe.Images *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Image](../../Image.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets the list of associated images.
 
 <!-- !! processed by numpydoc !! -->
 
@@ -204,6 +194,14 @@ Gets or sets the Orientation. Accepts/Returns None if it is the Solution Coordin
 ### *property* ResultProbe.InternalObject *: Ansys.Common.Interop.DSObjectsAuto.IDSProbeResultAuto | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the internal object. For advanced usage only.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ResultProbe.IsSolved"></a>
+
+### *property* ResultProbe.IsSolved *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets the IsSolved.
 
 <!-- !! processed by numpydoc !! -->
 
@@ -231,19 +229,11 @@ Gets or sets the LoadStepNumber.
 
 <!-- !! processed by numpydoc !! -->
 
-<a id="ResultProbe.Substep"></a>
+<a id="ResultProbe.LocationMethod"></a>
 
-### *property* ResultProbe.Substep *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ResultProbe.LocationMethod *: [Ansys.Mechanical.DataModel.Enums.LocationDefinitionMethod](../../../../../../../v242/Ansys/Mechanical/DataModel/Enums/LocationDefinitionMethod.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.LocationDefinitionMethod) | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets the Substep.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="ResultProbe.DisplayTime"></a>
-
-### *property* ResultProbe.DisplayTime *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the DisplayTime.
+Gets or sets the LocationMethod.
 
 <!-- !! processed by numpydoc !! -->
 
@@ -279,6 +269,14 @@ Gets the MaximumZAxis.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="ResultProbe.MeshConnectionSelection"></a>
+
+### *property* ResultProbe.MeshConnectionSelection *: [Ansys.ACT.Automation.Mechanical.MeshConnection](../../MeshConnection.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.MeshConnection) | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the MeshConnectionSelection.
+
+<!-- !! processed by numpydoc !! -->
+
 <a id="ResultProbe.MinimumTotal"></a>
 
 ### *property* ResultProbe.MinimumTotal *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
@@ -311,6 +309,86 @@ Gets the MinimumZAxis.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="ResultProbe.Orientation"></a>
+
+### *property* ResultProbe.Orientation *: [Ansys.ACT.Automation.Mechanical.CoordinateSystem](../../CoordinateSystem.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.CoordinateSystem) | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the Orientation. Accepts/Returns None if it is the Solution Coordinate System.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ResultProbe.Properties"></a>
+
+### *property* ResultProbe.Properties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets the list of properties for this object.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ResultProbe.RemotePointSelection"></a>
+
+### *property* ResultProbe.RemotePointSelection *: [Ansys.ACT.Automation.Mechanical.RemotePoint](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/RemotePoint.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.RemotePoint) | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the RemotePointSelection.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ResultProbe.ResultSelection"></a>
+
+### *property* ResultProbe.ResultSelection *: [Ansys.Mechanical.DataModel.Enums.ProbeDisplayFilter](../../../../../../../v242/Ansys/Mechanical/DataModel/Enums/ProbeDisplayFilter.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.ProbeDisplayFilter) | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the ResultSelection.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ResultProbe.SpatialResolution"></a>
+
+### *property* ResultProbe.SpatialResolution *: [Ansys.Mechanical.DataModel.Enums.MinimumOrMaximum](../../../../../../../v242/Ansys/Mechanical/DataModel/Enums/MinimumOrMaximum.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.MinimumOrMaximum) | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the SpatialResolution.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ResultProbe.SpringSelection"></a>
+
+### *property* ResultProbe.SpringSelection *: [Ansys.ACT.Automation.Mechanical.Connections.Spring](../../Connections/Spring.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Connections.Spring) | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the SpringSelection.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ResultProbe.Substep"></a>
+
+### *property* ResultProbe.Substep *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets the Substep.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ResultProbe.Summation"></a>
+
+### *property* ResultProbe.Summation *: [Ansys.Mechanical.DataModel.Enums.MomentsAtSummationPointType](../../../../../../../v242/Ansys/Mechanical/DataModel/Enums/MomentsAtSummationPointType.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.MomentsAtSummationPointType) | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the Summation.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ResultProbe.Suppressed"></a>
+
+### *property* ResultProbe.Suppressed *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the Suppressed.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ResultProbe.SurfaceSelection"></a>
+
+### *property* ResultProbe.SurfaceSelection *: [Ansys.ACT.Automation.Mechanical.Surface](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Surface.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Surface) | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the MeshConnectionSelection.
+
+<!-- !! processed by numpydoc !! -->
+
 <a id="ResultProbe.Time"></a>
 
 ### *property* ResultProbe.Time *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
@@ -324,6 +402,22 @@ Gets the Time.
 ### *property* ResultProbe.Total *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the Total.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ResultProbe.Type"></a>
+
+### *property* ResultProbe.Type *: [Ansys.Mechanical.DataModel.Enums.ProbeResultType](../../../../../../../v242/Ansys/Mechanical/DataModel/Enums/ProbeResultType.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.ProbeResultType) | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets the Type.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ResultProbe.VisibleProperties"></a>
+
+### *property* ResultProbe.VisibleProperties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets the list of properties that are visible for this object.
 
 <!-- !! processed by numpydoc !! -->
 
@@ -351,183 +445,15 @@ Gets the ZAxis.
 
 <!-- !! processed by numpydoc !! -->
 
-<a id="ResultProbe.ResultSelection"></a>
-
-### *property* ResultProbe.ResultSelection *: [Ansys.Mechanical.DataModel.Enums.ProbeDisplayFilter](../../../../../Mechanical/DataModel/Enums/ProbeDisplayFilter.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.ProbeDisplayFilter) | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the ResultSelection.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="ResultProbe.SpatialResolution"></a>
-
-### *property* ResultProbe.SpatialResolution *: [Ansys.Mechanical.DataModel.Enums.MinimumOrMaximum](../../../../../Mechanical/DataModel/Enums/MinimumOrMaximum.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.MinimumOrMaximum) | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the SpatialResolution.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="ResultProbe.Type"></a>
-
-### *property* ResultProbe.Type *: [Ansys.Mechanical.DataModel.Enums.ProbeResultType](../../../../../Mechanical/DataModel/Enums/ProbeResultType.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.ProbeResultType) | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets the Type.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="ResultProbe.DpfEvaluation"></a>
-
-### *property* ResultProbe.DpfEvaluation *: [Ansys.Mechanical.DataModel.Enums.DpfEvaluationType](../../../../../Mechanical/DataModel/Enums/DpfEvaluationType.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DpfEvaluationType) | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the DpfEvaluation.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="ResultProbe.Suppressed"></a>
-
-### *property* ResultProbe.Suppressed *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the Suppressed.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="ResultProbe.DataModelObjectCategory"></a>
-
-### *property* ResultProbe.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets the current DataModelObject's category.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="ResultProbe.Children"></a>
-
-### *property* ResultProbe.Children *: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets the list of children.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="ResultProbe.Comments"></a>
-
-### *property* ResultProbe.Comments *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Comment](../../Comment.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets the list of associated comments.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="ResultProbe.Figures"></a>
-
-### *property* ResultProbe.Figures *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Figure](../../Figure.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets the list of associated figures.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="ResultProbe.Images"></a>
-
-### *property* ResultProbe.Images *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Image](../../Image.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets the list of associated images.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="id0"></a>
-
-### *property* ResultProbe.InternalObject *: System.Object | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets the internal object. For advanced usage only.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="ResultProbe.Properties"></a>
-
-### *property* ResultProbe.Properties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets the list of properties for this object.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="ResultProbe.VisibleProperties"></a>
-
-### *property* ResultProbe.VisibleProperties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets the list of properties that are visible for this object.
-
-<!-- !! processed by numpydoc !! -->
-
 <a id="method-detail"></a>
 
 ## Method detail
 
-<a id="ResultProbe.ExportAnimation"></a>
+<a id="ResultProbe.Activate"></a>
 
-### ResultProbe.ExportAnimation(filePath: System.String, format: [Ansys.Mechanical.DataModel.Enums.GraphicsAnimationExportFormat](../../../../../Mechanical/DataModel/Enums/GraphicsAnimationExportFormat.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.GraphicsAnimationExportFormat), settings: [Ansys.Mechanical.Graphics.AnimationExportSettings](../../../../../Mechanical/Graphics/AnimationExportSettings.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.Graphics.AnimationExportSettings))
+### ResultProbe.Activate()
 
-Run the ExportAnimation action.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="ResultProbe.ClearGeneratedData"></a>
-
-### ResultProbe.ClearGeneratedData()
-
-Run the ClearGeneratedData action.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="ResultProbe.DuplicateWithoutResults"></a>
-
-### ResultProbe.DuplicateWithoutResults()
-
-Run the DuplicateWithoutResults action.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="ResultProbe.EvaluateAllResults"></a>
-
-### ResultProbe.EvaluateAllResults()
-
-Run the EvaluateAllResults action.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="ResultProbe.SnapToMeshNodes"></a>
-
-### ResultProbe.SnapToMeshNodes()
-
-Snap the coordinates of probe result to the mesh nodes.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="ResultProbe.RenameBasedOnDefinition"></a>
-
-### ResultProbe.RenameBasedOnDefinition()
-
-Run the RenameBasedOnDefinition action.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="ResultProbe.Delete"></a>
-
-### ResultProbe.Delete()
-
-Run the Delete action.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="ResultProbe.GetChildren"></a>
-
-### ResultProbe.GetChildren(recurses: System.Boolean, children: System.Collections.Generic.IList[ChildrenType])
-
-Gets the list of children, filtered by type.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="id1"></a>
-
-### ResultProbe.GetChildren(category: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory), recurses: System.Boolean, children: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject])
-
-Gets the list of children, filtered by type.
+Activate the current object.
 
 <!-- !! processed by numpydoc !! -->
 
@@ -551,17 +477,19 @@ Creates a new child Figure.
 
 ### ResultProbe.AddImage(filePath: System.String)
 
+```text
 Creates a new child Image.
 If a filePath is provided, the image will be loaded from that file,
 if not, the image will be a screen capture of the Geometry window.
+```
 
 <!-- !! processed by numpydoc !! -->
 
-<a id="ResultProbe.Activate"></a>
+<a id="ResultProbe.ClearGeneratedData"></a>
 
-### ResultProbe.Activate()
+### ResultProbe.ClearGeneratedData()
 
-Activate the current object.
+Run the ClearGeneratedData action.
 
 <!-- !! processed by numpydoc !! -->
 
@@ -573,11 +501,67 @@ Copies all visible properties from this object to another.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="ResultProbe.CreateParameter"></a>
+
+### ResultProbe.CreateParameter(propName: System.String)
+
+Creates a new parameter for a Property.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ResultProbe.Delete"></a>
+
+### ResultProbe.Delete()
+
+Run the Delete action.
+
+<!-- !! processed by numpydoc !! -->
+
 <a id="ResultProbe.Duplicate"></a>
 
 ### ResultProbe.Duplicate()
 
 Creates a copy of the current DataModelObject.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ResultProbe.DuplicateWithoutResults"></a>
+
+### ResultProbe.DuplicateWithoutResults()
+
+Run the DuplicateWithoutResults action.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ResultProbe.EvaluateAllResults"></a>
+
+### ResultProbe.EvaluateAllResults()
+
+Run the EvaluateAllResults action.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ResultProbe.ExportAnimation"></a>
+
+### ResultProbe.ExportAnimation(filePath: System.String, format: [Ansys.Mechanical.DataModel.Enums.GraphicsAnimationExportFormat](../../../../../../../v242/Ansys/Mechanical/DataModel/Enums/GraphicsAnimationExportFormat.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.GraphicsAnimationExportFormat), settings: [Ansys.Mechanical.Graphics.AnimationExportSettings](../../../../../../../v242/Ansys/Mechanical/Graphics/AnimationExportSettings.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.Graphics.AnimationExportSettings))
+
+Run the ExportAnimation action.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ResultProbe.GetChildren"></a>
+
+### ResultProbe.GetChildren(recurses: System.Boolean, children: System.Collections.Generic.IList[ChildrenType])
+
+Gets the list of children, filtered by type.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ResultProbe.GetParameter"></a>
+
+### ResultProbe.GetParameter(propName: System.String)
+
+Gets the parameter corresponding to the given property.
 
 <!-- !! processed by numpydoc !! -->
 
@@ -597,6 +581,17 @@ Run the GroupSimilarObjects action.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="ResultProbe.PropertyByAPIName"></a>
+
+### ResultProbe.PropertyByAPIName(name: System.String)
+
+```text
+Get a property by its API name.
+If multiple properties have the same API Name, only the first property with that name will be returned.
+```
+
+<!-- !! processed by numpydoc !! -->
+
 <a id="ResultProbe.PropertyByName"></a>
 
 ### ResultProbe.PropertyByName(name: System.String)
@@ -605,36 +600,27 @@ Get a property by its unique name.
 
 <!-- !! processed by numpydoc !! -->
 
-<a id="ResultProbe.PropertyByAPIName"></a>
-
-### ResultProbe.PropertyByAPIName(name: System.String)
-
-Get a property by its API name.
-If multiple properties have the same API Name, only the first property with that name will be returned.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="ResultProbe.CreateParameter"></a>
-
-### ResultProbe.CreateParameter(propName: System.String)
-
-Creates a new parameter for a Property.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="ResultProbe.GetParameter"></a>
-
-### ResultProbe.GetParameter(propName: System.String)
-
-Gets the parameter corresponding to the given property.
-
-<!-- !! processed by numpydoc !! -->
-
 <a id="ResultProbe.RemoveParameter"></a>
 
 ### ResultProbe.RemoveParameter(propName: System.String)
 
 Removes the parameter from the parameter set corresponding to the given property.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ResultProbe.RenameBasedOnDefinition"></a>
+
+### ResultProbe.RenameBasedOnDefinition()
+
+Run the RenameBasedOnDefinition action.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ResultProbe.SnapToMeshNodes"></a>
+
+### ResultProbe.SnapToMeshNodes()
+
+Snap the coordinates of probe result to the mesh nodes.
 
 <!-- !! processed by numpydoc !! -->
 

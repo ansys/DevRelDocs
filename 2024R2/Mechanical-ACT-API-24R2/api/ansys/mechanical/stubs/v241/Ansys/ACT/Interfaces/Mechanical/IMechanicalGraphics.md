@@ -1,6 +1,6 @@
 # `IMechanicalGraphics`
 
-
+<a id="ansys.mechanical.stubs.v241.Ansys.ACT.Interfaces.Mechanical.IMechanicalGraphics"></a>
 
 #### *class* ansys.mechanical.stubs.v241.Ansys.ACT.Interfaces.Mechanical.IMechanicalGraphics
 
@@ -17,9 +17,9 @@ Interface for MechanicalGraphics.
 ### Properties
 
 | Name | Description |
-|-----------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------|
-| [`ModelViewManager`](../../../../../v242/Ansys/ACT/Interfaces/Mechanical/IMechanicalGraphics.md#IMechanicalGraphics.ModelViewManager)   | An instance of the ModelViewManager.   |
-| [`SectionPlanes`](../../../../../v242/Ansys/ACT/Interfaces/Mechanical/IMechanicalGraphics.md#IMechanicalGraphics.SectionPlanes)         | An instance of the SectionPlanes.      |
+|---------------------------------------------------------------|----------------------------------------|
+| [`ModelViewManager`](#IMechanicalGraphics.ModelViewManager)   | An instance of the ModelViewManager.   |
+| [`SectionPlanes`](#IMechanicalGraphics.SectionPlanes)         | An instance of the SectionPlanes.      |
 
 <a id="property-detail"></a>
 
@@ -27,7 +27,7 @@ Interface for MechanicalGraphics.
 
 <a id="IMechanicalGraphics.ModelViewManager"></a>
 
-### *property* IMechanicalGraphics.ModelViewManager *: [Ansys.ACT.Interfaces.Graphics.IModelViewManager](../Graphics/IModelViewManager.md#ansys.mechanical.stubs.v241.Ansys.ACT.Interfaces.Graphics.IModelViewManager) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* IMechanicalGraphics.ModelViewManager *: [Ansys.ACT.Interfaces.Graphics.IModelViewManager](../../../../../v242/Ansys/ACT/Interfaces/Graphics/IModelViewManager.md#ansys.mechanical.stubs.v242.Ansys.ACT.Interfaces.Graphics.IModelViewManager) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 An instance of the ModelViewManager.
 
@@ -35,7 +35,7 @@ An instance of the ModelViewManager.
 
 <a id="IMechanicalGraphics.SectionPlanes"></a>
 
-### *property* IMechanicalGraphics.SectionPlanes *: [Ansys.Mechanical.Graphics.SectionPlanes](../../../Mechanical/Graphics/SectionPlanes.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.Graphics.SectionPlanes) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* IMechanicalGraphics.SectionPlanes *: [Ansys.Mechanical.Graphics.SectionPlanes](../../../../../v242/Ansys/Mechanical/Graphics/SectionPlanes.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.Graphics.SectionPlanes) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 An instance of the SectionPlanes.
 

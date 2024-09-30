@@ -1,6 +1,6 @@
 # `ConnectionScopingType`
 
-
+<a id="ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.ConnectionScopingType"></a>
 
 #### *class* ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.ConnectionScopingType
 
@@ -17,7 +17,7 @@ Specifies the ConnectionScopingType.
 ### Attributes
 
 | Name |
-| ------------------------------------------------------- |
+| ------------------------------------------------------------------------------------------------------------------------------------ |
 | [`BodyToBody`](#ConnectionScopingType.BodyToBody) |
 | [`BodyToGround`](#ConnectionScopingType.BodyToGround) |
 

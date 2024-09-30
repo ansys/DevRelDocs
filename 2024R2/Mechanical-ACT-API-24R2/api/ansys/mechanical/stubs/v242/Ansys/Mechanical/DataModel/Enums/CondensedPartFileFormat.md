@@ -1,6 +1,6 @@
 # `CondensedPartFileFormat`
 
-
+<a id="ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.CondensedPartFileFormat"></a>
 
 #### *class* ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.CondensedPartFileFormat
 
@@ -17,10 +17,10 @@ Specifies the CondensedPartFileFormat.
 ### Attributes
 
 | Name |
-| ------------------------------------------------------------------------------------- |
+| -------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | [`ExportedCondensedPart_CPA`](#CondensedPartFileFormat.ExportedCondensedPart_CPA) |
-| [`SuperElement_MATRIX`](#CondensedPartFileFormat.SuperElement_MATRIX) |
 | [`GenerationPassOutput_SUB`](#CondensedPartFileFormat.GenerationPassOutput_SUB) |
+| [`SuperElement_MATRIX`](#CondensedPartFileFormat.SuperElement_MATRIX) |
 
 <a id="attribute-detail"></a>
 
@@ -30,12 +30,12 @@ Specifies the CondensedPartFileFormat.
 
 ### CondensedPartFileFormat.ExportedCondensedPart_CPA *= 0*
 
-<a id="CondensedPartFileFormat.SuperElement_MATRIX"></a>
-
-### CondensedPartFileFormat.SuperElement_MATRIX *= 2*
-
 <a id="CondensedPartFileFormat.GenerationPassOutput_SUB"></a>
 
 ### CondensedPartFileFormat.GenerationPassOutput_SUB *= 1*
+
+<a id="CondensedPartFileFormat.SuperElement_MATRIX"></a>
+
+### CondensedPartFileFormat.SuperElement_MATRIX *= 2*
 
 

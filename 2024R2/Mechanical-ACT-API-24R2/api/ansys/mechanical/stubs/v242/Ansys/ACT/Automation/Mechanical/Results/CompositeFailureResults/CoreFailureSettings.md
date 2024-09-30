@@ -1,6 +1,6 @@
 # `CoreFailureSettings`
 
-
+<a id="ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Results.CompositeFailureResults.CoreFailureSettings"></a>
 
 #### *class* ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Results.CompositeFailureResults.CoreFailureSettings
 
@@ -23,28 +23,28 @@ Defines the configuration for the Core failure criterion for sandwich structures
 ### Properties
 
 | Name | Description |
-|-------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------|
-| [`WeightingFactor`](#CoreFailureSettings.WeightingFactor)                                       | Gets or sets the weighting factor for the core failure criterion. The corresponding failure label   |
-| [`ConsiderInterlaminarNormalStresses`](#CoreFailureSettings.ConsiderInterlaminarNormalStresses) | Gets or sets whether interlaminar normal stresses are included in the core failure evaluation.      |
+|---------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------|
+| [`ConsiderInterlaminarNormalStresses`](#CoreFailureSettings.ConsiderInterlaminarNormalStresses)   | Gets or sets whether interlaminar normal stresses are included in the core failure evaluation.    |
+| [`WeightingFactor`](#CoreFailureSettings.WeightingFactor)                                         | Gets or sets the weighting factor for the core failure criterion. The corresponding failure label |
 
 <a id="property-detail"></a>
 
 ## Property detail
-
-<a id="CoreFailureSettings.WeightingFactor"></a>
-
-### *property* CoreFailureSettings.WeightingFactor *: System.Double | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the weighting factor for the core failure criterion. The corresponding failure label
-: is â€˜cf'.
-
-<!-- !! processed by numpydoc !! -->
 
 <a id="CoreFailureSettings.ConsiderInterlaminarNormalStresses"></a>
 
 ### *property* CoreFailureSettings.ConsiderInterlaminarNormalStresses *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets whether interlaminar normal stresses are included in the core failure evaluation.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="CoreFailureSettings.WeightingFactor"></a>
+
+### *property* CoreFailureSettings.WeightingFactor *: System.Double | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the weighting factor for the core failure criterion. The corresponding failure label
+: is ‘cf’.
 
 <!-- !! processed by numpydoc !! -->
 

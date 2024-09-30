@@ -1,6 +1,6 @@
 # `CriterionFrequencyRangeType`
 
-
+<a id="ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.CriterionFrequencyRangeType"></a>
 
 #### *class* ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.CriterionFrequencyRangeType
 
@@ -17,7 +17,7 @@ Specifies the CriterionFrequencyRangeType.
 ### Attributes
 
 | Name |
-| ------------------------------------------------------- |
+| ------------------------------------------------------------------------------------------------------------------------------------------ |
 | [`Manual`](#CriterionFrequencyRangeType.Manual) |
 | [`UseParent`](#CriterionFrequencyRangeType.UseParent) |
 

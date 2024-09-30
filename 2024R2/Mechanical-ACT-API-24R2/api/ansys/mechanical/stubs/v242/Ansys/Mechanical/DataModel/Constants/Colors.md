@@ -1,6 +1,6 @@
 # `Colors`
 
-
+<a id="ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Constants.Colors"></a>
 
 #### *class* ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Constants.Colors
 
@@ -17,14 +17,14 @@ Color constants, in BGR bitfield layout.
 ### Properties
 
 | Name | Description |
-|----------------------------|------------------|
+|----------------------------------------------------------------------------------------------|------------------|
 | [`Blue`](#Colors.Blue)     | Blue property.   |
 | [`Cyan`](#Colors.Cyan)     | Cyan property.   |
-| [`Green`](#Colors.Green)   | Green property.  |
-| [`Yellow`](#Colors.Yellow) | Yellow property. |
-| [`Red`](#Colors.Red)       | Red property.    |
 | [`Gray`](#Colors.Gray)     | Gray property.   |
+| [`Green`](#Colors.Green)   | Green property.  |
+| [`Red`](#Colors.Red)       | Red property.    |
 | [`White`](#Colors.White)   | White property.  |
+| [`Yellow`](#Colors.Yellow) | Yellow property. |
 
 <a id="property-detail"></a>
 
@@ -50,6 +50,16 @@ Cyan property.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="Colors.Gray"></a>
+
+### *property* Colors.Gray *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+
+* **Classmethod:**
+
+Gray property.
+
+<!-- !! processed by numpydoc !! -->
+
 <a id="Colors.Green"></a>
 
 ### *property* Colors.Green *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
@@ -57,16 +67,6 @@ Cyan property.
 * **Classmethod:**
 
 Green property.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="Colors.Yellow"></a>
-
-### *property* Colors.Yellow *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
-
-* **Classmethod:**
-
-Yellow property.
 
 <!-- !! processed by numpydoc !! -->
 
@@ -80,16 +80,6 @@ Red property.
 
 <!-- !! processed by numpydoc !! -->
 
-<a id="Colors.Gray"></a>
-
-### *property* Colors.Gray *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
-
-* **Classmethod:**
-
-Gray property.
-
-<!-- !! processed by numpydoc !! -->
-
 <a id="Colors.White"></a>
 
 ### *property* Colors.White *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
@@ -97,6 +87,16 @@ Gray property.
 * **Classmethod:**
 
 White property.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="Colors.Yellow"></a>
+
+### *property* Colors.Yellow *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+
+* **Classmethod:**
+
+Yellow property.
 
 <!-- !! processed by numpydoc !! -->
 

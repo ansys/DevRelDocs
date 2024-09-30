@@ -1,6 +1,6 @@
 # `RadiositySolverType`
 
-
+<a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.RadiositySolverType"></a>
 
 #### *class* ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.RadiositySolverType
 
@@ -17,30 +17,30 @@ Specifies the RadiositySolverType.
 ### Attributes
 
 | Name |
-| ------------------------------------------------------------------------------------------------------------------------------------------------ |
-| [`ProgramControlled`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/RadiositySolverType.md#RadiositySolverType.ProgramControlled) |
-| [`Direct`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/RadiositySolverType.md#RadiositySolverType.Direct) |
-| [`IterativeJacobi`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/RadiositySolverType.md#RadiositySolverType.IterativeJacobi) |
-| [`IterativeGaussSeidel`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/RadiositySolverType.md#RadiositySolverType.IterativeGaussSeidel) |
+| --------------------------------------------------------------------- |
+| [`Direct`](#RadiositySolverType.Direct) |
+| [`IterativeGaussSeidel`](#RadiositySolverType.IterativeGaussSeidel) |
+| [`IterativeJacobi`](#RadiositySolverType.IterativeJacobi) |
+| [`ProgramControlled`](#RadiositySolverType.ProgramControlled) |
 
 <a id="attribute-detail"></a>
 
 ## Attribute detail
 
-<a id="RadiositySolverType.ProgramControlled"></a>
-
-### RadiositySolverType.ProgramControlled *= 0*
-
 <a id="RadiositySolverType.Direct"></a>
 
 ### RadiositySolverType.Direct *= 1*
+
+<a id="RadiositySolverType.IterativeGaussSeidel"></a>
+
+### RadiositySolverType.IterativeGaussSeidel *= 3*
 
 <a id="RadiositySolverType.IterativeJacobi"></a>
 
 ### RadiositySolverType.IterativeJacobi *= 2*
 
-<a id="RadiositySolverType.IterativeGaussSeidel"></a>
+<a id="RadiositySolverType.ProgramControlled"></a>
 
-### RadiositySolverType.IterativeGaussSeidel *= 3*
+### RadiositySolverType.ProgramControlled *= 0*
 
 

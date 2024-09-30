@@ -1,6 +1,6 @@
 # `ETBlockCommand`
 
-
+<a id="ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.FE.CDB.ETBlockCommand"></a>
 
 #### *class* ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.FE.CDB.ETBlockCommand
 
@@ -18,10 +18,10 @@ Represents a ETBLOCK command.
 
 | Name | Description |
 |--------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------|
-| [`ElementTypeCount`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/FE/CDB/ETBlockCommand.md#ETBlockCommand.ElementTypeCount)   | Gets the element type count.   |
-| [`ElementTypes`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/FE/CDB/ETBlockCommand.md#ETBlockCommand.ElementTypes)           | Gets the element types.        |
-| [`Name`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/FE/CDB/ETBlockCommand.md#ETBlockCommand.Name)                           | Gets the command name.         |
-| [`Index`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/FE/CDB/ETBlockCommand.md#ETBlockCommand.Index)                         | Gets the command index.        |
+| [`ElementTypeCount`](#ETBlockCommand.ElementTypeCount)   | Gets the element type count.   |
+| [`ElementTypes`](#ETBlockCommand.ElementTypes)           | Gets the element types.        |
+| [`Index`](#ETBlockCommand.Index)                         | Gets the command index.        |
+| [`Name`](#ETBlockCommand.Name)                           | Gets the command name.         |
 
 <a id="property-detail"></a>
 
@@ -43,19 +43,19 @@ Gets the element types.
 
 <!-- !! processed by numpydoc !! -->
 
-<a id="ETBlockCommand.Name"></a>
-
-### *property* ETBlockCommand.Name *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets the command name.
-
-<!-- !! processed by numpydoc !! -->
-
 <a id="ETBlockCommand.Index"></a>
 
 ### *property* ETBlockCommand.Index *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the command index.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ETBlockCommand.Name"></a>
+
+### *property* ETBlockCommand.Name *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets the command name.
 
 <!-- !! processed by numpydoc !! -->
 

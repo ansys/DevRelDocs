@@ -1,6 +1,6 @@
 # `DSJointLoadAdapter`
 
-
+<a id="ansys.mechanical.stubs.v242.Ansys.ACT.Mechanical.Fields.Adapters.DSJointLoadAdapter"></a>
 
 #### *class* ansys.mechanical.stubs.v242.Ansys.ACT.Mechanical.Fields.Adapters.DSJointLoadAdapter
 
@@ -17,13 +17,13 @@ Adapter dedicated to IDSJointConditionAuto objects.
 ### Methods
 
 | Name | Description |
-|--------------------------------------------------------------------------------|-------------------------------------|
+|-----------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------|
 | [`ChangeFieldDefinitionType`](#DSJointLoadAdapter.ChangeFieldDefinitionType)   | ChangeFieldDefinitionType method.   |
 
 ### Properties
 
 | Name | Description |
-|--------------------------------------------------------|--------------------------------------------|
+|-----------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------|
 | [`FieldProvider`](#DSJointLoadAdapter.FieldProvider)   | Gets the wrapped object from Mechanical.   |
 
 <a id="property-detail"></a>

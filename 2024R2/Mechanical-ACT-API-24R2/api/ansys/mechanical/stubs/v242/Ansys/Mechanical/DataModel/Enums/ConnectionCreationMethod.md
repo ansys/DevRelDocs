@@ -1,6 +1,6 @@
 # `ConnectionCreationMethod`
 
-
+<a id="ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.ConnectionCreationMethod"></a>
 
 #### *class* ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.ConnectionCreationMethod
 
@@ -17,7 +17,7 @@ Specifies the ConnectionCreationMethod.
 ### Attributes
 
 | Name |
-| ------------------------------------------------------ |
+| -------------------------------------------------------------------------------------------------------------------------------------- |
 | [`InputFile`](#ConnectionCreationMethod.InputFile) |
 | [`Manual`](#ConnectionCreationMethod.Manual) |
 

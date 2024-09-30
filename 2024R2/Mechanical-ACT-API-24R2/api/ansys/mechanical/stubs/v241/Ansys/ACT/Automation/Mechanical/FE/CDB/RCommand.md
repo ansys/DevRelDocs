@@ -1,6 +1,6 @@
 # `RCommand`
 
-
+<a id="ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.FE.CDB.RCommand"></a>
 
 #### *class* ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.FE.CDB.RCommand
 
@@ -18,15 +18,31 @@ Represents a R command.
 
 | Name | Description |
 |----------------------------------------------------------------------------------------------------------|-----------------------------|
-| [`Nset`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/FE/CDB/RCommand.md#RCommand.Nset)     | Gets the set number.        |
-| [`Stloc`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/FE/CDB/RCommand.md#RCommand.Stloc)   | Gets the starting location. |
-| [`Values`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/FE/CDB/RCommand.md#RCommand.Values) | Gets the values.            |
-| [`Name`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/FE/CDB/RCommand.md#RCommand.Name)     | Gets the command name.      |
-| [`Index`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/FE/CDB/RCommand.md#RCommand.Index)   | Gets the command index.     |
+| [`Index`](#RCommand.Index)   | Gets the command index.     |
+| [`Name`](#RCommand.Name)     | Gets the command name.      |
+| [`Nset`](#RCommand.Nset)     | Gets the set number.        |
+| [`Stloc`](#RCommand.Stloc)   | Gets the starting location. |
+| [`Values`](#RCommand.Values) | Gets the values.            |
 
 <a id="property-detail"></a>
 
 ## Property detail
+
+<a id="RCommand.Index"></a>
+
+### *property* RCommand.Index *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets the command index.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="RCommand.Name"></a>
+
+### *property* RCommand.Name *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets the command name.
+
+<!-- !! processed by numpydoc !! -->
 
 <a id="RCommand.Nset"></a>
 
@@ -49,22 +65,6 @@ Gets the starting location.
 ### *property* RCommand.Values *: System.Collections.Generic.IReadOnlyList[System.Double] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the values.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="RCommand.Name"></a>
-
-### *property* RCommand.Name *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets the command name.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="RCommand.Index"></a>
-
-### *property* RCommand.Index *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets the command index.
 
 <!-- !! processed by numpydoc !! -->
 

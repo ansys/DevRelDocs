@@ -1,6 +1,6 @@
 # `WindowType`
 
-
+<a id="ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.WindowType"></a>
 
 #### *class* ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.WindowType
 
@@ -17,7 +17,7 @@ Specifies the WindowType.
 ### Attributes
 
 | Name |
-| ------------------------------------------ |
+| ------------------------------------------------------------------------------------------------------------ |
 | [`Bartlett`](#WindowType.Bartlett) |
 | [`Blackman`](#WindowType.Blackman) |
 | [`Hamming`](#WindowType.Hamming) |

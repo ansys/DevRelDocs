@@ -1,6 +1,6 @@
 # `TBDataValues`
 
-
+<a id="ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.FE.CDB.TBDataValues"></a>
 
 #### *class* ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.FE.CDB.TBDataValues
 
@@ -18,9 +18,9 @@ Represents data for a given temperature.
 
 | Name | Description |
 |--------------------------------------------------------------------------------------------------------------------------|----------------------------|
-| [`Temp`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/FE/CDB/TBDataValues.md#TBDataValues.Temp)             | Gets the temperature.      |
-| [`ValueCount`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/FE/CDB/TBDataValues.md#TBDataValues.ValueCount) | Gets the number of values. |
-| [`Values`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/FE/CDB/TBDataValues.md#TBDataValues.Values)         | Gets the values.           |
+| [`Temp`](#TBDataValues.Temp)             | Gets the temperature.      |
+| [`ValueCount`](#TBDataValues.ValueCount) | Gets the number of values. |
+| [`Values`](#TBDataValues.Values)         | Gets the values.           |
 
 <a id="property-detail"></a>
 

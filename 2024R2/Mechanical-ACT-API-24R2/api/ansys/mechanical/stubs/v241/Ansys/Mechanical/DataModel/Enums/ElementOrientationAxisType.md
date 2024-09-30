@@ -1,6 +1,6 @@
 # `ElementOrientationAxisType`
 
-
+<a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.ElementOrientationAxisType"></a>
 
 #### *class* ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.ElementOrientationAxisType
 
@@ -17,14 +17,14 @@ Specifies the ElementOrientationAxisType.
 ### Attributes
 
 | Name |
-| -------------------------------------------------------------------------------------------------------------------------------------------------- |
-| [`AxisUndefined`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/ElementOrientationAxisType.md#ElementOrientationAxisType.AxisUndefined) |
-| [`NegativeXAxis`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/ElementOrientationAxisType.md#ElementOrientationAxisType.NegativeXAxis) |
-| [`NegativeYAxis`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/ElementOrientationAxisType.md#ElementOrientationAxisType.NegativeYAxis) |
-| [`NegativeZAxis`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/ElementOrientationAxisType.md#ElementOrientationAxisType.NegativeZAxis) |
-| [`PositiveXAxis`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/ElementOrientationAxisType.md#ElementOrientationAxisType.PositiveXAxis) |
-| [`PositiveYAxis`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/ElementOrientationAxisType.md#ElementOrientationAxisType.PositiveYAxis) |
-| [`PositiveZAxis`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/ElementOrientationAxisType.md#ElementOrientationAxisType.PositiveZAxis) |
+| ---------------------------------------------------------------- |
+| [`AxisUndefined`](#ElementOrientationAxisType.AxisUndefined) |
+| [`NegativeXAxis`](#ElementOrientationAxisType.NegativeXAxis) |
+| [`NegativeYAxis`](#ElementOrientationAxisType.NegativeYAxis) |
+| [`NegativeZAxis`](#ElementOrientationAxisType.NegativeZAxis) |
+| [`PositiveXAxis`](#ElementOrientationAxisType.PositiveXAxis) |
+| [`PositiveYAxis`](#ElementOrientationAxisType.PositiveYAxis) |
+| [`PositiveZAxis`](#ElementOrientationAxisType.PositiveZAxis) |
 
 <a id="attribute-detail"></a>
 

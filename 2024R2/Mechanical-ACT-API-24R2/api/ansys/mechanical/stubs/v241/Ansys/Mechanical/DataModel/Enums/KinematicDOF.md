@@ -1,6 +1,6 @@
 # `KinematicDOF`
 
-
+<a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.KinematicDOF"></a>
 
 #### *class* ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.KinematicDOF
 
@@ -17,13 +17,13 @@ Specifies the KinematicDOF.
 ### Attributes
 
 | Name |
-| -------------------------------------------------------------------------------------------------------------------- |
-| [`RotationX`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/KinematicDOF.md#KinematicDOF.RotationX) |
-| [`RotationY`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/KinematicDOF.md#KinematicDOF.RotationY) |
-| [`RotationZ`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/KinematicDOF.md#KinematicDOF.RotationZ) |
-| [`XDisplacement`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/KinematicDOF.md#KinematicDOF.XDisplacement) |
-| [`YDisplacement`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/KinematicDOF.md#KinematicDOF.YDisplacement) |
-| [`ZDisplacement`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/KinematicDOF.md#KinematicDOF.ZDisplacement) |
+| ------------------------------------------------ |
+| [`RotationX`](#KinematicDOF.RotationX) |
+| [`RotationY`](#KinematicDOF.RotationY) |
+| [`RotationZ`](#KinematicDOF.RotationZ) |
+| [`XDisplacement`](#KinematicDOF.XDisplacement) |
+| [`YDisplacement`](#KinematicDOF.YDisplacement) |
+| [`ZDisplacement`](#KinematicDOF.ZDisplacement) |
 
 <a id="attribute-detail"></a>
 

@@ -1,6 +1,6 @@
 # `NLADControlProjectToGeometry`
 
-
+<a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.NLADControlProjectToGeometry"></a>
 
 #### *class* ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.NLADControlProjectToGeometry
 
@@ -17,9 +17,9 @@ Specifies the NLADControlProjectToGeometry.
 ### Attributes
 
 | Name |
-| -------------------------------------------------------------------------------------------------------------------------------- |
-| [`No`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/NLADControlProjectToGeometry.md#NLADControlProjectToGeometry.No) |
-| [`Yes`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/NLADControlProjectToGeometry.md#NLADControlProjectToGeometry.Yes) |
+| -------------------------------------------- |
+| [`No`](#NLADControlProjectToGeometry.No) |
+| [`Yes`](#NLADControlProjectToGeometry.Yes) |
 
 <a id="attribute-detail"></a>
 

@@ -1,6 +1,6 @@
 # `MAPDLSpringData`
 
-
+<a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.SolverData.MAPDLSpringData"></a>
 
 #### *class* ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.SolverData.MAPDLSpringData
 
@@ -17,9 +17,9 @@ MAPDLSpringData class.
 ### Properties
 
 | Name | Description |
-|---------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------|
-| [`ElementId`](../../../../../v242/Ansys/Mechanical/DataModel/SolverData/MAPDLSpringData.md#MAPDLSpringData.ElementId)           | Gets the Element number for the object.          |
-| [`RealConstantId`](../../../../../v242/Ansys/Mechanical/DataModel/SolverData/MAPDLSpringData.md#MAPDLSpringData.RealConstantId) | Gets the Real Constant Id number for the object. |
+|-----------------------------------------------------|--------------------------------------------------|
+| [`ElementId`](#MAPDLSpringData.ElementId)           | Gets the Element number for the object.          |
+| [`RealConstantId`](#MAPDLSpringData.RealConstantId) | Gets the Real Constant Id number for the object. |
 
 <a id="property-detail"></a>
 

@@ -1,6 +1,6 @@
 # `ImagePlane`
 
-
+<a id="ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.ImagePlane"></a>
 
 #### *class* ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.ImagePlane
 
@@ -18,65 +18,47 @@ Defines a ImagePlane.
 
 | Name | Description |
 |------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [`Delete`](#ImagePlane.Delete)                                   | Run the Delete action.                                                                                                                                                                                                                                                                                                                                                                                                                                                       |
-| [`GetChildren`](#id1)                                            | Gets the list of children, filtered by type.                                                                                                                                                                                                                                                                                                                                                                                                                                 |
-| [`GetChildren`](#id1)                                            | Gets the list of children, filtered by type.                                                                                                                                                                                                                                                                                                                                                                                                                                 |
-| [`AddComment`](#ImagePlane.AddComment)                           | Creates a new child Comment.                                                                                                                                                                                                                                                                                                                                                                                                                                                 |
-| [`Import`](#ImagePlane.Import)                                   | Sets the image which is rendered to this plane, specified by filePath.  Upon success, ImageFilePath will return filePath.  Upon failure, ImageFilePath will remain unchanged.  Supported file formats include PNG, JPEG, BMP, and GIF.  If this is the first time an image has been set to this image plane and if Width and Height were never modified, the image plane will be automatically sized based on the model's bounding box, respecting the image's aspect ratio. |
 | [`Activate`](#ImagePlane.Activate)                               | Activate the current object.                                                                                                                                                                                                                                                                                                                                                                                                                                                 |
+| [`AddComment`](#ImagePlane.AddComment)                           | Creates a new child Comment.                                                                                                                                                                                                                                                                                                                                                                                                                                                 |
 | [`CopyTo`](#ImagePlane.CopyTo)                                   | Copies all visible properties from this object to another.                                                                                                                                                                                                                                                                                                                                                                                                                   |
+| [`CreateParameter`](#ImagePlane.CreateParameter)                 | Creates a new parameter for a Property.                                                                                                                                                                                                                                                                                                                                                                                                                                      |
+| [`Delete`](#ImagePlane.Delete)                                   | Run the Delete action.                                                                                                                                                                                                                                                                                                                                                                                                                                                       |
 | [`Duplicate`](#ImagePlane.Duplicate)                             | Creates a copy of the current DataModelObject.                                                                                                                                                                                                                                                                                                                                                                                                                               |
+| [`GetChildren`](#ImagePlane.GetChildren)                         | Gets the list of children, filtered by type.                                                                                                                                                                                                                                                                                                                                                                                                                                 |
+| [`GetParameter`](#ImagePlane.GetParameter)                       | Gets the parameter corresponding to the given property.                                                                                                                                                                                                                                                                                                                                                                                                                      |
 | [`GroupAllSimilarChildren`](#ImagePlane.GroupAllSimilarChildren) | Run the GroupAllSimilarChildren action.                                                                                                                                                                                                                                                                                                                                                                                                                                      |
 | [`GroupSimilarObjects`](#ImagePlane.GroupSimilarObjects)         | Run the GroupSimilarObjects action.                                                                                                                                                                                                                                                                                                                                                                                                                                          |
-| [`PropertyByName`](#ImagePlane.PropertyByName)                   | Get a property by its unique name.                                                                                                                                                                                                                                                                                                                                                                                                                                           |
+| [`Import`](#ImagePlane.Import)                                   | Sets the image which is rendered to this plane, specified by filePath.  Upon success, ImageFilePath will return filePath.  Upon failure, ImageFilePath will remain unchanged.  Supported file formats include PNG, JPEG, BMP, and GIF.  If this is the first time an image has been set to this image plane and if Width and Height were never modified, the image plane will be automatically sized based on the model’s bounding box, respecting the image’s aspect ratio. |
 | [`PropertyByAPIName`](#ImagePlane.PropertyByAPIName)             | Get a property by its API name.                                                                                                                                                                                                                                                                                                                                                                                                                                              |
-| [`CreateParameter`](#ImagePlane.CreateParameter)                 | Creates a new parameter for a Property.                                                                                                                                                                                                                                                                                                                                                                                                                                      |
-| [`GetParameter`](#ImagePlane.GetParameter)                       | Gets the parameter corresponding to the given property.                                                                                                                                                                                                                                                                                                                                                                                                                      |
+| [`PropertyByName`](#ImagePlane.PropertyByName)                   | Get a property by its unique name.                                                                                                                                                                                                                                                                                                                                                                                                                                           |
 | [`RemoveParameter`](#ImagePlane.RemoveParameter)                 | Removes the parameter from the parameter set corresponding to the given property.                                                                                                                                                                                                                                                                                                                                                                                            |
 
 ### Properties
 
 | Name | Description |
 |------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [`InternalObject`](#id0)                                         | Gets the internal object. For advanced usage only.                                                                                                              |
-| [`DataModelObjectCategory`](#ImagePlane.DataModelObjectCategory) | Gets the current DataModelObject's category.                                                                                                                    |
 | [`Children`](#ImagePlane.Children)                               | Gets the list of children.                                                                                                                                      |
 | [`Comments`](#ImagePlane.Comments)                               | Gets the list of associated comments.                                                                                                                           |
-| [`Images`](#ImagePlane.Images)                                   | Gets the list of associated images.                                                                                                                             |
-| [`ImageFilePath`](#ImagePlane.ImageFilePath)                     | Gets the file path for the rendered image.                                                                                                                      |
-| [`CoordinateSystem`](#ImagePlane.CoordinateSystem)               | Gets or sets the coordinate system object used for defining the plane's location and orientation.  This property is restricted to cartesian coordinate systems. |
-| [`CoordinateSystemVisible`](#ImagePlane.CoordinateSystemVisible) | Gets or sets whether the annotation for the image's coordinate system is rendered.                                                                              |
-| [`PixelWidth`](#ImagePlane.PixelWidth)                           | Gets the pixel width of the plane's image.                                                                                                                      |
-| [`PixelHeight`](#ImagePlane.PixelHeight)                         | Gets the pixel height of the plane's image.                                                                                                                     |
-| [`Width`](#ImagePlane.Width)                                     | Gets or sets the physical width of the image plane.                                                                                                             |
-| [`Height`](#ImagePlane.Height)                                   | Gets or sets the physical height of the image plane.                                                                                                            |
+| [`CoordinateSystem`](#ImagePlane.CoordinateSystem)               | Gets or sets the coordinate system object used for defining the plane’s location and orientation.  This property is restricted to cartesian coordinate systems. |
+| [`CoordinateSystemVisible`](#ImagePlane.CoordinateSystemVisible) | Gets or sets whether the annotation for the image’s coordinate system is rendered.                                                                              |
+| [`DataModelObjectCategory`](#ImagePlane.DataModelObjectCategory) | Gets the current DataModelObject’s category.                                                                                                                    |
 | [`FlipHorizontally`](#ImagePlane.FlipHorizontally)               | Gets or sets whether the rendered image on the plane should be flipped horizontally.                                                                            |
 | [`FlipVertically`](#ImagePlane.FlipVertically)                   | Gets or sets whether the rendered image on the plane should be flipped vertically.                                                                              |
-| [`Translucency`](#ImagePlane.Translucency)                       | Gets or sets the translucency of the plane, as a percentage ranging from 0 to 100.                                                                              |
-| [`ShowAlways`](#ImagePlane.ShowAlways)                           | Gets or sets whether the image plane will be shown independent of the active object in the tree.                                                                |
-| [`InternalObject`](#id0)                                         | Gets the internal object. For advanced usage only.                                                                                                              |
+| [`Height`](#ImagePlane.Height)                                   | Gets or sets the physical height of the image plane.                                                                                                            |
+| [`ImageFilePath`](#ImagePlane.ImageFilePath)                     | Gets the file path for the rendered image.                                                                                                                      |
+| [`Images`](#ImagePlane.Images)                                   | Gets the list of associated images.                                                                                                                             |
+| [`InternalObject`](#ImagePlane.InternalObject)                   | Gets the internal object. For advanced usage only.                                                                                                              |
+| [`PixelHeight`](#ImagePlane.PixelHeight)                         | Gets the pixel height of the plane’s image.                                                                                                                     |
+| [`PixelWidth`](#ImagePlane.PixelWidth)                           | Gets the pixel width of the plane’s image.                                                                                                                      |
 | [`Properties`](#ImagePlane.Properties)                           | Gets the list of properties for this object.                                                                                                                    |
+| [`ShowAlways`](#ImagePlane.ShowAlways)                           | Gets or sets whether the image plane will be shown independent of the active object in the tree.                                                                |
+| [`Translucency`](#ImagePlane.Translucency)                       | Gets or sets the translucency of the plane, as a percentage ranging from 0 to 100.                                                                              |
 | [`VisibleProperties`](#ImagePlane.VisibleProperties)             | Gets the list of properties that are visible for this object.                                                                                                   |
+| [`Width`](#ImagePlane.Width)                                     | Gets or sets the physical width of the image plane.                                                                                                             |
 
 <a id="property-detail"></a>
 
 ## Property detail
-
-<a id="ImagePlane.InternalObject"></a>
-
-### *property* ImagePlane.InternalObject *: Ansys.Common.Interop.DSObjectsAuto.IDSAdvancedPostOutputAuto | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets the internal object. For advanced usage only.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="ImagePlane.DataModelObjectCategory"></a>
-
-### *property* ImagePlane.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../v241/Ansys/Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets the current DataModelObject's category.
-
-<!-- !! processed by numpydoc !! -->
 
 <a id="ImagePlane.Children"></a>
 
@@ -94,27 +76,11 @@ Gets the list of associated comments.
 
 <!-- !! processed by numpydoc !! -->
 
-<a id="ImagePlane.Images"></a>
-
-### *property* ImagePlane.Images *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Image](../../../../../v241/Ansys/ACT/Automation/Mechanical/Image.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets the list of associated images.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="ImagePlane.ImageFilePath"></a>
-
-### *property* ImagePlane.ImageFilePath *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets the file path for the rendered image.
-
-<!-- !! processed by numpydoc !! -->
-
 <a id="ImagePlane.CoordinateSystem"></a>
 
 ### *property* ImagePlane.CoordinateSystem *: [Ansys.ACT.Automation.Mechanical.CoordinateSystem](../../../../../v241/Ansys/ACT/Automation/Mechanical/CoordinateSystem.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.CoordinateSystem) | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets or sets the coordinate system object used for defining the plane's location and orientation.  This property is restricted to cartesian coordinate systems.
+Gets or sets the coordinate system object used for defining the plane’s location and orientation.  This property is restricted to cartesian coordinate systems.
 
 <!-- !! processed by numpydoc !! -->
 
@@ -122,39 +88,15 @@ Gets or sets the coordinate system object used for defining the plane's location
 
 ### *property* ImagePlane.CoordinateSystemVisible *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets or sets whether the annotation for the image's coordinate system is rendered.
+Gets or sets whether the annotation for the image’s coordinate system is rendered.
 
 <!-- !! processed by numpydoc !! -->
 
-<a id="ImagePlane.PixelWidth"></a>
+<a id="ImagePlane.DataModelObjectCategory"></a>
 
-### *property* ImagePlane.PixelWidth *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ImagePlane.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets the pixel width of the plane's image.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="ImagePlane.PixelHeight"></a>
-
-### *property* ImagePlane.PixelHeight *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets the pixel height of the plane's image.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="ImagePlane.Width"></a>
-
-### *property* ImagePlane.Width *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the physical width of the image plane.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="ImagePlane.Height"></a>
-
-### *property* ImagePlane.Height *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the physical height of the image plane.
+Gets the current DataModelObject’s category.
 
 <!-- !! processed by numpydoc !! -->
 
@@ -174,27 +116,51 @@ Gets or sets whether the rendered image on the plane should be flipped verticall
 
 <!-- !! processed by numpydoc !! -->
 
-<a id="ImagePlane.Translucency"></a>
+<a id="ImagePlane.Height"></a>
 
-### *property* ImagePlane.Translucency *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ImagePlane.Height *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets or sets the translucency of the plane, as a percentage ranging from 0 to 100.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="ImagePlane.ShowAlways"></a>
-
-### *property* ImagePlane.ShowAlways *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets whether the image plane will be shown independent of the active object in the tree.
+Gets or sets the physical height of the image plane.
 
 <!-- !! processed by numpydoc !! -->
 
-<a id="id0"></a>
+<a id="ImagePlane.ImageFilePath"></a>
 
-### *property* ImagePlane.InternalObject *: System.Object | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ImagePlane.ImageFilePath *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets the file path for the rendered image.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ImagePlane.Images"></a>
+
+### *property* ImagePlane.Images *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Image](../../../../../v241/Ansys/ACT/Automation/Mechanical/Image.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets the list of associated images.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ImagePlane.InternalObject"></a>
+
+### *property* ImagePlane.InternalObject *: Ansys.Common.Interop.DSObjectsAuto.IDSAdvancedPostOutputAuto | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the internal object. For advanced usage only.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ImagePlane.PixelHeight"></a>
+
+### *property* ImagePlane.PixelHeight *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets the pixel height of the plane’s image.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ImagePlane.PixelWidth"></a>
+
+### *property* ImagePlane.PixelWidth *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets the pixel width of the plane’s image.
 
 <!-- !! processed by numpydoc !! -->
 
@@ -206,6 +172,22 @@ Gets the list of properties for this object.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="ImagePlane.ShowAlways"></a>
+
+### *property* ImagePlane.ShowAlways *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets whether the image plane will be shown independent of the active object in the tree.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ImagePlane.Translucency"></a>
+
+### *property* ImagePlane.Translucency *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the translucency of the plane, as a percentage ranging from 0 to 100.
+
+<!-- !! processed by numpydoc !! -->
+
 <a id="ImagePlane.VisibleProperties"></a>
 
 ### *property* ImagePlane.VisibleProperties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
@@ -214,31 +196,23 @@ Gets the list of properties that are visible for this object.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="ImagePlane.Width"></a>
+
+### *property* ImagePlane.Width *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the physical width of the image plane.
+
+<!-- !! processed by numpydoc !! -->
+
 <a id="method-detail"></a>
 
 ## Method detail
 
-<a id="ImagePlane.Delete"></a>
+<a id="ImagePlane.Activate"></a>
 
-### ImagePlane.Delete()
+### ImagePlane.Activate()
 
-Run the Delete action.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="ImagePlane.GetChildren"></a>
-
-### ImagePlane.GetChildren(recurses: System.Boolean, children: System.Collections.Generic.IList[ChildrenType])
-
-Gets the list of children, filtered by type.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="id1"></a>
-
-### ImagePlane.GetChildren(category: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../v241/Ansys/Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory), recurses: System.Boolean, children: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject])
-
-Gets the list of children, filtered by type.
+Activate the current object.
 
 <!-- !! processed by numpydoc !! -->
 
@@ -250,22 +224,6 @@ Creates a new child Comment.
 
 <!-- !! processed by numpydoc !! -->
 
-<a id="ImagePlane.Import"></a>
-
-### ImagePlane.Import(filePath: System.String)
-
-Sets the image which is rendered to this plane, specified by filePath.  Upon success, ImageFilePath will return filePath.  Upon failure, ImageFilePath will remain unchanged.  Supported file formats include PNG, JPEG, BMP, and GIF.  If this is the first time an image has been set to this image plane and if Width and Height were never modified, the image plane will be automatically sized based on the model's bounding box, respecting the image's aspect ratio.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="ImagePlane.Activate"></a>
-
-### ImagePlane.Activate()
-
-Activate the current object.
-
-<!-- !! processed by numpydoc !! -->
-
 <a id="ImagePlane.CopyTo"></a>
 
 ### ImagePlane.CopyTo(other: Ansys.ACT.Automation.Mechanical.DataModelObject)
@@ -274,11 +232,43 @@ Copies all visible properties from this object to another.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="ImagePlane.CreateParameter"></a>
+
+### ImagePlane.CreateParameter(propName: System.String)
+
+Creates a new parameter for a Property.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ImagePlane.Delete"></a>
+
+### ImagePlane.Delete()
+
+Run the Delete action.
+
+<!-- !! processed by numpydoc !! -->
+
 <a id="ImagePlane.Duplicate"></a>
 
 ### ImagePlane.Duplicate()
 
 Creates a copy of the current DataModelObject.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ImagePlane.GetChildren"></a>
+
+### ImagePlane.GetChildren(recurses: System.Boolean, children: System.Collections.Generic.IList[ChildrenType])
+
+Gets the list of children, filtered by type.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ImagePlane.GetParameter"></a>
+
+### ImagePlane.GetParameter(propName: System.String)
+
+Gets the parameter corresponding to the given property.
 
 <!-- !! processed by numpydoc !! -->
 
@@ -298,11 +288,11 @@ Run the GroupSimilarObjects action.
 
 <!-- !! processed by numpydoc !! -->
 
-<a id="ImagePlane.PropertyByName"></a>
+<a id="ImagePlane.Import"></a>
 
-### ImagePlane.PropertyByName(name: System.String)
+### ImagePlane.Import(filePath: System.String)
 
-Get a property by its unique name.
+Sets the image which is rendered to this plane, specified by filePath.  Upon success, ImageFilePath will return filePath.  Upon failure, ImageFilePath will remain unchanged.  Supported file formats include PNG, JPEG, BMP, and GIF.  If this is the first time an image has been set to this image plane and if Width and Height were never modified, the image plane will be automatically sized based on the model’s bounding box, respecting the image’s aspect ratio.
 
 <!-- !! processed by numpydoc !! -->
 
@@ -310,24 +300,18 @@ Get a property by its unique name.
 
 ### ImagePlane.PropertyByAPIName(name: System.String)
 
+```text
 Get a property by its API name.
 If multiple properties have the same API Name, only the first property with that name will be returned.
+```
 
 <!-- !! processed by numpydoc !! -->
 
-<a id="ImagePlane.CreateParameter"></a>
+<a id="ImagePlane.PropertyByName"></a>
 
-### ImagePlane.CreateParameter(propName: System.String)
+### ImagePlane.PropertyByName(name: System.String)
 
-Creates a new parameter for a Property.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="ImagePlane.GetParameter"></a>
-
-### ImagePlane.GetParameter(propName: System.String)
-
-Gets the parameter corresponding to the given property.
+Get a property by its unique name.
 
 <!-- !! processed by numpydoc !! -->
 

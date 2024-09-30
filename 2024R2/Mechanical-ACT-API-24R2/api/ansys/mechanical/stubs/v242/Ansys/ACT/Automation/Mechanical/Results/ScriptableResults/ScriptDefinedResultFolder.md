@@ -1,6 +1,6 @@
 # `ScriptDefinedResultFolder`
 
-
+<a id="ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Results.ScriptableResults.ScriptDefinedResultFolder"></a>
 
 #### *class* ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Results.ScriptableResults.ScriptDefinedResultFolder
 
@@ -17,59 +17,41 @@ Defines a ScriptDefinedResultFolder.
 ### Methods
 
 | Name | Description |
-|---------------------------------------------------------------------------------|-----------------------------------------------------------------------------------|
-| [`EvaluateAllResults`](#ScriptDefinedResultFolder.EvaluateAllResults)           | EvaluatesAllResults.                                                              |
-| [`AddPythonResult`](#ScriptDefinedResultFolder.AddPythonResult)                 | Creates a new PythonResult                                                        |
-| [`GetChildren`](#id1)                                                           | Gets the list of children, filtered by type.                                      |
-| [`GetChildren`](#id1)                                                           | Gets the list of children, filtered by type.                                      |
+|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------|
+| [`Activate`](#ScriptDefinedResultFolder.Activate)                               | Activate the current object.                                                      |
 | [`AddComment`](#ScriptDefinedResultFolder.AddComment)                           | Creates a new child Comment.                                                      |
 | [`AddFigure`](#ScriptDefinedResultFolder.AddFigure)                             | Creates a new child Figure.                                                       |
 | [`AddImage`](#ScriptDefinedResultFolder.AddImage)                               | Creates a new child Image.                                                        |
-| [`Activate`](#ScriptDefinedResultFolder.Activate)                               | Activate the current object.                                                      |
+| [`AddPythonResult`](#ScriptDefinedResultFolder.AddPythonResult)                 | Creates a new PythonResult                                                        |
 | [`CopyTo`](#ScriptDefinedResultFolder.CopyTo)                                   | Copies all visible properties from this object to another.                        |
+| [`CreateParameter`](#ScriptDefinedResultFolder.CreateParameter)                 | Creates a new parameter for a Property.                                           |
 | [`Duplicate`](#ScriptDefinedResultFolder.Duplicate)                             | Creates a copy of the current DataModelObject.                                    |
+| [`EvaluateAllResults`](#ScriptDefinedResultFolder.EvaluateAllResults)           | EvaluatesAllResults.                                                              |
+| [`GetChildren`](#ScriptDefinedResultFolder.GetChildren)                         | Gets the list of children, filtered by type.                                      |
+| [`GetParameter`](#ScriptDefinedResultFolder.GetParameter)                       | Gets the parameter corresponding to the given property.                           |
 | [`GroupAllSimilarChildren`](#ScriptDefinedResultFolder.GroupAllSimilarChildren) | Run the GroupAllSimilarChildren action.                                           |
 | [`GroupSimilarObjects`](#ScriptDefinedResultFolder.GroupSimilarObjects)         | Run the GroupSimilarObjects action.                                               |
-| [`PropertyByName`](#ScriptDefinedResultFolder.PropertyByName)                   | Get a property by its unique name.                                                |
 | [`PropertyByAPIName`](#ScriptDefinedResultFolder.PropertyByAPIName)             | Get a property by its API name.                                                   |
-| [`CreateParameter`](#ScriptDefinedResultFolder.CreateParameter)                 | Creates a new parameter for a Property.                                           |
-| [`GetParameter`](#ScriptDefinedResultFolder.GetParameter)                       | Gets the parameter corresponding to the given property.                           |
+| [`PropertyByName`](#ScriptDefinedResultFolder.PropertyByName)                   | Get a property by its unique name.                                                |
 | [`RemoveParameter`](#ScriptDefinedResultFolder.RemoveParameter)                 | Removes the parameter from the parameter set corresponding to the given property. |
 
 ### Properties
 
 | Name | Description |
-|---------------------------------------------------------------------------------|---------------------------------------------------------------|
-| [`InternalObject`](#id0)                                                        | Gets the internal object. For advanced usage only.            |
-| [`DataModelObjectCategory`](#ScriptDefinedResultFolder.DataModelObjectCategory) | Gets the current DataModelObject's category.                  |
+|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------|
 | [`Children`](#ScriptDefinedResultFolder.Children)                               | Gets the list of children.                                    |
 | [`Comments`](#ScriptDefinedResultFolder.Comments)                               | Gets the list of associated comments.                         |
+| [`DataModelObjectCategory`](#ScriptDefinedResultFolder.DataModelObjectCategory) | Gets the current DataModelObject’s category.                  |
 | [`Figures`](#ScriptDefinedResultFolder.Figures)                                 | Gets the list of associated figures.                          |
 | [`Images`](#ScriptDefinedResultFolder.Images)                                   | Gets the list of associated images.                           |
-| [`ReadOnly`](#ScriptDefinedResultFolder.ReadOnly)                               | Gets or sets the ReadOnly.                                    |
-| [`InternalObject`](#id0)                                                        | Gets the internal object. For advanced usage only.            |
+| [`InternalObject`](#ScriptDefinedResultFolder.InternalObject)                   | Gets the internal object. For advanced usage only.            |
 | [`Properties`](#ScriptDefinedResultFolder.Properties)                           | Gets the list of properties for this object.                  |
+| [`ReadOnly`](#ScriptDefinedResultFolder.ReadOnly)                               | Gets or sets the ReadOnly.                                    |
 | [`VisibleProperties`](#ScriptDefinedResultFolder.VisibleProperties)             | Gets the list of properties that are visible for this object. |
 
 <a id="property-detail"></a>
 
 ## Property detail
-
-<a id="ScriptDefinedResultFolder.InternalObject"></a>
-
-### *property* ScriptDefinedResultFolder.InternalObject *: Ansys.Common.Interop.DSObjectsAuto.IDSScriptResultFolderAuto | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets the internal object. For advanced usage only.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="ScriptDefinedResultFolder.DataModelObjectCategory"></a>
-
-### *property* ScriptDefinedResultFolder.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../../../v241/Ansys/Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets the current DataModelObject's category.
-
-<!-- !! processed by numpydoc !! -->
 
 <a id="ScriptDefinedResultFolder.Children"></a>
 
@@ -84,6 +66,14 @@ Gets the list of children.
 ### *property* ScriptDefinedResultFolder.Comments *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Comment](../../../../../../../v241/Ansys/ACT/Automation/Mechanical/Comment.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated comments.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ScriptDefinedResultFolder.DataModelObjectCategory"></a>
+
+### *property* ScriptDefinedResultFolder.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets the current DataModelObject’s category.
 
 <!-- !! processed by numpydoc !! -->
 
@@ -103,17 +93,9 @@ Gets the list of associated images.
 
 <!-- !! processed by numpydoc !! -->
 
-<a id="ScriptDefinedResultFolder.ReadOnly"></a>
+<a id="ScriptDefinedResultFolder.InternalObject"></a>
 
-### *property* ScriptDefinedResultFolder.ReadOnly *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the ReadOnly.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="id0"></a>
-
-### *property* ScriptDefinedResultFolder.InternalObject *: System.Object | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ScriptDefinedResultFolder.InternalObject *: Ansys.Common.Interop.DSObjectsAuto.IDSScriptResultFolderAuto | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the internal object. For advanced usage only.
 
@@ -124,6 +106,14 @@ Gets the internal object. For advanced usage only.
 ### *property* ScriptDefinedResultFolder.Properties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of properties for this object.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ScriptDefinedResultFolder.ReadOnly"></a>
+
+### *property* ScriptDefinedResultFolder.ReadOnly *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the ReadOnly.
 
 <!-- !! processed by numpydoc !! -->
 
@@ -139,35 +129,11 @@ Gets the list of properties that are visible for this object.
 
 ## Method detail
 
-<a id="ScriptDefinedResultFolder.EvaluateAllResults"></a>
+<a id="ScriptDefinedResultFolder.Activate"></a>
 
-### ScriptDefinedResultFolder.EvaluateAllResults()
+### ScriptDefinedResultFolder.Activate()
 
-EvaluatesAllResults.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="ScriptDefinedResultFolder.AddPythonResult"></a>
-
-### ScriptDefinedResultFolder.AddPythonResult()
-
-Creates a new PythonResult
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="ScriptDefinedResultFolder.GetChildren"></a>
-
-### ScriptDefinedResultFolder.GetChildren(recurses: System.Boolean, children: System.Collections.Generic.IList[ChildrenType])
-
-Gets the list of children, filtered by type.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="id1"></a>
-
-### ScriptDefinedResultFolder.GetChildren(category: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../../../v241/Ansys/Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory), recurses: System.Boolean, children: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject])
-
-Gets the list of children, filtered by type.
+Activate the current object.
 
 <!-- !! processed by numpydoc !! -->
 
@@ -191,17 +157,19 @@ Creates a new child Figure.
 
 ### ScriptDefinedResultFolder.AddImage(filePath: System.String)
 
+```text
 Creates a new child Image.
 If a filePath is provided, the image will be loaded from that file,
 if not, the image will be a screen capture of the Geometry window.
+```
 
 <!-- !! processed by numpydoc !! -->
 
-<a id="ScriptDefinedResultFolder.Activate"></a>
+<a id="ScriptDefinedResultFolder.AddPythonResult"></a>
 
-### ScriptDefinedResultFolder.Activate()
+### ScriptDefinedResultFolder.AddPythonResult()
 
-Activate the current object.
+Creates a new PythonResult
 
 <!-- !! processed by numpydoc !! -->
 
@@ -213,11 +181,43 @@ Copies all visible properties from this object to another.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="ScriptDefinedResultFolder.CreateParameter"></a>
+
+### ScriptDefinedResultFolder.CreateParameter(propName: System.String)
+
+Creates a new parameter for a Property.
+
+<!-- !! processed by numpydoc !! -->
+
 <a id="ScriptDefinedResultFolder.Duplicate"></a>
 
 ### ScriptDefinedResultFolder.Duplicate()
 
 Creates a copy of the current DataModelObject.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ScriptDefinedResultFolder.EvaluateAllResults"></a>
+
+### ScriptDefinedResultFolder.EvaluateAllResults()
+
+EvaluatesAllResults.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ScriptDefinedResultFolder.GetChildren"></a>
+
+### ScriptDefinedResultFolder.GetChildren(recurses: System.Boolean, children: System.Collections.Generic.IList[ChildrenType])
+
+Gets the list of children, filtered by type.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ScriptDefinedResultFolder.GetParameter"></a>
+
+### ScriptDefinedResultFolder.GetParameter(propName: System.String)
+
+Gets the parameter corresponding to the given property.
 
 <!-- !! processed by numpydoc !! -->
 
@@ -237,36 +237,22 @@ Run the GroupSimilarObjects action.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="ScriptDefinedResultFolder.PropertyByAPIName"></a>
+
+### ScriptDefinedResultFolder.PropertyByAPIName(name: System.String)
+
+```text
+Get a property by its API name.
+If multiple properties have the same API Name, only the first property with that name will be returned.
+```
+
+<!-- !! processed by numpydoc !! -->
+
 <a id="ScriptDefinedResultFolder.PropertyByName"></a>
 
 ### ScriptDefinedResultFolder.PropertyByName(name: System.String)
 
 Get a property by its unique name.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="ScriptDefinedResultFolder.PropertyByAPIName"></a>
-
-### ScriptDefinedResultFolder.PropertyByAPIName(name: System.String)
-
-Get a property by its API name.
-If multiple properties have the same API Name, only the first property with that name will be returned.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="ScriptDefinedResultFolder.CreateParameter"></a>
-
-### ScriptDefinedResultFolder.CreateParameter(propName: System.String)
-
-Creates a new parameter for a Property.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="ScriptDefinedResultFolder.GetParameter"></a>
-
-### ScriptDefinedResultFolder.GetParameter(propName: System.String)
-
-Gets the parameter corresponding to the given property.
 
 <!-- !! processed by numpydoc !! -->
 

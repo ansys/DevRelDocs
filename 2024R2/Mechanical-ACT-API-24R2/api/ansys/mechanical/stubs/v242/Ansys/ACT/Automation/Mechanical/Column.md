@@ -1,6 +1,6 @@
 # `Column`
 
-
+<a id="ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Column"></a>
 
 #### *class* ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Column
 
@@ -19,30 +19,30 @@ Column class.
 | Name | Description |
 |----------------------------------------------------|-------------------------------------------------------------|
 | [`Add`](#Column.Add)                               |                                                             |
-| [`Contains`](#Column.Contains)                     |                                                             |
+| [`ChangeVariableType`](#Column.ChangeVariableType) | Contains the business logic for changing the variable type. |
 | [`Clear`](#Column.Clear)                           |                                                             |
+| [`Contains`](#Column.Contains)                     |                                                             |
+| [`CopyTo`](#Column.CopyTo)                         |                                                             |
+| [`GetEnumerator`](#Column.GetEnumerator)           |                                                             |
 | [`IndexOf`](#Column.IndexOf)                       |                                                             |
 | [`Insert`](#Column.Insert)                         |                                                             |
 | [`Remove`](#Column.Remove)                         |                                                             |
 | [`RemoveAt`](#Column.RemoveAt)                     |                                                             |
-| [`CopyTo`](#Column.CopyTo)                         |                                                             |
-| [`GetEnumerator`](#Column.GetEnumerator)           |                                                             |
-| [`ChangeVariableType`](#Column.ChangeVariableType) | Contains the business logic for changing the variable type. |
 
 ### Properties
 
 | Name | Description |
 |------------------------------------------------------------|----------------------------------|
-| [`Item`](#Column.Item)                                     | Item property.                   |
-| [`IsReadOnly`](#Column.IsReadOnly)                         | IsReadOnly property.             |
-| [`IsFixedSize`](#Column.IsFixedSize)                       | IsFixedSize property.            |
-| [`SyncRoot`](#Column.SyncRoot)                             | SyncRoot property.               |
-| [`IsSynchronized`](#Column.IsSynchronized)                 | IsSynchronized property.         |
 | [`Count`](#Column.Count)                                   | Count property.                  |
 | [`DataType`](#Column.DataType)                             | DataType property.               |
+| [`IsFixedSize`](#Column.IsFixedSize)                       | IsFixedSize property.            |
 | [`IsIndependent`](#Column.IsIndependent)                   | IsIndependent property.          |
+| [`IsReadOnly`](#Column.IsReadOnly)                         | IsReadOnly property.             |
+| [`IsSynchronized`](#Column.IsSynchronized)                 | IsSynchronized property.         |
+| [`Item`](#Column.Item)                                     | Item property.                   |
 | [`Name`](#Column.Name)                                     | Name property.                   |
 | [`QuantityName`](#Column.QuantityName)                     | QuantityName property.           |
+| [`SyncRoot`](#Column.SyncRoot)                             | SyncRoot property.               |
 | [`Unit`](#Column.Unit)                                     | Unit property.                   |
 | [`Values`](#Column.Values)                                 | Values property.                 |
 | [`VariableClassification`](#Column.VariableClassification) | VariableClassification property. |
@@ -51,46 +51,6 @@ Column class.
 <a id="property-detail"></a>
 
 ## Property detail
-
-<a id="Column.Item"></a>
-
-### *property* Column.Item *: System.Object | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Item property.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="Column.IsReadOnly"></a>
-
-### *property* Column.IsReadOnly *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
-
-IsReadOnly property.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="Column.IsFixedSize"></a>
-
-### *property* Column.IsFixedSize *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
-
-IsFixedSize property.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="Column.SyncRoot"></a>
-
-### *property* Column.SyncRoot *: System.Object | [None](https://docs.python.org/3/library/constants.html#None)*
-
-SyncRoot property.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="Column.IsSynchronized"></a>
-
-### *property* Column.IsSynchronized *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
-
-IsSynchronized property.
-
-<!-- !! processed by numpydoc !! -->
 
 <a id="Column.Count"></a>
 
@@ -108,11 +68,43 @@ DataType property.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="Column.IsFixedSize"></a>
+
+### *property* Column.IsFixedSize *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+
+IsFixedSize property.
+
+<!-- !! processed by numpydoc !! -->
+
 <a id="Column.IsIndependent"></a>
 
 ### *property* Column.IsIndependent *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
 
 IsIndependent property.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="Column.IsReadOnly"></a>
+
+### *property* Column.IsReadOnly *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+
+IsReadOnly property.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="Column.IsSynchronized"></a>
+
+### *property* Column.IsSynchronized *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+
+IsSynchronized property.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="Column.Item"></a>
+
+### *property* Column.Item *: System.Object | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Item property.
 
 <!-- !! processed by numpydoc !! -->
 
@@ -129,6 +121,14 @@ Name property.
 ### *property* Column.QuantityName *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
 
 QuantityName property.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="Column.SyncRoot"></a>
+
+### *property* Column.SyncRoot *: System.Object | [None](https://docs.python.org/3/library/constants.html#None)*
+
+SyncRoot property.
 
 <!-- !! processed by numpydoc !! -->
 
@@ -150,7 +150,7 @@ Values property.
 
 <a id="Column.VariableClassification"></a>
 
-### *property* Column.VariableClassification *: [Ansys.Mechanical.DataModel.MechanicalEnums.Table.VariableClassification](../../../../../v241/Ansys/Mechanical/DataModel/MechanicalEnums/Table/VariableClassification.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.MechanicalEnums.Table.VariableClassification) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Column.VariableClassification *: [Ansys.Mechanical.DataModel.MechanicalEnums.Table.VariableClassification](../../../Mechanical/DataModel/MechanicalEnums/Table/VariableClassification.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.MechanicalEnums.Table.VariableClassification) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 VariableClassification property.
 
@@ -158,7 +158,7 @@ VariableClassification property.
 
 <a id="Column.VariableType"></a>
 
-### *property* Column.VariableType *: [Ansys.Mechanical.DataModel.MechanicalEnums.Table.VariableType](../../../../../v241/Ansys/Mechanical/DataModel/MechanicalEnums/Table/VariableType.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.MechanicalEnums.Table.VariableType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Column.VariableType *: [Ansys.Mechanical.DataModel.MechanicalEnums.Table.VariableType](../../../Mechanical/DataModel/MechanicalEnums/Table/VariableType.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.MechanicalEnums.Table.VariableType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 VariableType property.
 
@@ -172,13 +172,29 @@ VariableType property.
 
 ### Column.Add(value: System.Object)
 
-<a id="Column.Contains"></a>
+<a id="Column.ChangeVariableType"></a>
 
-### Column.Contains(value: System.Object)
+### Column.ChangeVariableType(newVariableType: [Ansys.Mechanical.DataModel.MechanicalEnums.Table.VariableType](../../../Mechanical/DataModel/MechanicalEnums/Table/VariableType.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.MechanicalEnums.Table.VariableType), newVariableClassification: [Ansys.Mechanical.DataModel.MechanicalEnums.Table.VariableClassification](../../../Mechanical/DataModel/MechanicalEnums/Table/VariableClassification.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.MechanicalEnums.Table.VariableClassification), newUnit: System.String)
+
+Contains the business logic for changing the variable type.
+
+<!-- !! processed by numpydoc !! -->
 
 <a id="Column.Clear"></a>
 
 ### Column.Clear()
+
+<a id="Column.Contains"></a>
+
+### Column.Contains(value: System.Object)
+
+<a id="Column.CopyTo"></a>
+
+### Column.CopyTo(array: System.Array, destinationStartIndex: System.Int32)
+
+<a id="Column.GetEnumerator"></a>
+
+### Column.GetEnumerator()
 
 <a id="Column.IndexOf"></a>
 
@@ -196,19 +212,4 @@ VariableType property.
 
 ### Column.RemoveAt(index: System.Int32)
 
-<a id="Column.CopyTo"></a>
-
-### Column.CopyTo(array: System.Array, destinationStartIndex: System.Int32)
-
-<a id="Column.GetEnumerator"></a>
-
-### Column.GetEnumerator()
-
-<a id="Column.ChangeVariableType"></a>
-
-### Column.ChangeVariableType(newVariableType: [Ansys.Mechanical.DataModel.MechanicalEnums.Table.VariableType](../../../../../v241/Ansys/Mechanical/DataModel/MechanicalEnums/Table/VariableType.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.MechanicalEnums.Table.VariableType), newVariableClassification: [Ansys.Mechanical.DataModel.MechanicalEnums.Table.VariableClassification](../../../../../v241/Ansys/Mechanical/DataModel/MechanicalEnums/Table/VariableClassification.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.MechanicalEnums.Table.VariableClassification), newUnit: System.String)
-
-Contains the business logic for changing the variable type.
-
-<!-- !! processed by numpydoc !! -->
 

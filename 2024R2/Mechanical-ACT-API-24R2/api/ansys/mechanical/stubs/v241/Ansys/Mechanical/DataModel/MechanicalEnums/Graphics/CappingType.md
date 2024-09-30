@@ -1,6 +1,6 @@
 # `CappingType`
 
-
+<a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.MechanicalEnums.Graphics.CappingType"></a>
 
 #### *class* ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.MechanicalEnums.Graphics.CappingType
 
@@ -17,14 +17,18 @@ Specifies the CappingType.
 ### Attributes
 
 | Name |
-| -------------------------------------------------------------------------------------------------------------------------- |
-| [`Iso`](../../../../../../v242/Ansys/Mechanical/DataModel/MechanicalEnums/Graphics/CappingType.md#CappingType.Iso) |
-| [`Top`](../../../../../../v242/Ansys/Mechanical/DataModel/MechanicalEnums/Graphics/CappingType.md#CappingType.Top) |
-| [`Bottom`](../../../../../../v242/Ansys/Mechanical/DataModel/MechanicalEnums/Graphics/CappingType.md#CappingType.Bottom) |
+| ----------------------------------- |
+| [`Bottom`](#CappingType.Bottom) |
+| [`Iso`](#CappingType.Iso) |
+| [`Top`](#CappingType.Top) |
 
 <a id="attribute-detail"></a>
 
 ## Attribute detail
+
+<a id="CappingType.Bottom"></a>
+
+### CappingType.Bottom *= 1*
 
 <a id="CappingType.Iso"></a>
 
@@ -33,9 +37,5 @@ Specifies the CappingType.
 <a id="CappingType.Top"></a>
 
 ### CappingType.Top
-
-<a id="CappingType.Bottom"></a>
-
-### CappingType.Bottom *= 1*
 
 

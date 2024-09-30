@@ -1,6 +1,6 @@
 # `ObjectTag`
 
-
+<a id="ansys.mechanical.stubs.v242.Ansys.Mechanical.Application.ObjectTag"></a>
 
 #### *class* ansys.mechanical.stubs.v242.Ansys.Mechanical.Application.ObjectTag
 
@@ -17,15 +17,15 @@ An instance of an ObjectTag.
 ### Methods
 
 | Name | Description |
-|-------------------------------------------|----------------------------------|
+|-----------------------------------------------------------------------------------------------------|----------------------------------|
 | [`AddObject`](#ObjectTag.AddObject)       | Add an object to this tag.       |
-| [`RemoveObject`](#ObjectTag.RemoveObject) | Remove an object from this tag.  |
 | [`ClearObjects`](#ObjectTag.ClearObjects) | Clear all objects from this tag. |
+| [`RemoveObject`](#ObjectTag.RemoveObject) | Remove an object from this tag.  |
 
 ### Properties
 
 | Name | Description |
-|---------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------|
+|-------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [`Name`](#ObjectTag.Name)       | The name of the tag. If the tag exists in ObjectTags, attempting to set the name to a value of another tag in that collection will lead to an exception.   |
 | [`Objects`](#ObjectTag.Objects) | The list of objects which use this tag.                                                                                                                    |
 
@@ -61,19 +61,19 @@ Add an object to this tag.
 
 <!-- !! processed by numpydoc !! -->
 
-<a id="ObjectTag.RemoveObject"></a>
-
-### ObjectTag.RemoveObject(obj: Ansys.Mechanical.DataModel.Interfaces.IDataModelObject)
-
-Remove an object from this tag.
-
-<!-- !! processed by numpydoc !! -->
-
 <a id="ObjectTag.ClearObjects"></a>
 
 ### ObjectTag.ClearObjects()
 
 Clear all objects from this tag.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ObjectTag.RemoveObject"></a>
+
+### ObjectTag.RemoveObject(obj: Ansys.Mechanical.DataModel.Interfaces.IDataModelObject)
+
+Remove an object from this tag.
 
 <!-- !! processed by numpydoc !! -->
 

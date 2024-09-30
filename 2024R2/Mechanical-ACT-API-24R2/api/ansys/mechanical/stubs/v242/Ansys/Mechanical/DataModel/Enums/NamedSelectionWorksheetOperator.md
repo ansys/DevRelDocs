@@ -1,6 +1,6 @@
 # `NamedSelectionWorksheetOperator`
 
-
+<a id="ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.NamedSelectionWorksheetOperator"></a>
 
 #### *class* ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.NamedSelectionWorksheetOperator
 

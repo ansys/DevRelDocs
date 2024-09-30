@@ -1,6 +1,6 @@
 # `FractureSIFSProbeSubType`
 
-
+<a id="ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.FractureSIFSProbeSubType"></a>
 
 #### *class* ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.FractureSIFSProbeSubType
 
@@ -17,7 +17,7 @@ Specifies the FractureSIFSProbeSubType.
 ### Attributes
 
 | Name |
-| ---------------------------------------- |
+| ------------------------------------------------------------------------------------------------------------------------ |
 | [`K1`](#FractureSIFSProbeSubType.K1) |
 | [`K2`](#FractureSIFSProbeSubType.K2) |
 | [`K3`](#FractureSIFSProbeSubType.K3) |

@@ -1,6 +1,6 @@
 # `MAPDLLayeredSectionData`
 
-
+<a id="ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.SolverData.MAPDLLayeredSectionData"></a>
 
 #### *class* ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.SolverData.MAPDLLayeredSectionData
 
@@ -17,7 +17,7 @@ MAPDLLayeredSectionData class.
 ### Properties
 
 | Name | Description |
-|-----------------------------------------------------|------------------------------------------------|
+|-----------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------|
 | [`SectionId`](#MAPDLLayeredSectionData.SectionId)   | Gets the section Id for the layered section.   |
 
 <a id="property-detail"></a>

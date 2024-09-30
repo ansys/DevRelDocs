@@ -1,6 +1,6 @@
 # `TetIntegrationType`
 
-
+<a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.TetIntegrationType"></a>
 
 #### *class* ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.TetIntegrationType
 
@@ -17,10 +17,10 @@ Specifies the TetIntegrationType.
 ### Attributes
 
 | Name |
-| ------------------------------------------------------------------------------------------------------------------------------------------------ |
-| [`AverageNodalPressure`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/TetIntegrationType.md#TetIntegrationType.AverageNodalPressure) |
-| [`NodalStrain`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/TetIntegrationType.md#TetIntegrationType.NodalStrain) |
-| [`ConstantPressure`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/TetIntegrationType.md#TetIntegrationType.ConstantPressure) |
+| ---------------------------------------------------------------------- |
+| [`AverageNodalPressure`](#TetIntegrationType.AverageNodalPressure) |
+| [`ConstantPressure`](#TetIntegrationType.ConstantPressure) |
+| [`NodalStrain`](#TetIntegrationType.NodalStrain) |
 
 <a id="attribute-detail"></a>
 
@@ -30,12 +30,12 @@ Specifies the TetIntegrationType.
 
 ### TetIntegrationType.AverageNodalPressure *= 0*
 
-<a id="TetIntegrationType.NodalStrain"></a>
-
-### TetIntegrationType.NodalStrain *= 2*
-
 <a id="TetIntegrationType.ConstantPressure"></a>
 
 ### TetIntegrationType.ConstantPressure *= 1*
+
+<a id="TetIntegrationType.NodalStrain"></a>
+
+### TetIntegrationType.NodalStrain *= 2*
 
 

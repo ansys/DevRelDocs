@@ -1,6 +1,6 @@
 # `EXDPreferenceType`
 
-
+<a id="ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.EXDPreferenceType"></a>
 
 #### *class* ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.EXDPreferenceType
 
@@ -15,45 +15,45 @@ Bases: [`enum.Enum`](https://docs.python.org/3/library/enum.html#enum.Enum)
 ### Attributes
 
 | Name |
-| --------------------------------------------------------------- |
-| [`ProgramControlled`](#EXDPreferenceType.ProgramControlled) |
-| [`LowVelocity`](#EXDPreferenceType.LowVelocity) |
-| [`HighVelocity`](#EXDPreferenceType.HighVelocity) |
-| [`Efficiency`](#EXDPreferenceType.Efficiency) |
-| [`QuasiStatic`](#EXDPreferenceType.QuasiStatic) |
-| [`DropTest`](#EXDPreferenceType.DropTest) |
+| -------------------------------------------------------------------------------------------------------------------------------------- |
 | [`Custom`](#EXDPreferenceType.Custom) |
+| [`DropTest`](#EXDPreferenceType.DropTest) |
+| [`Efficiency`](#EXDPreferenceType.Efficiency) |
+| [`HighVelocity`](#EXDPreferenceType.HighVelocity) |
+| [`LowVelocity`](#EXDPreferenceType.LowVelocity) |
+| [`ProgramControlled`](#EXDPreferenceType.ProgramControlled) |
+| [`QuasiStatic`](#EXDPreferenceType.QuasiStatic) |
 
 <a id="attribute-detail"></a>
 
 ## Attribute detail
 
-<a id="EXDPreferenceType.ProgramControlled"></a>
+<a id="EXDPreferenceType.Custom"></a>
 
-### EXDPreferenceType.ProgramControlled *= 0*
-
-<a id="EXDPreferenceType.LowVelocity"></a>
-
-### EXDPreferenceType.LowVelocity *= 1*
-
-<a id="EXDPreferenceType.HighVelocity"></a>
-
-### EXDPreferenceType.HighVelocity *= 2*
-
-<a id="EXDPreferenceType.Efficiency"></a>
-
-### EXDPreferenceType.Efficiency *= 3*
-
-<a id="EXDPreferenceType.QuasiStatic"></a>
-
-### EXDPreferenceType.QuasiStatic *= 4*
+### EXDPreferenceType.Custom *= 6*
 
 <a id="EXDPreferenceType.DropTest"></a>
 
 ### EXDPreferenceType.DropTest *= 5*
 
-<a id="EXDPreferenceType.Custom"></a>
+<a id="EXDPreferenceType.Efficiency"></a>
 
-### EXDPreferenceType.Custom *= 6*
+### EXDPreferenceType.Efficiency *= 3*
+
+<a id="EXDPreferenceType.HighVelocity"></a>
+
+### EXDPreferenceType.HighVelocity *= 2*
+
+<a id="EXDPreferenceType.LowVelocity"></a>
+
+### EXDPreferenceType.LowVelocity *= 1*
+
+<a id="EXDPreferenceType.ProgramControlled"></a>
+
+### EXDPreferenceType.ProgramControlled *= 0*
+
+<a id="EXDPreferenceType.QuasiStatic"></a>
+
+### EXDPreferenceType.QuasiStatic *= 4*
 
 

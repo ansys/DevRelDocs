@@ -1,6 +1,6 @@
 # `DSLoadAdapter`
 
-
+<a id="ansys.mechanical.stubs.v241.Ansys.ACT.Mechanical.Fields.Adapters.DSLoadAdapter"></a>
 
 #### *class* ansys.mechanical.stubs.v241.Ansys.ACT.Mechanical.Fields.Adapters.DSLoadAdapter
 
@@ -17,14 +17,14 @@ Adapter dedicated to IDSLoadAuto objects.
 ### Methods
 
 | Name | Description |
-|-------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------|
-| [`ChangeFieldDefinitionType`](../../../../../../v242/Ansys/ACT/Mechanical/Fields/Adapters/DSLoadAdapter.md#DSLoadAdapter.ChangeFieldDefinitionType)   | ChangeFieldDefinitionType method.   |
+|---------------------------------------------------------------------------|-------------------------------------|
+| [`ChangeFieldDefinitionType`](#DSLoadAdapter.ChangeFieldDefinitionType)   | ChangeFieldDefinitionType method.   |
 
 ### Properties
 
 | Name | Description |
-|-------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------|
-| [`FieldProvider`](../../../../../../v242/Ansys/ACT/Mechanical/Fields/Adapters/DSLoadAdapter.md#DSLoadAdapter.FieldProvider)   | Gets the wrapped object from Mechanical.   |
+|---------------------------------------------------|--------------------------------------------|
+| [`FieldProvider`](#DSLoadAdapter.FieldProvider)   | Gets the wrapped object from Mechanical.   |
 
 <a id="property-detail"></a>
 

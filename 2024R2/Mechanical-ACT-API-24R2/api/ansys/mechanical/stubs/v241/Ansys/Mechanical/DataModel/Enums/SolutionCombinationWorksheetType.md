@@ -1,6 +1,6 @@
 # `SolutionCombinationWorksheetType`
 
-
+<a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.SolutionCombinationWorksheetType"></a>
 
 #### *class* ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.SolutionCombinationWorksheetType
 
@@ -17,9 +17,9 @@ Specifies the SolutionCombinationWorksheetType.
 ### Attributes
 
 | Name |
-| ------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| [`NewWorksheet`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/SolutionCombinationWorksheetType.md#SolutionCombinationWorksheetType.NewWorksheet) |
-| [`OldWorksheet`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/SolutionCombinationWorksheetType.md#SolutionCombinationWorksheetType.OldWorksheet) |
+| -------------------------------------------------------------------- |
+| [`NewWorksheet`](#SolutionCombinationWorksheetType.NewWorksheet) |
+| [`OldWorksheet`](#SolutionCombinationWorksheetType.OldWorksheet) |
 
 <a id="attribute-detail"></a>
 

@@ -1,6 +1,6 @@
 # `EigenSolverType`
 
-
+<a id="ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.EigenSolverType"></a>
 
 #### *class* ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.EigenSolverType
 
@@ -17,7 +17,7 @@ Specifies the EigenSolverType.
 ### Attributes
 
 | Name |
-| --------------------------------------------------- |
+| -------------------------------------------------------------------------------------------------------------------------- |
 | [`BlockLanczos`](#EigenSolverType.BlockLanczos) |
 | [`Damped`](#EigenSolverType.Damped) |
 | [`Lanczos`](#EigenSolverType.Lanczos) |

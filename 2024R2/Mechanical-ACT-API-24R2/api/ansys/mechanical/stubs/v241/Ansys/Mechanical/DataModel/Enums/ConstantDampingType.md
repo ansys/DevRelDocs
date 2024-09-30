@@ -1,6 +1,6 @@
 # `ConstantDampingType`
 
-
+<a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.ConstantDampingType"></a>
 
 #### *class* ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.ConstantDampingType
 
@@ -17,9 +17,9 @@ Specifies the ConstantDampingType.
 ### Attributes
 
 | Name |
-| ------------------------------------------------------------------------------------------------------------------------------------------ |
-| [`Manual`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/ConstantDampingType.md#ConstantDampingType.Manual) |
-| [`ProgramControlled`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/ConstantDampingType.md#ConstantDampingType.ProgramControlled) |
+| --------------------------------------------------------------- |
+| [`Manual`](#ConstantDampingType.Manual) |
+| [`ProgramControlled`](#ConstantDampingType.ProgramControlled) |
 
 <a id="attribute-detail"></a>
 

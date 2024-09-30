@@ -1,6 +1,6 @@
 # `GeometryBasedAdaptivity`
 
-
+<a id="ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.BoundaryConditions.GeometryBasedAdaptivity"></a>
 
 #### *class* ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.BoundaryConditions.GeometryBasedAdaptivity
 
@@ -18,115 +18,65 @@ Defines a GeometryBasedAdaptivity.
 
 | Name | Description |
 |-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------|
-| [`Delete`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/BoundaryConditions/GeometryBasedAdaptivity.md#GeometryBasedAdaptivity.Delete)                                   | Run the Delete action.                                                            |
-| [`GetChildren`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/BoundaryConditions/GeometryBasedAdaptivity.md#id1)                                                         | Gets the list of children, filtered by type.                                      |
-| [`GetChildren`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/BoundaryConditions/GeometryBasedAdaptivity.md#id1)                                                         | Gets the list of children, filtered by type.                                      |
-| [`AddComment`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/BoundaryConditions/GeometryBasedAdaptivity.md#GeometryBasedAdaptivity.AddComment)                           | Creates a new child Comment.                                                      |
-| [`AddFigure`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/BoundaryConditions/GeometryBasedAdaptivity.md#GeometryBasedAdaptivity.AddFigure)                             | Creates a new child Figure.                                                       |
-| [`AddImage`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/BoundaryConditions/GeometryBasedAdaptivity.md#GeometryBasedAdaptivity.AddImage)                               | Creates a new child Image.                                                        |
-| [`Activate`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/BoundaryConditions/GeometryBasedAdaptivity.md#GeometryBasedAdaptivity.Activate)                               | Activate the current object.                                                      |
-| [`CopyTo`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/BoundaryConditions/GeometryBasedAdaptivity.md#GeometryBasedAdaptivity.CopyTo)                                   | Copies all visible properties from this object to another.                        |
-| [`Duplicate`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/BoundaryConditions/GeometryBasedAdaptivity.md#GeometryBasedAdaptivity.Duplicate)                             | Creates a copy of the current DataModelObject.                                    |
-| [`GroupAllSimilarChildren`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/BoundaryConditions/GeometryBasedAdaptivity.md#GeometryBasedAdaptivity.GroupAllSimilarChildren) | Run the GroupAllSimilarChildren action.                                           |
-| [`GroupSimilarObjects`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/BoundaryConditions/GeometryBasedAdaptivity.md#GeometryBasedAdaptivity.GroupSimilarObjects)         | Run the GroupSimilarObjects action.                                               |
-| [`PropertyByName`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/BoundaryConditions/GeometryBasedAdaptivity.md#GeometryBasedAdaptivity.PropertyByName)                   | Get a property by its unique name.                                                |
-| [`PropertyByAPIName`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/BoundaryConditions/GeometryBasedAdaptivity.md#GeometryBasedAdaptivity.PropertyByAPIName)             | Get a property by its API name.                                                   |
-| [`CreateParameter`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/BoundaryConditions/GeometryBasedAdaptivity.md#GeometryBasedAdaptivity.CreateParameter)                 | Creates a new parameter for a Property.                                           |
-| [`GetParameter`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/BoundaryConditions/GeometryBasedAdaptivity.md#GeometryBasedAdaptivity.GetParameter)                       | Gets the parameter corresponding to the given property.                           |
-| [`RemoveParameter`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/BoundaryConditions/GeometryBasedAdaptivity.md#GeometryBasedAdaptivity.RemoveParameter)                 | Removes the parameter from the parameter set corresponding to the given property. |
+| [`Activate`](#GeometryBasedAdaptivity.Activate)                               | Activate the current object.                                                      |
+| [`AddComment`](#GeometryBasedAdaptivity.AddComment)                           | Creates a new child Comment.                                                      |
+| [`AddFigure`](#GeometryBasedAdaptivity.AddFigure)                             | Creates a new child Figure.                                                       |
+| [`AddImage`](#GeometryBasedAdaptivity.AddImage)                               | Creates a new child Image.                                                        |
+| [`CopyTo`](#GeometryBasedAdaptivity.CopyTo)                                   | Copies all visible properties from this object to another.                        |
+| [`CreateParameter`](#GeometryBasedAdaptivity.CreateParameter)                 | Creates a new parameter for a Property.                                           |
+| [`Delete`](#GeometryBasedAdaptivity.Delete)                                   | Run the Delete action.                                                            |
+| [`Duplicate`](#GeometryBasedAdaptivity.Duplicate)                             | Creates a copy of the current DataModelObject.                                    |
+| [`GetChildren`](#GeometryBasedAdaptivity.GetChildren)                         | Gets the list of children, filtered by type.                                      |
+| [`GetParameter`](#GeometryBasedAdaptivity.GetParameter)                       | Gets the parameter corresponding to the given property.                           |
+| [`GroupAllSimilarChildren`](#GeometryBasedAdaptivity.GroupAllSimilarChildren) | Run the GroupAllSimilarChildren action.                                           |
+| [`GroupSimilarObjects`](#GeometryBasedAdaptivity.GroupSimilarObjects)         | Run the GroupSimilarObjects action.                                               |
+| [`PropertyByAPIName`](#GeometryBasedAdaptivity.PropertyByAPIName)             | Get a property by its API name.                                                   |
+| [`PropertyByName`](#GeometryBasedAdaptivity.PropertyByName)                   | Get a property by its unique name.                                                |
+| [`RemoveParameter`](#GeometryBasedAdaptivity.RemoveParameter)                 | Removes the parameter from the parameter set corresponding to the given property. |
 
 ### Properties
 
 | Name | Description |
 |-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------|
-| [`InternalObject`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/BoundaryConditions/GeometryBasedAdaptivity.md#id0)                                                      | Gets the internal object. For advanced usage only.            |
-| [`DataModelObjectCategory`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/BoundaryConditions/GeometryBasedAdaptivity.md#GeometryBasedAdaptivity.DataModelObjectCategory) | Gets the current DataModelObject's category.                  |
-| [`TimeRange`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/BoundaryConditions/GeometryBasedAdaptivity.md#GeometryBasedAdaptivity.TimeRange)                             | Gets or sets the TimeRange.                                   |
-| [`CheckAtValue`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/BoundaryConditions/GeometryBasedAdaptivity.md#GeometryBasedAdaptivity.CheckAtValue)                       | Gets or sets the CheckAtValue.                                |
-| [`HexDomTimeRange`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/BoundaryConditions/GeometryBasedAdaptivity.md#GeometryBasedAdaptivity.HexDomTimeRange)                 | Gets or sets the HexDomTimeRange.                             |
-| [`HexDomCheckAtValue`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/BoundaryConditions/GeometryBasedAdaptivity.md#GeometryBasedAdaptivity.HexDomCheckAtValue)           | Gets or sets the HexDomCheckAtValue.                          |
-| [`BufferElements`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/BoundaryConditions/GeometryBasedAdaptivity.md#GeometryBasedAdaptivity.BufferElements)                   | Gets or sets the BufferElements.                              |
-| [`BufferLayers`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/BoundaryConditions/GeometryBasedAdaptivity.md#GeometryBasedAdaptivity.BufferLayers)                       | Gets or sets the BufferLayers.                                |
-| [`RemeshLayerEnd`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/BoundaryConditions/GeometryBasedAdaptivity.md#GeometryBasedAdaptivity.RemeshLayerEnd)                   | Gets or sets the RemeshLayerEnd.                              |
-| [`RemeshLayerFrequency`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/BoundaryConditions/GeometryBasedAdaptivity.md#GeometryBasedAdaptivity.RemeshLayerFrequency)       | Gets or sets the RemeshLayerFrequency.                        |
-| [`RemeshLayerStart`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/BoundaryConditions/GeometryBasedAdaptivity.md#GeometryBasedAdaptivity.RemeshLayerStart)               | Gets or sets the RemeshLayerStart.                            |
-| [`EnergyCoefficient`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/BoundaryConditions/GeometryBasedAdaptivity.md#GeometryBasedAdaptivity.EnergyCoefficient)             | Gets or sets the EnergyCoefficient.                           |
-| [`JacobianRatioValue`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/BoundaryConditions/GeometryBasedAdaptivity.md#GeometryBasedAdaptivity.JacobianRatioValue)           | Gets or sets the JacobianRatioValue.                          |
-| [`SkewnessValue`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/BoundaryConditions/GeometryBasedAdaptivity.md#GeometryBasedAdaptivity.SkewnessValue)                     | Gets or sets the SkewnessValue.                               |
-| [`LengthX`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/BoundaryConditions/GeometryBasedAdaptivity.md#GeometryBasedAdaptivity.LengthX)                                 | Gets or sets the LengthX.                                     |
-| [`LengthY`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/BoundaryConditions/GeometryBasedAdaptivity.md#GeometryBasedAdaptivity.LengthY)                                 | Gets or sets the LengthY.                                     |
-| [`LengthZ`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/BoundaryConditions/GeometryBasedAdaptivity.md#GeometryBasedAdaptivity.LengthZ)                                 | Gets or sets the LengthZ.                                     |
-| [`HexDomEndTime`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/BoundaryConditions/GeometryBasedAdaptivity.md#GeometryBasedAdaptivity.HexDomEndTime)                     | Gets or sets the HexDomEndTime.                               |
-| [`HexDomStartTime`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/BoundaryConditions/GeometryBasedAdaptivity.md#GeometryBasedAdaptivity.HexDomStartTime)                 | Gets or sets the HexDomStartTime.                             |
-| [`MaximumCornerAngle`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/BoundaryConditions/GeometryBasedAdaptivity.md#GeometryBasedAdaptivity.MaximumCornerAngle)           | Gets or sets the MaximumCornerAngle.                          |
-| [`EndTime`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/BoundaryConditions/GeometryBasedAdaptivity.md#GeometryBasedAdaptivity.EndTime)                                 | Gets or sets the EndTime.                                     |
-| [`StartTime`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/BoundaryConditions/GeometryBasedAdaptivity.md#GeometryBasedAdaptivity.StartTime)                             | Gets or sets the StartTime.                                   |
-| [`Criterion`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/BoundaryConditions/GeometryBasedAdaptivity.md#GeometryBasedAdaptivity.Criterion)                             | Gets or sets the Criterion.                                   |
-| [`HexDomCheckAt`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/BoundaryConditions/GeometryBasedAdaptivity.md#GeometryBasedAdaptivity.HexDomCheckAt)                     | Gets or sets the HexDomCheckAt.                               |
-| [`Option`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/BoundaryConditions/GeometryBasedAdaptivity.md#GeometryBasedAdaptivity.Option)                                   | Gets or sets the Option.                                      |
-| [`CheckAt`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/BoundaryConditions/GeometryBasedAdaptivity.md#GeometryBasedAdaptivity.CheckAt)                                 | Gets or sets the CheckAt.                                     |
-| [`Suppressed`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/BoundaryConditions/GeometryBasedAdaptivity.md#GeometryBasedAdaptivity.Suppressed)                           | Gets or sets the Suppressed.                                  |
-| [`CoordinateSystem`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/BoundaryConditions/GeometryBasedAdaptivity.md#GeometryBasedAdaptivity.CoordinateSystem)               | Gets or sets the CoordinateSystem.                            |
-| [`Location`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/BoundaryConditions/GeometryBasedAdaptivity.md#GeometryBasedAdaptivity.Location)                               | Gets or sets the Location.                                    |
-| [`Children`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/BoundaryConditions/GeometryBasedAdaptivity.md#GeometryBasedAdaptivity.Children)                               | Gets the list of children.                                    |
-| [`Comments`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/BoundaryConditions/GeometryBasedAdaptivity.md#GeometryBasedAdaptivity.Comments)                               | Gets the list of associated comments.                         |
-| [`Figures`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/BoundaryConditions/GeometryBasedAdaptivity.md#GeometryBasedAdaptivity.Figures)                                 | Gets the list of associated figures.                          |
-| [`Images`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/BoundaryConditions/GeometryBasedAdaptivity.md#GeometryBasedAdaptivity.Images)                                   | Gets the list of associated images.                           |
-| [`InternalObject`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/BoundaryConditions/GeometryBasedAdaptivity.md#id0)                                                      | Gets the internal object. For advanced usage only.            |
-| [`Properties`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/BoundaryConditions/GeometryBasedAdaptivity.md#GeometryBasedAdaptivity.Properties)                           | Gets the list of properties for this object.                  |
-| [`VisibleProperties`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/BoundaryConditions/GeometryBasedAdaptivity.md#GeometryBasedAdaptivity.VisibleProperties)             | Gets the list of properties that are visible for this object. |
+| [`BufferElements`](#GeometryBasedAdaptivity.BufferElements)                   | Gets or sets the BufferElements.                              |
+| [`BufferLayers`](#GeometryBasedAdaptivity.BufferLayers)                       | Gets or sets the BufferLayers.                                |
+| [`CheckAt`](#GeometryBasedAdaptivity.CheckAt)                                 | Gets or sets the CheckAt.                                     |
+| [`CheckAtValue`](#GeometryBasedAdaptivity.CheckAtValue)                       | Gets or sets the CheckAtValue.                                |
+| [`Children`](#GeometryBasedAdaptivity.Children)                               | Gets the list of children.                                    |
+| [`Comments`](#GeometryBasedAdaptivity.Comments)                               | Gets the list of associated comments.                         |
+| [`CoordinateSystem`](#GeometryBasedAdaptivity.CoordinateSystem)               | Gets or sets the CoordinateSystem.                            |
+| [`Criterion`](#GeometryBasedAdaptivity.Criterion)                             | Gets or sets the Criterion.                                   |
+| [`DataModelObjectCategory`](#GeometryBasedAdaptivity.DataModelObjectCategory) | Gets the current DataModelObject’s category.                  |
+| [`EndTime`](#GeometryBasedAdaptivity.EndTime)                                 | Gets or sets the EndTime.                                     |
+| [`EnergyCoefficient`](#GeometryBasedAdaptivity.EnergyCoefficient)             | Gets or sets the EnergyCoefficient.                           |
+| [`Figures`](#GeometryBasedAdaptivity.Figures)                                 | Gets the list of associated figures.                          |
+| [`HexDomCheckAt`](#GeometryBasedAdaptivity.HexDomCheckAt)                     | Gets or sets the HexDomCheckAt.                               |
+| [`HexDomCheckAtValue`](#GeometryBasedAdaptivity.HexDomCheckAtValue)           | Gets or sets the HexDomCheckAtValue.                          |
+| [`HexDomEndTime`](#GeometryBasedAdaptivity.HexDomEndTime)                     | Gets or sets the HexDomEndTime.                               |
+| [`HexDomStartTime`](#GeometryBasedAdaptivity.HexDomStartTime)                 | Gets or sets the HexDomStartTime.                             |
+| [`HexDomTimeRange`](#GeometryBasedAdaptivity.HexDomTimeRange)                 | Gets or sets the HexDomTimeRange.                             |
+| [`Images`](#GeometryBasedAdaptivity.Images)                                   | Gets the list of associated images.                           |
+| [`InternalObject`](#GeometryBasedAdaptivity.InternalObject)                   | Gets the internal object. For advanced usage only.            |
+| [`JacobianRatioValue`](#GeometryBasedAdaptivity.JacobianRatioValue)           | Gets or sets the JacobianRatioValue.                          |
+| [`LengthX`](#GeometryBasedAdaptivity.LengthX)                                 | Gets or sets the LengthX.                                     |
+| [`LengthY`](#GeometryBasedAdaptivity.LengthY)                                 | Gets or sets the LengthY.                                     |
+| [`LengthZ`](#GeometryBasedAdaptivity.LengthZ)                                 | Gets or sets the LengthZ.                                     |
+| [`Location`](#GeometryBasedAdaptivity.Location)                               | Gets or sets the Location.                                    |
+| [`MaximumCornerAngle`](#GeometryBasedAdaptivity.MaximumCornerAngle)           | Gets or sets the MaximumCornerAngle.                          |
+| [`Option`](#GeometryBasedAdaptivity.Option)                                   | Gets or sets the Option.                                      |
+| [`Properties`](#GeometryBasedAdaptivity.Properties)                           | Gets the list of properties for this object.                  |
+| [`RemeshLayerEnd`](#GeometryBasedAdaptivity.RemeshLayerEnd)                   | Gets or sets the RemeshLayerEnd.                              |
+| [`RemeshLayerFrequency`](#GeometryBasedAdaptivity.RemeshLayerFrequency)       | Gets or sets the RemeshLayerFrequency.                        |
+| [`RemeshLayerStart`](#GeometryBasedAdaptivity.RemeshLayerStart)               | Gets or sets the RemeshLayerStart.                            |
+| [`SkewnessValue`](#GeometryBasedAdaptivity.SkewnessValue)                     | Gets or sets the SkewnessValue.                               |
+| [`StartTime`](#GeometryBasedAdaptivity.StartTime)                             | Gets or sets the StartTime.                                   |
+| [`Suppressed`](#GeometryBasedAdaptivity.Suppressed)                           | Gets or sets the Suppressed.                                  |
+| [`TimeRange`](#GeometryBasedAdaptivity.TimeRange)                             | Gets or sets the TimeRange.                                   |
+| [`VisibleProperties`](#GeometryBasedAdaptivity.VisibleProperties)             | Gets the list of properties that are visible for this object. |
 
 <a id="property-detail"></a>
 
 ## Property detail
-
-<a id="GeometryBasedAdaptivity.InternalObject"></a>
-
-### *property* GeometryBasedAdaptivity.InternalObject *: Ansys.Common.Interop.DSObjectsAuto.IDSNonlinearAdaptivityAuto | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets the internal object. For advanced usage only.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="GeometryBasedAdaptivity.DataModelObjectCategory"></a>
-
-### *property* GeometryBasedAdaptivity.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets the current DataModelObject's category.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="GeometryBasedAdaptivity.TimeRange"></a>
-
-### *property* GeometryBasedAdaptivity.TimeRange *: [Ansys.Mechanical.DataModel.Enums.NonlinearAdaptivityTimeRange](../../../../Mechanical/DataModel/Enums/NonlinearAdaptivityTimeRange.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.NonlinearAdaptivityTimeRange) | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the TimeRange.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="GeometryBasedAdaptivity.CheckAtValue"></a>
-
-### *property* GeometryBasedAdaptivity.CheckAtValue *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the CheckAtValue.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="GeometryBasedAdaptivity.HexDomTimeRange"></a>
-
-### *property* GeometryBasedAdaptivity.HexDomTimeRange *: [Ansys.Mechanical.DataModel.Enums.NonlinearAdaptivityTimeRange](../../../../Mechanical/DataModel/Enums/NonlinearAdaptivityTimeRange.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.NonlinearAdaptivityTimeRange) | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the HexDomTimeRange.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="GeometryBasedAdaptivity.HexDomCheckAtValue"></a>
-
-### *property* GeometryBasedAdaptivity.HexDomCheckAtValue *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the HexDomCheckAtValue.
-
-<!-- !! processed by numpydoc !! -->
 
 <a id="GeometryBasedAdaptivity.BufferElements"></a>
 
@@ -144,27 +94,67 @@ Gets or sets the BufferLayers.
 
 <!-- !! processed by numpydoc !! -->
 
-<a id="GeometryBasedAdaptivity.RemeshLayerEnd"></a>
+<a id="GeometryBasedAdaptivity.CheckAt"></a>
 
-### *property* GeometryBasedAdaptivity.RemeshLayerEnd *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* GeometryBasedAdaptivity.CheckAt *: [Ansys.Mechanical.DataModel.Enums.NonlinearAdaptivityUpdateType](../../../../../../v242/Ansys/Mechanical/DataModel/Enums/NonlinearAdaptivityUpdateType.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.NonlinearAdaptivityUpdateType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets or sets the RemeshLayerEnd.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="GeometryBasedAdaptivity.RemeshLayerFrequency"></a>
-
-### *property* GeometryBasedAdaptivity.RemeshLayerFrequency *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the RemeshLayerFrequency.
+Gets or sets the CheckAt.
 
 <!-- !! processed by numpydoc !! -->
 
-<a id="GeometryBasedAdaptivity.RemeshLayerStart"></a>
+<a id="GeometryBasedAdaptivity.CheckAtValue"></a>
 
-### *property* GeometryBasedAdaptivity.RemeshLayerStart *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* GeometryBasedAdaptivity.CheckAtValue *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets or sets the RemeshLayerStart.
+Gets or sets the CheckAtValue.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="GeometryBasedAdaptivity.Children"></a>
+
+### *property* GeometryBasedAdaptivity.Children *: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets the list of children.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="GeometryBasedAdaptivity.Comments"></a>
+
+### *property* GeometryBasedAdaptivity.Comments *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Comment](../Comment.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets the list of associated comments.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="GeometryBasedAdaptivity.CoordinateSystem"></a>
+
+### *property* GeometryBasedAdaptivity.CoordinateSystem *: [Ansys.ACT.Automation.Mechanical.CoordinateSystem](../CoordinateSystem.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.CoordinateSystem) | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the CoordinateSystem.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="GeometryBasedAdaptivity.Criterion"></a>
+
+### *property* GeometryBasedAdaptivity.Criterion *: [Ansys.Mechanical.DataModel.Enums.NonlinearAdaptivityCriterionType](../../../../../../v242/Ansys/Mechanical/DataModel/Enums/NonlinearAdaptivityCriterionType.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.NonlinearAdaptivityCriterionType) | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the Criterion.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="GeometryBasedAdaptivity.DataModelObjectCategory"></a>
+
+### *property* GeometryBasedAdaptivity.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../../v242/Ansys/Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets the current DataModelObject’s category.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="GeometryBasedAdaptivity.EndTime"></a>
+
+### *property* GeometryBasedAdaptivity.EndTime *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the EndTime.
 
 <!-- !! processed by numpydoc !! -->
 
@@ -176,19 +166,75 @@ Gets or sets the EnergyCoefficient.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="GeometryBasedAdaptivity.Figures"></a>
+
+### *property* GeometryBasedAdaptivity.Figures *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Figure](../Figure.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets the list of associated figures.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="GeometryBasedAdaptivity.HexDomCheckAt"></a>
+
+### *property* GeometryBasedAdaptivity.HexDomCheckAt *: [Ansys.Mechanical.DataModel.Enums.NonlinearAdaptivityUpdateType](../../../../../../v242/Ansys/Mechanical/DataModel/Enums/NonlinearAdaptivityUpdateType.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.NonlinearAdaptivityUpdateType) | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the HexDomCheckAt.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="GeometryBasedAdaptivity.HexDomCheckAtValue"></a>
+
+### *property* GeometryBasedAdaptivity.HexDomCheckAtValue *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the HexDomCheckAtValue.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="GeometryBasedAdaptivity.HexDomEndTime"></a>
+
+### *property* GeometryBasedAdaptivity.HexDomEndTime *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the HexDomEndTime.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="GeometryBasedAdaptivity.HexDomStartTime"></a>
+
+### *property* GeometryBasedAdaptivity.HexDomStartTime *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the HexDomStartTime.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="GeometryBasedAdaptivity.HexDomTimeRange"></a>
+
+### *property* GeometryBasedAdaptivity.HexDomTimeRange *: [Ansys.Mechanical.DataModel.Enums.NonlinearAdaptivityTimeRange](../../../../../../v242/Ansys/Mechanical/DataModel/Enums/NonlinearAdaptivityTimeRange.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.NonlinearAdaptivityTimeRange) | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the HexDomTimeRange.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="GeometryBasedAdaptivity.Images"></a>
+
+### *property* GeometryBasedAdaptivity.Images *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Image](../Image.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets the list of associated images.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="GeometryBasedAdaptivity.InternalObject"></a>
+
+### *property* GeometryBasedAdaptivity.InternalObject *: Ansys.Common.Interop.DSObjectsAuto.IDSNonlinearAdaptivityAuto | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets the internal object. For advanced usage only.
+
+<!-- !! processed by numpydoc !! -->
+
 <a id="GeometryBasedAdaptivity.JacobianRatioValue"></a>
 
 ### *property* GeometryBasedAdaptivity.JacobianRatioValue *: System.Double | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the JacobianRatioValue.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="GeometryBasedAdaptivity.SkewnessValue"></a>
-
-### *property* GeometryBasedAdaptivity.SkewnessValue *: System.Double | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the SkewnessValue.
 
 <!-- !! processed by numpydoc !! -->
 
@@ -216,19 +262,11 @@ Gets or sets the LengthZ.
 
 <!-- !! processed by numpydoc !! -->
 
-<a id="GeometryBasedAdaptivity.HexDomEndTime"></a>
+<a id="GeometryBasedAdaptivity.Location"></a>
 
-### *property* GeometryBasedAdaptivity.HexDomEndTime *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* GeometryBasedAdaptivity.Location *: Ansys.ACT.Interfaces.Common.ISelectionInfo | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets or sets the HexDomEndTime.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="GeometryBasedAdaptivity.HexDomStartTime"></a>
-
-### *property* GeometryBasedAdaptivity.HexDomStartTime *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the HexDomStartTime.
+Gets or sets the Location.
 
 <!-- !! processed by numpydoc !! -->
 
@@ -240,11 +278,51 @@ Gets or sets the MaximumCornerAngle.
 
 <!-- !! processed by numpydoc !! -->
 
-<a id="GeometryBasedAdaptivity.EndTime"></a>
+<a id="GeometryBasedAdaptivity.Option"></a>
 
-### *property* GeometryBasedAdaptivity.EndTime *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* GeometryBasedAdaptivity.Option *: [Ansys.Mechanical.DataModel.Enums.NonlinearAdaptivityOptionType](../../../../../../v242/Ansys/Mechanical/DataModel/Enums/NonlinearAdaptivityOptionType.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.NonlinearAdaptivityOptionType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets or sets the EndTime.
+Gets or sets the Option.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="GeometryBasedAdaptivity.Properties"></a>
+
+### *property* GeometryBasedAdaptivity.Properties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets the list of properties for this object.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="GeometryBasedAdaptivity.RemeshLayerEnd"></a>
+
+### *property* GeometryBasedAdaptivity.RemeshLayerEnd *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the RemeshLayerEnd.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="GeometryBasedAdaptivity.RemeshLayerFrequency"></a>
+
+### *property* GeometryBasedAdaptivity.RemeshLayerFrequency *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the RemeshLayerFrequency.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="GeometryBasedAdaptivity.RemeshLayerStart"></a>
+
+### *property* GeometryBasedAdaptivity.RemeshLayerStart *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the RemeshLayerStart.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="GeometryBasedAdaptivity.SkewnessValue"></a>
+
+### *property* GeometryBasedAdaptivity.SkewnessValue *: System.Double | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the SkewnessValue.
 
 <!-- !! processed by numpydoc !! -->
 
@@ -256,38 +334,6 @@ Gets or sets the StartTime.
 
 <!-- !! processed by numpydoc !! -->
 
-<a id="GeometryBasedAdaptivity.Criterion"></a>
-
-### *property* GeometryBasedAdaptivity.Criterion *: [Ansys.Mechanical.DataModel.Enums.NonlinearAdaptivityCriterionType](../../../../Mechanical/DataModel/Enums/NonlinearAdaptivityCriterionType.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.NonlinearAdaptivityCriterionType) | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the Criterion.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="GeometryBasedAdaptivity.HexDomCheckAt"></a>
-
-### *property* GeometryBasedAdaptivity.HexDomCheckAt *: [Ansys.Mechanical.DataModel.Enums.NonlinearAdaptivityUpdateType](../../../../Mechanical/DataModel/Enums/NonlinearAdaptivityUpdateType.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.NonlinearAdaptivityUpdateType) | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the HexDomCheckAt.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="GeometryBasedAdaptivity.Option"></a>
-
-### *property* GeometryBasedAdaptivity.Option *: [Ansys.Mechanical.DataModel.Enums.NonlinearAdaptivityOptionType](../../../../Mechanical/DataModel/Enums/NonlinearAdaptivityOptionType.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.NonlinearAdaptivityOptionType) | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the Option.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="GeometryBasedAdaptivity.CheckAt"></a>
-
-### *property* GeometryBasedAdaptivity.CheckAt *: [Ansys.Mechanical.DataModel.Enums.NonlinearAdaptivityUpdateType](../../../../Mechanical/DataModel/Enums/NonlinearAdaptivityUpdateType.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.NonlinearAdaptivityUpdateType) | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the CheckAt.
-
-<!-- !! processed by numpydoc !! -->
-
 <a id="GeometryBasedAdaptivity.Suppressed"></a>
 
 ### *property* GeometryBasedAdaptivity.Suppressed *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
@@ -296,67 +342,11 @@ Gets or sets the Suppressed.
 
 <!-- !! processed by numpydoc !! -->
 
-<a id="GeometryBasedAdaptivity.CoordinateSystem"></a>
+<a id="GeometryBasedAdaptivity.TimeRange"></a>
 
-### *property* GeometryBasedAdaptivity.CoordinateSystem *: [Ansys.ACT.Automation.Mechanical.CoordinateSystem](../CoordinateSystem.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.CoordinateSystem) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* GeometryBasedAdaptivity.TimeRange *: [Ansys.Mechanical.DataModel.Enums.NonlinearAdaptivityTimeRange](../../../../../../v242/Ansys/Mechanical/DataModel/Enums/NonlinearAdaptivityTimeRange.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.NonlinearAdaptivityTimeRange) | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets or sets the CoordinateSystem.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="GeometryBasedAdaptivity.Location"></a>
-
-### *property* GeometryBasedAdaptivity.Location *: Ansys.ACT.Interfaces.Common.ISelectionInfo | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the Location.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="GeometryBasedAdaptivity.Children"></a>
-
-### *property* GeometryBasedAdaptivity.Children *: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets the list of children.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="GeometryBasedAdaptivity.Comments"></a>
-
-### *property* GeometryBasedAdaptivity.Comments *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Comment](../Comment.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets the list of associated comments.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="GeometryBasedAdaptivity.Figures"></a>
-
-### *property* GeometryBasedAdaptivity.Figures *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Figure](../Figure.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets the list of associated figures.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="GeometryBasedAdaptivity.Images"></a>
-
-### *property* GeometryBasedAdaptivity.Images *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Image](../Image.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets the list of associated images.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="id0"></a>
-
-### *property* GeometryBasedAdaptivity.InternalObject *: System.Object | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets the internal object. For advanced usage only.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="GeometryBasedAdaptivity.Properties"></a>
-
-### *property* GeometryBasedAdaptivity.Properties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets the list of properties for this object.
+Gets or sets the TimeRange.
 
 <!-- !! processed by numpydoc !! -->
 
@@ -372,27 +362,11 @@ Gets the list of properties that are visible for this object.
 
 ## Method detail
 
-<a id="GeometryBasedAdaptivity.Delete"></a>
+<a id="GeometryBasedAdaptivity.Activate"></a>
 
-### GeometryBasedAdaptivity.Delete()
+### GeometryBasedAdaptivity.Activate()
 
-Run the Delete action.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="GeometryBasedAdaptivity.GetChildren"></a>
-
-### GeometryBasedAdaptivity.GetChildren(recurses: System.Boolean, children: System.Collections.Generic.IList[ChildrenType])
-
-Gets the list of children, filtered by type.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="id1"></a>
-
-### GeometryBasedAdaptivity.GetChildren(category: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory), recurses: System.Boolean, children: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject])
-
-Gets the list of children, filtered by type.
+Activate the current object.
 
 <!-- !! processed by numpydoc !! -->
 
@@ -416,17 +390,11 @@ Creates a new child Figure.
 
 ### GeometryBasedAdaptivity.AddImage(filePath: System.String)
 
+```text
 Creates a new child Image.
 If a filePath is provided, the image will be loaded from that file,
 if not, the image will be a screen capture of the Geometry window.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="GeometryBasedAdaptivity.Activate"></a>
-
-### GeometryBasedAdaptivity.Activate()
-
-Activate the current object.
+```
 
 <!-- !! processed by numpydoc !! -->
 
@@ -438,11 +406,43 @@ Copies all visible properties from this object to another.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="GeometryBasedAdaptivity.CreateParameter"></a>
+
+### GeometryBasedAdaptivity.CreateParameter(propName: System.String)
+
+Creates a new parameter for a Property.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="GeometryBasedAdaptivity.Delete"></a>
+
+### GeometryBasedAdaptivity.Delete()
+
+Run the Delete action.
+
+<!-- !! processed by numpydoc !! -->
+
 <a id="GeometryBasedAdaptivity.Duplicate"></a>
 
 ### GeometryBasedAdaptivity.Duplicate()
 
 Creates a copy of the current DataModelObject.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="GeometryBasedAdaptivity.GetChildren"></a>
+
+### GeometryBasedAdaptivity.GetChildren(recurses: System.Boolean, children: System.Collections.Generic.IList[ChildrenType])
+
+Gets the list of children, filtered by type.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="GeometryBasedAdaptivity.GetParameter"></a>
+
+### GeometryBasedAdaptivity.GetParameter(propName: System.String)
+
+Gets the parameter corresponding to the given property.
 
 <!-- !! processed by numpydoc !! -->
 
@@ -462,36 +462,22 @@ Run the GroupSimilarObjects action.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="GeometryBasedAdaptivity.PropertyByAPIName"></a>
+
+### GeometryBasedAdaptivity.PropertyByAPIName(name: System.String)
+
+```text
+Get a property by its API name.
+If multiple properties have the same API Name, only the first property with that name will be returned.
+```
+
+<!-- !! processed by numpydoc !! -->
+
 <a id="GeometryBasedAdaptivity.PropertyByName"></a>
 
 ### GeometryBasedAdaptivity.PropertyByName(name: System.String)
 
 Get a property by its unique name.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="GeometryBasedAdaptivity.PropertyByAPIName"></a>
-
-### GeometryBasedAdaptivity.PropertyByAPIName(name: System.String)
-
-Get a property by its API name.
-If multiple properties have the same API Name, only the first property with that name will be returned.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="GeometryBasedAdaptivity.CreateParameter"></a>
-
-### GeometryBasedAdaptivity.CreateParameter(propName: System.String)
-
-Creates a new parameter for a Property.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="GeometryBasedAdaptivity.GetParameter"></a>
-
-### GeometryBasedAdaptivity.GetParameter(propName: System.String)
-
-Gets the parameter corresponding to the given property.
 
 <!-- !! processed by numpydoc !! -->
 

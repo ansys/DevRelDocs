@@ -1,6 +1,6 @@
 # `MAPDLBeamData`
 
-
+<a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.SolverData.MAPDLBeamData"></a>
 
 #### *class* ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.SolverData.MAPDLBeamData
 
@@ -17,28 +17,28 @@ MAPDLBeamData class.
 ### Properties
 
 | Name | Description |
-|-----------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------|
-| [`MaterialId`](../../../../../v242/Ansys/Mechanical/DataModel/SolverData/MAPDLBeamData.md#MAPDLBeamData.MaterialId)         | Gets the Material Id number for the beam connection.   |
-| [`ElementId`](../../../../../v242/Ansys/Mechanical/DataModel/SolverData/MAPDLBeamData.md#MAPDLBeamData.ElementId)           | Gets the Element number for the object.                |
-| [`RealConstantId`](../../../../../v242/Ansys/Mechanical/DataModel/SolverData/MAPDLBeamData.md#MAPDLBeamData.RealConstantId) | Gets the Real Constant Id number for the object.       |
+|---------------------------------------------------|------------------------------------------------------|
+| [`ElementId`](#MAPDLBeamData.ElementId)           | Gets the Element number for the object.              |
+| [`MaterialId`](#MAPDLBeamData.MaterialId)         | Gets the Material Id number for the beam connection. |
+| [`RealConstantId`](#MAPDLBeamData.RealConstantId) | Gets the Real Constant Id number for the object.     |
 
 <a id="property-detail"></a>
 
 ## Property detail
-
-<a id="MAPDLBeamData.MaterialId"></a>
-
-### *property* MAPDLBeamData.MaterialId *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets the Material Id number for the beam connection.
-
-<!-- !! processed by numpydoc !! -->
 
 <a id="MAPDLBeamData.ElementId"></a>
 
 ### *property* MAPDLBeamData.ElementId *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the Element number for the object.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="MAPDLBeamData.MaterialId"></a>
+
+### *property* MAPDLBeamData.MaterialId *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets the Material Id number for the beam connection.
 
 <!-- !! processed by numpydoc !! -->
 

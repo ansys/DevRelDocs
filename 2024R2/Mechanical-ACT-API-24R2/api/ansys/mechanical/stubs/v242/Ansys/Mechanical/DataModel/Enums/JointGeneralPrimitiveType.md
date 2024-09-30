@@ -1,6 +1,6 @@
 # `JointGeneralPrimitiveType`
 
-
+<a id="ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.JointGeneralPrimitiveType"></a>
 
 #### *class* ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.JointGeneralPrimitiveType
 
@@ -17,7 +17,7 @@ Specifies the JointGeneralPrimitiveType.
 ### Attributes
 
 | Name |
-| --------------------------------------------------------- |
+| ------------------------------------------------------------------------------------------------------------------------------------------ |
 | [`InLine`](#JointGeneralPrimitiveType.InLine) |
 | [`InPlane`](#JointGeneralPrimitiveType.InPlane) |
 | [`None_`](#JointGeneralPrimitiveType.None_) |

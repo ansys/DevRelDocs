@@ -1,12 +1,13 @@
 # `VariableType`
 
-
+<a id="ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.MechanicalEnums.Table.VariableType"></a>
 
 #### *class* ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.MechanicalEnums.Table.VariableType
 
 Bases: [`enum.Enum`](https://docs.python.org/3/library/enum.html#enum.Enum)
 
 An enumeration of the different variable types supported by the tabular data
+T:Ansys.Mechanical.Interfaces.IDataSeries implementation “Ansys.ACT.Automation.Mechanical.Table.Column”.
 
 <!-- !! processed by numpydoc !! -->
 
@@ -17,10 +18,10 @@ An enumeration of the different variable types supported by the tabular data
 ### Attributes
 
 | Name |
-| -------------------------------------------------------------------- |
+| ------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| [`HeatTransferCoefficient`](#VariableType.HeatTransferCoefficient) |
 | [`ID`](#VariableType.ID) |
 | [`Pressure`](#VariableType.Pressure) |
-| [`HeatTransferCoefficient`](#VariableType.HeatTransferCoefficient) |
 | [`Temperature`](#VariableType.Temperature) |
 | [`ThetaCoordinate`](#VariableType.ThetaCoordinate) |
 | [`Time`](#VariableType.Time) |
@@ -32,6 +33,10 @@ An enumeration of the different variable types supported by the tabular data
 
 ## Attribute detail
 
+<a id="VariableType.HeatTransferCoefficient"></a>
+
+### VariableType.HeatTransferCoefficient *= 5*
+
 <a id="VariableType.ID"></a>
 
 ### VariableType.ID *= 3*
@@ -39,10 +44,6 @@ An enumeration of the different variable types supported by the tabular data
 <a id="VariableType.Pressure"></a>
 
 ### VariableType.Pressure *= 4*
-
-<a id="VariableType.HeatTransferCoefficient"></a>
-
-### VariableType.HeatTransferCoefficient *= 5*
 
 <a id="VariableType.Temperature"></a>
 
