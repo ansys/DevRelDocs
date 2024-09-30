@@ -1,6 +1,6 @@
 # `AcousticTemperature`
 
-
+<a id="ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.BoundaryConditions.AcousticTemperature"></a>
 
 #### *class* ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.BoundaryConditions.AcousticTemperature
 
@@ -18,60 +18,122 @@ Defines a AcousticTemperature.
 
 | Name | Description |
 |-----------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------|
-| [`GetActivateAtLoadStep`](#AcousticTemperature.GetActivateAtLoadStep)                   | GetActivateAtLoadStep method.                                                     |
-| [`SetActivateAtLoadStep`](#AcousticTemperature.SetActivateAtLoadStep)                   | SetActivateAtLoadStep method.                                                     |
-| [`GetComponentActivateAtLoadStep`](#AcousticTemperature.GetComponentActivateAtLoadStep) | GetComponentActivateAtLoadStep method.                                            |
-| [`SetComponentActivateAtLoadStep`](#AcousticTemperature.SetComponentActivateAtLoadStep) | SetComponentActivateAtLoadStep method.                                            |
-| [`PromoteToNamedSelection`](#AcousticTemperature.PromoteToNamedSelection)               | Run the PromoteToNamedSelection action.                                           |
-| [`Delete`](#AcousticTemperature.Delete)                                                 | Run the Delete action.                                                            |
-| [`GetChildren`](#id1)                                                                   | Gets the list of children, filtered by type.                                      |
-| [`GetChildren`](#id1)                                                                   | Gets the list of children, filtered by type.                                      |
+| [`Activate`](#AcousticTemperature.Activate)                                             | Activate the current object.                                                      |
 | [`AddComment`](#AcousticTemperature.AddComment)                                         | Creates a new child Comment.                                                      |
 | [`AddFigure`](#AcousticTemperature.AddFigure)                                           | Creates a new child Figure.                                                       |
 | [`AddImage`](#AcousticTemperature.AddImage)                                             | Creates a new child Image.                                                        |
-| [`Activate`](#AcousticTemperature.Activate)                                             | Activate the current object.                                                      |
 | [`CopyTo`](#AcousticTemperature.CopyTo)                                                 | Copies all visible properties from this object to another.                        |
+| [`CreateParameter`](#AcousticTemperature.CreateParameter)                               | Creates a new parameter for a Property.                                           |
+| [`Delete`](#AcousticTemperature.Delete)                                                 | Run the Delete action.                                                            |
 | [`Duplicate`](#AcousticTemperature.Duplicate)                                           | Creates a copy of the current DataModelObject.                                    |
+| [`GetActivateAtLoadStep`](#AcousticTemperature.GetActivateAtLoadStep)                   | GetActivateAtLoadStep method.                                                     |
+| [`GetChildren`](#AcousticTemperature.GetChildren)                                       | Gets the list of children, filtered by type.                                      |
+| [`GetComponentActivateAtLoadStep`](#AcousticTemperature.GetComponentActivateAtLoadStep) | GetComponentActivateAtLoadStep method.                                            |
+| [`GetParameter`](#AcousticTemperature.GetParameter)                                     | Gets the parameter corresponding to the given property.                           |
 | [`GroupAllSimilarChildren`](#AcousticTemperature.GroupAllSimilarChildren)               | Run the GroupAllSimilarChildren action.                                           |
 | [`GroupSimilarObjects`](#AcousticTemperature.GroupSimilarObjects)                       | Run the GroupSimilarObjects action.                                               |
-| [`PropertyByName`](#AcousticTemperature.PropertyByName)                                 | Get a property by its unique name.                                                |
+| [`PromoteToNamedSelection`](#AcousticTemperature.PromoteToNamedSelection)               | Run the PromoteToNamedSelection action.                                           |
 | [`PropertyByAPIName`](#AcousticTemperature.PropertyByAPIName)                           | Get a property by its API name.                                                   |
-| [`CreateParameter`](#AcousticTemperature.CreateParameter)                               | Creates a new parameter for a Property.                                           |
-| [`GetParameter`](#AcousticTemperature.GetParameter)                                     | Gets the parameter corresponding to the given property.                           |
+| [`PropertyByName`](#AcousticTemperature.PropertyByName)                                 | Get a property by its unique name.                                                |
 | [`RemoveParameter`](#AcousticTemperature.RemoveParameter)                               | Removes the parameter from the parameter set corresponding to the given property. |
+| [`SetActivateAtLoadStep`](#AcousticTemperature.SetActivateAtLoadStep)                   | SetActivateAtLoadStep method.                                                     |
+| [`SetComponentActivateAtLoadStep`](#AcousticTemperature.SetComponentActivateAtLoadStep) | SetComponentActivateAtLoadStep method.                                            |
 
 ### Properties
 
 | Name | Description |
 |-----------------------------------------------------------------------------------|---------------------------------------------------------------|
-| [`InternalObject`](#id0)                                                          | Gets the internal object. For advanced usage only.            |
-| [`DataModelObjectCategory`](#AcousticTemperature.DataModelObjectCategory)         | Gets the current DataModelObject's category.                  |
-| [`Magnitude`](#AcousticTemperature.Magnitude)                                     | Gets or sets the Magnitude.                                   |
-| [`NumberOfSegments`](#AcousticTemperature.NumberOfSegments)                       | Gets or sets the NumberOfSegments.                            |
-| [`LoadVectorNumber`](#AcousticTemperature.LoadVectorNumber)                       | Gets or sets the LoadVectorNumber.                            |
-| [`RangeMaximum`](#AcousticTemperature.RangeMaximum)                               | Gets or sets the RangeMaximum.                                |
-| [`RangeMinimum`](#AcousticTemperature.RangeMinimum)                               | Gets or sets the RangeMinimum.                                |
-| [`DefineBy`](#AcousticTemperature.DefineBy)                                       | Gets the DefineBy.                                            |
-| [`GraphControlsXAxis`](#AcousticTemperature.GraphControlsXAxis)                   | Gets or sets the GraphControlsXAxis.                          |
-| [`LoadVectorAssignment`](#AcousticTemperature.LoadVectorAssignment)               | Gets or sets the LoadVectorAssignment.                        |
-| [`ShellFace`](#AcousticTemperature.ShellFace)                                     | Gets or sets the ShellFace.                                   |
-| [`IndependentVariable`](#AcousticTemperature.IndependentVariable)                 | Gets or sets the IndependentVariable.                         |
-| [`XYZFunctionCoordinateSystem`](#AcousticTemperature.XYZFunctionCoordinateSystem) | Gets or sets the XYZFunctionCoordinateSystem.                 |
-| [`Location`](#AcousticTemperature.Location)                                       | Gets or sets the Location.                                    |
-| [`Suppressed`](#AcousticTemperature.Suppressed)                                   | Gets or sets the Suppressed.                                  |
-| [`SharedRefBody`](#AcousticTemperature.SharedRefBody)                             | Gets or sets the SharedRefBody.                               |
 | [`Children`](#AcousticTemperature.Children)                                       | Gets the list of children.                                    |
 | [`Comments`](#AcousticTemperature.Comments)                                       | Gets the list of associated comments.                         |
+| [`DataModelObjectCategory`](#AcousticTemperature.DataModelObjectCategory)         | Gets the current DataModelObject’s category.                  |
+| [`DefineBy`](#AcousticTemperature.DefineBy)                                       | Gets the DefineBy.                                            |
 | [`Figures`](#AcousticTemperature.Figures)                                         | Gets the list of associated figures.                          |
+| [`GraphControlsXAxis`](#AcousticTemperature.GraphControlsXAxis)                   | Gets or sets the GraphControlsXAxis.                          |
 | [`Images`](#AcousticTemperature.Images)                                           | Gets the list of associated images.                           |
-| [`ReadOnly`](#AcousticTemperature.ReadOnly)                                       | Gets or sets the ReadOnly.                                    |
-| [`InternalObject`](#id0)                                                          | Gets the internal object. For advanced usage only.            |
+| [`IndependentVariable`](#AcousticTemperature.IndependentVariable)                 | Gets or sets the IndependentVariable.                         |
+| [`InternalObject`](#AcousticTemperature.InternalObject)                           | Gets the internal object. For advanced usage only.            |
+| [`LoadVectorAssignment`](#AcousticTemperature.LoadVectorAssignment)               | Gets or sets the LoadVectorAssignment.                        |
+| [`LoadVectorNumber`](#AcousticTemperature.LoadVectorNumber)                       | Gets or sets the LoadVectorNumber.                            |
+| [`Location`](#AcousticTemperature.Location)                                       | Gets or sets the Location.                                    |
+| [`Magnitude`](#AcousticTemperature.Magnitude)                                     | Gets or sets the Magnitude.                                   |
+| [`NumberOfSegments`](#AcousticTemperature.NumberOfSegments)                       | Gets or sets the NumberOfSegments.                            |
 | [`Properties`](#AcousticTemperature.Properties)                                   | Gets the list of properties for this object.                  |
+| [`RangeMaximum`](#AcousticTemperature.RangeMaximum)                               | Gets or sets the RangeMaximum.                                |
+| [`RangeMinimum`](#AcousticTemperature.RangeMinimum)                               | Gets or sets the RangeMinimum.                                |
+| [`ReadOnly`](#AcousticTemperature.ReadOnly)                                       | Gets or sets the ReadOnly.                                    |
+| [`SharedRefBody`](#AcousticTemperature.SharedRefBody)                             | Gets or sets the SharedRefBody.                               |
+| [`ShellFace`](#AcousticTemperature.ShellFace)                                     | Gets or sets the ShellFace.                                   |
+| [`Suppressed`](#AcousticTemperature.Suppressed)                                   | Gets or sets the Suppressed.                                  |
 | [`VisibleProperties`](#AcousticTemperature.VisibleProperties)                     | Gets the list of properties that are visible for this object. |
+| [`XYZFunctionCoordinateSystem`](#AcousticTemperature.XYZFunctionCoordinateSystem) | Gets or sets the XYZFunctionCoordinateSystem.                 |
 
 <a id="property-detail"></a>
 
 ## Property detail
+
+<a id="AcousticTemperature.Children"></a>
+
+### *property* AcousticTemperature.Children *: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets the list of children.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="AcousticTemperature.Comments"></a>
+
+### *property* AcousticTemperature.Comments *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Comment](../../../../../../v241/Ansys/ACT/Automation/Mechanical/Comment.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets the list of associated comments.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="AcousticTemperature.DataModelObjectCategory"></a>
+
+### *property* AcousticTemperature.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets the current DataModelObject’s category.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="AcousticTemperature.DefineBy"></a>
+
+### *property* AcousticTemperature.DefineBy *: [Ansys.Mechanical.DataModel.Enums.LoadDefineBy](../../../../Mechanical/DataModel/Enums/LoadDefineBy.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.LoadDefineBy) | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets the DefineBy.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="AcousticTemperature.Figures"></a>
+
+### *property* AcousticTemperature.Figures *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Figure](../../../../../../v241/Ansys/ACT/Automation/Mechanical/Figure.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets the list of associated figures.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="AcousticTemperature.GraphControlsXAxis"></a>
+
+### *property* AcousticTemperature.GraphControlsXAxis *: [Ansys.Mechanical.DataModel.Enums.LoadVariableVariationType](../../../../Mechanical/DataModel/Enums/LoadVariableVariationType.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.LoadVariableVariationType) | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the GraphControlsXAxis.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="AcousticTemperature.Images"></a>
+
+### *property* AcousticTemperature.Images *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Image](../../../../../../v241/Ansys/ACT/Automation/Mechanical/Image.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets the list of associated images.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="AcousticTemperature.IndependentVariable"></a>
+
+### *property* AcousticTemperature.IndependentVariable *: [Ansys.Mechanical.DataModel.Enums.LoadVariableVariationType](../../../../Mechanical/DataModel/Enums/LoadVariableVariationType.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.LoadVariableVariationType) | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the IndependentVariable.
+
+<!-- !! processed by numpydoc !! -->
 
 <a id="AcousticTemperature.InternalObject"></a>
 
@@ -81,11 +143,27 @@ Gets the internal object. For advanced usage only.
 
 <!-- !! processed by numpydoc !! -->
 
-<a id="AcousticTemperature.DataModelObjectCategory"></a>
+<a id="AcousticTemperature.LoadVectorAssignment"></a>
 
-### *property* AcousticTemperature.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../../v241/Ansys/Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AcousticTemperature.LoadVectorAssignment *: [Ansys.Mechanical.DataModel.Enums.LoadVectorAssignment](../../../../Mechanical/DataModel/Enums/LoadVectorAssignment.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.LoadVectorAssignment) | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets the current DataModelObject's category.
+Gets or sets the LoadVectorAssignment.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="AcousticTemperature.LoadVectorNumber"></a>
+
+### *property* AcousticTemperature.LoadVectorNumber *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the LoadVectorNumber.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="AcousticTemperature.Location"></a>
+
+### *property* AcousticTemperature.Location *: Ansys.ACT.Interfaces.Common.ISelectionInfo | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the Location.
 
 <!-- !! processed by numpydoc !! -->
 
@@ -105,11 +183,11 @@ Gets or sets the NumberOfSegments.
 
 <!-- !! processed by numpydoc !! -->
 
-<a id="AcousticTemperature.LoadVectorNumber"></a>
+<a id="AcousticTemperature.Properties"></a>
 
-### *property* AcousticTemperature.LoadVectorNumber *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AcousticTemperature.Properties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets or sets the LoadVectorNumber.
+Gets the list of properties for this object.
 
 <!-- !! processed by numpydoc !! -->
 
@@ -129,67 +207,11 @@ Gets or sets the RangeMinimum.
 
 <!-- !! processed by numpydoc !! -->
 
-<a id="AcousticTemperature.DefineBy"></a>
+<a id="AcousticTemperature.ReadOnly"></a>
 
-### *property* AcousticTemperature.DefineBy *: [Ansys.Mechanical.DataModel.Enums.LoadDefineBy](../../../../../../v241/Ansys/Mechanical/DataModel/Enums/LoadDefineBy.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.LoadDefineBy) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AcousticTemperature.ReadOnly *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets the DefineBy.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="AcousticTemperature.GraphControlsXAxis"></a>
-
-### *property* AcousticTemperature.GraphControlsXAxis *: [Ansys.Mechanical.DataModel.Enums.LoadVariableVariationType](../../../../../../v241/Ansys/Mechanical/DataModel/Enums/LoadVariableVariationType.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.LoadVariableVariationType) | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the GraphControlsXAxis.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="AcousticTemperature.LoadVectorAssignment"></a>
-
-### *property* AcousticTemperature.LoadVectorAssignment *: [Ansys.Mechanical.DataModel.Enums.LoadVectorAssignment](../../../../../../v241/Ansys/Mechanical/DataModel/Enums/LoadVectorAssignment.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.LoadVectorAssignment) | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the LoadVectorAssignment.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="AcousticTemperature.ShellFace"></a>
-
-### *property* AcousticTemperature.ShellFace *: [Ansys.Mechanical.DataModel.Enums.ShellFaceType](../../../../../../v241/Ansys/Mechanical/DataModel/Enums/ShellFaceType.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.ShellFaceType) | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the ShellFace.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="AcousticTemperature.IndependentVariable"></a>
-
-### *property* AcousticTemperature.IndependentVariable *: [Ansys.Mechanical.DataModel.Enums.LoadVariableVariationType](../../../../../../v241/Ansys/Mechanical/DataModel/Enums/LoadVariableVariationType.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.LoadVariableVariationType) | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the IndependentVariable.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="AcousticTemperature.XYZFunctionCoordinateSystem"></a>
-
-### *property* AcousticTemperature.XYZFunctionCoordinateSystem *: [Ansys.ACT.Automation.Mechanical.CoordinateSystem](../../../../../../v241/Ansys/ACT/Automation/Mechanical/CoordinateSystem.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.CoordinateSystem) | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the XYZFunctionCoordinateSystem.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="AcousticTemperature.Location"></a>
-
-### *property* AcousticTemperature.Location *: Ansys.ACT.Interfaces.Common.ISelectionInfo | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the Location.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="AcousticTemperature.Suppressed"></a>
-
-### *property* AcousticTemperature.Suppressed *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the Suppressed.
+Gets or sets the ReadOnly.
 
 <!-- !! processed by numpydoc !! -->
 
@@ -201,59 +223,19 @@ Gets or sets the SharedRefBody.
 
 <!-- !! processed by numpydoc !! -->
 
-<a id="AcousticTemperature.Children"></a>
+<a id="AcousticTemperature.ShellFace"></a>
 
-### *property* AcousticTemperature.Children *: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AcousticTemperature.ShellFace *: [Ansys.Mechanical.DataModel.Enums.ShellFaceType](../../../../Mechanical/DataModel/Enums/ShellFaceType.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.ShellFaceType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets the list of children.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="AcousticTemperature.Comments"></a>
-
-### *property* AcousticTemperature.Comments *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Comment](../../../../../../v241/Ansys/ACT/Automation/Mechanical/Comment.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets the list of associated comments.
+Gets or sets the ShellFace.
 
 <!-- !! processed by numpydoc !! -->
 
-<a id="AcousticTemperature.Figures"></a>
+<a id="AcousticTemperature.Suppressed"></a>
 
-### *property* AcousticTemperature.Figures *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Figure](../../../../../../v241/Ansys/ACT/Automation/Mechanical/Figure.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AcousticTemperature.Suppressed *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets the list of associated figures.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="AcousticTemperature.Images"></a>
-
-### *property* AcousticTemperature.Images *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Image](../../../../../../v241/Ansys/ACT/Automation/Mechanical/Image.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets the list of associated images.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="AcousticTemperature.ReadOnly"></a>
-
-### *property* AcousticTemperature.ReadOnly *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the ReadOnly.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="id0"></a>
-
-### *property* AcousticTemperature.InternalObject *: System.Object | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets the internal object. For advanced usage only.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="AcousticTemperature.Properties"></a>
-
-### *property* AcousticTemperature.Properties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets the list of properties for this object.
+Gets or sets the Suppressed.
 
 <!-- !! processed by numpydoc !! -->
 
@@ -265,71 +247,23 @@ Gets the list of properties that are visible for this object.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="AcousticTemperature.XYZFunctionCoordinateSystem"></a>
+
+### *property* AcousticTemperature.XYZFunctionCoordinateSystem *: [Ansys.ACT.Automation.Mechanical.CoordinateSystem](../../../../../../v241/Ansys/ACT/Automation/Mechanical/CoordinateSystem.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.CoordinateSystem) | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the XYZFunctionCoordinateSystem.
+
+<!-- !! processed by numpydoc !! -->
+
 <a id="method-detail"></a>
 
 ## Method detail
 
-<a id="AcousticTemperature.GetActivateAtLoadStep"></a>
+<a id="AcousticTemperature.Activate"></a>
 
-### AcousticTemperature.GetActivateAtLoadStep(stepNumber: System.UInt32)
+### AcousticTemperature.Activate()
 
-GetActivateAtLoadStep method.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="AcousticTemperature.SetActivateAtLoadStep"></a>
-
-### AcousticTemperature.SetActivateAtLoadStep(stepNumber: System.UInt32, bActive: System.Boolean)
-
-SetActivateAtLoadStep method.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="AcousticTemperature.GetComponentActivateAtLoadStep"></a>
-
-### AcousticTemperature.GetComponentActivateAtLoadStep(component: System.String, stepNumber: System.UInt32)
-
-GetComponentActivateAtLoadStep method.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="AcousticTemperature.SetComponentActivateAtLoadStep"></a>
-
-### AcousticTemperature.SetComponentActivateAtLoadStep(component: System.String, stepNumber: System.UInt32, bActive: System.Boolean)
-
-SetComponentActivateAtLoadStep method.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="AcousticTemperature.PromoteToNamedSelection"></a>
-
-### AcousticTemperature.PromoteToNamedSelection()
-
-Run the PromoteToNamedSelection action.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="AcousticTemperature.Delete"></a>
-
-### AcousticTemperature.Delete()
-
-Run the Delete action.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="AcousticTemperature.GetChildren"></a>
-
-### AcousticTemperature.GetChildren(recurses: System.Boolean, children: System.Collections.Generic.IList[ChildrenType])
-
-Gets the list of children, filtered by type.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="id1"></a>
-
-### AcousticTemperature.GetChildren(category: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../../v241/Ansys/Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory), recurses: System.Boolean, children: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject])
-
-Gets the list of children, filtered by type.
+Activate the current object.
 
 <!-- !! processed by numpydoc !! -->
 
@@ -353,17 +287,11 @@ Creates a new child Figure.
 
 ### AcousticTemperature.AddImage(filePath: System.String)
 
+```text
 Creates a new child Image.
 If a filePath is provided, the image will be loaded from that file,
 if not, the image will be a screen capture of the Geometry window.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="AcousticTemperature.Activate"></a>
-
-### AcousticTemperature.Activate()
-
-Activate the current object.
+```
 
 <!-- !! processed by numpydoc !! -->
 
@@ -375,11 +303,59 @@ Copies all visible properties from this object to another.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="AcousticTemperature.CreateParameter"></a>
+
+### AcousticTemperature.CreateParameter(propName: System.String)
+
+Creates a new parameter for a Property.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="AcousticTemperature.Delete"></a>
+
+### AcousticTemperature.Delete()
+
+Run the Delete action.
+
+<!-- !! processed by numpydoc !! -->
+
 <a id="AcousticTemperature.Duplicate"></a>
 
 ### AcousticTemperature.Duplicate()
 
 Creates a copy of the current DataModelObject.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="AcousticTemperature.GetActivateAtLoadStep"></a>
+
+### AcousticTemperature.GetActivateAtLoadStep(stepNumber: System.UInt32)
+
+GetActivateAtLoadStep method.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="AcousticTemperature.GetChildren"></a>
+
+### AcousticTemperature.GetChildren(recurses: System.Boolean, children: System.Collections.Generic.IList[ChildrenType])
+
+Gets the list of children, filtered by type.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="AcousticTemperature.GetComponentActivateAtLoadStep"></a>
+
+### AcousticTemperature.GetComponentActivateAtLoadStep(component: System.String, stepNumber: System.UInt32)
+
+GetComponentActivateAtLoadStep method.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="AcousticTemperature.GetParameter"></a>
+
+### AcousticTemperature.GetParameter(propName: System.String)
+
+Gets the parameter corresponding to the given property.
 
 <!-- !! processed by numpydoc !! -->
 
@@ -399,6 +375,25 @@ Run the GroupSimilarObjects action.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="AcousticTemperature.PromoteToNamedSelection"></a>
+
+### AcousticTemperature.PromoteToNamedSelection()
+
+Run the PromoteToNamedSelection action.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="AcousticTemperature.PropertyByAPIName"></a>
+
+### AcousticTemperature.PropertyByAPIName(name: System.String)
+
+```text
+Get a property by its API name.
+If multiple properties have the same API Name, only the first property with that name will be returned.
+```
+
+<!-- !! processed by numpydoc !! -->
+
 <a id="AcousticTemperature.PropertyByName"></a>
 
 ### AcousticTemperature.PropertyByName(name: System.String)
@@ -407,36 +402,27 @@ Get a property by its unique name.
 
 <!-- !! processed by numpydoc !! -->
 
-<a id="AcousticTemperature.PropertyByAPIName"></a>
-
-### AcousticTemperature.PropertyByAPIName(name: System.String)
-
-Get a property by its API name.
-If multiple properties have the same API Name, only the first property with that name will be returned.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="AcousticTemperature.CreateParameter"></a>
-
-### AcousticTemperature.CreateParameter(propName: System.String)
-
-Creates a new parameter for a Property.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="AcousticTemperature.GetParameter"></a>
-
-### AcousticTemperature.GetParameter(propName: System.String)
-
-Gets the parameter corresponding to the given property.
-
-<!-- !! processed by numpydoc !! -->
-
 <a id="AcousticTemperature.RemoveParameter"></a>
 
 ### AcousticTemperature.RemoveParameter(propName: System.String)
 
 Removes the parameter from the parameter set corresponding to the given property.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="AcousticTemperature.SetActivateAtLoadStep"></a>
+
+### AcousticTemperature.SetActivateAtLoadStep(stepNumber: System.UInt32, bActive: System.Boolean)
+
+SetActivateAtLoadStep method.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="AcousticTemperature.SetComponentActivateAtLoadStep"></a>
+
+### AcousticTemperature.SetComponentActivateAtLoadStep(component: System.String, stepNumber: System.UInt32, bActive: System.Boolean)
+
+SetComponentActivateAtLoadStep method.
 
 <!-- !! processed by numpydoc !! -->
 

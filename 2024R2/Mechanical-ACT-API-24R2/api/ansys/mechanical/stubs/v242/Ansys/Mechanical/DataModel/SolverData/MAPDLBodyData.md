@@ -1,6 +1,6 @@
 # `MAPDLBodyData`
 
-
+<a id="ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.SolverData.MAPDLBodyData"></a>
 
 #### *class* ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.SolverData.MAPDLBodyData
 
@@ -17,7 +17,7 @@ MAPDLBodyData class.
 ### Properties
 
 | Name | Description |
-|-----------------------------------------------------|-------------------------------------------|
+|-------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------|
 | [`ElementTypeIds`](#MAPDLBodyData.ElementTypeIds)   | Gets the Element Type Ids for the body.   |
 | [`MaterialIds`](#MAPDLBodyData.MaterialIds)         | Gets the Material Ids for the body.       |
 | [`RealConstantId`](#MAPDLBodyData.RealConstantId)   | Gets the Real Constant Id for the body.   |

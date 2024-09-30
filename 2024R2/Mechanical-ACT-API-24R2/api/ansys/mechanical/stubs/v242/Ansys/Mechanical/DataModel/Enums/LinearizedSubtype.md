@@ -1,6 +1,6 @@
 # `LinearizedSubtype`
 
-
+<a id="ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.LinearizedSubtype"></a>
 
 #### *class* ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.LinearizedSubtype
 
@@ -17,7 +17,7 @@ Specifies the LinearizedSubtype.
 ### Attributes
 
 | Name |
-| --------------------------------------------------------- |
+| ---------------------------------------------------------------------------------------------------------------------------------- |
 | [`All`](#LinearizedSubtype.All) |
 | [`Bending`](#LinearizedSubtype.Bending) |
 | [`Membrane`](#LinearizedSubtype.Membrane) |

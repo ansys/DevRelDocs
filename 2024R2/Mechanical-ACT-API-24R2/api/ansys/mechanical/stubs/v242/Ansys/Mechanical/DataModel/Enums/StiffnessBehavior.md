@@ -1,6 +1,6 @@
 # `StiffnessBehavior`
 
-
+<a id="ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.StiffnessBehavior"></a>
 
 #### *class* ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.StiffnessBehavior
 
@@ -17,10 +17,10 @@ Specifies the StiffnessBehavior.
 ### Attributes
 
 | Name |
-| --------------------------------------------------- |
+| ---------------------------------------------------------------------------------------------------------------------------- |
 | [`Beam`](#StiffnessBehavior.Beam) |
-| [`Flexible`](#StiffnessBehavior.Flexible) |
 | [`Explicit`](#StiffnessBehavior.Explicit) |
+| [`Flexible`](#StiffnessBehavior.Flexible) |
 | [`Gasket`](#StiffnessBehavior.Gasket) |
 | [`Rigid`](#StiffnessBehavior.Rigid) |
 | [`RigidBeam`](#StiffnessBehavior.RigidBeam) |
@@ -35,13 +35,13 @@ Specifies the StiffnessBehavior.
 
 ### StiffnessBehavior.Beam *= 2*
 
-<a id="StiffnessBehavior.Flexible"></a>
-
-### StiffnessBehavior.Flexible *= 0*
-
 <a id="StiffnessBehavior.Explicit"></a>
 
 ### StiffnessBehavior.Explicit *= 7*
+
+<a id="StiffnessBehavior.Flexible"></a>
+
+### StiffnessBehavior.Flexible *= 0*
 
 <a id="StiffnessBehavior.Gasket"></a>
 

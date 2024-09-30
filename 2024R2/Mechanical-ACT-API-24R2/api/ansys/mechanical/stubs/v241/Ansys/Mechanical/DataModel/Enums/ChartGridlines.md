@@ -1,6 +1,6 @@
 # `ChartGridlines`
 
-
+<a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.ChartGridlines"></a>
 
 #### *class* ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.ChartGridlines
 
@@ -17,11 +17,11 @@ Specifies the ChartGridlines.
 ### Attributes
 
 | Name |
-| ---------------------------------------------------------------------------------------------------------------- |
-| [`BothAxis`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/ChartGridlines.md#ChartGridlines.BothAxis) |
-| [`NoAxis`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/ChartGridlines.md#ChartGridlines.NoAxis) |
-| [`XAxis`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/ChartGridlines.md#ChartGridlines.XAxis) |
-| [`YAxis`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/ChartGridlines.md#ChartGridlines.YAxis) |
+| ------------------------------------------ |
+| [`BothAxis`](#ChartGridlines.BothAxis) |
+| [`NoAxis`](#ChartGridlines.NoAxis) |
+| [`XAxis`](#ChartGridlines.XAxis) |
+| [`YAxis`](#ChartGridlines.YAxis) |
 
 <a id="attribute-detail"></a>
 

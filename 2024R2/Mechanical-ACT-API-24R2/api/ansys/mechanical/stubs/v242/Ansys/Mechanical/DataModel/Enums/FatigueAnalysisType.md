@@ -1,6 +1,6 @@
 # `FatigueAnalysisType`
 
-
+<a id="ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.FatigueAnalysisType"></a>
 
 #### *class* ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.FatigueAnalysisType
 
@@ -17,35 +17,35 @@ Specifies the Fatigue Analysis Type.
 ### Attributes
 
 | Name |
-| --------------------------------------------------------------------------------------- |
-| [`FatigueToolNone`](#FatigueAnalysisType.FatigueToolNone) |
-| [`FatigueToolGoodman`](#FatigueAnalysisType.FatigueToolGoodman) |
-| [`FatigueToolSoderberg`](#FatigueAnalysisType.FatigueToolSoderberg) |
+| ------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
 | [`FatigueToolGerber`](#FatigueAnalysisType.FatigueToolGerber) |
+| [`FatigueToolGoodman`](#FatigueAnalysisType.FatigueToolGoodman) |
+| [`FatigueToolNone`](#FatigueAnalysisType.FatigueToolNone) |
 | [`FatigueToolSNMeanStressCurves`](#FatigueAnalysisType.FatigueToolSNMeanStressCurves) |
+| [`FatigueToolSoderberg`](#FatigueAnalysisType.FatigueToolSoderberg) |
 
 <a id="attribute-detail"></a>
 
 ## Attribute detail
 
-<a id="FatigueAnalysisType.FatigueToolNone"></a>
+<a id="FatigueAnalysisType.FatigueToolGerber"></a>
 
-### FatigueAnalysisType.FatigueToolNone *= 0*
+### FatigueAnalysisType.FatigueToolGerber *= 3*
 
 <a id="FatigueAnalysisType.FatigueToolGoodman"></a>
 
 ### FatigueAnalysisType.FatigueToolGoodman *= 1*
 
-<a id="FatigueAnalysisType.FatigueToolSoderberg"></a>
+<a id="FatigueAnalysisType.FatigueToolNone"></a>
 
-### FatigueAnalysisType.FatigueToolSoderberg *= 2*
-
-<a id="FatigueAnalysisType.FatigueToolGerber"></a>
-
-### FatigueAnalysisType.FatigueToolGerber *= 3*
+### FatigueAnalysisType.FatigueToolNone *= 0*
 
 <a id="FatigueAnalysisType.FatigueToolSNMeanStressCurves"></a>
 
 ### FatigueAnalysisType.FatigueToolSNMeanStressCurves *= 4*
+
+<a id="FatigueAnalysisType.FatigueToolSoderberg"></a>
+
+### FatigueAnalysisType.FatigueToolSoderberg *= 2*
 
 

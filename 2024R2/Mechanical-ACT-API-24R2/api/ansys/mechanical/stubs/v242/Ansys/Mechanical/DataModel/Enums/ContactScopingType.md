@@ -1,6 +1,6 @@
 # `ContactScopingType`
 
-
+<a id="ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.ContactScopingType"></a>
 
 #### *class* ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.ContactScopingType
 
@@ -17,7 +17,7 @@ Specifies the ContactScopingType.
 ### Attributes
 
 | Name |
-| ---------------------------------------------------------------------------- |
+| ------------------------------------------------------------------------------------------------------------------------------------------------------ |
 | [`ContactSourceUnderlying`](#ContactScopingType.ContactSourceUnderlying) |
 | [`ContactTargetUnderlying`](#ContactScopingType.ContactTargetUnderlying) |
 

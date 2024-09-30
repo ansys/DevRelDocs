@@ -1,6 +1,6 @@
 # `AcousticFreeSurface`
 
-
+<a id="ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.BoundaryConditions.AcousticFreeSurface"></a>
 
 #### *class* ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.BoundaryConditions.AcousticFreeSurface
 
@@ -17,86 +17,44 @@ Defines a AcousticFreeSurface.
 ### Methods
 
 | Name | Description |
-|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------|
-| [`PromoteToNamedSelection`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/BoundaryConditions/AcousticFreeSurface.md#AcousticFreeSurface.PromoteToNamedSelection)   | Run the PromoteToNamedSelection action.                                           |
-| [`Delete`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/BoundaryConditions/AcousticFreeSurface.md#AcousticFreeSurface.Delete)                                     | Run the Delete action.                                                            |
-| [`GetChildren`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/BoundaryConditions/AcousticFreeSurface.md#id1)                                                       | Gets the list of children, filtered by type.                                      |
-| [`GetChildren`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/BoundaryConditions/AcousticFreeSurface.md#id1)                                                       | Gets the list of children, filtered by type.                                      |
-| [`AddComment`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/BoundaryConditions/AcousticFreeSurface.md#AcousticFreeSurface.AddComment)                             | Creates a new child Comment.                                                      |
-| [`AddFigure`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/BoundaryConditions/AcousticFreeSurface.md#AcousticFreeSurface.AddFigure)                               | Creates a new child Figure.                                                       |
-| [`AddImage`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/BoundaryConditions/AcousticFreeSurface.md#AcousticFreeSurface.AddImage)                                 | Creates a new child Image.                                                        |
-| [`Activate`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/BoundaryConditions/AcousticFreeSurface.md#AcousticFreeSurface.Activate)                                 | Activate the current object.                                                      |
-| [`CopyTo`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/BoundaryConditions/AcousticFreeSurface.md#AcousticFreeSurface.CopyTo)                                     | Copies all visible properties from this object to another.                        |
-| [`Duplicate`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/BoundaryConditions/AcousticFreeSurface.md#AcousticFreeSurface.Duplicate)                               | Creates a copy of the current DataModelObject.                                    |
-| [`GroupAllSimilarChildren`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/BoundaryConditions/AcousticFreeSurface.md#AcousticFreeSurface.GroupAllSimilarChildren)   | Run the GroupAllSimilarChildren action.                                           |
-| [`GroupSimilarObjects`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/BoundaryConditions/AcousticFreeSurface.md#AcousticFreeSurface.GroupSimilarObjects)           | Run the GroupSimilarObjects action.                                               |
-| [`PropertyByName`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/BoundaryConditions/AcousticFreeSurface.md#AcousticFreeSurface.PropertyByName)                     | Get a property by its unique name.                                                |
-| [`PropertyByAPIName`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/BoundaryConditions/AcousticFreeSurface.md#AcousticFreeSurface.PropertyByAPIName)               | Get a property by its API name.                                                   |
-| [`CreateParameter`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/BoundaryConditions/AcousticFreeSurface.md#AcousticFreeSurface.CreateParameter)                   | Creates a new parameter for a Property.                                           |
-| [`GetParameter`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/BoundaryConditions/AcousticFreeSurface.md#AcousticFreeSurface.GetParameter)                         | Gets the parameter corresponding to the given property.                           |
-| [`RemoveParameter`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/BoundaryConditions/AcousticFreeSurface.md#AcousticFreeSurface.RemoveParameter)                   | Removes the parameter from the parameter set corresponding to the given property. |
+|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------|
+| [`Activate`](#AcousticFreeSurface.Activate)                               | Activate the current object.                                                      |
+| [`AddComment`](#AcousticFreeSurface.AddComment)                           | Creates a new child Comment.                                                      |
+| [`AddFigure`](#AcousticFreeSurface.AddFigure)                             | Creates a new child Figure.                                                       |
+| [`AddImage`](#AcousticFreeSurface.AddImage)                               | Creates a new child Image.                                                        |
+| [`CopyTo`](#AcousticFreeSurface.CopyTo)                                   | Copies all visible properties from this object to another.                        |
+| [`CreateParameter`](#AcousticFreeSurface.CreateParameter)                 | Creates a new parameter for a Property.                                           |
+| [`Delete`](#AcousticFreeSurface.Delete)                                   | Run the Delete action.                                                            |
+| [`Duplicate`](#AcousticFreeSurface.Duplicate)                             | Creates a copy of the current DataModelObject.                                    |
+| [`GetChildren`](#AcousticFreeSurface.GetChildren)                         | Gets the list of children, filtered by type.                                      |
+| [`GetParameter`](#AcousticFreeSurface.GetParameter)                       | Gets the parameter corresponding to the given property.                           |
+| [`GroupAllSimilarChildren`](#AcousticFreeSurface.GroupAllSimilarChildren) | Run the GroupAllSimilarChildren action.                                           |
+| [`GroupSimilarObjects`](#AcousticFreeSurface.GroupSimilarObjects)         | Run the GroupSimilarObjects action.                                               |
+| [`PromoteToNamedSelection`](#AcousticFreeSurface.PromoteToNamedSelection) | Run the PromoteToNamedSelection action.                                           |
+| [`PropertyByAPIName`](#AcousticFreeSurface.PropertyByAPIName)             | Get a property by its API name.                                                   |
+| [`PropertyByName`](#AcousticFreeSurface.PropertyByName)                   | Get a property by its unique name.                                                |
+| [`RemoveParameter`](#AcousticFreeSurface.RemoveParameter)                 | Removes the parameter from the parameter set corresponding to the given property. |
 
 ### Properties
 
 | Name | Description |
 |---------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------|
-| [`InternalObject`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/BoundaryConditions/AcousticFreeSurface.md#id0)                                                  | Gets the internal object. For advanced usage only.            |
-| [`Location`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/BoundaryConditions/AcousticFreeSurface.md#AcousticFreeSurface.Location)                               | Gets or sets the Location.                                    |
-| [`DataModelObjectCategory`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/BoundaryConditions/AcousticFreeSurface.md#AcousticFreeSurface.DataModelObjectCategory) | Gets the current DataModelObject's category.                  |
-| [`Suppressed`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/BoundaryConditions/AcousticFreeSurface.md#AcousticFreeSurface.Suppressed)                           | Gets or sets the Suppressed.                                  |
-| [`SharedRefBody`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/BoundaryConditions/AcousticFreeSurface.md#AcousticFreeSurface.SharedRefBody)                     | Gets or sets the SharedRefBody.                               |
-| [`Children`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/BoundaryConditions/AcousticFreeSurface.md#AcousticFreeSurface.Children)                               | Gets the list of children.                                    |
-| [`Comments`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/BoundaryConditions/AcousticFreeSurface.md#AcousticFreeSurface.Comments)                               | Gets the list of associated comments.                         |
-| [`Figures`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/BoundaryConditions/AcousticFreeSurface.md#AcousticFreeSurface.Figures)                                 | Gets the list of associated figures.                          |
-| [`Images`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/BoundaryConditions/AcousticFreeSurface.md#AcousticFreeSurface.Images)                                   | Gets the list of associated images.                           |
-| [`ReadOnly`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/BoundaryConditions/AcousticFreeSurface.md#AcousticFreeSurface.ReadOnly)                               | Gets or sets the ReadOnly.                                    |
-| [`InternalObject`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/BoundaryConditions/AcousticFreeSurface.md#id0)                                                  | Gets the internal object. For advanced usage only.            |
-| [`Properties`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/BoundaryConditions/AcousticFreeSurface.md#AcousticFreeSurface.Properties)                           | Gets the list of properties for this object.                  |
-| [`VisibleProperties`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/BoundaryConditions/AcousticFreeSurface.md#AcousticFreeSurface.VisibleProperties)             | Gets the list of properties that are visible for this object. |
+| [`Children`](#AcousticFreeSurface.Children)                               | Gets the list of children.                                    |
+| [`Comments`](#AcousticFreeSurface.Comments)                               | Gets the list of associated comments.                         |
+| [`DataModelObjectCategory`](#AcousticFreeSurface.DataModelObjectCategory) | Gets the current DataModelObject’s category.                  |
+| [`Figures`](#AcousticFreeSurface.Figures)                                 | Gets the list of associated figures.                          |
+| [`Images`](#AcousticFreeSurface.Images)                                   | Gets the list of associated images.                           |
+| [`InternalObject`](#AcousticFreeSurface.InternalObject)                   | Gets the internal object. For advanced usage only.            |
+| [`Location`](#AcousticFreeSurface.Location)                               | Gets or sets the Location.                                    |
+| [`Properties`](#AcousticFreeSurface.Properties)                           | Gets the list of properties for this object.                  |
+| [`ReadOnly`](#AcousticFreeSurface.ReadOnly)                               | Gets or sets the ReadOnly.                                    |
+| [`SharedRefBody`](#AcousticFreeSurface.SharedRefBody)                     | Gets or sets the SharedRefBody.                               |
+| [`Suppressed`](#AcousticFreeSurface.Suppressed)                           | Gets or sets the Suppressed.                                  |
+| [`VisibleProperties`](#AcousticFreeSurface.VisibleProperties)             | Gets the list of properties that are visible for this object. |
 
 <a id="property-detail"></a>
 
 ## Property detail
-
-<a id="AcousticFreeSurface.InternalObject"></a>
-
-### *property* AcousticFreeSurface.InternalObject *: Ansys.Common.Interop.DSObjectsAuto.IDSLoadAuto | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets the internal object. For advanced usage only.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="AcousticFreeSurface.Location"></a>
-
-### *property* AcousticFreeSurface.Location *: Ansys.ACT.Interfaces.Common.ISelectionInfo | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the Location.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="AcousticFreeSurface.DataModelObjectCategory"></a>
-
-### *property* AcousticFreeSurface.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets the current DataModelObject's category.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="AcousticFreeSurface.Suppressed"></a>
-
-### *property* AcousticFreeSurface.Suppressed *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the Suppressed.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="AcousticFreeSurface.SharedRefBody"></a>
-
-### *property* AcousticFreeSurface.SharedRefBody *: [Ansys.ACT.Automation.Mechanical.Body](../Body.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Body) | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the SharedRefBody.
-
-<!-- !! processed by numpydoc !! -->
 
 <a id="AcousticFreeSurface.Children"></a>
 
@@ -111,6 +69,14 @@ Gets the list of children.
 ### *property* AcousticFreeSurface.Comments *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Comment](../Comment.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated comments.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="AcousticFreeSurface.DataModelObjectCategory"></a>
+
+### *property* AcousticFreeSurface.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../../v242/Ansys/Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets the current DataModelObject’s category.
 
 <!-- !! processed by numpydoc !! -->
 
@@ -130,19 +96,19 @@ Gets the list of associated images.
 
 <!-- !! processed by numpydoc !! -->
 
-<a id="AcousticFreeSurface.ReadOnly"></a>
+<a id="AcousticFreeSurface.InternalObject"></a>
 
-### *property* AcousticFreeSurface.ReadOnly *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AcousticFreeSurface.InternalObject *: Ansys.Common.Interop.DSObjectsAuto.IDSLoadAuto | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets or sets the ReadOnly.
+Gets the internal object. For advanced usage only.
 
 <!-- !! processed by numpydoc !! -->
 
-<a id="id0"></a>
+<a id="AcousticFreeSurface.Location"></a>
 
-### *property* AcousticFreeSurface.InternalObject *: System.Object | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AcousticFreeSurface.Location *: Ansys.ACT.Interfaces.Common.ISelectionInfo | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets the internal object. For advanced usage only.
+Gets or sets the Location.
 
 <!-- !! processed by numpydoc !! -->
 
@@ -151,6 +117,30 @@ Gets the internal object. For advanced usage only.
 ### *property* AcousticFreeSurface.Properties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of properties for this object.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="AcousticFreeSurface.ReadOnly"></a>
+
+### *property* AcousticFreeSurface.ReadOnly *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the ReadOnly.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="AcousticFreeSurface.SharedRefBody"></a>
+
+### *property* AcousticFreeSurface.SharedRefBody *: [Ansys.ACT.Automation.Mechanical.Body](../Body.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Body) | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the SharedRefBody.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="AcousticFreeSurface.Suppressed"></a>
+
+### *property* AcousticFreeSurface.Suppressed *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the Suppressed.
 
 <!-- !! processed by numpydoc !! -->
 
@@ -166,35 +156,11 @@ Gets the list of properties that are visible for this object.
 
 ## Method detail
 
-<a id="AcousticFreeSurface.PromoteToNamedSelection"></a>
+<a id="AcousticFreeSurface.Activate"></a>
 
-### AcousticFreeSurface.PromoteToNamedSelection()
+### AcousticFreeSurface.Activate()
 
-Run the PromoteToNamedSelection action.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="AcousticFreeSurface.Delete"></a>
-
-### AcousticFreeSurface.Delete()
-
-Run the Delete action.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="AcousticFreeSurface.GetChildren"></a>
-
-### AcousticFreeSurface.GetChildren(recurses: System.Boolean, children: System.Collections.Generic.IList[ChildrenType])
-
-Gets the list of children, filtered by type.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="id1"></a>
-
-### AcousticFreeSurface.GetChildren(category: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory), recurses: System.Boolean, children: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject])
-
-Gets the list of children, filtered by type.
+Activate the current object.
 
 <!-- !! processed by numpydoc !! -->
 
@@ -218,17 +184,11 @@ Creates a new child Figure.
 
 ### AcousticFreeSurface.AddImage(filePath: System.String)
 
+```text
 Creates a new child Image.
 If a filePath is provided, the image will be loaded from that file,
 if not, the image will be a screen capture of the Geometry window.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="AcousticFreeSurface.Activate"></a>
-
-### AcousticFreeSurface.Activate()
-
-Activate the current object.
+```
 
 <!-- !! processed by numpydoc !! -->
 
@@ -240,11 +200,43 @@ Copies all visible properties from this object to another.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="AcousticFreeSurface.CreateParameter"></a>
+
+### AcousticFreeSurface.CreateParameter(propName: System.String)
+
+Creates a new parameter for a Property.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="AcousticFreeSurface.Delete"></a>
+
+### AcousticFreeSurface.Delete()
+
+Run the Delete action.
+
+<!-- !! processed by numpydoc !! -->
+
 <a id="AcousticFreeSurface.Duplicate"></a>
 
 ### AcousticFreeSurface.Duplicate()
 
 Creates a copy of the current DataModelObject.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="AcousticFreeSurface.GetChildren"></a>
+
+### AcousticFreeSurface.GetChildren(recurses: System.Boolean, children: System.Collections.Generic.IList[ChildrenType])
+
+Gets the list of children, filtered by type.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="AcousticFreeSurface.GetParameter"></a>
+
+### AcousticFreeSurface.GetParameter(propName: System.String)
+
+Gets the parameter corresponding to the given property.
 
 <!-- !! processed by numpydoc !! -->
 
@@ -264,11 +256,11 @@ Run the GroupSimilarObjects action.
 
 <!-- !! processed by numpydoc !! -->
 
-<a id="AcousticFreeSurface.PropertyByName"></a>
+<a id="AcousticFreeSurface.PromoteToNamedSelection"></a>
 
-### AcousticFreeSurface.PropertyByName(name: System.String)
+### AcousticFreeSurface.PromoteToNamedSelection()
 
-Get a property by its unique name.
+Run the PromoteToNamedSelection action.
 
 <!-- !! processed by numpydoc !! -->
 
@@ -276,24 +268,18 @@ Get a property by its unique name.
 
 ### AcousticFreeSurface.PropertyByAPIName(name: System.String)
 
+```text
 Get a property by its API name.
 If multiple properties have the same API Name, only the first property with that name will be returned.
+```
 
 <!-- !! processed by numpydoc !! -->
 
-<a id="AcousticFreeSurface.CreateParameter"></a>
+<a id="AcousticFreeSurface.PropertyByName"></a>
 
-### AcousticFreeSurface.CreateParameter(propName: System.String)
+### AcousticFreeSurface.PropertyByName(name: System.String)
 
-Creates a new parameter for a Property.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="AcousticFreeSurface.GetParameter"></a>
-
-### AcousticFreeSurface.GetParameter(propName: System.String)
-
-Gets the parameter corresponding to the given property.
+Get a property by its unique name.
 
 <!-- !! processed by numpydoc !! -->
 

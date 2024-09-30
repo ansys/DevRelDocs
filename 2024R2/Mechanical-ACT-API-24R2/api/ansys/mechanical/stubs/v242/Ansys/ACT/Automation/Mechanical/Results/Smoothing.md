@@ -1,6 +1,6 @@
 # `Smoothing`
 
-
+<a id="ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Results.Smoothing"></a>
 
 #### *class* ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Results.Smoothing
 
@@ -17,123 +17,49 @@ Defines a Smoothing.
 ### Methods
 
 | Name | Description |
-|-----------------------------------------------------------------|-----------------------------------------------------------------------------------|
-| [`Evaluate`](#Smoothing.Evaluate)                               | Run the Evaluate action.                                                          |
-| [`ImportSTL`](#Smoothing.ImportSTL)                             | Run the ImportSTL action.                                                         |
-| [`Delete`](#Smoothing.Delete)                                   | Run the Delete action.                                                            |
-| [`GetChildren`](#id1)                                           | Gets the list of children, filtered by type.                                      |
-| [`GetChildren`](#id1)                                           | Gets the list of children, filtered by type.                                      |
+|--------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------|
+| [`Activate`](#Smoothing.Activate)                               | Activate the current object.                                                      |
 | [`AddComment`](#Smoothing.AddComment)                           | Creates a new child Comment.                                                      |
 | [`AddFigure`](#Smoothing.AddFigure)                             | Creates a new child Figure.                                                       |
 | [`AddImage`](#Smoothing.AddImage)                               | Creates a new child Image.                                                        |
-| [`Activate`](#Smoothing.Activate)                               | Activate the current object.                                                      |
 | [`CopyTo`](#Smoothing.CopyTo)                                   | Copies all visible properties from this object to another.                        |
+| [`CreateParameter`](#Smoothing.CreateParameter)                 | Creates a new parameter for a Property.                                           |
+| [`Delete`](#Smoothing.Delete)                                   | Run the Delete action.                                                            |
 | [`Duplicate`](#Smoothing.Duplicate)                             | Creates a copy of the current DataModelObject.                                    |
+| [`Evaluate`](#Smoothing.Evaluate)                               | Run the Evaluate action.                                                          |
+| [`GetChildren`](#Smoothing.GetChildren)                         | Gets the list of children, filtered by type.                                      |
+| [`GetParameter`](#Smoothing.GetParameter)                       | Gets the parameter corresponding to the given property.                           |
 | [`GroupAllSimilarChildren`](#Smoothing.GroupAllSimilarChildren) | Run the GroupAllSimilarChildren action.                                           |
 | [`GroupSimilarObjects`](#Smoothing.GroupSimilarObjects)         | Run the GroupSimilarObjects action.                                               |
-| [`PropertyByName`](#Smoothing.PropertyByName)                   | Get a property by its unique name.                                                |
+| [`ImportSTL`](#Smoothing.ImportSTL)                             | Run the ImportSTL action.                                                         |
 | [`PropertyByAPIName`](#Smoothing.PropertyByAPIName)             | Get a property by its API name.                                                   |
-| [`CreateParameter`](#Smoothing.CreateParameter)                 | Creates a new parameter for a Property.                                           |
-| [`GetParameter`](#Smoothing.GetParameter)                       | Gets the parameter corresponding to the given property.                           |
+| [`PropertyByName`](#Smoothing.PropertyByName)                   | Get a property by its unique name.                                                |
 | [`RemoveParameter`](#Smoothing.RemoveParameter)                 | Removes the parameter from the parameter set corresponding to the given property. |
 
 ### Properties
 
 | Name | Description |
-|-----------------------------------------------------------------|---------------------------------------------------------------|
-| [`InternalObject`](#id0)                                        | Gets the internal object. For advanced usage only.            |
-| [`MoveLimit`](#Smoothing.MoveLimit)                             | Gets or sets the MoveLimit.                                   |
-| [`FileName`](#Smoothing.FileName)                               | Gets the FileName.                                            |
-| [`ExportModel`](#Smoothing.ExportModel)                         | Gets or sets the ExportModel.                                 |
-| [`DataModelObjectCategory`](#Smoothing.DataModelObjectCategory) | Gets the current DataModelObject's category.                  |
-| [`Statistics`](#Smoothing.Statistics)                           | Gets the Statistics.                                          |
-| [`LengthUnits`](#Smoothing.LengthUnits)                         | Gets or sets the LengthUnits.                                 |
-| [`ShowAlways`](#Smoothing.ShowAlways)                           | Gets or sets the ShowAlways.                                  |
-| [`Suppressed`](#Smoothing.Suppressed)                           | Gets or sets the Suppressed.                                  |
+|--------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------|
 | [`Children`](#Smoothing.Children)                               | Gets the list of children.                                    |
 | [`Comments`](#Smoothing.Comments)                               | Gets the list of associated comments.                         |
+| [`DataModelObjectCategory`](#Smoothing.DataModelObjectCategory) | Gets the current DataModelObject’s category.                  |
+| [`ExportModel`](#Smoothing.ExportModel)                         | Gets or sets the ExportModel.                                 |
 | [`Figures`](#Smoothing.Figures)                                 | Gets the list of associated figures.                          |
+| [`FileName`](#Smoothing.FileName)                               | Gets the FileName.                                            |
 | [`Images`](#Smoothing.Images)                                   | Gets the list of associated images.                           |
-| [`ReadOnly`](#Smoothing.ReadOnly)                               | Gets or sets the ReadOnly.                                    |
-| [`InternalObject`](#id0)                                        | Gets the internal object. For advanced usage only.            |
+| [`InternalObject`](#Smoothing.InternalObject)                   | Gets the internal object. For advanced usage only.            |
+| [`LengthUnits`](#Smoothing.LengthUnits)                         | Gets or sets the LengthUnits.                                 |
+| [`MoveLimit`](#Smoothing.MoveLimit)                             | Gets or sets the MoveLimit.                                   |
 | [`Properties`](#Smoothing.Properties)                           | Gets the list of properties for this object.                  |
+| [`ReadOnly`](#Smoothing.ReadOnly)                               | Gets or sets the ReadOnly.                                    |
+| [`ShowAlways`](#Smoothing.ShowAlways)                           | Gets or sets the ShowAlways.                                  |
+| [`Statistics`](#Smoothing.Statistics)                           | Gets the Statistics.                                          |
+| [`Suppressed`](#Smoothing.Suppressed)                           | Gets or sets the Suppressed.                                  |
 | [`VisibleProperties`](#Smoothing.VisibleProperties)             | Gets the list of properties that are visible for this object. |
 
 <a id="property-detail"></a>
 
 ## Property detail
-
-<a id="Smoothing.InternalObject"></a>
-
-### *property* Smoothing.InternalObject *: Ansys.Common.Interop.DSObjectsAuto.IDSGeometryFileContainerAuto | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets the internal object. For advanced usage only.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="Smoothing.MoveLimit"></a>
-
-### *property* Smoothing.MoveLimit *: System.Double | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the MoveLimit.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="Smoothing.FileName"></a>
-
-### *property* Smoothing.FileName *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets the FileName.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="Smoothing.ExportModel"></a>
-
-### *property* Smoothing.ExportModel *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the ExportModel.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="Smoothing.DataModelObjectCategory"></a>
-
-### *property* Smoothing.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../../v241/Ansys/Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets the current DataModelObject's category.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="Smoothing.Statistics"></a>
-
-### *property* Smoothing.Statistics *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets the Statistics.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="Smoothing.LengthUnits"></a>
-
-### *property* Smoothing.LengthUnits *: [Ansys.Mechanical.DataModel.Enums.WBUnitSystemType](../../../../../../v241/Ansys/Mechanical/DataModel/Enums/WBUnitSystemType.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.WBUnitSystemType) | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the LengthUnits.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="Smoothing.ShowAlways"></a>
-
-### *property* Smoothing.ShowAlways *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the ShowAlways.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="Smoothing.Suppressed"></a>
-
-### *property* Smoothing.Suppressed *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the Suppressed.
-
-<!-- !! processed by numpydoc !! -->
 
 <a id="Smoothing.Children"></a>
 
@@ -151,11 +77,35 @@ Gets the list of associated comments.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="Smoothing.DataModelObjectCategory"></a>
+
+### *property* Smoothing.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets the current DataModelObject’s category.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="Smoothing.ExportModel"></a>
+
+### *property* Smoothing.ExportModel *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the ExportModel.
+
+<!-- !! processed by numpydoc !! -->
+
 <a id="Smoothing.Figures"></a>
 
 ### *property* Smoothing.Figures *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Figure](../../../../../../v241/Ansys/ACT/Automation/Mechanical/Figure.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated figures.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="Smoothing.FileName"></a>
+
+### *property* Smoothing.FileName *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets the FileName.
 
 <!-- !! processed by numpydoc !! -->
 
@@ -167,19 +117,27 @@ Gets the list of associated images.
 
 <!-- !! processed by numpydoc !! -->
 
-<a id="Smoothing.ReadOnly"></a>
+<a id="Smoothing.InternalObject"></a>
 
-### *property* Smoothing.ReadOnly *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Smoothing.InternalObject *: Ansys.Common.Interop.DSObjectsAuto.IDSGeometryFileContainerAuto | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets or sets the ReadOnly.
+Gets the internal object. For advanced usage only.
 
 <!-- !! processed by numpydoc !! -->
 
-<a id="id0"></a>
+<a id="Smoothing.LengthUnits"></a>
 
-### *property* Smoothing.InternalObject *: System.Object | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Smoothing.LengthUnits *: [Ansys.Mechanical.DataModel.Enums.WBUnitSystemType](../../../../Mechanical/DataModel/Enums/WBUnitSystemType.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.WBUnitSystemType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets the internal object. For advanced usage only.
+Gets or sets the LengthUnits.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="Smoothing.MoveLimit"></a>
+
+### *property* Smoothing.MoveLimit *: System.Double | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the MoveLimit.
 
 <!-- !! processed by numpydoc !! -->
 
@@ -188,6 +146,38 @@ Gets the internal object. For advanced usage only.
 ### *property* Smoothing.Properties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of properties for this object.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="Smoothing.ReadOnly"></a>
+
+### *property* Smoothing.ReadOnly *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the ReadOnly.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="Smoothing.ShowAlways"></a>
+
+### *property* Smoothing.ShowAlways *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the ShowAlways.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="Smoothing.Statistics"></a>
+
+### *property* Smoothing.Statistics *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets the Statistics.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="Smoothing.Suppressed"></a>
+
+### *property* Smoothing.Suppressed *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the Suppressed.
 
 <!-- !! processed by numpydoc !! -->
 
@@ -203,43 +193,11 @@ Gets the list of properties that are visible for this object.
 
 ## Method detail
 
-<a id="Smoothing.Evaluate"></a>
+<a id="Smoothing.Activate"></a>
 
-### Smoothing.Evaluate()
+### Smoothing.Activate()
 
-Run the Evaluate action.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="Smoothing.ImportSTL"></a>
-
-### Smoothing.ImportSTL()
-
-Run the ImportSTL action.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="Smoothing.Delete"></a>
-
-### Smoothing.Delete()
-
-Run the Delete action.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="Smoothing.GetChildren"></a>
-
-### Smoothing.GetChildren(recurses: System.Boolean, children: System.Collections.Generic.IList[ChildrenType])
-
-Gets the list of children, filtered by type.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="id1"></a>
-
-### Smoothing.GetChildren(category: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../../v241/Ansys/Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory), recurses: System.Boolean, children: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject])
-
-Gets the list of children, filtered by type.
+Activate the current object.
 
 <!-- !! processed by numpydoc !! -->
 
@@ -263,17 +221,11 @@ Creates a new child Figure.
 
 ### Smoothing.AddImage(filePath: System.String)
 
+```text
 Creates a new child Image.
 If a filePath is provided, the image will be loaded from that file,
 if not, the image will be a screen capture of the Geometry window.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="Smoothing.Activate"></a>
-
-### Smoothing.Activate()
-
-Activate the current object.
+```
 
 <!-- !! processed by numpydoc !! -->
 
@@ -285,11 +237,51 @@ Copies all visible properties from this object to another.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="Smoothing.CreateParameter"></a>
+
+### Smoothing.CreateParameter(propName: System.String)
+
+Creates a new parameter for a Property.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="Smoothing.Delete"></a>
+
+### Smoothing.Delete()
+
+Run the Delete action.
+
+<!-- !! processed by numpydoc !! -->
+
 <a id="Smoothing.Duplicate"></a>
 
 ### Smoothing.Duplicate()
 
 Creates a copy of the current DataModelObject.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="Smoothing.Evaluate"></a>
+
+### Smoothing.Evaluate()
+
+Run the Evaluate action.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="Smoothing.GetChildren"></a>
+
+### Smoothing.GetChildren(recurses: System.Boolean, children: System.Collections.Generic.IList[ChildrenType])
+
+Gets the list of children, filtered by type.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="Smoothing.GetParameter"></a>
+
+### Smoothing.GetParameter(propName: System.String)
+
+Gets the parameter corresponding to the given property.
 
 <!-- !! processed by numpydoc !! -->
 
@@ -309,11 +301,11 @@ Run the GroupSimilarObjects action.
 
 <!-- !! processed by numpydoc !! -->
 
-<a id="Smoothing.PropertyByName"></a>
+<a id="Smoothing.ImportSTL"></a>
 
-### Smoothing.PropertyByName(name: System.String)
+### Smoothing.ImportSTL()
 
-Get a property by its unique name.
+Run the ImportSTL action.
 
 <!-- !! processed by numpydoc !! -->
 
@@ -321,24 +313,18 @@ Get a property by its unique name.
 
 ### Smoothing.PropertyByAPIName(name: System.String)
 
+```text
 Get a property by its API name.
 If multiple properties have the same API Name, only the first property with that name will be returned.
+```
 
 <!-- !! processed by numpydoc !! -->
 
-<a id="Smoothing.CreateParameter"></a>
+<a id="Smoothing.PropertyByName"></a>
 
-### Smoothing.CreateParameter(propName: System.String)
+### Smoothing.PropertyByName(name: System.String)
 
-Creates a new parameter for a Property.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="Smoothing.GetParameter"></a>
-
-### Smoothing.GetParameter(propName: System.String)
-
-Gets the parameter corresponding to the given property.
+Get a property by its unique name.
 
 <!-- !! processed by numpydoc !! -->
 

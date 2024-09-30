@@ -1,6 +1,6 @@
 # `SurfaceChargeDensity`
 
-
+<a id="ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.BoundaryConditions.SurfaceChargeDensity"></a>
 
 #### *class* ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.BoundaryConditions.SurfaceChargeDensity
 
@@ -17,95 +17,45 @@ Defines a SurfaceChargeDensity.
 ### Methods
 
 | Name | Description |
-|------------------------------------------------------------------------------|-----------------------------------------------------------------------------------|
-| [`PromoteToNamedSelection`](#SurfaceChargeDensity.PromoteToNamedSelection)   | Run the PromoteToNamedSelection action.                                           |
-| [`Delete`](#SurfaceChargeDensity.Delete)                                     | Run the Delete action.                                                            |
-| [`GetChildren`](#id1)                                                        | Gets the list of children, filtered by type.                                      |
-| [`GetChildren`](#id1)                                                        | Gets the list of children, filtered by type.                                      |
-| [`AddComment`](#SurfaceChargeDensity.AddComment)                             | Creates a new child Comment.                                                      |
-| [`AddFigure`](#SurfaceChargeDensity.AddFigure)                               | Creates a new child Figure.                                                       |
-| [`AddImage`](#SurfaceChargeDensity.AddImage)                                 | Creates a new child Image.                                                        |
-| [`Activate`](#SurfaceChargeDensity.Activate)                                 | Activate the current object.                                                      |
-| [`CopyTo`](#SurfaceChargeDensity.CopyTo)                                     | Copies all visible properties from this object to another.                        |
-| [`Duplicate`](#SurfaceChargeDensity.Duplicate)                               | Creates a copy of the current DataModelObject.                                    |
-| [`GroupAllSimilarChildren`](#SurfaceChargeDensity.GroupAllSimilarChildren)   | Run the GroupAllSimilarChildren action.                                           |
-| [`GroupSimilarObjects`](#SurfaceChargeDensity.GroupSimilarObjects)           | Run the GroupSimilarObjects action.                                               |
-| [`PropertyByName`](#SurfaceChargeDensity.PropertyByName)                     | Get a property by its unique name.                                                |
-| [`PropertyByAPIName`](#SurfaceChargeDensity.PropertyByAPIName)               | Get a property by its API name.                                                   |
-| [`CreateParameter`](#SurfaceChargeDensity.CreateParameter)                   | Creates a new parameter for a Property.                                           |
-| [`GetParameter`](#SurfaceChargeDensity.GetParameter)                         | Gets the parameter corresponding to the given property.                           |
-| [`RemoveParameter`](#SurfaceChargeDensity.RemoveParameter)                   | Removes the parameter from the parameter set corresponding to the given property. |
+|----------------------------------------------------------------------------|-----------------------------------------------------------------------------------|
+| [`Activate`](#SurfaceChargeDensity.Activate)                               | Activate the current object.                                                      |
+| [`AddComment`](#SurfaceChargeDensity.AddComment)                           | Creates a new child Comment.                                                      |
+| [`AddFigure`](#SurfaceChargeDensity.AddFigure)                             | Creates a new child Figure.                                                       |
+| [`AddImage`](#SurfaceChargeDensity.AddImage)                               | Creates a new child Image.                                                        |
+| [`CopyTo`](#SurfaceChargeDensity.CopyTo)                                   | Copies all visible properties from this object to another.                        |
+| [`CreateParameter`](#SurfaceChargeDensity.CreateParameter)                 | Creates a new parameter for a Property.                                           |
+| [`Delete`](#SurfaceChargeDensity.Delete)                                   | Run the Delete action.                                                            |
+| [`Duplicate`](#SurfaceChargeDensity.Duplicate)                             | Creates a copy of the current DataModelObject.                                    |
+| [`GetChildren`](#SurfaceChargeDensity.GetChildren)                         | Gets the list of children, filtered by type.                                      |
+| [`GetParameter`](#SurfaceChargeDensity.GetParameter)                       | Gets the parameter corresponding to the given property.                           |
+| [`GroupAllSimilarChildren`](#SurfaceChargeDensity.GroupAllSimilarChildren) | Run the GroupAllSimilarChildren action.                                           |
+| [`GroupSimilarObjects`](#SurfaceChargeDensity.GroupSimilarObjects)         | Run the GroupSimilarObjects action.                                               |
+| [`PromoteToNamedSelection`](#SurfaceChargeDensity.PromoteToNamedSelection) | Run the PromoteToNamedSelection action.                                           |
+| [`PropertyByAPIName`](#SurfaceChargeDensity.PropertyByAPIName)             | Get a property by its API name.                                                   |
+| [`PropertyByName`](#SurfaceChargeDensity.PropertyByName)                   | Get a property by its unique name.                                                |
+| [`RemoveParameter`](#SurfaceChargeDensity.RemoveParameter)                 | Removes the parameter from the parameter set corresponding to the given property. |
 
 ### Properties
 
 | Name | Description |
 |----------------------------------------------------------------------------|---------------------------------------------------------------|
-| [`InternalObject`](#id0)                                                   | Gets the internal object. For advanced usage only.            |
-| [`Magnitude`](#SurfaceChargeDensity.Magnitude)                             | Gets or sets the Magnitude.                                   |
-| [`Location`](#SurfaceChargeDensity.Location)                               | Gets or sets the Location.                                    |
-| [`DataModelObjectCategory`](#SurfaceChargeDensity.DataModelObjectCategory) | Gets the current DataModelObject's category.                  |
-| [`Suppressed`](#SurfaceChargeDensity.Suppressed)                           | Gets or sets the Suppressed.                                  |
-| [`SharedRefBody`](#SurfaceChargeDensity.SharedRefBody)                     | Gets or sets the SharedRefBody.                               |
 | [`Children`](#SurfaceChargeDensity.Children)                               | Gets the list of children.                                    |
 | [`Comments`](#SurfaceChargeDensity.Comments)                               | Gets the list of associated comments.                         |
+| [`DataModelObjectCategory`](#SurfaceChargeDensity.DataModelObjectCategory) | Gets the current DataModelObject’s category.                  |
 | [`Figures`](#SurfaceChargeDensity.Figures)                                 | Gets the list of associated figures.                          |
 | [`Images`](#SurfaceChargeDensity.Images)                                   | Gets the list of associated images.                           |
-| [`ReadOnly`](#SurfaceChargeDensity.ReadOnly)                               | Gets or sets the ReadOnly.                                    |
-| [`InternalObject`](#id0)                                                   | Gets the internal object. For advanced usage only.            |
+| [`InternalObject`](#SurfaceChargeDensity.InternalObject)                   | Gets the internal object. For advanced usage only.            |
+| [`Location`](#SurfaceChargeDensity.Location)                               | Gets or sets the Location.                                    |
+| [`Magnitude`](#SurfaceChargeDensity.Magnitude)                             | Gets or sets the Magnitude.                                   |
 | [`Properties`](#SurfaceChargeDensity.Properties)                           | Gets the list of properties for this object.                  |
+| [`ReadOnly`](#SurfaceChargeDensity.ReadOnly)                               | Gets or sets the ReadOnly.                                    |
+| [`SharedRefBody`](#SurfaceChargeDensity.SharedRefBody)                     | Gets or sets the SharedRefBody.                               |
+| [`Suppressed`](#SurfaceChargeDensity.Suppressed)                           | Gets or sets the Suppressed.                                  |
 | [`VisibleProperties`](#SurfaceChargeDensity.VisibleProperties)             | Gets the list of properties that are visible for this object. |
 
 <a id="property-detail"></a>
 
 ## Property detail
-
-<a id="SurfaceChargeDensity.InternalObject"></a>
-
-### *property* SurfaceChargeDensity.InternalObject *: Ansys.Common.Interop.DSObjectsAuto.IDSLoadAuto | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets the internal object. For advanced usage only.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="SurfaceChargeDensity.Magnitude"></a>
-
-### *property* SurfaceChargeDensity.Magnitude *: [Ansys.ACT.Mechanical.Fields.Field](../../../../../../v241/Ansys/ACT/Mechanical/Fields/Field.md#ansys.mechanical.stubs.v241.Ansys.ACT.Mechanical.Fields.Field) | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the Magnitude.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="SurfaceChargeDensity.Location"></a>
-
-### *property* SurfaceChargeDensity.Location *: Ansys.ACT.Interfaces.Common.ISelectionInfo | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the Location.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="SurfaceChargeDensity.DataModelObjectCategory"></a>
-
-### *property* SurfaceChargeDensity.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../../v241/Ansys/Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets the current DataModelObject's category.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="SurfaceChargeDensity.Suppressed"></a>
-
-### *property* SurfaceChargeDensity.Suppressed *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the Suppressed.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="SurfaceChargeDensity.SharedRefBody"></a>
-
-### *property* SurfaceChargeDensity.SharedRefBody *: [Ansys.ACT.Automation.Mechanical.Body](../../../../../../v241/Ansys/ACT/Automation/Mechanical/Body.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Body) | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the SharedRefBody.
-
-<!-- !! processed by numpydoc !! -->
 
 <a id="SurfaceChargeDensity.Children"></a>
 
@@ -120,6 +70,14 @@ Gets the list of children.
 ### *property* SurfaceChargeDensity.Comments *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Comment](../../../../../../v241/Ansys/ACT/Automation/Mechanical/Comment.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated comments.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="SurfaceChargeDensity.DataModelObjectCategory"></a>
+
+### *property* SurfaceChargeDensity.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets the current DataModelObject’s category.
 
 <!-- !! processed by numpydoc !! -->
 
@@ -139,19 +97,27 @@ Gets the list of associated images.
 
 <!-- !! processed by numpydoc !! -->
 
-<a id="SurfaceChargeDensity.ReadOnly"></a>
+<a id="SurfaceChargeDensity.InternalObject"></a>
 
-### *property* SurfaceChargeDensity.ReadOnly *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* SurfaceChargeDensity.InternalObject *: Ansys.Common.Interop.DSObjectsAuto.IDSLoadAuto | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets or sets the ReadOnly.
+Gets the internal object. For advanced usage only.
 
 <!-- !! processed by numpydoc !! -->
 
-<a id="id0"></a>
+<a id="SurfaceChargeDensity.Location"></a>
 
-### *property* SurfaceChargeDensity.InternalObject *: System.Object | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* SurfaceChargeDensity.Location *: Ansys.ACT.Interfaces.Common.ISelectionInfo | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets the internal object. For advanced usage only.
+Gets or sets the Location.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="SurfaceChargeDensity.Magnitude"></a>
+
+### *property* SurfaceChargeDensity.Magnitude *: [Ansys.ACT.Mechanical.Fields.Field](../../../Mechanical/Fields/Field.md#ansys.mechanical.stubs.v242.Ansys.ACT.Mechanical.Fields.Field) | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the Magnitude.
 
 <!-- !! processed by numpydoc !! -->
 
@@ -160,6 +126,30 @@ Gets the internal object. For advanced usage only.
 ### *property* SurfaceChargeDensity.Properties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of properties for this object.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="SurfaceChargeDensity.ReadOnly"></a>
+
+### *property* SurfaceChargeDensity.ReadOnly *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the ReadOnly.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="SurfaceChargeDensity.SharedRefBody"></a>
+
+### *property* SurfaceChargeDensity.SharedRefBody *: [Ansys.ACT.Automation.Mechanical.Body](../../../../../../v241/Ansys/ACT/Automation/Mechanical/Body.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Body) | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the SharedRefBody.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="SurfaceChargeDensity.Suppressed"></a>
+
+### *property* SurfaceChargeDensity.Suppressed *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the Suppressed.
 
 <!-- !! processed by numpydoc !! -->
 
@@ -175,35 +165,11 @@ Gets the list of properties that are visible for this object.
 
 ## Method detail
 
-<a id="SurfaceChargeDensity.PromoteToNamedSelection"></a>
+<a id="SurfaceChargeDensity.Activate"></a>
 
-### SurfaceChargeDensity.PromoteToNamedSelection()
+### SurfaceChargeDensity.Activate()
 
-Run the PromoteToNamedSelection action.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="SurfaceChargeDensity.Delete"></a>
-
-### SurfaceChargeDensity.Delete()
-
-Run the Delete action.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="SurfaceChargeDensity.GetChildren"></a>
-
-### SurfaceChargeDensity.GetChildren(recurses: System.Boolean, children: System.Collections.Generic.IList[ChildrenType])
-
-Gets the list of children, filtered by type.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="id1"></a>
-
-### SurfaceChargeDensity.GetChildren(category: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../../v241/Ansys/Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory), recurses: System.Boolean, children: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject])
-
-Gets the list of children, filtered by type.
+Activate the current object.
 
 <!-- !! processed by numpydoc !! -->
 
@@ -227,17 +193,11 @@ Creates a new child Figure.
 
 ### SurfaceChargeDensity.AddImage(filePath: System.String)
 
+```text
 Creates a new child Image.
 If a filePath is provided, the image will be loaded from that file,
 if not, the image will be a screen capture of the Geometry window.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="SurfaceChargeDensity.Activate"></a>
-
-### SurfaceChargeDensity.Activate()
-
-Activate the current object.
+```
 
 <!-- !! processed by numpydoc !! -->
 
@@ -249,11 +209,43 @@ Copies all visible properties from this object to another.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="SurfaceChargeDensity.CreateParameter"></a>
+
+### SurfaceChargeDensity.CreateParameter(propName: System.String)
+
+Creates a new parameter for a Property.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="SurfaceChargeDensity.Delete"></a>
+
+### SurfaceChargeDensity.Delete()
+
+Run the Delete action.
+
+<!-- !! processed by numpydoc !! -->
+
 <a id="SurfaceChargeDensity.Duplicate"></a>
 
 ### SurfaceChargeDensity.Duplicate()
 
 Creates a copy of the current DataModelObject.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="SurfaceChargeDensity.GetChildren"></a>
+
+### SurfaceChargeDensity.GetChildren(recurses: System.Boolean, children: System.Collections.Generic.IList[ChildrenType])
+
+Gets the list of children, filtered by type.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="SurfaceChargeDensity.GetParameter"></a>
+
+### SurfaceChargeDensity.GetParameter(propName: System.String)
+
+Gets the parameter corresponding to the given property.
 
 <!-- !! processed by numpydoc !! -->
 
@@ -273,11 +265,11 @@ Run the GroupSimilarObjects action.
 
 <!-- !! processed by numpydoc !! -->
 
-<a id="SurfaceChargeDensity.PropertyByName"></a>
+<a id="SurfaceChargeDensity.PromoteToNamedSelection"></a>
 
-### SurfaceChargeDensity.PropertyByName(name: System.String)
+### SurfaceChargeDensity.PromoteToNamedSelection()
 
-Get a property by its unique name.
+Run the PromoteToNamedSelection action.
 
 <!-- !! processed by numpydoc !! -->
 
@@ -285,24 +277,18 @@ Get a property by its unique name.
 
 ### SurfaceChargeDensity.PropertyByAPIName(name: System.String)
 
+```text
 Get a property by its API name.
 If multiple properties have the same API Name, only the first property with that name will be returned.
+```
 
 <!-- !! processed by numpydoc !! -->
 
-<a id="SurfaceChargeDensity.CreateParameter"></a>
+<a id="SurfaceChargeDensity.PropertyByName"></a>
 
-### SurfaceChargeDensity.CreateParameter(propName: System.String)
+### SurfaceChargeDensity.PropertyByName(name: System.String)
 
-Creates a new parameter for a Property.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="SurfaceChargeDensity.GetParameter"></a>
-
-### SurfaceChargeDensity.GetParameter(propName: System.String)
-
-Gets the parameter corresponding to the given property.
+Get a property by its unique name.
 
 <!-- !! processed by numpydoc !! -->
 

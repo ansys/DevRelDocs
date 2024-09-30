@@ -1,6 +1,6 @@
 # `PinBehavior`
 
-
+<a id="ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.PinBehavior"></a>
 
 #### *class* ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.PinBehavior
 
@@ -17,7 +17,7 @@ Specifies the PinBehavior.
 ### Attributes
 
 | Name |
-| ----------------------------------------------------- |
+| ------------------------------------------------------------------------------------------------------------------------ |
 | [`PinAcceleration`](#PinBehavior.PinAcceleration) |
 | [`PinForce`](#PinBehavior.PinForce) |
 | [`PinPosition`](#PinBehavior.PinPosition) |

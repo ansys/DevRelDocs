@@ -1,6 +1,6 @@
 # `CommandColl`
 
-
+<a id="ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.FE.CommandColl"></a>
 
 #### *class* ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.FE.CommandColl
 
@@ -18,8 +18,8 @@ Collection of commands.
 
 | Name | Description |
 |---------------------------------------------------------------------------------------------------------|-------------------------------|
-| [`Count`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/FE/CommandColl.md#CommandColl.Count)   | Gets the count of commands.   |
-| [`Item`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/FE/CommandColl.md#CommandColl.Item)     | Item property.                |
+| [`Count`](#CommandColl.Count)   | Gets the count of commands.   |
+| [`Item`](#CommandColl.Item)     | Item property.                |
 
 <a id="property-detail"></a>
 

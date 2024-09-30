@@ -1,6 +1,6 @@
 # `CrackMeshMethod`
 
-
+<a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.CrackMeshMethod"></a>
 
 #### *class* ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.CrackMeshMethod
 
@@ -17,9 +17,9 @@ Specifies the CrackMeshMethod.
 ### Attributes
 
 | Name |
-| ------------------------------------------------------------------------------------------------------------------------ |
-| [`HexDominant`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/CrackMeshMethod.md#CrackMeshMethod.HexDominant) |
-| [`Tetrahedrons`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/CrackMeshMethod.md#CrackMeshMethod.Tetrahedrons) |
+| ------------------------------------------------- |
+| [`HexDominant`](#CrackMeshMethod.HexDominant) |
+| [`Tetrahedrons`](#CrackMeshMethod.Tetrahedrons) |
 
 <a id="attribute-detail"></a>
 

@@ -1,6 +1,6 @@
 # `FatigueLoadType`
 
-
+<a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.FatigueLoadType"></a>
 
 #### *class* ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.FatigueLoadType
 
@@ -17,12 +17,12 @@ Specifies the FatigueLoadType.
 ### Attributes
 
 | Name |
-| ------------------------------------------------------------------------------------------------------------------------------ |
-| [`FullyReversed`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/FatigueLoadType.md#FatigueLoadType.FullyReversed) |
-| [`HistoryData`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/FatigueLoadType.md#FatigueLoadType.HistoryData) |
-| [`NonProportional`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/FatigueLoadType.md#FatigueLoadType.NonProportional) |
-| [`Ratio`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/FatigueLoadType.md#FatigueLoadType.Ratio) |
-| [`ZeroBased`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/FatigueLoadType.md#FatigueLoadType.ZeroBased) |
+| ------------------------------------------------------- |
+| [`FullyReversed`](#FatigueLoadType.FullyReversed) |
+| [`HistoryData`](#FatigueLoadType.HistoryData) |
+| [`NonProportional`](#FatigueLoadType.NonProportional) |
+| [`Ratio`](#FatigueLoadType.Ratio) |
+| [`ZeroBased`](#FatigueLoadType.ZeroBased) |
 
 <a id="attribute-detail"></a>
 

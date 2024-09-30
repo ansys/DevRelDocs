@@ -1,6 +1,6 @@
 # `SectionPlanes`
 
-
+<a id="ansys.mechanical.stubs.v242.Ansys.Mechanical.Graphics.SectionPlanes"></a>
 
 #### *class* ansys.mechanical.stubs.v242.Ansys.Mechanical.Graphics.SectionPlanes
 
@@ -17,7 +17,7 @@ Represents the collection of section planes used by graphics
 ### Methods
 
 | Name | Description |
-|---------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------|
+|--------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [`Add`](#SectionPlanes.Add)           | Adds the given SectionPlane object to the collection to modify the view. Currently only 6 SectionPlane objects in the collection can be activated at once.   |
 | [`Clear`](#SectionPlanes.Clear)       | Clears the collection of all SectionPlane objects.                                                                                                           |
 | [`Remove`](#SectionPlanes.Remove)     | Removes the requested SectionPlane from the collection.                                                                                                      |
@@ -26,26 +26,18 @@ Represents the collection of section planes used by graphics
 ### Properties
 
 | Name | Description |
-|---------------------------------------------------------|------------------------------------------------------------|
-| [`ShowWholeElement`](#SectionPlanes.ShowWholeElement)   | Gets or Sets the Element Visibility of the Section Plane   |
-| [`Capping`](#SectionPlanes.Capping)                     | Gets or Sets the Capping style of the Section Plane        |
-| [`Count`](#SectionPlanes.Count)                         | The number of section planes in the collection.            |
+|------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------|
+| [`Capping`](#SectionPlanes.Capping)                   | Gets or Sets the Capping style of the Section Plane      |
+| [`Count`](#SectionPlanes.Count)                       | The number of section planes in the collection.          |
+| [`ShowWholeElement`](#SectionPlanes.ShowWholeElement) | Gets or Sets the Element Visibility of the Section Plane |
 
 <a id="property-detail"></a>
 
 ## Property detail
 
-<a id="SectionPlanes.ShowWholeElement"></a>
-
-### *property* SectionPlanes.ShowWholeElement *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or Sets the Element Visibility of the Section Plane
-
-<!-- !! processed by numpydoc !! -->
-
 <a id="SectionPlanes.Capping"></a>
 
-### *property* SectionPlanes.Capping *: [Ansys.Mechanical.DataModel.Enums.SectionPlaneCappingType](../../../../v241/Ansys/Mechanical/DataModel/Enums/SectionPlaneCappingType.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.SectionPlaneCappingType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* SectionPlanes.Capping *: [Ansys.Mechanical.DataModel.Enums.SectionPlaneCappingType](../DataModel/Enums/SectionPlaneCappingType.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.SectionPlaneCappingType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or Sets the Capping style of the Section Plane
 
@@ -59,13 +51,21 @@ The number of section planes in the collection.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="SectionPlanes.ShowWholeElement"></a>
+
+### *property* SectionPlanes.ShowWholeElement *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or Sets the Element Visibility of the Section Plane
+
+<!-- !! processed by numpydoc !! -->
+
 <a id="method-detail"></a>
 
 ## Method detail
 
 <a id="SectionPlanes.Add"></a>
 
-### SectionPlanes.Add(sectionPlane: [Ansys.Mechanical.Graphics.SectionPlane](../../../../v241/Ansys/Mechanical/Graphics/SectionPlane.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.Graphics.SectionPlane))
+### SectionPlanes.Add(sectionPlane: [Ansys.Mechanical.Graphics.SectionPlane](SectionPlane.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.Graphics.SectionPlane))
 
 Adds the given SectionPlane object to the collection to modify the view. Currently only 6 SectionPlane objects in the collection can be activated at once.
 
@@ -81,7 +81,7 @@ Clears the collection of all SectionPlane objects.
 
 <a id="SectionPlanes.Remove"></a>
 
-### SectionPlanes.Remove(sectionPlane: [Ansys.Mechanical.Graphics.SectionPlane](../../../../v241/Ansys/Mechanical/Graphics/SectionPlane.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.Graphics.SectionPlane))
+### SectionPlanes.Remove(sectionPlane: [Ansys.Mechanical.Graphics.SectionPlane](SectionPlane.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.Graphics.SectionPlane))
 
 Removes the requested SectionPlane from the collection.
 

@@ -1,6 +1,6 @@
 # `ContactBoltThreadHand`
 
-
+<a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.ContactBoltThreadHand"></a>
 
 #### *class* ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.ContactBoltThreadHand
 
@@ -17,9 +17,9 @@ Specifies the ContactBoltThreadHand.
 ### Attributes
 
 | Name |
-| ------------------------------------------------------------------------------------------------------------------------------ |
-| [`LeftHand`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/ContactBoltThreadHand.md#ContactBoltThreadHand.LeftHand) |
-| [`RightHand`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/ContactBoltThreadHand.md#ContactBoltThreadHand.RightHand) |
+| ------------------------------------------------- |
+| [`LeftHand`](#ContactBoltThreadHand.LeftHand) |
+| [`RightHand`](#ContactBoltThreadHand.RightHand) |
 
 <a id="attribute-detail"></a>
 

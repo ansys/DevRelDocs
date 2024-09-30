@@ -1,6 +1,6 @@
 # `KinematicDOF`
 
-
+<a id="ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.KinematicDOF"></a>
 
 #### *class* ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.KinematicDOF
 
@@ -17,7 +17,7 @@ Specifies the KinematicDOF.
 ### Attributes
 
 | Name |
-| ------------------------------------------------ |
+| -------------------------------------------------------------------------------------------------------------------- |
 | [`RotationX`](#KinematicDOF.RotationX) |
 | [`RotationY`](#KinematicDOF.RotationY) |
 | [`RotationZ`](#KinematicDOF.RotationZ) |

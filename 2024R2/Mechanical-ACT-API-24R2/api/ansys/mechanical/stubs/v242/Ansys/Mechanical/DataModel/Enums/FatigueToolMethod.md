@@ -1,6 +1,6 @@
 # `FatigueToolMethod`
 
-
+<a id="ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.FatigueToolMethod"></a>
 
 #### *class* ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.FatigueToolMethod
 
@@ -17,7 +17,7 @@ Specifies the FatigueToolMethod.
 ### Attributes
 
 | Name |
-| ------------------------------------------------- |
+| -------------------------------------------------------------------------------------------------------------------------- |
 | [`NarrowBand`](#FatigueToolMethod.NarrowBand) |
 | [`Steinberg`](#FatigueToolMethod.Steinberg) |
 | [`Wirsching`](#FatigueToolMethod.Wirsching) |

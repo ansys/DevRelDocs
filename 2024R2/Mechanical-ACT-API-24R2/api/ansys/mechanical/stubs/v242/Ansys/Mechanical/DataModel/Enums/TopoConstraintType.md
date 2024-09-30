@@ -1,6 +1,6 @@
 # `TopoConstraintType`
 
-
+<a id="ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.TopoConstraintType"></a>
 
 #### *class* ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.TopoConstraintType
 
@@ -17,7 +17,7 @@ Specifies the TopoConstraintType.
 ### Attributes
 
 | Name |
-| ---------------------------------------------------------------------------- |
+| ------------------------------------------------------------------------------------------------------------------------------------------------------ |
 | [`ManufacturingConstraint`](#TopoConstraintType.ManufacturingConstraint) |
 | [`ResponseConstrain`](#TopoConstraintType.ResponseConstrain) |
 

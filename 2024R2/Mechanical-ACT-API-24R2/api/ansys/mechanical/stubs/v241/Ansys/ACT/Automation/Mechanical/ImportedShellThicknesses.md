@@ -1,6 +1,6 @@
 # `ImportedShellThicknesses`
 
-
+<a id="ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.ImportedShellThicknesses"></a>
 
 #### *class* ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.ImportedShellThicknesses
 
@@ -18,75 +18,41 @@ Defines a ImportedShellThicknesses.
 
 | Name | Description |
 |---------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------|
-| [`Delete`](../../../../../v242/Ansys/ACT/Automation/Mechanical/ImportedShellThicknesses.md#ImportedShellThicknesses.Delete)                                   | Run the Delete action.                                                            |
-| [`GetChildren`](../../../../../v242/Ansys/ACT/Automation/Mechanical/ImportedShellThicknesses.md#id1)                                                          | Gets the list of children, filtered by type.                                      |
-| [`GetChildren`](../../../../../v242/Ansys/ACT/Automation/Mechanical/ImportedShellThicknesses.md#id1)                                                          | Gets the list of children, filtered by type.                                      |
-| [`AddComment`](../../../../../v242/Ansys/ACT/Automation/Mechanical/ImportedShellThicknesses.md#ImportedShellThicknesses.AddComment)                           | Creates a new child Comment.                                                      |
-| [`AddFigure`](../../../../../v242/Ansys/ACT/Automation/Mechanical/ImportedShellThicknesses.md#ImportedShellThicknesses.AddFigure)                             | Creates a new child Figure.                                                       |
-| [`AddImage`](../../../../../v242/Ansys/ACT/Automation/Mechanical/ImportedShellThicknesses.md#ImportedShellThicknesses.AddImage)                               | Creates a new child Image.                                                        |
-| [`Activate`](../../../../../v242/Ansys/ACT/Automation/Mechanical/ImportedShellThicknesses.md#ImportedShellThicknesses.Activate)                               | Activate the current object.                                                      |
-| [`CopyTo`](../../../../../v242/Ansys/ACT/Automation/Mechanical/ImportedShellThicknesses.md#ImportedShellThicknesses.CopyTo)                                   | Copies all visible properties from this object to another.                        |
-| [`Duplicate`](../../../../../v242/Ansys/ACT/Automation/Mechanical/ImportedShellThicknesses.md#ImportedShellThicknesses.Duplicate)                             | Creates a copy of the current DataModelObject.                                    |
-| [`GroupAllSimilarChildren`](../../../../../v242/Ansys/ACT/Automation/Mechanical/ImportedShellThicknesses.md#ImportedShellThicknesses.GroupAllSimilarChildren) | Run the GroupAllSimilarChildren action.                                           |
-| [`GroupSimilarObjects`](../../../../../v242/Ansys/ACT/Automation/Mechanical/ImportedShellThicknesses.md#ImportedShellThicknesses.GroupSimilarObjects)         | Run the GroupSimilarObjects action.                                               |
-| [`PropertyByName`](../../../../../v242/Ansys/ACT/Automation/Mechanical/ImportedShellThicknesses.md#ImportedShellThicknesses.PropertyByName)                   | Get a property by its unique name.                                                |
-| [`PropertyByAPIName`](../../../../../v242/Ansys/ACT/Automation/Mechanical/ImportedShellThicknesses.md#ImportedShellThicknesses.PropertyByAPIName)             | Get a property by its API name.                                                   |
-| [`CreateParameter`](../../../../../v242/Ansys/ACT/Automation/Mechanical/ImportedShellThicknesses.md#ImportedShellThicknesses.CreateParameter)                 | Creates a new parameter for a Property.                                           |
-| [`GetParameter`](../../../../../v242/Ansys/ACT/Automation/Mechanical/ImportedShellThicknesses.md#ImportedShellThicknesses.GetParameter)                       | Gets the parameter corresponding to the given property.                           |
-| [`RemoveParameter`](../../../../../v242/Ansys/ACT/Automation/Mechanical/ImportedShellThicknesses.md#ImportedShellThicknesses.RemoveParameter)                 | Removes the parameter from the parameter set corresponding to the given property. |
+| [`Activate`](#ImportedShellThicknesses.Activate)                               | Activate the current object.                                                      |
+| [`AddComment`](#ImportedShellThicknesses.AddComment)                           | Creates a new child Comment.                                                      |
+| [`AddFigure`](#ImportedShellThicknesses.AddFigure)                             | Creates a new child Figure.                                                       |
+| [`AddImage`](#ImportedShellThicknesses.AddImage)                               | Creates a new child Image.                                                        |
+| [`CopyTo`](#ImportedShellThicknesses.CopyTo)                                   | Copies all visible properties from this object to another.                        |
+| [`CreateParameter`](#ImportedShellThicknesses.CreateParameter)                 | Creates a new parameter for a Property.                                           |
+| [`Delete`](#ImportedShellThicknesses.Delete)                                   | Run the Delete action.                                                            |
+| [`Duplicate`](#ImportedShellThicknesses.Duplicate)                             | Creates a copy of the current DataModelObject.                                    |
+| [`GetChildren`](#ImportedShellThicknesses.GetChildren)                         | Gets the list of children, filtered by type.                                      |
+| [`GetParameter`](#ImportedShellThicknesses.GetParameter)                       | Gets the parameter corresponding to the given property.                           |
+| [`GroupAllSimilarChildren`](#ImportedShellThicknesses.GroupAllSimilarChildren) | Run the GroupAllSimilarChildren action.                                           |
+| [`GroupSimilarObjects`](#ImportedShellThicknesses.GroupSimilarObjects)         | Run the GroupSimilarObjects action.                                               |
+| [`PropertyByAPIName`](#ImportedShellThicknesses.PropertyByAPIName)             | Get a property by its API name.                                                   |
+| [`PropertyByName`](#ImportedShellThicknesses.PropertyByName)                   | Get a property by its unique name.                                                |
+| [`RemoveParameter`](#ImportedShellThicknesses.RemoveParameter)                 | Removes the parameter from the parameter set corresponding to the given property. |
 
 ### Properties
 
 | Name | Description |
 |---------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------|
-| [`InternalObject`](../../../../../v242/Ansys/ACT/Automation/Mechanical/ImportedShellThicknesses.md#id0)                                                       | Gets the internal object. For advanced usage only.            |
-| [`DataModelObjectCategory`](../../../../../v242/Ansys/ACT/Automation/Mechanical/ImportedShellThicknesses.md#ImportedShellThicknesses.DataModelObjectCategory) | Gets the current DataModelObject's category.                  |
-| [`Count`](../../../../../v242/Ansys/ACT/Automation/Mechanical/ImportedShellThicknesses.md#ImportedShellThicknesses.Count)                                     | Gets the NumberOfRows.                                        |
-| [`Suppressed`](../../../../../v242/Ansys/ACT/Automation/Mechanical/ImportedShellThicknesses.md#ImportedShellThicknesses.Suppressed)                           | Gets or sets the Suppressed.                                  |
-| [`Children`](../../../../../v242/Ansys/ACT/Automation/Mechanical/ImportedShellThicknesses.md#ImportedShellThicknesses.Children)                               | Gets the list of children.                                    |
-| [`Comments`](../../../../../v242/Ansys/ACT/Automation/Mechanical/ImportedShellThicknesses.md#ImportedShellThicknesses.Comments)                               | Gets the list of associated comments.                         |
-| [`Figures`](../../../../../v242/Ansys/ACT/Automation/Mechanical/ImportedShellThicknesses.md#ImportedShellThicknesses.Figures)                                 | Gets the list of associated figures.                          |
-| [`Images`](../../../../../v242/Ansys/ACT/Automation/Mechanical/ImportedShellThicknesses.md#ImportedShellThicknesses.Images)                                   | Gets the list of associated images.                           |
-| [`ReadOnly`](../../../../../v242/Ansys/ACT/Automation/Mechanical/ImportedShellThicknesses.md#ImportedShellThicknesses.ReadOnly)                               | Gets or sets the ReadOnly.                                    |
-| [`InternalObject`](../../../../../v242/Ansys/ACT/Automation/Mechanical/ImportedShellThicknesses.md#id0)                                                       | Gets the internal object. For advanced usage only.            |
-| [`Properties`](../../../../../v242/Ansys/ACT/Automation/Mechanical/ImportedShellThicknesses.md#ImportedShellThicknesses.Properties)                           | Gets the list of properties for this object.                  |
-| [`VisibleProperties`](../../../../../v242/Ansys/ACT/Automation/Mechanical/ImportedShellThicknesses.md#ImportedShellThicknesses.VisibleProperties)             | Gets the list of properties that are visible for this object. |
+| [`Children`](#ImportedShellThicknesses.Children)                               | Gets the list of children.                                    |
+| [`Comments`](#ImportedShellThicknesses.Comments)                               | Gets the list of associated comments.                         |
+| [`Count`](#ImportedShellThicknesses.Count)                                     | Gets the NumberOfRows.                                        |
+| [`DataModelObjectCategory`](#ImportedShellThicknesses.DataModelObjectCategory) | Gets the current DataModelObject’s category.                  |
+| [`Figures`](#ImportedShellThicknesses.Figures)                                 | Gets the list of associated figures.                          |
+| [`Images`](#ImportedShellThicknesses.Images)                                   | Gets the list of associated images.                           |
+| [`InternalObject`](#ImportedShellThicknesses.InternalObject)                   | Gets the internal object. For advanced usage only.            |
+| [`Properties`](#ImportedShellThicknesses.Properties)                           | Gets the list of properties for this object.                  |
+| [`ReadOnly`](#ImportedShellThicknesses.ReadOnly)                               | Gets or sets the ReadOnly.                                    |
+| [`Suppressed`](#ImportedShellThicknesses.Suppressed)                           | Gets or sets the Suppressed.                                  |
+| [`VisibleProperties`](#ImportedShellThicknesses.VisibleProperties)             | Gets the list of properties that are visible for this object. |
 
 <a id="property-detail"></a>
 
 ## Property detail
-
-<a id="ImportedShellThicknesses.InternalObject"></a>
-
-### *property* ImportedShellThicknesses.InternalObject *: Ansys.Common.Interop.DSObjectsAuto.IDSExternalModelDataCollAuto | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets the internal object. For advanced usage only.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="ImportedShellThicknesses.DataModelObjectCategory"></a>
-
-### *property* ImportedShellThicknesses.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets the current DataModelObject's category.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="ImportedShellThicknesses.Count"></a>
-
-### *property* ImportedShellThicknesses.Count *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets the NumberOfRows.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="ImportedShellThicknesses.Suppressed"></a>
-
-### *property* ImportedShellThicknesses.Suppressed *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the Suppressed.
-
-<!-- !! processed by numpydoc !! -->
 
 <a id="ImportedShellThicknesses.Children"></a>
 
@@ -101,6 +67,22 @@ Gets the list of children.
 ### *property* ImportedShellThicknesses.Comments *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Comment](Comment.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated comments.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ImportedShellThicknesses.Count"></a>
+
+### *property* ImportedShellThicknesses.Count *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets the NumberOfRows.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ImportedShellThicknesses.DataModelObjectCategory"></a>
+
+### *property* ImportedShellThicknesses.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../v242/Ansys/Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets the current DataModelObject’s category.
 
 <!-- !! processed by numpydoc !! -->
 
@@ -120,17 +102,9 @@ Gets the list of associated images.
 
 <!-- !! processed by numpydoc !! -->
 
-<a id="ImportedShellThicknesses.ReadOnly"></a>
+<a id="ImportedShellThicknesses.InternalObject"></a>
 
-### *property* ImportedShellThicknesses.ReadOnly *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the ReadOnly.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="id0"></a>
-
-### *property* ImportedShellThicknesses.InternalObject *: System.Object | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ImportedShellThicknesses.InternalObject *: Ansys.Common.Interop.DSObjectsAuto.IDSExternalModelDataCollAuto | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the internal object. For advanced usage only.
 
@@ -141,6 +115,22 @@ Gets the internal object. For advanced usage only.
 ### *property* ImportedShellThicknesses.Properties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of properties for this object.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ImportedShellThicknesses.ReadOnly"></a>
+
+### *property* ImportedShellThicknesses.ReadOnly *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the ReadOnly.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ImportedShellThicknesses.Suppressed"></a>
+
+### *property* ImportedShellThicknesses.Suppressed *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the Suppressed.
 
 <!-- !! processed by numpydoc !! -->
 
@@ -156,27 +146,11 @@ Gets the list of properties that are visible for this object.
 
 ## Method detail
 
-<a id="ImportedShellThicknesses.Delete"></a>
+<a id="ImportedShellThicknesses.Activate"></a>
 
-### ImportedShellThicknesses.Delete()
+### ImportedShellThicknesses.Activate()
 
-Run the Delete action.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="ImportedShellThicknesses.GetChildren"></a>
-
-### ImportedShellThicknesses.GetChildren(recurses: System.Boolean, children: System.Collections.Generic.IList[ChildrenType])
-
-Gets the list of children, filtered by type.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="id1"></a>
-
-### ImportedShellThicknesses.GetChildren(category: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory), recurses: System.Boolean, children: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject])
-
-Gets the list of children, filtered by type.
+Activate the current object.
 
 <!-- !! processed by numpydoc !! -->
 
@@ -200,17 +174,11 @@ Creates a new child Figure.
 
 ### ImportedShellThicknesses.AddImage(filePath: System.String)
 
+```text
 Creates a new child Image.
 If a filePath is provided, the image will be loaded from that file,
 if not, the image will be a screen capture of the Geometry window.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="ImportedShellThicknesses.Activate"></a>
-
-### ImportedShellThicknesses.Activate()
-
-Activate the current object.
+```
 
 <!-- !! processed by numpydoc !! -->
 
@@ -222,11 +190,43 @@ Copies all visible properties from this object to another.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="ImportedShellThicknesses.CreateParameter"></a>
+
+### ImportedShellThicknesses.CreateParameter(propName: System.String)
+
+Creates a new parameter for a Property.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ImportedShellThicknesses.Delete"></a>
+
+### ImportedShellThicknesses.Delete()
+
+Run the Delete action.
+
+<!-- !! processed by numpydoc !! -->
+
 <a id="ImportedShellThicknesses.Duplicate"></a>
 
 ### ImportedShellThicknesses.Duplicate()
 
 Creates a copy of the current DataModelObject.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ImportedShellThicknesses.GetChildren"></a>
+
+### ImportedShellThicknesses.GetChildren(recurses: System.Boolean, children: System.Collections.Generic.IList[ChildrenType])
+
+Gets the list of children, filtered by type.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ImportedShellThicknesses.GetParameter"></a>
+
+### ImportedShellThicknesses.GetParameter(propName: System.String)
+
+Gets the parameter corresponding to the given property.
 
 <!-- !! processed by numpydoc !! -->
 
@@ -246,36 +246,22 @@ Run the GroupSimilarObjects action.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="ImportedShellThicknesses.PropertyByAPIName"></a>
+
+### ImportedShellThicknesses.PropertyByAPIName(name: System.String)
+
+```text
+Get a property by its API name.
+If multiple properties have the same API Name, only the first property with that name will be returned.
+```
+
+<!-- !! processed by numpydoc !! -->
+
 <a id="ImportedShellThicknesses.PropertyByName"></a>
 
 ### ImportedShellThicknesses.PropertyByName(name: System.String)
 
 Get a property by its unique name.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="ImportedShellThicknesses.PropertyByAPIName"></a>
-
-### ImportedShellThicknesses.PropertyByAPIName(name: System.String)
-
-Get a property by its API name.
-If multiple properties have the same API Name, only the first property with that name will be returned.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="ImportedShellThicknesses.CreateParameter"></a>
-
-### ImportedShellThicknesses.CreateParameter(propName: System.String)
-
-Creates a new parameter for a Property.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="ImportedShellThicknesses.GetParameter"></a>
-
-### ImportedShellThicknesses.GetParameter(propName: System.String)
-
-Gets the parameter corresponding to the given property.
 
 <!-- !! processed by numpydoc !! -->
 

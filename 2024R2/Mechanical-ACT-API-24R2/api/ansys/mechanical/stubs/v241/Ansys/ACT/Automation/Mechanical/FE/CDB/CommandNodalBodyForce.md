@@ -1,6 +1,6 @@
 # `CommandNodalBodyForce`
 
-
+<a id="ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.FE.CDB.CommandNodalBodyForce"></a>
 
 #### *class* ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.FE.CDB.CommandNodalBodyForce
 
@@ -18,9 +18,9 @@ Represents a nodal body force associated to a BFBLOCK command.
 
 | Name | Description |
 |----------------------------------------------------------------------------------------------------------------------------------------|----------------------------|
-| [`Node`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/FE/CDB/CommandNodalBodyForce.md#CommandNodalBodyForce.Node)         | Gets the node number.      |
-| [`ValCount`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/FE/CDB/CommandNodalBodyForce.md#CommandNodalBodyForce.ValCount) | Gets the number of values. |
-| [`Values`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/FE/CDB/CommandNodalBodyForce.md#CommandNodalBodyForce.Values)     | Gets the values.           |
+| [`Node`](#CommandNodalBodyForce.Node)         | Gets the node number.      |
+| [`ValCount`](#CommandNodalBodyForce.ValCount) | Gets the number of values. |
+| [`Values`](#CommandNodalBodyForce.Values)     | Gets the values.           |
 
 <a id="property-detail"></a>
 

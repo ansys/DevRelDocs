@@ -1,6 +1,6 @@
 # `LinePressureResultBasedOnType`
 
-
+<a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.LinePressureResultBasedOnType"></a>
 
 #### *class* ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.LinePressureResultBasedOnType
 
@@ -17,9 +17,9 @@ Specifies the LinePressureResultBasedOnType.
 ### Attributes
 
 | Name |
-| -------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| [`NodalForce`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/LinePressureResultBasedOnType.md#LinePressureResultBasedOnType.NodalForce) |
-| [`NormalGasketPressure`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/LinePressureResultBasedOnType.md#LinePressureResultBasedOnType.NormalGasketPressure) |
+| ------------------------------------------------------------------------------- |
+| [`NodalForce`](#LinePressureResultBasedOnType.NodalForce) |
+| [`NormalGasketPressure`](#LinePressureResultBasedOnType.NormalGasketPressure) |
 
 <a id="attribute-detail"></a>
 

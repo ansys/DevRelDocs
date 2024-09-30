@@ -1,6 +1,6 @@
 # `TopoOptimizationExportDesignPropertiesFileFormat`
 
-
+<a id="ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.TopoOptimizationExportDesignPropertiesFileFormat"></a>
 
 #### *class* ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.TopoOptimizationExportDesignPropertiesFileFormat
 
@@ -17,7 +17,7 @@ Specifies the TopoOptimizationExportDesignPropertiesFileFormat.
 ### Attributes
 
 | Name |
-| -------------------------------------------------------------------- |
+| ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | [`hdf5`](#TopoOptimizationExportDesignPropertiesFileFormat.hdf5) |
 | [`vtk`](#TopoOptimizationExportDesignPropertiesFileFormat.vtk) |
 

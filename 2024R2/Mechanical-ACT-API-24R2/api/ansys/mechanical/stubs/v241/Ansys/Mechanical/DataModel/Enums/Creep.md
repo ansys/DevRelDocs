@@ -1,6 +1,6 @@
 # `Creep`
 
-
+<a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.Creep"></a>
 
 #### *class* ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.Creep
 
@@ -17,9 +17,9 @@ Specifies the Creep.
 ### Attributes
 
 | Name |
-| ------------------------------------------------------------------------------------ |
-| [`Off`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/Creep.md#Creep.Off) |
-| [`On`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/Creep.md#Creep.On) |
+| ----------------------- |
+| [`Off`](#Creep.Off) |
+| [`On`](#Creep.On) |
 
 <a id="attribute-detail"></a>
 

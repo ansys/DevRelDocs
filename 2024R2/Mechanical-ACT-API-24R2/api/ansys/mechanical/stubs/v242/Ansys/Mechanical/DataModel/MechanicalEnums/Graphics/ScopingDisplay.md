@@ -1,6 +1,6 @@
 # `ScopingDisplay`
 
-
+<a id="ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.MechanicalEnums.Graphics.ScopingDisplay"></a>
 
 #### *class* ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.MechanicalEnums.Graphics.ScopingDisplay
 
@@ -17,18 +17,14 @@ Specifies the ScopingDisplay.
 ### Attributes
 
 | Name |
-| -------------------------------------------------- |
-| [`ScopedBodies`](#ScopingDisplay.ScopedBodies) |
+| -------------------------------------------------------------------------------------------------------------------------------------------- |
 | [`AllBodies`](#ScopingDisplay.AllBodies) |
 | [`ResultOnly`](#ScopingDisplay.ResultOnly) |
+| [`ScopedBodies`](#ScopingDisplay.ScopedBodies) |
 
 <a id="attribute-detail"></a>
 
 ## Attribute detail
-
-<a id="ScopingDisplay.ScopedBodies"></a>
-
-### ScopingDisplay.ScopedBodies *= 0*
 
 <a id="ScopingDisplay.AllBodies"></a>
 
@@ -37,5 +33,9 @@ Specifies the ScopingDisplay.
 <a id="ScopingDisplay.ResultOnly"></a>
 
 ### ScopingDisplay.ResultOnly *= 2*
+
+<a id="ScopingDisplay.ScopedBodies"></a>
+
+### ScopingDisplay.ScopedBodies *= 0*
 
 

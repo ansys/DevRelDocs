@@ -1,6 +1,6 @@
 # `CommandEditorTarget`
 
-
+<a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.CommandEditorTarget"></a>
 
 #### *class* ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.CommandEditorTarget
 
@@ -17,13 +17,13 @@ Specifies the CommandEditorTarget.
 ### Attributes
 
 | Name |
-| ---------------------------------------------------------------------------------------------------------------------- |
-| [`ABAQUS`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/CommandEditorTarget.md#CommandEditorTarget.ABAQUS) |
-| [`ANSYS`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/CommandEditorTarget.md#CommandEditorTarget.ANSYS) |
-| [`LSDYNA`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/CommandEditorTarget.md#CommandEditorTarget.LSDYNA) |
-| [`MBD`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/CommandEditorTarget.md#CommandEditorTarget.MBD) |
-| [`SAMCEF`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/CommandEditorTarget.md#CommandEditorTarget.SAMCEF) |
-| [`UNKNOWN`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/CommandEditorTarget.md#CommandEditorTarget.UNKNOWN) |
+| ------------------------------------------- |
+| [`ABAQUS`](#CommandEditorTarget.ABAQUS) |
+| [`ANSYS`](#CommandEditorTarget.ANSYS) |
+| [`LSDYNA`](#CommandEditorTarget.LSDYNA) |
+| [`MBD`](#CommandEditorTarget.MBD) |
+| [`SAMCEF`](#CommandEditorTarget.SAMCEF) |
+| [`UNKNOWN`](#CommandEditorTarget.UNKNOWN) |
 
 <a id="attribute-detail"></a>
 

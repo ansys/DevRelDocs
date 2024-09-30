@@ -1,6 +1,6 @@
 # `AMProcessStepType`
 
-
+<a id="ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.AMProcessStepType"></a>
 
 #### *class* ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.AMProcessStepType
 
@@ -17,18 +17,26 @@ Specifies the AMProcessStepType.
 ### Attributes
 
 | Name |
-| --------------------------------------------------------------- |
+| ---------------------------------------------------------------------------------------------------------------------------------------- |
+| [`BaseRemovalStep`](#AMProcessStepType.BaseRemovalStep) |
+| [`BaseUnboltStep`](#AMProcessStepType.BaseUnboltStep) |
 | [`BuildStep`](#AMProcessStepType.BuildStep) |
 | [`CooldownStep`](#AMProcessStepType.CooldownStep) |
-| [`BaseRemovalStep`](#AMProcessStepType.BaseRemovalStep) |
+| [`HeatTreatmentStep`](#AMProcessStepType.HeatTreatmentStep) |
 | [`SupportRemovalStep`](#AMProcessStepType.SupportRemovalStep) |
 | [`UserStep`](#AMProcessStepType.UserStep) |
-| [`HeatTreatmentStep`](#AMProcessStepType.HeatTreatmentStep) |
-| [`BaseUnboltStep`](#AMProcessStepType.BaseUnboltStep) |
 
 <a id="attribute-detail"></a>
 
 ## Attribute detail
+
+<a id="AMProcessStepType.BaseRemovalStep"></a>
+
+### AMProcessStepType.BaseRemovalStep *= 2*
+
+<a id="AMProcessStepType.BaseUnboltStep"></a>
+
+### AMProcessStepType.BaseUnboltStep *= 6*
 
 <a id="AMProcessStepType.BuildStep"></a>
 
@@ -38,9 +46,9 @@ Specifies the AMProcessStepType.
 
 ### AMProcessStepType.CooldownStep *= 1*
 
-<a id="AMProcessStepType.BaseRemovalStep"></a>
+<a id="AMProcessStepType.HeatTreatmentStep"></a>
 
-### AMProcessStepType.BaseRemovalStep *= 2*
+### AMProcessStepType.HeatTreatmentStep *= 5*
 
 <a id="AMProcessStepType.SupportRemovalStep"></a>
 
@@ -49,13 +57,5 @@ Specifies the AMProcessStepType.
 <a id="AMProcessStepType.UserStep"></a>
 
 ### AMProcessStepType.UserStep *= 4*
-
-<a id="AMProcessStepType.HeatTreatmentStep"></a>
-
-### AMProcessStepType.HeatTreatmentStep *= 5*
-
-<a id="AMProcessStepType.BaseUnboltStep"></a>
-
-### AMProcessStepType.BaseUnboltStep *= 6*
 
 

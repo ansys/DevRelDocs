@@ -38,12 +38,8 @@
 
 | Name | Description |
 |-----------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------|
-| [`ContactDataTable`](ContactDataTable.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Results.ContactDataTable)                                  | Defines a ContactDataTable.            |
-| [`TopologyOptimizationResult`](TopologyOptimizationResult.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Results.TopologyOptimizationResult)    | Defines a TopologyOptimizationResult.  |
-| [`ResultChart`](ResultChart.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Results.ResultChart)                                                 | Defines a ResultChart.                 |
-| [`Result`](Result.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Results.Result)                                                                | Defines a Result.                      |
-| [`UserDefinedResult`](UserDefinedResult.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Results.UserDefinedResult)                               | Defines a UserDefinedResult.           |
 | [`Alert`](Alert.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Results.Alert)                                                                   | Defines a Alert.                       |
+| [`ContactDataTable`](ContactDataTable.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Results.ContactDataTable)                                  | Defines a ContactDataTable.            |
 | [`Convergence`](Convergence.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Results.Convergence)                                                 | Defines a Convergence.                 |
 | [`LatticeDensity`](LatticeDensity.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Results.LatticeDensity)                                        | Defines a LatticeDensity.              |
 | [`LatticeElementalDensity`](LatticeElementalDensity.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Results.LatticeElementalDensity)             | Defines a LatticeElementalDensity.     |
@@ -54,12 +50,16 @@
 | [`NewtonRaphsonResidualForce`](NewtonRaphsonResidualForce.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Results.NewtonRaphsonResidualForce)    | Defines a NewtonRaphsonResidualForce.  |
 | [`NewtonRaphsonResidualHeat`](NewtonRaphsonResidualHeat.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Results.NewtonRaphsonResidualHeat)       | Defines a NewtonRaphsonResidualHeat.   |
 | [`NewtonRaphsonResidualMoment`](NewtonRaphsonResidualMoment.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Results.NewtonRaphsonResidualMoment) | Defines a NewtonRaphsonResidualMoment. |
+| [`Result`](Result.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Results.Result)                                                                | Defines a Result.                      |
+| [`ResultChart`](ResultChart.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Results.ResultChart)                                                 | Defines a ResultChart.                 |
 | [`ResultTable`](ResultTable.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Results.ResultTable)                                                 | Defines a ResultTable.                 |
 | [`ShapeFinder`](ShapeFinder.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Results.ShapeFinder)                                                 | Defines a ShapeFinder.                 |
 | [`ShapeFinderElemental`](ShapeFinderElemental.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Results.ShapeFinderElemental)                      | Defines a ShapeFinderElemental.        |
 | [`Smoothing`](Smoothing.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Results.Smoothing)                                                       | Defines a Smoothing.                   |
 | [`TopologyDensity`](TopologyDensity.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Results.TopologyDensity)                                     | Defines a TopologyDensity.             |
 | [`TopologyElementalDensity`](TopologyElementalDensity.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Results.TopologyElementalDensity)          | Defines a TopologyElementalDensity.    |
+| [`TopologyOptimizationResult`](TopologyOptimizationResult.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Results.TopologyOptimizationResult)    | Defines a TopologyOptimizationResult.  |
+| [`UserDefinedResult`](UserDefinedResult.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Results.UserDefinedResult)                               | Defines a UserDefinedResult.           |
 | [`VariableGraph`](VariableGraph.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Results.VariableGraph)                                           | Defines a VariableGraph.               |
 | [`Volume`](Volume.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Results.Volume)                                                                | Defines a Volume.                      |
 

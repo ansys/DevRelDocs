@@ -1,6 +1,6 @@
 # `SectionPlaneType`
 
-
+<a id="ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.SectionPlaneType"></a>
 
 #### *class* ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.SectionPlaneType
 
@@ -17,22 +17,22 @@ Specifies the Section Plane type.
 ### Attributes
 
 | Name |
-| ---------------------------------------------------------- |
-| [`AlongDirection`](#SectionPlaneType.AlongDirection) |
+| ------------------------------------------------------------------------------------------------------------------------------------ |
 | [`AgainstDirection`](#SectionPlaneType.AgainstDirection) |
+| [`AlongDirection`](#SectionPlaneType.AlongDirection) |
 | [`PlaneOnly`](#SectionPlaneType.PlaneOnly) |
 
 <a id="attribute-detail"></a>
 
 ## Attribute detail
 
-<a id="SectionPlaneType.AlongDirection"></a>
-
-### SectionPlaneType.AlongDirection
-
 <a id="SectionPlaneType.AgainstDirection"></a>
 
 ### SectionPlaneType.AgainstDirection *= 1*
+
+<a id="SectionPlaneType.AlongDirection"></a>
+
+### SectionPlaneType.AlongDirection
 
 <a id="SectionPlaneType.PlaneOnly"></a>
 

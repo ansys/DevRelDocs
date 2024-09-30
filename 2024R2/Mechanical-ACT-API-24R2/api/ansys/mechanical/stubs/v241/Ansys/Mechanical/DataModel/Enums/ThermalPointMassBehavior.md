@@ -1,6 +1,6 @@
 # `ThermalPointMassBehavior`
 
-
+<a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.ThermalPointMassBehavior"></a>
 
 #### *class* ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.ThermalPointMassBehavior
 
@@ -17,30 +17,30 @@ Specifies the Behavior for ThermalPointMass.
 ### Attributes
 
 | Name |
-| -------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| [`Isothermal`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/ThermalPointMassBehavior.md#ThermalPointMassBehavior.Isothermal) |
-| [`HeatFluxDistributed`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/ThermalPointMassBehavior.md#ThermalPointMassBehavior.HeatFluxDistributed) |
-| [`ThermalLink`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/ThermalPointMassBehavior.md#ThermalPointMassBehavior.ThermalLink) |
-| [`Coupled`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/ThermalPointMassBehavior.md#ThermalPointMassBehavior.Coupled) |
+| ------------------------------------------------------------------------ |
+| [`Coupled`](#ThermalPointMassBehavior.Coupled) |
+| [`HeatFluxDistributed`](#ThermalPointMassBehavior.HeatFluxDistributed) |
+| [`Isothermal`](#ThermalPointMassBehavior.Isothermal) |
+| [`ThermalLink`](#ThermalPointMassBehavior.ThermalLink) |
 
 <a id="attribute-detail"></a>
 
 ## Attribute detail
 
-<a id="ThermalPointMassBehavior.Isothermal"></a>
+<a id="ThermalPointMassBehavior.Coupled"></a>
 
-### ThermalPointMassBehavior.Isothermal *= 0*
+### ThermalPointMassBehavior.Coupled *= 3*
 
 <a id="ThermalPointMassBehavior.HeatFluxDistributed"></a>
 
 ### ThermalPointMassBehavior.HeatFluxDistributed *= 1*
 
+<a id="ThermalPointMassBehavior.Isothermal"></a>
+
+### ThermalPointMassBehavior.Isothermal *= 0*
+
 <a id="ThermalPointMassBehavior.ThermalLink"></a>
 
 ### ThermalPointMassBehavior.ThermalLink *= 2*
-
-<a id="ThermalPointMassBehavior.Coupled"></a>
-
-### ThermalPointMassBehavior.Coupled *= 3*
 
 

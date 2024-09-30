@@ -1,12 +1,12 @@
 # `HemisphereOrientationDefinitionType`
 
-
+<a id="ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.MechanicalEnums.MeshWorkflow.HemisphereOrientationDefinitionType"></a>
 
 #### *class* ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.MechanicalEnums.MeshWorkflow.HemisphereOrientationDefinitionType
 
 Bases: [`enum.Enum`](https://docs.python.org/3/library/enum.html#enum.Enum)
 
-This enum is referenced in the â€˜Control' tree node and reflects the type of hemisphere orientation modality being configured.
+This enum is referenced in the ‘Control’ tree node and reflects the type of hemisphere orientation modality being configured.
 
 <!-- !! processed by numpydoc !! -->
 

@@ -1,6 +1,6 @@
 # `DampingType`
 
-
+<a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DampingType"></a>
 
 #### *class* ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DampingType
 
@@ -17,9 +17,9 @@ Specifies the DampingType.
 ### Attributes
 
 | Name |
-| ------------------------------------------------------------------------------------------------------------------------------ |
-| [`DampingVsFrequency`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/DampingType.md#DampingType.DampingVsFrequency) |
-| [`DirectInput`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/DampingType.md#DampingType.DirectInput) |
+| ----------------------------------------------------------- |
+| [`DampingVsFrequency`](#DampingType.DampingVsFrequency) |
+| [`DirectInput`](#DampingType.DirectInput) |
 
 <a id="attribute-detail"></a>
 

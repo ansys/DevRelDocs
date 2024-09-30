@@ -1,6 +1,6 @@
 # `MeshControlGroupRigidBodyFaceMeshType`
 
-
+<a id="ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.MeshControlGroupRigidBodyFaceMeshType"></a>
 
 #### *class* ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.MeshControlGroupRigidBodyFaceMeshType
 
@@ -17,7 +17,7 @@ Specifies the MeshControlGroupRigidBodyFaceMeshType.
 ### Attributes
 
 | Name |
-| ------------------------------------------------------------------- |
+| ---------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | [`AllTri`](#MeshControlGroupRigidBodyFaceMeshType.AllTri) |
 | [`QuadAndTri`](#MeshControlGroupRigidBodyFaceMeshType.QuadAndTri) |
 

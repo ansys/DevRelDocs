@@ -1,6 +1,6 @@
 # `ContactRegion`
 
-
+<a id="ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Connections.ContactRegion"></a>
 
 #### *class* ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Connections.ContactRegion
 
@@ -17,180 +17,169 @@ Defines a ContactRegion.
 ### Methods
 
 | Name | Description |
-|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------|
-| [`SearchConnectionsForDuplicatePairs`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/Connections/ContactRegion.md#ContactRegion.SearchConnectionsForDuplicatePairs)   | Run the SearchConnectionsForDuplicatePairs action.                                |
-| [`FlipContactTarget`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/Connections/ContactRegion.md#ContactRegion.FlipContactTarget)                                     | Run the FlipContactTarget action.                                                 |
-| [`SetDefaultAPDLNames`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/Connections/ContactRegion.md#ContactRegion.SetDefaultAPDLNames)                                 | Run the SetDefaultAPDLNames action.                                               |
-| [`SaveContactRegionSettings`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/Connections/ContactRegion.md#ContactRegion.SaveContactRegionSettings)                     | Run the SaveContactRegionSettings action.                                         |
-| [`LoadContactRegionSettings`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/Connections/ContactRegion.md#ContactRegion.LoadContactRegionSettings)                     | Run the LoadContactRegionSettings action.                                         |
-| [`ResetToDefault`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/Connections/ContactRegion.md#id1)                                                                    | Run the ResetToDefault action.                                                    |
-| [`ResetToDefault`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/Connections/ContactRegion.md#id1)                                                                    | Run the ResetToDefault action with optional verification dialog.                  |
-| [`PromoteToNamedSelection`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/Connections/ContactRegion.md#ContactRegion.PromoteToNamedSelection)                         | Run the PromoteToNamedSelection action.                                           |
-| [`PromoteToRemotePoint`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/Connections/ContactRegion.md#ContactRegion.PromoteToRemotePoint)                               | Run the PromoteToRemotePoint action.                                              |
-| [`AddCommandSnippet`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/Connections/ContactRegion.md#ContactRegion.AddCommandSnippet)                                     | Creates a new CommandSnippet                                                      |
-| [`AddPythonCodeEventBased`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/Connections/ContactRegion.md#ContactRegion.AddPythonCodeEventBased)                         | Creates a new PythonCodeEventBased                                                |
-| [`RenameBasedOnDefinition`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/Connections/ContactRegion.md#ContactRegion.RenameBasedOnDefinition)                         | Run the RenameBasedOnDefinition action.                                           |
-| [`Delete`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/Connections/ContactRegion.md#ContactRegion.Delete)                                                           | Run the Delete action.                                                            |
-| [`GetChildren`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/Connections/ContactRegion.md#id2)                                                                       | Gets the list of children, filtered by type.                                      |
-| [`GetChildren`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/Connections/ContactRegion.md#id2)                                                                       | Gets the list of children, filtered by type.                                      |
-| [`AddComment`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/Connections/ContactRegion.md#ContactRegion.AddComment)                                                   | Creates a new child Comment.                                                      |
-| [`AddFigure`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/Connections/ContactRegion.md#ContactRegion.AddFigure)                                                     | Creates a new child Figure.                                                       |
-| [`AddImage`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/Connections/ContactRegion.md#ContactRegion.AddImage)                                                       | Creates a new child Image.                                                        |
-| [`Activate`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/Connections/ContactRegion.md#ContactRegion.Activate)                                                       | Activate the current object.                                                      |
-| [`CopyTo`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/Connections/ContactRegion.md#ContactRegion.CopyTo)                                                           | Copies all visible properties from this object to another.                        |
-| [`Duplicate`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/Connections/ContactRegion.md#ContactRegion.Duplicate)                                                     | Creates a copy of the current DataModelObject.                                    |
-| [`GroupAllSimilarChildren`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/Connections/ContactRegion.md#ContactRegion.GroupAllSimilarChildren)                         | Run the GroupAllSimilarChildren action.                                           |
-| [`GroupSimilarObjects`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/Connections/ContactRegion.md#ContactRegion.GroupSimilarObjects)                                 | Run the GroupSimilarObjects action.                                               |
-| [`PropertyByName`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/Connections/ContactRegion.md#ContactRegion.PropertyByName)                                           | Get a property by its unique name.                                                |
-| [`PropertyByAPIName`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/Connections/ContactRegion.md#ContactRegion.PropertyByAPIName)                                     | Get a property by its API name.                                                   |
-| [`CreateParameter`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/Connections/ContactRegion.md#ContactRegion.CreateParameter)                                         | Creates a new parameter for a Property.                                           |
-| [`GetParameter`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/Connections/ContactRegion.md#ContactRegion.GetParameter)                                               | Gets the parameter corresponding to the given property.                           |
-| [`RemoveParameter`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/Connections/ContactRegion.md#ContactRegion.RemoveParameter)                                         | Removes the parameter from the parameter set corresponding to the given property. |
+|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------|
+| [`Activate`](#ContactRegion.Activate)                                                     | Activate the current object.                                                      |
+| [`AddCommandSnippet`](#ContactRegion.AddCommandSnippet)                                   | Creates a new CommandSnippet                                                      |
+| [`AddComment`](#ContactRegion.AddComment)                                                 | Creates a new child Comment.                                                      |
+| [`AddFigure`](#ContactRegion.AddFigure)                                                   | Creates a new child Figure.                                                       |
+| [`AddImage`](#ContactRegion.AddImage)                                                     | Creates a new child Image.                                                        |
+| [`AddPythonCodeEventBased`](#ContactRegion.AddPythonCodeEventBased)                       | Creates a new PythonCodeEventBased                                                |
+| [`CopyTo`](#ContactRegion.CopyTo)                                                         | Copies all visible properties from this object to another.                        |
+| [`CreateParameter`](#ContactRegion.CreateParameter)                                       | Creates a new parameter for a Property.                                           |
+| [`Delete`](#ContactRegion.Delete)                                                         | Run the Delete action.                                                            |
+| [`Duplicate`](#ContactRegion.Duplicate)                                                   | Creates a copy of the current DataModelObject.                                    |
+| [`FlipContactTarget`](#ContactRegion.FlipContactTarget)                                   | Run the FlipContactTarget action.                                                 |
+| [`GetChildren`](#ContactRegion.GetChildren)                                               | Gets the list of children, filtered by type.                                      |
+| [`GetParameter`](#ContactRegion.GetParameter)                                             | Gets the parameter corresponding to the given property.                           |
+| [`GroupAllSimilarChildren`](#ContactRegion.GroupAllSimilarChildren)                       | Run the GroupAllSimilarChildren action.                                           |
+| [`GroupSimilarObjects`](#ContactRegion.GroupSimilarObjects)                               | Run the GroupSimilarObjects action.                                               |
+| [`LoadContactRegionSettings`](#ContactRegion.LoadContactRegionSettings)                   | Run the LoadContactRegionSettings action.                                         |
+| [`PromoteToNamedSelection`](#ContactRegion.PromoteToNamedSelection)                       | Run the PromoteToNamedSelection action.                                           |
+| [`PromoteToRemotePoint`](#ContactRegion.PromoteToRemotePoint)                             | Run the PromoteToRemotePoint action.                                              |
+| [`PropertyByAPIName`](#ContactRegion.PropertyByAPIName)                                   | Get a property by its API name.                                                   |
+| [`PropertyByName`](#ContactRegion.PropertyByName)                                         | Get a property by its unique name.                                                |
+| [`RemoveParameter`](#ContactRegion.RemoveParameter)                                       | Removes the parameter from the parameter set corresponding to the given property. |
+| [`RenameBasedOnDefinition`](#ContactRegion.RenameBasedOnDefinition)                       | Run the RenameBasedOnDefinition action.                                           |
+| [`ResetToDefault`](#ContactRegion.ResetToDefault)                                         | Run the ResetToDefault action.                                                    |
+| [`SaveContactRegionSettings`](#ContactRegion.SaveContactRegionSettings)                   | Run the SaveContactRegionSettings action.                                         |
+| [`SearchConnectionsForDuplicatePairs`](#ContactRegion.SearchConnectionsForDuplicatePairs) | Run the SearchConnectionsForDuplicatePairs action.                                |
+| [`SetDefaultAPDLNames`](#ContactRegion.SetDefaultAPDLNames)                               | Run the SetDefaultAPDLNames action.                                               |
 
 ### Properties
 
 | Name | Description |
 |----------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------|
-| [`ContactAPDLName`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/Connections/ContactRegion.md#ContactRegion.ContactAPDLName)                                     | Gets or sets the ContactAPDLName.                             |
-| [`TargetAPDLName`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/Connections/ContactRegion.md#ContactRegion.TargetAPDLName)                                       | Gets or sets the TargetAPDLName.                              |
-| [`SourceLocation`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/Connections/ContactRegion.md#ContactRegion.SourceLocation)                                       | Gets or sets the SourceLocation.                              |
-| [`TargetLocation`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/Connections/ContactRegion.md#ContactRegion.TargetLocation)                                       | Gets or sets the TargetLocation.                              |
-| [`AutomaticNormalStiffness`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/Connections/ContactRegion.md#ContactRegion.AutomaticNormalStiffness)                   | Gets or sets the AutomaticNormalStiffness.                    |
-| [`BeamMaterialName`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/Connections/ContactRegion.md#ContactRegion.BeamMaterialName)                                   | Gets or sets the BeamMaterialName.                            |
-| [`BeamBeamDetection`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/Connections/ContactRegion.md#ContactRegion.BeamBeamDetection)                                 | Gets or sets the BeamBeamDetection.                           |
-| [`InternalObject`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/Connections/ContactRegion.md#id0)                                                                | Gets the internal object. For advanced usage only.            |
-| [`Material`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/Connections/ContactRegion.md#ContactRegion.Material)                                                   | Gets or sets the Material.                                    |
-| [`StabilizationDampingFactor`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/Connections/ContactRegion.md#ContactRegion.StabilizationDampingFactor)               | Gets or sets the StabilizationDampingFactor.                  |
-| [`DecayConstant`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/Connections/ContactRegion.md#ContactRegion.DecayConstant)                                         | Gets or sets the DecayConstant.                               |
-| [`DynamicCoefficient`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/Connections/ContactRegion.md#ContactRegion.DynamicCoefficient)                               | Gets or sets the DynamicCoefficient.                          |
-| [`ElasticSlipToleranceFactor`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/Connections/ContactRegion.md#ContactRegion.ElasticSlipToleranceFactor)               | Gets or sets the ElasticSlipToleranceFactor.                  |
-| [`FrictionCoefficient`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/Connections/ContactRegion.md#ContactRegion.FrictionCoefficient)                             | Gets or sets the FrictionCoefficient.                         |
-| [`InitialClearanceFactor`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/Connections/ContactRegion.md#ContactRegion.InitialClearanceFactor)                       | Gets or sets the InitialClearanceFactor.                      |
-| [`NormalForceExponent`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/Connections/ContactRegion.md#ContactRegion.NormalForceExponent)                             | Gets or sets the NormalForceExponent.                         |
-| [`NormalStiffnessFactor`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/Connections/ContactRegion.md#ContactRegion.NormalStiffnessFactor)                         | Gets or sets the NormalStiffnessFactor.                       |
-| [`NormalStressExponent`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/Connections/ContactRegion.md#ContactRegion.NormalStressExponent)                           | Gets or sets the NormalStressExponent.                        |
-| [`PenetrationToleranceFactor`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/Connections/ContactRegion.md#ContactRegion.PenetrationToleranceFactor)               | Gets or sets the PenetrationToleranceFactor.                  |
-| [`PinballFactor`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/Connections/ContactRegion.md#ContactRegion.PinballFactor)                                         | Gets or sets the PinballFactor.                               |
-| [`PressureAtZeroPenetrationFactor`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/Connections/ContactRegion.md#ContactRegion.PressureAtZeroPenetrationFactor)     | Gets or sets the PressureAtZeroPenetrationFactor.             |
-| [`RestitutionFactor`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/Connections/ContactRegion.md#ContactRegion.RestitutionFactor)                                 | Gets or sets the RestitutionFactor.                           |
-| [`ShearForceExponent`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/Connections/ContactRegion.md#ContactRegion.ShearForceExponent)                               | Gets or sets the ShearForceExponent.                          |
-| [`ShearStressExponent`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/Connections/ContactRegion.md#ContactRegion.ShearStressExponent)                             | Gets or sets the ShearStressExponent.                         |
-| [`ContactBodies`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/Connections/ContactRegion.md#ContactRegion.ContactBodies)                                         | Gets the ContactBodies.                                       |
-| [`TargetBodies`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/Connections/ContactRegion.md#ContactRegion.TargetBodies)                                           | Gets the TargetBodies.                                        |
-| [`AutomaticDetectionValue`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/Connections/ContactRegion.md#ContactRegion.AutomaticDetectionValue)                     | Gets the AutomaticDetectionValue.                             |
-| [`BeamRadius`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/Connections/ContactRegion.md#ContactRegion.BeamRadius)                                               | Gets or sets the BeamRadius.                                  |
-| [`ThreadAngle`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/Connections/ContactRegion.md#ContactRegion.ThreadAngle)                                             | Gets or sets the ThreadAngle.                                 |
-| [`MeanPitchDiameter`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/Connections/ContactRegion.md#ContactRegion.MeanPitchDiameter)                                 | Gets or sets the MeanPitchDiameter.                           |
-| [`PitchDistance`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/Connections/ContactRegion.md#ContactRegion.PitchDistance)                                         | Gets or sets the PitchDistance.                               |
-| [`BondedMaximumOffset`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/Connections/ContactRegion.md#ContactRegion.BondedMaximumOffset)                             | Gets or sets the BondedMaximumOffset.                         |
-| [`ElasticSlipToleranceValue`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/Connections/ContactRegion.md#ContactRegion.ElasticSlipToleranceValue)                 | Gets or sets the ElasticSlipToleranceValue.                   |
-| [`ElectricCapacitanceValue`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/Connections/ContactRegion.md#ContactRegion.ElectricCapacitanceValue)                   | Gets or sets the ElectricCapacitanceValue.                    |
-| [`ElectricConductanceValue`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/Connections/ContactRegion.md#ContactRegion.ElectricConductanceValue)                   | Gets or sets the ElectricConductanceValue.                    |
-| [`InitialClearanceValue`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/Connections/ContactRegion.md#ContactRegion.InitialClearanceValue)                         | Gets or sets the InitialClearanceValue.                       |
-| [`NormalForceLimit`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/Connections/ContactRegion.md#ContactRegion.NormalForceLimit)                                   | Gets or sets the NormalForceLimit.                            |
-| [`NormalStiffnessValue`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/Connections/ContactRegion.md#ContactRegion.NormalStiffnessValue)                           | Gets or sets the NormalStiffnessValue.                        |
-| [`NormalStressLimit`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/Connections/ContactRegion.md#ContactRegion.NormalStressLimit)                                 | Gets or sets the NormalStressLimit.                           |
-| [`PenetrationToleranceValue`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/Connections/ContactRegion.md#ContactRegion.PenetrationToleranceValue)                 | Gets or sets the PenetrationToleranceValue.                   |
-| [`PinballRadius`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/Connections/ContactRegion.md#ContactRegion.PinballRadius)                                         | Gets or sets the PinballRadius.                               |
-| [`PressureAtZeroPenetrationValue`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/Connections/ContactRegion.md#ContactRegion.PressureAtZeroPenetrationValue)       | Gets or sets the PressureAtZeroPenetrationValue.              |
-| [`ShearForceLimit`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/Connections/ContactRegion.md#ContactRegion.ShearForceLimit)                                     | Gets or sets the ShearForceLimit.                             |
-| [`ShearStressLimit`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/Connections/ContactRegion.md#ContactRegion.ShearStressLimit)                                   | Gets or sets the ShearStressLimit.                            |
-| [`ThermalConductanceValue`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/Connections/ContactRegion.md#ContactRegion.ThermalConductanceValue)                     | Gets or sets the ThermalConductanceValue.                     |
-| [`TrimTolerance`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/Connections/ContactRegion.md#ContactRegion.TrimTolerance)                                         | Gets or sets the TrimTolerance.                               |
-| [`UserOffset`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/Connections/ContactRegion.md#ContactRegion.UserOffset)                                               | Gets or sets the UserOffset.                                  |
-| [`LineLineDetection`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/Connections/ContactRegion.md#ContactRegion.LineLineDetection)                                 | Gets or sets the LineLineDetection.                           |
-| [`BeamBeamModel`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/Connections/ContactRegion.md#ContactRegion.BeamBeamModel)                                         | Gets or sets the BeamBeamModel.                               |
-| [`Handedness`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/Connections/ContactRegion.md#ContactRegion.Handedness)                                               | Gets or sets the Handedness.                                  |
-| [`ThreadType`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/Connections/ContactRegion.md#ContactRegion.ThreadType)                                               | Gets or sets the ThreadType.                                  |
-| [`Breakable`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/Connections/ContactRegion.md#ContactRegion.Breakable)                                                 | Gets or sets the Breakable.                                   |
-| [`ConstraintType`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/Connections/ContactRegion.md#ContactRegion.ConstraintType)                                       | Gets or sets the ConstraintType.                              |
-| [`ContactGeometryCorrection`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/Connections/ContactRegion.md#ContactRegion.ContactGeometryCorrection)                 | Gets or sets the ContactGeometryCorrection.                   |
-| [`ContactFormulation`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/Connections/ContactRegion.md#ContactRegion.ContactFormulation)                               | Gets or sets the ContactFormulation.                          |
-| [`ContactOrientation`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/Connections/ContactRegion.md#ContactRegion.ContactOrientation)                               | Gets or sets the ContactOrientation.                          |
-| [`ContactShellFace`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/Connections/ContactRegion.md#ContactRegion.ContactShellFace)                                   | Gets or sets the ContactShellFace.                            |
-| [`ContactType`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/Connections/ContactRegion.md#ContactRegion.ContactType)                                             | Gets or sets the ContactType.                                 |
-| [`ContinuousDistanceComputation`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/Connections/ContactRegion.md#ContactRegion.ContinuousDistanceComputation)         | Gets or sets the ContinuousDistanceComputation.               |
-| [`DetectionMethod`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/Connections/ContactRegion.md#ContactRegion.DetectionMethod)                                     | Gets or sets the DetectionMethod.                             |
-| [`EdgeContactType`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/Connections/ContactRegion.md#ContactRegion.EdgeContactType)                                     | Gets or sets the EdgeContactType.                             |
-| [`InitialClearance`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/Connections/ContactRegion.md#ContactRegion.InitialClearance)                                   | Gets or sets the InitialClearance.                            |
-| [`InterfaceTreatment`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/Connections/ContactRegion.md#ContactRegion.InterfaceTreatment)                               | Gets or sets the InterfaceTreatment.                          |
-| [`ScopeMode`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/Connections/ContactRegion.md#ContactRegion.ScopeMode)                                                 | Gets the ScopeMode.                                           |
-| [`NormalStiffnessValueType`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/Connections/ContactRegion.md#ContactRegion.NormalStiffnessValueType)                   | Gets or sets the NormalStiffnessValueType.                    |
-| [`PinballRegion`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/Connections/ContactRegion.md#ContactRegion.PinballRegion)                                         | Gets or sets the PinballRegion.                               |
-| [`PressureAtZeroPenetration`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/Connections/ContactRegion.md#ContactRegion.PressureAtZeroPenetration)                 | Gets or sets the PressureAtZeroPenetration.                   |
-| [`RBDContactDetection`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/Connections/ContactRegion.md#ContactRegion.RBDContactDetection)                             | Gets or sets the RBDContactDetection.                         |
-| [`SmallSliding`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/Connections/ContactRegion.md#ContactRegion.SmallSliding)                                           | Gets or sets the SmallSliding.                                |
-| [`Behavior`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/Connections/ContactRegion.md#ContactRegion.Behavior)                                                   | Gets or sets the Behavior.                                    |
-| [`TargetGeometryCorrection`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/Connections/ContactRegion.md#ContactRegion.TargetGeometryCorrection)                   | Gets or sets the TargetGeometryCorrection.                    |
-| [`TargetOrientation`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/Connections/ContactRegion.md#ContactRegion.TargetOrientation)                                 | Gets or sets the TargetOrientation.                           |
-| [`TargetShellFace`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/Connections/ContactRegion.md#ContactRegion.TargetShellFace)                                     | Gets or sets the TargetShellFace.                             |
-| [`TimeStepControls`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/Connections/ContactRegion.md#ContactRegion.TimeStepControls)                                   | Gets or sets the TimeStepControls.                            |
-| [`TrimContact`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/Connections/ContactRegion.md#ContactRegion.TrimContact)                                             | Gets or sets the TrimContact.                                 |
-| [`UpdateStiffness`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/Connections/ContactRegion.md#ContactRegion.UpdateStiffness)                                     | Gets or sets the UpdateStiffness.                             |
-| [`ElasticSlipTolerance`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/Connections/ContactRegion.md#ContactRegion.ElasticSlipTolerance)                           | Gets or sets the ElasticSlipTolerance.                        |
-| [`PenetrationTolerance`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/Connections/ContactRegion.md#ContactRegion.PenetrationTolerance)                           | Gets or sets the PenetrationTolerance.                        |
-| [`DisplayElementNormal`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/Connections/ContactRegion.md#ContactRegion.DisplayElementNormal)                           | Gets or sets the DisplayElementNormal.                        |
-| [`FlipContact`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/Connections/ContactRegion.md#ContactRegion.FlipContact)                                             | Gets or sets the FlipContact.                                 |
-| [`FlipTarget`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/Connections/ContactRegion.md#ContactRegion.FlipTarget)                                               | Gets or sets the FlipTarget.                                  |
-| [`Protected`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/Connections/ContactRegion.md#ContactRegion.Protected)                                                 | Gets or sets the Protected.                                   |
-| [`ShellThicknessEffect`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/Connections/ContactRegion.md#ContactRegion.ShellThicknessEffect)                           | Gets or sets the ShellThicknessEffect.                        |
-| [`Suppressed`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/Connections/ContactRegion.md#ContactRegion.Suppressed)                                               | Gets or sets the Suppressed.                                  |
-| [`AutomaticElectricCapacitance`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/Connections/ContactRegion.md#ContactRegion.AutomaticElectricCapacitance)           | Gets or sets the AutomaticElectricCapacitance.                |
-| [`AutomaticElectricConductance`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/Connections/ContactRegion.md#ContactRegion.AutomaticElectricConductance)           | Gets or sets the AutomaticElectricConductance.                |
-| [`AutomaticThermalConductance`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/Connections/ContactRegion.md#ContactRegion.AutomaticThermalConductance)             | Gets or sets the AutomaticThermalConductance.                 |
-| [`ContactCenterPoint`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/Connections/ContactRegion.md#ContactRegion.ContactCenterPoint)                               | Gets or sets the ContactCenterPoint.                          |
-| [`ContactEndingPoint`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/Connections/ContactRegion.md#ContactRegion.ContactEndingPoint)                               | Gets or sets the ContactEndingPoint.                          |
-| [`ContactStartingPoint`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/Connections/ContactRegion.md#ContactRegion.ContactStartingPoint)                           | Gets or sets the ContactStartingPoint.                        |
-| [`SharedSourceBody`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/Connections/ContactRegion.md#ContactRegion.SharedSourceBody)                                   | Gets or sets the SharedSourceBody.                            |
-| [`SharedTargetBody`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/Connections/ContactRegion.md#ContactRegion.SharedTargetBody)                                   | Gets or sets the SharedTargetBody.                            |
-| [`TargetCenterPoint`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/Connections/ContactRegion.md#ContactRegion.TargetCenterPoint)                                 | Gets or sets the TargetCenterPoint.                           |
-| [`TargetEndingPoint`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/Connections/ContactRegion.md#ContactRegion.TargetEndingPoint)                                 | Gets or sets the TargetEndingPoint.                           |
-| [`TargetStartingPoint`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/Connections/ContactRegion.md#ContactRegion.TargetStartingPoint)                             | Gets or sets the TargetStartingPoint.                         |
-| [`SharedSourceReverseNormalLocation`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/Connections/ContactRegion.md#ContactRegion.SharedSourceReverseNormalLocation) | Gets or sets the SharedSourceReverseNormalLocation.           |
-| [`SharedTargetReverseNormalLocation`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/Connections/ContactRegion.md#ContactRegion.SharedTargetReverseNormalLocation) | Gets or sets the SharedTargetReverseNormalLocation.           |
-| [`DataModelObjectCategory`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/Connections/ContactRegion.md#ContactRegion.DataModelObjectCategory)                     | Gets the current DataModelObject's category.                  |
-| [`Children`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/Connections/ContactRegion.md#ContactRegion.Children)                                                   | Gets the list of children.                                    |
-| [`Comments`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/Connections/ContactRegion.md#ContactRegion.Comments)                                                   | Gets the list of associated comments.                         |
-| [`Figures`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/Connections/ContactRegion.md#ContactRegion.Figures)                                                     | Gets the list of associated figures.                          |
-| [`Images`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/Connections/ContactRegion.md#ContactRegion.Images)                                                       | Gets the list of associated images.                           |
-| [`ReadOnly`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/Connections/ContactRegion.md#ContactRegion.ReadOnly)                                                   | Gets or sets the ReadOnly.                                    |
-| [`InternalObject`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/Connections/ContactRegion.md#id0)                                                                | Gets the internal object. For advanced usage only.            |
-| [`Properties`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/Connections/ContactRegion.md#ContactRegion.Properties)                                               | Gets the list of properties for this object.                  |
-| [`VisibleProperties`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/Connections/ContactRegion.md#ContactRegion.VisibleProperties)                                 | Gets the list of properties that are visible for this object. |
+| [`AutomaticDetectionValue`](#ContactRegion.AutomaticDetectionValue)                     | Gets the AutomaticDetectionValue.                             |
+| [`AutomaticElectricCapacitance`](#ContactRegion.AutomaticElectricCapacitance)           | Gets or sets the AutomaticElectricCapacitance.                |
+| [`AutomaticElectricConductance`](#ContactRegion.AutomaticElectricConductance)           | Gets or sets the AutomaticElectricConductance.                |
+| [`AutomaticNormalStiffness`](#ContactRegion.AutomaticNormalStiffness)                   | Gets or sets the AutomaticNormalStiffness.                    |
+| [`AutomaticThermalConductance`](#ContactRegion.AutomaticThermalConductance)             | Gets or sets the AutomaticThermalConductance.                 |
+| [`BeamBeamDetection`](#ContactRegion.BeamBeamDetection)                                 | Gets or sets the BeamBeamDetection.                           |
+| [`BeamBeamModel`](#ContactRegion.BeamBeamModel)                                         | Gets or sets the BeamBeamModel.                               |
+| [`BeamMaterialName`](#ContactRegion.BeamMaterialName)                                   | Gets or sets the BeamMaterialName.                            |
+| [`BeamRadius`](#ContactRegion.BeamRadius)                                               | Gets or sets the BeamRadius.                                  |
+| [`Behavior`](#ContactRegion.Behavior)                                                   | Gets or sets the Behavior.                                    |
+| [`BondedMaximumOffset`](#ContactRegion.BondedMaximumOffset)                             | Gets or sets the BondedMaximumOffset.                         |
+| [`Breakable`](#ContactRegion.Breakable)                                                 | Gets or sets the Breakable.                                   |
+| [`Children`](#ContactRegion.Children)                                                   | Gets the list of children.                                    |
+| [`Comments`](#ContactRegion.Comments)                                                   | Gets the list of associated comments.                         |
+| [`ConstraintType`](#ContactRegion.ConstraintType)                                       | Gets or sets the ConstraintType.                              |
+| [`ContactAPDLName`](#ContactRegion.ContactAPDLName)                                     | Gets or sets the ContactAPDLName.                             |
+| [`ContactBodies`](#ContactRegion.ContactBodies)                                         | Gets the ContactBodies.                                       |
+| [`ContactCenterPoint`](#ContactRegion.ContactCenterPoint)                               | Gets or sets the ContactCenterPoint.                          |
+| [`ContactEndingPoint`](#ContactRegion.ContactEndingPoint)                               | Gets or sets the ContactEndingPoint.                          |
+| [`ContactFormulation`](#ContactRegion.ContactFormulation)                               | Gets or sets the ContactFormulation.                          |
+| [`ContactGeometryCorrection`](#ContactRegion.ContactGeometryCorrection)                 | Gets or sets the ContactGeometryCorrection.                   |
+| [`ContactOrientation`](#ContactRegion.ContactOrientation)                               | Gets or sets the ContactOrientation.                          |
+| [`ContactShellFace`](#ContactRegion.ContactShellFace)                                   | Gets or sets the ContactShellFace.                            |
+| [`ContactStartingPoint`](#ContactRegion.ContactStartingPoint)                           | Gets or sets the ContactStartingPoint.                        |
+| [`ContactType`](#ContactRegion.ContactType)                                             | Gets or sets the ContactType.                                 |
+| [`ContinuousDistanceComputation`](#ContactRegion.ContinuousDistanceComputation)         | Gets or sets the ContinuousDistanceComputation.               |
+| [`DataModelObjectCategory`](#ContactRegion.DataModelObjectCategory)                     | Gets the current DataModelObject’s category.                  |
+| [`DecayConstant`](#ContactRegion.DecayConstant)                                         | Gets or sets the DecayConstant.                               |
+| [`DetectionMethod`](#ContactRegion.DetectionMethod)                                     | Gets or sets the DetectionMethod.                             |
+| [`DisplayElementNormal`](#ContactRegion.DisplayElementNormal)                           | Gets or sets the DisplayElementNormal.                        |
+| [`DynamicCoefficient`](#ContactRegion.DynamicCoefficient)                               | Gets or sets the DynamicCoefficient.                          |
+| [`EdgeContactType`](#ContactRegion.EdgeContactType)                                     | Gets or sets the EdgeContactType.                             |
+| [`ElasticSlipTolerance`](#ContactRegion.ElasticSlipTolerance)                           | Gets or sets the ElasticSlipTolerance.                        |
+| [`ElasticSlipToleranceFactor`](#ContactRegion.ElasticSlipToleranceFactor)               | Gets or sets the ElasticSlipToleranceFactor.                  |
+| [`ElasticSlipToleranceValue`](#ContactRegion.ElasticSlipToleranceValue)                 | Gets or sets the ElasticSlipToleranceValue.                   |
+| [`ElectricCapacitanceValue`](#ContactRegion.ElectricCapacitanceValue)                   | Gets or sets the ElectricCapacitanceValue.                    |
+| [`ElectricConductanceValue`](#ContactRegion.ElectricConductanceValue)                   | Gets or sets the ElectricConductanceValue.                    |
+| [`Figures`](#ContactRegion.Figures)                                                     | Gets the list of associated figures.                          |
+| [`FlipContact`](#ContactRegion.FlipContact)                                             | Gets or sets the FlipContact.                                 |
+| [`FlipTarget`](#ContactRegion.FlipTarget)                                               | Gets or sets the FlipTarget.                                  |
+| [`FrictionCoefficient`](#ContactRegion.FrictionCoefficient)                             | Gets or sets the FrictionCoefficient.                         |
+| [`Handedness`](#ContactRegion.Handedness)                                               | Gets or sets the Handedness.                                  |
+| [`Images`](#ContactRegion.Images)                                                       | Gets the list of associated images.                           |
+| [`InitialClearance`](#ContactRegion.InitialClearance)                                   | Gets or sets the InitialClearance.                            |
+| [`InitialClearanceFactor`](#ContactRegion.InitialClearanceFactor)                       | Gets or sets the InitialClearanceFactor.                      |
+| [`InitialClearanceValue`](#ContactRegion.InitialClearanceValue)                         | Gets or sets the InitialClearanceValue.                       |
+| [`InterfaceTreatment`](#ContactRegion.InterfaceTreatment)                               | Gets or sets the InterfaceTreatment.                          |
+| [`InternalObject`](#ContactRegion.InternalObject)                                       | Gets the internal object. For advanced usage only.            |
+| [`LineLineDetection`](#ContactRegion.LineLineDetection)                                 | Gets or sets the LineLineDetection.                           |
+| [`Material`](#ContactRegion.Material)                                                   | Gets or sets the Material.                                    |
+| [`MeanPitchDiameter`](#ContactRegion.MeanPitchDiameter)                                 | Gets or sets the MeanPitchDiameter.                           |
+| [`NormalForceExponent`](#ContactRegion.NormalForceExponent)                             | Gets or sets the NormalForceExponent.                         |
+| [`NormalForceLimit`](#ContactRegion.NormalForceLimit)                                   | Gets or sets the NormalForceLimit.                            |
+| [`NormalStiffnessFactor`](#ContactRegion.NormalStiffnessFactor)                         | Gets or sets the NormalStiffnessFactor.                       |
+| [`NormalStiffnessValue`](#ContactRegion.NormalStiffnessValue)                           | Gets or sets the NormalStiffnessValue.                        |
+| [`NormalStiffnessValueType`](#ContactRegion.NormalStiffnessValueType)                   | Gets or sets the NormalStiffnessValueType.                    |
+| [`NormalStressExponent`](#ContactRegion.NormalStressExponent)                           | Gets or sets the NormalStressExponent.                        |
+| [`NormalStressLimit`](#ContactRegion.NormalStressLimit)                                 | Gets or sets the NormalStressLimit.                           |
+| [`PenetrationTolerance`](#ContactRegion.PenetrationTolerance)                           | Gets or sets the PenetrationTolerance.                        |
+| [`PenetrationToleranceFactor`](#ContactRegion.PenetrationToleranceFactor)               | Gets or sets the PenetrationToleranceFactor.                  |
+| [`PenetrationToleranceValue`](#ContactRegion.PenetrationToleranceValue)                 | Gets or sets the PenetrationToleranceValue.                   |
+| [`PinballFactor`](#ContactRegion.PinballFactor)                                         | Gets or sets the PinballFactor.                               |
+| [`PinballRadius`](#ContactRegion.PinballRadius)                                         | Gets or sets the PinballRadius.                               |
+| [`PinballRegion`](#ContactRegion.PinballRegion)                                         | Gets or sets the PinballRegion.                               |
+| [`PitchDistance`](#ContactRegion.PitchDistance)                                         | Gets or sets the PitchDistance.                               |
+| [`PressureAtZeroPenetration`](#ContactRegion.PressureAtZeroPenetration)                 | Gets or sets the PressureAtZeroPenetration.                   |
+| [`PressureAtZeroPenetrationFactor`](#ContactRegion.PressureAtZeroPenetrationFactor)     | Gets or sets the PressureAtZeroPenetrationFactor.             |
+| [`PressureAtZeroPenetrationValue`](#ContactRegion.PressureAtZeroPenetrationValue)       | Gets or sets the PressureAtZeroPenetrationValue.              |
+| [`Properties`](#ContactRegion.Properties)                                               | Gets the list of properties for this object.                  |
+| [`Protected`](#ContactRegion.Protected)                                                 | Gets or sets the Protected.                                   |
+| [`RBDContactDetection`](#ContactRegion.RBDContactDetection)                             | Gets or sets the RBDContactDetection.                         |
+| [`ReadOnly`](#ContactRegion.ReadOnly)                                                   | Gets or sets the ReadOnly.                                    |
+| [`RestitutionFactor`](#ContactRegion.RestitutionFactor)                                 | Gets or sets the RestitutionFactor.                           |
+| [`ScopeMode`](#ContactRegion.ScopeMode)                                                 | Gets the ScopeMode.                                           |
+| [`SharedSourceBody`](#ContactRegion.SharedSourceBody)                                   | Gets or sets the SharedSourceBody.                            |
+| [`SharedSourceReverseNormalLocation`](#ContactRegion.SharedSourceReverseNormalLocation) | Gets or sets the SharedSourceReverseNormalLocation.           |
+| [`SharedTargetBody`](#ContactRegion.SharedTargetBody)                                   | Gets or sets the SharedTargetBody.                            |
+| [`SharedTargetReverseNormalLocation`](#ContactRegion.SharedTargetReverseNormalLocation) | Gets or sets the SharedTargetReverseNormalLocation.           |
+| [`ShearForceExponent`](#ContactRegion.ShearForceExponent)                               | Gets or sets the ShearForceExponent.                          |
+| [`ShearForceLimit`](#ContactRegion.ShearForceLimit)                                     | Gets or sets the ShearForceLimit.                             |
+| [`ShearStressExponent`](#ContactRegion.ShearStressExponent)                             | Gets or sets the ShearStressExponent.                         |
+| [`ShearStressLimit`](#ContactRegion.ShearStressLimit)                                   | Gets or sets the ShearStressLimit.                            |
+| [`ShellThicknessEffect`](#ContactRegion.ShellThicknessEffect)                           | Gets or sets the ShellThicknessEffect.                        |
+| [`SmallSliding`](#ContactRegion.SmallSliding)                                           | Gets or sets the SmallSliding.                                |
+| [`SourceLocation`](#ContactRegion.SourceLocation)                                       | Gets or sets the SourceLocation.                              |
+| [`StabilizationDampingFactor`](#ContactRegion.StabilizationDampingFactor)               | Gets or sets the StabilizationDampingFactor.                  |
+| [`Suppressed`](#ContactRegion.Suppressed)                                               | Gets or sets the Suppressed.                                  |
+| [`TargetAPDLName`](#ContactRegion.TargetAPDLName)                                       | Gets or sets the TargetAPDLName.                              |
+| [`TargetBodies`](#ContactRegion.TargetBodies)                                           | Gets the TargetBodies.                                        |
+| [`TargetCenterPoint`](#ContactRegion.TargetCenterPoint)                                 | Gets or sets the TargetCenterPoint.                           |
+| [`TargetEndingPoint`](#ContactRegion.TargetEndingPoint)                                 | Gets or sets the TargetEndingPoint.                           |
+| [`TargetGeometryCorrection`](#ContactRegion.TargetGeometryCorrection)                   | Gets or sets the TargetGeometryCorrection.                    |
+| [`TargetLocation`](#ContactRegion.TargetLocation)                                       | Gets or sets the TargetLocation.                              |
+| [`TargetOrientation`](#ContactRegion.TargetOrientation)                                 | Gets or sets the TargetOrientation.                           |
+| [`TargetShellFace`](#ContactRegion.TargetShellFace)                                     | Gets or sets the TargetShellFace.                             |
+| [`TargetStartingPoint`](#ContactRegion.TargetStartingPoint)                             | Gets or sets the TargetStartingPoint.                         |
+| [`ThermalConductanceValue`](#ContactRegion.ThermalConductanceValue)                     | Gets or sets the ThermalConductanceValue.                     |
+| [`ThreadAngle`](#ContactRegion.ThreadAngle)                                             | Gets or sets the ThreadAngle.                                 |
+| [`ThreadType`](#ContactRegion.ThreadType)                                               | Gets or sets the ThreadType.                                  |
+| [`TimeStepControls`](#ContactRegion.TimeStepControls)                                   | Gets or sets the TimeStepControls.                            |
+| [`TrimContact`](#ContactRegion.TrimContact)                                             | Gets or sets the TrimContact.                                 |
+| [`TrimTolerance`](#ContactRegion.TrimTolerance)                                         | Gets or sets the TrimTolerance.                               |
+| [`UpdateStiffness`](#ContactRegion.UpdateStiffness)                                     | Gets or sets the UpdateStiffness.                             |
+| [`UserOffset`](#ContactRegion.UserOffset)                                               | Gets or sets the UserOffset.                                  |
+| [`VisibleProperties`](#ContactRegion.VisibleProperties)                                 | Gets the list of properties that are visible for this object. |
 
 <a id="property-detail"></a>
 
 ## Property detail
 
-<a id="ContactRegion.ContactAPDLName"></a>
+<a id="ContactRegion.AutomaticDetectionValue"></a>
 
-### *property* ContactRegion.ContactAPDLName *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ContactRegion.AutomaticDetectionValue *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets or sets the ContactAPDLName.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="ContactRegion.TargetAPDLName"></a>
-
-### *property* ContactRegion.TargetAPDLName *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the TargetAPDLName.
+Gets the AutomaticDetectionValue.
 
 <!-- !! processed by numpydoc !! -->
 
-<a id="ContactRegion.SourceLocation"></a>
+<a id="ContactRegion.AutomaticElectricCapacitance"></a>
 
-### *property* ContactRegion.SourceLocation *: Ansys.ACT.Interfaces.Common.ISelectionInfo | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ContactRegion.AutomaticElectricCapacitance *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets or sets the SourceLocation.
+Gets or sets the AutomaticElectricCapacitance.
 
 <!-- !! processed by numpydoc !! -->
 
-<a id="ContactRegion.TargetLocation"></a>
+<a id="ContactRegion.AutomaticElectricConductance"></a>
 
-### *property* ContactRegion.TargetLocation *: Ansys.ACT.Interfaces.Common.ISelectionInfo | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ContactRegion.AutomaticElectricConductance *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets or sets the TargetLocation.
+Gets or sets the AutomaticElectricConductance.
 
 <!-- !! processed by numpydoc !! -->
 
@@ -202,179 +191,35 @@ Gets or sets the AutomaticNormalStiffness.
 
 <!-- !! processed by numpydoc !! -->
 
-<a id="ContactRegion.BeamMaterialName"></a>
+<a id="ContactRegion.AutomaticThermalConductance"></a>
 
-### *property* ContactRegion.BeamMaterialName *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ContactRegion.AutomaticThermalConductance *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets or sets the BeamMaterialName.
+Gets or sets the AutomaticThermalConductance.
 
 <!-- !! processed by numpydoc !! -->
 
 <a id="ContactRegion.BeamBeamDetection"></a>
 
-### *property* ContactRegion.BeamBeamDetection *: [Ansys.Mechanical.DataModel.Enums.BeamBeamContactDetectionType](../../../../Mechanical/DataModel/Enums/BeamBeamContactDetectionType.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.BeamBeamContactDetectionType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ContactRegion.BeamBeamDetection *: [Ansys.Mechanical.DataModel.Enums.BeamBeamContactDetectionType](../../../../../../v242/Ansys/Mechanical/DataModel/Enums/BeamBeamContactDetectionType.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.BeamBeamContactDetectionType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the BeamBeamDetection.
 
 <!-- !! processed by numpydoc !! -->
 
-<a id="ContactRegion.InternalObject"></a>
+<a id="ContactRegion.BeamBeamModel"></a>
 
-### *property* ContactRegion.InternalObject *: Ansys.Common.Interop.DSObjectsAuto.IDSContactRegionAuto | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ContactRegion.BeamBeamModel *: [Ansys.Mechanical.DataModel.Enums.BeamBeamModel](../../../../../../v242/Ansys/Mechanical/DataModel/Enums/BeamBeamModel.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.BeamBeamModel) | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets the internal object. For advanced usage only.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="ContactRegion.Material"></a>
-
-### *property* ContactRegion.Material *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the Material.
+Gets or sets the BeamBeamModel.
 
 <!-- !! processed by numpydoc !! -->
 
-<a id="ContactRegion.StabilizationDampingFactor"></a>
+<a id="ContactRegion.BeamMaterialName"></a>
 
-### *property* ContactRegion.StabilizationDampingFactor *: System.Double | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ContactRegion.BeamMaterialName *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets or sets the StabilizationDampingFactor.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="ContactRegion.DecayConstant"></a>
-
-### *property* ContactRegion.DecayConstant *: System.Double | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the DecayConstant.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="ContactRegion.DynamicCoefficient"></a>
-
-### *property* ContactRegion.DynamicCoefficient *: System.Double | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the DynamicCoefficient.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="ContactRegion.ElasticSlipToleranceFactor"></a>
-
-### *property* ContactRegion.ElasticSlipToleranceFactor *: System.Double | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the ElasticSlipToleranceFactor.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="ContactRegion.FrictionCoefficient"></a>
-
-### *property* ContactRegion.FrictionCoefficient *: System.Double | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the FrictionCoefficient.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="ContactRegion.InitialClearanceFactor"></a>
-
-### *property* ContactRegion.InitialClearanceFactor *: System.Double | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the InitialClearanceFactor.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="ContactRegion.NormalForceExponent"></a>
-
-### *property* ContactRegion.NormalForceExponent *: System.Double | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the NormalForceExponent.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="ContactRegion.NormalStiffnessFactor"></a>
-
-### *property* ContactRegion.NormalStiffnessFactor *: System.Double | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the NormalStiffnessFactor.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="ContactRegion.NormalStressExponent"></a>
-
-### *property* ContactRegion.NormalStressExponent *: System.Double | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the NormalStressExponent.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="ContactRegion.PenetrationToleranceFactor"></a>
-
-### *property* ContactRegion.PenetrationToleranceFactor *: System.Double | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the PenetrationToleranceFactor.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="ContactRegion.PinballFactor"></a>
-
-### *property* ContactRegion.PinballFactor *: System.Double | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the PinballFactor.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="ContactRegion.PressureAtZeroPenetrationFactor"></a>
-
-### *property* ContactRegion.PressureAtZeroPenetrationFactor *: System.Double | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the PressureAtZeroPenetrationFactor.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="ContactRegion.RestitutionFactor"></a>
-
-### *property* ContactRegion.RestitutionFactor *: System.Double | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the RestitutionFactor.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="ContactRegion.ShearForceExponent"></a>
-
-### *property* ContactRegion.ShearForceExponent *: System.Double | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the ShearForceExponent.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="ContactRegion.ShearStressExponent"></a>
-
-### *property* ContactRegion.ShearStressExponent *: System.Double | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the ShearStressExponent.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="ContactRegion.ContactBodies"></a>
-
-### *property* ContactRegion.ContactBodies *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets the ContactBodies.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="ContactRegion.TargetBodies"></a>
-
-### *property* ContactRegion.TargetBodies *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets the TargetBodies.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="ContactRegion.AutomaticDetectionValue"></a>
-
-### *property* ContactRegion.AutomaticDetectionValue *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets the AutomaticDetectionValue.
+Gets or sets the BeamMaterialName.
 
 <!-- !! processed by numpydoc !! -->
 
@@ -386,27 +231,11 @@ Gets or sets the BeamRadius.
 
 <!-- !! processed by numpydoc !! -->
 
-<a id="ContactRegion.ThreadAngle"></a>
+<a id="ContactRegion.Behavior"></a>
 
-### *property* ContactRegion.ThreadAngle *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ContactRegion.Behavior *: [Ansys.Mechanical.DataModel.Enums.ContactBehavior](../../../../../../v242/Ansys/Mechanical/DataModel/Enums/ContactBehavior.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.ContactBehavior) | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets or sets the ThreadAngle.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="ContactRegion.MeanPitchDiameter"></a>
-
-### *property* ContactRegion.MeanPitchDiameter *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the MeanPitchDiameter.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="ContactRegion.PitchDistance"></a>
-
-### *property* ContactRegion.PitchDistance *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the PitchDistance.
+Gets or sets the Behavior.
 
 <!-- !! processed by numpydoc !! -->
 
@@ -415,6 +244,190 @@ Gets or sets the PitchDistance.
 ### *property* ContactRegion.BondedMaximumOffset *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the BondedMaximumOffset.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ContactRegion.Breakable"></a>
+
+### *property* ContactRegion.Breakable *: [Ansys.Mechanical.DataModel.Enums.BondedBreakableType](../../../../../../v242/Ansys/Mechanical/DataModel/Enums/BondedBreakableType.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.BondedBreakableType) | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the Breakable.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ContactRegion.Children"></a>
+
+### *property* ContactRegion.Children *: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets the list of children.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ContactRegion.Comments"></a>
+
+### *property* ContactRegion.Comments *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Comment](../Comment.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets the list of associated comments.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ContactRegion.ConstraintType"></a>
+
+### *property* ContactRegion.ConstraintType *: [Ansys.Mechanical.DataModel.Enums.ContactConstraintType](../../../../../../v242/Ansys/Mechanical/DataModel/Enums/ContactConstraintType.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.ContactConstraintType) | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the ConstraintType.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ContactRegion.ContactAPDLName"></a>
+
+### *property* ContactRegion.ContactAPDLName *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the ContactAPDLName.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ContactRegion.ContactBodies"></a>
+
+### *property* ContactRegion.ContactBodies *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets the ContactBodies.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ContactRegion.ContactCenterPoint"></a>
+
+### *property* ContactRegion.ContactCenterPoint *: [Ansys.ACT.Automation.Mechanical.CoordinateSystem](../CoordinateSystem.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.CoordinateSystem) | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the ContactCenterPoint.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ContactRegion.ContactEndingPoint"></a>
+
+### *property* ContactRegion.ContactEndingPoint *: [Ansys.ACT.Automation.Mechanical.CoordinateSystem](../CoordinateSystem.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.CoordinateSystem) | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the ContactEndingPoint.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ContactRegion.ContactFormulation"></a>
+
+### *property* ContactRegion.ContactFormulation *: [Ansys.Mechanical.DataModel.Enums.ContactFormulation](../../../../../../v242/Ansys/Mechanical/DataModel/Enums/ContactFormulation.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.ContactFormulation) | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the ContactFormulation.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ContactRegion.ContactGeometryCorrection"></a>
+
+### *property* ContactRegion.ContactGeometryCorrection *: [Ansys.Mechanical.DataModel.Enums.ContactCorrection](../../../../../../v242/Ansys/Mechanical/DataModel/Enums/ContactCorrection.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.ContactCorrection) | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the ContactGeometryCorrection.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ContactRegion.ContactOrientation"></a>
+
+### *property* ContactRegion.ContactOrientation *: [Ansys.Mechanical.DataModel.Enums.ContactOrientation](../../../../../../v242/Ansys/Mechanical/DataModel/Enums/ContactOrientation.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.ContactOrientation) | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the ContactOrientation.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ContactRegion.ContactShellFace"></a>
+
+### *property* ContactRegion.ContactShellFace *: [Ansys.Mechanical.DataModel.Enums.ShellFaceType](../../../../../../v242/Ansys/Mechanical/DataModel/Enums/ShellFaceType.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.ShellFaceType) | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the ContactShellFace.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ContactRegion.ContactStartingPoint"></a>
+
+### *property* ContactRegion.ContactStartingPoint *: [Ansys.ACT.Automation.Mechanical.CoordinateSystem](../CoordinateSystem.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.CoordinateSystem) | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the ContactStartingPoint.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ContactRegion.ContactType"></a>
+
+### *property* ContactRegion.ContactType *: [Ansys.Mechanical.DataModel.Enums.ContactType](../../../../../../v242/Ansys/Mechanical/DataModel/Enums/ContactType.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.ContactType) | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the ContactType.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ContactRegion.ContinuousDistanceComputation"></a>
+
+### *property* ContactRegion.ContinuousDistanceComputation *: [Ansys.Mechanical.DataModel.Enums.YesNoProgrammedControlled](../../../../../../v242/Ansys/Mechanical/DataModel/Enums/YesNoProgrammedControlled.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.YesNoProgrammedControlled) | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the ContinuousDistanceComputation.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ContactRegion.DataModelObjectCategory"></a>
+
+### *property* ContactRegion.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../../v242/Ansys/Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets the current DataModelObject’s category.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ContactRegion.DecayConstant"></a>
+
+### *property* ContactRegion.DecayConstant *: System.Double | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the DecayConstant.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ContactRegion.DetectionMethod"></a>
+
+### *property* ContactRegion.DetectionMethod *: [Ansys.Mechanical.DataModel.Enums.ContactDetectionPoint](../../../../../../v242/Ansys/Mechanical/DataModel/Enums/ContactDetectionPoint.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.ContactDetectionPoint) | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the DetectionMethod.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ContactRegion.DisplayElementNormal"></a>
+
+### *property* ContactRegion.DisplayElementNormal *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the DisplayElementNormal.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ContactRegion.DynamicCoefficient"></a>
+
+### *property* ContactRegion.DynamicCoefficient *: System.Double | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the DynamicCoefficient.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ContactRegion.EdgeContactType"></a>
+
+### *property* ContactRegion.EdgeContactType *: [Ansys.Mechanical.DataModel.Enums.EdgeContactType](../../../../../../v242/Ansys/Mechanical/DataModel/Enums/EdgeContactType.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.EdgeContactType) | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the EdgeContactType.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ContactRegion.ElasticSlipTolerance"></a>
+
+### *property* ContactRegion.ElasticSlipTolerance *: [Ansys.Mechanical.DataModel.Enums.ContactElasticSlipToleranceType](../../../../../../v242/Ansys/Mechanical/DataModel/Enums/ContactElasticSlipToleranceType.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.ContactElasticSlipToleranceType) | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the ElasticSlipTolerance.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ContactRegion.ElasticSlipToleranceFactor"></a>
+
+### *property* ContactRegion.ElasticSlipToleranceFactor *: System.Double | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the ElasticSlipToleranceFactor.
 
 <!-- !! processed by numpydoc !! -->
 
@@ -442,355 +455,11 @@ Gets or sets the ElectricConductanceValue.
 
 <!-- !! processed by numpydoc !! -->
 
-<a id="ContactRegion.InitialClearanceValue"></a>
+<a id="ContactRegion.Figures"></a>
 
-### *property* ContactRegion.InitialClearanceValue *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ContactRegion.Figures *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Figure](../Figure.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets or sets the InitialClearanceValue.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="ContactRegion.NormalForceLimit"></a>
-
-### *property* ContactRegion.NormalForceLimit *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the NormalForceLimit.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="ContactRegion.NormalStiffnessValue"></a>
-
-### *property* ContactRegion.NormalStiffnessValue *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the NormalStiffnessValue.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="ContactRegion.NormalStressLimit"></a>
-
-### *property* ContactRegion.NormalStressLimit *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the NormalStressLimit.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="ContactRegion.PenetrationToleranceValue"></a>
-
-### *property* ContactRegion.PenetrationToleranceValue *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the PenetrationToleranceValue.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="ContactRegion.PinballRadius"></a>
-
-### *property* ContactRegion.PinballRadius *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the PinballRadius.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="ContactRegion.PressureAtZeroPenetrationValue"></a>
-
-### *property* ContactRegion.PressureAtZeroPenetrationValue *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the PressureAtZeroPenetrationValue.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="ContactRegion.ShearForceLimit"></a>
-
-### *property* ContactRegion.ShearForceLimit *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the ShearForceLimit.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="ContactRegion.ShearStressLimit"></a>
-
-### *property* ContactRegion.ShearStressLimit *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the ShearStressLimit.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="ContactRegion.ThermalConductanceValue"></a>
-
-### *property* ContactRegion.ThermalConductanceValue *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the ThermalConductanceValue.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="ContactRegion.TrimTolerance"></a>
-
-### *property* ContactRegion.TrimTolerance *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the TrimTolerance.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="ContactRegion.UserOffset"></a>
-
-### *property* ContactRegion.UserOffset *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the UserOffset.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="ContactRegion.LineLineDetection"></a>
-
-### *property* ContactRegion.LineLineDetection *: [Ansys.Mechanical.DataModel.Enums.LineLineContactDetectionType](../../../../Mechanical/DataModel/Enums/LineLineContactDetectionType.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.LineLineContactDetectionType) | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the LineLineDetection.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="ContactRegion.BeamBeamModel"></a>
-
-### *property* ContactRegion.BeamBeamModel *: [Ansys.Mechanical.DataModel.Enums.BeamBeamModel](../../../../Mechanical/DataModel/Enums/BeamBeamModel.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.BeamBeamModel) | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the BeamBeamModel.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="ContactRegion.Handedness"></a>
-
-### *property* ContactRegion.Handedness *: [Ansys.Mechanical.DataModel.Enums.ContactBoltThreadHand](../../../../Mechanical/DataModel/Enums/ContactBoltThreadHand.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.ContactBoltThreadHand) | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the Handedness.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="ContactRegion.ThreadType"></a>
-
-### *property* ContactRegion.ThreadType *: [Ansys.Mechanical.DataModel.Enums.ContactBoltThreadType](../../../../Mechanical/DataModel/Enums/ContactBoltThreadType.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.ContactBoltThreadType) | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the ThreadType.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="ContactRegion.Breakable"></a>
-
-### *property* ContactRegion.Breakable *: [Ansys.Mechanical.DataModel.Enums.BondedBreakableType](../../../../Mechanical/DataModel/Enums/BondedBreakableType.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.BondedBreakableType) | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the Breakable.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="ContactRegion.ConstraintType"></a>
-
-### *property* ContactRegion.ConstraintType *: [Ansys.Mechanical.DataModel.Enums.ContactConstraintType](../../../../Mechanical/DataModel/Enums/ContactConstraintType.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.ContactConstraintType) | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the ConstraintType.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="ContactRegion.ContactGeometryCorrection"></a>
-
-### *property* ContactRegion.ContactGeometryCorrection *: [Ansys.Mechanical.DataModel.Enums.ContactCorrection](../../../../Mechanical/DataModel/Enums/ContactCorrection.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.ContactCorrection) | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the ContactGeometryCorrection.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="ContactRegion.ContactFormulation"></a>
-
-### *property* ContactRegion.ContactFormulation *: [Ansys.Mechanical.DataModel.Enums.ContactFormulation](../../../../Mechanical/DataModel/Enums/ContactFormulation.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.ContactFormulation) | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the ContactFormulation.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="ContactRegion.ContactOrientation"></a>
-
-### *property* ContactRegion.ContactOrientation *: [Ansys.Mechanical.DataModel.Enums.ContactOrientation](../../../../Mechanical/DataModel/Enums/ContactOrientation.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.ContactOrientation) | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the ContactOrientation.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="ContactRegion.ContactShellFace"></a>
-
-### *property* ContactRegion.ContactShellFace *: [Ansys.Mechanical.DataModel.Enums.ShellFaceType](../../../../Mechanical/DataModel/Enums/ShellFaceType.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.ShellFaceType) | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the ContactShellFace.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="ContactRegion.ContactType"></a>
-
-### *property* ContactRegion.ContactType *: [Ansys.Mechanical.DataModel.Enums.ContactType](../../../../Mechanical/DataModel/Enums/ContactType.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.ContactType) | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the ContactType.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="ContactRegion.ContinuousDistanceComputation"></a>
-
-### *property* ContactRegion.ContinuousDistanceComputation *: [Ansys.Mechanical.DataModel.Enums.YesNoProgrammedControlled](../../../../Mechanical/DataModel/Enums/YesNoProgrammedControlled.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.YesNoProgrammedControlled) | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the ContinuousDistanceComputation.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="ContactRegion.DetectionMethod"></a>
-
-### *property* ContactRegion.DetectionMethod *: [Ansys.Mechanical.DataModel.Enums.ContactDetectionPoint](../../../../Mechanical/DataModel/Enums/ContactDetectionPoint.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.ContactDetectionPoint) | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the DetectionMethod.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="ContactRegion.EdgeContactType"></a>
-
-### *property* ContactRegion.EdgeContactType *: [Ansys.Mechanical.DataModel.Enums.EdgeContactType](../../../../Mechanical/DataModel/Enums/EdgeContactType.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.EdgeContactType) | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the EdgeContactType.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="ContactRegion.InitialClearance"></a>
-
-### *property* ContactRegion.InitialClearance *: [Ansys.Mechanical.DataModel.Enums.InitialClearanceType](../../../../Mechanical/DataModel/Enums/InitialClearanceType.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.InitialClearanceType) | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the InitialClearance.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="ContactRegion.InterfaceTreatment"></a>
-
-### *property* ContactRegion.InterfaceTreatment *: [Ansys.Mechanical.DataModel.Enums.ContactInitialEffect](../../../../Mechanical/DataModel/Enums/ContactInitialEffect.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.ContactInitialEffect) | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the InterfaceTreatment.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="ContactRegion.ScopeMode"></a>
-
-### *property* ContactRegion.ScopeMode *: [Ansys.Mechanical.DataModel.Enums.AutomaticOrManual](../../../../Mechanical/DataModel/Enums/AutomaticOrManual.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.AutomaticOrManual) | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets the ScopeMode.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="ContactRegion.NormalStiffnessValueType"></a>
-
-### *property* ContactRegion.NormalStiffnessValueType *: [Ansys.Mechanical.DataModel.Enums.ElementControlsNormalStiffnessType](../../../../Mechanical/DataModel/Enums/ElementControlsNormalStiffnessType.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.ElementControlsNormalStiffnessType) | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the NormalStiffnessValueType.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="ContactRegion.PinballRegion"></a>
-
-### *property* ContactRegion.PinballRegion *: [Ansys.Mechanical.DataModel.Enums.ContactPinballType](../../../../Mechanical/DataModel/Enums/ContactPinballType.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.ContactPinballType) | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the PinballRegion.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="ContactRegion.PressureAtZeroPenetration"></a>
-
-### *property* ContactRegion.PressureAtZeroPenetration *: [Ansys.Mechanical.DataModel.Enums.PressureAtZeroPenetrationType](../../../../Mechanical/DataModel/Enums/PressureAtZeroPenetrationType.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.PressureAtZeroPenetrationType) | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the PressureAtZeroPenetration.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="ContactRegion.RBDContactDetection"></a>
-
-### *property* ContactRegion.RBDContactDetection *: [Ansys.Mechanical.DataModel.Enums.DSRBDContactDetection](../../../../Mechanical/DataModel/Enums/DSRBDContactDetection.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DSRBDContactDetection) | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the RBDContactDetection.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="ContactRegion.SmallSliding"></a>
-
-### *property* ContactRegion.SmallSliding *: [Ansys.Mechanical.DataModel.Enums.ContactSmallSlidingType](../../../../Mechanical/DataModel/Enums/ContactSmallSlidingType.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.ContactSmallSlidingType) | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the SmallSliding.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="ContactRegion.Behavior"></a>
-
-### *property* ContactRegion.Behavior *: [Ansys.Mechanical.DataModel.Enums.ContactBehavior](../../../../Mechanical/DataModel/Enums/ContactBehavior.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.ContactBehavior) | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the Behavior.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="ContactRegion.TargetGeometryCorrection"></a>
-
-### *property* ContactRegion.TargetGeometryCorrection *: [Ansys.Mechanical.DataModel.Enums.TargetCorrection](../../../../Mechanical/DataModel/Enums/TargetCorrection.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.TargetCorrection) | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the TargetGeometryCorrection.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="ContactRegion.TargetOrientation"></a>
-
-### *property* ContactRegion.TargetOrientation *: [Ansys.Mechanical.DataModel.Enums.TargetOrientation](../../../../Mechanical/DataModel/Enums/TargetOrientation.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.TargetOrientation) | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the TargetOrientation.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="ContactRegion.TargetShellFace"></a>
-
-### *property* ContactRegion.TargetShellFace *: [Ansys.Mechanical.DataModel.Enums.ShellFaceType](../../../../Mechanical/DataModel/Enums/ShellFaceType.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.ShellFaceType) | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the TargetShellFace.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="ContactRegion.TimeStepControls"></a>
-
-### *property* ContactRegion.TimeStepControls *: [Ansys.Mechanical.DataModel.Enums.ContactTimeStepControls](../../../../Mechanical/DataModel/Enums/ContactTimeStepControls.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.ContactTimeStepControls) | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the TimeStepControls.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="ContactRegion.TrimContact"></a>
-
-### *property* ContactRegion.TrimContact *: [Ansys.Mechanical.DataModel.Enums.ContactTrimType](../../../../Mechanical/DataModel/Enums/ContactTrimType.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.ContactTrimType) | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the TrimContact.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="ContactRegion.UpdateStiffness"></a>
-
-### *property* ContactRegion.UpdateStiffness *: [Ansys.Mechanical.DataModel.Enums.UpdateContactStiffness](../../../../Mechanical/DataModel/Enums/UpdateContactStiffness.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.UpdateContactStiffness) | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the UpdateStiffness.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="ContactRegion.ElasticSlipTolerance"></a>
-
-### *property* ContactRegion.ElasticSlipTolerance *: [Ansys.Mechanical.DataModel.Enums.ContactElasticSlipToleranceType](../../../../Mechanical/DataModel/Enums/ContactElasticSlipToleranceType.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.ContactElasticSlipToleranceType) | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the ElasticSlipTolerance.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="ContactRegion.PenetrationTolerance"></a>
-
-### *property* ContactRegion.PenetrationTolerance *: [Ansys.Mechanical.DataModel.Enums.ContactPenetrationToleranceType](../../../../Mechanical/DataModel/Enums/ContactPenetrationToleranceType.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.ContactPenetrationToleranceType) | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the PenetrationTolerance.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="ContactRegion.DisplayElementNormal"></a>
-
-### *property* ContactRegion.DisplayElementNormal *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the DisplayElementNormal.
+Gets the list of associated figures.
 
 <!-- !! processed by numpydoc !! -->
 
@@ -810,6 +479,238 @@ Gets or sets the FlipTarget.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="ContactRegion.FrictionCoefficient"></a>
+
+### *property* ContactRegion.FrictionCoefficient *: System.Double | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the FrictionCoefficient.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ContactRegion.Handedness"></a>
+
+### *property* ContactRegion.Handedness *: [Ansys.Mechanical.DataModel.Enums.ContactBoltThreadHand](../../../../../../v242/Ansys/Mechanical/DataModel/Enums/ContactBoltThreadHand.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.ContactBoltThreadHand) | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the Handedness.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ContactRegion.Images"></a>
+
+### *property* ContactRegion.Images *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Image](../Image.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets the list of associated images.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ContactRegion.InitialClearance"></a>
+
+### *property* ContactRegion.InitialClearance *: [Ansys.Mechanical.DataModel.Enums.InitialClearanceType](../../../../../../v242/Ansys/Mechanical/DataModel/Enums/InitialClearanceType.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.InitialClearanceType) | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the InitialClearance.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ContactRegion.InitialClearanceFactor"></a>
+
+### *property* ContactRegion.InitialClearanceFactor *: System.Double | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the InitialClearanceFactor.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ContactRegion.InitialClearanceValue"></a>
+
+### *property* ContactRegion.InitialClearanceValue *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the InitialClearanceValue.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ContactRegion.InterfaceTreatment"></a>
+
+### *property* ContactRegion.InterfaceTreatment *: [Ansys.Mechanical.DataModel.Enums.ContactInitialEffect](../../../../../../v242/Ansys/Mechanical/DataModel/Enums/ContactInitialEffect.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.ContactInitialEffect) | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the InterfaceTreatment.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ContactRegion.InternalObject"></a>
+
+### *property* ContactRegion.InternalObject *: Ansys.Common.Interop.DSObjectsAuto.IDSContactRegionAuto | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets the internal object. For advanced usage only.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ContactRegion.LineLineDetection"></a>
+
+### *property* ContactRegion.LineLineDetection *: [Ansys.Mechanical.DataModel.Enums.LineLineContactDetectionType](../../../../../../v242/Ansys/Mechanical/DataModel/Enums/LineLineContactDetectionType.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.LineLineContactDetectionType) | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the LineLineDetection.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ContactRegion.Material"></a>
+
+### *property* ContactRegion.Material *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the Material.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ContactRegion.MeanPitchDiameter"></a>
+
+### *property* ContactRegion.MeanPitchDiameter *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the MeanPitchDiameter.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ContactRegion.NormalForceExponent"></a>
+
+### *property* ContactRegion.NormalForceExponent *: System.Double | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the NormalForceExponent.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ContactRegion.NormalForceLimit"></a>
+
+### *property* ContactRegion.NormalForceLimit *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the NormalForceLimit.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ContactRegion.NormalStiffnessFactor"></a>
+
+### *property* ContactRegion.NormalStiffnessFactor *: System.Double | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the NormalStiffnessFactor.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ContactRegion.NormalStiffnessValue"></a>
+
+### *property* ContactRegion.NormalStiffnessValue *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the NormalStiffnessValue.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ContactRegion.NormalStiffnessValueType"></a>
+
+### *property* ContactRegion.NormalStiffnessValueType *: [Ansys.Mechanical.DataModel.Enums.ElementControlsNormalStiffnessType](../../../../../../v242/Ansys/Mechanical/DataModel/Enums/ElementControlsNormalStiffnessType.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.ElementControlsNormalStiffnessType) | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the NormalStiffnessValueType.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ContactRegion.NormalStressExponent"></a>
+
+### *property* ContactRegion.NormalStressExponent *: System.Double | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the NormalStressExponent.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ContactRegion.NormalStressLimit"></a>
+
+### *property* ContactRegion.NormalStressLimit *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the NormalStressLimit.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ContactRegion.PenetrationTolerance"></a>
+
+### *property* ContactRegion.PenetrationTolerance *: [Ansys.Mechanical.DataModel.Enums.ContactPenetrationToleranceType](../../../../../../v242/Ansys/Mechanical/DataModel/Enums/ContactPenetrationToleranceType.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.ContactPenetrationToleranceType) | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the PenetrationTolerance.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ContactRegion.PenetrationToleranceFactor"></a>
+
+### *property* ContactRegion.PenetrationToleranceFactor *: System.Double | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the PenetrationToleranceFactor.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ContactRegion.PenetrationToleranceValue"></a>
+
+### *property* ContactRegion.PenetrationToleranceValue *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the PenetrationToleranceValue.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ContactRegion.PinballFactor"></a>
+
+### *property* ContactRegion.PinballFactor *: System.Double | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the PinballFactor.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ContactRegion.PinballRadius"></a>
+
+### *property* ContactRegion.PinballRadius *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the PinballRadius.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ContactRegion.PinballRegion"></a>
+
+### *property* ContactRegion.PinballRegion *: [Ansys.Mechanical.DataModel.Enums.ContactPinballType](../../../../../../v242/Ansys/Mechanical/DataModel/Enums/ContactPinballType.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.ContactPinballType) | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the PinballRegion.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ContactRegion.PitchDistance"></a>
+
+### *property* ContactRegion.PitchDistance *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the PitchDistance.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ContactRegion.PressureAtZeroPenetration"></a>
+
+### *property* ContactRegion.PressureAtZeroPenetration *: [Ansys.Mechanical.DataModel.Enums.PressureAtZeroPenetrationType](../../../../../../v242/Ansys/Mechanical/DataModel/Enums/PressureAtZeroPenetrationType.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.PressureAtZeroPenetrationType) | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the PressureAtZeroPenetration.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ContactRegion.PressureAtZeroPenetrationFactor"></a>
+
+### *property* ContactRegion.PressureAtZeroPenetrationFactor *: System.Double | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the PressureAtZeroPenetrationFactor.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ContactRegion.PressureAtZeroPenetrationValue"></a>
+
+### *property* ContactRegion.PressureAtZeroPenetrationValue *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the PressureAtZeroPenetrationValue.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ContactRegion.Properties"></a>
+
+### *property* ContactRegion.Properties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets the list of properties for this object.
+
+<!-- !! processed by numpydoc !! -->
+
 <a id="ContactRegion.Protected"></a>
 
 ### *property* ContactRegion.Protected *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
@@ -818,67 +719,35 @@ Gets or sets the Protected.
 
 <!-- !! processed by numpydoc !! -->
 
-<a id="ContactRegion.ShellThicknessEffect"></a>
+<a id="ContactRegion.RBDContactDetection"></a>
 
-### *property* ContactRegion.ShellThicknessEffect *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ContactRegion.RBDContactDetection *: [Ansys.Mechanical.DataModel.Enums.DSRBDContactDetection](../../../../../../v242/Ansys/Mechanical/DataModel/Enums/DSRBDContactDetection.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.DSRBDContactDetection) | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets or sets the ShellThicknessEffect.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="ContactRegion.Suppressed"></a>
-
-### *property* ContactRegion.Suppressed *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the Suppressed.
+Gets or sets the RBDContactDetection.
 
 <!-- !! processed by numpydoc !! -->
 
-<a id="ContactRegion.AutomaticElectricCapacitance"></a>
+<a id="ContactRegion.ReadOnly"></a>
 
-### *property* ContactRegion.AutomaticElectricCapacitance *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ContactRegion.ReadOnly *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets or sets the AutomaticElectricCapacitance.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="ContactRegion.AutomaticElectricConductance"></a>
-
-### *property* ContactRegion.AutomaticElectricConductance *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the AutomaticElectricConductance.
+Gets or sets the ReadOnly.
 
 <!-- !! processed by numpydoc !! -->
 
-<a id="ContactRegion.AutomaticThermalConductance"></a>
+<a id="ContactRegion.RestitutionFactor"></a>
 
-### *property* ContactRegion.AutomaticThermalConductance *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ContactRegion.RestitutionFactor *: System.Double | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets or sets the AutomaticThermalConductance.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="ContactRegion.ContactCenterPoint"></a>
-
-### *property* ContactRegion.ContactCenterPoint *: [Ansys.ACT.Automation.Mechanical.CoordinateSystem](../CoordinateSystem.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.CoordinateSystem) | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the ContactCenterPoint.
+Gets or sets the RestitutionFactor.
 
 <!-- !! processed by numpydoc !! -->
 
-<a id="ContactRegion.ContactEndingPoint"></a>
+<a id="ContactRegion.ScopeMode"></a>
 
-### *property* ContactRegion.ContactEndingPoint *: [Ansys.ACT.Automation.Mechanical.CoordinateSystem](../CoordinateSystem.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.CoordinateSystem) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ContactRegion.ScopeMode *: [Ansys.Mechanical.DataModel.Enums.AutomaticOrManual](../../../../../../v242/Ansys/Mechanical/DataModel/Enums/AutomaticOrManual.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.AutomaticOrManual) | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets or sets the ContactEndingPoint.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="ContactRegion.ContactStartingPoint"></a>
-
-### *property* ContactRegion.ContactStartingPoint *: [Ansys.ACT.Automation.Mechanical.CoordinateSystem](../CoordinateSystem.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.CoordinateSystem) | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the ContactStartingPoint.
+Gets the ScopeMode.
 
 <!-- !! processed by numpydoc !! -->
 
@@ -890,11 +759,115 @@ Gets or sets the SharedSourceBody.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="ContactRegion.SharedSourceReverseNormalLocation"></a>
+
+### *property* ContactRegion.SharedSourceReverseNormalLocation *: Ansys.ACT.Interfaces.Common.ISelectionInfo | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the SharedSourceReverseNormalLocation.
+
+<!-- !! processed by numpydoc !! -->
+
 <a id="ContactRegion.SharedTargetBody"></a>
 
 ### *property* ContactRegion.SharedTargetBody *: [Ansys.ACT.Automation.Mechanical.Body](../Body.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Body) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the SharedTargetBody.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ContactRegion.SharedTargetReverseNormalLocation"></a>
+
+### *property* ContactRegion.SharedTargetReverseNormalLocation *: Ansys.ACT.Interfaces.Common.ISelectionInfo | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the SharedTargetReverseNormalLocation.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ContactRegion.ShearForceExponent"></a>
+
+### *property* ContactRegion.ShearForceExponent *: System.Double | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the ShearForceExponent.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ContactRegion.ShearForceLimit"></a>
+
+### *property* ContactRegion.ShearForceLimit *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the ShearForceLimit.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ContactRegion.ShearStressExponent"></a>
+
+### *property* ContactRegion.ShearStressExponent *: System.Double | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the ShearStressExponent.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ContactRegion.ShearStressLimit"></a>
+
+### *property* ContactRegion.ShearStressLimit *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the ShearStressLimit.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ContactRegion.ShellThicknessEffect"></a>
+
+### *property* ContactRegion.ShellThicknessEffect *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the ShellThicknessEffect.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ContactRegion.SmallSliding"></a>
+
+### *property* ContactRegion.SmallSliding *: [Ansys.Mechanical.DataModel.Enums.ContactSmallSlidingType](../../../../../../v242/Ansys/Mechanical/DataModel/Enums/ContactSmallSlidingType.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.ContactSmallSlidingType) | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the SmallSliding.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ContactRegion.SourceLocation"></a>
+
+### *property* ContactRegion.SourceLocation *: Ansys.ACT.Interfaces.Common.ISelectionInfo | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the SourceLocation.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ContactRegion.StabilizationDampingFactor"></a>
+
+### *property* ContactRegion.StabilizationDampingFactor *: System.Double | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the StabilizationDampingFactor.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ContactRegion.Suppressed"></a>
+
+### *property* ContactRegion.Suppressed *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the Suppressed.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ContactRegion.TargetAPDLName"></a>
+
+### *property* ContactRegion.TargetAPDLName *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the TargetAPDLName.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ContactRegion.TargetBodies"></a>
+
+### *property* ContactRegion.TargetBodies *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets the TargetBodies.
 
 <!-- !! processed by numpydoc !! -->
 
@@ -914,6 +887,38 @@ Gets or sets the TargetEndingPoint.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="ContactRegion.TargetGeometryCorrection"></a>
+
+### *property* ContactRegion.TargetGeometryCorrection *: [Ansys.Mechanical.DataModel.Enums.TargetCorrection](../../../../../../v242/Ansys/Mechanical/DataModel/Enums/TargetCorrection.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.TargetCorrection) | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the TargetGeometryCorrection.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ContactRegion.TargetLocation"></a>
+
+### *property* ContactRegion.TargetLocation *: Ansys.ACT.Interfaces.Common.ISelectionInfo | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the TargetLocation.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ContactRegion.TargetOrientation"></a>
+
+### *property* ContactRegion.TargetOrientation *: [Ansys.Mechanical.DataModel.Enums.TargetOrientation](../../../../../../v242/Ansys/Mechanical/DataModel/Enums/TargetOrientation.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.TargetOrientation) | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the TargetOrientation.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ContactRegion.TargetShellFace"></a>
+
+### *property* ContactRegion.TargetShellFace *: [Ansys.Mechanical.DataModel.Enums.ShellFaceType](../../../../../../v242/Ansys/Mechanical/DataModel/Enums/ShellFaceType.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.ShellFaceType) | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the TargetShellFace.
+
+<!-- !! processed by numpydoc !! -->
+
 <a id="ContactRegion.TargetStartingPoint"></a>
 
 ### *property* ContactRegion.TargetStartingPoint *: [Ansys.ACT.Automation.Mechanical.CoordinateSystem](../CoordinateSystem.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.CoordinateSystem) | [None](https://docs.python.org/3/library/constants.html#None)*
@@ -922,83 +927,67 @@ Gets or sets the TargetStartingPoint.
 
 <!-- !! processed by numpydoc !! -->
 
-<a id="ContactRegion.SharedSourceReverseNormalLocation"></a>
+<a id="ContactRegion.ThermalConductanceValue"></a>
 
-### *property* ContactRegion.SharedSourceReverseNormalLocation *: Ansys.ACT.Interfaces.Common.ISelectionInfo | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ContactRegion.ThermalConductanceValue *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets or sets the SharedSourceReverseNormalLocation.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="ContactRegion.SharedTargetReverseNormalLocation"></a>
-
-### *property* ContactRegion.SharedTargetReverseNormalLocation *: Ansys.ACT.Interfaces.Common.ISelectionInfo | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the SharedTargetReverseNormalLocation.
+Gets or sets the ThermalConductanceValue.
 
 <!-- !! processed by numpydoc !! -->
 
-<a id="ContactRegion.DataModelObjectCategory"></a>
+<a id="ContactRegion.ThreadAngle"></a>
 
-### *property* ContactRegion.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ContactRegion.ThreadAngle *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets the current DataModelObject's category.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="ContactRegion.Children"></a>
-
-### *property* ContactRegion.Children *: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets the list of children.
+Gets or sets the ThreadAngle.
 
 <!-- !! processed by numpydoc !! -->
 
-<a id="ContactRegion.Comments"></a>
+<a id="ContactRegion.ThreadType"></a>
 
-### *property* ContactRegion.Comments *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Comment](../Comment.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ContactRegion.ThreadType *: [Ansys.Mechanical.DataModel.Enums.ContactBoltThreadType](../../../../../../v242/Ansys/Mechanical/DataModel/Enums/ContactBoltThreadType.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.ContactBoltThreadType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets the list of associated comments.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="ContactRegion.Figures"></a>
-
-### *property* ContactRegion.Figures *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Figure](../Figure.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets the list of associated figures.
+Gets or sets the ThreadType.
 
 <!-- !! processed by numpydoc !! -->
 
-<a id="ContactRegion.Images"></a>
+<a id="ContactRegion.TimeStepControls"></a>
 
-### *property* ContactRegion.Images *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Image](../Image.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ContactRegion.TimeStepControls *: [Ansys.Mechanical.DataModel.Enums.ContactTimeStepControls](../../../../../../v242/Ansys/Mechanical/DataModel/Enums/ContactTimeStepControls.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.ContactTimeStepControls) | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets the list of associated images.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="ContactRegion.ReadOnly"></a>
-
-### *property* ContactRegion.ReadOnly *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the ReadOnly.
+Gets or sets the TimeStepControls.
 
 <!-- !! processed by numpydoc !! -->
 
-<a id="id0"></a>
+<a id="ContactRegion.TrimContact"></a>
 
-### *property* ContactRegion.InternalObject *: System.Object | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ContactRegion.TrimContact *: [Ansys.Mechanical.DataModel.Enums.ContactTrimType](../../../../../../v242/Ansys/Mechanical/DataModel/Enums/ContactTrimType.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.ContactTrimType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets the internal object. For advanced usage only.
+Gets or sets the TrimContact.
 
 <!-- !! processed by numpydoc !! -->
 
-<a id="ContactRegion.Properties"></a>
+<a id="ContactRegion.TrimTolerance"></a>
 
-### *property* ContactRegion.Properties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ContactRegion.TrimTolerance *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets the list of properties for this object.
+Gets or sets the TrimTolerance.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ContactRegion.UpdateStiffness"></a>
+
+### *property* ContactRegion.UpdateStiffness *: [Ansys.Mechanical.DataModel.Enums.UpdateContactStiffness](../../../../../../v242/Ansys/Mechanical/DataModel/Enums/UpdateContactStiffness.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.UpdateContactStiffness) | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the UpdateStiffness.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ContactRegion.UserOffset"></a>
+
+### *property* ContactRegion.UserOffset *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the UserOffset.
 
 <!-- !! processed by numpydoc !! -->
 
@@ -1014,75 +1003,11 @@ Gets the list of properties that are visible for this object.
 
 ## Method detail
 
-<a id="ContactRegion.SearchConnectionsForDuplicatePairs"></a>
+<a id="ContactRegion.Activate"></a>
 
-### ContactRegion.SearchConnectionsForDuplicatePairs()
+### ContactRegion.Activate()
 
-Run the SearchConnectionsForDuplicatePairs action.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="ContactRegion.FlipContactTarget"></a>
-
-### ContactRegion.FlipContactTarget()
-
-Run the FlipContactTarget action.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="ContactRegion.SetDefaultAPDLNames"></a>
-
-### ContactRegion.SetDefaultAPDLNames()
-
-Run the SetDefaultAPDLNames action.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="ContactRegion.SaveContactRegionSettings"></a>
-
-### ContactRegion.SaveContactRegionSettings(fName: System.String)
-
-Run the SaveContactRegionSettings action.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="ContactRegion.LoadContactRegionSettings"></a>
-
-### ContactRegion.LoadContactRegionSettings(fName: System.String)
-
-Run the LoadContactRegionSettings action.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="ContactRegion.ResetToDefault"></a>
-
-### ContactRegion.ResetToDefault()
-
-Run the ResetToDefault action.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="id1"></a>
-
-### ContactRegion.ResetToDefault(b_Verify: System.Boolean)
-
-Run the ResetToDefault action with optional verification dialog.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="ContactRegion.PromoteToNamedSelection"></a>
-
-### ContactRegion.PromoteToNamedSelection()
-
-Run the PromoteToNamedSelection action.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="ContactRegion.PromoteToRemotePoint"></a>
-
-### ContactRegion.PromoteToRemotePoint()
-
-Run the PromoteToRemotePoint action.
+Activate the current object.
 
 <!-- !! processed by numpydoc !! -->
 
@@ -1091,46 +1016,6 @@ Run the PromoteToRemotePoint action.
 ### ContactRegion.AddCommandSnippet()
 
 Creates a new CommandSnippet
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="ContactRegion.AddPythonCodeEventBased"></a>
-
-### ContactRegion.AddPythonCodeEventBased()
-
-Creates a new PythonCodeEventBased
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="ContactRegion.RenameBasedOnDefinition"></a>
-
-### ContactRegion.RenameBasedOnDefinition()
-
-Run the RenameBasedOnDefinition action.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="ContactRegion.Delete"></a>
-
-### ContactRegion.Delete()
-
-Run the Delete action.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="ContactRegion.GetChildren"></a>
-
-### ContactRegion.GetChildren(recurses: System.Boolean, children: System.Collections.Generic.IList[ChildrenType])
-
-Gets the list of children, filtered by type.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="id2"></a>
-
-### ContactRegion.GetChildren(category: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory), recurses: System.Boolean, children: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject])
-
-Gets the list of children, filtered by type.
 
 <!-- !! processed by numpydoc !! -->
 
@@ -1154,17 +1039,19 @@ Creates a new child Figure.
 
 ### ContactRegion.AddImage(filePath: System.String)
 
+```text
 Creates a new child Image.
 If a filePath is provided, the image will be loaded from that file,
 if not, the image will be a screen capture of the Geometry window.
+```
 
 <!-- !! processed by numpydoc !! -->
 
-<a id="ContactRegion.Activate"></a>
+<a id="ContactRegion.AddPythonCodeEventBased"></a>
 
-### ContactRegion.Activate()
+### ContactRegion.AddPythonCodeEventBased()
 
-Activate the current object.
+Creates a new PythonCodeEventBased
 
 <!-- !! processed by numpydoc !! -->
 
@@ -1176,11 +1063,51 @@ Copies all visible properties from this object to another.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="ContactRegion.CreateParameter"></a>
+
+### ContactRegion.CreateParameter(propName: System.String)
+
+Creates a new parameter for a Property.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ContactRegion.Delete"></a>
+
+### ContactRegion.Delete()
+
+Run the Delete action.
+
+<!-- !! processed by numpydoc !! -->
+
 <a id="ContactRegion.Duplicate"></a>
 
 ### ContactRegion.Duplicate()
 
 Creates a copy of the current DataModelObject.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ContactRegion.FlipContactTarget"></a>
+
+### ContactRegion.FlipContactTarget()
+
+Run the FlipContactTarget action.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ContactRegion.GetChildren"></a>
+
+### ContactRegion.GetChildren(recurses: System.Boolean, children: System.Collections.Generic.IList[ChildrenType])
+
+Gets the list of children, filtered by type.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ContactRegion.GetParameter"></a>
+
+### ContactRegion.GetParameter(propName: System.String)
+
+Gets the parameter corresponding to the given property.
 
 <!-- !! processed by numpydoc !! -->
 
@@ -1200,6 +1127,41 @@ Run the GroupSimilarObjects action.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="ContactRegion.LoadContactRegionSettings"></a>
+
+### ContactRegion.LoadContactRegionSettings(fName: System.String)
+
+Run the LoadContactRegionSettings action.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ContactRegion.PromoteToNamedSelection"></a>
+
+### ContactRegion.PromoteToNamedSelection()
+
+Run the PromoteToNamedSelection action.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ContactRegion.PromoteToRemotePoint"></a>
+
+### ContactRegion.PromoteToRemotePoint()
+
+Run the PromoteToRemotePoint action.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ContactRegion.PropertyByAPIName"></a>
+
+### ContactRegion.PropertyByAPIName(name: System.String)
+
+```text
+Get a property by its API name.
+If multiple properties have the same API Name, only the first property with that name will be returned.
+```
+
+<!-- !! processed by numpydoc !! -->
+
 <a id="ContactRegion.PropertyByName"></a>
 
 ### ContactRegion.PropertyByName(name: System.String)
@@ -1208,36 +1170,51 @@ Get a property by its unique name.
 
 <!-- !! processed by numpydoc !! -->
 
-<a id="ContactRegion.PropertyByAPIName"></a>
-
-### ContactRegion.PropertyByAPIName(name: System.String)
-
-Get a property by its API name.
-If multiple properties have the same API Name, only the first property with that name will be returned.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="ContactRegion.CreateParameter"></a>
-
-### ContactRegion.CreateParameter(propName: System.String)
-
-Creates a new parameter for a Property.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="ContactRegion.GetParameter"></a>
-
-### ContactRegion.GetParameter(propName: System.String)
-
-Gets the parameter corresponding to the given property.
-
-<!-- !! processed by numpydoc !! -->
-
 <a id="ContactRegion.RemoveParameter"></a>
 
 ### ContactRegion.RemoveParameter(propName: System.String)
 
 Removes the parameter from the parameter set corresponding to the given property.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ContactRegion.RenameBasedOnDefinition"></a>
+
+### ContactRegion.RenameBasedOnDefinition()
+
+Run the RenameBasedOnDefinition action.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ContactRegion.ResetToDefault"></a>
+
+### ContactRegion.ResetToDefault()
+
+Run the ResetToDefault action.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ContactRegion.SaveContactRegionSettings"></a>
+
+### ContactRegion.SaveContactRegionSettings(fName: System.String)
+
+Run the SaveContactRegionSettings action.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ContactRegion.SearchConnectionsForDuplicatePairs"></a>
+
+### ContactRegion.SearchConnectionsForDuplicatePairs()
+
+Run the SearchConnectionsForDuplicatePairs action.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ContactRegion.SetDefaultAPDLNames"></a>
+
+### ContactRegion.SetDefaultAPDLNames()
+
+Run the SetDefaultAPDLNames action.
 
 <!-- !! processed by numpydoc !! -->
 

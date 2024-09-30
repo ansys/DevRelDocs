@@ -1,6 +1,6 @@
 # `ResponsePSD`
 
-
+<a id="ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Results.ProbeResults.ResponsePSD"></a>
 
 #### *class* ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Results.ProbeResults.ResponsePSD
 
@@ -17,243 +17,97 @@ Defines a ResponsePSD.
 ### Methods
 
 | Name | Description |
-|----------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------|
-| [`ExportAnimation`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/ProbeResults/ResponsePSD.md#ResponsePSD.ExportAnimation)                 | Run the ExportAnimation action.                                                   |
-| [`ClearGeneratedData`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/ProbeResults/ResponsePSD.md#ResponsePSD.ClearGeneratedData)           | Run the ClearGeneratedData action.                                                |
-| [`DuplicateWithoutResults`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/ProbeResults/ResponsePSD.md#ResponsePSD.DuplicateWithoutResults) | Run the DuplicateWithoutResults action.                                           |
-| [`EvaluateAllResults`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/ProbeResults/ResponsePSD.md#ResponsePSD.EvaluateAllResults)           | Run the EvaluateAllResults action.                                                |
-| [`SnapToMeshNodes`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/ProbeResults/ResponsePSD.md#ResponsePSD.SnapToMeshNodes)                 | Snap the coordinates of probe result to the mesh nodes.                           |
-| [`RenameBasedOnDefinition`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/ProbeResults/ResponsePSD.md#ResponsePSD.RenameBasedOnDefinition) | Run the RenameBasedOnDefinition action.                                           |
-| [`Delete`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/ProbeResults/ResponsePSD.md#ResponsePSD.Delete)                                   | Run the Delete action.                                                            |
-| [`GetChildren`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/ProbeResults/ResponsePSD.md#id1)                                             | Gets the list of children, filtered by type.                                      |
-| [`GetChildren`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/ProbeResults/ResponsePSD.md#id1)                                             | Gets the list of children, filtered by type.                                      |
-| [`AddComment`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/ProbeResults/ResponsePSD.md#ResponsePSD.AddComment)                           | Creates a new child Comment.                                                      |
-| [`AddFigure`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/ProbeResults/ResponsePSD.md#ResponsePSD.AddFigure)                             | Creates a new child Figure.                                                       |
-| [`AddImage`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/ProbeResults/ResponsePSD.md#ResponsePSD.AddImage)                               | Creates a new child Image.                                                        |
-| [`Activate`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/ProbeResults/ResponsePSD.md#ResponsePSD.Activate)                               | Activate the current object.                                                      |
-| [`CopyTo`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/ProbeResults/ResponsePSD.md#ResponsePSD.CopyTo)                                   | Copies all visible properties from this object to another.                        |
-| [`Duplicate`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/ProbeResults/ResponsePSD.md#ResponsePSD.Duplicate)                             | Creates a copy of the current DataModelObject.                                    |
-| [`GroupAllSimilarChildren`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/ProbeResults/ResponsePSD.md#ResponsePSD.GroupAllSimilarChildren) | Run the GroupAllSimilarChildren action.                                           |
-| [`GroupSimilarObjects`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/ProbeResults/ResponsePSD.md#ResponsePSD.GroupSimilarObjects)         | Run the GroupSimilarObjects action.                                               |
-| [`PropertyByName`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/ProbeResults/ResponsePSD.md#ResponsePSD.PropertyByName)                   | Get a property by its unique name.                                                |
-| [`PropertyByAPIName`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/ProbeResults/ResponsePSD.md#ResponsePSD.PropertyByAPIName)             | Get a property by its API name.                                                   |
-| [`CreateParameter`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/ProbeResults/ResponsePSD.md#ResponsePSD.CreateParameter)                 | Creates a new parameter for a Property.                                           |
-| [`GetParameter`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/ProbeResults/ResponsePSD.md#ResponsePSD.GetParameter)                       | Gets the parameter corresponding to the given property.                           |
-| [`RemoveParameter`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/ProbeResults/ResponsePSD.md#ResponsePSD.RemoveParameter)                 | Removes the parameter from the parameter set corresponding to the given property. |
+|-------------------------------------------------------------------|-----------------------------------------------------------------------------------|
+| [`Activate`](#ResponsePSD.Activate)                               | Activate the current object.                                                      |
+| [`AddComment`](#ResponsePSD.AddComment)                           | Creates a new child Comment.                                                      |
+| [`AddFigure`](#ResponsePSD.AddFigure)                             | Creates a new child Figure.                                                       |
+| [`AddImage`](#ResponsePSD.AddImage)                               | Creates a new child Image.                                                        |
+| [`ClearGeneratedData`](#ResponsePSD.ClearGeneratedData)           | Run the ClearGeneratedData action.                                                |
+| [`CopyTo`](#ResponsePSD.CopyTo)                                   | Copies all visible properties from this object to another.                        |
+| [`CreateParameter`](#ResponsePSD.CreateParameter)                 | Creates a new parameter for a Property.                                           |
+| [`Delete`](#ResponsePSD.Delete)                                   | Run the Delete action.                                                            |
+| [`Duplicate`](#ResponsePSD.Duplicate)                             | Creates a copy of the current DataModelObject.                                    |
+| [`DuplicateWithoutResults`](#ResponsePSD.DuplicateWithoutResults) | Run the DuplicateWithoutResults action.                                           |
+| [`EvaluateAllResults`](#ResponsePSD.EvaluateAllResults)           | Run the EvaluateAllResults action.                                                |
+| [`ExportAnimation`](#ResponsePSD.ExportAnimation)                 | Run the ExportAnimation action.                                                   |
+| [`GetChildren`](#ResponsePSD.GetChildren)                         | Gets the list of children, filtered by type.                                      |
+| [`GetParameter`](#ResponsePSD.GetParameter)                       | Gets the parameter corresponding to the given property.                           |
+| [`GroupAllSimilarChildren`](#ResponsePSD.GroupAllSimilarChildren) | Run the GroupAllSimilarChildren action.                                           |
+| [`GroupSimilarObjects`](#ResponsePSD.GroupSimilarObjects)         | Run the GroupSimilarObjects action.                                               |
+| [`PropertyByAPIName`](#ResponsePSD.PropertyByAPIName)             | Get a property by its API name.                                                   |
+| [`PropertyByName`](#ResponsePSD.PropertyByName)                   | Get a property by its unique name.                                                |
+| [`RemoveParameter`](#ResponsePSD.RemoveParameter)                 | Removes the parameter from the parameter set corresponding to the given property. |
+| [`RenameBasedOnDefinition`](#ResponsePSD.RenameBasedOnDefinition) | Run the RenameBasedOnDefinition action.                                           |
+| [`SnapToMeshNodes`](#ResponsePSD.SnapToMeshNodes)                 | Snap the coordinates of probe result to the mesh nodes.                           |
 
 ### Properties
 
 | Name | Description |
-|----------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [`InternalObject`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/ProbeResults/ResponsePSD.md#id0)                                                | Gets the internal object. For advanced usage only.                                                                                                                         |
-| [`Probability`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/ProbeResults/ResponsePSD.md#ResponsePSD.Probability)                               | Gets the Probability.                                                                                                                                                      |
-| [`RMSPercentage`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/ProbeResults/ResponsePSD.md#ResponsePSD.RMSPercentage)                           | Gets the RMSPercentage.                                                                                                                                                    |
-| [`ExpectedFrequency`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/ProbeResults/ResponsePSD.md#ResponsePSD.ExpectedFrequency)                   | Gets the ExpectedFrequency.                                                                                                                                                |
-| [`RMSValue`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/ProbeResults/ResponsePSD.md#ResponsePSD.RMSValue)                                     | Gets the RMSValue.                                                                                                                                                         |
-| [`RangeMaximum`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/ProbeResults/ResponsePSD.md#ResponsePSD.RangeMaximum)                             | Gets or sets the RangeMaximum.                                                                                                                                             |
-| [`RangeMinimum`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/ProbeResults/ResponsePSD.md#ResponsePSD.RangeMinimum)                             | Gets or sets the RangeMinimum.                                                                                                                                             |
-| [`ResultType`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/ProbeResults/ResponsePSD.md#ResponsePSD.ResultType)                                 | Gets or sets the ResultType.                                                                                                                                               |
-| [`Reference`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/ProbeResults/ResponsePSD.md#ResponsePSD.Reference)                                   | Gets or sets the Reference.                                                                                                                                                |
-| [`SelectedFrequencyRange`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/ProbeResults/ResponsePSD.md#ResponsePSD.SelectedFrequencyRange)         | Gets or sets the SelectedFrequencyRange.                                                                                                                                   |
-| [`AccelerationInG`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/ProbeResults/ResponsePSD.md#ResponsePSD.AccelerationInG)                       | Gets or sets the AccelerationInG.                                                                                                                                          |
-| [`DataModelObjectCategory`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/ProbeResults/ResponsePSD.md#ResponsePSD.DataModelObjectCategory)       | Gets the current DataModelObject's category.                                                                                                                               |
-| [`Summation`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/ProbeResults/ResponsePSD.md#ResponsePSD.Summation)                                   | Gets or sets the Summation.                                                                                                                                                |
-| [`LocationMethod`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/ProbeResults/ResponsePSD.md#ResponsePSD.LocationMethod)                         | Gets or sets the LocationMethod.                                                                                                                                           |
-| [`GeometryLocation`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/ProbeResults/ResponsePSD.md#ResponsePSD.GeometryLocation)                     | Gets or sets the GeometryLocation.                                                                                                                                         |
-| [`CoordinateSystemSelection`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/ProbeResults/ResponsePSD.md#ResponsePSD.CoordinateSystemSelection)   | Gets or sets the CoordinateSystemSelection.                                                                                                                                |
-| [`BoundaryConditionSelection`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/ProbeResults/ResponsePSD.md#ResponsePSD.BoundaryConditionSelection) | Gets or sets the BoundaryConditionSelection. In order to select the option â€˜WeakSprings', please use the property â€˜LocationMethod = LocationDefinitionMethod.WeakSprings'. |
-| [`ContactRegionSelection`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/ProbeResults/ResponsePSD.md#ResponsePSD.ContactRegionSelection)         | Gets or sets the ContactRegionSelection.                                                                                                                                   |
-| [`RemotePointSelection`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/ProbeResults/ResponsePSD.md#ResponsePSD.RemotePointSelection)             | Gets or sets the RemotePointSelection.                                                                                                                                     |
-| [`BeamSelection`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/ProbeResults/ResponsePSD.md#ResponsePSD.BeamSelection)                           | Gets or sets the BeamSelection.                                                                                                                                            |
-| [`MeshConnectionSelection`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/ProbeResults/ResponsePSD.md#ResponsePSD.MeshConnectionSelection)       | Gets or sets the MeshConnectionSelection.                                                                                                                                  |
-| [`SurfaceSelection`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/ProbeResults/ResponsePSD.md#ResponsePSD.SurfaceSelection)                     | Gets or sets the MeshConnectionSelection.                                                                                                                                  |
-| [`SpringSelection`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/ProbeResults/ResponsePSD.md#ResponsePSD.SpringSelection)                       | Gets or sets the SpringSelection.                                                                                                                                          |
-| [`IsSolved`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/ProbeResults/ResponsePSD.md#ResponsePSD.IsSolved)                                     | Gets the IsSolved.                                                                                                                                                         |
-| [`Orientation`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/ProbeResults/ResponsePSD.md#ResponsePSD.Orientation)                               | Gets or sets the Orientation. Accepts/Returns None if it is the Solution Coordinate System.                                                                                |
-| [`IterationNumber`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/ProbeResults/ResponsePSD.md#ResponsePSD.IterationNumber)                       | Gets the IterationNumber.                                                                                                                                                  |
-| [`LoadStep`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/ProbeResults/ResponsePSD.md#ResponsePSD.LoadStep)                                     | Gets the LoadStep.                                                                                                                                                         |
-| [`LoadStepNumber`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/ProbeResults/ResponsePSD.md#ResponsePSD.LoadStepNumber)                         | Gets or sets the LoadStepNumber.                                                                                                                                           |
-| [`Substep`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/ProbeResults/ResponsePSD.md#ResponsePSD.Substep)                                       | Gets the Substep.                                                                                                                                                          |
-| [`DisplayTime`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/ProbeResults/ResponsePSD.md#ResponsePSD.DisplayTime)                               | Gets or sets the DisplayTime.                                                                                                                                              |
-| [`MaximumTotal`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/ProbeResults/ResponsePSD.md#ResponsePSD.MaximumTotal)                             | Gets the MaximumTotal.                                                                                                                                                     |
-| [`MaximumXAxis`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/ProbeResults/ResponsePSD.md#ResponsePSD.MaximumXAxis)                             | Gets the MaximumXAxis.                                                                                                                                                     |
-| [`MaximumYAxis`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/ProbeResults/ResponsePSD.md#ResponsePSD.MaximumYAxis)                             | Gets the MaximumYAxis.                                                                                                                                                     |
-| [`MaximumZAxis`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/ProbeResults/ResponsePSD.md#ResponsePSD.MaximumZAxis)                             | Gets the MaximumZAxis.                                                                                                                                                     |
-| [`MinimumTotal`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/ProbeResults/ResponsePSD.md#ResponsePSD.MinimumTotal)                             | Gets the MinimumTotal.                                                                                                                                                     |
-| [`MinimumXAxis`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/ProbeResults/ResponsePSD.md#ResponsePSD.MinimumXAxis)                             | Gets the MinimumXAxis.                                                                                                                                                     |
-| [`MinimumYAxis`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/ProbeResults/ResponsePSD.md#ResponsePSD.MinimumYAxis)                             | Gets the MinimumYAxis.                                                                                                                                                     |
-| [`MinimumZAxis`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/ProbeResults/ResponsePSD.md#ResponsePSD.MinimumZAxis)                             | Gets the MinimumZAxis.                                                                                                                                                     |
-| [`Time`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/ProbeResults/ResponsePSD.md#ResponsePSD.Time)                                             | Gets the Time.                                                                                                                                                             |
-| [`Total`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/ProbeResults/ResponsePSD.md#ResponsePSD.Total)                                           | Gets the Total.                                                                                                                                                            |
-| [`XAxis`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/ProbeResults/ResponsePSD.md#ResponsePSD.XAxis)                                           | Gets the XAxis.                                                                                                                                                            |
-| [`YAxis`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/ProbeResults/ResponsePSD.md#ResponsePSD.YAxis)                                           | Gets the YAxis.                                                                                                                                                            |
-| [`ZAxis`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/ProbeResults/ResponsePSD.md#ResponsePSD.ZAxis)                                           | Gets the ZAxis.                                                                                                                                                            |
-| [`ResultSelection`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/ProbeResults/ResponsePSD.md#ResponsePSD.ResultSelection)                       | Gets or sets the ResultSelection.                                                                                                                                          |
-| [`SpatialResolution`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/ProbeResults/ResponsePSD.md#ResponsePSD.SpatialResolution)                   | Gets or sets the SpatialResolution.                                                                                                                                        |
-| [`Type`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/ProbeResults/ResponsePSD.md#ResponsePSD.Type)                                             | Gets the Type.                                                                                                                                                             |
-| [`DpfEvaluation`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/ProbeResults/ResponsePSD.md#ResponsePSD.DpfEvaluation)                           | Gets or sets the DpfEvaluation.                                                                                                                                            |
-| [`Suppressed`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/ProbeResults/ResponsePSD.md#ResponsePSD.Suppressed)                                 | Gets or sets the Suppressed.                                                                                                                                               |
-| [`Children`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/ProbeResults/ResponsePSD.md#ResponsePSD.Children)                                     | Gets the list of children.                                                                                                                                                 |
-| [`Comments`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/ProbeResults/ResponsePSD.md#ResponsePSD.Comments)                                     | Gets the list of associated comments.                                                                                                                                      |
-| [`Figures`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/ProbeResults/ResponsePSD.md#ResponsePSD.Figures)                                       | Gets the list of associated figures.                                                                                                                                       |
-| [`Images`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/ProbeResults/ResponsePSD.md#ResponsePSD.Images)                                         | Gets the list of associated images.                                                                                                                                        |
-| [`InternalObject`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/ProbeResults/ResponsePSD.md#id0)                                                | Gets the internal object. For advanced usage only.                                                                                                                         |
-| [`Properties`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/ProbeResults/ResponsePSD.md#ResponsePSD.Properties)                                 | Gets the list of properties for this object.                                                                                                                               |
-| [`VisibleProperties`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/ProbeResults/ResponsePSD.md#ResponsePSD.VisibleProperties)                   | Gets the list of properties that are visible for this object.                                                                                                              |
+|-------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| [`AccelerationInG`](#ResponsePSD.AccelerationInG)                       | Gets or sets the AccelerationInG.                                                                                                                                          |
+| [`BeamSelection`](#ResponsePSD.BeamSelection)                           | Gets or sets the BeamSelection.                                                                                                                                            |
+| [`BoundaryConditionSelection`](#ResponsePSD.BoundaryConditionSelection) | Gets or sets the BoundaryConditionSelection. In order to select the option ‘WeakSprings’, please use the property ‘LocationMethod = LocationDefinitionMethod.WeakSprings’. |
+| [`Children`](#ResponsePSD.Children)                                     | Gets the list of children.                                                                                                                                                 |
+| [`Comments`](#ResponsePSD.Comments)                                     | Gets the list of associated comments.                                                                                                                                      |
+| [`ContactRegionSelection`](#ResponsePSD.ContactRegionSelection)         | Gets or sets the ContactRegionSelection.                                                                                                                                   |
+| [`CoordinateSystemSelection`](#ResponsePSD.CoordinateSystemSelection)   | Gets or sets the CoordinateSystemSelection.                                                                                                                                |
+| [`DataModelObjectCategory`](#ResponsePSD.DataModelObjectCategory)       | Gets the current DataModelObject’s category.                                                                                                                               |
+| [`DisplayTime`](#ResponsePSD.DisplayTime)                               | Gets or sets the DisplayTime.                                                                                                                                              |
+| [`DpfEvaluation`](#ResponsePSD.DpfEvaluation)                           | Gets or sets the DpfEvaluation.                                                                                                                                            |
+| [`ExpectedFrequency`](#ResponsePSD.ExpectedFrequency)                   | Gets the ExpectedFrequency.                                                                                                                                                |
+| [`Figures`](#ResponsePSD.Figures)                                       | Gets the list of associated figures.                                                                                                                                       |
+| [`GeometryLocation`](#ResponsePSD.GeometryLocation)                     | Gets or sets the GeometryLocation.                                                                                                                                         |
+| [`Images`](#ResponsePSD.Images)                                         | Gets the list of associated images.                                                                                                                                        |
+| [`InternalObject`](#ResponsePSD.InternalObject)                         | Gets the internal object. For advanced usage only.                                                                                                                         |
+| [`IsSolved`](#ResponsePSD.IsSolved)                                     | Gets the IsSolved.                                                                                                                                                         |
+| [`IterationNumber`](#ResponsePSD.IterationNumber)                       | Gets the IterationNumber.                                                                                                                                                  |
+| [`LoadStep`](#ResponsePSD.LoadStep)                                     | Gets the LoadStep.                                                                                                                                                         |
+| [`LoadStepNumber`](#ResponsePSD.LoadStepNumber)                         | Gets or sets the LoadStepNumber.                                                                                                                                           |
+| [`LocationMethod`](#ResponsePSD.LocationMethod)                         | Gets or sets the LocationMethod.                                                                                                                                           |
+| [`MaximumTotal`](#ResponsePSD.MaximumTotal)                             | Gets the MaximumTotal.                                                                                                                                                     |
+| [`MaximumXAxis`](#ResponsePSD.MaximumXAxis)                             | Gets the MaximumXAxis.                                                                                                                                                     |
+| [`MaximumYAxis`](#ResponsePSD.MaximumYAxis)                             | Gets the MaximumYAxis.                                                                                                                                                     |
+| [`MaximumZAxis`](#ResponsePSD.MaximumZAxis)                             | Gets the MaximumZAxis.                                                                                                                                                     |
+| [`MeshConnectionSelection`](#ResponsePSD.MeshConnectionSelection)       | Gets or sets the MeshConnectionSelection.                                                                                                                                  |
+| [`MinimumTotal`](#ResponsePSD.MinimumTotal)                             | Gets the MinimumTotal.                                                                                                                                                     |
+| [`MinimumXAxis`](#ResponsePSD.MinimumXAxis)                             | Gets the MinimumXAxis.                                                                                                                                                     |
+| [`MinimumYAxis`](#ResponsePSD.MinimumYAxis)                             | Gets the MinimumYAxis.                                                                                                                                                     |
+| [`MinimumZAxis`](#ResponsePSD.MinimumZAxis)                             | Gets the MinimumZAxis.                                                                                                                                                     |
+| [`Orientation`](#ResponsePSD.Orientation)                               | Gets or sets the Orientation. Accepts/Returns None if it is the Solution Coordinate System.                                                                                |
+| [`Probability`](#ResponsePSD.Probability)                               | Gets the Probability.                                                                                                                                                      |
+| [`Properties`](#ResponsePSD.Properties)                                 | Gets the list of properties for this object.                                                                                                                               |
+| [`RMSPercentage`](#ResponsePSD.RMSPercentage)                           | Gets the RMSPercentage.                                                                                                                                                    |
+| [`RMSValue`](#ResponsePSD.RMSValue)                                     | Gets the RMSValue.                                                                                                                                                         |
+| [`RangeMaximum`](#ResponsePSD.RangeMaximum)                             | Gets or sets the RangeMaximum.                                                                                                                                             |
+| [`RangeMinimum`](#ResponsePSD.RangeMinimum)                             | Gets or sets the RangeMinimum.                                                                                                                                             |
+| [`Reference`](#ResponsePSD.Reference)                                   | Gets or sets the Reference.                                                                                                                                                |
+| [`RemotePointSelection`](#ResponsePSD.RemotePointSelection)             | Gets or sets the RemotePointSelection.                                                                                                                                     |
+| [`ResultSelection`](#ResponsePSD.ResultSelection)                       | Gets or sets the ResultSelection.                                                                                                                                          |
+| [`ResultType`](#ResponsePSD.ResultType)                                 | Gets or sets the ResultType.                                                                                                                                               |
+| [`SelectedFrequencyRange`](#ResponsePSD.SelectedFrequencyRange)         | Gets or sets the SelectedFrequencyRange.                                                                                                                                   |
+| [`SpatialResolution`](#ResponsePSD.SpatialResolution)                   | Gets or sets the SpatialResolution.                                                                                                                                        |
+| [`SpringSelection`](#ResponsePSD.SpringSelection)                       | Gets or sets the SpringSelection.                                                                                                                                          |
+| [`Substep`](#ResponsePSD.Substep)                                       | Gets the Substep.                                                                                                                                                          |
+| [`Summation`](#ResponsePSD.Summation)                                   | Gets or sets the Summation.                                                                                                                                                |
+| [`Suppressed`](#ResponsePSD.Suppressed)                                 | Gets or sets the Suppressed.                                                                                                                                               |
+| [`SurfaceSelection`](#ResponsePSD.SurfaceSelection)                     | Gets or sets the MeshConnectionSelection.                                                                                                                                  |
+| [`Time`](#ResponsePSD.Time)                                             | Gets the Time.                                                                                                                                                             |
+| [`Total`](#ResponsePSD.Total)                                           | Gets the Total.                                                                                                                                                            |
+| [`Type`](#ResponsePSD.Type)                                             | Gets the Type.                                                                                                                                                             |
+| [`VisibleProperties`](#ResponsePSD.VisibleProperties)                   | Gets the list of properties that are visible for this object.                                                                                                              |
+| [`XAxis`](#ResponsePSD.XAxis)                                           | Gets the XAxis.                                                                                                                                                            |
+| [`YAxis`](#ResponsePSD.YAxis)                                           | Gets the YAxis.                                                                                                                                                            |
+| [`ZAxis`](#ResponsePSD.ZAxis)                                           | Gets the ZAxis.                                                                                                                                                            |
 
 <a id="property-detail"></a>
 
 ## Property detail
-
-<a id="ResponsePSD.InternalObject"></a>
-
-### *property* ResponsePSD.InternalObject *: Ansys.Common.Interop.DSObjectsAuto.IDSProbeResultAuto | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets the internal object. For advanced usage only.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="ResponsePSD.Probability"></a>
-
-### *property* ResponsePSD.Probability *: System.Double | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets the Probability.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="ResponsePSD.RMSPercentage"></a>
-
-### *property* ResponsePSD.RMSPercentage *: System.Double | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets the RMSPercentage.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="ResponsePSD.ExpectedFrequency"></a>
-
-### *property* ResponsePSD.ExpectedFrequency *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets the ExpectedFrequency.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="ResponsePSD.RMSValue"></a>
-
-### *property* ResponsePSD.RMSValue *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets the RMSValue.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="ResponsePSD.RangeMaximum"></a>
-
-### *property* ResponsePSD.RangeMaximum *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the RangeMaximum.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="ResponsePSD.RangeMinimum"></a>
-
-### *property* ResponsePSD.RangeMinimum *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the RangeMinimum.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="ResponsePSD.ResultType"></a>
-
-### *property* ResponsePSD.ResultType *: [Ansys.Mechanical.DataModel.Enums.ProbeResultType](../../../../../Mechanical/DataModel/Enums/ProbeResultType.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.ProbeResultType) | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the ResultType.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="ResponsePSD.Reference"></a>
-
-### *property* ResponsePSD.Reference *: [Ansys.Mechanical.DataModel.Enums.ResultRelativityType](../../../../../Mechanical/DataModel/Enums/ResultRelativityType.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.ResultRelativityType) | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the Reference.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="ResponsePSD.SelectedFrequencyRange"></a>
-
-### *property* ResponsePSD.SelectedFrequencyRange *: [Ansys.Mechanical.DataModel.Enums.FrequencyRangeType](../../../../../Mechanical/DataModel/Enums/FrequencyRangeType.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.FrequencyRangeType) | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the SelectedFrequencyRange.
-
-<!-- !! processed by numpydoc !! -->
 
 <a id="ResponsePSD.AccelerationInG"></a>
 
 ### *property* ResponsePSD.AccelerationInG *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the AccelerationInG.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="ResponsePSD.DataModelObjectCategory"></a>
-
-### *property* ResponsePSD.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets the current DataModelObject's category.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="ResponsePSD.Summation"></a>
-
-### *property* ResponsePSD.Summation *: [Ansys.Mechanical.DataModel.Enums.MomentsAtSummationPointType](../../../../../Mechanical/DataModel/Enums/MomentsAtSummationPointType.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.MomentsAtSummationPointType) | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the Summation.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="ResponsePSD.LocationMethod"></a>
-
-### *property* ResponsePSD.LocationMethod *: [Ansys.Mechanical.DataModel.Enums.LocationDefinitionMethod](../../../../../Mechanical/DataModel/Enums/LocationDefinitionMethod.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.LocationDefinitionMethod) | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the LocationMethod.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="ResponsePSD.GeometryLocation"></a>
-
-### *property* ResponsePSD.GeometryLocation *: Ansys.ACT.Interfaces.Common.ISelectionInfo | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the GeometryLocation.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="ResponsePSD.CoordinateSystemSelection"></a>
-
-### *property* ResponsePSD.CoordinateSystemSelection *: [Ansys.ACT.Automation.Mechanical.CoordinateSystem](../../CoordinateSystem.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.CoordinateSystem) | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the CoordinateSystemSelection.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="ResponsePSD.BoundaryConditionSelection"></a>
-
-### *property* ResponsePSD.BoundaryConditionSelection *: Ansys.ACT.Automation.Mechanical.DataModelObject | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the BoundaryConditionSelection. In order to select the option â€˜WeakSprings', please use the property â€˜LocationMethod = LocationDefinitionMethod.WeakSprings'.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="ResponsePSD.ContactRegionSelection"></a>
-
-### *property* ResponsePSD.ContactRegionSelection *: [Ansys.ACT.Automation.Mechanical.Connections.ContactRegion](../../Connections/ContactRegion.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Connections.ContactRegion) | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the ContactRegionSelection.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="ResponsePSD.RemotePointSelection"></a>
-
-### *property* ResponsePSD.RemotePointSelection *: [Ansys.ACT.Automation.Mechanical.RemotePoint](../../RemotePoint.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.RemotePoint) | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the RemotePointSelection.
 
 <!-- !! processed by numpydoc !! -->
 
@@ -265,27 +119,107 @@ Gets or sets the BeamSelection.
 
 <!-- !! processed by numpydoc !! -->
 
-<a id="ResponsePSD.MeshConnectionSelection"></a>
+<a id="ResponsePSD.BoundaryConditionSelection"></a>
 
-### *property* ResponsePSD.MeshConnectionSelection *: [Ansys.ACT.Automation.Mechanical.MeshConnection](../../MeshConnection.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.MeshConnection) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ResponsePSD.BoundaryConditionSelection *: Ansys.ACT.Automation.Mechanical.DataModelObject | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets or sets the MeshConnectionSelection.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="ResponsePSD.SurfaceSelection"></a>
-
-### *property* ResponsePSD.SurfaceSelection *: [Ansys.ACT.Automation.Mechanical.Surface](../../Surface.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Surface) | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the MeshConnectionSelection.
+Gets or sets the BoundaryConditionSelection. In order to select the option ‘WeakSprings’, please use the property ‘LocationMethod = LocationDefinitionMethod.WeakSprings’.
 
 <!-- !! processed by numpydoc !! -->
 
-<a id="ResponsePSD.SpringSelection"></a>
+<a id="ResponsePSD.Children"></a>
 
-### *property* ResponsePSD.SpringSelection *: [Ansys.ACT.Automation.Mechanical.Connections.Spring](../../Connections/Spring.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Connections.Spring) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ResponsePSD.Children *: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets or sets the SpringSelection.
+Gets the list of children.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ResponsePSD.Comments"></a>
+
+### *property* ResponsePSD.Comments *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Comment](../../Comment.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets the list of associated comments.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ResponsePSD.ContactRegionSelection"></a>
+
+### *property* ResponsePSD.ContactRegionSelection *: [Ansys.ACT.Automation.Mechanical.Connections.ContactRegion](../../Connections/ContactRegion.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Connections.ContactRegion) | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the ContactRegionSelection.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ResponsePSD.CoordinateSystemSelection"></a>
+
+### *property* ResponsePSD.CoordinateSystemSelection *: [Ansys.ACT.Automation.Mechanical.CoordinateSystem](../../CoordinateSystem.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.CoordinateSystem) | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the CoordinateSystemSelection.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ResponsePSD.DataModelObjectCategory"></a>
+
+### *property* ResponsePSD.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../../../v242/Ansys/Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets the current DataModelObject’s category.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ResponsePSD.DisplayTime"></a>
+
+### *property* ResponsePSD.DisplayTime *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the DisplayTime.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ResponsePSD.DpfEvaluation"></a>
+
+### *property* ResponsePSD.DpfEvaluation *: [Ansys.Mechanical.DataModel.Enums.DpfEvaluationType](../../../../../../../v242/Ansys/Mechanical/DataModel/Enums/DpfEvaluationType.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.DpfEvaluationType) | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the DpfEvaluation.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ResponsePSD.ExpectedFrequency"></a>
+
+### *property* ResponsePSD.ExpectedFrequency *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets the ExpectedFrequency.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ResponsePSD.Figures"></a>
+
+### *property* ResponsePSD.Figures *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Figure](../../Figure.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets the list of associated figures.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ResponsePSD.GeometryLocation"></a>
+
+### *property* ResponsePSD.GeometryLocation *: Ansys.ACT.Interfaces.Common.ISelectionInfo | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the GeometryLocation.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ResponsePSD.Images"></a>
+
+### *property* ResponsePSD.Images *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Image](../../Image.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets the list of associated images.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ResponsePSD.InternalObject"></a>
+
+### *property* ResponsePSD.InternalObject *: Ansys.Common.Interop.DSObjectsAuto.IDSProbeResultAuto | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets the internal object. For advanced usage only.
 
 <!-- !! processed by numpydoc !! -->
 
@@ -294,14 +228,6 @@ Gets or sets the SpringSelection.
 ### *property* ResponsePSD.IsSolved *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the IsSolved.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="ResponsePSD.Orientation"></a>
-
-### *property* ResponsePSD.Orientation *: [Ansys.ACT.Automation.Mechanical.CoordinateSystem](../../CoordinateSystem.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.CoordinateSystem) | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the Orientation. Accepts/Returns None if it is the Solution Coordinate System.
 
 <!-- !! processed by numpydoc !! -->
 
@@ -329,19 +255,11 @@ Gets or sets the LoadStepNumber.
 
 <!-- !! processed by numpydoc !! -->
 
-<a id="ResponsePSD.Substep"></a>
+<a id="ResponsePSD.LocationMethod"></a>
 
-### *property* ResponsePSD.Substep *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ResponsePSD.LocationMethod *: [Ansys.Mechanical.DataModel.Enums.LocationDefinitionMethod](../../../../../../../v242/Ansys/Mechanical/DataModel/Enums/LocationDefinitionMethod.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.LocationDefinitionMethod) | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets the Substep.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="ResponsePSD.DisplayTime"></a>
-
-### *property* ResponsePSD.DisplayTime *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the DisplayTime.
+Gets or sets the LocationMethod.
 
 <!-- !! processed by numpydoc !! -->
 
@@ -377,6 +295,14 @@ Gets the MaximumZAxis.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="ResponsePSD.MeshConnectionSelection"></a>
+
+### *property* ResponsePSD.MeshConnectionSelection *: [Ansys.ACT.Automation.Mechanical.MeshConnection](../../MeshConnection.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.MeshConnection) | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the MeshConnectionSelection.
+
+<!-- !! processed by numpydoc !! -->
+
 <a id="ResponsePSD.MinimumTotal"></a>
 
 ### *property* ResponsePSD.MinimumTotal *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
@@ -409,6 +335,150 @@ Gets the MinimumZAxis.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="ResponsePSD.Orientation"></a>
+
+### *property* ResponsePSD.Orientation *: [Ansys.ACT.Automation.Mechanical.CoordinateSystem](../../CoordinateSystem.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.CoordinateSystem) | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the Orientation. Accepts/Returns None if it is the Solution Coordinate System.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ResponsePSD.Probability"></a>
+
+### *property* ResponsePSD.Probability *: System.Double | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets the Probability.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ResponsePSD.Properties"></a>
+
+### *property* ResponsePSD.Properties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets the list of properties for this object.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ResponsePSD.RMSPercentage"></a>
+
+### *property* ResponsePSD.RMSPercentage *: System.Double | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets the RMSPercentage.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ResponsePSD.RMSValue"></a>
+
+### *property* ResponsePSD.RMSValue *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets the RMSValue.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ResponsePSD.RangeMaximum"></a>
+
+### *property* ResponsePSD.RangeMaximum *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the RangeMaximum.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ResponsePSD.RangeMinimum"></a>
+
+### *property* ResponsePSD.RangeMinimum *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the RangeMinimum.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ResponsePSD.Reference"></a>
+
+### *property* ResponsePSD.Reference *: [Ansys.Mechanical.DataModel.Enums.ResultRelativityType](../../../../../../../v242/Ansys/Mechanical/DataModel/Enums/ResultRelativityType.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.ResultRelativityType) | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the Reference.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ResponsePSD.RemotePointSelection"></a>
+
+### *property* ResponsePSD.RemotePointSelection *: [Ansys.ACT.Automation.Mechanical.RemotePoint](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/RemotePoint.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.RemotePoint) | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the RemotePointSelection.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ResponsePSD.ResultSelection"></a>
+
+### *property* ResponsePSD.ResultSelection *: [Ansys.Mechanical.DataModel.Enums.ProbeDisplayFilter](../../../../../../../v242/Ansys/Mechanical/DataModel/Enums/ProbeDisplayFilter.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.ProbeDisplayFilter) | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the ResultSelection.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ResponsePSD.ResultType"></a>
+
+### *property* ResponsePSD.ResultType *: [Ansys.Mechanical.DataModel.Enums.ProbeResultType](../../../../../../../v242/Ansys/Mechanical/DataModel/Enums/ProbeResultType.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.ProbeResultType) | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the ResultType.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ResponsePSD.SelectedFrequencyRange"></a>
+
+### *property* ResponsePSD.SelectedFrequencyRange *: [Ansys.Mechanical.DataModel.Enums.FrequencyRangeType](../../../../../../../v242/Ansys/Mechanical/DataModel/Enums/FrequencyRangeType.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.FrequencyRangeType) | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the SelectedFrequencyRange.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ResponsePSD.SpatialResolution"></a>
+
+### *property* ResponsePSD.SpatialResolution *: [Ansys.Mechanical.DataModel.Enums.MinimumOrMaximum](../../../../../../../v242/Ansys/Mechanical/DataModel/Enums/MinimumOrMaximum.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.MinimumOrMaximum) | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the SpatialResolution.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ResponsePSD.SpringSelection"></a>
+
+### *property* ResponsePSD.SpringSelection *: [Ansys.ACT.Automation.Mechanical.Connections.Spring](../../Connections/Spring.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Connections.Spring) | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the SpringSelection.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ResponsePSD.Substep"></a>
+
+### *property* ResponsePSD.Substep *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets the Substep.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ResponsePSD.Summation"></a>
+
+### *property* ResponsePSD.Summation *: [Ansys.Mechanical.DataModel.Enums.MomentsAtSummationPointType](../../../../../../../v242/Ansys/Mechanical/DataModel/Enums/MomentsAtSummationPointType.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.MomentsAtSummationPointType) | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the Summation.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ResponsePSD.Suppressed"></a>
+
+### *property* ResponsePSD.Suppressed *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the Suppressed.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ResponsePSD.SurfaceSelection"></a>
+
+### *property* ResponsePSD.SurfaceSelection *: [Ansys.ACT.Automation.Mechanical.Surface](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Surface.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Surface) | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the MeshConnectionSelection.
+
+<!-- !! processed by numpydoc !! -->
+
 <a id="ResponsePSD.Time"></a>
 
 ### *property* ResponsePSD.Time *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
@@ -422,6 +492,22 @@ Gets the Time.
 ### *property* ResponsePSD.Total *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the Total.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ResponsePSD.Type"></a>
+
+### *property* ResponsePSD.Type *: [Ansys.Mechanical.DataModel.Enums.ProbeResultType](../../../../../../../v242/Ansys/Mechanical/DataModel/Enums/ProbeResultType.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.ProbeResultType) | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets the Type.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ResponsePSD.VisibleProperties"></a>
+
+### *property* ResponsePSD.VisibleProperties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets the list of properties that are visible for this object.
 
 <!-- !! processed by numpydoc !! -->
 
@@ -449,175 +535,15 @@ Gets the ZAxis.
 
 <!-- !! processed by numpydoc !! -->
 
-<a id="ResponsePSD.ResultSelection"></a>
-
-### *property* ResponsePSD.ResultSelection *: [Ansys.Mechanical.DataModel.Enums.ProbeDisplayFilter](../../../../../Mechanical/DataModel/Enums/ProbeDisplayFilter.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.ProbeDisplayFilter) | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the ResultSelection.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="ResponsePSD.SpatialResolution"></a>
-
-### *property* ResponsePSD.SpatialResolution *: [Ansys.Mechanical.DataModel.Enums.MinimumOrMaximum](../../../../../Mechanical/DataModel/Enums/MinimumOrMaximum.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.MinimumOrMaximum) | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the SpatialResolution.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="ResponsePSD.Type"></a>
-
-### *property* ResponsePSD.Type *: [Ansys.Mechanical.DataModel.Enums.ProbeResultType](../../../../../Mechanical/DataModel/Enums/ProbeResultType.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.ProbeResultType) | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets the Type.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="ResponsePSD.DpfEvaluation"></a>
-
-### *property* ResponsePSD.DpfEvaluation *: [Ansys.Mechanical.DataModel.Enums.DpfEvaluationType](../../../../../Mechanical/DataModel/Enums/DpfEvaluationType.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DpfEvaluationType) | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the DpfEvaluation.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="ResponsePSD.Suppressed"></a>
-
-### *property* ResponsePSD.Suppressed *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the Suppressed.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="ResponsePSD.Children"></a>
-
-### *property* ResponsePSD.Children *: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets the list of children.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="ResponsePSD.Comments"></a>
-
-### *property* ResponsePSD.Comments *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Comment](../../Comment.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets the list of associated comments.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="ResponsePSD.Figures"></a>
-
-### *property* ResponsePSD.Figures *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Figure](../../Figure.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets the list of associated figures.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="ResponsePSD.Images"></a>
-
-### *property* ResponsePSD.Images *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Image](../../Image.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets the list of associated images.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="id0"></a>
-
-### *property* ResponsePSD.InternalObject *: System.Object | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets the internal object. For advanced usage only.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="ResponsePSD.Properties"></a>
-
-### *property* ResponsePSD.Properties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets the list of properties for this object.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="ResponsePSD.VisibleProperties"></a>
-
-### *property* ResponsePSD.VisibleProperties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets the list of properties that are visible for this object.
-
-<!-- !! processed by numpydoc !! -->
-
 <a id="method-detail"></a>
 
 ## Method detail
 
-<a id="ResponsePSD.ExportAnimation"></a>
+<a id="ResponsePSD.Activate"></a>
 
-### ResponsePSD.ExportAnimation(filePath: System.String, format: [Ansys.Mechanical.DataModel.Enums.GraphicsAnimationExportFormat](../../../../../Mechanical/DataModel/Enums/GraphicsAnimationExportFormat.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.GraphicsAnimationExportFormat), settings: [Ansys.Mechanical.Graphics.AnimationExportSettings](../../../../../Mechanical/Graphics/AnimationExportSettings.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.Graphics.AnimationExportSettings))
+### ResponsePSD.Activate()
 
-Run the ExportAnimation action.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="ResponsePSD.ClearGeneratedData"></a>
-
-### ResponsePSD.ClearGeneratedData()
-
-Run the ClearGeneratedData action.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="ResponsePSD.DuplicateWithoutResults"></a>
-
-### ResponsePSD.DuplicateWithoutResults()
-
-Run the DuplicateWithoutResults action.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="ResponsePSD.EvaluateAllResults"></a>
-
-### ResponsePSD.EvaluateAllResults()
-
-Run the EvaluateAllResults action.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="ResponsePSD.SnapToMeshNodes"></a>
-
-### ResponsePSD.SnapToMeshNodes()
-
-Snap the coordinates of probe result to the mesh nodes.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="ResponsePSD.RenameBasedOnDefinition"></a>
-
-### ResponsePSD.RenameBasedOnDefinition()
-
-Run the RenameBasedOnDefinition action.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="ResponsePSD.Delete"></a>
-
-### ResponsePSD.Delete()
-
-Run the Delete action.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="ResponsePSD.GetChildren"></a>
-
-### ResponsePSD.GetChildren(recurses: System.Boolean, children: System.Collections.Generic.IList[ChildrenType])
-
-Gets the list of children, filtered by type.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="id1"></a>
-
-### ResponsePSD.GetChildren(category: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory), recurses: System.Boolean, children: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject])
-
-Gets the list of children, filtered by type.
+Activate the current object.
 
 <!-- !! processed by numpydoc !! -->
 
@@ -641,17 +567,19 @@ Creates a new child Figure.
 
 ### ResponsePSD.AddImage(filePath: System.String)
 
+```text
 Creates a new child Image.
 If a filePath is provided, the image will be loaded from that file,
 if not, the image will be a screen capture of the Geometry window.
+```
 
 <!-- !! processed by numpydoc !! -->
 
-<a id="ResponsePSD.Activate"></a>
+<a id="ResponsePSD.ClearGeneratedData"></a>
 
-### ResponsePSD.Activate()
+### ResponsePSD.ClearGeneratedData()
 
-Activate the current object.
+Run the ClearGeneratedData action.
 
 <!-- !! processed by numpydoc !! -->
 
@@ -663,11 +591,67 @@ Copies all visible properties from this object to another.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="ResponsePSD.CreateParameter"></a>
+
+### ResponsePSD.CreateParameter(propName: System.String)
+
+Creates a new parameter for a Property.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ResponsePSD.Delete"></a>
+
+### ResponsePSD.Delete()
+
+Run the Delete action.
+
+<!-- !! processed by numpydoc !! -->
+
 <a id="ResponsePSD.Duplicate"></a>
 
 ### ResponsePSD.Duplicate()
 
 Creates a copy of the current DataModelObject.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ResponsePSD.DuplicateWithoutResults"></a>
+
+### ResponsePSD.DuplicateWithoutResults()
+
+Run the DuplicateWithoutResults action.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ResponsePSD.EvaluateAllResults"></a>
+
+### ResponsePSD.EvaluateAllResults()
+
+Run the EvaluateAllResults action.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ResponsePSD.ExportAnimation"></a>
+
+### ResponsePSD.ExportAnimation(filePath: System.String, format: [Ansys.Mechanical.DataModel.Enums.GraphicsAnimationExportFormat](../../../../../../../v242/Ansys/Mechanical/DataModel/Enums/GraphicsAnimationExportFormat.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.GraphicsAnimationExportFormat), settings: [Ansys.Mechanical.Graphics.AnimationExportSettings](../../../../../../../v242/Ansys/Mechanical/Graphics/AnimationExportSettings.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.Graphics.AnimationExportSettings))
+
+Run the ExportAnimation action.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ResponsePSD.GetChildren"></a>
+
+### ResponsePSD.GetChildren(recurses: System.Boolean, children: System.Collections.Generic.IList[ChildrenType])
+
+Gets the list of children, filtered by type.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ResponsePSD.GetParameter"></a>
+
+### ResponsePSD.GetParameter(propName: System.String)
+
+Gets the parameter corresponding to the given property.
 
 <!-- !! processed by numpydoc !! -->
 
@@ -687,6 +671,17 @@ Run the GroupSimilarObjects action.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="ResponsePSD.PropertyByAPIName"></a>
+
+### ResponsePSD.PropertyByAPIName(name: System.String)
+
+```text
+Get a property by its API name.
+If multiple properties have the same API Name, only the first property with that name will be returned.
+```
+
+<!-- !! processed by numpydoc !! -->
+
 <a id="ResponsePSD.PropertyByName"></a>
 
 ### ResponsePSD.PropertyByName(name: System.String)
@@ -695,36 +690,27 @@ Get a property by its unique name.
 
 <!-- !! processed by numpydoc !! -->
 
-<a id="ResponsePSD.PropertyByAPIName"></a>
-
-### ResponsePSD.PropertyByAPIName(name: System.String)
-
-Get a property by its API name.
-If multiple properties have the same API Name, only the first property with that name will be returned.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="ResponsePSD.CreateParameter"></a>
-
-### ResponsePSD.CreateParameter(propName: System.String)
-
-Creates a new parameter for a Property.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="ResponsePSD.GetParameter"></a>
-
-### ResponsePSD.GetParameter(propName: System.String)
-
-Gets the parameter corresponding to the given property.
-
-<!-- !! processed by numpydoc !! -->
-
 <a id="ResponsePSD.RemoveParameter"></a>
 
 ### ResponsePSD.RemoveParameter(propName: System.String)
 
 Removes the parameter from the parameter set corresponding to the given property.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ResponsePSD.RenameBasedOnDefinition"></a>
+
+### ResponsePSD.RenameBasedOnDefinition()
+
+Run the RenameBasedOnDefinition action.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ResponsePSD.SnapToMeshNodes"></a>
+
+### ResponsePSD.SnapToMeshNodes()
+
+Snap the coordinates of probe result to the mesh nodes.
 
 <!-- !! processed by numpydoc !! -->
 

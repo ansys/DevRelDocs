@@ -1,6 +1,6 @@
 # `CompositeSamplingPoint`
 
-
+<a id="ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Results.CompositeFailureResults.CompositeSamplingPoint"></a>
 
 #### *class* ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Results.CompositeFailureResults.CompositeSamplingPoint
 
@@ -17,66 +17,40 @@ Defines a CompositeSamplingPoint.
 ### Methods
 
 | Name | Description |
-|------------------------------------------------------------------------------|-----------------------------------------------------------------------------------|
-| [`Delete`](#CompositeSamplingPoint.Delete)                                   | Run the Delete action.                                                            |
-| [`GetChildren`](#id1)                                                        | Gets the list of children, filtered by type.                                      |
-| [`GetChildren`](#id1)                                                        | Gets the list of children, filtered by type.                                      |
+|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------|
+| [`Activate`](#CompositeSamplingPoint.Activate)                               | Activate the current object.                                                      |
 | [`AddComment`](#CompositeSamplingPoint.AddComment)                           | Creates a new child Comment.                                                      |
 | [`AddFigure`](#CompositeSamplingPoint.AddFigure)                             | Creates a new child Figure.                                                       |
 | [`AddImage`](#CompositeSamplingPoint.AddImage)                               | Creates a new child Image.                                                        |
-| [`Activate`](#CompositeSamplingPoint.Activate)                               | Activate the current object.                                                      |
 | [`CopyTo`](#CompositeSamplingPoint.CopyTo)                                   | Copies all visible properties from this object to another.                        |
+| [`CreateParameter`](#CompositeSamplingPoint.CreateParameter)                 | Creates a new parameter for a Property.                                           |
+| [`Delete`](#CompositeSamplingPoint.Delete)                                   | Run the Delete action.                                                            |
 | [`Duplicate`](#CompositeSamplingPoint.Duplicate)                             | Creates a copy of the current DataModelObject.                                    |
+| [`GetChildren`](#CompositeSamplingPoint.GetChildren)                         | Gets the list of children, filtered by type.                                      |
+| [`GetParameter`](#CompositeSamplingPoint.GetParameter)                       | Gets the parameter corresponding to the given property.                           |
 | [`GroupAllSimilarChildren`](#CompositeSamplingPoint.GroupAllSimilarChildren) | Run the GroupAllSimilarChildren action.                                           |
 | [`GroupSimilarObjects`](#CompositeSamplingPoint.GroupSimilarObjects)         | Run the GroupSimilarObjects action.                                               |
-| [`PropertyByName`](#CompositeSamplingPoint.PropertyByName)                   | Get a property by its unique name.                                                |
 | [`PropertyByAPIName`](#CompositeSamplingPoint.PropertyByAPIName)             | Get a property by its API name.                                                   |
-| [`CreateParameter`](#CompositeSamplingPoint.CreateParameter)                 | Creates a new parameter for a Property.                                           |
-| [`GetParameter`](#CompositeSamplingPoint.GetParameter)                       | Gets the parameter corresponding to the given property.                           |
+| [`PropertyByName`](#CompositeSamplingPoint.PropertyByName)                   | Get a property by its unique name.                                                |
 | [`RemoveParameter`](#CompositeSamplingPoint.RemoveParameter)                 | Removes the parameter from the parameter set corresponding to the given property. |
 
 ### Properties
 
 | Name | Description |
-|------------------------------------------------------------------------------|---------------------------------------------------------------|
-| [`InternalObject`](#id0)                                                     | Gets the internal object. For advanced usage only.            |
-| [`Location`](#CompositeSamplingPoint.Location)                               | Gets or sets the Location.                                    |
-| [`DataModelObjectCategory`](#CompositeSamplingPoint.DataModelObjectCategory) | Gets the current DataModelObject's category.                  |
+|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------|
 | [`Children`](#CompositeSamplingPoint.Children)                               | Gets the list of children.                                    |
 | [`Comments`](#CompositeSamplingPoint.Comments)                               | Gets the list of associated comments.                         |
+| [`DataModelObjectCategory`](#CompositeSamplingPoint.DataModelObjectCategory) | Gets the current DataModelObject’s category.                  |
 | [`Figures`](#CompositeSamplingPoint.Figures)                                 | Gets the list of associated figures.                          |
 | [`Images`](#CompositeSamplingPoint.Images)                                   | Gets the list of associated images.                           |
-| [`InternalObject`](#id0)                                                     | Gets the internal object. For advanced usage only.            |
+| [`InternalObject`](#CompositeSamplingPoint.InternalObject)                   | Gets the internal object. For advanced usage only.            |
+| [`Location`](#CompositeSamplingPoint.Location)                               | Gets or sets the Location.                                    |
 | [`Properties`](#CompositeSamplingPoint.Properties)                           | Gets the list of properties for this object.                  |
 | [`VisibleProperties`](#CompositeSamplingPoint.VisibleProperties)             | Gets the list of properties that are visible for this object. |
 
 <a id="property-detail"></a>
 
 ## Property detail
-
-<a id="CompositeSamplingPoint.InternalObject"></a>
-
-### *property* CompositeSamplingPoint.InternalObject *: Ansys.Common.Interop.DSObjectsAuto.IDSCompositeSamplingPointResultAuto | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets the internal object. For advanced usage only.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="CompositeSamplingPoint.Location"></a>
-
-### *property* CompositeSamplingPoint.Location *: Ansys.ACT.Interfaces.Common.ISelectionInfo | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the Location.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="CompositeSamplingPoint.DataModelObjectCategory"></a>
-
-### *property* CompositeSamplingPoint.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../../../v241/Ansys/Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets the current DataModelObject's category.
-
-<!-- !! processed by numpydoc !! -->
 
 <a id="CompositeSamplingPoint.Children"></a>
 
@@ -91,6 +65,14 @@ Gets the list of children.
 ### *property* CompositeSamplingPoint.Comments *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Comment](../../../../../../../v241/Ansys/ACT/Automation/Mechanical/Comment.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated comments.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="CompositeSamplingPoint.DataModelObjectCategory"></a>
+
+### *property* CompositeSamplingPoint.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets the current DataModelObject’s category.
 
 <!-- !! processed by numpydoc !! -->
 
@@ -110,11 +92,19 @@ Gets the list of associated images.
 
 <!-- !! processed by numpydoc !! -->
 
-<a id="id0"></a>
+<a id="CompositeSamplingPoint.InternalObject"></a>
 
-### *property* CompositeSamplingPoint.InternalObject *: System.Object | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* CompositeSamplingPoint.InternalObject *: Ansys.Common.Interop.DSObjectsAuto.IDSCompositeSamplingPointResultAuto | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the internal object. For advanced usage only.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="CompositeSamplingPoint.Location"></a>
+
+### *property* CompositeSamplingPoint.Location *: Ansys.ACT.Interfaces.Common.ISelectionInfo | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the Location.
 
 <!-- !! processed by numpydoc !! -->
 
@@ -138,27 +128,11 @@ Gets the list of properties that are visible for this object.
 
 ## Method detail
 
-<a id="CompositeSamplingPoint.Delete"></a>
+<a id="CompositeSamplingPoint.Activate"></a>
 
-### CompositeSamplingPoint.Delete()
+### CompositeSamplingPoint.Activate()
 
-Run the Delete action.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="CompositeSamplingPoint.GetChildren"></a>
-
-### CompositeSamplingPoint.GetChildren(recurses: System.Boolean, children: System.Collections.Generic.IList[ChildrenType])
-
-Gets the list of children, filtered by type.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="id1"></a>
-
-### CompositeSamplingPoint.GetChildren(category: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../../../v241/Ansys/Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory), recurses: System.Boolean, children: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject])
-
-Gets the list of children, filtered by type.
+Activate the current object.
 
 <!-- !! processed by numpydoc !! -->
 
@@ -182,17 +156,11 @@ Creates a new child Figure.
 
 ### CompositeSamplingPoint.AddImage(filePath: System.String)
 
+```text
 Creates a new child Image.
 If a filePath is provided, the image will be loaded from that file,
 if not, the image will be a screen capture of the Geometry window.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="CompositeSamplingPoint.Activate"></a>
-
-### CompositeSamplingPoint.Activate()
-
-Activate the current object.
+```
 
 <!-- !! processed by numpydoc !! -->
 
@@ -204,11 +172,43 @@ Copies all visible properties from this object to another.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="CompositeSamplingPoint.CreateParameter"></a>
+
+### CompositeSamplingPoint.CreateParameter(propName: System.String)
+
+Creates a new parameter for a Property.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="CompositeSamplingPoint.Delete"></a>
+
+### CompositeSamplingPoint.Delete()
+
+Run the Delete action.
+
+<!-- !! processed by numpydoc !! -->
+
 <a id="CompositeSamplingPoint.Duplicate"></a>
 
 ### CompositeSamplingPoint.Duplicate()
 
 Creates a copy of the current DataModelObject.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="CompositeSamplingPoint.GetChildren"></a>
+
+### CompositeSamplingPoint.GetChildren(recurses: System.Boolean, children: System.Collections.Generic.IList[ChildrenType])
+
+Gets the list of children, filtered by type.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="CompositeSamplingPoint.GetParameter"></a>
+
+### CompositeSamplingPoint.GetParameter(propName: System.String)
+
+Gets the parameter corresponding to the given property.
 
 <!-- !! processed by numpydoc !! -->
 
@@ -228,36 +228,22 @@ Run the GroupSimilarObjects action.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="CompositeSamplingPoint.PropertyByAPIName"></a>
+
+### CompositeSamplingPoint.PropertyByAPIName(name: System.String)
+
+```text
+Get a property by its API name.
+If multiple properties have the same API Name, only the first property with that name will be returned.
+```
+
+<!-- !! processed by numpydoc !! -->
+
 <a id="CompositeSamplingPoint.PropertyByName"></a>
 
 ### CompositeSamplingPoint.PropertyByName(name: System.String)
 
 Get a property by its unique name.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="CompositeSamplingPoint.PropertyByAPIName"></a>
-
-### CompositeSamplingPoint.PropertyByAPIName(name: System.String)
-
-Get a property by its API name.
-If multiple properties have the same API Name, only the first property with that name will be returned.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="CompositeSamplingPoint.CreateParameter"></a>
-
-### CompositeSamplingPoint.CreateParameter(propName: System.String)
-
-Creates a new parameter for a Property.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="CompositeSamplingPoint.GetParameter"></a>
-
-### CompositeSamplingPoint.GetParameter(propName: System.String)
-
-Gets the parameter corresponding to the given property.
 
 <!-- !! processed by numpydoc !! -->
 

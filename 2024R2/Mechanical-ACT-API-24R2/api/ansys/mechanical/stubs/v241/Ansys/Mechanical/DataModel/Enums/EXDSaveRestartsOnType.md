@@ -1,6 +1,6 @@
 # `EXDSaveRestartsOnType`
 
-
+<a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.EXDSaveRestartsOnType"></a>
 
 #### *class* ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.EXDSaveRestartsOnType
 
@@ -15,25 +15,25 @@ Bases: [`enum.Enum`](https://docs.python.org/3/library/enum.html#enum.Enum)
 ### Attributes
 
 | Name |
-| -------------------------------------------------------------------------------------------------------------------------------------- |
-| [`TimeSteps`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/EXDSaveRestartsOnType.md#EXDSaveRestartsOnType.TimeSteps) |
-| [`Time`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/EXDSaveRestartsOnType.md#EXDSaveRestartsOnType.Time) |
-| [`EquallySpaced`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/EXDSaveRestartsOnType.md#EXDSaveRestartsOnType.EquallySpaced) |
+| ----------------------------------------------------------- |
+| [`EquallySpaced`](#EXDSaveRestartsOnType.EquallySpaced) |
+| [`Time`](#EXDSaveRestartsOnType.Time) |
+| [`TimeSteps`](#EXDSaveRestartsOnType.TimeSteps) |
 
 <a id="attribute-detail"></a>
 
 ## Attribute detail
 
-<a id="EXDSaveRestartsOnType.TimeSteps"></a>
+<a id="EXDSaveRestartsOnType.EquallySpaced"></a>
 
-### EXDSaveRestartsOnType.TimeSteps *= 0*
+### EXDSaveRestartsOnType.EquallySpaced *= 2*
 
 <a id="EXDSaveRestartsOnType.Time"></a>
 
 ### EXDSaveRestartsOnType.Time *= 1*
 
-<a id="EXDSaveRestartsOnType.EquallySpaced"></a>
+<a id="EXDSaveRestartsOnType.TimeSteps"></a>
 
-### EXDSaveRestartsOnType.EquallySpaced *= 2*
+### EXDSaveRestartsOnType.TimeSteps *= 0*
 
 

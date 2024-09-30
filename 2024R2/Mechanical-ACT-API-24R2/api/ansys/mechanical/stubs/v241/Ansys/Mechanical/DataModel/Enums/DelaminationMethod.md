@@ -1,6 +1,6 @@
 # `DelaminationMethod`
 
-
+<a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DelaminationMethod"></a>
 
 #### *class* ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DelaminationMethod
 
@@ -17,10 +17,10 @@ Specifies the DelaminationMethod.
 ### Attributes
 
 | Name |
-| ---------------------------------------------------------------------------------------------------------------- |
-| [`CZM`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/DelaminationMethod.md#DelaminationMethod.CZM) |
-| [`SMART`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/DelaminationMethod.md#DelaminationMethod.SMART) |
-| [`VCCT`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/DelaminationMethod.md#DelaminationMethod.VCCT) |
+| -------------------------------------- |
+| [`CZM`](#DelaminationMethod.CZM) |
+| [`SMART`](#DelaminationMethod.SMART) |
+| [`VCCT`](#DelaminationMethod.VCCT) |
 
 <a id="attribute-detail"></a>
 

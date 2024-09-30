@@ -1,6 +1,6 @@
 # `OptionsControlCommand`
 
-
+<a id="ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.FE.NASTRAN.OptionsControlCommand"></a>
 
 #### *class* ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.FE.NASTRAN.OptionsControlCommand
 
@@ -19,9 +19,9 @@ Options control command.
 | Name | Description |
 |-----------------------------------------------------|-------------------------|
 | [`Arguments`](#OptionsControlCommand.Arguments)     | Gets the arguments.     |
-| [`OptionLines`](#OptionsControlCommand.OptionLines) | Gets the option lines.  |
-| [`Name`](#OptionsControlCommand.Name)               | Gets the command name.  |
 | [`Index`](#OptionsControlCommand.Index)             | Gets the command index. |
+| [`Name`](#OptionsControlCommand.Name)               | Gets the command name.  |
+| [`OptionLines`](#OptionsControlCommand.OptionLines) | Gets the option lines.  |
 
 <a id="property-detail"></a>
 
@@ -35,11 +35,11 @@ Gets the arguments.
 
 <!-- !! processed by numpydoc !! -->
 
-<a id="OptionsControlCommand.OptionLines"></a>
+<a id="OptionsControlCommand.Index"></a>
 
-### *property* OptionsControlCommand.OptionLines *: System.Collections.Generic.IReadOnlyList[System.Object] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* OptionsControlCommand.Index *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets the option lines.
+Gets the command index.
 
 <!-- !! processed by numpydoc !! -->
 
@@ -51,11 +51,11 @@ Gets the command name.
 
 <!-- !! processed by numpydoc !! -->
 
-<a id="OptionsControlCommand.Index"></a>
+<a id="OptionsControlCommand.OptionLines"></a>
 
-### *property* OptionsControlCommand.Index *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* OptionsControlCommand.OptionLines *: System.Collections.Generic.IReadOnlyList[System.Object] | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets the command index.
+Gets the option lines.
 
 <!-- !! processed by numpydoc !! -->
 

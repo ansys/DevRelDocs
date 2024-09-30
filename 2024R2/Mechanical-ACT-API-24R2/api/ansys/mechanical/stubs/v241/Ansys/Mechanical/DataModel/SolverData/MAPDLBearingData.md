@@ -1,6 +1,6 @@
 # `MAPDLBearingData`
 
-
+<a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.SolverData.MAPDLBearingData"></a>
 
 #### *class* ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.SolverData.MAPDLBearingData
 
@@ -17,9 +17,9 @@ MAPDLBearingData class.
 ### Properties
 
 | Name | Description |
-|-----------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------|
-| [`ElementId`](../../../../../v242/Ansys/Mechanical/DataModel/SolverData/MAPDLBearingData.md#MAPDLBearingData.ElementId)           | Gets the Element number for the object.          |
-| [`RealConstantId`](../../../../../v242/Ansys/Mechanical/DataModel/SolverData/MAPDLBearingData.md#MAPDLBearingData.RealConstantId) | Gets the Real Constant Id number for the object. |
+|------------------------------------------------------|--------------------------------------------------|
+| [`ElementId`](#MAPDLBearingData.ElementId)           | Gets the Element number for the object.          |
+| [`RealConstantId`](#MAPDLBearingData.RealConstantId) | Gets the Real Constant Id number for the object. |
 
 <a id="property-detail"></a>
 

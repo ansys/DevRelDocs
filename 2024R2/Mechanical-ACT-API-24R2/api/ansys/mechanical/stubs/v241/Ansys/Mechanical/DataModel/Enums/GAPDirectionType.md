@@ -1,6 +1,6 @@
 # `GAPDirectionType`
 
-
+<a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.GAPDirectionType"></a>
 
 #### *class* ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.GAPDirectionType
 
@@ -17,10 +17,10 @@ Specifies the GAPDirectionType.
 ### Attributes
 
 | Name |
-| ------------------------------------------------------------------------------------------------------ |
-| [`X`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/GAPDirectionType.md#GAPDirectionType.X) |
-| [`Y`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/GAPDirectionType.md#GAPDirectionType.Y) |
-| [`Z`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/GAPDirectionType.md#GAPDirectionType.Z) |
+| ------------------------------ |
+| [`X`](#GAPDirectionType.X) |
+| [`Y`](#GAPDirectionType.Y) |
+| [`Z`](#GAPDirectionType.Z) |
 
 <a id="attribute-detail"></a>
 

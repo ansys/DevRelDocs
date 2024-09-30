@@ -1,6 +1,6 @@
 # `AMRelaxationTemperatureType`
 
-
+<a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.AMRelaxationTemperatureType"></a>
 
 #### *class* ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.AMRelaxationTemperatureType
 
@@ -17,9 +17,9 @@ Specifies the AMRelaxationTemperatureType.
 ### Attributes
 
 | Name |
-| -------------------------------------------------------------------------------------------------------------------------------------------------- |
-| [`None_`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/AMRelaxationTemperatureType.md#AMRelaxationTemperatureType.None_) |
-| [`UserSpecified`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/AMRelaxationTemperatureType.md#AMRelaxationTemperatureType.UserSpecified) |
+| --------------------------------------------------------------- |
+| [`None_`](#AMRelaxationTemperatureType.None_) |
+| [`UserSpecified`](#AMRelaxationTemperatureType.UserSpecified) |
 
 <a id="attribute-detail"></a>
 

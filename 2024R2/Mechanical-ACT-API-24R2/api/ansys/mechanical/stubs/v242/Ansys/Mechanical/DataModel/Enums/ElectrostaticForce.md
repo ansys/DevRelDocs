@@ -1,6 +1,6 @@
 # `ElectrostaticForce`
 
-
+<a id="ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.ElectrostaticForce"></a>
 
 #### *class* ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.ElectrostaticForce
 
@@ -17,7 +17,7 @@ Specifies the ElectrostaticForce.
 ### Attributes
 
 | Name |
-| -------------------------------------------------------------------------------------------------------------- |
+| ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | [`AppliedToAirStructureInterfaceSymmetric`](#ElectrostaticForce.AppliedToAirStructureInterfaceSymmetric) |
 | [`AppliedToAirStructureInterfaceUnsymmetric`](#ElectrostaticForce.AppliedToAirStructureInterfaceUnsymmetric) |
 | [`AppliedToAllNodes`](#ElectrostaticForce.AppliedToAllNodes) |

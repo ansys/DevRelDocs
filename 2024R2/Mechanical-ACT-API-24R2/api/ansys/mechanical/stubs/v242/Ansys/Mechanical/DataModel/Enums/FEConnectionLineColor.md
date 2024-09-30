@@ -1,6 +1,6 @@
 # `FEConnectionLineColor`
 
-
+<a id="ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.FEConnectionLineColor"></a>
 
 #### *class* ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.FEConnectionLineColor
 
@@ -17,14 +17,18 @@ Specifies the FEConnectionLineColor.
 ### Attributes
 
 | Name |
-| --------------------------------------------- |
+| -------------------------------------------------------------------------------------------------------------------------- |
+| [`Manual`](#FEConnectionLineColor.Manual) |
 | [`Object`](#FEConnectionLineColor.Object) |
 | [`Type`](#FEConnectionLineColor.Type) |
-| [`Manual`](#FEConnectionLineColor.Manual) |
 
 <a id="attribute-detail"></a>
 
 ## Attribute detail
+
+<a id="FEConnectionLineColor.Manual"></a>
+
+### FEConnectionLineColor.Manual *= 1*
 
 <a id="FEConnectionLineColor.Object"></a>
 
@@ -33,9 +37,5 @@ Specifies the FEConnectionLineColor.
 <a id="FEConnectionLineColor.Type"></a>
 
 ### FEConnectionLineColor.Type *= 0*
-
-<a id="FEConnectionLineColor.Manual"></a>
-
-### FEConnectionLineColor.Manual *= 1*
 
 

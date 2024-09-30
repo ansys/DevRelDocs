@@ -1,6 +1,6 @@
 # `SafetyLimitType`
 
-
+<a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.SafetyLimitType"></a>
 
 #### *class* ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.SafetyLimitType
 
@@ -17,10 +17,10 @@ Specifies the SafetyLimitType.
 ### Attributes
 
 | Name |
-| -------------------------------------------------------------------------------------------------------------------------------------- |
-| [`CustomValue`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/SafetyLimitType.md#SafetyLimitType.CustomValue) |
-| [`UltimatePerMaterial`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/SafetyLimitType.md#SafetyLimitType.UltimatePerMaterial) |
-| [`YieldPerMaterial`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/SafetyLimitType.md#SafetyLimitType.YieldPerMaterial) |
+| --------------------------------------------------------------- |
+| [`CustomValue`](#SafetyLimitType.CustomValue) |
+| [`UltimatePerMaterial`](#SafetyLimitType.UltimatePerMaterial) |
+| [`YieldPerMaterial`](#SafetyLimitType.YieldPerMaterial) |
 
 <a id="attribute-detail"></a>
 

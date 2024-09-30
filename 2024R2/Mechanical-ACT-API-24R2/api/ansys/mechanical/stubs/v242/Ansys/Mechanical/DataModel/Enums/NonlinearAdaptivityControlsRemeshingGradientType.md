@@ -1,6 +1,6 @@
 # `NonlinearAdaptivityControlsRemeshingGradientType`
 
-
+<a id="ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.NonlinearAdaptivityControlsRemeshingGradientType"></a>
 
 #### *class* ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.NonlinearAdaptivityControlsRemeshingGradientType
 
@@ -17,9 +17,9 @@ Specifies the NonlinearAdaptivityControlsRemeshingGradientType.
 ### Attributes
 
 | Name |
-| ------------------------------------------------------------------------------------------------------ |
-| [`NoGradient`](#NonlinearAdaptivityControlsRemeshingGradientType.NoGradient) |
+| -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | [`AverageGradient`](#NonlinearAdaptivityControlsRemeshingGradientType.AverageGradient) |
+| [`NoGradient`](#NonlinearAdaptivityControlsRemeshingGradientType.NoGradient) |
 | [`PerfectShapeGradient`](#NonlinearAdaptivityControlsRemeshingGradientType.PerfectShapeGradient) |
 | [`PracticalShapeGradient`](#NonlinearAdaptivityControlsRemeshingGradientType.PracticalShapeGradient) |
 
@@ -27,13 +27,13 @@ Specifies the NonlinearAdaptivityControlsRemeshingGradientType.
 
 ## Attribute detail
 
-<a id="NonlinearAdaptivityControlsRemeshingGradientType.NoGradient"></a>
-
-### NonlinearAdaptivityControlsRemeshingGradientType.NoGradient *= 0*
-
 <a id="NonlinearAdaptivityControlsRemeshingGradientType.AverageGradient"></a>
 
 ### NonlinearAdaptivityControlsRemeshingGradientType.AverageGradient *= 1*
+
+<a id="NonlinearAdaptivityControlsRemeshingGradientType.NoGradient"></a>
+
+### NonlinearAdaptivityControlsRemeshingGradientType.NoGradient *= 0*
 
 <a id="NonlinearAdaptivityControlsRemeshingGradientType.PerfectShapeGradient"></a>
 

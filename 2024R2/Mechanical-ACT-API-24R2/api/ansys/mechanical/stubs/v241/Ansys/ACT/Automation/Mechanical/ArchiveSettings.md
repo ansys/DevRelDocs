@@ -1,6 +1,6 @@
 # `ArchiveSettings`
 
-
+<a id="ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.ArchiveSettings"></a>
 
 #### *class* ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.ArchiveSettings
 
@@ -18,8 +18,8 @@ A settings class for the project Archive operation
 
 | Name | Description |
 |-----------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------|
-| [`IncludeResultAndSolutionFiles`](../../../../../v242/Ansys/ACT/Automation/Mechanical/ArchiveSettings.md#ArchiveSettings.IncludeResultAndSolutionFiles)   | A boolean which configures the option to include result/solution files in the archive file             |
-| [`IncludeUserFiles`](../../../../../v242/Ansys/ACT/Automation/Mechanical/ArchiveSettings.md#ArchiveSettings.IncludeUserFiles)                             | A boolean which configures the option to include files inside the UserFiles folder in the archive file |
+| [`IncludeResultAndSolutionFiles`](#ArchiveSettings.IncludeResultAndSolutionFiles)   | A boolean which configures the option to include result/solution files in the archive file             |
+| [`IncludeUserFiles`](#ArchiveSettings.IncludeUserFiles)                             | A boolean which configures the option to include files inside the UserFiles folder in the archive file |
 
 <a id="property-detail"></a>
 

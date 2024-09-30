@@ -1,6 +1,6 @@
 # `DSRSLoadAdapter`
 
-
+<a id="ansys.mechanical.stubs.v241.Ansys.ACT.Mechanical.Fields.Adapters.DSRSLoadAdapter"></a>
 
 #### *class* ansys.mechanical.stubs.v241.Ansys.ACT.Mechanical.Fields.Adapters.DSRSLoadAdapter
 
@@ -17,14 +17,14 @@ Adapter dedicated to IDSRSLoad objects.
 ### Methods
 
 | Name | Description |
-|-----------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------|
-| [`ChangeFieldDefinitionType`](../../../../../../v242/Ansys/ACT/Mechanical/Fields/Adapters/DSRSLoadAdapter.md#DSRSLoadAdapter.ChangeFieldDefinitionType)   | ChangeFieldDefinitionType method.   |
+|-----------------------------------------------------------------------------|-------------------------------------|
+| [`ChangeFieldDefinitionType`](#DSRSLoadAdapter.ChangeFieldDefinitionType)   | ChangeFieldDefinitionType method.   |
 
 ### Properties
 
 | Name | Description |
-|-----------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------|
-| [`FieldProvider`](../../../../../../v242/Ansys/ACT/Mechanical/Fields/Adapters/DSRSLoadAdapter.md#DSRSLoadAdapter.FieldProvider)   | Gets the wrapped object from Mechanical.   |
+|-----------------------------------------------------|--------------------------------------------|
+| [`FieldProvider`](#DSRSLoadAdapter.FieldProvider)   | Gets the wrapped object from Mechanical.   |
 
 <a id="property-detail"></a>
 

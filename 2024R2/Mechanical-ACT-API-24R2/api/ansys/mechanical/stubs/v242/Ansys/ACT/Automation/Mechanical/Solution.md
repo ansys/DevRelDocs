@@ -1,6 +1,6 @@
 # `Solution`
 
-
+<a id="ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Solution"></a>
 
 #### *class* ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Solution
 
@@ -17,72 +17,32 @@ Defines a Solution.
 ### Methods
 
 | Name | Description |
-|----------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------|
-| [`Solve`](#id1)                                                                                                      | Run the Solve action.                                                                                                        |
-| [`Solve`](#id1)                                                                                                      | Run the Solve action.                                                                                                        |
-| [`EvaluateAllResults`](#Solution.EvaluateAllResults)                                                                 | Run the EvaluateAllResults action.                                                                                           |
-| [`GetResults`](#Solution.GetResults)                                                                                 | Gets the Results from the server.                                                                                            |
-| [`ClearGeneratedData`](#Solution.ClearGeneratedData)                                                                 | Run the ClearGeneratedData action.                                                                                           |
-| [`IsResultFileSameAsLoaded`](#Solution.IsResultFileSameAsLoaded)                                                     | Checks if the given result file is same the loaded result file                                                               |
-| [`RelinkResultFile`](#Solution.RelinkResultFile)                                                                     | Relink the result file. This action allows repairing the result file referencing without altering the generated result data. |
-| [`IsResultFileChanged`](#Solution.IsResultFileChanged)                                                               | Checks if the referenced result file has been changed.                                                                       |
-| [`ReloadResultFile`](#Solution.ReloadResultFile)                                                                     | Reload the result file. For results-only systems, this action reloads the result mesh data and resets all result scopings.   |
-| [`OpenSolverFilesDirectory`](#Solution.OpenSolverFilesDirectory)                                                     | Run the OpenSolverFilesDirectory action.                                                                                     |
-| [`ReadGivenAnsysResultFile`](#Solution.ReadGivenAnsysResultFile)                                                     | Run the given Ansys ReadResults action.///                                                                                   |
-| [`ReadGivenAnsysResultFileByReference`](#Solution.ReadGivenAnsysResultFileByReference)                               | Run the given Ansys ReadResults by reference action.///                                                                      |
-| [`ReadAnsysResultFile`](#Solution.ReadAnsysResultFile)                                                               | Run the Ansys ReadResults action.                                                                                            |
-| [`ExtractSolutionStatistics`](#Solution.ExtractSolutionStatistics)                                                   | ExtractSolutionStatistics method.                                                                                            |
-| [`AddContactTool`](#Solution.AddContactTool)                                                                         | Creates a new ContactTool                                                                                                    |
-| [`AddBoltTool`](#Solution.AddBoltTool)                                                                               | Creates a new BoltTool                                                                                                       |
-| [`AddForceSummationProbe`](#Solution.AddForceSummationProbe)                                                         | Creates a new ForceSummationProbe                                                                                            |
-| [`AddTorqueProbe`](#Solution.AddTorqueProbe)                                                                         | Creates a new TorqueProbe                                                                                                    |
-| [`AddResponsePSDTool`](#Solution.AddResponsePSDTool)                                                                 | Creates a new ResponsePSDTool                                                                                                |
-| [`AddForceReactionsForContactRegions`](#Solution.AddForceReactionsForContactRegions)                                 | AddForceReactionsForContactRegions method.                                                                                   |
-| [`AddMomentReactionsForContactRegions`](#Solution.AddMomentReactionsForContactRegions)                               | AddMomentReactionsForContactRegions method.                                                                                  |
-| [`AddReactionsForContactRegions`](#Solution.AddReactionsForContactRegions)                                           | AddReactionsForContactRegions method.                                                                                        |
-| [`ValueForSolutionTracking`](#Solution.ValueForSolutionTracking)                                                     | ValueForSolutionTracking method.                                                                                             |
-| [`DeleteRow`](#Solution.DeleteRow)                                                                                   | DeleteRow method.                                                                                                            |
-| [`ValueForResultTracking`](#Solution.ValueForResultTracking)                                                         | ValueForResultTracking method.                                                                                               |
-| [`FormatValue`](#Solution.FormatValue)                                                                               | FormatValue method.                                                                                                          |
-| [`AddGroupedScopedCustomResult`](#Solution.AddGroupedScopedCustomResult)                                             | AddGroupedScopedCustomResult method.                                                                                         |
-| [`AddGroupedScopedACPResults`](#Solution.AddGroupedScopedACPResults)                                                 | AddGroupedScopedACPResults method.                                                                                           |
-| [`AddFatigueTool`](#Solution.AddFatigueTool)                                                                         | AddFatigueTool method.                                                                                                       |
-| [`CreateResultsAtAllSets`](#Solution.CreateResultsAtAllSets)                                                         | CreateResultsAtAllSets method.                                                                                               |
-| [`EvaluateAllContactTrackers`](#Solution.EvaluateAllContactTrackers)                                                 | EvaluateAllContactTrackers method.                                                                                           |
-| [`EvaluateContactTracker`](#Solution.EvaluateContactTracker)                                                         | EvaluateContactTracker method.                                                                                               |
-| [`ExecutePostCommands`](#id2)                                                                                        | Run Execute Post Commands for all post command objects.                                                                      |
-| [`ExecutePostCommands`](#id2)                                                                                        | ExecutePostCommands method.                                                                                                  |
-| [`FetchRemoteResults`](#Solution.FetchRemoteResults)                                                                 | FetchRemoteResults method.                                                                                                   |
-| [`GenerateAdaptedMesh`](#Solution.GenerateAdaptedMesh)                                                               | GenerateAdaptedMesh method.                                                                                                  |
-| [`ExportSubstructure`](#Solution.ExportSubstructure)                                                                 | Export Substructure to cpa file.                                                                                             |
-| [`DisconnectRemoteJob`](#Solution.DisconnectRemoteJob)                                                               | DisconnectRemoteJob method.                                                                                                  |
-| [`ReconnectRemoteJob`](#Solution.ReconnectRemoteJob)                                                                 | ReconnectRemoteJob method.                                                                                                   |
-| [`ClearRemoteStorageData`](#Solution.ClearRemoteStorageData)                                                         | ClearRemoteStorageData method.                                                                                               |
-| [`AddLineChart2D`](#Solution.AddLineChart2D)                                                                         | Creates a new LineChart2D                                                                                                    |
+|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------|
+| [`Activate`](#Solution.Activate)                                                                                     | Activate the current object.                                                                                                 |
 | [`AddAccelerationFrequencyResponse`](#Solution.AddAccelerationFrequencyResponse)                                     | Creates a new AccelerationFrequencyResponse                                                                                  |
 | [`AddAccelerationPhaseResponse`](#Solution.AddAccelerationPhaseResponse)                                             | Creates a new AccelerationPhaseResponse                                                                                      |
 | [`AddAccelerationProbe`](#Solution.AddAccelerationProbe)                                                             | Creates a new AccelerationProbe                                                                                              |
 | [`AddAccelerationWaterfallDiagram`](#Solution.AddAccelerationWaterfallDiagram)                                       | Creates a new AccelerationWaterfallDiagram                                                                                   |
 | [`AddAccumulatedEquivalentPlasticStrain`](#Solution.AddAccumulatedEquivalentPlasticStrain)                           | Creates a new AccumulatedEquivalentPlasticStrain                                                                             |
-| [`AddAcousticAbsorptionCoefficient`](#Solution.AddAcousticAbsorptionCoefficient)                                     | Creates a new AcousticAbsorptionCoefficient                                                                                  |
-| [`AddAcousticAWeightedSoundPressureLevel`](#Solution.AddAcousticAWeightedSoundPressureLevel)                         | Creates a new AcousticAWeightedSoundPressureLevel                                                                            |
 | [`AddAcousticAWeightedSPLFrequencyResponse`](#Solution.AddAcousticAWeightedSPLFrequencyResponse)                     | Creates a new AcousticAWeightedSPLFrequencyResponse                                                                          |
+| [`AddAcousticAWeightedSoundPressureLevel`](#Solution.AddAcousticAWeightedSoundPressureLevel)                         | Creates a new AcousticAWeightedSoundPressureLevel                                                                            |
+| [`AddAcousticAbsorptionCoefficient`](#Solution.AddAcousticAbsorptionCoefficient)                                     | Creates a new AcousticAbsorptionCoefficient                                                                                  |
 | [`AddAcousticDiffuseSoundTransmissionLoss`](#Solution.AddAcousticDiffuseSoundTransmissionLoss)                       | Creates a new AcousticDiffuseSoundTransmissionLoss                                                                           |
 | [`AddAcousticDirectionalVelocityResult`](#Solution.AddAcousticDirectionalVelocityResult)                             | Creates a new AcousticDirectionalVelocityResult                                                                              |
-| [`AddAcousticFarFieldSPL`](#Solution.AddAcousticFarFieldSPL)                                                         | Creates a new AcousticFarFieldResult                                                                                         |
 | [`AddAcousticFarFieldAWeightedSPL`](#Solution.AddAcousticFarFieldAWeightedSPL)                                       | Creates a new AcousticFarFieldResult                                                                                         |
-| [`AddAcousticFarFieldMaximumPressure`](#Solution.AddAcousticFarFieldMaximumPressure)                                 | Creates a new AcousticFarFieldResult                                                                                         |
-| [`AddAcousticFarFieldPhase`](#Solution.AddAcousticFarFieldPhase)                                                     | Creates a new AcousticFarFieldResult                                                                                         |
-| [`AddAcousticFarFieldDirectivity`](#Solution.AddAcousticFarFieldDirectivity)                                         | Creates a new AcousticFarFieldResult                                                                                         |
-| [`AddAcousticFarFieldMaximumScatteredPressure`](#Solution.AddAcousticFarFieldMaximumScatteredPressure)               | Creates a new AcousticFarFieldResult                                                                                         |
-| [`AddAcousticFarFieldTargetStrength`](#Solution.AddAcousticFarFieldTargetStrength)                                   | Creates a new AcousticFarFieldResult                                                                                         |
-| [`AddAcousticFarFieldSoundPowerLevel`](#Solution.AddAcousticFarFieldSoundPowerLevel)                                 | Creates a new AcousticFarFieldResult                                                                                         |
-| [`AddAcousticFarFieldSPLMic`](#Solution.AddAcousticFarFieldSPLMic)                                                   | Creates a new AcousticFarFieldResult                                                                                         |
 | [`AddAcousticFarFieldAWeightedSPLMic`](#Solution.AddAcousticFarFieldAWeightedSPLMic)                                 | Creates a new AcousticFarFieldResult                                                                                         |
+| [`AddAcousticFarFieldDirectivity`](#Solution.AddAcousticFarFieldDirectivity)                                         | Creates a new AcousticFarFieldResult                                                                                         |
+| [`AddAcousticFarFieldMaximumPressure`](#Solution.AddAcousticFarFieldMaximumPressure)                                 | Creates a new AcousticFarFieldResult                                                                                         |
 | [`AddAcousticFarFieldMaximumPressureMic`](#Solution.AddAcousticFarFieldMaximumPressureMic)                           | Creates a new AcousticFarFieldResult                                                                                         |
+| [`AddAcousticFarFieldMaximumScatteredPressure`](#Solution.AddAcousticFarFieldMaximumScatteredPressure)               | Creates a new AcousticFarFieldResult                                                                                         |
+| [`AddAcousticFarFieldPhase`](#Solution.AddAcousticFarFieldPhase)                                                     | Creates a new AcousticFarFieldResult                                                                                         |
 | [`AddAcousticFarFieldPhaseMic`](#Solution.AddAcousticFarFieldPhaseMic)                                               | Creates a new AcousticFarFieldResult                                                                                         |
-| [`AddAcousticFarFieldSoundPowerLevelWaterfallDiagram`](#Solution.AddAcousticFarFieldSoundPowerLevelWaterfallDiagram) | Creates a new AcousticFarFieldSoundPowerLevelWaterfallDiagram                                                                |
+| [`AddAcousticFarFieldSPL`](#Solution.AddAcousticFarFieldSPL)                                                         | Creates a new AcousticFarFieldResult                                                                                         |
+| [`AddAcousticFarFieldSPLMic`](#Solution.AddAcousticFarFieldSPLMic)                                                   | Creates a new AcousticFarFieldResult                                                                                         |
 | [`AddAcousticFarFieldSPLMicWaterfallDiagram`](#Solution.AddAcousticFarFieldSPLMicWaterfallDiagram)                   | Creates a new AcousticFarFieldSPLMicWaterfallDiagram                                                                         |
+| [`AddAcousticFarFieldSoundPowerLevel`](#Solution.AddAcousticFarFieldSoundPowerLevel)                                 | Creates a new AcousticFarFieldResult                                                                                         |
+| [`AddAcousticFarFieldSoundPowerLevelWaterfallDiagram`](#Solution.AddAcousticFarFieldSoundPowerLevelWaterfallDiagram) | Creates a new AcousticFarFieldSoundPowerLevelWaterfallDiagram                                                                |
+| [`AddAcousticFarFieldTargetStrength`](#Solution.AddAcousticFarFieldTargetStrength)                                   | Creates a new AcousticFarFieldResult                                                                                         |
 | [`AddAcousticFrequencyBandAWeightedSPL`](#Solution.AddAcousticFrequencyBandAWeightedSPL)                             | Creates a new AcousticFrequencyBandAWeightedSPL                                                                              |
 | [`AddAcousticFrequencyBandSPL`](#Solution.AddAcousticFrequencyBandSPL)                                               | Creates a new AcousticFrequencyBandSPL                                                                                       |
 | [`AddAcousticKineticEnergy`](#Solution.AddAcousticKineticEnergy)                                                     | Creates a new AcousticKineticEnergy                                                                                          |
@@ -92,8 +52,8 @@ Defines a Solution.
 | [`AddAcousticPressureFrequencyResponse`](#Solution.AddAcousticPressureFrequencyResponse)                             | Creates a new AcousticPressureFrequencyResponse                                                                              |
 | [`AddAcousticPressureResult`](#Solution.AddAcousticPressureResult)                                                   | Creates a new AcousticPressureResult                                                                                         |
 | [`AddAcousticReturnLoss`](#Solution.AddAcousticReturnLoss)                                                           | Creates a new AcousticReturnLoss                                                                                             |
-| [`AddAcousticSoundPressureLevel`](#Solution.AddAcousticSoundPressureLevel)                                           | Creates a new AcousticSoundPressureLevel                                                                                     |
 | [`AddAcousticSPLFrequencyResponse`](#Solution.AddAcousticSPLFrequencyResponse)                                       | Creates a new AcousticSPLFrequencyResponse                                                                                   |
+| [`AddAcousticSoundPressureLevel`](#Solution.AddAcousticSoundPressureLevel)                                           | Creates a new AcousticSoundPressureLevel                                                                                     |
 | [`AddAcousticTotalVelocityResult`](#Solution.AddAcousticTotalVelocityResult)                                         | Creates a new AcousticTotalVelocityResult                                                                                    |
 | [`AddAcousticTransmissionLoss`](#Solution.AddAcousticTransmissionLoss)                                               | Creates a new AcousticTransmissionLoss                                                                                       |
 | [`AddAcousticVelocityFrequencyResponse`](#Solution.AddAcousticVelocityFrequencyResponse)                             | Creates a new AcousticVelocityFrequencyResponse                                                                              |
@@ -105,14 +65,17 @@ Defines a Solution.
 | [`AddBendingStressEquivalent`](#Solution.AddBendingStressEquivalent)                                                 | Creates a new BendingStressEquivalent                                                                                        |
 | [`AddBendingStressIntensity`](#Solution.AddBendingStressIntensity)                                                   | Creates a new BendingStressIntensity                                                                                         |
 | [`AddBoltPretensionProbe`](#Solution.AddBoltPretensionProbe)                                                         | Creates a new BoltPretensionProbe                                                                                            |
+| [`AddBoltTool`](#Solution.AddBoltTool)                                                                               | Creates a new BoltTool                                                                                                       |
 | [`AddCampbellDiagram`](#Solution.AddCampbellDiagram)                                                                 | Creates a new CampbellDiagram                                                                                                |
 | [`AddChargeReactionFrequencyResponse`](#Solution.AddChargeReactionFrequencyResponse)                                 | Creates a new ChargeReactionFrequencyResponse                                                                                |
 | [`AddChargeReactionProbe`](#Solution.AddChargeReactionProbe)                                                         | Creates a new ChargeReactionProbe                                                                                            |
 | [`AddCommandSnippet`](#Solution.AddCommandSnippet)                                                                   | Creates a new CommandSnippet                                                                                                 |
+| [`AddComment`](#Solution.AddComment)                                                                                 | Creates a new child Comment.                                                                                                 |
 | [`AddCompositeCriterion`](#Solution.AddCompositeCriterion)                                                           | Creates a new CompositeCriterion                                                                                             |
 | [`AddCompositeFailureTool`](#Solution.AddCompositeFailureTool)                                                       | Creates a new CompositeFailureTool                                                                                           |
 | [`AddCompositeSamplingPointTool`](#Solution.AddCompositeSamplingPointTool)                                           | Creates a new CompositeSamplingPointTool                                                                                     |
 | [`AddContactDistanceProbe`](#Solution.AddContactDistanceProbe)                                                       | Creates a new ContactDistanceProbe                                                                                           |
+| [`AddContactTool`](#Solution.AddContactTool)                                                                         | Creates a new ContactTool                                                                                                    |
 | [`AddCurrentDensity`](#Solution.AddCurrentDensity)                                                                   | Creates a new CurrentDensity                                                                                                 |
 | [`AddCurrentDensityProbe`](#Solution.AddCurrentDensityProbe)                                                         | Creates a new CurrentDensityProbe                                                                                            |
 | [`AddDamageStatus`](#Solution.AddDamageStatus)                                                                       | Creates a new DamageStatus                                                                                                   |
@@ -133,13 +96,6 @@ Defines a Solution.
 | [`AddDirectionalMagneticFieldIntensity`](#Solution.AddDirectionalMagneticFieldIntensity)                             | Creates a new DirectionalMagneticFieldIntensity                                                                              |
 | [`AddDirectionalMagneticFluxDensity`](#Solution.AddDirectionalMagneticFluxDensity)                                   | Creates a new DirectionalMagneticFluxDensity                                                                                 |
 | [`AddDirectionalShearForce`](#Solution.AddDirectionalShearForce)                                                     | Creates a new DirectionalShearForce                                                                                          |
-| [`AddShearMomentDiagramMY`](#Solution.AddShearMomentDiagramMY)                                                       | Creates a new DirectionalShearMomentDiagram                                                                                  |
-| [`AddShearMomentDiagramMZ`](#Solution.AddShearMomentDiagramMZ)                                                       | Creates a new DirectionalShearMomentDiagram                                                                                  |
-| [`AddShearMomentDiagramUY`](#Solution.AddShearMomentDiagramUY)                                                       | Creates a new DirectionalShearMomentDiagram                                                                                  |
-| [`AddShearMomentDiagramUZ`](#Solution.AddShearMomentDiagramUZ)                                                       | Creates a new DirectionalShearMomentDiagram                                                                                  |
-| [`AddShearMomentDiagramVY`](#Solution.AddShearMomentDiagramVY)                                                       | Creates a new DirectionalShearMomentDiagram                                                                                  |
-| [`AddShearMomentDiagramVZ`](#Solution.AddShearMomentDiagramVZ)                                                       | Creates a new DirectionalShearMomentDiagram                                                                                  |
-| [`AddThermalStrain`](#Solution.AddThermalStrain)                                                                     | Creates a new DirectionalThermalStrain                                                                                       |
 | [`AddDirectionalTorsionalMoment`](#Solution.AddDirectionalTorsionalMoment)                                           | Creates a new DirectionalTorsionalMoment                                                                                     |
 | [`AddDirectionalVelocity`](#Solution.AddDirectionalVelocity)                                                         | Creates a new DirectionalVelocity                                                                                            |
 | [`AddDirectionalVelocityPSD`](#Solution.AddDirectionalVelocityPSD)                                                   | Creates a new DirectionalVelocityPSD                                                                                         |
@@ -150,7 +106,6 @@ Defines a Solution.
 | [`AddElectricFieldProbe`](#Solution.AddElectricFieldProbe)                                                           | Creates a new ElectricFieldProbe                                                                                             |
 | [`AddElectricPotential`](#Solution.AddElectricPotential)                                                             | Creates a new ElectricPotential                                                                                              |
 | [`AddElectricVoltage`](#Solution.AddElectricVoltage)                                                                 | Creates a new ElectricVoltage                                                                                                |
-| [`AddVoltageProbe`](#Solution.AddVoltageProbe)                                                                       | Creates a new ElectricVoltageProbe                                                                                           |
 | [`AddElectromechanicalCouplingCoefficient`](#Solution.AddElectromechanicalCouplingCoefficient)                       | Creates a new ElectromechanicalCouplingCoefficient                                                                           |
 | [`AddElementalEulerXYAngle`](#Solution.AddElementalEulerXYAngle)                                                     | Creates a new ElementalEulerXYAngle                                                                                          |
 | [`AddElementalEulerXZAngle`](#Solution.AddElementalEulerXZAngle)                                                     | Creates a new ElementalEulerXZAngle                                                                                          |
@@ -175,11 +130,13 @@ Defines a Solution.
 | [`AddEquivalentStressRS`](#Solution.AddEquivalentStressRS)                                                           | Creates a new EquivalentStressRS                                                                                             |
 | [`AddEquivalentTotalStrain`](#Solution.AddEquivalentTotalStrain)                                                     | Creates a new EquivalentTotalStrain                                                                                          |
 | [`AddExpansionSettings`](#Solution.AddExpansionSettings)                                                             | Creates a new ExpansionSettings                                                                                              |
+| [`AddFatigueTool`](#Solution.AddFatigueTool)                                                                         | AddFatigueTool method.                                                                                                       |
 | [`AddFiberCompressiveDamageVariable`](#Solution.AddFiberCompressiveDamageVariable)                                   | Creates a new FiberCompressiveDamageVariable                                                                                 |
 | [`AddFiberCompressiveFailureCriterion`](#Solution.AddFiberCompressiveFailureCriterion)                               | Creates a new FiberCompressiveFailureCriterion                                                                               |
 | [`AddFiberTensileDamageVariable`](#Solution.AddFiberTensileDamageVariable)                                           | Creates a new FiberTensileDamageVariable                                                                                     |
 | [`AddFiberTensileFailureCriterion`](#Solution.AddFiberTensileFailureCriterion)                                       | Creates a new FiberTensileFailureCriterion                                                                                   |
 | [`AddFieldIntensityProbe`](#Solution.AddFieldIntensityProbe)                                                         | Creates a new FieldIntensityProbe                                                                                            |
+| [`AddFigure`](#Solution.AddFigure)                                                                                   | Creates a new child Figure.                                                                                                  |
 | [`AddFlexibleRotationProbe`](#Solution.AddFlexibleRotationProbe)                                                     | Creates a new FlexibleRotationProbe                                                                                          |
 | [`AddFluidFlowRate`](#Solution.AddFluidFlowRate)                                                                     | Creates a new FluidFlowRate                                                                                                  |
 | [`AddFluidHeatConductionRate`](#Solution.AddFluidHeatConductionRate)                                                 | Creates a new FluidHeatConductionRate                                                                                        |
@@ -188,9 +145,14 @@ Defines a Solution.
 | [`AddFluxLinkage`](#Solution.AddFluxLinkage)                                                                         | Creates a new FluxLinkage                                                                                                    |
 | [`AddForceReaction`](#Solution.AddForceReaction)                                                                     | Creates a new ForceReaction                                                                                                  |
 | [`AddForceReactionFrequencyResponse`](#Solution.AddForceReactionFrequencyResponse)                                   | Creates a new ForceReactionFrequencyResponse                                                                                 |
+| [`AddForceReactionsForContactRegions`](#Solution.AddForceReactionsForContactRegions)                                 | AddForceReactionsForContactRegions method.                                                                                   |
+| [`AddForceSummationProbe`](#Solution.AddForceSummationProbe)                                                         | Creates a new ForceSummationProbe                                                                                            |
 | [`AddFractureTool`](#Solution.AddFractureTool)                                                                       | Creates a new FractureTool                                                                                                   |
 | [`AddGeneralizedPlaneStrainProbe`](#Solution.AddGeneralizedPlaneStrainProbe)                                         | Creates a new GeneralizedPlaneStrainProbe                                                                                    |
+| [`AddGroupedScopedACPResults`](#Solution.AddGroupedScopedACPResults)                                                 | AddGroupedScopedACPResults method.                                                                                           |
+| [`AddGroupedScopedCustomResult`](#Solution.AddGroupedScopedCustomResult)                                             | AddGroupedScopedCustomResult method.                                                                                         |
 | [`AddHeatFluxProbe`](#Solution.AddHeatFluxProbe)                                                                     | Creates a new HeatFluxProbe                                                                                                  |
+| [`AddImage`](#Solution.AddImage)                                                                                     | Creates a new child Image.                                                                                                   |
 | [`AddImpedanceFrequencyResponse`](#Solution.AddImpedanceFrequencyResponse)                                           | Creates a new ImpedanceFrequencyResponse                                                                                     |
 | [`AddImpedanceProbe`](#Solution.AddImpedanceProbe)                                                                   | Creates a new ImpedanceProbe                                                                                                 |
 | [`AddInductance`](#Solution.AddInductance)                                                                           | Creates a new Inductance                                                                                                     |
@@ -199,6 +161,8 @@ Defines a Solution.
 | [`AddJouleHeatProbe`](#Solution.AddJouleHeatProbe)                                                                   | Creates a new JouleHeatProbe                                                                                                 |
 | [`AddLatticeDensity`](#Solution.AddLatticeDensity)                                                                   | Creates a new LatticeDensity                                                                                                 |
 | [`AddLatticeElementalDensity`](#Solution.AddLatticeElementalDensity)                                                 | Creates a new LatticeElementalDensity                                                                                        |
+| [`AddLineChart2D`](#Solution.AddLineChart2D)                                                                         | Creates a new LineChart2D                                                                                                    |
+| [`AddLinePressureResult`](#Solution.AddLinePressureResult)                                                           | Creates a new LinePressureResult                                                                                             |
 | [`AddLinearizedEquivalentStress`](#Solution.AddLinearizedEquivalentStress)                                           | Creates a new LinearizedEquivalentStress                                                                                     |
 | [`AddLinearizedMaximumPrincipalStress`](#Solution.AddLinearizedMaximumPrincipalStress)                               | Creates a new LinearizedMaximumPrincipalStress                                                                               |
 | [`AddLinearizedMaximumShearStress`](#Solution.AddLinearizedMaximumShearStress)                                       | Creates a new LinearizedMaximumShearStress                                                                                   |
@@ -207,7 +171,7 @@ Defines a Solution.
 | [`AddLinearizedNormalStress`](#Solution.AddLinearizedNormalStress)                                                   | Creates a new LinearizedNormalStress                                                                                         |
 | [`AddLinearizedShearStress`](#Solution.AddLinearizedShearStress)                                                     | Creates a new LinearizedShearStress                                                                                          |
 | [`AddLinearizedStressIntensity`](#Solution.AddLinearizedStressIntensity)                                             | Creates a new LinearizedStressIntensity                                                                                      |
-| [`AddLinePressureResult`](#Solution.AddLinePressureResult)                                                           | Creates a new LinePressureResult                                                                                             |
+| [`AddMCFWaterfallDiagram`](#Solution.AddMCFWaterfallDiagram)                                                         | Creates a new MCFWaterfallDiagram                                                                                            |
 | [`AddMagneticCoenergy`](#Solution.AddMagneticCoenergy)                                                               | Creates a new MagneticCoenergy                                                                                               |
 | [`AddMagneticDirectionalForces`](#Solution.AddMagneticDirectionalForces)                                             | Creates a new MagneticDirectionalForces                                                                                      |
 | [`AddMagneticError`](#Solution.AddMagneticError)                                                                     | Creates a new MagneticError                                                                                                  |
@@ -224,7 +188,6 @@ Defines a Solution.
 | [`AddMaximumPrincipalThermalStrain`](#Solution.AddMaximumPrincipalThermalStrain)                                     | Creates a new MaximumPrincipalThermalStrain                                                                                  |
 | [`AddMaximumShearElasticStrain`](#Solution.AddMaximumShearElasticStrain)                                             | Creates a new MaximumShearElasticStrain                                                                                      |
 | [`AddMaximumShearStress`](#Solution.AddMaximumShearStress)                                                           | Creates a new MaximumShearStress                                                                                             |
-| [`AddMCFWaterfallDiagram`](#Solution.AddMCFWaterfallDiagram)                                                         | Creates a new MCFWaterfallDiagram                                                                                            |
 | [`AddMembraneStressEquivalent`](#Solution.AddMembraneStressEquivalent)                                               | Creates a new MembraneStressEquivalent                                                                                       |
 | [`AddMembraneStressIntensity`](#Solution.AddMembraneStressIntensity)                                                 | Creates a new MembraneStressIntensity                                                                                        |
 | [`AddMiddlePrincipalElasticStrain`](#Solution.AddMiddlePrincipalElasticStrain)                                       | Creates a new MiddlePrincipalElasticStrain                                                                                   |
@@ -233,6 +196,7 @@ Defines a Solution.
 | [`AddMinimumPrincipalElasticStrain`](#Solution.AddMinimumPrincipalElasticStrain)                                     | Creates a new MinimumPrincipalElasticStrain                                                                                  |
 | [`AddMinimumPrincipalStress`](#Solution.AddMinimumPrincipalStress)                                                   | Creates a new MinimumPrincipalStress                                                                                         |
 | [`AddMomentReaction`](#Solution.AddMomentReaction)                                                                   | Creates a new MomentReaction                                                                                                 |
+| [`AddMomentReactionsForContactRegions`](#Solution.AddMomentReactionsForContactRegions)                               | AddMomentReactionsForContactRegions method.                                                                                  |
 | [`AddMullinsDamageVariable`](#Solution.AddMullinsDamageVariable)                                                     | Creates a new MullinsDamageVariable                                                                                          |
 | [`AddMullinsMaximumPreviousStrainEnergy`](#Solution.AddMullinsMaximumPreviousStrainEnergy)                           | Creates a new MullinsMaximumPreviousStrainEnergy                                                                             |
 | [`AddNewtonRaphsonResidualCharge`](#Solution.AddNewtonRaphsonResidualCharge)                                         | Creates a new NewtonRaphsonResidualCharge                                                                                    |
@@ -254,7 +218,9 @@ Defines a Solution.
 | [`AddQualityFactor`](#Solution.AddQualityFactor)                                                                     | Creates a new QualityFactor                                                                                                  |
 | [`AddRadiationProbe`](#Solution.AddRadiationProbe)                                                                   | Creates a new RadiationProbe                                                                                                 |
 | [`AddReactionProbe`](#Solution.AddReactionProbe)                                                                     | Creates a new ReactionProbe                                                                                                  |
+| [`AddReactionsForContactRegions`](#Solution.AddReactionsForContactRegions)                                           | AddReactionsForContactRegions method.                                                                                        |
 | [`AddResponsePSD`](#Solution.AddResponsePSD)                                                                         | Creates a new ResponsePSD                                                                                                    |
+| [`AddResponsePSDTool`](#Solution.AddResponsePSDTool)                                                                 | Creates a new ResponsePSDTool                                                                                                |
 | [`AddResultMesh`](#Solution.AddResultMesh)                                                                           | Creates a new ResultMesh                                                                                                     |
 | [`AddRotationProbe`](#Solution.AddRotationProbe)                                                                     | Creates a new RotationProbe                                                                                                  |
 | [`AddShapeFinder`](#Solution.AddShapeFinder)                                                                         | Creates a new ShapeFinder                                                                                                    |
@@ -263,6 +229,15 @@ Defines a Solution.
 | [`AddShearElasticStrain`](#Solution.AddShearElasticStrain)                                                           | Creates a new ShearElasticStrain                                                                                             |
 | [`AddShearGasketPressure`](#Solution.AddShearGasketPressure)                                                         | Creates a new ShearGasketPressure                                                                                            |
 | [`AddShearGasketTotalClosure`](#Solution.AddShearGasketTotalClosure)                                                 | Creates a new ShearGasketTotalClosure                                                                                        |
+| [`AddShearMomentDiagramMSUM`](#Solution.AddShearMomentDiagramMSUM)                                                   | Creates a new TotalShearMomentDiagram                                                                                        |
+| [`AddShearMomentDiagramMY`](#Solution.AddShearMomentDiagramMY)                                                       | Creates a new DirectionalShearMomentDiagram                                                                                  |
+| [`AddShearMomentDiagramMZ`](#Solution.AddShearMomentDiagramMZ)                                                       | Creates a new DirectionalShearMomentDiagram                                                                                  |
+| [`AddShearMomentDiagramUSUM`](#Solution.AddShearMomentDiagramUSUM)                                                   | Creates a new TotalShearMomentDiagram                                                                                        |
+| [`AddShearMomentDiagramUY`](#Solution.AddShearMomentDiagramUY)                                                       | Creates a new DirectionalShearMomentDiagram                                                                                  |
+| [`AddShearMomentDiagramUZ`](#Solution.AddShearMomentDiagramUZ)                                                       | Creates a new DirectionalShearMomentDiagram                                                                                  |
+| [`AddShearMomentDiagramVSUM`](#Solution.AddShearMomentDiagramVSUM)                                                   | Creates a new TotalShearMomentDiagram                                                                                        |
+| [`AddShearMomentDiagramVY`](#Solution.AddShearMomentDiagramVY)                                                       | Creates a new DirectionalShearMomentDiagram                                                                                  |
+| [`AddShearMomentDiagramVZ`](#Solution.AddShearMomentDiagramVZ)                                                       | Creates a new DirectionalShearMomentDiagram                                                                                  |
 | [`AddShearStress`](#Solution.AddShearStress)                                                                         | Creates a new ShearStress                                                                                                    |
 | [`AddShellBendingStress`](#Solution.AddShellBendingStress)                                                           | Creates a new ShellBendingStress                                                                                             |
 | [`AddShellBottomPeakStress`](#Solution.AddShellBottomPeakStress)                                                     | Creates a new ShellBottomPeakStress                                                                                          |
@@ -278,12 +253,14 @@ Defines a Solution.
 | [`AddStressTool`](#Solution.AddStressTool)                                                                           | Creates a new StressTool                                                                                                     |
 | [`AddStructuralError`](#Solution.AddStructuralError)                                                                 | Creates a new StructuralError                                                                                                |
 | [`AddStructuralStrainEnergy`](#Solution.AddStructuralStrainEnergy)                                                   | Creates a new StructuralStrainEnergy                                                                                         |
-| [`AddTemperatureProbe`](#Solution.AddTemperatureProbe)                                                               | Creates a new TemperatureProbe                                                                                               |
 | [`AddTemperature`](#Solution.AddTemperature)                                                                         | Creates a new TemperatureResult                                                                                              |
+| [`AddTemperatureProbe`](#Solution.AddTemperatureProbe)                                                               | Creates a new TemperatureProbe                                                                                               |
 | [`AddThermalError`](#Solution.AddThermalError)                                                                       | Creates a new ThermalError                                                                                                   |
+| [`AddThermalStrain`](#Solution.AddThermalStrain)                                                                     | Creates a new DirectionalThermalStrain                                                                                       |
 | [`AddThermalStrainEnergy`](#Solution.AddThermalStrainEnergy)                                                         | Creates a new ThermalStrainEnergy                                                                                            |
 | [`AddTopologyDensity`](#Solution.AddTopologyDensity)                                                                 | Creates a new TopologyDensity                                                                                                |
 | [`AddTopologyElementalDensity`](#Solution.AddTopologyElementalDensity)                                               | Creates a new TopologyElementalDensity                                                                                       |
+| [`AddTorqueProbe`](#Solution.AddTorqueProbe)                                                                         | Creates a new TorqueProbe                                                                                                    |
 | [`AddTotalAcceleration`](#Solution.AddTotalAcceleration)                                                             | Creates a new TotalAcceleration                                                                                              |
 | [`AddTotalAxialForce`](#Solution.AddTotalAxialForce)                                                                 | Creates a new TotalAxialForce                                                                                                |
 | [`AddTotalBendingMoment`](#Solution.AddTotalBendingMoment)                                                           | Creates a new TotalBendingMoment                                                                                             |
@@ -296,9 +273,6 @@ Defines a Solution.
 | [`AddTotalMagneticFieldIntensity`](#Solution.AddTotalMagneticFieldIntensity)                                         | Creates a new TotalMagneticFieldIntensity                                                                                    |
 | [`AddTotalMagneticFluxDensity`](#Solution.AddTotalMagneticFluxDensity)                                               | Creates a new TotalMagneticFluxDensity                                                                                       |
 | [`AddTotalShearForce`](#Solution.AddTotalShearForce)                                                                 | Creates a new TotalShearForce                                                                                                |
-| [`AddShearMomentDiagramMSUM`](#Solution.AddShearMomentDiagramMSUM)                                                   | Creates a new TotalShearMomentDiagram                                                                                        |
-| [`AddShearMomentDiagramUSUM`](#Solution.AddShearMomentDiagramUSUM)                                                   | Creates a new TotalShearMomentDiagram                                                                                        |
-| [`AddShearMomentDiagramVSUM`](#Solution.AddShearMomentDiagramVSUM)                                                   | Creates a new TotalShearMomentDiagram                                                                                        |
 | [`AddTotalTorsionalMoment`](#Solution.AddTotalTorsionalMoment)                                                       | Creates a new TotalTorsionalMoment                                                                                           |
 | [`AddTotalVelocity`](#Solution.AddTotalVelocity)                                                                     | Creates a new TotalVelocity                                                                                                  |
 | [`AddUserDefinedResult`](#Solution.AddUserDefinedResult)                                                             | Creates a new UserDefinedResult                                                                                              |
@@ -316,114 +290,144 @@ Defines a Solution.
 | [`AddVelocityProbe`](#Solution.AddVelocityProbe)                                                                     | Creates a new VelocityProbe                                                                                                  |
 | [`AddVelocityWaterfallDiagram`](#Solution.AddVelocityWaterfallDiagram)                                               | Creates a new VelocityWaterfallDiagram                                                                                       |
 | [`AddVoltageFrequencyResponse`](#Solution.AddVoltageFrequencyResponse)                                               | Creates a new VoltageFrequencyResponse                                                                                       |
+| [`AddVoltageProbe`](#Solution.AddVoltageProbe)                                                                       | Creates a new ElectricVoltageProbe                                                                                           |
 | [`AddVolume`](#Solution.AddVolume)                                                                                   | Creates a new Volume                                                                                                         |
 | [`AddVolumeProbe`](#Solution.AddVolumeProbe)                                                                         | Creates a new VolumeProbe                                                                                                    |
-| [`GetChildren`](#id3)                                                                                                | Gets the list of children, filtered by type.                                                                                 |
-| [`GetChildren`](#id3)                                                                                                | Gets the list of children, filtered by type.                                                                                 |
-| [`AddComment`](#Solution.AddComment)                                                                                 | Creates a new child Comment.                                                                                                 |
-| [`AddFigure`](#Solution.AddFigure)                                                                                   | Creates a new child Figure.                                                                                                  |
-| [`AddImage`](#Solution.AddImage)                                                                                     | Creates a new child Image.                                                                                                   |
-| [`Activate`](#Solution.Activate)                                                                                     | Activate the current object.                                                                                                 |
+| [`ClearGeneratedData`](#Solution.ClearGeneratedData)                                                                 | Run the ClearGeneratedData action.                                                                                           |
+| [`ClearRemoteStorageData`](#Solution.ClearRemoteStorageData)                                                         | ClearRemoteStorageData method.                                                                                               |
 | [`CopyTo`](#Solution.CopyTo)                                                                                         | Copies all visible properties from this object to another.                                                                   |
+| [`CreateParameter`](#Solution.CreateParameter)                                                                       | Creates a new parameter for a Property.                                                                                      |
+| [`CreateResultsAtAllSets`](#Solution.CreateResultsAtAllSets)                                                         | CreateResultsAtAllSets method.                                                                                               |
+| [`DeleteRow`](#Solution.DeleteRow)                                                                                   | DeleteRow method.                                                                                                            |
+| [`DisconnectRemoteJob`](#Solution.DisconnectRemoteJob)                                                               | DisconnectRemoteJob method.                                                                                                  |
 | [`Duplicate`](#Solution.Duplicate)                                                                                   | Creates a copy of the current DataModelObject.                                                                               |
+| [`EvaluateAllContactTrackers`](#Solution.EvaluateAllContactTrackers)                                                 | EvaluateAllContactTrackers method.                                                                                           |
+| [`EvaluateAllResults`](#Solution.EvaluateAllResults)                                                                 | Run the EvaluateAllResults action.                                                                                           |
+| [`EvaluateContactTracker`](#Solution.EvaluateContactTracker)                                                         | EvaluateContactTracker method.                                                                                               |
+| [`ExecutePostCommands`](#Solution.ExecutePostCommands)                                                               | Run Execute Post Commands for all post command objects.                                                                      |
+| [`ExportSubstructure`](#Solution.ExportSubstructure)                                                                                                                                | Export Substructure to cpa file.                                                                                             |
+| [`ExtractSolutionStatistics`](#Solution.ExtractSolutionStatistics)                                                   | ExtractSolutionStatistics method.                                                                                            |
+| [`FetchRemoteResults`](#Solution.FetchRemoteResults)                                                                 | FetchRemoteResults method.                                                                                                   |
+| [`FormatValue`](#Solution.FormatValue)                                                                               | FormatValue method.                                                                                                          |
+| [`GenerateAdaptedMesh`](#Solution.GenerateAdaptedMesh)                                                               | GenerateAdaptedMesh method.                                                                                                  |
+| [`GetChildren`](#Solution.GetChildren)                                                                               | Gets the list of children, filtered by type.                                                                                 |
+| [`GetParameter`](#Solution.GetParameter)                                                                             | Gets the parameter corresponding to the given property.                                                                      |
+| [`GetResults`](#Solution.GetResults)                                                                                 | Gets the Results from the server.                                                                                            |
 | [`GroupAllSimilarChildren`](#Solution.GroupAllSimilarChildren)                                                       | Run the GroupAllSimilarChildren action.                                                                                      |
 | [`GroupSimilarObjects`](#Solution.GroupSimilarObjects)                                                               | Run the GroupSimilarObjects action.                                                                                          |
-| [`PropertyByName`](#Solution.PropertyByName)                                                                         | Get a property by its unique name.                                                                                           |
+| [`IsResultFileChanged`](#Solution.IsResultFileChanged)                                                               | Checks if the referenced result file has been changed.                                                                       |
+| [`IsResultFileSameAsLoaded`](#Solution.IsResultFileSameAsLoaded)                                                     | Checks if the given result file is same the loaded result file                                                               |
+| [`OpenSolverFilesDirectory`](#Solution.OpenSolverFilesDirectory)                                                     | Run the OpenSolverFilesDirectory action.                                                                                     |
 | [`PropertyByAPIName`](#Solution.PropertyByAPIName)                                                                   | Get a property by its API name.                                                                                              |
-| [`CreateParameter`](#Solution.CreateParameter)                                                                       | Creates a new parameter for a Property.                                                                                      |
-| [`GetParameter`](#Solution.GetParameter)                                                                             | Gets the parameter corresponding to the given property.                                                                      |
+| [`PropertyByName`](#Solution.PropertyByName)                                                                         | Get a property by its unique name.                                                                                           |
+| [`ReadAnsysResultFile`](#Solution.ReadAnsysResultFile)                                                               | Run the Ansys ReadResults action.                                                                                            |
+| [`ReadGivenAnsysResultFile`](#Solution.ReadGivenAnsysResultFile)                                                     | Run the given Ansys ReadResults action.///                                                                                   |
+| [`ReadGivenAnsysResultFileByReference`](#Solution.ReadGivenAnsysResultFileByReference)                               | Run the given Ansys ReadResults by reference action.///                                                                      |
+| [`ReconnectRemoteJob`](#Solution.ReconnectRemoteJob)                                                                 | ReconnectRemoteJob method.                                                                                                   |
+| [`RelinkResultFile`](#Solution.RelinkResultFile)                                                                     | Relink the result file. This action allows repairing the result file referencing without altering the generated result data. |
+| [`ReloadResultFile`](#Solution.ReloadResultFile)                                                                     | Reload the result file. For results-only systems, this action reloads the result mesh data and resets all result scopings.   |
 | [`RemoveParameter`](#Solution.RemoveParameter)                                                                       | Removes the parameter from the parameter set corresponding to the given property.                                            |
+| [`Solve`](#Solution.Solve)                                                                                           | Run the Solve action.                                                                                                        |
+| [`ValueForResultTracking`](#Solution.ValueForResultTracking)                                                         | ValueForResultTracking method.                                                                                               |
+| [`ValueForSolutionTracking`](#Solution.ValueForSolutionTracking)                                                     | ValueForSolutionTracking method.                                                                                             |
 
 ### Properties
 
 | Name | Description |
-|----------------------------------------------------------------------------|------------------------------------------------------------------------------------------|
-| [`SolutionInformation`](#Solution.SolutionInformation)                     | Gets the SolutionInformation.                                                            |
-| [`CellId`](#Solution.CellId)                                               | Gets the CellId.                                                                         |
-| [`WorkingDir`](#Solution.WorkingDir)                                       | Gets the WorkingDir.                                                                     |
-| [`Status`](#Solution.Status)                                               | Gets the Status.                                                                         |
-| [`NumGPURequested`](#Solution.NumGPURequested)                             | NumGPURequested property.                                                                |
-| [`MemoryAvailable`](#Solution.MemoryAvailable)                             | MemoryAvailable property.                                                                |
-| [`EigenSolverType`](#Solution.EigenSolverType)                             | EigenSolverType property.                                                                |
-| [`NumCoresAvailable`](#Solution.NumCoresAvailable)                         | NumCoresAvailable property.                                                              |
-| [`NumProcRequested`](#Solution.NumProcRequested)                           | NumProcRequested property.                                                               |
-| [`IsDistributedSolution`](#Solution.IsDistributedSolution)                 | IsDistributedSolution property.                                                          |
-| [`IsHybridParallelSolution`](#Solution.IsHybridParallelSolution)           | IsHybridParallelSolution property.                                                       |
-| [`IsAutoHybridParallel`](#Solution.IsAutoHybridParallel)                   | Returns if Hybrid Parallel was turned on by APDL or not (i.e. Automatic Hybrid Parallel) |
-| [`ThreadsPerProcessRequested`](#Solution.ThreadsPerProcessRequested)       | ThreadsPerProcessRequested property.                                                     |
-| [`NumberOfProcessesRequested`](#Solution.NumberOfProcessesRequested)       | NumberOfProcessesRequested property.                                                     |
-| [`IsGPUAccelerationRequested`](#Solution.IsGPUAccelerationRequested)       | IsGPUAccelerationRequested property.                                                     |
-| [`IsDataExtractionComplete`](#Solution.IsDataExtractionComplete)           | IsDataExtractionComplete property.                                                       |
-| [`IsEigenSolver`](#Solution.IsEigenSolver)                                 | IsEigenSolver property.                                                                  |
-| [`IsUnsymmetricMatrixSolve`](#Solution.IsUnsymmetricMatrixSolve)           | IsUnsymmetricMatrixSolve property.                                                       |
-| [`GPUType`](#Solution.GPUType)                                             | GPUType property.                                                                        |
-| [`MPIType`](#Solution.MPIType)                                             | MPIType property.                                                                        |
-| [`EquationSolverType`](#Solution.EquationSolverType)                       | EquationSolverType property.                                                             |
-| [`NumMachinesRequested`](#Solution.NumMachinesRequested)                   | NumMachinesRequested property.                                                           |
-| [`MainThreadCPUTime`](#Solution.MainThreadCPUTime)                         | MainThreadCPUTime property.                                                              |
+|-------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------|
 | [`AllThreadsCPUTime`](#Solution.AllThreadsCPUTime)                         | AllThreadsCPUTime property.                                                              |
-| [`NumVirtualCoresAvailable`](#Solution.NumVirtualCoresAvailable)           | NumVirtualCoresAvailable property.                                                       |
-| [`ElapsedTime`](#Solution.ElapsedTime)                                     | ElapsedTime property.                                                                    |
-| [`TotalMemoryUsed`](#Solution.TotalMemoryUsed)                             | TotalMemoryUsed property.                                                                |
-| [`ElementLoadBalRatio`](#Solution.ElementLoadBalRatio)                     | ElementLoadBalRatio property.                                                            |
-| [`ProcessorModel`](#Solution.ProcessorModel)                               | ProcessorModel property.                                                                 |
-| [`OperatingSystem`](#Solution.OperatingSystem)                             | OperatingSystem property.                                                                |
-| [`SolverType`](#Solution.SolverType)                                       | SolverType property.                                                                     |
-| [`License`](#Solution.License)                                             | License property.                                                                        |
-| [`Nodes`](#Solution.Nodes)                                                 | Nodes property.                                                                          |
-| [`Elements`](#Solution.Elements)                                           | Elements property.                                                                       |
-| [`GpuAcceleration`](#Solution.GpuAcceleration)                             | GpuAcceleration property.                                                                |
-| [`LicenseCoresAvailable`](#Solution.LicenseCoresAvailable)                 | LicenseCoresAvailable property.                                                          |
-| [`SolutionUnitSystem`](#Solution.SolutionUnitSystem)                       | SolutionUnitSystem property.                                                             |
-| [`IOBound`](#Solution.IOBound)                                             | IOBound property.                                                                        |
-| [`IOWrite`](#Solution.IOWrite)                                             | IOWrite property.                                                                        |
-| [`IORead`](#Solution.IORead)                                               | IORead property.                                                                         |
-| [`MSUPHarmonicAnalysis`](#Solution.MSUPHarmonicAnalysis)                   | MSUPHarmonicAnalysis property.                                                           |
-| [`TimeToCombineDistributedFiles`](#Solution.TimeToCombineDistributedFiles) | TimeToCombineDistributedFiles property.                                                  |
-| [`SolverData`](#Solution.SolverData)                                       | SolverData property.                                                                     |
-| [`DateOfRun`](#Solution.DateOfRun)                                         | DateOfRun property.                                                                      |
-| [`TimeOfRun`](#Solution.TimeOfRun)                                         | TimeOfRun property.                                                                      |
-| [`SolutionTrackingVectorLength`](#Solution.SolutionTrackingVectorLength)   | SolutionTrackingVectorLength property.                                                   |
-| [`ResultTrackingVectorLength`](#Solution.ResultTrackingVectorLength)       | ResultTrackingVectorLength property.                                                     |
-| [`ResultFilePath`](#Solution.ResultFilePath)                               | Get the result file full path.                                                           |
-| [`NumberOfDOF`](#Solution.NumberOfDOF)                                     | Get the Number of DOF.                                                                   |
-| [`SparseMode`](#Solution.SparseMode)                                       | Get the Sparse Mode value.                                                               |
-| [`SkipSolveCommand`](#Solution.SkipSolveCommand)                           | Gets or sets the flag to avoid issuing the solve command in the MAPDL solver.            |
-| [`InternalObject`](#id0)                                                   | Gets the internal object. For advanced usage only.                                       |
+| [`CalculateBeamSectionResults`](#Solution.CalculateBeamSectionResults)     | Gets or sets the CalculateBeamSectionResults.                                            |
+| [`CellId`](#Solution.CellId)                                               | Gets the CellId.                                                                         |
+| [`Children`](#Solution.Children)                                           | Gets the list of children.                                                               |
+| [`Comments`](#Solution.Comments)                                           | Gets the list of associated comments.                                                    |
 | [`CyclicSectorDisplayRangeBegin`](#Solution.CyclicSectorDisplayRangeBegin) | Gets or sets the CyclicSectorDisplayRangeBegin.                                          |
-| [`NumberofSectors`](#Solution.NumberofSectors)                             | Gets or sets the NumberofSectors.                                                        |
+| [`DataModelObjectCategory`](#Solution.DataModelObjectCategory)             | Gets the current DataModelObject’s category.                                             |
+| [`DateOfRun`](#Solution.DateOfRun)                                         | DateOfRun property.                                                                      |
+| [`EigenSolverType`](#Solution.EigenSolverType)                             | EigenSolverType property.                                                                |
 | [`ElapsedRunTime`](#Solution.ElapsedRunTime)                               | Gets or sets the ElapsedRunTime.                                                         |
+| [`ElapsedTime`](#Solution.ElapsedTime)                                     | ElapsedTime property.                                                                    |
+| [`ElementLoadBalRatio`](#Solution.ElementLoadBalRatio)                     | ElementLoadBalRatio property.                                                            |
+| [`ElementSelection`](#Solution.ElementSelection)                           | Gets or sets the ElementSelection.                                                       |
+| [`Elements`](#Solution.Elements)                                           | Elements property.                                                                       |
+| [`EquationSolverType`](#Solution.EquationSolverType)                       | EquationSolverType property.                                                             |
+| [`ExportTopologyFile`](#Solution.ExportTopologyFile)                       | Gets or sets the ExportTopologyFile.                                                     |
+| [`Figures`](#Solution.Figures)                                             | Gets the list of associated figures.                                                     |
+| [`GPUType`](#Solution.GPUType)                                             | GPUType property.                                                                        |
+| [`GpuAcceleration`](#Solution.GpuAcceleration)                             | GpuAcceleration property.                                                                |
+| [`IOBound`](#Solution.IOBound)                                             | IOBound property.                                                                        |
+| [`IORead`](#Solution.IORead)                                               | IORead property.                                                                         |
+| [`IOWrite`](#Solution.IOWrite)                                             | IOWrite property.                                                                        |
+| [`Images`](#Solution.Images)                                               | Gets the list of associated images.                                                      |
+| [`InternalObject`](#Solution.InternalObject)                               | Gets the internal object. For advanced usage only.                                       |
+| [`IsAutoHybridParallel`](#Solution.IsAutoHybridParallel)                   | Returns if Hybrid Parallel was turned on by APDL or not (i.e. Automatic Hybrid Parallel) |
+| [`IsDataExtractionComplete`](#Solution.IsDataExtractionComplete)           | IsDataExtractionComplete property.                                                       |
+| [`IsDistributedSolution`](#Solution.IsDistributedSolution)                 | IsDistributedSolution property.                                                          |
+| [`IsEigenSolver`](#Solution.IsEigenSolver)                                 | IsEigenSolver property.                                                                  |
+| [`IsGPUAccelerationRequested`](#Solution.IsGPUAccelerationRequested)       | IsGPUAccelerationRequested property.                                                     |
+| [`IsHybridParallelSolution`](#Solution.IsHybridParallelSolution)           | IsHybridParallelSolution property.                                                       |
+| [`IsUnsymmetricMatrixSolve`](#Solution.IsUnsymmetricMatrixSolve)           | IsUnsymmetricMatrixSolve property.                                                       |
+| [`License`](#Solution.License)                                             | License property.                                                                        |
+| [`LicenseCoresAvailable`](#Solution.LicenseCoresAvailable)                 | LicenseCoresAvailable property.                                                          |
+| [`MPIType`](#Solution.MPIType)                                             | MPIType property.                                                                        |
+| [`MSUPHarmonicAnalysis`](#Solution.MSUPHarmonicAnalysis)                   | MSUPHarmonicAnalysis property.                                                           |
+| [`MainThreadCPUTime`](#Solution.MainThreadCPUTime)                         | MainThreadCPUTime property.                                                              |
 | [`MaximumRefinementLoops`](#Solution.MaximumRefinementLoops)               | Gets or sets the MaximumRefinementLoops.                                                 |
+| [`MemoryAvailable`](#Solution.MemoryAvailable)                             | MemoryAvailable property.                                                                |
 | [`MemoryUsed`](#Solution.MemoryUsed)                                       | Gets or sets the MemoryUsed.                                                             |
+| [`MeshSource`](#Solution.MeshSource)                                       | Gets or sets the MeshSource.                                                             |
+| [`Nodes`](#Solution.Nodes)                                                 | Nodes property.                                                                          |
+| [`NumCoresAvailable`](#Solution.NumCoresAvailable)                         | NumCoresAvailable property.                                                              |
+| [`NumGPURequested`](#Solution.NumGPURequested)                             | NumGPURequested property.                                                                |
+| [`NumMachinesRequested`](#Solution.NumMachinesRequested)                   | NumMachinesRequested property.                                                           |
+| [`NumProcRequested`](#Solution.NumProcRequested)                           | NumProcRequested property.                                                               |
+| [`NumVirtualCoresAvailable`](#Solution.NumVirtualCoresAvailable)           | NumVirtualCoresAvailable property.                                                       |
+| [`NumberOfDOF`](#Solution.NumberOfDOF)                                     | Get the Number of DOF.                                                                   |
+| [`NumberOfProcessesRequested`](#Solution.NumberOfProcessesRequested)       | NumberOfProcessesRequested property.                                                     |
+| [`NumberofSectors`](#Solution.NumberofSectors)                             | Gets or sets the NumberofSectors.                                                        |
+| [`OperatingSystem`](#Solution.OperatingSystem)                             | OperatingSystem property.                                                                |
+| [`ProcessorModel`](#Solution.ProcessorModel)                               | ProcessorModel property.                                                                 |
+| [`Properties`](#Solution.Properties)                                       | Gets the list of properties for this object.                                             |
 | [`RefinementDepth`](#Solution.RefinementDepth)                             | Gets or sets the RefinementDepth.                                                        |
 | [`ResultFileDirectory`](#Solution.ResultFileDirectory)                     | Gets the ResultFileDirectory.                                                            |
 | [`ResultFileName`](#Solution.ResultFileName)                               | Gets the ResultFileName.                                                                 |
+| [`ResultFilePath`](#Solution.ResultFilePath)                               | Get the result file full path.                                                           |
 | [`ResultFileSize`](#Solution.ResultFileSize)                               | Gets the ResultFileSize.                                                                 |
 | [`ResultFileTimestamp`](#Solution.ResultFileTimestamp)                     | Gets the ResultFileTimestamp.                                                            |
-| [`ExportTopologyFile`](#Solution.ExportTopologyFile)                       | Gets or sets the ExportTopologyFile.                                                     |
-| [`MeshSource`](#Solution.MeshSource)                                       | Gets or sets the MeshSource.                                                             |
-| [`ElementSelection`](#Solution.ElementSelection)                           | Gets or sets the ElementSelection.                                                       |
 | [`ResultFileUnitSystem`](#Solution.ResultFileUnitSystem)                   | Gets the ResultFileUnitSystem.                                                           |
-| [`CalculateBeamSectionResults`](#Solution.CalculateBeamSectionResults)     | Gets or sets the CalculateBeamSectionResults.                                            |
+| [`ResultTrackingVectorLength`](#Solution.ResultTrackingVectorLength)       | ResultTrackingVectorLength property.                                                     |
+| [`SkipSolveCommand`](#Solution.SkipSolveCommand)                           | Gets or sets the flag to avoid issuing the solve command in the MAPDL solver.            |
+| [`SolutionInformation`](#Solution.SolutionInformation)                     | Gets the SolutionInformation.                                                            |
+| [`SolutionTrackingVectorLength`](#Solution.SolutionTrackingVectorLength)   | SolutionTrackingVectorLength property.                                                   |
+| [`SolutionUnitSystem`](#Solution.SolutionUnitSystem)                       | SolutionUnitSystem property.                                                             |
+| [`SolverData`](#Solution.SolverData)                                       | SolverData property.                                                                     |
+| [`SolverType`](#Solution.SolverType)                                       | SolverType property.                                                                     |
+| [`SparseMode`](#Solution.SparseMode)                                       | Get the Sparse Mode value.                                                               |
+| [`Status`](#Solution.Status)                                               | Gets the Status.                                                                         |
+| [`ThreadsPerProcessRequested`](#Solution.ThreadsPerProcessRequested)       | ThreadsPerProcessRequested property.                                                     |
+| [`TimeOfRun`](#Solution.TimeOfRun)                                         | TimeOfRun property.                                                                      |
+| [`TimeToCombineDistributedFiles`](#Solution.TimeToCombineDistributedFiles) | TimeToCombineDistributedFiles property.                                                  |
 | [`TopologyResult`](#Solution.TopologyResult)                               | Gets or sets the TopologyResult.                                                         |
-| [`DataModelObjectCategory`](#Solution.DataModelObjectCategory)             | Gets the current DataModelObject's category.                                             |
-| [`Children`](#Solution.Children)                                           | Gets the list of children.                                                               |
-| [`Comments`](#Solution.Comments)                                           | Gets the list of associated comments.                                                    |
-| [`Figures`](#Solution.Figures)                                             | Gets the list of associated figures.                                                     |
-| [`Images`](#Solution.Images)                                               | Gets the list of associated images.                                                      |
-| [`InternalObject`](#id0)                                                   | Gets the internal object. For advanced usage only.                                       |
-| [`Properties`](#Solution.Properties)                                       | Gets the list of properties for this object.                                             |
+| [`TotalMemoryUsed`](#Solution.TotalMemoryUsed)                             | TotalMemoryUsed property.                                                                |
 | [`VisibleProperties`](#Solution.VisibleProperties)                         | Gets the list of properties that are visible for this object.                            |
+| [`WorkingDir`](#Solution.WorkingDir)                                       | Gets the WorkingDir.                                                                     |
 
 <a id="property-detail"></a>
 
 ## Property detail
 
-<a id="Solution.SolutionInformation"></a>
+<a id="Solution.AllThreadsCPUTime"></a>
 
-### *property* Solution.SolutionInformation *: [Ansys.ACT.Automation.Mechanical.SolutionInformation](../../../../../v241/Ansys/ACT/Automation/Mechanical/SolutionInformation.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.SolutionInformation) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Solution.AllThreadsCPUTime *: System.Double | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets the SolutionInformation.
+AllThreadsCPUTime property.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="Solution.CalculateBeamSectionResults"></a>
+
+### *property* Solution.CalculateBeamSectionResults *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the CalculateBeamSectionResults.
 
 <!-- !! processed by numpydoc !! -->
 
@@ -435,403 +439,19 @@ Gets the CellId.
 
 <!-- !! processed by numpydoc !! -->
 
-<a id="Solution.WorkingDir"></a>
+<a id="Solution.Children"></a>
 
-### *property* Solution.WorkingDir *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Solution.Children *: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets the WorkingDir.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="Solution.Status"></a>
-
-### *property* Solution.Status *: [Ansys.Mechanical.DataModel.Enums.SolutionStatusType](../../../../../v241/Ansys/Mechanical/DataModel/Enums/SolutionStatusType.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.SolutionStatusType) | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets the Status.
+Gets the list of children.
 
 <!-- !! processed by numpydoc !! -->
 
-<a id="Solution.NumGPURequested"></a>
+<a id="Solution.Comments"></a>
 
-### *property* Solution.NumGPURequested *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Solution.Comments *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Comment](../../../../../v241/Ansys/ACT/Automation/Mechanical/Comment.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
-NumGPURequested property.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="Solution.MemoryAvailable"></a>
-
-### *property* Solution.MemoryAvailable *: System.Double | [None](https://docs.python.org/3/library/constants.html#None)*
-
-MemoryAvailable property.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="Solution.EigenSolverType"></a>
-
-### *property* Solution.EigenSolverType *: [Ansys.Mechanical.DataModel.Enums.EigenSolverType](../../../../../v241/Ansys/Mechanical/DataModel/Enums/EigenSolverType.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.EigenSolverType) | [None](https://docs.python.org/3/library/constants.html#None)*
-
-EigenSolverType property.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="Solution.NumCoresAvailable"></a>
-
-### *property* Solution.NumCoresAvailable *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
-
-NumCoresAvailable property.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="Solution.NumProcRequested"></a>
-
-### *property* Solution.NumProcRequested *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
-
-NumProcRequested property.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="Solution.IsDistributedSolution"></a>
-
-### *property* Solution.IsDistributedSolution *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
-
-IsDistributedSolution property.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="Solution.IsHybridParallelSolution"></a>
-
-### *property* Solution.IsHybridParallelSolution *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
-
-IsHybridParallelSolution property.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="Solution.IsAutoHybridParallel"></a>
-
-### *property* Solution.IsAutoHybridParallel *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Returns if Hybrid Parallel was turned on by APDL or not (i.e. Automatic Hybrid Parallel)
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="Solution.ThreadsPerProcessRequested"></a>
-
-### *property* Solution.ThreadsPerProcessRequested *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
-
-ThreadsPerProcessRequested property.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="Solution.NumberOfProcessesRequested"></a>
-
-### *property* Solution.NumberOfProcessesRequested *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
-
-NumberOfProcessesRequested property.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="Solution.IsGPUAccelerationRequested"></a>
-
-### *property* Solution.IsGPUAccelerationRequested *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
-
-IsGPUAccelerationRequested property.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="Solution.IsDataExtractionComplete"></a>
-
-### *property* Solution.IsDataExtractionComplete *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
-
-IsDataExtractionComplete property.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="Solution.IsEigenSolver"></a>
-
-### *property* Solution.IsEigenSolver *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
-
-IsEigenSolver property.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="Solution.IsUnsymmetricMatrixSolve"></a>
-
-### *property* Solution.IsUnsymmetricMatrixSolve *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
-
-IsUnsymmetricMatrixSolve property.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="Solution.GPUType"></a>
-
-### *property* Solution.GPUType *: Ansys.Common.Interop.DSObjectTypes.DSGPUType | [None](https://docs.python.org/3/library/constants.html#None)*
-
-GPUType property.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="Solution.MPIType"></a>
-
-### *property* Solution.MPIType *: [Ansys.Mechanical.DataModel.Enums.MPIType](../../../../../v241/Ansys/Mechanical/DataModel/Enums/MPIType.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.MPIType) | [None](https://docs.python.org/3/library/constants.html#None)*
-
-MPIType property.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="Solution.EquationSolverType"></a>
-
-### *property* Solution.EquationSolverType *: [Ansys.Mechanical.DataModel.Enums.EquationSolverType](../../../../../v241/Ansys/Mechanical/DataModel/Enums/EquationSolverType.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.EquationSolverType) | [None](https://docs.python.org/3/library/constants.html#None)*
-
-EquationSolverType property.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="Solution.NumMachinesRequested"></a>
-
-### *property* Solution.NumMachinesRequested *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
-
-NumMachinesRequested property.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="Solution.MainThreadCPUTime"></a>
-
-### *property* Solution.MainThreadCPUTime *: System.Double | [None](https://docs.python.org/3/library/constants.html#None)*
-
-MainThreadCPUTime property.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="Solution.AllThreadsCPUTime"></a>
-
-### *property* Solution.AllThreadsCPUTime *: System.Double | [None](https://docs.python.org/3/library/constants.html#None)*
-
-AllThreadsCPUTime property.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="Solution.NumVirtualCoresAvailable"></a>
-
-### *property* Solution.NumVirtualCoresAvailable *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
-
-NumVirtualCoresAvailable property.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="Solution.ElapsedTime"></a>
-
-### *property* Solution.ElapsedTime *: System.Double | [None](https://docs.python.org/3/library/constants.html#None)*
-
-ElapsedTime property.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="Solution.TotalMemoryUsed"></a>
-
-### *property* Solution.TotalMemoryUsed *: System.Double | [None](https://docs.python.org/3/library/constants.html#None)*
-
-TotalMemoryUsed property.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="Solution.ElementLoadBalRatio"></a>
-
-### *property* Solution.ElementLoadBalRatio *: System.Double | [None](https://docs.python.org/3/library/constants.html#None)*
-
-ElementLoadBalRatio property.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="Solution.ProcessorModel"></a>
-
-### *property* Solution.ProcessorModel *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
-
-ProcessorModel property.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="Solution.OperatingSystem"></a>
-
-### *property* Solution.OperatingSystem *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
-
-OperatingSystem property.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="Solution.SolverType"></a>
-
-### *property* Solution.SolverType *: [Ansys.Mechanical.DataModel.Enums.SolverType](../../../../../v241/Ansys/Mechanical/DataModel/Enums/SolverType.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.SolverType) | [None](https://docs.python.org/3/library/constants.html#None)*
-
-SolverType property.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="Solution.License"></a>
-
-### *property* Solution.License *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
-
-License property.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="Solution.Nodes"></a>
-
-### *property* Solution.Nodes *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Nodes property.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="Solution.Elements"></a>
-
-### *property* Solution.Elements *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Elements property.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="Solution.GpuAcceleration"></a>
-
-### *property* Solution.GpuAcceleration *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
-
-GpuAcceleration property.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="Solution.LicenseCoresAvailable"></a>
-
-### *property* Solution.LicenseCoresAvailable *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
-
-LicenseCoresAvailable property.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="Solution.SolutionUnitSystem"></a>
-
-### *property* Solution.SolutionUnitSystem *: Ansys.ACT.Interfaces.Common.MechanicalUnitSystem | [None](https://docs.python.org/3/library/constants.html#None)*
-
-SolutionUnitSystem property.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="Solution.IOBound"></a>
-
-### *property* Solution.IOBound *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
-
-IOBound property.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="Solution.IOWrite"></a>
-
-### *property* Solution.IOWrite *: System.Double | [None](https://docs.python.org/3/library/constants.html#None)*
-
-IOWrite property.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="Solution.IORead"></a>
-
-### *property* Solution.IORead *: System.Double | [None](https://docs.python.org/3/library/constants.html#None)*
-
-IORead property.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="Solution.MSUPHarmonicAnalysis"></a>
-
-### *property* Solution.MSUPHarmonicAnalysis *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
-
-MSUPHarmonicAnalysis property.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="Solution.TimeToCombineDistributedFiles"></a>
-
-### *property* Solution.TimeToCombineDistributedFiles *: System.Double | [None](https://docs.python.org/3/library/constants.html#None)*
-
-TimeToCombineDistributedFiles property.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="Solution.SolverData"></a>
-
-### *property* Solution.SolverData *: System.Object | [None](https://docs.python.org/3/library/constants.html#None)*
-
-SolverData property.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="Solution.DateOfRun"></a>
-
-### *property* Solution.DateOfRun *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
-
-DateOfRun property.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="Solution.TimeOfRun"></a>
-
-### *property* Solution.TimeOfRun *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
-
-TimeOfRun property.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="Solution.SolutionTrackingVectorLength"></a>
-
-### *property* Solution.SolutionTrackingVectorLength *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
-
-SolutionTrackingVectorLength property.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="Solution.ResultTrackingVectorLength"></a>
-
-### *property* Solution.ResultTrackingVectorLength *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
-
-ResultTrackingVectorLength property.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="Solution.ResultFilePath"></a>
-
-### *property* Solution.ResultFilePath *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Get the result file full path.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="Solution.NumberOfDOF"></a>
-
-### *property* Solution.NumberOfDOF *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Get the Number of DOF.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="Solution.SparseMode"></a>
-
-### *property* Solution.SparseMode *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Get the Sparse Mode value.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="Solution.SkipSolveCommand"></a>
-
-### *property* Solution.SkipSolveCommand *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the flag to avoid issuing the solve command in the MAPDL solver.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="Solution.InternalObject"></a>
-
-### *property* Solution.InternalObject *: Ansys.Common.Interop.DSObjectsAuto.IDSAnswerSetAuto | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets the internal object. For advanced usage only.
+Gets the list of associated comments.
 
 <!-- !! processed by numpydoc !! -->
 
@@ -843,11 +463,27 @@ Gets or sets the CyclicSectorDisplayRangeBegin.
 
 <!-- !! processed by numpydoc !! -->
 
-<a id="Solution.NumberofSectors"></a>
+<a id="Solution.DataModelObjectCategory"></a>
 
-### *property* Solution.NumberofSectors *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Solution.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets or sets the NumberofSectors.
+Gets the current DataModelObject’s category.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="Solution.DateOfRun"></a>
+
+### *property* Solution.DateOfRun *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+
+DateOfRun property.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="Solution.EigenSolverType"></a>
+
+### *property* Solution.EigenSolverType *: [Ansys.Mechanical.DataModel.Enums.EigenSolverType](../../../Mechanical/DataModel/Enums/EigenSolverType.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.EigenSolverType) | [None](https://docs.python.org/3/library/constants.html#None)*
+
+EigenSolverType property.
 
 <!-- !! processed by numpydoc !! -->
 
@@ -859,6 +495,214 @@ Gets or sets the ElapsedRunTime.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="Solution.ElapsedTime"></a>
+
+### *property* Solution.ElapsedTime *: System.Double | [None](https://docs.python.org/3/library/constants.html#None)*
+
+ElapsedTime property.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="Solution.ElementLoadBalRatio"></a>
+
+### *property* Solution.ElementLoadBalRatio *: System.Double | [None](https://docs.python.org/3/library/constants.html#None)*
+
+ElementLoadBalRatio property.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="Solution.ElementSelection"></a>
+
+### *property* Solution.ElementSelection *: [Ansys.Mechanical.DataModel.Enums.ConvergenceControlType](../../../Mechanical/DataModel/Enums/ConvergenceControlType.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.ConvergenceControlType) | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the ElementSelection.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="Solution.Elements"></a>
+
+### *property* Solution.Elements *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Elements property.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="Solution.EquationSolverType"></a>
+
+### *property* Solution.EquationSolverType *: [Ansys.Mechanical.DataModel.Enums.EquationSolverType](../../../Mechanical/DataModel/Enums/EquationSolverType.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.EquationSolverType) | [None](https://docs.python.org/3/library/constants.html#None)*
+
+EquationSolverType property.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="Solution.ExportTopologyFile"></a>
+
+### *property* Solution.ExportTopologyFile *: [Ansys.Mechanical.DataModel.Enums.ExportTopologyFileOption](../../../Mechanical/DataModel/Enums/ExportTopologyFileOption.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.ExportTopologyFileOption) | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the ExportTopologyFile.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="Solution.Figures"></a>
+
+### *property* Solution.Figures *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Figure](../../../../../v241/Ansys/ACT/Automation/Mechanical/Figure.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets the list of associated figures.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="Solution.GPUType"></a>
+
+### *property* Solution.GPUType *: Ansys.Common.Interop.DSObjectTypes.DSGPUType | [None](https://docs.python.org/3/library/constants.html#None)*
+
+GPUType property.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="Solution.GpuAcceleration"></a>
+
+### *property* Solution.GpuAcceleration *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+
+GpuAcceleration property.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="Solution.IOBound"></a>
+
+### *property* Solution.IOBound *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+
+IOBound property.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="Solution.IORead"></a>
+
+### *property* Solution.IORead *: System.Double | [None](https://docs.python.org/3/library/constants.html#None)*
+
+IORead property.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="Solution.IOWrite"></a>
+
+### *property* Solution.IOWrite *: System.Double | [None](https://docs.python.org/3/library/constants.html#None)*
+
+IOWrite property.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="Solution.Images"></a>
+
+### *property* Solution.Images *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Image](../../../../../v241/Ansys/ACT/Automation/Mechanical/Image.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets the list of associated images.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="Solution.InternalObject"></a>
+
+### *property* Solution.InternalObject *: Ansys.Common.Interop.DSObjectsAuto.IDSAnswerSetAuto | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets the internal object. For advanced usage only.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="Solution.IsAutoHybridParallel"></a>
+
+### *property* Solution.IsAutoHybridParallel *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Returns if Hybrid Parallel was turned on by APDL or not (i.e. Automatic Hybrid Parallel)
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="Solution.IsDataExtractionComplete"></a>
+
+### *property* Solution.IsDataExtractionComplete *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+
+IsDataExtractionComplete property.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="Solution.IsDistributedSolution"></a>
+
+### *property* Solution.IsDistributedSolution *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+
+IsDistributedSolution property.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="Solution.IsEigenSolver"></a>
+
+### *property* Solution.IsEigenSolver *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+
+IsEigenSolver property.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="Solution.IsGPUAccelerationRequested"></a>
+
+### *property* Solution.IsGPUAccelerationRequested *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+
+IsGPUAccelerationRequested property.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="Solution.IsHybridParallelSolution"></a>
+
+### *property* Solution.IsHybridParallelSolution *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+
+IsHybridParallelSolution property.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="Solution.IsUnsymmetricMatrixSolve"></a>
+
+### *property* Solution.IsUnsymmetricMatrixSolve *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+
+IsUnsymmetricMatrixSolve property.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="Solution.License"></a>
+
+### *property* Solution.License *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+
+License property.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="Solution.LicenseCoresAvailable"></a>
+
+### *property* Solution.LicenseCoresAvailable *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+
+LicenseCoresAvailable property.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="Solution.MPIType"></a>
+
+### *property* Solution.MPIType *: [Ansys.Mechanical.DataModel.Enums.MPIType](../../../Mechanical/DataModel/Enums/MPIType.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.MPIType) | [None](https://docs.python.org/3/library/constants.html#None)*
+
+MPIType property.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="Solution.MSUPHarmonicAnalysis"></a>
+
+### *property* Solution.MSUPHarmonicAnalysis *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+
+MSUPHarmonicAnalysis property.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="Solution.MainThreadCPUTime"></a>
+
+### *property* Solution.MainThreadCPUTime *: System.Double | [None](https://docs.python.org/3/library/constants.html#None)*
+
+MainThreadCPUTime property.
+
+<!-- !! processed by numpydoc !! -->
+
 <a id="Solution.MaximumRefinementLoops"></a>
 
 ### *property* Solution.MaximumRefinementLoops *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
@@ -867,11 +711,123 @@ Gets or sets the MaximumRefinementLoops.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="Solution.MemoryAvailable"></a>
+
+### *property* Solution.MemoryAvailable *: System.Double | [None](https://docs.python.org/3/library/constants.html#None)*
+
+MemoryAvailable property.
+
+<!-- !! processed by numpydoc !! -->
+
 <a id="Solution.MemoryUsed"></a>
 
 ### *property* Solution.MemoryUsed *: System.Double | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the MemoryUsed.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="Solution.MeshSource"></a>
+
+### *property* Solution.MeshSource *: [Ansys.Mechanical.DataModel.Enums.MeshSourceType](../../../Mechanical/DataModel/Enums/MeshSourceType.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.MeshSourceType) | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the MeshSource.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="Solution.Nodes"></a>
+
+### *property* Solution.Nodes *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Nodes property.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="Solution.NumCoresAvailable"></a>
+
+### *property* Solution.NumCoresAvailable *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+
+NumCoresAvailable property.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="Solution.NumGPURequested"></a>
+
+### *property* Solution.NumGPURequested *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+
+NumGPURequested property.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="Solution.NumMachinesRequested"></a>
+
+### *property* Solution.NumMachinesRequested *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+
+NumMachinesRequested property.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="Solution.NumProcRequested"></a>
+
+### *property* Solution.NumProcRequested *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+
+NumProcRequested property.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="Solution.NumVirtualCoresAvailable"></a>
+
+### *property* Solution.NumVirtualCoresAvailable *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+
+NumVirtualCoresAvailable property.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="Solution.NumberOfDOF"></a>
+
+### *property* Solution.NumberOfDOF *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Get the Number of DOF.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="Solution.NumberOfProcessesRequested"></a>
+
+### *property* Solution.NumberOfProcessesRequested *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+
+NumberOfProcessesRequested property.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="Solution.NumberofSectors"></a>
+
+### *property* Solution.NumberofSectors *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the NumberofSectors.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="Solution.OperatingSystem"></a>
+
+### *property* Solution.OperatingSystem *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+
+OperatingSystem property.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="Solution.ProcessorModel"></a>
+
+### *property* Solution.ProcessorModel *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+
+ProcessorModel property.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="Solution.Properties"></a>
+
+### *property* Solution.Properties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets the list of properties for this object.
 
 <!-- !! processed by numpydoc !! -->
 
@@ -899,6 +855,14 @@ Gets the ResultFileName.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="Solution.ResultFilePath"></a>
+
+### *property* Solution.ResultFilePath *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Get the result file full path.
+
+<!-- !! processed by numpydoc !! -->
+
 <a id="Solution.ResultFileSize"></a>
 
 ### *property* Solution.ResultFileSize *: System.Double | [None](https://docs.python.org/3/library/constants.html#None)*
@@ -915,43 +879,107 @@ Gets the ResultFileTimestamp.
 
 <!-- !! processed by numpydoc !! -->
 
-<a id="Solution.ExportTopologyFile"></a>
-
-### *property* Solution.ExportTopologyFile *: [Ansys.Mechanical.DataModel.Enums.ExportTopologyFileOption](../../../../../v241/Ansys/Mechanical/DataModel/Enums/ExportTopologyFileOption.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.ExportTopologyFileOption) | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the ExportTopologyFile.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="Solution.MeshSource"></a>
-
-### *property* Solution.MeshSource *: [Ansys.Mechanical.DataModel.Enums.MeshSourceType](../../../../../v241/Ansys/Mechanical/DataModel/Enums/MeshSourceType.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.MeshSourceType) | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the MeshSource.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="Solution.ElementSelection"></a>
-
-### *property* Solution.ElementSelection *: [Ansys.Mechanical.DataModel.Enums.ConvergenceControlType](../../../../../v241/Ansys/Mechanical/DataModel/Enums/ConvergenceControlType.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.ConvergenceControlType) | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the ElementSelection.
-
-<!-- !! processed by numpydoc !! -->
-
 <a id="Solution.ResultFileUnitSystem"></a>
 
-### *property* Solution.ResultFileUnitSystem *: [Ansys.Mechanical.DataModel.Enums.WBUnitSystemType](../../../../../v241/Ansys/Mechanical/DataModel/Enums/WBUnitSystemType.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.WBUnitSystemType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Solution.ResultFileUnitSystem *: [Ansys.Mechanical.DataModel.Enums.WBUnitSystemType](../../../Mechanical/DataModel/Enums/WBUnitSystemType.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.WBUnitSystemType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the ResultFileUnitSystem.
 
 <!-- !! processed by numpydoc !! -->
 
-<a id="Solution.CalculateBeamSectionResults"></a>
+<a id="Solution.ResultTrackingVectorLength"></a>
 
-### *property* Solution.CalculateBeamSectionResults *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Solution.ResultTrackingVectorLength *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets or sets the CalculateBeamSectionResults.
+ResultTrackingVectorLength property.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="Solution.SkipSolveCommand"></a>
+
+### *property* Solution.SkipSolveCommand *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the flag to avoid issuing the solve command in the MAPDL solver.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="Solution.SolutionInformation"></a>
+
+### *property* Solution.SolutionInformation *: [Ansys.ACT.Automation.Mechanical.SolutionInformation](SolutionInformation.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.SolutionInformation) | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets the SolutionInformation.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="Solution.SolutionTrackingVectorLength"></a>
+
+### *property* Solution.SolutionTrackingVectorLength *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+
+SolutionTrackingVectorLength property.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="Solution.SolutionUnitSystem"></a>
+
+### *property* Solution.SolutionUnitSystem *: Ansys.ACT.Interfaces.Common.MechanicalUnitSystem | [None](https://docs.python.org/3/library/constants.html#None)*
+
+SolutionUnitSystem property.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="Solution.SolverData"></a>
+
+### *property* Solution.SolverData *: System.Object | [None](https://docs.python.org/3/library/constants.html#None)*
+
+SolverData property.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="Solution.SolverType"></a>
+
+### *property* Solution.SolverType *: [Ansys.Mechanical.DataModel.Enums.SolverType](../../../Mechanical/DataModel/Enums/SolverType.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.SolverType) | [None](https://docs.python.org/3/library/constants.html#None)*
+
+SolverType property.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="Solution.SparseMode"></a>
+
+### *property* Solution.SparseMode *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Get the Sparse Mode value.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="Solution.Status"></a>
+
+### *property* Solution.Status *: [Ansys.Mechanical.DataModel.Enums.SolutionStatusType](../../../Mechanical/DataModel/Enums/SolutionStatusType.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.SolutionStatusType) | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets the Status.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="Solution.ThreadsPerProcessRequested"></a>
+
+### *property* Solution.ThreadsPerProcessRequested *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+
+ThreadsPerProcessRequested property.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="Solution.TimeOfRun"></a>
+
+### *property* Solution.TimeOfRun *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+
+TimeOfRun property.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="Solution.TimeToCombineDistributedFiles"></a>
+
+### *property* Solution.TimeToCombineDistributedFiles *: System.Double | [None](https://docs.python.org/3/library/constants.html#None)*
+
+TimeToCombineDistributedFiles property.
 
 <!-- !! processed by numpydoc !! -->
 
@@ -963,59 +991,11 @@ Gets or sets the TopologyResult.
 
 <!-- !! processed by numpydoc !! -->
 
-<a id="Solution.DataModelObjectCategory"></a>
+<a id="Solution.TotalMemoryUsed"></a>
 
-### *property* Solution.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../v241/Ansys/Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Solution.TotalMemoryUsed *: System.Double | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets the current DataModelObject's category.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="Solution.Children"></a>
-
-### *property* Solution.Children *: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets the list of children.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="Solution.Comments"></a>
-
-### *property* Solution.Comments *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Comment](../../../../../v241/Ansys/ACT/Automation/Mechanical/Comment.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets the list of associated comments.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="Solution.Figures"></a>
-
-### *property* Solution.Figures *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Figure](../../../../../v241/Ansys/ACT/Automation/Mechanical/Figure.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets the list of associated figures.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="Solution.Images"></a>
-
-### *property* Solution.Images *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Image](../../../../../v241/Ansys/ACT/Automation/Mechanical/Image.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets the list of associated images.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="id0"></a>
-
-### *property* Solution.InternalObject *: System.Object | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets the internal object. For advanced usage only.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="Solution.Properties"></a>
-
-### *property* Solution.Properties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets the list of properties for this object.
+TotalMemoryUsed property.
 
 <!-- !! processed by numpydoc !! -->
 
@@ -1027,335 +1007,23 @@ Gets the list of properties that are visible for this object.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="Solution.WorkingDir"></a>
+
+### *property* Solution.WorkingDir *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets the WorkingDir.
+
+<!-- !! processed by numpydoc !! -->
+
 <a id="method-detail"></a>
 
 ## Method detail
 
-<a id="Solution.Solve"></a>
+<a id="Solution.Activate"></a>
 
-### Solution.Solve(wait: System.Boolean, config: System.String)
+### Solution.Activate()
 
-Run the Solve action.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="id1"></a>
-
-### Solution.Solve(wait: System.Boolean, config: [Ansys.ACT.Mechanical.Application.SolveProcessSettings.SolveConfiguration](../../../../../v241/Ansys/ACT/Mechanical/Application/SolveProcessSettings/SolveConfiguration.md#ansys.mechanical.stubs.v241.Ansys.ACT.Mechanical.Application.SolveProcessSettings.SolveConfiguration))
-
-Run the Solve action.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="Solution.EvaluateAllResults"></a>
-
-### Solution.EvaluateAllResults()
-
-Run the EvaluateAllResults action.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="Solution.GetResults"></a>
-
-### Solution.GetResults()
-
-Gets the Results from the server.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="Solution.ClearGeneratedData"></a>
-
-### Solution.ClearGeneratedData()
-
-Run the ClearGeneratedData action.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="Solution.IsResultFileSameAsLoaded"></a>
-
-### Solution.IsResultFileSameAsLoaded(filepath: System.String)
-
-Checks if the given result file is same the loaded result file
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="Solution.RelinkResultFile"></a>
-
-### Solution.RelinkResultFile(filepath: System.String)
-
-Relink the result file. This action allows repairing the result file referencing without altering the generated result data.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="Solution.IsResultFileChanged"></a>
-
-### Solution.IsResultFileChanged()
-
-Checks if the referenced result file has been changed.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="Solution.ReloadResultFile"></a>
-
-### Solution.ReloadResultFile()
-
-Reload the result file. For results-only systems, this action reloads the result mesh data and resets all result scopings.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="Solution.OpenSolverFilesDirectory"></a>
-
-### Solution.OpenSolverFilesDirectory()
-
-Run the OpenSolverFilesDirectory action.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="Solution.ReadGivenAnsysResultFile"></a>
-
-### Solution.ReadGivenAnsysResultFile(resultFilePath: System.String, unitSystemID: [Ansys.Mechanical.DataModel.Enums.UnitSystemIDType](../../../../../v241/Ansys/Mechanical/DataModel/Enums/UnitSystemIDType.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.UnitSystemIDType))
-
-Run the given Ansys ReadResults action.///
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="Solution.ReadGivenAnsysResultFileByReference"></a>
-
-### Solution.ReadGivenAnsysResultFileByReference(resultFilePath: System.String, unitSystemID: [Ansys.Mechanical.DataModel.Enums.UnitSystemIDType](../../../../../v241/Ansys/Mechanical/DataModel/Enums/UnitSystemIDType.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.UnitSystemIDType))
-
-Run the given Ansys ReadResults by reference action.///
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="Solution.ReadAnsysResultFile"></a>
-
-### Solution.ReadAnsysResultFile()
-
-Run the Ansys ReadResults action.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="Solution.ExtractSolutionStatistics"></a>
-
-### Solution.ExtractSolutionStatistics()
-
-ExtractSolutionStatistics method.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="Solution.AddContactTool"></a>
-
-### Solution.AddContactTool()
-
-Creates a new ContactTool
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="Solution.AddBoltTool"></a>
-
-### Solution.AddBoltTool()
-
-Creates a new BoltTool
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="Solution.AddForceSummationProbe"></a>
-
-### Solution.AddForceSummationProbe()
-
-Creates a new ForceSummationProbe
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="Solution.AddTorqueProbe"></a>
-
-### Solution.AddTorqueProbe()
-
-Creates a new TorqueProbe
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="Solution.AddResponsePSDTool"></a>
-
-### Solution.AddResponsePSDTool()
-
-Creates a new ResponsePSDTool
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="Solution.AddForceReactionsForContactRegions"></a>
-
-### Solution.AddForceReactionsForContactRegions(contactRegionObjIds: System.Collections.Generic.IEnumerable[System.Int32])
-
-AddForceReactionsForContactRegions method.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="Solution.AddMomentReactionsForContactRegions"></a>
-
-### Solution.AddMomentReactionsForContactRegions(contactRegionObjIds: System.Collections.Generic.IEnumerable[System.Int32])
-
-AddMomentReactionsForContactRegions method.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="Solution.AddReactionsForContactRegions"></a>
-
-### Solution.AddReactionsForContactRegions(contactRegionObjIds: System.Collections.Generic.IEnumerable[System.Int32])
-
-AddReactionsForContactRegions method.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="Solution.ValueForSolutionTracking"></a>
-
-### Solution.ValueForSolutionTracking(index: System.UInt32, key: System.String)
-
-ValueForSolutionTracking method.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="Solution.DeleteRow"></a>
-
-### Solution.DeleteRow(index: System.UInt32)
-
-DeleteRow method.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="Solution.ValueForResultTracking"></a>
-
-### Solution.ValueForResultTracking(index: System.UInt32, key: System.String)
-
-ValueForResultTracking method.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="Solution.FormatValue"></a>
-
-### Solution.FormatValue(value: System.Double, unitType: System.Int32)
-
-FormatValue method.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="Solution.AddGroupedScopedCustomResult"></a>
-
-### Solution.AddGroupedScopedCustomResult(selectedPlies: System.Collections.Generic.IEnumerable[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject])
-
-AddGroupedScopedCustomResult method.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="Solution.AddGroupedScopedACPResults"></a>
-
-### Solution.AddGroupedScopedACPResults(resultType: [Ansys.Mechanical.DataModel.Enums.ResultType](../../../../../v241/Ansys/Mechanical/DataModel/Enums/ResultType.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.ResultType), selectedPlies: System.Collections.Generic.IEnumerable[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject])
-
-AddGroupedScopedACPResults method.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="Solution.AddFatigueTool"></a>
-
-### Solution.AddFatigueTool()
-
-AddFatigueTool method.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="Solution.CreateResultsAtAllSets"></a>
-
-### Solution.CreateResultsAtAllSets(resId: System.UInt32)
-
-CreateResultsAtAllSets method.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="Solution.EvaluateAllContactTrackers"></a>
-
-### Solution.EvaluateAllContactTrackers()
-
-EvaluateAllContactTrackers method.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="Solution.EvaluateContactTracker"></a>
-
-### Solution.EvaluateContactTracker()
-
-EvaluateContactTracker method.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="Solution.ExecutePostCommands"></a>
-
-### Solution.ExecutePostCommands()
-
-Run Execute Post Commands for all post command objects.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="id2"></a>
-
-### Solution.ExecutePostCommands(activeObjs: System.Collections.Generic.IEnumerable[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject])
-
-ExecutePostCommands method.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="Solution.FetchRemoteResults"></a>
-
-### Solution.FetchRemoteResults()
-
-FetchRemoteResults method.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="Solution.GenerateAdaptedMesh"></a>
-
-### Solution.GenerateAdaptedMesh()
-
-GenerateAdaptedMesh method.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="Solution.ExportSubstructure"></a>
-
-### Solution.ExportSubstructure(exportFileName: System.String, exportFormat: [Ansys.Mechanical.DataModel.MechanicalEnums.Substructure.ExportFormat](../../../Mechanical/DataModel/MechanicalEnums/Substructure/ExportFormat.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.MechanicalEnums.Substructure.ExportFormat), exportSettings: [Ansys.ACT.Automation.Mechanical.Substructure.ExportSettings](Substructure/ExportSettings.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Substructure.ExportSettings))
-
-Export Substructure to cpa file.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="Solution.DisconnectRemoteJob"></a>
-
-### Solution.DisconnectRemoteJob()
-
-DisconnectRemoteJob method.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="Solution.ReconnectRemoteJob"></a>
-
-### Solution.ReconnectRemoteJob()
-
-ReconnectRemoteJob method.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="Solution.ClearRemoteStorageData"></a>
-
-### Solution.ClearRemoteStorageData()
-
-ClearRemoteStorageData method.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="Solution.AddLineChart2D"></a>
-
-### Solution.AddLineChart2D()
-
-Creates a new LineChart2D
+Activate the current object.
 
 <!-- !! processed by numpydoc !! -->
 
@@ -1399,11 +1067,11 @@ Creates a new AccumulatedEquivalentPlasticStrain
 
 <!-- !! processed by numpydoc !! -->
 
-<a id="Solution.AddAcousticAbsorptionCoefficient"></a>
+<a id="Solution.AddAcousticAWeightedSPLFrequencyResponse"></a>
 
-### Solution.AddAcousticAbsorptionCoefficient()
+### Solution.AddAcousticAWeightedSPLFrequencyResponse()
 
-Creates a new AcousticAbsorptionCoefficient
+Creates a new AcousticAWeightedSPLFrequencyResponse
 
 <!-- !! processed by numpydoc !! -->
 
@@ -1415,11 +1083,11 @@ Creates a new AcousticAWeightedSoundPressureLevel
 
 <!-- !! processed by numpydoc !! -->
 
-<a id="Solution.AddAcousticAWeightedSPLFrequencyResponse"></a>
+<a id="Solution.AddAcousticAbsorptionCoefficient"></a>
 
-### Solution.AddAcousticAWeightedSPLFrequencyResponse()
+### Solution.AddAcousticAbsorptionCoefficient()
 
-Creates a new AcousticAWeightedSPLFrequencyResponse
+Creates a new AcousticAbsorptionCoefficient
 
 <!-- !! processed by numpydoc !! -->
 
@@ -1439,73 +1107,9 @@ Creates a new AcousticDirectionalVelocityResult
 
 <!-- !! processed by numpydoc !! -->
 
-<a id="Solution.AddAcousticFarFieldSPL"></a>
-
-### Solution.AddAcousticFarFieldSPL()
-
-Creates a new AcousticFarFieldResult
-
-<!-- !! processed by numpydoc !! -->
-
 <a id="Solution.AddAcousticFarFieldAWeightedSPL"></a>
 
 ### Solution.AddAcousticFarFieldAWeightedSPL()
-
-Creates a new AcousticFarFieldResult
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="Solution.AddAcousticFarFieldMaximumPressure"></a>
-
-### Solution.AddAcousticFarFieldMaximumPressure()
-
-Creates a new AcousticFarFieldResult
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="Solution.AddAcousticFarFieldPhase"></a>
-
-### Solution.AddAcousticFarFieldPhase()
-
-Creates a new AcousticFarFieldResult
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="Solution.AddAcousticFarFieldDirectivity"></a>
-
-### Solution.AddAcousticFarFieldDirectivity()
-
-Creates a new AcousticFarFieldResult
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="Solution.AddAcousticFarFieldMaximumScatteredPressure"></a>
-
-### Solution.AddAcousticFarFieldMaximumScatteredPressure()
-
-Creates a new AcousticFarFieldResult
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="Solution.AddAcousticFarFieldTargetStrength"></a>
-
-### Solution.AddAcousticFarFieldTargetStrength()
-
-Creates a new AcousticFarFieldResult
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="Solution.AddAcousticFarFieldSoundPowerLevel"></a>
-
-### Solution.AddAcousticFarFieldSoundPowerLevel()
-
-Creates a new AcousticFarFieldResult
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="Solution.AddAcousticFarFieldSPLMic"></a>
-
-### Solution.AddAcousticFarFieldSPLMic()
 
 Creates a new AcousticFarFieldResult
 
@@ -1519,9 +1123,41 @@ Creates a new AcousticFarFieldResult
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="Solution.AddAcousticFarFieldDirectivity"></a>
+
+### Solution.AddAcousticFarFieldDirectivity()
+
+Creates a new AcousticFarFieldResult
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="Solution.AddAcousticFarFieldMaximumPressure"></a>
+
+### Solution.AddAcousticFarFieldMaximumPressure()
+
+Creates a new AcousticFarFieldResult
+
+<!-- !! processed by numpydoc !! -->
+
 <a id="Solution.AddAcousticFarFieldMaximumPressureMic"></a>
 
 ### Solution.AddAcousticFarFieldMaximumPressureMic()
+
+Creates a new AcousticFarFieldResult
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="Solution.AddAcousticFarFieldMaximumScatteredPressure"></a>
+
+### Solution.AddAcousticFarFieldMaximumScatteredPressure()
+
+Creates a new AcousticFarFieldResult
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="Solution.AddAcousticFarFieldPhase"></a>
+
+### Solution.AddAcousticFarFieldPhase()
 
 Creates a new AcousticFarFieldResult
 
@@ -1535,11 +1171,19 @@ Creates a new AcousticFarFieldResult
 
 <!-- !! processed by numpydoc !! -->
 
-<a id="Solution.AddAcousticFarFieldSoundPowerLevelWaterfallDiagram"></a>
+<a id="Solution.AddAcousticFarFieldSPL"></a>
 
-### Solution.AddAcousticFarFieldSoundPowerLevelWaterfallDiagram()
+### Solution.AddAcousticFarFieldSPL()
 
-Creates a new AcousticFarFieldSoundPowerLevelWaterfallDiagram
+Creates a new AcousticFarFieldResult
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="Solution.AddAcousticFarFieldSPLMic"></a>
+
+### Solution.AddAcousticFarFieldSPLMic()
+
+Creates a new AcousticFarFieldResult
 
 <!-- !! processed by numpydoc !! -->
 
@@ -1548,6 +1192,30 @@ Creates a new AcousticFarFieldSoundPowerLevelWaterfallDiagram
 ### Solution.AddAcousticFarFieldSPLMicWaterfallDiagram()
 
 Creates a new AcousticFarFieldSPLMicWaterfallDiagram
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="Solution.AddAcousticFarFieldSoundPowerLevel"></a>
+
+### Solution.AddAcousticFarFieldSoundPowerLevel()
+
+Creates a new AcousticFarFieldResult
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="Solution.AddAcousticFarFieldSoundPowerLevelWaterfallDiagram"></a>
+
+### Solution.AddAcousticFarFieldSoundPowerLevelWaterfallDiagram()
+
+Creates a new AcousticFarFieldSoundPowerLevelWaterfallDiagram
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="Solution.AddAcousticFarFieldTargetStrength"></a>
+
+### Solution.AddAcousticFarFieldTargetStrength()
+
+Creates a new AcousticFarFieldResult
 
 <!-- !! processed by numpydoc !! -->
 
@@ -1623,19 +1291,19 @@ Creates a new AcousticReturnLoss
 
 <!-- !! processed by numpydoc !! -->
 
-<a id="Solution.AddAcousticSoundPressureLevel"></a>
-
-### Solution.AddAcousticSoundPressureLevel()
-
-Creates a new AcousticSoundPressureLevel
-
-<!-- !! processed by numpydoc !! -->
-
 <a id="Solution.AddAcousticSPLFrequencyResponse"></a>
 
 ### Solution.AddAcousticSPLFrequencyResponse()
 
 Creates a new AcousticSPLFrequencyResponse
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="Solution.AddAcousticSoundPressureLevel"></a>
+
+### Solution.AddAcousticSoundPressureLevel()
+
+Creates a new AcousticSoundPressureLevel
 
 <!-- !! processed by numpydoc !! -->
 
@@ -1727,6 +1395,14 @@ Creates a new BoltPretensionProbe
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="Solution.AddBoltTool"></a>
+
+### Solution.AddBoltTool()
+
+Creates a new BoltTool
+
+<!-- !! processed by numpydoc !! -->
+
 <a id="Solution.AddCampbellDiagram"></a>
 
 ### Solution.AddCampbellDiagram()
@@ -1759,6 +1435,14 @@ Creates a new CommandSnippet
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="Solution.AddComment"></a>
+
+### Solution.AddComment()
+
+Creates a new child Comment.
+
+<!-- !! processed by numpydoc !! -->
+
 <a id="Solution.AddCompositeCriterion"></a>
 
 ### Solution.AddCompositeCriterion()
@@ -1788,6 +1472,14 @@ Creates a new CompositeSamplingPointTool
 ### Solution.AddContactDistanceProbe()
 
 Creates a new ContactDistanceProbe
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="Solution.AddContactTool"></a>
+
+### Solution.AddContactTool()
+
+Creates a new ContactTool
 
 <!-- !! processed by numpydoc !! -->
 
@@ -1951,62 +1643,6 @@ Creates a new DirectionalShearForce
 
 <!-- !! processed by numpydoc !! -->
 
-<a id="Solution.AddShearMomentDiagramMY"></a>
-
-### Solution.AddShearMomentDiagramMY()
-
-Creates a new DirectionalShearMomentDiagram
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="Solution.AddShearMomentDiagramMZ"></a>
-
-### Solution.AddShearMomentDiagramMZ()
-
-Creates a new DirectionalShearMomentDiagram
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="Solution.AddShearMomentDiagramUY"></a>
-
-### Solution.AddShearMomentDiagramUY()
-
-Creates a new DirectionalShearMomentDiagram
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="Solution.AddShearMomentDiagramUZ"></a>
-
-### Solution.AddShearMomentDiagramUZ()
-
-Creates a new DirectionalShearMomentDiagram
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="Solution.AddShearMomentDiagramVY"></a>
-
-### Solution.AddShearMomentDiagramVY()
-
-Creates a new DirectionalShearMomentDiagram
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="Solution.AddShearMomentDiagramVZ"></a>
-
-### Solution.AddShearMomentDiagramVZ()
-
-Creates a new DirectionalShearMomentDiagram
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="Solution.AddThermalStrain"></a>
-
-### Solution.AddThermalStrain()
-
-Creates a new DirectionalThermalStrain
-
-<!-- !! processed by numpydoc !! -->
-
 <a id="Solution.AddDirectionalTorsionalMoment"></a>
 
 ### Solution.AddDirectionalTorsionalMoment()
@@ -2084,14 +1720,6 @@ Creates a new ElectricPotential
 ### Solution.AddElectricVoltage()
 
 Creates a new ElectricVoltage
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="Solution.AddVoltageProbe"></a>
-
-### Solution.AddVoltageProbe()
-
-Creates a new ElectricVoltageProbe
 
 <!-- !! processed by numpydoc !! -->
 
@@ -2287,6 +1915,14 @@ Creates a new ExpansionSettings
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="Solution.AddFatigueTool"></a>
+
+### Solution.AddFatigueTool()
+
+AddFatigueTool method.
+
+<!-- !! processed by numpydoc !! -->
+
 <a id="Solution.AddFiberCompressiveDamageVariable"></a>
 
 ### Solution.AddFiberCompressiveDamageVariable()
@@ -2324,6 +1960,14 @@ Creates a new FiberTensileFailureCriterion
 ### Solution.AddFieldIntensityProbe()
 
 Creates a new FieldIntensityProbe
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="Solution.AddFigure"></a>
+
+### Solution.AddFigure()
+
+Creates a new child Figure.
 
 <!-- !! processed by numpydoc !! -->
 
@@ -2391,6 +2035,22 @@ Creates a new ForceReactionFrequencyResponse
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="Solution.AddForceReactionsForContactRegions"></a>
+
+### Solution.AddForceReactionsForContactRegions(contactRegionObjIds: System.Collections.Generic.IEnumerable[System.Int32])
+
+AddForceReactionsForContactRegions method.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="Solution.AddForceSummationProbe"></a>
+
+### Solution.AddForceSummationProbe()
+
+Creates a new ForceSummationProbe
+
+<!-- !! processed by numpydoc !! -->
+
 <a id="Solution.AddFractureTool"></a>
 
 ### Solution.AddFractureTool()
@@ -2407,11 +2067,39 @@ Creates a new GeneralizedPlaneStrainProbe
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="Solution.AddGroupedScopedACPResults"></a>
+
+### Solution.AddGroupedScopedACPResults(resultType: [Ansys.Mechanical.DataModel.Enums.ResultType](../../../Mechanical/DataModel/Enums/ResultType.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.ResultType), selectedPlies: System.Collections.Generic.IEnumerable[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject])
+
+AddGroupedScopedACPResults method.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="Solution.AddGroupedScopedCustomResult"></a>
+
+### Solution.AddGroupedScopedCustomResult(selectedPlies: System.Collections.Generic.IEnumerable[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject])
+
+AddGroupedScopedCustomResult method.
+
+<!-- !! processed by numpydoc !! -->
+
 <a id="Solution.AddHeatFluxProbe"></a>
 
 ### Solution.AddHeatFluxProbe()
 
 Creates a new HeatFluxProbe
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="Solution.AddImage"></a>
+
+### Solution.AddImage(filePath: System.String)
+
+```text
+Creates a new child Image.
+If a filePath is provided, the image will be loaded from that file,
+if not, the image will be a screen capture of the Geometry window.
+```
 
 <!-- !! processed by numpydoc !! -->
 
@@ -2479,6 +2167,22 @@ Creates a new LatticeElementalDensity
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="Solution.AddLineChart2D"></a>
+
+### Solution.AddLineChart2D()
+
+Creates a new LineChart2D
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="Solution.AddLinePressureResult"></a>
+
+### Solution.AddLinePressureResult()
+
+Creates a new LinePressureResult
+
+<!-- !! processed by numpydoc !! -->
+
 <a id="Solution.AddLinearizedEquivalentStress"></a>
 
 ### Solution.AddLinearizedEquivalentStress()
@@ -2543,11 +2247,11 @@ Creates a new LinearizedStressIntensity
 
 <!-- !! processed by numpydoc !! -->
 
-<a id="Solution.AddLinePressureResult"></a>
+<a id="Solution.AddMCFWaterfallDiagram"></a>
 
-### Solution.AddLinePressureResult()
+### Solution.AddMCFWaterfallDiagram()
 
-Creates a new LinePressureResult
+Creates a new MCFWaterfallDiagram
 
 <!-- !! processed by numpydoc !! -->
 
@@ -2679,14 +2383,6 @@ Creates a new MaximumShearStress
 
 <!-- !! processed by numpydoc !! -->
 
-<a id="Solution.AddMCFWaterfallDiagram"></a>
-
-### Solution.AddMCFWaterfallDiagram()
-
-Creates a new MCFWaterfallDiagram
-
-<!-- !! processed by numpydoc !! -->
-
 <a id="Solution.AddMembraneStressEquivalent"></a>
 
 ### Solution.AddMembraneStressEquivalent()
@@ -2748,6 +2444,14 @@ Creates a new MinimumPrincipalStress
 ### Solution.AddMomentReaction()
 
 Creates a new MomentReaction
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="Solution.AddMomentReactionsForContactRegions"></a>
+
+### Solution.AddMomentReactionsForContactRegions(contactRegionObjIds: System.Collections.Generic.IEnumerable[System.Int32])
+
+AddMomentReactionsForContactRegions method.
 
 <!-- !! processed by numpydoc !! -->
 
@@ -2919,11 +2623,27 @@ Creates a new ReactionProbe
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="Solution.AddReactionsForContactRegions"></a>
+
+### Solution.AddReactionsForContactRegions(contactRegionObjIds: System.Collections.Generic.IEnumerable[System.Int32])
+
+AddReactionsForContactRegions method.
+
+<!-- !! processed by numpydoc !! -->
+
 <a id="Solution.AddResponsePSD"></a>
 
 ### Solution.AddResponsePSD()
 
 Creates a new ResponsePSD
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="Solution.AddResponsePSDTool"></a>
+
+### Solution.AddResponsePSDTool()
+
+Creates a new ResponsePSDTool
 
 <!-- !! processed by numpydoc !! -->
 
@@ -2988,6 +2708,78 @@ Creates a new ShearGasketPressure
 ### Solution.AddShearGasketTotalClosure()
 
 Creates a new ShearGasketTotalClosure
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="Solution.AddShearMomentDiagramMSUM"></a>
+
+### Solution.AddShearMomentDiagramMSUM()
+
+Creates a new TotalShearMomentDiagram
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="Solution.AddShearMomentDiagramMY"></a>
+
+### Solution.AddShearMomentDiagramMY()
+
+Creates a new DirectionalShearMomentDiagram
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="Solution.AddShearMomentDiagramMZ"></a>
+
+### Solution.AddShearMomentDiagramMZ()
+
+Creates a new DirectionalShearMomentDiagram
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="Solution.AddShearMomentDiagramUSUM"></a>
+
+### Solution.AddShearMomentDiagramUSUM()
+
+Creates a new TotalShearMomentDiagram
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="Solution.AddShearMomentDiagramUY"></a>
+
+### Solution.AddShearMomentDiagramUY()
+
+Creates a new DirectionalShearMomentDiagram
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="Solution.AddShearMomentDiagramUZ"></a>
+
+### Solution.AddShearMomentDiagramUZ()
+
+Creates a new DirectionalShearMomentDiagram
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="Solution.AddShearMomentDiagramVSUM"></a>
+
+### Solution.AddShearMomentDiagramVSUM()
+
+Creates a new TotalShearMomentDiagram
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="Solution.AddShearMomentDiagramVY"></a>
+
+### Solution.AddShearMomentDiagramVY()
+
+Creates a new DirectionalShearMomentDiagram
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="Solution.AddShearMomentDiagramVZ"></a>
+
+### Solution.AddShearMomentDiagramVZ()
+
+Creates a new DirectionalShearMomentDiagram
 
 <!-- !! processed by numpydoc !! -->
 
@@ -3111,14 +2903,6 @@ Creates a new StructuralStrainEnergy
 
 <!-- !! processed by numpydoc !! -->
 
-<a id="Solution.AddTemperatureProbe"></a>
-
-### Solution.AddTemperatureProbe()
-
-Creates a new TemperatureProbe
-
-<!-- !! processed by numpydoc !! -->
-
 <a id="Solution.AddTemperature"></a>
 
 ### Solution.AddTemperature()
@@ -3127,11 +2911,27 @@ Creates a new TemperatureResult
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="Solution.AddTemperatureProbe"></a>
+
+### Solution.AddTemperatureProbe()
+
+Creates a new TemperatureProbe
+
+<!-- !! processed by numpydoc !! -->
+
 <a id="Solution.AddThermalError"></a>
 
 ### Solution.AddThermalError()
 
 Creates a new ThermalError
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="Solution.AddThermalStrain"></a>
+
+### Solution.AddThermalStrain()
+
+Creates a new DirectionalThermalStrain
 
 <!-- !! processed by numpydoc !! -->
 
@@ -3156,6 +2956,14 @@ Creates a new TopologyDensity
 ### Solution.AddTopologyElementalDensity()
 
 Creates a new TopologyElementalDensity
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="Solution.AddTorqueProbe"></a>
+
+### Solution.AddTorqueProbe()
+
+Creates a new TorqueProbe
 
 <!-- !! processed by numpydoc !! -->
 
@@ -3252,30 +3060,6 @@ Creates a new TotalMagneticFluxDensity
 ### Solution.AddTotalShearForce()
 
 Creates a new TotalShearForce
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="Solution.AddShearMomentDiagramMSUM"></a>
-
-### Solution.AddShearMomentDiagramMSUM()
-
-Creates a new TotalShearMomentDiagram
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="Solution.AddShearMomentDiagramUSUM"></a>
-
-### Solution.AddShearMomentDiagramUSUM()
-
-Creates a new TotalShearMomentDiagram
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="Solution.AddShearMomentDiagramVSUM"></a>
-
-### Solution.AddShearMomentDiagramVSUM()
-
-Creates a new TotalShearMomentDiagram
 
 <!-- !! processed by numpydoc !! -->
 
@@ -3415,6 +3199,14 @@ Creates a new VoltageFrequencyResponse
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="Solution.AddVoltageProbe"></a>
+
+### Solution.AddVoltageProbe()
+
+Creates a new ElectricVoltageProbe
+
+<!-- !! processed by numpydoc !! -->
+
 <a id="Solution.AddVolume"></a>
 
 ### Solution.AddVolume()
@@ -3431,53 +3223,19 @@ Creates a new VolumeProbe
 
 <!-- !! processed by numpydoc !! -->
 
-<a id="Solution.GetChildren"></a>
+<a id="Solution.ClearGeneratedData"></a>
 
-### Solution.GetChildren(recurses: System.Boolean, children: System.Collections.Generic.IList[ChildrenType])
+### Solution.ClearGeneratedData()
 
-Gets the list of children, filtered by type.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="id3"></a>
-
-### Solution.GetChildren(category: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../v241/Ansys/Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory), recurses: System.Boolean, children: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject])
-
-Gets the list of children, filtered by type.
+Run the ClearGeneratedData action.
 
 <!-- !! processed by numpydoc !! -->
 
-<a id="Solution.AddComment"></a>
+<a id="Solution.ClearRemoteStorageData"></a>
 
-### Solution.AddComment()
+### Solution.ClearRemoteStorageData()
 
-Creates a new child Comment.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="Solution.AddFigure"></a>
-
-### Solution.AddFigure()
-
-Creates a new child Figure.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="Solution.AddImage"></a>
-
-### Solution.AddImage(filePath: System.String)
-
-Creates a new child Image.
-If a filePath is provided, the image will be loaded from that file,
-if not, the image will be a screen capture of the Geometry window.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="Solution.Activate"></a>
-
-### Solution.Activate()
-
-Activate the current object.
+ClearRemoteStorageData method.
 
 <!-- !! processed by numpydoc !! -->
 
@@ -3489,11 +3247,139 @@ Copies all visible properties from this object to another.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="Solution.CreateParameter"></a>
+
+### Solution.CreateParameter(propName: System.String)
+
+Creates a new parameter for a Property.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="Solution.CreateResultsAtAllSets"></a>
+
+### Solution.CreateResultsAtAllSets(resId: System.UInt32)
+
+CreateResultsAtAllSets method.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="Solution.DeleteRow"></a>
+
+### Solution.DeleteRow(index: System.UInt32)
+
+DeleteRow method.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="Solution.DisconnectRemoteJob"></a>
+
+### Solution.DisconnectRemoteJob()
+
+DisconnectRemoteJob method.
+
+<!-- !! processed by numpydoc !! -->
+
 <a id="Solution.Duplicate"></a>
 
 ### Solution.Duplicate()
 
 Creates a copy of the current DataModelObject.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="Solution.EvaluateAllContactTrackers"></a>
+
+### Solution.EvaluateAllContactTrackers()
+
+EvaluateAllContactTrackers method.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="Solution.EvaluateAllResults"></a>
+
+### Solution.EvaluateAllResults()
+
+Run the EvaluateAllResults action.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="Solution.EvaluateContactTracker"></a>
+
+### Solution.EvaluateContactTracker()
+
+EvaluateContactTracker method.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="Solution.ExecutePostCommands"></a>
+
+### Solution.ExecutePostCommands()
+
+Run Execute Post Commands for all post command objects.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="Solution.ExportSubstructure"></a>
+
+### Solution.ExportSubstructure(exportFileName: System.String, exportFormat: [Ansys.Mechanical.DataModel.MechanicalEnums.Substructure.ExportFormat](../../../Mechanical/DataModel/MechanicalEnums/Substructure/ExportFormat.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.MechanicalEnums.Substructure.ExportFormat), exportSettings: [Ansys.ACT.Automation.Mechanical.Substructure.ExportSettings](Substructure/ExportSettings.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Substructure.ExportSettings))
+
+Export Substructure to cpa file.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="Solution.ExtractSolutionStatistics"></a>
+
+### Solution.ExtractSolutionStatistics()
+
+ExtractSolutionStatistics method.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="Solution.FetchRemoteResults"></a>
+
+### Solution.FetchRemoteResults()
+
+FetchRemoteResults method.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="Solution.FormatValue"></a>
+
+### Solution.FormatValue(value: System.Double, unitType: System.Int32)
+
+FormatValue method.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="Solution.GenerateAdaptedMesh"></a>
+
+### Solution.GenerateAdaptedMesh()
+
+GenerateAdaptedMesh method.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="Solution.GetChildren"></a>
+
+### Solution.GetChildren(recurses: System.Boolean, children: System.Collections.Generic.IList[ChildrenType])
+
+Gets the list of children, filtered by type.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="Solution.GetParameter"></a>
+
+### Solution.GetParameter(propName: System.String)
+
+Gets the parameter corresponding to the given property.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="Solution.GetResults"></a>
+
+### Solution.GetResults()
+
+Gets the Results from the server.
 
 <!-- !! processed by numpydoc !! -->
 
@@ -3513,6 +3399,41 @@ Run the GroupSimilarObjects action.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="Solution.IsResultFileChanged"></a>
+
+### Solution.IsResultFileChanged()
+
+Checks if the referenced result file has been changed.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="Solution.IsResultFileSameAsLoaded"></a>
+
+### Solution.IsResultFileSameAsLoaded(filepath: System.String)
+
+Checks if the given result file is same the loaded result file
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="Solution.OpenSolverFilesDirectory"></a>
+
+### Solution.OpenSolverFilesDirectory()
+
+Run the OpenSolverFilesDirectory action.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="Solution.PropertyByAPIName"></a>
+
+### Solution.PropertyByAPIName(name: System.String)
+
+```text
+Get a property by its API name.
+If multiple properties have the same API Name, only the first property with that name will be returned.
+```
+
+<!-- !! processed by numpydoc !! -->
+
 <a id="Solution.PropertyByName"></a>
 
 ### Solution.PropertyByName(name: System.String)
@@ -3521,28 +3442,51 @@ Get a property by its unique name.
 
 <!-- !! processed by numpydoc !! -->
 
-<a id="Solution.PropertyByAPIName"></a>
+<a id="Solution.ReadAnsysResultFile"></a>
 
-### Solution.PropertyByAPIName(name: System.String)
+### Solution.ReadAnsysResultFile()
 
-Get a property by its API name.
-If multiple properties have the same API Name, only the first property with that name will be returned.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="Solution.CreateParameter"></a>
-
-### Solution.CreateParameter(propName: System.String)
-
-Creates a new parameter for a Property.
+Run the Ansys ReadResults action.
 
 <!-- !! processed by numpydoc !! -->
 
-<a id="Solution.GetParameter"></a>
+<a id="Solution.ReadGivenAnsysResultFile"></a>
 
-### Solution.GetParameter(propName: System.String)
+### Solution.ReadGivenAnsysResultFile(resultFilePath: System.String, unitSystemID: [Ansys.Mechanical.DataModel.Enums.UnitSystemIDType](../../../Mechanical/DataModel/Enums/UnitSystemIDType.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.UnitSystemIDType))
 
-Gets the parameter corresponding to the given property.
+Run the given Ansys ReadResults action.///
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="Solution.ReadGivenAnsysResultFileByReference"></a>
+
+### Solution.ReadGivenAnsysResultFileByReference(resultFilePath: System.String, unitSystemID: [Ansys.Mechanical.DataModel.Enums.UnitSystemIDType](../../../Mechanical/DataModel/Enums/UnitSystemIDType.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.UnitSystemIDType))
+
+Run the given Ansys ReadResults by reference action.///
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="Solution.ReconnectRemoteJob"></a>
+
+### Solution.ReconnectRemoteJob()
+
+ReconnectRemoteJob method.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="Solution.RelinkResultFile"></a>
+
+### Solution.RelinkResultFile(filepath: System.String)
+
+Relink the result file. This action allows repairing the result file referencing without altering the generated result data.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="Solution.ReloadResultFile"></a>
+
+### Solution.ReloadResultFile()
+
+Reload the result file. For results-only systems, this action reloads the result mesh data and resets all result scopings.
 
 <!-- !! processed by numpydoc !! -->
 
@@ -3551,6 +3495,30 @@ Gets the parameter corresponding to the given property.
 ### Solution.RemoveParameter(propName: System.String)
 
 Removes the parameter from the parameter set corresponding to the given property.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="Solution.Solve"></a>
+
+### Solution.Solve(wait: System.Boolean, config: System.String)
+
+Run the Solve action.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="Solution.ValueForResultTracking"></a>
+
+### Solution.ValueForResultTracking(index: System.UInt32, key: System.String)
+
+ValueForResultTracking method.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="Solution.ValueForSolutionTracking"></a>
+
+### Solution.ValueForSolutionTracking(index: System.UInt32, key: System.String)
+
+ValueForSolutionTracking method.
 
 <!-- !! processed by numpydoc !! -->
 

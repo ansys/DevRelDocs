@@ -1,6 +1,6 @@
 # `ImportedLoadGroup`
 
-
+<a id="ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.ImportedLoads.ImportedLoadGroup"></a>
 
 #### *class* ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.ImportedLoads.ImportedLoadGroup
 
@@ -17,181 +17,83 @@ Defines a ImportedLoadGroup.
 ### Methods
 
 | Name | Description |
-|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------|
-| [`CreateExternalLoadVelocitiesAndSyncAnalysisSettings`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/ImportedLoads/ImportedLoadGroup.md#ImportedLoadGroup.CreateExternalLoadVelocitiesAndSyncAnalysisSettings)   | Run the CreateExternalLoadVelocitiesAndSyncAnalysisSettings action.                         |
-| [`SetResultFile`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/ImportedLoads/ImportedLoadGroup.md#ImportedLoadGroup.SetResultFile)                                                                               | Sets the ResultFile with unitSystem supplied. For MAPDL Results File without a unit system. |
-| [`ImportExternalDataFiles`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/ImportedLoads/ImportedLoadGroup.md#ImportedLoadGroup.ImportExternalDataFiles)                                                           |                                                                                             |
-| [`GetExternalDataFiles`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/ImportedLoads/ImportedLoadGroup.md#ImportedLoadGroup.GetExternalDataFiles)                                                                 |                                                                                             |
-| [`ReloadExternalDataFiles`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/ImportedLoads/ImportedLoadGroup.md#ImportedLoadGroup.ReloadExternalDataFiles)                                                           | Reloads the external data files for current Imported Load Group.                            |
-| [`Delete`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/ImportedLoads/ImportedLoadGroup.md#ImportedLoadGroup.Delete)                                                                                             | Run the Delete action.                                                                      |
-| [`AddImportedBodyTemperature`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/ImportedLoads/ImportedLoadGroup.md#ImportedLoadGroup.AddImportedBodyTemperature)                                                     | Creates a new ImportedBodyTemperature                                                       |
-| [`AddImportedTemperature`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/ImportedLoads/ImportedLoadGroup.md#ImportedLoadGroup.AddImportedTemperature)                                                             | Creates a new ImportedTemperature                                                           |
-| [`CreateBodyForceDensitiesAndSyncAnalysisSettings`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/ImportedLoads/ImportedLoadGroup.md#ImportedLoadGroup.CreateBodyForceDensitiesAndSyncAnalysisSettings)           | Create body force densities for all RPMs.                                                   |
-| [`CreateSurfaceForceDensitiesAndSyncAnalysisSettings`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/ImportedLoads/ImportedLoadGroup.md#ImportedLoadGroup.CreateSurfaceForceDensitiesAndSyncAnalysisSettings)     | Create surface force densities for all RPMs.                                                |
-| [`CreateVelocitiesAndSyncAnalysisSettings`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/ImportedLoads/ImportedLoadGroup.md#ImportedLoadGroup.CreateVelocitiesAndSyncAnalysisSettings)                           | Create velocities for all RPMs.                                                             |
-| [`AddImportedBodyForceDensity`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/ImportedLoads/ImportedLoadGroup.md#ImportedLoadGroup.AddImportedBodyForceDensity)                                                   | Creates a new ImportedBodyForceDensity                                                      |
-| [`AddImportedConvection`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/ImportedLoads/ImportedLoadGroup.md#ImportedLoadGroup.AddImportedConvection)                                                               | Creates a new ImportedConvection                                                            |
-| [`AddImportedCutBoundaryRemoteConstraint`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/ImportedLoads/ImportedLoadGroup.md#ImportedLoadGroup.AddImportedCutBoundaryRemoteConstraint)                             | Creates a new ImportedCutBoundaryRemoteConstraint                                           |
-| [`AddImportedCutBoundaryRemoteForce`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/ImportedLoads/ImportedLoadGroup.md#ImportedLoadGroup.AddImportedCutBoundaryRemoteForce)                                       | Creates a new ImportedCutBoundaryRemoteForce                                                |
-| [`AddImportedDisplacement`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/ImportedLoads/ImportedLoadGroup.md#ImportedLoadGroup.AddImportedDisplacement)                                                           | Creates a new ImportedDisplacement                                                          |
-| [`AddImportedCutBoundaryConstraint`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/ImportedLoads/ImportedLoadGroup.md#ImportedLoadGroup.AddImportedCutBoundaryConstraint)                                         | Creates a new ImportedDisplacement                                                          |
-| [`AddImportedElementOrientation`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/ImportedLoads/ImportedLoadGroup.md#ImportedLoadGroup.AddImportedElementOrientation)                                               | Creates a new ImportedElementOrientation                                                    |
-| [`AddImportedFiberRatio`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/ImportedLoads/ImportedLoadGroup.md#ImportedLoadGroup.AddImportedFiberRatio)                                                               | Creates a new ImportedFiberRatio                                                            |
-| [`AddImportedForce`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/ImportedLoads/ImportedLoadGroup.md#ImportedLoadGroup.AddImportedForce)                                                                         | Creates a new ImportedForce                                                                 |
-| [`AddImportedHeatFlux`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/ImportedLoads/ImportedLoadGroup.md#ImportedLoadGroup.AddImportedHeatFlux)                                                                   | Creates a new ImportedHeatFlux                                                              |
-| [`AddImportedHeatGeneration`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/ImportedLoads/ImportedLoadGroup.md#ImportedLoadGroup.AddImportedHeatGeneration)                                                       | Creates a new ImportedHeatGeneration                                                        |
-| [`AddImportedInitialStrain`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/ImportedLoads/ImportedLoadGroup.md#ImportedLoadGroup.AddImportedInitialStrain)                                                         | Creates a new ImportedInitialStrain                                                         |
-| [`AddImportedInitialStress`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/ImportedLoads/ImportedLoadGroup.md#ImportedLoadGroup.AddImportedInitialStress)                                                         | Creates a new ImportedInitialStress                                                         |
-| [`AddImportedMaterialField`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/ImportedLoads/ImportedLoadGroup.md#ImportedLoadGroup.AddImportedMaterialField)                                                         | Creates a new ImportedMaterialField                                                         |
-| [`AddImportedPressure`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/ImportedLoads/ImportedLoadGroup.md#ImportedLoadGroup.AddImportedPressure)                                                                   | Creates a new ImportedPressure                                                              |
-| [`AddImportedSurfaceForceDensity`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/ImportedLoads/ImportedLoadGroup.md#ImportedLoadGroup.AddImportedSurfaceForceDensity)                                             | Creates a new ImportedSurfaceForceDensity                                                   |
-| [`AddImportedThickness`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/ImportedLoads/ImportedLoadGroup.md#ImportedLoadGroup.AddImportedThickness)                                                                 | Creates a new ImportedThickness                                                             |
-| [`AddImportedTrace`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/ImportedLoads/ImportedLoadGroup.md#ImportedLoadGroup.AddImportedTrace)                                                                         | Creates a new ImportedTrace                                                                 |
-| [`AddImportedVelocity`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/ImportedLoads/ImportedLoadGroup.md#ImportedLoadGroup.AddImportedVelocity)                                                                   | Creates a new ImportedVelocity                                                              |
-| [`AddImportedWarpWeftRatio`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/ImportedLoads/ImportedLoadGroup.md#ImportedLoadGroup.AddImportedWarpWeftRatio)                                                         | Creates a new ImportedWarpWeftRatio                                                         |
-| [`AddImportedYarnAngle`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/ImportedLoads/ImportedLoadGroup.md#ImportedLoadGroup.AddImportedYarnAngle)                                                                 | Creates a new ImportedYarnAngle                                                             |
-| [`ClearGeneratedData`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/ImportedLoads/ImportedLoadGroup.md#ImportedLoadGroup.ClearGeneratedData)                                                                     | Run the ClearGeneratedData action.                                                          |
-| [`ImportLoad`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/ImportedLoads/ImportedLoadGroup.md#ImportedLoadGroup.ImportLoad)                                                                                     | Run the ImportLoad action.                                                                  |
-| [`RefreshImportedLoad`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/ImportedLoads/ImportedLoadGroup.md#ImportedLoadGroup.RefreshImportedLoad)                                                                   | Run the RefreshImportedLoad action.                                                         |
-| [`GetChildren`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/ImportedLoads/ImportedLoadGroup.md#id1)                                                                                                             | Gets the list of children, filtered by type.                                                |
-| [`GetChildren`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/ImportedLoads/ImportedLoadGroup.md#id1)                                                                                                             | Gets the list of children, filtered by type.                                                |
-| [`AddComment`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/ImportedLoads/ImportedLoadGroup.md#ImportedLoadGroup.AddComment)                                                                                     | Creates a new child Comment.                                                                |
-| [`AddFigure`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/ImportedLoads/ImportedLoadGroup.md#ImportedLoadGroup.AddFigure)                                                                                       | Creates a new child Figure.                                                                 |
-| [`AddImage`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/ImportedLoads/ImportedLoadGroup.md#ImportedLoadGroup.AddImage)                                                                                         | Creates a new child Image.                                                                  |
-| [`Activate`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/ImportedLoads/ImportedLoadGroup.md#ImportedLoadGroup.Activate)                                                                                         | Activate the current object.                                                                |
-| [`CopyTo`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/ImportedLoads/ImportedLoadGroup.md#ImportedLoadGroup.CopyTo)                                                                                             | Copies all visible properties from this object to another.                                  |
-| [`Duplicate`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/ImportedLoads/ImportedLoadGroup.md#ImportedLoadGroup.Duplicate)                                                                                       | Creates a copy of the current DataModelObject.                                              |
-| [`GroupAllSimilarChildren`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/ImportedLoads/ImportedLoadGroup.md#ImportedLoadGroup.GroupAllSimilarChildren)                                                           | Run the GroupAllSimilarChildren action.                                                     |
-| [`GroupSimilarObjects`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/ImportedLoads/ImportedLoadGroup.md#ImportedLoadGroup.GroupSimilarObjects)                                                                   | Run the GroupSimilarObjects action.                                                         |
-| [`PropertyByName`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/ImportedLoads/ImportedLoadGroup.md#ImportedLoadGroup.PropertyByName)                                                                             | Get a property by its unique name.                                                          |
-| [`PropertyByAPIName`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/ImportedLoads/ImportedLoadGroup.md#ImportedLoadGroup.PropertyByAPIName)                                                                       | Get a property by its API name.                                                             |
-| [`CreateParameter`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/ImportedLoads/ImportedLoadGroup.md#ImportedLoadGroup.CreateParameter)                                                                           | Creates a new parameter for a Property.                                                     |
-| [`GetParameter`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/ImportedLoads/ImportedLoadGroup.md#ImportedLoadGroup.GetParameter)                                                                                 | Gets the parameter corresponding to the given property.                                     |
-| [`RemoveParameter`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/ImportedLoads/ImportedLoadGroup.md#ImportedLoadGroup.RemoveParameter)                                                                           | Removes the parameter from the parameter set corresponding to the given property.           |
+|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------|
+| [`Activate`](#ImportedLoadGroup.Activate)                                                                                       | Activate the current object.                                                                |
+| [`AddComment`](#ImportedLoadGroup.AddComment)                                                                                   | Creates a new child Comment.                                                                |
+| [`AddFigure`](#ImportedLoadGroup.AddFigure)                                                                                     | Creates a new child Figure.                                                                 |
+| [`AddImage`](#ImportedLoadGroup.AddImage)                                                                                       | Creates a new child Image.                                                                  |
+| [`AddImportedBodyForceDensity`](#ImportedLoadGroup.AddImportedBodyForceDensity)                                                 | Creates a new ImportedBodyForceDensity                                                      |
+| [`AddImportedBodyTemperature`](#ImportedLoadGroup.AddImportedBodyTemperature)                                                   | Creates a new ImportedBodyTemperature                                                       |
+| [`AddImportedConvection`](#ImportedLoadGroup.AddImportedConvection)                                                             | Creates a new ImportedConvection                                                            |
+| [`AddImportedCutBoundaryConstraint`](#ImportedLoadGroup.AddImportedCutBoundaryConstraint)                                       | Creates a new ImportedDisplacement                                                          |
+| [`AddImportedCutBoundaryRemoteConstraint`](#ImportedLoadGroup.AddImportedCutBoundaryRemoteConstraint)                           | Creates a new ImportedCutBoundaryRemoteConstraint                                           |
+| [`AddImportedCutBoundaryRemoteForce`](#ImportedLoadGroup.AddImportedCutBoundaryRemoteForce)                                     | Creates a new ImportedCutBoundaryRemoteForce                                                |
+| [`AddImportedDisplacement`](#ImportedLoadGroup.AddImportedDisplacement)                                                         | Creates a new ImportedDisplacement                                                          |
+| [`AddImportedElementOrientation`](#ImportedLoadGroup.AddImportedElementOrientation)                                             | Creates a new ImportedElementOrientation                                                    |
+| [`AddImportedFiberRatio`](#ImportedLoadGroup.AddImportedFiberRatio)                                                             | Creates a new ImportedFiberRatio                                                            |
+| [`AddImportedForce`](#ImportedLoadGroup.AddImportedForce)                                                                       | Creates a new ImportedForce                                                                 |
+| [`AddImportedHeatFlux`](#ImportedLoadGroup.AddImportedHeatFlux)                                                                 | Creates a new ImportedHeatFlux                                                              |
+| [`AddImportedHeatGeneration`](#ImportedLoadGroup.AddImportedHeatGeneration)                                                     | Creates a new ImportedHeatGeneration                                                        |
+| [`AddImportedInitialStrain`](#ImportedLoadGroup.AddImportedInitialStrain)                                                       | Creates a new ImportedInitialStrain                                                         |
+| [`AddImportedInitialStress`](#ImportedLoadGroup.AddImportedInitialStress)                                                       | Creates a new ImportedInitialStress                                                         |
+| [`AddImportedMaterialField`](#ImportedLoadGroup.AddImportedMaterialField)                                                       | Creates a new ImportedMaterialField                                                         |
+| [`AddImportedPressure`](#ImportedLoadGroup.AddImportedPressure)                                                                 | Creates a new ImportedPressure                                                              |
+| [`AddImportedSurfaceForceDensity`](#ImportedLoadGroup.AddImportedSurfaceForceDensity)                                           | Creates a new ImportedSurfaceForceDensity                                                   |
+| [`AddImportedTemperature`](#ImportedLoadGroup.AddImportedTemperature)                                                           | Creates a new ImportedTemperature                                                           |
+| [`AddImportedThickness`](#ImportedLoadGroup.AddImportedThickness)                                                               | Creates a new ImportedThickness                                                             |
+| [`AddImportedTrace`](#ImportedLoadGroup.AddImportedTrace)                                                                       | Creates a new ImportedTrace                                                                 |
+| [`AddImportedVelocity`](#ImportedLoadGroup.AddImportedVelocity)                                                                 | Creates a new ImportedVelocity                                                              |
+| [`AddImportedWarpWeftRatio`](#ImportedLoadGroup.AddImportedWarpWeftRatio)                                                       | Creates a new ImportedWarpWeftRatio                                                         |
+| [`AddImportedYarnAngle`](#ImportedLoadGroup.AddImportedYarnAngle)                                                               | Creates a new ImportedYarnAngle                                                             |
+| [`ClearGeneratedData`](#ImportedLoadGroup.ClearGeneratedData)                                                                   | Run the ClearGeneratedData action.                                                          |
+| [`CopyTo`](#ImportedLoadGroup.CopyTo)                                                                                           | Copies all visible properties from this object to another.                                  |
+| [`CreateBodyForceDensitiesAndSyncAnalysisSettings`](#ImportedLoadGroup.CreateBodyForceDensitiesAndSyncAnalysisSettings)         | Create body force densities for all RPMs.                                                   |
+| [`CreateExternalLoadVelocitiesAndSyncAnalysisSettings`](#ImportedLoadGroup.CreateExternalLoadVelocitiesAndSyncAnalysisSettings) | Run the CreateExternalLoadVelocitiesAndSyncAnalysisSettings action.                         |
+| [`CreateParameter`](#ImportedLoadGroup.CreateParameter)                                                                         | Creates a new parameter for a Property.                                                     |
+| [`CreateSurfaceForceDensitiesAndSyncAnalysisSettings`](#ImportedLoadGroup.CreateSurfaceForceDensitiesAndSyncAnalysisSettings)   | Create surface force densities for all RPMs.                                                |
+| [`CreateVelocitiesAndSyncAnalysisSettings`](#ImportedLoadGroup.CreateVelocitiesAndSyncAnalysisSettings)                         | Create velocities for all RPMs.                                                             |
+| [`Delete`](#ImportedLoadGroup.Delete)                                                                                           | Run the Delete action.                                                                      |
+| [`Duplicate`](#ImportedLoadGroup.Duplicate)                                                                                     | Creates a copy of the current DataModelObject.                                              |
+| [`GetChildren`](#ImportedLoadGroup.GetChildren)                                                                                 | Gets the list of children, filtered by type.                                                |
+| [`GetExternalDataFiles`](#ImportedLoadGroup.GetExternalDataFiles)                                                               |                                                                                             |
+| [`GetParameter`](#ImportedLoadGroup.GetParameter)                                                                               | Gets the parameter corresponding to the given property.                                     |
+| [`GroupAllSimilarChildren`](#ImportedLoadGroup.GroupAllSimilarChildren)                                                         | Run the GroupAllSimilarChildren action.                                                     |
+| [`GroupSimilarObjects`](#ImportedLoadGroup.GroupSimilarObjects)                                                                 | Run the GroupSimilarObjects action.                                                         |
+| [`ImportExternalDataFiles`](#ImportedLoadGroup.ImportExternalDataFiles)                                                         |                                                                                             |
+| [`ImportLoad`](#ImportedLoadGroup.ImportLoad)                                                                                   | Run the ImportLoad action.                                                                  |
+| [`PropertyByAPIName`](#ImportedLoadGroup.PropertyByAPIName)                                                                     | Get a property by its API name.                                                             |
+| [`PropertyByName`](#ImportedLoadGroup.PropertyByName)                                                                           | Get a property by its unique name.                                                          |
+| [`RefreshImportedLoad`](#ImportedLoadGroup.RefreshImportedLoad)                                                                 | Run the RefreshImportedLoad action.                                                         |
+| [`ReloadExternalDataFiles`](#ImportedLoadGroup.ReloadExternalDataFiles)                                                         | Reloads the external data files for current Imported Load Group.                            |
+| [`RemoveParameter`](#ImportedLoadGroup.RemoveParameter)                                                                         | Removes the parameter from the parameter set corresponding to the given property.           |
+| [`SetResultFile`](#ImportedLoadGroup.SetResultFile)                                                                             | Sets the ResultFile with unitSystem supplied. For MAPDL Results File without a unit system. |
 
 ### Properties
 
 | Name | Description |
 |------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------|
-| [`ResultFile`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/ImportedLoads/ImportedLoadGroup.md#ImportedLoadGroup.ResultFile)                                             | Gets or sets the ResultFile.                                           |
-| [`ResultFileUnitSystem`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/ImportedLoads/ImportedLoadGroup.md#ImportedLoadGroup.ResultFileUnitSystem)                         | Gets or sets the ResultFileUnitSystem.                                 |
-| [`FilesDirectory`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/ImportedLoads/ImportedLoadGroup.md#ImportedLoadGroup.FilesDirectory)                                     | Gets the FilesDirectory.                                               |
-| [`InternalObject`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/ImportedLoads/ImportedLoadGroup.md#id0)                                                                  | Gets the internal object. For advanced usage only.                     |
-| [`TransferStep`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/ImportedLoads/ImportedLoadGroup.md#ImportedLoadGroup.TransferStep)                                         | Controls which additive simulation step is used for the data transfer. |
-| [`Source`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/ImportedLoads/ImportedLoadGroup.md#ImportedLoadGroup.Source)                                                     | Gets the Source.                                                       |
-| [`ResultFileTimestamp`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/ImportedLoads/ImportedLoadGroup.md#ImportedLoadGroup.ResultFileTimestamp)                           | Gets the ResultFileTimestamp.                                          |
-| [`SourceDimension`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/ImportedLoads/ImportedLoadGroup.md#ImportedLoadGroup.SourceDimension)                                   | Gets or sets the SourceDimension.                                      |
-| [`DeleteMappedDataFilesAfterImport`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/ImportedLoads/ImportedLoadGroup.md#ImportedLoadGroup.DeleteMappedDataFilesAfterImport) | Gets or sets the DeleteMappedDataFilesAfterImport.                     |
-| [`Suppressed`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/ImportedLoads/ImportedLoadGroup.md#ImportedLoadGroup.Suppressed)                                             | Gets or sets the Suppressed.                                           |
-| [`TransferTemperaturesDuringSolve`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/ImportedLoads/ImportedLoadGroup.md#ImportedLoadGroup.TransferTemperaturesDuringSolve)   | Gets or sets the TransferTemperaturesDuringSolve.                      |
-| [`DataModelObjectCategory`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/ImportedLoads/ImportedLoadGroup.md#ImportedLoadGroup.DataModelObjectCategory)                   | Gets the current DataModelObject's category.                           |
-| [`Children`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/ImportedLoads/ImportedLoadGroup.md#ImportedLoadGroup.Children)                                                 | Gets the list of children.                                             |
-| [`Comments`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/ImportedLoads/ImportedLoadGroup.md#ImportedLoadGroup.Comments)                                                 | Gets the list of associated comments.                                  |
-| [`Figures`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/ImportedLoads/ImportedLoadGroup.md#ImportedLoadGroup.Figures)                                                   | Gets the list of associated figures.                                   |
-| [`Images`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/ImportedLoads/ImportedLoadGroup.md#ImportedLoadGroup.Images)                                                     | Gets the list of associated images.                                    |
-| [`InternalObject`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/ImportedLoads/ImportedLoadGroup.md#id0)                                                                  | Gets the internal object. For advanced usage only.                     |
-| [`Properties`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/ImportedLoads/ImportedLoadGroup.md#ImportedLoadGroup.Properties)                                             | Gets the list of properties for this object.                           |
-| [`VisibleProperties`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/ImportedLoads/ImportedLoadGroup.md#ImportedLoadGroup.VisibleProperties)                               | Gets the list of properties that are visible for this object.          |
+| [`Children`](#ImportedLoadGroup.Children)                                                 | Gets the list of children.                                             |
+| [`Comments`](#ImportedLoadGroup.Comments)                                                 | Gets the list of associated comments.                                  |
+| [`DataModelObjectCategory`](#ImportedLoadGroup.DataModelObjectCategory)                   | Gets the current DataModelObject’s category.                           |
+| [`DeleteMappedDataFilesAfterImport`](#ImportedLoadGroup.DeleteMappedDataFilesAfterImport) | Gets or sets the DeleteMappedDataFilesAfterImport.                     |
+| [`Figures`](#ImportedLoadGroup.Figures)                                                   | Gets the list of associated figures.                                   |
+| [`FilesDirectory`](#ImportedLoadGroup.FilesDirectory)                                     | Gets the FilesDirectory.                                               |
+| [`Images`](#ImportedLoadGroup.Images)                                                     | Gets the list of associated images.                                    |
+| [`InternalObject`](#ImportedLoadGroup.InternalObject)                                     | Gets the internal object. For advanced usage only.                     |
+| [`Properties`](#ImportedLoadGroup.Properties)                                             | Gets the list of properties for this object.                           |
+| [`ResultFile`](#ImportedLoadGroup.ResultFile)                                             | Gets or sets the ResultFile.                                           |
+| [`ResultFileTimestamp`](#ImportedLoadGroup.ResultFileTimestamp)                           | Gets the ResultFileTimestamp.                                          |
+| [`ResultFileUnitSystem`](#ImportedLoadGroup.ResultFileUnitSystem)                         | Gets or sets the ResultFileUnitSystem.                                 |
+| [`Source`](#ImportedLoadGroup.Source)                                                     | Gets the Source.                                                       |
+| [`SourceDimension`](#ImportedLoadGroup.SourceDimension)                                   | Gets or sets the SourceDimension.                                      |
+| [`Suppressed`](#ImportedLoadGroup.Suppressed)                                             | Gets or sets the Suppressed.                                           |
+| [`TransferStep`](#ImportedLoadGroup.TransferStep)                                         | Controls which additive simulation step is used for the data transfer. |
+| [`TransferTemperaturesDuringSolve`](#ImportedLoadGroup.TransferTemperaturesDuringSolve)   | Gets or sets the TransferTemperaturesDuringSolve.                      |
+| [`VisibleProperties`](#ImportedLoadGroup.VisibleProperties)                               | Gets the list of properties that are visible for this object.          |
 
 <a id="property-detail"></a>
 
 ## Property detail
-
-<a id="ImportedLoadGroup.ResultFile"></a>
-
-### *property* ImportedLoadGroup.ResultFile *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the ResultFile.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="ImportedLoadGroup.ResultFileUnitSystem"></a>
-
-### *property* ImportedLoadGroup.ResultFileUnitSystem *: [Ansys.Mechanical.DataModel.Enums.WBUnitSystemType](../../../../Mechanical/DataModel/Enums/WBUnitSystemType.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.WBUnitSystemType) | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the ResultFileUnitSystem.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="ImportedLoadGroup.FilesDirectory"></a>
-
-### *property* ImportedLoadGroup.FilesDirectory *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets the FilesDirectory.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="ImportedLoadGroup.InternalObject"></a>
-
-### *property* ImportedLoadGroup.InternalObject *: Ansys.Common.Interop.DSObjectsAuto.IDSExternalLoadGroupAuto | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets the internal object. For advanced usage only.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="ImportedLoadGroup.TransferStep"></a>
-
-### *property* ImportedLoadGroup.TransferStep *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Controls which additive simulation step is used for the data transfer.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="ImportedLoadGroup.Source"></a>
-
-### *property* ImportedLoadGroup.Source *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets the Source.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="ImportedLoadGroup.ResultFileTimestamp"></a>
-
-### *property* ImportedLoadGroup.ResultFileTimestamp *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets the ResultFileTimestamp.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="ImportedLoadGroup.SourceDimension"></a>
-
-### *property* ImportedLoadGroup.SourceDimension *: [Ansys.Mechanical.DataModel.Enums.SourceDimension](../../../../Mechanical/DataModel/Enums/SourceDimension.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.SourceDimension) | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the SourceDimension.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="ImportedLoadGroup.DeleteMappedDataFilesAfterImport"></a>
-
-### *property* ImportedLoadGroup.DeleteMappedDataFilesAfterImport *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the DeleteMappedDataFilesAfterImport.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="ImportedLoadGroup.Suppressed"></a>
-
-### *property* ImportedLoadGroup.Suppressed *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the Suppressed.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="ImportedLoadGroup.TransferTemperaturesDuringSolve"></a>
-
-### *property* ImportedLoadGroup.TransferTemperaturesDuringSolve *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the TransferTemperaturesDuringSolve.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="ImportedLoadGroup.DataModelObjectCategory"></a>
-
-### *property* ImportedLoadGroup.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets the current DataModelObject's category.
-
-<!-- !! processed by numpydoc !! -->
 
 <a id="ImportedLoadGroup.Children"></a>
 
@@ -209,11 +111,35 @@ Gets the list of associated comments.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="ImportedLoadGroup.DataModelObjectCategory"></a>
+
+### *property* ImportedLoadGroup.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../../v242/Ansys/Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets the current DataModelObject’s category.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ImportedLoadGroup.DeleteMappedDataFilesAfterImport"></a>
+
+### *property* ImportedLoadGroup.DeleteMappedDataFilesAfterImport *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the DeleteMappedDataFilesAfterImport.
+
+<!-- !! processed by numpydoc !! -->
+
 <a id="ImportedLoadGroup.Figures"></a>
 
 ### *property* ImportedLoadGroup.Figures *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Figure](../Figure.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated figures.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ImportedLoadGroup.FilesDirectory"></a>
+
+### *property* ImportedLoadGroup.FilesDirectory *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets the FilesDirectory.
 
 <!-- !! processed by numpydoc !! -->
 
@@ -225,9 +151,9 @@ Gets the list of associated images.
 
 <!-- !! processed by numpydoc !! -->
 
-<a id="id0"></a>
+<a id="ImportedLoadGroup.InternalObject"></a>
 
-### *property* ImportedLoadGroup.InternalObject *: System.Object | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ImportedLoadGroup.InternalObject *: Ansys.Common.Interop.DSObjectsAuto.IDSExternalLoadGroupAuto | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the internal object. For advanced usage only.
 
@@ -238,6 +164,70 @@ Gets the internal object. For advanced usage only.
 ### *property* ImportedLoadGroup.Properties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of properties for this object.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ImportedLoadGroup.ResultFile"></a>
+
+### *property* ImportedLoadGroup.ResultFile *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the ResultFile.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ImportedLoadGroup.ResultFileTimestamp"></a>
+
+### *property* ImportedLoadGroup.ResultFileTimestamp *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets the ResultFileTimestamp.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ImportedLoadGroup.ResultFileUnitSystem"></a>
+
+### *property* ImportedLoadGroup.ResultFileUnitSystem *: [Ansys.Mechanical.DataModel.Enums.WBUnitSystemType](../../../../../../v242/Ansys/Mechanical/DataModel/Enums/WBUnitSystemType.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.WBUnitSystemType) | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the ResultFileUnitSystem.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ImportedLoadGroup.Source"></a>
+
+### *property* ImportedLoadGroup.Source *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets the Source.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ImportedLoadGroup.SourceDimension"></a>
+
+### *property* ImportedLoadGroup.SourceDimension *: [Ansys.Mechanical.DataModel.Enums.SourceDimension](../../../../../../v242/Ansys/Mechanical/DataModel/Enums/SourceDimension.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.SourceDimension) | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the SourceDimension.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ImportedLoadGroup.Suppressed"></a>
+
+### *property* ImportedLoadGroup.Suppressed *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the Suppressed.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ImportedLoadGroup.TransferStep"></a>
+
+### *property* ImportedLoadGroup.TransferStep *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Controls which additive simulation step is used for the data transfer.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ImportedLoadGroup.TransferTemperaturesDuringSolve"></a>
+
+### *property* ImportedLoadGroup.TransferTemperaturesDuringSolve *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the TransferTemperaturesDuringSolve.
 
 <!-- !! processed by numpydoc !! -->
 
@@ -253,87 +243,39 @@ Gets the list of properties that are visible for this object.
 
 ## Method detail
 
-<a id="ImportedLoadGroup.CreateExternalLoadVelocitiesAndSyncAnalysisSettings"></a>
+<a id="ImportedLoadGroup.Activate"></a>
 
-### ImportedLoadGroup.CreateExternalLoadVelocitiesAndSyncAnalysisSettings()
+### ImportedLoadGroup.Activate()
 
-Run the CreateExternalLoadVelocitiesAndSyncAnalysisSettings action.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="ImportedLoadGroup.SetResultFile"></a>
-
-### ImportedLoadGroup.SetResultFile(resultFile: System.String, unitSystem: [Ansys.Mechanical.DataModel.Enums.WBUnitSystemType](../../../../Mechanical/DataModel/Enums/WBUnitSystemType.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.WBUnitSystemType))
-
-Sets the ResultFile with unitSystem supplied. For MAPDL Results File without a unit system.
+Activate the current object.
 
 <!-- !! processed by numpydoc !! -->
 
-<a id="ImportedLoadGroup.ImportExternalDataFiles"></a>
+<a id="ImportedLoadGroup.AddComment"></a>
 
-### ImportedLoadGroup.ImportExternalDataFiles(externalDataFiles: [Ansys.Mechanical.ExternalData.ExternalDataFileCollection](../../../../Mechanical/ExternalData/ExternalDataFileCollection.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.ExternalData.ExternalDataFileCollection))
+### ImportedLoadGroup.AddComment()
 
-<!-- !! processed by numpydoc !! -->
-
-<a id="ImportedLoadGroup.GetExternalDataFiles"></a>
-
-### ImportedLoadGroup.GetExternalDataFiles()
+Creates a new child Comment.
 
 <!-- !! processed by numpydoc !! -->
 
-<a id="ImportedLoadGroup.ReloadExternalDataFiles"></a>
+<a id="ImportedLoadGroup.AddFigure"></a>
 
-### ImportedLoadGroup.ReloadExternalDataFiles()
+### ImportedLoadGroup.AddFigure()
 
-Reloads the external data files for current Imported Load Group.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="ImportedLoadGroup.Delete"></a>
-
-### ImportedLoadGroup.Delete()
-
-Run the Delete action.
+Creates a new child Figure.
 
 <!-- !! processed by numpydoc !! -->
 
-<a id="ImportedLoadGroup.AddImportedBodyTemperature"></a>
+<a id="ImportedLoadGroup.AddImage"></a>
 
-### ImportedLoadGroup.AddImportedBodyTemperature()
+### ImportedLoadGroup.AddImage(filePath: System.String)
 
-Creates a new ImportedBodyTemperature
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="ImportedLoadGroup.AddImportedTemperature"></a>
-
-### ImportedLoadGroup.AddImportedTemperature()
-
-Creates a new ImportedTemperature
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="ImportedLoadGroup.CreateBodyForceDensitiesAndSyncAnalysisSettings"></a>
-
-### ImportedLoadGroup.CreateBodyForceDensitiesAndSyncAnalysisSettings()
-
-Create body force densities for all RPMs.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="ImportedLoadGroup.CreateSurfaceForceDensitiesAndSyncAnalysisSettings"></a>
-
-### ImportedLoadGroup.CreateSurfaceForceDensitiesAndSyncAnalysisSettings()
-
-Create surface force densities for all RPMs.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="ImportedLoadGroup.CreateVelocitiesAndSyncAnalysisSettings"></a>
-
-### ImportedLoadGroup.CreateVelocitiesAndSyncAnalysisSettings()
-
-Create velocities for all RPMs.
+```text
+Creates a new child Image.
+If a filePath is provided, the image will be loaded from that file,
+if not, the image will be a screen capture of the Geometry window.
+```
 
 <!-- !! processed by numpydoc !! -->
 
@@ -345,11 +287,27 @@ Creates a new ImportedBodyForceDensity
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="ImportedLoadGroup.AddImportedBodyTemperature"></a>
+
+### ImportedLoadGroup.AddImportedBodyTemperature()
+
+Creates a new ImportedBodyTemperature
+
+<!-- !! processed by numpydoc !! -->
+
 <a id="ImportedLoadGroup.AddImportedConvection"></a>
 
 ### ImportedLoadGroup.AddImportedConvection()
 
 Creates a new ImportedConvection
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ImportedLoadGroup.AddImportedCutBoundaryConstraint"></a>
+
+### ImportedLoadGroup.AddImportedCutBoundaryConstraint()
+
+Creates a new ImportedDisplacement
 
 <!-- !! processed by numpydoc !! -->
 
@@ -372,14 +330,6 @@ Creates a new ImportedCutBoundaryRemoteForce
 <a id="ImportedLoadGroup.AddImportedDisplacement"></a>
 
 ### ImportedLoadGroup.AddImportedDisplacement()
-
-Creates a new ImportedDisplacement
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="ImportedLoadGroup.AddImportedCutBoundaryConstraint"></a>
-
-### ImportedLoadGroup.AddImportedCutBoundaryConstraint()
 
 Creates a new ImportedDisplacement
 
@@ -465,6 +415,14 @@ Creates a new ImportedSurfaceForceDensity
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="ImportedLoadGroup.AddImportedTemperature"></a>
+
+### ImportedLoadGroup.AddImportedTemperature()
+
+Creates a new ImportedTemperature
+
+<!-- !! processed by numpydoc !! -->
+
 <a id="ImportedLoadGroup.AddImportedThickness"></a>
 
 ### ImportedLoadGroup.AddImportedThickness()
@@ -513,19 +471,67 @@ Run the ClearGeneratedData action.
 
 <!-- !! processed by numpydoc !! -->
 
-<a id="ImportedLoadGroup.ImportLoad"></a>
+<a id="ImportedLoadGroup.CopyTo"></a>
 
-### ImportedLoadGroup.ImportLoad()
+### ImportedLoadGroup.CopyTo(other: Ansys.ACT.Automation.Mechanical.DataModelObject)
 
-Run the ImportLoad action.
+Copies all visible properties from this object to another.
 
 <!-- !! processed by numpydoc !! -->
 
-<a id="ImportedLoadGroup.RefreshImportedLoad"></a>
+<a id="ImportedLoadGroup.CreateBodyForceDensitiesAndSyncAnalysisSettings"></a>
 
-### ImportedLoadGroup.RefreshImportedLoad()
+### ImportedLoadGroup.CreateBodyForceDensitiesAndSyncAnalysisSettings()
 
-Run the RefreshImportedLoad action.
+Create body force densities for all RPMs.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ImportedLoadGroup.CreateExternalLoadVelocitiesAndSyncAnalysisSettings"></a>
+
+### ImportedLoadGroup.CreateExternalLoadVelocitiesAndSyncAnalysisSettings()
+
+Run the CreateExternalLoadVelocitiesAndSyncAnalysisSettings action.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ImportedLoadGroup.CreateParameter"></a>
+
+### ImportedLoadGroup.CreateParameter(propName: System.String)
+
+Creates a new parameter for a Property.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ImportedLoadGroup.CreateSurfaceForceDensitiesAndSyncAnalysisSettings"></a>
+
+### ImportedLoadGroup.CreateSurfaceForceDensitiesAndSyncAnalysisSettings()
+
+Create surface force densities for all RPMs.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ImportedLoadGroup.CreateVelocitiesAndSyncAnalysisSettings"></a>
+
+### ImportedLoadGroup.CreateVelocitiesAndSyncAnalysisSettings()
+
+Create velocities for all RPMs.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ImportedLoadGroup.Delete"></a>
+
+### ImportedLoadGroup.Delete()
+
+Run the Delete action.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ImportedLoadGroup.Duplicate"></a>
+
+### ImportedLoadGroup.Duplicate()
+
+Creates a copy of the current DataModelObject.
 
 <!-- !! processed by numpydoc !! -->
 
@@ -537,61 +543,17 @@ Gets the list of children, filtered by type.
 
 <!-- !! processed by numpydoc !! -->
 
-<a id="id1"></a>
+<a id="ImportedLoadGroup.GetExternalDataFiles"></a>
 
-### ImportedLoadGroup.GetChildren(category: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory), recurses: System.Boolean, children: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject])
-
-Gets the list of children, filtered by type.
+### ImportedLoadGroup.GetExternalDataFiles()
 
 <!-- !! processed by numpydoc !! -->
 
-<a id="ImportedLoadGroup.AddComment"></a>
+<a id="ImportedLoadGroup.GetParameter"></a>
 
-### ImportedLoadGroup.AddComment()
+### ImportedLoadGroup.GetParameter(propName: System.String)
 
-Creates a new child Comment.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="ImportedLoadGroup.AddFigure"></a>
-
-### ImportedLoadGroup.AddFigure()
-
-Creates a new child Figure.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="ImportedLoadGroup.AddImage"></a>
-
-### ImportedLoadGroup.AddImage(filePath: System.String)
-
-Creates a new child Image.
-If a filePath is provided, the image will be loaded from that file,
-if not, the image will be a screen capture of the Geometry window.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="ImportedLoadGroup.Activate"></a>
-
-### ImportedLoadGroup.Activate()
-
-Activate the current object.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="ImportedLoadGroup.CopyTo"></a>
-
-### ImportedLoadGroup.CopyTo(other: Ansys.ACT.Automation.Mechanical.DataModelObject)
-
-Copies all visible properties from this object to another.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="ImportedLoadGroup.Duplicate"></a>
-
-### ImportedLoadGroup.Duplicate()
-
-Creates a copy of the current DataModelObject.
+Gets the parameter corresponding to the given property.
 
 <!-- !! processed by numpydoc !! -->
 
@@ -611,6 +573,31 @@ Run the GroupSimilarObjects action.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="ImportedLoadGroup.ImportExternalDataFiles"></a>
+
+### ImportedLoadGroup.ImportExternalDataFiles(externalDataFiles: [Ansys.Mechanical.ExternalData.ExternalDataFileCollection](../../../../../../v242/Ansys/Mechanical/ExternalData/ExternalDataFileCollection.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.ExternalData.ExternalDataFileCollection))
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ImportedLoadGroup.ImportLoad"></a>
+
+### ImportedLoadGroup.ImportLoad()
+
+Run the ImportLoad action.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ImportedLoadGroup.PropertyByAPIName"></a>
+
+### ImportedLoadGroup.PropertyByAPIName(name: System.String)
+
+```text
+Get a property by its API name.
+If multiple properties have the same API Name, only the first property with that name will be returned.
+```
+
+<!-- !! processed by numpydoc !! -->
+
 <a id="ImportedLoadGroup.PropertyByName"></a>
 
 ### ImportedLoadGroup.PropertyByName(name: System.String)
@@ -619,28 +606,19 @@ Get a property by its unique name.
 
 <!-- !! processed by numpydoc !! -->
 
-<a id="ImportedLoadGroup.PropertyByAPIName"></a>
+<a id="ImportedLoadGroup.RefreshImportedLoad"></a>
 
-### ImportedLoadGroup.PropertyByAPIName(name: System.String)
+### ImportedLoadGroup.RefreshImportedLoad()
 
-Get a property by its API name.
-If multiple properties have the same API Name, only the first property with that name will be returned.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="ImportedLoadGroup.CreateParameter"></a>
-
-### ImportedLoadGroup.CreateParameter(propName: System.String)
-
-Creates a new parameter for a Property.
+Run the RefreshImportedLoad action.
 
 <!-- !! processed by numpydoc !! -->
 
-<a id="ImportedLoadGroup.GetParameter"></a>
+<a id="ImportedLoadGroup.ReloadExternalDataFiles"></a>
 
-### ImportedLoadGroup.GetParameter(propName: System.String)
+### ImportedLoadGroup.ReloadExternalDataFiles()
 
-Gets the parameter corresponding to the given property.
+Reloads the external data files for current Imported Load Group.
 
 <!-- !! processed by numpydoc !! -->
 
@@ -649,6 +627,14 @@ Gets the parameter corresponding to the given property.
 ### ImportedLoadGroup.RemoveParameter(propName: System.String)
 
 Removes the parameter from the parameter set corresponding to the given property.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ImportedLoadGroup.SetResultFile"></a>
+
+### ImportedLoadGroup.SetResultFile(resultFile: System.String, unitSystem: [Ansys.Mechanical.DataModel.Enums.WBUnitSystemType](../../../../../../v242/Ansys/Mechanical/DataModel/Enums/WBUnitSystemType.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.WBUnitSystemType))
+
+Sets the ResultFile with unitSystem supplied. For MAPDL Results File without a unit system.
 
 <!-- !! processed by numpydoc !! -->
 

@@ -1,6 +1,6 @@
 # `SolutionInformation`
 
-
+<a id="ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.SolutionInformation"></a>
 
 #### *class* ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.SolutionInformation
 
@@ -17,161 +17,199 @@ Defines a SolutionInformation.
 ### Methods
 
 | Name | Description |
-|-----------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------|
-| [`ImportResultTrackersFromFile`](#SolutionInformation.ImportResultTrackersFromFile)                 | Import Result Trackers from File.                                                 |
-| [`AddDeformationPlotTracker`](#SolutionInformation.AddDeformationPlotTracker)                       | Creates a new TotalDeformation Plot Tracker.                                      |
-| [`AddStressPlotTracker`](#SolutionInformation.AddStressPlotTracker)                                 | Creates a new EquivalentStress Plot Tracker.                                      |
-| [`AddStrainPlotTracker`](#SolutionInformation.AddStrainPlotTracker)                                 | Creates a new EquivalentElasticStrainRST Plot Tracker.                            |
-| [`AddTemperaturePlotTracker`](#SolutionInformation.AddTemperaturePlotTracker)                       | Creates a new TemperatureResult Plot Tracker.                                     |
-| [`EvaluateAllContactTrackers`](#SolutionInformation.EvaluateAllContactTrackers)                     | Run the EvaluateAllContactTrackers action.                                        |
+|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------|
+| [`Activate`](#SolutionInformation.Activate)                                                         | Activate the current object.                                                      |
 | [`AddAddedMass`](#SolutionInformation.AddAddedMass)                                                 | Creates a new AddedMassTracker                                                    |
 | [`AddArtificialEnergy`](#SolutionInformation.AddArtificialEnergy)                                   | Creates a new ArtificialEnergyTracker                                             |
 | [`AddChattering`](#SolutionInformation.AddChattering)                                               | Creates a new ContactChatteringTracker                                            |
 | [`AddClosedPenetration`](#SolutionInformation.AddClosedPenetration)                                 | Creates a new ContactClosedPenetrationTracker                                     |
+| [`AddComment`](#SolutionInformation.AddComment)                                                     | Creates a new child Comment.                                                      |
 | [`AddContactDepth`](#SolutionInformation.AddContactDepth)                                           | Creates a new ContactDepthTracker                                                 |
-| [`AddElasticSlip`](#SolutionInformation.AddElasticSlip)                                             | Creates a new ContactElasticSlipTracker                                           |
 | [`AddContactEnergy`](#SolutionInformation.AddContactEnergy)                                         | Creates a new ContactEnergyTracker                                                |
-| [`AddFluidPressure`](#SolutionInformation.AddFluidPressure)                                         | Creates a new ContactFluidPressureTracker                                         |
 | [`AddContactForce`](#SolutionInformation.AddContactForce)                                           | Creates a new ContactForceTracker                                                 |
-| [`AddFrictionalDissipationEnergy`](#SolutionInformation.AddFrictionalDissipationEnergy)             | Creates a new ContactFrictionalDissipationEnergyTracker                           |
-| [`AddFrictionalStress`](#SolutionInformation.AddFrictionalStress)                                   | Creates a new ContactFrictionalStressTracker                                      |
-| [`AddGap`](#SolutionInformation.AddGap)                                                             | Creates a new ContactGapTracker                                                   |
 | [`AddContactHeatFlux`](#SolutionInformation.AddContactHeatFlux)                                     | Creates a new ContactHeatFluxTracker                                              |
-| [`AddContactingArea`](#SolutionInformation.AddContactingArea)                                       | Creates a new ContactingAreaTracker                                               |
-| [`AddMaximumDampingPressure`](#SolutionInformation.AddMaximumDampingPressure)                       | Creates a new ContactMaximumDampingPressureTracker                                |
-| [`AddMaximumGeometricSlidingDistance`](#SolutionInformation.AddMaximumGeometricSlidingDistance)     | Creates a new ContactMaximumGeometricSlidingDistanceTracker                       |
-| [`AddContactMaximumNormalStiffness`](#SolutionInformation.AddContactMaximumNormalStiffness)         | Creates a new ContactMaximumNormalStiffnessTracker                                |
-| [`AddMaximumTangentialStiffness`](#SolutionInformation.AddMaximumTangentialStiffness)               | Creates a new ContactMaximumTangentialStiffnessTracker                            |
 | [`AddContactMaxTangentialFluidPressure`](#SolutionInformation.AddContactMaxTangentialFluidPressure) | Creates a new ContactMaxTangentialFluidPressureTracker                            |
-| [`AddMinimumGeometricSlidingDistance`](#SolutionInformation.AddMinimumGeometricSlidingDistance)     | Creates a new ContactMinimumGeometricSlidingDistanceTracker                       |
+| [`AddContactMaximumNormalStiffness`](#SolutionInformation.AddContactMaximumNormalStiffness)         | Creates a new ContactMaximumNormalStiffnessTracker                                |
 | [`AddContactMinimumNormalStiffness`](#SolutionInformation.AddContactMinimumNormalStiffness)         | Creates a new ContactMinimumNormalStiffnessTracker                                |
-| [`AddMinimumTangentialStiffness`](#SolutionInformation.AddMinimumTangentialStiffness)               | Creates a new ContactMinimumTangentialStiffnessTracker                            |
-| [`AddNumberSticking`](#SolutionInformation.AddNumberSticking)                                       | Creates a new ContactNumberStickingTracker                                        |
-| [`AddNumberWithLargePenetration`](#SolutionInformation.AddNumberWithLargePenetration)               | Creates a new ContactNumberWithLargePenetrationTracker                            |
-| [`AddNumberWithTooMuchSliding`](#SolutionInformation.AddNumberWithTooMuchSliding)                   | Creates a new ContactNumberWithTooMuchSlidingTracker                              |
 | [`AddContactPairForceConvergenceNorm`](#SolutionInformation.AddContactPairForceConvergenceNorm)     | Creates a new ContactPairForceConvergenceNormTracker                              |
-| [`AddPenetration`](#SolutionInformation.AddPenetration)                                             | Creates a new ContactPenetrationTracker                                           |
-| [`AddPossibleOverconstraint`](#SolutionInformation.AddPossibleOverconstraint)                       | Creates a new ContactPossibleOverconstraintTracker                                |
 | [`AddContactPressure`](#SolutionInformation.AddContactPressure)                                     | Creates a new ContactPressureTracker                                              |
-| [`AddResultingPinball`](#SolutionInformation.AddResultingPinball)                                   | Creates a new ContactResultingPinballTracker                                      |
-| [`AddSlidingDistance`](#SolutionInformation.AddSlidingDistance)                                     | Creates a new ContactSlidingDistanceTracker                                       |
-| [`AddSlidingIndication`](#SolutionInformation.AddSlidingIndication)                                 | Creates a new ContactSlidingIndicationTracker                                     |
-| [`AddStabilizationEnergy`](#SolutionInformation.AddStabilizationEnergy)                             | Creates a new ContactStabilizationEnergyTracker                                   |
-| [`AddStrainEnergy`](#SolutionInformation.AddStrainEnergy)                                           | Creates a new ContactStrainEnergyTracker                                          |
-| [`AddTangentialDampingStress`](#SolutionInformation.AddTangentialDampingStress)                     | Creates a new ContactTangentialDampingStressTracker                               |
-| [`AddTotalForceFromContactPressureX`](#SolutionInformation.AddTotalForceFromContactPressureX)       | Creates a new ContactTotalForceFromContactPressureXTracker                        |
-| [`AddTotalForceFromContactPressureY`](#SolutionInformation.AddTotalForceFromContactPressureY)       | Creates a new ContactTotalForceFromContactPressureYTracker                        |
-| [`AddTotalForceFromContactPressureZ`](#SolutionInformation.AddTotalForceFromContactPressureZ)       | Creates a new ContactTotalForceFromContactPressureZTracker                        |
-| [`AddTotalForceFromTangentialStressX`](#SolutionInformation.AddTotalForceFromTangentialStressX)     | Creates a new ContactTotalForceFromTangentialStressXTracker                       |
-| [`AddTotalForceFromTangentialStressY`](#SolutionInformation.AddTotalForceFromTangentialStressY)     | Creates a new ContactTotalForceFromTangentialStressYTracker                       |
-| [`AddTotalForceFromTangentialStressZ`](#SolutionInformation.AddTotalForceFromTangentialStressZ)     | Creates a new ContactTotalForceFromTangentialStressZTracker                       |
-| [`AddVolumeLossDueToWear`](#SolutionInformation.AddVolumeLossDueToWear)                             | Creates a new ContactVolumeLossDueToWearTracker                                   |
+| [`AddContactingArea`](#SolutionInformation.AddContactingArea)                                       | Creates a new ContactingAreaTracker                                               |
 | [`AddDampingEnergy`](#SolutionInformation.AddDampingEnergy)                                         | Creates a new DampingEnergyTracker                                                |
+| [`AddDeformationPlotTracker`](#SolutionInformation.AddDeformationPlotTracker)                       | Creates a new TotalDeformation Plot Tracker.                                      |
 | [`AddDensity`](#SolutionInformation.AddDensity)                                                     | Creates a new DensityTracker                                                      |
 | [`AddDirectionalAcceleration`](#SolutionInformation.AddDirectionalAcceleration)                     | Creates a new DirectionalAccelerationTracker                                      |
 | [`AddDirectionalDeformation`](#SolutionInformation.AddDirectionalDeformation)                       | Creates a new DirectionalDeformationTracker                                       |
 | [`AddDirectionalVelocity`](#SolutionInformation.AddDirectionalVelocity)                             | Creates a new DirectionalVelocityTracker                                          |
 | [`AddEffectiveStrain`](#SolutionInformation.AddEffectiveStrain)                                     | Creates a new EffectiveStrainTracker                                              |
 | [`AddEffectiveStress`](#SolutionInformation.AddEffectiveStress)                                     | Creates a new EffectiveStressTracker                                              |
+| [`AddElasticSlip`](#SolutionInformation.AddElasticSlip)                                             | Creates a new ContactElasticSlipTracker                                           |
 | [`AddErodedInternalEnergy`](#SolutionInformation.AddErodedInternalEnergy)                           | Creates a new ErodedInternalEnergyTracker                                         |
 | [`AddErodedKineticEnergy`](#SolutionInformation.AddErodedKineticEnergy)                             | Creates a new ErodedKineticEnergyTracker                                          |
 | [`AddExternalForce`](#SolutionInformation.AddExternalForce)                                         | Creates a new ExternalForceTracker                                                |
+| [`AddFigure`](#SolutionInformation.AddFigure)                                                       | Creates a new child Figure.                                                       |
+| [`AddFluidPressure`](#SolutionInformation.AddFluidPressure)                                         | Creates a new ContactFluidPressureTracker                                         |
 | [`AddForceReaction`](#SolutionInformation.AddForceReaction)                                         | Creates a new ForceReactionTracker                                                |
+| [`AddFrictionalDissipationEnergy`](#SolutionInformation.AddFrictionalDissipationEnergy)             | Creates a new ContactFrictionalDissipationEnergyTracker                           |
+| [`AddFrictionalStress`](#SolutionInformation.AddFrictionalStress)                                   | Creates a new ContactFrictionalStressTracker                                      |
+| [`AddGap`](#SolutionInformation.AddGap)                                                             | Creates a new ContactGapTracker                                                   |
 | [`AddHourglassEnergy`](#SolutionInformation.AddHourglassEnergy)                                     | Creates a new HourglassEnergyTracker                                              |
+| [`AddImage`](#SolutionInformation.AddImage)                                                         | Creates a new child Image.                                                        |
 | [`AddInternalEnergy`](#SolutionInformation.AddInternalEnergy)                                       | Creates a new InternalEnergyTracker                                               |
 | [`AddKineticEnergy`](#SolutionInformation.AddKineticEnergy)                                         | Creates a new KineticEnergyTracker                                                |
+| [`AddLSDYNAGeneralTracker`](#SolutionInformation.AddLSDYNAGeneralTracker)                           | Creates a new LSDYNAGeneralTracker                                                |
 | [`AddLatticeDensity`](#SolutionInformation.AddLatticeDensity)                                       | Creates a new LatticeDensity                                                      |
 | [`AddLatticeElementalDensity`](#SolutionInformation.AddLatticeElementalDensity)                     | Creates a new LatticeElementalDensity                                             |
-| [`AddLSDYNAGeneralTracker`](#SolutionInformation.AddLSDYNAGeneralTracker)                           | Creates a new LSDYNAGeneralTracker                                                |
+| [`AddMaximumDampingPressure`](#SolutionInformation.AddMaximumDampingPressure)                       | Creates a new ContactMaximumDampingPressureTracker                                |
+| [`AddMaximumGeometricSlidingDistance`](#SolutionInformation.AddMaximumGeometricSlidingDistance)     | Creates a new ContactMaximumGeometricSlidingDistanceTracker                       |
+| [`AddMaximumTangentialStiffness`](#SolutionInformation.AddMaximumTangentialStiffness)               | Creates a new ContactMaximumTangentialStiffnessTracker                            |
+| [`AddMinimumGeometricSlidingDistance`](#SolutionInformation.AddMinimumGeometricSlidingDistance)     | Creates a new ContactMinimumGeometricSlidingDistanceTracker                       |
+| [`AddMinimumTangentialStiffness`](#SolutionInformation.AddMinimumTangentialStiffness)               | Creates a new ContactMinimumTangentialStiffnessTracker                            |
 | [`AddMomentReaction`](#SolutionInformation.AddMomentReaction)                                       | Creates a new MomentReactionTracker                                               |
 | [`AddMomentum`](#SolutionInformation.AddMomentum)                                                   | Creates a new MomentumTracker                                                     |
 | [`AddNonLinearStabilizationEnergy`](#SolutionInformation.AddNonLinearStabilizationEnergy)           | Creates a new NonLinearStabilizationEnergyTracker                                 |
 | [`AddNumberContacting`](#SolutionInformation.AddNumberContacting)                                   | Creates a new NumberContactingTracker                                             |
+| [`AddNumberSticking`](#SolutionInformation.AddNumberSticking)                                       | Creates a new ContactNumberStickingTracker                                        |
+| [`AddNumberWithLargePenetration`](#SolutionInformation.AddNumberWithLargePenetration)               | Creates a new ContactNumberWithLargePenetrationTracker                            |
+| [`AddNumberWithTooMuchSliding`](#SolutionInformation.AddNumberWithTooMuchSliding)                   | Creates a new ContactNumberWithTooMuchSlidingTracker                              |
+| [`AddPenetration`](#SolutionInformation.AddPenetration)                                             | Creates a new ContactPenetrationTracker                                           |
 | [`AddPlasticWork`](#SolutionInformation.AddPlasticWork)                                             | Creates a new PlasticWorkTracker                                                  |
 | [`AddPosition`](#SolutionInformation.AddPosition)                                                   | Creates a new PositionTracker                                                     |
+| [`AddPossibleOverconstraint`](#SolutionInformation.AddPossibleOverconstraint)                       | Creates a new ContactPossibleOverconstraintTracker                                |
 | [`AddPressure`](#SolutionInformation.AddPressure)                                                   | Creates a new PressureTracker                                                     |
+| [`AddResultingPinball`](#SolutionInformation.AddResultingPinball)                                   | Creates a new ContactResultingPinballTracker                                      |
 | [`AddRigidBodyVelocity`](#SolutionInformation.AddRigidBodyVelocity)                                 | Creates a new RigidBodyVelocityTracker                                            |
+| [`AddSlidingDistance`](#SolutionInformation.AddSlidingDistance)                                     | Creates a new ContactSlidingDistanceTracker                                       |
+| [`AddSlidingIndication`](#SolutionInformation.AddSlidingIndication)                                 | Creates a new ContactSlidingIndicationTracker                                     |
 | [`AddSpringTrackerDampingForce`](#SolutionInformation.AddSpringTrackerDampingForce)                 | Creates a new SpringDampingForceTracker                                           |
 | [`AddSpringTrackerElasticForce`](#SolutionInformation.AddSpringTrackerElasticForce)                 | Creates a new SpringElasticForceTracker                                           |
 | [`AddSpringTrackerElongation`](#SolutionInformation.AddSpringTrackerElongation)                     | Creates a new SpringElongationTracker                                             |
 | [`AddSpringTrackerVelocity`](#SolutionInformation.AddSpringTrackerVelocity)                         | Creates a new SpringVelocityTracker                                               |
+| [`AddStabilizationEnergy`](#SolutionInformation.AddStabilizationEnergy)                             | Creates a new ContactStabilizationEnergyTracker                                   |
 | [`AddStiffnessEnergy`](#SolutionInformation.AddStiffnessEnergy)                                     | Creates a new StiffnessEnergyTracker                                              |
+| [`AddStrainEnergy`](#SolutionInformation.AddStrainEnergy)                                           | Creates a new ContactStrainEnergyTracker                                          |
+| [`AddStrainPlotTracker`](#SolutionInformation.AddStrainPlotTracker)                                 | Creates a new EquivalentElasticStrainRST Plot Tracker.                            |
+| [`AddStressPlotTracker`](#SolutionInformation.AddStressPlotTracker)                                 | Creates a new EquivalentStress Plot Tracker.                                      |
+| [`AddTangentialDampingStress`](#SolutionInformation.AddTangentialDampingStress)                     | Creates a new ContactTangentialDampingStressTracker                               |
 | [`AddTemperature`](#SolutionInformation.AddTemperature)                                             | Creates a new TemperatureTracker                                                  |
+| [`AddTemperaturePlotTracker`](#SolutionInformation.AddTemperaturePlotTracker)                       | Creates a new TemperatureResult Plot Tracker.                                     |
 | [`AddTopologyDensity`](#SolutionInformation.AddTopologyDensity)                                     | Creates a new TopologyDensity                                                     |
 | [`AddTopologyElementalDensity`](#SolutionInformation.AddTopologyElementalDensity)                   | Creates a new TopologyElementalDensity                                            |
 | [`AddTotalEnergy`](#SolutionInformation.AddTotalEnergy)                                             | Creates a new TotalEnergyTracker                                                  |
+| [`AddTotalForceFromContactPressureX`](#SolutionInformation.AddTotalForceFromContactPressureX)       | Creates a new ContactTotalForceFromContactPressureXTracker                        |
+| [`AddTotalForceFromContactPressureY`](#SolutionInformation.AddTotalForceFromContactPressureY)       | Creates a new ContactTotalForceFromContactPressureYTracker                        |
+| [`AddTotalForceFromContactPressureZ`](#SolutionInformation.AddTotalForceFromContactPressureZ)       | Creates a new ContactTotalForceFromContactPressureZTracker                        |
+| [`AddTotalForceFromTangentialStressX`](#SolutionInformation.AddTotalForceFromTangentialStressX)     | Creates a new ContactTotalForceFromTangentialStressXTracker                       |
+| [`AddTotalForceFromTangentialStressY`](#SolutionInformation.AddTotalForceFromTangentialStressY)     | Creates a new ContactTotalForceFromTangentialStressYTracker                       |
+| [`AddTotalForceFromTangentialStressZ`](#SolutionInformation.AddTotalForceFromTangentialStressZ)     | Creates a new ContactTotalForceFromTangentialStressZTracker                       |
 | [`AddTotalMassAverageVelocity`](#SolutionInformation.AddTotalMassAverageVelocity)                   | Creates a new TotalMassAverageVelocityTracker                                     |
-| [`RenameBasedOnDefinition`](#SolutionInformation.RenameBasedOnDefinition)                           | Run the RenameBasedOnDefinition action.                                           |
-| [`GetChildren`](#id1)                                                                               | Gets the list of children, filtered by type.                                      |
-| [`GetChildren`](#id1)                                                                               | Gets the list of children, filtered by type.                                      |
-| [`AddComment`](#SolutionInformation.AddComment)                                                     | Creates a new child Comment.                                                      |
-| [`AddFigure`](#SolutionInformation.AddFigure)                                                       | Creates a new child Figure.                                                       |
-| [`AddImage`](#SolutionInformation.AddImage)                                                         | Creates a new child Image.                                                        |
-| [`Activate`](#SolutionInformation.Activate)                                                         | Activate the current object.                                                      |
+| [`AddVolumeLossDueToWear`](#SolutionInformation.AddVolumeLossDueToWear)                             | Creates a new ContactVolumeLossDueToWearTracker                                   |
 | [`CopyTo`](#SolutionInformation.CopyTo)                                                             | Copies all visible properties from this object to another.                        |
+| [`CreateParameter`](#SolutionInformation.CreateParameter)                                           | Creates a new parameter for a Property.                                           |
 | [`Duplicate`](#SolutionInformation.Duplicate)                                                       | Creates a copy of the current DataModelObject.                                    |
+| [`EvaluateAllContactTrackers`](#SolutionInformation.EvaluateAllContactTrackers)                     | Run the EvaluateAllContactTrackers action.                                        |
+| [`GetChildren`](#SolutionInformation.GetChildren)                                                   | Gets the list of children, filtered by type.                                      |
+| [`GetParameter`](#SolutionInformation.GetParameter)                                                 | Gets the parameter corresponding to the given property.                           |
 | [`GroupAllSimilarChildren`](#SolutionInformation.GroupAllSimilarChildren)                           | Run the GroupAllSimilarChildren action.                                           |
 | [`GroupSimilarObjects`](#SolutionInformation.GroupSimilarObjects)                                   | Run the GroupSimilarObjects action.                                               |
-| [`PropertyByName`](#SolutionInformation.PropertyByName)                                             | Get a property by its unique name.                                                |
+| [`ImportResultTrackersFromFile`](#SolutionInformation.ImportResultTrackersFromFile)                 | Import Result Trackers from File.                                                 |
 | [`PropertyByAPIName`](#SolutionInformation.PropertyByAPIName)                                       | Get a property by its API name.                                                   |
-| [`CreateParameter`](#SolutionInformation.CreateParameter)                                           | Creates a new parameter for a Property.                                           |
-| [`GetParameter`](#SolutionInformation.GetParameter)                                                 | Gets the parameter corresponding to the given property.                           |
+| [`PropertyByName`](#SolutionInformation.PropertyByName)                                             | Get a property by its unique name.                                                |
 | [`RemoveParameter`](#SolutionInformation.RemoveParameter)                                           | Removes the parameter from the parameter set corresponding to the given property. |
+| [`RenameBasedOnDefinition`](#SolutionInformation.RenameBasedOnDefinition)                           | Run the RenameBasedOnDefinition action.                                           |
 
 ### Properties
 
 | Name | Description |
-|-------------------------------------------------------------------------------|----------------------------------------------------------------|
-| [`EnvironmentSelection`](#SolutionInformation.EnvironmentSelection)           | Gets or Sets the EnvironmentSelection to an Analysis object.   |
-| [`InternalObject`](#id0)                                                      | Gets the internal object. For advanced usage only.             |
-| [`DisplayPoints`](#SolutionInformation.DisplayPoints)                         | Gets or sets the DisplayPoints.                                |
-| [`IdentifyElementViolations`](#SolutionInformation.IdentifyElementViolations) | Gets or sets the IdentifyElementViolations.                    |
-| [`NewtonRaphsonResiduals`](#SolutionInformation.NewtonRaphsonResiduals)       | Gets or sets the NewtonRaphsonResiduals.                       |
-| [`ModeNumber`](#SolutionInformation.ModeNumber)                               | Gets or sets the ModeNumber.                                   |
-| [`StepNumber`](#SolutionInformation.StepNumber)                               | Gets or sets the StepNumber.                                   |
-| [`UpdateInterval`](#SolutionInformation.UpdateInterval)                       | Gets or sets the UpdateInterval.                               |
-| [`Component`](#SolutionInformation.Component)                                 | Gets or sets the Component.                                    |
-| [`LineColor`](#SolutionInformation.LineColor)                                 | Gets or sets the LineColor.                                    |
-| [`DrawConnectionsAttachedTo`](#SolutionInformation.DrawConnectionsAttachedTo) | Gets or sets the DrawConnectionsAttachedTo.                    |
-| [`Display`](#SolutionInformation.Display)                                     | Gets or sets the Display.                                      |
-| [`DisplayType`](#SolutionInformation.DisplayType)                             | Gets or sets the DisplayType.                                  |
-| [`LineThickness`](#SolutionInformation.LineThickness)                         | Gets or sets the LineThickness.                                |
-| [`SummaryType`](#SolutionInformation.SummaryType)                             | Gets or sets the SummaryType.                                  |
-| [`SolutionOutput`](#SolutionInformation.SolutionOutput)                       | Gets or sets the SolutionOutput.                               |
-| [`StepSelectionMode`](#SolutionInformation.StepSelectionMode)                 | Gets or sets the StepSelectionMode.                            |
-| [`VisibleOnResults`](#SolutionInformation.VisibleOnResults)                   | Gets or sets the VisibleOnResults.                             |
-| [`ActivateVisibility`](#SolutionInformation.ActivateVisibility)               | Gets or sets the ActivateVisibility.                           |
-| [`ShowChargeResiduals`](#SolutionInformation.ShowChargeResiduals)             | Gets or sets the ShowChargeResiduals.                          |
-| [`ShowHeatResiduals`](#SolutionInformation.ShowHeatResiduals)                 | Gets or sets the ShowHeatResiduals.                            |
-| [`ShowMomentResiduals`](#SolutionInformation.ShowMomentResiduals)             | Gets or sets the ShowMomentResiduals.                          |
-| [`DisplayFilterDuringSolve`](#SolutionInformation.DisplayFilterDuringSolve)   | Gets or sets the DisplayFilterDuringSolve.                     |
-| [`ResponseConstraint`](#SolutionInformation.ResponseConstraint)               | Gets or sets the ResponseConstraint.                           |
-| [`DataModelObjectCategory`](#SolutionInformation.DataModelObjectCategory)     | Gets the current DataModelObject's category.                   |
-| [`Children`](#SolutionInformation.Children)                                   | Gets the list of children.                                     |
-| [`Comments`](#SolutionInformation.Comments)                                   | Gets the list of associated comments.                          |
-| [`Figures`](#SolutionInformation.Figures)                                     | Gets the list of associated figures.                           |
-| [`Images`](#SolutionInformation.Images)                                       | Gets the list of associated images.                            |
-| [`InternalObject`](#id0)                                                      | Gets the internal object. For advanced usage only.             |
-| [`Properties`](#SolutionInformation.Properties)                               | Gets the list of properties for this object.                   |
-| [`VisibleProperties`](#SolutionInformation.VisibleProperties)                 | Gets the list of properties that are visible for this object.  |
+|---------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------|
+| [`ActivateVisibility`](#SolutionInformation.ActivateVisibility)               | Gets or sets the ActivateVisibility.                          |
+| [`Children`](#SolutionInformation.Children)                                   | Gets the list of children.                                    |
+| [`Comments`](#SolutionInformation.Comments)                                   | Gets the list of associated comments.                         |
+| [`Component`](#SolutionInformation.Component)                                 | Gets or sets the Component.                                   |
+| [`DataModelObjectCategory`](#SolutionInformation.DataModelObjectCategory)     | Gets the current DataModelObject’s category.                  |
+| [`Display`](#SolutionInformation.Display)                                     | Gets or sets the Display.                                     |
+| [`DisplayFilterDuringSolve`](#SolutionInformation.DisplayFilterDuringSolve)   | Gets or sets the DisplayFilterDuringSolve.                    |
+| [`DisplayPoints`](#SolutionInformation.DisplayPoints)                         | Gets or sets the DisplayPoints.                               |
+| [`DisplayType`](#SolutionInformation.DisplayType)                             | Gets or sets the DisplayType.                                 |
+| [`DrawConnectionsAttachedTo`](#SolutionInformation.DrawConnectionsAttachedTo) | Gets or sets the DrawConnectionsAttachedTo.                   |
+| [`EnvironmentSelection`](#SolutionInformation.EnvironmentSelection)           | Gets or Sets the EnvironmentSelection to an Analysis object.  |
+| [`Figures`](#SolutionInformation.Figures)                                     | Gets the list of associated figures.                          |
+| [`IdentifyElementViolations`](#SolutionInformation.IdentifyElementViolations) | Gets or sets the IdentifyElementViolations.                   |
+| [`Images`](#SolutionInformation.Images)                                       | Gets the list of associated images.                           |
+| [`InternalObject`](#SolutionInformation.InternalObject)                       | Gets the internal object. For advanced usage only.            |
+| [`LineColor`](#SolutionInformation.LineColor)                                 | Gets or sets the LineColor.                                   |
+| [`LineThickness`](#SolutionInformation.LineThickness)                         | Gets or sets the LineThickness.                               |
+| [`ModeNumber`](#SolutionInformation.ModeNumber)                               | Gets or sets the ModeNumber.                                  |
+| [`NewtonRaphsonResiduals`](#SolutionInformation.NewtonRaphsonResiduals)       | Gets or sets the NewtonRaphsonResiduals.                      |
+| [`Properties`](#SolutionInformation.Properties)                               | Gets the list of properties for this object.                  |
+| [`ResponseConstraint`](#SolutionInformation.ResponseConstraint)               | Gets or sets the ResponseConstraint.                          |
+| [`ShowChargeResiduals`](#SolutionInformation.ShowChargeResiduals)             | Gets or sets the ShowChargeResiduals.                         |
+| [`ShowHeatResiduals`](#SolutionInformation.ShowHeatResiduals)                 | Gets or sets the ShowHeatResiduals.                           |
+| [`ShowMomentResiduals`](#SolutionInformation.ShowMomentResiduals)             | Gets or sets the ShowMomentResiduals.                         |
+| [`SolutionOutput`](#SolutionInformation.SolutionOutput)                       | Gets or sets the SolutionOutput.                              |
+| [`StepNumber`](#SolutionInformation.StepNumber)                               | Gets or sets the StepNumber.                                  |
+| [`StepSelectionMode`](#SolutionInformation.StepSelectionMode)                 | Gets or sets the StepSelectionMode.                           |
+| [`SummaryType`](#SolutionInformation.SummaryType)                             | Gets or sets the SummaryType.                                 |
+| [`UpdateInterval`](#SolutionInformation.UpdateInterval)                       | Gets or sets the UpdateInterval.                              |
+| [`VisibleOnResults`](#SolutionInformation.VisibleOnResults)                   | Gets or sets the VisibleOnResults.                            |
+| [`VisibleProperties`](#SolutionInformation.VisibleProperties)                 | Gets the list of properties that are visible for this object. |
 
 <a id="property-detail"></a>
 
 ## Property detail
 
-<a id="SolutionInformation.EnvironmentSelection"></a>
+<a id="SolutionInformation.ActivateVisibility"></a>
 
-### *property* SolutionInformation.EnvironmentSelection *: System.Object | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* SolutionInformation.ActivateVisibility *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets or Sets the EnvironmentSelection to an Analysis object.
+Gets or sets the ActivateVisibility.
 
 <!-- !! processed by numpydoc !! -->
 
-<a id="SolutionInformation.InternalObject"></a>
+<a id="SolutionInformation.Children"></a>
 
-### *property* SolutionInformation.InternalObject *: Ansys.Common.Interop.DSObjectsAuto.IDSSolutionInfoToolAuto | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* SolutionInformation.Children *: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets the internal object. For advanced usage only.
+Gets the list of children.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="SolutionInformation.Comments"></a>
+
+### *property* SolutionInformation.Comments *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Comment](../../../../../v241/Ansys/ACT/Automation/Mechanical/Comment.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets the list of associated comments.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="SolutionInformation.Component"></a>
+
+### *property* SolutionInformation.Component *: [Ansys.Mechanical.DataModel.Enums.OptimizationResponseConstraintComponentType](../../../Mechanical/DataModel/Enums/OptimizationResponseConstraintComponentType.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.OptimizationResponseConstraintComponentType) | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the Component.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="SolutionInformation.DataModelObjectCategory"></a>
+
+### *property* SolutionInformation.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets the current DataModelObject’s category.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="SolutionInformation.Display"></a>
+
+### *property* SolutionInformation.Display *: [Ansys.Mechanical.DataModel.Enums.FEConnectionDisplay](../../../Mechanical/DataModel/Enums/FEConnectionDisplay.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.FEConnectionDisplay) | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the Display.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="SolutionInformation.DisplayFilterDuringSolve"></a>
+
+### *property* SolutionInformation.DisplayFilterDuringSolve *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the DisplayFilterDuringSolve.
 
 <!-- !! processed by numpydoc !! -->
 
@@ -183,6 +221,38 @@ Gets or sets the DisplayPoints.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="SolutionInformation.DisplayType"></a>
+
+### *property* SolutionInformation.DisplayType *: [Ansys.Mechanical.DataModel.Enums.FEConnectionDisplayType](../../../Mechanical/DataModel/Enums/FEConnectionDisplayType.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.FEConnectionDisplayType) | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the DisplayType.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="SolutionInformation.DrawConnectionsAttachedTo"></a>
+
+### *property* SolutionInformation.DrawConnectionsAttachedTo *: [Ansys.Mechanical.DataModel.Enums.NodeSelection](../../../Mechanical/DataModel/Enums/NodeSelection.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.NodeSelection) | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the DrawConnectionsAttachedTo.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="SolutionInformation.EnvironmentSelection"></a>
+
+### *property* SolutionInformation.EnvironmentSelection *: System.Object | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or Sets the EnvironmentSelection to an Analysis object.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="SolutionInformation.Figures"></a>
+
+### *property* SolutionInformation.Figures *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Figure](../../../../../v241/Ansys/ACT/Automation/Mechanical/Figure.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets the list of associated figures.
+
+<!-- !! processed by numpydoc !! -->
+
 <a id="SolutionInformation.IdentifyElementViolations"></a>
 
 ### *property* SolutionInformation.IdentifyElementViolations *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
@@ -191,11 +261,35 @@ Gets or sets the IdentifyElementViolations.
 
 <!-- !! processed by numpydoc !! -->
 
-<a id="SolutionInformation.NewtonRaphsonResiduals"></a>
+<a id="SolutionInformation.Images"></a>
 
-### *property* SolutionInformation.NewtonRaphsonResiduals *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* SolutionInformation.Images *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Image](../../../../../v241/Ansys/ACT/Automation/Mechanical/Image.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets or sets the NewtonRaphsonResiduals.
+Gets the list of associated images.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="SolutionInformation.InternalObject"></a>
+
+### *property* SolutionInformation.InternalObject *: Ansys.Common.Interop.DSObjectsAuto.IDSSolutionInfoToolAuto | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets the internal object. For advanced usage only.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="SolutionInformation.LineColor"></a>
+
+### *property* SolutionInformation.LineColor *: [Ansys.Mechanical.DataModel.Enums.FEConnectionLineColor](../../../Mechanical/DataModel/Enums/FEConnectionLineColor.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.FEConnectionLineColor) | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the LineColor.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="SolutionInformation.LineThickness"></a>
+
+### *property* SolutionInformation.LineThickness *: [Ansys.Mechanical.DataModel.Enums.FEConnectionLineThicknessType](../../../Mechanical/DataModel/Enums/FEConnectionLineThicknessType.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.FEConnectionLineThicknessType) | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the LineThickness.
 
 <!-- !! processed by numpydoc !! -->
 
@@ -207,107 +301,27 @@ Gets or sets the ModeNumber.
 
 <!-- !! processed by numpydoc !! -->
 
-<a id="SolutionInformation.StepNumber"></a>
+<a id="SolutionInformation.NewtonRaphsonResiduals"></a>
 
-### *property* SolutionInformation.StepNumber *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* SolutionInformation.NewtonRaphsonResiduals *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets or sets the StepNumber.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="SolutionInformation.UpdateInterval"></a>
-
-### *property* SolutionInformation.UpdateInterval *: System.Double | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the UpdateInterval.
+Gets or sets the NewtonRaphsonResiduals.
 
 <!-- !! processed by numpydoc !! -->
 
-<a id="SolutionInformation.Component"></a>
+<a id="SolutionInformation.Properties"></a>
 
-### *property* SolutionInformation.Component *: [Ansys.Mechanical.DataModel.Enums.OptimizationResponseConstraintComponentType](../../../../../v241/Ansys/Mechanical/DataModel/Enums/OptimizationResponseConstraintComponentType.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.OptimizationResponseConstraintComponentType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* SolutionInformation.Properties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets or sets the Component.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="SolutionInformation.LineColor"></a>
-
-### *property* SolutionInformation.LineColor *: [Ansys.Mechanical.DataModel.Enums.FEConnectionLineColor](../../../../../v241/Ansys/Mechanical/DataModel/Enums/FEConnectionLineColor.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.FEConnectionLineColor) | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the LineColor.
+Gets the list of properties for this object.
 
 <!-- !! processed by numpydoc !! -->
 
-<a id="SolutionInformation.DrawConnectionsAttachedTo"></a>
+<a id="SolutionInformation.ResponseConstraint"></a>
 
-### *property* SolutionInformation.DrawConnectionsAttachedTo *: [Ansys.Mechanical.DataModel.Enums.NodeSelection](../../../../../v241/Ansys/Mechanical/DataModel/Enums/NodeSelection.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.NodeSelection) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* SolutionInformation.ResponseConstraint *: [Ansys.ACT.Automation.Mechanical.ResponseConstraint](ResponseConstraint.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.ResponseConstraint) | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets or sets the DrawConnectionsAttachedTo.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="SolutionInformation.Display"></a>
-
-### *property* SolutionInformation.Display *: [Ansys.Mechanical.DataModel.Enums.FEConnectionDisplay](../../../../../v241/Ansys/Mechanical/DataModel/Enums/FEConnectionDisplay.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.FEConnectionDisplay) | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the Display.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="SolutionInformation.DisplayType"></a>
-
-### *property* SolutionInformation.DisplayType *: [Ansys.Mechanical.DataModel.Enums.FEConnectionDisplayType](../../../../../v241/Ansys/Mechanical/DataModel/Enums/FEConnectionDisplayType.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.FEConnectionDisplayType) | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the DisplayType.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="SolutionInformation.LineThickness"></a>
-
-### *property* SolutionInformation.LineThickness *: [Ansys.Mechanical.DataModel.Enums.FEConnectionLineThicknessType](../../../../../v241/Ansys/Mechanical/DataModel/Enums/FEConnectionLineThicknessType.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.FEConnectionLineThicknessType) | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the LineThickness.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="SolutionInformation.SummaryType"></a>
-
-### *property* SolutionInformation.SummaryType *: [Ansys.Mechanical.DataModel.Enums.PFactorResultType](../../../../../v241/Ansys/Mechanical/DataModel/Enums/PFactorResultType.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.PFactorResultType) | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the SummaryType.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="SolutionInformation.SolutionOutput"></a>
-
-### *property* SolutionInformation.SolutionOutput *: [Ansys.Mechanical.DataModel.Enums.SolutionOutputType](../../../../../v241/Ansys/Mechanical/DataModel/Enums/SolutionOutputType.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.SolutionOutputType) | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the SolutionOutput.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="SolutionInformation.StepSelectionMode"></a>
-
-### *property* SolutionInformation.StepSelectionMode *: [Ansys.Mechanical.DataModel.Enums.SeqSelectionMode](../../../../../v241/Ansys/Mechanical/DataModel/Enums/SeqSelectionMode.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.SeqSelectionMode) | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the StepSelectionMode.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="SolutionInformation.VisibleOnResults"></a>
-
-### *property* SolutionInformation.VisibleOnResults *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the VisibleOnResults.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="SolutionInformation.ActivateVisibility"></a>
-
-### *property* SolutionInformation.ActivateVisibility *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the ActivateVisibility.
+Gets or sets the ResponseConstraint.
 
 <!-- !! processed by numpydoc !! -->
 
@@ -335,75 +349,51 @@ Gets or sets the ShowMomentResiduals.
 
 <!-- !! processed by numpydoc !! -->
 
-<a id="SolutionInformation.DisplayFilterDuringSolve"></a>
+<a id="SolutionInformation.SolutionOutput"></a>
 
-### *property* SolutionInformation.DisplayFilterDuringSolve *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* SolutionInformation.SolutionOutput *: [Ansys.Mechanical.DataModel.Enums.SolutionOutputType](../../../Mechanical/DataModel/Enums/SolutionOutputType.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.SolutionOutputType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets or sets the DisplayFilterDuringSolve.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="SolutionInformation.ResponseConstraint"></a>
-
-### *property* SolutionInformation.ResponseConstraint *: [Ansys.ACT.Automation.Mechanical.ResponseConstraint](../../../../../v241/Ansys/ACT/Automation/Mechanical/ResponseConstraint.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.ResponseConstraint) | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the ResponseConstraint.
+Gets or sets the SolutionOutput.
 
 <!-- !! processed by numpydoc !! -->
 
-<a id="SolutionInformation.DataModelObjectCategory"></a>
+<a id="SolutionInformation.StepNumber"></a>
 
-### *property* SolutionInformation.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../v241/Ansys/Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* SolutionInformation.StepNumber *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets the current DataModelObject's category.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="SolutionInformation.Children"></a>
-
-### *property* SolutionInformation.Children *: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets the list of children.
+Gets or sets the StepNumber.
 
 <!-- !! processed by numpydoc !! -->
 
-<a id="SolutionInformation.Comments"></a>
+<a id="SolutionInformation.StepSelectionMode"></a>
 
-### *property* SolutionInformation.Comments *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Comment](../../../../../v241/Ansys/ACT/Automation/Mechanical/Comment.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* SolutionInformation.StepSelectionMode *: [Ansys.Mechanical.DataModel.Enums.SeqSelectionMode](../../../Mechanical/DataModel/Enums/SeqSelectionMode.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.SeqSelectionMode) | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets the list of associated comments.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="SolutionInformation.Figures"></a>
-
-### *property* SolutionInformation.Figures *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Figure](../../../../../v241/Ansys/ACT/Automation/Mechanical/Figure.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets the list of associated figures.
+Gets or sets the StepSelectionMode.
 
 <!-- !! processed by numpydoc !! -->
 
-<a id="SolutionInformation.Images"></a>
+<a id="SolutionInformation.SummaryType"></a>
 
-### *property* SolutionInformation.Images *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Image](../../../../../v241/Ansys/ACT/Automation/Mechanical/Image.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* SolutionInformation.SummaryType *: [Ansys.Mechanical.DataModel.Enums.PFactorResultType](../../../Mechanical/DataModel/Enums/PFactorResultType.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.PFactorResultType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets the list of associated images.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="id0"></a>
-
-### *property* SolutionInformation.InternalObject *: System.Object | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets the internal object. For advanced usage only.
+Gets or sets the SummaryType.
 
 <!-- !! processed by numpydoc !! -->
 
-<a id="SolutionInformation.Properties"></a>
+<a id="SolutionInformation.UpdateInterval"></a>
 
-### *property* SolutionInformation.Properties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* SolutionInformation.UpdateInterval *: System.Double | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets the list of properties for this object.
+Gets or sets the UpdateInterval.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="SolutionInformation.VisibleOnResults"></a>
+
+### *property* SolutionInformation.VisibleOnResults *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the VisibleOnResults.
 
 <!-- !! processed by numpydoc !! -->
 
@@ -419,51 +409,11 @@ Gets the list of properties that are visible for this object.
 
 ## Method detail
 
-<a id="SolutionInformation.ImportResultTrackersFromFile"></a>
+<a id="SolutionInformation.Activate"></a>
 
-### SolutionInformation.ImportResultTrackersFromFile(fileName: System.String)
+### SolutionInformation.Activate()
 
-Import Result Trackers from File.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="SolutionInformation.AddDeformationPlotTracker"></a>
-
-### SolutionInformation.AddDeformationPlotTracker()
-
-Creates a new TotalDeformation Plot Tracker.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="SolutionInformation.AddStressPlotTracker"></a>
-
-### SolutionInformation.AddStressPlotTracker()
-
-Creates a new EquivalentStress Plot Tracker.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="SolutionInformation.AddStrainPlotTracker"></a>
-
-### SolutionInformation.AddStrainPlotTracker()
-
-Creates a new EquivalentElasticStrainRST Plot Tracker.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="SolutionInformation.AddTemperaturePlotTracker"></a>
-
-### SolutionInformation.AddTemperaturePlotTracker()
-
-Creates a new TemperatureResult Plot Tracker.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="SolutionInformation.EvaluateAllContactTrackers"></a>
-
-### SolutionInformation.EvaluateAllContactTrackers()
-
-Run the EvaluateAllContactTrackers action.
+Activate the current object.
 
 <!-- !! processed by numpydoc !! -->
 
@@ -499,19 +449,19 @@ Creates a new ContactClosedPenetrationTracker
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="SolutionInformation.AddComment"></a>
+
+### SolutionInformation.AddComment()
+
+Creates a new child Comment.
+
+<!-- !! processed by numpydoc !! -->
+
 <a id="SolutionInformation.AddContactDepth"></a>
 
 ### SolutionInformation.AddContactDepth()
 
 Creates a new ContactDepthTracker
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="SolutionInformation.AddElasticSlip"></a>
-
-### SolutionInformation.AddElasticSlip()
-
-Creates a new ContactElasticSlipTracker
 
 <!-- !! processed by numpydoc !! -->
 
@@ -523,43 +473,11 @@ Creates a new ContactEnergyTracker
 
 <!-- !! processed by numpydoc !! -->
 
-<a id="SolutionInformation.AddFluidPressure"></a>
-
-### SolutionInformation.AddFluidPressure()
-
-Creates a new ContactFluidPressureTracker
-
-<!-- !! processed by numpydoc !! -->
-
 <a id="SolutionInformation.AddContactForce"></a>
 
 ### SolutionInformation.AddContactForce()
 
 Creates a new ContactForceTracker
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="SolutionInformation.AddFrictionalDissipationEnergy"></a>
-
-### SolutionInformation.AddFrictionalDissipationEnergy()
-
-Creates a new ContactFrictionalDissipationEnergyTracker
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="SolutionInformation.AddFrictionalStress"></a>
-
-### SolutionInformation.AddFrictionalStress()
-
-Creates a new ContactFrictionalStressTracker
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="SolutionInformation.AddGap"></a>
-
-### SolutionInformation.AddGap()
-
-Creates a new ContactGapTracker
 
 <!-- !! processed by numpydoc !! -->
 
@@ -571,27 +489,11 @@ Creates a new ContactHeatFluxTracker
 
 <!-- !! processed by numpydoc !! -->
 
-<a id="SolutionInformation.AddContactingArea"></a>
+<a id="SolutionInformation.AddContactMaxTangentialFluidPressure"></a>
 
-### SolutionInformation.AddContactingArea()
+### SolutionInformation.AddContactMaxTangentialFluidPressure()
 
-Creates a new ContactingAreaTracker
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="SolutionInformation.AddMaximumDampingPressure"></a>
-
-### SolutionInformation.AddMaximumDampingPressure()
-
-Creates a new ContactMaximumDampingPressureTracker
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="SolutionInformation.AddMaximumGeometricSlidingDistance"></a>
-
-### SolutionInformation.AddMaximumGeometricSlidingDistance()
-
-Creates a new ContactMaximumGeometricSlidingDistanceTracker
+Creates a new ContactMaxTangentialFluidPressureTracker
 
 <!-- !! processed by numpydoc !! -->
 
@@ -603,67 +505,11 @@ Creates a new ContactMaximumNormalStiffnessTracker
 
 <!-- !! processed by numpydoc !! -->
 
-<a id="SolutionInformation.AddMaximumTangentialStiffness"></a>
-
-### SolutionInformation.AddMaximumTangentialStiffness()
-
-Creates a new ContactMaximumTangentialStiffnessTracker
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="SolutionInformation.AddContactMaxTangentialFluidPressure"></a>
-
-### SolutionInformation.AddContactMaxTangentialFluidPressure()
-
-Creates a new ContactMaxTangentialFluidPressureTracker
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="SolutionInformation.AddMinimumGeometricSlidingDistance"></a>
-
-### SolutionInformation.AddMinimumGeometricSlidingDistance()
-
-Creates a new ContactMinimumGeometricSlidingDistanceTracker
-
-<!-- !! processed by numpydoc !! -->
-
 <a id="SolutionInformation.AddContactMinimumNormalStiffness"></a>
 
 ### SolutionInformation.AddContactMinimumNormalStiffness()
 
 Creates a new ContactMinimumNormalStiffnessTracker
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="SolutionInformation.AddMinimumTangentialStiffness"></a>
-
-### SolutionInformation.AddMinimumTangentialStiffness()
-
-Creates a new ContactMinimumTangentialStiffnessTracker
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="SolutionInformation.AddNumberSticking"></a>
-
-### SolutionInformation.AddNumberSticking()
-
-Creates a new ContactNumberStickingTracker
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="SolutionInformation.AddNumberWithLargePenetration"></a>
-
-### SolutionInformation.AddNumberWithLargePenetration()
-
-Creates a new ContactNumberWithLargePenetrationTracker
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="SolutionInformation.AddNumberWithTooMuchSliding"></a>
-
-### SolutionInformation.AddNumberWithTooMuchSliding()
-
-Creates a new ContactNumberWithTooMuchSlidingTracker
 
 <!-- !! processed by numpydoc !! -->
 
@@ -675,22 +521,6 @@ Creates a new ContactPairForceConvergenceNormTracker
 
 <!-- !! processed by numpydoc !! -->
 
-<a id="SolutionInformation.AddPenetration"></a>
-
-### SolutionInformation.AddPenetration()
-
-Creates a new ContactPenetrationTracker
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="SolutionInformation.AddPossibleOverconstraint"></a>
-
-### SolutionInformation.AddPossibleOverconstraint()
-
-Creates a new ContactPossibleOverconstraintTracker
-
-<!-- !! processed by numpydoc !! -->
-
 <a id="SolutionInformation.AddContactPressure"></a>
 
 ### SolutionInformation.AddContactPressure()
@@ -699,107 +529,11 @@ Creates a new ContactPressureTracker
 
 <!-- !! processed by numpydoc !! -->
 
-<a id="SolutionInformation.AddResultingPinball"></a>
+<a id="SolutionInformation.AddContactingArea"></a>
 
-### SolutionInformation.AddResultingPinball()
+### SolutionInformation.AddContactingArea()
 
-Creates a new ContactResultingPinballTracker
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="SolutionInformation.AddSlidingDistance"></a>
-
-### SolutionInformation.AddSlidingDistance()
-
-Creates a new ContactSlidingDistanceTracker
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="SolutionInformation.AddSlidingIndication"></a>
-
-### SolutionInformation.AddSlidingIndication()
-
-Creates a new ContactSlidingIndicationTracker
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="SolutionInformation.AddStabilizationEnergy"></a>
-
-### SolutionInformation.AddStabilizationEnergy()
-
-Creates a new ContactStabilizationEnergyTracker
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="SolutionInformation.AddStrainEnergy"></a>
-
-### SolutionInformation.AddStrainEnergy()
-
-Creates a new ContactStrainEnergyTracker
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="SolutionInformation.AddTangentialDampingStress"></a>
-
-### SolutionInformation.AddTangentialDampingStress()
-
-Creates a new ContactTangentialDampingStressTracker
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="SolutionInformation.AddTotalForceFromContactPressureX"></a>
-
-### SolutionInformation.AddTotalForceFromContactPressureX()
-
-Creates a new ContactTotalForceFromContactPressureXTracker
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="SolutionInformation.AddTotalForceFromContactPressureY"></a>
-
-### SolutionInformation.AddTotalForceFromContactPressureY()
-
-Creates a new ContactTotalForceFromContactPressureYTracker
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="SolutionInformation.AddTotalForceFromContactPressureZ"></a>
-
-### SolutionInformation.AddTotalForceFromContactPressureZ()
-
-Creates a new ContactTotalForceFromContactPressureZTracker
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="SolutionInformation.AddTotalForceFromTangentialStressX"></a>
-
-### SolutionInformation.AddTotalForceFromTangentialStressX()
-
-Creates a new ContactTotalForceFromTangentialStressXTracker
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="SolutionInformation.AddTotalForceFromTangentialStressY"></a>
-
-### SolutionInformation.AddTotalForceFromTangentialStressY()
-
-Creates a new ContactTotalForceFromTangentialStressYTracker
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="SolutionInformation.AddTotalForceFromTangentialStressZ"></a>
-
-### SolutionInformation.AddTotalForceFromTangentialStressZ()
-
-Creates a new ContactTotalForceFromTangentialStressZTracker
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="SolutionInformation.AddVolumeLossDueToWear"></a>
-
-### SolutionInformation.AddVolumeLossDueToWear()
-
-Creates a new ContactVolumeLossDueToWearTracker
+Creates a new ContactingAreaTracker
 
 <!-- !! processed by numpydoc !! -->
 
@@ -808,6 +542,14 @@ Creates a new ContactVolumeLossDueToWearTracker
 ### SolutionInformation.AddDampingEnergy()
 
 Creates a new DampingEnergyTracker
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="SolutionInformation.AddDeformationPlotTracker"></a>
+
+### SolutionInformation.AddDeformationPlotTracker()
+
+Creates a new TotalDeformation Plot Tracker.
 
 <!-- !! processed by numpydoc !! -->
 
@@ -859,6 +601,14 @@ Creates a new EffectiveStressTracker
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="SolutionInformation.AddElasticSlip"></a>
+
+### SolutionInformation.AddElasticSlip()
+
+Creates a new ContactElasticSlipTracker
+
+<!-- !! processed by numpydoc !! -->
+
 <a id="SolutionInformation.AddErodedInternalEnergy"></a>
 
 ### SolutionInformation.AddErodedInternalEnergy()
@@ -883,6 +633,22 @@ Creates a new ExternalForceTracker
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="SolutionInformation.AddFigure"></a>
+
+### SolutionInformation.AddFigure()
+
+Creates a new child Figure.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="SolutionInformation.AddFluidPressure"></a>
+
+### SolutionInformation.AddFluidPressure()
+
+Creates a new ContactFluidPressureTracker
+
+<!-- !! processed by numpydoc !! -->
+
 <a id="SolutionInformation.AddForceReaction"></a>
 
 ### SolutionInformation.AddForceReaction()
@@ -891,11 +657,47 @@ Creates a new ForceReactionTracker
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="SolutionInformation.AddFrictionalDissipationEnergy"></a>
+
+### SolutionInformation.AddFrictionalDissipationEnergy()
+
+Creates a new ContactFrictionalDissipationEnergyTracker
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="SolutionInformation.AddFrictionalStress"></a>
+
+### SolutionInformation.AddFrictionalStress()
+
+Creates a new ContactFrictionalStressTracker
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="SolutionInformation.AddGap"></a>
+
+### SolutionInformation.AddGap()
+
+Creates a new ContactGapTracker
+
+<!-- !! processed by numpydoc !! -->
+
 <a id="SolutionInformation.AddHourglassEnergy"></a>
 
 ### SolutionInformation.AddHourglassEnergy()
 
 Creates a new HourglassEnergyTracker
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="SolutionInformation.AddImage"></a>
+
+### SolutionInformation.AddImage(filePath: System.String)
+
+```text
+Creates a new child Image.
+If a filePath is provided, the image will be loaded from that file,
+if not, the image will be a screen capture of the Geometry window.
+```
 
 <!-- !! processed by numpydoc !! -->
 
@@ -915,6 +717,14 @@ Creates a new KineticEnergyTracker
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="SolutionInformation.AddLSDYNAGeneralTracker"></a>
+
+### SolutionInformation.AddLSDYNAGeneralTracker()
+
+Creates a new LSDYNAGeneralTracker
+
+<!-- !! processed by numpydoc !! -->
+
 <a id="SolutionInformation.AddLatticeDensity"></a>
 
 ### SolutionInformation.AddLatticeDensity()
@@ -931,11 +741,43 @@ Creates a new LatticeElementalDensity
 
 <!-- !! processed by numpydoc !! -->
 
-<a id="SolutionInformation.AddLSDYNAGeneralTracker"></a>
+<a id="SolutionInformation.AddMaximumDampingPressure"></a>
 
-### SolutionInformation.AddLSDYNAGeneralTracker()
+### SolutionInformation.AddMaximumDampingPressure()
 
-Creates a new LSDYNAGeneralTracker
+Creates a new ContactMaximumDampingPressureTracker
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="SolutionInformation.AddMaximumGeometricSlidingDistance"></a>
+
+### SolutionInformation.AddMaximumGeometricSlidingDistance()
+
+Creates a new ContactMaximumGeometricSlidingDistanceTracker
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="SolutionInformation.AddMaximumTangentialStiffness"></a>
+
+### SolutionInformation.AddMaximumTangentialStiffness()
+
+Creates a new ContactMaximumTangentialStiffnessTracker
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="SolutionInformation.AddMinimumGeometricSlidingDistance"></a>
+
+### SolutionInformation.AddMinimumGeometricSlidingDistance()
+
+Creates a new ContactMinimumGeometricSlidingDistanceTracker
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="SolutionInformation.AddMinimumTangentialStiffness"></a>
+
+### SolutionInformation.AddMinimumTangentialStiffness()
+
+Creates a new ContactMinimumTangentialStiffnessTracker
 
 <!-- !! processed by numpydoc !! -->
 
@@ -971,6 +813,38 @@ Creates a new NumberContactingTracker
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="SolutionInformation.AddNumberSticking"></a>
+
+### SolutionInformation.AddNumberSticking()
+
+Creates a new ContactNumberStickingTracker
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="SolutionInformation.AddNumberWithLargePenetration"></a>
+
+### SolutionInformation.AddNumberWithLargePenetration()
+
+Creates a new ContactNumberWithLargePenetrationTracker
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="SolutionInformation.AddNumberWithTooMuchSliding"></a>
+
+### SolutionInformation.AddNumberWithTooMuchSliding()
+
+Creates a new ContactNumberWithTooMuchSlidingTracker
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="SolutionInformation.AddPenetration"></a>
+
+### SolutionInformation.AddPenetration()
+
+Creates a new ContactPenetrationTracker
+
+<!-- !! processed by numpydoc !! -->
+
 <a id="SolutionInformation.AddPlasticWork"></a>
 
 ### SolutionInformation.AddPlasticWork()
@@ -987,6 +861,14 @@ Creates a new PositionTracker
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="SolutionInformation.AddPossibleOverconstraint"></a>
+
+### SolutionInformation.AddPossibleOverconstraint()
+
+Creates a new ContactPossibleOverconstraintTracker
+
+<!-- !! processed by numpydoc !! -->
+
 <a id="SolutionInformation.AddPressure"></a>
 
 ### SolutionInformation.AddPressure()
@@ -995,11 +877,35 @@ Creates a new PressureTracker
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="SolutionInformation.AddResultingPinball"></a>
+
+### SolutionInformation.AddResultingPinball()
+
+Creates a new ContactResultingPinballTracker
+
+<!-- !! processed by numpydoc !! -->
+
 <a id="SolutionInformation.AddRigidBodyVelocity"></a>
 
 ### SolutionInformation.AddRigidBodyVelocity()
 
 Creates a new RigidBodyVelocityTracker
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="SolutionInformation.AddSlidingDistance"></a>
+
+### SolutionInformation.AddSlidingDistance()
+
+Creates a new ContactSlidingDistanceTracker
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="SolutionInformation.AddSlidingIndication"></a>
+
+### SolutionInformation.AddSlidingIndication()
+
+Creates a new ContactSlidingIndicationTracker
 
 <!-- !! processed by numpydoc !! -->
 
@@ -1035,6 +941,14 @@ Creates a new SpringVelocityTracker
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="SolutionInformation.AddStabilizationEnergy"></a>
+
+### SolutionInformation.AddStabilizationEnergy()
+
+Creates a new ContactStabilizationEnergyTracker
+
+<!-- !! processed by numpydoc !! -->
+
 <a id="SolutionInformation.AddStiffnessEnergy"></a>
 
 ### SolutionInformation.AddStiffnessEnergy()
@@ -1043,11 +957,51 @@ Creates a new StiffnessEnergyTracker
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="SolutionInformation.AddStrainEnergy"></a>
+
+### SolutionInformation.AddStrainEnergy()
+
+Creates a new ContactStrainEnergyTracker
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="SolutionInformation.AddStrainPlotTracker"></a>
+
+### SolutionInformation.AddStrainPlotTracker()
+
+Creates a new EquivalentElasticStrainRST Plot Tracker.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="SolutionInformation.AddStressPlotTracker"></a>
+
+### SolutionInformation.AddStressPlotTracker()
+
+Creates a new EquivalentStress Plot Tracker.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="SolutionInformation.AddTangentialDampingStress"></a>
+
+### SolutionInformation.AddTangentialDampingStress()
+
+Creates a new ContactTangentialDampingStressTracker
+
+<!-- !! processed by numpydoc !! -->
+
 <a id="SolutionInformation.AddTemperature"></a>
 
 ### SolutionInformation.AddTemperature()
 
 Creates a new TemperatureTracker
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="SolutionInformation.AddTemperaturePlotTracker"></a>
+
+### SolutionInformation.AddTemperaturePlotTracker()
+
+Creates a new TemperatureResult Plot Tracker.
 
 <!-- !! processed by numpydoc !! -->
 
@@ -1075,6 +1029,54 @@ Creates a new TotalEnergyTracker
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="SolutionInformation.AddTotalForceFromContactPressureX"></a>
+
+### SolutionInformation.AddTotalForceFromContactPressureX()
+
+Creates a new ContactTotalForceFromContactPressureXTracker
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="SolutionInformation.AddTotalForceFromContactPressureY"></a>
+
+### SolutionInformation.AddTotalForceFromContactPressureY()
+
+Creates a new ContactTotalForceFromContactPressureYTracker
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="SolutionInformation.AddTotalForceFromContactPressureZ"></a>
+
+### SolutionInformation.AddTotalForceFromContactPressureZ()
+
+Creates a new ContactTotalForceFromContactPressureZTracker
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="SolutionInformation.AddTotalForceFromTangentialStressX"></a>
+
+### SolutionInformation.AddTotalForceFromTangentialStressX()
+
+Creates a new ContactTotalForceFromTangentialStressXTracker
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="SolutionInformation.AddTotalForceFromTangentialStressY"></a>
+
+### SolutionInformation.AddTotalForceFromTangentialStressY()
+
+Creates a new ContactTotalForceFromTangentialStressYTracker
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="SolutionInformation.AddTotalForceFromTangentialStressZ"></a>
+
+### SolutionInformation.AddTotalForceFromTangentialStressZ()
+
+Creates a new ContactTotalForceFromTangentialStressZTracker
+
+<!-- !! processed by numpydoc !! -->
+
 <a id="SolutionInformation.AddTotalMassAverageVelocity"></a>
 
 ### SolutionInformation.AddTotalMassAverageVelocity()
@@ -1083,61 +1085,11 @@ Creates a new TotalMassAverageVelocityTracker
 
 <!-- !! processed by numpydoc !! -->
 
-<a id="SolutionInformation.RenameBasedOnDefinition"></a>
+<a id="SolutionInformation.AddVolumeLossDueToWear"></a>
 
-### SolutionInformation.RenameBasedOnDefinition()
+### SolutionInformation.AddVolumeLossDueToWear()
 
-Run the RenameBasedOnDefinition action.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="SolutionInformation.GetChildren"></a>
-
-### SolutionInformation.GetChildren(recurses: System.Boolean, children: System.Collections.Generic.IList[ChildrenType])
-
-Gets the list of children, filtered by type.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="id1"></a>
-
-### SolutionInformation.GetChildren(category: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../v241/Ansys/Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory), recurses: System.Boolean, children: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject])
-
-Gets the list of children, filtered by type.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="SolutionInformation.AddComment"></a>
-
-### SolutionInformation.AddComment()
-
-Creates a new child Comment.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="SolutionInformation.AddFigure"></a>
-
-### SolutionInformation.AddFigure()
-
-Creates a new child Figure.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="SolutionInformation.AddImage"></a>
-
-### SolutionInformation.AddImage(filePath: System.String)
-
-Creates a new child Image.
-If a filePath is provided, the image will be loaded from that file,
-if not, the image will be a screen capture of the Geometry window.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="SolutionInformation.Activate"></a>
-
-### SolutionInformation.Activate()
-
-Activate the current object.
+Creates a new ContactVolumeLossDueToWearTracker
 
 <!-- !! processed by numpydoc !! -->
 
@@ -1149,11 +1101,43 @@ Copies all visible properties from this object to another.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="SolutionInformation.CreateParameter"></a>
+
+### SolutionInformation.CreateParameter(propName: System.String)
+
+Creates a new parameter for a Property.
+
+<!-- !! processed by numpydoc !! -->
+
 <a id="SolutionInformation.Duplicate"></a>
 
 ### SolutionInformation.Duplicate()
 
 Creates a copy of the current DataModelObject.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="SolutionInformation.EvaluateAllContactTrackers"></a>
+
+### SolutionInformation.EvaluateAllContactTrackers()
+
+Run the EvaluateAllContactTrackers action.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="SolutionInformation.GetChildren"></a>
+
+### SolutionInformation.GetChildren(recurses: System.Boolean, children: System.Collections.Generic.IList[ChildrenType])
+
+Gets the list of children, filtered by type.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="SolutionInformation.GetParameter"></a>
+
+### SolutionInformation.GetParameter(propName: System.String)
+
+Gets the parameter corresponding to the given property.
 
 <!-- !! processed by numpydoc !! -->
 
@@ -1173,6 +1157,25 @@ Run the GroupSimilarObjects action.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="SolutionInformation.ImportResultTrackersFromFile"></a>
+
+### SolutionInformation.ImportResultTrackersFromFile(fileName: System.String)
+
+Import Result Trackers from File.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="SolutionInformation.PropertyByAPIName"></a>
+
+### SolutionInformation.PropertyByAPIName(name: System.String)
+
+```text
+Get a property by its API name.
+If multiple properties have the same API Name, only the first property with that name will be returned.
+```
+
+<!-- !! processed by numpydoc !! -->
+
 <a id="SolutionInformation.PropertyByName"></a>
 
 ### SolutionInformation.PropertyByName(name: System.String)
@@ -1181,36 +1184,19 @@ Get a property by its unique name.
 
 <!-- !! processed by numpydoc !! -->
 
-<a id="SolutionInformation.PropertyByAPIName"></a>
-
-### SolutionInformation.PropertyByAPIName(name: System.String)
-
-Get a property by its API name.
-If multiple properties have the same API Name, only the first property with that name will be returned.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="SolutionInformation.CreateParameter"></a>
-
-### SolutionInformation.CreateParameter(propName: System.String)
-
-Creates a new parameter for a Property.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="SolutionInformation.GetParameter"></a>
-
-### SolutionInformation.GetParameter(propName: System.String)
-
-Gets the parameter corresponding to the given property.
-
-<!-- !! processed by numpydoc !! -->
-
 <a id="SolutionInformation.RemoveParameter"></a>
 
 ### SolutionInformation.RemoveParameter(propName: System.String)
 
 Removes the parameter from the parameter set corresponding to the given property.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="SolutionInformation.RenameBasedOnDefinition"></a>
+
+### SolutionInformation.RenameBasedOnDefinition()
+
+Run the RenameBasedOnDefinition action.
 
 <!-- !! processed by numpydoc !! -->
 

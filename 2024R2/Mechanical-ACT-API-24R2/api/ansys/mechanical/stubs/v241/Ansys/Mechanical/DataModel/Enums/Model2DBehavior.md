@@ -1,6 +1,6 @@
 # `Model2DBehavior`
 
-
+<a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.Model2DBehavior"></a>
 
 #### *class* ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.Model2DBehavior
 
@@ -17,14 +17,14 @@ Specifies the Model2DBehavior.
 ### Attributes
 
 | Name |
-| -------------------------------------------------------------------------------------------------------------------------------------------- |
-| [`AxiSymmetric`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/Model2DBehavior.md#Model2DBehavior.AxiSymmetric) |
-| [`ByBody`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/Model2DBehavior.md#Model2DBehavior.ByBody) |
-| [`GeneralAxisymmetric`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/Model2DBehavior.md#Model2DBehavior.GeneralAxisymmetric) |
-| [`GeneralizedPlaneStrain`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/Model2DBehavior.md#Model2DBehavior.GeneralizedPlaneStrain) |
-| [`MeshExtrude`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/Model2DBehavior.md#Model2DBehavior.MeshExtrude) |
-| [`PlaneStrain`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/Model2DBehavior.md#Model2DBehavior.PlaneStrain) |
-| [`PlaneStress`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/Model2DBehavior.md#Model2DBehavior.PlaneStress) |
+| --------------------------------------------------------------------- |
+| [`AxiSymmetric`](#Model2DBehavior.AxiSymmetric) |
+| [`ByBody`](#Model2DBehavior.ByBody) |
+| [`GeneralAxisymmetric`](#Model2DBehavior.GeneralAxisymmetric) |
+| [`GeneralizedPlaneStrain`](#Model2DBehavior.GeneralizedPlaneStrain) |
+| [`MeshExtrude`](#Model2DBehavior.MeshExtrude) |
+| [`PlaneStrain`](#Model2DBehavior.PlaneStrain) |
+| [`PlaneStress`](#Model2DBehavior.PlaneStress) |
 
 <a id="attribute-detail"></a>
 

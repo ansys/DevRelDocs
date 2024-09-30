@@ -1,6 +1,6 @@
 # `EXDErosionOnMaterialFailureType`
 
-
+<a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.EXDErosionOnMaterialFailureType"></a>
 
 #### *class* ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.EXDErosionOnMaterialFailureType
 
@@ -15,9 +15,9 @@ Bases: [`enum.Enum`](https://docs.python.org/3/library/enum.html#enum.Enum)
 ### Attributes
 
 | Name |
-| -------------------------------------------------------------------------------------------------------------------------------------- |
-| [`No`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/EXDErosionOnMaterialFailureType.md#EXDErosionOnMaterialFailureType.No) |
-| [`Yes`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/EXDErosionOnMaterialFailureType.md#EXDErosionOnMaterialFailureType.Yes) |
+| ----------------------------------------------- |
+| [`No`](#EXDErosionOnMaterialFailureType.No) |
+| [`Yes`](#EXDErosionOnMaterialFailureType.Yes) |
 
 <a id="attribute-detail"></a>
 

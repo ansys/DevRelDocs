@@ -1,6 +1,6 @@
 # `ContactTrimType`
 
-
+<a id="ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.ContactTrimType"></a>
 
 #### *class* ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.ContactTrimType
 
@@ -17,27 +17,27 @@ Specifies the ContactTrimType.
 ### Attributes
 
 | Name |
-| ----------------------------------------------------------- |
-| [`On`](#ContactTrimType.On) |
-| [`Off`](#ContactTrimType.Off) |
+| ---------------------------------------------------------------------------------------------------------------------------------- |
 | [`FaceBased`](#ContactTrimType.FaceBased) |
+| [`Off`](#ContactTrimType.Off) |
+| [`On`](#ContactTrimType.On) |
 | [`ProgramControlled`](#ContactTrimType.ProgramControlled) |
 
 <a id="attribute-detail"></a>
 
 ## Attribute detail
 
-<a id="ContactTrimType.On"></a>
+<a id="ContactTrimType.FaceBased"></a>
 
-### ContactTrimType.On *= 3*
+### ContactTrimType.FaceBased *= 1*
 
 <a id="ContactTrimType.Off"></a>
 
 ### ContactTrimType.Off *= 2*
 
-<a id="ContactTrimType.FaceBased"></a>
+<a id="ContactTrimType.On"></a>
 
-### ContactTrimType.FaceBased *= 1*
+### ContactTrimType.On *= 3*
 
 <a id="ContactTrimType.ProgramControlled"></a>
 

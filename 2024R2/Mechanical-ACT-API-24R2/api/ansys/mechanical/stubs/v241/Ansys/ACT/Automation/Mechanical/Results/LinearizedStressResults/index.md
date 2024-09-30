@@ -8,7 +8,6 @@
 
 | Name | Description |
 |--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------|
-| [`LinearizedStressResult`](LinearizedStressResult.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Results.LinearizedStressResults.LinearizedStressResult)                               | Defines a LinearizedStressResult.           |
 | [`LinearizedEquivalentStress`](LinearizedEquivalentStress.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Results.LinearizedStressResults.LinearizedEquivalentStress)                   | Defines a LinearizedEquivalentStress.       |
 | [`LinearizedMaximumPrincipalStress`](LinearizedMaximumPrincipalStress.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Results.LinearizedStressResults.LinearizedMaximumPrincipalStress) | Defines a LinearizedMaximumPrincipalStress. |
 | [`LinearizedMaximumShearStress`](LinearizedMaximumShearStress.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Results.LinearizedStressResults.LinearizedMaximumShearStress)             | Defines a LinearizedMaximumShearStress.     |
@@ -17,6 +16,7 @@
 | [`LinearizedNormalStress`](LinearizedNormalStress.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Results.LinearizedStressResults.LinearizedNormalStress)                               | Defines a LinearizedNormalStress.           |
 | [`LinearizedShearStress`](LinearizedShearStress.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Results.LinearizedStressResults.LinearizedShearStress)                                  | Defines a LinearizedShearStress.            |
 | [`LinearizedStressIntensity`](LinearizedStressIntensity.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Results.LinearizedStressResults.LinearizedStressIntensity)                      | Defines a LinearizedStressIntensity.        |
+| [`LinearizedStressResult`](LinearizedStressResult.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Results.LinearizedStressResults.LinearizedStressResult)                               | Defines a LinearizedStressResult.           |
 
 <a id="description"></a>
 

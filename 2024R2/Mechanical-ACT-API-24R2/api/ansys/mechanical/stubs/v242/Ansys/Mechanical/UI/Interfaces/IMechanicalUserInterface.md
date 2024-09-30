@@ -1,6 +1,6 @@
 # `IMechanicalUserInterface`
 
-
+<a id="ansys.mechanical.stubs.v242.Ansys.Mechanical.UI.Interfaces.IMechanicalUserInterface"></a>
 
 #### *class* ansys.mechanical.stubs.v242.Ansys.Mechanical.UI.Interfaces.IMechanicalUserInterface
 
@@ -17,7 +17,7 @@ IMechanicalUserInterface interface.
 ### Properties
 
 | Name | Description |
-|----------------------------------------------|------------------------------------------------------------|
+|----------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------|
 | [`Theme`](#IMechanicalUserInterface.Theme)   | Information about the current theme being in Mechanical.   |
 
 <a id="property-detail"></a>
@@ -26,7 +26,7 @@ IMechanicalUserInterface interface.
 
 <a id="IMechanicalUserInterface.Theme"></a>
 
-### *property* IMechanicalUserInterface.Theme *: [Ansys.Mechanical.UI.Interfaces.IMechanicalTheme](../../../../../v241/Ansys/Mechanical/UI/Interfaces/IMechanicalTheme.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.UI.Interfaces.IMechanicalTheme) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* IMechanicalUserInterface.Theme *: [Ansys.Mechanical.UI.Interfaces.IMechanicalTheme](IMechanicalTheme.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.UI.Interfaces.IMechanicalTheme) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Information about the current theme being in Mechanical.
 

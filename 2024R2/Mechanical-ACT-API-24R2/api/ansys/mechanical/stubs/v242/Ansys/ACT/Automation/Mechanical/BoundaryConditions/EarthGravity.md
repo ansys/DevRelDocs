@@ -1,6 +1,6 @@
 # `EarthGravity`
 
-
+<a id="ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.BoundaryConditions.EarthGravity"></a>
 
 #### *class* ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.BoundaryConditions.EarthGravity
 
@@ -18,119 +18,45 @@ Defines a EarthGravity.
 
 | Name | Description |
 |--------------------------------------------------------------------|-----------------------------------------------------------------------------------|
-| [`Delete`](#EarthGravity.Delete)                                   | Run the Delete action.                                                            |
-| [`GetChildren`](#id1)                                              | Gets the list of children, filtered by type.                                      |
-| [`GetChildren`](#id1)                                              | Gets the list of children, filtered by type.                                      |
+| [`Activate`](#EarthGravity.Activate)                               | Activate the current object.                                                      |
 | [`AddComment`](#EarthGravity.AddComment)                           | Creates a new child Comment.                                                      |
 | [`AddFigure`](#EarthGravity.AddFigure)                             | Creates a new child Figure.                                                       |
 | [`AddImage`](#EarthGravity.AddImage)                               | Creates a new child Image.                                                        |
-| [`Activate`](#EarthGravity.Activate)                               | Activate the current object.                                                      |
 | [`CopyTo`](#EarthGravity.CopyTo)                                   | Copies all visible properties from this object to another.                        |
+| [`CreateParameter`](#EarthGravity.CreateParameter)                 | Creates a new parameter for a Property.                                           |
+| [`Delete`](#EarthGravity.Delete)                                   | Run the Delete action.                                                            |
 | [`Duplicate`](#EarthGravity.Duplicate)                             | Creates a copy of the current DataModelObject.                                    |
+| [`GetChildren`](#EarthGravity.GetChildren)                         | Gets the list of children, filtered by type.                                      |
+| [`GetParameter`](#EarthGravity.GetParameter)                       | Gets the parameter corresponding to the given property.                           |
 | [`GroupAllSimilarChildren`](#EarthGravity.GroupAllSimilarChildren) | Run the GroupAllSimilarChildren action.                                           |
 | [`GroupSimilarObjects`](#EarthGravity.GroupSimilarObjects)         | Run the GroupSimilarObjects action.                                               |
-| [`PropertyByName`](#EarthGravity.PropertyByName)                   | Get a property by its unique name.                                                |
 | [`PropertyByAPIName`](#EarthGravity.PropertyByAPIName)             | Get a property by its API name.                                                   |
-| [`CreateParameter`](#EarthGravity.CreateParameter)                 | Creates a new parameter for a Property.                                           |
-| [`GetParameter`](#EarthGravity.GetParameter)                       | Gets the parameter corresponding to the given property.                           |
+| [`PropertyByName`](#EarthGravity.PropertyByName)                   | Get a property by its unique name.                                                |
 | [`RemoveParameter`](#EarthGravity.RemoveParameter)                 | Removes the parameter from the parameter set corresponding to the given property. |
 
 ### Properties
 
 | Name | Description |
 |--------------------------------------------------------------------|---------------------------------------------------------------|
-| [`InternalObject`](#id0)                                           | Gets the internal object. For advanced usage only.            |
+| [`Children`](#EarthGravity.Children)                               | Gets the list of children.                                    |
+| [`Comments`](#EarthGravity.Comments)                               | Gets the list of associated comments.                         |
+| [`CoordinateSystem`](#EarthGravity.CoordinateSystem)               | Gets or sets the CoordinateSystem.                            |
+| [`DataModelObjectCategory`](#EarthGravity.DataModelObjectCategory) | Gets the current DataModelObject’s category.                  |
+| [`Direction`](#EarthGravity.Direction)                             | Gets or sets the Direction.                                   |
+| [`Figures`](#EarthGravity.Figures)                                 | Gets the list of associated figures.                          |
 | [`GeometrySelection`](#EarthGravity.GeometrySelection)             | Gets the GeometrySelection.                                   |
+| [`Images`](#EarthGravity.Images)                                   | Gets the list of associated images.                           |
+| [`InternalObject`](#EarthGravity.InternalObject)                   | Gets the internal object. For advanced usage only.            |
+| [`Properties`](#EarthGravity.Properties)                           | Gets the list of properties for this object.                  |
+| [`Suppressed`](#EarthGravity.Suppressed)                           | Gets or sets the Suppressed.                                  |
+| [`VisibleProperties`](#EarthGravity.VisibleProperties)             | Gets the list of properties that are visible for this object. |
 | [`XComponent`](#EarthGravity.XComponent)                           | Gets the XComponent.                                          |
 | [`YComponent`](#EarthGravity.YComponent)                           | Gets the YComponent.                                          |
 | [`ZComponent`](#EarthGravity.ZComponent)                           | Gets the ZComponent.                                          |
-| [`Direction`](#EarthGravity.Direction)                             | Gets or sets the Direction.                                   |
-| [`Suppressed`](#EarthGravity.Suppressed)                           | Gets or sets the Suppressed.                                  |
-| [`CoordinateSystem`](#EarthGravity.CoordinateSystem)               | Gets or sets the CoordinateSystem.                            |
-| [`DataModelObjectCategory`](#EarthGravity.DataModelObjectCategory) | Gets the current DataModelObject's category.                  |
-| [`Children`](#EarthGravity.Children)                               | Gets the list of children.                                    |
-| [`Comments`](#EarthGravity.Comments)                               | Gets the list of associated comments.                         |
-| [`Figures`](#EarthGravity.Figures)                                 | Gets the list of associated figures.                          |
-| [`Images`](#EarthGravity.Images)                                   | Gets the list of associated images.                           |
-| [`InternalObject`](#id0)                                           | Gets the internal object. For advanced usage only.            |
-| [`Properties`](#EarthGravity.Properties)                           | Gets the list of properties for this object.                  |
-| [`VisibleProperties`](#EarthGravity.VisibleProperties)             | Gets the list of properties that are visible for this object. |
 
 <a id="property-detail"></a>
 
 ## Property detail
-
-<a id="EarthGravity.InternalObject"></a>
-
-### *property* EarthGravity.InternalObject *: Ansys.Common.Interop.DSObjectsAuto.IDSAccelerationAuto | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets the internal object. For advanced usage only.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="EarthGravity.GeometrySelection"></a>
-
-### *property* EarthGravity.GeometrySelection *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets the GeometrySelection.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="EarthGravity.XComponent"></a>
-
-### *property* EarthGravity.XComponent *: [Ansys.ACT.Mechanical.Fields.Field](../../../../../../v241/Ansys/ACT/Mechanical/Fields/Field.md#ansys.mechanical.stubs.v241.Ansys.ACT.Mechanical.Fields.Field) | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets the XComponent.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="EarthGravity.YComponent"></a>
-
-### *property* EarthGravity.YComponent *: [Ansys.ACT.Mechanical.Fields.Field](../../../../../../v241/Ansys/ACT/Mechanical/Fields/Field.md#ansys.mechanical.stubs.v241.Ansys.ACT.Mechanical.Fields.Field) | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets the YComponent.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="EarthGravity.ZComponent"></a>
-
-### *property* EarthGravity.ZComponent *: [Ansys.ACT.Mechanical.Fields.Field](../../../../../../v241/Ansys/ACT/Mechanical/Fields/Field.md#ansys.mechanical.stubs.v241.Ansys.ACT.Mechanical.Fields.Field) | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets the ZComponent.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="EarthGravity.Direction"></a>
-
-### *property* EarthGravity.Direction *: [Ansys.Mechanical.DataModel.Enums.GravityOrientationType](../../../../../../v241/Ansys/Mechanical/DataModel/Enums/GravityOrientationType.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.GravityOrientationType) | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the Direction.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="EarthGravity.Suppressed"></a>
-
-### *property* EarthGravity.Suppressed *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the Suppressed.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="EarthGravity.CoordinateSystem"></a>
-
-### *property* EarthGravity.CoordinateSystem *: [Ansys.ACT.Automation.Mechanical.CoordinateSystem](../../../../../../v241/Ansys/ACT/Automation/Mechanical/CoordinateSystem.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.CoordinateSystem) | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the CoordinateSystem.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="EarthGravity.DataModelObjectCategory"></a>
-
-### *property* EarthGravity.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../../v241/Ansys/Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets the current DataModelObject's category.
-
-<!-- !! processed by numpydoc !! -->
 
 <a id="EarthGravity.Children"></a>
 
@@ -148,11 +74,43 @@ Gets the list of associated comments.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="EarthGravity.CoordinateSystem"></a>
+
+### *property* EarthGravity.CoordinateSystem *: [Ansys.ACT.Automation.Mechanical.CoordinateSystem](../../../../../../v241/Ansys/ACT/Automation/Mechanical/CoordinateSystem.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.CoordinateSystem) | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the CoordinateSystem.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="EarthGravity.DataModelObjectCategory"></a>
+
+### *property* EarthGravity.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets the current DataModelObject’s category.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="EarthGravity.Direction"></a>
+
+### *property* EarthGravity.Direction *: [Ansys.Mechanical.DataModel.Enums.GravityOrientationType](../../../../Mechanical/DataModel/Enums/GravityOrientationType.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.GravityOrientationType) | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the Direction.
+
+<!-- !! processed by numpydoc !! -->
+
 <a id="EarthGravity.Figures"></a>
 
 ### *property* EarthGravity.Figures *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Figure](../../../../../../v241/Ansys/ACT/Automation/Mechanical/Figure.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated figures.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="EarthGravity.GeometrySelection"></a>
+
+### *property* EarthGravity.GeometrySelection *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets the GeometrySelection.
 
 <!-- !! processed by numpydoc !! -->
 
@@ -164,9 +122,9 @@ Gets the list of associated images.
 
 <!-- !! processed by numpydoc !! -->
 
-<a id="id0"></a>
+<a id="EarthGravity.InternalObject"></a>
 
-### *property* EarthGravity.InternalObject *: System.Object | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* EarthGravity.InternalObject *: Ansys.Common.Interop.DSObjectsAuto.IDSAccelerationAuto | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the internal object. For advanced usage only.
 
@@ -180,6 +138,14 @@ Gets the list of properties for this object.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="EarthGravity.Suppressed"></a>
+
+### *property* EarthGravity.Suppressed *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the Suppressed.
+
+<!-- !! processed by numpydoc !! -->
+
 <a id="EarthGravity.VisibleProperties"></a>
 
 ### *property* EarthGravity.VisibleProperties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
@@ -188,31 +154,39 @@ Gets the list of properties that are visible for this object.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="EarthGravity.XComponent"></a>
+
+### *property* EarthGravity.XComponent *: [Ansys.ACT.Mechanical.Fields.Field](../../../Mechanical/Fields/Field.md#ansys.mechanical.stubs.v242.Ansys.ACT.Mechanical.Fields.Field) | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets the XComponent.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="EarthGravity.YComponent"></a>
+
+### *property* EarthGravity.YComponent *: [Ansys.ACT.Mechanical.Fields.Field](../../../Mechanical/Fields/Field.md#ansys.mechanical.stubs.v242.Ansys.ACT.Mechanical.Fields.Field) | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets the YComponent.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="EarthGravity.ZComponent"></a>
+
+### *property* EarthGravity.ZComponent *: [Ansys.ACT.Mechanical.Fields.Field](../../../Mechanical/Fields/Field.md#ansys.mechanical.stubs.v242.Ansys.ACT.Mechanical.Fields.Field) | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets the ZComponent.
+
+<!-- !! processed by numpydoc !! -->
+
 <a id="method-detail"></a>
 
 ## Method detail
 
-<a id="EarthGravity.Delete"></a>
+<a id="EarthGravity.Activate"></a>
 
-### EarthGravity.Delete()
+### EarthGravity.Activate()
 
-Run the Delete action.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="EarthGravity.GetChildren"></a>
-
-### EarthGravity.GetChildren(recurses: System.Boolean, children: System.Collections.Generic.IList[ChildrenType])
-
-Gets the list of children, filtered by type.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="id1"></a>
-
-### EarthGravity.GetChildren(category: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../../v241/Ansys/Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory), recurses: System.Boolean, children: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject])
-
-Gets the list of children, filtered by type.
+Activate the current object.
 
 <!-- !! processed by numpydoc !! -->
 
@@ -236,17 +210,11 @@ Creates a new child Figure.
 
 ### EarthGravity.AddImage(filePath: System.String)
 
+```text
 Creates a new child Image.
 If a filePath is provided, the image will be loaded from that file,
 if not, the image will be a screen capture of the Geometry window.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="EarthGravity.Activate"></a>
-
-### EarthGravity.Activate()
-
-Activate the current object.
+```
 
 <!-- !! processed by numpydoc !! -->
 
@@ -258,11 +226,43 @@ Copies all visible properties from this object to another.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="EarthGravity.CreateParameter"></a>
+
+### EarthGravity.CreateParameter(propName: System.String)
+
+Creates a new parameter for a Property.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="EarthGravity.Delete"></a>
+
+### EarthGravity.Delete()
+
+Run the Delete action.
+
+<!-- !! processed by numpydoc !! -->
+
 <a id="EarthGravity.Duplicate"></a>
 
 ### EarthGravity.Duplicate()
 
 Creates a copy of the current DataModelObject.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="EarthGravity.GetChildren"></a>
+
+### EarthGravity.GetChildren(recurses: System.Boolean, children: System.Collections.Generic.IList[ChildrenType])
+
+Gets the list of children, filtered by type.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="EarthGravity.GetParameter"></a>
+
+### EarthGravity.GetParameter(propName: System.String)
+
+Gets the parameter corresponding to the given property.
 
 <!-- !! processed by numpydoc !! -->
 
@@ -282,36 +282,22 @@ Run the GroupSimilarObjects action.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="EarthGravity.PropertyByAPIName"></a>
+
+### EarthGravity.PropertyByAPIName(name: System.String)
+
+```text
+Get a property by its API name.
+If multiple properties have the same API Name, only the first property with that name will be returned.
+```
+
+<!-- !! processed by numpydoc !! -->
+
 <a id="EarthGravity.PropertyByName"></a>
 
 ### EarthGravity.PropertyByName(name: System.String)
 
 Get a property by its unique name.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="EarthGravity.PropertyByAPIName"></a>
-
-### EarthGravity.PropertyByAPIName(name: System.String)
-
-Get a property by its API name.
-If multiple properties have the same API Name, only the first property with that name will be returned.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="EarthGravity.CreateParameter"></a>
-
-### EarthGravity.CreateParameter(propName: System.String)
-
-Creates a new parameter for a Property.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="EarthGravity.GetParameter"></a>
-
-### EarthGravity.GetParameter(propName: System.String)
-
-Gets the parameter corresponding to the given property.
 
 <!-- !! processed by numpydoc !! -->
 

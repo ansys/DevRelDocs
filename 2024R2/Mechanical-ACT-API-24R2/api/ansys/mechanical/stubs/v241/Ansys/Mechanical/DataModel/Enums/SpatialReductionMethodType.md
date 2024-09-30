@@ -1,6 +1,6 @@
 # `SpatialReductionMethodType`
 
-
+<a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.SpatialReductionMethodType"></a>
 
 #### *class* ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.SpatialReductionMethodType
 
@@ -17,9 +17,9 @@ Specifies the SpatialReductionMethodType.
 ### Attributes
 
 | Name |
-| -------------------------------------------------------------------------------------------------------------------------------------------- |
-| [`Continuous`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/SpatialReductionMethodType.md#SpatialReductionMethodType.Continuous) |
-| [`Discrete`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/SpatialReductionMethodType.md#SpatialReductionMethodType.Discrete) |
+| ---------------------------------------------------------- |
+| [`Continuous`](#SpatialReductionMethodType.Continuous) |
+| [`Discrete`](#SpatialReductionMethodType.Discrete) |
 
 <a id="attribute-detail"></a>
 

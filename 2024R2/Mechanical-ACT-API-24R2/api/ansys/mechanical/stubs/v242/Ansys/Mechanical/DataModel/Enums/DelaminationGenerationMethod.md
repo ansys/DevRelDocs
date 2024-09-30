@@ -1,6 +1,6 @@
 # `DelaminationGenerationMethod`
 
-
+<a id="ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.DelaminationGenerationMethod"></a>
 
 #### *class* ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.DelaminationGenerationMethod
 
@@ -17,7 +17,7 @@ Specifies the DelaminationGenerationMethod.
 ### Attributes
 
 | Name |
-| -------------------------------------------------------------------------------- |
+| -------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | [`MatchedMeshing`](#DelaminationGenerationMethod.MatchedMeshing) |
 | [`NodeMatching`](#DelaminationGenerationMethod.NodeMatching) |
 | [`PregeneratedInterface`](#DelaminationGenerationMethod.PregeneratedInterface) |

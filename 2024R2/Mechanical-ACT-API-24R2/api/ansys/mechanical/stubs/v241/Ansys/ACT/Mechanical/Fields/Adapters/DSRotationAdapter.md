@@ -1,6 +1,6 @@
 # `DSRotationAdapter`
 
-
+<a id="ansys.mechanical.stubs.v241.Ansys.ACT.Mechanical.Fields.Adapters.DSRotationAdapter"></a>
 
 #### *class* ansys.mechanical.stubs.v241.Ansys.ACT.Mechanical.Fields.Adapters.DSRotationAdapter
 
@@ -17,14 +17,14 @@ Adapter dedicated to IDSRotationAuto objects.
 ### Methods
 
 | Name | Description |
-|---------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------|
-| [`ChangeFieldDefinitionType`](../../../../../../v242/Ansys/ACT/Mechanical/Fields/Adapters/DSRotationAdapter.md#DSRotationAdapter.ChangeFieldDefinitionType)   | ChangeFieldDefinitionType method.   |
+|-------------------------------------------------------------------------------|-------------------------------------|
+| [`ChangeFieldDefinitionType`](#DSRotationAdapter.ChangeFieldDefinitionType)   | ChangeFieldDefinitionType method.   |
 
 ### Properties
 
 | Name | Description |
-|---------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------|
-| [`FieldProvider`](../../../../../../v242/Ansys/ACT/Mechanical/Fields/Adapters/DSRotationAdapter.md#DSRotationAdapter.FieldProvider)   | Gets the wrapped object from Mechanical.   |
+|-------------------------------------------------------|--------------------------------------------|
+| [`FieldProvider`](#DSRotationAdapter.FieldProvider)   | Gets the wrapped object from Mechanical.   |
 
 <a id="property-detail"></a>
 

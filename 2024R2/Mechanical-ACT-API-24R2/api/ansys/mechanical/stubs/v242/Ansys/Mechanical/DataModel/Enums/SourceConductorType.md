@@ -1,6 +1,6 @@
 # `SourceConductorType`
 
-
+<a id="ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.SourceConductorType"></a>
 
 #### *class* ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.SourceConductorType
 
@@ -17,7 +17,7 @@ Specifies the SourceConductorType.
 ### Attributes
 
 | Name |
-| --------------------------------------------- |
+| ------------------------------------------------------------------------------------------------------------------------ |
 | [`Solid`](#SourceConductorType.Solid) |
 | [`Stranded`](#SourceConductorType.Stranded) |
 

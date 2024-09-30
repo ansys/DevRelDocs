@@ -1,6 +1,6 @@
 # `ExternalLoadDisplayComponentType`
 
-
+<a id="ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.ExternalLoadDisplayComponentType"></a>
 
 #### *class* ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.ExternalLoadDisplayComponentType
 
@@ -17,7 +17,7 @@ Specifies the ExternalLoadDisplayComponentType.
 ### Attributes
 
 | Name |
-| ---------------------------------------------------------------- |
+| -------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | [`All`](#ExternalLoadDisplayComponentType.All) |
 | [`Total`](#ExternalLoadDisplayComponentType.Total) |
 | [`Undefined`](#ExternalLoadDisplayComponentType.Undefined) |

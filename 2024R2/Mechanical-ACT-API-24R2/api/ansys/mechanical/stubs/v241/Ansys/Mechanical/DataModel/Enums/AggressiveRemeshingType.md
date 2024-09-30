@@ -1,6 +1,6 @@
 # `AggressiveRemeshingType`
 
-
+<a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.AggressiveRemeshingType"></a>
 
 #### *class* ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.AggressiveRemeshingType
 
@@ -17,9 +17,9 @@ Specifies the AggressiveRemeshingType.
 ### Attributes
 
 | Name |
-| ------------------------------------------------------------------------------------------------------------------------ |
-| [`Off`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/AggressiveRemeshingType.md#AggressiveRemeshingType.Off) |
-| [`On`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/AggressiveRemeshingType.md#AggressiveRemeshingType.On) |
+| ----------------------------------------- |
+| [`Off`](#AggressiveRemeshingType.Off) |
+| [`On`](#AggressiveRemeshingType.On) |
 
 <a id="attribute-detail"></a>
 

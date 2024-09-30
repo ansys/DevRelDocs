@@ -1,6 +1,6 @@
 # `OutcomeType`
 
-
+<a id="ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.MechanicalEnums.MeshWorkflow.OutcomeType"></a>
 
 #### *class* ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.MechanicalEnums.MeshWorkflow.OutcomeType
 
@@ -17,7 +17,7 @@ This enum is referenced in the “Outcome” tree node and reflects the type of 
 ### Attributes
 
 | Name |
-| ------------------------------------------------------------------- |
+| ---------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | [`EnclosureExternalScope`](#OutcomeType.EnclosureExternalScope) |
 | [`EnclosureInternalScope`](#OutcomeType.EnclosureInternalScope) |
 | [`ExtrusionEndScope`](#OutcomeType.ExtrusionEndScope) |

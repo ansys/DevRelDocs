@@ -1,6 +1,6 @@
 # `VirtualCellGroupRepairBehaviorType`
 
-
+<a id="ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.VirtualCellGroupRepairBehaviorType"></a>
 
 #### *class* ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.VirtualCellGroupRepairBehaviorType
 
@@ -17,10 +17,10 @@ Specifies the VirtualCellGroupRepairBehaviorType.
 ### Attributes
 
 | Name |
-| ---------------------------------------------------------------- |
+| ---------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | [`All`](#VirtualCellGroupRepairBehaviorType.All) |
-| [`SmallEdges`](#VirtualCellGroupRepairBehaviorType.SmallEdges) |
 | [`Slivers`](#VirtualCellGroupRepairBehaviorType.Slivers) |
+| [`SmallEdges`](#VirtualCellGroupRepairBehaviorType.SmallEdges) |
 | [`SmallFaces`](#VirtualCellGroupRepairBehaviorType.SmallFaces) |
 
 <a id="attribute-detail"></a>
@@ -31,13 +31,13 @@ Specifies the VirtualCellGroupRepairBehaviorType.
 
 ### VirtualCellGroupRepairBehaviorType.All *= 0*
 
-<a id="VirtualCellGroupRepairBehaviorType.SmallEdges"></a>
-
-### VirtualCellGroupRepairBehaviorType.SmallEdges *= 1*
-
 <a id="VirtualCellGroupRepairBehaviorType.Slivers"></a>
 
 ### VirtualCellGroupRepairBehaviorType.Slivers *= 2*
+
+<a id="VirtualCellGroupRepairBehaviorType.SmallEdges"></a>
+
+### VirtualCellGroupRepairBehaviorType.SmallEdges *= 1*
 
 <a id="VirtualCellGroupRepairBehaviorType.SmallFaces"></a>
 

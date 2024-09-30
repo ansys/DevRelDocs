@@ -1,6 +1,6 @@
 # `ShellOffsetType`
 
-
+<a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.ShellOffsetType"></a>
 
 #### *class* ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.ShellOffsetType
 
@@ -17,11 +17,11 @@ Specifies the ShellOffsetType.
 ### Attributes
 
 | Name |
-| ---------------------------------------------------------------------------------------------------------------------- |
-| [`Bottom`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/ShellOffsetType.md#ShellOffsetType.Bottom) |
-| [`Middle`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/ShellOffsetType.md#ShellOffsetType.Middle) |
-| [`Top`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/ShellOffsetType.md#ShellOffsetType.Top) |
-| [`UserDefined`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/ShellOffsetType.md#ShellOffsetType.UserDefined) |
+| ----------------------------------------------- |
+| [`Bottom`](#ShellOffsetType.Bottom) |
+| [`Middle`](#ShellOffsetType.Middle) |
+| [`Top`](#ShellOffsetType.Top) |
+| [`UserDefined`](#ShellOffsetType.UserDefined) |
 
 <a id="attribute-detail"></a>
 

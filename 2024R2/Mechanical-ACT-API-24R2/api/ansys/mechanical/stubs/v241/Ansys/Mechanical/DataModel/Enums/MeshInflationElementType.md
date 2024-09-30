@@ -1,6 +1,6 @@
 # `MeshInflationElementType`
 
-
+<a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.MeshInflationElementType"></a>
 
 #### *class* ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.MeshInflationElementType
 
@@ -19,9 +19,9 @@ Derive from this class to define new enumerations.
 ### Attributes
 
 | Name |
-| ------------------------------------------------------------------------------------------------------------------------------ |
-| [`Tets`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/MeshInflationElementType.md#MeshInflationElementType.Tets) |
-| [`Wedges`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/MeshInflationElementType.md#MeshInflationElementType.Wedges) |
+| ---------------------------------------------- |
+| [`Tets`](#MeshInflationElementType.Tets) |
+| [`Wedges`](#MeshInflationElementType.Wedges) |
 
 <a id="attribute-detail"></a>
 

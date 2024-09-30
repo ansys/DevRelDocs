@@ -1,6 +1,6 @@
 # `CPCommand`
 
-
+<a id="ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.FE.CDB.CPCommand"></a>
 
 #### *class* ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.FE.CDB.CPCommand
 
@@ -18,23 +18,15 @@ Represents a CP command.
 
 | Name | Description |
 |-----------------------------|-------------------------------------|
-| [`Ncp`](#CPCommand.Ncp)     | Gets the number of coupled nodes.   |
 | [`Dof`](#CPCommand.Dof)     | Gets the degree of freedom label.   |
-| [`Nodes`](#CPCommand.Nodes) | Gets the nodes.                     |
-| [`Name`](#CPCommand.Name)   | Gets the command name.              |
 | [`Index`](#CPCommand.Index) | Gets the command index.             |
+| [`Name`](#CPCommand.Name)   | Gets the command name.              |
+| [`Ncp`](#CPCommand.Ncp)     | Gets the number of coupled nodes.   |
+| [`Nodes`](#CPCommand.Nodes) | Gets the nodes.                     |
 
 <a id="property-detail"></a>
 
 ## Property detail
-
-<a id="CPCommand.Ncp"></a>
-
-### *property* CPCommand.Ncp *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets the number of coupled nodes.
-
-<!-- !! processed by numpydoc !! -->
 
 <a id="CPCommand.Dof"></a>
 
@@ -44,11 +36,11 @@ Gets the degree of freedom label.
 
 <!-- !! processed by numpydoc !! -->
 
-<a id="CPCommand.Nodes"></a>
+<a id="CPCommand.Index"></a>
 
-### *property* CPCommand.Nodes *: System.Collections.Generic.IReadOnlyList[System.Int32] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* CPCommand.Index *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets the nodes.
+Gets the command index.
 
 <!-- !! processed by numpydoc !! -->
 
@@ -60,11 +52,19 @@ Gets the command name.
 
 <!-- !! processed by numpydoc !! -->
 
-<a id="CPCommand.Index"></a>
+<a id="CPCommand.Ncp"></a>
 
-### *property* CPCommand.Index *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* CPCommand.Ncp *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets the command index.
+Gets the number of coupled nodes.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="CPCommand.Nodes"></a>
+
+### *property* CPCommand.Nodes *: System.Collections.Generic.IReadOnlyList[System.Int32] | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets the nodes.
 
 <!-- !! processed by numpydoc !! -->
 

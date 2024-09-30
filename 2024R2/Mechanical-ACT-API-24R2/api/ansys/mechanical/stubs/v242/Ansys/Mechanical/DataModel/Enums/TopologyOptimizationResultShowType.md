@@ -1,6 +1,6 @@
 # `TopologyOptimizationResultShowType`
 
-
+<a id="ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.TopologyOptimizationResultShowType"></a>
 
 #### *class* ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.TopologyOptimizationResultShowType
 
@@ -17,10 +17,10 @@ Specifies the Topology Optimization Result Show Type.
 ### Attributes
 
 | Name |
-| ------------------------------------------------------------------------ |
+| ------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
 | [`AllRegions`](#TopologyOptimizationResultShowType.AllRegions) |
-| [`RetainedRegion`](#TopologyOptimizationResultShowType.RetainedRegion) |
 | [`RemovedRegion`](#TopologyOptimizationResultShowType.RemovedRegion) |
+| [`RetainedRegion`](#TopologyOptimizationResultShowType.RetainedRegion) |
 
 <a id="attribute-detail"></a>
 
@@ -30,12 +30,12 @@ Specifies the Topology Optimization Result Show Type.
 
 ### TopologyOptimizationResultShowType.AllRegions *= 0*
 
-<a id="TopologyOptimizationResultShowType.RetainedRegion"></a>
-
-### TopologyOptimizationResultShowType.RetainedRegion *= 1*
-
 <a id="TopologyOptimizationResultShowType.RemovedRegion"></a>
 
 ### TopologyOptimizationResultShowType.RemovedRegion *= 2*
+
+<a id="TopologyOptimizationResultShowType.RetainedRegion"></a>
+
+### TopologyOptimizationResultShowType.RetainedRegion *= 1*
 
 

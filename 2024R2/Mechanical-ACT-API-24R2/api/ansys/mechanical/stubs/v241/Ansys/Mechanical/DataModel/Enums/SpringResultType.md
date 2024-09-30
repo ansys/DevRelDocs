@@ -1,6 +1,6 @@
 # `SpringResultType`
 
-
+<a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.SpringResultType"></a>
 
 #### *class* ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.SpringResultType
 
@@ -17,11 +17,11 @@ Specifies the SpringResultType.
 ### Attributes
 
 | Name |
-| ---------------------------------------------------------------------------------------------------------------------------- |
-| [`DampingForce`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/SpringResultType.md#SpringResultType.DampingForce) |
-| [`ElasticForce`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/SpringResultType.md#SpringResultType.ElasticForce) |
-| [`Elongation`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/SpringResultType.md#SpringResultType.Elongation) |
-| [`Velocity`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/SpringResultType.md#SpringResultType.Velocity) |
+| ---------------------------------------------------- |
+| [`DampingForce`](#SpringResultType.DampingForce) |
+| [`ElasticForce`](#SpringResultType.ElasticForce) |
+| [`Elongation`](#SpringResultType.Elongation) |
+| [`Velocity`](#SpringResultType.Velocity) |
 
 <a id="attribute-detail"></a>
 

@@ -1,6 +1,6 @@
 # `EnclosureType`
 
-
+<a id="ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.EnclosureType"></a>
 
 #### *class* ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.EnclosureType
 
@@ -17,7 +17,7 @@ Specifies the EnclosureType.
 ### Attributes
 
 | Name |
-| ------------------------------------- |
+| ---------------------------------------------------------------------------------------------------------- |
 | [`Open`](#EnclosureType.Open) |
 | [`Perfect`](#EnclosureType.Perfect) |
 

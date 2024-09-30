@@ -1,6 +1,6 @@
 # `LineSearchType`
 
-
+<a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.LineSearchType"></a>
 
 #### *class* ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.LineSearchType
 
@@ -17,10 +17,10 @@ Specifies the LineSearchType.
 ### Attributes
 
 | Name |
-| -------------------------------------------------------------------------------------------------------------------------------- |
-| [`Off`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/LineSearchType.md#LineSearchType.Off) |
-| [`On`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/LineSearchType.md#LineSearchType.On) |
-| [`ProgramControlled`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/LineSearchType.md#LineSearchType.ProgramControlled) |
+| ---------------------------------------------------------- |
+| [`Off`](#LineSearchType.Off) |
+| [`On`](#LineSearchType.On) |
+| [`ProgramControlled`](#LineSearchType.ProgramControlled) |
 
 <a id="attribute-detail"></a>
 

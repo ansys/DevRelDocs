@@ -1,6 +1,6 @@
 # `TimePointsOptions`
 
-
+<a id="ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.TimePointsOptions"></a>
 
 #### *class* ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.TimePointsOptions
 
@@ -17,7 +17,7 @@ Specifies the TimePointsOptions.
 ### Attributes
 
 | Name |
-| ------------------------------------------------------------------------- |
+| -------------------------------------------------------------------------------------------------------------------------------------------------- |
 | [`AllTimePoints`](#TimePointsOptions.AllTimePoints) |
 | [`EquallySpacedPoints`](#TimePointsOptions.EquallySpacedPoints) |
 | [`LastTimePoints`](#TimePointsOptions.LastTimePoints) |

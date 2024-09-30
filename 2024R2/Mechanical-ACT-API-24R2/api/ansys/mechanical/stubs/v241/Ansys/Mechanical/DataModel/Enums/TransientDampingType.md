@@ -1,6 +1,6 @@
 # `TransientDampingType`
 
-
+<a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.TransientDampingType"></a>
 
 #### *class* ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.TransientDampingType
 
@@ -17,9 +17,9 @@ Specifies the TransientDampingType.
 ### Attributes
 
 | Name |
-| ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| [`NumericalDampingManual`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/TransientDampingType.md#TransientDampingType.NumericalDampingManual) |
-| [`NumericalDampingProgramControlled`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/TransientDampingType.md#TransientDampingType.NumericalDampingProgramControlled) |
+| ------------------------------------------------------------------------------------------------ |
+| [`NumericalDampingManual`](#TransientDampingType.NumericalDampingManual) |
+| [`NumericalDampingProgramControlled`](#TransientDampingType.NumericalDampingProgramControlled) |
 
 <a id="attribute-detail"></a>
 

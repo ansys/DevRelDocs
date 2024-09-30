@@ -1,6 +1,6 @@
 # `FEConnectionDisplay`
 
-
+<a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.FEConnectionDisplay"></a>
 
 #### *class* ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.FEConnectionDisplay
 
@@ -17,13 +17,13 @@ Specifies the FEConnectionDisplay.
 ### Attributes
 
 | Name |
-| ------------------------------------------------------------------------------------------------------------------------------ |
-| [`All`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/FEConnectionDisplay.md#FEConnectionDisplay.All) |
-| [`Beam`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/FEConnectionDisplay.md#FEConnectionDisplay.Beam) |
-| [`CE`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/FEConnectionDisplay.md#FEConnectionDisplay.CE) |
-| [`Cyclic`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/FEConnectionDisplay.md#FEConnectionDisplay.Cyclic) |
-| [`None_`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/FEConnectionDisplay.md#FEConnectionDisplay.None_) |
-| [`WeakSprings`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/FEConnectionDisplay.md#FEConnectionDisplay.WeakSprings) |
+| --------------------------------------------------- |
+| [`All`](#FEConnectionDisplay.All) |
+| [`Beam`](#FEConnectionDisplay.Beam) |
+| [`CE`](#FEConnectionDisplay.CE) |
+| [`Cyclic`](#FEConnectionDisplay.Cyclic) |
+| [`None_`](#FEConnectionDisplay.None_) |
+| [`WeakSprings`](#FEConnectionDisplay.WeakSprings) |
 
 <a id="attribute-detail"></a>
 

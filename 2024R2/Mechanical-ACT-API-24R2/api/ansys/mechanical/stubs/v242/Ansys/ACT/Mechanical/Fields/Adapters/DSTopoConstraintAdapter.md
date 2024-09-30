@@ -1,6 +1,6 @@
 # `DSTopoConstraintAdapter`
 
-
+<a id="ansys.mechanical.stubs.v242.Ansys.ACT.Mechanical.Fields.Adapters.DSTopoConstraintAdapter"></a>
 
 #### *class* ansys.mechanical.stubs.v242.Ansys.ACT.Mechanical.Fields.Adapters.DSTopoConstraintAdapter
 
@@ -17,13 +17,13 @@ Adapter dedicated to IDSRSLoad objects.
 ### Methods
 
 | Name | Description |
-|-------------------------------------------------------------------------------------|-------------------------------------|
+|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------|
 | [`ChangeFieldDefinitionType`](#DSTopoConstraintAdapter.ChangeFieldDefinitionType)   | ChangeFieldDefinitionType method.   |
 
 ### Properties
 
 | Name | Description |
-|-------------------------------------------------------------|--------------------------------------------|
+|---------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------|
 | [`FieldProvider`](#DSTopoConstraintAdapter.FieldProvider)   | Gets the wrapped object from Mechanical.   |
 
 <a id="property-detail"></a>

@@ -1,6 +1,6 @@
 # `ChartPlotStyle`
 
-
+<a id="ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.ChartPlotStyle"></a>
 
 #### *class* ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.ChartPlotStyle
 
@@ -17,7 +17,7 @@ Specifies the ChartPlotStyle.
 ### Attributes
 
 | Name |
-| ------------------------------------ |
+| ---------------------------------------------------------------------------------------------------------- |
 | [`Both`](#ChartPlotStyle.Both) |
 | [`Lines`](#ChartPlotStyle.Lines) |
 | [`Points`](#ChartPlotStyle.Points) |

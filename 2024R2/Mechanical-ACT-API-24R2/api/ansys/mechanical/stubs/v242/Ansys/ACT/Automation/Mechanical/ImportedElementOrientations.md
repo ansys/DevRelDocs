@@ -1,6 +1,6 @@
 # `ImportedElementOrientations`
 
-
+<a id="ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.ImportedElementOrientations"></a>
 
 #### *class* ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.ImportedElementOrientations
 
@@ -18,75 +18,41 @@ Defines a ImportedElementOrientations.
 
 | Name | Description |
 |-----------------------------------------------------------------------------------|-----------------------------------------------------------------------------------|
-| [`Delete`](#ImportedElementOrientations.Delete)                                   | Run the Delete action.                                                            |
-| [`GetChildren`](#id1)                                                             | Gets the list of children, filtered by type.                                      |
-| [`GetChildren`](#id1)                                                             | Gets the list of children, filtered by type.                                      |
+| [`Activate`](#ImportedElementOrientations.Activate)                               | Activate the current object.                                                      |
 | [`AddComment`](#ImportedElementOrientations.AddComment)                           | Creates a new child Comment.                                                      |
 | [`AddFigure`](#ImportedElementOrientations.AddFigure)                             | Creates a new child Figure.                                                       |
 | [`AddImage`](#ImportedElementOrientations.AddImage)                               | Creates a new child Image.                                                        |
-| [`Activate`](#ImportedElementOrientations.Activate)                               | Activate the current object.                                                      |
 | [`CopyTo`](#ImportedElementOrientations.CopyTo)                                   | Copies all visible properties from this object to another.                        |
+| [`CreateParameter`](#ImportedElementOrientations.CreateParameter)                 | Creates a new parameter for a Property.                                           |
+| [`Delete`](#ImportedElementOrientations.Delete)                                   | Run the Delete action.                                                            |
 | [`Duplicate`](#ImportedElementOrientations.Duplicate)                             | Creates a copy of the current DataModelObject.                                    |
+| [`GetChildren`](#ImportedElementOrientations.GetChildren)                         | Gets the list of children, filtered by type.                                      |
+| [`GetParameter`](#ImportedElementOrientations.GetParameter)                       | Gets the parameter corresponding to the given property.                           |
 | [`GroupAllSimilarChildren`](#ImportedElementOrientations.GroupAllSimilarChildren) | Run the GroupAllSimilarChildren action.                                           |
 | [`GroupSimilarObjects`](#ImportedElementOrientations.GroupSimilarObjects)         | Run the GroupSimilarObjects action.                                               |
-| [`PropertyByName`](#ImportedElementOrientations.PropertyByName)                   | Get a property by its unique name.                                                |
 | [`PropertyByAPIName`](#ImportedElementOrientations.PropertyByAPIName)             | Get a property by its API name.                                                   |
-| [`CreateParameter`](#ImportedElementOrientations.CreateParameter)                 | Creates a new parameter for a Property.                                           |
-| [`GetParameter`](#ImportedElementOrientations.GetParameter)                       | Gets the parameter corresponding to the given property.                           |
+| [`PropertyByName`](#ImportedElementOrientations.PropertyByName)                   | Get a property by its unique name.                                                |
 | [`RemoveParameter`](#ImportedElementOrientations.RemoveParameter)                 | Removes the parameter from the parameter set corresponding to the given property. |
 
 ### Properties
 
 | Name | Description |
 |-----------------------------------------------------------------------------------|---------------------------------------------------------------|
-| [`InternalObject`](#id0)                                                          | Gets the internal object. For advanced usage only.            |
-| [`DataModelObjectCategory`](#ImportedElementOrientations.DataModelObjectCategory) | Gets the current DataModelObject's category.                  |
-| [`Count`](#ImportedElementOrientations.Count)                                     | Gets the NumberOfRows.                                        |
-| [`Suppressed`](#ImportedElementOrientations.Suppressed)                           | Gets or sets the Suppressed.                                  |
 | [`Children`](#ImportedElementOrientations.Children)                               | Gets the list of children.                                    |
 | [`Comments`](#ImportedElementOrientations.Comments)                               | Gets the list of associated comments.                         |
+| [`Count`](#ImportedElementOrientations.Count)                                     | Gets the NumberOfRows.                                        |
+| [`DataModelObjectCategory`](#ImportedElementOrientations.DataModelObjectCategory) | Gets the current DataModelObject’s category.                  |
 | [`Figures`](#ImportedElementOrientations.Figures)                                 | Gets the list of associated figures.                          |
 | [`Images`](#ImportedElementOrientations.Images)                                   | Gets the list of associated images.                           |
-| [`ReadOnly`](#ImportedElementOrientations.ReadOnly)                               | Gets or sets the ReadOnly.                                    |
-| [`InternalObject`](#id0)                                                          | Gets the internal object. For advanced usage only.            |
+| [`InternalObject`](#ImportedElementOrientations.InternalObject)                   | Gets the internal object. For advanced usage only.            |
 | [`Properties`](#ImportedElementOrientations.Properties)                           | Gets the list of properties for this object.                  |
+| [`ReadOnly`](#ImportedElementOrientations.ReadOnly)                               | Gets or sets the ReadOnly.                                    |
+| [`Suppressed`](#ImportedElementOrientations.Suppressed)                           | Gets or sets the Suppressed.                                  |
 | [`VisibleProperties`](#ImportedElementOrientations.VisibleProperties)             | Gets the list of properties that are visible for this object. |
 
 <a id="property-detail"></a>
 
 ## Property detail
-
-<a id="ImportedElementOrientations.InternalObject"></a>
-
-### *property* ImportedElementOrientations.InternalObject *: Ansys.Common.Interop.DSObjectsAuto.IDSExternalModelDataCollAuto | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets the internal object. For advanced usage only.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="ImportedElementOrientations.DataModelObjectCategory"></a>
-
-### *property* ImportedElementOrientations.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../v241/Ansys/Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets the current DataModelObject's category.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="ImportedElementOrientations.Count"></a>
-
-### *property* ImportedElementOrientations.Count *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets the NumberOfRows.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="ImportedElementOrientations.Suppressed"></a>
-
-### *property* ImportedElementOrientations.Suppressed *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the Suppressed.
-
-<!-- !! processed by numpydoc !! -->
 
 <a id="ImportedElementOrientations.Children"></a>
 
@@ -101,6 +67,22 @@ Gets the list of children.
 ### *property* ImportedElementOrientations.Comments *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Comment](../../../../../v241/Ansys/ACT/Automation/Mechanical/Comment.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated comments.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ImportedElementOrientations.Count"></a>
+
+### *property* ImportedElementOrientations.Count *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets the NumberOfRows.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ImportedElementOrientations.DataModelObjectCategory"></a>
+
+### *property* ImportedElementOrientations.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets the current DataModelObject’s category.
 
 <!-- !! processed by numpydoc !! -->
 
@@ -120,17 +102,9 @@ Gets the list of associated images.
 
 <!-- !! processed by numpydoc !! -->
 
-<a id="ImportedElementOrientations.ReadOnly"></a>
+<a id="ImportedElementOrientations.InternalObject"></a>
 
-### *property* ImportedElementOrientations.ReadOnly *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the ReadOnly.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="id0"></a>
-
-### *property* ImportedElementOrientations.InternalObject *: System.Object | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ImportedElementOrientations.InternalObject *: Ansys.Common.Interop.DSObjectsAuto.IDSExternalModelDataCollAuto | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the internal object. For advanced usage only.
 
@@ -141,6 +115,22 @@ Gets the internal object. For advanced usage only.
 ### *property* ImportedElementOrientations.Properties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of properties for this object.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ImportedElementOrientations.ReadOnly"></a>
+
+### *property* ImportedElementOrientations.ReadOnly *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the ReadOnly.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ImportedElementOrientations.Suppressed"></a>
+
+### *property* ImportedElementOrientations.Suppressed *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the Suppressed.
 
 <!-- !! processed by numpydoc !! -->
 
@@ -156,27 +146,11 @@ Gets the list of properties that are visible for this object.
 
 ## Method detail
 
-<a id="ImportedElementOrientations.Delete"></a>
+<a id="ImportedElementOrientations.Activate"></a>
 
-### ImportedElementOrientations.Delete()
+### ImportedElementOrientations.Activate()
 
-Run the Delete action.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="ImportedElementOrientations.GetChildren"></a>
-
-### ImportedElementOrientations.GetChildren(recurses: System.Boolean, children: System.Collections.Generic.IList[ChildrenType])
-
-Gets the list of children, filtered by type.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="id1"></a>
-
-### ImportedElementOrientations.GetChildren(category: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../v241/Ansys/Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory), recurses: System.Boolean, children: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject])
-
-Gets the list of children, filtered by type.
+Activate the current object.
 
 <!-- !! processed by numpydoc !! -->
 
@@ -200,17 +174,11 @@ Creates a new child Figure.
 
 ### ImportedElementOrientations.AddImage(filePath: System.String)
 
+```text
 Creates a new child Image.
 If a filePath is provided, the image will be loaded from that file,
 if not, the image will be a screen capture of the Geometry window.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="ImportedElementOrientations.Activate"></a>
-
-### ImportedElementOrientations.Activate()
-
-Activate the current object.
+```
 
 <!-- !! processed by numpydoc !! -->
 
@@ -222,11 +190,43 @@ Copies all visible properties from this object to another.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="ImportedElementOrientations.CreateParameter"></a>
+
+### ImportedElementOrientations.CreateParameter(propName: System.String)
+
+Creates a new parameter for a Property.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ImportedElementOrientations.Delete"></a>
+
+### ImportedElementOrientations.Delete()
+
+Run the Delete action.
+
+<!-- !! processed by numpydoc !! -->
+
 <a id="ImportedElementOrientations.Duplicate"></a>
 
 ### ImportedElementOrientations.Duplicate()
 
 Creates a copy of the current DataModelObject.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ImportedElementOrientations.GetChildren"></a>
+
+### ImportedElementOrientations.GetChildren(recurses: System.Boolean, children: System.Collections.Generic.IList[ChildrenType])
+
+Gets the list of children, filtered by type.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ImportedElementOrientations.GetParameter"></a>
+
+### ImportedElementOrientations.GetParameter(propName: System.String)
+
+Gets the parameter corresponding to the given property.
 
 <!-- !! processed by numpydoc !! -->
 
@@ -246,36 +246,22 @@ Run the GroupSimilarObjects action.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="ImportedElementOrientations.PropertyByAPIName"></a>
+
+### ImportedElementOrientations.PropertyByAPIName(name: System.String)
+
+```text
+Get a property by its API name.
+If multiple properties have the same API Name, only the first property with that name will be returned.
+```
+
+<!-- !! processed by numpydoc !! -->
+
 <a id="ImportedElementOrientations.PropertyByName"></a>
 
 ### ImportedElementOrientations.PropertyByName(name: System.String)
 
 Get a property by its unique name.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="ImportedElementOrientations.PropertyByAPIName"></a>
-
-### ImportedElementOrientations.PropertyByAPIName(name: System.String)
-
-Get a property by its API name.
-If multiple properties have the same API Name, only the first property with that name will be returned.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="ImportedElementOrientations.CreateParameter"></a>
-
-### ImportedElementOrientations.CreateParameter(propName: System.String)
-
-Creates a new parameter for a Property.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="ImportedElementOrientations.GetParameter"></a>
-
-### ImportedElementOrientations.GetParameter(propName: System.String)
-
-Gets the parameter corresponding to the given property.
 
 <!-- !! processed by numpydoc !! -->
 

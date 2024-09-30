@@ -1,6 +1,6 @@
 # `CondensedPartExpansionType`
 
-
+<a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.CondensedPartExpansionType"></a>
 
 #### *class* ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.CondensedPartExpansionType
 
@@ -17,10 +17,10 @@ Specifies the CondensedPartExpansionType.
 ### Attributes
 
 | Name |
-| -------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| [`MechanicalAPDL`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/CondensedPartExpansionType.md#CondensedPartExpansionType.MechanicalAPDL) |
-| [`OnDemand`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/CondensedPartExpansionType.md#CondensedPartExpansionType.OnDemand) |
-| [`ProgramControlled`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/CondensedPartExpansionType.md#CondensedPartExpansionType.ProgramControlled) |
+| ---------------------------------------------------------------------- |
+| [`MechanicalAPDL`](#CondensedPartExpansionType.MechanicalAPDL) |
+| [`OnDemand`](#CondensedPartExpansionType.OnDemand) |
+| [`ProgramControlled`](#CondensedPartExpansionType.ProgramControlled) |
 
 <a id="attribute-detail"></a>
 

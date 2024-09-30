@@ -1,6 +1,6 @@
 # `YesNoType`
 
-
+<a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.YesNoType"></a>
 
 #### *class* ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.YesNoType
 
@@ -17,9 +17,9 @@ Specifies the YesNoType.
 ### Attributes
 
 | Name |
-| ------------------------------------------------------------------------------------------ |
-| [`No`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/YesNoType.md#YesNoType.No) |
-| [`Yes`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/YesNoType.md#YesNoType.Yes) |
+| ------------------------- |
+| [`No`](#YesNoType.No) |
+| [`Yes`](#YesNoType.Yes) |
 
 <a id="attribute-detail"></a>
 

@@ -1,6 +1,6 @@
 # `OptimizationType`
 
-
+<a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.OptimizationType"></a>
 
 #### *class* ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.OptimizationType
 
@@ -17,13 +17,13 @@ Specifies the OptimizationType.
 ### Attributes
 
 | Name |
-| ---------------------------------------------------------------------------------------------------------------------------------- |
-| [`Lattice`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/OptimizationType.md#OptimizationType.Lattice) |
-| [`TopologyLevelSet`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/OptimizationType.md#OptimizationType.TopologyLevelSet) |
-| [`MixableDensity`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/OptimizationType.md#OptimizationType.MixableDensity) |
-| [`Shape`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/OptimizationType.md#OptimizationType.Shape) |
-| [`Topography`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/OptimizationType.md#OptimizationType.Topography) |
-| [`TopologyDensity`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/OptimizationType.md#OptimizationType.TopologyDensity) |
+| ---------------------------------------------------------- |
+| [`Lattice`](#OptimizationType.Lattice) |
+| [`MixableDensity`](#OptimizationType.MixableDensity) |
+| [`Shape`](#OptimizationType.Shape) |
+| [`Topography`](#OptimizationType.Topography) |
+| [`TopologyDensity`](#OptimizationType.TopologyDensity) |
+| [`TopologyLevelSet`](#OptimizationType.TopologyLevelSet) |
 
 <a id="attribute-detail"></a>
 
@@ -32,10 +32,6 @@ Specifies the OptimizationType.
 <a id="OptimizationType.Lattice"></a>
 
 ### OptimizationType.Lattice *= 2*
-
-<a id="OptimizationType.TopologyLevelSet"></a>
-
-### OptimizationType.TopologyLevelSet *= 3*
 
 <a id="OptimizationType.MixableDensity"></a>
 
@@ -52,5 +48,9 @@ Specifies the OptimizationType.
 <a id="OptimizationType.TopologyDensity"></a>
 
 ### OptimizationType.TopologyDensity *= 1*
+
+<a id="OptimizationType.TopologyLevelSet"></a>
+
+### OptimizationType.TopologyLevelSet *= 3*
 
 

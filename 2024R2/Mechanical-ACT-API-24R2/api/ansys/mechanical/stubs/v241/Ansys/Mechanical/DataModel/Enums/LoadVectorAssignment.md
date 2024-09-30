@@ -1,6 +1,6 @@
 # `LoadVectorAssignment`
 
-
+<a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.LoadVectorAssignment"></a>
 
 #### *class* ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.LoadVectorAssignment
 
@@ -17,9 +17,9 @@ Specifies the LoadVectorAssignment.
 ### Attributes
 
 | Name |
-| -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| [`LoadVectorAssignment_Manual`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/LoadVectorAssignment.md#LoadVectorAssignment.LoadVectorAssignment_Manual) |
-| [`LoadVectorAssignment_ProgramControlled`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/LoadVectorAssignment.md#LoadVectorAssignment.LoadVectorAssignment_ProgramControlled) |
+| ---------------------------------------------------------------------------------------------------------- |
+| [`LoadVectorAssignment_Manual`](#LoadVectorAssignment.LoadVectorAssignment_Manual) |
+| [`LoadVectorAssignment_ProgramControlled`](#LoadVectorAssignment.LoadVectorAssignment_ProgramControlled) |
 
 <a id="attribute-detail"></a>
 

@@ -1,6 +1,6 @@
 # `AMScanPatternDefinition`
 
-
+<a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.AMScanPatternDefinition"></a>
 
 #### *class* ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.AMScanPatternDefinition
 
@@ -17,9 +17,9 @@ Specifies the AMScanPatternDefinition.
 ### Attributes
 
 | Name |
-| ------------------------------------------------------------------------------------------------------------------------------------ |
-| [`BuildFile`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/AMScanPatternDefinition.md#AMScanPatternDefinition.BuildFile) |
-| [`Generated`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/AMScanPatternDefinition.md#AMScanPatternDefinition.Generated) |
+| ----------------------------------------------------- |
+| [`BuildFile`](#AMScanPatternDefinition.BuildFile) |
+| [`Generated`](#AMScanPatternDefinition.Generated) |
 
 <a id="attribute-detail"></a>
 

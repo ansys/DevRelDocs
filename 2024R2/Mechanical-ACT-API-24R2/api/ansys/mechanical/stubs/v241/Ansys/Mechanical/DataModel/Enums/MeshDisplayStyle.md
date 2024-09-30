@@ -1,6 +1,6 @@
 # `MeshDisplayStyle`
 
-
+<a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.MeshDisplayStyle"></a>
 
 #### *class* ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.MeshDisplayStyle
 
@@ -17,31 +17,31 @@ Specifies the MeshDisplayStyle.
 ### Attributes
 
 | Name |
-| -------------------------------------------------------------------------------------------------------------------------------------------------- |
-| [`AspectRatio`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/MeshDisplayStyle.md#MeshDisplayStyle.AspectRatio) |
-| [`ElementQuality`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/MeshDisplayStyle.md#MeshDisplayStyle.ElementQuality) |
-| [`AspectRatioEXD`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/MeshDisplayStyle.md#MeshDisplayStyle.AspectRatioEXD) |
-| [`CharacteristicLengthLSD`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/MeshDisplayStyle.md#MeshDisplayStyle.CharacteristicLengthLSD) |
-| [`Hydrodynamics`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/MeshDisplayStyle.md#MeshDisplayStyle.Hydrodynamics) |
-| [`JacobianRatio`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/MeshDisplayStyle.md#MeshDisplayStyle.JacobianRatio) |
-| [`JacobianRatioCornerNodes`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/MeshDisplayStyle.md#MeshDisplayStyle.JacobianRatioCornerNodes) |
-| [`JacobianRatioGaussPoints`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/MeshDisplayStyle.md#MeshDisplayStyle.JacobianRatioGaussPoints) |
-| [`KnockdownFactor`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/MeshDisplayStyle.md#MeshDisplayStyle.KnockdownFactor) |
-| [`MaxEdgeLength`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/MeshDisplayStyle.md#MeshDisplayStyle.MaxEdgeLength) |
-| [`MaximumCornerAngle`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/MeshDisplayStyle.md#MeshDisplayStyle.MaximumCornerAngle) |
-| [`MaxQuadAngle`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/MeshDisplayStyle.md#MeshDisplayStyle.MaxQuadAngle) |
-| [`MaxTriAngle`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/MeshDisplayStyle.md#MeshDisplayStyle.MaxTriAngle) |
-| [`MinEdgeLength`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/MeshDisplayStyle.md#MeshDisplayStyle.MinEdgeLength) |
-| [`CharacteristicLength`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/MeshDisplayStyle.md#MeshDisplayStyle.CharacteristicLength) |
-| [`MinQuadAngle`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/MeshDisplayStyle.md#MeshDisplayStyle.MinQuadAngle) |
-| [`MinTriAngle`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/MeshDisplayStyle.md#MeshDisplayStyle.MinTriAngle) |
-| [`OrthogonalQuality`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/MeshDisplayStyle.md#MeshDisplayStyle.OrthogonalQuality) |
-| [`ParallelDeviation`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/MeshDisplayStyle.md#MeshDisplayStyle.ParallelDeviation) |
-| [`ShellThickness`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/MeshDisplayStyle.md#MeshDisplayStyle.ShellThickness) |
-| [`Skewness`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/MeshDisplayStyle.md#MeshDisplayStyle.Skewness) |
-| [`TetCollapse`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/MeshDisplayStyle.md#MeshDisplayStyle.TetCollapse) |
-| [`WarpingAngle`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/MeshDisplayStyle.md#MeshDisplayStyle.WarpingAngle) |
-| [`WarpingFactor`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/MeshDisplayStyle.md#MeshDisplayStyle.WarpingFactor) |
+| -------------------------------------------------------------------------- |
+| [`AspectRatio`](#MeshDisplayStyle.AspectRatio) |
+| [`AspectRatioEXD`](#MeshDisplayStyle.AspectRatioEXD) |
+| [`CharacteristicLength`](#MeshDisplayStyle.CharacteristicLength) |
+| [`CharacteristicLengthLSD`](#MeshDisplayStyle.CharacteristicLengthLSD) |
+| [`ElementQuality`](#MeshDisplayStyle.ElementQuality) |
+| [`Hydrodynamics`](#MeshDisplayStyle.Hydrodynamics) |
+| [`JacobianRatio`](#MeshDisplayStyle.JacobianRatio) |
+| [`JacobianRatioCornerNodes`](#MeshDisplayStyle.JacobianRatioCornerNodes) |
+| [`JacobianRatioGaussPoints`](#MeshDisplayStyle.JacobianRatioGaussPoints) |
+| [`KnockdownFactor`](#MeshDisplayStyle.KnockdownFactor) |
+| [`MaxEdgeLength`](#MeshDisplayStyle.MaxEdgeLength) |
+| [`MaxQuadAngle`](#MeshDisplayStyle.MaxQuadAngle) |
+| [`MaxTriAngle`](#MeshDisplayStyle.MaxTriAngle) |
+| [`MaximumCornerAngle`](#MeshDisplayStyle.MaximumCornerAngle) |
+| [`MinEdgeLength`](#MeshDisplayStyle.MinEdgeLength) |
+| [`MinQuadAngle`](#MeshDisplayStyle.MinQuadAngle) |
+| [`MinTriAngle`](#MeshDisplayStyle.MinTriAngle) |
+| [`OrthogonalQuality`](#MeshDisplayStyle.OrthogonalQuality) |
+| [`ParallelDeviation`](#MeshDisplayStyle.ParallelDeviation) |
+| [`ShellThickness`](#MeshDisplayStyle.ShellThickness) |
+| [`Skewness`](#MeshDisplayStyle.Skewness) |
+| [`TetCollapse`](#MeshDisplayStyle.TetCollapse) |
+| [`WarpingAngle`](#MeshDisplayStyle.WarpingAngle) |
+| [`WarpingFactor`](#MeshDisplayStyle.WarpingFactor) |
 
 <a id="attribute-detail"></a>
 
@@ -51,17 +51,21 @@ Specifies the MeshDisplayStyle.
 
 ### MeshDisplayStyle.AspectRatio *= 2*
 
-<a id="MeshDisplayStyle.ElementQuality"></a>
-
-### MeshDisplayStyle.ElementQuality *= 1*
-
 <a id="MeshDisplayStyle.AspectRatioEXD"></a>
 
 ### MeshDisplayStyle.AspectRatioEXD *= 21*
 
+<a id="MeshDisplayStyle.CharacteristicLength"></a>
+
+### MeshDisplayStyle.CharacteristicLength *= 10*
+
 <a id="MeshDisplayStyle.CharacteristicLengthLSD"></a>
 
 ### MeshDisplayStyle.CharacteristicLengthLSD *= 24*
+
+<a id="MeshDisplayStyle.ElementQuality"></a>
+
+### MeshDisplayStyle.ElementQuality *= 1*
 
 <a id="MeshDisplayStyle.Hydrodynamics"></a>
 
@@ -87,10 +91,6 @@ Specifies the MeshDisplayStyle.
 
 ### MeshDisplayStyle.MaxEdgeLength *= 23*
 
-<a id="MeshDisplayStyle.MaximumCornerAngle"></a>
-
-### MeshDisplayStyle.MaximumCornerAngle *= 6*
-
 <a id="MeshDisplayStyle.MaxQuadAngle"></a>
 
 ### MeshDisplayStyle.MaxQuadAngle *= 18*
@@ -99,13 +99,13 @@ Specifies the MeshDisplayStyle.
 
 ### MeshDisplayStyle.MaxTriAngle *= 16*
 
+<a id="MeshDisplayStyle.MaximumCornerAngle"></a>
+
+### MeshDisplayStyle.MaximumCornerAngle *= 6*
+
 <a id="MeshDisplayStyle.MinEdgeLength"></a>
 
 ### MeshDisplayStyle.MinEdgeLength *= 22*
-
-<a id="MeshDisplayStyle.CharacteristicLength"></a>
-
-### MeshDisplayStyle.CharacteristicLength *= 10*
 
 <a id="MeshDisplayStyle.MinQuadAngle"></a>
 

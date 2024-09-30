@@ -1,6 +1,6 @@
 # `IVariable`
 
-
+<a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.Interfaces.IVariable"></a>
 
 #### *class* ansys.mechanical.stubs.v241.Ansys.Mechanical.Interfaces.IVariable
 
@@ -17,27 +17,27 @@ Exposes a variable, which is a one dimensional array of real numbers with a unit
 ### Properties
 
 | Name | Description |
-|----------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------|
-| [`Unit`](../../../../v242/Ansys/Mechanical/Interfaces/IVariable.md#IVariable.Unit)                 | The unit of the variable.  For example, this could be “mm”.              |
-| [`QuantityName`](../../../../v242/Ansys/Mechanical/Interfaces/IVariable.md#IVariable.QuantityName) | The quantity name of the variable.  For example, this could be “Length”. |
+|---------------------------------------------|----------------------------------------------------------------------------|
+| [`QuantityName`](#IVariable.QuantityName)   | The quantity name of the variable.  For example, this could be “Length”.   |
+| [`Unit`](#IVariable.Unit)                   | The unit of the variable.  For example, this could be “mm”.                |
 
 <a id="property-detail"></a>
 
 ## Property detail
-
-<a id="IVariable.Unit"></a>
-
-### *property* IVariable.Unit *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
-
-The unit of the variable.  For example, this could be “mm”.
-
-<!-- !! processed by numpydoc !! -->
 
 <a id="IVariable.QuantityName"></a>
 
 ### *property* IVariable.QuantityName *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
 
 The quantity name of the variable.  For example, this could be “Length”.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="IVariable.Unit"></a>
+
+### *property* IVariable.Unit *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+
+The unit of the variable.  For example, this could be “mm”.
 
 <!-- !! processed by numpydoc !! -->
 

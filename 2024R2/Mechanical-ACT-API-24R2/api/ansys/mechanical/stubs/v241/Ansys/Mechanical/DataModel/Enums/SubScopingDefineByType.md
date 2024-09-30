@@ -1,6 +1,6 @@
 # `SubScopingDefineByType`
 
-
+<a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.SubScopingDefineByType"></a>
 
 #### *class* ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.SubScopingDefineByType
 
@@ -17,10 +17,10 @@ Specifies the SubScopingDefineByType.
 ### Attributes
 
 | Name |
-| -------------------------------------------------------------------------------------------------------------------------- |
-| [`Layer`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/SubScopingDefineByType.md#SubScopingDefineByType.Layer) |
-| [`Plies`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/SubScopingDefineByType.md#SubScopingDefineByType.Plies) |
-| [`Ply`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/SubScopingDefineByType.md#SubScopingDefineByType.Ply) |
+| -------------------------------------------- |
+| [`Layer`](#SubScopingDefineByType.Layer) |
+| [`Plies`](#SubScopingDefineByType.Plies) |
+| [`Ply`](#SubScopingDefineByType.Ply) |
 
 <a id="attribute-detail"></a>
 

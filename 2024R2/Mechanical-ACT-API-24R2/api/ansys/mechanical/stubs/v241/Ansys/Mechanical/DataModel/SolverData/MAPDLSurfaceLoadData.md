@@ -1,6 +1,6 @@
 # `MAPDLSurfaceLoadData`
 
-
+<a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.SolverData.MAPDLSurfaceLoadData"></a>
 
 #### *class* ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.SolverData.MAPDLSurfaceLoadData
 
@@ -17,8 +17,8 @@ MAPDLSurfaceLoadData class.
 ### Properties
 
 | Name | Description |
-|---------------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------|
-| [`SurfaceEffectElementTypeId`](../../../../../v242/Ansys/Mechanical/DataModel/SolverData/MAPDLSurfaceLoadData.md#MAPDLSurfaceLoadData.SurfaceEffectElementTypeId)   | Gets the Surface Effect Element Type Id used by the load.   |
+|------------------------------------------------------------------------------------|-------------------------------------------------------------|
+| [`SurfaceEffectElementTypeId`](#MAPDLSurfaceLoadData.SurfaceEffectElementTypeId)   | Gets the Surface Effect Element Type Id used by the load.   |
 
 <a id="property-detail"></a>
 

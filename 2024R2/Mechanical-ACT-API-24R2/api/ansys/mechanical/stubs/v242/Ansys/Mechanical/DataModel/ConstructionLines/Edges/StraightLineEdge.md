@@ -1,6 +1,6 @@
 # `StraightLineEdge`
 
-
+<a id="ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.ConstructionLines.Edges.StraightLineEdge"></a>
 
 #### *class* ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.ConstructionLines.Edges.StraightLineEdge
 
@@ -17,38 +17,38 @@ Representation of a straight line edge between to edge vertices.
 ### Properties
 
 | Name | Description |
-|----------------------------------------------------------|------------------------------------------------------------------------|
-| [`Length`](#StraightLineEdge.Length)                     | Length property.                                                       |
+|-------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------|
 | [`EndPoint`](#StraightLineEdge.EndPoint)                 | A Point representing the end vertex of the edge.                       |
-| [`StartPoint`](#StraightLineEdge.StartPoint)             | A Point representing the start vertex of an edge.                      |
-| [`ObjectId`](#StraightLineEdge.ObjectId)                 | Get the ID of the represented entity.                                  |
 | [`IsRepresentation`](#StraightLineEdge.IsRepresentation) | Check to see if there is a valid entity that this instance represents. |
+| [`Length`](#StraightLineEdge.Length)                     | Length property.                                                       |
+| [`ObjectId`](#StraightLineEdge.ObjectId)                 | Get the ID of the represented entity.                                  |
+| [`StartPoint`](#StraightLineEdge.StartPoint)             | A Point representing the start vertex of an edge.                      |
 
 <a id="property-detail"></a>
 
 ## Property detail
+
+<a id="StraightLineEdge.EndPoint"></a>
+
+### *property* StraightLineEdge.EndPoint *: [Ansys.Mechanical.DataModel.ConstructionLines.Point](../Point.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.ConstructionLines.Point) | [None](https://docs.python.org/3/library/constants.html#None)*
+
+A Point representing the end vertex of the edge.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="StraightLineEdge.IsRepresentation"></a>
+
+### *property* StraightLineEdge.IsRepresentation *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Check to see if there is a valid entity that this instance represents.
+
+<!-- !! processed by numpydoc !! -->
 
 <a id="StraightLineEdge.Length"></a>
 
 ### *property* StraightLineEdge.Length *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Length property.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="StraightLineEdge.EndPoint"></a>
-
-### *property* StraightLineEdge.EndPoint *: [Ansys.Mechanical.DataModel.ConstructionLines.Point](../../../../../../v241/Ansys/Mechanical/DataModel/ConstructionLines/Point.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.ConstructionLines.Point) | [None](https://docs.python.org/3/library/constants.html#None)*
-
-A Point representing the end vertex of the edge.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="StraightLineEdge.StartPoint"></a>
-
-### *property* StraightLineEdge.StartPoint *: [Ansys.Mechanical.DataModel.ConstructionLines.Point](../../../../../../v241/Ansys/Mechanical/DataModel/ConstructionLines/Point.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.ConstructionLines.Point) | [None](https://docs.python.org/3/library/constants.html#None)*
-
-A Point representing the start vertex of an edge.
 
 <!-- !! processed by numpydoc !! -->
 
@@ -60,11 +60,11 @@ Get the ID of the represented entity.
 
 <!-- !! processed by numpydoc !! -->
 
-<a id="StraightLineEdge.IsRepresentation"></a>
+<a id="StraightLineEdge.StartPoint"></a>
 
-### *property* StraightLineEdge.IsRepresentation *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* StraightLineEdge.StartPoint *: [Ansys.Mechanical.DataModel.ConstructionLines.Point](../Point.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.ConstructionLines.Point) | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Check to see if there is a valid entity that this instance represents.
+A Point representing the start vertex of an edge.
 
 <!-- !! processed by numpydoc !! -->
 

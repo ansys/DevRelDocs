@@ -1,6 +1,6 @@
 # `StabilizationFirstSubstepOption`
 
-
+<a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.StabilizationFirstSubstepOption"></a>
 
 #### *class* ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.StabilizationFirstSubstepOption
 
@@ -17,22 +17,22 @@ Specifies the StabilizationFirstSubstepOption.
 ### Attributes
 
 | Name |
-| ------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| [`OnNonConvergence`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/StabilizationFirstSubstepOption.md#StabilizationFirstSubstepOption.OnNonConvergence) |
-| [`No`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/StabilizationFirstSubstepOption.md#StabilizationFirstSubstepOption.No) |
-| [`Yes`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/StabilizationFirstSubstepOption.md#StabilizationFirstSubstepOption.Yes) |
+| ------------------------------------------------------------------------- |
+| [`No`](#StabilizationFirstSubstepOption.No) |
+| [`OnNonConvergence`](#StabilizationFirstSubstepOption.OnNonConvergence) |
+| [`Yes`](#StabilizationFirstSubstepOption.Yes) |
 
 <a id="attribute-detail"></a>
 
 ## Attribute detail
 
-<a id="StabilizationFirstSubstepOption.OnNonConvergence"></a>
-
-### StabilizationFirstSubstepOption.OnNonConvergence *= 1*
-
 <a id="StabilizationFirstSubstepOption.No"></a>
 
 ### StabilizationFirstSubstepOption.No *= 0*
+
+<a id="StabilizationFirstSubstepOption.OnNonConvergence"></a>
+
+### StabilizationFirstSubstepOption.OnNonConvergence *= 1*
 
 <a id="StabilizationFirstSubstepOption.Yes"></a>
 

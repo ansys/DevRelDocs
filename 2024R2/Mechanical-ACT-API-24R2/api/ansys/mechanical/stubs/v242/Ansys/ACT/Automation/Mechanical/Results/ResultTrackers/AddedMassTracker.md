@@ -1,6 +1,6 @@
 # `AddedMassTracker`
 
-
+<a id="ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Results.ResultTrackers.AddedMassTracker"></a>
 
 #### *class* ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Results.ResultTrackers.AddedMassTracker
 
@@ -17,114 +17,88 @@ Defines a AddedMassTracker.
 ### Methods
 
 | Name | Description |
-|------------------------------------------------------------------------|-----------------------------------------------------------------------------------|
-| [`ExportAnimation`](#AddedMassTracker.ExportAnimation)                 | Run the ExportAnimation action.                                                   |
-| [`ClearGeneratedData`](#AddedMassTracker.ClearGeneratedData)           | Run the ClearGeneratedData action.                                                |
-| [`EvaluateAllResults`](#AddedMassTracker.EvaluateAllResults)           | Run the EvaluateAllResults action.                                                |
-| [`RenameBasedOnDefinition`](#AddedMassTracker.RenameBasedOnDefinition) | Run the RenameBasedOnDefinition action.                                           |
-| [`Delete`](#AddedMassTracker.Delete)                                   | Run the Delete action.                                                            |
-| [`GetChildren`](#id1)                                                  | Gets the list of children, filtered by type.                                      |
-| [`GetChildren`](#id1)                                                  | Gets the list of children, filtered by type.                                      |
+|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------|
+| [`Activate`](#AddedMassTracker.Activate)                               | Activate the current object.                                                      |
 | [`AddComment`](#AddedMassTracker.AddComment)                           | Creates a new child Comment.                                                      |
 | [`AddImage`](#AddedMassTracker.AddImage)                               | Creates a new child Image.                                                        |
-| [`Activate`](#AddedMassTracker.Activate)                               | Activate the current object.                                                      |
+| [`ClearGeneratedData`](#AddedMassTracker.ClearGeneratedData)           | Run the ClearGeneratedData action.                                                |
 | [`CopyTo`](#AddedMassTracker.CopyTo)                                   | Copies all visible properties from this object to another.                        |
+| [`CreateParameter`](#AddedMassTracker.CreateParameter)                 | Creates a new parameter for a Property.                                           |
+| [`Delete`](#AddedMassTracker.Delete)                                   | Run the Delete action.                                                            |
 | [`Duplicate`](#AddedMassTracker.Duplicate)                             | Creates a copy of the current DataModelObject.                                    |
+| [`EvaluateAllResults`](#AddedMassTracker.EvaluateAllResults)           | Run the EvaluateAllResults action.                                                |
+| [`ExportAnimation`](#AddedMassTracker.ExportAnimation)                 | Run the ExportAnimation action.                                                   |
+| [`GetChildren`](#AddedMassTracker.GetChildren)                         | Gets the list of children, filtered by type.                                      |
+| [`GetParameter`](#AddedMassTracker.GetParameter)                       | Gets the parameter corresponding to the given property.                           |
 | [`GroupAllSimilarChildren`](#AddedMassTracker.GroupAllSimilarChildren) | Run the GroupAllSimilarChildren action.                                           |
 | [`GroupSimilarObjects`](#AddedMassTracker.GroupSimilarObjects)         | Run the GroupSimilarObjects action.                                               |
-| [`PropertyByName`](#AddedMassTracker.PropertyByName)                   | Get a property by its unique name.                                                |
 | [`PropertyByAPIName`](#AddedMassTracker.PropertyByAPIName)             | Get a property by its API name.                                                   |
-| [`CreateParameter`](#AddedMassTracker.CreateParameter)                 | Creates a new parameter for a Property.                                           |
-| [`GetParameter`](#AddedMassTracker.GetParameter)                       | Gets the parameter corresponding to the given property.                           |
+| [`PropertyByName`](#AddedMassTracker.PropertyByName)                   | Get a property by its unique name.                                                |
 | [`RemoveParameter`](#AddedMassTracker.RemoveParameter)                 | Removes the parameter from the parameter set corresponding to the given property. |
+| [`RenameBasedOnDefinition`](#AddedMassTracker.RenameBasedOnDefinition) | Run the RenameBasedOnDefinition action.                                           |
 
 ### Properties
 
 | Name | Description |
-|--------------------------------------------------------------------------------|---------------------------------------------------------------|
-| [`InternalObject`](#id0)                                                       | Gets the internal object. For advanced usage only.            |
-| [`DataModelObjectCategory`](#AddedMassTracker.DataModelObjectCategory)         | Gets the current DataModelObject's category.                  |
-| [`IsSolved`](#AddedMassTracker.IsSolved)                                       | Gets the IsSolved.                                            |
-| [`ChartDimensions`](#AddedMassTracker.ChartDimensions)                         | Gets or sets the Chart Dimensions                             |
-| [`BoundaryCondition`](#AddedMassTracker.BoundaryCondition)                     | Gets or sets the BoundaryCondition.                           |
-| [`CutFrequency`](#AddedMassTracker.CutFrequency)                               | Gets or sets the CutFrequency.                                |
-| [`SectorNumber`](#AddedMassTracker.SectorNumber)                               | Gets or sets the SectorNumber.                                |
-| [`GeometrySelectionString`](#AddedMassTracker.GeometrySelectionString)         | Gets or sets the GeometrySelectionString.                     |
-| [`LoadStepNumber`](#AddedMassTracker.LoadStepNumber)                           | Gets or sets the LoadStepNumber.                              |
-| [`ReportedFrequency`](#AddedMassTracker.ReportedFrequency)                     | Gets the ReportedFrequency.                                   |
-| [`Duration`](#AddedMassTracker.Duration)                                       | Gets or sets the Duration.                                    |
-| [`FilterMaximum`](#AddedMassTracker.FilterMaximum)                             | Gets the FilterMaximum.                                       |
-| [`FilterMinimum`](#AddedMassTracker.FilterMinimum)                             | Gets the FilterMinimum.                                       |
-| [`FrequencyAtMaximumAmplitude`](#AddedMassTracker.FrequencyAtMaximumAmplitude) | Gets the FrequencyAtMaximumAmplitude.                         |
-| [`ImaginaryAtMaximumAmplitude`](#AddedMassTracker.ImaginaryAtMaximumAmplitude) | Gets the ImaginaryAtMaximumAmplitude.                         |
-| [`MaximumAmplitude`](#AddedMassTracker.MaximumAmplitude)                       | Gets the MaximumAmplitude.                                    |
-| [`MaximumFrequency`](#AddedMassTracker.MaximumFrequency)                       | Gets or sets the MaximumFrequency.                            |
-| [`Maximum`](#AddedMassTracker.Maximum)                                         | Gets the Maximum.                                             |
-| [`MinimumFrequency`](#AddedMassTracker.MinimumFrequency)                       | Gets or sets the MinimumFrequency.                            |
-| [`Minimum`](#AddedMassTracker.Minimum)                                         | Gets the Minimum.                                             |
-| [`PhaseAngle`](#AddedMassTracker.PhaseAngle)                                   | Gets the PhaseAngle.                                          |
-| [`RealAtMaximumAmplitude`](#AddedMassTracker.RealAtMaximumAmplitude)           | Gets the RealAtMaximumAmplitude.                              |
-| [`RequestedFrequency`](#AddedMassTracker.RequestedFrequency)                   | Gets or sets the RequestedFrequency.                          |
+|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------|
 | [`AccelerationType`](#AddedMassTracker.AccelerationType)                       | Gets or sets the AccelerationType.                            |
+| [`BoundaryCondition`](#AddedMassTracker.BoundaryCondition)                     | Gets or sets the BoundaryCondition.                           |
+| [`ChartDimensions`](#AddedMassTracker.ChartDimensions)                         | Gets or sets the Chart Dimensions                             |
 | [`ChartViewingStyle`](#AddedMassTracker.ChartViewingStyle)                     | Gets or sets the ChartViewingStyle.                           |
-| [`DeformationType`](#AddedMassTracker.DeformationType)                         | Gets or sets the DeformationType.                             |
-| [`FilterType`](#AddedMassTracker.FilterType)                                   | Gets or sets the FilterType.                                  |
-| [`SpatialResolution`](#AddedMassTracker.SpatialResolution)                     | Gets or sets the SpatialResolution.                           |
-| [`NormalOrientation`](#AddedMassTracker.NormalOrientation)                     | Gets or sets the NormalOrientation.                           |
-| [`CurvesAppearanceDisplay`](#AddedMassTracker.CurvesAppearanceDisplay)         | Gets or sets the CurvesAppearanceDisplay.                     |
-| [`ResultChartType`](#AddedMassTracker.ResultChartType)                         | Gets the ResultChartType.                                     |
-| [`DpfEvaluation`](#AddedMassTracker.DpfEvaluation)                             | Gets or sets the DpfEvaluation.                               |
-| [`XAxisValues`](#AddedMassTracker.XAxisValues)                                 | Gets or sets the XAxisValues.                                 |
-| [`ShearOrientation`](#AddedMassTracker.ShearOrientation)                       | Gets or sets the ShearOrientation.                            |
-| [`StressStrainType`](#AddedMassTracker.StressStrainType)                       | Gets or sets the StressStrainType.                            |
-| [`TimeHistoryDisplay`](#AddedMassTracker.TimeHistoryDisplay)                   | Gets or sets the TimeHistoryDisplay.                          |
-| [`VelocityType`](#AddedMassTracker.VelocityType)                               | Gets or sets the VelocityType.                                |
-| [`Suppressed`](#AddedMassTracker.Suppressed)                                   | Gets or sets the Suppressed.                                  |
-| [`EnhancedTracking`](#AddedMassTracker.EnhancedTracking)                       | Gets the EnhancedTracking.                                    |
-| [`UseParentFrequencyRange`](#AddedMassTracker.UseParentFrequencyRange)         | Gets or sets the UseParentFrequencyRange.                     |
-| [`CoordinateSystem`](#AddedMassTracker.CoordinateSystem)                       | Gets or sets the CoordinateSystem.                            |
-| [`Spring`](#AddedMassTracker.Spring)                                           | Gets or sets the Spring.                                      |
-| [`Location`](#AddedMassTracker.Location)                                       | Gets or sets the Location.                                    |
 | [`Children`](#AddedMassTracker.Children)                                       | Gets the list of children.                                    |
 | [`Comments`](#AddedMassTracker.Comments)                                       | Gets the list of associated comments.                         |
+| [`CoordinateSystem`](#AddedMassTracker.CoordinateSystem)                       | Gets or sets the CoordinateSystem.                            |
+| [`CurvesAppearanceDisplay`](#AddedMassTracker.CurvesAppearanceDisplay)         | Gets or sets the CurvesAppearanceDisplay.                     |
+| [`CutFrequency`](#AddedMassTracker.CutFrequency)                               | Gets or sets the CutFrequency.                                |
+| [`DataModelObjectCategory`](#AddedMassTracker.DataModelObjectCategory)         | Gets the current DataModelObject’s category.                  |
+| [`DeformationType`](#AddedMassTracker.DeformationType)                         | Gets or sets the DeformationType.                             |
+| [`DpfEvaluation`](#AddedMassTracker.DpfEvaluation)                             | Gets or sets the DpfEvaluation.                               |
+| [`Duration`](#AddedMassTracker.Duration)                                       | Gets or sets the Duration.                                    |
+| [`EnhancedTracking`](#AddedMassTracker.EnhancedTracking)                       | Gets the EnhancedTracking.                                    |
+| [`FilterMaximum`](#AddedMassTracker.FilterMaximum)                             | Gets the FilterMaximum.                                       |
+| [`FilterMinimum`](#AddedMassTracker.FilterMinimum)                             | Gets the FilterMinimum.                                       |
+| [`FilterType`](#AddedMassTracker.FilterType)                                   | Gets or sets the FilterType.                                  |
+| [`FrequencyAtMaximumAmplitude`](#AddedMassTracker.FrequencyAtMaximumAmplitude) | Gets the FrequencyAtMaximumAmplitude.                         |
+| [`GeometrySelectionString`](#AddedMassTracker.GeometrySelectionString)         | Gets or sets the GeometrySelectionString.                     |
 | [`Images`](#AddedMassTracker.Images)                                           | Gets the list of associated images.                           |
-| [`InternalObject`](#id0)                                                       | Gets the internal object. For advanced usage only.            |
+| [`ImaginaryAtMaximumAmplitude`](#AddedMassTracker.ImaginaryAtMaximumAmplitude) | Gets the ImaginaryAtMaximumAmplitude.                         |
+| [`InternalObject`](#AddedMassTracker.InternalObject)                           | Gets the internal object. For advanced usage only.            |
+| [`IsSolved`](#AddedMassTracker.IsSolved)                                       | Gets the IsSolved.                                            |
+| [`LoadStepNumber`](#AddedMassTracker.LoadStepNumber)                           | Gets or sets the LoadStepNumber.                              |
+| [`Location`](#AddedMassTracker.Location)                                       | Gets or sets the Location.                                    |
+| [`Maximum`](#AddedMassTracker.Maximum)                                         | Gets the Maximum.                                             |
+| [`MaximumAmplitude`](#AddedMassTracker.MaximumAmplitude)                       | Gets the MaximumAmplitude.                                    |
+| [`MaximumFrequency`](#AddedMassTracker.MaximumFrequency)                       | Gets or sets the MaximumFrequency.                            |
+| [`Minimum`](#AddedMassTracker.Minimum)                                         | Gets the Minimum.                                             |
+| [`MinimumFrequency`](#AddedMassTracker.MinimumFrequency)                       | Gets or sets the MinimumFrequency.                            |
+| [`NormalOrientation`](#AddedMassTracker.NormalOrientation)                     | Gets or sets the NormalOrientation.                           |
+| [`PhaseAngle`](#AddedMassTracker.PhaseAngle)                                   | Gets the PhaseAngle.                                          |
 | [`Properties`](#AddedMassTracker.Properties)                                   | Gets the list of properties for this object.                  |
+| [`RealAtMaximumAmplitude`](#AddedMassTracker.RealAtMaximumAmplitude)           | Gets the RealAtMaximumAmplitude.                              |
+| [`ReportedFrequency`](#AddedMassTracker.ReportedFrequency)                     | Gets the ReportedFrequency.                                   |
+| [`RequestedFrequency`](#AddedMassTracker.RequestedFrequency)                   | Gets or sets the RequestedFrequency.                          |
+| [`ResultChartType`](#AddedMassTracker.ResultChartType)                         | Gets the ResultChartType.                                     |
+| [`SectorNumber`](#AddedMassTracker.SectorNumber)                               | Gets or sets the SectorNumber.                                |
+| [`ShearOrientation`](#AddedMassTracker.ShearOrientation)                       | Gets or sets the ShearOrientation.                            |
+| [`SpatialResolution`](#AddedMassTracker.SpatialResolution)                     | Gets or sets the SpatialResolution.                           |
+| [`Spring`](#AddedMassTracker.Spring)                                           | Gets or sets the Spring.                                      |
+| [`StressStrainType`](#AddedMassTracker.StressStrainType)                       | Gets or sets the StressStrainType.                            |
+| [`Suppressed`](#AddedMassTracker.Suppressed)                                   | Gets or sets the Suppressed.                                  |
+| [`TimeHistoryDisplay`](#AddedMassTracker.TimeHistoryDisplay)                   | Gets or sets the TimeHistoryDisplay.                          |
+| [`UseParentFrequencyRange`](#AddedMassTracker.UseParentFrequencyRange)         | Gets or sets the UseParentFrequencyRange.                     |
+| [`VelocityType`](#AddedMassTracker.VelocityType)                               | Gets or sets the VelocityType.                                |
 | [`VisibleProperties`](#AddedMassTracker.VisibleProperties)                     | Gets the list of properties that are visible for this object. |
+| [`XAxisValues`](#AddedMassTracker.XAxisValues)                                 | Gets or sets the XAxisValues.                                 |
 
 <a id="property-detail"></a>
 
 ## Property detail
 
-<a id="AddedMassTracker.InternalObject"></a>
+<a id="AddedMassTracker.AccelerationType"></a>
 
-### *property* AddedMassTracker.InternalObject *: Ansys.Common.Interop.DSObjectsAuto.IDSResultChartAuto | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AddedMassTracker.AccelerationType *: [Ansys.Mechanical.DataModel.Enums.TotalOrDirectional](../../../../../Mechanical/DataModel/Enums/TotalOrDirectional.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.TotalOrDirectional) | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets the internal object. For advanced usage only.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="AddedMassTracker.DataModelObjectCategory"></a>
-
-### *property* AddedMassTracker.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../../../v241/Ansys/Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets the current DataModelObject's category.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="AddedMassTracker.IsSolved"></a>
-
-### *property* AddedMassTracker.IsSolved *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets the IsSolved.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="AddedMassTracker.ChartDimensions"></a>
-
-### *property* AddedMassTracker.ChartDimensions *: [Ansys.Mechanical.DataModel.Enums.ChartDimensions](../../../../../../../v241/Ansys/Mechanical/DataModel/Enums/ChartDimensions.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.ChartDimensions) | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the Chart Dimensions
+Gets or sets the AccelerationType.
 
 <!-- !! processed by numpydoc !! -->
 
@@ -136,307 +110,19 @@ Gets or sets the BoundaryCondition.
 
 <!-- !! processed by numpydoc !! -->
 
-<a id="AddedMassTracker.CutFrequency"></a>
+<a id="AddedMassTracker.ChartDimensions"></a>
 
-### *property* AddedMassTracker.CutFrequency *: System.Double | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AddedMassTracker.ChartDimensions *: [Ansys.Mechanical.DataModel.Enums.ChartDimensions](../../../../../Mechanical/DataModel/Enums/ChartDimensions.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.ChartDimensions) | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets or sets the CutFrequency.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="AddedMassTracker.SectorNumber"></a>
-
-### *property* AddedMassTracker.SectorNumber *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the SectorNumber.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="AddedMassTracker.GeometrySelectionString"></a>
-
-### *property* AddedMassTracker.GeometrySelectionString *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the GeometrySelectionString.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="AddedMassTracker.LoadStepNumber"></a>
-
-### *property* AddedMassTracker.LoadStepNumber *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the LoadStepNumber.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="AddedMassTracker.ReportedFrequency"></a>
-
-### *property* AddedMassTracker.ReportedFrequency *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets the ReportedFrequency.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="AddedMassTracker.Duration"></a>
-
-### *property* AddedMassTracker.Duration *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the Duration.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="AddedMassTracker.FilterMaximum"></a>
-
-### *property* AddedMassTracker.FilterMaximum *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets the FilterMaximum.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="AddedMassTracker.FilterMinimum"></a>
-
-### *property* AddedMassTracker.FilterMinimum *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets the FilterMinimum.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="AddedMassTracker.FrequencyAtMaximumAmplitude"></a>
-
-### *property* AddedMassTracker.FrequencyAtMaximumAmplitude *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets the FrequencyAtMaximumAmplitude.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="AddedMassTracker.ImaginaryAtMaximumAmplitude"></a>
-
-### *property* AddedMassTracker.ImaginaryAtMaximumAmplitude *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets the ImaginaryAtMaximumAmplitude.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="AddedMassTracker.MaximumAmplitude"></a>
-
-### *property* AddedMassTracker.MaximumAmplitude *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets the MaximumAmplitude.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="AddedMassTracker.MaximumFrequency"></a>
-
-### *property* AddedMassTracker.MaximumFrequency *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the MaximumFrequency.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="AddedMassTracker.Maximum"></a>
-
-### *property* AddedMassTracker.Maximum *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets the Maximum.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="AddedMassTracker.MinimumFrequency"></a>
-
-### *property* AddedMassTracker.MinimumFrequency *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the MinimumFrequency.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="AddedMassTracker.Minimum"></a>
-
-### *property* AddedMassTracker.Minimum *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets the Minimum.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="AddedMassTracker.PhaseAngle"></a>
-
-### *property* AddedMassTracker.PhaseAngle *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets the PhaseAngle.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="AddedMassTracker.RealAtMaximumAmplitude"></a>
-
-### *property* AddedMassTracker.RealAtMaximumAmplitude *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets the RealAtMaximumAmplitude.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="AddedMassTracker.RequestedFrequency"></a>
-
-### *property* AddedMassTracker.RequestedFrequency *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the RequestedFrequency.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="AddedMassTracker.AccelerationType"></a>
-
-### *property* AddedMassTracker.AccelerationType *: [Ansys.Mechanical.DataModel.Enums.TotalOrDirectional](../../../../../../../v241/Ansys/Mechanical/DataModel/Enums/TotalOrDirectional.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.TotalOrDirectional) | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the AccelerationType.
+Gets or sets the Chart Dimensions
 
 <!-- !! processed by numpydoc !! -->
 
 <a id="AddedMassTracker.ChartViewingStyle"></a>
 
-### *property* AddedMassTracker.ChartViewingStyle *: [Ansys.Mechanical.DataModel.Enums.ChartAxisScaleType](../../../../../../../v241/Ansys/Mechanical/DataModel/Enums/ChartAxisScaleType.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.ChartAxisScaleType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AddedMassTracker.ChartViewingStyle *: [Ansys.Mechanical.DataModel.Enums.ChartAxisScaleType](../../../../../Mechanical/DataModel/Enums/ChartAxisScaleType.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.ChartAxisScaleType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the ChartViewingStyle.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="AddedMassTracker.DeformationType"></a>
-
-### *property* AddedMassTracker.DeformationType *: [Ansys.Mechanical.DataModel.Enums.TotalOrDirectional](../../../../../../../v241/Ansys/Mechanical/DataModel/Enums/TotalOrDirectional.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.TotalOrDirectional) | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the DeformationType.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="AddedMassTracker.FilterType"></a>
-
-### *property* AddedMassTracker.FilterType *: [Ansys.Mechanical.DataModel.Enums.FilterType](../../../../../../../v241/Ansys/Mechanical/DataModel/Enums/FilterType.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.FilterType) | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the FilterType.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="AddedMassTracker.SpatialResolution"></a>
-
-### *property* AddedMassTracker.SpatialResolution *: [Ansys.Mechanical.DataModel.Enums.MultipleNodeType](../../../../../../../v241/Ansys/Mechanical/DataModel/Enums/MultipleNodeType.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.MultipleNodeType) | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the SpatialResolution.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="AddedMassTracker.NormalOrientation"></a>
-
-### *property* AddedMassTracker.NormalOrientation *: [Ansys.Mechanical.DataModel.Enums.NormalOrientationType](../../../../../../../v241/Ansys/Mechanical/DataModel/Enums/NormalOrientationType.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.NormalOrientationType) | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the NormalOrientation.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="AddedMassTracker.CurvesAppearanceDisplay"></a>
-
-### *property* AddedMassTracker.CurvesAppearanceDisplay *: [Ansys.Mechanical.DataModel.Enums.ChartPlotStyle](../../../../../../../v241/Ansys/Mechanical/DataModel/Enums/ChartPlotStyle.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.ChartPlotStyle) | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the CurvesAppearanceDisplay.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="AddedMassTracker.ResultChartType"></a>
-
-### *property* AddedMassTracker.ResultChartType *: [Ansys.Mechanical.DataModel.Enums.ChartResultType](../../../../../../../v241/Ansys/Mechanical/DataModel/Enums/ChartResultType.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.ChartResultType) | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets the ResultChartType.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="AddedMassTracker.DpfEvaluation"></a>
-
-### *property* AddedMassTracker.DpfEvaluation *: [Ansys.Mechanical.DataModel.Enums.DpfEvaluationType](../../../../../../../v241/Ansys/Mechanical/DataModel/Enums/DpfEvaluationType.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DpfEvaluationType) | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the DpfEvaluation.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="AddedMassTracker.XAxisValues"></a>
-
-### *property* AddedMassTracker.XAxisValues *: [Ansys.Mechanical.DataModel.Enums.XAxisValues](../../../../../../../v241/Ansys/Mechanical/DataModel/Enums/XAxisValues.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.XAxisValues) | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the XAxisValues.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="AddedMassTracker.ShearOrientation"></a>
-
-### *property* AddedMassTracker.ShearOrientation *: [Ansys.Mechanical.DataModel.Enums.ShearOrientationType](../../../../../../../v241/Ansys/Mechanical/DataModel/Enums/ShearOrientationType.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.ShearOrientationType) | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the ShearOrientation.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="AddedMassTracker.StressStrainType"></a>
-
-### *property* AddedMassTracker.StressStrainType *: [Ansys.Mechanical.DataModel.Enums.StressStrainType](../../../../../../../v241/Ansys/Mechanical/DataModel/Enums/StressStrainType.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.StressStrainType) | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the StressStrainType.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="AddedMassTracker.TimeHistoryDisplay"></a>
-
-### *property* AddedMassTracker.TimeHistoryDisplay *: [Ansys.Mechanical.DataModel.Enums.TimeHistoryDisplayType](../../../../../../../v241/Ansys/Mechanical/DataModel/Enums/TimeHistoryDisplayType.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.TimeHistoryDisplayType) | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the TimeHistoryDisplay.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="AddedMassTracker.VelocityType"></a>
-
-### *property* AddedMassTracker.VelocityType *: [Ansys.Mechanical.DataModel.Enums.TotalOrDirectional](../../../../../../../v241/Ansys/Mechanical/DataModel/Enums/TotalOrDirectional.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.TotalOrDirectional) | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the VelocityType.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="AddedMassTracker.Suppressed"></a>
-
-### *property* AddedMassTracker.Suppressed *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the Suppressed.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="AddedMassTracker.EnhancedTracking"></a>
-
-### *property* AddedMassTracker.EnhancedTracking *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets the EnhancedTracking.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="AddedMassTracker.UseParentFrequencyRange"></a>
-
-### *property* AddedMassTracker.UseParentFrequencyRange *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the UseParentFrequencyRange.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="AddedMassTracker.CoordinateSystem"></a>
-
-### *property* AddedMassTracker.CoordinateSystem *: [Ansys.ACT.Automation.Mechanical.CoordinateSystem](../../../../../../../v241/Ansys/ACT/Automation/Mechanical/CoordinateSystem.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.CoordinateSystem) | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the CoordinateSystem.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="AddedMassTracker.Spring"></a>
-
-### *property* AddedMassTracker.Spring *: [Ansys.ACT.Automation.Mechanical.Connections.Spring](../../../../../../../v241/Ansys/ACT/Automation/Mechanical/Connections/Spring.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Connections.Spring) | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the Spring.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="AddedMassTracker.Location"></a>
-
-### *property* AddedMassTracker.Location *: Ansys.ACT.Interfaces.Common.ISelectionInfo | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the Location.
 
 <!-- !! processed by numpydoc !! -->
 
@@ -456,6 +142,110 @@ Gets the list of associated comments.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="AddedMassTracker.CoordinateSystem"></a>
+
+### *property* AddedMassTracker.CoordinateSystem *: [Ansys.ACT.Automation.Mechanical.CoordinateSystem](../../../../../../../v241/Ansys/ACT/Automation/Mechanical/CoordinateSystem.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.CoordinateSystem) | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the CoordinateSystem.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="AddedMassTracker.CurvesAppearanceDisplay"></a>
+
+### *property* AddedMassTracker.CurvesAppearanceDisplay *: [Ansys.Mechanical.DataModel.Enums.ChartPlotStyle](../../../../../Mechanical/DataModel/Enums/ChartPlotStyle.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.ChartPlotStyle) | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the CurvesAppearanceDisplay.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="AddedMassTracker.CutFrequency"></a>
+
+### *property* AddedMassTracker.CutFrequency *: System.Double | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the CutFrequency.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="AddedMassTracker.DataModelObjectCategory"></a>
+
+### *property* AddedMassTracker.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets the current DataModelObject’s category.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="AddedMassTracker.DeformationType"></a>
+
+### *property* AddedMassTracker.DeformationType *: [Ansys.Mechanical.DataModel.Enums.TotalOrDirectional](../../../../../Mechanical/DataModel/Enums/TotalOrDirectional.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.TotalOrDirectional) | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the DeformationType.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="AddedMassTracker.DpfEvaluation"></a>
+
+### *property* AddedMassTracker.DpfEvaluation *: [Ansys.Mechanical.DataModel.Enums.DpfEvaluationType](../../../../../Mechanical/DataModel/Enums/DpfEvaluationType.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.DpfEvaluationType) | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the DpfEvaluation.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="AddedMassTracker.Duration"></a>
+
+### *property* AddedMassTracker.Duration *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the Duration.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="AddedMassTracker.EnhancedTracking"></a>
+
+### *property* AddedMassTracker.EnhancedTracking *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets the EnhancedTracking.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="AddedMassTracker.FilterMaximum"></a>
+
+### *property* AddedMassTracker.FilterMaximum *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets the FilterMaximum.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="AddedMassTracker.FilterMinimum"></a>
+
+### *property* AddedMassTracker.FilterMinimum *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets the FilterMinimum.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="AddedMassTracker.FilterType"></a>
+
+### *property* AddedMassTracker.FilterType *: [Ansys.Mechanical.DataModel.Enums.FilterType](../../../../../Mechanical/DataModel/Enums/FilterType.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.FilterType) | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the FilterType.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="AddedMassTracker.FrequencyAtMaximumAmplitude"></a>
+
+### *property* AddedMassTracker.FrequencyAtMaximumAmplitude *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets the FrequencyAtMaximumAmplitude.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="AddedMassTracker.GeometrySelectionString"></a>
+
+### *property* AddedMassTracker.GeometrySelectionString *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the GeometrySelectionString.
+
+<!-- !! processed by numpydoc !! -->
+
 <a id="AddedMassTracker.Images"></a>
 
 ### *property* AddedMassTracker.Images *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Image](../../../../../../../v241/Ansys/ACT/Automation/Mechanical/Image.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
@@ -464,11 +254,99 @@ Gets the list of associated images.
 
 <!-- !! processed by numpydoc !! -->
 
-<a id="id0"></a>
+<a id="AddedMassTracker.ImaginaryAtMaximumAmplitude"></a>
 
-### *property* AddedMassTracker.InternalObject *: System.Object | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AddedMassTracker.ImaginaryAtMaximumAmplitude *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets the ImaginaryAtMaximumAmplitude.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="AddedMassTracker.InternalObject"></a>
+
+### *property* AddedMassTracker.InternalObject *: Ansys.Common.Interop.DSObjectsAuto.IDSResultChartAuto | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the internal object. For advanced usage only.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="AddedMassTracker.IsSolved"></a>
+
+### *property* AddedMassTracker.IsSolved *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets the IsSolved.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="AddedMassTracker.LoadStepNumber"></a>
+
+### *property* AddedMassTracker.LoadStepNumber *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the LoadStepNumber.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="AddedMassTracker.Location"></a>
+
+### *property* AddedMassTracker.Location *: Ansys.ACT.Interfaces.Common.ISelectionInfo | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the Location.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="AddedMassTracker.Maximum"></a>
+
+### *property* AddedMassTracker.Maximum *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets the Maximum.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="AddedMassTracker.MaximumAmplitude"></a>
+
+### *property* AddedMassTracker.MaximumAmplitude *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets the MaximumAmplitude.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="AddedMassTracker.MaximumFrequency"></a>
+
+### *property* AddedMassTracker.MaximumFrequency *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the MaximumFrequency.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="AddedMassTracker.Minimum"></a>
+
+### *property* AddedMassTracker.Minimum *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets the Minimum.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="AddedMassTracker.MinimumFrequency"></a>
+
+### *property* AddedMassTracker.MinimumFrequency *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the MinimumFrequency.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="AddedMassTracker.NormalOrientation"></a>
+
+### *property* AddedMassTracker.NormalOrientation *: [Ansys.Mechanical.DataModel.Enums.NormalOrientationType](../../../../../Mechanical/DataModel/Enums/NormalOrientationType.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.NormalOrientationType) | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the NormalOrientation.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="AddedMassTracker.PhaseAngle"></a>
+
+### *property* AddedMassTracker.PhaseAngle *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets the PhaseAngle.
 
 <!-- !! processed by numpydoc !! -->
 
@@ -480,6 +358,110 @@ Gets the list of properties for this object.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="AddedMassTracker.RealAtMaximumAmplitude"></a>
+
+### *property* AddedMassTracker.RealAtMaximumAmplitude *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets the RealAtMaximumAmplitude.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="AddedMassTracker.ReportedFrequency"></a>
+
+### *property* AddedMassTracker.ReportedFrequency *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets the ReportedFrequency.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="AddedMassTracker.RequestedFrequency"></a>
+
+### *property* AddedMassTracker.RequestedFrequency *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the RequestedFrequency.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="AddedMassTracker.ResultChartType"></a>
+
+### *property* AddedMassTracker.ResultChartType *: [Ansys.Mechanical.DataModel.Enums.ChartResultType](../../../../../Mechanical/DataModel/Enums/ChartResultType.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.ChartResultType) | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets the ResultChartType.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="AddedMassTracker.SectorNumber"></a>
+
+### *property* AddedMassTracker.SectorNumber *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the SectorNumber.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="AddedMassTracker.ShearOrientation"></a>
+
+### *property* AddedMassTracker.ShearOrientation *: [Ansys.Mechanical.DataModel.Enums.ShearOrientationType](../../../../../Mechanical/DataModel/Enums/ShearOrientationType.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.ShearOrientationType) | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the ShearOrientation.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="AddedMassTracker.SpatialResolution"></a>
+
+### *property* AddedMassTracker.SpatialResolution *: [Ansys.Mechanical.DataModel.Enums.MultipleNodeType](../../../../../Mechanical/DataModel/Enums/MultipleNodeType.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.MultipleNodeType) | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the SpatialResolution.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="AddedMassTracker.Spring"></a>
+
+### *property* AddedMassTracker.Spring *: [Ansys.ACT.Automation.Mechanical.Connections.Spring](../../../../../../../v241/Ansys/ACT/Automation/Mechanical/Connections/Spring.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Connections.Spring) | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the Spring.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="AddedMassTracker.StressStrainType"></a>
+
+### *property* AddedMassTracker.StressStrainType *: [Ansys.Mechanical.DataModel.Enums.StressStrainType](../../../../../Mechanical/DataModel/Enums/StressStrainType.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.StressStrainType) | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the StressStrainType.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="AddedMassTracker.Suppressed"></a>
+
+### *property* AddedMassTracker.Suppressed *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the Suppressed.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="AddedMassTracker.TimeHistoryDisplay"></a>
+
+### *property* AddedMassTracker.TimeHistoryDisplay *: [Ansys.Mechanical.DataModel.Enums.TimeHistoryDisplayType](../../../../../Mechanical/DataModel/Enums/TimeHistoryDisplayType.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.TimeHistoryDisplayType) | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the TimeHistoryDisplay.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="AddedMassTracker.UseParentFrequencyRange"></a>
+
+### *property* AddedMassTracker.UseParentFrequencyRange *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the UseParentFrequencyRange.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="AddedMassTracker.VelocityType"></a>
+
+### *property* AddedMassTracker.VelocityType *: [Ansys.Mechanical.DataModel.Enums.TotalOrDirectional](../../../../../Mechanical/DataModel/Enums/TotalOrDirectional.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.TotalOrDirectional) | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the VelocityType.
+
+<!-- !! processed by numpydoc !! -->
+
 <a id="AddedMassTracker.VisibleProperties"></a>
 
 ### *property* AddedMassTracker.VisibleProperties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
@@ -488,63 +470,23 @@ Gets the list of properties that are visible for this object.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="AddedMassTracker.XAxisValues"></a>
+
+### *property* AddedMassTracker.XAxisValues *: [Ansys.Mechanical.DataModel.Enums.XAxisValues](../../../../../Mechanical/DataModel/Enums/XAxisValues.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.XAxisValues) | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the XAxisValues.
+
+<!-- !! processed by numpydoc !! -->
+
 <a id="method-detail"></a>
 
 ## Method detail
 
-<a id="AddedMassTracker.ExportAnimation"></a>
+<a id="AddedMassTracker.Activate"></a>
 
-### AddedMassTracker.ExportAnimation(filePath: System.String, format: [Ansys.Mechanical.DataModel.Enums.GraphicsAnimationExportFormat](../../../../../../../v241/Ansys/Mechanical/DataModel/Enums/GraphicsAnimationExportFormat.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.GraphicsAnimationExportFormat), settings: [Ansys.Mechanical.Graphics.AnimationExportSettings](../../../../../../../v241/Ansys/Mechanical/Graphics/AnimationExportSettings.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.Graphics.AnimationExportSettings))
+### AddedMassTracker.Activate()
 
-Run the ExportAnimation action.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="AddedMassTracker.ClearGeneratedData"></a>
-
-### AddedMassTracker.ClearGeneratedData()
-
-Run the ClearGeneratedData action.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="AddedMassTracker.EvaluateAllResults"></a>
-
-### AddedMassTracker.EvaluateAllResults()
-
-Run the EvaluateAllResults action.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="AddedMassTracker.RenameBasedOnDefinition"></a>
-
-### AddedMassTracker.RenameBasedOnDefinition()
-
-Run the RenameBasedOnDefinition action.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="AddedMassTracker.Delete"></a>
-
-### AddedMassTracker.Delete()
-
-Run the Delete action.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="AddedMassTracker.GetChildren"></a>
-
-### AddedMassTracker.GetChildren(recurses: System.Boolean, children: System.Collections.Generic.IList[ChildrenType])
-
-Gets the list of children, filtered by type.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="id1"></a>
-
-### AddedMassTracker.GetChildren(category: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../../../v241/Ansys/Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory), recurses: System.Boolean, children: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject])
-
-Gets the list of children, filtered by type.
+Activate the current object.
 
 <!-- !! processed by numpydoc !! -->
 
@@ -560,17 +502,19 @@ Creates a new child Comment.
 
 ### AddedMassTracker.AddImage(filePath: System.String)
 
+```text
 Creates a new child Image.
 If a filePath is provided, the image will be loaded from that file,
 if not, the image will be a screen capture of the Geometry window.
+```
 
 <!-- !! processed by numpydoc !! -->
 
-<a id="AddedMassTracker.Activate"></a>
+<a id="AddedMassTracker.ClearGeneratedData"></a>
 
-### AddedMassTracker.Activate()
+### AddedMassTracker.ClearGeneratedData()
 
-Activate the current object.
+Run the ClearGeneratedData action.
 
 <!-- !! processed by numpydoc !! -->
 
@@ -582,11 +526,59 @@ Copies all visible properties from this object to another.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="AddedMassTracker.CreateParameter"></a>
+
+### AddedMassTracker.CreateParameter(propName: System.String)
+
+Creates a new parameter for a Property.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="AddedMassTracker.Delete"></a>
+
+### AddedMassTracker.Delete()
+
+Run the Delete action.
+
+<!-- !! processed by numpydoc !! -->
+
 <a id="AddedMassTracker.Duplicate"></a>
 
 ### AddedMassTracker.Duplicate()
 
 Creates a copy of the current DataModelObject.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="AddedMassTracker.EvaluateAllResults"></a>
+
+### AddedMassTracker.EvaluateAllResults()
+
+Run the EvaluateAllResults action.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="AddedMassTracker.ExportAnimation"></a>
+
+### AddedMassTracker.ExportAnimation(filePath: System.String, format: [Ansys.Mechanical.DataModel.Enums.GraphicsAnimationExportFormat](../../../../../Mechanical/DataModel/Enums/GraphicsAnimationExportFormat.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.GraphicsAnimationExportFormat), settings: [Ansys.Mechanical.Graphics.AnimationExportSettings](../../../../../Mechanical/Graphics/AnimationExportSettings.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.Graphics.AnimationExportSettings))
+
+Run the ExportAnimation action.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="AddedMassTracker.GetChildren"></a>
+
+### AddedMassTracker.GetChildren(recurses: System.Boolean, children: System.Collections.Generic.IList[ChildrenType])
+
+Gets the list of children, filtered by type.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="AddedMassTracker.GetParameter"></a>
+
+### AddedMassTracker.GetParameter(propName: System.String)
+
+Gets the parameter corresponding to the given property.
 
 <!-- !! processed by numpydoc !! -->
 
@@ -606,6 +598,17 @@ Run the GroupSimilarObjects action.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="AddedMassTracker.PropertyByAPIName"></a>
+
+### AddedMassTracker.PropertyByAPIName(name: System.String)
+
+```text
+Get a property by its API name.
+If multiple properties have the same API Name, only the first property with that name will be returned.
+```
+
+<!-- !! processed by numpydoc !! -->
+
 <a id="AddedMassTracker.PropertyByName"></a>
 
 ### AddedMassTracker.PropertyByName(name: System.String)
@@ -614,36 +617,19 @@ Get a property by its unique name.
 
 <!-- !! processed by numpydoc !! -->
 
-<a id="AddedMassTracker.PropertyByAPIName"></a>
-
-### AddedMassTracker.PropertyByAPIName(name: System.String)
-
-Get a property by its API name.
-If multiple properties have the same API Name, only the first property with that name will be returned.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="AddedMassTracker.CreateParameter"></a>
-
-### AddedMassTracker.CreateParameter(propName: System.String)
-
-Creates a new parameter for a Property.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="AddedMassTracker.GetParameter"></a>
-
-### AddedMassTracker.GetParameter(propName: System.String)
-
-Gets the parameter corresponding to the given property.
-
-<!-- !! processed by numpydoc !! -->
-
 <a id="AddedMassTracker.RemoveParameter"></a>
 
 ### AddedMassTracker.RemoveParameter(propName: System.String)
 
 Removes the parameter from the parameter set corresponding to the given property.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="AddedMassTracker.RenameBasedOnDefinition"></a>
+
+### AddedMassTracker.RenameBasedOnDefinition()
+
+Run the RenameBasedOnDefinition action.
 
 <!-- !! processed by numpydoc !! -->
 

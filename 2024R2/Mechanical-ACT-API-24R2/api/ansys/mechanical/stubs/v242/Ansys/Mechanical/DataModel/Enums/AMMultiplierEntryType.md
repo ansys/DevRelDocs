@@ -1,6 +1,6 @@
 # `AMMultiplierEntryType`
 
-
+<a id="ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.AMMultiplierEntryType"></a>
 
 #### *class* ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.AMMultiplierEntryType
 
@@ -17,20 +17,20 @@ Specifies the AMSupportSubtype.
 ### Attributes
 
 | Name |
-| --------------------------------------------- |
-| [`Manual`](#AMMultiplierEntryType.Manual) |
+| ------------------------------------------------------------------------------------------------------------------------ |
 | [`All`](#AMMultiplierEntryType.All) |
+| [`Manual`](#AMMultiplierEntryType.Manual) |
 
 <a id="attribute-detail"></a>
 
 ## Attribute detail
 
-<a id="AMMultiplierEntryType.Manual"></a>
-
-### AMMultiplierEntryType.Manual *= 0*
-
 <a id="AMMultiplierEntryType.All"></a>
 
 ### AMMultiplierEntryType.All *= 1*
+
+<a id="AMMultiplierEntryType.Manual"></a>
+
+### AMMultiplierEntryType.Manual *= 0*
 
 

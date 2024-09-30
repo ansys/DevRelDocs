@@ -1,6 +1,6 @@
 # `AMStlSource`
 
-
+<a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.AMStlSource"></a>
 
 #### *class* ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.AMStlSource
 
@@ -17,9 +17,9 @@ Specifies the AMStlSource.
 ### Attributes
 
 | Name |
-| ---------------------------------------------------------------------------------------------------------------------------------- |
-| [`ConstructionGeometry`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/AMStlSource.md#AMStlSource.ConstructionGeometry) |
-| [`File`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/AMStlSource.md#AMStlSource.File) |
+| --------------------------------------------------------------- |
+| [`ConstructionGeometry`](#AMStlSource.ConstructionGeometry) |
+| [`File`](#AMStlSource.File) |
 
 <a id="attribute-detail"></a>
 

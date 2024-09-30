@@ -1,6 +1,6 @@
 # `MeshFlowControlMethod`
 
-
+<a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.MeshFlowControlMethod"></a>
 
 #### *class* ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.MeshFlowControlMethod
 
@@ -19,10 +19,10 @@ Derive from this class to define new enumerations.
 ### Attributes
 
 | Name |
-| ---------------------------------------------------------------------------------------------------------------------------------------------- |
-| [`GlobalCartesian`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/MeshFlowControlMethod.md#MeshFlowControlMethod.GlobalCartesian) |
-| [`None_`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/MeshFlowControlMethod.md#MeshFlowControlMethod.None_) |
-| [`ProgramControlled`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/MeshFlowControlMethod.md#MeshFlowControlMethod.ProgramControlled) |
+| ----------------------------------------------------------------- |
+| [`GlobalCartesian`](#MeshFlowControlMethod.GlobalCartesian) |
+| [`None_`](#MeshFlowControlMethod.None_) |
+| [`ProgramControlled`](#MeshFlowControlMethod.ProgramControlled) |
 
 <a id="attribute-detail"></a>
 

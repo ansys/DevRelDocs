@@ -1,6 +1,6 @@
 # `ContactSplitType`
 
-
+<a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.ContactSplitType"></a>
 
 #### *class* ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.ContactSplitType
 
@@ -17,10 +17,10 @@ Specifies the ContactSplitType.
 ### Attributes
 
 | Name |
-| ------------------------------------------------------------------------------------------------------------------------------------ |
-| [`Off`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/ContactSplitType.md#ContactSplitType.Off) |
-| [`On`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/ContactSplitType.md#ContactSplitType.On) |
-| [`ProgramControlled`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/ContactSplitType.md#ContactSplitType.ProgramControlled) |
+| ------------------------------------------------------------ |
+| [`Off`](#ContactSplitType.Off) |
+| [`On`](#ContactSplitType.On) |
+| [`ProgramControlled`](#ContactSplitType.ProgramControlled) |
 
 <a id="attribute-detail"></a>
 

@@ -1,6 +1,6 @@
 # `RestartSaveAtSubstep`
 
-
+<a id="ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.RestartSaveAtSubstep"></a>
 
 #### *class* ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.RestartSaveAtSubstep
 
@@ -17,7 +17,7 @@ Specifies the RestartSaveAtSubstep.
 ### Attributes
 
 | Name |
-| -------------------------------------------------------------------------- |
+| ------------------------------------------------------------------------------------------------------------------------------------------------------ |
 | [`All`](#RestartSaveAtSubstep.All) |
 | [`EquallySpaced`](#RestartSaveAtSubstep.EquallySpaced) |
 | [`Last`](#RestartSaveAtSubstep.Last) |

@@ -1,6 +1,6 @@
 # `CommandElementBodyForce`
 
-
+<a id="ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.FE.CDB.CommandElementBodyForce"></a>
 
 #### *class* ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.FE.CDB.CommandElementBodyForce
 
@@ -17,29 +17,29 @@ Represents element body-force loads associated to BFEBLOCK command.
 ### Properties
 
 | Name | Description |
-|----------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------|
-| [`Elem`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/FE/CDB/CommandElementBodyForce.md#CommandElementBodyForce.Elem)     | Gets the element number.                     |
-| [`Count`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/FE/CDB/CommandElementBodyForce.md#CommandElementBodyForce.Count)   | Gets the number of element body-force loads. |
-| [`Stlocs`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/FE/CDB/CommandElementBodyForce.md#CommandElementBodyForce.Stlocs) | Gets the starting locations.                 |
-| [`Values`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/FE/CDB/CommandElementBodyForce.md#CommandElementBodyForce.Values) | Gets the values.                             |
+|----------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------|
+| [`Count`](#CommandElementBodyForce.Count)   | Gets the number of element body-force loads.   |
+| [`Elem`](#CommandElementBodyForce.Elem)     | Gets the element number.                       |
+| [`Stlocs`](#CommandElementBodyForce.Stlocs) | Gets the starting locations.                   |
+| [`Values`](#CommandElementBodyForce.Values) | Gets the values.                               |
 
 <a id="property-detail"></a>
 
 ## Property detail
-
-<a id="CommandElementBodyForce.Elem"></a>
-
-### *property* CommandElementBodyForce.Elem *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets the element number.
-
-<!-- !! processed by numpydoc !! -->
 
 <a id="CommandElementBodyForce.Count"></a>
 
 ### *property* CommandElementBodyForce.Count *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the number of element body-force loads.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="CommandElementBodyForce.Elem"></a>
+
+### *property* CommandElementBodyForce.Elem *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets the element number.
 
 <!-- !! processed by numpydoc !! -->
 

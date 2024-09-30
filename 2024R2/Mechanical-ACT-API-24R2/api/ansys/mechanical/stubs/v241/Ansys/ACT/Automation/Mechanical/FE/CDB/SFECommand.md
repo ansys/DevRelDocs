@@ -1,6 +1,6 @@
 # `SFECommand`
 
-
+<a id="ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.FE.CDB.SFECommand"></a>
 
 #### *class* ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.FE.CDB.SFECommand
 
@@ -18,13 +18,13 @@ Represents a SFE command.
 
 | Name | Description |
 |--------------------------------------------------------------------------------------------------------------|----------------------------|
-| [`Elem`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/FE/CDB/SFECommand.md#SFECommand.Elem)     | Gets the element number.   |
-| [`LKey`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/FE/CDB/SFECommand.md#SFECommand.LKey)     | Get the load key.          |
-| [`Key`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/FE/CDB/SFECommand.md#SFECommand.Key)       | Gets the value key.        |
-| [`Lab`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/FE/CDB/SFECommand.md#SFECommand.Lab)       | Gets the load label.       |
-| [`Values`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/FE/CDB/SFECommand.md#SFECommand.Values) | Gets the values.           |
-| [`Name`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/FE/CDB/SFECommand.md#SFECommand.Name)     | Gets the command name.     |
-| [`Index`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/FE/CDB/SFECommand.md#SFECommand.Index)   | Gets the command index.    |
+| [`Elem`](#SFECommand.Elem)     | Gets the element number.   |
+| [`Index`](#SFECommand.Index)   | Gets the command index.    |
+| [`Key`](#SFECommand.Key)       | Gets the value key.        |
+| [`LKey`](#SFECommand.LKey)     | Get the load key.          |
+| [`Lab`](#SFECommand.Lab)       | Gets the load label.       |
+| [`Name`](#SFECommand.Name)     | Gets the command name.     |
+| [`Values`](#SFECommand.Values) | Gets the values.           |
 
 <a id="property-detail"></a>
 
@@ -38,11 +38,11 @@ Gets the element number.
 
 <!-- !! processed by numpydoc !! -->
 
-<a id="SFECommand.LKey"></a>
+<a id="SFECommand.Index"></a>
 
-### *property* SFECommand.LKey *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* SFECommand.Index *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Get the load key.
+Gets the command index.
 
 <!-- !! processed by numpydoc !! -->
 
@@ -54,19 +54,19 @@ Gets the value key.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="SFECommand.LKey"></a>
+
+### *property* SFECommand.LKey *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Get the load key.
+
+<!-- !! processed by numpydoc !! -->
+
 <a id="SFECommand.Lab"></a>
 
 ### *property* SFECommand.Lab *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the load label.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="SFECommand.Values"></a>
-
-### *property* SFECommand.Values *: System.Collections.Generic.IReadOnlyList[System.Double] | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets the values.
 
 <!-- !! processed by numpydoc !! -->
 
@@ -78,11 +78,11 @@ Gets the command name.
 
 <!-- !! processed by numpydoc !! -->
 
-<a id="SFECommand.Index"></a>
+<a id="SFECommand.Values"></a>
 
-### *property* SFECommand.Index *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* SFECommand.Values *: System.Collections.Generic.IReadOnlyList[System.Double] | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets the command index.
+Gets the values.
 
 <!-- !! processed by numpydoc !! -->
 

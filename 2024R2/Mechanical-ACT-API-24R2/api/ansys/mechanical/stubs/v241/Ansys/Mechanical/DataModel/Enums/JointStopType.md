@@ -1,6 +1,6 @@
 # `JointStopType`
 
-
+<a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.JointStopType"></a>
 
 #### *class* ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.JointStopType
 
@@ -17,10 +17,10 @@ Specifies the JointStopType.
 ### Attributes
 
 | Name |
-| ------------------------------------------------------------------------------------------------------ |
-| [`Lock`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/JointStopType.md#JointStopType.Lock) |
-| [`None_`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/JointStopType.md#JointStopType.None_) |
-| [`Stop`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/JointStopType.md#JointStopType.Stop) |
+| --------------------------------- |
+| [`Lock`](#JointStopType.Lock) |
+| [`None_`](#JointStopType.None_) |
+| [`Stop`](#JointStopType.Stop) |
 
 <a id="attribute-detail"></a>
 

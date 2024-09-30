@@ -1,6 +1,6 @@
 # `QueueSettings`
 
-
+<a id="ansys.mechanical.stubs.v242.Ansys.ACT.Mechanical.Application.SolveProcessSettings.QueueSettings"></a>
 
 #### *class* ansys.mechanical.stubs.v242.Ansys.ACT.Mechanical.Application.SolveProcessSettings.QueueSettings
 
@@ -17,22 +17,14 @@ The class representing queue settings.
 ### Properties
 
 | Name | Description |
-|-------------------------------------|-----------------------------------------------------------------------------------------------------------|
-| [`Name`](#QueueSettings.Name)       | The name of the queue settings.                                                                           |
-| [`JobName`](#QueueSettings.JobName) | The job name of the queue settings.                                                                       |
-| [`License`](#QueueSettings.License) | The license of the queue settings.  The setter will throw an exception if the given license is not valid. |
+|------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------|
+| [`JobName`](#QueueSettings.JobName)   | The job name of the queue settings.                                                                       |
+| [`License`](#QueueSettings.License)   | The license of the queue settings.  The setter will throw an exception if the given license is not valid. |
+| [`Name`](#QueueSettings.Name)         | The name of the queue settings.                                                                           |
 
 <a id="property-detail"></a>
 
 ## Property detail
-
-<a id="QueueSettings.Name"></a>
-
-### *property* QueueSettings.Name *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
-
-The name of the queue settings.
-
-<!-- !! processed by numpydoc !! -->
 
 <a id="QueueSettings.JobName"></a>
 
@@ -47,6 +39,14 @@ The job name of the queue settings.
 ### *property* QueueSettings.License *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
 
 The license of the queue settings.  The setter will throw an exception if the given license is not valid.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="QueueSettings.Name"></a>
+
+### *property* QueueSettings.Name *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+
+The name of the queue settings.
 
 <!-- !! processed by numpydoc !! -->
 

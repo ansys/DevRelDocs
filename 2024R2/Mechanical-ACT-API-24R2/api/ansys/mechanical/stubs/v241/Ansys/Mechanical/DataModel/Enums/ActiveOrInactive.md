@@ -1,6 +1,6 @@
 # `ActiveOrInactive`
 
-
+<a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.ActiveOrInactive"></a>
 
 #### *class* ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.ActiveOrInactive
 
@@ -17,9 +17,9 @@ Specifies the ActiveOrInactive.
 ### Attributes
 
 | Name |
-| ------------------------------------------------------------------------------------------------------------------ |
-| [`Active`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/ActiveOrInactive.md#ActiveOrInactive.Active) |
-| [`Inactive`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/ActiveOrInactive.md#ActiveOrInactive.Inactive) |
+| ------------------------------------------ |
+| [`Active`](#ActiveOrInactive.Active) |
+| [`Inactive`](#ActiveOrInactive.Inactive) |
 
 <a id="attribute-detail"></a>
 

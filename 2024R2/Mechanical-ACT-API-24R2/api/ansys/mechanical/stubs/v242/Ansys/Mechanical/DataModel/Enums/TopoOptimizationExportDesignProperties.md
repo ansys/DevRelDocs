@@ -1,6 +1,6 @@
 # `TopoOptimizationExportDesignProperties`
 
-
+<a id="ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.TopoOptimizationExportDesignProperties"></a>
 
 #### *class* ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.TopoOptimizationExportDesignProperties
 
@@ -17,7 +17,7 @@ Specifies the TopoOptimizationExportDesignProperties.
 ### Attributes
 
 | Name |
-| -------------------------------------------------------------------------------------------- |
+| ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
 | [`AllAcceptedIterations`](#TopoOptimizationExportDesignProperties.AllAcceptedIterations) |
 | [`LastAcceptedIteration`](#TopoOptimizationExportDesignProperties.LastAcceptedIteration) |
 | [`No`](#TopoOptimizationExportDesignProperties.No) |

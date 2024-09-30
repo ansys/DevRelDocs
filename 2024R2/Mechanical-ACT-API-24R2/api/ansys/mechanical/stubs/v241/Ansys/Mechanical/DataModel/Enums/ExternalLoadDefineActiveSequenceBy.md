@@ -1,6 +1,6 @@
 # `ExternalLoadDefineActiveSequenceBy`
 
-
+<a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.ExternalLoadDefineActiveSequenceBy"></a>
 
 #### *class* ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.ExternalLoadDefineActiveSequenceBy
 
@@ -17,10 +17,10 @@ Specifies the ExternalLoadDefineActiveSequenceBy.
 ### Attributes
 
 | Name |
-| -------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| [`Row`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/ExternalLoadDefineActiveSequenceBy.md#ExternalLoadDefineActiveSequenceBy.Row) |
-| [`Undefined`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/ExternalLoadDefineActiveSequenceBy.md#ExternalLoadDefineActiveSequenceBy.Undefined) |
-| [`Value`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/ExternalLoadDefineActiveSequenceBy.md#ExternalLoadDefineActiveSequenceBy.Value) |
+| -------------------------------------------------------------- |
+| [`Row`](#ExternalLoadDefineActiveSequenceBy.Row) |
+| [`Undefined`](#ExternalLoadDefineActiveSequenceBy.Undefined) |
+| [`Value`](#ExternalLoadDefineActiveSequenceBy.Value) |
 
 <a id="attribute-detail"></a>
 

@@ -1,6 +1,6 @@
 # `WaveType`
 
-
+<a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.WaveType"></a>
 
 #### *class* ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.WaveType
 
@@ -17,15 +17,15 @@ Specifies the WaveType.
 ### Attributes
 
 | Name |
-| ---------------------------------------------------------------------------------------------------------------------------------- |
-| [`BackEnclosedLoudspeaker`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/WaveType.md#WaveType.BackEnclosedLoudspeaker) |
-| [`BareLoudspeaker`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/WaveType.md#WaveType.BareLoudspeaker) |
-| [`CircularDuct`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/WaveType.md#WaveType.CircularDuct) |
-| [`CylindricalCoaxialDuct`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/WaveType.md#WaveType.CylindricalCoaxialDuct) |
-| [`Dipole`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/WaveType.md#WaveType.Dipole) |
-| [`Monopole`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/WaveType.md#WaveType.Monopole) |
-| [`PlanarWave`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/WaveType.md#WaveType.PlanarWave) |
-| [`RectangularDuct`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/WaveType.md#WaveType.RectangularDuct) |
+| ------------------------------------------------------------------ |
+| [`BackEnclosedLoudspeaker`](#WaveType.BackEnclosedLoudspeaker) |
+| [`BareLoudspeaker`](#WaveType.BareLoudspeaker) |
+| [`CircularDuct`](#WaveType.CircularDuct) |
+| [`CylindricalCoaxialDuct`](#WaveType.CylindricalCoaxialDuct) |
+| [`Dipole`](#WaveType.Dipole) |
+| [`Monopole`](#WaveType.Monopole) |
+| [`PlanarWave`](#WaveType.PlanarWave) |
+| [`RectangularDuct`](#WaveType.RectangularDuct) |
 
 <a id="attribute-detail"></a>
 

@@ -1,6 +1,6 @@
 # `MethodType`
 
-
+<a id="ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.MethodType"></a>
 
 #### *class* ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.MethodType
 
@@ -17,64 +17,56 @@ Specifies the MethodType.
 ### Attributes
 
 | Name |
-| -------------------------------------------- |
-| [`Automatic`](#MethodType.Automatic) |
-| [`AllTriAllTet`](#MethodType.AllTriAllTet) |
-| [`HexDominant`](#MethodType.HexDominant) |
-| [`QuadTri`](#MethodType.QuadTri) |
+| -------------------------------------------------------------------------------------------------------------- |
 | [`AllQuad`](#MethodType.AllQuad) |
-| [`Sweep`](#MethodType.Sweep) |
+| [`AllTriAllTet`](#MethodType.AllTriAllTet) |
+| [`Automatic`](#MethodType.Automatic) |
 | [`CFXMesh`](#MethodType.CFXMesh) |
-| [`MultiZone`](#MethodType.MultiZone) |
 | [`Cartesian`](#MethodType.Cartesian) |
+| [`HexDominant`](#MethodType.HexDominant) |
 | [`LayeredTet`](#MethodType.LayeredTet) |
+| [`MultiZone`](#MethodType.MultiZone) |
 | [`Particle`](#MethodType.Particle) |
 | [`Prime`](#MethodType.Prime) |
+| [`QuadTri`](#MethodType.QuadTri) |
 | [`Stacker`](#MethodType.Stacker) |
+| [`Sweep`](#MethodType.Sweep) |
 
 <a id="attribute-detail"></a>
 
 ## Attribute detail
 
-<a id="MethodType.Automatic"></a>
+<a id="MethodType.AllQuad"></a>
 
-### MethodType.Automatic *= 0*
+### MethodType.AllQuad *= 4*
 
 <a id="MethodType.AllTriAllTet"></a>
 
 ### MethodType.AllTriAllTet *= 1*
 
-<a id="MethodType.HexDominant"></a>
+<a id="MethodType.Automatic"></a>
 
-### MethodType.HexDominant *= 2*
-
-<a id="MethodType.QuadTri"></a>
-
-### MethodType.QuadTri *= 3*
-
-<a id="MethodType.AllQuad"></a>
-
-### MethodType.AllQuad *= 4*
-
-<a id="MethodType.Sweep"></a>
-
-### MethodType.Sweep *= 5*
+### MethodType.Automatic *= 0*
 
 <a id="MethodType.CFXMesh"></a>
 
 ### MethodType.CFXMesh *= 6*
 
-<a id="MethodType.MultiZone"></a>
-
-### MethodType.MultiZone *= 7*
-
 <a id="MethodType.Cartesian"></a>
 
 ### MethodType.Cartesian *= 8*
 
+<a id="MethodType.HexDominant"></a>
+
+### MethodType.HexDominant *= 2*
+
 <a id="MethodType.LayeredTet"></a>
 
 ### MethodType.LayeredTet *= 12*
+
+<a id="MethodType.MultiZone"></a>
+
+### MethodType.MultiZone *= 7*
 
 <a id="MethodType.Particle"></a>
 
@@ -84,8 +76,16 @@ Specifies the MethodType.
 
 ### MethodType.Prime *= 14*
 
+<a id="MethodType.QuadTri"></a>
+
+### MethodType.QuadTri *= 3*
+
 <a id="MethodType.Stacker"></a>
 
 ### MethodType.Stacker *= 15*
+
+<a id="MethodType.Sweep"></a>
+
+### MethodType.Sweep *= 5*
 
 

@@ -1,6 +1,6 @@
 # `YesNoProgrammedControlled`
 
-
+<a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.YesNoProgrammedControlled"></a>
 
 #### *class* ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.YesNoProgrammedControlled
 
@@ -17,10 +17,10 @@ Specifies the YesNoProgrammedControlled.
 ### Attributes
 
 | Name |
-| ------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| [`No`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/YesNoProgrammedControlled.md#YesNoProgrammedControlled.No) |
-| [`ProgramControlled`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/YesNoProgrammedControlled.md#YesNoProgrammedControlled.ProgramControlled) |
-| [`Yes`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/YesNoProgrammedControlled.md#YesNoProgrammedControlled.Yes) |
+| --------------------------------------------------------------------- |
+| [`No`](#YesNoProgrammedControlled.No) |
+| [`ProgramControlled`](#YesNoProgrammedControlled.ProgramControlled) |
+| [`Yes`](#YesNoProgrammedControlled.Yes) |
 
 <a id="attribute-detail"></a>
 

@@ -1,6 +1,6 @@
 # `GraphicsImageExportFormat`
 
-
+<a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.GraphicsImageExportFormat"></a>
 
 #### *class* ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.GraphicsImageExportFormat
 
@@ -17,28 +17,16 @@ Specifies the 2D Image Format.
 ### Attributes
 
 | Name |
-| ---------------------------------------------------------------------------------------------------------------------------- |
-| [`PNG`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/GraphicsImageExportFormat.md#GraphicsImageExportFormat.PNG) |
-| [`JPG`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/GraphicsImageExportFormat.md#GraphicsImageExportFormat.JPG) |
-| [`TIF`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/GraphicsImageExportFormat.md#GraphicsImageExportFormat.TIF) |
-| [`BMP`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/GraphicsImageExportFormat.md#GraphicsImageExportFormat.BMP) |
-| [`EPS`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/GraphicsImageExportFormat.md#GraphicsImageExportFormat.EPS) |
+| ------------------------------------------- |
+| [`BMP`](#GraphicsImageExportFormat.BMP) |
+| [`EPS`](#GraphicsImageExportFormat.EPS) |
+| [`JPG`](#GraphicsImageExportFormat.JPG) |
+| [`PNG`](#GraphicsImageExportFormat.PNG) |
+| [`TIF`](#GraphicsImageExportFormat.TIF) |
 
 <a id="attribute-detail"></a>
 
 ## Attribute detail
-
-<a id="GraphicsImageExportFormat.PNG"></a>
-
-### GraphicsImageExportFormat.PNG *= 0*
-
-<a id="GraphicsImageExportFormat.JPG"></a>
-
-### GraphicsImageExportFormat.JPG *= 1*
-
-<a id="GraphicsImageExportFormat.TIF"></a>
-
-### GraphicsImageExportFormat.TIF *= 2*
 
 <a id="GraphicsImageExportFormat.BMP"></a>
 
@@ -47,5 +35,17 @@ Specifies the 2D Image Format.
 <a id="GraphicsImageExportFormat.EPS"></a>
 
 ### GraphicsImageExportFormat.EPS *= 4*
+
+<a id="GraphicsImageExportFormat.JPG"></a>
+
+### GraphicsImageExportFormat.JPG *= 1*
+
+<a id="GraphicsImageExportFormat.PNG"></a>
+
+### GraphicsImageExportFormat.PNG *= 0*
+
+<a id="GraphicsImageExportFormat.TIF"></a>
+
+### GraphicsImageExportFormat.TIF *= 2*
 
 

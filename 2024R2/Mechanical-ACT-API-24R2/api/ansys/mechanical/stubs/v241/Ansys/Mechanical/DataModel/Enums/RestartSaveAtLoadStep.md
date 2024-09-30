@@ -1,6 +1,6 @@
 # `RestartSaveAtLoadStep`
 
-
+<a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.RestartSaveAtLoadStep"></a>
 
 #### *class* ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.RestartSaveAtLoadStep
 
@@ -17,11 +17,11 @@ Specifies the RestartSaveAtLoadStep.
 ### Attributes
 
 | Name |
-| -------------------------------------------------------------------------------------------------------------------------- |
-| [`All`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/RestartSaveAtLoadStep.md#RestartSaveAtLoadStep.All) |
-| [`Last`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/RestartSaveAtLoadStep.md#RestartSaveAtLoadStep.Last) |
-| [`None_`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/RestartSaveAtLoadStep.md#RestartSaveAtLoadStep.None_) |
-| [`Specify`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/RestartSaveAtLoadStep.md#RestartSaveAtLoadStep.Specify) |
+| --------------------------------------------- |
+| [`All`](#RestartSaveAtLoadStep.All) |
+| [`Last`](#RestartSaveAtLoadStep.Last) |
+| [`None_`](#RestartSaveAtLoadStep.None_) |
+| [`Specify`](#RestartSaveAtLoadStep.Specify) |
 
 <a id="attribute-detail"></a>
 

@@ -1,6 +1,6 @@
 # `IDataTable`
 
-
+<a id="ansys.mechanical.stubs.v242.Ansys.Mechanical.Interfaces.IDataTable"></a>
 
 #### *class* ansys.mechanical.stubs.v242.Ansys.Mechanical.Interfaces.IDataTable
 
@@ -17,30 +17,30 @@ IDataTable interface.
 ### Methods
 
 | Name | Description |
-|--------------------------------------------|---------------------------------------------------------------------------|
-| [`Add`](#IDataTable.Add)                   | Add a new column to the data table.                                       |
-| [`Clear`](#IDataTable.Clear)               | Drops all columns from the data table.                                    |
-| [`Contains`](#IDataTable.Contains)         | Returns whether the data table contains a column with the specified name. |
-| [`GetRow`](#IDataTable.GetRow)             |                                                                           |
-| [`Insert`](#IDataTable.Insert)             | Insert a column at the specified index.                                   |
-| [`Remove`](#IDataTable.Remove)             | Removes the specified column. If                                          |
-| [`TryInsertRow`](#IDataTable.TryInsertRow) | Try to insert the values at the specified row index.                      |
-| [`TryRemoveRow`](#IDataTable.TryRemoveRow) | Try to remove the specified row.                                          |
+|------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------|
+| [`Add`](#IDataTable.Add)                   | Add a new column to the data table.                                                                  |
+| [`Clear`](#IDataTable.Clear)               | Drops all columns from the data table.                                                               |
+| [`Contains`](#IDataTable.Contains)         | Returns whether the data table contains a column with the specified name.                            |
+| [`GetRow`](#IDataTable.GetRow)             |                                                                                                      |
+| [`Insert`](#IDataTable.Insert)             | Insert a column at the specified index.                                                              |
+| [`Remove`](#IDataTable.Remove)             | Removes the specified column. If the specifier of the column to remove is an T:System.Int32, it will |
+| [`TryInsertRow`](#IDataTable.TryInsertRow) | Try to insert the values at the specified row index.                                                 |
+| [`TryRemoveRow`](#IDataTable.TryRemoveRow) | Try to remove the specified row.                                                                     |
 
 ### Properties
 
 | Name | Description |
-|--------------------------------------------------------|------------------------------------------------------------------------------------------|
-| [`ColumnNames`](#IDataTable.ColumnNames)               |                                                                                          |
-| [`Columns`](#IDataTable.Columns)                       | Explicitly get the columns of the data table.                                            |
-| [`Count`](#IDataTable.Count)                           | Gets the number of columns in the table.                                                 |
-| [`IsFixedColumnCount`](#IDataTable.IsFixedColumnCount) | Get whether additional columns can be added or removed from the contained                |
-| [`IsFixedRowCount`](#IDataTable.IsFixedRowCount)       | Get whether additional rows can be added or removed from the contained                   |
-| [`IsReadOnly`](#IDataTable.IsReadOnly)                 | Gets whether the data table is read-only.                                                |
-| [`Item`](#IDataTable.Item)                             | Item property.                                                                           |
-| [`Metadata`](#IDataTable.Metadata)                     | Gets or set a dictionary with additional information that may be useful to understanding |
-| [`Name`](#IDataTable.Name)                             | Get or set the name of the table.                                                        |
-| [`RowCount`](#IDataTable.RowCount)                     |                                                                                          |
+|------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------|
+| [`ColumnNames`](#IDataTable.ColumnNames)               |                                                                                                                      |
+| [`Columns`](#IDataTable.Columns)                       | Explicitly get the columns of the data table.                                                                        |
+| [`Count`](#IDataTable.Count)                           | Gets the number of columns in the table.                                                                             |
+| [`IsFixedColumnCount`](#IDataTable.IsFixedColumnCount) | Get whether additional columns can be added or removed from the contained T:Ansys.Mechanical.Interfaces.IDataSeries. |
+| [`IsFixedRowCount`](#IDataTable.IsFixedRowCount)       | Get whether additional rows can be added or removed from the contained                                               |
+| [`IsReadOnly`](#IDataTable.IsReadOnly)                 | Gets whether the data table is read-only.                                                                            |
+| [`Item`](#IDataTable.Item)                             | Item property.                                                                                                       |
+| [`Metadata`](#IDataTable.Metadata)                     | Gets or set a dictionary with additional information that may be useful to understanding                             |
+| [`Name`](#IDataTable.Name)                             | Get or set the name of the table.                                                                                    |
+| [`RowCount`](#IDataTable.RowCount)                     |                                                                                                                      |
 
 <a id="property-detail"></a>
 
@@ -52,7 +52,7 @@ IDataTable interface.
 
 <a id="IDataTable.Columns"></a>
 
-### *property* IDataTable.Columns *: System.Collections.Generic.IList[[Ansys.Mechanical.Interfaces.IDataSeries](../../../../v241/Ansys/Mechanical/Interfaces/IDataSeries.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.Interfaces.IDataSeries)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* IDataTable.Columns *: System.Collections.Generic.IList[[Ansys.Mechanical.Interfaces.IDataSeries](IDataSeries.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.Interfaces.IDataSeries)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Explicitly get the columns of the data table.
 
@@ -70,7 +70,7 @@ Gets the number of columns in the table.
 
 ### *property* IDataTable.IsFixedColumnCount *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Get whether additional columns can be added or removed from the contained
+Get whether additional columns can be added or removed from the contained T:Ansys.Mechanical.Interfaces.IDataSeries.
 
 <!-- !! processed by numpydoc !! -->
 
@@ -79,6 +79,7 @@ Get whether additional columns can be added or removed from the contained
 ### *property* IDataTable.IsFixedRowCount *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Get whether additional rows can be added or removed from the contained
+T:Ansys.Mechanical.Interfaces.IDataSeries.
 
 <!-- !! processed by numpydoc !! -->
 
@@ -92,7 +93,7 @@ Gets whether the data table is read-only.
 
 <a id="IDataTable.Item"></a>
 
-### *property* IDataTable.Item *: [Ansys.Mechanical.Interfaces.IDataSeries](../../../../v241/Ansys/Mechanical/Interfaces/IDataSeries.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.Interfaces.IDataSeries) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* IDataTable.Item *: [Ansys.Mechanical.Interfaces.IDataSeries](IDataSeries.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.Interfaces.IDataSeries) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Item property.
 
@@ -125,7 +126,7 @@ Get or set the name of the table.
 
 <a id="IDataTable.Add"></a>
 
-### IDataTable.Add(dataSeries: [Ansys.Mechanical.Interfaces.IDataSeries](../../../../v241/Ansys/Mechanical/Interfaces/IDataSeries.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.Interfaces.IDataSeries))
+### IDataTable.Add(dataSeries: [Ansys.Mechanical.Interfaces.IDataSeries](IDataSeries.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.Interfaces.IDataSeries))
 
 Add a new column to the data table.
 
@@ -153,7 +154,7 @@ Returns whether the data table contains a column with the specified name.
 
 <a id="IDataTable.Insert"></a>
 
-### IDataTable.Insert(columnIndex: System.Int32, dataSeries: [Ansys.Mechanical.Interfaces.IDataSeries](../../../../v241/Ansys/Mechanical/Interfaces/IDataSeries.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.Interfaces.IDataSeries))
+### IDataTable.Insert(columnIndex: System.Int32, dataSeries: [Ansys.Mechanical.Interfaces.IDataSeries](IDataSeries.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.Interfaces.IDataSeries))
 
 Insert a column at the specified index.
 
@@ -163,7 +164,11 @@ Insert a column at the specified index.
 
 ### IDataTable.Remove(key: System.Object)
 
-Removes the specified column. If
+```text
+Removes the specified column. If the specifier of the column to remove is an T:System.Int32, it will
+be interpreted as an index. If the specifier of the column to remove is a T:System.String, it will
+be interpreted as a column name.
+```
 
 <!-- !! processed by numpydoc !! -->
 

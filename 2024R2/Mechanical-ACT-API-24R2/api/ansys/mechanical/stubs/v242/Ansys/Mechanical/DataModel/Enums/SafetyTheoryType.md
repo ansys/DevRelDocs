@@ -1,6 +1,6 @@
 # `SafetyTheoryType`
 
-
+<a id="ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.SafetyTheoryType"></a>
 
 #### *class* ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.SafetyTheoryType
 
@@ -17,7 +17,7 @@ Specifies the Stress Safety Theory Type.
 ### Attributes
 
 | Name |
-| -------------------------------------------------------------------------- |
+| -------------------------------------------------------------------------------------------------------------------------------------------------- |
 | [`MaximumEquivalentStress`](#SafetyTheoryType.MaximumEquivalentStress) |
 | [`MaximumShearStress`](#SafetyTheoryType.MaximumShearStress) |
 | [`MaximumTensileStress`](#SafetyTheoryType.MaximumTensileStress) |

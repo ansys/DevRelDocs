@@ -1,6 +1,6 @@
 # `MeshNodeType`
 
-
+<a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.MeshNodeType"></a>
 
 #### *class* ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.MeshNodeType
 
@@ -17,9 +17,9 @@ Specifies the MeshNodeType.
 ### Attributes
 
 | Name |
-| -------------------------------------------------------------------------------------------------------- |
-| [`Corner`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/MeshNodeType.md#MeshNodeType.Corner) |
-| [`Midside`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/MeshNodeType.md#MeshNodeType.Midside) |
+| ------------------------------------ |
+| [`Corner`](#MeshNodeType.Corner) |
+| [`Midside`](#MeshNodeType.Midside) |
 
 <a id="attribute-detail"></a>
 

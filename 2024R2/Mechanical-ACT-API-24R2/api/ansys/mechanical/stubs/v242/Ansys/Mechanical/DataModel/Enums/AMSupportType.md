@@ -1,6 +1,6 @@
 # `AMSupportType`
 
-
+<a id="ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.AMSupportType"></a>
 
 #### *class* ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.AMSupportType
 
@@ -17,20 +17,20 @@ Specifies the AMSupportType.
 ### Attributes
 
 | Name |
-| ----------------------------------------------- |
-| [`UserDefined`](#AMSupportType.UserDefined) |
+| ------------------------------------------------------------------------------------------------------------------ |
 | [`Block`](#AMSupportType.Block) |
+| [`UserDefined`](#AMSupportType.UserDefined) |
 
 <a id="attribute-detail"></a>
 
 ## Attribute detail
 
-<a id="AMSupportType.UserDefined"></a>
-
-### AMSupportType.UserDefined *= 2*
-
 <a id="AMSupportType.Block"></a>
 
 ### AMSupportType.Block *= 1*
+
+<a id="AMSupportType.UserDefined"></a>
+
+### AMSupportType.UserDefined *= 2*
 
 

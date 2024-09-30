@@ -1,6 +1,6 @@
 # `UpdateContactStiffness`
 
-
+<a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.UpdateContactStiffness"></a>
 
 #### *class* ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.UpdateContactStiffness
 
@@ -17,13 +17,13 @@ Specifies the UpdateContactStiffness.
 ### Attributes
 
 | Name |
-| -------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| [`EachIteration`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/UpdateContactStiffness.md#UpdateContactStiffness.EachIteration) |
-| [`EachIterationAggressive`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/UpdateContactStiffness.md#UpdateContactStiffness.EachIterationAggressive) |
-| [`EachIterationExponential`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/UpdateContactStiffness.md#UpdateContactStiffness.EachIterationExponential) |
-| [`EachSubStep`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/UpdateContactStiffness.md#UpdateContactStiffness.EachSubStep) |
-| [`Never`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/UpdateContactStiffness.md#UpdateContactStiffness.Never) |
-| [`ProgramControlled`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/UpdateContactStiffness.md#UpdateContactStiffness.ProgramControlled) |
+| -------------------------------------------------------------------------------- |
+| [`EachIteration`](#UpdateContactStiffness.EachIteration) |
+| [`EachIterationAggressive`](#UpdateContactStiffness.EachIterationAggressive) |
+| [`EachIterationExponential`](#UpdateContactStiffness.EachIterationExponential) |
+| [`EachSubStep`](#UpdateContactStiffness.EachSubStep) |
+| [`Never`](#UpdateContactStiffness.Never) |
+| [`ProgramControlled`](#UpdateContactStiffness.ProgramControlled) |
 
 <a id="attribute-detail"></a>
 

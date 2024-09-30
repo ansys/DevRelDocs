@@ -1,6 +1,6 @@
 # `CoordinateSystem`
 
-
+<a id="ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.CoordinateSystem"></a>
 
 #### *class* ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.CoordinateSystem
 
@@ -18,98 +18,170 @@ Defines a CoordinateSystem.
 
 | Name | Description |
 |-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------|
-| [`AddTransformation`](../../../../../v242/Ansys/ACT/Automation/Mechanical/CoordinateSystem.md#CoordinateSystem.AddTransformation)                                             | Adds a new transformation.                                                        |
-| [`RemoveTransformation`](../../../../../v242/Ansys/ACT/Automation/Mechanical/CoordinateSystem.md#CoordinateSystem.RemoveTransformation)                                       | Removes a tranformation.                                                          |
-| [`SetOriginLocation`](../../../../../v242/Ansys/ACT/Automation/Mechanical/CoordinateSystem.md#CoordinateSystem.SetOriginLocation)                                             | Changes the origin location.                                                      |
-| [`SetTransformationValue`](../../../../../v242/Ansys/ACT/Automation/Mechanical/CoordinateSystem.md#CoordinateSystem.SetTransformationValue)                                   | Sets the value of a transformation.                                               |
-| [`GetTransformationValue`](../../../../../v242/Ansys/ACT/Automation/Mechanical/CoordinateSystem.md#CoordinateSystem.GetTransformationValue)                                   | Gets the value of a transformation.                                               |
-| [`MoveTransformationUp`](../../../../../v242/Ansys/ACT/Automation/Mechanical/CoordinateSystem.md#CoordinateSystem.MoveTransformationUp)                                       | Moves a transformation up.                                                        |
-| [`MoveTransformationDown`](../../../../../v242/Ansys/ACT/Automation/Mechanical/CoordinateSystem.md#CoordinateSystem.MoveTransformationDown)                                   | Moves a transformation down.                                                      |
-| [`SetPrimaryAxisUsingCenterOfMass`](../../../../../v242/Ansys/ACT/Automation/Mechanical/CoordinateSystem.md#CoordinateSystem.SetPrimaryAxisUsingCenterOfMass)                 | Sets the primary axis using a 1 or 2 point selection and the center of mass       |
-| [`FlipX`](../../../../../v242/Ansys/ACT/Automation/Mechanical/CoordinateSystem.md#CoordinateSystem.FlipX)                                                                     | Flips the X Axis of the coordinate system                                         |
-| [`FlipY`](../../../../../v242/Ansys/ACT/Automation/Mechanical/CoordinateSystem.md#CoordinateSystem.FlipY)                                                                     | Flips the Y Axis of the coordinate system                                         |
-| [`FlipZ`](../../../../../v242/Ansys/ACT/Automation/Mechanical/CoordinateSystem.md#CoordinateSystem.FlipZ)                                                                     | Flips the Z Axis of the coordinate system                                         |
-| [`OffsetX`](../../../../../v242/Ansys/ACT/Automation/Mechanical/CoordinateSystem.md#id1)                                                                                      | Creates an offset in the X Axis direction of the coordinate system                |
-| [`OffsetX`](../../../../../v242/Ansys/ACT/Automation/Mechanical/CoordinateSystem.md#id1)                                                                                      | Creates an offset in the X Axis direction of the coordinate system                |
-| [`OffsetY`](../../../../../v242/Ansys/ACT/Automation/Mechanical/CoordinateSystem.md#id2)                                                                                      | Creates an offset in the Y Axis direction of the coordinate system                |
-| [`OffsetY`](../../../../../v242/Ansys/ACT/Automation/Mechanical/CoordinateSystem.md#id2)                                                                                      | Creates an offset in the Y Axis direction of the coordinate system                |
-| [`OffsetZ`](../../../../../v242/Ansys/ACT/Automation/Mechanical/CoordinateSystem.md#id3)                                                                                      | Creates an offset in the Z Axis direction of the coordinate system                |
-| [`OffsetZ`](../../../../../v242/Ansys/ACT/Automation/Mechanical/CoordinateSystem.md#id3)                                                                                      | Creates an offset in the Z Axis direction of the coordinate system                |
-| [`RotateX`](../../../../../v242/Ansys/ACT/Automation/Mechanical/CoordinateSystem.md#id4)                                                                                      | Creates a rotation about the X Axis of the coordinate system                      |
-| [`RotateX`](../../../../../v242/Ansys/ACT/Automation/Mechanical/CoordinateSystem.md#id4)                                                                                      | Creates a rotation about the X Axis of the coordinate system                      |
-| [`RotateY`](../../../../../v242/Ansys/ACT/Automation/Mechanical/CoordinateSystem.md#id5)                                                                                      | Creates a rotation about the Y Axis of the coordinate system                      |
-| [`RotateY`](../../../../../v242/Ansys/ACT/Automation/Mechanical/CoordinateSystem.md#id5)                                                                                      | Creates a rotation about the Y Axis of the coordinate system                      |
-| [`RotateZ`](../../../../../v242/Ansys/ACT/Automation/Mechanical/CoordinateSystem.md#id6)                                                                                      | Creates a rotation about the Z Axis of the coordinate system                      |
-| [`RotateZ`](../../../../../v242/Ansys/ACT/Automation/Mechanical/CoordinateSystem.md#id6)                                                                                      | Creates a rotation about the Z Axis of the coordinate system                      |
-| [`SetCoordinateSystemOriginAtCenterOfMass`](../../../../../v242/Ansys/ACT/Automation/Mechanical/CoordinateSystem.md#CoordinateSystem.SetCoordinateSystemOriginAtCenterOfMass) | SetCoordinateSystemOriginAtCenterOfMass method.                                   |
-| [`CreateConstructionSurface`](../../../../../v242/Ansys/ACT/Automation/Mechanical/CoordinateSystem.md#CoordinateSystem.CreateConstructionSurface)                             | Run the CreateConstructionSurface action.                                         |
-| [`CreateSectionPlane`](../../../../../v242/Ansys/ACT/Automation/Mechanical/CoordinateSystem.md#CoordinateSystem.CreateSectionPlane)                                           | Run the CreateSectionPlane action.                                                |
-| [`Delete`](../../../../../v242/Ansys/ACT/Automation/Mechanical/CoordinateSystem.md#CoordinateSystem.Delete)                                                                   | Run the Delete action.                                                            |
-| [`GetChildren`](../../../../../v242/Ansys/ACT/Automation/Mechanical/CoordinateSystem.md#id7)                                                                                  | Gets the list of children, filtered by type.                                      |
-| [`GetChildren`](../../../../../v242/Ansys/ACT/Automation/Mechanical/CoordinateSystem.md#id7)                                                                                  | Gets the list of children, filtered by type.                                      |
-| [`AddComment`](../../../../../v242/Ansys/ACT/Automation/Mechanical/CoordinateSystem.md#CoordinateSystem.AddComment)                                                           | Creates a new child Comment.                                                      |
-| [`AddFigure`](../../../../../v242/Ansys/ACT/Automation/Mechanical/CoordinateSystem.md#CoordinateSystem.AddFigure)                                                             | Creates a new child Figure.                                                       |
-| [`AddImage`](../../../../../v242/Ansys/ACT/Automation/Mechanical/CoordinateSystem.md#CoordinateSystem.AddImage)                                                               | Creates a new child Image.                                                        |
-| [`Activate`](../../../../../v242/Ansys/ACT/Automation/Mechanical/CoordinateSystem.md#CoordinateSystem.Activate)                                                               | Activate the current object.                                                      |
-| [`CopyTo`](../../../../../v242/Ansys/ACT/Automation/Mechanical/CoordinateSystem.md#CoordinateSystem.CopyTo)                                                                   | Copies all visible properties from this object to another.                        |
-| [`Duplicate`](../../../../../v242/Ansys/ACT/Automation/Mechanical/CoordinateSystem.md#CoordinateSystem.Duplicate)                                                             | Creates a copy of the current DataModelObject.                                    |
-| [`GroupAllSimilarChildren`](../../../../../v242/Ansys/ACT/Automation/Mechanical/CoordinateSystem.md#CoordinateSystem.GroupAllSimilarChildren)                                 | Run the GroupAllSimilarChildren action.                                           |
-| [`GroupSimilarObjects`](../../../../../v242/Ansys/ACT/Automation/Mechanical/CoordinateSystem.md#CoordinateSystem.GroupSimilarObjects)                                         | Run the GroupSimilarObjects action.                                               |
-| [`PropertyByName`](../../../../../v242/Ansys/ACT/Automation/Mechanical/CoordinateSystem.md#CoordinateSystem.PropertyByName)                                                   | Get a property by its unique name.                                                |
-| [`PropertyByAPIName`](../../../../../v242/Ansys/ACT/Automation/Mechanical/CoordinateSystem.md#CoordinateSystem.PropertyByAPIName)                                             | Get a property by its API name.                                                   |
-| [`CreateParameter`](../../../../../v242/Ansys/ACT/Automation/Mechanical/CoordinateSystem.md#CoordinateSystem.CreateParameter)                                                 | Creates a new parameter for a Property.                                           |
-| [`GetParameter`](../../../../../v242/Ansys/ACT/Automation/Mechanical/CoordinateSystem.md#CoordinateSystem.GetParameter)                                                       | Gets the parameter corresponding to the given property.                           |
-| [`RemoveParameter`](../../../../../v242/Ansys/ACT/Automation/Mechanical/CoordinateSystem.md#CoordinateSystem.RemoveParameter)                                                 | Removes the parameter from the parameter set corresponding to the given property. |
+| [`Activate`](#CoordinateSystem.Activate)                                                               | Activate the current object.                                                      |
+| [`AddComment`](#CoordinateSystem.AddComment)                                                           | Creates a new child Comment.                                                      |
+| [`AddFigure`](#CoordinateSystem.AddFigure)                                                             | Creates a new child Figure.                                                       |
+| [`AddImage`](#CoordinateSystem.AddImage)                                                               | Creates a new child Image.                                                        |
+| [`AddTransformation`](#CoordinateSystem.AddTransformation)                                             | Adds a new transformation.                                                        |
+| [`CopyTo`](#CoordinateSystem.CopyTo)                                                                   | Copies all visible properties from this object to another.                        |
+| [`CreateConstructionSurface`](#CoordinateSystem.CreateConstructionSurface)                             | Run the CreateConstructionSurface action.                                         |
+| [`CreateParameter`](#CoordinateSystem.CreateParameter)                                                 | Creates a new parameter for a Property.                                           |
+| [`CreateSectionPlane`](#CoordinateSystem.CreateSectionPlane)                                           | Run the CreateSectionPlane action.                                                |
+| [`Delete`](#CoordinateSystem.Delete)                                                                   | Run the Delete action.                                                            |
+| [`Duplicate`](#CoordinateSystem.Duplicate)                                                             | Creates a copy of the current DataModelObject.                                    |
+| [`FlipX`](#CoordinateSystem.FlipX)                                                                     | Flips the X Axis of the coordinate system                                         |
+| [`FlipY`](#CoordinateSystem.FlipY)                                                                     | Flips the Y Axis of the coordinate system                                         |
+| [`FlipZ`](#CoordinateSystem.FlipZ)                                                                     | Flips the Z Axis of the coordinate system                                         |
+| [`GetChildren`](#CoordinateSystem.GetChildren)                                                         | Gets the list of children, filtered by type.                                      |
+| [`GetParameter`](#CoordinateSystem.GetParameter)                                                       | Gets the parameter corresponding to the given property.                           |
+| [`GetTransformationValue`](#CoordinateSystem.GetTransformationValue)                                   | Gets the value of a transformation.                                               |
+| [`GroupAllSimilarChildren`](#CoordinateSystem.GroupAllSimilarChildren)                                 | Run the GroupAllSimilarChildren action.                                           |
+| [`GroupSimilarObjects`](#CoordinateSystem.GroupSimilarObjects)                                         | Run the GroupSimilarObjects action.                                               |
+| [`MoveTransformationDown`](#CoordinateSystem.MoveTransformationDown)                                   | Moves a transformation down.                                                      |
+| [`MoveTransformationUp`](#CoordinateSystem.MoveTransformationUp)                                       | Moves a transformation up.                                                        |
+| [`OffsetX`](#CoordinateSystem.OffsetX)                                                                 | Creates an offset in the X Axis direction of the coordinate system                |
+| [`OffsetY`](#CoordinateSystem.OffsetY)                                                                 | Creates an offset in the Y Axis direction of the coordinate system                |
+| [`OffsetZ`](#CoordinateSystem.OffsetZ)                                                                 | Creates an offset in the Z Axis direction of the coordinate system                |
+| [`PropertyByAPIName`](#CoordinateSystem.PropertyByAPIName)                                             | Get a property by its API name.                                                   |
+| [`PropertyByName`](#CoordinateSystem.PropertyByName)                                                   | Get a property by its unique name.                                                |
+| [`RemoveParameter`](#CoordinateSystem.RemoveParameter)                                                 | Removes the parameter from the parameter set corresponding to the given property. |
+| [`RemoveTransformation`](#CoordinateSystem.RemoveTransformation)                                       | Removes a tranformation.                                                          |
+| [`RotateX`](#CoordinateSystem.RotateX)                                                                 | Creates a rotation about the X Axis of the coordinate system                      |
+| [`RotateY`](#CoordinateSystem.RotateY)                                                                 | Creates a rotation about the Y Axis of the coordinate system                      |
+| [`RotateZ`](#CoordinateSystem.RotateZ)                                                                 | Creates a rotation about the Z Axis of the coordinate system                      |
+| [`SetCoordinateSystemOriginAtCenterOfMass`](#CoordinateSystem.SetCoordinateSystemOriginAtCenterOfMass) | SetCoordinateSystemOriginAtCenterOfMass method.                                   |
+| [`SetOriginLocation`](#CoordinateSystem.SetOriginLocation)                                             | Changes the origin location.                                                      |
+| [`SetPrimaryAxisUsingCenterOfMass`](#CoordinateSystem.SetPrimaryAxisUsingCenterOfMass)                 | Sets the primary axis using a 1 or 2 point selection and the center of mass       |
+| [`SetTransformationValue`](#CoordinateSystem.SetTransformationValue)                                   | Sets the value of a transformation.                                               |
 
 ### Properties
 
 | Name | Description |
 |---------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------|
-| [`TransformationCount`](../../../../../v242/Ansys/ACT/Automation/Mechanical/CoordinateSystem.md#CoordinateSystem.TransformationCount)                   | Gets the number of transformations.                                   |
-| [`IsGlobal`](../../../../../v242/Ansys/ACT/Automation/Mechanical/CoordinateSystem.md#CoordinateSystem.IsGlobal)                                         | Gets the IsGlobal.                                                    |
-| [`OriginLocation`](../../../../../v242/Ansys/ACT/Automation/Mechanical/CoordinateSystem.md#CoordinateSystem.OriginLocation)                             | Gets or sets the origin location.                                     |
-| [`OriginX`](../../../../../v242/Ansys/ACT/Automation/Mechanical/CoordinateSystem.md#CoordinateSystem.OriginX)                                           | Gets or sets the origin X coordinate.                                 |
-| [`OriginY`](../../../../../v242/Ansys/ACT/Automation/Mechanical/CoordinateSystem.md#CoordinateSystem.OriginY)                                           | Gets or sets the origin Y coordinate.                                 |
-| [`OriginZ`](../../../../../v242/Ansys/ACT/Automation/Mechanical/CoordinateSystem.md#CoordinateSystem.OriginZ)                                           | Gets or sets the origin Z coordinate.                                 |
-| [`OriginDefineBy`](../../../../../v242/Ansys/ACT/Automation/Mechanical/CoordinateSystem.md#CoordinateSystem.OriginDefineBy)                             | Gets or sets the origin define by.                                    |
-| [`PrimaryAxisDirection`](../../../../../v242/Ansys/ACT/Automation/Mechanical/CoordinateSystem.md#CoordinateSystem.PrimaryAxisDirection)                 | Gets or sets the Principal Axis Direction.                            |
-| [`SecondaryAxisDirection`](../../../../../v242/Ansys/ACT/Automation/Mechanical/CoordinateSystem.md#CoordinateSystem.SecondaryAxisDirection)             | Gets the Secondary Axis Direction.                                    |
-| [`PrimaryAxisLocation`](../../../../../v242/Ansys/ACT/Automation/Mechanical/CoordinateSystem.md#CoordinateSystem.PrimaryAxisLocation)                   | Gets or sets the principal axis geometry selection.                   |
-| [`SecondaryAxisLocation`](../../../../../v242/Ansys/ACT/Automation/Mechanical/CoordinateSystem.md#CoordinateSystem.SecondaryAxisLocation)               | Gets or sets the orientation about principal axis geometry selection. |
-| [`CoordinateSystemType`](../../../../../v242/Ansys/ACT/Common/CoordinateSystem.md#CoordinateSystem.CoordinateSystemType)                                | Gets or sets the CoordinateSystemType.                                |
-| [`APDLName`](../../../../../v242/Ansys/ACT/Automation/Mechanical/CoordinateSystem.md#CoordinateSystem.APDLName)                                         | Gets or sets the APDLName.                                            |
-| [`InternalObject`](../../../../../v242/Ansys/ACT/Automation/Mechanical/CoordinateSystem.md#id0)                                                         | Gets the internal object. For advanced usage only.                    |
-| [`CoordinateSystemID`](../../../../../v242/Ansys/ACT/Automation/Mechanical/CoordinateSystem.md#CoordinateSystem.CoordinateSystemID)                     | Gets or sets the CoordinateSystemID.                                  |
-| [`TransformedConfiguration`](../../../../../v242/Ansys/ACT/Automation/Mechanical/CoordinateSystem.md#CoordinateSystem.TransformedConfiguration)         | Gets the TransformedConfiguration.                                    |
-| [`XAxisData`](../../../../../v242/Ansys/ACT/Automation/Mechanical/CoordinateSystem.md#CoordinateSystem.XAxisData)                                       | Gets the XAxisData.                                                   |
-| [`YAxisData`](../../../../../v242/Ansys/ACT/Automation/Mechanical/CoordinateSystem.md#CoordinateSystem.YAxisData)                                       | Gets the YAxisData.                                                   |
-| [`ZAxisData`](../../../../../v242/Ansys/ACT/Automation/Mechanical/CoordinateSystem.md#CoordinateSystem.ZAxisData)                                       | Gets the ZAxisData.                                                   |
-| [`CoordinateSystemIDGeneration`](../../../../../v242/Ansys/ACT/Automation/Mechanical/CoordinateSystem.md#CoordinateSystem.CoordinateSystemIDGeneration) | Gets or sets the CoordinateSystemIDGeneration.                        |
-| [`PrimaryAxis`](../../../../../v242/Ansys/ACT/Automation/Mechanical/CoordinateSystem.md#CoordinateSystem.PrimaryAxis)                                   | Gets or sets the PrimaryAxis.                                         |
-| [`PrimaryAxisDefineBy`](../../../../../v242/Ansys/ACT/Automation/Mechanical/CoordinateSystem.md#CoordinateSystem.PrimaryAxisDefineBy)                   | Gets or sets the PrimaryAxisDefineBy.                                 |
-| [`SecondaryAxis`](../../../../../v242/Ansys/ACT/Automation/Mechanical/CoordinateSystem.md#CoordinateSystem.SecondaryAxis)                               | Gets or sets the SecondaryAxis.                                       |
-| [`SecondaryAxisDefineBy`](../../../../../v242/Ansys/ACT/Automation/Mechanical/CoordinateSystem.md#CoordinateSystem.SecondaryAxisDefineBy)               | Gets or sets the SecondaryAxisDefineBy.                               |
-| [`GloballyAvailable`](../../../../../v242/Ansys/ACT/Automation/Mechanical/CoordinateSystem.md#CoordinateSystem.GloballyAvailable)                       | Gets or sets the GloballyAvailable.                                   |
-| [`Suppressed`](../../../../../v242/Ansys/ACT/Automation/Mechanical/CoordinateSystem.md#CoordinateSystem.Suppressed)                                     | Gets or sets the Suppressed.                                          |
-| [`DataModelObjectCategory`](../../../../../v242/Ansys/ACT/Automation/Mechanical/CoordinateSystem.md#CoordinateSystem.DataModelObjectCategory)           | Gets the current DataModelObject's category.                          |
-| [`Children`](../../../../../v242/Ansys/ACT/Automation/Mechanical/CoordinateSystem.md#CoordinateSystem.Children)                                         | Gets the list of children.                                            |
-| [`Comments`](../../../../../v242/Ansys/ACT/Automation/Mechanical/CoordinateSystem.md#CoordinateSystem.Comments)                                         | Gets the list of associated comments.                                 |
-| [`Figures`](../../../../../v242/Ansys/ACT/Automation/Mechanical/CoordinateSystem.md#CoordinateSystem.Figures)                                           | Gets the list of associated figures.                                  |
-| [`Images`](../../../../../v242/Ansys/ACT/Automation/Mechanical/CoordinateSystem.md#CoordinateSystem.Images)                                             | Gets the list of associated images.                                   |
-| [`ReadOnly`](../../../../../v242/Ansys/ACT/Automation/Mechanical/CoordinateSystem.md#CoordinateSystem.ReadOnly)                                         | Gets or sets the ReadOnly.                                            |
-| [`InternalObject`](../../../../../v242/Ansys/ACT/Automation/Mechanical/CoordinateSystem.md#id0)                                                         | Gets the internal object. For advanced usage only.                    |
-| [`Properties`](../../../../../v242/Ansys/ACT/Automation/Mechanical/CoordinateSystem.md#CoordinateSystem.Properties)                                     | Gets the list of properties for this object.                          |
-| [`VisibleProperties`](../../../../../v242/Ansys/ACT/Automation/Mechanical/CoordinateSystem.md#CoordinateSystem.VisibleProperties)                       | Gets the list of properties that are visible for this object.         |
+| [`APDLName`](#CoordinateSystem.APDLName)                                         | Gets or sets the APDLName.                                            |
+| [`Children`](#CoordinateSystem.Children)                                         | Gets the list of children.                                            |
+| [`Comments`](#CoordinateSystem.Comments)                                         | Gets the list of associated comments.                                 |
+| [`CoordinateSystemID`](#CoordinateSystem.CoordinateSystemID)                     | Gets or sets the CoordinateSystemID.                                  |
+| [`CoordinateSystemIDGeneration`](#CoordinateSystem.CoordinateSystemIDGeneration) | Gets or sets the CoordinateSystemIDGeneration.                        |
+| [`CoordinateSystemType`](#CoordinateSystem.CoordinateSystemType)                                                        | Gets or sets the CoordinateSystemType.                                |
+| [`DataModelObjectCategory`](#CoordinateSystem.DataModelObjectCategory)           | Gets the current DataModelObject’s category.                          |
+| [`Figures`](#CoordinateSystem.Figures)                                           | Gets the list of associated figures.                                  |
+| [`GloballyAvailable`](#CoordinateSystem.GloballyAvailable)                       | Gets or sets the GloballyAvailable.                                   |
+| [`Images`](#CoordinateSystem.Images)                                             | Gets the list of associated images.                                   |
+| [`InternalObject`](#CoordinateSystem.InternalObject)                             | Gets the internal object. For advanced usage only.                    |
+| [`IsGlobal`](#CoordinateSystem.IsGlobal)                                         | Gets the IsGlobal.                                                    |
+| [`OriginDefineBy`](#CoordinateSystem.OriginDefineBy)                             | Gets or sets the origin define by.                                    |
+| [`OriginLocation`](#CoordinateSystem.OriginLocation)                             | Gets or sets the origin location.                                     |
+| [`OriginX`](#CoordinateSystem.OriginX)                                           | Gets or sets the origin X coordinate.                                 |
+| [`OriginY`](#CoordinateSystem.OriginY)                                           | Gets or sets the origin Y coordinate.                                 |
+| [`OriginZ`](#CoordinateSystem.OriginZ)                                           | Gets or sets the origin Z coordinate.                                 |
+| [`PrimaryAxis`](#CoordinateSystem.PrimaryAxis)                                   | Gets or sets the PrimaryAxis.                                         |
+| [`PrimaryAxisDefineBy`](#CoordinateSystem.PrimaryAxisDefineBy)                   | Gets or sets the PrimaryAxisDefineBy.                                 |
+| [`PrimaryAxisDirection`](#CoordinateSystem.PrimaryAxisDirection)                 | Gets or sets the Principal Axis Direction.                            |
+| [`PrimaryAxisLocation`](#CoordinateSystem.PrimaryAxisLocation)                   | Gets or sets the principal axis geometry selection.                   |
+| [`Properties`](#CoordinateSystem.Properties)                                     | Gets the list of properties for this object.                          |
+| [`ReadOnly`](#CoordinateSystem.ReadOnly)                                         | Gets or sets the ReadOnly.                                            |
+| [`SecondaryAxis`](#CoordinateSystem.SecondaryAxis)                               | Gets or sets the SecondaryAxis.                                       |
+| [`SecondaryAxisDefineBy`](#CoordinateSystem.SecondaryAxisDefineBy)               | Gets or sets the SecondaryAxisDefineBy.                               |
+| [`SecondaryAxisDirection`](#CoordinateSystem.SecondaryAxisDirection)             | Gets the Secondary Axis Direction.                                    |
+| [`SecondaryAxisLocation`](#CoordinateSystem.SecondaryAxisLocation)               | Gets or sets the orientation about principal axis geometry selection. |
+| [`Suppressed`](#CoordinateSystem.Suppressed)                                     | Gets or sets the Suppressed.                                          |
+| [`TransformationCount`](#CoordinateSystem.TransformationCount)                   | Gets the number of transformations.                                   |
+| [`TransformedConfiguration`](#CoordinateSystem.TransformedConfiguration)         | Gets the TransformedConfiguration.                                    |
+| [`VisibleProperties`](#CoordinateSystem.VisibleProperties)                       | Gets the list of properties that are visible for this object.         |
+| [`XAxisData`](#CoordinateSystem.XAxisData)                                       | Gets the XAxisData.                                                   |
+| [`YAxisData`](#CoordinateSystem.YAxisData)                                       | Gets the YAxisData.                                                   |
+| [`ZAxisData`](#CoordinateSystem.ZAxisData)                                       | Gets the ZAxisData.                                                   |
 
 <a id="property-detail"></a>
 
 ## Property detail
 
-<a id="CoordinateSystem.TransformationCount"></a>
+<a id="CoordinateSystem.APDLName"></a>
 
-### *property* CoordinateSystem.TransformationCount *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* CoordinateSystem.APDLName *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets the number of transformations.
+Gets or sets the APDLName.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="CoordinateSystem.Children"></a>
+
+### *property* CoordinateSystem.Children *: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets the list of children.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="CoordinateSystem.Comments"></a>
+
+### *property* CoordinateSystem.Comments *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Comment](Comment.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets the list of associated comments.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="CoordinateSystem.CoordinateSystemID"></a>
+
+### *property* CoordinateSystem.CoordinateSystemID *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the CoordinateSystemID.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="CoordinateSystem.CoordinateSystemIDGeneration"></a>
+
+### *property* CoordinateSystem.CoordinateSystemIDGeneration *: [Ansys.Mechanical.DataModel.Enums.AutomaticOrManual](../../../../../v242/Ansys/Mechanical/DataModel/Enums/AutomaticOrManual.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.AutomaticOrManual) | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the CoordinateSystemIDGeneration.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="CoordinateSystem.CoordinateSystemType"></a>
+
+### *property* CoordinateSystem.CoordinateSystemType *: Ansys.ACT.Interfaces.Analysis.CoordinateSystemTypeEnum | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the CoordinateSystemType.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="CoordinateSystem.DataModelObjectCategory"></a>
+
+### *property* CoordinateSystem.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../v242/Ansys/Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets the current DataModelObject’s category.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="CoordinateSystem.Figures"></a>
+
+### *property* CoordinateSystem.Figures *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Figure](Figure.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets the list of associated figures.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="CoordinateSystem.GloballyAvailable"></a>
+
+### *property* CoordinateSystem.GloballyAvailable *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the GloballyAvailable.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="CoordinateSystem.Images"></a>
+
+### *property* CoordinateSystem.Images *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Image](Image.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets the list of associated images.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="CoordinateSystem.InternalObject"></a>
+
+### *property* CoordinateSystem.InternalObject *: Ansys.Common.Interop.DSObjectsAuto.IDSCoordinateSystemAuto | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets the internal object. For advanced usage only.
 
 <!-- !! processed by numpydoc !! -->
 
@@ -118,6 +190,14 @@ Gets the number of transformations.
 ### *property* CoordinateSystem.IsGlobal *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the IsGlobal.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="CoordinateSystem.OriginDefineBy"></a>
+
+### *property* CoordinateSystem.OriginDefineBy *: [Ansys.Mechanical.DataModel.Enums.CoordinateSystemAlignmentType](../../../../../v242/Ansys/Mechanical/DataModel/Enums/CoordinateSystemAlignmentType.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.CoordinateSystemAlignmentType) | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the origin define by.
 
 <!-- !! processed by numpydoc !! -->
 
@@ -153,11 +233,19 @@ Gets or sets the origin Z coordinate.
 
 <!-- !! processed by numpydoc !! -->
 
-<a id="CoordinateSystem.OriginDefineBy"></a>
+<a id="CoordinateSystem.PrimaryAxis"></a>
 
-### *property* CoordinateSystem.OriginDefineBy *: [Ansys.Mechanical.DataModel.Enums.CoordinateSystemAlignmentType](../../../Mechanical/DataModel/Enums/CoordinateSystemAlignmentType.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.CoordinateSystemAlignmentType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* CoordinateSystem.PrimaryAxis *: [Ansys.Mechanical.DataModel.Enums.CoordinateSystemAxisType](../../../../../v242/Ansys/Mechanical/DataModel/Enums/CoordinateSystemAxisType.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.CoordinateSystemAxisType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets or sets the origin define by.
+Gets or sets the PrimaryAxis.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="CoordinateSystem.PrimaryAxisDefineBy"></a>
+
+### *property* CoordinateSystem.PrimaryAxisDefineBy *: [Ansys.Mechanical.DataModel.Enums.CoordinateSystemAlignmentType](../../../../../v242/Ansys/Mechanical/DataModel/Enums/CoordinateSystemAlignmentType.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.CoordinateSystemAlignmentType) | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the PrimaryAxisDefineBy.
 
 <!-- !! processed by numpydoc !! -->
 
@@ -169,19 +257,51 @@ Gets or sets the Principal Axis Direction.
 
 <!-- !! processed by numpydoc !! -->
 
-<a id="CoordinateSystem.SecondaryAxisDirection"></a>
-
-### *property* CoordinateSystem.SecondaryAxisDirection *: Ansys.ACT.Math.Vector3D | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets the Secondary Axis Direction.
-
-<!-- !! processed by numpydoc !! -->
-
 <a id="CoordinateSystem.PrimaryAxisLocation"></a>
 
 ### *property* CoordinateSystem.PrimaryAxisLocation *: Ansys.ACT.Interfaces.Common.ISelectionInfo | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the principal axis geometry selection.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="CoordinateSystem.Properties"></a>
+
+### *property* CoordinateSystem.Properties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets the list of properties for this object.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="CoordinateSystem.ReadOnly"></a>
+
+### *property* CoordinateSystem.ReadOnly *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the ReadOnly.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="CoordinateSystem.SecondaryAxis"></a>
+
+### *property* CoordinateSystem.SecondaryAxis *: [Ansys.Mechanical.DataModel.Enums.CoordinateSystemAxisType](../../../../../v242/Ansys/Mechanical/DataModel/Enums/CoordinateSystemAxisType.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.CoordinateSystemAxisType) | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the SecondaryAxis.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="CoordinateSystem.SecondaryAxisDefineBy"></a>
+
+### *property* CoordinateSystem.SecondaryAxisDefineBy *: [Ansys.Mechanical.DataModel.Enums.CoordinateSystemAlignmentType](../../../../../v242/Ansys/Mechanical/DataModel/Enums/CoordinateSystemAlignmentType.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.CoordinateSystemAlignmentType) | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the SecondaryAxisDefineBy.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="CoordinateSystem.SecondaryAxisDirection"></a>
+
+### *property* CoordinateSystem.SecondaryAxisDirection *: Ansys.ACT.Math.Vector3D | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets the Secondary Axis Direction.
 
 <!-- !! processed by numpydoc !! -->
 
@@ -193,35 +313,19 @@ Gets or sets the orientation about principal axis geometry selection.
 
 <!-- !! processed by numpydoc !! -->
 
-<a id="CoordinateSystem.CoordinateSystemType"></a>
+<a id="CoordinateSystem.Suppressed"></a>
 
-### *property* CoordinateSystem.CoordinateSystemType *: Ansys.ACT.Interfaces.Analysis.CoordinateSystemTypeEnum | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* CoordinateSystem.Suppressed *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets or sets the CoordinateSystemType.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="CoordinateSystem.APDLName"></a>
-
-### *property* CoordinateSystem.APDLName *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the APDLName.
+Gets or sets the Suppressed.
 
 <!-- !! processed by numpydoc !! -->
 
-<a id="CoordinateSystem.InternalObject"></a>
+<a id="CoordinateSystem.TransformationCount"></a>
 
-### *property* CoordinateSystem.InternalObject *: Ansys.Common.Interop.DSObjectsAuto.IDSCoordinateSystemAuto | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* CoordinateSystem.TransformationCount *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets the internal object. For advanced usage only.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="CoordinateSystem.CoordinateSystemID"></a>
-
-### *property* CoordinateSystem.CoordinateSystemID *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the CoordinateSystemID.
+Gets the number of transformations.
 
 <!-- !! processed by numpydoc !! -->
 
@@ -230,6 +334,14 @@ Gets or sets the CoordinateSystemID.
 ### *property* CoordinateSystem.TransformedConfiguration *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the TransformedConfiguration.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="CoordinateSystem.VisibleProperties"></a>
+
+### *property* CoordinateSystem.VisibleProperties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets the list of properties that are visible for this object.
 
 <!-- !! processed by numpydoc !! -->
 
@@ -257,199 +369,99 @@ Gets the ZAxisData.
 
 <!-- !! processed by numpydoc !! -->
 
-<a id="CoordinateSystem.CoordinateSystemIDGeneration"></a>
-
-### *property* CoordinateSystem.CoordinateSystemIDGeneration *: [Ansys.Mechanical.DataModel.Enums.AutomaticOrManual](../../../Mechanical/DataModel/Enums/AutomaticOrManual.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.AutomaticOrManual) | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the CoordinateSystemIDGeneration.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="CoordinateSystem.PrimaryAxis"></a>
-
-### *property* CoordinateSystem.PrimaryAxis *: [Ansys.Mechanical.DataModel.Enums.CoordinateSystemAxisType](../../../Mechanical/DataModel/Enums/CoordinateSystemAxisType.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.CoordinateSystemAxisType) | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the PrimaryAxis.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="CoordinateSystem.PrimaryAxisDefineBy"></a>
-
-### *property* CoordinateSystem.PrimaryAxisDefineBy *: [Ansys.Mechanical.DataModel.Enums.CoordinateSystemAlignmentType](../../../Mechanical/DataModel/Enums/CoordinateSystemAlignmentType.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.CoordinateSystemAlignmentType) | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the PrimaryAxisDefineBy.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="CoordinateSystem.SecondaryAxis"></a>
-
-### *property* CoordinateSystem.SecondaryAxis *: [Ansys.Mechanical.DataModel.Enums.CoordinateSystemAxisType](../../../Mechanical/DataModel/Enums/CoordinateSystemAxisType.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.CoordinateSystemAxisType) | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the SecondaryAxis.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="CoordinateSystem.SecondaryAxisDefineBy"></a>
-
-### *property* CoordinateSystem.SecondaryAxisDefineBy *: [Ansys.Mechanical.DataModel.Enums.CoordinateSystemAlignmentType](../../../Mechanical/DataModel/Enums/CoordinateSystemAlignmentType.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.CoordinateSystemAlignmentType) | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the SecondaryAxisDefineBy.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="CoordinateSystem.GloballyAvailable"></a>
-
-### *property* CoordinateSystem.GloballyAvailable *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the GloballyAvailable.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="CoordinateSystem.Suppressed"></a>
-
-### *property* CoordinateSystem.Suppressed *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the Suppressed.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="CoordinateSystem.DataModelObjectCategory"></a>
-
-### *property* CoordinateSystem.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets the current DataModelObject's category.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="CoordinateSystem.Children"></a>
-
-### *property* CoordinateSystem.Children *: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets the list of children.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="CoordinateSystem.Comments"></a>
-
-### *property* CoordinateSystem.Comments *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Comment](Comment.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets the list of associated comments.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="CoordinateSystem.Figures"></a>
-
-### *property* CoordinateSystem.Figures *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Figure](Figure.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets the list of associated figures.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="CoordinateSystem.Images"></a>
-
-### *property* CoordinateSystem.Images *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Image](Image.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets the list of associated images.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="CoordinateSystem.ReadOnly"></a>
-
-### *property* CoordinateSystem.ReadOnly *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the ReadOnly.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="id0"></a>
-
-### *property* CoordinateSystem.InternalObject *: System.Object | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets the internal object. For advanced usage only.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="CoordinateSystem.Properties"></a>
-
-### *property* CoordinateSystem.Properties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets the list of properties for this object.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="CoordinateSystem.VisibleProperties"></a>
-
-### *property* CoordinateSystem.VisibleProperties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets the list of properties that are visible for this object.
-
-<!-- !! processed by numpydoc !! -->
-
 <a id="method-detail"></a>
 
 ## Method detail
 
+<a id="CoordinateSystem.Activate"></a>
+
+### CoordinateSystem.Activate()
+
+Activate the current object.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="CoordinateSystem.AddComment"></a>
+
+### CoordinateSystem.AddComment()
+
+Creates a new child Comment.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="CoordinateSystem.AddFigure"></a>
+
+### CoordinateSystem.AddFigure()
+
+Creates a new child Figure.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="CoordinateSystem.AddImage"></a>
+
+### CoordinateSystem.AddImage(filePath: System.String)
+
+```text
+Creates a new child Image.
+If a filePath is provided, the image will be loaded from that file,
+if not, the image will be a screen capture of the Geometry window.
+```
+
+<!-- !! processed by numpydoc !! -->
+
 <a id="CoordinateSystem.AddTransformation"></a>
 
-### CoordinateSystem.AddTransformation(trans: [Ansys.Mechanical.DataModel.Enums.TransformationType](../../../Mechanical/DataModel/Enums/TransformationType.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.TransformationType), axis: [Ansys.Mechanical.DataModel.Enums.CoordinateSystemAxisType](../../../Mechanical/DataModel/Enums/CoordinateSystemAxisType.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.CoordinateSystemAxisType))
+### CoordinateSystem.AddTransformation(trans: [Ansys.Mechanical.DataModel.Enums.TransformationType](../../../../../v242/Ansys/Mechanical/DataModel/Enums/TransformationType.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.TransformationType), axis: [Ansys.Mechanical.DataModel.Enums.CoordinateSystemAxisType](../../../../../v242/Ansys/Mechanical/DataModel/Enums/CoordinateSystemAxisType.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.CoordinateSystemAxisType))
 
 Adds a new transformation.
 
 <!-- !! processed by numpydoc !! -->
 
-<a id="CoordinateSystem.RemoveTransformation"></a>
+<a id="CoordinateSystem.CopyTo"></a>
 
-### CoordinateSystem.RemoveTransformation(index: System.UInt32)
+### CoordinateSystem.CopyTo(other: Ansys.ACT.Automation.Mechanical.DataModelObject)
 
-Removes a tranformation.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="CoordinateSystem.SetOriginLocation"></a>
-
-### CoordinateSystem.SetOriginLocation(originX: Ansys.Core.Units.Quantity, originY: Ansys.Core.Units.Quantity, originZ: Ansys.Core.Units.Quantity)
-
-Changes the origin location.
+Copies all visible properties from this object to another.
 
 <!-- !! processed by numpydoc !! -->
 
-<a id="CoordinateSystem.SetTransformationValue"></a>
+<a id="CoordinateSystem.CreateConstructionSurface"></a>
 
-### CoordinateSystem.SetTransformationValue(index: System.UInt32, value: System.Object)
+### CoordinateSystem.CreateConstructionSurface()
 
-Sets the value of a transformation.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="CoordinateSystem.GetTransformationValue"></a>
-
-### CoordinateSystem.GetTransformationValue(index: System.UInt32)
-
-Gets the value of a transformation.
+Run the CreateConstructionSurface action.
 
 <!-- !! processed by numpydoc !! -->
 
-<a id="CoordinateSystem.MoveTransformationUp"></a>
+<a id="CoordinateSystem.CreateParameter"></a>
 
-### CoordinateSystem.MoveTransformationUp(index: System.UInt32)
+### CoordinateSystem.CreateParameter(propName: System.String)
 
-Moves a transformation up.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="CoordinateSystem.MoveTransformationDown"></a>
-
-### CoordinateSystem.MoveTransformationDown(index: System.UInt32)
-
-Moves a transformation down.
+Creates a new parameter for a Property.
 
 <!-- !! processed by numpydoc !! -->
 
-<a id="CoordinateSystem.SetPrimaryAxisUsingCenterOfMass"></a>
+<a id="CoordinateSystem.CreateSectionPlane"></a>
 
-### CoordinateSystem.SetPrimaryAxisUsingCenterOfMass()
+### CoordinateSystem.CreateSectionPlane()
 
-Sets the primary axis using a 1 or 2 point selection and the center of mass
+Run the CreateSectionPlane action.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="CoordinateSystem.Delete"></a>
+
+### CoordinateSystem.Delete()
+
+Run the Delete action.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="CoordinateSystem.Duplicate"></a>
+
+### CoordinateSystem.Duplicate()
+
+Creates a copy of the current DataModelObject.
 
 <!-- !! processed by numpydoc !! -->
 
@@ -477,134 +489,6 @@ Flips the Z Axis of the coordinate system
 
 <!-- !! processed by numpydoc !! -->
 
-<a id="CoordinateSystem.OffsetX"></a>
-
-### CoordinateSystem.OffsetX()
-
-Creates an offset in the X Axis direction of the coordinate system
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="id1"></a>
-
-### CoordinateSystem.OffsetX(value: System.Object)
-
-Creates an offset in the X Axis direction of the coordinate system
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="CoordinateSystem.OffsetY"></a>
-
-### CoordinateSystem.OffsetY()
-
-Creates an offset in the Y Axis direction of the coordinate system
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="id2"></a>
-
-### CoordinateSystem.OffsetY(value: System.Object)
-
-Creates an offset in the Y Axis direction of the coordinate system
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="CoordinateSystem.OffsetZ"></a>
-
-### CoordinateSystem.OffsetZ()
-
-Creates an offset in the Z Axis direction of the coordinate system
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="id3"></a>
-
-### CoordinateSystem.OffsetZ(value: System.Object)
-
-Creates an offset in the Z Axis direction of the coordinate system
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="CoordinateSystem.RotateX"></a>
-
-### CoordinateSystem.RotateX()
-
-Creates a rotation about the X Axis of the coordinate system
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="id4"></a>
-
-### CoordinateSystem.RotateX(value: System.Object)
-
-Creates a rotation about the X Axis of the coordinate system
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="CoordinateSystem.RotateY"></a>
-
-### CoordinateSystem.RotateY()
-
-Creates a rotation about the Y Axis of the coordinate system
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="id5"></a>
-
-### CoordinateSystem.RotateY(value: System.Object)
-
-Creates a rotation about the Y Axis of the coordinate system
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="CoordinateSystem.RotateZ"></a>
-
-### CoordinateSystem.RotateZ()
-
-Creates a rotation about the Z Axis of the coordinate system
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="id6"></a>
-
-### CoordinateSystem.RotateZ(value: System.Object)
-
-Creates a rotation about the Z Axis of the coordinate system
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="CoordinateSystem.SetCoordinateSystemOriginAtCenterOfMass"></a>
-
-### CoordinateSystem.SetCoordinateSystemOriginAtCenterOfMass(geoBodies: System.Collections.Generic.IList[Ansys.ACT.Interfaces.Geometry.IBaseGeoBody], pointMasses: System.Collections.Generic.IList[[Ansys.ACT.Automation.Mechanical.PointMass](PointMass.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.PointMass)], distributedMasses: System.Collections.Generic.IList[[Ansys.ACT.Automation.Mechanical.DistributedMass](DistributedMass.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.DistributedMass)])
-
-SetCoordinateSystemOriginAtCenterOfMass method.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="CoordinateSystem.CreateConstructionSurface"></a>
-
-### CoordinateSystem.CreateConstructionSurface()
-
-Run the CreateConstructionSurface action.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="CoordinateSystem.CreateSectionPlane"></a>
-
-### CoordinateSystem.CreateSectionPlane()
-
-Run the CreateSectionPlane action.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="CoordinateSystem.Delete"></a>
-
-### CoordinateSystem.Delete()
-
-Run the Delete action.
-
-<!-- !! processed by numpydoc !! -->
-
 <a id="CoordinateSystem.GetChildren"></a>
 
 ### CoordinateSystem.GetChildren(recurses: System.Boolean, children: System.Collections.Generic.IList[ChildrenType])
@@ -613,61 +497,19 @@ Gets the list of children, filtered by type.
 
 <!-- !! processed by numpydoc !! -->
 
-<a id="id7"></a>
+<a id="CoordinateSystem.GetParameter"></a>
 
-### CoordinateSystem.GetChildren(category: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory), recurses: System.Boolean, children: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject])
+### CoordinateSystem.GetParameter(propName: System.String)
 
-Gets the list of children, filtered by type.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="CoordinateSystem.AddComment"></a>
-
-### CoordinateSystem.AddComment()
-
-Creates a new child Comment.
+Gets the parameter corresponding to the given property.
 
 <!-- !! processed by numpydoc !! -->
 
-<a id="CoordinateSystem.AddFigure"></a>
+<a id="CoordinateSystem.GetTransformationValue"></a>
 
-### CoordinateSystem.AddFigure()
+### CoordinateSystem.GetTransformationValue(index: System.UInt32)
 
-Creates a new child Figure.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="CoordinateSystem.AddImage"></a>
-
-### CoordinateSystem.AddImage(filePath: System.String)
-
-Creates a new child Image.
-If a filePath is provided, the image will be loaded from that file,
-if not, the image will be a screen capture of the Geometry window.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="CoordinateSystem.Activate"></a>
-
-### CoordinateSystem.Activate()
-
-Activate the current object.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="CoordinateSystem.CopyTo"></a>
-
-### CoordinateSystem.CopyTo(other: Ansys.ACT.Automation.Mechanical.DataModelObject)
-
-Copies all visible properties from this object to another.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="CoordinateSystem.Duplicate"></a>
-
-### CoordinateSystem.Duplicate()
-
-Creates a copy of the current DataModelObject.
+Gets the value of a transformation.
 
 <!-- !! processed by numpydoc !! -->
 
@@ -687,6 +529,57 @@ Run the GroupSimilarObjects action.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="CoordinateSystem.MoveTransformationDown"></a>
+
+### CoordinateSystem.MoveTransformationDown(index: System.UInt32)
+
+Moves a transformation down.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="CoordinateSystem.MoveTransformationUp"></a>
+
+### CoordinateSystem.MoveTransformationUp(index: System.UInt32)
+
+Moves a transformation up.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="CoordinateSystem.OffsetX"></a>
+
+### CoordinateSystem.OffsetX()
+
+Creates an offset in the X Axis direction of the coordinate system
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="CoordinateSystem.OffsetY"></a>
+
+### CoordinateSystem.OffsetY()
+
+Creates an offset in the Y Axis direction of the coordinate system
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="CoordinateSystem.OffsetZ"></a>
+
+### CoordinateSystem.OffsetZ()
+
+Creates an offset in the Z Axis direction of the coordinate system
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="CoordinateSystem.PropertyByAPIName"></a>
+
+### CoordinateSystem.PropertyByAPIName(name: System.String)
+
+```text
+Get a property by its API name.
+If multiple properties have the same API Name, only the first property with that name will be returned.
+```
+
+<!-- !! processed by numpydoc !! -->
+
 <a id="CoordinateSystem.PropertyByName"></a>
 
 ### CoordinateSystem.PropertyByName(name: System.String)
@@ -695,36 +588,75 @@ Get a property by its unique name.
 
 <!-- !! processed by numpydoc !! -->
 
-<a id="CoordinateSystem.PropertyByAPIName"></a>
-
-### CoordinateSystem.PropertyByAPIName(name: System.String)
-
-Get a property by its API name.
-If multiple properties have the same API Name, only the first property with that name will be returned.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="CoordinateSystem.CreateParameter"></a>
-
-### CoordinateSystem.CreateParameter(propName: System.String)
-
-Creates a new parameter for a Property.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="CoordinateSystem.GetParameter"></a>
-
-### CoordinateSystem.GetParameter(propName: System.String)
-
-Gets the parameter corresponding to the given property.
-
-<!-- !! processed by numpydoc !! -->
-
 <a id="CoordinateSystem.RemoveParameter"></a>
 
 ### CoordinateSystem.RemoveParameter(propName: System.String)
 
 Removes the parameter from the parameter set corresponding to the given property.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="CoordinateSystem.RemoveTransformation"></a>
+
+### CoordinateSystem.RemoveTransformation(index: System.UInt32)
+
+Removes a tranformation.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="CoordinateSystem.RotateX"></a>
+
+### CoordinateSystem.RotateX()
+
+Creates a rotation about the X Axis of the coordinate system
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="CoordinateSystem.RotateY"></a>
+
+### CoordinateSystem.RotateY()
+
+Creates a rotation about the Y Axis of the coordinate system
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="CoordinateSystem.RotateZ"></a>
+
+### CoordinateSystem.RotateZ()
+
+Creates a rotation about the Z Axis of the coordinate system
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="CoordinateSystem.SetCoordinateSystemOriginAtCenterOfMass"></a>
+
+### CoordinateSystem.SetCoordinateSystemOriginAtCenterOfMass(geoBodies: System.Collections.Generic.IList[Ansys.ACT.Interfaces.Geometry.IBaseGeoBody], pointMasses: System.Collections.Generic.IList[[Ansys.ACT.Automation.Mechanical.PointMass](../../../../../v242/Ansys/ACT/Automation/Mechanical/PointMass.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.PointMass)], distributedMasses: System.Collections.Generic.IList[[Ansys.ACT.Automation.Mechanical.DistributedMass](DistributedMass.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.DistributedMass)])
+
+SetCoordinateSystemOriginAtCenterOfMass method.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="CoordinateSystem.SetOriginLocation"></a>
+
+### CoordinateSystem.SetOriginLocation(originX: Ansys.Core.Units.Quantity, originY: Ansys.Core.Units.Quantity, originZ: Ansys.Core.Units.Quantity)
+
+Changes the origin location.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="CoordinateSystem.SetPrimaryAxisUsingCenterOfMass"></a>
+
+### CoordinateSystem.SetPrimaryAxisUsingCenterOfMass()
+
+Sets the primary axis using a 1 or 2 point selection and the center of mass
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="CoordinateSystem.SetTransformationValue"></a>
+
+### CoordinateSystem.SetTransformationValue(index: System.UInt32, value: System.Object)
+
+Sets the value of a transformation.
 
 <!-- !! processed by numpydoc !! -->
 

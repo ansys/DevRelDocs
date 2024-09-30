@@ -1,6 +1,6 @@
 # `EXDShellThicknessUpdateType`
 
-
+<a id="ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.EXDShellThicknessUpdateType"></a>
 
 #### *class* ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.EXDShellThicknessUpdateType
 
@@ -15,20 +15,20 @@ Bases: [`enum.Enum`](https://docs.python.org/3/library/enum.html#enum.Enum)
 ### Attributes
 
 | Name |
-| ------------------------------------------------------- |
-| [`Nodal`](#EXDShellThicknessUpdateType.Nodal) |
+| -------------------------------------------------------------------------------------------------------------------------------------------- |
 | [`Elemental`](#EXDShellThicknessUpdateType.Elemental) |
+| [`Nodal`](#EXDShellThicknessUpdateType.Nodal) |
 
 <a id="attribute-detail"></a>
 
 ## Attribute detail
 
-<a id="EXDShellThicknessUpdateType.Nodal"></a>
-
-### EXDShellThicknessUpdateType.Nodal *= 0*
-
 <a id="EXDShellThicknessUpdateType.Elemental"></a>
 
 ### EXDShellThicknessUpdateType.Elemental *= 1*
+
+<a id="EXDShellThicknessUpdateType.Nodal"></a>
+
+### EXDShellThicknessUpdateType.Nodal *= 0*
 
 

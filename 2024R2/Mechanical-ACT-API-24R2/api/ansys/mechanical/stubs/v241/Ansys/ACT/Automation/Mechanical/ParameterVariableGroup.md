@@ -1,6 +1,6 @@
 # `ParameterVariableGroup`
 
-
+<a id="ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.ParameterVariableGroup"></a>
 
 #### *class* ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.ParameterVariableGroup
 
@@ -17,57 +17,39 @@ Defines a ParameterVariableGroup.
 ### Methods
 
 | Name | Description |
-|-----------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------|
-| [`AddParameterVariable`](../../../../../v242/Ansys/ACT/Automation/Mechanical/ParameterVariableGroup.md#ParameterVariableGroup.AddParameterVariable)       | Create the object for working with an imported part.                              |
-| [`GetChildren`](../../../../../v242/Ansys/ACT/Automation/Mechanical/ParameterVariableGroup.md#id1)                                                        | Gets the list of children, filtered by type.                                      |
-| [`GetChildren`](../../../../../v242/Ansys/ACT/Automation/Mechanical/ParameterVariableGroup.md#id1)                                                        | Gets the list of children, filtered by type.                                      |
-| [`AddComment`](../../../../../v242/Ansys/ACT/Automation/Mechanical/ParameterVariableGroup.md#ParameterVariableGroup.AddComment)                           | Creates a new child Comment.                                                      |
-| [`AddFigure`](../../../../../v242/Ansys/ACT/Automation/Mechanical/ParameterVariableGroup.md#ParameterVariableGroup.AddFigure)                             | Creates a new child Figure.                                                       |
-| [`AddImage`](../../../../../v242/Ansys/ACT/Automation/Mechanical/ParameterVariableGroup.md#ParameterVariableGroup.AddImage)                               | Creates a new child Image.                                                        |
-| [`Activate`](../../../../../v242/Ansys/ACT/Automation/Mechanical/ParameterVariableGroup.md#ParameterVariableGroup.Activate)                               | Activate the current object.                                                      |
-| [`CopyTo`](../../../../../v242/Ansys/ACT/Automation/Mechanical/ParameterVariableGroup.md#ParameterVariableGroup.CopyTo)                                   | Copies all visible properties from this object to another.                        |
-| [`Duplicate`](../../../../../v242/Ansys/ACT/Automation/Mechanical/ParameterVariableGroup.md#ParameterVariableGroup.Duplicate)                             | Creates a copy of the current DataModelObject.                                    |
-| [`GroupAllSimilarChildren`](../../../../../v242/Ansys/ACT/Automation/Mechanical/ParameterVariableGroup.md#ParameterVariableGroup.GroupAllSimilarChildren) | Run the GroupAllSimilarChildren action.                                           |
-| [`GroupSimilarObjects`](../../../../../v242/Ansys/ACT/Automation/Mechanical/ParameterVariableGroup.md#ParameterVariableGroup.GroupSimilarObjects)         | Run the GroupSimilarObjects action.                                               |
-| [`PropertyByName`](../../../../../v242/Ansys/ACT/Automation/Mechanical/ParameterVariableGroup.md#ParameterVariableGroup.PropertyByName)                   | Get a property by its unique name.                                                |
-| [`PropertyByAPIName`](../../../../../v242/Ansys/ACT/Automation/Mechanical/ParameterVariableGroup.md#ParameterVariableGroup.PropertyByAPIName)             | Get a property by its API name.                                                   |
-| [`CreateParameter`](../../../../../v242/Ansys/ACT/Automation/Mechanical/ParameterVariableGroup.md#ParameterVariableGroup.CreateParameter)                 | Creates a new parameter for a Property.                                           |
-| [`GetParameter`](../../../../../v242/Ansys/ACT/Automation/Mechanical/ParameterVariableGroup.md#ParameterVariableGroup.GetParameter)                       | Gets the parameter corresponding to the given property.                           |
-| [`RemoveParameter`](../../../../../v242/Ansys/ACT/Automation/Mechanical/ParameterVariableGroup.md#ParameterVariableGroup.RemoveParameter)                 | Removes the parameter from the parameter set corresponding to the given property. |
+|------------------------------------------------------------------------------|-----------------------------------------------------------------------------------|
+| [`Activate`](#ParameterVariableGroup.Activate)                               | Activate the current object.                                                      |
+| [`AddComment`](#ParameterVariableGroup.AddComment)                           | Creates a new child Comment.                                                      |
+| [`AddFigure`](#ParameterVariableGroup.AddFigure)                             | Creates a new child Figure.                                                       |
+| [`AddImage`](#ParameterVariableGroup.AddImage)                               | Creates a new child Image.                                                        |
+| [`AddParameterVariable`](#ParameterVariableGroup.AddParameterVariable)       | Create the object for working with an imported part.                              |
+| [`CopyTo`](#ParameterVariableGroup.CopyTo)                                   | Copies all visible properties from this object to another.                        |
+| [`CreateParameter`](#ParameterVariableGroup.CreateParameter)                 | Creates a new parameter for a Property.                                           |
+| [`Duplicate`](#ParameterVariableGroup.Duplicate)                             | Creates a copy of the current DataModelObject.                                    |
+| [`GetChildren`](#ParameterVariableGroup.GetChildren)                         | Gets the list of children, filtered by type.                                      |
+| [`GetParameter`](#ParameterVariableGroup.GetParameter)                       | Gets the parameter corresponding to the given property.                           |
+| [`GroupAllSimilarChildren`](#ParameterVariableGroup.GroupAllSimilarChildren) | Run the GroupAllSimilarChildren action.                                           |
+| [`GroupSimilarObjects`](#ParameterVariableGroup.GroupSimilarObjects)         | Run the GroupSimilarObjects action.                                               |
+| [`PropertyByAPIName`](#ParameterVariableGroup.PropertyByAPIName)             | Get a property by its API name.                                                   |
+| [`PropertyByName`](#ParameterVariableGroup.PropertyByName)                   | Get a property by its unique name.                                                |
+| [`RemoveParameter`](#ParameterVariableGroup.RemoveParameter)                 | Removes the parameter from the parameter set corresponding to the given property. |
 
 ### Properties
 
 | Name | Description |
-|-----------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------|
-| [`InternalObject`](../../../../../v242/Ansys/ACT/Automation/Mechanical/ParameterVariableGroup.md#id0)                                                     | Gets the internal object. For advanced usage only.            |
-| [`DataModelObjectCategory`](../../../../../v242/Ansys/ACT/Automation/Mechanical/ParameterVariableGroup.md#ParameterVariableGroup.DataModelObjectCategory) | Gets the current DataModelObject's category.                  |
-| [`Children`](../../../../../v242/Ansys/ACT/Automation/Mechanical/ParameterVariableGroup.md#ParameterVariableGroup.Children)                               | Gets the list of children.                                    |
-| [`Comments`](../../../../../v242/Ansys/ACT/Automation/Mechanical/ParameterVariableGroup.md#ParameterVariableGroup.Comments)                               | Gets the list of associated comments.                         |
-| [`Figures`](../../../../../v242/Ansys/ACT/Automation/Mechanical/ParameterVariableGroup.md#ParameterVariableGroup.Figures)                                 | Gets the list of associated figures.                          |
-| [`Images`](../../../../../v242/Ansys/ACT/Automation/Mechanical/ParameterVariableGroup.md#ParameterVariableGroup.Images)                                   | Gets the list of associated images.                           |
-| [`InternalObject`](../../../../../v242/Ansys/ACT/Automation/Mechanical/ParameterVariableGroup.md#id0)                                                     | Gets the internal object. For advanced usage only.            |
-| [`Properties`](../../../../../v242/Ansys/ACT/Automation/Mechanical/ParameterVariableGroup.md#ParameterVariableGroup.Properties)                           | Gets the list of properties for this object.                  |
-| [`VisibleProperties`](../../../../../v242/Ansys/ACT/Automation/Mechanical/ParameterVariableGroup.md#ParameterVariableGroup.VisibleProperties)             | Gets the list of properties that are visible for this object. |
+|------------------------------------------------------------------------------|---------------------------------------------------------------|
+| [`Children`](#ParameterVariableGroup.Children)                               | Gets the list of children.                                    |
+| [`Comments`](#ParameterVariableGroup.Comments)                               | Gets the list of associated comments.                         |
+| [`DataModelObjectCategory`](#ParameterVariableGroup.DataModelObjectCategory) | Gets the current DataModelObject’s category.                  |
+| [`Figures`](#ParameterVariableGroup.Figures)                                 | Gets the list of associated figures.                          |
+| [`Images`](#ParameterVariableGroup.Images)                                   | Gets the list of associated images.                           |
+| [`InternalObject`](#ParameterVariableGroup.InternalObject)                   | Gets the internal object. For advanced usage only.            |
+| [`Properties`](#ParameterVariableGroup.Properties)                           | Gets the list of properties for this object.                  |
+| [`VisibleProperties`](#ParameterVariableGroup.VisibleProperties)             | Gets the list of properties that are visible for this object. |
 
 <a id="property-detail"></a>
 
 ## Property detail
-
-<a id="ParameterVariableGroup.InternalObject"></a>
-
-### *property* ParameterVariableGroup.InternalObject *: Ansys.Common.Interop.DSObjectsAuto.IDSParameterVariableGroupAuto | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets the internal object. For advanced usage only.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="ParameterVariableGroup.DataModelObjectCategory"></a>
-
-### *property* ParameterVariableGroup.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets the current DataModelObject's category.
-
-<!-- !! processed by numpydoc !! -->
 
 <a id="ParameterVariableGroup.Children"></a>
 
@@ -82,6 +64,14 @@ Gets the list of children.
 ### *property* ParameterVariableGroup.Comments *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Comment](Comment.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated comments.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ParameterVariableGroup.DataModelObjectCategory"></a>
+
+### *property* ParameterVariableGroup.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../v242/Ansys/Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets the current DataModelObject’s category.
 
 <!-- !! processed by numpydoc !! -->
 
@@ -101,9 +91,9 @@ Gets the list of associated images.
 
 <!-- !! processed by numpydoc !! -->
 
-<a id="id0"></a>
+<a id="ParameterVariableGroup.InternalObject"></a>
 
-### *property* ParameterVariableGroup.InternalObject *: System.Object | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ParameterVariableGroup.InternalObject *: Ansys.Common.Interop.DSObjectsAuto.IDSParameterVariableGroupAuto | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the internal object. For advanced usage only.
 
@@ -129,27 +119,11 @@ Gets the list of properties that are visible for this object.
 
 ## Method detail
 
-<a id="ParameterVariableGroup.AddParameterVariable"></a>
+<a id="ParameterVariableGroup.Activate"></a>
 
-### ParameterVariableGroup.AddParameterVariable()
+### ParameterVariableGroup.Activate()
 
-Create the object for working with an imported part.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="ParameterVariableGroup.GetChildren"></a>
-
-### ParameterVariableGroup.GetChildren(recurses: System.Boolean, children: System.Collections.Generic.IList[ChildrenType])
-
-Gets the list of children, filtered by type.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="id1"></a>
-
-### ParameterVariableGroup.GetChildren(category: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory), recurses: System.Boolean, children: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject])
-
-Gets the list of children, filtered by type.
+Activate the current object.
 
 <!-- !! processed by numpydoc !! -->
 
@@ -173,17 +147,19 @@ Creates a new child Figure.
 
 ### ParameterVariableGroup.AddImage(filePath: System.String)
 
+```text
 Creates a new child Image.
 If a filePath is provided, the image will be loaded from that file,
 if not, the image will be a screen capture of the Geometry window.
+```
 
 <!-- !! processed by numpydoc !! -->
 
-<a id="ParameterVariableGroup.Activate"></a>
+<a id="ParameterVariableGroup.AddParameterVariable"></a>
 
-### ParameterVariableGroup.Activate()
+### ParameterVariableGroup.AddParameterVariable()
 
-Activate the current object.
+Create the object for working with an imported part.
 
 <!-- !! processed by numpydoc !! -->
 
@@ -195,11 +171,35 @@ Copies all visible properties from this object to another.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="ParameterVariableGroup.CreateParameter"></a>
+
+### ParameterVariableGroup.CreateParameter(propName: System.String)
+
+Creates a new parameter for a Property.
+
+<!-- !! processed by numpydoc !! -->
+
 <a id="ParameterVariableGroup.Duplicate"></a>
 
 ### ParameterVariableGroup.Duplicate()
 
 Creates a copy of the current DataModelObject.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ParameterVariableGroup.GetChildren"></a>
+
+### ParameterVariableGroup.GetChildren(recurses: System.Boolean, children: System.Collections.Generic.IList[ChildrenType])
+
+Gets the list of children, filtered by type.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ParameterVariableGroup.GetParameter"></a>
+
+### ParameterVariableGroup.GetParameter(propName: System.String)
+
+Gets the parameter corresponding to the given property.
 
 <!-- !! processed by numpydoc !! -->
 
@@ -219,36 +219,22 @@ Run the GroupSimilarObjects action.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="ParameterVariableGroup.PropertyByAPIName"></a>
+
+### ParameterVariableGroup.PropertyByAPIName(name: System.String)
+
+```text
+Get a property by its API name.
+If multiple properties have the same API Name, only the first property with that name will be returned.
+```
+
+<!-- !! processed by numpydoc !! -->
+
 <a id="ParameterVariableGroup.PropertyByName"></a>
 
 ### ParameterVariableGroup.PropertyByName(name: System.String)
 
 Get a property by its unique name.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="ParameterVariableGroup.PropertyByAPIName"></a>
-
-### ParameterVariableGroup.PropertyByAPIName(name: System.String)
-
-Get a property by its API name.
-If multiple properties have the same API Name, only the first property with that name will be returned.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="ParameterVariableGroup.CreateParameter"></a>
-
-### ParameterVariableGroup.CreateParameter(propName: System.String)
-
-Creates a new parameter for a Property.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="ParameterVariableGroup.GetParameter"></a>
-
-### ParameterVariableGroup.GetParameter(propName: System.String)
-
-Gets the parameter corresponding to the given property.
 
 <!-- !! processed by numpydoc !! -->
 

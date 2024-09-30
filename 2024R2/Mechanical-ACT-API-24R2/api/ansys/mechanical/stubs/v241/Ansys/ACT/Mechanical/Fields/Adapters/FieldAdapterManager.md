@@ -1,6 +1,6 @@
 # `FieldAdapterManager`
 
-
+<a id="ansys.mechanical.stubs.v241.Ansys.ACT.Mechanical.Fields.Adapters.FieldAdapterManager"></a>
 
 #### *class* ansys.mechanical.stubs.v241.Ansys.ACT.Mechanical.Fields.Adapters.FieldAdapterManager
 
@@ -17,15 +17,15 @@ Static class that operates like a factory to create field adapters from Mechanic
 ### Constructors
 
 | Name | Description |
-|-----------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------|
-| [`RegisterNewAdapter`](../../../../../../v242/Ansys/ACT/Mechanical/Fields/Adapters/FieldAdapterManager.md#FieldAdapterManager.RegisterNewAdapter)   | Register the instance object that defines a type of field adapter.                  |
-| [`UnregisterAdapter`](../../../../../../v242/Ansys/ACT/Mechanical/Fields/Adapters/FieldAdapterManager.md#FieldAdapterManager.UnregisterAdapter)     | Removes the instance object that defines a type of field adapter from this manager. |
+|-------------------------------------------------------------------|-------------------------------------------------------------------------------------|
+| [`RegisterNewAdapter`](#FieldAdapterManager.RegisterNewAdapter)   | Register the instance object that defines a type of field adapter.                  |
+| [`UnregisterAdapter`](#FieldAdapterManager.UnregisterAdapter)     | Removes the instance object that defines a type of field adapter from this manager. |
 
 ### Properties
 
 | Name | Description |
-|-----------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------|
-| [`AdapterDefinitions`](../../../../../../v242/Ansys/ACT/Mechanical/Fields/Adapters/FieldAdapterManager.md#FieldAdapterManager.AdapterDefinitions)   | Gets the collection of adapters in this manager.   |
+|-------------------------------------------------------------------|----------------------------------------------------|
+| [`AdapterDefinitions`](#FieldAdapterManager.AdapterDefinitions)   | Gets the collection of adapters in this manager.   |
 
 <a id="property-detail"></a>
 

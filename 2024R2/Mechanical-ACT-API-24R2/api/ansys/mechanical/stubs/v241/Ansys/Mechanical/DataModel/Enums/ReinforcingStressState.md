@@ -1,6 +1,6 @@
 # `ReinforcingStressState`
 
-
+<a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.ReinforcingStressState"></a>
 
 #### *class* ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.ReinforcingStressState
 
@@ -17,10 +17,10 @@ Specifies the ReinforcingStressState.
 ### Attributes
 
 | Name |
-| ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| [`PlaneStressOnly`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/ReinforcingStressState.md#ReinforcingStressState.PlaneStressOnly) |
-| [`PlaneStressWithTransverseShearAndBending`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/ReinforcingStressState.md#ReinforcingStressState.PlaneStressWithTransverseShearAndBending) |
-| [`PlaneStressWithTransverseShear`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/ReinforcingStressState.md#ReinforcingStressState.PlaneStressWithTransverseShear) |
+| ---------------------------------------------------------------------------------------------------------------- |
+| [`PlaneStressOnly`](#ReinforcingStressState.PlaneStressOnly) |
+| [`PlaneStressWithTransverseShear`](#ReinforcingStressState.PlaneStressWithTransverseShear) |
+| [`PlaneStressWithTransverseShearAndBending`](#ReinforcingStressState.PlaneStressWithTransverseShearAndBending) |
 
 <a id="attribute-detail"></a>
 
@@ -30,12 +30,12 @@ Specifies the ReinforcingStressState.
 
 ### ReinforcingStressState.PlaneStressOnly *= 0*
 
-<a id="ReinforcingStressState.PlaneStressWithTransverseShearAndBending"></a>
-
-### ReinforcingStressState.PlaneStressWithTransverseShearAndBending *= 2*
-
 <a id="ReinforcingStressState.PlaneStressWithTransverseShear"></a>
 
 ### ReinforcingStressState.PlaneStressWithTransverseShear *= 1*
+
+<a id="ReinforcingStressState.PlaneStressWithTransverseShearAndBending"></a>
+
+### ReinforcingStressState.PlaneStressWithTransverseShearAndBending *= 2*
 
 

@@ -1,6 +1,6 @@
 # `CrackShapeType`
 
-
+<a id="ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.CrackShapeType"></a>
 
 #### *class* ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.CrackShapeType
 
@@ -17,7 +17,7 @@ Specifies the CrackShapeType.
 ### Attributes
 
 | Name |
-| ---------------------------------------------------- |
+| -------------------------------------------------------------------------------------------------------------------------- |
 | [`Arbitrary`](#CrackShapeType.Arbitrary) |
 | [`Corner`](#CrackShapeType.Corner) |
 | [`Cylindrical`](#CrackShapeType.Cylindrical) |

@@ -1,6 +1,6 @@
 # `SourceTimeDefinitionType`
 
-
+<a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.SourceTimeDefinitionType"></a>
 
 #### *class* ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.SourceTimeDefinitionType
 
@@ -17,9 +17,9 @@ Specifies the SourceTimeDefinitionType.
 ### Attributes
 
 | Name |
-| ---------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| [`SourceTimeDefinition_All`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/SourceTimeDefinitionType.md#SourceTimeDefinitionType.SourceTimeDefinition_All) |
-| [`SourceTimeDefinition_Range`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/SourceTimeDefinitionType.md#SourceTimeDefinitionType.SourceTimeDefinition_Range) |
+| -------------------------------------------------------------------------------------- |
+| [`SourceTimeDefinition_All`](#SourceTimeDefinitionType.SourceTimeDefinition_All) |
+| [`SourceTimeDefinition_Range`](#SourceTimeDefinitionType.SourceTimeDefinition_Range) |
 
 <a id="attribute-detail"></a>
 

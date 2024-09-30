@@ -1,6 +1,6 @@
 # `CrackGrowthMeshCoarsening`
 
-
+<a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.CrackGrowthMeshCoarsening"></a>
 
 #### *class* ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.CrackGrowthMeshCoarsening
 
@@ -17,10 +17,10 @@ Specifies the CrackGrowthMeshCoarsening.
 ### Attributes
 
 | Name |
-| -------------------------------------------------------------------------------------------------------------------------------------------- |
-| [`Aggressive`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/CrackGrowthMeshCoarsening.md#CrackGrowthMeshCoarsening.Aggressive) |
-| [`Conservative`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/CrackGrowthMeshCoarsening.md#CrackGrowthMeshCoarsening.Conservative) |
-| [`Moderate`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/CrackGrowthMeshCoarsening.md#CrackGrowthMeshCoarsening.Moderate) |
+| ----------------------------------------------------------- |
+| [`Aggressive`](#CrackGrowthMeshCoarsening.Aggressive) |
+| [`Conservative`](#CrackGrowthMeshCoarsening.Conservative) |
+| [`Moderate`](#CrackGrowthMeshCoarsening.Moderate) |
 
 <a id="attribute-detail"></a>
 

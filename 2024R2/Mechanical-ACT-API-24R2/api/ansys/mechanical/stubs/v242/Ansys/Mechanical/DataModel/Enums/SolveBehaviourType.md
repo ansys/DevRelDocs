@@ -1,6 +1,6 @@
 # `SolveBehaviourType`
 
-
+<a id="ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.SolveBehaviourType"></a>
 
 #### *class* ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.SolveBehaviourType
 
@@ -17,7 +17,7 @@ Specifies the SolveBehaviourType.
 ### Attributes
 
 | Name |
-| ------------------------------------------------ |
+| -------------------------------------------------------------------------------------------------------------------------- |
 | [`Combined`](#SolveBehaviourType.Combined) |
 | [`Individual`](#SolveBehaviourType.Individual) |
 

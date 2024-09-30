@@ -1,6 +1,6 @@
 # `ContactTimeStepControls`
 
-
+<a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.ContactTimeStepControls"></a>
 
 #### *class* ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.ContactTimeStepControls
 
@@ -17,11 +17,11 @@ Specifies the ContactTimeStepControls.
 ### Attributes
 
 | Name |
-| -------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| [`AutomaticBisection`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/ContactTimeStepControls.md#ContactTimeStepControls.AutomaticBisection) |
-| [`None_`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/ContactTimeStepControls.md#ContactTimeStepControls.None_) |
-| [`PredictForImpact`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/ContactTimeStepControls.md#ContactTimeStepControls.PredictForImpact) |
-| [`UseImpactConstraints`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/ContactTimeStepControls.md#ContactTimeStepControls.UseImpactConstraints) |
+| ------------------------------------------------------------------------- |
+| [`AutomaticBisection`](#ContactTimeStepControls.AutomaticBisection) |
+| [`None_`](#ContactTimeStepControls.None_) |
+| [`PredictForImpact`](#ContactTimeStepControls.PredictForImpact) |
+| [`UseImpactConstraints`](#ContactTimeStepControls.UseImpactConstraints) |
 
 <a id="attribute-detail"></a>
 

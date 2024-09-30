@@ -1,6 +1,6 @@
 # `WrapperRegionType`
 
-
+<a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.MechanicalEnums.MeshWorkflow.WrapperRegionType"></a>
 
 #### *class* ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.MechanicalEnums.MeshWorkflow.WrapperRegionType
 
@@ -17,9 +17,9 @@ This enum is referenced in the “Control” tree node and reflects the type of 
 ### Attributes
 
 | Name |
-| -------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| [`External`](../../../../../../v242/Ansys/Mechanical/DataModel/MechanicalEnums/MeshWorkflow/WrapperRegionType.md#WrapperRegionType.External) |
-| [`MaterialPoint`](../../../../../../v242/Ansys/Mechanical/DataModel/MechanicalEnums/MeshWorkflow/WrapperRegionType.md#WrapperRegionType.MaterialPoint) |
+| ----------------------------------------------------- |
+| [`External`](#WrapperRegionType.External) |
+| [`MaterialPoint`](#WrapperRegionType.MaterialPoint) |
 
 <a id="attribute-detail"></a>
 

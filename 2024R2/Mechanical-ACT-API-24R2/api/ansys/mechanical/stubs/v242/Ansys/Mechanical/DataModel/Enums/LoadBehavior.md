@@ -1,6 +1,6 @@
 # `LoadBehavior`
 
-
+<a id="ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.LoadBehavior"></a>
 
 #### *class* ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.LoadBehavior
 
@@ -17,7 +17,7 @@ Specifies the LoadBehavior.
 ### Attributes
 
 | Name |
-| ------------------------------------------ |
+| -------------------------------------------------------------------------------------------------------------- |
 | [`Beam`](#LoadBehavior.Beam) |
 | [`Coupled`](#LoadBehavior.Coupled) |
 | [`Deformable`](#LoadBehavior.Deformable) |

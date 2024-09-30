@@ -1,6 +1,6 @@
 # `CenterOfGravityCoordinateSystem`
 
-
+<a id="ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Utilities.CenterOfGravityCoordinateSystem"></a>
 
 #### *class* ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Utilities.CenterOfGravityCoordinateSystem
 

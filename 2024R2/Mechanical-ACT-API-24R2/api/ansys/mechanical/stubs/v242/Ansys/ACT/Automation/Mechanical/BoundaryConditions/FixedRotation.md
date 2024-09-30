@@ -1,6 +1,6 @@
 # `FixedRotation`
 
-
+<a id="ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.BoundaryConditions.FixedRotation"></a>
 
 #### *class* ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.BoundaryConditions.FixedRotation
 
@@ -17,122 +17,48 @@ Defines a FixedRotation.
 ### Methods
 
 | Name | Description |
-|-----------------------------------------------------------------------|-----------------------------------------------------------------------------------|
-| [`PromoteToNamedSelection`](#FixedRotation.PromoteToNamedSelection)   | Run the PromoteToNamedSelection action.                                           |
-| [`Delete`](#FixedRotation.Delete)                                     | Run the Delete action.                                                            |
-| [`GetChildren`](#id1)                                                 | Gets the list of children, filtered by type.                                      |
-| [`GetChildren`](#id1)                                                 | Gets the list of children, filtered by type.                                      |
-| [`AddComment`](#FixedRotation.AddComment)                             | Creates a new child Comment.                                                      |
-| [`AddFigure`](#FixedRotation.AddFigure)                               | Creates a new child Figure.                                                       |
-| [`AddImage`](#FixedRotation.AddImage)                                 | Creates a new child Image.                                                        |
-| [`Activate`](#FixedRotation.Activate)                                 | Activate the current object.                                                      |
-| [`CopyTo`](#FixedRotation.CopyTo)                                     | Copies all visible properties from this object to another.                        |
-| [`Duplicate`](#FixedRotation.Duplicate)                               | Creates a copy of the current DataModelObject.                                    |
-| [`GroupAllSimilarChildren`](#FixedRotation.GroupAllSimilarChildren)   | Run the GroupAllSimilarChildren action.                                           |
-| [`GroupSimilarObjects`](#FixedRotation.GroupSimilarObjects)           | Run the GroupSimilarObjects action.                                               |
-| [`PropertyByName`](#FixedRotation.PropertyByName)                     | Get a property by its unique name.                                                |
-| [`PropertyByAPIName`](#FixedRotation.PropertyByAPIName)               | Get a property by its API name.                                                   |
-| [`CreateParameter`](#FixedRotation.CreateParameter)                   | Creates a new parameter for a Property.                                           |
-| [`GetParameter`](#FixedRotation.GetParameter)                         | Gets the parameter corresponding to the given property.                           |
-| [`RemoveParameter`](#FixedRotation.RemoveParameter)                   | Removes the parameter from the parameter set corresponding to the given property. |
+|---------------------------------------------------------------------|-----------------------------------------------------------------------------------|
+| [`Activate`](#FixedRotation.Activate)                               | Activate the current object.                                                      |
+| [`AddComment`](#FixedRotation.AddComment)                           | Creates a new child Comment.                                                      |
+| [`AddFigure`](#FixedRotation.AddFigure)                             | Creates a new child Figure.                                                       |
+| [`AddImage`](#FixedRotation.AddImage)                               | Creates a new child Image.                                                        |
+| [`CopyTo`](#FixedRotation.CopyTo)                                   | Copies all visible properties from this object to another.                        |
+| [`CreateParameter`](#FixedRotation.CreateParameter)                 | Creates a new parameter for a Property.                                           |
+| [`Delete`](#FixedRotation.Delete)                                   | Run the Delete action.                                                            |
+| [`Duplicate`](#FixedRotation.Duplicate)                             | Creates a copy of the current DataModelObject.                                    |
+| [`GetChildren`](#FixedRotation.GetChildren)                         | Gets the list of children, filtered by type.                                      |
+| [`GetParameter`](#FixedRotation.GetParameter)                       | Gets the parameter corresponding to the given property.                           |
+| [`GroupAllSimilarChildren`](#FixedRotation.GroupAllSimilarChildren) | Run the GroupAllSimilarChildren action.                                           |
+| [`GroupSimilarObjects`](#FixedRotation.GroupSimilarObjects)         | Run the GroupSimilarObjects action.                                               |
+| [`PromoteToNamedSelection`](#FixedRotation.PromoteToNamedSelection) | Run the PromoteToNamedSelection action.                                           |
+| [`PropertyByAPIName`](#FixedRotation.PropertyByAPIName)             | Get a property by its API name.                                                   |
+| [`PropertyByName`](#FixedRotation.PropertyByName)                   | Get a property by its unique name.                                                |
+| [`RemoveParameter`](#FixedRotation.RemoveParameter)                 | Removes the parameter from the parameter set corresponding to the given property. |
 
 ### Properties
 
 | Name | Description |
 |---------------------------------------------------------------------|---------------------------------------------------------------|
-| [`InternalObject`](#id0)                                            | Gets the internal object. For advanced usage only.            |
+| [`Children`](#FixedRotation.Children)                               | Gets the list of children.                                    |
+| [`Comments`](#FixedRotation.Comments)                               | Gets the list of associated comments.                         |
+| [`CoordinateSystem`](#FixedRotation.CoordinateSystem)               | Gets or sets the CoordinateSystem.                            |
+| [`DataModelObjectCategory`](#FixedRotation.DataModelObjectCategory) | Gets the current DataModelObject’s category.                  |
+| [`Figures`](#FixedRotation.Figures)                                 | Gets the list of associated figures.                          |
+| [`Images`](#FixedRotation.Images)                                   | Gets the list of associated images.                           |
+| [`InternalObject`](#FixedRotation.InternalObject)                   | Gets the internal object. For advanced usage only.            |
+| [`Location`](#FixedRotation.Location)                               | Gets or sets the Location.                                    |
+| [`Properties`](#FixedRotation.Properties)                           | Gets the list of properties for this object.                  |
+| [`ReadOnly`](#FixedRotation.ReadOnly)                               | Gets or sets the ReadOnly.                                    |
 | [`RotationX`](#FixedRotation.RotationX)                             | Gets or sets the RotationX.                                   |
 | [`RotationY`](#FixedRotation.RotationY)                             | Gets or sets the RotationY.                                   |
 | [`RotationZ`](#FixedRotation.RotationZ)                             | Gets or sets the RotationZ.                                   |
-| [`CoordinateSystem`](#FixedRotation.CoordinateSystem)               | Gets or sets the CoordinateSystem.                            |
-| [`Location`](#FixedRotation.Location)                               | Gets or sets the Location.                                    |
-| [`DataModelObjectCategory`](#FixedRotation.DataModelObjectCategory) | Gets the current DataModelObject's category.                  |
-| [`Suppressed`](#FixedRotation.Suppressed)                           | Gets or sets the Suppressed.                                  |
 | [`SharedRefBody`](#FixedRotation.SharedRefBody)                     | Gets or sets the SharedRefBody.                               |
-| [`Children`](#FixedRotation.Children)                               | Gets the list of children.                                    |
-| [`Comments`](#FixedRotation.Comments)                               | Gets the list of associated comments.                         |
-| [`Figures`](#FixedRotation.Figures)                                 | Gets the list of associated figures.                          |
-| [`Images`](#FixedRotation.Images)                                   | Gets the list of associated images.                           |
-| [`ReadOnly`](#FixedRotation.ReadOnly)                               | Gets or sets the ReadOnly.                                    |
-| [`InternalObject`](#id0)                                            | Gets the internal object. For advanced usage only.            |
-| [`Properties`](#FixedRotation.Properties)                           | Gets the list of properties for this object.                  |
+| [`Suppressed`](#FixedRotation.Suppressed)                           | Gets or sets the Suppressed.                                  |
 | [`VisibleProperties`](#FixedRotation.VisibleProperties)             | Gets the list of properties that are visible for this object. |
 
 <a id="property-detail"></a>
 
 ## Property detail
-
-<a id="FixedRotation.InternalObject"></a>
-
-### *property* FixedRotation.InternalObject *: Ansys.Common.Interop.DSObjectsAuto.IDSLoadAuto | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets the internal object. For advanced usage only.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="FixedRotation.RotationX"></a>
-
-### *property* FixedRotation.RotationX *: [Ansys.Mechanical.DataModel.Enums.FixedOrFree](../../../../../../v241/Ansys/Mechanical/DataModel/Enums/FixedOrFree.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.FixedOrFree) | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the RotationX.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="FixedRotation.RotationY"></a>
-
-### *property* FixedRotation.RotationY *: [Ansys.Mechanical.DataModel.Enums.FixedOrFree](../../../../../../v241/Ansys/Mechanical/DataModel/Enums/FixedOrFree.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.FixedOrFree) | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the RotationY.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="FixedRotation.RotationZ"></a>
-
-### *property* FixedRotation.RotationZ *: [Ansys.Mechanical.DataModel.Enums.FixedOrFree](../../../../../../v241/Ansys/Mechanical/DataModel/Enums/FixedOrFree.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.FixedOrFree) | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the RotationZ.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="FixedRotation.CoordinateSystem"></a>
-
-### *property* FixedRotation.CoordinateSystem *: [Ansys.ACT.Automation.Mechanical.CoordinateSystem](../../../../../../v241/Ansys/ACT/Automation/Mechanical/CoordinateSystem.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.CoordinateSystem) | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the CoordinateSystem.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="FixedRotation.Location"></a>
-
-### *property* FixedRotation.Location *: Ansys.ACT.Interfaces.Common.ISelectionInfo | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the Location.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="FixedRotation.DataModelObjectCategory"></a>
-
-### *property* FixedRotation.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../../v241/Ansys/Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets the current DataModelObject's category.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="FixedRotation.Suppressed"></a>
-
-### *property* FixedRotation.Suppressed *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the Suppressed.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="FixedRotation.SharedRefBody"></a>
-
-### *property* FixedRotation.SharedRefBody *: [Ansys.ACT.Automation.Mechanical.Body](../../../../../../v241/Ansys/ACT/Automation/Mechanical/Body.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Body) | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the SharedRefBody.
-
-<!-- !! processed by numpydoc !! -->
 
 <a id="FixedRotation.Children"></a>
 
@@ -147,6 +73,22 @@ Gets the list of children.
 ### *property* FixedRotation.Comments *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Comment](../../../../../../v241/Ansys/ACT/Automation/Mechanical/Comment.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated comments.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="FixedRotation.CoordinateSystem"></a>
+
+### *property* FixedRotation.CoordinateSystem *: [Ansys.ACT.Automation.Mechanical.CoordinateSystem](../../../../../../v241/Ansys/ACT/Automation/Mechanical/CoordinateSystem.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.CoordinateSystem) | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the CoordinateSystem.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="FixedRotation.DataModelObjectCategory"></a>
+
+### *property* FixedRotation.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets the current DataModelObject’s category.
 
 <!-- !! processed by numpydoc !! -->
 
@@ -166,19 +108,19 @@ Gets the list of associated images.
 
 <!-- !! processed by numpydoc !! -->
 
-<a id="FixedRotation.ReadOnly"></a>
+<a id="FixedRotation.InternalObject"></a>
 
-### *property* FixedRotation.ReadOnly *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* FixedRotation.InternalObject *: Ansys.Common.Interop.DSObjectsAuto.IDSLoadAuto | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets or sets the ReadOnly.
+Gets the internal object. For advanced usage only.
 
 <!-- !! processed by numpydoc !! -->
 
-<a id="id0"></a>
+<a id="FixedRotation.Location"></a>
 
-### *property* FixedRotation.InternalObject *: System.Object | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* FixedRotation.Location *: Ansys.ACT.Interfaces.Common.ISelectionInfo | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets the internal object. For advanced usage only.
+Gets or sets the Location.
 
 <!-- !! processed by numpydoc !! -->
 
@@ -187,6 +129,54 @@ Gets the internal object. For advanced usage only.
 ### *property* FixedRotation.Properties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of properties for this object.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="FixedRotation.ReadOnly"></a>
+
+### *property* FixedRotation.ReadOnly *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the ReadOnly.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="FixedRotation.RotationX"></a>
+
+### *property* FixedRotation.RotationX *: [Ansys.Mechanical.DataModel.Enums.FixedOrFree](../../../../Mechanical/DataModel/Enums/FixedOrFree.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.FixedOrFree) | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the RotationX.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="FixedRotation.RotationY"></a>
+
+### *property* FixedRotation.RotationY *: [Ansys.Mechanical.DataModel.Enums.FixedOrFree](../../../../Mechanical/DataModel/Enums/FixedOrFree.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.FixedOrFree) | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the RotationY.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="FixedRotation.RotationZ"></a>
+
+### *property* FixedRotation.RotationZ *: [Ansys.Mechanical.DataModel.Enums.FixedOrFree](../../../../Mechanical/DataModel/Enums/FixedOrFree.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.FixedOrFree) | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the RotationZ.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="FixedRotation.SharedRefBody"></a>
+
+### *property* FixedRotation.SharedRefBody *: [Ansys.ACT.Automation.Mechanical.Body](../../../../../../v241/Ansys/ACT/Automation/Mechanical/Body.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Body) | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the SharedRefBody.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="FixedRotation.Suppressed"></a>
+
+### *property* FixedRotation.Suppressed *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the Suppressed.
 
 <!-- !! processed by numpydoc !! -->
 
@@ -202,35 +192,11 @@ Gets the list of properties that are visible for this object.
 
 ## Method detail
 
-<a id="FixedRotation.PromoteToNamedSelection"></a>
+<a id="FixedRotation.Activate"></a>
 
-### FixedRotation.PromoteToNamedSelection()
+### FixedRotation.Activate()
 
-Run the PromoteToNamedSelection action.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="FixedRotation.Delete"></a>
-
-### FixedRotation.Delete()
-
-Run the Delete action.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="FixedRotation.GetChildren"></a>
-
-### FixedRotation.GetChildren(recurses: System.Boolean, children: System.Collections.Generic.IList[ChildrenType])
-
-Gets the list of children, filtered by type.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="id1"></a>
-
-### FixedRotation.GetChildren(category: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../../v241/Ansys/Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory), recurses: System.Boolean, children: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject])
-
-Gets the list of children, filtered by type.
+Activate the current object.
 
 <!-- !! processed by numpydoc !! -->
 
@@ -254,17 +220,11 @@ Creates a new child Figure.
 
 ### FixedRotation.AddImage(filePath: System.String)
 
+```text
 Creates a new child Image.
 If a filePath is provided, the image will be loaded from that file,
 if not, the image will be a screen capture of the Geometry window.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="FixedRotation.Activate"></a>
-
-### FixedRotation.Activate()
-
-Activate the current object.
+```
 
 <!-- !! processed by numpydoc !! -->
 
@@ -276,11 +236,43 @@ Copies all visible properties from this object to another.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="FixedRotation.CreateParameter"></a>
+
+### FixedRotation.CreateParameter(propName: System.String)
+
+Creates a new parameter for a Property.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="FixedRotation.Delete"></a>
+
+### FixedRotation.Delete()
+
+Run the Delete action.
+
+<!-- !! processed by numpydoc !! -->
+
 <a id="FixedRotation.Duplicate"></a>
 
 ### FixedRotation.Duplicate()
 
 Creates a copy of the current DataModelObject.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="FixedRotation.GetChildren"></a>
+
+### FixedRotation.GetChildren(recurses: System.Boolean, children: System.Collections.Generic.IList[ChildrenType])
+
+Gets the list of children, filtered by type.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="FixedRotation.GetParameter"></a>
+
+### FixedRotation.GetParameter(propName: System.String)
+
+Gets the parameter corresponding to the given property.
 
 <!-- !! processed by numpydoc !! -->
 
@@ -300,11 +292,11 @@ Run the GroupSimilarObjects action.
 
 <!-- !! processed by numpydoc !! -->
 
-<a id="FixedRotation.PropertyByName"></a>
+<a id="FixedRotation.PromoteToNamedSelection"></a>
 
-### FixedRotation.PropertyByName(name: System.String)
+### FixedRotation.PromoteToNamedSelection()
 
-Get a property by its unique name.
+Run the PromoteToNamedSelection action.
 
 <!-- !! processed by numpydoc !! -->
 
@@ -312,24 +304,18 @@ Get a property by its unique name.
 
 ### FixedRotation.PropertyByAPIName(name: System.String)
 
+```text
 Get a property by its API name.
 If multiple properties have the same API Name, only the first property with that name will be returned.
+```
 
 <!-- !! processed by numpydoc !! -->
 
-<a id="FixedRotation.CreateParameter"></a>
+<a id="FixedRotation.PropertyByName"></a>
 
-### FixedRotation.CreateParameter(propName: System.String)
+### FixedRotation.PropertyByName(name: System.String)
 
-Creates a new parameter for a Property.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="FixedRotation.GetParameter"></a>
-
-### FixedRotation.GetParameter(propName: System.String)
-
-Gets the parameter corresponding to the given property.
+Get a property by its unique name.
 
 <!-- !! processed by numpydoc !! -->
 

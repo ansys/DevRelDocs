@@ -1,6 +1,6 @@
 # `HeatFlux`
 
-
+<a id="ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.BoundaryConditions.HeatFlux"></a>
 
 #### *class* ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.BoundaryConditions.HeatFlux
 
@@ -18,134 +18,52 @@ Defines a HeatFlux.
 
 | Name | Description |
 |-------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------|
-| [`GetActivateAtLoadStep`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/BoundaryConditions/HeatFlux.md#HeatFlux.GetActivateAtLoadStep)                   | GetActivateAtLoadStep method.                                                     |
-| [`SetActivateAtLoadStep`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/BoundaryConditions/HeatFlux.md#HeatFlux.SetActivateAtLoadStep)                   | SetActivateAtLoadStep method.                                                     |
-| [`GetComponentActivateAtLoadStep`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/BoundaryConditions/HeatFlux.md#HeatFlux.GetComponentActivateAtLoadStep) | GetComponentActivateAtLoadStep method.                                            |
-| [`SetComponentActivateAtLoadStep`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/BoundaryConditions/HeatFlux.md#HeatFlux.SetComponentActivateAtLoadStep) | SetComponentActivateAtLoadStep method.                                            |
-| [`PromoteToNamedSelection`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/BoundaryConditions/HeatFlux.md#HeatFlux.PromoteToNamedSelection)               | Run the PromoteToNamedSelection action.                                           |
-| [`Delete`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/BoundaryConditions/HeatFlux.md#HeatFlux.Delete)                                                 | Run the Delete action.                                                            |
-| [`GetChildren`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/BoundaryConditions/HeatFlux.md#id1)                                                        | Gets the list of children, filtered by type.                                      |
-| [`GetChildren`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/BoundaryConditions/HeatFlux.md#id1)                                                        | Gets the list of children, filtered by type.                                      |
-| [`AddComment`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/BoundaryConditions/HeatFlux.md#HeatFlux.AddComment)                                         | Creates a new child Comment.                                                      |
-| [`AddFigure`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/BoundaryConditions/HeatFlux.md#HeatFlux.AddFigure)                                           | Creates a new child Figure.                                                       |
-| [`AddImage`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/BoundaryConditions/HeatFlux.md#HeatFlux.AddImage)                                             | Creates a new child Image.                                                        |
-| [`Activate`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/BoundaryConditions/HeatFlux.md#HeatFlux.Activate)                                             | Activate the current object.                                                      |
-| [`CopyTo`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/BoundaryConditions/HeatFlux.md#HeatFlux.CopyTo)                                                 | Copies all visible properties from this object to another.                        |
-| [`Duplicate`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/BoundaryConditions/HeatFlux.md#HeatFlux.Duplicate)                                           | Creates a copy of the current DataModelObject.                                    |
-| [`GroupAllSimilarChildren`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/BoundaryConditions/HeatFlux.md#HeatFlux.GroupAllSimilarChildren)               | Run the GroupAllSimilarChildren action.                                           |
-| [`GroupSimilarObjects`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/BoundaryConditions/HeatFlux.md#HeatFlux.GroupSimilarObjects)                       | Run the GroupSimilarObjects action.                                               |
-| [`PropertyByName`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/BoundaryConditions/HeatFlux.md#HeatFlux.PropertyByName)                                 | Get a property by its unique name.                                                |
-| [`PropertyByAPIName`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/BoundaryConditions/HeatFlux.md#HeatFlux.PropertyByAPIName)                           | Get a property by its API name.                                                   |
-| [`CreateParameter`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/BoundaryConditions/HeatFlux.md#HeatFlux.CreateParameter)                               | Creates a new parameter for a Property.                                           |
-| [`GetParameter`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/BoundaryConditions/HeatFlux.md#HeatFlux.GetParameter)                                     | Gets the parameter corresponding to the given property.                           |
-| [`RemoveParameter`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/BoundaryConditions/HeatFlux.md#HeatFlux.RemoveParameter)                               | Removes the parameter from the parameter set corresponding to the given property. |
+| [`Activate`](#HeatFlux.Activate)                                             | Activate the current object.                                                      |
+| [`AddComment`](#HeatFlux.AddComment)                                         | Creates a new child Comment.                                                      |
+| [`AddFigure`](#HeatFlux.AddFigure)                                           | Creates a new child Figure.                                                       |
+| [`AddImage`](#HeatFlux.AddImage)                                             | Creates a new child Image.                                                        |
+| [`CopyTo`](#HeatFlux.CopyTo)                                                 | Copies all visible properties from this object to another.                        |
+| [`CreateParameter`](#HeatFlux.CreateParameter)                               | Creates a new parameter for a Property.                                           |
+| [`Delete`](#HeatFlux.Delete)                                                 | Run the Delete action.                                                            |
+| [`Duplicate`](#HeatFlux.Duplicate)                                           | Creates a copy of the current DataModelObject.                                    |
+| [`GetActivateAtLoadStep`](#HeatFlux.GetActivateAtLoadStep)                   | GetActivateAtLoadStep method.                                                     |
+| [`GetChildren`](#HeatFlux.GetChildren)                                       | Gets the list of children, filtered by type.                                      |
+| [`GetComponentActivateAtLoadStep`](#HeatFlux.GetComponentActivateAtLoadStep) | GetComponentActivateAtLoadStep method.                                            |
+| [`GetParameter`](#HeatFlux.GetParameter)                                     | Gets the parameter corresponding to the given property.                           |
+| [`GroupAllSimilarChildren`](#HeatFlux.GroupAllSimilarChildren)               | Run the GroupAllSimilarChildren action.                                           |
+| [`GroupSimilarObjects`](#HeatFlux.GroupSimilarObjects)                       | Run the GroupSimilarObjects action.                                               |
+| [`PromoteToNamedSelection`](#HeatFlux.PromoteToNamedSelection)               | Run the PromoteToNamedSelection action.                                           |
+| [`PropertyByAPIName`](#HeatFlux.PropertyByAPIName)                           | Get a property by its API name.                                                   |
+| [`PropertyByName`](#HeatFlux.PropertyByName)                                 | Get a property by its unique name.                                                |
+| [`RemoveParameter`](#HeatFlux.RemoveParameter)                               | Removes the parameter from the parameter set corresponding to the given property. |
+| [`SetActivateAtLoadStep`](#HeatFlux.SetActivateAtLoadStep)                   | SetActivateAtLoadStep method.                                                     |
+| [`SetComponentActivateAtLoadStep`](#HeatFlux.SetComponentActivateAtLoadStep) | SetComponentActivateAtLoadStep method.                                            |
 
 ### Properties
 
 | Name | Description |
 |-------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------|
-| [`InternalObject`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/BoundaryConditions/HeatFlux.md#id0)                                               | Gets the internal object. For advanced usage only.            |
-| [`NumberOfSegments`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/BoundaryConditions/HeatFlux.md#HeatFlux.NumberOfSegments)                       | Gets or sets the NumberOfSegments.                            |
-| [`Magnitude`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/BoundaryConditions/HeatFlux.md#HeatFlux.Magnitude)                                     | Gets the Magnitude.                                           |
-| [`GraphControlsXAxis`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/BoundaryConditions/HeatFlux.md#HeatFlux.GraphControlsXAxis)                   | Gets or sets the GraphControlsXAxis.                          |
-| [`IndependentVariable`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/BoundaryConditions/HeatFlux.md#HeatFlux.IndependentVariable)                 | Gets or sets the IndependentVariable.                         |
-| [`XYZFunctionCoordinateSystem`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/BoundaryConditions/HeatFlux.md#HeatFlux.XYZFunctionCoordinateSystem) | Gets or sets the XYZFunctionCoordinateSystem.                 |
-| [`Location`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/BoundaryConditions/HeatFlux.md#HeatFlux.Location)                                       | Gets or sets the Location.                                    |
-| [`DataModelObjectCategory`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/BoundaryConditions/HeatFlux.md#HeatFlux.DataModelObjectCategory)         | Gets the current DataModelObject's category.                  |
-| [`Suppressed`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/BoundaryConditions/HeatFlux.md#HeatFlux.Suppressed)                                   | Gets or sets the Suppressed.                                  |
-| [`SharedRefBody`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/BoundaryConditions/HeatFlux.md#HeatFlux.SharedRefBody)                             | Gets or sets the SharedRefBody.                               |
-| [`Children`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/BoundaryConditions/HeatFlux.md#HeatFlux.Children)                                       | Gets the list of children.                                    |
-| [`Comments`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/BoundaryConditions/HeatFlux.md#HeatFlux.Comments)                                       | Gets the list of associated comments.                         |
-| [`Figures`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/BoundaryConditions/HeatFlux.md#HeatFlux.Figures)                                         | Gets the list of associated figures.                          |
-| [`Images`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/BoundaryConditions/HeatFlux.md#HeatFlux.Images)                                           | Gets the list of associated images.                           |
-| [`ReadOnly`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/BoundaryConditions/HeatFlux.md#HeatFlux.ReadOnly)                                       | Gets or sets the ReadOnly.                                    |
-| [`InternalObject`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/BoundaryConditions/HeatFlux.md#id0)                                               | Gets the internal object. For advanced usage only.            |
-| [`Properties`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/BoundaryConditions/HeatFlux.md#HeatFlux.Properties)                                   | Gets the list of properties for this object.                  |
-| [`VisibleProperties`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/BoundaryConditions/HeatFlux.md#HeatFlux.VisibleProperties)                     | Gets the list of properties that are visible for this object. |
+| [`Children`](#HeatFlux.Children)                                       | Gets the list of children.                                    |
+| [`Comments`](#HeatFlux.Comments)                                       | Gets the list of associated comments.                         |
+| [`DataModelObjectCategory`](#HeatFlux.DataModelObjectCategory)         | Gets the current DataModelObject’s category.                  |
+| [`Figures`](#HeatFlux.Figures)                                         | Gets the list of associated figures.                          |
+| [`GraphControlsXAxis`](#HeatFlux.GraphControlsXAxis)                   | Gets or sets the GraphControlsXAxis.                          |
+| [`Images`](#HeatFlux.Images)                                           | Gets the list of associated images.                           |
+| [`IndependentVariable`](#HeatFlux.IndependentVariable)                 | Gets or sets the IndependentVariable.                         |
+| [`InternalObject`](#HeatFlux.InternalObject)                           | Gets the internal object. For advanced usage only.            |
+| [`Location`](#HeatFlux.Location)                                       | Gets or sets the Location.                                    |
+| [`Magnitude`](#HeatFlux.Magnitude)                                     | Gets the Magnitude.                                           |
+| [`NumberOfSegments`](#HeatFlux.NumberOfSegments)                       | Gets or sets the NumberOfSegments.                            |
+| [`Properties`](#HeatFlux.Properties)                                   | Gets the list of properties for this object.                  |
+| [`ReadOnly`](#HeatFlux.ReadOnly)                                       | Gets or sets the ReadOnly.                                    |
+| [`SharedRefBody`](#HeatFlux.SharedRefBody)                             | Gets or sets the SharedRefBody.                               |
+| [`Suppressed`](#HeatFlux.Suppressed)                                   | Gets or sets the Suppressed.                                  |
+| [`VisibleProperties`](#HeatFlux.VisibleProperties)                     | Gets the list of properties that are visible for this object. |
+| [`XYZFunctionCoordinateSystem`](#HeatFlux.XYZFunctionCoordinateSystem) | Gets or sets the XYZFunctionCoordinateSystem.                 |
 
 <a id="property-detail"></a>
 
 ## Property detail
-
-<a id="HeatFlux.InternalObject"></a>
-
-### *property* HeatFlux.InternalObject *: Ansys.Common.Interop.DSObjectsAuto.IDSLoadAuto | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets the internal object. For advanced usage only.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="HeatFlux.NumberOfSegments"></a>
-
-### *property* HeatFlux.NumberOfSegments *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the NumberOfSegments.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="HeatFlux.Magnitude"></a>
-
-### *property* HeatFlux.Magnitude *: [Ansys.ACT.Mechanical.Fields.Field](../../../Mechanical/Fields/Field.md#ansys.mechanical.stubs.v241.Ansys.ACT.Mechanical.Fields.Field) | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets the Magnitude.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="HeatFlux.GraphControlsXAxis"></a>
-
-### *property* HeatFlux.GraphControlsXAxis *: [Ansys.Mechanical.DataModel.Enums.LoadVariableVariationType](../../../../Mechanical/DataModel/Enums/LoadVariableVariationType.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.LoadVariableVariationType) | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the GraphControlsXAxis.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="HeatFlux.IndependentVariable"></a>
-
-### *property* HeatFlux.IndependentVariable *: [Ansys.Mechanical.DataModel.Enums.LoadVariableVariationType](../../../../Mechanical/DataModel/Enums/LoadVariableVariationType.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.LoadVariableVariationType) | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the IndependentVariable.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="HeatFlux.XYZFunctionCoordinateSystem"></a>
-
-### *property* HeatFlux.XYZFunctionCoordinateSystem *: [Ansys.ACT.Automation.Mechanical.CoordinateSystem](../CoordinateSystem.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.CoordinateSystem) | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the XYZFunctionCoordinateSystem.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="HeatFlux.Location"></a>
-
-### *property* HeatFlux.Location *: Ansys.ACT.Interfaces.Common.ISelectionInfo | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the Location.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="HeatFlux.DataModelObjectCategory"></a>
-
-### *property* HeatFlux.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets the current DataModelObject's category.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="HeatFlux.Suppressed"></a>
-
-### *property* HeatFlux.Suppressed *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the Suppressed.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="HeatFlux.SharedRefBody"></a>
-
-### *property* HeatFlux.SharedRefBody *: [Ansys.ACT.Automation.Mechanical.Body](../Body.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Body) | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the SharedRefBody.
-
-<!-- !! processed by numpydoc !! -->
 
 <a id="HeatFlux.Children"></a>
 
@@ -163,11 +81,27 @@ Gets the list of associated comments.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="HeatFlux.DataModelObjectCategory"></a>
+
+### *property* HeatFlux.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../../v242/Ansys/Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets the current DataModelObject’s category.
+
+<!-- !! processed by numpydoc !! -->
+
 <a id="HeatFlux.Figures"></a>
 
 ### *property* HeatFlux.Figures *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Figure](../Figure.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated figures.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="HeatFlux.GraphControlsXAxis"></a>
+
+### *property* HeatFlux.GraphControlsXAxis *: [Ansys.Mechanical.DataModel.Enums.LoadVariableVariationType](../../../../../../v242/Ansys/Mechanical/DataModel/Enums/LoadVariableVariationType.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.LoadVariableVariationType) | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the GraphControlsXAxis.
 
 <!-- !! processed by numpydoc !! -->
 
@@ -179,19 +113,43 @@ Gets the list of associated images.
 
 <!-- !! processed by numpydoc !! -->
 
-<a id="HeatFlux.ReadOnly"></a>
+<a id="HeatFlux.IndependentVariable"></a>
 
-### *property* HeatFlux.ReadOnly *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* HeatFlux.IndependentVariable *: [Ansys.Mechanical.DataModel.Enums.LoadVariableVariationType](../../../../../../v242/Ansys/Mechanical/DataModel/Enums/LoadVariableVariationType.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.LoadVariableVariationType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets or sets the ReadOnly.
+Gets or sets the IndependentVariable.
 
 <!-- !! processed by numpydoc !! -->
 
-<a id="id0"></a>
+<a id="HeatFlux.InternalObject"></a>
 
-### *property* HeatFlux.InternalObject *: System.Object | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* HeatFlux.InternalObject *: Ansys.Common.Interop.DSObjectsAuto.IDSLoadAuto | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the internal object. For advanced usage only.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="HeatFlux.Location"></a>
+
+### *property* HeatFlux.Location *: Ansys.ACT.Interfaces.Common.ISelectionInfo | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the Location.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="HeatFlux.Magnitude"></a>
+
+### *property* HeatFlux.Magnitude *: [Ansys.ACT.Mechanical.Fields.Field](../../../../../../v242/Ansys/ACT/Mechanical/Fields/Field.md#ansys.mechanical.stubs.v242.Ansys.ACT.Mechanical.Fields.Field) | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets the Magnitude.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="HeatFlux.NumberOfSegments"></a>
+
+### *property* HeatFlux.NumberOfSegments *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the NumberOfSegments.
 
 <!-- !! processed by numpydoc !! -->
 
@@ -203,6 +161,30 @@ Gets the list of properties for this object.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="HeatFlux.ReadOnly"></a>
+
+### *property* HeatFlux.ReadOnly *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the ReadOnly.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="HeatFlux.SharedRefBody"></a>
+
+### *property* HeatFlux.SharedRefBody *: [Ansys.ACT.Automation.Mechanical.Body](../Body.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Body) | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the SharedRefBody.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="HeatFlux.Suppressed"></a>
+
+### *property* HeatFlux.Suppressed *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the Suppressed.
+
+<!-- !! processed by numpydoc !! -->
+
 <a id="HeatFlux.VisibleProperties"></a>
 
 ### *property* HeatFlux.VisibleProperties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
@@ -211,71 +193,23 @@ Gets the list of properties that are visible for this object.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="HeatFlux.XYZFunctionCoordinateSystem"></a>
+
+### *property* HeatFlux.XYZFunctionCoordinateSystem *: [Ansys.ACT.Automation.Mechanical.CoordinateSystem](../CoordinateSystem.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.CoordinateSystem) | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the XYZFunctionCoordinateSystem.
+
+<!-- !! processed by numpydoc !! -->
+
 <a id="method-detail"></a>
 
 ## Method detail
 
-<a id="HeatFlux.GetActivateAtLoadStep"></a>
+<a id="HeatFlux.Activate"></a>
 
-### HeatFlux.GetActivateAtLoadStep(stepNumber: System.UInt32)
+### HeatFlux.Activate()
 
-GetActivateAtLoadStep method.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="HeatFlux.SetActivateAtLoadStep"></a>
-
-### HeatFlux.SetActivateAtLoadStep(stepNumber: System.UInt32, bActive: System.Boolean)
-
-SetActivateAtLoadStep method.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="HeatFlux.GetComponentActivateAtLoadStep"></a>
-
-### HeatFlux.GetComponentActivateAtLoadStep(component: System.String, stepNumber: System.UInt32)
-
-GetComponentActivateAtLoadStep method.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="HeatFlux.SetComponentActivateAtLoadStep"></a>
-
-### HeatFlux.SetComponentActivateAtLoadStep(component: System.String, stepNumber: System.UInt32, bActive: System.Boolean)
-
-SetComponentActivateAtLoadStep method.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="HeatFlux.PromoteToNamedSelection"></a>
-
-### HeatFlux.PromoteToNamedSelection()
-
-Run the PromoteToNamedSelection action.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="HeatFlux.Delete"></a>
-
-### HeatFlux.Delete()
-
-Run the Delete action.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="HeatFlux.GetChildren"></a>
-
-### HeatFlux.GetChildren(recurses: System.Boolean, children: System.Collections.Generic.IList[ChildrenType])
-
-Gets the list of children, filtered by type.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="id1"></a>
-
-### HeatFlux.GetChildren(category: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory), recurses: System.Boolean, children: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject])
-
-Gets the list of children, filtered by type.
+Activate the current object.
 
 <!-- !! processed by numpydoc !! -->
 
@@ -299,17 +233,11 @@ Creates a new child Figure.
 
 ### HeatFlux.AddImage(filePath: System.String)
 
+```text
 Creates a new child Image.
 If a filePath is provided, the image will be loaded from that file,
 if not, the image will be a screen capture of the Geometry window.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="HeatFlux.Activate"></a>
-
-### HeatFlux.Activate()
-
-Activate the current object.
+```
 
 <!-- !! processed by numpydoc !! -->
 
@@ -321,11 +249,59 @@ Copies all visible properties from this object to another.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="HeatFlux.CreateParameter"></a>
+
+### HeatFlux.CreateParameter(propName: System.String)
+
+Creates a new parameter for a Property.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="HeatFlux.Delete"></a>
+
+### HeatFlux.Delete()
+
+Run the Delete action.
+
+<!-- !! processed by numpydoc !! -->
+
 <a id="HeatFlux.Duplicate"></a>
 
 ### HeatFlux.Duplicate()
 
 Creates a copy of the current DataModelObject.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="HeatFlux.GetActivateAtLoadStep"></a>
+
+### HeatFlux.GetActivateAtLoadStep(stepNumber: System.UInt32)
+
+GetActivateAtLoadStep method.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="HeatFlux.GetChildren"></a>
+
+### HeatFlux.GetChildren(recurses: System.Boolean, children: System.Collections.Generic.IList[ChildrenType])
+
+Gets the list of children, filtered by type.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="HeatFlux.GetComponentActivateAtLoadStep"></a>
+
+### HeatFlux.GetComponentActivateAtLoadStep(component: System.String, stepNumber: System.UInt32)
+
+GetComponentActivateAtLoadStep method.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="HeatFlux.GetParameter"></a>
+
+### HeatFlux.GetParameter(propName: System.String)
+
+Gets the parameter corresponding to the given property.
 
 <!-- !! processed by numpydoc !! -->
 
@@ -345,6 +321,25 @@ Run the GroupSimilarObjects action.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="HeatFlux.PromoteToNamedSelection"></a>
+
+### HeatFlux.PromoteToNamedSelection()
+
+Run the PromoteToNamedSelection action.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="HeatFlux.PropertyByAPIName"></a>
+
+### HeatFlux.PropertyByAPIName(name: System.String)
+
+```text
+Get a property by its API name.
+If multiple properties have the same API Name, only the first property with that name will be returned.
+```
+
+<!-- !! processed by numpydoc !! -->
+
 <a id="HeatFlux.PropertyByName"></a>
 
 ### HeatFlux.PropertyByName(name: System.String)
@@ -353,36 +348,27 @@ Get a property by its unique name.
 
 <!-- !! processed by numpydoc !! -->
 
-<a id="HeatFlux.PropertyByAPIName"></a>
-
-### HeatFlux.PropertyByAPIName(name: System.String)
-
-Get a property by its API name.
-If multiple properties have the same API Name, only the first property with that name will be returned.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="HeatFlux.CreateParameter"></a>
-
-### HeatFlux.CreateParameter(propName: System.String)
-
-Creates a new parameter for a Property.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="HeatFlux.GetParameter"></a>
-
-### HeatFlux.GetParameter(propName: System.String)
-
-Gets the parameter corresponding to the given property.
-
-<!-- !! processed by numpydoc !! -->
-
 <a id="HeatFlux.RemoveParameter"></a>
 
 ### HeatFlux.RemoveParameter(propName: System.String)
 
 Removes the parameter from the parameter set corresponding to the given property.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="HeatFlux.SetActivateAtLoadStep"></a>
+
+### HeatFlux.SetActivateAtLoadStep(stepNumber: System.UInt32, bActive: System.Boolean)
+
+SetActivateAtLoadStep method.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="HeatFlux.SetComponentActivateAtLoadStep"></a>
+
+### HeatFlux.SetComponentActivateAtLoadStep(component: System.String, stepNumber: System.UInt32, bActive: System.Boolean)
+
+SetComponentActivateAtLoadStep method.
 
 <!-- !! processed by numpydoc !! -->
 

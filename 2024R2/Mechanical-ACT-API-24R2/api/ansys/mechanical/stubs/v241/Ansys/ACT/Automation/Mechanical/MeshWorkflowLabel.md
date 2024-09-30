@@ -1,6 +1,6 @@
 # `MeshWorkflowLabel`
 
-
+<a id="ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.MeshWorkflowLabel"></a>
 
 #### *class* ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.MeshWorkflowLabel
 
@@ -18,32 +18,30 @@ Object that wraps IDSEngineeringModelLabelAuto.
 
 | Name | Description |
 |-------------------------------------------------------------------------|-----------------------------------------------------------------------------------|
-| [`Delete`](#MeshWorkflowLabel.Delete)                                   | Run the Delete action.                                                            |
-| [`GetChildren`](#id1)                                                   | Gets the list of children, filtered by type.                                      |
-| [`GetChildren`](#id1)                                                   | Gets the list of children, filtered by type.                                      |
+| [`Activate`](#MeshWorkflowLabel.Activate)                               | Activate the current object.                                                      |
 | [`AddFigure`](#MeshWorkflowLabel.AddFigure)                             | Creates a new child Figure.                                                       |
 | [`AddImage`](#MeshWorkflowLabel.AddImage)                               | Creates a new child Image.                                                        |
-| [`Activate`](#MeshWorkflowLabel.Activate)                               | Activate the current object.                                                      |
 | [`CopyTo`](#MeshWorkflowLabel.CopyTo)                                   | Copies all visible properties from this object to another.                        |
+| [`CreateParameter`](#MeshWorkflowLabel.CreateParameter)                 | Creates a new parameter for a Property.                                           |
+| [`Delete`](#MeshWorkflowLabel.Delete)                                   | Run the Delete action.                                                            |
 | [`Duplicate`](#MeshWorkflowLabel.Duplicate)                             | Creates a copy of the current DataModelObject.                                    |
+| [`GetChildren`](#MeshWorkflowLabel.GetChildren)                         | Gets the list of children, filtered by type.                                      |
+| [`GetParameter`](#MeshWorkflowLabel.GetParameter)                       | Gets the parameter corresponding to the given property.                           |
 | [`GroupAllSimilarChildren`](#MeshWorkflowLabel.GroupAllSimilarChildren) | Run the GroupAllSimilarChildren action.                                           |
 | [`GroupSimilarObjects`](#MeshWorkflowLabel.GroupSimilarObjects)         | Run the GroupSimilarObjects action.                                               |
-| [`PropertyByName`](#MeshWorkflowLabel.PropertyByName)                   | Get a property by its unique name.                                                |
 | [`PropertyByAPIName`](#MeshWorkflowLabel.PropertyByAPIName)             | Get a property by its API name.                                                   |
-| [`CreateParameter`](#MeshWorkflowLabel.CreateParameter)                 | Creates a new parameter for a Property.                                           |
-| [`GetParameter`](#MeshWorkflowLabel.GetParameter)                       | Gets the parameter corresponding to the given property.                           |
+| [`PropertyByName`](#MeshWorkflowLabel.PropertyByName)                   | Get a property by its unique name.                                                |
 | [`RemoveParameter`](#MeshWorkflowLabel.RemoveParameter)                 | Removes the parameter from the parameter set corresponding to the given property. |
 
 ### Properties
 
 | Name | Description |
 |-------------------------------------------------------------------------|---------------------------------------------------------------|
-| [`InternalObject`](#id0)                                                | Gets the internal object. For advanced usage only.            |
-| [`DataModelObjectCategory`](#MeshWorkflowLabel.DataModelObjectCategory) | Gets the current DataModelObject's category.                  |
 | [`Children`](#MeshWorkflowLabel.Children)                               | Gets the list of children.                                    |
+| [`DataModelObjectCategory`](#MeshWorkflowLabel.DataModelObjectCategory) | Gets the current DataModelObject’s category.                  |
 | [`Figures`](#MeshWorkflowLabel.Figures)                                 | Gets the list of associated figures.                          |
 | [`Images`](#MeshWorkflowLabel.Images)                                   | Gets the list of associated images.                           |
-| [`InternalObject`](#id0)                                                | Gets the internal object. For advanced usage only.            |
+| [`InternalObject`](#MeshWorkflowLabel.InternalObject)                   | Gets the internal object. For advanced usage only.            |
 | [`Properties`](#MeshWorkflowLabel.Properties)                           | Gets the list of properties for this object.                  |
 | [`VisibleProperties`](#MeshWorkflowLabel.VisibleProperties)             | Gets the list of properties that are visible for this object. |
 
@@ -51,27 +49,19 @@ Object that wraps IDSEngineeringModelLabelAuto.
 
 ## Property detail
 
-<a id="MeshWorkflowLabel.InternalObject"></a>
-
-### *property* MeshWorkflowLabel.InternalObject *: Ansys.Common.Interop.DSObjectsAuto.IDSEngineeringModelLabelAuto | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets the internal object. For advanced usage only.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="MeshWorkflowLabel.DataModelObjectCategory"></a>
-
-### *property* MeshWorkflowLabel.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets the current DataModelObject's category.
-
-<!-- !! processed by numpydoc !! -->
-
 <a id="MeshWorkflowLabel.Children"></a>
 
 ### *property* MeshWorkflowLabel.Children *: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of children.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="MeshWorkflowLabel.DataModelObjectCategory"></a>
+
+### *property* MeshWorkflowLabel.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../v242/Ansys/Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets the current DataModelObject’s category.
 
 <!-- !! processed by numpydoc !! -->
 
@@ -91,9 +81,9 @@ Gets the list of associated images.
 
 <!-- !! processed by numpydoc !! -->
 
-<a id="id0"></a>
+<a id="MeshWorkflowLabel.InternalObject"></a>
 
-### *property* MeshWorkflowLabel.InternalObject *: System.Object | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* MeshWorkflowLabel.InternalObject *: Ansys.Common.Interop.DSObjectsAuto.IDSEngineeringModelLabelAuto | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the internal object. For advanced usage only.
 
@@ -119,27 +109,11 @@ Gets the list of properties that are visible for this object.
 
 ## Method detail
 
-<a id="MeshWorkflowLabel.Delete"></a>
+<a id="MeshWorkflowLabel.Activate"></a>
 
-### MeshWorkflowLabel.Delete()
+### MeshWorkflowLabel.Activate()
 
-Run the Delete action.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="MeshWorkflowLabel.GetChildren"></a>
-
-### MeshWorkflowLabel.GetChildren(recurses: System.Boolean, children: System.Collections.Generic.IList[ChildrenType])
-
-Gets the list of children, filtered by type.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="id1"></a>
-
-### MeshWorkflowLabel.GetChildren(category: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory), recurses: System.Boolean, children: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject])
-
-Gets the list of children, filtered by type.
+Activate the current object.
 
 <!-- !! processed by numpydoc !! -->
 
@@ -155,17 +129,11 @@ Creates a new child Figure.
 
 ### MeshWorkflowLabel.AddImage(filePath: System.String)
 
+```text
 Creates a new child Image.
 If a filePath is provided, the image will be loaded from that file,
 if not, the image will be a screen capture of the Geometry window.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="MeshWorkflowLabel.Activate"></a>
-
-### MeshWorkflowLabel.Activate()
-
-Activate the current object.
+```
 
 <!-- !! processed by numpydoc !! -->
 
@@ -177,11 +145,43 @@ Copies all visible properties from this object to another.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="MeshWorkflowLabel.CreateParameter"></a>
+
+### MeshWorkflowLabel.CreateParameter(propName: System.String)
+
+Creates a new parameter for a Property.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="MeshWorkflowLabel.Delete"></a>
+
+### MeshWorkflowLabel.Delete()
+
+Run the Delete action.
+
+<!-- !! processed by numpydoc !! -->
+
 <a id="MeshWorkflowLabel.Duplicate"></a>
 
 ### MeshWorkflowLabel.Duplicate()
 
 Creates a copy of the current DataModelObject.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="MeshWorkflowLabel.GetChildren"></a>
+
+### MeshWorkflowLabel.GetChildren(recurses: System.Boolean, children: System.Collections.Generic.IList[ChildrenType])
+
+Gets the list of children, filtered by type.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="MeshWorkflowLabel.GetParameter"></a>
+
+### MeshWorkflowLabel.GetParameter(propName: System.String)
+
+Gets the parameter corresponding to the given property.
 
 <!-- !! processed by numpydoc !! -->
 
@@ -201,36 +201,22 @@ Run the GroupSimilarObjects action.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="MeshWorkflowLabel.PropertyByAPIName"></a>
+
+### MeshWorkflowLabel.PropertyByAPIName(name: System.String)
+
+```text
+Get a property by its API name.
+If multiple properties have the same API Name, only the first property with that name will be returned.
+```
+
+<!-- !! processed by numpydoc !! -->
+
 <a id="MeshWorkflowLabel.PropertyByName"></a>
 
 ### MeshWorkflowLabel.PropertyByName(name: System.String)
 
 Get a property by its unique name.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="MeshWorkflowLabel.PropertyByAPIName"></a>
-
-### MeshWorkflowLabel.PropertyByAPIName(name: System.String)
-
-Get a property by its API name.
-If multiple properties have the same API Name, only the first property with that name will be returned.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="MeshWorkflowLabel.CreateParameter"></a>
-
-### MeshWorkflowLabel.CreateParameter(propName: System.String)
-
-Creates a new parameter for a Property.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="MeshWorkflowLabel.GetParameter"></a>
-
-### MeshWorkflowLabel.GetParameter(propName: System.String)
-
-Gets the parameter corresponding to the given property.
 
 <!-- !! processed by numpydoc !! -->
 

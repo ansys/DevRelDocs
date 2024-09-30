@@ -1,6 +1,6 @@
 # `ContactFaceEdgeOption`
 
-
+<a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.ContactFaceEdgeOption"></a>
 
 #### *class* ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.ContactFaceEdgeOption
 
@@ -17,12 +17,12 @@ Specifies the ContactFaceEdgeOption.
 ### Attributes
 
 | Name |
-| ---------------------------------------------------------------------------------------------------------------------------------------------------- |
-| [`No`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/ContactFaceEdgeOption.md#ContactFaceEdgeOption.No) |
-| [`OnlyBeamBodyEdges`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/ContactFaceEdgeOption.md#ContactFaceEdgeOption.OnlyBeamBodyEdges) |
-| [`OnlySolidBodyEdges`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/ContactFaceEdgeOption.md#ContactFaceEdgeOption.OnlySolidBodyEdges) |
-| [`OnlySurfaceBodyEdges`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/ContactFaceEdgeOption.md#ContactFaceEdgeOption.OnlySurfaceBodyEdges) |
-| [`Yes`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/ContactFaceEdgeOption.md#ContactFaceEdgeOption.Yes) |
+| ----------------------------------------------------------------------- |
+| [`No`](#ContactFaceEdgeOption.No) |
+| [`OnlyBeamBodyEdges`](#ContactFaceEdgeOption.OnlyBeamBodyEdges) |
+| [`OnlySolidBodyEdges`](#ContactFaceEdgeOption.OnlySolidBodyEdges) |
+| [`OnlySurfaceBodyEdges`](#ContactFaceEdgeOption.OnlySurfaceBodyEdges) |
+| [`Yes`](#ContactFaceEdgeOption.Yes) |
 
 <a id="attribute-detail"></a>
 

@@ -1,6 +1,6 @@
 # `TopoPropertyControlType`
 
-
+<a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.TopoPropertyControlType"></a>
 
 #### *class* ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.TopoPropertyControlType
 
@@ -17,9 +17,9 @@ Specifies the TopoPropertyControlType.
 ### Attributes
 
 | Name |
-| -------------------------------------------------------------------------------------------------------------------------------------------------- |
-| [`Manual`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/TopoPropertyControlType.md#TopoPropertyControlType.Manual) |
-| [`ProgramControlled`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/TopoPropertyControlType.md#TopoPropertyControlType.ProgramControlled) |
+| ------------------------------------------------------------------- |
+| [`Manual`](#TopoPropertyControlType.Manual) |
+| [`ProgramControlled`](#TopoPropertyControlType.ProgramControlled) |
 
 <a id="attribute-detail"></a>
 

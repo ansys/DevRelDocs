@@ -1,6 +1,6 @@
 # `FaceMeshingMethod`
 
-
+<a id="ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.FaceMeshingMethod"></a>
 
 #### *class* ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.FaceMeshingMethod
 
@@ -15,7 +15,7 @@ Bases: [`enum.Enum`](https://docs.python.org/3/library/enum.html#enum.Enum)
 ### Attributes
 
 | Name |
-| --------------------------------------------------------------- |
+| ---------------------------------------------------------------------------------------------------------------------------------------- |
 | [`Quadrilaterals`](#FaceMeshingMethod.Quadrilaterals) |
 | [`TrianglesBestSplit`](#FaceMeshingMethod.TrianglesBestSplit) |
 

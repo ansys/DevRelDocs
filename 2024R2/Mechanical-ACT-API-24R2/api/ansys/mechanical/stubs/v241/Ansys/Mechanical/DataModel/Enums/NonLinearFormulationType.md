@@ -1,6 +1,6 @@
 # `NonLinearFormulationType`
 
-
+<a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.NonLinearFormulationType"></a>
 
 #### *class* ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.NonLinearFormulationType
 
@@ -17,10 +17,10 @@ Specifies the NonLinearFormulationType.
 ### Attributes
 
 | Name |
-| ---------------------------------------------------------------------------------------------------------------------------------------------------- |
-| [`Full`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/NonLinearFormulationType.md#NonLinearFormulationType.Full) |
-| [`ProgramControlled`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/NonLinearFormulationType.md#NonLinearFormulationType.ProgramControlled) |
-| [`Quasi`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/NonLinearFormulationType.md#NonLinearFormulationType.Quasi) |
+| -------------------------------------------------------------------- |
+| [`Full`](#NonLinearFormulationType.Full) |
+| [`ProgramControlled`](#NonLinearFormulationType.ProgramControlled) |
+| [`Quasi`](#NonLinearFormulationType.Quasi) |
 
 <a id="attribute-detail"></a>
 

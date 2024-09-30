@@ -1,6 +1,6 @@
 # `ContactDetectionPoint`
 
-
+<a id="ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.ContactDetectionPoint"></a>
 
 #### *class* ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.ContactDetectionPoint
 
@@ -17,18 +17,26 @@ Specifies the ContactDetectionPoint.
 ### Attributes
 
 | Name |
-| ----------------------------------------------------------------------------------------------- |
+| ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| [`Combined`](#ContactDetectionPoint.Combined) |
+| [`NodalDualShapeFunctionProjection`](#ContactDetectionPoint.NodalDualShapeFunctionProjection) |
 | [`NodalNormalFromContact`](#ContactDetectionPoint.NodalNormalFromContact) |
 | [`NodalNormalToTarget`](#ContactDetectionPoint.NodalNormalToTarget) |
 | [`NodalProjectedNormalFromContact`](#ContactDetectionPoint.NodalProjectedNormalFromContact) |
 | [`OnGaussPoint`](#ContactDetectionPoint.OnGaussPoint) |
 | [`ProgramControlled`](#ContactDetectionPoint.ProgramControlled) |
-| [`Combined`](#ContactDetectionPoint.Combined) |
-| [`NodalDualShapeFunctionProjection`](#ContactDetectionPoint.NodalDualShapeFunctionProjection) |
 
 <a id="attribute-detail"></a>
 
 ## Attribute detail
+
+<a id="ContactDetectionPoint.Combined"></a>
+
+### ContactDetectionPoint.Combined *= 6*
+
+<a id="ContactDetectionPoint.NodalDualShapeFunctionProjection"></a>
+
+### ContactDetectionPoint.NodalDualShapeFunctionProjection *= 5*
 
 <a id="ContactDetectionPoint.NodalNormalFromContact"></a>
 
@@ -49,13 +57,5 @@ Specifies the ContactDetectionPoint.
 <a id="ContactDetectionPoint.ProgramControlled"></a>
 
 ### ContactDetectionPoint.ProgramControlled *= 0*
-
-<a id="ContactDetectionPoint.Combined"></a>
-
-### ContactDetectionPoint.Combined *= 6*
-
-<a id="ContactDetectionPoint.NodalDualShapeFunctionProjection"></a>
-
-### ContactDetectionPoint.NodalDualShapeFunctionProjection *= 5*
 
 

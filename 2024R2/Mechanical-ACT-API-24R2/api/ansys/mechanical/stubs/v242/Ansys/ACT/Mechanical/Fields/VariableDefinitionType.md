@@ -1,6 +1,6 @@
 # `VariableDefinitionType`
 
-
+<a id="ansys.mechanical.stubs.v242.Ansys.ACT.Mechanical.Fields.VariableDefinitionType"></a>
 
 #### *class* ansys.mechanical.stubs.v242.Ansys.ACT.Mechanical.Fields.VariableDefinitionType
 
@@ -17,18 +17,14 @@ Defines the various ways to define the values of a variable.
 ### Attributes
 
 | Name |
-| ------------------------------------------------ |
-| [`Free`](#VariableDefinitionType.Free) |
+| --------------------------------------------------------------------------------------------------------------------------- |
 | [`Discrete`](#VariableDefinitionType.Discrete) |
 | [`Formula`](#VariableDefinitionType.Formula) |
+| [`Free`](#VariableDefinitionType.Free) |
 
 <a id="attribute-detail"></a>
 
 ## Attribute detail
-
-<a id="VariableDefinitionType.Free"></a>
-
-### VariableDefinitionType.Free *= 0*
 
 <a id="VariableDefinitionType.Discrete"></a>
 
@@ -37,5 +33,9 @@ Defines the various ways to define the values of a variable.
 <a id="VariableDefinitionType.Formula"></a>
 
 ### VariableDefinitionType.Formula *= 2*
+
+<a id="VariableDefinitionType.Free"></a>
+
+### VariableDefinitionType.Free *= 0*
 
 

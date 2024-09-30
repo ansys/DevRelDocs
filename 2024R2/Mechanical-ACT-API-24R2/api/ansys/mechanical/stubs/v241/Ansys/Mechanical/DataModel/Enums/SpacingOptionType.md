@@ -1,6 +1,6 @@
 # `SpacingOptionType`
 
-
+<a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.SpacingOptionType"></a>
 
 #### *class* ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.SpacingOptionType
 
@@ -17,9 +17,9 @@ Specifies the SpacingOptionType.
 ### Attributes
 
 | Name |
-| -------------------------------------------------------------------------------------------------------------------------------- |
-| [`Default`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/SpacingOptionType.md#SpacingOptionType.Default) |
-| [`UserControlled`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/SpacingOptionType.md#SpacingOptionType.UserControlled) |
+| ------------------------------------------------------- |
+| [`Default`](#SpacingOptionType.Default) |
+| [`UserControlled`](#SpacingOptionType.UserControlled) |
 
 <a id="attribute-detail"></a>
 

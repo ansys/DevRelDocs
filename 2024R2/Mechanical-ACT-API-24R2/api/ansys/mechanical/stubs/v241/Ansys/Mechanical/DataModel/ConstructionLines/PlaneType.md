@@ -1,6 +1,6 @@
 # `PlaneType`
 
-
+<a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.ConstructionLines.PlaneType"></a>
 
 #### *class* ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.ConstructionLines.PlaneType
 

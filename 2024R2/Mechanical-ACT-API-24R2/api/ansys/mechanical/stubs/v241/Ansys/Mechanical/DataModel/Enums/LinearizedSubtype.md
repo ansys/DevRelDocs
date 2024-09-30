@@ -1,6 +1,6 @@
 # `LinearizedSubtype`
 
-
+<a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.LinearizedSubtype"></a>
 
 #### *class* ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.LinearizedSubtype
 
@@ -17,13 +17,13 @@ Specifies the LinearizedSubtype.
 ### Attributes
 
 | Name |
-| ---------------------------------------------------------------------------------------------------------------------------------- |
-| [`All`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/LinearizedSubtype.md#LinearizedSubtype.All) |
-| [`Bending`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/LinearizedSubtype.md#LinearizedSubtype.Bending) |
-| [`Membrane`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/LinearizedSubtype.md#LinearizedSubtype.Membrane) |
-| [`MembraneBending`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/LinearizedSubtype.md#LinearizedSubtype.MembraneBending) |
-| [`Peak`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/LinearizedSubtype.md#LinearizedSubtype.Peak) |
-| [`Total`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/LinearizedSubtype.md#LinearizedSubtype.Total) |
+| --------------------------------------------------------- |
+| [`All`](#LinearizedSubtype.All) |
+| [`Bending`](#LinearizedSubtype.Bending) |
+| [`Membrane`](#LinearizedSubtype.Membrane) |
+| [`MembraneBending`](#LinearizedSubtype.MembraneBending) |
+| [`Peak`](#LinearizedSubtype.Peak) |
+| [`Total`](#LinearizedSubtype.Total) |
 
 <a id="attribute-detail"></a>
 

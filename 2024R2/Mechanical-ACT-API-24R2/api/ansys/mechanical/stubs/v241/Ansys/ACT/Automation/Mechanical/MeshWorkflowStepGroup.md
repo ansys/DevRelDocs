@@ -1,6 +1,6 @@
 # `MeshWorkflowStepGroup`
 
-
+<a id="ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.MeshWorkflowStepGroup"></a>
 
 #### *class* ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.MeshWorkflowStepGroup
 
@@ -17,76 +17,58 @@ Object that wraps IDSEngineeringModelWorkflow.
 ### Methods
 
 | Name | Description |
-|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [`AddStep`](../../../../../v242/Ansys/ACT/Automation/Mechanical/MeshWorkflowStepGroup.md#MeshWorkflowStepGroup.AddStep)                                                         | Add another operation to the sequence of steps to be executed for the mesh workflow.                                                                                                                                                                                                                                              |
-| [`DeleteAllStepsAndClearGeneratedData`](../../../../../v242/Ansys/ACT/Automation/Mechanical/MeshWorkflowStepGroup.md#MeshWorkflowStepGroup.DeleteAllStepsAndClearGeneratedData) | Deletes all steps and reset workflow type to undefined and also resets all inactive geometry parts/bodies to active again, clears the output data, and resets the state of the child objects (“Input”, “Steps”, “Output”) to the initial state. However, any user-defined settings such as the “Input” node scoping are retained. |
-| [`ExecuteAllSteps`](../../../../../v242/Ansys/ACT/Automation/Mechanical/MeshWorkflowStepGroup.md#MeshWorkflowStepGroup.ExecuteAllSteps)                                         | Executes all steps defined under the “StepGroup” object (which is the “Steps” node in the UI).                                                                                                                                                                                                                                    |
-| [`ExecuteNextStep`](../../../../../v242/Ansys/ACT/Automation/Mechanical/MeshWorkflowStepGroup.md#MeshWorkflowStepGroup.ExecuteNextStep)                                         | Executes the next step, i.e. the next operation which is ready to be executed under the parent “StepGroup” object.                                                                                                                                                                                                                |
-| [`ExecuteUpToStep`](../../../../../v242/Ansys/ACT/Automation/Mechanical/MeshWorkflowStepGroup.md#MeshWorkflowStepGroup.ExecuteUpToStep)                                         | Executes any not yet ready steps up to and including the specified step.                                                                                                                                                                                                                                                          |
-| [`RevertToStep`](../../../../../v242/Ansys/ACT/Automation/Mechanical/MeshWorkflowStepGroup.md#MeshWorkflowStepGroup.RevertToStep)                                               | Revert to the specified step; if no checkpoint is available, then an exception will be raised.                                                                                                                                                                                                                                    |
-| [`Delete`](../../../../../v242/Ansys/ACT/Automation/Mechanical/MeshWorkflowStepGroup.md#MeshWorkflowStepGroup.Delete)                                                           | Run the Delete action.                                                                                                                                                                                                                                                                                                            |
-| [`GetChildren`](../../../../../v242/Ansys/ACT/Automation/Mechanical/MeshWorkflowStepGroup.md#id1)                                                                               | Gets the list of children, filtered by type.                                                                                                                                                                                                                                                                                      |
-| [`GetChildren`](../../../../../v242/Ansys/ACT/Automation/Mechanical/MeshWorkflowStepGroup.md#id1)                                                                               | Gets the list of children, filtered by type.                                                                                                                                                                                                                                                                                      |
-| [`AddFigure`](../../../../../v242/Ansys/ACT/Automation/Mechanical/MeshWorkflowStepGroup.md#MeshWorkflowStepGroup.AddFigure)                                                     | Creates a new child Figure.                                                                                                                                                                                                                                                                                                       |
-| [`AddImage`](../../../../../v242/Ansys/ACT/Automation/Mechanical/MeshWorkflowStepGroup.md#MeshWorkflowStepGroup.AddImage)                                                       | Creates a new child Image.                                                                                                                                                                                                                                                                                                        |
-| [`Activate`](../../../../../v242/Ansys/ACT/Automation/Mechanical/MeshWorkflowStepGroup.md#MeshWorkflowStepGroup.Activate)                                                       | Activate the current object.                                                                                                                                                                                                                                                                                                      |
-| [`CopyTo`](../../../../../v242/Ansys/ACT/Automation/Mechanical/MeshWorkflowStepGroup.md#MeshWorkflowStepGroup.CopyTo)                                                           | Copies all visible properties from this object to another.                                                                                                                                                                                                                                                                        |
-| [`Duplicate`](../../../../../v242/Ansys/ACT/Automation/Mechanical/MeshWorkflowStepGroup.md#MeshWorkflowStepGroup.Duplicate)                                                     | Creates a copy of the current DataModelObject.                                                                                                                                                                                                                                                                                    |
-| [`GroupAllSimilarChildren`](../../../../../v242/Ansys/ACT/Automation/Mechanical/MeshWorkflowStepGroup.md#MeshWorkflowStepGroup.GroupAllSimilarChildren)                         | Run the GroupAllSimilarChildren action.                                                                                                                                                                                                                                                                                           |
-| [`GroupSimilarObjects`](../../../../../v242/Ansys/ACT/Automation/Mechanical/MeshWorkflowStepGroup.md#MeshWorkflowStepGroup.GroupSimilarObjects)                                 | Run the GroupSimilarObjects action.                                                                                                                                                                                                                                                                                               |
-| [`PropertyByName`](../../../../../v242/Ansys/ACT/Automation/Mechanical/MeshWorkflowStepGroup.md#MeshWorkflowStepGroup.PropertyByName)                                           | Get a property by its unique name.                                                                                                                                                                                                                                                                                                |
-| [`PropertyByAPIName`](../../../../../v242/Ansys/ACT/Automation/Mechanical/MeshWorkflowStepGroup.md#MeshWorkflowStepGroup.PropertyByAPIName)                                     | Get a property by its API name.                                                                                                                                                                                                                                                                                                   |
-| [`CreateParameter`](../../../../../v242/Ansys/ACT/Automation/Mechanical/MeshWorkflowStepGroup.md#MeshWorkflowStepGroup.CreateParameter)                                         | Creates a new parameter for a Property.                                                                                                                                                                                                                                                                                           |
-| [`GetParameter`](../../../../../v242/Ansys/ACT/Automation/Mechanical/MeshWorkflowStepGroup.md#MeshWorkflowStepGroup.GetParameter)                                               | Gets the parameter corresponding to the given property.                                                                                                                                                                                                                                                                           |
-| [`RemoveParameter`](../../../../../v242/Ansys/ACT/Automation/Mechanical/MeshWorkflowStepGroup.md#MeshWorkflowStepGroup.RemoveParameter)                                         | Removes the parameter from the parameter set corresponding to the given property.                                                                                                                                                                                                                                                 |
+|-----------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| [`Activate`](#MeshWorkflowStepGroup.Activate)                                                       | Activate the current object.                                                                                                                                                                                                                                                                                                      |
+| [`AddFigure`](#MeshWorkflowStepGroup.AddFigure)                                                     | Creates a new child Figure.                                                                                                                                                                                                                                                                                                       |
+| [`AddImage`](#MeshWorkflowStepGroup.AddImage)                                                       | Creates a new child Image.                                                                                                                                                                                                                                                                                                        |
+| [`AddStep`](#MeshWorkflowStepGroup.AddStep)                                                         | Add another operation to the sequence of steps to be executed for the mesh workflow.                                                                                                                                                                                                                                              |
+| [`CopyTo`](#MeshWorkflowStepGroup.CopyTo)                                                           | Copies all visible properties from this object to another.                                                                                                                                                                                                                                                                        |
+| [`CreateParameter`](#MeshWorkflowStepGroup.CreateParameter)                                         | Creates a new parameter for a Property.                                                                                                                                                                                                                                                                                           |
+| [`Delete`](#MeshWorkflowStepGroup.Delete)                                                           | Run the Delete action.                                                                                                                                                                                                                                                                                                            |
+| [`DeleteAllStepsAndClearGeneratedData`](#MeshWorkflowStepGroup.DeleteAllStepsAndClearGeneratedData) | Deletes all steps and reset workflow type to undefined and also resets all inactive geometry parts/bodies to active again, clears the output data, and resets the state of the child objects (“Input”, “Steps”, “Output”) to the initial state. However, any user-defined settings such as the “Input” node scoping are retained. |
+| [`Duplicate`](#MeshWorkflowStepGroup.Duplicate)                                                     | Creates a copy of the current DataModelObject.                                                                                                                                                                                                                                                                                    |
+| [`ExecuteAllSteps`](#MeshWorkflowStepGroup.ExecuteAllSteps)                                         | Executes all steps defined under the “StepGroup” object (which is the “Steps” node in the UI).                                                                                                                                                                                                                                    |
+| [`ExecuteNextStep`](#MeshWorkflowStepGroup.ExecuteNextStep)                                         | Executes the next step, i.e. the next operation which is ready to be executed under the parent “StepGroup” object.                                                                                                                                                                                                                |
+| [`ExecuteUpToStep`](#MeshWorkflowStepGroup.ExecuteUpToStep)                                         | Executes any not yet ready steps up to and including the specified step.                                                                                                                                                                                                                                                          |
+| [`GetChildren`](#MeshWorkflowStepGroup.GetChildren)                                                 | Gets the list of children, filtered by type.                                                                                                                                                                                                                                                                                      |
+| [`GetParameter`](#MeshWorkflowStepGroup.GetParameter)                                               | Gets the parameter corresponding to the given property.                                                                                                                                                                                                                                                                           |
+| [`GroupAllSimilarChildren`](#MeshWorkflowStepGroup.GroupAllSimilarChildren)                         | Run the GroupAllSimilarChildren action.                                                                                                                                                                                                                                                                                           |
+| [`GroupSimilarObjects`](#MeshWorkflowStepGroup.GroupSimilarObjects)                                 | Run the GroupSimilarObjects action.                                                                                                                                                                                                                                                                                               |
+| [`PropertyByAPIName`](#MeshWorkflowStepGroup.PropertyByAPIName)                                     | Get a property by its API name.                                                                                                                                                                                                                                                                                                   |
+| [`PropertyByName`](#MeshWorkflowStepGroup.PropertyByName)                                           | Get a property by its unique name.                                                                                                                                                                                                                                                                                                |
+| [`RemoveParameter`](#MeshWorkflowStepGroup.RemoveParameter)                                         | Removes the parameter from the parameter set corresponding to the given property.                                                                                                                                                                                                                                                 |
+| [`RevertToStep`](#MeshWorkflowStepGroup.RevertToStep)                                               | Revert to the specified step; if no checkpoint is available, then an exception will be raised.                                                                                                                                                                                                                                    |
 
 ### Properties
 
 | Name | Description |
-|---------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------|
-| [`InternalObject`](../../../../../v242/Ansys/ACT/Automation/Mechanical/MeshWorkflowStepGroup.md#id0)                                                    | Gets the internal object. For advanced usage only.                                     |
-| [`NumberOfCores`](../../../../../v242/Ansys/ACT/Automation/Mechanical/MeshWorkflowStepGroup.md#MeshWorkflowStepGroup.NumberOfCores)                     | Defines how many CPU cores to be used in an operation (if supported by the operation). |
-| [`DataModelObjectCategory`](../../../../../v242/Ansys/ACT/Automation/Mechanical/MeshWorkflowStepGroup.md#MeshWorkflowStepGroup.DataModelObjectCategory) | Gets the current DataModelObject’s category.                                           |
-| [`Children`](../../../../../v242/Ansys/ACT/Automation/Mechanical/MeshWorkflowStepGroup.md#MeshWorkflowStepGroup.Children)                               | Gets the list of children.                                                             |
-| [`Figures`](../../../../../v242/Ansys/ACT/Automation/Mechanical/MeshWorkflowStepGroup.md#MeshWorkflowStepGroup.Figures)                                 | Gets the list of associated figures.                                                   |
-| [`Images`](../../../../../v242/Ansys/ACT/Automation/Mechanical/MeshWorkflowStepGroup.md#MeshWorkflowStepGroup.Images)                                   | Gets the list of associated images.                                                    |
-| [`InternalObject`](../../../../../v242/Ansys/ACT/Automation/Mechanical/MeshWorkflowStepGroup.md#id0)                                                    | Gets the internal object. For advanced usage only.                                     |
-| [`Properties`](../../../../../v242/Ansys/ACT/Automation/Mechanical/MeshWorkflowStepGroup.md#MeshWorkflowStepGroup.Properties)                           | Gets the list of properties for this object.                                           |
-| [`VisibleProperties`](../../../../../v242/Ansys/ACT/Automation/Mechanical/MeshWorkflowStepGroup.md#MeshWorkflowStepGroup.VisibleProperties)             | Gets the list of properties that are visible for this object.                          |
+|-----------------------------------------------------------------------------|----------------------------------------------------------------------------------------|
+| [`Children`](#MeshWorkflowStepGroup.Children)                               | Gets the list of children.                                                             |
+| [`DataModelObjectCategory`](#MeshWorkflowStepGroup.DataModelObjectCategory) | Gets the current DataModelObject’s category.                                           |
+| [`Figures`](#MeshWorkflowStepGroup.Figures)                                 | Gets the list of associated figures.                                                   |
+| [`Images`](#MeshWorkflowStepGroup.Images)                                   | Gets the list of associated images.                                                    |
+| [`InternalObject`](#MeshWorkflowStepGroup.InternalObject)                   | Gets the internal object. For advanced usage only.                                     |
+| [`NumberOfCores`](#MeshWorkflowStepGroup.NumberOfCores)                     | Defines how many CPU cores to be used in an operation (if supported by the operation). |
+| [`Properties`](#MeshWorkflowStepGroup.Properties)                           | Gets the list of properties for this object.                                           |
+| [`VisibleProperties`](#MeshWorkflowStepGroup.VisibleProperties)             | Gets the list of properties that are visible for this object.                          |
 
 <a id="property-detail"></a>
 
 ## Property detail
-
-<a id="MeshWorkflowStepGroup.InternalObject"></a>
-
-### *property* MeshWorkflowStepGroup.InternalObject *: Ansys.Common.Interop.DSObjectsAuto.IDSEngineeringModelWorkflowAuto | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets the internal object. For advanced usage only.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="MeshWorkflowStepGroup.NumberOfCores"></a>
-
-### *property* MeshWorkflowStepGroup.NumberOfCores *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Defines how many CPU cores to be used in an operation (if supported by the operation).
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="MeshWorkflowStepGroup.DataModelObjectCategory"></a>
-
-### *property* MeshWorkflowStepGroup.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets the current DataModelObject’s category.
-
-<!-- !! processed by numpydoc !! -->
 
 <a id="MeshWorkflowStepGroup.Children"></a>
 
 ### *property* MeshWorkflowStepGroup.Children *: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of children.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="MeshWorkflowStepGroup.DataModelObjectCategory"></a>
+
+### *property* MeshWorkflowStepGroup.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../v242/Ansys/Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets the current DataModelObject’s category.
 
 <!-- !! processed by numpydoc !! -->
 
@@ -106,11 +88,19 @@ Gets the list of associated images.
 
 <!-- !! processed by numpydoc !! -->
 
-<a id="id0"></a>
+<a id="MeshWorkflowStepGroup.InternalObject"></a>
 
-### *property* MeshWorkflowStepGroup.InternalObject *: System.Object | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* MeshWorkflowStepGroup.InternalObject *: Ansys.Common.Interop.DSObjectsAuto.IDSEngineeringModelWorkflowAuto | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the internal object. For advanced usage only.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="MeshWorkflowStepGroup.NumberOfCores"></a>
+
+### *property* MeshWorkflowStepGroup.NumberOfCores *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Defines how many CPU cores to be used in an operation (if supported by the operation).
 
 <!-- !! processed by numpydoc !! -->
 
@@ -134,11 +124,63 @@ Gets the list of properties that are visible for this object.
 
 ## Method detail
 
+<a id="MeshWorkflowStepGroup.Activate"></a>
+
+### MeshWorkflowStepGroup.Activate()
+
+Activate the current object.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="MeshWorkflowStepGroup.AddFigure"></a>
+
+### MeshWorkflowStepGroup.AddFigure()
+
+Creates a new child Figure.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="MeshWorkflowStepGroup.AddImage"></a>
+
+### MeshWorkflowStepGroup.AddImage(filePath: System.String)
+
+```text
+Creates a new child Image.
+If a filePath is provided, the image will be loaded from that file,
+if not, the image will be a screen capture of the Geometry window.
+```
+
+<!-- !! processed by numpydoc !! -->
+
 <a id="MeshWorkflowStepGroup.AddStep"></a>
 
-### MeshWorkflowStepGroup.AddStep(type: [Ansys.Mechanical.DataModel.MechanicalEnums.MeshWorkflow.OperationType](../../../Mechanical/DataModel/MechanicalEnums/MeshWorkflow/OperationType.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.MechanicalEnums.MeshWorkflow.OperationType))
+### MeshWorkflowStepGroup.AddStep(type: [Ansys.Mechanical.DataModel.MechanicalEnums.MeshWorkflow.OperationType](../../../../../v242/Ansys/Mechanical/DataModel/MechanicalEnums/MeshWorkflow/OperationType.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.MechanicalEnums.MeshWorkflow.OperationType))
 
 Add another operation to the sequence of steps to be executed for the mesh workflow.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="MeshWorkflowStepGroup.CopyTo"></a>
+
+### MeshWorkflowStepGroup.CopyTo(other: Ansys.ACT.Automation.Mechanical.DataModelObject)
+
+Copies all visible properties from this object to another.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="MeshWorkflowStepGroup.CreateParameter"></a>
+
+### MeshWorkflowStepGroup.CreateParameter(propName: System.String)
+
+Creates a new parameter for a Property.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="MeshWorkflowStepGroup.Delete"></a>
+
+### MeshWorkflowStepGroup.Delete()
+
+Run the Delete action.
 
 <!-- !! processed by numpydoc !! -->
 
@@ -147,6 +189,14 @@ Add another operation to the sequence of steps to be executed for the mesh workf
 ### MeshWorkflowStepGroup.DeleteAllStepsAndClearGeneratedData()
 
 Deletes all steps and reset workflow type to undefined and also resets all inactive geometry parts/bodies to active again, clears the output data, and resets the state of the child objects (“Input”, “Steps”, “Output”) to the initial state. However, any user-defined settings such as the “Input” node scoping are retained.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="MeshWorkflowStepGroup.Duplicate"></a>
+
+### MeshWorkflowStepGroup.Duplicate()
+
+Creates a copy of the current DataModelObject.
 
 <!-- !! processed by numpydoc !! -->
 
@@ -174,22 +224,6 @@ Executes any not yet ready steps up to and including the specified step.
 
 <!-- !! processed by numpydoc !! -->
 
-<a id="MeshWorkflowStepGroup.RevertToStep"></a>
-
-### MeshWorkflowStepGroup.RevertToStep(arg: System.Object)
-
-Revert to the specified step; if no checkpoint is available, then an exception will be raised.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="MeshWorkflowStepGroup.Delete"></a>
-
-### MeshWorkflowStepGroup.Delete()
-
-Run the Delete action.
-
-<!-- !! processed by numpydoc !! -->
-
 <a id="MeshWorkflowStepGroup.GetChildren"></a>
 
 ### MeshWorkflowStepGroup.GetChildren(recurses: System.Boolean, children: System.Collections.Generic.IList[ChildrenType])
@@ -198,53 +232,11 @@ Gets the list of children, filtered by type.
 
 <!-- !! processed by numpydoc !! -->
 
-<a id="id1"></a>
+<a id="MeshWorkflowStepGroup.GetParameter"></a>
 
-### MeshWorkflowStepGroup.GetChildren(category: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory), recurses: System.Boolean, children: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject])
+### MeshWorkflowStepGroup.GetParameter(propName: System.String)
 
-Gets the list of children, filtered by type.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="MeshWorkflowStepGroup.AddFigure"></a>
-
-### MeshWorkflowStepGroup.AddFigure()
-
-Creates a new child Figure.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="MeshWorkflowStepGroup.AddImage"></a>
-
-### MeshWorkflowStepGroup.AddImage(filePath: System.String)
-
-Creates a new child Image.
-If a filePath is provided, the image will be loaded from that file,
-if not, the image will be a screen capture of the Geometry window.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="MeshWorkflowStepGroup.Activate"></a>
-
-### MeshWorkflowStepGroup.Activate()
-
-Activate the current object.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="MeshWorkflowStepGroup.CopyTo"></a>
-
-### MeshWorkflowStepGroup.CopyTo(other: Ansys.ACT.Automation.Mechanical.DataModelObject)
-
-Copies all visible properties from this object to another.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="MeshWorkflowStepGroup.Duplicate"></a>
-
-### MeshWorkflowStepGroup.Duplicate()
-
-Creates a copy of the current DataModelObject.
+Gets the parameter corresponding to the given property.
 
 <!-- !! processed by numpydoc !! -->
 
@@ -264,6 +256,17 @@ Run the GroupSimilarObjects action.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="MeshWorkflowStepGroup.PropertyByAPIName"></a>
+
+### MeshWorkflowStepGroup.PropertyByAPIName(name: System.String)
+
+```text
+Get a property by its API name.
+If multiple properties have the same API Name, only the first property with that name will be returned.
+```
+
+<!-- !! processed by numpydoc !! -->
+
 <a id="MeshWorkflowStepGroup.PropertyByName"></a>
 
 ### MeshWorkflowStepGroup.PropertyByName(name: System.String)
@@ -272,36 +275,19 @@ Get a property by its unique name.
 
 <!-- !! processed by numpydoc !! -->
 
-<a id="MeshWorkflowStepGroup.PropertyByAPIName"></a>
-
-### MeshWorkflowStepGroup.PropertyByAPIName(name: System.String)
-
-Get a property by its API name.
-If multiple properties have the same API Name, only the first property with that name will be returned.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="MeshWorkflowStepGroup.CreateParameter"></a>
-
-### MeshWorkflowStepGroup.CreateParameter(propName: System.String)
-
-Creates a new parameter for a Property.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="MeshWorkflowStepGroup.GetParameter"></a>
-
-### MeshWorkflowStepGroup.GetParameter(propName: System.String)
-
-Gets the parameter corresponding to the given property.
-
-<!-- !! processed by numpydoc !! -->
-
 <a id="MeshWorkflowStepGroup.RemoveParameter"></a>
 
 ### MeshWorkflowStepGroup.RemoveParameter(propName: System.String)
 
 Removes the parameter from the parameter set corresponding to the given property.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="MeshWorkflowStepGroup.RevertToStep"></a>
+
+### MeshWorkflowStepGroup.RevertToStep(arg: System.Object)
+
+Revert to the specified step; if no checkpoint is available, then an exception will be raised.
 
 <!-- !! processed by numpydoc !! -->
 

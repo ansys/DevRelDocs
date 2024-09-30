@@ -1,6 +1,6 @@
 # `Symmetry`
 
-
+<a id="ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Symmetry"></a>
 
 #### *class* ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Symmetry
 
@@ -17,65 +17,47 @@ Defines a Symmetry.
 ### Methods
 
 | Name | Description |
-|---------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------|
-| [`AddLinearPeriodicRegion`](../../../../../v242/Ansys/ACT/Automation/Mechanical/Symmetry.md#Symmetry.AddLinearPeriodicRegion)   | Creates a new SymmetryRegion                                                      |
-| [`AddCyclicRegion`](../../../../../v242/Ansys/ACT/Automation/Mechanical/Symmetry.md#Symmetry.AddCyclicRegion)                   | Creates a new CyclicRegion                                                        |
-| [`AddGeneralAxisymmetric`](../../../../../v242/Ansys/ACT/Automation/Mechanical/Symmetry.md#Symmetry.AddGeneralAxisymmetric)     | Creates a new GeneralAxisymmetric                                                 |
-| [`AddPeriodicRegion`](../../../../../v242/Ansys/ACT/Automation/Mechanical/Symmetry.md#Symmetry.AddPeriodicRegion)               | Creates a new PeriodicRegion                                                      |
-| [`AddPreMeshedCyclicRegion`](../../../../../v242/Ansys/ACT/Automation/Mechanical/Symmetry.md#Symmetry.AddPreMeshedCyclicRegion) | Creates a new PreMeshedCyclicRegion                                               |
-| [`AddStage`](../../../../../v242/Ansys/ACT/Automation/Mechanical/Symmetry.md#Symmetry.AddStage)                                 | Creates a new Stage                                                               |
-| [`AddSymmetryRegion`](../../../../../v242/Ansys/ACT/Automation/Mechanical/Symmetry.md#Symmetry.AddSymmetryRegion)               | Creates a new SymmetryRegion                                                      |
-| [`Delete`](../../../../../v242/Ansys/ACT/Automation/Mechanical/Symmetry.md#Symmetry.Delete)                                     | Run the Delete action.                                                            |
-| [`GetChildren`](../../../../../v242/Ansys/ACT/Automation/Mechanical/Symmetry.md#id1)                                            | Gets the list of children, filtered by type.                                      |
-| [`GetChildren`](../../../../../v242/Ansys/ACT/Automation/Mechanical/Symmetry.md#id1)                                            | Gets the list of children, filtered by type.                                      |
-| [`AddComment`](../../../../../v242/Ansys/ACT/Automation/Mechanical/Symmetry.md#Symmetry.AddComment)                             | Creates a new child Comment.                                                      |
-| [`AddFigure`](../../../../../v242/Ansys/ACT/Automation/Mechanical/Symmetry.md#Symmetry.AddFigure)                               | Creates a new child Figure.                                                       |
-| [`AddImage`](../../../../../v242/Ansys/ACT/Automation/Mechanical/Symmetry.md#Symmetry.AddImage)                                 | Creates a new child Image.                                                        |
-| [`Activate`](../../../../../v242/Ansys/ACT/Automation/Mechanical/Symmetry.md#Symmetry.Activate)                                 | Activate the current object.                                                      |
-| [`CopyTo`](../../../../../v242/Ansys/ACT/Automation/Mechanical/Symmetry.md#Symmetry.CopyTo)                                     | Copies all visible properties from this object to another.                        |
-| [`Duplicate`](../../../../../v242/Ansys/ACT/Automation/Mechanical/Symmetry.md#Symmetry.Duplicate)                               | Creates a copy of the current DataModelObject.                                    |
-| [`GroupAllSimilarChildren`](../../../../../v242/Ansys/ACT/Automation/Mechanical/Symmetry.md#Symmetry.GroupAllSimilarChildren)   | Run the GroupAllSimilarChildren action.                                           |
-| [`GroupSimilarObjects`](../../../../../v242/Ansys/ACT/Automation/Mechanical/Symmetry.md#Symmetry.GroupSimilarObjects)           | Run the GroupSimilarObjects action.                                               |
-| [`PropertyByName`](../../../../../v242/Ansys/ACT/Automation/Mechanical/Symmetry.md#Symmetry.PropertyByName)                     | Get a property by its unique name.                                                |
-| [`PropertyByAPIName`](../../../../../v242/Ansys/ACT/Automation/Mechanical/Symmetry.md#Symmetry.PropertyByAPIName)               | Get a property by its API name.                                                   |
-| [`CreateParameter`](../../../../../v242/Ansys/ACT/Automation/Mechanical/Symmetry.md#Symmetry.CreateParameter)                   | Creates a new parameter for a Property.                                           |
-| [`GetParameter`](../../../../../v242/Ansys/ACT/Automation/Mechanical/Symmetry.md#Symmetry.GetParameter)                         | Gets the parameter corresponding to the given property.                           |
-| [`RemoveParameter`](../../../../../v242/Ansys/ACT/Automation/Mechanical/Symmetry.md#Symmetry.RemoveParameter)                   | Removes the parameter from the parameter set corresponding to the given property. |
+|------------------------------------------------------------------|-----------------------------------------------------------------------------------|
+| [`Activate`](#Symmetry.Activate)                                 | Activate the current object.                                                      |
+| [`AddComment`](#Symmetry.AddComment)                             | Creates a new child Comment.                                                      |
+| [`AddCyclicRegion`](#Symmetry.AddCyclicRegion)                   | Creates a new CyclicRegion                                                        |
+| [`AddFigure`](#Symmetry.AddFigure)                               | Creates a new child Figure.                                                       |
+| [`AddGeneralAxisymmetric`](#Symmetry.AddGeneralAxisymmetric)     | Creates a new GeneralAxisymmetric                                                 |
+| [`AddImage`](#Symmetry.AddImage)                                 | Creates a new child Image.                                                        |
+| [`AddLinearPeriodicRegion`](#Symmetry.AddLinearPeriodicRegion)   | Creates a new SymmetryRegion                                                      |
+| [`AddPeriodicRegion`](#Symmetry.AddPeriodicRegion)               | Creates a new PeriodicRegion                                                      |
+| [`AddPreMeshedCyclicRegion`](#Symmetry.AddPreMeshedCyclicRegion) | Creates a new PreMeshedCyclicRegion                                               |
+| [`AddStage`](#Symmetry.AddStage)                                 | Creates a new Stage                                                               |
+| [`AddSymmetryRegion`](#Symmetry.AddSymmetryRegion)               | Creates a new SymmetryRegion                                                      |
+| [`CopyTo`](#Symmetry.CopyTo)                                     | Copies all visible properties from this object to another.                        |
+| [`CreateParameter`](#Symmetry.CreateParameter)                   | Creates a new parameter for a Property.                                           |
+| [`Delete`](#Symmetry.Delete)                                     | Run the Delete action.                                                            |
+| [`Duplicate`](#Symmetry.Duplicate)                               | Creates a copy of the current DataModelObject.                                    |
+| [`GetChildren`](#Symmetry.GetChildren)                           | Gets the list of children, filtered by type.                                      |
+| [`GetParameter`](#Symmetry.GetParameter)                         | Gets the parameter corresponding to the given property.                           |
+| [`GroupAllSimilarChildren`](#Symmetry.GroupAllSimilarChildren)   | Run the GroupAllSimilarChildren action.                                           |
+| [`GroupSimilarObjects`](#Symmetry.GroupSimilarObjects)           | Run the GroupSimilarObjects action.                                               |
+| [`PropertyByAPIName`](#Symmetry.PropertyByAPIName)               | Get a property by its API name.                                                   |
+| [`PropertyByName`](#Symmetry.PropertyByName)                     | Get a property by its unique name.                                                |
+| [`RemoveParameter`](#Symmetry.RemoveParameter)                   | Removes the parameter from the parameter set corresponding to the given property. |
 
 ### Properties
 
 | Name | Description |
-|-------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------|
-| [`InternalObject`](../../../../../v242/Ansys/ACT/Automation/Mechanical/Symmetry.md#id0)                                       | Gets the internal object. For advanced usage only.            |
-| [`DataModelObjectCategory`](../../../../../v242/Ansys/ACT/Automation/Mechanical/Symmetry.md#Symmetry.DataModelObjectCategory) | Gets the current DataModelObject's category.                  |
-| [`Children`](../../../../../v242/Ansys/ACT/Automation/Mechanical/Symmetry.md#Symmetry.Children)                               | Gets the list of children.                                    |
-| [`Comments`](../../../../../v242/Ansys/ACT/Automation/Mechanical/Symmetry.md#Symmetry.Comments)                               | Gets the list of associated comments.                         |
-| [`Figures`](../../../../../v242/Ansys/ACT/Automation/Mechanical/Symmetry.md#Symmetry.Figures)                                 | Gets the list of associated figures.                          |
-| [`Images`](../../../../../v242/Ansys/ACT/Automation/Mechanical/Symmetry.md#Symmetry.Images)                                   | Gets the list of associated images.                           |
-| [`ReadOnly`](../../../../../v242/Ansys/ACT/Automation/Mechanical/Symmetry.md#Symmetry.ReadOnly)                               | Gets or sets the ReadOnly.                                    |
-| [`InternalObject`](../../../../../v242/Ansys/ACT/Automation/Mechanical/Symmetry.md#id0)                                       | Gets the internal object. For advanced usage only.            |
-| [`Properties`](../../../../../v242/Ansys/ACT/Automation/Mechanical/Symmetry.md#Symmetry.Properties)                           | Gets the list of properties for this object.                  |
-| [`VisibleProperties`](../../../../../v242/Ansys/ACT/Automation/Mechanical/Symmetry.md#Symmetry.VisibleProperties)             | Gets the list of properties that are visible for this object. |
+|----------------------------------------------------------------|---------------------------------------------------------------|
+| [`Children`](#Symmetry.Children)                               | Gets the list of children.                                    |
+| [`Comments`](#Symmetry.Comments)                               | Gets the list of associated comments.                         |
+| [`DataModelObjectCategory`](#Symmetry.DataModelObjectCategory) | Gets the current DataModelObject’s category.                  |
+| [`Figures`](#Symmetry.Figures)                                 | Gets the list of associated figures.                          |
+| [`Images`](#Symmetry.Images)                                   | Gets the list of associated images.                           |
+| [`InternalObject`](#Symmetry.InternalObject)                   | Gets the internal object. For advanced usage only.            |
+| [`Properties`](#Symmetry.Properties)                           | Gets the list of properties for this object.                  |
+| [`ReadOnly`](#Symmetry.ReadOnly)                               | Gets or sets the ReadOnly.                                    |
+| [`VisibleProperties`](#Symmetry.VisibleProperties)             | Gets the list of properties that are visible for this object. |
 
 <a id="property-detail"></a>
 
 ## Property detail
-
-<a id="Symmetry.InternalObject"></a>
-
-### *property* Symmetry.InternalObject *: Ansys.Common.Interop.DSObjectsAuto.IDSSymmetryGroupAuto | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets the internal object. For advanced usage only.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="Symmetry.DataModelObjectCategory"></a>
-
-### *property* Symmetry.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets the current DataModelObject's category.
-
-<!-- !! processed by numpydoc !! -->
 
 <a id="Symmetry.Children"></a>
 
@@ -90,6 +72,14 @@ Gets the list of children.
 ### *property* Symmetry.Comments *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Comment](Comment.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated comments.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="Symmetry.DataModelObjectCategory"></a>
+
+### *property* Symmetry.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../v242/Ansys/Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets the current DataModelObject’s category.
 
 <!-- !! processed by numpydoc !! -->
 
@@ -109,17 +99,9 @@ Gets the list of associated images.
 
 <!-- !! processed by numpydoc !! -->
 
-<a id="Symmetry.ReadOnly"></a>
+<a id="Symmetry.InternalObject"></a>
 
-### *property* Symmetry.ReadOnly *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the ReadOnly.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="id0"></a>
-
-### *property* Symmetry.InternalObject *: System.Object | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Symmetry.InternalObject *: Ansys.Common.Interop.DSObjectsAuto.IDSSymmetryGroupAuto | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the internal object. For advanced usage only.
 
@@ -130,6 +112,14 @@ Gets the internal object. For advanced usage only.
 ### *property* Symmetry.Properties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of properties for this object.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="Symmetry.ReadOnly"></a>
+
+### *property* Symmetry.ReadOnly *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the ReadOnly.
 
 <!-- !! processed by numpydoc !! -->
 
@@ -145,11 +135,19 @@ Gets the list of properties that are visible for this object.
 
 ## Method detail
 
-<a id="Symmetry.AddLinearPeriodicRegion"></a>
+<a id="Symmetry.Activate"></a>
 
-### Symmetry.AddLinearPeriodicRegion()
+### Symmetry.Activate()
 
-Creates a new SymmetryRegion
+Activate the current object.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="Symmetry.AddComment"></a>
+
+### Symmetry.AddComment()
+
+Creates a new child Comment.
 
 <!-- !! processed by numpydoc !! -->
 
@@ -161,11 +159,39 @@ Creates a new CyclicRegion
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="Symmetry.AddFigure"></a>
+
+### Symmetry.AddFigure()
+
+Creates a new child Figure.
+
+<!-- !! processed by numpydoc !! -->
+
 <a id="Symmetry.AddGeneralAxisymmetric"></a>
 
 ### Symmetry.AddGeneralAxisymmetric()
 
 Creates a new GeneralAxisymmetric
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="Symmetry.AddImage"></a>
+
+### Symmetry.AddImage(filePath: System.String)
+
+```text
+Creates a new child Image.
+If a filePath is provided, the image will be loaded from that file,
+if not, the image will be a screen capture of the Geometry window.
+```
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="Symmetry.AddLinearPeriodicRegion"></a>
+
+### Symmetry.AddLinearPeriodicRegion()
+
+Creates a new SymmetryRegion
 
 <!-- !! processed by numpydoc !! -->
 
@@ -201,11 +227,35 @@ Creates a new SymmetryRegion
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="Symmetry.CopyTo"></a>
+
+### Symmetry.CopyTo(other: Ansys.ACT.Automation.Mechanical.DataModelObject)
+
+Copies all visible properties from this object to another.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="Symmetry.CreateParameter"></a>
+
+### Symmetry.CreateParameter(propName: System.String)
+
+Creates a new parameter for a Property.
+
+<!-- !! processed by numpydoc !! -->
+
 <a id="Symmetry.Delete"></a>
 
 ### Symmetry.Delete()
 
 Run the Delete action.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="Symmetry.Duplicate"></a>
+
+### Symmetry.Duplicate()
+
+Creates a copy of the current DataModelObject.
 
 <!-- !! processed by numpydoc !! -->
 
@@ -217,61 +267,11 @@ Gets the list of children, filtered by type.
 
 <!-- !! processed by numpydoc !! -->
 
-<a id="id1"></a>
+<a id="Symmetry.GetParameter"></a>
 
-### Symmetry.GetChildren(category: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory), recurses: System.Boolean, children: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject])
+### Symmetry.GetParameter(propName: System.String)
 
-Gets the list of children, filtered by type.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="Symmetry.AddComment"></a>
-
-### Symmetry.AddComment()
-
-Creates a new child Comment.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="Symmetry.AddFigure"></a>
-
-### Symmetry.AddFigure()
-
-Creates a new child Figure.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="Symmetry.AddImage"></a>
-
-### Symmetry.AddImage(filePath: System.String)
-
-Creates a new child Image.
-If a filePath is provided, the image will be loaded from that file,
-if not, the image will be a screen capture of the Geometry window.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="Symmetry.Activate"></a>
-
-### Symmetry.Activate()
-
-Activate the current object.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="Symmetry.CopyTo"></a>
-
-### Symmetry.CopyTo(other: Ansys.ACT.Automation.Mechanical.DataModelObject)
-
-Copies all visible properties from this object to another.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="Symmetry.Duplicate"></a>
-
-### Symmetry.Duplicate()
-
-Creates a copy of the current DataModelObject.
+Gets the parameter corresponding to the given property.
 
 <!-- !! processed by numpydoc !! -->
 
@@ -291,36 +291,22 @@ Run the GroupSimilarObjects action.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="Symmetry.PropertyByAPIName"></a>
+
+### Symmetry.PropertyByAPIName(name: System.String)
+
+```text
+Get a property by its API name.
+If multiple properties have the same API Name, only the first property with that name will be returned.
+```
+
+<!-- !! processed by numpydoc !! -->
+
 <a id="Symmetry.PropertyByName"></a>
 
 ### Symmetry.PropertyByName(name: System.String)
 
 Get a property by its unique name.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="Symmetry.PropertyByAPIName"></a>
-
-### Symmetry.PropertyByAPIName(name: System.String)
-
-Get a property by its API name.
-If multiple properties have the same API Name, only the first property with that name will be returned.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="Symmetry.CreateParameter"></a>
-
-### Symmetry.CreateParameter(propName: System.String)
-
-Creates a new parameter for a Property.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="Symmetry.GetParameter"></a>
-
-### Symmetry.GetParameter(propName: System.String)
-
-Gets the parameter corresponding to the given property.
 
 <!-- !! processed by numpydoc !! -->
 

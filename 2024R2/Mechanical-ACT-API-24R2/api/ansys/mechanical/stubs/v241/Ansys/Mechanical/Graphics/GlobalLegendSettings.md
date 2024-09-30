@@ -1,6 +1,6 @@
 # `GlobalLegendSettings`
 
-
+<a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.Graphics.GlobalLegendSettings"></a>
 
 #### *class* ansys.mechanical.stubs.v241.Ansys.Mechanical.Graphics.GlobalLegendSettings
 
@@ -17,11 +17,11 @@ Defines global legend settings.
 ### Properties
 
 | Name | Description |
-|----------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------|
-| [`LegendOrientation`](../../../../v242/Ansys/Mechanical/Graphics/GlobalLegendSettings.md#GlobalLegendSettings.LegendOrientation)       | Whether the orientation of the legend.             |
-| [`ShowDateAndTime`](../../../../v242/Ansys/Mechanical/Graphics/GlobalLegendSettings.md#GlobalLegendSettings.ShowDateAndTime)           | Whether the  date and time of the legend is shown. |
-| [`ShowMinMax`](../../../../v242/Ansys/Mechanical/Graphics/GlobalLegendSettings.md#GlobalLegendSettings.ShowMinMax)                     | Whether the Min and Max value are shown.           |
-| [`ShowDeformingScaling`](../../../../v242/Ansys/Mechanical/Graphics/GlobalLegendSettings.md#GlobalLegendSettings.ShowDeformingScaling) | Whether the Deformation Scaling is shown.          |
+|----------------------------------------------------------------------|----------------------------------------------------|
+| [`LegendOrientation`](#GlobalLegendSettings.LegendOrientation)       | Whether the orientation of the legend.             |
+| [`ShowDateAndTime`](#GlobalLegendSettings.ShowDateAndTime)           | Whether the  date and time of the legend is shown. |
+| [`ShowDeformingScaling`](#GlobalLegendSettings.ShowDeformingScaling) | Whether the Deformation Scaling is shown.          |
+| [`ShowMinMax`](#GlobalLegendSettings.ShowMinMax)                     | Whether the Min and Max value are shown.           |
 
 <a id="property-detail"></a>
 
@@ -29,7 +29,7 @@ Defines global legend settings.
 
 <a id="GlobalLegendSettings.LegendOrientation"></a>
 
-### *property* GlobalLegendSettings.LegendOrientation *: [Ansys.Mechanical.DataModel.Enums.LegendOrientationType](../DataModel/Enums/LegendOrientationType.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.LegendOrientationType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* GlobalLegendSettings.LegendOrientation *: [Ansys.Mechanical.DataModel.Enums.LegendOrientationType](../../../../v242/Ansys/Mechanical/DataModel/Enums/LegendOrientationType.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.LegendOrientationType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Whether the orientation of the legend.
 
@@ -43,19 +43,19 @@ Whether the  date and time of the legend is shown.
 
 <!-- !! processed by numpydoc !! -->
 
-<a id="GlobalLegendSettings.ShowMinMax"></a>
-
-### *property* GlobalLegendSettings.ShowMinMax *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Whether the Min and Max value are shown.
-
-<!-- !! processed by numpydoc !! -->
-
 <a id="GlobalLegendSettings.ShowDeformingScaling"></a>
 
 ### *property* GlobalLegendSettings.ShowDeformingScaling *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Whether the Deformation Scaling is shown.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="GlobalLegendSettings.ShowMinMax"></a>
+
+### *property* GlobalLegendSettings.ShowMinMax *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Whether the Min and Max value are shown.
 
 <!-- !! processed by numpydoc !! -->
 

@@ -1,6 +1,6 @@
 # `AcousticRadiationBoundary`
 
-
+<a id="ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.BoundaryConditions.AcousticRadiationBoundary"></a>
 
 #### *class* ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.BoundaryConditions.AcousticRadiationBoundary
 
@@ -17,86 +17,44 @@ Defines a AcousticRadiationBoundary.
 ### Methods
 
 | Name | Description |
-|-----------------------------------------------------------------------------------|-----------------------------------------------------------------------------------|
-| [`PromoteToNamedSelection`](#AcousticRadiationBoundary.PromoteToNamedSelection)   | Run the PromoteToNamedSelection action.                                           |
-| [`Delete`](#AcousticRadiationBoundary.Delete)                                     | Run the Delete action.                                                            |
-| [`GetChildren`](#id1)                                                             | Gets the list of children, filtered by type.                                      |
-| [`GetChildren`](#id1)                                                             | Gets the list of children, filtered by type.                                      |
-| [`AddComment`](#AcousticRadiationBoundary.AddComment)                             | Creates a new child Comment.                                                      |
-| [`AddFigure`](#AcousticRadiationBoundary.AddFigure)                               | Creates a new child Figure.                                                       |
-| [`AddImage`](#AcousticRadiationBoundary.AddImage)                                 | Creates a new child Image.                                                        |
-| [`Activate`](#AcousticRadiationBoundary.Activate)                                 | Activate the current object.                                                      |
-| [`CopyTo`](#AcousticRadiationBoundary.CopyTo)                                     | Copies all visible properties from this object to another.                        |
-| [`Duplicate`](#AcousticRadiationBoundary.Duplicate)                               | Creates a copy of the current DataModelObject.                                    |
-| [`GroupAllSimilarChildren`](#AcousticRadiationBoundary.GroupAllSimilarChildren)   | Run the GroupAllSimilarChildren action.                                           |
-| [`GroupSimilarObjects`](#AcousticRadiationBoundary.GroupSimilarObjects)           | Run the GroupSimilarObjects action.                                               |
-| [`PropertyByName`](#AcousticRadiationBoundary.PropertyByName)                     | Get a property by its unique name.                                                |
-| [`PropertyByAPIName`](#AcousticRadiationBoundary.PropertyByAPIName)               | Get a property by its API name.                                                   |
-| [`CreateParameter`](#AcousticRadiationBoundary.CreateParameter)                   | Creates a new parameter for a Property.                                           |
-| [`GetParameter`](#AcousticRadiationBoundary.GetParameter)                         | Gets the parameter corresponding to the given property.                           |
-| [`RemoveParameter`](#AcousticRadiationBoundary.RemoveParameter)                   | Removes the parameter from the parameter set corresponding to the given property. |
+|---------------------------------------------------------------------------------|-----------------------------------------------------------------------------------|
+| [`Activate`](#AcousticRadiationBoundary.Activate)                               | Activate the current object.                                                      |
+| [`AddComment`](#AcousticRadiationBoundary.AddComment)                           | Creates a new child Comment.                                                      |
+| [`AddFigure`](#AcousticRadiationBoundary.AddFigure)                             | Creates a new child Figure.                                                       |
+| [`AddImage`](#AcousticRadiationBoundary.AddImage)                               | Creates a new child Image.                                                        |
+| [`CopyTo`](#AcousticRadiationBoundary.CopyTo)                                   | Copies all visible properties from this object to another.                        |
+| [`CreateParameter`](#AcousticRadiationBoundary.CreateParameter)                 | Creates a new parameter for a Property.                                           |
+| [`Delete`](#AcousticRadiationBoundary.Delete)                                   | Run the Delete action.                                                            |
+| [`Duplicate`](#AcousticRadiationBoundary.Duplicate)                             | Creates a copy of the current DataModelObject.                                    |
+| [`GetChildren`](#AcousticRadiationBoundary.GetChildren)                         | Gets the list of children, filtered by type.                                      |
+| [`GetParameter`](#AcousticRadiationBoundary.GetParameter)                       | Gets the parameter corresponding to the given property.                           |
+| [`GroupAllSimilarChildren`](#AcousticRadiationBoundary.GroupAllSimilarChildren) | Run the GroupAllSimilarChildren action.                                           |
+| [`GroupSimilarObjects`](#AcousticRadiationBoundary.GroupSimilarObjects)         | Run the GroupSimilarObjects action.                                               |
+| [`PromoteToNamedSelection`](#AcousticRadiationBoundary.PromoteToNamedSelection) | Run the PromoteToNamedSelection action.                                           |
+| [`PropertyByAPIName`](#AcousticRadiationBoundary.PropertyByAPIName)             | Get a property by its API name.                                                   |
+| [`PropertyByName`](#AcousticRadiationBoundary.PropertyByName)                   | Get a property by its unique name.                                                |
+| [`RemoveParameter`](#AcousticRadiationBoundary.RemoveParameter)                 | Removes the parameter from the parameter set corresponding to the given property. |
 
 ### Properties
 
 | Name | Description |
 |---------------------------------------------------------------------------------|---------------------------------------------------------------|
-| [`InternalObject`](#id0)                                                        | Gets the internal object. For advanced usage only.            |
-| [`Location`](#AcousticRadiationBoundary.Location)                               | Gets or sets the Location.                                    |
-| [`DataModelObjectCategory`](#AcousticRadiationBoundary.DataModelObjectCategory) | Gets the current DataModelObject's category.                  |
-| [`Suppressed`](#AcousticRadiationBoundary.Suppressed)                           | Gets or sets the Suppressed.                                  |
-| [`SharedRefBody`](#AcousticRadiationBoundary.SharedRefBody)                     | Gets or sets the SharedRefBody.                               |
 | [`Children`](#AcousticRadiationBoundary.Children)                               | Gets the list of children.                                    |
 | [`Comments`](#AcousticRadiationBoundary.Comments)                               | Gets the list of associated comments.                         |
+| [`DataModelObjectCategory`](#AcousticRadiationBoundary.DataModelObjectCategory) | Gets the current DataModelObject’s category.                  |
 | [`Figures`](#AcousticRadiationBoundary.Figures)                                 | Gets the list of associated figures.                          |
 | [`Images`](#AcousticRadiationBoundary.Images)                                   | Gets the list of associated images.                           |
-| [`ReadOnly`](#AcousticRadiationBoundary.ReadOnly)                               | Gets or sets the ReadOnly.                                    |
-| [`InternalObject`](#id0)                                                        | Gets the internal object. For advanced usage only.            |
+| [`InternalObject`](#AcousticRadiationBoundary.InternalObject)                   | Gets the internal object. For advanced usage only.            |
+| [`Location`](#AcousticRadiationBoundary.Location)                               | Gets or sets the Location.                                    |
 | [`Properties`](#AcousticRadiationBoundary.Properties)                           | Gets the list of properties for this object.                  |
+| [`ReadOnly`](#AcousticRadiationBoundary.ReadOnly)                               | Gets or sets the ReadOnly.                                    |
+| [`SharedRefBody`](#AcousticRadiationBoundary.SharedRefBody)                     | Gets or sets the SharedRefBody.                               |
+| [`Suppressed`](#AcousticRadiationBoundary.Suppressed)                           | Gets or sets the Suppressed.                                  |
 | [`VisibleProperties`](#AcousticRadiationBoundary.VisibleProperties)             | Gets the list of properties that are visible for this object. |
 
 <a id="property-detail"></a>
 
 ## Property detail
-
-<a id="AcousticRadiationBoundary.InternalObject"></a>
-
-### *property* AcousticRadiationBoundary.InternalObject *: Ansys.Common.Interop.DSObjectsAuto.IDSLoadAuto | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets the internal object. For advanced usage only.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="AcousticRadiationBoundary.Location"></a>
-
-### *property* AcousticRadiationBoundary.Location *: Ansys.ACT.Interfaces.Common.ISelectionInfo | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the Location.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="AcousticRadiationBoundary.DataModelObjectCategory"></a>
-
-### *property* AcousticRadiationBoundary.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../../v241/Ansys/Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets the current DataModelObject's category.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="AcousticRadiationBoundary.Suppressed"></a>
-
-### *property* AcousticRadiationBoundary.Suppressed *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the Suppressed.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="AcousticRadiationBoundary.SharedRefBody"></a>
-
-### *property* AcousticRadiationBoundary.SharedRefBody *: [Ansys.ACT.Automation.Mechanical.Body](../../../../../../v241/Ansys/ACT/Automation/Mechanical/Body.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Body) | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the SharedRefBody.
-
-<!-- !! processed by numpydoc !! -->
 
 <a id="AcousticRadiationBoundary.Children"></a>
 
@@ -111,6 +69,14 @@ Gets the list of children.
 ### *property* AcousticRadiationBoundary.Comments *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Comment](../../../../../../v241/Ansys/ACT/Automation/Mechanical/Comment.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated comments.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="AcousticRadiationBoundary.DataModelObjectCategory"></a>
+
+### *property* AcousticRadiationBoundary.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets the current DataModelObject’s category.
 
 <!-- !! processed by numpydoc !! -->
 
@@ -130,19 +96,19 @@ Gets the list of associated images.
 
 <!-- !! processed by numpydoc !! -->
 
-<a id="AcousticRadiationBoundary.ReadOnly"></a>
+<a id="AcousticRadiationBoundary.InternalObject"></a>
 
-### *property* AcousticRadiationBoundary.ReadOnly *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AcousticRadiationBoundary.InternalObject *: Ansys.Common.Interop.DSObjectsAuto.IDSLoadAuto | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets or sets the ReadOnly.
+Gets the internal object. For advanced usage only.
 
 <!-- !! processed by numpydoc !! -->
 
-<a id="id0"></a>
+<a id="AcousticRadiationBoundary.Location"></a>
 
-### *property* AcousticRadiationBoundary.InternalObject *: System.Object | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AcousticRadiationBoundary.Location *: Ansys.ACT.Interfaces.Common.ISelectionInfo | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets the internal object. For advanced usage only.
+Gets or sets the Location.
 
 <!-- !! processed by numpydoc !! -->
 
@@ -151,6 +117,30 @@ Gets the internal object. For advanced usage only.
 ### *property* AcousticRadiationBoundary.Properties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of properties for this object.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="AcousticRadiationBoundary.ReadOnly"></a>
+
+### *property* AcousticRadiationBoundary.ReadOnly *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the ReadOnly.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="AcousticRadiationBoundary.SharedRefBody"></a>
+
+### *property* AcousticRadiationBoundary.SharedRefBody *: [Ansys.ACT.Automation.Mechanical.Body](../../../../../../v241/Ansys/ACT/Automation/Mechanical/Body.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Body) | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the SharedRefBody.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="AcousticRadiationBoundary.Suppressed"></a>
+
+### *property* AcousticRadiationBoundary.Suppressed *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the Suppressed.
 
 <!-- !! processed by numpydoc !! -->
 
@@ -166,35 +156,11 @@ Gets the list of properties that are visible for this object.
 
 ## Method detail
 
-<a id="AcousticRadiationBoundary.PromoteToNamedSelection"></a>
+<a id="AcousticRadiationBoundary.Activate"></a>
 
-### AcousticRadiationBoundary.PromoteToNamedSelection()
+### AcousticRadiationBoundary.Activate()
 
-Run the PromoteToNamedSelection action.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="AcousticRadiationBoundary.Delete"></a>
-
-### AcousticRadiationBoundary.Delete()
-
-Run the Delete action.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="AcousticRadiationBoundary.GetChildren"></a>
-
-### AcousticRadiationBoundary.GetChildren(recurses: System.Boolean, children: System.Collections.Generic.IList[ChildrenType])
-
-Gets the list of children, filtered by type.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="id1"></a>
-
-### AcousticRadiationBoundary.GetChildren(category: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../../v241/Ansys/Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory), recurses: System.Boolean, children: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject])
-
-Gets the list of children, filtered by type.
+Activate the current object.
 
 <!-- !! processed by numpydoc !! -->
 
@@ -218,17 +184,11 @@ Creates a new child Figure.
 
 ### AcousticRadiationBoundary.AddImage(filePath: System.String)
 
+```text
 Creates a new child Image.
 If a filePath is provided, the image will be loaded from that file,
 if not, the image will be a screen capture of the Geometry window.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="AcousticRadiationBoundary.Activate"></a>
-
-### AcousticRadiationBoundary.Activate()
-
-Activate the current object.
+```
 
 <!-- !! processed by numpydoc !! -->
 
@@ -240,11 +200,43 @@ Copies all visible properties from this object to another.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="AcousticRadiationBoundary.CreateParameter"></a>
+
+### AcousticRadiationBoundary.CreateParameter(propName: System.String)
+
+Creates a new parameter for a Property.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="AcousticRadiationBoundary.Delete"></a>
+
+### AcousticRadiationBoundary.Delete()
+
+Run the Delete action.
+
+<!-- !! processed by numpydoc !! -->
+
 <a id="AcousticRadiationBoundary.Duplicate"></a>
 
 ### AcousticRadiationBoundary.Duplicate()
 
 Creates a copy of the current DataModelObject.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="AcousticRadiationBoundary.GetChildren"></a>
+
+### AcousticRadiationBoundary.GetChildren(recurses: System.Boolean, children: System.Collections.Generic.IList[ChildrenType])
+
+Gets the list of children, filtered by type.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="AcousticRadiationBoundary.GetParameter"></a>
+
+### AcousticRadiationBoundary.GetParameter(propName: System.String)
+
+Gets the parameter corresponding to the given property.
 
 <!-- !! processed by numpydoc !! -->
 
@@ -264,11 +256,11 @@ Run the GroupSimilarObjects action.
 
 <!-- !! processed by numpydoc !! -->
 
-<a id="AcousticRadiationBoundary.PropertyByName"></a>
+<a id="AcousticRadiationBoundary.PromoteToNamedSelection"></a>
 
-### AcousticRadiationBoundary.PropertyByName(name: System.String)
+### AcousticRadiationBoundary.PromoteToNamedSelection()
 
-Get a property by its unique name.
+Run the PromoteToNamedSelection action.
 
 <!-- !! processed by numpydoc !! -->
 
@@ -276,24 +268,18 @@ Get a property by its unique name.
 
 ### AcousticRadiationBoundary.PropertyByAPIName(name: System.String)
 
+```text
 Get a property by its API name.
 If multiple properties have the same API Name, only the first property with that name will be returned.
+```
 
 <!-- !! processed by numpydoc !! -->
 
-<a id="AcousticRadiationBoundary.CreateParameter"></a>
+<a id="AcousticRadiationBoundary.PropertyByName"></a>
 
-### AcousticRadiationBoundary.CreateParameter(propName: System.String)
+### AcousticRadiationBoundary.PropertyByName(name: System.String)
 
-Creates a new parameter for a Property.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="AcousticRadiationBoundary.GetParameter"></a>
-
-### AcousticRadiationBoundary.GetParameter(propName: System.String)
-
-Gets the parameter corresponding to the given property.
+Get a property by its unique name.
 
 <!-- !! processed by numpydoc !! -->
 

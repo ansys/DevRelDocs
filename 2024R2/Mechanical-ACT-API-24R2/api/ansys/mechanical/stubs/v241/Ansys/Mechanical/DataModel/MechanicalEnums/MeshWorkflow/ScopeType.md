@@ -1,6 +1,6 @@
 # `ScopeType`
 
-
+<a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.MechanicalEnums.MeshWorkflow.ScopeType"></a>
 
 #### *class* ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.MechanicalEnums.MeshWorkflow.ScopeType
 
@@ -17,10 +17,10 @@ To select the MeshWorkflow Process Entity Type.
 ### Attributes
 
 | Name |
-| -------------------------------------------------------------------------------------------------------------------------- |
-| [`Label`](../../../../../../v242/Ansys/Mechanical/DataModel/MechanicalEnums/MeshWorkflow/ScopeType.md#ScopeType.Label) |
-| [`Part`](../../../../../../v242/Ansys/Mechanical/DataModel/MechanicalEnums/MeshWorkflow/ScopeType.md#ScopeType.Part) |
-| [`Zone`](../../../../../../v242/Ansys/Mechanical/DataModel/MechanicalEnums/MeshWorkflow/ScopeType.md#ScopeType.Zone) |
+| ------------------------------- |
+| [`Label`](#ScopeType.Label) |
+| [`Part`](#ScopeType.Part) |
+| [`Zone`](#ScopeType.Zone) |
 
 <a id="attribute-detail"></a>
 

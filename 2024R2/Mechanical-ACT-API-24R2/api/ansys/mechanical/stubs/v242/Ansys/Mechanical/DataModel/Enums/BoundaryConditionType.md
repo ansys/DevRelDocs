@@ -1,6 +1,6 @@
 # `BoundaryConditionType`
 
-
+<a id="ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.BoundaryConditionType"></a>
 
 #### *class* ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.BoundaryConditionType
 
@@ -17,7 +17,7 @@ Specifies the BoundaryConditionType.
 ### Attributes
 
 | Name |
-| --------------------------------------------------------------------- |
+| -------------------------------------------------------------------------------------------------------------------------------------------------- |
 | [`AllLoads`](#BoundaryConditionType.AllLoads) |
 | [`AllLoadsAndSupports`](#BoundaryConditionType.AllLoadsAndSupports) |
 | [`AllSupports`](#BoundaryConditionType.AllSupports) |

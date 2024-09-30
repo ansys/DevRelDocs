@@ -1,6 +1,6 @@
 # `Transaction`
 
-
+<a id="ansys.mechanical.stubs.v242.Ansys.ACT.Mechanical.Transaction"></a>
 
 #### *class* ansys.mechanical.stubs.v242.Ansys.ACT.Mechanical.Transaction
 

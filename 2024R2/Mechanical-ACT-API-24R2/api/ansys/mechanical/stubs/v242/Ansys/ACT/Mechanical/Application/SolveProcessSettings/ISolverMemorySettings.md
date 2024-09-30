@@ -1,6 +1,6 @@
 # `ISolverMemorySettings`
 
-
+<a id="ansys.mechanical.stubs.v242.Ansys.ACT.Mechanical.Application.SolveProcessSettings.ISolverMemorySettings"></a>
 
 #### *class* ansys.mechanical.stubs.v242.Ansys.ACT.Mechanical.Application.SolveProcessSettings.ISolverMemorySettings
 
@@ -17,10 +17,10 @@ ISolverMemorySettings interface.
 ### Properties
 
 | Name | Description |
-|-------------------------------------------------|-----------------------------------------------------------------------------------------------|
+|------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------|
 | [`Active`](#ISolverMemorySettings.Active)       | Gets or sets whether or not manual memory settings are active in the current configuration.   |
-| [`Workspace`](#ISolverMemorySettings.Workspace) | Gets or sets the workspace memory amount (megabytes).                                         |
 | [`Database`](#ISolverMemorySettings.Database)   | Gets or sets the database memory amount (MB).                                                 |
+| [`Workspace`](#ISolverMemorySettings.Workspace) | Gets or sets the workspace memory amount (megabytes).                                         |
 
 <a id="property-detail"></a>
 
@@ -34,19 +34,19 @@ Gets or sets whether or not manual memory settings are active in the current con
 
 <!-- !! processed by numpydoc !! -->
 
-<a id="ISolverMemorySettings.Workspace"></a>
-
-### *property* ISolverMemorySettings.Workspace *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the workspace memory amount (megabytes).
-
-<!-- !! processed by numpydoc !! -->
-
 <a id="ISolverMemorySettings.Database"></a>
 
 ### *property* ISolverMemorySettings.Database *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the database memory amount (MB).
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ISolverMemorySettings.Workspace"></a>
+
+### *property* ISolverMemorySettings.Workspace *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the workspace memory amount (megabytes).
 
 <!-- !! processed by numpydoc !! -->
 

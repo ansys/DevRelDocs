@@ -1,6 +1,6 @@
 # `EXDSaveResultsOnType`
 
-
+<a id="ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.EXDSaveResultsOnType"></a>
 
 #### *class* ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.EXDSaveResultsOnType
 
@@ -15,25 +15,25 @@ Bases: [`enum.Enum`](https://docs.python.org/3/library/enum.html#enum.Enum)
 ### Attributes
 
 | Name |
-| -------------------------------------------------------- |
-| [`TimeSteps`](#EXDSaveResultsOnType.TimeSteps) |
-| [`Time`](#EXDSaveResultsOnType.Time) |
+| -------------------------------------------------------------------------------------------------------------------------------------- |
 | [`EquallySpaced`](#EXDSaveResultsOnType.EquallySpaced) |
+| [`Time`](#EXDSaveResultsOnType.Time) |
+| [`TimeSteps`](#EXDSaveResultsOnType.TimeSteps) |
 
 <a id="attribute-detail"></a>
 
 ## Attribute detail
 
-<a id="EXDSaveResultsOnType.TimeSteps"></a>
+<a id="EXDSaveResultsOnType.EquallySpaced"></a>
 
-### EXDSaveResultsOnType.TimeSteps *= 0*
+### EXDSaveResultsOnType.EquallySpaced *= 2*
 
 <a id="EXDSaveResultsOnType.Time"></a>
 
 ### EXDSaveResultsOnType.Time *= 1*
 
-<a id="EXDSaveResultsOnType.EquallySpaced"></a>
+<a id="EXDSaveResultsOnType.TimeSteps"></a>
 
-### EXDSaveResultsOnType.EquallySpaced *= 2*
+### EXDSaveResultsOnType.TimeSteps *= 0*
 
 

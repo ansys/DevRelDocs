@@ -1,6 +1,6 @@
 # `EXDErosionOnGeomStrainType`
 
-
+<a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.EXDErosionOnGeomStrainType"></a>
 
 #### *class* ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.EXDErosionOnGeomStrainType
 
@@ -15,9 +15,9 @@ Bases: [`enum.Enum`](https://docs.python.org/3/library/enum.html#enum.Enum)
 ### Attributes
 
 | Name |
-| ---------------------------------------------------------------------------------------------------------------------------- |
-| [`No`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/EXDErosionOnGeomStrainType.md#EXDErosionOnGeomStrainType.No) |
-| [`Yes`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/EXDErosionOnGeomStrainType.md#EXDErosionOnGeomStrainType.Yes) |
+| ------------------------------------------ |
+| [`No`](#EXDErosionOnGeomStrainType.No) |
+| [`Yes`](#EXDErosionOnGeomStrainType.Yes) |
 
 <a id="attribute-detail"></a>
 

@@ -1,6 +1,6 @@
 # `ExpandResultsSubType`
 
-
+<a id="ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.ExpandResultsSubType"></a>
 
 #### *class* ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.ExpandResultsSubType
 
@@ -17,7 +17,7 @@ Specifies the ExpandResultsSubType.
 ### Attributes
 
 | Name |
-| ---------------------------------------------------------------- |
+| -------------------------------------------------------------------------------------------------------------------------------------------- |
 | [`HarmonicSolution`](#ExpandResultsSubType.HarmonicSolution) |
 | [`ModalSolution`](#ExpandResultsSubType.ModalSolution) |
 | [`TransientSolution`](#ExpandResultsSubType.TransientSolution) |

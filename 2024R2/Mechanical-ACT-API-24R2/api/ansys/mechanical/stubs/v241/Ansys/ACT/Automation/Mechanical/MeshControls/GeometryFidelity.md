@@ -1,6 +1,6 @@
 # `GeometryFidelity`
 
-
+<a id="ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.MeshControls.GeometryFidelity"></a>
 
 #### *class* ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.MeshControls.GeometryFidelity
 
@@ -18,94 +18,44 @@ Defines a GeometryFidelity.
 
 | Name | Description |
 |---------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------|
-| [`GenerateMesh`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/MeshControls/GeometryFidelity.md#GeometryFidelity.GenerateMesh)                       | Generate the Mesh.                                                                |
-| [`RenameBasedOnDefinition`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/MeshControls/GeometryFidelity.md#GeometryFidelity.RenameBasedOnDefinition) | Run the RenameBasedOnDefinition action.                                           |
-| [`Delete`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/MeshControls/GeometryFidelity.md#GeometryFidelity.Delete)                                   | Run the Delete action.                                                            |
-| [`GetChildren`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/MeshControls/GeometryFidelity.md#id1)                                                  | Gets the list of children, filtered by type.                                      |
-| [`GetChildren`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/MeshControls/GeometryFidelity.md#id1)                                                  | Gets the list of children, filtered by type.                                      |
-| [`AddComment`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/MeshControls/GeometryFidelity.md#GeometryFidelity.AddComment)                           | Creates a new child Comment.                                                      |
-| [`AddFigure`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/MeshControls/GeometryFidelity.md#GeometryFidelity.AddFigure)                             | Creates a new child Figure.                                                       |
-| [`AddImage`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/MeshControls/GeometryFidelity.md#GeometryFidelity.AddImage)                               | Creates a new child Image.                                                        |
-| [`Activate`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/MeshControls/GeometryFidelity.md#GeometryFidelity.Activate)                               | Activate the current object.                                                      |
-| [`CopyTo`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/MeshControls/GeometryFidelity.md#GeometryFidelity.CopyTo)                                   | Copies all visible properties from this object to another.                        |
-| [`Duplicate`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/MeshControls/GeometryFidelity.md#GeometryFidelity.Duplicate)                             | Creates a copy of the current DataModelObject.                                    |
-| [`GroupAllSimilarChildren`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/MeshControls/GeometryFidelity.md#GeometryFidelity.GroupAllSimilarChildren) | Run the GroupAllSimilarChildren action.                                           |
-| [`GroupSimilarObjects`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/MeshControls/GeometryFidelity.md#GeometryFidelity.GroupSimilarObjects)         | Run the GroupSimilarObjects action.                                               |
-| [`PropertyByName`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/MeshControls/GeometryFidelity.md#GeometryFidelity.PropertyByName)                   | Get a property by its unique name.                                                |
-| [`PropertyByAPIName`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/MeshControls/GeometryFidelity.md#GeometryFidelity.PropertyByAPIName)             | Get a property by its API name.                                                   |
-| [`CreateParameter`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/MeshControls/GeometryFidelity.md#GeometryFidelity.CreateParameter)                 | Creates a new parameter for a Property.                                           |
-| [`GetParameter`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/MeshControls/GeometryFidelity.md#GeometryFidelity.GetParameter)                       | Gets the parameter corresponding to the given property.                           |
-| [`RemoveParameter`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/MeshControls/GeometryFidelity.md#GeometryFidelity.RemoveParameter)                 | Removes the parameter from the parameter set corresponding to the given property. |
+| [`Activate`](#GeometryFidelity.Activate)                               | Activate the current object.                                                      |
+| [`AddComment`](#GeometryFidelity.AddComment)                           | Creates a new child Comment.                                                      |
+| [`AddFigure`](#GeometryFidelity.AddFigure)                             | Creates a new child Figure.                                                       |
+| [`AddImage`](#GeometryFidelity.AddImage)                               | Creates a new child Image.                                                        |
+| [`CopyTo`](#GeometryFidelity.CopyTo)                                   | Copies all visible properties from this object to another.                        |
+| [`CreateParameter`](#GeometryFidelity.CreateParameter)                 | Creates a new parameter for a Property.                                           |
+| [`Delete`](#GeometryFidelity.Delete)                                   | Run the Delete action.                                                            |
+| [`Duplicate`](#GeometryFidelity.Duplicate)                             | Creates a copy of the current DataModelObject.                                    |
+| [`GenerateMesh`](#GeometryFidelity.GenerateMesh)                       | Generate the Mesh.                                                                |
+| [`GetChildren`](#GeometryFidelity.GetChildren)                         | Gets the list of children, filtered by type.                                      |
+| [`GetParameter`](#GeometryFidelity.GetParameter)                       | Gets the parameter corresponding to the given property.                           |
+| [`GroupAllSimilarChildren`](#GeometryFidelity.GroupAllSimilarChildren) | Run the GroupAllSimilarChildren action.                                           |
+| [`GroupSimilarObjects`](#GeometryFidelity.GroupSimilarObjects)         | Run the GroupSimilarObjects action.                                               |
+| [`PropertyByAPIName`](#GeometryFidelity.PropertyByAPIName)             | Get a property by its API name.                                                   |
+| [`PropertyByName`](#GeometryFidelity.PropertyByName)                   | Get a property by its unique name.                                                |
+| [`RemoveParameter`](#GeometryFidelity.RemoveParameter)                 | Removes the parameter from the parameter set corresponding to the given property. |
+| [`RenameBasedOnDefinition`](#GeometryFidelity.RenameBasedOnDefinition) | Run the RenameBasedOnDefinition action.                                           |
 
 ### Properties
 
 | Name | Description |
 |---------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------|
-| [`InternalObject`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/MeshControls/GeometryFidelity.md#id0)                                               | Gets the internal object. For advanced usage only.            |
-| [`NamedSelection`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/MeshControls/GeometryFidelity.md#GeometryFidelity.NamedSelection)                   | Gets or sets the NamedSelection.                              |
-| [`Location`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/MeshControls/GeometryFidelity.md#GeometryFidelity.Location)                               | Gets or sets the Location.                                    |
-| [`DataModelObjectCategory`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/MeshControls/GeometryFidelity.md#GeometryFidelity.DataModelObjectCategory) | Gets the current DataModelObject's category.                  |
-| [`ScopingMethod`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/MeshControls/GeometryFidelity.md#GeometryFidelity.ScopingMethod)                     | Gets or sets the ScopingMethod.                               |
-| [`Suppressed`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/MeshControls/GeometryFidelity.md#GeometryFidelity.Suppressed)                           | Gets or sets the Suppressed.                                  |
-| [`Children`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/MeshControls/GeometryFidelity.md#GeometryFidelity.Children)                               | Gets the list of children.                                    |
-| [`Comments`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/MeshControls/GeometryFidelity.md#GeometryFidelity.Comments)                               | Gets the list of associated comments.                         |
-| [`Figures`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/MeshControls/GeometryFidelity.md#GeometryFidelity.Figures)                                 | Gets the list of associated figures.                          |
-| [`Images`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/MeshControls/GeometryFidelity.md#GeometryFidelity.Images)                                   | Gets the list of associated images.                           |
-| [`InternalObject`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/MeshControls/GeometryFidelity.md#id0)                                               | Gets the internal object. For advanced usage only.            |
-| [`Properties`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/MeshControls/GeometryFidelity.md#GeometryFidelity.Properties)                           | Gets the list of properties for this object.                  |
-| [`VisibleProperties`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/MeshControls/GeometryFidelity.md#GeometryFidelity.VisibleProperties)             | Gets the list of properties that are visible for this object. |
+| [`Children`](#GeometryFidelity.Children)                               | Gets the list of children.                                    |
+| [`Comments`](#GeometryFidelity.Comments)                               | Gets the list of associated comments.                         |
+| [`DataModelObjectCategory`](#GeometryFidelity.DataModelObjectCategory) | Gets the current DataModelObject’s category.                  |
+| [`Figures`](#GeometryFidelity.Figures)                                 | Gets the list of associated figures.                          |
+| [`Images`](#GeometryFidelity.Images)                                   | Gets the list of associated images.                           |
+| [`InternalObject`](#GeometryFidelity.InternalObject)                   | Gets the internal object. For advanced usage only.            |
+| [`Location`](#GeometryFidelity.Location)                               | Gets or sets the Location.                                    |
+| [`NamedSelection`](#GeometryFidelity.NamedSelection)                   | Gets or sets the NamedSelection.                              |
+| [`Properties`](#GeometryFidelity.Properties)                           | Gets the list of properties for this object.                  |
+| [`ScopingMethod`](#GeometryFidelity.ScopingMethod)                     | Gets or sets the ScopingMethod.                               |
+| [`Suppressed`](#GeometryFidelity.Suppressed)                           | Gets or sets the Suppressed.                                  |
+| [`VisibleProperties`](#GeometryFidelity.VisibleProperties)             | Gets the list of properties that are visible for this object. |
 
 <a id="property-detail"></a>
 
 ## Property detail
-
-<a id="GeometryFidelity.InternalObject"></a>
-
-### *property* GeometryFidelity.InternalObject *: Ansys.Common.Interop.DSObjectsAuto.IDSMeshControlAuto | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets the internal object. For advanced usage only.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="GeometryFidelity.NamedSelection"></a>
-
-### *property* GeometryFidelity.NamedSelection *: [Ansys.ACT.Automation.Mechanical.NamedSelection](../NamedSelection.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.NamedSelection) | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the NamedSelection.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="GeometryFidelity.Location"></a>
-
-### *property* GeometryFidelity.Location *: Ansys.ACT.Interfaces.Common.ISelectionInfo | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the Location.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="GeometryFidelity.DataModelObjectCategory"></a>
-
-### *property* GeometryFidelity.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets the current DataModelObject's category.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="GeometryFidelity.ScopingMethod"></a>
-
-### *property* GeometryFidelity.ScopingMethod *: [Ansys.Mechanical.DataModel.Enums.GeometryDefineByType](../../../../Mechanical/DataModel/Enums/GeometryDefineByType.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.GeometryDefineByType) | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the ScopingMethod.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="GeometryFidelity.Suppressed"></a>
-
-### *property* GeometryFidelity.Suppressed *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the Suppressed.
-
-<!-- !! processed by numpydoc !! -->
 
 <a id="GeometryFidelity.Children"></a>
 
@@ -120,6 +70,14 @@ Gets the list of children.
 ### *property* GeometryFidelity.Comments *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Comment](../Comment.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated comments.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="GeometryFidelity.DataModelObjectCategory"></a>
+
+### *property* GeometryFidelity.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../../v242/Ansys/Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets the current DataModelObject’s category.
 
 <!-- !! processed by numpydoc !! -->
 
@@ -139,11 +97,27 @@ Gets the list of associated images.
 
 <!-- !! processed by numpydoc !! -->
 
-<a id="id0"></a>
+<a id="GeometryFidelity.InternalObject"></a>
 
-### *property* GeometryFidelity.InternalObject *: System.Object | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* GeometryFidelity.InternalObject *: Ansys.Common.Interop.DSObjectsAuto.IDSMeshControlAuto | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the internal object. For advanced usage only.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="GeometryFidelity.Location"></a>
+
+### *property* GeometryFidelity.Location *: Ansys.ACT.Interfaces.Common.ISelectionInfo | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the Location.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="GeometryFidelity.NamedSelection"></a>
+
+### *property* GeometryFidelity.NamedSelection *: [Ansys.ACT.Automation.Mechanical.NamedSelection](../../../../../../v242/Ansys/ACT/Automation/Mechanical/NamedSelection.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.NamedSelection) | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the NamedSelection.
 
 <!-- !! processed by numpydoc !! -->
 
@@ -152,6 +126,22 @@ Gets the internal object. For advanced usage only.
 ### *property* GeometryFidelity.Properties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of properties for this object.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="GeometryFidelity.ScopingMethod"></a>
+
+### *property* GeometryFidelity.ScopingMethod *: [Ansys.Mechanical.DataModel.Enums.GeometryDefineByType](../../../../../../v242/Ansys/Mechanical/DataModel/Enums/GeometryDefineByType.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.GeometryDefineByType) | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the ScopingMethod.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="GeometryFidelity.Suppressed"></a>
+
+### *property* GeometryFidelity.Suppressed *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the Suppressed.
 
 <!-- !! processed by numpydoc !! -->
 
@@ -167,43 +157,11 @@ Gets the list of properties that are visible for this object.
 
 ## Method detail
 
-<a id="GeometryFidelity.GenerateMesh"></a>
+<a id="GeometryFidelity.Activate"></a>
 
-### GeometryFidelity.GenerateMesh()
+### GeometryFidelity.Activate()
 
-Generate the Mesh.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="GeometryFidelity.RenameBasedOnDefinition"></a>
-
-### GeometryFidelity.RenameBasedOnDefinition()
-
-Run the RenameBasedOnDefinition action.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="GeometryFidelity.Delete"></a>
-
-### GeometryFidelity.Delete()
-
-Run the Delete action.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="GeometryFidelity.GetChildren"></a>
-
-### GeometryFidelity.GetChildren(recurses: System.Boolean, children: System.Collections.Generic.IList[ChildrenType])
-
-Gets the list of children, filtered by type.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="id1"></a>
-
-### GeometryFidelity.GetChildren(category: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory), recurses: System.Boolean, children: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject])
-
-Gets the list of children, filtered by type.
+Activate the current object.
 
 <!-- !! processed by numpydoc !! -->
 
@@ -227,17 +185,11 @@ Creates a new child Figure.
 
 ### GeometryFidelity.AddImage(filePath: System.String)
 
+```text
 Creates a new child Image.
 If a filePath is provided, the image will be loaded from that file,
 if not, the image will be a screen capture of the Geometry window.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="GeometryFidelity.Activate"></a>
-
-### GeometryFidelity.Activate()
-
-Activate the current object.
+```
 
 <!-- !! processed by numpydoc !! -->
 
@@ -249,11 +201,51 @@ Copies all visible properties from this object to another.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="GeometryFidelity.CreateParameter"></a>
+
+### GeometryFidelity.CreateParameter(propName: System.String)
+
+Creates a new parameter for a Property.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="GeometryFidelity.Delete"></a>
+
+### GeometryFidelity.Delete()
+
+Run the Delete action.
+
+<!-- !! processed by numpydoc !! -->
+
 <a id="GeometryFidelity.Duplicate"></a>
 
 ### GeometryFidelity.Duplicate()
 
 Creates a copy of the current DataModelObject.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="GeometryFidelity.GenerateMesh"></a>
+
+### GeometryFidelity.GenerateMesh()
+
+Generate the Mesh.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="GeometryFidelity.GetChildren"></a>
+
+### GeometryFidelity.GetChildren(recurses: System.Boolean, children: System.Collections.Generic.IList[ChildrenType])
+
+Gets the list of children, filtered by type.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="GeometryFidelity.GetParameter"></a>
+
+### GeometryFidelity.GetParameter(propName: System.String)
+
+Gets the parameter corresponding to the given property.
 
 <!-- !! processed by numpydoc !! -->
 
@@ -273,6 +265,17 @@ Run the GroupSimilarObjects action.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="GeometryFidelity.PropertyByAPIName"></a>
+
+### GeometryFidelity.PropertyByAPIName(name: System.String)
+
+```text
+Get a property by its API name.
+If multiple properties have the same API Name, only the first property with that name will be returned.
+```
+
+<!-- !! processed by numpydoc !! -->
+
 <a id="GeometryFidelity.PropertyByName"></a>
 
 ### GeometryFidelity.PropertyByName(name: System.String)
@@ -281,36 +284,19 @@ Get a property by its unique name.
 
 <!-- !! processed by numpydoc !! -->
 
-<a id="GeometryFidelity.PropertyByAPIName"></a>
-
-### GeometryFidelity.PropertyByAPIName(name: System.String)
-
-Get a property by its API name.
-If multiple properties have the same API Name, only the first property with that name will be returned.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="GeometryFidelity.CreateParameter"></a>
-
-### GeometryFidelity.CreateParameter(propName: System.String)
-
-Creates a new parameter for a Property.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="GeometryFidelity.GetParameter"></a>
-
-### GeometryFidelity.GetParameter(propName: System.String)
-
-Gets the parameter corresponding to the given property.
-
-<!-- !! processed by numpydoc !! -->
-
 <a id="GeometryFidelity.RemoveParameter"></a>
 
 ### GeometryFidelity.RemoveParameter(propName: System.String)
 
 Removes the parameter from the parameter set corresponding to the given property.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="GeometryFidelity.RenameBasedOnDefinition"></a>
+
+### GeometryFidelity.RenameBasedOnDefinition()
+
+Run the RenameBasedOnDefinition action.
 
 <!-- !! processed by numpydoc !! -->
 

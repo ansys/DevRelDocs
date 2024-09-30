@@ -1,6 +1,6 @@
 # `FrequencyRangeType`
 
-
+<a id="ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.FrequencyRangeType"></a>
 
 #### *class* ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.FrequencyRangeType
 
@@ -17,7 +17,7 @@ Specifies the Selected Frequency Range Type.
 ### Attributes
 
 | Name |
-| ---------------------------------------- |
+| ------------------------------------------------------------------------------------------------------------------ |
 | [`Full`](#FrequencyRangeType.Full) |
 | [`Manual`](#FrequencyRangeType.Manual) |
 

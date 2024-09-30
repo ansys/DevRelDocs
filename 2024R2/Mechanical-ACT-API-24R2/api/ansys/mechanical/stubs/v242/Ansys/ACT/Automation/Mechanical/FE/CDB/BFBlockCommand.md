@@ -1,6 +1,6 @@
 # `BFBlockCommand`
 
-
+<a id="ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.FE.CDB.BFBlockCommand"></a>
 
 #### *class* ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.FE.CDB.BFBlockCommand
 
@@ -18,21 +18,37 @@ Represents a BFBLOCK command.
 
 | Name | Description |
 |--------------------------------------------------------------|--------------------------------------------|
+| [`Index`](#BFBlockCommand.Index)                             | Gets the command index.                    |
 | [`Lab`](#BFBlockCommand.Lab)                                 | Gets the label.                            |
+| [`Name`](#BFBlockCommand.Name)                               | Gets the command name.                     |
 | [`NodalBodyForceCount`](#BFBlockCommand.NodalBodyForceCount) | Gets the number of nodal body-force loads. |
 | [`NodalBodyForces`](#BFBlockCommand.NodalBodyForces)         | Gets the nodal body-force loads.           |
-| [`Name`](#BFBlockCommand.Name)                               | Gets the command name.                     |
-| [`Index`](#BFBlockCommand.Index)                             | Gets the command index.                    |
 
 <a id="property-detail"></a>
 
 ## Property detail
+
+<a id="BFBlockCommand.Index"></a>
+
+### *property* BFBlockCommand.Index *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets the command index.
+
+<!-- !! processed by numpydoc !! -->
 
 <a id="BFBlockCommand.Lab"></a>
 
 ### *property* BFBlockCommand.Lab *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the label.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="BFBlockCommand.Name"></a>
+
+### *property* BFBlockCommand.Name *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets the command name.
 
 <!-- !! processed by numpydoc !! -->
 
@@ -49,22 +65,6 @@ Gets the number of nodal body-force loads.
 ### *property* BFBlockCommand.NodalBodyForces *: System.Collections.Generic.IReadOnlyList[[Ansys.ACT.Automation.Mechanical.FE.CDB.CommandNodalBodyForce](../../../../../../../v241/Ansys/ACT/Automation/Mechanical/FE/CDB/CommandNodalBodyForce.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.FE.CDB.CommandNodalBodyForce)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the nodal body-force loads.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="BFBlockCommand.Name"></a>
-
-### *property* BFBlockCommand.Name *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets the command name.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="BFBlockCommand.Index"></a>
-
-### *property* BFBlockCommand.Index *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets the command index.
 
 <!-- !! processed by numpydoc !! -->
 

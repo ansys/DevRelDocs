@@ -1,6 +1,6 @@
 # `LocationDefinitionMethod`
 
-
+<a id="ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.LocationDefinitionMethod"></a>
 
 #### *class* ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.LocationDefinitionMethod
 
@@ -17,7 +17,7 @@ Specifies the LocationDefinitionMethod.
 ### Attributes
 
 | Name |
-| ------------------------------------------------------------------------------ |
+| -------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | [`Beam`](#LocationDefinitionMethod.Beam) |
 | [`Bearing`](#LocationDefinitionMethod.Bearing) |
 | [`BoundaryCondition`](#LocationDefinitionMethod.BoundaryCondition) |
@@ -28,8 +28,8 @@ Specifies the LocationDefinitionMethod.
 | [`NamedSelection`](#LocationDefinitionMethod.NamedSelection) |
 | [`NoSelection`](#LocationDefinitionMethod.NoSelection) |
 | [`RemotePoint`](#LocationDefinitionMethod.RemotePoint) |
-| [`Surface`](#LocationDefinitionMethod.Surface) |
 | [`Spring`](#LocationDefinitionMethod.Spring) |
+| [`Surface`](#LocationDefinitionMethod.Surface) |
 | [`UserDefinedCoordinates`](#LocationDefinitionMethod.UserDefinedCoordinates) |
 | [`WeakSprings`](#LocationDefinitionMethod.WeakSprings) |
 
@@ -77,13 +77,13 @@ Specifies the LocationDefinitionMethod.
 
 ### LocationDefinitionMethod.RemotePoint *= 6*
 
-<a id="LocationDefinitionMethod.Surface"></a>
-
-### LocationDefinitionMethod.Surface *= 11*
-
 <a id="LocationDefinitionMethod.Spring"></a>
 
 ### LocationDefinitionMethod.Spring *= 10*
+
+<a id="LocationDefinitionMethod.Surface"></a>
+
+### LocationDefinitionMethod.Surface *= 11*
 
 <a id="LocationDefinitionMethod.UserDefinedCoordinates"></a>
 

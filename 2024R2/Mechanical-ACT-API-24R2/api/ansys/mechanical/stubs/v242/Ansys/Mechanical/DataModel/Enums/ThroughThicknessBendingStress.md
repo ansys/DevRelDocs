@@ -1,6 +1,6 @@
 # `ThroughThicknessBendingStress`
 
-
+<a id="ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.ThroughThicknessBendingStress"></a>
 
 #### *class* ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.ThroughThicknessBendingStress
 
@@ -17,7 +17,7 @@ Specifies the ThroughThicknessBendingStress.
 ### Attributes
 
 | Name |
-| ------------------------------------------------------------------------------------- |
+| -------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | [`Ignore`](#ThroughThicknessBendingStress.Ignore) |
 | [`Include`](#ThroughThicknessBendingStress.Include) |
 | [`IncludeUsingYDirFormula`](#ThroughThicknessBendingStress.IncludeUsingYDirFormula) |

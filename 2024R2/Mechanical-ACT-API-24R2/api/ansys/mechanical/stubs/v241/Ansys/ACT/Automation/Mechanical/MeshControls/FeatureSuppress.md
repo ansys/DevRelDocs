@@ -1,6 +1,6 @@
 # `FeatureSuppress`
 
-
+<a id="ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.MeshControls.FeatureSuppress"></a>
 
 #### *class* ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.MeshControls.FeatureSuppress
 
@@ -18,130 +18,48 @@ Defines a FeatureSuppress.
 
 | Name | Description |
 |-------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------|
-| [`GenerateMesh`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/MeshControls/FeatureSuppress.md#FeatureSuppress.GenerateMesh)                       | Generate the Mesh.                                                                |
-| [`RenameBasedOnDefinition`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/MeshControls/FeatureSuppress.md#FeatureSuppress.RenameBasedOnDefinition) | Run the RenameBasedOnDefinition action.                                           |
-| [`Delete`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/MeshControls/FeatureSuppress.md#FeatureSuppress.Delete)                                   | Run the Delete action.                                                            |
-| [`GetChildren`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/MeshControls/FeatureSuppress.md#id1)                                                 | Gets the list of children, filtered by type.                                      |
-| [`GetChildren`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/MeshControls/FeatureSuppress.md#id1)                                                 | Gets the list of children, filtered by type.                                      |
-| [`AddComment`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/MeshControls/FeatureSuppress.md#FeatureSuppress.AddComment)                           | Creates a new child Comment.                                                      |
-| [`AddFigure`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/MeshControls/FeatureSuppress.md#FeatureSuppress.AddFigure)                             | Creates a new child Figure.                                                       |
-| [`AddImage`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/MeshControls/FeatureSuppress.md#FeatureSuppress.AddImage)                               | Creates a new child Image.                                                        |
-| [`Activate`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/MeshControls/FeatureSuppress.md#FeatureSuppress.Activate)                               | Activate the current object.                                                      |
-| [`CopyTo`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/MeshControls/FeatureSuppress.md#FeatureSuppress.CopyTo)                                   | Copies all visible properties from this object to another.                        |
-| [`Duplicate`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/MeshControls/FeatureSuppress.md#FeatureSuppress.Duplicate)                             | Creates a copy of the current DataModelObject.                                    |
-| [`GroupAllSimilarChildren`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/MeshControls/FeatureSuppress.md#FeatureSuppress.GroupAllSimilarChildren) | Run the GroupAllSimilarChildren action.                                           |
-| [`GroupSimilarObjects`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/MeshControls/FeatureSuppress.md#FeatureSuppress.GroupSimilarObjects)         | Run the GroupSimilarObjects action.                                               |
-| [`PropertyByName`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/MeshControls/FeatureSuppress.md#FeatureSuppress.PropertyByName)                   | Get a property by its unique name.                                                |
-| [`PropertyByAPIName`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/MeshControls/FeatureSuppress.md#FeatureSuppress.PropertyByAPIName)             | Get a property by its API name.                                                   |
-| [`CreateParameter`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/MeshControls/FeatureSuppress.md#FeatureSuppress.CreateParameter)                 | Creates a new parameter for a Property.                                           |
-| [`GetParameter`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/MeshControls/FeatureSuppress.md#FeatureSuppress.GetParameter)                       | Gets the parameter corresponding to the given property.                           |
-| [`RemoveParameter`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/MeshControls/FeatureSuppress.md#FeatureSuppress.RemoveParameter)                 | Removes the parameter from the parameter set corresponding to the given property. |
+| [`Activate`](#FeatureSuppress.Activate)                               | Activate the current object.                                                      |
+| [`AddComment`](#FeatureSuppress.AddComment)                           | Creates a new child Comment.                                                      |
+| [`AddFigure`](#FeatureSuppress.AddFigure)                             | Creates a new child Figure.                                                       |
+| [`AddImage`](#FeatureSuppress.AddImage)                               | Creates a new child Image.                                                        |
+| [`CopyTo`](#FeatureSuppress.CopyTo)                                   | Copies all visible properties from this object to another.                        |
+| [`CreateParameter`](#FeatureSuppress.CreateParameter)                 | Creates a new parameter for a Property.                                           |
+| [`Delete`](#FeatureSuppress.Delete)                                   | Run the Delete action.                                                            |
+| [`Duplicate`](#FeatureSuppress.Duplicate)                             | Creates a copy of the current DataModelObject.                                    |
+| [`GenerateMesh`](#FeatureSuppress.GenerateMesh)                       | Generate the Mesh.                                                                |
+| [`GetChildren`](#FeatureSuppress.GetChildren)                         | Gets the list of children, filtered by type.                                      |
+| [`GetParameter`](#FeatureSuppress.GetParameter)                       | Gets the parameter corresponding to the given property.                           |
+| [`GroupAllSimilarChildren`](#FeatureSuppress.GroupAllSimilarChildren) | Run the GroupAllSimilarChildren action.                                           |
+| [`GroupSimilarObjects`](#FeatureSuppress.GroupSimilarObjects)         | Run the GroupSimilarObjects action.                                               |
+| [`PropertyByAPIName`](#FeatureSuppress.PropertyByAPIName)             | Get a property by its API name.                                                   |
+| [`PropertyByName`](#FeatureSuppress.PropertyByName)                   | Get a property by its unique name.                                                |
+| [`RemoveParameter`](#FeatureSuppress.RemoveParameter)                 | Removes the parameter from the parameter set corresponding to the given property. |
+| [`RenameBasedOnDefinition`](#FeatureSuppress.RenameBasedOnDefinition) | Run the RenameBasedOnDefinition action.                                           |
 
 ### Properties
 
 | Name | Description |
 |-------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------|
-| [`InternalObject`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/MeshControls/FeatureSuppress.md#id0)                                              | Gets the internal object. For advanced usage only.                              |
-| [`FeatureHeight`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/MeshControls/FeatureSuppress.md#FeatureSuppress.FeatureHeight)                     | To specify the Feature Height.                                                  |
-| [`SourceSelection`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/MeshControls/FeatureSuppress.md#FeatureSuppress.SourceSelection)                 | To select the FeatureSuppress method.                                           |
-| [`NamedSelection`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/MeshControls/FeatureSuppress.md#FeatureSuppress.NamedSelection)                   | Gets or sets the NamedSelection.                                                |
-| [`SourceNamedSelection`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/MeshControls/FeatureSuppress.md#FeatureSuppress.SourceNamedSelection)       | Gets or sets the SourceNamedSelection.                                          |
-| [`SourceLocation`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/MeshControls/FeatureSuppress.md#FeatureSuppress.SourceLocation)                   | To specify the face selections for the method: Defeature Faces or Parent Faces. |
-| [`Location`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/MeshControls/FeatureSuppress.md#FeatureSuppress.Location)                               | Gets or sets the Location.                                                      |
-| [`DataModelObjectCategory`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/MeshControls/FeatureSuppress.md#FeatureSuppress.DataModelObjectCategory) | Gets the current DataModelObject's category.                                    |
-| [`ScopingMethod`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/MeshControls/FeatureSuppress.md#FeatureSuppress.ScopingMethod)                     | Gets or sets the ScopingMethod.                                                 |
-| [`Suppressed`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/MeshControls/FeatureSuppress.md#FeatureSuppress.Suppressed)                           | Gets or sets the Suppressed.                                                    |
-| [`Children`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/MeshControls/FeatureSuppress.md#FeatureSuppress.Children)                               | Gets the list of children.                                                      |
-| [`Comments`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/MeshControls/FeatureSuppress.md#FeatureSuppress.Comments)                               | Gets the list of associated comments.                                           |
-| [`Figures`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/MeshControls/FeatureSuppress.md#FeatureSuppress.Figures)                                 | Gets the list of associated figures.                                            |
-| [`Images`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/MeshControls/FeatureSuppress.md#FeatureSuppress.Images)                                   | Gets the list of associated images.                                             |
-| [`InternalObject`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/MeshControls/FeatureSuppress.md#id0)                                              | Gets the internal object. For advanced usage only.                              |
-| [`Properties`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/MeshControls/FeatureSuppress.md#FeatureSuppress.Properties)                           | Gets the list of properties for this object.                                    |
-| [`VisibleProperties`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/MeshControls/FeatureSuppress.md#FeatureSuppress.VisibleProperties)             | Gets the list of properties that are visible for this object.                   |
+| [`Children`](#FeatureSuppress.Children)                               | Gets the list of children.                                                      |
+| [`Comments`](#FeatureSuppress.Comments)                               | Gets the list of associated comments.                                           |
+| [`DataModelObjectCategory`](#FeatureSuppress.DataModelObjectCategory) | Gets the current DataModelObject’s category.                                    |
+| [`FeatureHeight`](#FeatureSuppress.FeatureHeight)                     | To specify the Feature Height.                                                  |
+| [`Figures`](#FeatureSuppress.Figures)                                 | Gets the list of associated figures.                                            |
+| [`Images`](#FeatureSuppress.Images)                                   | Gets the list of associated images.                                             |
+| [`InternalObject`](#FeatureSuppress.InternalObject)                   | Gets the internal object. For advanced usage only.                              |
+| [`Location`](#FeatureSuppress.Location)                               | Gets or sets the Location.                                                      |
+| [`NamedSelection`](#FeatureSuppress.NamedSelection)                   | Gets or sets the NamedSelection.                                                |
+| [`Properties`](#FeatureSuppress.Properties)                           | Gets the list of properties for this object.                                    |
+| [`ScopingMethod`](#FeatureSuppress.ScopingMethod)                     | Gets or sets the ScopingMethod.                                                 |
+| [`SourceLocation`](#FeatureSuppress.SourceLocation)                   | To specify the face selections for the method: Defeature Faces or Parent Faces. |
+| [`SourceNamedSelection`](#FeatureSuppress.SourceNamedSelection)       | Gets or sets the SourceNamedSelection.                                          |
+| [`SourceSelection`](#FeatureSuppress.SourceSelection)                 | To select the FeatureSuppress method.                                           |
+| [`Suppressed`](#FeatureSuppress.Suppressed)                           | Gets or sets the Suppressed.                                                    |
+| [`VisibleProperties`](#FeatureSuppress.VisibleProperties)             | Gets the list of properties that are visible for this object.                   |
 
 <a id="property-detail"></a>
 
 ## Property detail
-
-<a id="FeatureSuppress.InternalObject"></a>
-
-### *property* FeatureSuppress.InternalObject *: Ansys.Common.Interop.DSObjectsAuto.IDSMeshControlAuto | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets the internal object. For advanced usage only.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="FeatureSuppress.FeatureHeight"></a>
-
-### *property* FeatureSuppress.FeatureHeight *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
-
-To specify the Feature Height.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="FeatureSuppress.SourceSelection"></a>
-
-### *property* FeatureSuppress.SourceSelection *: [Ansys.Mechanical.DataModel.Enums.FeatureSuppressMethod](../../../../Mechanical/DataModel/Enums/FeatureSuppressMethod.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.FeatureSuppressMethod) | [None](https://docs.python.org/3/library/constants.html#None)*
-
-To select the FeatureSuppress method.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="FeatureSuppress.NamedSelection"></a>
-
-### *property* FeatureSuppress.NamedSelection *: [Ansys.ACT.Automation.Mechanical.NamedSelection](../NamedSelection.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.NamedSelection) | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the NamedSelection.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="FeatureSuppress.SourceNamedSelection"></a>
-
-### *property* FeatureSuppress.SourceNamedSelection *: [Ansys.ACT.Automation.Mechanical.NamedSelection](../NamedSelection.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.NamedSelection) | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the SourceNamedSelection.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="FeatureSuppress.SourceLocation"></a>
-
-### *property* FeatureSuppress.SourceLocation *: Ansys.ACT.Interfaces.Common.ISelectionInfo | [None](https://docs.python.org/3/library/constants.html#None)*
-
-To specify the face selections for the method: Defeature Faces or Parent Faces.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="FeatureSuppress.Location"></a>
-
-### *property* FeatureSuppress.Location *: Ansys.ACT.Interfaces.Common.ISelectionInfo | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the Location.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="FeatureSuppress.DataModelObjectCategory"></a>
-
-### *property* FeatureSuppress.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets the current DataModelObject's category.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="FeatureSuppress.ScopingMethod"></a>
-
-### *property* FeatureSuppress.ScopingMethod *: [Ansys.Mechanical.DataModel.Enums.GeometryDefineByType](../../../../Mechanical/DataModel/Enums/GeometryDefineByType.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.GeometryDefineByType) | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the ScopingMethod.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="FeatureSuppress.Suppressed"></a>
-
-### *property* FeatureSuppress.Suppressed *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the Suppressed.
-
-<!-- !! processed by numpydoc !! -->
 
 <a id="FeatureSuppress.Children"></a>
 
@@ -156,6 +74,22 @@ Gets the list of children.
 ### *property* FeatureSuppress.Comments *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Comment](../Comment.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated comments.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="FeatureSuppress.DataModelObjectCategory"></a>
+
+### *property* FeatureSuppress.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../../v242/Ansys/Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets the current DataModelObject’s category.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="FeatureSuppress.FeatureHeight"></a>
+
+### *property* FeatureSuppress.FeatureHeight *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
+
+To specify the Feature Height.
 
 <!-- !! processed by numpydoc !! -->
 
@@ -175,11 +109,27 @@ Gets the list of associated images.
 
 <!-- !! processed by numpydoc !! -->
 
-<a id="id0"></a>
+<a id="FeatureSuppress.InternalObject"></a>
 
-### *property* FeatureSuppress.InternalObject *: System.Object | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* FeatureSuppress.InternalObject *: Ansys.Common.Interop.DSObjectsAuto.IDSMeshControlAuto | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the internal object. For advanced usage only.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="FeatureSuppress.Location"></a>
+
+### *property* FeatureSuppress.Location *: Ansys.ACT.Interfaces.Common.ISelectionInfo | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the Location.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="FeatureSuppress.NamedSelection"></a>
+
+### *property* FeatureSuppress.NamedSelection *: [Ansys.ACT.Automation.Mechanical.NamedSelection](../../../../../../v242/Ansys/ACT/Automation/Mechanical/NamedSelection.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.NamedSelection) | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the NamedSelection.
 
 <!-- !! processed by numpydoc !! -->
 
@@ -188,6 +138,46 @@ Gets the internal object. For advanced usage only.
 ### *property* FeatureSuppress.Properties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of properties for this object.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="FeatureSuppress.ScopingMethod"></a>
+
+### *property* FeatureSuppress.ScopingMethod *: [Ansys.Mechanical.DataModel.Enums.GeometryDefineByType](../../../../../../v242/Ansys/Mechanical/DataModel/Enums/GeometryDefineByType.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.GeometryDefineByType) | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the ScopingMethod.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="FeatureSuppress.SourceLocation"></a>
+
+### *property* FeatureSuppress.SourceLocation *: Ansys.ACT.Interfaces.Common.ISelectionInfo | [None](https://docs.python.org/3/library/constants.html#None)*
+
+To specify the face selections for the method: Defeature Faces or Parent Faces.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="FeatureSuppress.SourceNamedSelection"></a>
+
+### *property* FeatureSuppress.SourceNamedSelection *: [Ansys.ACT.Automation.Mechanical.NamedSelection](../../../../../../v242/Ansys/ACT/Automation/Mechanical/NamedSelection.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.NamedSelection) | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the SourceNamedSelection.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="FeatureSuppress.SourceSelection"></a>
+
+### *property* FeatureSuppress.SourceSelection *: [Ansys.Mechanical.DataModel.Enums.FeatureSuppressMethod](../../../../../../v242/Ansys/Mechanical/DataModel/Enums/FeatureSuppressMethod.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.FeatureSuppressMethod) | [None](https://docs.python.org/3/library/constants.html#None)*
+
+To select the FeatureSuppress method.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="FeatureSuppress.Suppressed"></a>
+
+### *property* FeatureSuppress.Suppressed *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the Suppressed.
 
 <!-- !! processed by numpydoc !! -->
 
@@ -203,43 +193,11 @@ Gets the list of properties that are visible for this object.
 
 ## Method detail
 
-<a id="FeatureSuppress.GenerateMesh"></a>
+<a id="FeatureSuppress.Activate"></a>
 
-### FeatureSuppress.GenerateMesh()
+### FeatureSuppress.Activate()
 
-Generate the Mesh.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="FeatureSuppress.RenameBasedOnDefinition"></a>
-
-### FeatureSuppress.RenameBasedOnDefinition()
-
-Run the RenameBasedOnDefinition action.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="FeatureSuppress.Delete"></a>
-
-### FeatureSuppress.Delete()
-
-Run the Delete action.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="FeatureSuppress.GetChildren"></a>
-
-### FeatureSuppress.GetChildren(recurses: System.Boolean, children: System.Collections.Generic.IList[ChildrenType])
-
-Gets the list of children, filtered by type.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="id1"></a>
-
-### FeatureSuppress.GetChildren(category: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory), recurses: System.Boolean, children: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject])
-
-Gets the list of children, filtered by type.
+Activate the current object.
 
 <!-- !! processed by numpydoc !! -->
 
@@ -263,17 +221,11 @@ Creates a new child Figure.
 
 ### FeatureSuppress.AddImage(filePath: System.String)
 
+```text
 Creates a new child Image.
 If a filePath is provided, the image will be loaded from that file,
 if not, the image will be a screen capture of the Geometry window.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="FeatureSuppress.Activate"></a>
-
-### FeatureSuppress.Activate()
-
-Activate the current object.
+```
 
 <!-- !! processed by numpydoc !! -->
 
@@ -285,11 +237,51 @@ Copies all visible properties from this object to another.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="FeatureSuppress.CreateParameter"></a>
+
+### FeatureSuppress.CreateParameter(propName: System.String)
+
+Creates a new parameter for a Property.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="FeatureSuppress.Delete"></a>
+
+### FeatureSuppress.Delete()
+
+Run the Delete action.
+
+<!-- !! processed by numpydoc !! -->
+
 <a id="FeatureSuppress.Duplicate"></a>
 
 ### FeatureSuppress.Duplicate()
 
 Creates a copy of the current DataModelObject.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="FeatureSuppress.GenerateMesh"></a>
+
+### FeatureSuppress.GenerateMesh()
+
+Generate the Mesh.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="FeatureSuppress.GetChildren"></a>
+
+### FeatureSuppress.GetChildren(recurses: System.Boolean, children: System.Collections.Generic.IList[ChildrenType])
+
+Gets the list of children, filtered by type.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="FeatureSuppress.GetParameter"></a>
+
+### FeatureSuppress.GetParameter(propName: System.String)
+
+Gets the parameter corresponding to the given property.
 
 <!-- !! processed by numpydoc !! -->
 
@@ -309,6 +301,17 @@ Run the GroupSimilarObjects action.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="FeatureSuppress.PropertyByAPIName"></a>
+
+### FeatureSuppress.PropertyByAPIName(name: System.String)
+
+```text
+Get a property by its API name.
+If multiple properties have the same API Name, only the first property with that name will be returned.
+```
+
+<!-- !! processed by numpydoc !! -->
+
 <a id="FeatureSuppress.PropertyByName"></a>
 
 ### FeatureSuppress.PropertyByName(name: System.String)
@@ -317,36 +320,19 @@ Get a property by its unique name.
 
 <!-- !! processed by numpydoc !! -->
 
-<a id="FeatureSuppress.PropertyByAPIName"></a>
-
-### FeatureSuppress.PropertyByAPIName(name: System.String)
-
-Get a property by its API name.
-If multiple properties have the same API Name, only the first property with that name will be returned.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="FeatureSuppress.CreateParameter"></a>
-
-### FeatureSuppress.CreateParameter(propName: System.String)
-
-Creates a new parameter for a Property.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="FeatureSuppress.GetParameter"></a>
-
-### FeatureSuppress.GetParameter(propName: System.String)
-
-Gets the parameter corresponding to the given property.
-
-<!-- !! processed by numpydoc !! -->
-
 <a id="FeatureSuppress.RemoveParameter"></a>
 
 ### FeatureSuppress.RemoveParameter(propName: System.String)
 
 Removes the parameter from the parameter set corresponding to the given property.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="FeatureSuppress.RenameBasedOnDefinition"></a>
+
+### FeatureSuppress.RenameBasedOnDefinition()
+
+Run the RenameBasedOnDefinition action.
 
 <!-- !! processed by numpydoc !! -->
 

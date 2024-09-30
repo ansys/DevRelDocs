@@ -1,6 +1,6 @@
 # `CondensedPartReductionMethod`
 
-
+<a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.CondensedPartReductionMethod"></a>
 
 #### *class* ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.CondensedPartReductionMethod
 
@@ -17,9 +17,9 @@ Specifies the CondensedPartReductionMethod.
 ### Attributes
 
 | Name |
-| ------------------------------------------------------------------------------------------------------------------------------------ |
-| [`CMS`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/CondensedPartReductionMethod.md#CondensedPartReductionMethod.CMS) |
-| [`Guyan`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/CondensedPartReductionMethod.md#CondensedPartReductionMethod.Guyan) |
+| ------------------------------------------------ |
+| [`CMS`](#CondensedPartReductionMethod.CMS) |
+| [`Guyan`](#CondensedPartReductionMethod.Guyan) |
 
 <a id="attribute-detail"></a>
 

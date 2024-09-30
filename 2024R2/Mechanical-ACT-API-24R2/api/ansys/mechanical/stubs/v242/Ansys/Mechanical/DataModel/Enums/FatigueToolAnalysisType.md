@@ -1,6 +1,6 @@
 # `FatigueToolAnalysisType`
 
-
+<a id="ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.FatigueToolAnalysisType"></a>
 
 #### *class* ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.FatigueToolAnalysisType
 
@@ -17,7 +17,7 @@ Specifies the FatigueToolAnalysisType.
 ### Attributes
 
 | Name |
-| ------------------------------------------------------- |
+| -------------------------------------------------------------------------------------------------------------------------------------- |
 | [`StrainLife`](#FatigueToolAnalysisType.StrainLife) |
 | [`StressLife`](#FatigueToolAnalysisType.StressLife) |
 

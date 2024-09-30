@@ -1,6 +1,6 @@
 # `LoadCombinationType`
 
-
+<a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.LoadCombinationType"></a>
 
 #### *class* ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.LoadCombinationType
 
@@ -17,9 +17,9 @@ Specifies the Load Combination type.
 ### Attributes
 
 | Name |
-| ---------------------------------------------------------------------------------------------------------------------- |
-| [`Linear`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/LoadCombinationType.md#LoadCombinationType.Linear) |
-| [`SRSS`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/LoadCombinationType.md#LoadCombinationType.SRSS) |
+| ------------------------------------------- |
+| [`Linear`](#LoadCombinationType.Linear) |
+| [`SRSS`](#LoadCombinationType.SRSS) |
 
 <a id="attribute-detail"></a>
 

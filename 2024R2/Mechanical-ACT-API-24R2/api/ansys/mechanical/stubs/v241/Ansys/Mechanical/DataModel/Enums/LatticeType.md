@@ -1,6 +1,6 @@
 # `LatticeType`
 
-
+<a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.LatticeType"></a>
 
 #### *class* ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.LatticeType
 
@@ -17,16 +17,16 @@ Specifies the LatticeType.
 ### Attributes
 
 | Name |
-| -------------------------------------------------------------------------------------------------------------- |
-| [`Crossed`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/LatticeType.md#LatticeType.Crossed) |
-| [`Cubic`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/LatticeType.md#LatticeType.Cubic) |
-| [`Diagonal`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/LatticeType.md#LatticeType.Diagonal) |
-| [`Midpoint`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/LatticeType.md#LatticeType.Midpoint) |
-| [`None_`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/LatticeType.md#LatticeType.None_) |
-| [`Octahedral1`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/LatticeType.md#LatticeType.Octahedral1) |
-| [`Octahedral2`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/LatticeType.md#LatticeType.Octahedral2) |
-| [`Octet`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/LatticeType.md#LatticeType.Octet) |
-| [`Sphere`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/LatticeType.md#LatticeType.Sphere) |
+| ------------------------------------------- |
+| [`Crossed`](#LatticeType.Crossed) |
+| [`Cubic`](#LatticeType.Cubic) |
+| [`Diagonal`](#LatticeType.Diagonal) |
+| [`Midpoint`](#LatticeType.Midpoint) |
+| [`None_`](#LatticeType.None_) |
+| [`Octahedral1`](#LatticeType.Octahedral1) |
+| [`Octahedral2`](#LatticeType.Octahedral2) |
+| [`Octet`](#LatticeType.Octet) |
+| [`Sphere`](#LatticeType.Sphere) |
 
 <a id="attribute-detail"></a>
 
