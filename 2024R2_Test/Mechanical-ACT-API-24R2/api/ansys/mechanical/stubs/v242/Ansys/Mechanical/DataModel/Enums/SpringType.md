@@ -1,6 +1,6 @@
 # `SpringType`
 
-
+<a id="ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.SpringType"></a>
 
 #### *class* ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.SpringType
 
@@ -17,7 +17,7 @@ Specifies the SpringType.
 ### Attributes
 
 | Name |
-| ---------------------------------------------- |
+| ---------------------------------------------------------------------------------------------------------------- |
 | [`Longitudinal`](#SpringType.Longitudinal) |
 | [`Torsional`](#SpringType.Torsional) |
 

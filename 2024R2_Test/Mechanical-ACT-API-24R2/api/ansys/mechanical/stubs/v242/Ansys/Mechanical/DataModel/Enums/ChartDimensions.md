@@ -1,6 +1,6 @@
 # `ChartDimensions`
 
-
+<a id="ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.ChartDimensions"></a>
 
 #### *class* ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.ChartDimensions
 
@@ -17,7 +17,7 @@ Specifies the Chart Viewing Style.
 ### Attributes
 
 | Name |
-| ----------------------------------------------------------- |
+| ---------------------------------------------------------------------------------------------------------------------------------- |
 | [`ThreeDimensional`](#ChartDimensions.ThreeDimensional) |
 | [`TwoDimensional`](#ChartDimensions.TwoDimensional) |
 

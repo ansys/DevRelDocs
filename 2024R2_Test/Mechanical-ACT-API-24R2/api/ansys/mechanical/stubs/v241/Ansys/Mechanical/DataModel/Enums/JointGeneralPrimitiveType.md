@@ -1,6 +1,6 @@
 # `JointGeneralPrimitiveType`
 
-
+<a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.JointGeneralPrimitiveType"></a>
 
 #### *class* ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.JointGeneralPrimitiveType
 
@@ -17,12 +17,12 @@ Specifies the JointGeneralPrimitiveType.
 ### Attributes
 
 | Name |
-| ------------------------------------------------------------------------------------------------------------------------------------------ |
-| [`InLine`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/JointGeneralPrimitiveType.md#JointGeneralPrimitiveType.InLine) |
-| [`InPlane`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/JointGeneralPrimitiveType.md#JointGeneralPrimitiveType.InPlane) |
-| [`None_`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/JointGeneralPrimitiveType.md#JointGeneralPrimitiveType.None_) |
-| [`Orientation`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/JointGeneralPrimitiveType.md#JointGeneralPrimitiveType.Orientation) |
-| [`Parallel`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/JointGeneralPrimitiveType.md#JointGeneralPrimitiveType.Parallel) |
+| --------------------------------------------------------- |
+| [`InLine`](#JointGeneralPrimitiveType.InLine) |
+| [`InPlane`](#JointGeneralPrimitiveType.InPlane) |
+| [`None_`](#JointGeneralPrimitiveType.None_) |
+| [`Orientation`](#JointGeneralPrimitiveType.Orientation) |
+| [`Parallel`](#JointGeneralPrimitiveType.Parallel) |
 
 <a id="attribute-detail"></a>
 

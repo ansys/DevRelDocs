@@ -1,6 +1,6 @@
 # `DSThicknessAdapter`
 
-
+<a id="ansys.mechanical.stubs.v242.Ansys.ACT.Mechanical.Fields.Adapters.DSThicknessAdapter"></a>
 
 #### *class* ansys.mechanical.stubs.v242.Ansys.ACT.Mechanical.Fields.Adapters.DSThicknessAdapter
 
@@ -17,13 +17,13 @@ Adapter dedicated to IDSThicknessAuto objects.
 ### Methods
 
 | Name | Description |
-|--------------------------------------------------------------------------------|-------------------------------------|
+|-----------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------|
 | [`ChangeFieldDefinitionType`](#DSThicknessAdapter.ChangeFieldDefinitionType)   | ChangeFieldDefinitionType method.   |
 
 ### Properties
 
 | Name | Description |
-|--------------------------------------------------------|--------------------------------------------|
+|-----------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------|
 | [`FieldProvider`](#DSThicknessAdapter.FieldProvider)   | Gets the wrapped object from Mechanical.   |
 
 <a id="property-detail"></a>

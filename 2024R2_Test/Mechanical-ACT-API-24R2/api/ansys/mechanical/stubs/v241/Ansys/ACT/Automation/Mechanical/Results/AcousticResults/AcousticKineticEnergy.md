@@ -1,6 +1,6 @@
 # `AcousticKineticEnergy`
 
-
+<a id="ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Results.AcousticResults.AcousticKineticEnergy"></a>
 
 #### *class* ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Results.AcousticResults.AcousticKineticEnergy
 
@@ -17,187 +17,105 @@ Defines a AcousticKineticEnergy.
 ### Methods
 
 | Name | Description |
-|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------|
-| [`ClearGeneratedData`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/AcousticResults/AcousticKineticEnergy.md#AcousticKineticEnergy.ClearGeneratedData)           | Run the ClearGeneratedData action.                                                |
-| [`EvaluateAllResults`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/AcousticResults/AcousticKineticEnergy.md#AcousticKineticEnergy.EvaluateAllResults)           | Run the EvaluateAllResults action.                                                |
-| [`FetchRemoteResults`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/AcousticResults/AcousticKineticEnergy.md#AcousticKineticEnergy.FetchRemoteResults)           | Run the FetchRemoteResult action.                                                 |
-| [`ExportToTextFile`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/AcousticResults/AcousticKineticEnergy.md#AcousticKineticEnergy.ExportToTextFile)               | Run the ExportToTextFile action.                                                  |
-| [`ExportAnimation`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/AcousticResults/AcousticKineticEnergy.md#AcousticKineticEnergy.ExportAnimation)                 | Run the ExportAnimation action.                                                   |
-| [`DuplicateWithoutResults`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/AcousticResults/AcousticKineticEnergy.md#AcousticKineticEnergy.DuplicateWithoutResults) | Run the DuplicateWithoutResults action.                                           |
-| [`CreateResultsAtAllSets`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/AcousticResults/AcousticKineticEnergy.md#AcousticKineticEnergy.CreateResultsAtAllSets)   | Creates results at all sets for results under a solution.                         |
-| [`PromoteToNamedSelection`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/AcousticResults/AcousticKineticEnergy.md#AcousticKineticEnergy.PromoteToNamedSelection) | Run the PromoteToNamedSelection action.                                           |
-| [`CreateParameter`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/AcousticResults/AcousticKineticEnergy.md#AcousticKineticEnergy.CreateParameter)                 | CreateParameter method.                                                           |
-| [`AddAlert`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/AcousticResults/AcousticKineticEnergy.md#AcousticKineticEnergy.AddAlert)                               | Creates a new Alert                                                               |
-| [`AddConvergence`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/AcousticResults/AcousticKineticEnergy.md#AcousticKineticEnergy.AddConvergence)                   | Creates a new Convergence                                                         |
-| [`RenameBasedOnDefinition`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/AcousticResults/AcousticKineticEnergy.md#AcousticKineticEnergy.RenameBasedOnDefinition) | Run the RenameBasedOnDefinition action.                                           |
-| [`Delete`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/AcousticResults/AcousticKineticEnergy.md#AcousticKineticEnergy.Delete)                                   | Run the Delete action.                                                            |
-| [`GetChildren`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/AcousticResults/AcousticKineticEnergy.md#id1)                                                       | Gets the list of children, filtered by type.                                      |
-| [`GetChildren`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/AcousticResults/AcousticKineticEnergy.md#id1)                                                       | Gets the list of children, filtered by type.                                      |
-| [`AddComment`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/AcousticResults/AcousticKineticEnergy.md#AcousticKineticEnergy.AddComment)                           | Creates a new child Comment.                                                      |
-| [`AddFigure`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/AcousticResults/AcousticKineticEnergy.md#AcousticKineticEnergy.AddFigure)                             | Creates a new child Figure.                                                       |
-| [`AddImage`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/AcousticResults/AcousticKineticEnergy.md#AcousticKineticEnergy.AddImage)                               | Creates a new child Image.                                                        |
-| [`Activate`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/AcousticResults/AcousticKineticEnergy.md#AcousticKineticEnergy.Activate)                               | Activate the current object.                                                      |
-| [`CopyTo`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/AcousticResults/AcousticKineticEnergy.md#AcousticKineticEnergy.CopyTo)                                   | Copies all visible properties from this object to another.                        |
-| [`Duplicate`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/AcousticResults/AcousticKineticEnergy.md#AcousticKineticEnergy.Duplicate)                             | Creates a copy of the current DataModelObject.                                    |
-| [`GroupAllSimilarChildren`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/AcousticResults/AcousticKineticEnergy.md#AcousticKineticEnergy.GroupAllSimilarChildren) | Run the GroupAllSimilarChildren action.                                           |
-| [`GroupSimilarObjects`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/AcousticResults/AcousticKineticEnergy.md#AcousticKineticEnergy.GroupSimilarObjects)         | Run the GroupSimilarObjects action.                                               |
-| [`PropertyByName`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/AcousticResults/AcousticKineticEnergy.md#AcousticKineticEnergy.PropertyByName)                   | Get a property by its unique name.                                                |
-| [`PropertyByAPIName`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/AcousticResults/AcousticKineticEnergy.md#AcousticKineticEnergy.PropertyByAPIName)             | Get a property by its API name.                                                   |
-| [`GetParameter`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/AcousticResults/AcousticKineticEnergy.md#AcousticKineticEnergy.GetParameter)                       | Gets the parameter corresponding to the given property.                           |
-| [`RemoveParameter`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/AcousticResults/AcousticKineticEnergy.md#AcousticKineticEnergy.RemoveParameter)                 | Removes the parameter from the parameter set corresponding to the given property. |
+|-----------------------------------------------------------------------------|-----------------------------------------------------------------------------------|
+| [`Activate`](#AcousticKineticEnergy.Activate)                               | Activate the current object.                                                      |
+| [`AddAlert`](#AcousticKineticEnergy.AddAlert)                               | Creates a new Alert                                                               |
+| [`AddComment`](#AcousticKineticEnergy.AddComment)                           | Creates a new child Comment.                                                      |
+| [`AddConvergence`](#AcousticKineticEnergy.AddConvergence)                   | Creates a new Convergence                                                         |
+| [`AddFigure`](#AcousticKineticEnergy.AddFigure)                             | Creates a new child Figure.                                                       |
+| [`AddImage`](#AcousticKineticEnergy.AddImage)                               | Creates a new child Image.                                                        |
+| [`ClearGeneratedData`](#AcousticKineticEnergy.ClearGeneratedData)           | Run the ClearGeneratedData action.                                                |
+| [`CopyTo`](#AcousticKineticEnergy.CopyTo)                                   | Copies all visible properties from this object to another.                        |
+| [`CreateParameter`](#AcousticKineticEnergy.CreateParameter)                 | CreateParameter method.                                                           |
+| [`CreateResultsAtAllSets`](#AcousticKineticEnergy.CreateResultsAtAllSets)   | Creates results at all sets for results under a solution.                         |
+| [`Delete`](#AcousticKineticEnergy.Delete)                                   | Run the Delete action.                                                            |
+| [`Duplicate`](#AcousticKineticEnergy.Duplicate)                             | Creates a copy of the current DataModelObject.                                    |
+| [`DuplicateWithoutResults`](#AcousticKineticEnergy.DuplicateWithoutResults) | Run the DuplicateWithoutResults action.                                           |
+| [`EvaluateAllResults`](#AcousticKineticEnergy.EvaluateAllResults)           | Run the EvaluateAllResults action.                                                |
+| [`ExportAnimation`](#AcousticKineticEnergy.ExportAnimation)                 | Run the ExportAnimation action.                                                   |
+| [`ExportToTextFile`](#AcousticKineticEnergy.ExportToTextFile)               | Run the ExportToTextFile action.                                                  |
+| [`FetchRemoteResults`](#AcousticKineticEnergy.FetchRemoteResults)           | Run the FetchRemoteResult action.                                                 |
+| [`GetChildren`](#AcousticKineticEnergy.GetChildren)                         | Gets the list of children, filtered by type.                                      |
+| [`GetParameter`](#AcousticKineticEnergy.GetParameter)                       | Gets the parameter corresponding to the given property.                           |
+| [`GroupAllSimilarChildren`](#AcousticKineticEnergy.GroupAllSimilarChildren) | Run the GroupAllSimilarChildren action.                                           |
+| [`GroupSimilarObjects`](#AcousticKineticEnergy.GroupSimilarObjects)         | Run the GroupSimilarObjects action.                                               |
+| [`PromoteToNamedSelection`](#AcousticKineticEnergy.PromoteToNamedSelection) | Run the PromoteToNamedSelection action.                                           |
+| [`PropertyByAPIName`](#AcousticKineticEnergy.PropertyByAPIName)             | Get a property by its API name.                                                   |
+| [`PropertyByName`](#AcousticKineticEnergy.PropertyByName)                   | Get a property by its unique name.                                                |
+| [`RemoveParameter`](#AcousticKineticEnergy.RemoveParameter)                 | Removes the parameter from the parameter set corresponding to the given property. |
+| [`RenameBasedOnDefinition`](#AcousticKineticEnergy.RenameBasedOnDefinition) | Run the RenameBasedOnDefinition action.                                           |
 
 ### Properties
 
 | Name | Description |
-|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------|
-| [`InternalObject`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/AcousticResults/AcousticKineticEnergy.md#id0)                                                                        | Gets the internal object. For advanced usage only.                     |
-| [`DataModelObjectCategory`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/AcousticResults/AcousticKineticEnergy.md#AcousticKineticEnergy.DataModelObjectCategory)                     | Gets the current DataModelObject's category.                           |
-| [`Mode`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/AcousticResults/AcousticKineticEnergy.md#AcousticKineticEnergy.Mode)                                                           | Gets or sets the Mode.                                                 |
-| [`ReportedFrequency`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/AcousticResults/AcousticKineticEnergy.md#AcousticKineticEnergy.ReportedFrequency)                                 | Gets the ReportedFrequency.                                            |
-| [`DampedFrequency`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/AcousticResults/AcousticKineticEnergy.md#AcousticKineticEnergy.DampedFrequency)                                     | Gets the DampedFrequency.                                              |
-| [`LogarithmicDecrement`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/AcousticResults/AcousticKineticEnergy.md#AcousticKineticEnergy.LogarithmicDecrement)                           | Gets the LogarithmicDecrement.                                         |
-| [`ModalDampingRatio`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/AcousticResults/AcousticKineticEnergy.md#AcousticKineticEnergy.ModalDampingRatio)                                 | Gets the ModalDampingRatio.                                            |
-| [`Stability`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/AcousticResults/AcousticKineticEnergy.md#AcousticKineticEnergy.Stability)                                                 | Gets the Stability.                                                    |
-| [`SweepingPhase`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/AcousticResults/AcousticKineticEnergy.md#AcousticKineticEnergy.SweepingPhase)                                         | Gets or sets the SweepingPhase.                                        |
-| [`Frequency`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/AcousticResults/AcousticKineticEnergy.md#AcousticKineticEnergy.Frequency)                                                 | Gets or sets the Frequency.                                            |
-| [`Amplitude`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/AcousticResults/AcousticKineticEnergy.md#AcousticKineticEnergy.Amplitude)                                                 | Gets or sets the Amplitude.                                            |
-| [`PlotData`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/AcousticResults/AcousticKineticEnergy.md#AcousticKineticEnergy.PlotData)                                                   | Gets the result table.                                                 |
-| [`Location`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/AcousticResults/AcousticKineticEnergy.md#AcousticKineticEnergy.Location)                                                   | Gets or sets the Location.                                             |
-| [`TimeForMinimumOfMinimumValues`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/AcousticResults/AcousticKineticEnergy.md#AcousticKineticEnergy.TimeForMinimumOfMinimumValues)         | Get the Time for the minimum of minimum values.                        |
-| [`TimeForMinimumOfMaximumValues`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/AcousticResults/AcousticKineticEnergy.md#AcousticKineticEnergy.TimeForMinimumOfMaximumValues)         | Get the Time for the minimum of maximum values.                        |
-| [`LoadStepForMinimumOfMinimumValues`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/AcousticResults/AcousticKineticEnergy.md#AcousticKineticEnergy.LoadStepForMinimumOfMinimumValues) | Get the Load Step for the minimum of minimum values.                   |
-| [`LoadStepForMinimumOfMaximumValues`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/AcousticResults/AcousticKineticEnergy.md#AcousticKineticEnergy.LoadStepForMinimumOfMaximumValues) | Get the Load Step for the minimum of maximum values.                   |
-| [`TimeForMaximumOfMinimumValues`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/AcousticResults/AcousticKineticEnergy.md#AcousticKineticEnergy.TimeForMaximumOfMinimumValues)         | Get the Time for the maximum of minimum values.                        |
-| [`TimeForMaximumOfMaximumValues`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/AcousticResults/AcousticKineticEnergy.md#AcousticKineticEnergy.TimeForMaximumOfMaximumValues)         | Get the Time for the maximum of maximum values.                        |
-| [`LoadStepForMaximumOfMinimumValues`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/AcousticResults/AcousticKineticEnergy.md#AcousticKineticEnergy.LoadStepForMaximumOfMinimumValues) | Get the Load Step for the maximum of minimum values.                   |
-| [`LoadStepForMaximumOfMaximumValues`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/AcousticResults/AcousticKineticEnergy.md#AcousticKineticEnergy.LoadStepForMaximumOfMaximumValues) | Get the Load Step for the maximum of maximum values.                   |
-| [`IsSolved`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/AcousticResults/AcousticKineticEnergy.md#AcousticKineticEnergy.IsSolved)                                                   | Gets the IsSolved.                                                     |
-| [`CoordinateSystem`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/AcousticResults/AcousticKineticEnergy.md#AcousticKineticEnergy.CoordinateSystem)                                   | Gets or sets the Coordinate System.                                    |
-| [`ScopingMethod`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/AcousticResults/AcousticKineticEnergy.md#AcousticKineticEnergy.ScopingMethod)                                         | Gets or sets the ScopingMethod.                                        |
-| [`SetNumber`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/AcousticResults/AcousticKineticEnergy.md#AcousticKineticEnergy.SetNumber)                                                 | Gets or sets the Set Number.                                           |
-| [`CombinationNumber`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/AcousticResults/AcousticKineticEnergy.md#AcousticKineticEnergy.CombinationNumber)                                 | Gets or sets the Combination Number for a Solution Combination result. |
-| [`SolutionCombinationDriver`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/AcousticResults/AcousticKineticEnergy.md#AcousticKineticEnergy.SolutionCombinationDriver)                 | Gets or sets the SolutionCombinationDriver.                            |
-| [`Path`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/AcousticResults/AcousticKineticEnergy.md#AcousticKineticEnergy.Path)                                                           | Path property.                                                         |
-| [`Surface`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/AcousticResults/AcousticKineticEnergy.md#AcousticKineticEnergy.Surface)                                                     | Surface property.                                                      |
-| [`NamedSelections`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/AcousticResults/AcousticKineticEnergy.md#AcousticKineticEnergy.NamedSelections)                                     | Gets or sets the NamedSelections.                                      |
-| [`WaterfallPanelShowTextOnMosaic`](#AcousticKineticEnergy.WaterfallPanelShowTextOnMosaic)                                                                                                                 | Gets or sets the Waterfall Panel Mosaic Text Property.                 |
-| [`CrackFrontNumber`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/AcousticResults/AcousticKineticEnergy.md#AcousticKineticEnergy.CrackFrontNumber)                                   | Gets or sets the CrackFrontNumber.                                     |
-| [`GlobalIDs`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/AcousticResults/AcousticKineticEnergy.md#AcousticKineticEnergy.GlobalIDs)                                                 | Gets or sets the GlobalIDs.                                            |
-| [`Identifier`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/AcousticResults/AcousticKineticEnergy.md#AcousticKineticEnergy.Identifier)                                               | Gets or sets the Identifier.                                           |
-| [`IterationNumber`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/AcousticResults/AcousticKineticEnergy.md#AcousticKineticEnergy.IterationNumber)                                     | Gets the IterationNumber.                                              |
-| [`LoadStep`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/AcousticResults/AcousticKineticEnergy.md#AcousticKineticEnergy.LoadStep)                                                   | Gets the LoadStep.                                                     |
-| [`MaximumOccursOn`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/AcousticResults/AcousticKineticEnergy.md#AcousticKineticEnergy.MaximumOccursOn)                                     | Gets the MaximumOccursOn.                                              |
-| [`MinimumOccursOn`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/AcousticResults/AcousticKineticEnergy.md#AcousticKineticEnergy.MinimumOccursOn)                                     | Gets the MinimumOccursOn.                                              |
-| [`LoadStepNumber`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/AcousticResults/AcousticKineticEnergy.md#AcousticKineticEnergy.LoadStepNumber)                                       | Gets or sets the LoadStepNumber.                                       |
-| [`SolverComponentIDs`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/AcousticResults/AcousticKineticEnergy.md#AcousticKineticEnergy.SolverComponentIDs)                               | Gets or sets the SolverComponentIDs.                                   |
-| [`Substep`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/AcousticResults/AcousticKineticEnergy.md#AcousticKineticEnergy.Substep)                                                     | Gets the Substep.                                                      |
-| [`Average`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/AcousticResults/AcousticKineticEnergy.md#AcousticKineticEnergy.Average)                                                     | Gets the Average.                                                      |
-| [`Maximum`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/AcousticResults/AcousticKineticEnergy.md#AcousticKineticEnergy.Maximum)                                                     | Gets the Maximum.                                                      |
-| [`MaximumOfMaximumOverTime`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/AcousticResults/AcousticKineticEnergy.md#AcousticKineticEnergy.MaximumOfMaximumOverTime)                   | Gets the MaximumOfMaximumOverTime.                                     |
-| [`MaximumOfMinimumOverTime`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/AcousticResults/AcousticKineticEnergy.md#AcousticKineticEnergy.MaximumOfMinimumOverTime)                   | Gets the MaximumOfMinimumOverTime.                                     |
-| [`Minimum`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/AcousticResults/AcousticKineticEnergy.md#AcousticKineticEnergy.Minimum)                                                     | Gets the Minimum.                                                      |
-| [`MinimumOfMaximumOverTime`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/AcousticResults/AcousticKineticEnergy.md#AcousticKineticEnergy.MinimumOfMaximumOverTime)                   | Gets the MinimumOfMaximumOverTime.                                     |
-| [`MinimumOfMinimumOverTime`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/AcousticResults/AcousticKineticEnergy.md#AcousticKineticEnergy.MinimumOfMinimumOverTime)                   | Gets the MinimumOfMinimumOverTime.                                     |
-| [`Time`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/AcousticResults/AcousticKineticEnergy.md#AcousticKineticEnergy.Time)                                                           | Gets the Time.                                                         |
-| [`DisplayTime`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/AcousticResults/AcousticKineticEnergy.md#AcousticKineticEnergy.DisplayTime)                                             | Gets or sets the DisplayTime.                                          |
-| [`GraphControlsXAxis`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/AcousticResults/AcousticKineticEnergy.md#AcousticKineticEnergy.GraphControlsXAxis)                               | Gets or sets the GraphControlsXAxis.                                   |
-| [`DisplayOption`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/AcousticResults/AcousticKineticEnergy.md#AcousticKineticEnergy.DisplayOption)                                         | Gets or sets the DisplayOption.                                        |
-| [`DpfEvaluation`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/AcousticResults/AcousticKineticEnergy.md#AcousticKineticEnergy.DpfEvaluation)                                         | Gets or sets the DpfEvaluation.                                        |
-| [`By`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/AcousticResults/AcousticKineticEnergy.md#AcousticKineticEnergy.By)                                                               | Gets or sets the By.                                                   |
-| [`ItemType`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/AcousticResults/AcousticKineticEnergy.md#AcousticKineticEnergy.ItemType)                                                   | Gets or sets the ItemType.                                             |
-| [`CalculateTimeHistory`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/AcousticResults/AcousticKineticEnergy.md#AcousticKineticEnergy.CalculateTimeHistory)                           | Gets or sets the CalculateTimeHistory.                                 |
-| [`Suppressed`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/AcousticResults/AcousticKineticEnergy.md#AcousticKineticEnergy.Suppressed)                                               | Gets or sets the Suppressed.                                           |
-| [`Children`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/AcousticResults/AcousticKineticEnergy.md#AcousticKineticEnergy.Children)                                                   | Gets the list of children.                                             |
-| [`Comments`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/AcousticResults/AcousticKineticEnergy.md#AcousticKineticEnergy.Comments)                                                   | Gets the list of associated comments.                                  |
-| [`Figures`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/AcousticResults/AcousticKineticEnergy.md#AcousticKineticEnergy.Figures)                                                     | Gets the list of associated figures.                                   |
-| [`Images`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/AcousticResults/AcousticKineticEnergy.md#AcousticKineticEnergy.Images)                                                       | Gets the list of associated images.                                    |
-| [`InternalObject`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/AcousticResults/AcousticKineticEnergy.md#id0)                                                                        | Gets the internal object. For advanced usage only.                     |
-| [`Properties`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/AcousticResults/AcousticKineticEnergy.md#AcousticKineticEnergy.Properties)                                               | Gets the list of properties for this object.                           |
-| [`VisibleProperties`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/AcousticResults/AcousticKineticEnergy.md#AcousticKineticEnergy.VisibleProperties)                                 | Gets the list of properties that are visible for this object.          |
+|-------------------------------------------------------------------------------------------------|------------------------------------------------------------------------|
+| [`Amplitude`](#AcousticKineticEnergy.Amplitude)                                                 | Gets or sets the Amplitude.                                            |
+| [`Average`](#AcousticKineticEnergy.Average)                                                     | Gets the Average.                                                      |
+| [`By`](#AcousticKineticEnergy.By)                                                               | Gets or sets the By.                                                   |
+| [`CalculateTimeHistory`](#AcousticKineticEnergy.CalculateTimeHistory)                           | Gets or sets the CalculateTimeHistory.                                 |
+| [`Children`](#AcousticKineticEnergy.Children)                                                   | Gets the list of children.                                             |
+| [`CombinationNumber`](#AcousticKineticEnergy.CombinationNumber)                                 | Gets or sets the Combination Number for a Solution Combination result. |
+| [`Comments`](#AcousticKineticEnergy.Comments)                                                   | Gets the list of associated comments.                                  |
+| [`CoordinateSystem`](#AcousticKineticEnergy.CoordinateSystem)                                   | Gets or sets the Coordinate System.                                    |
+| [`CrackFrontNumber`](#AcousticKineticEnergy.CrackFrontNumber)                                   | Gets or sets the CrackFrontNumber.                                     |
+| [`DampedFrequency`](#AcousticKineticEnergy.DampedFrequency)                                     | Gets the DampedFrequency.                                              |
+| [`DataModelObjectCategory`](#AcousticKineticEnergy.DataModelObjectCategory)                     | Gets the current DataModelObject’s category.                           |
+| [`DisplayOption`](#AcousticKineticEnergy.DisplayOption)                                         | Gets or sets the DisplayOption.                                        |
+| [`DisplayTime`](#AcousticKineticEnergy.DisplayTime)                                             | Gets or sets the DisplayTime.                                          |
+| [`DpfEvaluation`](#AcousticKineticEnergy.DpfEvaluation)                                         | Gets or sets the DpfEvaluation.                                        |
+| [`Figures`](#AcousticKineticEnergy.Figures)                                                     | Gets the list of associated figures.                                   |
+| [`Frequency`](#AcousticKineticEnergy.Frequency)                                                 | Gets or sets the Frequency.                                            |
+| [`GlobalIDs`](#AcousticKineticEnergy.GlobalIDs)                                                 | Gets or sets the GlobalIDs.                                            |
+| [`GraphControlsXAxis`](#AcousticKineticEnergy.GraphControlsXAxis)                               | Gets or sets the GraphControlsXAxis.                                   |
+| [`Identifier`](#AcousticKineticEnergy.Identifier)                                               | Gets or sets the Identifier.                                           |
+| [`Images`](#AcousticKineticEnergy.Images)                                                       | Gets the list of associated images.                                    |
+| [`InternalObject`](#AcousticKineticEnergy.InternalObject)                                       | Gets the internal object. For advanced usage only.                     |
+| [`IsSolved`](#AcousticKineticEnergy.IsSolved)                                                   | Gets the IsSolved.                                                     |
+| [`ItemType`](#AcousticKineticEnergy.ItemType)                                                   | Gets or sets the ItemType.                                             |
+| [`IterationNumber`](#AcousticKineticEnergy.IterationNumber)                                     | Gets the IterationNumber.                                              |
+| [`LoadStep`](#AcousticKineticEnergy.LoadStep)                                                   | Gets the LoadStep.                                                     |
+| [`LoadStepForMaximumOfMaximumValues`](#AcousticKineticEnergy.LoadStepForMaximumOfMaximumValues) | Get the Load Step for the maximum of maximum values.                   |
+| [`LoadStepForMaximumOfMinimumValues`](#AcousticKineticEnergy.LoadStepForMaximumOfMinimumValues) | Get the Load Step for the maximum of minimum values.                   |
+| [`LoadStepForMinimumOfMaximumValues`](#AcousticKineticEnergy.LoadStepForMinimumOfMaximumValues) | Get the Load Step for the minimum of maximum values.                   |
+| [`LoadStepForMinimumOfMinimumValues`](#AcousticKineticEnergy.LoadStepForMinimumOfMinimumValues) | Get the Load Step for the minimum of minimum values.                   |
+| [`LoadStepNumber`](#AcousticKineticEnergy.LoadStepNumber)                                       | Gets or sets the LoadStepNumber.                                       |
+| [`Location`](#AcousticKineticEnergy.Location)                                                   | Gets or sets the Location.                                             |
+| [`LogarithmicDecrement`](#AcousticKineticEnergy.LogarithmicDecrement)                           | Gets the LogarithmicDecrement.                                         |
+| [`Maximum`](#AcousticKineticEnergy.Maximum)                                                     | Gets the Maximum.                                                      |
+| [`MaximumOccursOn`](#AcousticKineticEnergy.MaximumOccursOn)                                     | Gets the MaximumOccursOn.                                              |
+| [`MaximumOfMaximumOverTime`](#AcousticKineticEnergy.MaximumOfMaximumOverTime)                   | Gets the MaximumOfMaximumOverTime.                                     |
+| [`MaximumOfMinimumOverTime`](#AcousticKineticEnergy.MaximumOfMinimumOverTime)                   | Gets the MaximumOfMinimumOverTime.                                     |
+| [`Minimum`](#AcousticKineticEnergy.Minimum)                                                     | Gets the Minimum.                                                      |
+| [`MinimumOccursOn`](#AcousticKineticEnergy.MinimumOccursOn)                                     | Gets the MinimumOccursOn.                                              |
+| [`MinimumOfMaximumOverTime`](#AcousticKineticEnergy.MinimumOfMaximumOverTime)                   | Gets the MinimumOfMaximumOverTime.                                     |
+| [`MinimumOfMinimumOverTime`](#AcousticKineticEnergy.MinimumOfMinimumOverTime)                   | Gets the MinimumOfMinimumOverTime.                                     |
+| [`ModalDampingRatio`](#AcousticKineticEnergy.ModalDampingRatio)                                 | Gets the ModalDampingRatio.                                            |
+| [`Mode`](#AcousticKineticEnergy.Mode)                                                           | Gets or sets the Mode.                                                 |
+| [`NamedSelections`](#AcousticKineticEnergy.NamedSelections)                                     | Gets or sets the NamedSelections.                                      |
+| [`Path`](#AcousticKineticEnergy.Path)                                                           | Path property.                                                         |
+| [`PlotData`](#AcousticKineticEnergy.PlotData)                                                   | Gets the result table.                                                 |
+| [`Properties`](#AcousticKineticEnergy.Properties)                                               | Gets the list of properties for this object.                           |
+| [`ReportedFrequency`](#AcousticKineticEnergy.ReportedFrequency)                                 | Gets the ReportedFrequency.                                            |
+| [`ScopingMethod`](#AcousticKineticEnergy.ScopingMethod)                                         | Gets or sets the ScopingMethod.                                        |
+| [`SetNumber`](#AcousticKineticEnergy.SetNumber)                                                 | Gets or sets the Set Number.                                           |
+| [`SolutionCombinationDriver`](#AcousticKineticEnergy.SolutionCombinationDriver)                 | Gets or sets the SolutionCombinationDriver.                            |
+| [`SolverComponentIDs`](#AcousticKineticEnergy.SolverComponentIDs)                               | Gets or sets the SolverComponentIDs.                                   |
+| [`Stability`](#AcousticKineticEnergy.Stability)                                                 | Gets the Stability.                                                    |
+| [`Substep`](#AcousticKineticEnergy.Substep)                                                     | Gets the Substep.                                                      |
+| [`Suppressed`](#AcousticKineticEnergy.Suppressed)                                               | Gets or sets the Suppressed.                                           |
+| [`Surface`](#AcousticKineticEnergy.Surface)                                                     | Surface property.                                                      |
+| [`SweepingPhase`](#AcousticKineticEnergy.SweepingPhase)                                         | Gets or sets the SweepingPhase.                                        |
+| [`Time`](#AcousticKineticEnergy.Time)                                                           | Gets the Time.                                                         |
+| [`TimeForMaximumOfMaximumValues`](#AcousticKineticEnergy.TimeForMaximumOfMaximumValues)         | Get the Time for the maximum of maximum values.                        |
+| [`TimeForMaximumOfMinimumValues`](#AcousticKineticEnergy.TimeForMaximumOfMinimumValues)         | Get the Time for the maximum of minimum values.                        |
+| [`TimeForMinimumOfMaximumValues`](#AcousticKineticEnergy.TimeForMinimumOfMaximumValues)         | Get the Time for the minimum of maximum values.                        |
+| [`TimeForMinimumOfMinimumValues`](#AcousticKineticEnergy.TimeForMinimumOfMinimumValues)         | Get the Time for the minimum of minimum values.                        |
+| [`VisibleProperties`](#AcousticKineticEnergy.VisibleProperties)                                 | Gets the list of properties that are visible for this object.          |
+| [`WaterfallPanelShowTextOnMosaic`](#AcousticKineticEnergy.WaterfallPanelShowTextOnMosaic)       | Gets or sets the Waterfall Panel Mosaic Text Property.                 |
 
 <a id="property-detail"></a>
 
 ## Property detail
-
-<a id="AcousticKineticEnergy.InternalObject"></a>
-
-### *property* AcousticKineticEnergy.InternalObject *: Ansys.Common.Interop.DSObjectsAuto.IDSResultAuto | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets the internal object. For advanced usage only.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="AcousticKineticEnergy.DataModelObjectCategory"></a>
-
-### *property* AcousticKineticEnergy.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets the current DataModelObject's category.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="AcousticKineticEnergy.Mode"></a>
-
-### *property* AcousticKineticEnergy.Mode *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the Mode.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="AcousticKineticEnergy.ReportedFrequency"></a>
-
-### *property* AcousticKineticEnergy.ReportedFrequency *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets the ReportedFrequency.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="AcousticKineticEnergy.DampedFrequency"></a>
-
-### *property* AcousticKineticEnergy.DampedFrequency *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets the DampedFrequency.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="AcousticKineticEnergy.LogarithmicDecrement"></a>
-
-### *property* AcousticKineticEnergy.LogarithmicDecrement *: System.Double | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets the LogarithmicDecrement.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="AcousticKineticEnergy.ModalDampingRatio"></a>
-
-### *property* AcousticKineticEnergy.ModalDampingRatio *: System.Double | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets the ModalDampingRatio.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="AcousticKineticEnergy.Stability"></a>
-
-### *property* AcousticKineticEnergy.Stability *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets the Stability.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="AcousticKineticEnergy.SweepingPhase"></a>
-
-### *property* AcousticKineticEnergy.SweepingPhase *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the SweepingPhase.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="AcousticKineticEnergy.Frequency"></a>
-
-### *property* AcousticKineticEnergy.Frequency *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the Frequency.
-
-<!-- !! processed by numpydoc !! -->
 
 <a id="AcousticKineticEnergy.Amplitude"></a>
 
@@ -207,91 +125,51 @@ Gets or sets the Amplitude.
 
 <!-- !! processed by numpydoc !! -->
 
-<a id="AcousticKineticEnergy.PlotData"></a>
+<a id="AcousticKineticEnergy.Average"></a>
 
-### *property* AcousticKineticEnergy.PlotData *: [Ansys.Mechanical.DataModel.Results.ResultDataTable](../../../../../Mechanical/DataModel/Results/ResultDataTable.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Results.ResultDataTable) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AcousticKineticEnergy.Average *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets the result table.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="AcousticKineticEnergy.Location"></a>
-
-### *property* AcousticKineticEnergy.Location *: Ansys.ACT.Interfaces.Common.ISelectionInfo | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the Location.
+Gets the Average.
 
 <!-- !! processed by numpydoc !! -->
 
-<a id="AcousticKineticEnergy.TimeForMinimumOfMinimumValues"></a>
+<a id="AcousticKineticEnergy.By"></a>
 
-### *property* AcousticKineticEnergy.TimeForMinimumOfMinimumValues *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AcousticKineticEnergy.By *: [Ansys.Mechanical.DataModel.Enums.SetDriverStyle](../../../../../../../v242/Ansys/Mechanical/DataModel/Enums/SetDriverStyle.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.SetDriverStyle) | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Get the Time for the minimum of minimum values.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="AcousticKineticEnergy.TimeForMinimumOfMaximumValues"></a>
-
-### *property* AcousticKineticEnergy.TimeForMinimumOfMaximumValues *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Get the Time for the minimum of maximum values.
+Gets or sets the By.
 
 <!-- !! processed by numpydoc !! -->
 
-<a id="AcousticKineticEnergy.LoadStepForMinimumOfMinimumValues"></a>
+<a id="AcousticKineticEnergy.CalculateTimeHistory"></a>
 
-### *property* AcousticKineticEnergy.LoadStepForMinimumOfMinimumValues *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AcousticKineticEnergy.CalculateTimeHistory *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Get the Load Step for the minimum of minimum values.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="AcousticKineticEnergy.LoadStepForMinimumOfMaximumValues"></a>
-
-### *property* AcousticKineticEnergy.LoadStepForMinimumOfMaximumValues *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Get the Load Step for the minimum of maximum values.
+Gets or sets the CalculateTimeHistory.
 
 <!-- !! processed by numpydoc !! -->
 
-<a id="AcousticKineticEnergy.TimeForMaximumOfMinimumValues"></a>
+<a id="AcousticKineticEnergy.Children"></a>
 
-### *property* AcousticKineticEnergy.TimeForMaximumOfMinimumValues *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AcousticKineticEnergy.Children *: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Get the Time for the maximum of minimum values.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="AcousticKineticEnergy.TimeForMaximumOfMaximumValues"></a>
-
-### *property* AcousticKineticEnergy.TimeForMaximumOfMaximumValues *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Get the Time for the maximum of maximum values.
+Gets the list of children.
 
 <!-- !! processed by numpydoc !! -->
 
-<a id="AcousticKineticEnergy.LoadStepForMaximumOfMinimumValues"></a>
+<a id="AcousticKineticEnergy.CombinationNumber"></a>
 
-### *property* AcousticKineticEnergy.LoadStepForMaximumOfMinimumValues *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AcousticKineticEnergy.CombinationNumber *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Get the Load Step for the maximum of minimum values.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="AcousticKineticEnergy.LoadStepForMaximumOfMaximumValues"></a>
-
-### *property* AcousticKineticEnergy.LoadStepForMaximumOfMaximumValues *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Get the Load Step for the maximum of maximum values.
+Gets or sets the Combination Number for a Solution Combination result.
 
 <!-- !! processed by numpydoc !! -->
 
-<a id="AcousticKineticEnergy.IsSolved"></a>
+<a id="AcousticKineticEnergy.Comments"></a>
 
-### *property* AcousticKineticEnergy.IsSolved *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AcousticKineticEnergy.Comments *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Comment](../../Comment.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets the IsSolved.
+Gets the list of associated comments.
 
 <!-- !! processed by numpydoc !! -->
 
@@ -305,75 +183,67 @@ Accepts/Returns None for Fiber Coordinate System for a result that is sub scoped
 
 <!-- !! processed by numpydoc !! -->
 
-<a id="AcousticKineticEnergy.ScopingMethod"></a>
-
-### *property* AcousticKineticEnergy.ScopingMethod *: [Ansys.Mechanical.DataModel.Enums.GeometryDefineByType](../../../../../Mechanical/DataModel/Enums/GeometryDefineByType.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.GeometryDefineByType) | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the ScopingMethod.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="AcousticKineticEnergy.SetNumber"></a>
-
-### *property* AcousticKineticEnergy.SetNumber *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the Set Number.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="AcousticKineticEnergy.CombinationNumber"></a>
-
-### *property* AcousticKineticEnergy.CombinationNumber *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the Combination Number for a Solution Combination result.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="AcousticKineticEnergy.SolutionCombinationDriver"></a>
-
-### *property* AcousticKineticEnergy.SolutionCombinationDriver *: [Ansys.Mechanical.DataModel.Enums.SolutionCombinationDriverStyle](../../../../../Mechanical/DataModel/Enums/SolutionCombinationDriverStyle.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.SolutionCombinationDriverStyle) | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the SolutionCombinationDriver.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="AcousticKineticEnergy.Path"></a>
-
-### *property* AcousticKineticEnergy.Path *: [Ansys.ACT.Automation.Mechanical.Path](../../Path.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Path) | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Path property.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="AcousticKineticEnergy.Surface"></a>
-
-### *property* AcousticKineticEnergy.Surface *: [Ansys.ACT.Automation.Mechanical.Surface](../../Surface.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Surface) | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Surface property.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="AcousticKineticEnergy.NamedSelections"></a>
-
-### *property* AcousticKineticEnergy.NamedSelections *: System.Collections.Generic.IEnumerable[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the NamedSelections.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="AcousticKineticEnergy.WaterfallPanelShowTextOnMosaic"></a>
-
-### *property* AcousticKineticEnergy.WaterfallPanelShowTextOnMosaic *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the Waterfall Panel Mosaic Text Property.
-
-<!-- !! processed by numpydoc !! -->
-
 <a id="AcousticKineticEnergy.CrackFrontNumber"></a>
 
 ### *property* AcousticKineticEnergy.CrackFrontNumber *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the CrackFrontNumber.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="AcousticKineticEnergy.DampedFrequency"></a>
+
+### *property* AcousticKineticEnergy.DampedFrequency *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets the DampedFrequency.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="AcousticKineticEnergy.DataModelObjectCategory"></a>
+
+### *property* AcousticKineticEnergy.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../../../v242/Ansys/Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets the current DataModelObject’s category.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="AcousticKineticEnergy.DisplayOption"></a>
+
+### *property* AcousticKineticEnergy.DisplayOption *: [Ansys.Mechanical.DataModel.Enums.ResultAveragingType](../../../../../../../v242/Ansys/Mechanical/DataModel/Enums/ResultAveragingType.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.ResultAveragingType) | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the DisplayOption.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="AcousticKineticEnergy.DisplayTime"></a>
+
+### *property* AcousticKineticEnergy.DisplayTime *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the DisplayTime.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="AcousticKineticEnergy.DpfEvaluation"></a>
+
+### *property* AcousticKineticEnergy.DpfEvaluation *: [Ansys.Mechanical.DataModel.Enums.DpfEvaluationType](../../../../../../../v242/Ansys/Mechanical/DataModel/Enums/DpfEvaluationType.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.DpfEvaluationType) | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the DpfEvaluation.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="AcousticKineticEnergy.Figures"></a>
+
+### *property* AcousticKineticEnergy.Figures *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Figure](../../Figure.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets the list of associated figures.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="AcousticKineticEnergy.Frequency"></a>
+
+### *property* AcousticKineticEnergy.Frequency *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the Frequency.
 
 <!-- !! processed by numpydoc !! -->
 
@@ -385,11 +255,51 @@ Gets or sets the GlobalIDs.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="AcousticKineticEnergy.GraphControlsXAxis"></a>
+
+### *property* AcousticKineticEnergy.GraphControlsXAxis *: [Ansys.Mechanical.DataModel.Enums.GraphControlsXAxis](../../../../../../../v242/Ansys/Mechanical/DataModel/Enums/GraphControlsXAxis.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.GraphControlsXAxis) | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the GraphControlsXAxis.
+
+<!-- !! processed by numpydoc !! -->
+
 <a id="AcousticKineticEnergy.Identifier"></a>
 
 ### *property* AcousticKineticEnergy.Identifier *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Identifier.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="AcousticKineticEnergy.Images"></a>
+
+### *property* AcousticKineticEnergy.Images *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Image](../../Image.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets the list of associated images.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="AcousticKineticEnergy.InternalObject"></a>
+
+### *property* AcousticKineticEnergy.InternalObject *: Ansys.Common.Interop.DSObjectsAuto.IDSResultAuto | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets the internal object. For advanced usage only.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="AcousticKineticEnergy.IsSolved"></a>
+
+### *property* AcousticKineticEnergy.IsSolved *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets the IsSolved.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="AcousticKineticEnergy.ItemType"></a>
+
+### *property* AcousticKineticEnergy.ItemType *: [Ansys.Mechanical.DataModel.Enums.ResultFileItemType](../../../../../../../v242/Ansys/Mechanical/DataModel/Enums/ResultFileItemType.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.ResultFileItemType) | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the ItemType.
 
 <!-- !! processed by numpydoc !! -->
 
@@ -409,19 +319,35 @@ Gets the LoadStep.
 
 <!-- !! processed by numpydoc !! -->
 
-<a id="AcousticKineticEnergy.MaximumOccursOn"></a>
+<a id="AcousticKineticEnergy.LoadStepForMaximumOfMaximumValues"></a>
 
-### *property* AcousticKineticEnergy.MaximumOccursOn *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AcousticKineticEnergy.LoadStepForMaximumOfMaximumValues *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets the MaximumOccursOn.
+Get the Load Step for the maximum of maximum values.
 
 <!-- !! processed by numpydoc !! -->
 
-<a id="AcousticKineticEnergy.MinimumOccursOn"></a>
+<a id="AcousticKineticEnergy.LoadStepForMaximumOfMinimumValues"></a>
 
-### *property* AcousticKineticEnergy.MinimumOccursOn *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AcousticKineticEnergy.LoadStepForMaximumOfMinimumValues *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets the MinimumOccursOn.
+Get the Load Step for the maximum of minimum values.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="AcousticKineticEnergy.LoadStepForMinimumOfMaximumValues"></a>
+
+### *property* AcousticKineticEnergy.LoadStepForMinimumOfMaximumValues *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Get the Load Step for the minimum of maximum values.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="AcousticKineticEnergy.LoadStepForMinimumOfMinimumValues"></a>
+
+### *property* AcousticKineticEnergy.LoadStepForMinimumOfMinimumValues *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Get the Load Step for the minimum of minimum values.
 
 <!-- !! processed by numpydoc !! -->
 
@@ -433,27 +359,19 @@ Gets or sets the LoadStepNumber.
 
 <!-- !! processed by numpydoc !! -->
 
-<a id="AcousticKineticEnergy.SolverComponentIDs"></a>
+<a id="AcousticKineticEnergy.Location"></a>
 
-### *property* AcousticKineticEnergy.SolverComponentIDs *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AcousticKineticEnergy.Location *: Ansys.ACT.Interfaces.Common.ISelectionInfo | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets or sets the SolverComponentIDs.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="AcousticKineticEnergy.Substep"></a>
-
-### *property* AcousticKineticEnergy.Substep *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets the Substep.
+Gets or sets the Location.
 
 <!-- !! processed by numpydoc !! -->
 
-<a id="AcousticKineticEnergy.Average"></a>
+<a id="AcousticKineticEnergy.LogarithmicDecrement"></a>
 
-### *property* AcousticKineticEnergy.Average *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AcousticKineticEnergy.LogarithmicDecrement *: System.Double | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets the Average.
+Gets the LogarithmicDecrement.
 
 <!-- !! processed by numpydoc !! -->
 
@@ -462,6 +380,14 @@ Gets the Average.
 ### *property* AcousticKineticEnergy.Maximum *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the Maximum.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="AcousticKineticEnergy.MaximumOccursOn"></a>
+
+### *property* AcousticKineticEnergy.MaximumOccursOn *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets the MaximumOccursOn.
 
 <!-- !! processed by numpydoc !! -->
 
@@ -489,6 +415,14 @@ Gets the Minimum.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="AcousticKineticEnergy.MinimumOccursOn"></a>
+
+### *property* AcousticKineticEnergy.MinimumOccursOn *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets the MinimumOccursOn.
+
+<!-- !! processed by numpydoc !! -->
+
 <a id="AcousticKineticEnergy.MinimumOfMaximumOverTime"></a>
 
 ### *property* AcousticKineticEnergy.MinimumOfMaximumOverTime *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
@@ -505,115 +439,43 @@ Gets the MinimumOfMinimumOverTime.
 
 <!-- !! processed by numpydoc !! -->
 
-<a id="AcousticKineticEnergy.Time"></a>
+<a id="AcousticKineticEnergy.ModalDampingRatio"></a>
 
-### *property* AcousticKineticEnergy.Time *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AcousticKineticEnergy.ModalDampingRatio *: System.Double | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets the Time.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="AcousticKineticEnergy.DisplayTime"></a>
-
-### *property* AcousticKineticEnergy.DisplayTime *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the DisplayTime.
+Gets the ModalDampingRatio.
 
 <!-- !! processed by numpydoc !! -->
 
-<a id="AcousticKineticEnergy.GraphControlsXAxis"></a>
+<a id="AcousticKineticEnergy.Mode"></a>
 
-### *property* AcousticKineticEnergy.GraphControlsXAxis *: [Ansys.Mechanical.DataModel.Enums.GraphControlsXAxis](../../../../../Mechanical/DataModel/Enums/GraphControlsXAxis.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.GraphControlsXAxis) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AcousticKineticEnergy.Mode *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets or sets the GraphControlsXAxis.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="AcousticKineticEnergy.DisplayOption"></a>
-
-### *property* AcousticKineticEnergy.DisplayOption *: [Ansys.Mechanical.DataModel.Enums.ResultAveragingType](../../../../../Mechanical/DataModel/Enums/ResultAveragingType.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.ResultAveragingType) | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the DisplayOption.
+Gets or sets the Mode.
 
 <!-- !! processed by numpydoc !! -->
 
-<a id="AcousticKineticEnergy.DpfEvaluation"></a>
+<a id="AcousticKineticEnergy.NamedSelections"></a>
 
-### *property* AcousticKineticEnergy.DpfEvaluation *: [Ansys.Mechanical.DataModel.Enums.DpfEvaluationType](../../../../../Mechanical/DataModel/Enums/DpfEvaluationType.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DpfEvaluationType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AcousticKineticEnergy.NamedSelections *: System.Collections.Generic.IEnumerable[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets or sets the DpfEvaluation.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="AcousticKineticEnergy.By"></a>
-
-### *property* AcousticKineticEnergy.By *: [Ansys.Mechanical.DataModel.Enums.SetDriverStyle](../../../../../Mechanical/DataModel/Enums/SetDriverStyle.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.SetDriverStyle) | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the By.
+Gets or sets the NamedSelections.
 
 <!-- !! processed by numpydoc !! -->
 
-<a id="AcousticKineticEnergy.ItemType"></a>
+<a id="AcousticKineticEnergy.Path"></a>
 
-### *property* AcousticKineticEnergy.ItemType *: [Ansys.Mechanical.DataModel.Enums.ResultFileItemType](../../../../../Mechanical/DataModel/Enums/ResultFileItemType.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.ResultFileItemType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AcousticKineticEnergy.Path *: [Ansys.ACT.Automation.Mechanical.Path](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Path.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Path) | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets or sets the ItemType.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="AcousticKineticEnergy.CalculateTimeHistory"></a>
-
-### *property* AcousticKineticEnergy.CalculateTimeHistory *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the CalculateTimeHistory.
+Path property.
 
 <!-- !! processed by numpydoc !! -->
 
-<a id="AcousticKineticEnergy.Suppressed"></a>
+<a id="AcousticKineticEnergy.PlotData"></a>
 
-### *property* AcousticKineticEnergy.Suppressed *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AcousticKineticEnergy.PlotData *: [Ansys.Mechanical.DataModel.Results.ResultDataTable](../../../../../../../v242/Ansys/Mechanical/DataModel/Results/ResultDataTable.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Results.ResultDataTable) | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets or sets the Suppressed.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="AcousticKineticEnergy.Children"></a>
-
-### *property* AcousticKineticEnergy.Children *: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets the list of children.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="AcousticKineticEnergy.Comments"></a>
-
-### *property* AcousticKineticEnergy.Comments *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Comment](../../Comment.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets the list of associated comments.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="AcousticKineticEnergy.Figures"></a>
-
-### *property* AcousticKineticEnergy.Figures *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Figure](../../Figure.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets the list of associated figures.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="AcousticKineticEnergy.Images"></a>
-
-### *property* AcousticKineticEnergy.Images *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Image](../../Image.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets the list of associated images.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="id0"></a>
-
-### *property* AcousticKineticEnergy.InternalObject *: System.Object | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets the internal object. For advanced usage only.
+Gets the result table.
 
 <!-- !! processed by numpydoc !! -->
 
@@ -625,6 +487,126 @@ Gets the list of properties for this object.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="AcousticKineticEnergy.ReportedFrequency"></a>
+
+### *property* AcousticKineticEnergy.ReportedFrequency *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets the ReportedFrequency.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="AcousticKineticEnergy.ScopingMethod"></a>
+
+### *property* AcousticKineticEnergy.ScopingMethod *: [Ansys.Mechanical.DataModel.Enums.GeometryDefineByType](../../../../../../../v242/Ansys/Mechanical/DataModel/Enums/GeometryDefineByType.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.GeometryDefineByType) | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the ScopingMethod.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="AcousticKineticEnergy.SetNumber"></a>
+
+### *property* AcousticKineticEnergy.SetNumber *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the Set Number.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="AcousticKineticEnergy.SolutionCombinationDriver"></a>
+
+### *property* AcousticKineticEnergy.SolutionCombinationDriver *: [Ansys.Mechanical.DataModel.Enums.SolutionCombinationDriverStyle](../../../../../../../v242/Ansys/Mechanical/DataModel/Enums/SolutionCombinationDriverStyle.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.SolutionCombinationDriverStyle) | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the SolutionCombinationDriver.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="AcousticKineticEnergy.SolverComponentIDs"></a>
+
+### *property* AcousticKineticEnergy.SolverComponentIDs *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the SolverComponentIDs.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="AcousticKineticEnergy.Stability"></a>
+
+### *property* AcousticKineticEnergy.Stability *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets the Stability.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="AcousticKineticEnergy.Substep"></a>
+
+### *property* AcousticKineticEnergy.Substep *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets the Substep.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="AcousticKineticEnergy.Suppressed"></a>
+
+### *property* AcousticKineticEnergy.Suppressed *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the Suppressed.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="AcousticKineticEnergy.Surface"></a>
+
+### *property* AcousticKineticEnergy.Surface *: [Ansys.ACT.Automation.Mechanical.Surface](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Surface.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Surface) | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Surface property.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="AcousticKineticEnergy.SweepingPhase"></a>
+
+### *property* AcousticKineticEnergy.SweepingPhase *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the SweepingPhase.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="AcousticKineticEnergy.Time"></a>
+
+### *property* AcousticKineticEnergy.Time *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets the Time.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="AcousticKineticEnergy.TimeForMaximumOfMaximumValues"></a>
+
+### *property* AcousticKineticEnergy.TimeForMaximumOfMaximumValues *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Get the Time for the maximum of maximum values.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="AcousticKineticEnergy.TimeForMaximumOfMinimumValues"></a>
+
+### *property* AcousticKineticEnergy.TimeForMaximumOfMinimumValues *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Get the Time for the maximum of minimum values.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="AcousticKineticEnergy.TimeForMinimumOfMaximumValues"></a>
+
+### *property* AcousticKineticEnergy.TimeForMinimumOfMaximumValues *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Get the Time for the minimum of maximum values.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="AcousticKineticEnergy.TimeForMinimumOfMinimumValues"></a>
+
+### *property* AcousticKineticEnergy.TimeForMinimumOfMinimumValues *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Get the Time for the minimum of minimum values.
+
+<!-- !! processed by numpydoc !! -->
+
 <a id="AcousticKineticEnergy.VisibleProperties"></a>
 
 ### *property* AcousticKineticEnergy.VisibleProperties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
@@ -633,79 +615,23 @@ Gets the list of properties that are visible for this object.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="AcousticKineticEnergy.WaterfallPanelShowTextOnMosaic"></a>
+
+### *property* AcousticKineticEnergy.WaterfallPanelShowTextOnMosaic *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the Waterfall Panel Mosaic Text Property.
+
+<!-- !! processed by numpydoc !! -->
+
 <a id="method-detail"></a>
 
 ## Method detail
 
-<a id="AcousticKineticEnergy.ClearGeneratedData"></a>
+<a id="AcousticKineticEnergy.Activate"></a>
 
-### AcousticKineticEnergy.ClearGeneratedData()
+### AcousticKineticEnergy.Activate()
 
-Run the ClearGeneratedData action.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="AcousticKineticEnergy.EvaluateAllResults"></a>
-
-### AcousticKineticEnergy.EvaluateAllResults()
-
-Run the EvaluateAllResults action.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="AcousticKineticEnergy.FetchRemoteResults"></a>
-
-### AcousticKineticEnergy.FetchRemoteResults()
-
-Run the FetchRemoteResult action.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="AcousticKineticEnergy.ExportToTextFile"></a>
-
-### AcousticKineticEnergy.ExportToTextFile(filePath: System.String)
-
-Run the ExportToTextFile action.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="AcousticKineticEnergy.ExportAnimation"></a>
-
-### AcousticKineticEnergy.ExportAnimation(filePath: System.String, format: [Ansys.Mechanical.DataModel.Enums.GraphicsAnimationExportFormat](../../../../../Mechanical/DataModel/Enums/GraphicsAnimationExportFormat.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.GraphicsAnimationExportFormat), settings: [Ansys.Mechanical.Graphics.AnimationExportSettings](../../../../../Mechanical/Graphics/AnimationExportSettings.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.Graphics.AnimationExportSettings))
-
-Run the ExportAnimation action.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="AcousticKineticEnergy.DuplicateWithoutResults"></a>
-
-### AcousticKineticEnergy.DuplicateWithoutResults()
-
-Run the DuplicateWithoutResults action.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="AcousticKineticEnergy.CreateResultsAtAllSets"></a>
-
-### AcousticKineticEnergy.CreateResultsAtAllSets()
-
-Creates results at all sets for results under a solution.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="AcousticKineticEnergy.PromoteToNamedSelection"></a>
-
-### AcousticKineticEnergy.PromoteToNamedSelection()
-
-Run the PromoteToNamedSelection action.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="AcousticKineticEnergy.CreateParameter"></a>
-
-### AcousticKineticEnergy.CreateParameter(propName: System.String)
-
-CreateParameter method.
+Activate the current object.
 
 <!-- !! processed by numpydoc !! -->
 
@@ -717,51 +643,19 @@ Creates a new Alert
 
 <!-- !! processed by numpydoc !! -->
 
-<a id="AcousticKineticEnergy.AddConvergence"></a>
-
-### AcousticKineticEnergy.AddConvergence()
-
-Creates a new Convergence
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="AcousticKineticEnergy.RenameBasedOnDefinition"></a>
-
-### AcousticKineticEnergy.RenameBasedOnDefinition()
-
-Run the RenameBasedOnDefinition action.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="AcousticKineticEnergy.Delete"></a>
-
-### AcousticKineticEnergy.Delete()
-
-Run the Delete action.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="AcousticKineticEnergy.GetChildren"></a>
-
-### AcousticKineticEnergy.GetChildren(recurses: System.Boolean, children: System.Collections.Generic.IList[ChildrenType])
-
-Gets the list of children, filtered by type.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="id1"></a>
-
-### AcousticKineticEnergy.GetChildren(category: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory), recurses: System.Boolean, children: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject])
-
-Gets the list of children, filtered by type.
-
-<!-- !! processed by numpydoc !! -->
-
 <a id="AcousticKineticEnergy.AddComment"></a>
 
 ### AcousticKineticEnergy.AddComment()
 
 Creates a new child Comment.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="AcousticKineticEnergy.AddConvergence"></a>
+
+### AcousticKineticEnergy.AddConvergence()
+
+Creates a new Convergence
 
 <!-- !! processed by numpydoc !! -->
 
@@ -777,17 +671,19 @@ Creates a new child Figure.
 
 ### AcousticKineticEnergy.AddImage(filePath: System.String)
 
+```text
 Creates a new child Image.
 If a filePath is provided, the image will be loaded from that file,
 if not, the image will be a screen capture of the Geometry window.
+```
 
 <!-- !! processed by numpydoc !! -->
 
-<a id="AcousticKineticEnergy.Activate"></a>
+<a id="AcousticKineticEnergy.ClearGeneratedData"></a>
 
-### AcousticKineticEnergy.Activate()
+### AcousticKineticEnergy.ClearGeneratedData()
 
-Activate the current object.
+Run the ClearGeneratedData action.
 
 <!-- !! processed by numpydoc !! -->
 
@@ -799,11 +695,91 @@ Copies all visible properties from this object to another.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="AcousticKineticEnergy.CreateParameter"></a>
+
+### AcousticKineticEnergy.CreateParameter(propName: System.String)
+
+CreateParameter method.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="AcousticKineticEnergy.CreateResultsAtAllSets"></a>
+
+### AcousticKineticEnergy.CreateResultsAtAllSets()
+
+Creates results at all sets for results under a solution.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="AcousticKineticEnergy.Delete"></a>
+
+### AcousticKineticEnergy.Delete()
+
+Run the Delete action.
+
+<!-- !! processed by numpydoc !! -->
+
 <a id="AcousticKineticEnergy.Duplicate"></a>
 
 ### AcousticKineticEnergy.Duplicate()
 
 Creates a copy of the current DataModelObject.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="AcousticKineticEnergy.DuplicateWithoutResults"></a>
+
+### AcousticKineticEnergy.DuplicateWithoutResults()
+
+Run the DuplicateWithoutResults action.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="AcousticKineticEnergy.EvaluateAllResults"></a>
+
+### AcousticKineticEnergy.EvaluateAllResults()
+
+Run the EvaluateAllResults action.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="AcousticKineticEnergy.ExportAnimation"></a>
+
+### AcousticKineticEnergy.ExportAnimation(filePath: System.String, format: [Ansys.Mechanical.DataModel.Enums.GraphicsAnimationExportFormat](../../../../../../../v242/Ansys/Mechanical/DataModel/Enums/GraphicsAnimationExportFormat.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.GraphicsAnimationExportFormat), settings: [Ansys.Mechanical.Graphics.AnimationExportSettings](../../../../../../../v242/Ansys/Mechanical/Graphics/AnimationExportSettings.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.Graphics.AnimationExportSettings))
+
+Run the ExportAnimation action.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="AcousticKineticEnergy.ExportToTextFile"></a>
+
+### AcousticKineticEnergy.ExportToTextFile(filePath: System.String)
+
+Run the ExportToTextFile action.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="AcousticKineticEnergy.FetchRemoteResults"></a>
+
+### AcousticKineticEnergy.FetchRemoteResults()
+
+Run the FetchRemoteResult action.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="AcousticKineticEnergy.GetChildren"></a>
+
+### AcousticKineticEnergy.GetChildren(recurses: System.Boolean, children: System.Collections.Generic.IList[ChildrenType])
+
+Gets the list of children, filtered by type.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="AcousticKineticEnergy.GetParameter"></a>
+
+### AcousticKineticEnergy.GetParameter(propName: System.String)
+
+Gets the parameter corresponding to the given property.
 
 <!-- !! processed by numpydoc !! -->
 
@@ -823,6 +799,25 @@ Run the GroupSimilarObjects action.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="AcousticKineticEnergy.PromoteToNamedSelection"></a>
+
+### AcousticKineticEnergy.PromoteToNamedSelection()
+
+Run the PromoteToNamedSelection action.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="AcousticKineticEnergy.PropertyByAPIName"></a>
+
+### AcousticKineticEnergy.PropertyByAPIName(name: System.String)
+
+```text
+Get a property by its API name.
+If multiple properties have the same API Name, only the first property with that name will be returned.
+```
+
+<!-- !! processed by numpydoc !! -->
+
 <a id="AcousticKineticEnergy.PropertyByName"></a>
 
 ### AcousticKineticEnergy.PropertyByName(name: System.String)
@@ -831,28 +826,19 @@ Get a property by its unique name.
 
 <!-- !! processed by numpydoc !! -->
 
-<a id="AcousticKineticEnergy.PropertyByAPIName"></a>
-
-### AcousticKineticEnergy.PropertyByAPIName(name: System.String)
-
-Get a property by its API name.
-If multiple properties have the same API Name, only the first property with that name will be returned.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="AcousticKineticEnergy.GetParameter"></a>
-
-### AcousticKineticEnergy.GetParameter(propName: System.String)
-
-Gets the parameter corresponding to the given property.
-
-<!-- !! processed by numpydoc !! -->
-
 <a id="AcousticKineticEnergy.RemoveParameter"></a>
 
 ### AcousticKineticEnergy.RemoveParameter(propName: System.String)
 
 Removes the parameter from the parameter set corresponding to the given property.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="AcousticKineticEnergy.RenameBasedOnDefinition"></a>
+
+### AcousticKineticEnergy.RenameBasedOnDefinition()
+
+Run the RenameBasedOnDefinition action.
 
 <!-- !! processed by numpydoc !! -->
 

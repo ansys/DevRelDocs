@@ -1,6 +1,6 @@
 # `LoadVariationSubOption`
 
-
+<a id="ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.LoadVariationSubOption"></a>
 
 #### *class* ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.LoadVariationSubOption
 
@@ -17,32 +17,32 @@ Specifies the LoadVariationSubOption.
 ### Attributes
 
 | Name |
-| ---------------------------------------------------------------------------------------------------------- |
-| [`BulkTemperature`](#LoadVariationSubOption.BulkTemperature) |
-| [`DifferenceOfSurfaceAndBulkTemperature`](#LoadVariationSubOption.DifferenceOfSurfaceAndBulkTemperature) |
-| [`ConvectionEnd`](#LoadVariationSubOption.ConvectionEnd) |
+| ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | [`AverageFilmTemperature`](#LoadVariationSubOption.AverageFilmTemperature) |
+| [`BulkTemperature`](#LoadVariationSubOption.BulkTemperature) |
+| [`ConvectionEnd`](#LoadVariationSubOption.ConvectionEnd) |
+| [`DifferenceOfSurfaceAndBulkTemperature`](#LoadVariationSubOption.DifferenceOfSurfaceAndBulkTemperature) |
 | [`SurfaceTemperature`](#LoadVariationSubOption.SurfaceTemperature) |
 
 <a id="attribute-detail"></a>
 
 ## Attribute detail
 
+<a id="LoadVariationSubOption.AverageFilmTemperature"></a>
+
+### LoadVariationSubOption.AverageFilmTemperature *= 2*
+
 <a id="LoadVariationSubOption.BulkTemperature"></a>
 
 ### LoadVariationSubOption.BulkTemperature *= 4*
-
-<a id="LoadVariationSubOption.DifferenceOfSurfaceAndBulkTemperature"></a>
-
-### LoadVariationSubOption.DifferenceOfSurfaceAndBulkTemperature *= 5*
 
 <a id="LoadVariationSubOption.ConvectionEnd"></a>
 
 ### LoadVariationSubOption.ConvectionEnd *= 6*
 
-<a id="LoadVariationSubOption.AverageFilmTemperature"></a>
+<a id="LoadVariationSubOption.DifferenceOfSurfaceAndBulkTemperature"></a>
 
-### LoadVariationSubOption.AverageFilmTemperature *= 2*
+### LoadVariationSubOption.DifferenceOfSurfaceAndBulkTemperature *= 5*
 
 <a id="LoadVariationSubOption.SurfaceTemperature"></a>
 

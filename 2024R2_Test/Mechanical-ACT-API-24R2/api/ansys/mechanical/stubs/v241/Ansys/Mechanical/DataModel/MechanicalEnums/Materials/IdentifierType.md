@@ -1,6 +1,6 @@
 # `IdentifierType`
 
-
+<a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.MechanicalEnums.Materials.IdentifierType"></a>
 
 #### *class* ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.MechanicalEnums.Materials.IdentifierType
 
@@ -32,9 +32,9 @@ needs changed (search by Name).  Either way a material cannot be added which wou
 ### Attributes
 
 | Name |
-| ------------------------------------------------------------------------------------------------------------------------------- |
-| [`Name`](../../../../../../v242/Ansys/Mechanical/DataModel/MechanicalEnums/Materials/IdentifierType.md#IdentifierType.Name) |
-| [`UUID`](../../../../../../v242/Ansys/Mechanical/DataModel/MechanicalEnums/Materials/IdentifierType.md#IdentifierType.UUID) |
+| ---------------------------------- |
+| [`Name`](#IdentifierType.Name) |
+| [`UUID`](#IdentifierType.UUID) |
 
 <a id="attribute-detail"></a>
 

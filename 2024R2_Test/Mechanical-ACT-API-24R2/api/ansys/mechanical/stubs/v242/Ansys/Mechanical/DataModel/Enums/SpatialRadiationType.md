@@ -1,6 +1,6 @@
 # `SpatialRadiationType`
 
-
+<a id="ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.SpatialRadiationType"></a>
 
 #### *class* ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.SpatialRadiationType
 
@@ -17,7 +17,7 @@ Specifies the SpatialRadiationType.
 ### Attributes
 
 | Name |
-| -------------------------------------------- |
+| ------------------------------------------------------------------------------------------------------------------------ |
 | [`Full`](#SpatialRadiationType.Full) |
 | [`Partial`](#SpatialRadiationType.Partial) |
 

@@ -1,6 +1,6 @@
 # `IModelViewManager`
 
-
+<a id="ansys.mechanical.stubs.v241.Ansys.ACT.Interfaces.Graphics.IModelViewManager"></a>
 
 #### *class* ansys.mechanical.stubs.v241.Ansys.ACT.Interfaces.Graphics.IModelViewManager
 
@@ -15,25 +15,20 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 ### Methods
 
 | Name | Description |
-|---------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------|
-| [`ApplyModelView`](../../../../../v242/Ansys/ACT/Interfaces/Graphics/IModelViewManager.md#id0)                                  | Apply the view specified by index.                                        |
-| [`ApplyModelView`](../../../../../v242/Ansys/ACT/Interfaces/Graphics/IModelViewManager.md#id0)                                  | Apply the view specified by name.                                         |
-| [`CaptureModelView`](../../../../../v242/Ansys/ACT/Interfaces/Graphics/IModelViewManager.md#id1)                                | Save the view specified by index as a PNG image to the project userfiles. |
-| [`CaptureModelView`](../../../../../v242/Ansys/ACT/Interfaces/Graphics/IModelViewManager.md#id1)                                | Save the view specified as an image to the project userfiles.             |
-| [`CreateView`](../../../../../v242/Ansys/ACT/Interfaces/Graphics/IModelViewManager.md#id2)                                      | Create a view from current graphics with default naming.                  |
-| [`CreateView`](../../../../../v242/Ansys/ACT/Interfaces/Graphics/IModelViewManager.md#id2)                                      | Create a view from current graphics with the specified name.              |
-| [`DeleteView`](../../../../../v242/Ansys/ACT/Interfaces/Graphics/IModelViewManager.md#id3)                                      | Delete the specified view by index.                                       |
-| [`DeleteView`](../../../../../v242/Ansys/ACT/Interfaces/Graphics/IModelViewManager.md#id3)                                      | Apply the view specified by name.                                         |
-| [`ExportModelViews`](../../../../../v242/Ansys/ACT/Interfaces/Graphics/IModelViewManager.md#IModelViewManager.ExportModelViews) | Export model views to the specified file.                                 |
-| [`ImportModelViews`](../../../../../v242/Ansys/ACT/Interfaces/Graphics/IModelViewManager.md#IModelViewManager.ImportModelViews) | Import model views from the specified file.                               |
-| [`RenameView`](../../../../../v242/Ansys/ACT/Interfaces/Graphics/IModelViewManager.md#id4)                                      | Rename the model view specified by viewIndex to newLabel.                 |
-| [`RenameView`](../../../../../v242/Ansys/ACT/Interfaces/Graphics/IModelViewManager.md#id4)                                      | Rename the model view specified  to newLabel.                             |
+|-----------------------------------------------------------|---------------------------------------------------------------------------|
+| [`ApplyModelView`](#IModelViewManager.ApplyModelView)     | Apply the view specified by index.                                        |
+| [`CaptureModelView`](#IModelViewManager.CaptureModelView) | Save the view specified by index as a PNG image to the project userfiles. |
+| [`CreateView`](#IModelViewManager.CreateView)             | Create a view from current graphics with default naming.                  |
+| [`DeleteView`](#IModelViewManager.DeleteView)             | Delete the specified view by index.                                       |
+| [`ExportModelViews`](#IModelViewManager.ExportModelViews) | Export model views to the specified file.                                 |
+| [`ImportModelViews`](#IModelViewManager.ImportModelViews) | Import model views from the specified file.                               |
+| [`RenameView`](#IModelViewManager.RenameView)             | Rename the model view specified by viewIndex to newLabel.                 |
 
 ### Properties
 
 | Name | Description |
-|-----------------------------------------------------------------------------------------------------------------------------|------------------------------------------|
-| [`NumberOfViews`](../../../../../v242/Ansys/ACT/Interfaces/Graphics/IModelViewManager.md#IModelViewManager.NumberOfViews)   | The number of views currently defined.   |
+|-------------------------------------------------------|------------------------------------------|
+| [`NumberOfViews`](#IModelViewManager.NumberOfViews)   | The number of views currently defined.   |
 
 <a id="property-detail"></a>
 
@@ -59,27 +54,11 @@ Apply the view specified by index.
 
 <!-- !! processed by numpydoc !! -->
 
-<a id="id0"></a>
-
-### IModelViewManager.ApplyModelView(viewLabel: System.String)
-
-Apply the view specified by name.
-
-<!-- !! processed by numpydoc !! -->
-
 <a id="IModelViewManager.CaptureModelView"></a>
 
 ### IModelViewManager.CaptureModelView(index: System.Int32, mode: System.String)
 
 Save the view specified by index as a PNG image to the project userfiles.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="id1"></a>
-
-### IModelViewManager.CaptureModelView(viewLabel: System.String, mode: System.String)
-
-Save the view specified as an image to the project userfiles.
 
 <!-- !! processed by numpydoc !! -->
 
@@ -91,27 +70,11 @@ Create a view from current graphics with default naming.
 
 <!-- !! processed by numpydoc !! -->
 
-<a id="id2"></a>
-
-### IModelViewManager.CreateView(viewName: System.String)
-
-Create a view from current graphics with the specified name.
-
-<!-- !! processed by numpydoc !! -->
-
 <a id="IModelViewManager.DeleteView"></a>
 
 ### IModelViewManager.DeleteView(viewIndex: System.Int32)
 
 Delete the specified view by index.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="id3"></a>
-
-### IModelViewManager.DeleteView(viewLabel: System.String)
-
-Apply the view specified by name.
 
 <!-- !! processed by numpydoc !! -->
 
@@ -136,14 +99,6 @@ Import model views from the specified file.
 ### IModelViewManager.RenameView(viewIndex: System.Int32, newLabel: System.String)
 
 Rename the model view specified by viewIndex to newLabel.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="id4"></a>
-
-### IModelViewManager.RenameView(viewLabel: System.String, newLabel: System.String)
-
-Rename the model view specified  to newLabel.
 
 <!-- !! processed by numpydoc !! -->
 

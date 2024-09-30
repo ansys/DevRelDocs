@@ -1,6 +1,6 @@
 # `UserUnitSystemType`
 
-
+<a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.UserUnitSystemType"></a>
 
 #### *class* ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.UserUnitSystemType
 
@@ -17,18 +17,18 @@ Specifies the UserUnitSystemType.
 ### Attributes
 
 | Name |
-| ---------------------------------------------------------------------------------------------------------------------------------- |
-| [`NoUnitSystem`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/UserUnitSystemType.md#UserUnitSystemType.NoUnitSystem) |
-| [`StandardBFT`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/UserUnitSystemType.md#UserUnitSystemType.StandardBFT) |
-| [`StandardBIN`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/UserUnitSystemType.md#UserUnitSystemType.StandardBIN) |
-| [`StandardCGS`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/UserUnitSystemType.md#UserUnitSystemType.StandardCGS) |
-| [`StandardCUST`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/UserUnitSystemType.md#UserUnitSystemType.StandardCUST) |
-| [`StandardMKS`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/UserUnitSystemType.md#UserUnitSystemType.StandardMKS) |
-| [`StandardNMM`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/UserUnitSystemType.md#UserUnitSystemType.StandardNMM) |
-| [`StandardNMMdat`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/UserUnitSystemType.md#UserUnitSystemType.StandardNMMdat) |
-| [`StandardNMMton`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/UserUnitSystemType.md#UserUnitSystemType.StandardNMMton) |
-| [`StandardUMKS`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/UserUnitSystemType.md#UserUnitSystemType.StandardUMKS) |
-| [`StandardKNMS`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/UserUnitSystemType.md#UserUnitSystemType.StandardKNMS) |
+| -------------------------------------------------------- |
+| [`NoUnitSystem`](#UserUnitSystemType.NoUnitSystem) |
+| [`StandardBFT`](#UserUnitSystemType.StandardBFT) |
+| [`StandardBIN`](#UserUnitSystemType.StandardBIN) |
+| [`StandardCGS`](#UserUnitSystemType.StandardCGS) |
+| [`StandardCUST`](#UserUnitSystemType.StandardCUST) |
+| [`StandardKNMS`](#UserUnitSystemType.StandardKNMS) |
+| [`StandardMKS`](#UserUnitSystemType.StandardMKS) |
+| [`StandardNMM`](#UserUnitSystemType.StandardNMM) |
+| [`StandardNMMdat`](#UserUnitSystemType.StandardNMMdat) |
+| [`StandardNMMton`](#UserUnitSystemType.StandardNMMton) |
+| [`StandardUMKS`](#UserUnitSystemType.StandardUMKS) |
 
 <a id="attribute-detail"></a>
 
@@ -54,6 +54,10 @@ Specifies the UserUnitSystemType.
 
 ### UserUnitSystemType.StandardCUST *= 12*
 
+<a id="UserUnitSystemType.StandardKNMS"></a>
+
+### UserUnitSystemType.StandardKNMS *= 15*
+
 <a id="UserUnitSystemType.StandardMKS"></a>
 
 ### UserUnitSystemType.StandardMKS *= 0*
@@ -73,9 +77,5 @@ Specifies the UserUnitSystemType.
 <a id="UserUnitSystemType.StandardUMKS"></a>
 
 ### UserUnitSystemType.StandardUMKS *= 9*
-
-<a id="UserUnitSystemType.StandardKNMS"></a>
-
-### UserUnitSystemType.StandardKNMS *= 15*
 
 

@@ -1,6 +1,6 @@
 # `VisibilityType`
 
-
+<a id="ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.VisibilityType"></a>
 
 #### *class* ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.VisibilityType
 
@@ -17,10 +17,10 @@ Specifies the Tree Graphic Filter type.
 ### Attributes
 
 | Name |
-| ------------------------------------------ |
+| ---------------------------------------------------------------------------------------------------------------- |
 | [`All`](#VisibilityType.All) |
-| [`Visible`](#VisibilityType.Visible) |
 | [`Invisible`](#VisibilityType.Invisible) |
+| [`Visible`](#VisibilityType.Visible) |
 
 <a id="attribute-detail"></a>
 
@@ -30,12 +30,12 @@ Specifies the Tree Graphic Filter type.
 
 ### VisibilityType.All *= 0*
 
-<a id="VisibilityType.Visible"></a>
-
-### VisibilityType.Visible *= 1*
-
 <a id="VisibilityType.Invisible"></a>
 
 ### VisibilityType.Invisible *= 2*
+
+<a id="VisibilityType.Visible"></a>
+
+### VisibilityType.Visible *= 1*
 
 

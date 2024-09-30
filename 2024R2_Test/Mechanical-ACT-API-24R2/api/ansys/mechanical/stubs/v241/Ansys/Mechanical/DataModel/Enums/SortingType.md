@@ -1,6 +1,6 @@
 # `SortingType`
 
-
+<a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.SortingType"></a>
 
 #### *class* ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.SortingType
 
@@ -17,8 +17,8 @@ Specifies the Sorting type.
 ### Attributes
 
 | Name |
-| ------------------------------------------------------------------------------------------------------------------ |
-| [`Alphabetical`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/SortingType.md#SortingType.Alphabetical) |
+| ----------------------------------------------- |
+| [`Alphabetical`](#SortingType.Alphabetical) |
 
 <a id="attribute-detail"></a>
 

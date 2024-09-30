@@ -1,6 +1,6 @@
 # `PMLOptions`
 
-
+<a id="ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.PMLOptions"></a>
 
 #### *class* ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.PMLOptions
 
@@ -17,7 +17,7 @@ Specifies the PMLOptions.
 ### Attributes
 
 | Name |
-| -------------------------------- |
+| -------------------------------------------------------------------------------------------------- |
 | [`PML1D`](#PMLOptions.PML1D) |
 | [`PML3D`](#PMLOptions.PML3D) |
 

@@ -1,6 +1,6 @@
 # `CriterionConstraint`
 
-
+<a id="ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.CriterionConstraint"></a>
 
 #### *class* ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.CriterionConstraint
 
@@ -17,72 +17,46 @@ Defines a CriterionConstraint.
 ### Methods
 
 | Name | Description |
-|-----------------------------------------------------------------------------|-----------------------------------------------------------------------------------|
-| [`RenameBasedOnDefinition`](#CriterionConstraint.RenameBasedOnDefinition)   | Run the RenameBasedOnDefinition action.                                           |
-| [`Delete`](#CriterionConstraint.Delete)                                     | Run the Delete action.                                                            |
-| [`GetChildren`](#id1)                                                       | Gets the list of children, filtered by type.                                      |
-| [`GetChildren`](#id1)                                                       | Gets the list of children, filtered by type.                                      |
-| [`Activate`](#CriterionConstraint.Activate)                                 | Activate the current object.                                                      |
-| [`CopyTo`](#CriterionConstraint.CopyTo)                                     | Copies all visible properties from this object to another.                        |
-| [`Duplicate`](#CriterionConstraint.Duplicate)                               | Creates a copy of the current DataModelObject.                                    |
-| [`GroupAllSimilarChildren`](#CriterionConstraint.GroupAllSimilarChildren)   | Run the GroupAllSimilarChildren action.                                           |
-| [`GroupSimilarObjects`](#CriterionConstraint.GroupSimilarObjects)           | Run the GroupSimilarObjects action.                                               |
-| [`PropertyByName`](#CriterionConstraint.PropertyByName)                     | Get a property by its unique name.                                                |
-| [`PropertyByAPIName`](#CriterionConstraint.PropertyByAPIName)               | Get a property by its API name.                                                   |
-| [`CreateParameter`](#CriterionConstraint.CreateParameter)                   | Creates a new parameter for a Property.                                           |
-| [`GetParameter`](#CriterionConstraint.GetParameter)                         | Gets the parameter corresponding to the given property.                           |
-| [`RemoveParameter`](#CriterionConstraint.RemoveParameter)                   | Removes the parameter from the parameter set corresponding to the given property. |
+|---------------------------------------------------------------------------|-----------------------------------------------------------------------------------|
+| [`Activate`](#CriterionConstraint.Activate)                               | Activate the current object.                                                      |
+| [`CopyTo`](#CriterionConstraint.CopyTo)                                   | Copies all visible properties from this object to another.                        |
+| [`CreateParameter`](#CriterionConstraint.CreateParameter)                 | Creates a new parameter for a Property.                                           |
+| [`Delete`](#CriterionConstraint.Delete)                                   | Run the Delete action.                                                            |
+| [`Duplicate`](#CriterionConstraint.Duplicate)                             | Creates a copy of the current DataModelObject.                                    |
+| [`GetChildren`](#CriterionConstraint.GetChildren)                         | Gets the list of children, filtered by type.                                      |
+| [`GetParameter`](#CriterionConstraint.GetParameter)                       | Gets the parameter corresponding to the given property.                           |
+| [`GroupAllSimilarChildren`](#CriterionConstraint.GroupAllSimilarChildren) | Run the GroupAllSimilarChildren action.                                           |
+| [`GroupSimilarObjects`](#CriterionConstraint.GroupSimilarObjects)         | Run the GroupSimilarObjects action.                                               |
+| [`PropertyByAPIName`](#CriterionConstraint.PropertyByAPIName)             | Get a property by its API name.                                                   |
+| [`PropertyByName`](#CriterionConstraint.PropertyByName)                   | Get a property by its unique name.                                                |
+| [`RemoveParameter`](#CriterionConstraint.RemoveParameter)                 | Removes the parameter from the parameter set corresponding to the given property. |
+| [`RenameBasedOnDefinition`](#CriterionConstraint.RenameBasedOnDefinition) | Run the RenameBasedOnDefinition action.                                           |
 
 ### Properties
 
 | Name | Description |
 |---------------------------------------------------------------------------|------------------------------------------------------------------------------------------|
-| [`InternalObject`](#id0)                                                  | Gets the internal object. For advanced usage only.                                       |
-| [`InitialValue`](#CriterionConstraint.InitialValue)                       | Gets the InitialValue.                                                                   |
-| [`LowerBound`](#CriterionConstraint.LowerBound)                           | Gets or sets the LowerBound.                                                             |
-| [`UpperBound`](#CriterionConstraint.UpperBound)                           | Gets or sets the UpperBound.                                                             |
-| [`Criterion`](#CriterionConstraint.Criterion)                             | Gets or sets the Criterion.                                                              |
-| [`DataModelObjectCategory`](#CriterionConstraint.DataModelObjectCategory) | Gets the current DataModelObject's category.                                             |
-| [`EnvironmentSelection`](#CriterionConstraint.EnvironmentSelection)       | Gets or Sets the EnvironmentSelection to an Analysis object or TopoEnvironmentType enum. |
-| [`Suppressed`](#CriterionConstraint.Suppressed)                           | Gets or sets the Suppressed.                                                             |
 | [`Children`](#CriterionConstraint.Children)                               | Gets the list of children.                                                               |
-| [`InternalObject`](#id0)                                                  | Gets the internal object. For advanced usage only.                                       |
+| [`Criterion`](#CriterionConstraint.Criterion)                             | Gets or sets the Criterion.                                                              |
+| [`DataModelObjectCategory`](#CriterionConstraint.DataModelObjectCategory) | Gets the current DataModelObject’s category.                                             |
+| [`EnvironmentSelection`](#CriterionConstraint.EnvironmentSelection)       | Gets or Sets the EnvironmentSelection to an Analysis object or TopoEnvironmentType enum. |
+| [`InitialValue`](#CriterionConstraint.InitialValue)                       | Gets the InitialValue.                                                                   |
+| [`InternalObject`](#CriterionConstraint.InternalObject)                   | Gets the internal object. For advanced usage only.                                       |
+| [`LowerBound`](#CriterionConstraint.LowerBound)                           | Gets or sets the LowerBound.                                                             |
 | [`Properties`](#CriterionConstraint.Properties)                           | Gets the list of properties for this object.                                             |
+| [`Suppressed`](#CriterionConstraint.Suppressed)                           | Gets or sets the Suppressed.                                                             |
+| [`UpperBound`](#CriterionConstraint.UpperBound)                           | Gets or sets the UpperBound.                                                             |
 | [`VisibleProperties`](#CriterionConstraint.VisibleProperties)             | Gets the list of properties that are visible for this object.                            |
 
 <a id="property-detail"></a>
 
 ## Property detail
 
-<a id="CriterionConstraint.InternalObject"></a>
+<a id="CriterionConstraint.Children"></a>
 
-### *property* CriterionConstraint.InternalObject *: Ansys.Common.Interop.DSObjectsAuto.IDSTopoConstraintAuto | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* CriterionConstraint.Children *: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets the internal object. For advanced usage only.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="CriterionConstraint.InitialValue"></a>
-
-### *property* CriterionConstraint.InitialValue *: System.Double | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets the InitialValue.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="CriterionConstraint.LowerBound"></a>
-
-### *property* CriterionConstraint.LowerBound *: System.Double | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the LowerBound.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="CriterionConstraint.UpperBound"></a>
-
-### *property* CriterionConstraint.UpperBound *: System.Double | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the UpperBound.
+Gets the list of children.
 
 <!-- !! processed by numpydoc !! -->
 
@@ -96,9 +70,9 @@ Gets or sets the Criterion.
 
 <a id="CriterionConstraint.DataModelObjectCategory"></a>
 
-### *property* CriterionConstraint.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../v241/Ansys/Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* CriterionConstraint.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets the current DataModelObject's category.
+Gets the current DataModelObject’s category.
 
 <!-- !! processed by numpydoc !! -->
 
@@ -110,27 +84,27 @@ Gets or Sets the EnvironmentSelection to an Analysis object or TopoEnvironmentTy
 
 <!-- !! processed by numpydoc !! -->
 
-<a id="CriterionConstraint.Suppressed"></a>
+<a id="CriterionConstraint.InitialValue"></a>
 
-### *property* CriterionConstraint.Suppressed *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* CriterionConstraint.InitialValue *: System.Double | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets or sets the Suppressed.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="CriterionConstraint.Children"></a>
-
-### *property* CriterionConstraint.Children *: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets the list of children.
+Gets the InitialValue.
 
 <!-- !! processed by numpydoc !! -->
 
-<a id="id0"></a>
+<a id="CriterionConstraint.InternalObject"></a>
 
-### *property* CriterionConstraint.InternalObject *: System.Object | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* CriterionConstraint.InternalObject *: Ansys.Common.Interop.DSObjectsAuto.IDSTopoConstraintAuto | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the internal object. For advanced usage only.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="CriterionConstraint.LowerBound"></a>
+
+### *property* CriterionConstraint.LowerBound *: System.Double | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the LowerBound.
 
 <!-- !! processed by numpydoc !! -->
 
@@ -139,6 +113,22 @@ Gets the internal object. For advanced usage only.
 ### *property* CriterionConstraint.Properties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of properties for this object.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="CriterionConstraint.Suppressed"></a>
+
+### *property* CriterionConstraint.Suppressed *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the Suppressed.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="CriterionConstraint.UpperBound"></a>
+
+### *property* CriterionConstraint.UpperBound *: System.Double | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the UpperBound.
 
 <!-- !! processed by numpydoc !! -->
 
@@ -153,38 +143,6 @@ Gets the list of properties that are visible for this object.
 <a id="method-detail"></a>
 
 ## Method detail
-
-<a id="CriterionConstraint.RenameBasedOnDefinition"></a>
-
-### CriterionConstraint.RenameBasedOnDefinition()
-
-Run the RenameBasedOnDefinition action.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="CriterionConstraint.Delete"></a>
-
-### CriterionConstraint.Delete()
-
-Run the Delete action.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="CriterionConstraint.GetChildren"></a>
-
-### CriterionConstraint.GetChildren(recurses: System.Boolean, children: System.Collections.Generic.IList[ChildrenType])
-
-Gets the list of children, filtered by type.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="id1"></a>
-
-### CriterionConstraint.GetChildren(category: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../v241/Ansys/Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory), recurses: System.Boolean, children: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject])
-
-Gets the list of children, filtered by type.
-
-<!-- !! processed by numpydoc !! -->
 
 <a id="CriterionConstraint.Activate"></a>
 
@@ -202,11 +160,43 @@ Copies all visible properties from this object to another.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="CriterionConstraint.CreateParameter"></a>
+
+### CriterionConstraint.CreateParameter(propName: System.String)
+
+Creates a new parameter for a Property.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="CriterionConstraint.Delete"></a>
+
+### CriterionConstraint.Delete()
+
+Run the Delete action.
+
+<!-- !! processed by numpydoc !! -->
+
 <a id="CriterionConstraint.Duplicate"></a>
 
 ### CriterionConstraint.Duplicate()
 
 Creates a copy of the current DataModelObject.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="CriterionConstraint.GetChildren"></a>
+
+### CriterionConstraint.GetChildren(recurses: System.Boolean, children: System.Collections.Generic.IList[ChildrenType])
+
+Gets the list of children, filtered by type.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="CriterionConstraint.GetParameter"></a>
+
+### CriterionConstraint.GetParameter(propName: System.String)
+
+Gets the parameter corresponding to the given property.
 
 <!-- !! processed by numpydoc !! -->
 
@@ -226,6 +216,17 @@ Run the GroupSimilarObjects action.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="CriterionConstraint.PropertyByAPIName"></a>
+
+### CriterionConstraint.PropertyByAPIName(name: System.String)
+
+```text
+Get a property by its API name.
+If multiple properties have the same API Name, only the first property with that name will be returned.
+```
+
+<!-- !! processed by numpydoc !! -->
+
 <a id="CriterionConstraint.PropertyByName"></a>
 
 ### CriterionConstraint.PropertyByName(name: System.String)
@@ -234,36 +235,19 @@ Get a property by its unique name.
 
 <!-- !! processed by numpydoc !! -->
 
-<a id="CriterionConstraint.PropertyByAPIName"></a>
-
-### CriterionConstraint.PropertyByAPIName(name: System.String)
-
-Get a property by its API name.
-If multiple properties have the same API Name, only the first property with that name will be returned.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="CriterionConstraint.CreateParameter"></a>
-
-### CriterionConstraint.CreateParameter(propName: System.String)
-
-Creates a new parameter for a Property.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="CriterionConstraint.GetParameter"></a>
-
-### CriterionConstraint.GetParameter(propName: System.String)
-
-Gets the parameter corresponding to the given property.
-
-<!-- !! processed by numpydoc !! -->
-
 <a id="CriterionConstraint.RemoveParameter"></a>
 
 ### CriterionConstraint.RemoveParameter(propName: System.String)
 
 Removes the parameter from the parameter set corresponding to the given property.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="CriterionConstraint.RenameBasedOnDefinition"></a>
+
+### CriterionConstraint.RenameBasedOnDefinition()
+
+Run the RenameBasedOnDefinition action.
 
 <!-- !! processed by numpydoc !! -->
 

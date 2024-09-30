@@ -1,6 +1,6 @@
 # `MAPDLJointData`
 
-
+<a id="ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.SolverData.MAPDLJointData"></a>
 
 #### *class* ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.SolverData.MAPDLJointData
 
@@ -17,7 +17,7 @@ MAPDLJointData class.
 ### Properties
 
 | Name | Description |
-|----------------------------------------------------|--------------------------------------------------|
+|-------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------|
 | [`ElementId`](#MAPDLJointData.ElementId)           | Gets the Element number for the object.          |
 | [`RealConstantId`](#MAPDLJointData.RealConstantId) | Gets the Real Constant Id number for the object. |
 

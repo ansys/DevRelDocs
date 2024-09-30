@@ -1,6 +1,6 @@
 # `GravityOrientationType`
 
-
+<a id="ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.GravityOrientationType"></a>
 
 #### *class* ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.GravityOrientationType
 
@@ -17,7 +17,7 @@ Specifies the GravityOrientationType.
 ### Attributes
 
 | Name |
-| ------------------------------------------------------------ |
+| ------------------------------------------------------------------------------------------------------------------------------------------ |
 | [`NegativeXAxis`](#GravityOrientationType.NegativeXAxis) |
 | [`NegativeYAxis`](#GravityOrientationType.NegativeYAxis) |
 | [`NegativeZAxis`](#GravityOrientationType.NegativeZAxis) |

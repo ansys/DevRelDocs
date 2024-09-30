@@ -1,6 +1,6 @@
 # `BeamSolutionType`
 
-
+<a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.BeamSolutionType"></a>
 
 #### *class* ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.BeamSolutionType
 
@@ -17,9 +17,9 @@ Specifies the BeamSolutionType.
 ### Attributes
 
 | Name |
-| ------------------------------------------------------------------------------------------------------------------ |
-| [`Bending`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/BeamSolutionType.md#BeamSolutionType.Bending) |
-| [`Truss`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/BeamSolutionType.md#BeamSolutionType.Truss) |
+| ------------------------------------------ |
+| [`Bending`](#BeamSolutionType.Bending) |
+| [`Truss`](#BeamSolutionType.Truss) |
 
 <a id="attribute-detail"></a>
 

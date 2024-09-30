@@ -1,6 +1,6 @@
 # `AMInherentStrainDefinition`
 
-
+<a id="ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.AMInherentStrainDefinition"></a>
 
 #### *class* ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.AMInherentStrainDefinition
 
@@ -17,7 +17,7 @@ Specifies the AMInherentStrainDefinition.
 ### Attributes
 
 | Name |
-| -------------------------------------------------------------- |
+| ------------------------------------------------------------------------------------------------------------------------------------------------ |
 | [`Anisotropic`](#AMInherentStrainDefinition.Anisotropic) |
 | [`Isotropic`](#AMInherentStrainDefinition.Isotropic) |
 | [`ScanPattern`](#AMInherentStrainDefinition.ScanPattern) |

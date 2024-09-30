@@ -1,6 +1,6 @@
 # `ResultAnimationRangeType`
 
-
+<a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.ResultAnimationRangeType"></a>
 
 #### *class* ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.ResultAnimationRangeType
 
@@ -17,20 +17,20 @@ Specifies the Result Animation Range Type
 ### Attributes
 
 | Name |
-| ---------------------------------------------------------------------------------------------------------------------------------------- |
-| [`ResultSets`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/ResultAnimationRangeType.md#ResultAnimationRangeType.ResultSets) |
-| [`Distributed`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/ResultAnimationRangeType.md#ResultAnimationRangeType.Distributed) |
+| ---------------------------------------------------------- |
+| [`Distributed`](#ResultAnimationRangeType.Distributed) |
+| [`ResultSets`](#ResultAnimationRangeType.ResultSets) |
 
 <a id="attribute-detail"></a>
 
 ## Attribute detail
 
-<a id="ResultAnimationRangeType.ResultSets"></a>
-
-### ResultAnimationRangeType.ResultSets *= 0*
-
 <a id="ResultAnimationRangeType.Distributed"></a>
 
 ### ResultAnimationRangeType.Distributed *= 1*
+
+<a id="ResultAnimationRangeType.ResultSets"></a>
+
+### ResultAnimationRangeType.ResultSets *= 0*
 
 

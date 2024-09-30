@@ -1,6 +1,6 @@
 # `CrossSectionType`
 
-
+<a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.CrossSectionType"></a>
 
 #### *class* ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.CrossSectionType
 
@@ -17,29 +17,25 @@ Specifies the CrossSectionType.
 ### Attributes
 
 | Name |
-| ------------------------------------------------------------------------------------------------------------------------------------ |
-| [`UserDefined`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/CrossSectionType.md#CrossSectionType.UserDefined) |
-| [`Channel`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/CrossSectionType.md#CrossSectionType.Channel) |
-| [`Circular`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/CrossSectionType.md#CrossSectionType.Circular) |
-| [`CircularTube`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/CrossSectionType.md#CrossSectionType.CircularTube) |
-| [`HatBeam`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/CrossSectionType.md#CrossSectionType.HatBeam) |
-| [`HollowRectangular`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/CrossSectionType.md#CrossSectionType.HollowRectangular) |
-| [`IBeam`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/CrossSectionType.md#CrossSectionType.IBeam) |
-| [`LBeam`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/CrossSectionType.md#CrossSectionType.LBeam) |
-| [`MeshBeam`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/CrossSectionType.md#CrossSectionType.MeshBeam) |
-| [`Quadrilateral`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/CrossSectionType.md#CrossSectionType.Quadrilateral) |
-| [`Rectangular`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/CrossSectionType.md#CrossSectionType.Rectangular) |
-| [`TBeam`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/CrossSectionType.md#CrossSectionType.TBeam) |
-| [`UndefinedType`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/CrossSectionType.md#CrossSectionType.UndefinedType) |
-| [`ZBeam`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/CrossSectionType.md#CrossSectionType.ZBeam) |
+| ------------------------------------------------------------ |
+| [`Channel`](#CrossSectionType.Channel) |
+| [`Circular`](#CrossSectionType.Circular) |
+| [`CircularTube`](#CrossSectionType.CircularTube) |
+| [`HatBeam`](#CrossSectionType.HatBeam) |
+| [`HollowRectangular`](#CrossSectionType.HollowRectangular) |
+| [`IBeam`](#CrossSectionType.IBeam) |
+| [`LBeam`](#CrossSectionType.LBeam) |
+| [`MeshBeam`](#CrossSectionType.MeshBeam) |
+| [`Quadrilateral`](#CrossSectionType.Quadrilateral) |
+| [`Rectangular`](#CrossSectionType.Rectangular) |
+| [`TBeam`](#CrossSectionType.TBeam) |
+| [`UndefinedType`](#CrossSectionType.UndefinedType) |
+| [`UserDefined`](#CrossSectionType.UserDefined) |
+| [`ZBeam`](#CrossSectionType.ZBeam) |
 
 <a id="attribute-detail"></a>
 
 ## Attribute detail
-
-<a id="CrossSectionType.UserDefined"></a>
-
-### CrossSectionType.UserDefined *= 12*
 
 <a id="CrossSectionType.Channel"></a>
 
@@ -88,6 +84,10 @@ Specifies the CrossSectionType.
 <a id="CrossSectionType.UndefinedType"></a>
 
 ### CrossSectionType.UndefinedType *= 0*
+
+<a id="CrossSectionType.UserDefined"></a>
+
+### CrossSectionType.UserDefined *= 12*
 
 <a id="CrossSectionType.ZBeam"></a>
 

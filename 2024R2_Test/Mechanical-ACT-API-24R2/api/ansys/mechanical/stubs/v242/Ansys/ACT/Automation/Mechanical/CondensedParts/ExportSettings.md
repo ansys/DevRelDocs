@@ -1,6 +1,6 @@
 # `ExportSettings`
 
-
+<a id="ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.CondensedParts.ExportSettings"></a>
 
 #### *class* ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.CondensedParts.ExportSettings
 
@@ -17,8 +17,8 @@ ExportSettings class.
 ### Properties
 
 | Name | Description |
-|-----------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------|
-| [`ForExpansion`](../Substructure/ExportSettings.md#ExportSettings.ForExpansion)   | Specifies whether to prepare the export for expansion. That allows for postprocessing results on physical nodes of an imported condensed part.   |
+|--------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------|
+| [`ForExpansion`](#ExportSettings.ForExpansion)   | Specifies whether to prepare the export for expansion. That allows for postprocessing results on physical nodes of an imported condensed part.   |
 
 <a id="property-detail"></a>
 

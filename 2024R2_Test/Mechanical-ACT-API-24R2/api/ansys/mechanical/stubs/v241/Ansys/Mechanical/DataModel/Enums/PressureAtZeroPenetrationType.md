@@ -1,6 +1,6 @@
 # `PressureAtZeroPenetrationType`
 
-
+<a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.PressureAtZeroPenetrationType"></a>
 
 #### *class* ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.PressureAtZeroPenetrationType
 
@@ -17,10 +17,10 @@ Specifies the PressureAtZeroPenetrationType.
 ### Attributes
 
 | Name |
-| -------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| [`Factor`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/PressureAtZeroPenetrationType.md#PressureAtZeroPenetrationType.Factor) |
-| [`ProgramControlled`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/PressureAtZeroPenetrationType.md#PressureAtZeroPenetrationType.ProgramControlled) |
-| [`Value`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/PressureAtZeroPenetrationType.md#PressureAtZeroPenetrationType.Value) |
+| ------------------------------------------------------------------------- |
+| [`Factor`](#PressureAtZeroPenetrationType.Factor) |
+| [`ProgramControlled`](#PressureAtZeroPenetrationType.ProgramControlled) |
+| [`Value`](#PressureAtZeroPenetrationType.Value) |
 
 <a id="attribute-detail"></a>
 

@@ -1,6 +1,6 @@
 # `ContactFormulation`
 
-
+<a id="ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.ContactFormulation"></a>
 
 #### *class* ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.ContactFormulation
 
@@ -17,11 +17,11 @@ Specifies the ContactFormulation.
 ### Attributes
 
 | Name |
-| ---------------------------------------------------------------- |
+| ------------------------------------------------------------------------------------------------------------------------------------------ |
 | [`AugmentedLagrange`](#ContactFormulation.AugmentedLagrange) |
 | [`Beam`](#ContactFormulation.Beam) |
-| [`NormalLagrange`](#ContactFormulation.NormalLagrange) |
 | [`MPC`](#ContactFormulation.MPC) |
+| [`NormalLagrange`](#ContactFormulation.NormalLagrange) |
 | [`ProgramControlled`](#ContactFormulation.ProgramControlled) |
 | [`PureLagrange`](#ContactFormulation.PureLagrange) |
 | [`PurePenalty`](#ContactFormulation.PurePenalty) |
@@ -38,13 +38,13 @@ Specifies the ContactFormulation.
 
 ### ContactFormulation.Beam *= 4*
 
-<a id="ContactFormulation.NormalLagrange"></a>
-
-### ContactFormulation.NormalLagrange *= 3*
-
 <a id="ContactFormulation.MPC"></a>
 
 ### ContactFormulation.MPC *= 2*
+
+<a id="ContactFormulation.NormalLagrange"></a>
+
+### ContactFormulation.NormalLagrange *= 3*
 
 <a id="ContactFormulation.ProgramControlled"></a>
 

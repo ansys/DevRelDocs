@@ -1,6 +1,6 @@
 # `ElementControls`
 
-
+<a id="ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.BoundaryConditions.ElementControls"></a>
 
 #### *class* ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.BoundaryConditions.ElementControls
 
@@ -18,65 +18,39 @@ Defines a ElementControls.
 
 | Name | Description |
 |-----------------------------------------------------------------------|-----------------------------------------------------------------------------------|
-| [`Delete`](#ElementControls.Delete)                                   | Run the Delete action.                                                            |
-| [`GetChildren`](#id1)                                                 | Gets the list of children, filtered by type.                                      |
-| [`GetChildren`](#id1)                                                 | Gets the list of children, filtered by type.                                      |
+| [`Activate`](#ElementControls.Activate)                               | Activate the current object.                                                      |
 | [`AddComment`](#ElementControls.AddComment)                           | Creates a new child Comment.                                                      |
 | [`AddFigure`](#ElementControls.AddFigure)                             | Creates a new child Figure.                                                       |
 | [`AddImage`](#ElementControls.AddImage)                               | Creates a new child Image.                                                        |
-| [`Activate`](#ElementControls.Activate)                               | Activate the current object.                                                      |
 | [`CopyTo`](#ElementControls.CopyTo)                                   | Copies all visible properties from this object to another.                        |
+| [`CreateParameter`](#ElementControls.CreateParameter)                 | Creates a new parameter for a Property.                                           |
+| [`Delete`](#ElementControls.Delete)                                   | Run the Delete action.                                                            |
 | [`Duplicate`](#ElementControls.Duplicate)                             | Creates a copy of the current DataModelObject.                                    |
+| [`GetChildren`](#ElementControls.GetChildren)                         | Gets the list of children, filtered by type.                                      |
+| [`GetParameter`](#ElementControls.GetParameter)                       | Gets the parameter corresponding to the given property.                           |
 | [`GroupAllSimilarChildren`](#ElementControls.GroupAllSimilarChildren) | Run the GroupAllSimilarChildren action.                                           |
 | [`GroupSimilarObjects`](#ElementControls.GroupSimilarObjects)         | Run the GroupSimilarObjects action.                                               |
-| [`PropertyByName`](#ElementControls.PropertyByName)                   | Get a property by its unique name.                                                |
 | [`PropertyByAPIName`](#ElementControls.PropertyByAPIName)             | Get a property by its API name.                                                   |
-| [`CreateParameter`](#ElementControls.CreateParameter)                 | Creates a new parameter for a Property.                                           |
-| [`GetParameter`](#ElementControls.GetParameter)                       | Gets the parameter corresponding to the given property.                           |
+| [`PropertyByName`](#ElementControls.PropertyByName)                   | Get a property by its unique name.                                                |
 | [`RemoveParameter`](#ElementControls.RemoveParameter)                 | Removes the parameter from the parameter set corresponding to the given property. |
 
 ### Properties
 
 | Name | Description |
 |-----------------------------------------------------------------------|---------------------------------------------------------------|
-| [`InternalObject`](#id0)                                              | Gets the internal object. For advanced usage only.            |
-| [`Suppressed`](#ElementControls.Suppressed)                           | Gets or sets the Suppressed.                                  |
-| [`DataModelObjectCategory`](#ElementControls.DataModelObjectCategory) | Gets the current DataModelObject's category.                  |
 | [`Children`](#ElementControls.Children)                               | Gets the list of children.                                    |
 | [`Comments`](#ElementControls.Comments)                               | Gets the list of associated comments.                         |
+| [`DataModelObjectCategory`](#ElementControls.DataModelObjectCategory) | Gets the current DataModelObject’s category.                  |
 | [`Figures`](#ElementControls.Figures)                                 | Gets the list of associated figures.                          |
 | [`Images`](#ElementControls.Images)                                   | Gets the list of associated images.                           |
-| [`InternalObject`](#id0)                                              | Gets the internal object. For advanced usage only.            |
+| [`InternalObject`](#ElementControls.InternalObject)                   | Gets the internal object. For advanced usage only.            |
 | [`Properties`](#ElementControls.Properties)                           | Gets the list of properties for this object.                  |
+| [`Suppressed`](#ElementControls.Suppressed)                           | Gets or sets the Suppressed.                                  |
 | [`VisibleProperties`](#ElementControls.VisibleProperties)             | Gets the list of properties that are visible for this object. |
 
 <a id="property-detail"></a>
 
 ## Property detail
-
-<a id="ElementControls.InternalObject"></a>
-
-### *property* ElementControls.InternalObject *: Ansys.Common.Interop.DSObjectsAuto.IDSElementControlsAuto | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets the internal object. For advanced usage only.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="ElementControls.Suppressed"></a>
-
-### *property* ElementControls.Suppressed *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the Suppressed.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="ElementControls.DataModelObjectCategory"></a>
-
-### *property* ElementControls.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../../v241/Ansys/Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets the current DataModelObject's category.
-
-<!-- !! processed by numpydoc !! -->
 
 <a id="ElementControls.Children"></a>
 
@@ -91,6 +65,14 @@ Gets the list of children.
 ### *property* ElementControls.Comments *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Comment](../../../../../../v241/Ansys/ACT/Automation/Mechanical/Comment.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated comments.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ElementControls.DataModelObjectCategory"></a>
+
+### *property* ElementControls.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets the current DataModelObject’s category.
 
 <!-- !! processed by numpydoc !! -->
 
@@ -110,9 +92,9 @@ Gets the list of associated images.
 
 <!-- !! processed by numpydoc !! -->
 
-<a id="id0"></a>
+<a id="ElementControls.InternalObject"></a>
 
-### *property* ElementControls.InternalObject *: System.Object | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ElementControls.InternalObject *: Ansys.Common.Interop.DSObjectsAuto.IDSElementControlsAuto | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the internal object. For advanced usage only.
 
@@ -123,6 +105,14 @@ Gets the internal object. For advanced usage only.
 ### *property* ElementControls.Properties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of properties for this object.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ElementControls.Suppressed"></a>
+
+### *property* ElementControls.Suppressed *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the Suppressed.
 
 <!-- !! processed by numpydoc !! -->
 
@@ -138,27 +128,11 @@ Gets the list of properties that are visible for this object.
 
 ## Method detail
 
-<a id="ElementControls.Delete"></a>
+<a id="ElementControls.Activate"></a>
 
-### ElementControls.Delete()
+### ElementControls.Activate()
 
-Run the Delete action.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="ElementControls.GetChildren"></a>
-
-### ElementControls.GetChildren(recurses: System.Boolean, children: System.Collections.Generic.IList[ChildrenType])
-
-Gets the list of children, filtered by type.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="id1"></a>
-
-### ElementControls.GetChildren(category: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../../v241/Ansys/Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory), recurses: System.Boolean, children: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject])
-
-Gets the list of children, filtered by type.
+Activate the current object.
 
 <!-- !! processed by numpydoc !! -->
 
@@ -182,17 +156,11 @@ Creates a new child Figure.
 
 ### ElementControls.AddImage(filePath: System.String)
 
+```text
 Creates a new child Image.
 If a filePath is provided, the image will be loaded from that file,
 if not, the image will be a screen capture of the Geometry window.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="ElementControls.Activate"></a>
-
-### ElementControls.Activate()
-
-Activate the current object.
+```
 
 <!-- !! processed by numpydoc !! -->
 
@@ -204,11 +172,43 @@ Copies all visible properties from this object to another.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="ElementControls.CreateParameter"></a>
+
+### ElementControls.CreateParameter(propName: System.String)
+
+Creates a new parameter for a Property.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ElementControls.Delete"></a>
+
+### ElementControls.Delete()
+
+Run the Delete action.
+
+<!-- !! processed by numpydoc !! -->
+
 <a id="ElementControls.Duplicate"></a>
 
 ### ElementControls.Duplicate()
 
 Creates a copy of the current DataModelObject.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ElementControls.GetChildren"></a>
+
+### ElementControls.GetChildren(recurses: System.Boolean, children: System.Collections.Generic.IList[ChildrenType])
+
+Gets the list of children, filtered by type.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ElementControls.GetParameter"></a>
+
+### ElementControls.GetParameter(propName: System.String)
+
+Gets the parameter corresponding to the given property.
 
 <!-- !! processed by numpydoc !! -->
 
@@ -228,36 +228,22 @@ Run the GroupSimilarObjects action.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="ElementControls.PropertyByAPIName"></a>
+
+### ElementControls.PropertyByAPIName(name: System.String)
+
+```text
+Get a property by its API name.
+If multiple properties have the same API Name, only the first property with that name will be returned.
+```
+
+<!-- !! processed by numpydoc !! -->
+
 <a id="ElementControls.PropertyByName"></a>
 
 ### ElementControls.PropertyByName(name: System.String)
 
 Get a property by its unique name.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="ElementControls.PropertyByAPIName"></a>
-
-### ElementControls.PropertyByAPIName(name: System.String)
-
-Get a property by its API name.
-If multiple properties have the same API Name, only the first property with that name will be returned.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="ElementControls.CreateParameter"></a>
-
-### ElementControls.CreateParameter(propName: System.String)
-
-Creates a new parameter for a Property.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="ElementControls.GetParameter"></a>
-
-### ElementControls.GetParameter(propName: System.String)
-
-Gets the parameter corresponding to the given property.
 
 <!-- !! processed by numpydoc !! -->
 

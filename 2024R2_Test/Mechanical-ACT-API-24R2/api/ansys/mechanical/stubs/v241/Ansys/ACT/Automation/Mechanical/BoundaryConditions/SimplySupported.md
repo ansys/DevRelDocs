@@ -1,6 +1,6 @@
 # `SimplySupported`
 
-
+<a id="ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.BoundaryConditions.SimplySupported"></a>
 
 #### *class* ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.BoundaryConditions.SimplySupported
 
@@ -17,86 +17,44 @@ Defines a SimplySupported.
 ### Methods
 
 | Name | Description |
-|---------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------|
-| [`PromoteToNamedSelection`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/BoundaryConditions/SimplySupported.md#SimplySupported.PromoteToNamedSelection)   | Run the PromoteToNamedSelection action.                                           |
-| [`Delete`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/BoundaryConditions/SimplySupported.md#SimplySupported.Delete)                                     | Run the Delete action.                                                            |
-| [`GetChildren`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/BoundaryConditions/SimplySupported.md#id1)                                                   | Gets the list of children, filtered by type.                                      |
-| [`GetChildren`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/BoundaryConditions/SimplySupported.md#id1)                                                   | Gets the list of children, filtered by type.                                      |
-| [`AddComment`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/BoundaryConditions/SimplySupported.md#SimplySupported.AddComment)                             | Creates a new child Comment.                                                      |
-| [`AddFigure`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/BoundaryConditions/SimplySupported.md#SimplySupported.AddFigure)                               | Creates a new child Figure.                                                       |
-| [`AddImage`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/BoundaryConditions/SimplySupported.md#SimplySupported.AddImage)                                 | Creates a new child Image.                                                        |
-| [`Activate`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/BoundaryConditions/SimplySupported.md#SimplySupported.Activate)                                 | Activate the current object.                                                      |
-| [`CopyTo`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/BoundaryConditions/SimplySupported.md#SimplySupported.CopyTo)                                     | Copies all visible properties from this object to another.                        |
-| [`Duplicate`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/BoundaryConditions/SimplySupported.md#SimplySupported.Duplicate)                               | Creates a copy of the current DataModelObject.                                    |
-| [`GroupAllSimilarChildren`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/BoundaryConditions/SimplySupported.md#SimplySupported.GroupAllSimilarChildren)   | Run the GroupAllSimilarChildren action.                                           |
-| [`GroupSimilarObjects`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/BoundaryConditions/SimplySupported.md#SimplySupported.GroupSimilarObjects)           | Run the GroupSimilarObjects action.                                               |
-| [`PropertyByName`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/BoundaryConditions/SimplySupported.md#SimplySupported.PropertyByName)                     | Get a property by its unique name.                                                |
-| [`PropertyByAPIName`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/BoundaryConditions/SimplySupported.md#SimplySupported.PropertyByAPIName)               | Get a property by its API name.                                                   |
-| [`CreateParameter`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/BoundaryConditions/SimplySupported.md#SimplySupported.CreateParameter)                   | Creates a new parameter for a Property.                                           |
-| [`GetParameter`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/BoundaryConditions/SimplySupported.md#SimplySupported.GetParameter)                         | Gets the parameter corresponding to the given property.                           |
-| [`RemoveParameter`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/BoundaryConditions/SimplySupported.md#SimplySupported.RemoveParameter)                   | Removes the parameter from the parameter set corresponding to the given property. |
+|-------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------|
+| [`Activate`](#SimplySupported.Activate)                               | Activate the current object.                                                      |
+| [`AddComment`](#SimplySupported.AddComment)                           | Creates a new child Comment.                                                      |
+| [`AddFigure`](#SimplySupported.AddFigure)                             | Creates a new child Figure.                                                       |
+| [`AddImage`](#SimplySupported.AddImage)                               | Creates a new child Image.                                                        |
+| [`CopyTo`](#SimplySupported.CopyTo)                                   | Copies all visible properties from this object to another.                        |
+| [`CreateParameter`](#SimplySupported.CreateParameter)                 | Creates a new parameter for a Property.                                           |
+| [`Delete`](#SimplySupported.Delete)                                   | Run the Delete action.                                                            |
+| [`Duplicate`](#SimplySupported.Duplicate)                             | Creates a copy of the current DataModelObject.                                    |
+| [`GetChildren`](#SimplySupported.GetChildren)                         | Gets the list of children, filtered by type.                                      |
+| [`GetParameter`](#SimplySupported.GetParameter)                       | Gets the parameter corresponding to the given property.                           |
+| [`GroupAllSimilarChildren`](#SimplySupported.GroupAllSimilarChildren) | Run the GroupAllSimilarChildren action.                                           |
+| [`GroupSimilarObjects`](#SimplySupported.GroupSimilarObjects)         | Run the GroupSimilarObjects action.                                               |
+| [`PromoteToNamedSelection`](#SimplySupported.PromoteToNamedSelection) | Run the PromoteToNamedSelection action.                                           |
+| [`PropertyByAPIName`](#SimplySupported.PropertyByAPIName)             | Get a property by its API name.                                                   |
+| [`PropertyByName`](#SimplySupported.PropertyByName)                   | Get a property by its unique name.                                                |
+| [`RemoveParameter`](#SimplySupported.RemoveParameter)                 | Removes the parameter from the parameter set corresponding to the given property. |
 
 ### Properties
 
 | Name | Description |
 |-------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------|
-| [`InternalObject`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/BoundaryConditions/SimplySupported.md#id0)                                              | Gets the internal object. For advanced usage only.            |
-| [`Location`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/BoundaryConditions/SimplySupported.md#SimplySupported.Location)                               | Gets or sets the Location.                                    |
-| [`DataModelObjectCategory`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/BoundaryConditions/SimplySupported.md#SimplySupported.DataModelObjectCategory) | Gets the current DataModelObject's category.                  |
-| [`Suppressed`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/BoundaryConditions/SimplySupported.md#SimplySupported.Suppressed)                           | Gets or sets the Suppressed.                                  |
-| [`SharedRefBody`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/BoundaryConditions/SimplySupported.md#SimplySupported.SharedRefBody)                     | Gets or sets the SharedRefBody.                               |
-| [`Children`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/BoundaryConditions/SimplySupported.md#SimplySupported.Children)                               | Gets the list of children.                                    |
-| [`Comments`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/BoundaryConditions/SimplySupported.md#SimplySupported.Comments)                               | Gets the list of associated comments.                         |
-| [`Figures`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/BoundaryConditions/SimplySupported.md#SimplySupported.Figures)                                 | Gets the list of associated figures.                          |
-| [`Images`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/BoundaryConditions/SimplySupported.md#SimplySupported.Images)                                   | Gets the list of associated images.                           |
-| [`ReadOnly`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/BoundaryConditions/SimplySupported.md#SimplySupported.ReadOnly)                               | Gets or sets the ReadOnly.                                    |
-| [`InternalObject`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/BoundaryConditions/SimplySupported.md#id0)                                              | Gets the internal object. For advanced usage only.            |
-| [`Properties`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/BoundaryConditions/SimplySupported.md#SimplySupported.Properties)                           | Gets the list of properties for this object.                  |
-| [`VisibleProperties`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/BoundaryConditions/SimplySupported.md#SimplySupported.VisibleProperties)             | Gets the list of properties that are visible for this object. |
+| [`Children`](#SimplySupported.Children)                               | Gets the list of children.                                    |
+| [`Comments`](#SimplySupported.Comments)                               | Gets the list of associated comments.                         |
+| [`DataModelObjectCategory`](#SimplySupported.DataModelObjectCategory) | Gets the current DataModelObject’s category.                  |
+| [`Figures`](#SimplySupported.Figures)                                 | Gets the list of associated figures.                          |
+| [`Images`](#SimplySupported.Images)                                   | Gets the list of associated images.                           |
+| [`InternalObject`](#SimplySupported.InternalObject)                   | Gets the internal object. For advanced usage only.            |
+| [`Location`](#SimplySupported.Location)                               | Gets or sets the Location.                                    |
+| [`Properties`](#SimplySupported.Properties)                           | Gets the list of properties for this object.                  |
+| [`ReadOnly`](#SimplySupported.ReadOnly)                               | Gets or sets the ReadOnly.                                    |
+| [`SharedRefBody`](#SimplySupported.SharedRefBody)                     | Gets or sets the SharedRefBody.                               |
+| [`Suppressed`](#SimplySupported.Suppressed)                           | Gets or sets the Suppressed.                                  |
+| [`VisibleProperties`](#SimplySupported.VisibleProperties)             | Gets the list of properties that are visible for this object. |
 
 <a id="property-detail"></a>
 
 ## Property detail
-
-<a id="SimplySupported.InternalObject"></a>
-
-### *property* SimplySupported.InternalObject *: Ansys.Common.Interop.DSObjectsAuto.IDSLoadAuto | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets the internal object. For advanced usage only.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="SimplySupported.Location"></a>
-
-### *property* SimplySupported.Location *: Ansys.ACT.Interfaces.Common.ISelectionInfo | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the Location.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="SimplySupported.DataModelObjectCategory"></a>
-
-### *property* SimplySupported.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets the current DataModelObject's category.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="SimplySupported.Suppressed"></a>
-
-### *property* SimplySupported.Suppressed *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the Suppressed.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="SimplySupported.SharedRefBody"></a>
-
-### *property* SimplySupported.SharedRefBody *: [Ansys.ACT.Automation.Mechanical.Body](../Body.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Body) | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the SharedRefBody.
-
-<!-- !! processed by numpydoc !! -->
 
 <a id="SimplySupported.Children"></a>
 
@@ -111,6 +69,14 @@ Gets the list of children.
 ### *property* SimplySupported.Comments *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Comment](../Comment.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated comments.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="SimplySupported.DataModelObjectCategory"></a>
+
+### *property* SimplySupported.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../../v242/Ansys/Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets the current DataModelObject’s category.
 
 <!-- !! processed by numpydoc !! -->
 
@@ -130,19 +96,19 @@ Gets the list of associated images.
 
 <!-- !! processed by numpydoc !! -->
 
-<a id="SimplySupported.ReadOnly"></a>
+<a id="SimplySupported.InternalObject"></a>
 
-### *property* SimplySupported.ReadOnly *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* SimplySupported.InternalObject *: Ansys.Common.Interop.DSObjectsAuto.IDSLoadAuto | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets or sets the ReadOnly.
+Gets the internal object. For advanced usage only.
 
 <!-- !! processed by numpydoc !! -->
 
-<a id="id0"></a>
+<a id="SimplySupported.Location"></a>
 
-### *property* SimplySupported.InternalObject *: System.Object | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* SimplySupported.Location *: Ansys.ACT.Interfaces.Common.ISelectionInfo | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets the internal object. For advanced usage only.
+Gets or sets the Location.
 
 <!-- !! processed by numpydoc !! -->
 
@@ -151,6 +117,30 @@ Gets the internal object. For advanced usage only.
 ### *property* SimplySupported.Properties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of properties for this object.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="SimplySupported.ReadOnly"></a>
+
+### *property* SimplySupported.ReadOnly *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the ReadOnly.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="SimplySupported.SharedRefBody"></a>
+
+### *property* SimplySupported.SharedRefBody *: [Ansys.ACT.Automation.Mechanical.Body](../Body.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Body) | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the SharedRefBody.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="SimplySupported.Suppressed"></a>
+
+### *property* SimplySupported.Suppressed *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the Suppressed.
 
 <!-- !! processed by numpydoc !! -->
 
@@ -166,35 +156,11 @@ Gets the list of properties that are visible for this object.
 
 ## Method detail
 
-<a id="SimplySupported.PromoteToNamedSelection"></a>
+<a id="SimplySupported.Activate"></a>
 
-### SimplySupported.PromoteToNamedSelection()
+### SimplySupported.Activate()
 
-Run the PromoteToNamedSelection action.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="SimplySupported.Delete"></a>
-
-### SimplySupported.Delete()
-
-Run the Delete action.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="SimplySupported.GetChildren"></a>
-
-### SimplySupported.GetChildren(recurses: System.Boolean, children: System.Collections.Generic.IList[ChildrenType])
-
-Gets the list of children, filtered by type.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="id1"></a>
-
-### SimplySupported.GetChildren(category: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory), recurses: System.Boolean, children: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject])
-
-Gets the list of children, filtered by type.
+Activate the current object.
 
 <!-- !! processed by numpydoc !! -->
 
@@ -218,17 +184,11 @@ Creates a new child Figure.
 
 ### SimplySupported.AddImage(filePath: System.String)
 
+```text
 Creates a new child Image.
 If a filePath is provided, the image will be loaded from that file,
 if not, the image will be a screen capture of the Geometry window.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="SimplySupported.Activate"></a>
-
-### SimplySupported.Activate()
-
-Activate the current object.
+```
 
 <!-- !! processed by numpydoc !! -->
 
@@ -240,11 +200,43 @@ Copies all visible properties from this object to another.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="SimplySupported.CreateParameter"></a>
+
+### SimplySupported.CreateParameter(propName: System.String)
+
+Creates a new parameter for a Property.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="SimplySupported.Delete"></a>
+
+### SimplySupported.Delete()
+
+Run the Delete action.
+
+<!-- !! processed by numpydoc !! -->
+
 <a id="SimplySupported.Duplicate"></a>
 
 ### SimplySupported.Duplicate()
 
 Creates a copy of the current DataModelObject.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="SimplySupported.GetChildren"></a>
+
+### SimplySupported.GetChildren(recurses: System.Boolean, children: System.Collections.Generic.IList[ChildrenType])
+
+Gets the list of children, filtered by type.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="SimplySupported.GetParameter"></a>
+
+### SimplySupported.GetParameter(propName: System.String)
+
+Gets the parameter corresponding to the given property.
 
 <!-- !! processed by numpydoc !! -->
 
@@ -264,11 +256,11 @@ Run the GroupSimilarObjects action.
 
 <!-- !! processed by numpydoc !! -->
 
-<a id="SimplySupported.PropertyByName"></a>
+<a id="SimplySupported.PromoteToNamedSelection"></a>
 
-### SimplySupported.PropertyByName(name: System.String)
+### SimplySupported.PromoteToNamedSelection()
 
-Get a property by its unique name.
+Run the PromoteToNamedSelection action.
 
 <!-- !! processed by numpydoc !! -->
 
@@ -276,24 +268,18 @@ Get a property by its unique name.
 
 ### SimplySupported.PropertyByAPIName(name: System.String)
 
+```text
 Get a property by its API name.
 If multiple properties have the same API Name, only the first property with that name will be returned.
+```
 
 <!-- !! processed by numpydoc !! -->
 
-<a id="SimplySupported.CreateParameter"></a>
+<a id="SimplySupported.PropertyByName"></a>
 
-### SimplySupported.CreateParameter(propName: System.String)
+### SimplySupported.PropertyByName(name: System.String)
 
-Creates a new parameter for a Property.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="SimplySupported.GetParameter"></a>
-
-### SimplySupported.GetParameter(propName: System.String)
-
-Gets the parameter corresponding to the given property.
+Get a property by its unique name.
 
 <!-- !! processed by numpydoc !! -->
 

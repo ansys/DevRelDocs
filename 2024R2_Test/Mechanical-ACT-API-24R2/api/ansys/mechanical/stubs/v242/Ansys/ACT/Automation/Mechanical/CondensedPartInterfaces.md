@@ -1,6 +1,6 @@
 # `CondensedPartInterfaces`
 
-
+<a id="ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.CondensedPartInterfaces"></a>
 
 #### *class* ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.CondensedPartInterfaces
 
@@ -18,8 +18,8 @@ A collection of condensed part interface.
 
 | Name | Description |
 |-------------------------------------------------|----------------------------------------------------|
-| [`Clear`](#CondensedPartInterfaces.Clear)       | Clears all the condensed part interfaces           |
 | [`Add`](#CondensedPartInterfaces.Add)           | Add new condensed part interface                   |
+| [`Clear`](#CondensedPartInterfaces.Clear)       | Clears all the condensed part interfaces           |
 | [`RemoveAt`](#CondensedPartInterfaces.RemoveAt) | Remove condensed part interface at the given index |
 
 ### Properties
@@ -44,19 +44,19 @@ Item property.
 
 ## Method detail
 
-<a id="CondensedPartInterfaces.Clear"></a>
-
-### CondensedPartInterfaces.Clear()
-
-Clears all the condensed part interfaces
-
-<!-- !! processed by numpydoc !! -->
-
 <a id="CondensedPartInterfaces.Add"></a>
 
 ### CondensedPartInterfaces.Add()
 
 Add new condensed part interface
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="CondensedPartInterfaces.Clear"></a>
+
+### CondensedPartInterfaces.Clear()
+
+Clears all the condensed part interfaces
 
 <!-- !! processed by numpydoc !! -->
 

@@ -1,6 +1,6 @@
 # `CondensedPartInterfaceType`
 
-
+<a id="ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.CondensedPartInterfaceType"></a>
 
 #### *class* ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.CondensedPartInterfaceType
 
@@ -15,19 +15,19 @@ Bases: [`enum.Enum`](https://docs.python.org/3/library/enum.html#enum.Enum)
 ### Attributes
 
 | Name |
-| ---------------------------------------------------- |
-| [`Unknown`](#CondensedPartInterfaceType.Unknown) |
+| ------------------------------------------------------------------------------------------------------------------------------------ |
+| [`All`](#CondensedPartInterfaceType.All) |
 | [`General`](#CondensedPartInterfaceType.General) |
 | [`Remote`](#CondensedPartInterfaceType.Remote) |
-| [`All`](#CondensedPartInterfaceType.All) |
+| [`Unknown`](#CondensedPartInterfaceType.Unknown) |
 
 <a id="attribute-detail"></a>
 
 ## Attribute detail
 
-<a id="CondensedPartInterfaceType.Unknown"></a>
+<a id="CondensedPartInterfaceType.All"></a>
 
-### CondensedPartInterfaceType.Unknown *= 0*
+### CondensedPartInterfaceType.All *= 3*
 
 <a id="CondensedPartInterfaceType.General"></a>
 
@@ -37,8 +37,8 @@ Bases: [`enum.Enum`](https://docs.python.org/3/library/enum.html#enum.Enum)
 
 ### CondensedPartInterfaceType.Remote *= 2*
 
-<a id="CondensedPartInterfaceType.All"></a>
+<a id="CondensedPartInterfaceType.Unknown"></a>
 
-### CondensedPartInterfaceType.All *= 3*
+### CondensedPartInterfaceType.Unknown *= 0*
 
 

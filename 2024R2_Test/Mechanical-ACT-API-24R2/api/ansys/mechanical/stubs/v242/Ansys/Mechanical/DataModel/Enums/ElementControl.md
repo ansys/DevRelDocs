@@ -1,6 +1,6 @@
 # `ElementControl`
 
-
+<a id="ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.ElementControl"></a>
 
 #### *class* ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.ElementControl
 
@@ -17,7 +17,7 @@ Specifies the ElementControl.
 ### Attributes
 
 | Name |
-| ---------------------------------------------------------- |
+| -------------------------------------------------------------------------------------------------------------------------------- |
 | [`Manual`](#ElementControl.Manual) |
 | [`ProgramControlled`](#ElementControl.ProgramControlled) |
 

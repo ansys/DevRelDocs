@@ -1,6 +1,6 @@
 # `VolumeChargeDensity`
 
-
+<a id="ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.BoundaryConditions.VolumeChargeDensity"></a>
 
 #### *class* ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.BoundaryConditions.VolumeChargeDensity
 
@@ -17,95 +17,45 @@ Defines a VolumeChargeDensity.
 ### Methods
 
 | Name | Description |
-|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------|
-| [`PromoteToNamedSelection`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/BoundaryConditions/VolumeChargeDensity.md#VolumeChargeDensity.PromoteToNamedSelection)   | Run the PromoteToNamedSelection action.                                           |
-| [`Delete`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/BoundaryConditions/VolumeChargeDensity.md#VolumeChargeDensity.Delete)                                     | Run the Delete action.                                                            |
-| [`GetChildren`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/BoundaryConditions/VolumeChargeDensity.md#id1)                                                       | Gets the list of children, filtered by type.                                      |
-| [`GetChildren`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/BoundaryConditions/VolumeChargeDensity.md#id1)                                                       | Gets the list of children, filtered by type.                                      |
-| [`AddComment`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/BoundaryConditions/VolumeChargeDensity.md#VolumeChargeDensity.AddComment)                             | Creates a new child Comment.                                                      |
-| [`AddFigure`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/BoundaryConditions/VolumeChargeDensity.md#VolumeChargeDensity.AddFigure)                               | Creates a new child Figure.                                                       |
-| [`AddImage`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/BoundaryConditions/VolumeChargeDensity.md#VolumeChargeDensity.AddImage)                                 | Creates a new child Image.                                                        |
-| [`Activate`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/BoundaryConditions/VolumeChargeDensity.md#VolumeChargeDensity.Activate)                                 | Activate the current object.                                                      |
-| [`CopyTo`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/BoundaryConditions/VolumeChargeDensity.md#VolumeChargeDensity.CopyTo)                                     | Copies all visible properties from this object to another.                        |
-| [`Duplicate`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/BoundaryConditions/VolumeChargeDensity.md#VolumeChargeDensity.Duplicate)                               | Creates a copy of the current DataModelObject.                                    |
-| [`GroupAllSimilarChildren`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/BoundaryConditions/VolumeChargeDensity.md#VolumeChargeDensity.GroupAllSimilarChildren)   | Run the GroupAllSimilarChildren action.                                           |
-| [`GroupSimilarObjects`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/BoundaryConditions/VolumeChargeDensity.md#VolumeChargeDensity.GroupSimilarObjects)           | Run the GroupSimilarObjects action.                                               |
-| [`PropertyByName`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/BoundaryConditions/VolumeChargeDensity.md#VolumeChargeDensity.PropertyByName)                     | Get a property by its unique name.                                                |
-| [`PropertyByAPIName`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/BoundaryConditions/VolumeChargeDensity.md#VolumeChargeDensity.PropertyByAPIName)               | Get a property by its API name.                                                   |
-| [`CreateParameter`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/BoundaryConditions/VolumeChargeDensity.md#VolumeChargeDensity.CreateParameter)                   | Creates a new parameter for a Property.                                           |
-| [`GetParameter`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/BoundaryConditions/VolumeChargeDensity.md#VolumeChargeDensity.GetParameter)                         | Gets the parameter corresponding to the given property.                           |
-| [`RemoveParameter`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/BoundaryConditions/VolumeChargeDensity.md#VolumeChargeDensity.RemoveParameter)                   | Removes the parameter from the parameter set corresponding to the given property. |
+|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------|
+| [`Activate`](#VolumeChargeDensity.Activate)                               | Activate the current object.                                                      |
+| [`AddComment`](#VolumeChargeDensity.AddComment)                           | Creates a new child Comment.                                                      |
+| [`AddFigure`](#VolumeChargeDensity.AddFigure)                             | Creates a new child Figure.                                                       |
+| [`AddImage`](#VolumeChargeDensity.AddImage)                               | Creates a new child Image.                                                        |
+| [`CopyTo`](#VolumeChargeDensity.CopyTo)                                   | Copies all visible properties from this object to another.                        |
+| [`CreateParameter`](#VolumeChargeDensity.CreateParameter)                 | Creates a new parameter for a Property.                                           |
+| [`Delete`](#VolumeChargeDensity.Delete)                                   | Run the Delete action.                                                            |
+| [`Duplicate`](#VolumeChargeDensity.Duplicate)                             | Creates a copy of the current DataModelObject.                                    |
+| [`GetChildren`](#VolumeChargeDensity.GetChildren)                         | Gets the list of children, filtered by type.                                      |
+| [`GetParameter`](#VolumeChargeDensity.GetParameter)                       | Gets the parameter corresponding to the given property.                           |
+| [`GroupAllSimilarChildren`](#VolumeChargeDensity.GroupAllSimilarChildren) | Run the GroupAllSimilarChildren action.                                           |
+| [`GroupSimilarObjects`](#VolumeChargeDensity.GroupSimilarObjects)         | Run the GroupSimilarObjects action.                                               |
+| [`PromoteToNamedSelection`](#VolumeChargeDensity.PromoteToNamedSelection) | Run the PromoteToNamedSelection action.                                           |
+| [`PropertyByAPIName`](#VolumeChargeDensity.PropertyByAPIName)             | Get a property by its API name.                                                   |
+| [`PropertyByName`](#VolumeChargeDensity.PropertyByName)                   | Get a property by its unique name.                                                |
+| [`RemoveParameter`](#VolumeChargeDensity.RemoveParameter)                 | Removes the parameter from the parameter set corresponding to the given property. |
 
 ### Properties
 
 | Name | Description |
 |---------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------|
-| [`InternalObject`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/BoundaryConditions/VolumeChargeDensity.md#id0)                                                  | Gets the internal object. For advanced usage only.            |
-| [`Magnitude`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/BoundaryConditions/VolumeChargeDensity.md#VolumeChargeDensity.Magnitude)                             | Gets or sets the Magnitude.                                   |
-| [`Location`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/BoundaryConditions/VolumeChargeDensity.md#VolumeChargeDensity.Location)                               | Gets or sets the Location.                                    |
-| [`DataModelObjectCategory`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/BoundaryConditions/VolumeChargeDensity.md#VolumeChargeDensity.DataModelObjectCategory) | Gets the current DataModelObject's category.                  |
-| [`Suppressed`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/BoundaryConditions/VolumeChargeDensity.md#VolumeChargeDensity.Suppressed)                           | Gets or sets the Suppressed.                                  |
-| [`SharedRefBody`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/BoundaryConditions/VolumeChargeDensity.md#VolumeChargeDensity.SharedRefBody)                     | Gets or sets the SharedRefBody.                               |
-| [`Children`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/BoundaryConditions/VolumeChargeDensity.md#VolumeChargeDensity.Children)                               | Gets the list of children.                                    |
-| [`Comments`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/BoundaryConditions/VolumeChargeDensity.md#VolumeChargeDensity.Comments)                               | Gets the list of associated comments.                         |
-| [`Figures`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/BoundaryConditions/VolumeChargeDensity.md#VolumeChargeDensity.Figures)                                 | Gets the list of associated figures.                          |
-| [`Images`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/BoundaryConditions/VolumeChargeDensity.md#VolumeChargeDensity.Images)                                   | Gets the list of associated images.                           |
-| [`ReadOnly`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/BoundaryConditions/VolumeChargeDensity.md#VolumeChargeDensity.ReadOnly)                               | Gets or sets the ReadOnly.                                    |
-| [`InternalObject`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/BoundaryConditions/VolumeChargeDensity.md#id0)                                                  | Gets the internal object. For advanced usage only.            |
-| [`Properties`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/BoundaryConditions/VolumeChargeDensity.md#VolumeChargeDensity.Properties)                           | Gets the list of properties for this object.                  |
-| [`VisibleProperties`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/BoundaryConditions/VolumeChargeDensity.md#VolumeChargeDensity.VisibleProperties)             | Gets the list of properties that are visible for this object. |
+| [`Children`](#VolumeChargeDensity.Children)                               | Gets the list of children.                                    |
+| [`Comments`](#VolumeChargeDensity.Comments)                               | Gets the list of associated comments.                         |
+| [`DataModelObjectCategory`](#VolumeChargeDensity.DataModelObjectCategory) | Gets the current DataModelObject’s category.                  |
+| [`Figures`](#VolumeChargeDensity.Figures)                                 | Gets the list of associated figures.                          |
+| [`Images`](#VolumeChargeDensity.Images)                                   | Gets the list of associated images.                           |
+| [`InternalObject`](#VolumeChargeDensity.InternalObject)                   | Gets the internal object. For advanced usage only.            |
+| [`Location`](#VolumeChargeDensity.Location)                               | Gets or sets the Location.                                    |
+| [`Magnitude`](#VolumeChargeDensity.Magnitude)                             | Gets or sets the Magnitude.                                   |
+| [`Properties`](#VolumeChargeDensity.Properties)                           | Gets the list of properties for this object.                  |
+| [`ReadOnly`](#VolumeChargeDensity.ReadOnly)                               | Gets or sets the ReadOnly.                                    |
+| [`SharedRefBody`](#VolumeChargeDensity.SharedRefBody)                     | Gets or sets the SharedRefBody.                               |
+| [`Suppressed`](#VolumeChargeDensity.Suppressed)                           | Gets or sets the Suppressed.                                  |
+| [`VisibleProperties`](#VolumeChargeDensity.VisibleProperties)             | Gets the list of properties that are visible for this object. |
 
 <a id="property-detail"></a>
 
 ## Property detail
-
-<a id="VolumeChargeDensity.InternalObject"></a>
-
-### *property* VolumeChargeDensity.InternalObject *: Ansys.Common.Interop.DSObjectsAuto.IDSLoadAuto | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets the internal object. For advanced usage only.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="VolumeChargeDensity.Magnitude"></a>
-
-### *property* VolumeChargeDensity.Magnitude *: [Ansys.ACT.Mechanical.Fields.Field](../../../Mechanical/Fields/Field.md#ansys.mechanical.stubs.v241.Ansys.ACT.Mechanical.Fields.Field) | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the Magnitude.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="VolumeChargeDensity.Location"></a>
-
-### *property* VolumeChargeDensity.Location *: Ansys.ACT.Interfaces.Common.ISelectionInfo | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the Location.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="VolumeChargeDensity.DataModelObjectCategory"></a>
-
-### *property* VolumeChargeDensity.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets the current DataModelObject's category.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="VolumeChargeDensity.Suppressed"></a>
-
-### *property* VolumeChargeDensity.Suppressed *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the Suppressed.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="VolumeChargeDensity.SharedRefBody"></a>
-
-### *property* VolumeChargeDensity.SharedRefBody *: [Ansys.ACT.Automation.Mechanical.Body](../Body.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Body) | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the SharedRefBody.
-
-<!-- !! processed by numpydoc !! -->
 
 <a id="VolumeChargeDensity.Children"></a>
 
@@ -120,6 +70,14 @@ Gets the list of children.
 ### *property* VolumeChargeDensity.Comments *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Comment](../Comment.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated comments.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="VolumeChargeDensity.DataModelObjectCategory"></a>
+
+### *property* VolumeChargeDensity.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../../v242/Ansys/Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets the current DataModelObject’s category.
 
 <!-- !! processed by numpydoc !! -->
 
@@ -139,19 +97,27 @@ Gets the list of associated images.
 
 <!-- !! processed by numpydoc !! -->
 
-<a id="VolumeChargeDensity.ReadOnly"></a>
+<a id="VolumeChargeDensity.InternalObject"></a>
 
-### *property* VolumeChargeDensity.ReadOnly *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* VolumeChargeDensity.InternalObject *: Ansys.Common.Interop.DSObjectsAuto.IDSLoadAuto | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets or sets the ReadOnly.
+Gets the internal object. For advanced usage only.
 
 <!-- !! processed by numpydoc !! -->
 
-<a id="id0"></a>
+<a id="VolumeChargeDensity.Location"></a>
 
-### *property* VolumeChargeDensity.InternalObject *: System.Object | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* VolumeChargeDensity.Location *: Ansys.ACT.Interfaces.Common.ISelectionInfo | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets the internal object. For advanced usage only.
+Gets or sets the Location.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="VolumeChargeDensity.Magnitude"></a>
+
+### *property* VolumeChargeDensity.Magnitude *: [Ansys.ACT.Mechanical.Fields.Field](../../../../../../v242/Ansys/ACT/Mechanical/Fields/Field.md#ansys.mechanical.stubs.v242.Ansys.ACT.Mechanical.Fields.Field) | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the Magnitude.
 
 <!-- !! processed by numpydoc !! -->
 
@@ -160,6 +126,30 @@ Gets the internal object. For advanced usage only.
 ### *property* VolumeChargeDensity.Properties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of properties for this object.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="VolumeChargeDensity.ReadOnly"></a>
+
+### *property* VolumeChargeDensity.ReadOnly *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the ReadOnly.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="VolumeChargeDensity.SharedRefBody"></a>
+
+### *property* VolumeChargeDensity.SharedRefBody *: [Ansys.ACT.Automation.Mechanical.Body](../Body.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Body) | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the SharedRefBody.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="VolumeChargeDensity.Suppressed"></a>
+
+### *property* VolumeChargeDensity.Suppressed *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the Suppressed.
 
 <!-- !! processed by numpydoc !! -->
 
@@ -175,35 +165,11 @@ Gets the list of properties that are visible for this object.
 
 ## Method detail
 
-<a id="VolumeChargeDensity.PromoteToNamedSelection"></a>
+<a id="VolumeChargeDensity.Activate"></a>
 
-### VolumeChargeDensity.PromoteToNamedSelection()
+### VolumeChargeDensity.Activate()
 
-Run the PromoteToNamedSelection action.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="VolumeChargeDensity.Delete"></a>
-
-### VolumeChargeDensity.Delete()
-
-Run the Delete action.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="VolumeChargeDensity.GetChildren"></a>
-
-### VolumeChargeDensity.GetChildren(recurses: System.Boolean, children: System.Collections.Generic.IList[ChildrenType])
-
-Gets the list of children, filtered by type.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="id1"></a>
-
-### VolumeChargeDensity.GetChildren(category: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory), recurses: System.Boolean, children: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject])
-
-Gets the list of children, filtered by type.
+Activate the current object.
 
 <!-- !! processed by numpydoc !! -->
 
@@ -227,17 +193,11 @@ Creates a new child Figure.
 
 ### VolumeChargeDensity.AddImage(filePath: System.String)
 
+```text
 Creates a new child Image.
 If a filePath is provided, the image will be loaded from that file,
 if not, the image will be a screen capture of the Geometry window.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="VolumeChargeDensity.Activate"></a>
-
-### VolumeChargeDensity.Activate()
-
-Activate the current object.
+```
 
 <!-- !! processed by numpydoc !! -->
 
@@ -249,11 +209,43 @@ Copies all visible properties from this object to another.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="VolumeChargeDensity.CreateParameter"></a>
+
+### VolumeChargeDensity.CreateParameter(propName: System.String)
+
+Creates a new parameter for a Property.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="VolumeChargeDensity.Delete"></a>
+
+### VolumeChargeDensity.Delete()
+
+Run the Delete action.
+
+<!-- !! processed by numpydoc !! -->
+
 <a id="VolumeChargeDensity.Duplicate"></a>
 
 ### VolumeChargeDensity.Duplicate()
 
 Creates a copy of the current DataModelObject.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="VolumeChargeDensity.GetChildren"></a>
+
+### VolumeChargeDensity.GetChildren(recurses: System.Boolean, children: System.Collections.Generic.IList[ChildrenType])
+
+Gets the list of children, filtered by type.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="VolumeChargeDensity.GetParameter"></a>
+
+### VolumeChargeDensity.GetParameter(propName: System.String)
+
+Gets the parameter corresponding to the given property.
 
 <!-- !! processed by numpydoc !! -->
 
@@ -273,11 +265,11 @@ Run the GroupSimilarObjects action.
 
 <!-- !! processed by numpydoc !! -->
 
-<a id="VolumeChargeDensity.PropertyByName"></a>
+<a id="VolumeChargeDensity.PromoteToNamedSelection"></a>
 
-### VolumeChargeDensity.PropertyByName(name: System.String)
+### VolumeChargeDensity.PromoteToNamedSelection()
 
-Get a property by its unique name.
+Run the PromoteToNamedSelection action.
 
 <!-- !! processed by numpydoc !! -->
 
@@ -285,24 +277,18 @@ Get a property by its unique name.
 
 ### VolumeChargeDensity.PropertyByAPIName(name: System.String)
 
+```text
 Get a property by its API name.
 If multiple properties have the same API Name, only the first property with that name will be returned.
+```
 
 <!-- !! processed by numpydoc !! -->
 
-<a id="VolumeChargeDensity.CreateParameter"></a>
+<a id="VolumeChargeDensity.PropertyByName"></a>
 
-### VolumeChargeDensity.CreateParameter(propName: System.String)
+### VolumeChargeDensity.PropertyByName(name: System.String)
 
-Creates a new parameter for a Property.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="VolumeChargeDensity.GetParameter"></a>
-
-### VolumeChargeDensity.GetParameter(propName: System.String)
-
-Gets the parameter corresponding to the given property.
+Get a property by its unique name.
 
 <!-- !! processed by numpydoc !! -->
 

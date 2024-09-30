@@ -1,6 +1,6 @@
 # `ExpandResultFrom`
 
-
+<a id="ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.ExpandResultFrom"></a>
 
 #### *class* ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.ExpandResultFrom
 
@@ -17,7 +17,7 @@ Specifies the ExpandResultFrom.
 ### Attributes
 
 | Name |
-| ------------------------------------------------------------ |
+| ------------------------------------------------------------------------------------------------------------------------------------ |
 | [`HarmonicSolution`](#ExpandResultFrom.HarmonicSolution) |
 | [`ModalSolution`](#ExpandResultFrom.ModalSolution) |
 | [`ProgramControlled`](#ExpandResultFrom.ProgramControlled) |

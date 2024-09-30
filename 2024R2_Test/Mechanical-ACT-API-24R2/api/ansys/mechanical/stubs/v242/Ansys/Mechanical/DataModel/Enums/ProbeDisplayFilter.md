@@ -1,6 +1,6 @@
 # `ProbeDisplayFilter`
 
-
+<a id="ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.ProbeDisplayFilter"></a>
 
 #### *class* ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.ProbeDisplayFilter
 
@@ -17,22 +17,20 @@ Specifies the ProbeDisplayFilter.
 ### Attributes
 
 | Name |
-| ---------------------------------------------------------------- |
+| ------------------------------------------------------------------------------------------------------------------------------------------ |
 | [`All`](#ProbeDisplayFilter.All) |
 | [`AxialForce`](#ProbeDisplayFilter.AxialForce) |
-| [`DampingForce1`](#ProbeDisplayFilter.DampingForce1) |
-| [`DampingForce2`](#ProbeDisplayFilter.DampingForce2) |
-| [`Elongation1`](#ProbeDisplayFilter.Elongation1) |
-| [`Elongation2`](#ProbeDisplayFilter.Elongation2) |
-| [`ElasticForce1`](#ProbeDisplayFilter.ElasticForce1) |
-| [`ElasticForce2`](#ProbeDisplayFilter.ElasticForce2) |
-| [`Velocity1`](#ProbeDisplayFilter.Velocity1) |
-| [`Velocity2`](#ProbeDisplayFilter.Velocity2) |
 | [`CoEnergy`](#ProbeDisplayFilter.CoEnergy) |
 | [`Components`](#ProbeDisplayFilter.Components) |
 | [`Contact`](#ProbeDisplayFilter.Contact) |
 | [`Damping`](#ProbeDisplayFilter.Damping) |
+| [`DampingForce1`](#ProbeDisplayFilter.DampingForce1) |
+| [`DampingForce2`](#ProbeDisplayFilter.DampingForce2) |
 | [`Dissipative`](#ProbeDisplayFilter.Dissipative) |
+| [`ElasticForce1`](#ProbeDisplayFilter.ElasticForce1) |
+| [`ElasticForce2`](#ProbeDisplayFilter.ElasticForce2) |
+| [`Elongation1`](#ProbeDisplayFilter.Elongation1) |
+| [`Elongation2`](#ProbeDisplayFilter.Elongation2) |
 | [`EmittedRadiation`](#ProbeDisplayFilter.EmittedRadiation) |
 | [`Equivalent`](#ProbeDisplayFilter.Equivalent) |
 | [`External`](#ProbeDisplayFilter.External) |
@@ -60,6 +58,8 @@ Specifies the ProbeDisplayFilter.
 | [`Strain`](#ProbeDisplayFilter.Strain) |
 | [`Torque`](#ProbeDisplayFilter.Torque) |
 | [`Total`](#ProbeDisplayFilter.Total) |
+| [`Velocity1`](#ProbeDisplayFilter.Velocity1) |
+| [`Velocity2`](#ProbeDisplayFilter.Velocity2) |
 | [`XAxis`](#ProbeDisplayFilter.XAxis) |
 | [`XYPlane`](#ProbeDisplayFilter.XYPlane) |
 | [`XZPlane`](#ProbeDisplayFilter.XZPlane) |
@@ -79,38 +79,6 @@ Specifies the ProbeDisplayFilter.
 
 ### ProbeDisplayFilter.AxialForce *= 25*
 
-<a id="ProbeDisplayFilter.DampingForce1"></a>
-
-### ProbeDisplayFilter.DampingForce1 *= 41*
-
-<a id="ProbeDisplayFilter.DampingForce2"></a>
-
-### ProbeDisplayFilter.DampingForce2 *= 42*
-
-<a id="ProbeDisplayFilter.Elongation1"></a>
-
-### ProbeDisplayFilter.Elongation1 *= 37*
-
-<a id="ProbeDisplayFilter.Elongation2"></a>
-
-### ProbeDisplayFilter.Elongation2 *= 38*
-
-<a id="ProbeDisplayFilter.ElasticForce1"></a>
-
-### ProbeDisplayFilter.ElasticForce1 *= 35*
-
-<a id="ProbeDisplayFilter.ElasticForce2"></a>
-
-### ProbeDisplayFilter.ElasticForce2 *= 36*
-
-<a id="ProbeDisplayFilter.Velocity1"></a>
-
-### ProbeDisplayFilter.Velocity1 *= 39*
-
-<a id="ProbeDisplayFilter.Velocity2"></a>
-
-### ProbeDisplayFilter.Velocity2 *= 40*
-
 <a id="ProbeDisplayFilter.CoEnergy"></a>
 
 ### ProbeDisplayFilter.CoEnergy *= 24*
@@ -127,9 +95,33 @@ Specifies the ProbeDisplayFilter.
 
 ### ProbeDisplayFilter.Damping *= 47*
 
+<a id="ProbeDisplayFilter.DampingForce1"></a>
+
+### ProbeDisplayFilter.DampingForce1 *= 41*
+
+<a id="ProbeDisplayFilter.DampingForce2"></a>
+
+### ProbeDisplayFilter.DampingForce2 *= 42*
+
 <a id="ProbeDisplayFilter.Dissipative"></a>
 
 ### ProbeDisplayFilter.Dissipative *= 17*
+
+<a id="ProbeDisplayFilter.ElasticForce1"></a>
+
+### ProbeDisplayFilter.ElasticForce1 *= 35*
+
+<a id="ProbeDisplayFilter.ElasticForce2"></a>
+
+### ProbeDisplayFilter.ElasticForce2 *= 36*
+
+<a id="ProbeDisplayFilter.Elongation1"></a>
+
+### ProbeDisplayFilter.Elongation1 *= 37*
+
+<a id="ProbeDisplayFilter.Elongation2"></a>
+
+### ProbeDisplayFilter.Elongation2 *= 38*
 
 <a id="ProbeDisplayFilter.EmittedRadiation"></a>
 
@@ -238,6 +230,14 @@ Specifies the ProbeDisplayFilter.
 <a id="ProbeDisplayFilter.Total"></a>
 
 ### ProbeDisplayFilter.Total *= 14*
+
+<a id="ProbeDisplayFilter.Velocity1"></a>
+
+### ProbeDisplayFilter.Velocity1 *= 39*
+
+<a id="ProbeDisplayFilter.Velocity2"></a>
+
+### ProbeDisplayFilter.Velocity2 *= 40*
 
 <a id="ProbeDisplayFilter.XAxis"></a>
 

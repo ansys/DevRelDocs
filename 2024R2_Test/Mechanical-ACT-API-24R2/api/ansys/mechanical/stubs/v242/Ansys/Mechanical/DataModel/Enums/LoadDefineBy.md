@@ -1,6 +1,6 @@
 # `LoadDefineBy`
 
-
+<a id="ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.LoadDefineBy"></a>
 
 #### *class* ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.LoadDefineBy
 
@@ -17,17 +17,17 @@ Specifies the LoadDefineBy.
 ### Attributes
 
 | Name |
-| -------------------------------------------------------------- |
+| ---------------------------------------------------------------------------------------------------------------------------------- |
 | [`ComplexComponents`](#LoadDefineBy.ComplexComponents) |
-| [`ComplexVector`](#LoadDefineBy.ComplexVector) |
 | [`ComplexNormalTo`](#LoadDefineBy.ComplexNormalTo) |
-| [`Components`](#LoadDefineBy.Components) |
+| [`ComplexVector`](#LoadDefineBy.ComplexVector) |
 | [`ComponentX`](#LoadDefineBy.ComponentX) |
 | [`ComponentY`](#LoadDefineBy.ComponentY) |
 | [`ComponentZ`](#LoadDefineBy.ComponentZ) |
-| [`Vector`](#LoadDefineBy.Vector) |
+| [`Components`](#LoadDefineBy.Components) |
 | [`NormalToOrTangential`](#LoadDefineBy.NormalToOrTangential) |
 | [`UnknownDefined`](#LoadDefineBy.UnknownDefined) |
+| [`Vector`](#LoadDefineBy.Vector) |
 
 <a id="attribute-detail"></a>
 
@@ -37,17 +37,13 @@ Specifies the LoadDefineBy.
 
 ### LoadDefineBy.ComplexComponents *= 6*
 
-<a id="LoadDefineBy.ComplexVector"></a>
-
-### LoadDefineBy.ComplexVector *= 7*
-
 <a id="LoadDefineBy.ComplexNormalTo"></a>
 
 ### LoadDefineBy.ComplexNormalTo *= 8*
 
-<a id="LoadDefineBy.Components"></a>
+<a id="LoadDefineBy.ComplexVector"></a>
 
-### LoadDefineBy.Components *= 0*
+### LoadDefineBy.ComplexVector *= 7*
 
 <a id="LoadDefineBy.ComponentX"></a>
 
@@ -61,9 +57,9 @@ Specifies the LoadDefineBy.
 
 ### LoadDefineBy.ComponentZ *= 5*
 
-<a id="LoadDefineBy.Vector"></a>
+<a id="LoadDefineBy.Components"></a>
 
-### LoadDefineBy.Vector *= 1*
+### LoadDefineBy.Components *= 0*
 
 <a id="LoadDefineBy.NormalToOrTangential"></a>
 
@@ -72,5 +68,9 @@ Specifies the LoadDefineBy.
 <a id="LoadDefineBy.UnknownDefined"></a>
 
 ### LoadDefineBy.UnknownDefined
+
+<a id="LoadDefineBy.Vector"></a>
+
+### LoadDefineBy.Vector *= 1*
 
 

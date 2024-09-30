@@ -1,6 +1,6 @@
 # `Stage`
 
-
+<a id="ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Stage"></a>
 
 #### *class* ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Stage
 
@@ -17,105 +17,55 @@ Defines a Stage.
 ### Methods
 
 | Name | Description |
-|-----------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------|
-| [`GetHarmonicIndexNumberForEnvironment`](../../../../../v242/Ansys/ACT/Automation/Mechanical/Stage.md#Stage.GetHarmonicIndexNumberForEnvironment)   | Gets the worksheet number of harmonic indexes for a given environment.            |
-| [`SetHarmonicIndexNumberForEnvironment`](../../../../../v242/Ansys/ACT/Automation/Mechanical/Stage.md#Stage.SetHarmonicIndexNumberForEnvironment)   | Sets the worksheet number of harmonic indexes for a given environment.            |
-| [`GetHarmonicIndexForEnvironmentByIndex`](../../../../../v242/Ansys/ACT/Automation/Mechanical/Stage.md#Stage.GetHarmonicIndexForEnvironmentByIndex) | Gets the worksheet harmonic index for a given environment at index.               |
-| [`SetHarmonicIndexForEnvironmentByIndex`](../../../../../v242/Ansys/ACT/Automation/Mechanical/Stage.md#Stage.SetHarmonicIndexForEnvironmentByIndex) | Sets the worksheet harmonic index for a given environment at index.               |
-| [`Delete`](../../../../../v242/Ansys/ACT/Automation/Mechanical/Stage.md#Stage.Delete)                                                               | Run the Delete action.                                                            |
-| [`GetChildren`](../../../../../v242/Ansys/ACT/Automation/Mechanical/Stage.md#id1)                                                                   | Gets the list of children, filtered by type.                                      |
-| [`GetChildren`](../../../../../v242/Ansys/ACT/Automation/Mechanical/Stage.md#id1)                                                                   | Gets the list of children, filtered by type.                                      |
-| [`AddComment`](../../../../../v242/Ansys/ACT/Automation/Mechanical/Stage.md#Stage.AddComment)                                                       | Creates a new child Comment.                                                      |
-| [`AddFigure`](../../../../../v242/Ansys/ACT/Automation/Mechanical/Stage.md#Stage.AddFigure)                                                         | Creates a new child Figure.                                                       |
-| [`AddImage`](../../../../../v242/Ansys/ACT/Automation/Mechanical/Stage.md#Stage.AddImage)                                                           | Creates a new child Image.                                                        |
-| [`Activate`](../../../../../v242/Ansys/ACT/Automation/Mechanical/Stage.md#Stage.Activate)                                                           | Activate the current object.                                                      |
-| [`CopyTo`](../../../../../v242/Ansys/ACT/Automation/Mechanical/Stage.md#Stage.CopyTo)                                                               | Copies all visible properties from this object to another.                        |
-| [`Duplicate`](../../../../../v242/Ansys/ACT/Automation/Mechanical/Stage.md#Stage.Duplicate)                                                         | Creates a copy of the current DataModelObject.                                    |
-| [`GroupAllSimilarChildren`](../../../../../v242/Ansys/ACT/Automation/Mechanical/Stage.md#Stage.GroupAllSimilarChildren)                             | Run the GroupAllSimilarChildren action.                                           |
-| [`GroupSimilarObjects`](../../../../../v242/Ansys/ACT/Automation/Mechanical/Stage.md#Stage.GroupSimilarObjects)                                     | Run the GroupSimilarObjects action.                                               |
-| [`PropertyByName`](../../../../../v242/Ansys/ACT/Automation/Mechanical/Stage.md#Stage.PropertyByName)                                               | Get a property by its unique name.                                                |
-| [`PropertyByAPIName`](../../../../../v242/Ansys/ACT/Automation/Mechanical/Stage.md#Stage.PropertyByAPIName)                                         | Get a property by its API name.                                                   |
-| [`CreateParameter`](../../../../../v242/Ansys/ACT/Automation/Mechanical/Stage.md#Stage.CreateParameter)                                             | Creates a new parameter for a Property.                                           |
-| [`GetParameter`](../../../../../v242/Ansys/ACT/Automation/Mechanical/Stage.md#Stage.GetParameter)                                                   | Gets the parameter corresponding to the given property.                           |
-| [`RemoveParameter`](../../../../../v242/Ansys/ACT/Automation/Mechanical/Stage.md#Stage.RemoveParameter)                                             | Removes the parameter from the parameter set corresponding to the given property. |
+|-----------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------|
+| [`Activate`](#Stage.Activate)                                                           | Activate the current object.                                                      |
+| [`AddComment`](#Stage.AddComment)                                                       | Creates a new child Comment.                                                      |
+| [`AddFigure`](#Stage.AddFigure)                                                         | Creates a new child Figure.                                                       |
+| [`AddImage`](#Stage.AddImage)                                                           | Creates a new child Image.                                                        |
+| [`CopyTo`](#Stage.CopyTo)                                                               | Copies all visible properties from this object to another.                        |
+| [`CreateParameter`](#Stage.CreateParameter)                                             | Creates a new parameter for a Property.                                           |
+| [`Delete`](#Stage.Delete)                                                               | Run the Delete action.                                                            |
+| [`Duplicate`](#Stage.Duplicate)                                                         | Creates a copy of the current DataModelObject.                                    |
+| [`GetChildren`](#Stage.GetChildren)                                                     | Gets the list of children, filtered by type.                                      |
+| [`GetHarmonicIndexForEnvironmentByIndex`](#Stage.GetHarmonicIndexForEnvironmentByIndex) | Gets the worksheet harmonic index for a given environment at index.               |
+| [`GetHarmonicIndexNumberForEnvironment`](#Stage.GetHarmonicIndexNumberForEnvironment)   | Gets the worksheet number of harmonic indexes for a given environment.            |
+| [`GetParameter`](#Stage.GetParameter)                                                   | Gets the parameter corresponding to the given property.                           |
+| [`GroupAllSimilarChildren`](#Stage.GroupAllSimilarChildren)                             | Run the GroupAllSimilarChildren action.                                           |
+| [`GroupSimilarObjects`](#Stage.GroupSimilarObjects)                                     | Run the GroupSimilarObjects action.                                               |
+| [`PropertyByAPIName`](#Stage.PropertyByAPIName)                                         | Get a property by its API name.                                                   |
+| [`PropertyByName`](#Stage.PropertyByName)                                               | Get a property by its unique name.                                                |
+| [`RemoveParameter`](#Stage.RemoveParameter)                                             | Removes the parameter from the parameter set corresponding to the given property. |
+| [`SetHarmonicIndexForEnvironmentByIndex`](#Stage.SetHarmonicIndexForEnvironmentByIndex) | Sets the worksheet harmonic index for a given environment at index.               |
+| [`SetHarmonicIndexNumberForEnvironment`](#Stage.SetHarmonicIndexNumberForEnvironment)   | Sets the worksheet number of harmonic indexes for a given environment.            |
 
 ### Properties
 
 | Name | Description |
-|-------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------|
-| [`InternalObject`](../../../../../v242/Ansys/ACT/Automation/Mechanical/Stage.md#id0)                                    | Gets the internal object. For advanced usage only.            |
-| [`StageName`](../../../../../v242/Ansys/ACT/Automation/Mechanical/Stage.md#Stage.StageName)                             | Gets the StageName.                                           |
-| [`Behavior`](../../../../../v242/Ansys/ACT/Automation/Mechanical/Stage.md#Stage.Behavior)                               | Gets the Behavior.                                            |
-| [`Suppressed`](../../../../../v242/Ansys/ACT/Automation/Mechanical/Stage.md#Stage.Suppressed)                           | Gets or sets the Suppressed.                                  |
-| [`CyclicRegion`](../../../../../v242/Ansys/ACT/Automation/Mechanical/Stage.md#Stage.CyclicRegion)                       | Gets or sets the CyclicRegion.                                |
-| [`Location`](../../../../../v242/Ansys/ACT/Automation/Mechanical/Stage.md#Stage.Location)                               | Gets or sets the Location.                                    |
-| [`DataModelObjectCategory`](../../../../../v242/Ansys/ACT/Automation/Mechanical/Stage.md#Stage.DataModelObjectCategory) | Gets the current DataModelObject's category.                  |
-| [`Children`](../../../../../v242/Ansys/ACT/Automation/Mechanical/Stage.md#Stage.Children)                               | Gets the list of children.                                    |
-| [`Comments`](../../../../../v242/Ansys/ACT/Automation/Mechanical/Stage.md#Stage.Comments)                               | Gets the list of associated comments.                         |
-| [`Figures`](../../../../../v242/Ansys/ACT/Automation/Mechanical/Stage.md#Stage.Figures)                                 | Gets the list of associated figures.                          |
-| [`Images`](../../../../../v242/Ansys/ACT/Automation/Mechanical/Stage.md#Stage.Images)                                   | Gets the list of associated images.                           |
-| [`ReadOnly`](../../../../../v242/Ansys/ACT/Automation/Mechanical/Stage.md#Stage.ReadOnly)                               | Gets or sets the ReadOnly.                                    |
-| [`InternalObject`](../../../../../v242/Ansys/ACT/Automation/Mechanical/Stage.md#id0)                                    | Gets the internal object. For advanced usage only.            |
-| [`Properties`](../../../../../v242/Ansys/ACT/Automation/Mechanical/Stage.md#Stage.Properties)                           | Gets the list of properties for this object.                  |
-| [`VisibleProperties`](../../../../../v242/Ansys/ACT/Automation/Mechanical/Stage.md#Stage.VisibleProperties)             | Gets the list of properties that are visible for this object. |
+|-------------------------------------------------------------|---------------------------------------------------------------|
+| [`Behavior`](#Stage.Behavior)                               | Gets the Behavior.                                            |
+| [`Children`](#Stage.Children)                               | Gets the list of children.                                    |
+| [`Comments`](#Stage.Comments)                               | Gets the list of associated comments.                         |
+| [`CyclicRegion`](#Stage.CyclicRegion)                       | Gets or sets the CyclicRegion.                                |
+| [`DataModelObjectCategory`](#Stage.DataModelObjectCategory) | Gets the current DataModelObject’s category.                  |
+| [`Figures`](#Stage.Figures)                                 | Gets the list of associated figures.                          |
+| [`Images`](#Stage.Images)                                   | Gets the list of associated images.                           |
+| [`InternalObject`](#Stage.InternalObject)                   | Gets the internal object. For advanced usage only.            |
+| [`Location`](#Stage.Location)                               | Gets or sets the Location.                                    |
+| [`Properties`](#Stage.Properties)                           | Gets the list of properties for this object.                  |
+| [`ReadOnly`](#Stage.ReadOnly)                               | Gets or sets the ReadOnly.                                    |
+| [`StageName`](#Stage.StageName)                             | Gets the StageName.                                           |
+| [`Suppressed`](#Stage.Suppressed)                           | Gets or sets the Suppressed.                                  |
+| [`VisibleProperties`](#Stage.VisibleProperties)             | Gets the list of properties that are visible for this object. |
 
 <a id="property-detail"></a>
 
 ## Property detail
 
-<a id="Stage.InternalObject"></a>
-
-### *property* Stage.InternalObject *: Ansys.Common.Interop.DSObjectsAuto.IDSStageAuto | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets the internal object. For advanced usage only.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="Stage.StageName"></a>
-
-### *property* Stage.StageName *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets the StageName.
-
-<!-- !! processed by numpydoc !! -->
-
 <a id="Stage.Behavior"></a>
 
-### *property* Stage.Behavior *: [Ansys.Mechanical.DataModel.Enums.StageBehavior](../../../Mechanical/DataModel/Enums/StageBehavior.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.StageBehavior) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Stage.Behavior *: [Ansys.Mechanical.DataModel.Enums.StageBehavior](../../../../../v242/Ansys/Mechanical/DataModel/Enums/StageBehavior.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.StageBehavior) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the Behavior.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="Stage.Suppressed"></a>
-
-### *property* Stage.Suppressed *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the Suppressed.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="Stage.CyclicRegion"></a>
-
-### *property* Stage.CyclicRegion *: [Ansys.ACT.Automation.Mechanical.SymmetryGeneral](SymmetryGeneral.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.SymmetryGeneral) | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the CyclicRegion.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="Stage.Location"></a>
-
-### *property* Stage.Location *: Ansys.ACT.Interfaces.Common.ISelectionInfo | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the Location.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="Stage.DataModelObjectCategory"></a>
-
-### *property* Stage.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets the current DataModelObject's category.
 
 <!-- !! processed by numpydoc !! -->
 
@@ -135,6 +85,22 @@ Gets the list of associated comments.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="Stage.CyclicRegion"></a>
+
+### *property* Stage.CyclicRegion *: [Ansys.ACT.Automation.Mechanical.SymmetryGeneral](../../../../../v242/Ansys/ACT/Automation/Mechanical/SymmetryGeneral.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.SymmetryGeneral) | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the CyclicRegion.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="Stage.DataModelObjectCategory"></a>
+
+### *property* Stage.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../v242/Ansys/Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets the current DataModelObject’s category.
+
+<!-- !! processed by numpydoc !! -->
+
 <a id="Stage.Figures"></a>
 
 ### *property* Stage.Figures *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Figure](Figure.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
@@ -151,19 +117,19 @@ Gets the list of associated images.
 
 <!-- !! processed by numpydoc !! -->
 
-<a id="Stage.ReadOnly"></a>
+<a id="Stage.InternalObject"></a>
 
-### *property* Stage.ReadOnly *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Stage.InternalObject *: Ansys.Common.Interop.DSObjectsAuto.IDSStageAuto | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets or sets the ReadOnly.
+Gets the internal object. For advanced usage only.
 
 <!-- !! processed by numpydoc !! -->
 
-<a id="id0"></a>
+<a id="Stage.Location"></a>
 
-### *property* Stage.InternalObject *: System.Object | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Stage.Location *: Ansys.ACT.Interfaces.Common.ISelectionInfo | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets the internal object. For advanced usage only.
+Gets or sets the Location.
 
 <!-- !! processed by numpydoc !! -->
 
@@ -172,6 +138,30 @@ Gets the internal object. For advanced usage only.
 ### *property* Stage.Properties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of properties for this object.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="Stage.ReadOnly"></a>
+
+### *property* Stage.ReadOnly *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the ReadOnly.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="Stage.StageName"></a>
+
+### *property* Stage.StageName *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets the StageName.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="Stage.Suppressed"></a>
+
+### *property* Stage.Suppressed *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the Suppressed.
 
 <!-- !! processed by numpydoc !! -->
 
@@ -187,59 +177,11 @@ Gets the list of properties that are visible for this object.
 
 ## Method detail
 
-<a id="Stage.GetHarmonicIndexNumberForEnvironment"></a>
+<a id="Stage.Activate"></a>
 
-### Stage.GetHarmonicIndexNumberForEnvironment(envId: System.UInt32)
+### Stage.Activate()
 
-Gets the worksheet number of harmonic indexes for a given environment.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="Stage.SetHarmonicIndexNumberForEnvironment"></a>
-
-### Stage.SetHarmonicIndexNumberForEnvironment(envId: System.UInt32, newVal: System.UInt32)
-
-Sets the worksheet number of harmonic indexes for a given environment.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="Stage.GetHarmonicIndexForEnvironmentByIndex"></a>
-
-### Stage.GetHarmonicIndexForEnvironmentByIndex(envId: System.UInt32, index: System.Int32)
-
-Gets the worksheet harmonic index for a given environment at index.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="Stage.SetHarmonicIndexForEnvironmentByIndex"></a>
-
-### Stage.SetHarmonicIndexForEnvironmentByIndex(envId: System.UInt32, index: System.Int32, newVal: System.UInt32)
-
-Sets the worksheet harmonic index for a given environment at index.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="Stage.Delete"></a>
-
-### Stage.Delete()
-
-Run the Delete action.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="Stage.GetChildren"></a>
-
-### Stage.GetChildren(recurses: System.Boolean, children: System.Collections.Generic.IList[ChildrenType])
-
-Gets the list of children, filtered by type.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="id1"></a>
-
-### Stage.GetChildren(category: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory), recurses: System.Boolean, children: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject])
-
-Gets the list of children, filtered by type.
+Activate the current object.
 
 <!-- !! processed by numpydoc !! -->
 
@@ -263,17 +205,11 @@ Creates a new child Figure.
 
 ### Stage.AddImage(filePath: System.String)
 
+```text
 Creates a new child Image.
 If a filePath is provided, the image will be loaded from that file,
 if not, the image will be a screen capture of the Geometry window.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="Stage.Activate"></a>
-
-### Stage.Activate()
-
-Activate the current object.
+```
 
 <!-- !! processed by numpydoc !! -->
 
@@ -285,11 +221,59 @@ Copies all visible properties from this object to another.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="Stage.CreateParameter"></a>
+
+### Stage.CreateParameter(propName: System.String)
+
+Creates a new parameter for a Property.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="Stage.Delete"></a>
+
+### Stage.Delete()
+
+Run the Delete action.
+
+<!-- !! processed by numpydoc !! -->
+
 <a id="Stage.Duplicate"></a>
 
 ### Stage.Duplicate()
 
 Creates a copy of the current DataModelObject.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="Stage.GetChildren"></a>
+
+### Stage.GetChildren(recurses: System.Boolean, children: System.Collections.Generic.IList[ChildrenType])
+
+Gets the list of children, filtered by type.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="Stage.GetHarmonicIndexForEnvironmentByIndex"></a>
+
+### Stage.GetHarmonicIndexForEnvironmentByIndex(envId: System.UInt32, index: System.Int32)
+
+Gets the worksheet harmonic index for a given environment at index.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="Stage.GetHarmonicIndexNumberForEnvironment"></a>
+
+### Stage.GetHarmonicIndexNumberForEnvironment(envId: System.UInt32)
+
+Gets the worksheet number of harmonic indexes for a given environment.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="Stage.GetParameter"></a>
+
+### Stage.GetParameter(propName: System.String)
+
+Gets the parameter corresponding to the given property.
 
 <!-- !! processed by numpydoc !! -->
 
@@ -309,6 +293,17 @@ Run the GroupSimilarObjects action.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="Stage.PropertyByAPIName"></a>
+
+### Stage.PropertyByAPIName(name: System.String)
+
+```text
+Get a property by its API name.
+If multiple properties have the same API Name, only the first property with that name will be returned.
+```
+
+<!-- !! processed by numpydoc !! -->
+
 <a id="Stage.PropertyByName"></a>
 
 ### Stage.PropertyByName(name: System.String)
@@ -317,36 +312,27 @@ Get a property by its unique name.
 
 <!-- !! processed by numpydoc !! -->
 
-<a id="Stage.PropertyByAPIName"></a>
-
-### Stage.PropertyByAPIName(name: System.String)
-
-Get a property by its API name.
-If multiple properties have the same API Name, only the first property with that name will be returned.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="Stage.CreateParameter"></a>
-
-### Stage.CreateParameter(propName: System.String)
-
-Creates a new parameter for a Property.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="Stage.GetParameter"></a>
-
-### Stage.GetParameter(propName: System.String)
-
-Gets the parameter corresponding to the given property.
-
-<!-- !! processed by numpydoc !! -->
-
 <a id="Stage.RemoveParameter"></a>
 
 ### Stage.RemoveParameter(propName: System.String)
 
 Removes the parameter from the parameter set corresponding to the given property.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="Stage.SetHarmonicIndexForEnvironmentByIndex"></a>
+
+### Stage.SetHarmonicIndexForEnvironmentByIndex(envId: System.UInt32, index: System.Int32, newVal: System.UInt32)
+
+Sets the worksheet harmonic index for a given environment at index.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="Stage.SetHarmonicIndexNumberForEnvironment"></a>
+
+### Stage.SetHarmonicIndexNumberForEnvironment(envId: System.UInt32, newVal: System.UInt32)
+
+Sets the worksheet number of harmonic indexes for a given environment.
 
 <!-- !! processed by numpydoc !! -->
 

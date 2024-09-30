@@ -1,6 +1,6 @@
 # `CommandElementSurfaceLoadValues`
 
-
+<a id="ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.FE.CDB.CommandElementSurfaceLoadValues"></a>
 
 #### *class* ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.FE.CDB.CommandElementSurfaceLoadValues
 
@@ -18,8 +18,8 @@ Values associated to an element surface load from a SFEBLOCK command.
 
 | Name | Description |
 |------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------|
-| [`ValueCount`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/FE/CDB/CommandElementSurfaceLoadValues.md#CommandElementSurfaceLoadValues.ValueCount)   | Gets the number of values.   |
-| [`Values`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/FE/CDB/CommandElementSurfaceLoadValues.md#CommandElementSurfaceLoadValues.Values)           | Gets the values.             |
+| [`ValueCount`](#CommandElementSurfaceLoadValues.ValueCount)   | Gets the number of values.   |
+| [`Values`](#CommandElementSurfaceLoadValues.Values)           | Gets the values.             |
 
 <a id="property-detail"></a>
 

@@ -1,6 +1,6 @@
 # `Analysis`
 
-
+<a id="ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Analysis"></a>
 
 #### *class* ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Analysis
 
@@ -18,274 +18,207 @@ Defines a Analysis.
 
 | Name | Description |
 |-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------|
-| [`Solve`](../../../../../v242/Ansys/ACT/Automation/Mechanical/Analysis.md#id1)                                                                                              | Run the Solve action.                                                                                                  |
-| [`Solve`](../../../../../v242/Ansys/ACT/Automation/Mechanical/Analysis.md#id1)                                                                                              | Run the Solve action.                                                                                                  |
-| [`ClearGeneratedData`](../../../../../v242/Ansys/ACT/Automation/Mechanical/Analysis.md#Analysis.ClearGeneratedData)                                                         | Run the ClearGeneratedData action.                                                                                     |
-| [`OpenSolverFilesDirectory`](../../../../../v242/Ansys/ACT/Automation/Mechanical/Analysis.md#Analysis.OpenSolverFilesDirectory)                                             | Run the OpenSolverFilesDirectory action.                                                                               |
-| [`FilterBasedOnEnvironment`](../../../../../v242/Ansys/ACT/Automation/Mechanical/Analysis.md#Analysis.FilterBasedOnEnvironment)                                             | Enables interface filtering that only displays model-level items applicable to                                         |
-| [`AddInitialVelocity`](../../../../../v242/Ansys/ACT/Automation/Mechanical/Analysis.md#Analysis.AddInitialVelocity)                                                         | Creates a new child Initial Velocity.                                                                                  |
-| [`AddSystemCouplingRegion`](../../../../../v242/Ansys/ACT/Automation/Mechanical/Analysis.md#Analysis.AddSystemCouplingRegion)                                               | Creates a new SystemCouplingRegion                                                                                     |
-| [`AddThermalCondition`](../../../../../v242/Ansys/ACT/Automation/Mechanical/Analysis.md#id2)                                                                                | Creates a new child ThermalCondition.                                                                                  |
-| [`AddBoltPretension`](../../../../../v242/Ansys/ACT/Automation/Mechanical/Analysis.md#Analysis.AddBoltPretension)                                                           | Creates a new BoltPretension                                                                                           |
-| [`AddOptimizationRegion`](../../../../../v242/Ansys/ACT/Automation/Mechanical/Analysis.md#Analysis.AddOptimizationRegion)                                                   | Creates a new OptimizationRegion                                                                                       |
-| [`AddAcousticTemperature`](../../../../../v242/Ansys/ACT/Automation/Mechanical/Analysis.md#Analysis.AddAcousticTemperature)                                                 | Creates a new child ThermalCondition.                                                                                  |
-| [`AddSourceConductor`](../../../../../v242/Ansys/ACT/Automation/Mechanical/Analysis.md#Analysis.AddSourceConductor)                                                         | Creates a new child SourceConductor.                                                                                   |
-| [`WriteSystemCouplingFiles`](../../../../../v242/Ansys/ACT/Automation/Mechanical/Analysis.md#Analysis.WriteSystemCouplingFiles)                                             | Writes the system coupling files. Usage WriteSystemCouplingFiles(“C:Desktoptempscp1.scp”);                             |
-| [`CreateAutomaticFarFieldRadiationSurfaces`](../../../../../v242/Ansys/ACT/Automation/Mechanical/Analysis.md#Analysis.CreateAutomaticFarFieldRadiationSurfaces)             | Run the CreateAutomaticEquivalentSourceSurfaces action.                                                                |
-| [`CreateAutomaticFSI`](../../../../../v242/Ansys/ACT/Automation/Mechanical/Analysis.md#Analysis.CreateAutomaticFSI)                                                         | Run the CreateAutomaticFSI action.                                                                                     |
-| [`CreateAutomaticFSIandFarFieldRadiationSurfaces`](../../../../../v242/Ansys/ACT/Automation/Mechanical/Analysis.md#Analysis.CreateAutomaticFSIandFarFieldRadiationSurfaces) | Run the CreateAutomaticFSIandEquivalentSourceSurfaces action.                                                          |
-| [`SelectBodiesWithoutPhysicsRegion`](../../../../../v242/Ansys/ACT/Automation/Mechanical/Analysis.md#Analysis.SelectBodiesWithoutPhysicsRegion)                             | Run the SelectBodiesWithoutPhysicsRegion action to select the bodies that don’t belong to a Physics Region.            |
-| [`SelectBodiesWithMultiplePhysicsRegion`](../../../../../v242/Ansys/ACT/Automation/Mechanical/Analysis.md#Analysis.SelectBodiesWithMultiplePhysicsRegion)                   | Run the SelectBodiesWithMultiplePhysicsRegion action to select the bodies that belong to more than one Physics Region. |
-| [`AddImportedLoadMAPDLResultsFile`](../../../../../v242/Ansys/ACT/Automation/Mechanical/Analysis.md#Analysis.AddImportedLoadMAPDLResultsFile)                               | Creates a new Import Load for MAPDL Results File.                                                                      |
-| [`AddImportedLoadFluidsResultsFile`](../../../../../v242/Ansys/ACT/Automation/Mechanical/Analysis.md#Analysis.AddImportedLoadFluidsResultsFile)                             | Creates a new Import Load for Fluids Results File.                                                                     |
-| [`AddImportedLoadExternalData`](../../../../../v242/Ansys/ACT/Automation/Mechanical/Analysis.md#Analysis.AddImportedLoadExternalData)                                       | Creates a new Imported Load (External Data).                                                                           |
-| [`AddImportedRemoteLoadsGroup`](../../../../../v242/Ansys/ACT/Automation/Mechanical/Analysis.md#Analysis.AddImportedRemoteLoadsGroup)                                       | Creates a new Import Remote Load Group.                                                                                |
-| [`TransferDataFrom`](../../../../../v242/Ansys/ACT/Automation/Mechanical/Analysis.md#Analysis.TransferDataFrom)                                                             | Transfer Data From action.                                                                                             |
-| [`UnlinkDataFrom`](../../../../../v242/Ansys/ACT/Automation/Mechanical/Analysis.md#Analysis.UnlinkDataFrom)                                                                 | Unlink Data From action.                                                                                               |
-| [`ImportLoad`](../../../../../v242/Ansys/ACT/Automation/Mechanical/Analysis.md#Analysis.ImportLoad)                                                                         | Import Load action.                                                                                                    |
-| [`ExportNastranFile`](../../../../../v242/Ansys/ACT/Automation/Mechanical/Analysis.md#Analysis.ExportNastranFile)                                                           | Export Nastran File.                                                                                                   |
-| [`Duplicate`](../../../../../v242/Ansys/ACT/Automation/Mechanical/Analysis.md#Analysis.Duplicate)                                                                           | Duplicate method.                                                                                                      |
-| [`AddAcceleration`](../../../../../v242/Ansys/ACT/Automation/Mechanical/Analysis.md#Analysis.AddAcceleration)                                                               | Creates a new Acceleration                                                                                             |
-| [`AddAcousticAbsorptionElement`](../../../../../v242/Ansys/ACT/Automation/Mechanical/Analysis.md#Analysis.AddAcousticAbsorptionElement)                                     | Creates a new AcousticAbsorptionElement                                                                                |
-| [`AddAcousticAbsorptionSurface`](../../../../../v242/Ansys/ACT/Automation/Mechanical/Analysis.md#Analysis.AddAcousticAbsorptionSurface)                                     | Creates a new AcousticAbsorptionSurface                                                                                |
-| [`AddAcousticDiffuseSoundField`](../../../../../v242/Ansys/ACT/Automation/Mechanical/Analysis.md#Analysis.AddAcousticDiffuseSoundField)                                     | Creates a new AcousticDiffuseSoundField                                                                                |
-| [`AddAcousticFarFieldRadationSurface`](../../../../../v242/Ansys/ACT/Automation/Mechanical/Analysis.md#Analysis.AddAcousticFarFieldRadationSurface)                         | Creates a new AcousticFarFieldRadationSurface                                                                          |
-| [`AddAcousticFreeSurface`](../../../../../v242/Ansys/ACT/Automation/Mechanical/Analysis.md#Analysis.AddAcousticFreeSurface)                                                 | Creates a new AcousticFreeSurface                                                                                      |
-| [`AddAcousticImpedanceBoundary`](../../../../../v242/Ansys/ACT/Automation/Mechanical/Analysis.md#Analysis.AddAcousticImpedanceBoundary)                                     | Creates a new AcousticImpedanceBoundary                                                                                |
-| [`AddAcousticImpedanceSheet`](../../../../../v242/Ansys/ACT/Automation/Mechanical/Analysis.md#Analysis.AddAcousticImpedanceSheet)                                           | Creates a new AcousticImpedanceSheet                                                                                   |
-| [`AddAcousticIncidentWaveSource`](../../../../../v242/Ansys/ACT/Automation/Mechanical/Analysis.md#Analysis.AddAcousticIncidentWaveSource)                                   | Creates a new AcousticIncidentWaveSource                                                                               |
-| [`AddAcousticLowReducedFrequency`](../../../../../v242/Ansys/ACT/Automation/Mechanical/Analysis.md#Analysis.AddAcousticLowReducedFrequency)                                 | Creates a new AcousticLowReducedFrequency                                                                              |
-| [`AddAcousticMassSource`](../../../../../v242/Ansys/ACT/Automation/Mechanical/Analysis.md#Analysis.AddAcousticMassSource)                                                   | Creates a new AcousticMassSource                                                                                       |
-| [`AddAcousticMassSourceRate`](../../../../../v242/Ansys/ACT/Automation/Mechanical/Analysis.md#Analysis.AddAcousticMassSourceRate)                                           | Creates a new AcousticMassSourceRate                                                                                   |
-| [`AddAcousticPort`](../../../../../v242/Ansys/ACT/Automation/Mechanical/Analysis.md#Analysis.AddAcousticPort)                                                               | Creates a new AcousticPort                                                                                             |
-| [`AddAcousticPortInDuct`](../../../../../v242/Ansys/ACT/Automation/Mechanical/Analysis.md#Analysis.AddAcousticPortInDuct)                                                   | Creates a new AcousticPortInDuct                                                                                       |
-| [`AddAcousticPressure`](../../../../../v242/Ansys/ACT/Automation/Mechanical/Analysis.md#Analysis.AddAcousticPressure)                                                       | Creates a new AcousticPressure                                                                                         |
-| [`AddAcousticRadiationBoundary`](../../../../../v242/Ansys/ACT/Automation/Mechanical/Analysis.md#Analysis.AddAcousticRadiationBoundary)                                     | Creates a new AcousticRadiationBoundary                                                                                |
-| [`AddAcousticRigidWall`](../../../../../v242/Ansys/ACT/Automation/Mechanical/Analysis.md#Analysis.AddAcousticRigidWall)                                                     | Creates a new AcousticRigidWall                                                                                        |
-| [`AddAcousticStaticPressure`](../../../../../v242/Ansys/ACT/Automation/Mechanical/Analysis.md#Analysis.AddAcousticStaticPressure)                                           | Creates a new AcousticStaticPressure                                                                                   |
-| [`AddAcousticSurfaceAcceleration`](../../../../../v242/Ansys/ACT/Automation/Mechanical/Analysis.md#Analysis.AddAcousticSurfaceAcceleration)                                 | Creates a new AcousticSurfaceAcceleration                                                                              |
-| [`AddAcousticSurfaceVelocity`](../../../../../v242/Ansys/ACT/Automation/Mechanical/Analysis.md#Analysis.AddAcousticSurfaceVelocity)                                         | Creates a new AcousticSurfaceVelocity                                                                                  |
-| [`AddAcousticSymmetryPlane`](../../../../../v242/Ansys/ACT/Automation/Mechanical/Analysis.md#Analysis.AddAcousticSymmetryPlane)                                             | Creates a new AcousticSymmetryPlane                                                                                    |
-| [`AddAcousticThermoViscousBLIBoundary`](../../../../../v242/Ansys/ACT/Automation/Mechanical/Analysis.md#Analysis.AddAcousticThermoViscousBLIBoundary)                       | Creates a new AcousticThermoViscousBLIBoundary                                                                         |
-| [`AddAcousticTransferAdmittanceMatrix`](../../../../../v242/Ansys/ACT/Automation/Mechanical/Analysis.md#Analysis.AddAcousticTransferAdmittanceMatrix)                       | Creates a new AcousticTransferAdmittanceMatrix                                                                         |
-| [`AddAMOverhangConstraint`](../../../../../v242/Ansys/ACT/Automation/Mechanical/Analysis.md#Analysis.AddAMOverhangConstraint)                                               | Creates a new AMOverhangConstraint                                                                                     |
-| [`AddBearingLoad`](../../../../../v242/Ansys/ACT/Automation/Mechanical/Analysis.md#Analysis.AddBearingLoad)                                                                 | Creates a new BearingLoad                                                                                              |
-| [`AddBodyControl`](../../../../../v242/Ansys/ACT/Automation/Mechanical/Analysis.md#Analysis.AddBodyControl)                                                                 | Creates a new BodyControl                                                                                              |
-| [`AddCenterOfGravityConstraint`](../../../../../v242/Ansys/ACT/Automation/Mechanical/Analysis.md#Analysis.AddCenterOfGravityConstraint)                                     | Creates a new CenterOfGravityConstraint                                                                                |
-| [`AddCommandSnippet`](../../../../../v242/Ansys/ACT/Automation/Mechanical/Analysis.md#Analysis.AddCommandSnippet)                                                           | Creates a new CommandSnippet                                                                                           |
-| [`AddComplexityIndexConstraint`](../../../../../v242/Ansys/ACT/Automation/Mechanical/Analysis.md#Analysis.AddComplexityIndexConstraint)                                     | Creates a new ComplexityIndexConstraint                                                                                |
-| [`AddComplianceConstraint`](../../../../../v242/Ansys/ACT/Automation/Mechanical/Analysis.md#Analysis.AddComplianceConstraint)                                               | Creates a new ComplianceConstraint                                                                                     |
-| [`AddCompressionOnlySupport`](../../../../../v242/Ansys/ACT/Automation/Mechanical/Analysis.md#Analysis.AddCompressionOnlySupport)                                           | Creates a new CompressionOnlySupport                                                                                   |
-| [`AddConstraintEquation`](../../../../../v242/Ansys/ACT/Automation/Mechanical/Analysis.md#Analysis.AddConstraintEquation)                                                   | Creates a new ConstraintEquation                                                                                       |
-| [`AddContactStepControl`](../../../../../v242/Ansys/ACT/Automation/Mechanical/Analysis.md#Analysis.AddContactStepControl)                                                   | Creates a new ContactStepControl                                                                                       |
-| [`AddConvection`](../../../../../v242/Ansys/ACT/Automation/Mechanical/Analysis.md#Analysis.AddConvection)                                                                   | Creates a new Convection                                                                                               |
-| [`AddCoupling`](../../../../../v242/Ansys/ACT/Automation/Mechanical/Analysis.md#Analysis.AddCoupling)                                                                       | Creates a new Coupling                                                                                                 |
-| [`AddVoltageCoupling`](../../../../../v242/Ansys/ACT/Automation/Mechanical/Analysis.md#Analysis.AddVoltageCoupling)                                                         | Creates a new Coupling                                                                                                 |
-| [`AddCriterionConstraint`](../../../../../v242/Ansys/ACT/Automation/Mechanical/Analysis.md#Analysis.AddCriterionConstraint)                                                 | Creates a new CriterionConstraint                                                                                      |
-| [`AddCurrent`](../../../../../v242/Ansys/ACT/Automation/Mechanical/Analysis.md#Analysis.AddCurrent)                                                                         | Creates a new Current                                                                                                  |
-| [`AddCyclicManufacturingConstraint`](../../../../../v242/Ansys/ACT/Automation/Mechanical/Analysis.md#Analysis.AddCyclicManufacturingConstraint)                             | Creates a new CyclicManufacturingConstraint                                                                            |
-| [`AddCylindricalSupport`](../../../../../v242/Ansys/ACT/Automation/Mechanical/Analysis.md#Analysis.AddCylindricalSupport)                                                   | Creates a new CylindricalSupport                                                                                       |
-| [`AddDetonationPoint`](../../../../../v242/Ansys/ACT/Automation/Mechanical/Analysis.md#Analysis.AddDetonationPoint)                                                         | Creates a new DetonationPoint                                                                                          |
-| [`AddDisplacement`](../../../../../v242/Ansys/ACT/Automation/Mechanical/Analysis.md#Analysis.AddDisplacement)                                                               | Creates a new Displacement                                                                                             |
-| [`AddDisplacementConstraint`](../../../../../v242/Ansys/ACT/Automation/Mechanical/Analysis.md#Analysis.AddDisplacementConstraint)                                           | Creates a new DisplacementConstraint                                                                                   |
-| [`AddDynamicComplianceConstraint`](../../../../../v242/Ansys/ACT/Automation/Mechanical/Analysis.md#Analysis.AddDynamicComplianceConstraint)                                 | Creates a new DynamicComplianceConstraint                                                                              |
-| [`AddEarthGravity`](../../../../../v242/Ansys/ACT/Automation/Mechanical/Analysis.md#Analysis.AddEarthGravity)                                                               | Creates a new EarthGravity                                                                                             |
-| [`AddElasticSupport`](../../../../../v242/Ansys/ACT/Automation/Mechanical/Analysis.md#Analysis.AddElasticSupport)                                                           | Creates a new ElasticSupport                                                                                           |
-| [`AddElectricCharge`](../../../../../v242/Ansys/ACT/Automation/Mechanical/Analysis.md#Analysis.AddElectricCharge)                                                           | Creates a new ElectricCharge                                                                                           |
-| [`AddElementBirthAndDeath`](../../../../../v242/Ansys/ACT/Automation/Mechanical/Analysis.md#Analysis.AddElementBirthAndDeath)                                               | Creates a new ElementBirthAndDeath                                                                                     |
-| [`AddEMTransducer`](../../../../../v242/Ansys/ACT/Automation/Mechanical/Analysis.md#Analysis.AddEMTransducer)                                                               | Creates a new EMTransducer                                                                                             |
-| [`AddExtrusionManufacturingConstraint`](../../../../../v242/Ansys/ACT/Automation/Mechanical/Analysis.md#Analysis.AddExtrusionManufacturingConstraint)                       | Creates a new ExtrusionManufacturingConstraint                                                                         |
-| [`AddFixedRotation`](../../../../../v242/Ansys/ACT/Automation/Mechanical/Analysis.md#Analysis.AddFixedRotation)                                                             | Creates a new FixedRotation                                                                                            |
-| [`AddFixedSupport`](../../../../../v242/Ansys/ACT/Automation/Mechanical/Analysis.md#Analysis.AddFixedSupport)                                                               | Creates a new FixedSupport                                                                                             |
-| [`AddFluidSolidInterface`](../../../../../v242/Ansys/ACT/Automation/Mechanical/Analysis.md#Analysis.AddFluidSolidInterface)                                                 | Creates a new FluidSolidInterface                                                                                      |
-| [`AddForce`](../../../../../v242/Ansys/ACT/Automation/Mechanical/Analysis.md#Analysis.AddForce)                                                                             | Creates a new Force                                                                                                    |
-| [`AddFrictionlessSupport`](../../../../../v242/Ansys/ACT/Automation/Mechanical/Analysis.md#Analysis.AddFrictionlessSupport)                                                 | Creates a new FrictionlessSupport                                                                                      |
-| [`AddGeneralizedPlaneStrain`](../../../../../v242/Ansys/ACT/Automation/Mechanical/Analysis.md#Analysis.AddGeneralizedPlaneStrain)                                           | Creates a new GeneralizedPlaneStrain                                                                                   |
-| [`AddGeometryBasedAdaptivity`](../../../../../v242/Ansys/ACT/Automation/Mechanical/Analysis.md#Analysis.AddGeometryBasedAdaptivity)                                         | Creates a new GeometryBasedAdaptivity                                                                                  |
-| [`AddGlobalVonMisesStressConstraint`](../../../../../v242/Ansys/ACT/Automation/Mechanical/Analysis.md#Analysis.AddGlobalVonMisesStressConstraint)                           | Creates a new GlobalVonMisesStressConstraint                                                                           |
-| [`AddHeatFlow`](../../../../../v242/Ansys/ACT/Automation/Mechanical/Analysis.md#Analysis.AddHeatFlow)                                                                       | Creates a new HeatFlow                                                                                                 |
-| [`AddHeatFlux`](../../../../../v242/Ansys/ACT/Automation/Mechanical/Analysis.md#Analysis.AddHeatFlux)                                                                       | Creates a new HeatFlux                                                                                                 |
-| [`AddHousingConstraint`](../../../../../v242/Ansys/ACT/Automation/Mechanical/Analysis.md#Analysis.AddHousingConstraint)                                                     | Creates a new HousingConstraint                                                                                        |
-| [`AddHydrostaticPressure`](../../../../../v242/Ansys/ACT/Automation/Mechanical/Analysis.md#Analysis.AddHydrostaticPressure)                                                 | Creates a new HydrostaticPressure                                                                                      |
-| [`AddImpedanceBoundary`](../../../../../v242/Ansys/ACT/Automation/Mechanical/Analysis.md#Analysis.AddImpedanceBoundary)                                                     | Creates a new ImpedanceBoundary                                                                                        |
-| [`AddImportedCFDPressure`](../../../../../v242/Ansys/ACT/Automation/Mechanical/Analysis.md#Analysis.AddImportedCFDPressure)                                                 | Creates a new ImportedCFDPressure                                                                                      |
-| [`AddInternalHeatGeneration`](../../../../../v242/Ansys/ACT/Automation/Mechanical/Analysis.md#Analysis.AddInternalHeatGeneration)                                           | Creates a new InternalHeatGeneration                                                                                   |
-| [`AddJointLoad`](../../../../../v242/Ansys/ACT/Automation/Mechanical/Analysis.md#Analysis.AddJointLoad)                                                                     | Creates a new JointLoad                                                                                                |
-| [`AddLimitBoundary`](../../../../../v242/Ansys/ACT/Automation/Mechanical/Analysis.md#Analysis.AddLimitBoundary)                                                             | Creates a new LimitBoundary                                                                                            |
-| [`AddLinePressure`](../../../../../v242/Ansys/ACT/Automation/Mechanical/Analysis.md#Analysis.AddLinePressure)                                                               | Creates a new LinePressure                                                                                             |
-| [`AddLocalVonMisesStressConstraint`](../../../../../v242/Ansys/ACT/Automation/Mechanical/Analysis.md#Analysis.AddLocalVonMisesStressConstraint)                             | Creates a new LocalVonMisesStressConstraint                                                                            |
-| [`AddMagneticFluxParallel`](../../../../../v242/Ansys/ACT/Automation/Mechanical/Analysis.md#Analysis.AddMagneticFluxParallel)                                               | Creates a new MagneticFluxParallel                                                                                     |
-| [`AddMassConstraint`](../../../../../v242/Ansys/ACT/Automation/Mechanical/Analysis.md#Analysis.AddMassConstraint)                                                           | Creates a new MassConstraint                                                                                           |
-| [`AddMassFlowRate`](../../../../../v242/Ansys/ACT/Automation/Mechanical/Analysis.md#Analysis.AddMassFlowRate)                                                               | Creates a new MassFlowRate                                                                                             |
-| [`AddMemberSizeManufacturingConstraint`](../../../../../v242/Ansys/ACT/Automation/Mechanical/Analysis.md#Analysis.AddMemberSizeManufacturingConstraint)                     | Creates a new MemberSizeManufacturingConstraint                                                                        |
-| [`AddMoment`](../../../../../v242/Ansys/ACT/Automation/Mechanical/Analysis.md#Analysis.AddMoment)                                                                           | Creates a new Moment                                                                                                   |
-| [`AddMomentOfInertiaConstraint`](../../../../../v242/Ansys/ACT/Automation/Mechanical/Analysis.md#Analysis.AddMomentOfInertiaConstraint)                                     | Creates a new MomentOfInertiaConstraint                                                                                |
-| [`AddMorphingRegion`](../../../../../v242/Ansys/ACT/Automation/Mechanical/Analysis.md#Analysis.AddMorphingRegion)                                                           | Creates a new MorphingRegion                                                                                           |
-| [`AddNaturalFrequencyConstraint`](../../../../../v242/Ansys/ACT/Automation/Mechanical/Analysis.md#Analysis.AddNaturalFrequencyConstraint)                                   | Creates a new NaturalFrequencyConstraint                                                                               |
-| [`AddNodalDisplacement`](../../../../../v242/Ansys/ACT/Automation/Mechanical/Analysis.md#Analysis.AddNodalDisplacement)                                                     | Creates a new NodalDisplacement                                                                                        |
-| [`AddNodalForce`](../../../../../v242/Ansys/ACT/Automation/Mechanical/Analysis.md#Analysis.AddNodalForce)                                                                   | Creates a new NodalForce                                                                                               |
-| [`AddNodalOrientation`](../../../../../v242/Ansys/ACT/Automation/Mechanical/Analysis.md#Analysis.AddNodalOrientation)                                                       | Creates a new NodalOrientation                                                                                         |
-| [`AddNodalPressure`](../../../../../v242/Ansys/ACT/Automation/Mechanical/Analysis.md#Analysis.AddNodalPressure)                                                             | Creates a new NodalPressure                                                                                            |
-| [`AddNodalRotation`](../../../../../v242/Ansys/ACT/Automation/Mechanical/Analysis.md#Analysis.AddNodalRotation)                                                             | Creates a new NodalRotation                                                                                            |
-| [`AddNonlinearAdaptiveRegion`](../../../../../v242/Ansys/ACT/Automation/Mechanical/Analysis.md#Analysis.AddNonlinearAdaptiveRegion)                                         | Creates a new NonlinearAdaptiveRegion                                                                                  |
-| [`AddObjective`](../../../../../v242/Ansys/ACT/Automation/Mechanical/Analysis.md#Analysis.AddObjective)                                                                     | Creates a new Objective                                                                                                |
-| [`AddPatternRepetitionConstraint`](../../../../../v242/Ansys/ACT/Automation/Mechanical/Analysis.md#Analysis.AddPatternRepetitionConstraint)                                 | Creates a new PatternRepetitionConstraint                                                                              |
-| [`AddPerfectlyInsulated`](../../../../../v242/Ansys/ACT/Automation/Mechanical/Analysis.md#Analysis.AddPerfectlyInsulated)                                                   | Creates a new PerfectlyInsulated                                                                                       |
-| [`AddPhysicsRegion`](../../../../../v242/Ansys/ACT/Automation/Mechanical/Analysis.md#Analysis.AddPhysicsRegion)                                                             | Creates a new PhysicsRegion                                                                                            |
-| [`AddPipeIdealization`](../../../../../v242/Ansys/ACT/Automation/Mechanical/Analysis.md#Analysis.AddPipeIdealization)                                                       | Creates a new child PipeIdealization.                                                                                  |
-| [`AddPipePressure`](../../../../../v242/Ansys/ACT/Automation/Mechanical/Analysis.md#Analysis.AddPipePressure)                                                               | Creates a new PipePressure                                                                                             |
-| [`AddPipeTemperature`](../../../../../v242/Ansys/ACT/Automation/Mechanical/Analysis.md#Analysis.AddPipeTemperature)                                                         | Creates a new PipeTemperature                                                                                          |
-| [`AddPlasticHeating`](../../../../../v242/Ansys/ACT/Automation/Mechanical/Analysis.md#Analysis.AddPlasticHeating)                                                           | Creates a new PlasticHeating                                                                                           |
-| [`AddPressure`](../../../../../v242/Ansys/ACT/Automation/Mechanical/Analysis.md#Analysis.AddPressure)                                                                       | Creates a new child Pressure.                                                                                          |
-| [`AddPSDAcceleration`](../../../../../v242/Ansys/ACT/Automation/Mechanical/Analysis.md#Analysis.AddPSDAcceleration)                                                         | Creates a new PSDAcceleration                                                                                          |
-| [`AddPSDDisplacement`](../../../../../v242/Ansys/ACT/Automation/Mechanical/Analysis.md#Analysis.AddPSDDisplacement)                                                         | Creates a new PSDDisplacement                                                                                          |
-| [`AddPSDGAcceleration`](../../../../../v242/Ansys/ACT/Automation/Mechanical/Analysis.md#Analysis.AddPSDGAcceleration)                                                       | Creates a new PSDGAcceleration                                                                                         |
-| [`AddPSDVelocity`](../../../../../v242/Ansys/ACT/Automation/Mechanical/Analysis.md#Analysis.AddPSDVelocity)                                                                 | Creates a new PSDVelocity                                                                                              |
-| [`AddPullOutDirectionManufacturingConstraint`](../../../../../v242/Ansys/ACT/Automation/Mechanical/Analysis.md#Analysis.AddPullOutDirectionManufacturingConstraint)         | Creates a new PullOutDirectionManufacturingConstraint                                                                  |
-| [`AddPythonCodeEventBased`](../../../../../v242/Ansys/ACT/Automation/Mechanical/Analysis.md#Analysis.AddPythonCodeEventBased)                                               | Creates a new PythonCodeEventBased                                                                                     |
-| [`AddRadiation`](../../../../../v242/Ansys/ACT/Automation/Mechanical/Analysis.md#Analysis.AddRadiation)                                                                     | Creates a new Radiation                                                                                                |
-| [`AddReactionForceConstraint`](../../../../../v242/Ansys/ACT/Automation/Mechanical/Analysis.md#Analysis.AddReactionForceConstraint)                                         | Creates a new ReactionForceConstraint                                                                                  |
-| [`AddRemoteDisplacement`](../../../../../v242/Ansys/ACT/Automation/Mechanical/Analysis.md#Analysis.AddRemoteDisplacement)                                                   | Creates a new RemoteDisplacement                                                                                       |
-| [`AddRemoteForce`](../../../../../v242/Ansys/ACT/Automation/Mechanical/Analysis.md#Analysis.AddRemoteForce)                                                                 | Creates a new RemoteForce                                                                                              |
-| [`AddRotatingForce`](../../../../../v242/Ansys/ACT/Automation/Mechanical/Analysis.md#Analysis.AddRotatingForce)                                                             | Creates a new RotatingForce                                                                                            |
-| [`AddRotationalAcceleration`](../../../../../v242/Ansys/ACT/Automation/Mechanical/Analysis.md#Analysis.AddRotationalAcceleration)                                           | Creates a new RotationalAcceleration                                                                                   |
-| [`AddRotationalVelocity`](../../../../../v242/Ansys/ACT/Automation/Mechanical/Analysis.md#Analysis.AddRotationalVelocity)                                                   | Creates a new RotationalVelocity                                                                                       |
-| [`AddRSAcceleration`](../../../../../v242/Ansys/ACT/Automation/Mechanical/Analysis.md#Analysis.AddRSAcceleration)                                                           | Creates a new RSAcceleration                                                                                           |
-| [`AddRSDisplacement`](../../../../../v242/Ansys/ACT/Automation/Mechanical/Analysis.md#Analysis.AddRSDisplacement)                                                           | Creates a new RSDisplacement                                                                                           |
-| [`AddRSVelocity`](../../../../../v242/Ansys/ACT/Automation/Mechanical/Analysis.md#Analysis.AddRSVelocity)                                                                   | Creates a new RSVelocity                                                                                               |
-| [`AddSimplySupported`](../../../../../v242/Ansys/ACT/Automation/Mechanical/Analysis.md#Analysis.AddSimplySupported)                                                         | Creates a new SimplySupported                                                                                          |
-| [`AddSubstructureGenerationCondensedPart`](../../../../../v242/Ansys/ACT/Automation/Mechanical/Analysis.md#Analysis.AddSubstructureGenerationCondensedPart)                 | Creates a new SubstructureGenerationCondensedPart                                                                      |
-| [`AddSurfaceChargeDensity`](../../../../../v242/Ansys/ACT/Automation/Mechanical/Analysis.md#Analysis.AddSurfaceChargeDensity)                                               | Creates a new SurfaceChargeDensity                                                                                     |
-| [`AddSymmetryManufacturingConstraint`](../../../../../v242/Ansys/ACT/Automation/Mechanical/Analysis.md#Analysis.AddSymmetryManufacturingConstraint)                         | Creates a new SymmetryManufacturingConstraint                                                                          |
-| [`AddTemperature`](../../../../../v242/Ansys/ACT/Automation/Mechanical/Analysis.md#Analysis.AddTemperature)                                                                 | Creates a new Temperature                                                                                              |
-| [`AddTemperatureConstraint`](../../../../../v242/Ansys/ACT/Automation/Mechanical/Analysis.md#Analysis.AddTemperatureConstraint)                                             | Creates a new TemperatureConstraint                                                                                    |
-| [`AddThermalComplianceConstraint`](../../../../../v242/Ansys/ACT/Automation/Mechanical/Analysis.md#Analysis.AddThermalComplianceConstraint)                                 | Creates a new ThermalComplianceConstraint                                                                              |
-| [`AddUniformConstraint`](../../../../../v242/Ansys/ACT/Automation/Mechanical/Analysis.md#Analysis.AddUniformConstraint)                                                     | Creates a new UniformConstraint                                                                                        |
-| [`AddVelocity`](../../../../../v242/Ansys/ACT/Automation/Mechanical/Analysis.md#Analysis.AddVelocity)                                                                       | Creates a new Velocity                                                                                                 |
-| [`AddViscoelasticHeating`](../../../../../v242/Ansys/ACT/Automation/Mechanical/Analysis.md#Analysis.AddViscoelasticHeating)                                                 | Creates a new ViscoelasticHeating                                                                                      |
-| [`AddVoltage`](../../../../../v242/Ansys/ACT/Automation/Mechanical/Analysis.md#Analysis.AddVoltage)                                                                         | Creates a new Voltage                                                                                                  |
-| [`AddVoltageGround`](../../../../../v242/Ansys/ACT/Automation/Mechanical/Analysis.md#Analysis.AddVoltageGround)                                                             | Creates a new VoltageGround                                                                                            |
-| [`AddVolumeChargeDensity`](../../../../../v242/Ansys/ACT/Automation/Mechanical/Analysis.md#Analysis.AddVolumeChargeDensity)                                                 | Creates a new VolumeChargeDensity                                                                                      |
-| [`AddVolumeConstraint`](../../../../../v242/Ansys/ACT/Automation/Mechanical/Analysis.md#Analysis.AddVolumeConstraint)                                                       | Creates a new VolumeConstraint                                                                                         |
-| [`Delete`](../../../../../v242/Ansys/ACT/Automation/Mechanical/Analysis.md#Analysis.Delete)                                                                                 | Run the Delete action.                                                                                                 |
-| [`GetChildren`](../../../../../v242/Ansys/ACT/Automation/Mechanical/Analysis.md#id3)                                                                                        | Gets the list of children, filtered by type.                                                                           |
-| [`GetChildren`](../../../../../v242/Ansys/ACT/Automation/Mechanical/Analysis.md#id3)                                                                                        | Gets the list of children, filtered by type.                                                                           |
-| [`AddComment`](../../../../../v242/Ansys/ACT/Automation/Mechanical/Analysis.md#Analysis.AddComment)                                                                         | Creates a new child Comment.                                                                                           |
-| [`AddFigure`](../../../../../v242/Ansys/ACT/Automation/Mechanical/Analysis.md#Analysis.AddFigure)                                                                           | Creates a new child Figure.                                                                                            |
-| [`AddImage`](../../../../../v242/Ansys/ACT/Automation/Mechanical/Analysis.md#Analysis.AddImage)                                                                             | Creates a new child Image.                                                                                             |
-| [`Activate`](../../../../../v242/Ansys/ACT/Automation/Mechanical/Analysis.md#Analysis.Activate)                                                                             | Activate the current object.                                                                                           |
-| [`CopyTo`](../../../../../v242/Ansys/ACT/Automation/Mechanical/Analysis.md#Analysis.CopyTo)                                                                                 | Copies all visible properties from this object to another.                                                             |
-| [`GroupAllSimilarChildren`](../../../../../v242/Ansys/ACT/Automation/Mechanical/Analysis.md#Analysis.GroupAllSimilarChildren)                                               | Run the GroupAllSimilarChildren action.                                                                                |
-| [`GroupSimilarObjects`](../../../../../v242/Ansys/ACT/Automation/Mechanical/Analysis.md#Analysis.GroupSimilarObjects)                                                       | Run the GroupSimilarObjects action.                                                                                    |
-| [`PropertyByName`](../../../../../v242/Ansys/ACT/Automation/Mechanical/Analysis.md#Analysis.PropertyByName)                                                                 | Get a property by its unique name.                                                                                     |
-| [`PropertyByAPIName`](../../../../../v242/Ansys/ACT/Automation/Mechanical/Analysis.md#Analysis.PropertyByAPIName)                                                           | Get a property by its API name.                                                                                        |
-| [`CreateParameter`](../../../../../v242/Ansys/ACT/Automation/Mechanical/Analysis.md#Analysis.CreateParameter)                                                               | Creates a new parameter for a Property.                                                                                |
-| [`GetParameter`](../../../../../v242/Ansys/ACT/Automation/Mechanical/Analysis.md#Analysis.GetParameter)                                                                     | Gets the parameter corresponding to the given property.                                                                |
-| [`RemoveParameter`](../../../../../v242/Ansys/ACT/Automation/Mechanical/Analysis.md#Analysis.RemoveParameter)                                                               | Removes the parameter from the parameter set corresponding to the given property.                                      |
+| [`Activate`](#Analysis.Activate)                                                                             | Activate the current object.                                                                                           |
+| [`AddAMOverhangConstraint`](#Analysis.AddAMOverhangConstraint)                                               | Creates a new AMOverhangConstraint                                                                                     |
+| [`AddAcceleration`](#Analysis.AddAcceleration)                                                               | Creates a new Acceleration                                                                                             |
+| [`AddAcousticAbsorptionElement`](#Analysis.AddAcousticAbsorptionElement)                                     | Creates a new AcousticAbsorptionElement                                                                                |
+| [`AddAcousticAbsorptionSurface`](#Analysis.AddAcousticAbsorptionSurface)                                     | Creates a new AcousticAbsorptionSurface                                                                                |
+| [`AddAcousticDiffuseSoundField`](#Analysis.AddAcousticDiffuseSoundField)                                     | Creates a new AcousticDiffuseSoundField                                                                                |
+| [`AddAcousticFarFieldRadationSurface`](#Analysis.AddAcousticFarFieldRadationSurface)                         | Creates a new AcousticFarFieldRadationSurface                                                                          |
+| [`AddAcousticFreeSurface`](#Analysis.AddAcousticFreeSurface)                                                 | Creates a new AcousticFreeSurface                                                                                      |
+| [`AddAcousticImpedanceBoundary`](#Analysis.AddAcousticImpedanceBoundary)                                     | Creates a new AcousticImpedanceBoundary                                                                                |
+| [`AddAcousticImpedanceSheet`](#Analysis.AddAcousticImpedanceSheet)                                           | Creates a new AcousticImpedanceSheet                                                                                   |
+| [`AddAcousticIncidentWaveSource`](#Analysis.AddAcousticIncidentWaveSource)                                   | Creates a new AcousticIncidentWaveSource                                                                               |
+| [`AddAcousticLowReducedFrequency`](#Analysis.AddAcousticLowReducedFrequency)                                 | Creates a new AcousticLowReducedFrequency                                                                              |
+| [`AddAcousticMassSource`](#Analysis.AddAcousticMassSource)                                                   | Creates a new AcousticMassSource                                                                                       |
+| [`AddAcousticMassSourceRate`](#Analysis.AddAcousticMassSourceRate)                                           | Creates a new AcousticMassSourceRate                                                                                   |
+| [`AddAcousticPort`](#Analysis.AddAcousticPort)                                                               | Creates a new AcousticPort                                                                                             |
+| [`AddAcousticPortInDuct`](#Analysis.AddAcousticPortInDuct)                                                   | Creates a new AcousticPortInDuct                                                                                       |
+| [`AddAcousticPressure`](#Analysis.AddAcousticPressure)                                                       | Creates a new AcousticPressure                                                                                         |
+| [`AddAcousticRadiationBoundary`](#Analysis.AddAcousticRadiationBoundary)                                     | Creates a new AcousticRadiationBoundary                                                                                |
+| [`AddAcousticRigidWall`](#Analysis.AddAcousticRigidWall)                                                     | Creates a new AcousticRigidWall                                                                                        |
+| [`AddAcousticStaticPressure`](#Analysis.AddAcousticStaticPressure)                                           | Creates a new AcousticStaticPressure                                                                                   |
+| [`AddAcousticSurfaceAcceleration`](#Analysis.AddAcousticSurfaceAcceleration)                                 | Creates a new AcousticSurfaceAcceleration                                                                              |
+| [`AddAcousticSurfaceVelocity`](#Analysis.AddAcousticSurfaceVelocity)                                         | Creates a new AcousticSurfaceVelocity                                                                                  |
+| [`AddAcousticSymmetryPlane`](#Analysis.AddAcousticSymmetryPlane)                                             | Creates a new AcousticSymmetryPlane                                                                                    |
+| [`AddAcousticTemperature`](#Analysis.AddAcousticTemperature)                                                 | Creates a new child ThermalCondition.                                                                                  |
+| [`AddAcousticThermoViscousBLIBoundary`](#Analysis.AddAcousticThermoViscousBLIBoundary)                       | Creates a new AcousticThermoViscousBLIBoundary                                                                         |
+| [`AddAcousticTransferAdmittanceMatrix`](#Analysis.AddAcousticTransferAdmittanceMatrix)                       | Creates a new AcousticTransferAdmittanceMatrix                                                                         |
+| [`AddBearingLoad`](#Analysis.AddBearingLoad)                                                                 | Creates a new BearingLoad                                                                                              |
+| [`AddBodyControl`](#Analysis.AddBodyControl)                                                                 | Creates a new BodyControl                                                                                              |
+| [`AddBoltPretension`](#Analysis.AddBoltPretension)                                                           | Creates a new BoltPretension                                                                                           |
+| [`AddCenterOfGravityConstraint`](#Analysis.AddCenterOfGravityConstraint)                                     | Creates a new CenterOfGravityConstraint                                                                                |
+| [`AddCommandSnippet`](#Analysis.AddCommandSnippet)                                                           | Creates a new CommandSnippet                                                                                           |
+| [`AddComment`](#Analysis.AddComment)                                                                         | Creates a new child Comment.                                                                                           |
+| [`AddComplexityIndexConstraint`](#Analysis.AddComplexityIndexConstraint)                                     | Creates a new ComplexityIndexConstraint                                                                                |
+| [`AddComplianceConstraint`](#Analysis.AddComplianceConstraint)                                               | Creates a new ComplianceConstraint                                                                                     |
+| [`AddCompressionOnlySupport`](#Analysis.AddCompressionOnlySupport)                                           | Creates a new CompressionOnlySupport                                                                                   |
+| [`AddConstraintEquation`](#Analysis.AddConstraintEquation)                                                   | Creates a new ConstraintEquation                                                                                       |
+| [`AddContactStepControl`](#Analysis.AddContactStepControl)                                                   | Creates a new ContactStepControl                                                                                       |
+| [`AddConvection`](#Analysis.AddConvection)                                                                   | Creates a new Convection                                                                                               |
+| [`AddCoupling`](#Analysis.AddCoupling)                                                                       | Creates a new Coupling                                                                                                 |
+| [`AddCriterionConstraint`](#Analysis.AddCriterionConstraint)                                                 | Creates a new CriterionConstraint                                                                                      |
+| [`AddCurrent`](#Analysis.AddCurrent)                                                                         | Creates a new Current                                                                                                  |
+| [`AddCyclicManufacturingConstraint`](#Analysis.AddCyclicManufacturingConstraint)                             | Creates a new CyclicManufacturingConstraint                                                                            |
+| [`AddCylindricalSupport`](#Analysis.AddCylindricalSupport)                                                   | Creates a new CylindricalSupport                                                                                       |
+| [`AddDetonationPoint`](#Analysis.AddDetonationPoint)                                                         | Creates a new DetonationPoint                                                                                          |
+| [`AddDisplacement`](#Analysis.AddDisplacement)                                                               | Creates a new Displacement                                                                                             |
+| [`AddDisplacementConstraint`](#Analysis.AddDisplacementConstraint)                                           | Creates a new DisplacementConstraint                                                                                   |
+| [`AddDynamicComplianceConstraint`](#Analysis.AddDynamicComplianceConstraint)                                 | Creates a new DynamicComplianceConstraint                                                                              |
+| [`AddEMTransducer`](#Analysis.AddEMTransducer)                                                               | Creates a new EMTransducer                                                                                             |
+| [`AddEarthGravity`](#Analysis.AddEarthGravity)                                                               | Creates a new EarthGravity                                                                                             |
+| [`AddElasticSupport`](#Analysis.AddElasticSupport)                                                           | Creates a new ElasticSupport                                                                                           |
+| [`AddElectricCharge`](#Analysis.AddElectricCharge)                                                           | Creates a new ElectricCharge                                                                                           |
+| [`AddElementBirthAndDeath`](#Analysis.AddElementBirthAndDeath)                                               | Creates a new ElementBirthAndDeath                                                                                     |
+| [`AddExtrusionManufacturingConstraint`](#Analysis.AddExtrusionManufacturingConstraint)                       | Creates a new ExtrusionManufacturingConstraint                                                                         |
+| [`AddFigure`](#Analysis.AddFigure)                                                                           | Creates a new child Figure.                                                                                            |
+| [`AddFixedRotation`](#Analysis.AddFixedRotation)                                                             | Creates a new FixedRotation                                                                                            |
+| [`AddFixedSupport`](#Analysis.AddFixedSupport)                                                               | Creates a new FixedSupport                                                                                             |
+| [`AddFluidSolidInterface`](#Analysis.AddFluidSolidInterface)                                                 | Creates a new FluidSolidInterface                                                                                      |
+| [`AddForce`](#Analysis.AddForce)                                                                             | Creates a new Force                                                                                                    |
+| [`AddFrictionlessSupport`](#Analysis.AddFrictionlessSupport)                                                 | Creates a new FrictionlessSupport                                                                                      |
+| [`AddGeneralizedPlaneStrain`](#Analysis.AddGeneralizedPlaneStrain)                                           | Creates a new GeneralizedPlaneStrain                                                                                   |
+| [`AddGeometryBasedAdaptivity`](#Analysis.AddGeometryBasedAdaptivity)                                         | Creates a new GeometryBasedAdaptivity                                                                                  |
+| [`AddGlobalVonMisesStressConstraint`](#Analysis.AddGlobalVonMisesStressConstraint)                           | Creates a new GlobalVonMisesStressConstraint                                                                           |
+| [`AddHeatFlow`](#Analysis.AddHeatFlow)                                                                       | Creates a new HeatFlow                                                                                                 |
+| [`AddHeatFlux`](#Analysis.AddHeatFlux)                                                                       | Creates a new HeatFlux                                                                                                 |
+| [`AddHousingConstraint`](#Analysis.AddHousingConstraint)                                                     | Creates a new HousingConstraint                                                                                        |
+| [`AddHydrostaticPressure`](#Analysis.AddHydrostaticPressure)                                                 | Creates a new HydrostaticPressure                                                                                      |
+| [`AddImage`](#Analysis.AddImage)                                                                             | Creates a new child Image.                                                                                             |
+| [`AddImpedanceBoundary`](#Analysis.AddImpedanceBoundary)                                                     | Creates a new ImpedanceBoundary                                                                                        |
+| [`AddImportedCFDPressure`](#Analysis.AddImportedCFDPressure)                                                 | Creates a new ImportedCFDPressure                                                                                      |
+| [`AddImportedLoadExternalData`](#Analysis.AddImportedLoadExternalData)                                       | Creates a new Imported Load (External Data).                                                                           |
+| [`AddImportedLoadFluidsResultsFile`](#Analysis.AddImportedLoadFluidsResultsFile)                             | Creates a new Import Load for Fluids Results File.                                                                     |
+| [`AddImportedLoadMAPDLResultsFile`](#Analysis.AddImportedLoadMAPDLResultsFile)                               | Creates a new Import Load for MAPDL Results File.                                                                      |
+| [`AddImportedRemoteLoadsGroup`](#Analysis.AddImportedRemoteLoadsGroup)                                       | Creates a new Import Remote Load Group.                                                                                |
+| [`AddInitialVelocity`](#Analysis.AddInitialVelocity)                                                         | Creates a new child Initial Velocity.                                                                                  |
+| [`AddInternalHeatGeneration`](#Analysis.AddInternalHeatGeneration)                                           | Creates a new InternalHeatGeneration                                                                                   |
+| [`AddJointLoad`](#Analysis.AddJointLoad)                                                                     | Creates a new JointLoad                                                                                                |
+| [`AddLimitBoundary`](#Analysis.AddLimitBoundary)                                                             | Creates a new LimitBoundary                                                                                            |
+| [`AddLinePressure`](#Analysis.AddLinePressure)                                                               | Creates a new LinePressure                                                                                             |
+| [`AddLocalVonMisesStressConstraint`](#Analysis.AddLocalVonMisesStressConstraint)                             | Creates a new LocalVonMisesStressConstraint                                                                            |
+| [`AddMagneticFluxParallel`](#Analysis.AddMagneticFluxParallel)                                               | Creates a new MagneticFluxParallel                                                                                     |
+| [`AddMassConstraint`](#Analysis.AddMassConstraint)                                                           | Creates a new MassConstraint                                                                                           |
+| [`AddMassFlowRate`](#Analysis.AddMassFlowRate)                                                               | Creates a new MassFlowRate                                                                                             |
+| [`AddMemberSizeManufacturingConstraint`](#Analysis.AddMemberSizeManufacturingConstraint)                     | Creates a new MemberSizeManufacturingConstraint                                                                        |
+| [`AddMoment`](#Analysis.AddMoment)                                                                           | Creates a new Moment                                                                                                   |
+| [`AddMomentOfInertiaConstraint`](#Analysis.AddMomentOfInertiaConstraint)                                     | Creates a new MomentOfInertiaConstraint                                                                                |
+| [`AddMorphingRegion`](#Analysis.AddMorphingRegion)                                                           | Creates a new MorphingRegion                                                                                           |
+| [`AddNaturalFrequencyConstraint`](#Analysis.AddNaturalFrequencyConstraint)                                   | Creates a new NaturalFrequencyConstraint                                                                               |
+| [`AddNodalDisplacement`](#Analysis.AddNodalDisplacement)                                                     | Creates a new NodalDisplacement                                                                                        |
+| [`AddNodalForce`](#Analysis.AddNodalForce)                                                                   | Creates a new NodalForce                                                                                               |
+| [`AddNodalOrientation`](#Analysis.AddNodalOrientation)                                                       | Creates a new NodalOrientation                                                                                         |
+| [`AddNodalPressure`](#Analysis.AddNodalPressure)                                                             | Creates a new NodalPressure                                                                                            |
+| [`AddNodalRotation`](#Analysis.AddNodalRotation)                                                             | Creates a new NodalRotation                                                                                            |
+| [`AddNonlinearAdaptiveRegion`](#Analysis.AddNonlinearAdaptiveRegion)                                         | Creates a new NonlinearAdaptiveRegion                                                                                  |
+| [`AddObjective`](#Analysis.AddObjective)                                                                     | Creates a new Objective                                                                                                |
+| [`AddOptimizationRegion`](#Analysis.AddOptimizationRegion)                                                   | Creates a new OptimizationRegion                                                                                       |
+| [`AddPSDAcceleration`](#Analysis.AddPSDAcceleration)                                                         | Creates a new PSDAcceleration                                                                                          |
+| [`AddPSDDisplacement`](#Analysis.AddPSDDisplacement)                                                         | Creates a new PSDDisplacement                                                                                          |
+| [`AddPSDGAcceleration`](#Analysis.AddPSDGAcceleration)                                                       | Creates a new PSDGAcceleration                                                                                         |
+| [`AddPSDVelocity`](#Analysis.AddPSDVelocity)                                                                 | Creates a new PSDVelocity                                                                                              |
+| [`AddPatternRepetitionConstraint`](#Analysis.AddPatternRepetitionConstraint)                                 | Creates a new PatternRepetitionConstraint                                                                              |
+| [`AddPerfectlyInsulated`](#Analysis.AddPerfectlyInsulated)                                                   | Creates a new PerfectlyInsulated                                                                                       |
+| [`AddPhysicsRegion`](#Analysis.AddPhysicsRegion)                                                             | Creates a new PhysicsRegion                                                                                            |
+| [`AddPipeIdealization`](#Analysis.AddPipeIdealization)                                                       | Creates a new child PipeIdealization.                                                                                  |
+| [`AddPipePressure`](#Analysis.AddPipePressure)                                                               | Creates a new PipePressure                                                                                             |
+| [`AddPipeTemperature`](#Analysis.AddPipeTemperature)                                                         | Creates a new PipeTemperature                                                                                          |
+| [`AddPlasticHeating`](#Analysis.AddPlasticHeating)                                                           | Creates a new PlasticHeating                                                                                           |
+| [`AddPressure`](#Analysis.AddPressure)                                                                       | Creates a new child Pressure.                                                                                          |
+| [`AddPullOutDirectionManufacturingConstraint`](#Analysis.AddPullOutDirectionManufacturingConstraint)         | Creates a new PullOutDirectionManufacturingConstraint                                                                  |
+| [`AddPythonCodeEventBased`](#Analysis.AddPythonCodeEventBased)                                               | Creates a new PythonCodeEventBased                                                                                     |
+| [`AddRSAcceleration`](#Analysis.AddRSAcceleration)                                                           | Creates a new RSAcceleration                                                                                           |
+| [`AddRSDisplacement`](#Analysis.AddRSDisplacement)                                                           | Creates a new RSDisplacement                                                                                           |
+| [`AddRSVelocity`](#Analysis.AddRSVelocity)                                                                   | Creates a new RSVelocity                                                                                               |
+| [`AddRadiation`](#Analysis.AddRadiation)                                                                     | Creates a new Radiation                                                                                                |
+| [`AddReactionForceConstraint`](#Analysis.AddReactionForceConstraint)                                         | Creates a new ReactionForceConstraint                                                                                  |
+| [`AddRemoteDisplacement`](#Analysis.AddRemoteDisplacement)                                                   | Creates a new RemoteDisplacement                                                                                       |
+| [`AddRemoteForce`](#Analysis.AddRemoteForce)                                                                 | Creates a new RemoteForce                                                                                              |
+| [`AddRotatingForce`](#Analysis.AddRotatingForce)                                                             | Creates a new RotatingForce                                                                                            |
+| [`AddRotationalAcceleration`](#Analysis.AddRotationalAcceleration)                                           | Creates a new RotationalAcceleration                                                                                   |
+| [`AddRotationalVelocity`](#Analysis.AddRotationalVelocity)                                                   | Creates a new RotationalVelocity                                                                                       |
+| [`AddSimplySupported`](#Analysis.AddSimplySupported)                                                         | Creates a new SimplySupported                                                                                          |
+| [`AddSourceConductor`](#Analysis.AddSourceConductor)                                                         | Creates a new child SourceConductor.                                                                                   |
+| [`AddSubstructureGenerationCondensedPart`](#Analysis.AddSubstructureGenerationCondensedPart)                 | Creates a new SubstructureGenerationCondensedPart                                                                      |
+| [`AddSurfaceChargeDensity`](#Analysis.AddSurfaceChargeDensity)                                               | Creates a new SurfaceChargeDensity                                                                                     |
+| [`AddSymmetryManufacturingConstraint`](#Analysis.AddSymmetryManufacturingConstraint)                         | Creates a new SymmetryManufacturingConstraint                                                                          |
+| [`AddSystemCouplingRegion`](#Analysis.AddSystemCouplingRegion)                                               | Creates a new SystemCouplingRegion                                                                                     |
+| [`AddTemperature`](#Analysis.AddTemperature)                                                                 | Creates a new Temperature                                                                                              |
+| [`AddTemperatureConstraint`](#Analysis.AddTemperatureConstraint)                                             | Creates a new TemperatureConstraint                                                                                    |
+| [`AddThermalComplianceConstraint`](#Analysis.AddThermalComplianceConstraint)                                 | Creates a new ThermalComplianceConstraint                                                                              |
+| [`AddThermalCondition`](#Analysis.AddThermalCondition)                                                       | Creates a new child ThermalCondition.                                                                                  |
+| [`AddUniformConstraint`](#Analysis.AddUniformConstraint)                                                     | Creates a new UniformConstraint                                                                                        |
+| [`AddVelocity`](#Analysis.AddVelocity)                                                                       | Creates a new Velocity                                                                                                 |
+| [`AddViscoelasticHeating`](#Analysis.AddViscoelasticHeating)                                                 | Creates a new ViscoelasticHeating                                                                                      |
+| [`AddVoltage`](#Analysis.AddVoltage)                                                                         | Creates a new Voltage                                                                                                  |
+| [`AddVoltageCoupling`](#Analysis.AddVoltageCoupling)                                                         | Creates a new Coupling                                                                                                 |
+| [`AddVoltageGround`](#Analysis.AddVoltageGround)                                                             | Creates a new VoltageGround                                                                                            |
+| [`AddVolumeChargeDensity`](#Analysis.AddVolumeChargeDensity)                                                 | Creates a new VolumeChargeDensity                                                                                      |
+| [`AddVolumeConstraint`](#Analysis.AddVolumeConstraint)                                                       | Creates a new VolumeConstraint                                                                                         |
+| [`ClearGeneratedData`](#Analysis.ClearGeneratedData)                                                         | Run the ClearGeneratedData action.                                                                                     |
+| [`CopyTo`](#Analysis.CopyTo)                                                                                 | Copies all visible properties from this object to another.                                                             |
+| [`CreateAutomaticFSI`](#Analysis.CreateAutomaticFSI)                                                         | Run the CreateAutomaticFSI action.                                                                                     |
+| [`CreateAutomaticFSIandFarFieldRadiationSurfaces`](#Analysis.CreateAutomaticFSIandFarFieldRadiationSurfaces) | Run the CreateAutomaticFSIandEquivalentSourceSurfaces action.                                                          |
+| [`CreateAutomaticFarFieldRadiationSurfaces`](#Analysis.CreateAutomaticFarFieldRadiationSurfaces)             | Run the CreateAutomaticEquivalentSourceSurfaces action.                                                                |
+| [`CreateParameter`](#Analysis.CreateParameter)                                                               | Creates a new parameter for a Property.                                                                                |
+| [`Delete`](#Analysis.Delete)                                                                                 | Run the Delete action.                                                                                                 |
+| [`Duplicate`](#Analysis.Duplicate)                                                                           | Duplicate method.                                                                                                      |
+| [`ExportNastranFile`](#Analysis.ExportNastranFile)                                                           | Export Nastran File.                                                                                                   |
+| [`FilterBasedOnEnvironment`](#Analysis.FilterBasedOnEnvironment)                                             | Enables interface filtering that only displays model-level items applicable to                                         |
+| [`GetChildren`](#Analysis.GetChildren)                                                                       | Gets the list of children, filtered by type.                                                                           |
+| [`GetParameter`](#Analysis.GetParameter)                                                                     | Gets the parameter corresponding to the given property.                                                                |
+| [`GroupAllSimilarChildren`](#Analysis.GroupAllSimilarChildren)                                               | Run the GroupAllSimilarChildren action.                                                                                |
+| [`GroupSimilarObjects`](#Analysis.GroupSimilarObjects)                                                       | Run the GroupSimilarObjects action.                                                                                    |
+| [`ImportLoad`](#Analysis.ImportLoad)                                                                         | Import Load action.                                                                                                    |
+| [`OpenSolverFilesDirectory`](#Analysis.OpenSolverFilesDirectory)                                             | Run the OpenSolverFilesDirectory action.                                                                               |
+| [`PropertyByAPIName`](#Analysis.PropertyByAPIName)                                                           | Get a property by its API name.                                                                                        |
+| [`PropertyByName`](#Analysis.PropertyByName)                                                                 | Get a property by its unique name.                                                                                     |
+| [`RemoveParameter`](#Analysis.RemoveParameter)                                                               | Removes the parameter from the parameter set corresponding to the given property.                                      |
+| [`SelectBodiesWithMultiplePhysicsRegion`](#Analysis.SelectBodiesWithMultiplePhysicsRegion)                   | Run the SelectBodiesWithMultiplePhysicsRegion action to select the bodies that belong to more than one Physics Region. |
+| [`SelectBodiesWithoutPhysicsRegion`](#Analysis.SelectBodiesWithoutPhysicsRegion)                             | Run the SelectBodiesWithoutPhysicsRegion action to select the bodies that don’t belong to a Physics Region.            |
+| [`Solve`](#Analysis.Solve)                                                                                   | Run the Solve action.                                                                                                  |
+| [`TransferDataFrom`](#Analysis.TransferDataFrom)                                                             | Transfer Data From action.                                                                                             |
+| [`UnlinkDataFrom`](#Analysis.UnlinkDataFrom)                                                                 | Unlink Data From action.                                                                                               |
+| [`WriteSystemCouplingFiles`](#Analysis.WriteSystemCouplingFiles)                                             | Writes the system coupling files. Usage WriteSystemCouplingFiles(“C:Desktoptempscp1.scp”);                             |
 
 ### Properties
 
 | Name | Description |
 |-------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------|
-| [`CellId`](../../../../../v242/Ansys/ACT/Automation/Mechanical/Analysis.md#Analysis.CellId)                                   | Gets the CellId.                                              |
-| [`SystemCaption`](../../../../../v242/Ansys/ACT/Automation/Mechanical/Analysis.md#Analysis.SystemCaption)                     | Gets the SystemCaption.                                       |
-| [`InitialConditions`](../../../../../v242/Ansys/ACT/Automation/Mechanical/Analysis.md#Analysis.InitialConditions)             | Get InitialConditions.                                        |
-| [`ResultFileName`](../../../../../v242/Ansys/ACT/Automation/Mechanical/Analysis.md#Analysis.ResultFileName)                   | Get the full path and name of the result file.                |
-| [`InternalObject`](../../../../../v242/Ansys/ACT/Automation/Mechanical/Analysis.md#id0)                                       | Gets the internal object. For advanced usage only.            |
-| [`EnvironmentTemperature`](../../../../../v242/Ansys/ACT/Automation/Mechanical/Analysis.md#Analysis.EnvironmentTemperature)   | Gets or sets the EnvironmentTemperature.                      |
-| [`AMProcessSimulation`](../../../../../v242/Ansys/ACT/Automation/Mechanical/Analysis.md#Analysis.AMProcessSimulation)         | Gets or sets the AMProcessSimulation.                         |
-| [`AnalysisType`](../../../../../v242/Ansys/ACT/Automation/Mechanical/Analysis.md#Analysis.AnalysisType)                       | Gets the AnalysisType.                                        |
-| [`PhysicsType`](../../../../../v242/Ansys/ACT/Automation/Mechanical/Analysis.md#Analysis.PhysicsType)                         | Gets the PhysicsType.                                         |
-| [`Acoustics`](../../../../../v242/Ansys/ACT/Automation/Mechanical/Analysis.md#Analysis.Acoustics)                             | Gets or sets the Acoustics.                                   |
-| [`Electric`](../../../../../v242/Ansys/ACT/Automation/Mechanical/Analysis.md#Analysis.Electric)                               | Gets the Electric.                                            |
-| [`GenerateInputOnly`](../../../../../v242/Ansys/ACT/Automation/Mechanical/Analysis.md#Analysis.GenerateInputOnly)             | Gets the GenerateInputOnly.                                   |
-| [`Structural`](../../../../../v242/Ansys/ACT/Automation/Mechanical/Analysis.md#Analysis.Structural)                           | Gets or sets the Structural.                                  |
-| [`Thermal`](../../../../../v242/Ansys/ACT/Automation/Mechanical/Analysis.md#Analysis.Thermal)                                 | Gets the Thermal.                                             |
-| [`AnalysisSettings`](../../../../../v242/Ansys/ACT/Automation/Mechanical/Analysis.md#Analysis.AnalysisSettings)               | Gets the AnalysisSettings.                                    |
-| [`Solution`](../../../../../v242/Ansys/ACT/Automation/Mechanical/Analysis.md#Analysis.Solution)                               | Gets the Solution.                                            |
-| [`DataModelObjectCategory`](../../../../../v242/Ansys/ACT/Automation/Mechanical/Analysis.md#Analysis.DataModelObjectCategory) | Gets the current DataModelObject’s category.                  |
-| [`Children`](../../../../../v242/Ansys/ACT/Automation/Mechanical/Analysis.md#Analysis.Children)                               | Gets the list of children.                                    |
-| [`Comments`](../../../../../v242/Ansys/ACT/Automation/Mechanical/Analysis.md#Analysis.Comments)                               | Gets the list of associated comments.                         |
-| [`Figures`](../../../../../v242/Ansys/ACT/Automation/Mechanical/Analysis.md#Analysis.Figures)                                 | Gets the list of associated figures.                          |
-| [`Images`](../../../../../v242/Ansys/ACT/Automation/Mechanical/Analysis.md#Analysis.Images)                                   | Gets the list of associated images.                           |
-| [`ReadOnly`](../../../../../v242/Ansys/ACT/Automation/Mechanical/Analysis.md#Analysis.ReadOnly)                               | Gets or sets the ReadOnly.                                    |
-| [`InternalObject`](../../../../../v242/Ansys/ACT/Automation/Mechanical/Analysis.md#id0)                                       | Gets the internal object. For advanced usage only.            |
-| [`Properties`](../../../../../v242/Ansys/ACT/Automation/Mechanical/Analysis.md#Analysis.Properties)                           | Gets the list of properties for this object.                  |
-| [`VisibleProperties`](../../../../../v242/Ansys/ACT/Automation/Mechanical/Analysis.md#Analysis.VisibleProperties)             | Gets the list of properties that are visible for this object. |
+| [`AMProcessSimulation`](#Analysis.AMProcessSimulation)         | Gets or sets the AMProcessSimulation.                         |
+| [`Acoustics`](#Analysis.Acoustics)                             | Gets or sets the Acoustics.                                   |
+| [`AnalysisSettings`](#Analysis.AnalysisSettings)               | Gets the AnalysisSettings.                                    |
+| [`AnalysisType`](#Analysis.AnalysisType)                       | Gets the AnalysisType.                                        |
+| [`CellId`](#Analysis.CellId)                                   | Gets the CellId.                                              |
+| [`Children`](#Analysis.Children)                               | Gets the list of children.                                    |
+| [`Comments`](#Analysis.Comments)                               | Gets the list of associated comments.                         |
+| [`DataModelObjectCategory`](#Analysis.DataModelObjectCategory) | Gets the current DataModelObject’s category.                  |
+| [`Electric`](#Analysis.Electric)                               | Gets the Electric.                                            |
+| [`EnvironmentTemperature`](#Analysis.EnvironmentTemperature)   | Gets or sets the EnvironmentTemperature.                      |
+| [`Figures`](#Analysis.Figures)                                 | Gets the list of associated figures.                          |
+| [`GenerateInputOnly`](#Analysis.GenerateInputOnly)             | Gets the GenerateInputOnly.                                   |
+| [`Images`](#Analysis.Images)                                   | Gets the list of associated images.                           |
+| [`InitialConditions`](#Analysis.InitialConditions)             | Get InitialConditions.                                        |
+| [`InternalObject`](#Analysis.InternalObject)                   | Gets the internal object. For advanced usage only.            |
+| [`PhysicsType`](#Analysis.PhysicsType)                         | Gets the PhysicsType.                                         |
+| [`Properties`](#Analysis.Properties)                           | Gets the list of properties for this object.                  |
+| [`ReadOnly`](#Analysis.ReadOnly)                               | Gets or sets the ReadOnly.                                    |
+| [`ResultFileName`](#Analysis.ResultFileName)                   | Get the full path and name of the result file.                |
+| [`Solution`](#Analysis.Solution)                               | Gets the Solution.                                            |
+| [`Structural`](#Analysis.Structural)                           | Gets or sets the Structural.                                  |
+| [`SystemCaption`](#Analysis.SystemCaption)                     | Gets the SystemCaption.                                       |
+| [`Thermal`](#Analysis.Thermal)                                 | Gets the Thermal.                                             |
+| [`VisibleProperties`](#Analysis.VisibleProperties)             | Gets the list of properties that are visible for this object. |
 
 <a id="property-detail"></a>
 
 ## Property detail
 
-<a id="Analysis.CellId"></a>
-
-### *property* Analysis.CellId *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets the CellId.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="Analysis.SystemCaption"></a>
-
-### *property* Analysis.SystemCaption *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets the SystemCaption.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="Analysis.InitialConditions"></a>
-
-### *property* Analysis.InitialConditions *: System.Collections.Generic.IList[[Ansys.ACT.Automation.Mechanical.InitialCondition](InitialCondition.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.InitialCondition)] | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Get InitialConditions.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="Analysis.ResultFileName"></a>
-
-### *property* Analysis.ResultFileName *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Get the full path and name of the result file.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="Analysis.InternalObject"></a>
-
-### *property* Analysis.InternalObject *: Ansys.Common.Interop.DSObjectsAuto.IDSEnvironmentAuto | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets the internal object. For advanced usage only.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="Analysis.EnvironmentTemperature"></a>
-
-### *property* Analysis.EnvironmentTemperature *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the EnvironmentTemperature.
-
-<!-- !! processed by numpydoc !! -->
-
 <a id="Analysis.AMProcessSimulation"></a>
 
-### *property* Analysis.AMProcessSimulation *: [Ansys.Mechanical.DataModel.Enums.AMProcessSimulationType](../../../Mechanical/DataModel/Enums/AMProcessSimulationType.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.AMProcessSimulationType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Analysis.AMProcessSimulation *: [Ansys.Mechanical.DataModel.Enums.AMProcessSimulationType](../../../../../v242/Ansys/Mechanical/DataModel/Enums/AMProcessSimulationType.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.AMProcessSimulationType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the AMProcessSimulation.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="Analysis.AnalysisType"></a>
-
-### *property* Analysis.AnalysisType *: [Ansys.Mechanical.DataModel.Enums.AnalysisType](../../../Mechanical/DataModel/Enums/AnalysisType.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.AnalysisType) | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets the AnalysisType.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="Analysis.PhysicsType"></a>
-
-### *property* Analysis.PhysicsType *: [Ansys.Mechanical.DataModel.Enums.PhysicsType](../../../Mechanical/DataModel/Enums/PhysicsType.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.PhysicsType) | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets the PhysicsType.
 
 <!-- !! processed by numpydoc !! -->
 
@@ -297,38 +230,6 @@ Gets or sets the Acoustics.
 
 <!-- !! processed by numpydoc !! -->
 
-<a id="Analysis.Electric"></a>
-
-### *property* Analysis.Electric *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets the Electric.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="Analysis.GenerateInputOnly"></a>
-
-### *property* Analysis.GenerateInputOnly *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets the GenerateInputOnly.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="Analysis.Structural"></a>
-
-### *property* Analysis.Structural *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the Structural.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="Analysis.Thermal"></a>
-
-### *property* Analysis.Thermal *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets the Thermal.
-
-<!-- !! processed by numpydoc !! -->
-
 <a id="Analysis.AnalysisSettings"></a>
 
 ### *property* Analysis.AnalysisSettings *: [Ansys.ACT.Automation.Mechanical.AnalysisSettings.AnalysisSettings](AnalysisSettings/AnalysisSettings.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.AnalysisSettings.AnalysisSettings) | [None](https://docs.python.org/3/library/constants.html#None)*
@@ -337,19 +238,19 @@ Gets the AnalysisSettings.
 
 <!-- !! processed by numpydoc !! -->
 
-<a id="Analysis.Solution"></a>
+<a id="Analysis.AnalysisType"></a>
 
-### *property* Analysis.Solution *: [Ansys.ACT.Automation.Mechanical.Solution](Solution.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Solution) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Analysis.AnalysisType *: [Ansys.Mechanical.DataModel.Enums.AnalysisType](../../../../../v242/Ansys/Mechanical/DataModel/Enums/AnalysisType.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.AnalysisType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets the Solution.
+Gets the AnalysisType.
 
 <!-- !! processed by numpydoc !! -->
 
-<a id="Analysis.DataModelObjectCategory"></a>
+<a id="Analysis.CellId"></a>
 
-### *property* Analysis.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Analysis.CellId *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets the current DataModelObject’s category.
+Gets the CellId.
 
 <!-- !! processed by numpydoc !! -->
 
@@ -369,11 +270,43 @@ Gets the list of associated comments.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="Analysis.DataModelObjectCategory"></a>
+
+### *property* Analysis.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../v242/Ansys/Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets the current DataModelObject’s category.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="Analysis.Electric"></a>
+
+### *property* Analysis.Electric *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets the Electric.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="Analysis.EnvironmentTemperature"></a>
+
+### *property* Analysis.EnvironmentTemperature *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the EnvironmentTemperature.
+
+<!-- !! processed by numpydoc !! -->
+
 <a id="Analysis.Figures"></a>
 
 ### *property* Analysis.Figures *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Figure](Figure.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated figures.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="Analysis.GenerateInputOnly"></a>
+
+### *property* Analysis.GenerateInputOnly *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets the GenerateInputOnly.
 
 <!-- !! processed by numpydoc !! -->
 
@@ -385,19 +318,27 @@ Gets the list of associated images.
 
 <!-- !! processed by numpydoc !! -->
 
-<a id="Analysis.ReadOnly"></a>
+<a id="Analysis.InitialConditions"></a>
 
-### *property* Analysis.ReadOnly *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Analysis.InitialConditions *: System.Collections.Generic.IList[[Ansys.ACT.Automation.Mechanical.InitialCondition](InitialCondition.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.InitialCondition)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets or sets the ReadOnly.
+Get InitialConditions.
 
 <!-- !! processed by numpydoc !! -->
 
-<a id="id0"></a>
+<a id="Analysis.InternalObject"></a>
 
-### *property* Analysis.InternalObject *: System.Object | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Analysis.InternalObject *: Ansys.Common.Interop.DSObjectsAuto.IDSEnvironmentAuto | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the internal object. For advanced usage only.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="Analysis.PhysicsType"></a>
+
+### *property* Analysis.PhysicsType *: [Ansys.Mechanical.DataModel.Enums.PhysicsType](../../../../../v242/Ansys/Mechanical/DataModel/Enums/PhysicsType.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.PhysicsType) | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets the PhysicsType.
 
 <!-- !! processed by numpydoc !! -->
 
@@ -406,6 +347,54 @@ Gets the internal object. For advanced usage only.
 ### *property* Analysis.Properties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of properties for this object.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="Analysis.ReadOnly"></a>
+
+### *property* Analysis.ReadOnly *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the ReadOnly.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="Analysis.ResultFileName"></a>
+
+### *property* Analysis.ResultFileName *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Get the full path and name of the result file.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="Analysis.Solution"></a>
+
+### *property* Analysis.Solution *: [Ansys.ACT.Automation.Mechanical.Solution](../../../../../v242/Ansys/ACT/Automation/Mechanical/Solution.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Solution) | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets the Solution.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="Analysis.Structural"></a>
+
+### *property* Analysis.Structural *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the Structural.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="Analysis.SystemCaption"></a>
+
+### *property* Analysis.SystemCaption *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets the SystemCaption.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="Analysis.Thermal"></a>
+
+### *property* Analysis.Thermal *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets the Thermal.
 
 <!-- !! processed by numpydoc !! -->
 
@@ -421,220 +410,19 @@ Gets the list of properties that are visible for this object.
 
 ## Method detail
 
-<a id="Analysis.Solve"></a>
+<a id="Analysis.Activate"></a>
 
-### Analysis.Solve(wait: System.Boolean)
+### Analysis.Activate()
 
-Run the Solve action.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="id1"></a>
-
-### Analysis.Solve(wait: System.Boolean, config: System.String)
-
-Run the Solve action.
+Activate the current object.
 
 <!-- !! processed by numpydoc !! -->
 
-<a id="Analysis.ClearGeneratedData"></a>
+<a id="Analysis.AddAMOverhangConstraint"></a>
 
-### Analysis.ClearGeneratedData()
+### Analysis.AddAMOverhangConstraint()
 
-Run the ClearGeneratedData action.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="Analysis.OpenSolverFilesDirectory"></a>
-
-### Analysis.OpenSolverFilesDirectory()
-
-Run the OpenSolverFilesDirectory action.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="Analysis.FilterBasedOnEnvironment"></a>
-
-### Analysis.FilterBasedOnEnvironment()
-
-Enables interface filtering that only displays model-level items applicable to
-: the currently selected environment type.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="Analysis.AddInitialVelocity"></a>
-
-### Analysis.AddInitialVelocity()
-
-Creates a new child Initial Velocity.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="Analysis.AddSystemCouplingRegion"></a>
-
-### Analysis.AddSystemCouplingRegion()
-
-Creates a new SystemCouplingRegion
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="Analysis.AddThermalCondition"></a>
-
-### Analysis.AddThermalCondition()
-
-Creates a new child ThermalCondition.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="Analysis.AddBoltPretension"></a>
-
-### Analysis.AddBoltPretension()
-
-Creates a new BoltPretension
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="Analysis.AddOptimizationRegion"></a>
-
-### Analysis.AddOptimizationRegion()
-
-Creates a new OptimizationRegion
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="Analysis.AddAcousticTemperature"></a>
-
-### Analysis.AddAcousticTemperature()
-
-Creates a new child ThermalCondition.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="Analysis.AddSourceConductor"></a>
-
-### Analysis.AddSourceConductor()
-
-Creates a new child SourceConductor.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="Analysis.WriteSystemCouplingFiles"></a>
-
-### Analysis.WriteSystemCouplingFiles(filename: System.String)
-
-Writes the system coupling files. Usage WriteSystemCouplingFiles(“C:Desktoptempscp1.scp”);
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="Analysis.CreateAutomaticFarFieldRadiationSurfaces"></a>
-
-### Analysis.CreateAutomaticFarFieldRadiationSurfaces()
-
-Run the CreateAutomaticEquivalentSourceSurfaces action.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="Analysis.CreateAutomaticFSI"></a>
-
-### Analysis.CreateAutomaticFSI()
-
-Run the CreateAutomaticFSI action.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="Analysis.CreateAutomaticFSIandFarFieldRadiationSurfaces"></a>
-
-### Analysis.CreateAutomaticFSIandFarFieldRadiationSurfaces()
-
-Run the CreateAutomaticFSIandEquivalentSourceSurfaces action.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="Analysis.SelectBodiesWithoutPhysicsRegion"></a>
-
-### Analysis.SelectBodiesWithoutPhysicsRegion()
-
-Run the SelectBodiesWithoutPhysicsRegion action to select the bodies that don’t belong to a Physics Region.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="Analysis.SelectBodiesWithMultiplePhysicsRegion"></a>
-
-### Analysis.SelectBodiesWithMultiplePhysicsRegion()
-
-Run the SelectBodiesWithMultiplePhysicsRegion action to select the bodies that belong to more than one Physics Region.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="Analysis.AddImportedLoadMAPDLResultsFile"></a>
-
-### Analysis.AddImportedLoadMAPDLResultsFile()
-
-Creates a new Import Load for MAPDL Results File.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="Analysis.AddImportedLoadFluidsResultsFile"></a>
-
-### Analysis.AddImportedLoadFluidsResultsFile()
-
-Creates a new Import Load for Fluids Results File.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="Analysis.AddImportedLoadExternalData"></a>
-
-### Analysis.AddImportedLoadExternalData()
-
-Creates a new Imported Load (External Data).
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="Analysis.AddImportedRemoteLoadsGroup"></a>
-
-### Analysis.AddImportedRemoteLoadsGroup()
-
-Creates a new Import Remote Load Group.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="Analysis.TransferDataFrom"></a>
-
-### Analysis.TransferDataFrom(analysis: [Ansys.ACT.Automation.Mechanical.Analysis](#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Analysis))
-
-Transfer Data From action.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="Analysis.UnlinkDataFrom"></a>
-
-### Analysis.UnlinkDataFrom(analysis: [Ansys.ACT.Automation.Mechanical.Analysis](#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Analysis))
-
-Unlink Data From action.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="Analysis.ImportLoad"></a>
-
-### Analysis.ImportLoad(analysis: [Ansys.ACT.Automation.Mechanical.Analysis](#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Analysis))
-
-Import Load action.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="Analysis.ExportNastranFile"></a>
-
-### Analysis.ExportNastranFile(exportOptions: [Ansys.ACT.Automation.Mechanical.NastranExportOptions](NastranExportOptions.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.NastranExportOptions))
-
-Export Nastran File.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="Analysis.Duplicate"></a>
-
-### Analysis.Duplicate()
-
-Duplicate method.
+Creates a new AMOverhangConstraint
 
 <!-- !! processed by numpydoc !! -->
 
@@ -806,6 +594,14 @@ Creates a new AcousticSymmetryPlane
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="Analysis.AddAcousticTemperature"></a>
+
+### Analysis.AddAcousticTemperature()
+
+Creates a new child ThermalCondition.
+
+<!-- !! processed by numpydoc !! -->
+
 <a id="Analysis.AddAcousticThermoViscousBLIBoundary"></a>
 
 ### Analysis.AddAcousticThermoViscousBLIBoundary()
@@ -819,14 +615,6 @@ Creates a new AcousticThermoViscousBLIBoundary
 ### Analysis.AddAcousticTransferAdmittanceMatrix()
 
 Creates a new AcousticTransferAdmittanceMatrix
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="Analysis.AddAMOverhangConstraint"></a>
-
-### Analysis.AddAMOverhangConstraint()
-
-Creates a new AMOverhangConstraint
 
 <!-- !! processed by numpydoc !! -->
 
@@ -846,6 +634,14 @@ Creates a new BodyControl
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="Analysis.AddBoltPretension"></a>
+
+### Analysis.AddBoltPretension()
+
+Creates a new BoltPretension
+
+<!-- !! processed by numpydoc !! -->
+
 <a id="Analysis.AddCenterOfGravityConstraint"></a>
 
 ### Analysis.AddCenterOfGravityConstraint()
@@ -859,6 +655,14 @@ Creates a new CenterOfGravityConstraint
 ### Analysis.AddCommandSnippet()
 
 Creates a new CommandSnippet
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="Analysis.AddComment"></a>
+
+### Analysis.AddComment()
+
+Creates a new child Comment.
 
 <!-- !! processed by numpydoc !! -->
 
@@ -913,14 +717,6 @@ Creates a new Convection
 <a id="Analysis.AddCoupling"></a>
 
 ### Analysis.AddCoupling()
-
-Creates a new Coupling
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="Analysis.AddVoltageCoupling"></a>
-
-### Analysis.AddVoltageCoupling()
 
 Creates a new Coupling
 
@@ -990,6 +786,14 @@ Creates a new DynamicComplianceConstraint
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="Analysis.AddEMTransducer"></a>
+
+### Analysis.AddEMTransducer()
+
+Creates a new EMTransducer
+
+<!-- !! processed by numpydoc !! -->
+
 <a id="Analysis.AddEarthGravity"></a>
 
 ### Analysis.AddEarthGravity()
@@ -1022,19 +826,19 @@ Creates a new ElementBirthAndDeath
 
 <!-- !! processed by numpydoc !! -->
 
-<a id="Analysis.AddEMTransducer"></a>
-
-### Analysis.AddEMTransducer()
-
-Creates a new EMTransducer
-
-<!-- !! processed by numpydoc !! -->
-
 <a id="Analysis.AddExtrusionManufacturingConstraint"></a>
 
 ### Analysis.AddExtrusionManufacturingConstraint()
 
 Creates a new ExtrusionManufacturingConstraint
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="Analysis.AddFigure"></a>
+
+### Analysis.AddFigure()
+
+Creates a new child Figure.
 
 <!-- !! processed by numpydoc !! -->
 
@@ -1134,6 +938,18 @@ Creates a new HydrostaticPressure
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="Analysis.AddImage"></a>
+
+### Analysis.AddImage(filePath: System.String)
+
+```text
+Creates a new child Image.
+If a filePath is provided, the image will be loaded from that file,
+if not, the image will be a screen capture of the Geometry window.
+```
+
+<!-- !! processed by numpydoc !! -->
+
 <a id="Analysis.AddImpedanceBoundary"></a>
 
 ### Analysis.AddImpedanceBoundary()
@@ -1147,6 +963,46 @@ Creates a new ImpedanceBoundary
 ### Analysis.AddImportedCFDPressure()
 
 Creates a new ImportedCFDPressure
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="Analysis.AddImportedLoadExternalData"></a>
+
+### Analysis.AddImportedLoadExternalData()
+
+Creates a new Imported Load (External Data).
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="Analysis.AddImportedLoadFluidsResultsFile"></a>
+
+### Analysis.AddImportedLoadFluidsResultsFile()
+
+Creates a new Import Load for Fluids Results File.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="Analysis.AddImportedLoadMAPDLResultsFile"></a>
+
+### Analysis.AddImportedLoadMAPDLResultsFile()
+
+Creates a new Import Load for MAPDL Results File.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="Analysis.AddImportedRemoteLoadsGroup"></a>
+
+### Analysis.AddImportedRemoteLoadsGroup()
+
+Creates a new Import Remote Load Group.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="Analysis.AddInitialVelocity"></a>
+
+### Analysis.AddInitialVelocity()
+
+Creates a new child Initial Velocity.
 
 <!-- !! processed by numpydoc !! -->
 
@@ -1310,6 +1166,46 @@ Creates a new Objective
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="Analysis.AddOptimizationRegion"></a>
+
+### Analysis.AddOptimizationRegion()
+
+Creates a new OptimizationRegion
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="Analysis.AddPSDAcceleration"></a>
+
+### Analysis.AddPSDAcceleration()
+
+Creates a new PSDAcceleration
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="Analysis.AddPSDDisplacement"></a>
+
+### Analysis.AddPSDDisplacement()
+
+Creates a new PSDDisplacement
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="Analysis.AddPSDGAcceleration"></a>
+
+### Analysis.AddPSDGAcceleration()
+
+Creates a new PSDGAcceleration
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="Analysis.AddPSDVelocity"></a>
+
+### Analysis.AddPSDVelocity()
+
+Creates a new PSDVelocity
+
+<!-- !! processed by numpydoc !! -->
+
 <a id="Analysis.AddPatternRepetitionConstraint"></a>
 
 ### Analysis.AddPatternRepetitionConstraint()
@@ -1374,38 +1270,6 @@ Creates a new child Pressure.
 
 <!-- !! processed by numpydoc !! -->
 
-<a id="Analysis.AddPSDAcceleration"></a>
-
-### Analysis.AddPSDAcceleration()
-
-Creates a new PSDAcceleration
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="Analysis.AddPSDDisplacement"></a>
-
-### Analysis.AddPSDDisplacement()
-
-Creates a new PSDDisplacement
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="Analysis.AddPSDGAcceleration"></a>
-
-### Analysis.AddPSDGAcceleration()
-
-Creates a new PSDGAcceleration
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="Analysis.AddPSDVelocity"></a>
-
-### Analysis.AddPSDVelocity()
-
-Creates a new PSDVelocity
-
-<!-- !! processed by numpydoc !! -->
-
 <a id="Analysis.AddPullOutDirectionManufacturingConstraint"></a>
 
 ### Analysis.AddPullOutDirectionManufacturingConstraint()
@@ -1419,6 +1283,30 @@ Creates a new PullOutDirectionManufacturingConstraint
 ### Analysis.AddPythonCodeEventBased()
 
 Creates a new PythonCodeEventBased
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="Analysis.AddRSAcceleration"></a>
+
+### Analysis.AddRSAcceleration()
+
+Creates a new RSAcceleration
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="Analysis.AddRSDisplacement"></a>
+
+### Analysis.AddRSDisplacement()
+
+Creates a new RSDisplacement
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="Analysis.AddRSVelocity"></a>
+
+### Analysis.AddRSVelocity()
+
+Creates a new RSVelocity
 
 <!-- !! processed by numpydoc !! -->
 
@@ -1478,35 +1366,19 @@ Creates a new RotationalVelocity
 
 <!-- !! processed by numpydoc !! -->
 
-<a id="Analysis.AddRSAcceleration"></a>
-
-### Analysis.AddRSAcceleration()
-
-Creates a new RSAcceleration
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="Analysis.AddRSDisplacement"></a>
-
-### Analysis.AddRSDisplacement()
-
-Creates a new RSDisplacement
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="Analysis.AddRSVelocity"></a>
-
-### Analysis.AddRSVelocity()
-
-Creates a new RSVelocity
-
-<!-- !! processed by numpydoc !! -->
-
 <a id="Analysis.AddSimplySupported"></a>
 
 ### Analysis.AddSimplySupported()
 
 Creates a new SimplySupported
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="Analysis.AddSourceConductor"></a>
+
+### Analysis.AddSourceConductor()
+
+Creates a new child SourceConductor.
 
 <!-- !! processed by numpydoc !! -->
 
@@ -1534,6 +1406,14 @@ Creates a new SymmetryManufacturingConstraint
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="Analysis.AddSystemCouplingRegion"></a>
+
+### Analysis.AddSystemCouplingRegion()
+
+Creates a new SystemCouplingRegion
+
+<!-- !! processed by numpydoc !! -->
+
 <a id="Analysis.AddTemperature"></a>
 
 ### Analysis.AddTemperature()
@@ -1555,6 +1435,14 @@ Creates a new TemperatureConstraint
 ### Analysis.AddThermalComplianceConstraint()
 
 Creates a new ThermalComplianceConstraint
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="Analysis.AddThermalCondition"></a>
+
+### Analysis.AddThermalCondition()
+
+Creates a new child ThermalCondition.
 
 <!-- !! processed by numpydoc !! -->
 
@@ -1590,6 +1478,14 @@ Creates a new Voltage
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="Analysis.AddVoltageCoupling"></a>
+
+### Analysis.AddVoltageCoupling()
+
+Creates a new Coupling
+
+<!-- !! processed by numpydoc !! -->
+
 <a id="Analysis.AddVoltageGround"></a>
 
 ### Analysis.AddVoltageGround()
@@ -1614,11 +1510,86 @@ Creates a new VolumeConstraint
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="Analysis.ClearGeneratedData"></a>
+
+### Analysis.ClearGeneratedData()
+
+Run the ClearGeneratedData action.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="Analysis.CopyTo"></a>
+
+### Analysis.CopyTo(other: Ansys.ACT.Automation.Mechanical.DataModelObject)
+
+Copies all visible properties from this object to another.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="Analysis.CreateAutomaticFSI"></a>
+
+### Analysis.CreateAutomaticFSI()
+
+Run the CreateAutomaticFSI action.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="Analysis.CreateAutomaticFSIandFarFieldRadiationSurfaces"></a>
+
+### Analysis.CreateAutomaticFSIandFarFieldRadiationSurfaces()
+
+Run the CreateAutomaticFSIandEquivalentSourceSurfaces action.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="Analysis.CreateAutomaticFarFieldRadiationSurfaces"></a>
+
+### Analysis.CreateAutomaticFarFieldRadiationSurfaces()
+
+Run the CreateAutomaticEquivalentSourceSurfaces action.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="Analysis.CreateParameter"></a>
+
+### Analysis.CreateParameter(propName: System.String)
+
+Creates a new parameter for a Property.
+
+<!-- !! processed by numpydoc !! -->
+
 <a id="Analysis.Delete"></a>
 
 ### Analysis.Delete()
 
 Run the Delete action.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="Analysis.Duplicate"></a>
+
+### Analysis.Duplicate()
+
+Duplicate method.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="Analysis.ExportNastranFile"></a>
+
+### Analysis.ExportNastranFile(exportOptions: [Ansys.ACT.Automation.Mechanical.NastranExportOptions](../../../../../v242/Ansys/ACT/Automation/Mechanical/NastranExportOptions.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.NastranExportOptions))
+
+Export Nastran File.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="Analysis.FilterBasedOnEnvironment"></a>
+
+### Analysis.FilterBasedOnEnvironment()
+
+```text
+Enables interface filtering that only displays model-level items applicable to
+    the currently selected environment type.
+```
 
 <!-- !! processed by numpydoc !! -->
 
@@ -1630,53 +1601,11 @@ Gets the list of children, filtered by type.
 
 <!-- !! processed by numpydoc !! -->
 
-<a id="id2"></a>
+<a id="Analysis.GetParameter"></a>
 
-### Analysis.GetChildren(category: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory), recurses: System.Boolean, children: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject])
+### Analysis.GetParameter(propName: System.String)
 
-Gets the list of children, filtered by type.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="Analysis.AddComment"></a>
-
-### Analysis.AddComment()
-
-Creates a new child Comment.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="Analysis.AddFigure"></a>
-
-### Analysis.AddFigure()
-
-Creates a new child Figure.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="Analysis.AddImage"></a>
-
-### Analysis.AddImage(filePath: System.String)
-
-Creates a new child Image.
-If a filePath is provided, the image will be loaded from that file,
-if not, the image will be a screen capture of the Geometry window.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="Analysis.Activate"></a>
-
-### Analysis.Activate()
-
-Activate the current object.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="Analysis.CopyTo"></a>
-
-### Analysis.CopyTo(other: Ansys.ACT.Automation.Mechanical.DataModelObject)
-
-Copies all visible properties from this object to another.
+Gets the parameter corresponding to the given property.
 
 <!-- !! processed by numpydoc !! -->
 
@@ -1696,6 +1625,33 @@ Run the GroupSimilarObjects action.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="Analysis.ImportLoad"></a>
+
+### Analysis.ImportLoad(analysis: [Ansys.ACT.Automation.Mechanical.Analysis](#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Analysis))
+
+Import Load action.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="Analysis.OpenSolverFilesDirectory"></a>
+
+### Analysis.OpenSolverFilesDirectory()
+
+Run the OpenSolverFilesDirectory action.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="Analysis.PropertyByAPIName"></a>
+
+### Analysis.PropertyByAPIName(name: System.String)
+
+```text
+Get a property by its API name.
+If multiple properties have the same API Name, only the first property with that name will be returned.
+```
+
+<!-- !! processed by numpydoc !! -->
+
 <a id="Analysis.PropertyByName"></a>
 
 ### Analysis.PropertyByName(name: System.String)
@@ -1704,36 +1660,59 @@ Get a property by its unique name.
 
 <!-- !! processed by numpydoc !! -->
 
-<a id="Analysis.PropertyByAPIName"></a>
-
-### Analysis.PropertyByAPIName(name: System.String)
-
-Get a property by its API name.
-If multiple properties have the same API Name, only the first property with that name will be returned.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="Analysis.CreateParameter"></a>
-
-### Analysis.CreateParameter(propName: System.String)
-
-Creates a new parameter for a Property.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="Analysis.GetParameter"></a>
-
-### Analysis.GetParameter(propName: System.String)
-
-Gets the parameter corresponding to the given property.
-
-<!-- !! processed by numpydoc !! -->
-
 <a id="Analysis.RemoveParameter"></a>
 
 ### Analysis.RemoveParameter(propName: System.String)
 
 Removes the parameter from the parameter set corresponding to the given property.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="Analysis.SelectBodiesWithMultiplePhysicsRegion"></a>
+
+### Analysis.SelectBodiesWithMultiplePhysicsRegion()
+
+Run the SelectBodiesWithMultiplePhysicsRegion action to select the bodies that belong to more than one Physics Region.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="Analysis.SelectBodiesWithoutPhysicsRegion"></a>
+
+### Analysis.SelectBodiesWithoutPhysicsRegion()
+
+Run the SelectBodiesWithoutPhysicsRegion action to select the bodies that don’t belong to a Physics Region.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="Analysis.Solve"></a>
+
+### Analysis.Solve(wait: System.Boolean)
+
+Run the Solve action.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="Analysis.TransferDataFrom"></a>
+
+### Analysis.TransferDataFrom(analysis: [Ansys.ACT.Automation.Mechanical.Analysis](#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Analysis))
+
+Transfer Data From action.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="Analysis.UnlinkDataFrom"></a>
+
+### Analysis.UnlinkDataFrom(analysis: [Ansys.ACT.Automation.Mechanical.Analysis](#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Analysis))
+
+Unlink Data From action.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="Analysis.WriteSystemCouplingFiles"></a>
+
+### Analysis.WriteSystemCouplingFiles(filename: System.String)
+
+Writes the system coupling files. Usage WriteSystemCouplingFiles(“C:Desktoptempscp1.scp”);
 
 <!-- !! processed by numpydoc !! -->
 

@@ -1,6 +1,6 @@
 # `AMReferenceTemperatureType`
 
-
+<a id="ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.AMReferenceTemperatureType"></a>
 
 #### *class* ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.AMReferenceTemperatureType
 
@@ -17,7 +17,7 @@ Specifies the AMReferenceTemperatureType.
 ### Attributes
 
 | Name |
-| ------------------------------------------------------------------------ |
+| ---------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | [`ProgramControlled`](#AMReferenceTemperatureType.ProgramControlled) |
 | [`UserSpecified`](#AMReferenceTemperatureType.UserSpecified) |
 

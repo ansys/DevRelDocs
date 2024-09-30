@@ -1,6 +1,6 @@
 # `IReadOnlyDataSeries`
 
-
+<a id="ansys.mechanical.stubs.v242.Ansys.Mechanical.Interfaces.IReadOnlyDataSeries"></a>
 
 #### *class* ansys.mechanical.stubs.v242.Ansys.Mechanical.Interfaces.IReadOnlyDataSeries
 
@@ -17,10 +17,10 @@ IReadOnlyDataSeries interface.
 ### Properties
 
 | Name | Description |
-|-----------------------------------------------------|----------------------------------------------------------------------------------------|
-| [`Item`](#IReadOnlyDataSeries.Item)                 | Item property.                                                                         |
+|------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------|
 | [`Count`](#IReadOnlyDataSeries.Count)               | Gets the number of data points.                                                        |
 | [`DataType`](#IReadOnlyDataSeries.DataType)         | Gets the type stored by the data series.                                               |
+| [`Item`](#IReadOnlyDataSeries.Item)                 | Item property.                                                                         |
 | [`Name`](#IReadOnlyDataSeries.Name)                 | Gets the name of the data series.                                                      |
 | [`QuantityName`](#IReadOnlyDataSeries.QuantityName) | Gets the quantity name of the data series, e.g., “Length”, “Pressure”, or “Heat Flux”. |
 | [`Unit`](#IReadOnlyDataSeries.Unit)                 | Gets the string representation of the data series units, e.g., “m”, “kg m^-1 s^-2”,    |
@@ -29,14 +29,6 @@ IReadOnlyDataSeries interface.
 <a id="property-detail"></a>
 
 ## Property detail
-
-<a id="IReadOnlyDataSeries.Item"></a>
-
-### *property* IReadOnlyDataSeries.Item *: System.Object | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Item property.
-
-<!-- !! processed by numpydoc !! -->
 
 <a id="IReadOnlyDataSeries.Count"></a>
 
@@ -51,6 +43,14 @@ Gets the number of data points.
 ### *property* IReadOnlyDataSeries.DataType *: System.Type | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the type stored by the data series.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="IReadOnlyDataSeries.Item"></a>
+
+### *property* IReadOnlyDataSeries.Item *: System.Object | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Item property.
 
 <!-- !! processed by numpydoc !! -->
 

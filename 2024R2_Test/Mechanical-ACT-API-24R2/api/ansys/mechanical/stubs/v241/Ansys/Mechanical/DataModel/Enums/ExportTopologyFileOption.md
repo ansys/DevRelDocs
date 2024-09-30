@@ -1,6 +1,6 @@
 # `ExportTopologyFileOption`
 
-
+<a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.ExportTopologyFileOption"></a>
 
 #### *class* ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.ExportTopologyFileOption
 
@@ -17,30 +17,30 @@ Specifies the ExportTopologyFileOption.
 ### Attributes
 
 | Name |
-| ---------------------------------------------------------------------------------------------------------------------------------------------------- |
-| [`No`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/ExportTopologyFileOption.md#ExportTopologyFileOption.No) |
-| [`GeometryOnly`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/ExportTopologyFileOption.md#ExportTopologyFileOption.GeometryOnly) |
-| [`ProgramControlled`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/ExportTopologyFileOption.md#ExportTopologyFileOption.ProgramControlled) |
-| [`Model`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/ExportTopologyFileOption.md#ExportTopologyFileOption.Model) |
+| -------------------------------------------------------------------- |
+| [`GeometryOnly`](#ExportTopologyFileOption.GeometryOnly) |
+| [`Model`](#ExportTopologyFileOption.Model) |
+| [`No`](#ExportTopologyFileOption.No) |
+| [`ProgramControlled`](#ExportTopologyFileOption.ProgramControlled) |
 
 <a id="attribute-detail"></a>
 
 ## Attribute detail
 
-<a id="ExportTopologyFileOption.No"></a>
-
-### ExportTopologyFileOption.No *= 2*
-
 <a id="ExportTopologyFileOption.GeometryOnly"></a>
 
 ### ExportTopologyFileOption.GeometryOnly *= 1*
 
-<a id="ExportTopologyFileOption.ProgramControlled"></a>
-
-### ExportTopologyFileOption.ProgramControlled *= 0*
-
 <a id="ExportTopologyFileOption.Model"></a>
 
 ### ExportTopologyFileOption.Model *= 3*
+
+<a id="ExportTopologyFileOption.No"></a>
+
+### ExportTopologyFileOption.No *= 2*
+
+<a id="ExportTopologyFileOption.ProgramControlled"></a>
+
+### ExportTopologyFileOption.ProgramControlled *= 0*
 
 

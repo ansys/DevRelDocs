@@ -1,6 +1,6 @@
 # `AAPCustomLoadAdapter`
 
-
+<a id="ansys.mechanical.stubs.v241.Ansys.ACT.Mechanical.Fields.Adapters.AAPCustomLoadAdapter"></a>
 
 #### *class* ansys.mechanical.stubs.v241.Ansys.ACT.Mechanical.Fields.Adapters.AAPCustomLoadAdapter
 
@@ -17,14 +17,14 @@ AAPCustomLoadAdapter class.
 ### Methods
 
 | Name | Description |
-|---------------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------|
-| [`ChangeFieldDefinitionType`](../../../../../../v242/Ansys/ACT/Mechanical/Fields/Adapters/AAPCustomLoadAdapter.md#AAPCustomLoadAdapter.ChangeFieldDefinitionType)   | ChangeFieldDefinitionType method.   |
+|----------------------------------------------------------------------------------|-------------------------------------|
+| [`ChangeFieldDefinitionType`](#AAPCustomLoadAdapter.ChangeFieldDefinitionType)   | ChangeFieldDefinitionType method.   |
 
 ### Properties
 
 | Name | Description |
-|---------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------|
-| [`FieldProvider`](../../../../../../v242/Ansys/ACT/Mechanical/Fields/Adapters/AAPCustomLoadAdapter.md#AAPCustomLoadAdapter.FieldProvider)   | Gets the wrapped object from Mechanical.   |
+|----------------------------------------------------------|--------------------------------------------|
+| [`FieldProvider`](#AAPCustomLoadAdapter.FieldProvider)   | Gets the wrapped object from Mechanical.   |
 
 <a id="property-detail"></a>
 

@@ -1,6 +1,6 @@
 # `CalculateParticipationFactorResult`
 
-
+<a id="ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.CalculateParticipationFactorResult"></a>
 
 #### *class* ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.CalculateParticipationFactorResult
 
@@ -17,7 +17,7 @@ Specifies the CalculateParticipationFactorResult.
 ### Attributes
 
 | Name |
-| ------------------------------------------------------------------------------ |
+| ------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
 | [`No`](#CalculateParticipationFactorResult.No) |
 | [`ProgramControlled`](#CalculateParticipationFactorResult.ProgramControlled) |
 | [`Yes`](#CalculateParticipationFactorResult.Yes) |

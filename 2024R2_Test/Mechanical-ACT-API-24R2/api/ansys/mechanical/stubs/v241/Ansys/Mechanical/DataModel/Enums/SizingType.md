@@ -1,6 +1,6 @@
 # `SizingType`
 
-
+<a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.SizingType"></a>
 
 #### *class* ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.SizingType
 
@@ -17,15 +17,19 @@ Specifies the SizingType.
 ### Attributes
 
 | Name |
-| ------------------------------------------------------------------------------------------------------------------------ |
-| [`ElementSize`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/SizingType.md#SizingType.ElementSize) |
-| [`NumberOfDivisions`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/SizingType.md#SizingType.NumberOfDivisions) |
-| [`SphereOfInfluence`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/SizingType.md#SizingType.SphereOfInfluence) |
-| [`BodyOfInfluence`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/SizingType.md#SizingType.BodyOfInfluence) |
+| ------------------------------------------------------ |
+| [`BodyOfInfluence`](#SizingType.BodyOfInfluence) |
+| [`ElementSize`](#SizingType.ElementSize) |
+| [`NumberOfDivisions`](#SizingType.NumberOfDivisions) |
+| [`SphereOfInfluence`](#SizingType.SphereOfInfluence) |
 
 <a id="attribute-detail"></a>
 
 ## Attribute detail
+
+<a id="SizingType.BodyOfInfluence"></a>
+
+### SizingType.BodyOfInfluence *= 3*
 
 <a id="SizingType.ElementSize"></a>
 
@@ -38,9 +42,5 @@ Specifies the SizingType.
 <a id="SizingType.SphereOfInfluence"></a>
 
 ### SizingType.SphereOfInfluence *= 2*
-
-<a id="SizingType.BodyOfInfluence"></a>
-
-### SizingType.BodyOfInfluence *= 3*
 
 

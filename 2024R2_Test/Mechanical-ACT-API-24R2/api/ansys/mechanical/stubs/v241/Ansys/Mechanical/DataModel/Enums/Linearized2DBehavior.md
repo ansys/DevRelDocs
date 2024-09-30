@@ -1,6 +1,6 @@
 # `Linearized2DBehavior`
 
-
+<a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.Linearized2DBehavior"></a>
 
 #### *class* ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.Linearized2DBehavior
 
@@ -17,10 +17,10 @@ Specifies the Linearized2DBehavior.
 ### Attributes
 
 | Name |
-| -------------------------------------------------------------------------------------------------------------------------------------------------- |
-| [`AxisymmetricCurve`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/Linearized2DBehavior.md#Linearized2DBehavior.AxisymmetricCurve) |
-| [`AxisymmetricStraight`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/Linearized2DBehavior.md#Linearized2DBehavior.AxisymmetricStraight) |
-| [`Planar`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/Linearized2DBehavior.md#Linearized2DBehavior.Planar) |
+| ---------------------------------------------------------------------- |
+| [`AxisymmetricCurve`](#Linearized2DBehavior.AxisymmetricCurve) |
+| [`AxisymmetricStraight`](#Linearized2DBehavior.AxisymmetricStraight) |
+| [`Planar`](#Linearized2DBehavior.Planar) |
 
 <a id="attribute-detail"></a>
 

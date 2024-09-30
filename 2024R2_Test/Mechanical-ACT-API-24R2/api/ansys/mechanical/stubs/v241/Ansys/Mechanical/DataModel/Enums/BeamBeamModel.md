@@ -1,6 +1,6 @@
 # `BeamBeamModel`
 
-
+<a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.BeamBeamModel"></a>
 
 #### *class* ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.BeamBeamModel
 
@@ -17,10 +17,10 @@ Specifies the BeamBeamModel.
 ### Attributes
 
 | Name |
-| ------------------------------------------------------------------------------------------------------------------------------------ |
-| [`All`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/BeamBeamModel.md#BeamBeamModel.All) |
-| [`ExcludeCrossingBeams`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/BeamBeamModel.md#BeamBeamModel.ExcludeCrossingBeams) |
-| [`OnlyCrossingBeams`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/BeamBeamModel.md#BeamBeamModel.OnlyCrossingBeams) |
+| --------------------------------------------------------------- |
+| [`All`](#BeamBeamModel.All) |
+| [`ExcludeCrossingBeams`](#BeamBeamModel.ExcludeCrossingBeams) |
+| [`OnlyCrossingBeams`](#BeamBeamModel.OnlyCrossingBeams) |
 
 <a id="attribute-detail"></a>
 

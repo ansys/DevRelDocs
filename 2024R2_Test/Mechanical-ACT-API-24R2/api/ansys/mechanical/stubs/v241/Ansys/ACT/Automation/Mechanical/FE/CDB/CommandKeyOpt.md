@@ -1,6 +1,6 @@
 # `CommandKeyOpt`
 
-
+<a id="ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.FE.CDB.CommandKeyOpt"></a>
 
 #### *class* ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.FE.CDB.CommandKeyOpt
 
@@ -18,8 +18,8 @@ Represents a KEYOPT command.
 
 | Name | Description |
 |------------------------------------------------------------------------------------------------------------------|-------------------------------|
-| [`Knum`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/FE/CDB/CommandKeyOpt.md#CommandKeyOpt.Knum)   | Gets the key option number.   |
-| [`Value`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/FE/CDB/CommandKeyOpt.md#CommandKeyOpt.Value) | Gets the value.               |
+| [`Knum`](#CommandKeyOpt.Knum)   | Gets the key option number.   |
+| [`Value`](#CommandKeyOpt.Value) | Gets the value.               |
 
 <a id="property-detail"></a>
 

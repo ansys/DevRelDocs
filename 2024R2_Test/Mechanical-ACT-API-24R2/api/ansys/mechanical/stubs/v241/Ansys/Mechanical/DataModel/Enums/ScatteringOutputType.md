@@ -1,6 +1,6 @@
 # `ScatteringOutputType`
 
-
+<a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.ScatteringOutputType"></a>
 
 #### *class* ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.ScatteringOutputType
 
@@ -17,9 +17,9 @@ Specifies the ScatteringOutputType.
 ### Attributes
 
 | Name |
-| ------------------------------------------------------------------------------------------------------------------------------ |
-| [`Scattered`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/ScatteringOutputType.md#ScatteringOutputType.Scattered) |
-| [`Total`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/ScatteringOutputType.md#ScatteringOutputType.Total) |
+| -------------------------------------------------- |
+| [`Scattered`](#ScatteringOutputType.Scattered) |
+| [`Total`](#ScatteringOutputType.Total) |
 
 <a id="attribute-detail"></a>
 

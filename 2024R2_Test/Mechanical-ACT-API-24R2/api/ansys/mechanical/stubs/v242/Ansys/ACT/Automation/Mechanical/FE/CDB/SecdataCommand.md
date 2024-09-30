@@ -1,6 +1,6 @@
 # `SecdataCommand`
 
-
+<a id="ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.FE.CDB.SecdataCommand"></a>
 
 #### *class* ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.FE.CDB.SecdataCommand
 
@@ -17,20 +17,20 @@ Represents a SECDATA command.
 ### Properties
 
 | Name | Description |
-|--------------------------------------|-------------------------|
-| [`Values`](#SecdataCommand.Values)   | Gets the values.        |
-| [`Name`](#SecdataCommand.Name)       | Gets the command name.  |
-| [`Index`](#SecdataCommand.Index)     | Gets the command index. |
+|------------------------------------|---------------------------|
+| [`Index`](#SecdataCommand.Index)   | Gets the command index.   |
+| [`Name`](#SecdataCommand.Name)     | Gets the command name.    |
+| [`Values`](#SecdataCommand.Values) | Gets the values.          |
 
 <a id="property-detail"></a>
 
 ## Property detail
 
-<a id="SecdataCommand.Values"></a>
+<a id="SecdataCommand.Index"></a>
 
-### *property* SecdataCommand.Values *: System.Collections.Generic.IReadOnlyList[System.Double] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* SecdataCommand.Index *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets the values.
+Gets the command index.
 
 <!-- !! processed by numpydoc !! -->
 
@@ -42,11 +42,11 @@ Gets the command name.
 
 <!-- !! processed by numpydoc !! -->
 
-<a id="SecdataCommand.Index"></a>
+<a id="SecdataCommand.Values"></a>
 
-### *property* SecdataCommand.Index *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* SecdataCommand.Values *: System.Collections.Generic.IReadOnlyList[System.Double] | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets the command index.
+Gets the values.
 
 <!-- !! processed by numpydoc !! -->
 

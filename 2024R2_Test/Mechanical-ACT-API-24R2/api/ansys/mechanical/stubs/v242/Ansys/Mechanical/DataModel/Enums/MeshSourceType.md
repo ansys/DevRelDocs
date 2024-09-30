@@ -1,6 +1,6 @@
 # `MeshSourceType`
 
-
+<a id="ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.MeshSourceType"></a>
 
 #### *class* ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.MeshSourceType
 
@@ -17,7 +17,7 @@ Specifies the MeshSourceType.
 ### Attributes
 
 | Name |
-| ---------------------------------------------------------- |
+| -------------------------------------------------------------------------------------------------------------------------------- |
 | [`Mechanical`](#MeshSourceType.Mechanical) |
 | [`ProgramControlled`](#MeshSourceType.ProgramControlled) |
 | [`ResultFile`](#MeshSourceType.ResultFile) |

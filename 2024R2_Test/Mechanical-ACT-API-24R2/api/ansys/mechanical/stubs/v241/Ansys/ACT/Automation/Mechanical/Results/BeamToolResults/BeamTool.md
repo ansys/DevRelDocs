@@ -1,6 +1,6 @@
 # `BeamTool`
 
-
+<a id="ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Results.BeamToolResults.BeamTool"></a>
 
 #### *class* ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Results.BeamToolResults.BeamTool
 
@@ -17,74 +17,48 @@ Defines a BeamTool.
 ### Methods
 
 | Name | Description |
-|-----------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------|
-| [`EvaluateAllResults`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/BeamToolResults/BeamTool.md#BeamTool.EvaluateAllResults)               | Run the EvaluateAllResults action.                                                |
-| [`AddDirectionalDeformation`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/BeamToolResults/BeamTool.md#BeamTool.AddDirectionalDeformation) | Creates a new DirectionalDeformation                                              |
-| [`AddDirectStress`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/BeamToolResults/BeamTool.md#BeamTool.AddDirectStress)                     | Creates a new DirectStress                                                        |
-| [`AddMaximumBendingStress`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/BeamToolResults/BeamTool.md#BeamTool.AddMaximumBendingStress)     | Creates a new MaximumBendingStress                                                |
-| [`AddMaximumCombinedStress`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/BeamToolResults/BeamTool.md#BeamTool.AddMaximumCombinedStress)   | Creates a new MaximumCombinedStress                                               |
-| [`AddMinimumBendingStress`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/BeamToolResults/BeamTool.md#BeamTool.AddMinimumBendingStress)     | Creates a new MinimumBendingStress                                                |
-| [`AddMinimumCombinedStress`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/BeamToolResults/BeamTool.md#BeamTool.AddMinimumCombinedStress)   | Creates a new MinimumCombinedStress                                               |
-| [`AddTotalDeformation`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/BeamToolResults/BeamTool.md#BeamTool.AddTotalDeformation)             | Creates a new TotalDeformation                                                    |
-| [`Delete`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/BeamToolResults/BeamTool.md#BeamTool.Delete)                                       | Run the Delete action.                                                            |
-| [`GetChildren`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/BeamToolResults/BeamTool.md#id1)                                              | Gets the list of children, filtered by type.                                      |
-| [`GetChildren`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/BeamToolResults/BeamTool.md#id1)                                              | Gets the list of children, filtered by type.                                      |
-| [`AddComment`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/BeamToolResults/BeamTool.md#BeamTool.AddComment)                               | Creates a new child Comment.                                                      |
-| [`AddFigure`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/BeamToolResults/BeamTool.md#BeamTool.AddFigure)                                 | Creates a new child Figure.                                                       |
-| [`AddImage`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/BeamToolResults/BeamTool.md#BeamTool.AddImage)                                   | Creates a new child Image.                                                        |
-| [`Activate`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/BeamToolResults/BeamTool.md#BeamTool.Activate)                                   | Activate the current object.                                                      |
-| [`CopyTo`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/BeamToolResults/BeamTool.md#BeamTool.CopyTo)                                       | Copies all visible properties from this object to another.                        |
-| [`Duplicate`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/BeamToolResults/BeamTool.md#BeamTool.Duplicate)                                 | Creates a copy of the current DataModelObject.                                    |
-| [`GroupAllSimilarChildren`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/BeamToolResults/BeamTool.md#BeamTool.GroupAllSimilarChildren)     | Run the GroupAllSimilarChildren action.                                           |
-| [`GroupSimilarObjects`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/BeamToolResults/BeamTool.md#BeamTool.GroupSimilarObjects)             | Run the GroupSimilarObjects action.                                               |
-| [`PropertyByName`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/BeamToolResults/BeamTool.md#BeamTool.PropertyByName)                       | Get a property by its unique name.                                                |
-| [`PropertyByAPIName`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/BeamToolResults/BeamTool.md#BeamTool.PropertyByAPIName)                 | Get a property by its API name.                                                   |
-| [`CreateParameter`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/BeamToolResults/BeamTool.md#BeamTool.CreateParameter)                     | Creates a new parameter for a Property.                                           |
-| [`GetParameter`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/BeamToolResults/BeamTool.md#BeamTool.GetParameter)                           | Gets the parameter corresponding to the given property.                           |
-| [`RemoveParameter`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/BeamToolResults/BeamTool.md#BeamTool.RemoveParameter)                     | Removes the parameter from the parameter set corresponding to the given property. |
+|--------------------------------------------------------------------|-----------------------------------------------------------------------------------|
+| [`Activate`](#BeamTool.Activate)                                   | Activate the current object.                                                      |
+| [`AddComment`](#BeamTool.AddComment)                               | Creates a new child Comment.                                                      |
+| [`AddDirectStress`](#BeamTool.AddDirectStress)                     | Creates a new DirectStress                                                        |
+| [`AddDirectionalDeformation`](#BeamTool.AddDirectionalDeformation) | Creates a new DirectionalDeformation                                              |
+| [`AddFigure`](#BeamTool.AddFigure)                                 | Creates a new child Figure.                                                       |
+| [`AddImage`](#BeamTool.AddImage)                                   | Creates a new child Image.                                                        |
+| [`AddMaximumBendingStress`](#BeamTool.AddMaximumBendingStress)     | Creates a new MaximumBendingStress                                                |
+| [`AddMaximumCombinedStress`](#BeamTool.AddMaximumCombinedStress)   | Creates a new MaximumCombinedStress                                               |
+| [`AddMinimumBendingStress`](#BeamTool.AddMinimumBendingStress)     | Creates a new MinimumBendingStress                                                |
+| [`AddMinimumCombinedStress`](#BeamTool.AddMinimumCombinedStress)   | Creates a new MinimumCombinedStress                                               |
+| [`AddTotalDeformation`](#BeamTool.AddTotalDeformation)             | Creates a new TotalDeformation                                                    |
+| [`CopyTo`](#BeamTool.CopyTo)                                       | Copies all visible properties from this object to another.                        |
+| [`CreateParameter`](#BeamTool.CreateParameter)                     | Creates a new parameter for a Property.                                           |
+| [`Delete`](#BeamTool.Delete)                                       | Run the Delete action.                                                            |
+| [`Duplicate`](#BeamTool.Duplicate)                                 | Creates a copy of the current DataModelObject.                                    |
+| [`EvaluateAllResults`](#BeamTool.EvaluateAllResults)               | Run the EvaluateAllResults action.                                                |
+| [`GetChildren`](#BeamTool.GetChildren)                             | Gets the list of children, filtered by type.                                      |
+| [`GetParameter`](#BeamTool.GetParameter)                           | Gets the parameter corresponding to the given property.                           |
+| [`GroupAllSimilarChildren`](#BeamTool.GroupAllSimilarChildren)     | Run the GroupAllSimilarChildren action.                                           |
+| [`GroupSimilarObjects`](#BeamTool.GroupSimilarObjects)             | Run the GroupSimilarObjects action.                                               |
+| [`PropertyByAPIName`](#BeamTool.PropertyByAPIName)                 | Get a property by its API name.                                                   |
+| [`PropertyByName`](#BeamTool.PropertyByName)                       | Get a property by its unique name.                                                |
+| [`RemoveParameter`](#BeamTool.RemoveParameter)                     | Removes the parameter from the parameter set corresponding to the given property. |
 
 ### Properties
 
 | Name | Description |
-|-------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------|
-| [`InternalObject`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/BeamToolResults/BeamTool.md#id0)                                       | Gets the internal object. For advanced usage only.            |
-| [`Location`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/BeamToolResults/BeamTool.md#BeamTool.Location)                               | Gets or sets the Location.                                    |
-| [`DataModelObjectCategory`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/BeamToolResults/BeamTool.md#BeamTool.DataModelObjectCategory) | Gets the current DataModelObject's category.                  |
-| [`Children`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/BeamToolResults/BeamTool.md#BeamTool.Children)                               | Gets the list of children.                                    |
-| [`Comments`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/BeamToolResults/BeamTool.md#BeamTool.Comments)                               | Gets the list of associated comments.                         |
-| [`Figures`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/BeamToolResults/BeamTool.md#BeamTool.Figures)                                 | Gets the list of associated figures.                          |
-| [`Images`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/BeamToolResults/BeamTool.md#BeamTool.Images)                                   | Gets the list of associated images.                           |
-| [`InternalObject`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/BeamToolResults/BeamTool.md#id0)                                       | Gets the internal object. For advanced usage only.            |
-| [`Properties`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/BeamToolResults/BeamTool.md#BeamTool.Properties)                           | Gets the list of properties for this object.                  |
-| [`VisibleProperties`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/BeamToolResults/BeamTool.md#BeamTool.VisibleProperties)             | Gets the list of properties that are visible for this object. |
+|----------------------------------------------------------------|---------------------------------------------------------------|
+| [`Children`](#BeamTool.Children)                               | Gets the list of children.                                    |
+| [`Comments`](#BeamTool.Comments)                               | Gets the list of associated comments.                         |
+| [`DataModelObjectCategory`](#BeamTool.DataModelObjectCategory) | Gets the current DataModelObject’s category.                  |
+| [`Figures`](#BeamTool.Figures)                                 | Gets the list of associated figures.                          |
+| [`Images`](#BeamTool.Images)                                   | Gets the list of associated images.                           |
+| [`InternalObject`](#BeamTool.InternalObject)                   | Gets the internal object. For advanced usage only.            |
+| [`Location`](#BeamTool.Location)                               | Gets or sets the Location.                                    |
+| [`Properties`](#BeamTool.Properties)                           | Gets the list of properties for this object.                  |
+| [`VisibleProperties`](#BeamTool.VisibleProperties)             | Gets the list of properties that are visible for this object. |
 
 <a id="property-detail"></a>
 
 ## Property detail
-
-<a id="BeamTool.InternalObject"></a>
-
-### *property* BeamTool.InternalObject *: Ansys.Common.Interop.DSObjectsAuto.IDSBeamToolAuto | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets the internal object. For advanced usage only.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="BeamTool.Location"></a>
-
-### *property* BeamTool.Location *: Ansys.ACT.Interfaces.Common.ISelectionInfo | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the Location.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="BeamTool.DataModelObjectCategory"></a>
-
-### *property* BeamTool.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets the current DataModelObject's category.
-
-<!-- !! processed by numpydoc !! -->
 
 <a id="BeamTool.Children"></a>
 
@@ -99,6 +73,14 @@ Gets the list of children.
 ### *property* BeamTool.Comments *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Comment](../../Comment.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated comments.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="BeamTool.DataModelObjectCategory"></a>
+
+### *property* BeamTool.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../../../v242/Ansys/Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets the current DataModelObject’s category.
 
 <!-- !! processed by numpydoc !! -->
 
@@ -118,11 +100,19 @@ Gets the list of associated images.
 
 <!-- !! processed by numpydoc !! -->
 
-<a id="id0"></a>
+<a id="BeamTool.InternalObject"></a>
 
-### *property* BeamTool.InternalObject *: System.Object | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* BeamTool.InternalObject *: Ansys.Common.Interop.DSObjectsAuto.IDSBeamToolAuto | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the internal object. For advanced usage only.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="BeamTool.Location"></a>
+
+### *property* BeamTool.Location *: Ansys.ACT.Interfaces.Common.ISelectionInfo | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the Location.
 
 <!-- !! processed by numpydoc !! -->
 
@@ -146,11 +136,27 @@ Gets the list of properties that are visible for this object.
 
 ## Method detail
 
-<a id="BeamTool.EvaluateAllResults"></a>
+<a id="BeamTool.Activate"></a>
 
-### BeamTool.EvaluateAllResults()
+### BeamTool.Activate()
 
-Run the EvaluateAllResults action.
+Activate the current object.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="BeamTool.AddComment"></a>
+
+### BeamTool.AddComment()
+
+Creates a new child Comment.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="BeamTool.AddDirectStress"></a>
+
+### BeamTool.AddDirectStress()
+
+Creates a new DirectStress
 
 <!-- !! processed by numpydoc !! -->
 
@@ -162,11 +168,23 @@ Creates a new DirectionalDeformation
 
 <!-- !! processed by numpydoc !! -->
 
-<a id="BeamTool.AddDirectStress"></a>
+<a id="BeamTool.AddFigure"></a>
 
-### BeamTool.AddDirectStress()
+### BeamTool.AddFigure()
 
-Creates a new DirectStress
+Creates a new child Figure.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="BeamTool.AddImage"></a>
+
+### BeamTool.AddImage(filePath: System.String)
+
+```text
+Creates a new child Image.
+If a filePath is provided, the image will be loaded from that file,
+if not, the image will be a screen capture of the Geometry window.
+```
 
 <!-- !! processed by numpydoc !! -->
 
@@ -210,11 +228,43 @@ Creates a new TotalDeformation
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="BeamTool.CopyTo"></a>
+
+### BeamTool.CopyTo(other: Ansys.ACT.Automation.Mechanical.DataModelObject)
+
+Copies all visible properties from this object to another.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="BeamTool.CreateParameter"></a>
+
+### BeamTool.CreateParameter(propName: System.String)
+
+Creates a new parameter for a Property.
+
+<!-- !! processed by numpydoc !! -->
+
 <a id="BeamTool.Delete"></a>
 
 ### BeamTool.Delete()
 
 Run the Delete action.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="BeamTool.Duplicate"></a>
+
+### BeamTool.Duplicate()
+
+Creates a copy of the current DataModelObject.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="BeamTool.EvaluateAllResults"></a>
+
+### BeamTool.EvaluateAllResults()
+
+Run the EvaluateAllResults action.
 
 <!-- !! processed by numpydoc !! -->
 
@@ -226,61 +276,11 @@ Gets the list of children, filtered by type.
 
 <!-- !! processed by numpydoc !! -->
 
-<a id="id1"></a>
+<a id="BeamTool.GetParameter"></a>
 
-### BeamTool.GetChildren(category: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory), recurses: System.Boolean, children: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject])
+### BeamTool.GetParameter(propName: System.String)
 
-Gets the list of children, filtered by type.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="BeamTool.AddComment"></a>
-
-### BeamTool.AddComment()
-
-Creates a new child Comment.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="BeamTool.AddFigure"></a>
-
-### BeamTool.AddFigure()
-
-Creates a new child Figure.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="BeamTool.AddImage"></a>
-
-### BeamTool.AddImage(filePath: System.String)
-
-Creates a new child Image.
-If a filePath is provided, the image will be loaded from that file,
-if not, the image will be a screen capture of the Geometry window.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="BeamTool.Activate"></a>
-
-### BeamTool.Activate()
-
-Activate the current object.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="BeamTool.CopyTo"></a>
-
-### BeamTool.CopyTo(other: Ansys.ACT.Automation.Mechanical.DataModelObject)
-
-Copies all visible properties from this object to another.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="BeamTool.Duplicate"></a>
-
-### BeamTool.Duplicate()
-
-Creates a copy of the current DataModelObject.
+Gets the parameter corresponding to the given property.
 
 <!-- !! processed by numpydoc !! -->
 
@@ -300,36 +300,22 @@ Run the GroupSimilarObjects action.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="BeamTool.PropertyByAPIName"></a>
+
+### BeamTool.PropertyByAPIName(name: System.String)
+
+```text
+Get a property by its API name.
+If multiple properties have the same API Name, only the first property with that name will be returned.
+```
+
+<!-- !! processed by numpydoc !! -->
+
 <a id="BeamTool.PropertyByName"></a>
 
 ### BeamTool.PropertyByName(name: System.String)
 
 Get a property by its unique name.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="BeamTool.PropertyByAPIName"></a>
-
-### BeamTool.PropertyByAPIName(name: System.String)
-
-Get a property by its API name.
-If multiple properties have the same API Name, only the first property with that name will be returned.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="BeamTool.CreateParameter"></a>
-
-### BeamTool.CreateParameter(propName: System.String)
-
-Creates a new parameter for a Property.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="BeamTool.GetParameter"></a>
-
-### BeamTool.GetParameter(propName: System.String)
-
-Gets the parameter corresponding to the given property.
 
 <!-- !! processed by numpydoc !! -->
 

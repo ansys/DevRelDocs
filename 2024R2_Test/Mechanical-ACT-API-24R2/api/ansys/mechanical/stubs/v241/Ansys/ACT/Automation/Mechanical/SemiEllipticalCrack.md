@@ -1,6 +1,6 @@
 # `SemiEllipticalCrack`
 
-
+<a id="ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.SemiEllipticalCrack"></a>
 
 #### *class* ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.SemiEllipticalCrack
 
@@ -17,79 +17,357 @@ Defines a SemiEllipticalCrack.
 ### Methods
 
 | Name | Description |
-|-----------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------|
-| [`AddCommandSnippet`](../../../../../v242/Ansys/ACT/Automation/Mechanical/SemiEllipticalCrack.md#SemiEllipticalCrack.AddCommandSnippet)             | Creates a new CommandSnippet                                                      |
-| [`Delete`](../../../../../v242/Ansys/ACT/Automation/Mechanical/SemiEllipticalCrack.md#SemiEllipticalCrack.Delete)                                   | Run the Delete action.                                                            |
-| [`GetChildren`](../../../../../v242/Ansys/ACT/Automation/Mechanical/SemiEllipticalCrack.md#id1)                                                     | Gets the list of children, filtered by type.                                      |
-| [`GetChildren`](../../../../../v242/Ansys/ACT/Automation/Mechanical/SemiEllipticalCrack.md#id1)                                                     | Gets the list of children, filtered by type.                                      |
-| [`AddComment`](../../../../../v242/Ansys/ACT/Automation/Mechanical/SemiEllipticalCrack.md#SemiEllipticalCrack.AddComment)                           | Creates a new child Comment.                                                      |
-| [`AddFigure`](../../../../../v242/Ansys/ACT/Automation/Mechanical/SemiEllipticalCrack.md#SemiEllipticalCrack.AddFigure)                             | Creates a new child Figure.                                                       |
-| [`AddImage`](../../../../../v242/Ansys/ACT/Automation/Mechanical/SemiEllipticalCrack.md#SemiEllipticalCrack.AddImage)                               | Creates a new child Image.                                                        |
-| [`Activate`](../../../../../v242/Ansys/ACT/Automation/Mechanical/SemiEllipticalCrack.md#SemiEllipticalCrack.Activate)                               | Activate the current object.                                                      |
-| [`CopyTo`](../../../../../v242/Ansys/ACT/Automation/Mechanical/SemiEllipticalCrack.md#SemiEllipticalCrack.CopyTo)                                   | Copies all visible properties from this object to another.                        |
-| [`Duplicate`](../../../../../v242/Ansys/ACT/Automation/Mechanical/SemiEllipticalCrack.md#SemiEllipticalCrack.Duplicate)                             | Creates a copy of the current DataModelObject.                                    |
-| [`GroupAllSimilarChildren`](../../../../../v242/Ansys/ACT/Automation/Mechanical/SemiEllipticalCrack.md#SemiEllipticalCrack.GroupAllSimilarChildren) | Run the GroupAllSimilarChildren action.                                           |
-| [`GroupSimilarObjects`](../../../../../v242/Ansys/ACT/Automation/Mechanical/SemiEllipticalCrack.md#SemiEllipticalCrack.GroupSimilarObjects)         | Run the GroupSimilarObjects action.                                               |
-| [`PropertyByName`](../../../../../v242/Ansys/ACT/Automation/Mechanical/SemiEllipticalCrack.md#SemiEllipticalCrack.PropertyByName)                   | Get a property by its unique name.                                                |
-| [`PropertyByAPIName`](../../../../../v242/Ansys/ACT/Automation/Mechanical/SemiEllipticalCrack.md#SemiEllipticalCrack.PropertyByAPIName)             | Get a property by its API name.                                                   |
-| [`CreateParameter`](../../../../../v242/Ansys/ACT/Automation/Mechanical/SemiEllipticalCrack.md#SemiEllipticalCrack.CreateParameter)                 | Creates a new parameter for a Property.                                           |
-| [`GetParameter`](../../../../../v242/Ansys/ACT/Automation/Mechanical/SemiEllipticalCrack.md#SemiEllipticalCrack.GetParameter)                       | Gets the parameter corresponding to the given property.                           |
-| [`RemoveParameter`](../../../../../v242/Ansys/ACT/Automation/Mechanical/SemiEllipticalCrack.md#SemiEllipticalCrack.RemoveParameter)                 | Removes the parameter from the parameter set corresponding to the given property. |
+|---------------------------------------------------------------------------|-----------------------------------------------------------------------------------|
+| [`Activate`](#SemiEllipticalCrack.Activate)                               | Activate the current object.                                                      |
+| [`AddCommandSnippet`](#SemiEllipticalCrack.AddCommandSnippet)             | Creates a new CommandSnippet                                                      |
+| [`AddComment`](#SemiEllipticalCrack.AddComment)                           | Creates a new child Comment.                                                      |
+| [`AddFigure`](#SemiEllipticalCrack.AddFigure)                             | Creates a new child Figure.                                                       |
+| [`AddImage`](#SemiEllipticalCrack.AddImage)                               | Creates a new child Image.                                                        |
+| [`CopyTo`](#SemiEllipticalCrack.CopyTo)                                   | Copies all visible properties from this object to another.                        |
+| [`CreateParameter`](#SemiEllipticalCrack.CreateParameter)                 | Creates a new parameter for a Property.                                           |
+| [`Delete`](#SemiEllipticalCrack.Delete)                                   | Run the Delete action.                                                            |
+| [`Duplicate`](#SemiEllipticalCrack.Duplicate)                             | Creates a copy of the current DataModelObject.                                    |
+| [`GetChildren`](#SemiEllipticalCrack.GetChildren)                         | Gets the list of children, filtered by type.                                      |
+| [`GetParameter`](#SemiEllipticalCrack.GetParameter)                       | Gets the parameter corresponding to the given property.                           |
+| [`GroupAllSimilarChildren`](#SemiEllipticalCrack.GroupAllSimilarChildren) | Run the GroupAllSimilarChildren action.                                           |
+| [`GroupSimilarObjects`](#SemiEllipticalCrack.GroupSimilarObjects)         | Run the GroupSimilarObjects action.                                               |
+| [`PropertyByAPIName`](#SemiEllipticalCrack.PropertyByAPIName)             | Get a property by its API name.                                                   |
+| [`PropertyByName`](#SemiEllipticalCrack.PropertyByName)                   | Get a property by its unique name.                                                |
+| [`RemoveParameter`](#SemiEllipticalCrack.RemoveParameter)                 | Removes the parameter from the parameter set corresponding to the given property. |
 
 ### Properties
 
 | Name | Description |
-|-----------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------|
-| [`InternalObject`](../../../../../v242/Ansys/ACT/Automation/Mechanical/SemiEllipticalCrack.md#id0)                                                        | Gets the internal object. For advanced usage only.            |
-| [`XScaleFactor`](../../../../../v242/Ansys/ACT/Automation/Mechanical/SemiEllipticalCrack.md#SemiEllipticalCrack.XScaleFactor)                             | Gets or sets the XScaleFactor.                                |
-| [`YScaleFactor`](../../../../../v242/Ansys/ACT/Automation/Mechanical/SemiEllipticalCrack.md#SemiEllipticalCrack.YScaleFactor)                             | Gets or sets the YScaleFactor.                                |
-| [`ZScaleFactor`](../../../../../v242/Ansys/ACT/Automation/Mechanical/SemiEllipticalCrack.md#SemiEllipticalCrack.ZScaleFactor)                             | Gets or sets the ZScaleFactor.                                |
-| [`CircumferentialDivisions`](../../../../../v242/Ansys/ACT/Automation/Mechanical/SemiEllipticalCrack.md#SemiEllipticalCrack.CircumferentialDivisions)     | Gets or sets the CircumferentialDivisions.                    |
-| [`CrackFrontDivisions`](../../../../../v242/Ansys/ACT/Automation/Mechanical/SemiEllipticalCrack.md#SemiEllipticalCrack.CrackFrontDivisions)               | Gets or sets the CrackFrontDivisions.                         |
-| [`GrowthRate`](../../../../../v242/Ansys/ACT/Automation/Mechanical/SemiEllipticalCrack.md#SemiEllipticalCrack.GrowthRate)                                 | Gets or sets the GrowthRate.                                  |
-| [`MeshContours`](../../../../../v242/Ansys/ACT/Automation/Mechanical/SemiEllipticalCrack.md#SemiEllipticalCrack.MeshContours)                             | Gets or sets the MeshContours.                                |
-| [`SolutionContours`](../../../../../v242/Ansys/ACT/Automation/Mechanical/SemiEllipticalCrack.md#SemiEllipticalCrack.SolutionContours)                     | Gets or sets the SolutionContours.                            |
-| [`Contact1Nodes`](../../../../../v242/Ansys/ACT/Automation/Mechanical/SemiEllipticalCrack.md#SemiEllipticalCrack.Contact1Nodes)                           | Gets or sets the Contact1Nodes.                               |
-| [`CrackFrontNodes`](../../../../../v242/Ansys/ACT/Automation/Mechanical/SemiEllipticalCrack.md#SemiEllipticalCrack.CrackFrontNodes)                       | Gets or sets the CrackFrontNodes.                             |
-| [`BottomFaceNodes`](../../../../../v242/Ansys/ACT/Automation/Mechanical/SemiEllipticalCrack.md#SemiEllipticalCrack.BottomFaceNodes)                       | Gets or sets the BottomFaceNodes.                             |
-| [`TopFaceNodes`](../../../../../v242/Ansys/ACT/Automation/Mechanical/SemiEllipticalCrack.md#SemiEllipticalCrack.TopFaceNodes)                             | Gets or sets the TopFaceNodes.                                |
-| [`Target1Nodes`](../../../../../v242/Ansys/ACT/Automation/Mechanical/SemiEllipticalCrack.md#SemiEllipticalCrack.Target1Nodes)                             | Gets or sets the Target1Nodes.                                |
-| [`FractureAffectedZoneHeight`](../../../../../v242/Ansys/ACT/Automation/Mechanical/SemiEllipticalCrack.md#SemiEllipticalCrack.FractureAffectedZoneHeight) | Gets or sets the FractureAffectedZoneHeight.                  |
-| [`FrontElementSize`](../../../../../v242/Ansys/ACT/Automation/Mechanical/SemiEllipticalCrack.md#SemiEllipticalCrack.FrontElementSize)                     | Gets or sets the FrontElementSize.                            |
-| [`LargestContourRadius`](../../../../../v242/Ansys/ACT/Automation/Mechanical/SemiEllipticalCrack.md#SemiEllipticalCrack.LargestContourRadius)             | Gets or sets the LargestContourRadius.                        |
-| [`MajorRadius`](../../../../../v242/Ansys/ACT/Automation/Mechanical/SemiEllipticalCrack.md#SemiEllipticalCrack.MajorRadius)                               | Gets or sets the MajorRadius.                                 |
-| [`MinorRadius`](../../../../../v242/Ansys/ACT/Automation/Mechanical/SemiEllipticalCrack.md#SemiEllipticalCrack.MinorRadius)                               | Gets or sets the MinorRadius.                                 |
-| [`FractureAffectedZone`](../../../../../v242/Ansys/ACT/Automation/Mechanical/SemiEllipticalCrack.md#SemiEllipticalCrack.FractureAffectedZone)             | Gets or sets the FractureAffectedZone.                        |
-| [`CrackMeshMethod`](../../../../../v242/Ansys/ACT/Automation/Mechanical/SemiEllipticalCrack.md#SemiEllipticalCrack.CrackMeshMethod)                       | Gets or sets the CrackMeshMethod.                             |
-| [`CrackShape`](../../../../../v242/Ansys/ACT/Automation/Mechanical/SemiEllipticalCrack.md#SemiEllipticalCrack.CrackShape)                                 | Gets the CrackShape.                                          |
-| [`CrackSourceType`](../../../../../v242/Ansys/ACT/Automation/Mechanical/SemiEllipticalCrack.md#SemiEllipticalCrack.CrackSourceType)                       | Gets the CrackSourceType.                                     |
-| [`AlignWithFaceNormal`](../../../../../v242/Ansys/ACT/Automation/Mechanical/SemiEllipticalCrack.md#SemiEllipticalCrack.AlignWithFaceNormal)               | Gets or sets the AlignWithFaceNormal.                         |
-| [`ProjectToNearestSurface`](../../../../../v242/Ansys/ACT/Automation/Mechanical/SemiEllipticalCrack.md#SemiEllipticalCrack.ProjectToNearestSurface)       | Gets or sets the ProjectToNearestSurface.                     |
-| [`ContactPairsNodes`](../../../../../v242/Ansys/ACT/Automation/Mechanical/SemiEllipticalCrack.md#SemiEllipticalCrack.ContactPairsNodes)                   | Gets or sets the ContactPairsNodes.                           |
-| [`CrackFacesNodes`](../../../../../v242/Ansys/ACT/Automation/Mechanical/SemiEllipticalCrack.md#SemiEllipticalCrack.CrackFacesNodes)                       | Gets or sets the CrackFacesNodes.                             |
-| [`Suppressed`](../../../../../v242/Ansys/ACT/Automation/Mechanical/SemiEllipticalCrack.md#SemiEllipticalCrack.Suppressed)                                 | Gets or sets the Suppressed.                                  |
-| [`CoordinateSystem`](../../../../../v242/Ansys/ACT/Automation/Mechanical/SemiEllipticalCrack.md#SemiEllipticalCrack.CoordinateSystem)                     | Gets or sets the CoordinateSystem.                            |
-| [`Location`](../../../../../v242/Ansys/ACT/Automation/Mechanical/SemiEllipticalCrack.md#SemiEllipticalCrack.Location)                                     | Gets or sets the Location.                                    |
-| [`DataModelObjectCategory`](../../../../../v242/Ansys/ACT/Automation/Mechanical/SemiEllipticalCrack.md#SemiEllipticalCrack.DataModelObjectCategory)       | Gets the current DataModelObject's category.                  |
-| [`CrackID`](../../../../../v242/Ansys/ACT/Automation/Mechanical/SemiEllipticalCrack.md#SemiEllipticalCrack.CrackID)                                       | Gets the CrackID.                                             |
-| [`Children`](../../../../../v242/Ansys/ACT/Automation/Mechanical/SemiEllipticalCrack.md#SemiEllipticalCrack.Children)                                     | Gets the list of children.                                    |
-| [`Comments`](../../../../../v242/Ansys/ACT/Automation/Mechanical/SemiEllipticalCrack.md#SemiEllipticalCrack.Comments)                                     | Gets the list of associated comments.                         |
-| [`Figures`](../../../../../v242/Ansys/ACT/Automation/Mechanical/SemiEllipticalCrack.md#SemiEllipticalCrack.Figures)                                       | Gets the list of associated figures.                          |
-| [`Images`](../../../../../v242/Ansys/ACT/Automation/Mechanical/SemiEllipticalCrack.md#SemiEllipticalCrack.Images)                                         | Gets the list of associated images.                           |
-| [`ReadOnly`](../../../../../v242/Ansys/ACT/Automation/Mechanical/SemiEllipticalCrack.md#SemiEllipticalCrack.ReadOnly)                                     | Gets or sets the ReadOnly.                                    |
-| [`InternalObject`](../../../../../v242/Ansys/ACT/Automation/Mechanical/SemiEllipticalCrack.md#id0)                                                        | Gets the internal object. For advanced usage only.            |
-| [`Properties`](../../../../../v242/Ansys/ACT/Automation/Mechanical/SemiEllipticalCrack.md#SemiEllipticalCrack.Properties)                                 | Gets the list of properties for this object.                  |
-| [`VisibleProperties`](../../../../../v242/Ansys/ACT/Automation/Mechanical/SemiEllipticalCrack.md#SemiEllipticalCrack.VisibleProperties)                   | Gets the list of properties that are visible for this object. |
+|---------------------------------------------------------------------------------|---------------------------------------------------------------|
+| [`AlignWithFaceNormal`](#SemiEllipticalCrack.AlignWithFaceNormal)               | Gets or sets the AlignWithFaceNormal.                         |
+| [`BottomFaceNodes`](#SemiEllipticalCrack.BottomFaceNodes)                       | Gets or sets the BottomFaceNodes.                             |
+| [`Children`](#SemiEllipticalCrack.Children)                                     | Gets the list of children.                                    |
+| [`CircumferentialDivisions`](#SemiEllipticalCrack.CircumferentialDivisions)     | Gets or sets the CircumferentialDivisions.                    |
+| [`Comments`](#SemiEllipticalCrack.Comments)                                     | Gets the list of associated comments.                         |
+| [`Contact1Nodes`](#SemiEllipticalCrack.Contact1Nodes)                           | Gets or sets the Contact1Nodes.                               |
+| [`ContactPairsNodes`](#SemiEllipticalCrack.ContactPairsNodes)                   | Gets or sets the ContactPairsNodes.                           |
+| [`CoordinateSystem`](#SemiEllipticalCrack.CoordinateSystem)                     | Gets or sets the CoordinateSystem.                            |
+| [`CrackFacesNodes`](#SemiEllipticalCrack.CrackFacesNodes)                       | Gets or sets the CrackFacesNodes.                             |
+| [`CrackFrontDivisions`](#SemiEllipticalCrack.CrackFrontDivisions)               | Gets or sets the CrackFrontDivisions.                         |
+| [`CrackFrontNodes`](#SemiEllipticalCrack.CrackFrontNodes)                       | Gets or sets the CrackFrontNodes.                             |
+| [`CrackID`](#SemiEllipticalCrack.CrackID)                                       | Gets the CrackID.                                             |
+| [`CrackMeshMethod`](#SemiEllipticalCrack.CrackMeshMethod)                       | Gets or sets the CrackMeshMethod.                             |
+| [`CrackShape`](#SemiEllipticalCrack.CrackShape)                                 | Gets the CrackShape.                                          |
+| [`CrackSourceType`](#SemiEllipticalCrack.CrackSourceType)                       | Gets the CrackSourceType.                                     |
+| [`DataModelObjectCategory`](#SemiEllipticalCrack.DataModelObjectCategory)       | Gets the current DataModelObject’s category.                  |
+| [`Figures`](#SemiEllipticalCrack.Figures)                                       | Gets the list of associated figures.                          |
+| [`FractureAffectedZone`](#SemiEllipticalCrack.FractureAffectedZone)             | Gets or sets the FractureAffectedZone.                        |
+| [`FractureAffectedZoneHeight`](#SemiEllipticalCrack.FractureAffectedZoneHeight) | Gets or sets the FractureAffectedZoneHeight.                  |
+| [`FrontElementSize`](#SemiEllipticalCrack.FrontElementSize)                     | Gets or sets the FrontElementSize.                            |
+| [`GrowthRate`](#SemiEllipticalCrack.GrowthRate)                                 | Gets or sets the GrowthRate.                                  |
+| [`Images`](#SemiEllipticalCrack.Images)                                         | Gets the list of associated images.                           |
+| [`InternalObject`](#SemiEllipticalCrack.InternalObject)                         | Gets the internal object. For advanced usage only.            |
+| [`LargestContourRadius`](#SemiEllipticalCrack.LargestContourRadius)             | Gets or sets the LargestContourRadius.                        |
+| [`Location`](#SemiEllipticalCrack.Location)                                     | Gets or sets the Location.                                    |
+| [`MajorRadius`](#SemiEllipticalCrack.MajorRadius)                               | Gets or sets the MajorRadius.                                 |
+| [`MeshContours`](#SemiEllipticalCrack.MeshContours)                             | Gets or sets the MeshContours.                                |
+| [`MinorRadius`](#SemiEllipticalCrack.MinorRadius)                               | Gets or sets the MinorRadius.                                 |
+| [`ProjectToNearestSurface`](#SemiEllipticalCrack.ProjectToNearestSurface)       | Gets or sets the ProjectToNearestSurface.                     |
+| [`Properties`](#SemiEllipticalCrack.Properties)                                 | Gets the list of properties for this object.                  |
+| [`ReadOnly`](#SemiEllipticalCrack.ReadOnly)                                     | Gets or sets the ReadOnly.                                    |
+| [`SolutionContours`](#SemiEllipticalCrack.SolutionContours)                     | Gets or sets the SolutionContours.                            |
+| [`Suppressed`](#SemiEllipticalCrack.Suppressed)                                 | Gets or sets the Suppressed.                                  |
+| [`Target1Nodes`](#SemiEllipticalCrack.Target1Nodes)                             | Gets or sets the Target1Nodes.                                |
+| [`TopFaceNodes`](#SemiEllipticalCrack.TopFaceNodes)                             | Gets or sets the TopFaceNodes.                                |
+| [`VisibleProperties`](#SemiEllipticalCrack.VisibleProperties)                   | Gets the list of properties that are visible for this object. |
+| [`XScaleFactor`](#SemiEllipticalCrack.XScaleFactor)                             | Gets or sets the XScaleFactor.                                |
+| [`YScaleFactor`](#SemiEllipticalCrack.YScaleFactor)                             | Gets or sets the YScaleFactor.                                |
+| [`ZScaleFactor`](#SemiEllipticalCrack.ZScaleFactor)                             | Gets or sets the ZScaleFactor.                                |
 
 <a id="property-detail"></a>
 
 ## Property detail
+
+<a id="SemiEllipticalCrack.AlignWithFaceNormal"></a>
+
+### *property* SemiEllipticalCrack.AlignWithFaceNormal *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the AlignWithFaceNormal.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="SemiEllipticalCrack.BottomFaceNodes"></a>
+
+### *property* SemiEllipticalCrack.BottomFaceNodes *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the BottomFaceNodes.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="SemiEllipticalCrack.Children"></a>
+
+### *property* SemiEllipticalCrack.Children *: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets the list of children.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="SemiEllipticalCrack.CircumferentialDivisions"></a>
+
+### *property* SemiEllipticalCrack.CircumferentialDivisions *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the CircumferentialDivisions.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="SemiEllipticalCrack.Comments"></a>
+
+### *property* SemiEllipticalCrack.Comments *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Comment](Comment.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets the list of associated comments.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="SemiEllipticalCrack.Contact1Nodes"></a>
+
+### *property* SemiEllipticalCrack.Contact1Nodes *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the Contact1Nodes.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="SemiEllipticalCrack.ContactPairsNodes"></a>
+
+### *property* SemiEllipticalCrack.ContactPairsNodes *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the ContactPairsNodes.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="SemiEllipticalCrack.CoordinateSystem"></a>
+
+### *property* SemiEllipticalCrack.CoordinateSystem *: [Ansys.ACT.Automation.Mechanical.CoordinateSystem](CoordinateSystem.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.CoordinateSystem) | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the CoordinateSystem.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="SemiEllipticalCrack.CrackFacesNodes"></a>
+
+### *property* SemiEllipticalCrack.CrackFacesNodes *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the CrackFacesNodes.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="SemiEllipticalCrack.CrackFrontDivisions"></a>
+
+### *property* SemiEllipticalCrack.CrackFrontDivisions *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the CrackFrontDivisions.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="SemiEllipticalCrack.CrackFrontNodes"></a>
+
+### *property* SemiEllipticalCrack.CrackFrontNodes *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the CrackFrontNodes.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="SemiEllipticalCrack.CrackID"></a>
+
+### *property* SemiEllipticalCrack.CrackID *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets the CrackID.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="SemiEllipticalCrack.CrackMeshMethod"></a>
+
+### *property* SemiEllipticalCrack.CrackMeshMethod *: [Ansys.Mechanical.DataModel.Enums.CrackMeshMethod](../../../../../v242/Ansys/Mechanical/DataModel/Enums/CrackMeshMethod.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.CrackMeshMethod) | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the CrackMeshMethod.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="SemiEllipticalCrack.CrackShape"></a>
+
+### *property* SemiEllipticalCrack.CrackShape *: [Ansys.Mechanical.DataModel.Enums.CrackShapeType](../../../../../v242/Ansys/Mechanical/DataModel/Enums/CrackShapeType.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.CrackShapeType) | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets the CrackShape.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="SemiEllipticalCrack.CrackSourceType"></a>
+
+### *property* SemiEllipticalCrack.CrackSourceType *: [Ansys.Mechanical.DataModel.Enums.CrackSourceType](../../../../../v242/Ansys/Mechanical/DataModel/Enums/CrackSourceType.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.CrackSourceType) | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets the CrackSourceType.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="SemiEllipticalCrack.DataModelObjectCategory"></a>
+
+### *property* SemiEllipticalCrack.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../v242/Ansys/Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets the current DataModelObject’s category.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="SemiEllipticalCrack.Figures"></a>
+
+### *property* SemiEllipticalCrack.Figures *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Figure](Figure.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets the list of associated figures.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="SemiEllipticalCrack.FractureAffectedZone"></a>
+
+### *property* SemiEllipticalCrack.FractureAffectedZone *: [Ansys.Mechanical.DataModel.Enums.FractureAffectedZone](../../../../../v242/Ansys/Mechanical/DataModel/Enums/FractureAffectedZone.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.FractureAffectedZone) | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the FractureAffectedZone.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="SemiEllipticalCrack.FractureAffectedZoneHeight"></a>
+
+### *property* SemiEllipticalCrack.FractureAffectedZoneHeight *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the FractureAffectedZoneHeight.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="SemiEllipticalCrack.FrontElementSize"></a>
+
+### *property* SemiEllipticalCrack.FrontElementSize *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the FrontElementSize.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="SemiEllipticalCrack.GrowthRate"></a>
+
+### *property* SemiEllipticalCrack.GrowthRate *: System.Double | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the GrowthRate.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="SemiEllipticalCrack.Images"></a>
+
+### *property* SemiEllipticalCrack.Images *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Image](Image.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets the list of associated images.
+
+<!-- !! processed by numpydoc !! -->
 
 <a id="SemiEllipticalCrack.InternalObject"></a>
 
 ### *property* SemiEllipticalCrack.InternalObject *: Ansys.Common.Interop.DSObjectsAuto.IDSCrackAuto | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the internal object. For advanced usage only.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="SemiEllipticalCrack.LargestContourRadius"></a>
+
+### *property* SemiEllipticalCrack.LargestContourRadius *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the LargestContourRadius.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="SemiEllipticalCrack.Location"></a>
+
+### *property* SemiEllipticalCrack.Location *: Ansys.ACT.Interfaces.Common.ISelectionInfo | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the Location.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="SemiEllipticalCrack.MajorRadius"></a>
+
+### *property* SemiEllipticalCrack.MajorRadius *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the MajorRadius.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="SemiEllipticalCrack.MeshContours"></a>
+
+### *property* SemiEllipticalCrack.MeshContours *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the MeshContours.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="SemiEllipticalCrack.MinorRadius"></a>
+
+### *property* SemiEllipticalCrack.MinorRadius *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the MinorRadius.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="SemiEllipticalCrack.ProjectToNearestSurface"></a>
+
+### *property* SemiEllipticalCrack.ProjectToNearestSurface *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the ProjectToNearestSurface.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="SemiEllipticalCrack.Properties"></a>
+
+### *property* SemiEllipticalCrack.Properties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets the list of properties for this object.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="SemiEllipticalCrack.ReadOnly"></a>
+
+### *property* SemiEllipticalCrack.ReadOnly *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the ReadOnly.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="SemiEllipticalCrack.SolutionContours"></a>
+
+### *property* SemiEllipticalCrack.SolutionContours *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the SolutionContours.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="SemiEllipticalCrack.Suppressed"></a>
+
+### *property* SemiEllipticalCrack.Suppressed *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the Suppressed.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="SemiEllipticalCrack.Target1Nodes"></a>
+
+### *property* SemiEllipticalCrack.Target1Nodes *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the Target1Nodes.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="SemiEllipticalCrack.TopFaceNodes"></a>
+
+### *property* SemiEllipticalCrack.TopFaceNodes *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the TopFaceNodes.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="SemiEllipticalCrack.VisibleProperties"></a>
+
+### *property* SemiEllipticalCrack.VisibleProperties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets the list of properties that are visible for this object.
 
 <!-- !! processed by numpydoc !! -->
 
@@ -117,327 +395,23 @@ Gets or sets the ZScaleFactor.
 
 <!-- !! processed by numpydoc !! -->
 
-<a id="SemiEllipticalCrack.CircumferentialDivisions"></a>
-
-### *property* SemiEllipticalCrack.CircumferentialDivisions *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the CircumferentialDivisions.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="SemiEllipticalCrack.CrackFrontDivisions"></a>
-
-### *property* SemiEllipticalCrack.CrackFrontDivisions *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the CrackFrontDivisions.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="SemiEllipticalCrack.GrowthRate"></a>
-
-### *property* SemiEllipticalCrack.GrowthRate *: System.Double | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the GrowthRate.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="SemiEllipticalCrack.MeshContours"></a>
-
-### *property* SemiEllipticalCrack.MeshContours *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the MeshContours.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="SemiEllipticalCrack.SolutionContours"></a>
-
-### *property* SemiEllipticalCrack.SolutionContours *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the SolutionContours.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="SemiEllipticalCrack.Contact1Nodes"></a>
-
-### *property* SemiEllipticalCrack.Contact1Nodes *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the Contact1Nodes.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="SemiEllipticalCrack.CrackFrontNodes"></a>
-
-### *property* SemiEllipticalCrack.CrackFrontNodes *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the CrackFrontNodes.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="SemiEllipticalCrack.BottomFaceNodes"></a>
-
-### *property* SemiEllipticalCrack.BottomFaceNodes *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the BottomFaceNodes.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="SemiEllipticalCrack.TopFaceNodes"></a>
-
-### *property* SemiEllipticalCrack.TopFaceNodes *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the TopFaceNodes.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="SemiEllipticalCrack.Target1Nodes"></a>
-
-### *property* SemiEllipticalCrack.Target1Nodes *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the Target1Nodes.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="SemiEllipticalCrack.FractureAffectedZoneHeight"></a>
-
-### *property* SemiEllipticalCrack.FractureAffectedZoneHeight *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the FractureAffectedZoneHeight.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="SemiEllipticalCrack.FrontElementSize"></a>
-
-### *property* SemiEllipticalCrack.FrontElementSize *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the FrontElementSize.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="SemiEllipticalCrack.LargestContourRadius"></a>
-
-### *property* SemiEllipticalCrack.LargestContourRadius *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the LargestContourRadius.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="SemiEllipticalCrack.MajorRadius"></a>
-
-### *property* SemiEllipticalCrack.MajorRadius *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the MajorRadius.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="SemiEllipticalCrack.MinorRadius"></a>
-
-### *property* SemiEllipticalCrack.MinorRadius *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the MinorRadius.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="SemiEllipticalCrack.FractureAffectedZone"></a>
-
-### *property* SemiEllipticalCrack.FractureAffectedZone *: [Ansys.Mechanical.DataModel.Enums.FractureAffectedZone](../../../Mechanical/DataModel/Enums/FractureAffectedZone.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.FractureAffectedZone) | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the FractureAffectedZone.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="SemiEllipticalCrack.CrackMeshMethod"></a>
-
-### *property* SemiEllipticalCrack.CrackMeshMethod *: [Ansys.Mechanical.DataModel.Enums.CrackMeshMethod](../../../Mechanical/DataModel/Enums/CrackMeshMethod.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.CrackMeshMethod) | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the CrackMeshMethod.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="SemiEllipticalCrack.CrackShape"></a>
-
-### *property* SemiEllipticalCrack.CrackShape *: [Ansys.Mechanical.DataModel.Enums.CrackShapeType](../../../Mechanical/DataModel/Enums/CrackShapeType.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.CrackShapeType) | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets the CrackShape.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="SemiEllipticalCrack.CrackSourceType"></a>
-
-### *property* SemiEllipticalCrack.CrackSourceType *: [Ansys.Mechanical.DataModel.Enums.CrackSourceType](../../../Mechanical/DataModel/Enums/CrackSourceType.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.CrackSourceType) | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets the CrackSourceType.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="SemiEllipticalCrack.AlignWithFaceNormal"></a>
-
-### *property* SemiEllipticalCrack.AlignWithFaceNormal *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the AlignWithFaceNormal.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="SemiEllipticalCrack.ProjectToNearestSurface"></a>
-
-### *property* SemiEllipticalCrack.ProjectToNearestSurface *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the ProjectToNearestSurface.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="SemiEllipticalCrack.ContactPairsNodes"></a>
-
-### *property* SemiEllipticalCrack.ContactPairsNodes *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the ContactPairsNodes.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="SemiEllipticalCrack.CrackFacesNodes"></a>
-
-### *property* SemiEllipticalCrack.CrackFacesNodes *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the CrackFacesNodes.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="SemiEllipticalCrack.Suppressed"></a>
-
-### *property* SemiEllipticalCrack.Suppressed *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the Suppressed.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="SemiEllipticalCrack.CoordinateSystem"></a>
-
-### *property* SemiEllipticalCrack.CoordinateSystem *: [Ansys.ACT.Automation.Mechanical.CoordinateSystem](CoordinateSystem.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.CoordinateSystem) | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the CoordinateSystem.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="SemiEllipticalCrack.Location"></a>
-
-### *property* SemiEllipticalCrack.Location *: Ansys.ACT.Interfaces.Common.ISelectionInfo | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the Location.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="SemiEllipticalCrack.DataModelObjectCategory"></a>
-
-### *property* SemiEllipticalCrack.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets the current DataModelObject's category.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="SemiEllipticalCrack.CrackID"></a>
-
-### *property* SemiEllipticalCrack.CrackID *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets the CrackID.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="SemiEllipticalCrack.Children"></a>
-
-### *property* SemiEllipticalCrack.Children *: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets the list of children.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="SemiEllipticalCrack.Comments"></a>
-
-### *property* SemiEllipticalCrack.Comments *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Comment](Comment.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets the list of associated comments.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="SemiEllipticalCrack.Figures"></a>
-
-### *property* SemiEllipticalCrack.Figures *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Figure](Figure.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets the list of associated figures.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="SemiEllipticalCrack.Images"></a>
-
-### *property* SemiEllipticalCrack.Images *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Image](Image.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets the list of associated images.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="SemiEllipticalCrack.ReadOnly"></a>
-
-### *property* SemiEllipticalCrack.ReadOnly *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the ReadOnly.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="id0"></a>
-
-### *property* SemiEllipticalCrack.InternalObject *: System.Object | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets the internal object. For advanced usage only.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="SemiEllipticalCrack.Properties"></a>
-
-### *property* SemiEllipticalCrack.Properties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets the list of properties for this object.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="SemiEllipticalCrack.VisibleProperties"></a>
-
-### *property* SemiEllipticalCrack.VisibleProperties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets the list of properties that are visible for this object.
-
-<!-- !! processed by numpydoc !! -->
-
 <a id="method-detail"></a>
 
 ## Method detail
+
+<a id="SemiEllipticalCrack.Activate"></a>
+
+### SemiEllipticalCrack.Activate()
+
+Activate the current object.
+
+<!-- !! processed by numpydoc !! -->
 
 <a id="SemiEllipticalCrack.AddCommandSnippet"></a>
 
 ### SemiEllipticalCrack.AddCommandSnippet()
 
 Creates a new CommandSnippet
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="SemiEllipticalCrack.Delete"></a>
-
-### SemiEllipticalCrack.Delete()
-
-Run the Delete action.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="SemiEllipticalCrack.GetChildren"></a>
-
-### SemiEllipticalCrack.GetChildren(recurses: System.Boolean, children: System.Collections.Generic.IList[ChildrenType])
-
-Gets the list of children, filtered by type.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="id1"></a>
-
-### SemiEllipticalCrack.GetChildren(category: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory), recurses: System.Boolean, children: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject])
-
-Gets the list of children, filtered by type.
 
 <!-- !! processed by numpydoc !! -->
 
@@ -461,17 +435,11 @@ Creates a new child Figure.
 
 ### SemiEllipticalCrack.AddImage(filePath: System.String)
 
+```text
 Creates a new child Image.
 If a filePath is provided, the image will be loaded from that file,
 if not, the image will be a screen capture of the Geometry window.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="SemiEllipticalCrack.Activate"></a>
-
-### SemiEllipticalCrack.Activate()
-
-Activate the current object.
+```
 
 <!-- !! processed by numpydoc !! -->
 
@@ -483,11 +451,43 @@ Copies all visible properties from this object to another.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="SemiEllipticalCrack.CreateParameter"></a>
+
+### SemiEllipticalCrack.CreateParameter(propName: System.String)
+
+Creates a new parameter for a Property.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="SemiEllipticalCrack.Delete"></a>
+
+### SemiEllipticalCrack.Delete()
+
+Run the Delete action.
+
+<!-- !! processed by numpydoc !! -->
+
 <a id="SemiEllipticalCrack.Duplicate"></a>
 
 ### SemiEllipticalCrack.Duplicate()
 
 Creates a copy of the current DataModelObject.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="SemiEllipticalCrack.GetChildren"></a>
+
+### SemiEllipticalCrack.GetChildren(recurses: System.Boolean, children: System.Collections.Generic.IList[ChildrenType])
+
+Gets the list of children, filtered by type.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="SemiEllipticalCrack.GetParameter"></a>
+
+### SemiEllipticalCrack.GetParameter(propName: System.String)
+
+Gets the parameter corresponding to the given property.
 
 <!-- !! processed by numpydoc !! -->
 
@@ -507,36 +507,22 @@ Run the GroupSimilarObjects action.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="SemiEllipticalCrack.PropertyByAPIName"></a>
+
+### SemiEllipticalCrack.PropertyByAPIName(name: System.String)
+
+```text
+Get a property by its API name.
+If multiple properties have the same API Name, only the first property with that name will be returned.
+```
+
+<!-- !! processed by numpydoc !! -->
+
 <a id="SemiEllipticalCrack.PropertyByName"></a>
 
 ### SemiEllipticalCrack.PropertyByName(name: System.String)
 
 Get a property by its unique name.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="SemiEllipticalCrack.PropertyByAPIName"></a>
-
-### SemiEllipticalCrack.PropertyByAPIName(name: System.String)
-
-Get a property by its API name.
-If multiple properties have the same API Name, only the first property with that name will be returned.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="SemiEllipticalCrack.CreateParameter"></a>
-
-### SemiEllipticalCrack.CreateParameter(propName: System.String)
-
-Creates a new parameter for a Property.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="SemiEllipticalCrack.GetParameter"></a>
-
-### SemiEllipticalCrack.GetParameter(propName: System.String)
-
-Gets the parameter corresponding to the given property.
 
 <!-- !! processed by numpydoc !! -->
 

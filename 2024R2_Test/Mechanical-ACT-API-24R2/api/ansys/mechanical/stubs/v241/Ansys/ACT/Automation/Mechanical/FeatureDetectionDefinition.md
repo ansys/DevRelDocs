@@ -1,6 +1,6 @@
 # `FeatureDetectionDefinition`
 
-
+<a id="ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.FeatureDetectionDefinition"></a>
 
 #### *class* ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.FeatureDetectionDefinition
 
@@ -18,36 +18,36 @@ FeatureDetectionDefinition class.
 
 | Name | Description |
 |-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------|
-| [`AddFeatureDetection`](../../../../../v242/Ansys/ACT/Automation/Mechanical/FeatureDetectionDefinition.md#FeatureDetectionDefinition.AddFeatureDetection)                   | Add a FeatureDetection to the FeatureDetection Definition                       |
-| [`DeleteFeatureDetection`](../../../../../v242/Ansys/ACT/Automation/Mechanical/FeatureDetectionDefinition.md#FeatureDetectionDefinition.DeleteFeatureDetection)             | Delete a FeatureDetection from the Feature Detection Definition                 |
-| [`SetFeatureDetectionOptions`](../../../../../v242/Ansys/ACT/Automation/Mechanical/FeatureDetectionDefinition.md#FeatureDetectionDefinition.SetFeatureDetectionOptions)     | Set Feature Detection Solid / Sheet / Beta settings                             |
-| [`GetFeatureDetectionType`](../../../../../v242/Ansys/ACT/Automation/Mechanical/FeatureDetectionDefinition.md#FeatureDetectionDefinition.GetFeatureDetectionType)           | Gets the Feature Detection Type property at given index                         |
-| [`SetFeatureDetectionType`](../../../../../v242/Ansys/ACT/Automation/Mechanical/FeatureDetectionDefinition.md#FeatureDetectionDefinition.SetFeatureDetectionType)           | Sets the Feature Detection Type property at given index                         |
-| [`GetFeatureDetectionName`](../../../../../v242/Ansys/ACT/Automation/Mechanical/FeatureDetectionDefinition.md#FeatureDetectionDefinition.GetFeatureDetectionName)           | Gets the FeatureDetection Name property at given index                          |
-| [`SetFeatureDetectionName`](../../../../../v242/Ansys/ACT/Automation/Mechanical/FeatureDetectionDefinition.md#FeatureDetectionDefinition.SetFeatureDetectionName)           | Sets the FeatureDetection Name property at given index                          |
-| [`GetFeatureDetectionCriteria`](../../../../../v242/Ansys/ACT/Automation/Mechanical/FeatureDetectionDefinition.md#FeatureDetectionDefinition.GetFeatureDetectionCriteria)   | Gets the Feature Detection Criteria property at given index                     |
-| [`SetFeatureDetectionCriteria`](../../../../../v242/Ansys/ACT/Automation/Mechanical/FeatureDetectionDefinition.md#FeatureDetectionDefinition.SetFeatureDetectionCriteria)   | Sets the Feature Detection Criteria property at given index                     |
-| [`GetFeatureDetectionOperator`](../../../../../v242/Ansys/ACT/Automation/Mechanical/FeatureDetectionDefinition.md#FeatureDetectionDefinition.GetFeatureDetectionOperator)   | Gets the Feature Detection Operator property at given index                     |
-| [`SetFeatureDetectionOperator`](../../../../../v242/Ansys/ACT/Automation/Mechanical/FeatureDetectionDefinition.md#FeatureDetectionDefinition.SetFeatureDetectionOperator)   | Sets the Feature Detection Operator property at given index                     |
-| [`GetFeatureCriteriaValue`](../../../../../v242/Ansys/ACT/Automation/Mechanical/FeatureDetectionDefinition.md#FeatureDetectionDefinition.GetFeatureCriteriaValue)           | Gets the Value property at given FeatureDetection index and BaseCase index      |
-| [`SetFeatureCriteriaValue`](../../../../../v242/Ansys/ACT/Automation/Mechanical/FeatureDetectionDefinition.md#FeatureDetectionDefinition.SetFeatureCriteriaValue)           | Sets  the Value property at given FeatureDetection index and BaseCase index     |
-| [`GetFeatureCriteriaAngle`](../../../../../v242/Ansys/ACT/Automation/Mechanical/FeatureDetectionDefinition.md#FeatureDetectionDefinition.GetFeatureCriteriaAngle)           | Gets the Angle property at given FeatureDetection index and BaseCase index      |
-| [`SetFeatureCriteriaAngle`](../../../../../v242/Ansys/ACT/Automation/Mechanical/FeatureDetectionDefinition.md#FeatureDetectionDefinition.SetFeatureCriteriaAngle)           | Sets  the Angle property at given FeatureDetection index and BaseCase index     |
-| [`GetFeatureCriteriaMinBound`](../../../../../v242/Ansys/ACT/Automation/Mechanical/FeatureDetectionDefinition.md#FeatureDetectionDefinition.GetFeatureCriteriaMinBound)     | Gets the Min Bound property at given FeatureDetection index and BaseCase index  |
-| [`SetFeatureCriteriaMinBound`](../../../../../v242/Ansys/ACT/Automation/Mechanical/FeatureDetectionDefinition.md#FeatureDetectionDefinition.SetFeatureCriteriaMinBound)     | Sets  the Min Bound property at given FeatureDetection index and BaseCase index |
-| [`GetFeatureCriteriaMaxBound`](../../../../../v242/Ansys/ACT/Automation/Mechanical/FeatureDetectionDefinition.md#FeatureDetectionDefinition.GetFeatureCriteriaMaxBound)     | Gets the Max-Bound property at given FeatureDetection index and BaseCase index  |
-| [`SetFeatureCriteriaMaxBound`](../../../../../v242/Ansys/ACT/Automation/Mechanical/FeatureDetectionDefinition.md#FeatureDetectionDefinition.SetFeatureCriteriaMaxBound)     | Sets  the Max Bound property at given FeatureDetection index and BaseCase index |
-| [`GetFeatureDetectionTreatment`](../../../../../v242/Ansys/ACT/Automation/Mechanical/FeatureDetectionDefinition.md#FeatureDetectionDefinition.GetFeatureDetectionTreatment) | Gets the Feature Detection Criteria property at given index                     |
-| [`SetFeatureDetectionTreatment`](../../../../../v242/Ansys/ACT/Automation/Mechanical/FeatureDetectionDefinition.md#FeatureDetectionDefinition.SetFeatureDetectionTreatment) | Sets the Feature Detection Criteria property at given index                     |
-| [`ExecuteDetectFeatures`](../../../../../v242/Ansys/ACT/Automation/Mechanical/FeatureDetectionDefinition.md#FeatureDetectionDefinition.ExecuteDetectFeatures)               | ExecuteDetectFeatures method.                                                   |
-| [`Import`](../../../../../v242/Ansys/ACT/Automation/Mechanical/FeatureDetectionDefinition.md#FeatureDetectionDefinition.Import)                                             | Import Feature Detection Definition data from Comma Separated Value (CSV) files |
-| [`Export`](../../../../../v242/Ansys/ACT/Automation/Mechanical/FeatureDetectionDefinition.md#FeatureDetectionDefinition.Export)                                             | Export Feature Detection Definition data to Comma Separated Value (CSV) files   |
+| [`AddFeatureDetection`](#FeatureDetectionDefinition.AddFeatureDetection)                   | Add a FeatureDetection to the FeatureDetection Definition                       |
+| [`DeleteFeatureDetection`](#FeatureDetectionDefinition.DeleteFeatureDetection)             | Delete a FeatureDetection from the Feature Detection Definition                 |
+| [`ExecuteDetectFeatures`](#FeatureDetectionDefinition.ExecuteDetectFeatures)               | ExecuteDetectFeatures method.                                                   |
+| [`Export`](#FeatureDetectionDefinition.Export)                                             | Export Feature Detection Definition data to Comma Separated Value (CSV) files   |
+| [`GetFeatureCriteriaAngle`](#FeatureDetectionDefinition.GetFeatureCriteriaAngle)           | Gets the Angle property at given FeatureDetection index and BaseCase index      |
+| [`GetFeatureCriteriaMaxBound`](#FeatureDetectionDefinition.GetFeatureCriteriaMaxBound)     | Gets the Max-Bound property at given FeatureDetection index and BaseCase index  |
+| [`GetFeatureCriteriaMinBound`](#FeatureDetectionDefinition.GetFeatureCriteriaMinBound)     | Gets the Min Bound property at given FeatureDetection index and BaseCase index  |
+| [`GetFeatureCriteriaValue`](#FeatureDetectionDefinition.GetFeatureCriteriaValue)           | Gets the Value property at given FeatureDetection index and BaseCase index      |
+| [`GetFeatureDetectionCriteria`](#FeatureDetectionDefinition.GetFeatureDetectionCriteria)   | Gets the Feature Detection Criteria property at given index                     |
+| [`GetFeatureDetectionName`](#FeatureDetectionDefinition.GetFeatureDetectionName)           | Gets the FeatureDetection Name property at given index                          |
+| [`GetFeatureDetectionOperator`](#FeatureDetectionDefinition.GetFeatureDetectionOperator)   | Gets the Feature Detection Operator property at given index                     |
+| [`GetFeatureDetectionTreatment`](#FeatureDetectionDefinition.GetFeatureDetectionTreatment) | Gets the Feature Detection Criteria property at given index                     |
+| [`GetFeatureDetectionType`](#FeatureDetectionDefinition.GetFeatureDetectionType)           | Gets the Feature Detection Type property at given index                         |
+| [`Import`](#FeatureDetectionDefinition.Import)                                             | Import Feature Detection Definition data from Comma Separated Value (CSV) files |
+| [`SetFeatureCriteriaAngle`](#FeatureDetectionDefinition.SetFeatureCriteriaAngle)           | Sets  the Angle property at given FeatureDetection index and BaseCase index     |
+| [`SetFeatureCriteriaMaxBound`](#FeatureDetectionDefinition.SetFeatureCriteriaMaxBound)     | Sets  the Max Bound property at given FeatureDetection index and BaseCase index |
+| [`SetFeatureCriteriaMinBound`](#FeatureDetectionDefinition.SetFeatureCriteriaMinBound)     | Sets  the Min Bound property at given FeatureDetection index and BaseCase index |
+| [`SetFeatureCriteriaValue`](#FeatureDetectionDefinition.SetFeatureCriteriaValue)           | Sets  the Value property at given FeatureDetection index and BaseCase index     |
+| [`SetFeatureDetectionCriteria`](#FeatureDetectionDefinition.SetFeatureDetectionCriteria)   | Sets the Feature Detection Criteria property at given index                     |
+| [`SetFeatureDetectionName`](#FeatureDetectionDefinition.SetFeatureDetectionName)           | Sets the FeatureDetection Name property at given index                          |
+| [`SetFeatureDetectionOperator`](#FeatureDetectionDefinition.SetFeatureDetectionOperator)   | Sets the Feature Detection Operator property at given index                     |
+| [`SetFeatureDetectionOptions`](#FeatureDetectionDefinition.SetFeatureDetectionOptions)     | Set Feature Detection Solid / Sheet / Beta settings                             |
+| [`SetFeatureDetectionTreatment`](#FeatureDetectionDefinition.SetFeatureDetectionTreatment) | Sets the Feature Detection Criteria property at given index                     |
+| [`SetFeatureDetectionType`](#FeatureDetectionDefinition.SetFeatureDetectionType)           | Sets the Feature Detection Type property at given index                         |
 
 ### Properties
 
 | Name | Description |
 |-----------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------|
-| [`FeatureDetectionCount`](../../../../../v242/Ansys/ACT/Automation/Mechanical/FeatureDetectionDefinition.md#FeatureDetectionDefinition.FeatureDetectionCount)   | Gets the number of Feature Detections   |
+| [`FeatureDetectionCount`](#FeatureDetectionDefinition.FeatureDetectionCount)   | Gets the number of Feature Detections   |
 
 <a id="property-detail"></a>
 
@@ -81,91 +81,19 @@ Delete a FeatureDetection from the Feature Detection Definition
 
 <!-- !! processed by numpydoc !! -->
 
-<a id="FeatureDetectionDefinition.SetFeatureDetectionOptions"></a>
+<a id="FeatureDetectionDefinition.ExecuteDetectFeatures"></a>
 
-### FeatureDetectionDefinition.SetFeatureDetectionOptions(isSolid: System.Boolean, isSheet: System.Boolean, isBeta: System.Boolean)
+### FeatureDetectionDefinition.ExecuteDetectFeatures()
 
-Set Feature Detection Solid / Sheet / Beta settings
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="FeatureDetectionDefinition.GetFeatureDetectionType"></a>
-
-### FeatureDetectionDefinition.GetFeatureDetectionType(index: System.UInt32)
-
-Gets the Feature Detection Type property at given index
+ExecuteDetectFeatures method.
 
 <!-- !! processed by numpydoc !! -->
 
-<a id="FeatureDetectionDefinition.SetFeatureDetectionType"></a>
+<a id="FeatureDetectionDefinition.Export"></a>
 
-### FeatureDetectionDefinition.SetFeatureDetectionType(index: System.UInt32, value: Ansys.Mechanical.DataModel.Enums.FeatureDetectionType)
+### FeatureDetectionDefinition.Export(filepath: System.String)
 
-Sets the Feature Detection Type property at given index
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="FeatureDetectionDefinition.GetFeatureDetectionName"></a>
-
-### FeatureDetectionDefinition.GetFeatureDetectionName(index: System.UInt32)
-
-Gets the FeatureDetection Name property at given index
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="FeatureDetectionDefinition.SetFeatureDetectionName"></a>
-
-### FeatureDetectionDefinition.SetFeatureDetectionName(index: System.UInt32, name: System.String)
-
-Sets the FeatureDetection Name property at given index
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="FeatureDetectionDefinition.GetFeatureDetectionCriteria"></a>
-
-### FeatureDetectionDefinition.GetFeatureDetectionCriteria(index: System.UInt32)
-
-Gets the Feature Detection Criteria property at given index
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="FeatureDetectionDefinition.SetFeatureDetectionCriteria"></a>
-
-### FeatureDetectionDefinition.SetFeatureDetectionCriteria(index: System.UInt32, value: Ansys.Mechanical.DataModel.Enums.FeatureDetectionCriteria)
-
-Sets the Feature Detection Criteria property at given index
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="FeatureDetectionDefinition.GetFeatureDetectionOperator"></a>
-
-### FeatureDetectionDefinition.GetFeatureDetectionOperator(index: System.UInt32)
-
-Gets the Feature Detection Operator property at given index
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="FeatureDetectionDefinition.SetFeatureDetectionOperator"></a>
-
-### FeatureDetectionDefinition.SetFeatureDetectionOperator(index: System.UInt32, value: Ansys.Mechanical.DataModel.Enums.FeatureDetectionOperator)
-
-Sets the Feature Detection Operator property at given index
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="FeatureDetectionDefinition.GetFeatureCriteriaValue"></a>
-
-### FeatureDetectionDefinition.GetFeatureCriteriaValue(index: System.UInt32)
-
-Gets the Value property at given FeatureDetection index and BaseCase index
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="FeatureDetectionDefinition.SetFeatureCriteriaValue"></a>
-
-### FeatureDetectionDefinition.SetFeatureCriteriaValue(index: System.UInt32, value: System.Double)
-
-Sets  the Value property at given FeatureDetection index and BaseCase index
+Export Feature Detection Definition data to Comma Separated Value (CSV) files
 
 <!-- !! processed by numpydoc !! -->
 
@@ -177,11 +105,11 @@ Gets the Angle property at given FeatureDetection index and BaseCase index
 
 <!-- !! processed by numpydoc !! -->
 
-<a id="FeatureDetectionDefinition.SetFeatureCriteriaAngle"></a>
+<a id="FeatureDetectionDefinition.GetFeatureCriteriaMaxBound"></a>
 
-### FeatureDetectionDefinition.SetFeatureCriteriaAngle(index: System.UInt32, value: System.Double)
+### FeatureDetectionDefinition.GetFeatureCriteriaMaxBound(index: System.UInt32)
 
-Sets  the Angle property at given FeatureDetection index and BaseCase index
+Gets the Max-Bound property at given FeatureDetection index and BaseCase index
 
 <!-- !! processed by numpydoc !! -->
 
@@ -193,27 +121,35 @@ Gets the Min Bound property at given FeatureDetection index and BaseCase index
 
 <!-- !! processed by numpydoc !! -->
 
-<a id="FeatureDetectionDefinition.SetFeatureCriteriaMinBound"></a>
+<a id="FeatureDetectionDefinition.GetFeatureCriteriaValue"></a>
 
-### FeatureDetectionDefinition.SetFeatureCriteriaMinBound(index: System.UInt32, value: System.Double)
+### FeatureDetectionDefinition.GetFeatureCriteriaValue(index: System.UInt32)
 
-Sets  the Min Bound property at given FeatureDetection index and BaseCase index
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="FeatureDetectionDefinition.GetFeatureCriteriaMaxBound"></a>
-
-### FeatureDetectionDefinition.GetFeatureCriteriaMaxBound(index: System.UInt32)
-
-Gets the Max-Bound property at given FeatureDetection index and BaseCase index
+Gets the Value property at given FeatureDetection index and BaseCase index
 
 <!-- !! processed by numpydoc !! -->
 
-<a id="FeatureDetectionDefinition.SetFeatureCriteriaMaxBound"></a>
+<a id="FeatureDetectionDefinition.GetFeatureDetectionCriteria"></a>
 
-### FeatureDetectionDefinition.SetFeatureCriteriaMaxBound(index: System.UInt32, value: System.Double)
+### FeatureDetectionDefinition.GetFeatureDetectionCriteria(index: System.UInt32)
 
-Sets  the Max Bound property at given FeatureDetection index and BaseCase index
+Gets the Feature Detection Criteria property at given index
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="FeatureDetectionDefinition.GetFeatureDetectionName"></a>
+
+### FeatureDetectionDefinition.GetFeatureDetectionName(index: System.UInt32)
+
+Gets the FeatureDetection Name property at given index
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="FeatureDetectionDefinition.GetFeatureDetectionOperator"></a>
+
+### FeatureDetectionDefinition.GetFeatureDetectionOperator(index: System.UInt32)
+
+Gets the Feature Detection Operator property at given index
 
 <!-- !! processed by numpydoc !! -->
 
@@ -225,19 +161,11 @@ Gets the Feature Detection Criteria property at given index
 
 <!-- !! processed by numpydoc !! -->
 
-<a id="FeatureDetectionDefinition.SetFeatureDetectionTreatment"></a>
+<a id="FeatureDetectionDefinition.GetFeatureDetectionType"></a>
 
-### FeatureDetectionDefinition.SetFeatureDetectionTreatment(index: System.UInt32, value: Ansys.Mechanical.DataModel.Enums.FeatureDetectionTreatment)
+### FeatureDetectionDefinition.GetFeatureDetectionType(index: System.UInt32)
 
-Sets the Feature Detection Criteria property at given index
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="FeatureDetectionDefinition.ExecuteDetectFeatures"></a>
-
-### FeatureDetectionDefinition.ExecuteDetectFeatures()
-
-ExecuteDetectFeatures method.
+Gets the Feature Detection Type property at given index
 
 <!-- !! processed by numpydoc !! -->
 
@@ -249,11 +177,88 @@ Import Feature Detection Definition data from Comma Separated Value (CSV) files
 
 <!-- !! processed by numpydoc !! -->
 
-<a id="FeatureDetectionDefinition.Export"></a>
+<a id="FeatureDetectionDefinition.SetFeatureCriteriaAngle"></a>
 
-### FeatureDetectionDefinition.Export(filepath: System.String)
+### FeatureDetectionDefinition.SetFeatureCriteriaAngle(index: System.UInt32, value: System.Double)
 
-Export Feature Detection Definition data to Comma Separated Value (CSV) files
+Sets  the Angle property at given FeatureDetection index and BaseCase index
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="FeatureDetectionDefinition.SetFeatureCriteriaMaxBound"></a>
+
+### FeatureDetectionDefinition.SetFeatureCriteriaMaxBound(index: System.UInt32, value: System.Double)
+
+Sets  the Max Bound property at given FeatureDetection index and BaseCase index
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="FeatureDetectionDefinition.SetFeatureCriteriaMinBound"></a>
+
+### FeatureDetectionDefinition.SetFeatureCriteriaMinBound(index: System.UInt32, value: System.Double)
+
+Sets  the Min Bound property at given FeatureDetection index and BaseCase index
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="FeatureDetectionDefinition.SetFeatureCriteriaValue"></a>
+
+### FeatureDetectionDefinition.SetFeatureCriteriaValue(index: System.UInt32, value: System.Double)
+
+Sets  the Value property at given FeatureDetection index and BaseCase index
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="FeatureDetectionDefinition.SetFeatureDetectionCriteria"></a>
+
+### FeatureDetectionDefinition.SetFeatureDetectionCriteria(index: System.UInt32, value: Ansys.Mechanical.DataModel.Enums.FeatureDetectionCriteria)
+
+Sets the Feature Detection Criteria property at given index
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="FeatureDetectionDefinition.SetFeatureDetectionName"></a>
+
+### FeatureDetectionDefinition.SetFeatureDetectionName(index: System.UInt32, name: System.String)
+
+Sets the FeatureDetection Name property at given index
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="FeatureDetectionDefinition.SetFeatureDetectionOperator"></a>
+
+### FeatureDetectionDefinition.SetFeatureDetectionOperator(index: System.UInt32, value: Ansys.Mechanical.DataModel.Enums.FeatureDetectionOperator)
+
+Sets the Feature Detection Operator property at given index
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="FeatureDetectionDefinition.SetFeatureDetectionOptions"></a>
+
+### FeatureDetectionDefinition.SetFeatureDetectionOptions(isSolid: System.Boolean, isSheet: System.Boolean, isBeta: System.Boolean)
+
+```text
+Set Feature Detection Solid / Sheet / Beta settings
+isSolid>
+isSheet>
+isBeta>
+```
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="FeatureDetectionDefinition.SetFeatureDetectionTreatment"></a>
+
+### FeatureDetectionDefinition.SetFeatureDetectionTreatment(index: System.UInt32, value: Ansys.Mechanical.DataModel.Enums.FeatureDetectionTreatment)
+
+Sets the Feature Detection Criteria property at given index
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="FeatureDetectionDefinition.SetFeatureDetectionType"></a>
+
+### FeatureDetectionDefinition.SetFeatureDetectionType(index: System.UInt32, value: Ansys.Mechanical.DataModel.Enums.FeatureDetectionType)
+
+Sets the Feature Detection Type property at given index
 
 <!-- !! processed by numpydoc !! -->
 

@@ -1,6 +1,6 @@
 # `AbaqusKeywordArgumentColl`
 
-
+<a id="ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.FE.ABAQUS.AbaqusKeywordArgumentColl"></a>
 
 #### *class* ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.FE.ABAQUS.AbaqusKeywordArgumentColl
 
@@ -18,7 +18,7 @@ Collection of keyword arguments.
 
 | Name | Description |
 |-----------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------|
-| [`Items`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/FE/ABAQUS/AbaqusKeywordArgumentColl.md#AbaqusKeywordArgumentColl.Items)   | Gets the list of arguments.   |
+| [`Items`](#AbaqusKeywordArgumentColl.Items)   | Gets the list of arguments.   |
 
 <a id="property-detail"></a>
 

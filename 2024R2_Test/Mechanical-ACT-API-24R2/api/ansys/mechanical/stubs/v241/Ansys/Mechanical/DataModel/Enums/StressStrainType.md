@@ -1,6 +1,6 @@
 # `StressStrainType`
 
-
+<a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.StressStrainType"></a>
 
 #### *class* ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.StressStrainType
 
@@ -17,17 +17,17 @@ Specifies the StressStrainType.
 ### Attributes
 
 | Name |
-| ---------------------------------------------------------------------------------------------------------------------------------- |
-| [`Equivalent`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/StressStrainType.md#StressStrainType.Equivalent) |
-| [`Intensity`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/StressStrainType.md#StressStrainType.Intensity) |
-| [`MaximumPrincipal`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/StressStrainType.md#StressStrainType.MaximumPrincipal) |
-| [`MaximumShear`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/StressStrainType.md#StressStrainType.MaximumShear) |
-| [`MiddlePrincipal`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/StressStrainType.md#StressStrainType.MiddlePrincipal) |
-| [`MinimumPrincipal`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/StressStrainType.md#StressStrainType.MinimumPrincipal) |
-| [`Normal`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/StressStrainType.md#StressStrainType.Normal) |
-| [`Shear`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/StressStrainType.md#StressStrainType.Shear) |
-| [`None_`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/StressStrainType.md#StressStrainType.None_) |
-| [`Thermal`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/StressStrainType.md#StressStrainType.Thermal) |
+| ---------------------------------------------------------- |
+| [`Equivalent`](#StressStrainType.Equivalent) |
+| [`Intensity`](#StressStrainType.Intensity) |
+| [`MaximumPrincipal`](#StressStrainType.MaximumPrincipal) |
+| [`MaximumShear`](#StressStrainType.MaximumShear) |
+| [`MiddlePrincipal`](#StressStrainType.MiddlePrincipal) |
+| [`MinimumPrincipal`](#StressStrainType.MinimumPrincipal) |
+| [`None_`](#StressStrainType.None_) |
+| [`Normal`](#StressStrainType.Normal) |
+| [`Shear`](#StressStrainType.Shear) |
+| [`Thermal`](#StressStrainType.Thermal) |
 
 <a id="attribute-detail"></a>
 
@@ -57,6 +57,10 @@ Specifies the StressStrainType.
 
 ### StressStrainType.MinimumPrincipal *= 3*
 
+<a id="StressStrainType.None_"></a>
+
+### StressStrainType.None_ *= 9*
+
 <a id="StressStrainType.Normal"></a>
 
 ### StressStrainType.Normal *= 6*
@@ -64,10 +68,6 @@ Specifies the StressStrainType.
 <a id="StressStrainType.Shear"></a>
 
 ### StressStrainType.Shear *= 7*
-
-<a id="StressStrainType.None_"></a>
-
-### StressStrainType.None_ *= 9*
 
 <a id="StressStrainType.Thermal"></a>
 

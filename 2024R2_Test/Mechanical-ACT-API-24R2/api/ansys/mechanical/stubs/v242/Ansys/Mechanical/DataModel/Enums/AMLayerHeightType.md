@@ -1,6 +1,6 @@
 # `AMLayerHeightType`
 
-
+<a id="ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.AMLayerHeightType"></a>
 
 #### *class* ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.AMLayerHeightType
 
@@ -17,20 +17,20 @@ Specifies the AMLayerHeightType.
 ### Attributes
 
 | Name |
-| --------------------------------------------------------------- |
-| [`ProgramControlled`](#AMLayerHeightType.ProgramControlled) |
+| -------------------------------------------------------------------------------------------------------------------------------------- |
 | [`Manual`](#AMLayerHeightType.Manual) |
+| [`ProgramControlled`](#AMLayerHeightType.ProgramControlled) |
 
 <a id="attribute-detail"></a>
 
 ## Attribute detail
 
-<a id="AMLayerHeightType.ProgramControlled"></a>
-
-### AMLayerHeightType.ProgramControlled *= 0*
-
 <a id="AMLayerHeightType.Manual"></a>
 
 ### AMLayerHeightType.Manual *= 1*
+
+<a id="AMLayerHeightType.ProgramControlled"></a>
+
+### AMLayerHeightType.ProgramControlled *= 0*
 
 

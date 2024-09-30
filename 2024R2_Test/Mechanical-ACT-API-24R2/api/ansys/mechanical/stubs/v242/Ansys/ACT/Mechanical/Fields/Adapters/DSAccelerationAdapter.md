@@ -1,6 +1,6 @@
 # `DSAccelerationAdapter`
 
-
+<a id="ansys.mechanical.stubs.v242.Ansys.ACT.Mechanical.Fields.Adapters.DSAccelerationAdapter"></a>
 
 #### *class* ansys.mechanical.stubs.v242.Ansys.ACT.Mechanical.Fields.Adapters.DSAccelerationAdapter
 
@@ -17,13 +17,13 @@ Adapter dedicated to IDSAccelerationAuto objects.
 ### Methods
 
 | Name | Description |
-|-----------------------------------------------------------------------------------|-------------------------------------|
+|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------|
 | [`ChangeFieldDefinitionType`](#DSAccelerationAdapter.ChangeFieldDefinitionType)   | ChangeFieldDefinitionType method.   |
 
 ### Properties
 
 | Name | Description |
-|-----------------------------------------------------------|--------------------------------------------|
+|-----------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------|
 | [`FieldProvider`](#DSAccelerationAdapter.FieldProvider)   | Gets the wrapped object from Mechanical.   |
 
 <a id="property-detail"></a>

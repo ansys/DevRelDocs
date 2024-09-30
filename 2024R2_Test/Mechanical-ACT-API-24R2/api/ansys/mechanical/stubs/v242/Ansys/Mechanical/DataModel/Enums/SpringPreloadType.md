@@ -1,6 +1,6 @@
 # `SpringPreloadType`
 
-
+<a id="ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.SpringPreloadType"></a>
 
 #### *class* ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.SpringPreloadType
 
@@ -17,7 +17,7 @@ Specifies the SpringPreloadType.
 ### Attributes
 
 | Name |
-| ------------------------------------------- |
+| -------------------------------------------------------------------------------------------------------------------- |
 | [`Length`](#SpringPreloadType.Length) |
 | [`Load`](#SpringPreloadType.Load) |
 | [`None_`](#SpringPreloadType.None_) |

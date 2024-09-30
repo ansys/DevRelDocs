@@ -1,6 +1,6 @@
 # `EXDCharZoneDimensionType`
 
-
+<a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.EXDCharZoneDimensionType"></a>
 
 #### *class* ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.EXDCharZoneDimensionType
 
@@ -15,10 +15,10 @@ Bases: [`enum.Enum`](https://docs.python.org/3/library/enum.html#enum.Enum)
 ### Attributes
 
 | Name |
-| -------------------------------------------------------------------------------------------------------------------------------------- |
-| [`Diagonals`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/EXDCharZoneDimensionType.md#EXDCharZoneDimensionType.Diagonals) |
-| [`OppFace`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/EXDCharZoneDimensionType.md#EXDCharZoneDimensionType.OppFace) |
-| [`NearFace`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/EXDCharZoneDimensionType.md#EXDCharZoneDimensionType.NearFace) |
+| ------------------------------------------------------ |
+| [`Diagonals`](#EXDCharZoneDimensionType.Diagonals) |
+| [`NearFace`](#EXDCharZoneDimensionType.NearFace) |
+| [`OppFace`](#EXDCharZoneDimensionType.OppFace) |
 
 <a id="attribute-detail"></a>
 
@@ -28,12 +28,12 @@ Bases: [`enum.Enum`](https://docs.python.org/3/library/enum.html#enum.Enum)
 
 ### EXDCharZoneDimensionType.Diagonals *= 0*
 
-<a id="EXDCharZoneDimensionType.OppFace"></a>
-
-### EXDCharZoneDimensionType.OppFace *= 1*
-
 <a id="EXDCharZoneDimensionType.NearFace"></a>
 
 ### EXDCharZoneDimensionType.NearFace *= 2*
+
+<a id="EXDCharZoneDimensionType.OppFace"></a>
+
+### EXDCharZoneDimensionType.OppFace *= 1*
 
 

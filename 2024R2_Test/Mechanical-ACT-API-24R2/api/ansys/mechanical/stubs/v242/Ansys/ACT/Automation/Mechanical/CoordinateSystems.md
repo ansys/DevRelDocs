@@ -1,6 +1,6 @@
 # `CoordinateSystems`
 
-
+<a id="ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.CoordinateSystems"></a>
 
 #### *class* ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.CoordinateSystems
 
@@ -17,58 +17,40 @@ Defines a CoordinateSystems.
 ### Methods
 
 | Name | Description |
-|-----------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------|
-| [`AddCoordinateSystemAtCenterOfMass`](#CoordinateSystems.AddCoordinateSystemAtCenterOfMass)   | AddCoordinateSystemAtCenterOfMass method.                                         |
-| [`AddCoordinateSystem`](#CoordinateSystems.AddCoordinateSystem)                               | Creates a new CoordinateSystem                                                    |
-| [`GetChildren`](#id1)                                                                         | Gets the list of children, filtered by type.                                      |
-| [`GetChildren`](#id1)                                                                         | Gets the list of children, filtered by type.                                      |
-| [`AddComment`](#CoordinateSystems.AddComment)                                                 | Creates a new child Comment.                                                      |
-| [`AddFigure`](#CoordinateSystems.AddFigure)                                                   | Creates a new child Figure.                                                       |
-| [`AddImage`](#CoordinateSystems.AddImage)                                                     | Creates a new child Image.                                                        |
-| [`Activate`](#CoordinateSystems.Activate)                                                     | Activate the current object.                                                      |
-| [`CopyTo`](#CoordinateSystems.CopyTo)                                                         | Copies all visible properties from this object to another.                        |
-| [`Duplicate`](#CoordinateSystems.Duplicate)                                                   | Creates a copy of the current DataModelObject.                                    |
-| [`GroupAllSimilarChildren`](#CoordinateSystems.GroupAllSimilarChildren)                       | Run the GroupAllSimilarChildren action.                                           |
-| [`GroupSimilarObjects`](#CoordinateSystems.GroupSimilarObjects)                               | Run the GroupSimilarObjects action.                                               |
-| [`PropertyByName`](#CoordinateSystems.PropertyByName)                                         | Get a property by its unique name.                                                |
-| [`PropertyByAPIName`](#CoordinateSystems.PropertyByAPIName)                                   | Get a property by its API name.                                                   |
-| [`CreateParameter`](#CoordinateSystems.CreateParameter)                                       | Creates a new parameter for a Property.                                           |
-| [`GetParameter`](#CoordinateSystems.GetParameter)                                             | Gets the parameter corresponding to the given property.                           |
-| [`RemoveParameter`](#CoordinateSystems.RemoveParameter)                                       | Removes the parameter from the parameter set corresponding to the given property. |
+|---------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------|
+| [`Activate`](#CoordinateSystems.Activate)                                                   | Activate the current object.                                                      |
+| [`AddComment`](#CoordinateSystems.AddComment)                                               | Creates a new child Comment.                                                      |
+| [`AddCoordinateSystem`](#CoordinateSystems.AddCoordinateSystem)                             | Creates a new CoordinateSystem                                                    |
+| [`AddCoordinateSystemAtCenterOfMass`](#CoordinateSystems.AddCoordinateSystemAtCenterOfMass) | AddCoordinateSystemAtCenterOfMass method.                                         |
+| [`AddFigure`](#CoordinateSystems.AddFigure)                                                 | Creates a new child Figure.                                                       |
+| [`AddImage`](#CoordinateSystems.AddImage)                                                   | Creates a new child Image.                                                        |
+| [`CopyTo`](#CoordinateSystems.CopyTo)                                                       | Copies all visible properties from this object to another.                        |
+| [`CreateParameter`](#CoordinateSystems.CreateParameter)                                     | Creates a new parameter for a Property.                                           |
+| [`Duplicate`](#CoordinateSystems.Duplicate)                                                 | Creates a copy of the current DataModelObject.                                    |
+| [`GetChildren`](#CoordinateSystems.GetChildren)                                             | Gets the list of children, filtered by type.                                      |
+| [`GetParameter`](#CoordinateSystems.GetParameter)                                           | Gets the parameter corresponding to the given property.                           |
+| [`GroupAllSimilarChildren`](#CoordinateSystems.GroupAllSimilarChildren)                     | Run the GroupAllSimilarChildren action.                                           |
+| [`GroupSimilarObjects`](#CoordinateSystems.GroupSimilarObjects)                             | Run the GroupSimilarObjects action.                                               |
+| [`PropertyByAPIName`](#CoordinateSystems.PropertyByAPIName)                                 | Get a property by its API name.                                                   |
+| [`PropertyByName`](#CoordinateSystems.PropertyByName)                                       | Get a property by its unique name.                                                |
+| [`RemoveParameter`](#CoordinateSystems.RemoveParameter)                                     | Removes the parameter from the parameter set corresponding to the given property. |
 
 ### Properties
 
 | Name | Description |
 |-------------------------------------------------------------------------|---------------------------------------------------------------|
-| [`InternalObject`](#id0)                                                | Gets the internal object. For advanced usage only.            |
-| [`DataModelObjectCategory`](#CoordinateSystems.DataModelObjectCategory) | Gets the current DataModelObject's category.                  |
 | [`Children`](#CoordinateSystems.Children)                               | Gets the list of children.                                    |
 | [`Comments`](#CoordinateSystems.Comments)                               | Gets the list of associated comments.                         |
+| [`DataModelObjectCategory`](#CoordinateSystems.DataModelObjectCategory) | Gets the current DataModelObject’s category.                  |
 | [`Figures`](#CoordinateSystems.Figures)                                 | Gets the list of associated figures.                          |
 | [`Images`](#CoordinateSystems.Images)                                   | Gets the list of associated images.                           |
-| [`InternalObject`](#id0)                                                | Gets the internal object. For advanced usage only.            |
+| [`InternalObject`](#CoordinateSystems.InternalObject)                   | Gets the internal object. For advanced usage only.            |
 | [`Properties`](#CoordinateSystems.Properties)                           | Gets the list of properties for this object.                  |
 | [`VisibleProperties`](#CoordinateSystems.VisibleProperties)             | Gets the list of properties that are visible for this object. |
 
 <a id="property-detail"></a>
 
 ## Property detail
-
-<a id="CoordinateSystems.InternalObject"></a>
-
-### *property* CoordinateSystems.InternalObject *: Ansys.Common.Interop.DSObjectsAuto.IDSCoordinateSystemGroupAuto | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets the internal object. For advanced usage only.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="CoordinateSystems.DataModelObjectCategory"></a>
-
-### *property* CoordinateSystems.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../v241/Ansys/Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets the current DataModelObject's category.
-
-<!-- !! processed by numpydoc !! -->
 
 <a id="CoordinateSystems.Children"></a>
 
@@ -83,6 +65,14 @@ Gets the list of children.
 ### *property* CoordinateSystems.Comments *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Comment](../../../../../v241/Ansys/ACT/Automation/Mechanical/Comment.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated comments.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="CoordinateSystems.DataModelObjectCategory"></a>
+
+### *property* CoordinateSystems.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets the current DataModelObject’s category.
 
 <!-- !! processed by numpydoc !! -->
 
@@ -102,9 +92,9 @@ Gets the list of associated images.
 
 <!-- !! processed by numpydoc !! -->
 
-<a id="id0"></a>
+<a id="CoordinateSystems.InternalObject"></a>
 
-### *property* CoordinateSystems.InternalObject *: System.Object | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* CoordinateSystems.InternalObject *: Ansys.Common.Interop.DSObjectsAuto.IDSCoordinateSystemGroupAuto | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the internal object. For advanced usage only.
 
@@ -130,11 +120,19 @@ Gets the list of properties that are visible for this object.
 
 ## Method detail
 
-<a id="CoordinateSystems.AddCoordinateSystemAtCenterOfMass"></a>
+<a id="CoordinateSystems.Activate"></a>
 
-### CoordinateSystems.AddCoordinateSystemAtCenterOfMass(geoBodies: System.Collections.Generic.IList[Ansys.ACT.Interfaces.Geometry.IBaseGeoBody], pointMasses: System.Collections.Generic.IList[[Ansys.ACT.Automation.Mechanical.PointMass](../../../../../v241/Ansys/ACT/Automation/Mechanical/PointMass.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.PointMass)], distributedMasses: System.Collections.Generic.IList[[Ansys.ACT.Automation.Mechanical.DistributedMass](../../../../../v241/Ansys/ACT/Automation/Mechanical/DistributedMass.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.DistributedMass)])
+### CoordinateSystems.Activate()
 
-AddCoordinateSystemAtCenterOfMass method.
+Activate the current object.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="CoordinateSystems.AddComment"></a>
+
+### CoordinateSystems.AddComment()
+
+Creates a new child Comment.
 
 <!-- !! processed by numpydoc !! -->
 
@@ -146,27 +144,11 @@ Creates a new CoordinateSystem
 
 <!-- !! processed by numpydoc !! -->
 
-<a id="CoordinateSystems.GetChildren"></a>
+<a id="CoordinateSystems.AddCoordinateSystemAtCenterOfMass"></a>
 
-### CoordinateSystems.GetChildren(recurses: System.Boolean, children: System.Collections.Generic.IList[ChildrenType])
+### CoordinateSystems.AddCoordinateSystemAtCenterOfMass(geoBodies: System.Collections.Generic.IList[Ansys.ACT.Interfaces.Geometry.IBaseGeoBody], pointMasses: System.Collections.Generic.IList[[Ansys.ACT.Automation.Mechanical.PointMass](PointMass.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.PointMass)], distributedMasses: System.Collections.Generic.IList[[Ansys.ACT.Automation.Mechanical.DistributedMass](../../../../../v241/Ansys/ACT/Automation/Mechanical/DistributedMass.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.DistributedMass)])
 
-Gets the list of children, filtered by type.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="id1"></a>
-
-### CoordinateSystems.GetChildren(category: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../v241/Ansys/Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory), recurses: System.Boolean, children: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject])
-
-Gets the list of children, filtered by type.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="CoordinateSystems.AddComment"></a>
-
-### CoordinateSystems.AddComment()
-
-Creates a new child Comment.
+AddCoordinateSystemAtCenterOfMass method.
 
 <!-- !! processed by numpydoc !! -->
 
@@ -182,17 +164,11 @@ Creates a new child Figure.
 
 ### CoordinateSystems.AddImage(filePath: System.String)
 
+```text
 Creates a new child Image.
 If a filePath is provided, the image will be loaded from that file,
 if not, the image will be a screen capture of the Geometry window.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="CoordinateSystems.Activate"></a>
-
-### CoordinateSystems.Activate()
-
-Activate the current object.
+```
 
 <!-- !! processed by numpydoc !! -->
 
@@ -204,11 +180,35 @@ Copies all visible properties from this object to another.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="CoordinateSystems.CreateParameter"></a>
+
+### CoordinateSystems.CreateParameter(propName: System.String)
+
+Creates a new parameter for a Property.
+
+<!-- !! processed by numpydoc !! -->
+
 <a id="CoordinateSystems.Duplicate"></a>
 
 ### CoordinateSystems.Duplicate()
 
 Creates a copy of the current DataModelObject.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="CoordinateSystems.GetChildren"></a>
+
+### CoordinateSystems.GetChildren(recurses: System.Boolean, children: System.Collections.Generic.IList[ChildrenType])
+
+Gets the list of children, filtered by type.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="CoordinateSystems.GetParameter"></a>
+
+### CoordinateSystems.GetParameter(propName: System.String)
+
+Gets the parameter corresponding to the given property.
 
 <!-- !! processed by numpydoc !! -->
 
@@ -228,36 +228,22 @@ Run the GroupSimilarObjects action.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="CoordinateSystems.PropertyByAPIName"></a>
+
+### CoordinateSystems.PropertyByAPIName(name: System.String)
+
+```text
+Get a property by its API name.
+If multiple properties have the same API Name, only the first property with that name will be returned.
+```
+
+<!-- !! processed by numpydoc !! -->
+
 <a id="CoordinateSystems.PropertyByName"></a>
 
 ### CoordinateSystems.PropertyByName(name: System.String)
 
 Get a property by its unique name.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="CoordinateSystems.PropertyByAPIName"></a>
-
-### CoordinateSystems.PropertyByAPIName(name: System.String)
-
-Get a property by its API name.
-If multiple properties have the same API Name, only the first property with that name will be returned.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="CoordinateSystems.CreateParameter"></a>
-
-### CoordinateSystems.CreateParameter(propName: System.String)
-
-Creates a new parameter for a Property.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="CoordinateSystems.GetParameter"></a>
-
-### CoordinateSystems.GetParameter(propName: System.String)
-
-Gets the parameter corresponding to the given property.
 
 <!-- !! processed by numpydoc !! -->
 

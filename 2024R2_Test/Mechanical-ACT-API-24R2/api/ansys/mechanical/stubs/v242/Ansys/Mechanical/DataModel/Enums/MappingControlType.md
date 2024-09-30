@@ -1,6 +1,6 @@
 # `MappingControlType`
 
-
+<a id="ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.MappingControlType"></a>
 
 #### *class* ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.MappingControlType
 
@@ -15,25 +15,25 @@ Bases: [`enum.Enum`](https://docs.python.org/3/library/enum.html#enum.Enum)
 ### Attributes
 
 | Name |
-| -------------------------------------------------------------- |
-| [`Undefined`](#MappingControlType.Undefined) |
-| [`ProgramControlled`](#MappingControlType.ProgramControlled) |
+| ---------------------------------------------------------------------------------------------------------------------------------------- |
 | [`Manual`](#MappingControlType.Manual) |
+| [`ProgramControlled`](#MappingControlType.ProgramControlled) |
+| [`Undefined`](#MappingControlType.Undefined) |
 
 <a id="attribute-detail"></a>
 
 ## Attribute detail
 
-<a id="MappingControlType.Undefined"></a>
+<a id="MappingControlType.Manual"></a>
 
-### MappingControlType.Undefined *= 0*
+### MappingControlType.Manual *= 2*
 
 <a id="MappingControlType.ProgramControlled"></a>
 
 ### MappingControlType.ProgramControlled *= 1*
 
-<a id="MappingControlType.Manual"></a>
+<a id="MappingControlType.Undefined"></a>
 
-### MappingControlType.Manual *= 2*
+### MappingControlType.Undefined *= 0*
 
 

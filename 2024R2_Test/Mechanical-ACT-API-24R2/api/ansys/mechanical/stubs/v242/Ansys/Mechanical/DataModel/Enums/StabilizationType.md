@@ -1,6 +1,6 @@
 # `StabilizationType`
 
-
+<a id="ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.StabilizationType"></a>
 
 #### *class* ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.StabilizationType
 
@@ -17,7 +17,7 @@ Specifies the StabilizationType.
 ### Attributes
 
 | Name |
-| ------------------------------------------------------------- |
+| -------------------------------------------------------------------------------------------------------------------------------------- |
 | [`Constant`](#StabilizationType.Constant) |
 | [`Off`](#StabilizationType.Off) |
 | [`ProgramControlled`](#StabilizationType.ProgramControlled) |

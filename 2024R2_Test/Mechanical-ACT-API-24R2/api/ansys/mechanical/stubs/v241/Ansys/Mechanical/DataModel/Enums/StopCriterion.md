@@ -1,6 +1,6 @@
 # `StopCriterion`
 
-
+<a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.StopCriterion"></a>
 
 #### *class* ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.StopCriterion
 
@@ -17,12 +17,12 @@ Specifies the StopCriterion.
 ### Attributes
 
 | Name |
-| -------------------------------------------------------------------------------------------------------------------------------------------- |
-| [`FreeBoundary`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/StopCriterion.md#StopCriterion.FreeBoundary) |
-| [`MaxCrackExtension`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/StopCriterion.md#StopCriterion.MaxCrackExtension) |
-| [`MaxStressIntensityFactor`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/StopCriterion.md#StopCriterion.MaxStressIntensityFactor) |
-| [`MaxTotalNumberOfCycles`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/StopCriterion.md#StopCriterion.MaxTotalNumberOfCycles) |
-| [`None_`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/StopCriterion.md#StopCriterion.None_) |
+| ----------------------------------------------------------------------- |
+| [`FreeBoundary`](#StopCriterion.FreeBoundary) |
+| [`MaxCrackExtension`](#StopCriterion.MaxCrackExtension) |
+| [`MaxStressIntensityFactor`](#StopCriterion.MaxStressIntensityFactor) |
+| [`MaxTotalNumberOfCycles`](#StopCriterion.MaxTotalNumberOfCycles) |
+| [`None_`](#StopCriterion.None_) |
 
 <a id="attribute-detail"></a>
 

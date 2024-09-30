@@ -1,6 +1,6 @@
 # `MAPDLSurfaceCoatingData`
 
-
+<a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.SolverData.MAPDLSurfaceCoatingData"></a>
 
 #### *class* ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.SolverData.MAPDLSurfaceCoatingData
 
@@ -17,8 +17,8 @@ MAPDLSurfaceCoatingData class.
 ### Properties
 
 | Name | Description |
-|-------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------|
-| [`MaterialId`](../../../../../v242/Ansys/Mechanical/DataModel/SolverData/MAPDLSurfaceCoatingData.md#MAPDLSurfaceCoatingData.MaterialId)   | Gets the Material Id number for the surface coating.   |
+|-------------------------------------------------------|--------------------------------------------------------|
+| [`MaterialId`](#MAPDLSurfaceCoatingData.MaterialId)   | Gets the Material Id number for the surface coating.   |
 
 <a id="property-detail"></a>
 

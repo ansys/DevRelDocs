@@ -1,6 +1,6 @@
 # `VectorReductionType`
 
-
+<a id="ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.VectorReductionType"></a>
 
 #### *class* ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.VectorReductionType
 
@@ -17,7 +17,7 @@ Specifies the VectorReductionType.
 ### Attributes
 
 | Name |
-| ----------------------------------------------------- |
+| -------------------------------------------------------------------------------------------------------------------------------- |
 | [`Directional`](#VectorReductionType.Directional) |
 | [`FaceNormal`](#VectorReductionType.FaceNormal) |
 | [`Magnitude`](#VectorReductionType.Magnitude) |

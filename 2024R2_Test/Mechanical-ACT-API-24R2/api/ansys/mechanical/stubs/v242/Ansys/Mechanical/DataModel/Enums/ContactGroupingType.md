@@ -1,6 +1,6 @@
 # `ContactGroupingType`
 
-
+<a id="ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.ContactGroupingType"></a>
 
 #### *class* ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.ContactGroupingType
 
@@ -17,11 +17,11 @@ Specifies the ContactGroupingType.
 ### Attributes
 
 | Name |
-| ------------------------------------------- |
+| ---------------------------------------------------------------------------------------------------------------------- |
 | [`Bodies`](#ContactGroupingType.Bodies) |
 | [`Faces`](#ContactGroupingType.Faces) |
-| [`Parts`](#ContactGroupingType.Parts) |
 | [`None_`](#ContactGroupingType.None_) |
+| [`Parts`](#ContactGroupingType.Parts) |
 
 <a id="attribute-detail"></a>
 
@@ -35,12 +35,12 @@ Specifies the ContactGroupingType.
 
 ### ContactGroupingType.Faces *= 3*
 
-<a id="ContactGroupingType.Parts"></a>
-
-### ContactGroupingType.Parts *= 2*
-
 <a id="ContactGroupingType.None_"></a>
 
 ### ContactGroupingType.None_ *= 0*
+
+<a id="ContactGroupingType.Parts"></a>
+
+### ContactGroupingType.Parts *= 2*
 
 

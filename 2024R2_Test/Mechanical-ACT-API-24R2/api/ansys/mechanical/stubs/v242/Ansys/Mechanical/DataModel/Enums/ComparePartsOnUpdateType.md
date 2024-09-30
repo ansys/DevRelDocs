@@ -1,6 +1,6 @@
 # `ComparePartsOnUpdateType`
 
-
+<a id="ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.ComparePartsOnUpdateType"></a>
 
 #### *class* ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.ComparePartsOnUpdateType
 
@@ -17,22 +17,22 @@ Specifies the ComparePartsOnUpdateType.
 ### Attributes
 
 | Name |
-| ------------------------------------------------------------------ |
-| [`No`](#ComparePartsOnUpdateType.No) |
+| -------------------------------------------------------------------------------------------------------------------------------------------------- |
 | [`Associatively`](#ComparePartsOnUpdateType.Associatively) |
+| [`No`](#ComparePartsOnUpdateType.No) |
 | [`NonAssociatively`](#ComparePartsOnUpdateType.NonAssociatively) |
 
 <a id="attribute-detail"></a>
 
 ## Attribute detail
 
-<a id="ComparePartsOnUpdateType.No"></a>
-
-### ComparePartsOnUpdateType.No *= 0*
-
 <a id="ComparePartsOnUpdateType.Associatively"></a>
 
 ### ComparePartsOnUpdateType.Associatively *= 1*
+
+<a id="ComparePartsOnUpdateType.No"></a>
+
+### ComparePartsOnUpdateType.No *= 0*
 
 <a id="ComparePartsOnUpdateType.NonAssociatively"></a>
 

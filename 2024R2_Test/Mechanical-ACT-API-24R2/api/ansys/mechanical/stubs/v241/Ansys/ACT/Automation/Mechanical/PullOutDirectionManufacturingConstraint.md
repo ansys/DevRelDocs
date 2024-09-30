@@ -1,6 +1,6 @@
 # `PullOutDirectionManufacturingConstraint`
 
-
+<a id="ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.PullOutDirectionManufacturingConstraint"></a>
 
 #### *class* ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.PullOutDirectionManufacturingConstraint
 
@@ -17,122 +17,48 @@ Defines a PullOutDirectionManufacturingConstraint.
 ### Methods
 
 | Name | Description |
-|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------|
-| [`RenameBasedOnDefinition`](../../../../../v242/Ansys/ACT/Automation/Mechanical/PullOutDirectionManufacturingConstraint.md#PullOutDirectionManufacturingConstraint.RenameBasedOnDefinition)   | Run the RenameBasedOnDefinition action.                                           |
-| [`Delete`](../../../../../v242/Ansys/ACT/Automation/Mechanical/PullOutDirectionManufacturingConstraint.md#PullOutDirectionManufacturingConstraint.Delete)                                     | Run the Delete action.                                                            |
-| [`GetChildren`](../../../../../v242/Ansys/ACT/Automation/Mechanical/PullOutDirectionManufacturingConstraint.md#id1)                                                                           | Gets the list of children, filtered by type.                                      |
-| [`GetChildren`](../../../../../v242/Ansys/ACT/Automation/Mechanical/PullOutDirectionManufacturingConstraint.md#id1)                                                                           | Gets the list of children, filtered by type.                                      |
-| [`Activate`](../../../../../v242/Ansys/ACT/Automation/Mechanical/PullOutDirectionManufacturingConstraint.md#PullOutDirectionManufacturingConstraint.Activate)                                 | Activate the current object.                                                      |
-| [`CopyTo`](../../../../../v242/Ansys/ACT/Automation/Mechanical/PullOutDirectionManufacturingConstraint.md#PullOutDirectionManufacturingConstraint.CopyTo)                                     | Copies all visible properties from this object to another.                        |
-| [`Duplicate`](../../../../../v242/Ansys/ACT/Automation/Mechanical/PullOutDirectionManufacturingConstraint.md#PullOutDirectionManufacturingConstraint.Duplicate)                               | Creates a copy of the current DataModelObject.                                    |
-| [`GroupAllSimilarChildren`](../../../../../v242/Ansys/ACT/Automation/Mechanical/PullOutDirectionManufacturingConstraint.md#PullOutDirectionManufacturingConstraint.GroupAllSimilarChildren)   | Run the GroupAllSimilarChildren action.                                           |
-| [`GroupSimilarObjects`](../../../../../v242/Ansys/ACT/Automation/Mechanical/PullOutDirectionManufacturingConstraint.md#PullOutDirectionManufacturingConstraint.GroupSimilarObjects)           | Run the GroupSimilarObjects action.                                               |
-| [`PropertyByName`](../../../../../v242/Ansys/ACT/Automation/Mechanical/PullOutDirectionManufacturingConstraint.md#PullOutDirectionManufacturingConstraint.PropertyByName)                     | Get a property by its unique name.                                                |
-| [`PropertyByAPIName`](../../../../../v242/Ansys/ACT/Automation/Mechanical/PullOutDirectionManufacturingConstraint.md#PullOutDirectionManufacturingConstraint.PropertyByAPIName)               | Get a property by its API name.                                                   |
-| [`CreateParameter`](../../../../../v242/Ansys/ACT/Automation/Mechanical/PullOutDirectionManufacturingConstraint.md#PullOutDirectionManufacturingConstraint.CreateParameter)                   | Creates a new parameter for a Property.                                           |
-| [`GetParameter`](../../../../../v242/Ansys/ACT/Automation/Mechanical/PullOutDirectionManufacturingConstraint.md#PullOutDirectionManufacturingConstraint.GetParameter)                         | Gets the parameter corresponding to the given property.                           |
-| [`RemoveParameter`](../../../../../v242/Ansys/ACT/Automation/Mechanical/PullOutDirectionManufacturingConstraint.md#PullOutDirectionManufacturingConstraint.RemoveParameter)                   | Removes the parameter from the parameter set corresponding to the given property. |
+|-----------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------|
+| [`Activate`](#PullOutDirectionManufacturingConstraint.Activate)                               | Activate the current object.                                                      |
+| [`CopyTo`](#PullOutDirectionManufacturingConstraint.CopyTo)                                   | Copies all visible properties from this object to another.                        |
+| [`CreateParameter`](#PullOutDirectionManufacturingConstraint.CreateParameter)                 | Creates a new parameter for a Property.                                           |
+| [`Delete`](#PullOutDirectionManufacturingConstraint.Delete)                                   | Run the Delete action.                                                            |
+| [`Duplicate`](#PullOutDirectionManufacturingConstraint.Duplicate)                             | Creates a copy of the current DataModelObject.                                    |
+| [`GetChildren`](#PullOutDirectionManufacturingConstraint.GetChildren)                         | Gets the list of children, filtered by type.                                      |
+| [`GetParameter`](#PullOutDirectionManufacturingConstraint.GetParameter)                       | Gets the parameter corresponding to the given property.                           |
+| [`GroupAllSimilarChildren`](#PullOutDirectionManufacturingConstraint.GroupAllSimilarChildren) | Run the GroupAllSimilarChildren action.                                           |
+| [`GroupSimilarObjects`](#PullOutDirectionManufacturingConstraint.GroupSimilarObjects)         | Run the GroupSimilarObjects action.                                               |
+| [`PropertyByAPIName`](#PullOutDirectionManufacturingConstraint.PropertyByAPIName)             | Get a property by its API name.                                                   |
+| [`PropertyByName`](#PullOutDirectionManufacturingConstraint.PropertyByName)                   | Get a property by its unique name.                                                |
+| [`RemoveParameter`](#PullOutDirectionManufacturingConstraint.RemoveParameter)                 | Removes the parameter from the parameter set corresponding to the given property. |
+| [`RenameBasedOnDefinition`](#PullOutDirectionManufacturingConstraint.RenameBasedOnDefinition) | Run the RenameBasedOnDefinition action.                                           |
 
 ### Properties
 
 | Name | Description |
-|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------|
-| [`InternalObject`](../../../../../v242/Ansys/ACT/Automation/Mechanical/PullOutDirectionManufacturingConstraint.md#id0)                                                                      | Gets the internal object. For advanced usage only.            |
-| [`Axis`](../../../../../v242/Ansys/ACT/Automation/Mechanical/PullOutDirectionManufacturingConstraint.md#PullOutDirectionManufacturingConstraint.Axis)                                       | Gets or sets the Axis.                                        |
-| [`ScopingMethod`](../../../../../v242/Ansys/ACT/Automation/Mechanical/PullOutDirectionManufacturingConstraint.md#PullOutDirectionManufacturingConstraint.ScopingMethod)                     | Gets or sets the ScopingMethod.                               |
-| [`Subtype`](../../../../../v242/Ansys/ACT/Automation/Mechanical/PullOutDirectionManufacturingConstraint.md#PullOutDirectionManufacturingConstraint.Subtype)                                 | Gets or sets the Subtype.                                     |
-| [`Direction`](../../../../../v242/Ansys/ACT/Automation/Mechanical/PullOutDirectionManufacturingConstraint.md#PullOutDirectionManufacturingConstraint.Direction)                             | Gets or sets the Direction.                                   |
-| [`CoordinateSystem`](../../../../../v242/Ansys/ACT/Automation/Mechanical/PullOutDirectionManufacturingConstraint.md#PullOutDirectionManufacturingConstraint.CoordinateSystem)               | Gets or sets the CoordinateSystem.                            |
-| [`Location`](../../../../../v242/Ansys/ACT/Automation/Mechanical/PullOutDirectionManufacturingConstraint.md#PullOutDirectionManufacturingConstraint.Location)                               | Gets or sets the Location.                                    |
-| [`DataModelObjectCategory`](../../../../../v242/Ansys/ACT/Automation/Mechanical/PullOutDirectionManufacturingConstraint.md#PullOutDirectionManufacturingConstraint.DataModelObjectCategory) | Gets the current DataModelObject's category.                  |
-| [`Suppressed`](../../../../../v242/Ansys/ACT/Automation/Mechanical/PullOutDirectionManufacturingConstraint.md#PullOutDirectionManufacturingConstraint.Suppressed)                           | Gets or sets the Suppressed.                                  |
-| [`Selection`](../../../../../v242/Ansys/ACT/Automation/Mechanical/PullOutDirectionManufacturingConstraint.md#PullOutDirectionManufacturingConstraint.Selection)                             | Gets or sets the Selection.                                   |
-| [`Children`](../../../../../v242/Ansys/ACT/Automation/Mechanical/PullOutDirectionManufacturingConstraint.md#PullOutDirectionManufacturingConstraint.Children)                               | Gets the list of children.                                    |
-| [`InternalObject`](../../../../../v242/Ansys/ACT/Automation/Mechanical/PullOutDirectionManufacturingConstraint.md#id0)                                                                      | Gets the internal object. For advanced usage only.            |
-| [`Properties`](../../../../../v242/Ansys/ACT/Automation/Mechanical/PullOutDirectionManufacturingConstraint.md#PullOutDirectionManufacturingConstraint.Properties)                           | Gets the list of properties for this object.                  |
-| [`VisibleProperties`](../../../../../v242/Ansys/ACT/Automation/Mechanical/PullOutDirectionManufacturingConstraint.md#PullOutDirectionManufacturingConstraint.VisibleProperties)             | Gets the list of properties that are visible for this object. |
+|-----------------------------------------------------------------------------------------------|---------------------------------------------------------------|
+| [`Axis`](#PullOutDirectionManufacturingConstraint.Axis)                                       | Gets or sets the Axis.                                        |
+| [`Children`](#PullOutDirectionManufacturingConstraint.Children)                               | Gets the list of children.                                    |
+| [`CoordinateSystem`](#PullOutDirectionManufacturingConstraint.CoordinateSystem)               | Gets or sets the CoordinateSystem.                            |
+| [`DataModelObjectCategory`](#PullOutDirectionManufacturingConstraint.DataModelObjectCategory) | Gets the current DataModelObject’s category.                  |
+| [`Direction`](#PullOutDirectionManufacturingConstraint.Direction)                             | Gets or sets the Direction.                                   |
+| [`InternalObject`](#PullOutDirectionManufacturingConstraint.InternalObject)                   | Gets the internal object. For advanced usage only.            |
+| [`Location`](#PullOutDirectionManufacturingConstraint.Location)                               | Gets or sets the Location.                                    |
+| [`Properties`](#PullOutDirectionManufacturingConstraint.Properties)                           | Gets the list of properties for this object.                  |
+| [`ScopingMethod`](#PullOutDirectionManufacturingConstraint.ScopingMethod)                     | Gets or sets the ScopingMethod.                               |
+| [`Selection`](#PullOutDirectionManufacturingConstraint.Selection)                             | Gets or sets the Selection.                                   |
+| [`Subtype`](#PullOutDirectionManufacturingConstraint.Subtype)                                 | Gets or sets the Subtype.                                     |
+| [`Suppressed`](#PullOutDirectionManufacturingConstraint.Suppressed)                           | Gets or sets the Suppressed.                                  |
+| [`VisibleProperties`](#PullOutDirectionManufacturingConstraint.VisibleProperties)             | Gets the list of properties that are visible for this object. |
 
 <a id="property-detail"></a>
 
 ## Property detail
 
-<a id="PullOutDirectionManufacturingConstraint.InternalObject"></a>
-
-### *property* PullOutDirectionManufacturingConstraint.InternalObject *: Ansys.Common.Interop.DSObjectsAuto.IDSTopoConstraintAuto | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets the internal object. For advanced usage only.
-
-<!-- !! processed by numpydoc !! -->
-
 <a id="PullOutDirectionManufacturingConstraint.Axis"></a>
 
-### *property* PullOutDirectionManufacturingConstraint.Axis *: [Ansys.Mechanical.DataModel.Enums.CoordinateSystemAxisType](../../../Mechanical/DataModel/Enums/CoordinateSystemAxisType.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.CoordinateSystemAxisType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* PullOutDirectionManufacturingConstraint.Axis *: [Ansys.Mechanical.DataModel.Enums.CoordinateSystemAxisType](../../../../../v242/Ansys/Mechanical/DataModel/Enums/CoordinateSystemAxisType.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.CoordinateSystemAxisType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Axis.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="PullOutDirectionManufacturingConstraint.ScopingMethod"></a>
-
-### *property* PullOutDirectionManufacturingConstraint.ScopingMethod *: [Ansys.Mechanical.DataModel.Enums.GeometryDefineByType](../../../Mechanical/DataModel/Enums/GeometryDefineByType.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.GeometryDefineByType) | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the ScopingMethod.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="PullOutDirectionManufacturingConstraint.Subtype"></a>
-
-### *property* PullOutDirectionManufacturingConstraint.Subtype *: [Ansys.Mechanical.DataModel.Enums.PullOutConstraintSubtype](../../../Mechanical/DataModel/Enums/PullOutConstraintSubtype.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.PullOutConstraintSubtype) | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the Subtype.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="PullOutDirectionManufacturingConstraint.Direction"></a>
-
-### *property* PullOutDirectionManufacturingConstraint.Direction *: [Ansys.Mechanical.DataModel.Enums.PullOutDirectionType](../../../Mechanical/DataModel/Enums/PullOutDirectionType.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.PullOutDirectionType) | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the Direction.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="PullOutDirectionManufacturingConstraint.CoordinateSystem"></a>
-
-### *property* PullOutDirectionManufacturingConstraint.CoordinateSystem *: [Ansys.ACT.Automation.Mechanical.CoordinateSystem](CoordinateSystem.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.CoordinateSystem) | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the CoordinateSystem.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="PullOutDirectionManufacturingConstraint.Location"></a>
-
-### *property* PullOutDirectionManufacturingConstraint.Location *: Ansys.ACT.Interfaces.Common.ISelectionInfo | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the Location.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="PullOutDirectionManufacturingConstraint.DataModelObjectCategory"></a>
-
-### *property* PullOutDirectionManufacturingConstraint.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets the current DataModelObject's category.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="PullOutDirectionManufacturingConstraint.Suppressed"></a>
-
-### *property* PullOutDirectionManufacturingConstraint.Suppressed *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the Suppressed.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="PullOutDirectionManufacturingConstraint.Selection"></a>
-
-### *property* PullOutDirectionManufacturingConstraint.Selection *: [Ansys.ACT.Automation.Mechanical.OptimizationRegion](OptimizationRegion.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.OptimizationRegion) | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the Selection.
 
 <!-- !! processed by numpydoc !! -->
 
@@ -144,11 +70,43 @@ Gets the list of children.
 
 <!-- !! processed by numpydoc !! -->
 
-<a id="id0"></a>
+<a id="PullOutDirectionManufacturingConstraint.CoordinateSystem"></a>
 
-### *property* PullOutDirectionManufacturingConstraint.InternalObject *: System.Object | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* PullOutDirectionManufacturingConstraint.CoordinateSystem *: [Ansys.ACT.Automation.Mechanical.CoordinateSystem](CoordinateSystem.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.CoordinateSystem) | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the CoordinateSystem.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="PullOutDirectionManufacturingConstraint.DataModelObjectCategory"></a>
+
+### *property* PullOutDirectionManufacturingConstraint.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../v242/Ansys/Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets the current DataModelObject’s category.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="PullOutDirectionManufacturingConstraint.Direction"></a>
+
+### *property* PullOutDirectionManufacturingConstraint.Direction *: [Ansys.Mechanical.DataModel.Enums.PullOutDirectionType](../../../../../v242/Ansys/Mechanical/DataModel/Enums/PullOutDirectionType.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.PullOutDirectionType) | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the Direction.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="PullOutDirectionManufacturingConstraint.InternalObject"></a>
+
+### *property* PullOutDirectionManufacturingConstraint.InternalObject *: Ansys.Common.Interop.DSObjectsAuto.IDSTopoConstraintAuto | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the internal object. For advanced usage only.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="PullOutDirectionManufacturingConstraint.Location"></a>
+
+### *property* PullOutDirectionManufacturingConstraint.Location *: Ansys.ACT.Interfaces.Common.ISelectionInfo | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the Location.
 
 <!-- !! processed by numpydoc !! -->
 
@@ -157,6 +115,38 @@ Gets the internal object. For advanced usage only.
 ### *property* PullOutDirectionManufacturingConstraint.Properties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of properties for this object.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="PullOutDirectionManufacturingConstraint.ScopingMethod"></a>
+
+### *property* PullOutDirectionManufacturingConstraint.ScopingMethod *: [Ansys.Mechanical.DataModel.Enums.GeometryDefineByType](../../../../../v242/Ansys/Mechanical/DataModel/Enums/GeometryDefineByType.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.GeometryDefineByType) | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the ScopingMethod.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="PullOutDirectionManufacturingConstraint.Selection"></a>
+
+### *property* PullOutDirectionManufacturingConstraint.Selection *: [Ansys.ACT.Automation.Mechanical.OptimizationRegion](../../../../../v242/Ansys/ACT/Automation/Mechanical/OptimizationRegion.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.OptimizationRegion) | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the Selection.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="PullOutDirectionManufacturingConstraint.Subtype"></a>
+
+### *property* PullOutDirectionManufacturingConstraint.Subtype *: [Ansys.Mechanical.DataModel.Enums.PullOutConstraintSubtype](../../../../../v242/Ansys/Mechanical/DataModel/Enums/PullOutConstraintSubtype.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.PullOutConstraintSubtype) | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the Subtype.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="PullOutDirectionManufacturingConstraint.Suppressed"></a>
+
+### *property* PullOutDirectionManufacturingConstraint.Suppressed *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the Suppressed.
 
 <!-- !! processed by numpydoc !! -->
 
@@ -171,38 +161,6 @@ Gets the list of properties that are visible for this object.
 <a id="method-detail"></a>
 
 ## Method detail
-
-<a id="PullOutDirectionManufacturingConstraint.RenameBasedOnDefinition"></a>
-
-### PullOutDirectionManufacturingConstraint.RenameBasedOnDefinition()
-
-Run the RenameBasedOnDefinition action.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="PullOutDirectionManufacturingConstraint.Delete"></a>
-
-### PullOutDirectionManufacturingConstraint.Delete()
-
-Run the Delete action.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="PullOutDirectionManufacturingConstraint.GetChildren"></a>
-
-### PullOutDirectionManufacturingConstraint.GetChildren(recurses: System.Boolean, children: System.Collections.Generic.IList[ChildrenType])
-
-Gets the list of children, filtered by type.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="id1"></a>
-
-### PullOutDirectionManufacturingConstraint.GetChildren(category: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory), recurses: System.Boolean, children: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject])
-
-Gets the list of children, filtered by type.
-
-<!-- !! processed by numpydoc !! -->
 
 <a id="PullOutDirectionManufacturingConstraint.Activate"></a>
 
@@ -220,11 +178,43 @@ Copies all visible properties from this object to another.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="PullOutDirectionManufacturingConstraint.CreateParameter"></a>
+
+### PullOutDirectionManufacturingConstraint.CreateParameter(propName: System.String)
+
+Creates a new parameter for a Property.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="PullOutDirectionManufacturingConstraint.Delete"></a>
+
+### PullOutDirectionManufacturingConstraint.Delete()
+
+Run the Delete action.
+
+<!-- !! processed by numpydoc !! -->
+
 <a id="PullOutDirectionManufacturingConstraint.Duplicate"></a>
 
 ### PullOutDirectionManufacturingConstraint.Duplicate()
 
 Creates a copy of the current DataModelObject.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="PullOutDirectionManufacturingConstraint.GetChildren"></a>
+
+### PullOutDirectionManufacturingConstraint.GetChildren(recurses: System.Boolean, children: System.Collections.Generic.IList[ChildrenType])
+
+Gets the list of children, filtered by type.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="PullOutDirectionManufacturingConstraint.GetParameter"></a>
+
+### PullOutDirectionManufacturingConstraint.GetParameter(propName: System.String)
+
+Gets the parameter corresponding to the given property.
 
 <!-- !! processed by numpydoc !! -->
 
@@ -244,6 +234,17 @@ Run the GroupSimilarObjects action.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="PullOutDirectionManufacturingConstraint.PropertyByAPIName"></a>
+
+### PullOutDirectionManufacturingConstraint.PropertyByAPIName(name: System.String)
+
+```text
+Get a property by its API name.
+If multiple properties have the same API Name, only the first property with that name will be returned.
+```
+
+<!-- !! processed by numpydoc !! -->
+
 <a id="PullOutDirectionManufacturingConstraint.PropertyByName"></a>
 
 ### PullOutDirectionManufacturingConstraint.PropertyByName(name: System.String)
@@ -252,36 +253,19 @@ Get a property by its unique name.
 
 <!-- !! processed by numpydoc !! -->
 
-<a id="PullOutDirectionManufacturingConstraint.PropertyByAPIName"></a>
-
-### PullOutDirectionManufacturingConstraint.PropertyByAPIName(name: System.String)
-
-Get a property by its API name.
-If multiple properties have the same API Name, only the first property with that name will be returned.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="PullOutDirectionManufacturingConstraint.CreateParameter"></a>
-
-### PullOutDirectionManufacturingConstraint.CreateParameter(propName: System.String)
-
-Creates a new parameter for a Property.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="PullOutDirectionManufacturingConstraint.GetParameter"></a>
-
-### PullOutDirectionManufacturingConstraint.GetParameter(propName: System.String)
-
-Gets the parameter corresponding to the given property.
-
-<!-- !! processed by numpydoc !! -->
-
 <a id="PullOutDirectionManufacturingConstraint.RemoveParameter"></a>
 
 ### PullOutDirectionManufacturingConstraint.RemoveParameter(propName: System.String)
 
 Removes the parameter from the parameter set corresponding to the given property.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="PullOutDirectionManufacturingConstraint.RenameBasedOnDefinition"></a>
+
+### PullOutDirectionManufacturingConstraint.RenameBasedOnDefinition()
+
+Run the RenameBasedOnDefinition action.
 
 <!-- !! processed by numpydoc !! -->
 

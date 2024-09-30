@@ -1,6 +1,6 @@
 # `DampingDefineBy`
 
-
+<a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DampingDefineBy"></a>
 
 #### *class* ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DampingDefineBy
 
@@ -17,9 +17,9 @@ Specifies the DampingDefineBy.
 ### Attributes
 
 | Name |
-| -------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| [`ConstantStructuralDampingCoefficient`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/DampingDefineBy.md#DampingDefineBy.ConstantStructuralDampingCoefficient) |
-| [`DampingRatio`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/DampingDefineBy.md#DampingDefineBy.DampingRatio) |
+| --------------------------------------------------------------------------------------------------- |
+| [`ConstantStructuralDampingCoefficient`](#DampingDefineBy.ConstantStructuralDampingCoefficient) |
+| [`DampingRatio`](#DampingDefineBy.DampingRatio) |
 
 <a id="attribute-detail"></a>
 

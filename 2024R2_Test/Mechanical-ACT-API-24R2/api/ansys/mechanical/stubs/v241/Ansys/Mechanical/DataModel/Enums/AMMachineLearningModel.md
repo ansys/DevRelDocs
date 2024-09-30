@@ -1,6 +1,6 @@
 # `AMMachineLearningModel`
 
-
+<a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.AMMachineLearningModel"></a>
 
 #### *class* ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.AMMachineLearningModel
 
@@ -17,16 +17,16 @@ Specifies the AMMachineLearningModel.
 ### Attributes
 
 | Name |
-| ---------------------------------------------------------------------------------------------------------------------------------- |
-| [`Al357`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/AMMachineLearningModel.md#AMMachineLearningModel.Al357) |
-| [`AlSi10Mg`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/AMMachineLearningModel.md#AMMachineLearningModel.AlSi10Mg) |
-| [`CoCr`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/AMMachineLearningModel.md#AMMachineLearningModel.CoCr) |
-| [`Inconel625`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/AMMachineLearningModel.md#AMMachineLearningModel.Inconel625) |
-| [`Inconel718`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/AMMachineLearningModel.md#AMMachineLearningModel.Inconel718) |
-| [`SS17_4`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/AMMachineLearningModel.md#AMMachineLearningModel.SS17_4) |
-| [`SS316L`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/AMMachineLearningModel.md#AMMachineLearningModel.SS316L) |
-| [`Ti6Al4V`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/AMMachineLearningModel.md#AMMachineLearningModel.Ti6Al4V) |
-| [`Undefined`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/AMMachineLearningModel.md#AMMachineLearningModel.Undefined) |
+| ---------------------------------------------------- |
+| [`Al357`](#AMMachineLearningModel.Al357) |
+| [`AlSi10Mg`](#AMMachineLearningModel.AlSi10Mg) |
+| [`CoCr`](#AMMachineLearningModel.CoCr) |
+| [`Inconel625`](#AMMachineLearningModel.Inconel625) |
+| [`Inconel718`](#AMMachineLearningModel.Inconel718) |
+| [`SS17_4`](#AMMachineLearningModel.SS17_4) |
+| [`SS316L`](#AMMachineLearningModel.SS316L) |
+| [`Ti6Al4V`](#AMMachineLearningModel.Ti6Al4V) |
+| [`Undefined`](#AMMachineLearningModel.Undefined) |
 
 <a id="attribute-detail"></a>
 

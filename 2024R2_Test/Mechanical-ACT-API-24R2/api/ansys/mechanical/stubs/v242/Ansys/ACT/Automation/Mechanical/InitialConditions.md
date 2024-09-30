@@ -1,6 +1,6 @@
 # `InitialConditions`
 
-
+<a id="ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.InitialConditions"></a>
 
 #### *class* ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.InitialConditions
 
@@ -18,58 +18,40 @@ Defines a InitialConditions.
 
 | Name | Description |
 |-------------------------------------------------------------------------|-----------------------------------------------------------------------------------|
-| [`InsertVelocity`](#InitialConditions.InsertVelocity)                   | Creates a new Velocity                                                            |
-| [`InsertAngularVelocity`](#InitialConditions.InsertAngularVelocity)     | Creates a new Angular Velocity                                                    |
-| [`InsertDropHeight`](#InitialConditions.InsertDropHeight)               | Creates a new Drop Height                                                         |
-| [`GetChildren`](#id1)                                                   | Gets the list of children, filtered by type.                                      |
-| [`GetChildren`](#id1)                                                   | Gets the list of children, filtered by type.                                      |
+| [`Activate`](#InitialConditions.Activate)                               | Activate the current object.                                                      |
 | [`AddComment`](#InitialConditions.AddComment)                           | Creates a new child Comment.                                                      |
 | [`AddFigure`](#InitialConditions.AddFigure)                             | Creates a new child Figure.                                                       |
 | [`AddImage`](#InitialConditions.AddImage)                               | Creates a new child Image.                                                        |
-| [`Activate`](#InitialConditions.Activate)                               | Activate the current object.                                                      |
 | [`CopyTo`](#InitialConditions.CopyTo)                                   | Copies all visible properties from this object to another.                        |
+| [`CreateParameter`](#InitialConditions.CreateParameter)                 | Creates a new parameter for a Property.                                           |
 | [`Duplicate`](#InitialConditions.Duplicate)                             | Creates a copy of the current DataModelObject.                                    |
+| [`GetChildren`](#InitialConditions.GetChildren)                         | Gets the list of children, filtered by type.                                      |
+| [`GetParameter`](#InitialConditions.GetParameter)                       | Gets the parameter corresponding to the given property.                           |
 | [`GroupAllSimilarChildren`](#InitialConditions.GroupAllSimilarChildren) | Run the GroupAllSimilarChildren action.                                           |
 | [`GroupSimilarObjects`](#InitialConditions.GroupSimilarObjects)         | Run the GroupSimilarObjects action.                                               |
-| [`PropertyByName`](#InitialConditions.PropertyByName)                   | Get a property by its unique name.                                                |
+| [`InsertAngularVelocity`](#InitialConditions.InsertAngularVelocity)     | Creates a new Angular Velocity                                                    |
+| [`InsertDropHeight`](#InitialConditions.InsertDropHeight)               | Creates a new Drop Height                                                         |
+| [`InsertVelocity`](#InitialConditions.InsertVelocity)                   | Creates a new Velocity                                                            |
 | [`PropertyByAPIName`](#InitialConditions.PropertyByAPIName)             | Get a property by its API name.                                                   |
-| [`CreateParameter`](#InitialConditions.CreateParameter)                 | Creates a new parameter for a Property.                                           |
-| [`GetParameter`](#InitialConditions.GetParameter)                       | Gets the parameter corresponding to the given property.                           |
+| [`PropertyByName`](#InitialConditions.PropertyByName)                   | Get a property by its unique name.                                                |
 | [`RemoveParameter`](#InitialConditions.RemoveParameter)                 | Removes the parameter from the parameter set corresponding to the given property. |
 
 ### Properties
 
 | Name | Description |
 |-------------------------------------------------------------------------|---------------------------------------------------------------|
-| [`InternalObject`](#id0)                                                | Gets the internal object. For advanced usage only.            |
-| [`DataModelObjectCategory`](#InitialConditions.DataModelObjectCategory) | Gets the current DataModelObject's category.                  |
 | [`Children`](#InitialConditions.Children)                               | Gets the list of children.                                    |
 | [`Comments`](#InitialConditions.Comments)                               | Gets the list of associated comments.                         |
+| [`DataModelObjectCategory`](#InitialConditions.DataModelObjectCategory) | Gets the current DataModelObject’s category.                  |
 | [`Figures`](#InitialConditions.Figures)                                 | Gets the list of associated figures.                          |
 | [`Images`](#InitialConditions.Images)                                   | Gets the list of associated images.                           |
-| [`InternalObject`](#id0)                                                | Gets the internal object. For advanced usage only.            |
+| [`InternalObject`](#InitialConditions.InternalObject)                   | Gets the internal object. For advanced usage only.            |
 | [`Properties`](#InitialConditions.Properties)                           | Gets the list of properties for this object.                  |
 | [`VisibleProperties`](#InitialConditions.VisibleProperties)             | Gets the list of properties that are visible for this object. |
 
 <a id="property-detail"></a>
 
 ## Property detail
-
-<a id="InitialConditions.InternalObject"></a>
-
-### *property* InitialConditions.InternalObject *: Ansys.Common.Interop.DSObjectsAuto.IDSInitialConditionGroupAuto | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets the internal object. For advanced usage only.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="InitialConditions.DataModelObjectCategory"></a>
-
-### *property* InitialConditions.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../v241/Ansys/Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets the current DataModelObject's category.
-
-<!-- !! processed by numpydoc !! -->
 
 <a id="InitialConditions.Children"></a>
 
@@ -84,6 +66,14 @@ Gets the list of children.
 ### *property* InitialConditions.Comments *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Comment](../../../../../v241/Ansys/ACT/Automation/Mechanical/Comment.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated comments.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="InitialConditions.DataModelObjectCategory"></a>
+
+### *property* InitialConditions.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets the current DataModelObject’s category.
 
 <!-- !! processed by numpydoc !! -->
 
@@ -103,9 +93,9 @@ Gets the list of associated images.
 
 <!-- !! processed by numpydoc !! -->
 
-<a id="id0"></a>
+<a id="InitialConditions.InternalObject"></a>
 
-### *property* InitialConditions.InternalObject *: System.Object | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* InitialConditions.InternalObject *: Ansys.Common.Interop.DSObjectsAuto.IDSInitialConditionGroupAuto | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the internal object. For advanced usage only.
 
@@ -131,43 +121,11 @@ Gets the list of properties that are visible for this object.
 
 ## Method detail
 
-<a id="InitialConditions.InsertVelocity"></a>
+<a id="InitialConditions.Activate"></a>
 
-### InitialConditions.InsertVelocity()
+### InitialConditions.Activate()
 
-Creates a new Velocity
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="InitialConditions.InsertAngularVelocity"></a>
-
-### InitialConditions.InsertAngularVelocity()
-
-Creates a new Angular Velocity
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="InitialConditions.InsertDropHeight"></a>
-
-### InitialConditions.InsertDropHeight()
-
-Creates a new Drop Height
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="InitialConditions.GetChildren"></a>
-
-### InitialConditions.GetChildren(recurses: System.Boolean, children: System.Collections.Generic.IList[ChildrenType])
-
-Gets the list of children, filtered by type.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="id1"></a>
-
-### InitialConditions.GetChildren(category: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../v241/Ansys/Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory), recurses: System.Boolean, children: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject])
-
-Gets the list of children, filtered by type.
+Activate the current object.
 
 <!-- !! processed by numpydoc !! -->
 
@@ -191,17 +149,11 @@ Creates a new child Figure.
 
 ### InitialConditions.AddImage(filePath: System.String)
 
+```text
 Creates a new child Image.
 If a filePath is provided, the image will be loaded from that file,
 if not, the image will be a screen capture of the Geometry window.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="InitialConditions.Activate"></a>
-
-### InitialConditions.Activate()
-
-Activate the current object.
+```
 
 <!-- !! processed by numpydoc !! -->
 
@@ -213,11 +165,35 @@ Copies all visible properties from this object to another.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="InitialConditions.CreateParameter"></a>
+
+### InitialConditions.CreateParameter(propName: System.String)
+
+Creates a new parameter for a Property.
+
+<!-- !! processed by numpydoc !! -->
+
 <a id="InitialConditions.Duplicate"></a>
 
 ### InitialConditions.Duplicate()
 
 Creates a copy of the current DataModelObject.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="InitialConditions.GetChildren"></a>
+
+### InitialConditions.GetChildren(recurses: System.Boolean, children: System.Collections.Generic.IList[ChildrenType])
+
+Gets the list of children, filtered by type.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="InitialConditions.GetParameter"></a>
+
+### InitialConditions.GetParameter(propName: System.String)
+
+Gets the parameter corresponding to the given property.
 
 <!-- !! processed by numpydoc !! -->
 
@@ -237,11 +213,27 @@ Run the GroupSimilarObjects action.
 
 <!-- !! processed by numpydoc !! -->
 
-<a id="InitialConditions.PropertyByName"></a>
+<a id="InitialConditions.InsertAngularVelocity"></a>
 
-### InitialConditions.PropertyByName(name: System.String)
+### InitialConditions.InsertAngularVelocity()
 
-Get a property by its unique name.
+Creates a new Angular Velocity
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="InitialConditions.InsertDropHeight"></a>
+
+### InitialConditions.InsertDropHeight()
+
+Creates a new Drop Height
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="InitialConditions.InsertVelocity"></a>
+
+### InitialConditions.InsertVelocity()
+
+Creates a new Velocity
 
 <!-- !! processed by numpydoc !! -->
 
@@ -249,24 +241,18 @@ Get a property by its unique name.
 
 ### InitialConditions.PropertyByAPIName(name: System.String)
 
+```text
 Get a property by its API name.
 If multiple properties have the same API Name, only the first property with that name will be returned.
+```
 
 <!-- !! processed by numpydoc !! -->
 
-<a id="InitialConditions.CreateParameter"></a>
+<a id="InitialConditions.PropertyByName"></a>
 
-### InitialConditions.CreateParameter(propName: System.String)
+### InitialConditions.PropertyByName(name: System.String)
 
-Creates a new parameter for a Property.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="InitialConditions.GetParameter"></a>
-
-### InitialConditions.GetParameter(propName: System.String)
-
-Gets the parameter corresponding to the given property.
+Get a property by its unique name.
 
 <!-- !! processed by numpydoc !! -->
 

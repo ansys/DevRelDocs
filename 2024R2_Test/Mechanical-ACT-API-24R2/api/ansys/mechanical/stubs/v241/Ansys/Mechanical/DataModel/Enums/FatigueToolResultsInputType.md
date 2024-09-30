@@ -1,6 +1,6 @@
 # `FatigueToolResultsInputType`
 
-
+<a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.FatigueToolResultsInputType"></a>
 
 #### *class* ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.FatigueToolResultsInputType
 
@@ -17,20 +17,20 @@ Specifies the FatigueToolResultsInputType.
 ### Attributes
 
 | Name |
-| -------------------------------------------------------------------------------------------------------------------------------------- |
-| [`Stress`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/FatigueToolResultsInputType.md#FatigueToolResultsInputType.Stress) |
-| [`Strain`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/FatigueToolResultsInputType.md#FatigueToolResultsInputType.Strain) |
+| --------------------------------------------------- |
+| [`Strain`](#FatigueToolResultsInputType.Strain) |
+| [`Stress`](#FatigueToolResultsInputType.Stress) |
 
 <a id="attribute-detail"></a>
 
 ## Attribute detail
 
-<a id="FatigueToolResultsInputType.Stress"></a>
-
-### FatigueToolResultsInputType.Stress *= 0*
-
 <a id="FatigueToolResultsInputType.Strain"></a>
 
 ### FatigueToolResultsInputType.Strain *= 1*
+
+<a id="FatigueToolResultsInputType.Stress"></a>
+
+### FatigueToolResultsInputType.Stress *= 0*
 
 

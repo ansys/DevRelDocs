@@ -1,6 +1,6 @@
 # `OptimizationType`
 
-
+<a id="ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.OptimizationType"></a>
 
 #### *class* ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.OptimizationType
 
@@ -17,13 +17,13 @@ Specifies the OptimizationType.
 ### Attributes
 
 | Name |
-| ---------------------------------------------------------- |
+| ---------------------------------------------------------------------------------------------------------------------------------- |
 | [`Lattice`](#OptimizationType.Lattice) |
-| [`TopologyLevelSet`](#OptimizationType.TopologyLevelSet) |
 | [`MixableDensity`](#OptimizationType.MixableDensity) |
 | [`Shape`](#OptimizationType.Shape) |
 | [`Topography`](#OptimizationType.Topography) |
 | [`TopologyDensity`](#OptimizationType.TopologyDensity) |
+| [`TopologyLevelSet`](#OptimizationType.TopologyLevelSet) |
 
 <a id="attribute-detail"></a>
 
@@ -32,10 +32,6 @@ Specifies the OptimizationType.
 <a id="OptimizationType.Lattice"></a>
 
 ### OptimizationType.Lattice *= 2*
-
-<a id="OptimizationType.TopologyLevelSet"></a>
-
-### OptimizationType.TopologyLevelSet *= 3*
 
 <a id="OptimizationType.MixableDensity"></a>
 
@@ -52,5 +48,9 @@ Specifies the OptimizationType.
 <a id="OptimizationType.TopologyDensity"></a>
 
 ### OptimizationType.TopologyDensity *= 1*
+
+<a id="OptimizationType.TopologyLevelSet"></a>
+
+### OptimizationType.TopologyLevelSet *= 3*
 
 

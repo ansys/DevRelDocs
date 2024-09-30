@@ -1,6 +1,6 @@
 # `WindowType`
 
-
+<a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.WindowType"></a>
 
 #### *class* ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.WindowType
 
@@ -17,15 +17,15 @@ Specifies the WindowType.
 ### Attributes
 
 | Name |
-| ------------------------------------------------------------------------------------------------------------ |
-| [`Bartlett`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/WindowType.md#WindowType.Bartlett) |
-| [`Blackman`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/WindowType.md#WindowType.Blackman) |
-| [`Hamming`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/WindowType.md#WindowType.Hamming) |
-| [`Hanning`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/WindowType.md#WindowType.Hanning) |
-| [`None_`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/WindowType.md#WindowType.None_) |
-| [`Rectangular`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/WindowType.md#WindowType.Rectangular) |
-| [`Triangular`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/WindowType.md#WindowType.Triangular) |
-| [`Welch`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/WindowType.md#WindowType.Welch) |
+| ------------------------------------------ |
+| [`Bartlett`](#WindowType.Bartlett) |
+| [`Blackman`](#WindowType.Blackman) |
+| [`Hamming`](#WindowType.Hamming) |
+| [`Hanning`](#WindowType.Hanning) |
+| [`None_`](#WindowType.None_) |
+| [`Rectangular`](#WindowType.Rectangular) |
+| [`Triangular`](#WindowType.Triangular) |
+| [`Welch`](#WindowType.Welch) |
 
 <a id="attribute-detail"></a>
 

@@ -1,6 +1,6 @@
 # `MechanicalCameraWrapper`
 
-
+<a id="ansys.mechanical.stubs.v241.Ansys.ACT.Common.Graphics.MechanicalCameraWrapper"></a>
 
 #### *class* ansys.mechanical.stubs.v241.Ansys.ACT.Common.Graphics.MechanicalCameraWrapper
 
@@ -17,23 +17,23 @@ Wrapper for Camera in Mechanical.
 ### Methods
 
 | Name | Description |
-|-------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------|
-| [`Rotate`](../../../../../v242/Ansys/ACT/Common/Graphics/MechanicalCameraWrapper.md#MechanicalCameraWrapper.Rotate)                                         | Rotates the camera about an axis.                                                                 |
-| [`SetSpecificViewOrientation`](../../../../../v242/Ansys/ACT/Common/Graphics/MechanicalCameraWrapper.md#MechanicalCameraWrapper.SetSpecificViewOrientation) | Sets a specific view orientation.                                                                 |
-| [`SetFit`](../../../../../v242/Ansys/ACT/Common/Graphics/MechanicalCameraWrapper.md#MechanicalCameraWrapper.SetFit)                                         | Fits the view to the specified selection. If null is supplied, fits the view to the entire model. |
-| [`GetAsString`](../../../../../v242/Ansys/ACT/Common/Graphics/MechanicalCameraWrapper.md#MechanicalCameraWrapper.GetAsString)                               | Retrieves the view commands as related to the application type as a string.                       |
-| [`Zoom`](../../../../../v242/Ansys/ACT/Common/Graphics/MechanicalCameraWrapper.md#MechanicalCameraWrapper.Zoom)                                             | Zooms in or out on the model.                                                                     |
-| [`Pan`](../../../../../v242/Ansys/ACT/Common/Graphics/MechanicalCameraWrapper.md#MechanicalCameraWrapper.Pan)                                               | Shifts the camera position horizontally or vertically based on x and y quantities.                |
+|-------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------|
+| [`GetAsString`](#MechanicalCameraWrapper.GetAsString)                               | Retrieves the view commands as related to the application type as a string.                       |
+| [`Pan`](#MechanicalCameraWrapper.Pan)                                               | Shifts the camera position horizontally or vertically based on x and y quantities.                |
+| [`Rotate`](#MechanicalCameraWrapper.Rotate)                                         | Rotates the camera about an axis.                                                                 |
+| [`SetFit`](#MechanicalCameraWrapper.SetFit)                                         | Fits the view to the specified selection. If null is supplied, fits the view to the entire model. |
+| [`SetSpecificViewOrientation`](#MechanicalCameraWrapper.SetSpecificViewOrientation) | Sets a specific view orientation.                                                                 |
+| [`Zoom`](#MechanicalCameraWrapper.Zoom)                                             | Zooms in or out on the model.                                                                     |
 
 ### Properties
 
 | Name | Description |
-|-------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------|
-| [`FocalPoint`](../../../../../v242/Ansys/ACT/Common/Graphics/MechanicalCameraWrapper.md#MechanicalCameraWrapper.FocalPoint)   | The focal point of the camera (coordinates are in the global coordinate system).             |
-| [`UpVector`](../../../../../v242/Ansys/ACT/Common/Graphics/MechanicalCameraWrapper.md#MechanicalCameraWrapper.UpVector)       | The vector pointing up from the focal point.                                                 |
-| [`ViewVector`](../../../../../v242/Ansys/ACT/Common/Graphics/MechanicalCameraWrapper.md#MechanicalCameraWrapper.ViewVector)   | The vector pointing from the focal point to the camera.                                      |
-| [`SceneHeight`](../../../../../v242/Ansys/ACT/Common/Graphics/MechanicalCameraWrapper.md#MechanicalCameraWrapper.SceneHeight) | Specifies the scene height (in length units) that will be projected and fit to the viewport. |
-| [`SceneWidth`](../../../../../v242/Ansys/ACT/Common/Graphics/MechanicalCameraWrapper.md#MechanicalCameraWrapper.SceneWidth)   | Specifies the scene width (in length units) that will be projected and fit to the viewport.  |
+|-------------------------------------------------------|----------------------------------------------------------------------------------------------|
+| [`FocalPoint`](#MechanicalCameraWrapper.FocalPoint)   | The focal point of the camera (coordinates are in the global coordinate system).             |
+| [`SceneHeight`](#MechanicalCameraWrapper.SceneHeight) | Specifies the scene height (in length units) that will be projected and fit to the viewport. |
+| [`SceneWidth`](#MechanicalCameraWrapper.SceneWidth)   | Specifies the scene width (in length units) that will be projected and fit to the viewport.  |
+| [`UpVector`](#MechanicalCameraWrapper.UpVector)       | The vector pointing up from the focal point.                                                 |
+| [`ViewVector`](#MechanicalCameraWrapper.ViewVector)   | The vector pointing from the focal point to the camera.                                      |
 
 <a id="property-detail"></a>
 
@@ -41,25 +41,9 @@ Wrapper for Camera in Mechanical.
 
 <a id="MechanicalCameraWrapper.FocalPoint"></a>
 
-### *property* MechanicalCameraWrapper.FocalPoint *: [Ansys.Mechanical.Graphics.Point](../../../Mechanical/Graphics/Point.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.Graphics.Point) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* MechanicalCameraWrapper.FocalPoint *: [Ansys.Mechanical.Graphics.Point](../../../../../v242/Ansys/Mechanical/Graphics/Point.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.Graphics.Point) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 The focal point of the camera (coordinates are in the global coordinate system).
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="MechanicalCameraWrapper.UpVector"></a>
-
-### *property* MechanicalCameraWrapper.UpVector *: Ansys.ACT.Math.Vector3D | [None](https://docs.python.org/3/library/constants.html#None)*
-
-The vector pointing up from the focal point.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="MechanicalCameraWrapper.ViewVector"></a>
-
-### *property* MechanicalCameraWrapper.ViewVector *: Ansys.ACT.Math.Vector3D | [None](https://docs.python.org/3/library/constants.html#None)*
-
-The vector pointing from the focal point to the camera.
 
 <!-- !! processed by numpydoc !! -->
 
@@ -79,23 +63,47 @@ Specifies the scene width (in length units) that will be projected and fit to th
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="MechanicalCameraWrapper.UpVector"></a>
+
+### *property* MechanicalCameraWrapper.UpVector *: Ansys.ACT.Math.Vector3D | [None](https://docs.python.org/3/library/constants.html#None)*
+
+The vector pointing up from the focal point.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="MechanicalCameraWrapper.ViewVector"></a>
+
+### *property* MechanicalCameraWrapper.ViewVector *: Ansys.ACT.Math.Vector3D | [None](https://docs.python.org/3/library/constants.html#None)*
+
+The vector pointing from the focal point to the camera.
+
+<!-- !! processed by numpydoc !! -->
+
 <a id="method-detail"></a>
 
 ## Method detail
 
-<a id="MechanicalCameraWrapper.Rotate"></a>
+<a id="MechanicalCameraWrapper.GetAsString"></a>
 
-### MechanicalCameraWrapper.Rotate(angle: System.Double, axis: [Ansys.Mechanical.DataModel.Enums.CameraAxisType](../../../Mechanical/DataModel/Enums/CameraAxisType.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.CameraAxisType))
+### MechanicalCameraWrapper.GetAsString(appType: [Ansys.Mechanical.DataModel.Enums.ApplicationType](../../../../../v242/Ansys/Mechanical/DataModel/Enums/ApplicationType.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.ApplicationType))
 
-Rotates the camera about an axis.
+Retrieves the view commands as related to the application type as a string.
 
 <!-- !! processed by numpydoc !! -->
 
-<a id="MechanicalCameraWrapper.SetSpecificViewOrientation"></a>
+<a id="MechanicalCameraWrapper.Pan"></a>
 
-### MechanicalCameraWrapper.SetSpecificViewOrientation(type: [Ansys.Mechanical.DataModel.Enums.ViewOrientationType](../../../Mechanical/DataModel/Enums/ViewOrientationType.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.ViewOrientationType))
+### MechanicalCameraWrapper.Pan(x: Ansys.Core.Units.Quantity, y: Ansys.Core.Units.Quantity)
 
-Sets a specific view orientation.
+Shifts the camera position horizontally or vertically based on x and y quantities.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="MechanicalCameraWrapper.Rotate"></a>
+
+### MechanicalCameraWrapper.Rotate(angle: System.Double, axis: [Ansys.Mechanical.DataModel.Enums.CameraAxisType](../../../../../v242/Ansys/Mechanical/DataModel/Enums/CameraAxisType.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.CameraAxisType))
+
+Rotates the camera about an axis.
 
 <!-- !! processed by numpydoc !! -->
 
@@ -107,11 +115,11 @@ Fits the view to the specified selection. If null is supplied, fits the view to 
 
 <!-- !! processed by numpydoc !! -->
 
-<a id="MechanicalCameraWrapper.GetAsString"></a>
+<a id="MechanicalCameraWrapper.SetSpecificViewOrientation"></a>
 
-### MechanicalCameraWrapper.GetAsString(appType: [Ansys.Mechanical.DataModel.Enums.ApplicationType](../../../Mechanical/DataModel/Enums/ApplicationType.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.ApplicationType))
+### MechanicalCameraWrapper.SetSpecificViewOrientation(type: [Ansys.Mechanical.DataModel.Enums.ViewOrientationType](../../../../../v242/Ansys/Mechanical/DataModel/Enums/ViewOrientationType.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.ViewOrientationType))
 
-Retrieves the view commands as related to the application type as a string.
+Sets a specific view orientation.
 
 <!-- !! processed by numpydoc !! -->
 
@@ -120,14 +128,6 @@ Retrieves the view commands as related to the application type as a string.
 ### MechanicalCameraWrapper.Zoom(zoomVal: System.Double)
 
 Zooms in or out on the model.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="MechanicalCameraWrapper.Pan"></a>
-
-### MechanicalCameraWrapper.Pan(x: Ansys.Core.Units.Quantity, y: Ansys.Core.Units.Quantity)
-
-Shifts the camera position horizontally or vertically based on x and y quantities.
 
 <!-- !! processed by numpydoc !! -->
 

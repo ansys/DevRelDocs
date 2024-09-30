@@ -1,6 +1,6 @@
 # `DataTypeOptions`
 
-
+<a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataTypeOptions"></a>
 
 #### *class* ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataTypeOptions
 
@@ -17,10 +17,10 @@ Specifies the DataTypeOptions.
 ### Attributes
 
 | Name |
-| ------------------------------------------------------------------------------------------------------------------------------ |
-| [`ForceAndMoment`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/DataTypeOptions.md#DataTypeOptions.ForceAndMoment) |
-| [`ForceOnly`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/DataTypeOptions.md#DataTypeOptions.ForceOnly) |
-| [`MomentOnly`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/DataTypeOptions.md#DataTypeOptions.MomentOnly) |
+| ------------------------------------------------------- |
+| [`ForceAndMoment`](#DataTypeOptions.ForceAndMoment) |
+| [`ForceOnly`](#DataTypeOptions.ForceOnly) |
+| [`MomentOnly`](#DataTypeOptions.MomentOnly) |
 
 <a id="attribute-detail"></a>
 

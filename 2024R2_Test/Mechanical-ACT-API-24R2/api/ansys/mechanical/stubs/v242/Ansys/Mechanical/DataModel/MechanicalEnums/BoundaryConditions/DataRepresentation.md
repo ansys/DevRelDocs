@@ -1,6 +1,6 @@
 # `DataRepresentation`
 
-
+<a id="ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.MechanicalEnums.BoundaryConditions.DataRepresentation"></a>
 
 #### *class* ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.MechanicalEnums.BoundaryConditions.DataRepresentation
 

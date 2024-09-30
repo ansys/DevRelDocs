@@ -1,6 +1,6 @@
 # `LoadAppliedBy`
 
-
+<a id="ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.LoadAppliedBy"></a>
 
 #### *class* ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.LoadAppliedBy
 
@@ -17,7 +17,7 @@ Specifies the LoadAppliedBy.
 ### Attributes
 
 | Name |
-| ------------------------------------------------- |
+| ---------------------------------------------------------------------------------------------------------------------- |
 | [`Direct`](#LoadAppliedBy.Direct) |
 | [`SurfaceEffect`](#LoadAppliedBy.SurfaceEffect) |
 

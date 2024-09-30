@@ -1,6 +1,6 @@
 # `ExtrudeBy`
 
-
+<a id="ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.ExtrudeBy"></a>
 
 #### *class* ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.ExtrudeBy
 
@@ -17,18 +17,14 @@ To specify the method of extrusion. The available options are Use Coordinate Sys
 ### Attributes
 
 | Name |
-| ----------------------------------------------------------- |
-| [`UseCoordinateSystem`](#ExtrudeBy.UseCoordinateSystem) |
+| -------------------------------------------------------------------------------------------------------------------------- |
 | [`FaceNormal`](#ExtrudeBy.FaceNormal) |
 | [`FaceNormalReversed`](#ExtrudeBy.FaceNormalReversed) |
+| [`UseCoordinateSystem`](#ExtrudeBy.UseCoordinateSystem) |
 
 <a id="attribute-detail"></a>
 
 ## Attribute detail
-
-<a id="ExtrudeBy.UseCoordinateSystem"></a>
-
-### ExtrudeBy.UseCoordinateSystem *= 0*
 
 <a id="ExtrudeBy.FaceNormal"></a>
 
@@ -37,5 +33,9 @@ To specify the method of extrusion. The available options are Use Coordinate Sys
 <a id="ExtrudeBy.FaceNormalReversed"></a>
 
 ### ExtrudeBy.FaceNormalReversed *= 2*
+
+<a id="ExtrudeBy.UseCoordinateSystem"></a>
+
+### ExtrudeBy.UseCoordinateSystem *= 0*
 
 

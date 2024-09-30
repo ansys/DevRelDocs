@@ -1,6 +1,6 @@
 # `PhaseType`
 
-
+<a id="ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.PhaseType"></a>
 
 #### *class* ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.PhaseType
 
@@ -17,7 +17,7 @@ Specifies the Prototype Phase Type.
 ### Attributes
 
 | Name |
-| ------------------------------------------------------- |
+| ------------------------------------------------------------------------------------------------------------------------ |
 | [`DefinedByGeometry`](#PhaseType.DefinedByGeometry) |
 | [`LiquidGas`](#PhaseType.LiquidGas) |
 | [`Solid`](#PhaseType.Solid) |

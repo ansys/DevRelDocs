@@ -1,6 +1,6 @@
 # `IMechanicalUserObject`
 
-
+<a id="ansys.mechanical.stubs.v241.Ansys.ACT.Interfaces.Mechanical.IMechanicalUserObject"></a>
 
 #### *class* ansys.mechanical.stubs.v241.Ansys.ACT.Interfaces.Mechanical.IMechanicalUserObject
 
@@ -17,8 +17,8 @@ Defines a Mechanical user object.
 ### Properties
 
 | Name | Description |
-|-----------------------------------------------------------------------------------------------------------------------------|---------------------------------|
-| [`Analysis`](../../../../../v242/Ansys/ACT/Interfaces/Mechanical/IMechanicalUserObject.md#IMechanicalUserObject.Analysis)   | Gets the associated analysis.   |
+|-------------------------------------------------|---------------------------------|
+| [`Analysis`](#IMechanicalUserObject.Analysis)   | Gets the associated analysis.   |
 
 <a id="property-detail"></a>
 

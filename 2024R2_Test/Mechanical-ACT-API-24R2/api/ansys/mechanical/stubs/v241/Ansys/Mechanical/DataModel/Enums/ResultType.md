@@ -1,6 +1,6 @@
 # `ResultType`
 
-
+<a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.ResultType"></a>
 
 #### *class* ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.ResultType
 
@@ -17,320 +17,332 @@ Specifies the ResultType.
 ### Attributes
 
 | Name |
-| ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| [`AccelerationWaterfallDiagram`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/ResultType.md#ResultType.AccelerationWaterfallDiagram) |
-| [`AccumulatedEquivalentPlasticStrain`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/ResultType.md#ResultType.AccumulatedEquivalentPlasticStrain) |
-| [`AbsorptionCoefficient`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/ResultType.md#ResultType.AbsorptionCoefficient) |
-| [`DiffuseSoundTransmissionLoss`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/ResultType.md#ResultType.DiffuseSoundTransmissionLoss) |
-| [`EquivalentRadiatedPower`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/ResultType.md#ResultType.EquivalentRadiatedPower) |
-| [`EquivalentRadiatedPowerLevel`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/ResultType.md#ResultType.EquivalentRadiatedPowerLevel) |
-| [`EquivalentRadiatedPowerLevelWaterfallDiagram`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/ResultType.md#ResultType.EquivalentRadiatedPowerLevelWaterfallDiagram) |
-| [`EquivalentRadiatedPowerWaterfallDiagram`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/ResultType.md#ResultType.EquivalentRadiatedPowerWaterfallDiagram) |
-| [`FarFieldDirectivity`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/ResultType.md#ResultType.FarFieldDirectivity) |
-| [`FarFieldMaximumPressure`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/ResultType.md#ResultType.FarFieldMaximumPressure) |
-| [`FarFieldMaximumPressureMic`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/ResultType.md#ResultType.FarFieldMaximumPressureMic) |
-| [`FarFieldMaximumScatteredPressure`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/ResultType.md#ResultType.FarFieldMaximumScatteredPressure) |
-| [`FarFieldPhase`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/ResultType.md#ResultType.FarFieldPhase) |
-| [`FarFieldPhaseMic`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/ResultType.md#ResultType.FarFieldPhaseMic) |
-| [`FarFieldSoundPowerLevel`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/ResultType.md#ResultType.FarFieldSoundPowerLevel) |
-| [`AcousticFarFieldSoundPowerLevelWaterfallDiagram`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/ResultType.md#ResultType.AcousticFarFieldSoundPowerLevelWaterfallDiagram) |
-| [`FarFieldSPL`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/ResultType.md#ResultType.FarFieldSPL) |
-| [`FarFieldSPLMic`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/ResultType.md#ResultType.FarFieldSPLMic) |
-| [`AcousticFarFieldSPLMicWaterfallDiagram`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/ResultType.md#ResultType.AcousticFarFieldSPLMicWaterfallDiagram) |
-| [`FarFieldTargetStrength`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/ResultType.md#ResultType.FarFieldTargetStrength) |
-| [`FarFieldAWeightedSPL`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/ResultType.md#ResultType.FarFieldAWeightedSPL) |
-| [`FarFieldAWeightedSPLMic`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/ResultType.md#ResultType.FarFieldAWeightedSPLMic) |
-| [`ReturnLoss`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/ResultType.md#ResultType.ReturnLoss) |
-| [`TransmissionLoss`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/ResultType.md#ResultType.TransmissionLoss) |
-| [`FrequencyBandSPL`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/ResultType.md#ResultType.FrequencyBandSPL) |
-| [`SoundPressureLevel`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/ResultType.md#ResultType.SoundPressureLevel) |
-| [`AWeightedFrequencyBandSPL`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/ResultType.md#ResultType.AWeightedFrequencyBandSPL) |
-| [`AWeightedSoundPressureLevel`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/ResultType.md#ResultType.AWeightedSoundPressureLevel) |
-| [`ArtificialEnergy`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/ResultType.md#ResultType.ArtificialEnergy) |
-| [`BendingStressEquivalent`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/ResultType.md#ResultType.BendingStressEquivalent) |
-| [`BendingStressIntensity`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/ResultType.md#ResultType.BendingStressIntensity) |
-| [`FatigueResultBiaxialityIndication`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/ResultType.md#ResultType.FatigueResultBiaxialityIndication) |
-| [`BoltAdjustment`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/ResultType.md#ResultType.BoltAdjustment) |
-| [`BoltWorkingLoad`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/ResultType.md#ResultType.BoltWorkingLoad) |
-| [`ContactChattering`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/ResultType.md#ResultType.ContactChattering) |
-| [`ContactContactingArea`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/ResultType.md#ResultType.ContactContactingArea) |
-| [`ContactFluidPressure`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/ResultType.md#ResultType.ContactFluidPressure) |
-| [`ContactFrictionalStress`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/ResultType.md#ResultType.ContactFrictionalStress) |
-| [`ContactGap`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/ResultType.md#ResultType.ContactGap) |
-| [`ContactHeatFlux`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/ResultType.md#ResultType.ContactHeatFlux) |
-| [`ContactMaximumDampingPressure`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/ResultType.md#ResultType.ContactMaximumDampingPressure) |
-| [`ContactMaxiumGeometricSlidingDistance`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/ResultType.md#ResultType.ContactMaxiumGeometricSlidingDistance) |
-| [`ContactMaximumNormalStiffness`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/ResultType.md#ResultType.ContactMaximumNormalStiffness) |
-| [`ContactMaximumTangentialStiffness`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/ResultType.md#ResultType.ContactMaximumTangentialStiffness) |
-| [`ContactMinimumGeometricSlidingDistance`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/ResultType.md#ResultType.ContactMinimumGeometricSlidingDistance) |
-| [`ContactMinimumTangentialStiffness`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/ResultType.md#ResultType.ContactMinimumTangentialStiffness) |
-| [`ContactNumberContacting`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/ResultType.md#ResultType.ContactNumberContacting) |
-| [`ContactNumberSticking`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/ResultType.md#ResultType.ContactNumberSticking) |
-| [`ContactPenetration`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/ResultType.md#ResultType.ContactPenetration) |
-| [`ContactPressure`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/ResultType.md#ResultType.ContactPressure) |
-| [`ContactResultingPinball`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/ResultType.md#ResultType.ContactResultingPinball) |
-| [`ContactSlidingDistance`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/ResultType.md#ResultType.ContactSlidingDistance) |
-| [`ContactStatus`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/ResultType.md#ResultType.ContactStatus) |
-| [`CurrentDensity`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/ResultType.md#ResultType.CurrentDensity) |
-| [`FatigueDamage`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/ResultType.md#ResultType.FatigueDamage) |
-| [`DamageStatus`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/ResultType.md#ResultType.DamageStatus) |
-| [`MullinsDamageVariable`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/ResultType.md#ResultType.MullinsDamageVariable) |
-| [`DampingEnergy`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/ResultType.md#ResultType.DampingEnergy) |
-| [`VectorDeformation`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/ResultType.md#ResultType.VectorDeformation) |
-| [`TotalDeformation`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/ResultType.md#ResultType.TotalDeformation) |
-| [`Density`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/ResultType.md#ResultType.Density) |
-| [`DirectStress`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/ResultType.md#ResultType.DirectStress) |
-| [`EquivalentElasticStrain`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/ResultType.md#ResultType.EquivalentElasticStrain) |
-| [`EquivalentElasticStrainRST`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/ResultType.md#ResultType.EquivalentElasticStrainRST) |
-| [`EquivalentStress`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/ResultType.md#ResultType.EquivalentStress) |
-| [`EquivalentStressPSD`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/ResultType.md#ResultType.EquivalentStressPSD) |
-| [`EquivalentStressRS`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/ResultType.md#ResultType.EquivalentStressRS) |
-| [`JouleHeat`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/ResultType.md#ResultType.JouleHeat) |
-| [`ElectricVoltage`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/ResultType.md#ResultType.ElectricVoltage) |
-| [`ElectricPotential`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/ResultType.md#ResultType.ElectricPotential) |
-| [`Volume`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/ResultType.md#ResultType.Volume) |
-| [`ElementalStrainEnergy`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/ResultType.md#ResultType.ElementalStrainEnergy) |
-| [`EnergyDissipatedPerUnitVolume`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/ResultType.md#ResultType.EnergyDissipatedPerUnitVolume) |
-| [`EquivalentCreepStrain`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/ResultType.md#ResultType.EquivalentCreepStrain) |
-| [`EquivalentCreepStrainRST`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/ResultType.md#ResultType.EquivalentCreepStrainRST) |
-| [`EquivalentPlasticStrain`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/ResultType.md#ResultType.EquivalentPlasticStrain) |
-| [`EquivalentPlasticStrainRST`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/ResultType.md#ResultType.EquivalentPlasticStrainRST) |
-| [`EquivalentTotalStrainRST`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/ResultType.md#ResultType.EquivalentTotalStrainRST) |
-| [`MagneticError`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/ResultType.md#ResultType.MagneticError) |
-| [`StructuralError`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/ResultType.md#ResultType.StructuralError) |
-| [`ThermalError`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/ResultType.md#ResultType.ThermalError) |
-| [`FactorReserveInverseCompositeFailure`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/ResultType.md#ResultType.FactorReserveInverseCompositeFailure) |
-| [`SafetyFactorCompositeFailure`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/ResultType.md#ResultType.SafetyFactorCompositeFailure) |
-| [`SafetyFactorFatigue`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/ResultType.md#ResultType.SafetyFactorFatigue) |
-| [`SafetyFactor`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/ResultType.md#ResultType.SafetyFactor) |
-| [`FatigueEquivalentReversedStress`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/ResultType.md#ResultType.FatigueEquivalentReversedStress) |
-| [`Hysteresis`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/ResultType.md#ResultType.Hysteresis) |
-| [`FatigueSensitivity`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/ResultType.md#ResultType.FatigueSensitivity) |
-| [`FiberCompressiveDamageVariable`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/ResultType.md#ResultType.FiberCompressiveDamageVariable) |
-| [`FiberCompressiveFailureCriterion`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/ResultType.md#ResultType.FiberCompressiveFailureCriterion) |
-| [`FiberTensileDamageVariable`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/ResultType.md#ResultType.FiberTensileDamageVariable) |
-| [`FiberTensileFailureCriterion`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/ResultType.md#ResultType.FiberTensileFailureCriterion) |
-| [`FluidFlowRate`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/ResultType.md#ResultType.FluidFlowRate) |
-| [`FluidHeatConductionRate`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/ResultType.md#ResultType.FluidHeatConductionRate) |
-| [`FluidHeatTransportRate`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/ResultType.md#ResultType.FluidHeatTransportRate) |
-| [`ForceReaction`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/ResultType.md#ResultType.ForceReaction) |
-| [`FractureCSTAR`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/ResultType.md#ResultType.FractureCSTAR) |
-| [`FractureEquivalentSIFSRange`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/ResultType.md#ResultType.FractureEquivalentSIFSRange) |
-| [`FractureJINT`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/ResultType.md#ResultType.FractureJINT) |
-| [`FractureMaterialForceX`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/ResultType.md#ResultType.FractureMaterialForceX) |
-| [`FractureMaterialForceY`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/ResultType.md#ResultType.FractureMaterialForceY) |
-| [`FractureMaterialForceZ`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/ResultType.md#ResultType.FractureMaterialForceZ) |
-| [`FractureSIFSK1`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/ResultType.md#ResultType.FractureSIFSK1) |
-| [`FractureSIFSK2`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/ResultType.md#ResultType.FractureSIFSK2) |
-| [`FractureSIFSK3`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/ResultType.md#ResultType.FractureSIFSK3) |
-| [`FractureTSTRESS`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/ResultType.md#ResultType.FractureTSTRESS) |
-| [`FractureVCCTG1`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/ResultType.md#ResultType.FractureVCCTG1) |
-| [`FractureVCCTG2`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/ResultType.md#ResultType.FractureVCCTG2) |
-| [`FractureVCCTG3`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/ResultType.md#ResultType.FractureVCCTG3) |
-| [`FractureVCCTGT`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/ResultType.md#ResultType.FractureVCCTGT) |
-| [`NormalGasketPressure`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/ResultType.md#ResultType.NormalGasketPressure) |
-| [`XYShearGasketPressure`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/ResultType.md#ResultType.XYShearGasketPressure) |
-| [`XZShearGasketPressure`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/ResultType.md#ResultType.XZShearGasketPressure) |
-| [`NormalGasketTotalClosure`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/ResultType.md#ResultType.NormalGasketTotalClosure) |
-| [`XYShearGasketTotalClosure`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/ResultType.md#ResultType.XYShearGasketTotalClosure) |
-| [`XZShearGasketTotalClosure`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/ResultType.md#ResultType.XZShearGasketTotalClosure) |
-| [`MiddlePrincipalElasticStrain`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/ResultType.md#ResultType.MiddlePrincipalElasticStrain) |
-| [`MiddlePrincipalStress`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/ResultType.md#ResultType.MiddlePrincipalStress) |
-| [`MiddlePrincipalThermalStrain`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/ResultType.md#ResultType.MiddlePrincipalThermalStrain) |
-| [`KineticEnergy`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/ResultType.md#ResultType.KineticEnergy) |
-| [`LatticeElementalDensity`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/ResultType.md#ResultType.LatticeElementalDensity) |
-| [`LatticeDensity`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/ResultType.md#ResultType.LatticeDensity) |
-| [`FatigueLife`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/ResultType.md#ResultType.FatigueLife) |
-| [`LinePressure`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/ResultType.md#ResultType.LinePressure) |
-| [`LSDYNAGeneralTracker`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/ResultType.md#ResultType.LSDYNAGeneralTracker) |
-| [`MagneticCoenergy`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/ResultType.md#ResultType.MagneticCoenergy) |
-| [`MarginSafetyCompositeFailure`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/ResultType.md#ResultType.MarginSafetyCompositeFailure) |
-| [`SafetyMargin`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/ResultType.md#ResultType.SafetyMargin) |
-| [`MatrixCompressiveDamageVariable`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/ResultType.md#ResultType.MatrixCompressiveDamageVariable) |
-| [`MatrixCompressiveFailureCriterion`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/ResultType.md#ResultType.MatrixCompressiveFailureCriterion) |
-| [`MatrixTensileDamageVariable`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/ResultType.md#ResultType.MatrixTensileDamageVariable) |
-| [`MatrixTensileFailureCriterion`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/ResultType.md#ResultType.MatrixTensileFailureCriterion) |
-| [`MaximumBendingStress`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/ResultType.md#ResultType.MaximumBendingStress) |
-| [`MaximumCombinedStress`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/ResultType.md#ResultType.MaximumCombinedStress) |
-| [`MaximumFailureCriteria`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/ResultType.md#ResultType.MaximumFailureCriteria) |
-| [`MullinsMaximumPreviousStrainEnergy`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/ResultType.md#ResultType.MullinsMaximumPreviousStrainEnergy) |
-| [`MaximumPrincipalElasticStrain`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/ResultType.md#ResultType.MaximumPrincipalElasticStrain) |
-| [`MaximumPrincipalStress`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/ResultType.md#ResultType.MaximumPrincipalStress) |
-| [`MaximumPrincipalThermalStrain`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/ResultType.md#ResultType.MaximumPrincipalThermalStrain) |
-| [`MaximumShearElasticStrain`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/ResultType.md#ResultType.MaximumShearElasticStrain) |
-| [`MaximumShearStress`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/ResultType.md#ResultType.MaximumShearStress) |
-| [`MCFWaterfallDiagram`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/ResultType.md#ResultType.MCFWaterfallDiagram) |
-| [`MembraneStressEquivalent`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/ResultType.md#ResultType.MembraneStressEquivalent) |
-| [`MembraneStressIntensity`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/ResultType.md#ResultType.MembraneStressIntensity) |
-| [`MinimumBendingStress`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/ResultType.md#ResultType.MinimumBendingStress) |
-| [`MinimumCombinedStress`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/ResultType.md#ResultType.MinimumCombinedStress) |
-| [`MinimumPrincipalElasticStrain`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/ResultType.md#ResultType.MinimumPrincipalElasticStrain) |
-| [`MinimumPrincipalStress`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/ResultType.md#ResultType.MinimumPrincipalStress) |
-| [`MinimumPrincipalThermalStrain`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/ResultType.md#ResultType.MinimumPrincipalThermalStrain) |
-| [`MomentReactionTracker`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/ResultType.md#ResultType.MomentReactionTracker) |
-| [`NonLinearStabilizationEnergy`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/ResultType.md#ResultType.NonLinearStabilizationEnergy) |
-| [`NewtonRaphsonResidualCharge`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/ResultType.md#ResultType.NewtonRaphsonResidualCharge) |
-| [`NewtonRaphsonResidualForce`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/ResultType.md#ResultType.NewtonRaphsonResidualForce) |
-| [`NewtonRaphsonResidualHeat`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/ResultType.md#ResultType.NewtonRaphsonResidualHeat) |
-| [`NewtonRaphsonResidualMoment`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/ResultType.md#ResultType.NewtonRaphsonResidualMoment) |
-| [`VariableGraph`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/ResultType.md#ResultType.VariableGraph) |
-| [`PlasticWork`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/ResultType.md#ResultType.PlasticWork) |
-| [`Pressure`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/ResultType.md#ResultType.Pressure) |
-| [`VectorPrincipalElasticStrain`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/ResultType.md#ResultType.VectorPrincipalElasticStrain) |
-| [`VectorPrincipalStress`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/ResultType.md#ResultType.VectorPrincipalStress) |
-| [`CampbellDiagram`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/ResultType.md#ResultType.CampbellDiagram) |
-| [`ShearDamageVariable`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/ResultType.md#ResultType.ShearDamageVariable) |
-| [`ShearMomentDiagramMSUM`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/ResultType.md#ResultType.ShearMomentDiagramMSUM) |
-| [`ShearMomentDiagramMY`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/ResultType.md#ResultType.ShearMomentDiagramMY) |
-| [`ShearMomentDiagramMZ`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/ResultType.md#ResultType.ShearMomentDiagramMZ) |
-| [`ShearMomentDiagramVSUM`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/ResultType.md#ResultType.ShearMomentDiagramVSUM) |
-| [`ShearMomentDiagramVY`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/ResultType.md#ResultType.ShearMomentDiagramVY) |
-| [`ShearMomentDiagramVZ`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/ResultType.md#ResultType.ShearMomentDiagramVZ) |
-| [`ShearMomentDiagramUSUM`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/ResultType.md#ResultType.ShearMomentDiagramUSUM) |
-| [`ShearMomentDiagramUY`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/ResultType.md#ResultType.ShearMomentDiagramUY) |
-| [`ShearMomentDiagramUZ`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/ResultType.md#ResultType.ShearMomentDiagramUZ) |
-| [`ShellBendingStress11`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/ResultType.md#ResultType.ShellBendingStress11) |
-| [`ShellBendingStress12`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/ResultType.md#ResultType.ShellBendingStress12) |
-| [`ShellBendingStress22`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/ResultType.md#ResultType.ShellBendingStress22) |
-| [`ShellBottomPeakStress11`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/ResultType.md#ResultType.ShellBottomPeakStress11) |
-| [`ShellBottomPeakStress12`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/ResultType.md#ResultType.ShellBottomPeakStress12) |
-| [`ShellBottomPeakStress22`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/ResultType.md#ResultType.ShellBottomPeakStress22) |
-| [`ShellMembraneStress11`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/ResultType.md#ResultType.ShellMembraneStress11) |
-| [`ShellMembraneStress12`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/ResultType.md#ResultType.ShellMembraneStress12) |
-| [`ShellMembraneStress22`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/ResultType.md#ResultType.ShellMembraneStress22) |
-| [`ShellTopPeakStress11`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/ResultType.md#ResultType.ShellTopPeakStress11) |
-| [`ShellTopPeakStress12`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/ResultType.md#ResultType.ShellTopPeakStress12) |
-| [`ShellTopPeakStress22`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/ResultType.md#ResultType.ShellTopPeakStress22) |
-| [`SpringTrackerDampingForce`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/ResultType.md#ResultType.SpringTrackerDampingForce) |
-| [`SpringTrackerElasticForce`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/ResultType.md#ResultType.SpringTrackerElasticForce) |
-| [`SpringTrackerElongation`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/ResultType.md#ResultType.SpringTrackerElongation) |
-| [`SpringTrackerVelocity`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/ResultType.md#ResultType.SpringTrackerVelocity) |
-| [`StabilizationEnergy`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/ResultType.md#ResultType.StabilizationEnergy) |
-| [`StiffnessEnergy`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/ResultType.md#ResultType.StiffnessEnergy) |
-| [`StrainIntensity`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/ResultType.md#ResultType.StrainIntensity) |
-| [`StressIntensity`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/ResultType.md#ResultType.StressIntensity) |
-| [`StressRatio`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/ResultType.md#ResultType.StressRatio) |
-| [`StructuralStrainEnergy`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/ResultType.md#ResultType.StructuralStrainEnergy) |
-| [`Temperature`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/ResultType.md#ResultType.Temperature) |
-| [`ThermalStrainEnergy`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/ResultType.md#ResultType.ThermalStrainEnergy) |
-| [`TotalHeatFlux`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/ResultType.md#ResultType.TotalHeatFlux) |
-| [`VectorHeatFlux`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/ResultType.md#ResultType.VectorHeatFlux) |
-| [`TopologyElementalDensity`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/ResultType.md#ResultType.TopologyElementalDensity) |
-| [`TopologyDensity`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/ResultType.md#ResultType.TopologyDensity) |
-| [`TotalAcceleration`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/ResultType.md#ResultType.TotalAcceleration) |
-| [`TotalAxialForceDiagram`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/ResultType.md#ResultType.TotalAxialForceDiagram) |
-| [`TotalBendingMomentDiagram`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/ResultType.md#ResultType.TotalBendingMomentDiagram) |
-| [`TotalCurrentDensity`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/ResultType.md#ResultType.TotalCurrentDensity) |
-| [`TotalElectricFieldIntensity`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/ResultType.md#ResultType.TotalElectricFieldIntensity) |
-| [`TotalElectricFluxDensity`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/ResultType.md#ResultType.TotalElectricFluxDensity) |
-| [`TotalEnergy`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/ResultType.md#ResultType.TotalEnergy) |
-| [`TotalMagneticFieldIntensity`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/ResultType.md#ResultType.TotalMagneticFieldIntensity) |
-| [`TotalMagneticFluxDensity`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/ResultType.md#ResultType.TotalMagneticFluxDensity) |
-| [`TotalMagneticForces`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/ResultType.md#ResultType.TotalMagneticForces) |
-| [`TotalShearForce`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/ResultType.md#ResultType.TotalShearForce) |
-| [`TotalTorsionalMoment`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/ResultType.md#ResultType.TotalTorsionalMoment) |
-| [`TotalVelocity`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/ResultType.md#ResultType.TotalVelocity) |
-| [`VectorAxialForce`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/ResultType.md#ResultType.VectorAxialForce) |
-| [`VectorBendingMoment`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/ResultType.md#ResultType.VectorBendingMoment) |
-| [`ElementalTriads`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/ResultType.md#ResultType.ElementalTriads) |
-| [`NodalTriads`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/ResultType.md#ResultType.NodalTriads) |
-| [`VectorShearForce`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/ResultType.md#ResultType.VectorShearForce) |
-| [`VectorTorsionalMoment`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/ResultType.md#ResultType.VectorTorsionalMoment) |
-| [`VelocityWaterfallDiagram`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/ResultType.md#ResultType.VelocityWaterfallDiagram) |
-| [`ShapeFinder`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/ResultType.md#ResultType.ShapeFinder) |
-| [`ShapeFinderElemental`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/ResultType.md#ResultType.ShapeFinderElemental) |
-| [`XDirectionalAcceleration`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/ResultType.md#ResultType.XDirectionalAcceleration) |
-| [`XDirectionalAccelerationPSD`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/ResultType.md#ResultType.XDirectionalAccelerationPSD) |
-| [`XDirectionalAccelerationRS`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/ResultType.md#ResultType.XDirectionalAccelerationRS) |
-| [`XDirectionalAxialForce`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/ResultType.md#ResultType.XDirectionalAxialForce) |
-| [`XDirectionalBendingMoment`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/ResultType.md#ResultType.XDirectionalBendingMoment) |
-| [`XContactForce`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/ResultType.md#ResultType.XContactForce) |
-| [`XDirectionalDisplacement`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/ResultType.md#ResultType.XDirectionalDisplacement) |
-| [`XDirectionalCurrentDensity`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/ResultType.md#ResultType.XDirectionalCurrentDensity) |
-| [`XDirectionalElectricFieldIntensity`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/ResultType.md#ResultType.XDirectionalElectricFieldIntensity) |
-| [`XDirectionalElectricFluxDensity`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/ResultType.md#ResultType.XDirectionalElectricFluxDensity) |
-| [`ElementalEulerXYAngle`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/ResultType.md#ResultType.ElementalEulerXYAngle) |
-| [`XExternalForce`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/ResultType.md#ResultType.XExternalForce) |
-| [`XDirectionalMagneticFieldIntensity`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/ResultType.md#ResultType.XDirectionalMagneticFieldIntensity) |
-| [`XDirectionalMagneticFluxDensity`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/ResultType.md#ResultType.XDirectionalMagneticFluxDensity) |
-| [`MagneticXDirectionalForces`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/ResultType.md#ResultType.MagneticXDirectionalForces) |
-| [`XMomentum`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/ResultType.md#ResultType.XMomentum) |
-| [`NodalEulerXYAngle`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/ResultType.md#ResultType.NodalEulerXYAngle) |
-| [`XDirectionalShearForce`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/ResultType.md#ResultType.XDirectionalShearForce) |
-| [`XNormalElasticStrain`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/ResultType.md#ResultType.XNormalElasticStrain) |
-| [`XNormalStress`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/ResultType.md#ResultType.XNormalStress) |
-| [`XDirectionalHeatFlux`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/ResultType.md#ResultType.XDirectionalHeatFlux) |
-| [`XThermalStrain`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/ResultType.md#ResultType.XThermalStrain) |
-| [`XDirectionalTorsionalMoment`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/ResultType.md#ResultType.XDirectionalTorsionalMoment) |
-| [`XTotalMassAverageVelocity`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/ResultType.md#ResultType.XTotalMassAverageVelocity) |
-| [`XDirectionalVelocity`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/ResultType.md#ResultType.XDirectionalVelocity) |
-| [`XDirectionalVelocityPSD`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/ResultType.md#ResultType.XDirectionalVelocityPSD) |
-| [`XDirectionalVelocityRS`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/ResultType.md#ResultType.XDirectionalVelocityRS) |
-| [`XYShearElasticStrain`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/ResultType.md#ResultType.XYShearElasticStrain) |
-| [`XYShearStress`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/ResultType.md#ResultType.XYShearStress) |
-| [`XZShearElasticStrain`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/ResultType.md#ResultType.XZShearElasticStrain) |
-| [`XZShearStress`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/ResultType.md#ResultType.XZShearStress) |
-| [`YDirectionalAcceleration`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/ResultType.md#ResultType.YDirectionalAcceleration) |
-| [`YDirectionalAccelerationPSD`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/ResultType.md#ResultType.YDirectionalAccelerationPSD) |
-| [`YDirectionalAccelerationRS`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/ResultType.md#ResultType.YDirectionalAccelerationRS) |
-| [`YDirectionalAxialForce`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/ResultType.md#ResultType.YDirectionalAxialForce) |
-| [`YDirectionalBendingMoment`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/ResultType.md#ResultType.YDirectionalBendingMoment) |
-| [`YContactForce`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/ResultType.md#ResultType.YContactForce) |
-| [`YDirectionalDisplacement`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/ResultType.md#ResultType.YDirectionalDisplacement) |
-| [`YDirectionalCurrentDensity`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/ResultType.md#ResultType.YDirectionalCurrentDensity) |
-| [`YDirectionalElectricFieldIntensity`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/ResultType.md#ResultType.YDirectionalElectricFieldIntensity) |
-| [`YDirectionalElectricFluxDensity`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/ResultType.md#ResultType.YDirectionalElectricFluxDensity) |
-| [`ElementalEulerYZAngle`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/ResultType.md#ResultType.ElementalEulerYZAngle) |
-| [`YExternalForce`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/ResultType.md#ResultType.YExternalForce) |
-| [`YDirectionalMagneticFieldIntensity`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/ResultType.md#ResultType.YDirectionalMagneticFieldIntensity) |
-| [`YDirectionalMagneticFluxDensity`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/ResultType.md#ResultType.YDirectionalMagneticFluxDensity) |
-| [`MagneticYDirectionalForces`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/ResultType.md#ResultType.MagneticYDirectionalForces) |
-| [`YMomentum`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/ResultType.md#ResultType.YMomentum) |
-| [`NodalEulerYZNodal`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/ResultType.md#ResultType.NodalEulerYZNodal) |
-| [`YDirectionalShearForce`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/ResultType.md#ResultType.YDirectionalShearForce) |
-| [`YNormalElasticStrain`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/ResultType.md#ResultType.YNormalElasticStrain) |
-| [`YNormalStress`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/ResultType.md#ResultType.YNormalStress) |
-| [`YDirectionalHeatFlux`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/ResultType.md#ResultType.YDirectionalHeatFlux) |
-| [`YThermalStrain`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/ResultType.md#ResultType.YThermalStrain) |
-| [`YDirectionalTorsionalMoment`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/ResultType.md#ResultType.YDirectionalTorsionalMoment) |
-| [`YTotalMassAverageVelocity`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/ResultType.md#ResultType.YTotalMassAverageVelocity) |
-| [`YDirectionalVelocity`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/ResultType.md#ResultType.YDirectionalVelocity) |
-| [`YDirectionalVelocityPSD`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/ResultType.md#ResultType.YDirectionalVelocityPSD) |
-| [`YDirectionalVelocityRS`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/ResultType.md#ResultType.YDirectionalVelocityRS) |
-| [`YZShearElasticStrain`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/ResultType.md#ResultType.YZShearElasticStrain) |
-| [`YZShearStress`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/ResultType.md#ResultType.YZShearStress) |
-| [`ZDirectionalAcceleration`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/ResultType.md#ResultType.ZDirectionalAcceleration) |
-| [`ZdirectionalAccelerationPSD`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/ResultType.md#ResultType.ZdirectionalAccelerationPSD) |
-| [`ZDirectionalAccelerationRS`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/ResultType.md#ResultType.ZDirectionalAccelerationRS) |
-| [`ZDirectionalAxialForce`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/ResultType.md#ResultType.ZDirectionalAxialForce) |
-| [`ZDirectionalBendingMoment`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/ResultType.md#ResultType.ZDirectionalBendingMoment) |
-| [`ZContactForce`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/ResultType.md#ResultType.ZContactForce) |
-| [`ZDirectionalDisplacement`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/ResultType.md#ResultType.ZDirectionalDisplacement) |
-| [`ZDirectionalCurrentDensity`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/ResultType.md#ResultType.ZDirectionalCurrentDensity) |
-| [`ZDirectionalElectricFieldIntensity`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/ResultType.md#ResultType.ZDirectionalElectricFieldIntensity) |
-| [`ZDirectionalElectricFluxDensity`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/ResultType.md#ResultType.ZDirectionalElectricFluxDensity) |
-| [`ElementalEulerXZAngle`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/ResultType.md#ResultType.ElementalEulerXZAngle) |
-| [`ZExternalForce`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/ResultType.md#ResultType.ZExternalForce) |
-| [`ZDirectionalMagneticFieldIntensity`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/ResultType.md#ResultType.ZDirectionalMagneticFieldIntensity) |
-| [`ZDirectionalMagneticFluxDensity`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/ResultType.md#ResultType.ZDirectionalMagneticFluxDensity) |
-| [`MagneticZDirectionalForces`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/ResultType.md#ResultType.MagneticZDirectionalForces) |
-| [`MagneticPotential`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/ResultType.md#ResultType.MagneticPotential) |
-| [`ZMomentum`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/ResultType.md#ResultType.ZMomentum) |
-| [`NodalEulerXZAngle`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/ResultType.md#ResultType.NodalEulerXZAngle) |
-| [`ZDirectionalShearForce`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/ResultType.md#ResultType.ZDirectionalShearForce) |
-| [`ZNormalElasticStrain`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/ResultType.md#ResultType.ZNormalElasticStrain) |
-| [`ZNormalStress`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/ResultType.md#ResultType.ZNormalStress) |
-| [`ZDirectionalHeatFlux`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/ResultType.md#ResultType.ZDirectionalHeatFlux) |
-| [`ZThermalStrain`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/ResultType.md#ResultType.ZThermalStrain) |
-| [`ZDirectionalTorsionalMoment`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/ResultType.md#ResultType.ZDirectionalTorsionalMoment) |
-| [`ZTotalMassAverageVelocity`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/ResultType.md#ResultType.ZTotalMassAverageVelocity) |
-| [`ZDirectionalVelocity`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/ResultType.md#ResultType.ZDirectionalVelocity) |
-| [`ZDirectionalVelocityPSD`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/ResultType.md#ResultType.ZDirectionalVelocityPSD) |
-| [`ZDirectionalVelocityRS`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/ResultType.md#ResultType.ZDirectionalVelocityRS) |
+| ------------------------------------------------------------------------------------------------------------------ |
+| [`AWeightedFrequencyBandSPL`](#ResultType.AWeightedFrequencyBandSPL) |
+| [`AWeightedSoundPressureLevel`](#ResultType.AWeightedSoundPressureLevel) |
+| [`AbsorptionCoefficient`](#ResultType.AbsorptionCoefficient) |
+| [`AccelerationWaterfallDiagram`](#ResultType.AccelerationWaterfallDiagram) |
+| [`AccumulatedEquivalentPlasticStrain`](#ResultType.AccumulatedEquivalentPlasticStrain) |
+| [`AcousticFarFieldSPLMicWaterfallDiagram`](#ResultType.AcousticFarFieldSPLMicWaterfallDiagram) |
+| [`AcousticFarFieldSoundPowerLevelWaterfallDiagram`](#ResultType.AcousticFarFieldSoundPowerLevelWaterfallDiagram) |
+| [`ArtificialEnergy`](#ResultType.ArtificialEnergy) |
+| [`BendingStressEquivalent`](#ResultType.BendingStressEquivalent) |
+| [`BendingStressIntensity`](#ResultType.BendingStressIntensity) |
+| [`BoltAdjustment`](#ResultType.BoltAdjustment) |
+| [`BoltWorkingLoad`](#ResultType.BoltWorkingLoad) |
+| [`CampbellDiagram`](#ResultType.CampbellDiagram) |
+| [`ContactChattering`](#ResultType.ContactChattering) |
+| [`ContactContactingArea`](#ResultType.ContactContactingArea) |
+| [`ContactFluidPressure`](#ResultType.ContactFluidPressure) |
+| [`ContactFrictionalStress`](#ResultType.ContactFrictionalStress) |
+| [`ContactGap`](#ResultType.ContactGap) |
+| [`ContactHeatFlux`](#ResultType.ContactHeatFlux) |
+| [`ContactMaximumDampingPressure`](#ResultType.ContactMaximumDampingPressure) |
+| [`ContactMaximumNormalStiffness`](#ResultType.ContactMaximumNormalStiffness) |
+| [`ContactMaximumTangentialStiffness`](#ResultType.ContactMaximumTangentialStiffness) |
+| [`ContactMaxiumGeometricSlidingDistance`](#ResultType.ContactMaxiumGeometricSlidingDistance) |
+| [`ContactMinimumGeometricSlidingDistance`](#ResultType.ContactMinimumGeometricSlidingDistance) |
+| [`ContactMinimumTangentialStiffness`](#ResultType.ContactMinimumTangentialStiffness) |
+| [`ContactNumberContacting`](#ResultType.ContactNumberContacting) |
+| [`ContactNumberSticking`](#ResultType.ContactNumberSticking) |
+| [`ContactPenetration`](#ResultType.ContactPenetration) |
+| [`ContactPressure`](#ResultType.ContactPressure) |
+| [`ContactResultingPinball`](#ResultType.ContactResultingPinball) |
+| [`ContactSlidingDistance`](#ResultType.ContactSlidingDistance) |
+| [`ContactStatus`](#ResultType.ContactStatus) |
+| [`CurrentDensity`](#ResultType.CurrentDensity) |
+| [`DamageStatus`](#ResultType.DamageStatus) |
+| [`DampingEnergy`](#ResultType.DampingEnergy) |
+| [`Density`](#ResultType.Density) |
+| [`DiffuseSoundTransmissionLoss`](#ResultType.DiffuseSoundTransmissionLoss) |
+| [`DirectStress`](#ResultType.DirectStress) |
+| [`ElectricPotential`](#ResultType.ElectricPotential) |
+| [`ElectricVoltage`](#ResultType.ElectricVoltage) |
+| [`ElementalEulerXYAngle`](#ResultType.ElementalEulerXYAngle) |
+| [`ElementalEulerXZAngle`](#ResultType.ElementalEulerXZAngle) |
+| [`ElementalEulerYZAngle`](#ResultType.ElementalEulerYZAngle) |
+| [`ElementalStrainEnergy`](#ResultType.ElementalStrainEnergy) |
+| [`ElementalTriads`](#ResultType.ElementalTriads) |
+| [`EnergyDissipatedPerUnitVolume`](#ResultType.EnergyDissipatedPerUnitVolume) |
+| [`EquivalentCreepStrain`](#ResultType.EquivalentCreepStrain) |
+| [`EquivalentCreepStrainRST`](#ResultType.EquivalentCreepStrainRST) |
+| [`EquivalentElasticStrain`](#ResultType.EquivalentElasticStrain) |
+| [`EquivalentElasticStrainRST`](#ResultType.EquivalentElasticStrainRST) |
+| [`EquivalentPlasticStrain`](#ResultType.EquivalentPlasticStrain) |
+| [`EquivalentPlasticStrainRST`](#ResultType.EquivalentPlasticStrainRST) |
+| [`EquivalentRadiatedPower`](#ResultType.EquivalentRadiatedPower) |
+| [`EquivalentRadiatedPowerLevel`](#ResultType.EquivalentRadiatedPowerLevel) |
+| [`EquivalentRadiatedPowerLevelWaterfallDiagram`](#ResultType.EquivalentRadiatedPowerLevelWaterfallDiagram) |
+| [`EquivalentRadiatedPowerWaterfallDiagram`](#ResultType.EquivalentRadiatedPowerWaterfallDiagram) |
+| [`EquivalentStress`](#ResultType.EquivalentStress) |
+| [`EquivalentStressPSD`](#ResultType.EquivalentStressPSD) |
+| [`EquivalentStressRS`](#ResultType.EquivalentStressRS) |
+| [`EquivalentTotalStrainRST`](#ResultType.EquivalentTotalStrainRST) |
+| [`FactorReserveInverseCompositeFailure`](#ResultType.FactorReserveInverseCompositeFailure) |
+| [`FarFieldAWeightedSPL`](#ResultType.FarFieldAWeightedSPL) |
+| [`FarFieldAWeightedSPLMic`](#ResultType.FarFieldAWeightedSPLMic) |
+| [`FarFieldDirectivity`](#ResultType.FarFieldDirectivity) |
+| [`FarFieldMaximumPressure`](#ResultType.FarFieldMaximumPressure) |
+| [`FarFieldMaximumPressureMic`](#ResultType.FarFieldMaximumPressureMic) |
+| [`FarFieldMaximumScatteredPressure`](#ResultType.FarFieldMaximumScatteredPressure) |
+| [`FarFieldPhase`](#ResultType.FarFieldPhase) |
+| [`FarFieldPhaseMic`](#ResultType.FarFieldPhaseMic) |
+| [`FarFieldSPL`](#ResultType.FarFieldSPL) |
+| [`FarFieldSPLMic`](#ResultType.FarFieldSPLMic) |
+| [`FarFieldSoundPowerLevel`](#ResultType.FarFieldSoundPowerLevel) |
+| [`FarFieldTargetStrength`](#ResultType.FarFieldTargetStrength) |
+| [`FatigueDamage`](#ResultType.FatigueDamage) |
+| [`FatigueEquivalentReversedStress`](#ResultType.FatigueEquivalentReversedStress) |
+| [`FatigueLife`](#ResultType.FatigueLife) |
+| [`FatigueResultBiaxialityIndication`](#ResultType.FatigueResultBiaxialityIndication) |
+| [`FatigueSensitivity`](#ResultType.FatigueSensitivity) |
+| [`FiberCompressiveDamageVariable`](#ResultType.FiberCompressiveDamageVariable) |
+| [`FiberCompressiveFailureCriterion`](#ResultType.FiberCompressiveFailureCriterion) |
+| [`FiberTensileDamageVariable`](#ResultType.FiberTensileDamageVariable) |
+| [`FiberTensileFailureCriterion`](#ResultType.FiberTensileFailureCriterion) |
+| [`FluidFlowRate`](#ResultType.FluidFlowRate) |
+| [`FluidHeatConductionRate`](#ResultType.FluidHeatConductionRate) |
+| [`FluidHeatTransportRate`](#ResultType.FluidHeatTransportRate) |
+| [`ForceReaction`](#ResultType.ForceReaction) |
+| [`FractureCSTAR`](#ResultType.FractureCSTAR) |
+| [`FractureEquivalentSIFSRange`](#ResultType.FractureEquivalentSIFSRange) |
+| [`FractureJINT`](#ResultType.FractureJINT) |
+| [`FractureMaterialForceX`](#ResultType.FractureMaterialForceX) |
+| [`FractureMaterialForceY`](#ResultType.FractureMaterialForceY) |
+| [`FractureMaterialForceZ`](#ResultType.FractureMaterialForceZ) |
+| [`FractureSIFSK1`](#ResultType.FractureSIFSK1) |
+| [`FractureSIFSK2`](#ResultType.FractureSIFSK2) |
+| [`FractureSIFSK3`](#ResultType.FractureSIFSK3) |
+| [`FractureTSTRESS`](#ResultType.FractureTSTRESS) |
+| [`FractureVCCTG1`](#ResultType.FractureVCCTG1) |
+| [`FractureVCCTG2`](#ResultType.FractureVCCTG2) |
+| [`FractureVCCTG3`](#ResultType.FractureVCCTG3) |
+| [`FractureVCCTGT`](#ResultType.FractureVCCTGT) |
+| [`FrequencyBandSPL`](#ResultType.FrequencyBandSPL) |
+| [`Hysteresis`](#ResultType.Hysteresis) |
+| [`JouleHeat`](#ResultType.JouleHeat) |
+| [`KineticEnergy`](#ResultType.KineticEnergy) |
+| [`LSDYNAGeneralTracker`](#ResultType.LSDYNAGeneralTracker) |
+| [`LatticeDensity`](#ResultType.LatticeDensity) |
+| [`LatticeElementalDensity`](#ResultType.LatticeElementalDensity) |
+| [`LinePressure`](#ResultType.LinePressure) |
+| [`MCFWaterfallDiagram`](#ResultType.MCFWaterfallDiagram) |
+| [`MagneticCoenergy`](#ResultType.MagneticCoenergy) |
+| [`MagneticError`](#ResultType.MagneticError) |
+| [`MagneticPotential`](#ResultType.MagneticPotential) |
+| [`MagneticXDirectionalForces`](#ResultType.MagneticXDirectionalForces) |
+| [`MagneticYDirectionalForces`](#ResultType.MagneticYDirectionalForces) |
+| [`MagneticZDirectionalForces`](#ResultType.MagneticZDirectionalForces) |
+| [`MarginSafetyCompositeFailure`](#ResultType.MarginSafetyCompositeFailure) |
+| [`MatrixCompressiveDamageVariable`](#ResultType.MatrixCompressiveDamageVariable) |
+| [`MatrixCompressiveFailureCriterion`](#ResultType.MatrixCompressiveFailureCriterion) |
+| [`MatrixTensileDamageVariable`](#ResultType.MatrixTensileDamageVariable) |
+| [`MatrixTensileFailureCriterion`](#ResultType.MatrixTensileFailureCriterion) |
+| [`MaximumBendingStress`](#ResultType.MaximumBendingStress) |
+| [`MaximumCombinedStress`](#ResultType.MaximumCombinedStress) |
+| [`MaximumFailureCriteria`](#ResultType.MaximumFailureCriteria) |
+| [`MaximumPrincipalElasticStrain`](#ResultType.MaximumPrincipalElasticStrain) |
+| [`MaximumPrincipalStress`](#ResultType.MaximumPrincipalStress) |
+| [`MaximumPrincipalThermalStrain`](#ResultType.MaximumPrincipalThermalStrain) |
+| [`MaximumShearElasticStrain`](#ResultType.MaximumShearElasticStrain) |
+| [`MaximumShearStress`](#ResultType.MaximumShearStress) |
+| [`MembraneStressEquivalent`](#ResultType.MembraneStressEquivalent) |
+| [`MembraneStressIntensity`](#ResultType.MembraneStressIntensity) |
+| [`MiddlePrincipalElasticStrain`](#ResultType.MiddlePrincipalElasticStrain) |
+| [`MiddlePrincipalStress`](#ResultType.MiddlePrincipalStress) |
+| [`MiddlePrincipalThermalStrain`](#ResultType.MiddlePrincipalThermalStrain) |
+| [`MinimumBendingStress`](#ResultType.MinimumBendingStress) |
+| [`MinimumCombinedStress`](#ResultType.MinimumCombinedStress) |
+| [`MinimumPrincipalElasticStrain`](#ResultType.MinimumPrincipalElasticStrain) |
+| [`MinimumPrincipalStress`](#ResultType.MinimumPrincipalStress) |
+| [`MinimumPrincipalThermalStrain`](#ResultType.MinimumPrincipalThermalStrain) |
+| [`MomentReactionTracker`](#ResultType.MomentReactionTracker) |
+| [`MullinsDamageVariable`](#ResultType.MullinsDamageVariable) |
+| [`MullinsMaximumPreviousStrainEnergy`](#ResultType.MullinsMaximumPreviousStrainEnergy) |
+| [`NewtonRaphsonResidualCharge`](#ResultType.NewtonRaphsonResidualCharge) |
+| [`NewtonRaphsonResidualForce`](#ResultType.NewtonRaphsonResidualForce) |
+| [`NewtonRaphsonResidualHeat`](#ResultType.NewtonRaphsonResidualHeat) |
+| [`NewtonRaphsonResidualMoment`](#ResultType.NewtonRaphsonResidualMoment) |
+| [`NodalEulerXYAngle`](#ResultType.NodalEulerXYAngle) |
+| [`NodalEulerXZAngle`](#ResultType.NodalEulerXZAngle) |
+| [`NodalEulerYZNodal`](#ResultType.NodalEulerYZNodal) |
+| [`NodalTriads`](#ResultType.NodalTriads) |
+| [`NonLinearStabilizationEnergy`](#ResultType.NonLinearStabilizationEnergy) |
+| [`NormalGasketPressure`](#ResultType.NormalGasketPressure) |
+| [`NormalGasketTotalClosure`](#ResultType.NormalGasketTotalClosure) |
+| [`PlasticWork`](#ResultType.PlasticWork) |
+| [`Pressure`](#ResultType.Pressure) |
+| [`ReturnLoss`](#ResultType.ReturnLoss) |
+| [`SafetyFactor`](#ResultType.SafetyFactor) |
+| [`SafetyFactorCompositeFailure`](#ResultType.SafetyFactorCompositeFailure) |
+| [`SafetyFactorFatigue`](#ResultType.SafetyFactorFatigue) |
+| [`SafetyMargin`](#ResultType.SafetyMargin) |
+| [`ShapeFinder`](#ResultType.ShapeFinder) |
+| [`ShapeFinderElemental`](#ResultType.ShapeFinderElemental) |
+| [`ShearDamageVariable`](#ResultType.ShearDamageVariable) |
+| [`ShearMomentDiagramMSUM`](#ResultType.ShearMomentDiagramMSUM) |
+| [`ShearMomentDiagramMY`](#ResultType.ShearMomentDiagramMY) |
+| [`ShearMomentDiagramMZ`](#ResultType.ShearMomentDiagramMZ) |
+| [`ShearMomentDiagramUSUM`](#ResultType.ShearMomentDiagramUSUM) |
+| [`ShearMomentDiagramUY`](#ResultType.ShearMomentDiagramUY) |
+| [`ShearMomentDiagramUZ`](#ResultType.ShearMomentDiagramUZ) |
+| [`ShearMomentDiagramVSUM`](#ResultType.ShearMomentDiagramVSUM) |
+| [`ShearMomentDiagramVY`](#ResultType.ShearMomentDiagramVY) |
+| [`ShearMomentDiagramVZ`](#ResultType.ShearMomentDiagramVZ) |
+| [`ShellBendingStress11`](#ResultType.ShellBendingStress11) |
+| [`ShellBendingStress12`](#ResultType.ShellBendingStress12) |
+| [`ShellBendingStress22`](#ResultType.ShellBendingStress22) |
+| [`ShellBottomPeakStress11`](#ResultType.ShellBottomPeakStress11) |
+| [`ShellBottomPeakStress12`](#ResultType.ShellBottomPeakStress12) |
+| [`ShellBottomPeakStress22`](#ResultType.ShellBottomPeakStress22) |
+| [`ShellMembraneStress11`](#ResultType.ShellMembraneStress11) |
+| [`ShellMembraneStress12`](#ResultType.ShellMembraneStress12) |
+| [`ShellMembraneStress22`](#ResultType.ShellMembraneStress22) |
+| [`ShellTopPeakStress11`](#ResultType.ShellTopPeakStress11) |
+| [`ShellTopPeakStress12`](#ResultType.ShellTopPeakStress12) |
+| [`ShellTopPeakStress22`](#ResultType.ShellTopPeakStress22) |
+| [`SoundPressureLevel`](#ResultType.SoundPressureLevel) |
+| [`SpringTrackerDampingForce`](#ResultType.SpringTrackerDampingForce) |
+| [`SpringTrackerElasticForce`](#ResultType.SpringTrackerElasticForce) |
+| [`SpringTrackerElongation`](#ResultType.SpringTrackerElongation) |
+| [`SpringTrackerVelocity`](#ResultType.SpringTrackerVelocity) |
+| [`StabilizationEnergy`](#ResultType.StabilizationEnergy) |
+| [`StiffnessEnergy`](#ResultType.StiffnessEnergy) |
+| [`StrainIntensity`](#ResultType.StrainIntensity) |
+| [`StressIntensity`](#ResultType.StressIntensity) |
+| [`StressRatio`](#ResultType.StressRatio) |
+| [`StructuralError`](#ResultType.StructuralError) |
+| [`StructuralStrainEnergy`](#ResultType.StructuralStrainEnergy) |
+| [`Temperature`](#ResultType.Temperature) |
+| [`ThermalError`](#ResultType.ThermalError) |
+| [`ThermalStrainEnergy`](#ResultType.ThermalStrainEnergy) |
+| [`TopologyDensity`](#ResultType.TopologyDensity) |
+| [`TopologyElementalDensity`](#ResultType.TopologyElementalDensity) |
+| [`TotalAcceleration`](#ResultType.TotalAcceleration) |
+| [`TotalAxialForceDiagram`](#ResultType.TotalAxialForceDiagram) |
+| [`TotalBendingMomentDiagram`](#ResultType.TotalBendingMomentDiagram) |
+| [`TotalCurrentDensity`](#ResultType.TotalCurrentDensity) |
+| [`TotalDeformation`](#ResultType.TotalDeformation) |
+| [`TotalElectricFieldIntensity`](#ResultType.TotalElectricFieldIntensity) |
+| [`TotalElectricFluxDensity`](#ResultType.TotalElectricFluxDensity) |
+| [`TotalEnergy`](#ResultType.TotalEnergy) |
+| [`TotalHeatFlux`](#ResultType.TotalHeatFlux) |
+| [`TotalMagneticFieldIntensity`](#ResultType.TotalMagneticFieldIntensity) |
+| [`TotalMagneticFluxDensity`](#ResultType.TotalMagneticFluxDensity) |
+| [`TotalMagneticForces`](#ResultType.TotalMagneticForces) |
+| [`TotalShearForce`](#ResultType.TotalShearForce) |
+| [`TotalTorsionalMoment`](#ResultType.TotalTorsionalMoment) |
+| [`TotalVelocity`](#ResultType.TotalVelocity) |
+| [`TransmissionLoss`](#ResultType.TransmissionLoss) |
+| [`VariableGraph`](#ResultType.VariableGraph) |
+| [`VectorAxialForce`](#ResultType.VectorAxialForce) |
+| [`VectorBendingMoment`](#ResultType.VectorBendingMoment) |
+| [`VectorDeformation`](#ResultType.VectorDeformation) |
+| [`VectorHeatFlux`](#ResultType.VectorHeatFlux) |
+| [`VectorPrincipalElasticStrain`](#ResultType.VectorPrincipalElasticStrain) |
+| [`VectorPrincipalStress`](#ResultType.VectorPrincipalStress) |
+| [`VectorShearForce`](#ResultType.VectorShearForce) |
+| [`VectorTorsionalMoment`](#ResultType.VectorTorsionalMoment) |
+| [`VelocityWaterfallDiagram`](#ResultType.VelocityWaterfallDiagram) |
+| [`Volume`](#ResultType.Volume) |
+| [`XContactForce`](#ResultType.XContactForce) |
+| [`XDirectionalAcceleration`](#ResultType.XDirectionalAcceleration) |
+| [`XDirectionalAccelerationPSD`](#ResultType.XDirectionalAccelerationPSD) |
+| [`XDirectionalAccelerationRS`](#ResultType.XDirectionalAccelerationRS) |
+| [`XDirectionalAxialForce`](#ResultType.XDirectionalAxialForce) |
+| [`XDirectionalBendingMoment`](#ResultType.XDirectionalBendingMoment) |
+| [`XDirectionalCurrentDensity`](#ResultType.XDirectionalCurrentDensity) |
+| [`XDirectionalDisplacement`](#ResultType.XDirectionalDisplacement) |
+| [`XDirectionalElectricFieldIntensity`](#ResultType.XDirectionalElectricFieldIntensity) |
+| [`XDirectionalElectricFluxDensity`](#ResultType.XDirectionalElectricFluxDensity) |
+| [`XDirectionalHeatFlux`](#ResultType.XDirectionalHeatFlux) |
+| [`XDirectionalMagneticFieldIntensity`](#ResultType.XDirectionalMagneticFieldIntensity) |
+| [`XDirectionalMagneticFluxDensity`](#ResultType.XDirectionalMagneticFluxDensity) |
+| [`XDirectionalShearForce`](#ResultType.XDirectionalShearForce) |
+| [`XDirectionalTorsionalMoment`](#ResultType.XDirectionalTorsionalMoment) |
+| [`XDirectionalVelocity`](#ResultType.XDirectionalVelocity) |
+| [`XDirectionalVelocityPSD`](#ResultType.XDirectionalVelocityPSD) |
+| [`XDirectionalVelocityRS`](#ResultType.XDirectionalVelocityRS) |
+| [`XExternalForce`](#ResultType.XExternalForce) |
+| [`XMomentum`](#ResultType.XMomentum) |
+| [`XNormalElasticStrain`](#ResultType.XNormalElasticStrain) |
+| [`XNormalStress`](#ResultType.XNormalStress) |
+| [`XThermalStrain`](#ResultType.XThermalStrain) |
+| [`XTotalMassAverageVelocity`](#ResultType.XTotalMassAverageVelocity) |
+| [`XYShearElasticStrain`](#ResultType.XYShearElasticStrain) |
+| [`XYShearGasketPressure`](#ResultType.XYShearGasketPressure) |
+| [`XYShearGasketTotalClosure`](#ResultType.XYShearGasketTotalClosure) |
+| [`XYShearStress`](#ResultType.XYShearStress) |
+| [`XZShearElasticStrain`](#ResultType.XZShearElasticStrain) |
+| [`XZShearGasketPressure`](#ResultType.XZShearGasketPressure) |
+| [`XZShearGasketTotalClosure`](#ResultType.XZShearGasketTotalClosure) |
+| [`XZShearStress`](#ResultType.XZShearStress) |
+| [`YContactForce`](#ResultType.YContactForce) |
+| [`YDirectionalAcceleration`](#ResultType.YDirectionalAcceleration) |
+| [`YDirectionalAccelerationPSD`](#ResultType.YDirectionalAccelerationPSD) |
+| [`YDirectionalAccelerationRS`](#ResultType.YDirectionalAccelerationRS) |
+| [`YDirectionalAxialForce`](#ResultType.YDirectionalAxialForce) |
+| [`YDirectionalBendingMoment`](#ResultType.YDirectionalBendingMoment) |
+| [`YDirectionalCurrentDensity`](#ResultType.YDirectionalCurrentDensity) |
+| [`YDirectionalDisplacement`](#ResultType.YDirectionalDisplacement) |
+| [`YDirectionalElectricFieldIntensity`](#ResultType.YDirectionalElectricFieldIntensity) |
+| [`YDirectionalElectricFluxDensity`](#ResultType.YDirectionalElectricFluxDensity) |
+| [`YDirectionalHeatFlux`](#ResultType.YDirectionalHeatFlux) |
+| [`YDirectionalMagneticFieldIntensity`](#ResultType.YDirectionalMagneticFieldIntensity) |
+| [`YDirectionalMagneticFluxDensity`](#ResultType.YDirectionalMagneticFluxDensity) |
+| [`YDirectionalShearForce`](#ResultType.YDirectionalShearForce) |
+| [`YDirectionalTorsionalMoment`](#ResultType.YDirectionalTorsionalMoment) |
+| [`YDirectionalVelocity`](#ResultType.YDirectionalVelocity) |
+| [`YDirectionalVelocityPSD`](#ResultType.YDirectionalVelocityPSD) |
+| [`YDirectionalVelocityRS`](#ResultType.YDirectionalVelocityRS) |
+| [`YExternalForce`](#ResultType.YExternalForce) |
+| [`YMomentum`](#ResultType.YMomentum) |
+| [`YNormalElasticStrain`](#ResultType.YNormalElasticStrain) |
+| [`YNormalStress`](#ResultType.YNormalStress) |
+| [`YThermalStrain`](#ResultType.YThermalStrain) |
+| [`YTotalMassAverageVelocity`](#ResultType.YTotalMassAverageVelocity) |
+| [`YZShearElasticStrain`](#ResultType.YZShearElasticStrain) |
+| [`YZShearStress`](#ResultType.YZShearStress) |
+| [`ZContactForce`](#ResultType.ZContactForce) |
+| [`ZDirectionalAcceleration`](#ResultType.ZDirectionalAcceleration) |
+| [`ZDirectionalAccelerationRS`](#ResultType.ZDirectionalAccelerationRS) |
+| [`ZDirectionalAxialForce`](#ResultType.ZDirectionalAxialForce) |
+| [`ZDirectionalBendingMoment`](#ResultType.ZDirectionalBendingMoment) |
+| [`ZDirectionalCurrentDensity`](#ResultType.ZDirectionalCurrentDensity) |
+| [`ZDirectionalDisplacement`](#ResultType.ZDirectionalDisplacement) |
+| [`ZDirectionalElectricFieldIntensity`](#ResultType.ZDirectionalElectricFieldIntensity) |
+| [`ZDirectionalElectricFluxDensity`](#ResultType.ZDirectionalElectricFluxDensity) |
+| [`ZDirectionalHeatFlux`](#ResultType.ZDirectionalHeatFlux) |
+| [`ZDirectionalMagneticFieldIntensity`](#ResultType.ZDirectionalMagneticFieldIntensity) |
+| [`ZDirectionalMagneticFluxDensity`](#ResultType.ZDirectionalMagneticFluxDensity) |
+| [`ZDirectionalShearForce`](#ResultType.ZDirectionalShearForce) |
+| [`ZDirectionalTorsionalMoment`](#ResultType.ZDirectionalTorsionalMoment) |
+| [`ZDirectionalVelocity`](#ResultType.ZDirectionalVelocity) |
+| [`ZDirectionalVelocityPSD`](#ResultType.ZDirectionalVelocityPSD) |
+| [`ZDirectionalVelocityRS`](#ResultType.ZDirectionalVelocityRS) |
+| [`ZExternalForce`](#ResultType.ZExternalForce) |
+| [`ZMomentum`](#ResultType.ZMomentum) |
+| [`ZNormalElasticStrain`](#ResultType.ZNormalElasticStrain) |
+| [`ZNormalStress`](#ResultType.ZNormalStress) |
+| [`ZThermalStrain`](#ResultType.ZThermalStrain) |
+| [`ZTotalMassAverageVelocity`](#ResultType.ZTotalMassAverageVelocity) |
+| [`ZdirectionalAccelerationPSD`](#ResultType.ZdirectionalAccelerationPSD) |
 
 <a id="attribute-detail"></a>
 
 ## Attribute detail
+
+<a id="ResultType.AWeightedFrequencyBandSPL"></a>
+
+### ResultType.AWeightedFrequencyBandSPL *= 361*
+
+<a id="ResultType.AWeightedSoundPressureLevel"></a>
+
+### ResultType.AWeightedSoundPressureLevel *= 359*
+
+<a id="ResultType.AbsorptionCoefficient"></a>
+
+### ResultType.AbsorptionCoefficient *= 370*
 
 <a id="ResultType.AccelerationWaterfallDiagram"></a>
 
@@ -340,109 +352,13 @@ Specifies the ResultType.
 
 ### ResultType.AccumulatedEquivalentPlasticStrain *= 386*
 
-<a id="ResultType.AbsorptionCoefficient"></a>
-
-### ResultType.AbsorptionCoefficient *= 370*
-
-<a id="ResultType.DiffuseSoundTransmissionLoss"></a>
-
-### ResultType.DiffuseSoundTransmissionLoss *= 377*
-
-<a id="ResultType.EquivalentRadiatedPower"></a>
-
-### ResultType.EquivalentRadiatedPower *= 378*
-
-<a id="ResultType.EquivalentRadiatedPowerLevel"></a>
-
-### ResultType.EquivalentRadiatedPowerLevel *= 379*
-
-<a id="ResultType.EquivalentRadiatedPowerLevelWaterfallDiagram"></a>
-
-### ResultType.EquivalentRadiatedPowerLevelWaterfallDiagram *= 385*
-
-<a id="ResultType.EquivalentRadiatedPowerWaterfallDiagram"></a>
-
-### ResultType.EquivalentRadiatedPowerWaterfallDiagram *= 384*
-
-<a id="ResultType.FarFieldDirectivity"></a>
-
-### ResultType.FarFieldDirectivity *= 354*
-
-<a id="ResultType.FarFieldMaximumPressure"></a>
-
-### ResultType.FarFieldMaximumPressure *= 352*
-
-<a id="ResultType.FarFieldMaximumPressureMic"></a>
-
-### ResultType.FarFieldMaximumPressureMic *= 374*
-
-<a id="ResultType.FarFieldMaximumScatteredPressure"></a>
-
-### ResultType.FarFieldMaximumScatteredPressure *= 355*
-
-<a id="ResultType.FarFieldPhase"></a>
-
-### ResultType.FarFieldPhase *= 353*
-
-<a id="ResultType.FarFieldPhaseMic"></a>
-
-### ResultType.FarFieldPhaseMic *= 375*
-
-<a id="ResultType.FarFieldSoundPowerLevel"></a>
-
-### ResultType.FarFieldSoundPowerLevel *= 357*
-
-<a id="ResultType.AcousticFarFieldSoundPowerLevelWaterfallDiagram"></a>
-
-### ResultType.AcousticFarFieldSoundPowerLevelWaterfallDiagram *= 387*
-
-<a id="ResultType.FarFieldSPL"></a>
-
-### ResultType.FarFieldSPL *= 350*
-
-<a id="ResultType.FarFieldSPLMic"></a>
-
-### ResultType.FarFieldSPLMic *= 372*
-
 <a id="ResultType.AcousticFarFieldSPLMicWaterfallDiagram"></a>
 
 ### ResultType.AcousticFarFieldSPLMicWaterfallDiagram *= 388*
 
-<a id="ResultType.FarFieldTargetStrength"></a>
+<a id="ResultType.AcousticFarFieldSoundPowerLevelWaterfallDiagram"></a>
 
-### ResultType.FarFieldTargetStrength *= 356*
-
-<a id="ResultType.FarFieldAWeightedSPL"></a>
-
-### ResultType.FarFieldAWeightedSPL *= 351*
-
-<a id="ResultType.FarFieldAWeightedSPLMic"></a>
-
-### ResultType.FarFieldAWeightedSPLMic *= 373*
-
-<a id="ResultType.ReturnLoss"></a>
-
-### ResultType.ReturnLoss *= 371*
-
-<a id="ResultType.TransmissionLoss"></a>
-
-### ResultType.TransmissionLoss *= 369*
-
-<a id="ResultType.FrequencyBandSPL"></a>
-
-### ResultType.FrequencyBandSPL *= 360*
-
-<a id="ResultType.SoundPressureLevel"></a>
-
-### ResultType.SoundPressureLevel *= 358*
-
-<a id="ResultType.AWeightedFrequencyBandSPL"></a>
-
-### ResultType.AWeightedFrequencyBandSPL *= 361*
-
-<a id="ResultType.AWeightedSoundPressureLevel"></a>
-
-### ResultType.AWeightedSoundPressureLevel *= 359*
+### ResultType.AcousticFarFieldSoundPowerLevelWaterfallDiagram *= 387*
 
 <a id="ResultType.ArtificialEnergy"></a>
 
@@ -456,10 +372,6 @@ Specifies the ResultType.
 
 ### ResultType.BendingStressIntensity *= 123*
 
-<a id="ResultType.FatigueResultBiaxialityIndication"></a>
-
-### ResultType.FatigueResultBiaxialityIndication *= 63*
-
 <a id="ResultType.BoltAdjustment"></a>
 
 ### ResultType.BoltAdjustment *= 294*
@@ -467,6 +379,10 @@ Specifies the ResultType.
 <a id="ResultType.BoltWorkingLoad"></a>
 
 ### ResultType.BoltWorkingLoad *= 295*
+
+<a id="ResultType.CampbellDiagram"></a>
+
+### ResultType.CampbellDiagram *= 248*
 
 <a id="ResultType.ContactChattering"></a>
 
@@ -496,10 +412,6 @@ Specifies the ResultType.
 
 ### ResultType.ContactMaximumDampingPressure *= 249*
 
-<a id="ResultType.ContactMaxiumGeometricSlidingDistance"></a>
-
-### ResultType.ContactMaxiumGeometricSlidingDistance *= 289*
-
 <a id="ResultType.ContactMaximumNormalStiffness"></a>
 
 ### ResultType.ContactMaximumNormalStiffness *= 103*
@@ -507,6 +419,10 @@ Specifies the ResultType.
 <a id="ResultType.ContactMaximumTangentialStiffness"></a>
 
 ### ResultType.ContactMaximumTangentialStiffness *= 104*
+
+<a id="ResultType.ContactMaxiumGeometricSlidingDistance"></a>
+
+### ResultType.ContactMaxiumGeometricSlidingDistance *= 289*
 
 <a id="ResultType.ContactMinimumGeometricSlidingDistance"></a>
 
@@ -548,77 +464,53 @@ Specifies the ResultType.
 
 ### ResultType.CurrentDensity *= 118*
 
-<a id="ResultType.FatigueDamage"></a>
-
-### ResultType.FatigueDamage *= 62*
-
 <a id="ResultType.DamageStatus"></a>
 
 ### ResultType.DamageStatus *= 281*
-
-<a id="ResultType.MullinsDamageVariable"></a>
-
-### ResultType.MullinsDamageVariable *= 274*
 
 <a id="ResultType.DampingEnergy"></a>
 
 ### ResultType.DampingEnergy *= 400*
 
-<a id="ResultType.VectorDeformation"></a>
-
-### ResultType.VectorDeformation *= 75*
-
-<a id="ResultType.TotalDeformation"></a>
-
-### ResultType.TotalDeformation *= 25*
-
 <a id="ResultType.Density"></a>
 
 ### ResultType.Density *= 195*
+
+<a id="ResultType.DiffuseSoundTransmissionLoss"></a>
+
+### ResultType.DiffuseSoundTransmissionLoss *= 377*
 
 <a id="ResultType.DirectStress"></a>
 
 ### ResultType.DirectStress *= 109*
 
-<a id="ResultType.EquivalentElasticStrain"></a>
+<a id="ResultType.ElectricPotential"></a>
 
-### ResultType.EquivalentElasticStrain *= 13*
-
-<a id="ResultType.EquivalentElasticStrainRST"></a>
-
-### ResultType.EquivalentElasticStrainRST *= 250*
-
-<a id="ResultType.EquivalentStress"></a>
-
-### ResultType.EquivalentStress *= 1*
-
-<a id="ResultType.EquivalentStressPSD"></a>
-
-### ResultType.EquivalentStressPSD *= 138*
-
-<a id="ResultType.EquivalentStressRS"></a>
-
-### ResultType.EquivalentStressRS *= 173*
-
-<a id="ResultType.JouleHeat"></a>
-
-### ResultType.JouleHeat *= 154*
+### ResultType.ElectricPotential *= 114*
 
 <a id="ResultType.ElectricVoltage"></a>
 
 ### ResultType.ElectricVoltage *= 153*
 
-<a id="ResultType.ElectricPotential"></a>
+<a id="ResultType.ElementalEulerXYAngle"></a>
 
-### ResultType.ElectricPotential *= 114*
+### ResultType.ElementalEulerXYAngle *= 197*
 
-<a id="ResultType.Volume"></a>
+<a id="ResultType.ElementalEulerXZAngle"></a>
 
-### ResultType.Volume *= 382*
+### ResultType.ElementalEulerXZAngle *= 199*
+
+<a id="ResultType.ElementalEulerYZAngle"></a>
+
+### ResultType.ElementalEulerYZAngle *= 198*
 
 <a id="ResultType.ElementalStrainEnergy"></a>
 
 ### ResultType.ElementalStrainEnergy *= 135*
+
+<a id="ResultType.ElementalTriads"></a>
+
+### ResultType.ElementalTriads *= 200*
 
 <a id="ResultType.EnergyDissipatedPerUnitVolume"></a>
 
@@ -632,6 +524,14 @@ Specifies the ResultType.
 
 ### ResultType.EquivalentCreepStrainRST *= 252*
 
+<a id="ResultType.EquivalentElasticStrain"></a>
+
+### ResultType.EquivalentElasticStrain *= 13*
+
+<a id="ResultType.EquivalentElasticStrainRST"></a>
+
+### ResultType.EquivalentElasticStrainRST *= 250*
+
 <a id="ResultType.EquivalentPlasticStrain"></a>
 
 ### ResultType.EquivalentPlasticStrain *= 84*
@@ -640,45 +540,105 @@ Specifies the ResultType.
 
 ### ResultType.EquivalentPlasticStrainRST *= 251*
 
+<a id="ResultType.EquivalentRadiatedPower"></a>
+
+### ResultType.EquivalentRadiatedPower *= 378*
+
+<a id="ResultType.EquivalentRadiatedPowerLevel"></a>
+
+### ResultType.EquivalentRadiatedPowerLevel *= 379*
+
+<a id="ResultType.EquivalentRadiatedPowerLevelWaterfallDiagram"></a>
+
+### ResultType.EquivalentRadiatedPowerLevelWaterfallDiagram *= 385*
+
+<a id="ResultType.EquivalentRadiatedPowerWaterfallDiagram"></a>
+
+### ResultType.EquivalentRadiatedPowerWaterfallDiagram *= 384*
+
+<a id="ResultType.EquivalentStress"></a>
+
+### ResultType.EquivalentStress *= 1*
+
+<a id="ResultType.EquivalentStressPSD"></a>
+
+### ResultType.EquivalentStressPSD *= 138*
+
+<a id="ResultType.EquivalentStressRS"></a>
+
+### ResultType.EquivalentStressRS *= 173*
+
 <a id="ResultType.EquivalentTotalStrainRST"></a>
 
 ### ResultType.EquivalentTotalStrainRST *= 243*
-
-<a id="ResultType.MagneticError"></a>
-
-### ResultType.MagneticError *= 134*
-
-<a id="ResultType.StructuralError"></a>
-
-### ResultType.StructuralError *= 116*
-
-<a id="ResultType.ThermalError"></a>
-
-### ResultType.ThermalError *= 117*
 
 <a id="ResultType.FactorReserveInverseCompositeFailure"></a>
 
 ### ResultType.FactorReserveInverseCompositeFailure *= 321*
 
-<a id="ResultType.SafetyFactorCompositeFailure"></a>
+<a id="ResultType.FarFieldAWeightedSPL"></a>
 
-### ResultType.SafetyFactorCompositeFailure *= 322*
+### ResultType.FarFieldAWeightedSPL *= 351*
 
-<a id="ResultType.SafetyFactorFatigue"></a>
+<a id="ResultType.FarFieldAWeightedSPLMic"></a>
 
-### ResultType.SafetyFactorFatigue *= 61*
+### ResultType.FarFieldAWeightedSPLMic *= 373*
 
-<a id="ResultType.SafetyFactor"></a>
+<a id="ResultType.FarFieldDirectivity"></a>
 
-### ResultType.SafetyFactor *= 30*
+### ResultType.FarFieldDirectivity *= 354*
+
+<a id="ResultType.FarFieldMaximumPressure"></a>
+
+### ResultType.FarFieldMaximumPressure *= 352*
+
+<a id="ResultType.FarFieldMaximumPressureMic"></a>
+
+### ResultType.FarFieldMaximumPressureMic *= 374*
+
+<a id="ResultType.FarFieldMaximumScatteredPressure"></a>
+
+### ResultType.FarFieldMaximumScatteredPressure *= 355*
+
+<a id="ResultType.FarFieldPhase"></a>
+
+### ResultType.FarFieldPhase *= 353*
+
+<a id="ResultType.FarFieldPhaseMic"></a>
+
+### ResultType.FarFieldPhaseMic *= 375*
+
+<a id="ResultType.FarFieldSPL"></a>
+
+### ResultType.FarFieldSPL *= 350*
+
+<a id="ResultType.FarFieldSPLMic"></a>
+
+### ResultType.FarFieldSPLMic *= 372*
+
+<a id="ResultType.FarFieldSoundPowerLevel"></a>
+
+### ResultType.FarFieldSoundPowerLevel *= 357*
+
+<a id="ResultType.FarFieldTargetStrength"></a>
+
+### ResultType.FarFieldTargetStrength *= 356*
+
+<a id="ResultType.FatigueDamage"></a>
+
+### ResultType.FatigueDamage *= 62*
 
 <a id="ResultType.FatigueEquivalentReversedStress"></a>
 
 ### ResultType.FatigueEquivalentReversedStress *= 74*
 
-<a id="ResultType.Hysteresis"></a>
+<a id="ResultType.FatigueLife"></a>
 
-### ResultType.Hysteresis *= 115*
+### ResultType.FatigueLife *= 60*
+
+<a id="ResultType.FatigueResultBiaxialityIndication"></a>
+
+### ResultType.FatigueResultBiaxialityIndication *= 63*
 
 <a id="ResultType.FatigueSensitivity"></a>
 
@@ -772,77 +732,69 @@ Specifies the ResultType.
 
 ### ResultType.FractureVCCTGT *= 273*
 
-<a id="ResultType.NormalGasketPressure"></a>
+<a id="ResultType.FrequencyBandSPL"></a>
 
-### ResultType.NormalGasketPressure *= 236*
+### ResultType.FrequencyBandSPL *= 360*
 
-<a id="ResultType.XYShearGasketPressure"></a>
+<a id="ResultType.Hysteresis"></a>
 
-### ResultType.XYShearGasketPressure *= 237*
+### ResultType.Hysteresis *= 115*
 
-<a id="ResultType.XZShearGasketPressure"></a>
+<a id="ResultType.JouleHeat"></a>
 
-### ResultType.XZShearGasketPressure *= 238*
-
-<a id="ResultType.NormalGasketTotalClosure"></a>
-
-### ResultType.NormalGasketTotalClosure *= 239*
-
-<a id="ResultType.XYShearGasketTotalClosure"></a>
-
-### ResultType.XYShearGasketTotalClosure *= 240*
-
-<a id="ResultType.XZShearGasketTotalClosure"></a>
-
-### ResultType.XZShearGasketTotalClosure *= 241*
-
-<a id="ResultType.MiddlePrincipalElasticStrain"></a>
-
-### ResultType.MiddlePrincipalElasticStrain *= 15*
-
-<a id="ResultType.MiddlePrincipalStress"></a>
-
-### ResultType.MiddlePrincipalStress *= 3*
-
-<a id="ResultType.MiddlePrincipalThermalStrain"></a>
-
-### ResultType.MiddlePrincipalThermalStrain *= 55*
+### ResultType.JouleHeat *= 154*
 
 <a id="ResultType.KineticEnergy"></a>
 
 ### ResultType.KineticEnergy *= 139*
 
-<a id="ResultType.LatticeElementalDensity"></a>
+<a id="ResultType.LSDYNAGeneralTracker"></a>
 
-### ResultType.LatticeElementalDensity *= 380*
+### ResultType.LSDYNAGeneralTracker *= 403*
 
 <a id="ResultType.LatticeDensity"></a>
 
 ### ResultType.LatticeDensity *= 381*
 
-<a id="ResultType.FatigueLife"></a>
+<a id="ResultType.LatticeElementalDensity"></a>
 
-### ResultType.FatigueLife *= 60*
+### ResultType.LatticeElementalDensity *= 380*
 
 <a id="ResultType.LinePressure"></a>
 
 ### ResultType.LinePressure *= 396*
 
-<a id="ResultType.LSDYNAGeneralTracker"></a>
+<a id="ResultType.MCFWaterfallDiagram"></a>
 
-### ResultType.LSDYNAGeneralTracker *= 403*
+### ResultType.MCFWaterfallDiagram *= 404*
 
 <a id="ResultType.MagneticCoenergy"></a>
 
 ### ResultType.MagneticCoenergy *= 193*
 
+<a id="ResultType.MagneticError"></a>
+
+### ResultType.MagneticError *= 134*
+
+<a id="ResultType.MagneticPotential"></a>
+
+### ResultType.MagneticPotential *= 192*
+
+<a id="ResultType.MagneticXDirectionalForces"></a>
+
+### ResultType.MagneticXDirectionalForces *= 97*
+
+<a id="ResultType.MagneticYDirectionalForces"></a>
+
+### ResultType.MagneticYDirectionalForces *= 98*
+
+<a id="ResultType.MagneticZDirectionalForces"></a>
+
+### ResultType.MagneticZDirectionalForces *= 99*
+
 <a id="ResultType.MarginSafetyCompositeFailure"></a>
 
 ### ResultType.MarginSafetyCompositeFailure *= 323*
-
-<a id="ResultType.SafetyMargin"></a>
-
-### ResultType.SafetyMargin *= 29*
 
 <a id="ResultType.MatrixCompressiveDamageVariable"></a>
 
@@ -872,10 +824,6 @@ Specifies the ResultType.
 
 ### ResultType.MaximumFailureCriteria *= 276*
 
-<a id="ResultType.MullinsMaximumPreviousStrainEnergy"></a>
-
-### ResultType.MullinsMaximumPreviousStrainEnergy *= 275*
-
 <a id="ResultType.MaximumPrincipalElasticStrain"></a>
 
 ### ResultType.MaximumPrincipalElasticStrain *= 14*
@@ -896,10 +844,6 @@ Specifies the ResultType.
 
 ### ResultType.MaximumShearStress *= 5*
 
-<a id="ResultType.MCFWaterfallDiagram"></a>
-
-### ResultType.MCFWaterfallDiagram *= 404*
-
 <a id="ResultType.MembraneStressEquivalent"></a>
 
 ### ResultType.MembraneStressEquivalent *= 120*
@@ -907,6 +851,18 @@ Specifies the ResultType.
 <a id="ResultType.MembraneStressIntensity"></a>
 
 ### ResultType.MembraneStressIntensity *= 122*
+
+<a id="ResultType.MiddlePrincipalElasticStrain"></a>
+
+### ResultType.MiddlePrincipalElasticStrain *= 15*
+
+<a id="ResultType.MiddlePrincipalStress"></a>
+
+### ResultType.MiddlePrincipalStress *= 3*
+
+<a id="ResultType.MiddlePrincipalThermalStrain"></a>
+
+### ResultType.MiddlePrincipalThermalStrain *= 55*
 
 <a id="ResultType.MinimumBendingStress"></a>
 
@@ -932,9 +888,13 @@ Specifies the ResultType.
 
 ### ResultType.MomentReactionTracker *= 247*
 
-<a id="ResultType.NonLinearStabilizationEnergy"></a>
+<a id="ResultType.MullinsDamageVariable"></a>
 
-### ResultType.NonLinearStabilizationEnergy *= 402*
+### ResultType.MullinsDamageVariable *= 274*
+
+<a id="ResultType.MullinsMaximumPreviousStrainEnergy"></a>
+
+### ResultType.MullinsMaximumPreviousStrainEnergy *= 275*
 
 <a id="ResultType.NewtonRaphsonResidualCharge"></a>
 
@@ -952,9 +912,33 @@ Specifies the ResultType.
 
 ### ResultType.NewtonRaphsonResidualMoment *= 86*
 
-<a id="ResultType.VariableGraph"></a>
+<a id="ResultType.NodalEulerXYAngle"></a>
 
-### ResultType.VariableGraph *= 67*
+### ResultType.NodalEulerXYAngle *= 201*
+
+<a id="ResultType.NodalEulerXZAngle"></a>
+
+### ResultType.NodalEulerXZAngle *= 203*
+
+<a id="ResultType.NodalEulerYZNodal"></a>
+
+### ResultType.NodalEulerYZNodal *= 202*
+
+<a id="ResultType.NodalTriads"></a>
+
+### ResultType.NodalTriads *= 204*
+
+<a id="ResultType.NonLinearStabilizationEnergy"></a>
+
+### ResultType.NonLinearStabilizationEnergy *= 402*
+
+<a id="ResultType.NormalGasketPressure"></a>
+
+### ResultType.NormalGasketPressure *= 236*
+
+<a id="ResultType.NormalGasketTotalClosure"></a>
+
+### ResultType.NormalGasketTotalClosure *= 239*
 
 <a id="ResultType.PlasticWork"></a>
 
@@ -964,17 +948,33 @@ Specifies the ResultType.
 
 ### ResultType.Pressure *= 194*
 
-<a id="ResultType.VectorPrincipalElasticStrain"></a>
+<a id="ResultType.ReturnLoss"></a>
 
-### ResultType.VectorPrincipalElasticStrain *= 78*
+### ResultType.ReturnLoss *= 371*
 
-<a id="ResultType.VectorPrincipalStress"></a>
+<a id="ResultType.SafetyFactor"></a>
 
-### ResultType.VectorPrincipalStress *= 77*
+### ResultType.SafetyFactor *= 30*
 
-<a id="ResultType.CampbellDiagram"></a>
+<a id="ResultType.SafetyFactorCompositeFailure"></a>
 
-### ResultType.CampbellDiagram *= 248*
+### ResultType.SafetyFactorCompositeFailure *= 322*
+
+<a id="ResultType.SafetyFactorFatigue"></a>
+
+### ResultType.SafetyFactorFatigue *= 61*
+
+<a id="ResultType.SafetyMargin"></a>
+
+### ResultType.SafetyMargin *= 29*
+
+<a id="ResultType.ShapeFinder"></a>
+
+### ResultType.ShapeFinder *= 47*
+
+<a id="ResultType.ShapeFinderElemental"></a>
+
+### ResultType.ShapeFinderElemental *= 185*
 
 <a id="ResultType.ShearDamageVariable"></a>
 
@@ -992,18 +992,6 @@ Specifies the ResultType.
 
 ### ResultType.ShearMomentDiagramMZ *= 226*
 
-<a id="ResultType.ShearMomentDiagramVSUM"></a>
-
-### ResultType.ShearMomentDiagramVSUM *= 232*
-
-<a id="ResultType.ShearMomentDiagramVY"></a>
-
-### ResultType.ShearMomentDiagramVY *= 227*
-
-<a id="ResultType.ShearMomentDiagramVZ"></a>
-
-### ResultType.ShearMomentDiagramVZ *= 228*
-
 <a id="ResultType.ShearMomentDiagramUSUM"></a>
 
 ### ResultType.ShearMomentDiagramUSUM *= 233*
@@ -1015,6 +1003,18 @@ Specifies the ResultType.
 <a id="ResultType.ShearMomentDiagramUZ"></a>
 
 ### ResultType.ShearMomentDiagramUZ *= 230*
+
+<a id="ResultType.ShearMomentDiagramVSUM"></a>
+
+### ResultType.ShearMomentDiagramVSUM *= 232*
+
+<a id="ResultType.ShearMomentDiagramVY"></a>
+
+### ResultType.ShearMomentDiagramVY *= 227*
+
+<a id="ResultType.ShearMomentDiagramVZ"></a>
+
+### ResultType.ShearMomentDiagramVZ *= 228*
 
 <a id="ResultType.ShellBendingStress11"></a>
 
@@ -1064,6 +1064,10 @@ Specifies the ResultType.
 
 ### ResultType.ShellTopPeakStress22 *= 263*
 
+<a id="ResultType.SoundPressureLevel"></a>
+
+### ResultType.SoundPressureLevel *= 358*
+
 <a id="ResultType.SpringTrackerDampingForce"></a>
 
 ### ResultType.SpringTrackerDampingForce *= 293*
@@ -1100,6 +1104,10 @@ Specifies the ResultType.
 
 ### ResultType.StressRatio *= 31*
 
+<a id="ResultType.StructuralError"></a>
+
+### ResultType.StructuralError *= 116*
+
 <a id="ResultType.StructuralStrainEnergy"></a>
 
 ### ResultType.StructuralStrainEnergy *= 136*
@@ -1108,25 +1116,21 @@ Specifies the ResultType.
 
 ### ResultType.Temperature *= 49*
 
+<a id="ResultType.ThermalError"></a>
+
+### ResultType.ThermalError *= 117*
+
 <a id="ResultType.ThermalStrainEnergy"></a>
 
 ### ResultType.ThermalStrainEnergy *= 137*
 
-<a id="ResultType.TotalHeatFlux"></a>
+<a id="ResultType.TopologyDensity"></a>
 
-### ResultType.TotalHeatFlux *= 50*
-
-<a id="ResultType.VectorHeatFlux"></a>
-
-### ResultType.VectorHeatFlux *= 76*
+### ResultType.TopologyDensity *= 338*
 
 <a id="ResultType.TopologyElementalDensity"></a>
 
 ### ResultType.TopologyElementalDensity *= 335*
-
-<a id="ResultType.TopologyDensity"></a>
-
-### ResultType.TopologyDensity *= 338*
 
 <a id="ResultType.TotalAcceleration"></a>
 
@@ -1144,6 +1148,10 @@ Specifies the ResultType.
 
 ### ResultType.TotalCurrentDensity *= 149*
 
+<a id="ResultType.TotalDeformation"></a>
+
+### ResultType.TotalDeformation *= 25*
+
 <a id="ResultType.TotalElectricFieldIntensity"></a>
 
 ### ResultType.TotalElectricFieldIntensity *= 145*
@@ -1155,6 +1163,10 @@ Specifies the ResultType.
 <a id="ResultType.TotalEnergy"></a>
 
 ### ResultType.TotalEnergy *= 174*
+
+<a id="ResultType.TotalHeatFlux"></a>
+
+### ResultType.TotalHeatFlux *= 50*
 
 <a id="ResultType.TotalMagneticFieldIntensity"></a>
 
@@ -1180,6 +1192,14 @@ Specifies the ResultType.
 
 ### ResultType.TotalVelocity *= 124*
 
+<a id="ResultType.TransmissionLoss"></a>
+
+### ResultType.TransmissionLoss *= 369*
+
+<a id="ResultType.VariableGraph"></a>
+
+### ResultType.VariableGraph *= 67*
+
 <a id="ResultType.VectorAxialForce"></a>
 
 ### ResultType.VectorAxialForce *= 209*
@@ -1188,13 +1208,21 @@ Specifies the ResultType.
 
 ### ResultType.VectorBendingMoment *= 214*
 
-<a id="ResultType.ElementalTriads"></a>
+<a id="ResultType.VectorDeformation"></a>
 
-### ResultType.ElementalTriads *= 200*
+### ResultType.VectorDeformation *= 75*
 
-<a id="ResultType.NodalTriads"></a>
+<a id="ResultType.VectorHeatFlux"></a>
 
-### ResultType.NodalTriads *= 204*
+### ResultType.VectorHeatFlux *= 76*
+
+<a id="ResultType.VectorPrincipalElasticStrain"></a>
+
+### ResultType.VectorPrincipalElasticStrain *= 78*
+
+<a id="ResultType.VectorPrincipalStress"></a>
+
+### ResultType.VectorPrincipalStress *= 77*
 
 <a id="ResultType.VectorShearForce"></a>
 
@@ -1208,13 +1236,13 @@ Specifies the ResultType.
 
 ### ResultType.VelocityWaterfallDiagram *= 405*
 
-<a id="ResultType.ShapeFinder"></a>
+<a id="ResultType.Volume"></a>
 
-### ResultType.ShapeFinder *= 47*
+### ResultType.Volume *= 382*
 
-<a id="ResultType.ShapeFinderElemental"></a>
+<a id="ResultType.XContactForce"></a>
 
-### ResultType.ShapeFinderElemental *= 185*
+### ResultType.XContactForce *= 186*
 
 <a id="ResultType.XDirectionalAcceleration"></a>
 
@@ -1236,17 +1264,13 @@ Specifies the ResultType.
 
 ### ResultType.XDirectionalBendingMoment *= 210*
 
-<a id="ResultType.XContactForce"></a>
+<a id="ResultType.XDirectionalCurrentDensity"></a>
 
-### ResultType.XContactForce *= 186*
+### ResultType.XDirectionalCurrentDensity *= 150*
 
 <a id="ResultType.XDirectionalDisplacement"></a>
 
 ### ResultType.XDirectionalDisplacement *= 26*
-
-<a id="ResultType.XDirectionalCurrentDensity"></a>
-
-### ResultType.XDirectionalCurrentDensity *= 150*
 
 <a id="ResultType.XDirectionalElectricFieldIntensity"></a>
 
@@ -1256,13 +1280,9 @@ Specifies the ResultType.
 
 ### ResultType.XDirectionalElectricFluxDensity *= 142*
 
-<a id="ResultType.ElementalEulerXYAngle"></a>
+<a id="ResultType.XDirectionalHeatFlux"></a>
 
-### ResultType.ElementalEulerXYAngle *= 197*
-
-<a id="ResultType.XExternalForce"></a>
-
-### ResultType.XExternalForce *= 189*
+### ResultType.XDirectionalHeatFlux *= 51*
 
 <a id="ResultType.XDirectionalMagneticFieldIntensity"></a>
 
@@ -1272,45 +1292,13 @@ Specifies the ResultType.
 
 ### ResultType.XDirectionalMagneticFluxDensity *= 89*
 
-<a id="ResultType.MagneticXDirectionalForces"></a>
-
-### ResultType.MagneticXDirectionalForces *= 97*
-
-<a id="ResultType.XMomentum"></a>
-
-### ResultType.XMomentum *= 177*
-
-<a id="ResultType.NodalEulerXYAngle"></a>
-
-### ResultType.NodalEulerXYAngle *= 201*
-
 <a id="ResultType.XDirectionalShearForce"></a>
 
 ### ResultType.XDirectionalShearForce *= 220*
 
-<a id="ResultType.XNormalElasticStrain"></a>
-
-### ResultType.XNormalElasticStrain *= 19*
-
-<a id="ResultType.XNormalStress"></a>
-
-### ResultType.XNormalStress *= 7*
-
-<a id="ResultType.XDirectionalHeatFlux"></a>
-
-### ResultType.XDirectionalHeatFlux *= 51*
-
-<a id="ResultType.XThermalStrain"></a>
-
-### ResultType.XThermalStrain *= 57*
-
 <a id="ResultType.XDirectionalTorsionalMoment"></a>
 
 ### ResultType.XDirectionalTorsionalMoment *= 215*
-
-<a id="ResultType.XTotalMassAverageVelocity"></a>
-
-### ResultType.XTotalMassAverageVelocity *= 180*
 
 <a id="ResultType.XDirectionalVelocity"></a>
 
@@ -1324,9 +1312,41 @@ Specifies the ResultType.
 
 ### ResultType.XDirectionalVelocityRS *= 167*
 
+<a id="ResultType.XExternalForce"></a>
+
+### ResultType.XExternalForce *= 189*
+
+<a id="ResultType.XMomentum"></a>
+
+### ResultType.XMomentum *= 177*
+
+<a id="ResultType.XNormalElasticStrain"></a>
+
+### ResultType.XNormalElasticStrain *= 19*
+
+<a id="ResultType.XNormalStress"></a>
+
+### ResultType.XNormalStress *= 7*
+
+<a id="ResultType.XThermalStrain"></a>
+
+### ResultType.XThermalStrain *= 57*
+
+<a id="ResultType.XTotalMassAverageVelocity"></a>
+
+### ResultType.XTotalMassAverageVelocity *= 180*
+
 <a id="ResultType.XYShearElasticStrain"></a>
 
 ### ResultType.XYShearElasticStrain *= 22*
+
+<a id="ResultType.XYShearGasketPressure"></a>
+
+### ResultType.XYShearGasketPressure *= 237*
+
+<a id="ResultType.XYShearGasketTotalClosure"></a>
+
+### ResultType.XYShearGasketTotalClosure *= 240*
 
 <a id="ResultType.XYShearStress"></a>
 
@@ -1336,9 +1356,21 @@ Specifies the ResultType.
 
 ### ResultType.XZShearElasticStrain *= 24*
 
+<a id="ResultType.XZShearGasketPressure"></a>
+
+### ResultType.XZShearGasketPressure *= 238*
+
+<a id="ResultType.XZShearGasketTotalClosure"></a>
+
+### ResultType.XZShearGasketTotalClosure *= 241*
+
 <a id="ResultType.XZShearStress"></a>
 
 ### ResultType.XZShearStress *= 12*
+
+<a id="ResultType.YContactForce"></a>
+
+### ResultType.YContactForce *= 187*
 
 <a id="ResultType.YDirectionalAcceleration"></a>
 
@@ -1360,17 +1392,13 @@ Specifies the ResultType.
 
 ### ResultType.YDirectionalBendingMoment *= 211*
 
-<a id="ResultType.YContactForce"></a>
+<a id="ResultType.YDirectionalCurrentDensity"></a>
 
-### ResultType.YContactForce *= 187*
+### ResultType.YDirectionalCurrentDensity *= 151*
 
 <a id="ResultType.YDirectionalDisplacement"></a>
 
 ### ResultType.YDirectionalDisplacement *= 27*
-
-<a id="ResultType.YDirectionalCurrentDensity"></a>
-
-### ResultType.YDirectionalCurrentDensity *= 151*
 
 <a id="ResultType.YDirectionalElectricFieldIntensity"></a>
 
@@ -1380,13 +1408,9 @@ Specifies the ResultType.
 
 ### ResultType.YDirectionalElectricFluxDensity *= 143*
 
-<a id="ResultType.ElementalEulerYZAngle"></a>
+<a id="ResultType.YDirectionalHeatFlux"></a>
 
-### ResultType.ElementalEulerYZAngle *= 198*
-
-<a id="ResultType.YExternalForce"></a>
-
-### ResultType.YExternalForce *= 190*
+### ResultType.YDirectionalHeatFlux *= 52*
 
 <a id="ResultType.YDirectionalMagneticFieldIntensity"></a>
 
@@ -1396,45 +1420,13 @@ Specifies the ResultType.
 
 ### ResultType.YDirectionalMagneticFluxDensity *= 90*
 
-<a id="ResultType.MagneticYDirectionalForces"></a>
-
-### ResultType.MagneticYDirectionalForces *= 98*
-
-<a id="ResultType.YMomentum"></a>
-
-### ResultType.YMomentum *= 178*
-
-<a id="ResultType.NodalEulerYZNodal"></a>
-
-### ResultType.NodalEulerYZNodal *= 202*
-
 <a id="ResultType.YDirectionalShearForce"></a>
 
 ### ResultType.YDirectionalShearForce *= 221*
 
-<a id="ResultType.YNormalElasticStrain"></a>
-
-### ResultType.YNormalElasticStrain *= 20*
-
-<a id="ResultType.YNormalStress"></a>
-
-### ResultType.YNormalStress *= 8*
-
-<a id="ResultType.YDirectionalHeatFlux"></a>
-
-### ResultType.YDirectionalHeatFlux *= 52*
-
-<a id="ResultType.YThermalStrain"></a>
-
-### ResultType.YThermalStrain *= 58*
-
 <a id="ResultType.YDirectionalTorsionalMoment"></a>
 
 ### ResultType.YDirectionalTorsionalMoment *= 216*
-
-<a id="ResultType.YTotalMassAverageVelocity"></a>
-
-### ResultType.YTotalMassAverageVelocity *= 181*
 
 <a id="ResultType.YDirectionalVelocity"></a>
 
@@ -1448,6 +1440,30 @@ Specifies the ResultType.
 
 ### ResultType.YDirectionalVelocityRS *= 168*
 
+<a id="ResultType.YExternalForce"></a>
+
+### ResultType.YExternalForce *= 190*
+
+<a id="ResultType.YMomentum"></a>
+
+### ResultType.YMomentum *= 178*
+
+<a id="ResultType.YNormalElasticStrain"></a>
+
+### ResultType.YNormalElasticStrain *= 20*
+
+<a id="ResultType.YNormalStress"></a>
+
+### ResultType.YNormalStress *= 8*
+
+<a id="ResultType.YThermalStrain"></a>
+
+### ResultType.YThermalStrain *= 58*
+
+<a id="ResultType.YTotalMassAverageVelocity"></a>
+
+### ResultType.YTotalMassAverageVelocity *= 181*
+
 <a id="ResultType.YZShearElasticStrain"></a>
 
 ### ResultType.YZShearElasticStrain *= 23*
@@ -1456,13 +1472,13 @@ Specifies the ResultType.
 
 ### ResultType.YZShearStress *= 11*
 
+<a id="ResultType.ZContactForce"></a>
+
+### ResultType.ZContactForce *= 188*
+
 <a id="ResultType.ZDirectionalAcceleration"></a>
 
 ### ResultType.ZDirectionalAcceleration *= 82*
-
-<a id="ResultType.ZdirectionalAccelerationPSD"></a>
-
-### ResultType.ZdirectionalAccelerationPSD *= 133*
 
 <a id="ResultType.ZDirectionalAccelerationRS"></a>
 
@@ -1476,17 +1492,13 @@ Specifies the ResultType.
 
 ### ResultType.ZDirectionalBendingMoment *= 212*
 
-<a id="ResultType.ZContactForce"></a>
+<a id="ResultType.ZDirectionalCurrentDensity"></a>
 
-### ResultType.ZContactForce *= 188*
+### ResultType.ZDirectionalCurrentDensity *= 152*
 
 <a id="ResultType.ZDirectionalDisplacement"></a>
 
 ### ResultType.ZDirectionalDisplacement *= 28*
-
-<a id="ResultType.ZDirectionalCurrentDensity"></a>
-
-### ResultType.ZDirectionalCurrentDensity *= 152*
 
 <a id="ResultType.ZDirectionalElectricFieldIntensity"></a>
 
@@ -1496,13 +1508,9 @@ Specifies the ResultType.
 
 ### ResultType.ZDirectionalElectricFluxDensity *= 144*
 
-<a id="ResultType.ElementalEulerXZAngle"></a>
+<a id="ResultType.ZDirectionalHeatFlux"></a>
 
-### ResultType.ElementalEulerXZAngle *= 199*
-
-<a id="ResultType.ZExternalForce"></a>
-
-### ResultType.ZExternalForce *= 191*
+### ResultType.ZDirectionalHeatFlux *= 53*
 
 <a id="ResultType.ZDirectionalMagneticFieldIntensity"></a>
 
@@ -1512,49 +1520,13 @@ Specifies the ResultType.
 
 ### ResultType.ZDirectionalMagneticFluxDensity *= 91*
 
-<a id="ResultType.MagneticZDirectionalForces"></a>
-
-### ResultType.MagneticZDirectionalForces *= 99*
-
-<a id="ResultType.MagneticPotential"></a>
-
-### ResultType.MagneticPotential *= 192*
-
-<a id="ResultType.ZMomentum"></a>
-
-### ResultType.ZMomentum *= 179*
-
-<a id="ResultType.NodalEulerXZAngle"></a>
-
-### ResultType.NodalEulerXZAngle *= 203*
-
 <a id="ResultType.ZDirectionalShearForce"></a>
 
 ### ResultType.ZDirectionalShearForce *= 222*
 
-<a id="ResultType.ZNormalElasticStrain"></a>
-
-### ResultType.ZNormalElasticStrain *= 21*
-
-<a id="ResultType.ZNormalStress"></a>
-
-### ResultType.ZNormalStress *= 9*
-
-<a id="ResultType.ZDirectionalHeatFlux"></a>
-
-### ResultType.ZDirectionalHeatFlux *= 53*
-
-<a id="ResultType.ZThermalStrain"></a>
-
-### ResultType.ZThermalStrain *= 59*
-
 <a id="ResultType.ZDirectionalTorsionalMoment"></a>
 
 ### ResultType.ZDirectionalTorsionalMoment *= 217*
-
-<a id="ResultType.ZTotalMassAverageVelocity"></a>
-
-### ResultType.ZTotalMassAverageVelocity *= 182*
 
 <a id="ResultType.ZDirectionalVelocity"></a>
 
@@ -1567,5 +1539,33 @@ Specifies the ResultType.
 <a id="ResultType.ZDirectionalVelocityRS"></a>
 
 ### ResultType.ZDirectionalVelocityRS *= 169*
+
+<a id="ResultType.ZExternalForce"></a>
+
+### ResultType.ZExternalForce *= 191*
+
+<a id="ResultType.ZMomentum"></a>
+
+### ResultType.ZMomentum *= 179*
+
+<a id="ResultType.ZNormalElasticStrain"></a>
+
+### ResultType.ZNormalElasticStrain *= 21*
+
+<a id="ResultType.ZNormalStress"></a>
+
+### ResultType.ZNormalStress *= 9*
+
+<a id="ResultType.ZThermalStrain"></a>
+
+### ResultType.ZThermalStrain *= 59*
+
+<a id="ResultType.ZTotalMassAverageVelocity"></a>
+
+### ResultType.ZTotalMassAverageVelocity *= 182*
+
+<a id="ResultType.ZdirectionalAccelerationPSD"></a>
+
+### ResultType.ZdirectionalAccelerationPSD *= 133*
 
 

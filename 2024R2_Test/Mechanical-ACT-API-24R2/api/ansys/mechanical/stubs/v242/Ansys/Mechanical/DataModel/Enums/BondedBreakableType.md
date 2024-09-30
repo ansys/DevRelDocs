@@ -1,6 +1,6 @@
 # `BondedBreakableType`
 
-
+<a id="ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.BondedBreakableType"></a>
 
 #### *class* ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.BondedBreakableType
 
@@ -17,7 +17,7 @@ Specifies the BondedBreakableType.
 ### Attributes
 
 | Name |
-| --------------------------------------------------------- |
+| ------------------------------------------------------------------------------------------------------------------------------------ |
 | [`ForceCriteria`](#BondedBreakableType.ForceCriteria) |
 | [`No`](#BondedBreakableType.No) |
 | [`StressCriteria`](#BondedBreakableType.StressCriteria) |

@@ -1,6 +1,6 @@
 # `HourglassDampingType`
 
-
+<a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.HourglassDampingType"></a>
 
 #### *class* ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.HourglassDampingType
 
@@ -17,9 +17,9 @@ Specifies the HourglassDampingType.
 ### Attributes
 
 | Name |
-| ---------------------------------------------------------------------------------------------------------------------------------------------- |
-| [`AutodynStandard`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/HourglassDampingType.md#HourglassDampingType.AutodynStandard) |
-| [`FlanaganBelytschko`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/HourglassDampingType.md#HourglassDampingType.FlanaganBelytschko) |
+| ------------------------------------------------------------------ |
+| [`AutodynStandard`](#HourglassDampingType.AutodynStandard) |
+| [`FlanaganBelytschko`](#HourglassDampingType.FlanaganBelytschko) |
 
 <a id="attribute-detail"></a>
 

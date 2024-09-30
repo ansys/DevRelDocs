@@ -1,6 +1,6 @@
 # `ElementalEulerXYAngle`
 
-
+<a id="ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Results.CoordinateSystemsResults.ElementalEulerXYAngle"></a>
 
 #### *class* ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Results.CoordinateSystemsResults.ElementalEulerXYAngle
 
@@ -17,206 +17,108 @@ Defines a ElementalEulerXYAngle.
 ### Methods
 
 | Name | Description |
-|-----------------------------------------------------------------------------|-----------------------------------------------------------------------------------|
-| [`ClearGeneratedData`](#ElementalEulerXYAngle.ClearGeneratedData)           | Run the ClearGeneratedData action.                                                |
-| [`EvaluateAllResults`](#ElementalEulerXYAngle.EvaluateAllResults)           | Run the EvaluateAllResults action.                                                |
-| [`FetchRemoteResults`](#ElementalEulerXYAngle.FetchRemoteResults)           | Run the FetchRemoteResult action.                                                 |
-| [`ExportToTextFile`](#ElementalEulerXYAngle.ExportToTextFile)               | Run the ExportToTextFile action.                                                  |
-| [`ExportAnimation`](#ElementalEulerXYAngle.ExportAnimation)                 | Run the ExportAnimation action.                                                   |
-| [`DuplicateWithoutResults`](#ElementalEulerXYAngle.DuplicateWithoutResults) | Run the DuplicateWithoutResults action.                                           |
-| [`CreateResultsAtAllSets`](#ElementalEulerXYAngle.CreateResultsAtAllSets)   | Creates results at all sets for results under a solution.                         |
-| [`PromoteToNamedSelection`](#ElementalEulerXYAngle.PromoteToNamedSelection) | Run the PromoteToNamedSelection action.                                           |
-| [`CreateParameter`](#ElementalEulerXYAngle.CreateParameter)                 | CreateParameter method.                                                           |
+|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------|
+| [`Activate`](#ElementalEulerXYAngle.Activate)                               | Activate the current object.                                                      |
 | [`AddAlert`](#ElementalEulerXYAngle.AddAlert)                               | Creates a new Alert                                                               |
-| [`AddConvergence`](#ElementalEulerXYAngle.AddConvergence)                   | Creates a new Convergence                                                         |
-| [`RenameBasedOnDefinition`](#ElementalEulerXYAngle.RenameBasedOnDefinition) | Run the RenameBasedOnDefinition action.                                           |
-| [`Delete`](#ElementalEulerXYAngle.Delete)                                   | Run the Delete action.                                                            |
-| [`GetChildren`](#id1)                                                       | Gets the list of children, filtered by type.                                      |
-| [`GetChildren`](#id1)                                                       | Gets the list of children, filtered by type.                                      |
 | [`AddComment`](#ElementalEulerXYAngle.AddComment)                           | Creates a new child Comment.                                                      |
+| [`AddConvergence`](#ElementalEulerXYAngle.AddConvergence)                   | Creates a new Convergence                                                         |
 | [`AddFigure`](#ElementalEulerXYAngle.AddFigure)                             | Creates a new child Figure.                                                       |
 | [`AddImage`](#ElementalEulerXYAngle.AddImage)                               | Creates a new child Image.                                                        |
-| [`Activate`](#ElementalEulerXYAngle.Activate)                               | Activate the current object.                                                      |
+| [`ClearGeneratedData`](#ElementalEulerXYAngle.ClearGeneratedData)           | Run the ClearGeneratedData action.                                                |
 | [`CopyTo`](#ElementalEulerXYAngle.CopyTo)                                   | Copies all visible properties from this object to another.                        |
+| [`CreateParameter`](#ElementalEulerXYAngle.CreateParameter)                 | CreateParameter method.                                                           |
+| [`CreateResultsAtAllSets`](#ElementalEulerXYAngle.CreateResultsAtAllSets)   | Creates results at all sets for results under a solution.                         |
+| [`Delete`](#ElementalEulerXYAngle.Delete)                                   | Run the Delete action.                                                            |
 | [`Duplicate`](#ElementalEulerXYAngle.Duplicate)                             | Creates a copy of the current DataModelObject.                                    |
+| [`DuplicateWithoutResults`](#ElementalEulerXYAngle.DuplicateWithoutResults) | Run the DuplicateWithoutResults action.                                           |
+| [`EvaluateAllResults`](#ElementalEulerXYAngle.EvaluateAllResults)           | Run the EvaluateAllResults action.                                                |
+| [`ExportAnimation`](#ElementalEulerXYAngle.ExportAnimation)                 | Run the ExportAnimation action.                                                   |
+| [`ExportToTextFile`](#ElementalEulerXYAngle.ExportToTextFile)               | Run the ExportToTextFile action.                                                  |
+| [`FetchRemoteResults`](#ElementalEulerXYAngle.FetchRemoteResults)           | Run the FetchRemoteResult action.                                                 |
+| [`GetChildren`](#ElementalEulerXYAngle.GetChildren)                         | Gets the list of children, filtered by type.                                      |
+| [`GetParameter`](#ElementalEulerXYAngle.GetParameter)                       | Gets the parameter corresponding to the given property.                           |
 | [`GroupAllSimilarChildren`](#ElementalEulerXYAngle.GroupAllSimilarChildren) | Run the GroupAllSimilarChildren action.                                           |
 | [`GroupSimilarObjects`](#ElementalEulerXYAngle.GroupSimilarObjects)         | Run the GroupSimilarObjects action.                                               |
-| [`PropertyByName`](#ElementalEulerXYAngle.PropertyByName)                   | Get a property by its unique name.                                                |
+| [`PromoteToNamedSelection`](#ElementalEulerXYAngle.PromoteToNamedSelection) | Run the PromoteToNamedSelection action.                                           |
 | [`PropertyByAPIName`](#ElementalEulerXYAngle.PropertyByAPIName)             | Get a property by its API name.                                                   |
-| [`GetParameter`](#ElementalEulerXYAngle.GetParameter)                       | Gets the parameter corresponding to the given property.                           |
+| [`PropertyByName`](#ElementalEulerXYAngle.PropertyByName)                   | Get a property by its unique name.                                                |
 | [`RemoveParameter`](#ElementalEulerXYAngle.RemoveParameter)                 | Removes the parameter from the parameter set corresponding to the given property. |
+| [`RenameBasedOnDefinition`](#ElementalEulerXYAngle.RenameBasedOnDefinition) | Run the RenameBasedOnDefinition action.                                           |
 
 ### Properties
 
 | Name | Description |
-|-------------------------------------------------------------------------------------------------|------------------------------------------------------------------------|
-| [`InternalObject`](#id0)                                                                        | Gets the internal object. For advanced usage only.                     |
-| [`DataModelObjectCategory`](#ElementalEulerXYAngle.DataModelObjectCategory)                     | Gets the current DataModelObject's category.                           |
-| [`Mode`](#ElementalEulerXYAngle.Mode)                                                           | Gets or sets the Mode.                                                 |
-| [`Ply`](#ElementalEulerXYAngle.Ply)                                                             | Gets or sets the Ply selection.                                        |
-| [`LoadMultiplier`](#ElementalEulerXYAngle.LoadMultiplier)                                       | Gets the LoadMultiplier.                                               |
-| [`ScaleFactorValue`](#ElementalEulerXYAngle.ScaleFactorValue)                                   | Gets or sets the ScaleFactorValue.                                     |
-| [`SweepingPhase`](#ElementalEulerXYAngle.SweepingPhase)                                         | Gets or sets the SweepingPhase.                                        |
-| [`PhaseIncrement`](#ElementalEulerXYAngle.PhaseIncrement)                                       | Gets or sets the PhaseIncrement.                                       |
-| [`Frequency`](#ElementalEulerXYAngle.Frequency)                                                 | Gets or sets the Frequency.                                            |
-| [`ScaleFactor`](#ElementalEulerXYAngle.ScaleFactor)                                             | Gets or sets the ScaleFactor.                                          |
-| [`Position`](#ElementalEulerXYAngle.Position)                                                   | Gets or sets the Position.                                             |
-| [`SubScopeBy`](#ElementalEulerXYAngle.SubScopeBy)                                               | Gets or sets the SubScopeBy.                                           |
+|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------|
 | [`Amplitude`](#ElementalEulerXYAngle.Amplitude)                                                 | Gets or sets the Amplitude.                                            |
-| [`PlotData`](#ElementalEulerXYAngle.PlotData)                                                   | Gets the result table.                                                 |
-| [`Location`](#ElementalEulerXYAngle.Location)                                                   | Gets or sets the Location.                                             |
-| [`TimeForMinimumOfMinimumValues`](#ElementalEulerXYAngle.TimeForMinimumOfMinimumValues)         | Get the Time for the minimum of minimum values.                        |
-| [`TimeForMinimumOfMaximumValues`](#ElementalEulerXYAngle.TimeForMinimumOfMaximumValues)         | Get the Time for the minimum of maximum values.                        |
-| [`LoadStepForMinimumOfMinimumValues`](#ElementalEulerXYAngle.LoadStepForMinimumOfMinimumValues) | Get the Load Step for the minimum of minimum values.                   |
-| [`LoadStepForMinimumOfMaximumValues`](#ElementalEulerXYAngle.LoadStepForMinimumOfMaximumValues) | Get the Load Step for the minimum of maximum values.                   |
-| [`TimeForMaximumOfMinimumValues`](#ElementalEulerXYAngle.TimeForMaximumOfMinimumValues)         | Get the Time for the maximum of minimum values.                        |
-| [`TimeForMaximumOfMaximumValues`](#ElementalEulerXYAngle.TimeForMaximumOfMaximumValues)         | Get the Time for the maximum of maximum values.                        |
-| [`LoadStepForMaximumOfMinimumValues`](#ElementalEulerXYAngle.LoadStepForMaximumOfMinimumValues) | Get the Load Step for the maximum of minimum values.                   |
-| [`LoadStepForMaximumOfMaximumValues`](#ElementalEulerXYAngle.LoadStepForMaximumOfMaximumValues) | Get the Load Step for the maximum of maximum values.                   |
-| [`IsSolved`](#ElementalEulerXYAngle.IsSolved)                                                   | Gets the IsSolved.                                                     |
-| [`CoordinateSystem`](#ElementalEulerXYAngle.CoordinateSystem)                                   | Gets or sets the Coordinate System.                                    |
-| [`ScopingMethod`](#ElementalEulerXYAngle.ScopingMethod)                                         | Gets or sets the ScopingMethod.                                        |
-| [`SetNumber`](#ElementalEulerXYAngle.SetNumber)                                                 | Gets or sets the Set Number.                                           |
-| [`CombinationNumber`](#ElementalEulerXYAngle.CombinationNumber)                                 | Gets or sets the Combination Number for a Solution Combination result. |
-| [`SolutionCombinationDriver`](#ElementalEulerXYAngle.SolutionCombinationDriver)                 | Gets or sets the SolutionCombinationDriver.                            |
-| [`Path`](#ElementalEulerXYAngle.Path)                                                           | Path property.                                                         |
-| [`Surface`](#ElementalEulerXYAngle.Surface)                                                     | Surface property.                                                      |
-| [`SurfaceCoating`](#ElementalEulerXYAngle.SurfaceCoating)                                       | SurfaceCoating property.                                               |
-| [`NamedSelections`](#ElementalEulerXYAngle.NamedSelections)                                     | Gets or sets the NamedSelections.                                      |
-| [`WaterfallShowTextOnMosaic`](#ElementalEulerXYAngle.WaterfallShowTextOnMosaic)                 | Gets or sets the Waterfall Mosaic Text Property.                       |
-| [`CrackFrontNumber`](#ElementalEulerXYAngle.CrackFrontNumber)                                   | Gets or sets the CrackFrontNumber.                                     |
-| [`GlobalIDs`](#ElementalEulerXYAngle.GlobalIDs)                                                 | Gets or sets the GlobalIDs.                                            |
-| [`Identifier`](#ElementalEulerXYAngle.Identifier)                                               | Gets or sets the Identifier.                                           |
-| [`IterationNumber`](#ElementalEulerXYAngle.IterationNumber)                                     | Gets the IterationNumber.                                              |
-| [`LoadStep`](#ElementalEulerXYAngle.LoadStep)                                                   | Gets the LoadStep.                                                     |
-| [`MaximumOccursOn`](#ElementalEulerXYAngle.MaximumOccursOn)                                     | Gets the MaximumOccursOn.                                              |
-| [`MinimumOccursOn`](#ElementalEulerXYAngle.MinimumOccursOn)                                     | Gets the MinimumOccursOn.                                              |
-| [`LoadStepNumber`](#ElementalEulerXYAngle.LoadStepNumber)                                       | Gets or sets the LoadStepNumber.                                       |
-| [`SolverComponentIDs`](#ElementalEulerXYAngle.SolverComponentIDs)                               | Gets or sets the SolverComponentIDs.                                   |
-| [`Substep`](#ElementalEulerXYAngle.Substep)                                                     | Gets the Substep.                                                      |
 | [`Average`](#ElementalEulerXYAngle.Average)                                                     | Gets the Average.                                                      |
+| [`By`](#ElementalEulerXYAngle.By)                                                               | Gets or sets the By.                                                   |
+| [`CalculateTimeHistory`](#ElementalEulerXYAngle.CalculateTimeHistory)                           | Gets or sets the CalculateTimeHistory.                                 |
+| [`Children`](#ElementalEulerXYAngle.Children)                                                   | Gets the list of children.                                             |
+| [`CombinationNumber`](#ElementalEulerXYAngle.CombinationNumber)                                 | Gets or sets the Combination Number for a Solution Combination result. |
+| [`Comments`](#ElementalEulerXYAngle.Comments)                                                   | Gets the list of associated comments.                                  |
+| [`CoordinateSystem`](#ElementalEulerXYAngle.CoordinateSystem)                                   | Gets or sets the Coordinate System.                                    |
+| [`CrackFrontNumber`](#ElementalEulerXYAngle.CrackFrontNumber)                                   | Gets or sets the CrackFrontNumber.                                     |
+| [`DataModelObjectCategory`](#ElementalEulerXYAngle.DataModelObjectCategory)                     | Gets the current DataModelObject’s category.                           |
+| [`DisplayOption`](#ElementalEulerXYAngle.DisplayOption)                                         | Gets or sets the DisplayOption.                                        |
+| [`DisplayTime`](#ElementalEulerXYAngle.DisplayTime)                                             | Gets or sets the DisplayTime.                                          |
+| [`DpfEvaluation`](#ElementalEulerXYAngle.DpfEvaluation)                                         | Gets or sets the DpfEvaluation.                                        |
+| [`Figures`](#ElementalEulerXYAngle.Figures)                                                     | Gets the list of associated figures.                                   |
+| [`Frequency`](#ElementalEulerXYAngle.Frequency)                                                 | Gets or sets the Frequency.                                            |
+| [`GlobalIDs`](#ElementalEulerXYAngle.GlobalIDs)                                                 | Gets or sets the GlobalIDs.                                            |
+| [`GraphControlsXAxis`](#ElementalEulerXYAngle.GraphControlsXAxis)                               | Gets or sets the GraphControlsXAxis.                                   |
+| [`Identifier`](#ElementalEulerXYAngle.Identifier)                                               | Gets or sets the Identifier.                                           |
+| [`Images`](#ElementalEulerXYAngle.Images)                                                       | Gets the list of associated images.                                    |
+| [`InternalObject`](#ElementalEulerXYAngle.InternalObject)                                       | Gets the internal object. For advanced usage only.                     |
+| [`IsSolved`](#ElementalEulerXYAngle.IsSolved)                                                   | Gets the IsSolved.                                                     |
+| [`ItemType`](#ElementalEulerXYAngle.ItemType)                                                   | Gets or sets the ItemType.                                             |
+| [`IterationNumber`](#ElementalEulerXYAngle.IterationNumber)                                     | Gets the IterationNumber.                                              |
+| [`LoadMultiplier`](#ElementalEulerXYAngle.LoadMultiplier)                                       | Gets the LoadMultiplier.                                               |
+| [`LoadStep`](#ElementalEulerXYAngle.LoadStep)                                                   | Gets the LoadStep.                                                     |
+| [`LoadStepForMaximumOfMaximumValues`](#ElementalEulerXYAngle.LoadStepForMaximumOfMaximumValues) | Get the Load Step for the maximum of maximum values.                   |
+| [`LoadStepForMaximumOfMinimumValues`](#ElementalEulerXYAngle.LoadStepForMaximumOfMinimumValues) | Get the Load Step for the maximum of minimum values.                   |
+| [`LoadStepForMinimumOfMaximumValues`](#ElementalEulerXYAngle.LoadStepForMinimumOfMaximumValues) | Get the Load Step for the minimum of maximum values.                   |
+| [`LoadStepForMinimumOfMinimumValues`](#ElementalEulerXYAngle.LoadStepForMinimumOfMinimumValues) | Get the Load Step for the minimum of minimum values.                   |
+| [`LoadStepNumber`](#ElementalEulerXYAngle.LoadStepNumber)                                       | Gets or sets the LoadStepNumber.                                       |
+| [`Location`](#ElementalEulerXYAngle.Location)                                                   | Gets or sets the Location.                                             |
 | [`Maximum`](#ElementalEulerXYAngle.Maximum)                                                     | Gets the Maximum.                                                      |
+| [`MaximumOccursOn`](#ElementalEulerXYAngle.MaximumOccursOn)                                     | Gets the MaximumOccursOn.                                              |
 | [`MaximumOfMaximumOverTime`](#ElementalEulerXYAngle.MaximumOfMaximumOverTime)                   | Gets the MaximumOfMaximumOverTime.                                     |
 | [`MaximumOfMinimumOverTime`](#ElementalEulerXYAngle.MaximumOfMinimumOverTime)                   | Gets the MaximumOfMinimumOverTime.                                     |
 | [`Minimum`](#ElementalEulerXYAngle.Minimum)                                                     | Gets the Minimum.                                                      |
+| [`MinimumOccursOn`](#ElementalEulerXYAngle.MinimumOccursOn)                                     | Gets the MinimumOccursOn.                                              |
 | [`MinimumOfMaximumOverTime`](#ElementalEulerXYAngle.MinimumOfMaximumOverTime)                   | Gets the MinimumOfMaximumOverTime.                                     |
 | [`MinimumOfMinimumOverTime`](#ElementalEulerXYAngle.MinimumOfMinimumOverTime)                   | Gets the MinimumOfMinimumOverTime.                                     |
-| [`Time`](#ElementalEulerXYAngle.Time)                                                           | Gets the Time.                                                         |
-| [`DisplayTime`](#ElementalEulerXYAngle.DisplayTime)                                             | Gets or sets the DisplayTime.                                          |
-| [`GraphControlsXAxis`](#ElementalEulerXYAngle.GraphControlsXAxis)                               | Gets or sets the GraphControlsXAxis.                                   |
-| [`DisplayOption`](#ElementalEulerXYAngle.DisplayOption)                                         | Gets or sets the DisplayOption.                                        |
-| [`DpfEvaluation`](#ElementalEulerXYAngle.DpfEvaluation)                                         | Gets or sets the DpfEvaluation.                                        |
-| [`By`](#ElementalEulerXYAngle.By)                                                               | Gets or sets the By.                                                   |
-| [`ItemType`](#ElementalEulerXYAngle.ItemType)                                                   | Gets or sets the ItemType.                                             |
-| [`CalculateTimeHistory`](#ElementalEulerXYAngle.CalculateTimeHistory)                           | Gets or sets the CalculateTimeHistory.                                 |
-| [`Suppressed`](#ElementalEulerXYAngle.Suppressed)                                               | Gets or sets the Suppressed.                                           |
-| [`Children`](#ElementalEulerXYAngle.Children)                                                   | Gets the list of children.                                             |
-| [`Comments`](#ElementalEulerXYAngle.Comments)                                                   | Gets the list of associated comments.                                  |
-| [`Figures`](#ElementalEulerXYAngle.Figures)                                                     | Gets the list of associated figures.                                   |
-| [`Images`](#ElementalEulerXYAngle.Images)                                                       | Gets the list of associated images.                                    |
-| [`InternalObject`](#id0)                                                                        | Gets the internal object. For advanced usage only.                     |
+| [`Mode`](#ElementalEulerXYAngle.Mode)                                                           | Gets or sets the Mode.                                                 |
+| [`NamedSelections`](#ElementalEulerXYAngle.NamedSelections)                                     | Gets or sets the NamedSelections.                                      |
+| [`Path`](#ElementalEulerXYAngle.Path)                                                           | Path property.                                                         |
+| [`PhaseIncrement`](#ElementalEulerXYAngle.PhaseIncrement)                                       | Gets or sets the PhaseIncrement.                                       |
+| [`PlotData`](#ElementalEulerXYAngle.PlotData)                                                   | Gets the result table.                                                 |
+| [`Ply`](#ElementalEulerXYAngle.Ply)                                                             | Gets or sets the Ply selection.                                        |
+| [`Position`](#ElementalEulerXYAngle.Position)                                                   | Gets or sets the Position.                                             |
 | [`Properties`](#ElementalEulerXYAngle.Properties)                                               | Gets the list of properties for this object.                           |
+| [`ScaleFactor`](#ElementalEulerXYAngle.ScaleFactor)                                             | Gets or sets the ScaleFactor.                                          |
+| [`ScaleFactorValue`](#ElementalEulerXYAngle.ScaleFactorValue)                                   | Gets or sets the ScaleFactorValue.                                     |
+| [`ScopingMethod`](#ElementalEulerXYAngle.ScopingMethod)                                         | Gets or sets the ScopingMethod.                                        |
+| [`SetNumber`](#ElementalEulerXYAngle.SetNumber)                                                 | Gets or sets the Set Number.                                           |
+| [`SolutionCombinationDriver`](#ElementalEulerXYAngle.SolutionCombinationDriver)                 | Gets or sets the SolutionCombinationDriver.                            |
+| [`SolverComponentIDs`](#ElementalEulerXYAngle.SolverComponentIDs)                               | Gets or sets the SolverComponentIDs.                                   |
+| [`SubScopeBy`](#ElementalEulerXYAngle.SubScopeBy)                                               | Gets or sets the SubScopeBy.                                           |
+| [`Substep`](#ElementalEulerXYAngle.Substep)                                                     | Gets the Substep.                                                      |
+| [`Suppressed`](#ElementalEulerXYAngle.Suppressed)                                               | Gets or sets the Suppressed.                                           |
+| [`Surface`](#ElementalEulerXYAngle.Surface)                                                     | Surface property.                                                      |
+| [`SurfaceCoating`](#ElementalEulerXYAngle.SurfaceCoating)                                                                                                                                                          | SurfaceCoating property.                                               |
+| [`SweepingPhase`](#ElementalEulerXYAngle.SweepingPhase)                                         | Gets or sets the SweepingPhase.                                        |
+| [`Time`](#ElementalEulerXYAngle.Time)                                                           | Gets the Time.                                                         |
+| [`TimeForMaximumOfMaximumValues`](#ElementalEulerXYAngle.TimeForMaximumOfMaximumValues)         | Get the Time for the maximum of maximum values.                        |
+| [`TimeForMaximumOfMinimumValues`](#ElementalEulerXYAngle.TimeForMaximumOfMinimumValues)         | Get the Time for the maximum of minimum values.                        |
+| [`TimeForMinimumOfMaximumValues`](#ElementalEulerXYAngle.TimeForMinimumOfMaximumValues)         | Get the Time for the minimum of maximum values.                        |
+| [`TimeForMinimumOfMinimumValues`](#ElementalEulerXYAngle.TimeForMinimumOfMinimumValues)         | Get the Time for the minimum of minimum values.                        |
 | [`VisibleProperties`](#ElementalEulerXYAngle.VisibleProperties)                                 | Gets the list of properties that are visible for this object.          |
+| [`WaterfallShowTextOnMosaic`](#ElementalEulerXYAngle.WaterfallShowTextOnMosaic)                                                                                                                                    | Gets or sets the Waterfall Mosaic Text Property.                       |
 
 <a id="property-detail"></a>
 
 ## Property detail
-
-<a id="ElementalEulerXYAngle.InternalObject"></a>
-
-### *property* ElementalEulerXYAngle.InternalObject *: Ansys.Common.Interop.DSObjectsAuto.IDSResultAuto | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets the internal object. For advanced usage only.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="ElementalEulerXYAngle.DataModelObjectCategory"></a>
-
-### *property* ElementalEulerXYAngle.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../../../v241/Ansys/Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets the current DataModelObject's category.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="ElementalEulerXYAngle.Mode"></a>
-
-### *property* ElementalEulerXYAngle.Mode *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the Mode.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="ElementalEulerXYAngle.Ply"></a>
-
-### *property* ElementalEulerXYAngle.Ply *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.AnalysisPly](../../../../../../../v241/Ansys/ACT/Automation/Mechanical/AnalysisPly.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.AnalysisPly)] | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the Ply selection.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="ElementalEulerXYAngle.LoadMultiplier"></a>
-
-### *property* ElementalEulerXYAngle.LoadMultiplier *: System.Double | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets the LoadMultiplier.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="ElementalEulerXYAngle.ScaleFactorValue"></a>
-
-### *property* ElementalEulerXYAngle.ScaleFactorValue *: System.Double | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the ScaleFactorValue.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="ElementalEulerXYAngle.SweepingPhase"></a>
-
-### *property* ElementalEulerXYAngle.SweepingPhase *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the SweepingPhase.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="ElementalEulerXYAngle.PhaseIncrement"></a>
-
-### *property* ElementalEulerXYAngle.PhaseIncrement *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the PhaseIncrement.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="ElementalEulerXYAngle.Frequency"></a>
-
-### *property* ElementalEulerXYAngle.Frequency *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the Frequency.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="ElementalEulerXYAngle.ScaleFactor"></a>
-
-### *property* ElementalEulerXYAngle.ScaleFactor *: [Ansys.Mechanical.DataModel.Enums.ScaleFactorType](../../../../../../../v241/Ansys/Mechanical/DataModel/Enums/ScaleFactorType.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.ScaleFactorType) | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the ScaleFactor.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="ElementalEulerXYAngle.Position"></a>
-
-### *property* ElementalEulerXYAngle.Position *: [Ansys.Mechanical.DataModel.Enums.ShellFaceType](../../../../../../../v241/Ansys/Mechanical/DataModel/Enums/ShellFaceType.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.ShellFaceType) | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the Position.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="ElementalEulerXYAngle.SubScopeBy"></a>
-
-### *property* ElementalEulerXYAngle.SubScopeBy *: [Ansys.Mechanical.DataModel.Enums.SubScopingDefineByType](../../../../../../../v241/Ansys/Mechanical/DataModel/Enums/SubScopingDefineByType.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.SubScopingDefineByType) | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the SubScopeBy.
-
-<!-- !! processed by numpydoc !! -->
 
 <a id="ElementalEulerXYAngle.Amplitude"></a>
 
@@ -226,91 +128,51 @@ Gets or sets the Amplitude.
 
 <!-- !! processed by numpydoc !! -->
 
-<a id="ElementalEulerXYAngle.PlotData"></a>
+<a id="ElementalEulerXYAngle.Average"></a>
 
-### *property* ElementalEulerXYAngle.PlotData *: [Ansys.Mechanical.DataModel.Results.ResultDataTable](../../../../../../../v241/Ansys/Mechanical/DataModel/Results/ResultDataTable.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Results.ResultDataTable) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ElementalEulerXYAngle.Average *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets the result table.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="ElementalEulerXYAngle.Location"></a>
-
-### *property* ElementalEulerXYAngle.Location *: Ansys.ACT.Interfaces.Common.ISelectionInfo | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the Location.
+Gets the Average.
 
 <!-- !! processed by numpydoc !! -->
 
-<a id="ElementalEulerXYAngle.TimeForMinimumOfMinimumValues"></a>
+<a id="ElementalEulerXYAngle.By"></a>
 
-### *property* ElementalEulerXYAngle.TimeForMinimumOfMinimumValues *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ElementalEulerXYAngle.By *: [Ansys.Mechanical.DataModel.Enums.SetDriverStyle](../../../../../Mechanical/DataModel/Enums/SetDriverStyle.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.SetDriverStyle) | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Get the Time for the minimum of minimum values.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="ElementalEulerXYAngle.TimeForMinimumOfMaximumValues"></a>
-
-### *property* ElementalEulerXYAngle.TimeForMinimumOfMaximumValues *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Get the Time for the minimum of maximum values.
+Gets or sets the By.
 
 <!-- !! processed by numpydoc !! -->
 
-<a id="ElementalEulerXYAngle.LoadStepForMinimumOfMinimumValues"></a>
+<a id="ElementalEulerXYAngle.CalculateTimeHistory"></a>
 
-### *property* ElementalEulerXYAngle.LoadStepForMinimumOfMinimumValues *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ElementalEulerXYAngle.CalculateTimeHistory *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Get the Load Step for the minimum of minimum values.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="ElementalEulerXYAngle.LoadStepForMinimumOfMaximumValues"></a>
-
-### *property* ElementalEulerXYAngle.LoadStepForMinimumOfMaximumValues *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Get the Load Step for the minimum of maximum values.
+Gets or sets the CalculateTimeHistory.
 
 <!-- !! processed by numpydoc !! -->
 
-<a id="ElementalEulerXYAngle.TimeForMaximumOfMinimumValues"></a>
+<a id="ElementalEulerXYAngle.Children"></a>
 
-### *property* ElementalEulerXYAngle.TimeForMaximumOfMinimumValues *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ElementalEulerXYAngle.Children *: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Get the Time for the maximum of minimum values.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="ElementalEulerXYAngle.TimeForMaximumOfMaximumValues"></a>
-
-### *property* ElementalEulerXYAngle.TimeForMaximumOfMaximumValues *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Get the Time for the maximum of maximum values.
+Gets the list of children.
 
 <!-- !! processed by numpydoc !! -->
 
-<a id="ElementalEulerXYAngle.LoadStepForMaximumOfMinimumValues"></a>
+<a id="ElementalEulerXYAngle.CombinationNumber"></a>
 
-### *property* ElementalEulerXYAngle.LoadStepForMaximumOfMinimumValues *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ElementalEulerXYAngle.CombinationNumber *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Get the Load Step for the maximum of minimum values.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="ElementalEulerXYAngle.LoadStepForMaximumOfMaximumValues"></a>
-
-### *property* ElementalEulerXYAngle.LoadStepForMaximumOfMaximumValues *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Get the Load Step for the maximum of maximum values.
+Gets or sets the Combination Number for a Solution Combination result.
 
 <!-- !! processed by numpydoc !! -->
 
-<a id="ElementalEulerXYAngle.IsSolved"></a>
+<a id="ElementalEulerXYAngle.Comments"></a>
 
-### *property* ElementalEulerXYAngle.IsSolved *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ElementalEulerXYAngle.Comments *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Comment](../../../../../../../v241/Ansys/ACT/Automation/Mechanical/Comment.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets the IsSolved.
+Gets the list of associated comments.
 
 <!-- !! processed by numpydoc !! -->
 
@@ -324,83 +186,59 @@ Accepts/Returns None for Fiber Coordinate System for a result that is sub scoped
 
 <!-- !! processed by numpydoc !! -->
 
-<a id="ElementalEulerXYAngle.ScopingMethod"></a>
-
-### *property* ElementalEulerXYAngle.ScopingMethod *: [Ansys.Mechanical.DataModel.Enums.GeometryDefineByType](../../../../../../../v241/Ansys/Mechanical/DataModel/Enums/GeometryDefineByType.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.GeometryDefineByType) | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the ScopingMethod.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="ElementalEulerXYAngle.SetNumber"></a>
-
-### *property* ElementalEulerXYAngle.SetNumber *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the Set Number.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="ElementalEulerXYAngle.CombinationNumber"></a>
-
-### *property* ElementalEulerXYAngle.CombinationNumber *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the Combination Number for a Solution Combination result.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="ElementalEulerXYAngle.SolutionCombinationDriver"></a>
-
-### *property* ElementalEulerXYAngle.SolutionCombinationDriver *: [Ansys.Mechanical.DataModel.Enums.SolutionCombinationDriverStyle](../../../../../../../v241/Ansys/Mechanical/DataModel/Enums/SolutionCombinationDriverStyle.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.SolutionCombinationDriverStyle) | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the SolutionCombinationDriver.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="ElementalEulerXYAngle.Path"></a>
-
-### *property* ElementalEulerXYAngle.Path *: [Ansys.ACT.Automation.Mechanical.Path](../../../../../../../v241/Ansys/ACT/Automation/Mechanical/Path.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Path) | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Path property.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="ElementalEulerXYAngle.Surface"></a>
-
-### *property* ElementalEulerXYAngle.Surface *: [Ansys.ACT.Automation.Mechanical.Surface](../../../../../../../v241/Ansys/ACT/Automation/Mechanical/Surface.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Surface) | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Surface property.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="ElementalEulerXYAngle.SurfaceCoating"></a>
-
-### *property* ElementalEulerXYAngle.SurfaceCoating *: [Ansys.ACT.Automation.Mechanical.SurfaceCoating](../../../../../../../v241/Ansys/ACT/Automation/Mechanical/SurfaceCoating.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.SurfaceCoating) | [None](https://docs.python.org/3/library/constants.html#None)*
-
-SurfaceCoating property.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="ElementalEulerXYAngle.NamedSelections"></a>
-
-### *property* ElementalEulerXYAngle.NamedSelections *: System.Collections.Generic.IEnumerable[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the NamedSelections.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="ElementalEulerXYAngle.WaterfallShowTextOnMosaic"></a>
-
-### *property* ElementalEulerXYAngle.WaterfallShowTextOnMosaic *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the Waterfall Mosaic Text Property.
-
-<!-- !! processed by numpydoc !! -->
-
 <a id="ElementalEulerXYAngle.CrackFrontNumber"></a>
 
 ### *property* ElementalEulerXYAngle.CrackFrontNumber *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the CrackFrontNumber.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ElementalEulerXYAngle.DataModelObjectCategory"></a>
+
+### *property* ElementalEulerXYAngle.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets the current DataModelObject’s category.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ElementalEulerXYAngle.DisplayOption"></a>
+
+### *property* ElementalEulerXYAngle.DisplayOption *: [Ansys.Mechanical.DataModel.Enums.ResultAveragingType](../../../../../Mechanical/DataModel/Enums/ResultAveragingType.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.ResultAveragingType) | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the DisplayOption.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ElementalEulerXYAngle.DisplayTime"></a>
+
+### *property* ElementalEulerXYAngle.DisplayTime *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the DisplayTime.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ElementalEulerXYAngle.DpfEvaluation"></a>
+
+### *property* ElementalEulerXYAngle.DpfEvaluation *: [Ansys.Mechanical.DataModel.Enums.DpfEvaluationType](../../../../../Mechanical/DataModel/Enums/DpfEvaluationType.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.DpfEvaluationType) | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the DpfEvaluation.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ElementalEulerXYAngle.Figures"></a>
+
+### *property* ElementalEulerXYAngle.Figures *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Figure](../../../../../../../v241/Ansys/ACT/Automation/Mechanical/Figure.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets the list of associated figures.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ElementalEulerXYAngle.Frequency"></a>
+
+### *property* ElementalEulerXYAngle.Frequency *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the Frequency.
 
 <!-- !! processed by numpydoc !! -->
 
@@ -412,11 +250,51 @@ Gets or sets the GlobalIDs.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="ElementalEulerXYAngle.GraphControlsXAxis"></a>
+
+### *property* ElementalEulerXYAngle.GraphControlsXAxis *: [Ansys.Mechanical.DataModel.Enums.GraphControlsXAxis](../../../../../Mechanical/DataModel/Enums/GraphControlsXAxis.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.GraphControlsXAxis) | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the GraphControlsXAxis.
+
+<!-- !! processed by numpydoc !! -->
+
 <a id="ElementalEulerXYAngle.Identifier"></a>
 
 ### *property* ElementalEulerXYAngle.Identifier *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Identifier.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ElementalEulerXYAngle.Images"></a>
+
+### *property* ElementalEulerXYAngle.Images *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Image](../../../../../../../v241/Ansys/ACT/Automation/Mechanical/Image.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets the list of associated images.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ElementalEulerXYAngle.InternalObject"></a>
+
+### *property* ElementalEulerXYAngle.InternalObject *: Ansys.Common.Interop.DSObjectsAuto.IDSResultAuto | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets the internal object. For advanced usage only.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ElementalEulerXYAngle.IsSolved"></a>
+
+### *property* ElementalEulerXYAngle.IsSolved *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets the IsSolved.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ElementalEulerXYAngle.ItemType"></a>
+
+### *property* ElementalEulerXYAngle.ItemType *: [Ansys.Mechanical.DataModel.Enums.ResultFileItemType](../../../../../Mechanical/DataModel/Enums/ResultFileItemType.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.ResultFileItemType) | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the ItemType.
 
 <!-- !! processed by numpydoc !! -->
 
@@ -428,6 +306,14 @@ Gets the IterationNumber.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="ElementalEulerXYAngle.LoadMultiplier"></a>
+
+### *property* ElementalEulerXYAngle.LoadMultiplier *: System.Double | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets the LoadMultiplier.
+
+<!-- !! processed by numpydoc !! -->
+
 <a id="ElementalEulerXYAngle.LoadStep"></a>
 
 ### *property* ElementalEulerXYAngle.LoadStep *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
@@ -436,19 +322,35 @@ Gets the LoadStep.
 
 <!-- !! processed by numpydoc !! -->
 
-<a id="ElementalEulerXYAngle.MaximumOccursOn"></a>
+<a id="ElementalEulerXYAngle.LoadStepForMaximumOfMaximumValues"></a>
 
-### *property* ElementalEulerXYAngle.MaximumOccursOn *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ElementalEulerXYAngle.LoadStepForMaximumOfMaximumValues *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets the MaximumOccursOn.
+Get the Load Step for the maximum of maximum values.
 
 <!-- !! processed by numpydoc !! -->
 
-<a id="ElementalEulerXYAngle.MinimumOccursOn"></a>
+<a id="ElementalEulerXYAngle.LoadStepForMaximumOfMinimumValues"></a>
 
-### *property* ElementalEulerXYAngle.MinimumOccursOn *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ElementalEulerXYAngle.LoadStepForMaximumOfMinimumValues *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets the MinimumOccursOn.
+Get the Load Step for the maximum of minimum values.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ElementalEulerXYAngle.LoadStepForMinimumOfMaximumValues"></a>
+
+### *property* ElementalEulerXYAngle.LoadStepForMinimumOfMaximumValues *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Get the Load Step for the minimum of maximum values.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ElementalEulerXYAngle.LoadStepForMinimumOfMinimumValues"></a>
+
+### *property* ElementalEulerXYAngle.LoadStepForMinimumOfMinimumValues *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Get the Load Step for the minimum of minimum values.
 
 <!-- !! processed by numpydoc !! -->
 
@@ -460,27 +362,11 @@ Gets or sets the LoadStepNumber.
 
 <!-- !! processed by numpydoc !! -->
 
-<a id="ElementalEulerXYAngle.SolverComponentIDs"></a>
+<a id="ElementalEulerXYAngle.Location"></a>
 
-### *property* ElementalEulerXYAngle.SolverComponentIDs *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ElementalEulerXYAngle.Location *: Ansys.ACT.Interfaces.Common.ISelectionInfo | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets or sets the SolverComponentIDs.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="ElementalEulerXYAngle.Substep"></a>
-
-### *property* ElementalEulerXYAngle.Substep *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets the Substep.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="ElementalEulerXYAngle.Average"></a>
-
-### *property* ElementalEulerXYAngle.Average *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets the Average.
+Gets or sets the Location.
 
 <!-- !! processed by numpydoc !! -->
 
@@ -489,6 +375,14 @@ Gets the Average.
 ### *property* ElementalEulerXYAngle.Maximum *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the Maximum.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ElementalEulerXYAngle.MaximumOccursOn"></a>
+
+### *property* ElementalEulerXYAngle.MaximumOccursOn *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets the MaximumOccursOn.
 
 <!-- !! processed by numpydoc !! -->
 
@@ -516,6 +410,14 @@ Gets the Minimum.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="ElementalEulerXYAngle.MinimumOccursOn"></a>
+
+### *property* ElementalEulerXYAngle.MinimumOccursOn *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets the MinimumOccursOn.
+
+<!-- !! processed by numpydoc !! -->
+
 <a id="ElementalEulerXYAngle.MinimumOfMaximumOverTime"></a>
 
 ### *property* ElementalEulerXYAngle.MinimumOfMaximumOverTime *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
@@ -532,115 +434,59 @@ Gets the MinimumOfMinimumOverTime.
 
 <!-- !! processed by numpydoc !! -->
 
-<a id="ElementalEulerXYAngle.Time"></a>
+<a id="ElementalEulerXYAngle.Mode"></a>
 
-### *property* ElementalEulerXYAngle.Time *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ElementalEulerXYAngle.Mode *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets the Time.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="ElementalEulerXYAngle.DisplayTime"></a>
-
-### *property* ElementalEulerXYAngle.DisplayTime *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the DisplayTime.
+Gets or sets the Mode.
 
 <!-- !! processed by numpydoc !! -->
 
-<a id="ElementalEulerXYAngle.GraphControlsXAxis"></a>
+<a id="ElementalEulerXYAngle.NamedSelections"></a>
 
-### *property* ElementalEulerXYAngle.GraphControlsXAxis *: [Ansys.Mechanical.DataModel.Enums.GraphControlsXAxis](../../../../../../../v241/Ansys/Mechanical/DataModel/Enums/GraphControlsXAxis.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.GraphControlsXAxis) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ElementalEulerXYAngle.NamedSelections *: System.Collections.Generic.IEnumerable[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets or sets the GraphControlsXAxis.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="ElementalEulerXYAngle.DisplayOption"></a>
-
-### *property* ElementalEulerXYAngle.DisplayOption *: [Ansys.Mechanical.DataModel.Enums.ResultAveragingType](../../../../../../../v241/Ansys/Mechanical/DataModel/Enums/ResultAveragingType.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.ResultAveragingType) | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the DisplayOption.
+Gets or sets the NamedSelections.
 
 <!-- !! processed by numpydoc !! -->
 
-<a id="ElementalEulerXYAngle.DpfEvaluation"></a>
+<a id="ElementalEulerXYAngle.Path"></a>
 
-### *property* ElementalEulerXYAngle.DpfEvaluation *: [Ansys.Mechanical.DataModel.Enums.DpfEvaluationType](../../../../../../../v241/Ansys/Mechanical/DataModel/Enums/DpfEvaluationType.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DpfEvaluationType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ElementalEulerXYAngle.Path *: [Ansys.ACT.Automation.Mechanical.Path](../../Path.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Path) | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets or sets the DpfEvaluation.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="ElementalEulerXYAngle.By"></a>
-
-### *property* ElementalEulerXYAngle.By *: [Ansys.Mechanical.DataModel.Enums.SetDriverStyle](../../../../../../../v241/Ansys/Mechanical/DataModel/Enums/SetDriverStyle.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.SetDriverStyle) | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the By.
+Path property.
 
 <!-- !! processed by numpydoc !! -->
 
-<a id="ElementalEulerXYAngle.ItemType"></a>
+<a id="ElementalEulerXYAngle.PhaseIncrement"></a>
 
-### *property* ElementalEulerXYAngle.ItemType *: [Ansys.Mechanical.DataModel.Enums.ResultFileItemType](../../../../../../../v241/Ansys/Mechanical/DataModel/Enums/ResultFileItemType.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.ResultFileItemType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ElementalEulerXYAngle.PhaseIncrement *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets or sets the ItemType.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="ElementalEulerXYAngle.CalculateTimeHistory"></a>
-
-### *property* ElementalEulerXYAngle.CalculateTimeHistory *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the CalculateTimeHistory.
+Gets or sets the PhaseIncrement.
 
 <!-- !! processed by numpydoc !! -->
 
-<a id="ElementalEulerXYAngle.Suppressed"></a>
+<a id="ElementalEulerXYAngle.PlotData"></a>
 
-### *property* ElementalEulerXYAngle.Suppressed *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ElementalEulerXYAngle.PlotData *: [Ansys.Mechanical.DataModel.Results.ResultDataTable](../../../../../Mechanical/DataModel/Results/ResultDataTable.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Results.ResultDataTable) | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets or sets the Suppressed.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="ElementalEulerXYAngle.Children"></a>
-
-### *property* ElementalEulerXYAngle.Children *: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets the list of children.
+Gets the result table.
 
 <!-- !! processed by numpydoc !! -->
 
-<a id="ElementalEulerXYAngle.Comments"></a>
+<a id="ElementalEulerXYAngle.Ply"></a>
 
-### *property* ElementalEulerXYAngle.Comments *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Comment](../../../../../../../v241/Ansys/ACT/Automation/Mechanical/Comment.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ElementalEulerXYAngle.Ply *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.AnalysisPly](../../../../../../../v241/Ansys/ACT/Automation/Mechanical/AnalysisPly.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.AnalysisPly)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets the list of associated comments.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="ElementalEulerXYAngle.Figures"></a>
-
-### *property* ElementalEulerXYAngle.Figures *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Figure](../../../../../../../v241/Ansys/ACT/Automation/Mechanical/Figure.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets the list of associated figures.
+Gets or sets the Ply selection.
 
 <!-- !! processed by numpydoc !! -->
 
-<a id="ElementalEulerXYAngle.Images"></a>
+<a id="ElementalEulerXYAngle.Position"></a>
 
-### *property* ElementalEulerXYAngle.Images *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Image](../../../../../../../v241/Ansys/ACT/Automation/Mechanical/Image.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ElementalEulerXYAngle.Position *: [Ansys.Mechanical.DataModel.Enums.ShellFaceType](../../../../../Mechanical/DataModel/Enums/ShellFaceType.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.ShellFaceType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets the list of associated images.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="id0"></a>
-
-### *property* ElementalEulerXYAngle.InternalObject *: System.Object | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets the internal object. For advanced usage only.
+Gets or sets the Position.
 
 <!-- !! processed by numpydoc !! -->
 
@@ -652,6 +498,142 @@ Gets the list of properties for this object.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="ElementalEulerXYAngle.ScaleFactor"></a>
+
+### *property* ElementalEulerXYAngle.ScaleFactor *: [Ansys.Mechanical.DataModel.Enums.ScaleFactorType](../../../../../Mechanical/DataModel/Enums/ScaleFactorType.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.ScaleFactorType) | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the ScaleFactor.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ElementalEulerXYAngle.ScaleFactorValue"></a>
+
+### *property* ElementalEulerXYAngle.ScaleFactorValue *: System.Double | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the ScaleFactorValue.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ElementalEulerXYAngle.ScopingMethod"></a>
+
+### *property* ElementalEulerXYAngle.ScopingMethod *: [Ansys.Mechanical.DataModel.Enums.GeometryDefineByType](../../../../../Mechanical/DataModel/Enums/GeometryDefineByType.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.GeometryDefineByType) | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the ScopingMethod.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ElementalEulerXYAngle.SetNumber"></a>
+
+### *property* ElementalEulerXYAngle.SetNumber *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the Set Number.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ElementalEulerXYAngle.SolutionCombinationDriver"></a>
+
+### *property* ElementalEulerXYAngle.SolutionCombinationDriver *: [Ansys.Mechanical.DataModel.Enums.SolutionCombinationDriverStyle](../../../../../Mechanical/DataModel/Enums/SolutionCombinationDriverStyle.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.SolutionCombinationDriverStyle) | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the SolutionCombinationDriver.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ElementalEulerXYAngle.SolverComponentIDs"></a>
+
+### *property* ElementalEulerXYAngle.SolverComponentIDs *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the SolverComponentIDs.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ElementalEulerXYAngle.SubScopeBy"></a>
+
+### *property* ElementalEulerXYAngle.SubScopeBy *: [Ansys.Mechanical.DataModel.Enums.SubScopingDefineByType](../../../../../Mechanical/DataModel/Enums/SubScopingDefineByType.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.SubScopingDefineByType) | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the SubScopeBy.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ElementalEulerXYAngle.Substep"></a>
+
+### *property* ElementalEulerXYAngle.Substep *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets the Substep.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ElementalEulerXYAngle.Suppressed"></a>
+
+### *property* ElementalEulerXYAngle.Suppressed *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the Suppressed.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ElementalEulerXYAngle.Surface"></a>
+
+### *property* ElementalEulerXYAngle.Surface *: [Ansys.ACT.Automation.Mechanical.Surface](../../Surface.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Surface) | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Surface property.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ElementalEulerXYAngle.SurfaceCoating"></a>
+
+### *property* ElementalEulerXYAngle.SurfaceCoating *: [Ansys.ACT.Automation.Mechanical.SurfaceCoating](../../SurfaceCoating.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.SurfaceCoating) | [None](https://docs.python.org/3/library/constants.html#None)*
+
+SurfaceCoating property.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ElementalEulerXYAngle.SweepingPhase"></a>
+
+### *property* ElementalEulerXYAngle.SweepingPhase *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the SweepingPhase.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ElementalEulerXYAngle.Time"></a>
+
+### *property* ElementalEulerXYAngle.Time *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets the Time.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ElementalEulerXYAngle.TimeForMaximumOfMaximumValues"></a>
+
+### *property* ElementalEulerXYAngle.TimeForMaximumOfMaximumValues *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Get the Time for the maximum of maximum values.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ElementalEulerXYAngle.TimeForMaximumOfMinimumValues"></a>
+
+### *property* ElementalEulerXYAngle.TimeForMaximumOfMinimumValues *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Get the Time for the maximum of minimum values.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ElementalEulerXYAngle.TimeForMinimumOfMaximumValues"></a>
+
+### *property* ElementalEulerXYAngle.TimeForMinimumOfMaximumValues *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Get the Time for the minimum of maximum values.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ElementalEulerXYAngle.TimeForMinimumOfMinimumValues"></a>
+
+### *property* ElementalEulerXYAngle.TimeForMinimumOfMinimumValues *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Get the Time for the minimum of minimum values.
+
+<!-- !! processed by numpydoc !! -->
+
 <a id="ElementalEulerXYAngle.VisibleProperties"></a>
 
 ### *property* ElementalEulerXYAngle.VisibleProperties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
@@ -660,79 +642,23 @@ Gets the list of properties that are visible for this object.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="ElementalEulerXYAngle.WaterfallShowTextOnMosaic"></a>
+
+### *property* ElementalEulerXYAngle.WaterfallShowTextOnMosaic *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the Waterfall Mosaic Text Property.
+
+<!-- !! processed by numpydoc !! -->
+
 <a id="method-detail"></a>
 
 ## Method detail
 
-<a id="ElementalEulerXYAngle.ClearGeneratedData"></a>
+<a id="ElementalEulerXYAngle.Activate"></a>
 
-### ElementalEulerXYAngle.ClearGeneratedData()
+### ElementalEulerXYAngle.Activate()
 
-Run the ClearGeneratedData action.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="ElementalEulerXYAngle.EvaluateAllResults"></a>
-
-### ElementalEulerXYAngle.EvaluateAllResults()
-
-Run the EvaluateAllResults action.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="ElementalEulerXYAngle.FetchRemoteResults"></a>
-
-### ElementalEulerXYAngle.FetchRemoteResults()
-
-Run the FetchRemoteResult action.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="ElementalEulerXYAngle.ExportToTextFile"></a>
-
-### ElementalEulerXYAngle.ExportToTextFile(filePath: System.String)
-
-Run the ExportToTextFile action.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="ElementalEulerXYAngle.ExportAnimation"></a>
-
-### ElementalEulerXYAngle.ExportAnimation(filePath: System.String, format: [Ansys.Mechanical.DataModel.Enums.GraphicsAnimationExportFormat](../../../../../../../v241/Ansys/Mechanical/DataModel/Enums/GraphicsAnimationExportFormat.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.GraphicsAnimationExportFormat), settings: [Ansys.Mechanical.Graphics.AnimationExportSettings](../../../../../../../v241/Ansys/Mechanical/Graphics/AnimationExportSettings.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.Graphics.AnimationExportSettings))
-
-Run the ExportAnimation action.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="ElementalEulerXYAngle.DuplicateWithoutResults"></a>
-
-### ElementalEulerXYAngle.DuplicateWithoutResults()
-
-Run the DuplicateWithoutResults action.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="ElementalEulerXYAngle.CreateResultsAtAllSets"></a>
-
-### ElementalEulerXYAngle.CreateResultsAtAllSets()
-
-Creates results at all sets for results under a solution.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="ElementalEulerXYAngle.PromoteToNamedSelection"></a>
-
-### ElementalEulerXYAngle.PromoteToNamedSelection()
-
-Run the PromoteToNamedSelection action.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="ElementalEulerXYAngle.CreateParameter"></a>
-
-### ElementalEulerXYAngle.CreateParameter(propName: System.String)
-
-CreateParameter method.
+Activate the current object.
 
 <!-- !! processed by numpydoc !! -->
 
@@ -744,51 +670,19 @@ Creates a new Alert
 
 <!-- !! processed by numpydoc !! -->
 
-<a id="ElementalEulerXYAngle.AddConvergence"></a>
-
-### ElementalEulerXYAngle.AddConvergence()
-
-Creates a new Convergence
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="ElementalEulerXYAngle.RenameBasedOnDefinition"></a>
-
-### ElementalEulerXYAngle.RenameBasedOnDefinition()
-
-Run the RenameBasedOnDefinition action.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="ElementalEulerXYAngle.Delete"></a>
-
-### ElementalEulerXYAngle.Delete()
-
-Run the Delete action.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="ElementalEulerXYAngle.GetChildren"></a>
-
-### ElementalEulerXYAngle.GetChildren(recurses: System.Boolean, children: System.Collections.Generic.IList[ChildrenType])
-
-Gets the list of children, filtered by type.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="id1"></a>
-
-### ElementalEulerXYAngle.GetChildren(category: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../../../v241/Ansys/Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory), recurses: System.Boolean, children: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject])
-
-Gets the list of children, filtered by type.
-
-<!-- !! processed by numpydoc !! -->
-
 <a id="ElementalEulerXYAngle.AddComment"></a>
 
 ### ElementalEulerXYAngle.AddComment()
 
 Creates a new child Comment.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ElementalEulerXYAngle.AddConvergence"></a>
+
+### ElementalEulerXYAngle.AddConvergence()
+
+Creates a new Convergence
 
 <!-- !! processed by numpydoc !! -->
 
@@ -804,17 +698,19 @@ Creates a new child Figure.
 
 ### ElementalEulerXYAngle.AddImage(filePath: System.String)
 
+```text
 Creates a new child Image.
 If a filePath is provided, the image will be loaded from that file,
 if not, the image will be a screen capture of the Geometry window.
+```
 
 <!-- !! processed by numpydoc !! -->
 
-<a id="ElementalEulerXYAngle.Activate"></a>
+<a id="ElementalEulerXYAngle.ClearGeneratedData"></a>
 
-### ElementalEulerXYAngle.Activate()
+### ElementalEulerXYAngle.ClearGeneratedData()
 
-Activate the current object.
+Run the ClearGeneratedData action.
 
 <!-- !! processed by numpydoc !! -->
 
@@ -826,11 +722,91 @@ Copies all visible properties from this object to another.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="ElementalEulerXYAngle.CreateParameter"></a>
+
+### ElementalEulerXYAngle.CreateParameter(propName: System.String)
+
+CreateParameter method.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ElementalEulerXYAngle.CreateResultsAtAllSets"></a>
+
+### ElementalEulerXYAngle.CreateResultsAtAllSets()
+
+Creates results at all sets for results under a solution.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ElementalEulerXYAngle.Delete"></a>
+
+### ElementalEulerXYAngle.Delete()
+
+Run the Delete action.
+
+<!-- !! processed by numpydoc !! -->
+
 <a id="ElementalEulerXYAngle.Duplicate"></a>
 
 ### ElementalEulerXYAngle.Duplicate()
 
 Creates a copy of the current DataModelObject.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ElementalEulerXYAngle.DuplicateWithoutResults"></a>
+
+### ElementalEulerXYAngle.DuplicateWithoutResults()
+
+Run the DuplicateWithoutResults action.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ElementalEulerXYAngle.EvaluateAllResults"></a>
+
+### ElementalEulerXYAngle.EvaluateAllResults()
+
+Run the EvaluateAllResults action.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ElementalEulerXYAngle.ExportAnimation"></a>
+
+### ElementalEulerXYAngle.ExportAnimation(filePath: System.String, format: [Ansys.Mechanical.DataModel.Enums.GraphicsAnimationExportFormat](../../../../../Mechanical/DataModel/Enums/GraphicsAnimationExportFormat.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.GraphicsAnimationExportFormat), settings: [Ansys.Mechanical.Graphics.AnimationExportSettings](../../../../../Mechanical/Graphics/AnimationExportSettings.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.Graphics.AnimationExportSettings))
+
+Run the ExportAnimation action.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ElementalEulerXYAngle.ExportToTextFile"></a>
+
+### ElementalEulerXYAngle.ExportToTextFile(filePath: System.String)
+
+Run the ExportToTextFile action.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ElementalEulerXYAngle.FetchRemoteResults"></a>
+
+### ElementalEulerXYAngle.FetchRemoteResults()
+
+Run the FetchRemoteResult action.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ElementalEulerXYAngle.GetChildren"></a>
+
+### ElementalEulerXYAngle.GetChildren(recurses: System.Boolean, children: System.Collections.Generic.IList[ChildrenType])
+
+Gets the list of children, filtered by type.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ElementalEulerXYAngle.GetParameter"></a>
+
+### ElementalEulerXYAngle.GetParameter(propName: System.String)
+
+Gets the parameter corresponding to the given property.
 
 <!-- !! processed by numpydoc !! -->
 
@@ -850,6 +826,25 @@ Run the GroupSimilarObjects action.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="ElementalEulerXYAngle.PromoteToNamedSelection"></a>
+
+### ElementalEulerXYAngle.PromoteToNamedSelection()
+
+Run the PromoteToNamedSelection action.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ElementalEulerXYAngle.PropertyByAPIName"></a>
+
+### ElementalEulerXYAngle.PropertyByAPIName(name: System.String)
+
+```text
+Get a property by its API name.
+If multiple properties have the same API Name, only the first property with that name will be returned.
+```
+
+<!-- !! processed by numpydoc !! -->
+
 <a id="ElementalEulerXYAngle.PropertyByName"></a>
 
 ### ElementalEulerXYAngle.PropertyByName(name: System.String)
@@ -858,28 +853,19 @@ Get a property by its unique name.
 
 <!-- !! processed by numpydoc !! -->
 
-<a id="ElementalEulerXYAngle.PropertyByAPIName"></a>
-
-### ElementalEulerXYAngle.PropertyByAPIName(name: System.String)
-
-Get a property by its API name.
-If multiple properties have the same API Name, only the first property with that name will be returned.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="ElementalEulerXYAngle.GetParameter"></a>
-
-### ElementalEulerXYAngle.GetParameter(propName: System.String)
-
-Gets the parameter corresponding to the given property.
-
-<!-- !! processed by numpydoc !! -->
-
 <a id="ElementalEulerXYAngle.RemoveParameter"></a>
 
 ### ElementalEulerXYAngle.RemoveParameter(propName: System.String)
 
 Removes the parameter from the parameter set corresponding to the given property.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ElementalEulerXYAngle.RenameBasedOnDefinition"></a>
+
+### ElementalEulerXYAngle.RenameBasedOnDefinition()
+
+Run the RenameBasedOnDefinition action.
 
 <!-- !! processed by numpydoc !! -->
 

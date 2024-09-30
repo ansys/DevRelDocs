@@ -1,6 +1,6 @@
 # `SymmetryRegionType`
 
-
+<a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.SymmetryRegionType"></a>
 
 #### *class* ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.SymmetryRegionType
 
@@ -17,18 +17,14 @@ Specifies the SymmetryRegionType.
 ### Attributes
 
 | Name |
-| ---------------------------------------------------------------------------------------------------------------------------------- |
-| [`Symmetric`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/SymmetryRegionType.md#SymmetryRegionType.Symmetric) |
-| [`AntiSymmetric`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/SymmetryRegionType.md#SymmetryRegionType.AntiSymmetric) |
-| [`LinearPeriodic`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/SymmetryRegionType.md#SymmetryRegionType.LinearPeriodic) |
+| -------------------------------------------------------- |
+| [`AntiSymmetric`](#SymmetryRegionType.AntiSymmetric) |
+| [`LinearPeriodic`](#SymmetryRegionType.LinearPeriodic) |
+| [`Symmetric`](#SymmetryRegionType.Symmetric) |
 
 <a id="attribute-detail"></a>
 
 ## Attribute detail
-
-<a id="SymmetryRegionType.Symmetric"></a>
-
-### SymmetryRegionType.Symmetric *= 1*
 
 <a id="SymmetryRegionType.AntiSymmetric"></a>
 
@@ -37,5 +33,9 @@ Specifies the SymmetryRegionType.
 <a id="SymmetryRegionType.LinearPeriodic"></a>
 
 ### SymmetryRegionType.LinearPeriodic *= 6*
+
+<a id="SymmetryRegionType.Symmetric"></a>
+
+### SymmetryRegionType.Symmetric *= 1*
 
 

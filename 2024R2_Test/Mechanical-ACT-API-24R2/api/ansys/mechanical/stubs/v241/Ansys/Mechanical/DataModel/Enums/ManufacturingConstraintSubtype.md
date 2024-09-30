@@ -1,6 +1,6 @@
 # `ManufacturingConstraintSubtype`
 
-
+<a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.ManufacturingConstraintSubtype"></a>
 
 #### *class* ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.ManufacturingConstraintSubtype
 
@@ -17,17 +17,17 @@ Specifies the ManufacturingConstraintSubtype.
 ### Attributes
 
 | Name |
-| ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| [`ComplexityIndexConstraint`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/ManufacturingConstraintSubtype.md#ManufacturingConstraintSubtype.ComplexityIndexConstraint) |
-| [`CyclicManufacturingConstraint`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/ManufacturingConstraintSubtype.md#ManufacturingConstraintSubtype.CyclicManufacturingConstraint) |
-| [`ExtrusionManufacturingConstraint`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/ManufacturingConstraintSubtype.md#ManufacturingConstraintSubtype.ExtrusionManufacturingConstraint) |
-| [`HousingConstraint`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/ManufacturingConstraintSubtype.md#ManufacturingConstraintSubtype.HousingConstraint) |
-| [`MemberSizeManufacturingConstraint`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/ManufacturingConstraintSubtype.md#ManufacturingConstraintSubtype.MemberSizeManufacturingConstraint) |
-| [`OverhangAngleManufacturingConstraint`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/ManufacturingConstraintSubtype.md#ManufacturingConstraintSubtype.OverhangAngleManufacturingConstraint) |
-| [`PatternRepetitionConstraint`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/ManufacturingConstraintSubtype.md#ManufacturingConstraintSubtype.PatternRepetitionConstraint) |
-| [`PullOutDirectionManufacturingConstraint`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/ManufacturingConstraintSubtype.md#ManufacturingConstraintSubtype.PullOutDirectionManufacturingConstraint) |
-| [`SymmetryManufacturingConstraint`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/ManufacturingConstraintSubtype.md#ManufacturingConstraintSubtype.SymmetryManufacturingConstraint) |
-| [`UniformConstraint`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/ManufacturingConstraintSubtype.md#ManufacturingConstraintSubtype.UniformConstraint) |
+| ---------------------------------------------------------------------------------------------------------------------- |
+| [`ComplexityIndexConstraint`](#ManufacturingConstraintSubtype.ComplexityIndexConstraint) |
+| [`CyclicManufacturingConstraint`](#ManufacturingConstraintSubtype.CyclicManufacturingConstraint) |
+| [`ExtrusionManufacturingConstraint`](#ManufacturingConstraintSubtype.ExtrusionManufacturingConstraint) |
+| [`HousingConstraint`](#ManufacturingConstraintSubtype.HousingConstraint) |
+| [`MemberSizeManufacturingConstraint`](#ManufacturingConstraintSubtype.MemberSizeManufacturingConstraint) |
+| [`OverhangAngleManufacturingConstraint`](#ManufacturingConstraintSubtype.OverhangAngleManufacturingConstraint) |
+| [`PatternRepetitionConstraint`](#ManufacturingConstraintSubtype.PatternRepetitionConstraint) |
+| [`PullOutDirectionManufacturingConstraint`](#ManufacturingConstraintSubtype.PullOutDirectionManufacturingConstraint) |
+| [`SymmetryManufacturingConstraint`](#ManufacturingConstraintSubtype.SymmetryManufacturingConstraint) |
+| [`UniformConstraint`](#ManufacturingConstraintSubtype.UniformConstraint) |
 
 <a id="attribute-detail"></a>
 

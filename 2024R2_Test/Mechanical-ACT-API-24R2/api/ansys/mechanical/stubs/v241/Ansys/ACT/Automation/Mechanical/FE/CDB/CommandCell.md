@@ -1,6 +1,6 @@
 # `CommandCell`
 
-
+<a id="ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.FE.CDB.CommandCell"></a>
 
 #### *class* ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.FE.CDB.CommandCell
 
@@ -18,8 +18,8 @@ Represents cell data associated to a beam SECBLOCK command.
 
 | Name | Description |
 |----------------------------------------------------------------------------------------------------------------|-----------------------------|
-| [`MatId`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/FE/CDB/CommandCell.md#CommandCell.MatId)   | Gets the material number.   |
-| [`Nodes`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/FE/CDB/CommandCell.md#CommandCell.Nodes)   | Gets the nodes.             |
+| [`MatId`](#CommandCell.MatId)   | Gets the material number.   |
+| [`Nodes`](#CommandCell.Nodes)   | Gets the nodes.             |
 
 <a id="property-detail"></a>
 

@@ -1,6 +1,6 @@
 # `ImportedBoltPretensions`
 
-
+<a id="ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.ImportedBoltPretensions"></a>
 
 #### *class* ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.ImportedBoltPretensions
 
@@ -18,75 +18,41 @@ Defines a ImportedBoltPretensions.
 
 | Name | Description |
 |-------------------------------------------------------------------------------|-----------------------------------------------------------------------------------|
-| [`Delete`](#ImportedBoltPretensions.Delete)                                   | Run the Delete action.                                                            |
-| [`GetChildren`](#id1)                                                         | Gets the list of children, filtered by type.                                      |
-| [`GetChildren`](#id1)                                                         | Gets the list of children, filtered by type.                                      |
+| [`Activate`](#ImportedBoltPretensions.Activate)                               | Activate the current object.                                                      |
 | [`AddComment`](#ImportedBoltPretensions.AddComment)                           | Creates a new child Comment.                                                      |
 | [`AddFigure`](#ImportedBoltPretensions.AddFigure)                             | Creates a new child Figure.                                                       |
 | [`AddImage`](#ImportedBoltPretensions.AddImage)                               | Creates a new child Image.                                                        |
-| [`Activate`](#ImportedBoltPretensions.Activate)                               | Activate the current object.                                                      |
 | [`CopyTo`](#ImportedBoltPretensions.CopyTo)                                   | Copies all visible properties from this object to another.                        |
+| [`CreateParameter`](#ImportedBoltPretensions.CreateParameter)                 | Creates a new parameter for a Property.                                           |
+| [`Delete`](#ImportedBoltPretensions.Delete)                                   | Run the Delete action.                                                            |
 | [`Duplicate`](#ImportedBoltPretensions.Duplicate)                             | Creates a copy of the current DataModelObject.                                    |
+| [`GetChildren`](#ImportedBoltPretensions.GetChildren)                         | Gets the list of children, filtered by type.                                      |
+| [`GetParameter`](#ImportedBoltPretensions.GetParameter)                       | Gets the parameter corresponding to the given property.                           |
 | [`GroupAllSimilarChildren`](#ImportedBoltPretensions.GroupAllSimilarChildren) | Run the GroupAllSimilarChildren action.                                           |
 | [`GroupSimilarObjects`](#ImportedBoltPretensions.GroupSimilarObjects)         | Run the GroupSimilarObjects action.                                               |
-| [`PropertyByName`](#ImportedBoltPretensions.PropertyByName)                   | Get a property by its unique name.                                                |
 | [`PropertyByAPIName`](#ImportedBoltPretensions.PropertyByAPIName)             | Get a property by its API name.                                                   |
-| [`CreateParameter`](#ImportedBoltPretensions.CreateParameter)                 | Creates a new parameter for a Property.                                           |
-| [`GetParameter`](#ImportedBoltPretensions.GetParameter)                       | Gets the parameter corresponding to the given property.                           |
+| [`PropertyByName`](#ImportedBoltPretensions.PropertyByName)                   | Get a property by its unique name.                                                |
 | [`RemoveParameter`](#ImportedBoltPretensions.RemoveParameter)                 | Removes the parameter from the parameter set corresponding to the given property. |
 
 ### Properties
 
 | Name | Description |
 |-------------------------------------------------------------------------------|---------------------------------------------------------------|
-| [`InternalObject`](#id0)                                                      | Gets the internal object. For advanced usage only.            |
-| [`DataModelObjectCategory`](#ImportedBoltPretensions.DataModelObjectCategory) | Gets the current DataModelObject's category.                  |
-| [`Count`](#ImportedBoltPretensions.Count)                                     | Gets the NumberOfRows.                                        |
-| [`Suppressed`](#ImportedBoltPretensions.Suppressed)                           | Gets or sets the Suppressed.                                  |
 | [`Children`](#ImportedBoltPretensions.Children)                               | Gets the list of children.                                    |
 | [`Comments`](#ImportedBoltPretensions.Comments)                               | Gets the list of associated comments.                         |
+| [`Count`](#ImportedBoltPretensions.Count)                                     | Gets the NumberOfRows.                                        |
+| [`DataModelObjectCategory`](#ImportedBoltPretensions.DataModelObjectCategory) | Gets the current DataModelObject’s category.                  |
 | [`Figures`](#ImportedBoltPretensions.Figures)                                 | Gets the list of associated figures.                          |
 | [`Images`](#ImportedBoltPretensions.Images)                                   | Gets the list of associated images.                           |
-| [`ReadOnly`](#ImportedBoltPretensions.ReadOnly)                               | Gets or sets the ReadOnly.                                    |
-| [`InternalObject`](#id0)                                                      | Gets the internal object. For advanced usage only.            |
+| [`InternalObject`](#ImportedBoltPretensions.InternalObject)                   | Gets the internal object. For advanced usage only.            |
 | [`Properties`](#ImportedBoltPretensions.Properties)                           | Gets the list of properties for this object.                  |
+| [`ReadOnly`](#ImportedBoltPretensions.ReadOnly)                               | Gets or sets the ReadOnly.                                    |
+| [`Suppressed`](#ImportedBoltPretensions.Suppressed)                           | Gets or sets the Suppressed.                                  |
 | [`VisibleProperties`](#ImportedBoltPretensions.VisibleProperties)             | Gets the list of properties that are visible for this object. |
 
 <a id="property-detail"></a>
 
 ## Property detail
-
-<a id="ImportedBoltPretensions.InternalObject"></a>
-
-### *property* ImportedBoltPretensions.InternalObject *: Ansys.Common.Interop.DSObjectsAuto.IDSExternalModelDataCollAuto | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets the internal object. For advanced usage only.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="ImportedBoltPretensions.DataModelObjectCategory"></a>
-
-### *property* ImportedBoltPretensions.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../v241/Ansys/Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets the current DataModelObject's category.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="ImportedBoltPretensions.Count"></a>
-
-### *property* ImportedBoltPretensions.Count *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets the NumberOfRows.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="ImportedBoltPretensions.Suppressed"></a>
-
-### *property* ImportedBoltPretensions.Suppressed *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the Suppressed.
-
-<!-- !! processed by numpydoc !! -->
 
 <a id="ImportedBoltPretensions.Children"></a>
 
@@ -101,6 +67,22 @@ Gets the list of children.
 ### *property* ImportedBoltPretensions.Comments *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Comment](../../../../../v241/Ansys/ACT/Automation/Mechanical/Comment.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated comments.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ImportedBoltPretensions.Count"></a>
+
+### *property* ImportedBoltPretensions.Count *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets the NumberOfRows.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ImportedBoltPretensions.DataModelObjectCategory"></a>
+
+### *property* ImportedBoltPretensions.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets the current DataModelObject’s category.
 
 <!-- !! processed by numpydoc !! -->
 
@@ -120,17 +102,9 @@ Gets the list of associated images.
 
 <!-- !! processed by numpydoc !! -->
 
-<a id="ImportedBoltPretensions.ReadOnly"></a>
+<a id="ImportedBoltPretensions.InternalObject"></a>
 
-### *property* ImportedBoltPretensions.ReadOnly *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the ReadOnly.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="id0"></a>
-
-### *property* ImportedBoltPretensions.InternalObject *: System.Object | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ImportedBoltPretensions.InternalObject *: Ansys.Common.Interop.DSObjectsAuto.IDSExternalModelDataCollAuto | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the internal object. For advanced usage only.
 
@@ -141,6 +115,22 @@ Gets the internal object. For advanced usage only.
 ### *property* ImportedBoltPretensions.Properties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of properties for this object.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ImportedBoltPretensions.ReadOnly"></a>
+
+### *property* ImportedBoltPretensions.ReadOnly *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the ReadOnly.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ImportedBoltPretensions.Suppressed"></a>
+
+### *property* ImportedBoltPretensions.Suppressed *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the Suppressed.
 
 <!-- !! processed by numpydoc !! -->
 
@@ -156,27 +146,11 @@ Gets the list of properties that are visible for this object.
 
 ## Method detail
 
-<a id="ImportedBoltPretensions.Delete"></a>
+<a id="ImportedBoltPretensions.Activate"></a>
 
-### ImportedBoltPretensions.Delete()
+### ImportedBoltPretensions.Activate()
 
-Run the Delete action.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="ImportedBoltPretensions.GetChildren"></a>
-
-### ImportedBoltPretensions.GetChildren(recurses: System.Boolean, children: System.Collections.Generic.IList[ChildrenType])
-
-Gets the list of children, filtered by type.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="id1"></a>
-
-### ImportedBoltPretensions.GetChildren(category: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../v241/Ansys/Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory), recurses: System.Boolean, children: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject])
-
-Gets the list of children, filtered by type.
+Activate the current object.
 
 <!-- !! processed by numpydoc !! -->
 
@@ -200,17 +174,11 @@ Creates a new child Figure.
 
 ### ImportedBoltPretensions.AddImage(filePath: System.String)
 
+```text
 Creates a new child Image.
 If a filePath is provided, the image will be loaded from that file,
 if not, the image will be a screen capture of the Geometry window.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="ImportedBoltPretensions.Activate"></a>
-
-### ImportedBoltPretensions.Activate()
-
-Activate the current object.
+```
 
 <!-- !! processed by numpydoc !! -->
 
@@ -222,11 +190,43 @@ Copies all visible properties from this object to another.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="ImportedBoltPretensions.CreateParameter"></a>
+
+### ImportedBoltPretensions.CreateParameter(propName: System.String)
+
+Creates a new parameter for a Property.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ImportedBoltPretensions.Delete"></a>
+
+### ImportedBoltPretensions.Delete()
+
+Run the Delete action.
+
+<!-- !! processed by numpydoc !! -->
+
 <a id="ImportedBoltPretensions.Duplicate"></a>
 
 ### ImportedBoltPretensions.Duplicate()
 
 Creates a copy of the current DataModelObject.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ImportedBoltPretensions.GetChildren"></a>
+
+### ImportedBoltPretensions.GetChildren(recurses: System.Boolean, children: System.Collections.Generic.IList[ChildrenType])
+
+Gets the list of children, filtered by type.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ImportedBoltPretensions.GetParameter"></a>
+
+### ImportedBoltPretensions.GetParameter(propName: System.String)
+
+Gets the parameter corresponding to the given property.
 
 <!-- !! processed by numpydoc !! -->
 
@@ -246,36 +246,22 @@ Run the GroupSimilarObjects action.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="ImportedBoltPretensions.PropertyByAPIName"></a>
+
+### ImportedBoltPretensions.PropertyByAPIName(name: System.String)
+
+```text
+Get a property by its API name.
+If multiple properties have the same API Name, only the first property with that name will be returned.
+```
+
+<!-- !! processed by numpydoc !! -->
+
 <a id="ImportedBoltPretensions.PropertyByName"></a>
 
 ### ImportedBoltPretensions.PropertyByName(name: System.String)
 
 Get a property by its unique name.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="ImportedBoltPretensions.PropertyByAPIName"></a>
-
-### ImportedBoltPretensions.PropertyByAPIName(name: System.String)
-
-Get a property by its API name.
-If multiple properties have the same API Name, only the first property with that name will be returned.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="ImportedBoltPretensions.CreateParameter"></a>
-
-### ImportedBoltPretensions.CreateParameter(propName: System.String)
-
-Creates a new parameter for a Property.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="ImportedBoltPretensions.GetParameter"></a>
-
-### ImportedBoltPretensions.GetParameter(propName: System.String)
-
-Gets the parameter corresponding to the given property.
 
 <!-- !! processed by numpydoc !! -->
 

@@ -1,6 +1,6 @@
 # `BrickIntegrationScheme`
 
-
+<a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.BrickIntegrationScheme"></a>
 
 #### *class* ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.BrickIntegrationScheme
 
@@ -17,9 +17,9 @@ Specifies the BrickIntegrationScheme.
 ### Attributes
 
 | Name |
-| ---------------------------------------------------------------------------------------------------------------------------- |
-| [`Full`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/BrickIntegrationScheme.md#BrickIntegrationScheme.Full) |
-| [`Reduced`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/BrickIntegrationScheme.md#BrickIntegrationScheme.Reduced) |
+| ---------------------------------------------- |
+| [`Full`](#BrickIntegrationScheme.Full) |
+| [`Reduced`](#BrickIntegrationScheme.Reduced) |
 
 <a id="attribute-detail"></a>
 

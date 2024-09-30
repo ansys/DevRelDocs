@@ -1,6 +1,6 @@
 # `PSDBoundaryConditionSelectionType`
 
-
+<a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.PSDBoundaryConditionSelectionType"></a>
 
 #### *class* ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.PSDBoundaryConditionSelectionType
 
@@ -17,35 +17,35 @@ Specifies the PSDBoundaryConditionSelectionType.
 ### Attributes
 
 | Name |
-| ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| [`None_`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/PSDBoundaryConditionSelectionType.md#PSDBoundaryConditionSelectionType.None_) |
-| [`AllFixedSupports`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/PSDBoundaryConditionSelectionType.md#PSDBoundaryConditionSelectionType.AllFixedSupports) |
-| [`AllRemoteDisplacements`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/PSDBoundaryConditionSelectionType.md#PSDBoundaryConditionSelectionType.AllRemoteDisplacements) |
-| [`AllFixedSupportsAndRemoteDisplacements`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/PSDBoundaryConditionSelectionType.md#PSDBoundaryConditionSelectionType.AllFixedSupportsAndRemoteDisplacements) |
-| [`AllSupports`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/PSDBoundaryConditionSelectionType.md#PSDBoundaryConditionSelectionType.AllSupports) |
+| ----------------------------------------------------------------------------------------------------------------------- |
+| [`AllFixedSupports`](#PSDBoundaryConditionSelectionType.AllFixedSupports) |
+| [`AllFixedSupportsAndRemoteDisplacements`](#PSDBoundaryConditionSelectionType.AllFixedSupportsAndRemoteDisplacements) |
+| [`AllRemoteDisplacements`](#PSDBoundaryConditionSelectionType.AllRemoteDisplacements) |
+| [`AllSupports`](#PSDBoundaryConditionSelectionType.AllSupports) |
+| [`None_`](#PSDBoundaryConditionSelectionType.None_) |
 
 <a id="attribute-detail"></a>
 
 ## Attribute detail
 
-<a id="PSDBoundaryConditionSelectionType.None_"></a>
-
-### PSDBoundaryConditionSelectionType.None_ *= 0*
-
 <a id="PSDBoundaryConditionSelectionType.AllFixedSupports"></a>
 
 ### PSDBoundaryConditionSelectionType.AllFixedSupports *= 1*
-
-<a id="PSDBoundaryConditionSelectionType.AllRemoteDisplacements"></a>
-
-### PSDBoundaryConditionSelectionType.AllRemoteDisplacements *= 2*
 
 <a id="PSDBoundaryConditionSelectionType.AllFixedSupportsAndRemoteDisplacements"></a>
 
 ### PSDBoundaryConditionSelectionType.AllFixedSupportsAndRemoteDisplacements *= 3*
 
+<a id="PSDBoundaryConditionSelectionType.AllRemoteDisplacements"></a>
+
+### PSDBoundaryConditionSelectionType.AllRemoteDisplacements *= 2*
+
 <a id="PSDBoundaryConditionSelectionType.AllSupports"></a>
 
 ### PSDBoundaryConditionSelectionType.AllSupports *= 4*
+
+<a id="PSDBoundaryConditionSelectionType.None_"></a>
+
+### PSDBoundaryConditionSelectionType.None_ *= 0*
 
 

@@ -1,6 +1,6 @@
 # `WBUnitSystemType`
 
-
+<a id="ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.WBUnitSystemType"></a>
 
 #### *class* ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.WBUnitSystemType
 
@@ -17,7 +17,7 @@ Specifies the WBUnitSystemType.
 ### Attributes
 
 | Name |
-| ------------------------------------------------------ |
+| ------------------------------------------------------------------------------------------------------------------------------ |
 | [`ConsistentBFT`](#WBUnitSystemType.ConsistentBFT) |
 | [`ConsistentBIN`](#WBUnitSystemType.ConsistentBIN) |
 | [`ConsistentCGS`](#WBUnitSystemType.ConsistentCGS) |

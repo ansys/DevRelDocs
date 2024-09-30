@@ -1,6 +1,6 @@
 # `AMMachineLearningModel`
 
-
+<a id="ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.AMMachineLearningModel"></a>
 
 #### *class* ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.AMMachineLearningModel
 
@@ -17,7 +17,7 @@ Specifies the AMMachineLearningModel.
 ### Attributes
 
 | Name |
-| ---------------------------------------------------- |
+| ---------------------------------------------------------------------------------------------------------------------------------- |
 | [`Al357`](#AMMachineLearningModel.Al357) |
 | [`AlSi10Mg`](#AMMachineLearningModel.AlSi10Mg) |
 | [`CoCr`](#AMMachineLearningModel.CoCr) |

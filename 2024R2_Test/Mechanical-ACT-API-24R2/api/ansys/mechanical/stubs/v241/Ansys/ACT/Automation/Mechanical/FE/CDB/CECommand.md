@@ -1,6 +1,6 @@
 # `CECommand`
 
-
+<a id="ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.FE.CDB.CECommand"></a>
 
 #### *class* ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.FE.CDB.CECommand
 
@@ -17,24 +17,16 @@ Represents a CE command.
 ### Properties
 
 | Name | Description |
-|----------------------------------------------------------------------------------------------------------------|-----------------------------------------|
-| [`Nce`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/FE/CDB/CECommand.md#CECommand.Nce)           | Gets the constraint equation number.    |
-| [`Constant`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/FE/CDB/CECommand.md#CECommand.Constant) | Gets the constant term of the equation. |
-| [`Terms`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/FE/CDB/CECommand.md#CECommand.Terms)       | Gets the equation terms.                |
-| [`Name`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/FE/CDB/CECommand.md#CECommand.Name)         | Gets the command name.                  |
-| [`Index`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/FE/CDB/CECommand.md#CECommand.Index)       | Gets the command index.                 |
+|------------------------------------------------------------------------------------------------------------------|-------------------------------------------|
+| [`Constant`](#CECommand.Constant)   | Gets the constant term of the equation.   |
+| [`Index`](#CECommand.Index)         | Gets the command index.                   |
+| [`Name`](#CECommand.Name)           | Gets the command name.                    |
+| [`Nce`](#CECommand.Nce)             | Gets the constraint equation number.      |
+| [`Terms`](#CECommand.Terms)         | Gets the equation terms.                  |
 
 <a id="property-detail"></a>
 
 ## Property detail
-
-<a id="CECommand.Nce"></a>
-
-### *property* CECommand.Nce *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets the constraint equation number.
-
-<!-- !! processed by numpydoc !! -->
 
 <a id="CECommand.Constant"></a>
 
@@ -44,11 +36,11 @@ Gets the constant term of the equation.
 
 <!-- !! processed by numpydoc !! -->
 
-<a id="CECommand.Terms"></a>
+<a id="CECommand.Index"></a>
 
-### *property* CECommand.Terms *: System.Collections.Generic.IReadOnlyList[[Ansys.ACT.Automation.Mechanical.FE.CDB.CommandCETerm](CommandCETerm.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.FE.CDB.CommandCETerm)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* CECommand.Index *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets the equation terms.
+Gets the command index.
 
 <!-- !! processed by numpydoc !! -->
 
@@ -60,11 +52,19 @@ Gets the command name.
 
 <!-- !! processed by numpydoc !! -->
 
-<a id="CECommand.Index"></a>
+<a id="CECommand.Nce"></a>
 
-### *property* CECommand.Index *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* CECommand.Nce *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets the command index.
+Gets the constraint equation number.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="CECommand.Terms"></a>
+
+### *property* CECommand.Terms *: System.Collections.Generic.IReadOnlyList[[Ansys.ACT.Automation.Mechanical.FE.CDB.CommandCETerm](CommandCETerm.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.FE.CDB.CommandCETerm)] | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets the equation terms.
 
 <!-- !! processed by numpydoc !! -->
 

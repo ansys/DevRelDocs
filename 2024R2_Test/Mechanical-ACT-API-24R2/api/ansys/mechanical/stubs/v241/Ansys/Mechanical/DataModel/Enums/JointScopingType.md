@@ -1,6 +1,6 @@
 # `JointScopingType`
 
-
+<a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.JointScopingType"></a>
 
 #### *class* ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.JointScopingType
 
@@ -17,9 +17,9 @@ Specifies the JointScopingType.
 ### Attributes
 
 | Name |
-| -------------------------------------------------------------------------------------------------------------------------- |
-| [`BodyToBody`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/JointScopingType.md#JointScopingType.BodyToBody) |
-| [`BodyToGround`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/JointScopingType.md#JointScopingType.BodyToGround) |
+| -------------------------------------------------- |
+| [`BodyToBody`](#JointScopingType.BodyToBody) |
+| [`BodyToGround`](#JointScopingType.BodyToGround) |
 
 <a id="attribute-detail"></a>
 

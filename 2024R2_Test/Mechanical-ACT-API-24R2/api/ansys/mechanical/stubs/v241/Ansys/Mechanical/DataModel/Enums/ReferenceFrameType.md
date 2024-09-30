@@ -1,6 +1,6 @@
 # `ReferenceFrameType`
 
-
+<a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.ReferenceFrameType"></a>
 
 #### *class* ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.ReferenceFrameType
 
@@ -17,12 +17,12 @@ Specifies the ReferenceFrameType.
 ### Attributes
 
 | Name |
-| -------------------------------------------------------------------------------------------------------------------------------------- |
-| [`EulerianVirtual`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/ReferenceFrameType.md#ReferenceFrameType.EulerianVirtual) |
-| [`Lagrangian`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/ReferenceFrameType.md#ReferenceFrameType.Lagrangian) |
-| [`Particle`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/ReferenceFrameType.md#ReferenceFrameType.Particle) |
-| [`SALEDomain`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/ReferenceFrameType.md#ReferenceFrameType.SALEDomain) |
-| [`SALEFill`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/ReferenceFrameType.md#ReferenceFrameType.SALEFill) |
+| ------------------------------------------------------------ |
+| [`EulerianVirtual`](#ReferenceFrameType.EulerianVirtual) |
+| [`Lagrangian`](#ReferenceFrameType.Lagrangian) |
+| [`Particle`](#ReferenceFrameType.Particle) |
+| [`SALEDomain`](#ReferenceFrameType.SALEDomain) |
+| [`SALEFill`](#ReferenceFrameType.SALEFill) |
 
 <a id="attribute-detail"></a>
 

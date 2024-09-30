@@ -1,6 +1,6 @@
 # `CompositeCriterionDefinition`
 
-
+<a id="ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.CompositeCriterionDefinition"></a>
 
 #### *class* ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.CompositeCriterionDefinition
 
@@ -27,27 +27,27 @@ CompositeCriterionDefinition class.
 ### Properties
 
 | Name | Description |
-|------------------------------------------------|----------------------------------------------------------------|
-| [`Item`](#CompositeCriterionDefinition.Item)   | Item property.                                                 |
-| [`Count`](#CompositeCriterionDefinition.Count) | Gives the number of CompositeCriterionTerms in the definition. |
+|--------------------------------------------------|------------------------------------------------------------------|
+| [`Count`](#CompositeCriterionDefinition.Count)   | Gives the number of CompositeCriterionTerms in the definition.   |
+| [`Item`](#CompositeCriterionDefinition.Item)     | Item property.                                                   |
 
 <a id="property-detail"></a>
 
 ## Property detail
-
-<a id="CompositeCriterionDefinition.Item"></a>
-
-### *property* CompositeCriterionDefinition.Item *: [Ansys.ACT.Automation.Mechanical.CompositeCriterionTerm](../../../../../v241/Ansys/ACT/Automation/Mechanical/CompositeCriterionTerm.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.CompositeCriterionTerm) | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Item property.
-
-<!-- !! processed by numpydoc !! -->
 
 <a id="CompositeCriterionDefinition.Count"></a>
 
 ### *property* CompositeCriterionDefinition.Count *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gives the number of CompositeCriterionTerms in the definition.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="CompositeCriterionDefinition.Item"></a>
+
+### *property* CompositeCriterionDefinition.Item *: [Ansys.ACT.Automation.Mechanical.CompositeCriterionTerm](../../../../../v241/Ansys/ACT/Automation/Mechanical/CompositeCriterionTerm.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.CompositeCriterionTerm) | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Item property.
 
 <!-- !! processed by numpydoc !! -->
 
@@ -59,10 +59,12 @@ Gives the number of CompositeCriterionTerms in the definition.
 
 ### CompositeCriterionDefinition.Add(item: [Ansys.ACT.Automation.Mechanical.CompositeCriterionTerm](../../../../../v241/Ansys/ACT/Automation/Mechanical/CompositeCriterionTerm.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.CompositeCriterionTerm))
 
+```text
 Adds a CompositeCriterionTerm at the end in the definition.
 Usage:
+    CriterionDefinition.Add(Ansys.ACT.Automation.Mechanical.CompositeCriterionTerm(primCritObj, 1.3))
+```
 
-> CriterionDefinition.Add(Ansys.ACT.Automation.Mechanical.CompositeCriterionTerm(primCritObj, 1.3))
 <!-- !! processed by numpydoc !! -->
 
 <a id="CompositeCriterionDefinition.Clear"></a>
@@ -77,8 +79,10 @@ Clears all the CompositeCriterionTerms in the definition.
 
 ### CompositeCriterionDefinition.IndexOf(item: [Ansys.ACT.Automation.Mechanical.CompositeCriterionTerm](../../../../../v241/Ansys/ACT/Automation/Mechanical/CompositeCriterionTerm.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.CompositeCriterionTerm))
 
+```text
 Gives the index where the specified CompositeCriterionTerm exists in the definition.
 Returns -1 if the term is not found in the definition.
+```
 
 <!-- !! processed by numpydoc !! -->
 
@@ -86,19 +90,23 @@ Returns -1 if the term is not found in the definition.
 
 ### CompositeCriterionDefinition.Insert(index: System.Int32, item: [Ansys.ACT.Automation.Mechanical.CompositeCriterionTerm](../../../../../v241/Ansys/ACT/Automation/Mechanical/CompositeCriterionTerm.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.CompositeCriterionTerm))
 
+```text
 Inserts a CompositeCriterionTerm at a specified index in the definition.
 Returns IndexOutOfRangeException for invalid index.
 Usage:
+    CriterionDefinition.Insert(1, Ansys.ACT.Automation.Mechanical.CompositeCriterionTerm(primCritObj, 1.3))
+```
 
-> CriterionDefinition.Insert(1, Ansys.ACT.Automation.Mechanical.CompositeCriterionTerm(primCritObj, 1.3))
 <!-- !! processed by numpydoc !! -->
 
 <a id="CompositeCriterionDefinition.RemoveAt"></a>
 
 ### CompositeCriterionDefinition.RemoveAt(index: System.Int32)
 
+```text
 Removes the CompositeCriterionTerm at a specified index in the definition.
 Returns IndexOutOfRangeException for invalid index.
+```
 
 <!-- !! processed by numpydoc !! -->
 

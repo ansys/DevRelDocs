@@ -1,6 +1,6 @@
 # `NonlinearAdaptivityCriterionType`
 
-
+<a id="ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.NonlinearAdaptivityCriterionType"></a>
 
 #### *class* ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.NonlinearAdaptivityCriterionType
 
@@ -17,7 +17,7 @@ Specifies the NonlinearAdaptivityCriterionType.
 ### Attributes
 
 | Name |
-| ------------------------------------------------------------ |
+| ---------------------------------------------------------------------------------------------------------------------------------------------------- |
 | [`AMOctree`](#NonlinearAdaptivityCriterionType.AMOctree) |
 | [`Box`](#NonlinearAdaptivityCriterionType.Box) |
 | [`Energy`](#NonlinearAdaptivityCriterionType.Energy) |

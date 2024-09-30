@@ -1,6 +1,6 @@
 # `InitialTemperatureType`
 
-
+<a id="ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.InitialTemperatureType"></a>
 
 #### *class* ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.InitialTemperatureType
 
@@ -17,7 +17,7 @@ Specifies the InitialTemperatureType.
 ### Attributes
 
 | Name |
-| ------------------------------------------------------ |
+| ------------------------------------------------------------------------------------------------------------------------------------ |
 | [`NonUniform`](#InitialTemperatureType.NonUniform) |
 | [`Uniform`](#InitialTemperatureType.Uniform) |
 

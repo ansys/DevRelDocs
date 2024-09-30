@@ -1,6 +1,6 @@
 # `ScaleFactorType`
 
-
+<a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.ScaleFactorType"></a>
 
 #### *class* ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.ScaleFactorType
 
@@ -17,11 +17,11 @@ Specifies the ScaleFactorType.
 ### Attributes
 
 | Name |
-| ---------------------------------------------------------------------------------------------------------------------- |
-| [`Sigma1`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/ScaleFactorType.md#ScaleFactorType.Sigma1) |
-| [`Sigma2`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/ScaleFactorType.md#ScaleFactorType.Sigma2) |
-| [`Sigma3`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/ScaleFactorType.md#ScaleFactorType.Sigma3) |
-| [`UserDefined`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/ScaleFactorType.md#ScaleFactorType.UserDefined) |
+| ----------------------------------------------- |
+| [`Sigma1`](#ScaleFactorType.Sigma1) |
+| [`Sigma2`](#ScaleFactorType.Sigma2) |
+| [`Sigma3`](#ScaleFactorType.Sigma3) |
+| [`UserDefined`](#ScaleFactorType.UserDefined) |
 
 <a id="attribute-detail"></a>
 

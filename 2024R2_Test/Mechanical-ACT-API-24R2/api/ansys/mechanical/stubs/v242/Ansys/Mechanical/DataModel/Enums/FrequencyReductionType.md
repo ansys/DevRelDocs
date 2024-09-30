@@ -1,6 +1,6 @@
 # `FrequencyReductionType`
 
-
+<a id="ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.FrequencyReductionType"></a>
 
 #### *class* ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.FrequencyReductionType
 
@@ -17,7 +17,7 @@ Specifies the FrequencyReductionType.
 ### Attributes
 
 | Name |
-| ------------------------------------------------ |
+| ------------------------------------------------------------------------------------------------------------------------------ |
 | [`Average`](#FrequencyReductionType.Average) |
 
 <a id="attribute-detail"></a>

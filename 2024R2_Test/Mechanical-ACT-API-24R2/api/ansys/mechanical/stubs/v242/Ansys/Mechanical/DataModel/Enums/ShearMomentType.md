@@ -1,6 +1,6 @@
 # `ShearMomentType`
 
-
+<a id="ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.ShearMomentType"></a>
 
 #### *class* ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.ShearMomentType
 
@@ -17,7 +17,7 @@ Specifies the ShearMomentType.
 ### Attributes
 
 | Name |
-| ------------------------------------------------------- |
+| ------------------------------------------------------------------------------------------------------------------------------ |
 | [`DirectionalSM1`](#ShearMomentType.DirectionalSM1) |
 | [`DirectionalSM2`](#ShearMomentType.DirectionalSM2) |
 | [`TotalSM`](#ShearMomentType.TotalSM) |

@@ -1,6 +1,6 @@
 # `ContactSideScopingType`
 
-
+<a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.ContactSideScopingType"></a>
 
 #### *class* ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.ContactSideScopingType
 
@@ -17,12 +17,12 @@ Specifies the ContactSideScopingType.
 ### Attributes
 
 | Name |
-| -------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| [`Active`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/ContactSideScopingType.md#ContactSideScopingType.Active) |
-| [`ContactSideBoth`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/ContactSideScopingType.md#ContactSideScopingType.ContactSideBoth) |
-| [`ContactSourceUnderlying`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/ContactSideScopingType.md#ContactSideScopingType.ContactSourceUnderlying) |
-| [`SourceContactForcesProperty`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/ContactSideScopingType.md#ContactSideScopingType.SourceContactForcesProperty) |
-| [`ContactTargetUnderlying`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/ContactSideScopingType.md#ContactSideScopingType.ContactTargetUnderlying) |
+| -------------------------------------------------------------------------------------- |
+| [`Active`](#ContactSideScopingType.Active) |
+| [`ContactSideBoth`](#ContactSideScopingType.ContactSideBoth) |
+| [`ContactSourceUnderlying`](#ContactSideScopingType.ContactSourceUnderlying) |
+| [`ContactTargetUnderlying`](#ContactSideScopingType.ContactTargetUnderlying) |
+| [`SourceContactForcesProperty`](#ContactSideScopingType.SourceContactForcesProperty) |
 
 <a id="attribute-detail"></a>
 
@@ -40,12 +40,12 @@ Specifies the ContactSideScopingType.
 
 ### ContactSideScopingType.ContactSourceUnderlying *= 1*
 
-<a id="ContactSideScopingType.SourceContactForcesProperty"></a>
-
-### ContactSideScopingType.SourceContactForcesProperty *= 5*
-
 <a id="ContactSideScopingType.ContactTargetUnderlying"></a>
 
 ### ContactSideScopingType.ContactTargetUnderlying *= 2*
+
+<a id="ContactSideScopingType.SourceContactForcesProperty"></a>
+
+### ContactSideScopingType.SourceContactForcesProperty *= 5*
 
 

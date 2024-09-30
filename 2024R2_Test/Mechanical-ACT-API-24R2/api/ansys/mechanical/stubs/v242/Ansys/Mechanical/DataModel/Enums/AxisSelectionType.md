@@ -1,6 +1,6 @@
 # `AxisSelectionType`
 
-
+<a id="ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.AxisSelectionType"></a>
 
 #### *class* ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.AxisSelectionType
 
@@ -17,7 +17,7 @@ Specifies the AxisSelectionType.
 ### Attributes
 
 | Name |
-| ------------------------------------- |
+| -------------------------------------------------------------------------------------------------------------- |
 | [`All`](#AxisSelectionType.All) |
 | [`XAxis`](#AxisSelectionType.XAxis) |
 | [`YAxis`](#AxisSelectionType.YAxis) |

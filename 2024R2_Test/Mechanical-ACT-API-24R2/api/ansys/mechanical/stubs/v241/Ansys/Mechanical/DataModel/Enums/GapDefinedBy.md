@@ -1,6 +1,6 @@
 # `GapDefinedBy`
 
-
+<a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.GapDefinedBy"></a>
 
 #### *class* ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.GapDefinedBy
 
@@ -17,20 +17,20 @@ Specifies the GapDefinedBy.
 ### Attributes
 
 | Name |
-| -------------------------------------------------------------------------------------------------------------------- |
-| [`Range`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/GapDefinedBy.md#GapDefinedBy.Range) |
-| [`CADParameters`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/GapDefinedBy.md#GapDefinedBy.CADParameters) |
+| -------------------------------------------------- |
+| [`CADParameters`](#GapDefinedBy.CADParameters) |
+| [`Range`](#GapDefinedBy.Range) |
 
 <a id="attribute-detail"></a>
 
 ## Attribute detail
 
-<a id="GapDefinedBy.Range"></a>
-
-### GapDefinedBy.Range *= 0*
-
 <a id="GapDefinedBy.CADParameters"></a>
 
 ### GapDefinedBy.CADParameters *= 1*
+
+<a id="GapDefinedBy.Range"></a>
+
+### GapDefinedBy.Range *= 0*
 
 

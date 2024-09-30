@@ -1,6 +1,6 @@
 # `AnalysisType`
 
-
+<a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.AnalysisType"></a>
 
 #### *class* ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.AnalysisType
 
@@ -17,19 +17,19 @@ Specifies the AnalysisType.
 ### Attributes
 
 | Name |
-| ---------------------------------------------------------------------------------------------------------------------------------- |
-| [`Buckling`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/AnalysisType.md#AnalysisType.Buckling) |
-| [`DesignAssessment`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/AnalysisType.md#AnalysisType.DesignAssessment) |
-| [`ExplicitDynamics`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/AnalysisType.md#AnalysisType.ExplicitDynamics) |
-| [`Harmonic`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/AnalysisType.md#AnalysisType.Harmonic) |
-| [`MBD`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/AnalysisType.md#AnalysisType.MBD) |
-| [`Modal`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/AnalysisType.md#AnalysisType.Modal) |
-| [`ResponseSpectrum`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/AnalysisType.md#AnalysisType.ResponseSpectrum) |
-| [`Shape`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/AnalysisType.md#AnalysisType.Shape) |
-| [`Spectrum`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/AnalysisType.md#AnalysisType.Spectrum) |
-| [`Static`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/AnalysisType.md#AnalysisType.Static) |
-| [`TopologyOptimization`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/AnalysisType.md#AnalysisType.TopologyOptimization) |
-| [`Transient`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/AnalysisType.md#AnalysisType.Transient) |
+| -------------------------------------------------------------- |
+| [`Buckling`](#AnalysisType.Buckling) |
+| [`DesignAssessment`](#AnalysisType.DesignAssessment) |
+| [`ExplicitDynamics`](#AnalysisType.ExplicitDynamics) |
+| [`Harmonic`](#AnalysisType.Harmonic) |
+| [`MBD`](#AnalysisType.MBD) |
+| [`Modal`](#AnalysisType.Modal) |
+| [`ResponseSpectrum`](#AnalysisType.ResponseSpectrum) |
+| [`Shape`](#AnalysisType.Shape) |
+| [`Spectrum`](#AnalysisType.Spectrum) |
+| [`Static`](#AnalysisType.Static) |
+| [`TopologyOptimization`](#AnalysisType.TopologyOptimization) |
+| [`Transient`](#AnalysisType.Transient) |
 
 <a id="attribute-detail"></a>
 

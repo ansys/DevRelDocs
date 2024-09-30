@@ -1,12 +1,13 @@
 # `VariableType`
 
-
+<a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.MechanicalEnums.ExternalData.VariableType"></a>
 
 #### *class* ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.MechanicalEnums.ExternalData.VariableType
 
 Bases: [`enum.Enum`](https://docs.python.org/3/library/enum.html#enum.Enum)
 
 An enumeration of the different variable types supported by the tabular data
+T:Ansys.Mechanical.Interfaces.IDataSeries implementation “Ansys.ACT.Automation.Mechanical.Table.Column”.
 
 <!-- !! processed by numpydoc !! -->
 
@@ -17,64 +18,48 @@ An enumeration of the different variable types supported by the tabular data
 ### Attributes
 
 | Name |
-| ----------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| [`XCoordinate`](../../../../../../v242/Ansys/Mechanical/DataModel/MechanicalEnums/Table/VariableType.md#VariableType.XCoordinate) |
-| [`YCoordinate`](../../../../../../v242/Ansys/Mechanical/DataModel/MechanicalEnums/Table/VariableType.md#VariableType.YCoordinate) |
-| [`ZCoordinate`](../../../../../../v242/Ansys/Mechanical/DataModel/MechanicalEnums/Table/VariableType.md#VariableType.ZCoordinate) |
-| [`NodeId`](../../../../../../v242/Ansys/Mechanical/DataModel/MechanicalEnums/ExternalData/VariableType.md#VariableType.NodeId) |
-| [`ElementId`](../../../../../../v242/Ansys/Mechanical/DataModel/MechanicalEnums/ExternalData/VariableType.md#VariableType.ElementId) |
-| [`Temperature`](../../../../../../v242/Ansys/Mechanical/DataModel/MechanicalEnums/Table/VariableType.md#VariableType.Temperature) |
-| [`Pressure`](../../../../../../v242/Ansys/Mechanical/DataModel/MechanicalEnums/Table/VariableType.md#VariableType.Pressure) |
-| [`HeatTransferCoefficient`](../../../../../../v242/Ansys/Mechanical/DataModel/MechanicalEnums/Table/VariableType.md#VariableType.HeatTransferCoefficient) |
-| [`HeatFlux`](../../../../../../v242/Ansys/Mechanical/DataModel/MechanicalEnums/ExternalData/VariableType.md#VariableType.HeatFlux) |
-| [`HeatGeneration`](../../../../../../v242/Ansys/Mechanical/DataModel/MechanicalEnums/ExternalData/VariableType.md#VariableType.HeatGeneration) |
-| [`HeatRate`](../../../../../../v242/Ansys/Mechanical/DataModel/MechanicalEnums/ExternalData/VariableType.md#VariableType.HeatRate) |
-| [`Thickness`](../../../../../../v242/Ansys/Mechanical/DataModel/MechanicalEnums/ExternalData/VariableType.md#VariableType.Thickness) |
-| [`Displacement`](../../../../../../v242/Ansys/Mechanical/DataModel/MechanicalEnums/ExternalData/VariableType.md#VariableType.Displacement) |
-| [`Force`](../../../../../../v242/Ansys/Mechanical/DataModel/MechanicalEnums/ExternalData/VariableType.md#VariableType.Force) |
-| [`Velocity`](../../../../../../v242/Ansys/Mechanical/DataModel/MechanicalEnums/ExternalData/VariableType.md#VariableType.Velocity) |
-| [`Stress`](../../../../../../v242/Ansys/Mechanical/DataModel/MechanicalEnums/ExternalData/VariableType.md#VariableType.Stress) |
-| [`Strain`](../../../../../../v242/Ansys/Mechanical/DataModel/MechanicalEnums/ExternalData/VariableType.md#VariableType.Strain) |
-| [`BodyForceDensity`](../../../../../../v242/Ansys/Mechanical/DataModel/MechanicalEnums/ExternalData/VariableType.md#VariableType.BodyForceDensity) |
-| [`OrientationAngle`](../../../../../../v242/Ansys/Mechanical/DataModel/MechanicalEnums/ExternalData/VariableType.md#VariableType.OrientationAngle) |
-| [`Volume`](../../../../../../v242/Ansys/Mechanical/DataModel/MechanicalEnums/ExternalData/VariableType.md#VariableType.Volume) |
-| [`UserField`](../../../../../../v242/Ansys/Mechanical/DataModel/MechanicalEnums/ExternalData/VariableType.md#VariableType.UserField) |
+| -------------------------------------------------------------------------------------------- |
+| [`BodyForceDensity`](#VariableType.BodyForceDensity) |
+| [`Displacement`](#VariableType.Displacement) |
+| [`ElementId`](#VariableType.ElementId) |
+| [`Force`](#VariableType.Force) |
+| [`HeatFlux`](#VariableType.HeatFlux) |
+| [`HeatGeneration`](#VariableType.HeatGeneration) |
+| [`HeatRate`](#VariableType.HeatRate) |
+| [`HeatTransferCoefficient`](#VariableType.HeatTransferCoefficient) |
+| [`NodeId`](#VariableType.NodeId) |
+| [`OrientationAngle`](#VariableType.OrientationAngle) |
+| [`Pressure`](#VariableType.Pressure) |
+| [`Strain`](#VariableType.Strain) |
+| [`Stress`](#VariableType.Stress) |
+| [`Temperature`](#VariableType.Temperature) |
+| [`Thickness`](#VariableType.Thickness) |
+| [`UserField`](#VariableType.UserField) |
+| [`Velocity`](#VariableType.Velocity) |
+| [`Volume`](#VariableType.Volume) |
+| [`XCoordinate`](#VariableType.XCoordinate) |
+| [`YCoordinate`](#VariableType.YCoordinate) |
+| [`ZCoordinate`](#VariableType.ZCoordinate) |
 
 <a id="attribute-detail"></a>
 
 ## Attribute detail
 
-<a id="VariableType.XCoordinate"></a>
+<a id="VariableType.BodyForceDensity"></a>
 
-### VariableType.XCoordinate *= 0*
+### VariableType.BodyForceDensity *= 17*
 
-<a id="VariableType.YCoordinate"></a>
+<a id="VariableType.Displacement"></a>
 
-### VariableType.YCoordinate *= 1*
-
-<a id="VariableType.ZCoordinate"></a>
-
-### VariableType.ZCoordinate *= 2*
-
-<a id="VariableType.NodeId"></a>
-
-### VariableType.NodeId *= 3*
+### VariableType.Displacement *= 12*
 
 <a id="VariableType.ElementId"></a>
 
 ### VariableType.ElementId *= 4*
 
-<a id="VariableType.Temperature"></a>
+<a id="VariableType.Force"></a>
 
-### VariableType.Temperature *= 5*
-
-<a id="VariableType.Pressure"></a>
-
-### VariableType.Pressure *= 6*
-
-<a id="VariableType.HeatTransferCoefficient"></a>
-
-### VariableType.HeatTransferCoefficient *= 7*
+### VariableType.Force *= 13*
 
 <a id="VariableType.HeatFlux"></a>
 
@@ -88,44 +73,60 @@ An enumeration of the different variable types supported by the tabular data
 
 ### VariableType.HeatRate *= 10*
 
-<a id="VariableType.Thickness"></a>
+<a id="VariableType.HeatTransferCoefficient"></a>
 
-### VariableType.Thickness *= 11*
+### VariableType.HeatTransferCoefficient *= 7*
 
-<a id="VariableType.Displacement"></a>
+<a id="VariableType.NodeId"></a>
 
-### VariableType.Displacement *= 12*
-
-<a id="VariableType.Force"></a>
-
-### VariableType.Force *= 13*
-
-<a id="VariableType.Velocity"></a>
-
-### VariableType.Velocity *= 14*
-
-<a id="VariableType.Stress"></a>
-
-### VariableType.Stress *= 15*
-
-<a id="VariableType.Strain"></a>
-
-### VariableType.Strain *= 16*
-
-<a id="VariableType.BodyForceDensity"></a>
-
-### VariableType.BodyForceDensity *= 17*
+### VariableType.NodeId *= 3*
 
 <a id="VariableType.OrientationAngle"></a>
 
 ### VariableType.OrientationAngle *= 18*
 
-<a id="VariableType.Volume"></a>
+<a id="VariableType.Pressure"></a>
 
-### VariableType.Volume *= 19*
+### VariableType.Pressure *= 6*
+
+<a id="VariableType.Strain"></a>
+
+### VariableType.Strain *= 16*
+
+<a id="VariableType.Stress"></a>
+
+### VariableType.Stress *= 15*
+
+<a id="VariableType.Temperature"></a>
+
+### VariableType.Temperature *= 5*
+
+<a id="VariableType.Thickness"></a>
+
+### VariableType.Thickness *= 11*
 
 <a id="VariableType.UserField"></a>
 
 ### VariableType.UserField *= 20*
+
+<a id="VariableType.Velocity"></a>
+
+### VariableType.Velocity *= 14*
+
+<a id="VariableType.Volume"></a>
+
+### VariableType.Volume *= 19*
+
+<a id="VariableType.XCoordinate"></a>
+
+### VariableType.XCoordinate *= 0*
+
+<a id="VariableType.YCoordinate"></a>
+
+### VariableType.YCoordinate *= 1*
+
+<a id="VariableType.ZCoordinate"></a>
+
+### VariableType.ZCoordinate *= 2*
 
 

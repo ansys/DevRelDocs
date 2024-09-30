@@ -1,6 +1,6 @@
 # `CampbellDiagramRotationalVelocitySelectionType`
 
-
+<a id="ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.CampbellDiagramRotationalVelocitySelectionType"></a>
 
 #### *class* ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.CampbellDiagramRotationalVelocitySelectionType
 
@@ -17,7 +17,7 @@ Specifies the Campbell Diagram Rotational Velocity Selection Type.
 ### Attributes
 
 | Name |
-| -------------------------------------------------------------------- |
+| -------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | [`None_`](#CampbellDiagramRotationalVelocitySelectionType.None_) |
 
 <a id="attribute-detail"></a>

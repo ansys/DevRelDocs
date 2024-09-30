@@ -1,6 +1,6 @@
 # `LegendRangeType`
 
-
+<a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.LegendRangeType"></a>
 
 #### *class* ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.LegendRangeType
 
@@ -15,20 +15,20 @@ Bases: [`enum.Enum`](https://docs.python.org/3/library/enum.html#enum.Enum)
 ### Attributes
 
 | Name |
-| ------------------------------------------------------------------------------------------------------------------------------------ |
-| [`ProgramControlled`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/LegendRangeType.md#LegendRangeType.ProgramControlled) |
-| [`Manual`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/LegendRangeType.md#LegendRangeType.Manual) |
+| ----------------------------------------------------------- |
+| [`Manual`](#LegendRangeType.Manual) |
+| [`ProgramControlled`](#LegendRangeType.ProgramControlled) |
 
 <a id="attribute-detail"></a>
 
 ## Attribute detail
 
-<a id="LegendRangeType.ProgramControlled"></a>
-
-### LegendRangeType.ProgramControlled *= 0*
-
 <a id="LegendRangeType.Manual"></a>
 
 ### LegendRangeType.Manual *= 1*
+
+<a id="LegendRangeType.ProgramControlled"></a>
+
+### LegendRangeType.ProgramControlled *= 0*
 
 

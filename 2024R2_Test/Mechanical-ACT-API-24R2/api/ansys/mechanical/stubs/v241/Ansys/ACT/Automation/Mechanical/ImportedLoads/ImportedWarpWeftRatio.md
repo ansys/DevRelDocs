@@ -1,6 +1,6 @@
 # `ImportedWarpWeftRatio`
 
-
+<a id="ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.ImportedLoads.ImportedWarpWeftRatio"></a>
 
 #### *class* ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.ImportedLoads.ImportedWarpWeftRatio
 
@@ -18,159 +18,101 @@ Defines a ImportedWarpWeftRatio.
 
 | Name | Description |
 |--------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------|
-| [`ExportToTextFile`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/ImportedLoads/ImportedWarpWeftRatio.md#ImportedWarpWeftRatio.ExportToTextFile)               | Run the ExportToTextFile action.                                                  |
-| [`Import`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/ImportedLoads/ImportedWarpWeftRatio.md#ImportedWarpWeftRatio.Import)                                   | Import.                                                                           |
-| [`ImportLoad`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/ImportedLoads/ImportedWarpWeftRatio.md#ImportedWarpWeftRatio.ImportLoad)                           | Run the ImportLoad action.                                                        |
-| [`GetActivateAtLoadStep`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/ImportedLoads/ImportedWarpWeftRatio.md#ImportedWarpWeftRatio.GetActivateAtLoadStep)     | GetActivateAtLoadStep method.                                                     |
-| [`SetActivateAtLoadStep`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/ImportedLoads/ImportedWarpWeftRatio.md#ImportedWarpWeftRatio.SetActivateAtLoadStep)     | SetActivateAtLoadStep method.                                                     |
-| [`AddMappingValidation`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/ImportedLoads/ImportedWarpWeftRatio.md#ImportedWarpWeftRatio.AddMappingValidation)       | Creates a new MappingValidation                                                   |
-| [`ClearGeneratedData`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/ImportedLoads/ImportedWarpWeftRatio.md#ImportedWarpWeftRatio.ClearGeneratedData)           | Run the ClearGeneratedData action.                                                |
-| [`Delete`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/ImportedLoads/ImportedWarpWeftRatio.md#ImportedWarpWeftRatio.Delete)                                   | Run the Delete action.                                                            |
-| [`GetChildren`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/ImportedLoads/ImportedWarpWeftRatio.md#id1)                                                       | Gets the list of children, filtered by type.                                      |
-| [`GetChildren`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/ImportedLoads/ImportedWarpWeftRatio.md#id1)                                                       | Gets the list of children, filtered by type.                                      |
-| [`AddComment`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/ImportedLoads/ImportedWarpWeftRatio.md#ImportedWarpWeftRatio.AddComment)                           | Creates a new child Comment.                                                      |
-| [`AddFigure`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/ImportedLoads/ImportedWarpWeftRatio.md#ImportedWarpWeftRatio.AddFigure)                             | Creates a new child Figure.                                                       |
-| [`AddImage`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/ImportedLoads/ImportedWarpWeftRatio.md#ImportedWarpWeftRatio.AddImage)                               | Creates a new child Image.                                                        |
-| [`Activate`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/ImportedLoads/ImportedWarpWeftRatio.md#ImportedWarpWeftRatio.Activate)                               | Activate the current object.                                                      |
-| [`CopyTo`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/ImportedLoads/ImportedWarpWeftRatio.md#ImportedWarpWeftRatio.CopyTo)                                   | Copies all visible properties from this object to another.                        |
-| [`Duplicate`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/ImportedLoads/ImportedWarpWeftRatio.md#ImportedWarpWeftRatio.Duplicate)                             | Creates a copy of the current DataModelObject.                                    |
-| [`GroupAllSimilarChildren`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/ImportedLoads/ImportedWarpWeftRatio.md#ImportedWarpWeftRatio.GroupAllSimilarChildren) | Run the GroupAllSimilarChildren action.                                           |
-| [`GroupSimilarObjects`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/ImportedLoads/ImportedWarpWeftRatio.md#ImportedWarpWeftRatio.GroupSimilarObjects)         | Run the GroupSimilarObjects action.                                               |
-| [`PropertyByName`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/ImportedLoads/ImportedWarpWeftRatio.md#ImportedWarpWeftRatio.PropertyByName)                   | Get a property by its unique name.                                                |
-| [`PropertyByAPIName`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/ImportedLoads/ImportedWarpWeftRatio.md#ImportedWarpWeftRatio.PropertyByAPIName)             | Get a property by its API name.                                                   |
-| [`CreateParameter`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/ImportedLoads/ImportedWarpWeftRatio.md#ImportedWarpWeftRatio.CreateParameter)                 | Creates a new parameter for a Property.                                           |
-| [`GetParameter`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/ImportedLoads/ImportedWarpWeftRatio.md#ImportedWarpWeftRatio.GetParameter)                       | Gets the parameter corresponding to the given property.                           |
-| [`RemoveParameter`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/ImportedLoads/ImportedWarpWeftRatio.md#ImportedWarpWeftRatio.RemoveParameter)                 | Removes the parameter from the parameter set corresponding to the given property. |
+| [`Activate`](#ImportedWarpWeftRatio.Activate)                               | Activate the current object.                                                      |
+| [`AddComment`](#ImportedWarpWeftRatio.AddComment)                           | Creates a new child Comment.                                                      |
+| [`AddFigure`](#ImportedWarpWeftRatio.AddFigure)                             | Creates a new child Figure.                                                       |
+| [`AddImage`](#ImportedWarpWeftRatio.AddImage)                               | Creates a new child Image.                                                        |
+| [`AddMappingValidation`](#ImportedWarpWeftRatio.AddMappingValidation)       | Creates a new MappingValidation                                                   |
+| [`ClearGeneratedData`](#ImportedWarpWeftRatio.ClearGeneratedData)           | Run the ClearGeneratedData action.                                                |
+| [`CopyTo`](#ImportedWarpWeftRatio.CopyTo)                                   | Copies all visible properties from this object to another.                        |
+| [`CreateParameter`](#ImportedWarpWeftRatio.CreateParameter)                 | Creates a new parameter for a Property.                                           |
+| [`Delete`](#ImportedWarpWeftRatio.Delete)                                   | Run the Delete action.                                                            |
+| [`Duplicate`](#ImportedWarpWeftRatio.Duplicate)                             | Creates a copy of the current DataModelObject.                                    |
+| [`ExportToTextFile`](#ImportedWarpWeftRatio.ExportToTextFile)               | Run the ExportToTextFile action.                                                  |
+| [`GetActivateAtLoadStep`](#ImportedWarpWeftRatio.GetActivateAtLoadStep)     | GetActivateAtLoadStep method.                                                     |
+| [`GetChildren`](#ImportedWarpWeftRatio.GetChildren)                         | Gets the list of children, filtered by type.                                      |
+| [`GetParameter`](#ImportedWarpWeftRatio.GetParameter)                       | Gets the parameter corresponding to the given property.                           |
+| [`GroupAllSimilarChildren`](#ImportedWarpWeftRatio.GroupAllSimilarChildren) | Run the GroupAllSimilarChildren action.                                           |
+| [`GroupSimilarObjects`](#ImportedWarpWeftRatio.GroupSimilarObjects)         | Run the GroupSimilarObjects action.                                               |
+| [`Import`](#ImportedWarpWeftRatio.Import)                                   | Import.                                                                           |
+| [`ImportLoad`](#ImportedWarpWeftRatio.ImportLoad)                           | Run the ImportLoad action.                                                        |
+| [`PropertyByAPIName`](#ImportedWarpWeftRatio.PropertyByAPIName)             | Get a property by its API name.                                                   |
+| [`PropertyByName`](#ImportedWarpWeftRatio.PropertyByName)                   | Get a property by its unique name.                                                |
+| [`RemoveParameter`](#ImportedWarpWeftRatio.RemoveParameter)                 | Removes the parameter from the parameter set corresponding to the given property. |
+| [`SetActivateAtLoadStep`](#ImportedWarpWeftRatio.SetActivateAtLoadStep)     | SetActivateAtLoadStep method.                                                     |
 
 ### Properties
 
 | Name | Description |
 |----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------|
-| [`InternalObject`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/ImportedLoads/ImportedWarpWeftRatio.md#id0)                                                                              | Gets the internal object. For advanced usage only.                                                      |
-| [`DataModelObjectCategory`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/ImportedLoads/ImportedWarpWeftRatio.md#ImportedWarpWeftRatio.DataModelObjectCategory)                           | Gets the current DataModelObject's category.                                                            |
-| [`Weighting`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/ImportedLoads/ImportedWarpWeftRatio.md#ImportedWarpWeftRatio.Weighting)                                                       | Weighting property.                                                                                     |
-| [`MappingControl`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/ImportedLoads/ImportedWarpWeftRatio.md#ImportedWarpWeftRatio.MappingControl)                                             | MappingControl property.                                                                                |
-| [`DisplaySourcePoints`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/ImportedLoads/ImportedWarpWeftRatio.md#ImportedWarpWeftRatio.DisplaySourcePoints)                                   | DisplaySourcePoints property.                                                                           |
-| [`DisplaySourcePointIds`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/ImportedLoads/ImportedWarpWeftRatio.md#ImportedWarpWeftRatio.DisplaySourcePointIds)                               | DisplaySourcePointIds property.                                                                         |
-| [`DisplayInteriorPoints`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/ImportedLoads/ImportedWarpWeftRatio.md#ImportedWarpWeftRatio.DisplayInteriorPoints)                               | DisplayInteriorPoints property.                                                                         |
-| [`DisplayProjectionPlane`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/ImportedLoads/ImportedWarpWeftRatio.md#ImportedWarpWeftRatio.DisplayProjectionPlane)                             | DisplayProjectionPlane property.                                                                        |
-| [`Algorithm`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/ImportedLoads/ImportedWarpWeftRatio.md#ImportedWarpWeftRatio.Algorithm)                                                       | Algorithm property.                                                                                     |
-| [`BoundingBoxTolerance`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/ImportedLoads/ImportedWarpWeftRatio.md#ImportedWarpWeftRatio.BoundingBoxTolerance)                                 | BoundingBoxTolerance property.                                                                          |
-| [`CreateNameSelectionForMappedNodes`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/ImportedLoads/ImportedWarpWeftRatio.md#ImportedWarpWeftRatio.CreateNameSelectionForMappedNodes)       | CreateNameSelectionForMappedNodes property.                                                             |
-| [`CreateNameSelectionForOutsideNodes`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/ImportedLoads/ImportedWarpWeftRatio.md#ImportedWarpWeftRatio.CreateNameSelectionForOutsideNodes)     | CreateNameSelectionForOutsideNodes property.                                                            |
-| [`CreateNameSelectionForUnmappedNodes`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/ImportedLoads/ImportedWarpWeftRatio.md#ImportedWarpWeftRatio.CreateNameSelectionForUnmappedNodes)   | CreateNameSelectionForUnmappedNodes property.                                                           |
-| [`Mapping`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/ImportedLoads/ImportedWarpWeftRatio.md#ImportedWarpWeftRatio.Mapping)                                                           | Mapping property.                                                                                       |
-| [`LegendMaximum`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/ImportedLoads/ImportedWarpWeftRatio.md#ImportedWarpWeftRatio.LegendMaximum)                                               | LegendMaximum property.                                                                                 |
-| [`LegendMinimum`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/ImportedLoads/ImportedWarpWeftRatio.md#ImportedWarpWeftRatio.LegendMinimum)                                               | LegendMinimum property.                                                                                 |
-| [`LegendRange`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/ImportedLoads/ImportedWarpWeftRatio.md#ImportedWarpWeftRatio.LegendRange)                                                   | LegendRange property.                                                                                   |
-| [`MaxOutsideDistance`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/ImportedLoads/ImportedWarpWeftRatio.md#ImportedWarpWeftRatio.MaxOutsideDistance)                                     | MaxOutsideDistance property.                                                                            |
-| [`Method`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/ImportedLoads/ImportedWarpWeftRatio.md#ImportedWarpWeftRatio.Method)                                                             | Method property.                                                                                        |
-| [`OutsideDistanceCheck`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/ImportedLoads/ImportedWarpWeftRatio.md#ImportedWarpWeftRatio.OutsideDistanceCheck)                                 | OutsideDistanceCheck property.                                                                          |
-| [`OutsideOption`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/ImportedLoads/ImportedWarpWeftRatio.md#ImportedWarpWeftRatio.OutsideOption)                                               | OutsideOption property.                                                                                 |
-| [`Projection`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/ImportedLoads/ImportedWarpWeftRatio.md#ImportedWarpWeftRatio.Projection)                                                     | Projection property.                                                                                    |
-| [`RigidBodyTransformationType`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/ImportedLoads/ImportedWarpWeftRatio.md#ImportedWarpWeftRatio.RigidBodyTransformationType)                   | RigidBodyTransformationType property.                                                                   |
-| [`RigidTransformSourceCoordinateSystem`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/ImportedLoads/ImportedWarpWeftRatio.md#ImportedWarpWeftRatio.RigidTransformSourceCoordinateSystem) | RigidTransformSourceCoordinateSystem property.                                                          |
-| [`RigidTransformTargetCoordinateSystem`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/ImportedLoads/ImportedWarpWeftRatio.md#ImportedWarpWeftRatio.RigidTransformTargetCoordinateSystem) | RigidTransformTargetCoordinateSystem property.                                                          |
-| [`ShellThicknessFactor`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/ImportedLoads/ImportedWarpWeftRatio.md#ImportedWarpWeftRatio.ShellThicknessFactor)                                 | ShellThicknessFactor property.                                                                          |
-| [`SourceMaximum`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/ImportedLoads/ImportedWarpWeftRatio.md#ImportedWarpWeftRatio.SourceMaximum)                                               | SourceMaximum property.                                                                                 |
-| [`SourceMinimum`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/ImportedLoads/ImportedWarpWeftRatio.md#ImportedWarpWeftRatio.SourceMinimum)                                               | SourceMinimum property.                                                                                 |
-| [`VariableType`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/ImportedLoads/ImportedWarpWeftRatio.md#ImportedWarpWeftRatio.VariableType)                                                 | VariableType property.                                                                                  |
-| [`Interpolation`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/ImportedLoads/ImportedWarpWeftRatio.md#ImportedWarpWeftRatio.Interpolation)                                               | Interpolation property.                                                                                 |
-| [`UnmappedNodesName`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/ImportedLoads/ImportedWarpWeftRatio.md#ImportedWarpWeftRatio.UnmappedNodesName)                                       | UnmappedNodesName property.                                                                             |
-| [`MappedNodesName`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/ImportedLoads/ImportedWarpWeftRatio.md#ImportedWarpWeftRatio.MappedNodesName)                                           | MappedNodesName property.                                                                               |
-| [`OutsideNodesName`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/ImportedLoads/ImportedWarpWeftRatio.md#ImportedWarpWeftRatio.OutsideNodesName)                                         | OutsideNodesName property.                                                                              |
-| [`Pinball`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/ImportedLoads/ImportedWarpWeftRatio.md#ImportedWarpWeftRatio.Pinball)                                                           | Pinball property.                                                                                       |
-| [`NumberOfPoints`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/ImportedLoads/ImportedWarpWeftRatio.md#ImportedWarpWeftRatio.NumberOfPoints)                                             | NumberOfPoints property.                                                                                |
-| [`OrientationRealignment`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/ImportedLoads/ImportedWarpWeftRatio.md#ImportedWarpWeftRatio.OrientationRealignment)                             | OrientationRealignment property.                                                                        |
-| [`Limit`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/ImportedLoads/ImportedWarpWeftRatio.md#ImportedWarpWeftRatio.Limit)                                                               | Limit property.                                                                                         |
-| [`KrigingCorrelationFunction`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/ImportedLoads/ImportedWarpWeftRatio.md#ImportedWarpWeftRatio.KrigingCorrelationFunction)                     | KrigingCorrelationFunction property.                                                                    |
-| [`KrigingPolynom`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/ImportedLoads/ImportedWarpWeftRatio.md#ImportedWarpWeftRatio.KrigingPolynom)                                             | KrigingPolynom property.                                                                                |
-| [`ExtrapolationTolerancePercent`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/ImportedLoads/ImportedWarpWeftRatio.md#ImportedWarpWeftRatio.ExtrapolationTolerancePercent)               | ExtrapolationTolerancePercent property.                                                                 |
-| [`ApplyAs`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/ImportedLoads/ImportedWarpWeftRatio.md#ImportedWarpWeftRatio.ApplyAs)                                                           | This controls how the imported load is applied, either as a boundary condition or an initial condition. |
-| [`Suppressed`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/ImportedLoads/ImportedWarpWeftRatio.md#ImportedWarpWeftRatio.Suppressed)                                                     | Gets or sets the Suppressed.                                                                            |
-| [`SharedRefBody`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/ImportedLoads/ImportedWarpWeftRatio.md#ImportedWarpWeftRatio.SharedRefBody)                                               | Gets or sets the SharedRefBody.                                                                         |
-| [`Location`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/ImportedLoads/ImportedWarpWeftRatio.md#ImportedWarpWeftRatio.Location)                                                         | Gets or sets the Location.                                                                              |
-| [`Children`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/ImportedLoads/ImportedWarpWeftRatio.md#ImportedWarpWeftRatio.Children)                                                         | Gets the list of children.                                                                              |
-| [`Comments`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/ImportedLoads/ImportedWarpWeftRatio.md#ImportedWarpWeftRatio.Comments)                                                         | Gets the list of associated comments.                                                                   |
-| [`Figures`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/ImportedLoads/ImportedWarpWeftRatio.md#ImportedWarpWeftRatio.Figures)                                                           | Gets the list of associated figures.                                                                    |
-| [`Images`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/ImportedLoads/ImportedWarpWeftRatio.md#ImportedWarpWeftRatio.Images)                                                             | Gets the list of associated images.                                                                     |
-| [`InternalObject`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/ImportedLoads/ImportedWarpWeftRatio.md#id0)                                                                              | Gets the internal object. For advanced usage only.                                                      |
-| [`Properties`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/ImportedLoads/ImportedWarpWeftRatio.md#ImportedWarpWeftRatio.Properties)                                                     | Gets the list of properties for this object.                                                            |
-| [`VisibleProperties`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/ImportedLoads/ImportedWarpWeftRatio.md#ImportedWarpWeftRatio.VisibleProperties)                                       | Gets the list of properties that are visible for this object.                                           |
+| [`Algorithm`](#ImportedWarpWeftRatio.Algorithm)                                                       | Algorithm property.                                                                                     |
+| [`ApplyAs`](#ImportedWarpWeftRatio.ApplyAs)                                                           | This controls how the imported load is applied, either as a boundary condition or an initial condition. |
+| [`BoundingBoxTolerance`](#ImportedWarpWeftRatio.BoundingBoxTolerance)                                 | BoundingBoxTolerance property.                                                                          |
+| [`Children`](#ImportedWarpWeftRatio.Children)                                                         | Gets the list of children.                                                                              |
+| [`Comments`](#ImportedWarpWeftRatio.Comments)                                                         | Gets the list of associated comments.                                                                   |
+| [`CreateNameSelectionForMappedNodes`](#ImportedWarpWeftRatio.CreateNameSelectionForMappedNodes)       | CreateNameSelectionForMappedNodes property.                                                             |
+| [`CreateNameSelectionForOutsideNodes`](#ImportedWarpWeftRatio.CreateNameSelectionForOutsideNodes)     | CreateNameSelectionForOutsideNodes property.                                                            |
+| [`CreateNameSelectionForUnmappedNodes`](#ImportedWarpWeftRatio.CreateNameSelectionForUnmappedNodes)   | CreateNameSelectionForUnmappedNodes property.                                                           |
+| [`DataModelObjectCategory`](#ImportedWarpWeftRatio.DataModelObjectCategory)                           | Gets the current DataModelObject’s category.                                                            |
+| [`DisplayInteriorPoints`](#ImportedWarpWeftRatio.DisplayInteriorPoints)                               | DisplayInteriorPoints property.                                                                         |
+| [`DisplayProjectionPlane`](#ImportedWarpWeftRatio.DisplayProjectionPlane)                             | DisplayProjectionPlane property.                                                                        |
+| [`DisplaySourcePointIds`](#ImportedWarpWeftRatio.DisplaySourcePointIds)                               | DisplaySourcePointIds property.                                                                         |
+| [`DisplaySourcePoints`](#ImportedWarpWeftRatio.DisplaySourcePoints)                                   | DisplaySourcePoints property.                                                                           |
+| [`ExtrapolationTolerancePercent`](#ImportedWarpWeftRatio.ExtrapolationTolerancePercent)               | ExtrapolationTolerancePercent property.                                                                 |
+| [`Figures`](#ImportedWarpWeftRatio.Figures)                                                           | Gets the list of associated figures.                                                                    |
+| [`Images`](#ImportedWarpWeftRatio.Images)                                                             | Gets the list of associated images.                                                                     |
+| [`InternalObject`](#ImportedWarpWeftRatio.InternalObject)                                             | Gets the internal object. For advanced usage only.                                                      |
+| [`Interpolation`](#ImportedWarpWeftRatio.Interpolation)                                               | Interpolation property.                                                                                 |
+| [`KrigingCorrelationFunction`](#ImportedWarpWeftRatio.KrigingCorrelationFunction)                     | KrigingCorrelationFunction property.                                                                    |
+| [`KrigingPolynom`](#ImportedWarpWeftRatio.KrigingPolynom)                                             | KrigingPolynom property.                                                                                |
+| [`LegendMaximum`](#ImportedWarpWeftRatio.LegendMaximum)                                               | LegendMaximum property.                                                                                 |
+| [`LegendMinimum`](#ImportedWarpWeftRatio.LegendMinimum)                                               | LegendMinimum property.                                                                                 |
+| [`LegendRange`](#ImportedWarpWeftRatio.LegendRange)                                                   | LegendRange property.                                                                                   |
+| [`Limit`](#ImportedWarpWeftRatio.Limit)                                                               | Limit property.                                                                                         |
+| [`Location`](#ImportedWarpWeftRatio.Location)                                                         | Gets or sets the Location.                                                                              |
+| [`MappedNodesName`](#ImportedWarpWeftRatio.MappedNodesName)                                           | MappedNodesName property.                                                                               |
+| [`Mapping`](#ImportedWarpWeftRatio.Mapping)                                                           | Mapping property.                                                                                       |
+| [`MappingControl`](#ImportedWarpWeftRatio.MappingControl)                                             | MappingControl property.                                                                                |
+| [`MaxOutsideDistance`](#ImportedWarpWeftRatio.MaxOutsideDistance)                                     | MaxOutsideDistance property.                                                                            |
+| [`Method`](#ImportedWarpWeftRatio.Method)                                                             | Method property.                                                                                        |
+| [`NumberOfPoints`](#ImportedWarpWeftRatio.NumberOfPoints)                                             | NumberOfPoints property.                                                                                |
+| [`OrientationRealignment`](#ImportedWarpWeftRatio.OrientationRealignment)                             | OrientationRealignment property.                                                                        |
+| [`OutsideDistanceCheck`](#ImportedWarpWeftRatio.OutsideDistanceCheck)                                 | OutsideDistanceCheck property.                                                                          |
+| [`OutsideNodesName`](#ImportedWarpWeftRatio.OutsideNodesName)                                         | OutsideNodesName property.                                                                              |
+| [`OutsideOption`](#ImportedWarpWeftRatio.OutsideOption)                                               | OutsideOption property.                                                                                 |
+| [`Pinball`](#ImportedWarpWeftRatio.Pinball)                                                           | Pinball property.                                                                                       |
+| [`Projection`](#ImportedWarpWeftRatio.Projection)                                                     | Projection property.                                                                                    |
+| [`Properties`](#ImportedWarpWeftRatio.Properties)                                                     | Gets the list of properties for this object.                                                            |
+| [`RigidBodyTransformationType`](#ImportedWarpWeftRatio.RigidBodyTransformationType)                   | RigidBodyTransformationType property.                                                                   |
+| [`RigidTransformSourceCoordinateSystem`](#ImportedWarpWeftRatio.RigidTransformSourceCoordinateSystem) | RigidTransformSourceCoordinateSystem property.                                                          |
+| [`RigidTransformTargetCoordinateSystem`](#ImportedWarpWeftRatio.RigidTransformTargetCoordinateSystem) | RigidTransformTargetCoordinateSystem property.                                                          |
+| [`SharedRefBody`](#ImportedWarpWeftRatio.SharedRefBody)                                               | Gets or sets the SharedRefBody.                                                                         |
+| [`ShellThicknessFactor`](#ImportedWarpWeftRatio.ShellThicknessFactor)                                 | ShellThicknessFactor property.                                                                          |
+| [`SourceMaximum`](#ImportedWarpWeftRatio.SourceMaximum)                                               | SourceMaximum property.                                                                                 |
+| [`SourceMinimum`](#ImportedWarpWeftRatio.SourceMinimum)                                               | SourceMinimum property.                                                                                 |
+| [`Suppressed`](#ImportedWarpWeftRatio.Suppressed)                                                     | Gets or sets the Suppressed.                                                                            |
+| [`UnmappedNodesName`](#ImportedWarpWeftRatio.UnmappedNodesName)                                       | UnmappedNodesName property.                                                                             |
+| [`VariableType`](#ImportedWarpWeftRatio.VariableType)                                                 | VariableType property.                                                                                  |
+| [`VisibleProperties`](#ImportedWarpWeftRatio.VisibleProperties)                                       | Gets the list of properties that are visible for this object.                                           |
+| [`Weighting`](#ImportedWarpWeftRatio.Weighting)                                                       | Weighting property.                                                                                     |
 
 <a id="property-detail"></a>
 
 ## Property detail
 
-<a id="ImportedWarpWeftRatio.InternalObject"></a>
-
-### *property* ImportedWarpWeftRatio.InternalObject *: Ansys.Common.Interop.DSObjectsAuto.IDSExternalLoadAuto | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets the internal object. For advanced usage only.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="ImportedWarpWeftRatio.DataModelObjectCategory"></a>
-
-### *property* ImportedWarpWeftRatio.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets the current DataModelObject's category.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="ImportedWarpWeftRatio.Weighting"></a>
-
-### *property* ImportedWarpWeftRatio.Weighting *: [Ansys.Mechanical.DataModel.Enums.WeightingType](../../../../Mechanical/DataModel/Enums/WeightingType.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.WeightingType) | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Weighting property.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="ImportedWarpWeftRatio.MappingControl"></a>
-
-### *property* ImportedWarpWeftRatio.MappingControl *: [Ansys.Mechanical.DataModel.Enums.MappingControlType](../../../../Mechanical/DataModel/Enums/MappingControlType.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.MappingControlType) | [None](https://docs.python.org/3/library/constants.html#None)*
-
-MappingControl property.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="ImportedWarpWeftRatio.DisplaySourcePoints"></a>
-
-### *property* ImportedWarpWeftRatio.DisplaySourcePoints *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
-
-DisplaySourcePoints property.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="ImportedWarpWeftRatio.DisplaySourcePointIds"></a>
-
-### *property* ImportedWarpWeftRatio.DisplaySourcePointIds *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
-
-DisplaySourcePointIds property.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="ImportedWarpWeftRatio.DisplayInteriorPoints"></a>
-
-### *property* ImportedWarpWeftRatio.DisplayInteriorPoints *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
-
-DisplayInteriorPoints property.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="ImportedWarpWeftRatio.DisplayProjectionPlane"></a>
-
-### *property* ImportedWarpWeftRatio.DisplayProjectionPlane *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
-
-DisplayProjectionPlane property.
-
-<!-- !! processed by numpydoc !! -->
-
 <a id="ImportedWarpWeftRatio.Algorithm"></a>
 
-### *property* ImportedWarpWeftRatio.Algorithm *: [Ansys.Mechanical.DataModel.Enums.MappingAlgorithm](../../../../Mechanical/DataModel/Enums/MappingAlgorithm.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.MappingAlgorithm) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ImportedWarpWeftRatio.Algorithm *: [Ansys.Mechanical.DataModel.Enums.MappingAlgorithm](../../../../../../v242/Ansys/Mechanical/DataModel/Enums/MappingAlgorithm.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.MappingAlgorithm) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Algorithm property.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ImportedWarpWeftRatio.ApplyAs"></a>
+
+### *property* ImportedWarpWeftRatio.ApplyAs *: [Ansys.Mechanical.DataModel.Enums.ExternalLoadApplicationType](../../../../../../v242/Ansys/Mechanical/DataModel/Enums/ExternalLoadApplicationType.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.ExternalLoadApplicationType) | [None](https://docs.python.org/3/library/constants.html#None)*
+
+This controls how the imported load is applied, either as a boundary condition or an initial condition.
 
 <!-- !! processed by numpydoc !! -->
 
@@ -179,6 +121,22 @@ Algorithm property.
 ### *property* ImportedWarpWeftRatio.BoundingBoxTolerance *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
 
 BoundingBoxTolerance property.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ImportedWarpWeftRatio.Children"></a>
+
+### *property* ImportedWarpWeftRatio.Children *: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets the list of children.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ImportedWarpWeftRatio.Comments"></a>
+
+### *property* ImportedWarpWeftRatio.Comments *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Comment](../Comment.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets the list of associated comments.
 
 <!-- !! processed by numpydoc !! -->
 
@@ -206,11 +164,99 @@ CreateNameSelectionForUnmappedNodes property.
 
 <!-- !! processed by numpydoc !! -->
 
-<a id="ImportedWarpWeftRatio.Mapping"></a>
+<a id="ImportedWarpWeftRatio.DataModelObjectCategory"></a>
 
-### *property* ImportedWarpWeftRatio.Mapping *: [Ansys.Mechanical.DataModel.Enums.MappingInterpolationType](../../../../Mechanical/DataModel/Enums/MappingInterpolationType.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.MappingInterpolationType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ImportedWarpWeftRatio.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../../v242/Ansys/Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Mapping property.
+Gets the current DataModelObject’s category.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ImportedWarpWeftRatio.DisplayInteriorPoints"></a>
+
+### *property* ImportedWarpWeftRatio.DisplayInteriorPoints *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+
+DisplayInteriorPoints property.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ImportedWarpWeftRatio.DisplayProjectionPlane"></a>
+
+### *property* ImportedWarpWeftRatio.DisplayProjectionPlane *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+
+DisplayProjectionPlane property.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ImportedWarpWeftRatio.DisplaySourcePointIds"></a>
+
+### *property* ImportedWarpWeftRatio.DisplaySourcePointIds *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+
+DisplaySourcePointIds property.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ImportedWarpWeftRatio.DisplaySourcePoints"></a>
+
+### *property* ImportedWarpWeftRatio.DisplaySourcePoints *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+
+DisplaySourcePoints property.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ImportedWarpWeftRatio.ExtrapolationTolerancePercent"></a>
+
+### *property* ImportedWarpWeftRatio.ExtrapolationTolerancePercent *: System.Double | [None](https://docs.python.org/3/library/constants.html#None)*
+
+ExtrapolationTolerancePercent property.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ImportedWarpWeftRatio.Figures"></a>
+
+### *property* ImportedWarpWeftRatio.Figures *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Figure](../Figure.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets the list of associated figures.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ImportedWarpWeftRatio.Images"></a>
+
+### *property* ImportedWarpWeftRatio.Images *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Image](../Image.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets the list of associated images.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ImportedWarpWeftRatio.InternalObject"></a>
+
+### *property* ImportedWarpWeftRatio.InternalObject *: Ansys.Common.Interop.DSObjectsAuto.IDSExternalLoadAuto | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets the internal object. For advanced usage only.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ImportedWarpWeftRatio.Interpolation"></a>
+
+### *property* ImportedWarpWeftRatio.Interpolation *: [Ansys.Mechanical.DataModel.Enums.InterpolationType](../../../../../../v242/Ansys/Mechanical/DataModel/Enums/InterpolationType.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.InterpolationType) | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Interpolation property.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ImportedWarpWeftRatio.KrigingCorrelationFunction"></a>
+
+### *property* ImportedWarpWeftRatio.KrigingCorrelationFunction *: [Ansys.Mechanical.DataModel.Enums.KrigingCorrFuncType](../../../../../../v242/Ansys/Mechanical/DataModel/Enums/KrigingCorrFuncType.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.KrigingCorrFuncType) | [None](https://docs.python.org/3/library/constants.html#None)*
+
+KrigingCorrelationFunction property.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ImportedWarpWeftRatio.KrigingPolynom"></a>
+
+### *property* ImportedWarpWeftRatio.KrigingPolynom *: [Ansys.Mechanical.DataModel.Enums.KrigingPolynomType](../../../../../../v242/Ansys/Mechanical/DataModel/Enums/KrigingPolynomType.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.KrigingPolynomType) | [None](https://docs.python.org/3/library/constants.html#None)*
+
+KrigingPolynom property.
 
 <!-- !! processed by numpydoc !! -->
 
@@ -232,9 +278,49 @@ LegendMinimum property.
 
 <a id="ImportedWarpWeftRatio.LegendRange"></a>
 
-### *property* ImportedWarpWeftRatio.LegendRange *: [Ansys.Mechanical.DataModel.Enums.LegendRangeType](../../../../Mechanical/DataModel/Enums/LegendRangeType.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.LegendRangeType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ImportedWarpWeftRatio.LegendRange *: [Ansys.Mechanical.DataModel.Enums.LegendRangeType](../../../../../../v242/Ansys/Mechanical/DataModel/Enums/LegendRangeType.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.LegendRangeType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 LegendRange property.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ImportedWarpWeftRatio.Limit"></a>
+
+### *property* ImportedWarpWeftRatio.Limit *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Limit property.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ImportedWarpWeftRatio.Location"></a>
+
+### *property* ImportedWarpWeftRatio.Location *: Ansys.ACT.Interfaces.Common.ISelectionInfo | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the Location.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ImportedWarpWeftRatio.MappedNodesName"></a>
+
+### *property* ImportedWarpWeftRatio.MappedNodesName *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+
+MappedNodesName property.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ImportedWarpWeftRatio.Mapping"></a>
+
+### *property* ImportedWarpWeftRatio.Mapping *: [Ansys.Mechanical.DataModel.Enums.MappingInterpolationType](../../../../../../v242/Ansys/Mechanical/DataModel/Enums/MappingInterpolationType.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.MappingInterpolationType) | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Mapping property.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ImportedWarpWeftRatio.MappingControl"></a>
+
+### *property* ImportedWarpWeftRatio.MappingControl *: [Ansys.Mechanical.DataModel.Enums.MappingControlType](../../../../../../v242/Ansys/Mechanical/DataModel/Enums/MappingControlType.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.MappingControlType) | [None](https://docs.python.org/3/library/constants.html#None)*
+
+MappingControl property.
 
 <!-- !! processed by numpydoc !! -->
 
@@ -248,9 +334,25 @@ MaxOutsideDistance property.
 
 <a id="ImportedWarpWeftRatio.Method"></a>
 
-### *property* ImportedWarpWeftRatio.Method *: [Ansys.Mechanical.DataModel.Enums.MappingMethod](../../../../Mechanical/DataModel/Enums/MappingMethod.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.MappingMethod) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ImportedWarpWeftRatio.Method *: [Ansys.Mechanical.DataModel.Enums.MappingMethod](../../../../../../v242/Ansys/Mechanical/DataModel/Enums/MappingMethod.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.MappingMethod) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Method property.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ImportedWarpWeftRatio.NumberOfPoints"></a>
+
+### *property* ImportedWarpWeftRatio.NumberOfPoints *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+
+NumberOfPoints property.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ImportedWarpWeftRatio.OrientationRealignment"></a>
+
+### *property* ImportedWarpWeftRatio.OrientationRealignment *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+
+OrientationRealignment property.
 
 <!-- !! processed by numpydoc !! -->
 
@@ -262,11 +364,27 @@ OutsideDistanceCheck property.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="ImportedWarpWeftRatio.OutsideNodesName"></a>
+
+### *property* ImportedWarpWeftRatio.OutsideNodesName *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+
+OutsideNodesName property.
+
+<!-- !! processed by numpydoc !! -->
+
 <a id="ImportedWarpWeftRatio.OutsideOption"></a>
 
-### *property* ImportedWarpWeftRatio.OutsideOption *: [Ansys.Mechanical.DataModel.Enums.MappingOutsideOption](../../../../Mechanical/DataModel/Enums/MappingOutsideOption.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.MappingOutsideOption) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ImportedWarpWeftRatio.OutsideOption *: [Ansys.Mechanical.DataModel.Enums.MappingOutsideOption](../../../../../../v242/Ansys/Mechanical/DataModel/Enums/MappingOutsideOption.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.MappingOutsideOption) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 OutsideOption property.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ImportedWarpWeftRatio.Pinball"></a>
+
+### *property* ImportedWarpWeftRatio.Pinball *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Pinball property.
 
 <!-- !! processed by numpydoc !! -->
 
@@ -278,9 +396,17 @@ Projection property.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="ImportedWarpWeftRatio.Properties"></a>
+
+### *property* ImportedWarpWeftRatio.Properties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets the list of properties for this object.
+
+<!-- !! processed by numpydoc !! -->
+
 <a id="ImportedWarpWeftRatio.RigidBodyTransformationType"></a>
 
-### *property* ImportedWarpWeftRatio.RigidBodyTransformationType *: [Ansys.Mechanical.DataModel.Enums.RigidBodyTransformationType](../../../../Mechanical/DataModel/Enums/RigidBodyTransformationType.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.RigidBodyTransformationType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ImportedWarpWeftRatio.RigidBodyTransformationType *: [Ansys.Mechanical.DataModel.Enums.RigidBodyTransformationType](../../../../../../v242/Ansys/Mechanical/DataModel/Enums/RigidBodyTransformationType.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.RigidBodyTransformationType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 RigidBodyTransformationType property.
 
@@ -299,6 +425,14 @@ RigidTransformSourceCoordinateSystem property.
 ### *property* ImportedWarpWeftRatio.RigidTransformTargetCoordinateSystem *: [Ansys.ACT.Automation.Mechanical.CoordinateSystem](../CoordinateSystem.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.CoordinateSystem) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 RigidTransformTargetCoordinateSystem property.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ImportedWarpWeftRatio.SharedRefBody"></a>
+
+### *property* ImportedWarpWeftRatio.SharedRefBody *: [Ansys.ACT.Automation.Mechanical.Body](../Body.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Body) | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the SharedRefBody.
 
 <!-- !! processed by numpydoc !! -->
 
@@ -326,19 +460,11 @@ SourceMinimum property.
 
 <!-- !! processed by numpydoc !! -->
 
-<a id="ImportedWarpWeftRatio.VariableType"></a>
+<a id="ImportedWarpWeftRatio.Suppressed"></a>
 
-### *property* ImportedWarpWeftRatio.VariableType *: [Ansys.Mechanical.DataModel.Enums.MappingVariableType](../../../../Mechanical/DataModel/Enums/MappingVariableType.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.MappingVariableType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ImportedWarpWeftRatio.Suppressed *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
 
-VariableType property.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="ImportedWarpWeftRatio.Interpolation"></a>
-
-### *property* ImportedWarpWeftRatio.Interpolation *: [Ansys.Mechanical.DataModel.Enums.InterpolationType](../../../../Mechanical/DataModel/Enums/InterpolationType.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.InterpolationType) | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Interpolation property.
+Gets or sets the Suppressed.
 
 <!-- !! processed by numpydoc !! -->
 
@@ -350,155 +476,11 @@ UnmappedNodesName property.
 
 <!-- !! processed by numpydoc !! -->
 
-<a id="ImportedWarpWeftRatio.MappedNodesName"></a>
+<a id="ImportedWarpWeftRatio.VariableType"></a>
 
-### *property* ImportedWarpWeftRatio.MappedNodesName *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ImportedWarpWeftRatio.VariableType *: [Ansys.Mechanical.DataModel.Enums.MappingVariableType](../../../../../../v242/Ansys/Mechanical/DataModel/Enums/MappingVariableType.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.MappingVariableType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
-MappedNodesName property.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="ImportedWarpWeftRatio.OutsideNodesName"></a>
-
-### *property* ImportedWarpWeftRatio.OutsideNodesName *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
-
-OutsideNodesName property.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="ImportedWarpWeftRatio.Pinball"></a>
-
-### *property* ImportedWarpWeftRatio.Pinball *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Pinball property.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="ImportedWarpWeftRatio.NumberOfPoints"></a>
-
-### *property* ImportedWarpWeftRatio.NumberOfPoints *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
-
-NumberOfPoints property.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="ImportedWarpWeftRatio.OrientationRealignment"></a>
-
-### *property* ImportedWarpWeftRatio.OrientationRealignment *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
-
-OrientationRealignment property.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="ImportedWarpWeftRatio.Limit"></a>
-
-### *property* ImportedWarpWeftRatio.Limit *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Limit property.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="ImportedWarpWeftRatio.KrigingCorrelationFunction"></a>
-
-### *property* ImportedWarpWeftRatio.KrigingCorrelationFunction *: [Ansys.Mechanical.DataModel.Enums.KrigingCorrFuncType](../../../../Mechanical/DataModel/Enums/KrigingCorrFuncType.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.KrigingCorrFuncType) | [None](https://docs.python.org/3/library/constants.html#None)*
-
-KrigingCorrelationFunction property.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="ImportedWarpWeftRatio.KrigingPolynom"></a>
-
-### *property* ImportedWarpWeftRatio.KrigingPolynom *: [Ansys.Mechanical.DataModel.Enums.KrigingPolynomType](../../../../Mechanical/DataModel/Enums/KrigingPolynomType.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.KrigingPolynomType) | [None](https://docs.python.org/3/library/constants.html#None)*
-
-KrigingPolynom property.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="ImportedWarpWeftRatio.ExtrapolationTolerancePercent"></a>
-
-### *property* ImportedWarpWeftRatio.ExtrapolationTolerancePercent *: System.Double | [None](https://docs.python.org/3/library/constants.html#None)*
-
-ExtrapolationTolerancePercent property.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="ImportedWarpWeftRatio.ApplyAs"></a>
-
-### *property* ImportedWarpWeftRatio.ApplyAs *: [Ansys.Mechanical.DataModel.Enums.ExternalLoadApplicationType](../../../../Mechanical/DataModel/Enums/ExternalLoadApplicationType.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.ExternalLoadApplicationType) | [None](https://docs.python.org/3/library/constants.html#None)*
-
-This controls how the imported load is applied, either as a boundary condition or an initial condition.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="ImportedWarpWeftRatio.Suppressed"></a>
-
-### *property* ImportedWarpWeftRatio.Suppressed *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the Suppressed.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="ImportedWarpWeftRatio.SharedRefBody"></a>
-
-### *property* ImportedWarpWeftRatio.SharedRefBody *: [Ansys.ACT.Automation.Mechanical.Body](../Body.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Body) | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the SharedRefBody.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="ImportedWarpWeftRatio.Location"></a>
-
-### *property* ImportedWarpWeftRatio.Location *: Ansys.ACT.Interfaces.Common.ISelectionInfo | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the Location.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="ImportedWarpWeftRatio.Children"></a>
-
-### *property* ImportedWarpWeftRatio.Children *: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets the list of children.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="ImportedWarpWeftRatio.Comments"></a>
-
-### *property* ImportedWarpWeftRatio.Comments *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Comment](../Comment.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets the list of associated comments.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="ImportedWarpWeftRatio.Figures"></a>
-
-### *property* ImportedWarpWeftRatio.Figures *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Figure](../Figure.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets the list of associated figures.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="ImportedWarpWeftRatio.Images"></a>
-
-### *property* ImportedWarpWeftRatio.Images *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Image](../Image.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets the list of associated images.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="id0"></a>
-
-### *property* ImportedWarpWeftRatio.InternalObject *: System.Object | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets the internal object. For advanced usage only.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="ImportedWarpWeftRatio.Properties"></a>
-
-### *property* ImportedWarpWeftRatio.Properties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets the list of properties for this object.
+VariableType property.
 
 <!-- !! processed by numpydoc !! -->
 
@@ -510,87 +492,23 @@ Gets the list of properties that are visible for this object.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="ImportedWarpWeftRatio.Weighting"></a>
+
+### *property* ImportedWarpWeftRatio.Weighting *: [Ansys.Mechanical.DataModel.Enums.WeightingType](../../../../../../v242/Ansys/Mechanical/DataModel/Enums/WeightingType.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.WeightingType) | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Weighting property.
+
+<!-- !! processed by numpydoc !! -->
+
 <a id="method-detail"></a>
 
 ## Method detail
 
-<a id="ImportedWarpWeftRatio.ExportToTextFile"></a>
+<a id="ImportedWarpWeftRatio.Activate"></a>
 
-### ImportedWarpWeftRatio.ExportToTextFile(filePath: System.String)
+### ImportedWarpWeftRatio.Activate()
 
-Run the ExportToTextFile action.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="ImportedWarpWeftRatio.Import"></a>
-
-### ImportedWarpWeftRatio.Import()
-
-Import.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="ImportedWarpWeftRatio.ImportLoad"></a>
-
-### ImportedWarpWeftRatio.ImportLoad()
-
-Run the ImportLoad action.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="ImportedWarpWeftRatio.GetActivateAtLoadStep"></a>
-
-### ImportedWarpWeftRatio.GetActivateAtLoadStep(stepNumber: System.UInt32)
-
-GetActivateAtLoadStep method.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="ImportedWarpWeftRatio.SetActivateAtLoadStep"></a>
-
-### ImportedWarpWeftRatio.SetActivateAtLoadStep(stepNumber: System.UInt32, bActive: System.Boolean)
-
-SetActivateAtLoadStep method.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="ImportedWarpWeftRatio.AddMappingValidation"></a>
-
-### ImportedWarpWeftRatio.AddMappingValidation()
-
-Creates a new MappingValidation
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="ImportedWarpWeftRatio.ClearGeneratedData"></a>
-
-### ImportedWarpWeftRatio.ClearGeneratedData()
-
-Run the ClearGeneratedData action.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="ImportedWarpWeftRatio.Delete"></a>
-
-### ImportedWarpWeftRatio.Delete()
-
-Run the Delete action.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="ImportedWarpWeftRatio.GetChildren"></a>
-
-### ImportedWarpWeftRatio.GetChildren(recurses: System.Boolean, children: System.Collections.Generic.IList[ChildrenType])
-
-Gets the list of children, filtered by type.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="id1"></a>
-
-### ImportedWarpWeftRatio.GetChildren(category: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory), recurses: System.Boolean, children: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject])
-
-Gets the list of children, filtered by type.
+Activate the current object.
 
 <!-- !! processed by numpydoc !! -->
 
@@ -614,17 +532,27 @@ Creates a new child Figure.
 
 ### ImportedWarpWeftRatio.AddImage(filePath: System.String)
 
+```text
 Creates a new child Image.
 If a filePath is provided, the image will be loaded from that file,
 if not, the image will be a screen capture of the Geometry window.
+```
 
 <!-- !! processed by numpydoc !! -->
 
-<a id="ImportedWarpWeftRatio.Activate"></a>
+<a id="ImportedWarpWeftRatio.AddMappingValidation"></a>
 
-### ImportedWarpWeftRatio.Activate()
+### ImportedWarpWeftRatio.AddMappingValidation()
 
-Activate the current object.
+Creates a new MappingValidation
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ImportedWarpWeftRatio.ClearGeneratedData"></a>
+
+### ImportedWarpWeftRatio.ClearGeneratedData()
+
+Run the ClearGeneratedData action.
 
 <!-- !! processed by numpydoc !! -->
 
@@ -636,11 +564,59 @@ Copies all visible properties from this object to another.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="ImportedWarpWeftRatio.CreateParameter"></a>
+
+### ImportedWarpWeftRatio.CreateParameter(propName: System.String)
+
+Creates a new parameter for a Property.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ImportedWarpWeftRatio.Delete"></a>
+
+### ImportedWarpWeftRatio.Delete()
+
+Run the Delete action.
+
+<!-- !! processed by numpydoc !! -->
+
 <a id="ImportedWarpWeftRatio.Duplicate"></a>
 
 ### ImportedWarpWeftRatio.Duplicate()
 
 Creates a copy of the current DataModelObject.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ImportedWarpWeftRatio.ExportToTextFile"></a>
+
+### ImportedWarpWeftRatio.ExportToTextFile(filePath: System.String)
+
+Run the ExportToTextFile action.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ImportedWarpWeftRatio.GetActivateAtLoadStep"></a>
+
+### ImportedWarpWeftRatio.GetActivateAtLoadStep(stepNumber: System.UInt32)
+
+GetActivateAtLoadStep method.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ImportedWarpWeftRatio.GetChildren"></a>
+
+### ImportedWarpWeftRatio.GetChildren(recurses: System.Boolean, children: System.Collections.Generic.IList[ChildrenType])
+
+Gets the list of children, filtered by type.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ImportedWarpWeftRatio.GetParameter"></a>
+
+### ImportedWarpWeftRatio.GetParameter(propName: System.String)
+
+Gets the parameter corresponding to the given property.
 
 <!-- !! processed by numpydoc !! -->
 
@@ -660,6 +636,33 @@ Run the GroupSimilarObjects action.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="ImportedWarpWeftRatio.Import"></a>
+
+### ImportedWarpWeftRatio.Import()
+
+Import.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ImportedWarpWeftRatio.ImportLoad"></a>
+
+### ImportedWarpWeftRatio.ImportLoad()
+
+Run the ImportLoad action.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ImportedWarpWeftRatio.PropertyByAPIName"></a>
+
+### ImportedWarpWeftRatio.PropertyByAPIName(name: System.String)
+
+```text
+Get a property by its API name.
+If multiple properties have the same API Name, only the first property with that name will be returned.
+```
+
+<!-- !! processed by numpydoc !! -->
+
 <a id="ImportedWarpWeftRatio.PropertyByName"></a>
 
 ### ImportedWarpWeftRatio.PropertyByName(name: System.String)
@@ -668,36 +671,19 @@ Get a property by its unique name.
 
 <!-- !! processed by numpydoc !! -->
 
-<a id="ImportedWarpWeftRatio.PropertyByAPIName"></a>
-
-### ImportedWarpWeftRatio.PropertyByAPIName(name: System.String)
-
-Get a property by its API name.
-If multiple properties have the same API Name, only the first property with that name will be returned.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="ImportedWarpWeftRatio.CreateParameter"></a>
-
-### ImportedWarpWeftRatio.CreateParameter(propName: System.String)
-
-Creates a new parameter for a Property.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="ImportedWarpWeftRatio.GetParameter"></a>
-
-### ImportedWarpWeftRatio.GetParameter(propName: System.String)
-
-Gets the parameter corresponding to the given property.
-
-<!-- !! processed by numpydoc !! -->
-
 <a id="ImportedWarpWeftRatio.RemoveParameter"></a>
 
 ### ImportedWarpWeftRatio.RemoveParameter(propName: System.String)
 
 Removes the parameter from the parameter set corresponding to the given property.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ImportedWarpWeftRatio.SetActivateAtLoadStep"></a>
+
+### ImportedWarpWeftRatio.SetActivateAtLoadStep(stepNumber: System.UInt32, bActive: System.Boolean)
+
+SetActivateAtLoadStep method.
 
 <!-- !! processed by numpydoc !! -->
 

@@ -1,6 +1,6 @@
 # `SphereCenterDefinitionType`
 
-
+<a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.MechanicalEnums.MeshWorkflow.SphereCenterDefinitionType"></a>
 
 #### *class* ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.MechanicalEnums.MeshWorkflow.SphereCenterDefinitionType
 
@@ -17,10 +17,10 @@ This enum is referenced in the “Control” tree node and reflects the type of 
 ### Attributes
 
 | Name |
-| ---------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| [`Centered`](../../../../../../v242/Ansys/Mechanical/DataModel/MechanicalEnums/MeshWorkflow/SphereCenterDefinitionType.md#SphereCenterDefinitionType.Centered) |
-| [`Minimal`](../../../../../../v242/Ansys/Mechanical/DataModel/MechanicalEnums/MeshWorkflow/SphereCenterDefinitionType.md#SphereCenterDefinitionType.Minimal) |
-| [`UserDefined`](../../../../../../v242/Ansys/Mechanical/DataModel/MechanicalEnums/MeshWorkflow/SphereCenterDefinitionType.md#SphereCenterDefinitionType.UserDefined) |
+| ---------------------------------------------------------- |
+| [`Centered`](#SphereCenterDefinitionType.Centered) |
+| [`Minimal`](#SphereCenterDefinitionType.Minimal) |
+| [`UserDefined`](#SphereCenterDefinitionType.UserDefined) |
 
 <a id="attribute-detail"></a>
 

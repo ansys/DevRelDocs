@@ -1,6 +1,6 @@
 # `NonlinearAdaptivityCriterionType`
 
-
+<a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.NonlinearAdaptivityCriterionType"></a>
 
 #### *class* ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.NonlinearAdaptivityCriterionType
 
@@ -17,12 +17,12 @@ Specifies the NonlinearAdaptivityCriterionType.
 ### Attributes
 
 | Name |
-| ---------------------------------------------------------------------------------------------------------------------------------------------------- |
-| [`AMOctree`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/NonlinearAdaptivityCriterionType.md#NonlinearAdaptivityCriterionType.AMOctree) |
-| [`Box`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/NonlinearAdaptivityCriterionType.md#NonlinearAdaptivityCriterionType.Box) |
-| [`Energy`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/NonlinearAdaptivityCriterionType.md#NonlinearAdaptivityCriterionType.Energy) |
-| [`Mesh`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/NonlinearAdaptivityCriterionType.md#NonlinearAdaptivityCriterionType.Mesh) |
-| [`Undefined`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/NonlinearAdaptivityCriterionType.md#NonlinearAdaptivityCriterionType.Undefined) |
+| ------------------------------------------------------------ |
+| [`AMOctree`](#NonlinearAdaptivityCriterionType.AMOctree) |
+| [`Box`](#NonlinearAdaptivityCriterionType.Box) |
+| [`Energy`](#NonlinearAdaptivityCriterionType.Energy) |
+| [`Mesh`](#NonlinearAdaptivityCriterionType.Mesh) |
+| [`Undefined`](#NonlinearAdaptivityCriterionType.Undefined) |
 
 <a id="attribute-detail"></a>
 

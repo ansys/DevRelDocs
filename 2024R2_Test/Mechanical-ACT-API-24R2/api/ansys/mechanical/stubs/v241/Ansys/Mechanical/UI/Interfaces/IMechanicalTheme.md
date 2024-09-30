@@ -1,6 +1,6 @@
 # `IMechanicalTheme`
 
-
+<a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.UI.Interfaces.IMechanicalTheme"></a>
 
 #### *class* ansys.mechanical.stubs.v241.Ansys.Mechanical.UI.Interfaces.IMechanicalTheme
 
@@ -17,21 +17,21 @@ IMechanicalTheme interface.
 ### Properties
 
 | Name | Description |
-|------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------|
-| [`Name`](../../../../../v242/Ansys/Mechanical/UI/Interfaces/IMechanicalTheme.md#IMechanicalTheme.Name)                             | The name of the theme as an enum value.                                                                                       |
-| [`HexadecimalPalette`](../../../../../v242/Ansys/Mechanical/UI/Interfaces/IMechanicalTheme.md#IMechanicalTheme.HexadecimalPalette) | Palette object, which provides an entry point to get Mechnical UI's theme colors represented in Hexadecimal. ei. #FFFFFF      |
-| [`ColorPalette`](../../../../../v242/Ansys/Mechanical/UI/Interfaces/IMechanicalTheme.md#IMechanicalTheme.ColorPalette)             | Palette object, which provides an entry point to get Mechnical UI's theme colors represented as Ansys.Utilities.Color objects |
-| [`IntPalette`](../../../../../v242/Ansys/Mechanical/UI/Interfaces/IMechanicalTheme.md#IMechanicalTheme.IntPalette)                 | Palette object, which provides an entry point to get Mechnical UI's theme colors represented as integers formatted as BGR     |
+|--------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------|
+| [`ColorPalette`](#IMechanicalTheme.ColorPalette)             | Palette object, which provides an entry point to get Mechnical UI’s theme colors represented as Ansys.Utilities.Color objects   |
+| [`HexadecimalPalette`](#IMechanicalTheme.HexadecimalPalette) | Palette object, which provides an entry point to get Mechnical UI’s theme colors represented in Hexadecimal. ei. #FFFFFF        |
+| [`IntPalette`](#IMechanicalTheme.IntPalette)                 | Palette object, which provides an entry point to get Mechnical UI’s theme colors represented as integers formatted as BGR       |
+| [`Name`](#IMechanicalTheme.Name)                             | The name of the theme as an enum value.                                                                                         |
 
 <a id="property-detail"></a>
 
 ## Property detail
 
-<a id="IMechanicalTheme.Name"></a>
+<a id="IMechanicalTheme.ColorPalette"></a>
 
-### *property* IMechanicalTheme.Name *: [Ansys.Mechanical.UI.Enums.ThemeName](../Enums/ThemeName.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.UI.Enums.ThemeName) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* IMechanicalTheme.ColorPalette *: Ansys.Mechanical.UI.Palette | [None](https://docs.python.org/3/library/constants.html#None)*
 
-The name of the theme as an enum value.
+Palette object, which provides an entry point to get Mechnical UI’s theme colors represented as Ansys.Utilities.Color objects
 
 <!-- !! processed by numpydoc !! -->
 
@@ -39,15 +39,7 @@ The name of the theme as an enum value.
 
 ### *property* IMechanicalTheme.HexadecimalPalette *: Ansys.Mechanical.UI.Palette | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Palette object, which provides an entry point to get Mechnical UI's theme colors represented in Hexadecimal. ei. #FFFFFF
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="IMechanicalTheme.ColorPalette"></a>
-
-### *property* IMechanicalTheme.ColorPalette *: Ansys.Mechanical.UI.Palette | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Palette object, which provides an entry point to get Mechnical UI's theme colors represented as Ansys.Utilities.Color objects
+Palette object, which provides an entry point to get Mechnical UI’s theme colors represented in Hexadecimal. ei. #FFFFFF
 
 <!-- !! processed by numpydoc !! -->
 
@@ -55,7 +47,15 @@ Palette object, which provides an entry point to get Mechnical UI's theme colors
 
 ### *property* IMechanicalTheme.IntPalette *: Ansys.Mechanical.UI.Palette | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Palette object, which provides an entry point to get Mechnical UI's theme colors represented as integers formatted as BGR
+Palette object, which provides an entry point to get Mechnical UI’s theme colors represented as integers formatted as BGR
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="IMechanicalTheme.Name"></a>
+
+### *property* IMechanicalTheme.Name *: [Ansys.Mechanical.UI.Enums.ThemeName](../../../../../v242/Ansys/Mechanical/UI/Enums/ThemeName.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.UI.Enums.ThemeName) | [None](https://docs.python.org/3/library/constants.html#None)*
+
+The name of the theme as an enum value.
 
 <!-- !! processed by numpydoc !! -->
 

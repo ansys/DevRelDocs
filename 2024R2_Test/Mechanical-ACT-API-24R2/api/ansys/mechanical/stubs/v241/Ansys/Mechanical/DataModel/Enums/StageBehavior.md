@@ -1,6 +1,6 @@
 # `StageBehavior`
 
-
+<a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.StageBehavior"></a>
 
 #### *class* ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.StageBehavior
 
@@ -17,9 +17,9 @@ Specifies the StageBehavior.
 ### Attributes
 
 | Name |
-| ---------------------------------------------------------------------------------------------------------- |
-| [`Cyclic`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/StageBehavior.md#StageBehavior.Cyclic) |
-| [`Normal`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/StageBehavior.md#StageBehavior.Normal) |
+| ------------------------------------- |
+| [`Cyclic`](#StageBehavior.Cyclic) |
+| [`Normal`](#StageBehavior.Normal) |
 
 <a id="attribute-detail"></a>
 

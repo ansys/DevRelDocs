@@ -1,6 +1,6 @@
 # `TopoObjectiveFormulation`
 
-
+<a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.TopoObjectiveFormulation"></a>
 
 #### *class* ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.TopoObjectiveFormulation
 
@@ -17,14 +17,14 @@ Specifies the TopoObjectiveFormulation.
 ### Attributes
 
 | Name |
-| -------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| [`Displacement`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/TopoObjectiveFormulation.md#TopoObjectiveFormulation.Displacement) |
-| [`Force`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/TopoObjectiveFormulation.md#TopoObjectiveFormulation.Force) |
-| [`LocalStrainEnergy`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/TopoObjectiveFormulation.md#TopoObjectiveFormulation.LocalStrainEnergy) |
-| [`MaximumPrincipalStress`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/TopoObjectiveFormulation.md#TopoObjectiveFormulation.MaximumPrincipalStress) |
-| [`ProgramControlled`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/TopoObjectiveFormulation.md#TopoObjectiveFormulation.ProgramControlled) |
-| [`Undefined`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/TopoObjectiveFormulation.md#TopoObjectiveFormulation.Undefined) |
-| [`VonMisesStress`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/TopoObjectiveFormulation.md#TopoObjectiveFormulation.VonMisesStress) |
+| ------------------------------------------------------------------------------ |
+| [`Displacement`](#TopoObjectiveFormulation.Displacement) |
+| [`Force`](#TopoObjectiveFormulation.Force) |
+| [`LocalStrainEnergy`](#TopoObjectiveFormulation.LocalStrainEnergy) |
+| [`MaximumPrincipalStress`](#TopoObjectiveFormulation.MaximumPrincipalStress) |
+| [`ProgramControlled`](#TopoObjectiveFormulation.ProgramControlled) |
+| [`Undefined`](#TopoObjectiveFormulation.Undefined) |
+| [`VonMisesStress`](#TopoObjectiveFormulation.VonMisesStress) |
 
 <a id="attribute-detail"></a>
 

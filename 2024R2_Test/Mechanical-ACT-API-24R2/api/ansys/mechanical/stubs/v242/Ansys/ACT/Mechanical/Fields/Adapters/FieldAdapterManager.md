@@ -1,6 +1,6 @@
 # `FieldAdapterManager`
 
-
+<a id="ansys.mechanical.stubs.v242.Ansys.ACT.Mechanical.Fields.Adapters.FieldAdapterManager"></a>
 
 #### *class* ansys.mechanical.stubs.v242.Ansys.ACT.Mechanical.Fields.Adapters.FieldAdapterManager
 
@@ -17,14 +17,14 @@ Static class that operates like a factory to create field adapters from Mechanic
 ### Constructors
 
 | Name | Description |
-|-------------------------------------------------------------------|-------------------------------------------------------------------------------------|
+|-----------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------|
 | [`RegisterNewAdapter`](#FieldAdapterManager.RegisterNewAdapter)   | Register the instance object that defines a type of field adapter.                  |
 | [`UnregisterAdapter`](#FieldAdapterManager.UnregisterAdapter)     | Removes the instance object that defines a type of field adapter from this manager. |
 
 ### Properties
 
 | Name | Description |
-|-------------------------------------------------------------------|----------------------------------------------------|
+|-----------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------|
 | [`AdapterDefinitions`](#FieldAdapterManager.AdapterDefinitions)   | Gets the collection of adapters in this manager.   |
 
 <a id="property-detail"></a>

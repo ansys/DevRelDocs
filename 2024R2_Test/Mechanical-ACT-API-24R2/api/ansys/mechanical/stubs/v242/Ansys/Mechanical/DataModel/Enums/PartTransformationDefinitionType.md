@@ -1,6 +1,6 @@
 # `PartTransformationDefinitionType`
 
-
+<a id="ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.PartTransformationDefinitionType"></a>
 
 #### *class* ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.PartTransformationDefinitionType
 
@@ -17,7 +17,7 @@ Specifies the PartTransformationDefinitionType.
 ### Attributes
 
 | Name |
-| -------------------------------------------------------------------------------------- |
+| ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
 | [`CoordinateSystem`](#PartTransformationDefinitionType.CoordinateSystem) |
 | [`RotationAndTranslation`](#PartTransformationDefinitionType.RotationAndTranslation) |
 

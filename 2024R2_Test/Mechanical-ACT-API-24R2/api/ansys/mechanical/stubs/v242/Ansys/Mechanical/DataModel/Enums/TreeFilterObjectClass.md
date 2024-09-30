@@ -1,6 +1,6 @@
 # `TreeFilterObjectClass`
 
-
+<a id="ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.TreeFilterObjectClass"></a>
 
 #### *class* ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.TreeFilterObjectClass
 
@@ -17,12 +17,12 @@ Specifies the TreeFilterObjectClass.
 ### Attributes
 
 | Name |
-| ------------------------------------------------------------------- |
+| ------------------------------------------------------------------------------------------------------------------------------------------------ |
 | [`All`](#TreeFilterObjectClass.All) |
-| [`Results`](#TreeFilterObjectClass.Results) |
 | [`BoundaryConditions`](#TreeFilterObjectClass.BoundaryConditions) |
-| [`Connections`](#TreeFilterObjectClass.Connections) |
 | [`Commands`](#TreeFilterObjectClass.Commands) |
+| [`Connections`](#TreeFilterObjectClass.Connections) |
+| [`Results`](#TreeFilterObjectClass.Results) |
 
 <a id="attribute-detail"></a>
 
@@ -32,20 +32,20 @@ Specifies the TreeFilterObjectClass.
 
 ### TreeFilterObjectClass.All *= 0*
 
-<a id="TreeFilterObjectClass.Results"></a>
-
-### TreeFilterObjectClass.Results *= 1*
-
 <a id="TreeFilterObjectClass.BoundaryConditions"></a>
 
 ### TreeFilterObjectClass.BoundaryConditions *= 2*
+
+<a id="TreeFilterObjectClass.Commands"></a>
+
+### TreeFilterObjectClass.Commands *= 4*
 
 <a id="TreeFilterObjectClass.Connections"></a>
 
 ### TreeFilterObjectClass.Connections *= 3*
 
-<a id="TreeFilterObjectClass.Commands"></a>
+<a id="TreeFilterObjectClass.Results"></a>
 
-### TreeFilterObjectClass.Commands *= 4*
+### TreeFilterObjectClass.Results *= 1*
 
 

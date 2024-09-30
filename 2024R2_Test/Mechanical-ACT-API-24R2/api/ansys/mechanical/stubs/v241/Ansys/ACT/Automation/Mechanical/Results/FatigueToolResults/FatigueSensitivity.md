@@ -1,6 +1,6 @@
 # `FatigueSensitivity`
 
-
+<a id="ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Results.FatigueToolResults.FatigueSensitivity"></a>
 
 #### *class* ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Results.FatigueToolResults.FatigueSensitivity
 
@@ -17,126 +17,52 @@ Defines a FatigueSensitivity.
 ### Methods
 
 | Name | Description |
-|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------|
-| [`RenameBasedOnDefinition`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/FatigueToolResults/FatigueSensitivity.md#FatigueSensitivity.RenameBasedOnDefinition)   | Run the RenameBasedOnDefinition action.                                           |
-| [`Delete`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/FatigueToolResults/FatigueSensitivity.md#FatigueSensitivity.Delete)                                     | Run the Delete action.                                                            |
-| [`GetChildren`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/FatigueToolResults/FatigueSensitivity.md#id1)                                                      | Gets the list of children, filtered by type.                                      |
-| [`GetChildren`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/FatigueToolResults/FatigueSensitivity.md#id1)                                                      | Gets the list of children, filtered by type.                                      |
-| [`AddComment`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/FatigueToolResults/FatigueSensitivity.md#FatigueSensitivity.AddComment)                             | Creates a new child Comment.                                                      |
-| [`AddImage`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/FatigueToolResults/FatigueSensitivity.md#FatigueSensitivity.AddImage)                                 | Creates a new child Image.                                                        |
-| [`Activate`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/FatigueToolResults/FatigueSensitivity.md#FatigueSensitivity.Activate)                                 | Activate the current object.                                                      |
-| [`CopyTo`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/FatigueToolResults/FatigueSensitivity.md#FatigueSensitivity.CopyTo)                                     | Copies all visible properties from this object to another.                        |
-| [`Duplicate`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/FatigueToolResults/FatigueSensitivity.md#FatigueSensitivity.Duplicate)                               | Creates a copy of the current DataModelObject.                                    |
-| [`GroupAllSimilarChildren`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/FatigueToolResults/FatigueSensitivity.md#FatigueSensitivity.GroupAllSimilarChildren)   | Run the GroupAllSimilarChildren action.                                           |
-| [`GroupSimilarObjects`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/FatigueToolResults/FatigueSensitivity.md#FatigueSensitivity.GroupSimilarObjects)           | Run the GroupSimilarObjects action.                                               |
-| [`PropertyByName`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/FatigueToolResults/FatigueSensitivity.md#FatigueSensitivity.PropertyByName)                     | Get a property by its unique name.                                                |
-| [`PropertyByAPIName`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/FatigueToolResults/FatigueSensitivity.md#FatigueSensitivity.PropertyByAPIName)               | Get a property by its API name.                                                   |
-| [`CreateParameter`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/FatigueToolResults/FatigueSensitivity.md#FatigueSensitivity.CreateParameter)                   | Creates a new parameter for a Property.                                           |
-| [`GetParameter`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/FatigueToolResults/FatigueSensitivity.md#FatigueSensitivity.GetParameter)                         | Gets the parameter corresponding to the given property.                           |
-| [`RemoveParameter`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/FatigueToolResults/FatigueSensitivity.md#FatigueSensitivity.RemoveParameter)                   | Removes the parameter from the parameter set corresponding to the given property. |
+|--------------------------------------------------------------------------|-----------------------------------------------------------------------------------|
+| [`Activate`](#FatigueSensitivity.Activate)                               | Activate the current object.                                                      |
+| [`AddComment`](#FatigueSensitivity.AddComment)                           | Creates a new child Comment.                                                      |
+| [`AddImage`](#FatigueSensitivity.AddImage)                               | Creates a new child Image.                                                        |
+| [`CopyTo`](#FatigueSensitivity.CopyTo)                                   | Copies all visible properties from this object to another.                        |
+| [`CreateParameter`](#FatigueSensitivity.CreateParameter)                 | Creates a new parameter for a Property.                                           |
+| [`Delete`](#FatigueSensitivity.Delete)                                   | Run the Delete action.                                                            |
+| [`Duplicate`](#FatigueSensitivity.Duplicate)                             | Creates a copy of the current DataModelObject.                                    |
+| [`GetChildren`](#FatigueSensitivity.GetChildren)                         | Gets the list of children, filtered by type.                                      |
+| [`GetParameter`](#FatigueSensitivity.GetParameter)                       | Gets the parameter corresponding to the given property.                           |
+| [`GroupAllSimilarChildren`](#FatigueSensitivity.GroupAllSimilarChildren) | Run the GroupAllSimilarChildren action.                                           |
+| [`GroupSimilarObjects`](#FatigueSensitivity.GroupSimilarObjects)         | Run the GroupSimilarObjects action.                                               |
+| [`PropertyByAPIName`](#FatigueSensitivity.PropertyByAPIName)             | Get a property by its API name.                                                   |
+| [`PropertyByName`](#FatigueSensitivity.PropertyByName)                   | Get a property by its unique name.                                                |
+| [`RemoveParameter`](#FatigueSensitivity.RemoveParameter)                 | Removes the parameter from the parameter set corresponding to the given property. |
+| [`RenameBasedOnDefinition`](#FatigueSensitivity.RenameBasedOnDefinition) | Run the RenameBasedOnDefinition action.                                           |
 
 ### Properties
 
 | Name | Description |
-|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------|
-| [`InternalObject`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/FatigueToolResults/FatigueSensitivity.md#id0)                                                 | Gets the internal object. For advanced usage only.            |
-| [`LowerVariation`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/FatigueToolResults/FatigueSensitivity.md#FatigueSensitivity.LowerVariation)                   | Gets or sets the LowerVariation.                              |
-| [`NumberOfFillPoints`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/FatigueToolResults/FatigueSensitivity.md#FatigueSensitivity.NumberOfFillPoints)           | Gets or sets the NumberOfFillPoints.                          |
-| [`DesignLife`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/FatigueToolResults/FatigueSensitivity.md#FatigueSensitivity.DesignLife)                           | Gets or sets the DesignLife.                                  |
-| [`UpperVariation`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/FatigueToolResults/FatigueSensitivity.md#FatigueSensitivity.UpperVariation)                   | Gets or sets the UpperVariation.                              |
-| [`ChartViewingStyle`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/FatigueToolResults/FatigueSensitivity.md#FatigueSensitivity.ChartViewingStyle)             | Gets or sets the ChartViewingStyle.                           |
-| [`Sensitivity`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/FatigueToolResults/FatigueSensitivity.md#FatigueSensitivity.Sensitivity)                         | Gets or sets the Sensitivity.                                 |
-| [`Suppressed`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/FatigueToolResults/FatigueSensitivity.md#FatigueSensitivity.Suppressed)                           | Gets or sets the Suppressed.                                  |
-| [`Location`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/FatigueToolResults/FatigueSensitivity.md#FatigueSensitivity.Location)                               | Gets or sets the Location.                                    |
-| [`DataModelObjectCategory`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/FatigueToolResults/FatigueSensitivity.md#FatigueSensitivity.DataModelObjectCategory) | Gets the current DataModelObject's category.                  |
-| [`Children`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/FatigueToolResults/FatigueSensitivity.md#FatigueSensitivity.Children)                               | Gets the list of children.                                    |
-| [`Comments`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/FatigueToolResults/FatigueSensitivity.md#FatigueSensitivity.Comments)                               | Gets the list of associated comments.                         |
-| [`Images`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/FatigueToolResults/FatigueSensitivity.md#FatigueSensitivity.Images)                                   | Gets the list of associated images.                           |
-| [`InternalObject`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/FatigueToolResults/FatigueSensitivity.md#id0)                                                 | Gets the internal object. For advanced usage only.            |
-| [`Properties`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/FatigueToolResults/FatigueSensitivity.md#FatigueSensitivity.Properties)                           | Gets the list of properties for this object.                  |
-| [`VisibleProperties`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/FatigueToolResults/FatigueSensitivity.md#FatigueSensitivity.VisibleProperties)             | Gets the list of properties that are visible for this object. |
+|--------------------------------------------------------------------------|---------------------------------------------------------------|
+| [`ChartViewingStyle`](#FatigueSensitivity.ChartViewingStyle)             | Gets or sets the ChartViewingStyle.                           |
+| [`Children`](#FatigueSensitivity.Children)                               | Gets the list of children.                                    |
+| [`Comments`](#FatigueSensitivity.Comments)                               | Gets the list of associated comments.                         |
+| [`DataModelObjectCategory`](#FatigueSensitivity.DataModelObjectCategory) | Gets the current DataModelObject’s category.                  |
+| [`DesignLife`](#FatigueSensitivity.DesignLife)                           | Gets or sets the DesignLife.                                  |
+| [`Images`](#FatigueSensitivity.Images)                                   | Gets the list of associated images.                           |
+| [`InternalObject`](#FatigueSensitivity.InternalObject)                   | Gets the internal object. For advanced usage only.            |
+| [`Location`](#FatigueSensitivity.Location)                               | Gets or sets the Location.                                    |
+| [`LowerVariation`](#FatigueSensitivity.LowerVariation)                   | Gets or sets the LowerVariation.                              |
+| [`NumberOfFillPoints`](#FatigueSensitivity.NumberOfFillPoints)           | Gets or sets the NumberOfFillPoints.                          |
+| [`Properties`](#FatigueSensitivity.Properties)                           | Gets the list of properties for this object.                  |
+| [`Sensitivity`](#FatigueSensitivity.Sensitivity)                         | Gets or sets the Sensitivity.                                 |
+| [`Suppressed`](#FatigueSensitivity.Suppressed)                           | Gets or sets the Suppressed.                                  |
+| [`UpperVariation`](#FatigueSensitivity.UpperVariation)                   | Gets or sets the UpperVariation.                              |
+| [`VisibleProperties`](#FatigueSensitivity.VisibleProperties)             | Gets the list of properties that are visible for this object. |
 
 <a id="property-detail"></a>
 
 ## Property detail
 
-<a id="FatigueSensitivity.InternalObject"></a>
-
-### *property* FatigueSensitivity.InternalObject *: Ansys.Common.Interop.DSObjectsAuto.IDSResultChartAuto | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets the internal object. For advanced usage only.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="FatigueSensitivity.LowerVariation"></a>
-
-### *property* FatigueSensitivity.LowerVariation *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the LowerVariation.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="FatigueSensitivity.NumberOfFillPoints"></a>
-
-### *property* FatigueSensitivity.NumberOfFillPoints *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the NumberOfFillPoints.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="FatigueSensitivity.DesignLife"></a>
-
-### *property* FatigueSensitivity.DesignLife *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the DesignLife.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="FatigueSensitivity.UpperVariation"></a>
-
-### *property* FatigueSensitivity.UpperVariation *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the UpperVariation.
-
-<!-- !! processed by numpydoc !! -->
-
 <a id="FatigueSensitivity.ChartViewingStyle"></a>
 
-### *property* FatigueSensitivity.ChartViewingStyle *: [Ansys.Mechanical.DataModel.Enums.ChartAxisScaleType](../../../../../Mechanical/DataModel/Enums/ChartAxisScaleType.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.ChartAxisScaleType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* FatigueSensitivity.ChartViewingStyle *: [Ansys.Mechanical.DataModel.Enums.ChartAxisScaleType](../../../../../../../v242/Ansys/Mechanical/DataModel/Enums/ChartAxisScaleType.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.ChartAxisScaleType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the ChartViewingStyle.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="FatigueSensitivity.Sensitivity"></a>
-
-### *property* FatigueSensitivity.Sensitivity *: [Ansys.Mechanical.DataModel.Enums.FatigueSensitivityType](../../../../../Mechanical/DataModel/Enums/FatigueSensitivityType.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.FatigueSensitivityType) | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the Sensitivity.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="FatigueSensitivity.Suppressed"></a>
-
-### *property* FatigueSensitivity.Suppressed *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the Suppressed.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="FatigueSensitivity.Location"></a>
-
-### *property* FatigueSensitivity.Location *: Ansys.ACT.Interfaces.Common.ISelectionInfo | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the Location.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="FatigueSensitivity.DataModelObjectCategory"></a>
-
-### *property* FatigueSensitivity.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets the current DataModelObject's category.
 
 <!-- !! processed by numpydoc !! -->
 
@@ -156,6 +82,22 @@ Gets the list of associated comments.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="FatigueSensitivity.DataModelObjectCategory"></a>
+
+### *property* FatigueSensitivity.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../../../v242/Ansys/Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets the current DataModelObject’s category.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="FatigueSensitivity.DesignLife"></a>
+
+### *property* FatigueSensitivity.DesignLife *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the DesignLife.
+
+<!-- !! processed by numpydoc !! -->
+
 <a id="FatigueSensitivity.Images"></a>
 
 ### *property* FatigueSensitivity.Images *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Image](../../Image.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
@@ -164,11 +106,35 @@ Gets the list of associated images.
 
 <!-- !! processed by numpydoc !! -->
 
-<a id="id0"></a>
+<a id="FatigueSensitivity.InternalObject"></a>
 
-### *property* FatigueSensitivity.InternalObject *: System.Object | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* FatigueSensitivity.InternalObject *: Ansys.Common.Interop.DSObjectsAuto.IDSResultChartAuto | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the internal object. For advanced usage only.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="FatigueSensitivity.Location"></a>
+
+### *property* FatigueSensitivity.Location *: Ansys.ACT.Interfaces.Common.ISelectionInfo | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the Location.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="FatigueSensitivity.LowerVariation"></a>
+
+### *property* FatigueSensitivity.LowerVariation *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the LowerVariation.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="FatigueSensitivity.NumberOfFillPoints"></a>
+
+### *property* FatigueSensitivity.NumberOfFillPoints *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the NumberOfFillPoints.
 
 <!-- !! processed by numpydoc !! -->
 
@@ -177,6 +143,30 @@ Gets the internal object. For advanced usage only.
 ### *property* FatigueSensitivity.Properties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of properties for this object.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="FatigueSensitivity.Sensitivity"></a>
+
+### *property* FatigueSensitivity.Sensitivity *: [Ansys.Mechanical.DataModel.Enums.FatigueSensitivityType](../../../../../../../v242/Ansys/Mechanical/DataModel/Enums/FatigueSensitivityType.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.FatigueSensitivityType) | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the Sensitivity.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="FatigueSensitivity.Suppressed"></a>
+
+### *property* FatigueSensitivity.Suppressed *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the Suppressed.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="FatigueSensitivity.UpperVariation"></a>
+
+### *property* FatigueSensitivity.UpperVariation *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the UpperVariation.
 
 <!-- !! processed by numpydoc !! -->
 
@@ -192,35 +182,11 @@ Gets the list of properties that are visible for this object.
 
 ## Method detail
 
-<a id="FatigueSensitivity.RenameBasedOnDefinition"></a>
+<a id="FatigueSensitivity.Activate"></a>
 
-### FatigueSensitivity.RenameBasedOnDefinition()
+### FatigueSensitivity.Activate()
 
-Run the RenameBasedOnDefinition action.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="FatigueSensitivity.Delete"></a>
-
-### FatigueSensitivity.Delete()
-
-Run the Delete action.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="FatigueSensitivity.GetChildren"></a>
-
-### FatigueSensitivity.GetChildren(recurses: System.Boolean, children: System.Collections.Generic.IList[ChildrenType])
-
-Gets the list of children, filtered by type.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="id1"></a>
-
-### FatigueSensitivity.GetChildren(category: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory), recurses: System.Boolean, children: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject])
-
-Gets the list of children, filtered by type.
+Activate the current object.
 
 <!-- !! processed by numpydoc !! -->
 
@@ -236,17 +202,11 @@ Creates a new child Comment.
 
 ### FatigueSensitivity.AddImage(filePath: System.String)
 
+```text
 Creates a new child Image.
 If a filePath is provided, the image will be loaded from that file,
 if not, the image will be a screen capture of the Geometry window.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="FatigueSensitivity.Activate"></a>
-
-### FatigueSensitivity.Activate()
-
-Activate the current object.
+```
 
 <!-- !! processed by numpydoc !! -->
 
@@ -258,11 +218,43 @@ Copies all visible properties from this object to another.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="FatigueSensitivity.CreateParameter"></a>
+
+### FatigueSensitivity.CreateParameter(propName: System.String)
+
+Creates a new parameter for a Property.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="FatigueSensitivity.Delete"></a>
+
+### FatigueSensitivity.Delete()
+
+Run the Delete action.
+
+<!-- !! processed by numpydoc !! -->
+
 <a id="FatigueSensitivity.Duplicate"></a>
 
 ### FatigueSensitivity.Duplicate()
 
 Creates a copy of the current DataModelObject.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="FatigueSensitivity.GetChildren"></a>
+
+### FatigueSensitivity.GetChildren(recurses: System.Boolean, children: System.Collections.Generic.IList[ChildrenType])
+
+Gets the list of children, filtered by type.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="FatigueSensitivity.GetParameter"></a>
+
+### FatigueSensitivity.GetParameter(propName: System.String)
+
+Gets the parameter corresponding to the given property.
 
 <!-- !! processed by numpydoc !! -->
 
@@ -282,6 +274,17 @@ Run the GroupSimilarObjects action.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="FatigueSensitivity.PropertyByAPIName"></a>
+
+### FatigueSensitivity.PropertyByAPIName(name: System.String)
+
+```text
+Get a property by its API name.
+If multiple properties have the same API Name, only the first property with that name will be returned.
+```
+
+<!-- !! processed by numpydoc !! -->
+
 <a id="FatigueSensitivity.PropertyByName"></a>
 
 ### FatigueSensitivity.PropertyByName(name: System.String)
@@ -290,36 +293,19 @@ Get a property by its unique name.
 
 <!-- !! processed by numpydoc !! -->
 
-<a id="FatigueSensitivity.PropertyByAPIName"></a>
-
-### FatigueSensitivity.PropertyByAPIName(name: System.String)
-
-Get a property by its API name.
-If multiple properties have the same API Name, only the first property with that name will be returned.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="FatigueSensitivity.CreateParameter"></a>
-
-### FatigueSensitivity.CreateParameter(propName: System.String)
-
-Creates a new parameter for a Property.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="FatigueSensitivity.GetParameter"></a>
-
-### FatigueSensitivity.GetParameter(propName: System.String)
-
-Gets the parameter corresponding to the given property.
-
-<!-- !! processed by numpydoc !! -->
-
 <a id="FatigueSensitivity.RemoveParameter"></a>
 
 ### FatigueSensitivity.RemoveParameter(propName: System.String)
 
 Removes the parameter from the parameter set corresponding to the given property.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="FatigueSensitivity.RenameBasedOnDefinition"></a>
+
+### FatigueSensitivity.RenameBasedOnDefinition()
+
+Run the RenameBasedOnDefinition action.
 
 <!-- !! processed by numpydoc !! -->
 

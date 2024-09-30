@@ -1,6 +1,6 @@
 # `ObjectTag`
 
-
+<a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.Application.ObjectTag"></a>
 
 #### *class* ansys.mechanical.stubs.v241.Ansys.Mechanical.Application.ObjectTag
 
@@ -17,17 +17,17 @@ An instance of an ObjectTag.
 ### Methods
 
 | Name | Description |
-|-----------------------------------------------------------------------------------------------------|----------------------------------|
-| [`AddObject`](../../../../v242/Ansys/Mechanical/Application/ObjectTag.md#ObjectTag.AddObject)       | Add an object to this tag.       |
-| [`RemoveObject`](../../../../v242/Ansys/Mechanical/Application/ObjectTag.md#ObjectTag.RemoveObject) | Remove an object from this tag.  |
-| [`ClearObjects`](../../../../v242/Ansys/Mechanical/Application/ObjectTag.md#ObjectTag.ClearObjects) | Clear all objects from this tag. |
+|-------------------------------------------|----------------------------------|
+| [`AddObject`](#ObjectTag.AddObject)       | Add an object to this tag.       |
+| [`ClearObjects`](#ObjectTag.ClearObjects) | Clear all objects from this tag. |
+| [`RemoveObject`](#ObjectTag.RemoveObject) | Remove an object from this tag.  |
 
 ### Properties
 
 | Name | Description |
-|-------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [`Name`](../../../../v242/Ansys/Mechanical/Application/ObjectTag.md#ObjectTag.Name)       | The name of the tag. If the tag exists in ObjectTags, attempting to set the name to a value of another tag in that collection will lead to an exception.   |
-| [`Objects`](../../../../v242/Ansys/Mechanical/Application/ObjectTag.md#ObjectTag.Objects) | The list of objects which use this tag.                                                                                                                    |
+|---------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| [`Name`](#ObjectTag.Name)       | The name of the tag. If the tag exists in ObjectTags, attempting to set the name to a value of another tag in that collection will lead to an exception.   |
+| [`Objects`](#ObjectTag.Objects) | The list of objects which use this tag.                                                                                                                    |
 
 <a id="property-detail"></a>
 
@@ -61,19 +61,19 @@ Add an object to this tag.
 
 <!-- !! processed by numpydoc !! -->
 
-<a id="ObjectTag.RemoveObject"></a>
-
-### ObjectTag.RemoveObject(obj: Ansys.Mechanical.DataModel.Interfaces.IDataModelObject)
-
-Remove an object from this tag.
-
-<!-- !! processed by numpydoc !! -->
-
 <a id="ObjectTag.ClearObjects"></a>
 
 ### ObjectTag.ClearObjects()
 
 Clear all objects from this tag.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ObjectTag.RemoveObject"></a>
+
+### ObjectTag.RemoveObject(obj: Ansys.Mechanical.DataModel.Interfaces.IDataModelObject)
+
+Remove an object from this tag.
 
 <!-- !! processed by numpydoc !! -->
 

@@ -1,6 +1,6 @@
 # `MeshSolverPreferenceType`
 
-
+<a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.MeshSolverPreferenceType"></a>
 
 #### *class* ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.MeshSolverPreferenceType
 
@@ -17,32 +17,32 @@ Specifies the Mesh Solver Preference Type.
 ### Attributes
 
 | Name |
-| ------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| [`Fluent`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/MeshSolverPreferenceType.md#MeshSolverPreferenceType.Fluent) |
-| [`CFX`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/MeshSolverPreferenceType.md#MeshSolverPreferenceType.CFX) |
-| [`MechanicalAPDL`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/MeshSolverPreferenceType.md#MeshSolverPreferenceType.MechanicalAPDL) |
-| [`ANSYSRigidDynamics`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/MeshSolverPreferenceType.md#MeshSolverPreferenceType.ANSYSRigidDynamics) |
-| [`Polyflow`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/MeshSolverPreferenceType.md#MeshSolverPreferenceType.Polyflow) |
+| ------------------------------------------------------------------------ |
+| [`ANSYSRigidDynamics`](#MeshSolverPreferenceType.ANSYSRigidDynamics) |
+| [`CFX`](#MeshSolverPreferenceType.CFX) |
+| [`Fluent`](#MeshSolverPreferenceType.Fluent) |
+| [`MechanicalAPDL`](#MeshSolverPreferenceType.MechanicalAPDL) |
+| [`Polyflow`](#MeshSolverPreferenceType.Polyflow) |
 
 <a id="attribute-detail"></a>
 
 ## Attribute detail
 
-<a id="MeshSolverPreferenceType.Fluent"></a>
+<a id="MeshSolverPreferenceType.ANSYSRigidDynamics"></a>
 
-### MeshSolverPreferenceType.Fluent *= 0*
+### MeshSolverPreferenceType.ANSYSRigidDynamics *= 3*
 
 <a id="MeshSolverPreferenceType.CFX"></a>
 
 ### MeshSolverPreferenceType.CFX *= 1*
 
+<a id="MeshSolverPreferenceType.Fluent"></a>
+
+### MeshSolverPreferenceType.Fluent *= 0*
+
 <a id="MeshSolverPreferenceType.MechanicalAPDL"></a>
 
 ### MeshSolverPreferenceType.MechanicalAPDL *= 2*
-
-<a id="MeshSolverPreferenceType.ANSYSRigidDynamics"></a>
-
-### MeshSolverPreferenceType.ANSYSRigidDynamics *= 3*
 
 <a id="MeshSolverPreferenceType.Polyflow"></a>
 

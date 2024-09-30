@@ -1,6 +1,6 @@
 # `FieldAdapter`
 
-
+<a id="ansys.mechanical.stubs.v242.Ansys.ACT.Mechanical.Fields.Adapters.FieldAdapter"></a>
 
 #### *class* ansys.mechanical.stubs.v242.Ansys.ACT.Mechanical.Fields.Adapters.FieldAdapter
 
@@ -17,13 +17,13 @@ Base class for objects that handle the interface between the generic boundary co
 ### Methods
 
 | Name | Description |
-|--------------------------------------------------------------------------|----------------------------------------------------------------------------------|
+|-----------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------|
 | [`ChangeFieldDefinitionType`](#FieldAdapter.ChangeFieldDefinitionType)   | Changes the definition type for a field of the wrapped object from Mechanical.   |
 
 ### Properties
 
 | Name | Description |
-|--------------------------------------------------|--------------------------------------------|
+|-----------------------------------------------------------------------------------------------------------------------------|--------------------------------------------|
 | [`FieldProvider`](#FieldAdapter.FieldProvider)   | Gets the wrapped object from Mechanical.   |
 
 <a id="property-detail"></a>

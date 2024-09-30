@@ -1,6 +1,6 @@
 # `AMThermalStrainMaterialModel`
 
-
+<a id="ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.AMThermalStrainMaterialModel"></a>
 
 #### *class* ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.AMThermalStrainMaterialModel
 
@@ -17,7 +17,7 @@ Specifies the AMThermalStrainMaterialModel.
 ### Attributes
 
 | Name |
-| ---------------------------------------------------------- |
+| ---------------------------------------------------------------------------------------------------------------------------------------------- |
 | [`Al357`](#AMThermalStrainMaterialModel.Al357) |
 | [`AlSi10Mg`](#AMThermalStrainMaterialModel.AlSi10Mg) |
 | [`CoCr`](#AMThermalStrainMaterialModel.CoCr) |

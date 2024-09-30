@@ -1,6 +1,6 @@
 # `OptionsProperty`
 
-
+<a id="ansys.mechanical.stubs.v242.Ansys.ACT.Mechanical.AdditionalProperties.OptionsProperty"></a>
 
 #### *class* ansys.mechanical.stubs.v242.Ansys.ACT.Mechanical.AdditionalProperties.OptionsProperty
 
@@ -17,37 +17,19 @@ Provides a way to create properties that show up as a drop down in the UI.
 ### Properties
 
 | Name | Description |
-|-----------------------------------------------|------------------------------------------------------------------------------------------------------|
-| [`Options`](#OptionsProperty.Options)         | Options shown in the drop-down, represented by a dictionary of int -> string.                        |
-| [`Name`](#OptionsProperty.Name)               | The name of the property.                                                                            |
-| [`DisplayName`](#OptionsProperty.DisplayName) | The name of the property shown in the UI. If not set, the Name property is used.                     |
-| [`GroupName`](#OptionsProperty.GroupName)     | The group name of the property shown in the UI, and used to separate properties based on group name. |
-| [`Tooltip`](#OptionsProperty.Tooltip)         | The tooltip of the property in the UI.                                                               |
-| [`Value`](#OptionsProperty.Value)             | The stored value of the property.                                                                    |
-| [`ValueString`](#OptionsProperty.ValueString) | Get the string representation of the value.                                                          |
-| [`ReadOnly`](#OptionsProperty.ReadOnly)       | Returns whether a property is readonly.                                                              |
+|---------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------|
+| [`DisplayName`](#OptionsProperty.DisplayName)   | The name of the property shown in the UI. If not set, the Name property is used.                     |
+| [`GroupName`](#OptionsProperty.GroupName)       | The group name of the property shown in the UI, and used to separate properties based on group name. |
+| [`Name`](#OptionsProperty.Name)                 | The name of the property.                                                                            |
+| [`Options`](#OptionsProperty.Options)           | Options shown in the drop-down, represented by a dictionary of int -> string.                        |
+| [`ReadOnly`](#OptionsProperty.ReadOnly)         | Returns whether a property is readonly.                                                              |
+| [`Tooltip`](#OptionsProperty.Tooltip)           | The tooltip of the property in the UI.                                                               |
+| [`Value`](#OptionsProperty.Value)               | The stored value of the property.                                                                    |
+| [`ValueString`](#OptionsProperty.ValueString)   | Get the string representation of the value.                                                          |
 
 <a id="property-detail"></a>
 
 ## Property detail
-
-<a id="OptionsProperty.Options"></a>
-
-### *property* OptionsProperty.Options *: System.Collections.Generic.IDictionary[System.Object, System.Object] | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Options shown in the drop-down, represented by a dictionary of int -> string.
-Where the int represents the option, and string represents string shown in the UI.
-When an option is selected the Value property of the property is set to to the option int.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="OptionsProperty.Name"></a>
-
-### *property* OptionsProperty.Name *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
-
-The name of the property.
-
-<!-- !! processed by numpydoc !! -->
 
 <a id="OptionsProperty.DisplayName"></a>
 
@@ -62,6 +44,32 @@ The name of the property shown in the UI. If not set, the Name property is used.
 ### *property* OptionsProperty.GroupName *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
 
 The group name of the property shown in the UI, and used to separate properties based on group name.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="OptionsProperty.Name"></a>
+
+### *property* OptionsProperty.Name *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+
+The name of the property.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="OptionsProperty.Options"></a>
+
+### *property* OptionsProperty.Options *: System.Collections.Generic.IDictionary[System.Object, System.Object] | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Options shown in the drop-down, represented by a dictionary of int -> string.
+Where the int represents the option, and string represents string shown in the UI.
+When an option is selected the Value property of the property is set to to the option int.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="OptionsProperty.ReadOnly"></a>
+
+### *property* OptionsProperty.ReadOnly *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Returns whether a property is readonly.
 
 <!-- !! processed by numpydoc !! -->
 
@@ -86,14 +94,6 @@ The stored value of the property.
 ### *property* OptionsProperty.ValueString *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Get the string representation of the value.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="OptionsProperty.ReadOnly"></a>
-
-### *property* OptionsProperty.ReadOnly *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Returns whether a property is readonly.
 
 <!-- !! processed by numpydoc !! -->
 

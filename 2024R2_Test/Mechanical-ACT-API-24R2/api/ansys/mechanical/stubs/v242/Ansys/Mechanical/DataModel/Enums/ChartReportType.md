@@ -1,6 +1,6 @@
 # `ChartReportType`
 
-
+<a id="ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.ChartReportType"></a>
 
 #### *class* ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.ChartReportType
 
@@ -17,7 +17,7 @@ Specifies the ChartReportType.
 ### Attributes
 
 | Name |
-| ----------------------------------------------------------------- |
+| ---------------------------------------------------------------------------------------------------------------------------------------- |
 | [`ChartAndTabularData`](#ChartReportType.ChartAndTabularData) |
 | [`ChartOnly`](#ChartReportType.ChartOnly) |
 | [`None_`](#ChartReportType.None_) |

@@ -1,6 +1,6 @@
 # `StackerMethodMeshType`
 
-
+<a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.StackerMethodMeshType"></a>
 
 #### *class* ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.StackerMethodMeshType
 
@@ -19,20 +19,20 @@ Derive from this class to define new enumerations.
 ### Attributes
 
 | Name |
-| ---------------------------------------------------------------------------------------------------------------------------- |
-| [`QuadTri`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/StackerMethodMeshType.md#StackerMethodMeshType.QuadTri) |
-| [`AllTri`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/StackerMethodMeshType.md#StackerMethodMeshType.AllTri) |
+| --------------------------------------------- |
+| [`AllTri`](#StackerMethodMeshType.AllTri) |
+| [`QuadTri`](#StackerMethodMeshType.QuadTri) |
 
 <a id="attribute-detail"></a>
 
 ## Attribute detail
 
-<a id="StackerMethodMeshType.QuadTri"></a>
-
-### StackerMethodMeshType.QuadTri *= 1*
-
 <a id="StackerMethodMeshType.AllTri"></a>
 
 ### StackerMethodMeshType.AllTri *= 0*
+
+<a id="StackerMethodMeshType.QuadTri"></a>
+
+### StackerMethodMeshType.QuadTri *= 1*
 
 

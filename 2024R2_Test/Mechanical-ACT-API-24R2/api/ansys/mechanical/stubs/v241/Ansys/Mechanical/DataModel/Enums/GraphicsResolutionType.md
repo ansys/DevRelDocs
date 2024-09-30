@@ -1,6 +1,6 @@
 # `GraphicsResolutionType`
 
-
+<a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.GraphicsResolutionType"></a>
 
 #### *class* ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.GraphicsResolutionType
 
@@ -17,18 +17,14 @@ Specifies the Graphics Image Resolution Type.
 ### Attributes
 
 | Name |
-| -------------------------------------------------------------------------------------------------------------------------------------------------- |
-| [`NormalResolution`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/GraphicsResolutionType.md#GraphicsResolutionType.NormalResolution) |
-| [`EnhancedResolution`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/GraphicsResolutionType.md#GraphicsResolutionType.EnhancedResolution) |
-| [`HighResolution`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/GraphicsResolutionType.md#GraphicsResolutionType.HighResolution) |
+| ---------------------------------------------------------------------- |
+| [`EnhancedResolution`](#GraphicsResolutionType.EnhancedResolution) |
+| [`HighResolution`](#GraphicsResolutionType.HighResolution) |
+| [`NormalResolution`](#GraphicsResolutionType.NormalResolution) |
 
 <a id="attribute-detail"></a>
 
 ## Attribute detail
-
-<a id="GraphicsResolutionType.NormalResolution"></a>
-
-### GraphicsResolutionType.NormalResolution *= 0*
 
 <a id="GraphicsResolutionType.EnhancedResolution"></a>
 
@@ -37,5 +33,9 @@ Specifies the Graphics Image Resolution Type.
 <a id="GraphicsResolutionType.HighResolution"></a>
 
 ### GraphicsResolutionType.HighResolution *= 2*
+
+<a id="GraphicsResolutionType.NormalResolution"></a>
+
+### GraphicsResolutionType.NormalResolution *= 0*
 
 

@@ -1,6 +1,6 @@
 # `PathType`
 
-
+<a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.MechanicalEnums.Common.PathType"></a>
 
 #### *class* ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.MechanicalEnums.Common.PathType
 
@@ -17,9 +17,9 @@ This enum specifies how a path should be interpreted.
 ### Attributes
 
 | Name |
-| ---------------------------------------------------------------------------------------------------------------------------------------- |
-| [`Absolute`](../../../../../../v242/Ansys/Mechanical/DataModel/MechanicalEnums/Common/PathType.md#PathType.Absolute) |
-| [`RelativeToProject`](../../../../../../v242/Ansys/Mechanical/DataModel/MechanicalEnums/Common/PathType.md#PathType.RelativeToProject) |
+| ---------------------------------------------------- |
+| [`Absolute`](#PathType.Absolute) |
+| [`RelativeToProject`](#PathType.RelativeToProject) |
 
 <a id="attribute-detail"></a>
 

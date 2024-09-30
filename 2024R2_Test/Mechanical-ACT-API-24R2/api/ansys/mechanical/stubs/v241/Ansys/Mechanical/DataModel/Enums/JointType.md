@@ -1,6 +1,6 @@
 # `JointType`
 
-
+<a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.JointType"></a>
 
 #### *class* ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.JointType
 
@@ -17,32 +17,28 @@ Specifies the JointType.
 ### Attributes
 
 | Name |
-| -------------------------------------------------------------------------------------------------------------------- |
-| [`RadialGap3D`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/JointType.md#JointType.RadialGap3D) |
-| [`Bushing`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/JointType.md#JointType.Bushing) |
-| [`ConstantVelocity`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/JointType.md#JointType.ConstantVelocity) |
-| [`Cylindrical`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/JointType.md#JointType.Cylindrical) |
-| [`Distance`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/JointType.md#JointType.Distance) |
-| [`Fixed`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/JointType.md#JointType.Fixed) |
-| [`General`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/JointType.md#JointType.General) |
-| [`Planar`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/JointType.md#JointType.Planar) |
-| [`PlaneRadialGap`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/JointType.md#JointType.PlaneRadialGap) |
-| [`PointOnCurve`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/JointType.md#JointType.PointOnCurve) |
-| [`Revolute`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/JointType.md#JointType.Revolute) |
-| [`Screw`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/JointType.md#JointType.Screw) |
-| [`Slot`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/JointType.md#JointType.Slot) |
-| [`Spherical`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/JointType.md#JointType.Spherical) |
-| [`SphericalGap`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/JointType.md#JointType.SphericalGap) |
-| [`Translational`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/JointType.md#JointType.Translational) |
-| [`Universal`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/JointType.md#JointType.Universal) |
+| --------------------------------------------------- |
+| [`Bushing`](#JointType.Bushing) |
+| [`ConstantVelocity`](#JointType.ConstantVelocity) |
+| [`Cylindrical`](#JointType.Cylindrical) |
+| [`Distance`](#JointType.Distance) |
+| [`Fixed`](#JointType.Fixed) |
+| [`General`](#JointType.General) |
+| [`Planar`](#JointType.Planar) |
+| [`PlaneRadialGap`](#JointType.PlaneRadialGap) |
+| [`PointOnCurve`](#JointType.PointOnCurve) |
+| [`RadialGap3D`](#JointType.RadialGap3D) |
+| [`Revolute`](#JointType.Revolute) |
+| [`Screw`](#JointType.Screw) |
+| [`Slot`](#JointType.Slot) |
+| [`Spherical`](#JointType.Spherical) |
+| [`SphericalGap`](#JointType.SphericalGap) |
+| [`Translational`](#JointType.Translational) |
+| [`Universal`](#JointType.Universal) |
 
 <a id="attribute-detail"></a>
 
 ## Attribute detail
-
-<a id="JointType.RadialGap3D"></a>
-
-### JointType.RadialGap3D *= 13*
 
 <a id="JointType.Bushing"></a>
 
@@ -79,6 +75,10 @@ Specifies the JointType.
 <a id="JointType.PointOnCurve"></a>
 
 ### JointType.PointOnCurve *= 10*
+
+<a id="JointType.RadialGap3D"></a>
+
+### JointType.RadialGap3D *= 13*
 
 <a id="JointType.Revolute"></a>
 

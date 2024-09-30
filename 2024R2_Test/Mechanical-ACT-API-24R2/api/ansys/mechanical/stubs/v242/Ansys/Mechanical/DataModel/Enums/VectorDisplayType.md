@@ -1,6 +1,6 @@
 # `VectorDisplayType`
 
-
+<a id="ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.VectorDisplayType"></a>
 
 #### *class* ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.VectorDisplayType
 
@@ -17,7 +17,7 @@ Specifies the VectorDisplayType.
 ### Attributes
 
 | Name |
-| --------------------------------------- |
+| ---------------------------------------------------------------------------------------------------------------- |
 | [`Line`](#VectorDisplayType.Line) |
 | [`Solid`](#VectorDisplayType.Solid) |
 | [`Sphere`](#VectorDisplayType.Sphere) |

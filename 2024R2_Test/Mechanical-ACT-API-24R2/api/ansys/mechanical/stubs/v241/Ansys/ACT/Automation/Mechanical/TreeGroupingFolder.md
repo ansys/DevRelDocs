@@ -1,6 +1,6 @@
 # `TreeGroupingFolder`
 
-
+<a id="ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.TreeGroupingFolder"></a>
 
 #### *class* ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.TreeGroupingFolder
 
@@ -17,53 +17,43 @@ Defines a TreeGroupingFolder.
 ### Methods
 
 | Name | Description |
-|-----------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------|
-| [`DeleteTreeGroupAndChildren`](../../../../../v242/Ansys/ACT/Automation/Mechanical/TreeGroupingFolder.md#TreeGroupingFolder.DeleteTreeGroupAndChildren)   | Run the DeleteTreeGroupAndChildren action.                                        |
-| [`Ungroup`](#TreeGroupingFolder.Ungroup)                                                                                                                  | Run the Ungroup action.                                                           |
-| [`GetChildren`](../../../../../v242/Ansys/ACT/Automation/Mechanical/TreeGroupingFolder.md#id1)                                                            | Gets the list of children, filtered by type.                                      |
-| [`GetChildren`](../../../../../v242/Ansys/ACT/Automation/Mechanical/TreeGroupingFolder.md#id1)                                                            | Gets the list of children, filtered by type.                                      |
-| [`Activate`](../../../../../v242/Ansys/ACT/Automation/Mechanical/TreeGroupingFolder.md#TreeGroupingFolder.Activate)                                       | Activate the current object.                                                      |
-| [`CopyTo`](../../../../../v242/Ansys/ACT/Automation/Mechanical/TreeGroupingFolder.md#TreeGroupingFolder.CopyTo)                                           | Copies all visible properties from this object to another.                        |
-| [`Duplicate`](../../../../../v242/Ansys/ACT/Automation/Mechanical/TreeGroupingFolder.md#TreeGroupingFolder.Duplicate)                                     | Creates a copy of the current DataModelObject.                                    |
-| [`GroupAllSimilarChildren`](../../../../../v242/Ansys/ACT/Automation/Mechanical/TreeGroupingFolder.md#TreeGroupingFolder.GroupAllSimilarChildren)         | Run the GroupAllSimilarChildren action.                                           |
-| [`GroupSimilarObjects`](../../../../../v242/Ansys/ACT/Automation/Mechanical/TreeGroupingFolder.md#TreeGroupingFolder.GroupSimilarObjects)                 | Run the GroupSimilarObjects action.                                               |
-| [`PropertyByName`](../../../../../v242/Ansys/ACT/Automation/Mechanical/TreeGroupingFolder.md#TreeGroupingFolder.PropertyByName)                           | Get a property by its unique name.                                                |
-| [`PropertyByAPIName`](../../../../../v242/Ansys/ACT/Automation/Mechanical/TreeGroupingFolder.md#TreeGroupingFolder.PropertyByAPIName)                     | Get a property by its API name.                                                   |
-| [`CreateParameter`](../../../../../v242/Ansys/ACT/Automation/Mechanical/TreeGroupingFolder.md#TreeGroupingFolder.CreateParameter)                         | Creates a new parameter for a Property.                                           |
-| [`GetParameter`](../../../../../v242/Ansys/ACT/Automation/Mechanical/TreeGroupingFolder.md#TreeGroupingFolder.GetParameter)                               | Gets the parameter corresponding to the given property.                           |
-| [`RemoveParameter`](../../../../../v242/Ansys/ACT/Automation/Mechanical/TreeGroupingFolder.md#TreeGroupingFolder.RemoveParameter)                         | Removes the parameter from the parameter set corresponding to the given property. |
+|--------------------------------------------------------------------------------|-----------------------------------------------------------------------------------|
+| [`Activate`](#TreeGroupingFolder.Activate)                                     | Activate the current object.                                                      |
+| [`CopyTo`](#TreeGroupingFolder.CopyTo)                                         | Copies all visible properties from this object to another.                        |
+| [`CreateParameter`](#TreeGroupingFolder.CreateParameter)                       | Creates a new parameter for a Property.                                           |
+| [`DeleteTreeGroupAndChildren`](#TreeGroupingFolder.DeleteTreeGroupAndChildren) | Run the DeleteTreeGroupAndChildren action.                                        |
+| [`Duplicate`](#TreeGroupingFolder.Duplicate)                                   | Creates a copy of the current DataModelObject.                                    |
+| [`GetChildren`](#TreeGroupingFolder.GetChildren)                               | Gets the list of children, filtered by type.                                      |
+| [`GetParameter`](#TreeGroupingFolder.GetParameter)                             | Gets the parameter corresponding to the given property.                           |
+| [`GroupAllSimilarChildren`](#TreeGroupingFolder.GroupAllSimilarChildren)       | Run the GroupAllSimilarChildren action.                                           |
+| [`GroupSimilarObjects`](#TreeGroupingFolder.GroupSimilarObjects)               | Run the GroupSimilarObjects action.                                               |
+| [`PropertyByAPIName`](#TreeGroupingFolder.PropertyByAPIName)                   | Get a property by its API name.                                                   |
+| [`PropertyByName`](#TreeGroupingFolder.PropertyByName)                         | Get a property by its unique name.                                                |
+| [`RemoveParameter`](#TreeGroupingFolder.RemoveParameter)                       | Removes the parameter from the parameter set corresponding to the given property. |
+| [`Ungroup`](#TreeGroupingFolder.Ungroup)                                       | Run the Ungroup action.                                                           |
 
 ### Properties
 
 | Name | Description |
-|---------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------|
-| [`Suppressed`](../../../../../v242/Ansys/ACT/Automation/Mechanical/TreeGroupingFolder.md#TreeGroupingFolder.Suppressed)                           | Gets or sets the Suppressed.                                  |
-| [`InternalObject`](../../../../../v242/Ansys/ACT/Automation/Mechanical/TreeGroupingFolder.md#id0)                                                 | Gets the internal object. For advanced usage only.            |
-| [`ChildrenInGroup`](../../../../../v242/Ansys/ACT/Automation/Mechanical/TreeGroupingFolder.md#TreeGroupingFolder.ChildrenInGroup)                 | Gets the ChildrenInGroup.                                     |
-| [`DataModelObjectCategory`](../../../../../v242/Ansys/ACT/Automation/Mechanical/TreeGroupingFolder.md#TreeGroupingFolder.DataModelObjectCategory) | Gets the current DataModelObject's category.                  |
-| [`Children`](../../../../../v242/Ansys/ACT/Automation/Mechanical/TreeGroupingFolder.md#TreeGroupingFolder.Children)                               | Gets the list of children.                                    |
-| [`ReadOnly`](../../../../../v242/Ansys/ACT/Automation/Mechanical/TreeGroupingFolder.md#TreeGroupingFolder.ReadOnly)                               | Gets or sets the ReadOnly.                                    |
-| [`InternalObject`](../../../../../v242/Ansys/ACT/Automation/Mechanical/TreeGroupingFolder.md#id0)                                                 | Gets the internal object. For advanced usage only.            |
-| [`Properties`](../../../../../v242/Ansys/ACT/Automation/Mechanical/TreeGroupingFolder.md#TreeGroupingFolder.Properties)                           | Gets the list of properties for this object.                  |
-| [`VisibleProperties`](../../../../../v242/Ansys/ACT/Automation/Mechanical/TreeGroupingFolder.md#TreeGroupingFolder.VisibleProperties)             | Gets the list of properties that are visible for this object. |
+|--------------------------------------------------------------------------|---------------------------------------------------------------|
+| [`Children`](#TreeGroupingFolder.Children)                               | Gets the list of children.                                    |
+| [`ChildrenInGroup`](#TreeGroupingFolder.ChildrenInGroup)                 | Gets the ChildrenInGroup.                                     |
+| [`DataModelObjectCategory`](#TreeGroupingFolder.DataModelObjectCategory) | Gets the current DataModelObject’s category.                  |
+| [`InternalObject`](#TreeGroupingFolder.InternalObject)                   | Gets the internal object. For advanced usage only.            |
+| [`Properties`](#TreeGroupingFolder.Properties)                           | Gets the list of properties for this object.                  |
+| [`ReadOnly`](#TreeGroupingFolder.ReadOnly)                               | Gets or sets the ReadOnly.                                    |
+| [`Suppressed`](#TreeGroupingFolder.Suppressed)                           | Gets or sets the Suppressed.                                  |
+| [`VisibleProperties`](#TreeGroupingFolder.VisibleProperties)             | Gets the list of properties that are visible for this object. |
 
 <a id="property-detail"></a>
 
 ## Property detail
 
-<a id="TreeGroupingFolder.Suppressed"></a>
+<a id="TreeGroupingFolder.Children"></a>
 
-### *property* TreeGroupingFolder.Suppressed *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* TreeGroupingFolder.Children *: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets or sets the Suppressed.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="TreeGroupingFolder.InternalObject"></a>
-
-### *property* TreeGroupingFolder.InternalObject *: Ansys.Common.Interop.DSObjectsAuto.IDSTreeGroupingFolderAuto | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets the internal object. For advanced usage only.
+Gets the list of children.
 
 <!-- !! processed by numpydoc !! -->
 
@@ -77,17 +67,25 @@ Gets the ChildrenInGroup.
 
 <a id="TreeGroupingFolder.DataModelObjectCategory"></a>
 
-### *property* TreeGroupingFolder.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* TreeGroupingFolder.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../v242/Ansys/Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets the current DataModelObject's category.
+Gets the current DataModelObject’s category.
 
 <!-- !! processed by numpydoc !! -->
 
-<a id="TreeGroupingFolder.Children"></a>
+<a id="TreeGroupingFolder.InternalObject"></a>
 
-### *property* TreeGroupingFolder.Children *: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* TreeGroupingFolder.InternalObject *: Ansys.Common.Interop.DSObjectsAuto.IDSTreeGroupingFolderAuto | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets the list of children.
+Gets the internal object. For advanced usage only.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="TreeGroupingFolder.Properties"></a>
+
+### *property* TreeGroupingFolder.Properties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets the list of properties for this object.
 
 <!-- !! processed by numpydoc !! -->
 
@@ -99,19 +97,11 @@ Gets or sets the ReadOnly.
 
 <!-- !! processed by numpydoc !! -->
 
-<a id="id0"></a>
+<a id="TreeGroupingFolder.Suppressed"></a>
 
-### *property* TreeGroupingFolder.InternalObject *: System.Object | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* TreeGroupingFolder.Suppressed *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets the internal object. For advanced usage only.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="TreeGroupingFolder.Properties"></a>
-
-### *property* TreeGroupingFolder.Properties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets the list of properties for this object.
+Gets or sets the Suppressed.
 
 <!-- !! processed by numpydoc !! -->
 
@@ -126,38 +116,6 @@ Gets the list of properties that are visible for this object.
 <a id="method-detail"></a>
 
 ## Method detail
-
-<a id="TreeGroupingFolder.DeleteTreeGroupAndChildren"></a>
-
-### TreeGroupingFolder.DeleteTreeGroupAndChildren()
-
-Run the DeleteTreeGroupAndChildren action.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="TreeGroupingFolder.Ungroup"></a>
-
-### TreeGroupingFolder.Ungroup()
-
-Run the Ungroup action.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="TreeGroupingFolder.GetChildren"></a>
-
-### TreeGroupingFolder.GetChildren(recurses: System.Boolean, children: System.Collections.Generic.IList[ChildrenType])
-
-Gets the list of children, filtered by type.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="id1"></a>
-
-### TreeGroupingFolder.GetChildren(category: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory), recurses: System.Boolean, children: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject])
-
-Gets the list of children, filtered by type.
-
-<!-- !! processed by numpydoc !! -->
 
 <a id="TreeGroupingFolder.Activate"></a>
 
@@ -175,11 +133,43 @@ Copies all visible properties from this object to another.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="TreeGroupingFolder.CreateParameter"></a>
+
+### TreeGroupingFolder.CreateParameter(propName: System.String)
+
+Creates a new parameter for a Property.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="TreeGroupingFolder.DeleteTreeGroupAndChildren"></a>
+
+### TreeGroupingFolder.DeleteTreeGroupAndChildren()
+
+Run the DeleteTreeGroupAndChildren action.
+
+<!-- !! processed by numpydoc !! -->
+
 <a id="TreeGroupingFolder.Duplicate"></a>
 
 ### TreeGroupingFolder.Duplicate()
 
 Creates a copy of the current DataModelObject.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="TreeGroupingFolder.GetChildren"></a>
+
+### TreeGroupingFolder.GetChildren(recurses: System.Boolean, children: System.Collections.Generic.IList[ChildrenType])
+
+Gets the list of children, filtered by type.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="TreeGroupingFolder.GetParameter"></a>
+
+### TreeGroupingFolder.GetParameter(propName: System.String)
+
+Gets the parameter corresponding to the given property.
 
 <!-- !! processed by numpydoc !! -->
 
@@ -199,6 +189,17 @@ Run the GroupSimilarObjects action.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="TreeGroupingFolder.PropertyByAPIName"></a>
+
+### TreeGroupingFolder.PropertyByAPIName(name: System.String)
+
+```text
+Get a property by its API name.
+If multiple properties have the same API Name, only the first property with that name will be returned.
+```
+
+<!-- !! processed by numpydoc !! -->
+
 <a id="TreeGroupingFolder.PropertyByName"></a>
 
 ### TreeGroupingFolder.PropertyByName(name: System.String)
@@ -207,36 +208,19 @@ Get a property by its unique name.
 
 <!-- !! processed by numpydoc !! -->
 
-<a id="TreeGroupingFolder.PropertyByAPIName"></a>
-
-### TreeGroupingFolder.PropertyByAPIName(name: System.String)
-
-Get a property by its API name.
-If multiple properties have the same API Name, only the first property with that name will be returned.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="TreeGroupingFolder.CreateParameter"></a>
-
-### TreeGroupingFolder.CreateParameter(propName: System.String)
-
-Creates a new parameter for a Property.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="TreeGroupingFolder.GetParameter"></a>
-
-### TreeGroupingFolder.GetParameter(propName: System.String)
-
-Gets the parameter corresponding to the given property.
-
-<!-- !! processed by numpydoc !! -->
-
 <a id="TreeGroupingFolder.RemoveParameter"></a>
 
 ### TreeGroupingFolder.RemoveParameter(propName: System.String)
 
 Removes the parameter from the parameter set corresponding to the given property.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="TreeGroupingFolder.Ungroup"></a>
+
+### TreeGroupingFolder.Ungroup()
+
+Run the Ungroup action.
 
 <!-- !! processed by numpydoc !! -->
 

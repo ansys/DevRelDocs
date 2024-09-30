@@ -1,6 +1,6 @@
 # `SafetyTheoryType`
 
-
+<a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.SafetyTheoryType"></a>
 
 #### *class* ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.SafetyTheoryType
 
@@ -17,11 +17,11 @@ Specifies the Stress Safety Theory Type.
 ### Attributes
 
 | Name |
-| -------------------------------------------------------------------------------------------------------------------------------------------------- |
-| [`MaximumEquivalentStress`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/SafetyTheoryType.md#SafetyTheoryType.MaximumEquivalentStress) |
-| [`MaximumShearStress`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/SafetyTheoryType.md#SafetyTheoryType.MaximumShearStress) |
-| [`MaximumTensileStress`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/SafetyTheoryType.md#SafetyTheoryType.MaximumTensileStress) |
-| [`MohrCoulombStress`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/SafetyTheoryType.md#SafetyTheoryType.MohrCoulombStress) |
+| -------------------------------------------------------------------------- |
+| [`MaximumEquivalentStress`](#SafetyTheoryType.MaximumEquivalentStress) |
+| [`MaximumShearStress`](#SafetyTheoryType.MaximumShearStress) |
+| [`MaximumTensileStress`](#SafetyTheoryType.MaximumTensileStress) |
+| [`MohrCoulombStress`](#SafetyTheoryType.MohrCoulombStress) |
 
 <a id="attribute-detail"></a>
 

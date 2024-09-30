@@ -1,6 +1,6 @@
 # `ContactElasticSlipToleranceType`
 
-
+<a id="ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.ContactElasticSlipToleranceType"></a>
 
 #### *class* ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.ContactElasticSlipToleranceType
 
@@ -17,7 +17,7 @@ Specifies the ContactElasticSlipToleranceType.
 ### Attributes
 
 | Name |
-| --------------------------------------------------------------------------- |
+| ------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
 | [`Factor`](#ContactElasticSlipToleranceType.Factor) |
 | [`ProgramControlled`](#ContactElasticSlipToleranceType.ProgramControlled) |
 | [`Value`](#ContactElasticSlipToleranceType.Value) |

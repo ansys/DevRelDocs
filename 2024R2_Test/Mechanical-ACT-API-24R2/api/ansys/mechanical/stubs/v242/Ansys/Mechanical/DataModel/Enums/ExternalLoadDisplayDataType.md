@@ -1,6 +1,6 @@
 # `ExternalLoadDisplayDataType`
 
-
+<a id="ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.ExternalLoadDisplayDataType"></a>
 
 #### *class* ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.ExternalLoadDisplayDataType
 
@@ -17,7 +17,7 @@ Specifies the ExternalLoadDisplayDataType.
 ### Attributes
 
 | Name |
-| --------------------------------------------------------------------------------- |
+| -------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | [`ConvectionCoefficient`](#ExternalLoadDisplayDataType.ConvectionCoefficient) |
 | [`Displacement`](#ExternalLoadDisplayDataType.Displacement) |
 | [`Force`](#ExternalLoadDisplayDataType.Force) |

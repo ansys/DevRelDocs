@@ -1,6 +1,6 @@
 # `Control`
 
-
+<a id="ansys.mechanical.stubs.v241.Ansys.ACT.Mechanical.AdditionalProperties.Control"></a>
 
 #### *class* ansys.mechanical.stubs.v241.Ansys.ACT.Mechanical.AdditionalProperties.Control
 
@@ -17,27 +17,27 @@ The control type for an additional property.
 ### Attributes
 
 | Name |
-| --------------------------------------------------------------------------------------------------------------- |
-| [`Expression`](../../../../../v242/Ansys/ACT/Mechanical/AdditionalProperties/Control.md#Control.Expression) |
-| [`Double`](../../../../../v242/Ansys/ACT/Mechanical/AdditionalProperties/Control.md#Control.Double) |
-| [`ApplyCancel`](../../../../../v242/Ansys/ACT/Mechanical/AdditionalProperties/Control.md#Control.ApplyCancel) |
-| [`Options`](../../../../../v242/Ansys/ACT/Mechanical/AdditionalProperties/Control.md#Control.Options) |
+| ----------------------------------------- |
+| [`ApplyCancel`](#Control.ApplyCancel) |
+| [`Double`](#Control.Double) |
+| [`Expression`](#Control.Expression) |
+| [`Options`](#Control.Options) |
 
 <a id="attribute-detail"></a>
 
 ## Attribute detail
 
-<a id="Control.Expression"></a>
+<a id="Control.ApplyCancel"></a>
 
-### Control.Expression *= 64*
+### Control.ApplyCancel *= 131072*
 
 <a id="Control.Double"></a>
 
 ### Control.Double *= 1310720*
 
-<a id="Control.ApplyCancel"></a>
+<a id="Control.Expression"></a>
 
-### Control.ApplyCancel *= 131072*
+### Control.Expression *= 64*
 
 <a id="Control.Options"></a>
 

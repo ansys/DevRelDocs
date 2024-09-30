@@ -1,6 +1,6 @@
 # `GraphicsViewportsExportBorderStyle`
 
-
+<a id="ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.GraphicsViewportsExportBorderStyle"></a>
 
 #### *class* ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.GraphicsViewportsExportBorderStyle
 
@@ -18,25 +18,25 @@ Border style enum values can be combined via bitwise-or ( | ).
 ### Attributes
 
 | Name |
-| ------------------------------------------------------------ |
-| [`None_`](#GraphicsViewportsExportBorderStyle.None_) |
-| [`Interior`](#GraphicsViewportsExportBorderStyle.Interior) |
+| -------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | [`Exterior`](#GraphicsViewportsExportBorderStyle.Exterior) |
+| [`Interior`](#GraphicsViewportsExportBorderStyle.Interior) |
+| [`None_`](#GraphicsViewportsExportBorderStyle.None_) |
 
 <a id="attribute-detail"></a>
 
 ## Attribute detail
 
-<a id="GraphicsViewportsExportBorderStyle.None_"></a>
+<a id="GraphicsViewportsExportBorderStyle.Exterior"></a>
 
-### GraphicsViewportsExportBorderStyle.None_ *= 0*
+### GraphicsViewportsExportBorderStyle.Exterior *= 2*
 
 <a id="GraphicsViewportsExportBorderStyle.Interior"></a>
 
 ### GraphicsViewportsExportBorderStyle.Interior *= 1*
 
-<a id="GraphicsViewportsExportBorderStyle.Exterior"></a>
+<a id="GraphicsViewportsExportBorderStyle.None_"></a>
 
-### GraphicsViewportsExportBorderStyle.Exterior *= 2*
+### GraphicsViewportsExportBorderStyle.None_ *= 0*
 
 

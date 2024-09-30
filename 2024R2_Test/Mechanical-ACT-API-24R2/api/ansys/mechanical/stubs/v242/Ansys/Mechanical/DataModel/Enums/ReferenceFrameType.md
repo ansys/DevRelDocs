@@ -1,6 +1,6 @@
 # `ReferenceFrameType`
 
-
+<a id="ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.ReferenceFrameType"></a>
 
 #### *class* ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.ReferenceFrameType
 
@@ -17,7 +17,7 @@ Specifies the ReferenceFrameType.
 ### Attributes
 
 | Name |
-| ------------------------------------------------------------ |
+| -------------------------------------------------------------------------------------------------------------------------------------- |
 | [`EulerianVirtual`](#ReferenceFrameType.EulerianVirtual) |
 | [`Lagrangian`](#ReferenceFrameType.Lagrangian) |
 | [`Particle`](#ReferenceFrameType.Particle) |

@@ -1,6 +1,6 @@
 # `HarmonicVariationalTechnology`
 
-
+<a id="ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.HarmonicVariationalTechnology"></a>
 
 #### *class* ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.HarmonicVariationalTechnology
 
@@ -17,7 +17,7 @@ Specifies the HarmonicVariationalTechnology.
 ### Attributes
 
 | Name |
-| ------------------------------------------------------------------------- |
+| -------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | [`No`](#HarmonicVariationalTechnology.No) |
 | [`ProgramControlled`](#HarmonicVariationalTechnology.ProgramControlled) |
 | [`Yes`](#HarmonicVariationalTechnology.Yes) |

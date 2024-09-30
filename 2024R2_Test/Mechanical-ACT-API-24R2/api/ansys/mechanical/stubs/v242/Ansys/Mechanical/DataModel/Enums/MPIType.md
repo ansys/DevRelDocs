@@ -1,6 +1,6 @@
 # `MPIType`
 
-
+<a id="ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.MPIType"></a>
 
 #### *class* ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.MPIType
 
@@ -17,7 +17,7 @@ Specifies the MPIType.
 ### Attributes
 
 | Name |
-| ----------------------------------- |
+| -------------------------------------------------------------------------------------------------- |
 | [`INTELMPI`](#MPIType.INTELMPI) |
 | [`MSMPI`](#MPIType.MSMPI) |
 | [`PCMPI`](#MPIType.PCMPI) |

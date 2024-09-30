@@ -1,6 +1,6 @@
 # `RemotePoint`
 
-
+<a id="ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.RemotePoint"></a>
 
 #### *class* ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.RemotePoint
 
@@ -17,280 +17,70 @@ Defines a RemotePoint.
 ### Methods
 
 | Name | Description |
-|-------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------|
-| [`GetMeshRegion`](../../../../../v242/Ansys/ACT/Automation/Mechanical/RemotePoint.md#RemotePoint.GetMeshRegion)                     | Returns the mesh region associated to the remote point.                           |
-| [`PromoteToNamedSelection`](../../../../../v242/Ansys/ACT/Automation/Mechanical/RemotePoint.md#RemotePoint.PromoteToNamedSelection) | Run the PromoteToNamedSelection action.                                           |
-| [`AddCommandSnippet`](../../../../../v242/Ansys/ACT/Automation/Mechanical/RemotePoint.md#RemotePoint.AddCommandSnippet)             | Creates a new CommandSnippet                                                      |
-| [`Delete`](../../../../../v242/Ansys/ACT/Automation/Mechanical/RemotePoint.md#RemotePoint.Delete)                                   | Run the Delete action.                                                            |
-| [`GetChildren`](../../../../../v242/Ansys/ACT/Automation/Mechanical/RemotePoint.md#id1)                                             | Gets the list of children, filtered by type.                                      |
-| [`GetChildren`](../../../../../v242/Ansys/ACT/Automation/Mechanical/RemotePoint.md#id1)                                             | Gets the list of children, filtered by type.                                      |
-| [`AddComment`](../../../../../v242/Ansys/ACT/Automation/Mechanical/RemotePoint.md#RemotePoint.AddComment)                           | Creates a new child Comment.                                                      |
-| [`Activate`](../../../../../v242/Ansys/ACT/Automation/Mechanical/RemotePoint.md#RemotePoint.Activate)                               | Activate the current object.                                                      |
-| [`CopyTo`](../../../../../v242/Ansys/ACT/Automation/Mechanical/RemotePoint.md#RemotePoint.CopyTo)                                   | Copies all visible properties from this object to another.                        |
-| [`Duplicate`](../../../../../v242/Ansys/ACT/Automation/Mechanical/RemotePoint.md#RemotePoint.Duplicate)                             | Creates a copy of the current DataModelObject.                                    |
-| [`GroupAllSimilarChildren`](../../../../../v242/Ansys/ACT/Automation/Mechanical/RemotePoint.md#RemotePoint.GroupAllSimilarChildren) | Run the GroupAllSimilarChildren action.                                           |
-| [`GroupSimilarObjects`](../../../../../v242/Ansys/ACT/Automation/Mechanical/RemotePoint.md#RemotePoint.GroupSimilarObjects)         | Run the GroupSimilarObjects action.                                               |
-| [`PropertyByName`](../../../../../v242/Ansys/ACT/Automation/Mechanical/RemotePoint.md#RemotePoint.PropertyByName)                   | Get a property by its unique name.                                                |
-| [`PropertyByAPIName`](../../../../../v242/Ansys/ACT/Automation/Mechanical/RemotePoint.md#RemotePoint.PropertyByAPIName)             | Get a property by its API name.                                                   |
-| [`CreateParameter`](../../../../../v242/Ansys/ACT/Automation/Mechanical/RemotePoint.md#RemotePoint.CreateParameter)                 | Creates a new parameter for a Property.                                           |
-| [`GetParameter`](../../../../../v242/Ansys/ACT/Automation/Mechanical/RemotePoint.md#RemotePoint.GetParameter)                       | Gets the parameter corresponding to the given property.                           |
-| [`RemoveParameter`](../../../../../v242/Ansys/ACT/Automation/Mechanical/RemotePoint.md#RemotePoint.RemoveParameter)                 | Removes the parameter from the parameter set corresponding to the given property. |
+|-------------------------------------------------------------------|-----------------------------------------------------------------------------------|
+| [`Activate`](#RemotePoint.Activate)                               | Activate the current object.                                                      |
+| [`AddCommandSnippet`](#RemotePoint.AddCommandSnippet)             | Creates a new CommandSnippet                                                      |
+| [`AddComment`](#RemotePoint.AddComment)                           | Creates a new child Comment.                                                      |
+| [`CopyTo`](#RemotePoint.CopyTo)                                   | Copies all visible properties from this object to another.                        |
+| [`CreateParameter`](#RemotePoint.CreateParameter)                 | Creates a new parameter for a Property.                                           |
+| [`Delete`](#RemotePoint.Delete)                                   | Run the Delete action.                                                            |
+| [`Duplicate`](#RemotePoint.Duplicate)                             | Creates a copy of the current DataModelObject.                                    |
+| [`GetChildren`](#RemotePoint.GetChildren)                         | Gets the list of children, filtered by type.                                      |
+| [`GetMeshRegion`](#RemotePoint.GetMeshRegion)                     | Returns the mesh region associated to the remote point.                           |
+| [`GetParameter`](#RemotePoint.GetParameter)                       | Gets the parameter corresponding to the given property.                           |
+| [`GroupAllSimilarChildren`](#RemotePoint.GroupAllSimilarChildren) | Run the GroupAllSimilarChildren action.                                           |
+| [`GroupSimilarObjects`](#RemotePoint.GroupSimilarObjects)         | Run the GroupSimilarObjects action.                                               |
+| [`PromoteToNamedSelection`](#RemotePoint.PromoteToNamedSelection) | Run the PromoteToNamedSelection action.                                           |
+| [`PropertyByAPIName`](#RemotePoint.PropertyByAPIName)             | Get a property by its API name.                                                   |
+| [`PropertyByName`](#RemotePoint.PropertyByName)                   | Get a property by its unique name.                                                |
+| [`RemoveParameter`](#RemotePoint.RemoveParameter)                 | Removes the parameter from the parameter set corresponding to the given property. |
 
 ### Properties
 
 | Name | Description |
-|-------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------|
-| [`PilotNodeAPDLName`](../../../../../v242/Ansys/ACT/Automation/Mechanical/RemotePoint.md#RemotePoint.PilotNodeAPDLName)             | Gets or sets the PilotNodeAPDLName.                           |
-| [`OutlineSelection`](../../../../../v242/Ansys/ACT/Automation/Mechanical/RemotePoint.md#RemotePoint.OutlineSelection)               | Gets or sets the OutlineSelection.                            |
-| [`GloballyAvailable`](../../../../../v242/Ansys/ACT/Automation/Mechanical/RemotePoint.md#RemotePoint.GloballyAvailable)             | Remote point is globally available                            |
-| [`InternalObject`](../../../../../v242/Ansys/ACT/Automation/Mechanical/RemotePoint.md#id0)                                          | Gets the internal object. For advanced usage only.            |
-| [`Material`](../../../../../v242/Ansys/ACT/Automation/Mechanical/RemotePoint.md#RemotePoint.Material)                               | Gets or sets the Material.                                    |
-| [`Radius`](../../../../../v242/Ansys/ACT/Automation/Mechanical/RemotePoint.md#RemotePoint.Radius)                                   | Gets or sets the Radius.                                      |
-| [`XCoordinate`](../../../../../v242/Ansys/ACT/Automation/Mechanical/RemotePoint.md#RemotePoint.XCoordinate)                         | Gets or sets the XCoordinate.                                 |
-| [`YCoordinate`](../../../../../v242/Ansys/ACT/Automation/Mechanical/RemotePoint.md#RemotePoint.YCoordinate)                         | Gets or sets the YCoordinate.                                 |
-| [`ZCoordinate`](../../../../../v242/Ansys/ACT/Automation/Mechanical/RemotePoint.md#RemotePoint.ZCoordinate)                         | Gets or sets the ZCoordinate.                                 |
-| [`PinballRegion`](../../../../../v242/Ansys/ACT/Automation/Mechanical/RemotePoint.md#RemotePoint.PinballRegion)                     | Gets or sets the PinballRegion.                               |
-| [`Behavior`](../../../../../v242/Ansys/ACT/Automation/Mechanical/RemotePoint.md#RemotePoint.Behavior)                               | Gets or sets the Behavior.                                    |
-| [`XComponent`](../../../../../v242/Ansys/ACT/Automation/Mechanical/RemotePoint.md#RemotePoint.XComponent)                           | Gets or sets the XComponent.                                  |
-| [`YComponent`](../../../../../v242/Ansys/ACT/Automation/Mechanical/RemotePoint.md#RemotePoint.YComponent)                           | Gets or sets the YComponent.                                  |
-| [`ZComponent`](../../../../../v242/Ansys/ACT/Automation/Mechanical/RemotePoint.md#RemotePoint.ZComponent)                           | Gets or sets the ZComponent.                                  |
-| [`DOFSelection`](../../../../../v242/Ansys/ACT/Automation/Mechanical/RemotePoint.md#RemotePoint.DOFSelection)                       | Gets or sets the DOFSelection.                                |
-| [`ScopingMethod`](../../../../../v242/Ansys/ACT/Automation/Mechanical/RemotePoint.md#RemotePoint.ScopingMethod)                     | Gets or sets the ScopingMethod.                               |
-| [`PilotNodeScopingType`](../../../../../v242/Ansys/ACT/Automation/Mechanical/RemotePoint.md#RemotePoint.PilotNodeScopingType)       | Gets or sets the PilotNodeScopingType.                        |
-| [`Formulation`](../../../../../v242/Ansys/ACT/Automation/Mechanical/RemotePoint.md#RemotePoint.Formulation)                         | Gets or sets the Formulation.                                 |
-| [`RotationX`](../../../../../v242/Ansys/ACT/Automation/Mechanical/RemotePoint.md#RemotePoint.RotationX)                             | Gets or sets the RotationX.                                   |
-| [`RotationY`](../../../../../v242/Ansys/ACT/Automation/Mechanical/RemotePoint.md#RemotePoint.RotationY)                             | Gets or sets the RotationY.                                   |
-| [`RotationZ`](../../../../../v242/Ansys/ACT/Automation/Mechanical/RemotePoint.md#RemotePoint.RotationZ)                             | Gets or sets the RotationZ.                                   |
-| [`RelaxationMethod`](../../../../../v242/Ansys/ACT/Automation/Mechanical/RemotePoint.md#RemotePoint.RelaxationMethod)               | Gets or sets the RelaxationMethod.                            |
-| [`Suppressed`](../../../../../v242/Ansys/ACT/Automation/Mechanical/RemotePoint.md#RemotePoint.Suppressed)                           | Gets or sets the Suppressed.                                  |
-| [`Point`](../../../../../v242/Ansys/ACT/Automation/Mechanical/RemotePoint.md#RemotePoint.Point)                                     | Gets or sets the Point.                                       |
-| [`CoordinateSystem`](../../../../../v242/Ansys/ACT/Automation/Mechanical/RemotePoint.md#RemotePoint.CoordinateSystem)               | Gets or sets the CoordinateSystem.                            |
-| [`Location`](../../../../../v242/Ansys/ACT/Automation/Mechanical/RemotePoint.md#RemotePoint.Location)                               | Gets or sets the Location.                                    |
-| [`DataModelObjectCategory`](../../../../../v242/Ansys/ACT/Automation/Mechanical/RemotePoint.md#RemotePoint.DataModelObjectCategory) | Gets the current DataModelObject's category.                  |
-| [`Children`](../../../../../v242/Ansys/ACT/Automation/Mechanical/RemotePoint.md#RemotePoint.Children)                               | Gets the list of children.                                    |
-| [`Comments`](../../../../../v242/Ansys/ACT/Automation/Mechanical/RemotePoint.md#RemotePoint.Comments)                               | Gets the list of associated comments.                         |
-| [`ReadOnly`](../../../../../v242/Ansys/ACT/Automation/Mechanical/RemotePoint.md#RemotePoint.ReadOnly)                               | Gets or sets the ReadOnly.                                    |
-| [`InternalObject`](../../../../../v242/Ansys/ACT/Automation/Mechanical/RemotePoint.md#id0)                                          | Gets the internal object. For advanced usage only.            |
-| [`Properties`](../../../../../v242/Ansys/ACT/Automation/Mechanical/RemotePoint.md#RemotePoint.Properties)                           | Gets the list of properties for this object.                  |
-| [`VisibleProperties`](../../../../../v242/Ansys/ACT/Automation/Mechanical/RemotePoint.md#RemotePoint.VisibleProperties)             | Gets the list of properties that are visible for this object. |
+|-------------------------------------------------------------------|---------------------------------------------------------------|
+| [`Behavior`](#RemotePoint.Behavior)                               | Gets or sets the Behavior.                                    |
+| [`Children`](#RemotePoint.Children)                               | Gets the list of children.                                    |
+| [`Comments`](#RemotePoint.Comments)                               | Gets the list of associated comments.                         |
+| [`CoordinateSystem`](#RemotePoint.CoordinateSystem)               | Gets or sets the CoordinateSystem.                            |
+| [`DOFSelection`](#RemotePoint.DOFSelection)                       | Gets or sets the DOFSelection.                                |
+| [`DataModelObjectCategory`](#RemotePoint.DataModelObjectCategory) | Gets the current DataModelObject’s category.                  |
+| [`Formulation`](#RemotePoint.Formulation)                         | Gets or sets the Formulation.                                 |
+| [`GloballyAvailable`](#RemotePoint.GloballyAvailable)             | Remote point is globally available                            |
+| [`InternalObject`](#RemotePoint.InternalObject)                   | Gets the internal object. For advanced usage only.            |
+| [`Location`](#RemotePoint.Location)                               | Gets or sets the Location.                                    |
+| [`Material`](#RemotePoint.Material)                               | Gets or sets the Material.                                    |
+| [`OutlineSelection`](#RemotePoint.OutlineSelection)               | Gets or sets the OutlineSelection.                            |
+| [`PilotNodeAPDLName`](#RemotePoint.PilotNodeAPDLName)             | Gets or sets the PilotNodeAPDLName.                           |
+| [`PilotNodeScopingType`](#RemotePoint.PilotNodeScopingType)       | Gets or sets the PilotNodeScopingType.                        |
+| [`PinballRegion`](#RemotePoint.PinballRegion)                     | Gets or sets the PinballRegion.                               |
+| [`Point`](#RemotePoint.Point)                                     | Gets or sets the Point.                                       |
+| [`Properties`](#RemotePoint.Properties)                           | Gets the list of properties for this object.                  |
+| [`Radius`](#RemotePoint.Radius)                                   | Gets or sets the Radius.                                      |
+| [`ReadOnly`](#RemotePoint.ReadOnly)                               | Gets or sets the ReadOnly.                                    |
+| [`RelaxationMethod`](#RemotePoint.RelaxationMethod)               | Gets or sets the RelaxationMethod.                            |
+| [`RotationX`](#RemotePoint.RotationX)                             | Gets or sets the RotationX.                                   |
+| [`RotationY`](#RemotePoint.RotationY)                             | Gets or sets the RotationY.                                   |
+| [`RotationZ`](#RemotePoint.RotationZ)                             | Gets or sets the RotationZ.                                   |
+| [`ScopingMethod`](#RemotePoint.ScopingMethod)                     | Gets or sets the ScopingMethod.                               |
+| [`Suppressed`](#RemotePoint.Suppressed)                           | Gets or sets the Suppressed.                                  |
+| [`VisibleProperties`](#RemotePoint.VisibleProperties)             | Gets the list of properties that are visible for this object. |
+| [`XComponent`](#RemotePoint.XComponent)                           | Gets or sets the XComponent.                                  |
+| [`XCoordinate`](#RemotePoint.XCoordinate)                         | Gets or sets the XCoordinate.                                 |
+| [`YComponent`](#RemotePoint.YComponent)                           | Gets or sets the YComponent.                                  |
+| [`YCoordinate`](#RemotePoint.YCoordinate)                         | Gets or sets the YCoordinate.                                 |
+| [`ZComponent`](#RemotePoint.ZComponent)                           | Gets or sets the ZComponent.                                  |
+| [`ZCoordinate`](#RemotePoint.ZCoordinate)                         | Gets or sets the ZCoordinate.                                 |
 
 <a id="property-detail"></a>
 
 ## Property detail
 
-<a id="RemotePoint.PilotNodeAPDLName"></a>
-
-### *property* RemotePoint.PilotNodeAPDLName *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the PilotNodeAPDLName.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="RemotePoint.OutlineSelection"></a>
-
-### *property* RemotePoint.OutlineSelection *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.RemotePoint](#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.RemotePoint)] | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the OutlineSelection.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="RemotePoint.GloballyAvailable"></a>
-
-### *property* RemotePoint.GloballyAvailable *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Remote point is globally available
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="RemotePoint.InternalObject"></a>
-
-### *property* RemotePoint.InternalObject *: Ansys.Common.Interop.DSObjectsAuto.IDSRemotePointAuto | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets the internal object. For advanced usage only.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="RemotePoint.Material"></a>
-
-### *property* RemotePoint.Material *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the Material.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="RemotePoint.Radius"></a>
-
-### *property* RemotePoint.Radius *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the Radius.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="RemotePoint.XCoordinate"></a>
-
-### *property* RemotePoint.XCoordinate *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the XCoordinate.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="RemotePoint.YCoordinate"></a>
-
-### *property* RemotePoint.YCoordinate *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the YCoordinate.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="RemotePoint.ZCoordinate"></a>
-
-### *property* RemotePoint.ZCoordinate *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the ZCoordinate.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="RemotePoint.PinballRegion"></a>
-
-### *property* RemotePoint.PinballRegion *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the PinballRegion.
-
-<!-- !! processed by numpydoc !! -->
-
 <a id="RemotePoint.Behavior"></a>
 
-### *property* RemotePoint.Behavior *: [Ansys.Mechanical.DataModel.Enums.LoadBehavior](../../../Mechanical/DataModel/Enums/LoadBehavior.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.LoadBehavior) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* RemotePoint.Behavior *: [Ansys.Mechanical.DataModel.Enums.LoadBehavior](../../../../../v242/Ansys/Mechanical/DataModel/Enums/LoadBehavior.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.LoadBehavior) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Behavior.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="RemotePoint.XComponent"></a>
-
-### *property* RemotePoint.XComponent *: [Ansys.Mechanical.DataModel.Enums.ActiveOrInactive](../../../Mechanical/DataModel/Enums/ActiveOrInactive.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.ActiveOrInactive) | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the XComponent.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="RemotePoint.YComponent"></a>
-
-### *property* RemotePoint.YComponent *: [Ansys.Mechanical.DataModel.Enums.ActiveOrInactive](../../../Mechanical/DataModel/Enums/ActiveOrInactive.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.ActiveOrInactive) | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the YComponent.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="RemotePoint.ZComponent"></a>
-
-### *property* RemotePoint.ZComponent *: [Ansys.Mechanical.DataModel.Enums.ActiveOrInactive](../../../Mechanical/DataModel/Enums/ActiveOrInactive.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.ActiveOrInactive) | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the ZComponent.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="RemotePoint.DOFSelection"></a>
-
-### *property* RemotePoint.DOFSelection *: [Ansys.Mechanical.DataModel.Enums.RemotePointDOFSelectionType](../../../Mechanical/DataModel/Enums/RemotePointDOFSelectionType.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.RemotePointDOFSelectionType) | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the DOFSelection.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="RemotePoint.ScopingMethod"></a>
-
-### *property* RemotePoint.ScopingMethod *: [Ansys.Mechanical.DataModel.Enums.GeometryDefineByType](../../../Mechanical/DataModel/Enums/GeometryDefineByType.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.GeometryDefineByType) | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the ScopingMethod.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="RemotePoint.PilotNodeScopingType"></a>
-
-### *property* RemotePoint.PilotNodeScopingType *: [Ansys.Mechanical.DataModel.Enums.PilotNodeScopingType](../../../Mechanical/DataModel/Enums/PilotNodeScopingType.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.PilotNodeScopingType) | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the PilotNodeScopingType.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="RemotePoint.Formulation"></a>
-
-### *property* RemotePoint.Formulation *: [Ansys.Mechanical.DataModel.Enums.RemotePointFormulation](../../../Mechanical/DataModel/Enums/RemotePointFormulation.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.RemotePointFormulation) | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the Formulation.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="RemotePoint.RotationX"></a>
-
-### *property* RemotePoint.RotationX *: [Ansys.Mechanical.DataModel.Enums.ActiveOrInactive](../../../Mechanical/DataModel/Enums/ActiveOrInactive.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.ActiveOrInactive) | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the RotationX.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="RemotePoint.RotationY"></a>
-
-### *property* RemotePoint.RotationY *: [Ansys.Mechanical.DataModel.Enums.ActiveOrInactive](../../../Mechanical/DataModel/Enums/ActiveOrInactive.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.ActiveOrInactive) | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the RotationY.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="RemotePoint.RotationZ"></a>
-
-### *property* RemotePoint.RotationZ *: [Ansys.Mechanical.DataModel.Enums.ActiveOrInactive](../../../Mechanical/DataModel/Enums/ActiveOrInactive.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.ActiveOrInactive) | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the RotationZ.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="RemotePoint.RelaxationMethod"></a>
-
-### *property* RemotePoint.RelaxationMethod *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the RelaxationMethod.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="RemotePoint.Suppressed"></a>
-
-### *property* RemotePoint.Suppressed *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the Suppressed.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="RemotePoint.Point"></a>
-
-### *property* RemotePoint.Point *: [Ansys.ACT.Automation.Mechanical.ConstructionPoint](ConstructionPoint.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.ConstructionPoint) | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the Point.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="RemotePoint.CoordinateSystem"></a>
-
-### *property* RemotePoint.CoordinateSystem *: [Ansys.ACT.Automation.Mechanical.CoordinateSystem](CoordinateSystem.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.CoordinateSystem) | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the CoordinateSystem.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="RemotePoint.Location"></a>
-
-### *property* RemotePoint.Location *: Ansys.ACT.Interfaces.Common.ISelectionInfo | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the Location.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="RemotePoint.DataModelObjectCategory"></a>
-
-### *property* RemotePoint.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets the current DataModelObject's category.
 
 <!-- !! processed by numpydoc !! -->
 
@@ -310,19 +100,107 @@ Gets the list of associated comments.
 
 <!-- !! processed by numpydoc !! -->
 
-<a id="RemotePoint.ReadOnly"></a>
+<a id="RemotePoint.CoordinateSystem"></a>
 
-### *property* RemotePoint.ReadOnly *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* RemotePoint.CoordinateSystem *: [Ansys.ACT.Automation.Mechanical.CoordinateSystem](CoordinateSystem.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.CoordinateSystem) | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets or sets the ReadOnly.
+Gets or sets the CoordinateSystem.
 
 <!-- !! processed by numpydoc !! -->
 
-<a id="id0"></a>
+<a id="RemotePoint.DOFSelection"></a>
 
-### *property* RemotePoint.InternalObject *: System.Object | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* RemotePoint.DOFSelection *: [Ansys.Mechanical.DataModel.Enums.RemotePointDOFSelectionType](../../../../../v242/Ansys/Mechanical/DataModel/Enums/RemotePointDOFSelectionType.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.RemotePointDOFSelectionType) | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the DOFSelection.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="RemotePoint.DataModelObjectCategory"></a>
+
+### *property* RemotePoint.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../v242/Ansys/Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets the current DataModelObject’s category.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="RemotePoint.Formulation"></a>
+
+### *property* RemotePoint.Formulation *: [Ansys.Mechanical.DataModel.Enums.RemotePointFormulation](../../../../../v242/Ansys/Mechanical/DataModel/Enums/RemotePointFormulation.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.RemotePointFormulation) | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the Formulation.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="RemotePoint.GloballyAvailable"></a>
+
+### *property* RemotePoint.GloballyAvailable *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Remote point is globally available
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="RemotePoint.InternalObject"></a>
+
+### *property* RemotePoint.InternalObject *: Ansys.Common.Interop.DSObjectsAuto.IDSRemotePointAuto | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the internal object. For advanced usage only.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="RemotePoint.Location"></a>
+
+### *property* RemotePoint.Location *: Ansys.ACT.Interfaces.Common.ISelectionInfo | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the Location.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="RemotePoint.Material"></a>
+
+### *property* RemotePoint.Material *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the Material.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="RemotePoint.OutlineSelection"></a>
+
+### *property* RemotePoint.OutlineSelection *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.RemotePoint](../../../../../v242/Ansys/ACT/Automation/Mechanical/RemotePoint.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.RemotePoint)] | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the OutlineSelection.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="RemotePoint.PilotNodeAPDLName"></a>
+
+### *property* RemotePoint.PilotNodeAPDLName *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the PilotNodeAPDLName.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="RemotePoint.PilotNodeScopingType"></a>
+
+### *property* RemotePoint.PilotNodeScopingType *: [Ansys.Mechanical.DataModel.Enums.PilotNodeScopingType](../../../../../v242/Ansys/Mechanical/DataModel/Enums/PilotNodeScopingType.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.PilotNodeScopingType) | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the PilotNodeScopingType.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="RemotePoint.PinballRegion"></a>
+
+### *property* RemotePoint.PinballRegion *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the PinballRegion.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="RemotePoint.Point"></a>
+
+### *property* RemotePoint.Point *: [Ansys.ACT.Automation.Mechanical.ConstructionPoint](ConstructionPoint.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.ConstructionPoint) | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the Point.
 
 <!-- !! processed by numpydoc !! -->
 
@@ -334,6 +212,70 @@ Gets the list of properties for this object.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="RemotePoint.Radius"></a>
+
+### *property* RemotePoint.Radius *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the Radius.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="RemotePoint.ReadOnly"></a>
+
+### *property* RemotePoint.ReadOnly *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the ReadOnly.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="RemotePoint.RelaxationMethod"></a>
+
+### *property* RemotePoint.RelaxationMethod *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the RelaxationMethod.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="RemotePoint.RotationX"></a>
+
+### *property* RemotePoint.RotationX *: [Ansys.Mechanical.DataModel.Enums.ActiveOrInactive](../../../../../v242/Ansys/Mechanical/DataModel/Enums/ActiveOrInactive.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.ActiveOrInactive) | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the RotationX.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="RemotePoint.RotationY"></a>
+
+### *property* RemotePoint.RotationY *: [Ansys.Mechanical.DataModel.Enums.ActiveOrInactive](../../../../../v242/Ansys/Mechanical/DataModel/Enums/ActiveOrInactive.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.ActiveOrInactive) | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the RotationY.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="RemotePoint.RotationZ"></a>
+
+### *property* RemotePoint.RotationZ *: [Ansys.Mechanical.DataModel.Enums.ActiveOrInactive](../../../../../v242/Ansys/Mechanical/DataModel/Enums/ActiveOrInactive.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.ActiveOrInactive) | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the RotationZ.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="RemotePoint.ScopingMethod"></a>
+
+### *property* RemotePoint.ScopingMethod *: [Ansys.Mechanical.DataModel.Enums.GeometryDefineByType](../../../../../v242/Ansys/Mechanical/DataModel/Enums/GeometryDefineByType.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.GeometryDefineByType) | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the ScopingMethod.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="RemotePoint.Suppressed"></a>
+
+### *property* RemotePoint.Suppressed *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the Suppressed.
+
+<!-- !! processed by numpydoc !! -->
+
 <a id="RemotePoint.VisibleProperties"></a>
 
 ### *property* RemotePoint.VisibleProperties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
@@ -342,23 +284,63 @@ Gets the list of properties that are visible for this object.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="RemotePoint.XComponent"></a>
+
+### *property* RemotePoint.XComponent *: [Ansys.Mechanical.DataModel.Enums.ActiveOrInactive](../../../../../v242/Ansys/Mechanical/DataModel/Enums/ActiveOrInactive.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.ActiveOrInactive) | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the XComponent.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="RemotePoint.XCoordinate"></a>
+
+### *property* RemotePoint.XCoordinate *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the XCoordinate.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="RemotePoint.YComponent"></a>
+
+### *property* RemotePoint.YComponent *: [Ansys.Mechanical.DataModel.Enums.ActiveOrInactive](../../../../../v242/Ansys/Mechanical/DataModel/Enums/ActiveOrInactive.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.ActiveOrInactive) | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the YComponent.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="RemotePoint.YCoordinate"></a>
+
+### *property* RemotePoint.YCoordinate *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the YCoordinate.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="RemotePoint.ZComponent"></a>
+
+### *property* RemotePoint.ZComponent *: [Ansys.Mechanical.DataModel.Enums.ActiveOrInactive](../../../../../v242/Ansys/Mechanical/DataModel/Enums/ActiveOrInactive.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.ActiveOrInactive) | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the ZComponent.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="RemotePoint.ZCoordinate"></a>
+
+### *property* RemotePoint.ZCoordinate *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the ZCoordinate.
+
+<!-- !! processed by numpydoc !! -->
+
 <a id="method-detail"></a>
 
 ## Method detail
 
-<a id="RemotePoint.GetMeshRegion"></a>
+<a id="RemotePoint.Activate"></a>
 
-### RemotePoint.GetMeshRegion()
+### RemotePoint.Activate()
 
-Returns the mesh region associated to the remote point.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="RemotePoint.PromoteToNamedSelection"></a>
-
-### RemotePoint.PromoteToNamedSelection()
-
-Run the PromoteToNamedSelection action.
+Activate the current object.
 
 <!-- !! processed by numpydoc !! -->
 
@@ -370,43 +352,11 @@ Creates a new CommandSnippet
 
 <!-- !! processed by numpydoc !! -->
 
-<a id="RemotePoint.Delete"></a>
-
-### RemotePoint.Delete()
-
-Run the Delete action.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="RemotePoint.GetChildren"></a>
-
-### RemotePoint.GetChildren(recurses: System.Boolean, children: System.Collections.Generic.IList[ChildrenType])
-
-Gets the list of children, filtered by type.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="id1"></a>
-
-### RemotePoint.GetChildren(category: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory), recurses: System.Boolean, children: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject])
-
-Gets the list of children, filtered by type.
-
-<!-- !! processed by numpydoc !! -->
-
 <a id="RemotePoint.AddComment"></a>
 
 ### RemotePoint.AddComment()
 
 Creates a new child Comment.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="RemotePoint.Activate"></a>
-
-### RemotePoint.Activate()
-
-Activate the current object.
 
 <!-- !! processed by numpydoc !! -->
 
@@ -418,11 +368,51 @@ Copies all visible properties from this object to another.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="RemotePoint.CreateParameter"></a>
+
+### RemotePoint.CreateParameter(propName: System.String)
+
+Creates a new parameter for a Property.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="RemotePoint.Delete"></a>
+
+### RemotePoint.Delete()
+
+Run the Delete action.
+
+<!-- !! processed by numpydoc !! -->
+
 <a id="RemotePoint.Duplicate"></a>
 
 ### RemotePoint.Duplicate()
 
 Creates a copy of the current DataModelObject.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="RemotePoint.GetChildren"></a>
+
+### RemotePoint.GetChildren(recurses: System.Boolean, children: System.Collections.Generic.IList[ChildrenType])
+
+Gets the list of children, filtered by type.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="RemotePoint.GetMeshRegion"></a>
+
+### RemotePoint.GetMeshRegion()
+
+Returns the mesh region associated to the remote point.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="RemotePoint.GetParameter"></a>
+
+### RemotePoint.GetParameter(propName: System.String)
+
+Gets the parameter corresponding to the given property.
 
 <!-- !! processed by numpydoc !! -->
 
@@ -442,11 +432,11 @@ Run the GroupSimilarObjects action.
 
 <!-- !! processed by numpydoc !! -->
 
-<a id="RemotePoint.PropertyByName"></a>
+<a id="RemotePoint.PromoteToNamedSelection"></a>
 
-### RemotePoint.PropertyByName(name: System.String)
+### RemotePoint.PromoteToNamedSelection()
 
-Get a property by its unique name.
+Run the PromoteToNamedSelection action.
 
 <!-- !! processed by numpydoc !! -->
 
@@ -454,24 +444,18 @@ Get a property by its unique name.
 
 ### RemotePoint.PropertyByAPIName(name: System.String)
 
+```text
 Get a property by its API name.
 If multiple properties have the same API Name, only the first property with that name will be returned.
+```
 
 <!-- !! processed by numpydoc !! -->
 
-<a id="RemotePoint.CreateParameter"></a>
+<a id="RemotePoint.PropertyByName"></a>
 
-### RemotePoint.CreateParameter(propName: System.String)
+### RemotePoint.PropertyByName(name: System.String)
 
-Creates a new parameter for a Property.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="RemotePoint.GetParameter"></a>
-
-### RemotePoint.GetParameter(propName: System.String)
-
-Gets the parameter corresponding to the given property.
+Get a property by its unique name.
 
 <!-- !! processed by numpydoc !! -->
 

@@ -1,6 +1,6 @@
 # `RemotePointFormulation`
 
-
+<a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.RemotePointFormulation"></a>
 
 #### *class* ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.RemotePointFormulation
 
@@ -17,9 +17,9 @@ Specifies the RemotePointFormulation.
 ### Attributes
 
 | Name |
-| ---------------------------------------------------------------------------------------------------------------------------------------------------- |
-| [`LagrangeMultiplier`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/RemotePointFormulation.md#RemotePointFormulation.LagrangeMultiplier) |
-| [`MPC`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/RemotePointFormulation.md#RemotePointFormulation.MPC) |
+| ---------------------------------------------------------------------- |
+| [`LagrangeMultiplier`](#RemotePointFormulation.LagrangeMultiplier) |
+| [`MPC`](#RemotePointFormulation.MPC) |
 
 <a id="attribute-detail"></a>
 

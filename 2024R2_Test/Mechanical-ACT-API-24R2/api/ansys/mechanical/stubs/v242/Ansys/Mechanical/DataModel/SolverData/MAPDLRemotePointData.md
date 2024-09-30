@@ -1,6 +1,6 @@
 # `MAPDLRemotePointData`
 
-
+<a id="ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.SolverData.MAPDLRemotePointData"></a>
 
 #### *class* ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.SolverData.MAPDLRemotePointData
 
@@ -17,7 +17,7 @@ MAPDLRemotePointData class.
 ### Properties
 
 | Name | Description |
-|--------------------------------------------|-------------------------------------------------------|
+|-----------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------|
 | [`NodeId`](#MAPDLRemotePointData.NodeId)   | Gets the Pilot Node Id number for the remote point.   |
 
 <a id="property-detail"></a>

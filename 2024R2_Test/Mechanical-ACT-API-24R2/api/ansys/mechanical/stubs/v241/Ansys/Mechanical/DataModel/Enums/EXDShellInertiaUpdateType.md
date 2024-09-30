@@ -1,6 +1,6 @@
 # `EXDShellInertiaUpdateType`
 
-
+<a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.EXDShellInertiaUpdateType"></a>
 
 #### *class* ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.EXDShellInertiaUpdateType
 
@@ -15,9 +15,9 @@ Bases: [`enum.Enum`](https://docs.python.org/3/library/enum.html#enum.Enum)
 ### Attributes
 
 | Name |
-| ---------------------------------------------------------------------------------------------------------------------------------------- |
-| [`Recompute`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/EXDShellInertiaUpdateType.md#EXDShellInertiaUpdateType.Recompute) |
-| [`Rotate`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/EXDShellInertiaUpdateType.md#EXDShellInertiaUpdateType.Rotate) |
+| ------------------------------------------------------- |
+| [`Recompute`](#EXDShellInertiaUpdateType.Recompute) |
+| [`Rotate`](#EXDShellInertiaUpdateType.Rotate) |
 
 <a id="attribute-detail"></a>
 

@@ -1,6 +1,6 @@
 # `SpringPreloadType`
 
-
+<a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.SpringPreloadType"></a>
 
 #### *class* ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.SpringPreloadType
 
@@ -17,12 +17,12 @@ Specifies the SpringPreloadType.
 ### Attributes
 
 | Name |
-| -------------------------------------------------------------------------------------------------------------------- |
-| [`Length`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/SpringPreloadType.md#SpringPreloadType.Length) |
-| [`Load`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/SpringPreloadType.md#SpringPreloadType.Load) |
-| [`None_`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/SpringPreloadType.md#SpringPreloadType.None_) |
-| [`Rotation`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/SpringPreloadType.md#SpringPreloadType.Rotation) |
-| [`Torque`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/SpringPreloadType.md#SpringPreloadType.Torque) |
+| ------------------------------------------- |
+| [`Length`](#SpringPreloadType.Length) |
+| [`Load`](#SpringPreloadType.Load) |
+| [`None_`](#SpringPreloadType.None_) |
+| [`Rotation`](#SpringPreloadType.Rotation) |
+| [`Torque`](#SpringPreloadType.Torque) |
 
 <a id="attribute-detail"></a>
 

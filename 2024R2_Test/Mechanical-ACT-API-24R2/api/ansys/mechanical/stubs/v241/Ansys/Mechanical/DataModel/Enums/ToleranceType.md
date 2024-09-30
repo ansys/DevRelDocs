@@ -1,6 +1,6 @@
 # `ToleranceType`
 
-
+<a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.ToleranceType"></a>
 
 #### *class* ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.ToleranceType
 
@@ -17,9 +17,9 @@ Specifies the ToleranceType.
 ### Attributes
 
 | Name |
-| ------------------------------------------------------------------------------------------------------------------------------ |
-| [`Manual`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/ToleranceType.md#ToleranceType.Manual) |
-| [`ProgramControlled`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/ToleranceType.md#ToleranceType.ProgramControlled) |
+| --------------------------------------------------------- |
+| [`Manual`](#ToleranceType.Manual) |
+| [`ProgramControlled`](#ToleranceType.ProgramControlled) |
 
 <a id="attribute-detail"></a>
 

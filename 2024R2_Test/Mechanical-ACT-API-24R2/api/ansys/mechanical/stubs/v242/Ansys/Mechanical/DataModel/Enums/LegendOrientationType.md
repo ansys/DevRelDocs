@@ -1,6 +1,6 @@
 # `LegendOrientationType`
 
-
+<a id="ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.LegendOrientationType"></a>
 
 #### *class* ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.LegendOrientationType
 
@@ -17,20 +17,20 @@ Specifies the Legend Orientation.
 ### Attributes
 
 | Name |
-| --------------------------------------------------- |
-| [`Vertical`](#LegendOrientationType.Vertical) |
+| ---------------------------------------------------------------------------------------------------------------------------------- |
 | [`Horizontal`](#LegendOrientationType.Horizontal) |
+| [`Vertical`](#LegendOrientationType.Vertical) |
 
 <a id="attribute-detail"></a>
 
 ## Attribute detail
 
-<a id="LegendOrientationType.Vertical"></a>
-
-### LegendOrientationType.Vertical *= 1*
-
 <a id="LegendOrientationType.Horizontal"></a>
 
 ### LegendOrientationType.Horizontal *= 2*
+
+<a id="LegendOrientationType.Vertical"></a>
+
+### LegendOrientationType.Vertical *= 1*
 
 

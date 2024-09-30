@@ -1,6 +1,6 @@
 # `WorkflowType`
 
-
+<a id="ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.MechanicalEnums.MeshWorkflow.WorkflowType"></a>
 
 #### *class* ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.MechanicalEnums.MeshWorkflow.WorkflowType
 
@@ -17,7 +17,7 @@ This enum is referenced in the “Steps” tree node and reflects the type of wo
 ### Attributes
 
 | Name |
-| -------------------------------------------------------------------- |
+| ------------------------------------------------------------------------------------------------------------------------------------------------------------ |
 | [`BEMAcoustics`](#WorkflowType.BEMAcoustics) |
 | [`FEMAcousticsExternal`](#WorkflowType.FEMAcousticsExternal) |
 | [`FEMAcousticsFSI`](#WorkflowType.FEMAcousticsFSI) |

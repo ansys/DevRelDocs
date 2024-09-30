@@ -1,6 +1,6 @@
 # `ENCommand`
 
-
+<a id="ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.FE.CDB.ENCommand"></a>
 
 #### *class* ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.FE.CDB.ENCommand
 
@@ -17,15 +17,31 @@ Represents an EN command.
 ### Properties
 
 | Name | Description |
-|-------------------------------|--------------------------------------|
-| [`Type`](#ENCommand.Type)     | Gets the type (attribute or node).   |
-| [`Values`](#ENCommand.Values) | Gets the values.                     |
-| [`Name`](#ENCommand.Name)     | Gets the command name.               |
-| [`Index`](#ENCommand.Index)   | Gets the command index.              |
+|-------------------------------|------------------------------------|
+| [`Index`](#ENCommand.Index)   | Gets the command index.            |
+| [`Name`](#ENCommand.Name)     | Gets the command name.             |
+| [`Type`](#ENCommand.Type)     | Gets the type (attribute or node). |
+| [`Values`](#ENCommand.Values) | Gets the values.                   |
 
 <a id="property-detail"></a>
 
 ## Property detail
+
+<a id="ENCommand.Index"></a>
+
+### *property* ENCommand.Index *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets the command index.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ENCommand.Name"></a>
+
+### *property* ENCommand.Name *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets the command name.
+
+<!-- !! processed by numpydoc !! -->
 
 <a id="ENCommand.Type"></a>
 
@@ -40,22 +56,6 @@ Gets the type (attribute or node).
 ### *property* ENCommand.Values *: System.Collections.Generic.IReadOnlyList[System.Int32] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the values.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="ENCommand.Name"></a>
-
-### *property* ENCommand.Name *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets the command name.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="ENCommand.Index"></a>
-
-### *property* ENCommand.Index *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets the command index.
 
 <!-- !! processed by numpydoc !! -->
 

@@ -1,6 +1,6 @@
 # `RandomSamplingType`
 
-
+<a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.RandomSamplingType"></a>
 
 #### *class* ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.RandomSamplingType
 
@@ -17,10 +17,10 @@ Specifies the RandomSamplingType.
 ### Attributes
 
 | Name |
-| ---------------------------------------------------------------------------------------------------------------------- |
-| [`All`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/RandomSamplingType.md#RandomSamplingType.All) |
-| [`Multiple`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/RandomSamplingType.md#RandomSamplingType.Multiple) |
-| [`Single`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/RandomSamplingType.md#RandomSamplingType.Single) |
+| -------------------------------------------- |
+| [`All`](#RandomSamplingType.All) |
+| [`Multiple`](#RandomSamplingType.Multiple) |
+| [`Single`](#RandomSamplingType.Single) |
 
 <a id="attribute-detail"></a>
 

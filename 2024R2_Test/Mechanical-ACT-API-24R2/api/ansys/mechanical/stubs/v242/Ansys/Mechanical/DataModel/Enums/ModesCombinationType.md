@@ -1,6 +1,6 @@
 # `ModesCombinationType`
 
-
+<a id="ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.ModesCombinationType"></a>
 
 #### *class* ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.ModesCombinationType
 
@@ -17,7 +17,7 @@ Specifies the ModesCombinationType.
 ### Attributes
 
 | Name |
-| -------------------------------------- |
+| ------------------------------------------------------------------------------------------------------------------ |
 | [`CQC`](#ModesCombinationType.CQC) |
 | [`NONE`](#ModesCombinationType.NONE) |
 | [`ROSE`](#ModesCombinationType.ROSE) |

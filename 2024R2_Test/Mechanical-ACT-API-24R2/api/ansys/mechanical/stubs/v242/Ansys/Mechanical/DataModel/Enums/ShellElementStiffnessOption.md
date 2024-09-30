@@ -1,6 +1,6 @@
 # `ShellElementStiffnessOption`
 
-
+<a id="ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.ShellElementStiffnessOption"></a>
 
 #### *class* ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.ShellElementStiffnessOption
 
@@ -17,7 +17,7 @@ Specifies the ShellElementStiffnessOption.
 ### Attributes
 
 | Name |
-| ----------------------------------------------------------------------------- |
+| ---------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | [`MembraneAndBending`](#ShellElementStiffnessOption.MembraneAndBending) |
 | [`MembraneOnly`](#ShellElementStiffnessOption.MembraneOnly) |
 | [`StressEvaluationOnly`](#ShellElementStiffnessOption.StressEvaluationOnly) |

@@ -1,6 +1,6 @@
 # `StitchSurfacesOnImport`
 
-
+<a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.GeometryImportPreference.StitchSurfacesOnImport"></a>
 
 #### *class* ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.GeometryImportPreference.StitchSurfacesOnImport
 
@@ -17,10 +17,10 @@ Used to specify if and how to join surfaces when imported.
 ### Attributes
 
 | Name |
-| -------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| [`None_`](../../../../../../v242/Ansys/Mechanical/DataModel/Enums/GeometryImportPreference/StitchSurfacesOnImport.md#StitchSurfacesOnImport.None_) |
-| [`Program`](../../../../../../v242/Ansys/Mechanical/DataModel/Enums/GeometryImportPreference/StitchSurfacesOnImport.md#StitchSurfacesOnImport.Program) |
-| [`User`](../../../../../../v242/Ansys/Mechanical/DataModel/Enums/GeometryImportPreference/StitchSurfacesOnImport.md#StitchSurfacesOnImport.User) |
+| ---------------------------------------------- |
+| [`None_`](#StitchSurfacesOnImport.None_) |
+| [`Program`](#StitchSurfacesOnImport.Program) |
+| [`User`](#StitchSurfacesOnImport.User) |
 
 <a id="attribute-detail"></a>
 

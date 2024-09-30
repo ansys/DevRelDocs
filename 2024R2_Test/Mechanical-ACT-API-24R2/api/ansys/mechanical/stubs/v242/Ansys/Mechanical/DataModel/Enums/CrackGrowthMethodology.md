@@ -1,6 +1,6 @@
 # `CrackGrowthMethodology`
 
-
+<a id="ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.CrackGrowthMethodology"></a>
 
 #### *class* ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.CrackGrowthMethodology
 
@@ -17,7 +17,7 @@ Specifies the CrackGrowthMethodology.
 ### Attributes
 
 | Name |
-| ---------------------------------------------------------------------- |
+| ---------------------------------------------------------------------------------------------------------------------------------------------------- |
 | [`CycleByCycle`](#CrackGrowthMethodology.CycleByCycle) |
 | [`LifeCyclePrediction`](#CrackGrowthMethodology.LifeCyclePrediction) |
 

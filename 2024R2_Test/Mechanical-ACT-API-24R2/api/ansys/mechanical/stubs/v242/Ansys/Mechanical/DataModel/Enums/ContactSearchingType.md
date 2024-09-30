@@ -1,6 +1,6 @@
 # `ContactSearchingType`
 
-
+<a id="ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.ContactSearchingType"></a>
 
 #### *class* ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.ContactSearchingType
 
@@ -17,7 +17,7 @@ Specifies the ContactSearchingType.
 ### Attributes
 
 | Name |
-| ---------------------------------------------------------------- |
+| -------------------------------------------------------------------------------------------------------------------------------------------- |
 | [`AcrossAssemblies`](#ContactSearchingType.AcrossAssemblies) |
 | [`AcrossBodies`](#ContactSearchingType.AcrossBodies) |
 | [`AcrossFiles`](#ContactSearchingType.AcrossFiles) |

@@ -1,6 +1,6 @@
 # `DSRBDContactDetection`
 
-
+<a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DSRBDContactDetection"></a>
 
 #### *class* ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DSRBDContactDetection
 
@@ -17,10 +17,10 @@ Specifies the DSRBDContactDetection.
 ### Attributes
 
 | Name |
-| ---------------------------------------------------------------------------------------------------------------------------------------------------- |
-| [`kCDGeometryBased`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/DSRBDContactDetection.md#DSRBDContactDetection.kCDGeometryBased) |
-| [`kCDMeshBased`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/DSRBDContactDetection.md#DSRBDContactDetection.kCDMeshBased) |
-| [`kCDProgramControlled`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/DSRBDContactDetection.md#DSRBDContactDetection.kCDProgramControlled) |
+| ----------------------------------------------------------------------- |
+| [`kCDGeometryBased`](#DSRBDContactDetection.kCDGeometryBased) |
+| [`kCDMeshBased`](#DSRBDContactDetection.kCDMeshBased) |
+| [`kCDProgramControlled`](#DSRBDContactDetection.kCDProgramControlled) |
 
 <a id="attribute-detail"></a>
 

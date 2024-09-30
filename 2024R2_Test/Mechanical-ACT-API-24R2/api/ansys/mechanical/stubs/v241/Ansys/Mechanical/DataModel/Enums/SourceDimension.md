@@ -1,6 +1,6 @@
 # `SourceDimension`
 
-
+<a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.SourceDimension"></a>
 
 #### *class* ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.SourceDimension
 
@@ -17,9 +17,9 @@ Specifies the SourceDimension.
 ### Attributes
 
 | Name |
-| ------------------------------------------------------------------------------------------------------------------------------------ |
-| [`SourceDimension2D`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/SourceDimension.md#SourceDimension.SourceDimension2D) |
-| [`SourceDimension3D`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/SourceDimension.md#SourceDimension.SourceDimension3D) |
+| ------------------------------------------------------------- |
+| [`SourceDimension2D`](#SourceDimension.SourceDimension2D) |
+| [`SourceDimension3D`](#SourceDimension.SourceDimension3D) |
 
 <a id="attribute-detail"></a>
 

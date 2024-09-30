@@ -1,6 +1,6 @@
 # `FatigueSensitivityType`
 
-
+<a id="ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.FatigueSensitivityType"></a>
 
 #### *class* ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.FatigueSensitivityType
 
@@ -17,25 +17,25 @@ Specifies the RadiationType.
 ### Attributes
 
 | Name |
-| -------------------------------------------------------- |
-| [`Life`](#FatigueSensitivityType.Life) |
-| [`FactorSaftey`](#FatigueSensitivityType.FactorSaftey) |
+| -------------------------------------------------------------------------------------------------------------------------------------- |
 | [`Damage`](#FatigueSensitivityType.Damage) |
+| [`FactorSaftey`](#FatigueSensitivityType.FactorSaftey) |
+| [`Life`](#FatigueSensitivityType.Life) |
 
 <a id="attribute-detail"></a>
 
 ## Attribute detail
 
-<a id="FatigueSensitivityType.Life"></a>
+<a id="FatigueSensitivityType.Damage"></a>
 
-### FatigueSensitivityType.Life *= 60*
+### FatigueSensitivityType.Damage *= 62*
 
 <a id="FatigueSensitivityType.FactorSaftey"></a>
 
 ### FatigueSensitivityType.FactorSaftey *= 61*
 
-<a id="FatigueSensitivityType.Damage"></a>
+<a id="FatigueSensitivityType.Life"></a>
 
-### FatigueSensitivityType.Damage *= 62*
+### FatigueSensitivityType.Life *= 60*
 
 

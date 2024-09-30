@@ -1,6 +1,6 @@
 # `Model2DBehavior`
 
-
+<a id="ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.Model2DBehavior"></a>
 
 #### *class* ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.Model2DBehavior
 
@@ -17,7 +17,7 @@ Specifies the Model2DBehavior.
 ### Attributes
 
 | Name |
-| --------------------------------------------------------------------- |
+| -------------------------------------------------------------------------------------------------------------------------------------------- |
 | [`AxiSymmetric`](#Model2DBehavior.AxiSymmetric) |
 | [`ByBody`](#Model2DBehavior.ByBody) |
 | [`GeneralAxisymmetric`](#Model2DBehavior.GeneralAxisymmetric) |

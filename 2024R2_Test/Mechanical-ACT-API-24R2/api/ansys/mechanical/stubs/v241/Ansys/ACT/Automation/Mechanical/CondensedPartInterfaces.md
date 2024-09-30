@@ -1,6 +1,6 @@
 # `CondensedPartInterfaces`
 
-
+<a id="ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.CondensedPartInterfaces"></a>
 
 #### *class* ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.CondensedPartInterfaces
 
@@ -18,15 +18,15 @@ A collection of condensed part interface.
 
 | Name | Description |
 |-------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------|
-| [`Clear`](../../../../../v242/Ansys/ACT/Automation/Mechanical/CondensedPartInterfaces.md#CondensedPartInterfaces.Clear)       | Clears all the condensed part interfaces           |
-| [`Add`](../../../../../v242/Ansys/ACT/Automation/Mechanical/CondensedPartInterfaces.md#CondensedPartInterfaces.Add)           | Add new condensed part interface                   |
-| [`RemoveAt`](../../../../../v242/Ansys/ACT/Automation/Mechanical/CondensedPartInterfaces.md#CondensedPartInterfaces.RemoveAt) | Remove condensed part interface at the given index |
+| [`Add`](#CondensedPartInterfaces.Add)           | Add new condensed part interface                   |
+| [`Clear`](#CondensedPartInterfaces.Clear)       | Clears all the condensed part interfaces           |
+| [`RemoveAt`](#CondensedPartInterfaces.RemoveAt) | Remove condensed part interface at the given index |
 
 ### Properties
 
 | Name | Description |
 |-------------------------------------------------------------------------------------------------------------------------|------------------|
-| [`Item`](../../../../../v242/Ansys/ACT/Automation/Mechanical/CondensedPartInterfaces.md#CondensedPartInterfaces.Item)   | Item property.   |
+| [`Item`](#CondensedPartInterfaces.Item)   | Item property.   |
 
 <a id="property-detail"></a>
 
@@ -44,19 +44,19 @@ Item property.
 
 ## Method detail
 
-<a id="CondensedPartInterfaces.Clear"></a>
-
-### CondensedPartInterfaces.Clear()
-
-Clears all the condensed part interfaces
-
-<!-- !! processed by numpydoc !! -->
-
 <a id="CondensedPartInterfaces.Add"></a>
 
 ### CondensedPartInterfaces.Add()
 
 Add new condensed part interface
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="CondensedPartInterfaces.Clear"></a>
+
+### CondensedPartInterfaces.Clear()
+
+Clears all the condensed part interfaces
 
 <!-- !! processed by numpydoc !! -->
 

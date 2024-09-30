@@ -1,6 +1,6 @@
 # `MeshWorkflowInput`
 
-
+<a id="ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.MeshWorkflowInput"></a>
 
 #### *class* ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.MeshWorkflowInput
 
@@ -17,70 +17,52 @@ Object that wraps IDSEngineeringModelGeometryDomainAuto.
 ### Methods
 
 | Name | Description |
-|-------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------|
-| [`Delete`](../../../../../v242/Ansys/ACT/Automation/Mechanical/MeshWorkflowInput.md#MeshWorkflowInput.Delete)                                   | Run the Delete action.                                                            |
-| [`GetChildren`](../../../../../v242/Ansys/ACT/Automation/Mechanical/MeshWorkflowInput.md#id1)                                                   | Gets the list of children, filtered by type.                                      |
-| [`GetChildren`](../../../../../v242/Ansys/ACT/Automation/Mechanical/MeshWorkflowInput.md#id1)                                                   | Gets the list of children, filtered by type.                                      |
-| [`AddFigure`](../../../../../v242/Ansys/ACT/Automation/Mechanical/MeshWorkflowInput.md#MeshWorkflowInput.AddFigure)                             | Creates a new child Figure.                                                       |
-| [`AddImage`](../../../../../v242/Ansys/ACT/Automation/Mechanical/MeshWorkflowInput.md#MeshWorkflowInput.AddImage)                               | Creates a new child Image.                                                        |
-| [`Activate`](../../../../../v242/Ansys/ACT/Automation/Mechanical/MeshWorkflowInput.md#MeshWorkflowInput.Activate)                               | Activate the current object.                                                      |
-| [`CopyTo`](../../../../../v242/Ansys/ACT/Automation/Mechanical/MeshWorkflowInput.md#MeshWorkflowInput.CopyTo)                                   | Copies all visible properties from this object to another.                        |
-| [`Duplicate`](../../../../../v242/Ansys/ACT/Automation/Mechanical/MeshWorkflowInput.md#MeshWorkflowInput.Duplicate)                             | Creates a copy of the current DataModelObject.                                    |
-| [`GroupAllSimilarChildren`](../../../../../v242/Ansys/ACT/Automation/Mechanical/MeshWorkflowInput.md#MeshWorkflowInput.GroupAllSimilarChildren) | Run the GroupAllSimilarChildren action.                                           |
-| [`GroupSimilarObjects`](../../../../../v242/Ansys/ACT/Automation/Mechanical/MeshWorkflowInput.md#MeshWorkflowInput.GroupSimilarObjects)         | Run the GroupSimilarObjects action.                                               |
-| [`PropertyByName`](../../../../../v242/Ansys/ACT/Automation/Mechanical/MeshWorkflowInput.md#MeshWorkflowInput.PropertyByName)                   | Get a property by its unique name.                                                |
-| [`PropertyByAPIName`](../../../../../v242/Ansys/ACT/Automation/Mechanical/MeshWorkflowInput.md#MeshWorkflowInput.PropertyByAPIName)             | Get a property by its API name.                                                   |
-| [`CreateParameter`](../../../../../v242/Ansys/ACT/Automation/Mechanical/MeshWorkflowInput.md#MeshWorkflowInput.CreateParameter)                 | Creates a new parameter for a Property.                                           |
-| [`GetParameter`](../../../../../v242/Ansys/ACT/Automation/Mechanical/MeshWorkflowInput.md#MeshWorkflowInput.GetParameter)                       | Gets the parameter corresponding to the given property.                           |
-| [`RemoveParameter`](../../../../../v242/Ansys/ACT/Automation/Mechanical/MeshWorkflowInput.md#MeshWorkflowInput.RemoveParameter)                 | Removes the parameter from the parameter set corresponding to the given property. |
+|-------------------------------------------------------------------------|-----------------------------------------------------------------------------------|
+| [`Activate`](#MeshWorkflowInput.Activate)                               | Activate the current object.                                                      |
+| [`AddFigure`](#MeshWorkflowInput.AddFigure)                             | Creates a new child Figure.                                                       |
+| [`AddImage`](#MeshWorkflowInput.AddImage)                               | Creates a new child Image.                                                        |
+| [`CopyTo`](#MeshWorkflowInput.CopyTo)                                   | Copies all visible properties from this object to another.                        |
+| [`CreateParameter`](#MeshWorkflowInput.CreateParameter)                 | Creates a new parameter for a Property.                                           |
+| [`Delete`](#MeshWorkflowInput.Delete)                                   | Run the Delete action.                                                            |
+| [`Duplicate`](#MeshWorkflowInput.Duplicate)                             | Creates a copy of the current DataModelObject.                                    |
+| [`GetChildren`](#MeshWorkflowInput.GetChildren)                         | Gets the list of children, filtered by type.                                      |
+| [`GetParameter`](#MeshWorkflowInput.GetParameter)                       | Gets the parameter corresponding to the given property.                           |
+| [`GroupAllSimilarChildren`](#MeshWorkflowInput.GroupAllSimilarChildren) | Run the GroupAllSimilarChildren action.                                           |
+| [`GroupSimilarObjects`](#MeshWorkflowInput.GroupSimilarObjects)         | Run the GroupSimilarObjects action.                                               |
+| [`PropertyByAPIName`](#MeshWorkflowInput.PropertyByAPIName)             | Get a property by its API name.                                                   |
+| [`PropertyByName`](#MeshWorkflowInput.PropertyByName)                   | Get a property by its unique name.                                                |
+| [`RemoveParameter`](#MeshWorkflowInput.RemoveParameter)                 | Removes the parameter from the parameter set corresponding to the given property. |
 
 ### Properties
 
 | Name | Description |
-|-------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------|
-| [`Location`](../../../../../v242/Ansys/ACT/Automation/Mechanical/MeshWorkflowInput.md#MeshWorkflowInput.Location)                               | Gets or sets the Location.                                    |
-| [`InternalObject`](../../../../../v242/Ansys/ACT/Automation/Mechanical/MeshWorkflowInput.md#id0)                                                | Gets the internal object. For advanced usage only.            |
-| [`DataModelObjectCategory`](../../../../../v242/Ansys/ACT/Automation/Mechanical/MeshWorkflowInput.md#MeshWorkflowInput.DataModelObjectCategory) | Gets the current DataModelObject's category.                  |
-| [`Children`](../../../../../v242/Ansys/ACT/Automation/Mechanical/MeshWorkflowInput.md#MeshWorkflowInput.Children)                               | Gets the list of children.                                    |
-| [`Figures`](../../../../../v242/Ansys/ACT/Automation/Mechanical/MeshWorkflowInput.md#MeshWorkflowInput.Figures)                                 | Gets the list of associated figures.                          |
-| [`Images`](../../../../../v242/Ansys/ACT/Automation/Mechanical/MeshWorkflowInput.md#MeshWorkflowInput.Images)                                   | Gets the list of associated images.                           |
-| [`InternalObject`](../../../../../v242/Ansys/ACT/Automation/Mechanical/MeshWorkflowInput.md#id0)                                                | Gets the internal object. For advanced usage only.            |
-| [`Properties`](../../../../../v242/Ansys/ACT/Automation/Mechanical/MeshWorkflowInput.md#MeshWorkflowInput.Properties)                           | Gets the list of properties for this object.                  |
-| [`VisibleProperties`](../../../../../v242/Ansys/ACT/Automation/Mechanical/MeshWorkflowInput.md#MeshWorkflowInput.VisibleProperties)             | Gets the list of properties that are visible for this object. |
+|-------------------------------------------------------------------------|---------------------------------------------------------------|
+| [`Children`](#MeshWorkflowInput.Children)                               | Gets the list of children.                                    |
+| [`DataModelObjectCategory`](#MeshWorkflowInput.DataModelObjectCategory) | Gets the current DataModelObject’s category.                  |
+| [`Figures`](#MeshWorkflowInput.Figures)                                 | Gets the list of associated figures.                          |
+| [`Images`](#MeshWorkflowInput.Images)                                   | Gets the list of associated images.                           |
+| [`InternalObject`](#MeshWorkflowInput.InternalObject)                   | Gets the internal object. For advanced usage only.            |
+| [`Location`](#MeshWorkflowInput.Location)                               | Gets or sets the Location.                                    |
+| [`Properties`](#MeshWorkflowInput.Properties)                           | Gets the list of properties for this object.                  |
+| [`VisibleProperties`](#MeshWorkflowInput.VisibleProperties)             | Gets the list of properties that are visible for this object. |
 
 <a id="property-detail"></a>
 
 ## Property detail
-
-<a id="MeshWorkflowInput.Location"></a>
-
-### *property* MeshWorkflowInput.Location *: Ansys.ACT.Interfaces.Common.ISelectionInfo | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the Location.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="MeshWorkflowInput.InternalObject"></a>
-
-### *property* MeshWorkflowInput.InternalObject *: Ansys.Common.Interop.DSObjectsAuto.IDSEngineeringModelGeometryDomainAuto | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets the internal object. For advanced usage only.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="MeshWorkflowInput.DataModelObjectCategory"></a>
-
-### *property* MeshWorkflowInput.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets the current DataModelObject's category.
-
-<!-- !! processed by numpydoc !! -->
 
 <a id="MeshWorkflowInput.Children"></a>
 
 ### *property* MeshWorkflowInput.Children *: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of children.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="MeshWorkflowInput.DataModelObjectCategory"></a>
+
+### *property* MeshWorkflowInput.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../v242/Ansys/Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets the current DataModelObject’s category.
 
 <!-- !! processed by numpydoc !! -->
 
@@ -100,11 +82,19 @@ Gets the list of associated images.
 
 <!-- !! processed by numpydoc !! -->
 
-<a id="id0"></a>
+<a id="MeshWorkflowInput.InternalObject"></a>
 
-### *property* MeshWorkflowInput.InternalObject *: System.Object | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* MeshWorkflowInput.InternalObject *: Ansys.Common.Interop.DSObjectsAuto.IDSEngineeringModelGeometryDomainAuto | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the internal object. For advanced usage only.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="MeshWorkflowInput.Location"></a>
+
+### *property* MeshWorkflowInput.Location *: Ansys.ACT.Interfaces.Common.ISelectionInfo | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the Location.
 
 <!-- !! processed by numpydoc !! -->
 
@@ -128,27 +118,11 @@ Gets the list of properties that are visible for this object.
 
 ## Method detail
 
-<a id="MeshWorkflowInput.Delete"></a>
+<a id="MeshWorkflowInput.Activate"></a>
 
-### MeshWorkflowInput.Delete()
+### MeshWorkflowInput.Activate()
 
-Run the Delete action.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="MeshWorkflowInput.GetChildren"></a>
-
-### MeshWorkflowInput.GetChildren(recurses: System.Boolean, children: System.Collections.Generic.IList[ChildrenType])
-
-Gets the list of children, filtered by type.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="id1"></a>
-
-### MeshWorkflowInput.GetChildren(category: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory), recurses: System.Boolean, children: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject])
-
-Gets the list of children, filtered by type.
+Activate the current object.
 
 <!-- !! processed by numpydoc !! -->
 
@@ -164,17 +138,11 @@ Creates a new child Figure.
 
 ### MeshWorkflowInput.AddImage(filePath: System.String)
 
+```text
 Creates a new child Image.
 If a filePath is provided, the image will be loaded from that file,
 if not, the image will be a screen capture of the Geometry window.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="MeshWorkflowInput.Activate"></a>
-
-### MeshWorkflowInput.Activate()
-
-Activate the current object.
+```
 
 <!-- !! processed by numpydoc !! -->
 
@@ -186,11 +154,43 @@ Copies all visible properties from this object to another.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="MeshWorkflowInput.CreateParameter"></a>
+
+### MeshWorkflowInput.CreateParameter(propName: System.String)
+
+Creates a new parameter for a Property.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="MeshWorkflowInput.Delete"></a>
+
+### MeshWorkflowInput.Delete()
+
+Run the Delete action.
+
+<!-- !! processed by numpydoc !! -->
+
 <a id="MeshWorkflowInput.Duplicate"></a>
 
 ### MeshWorkflowInput.Duplicate()
 
 Creates a copy of the current DataModelObject.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="MeshWorkflowInput.GetChildren"></a>
+
+### MeshWorkflowInput.GetChildren(recurses: System.Boolean, children: System.Collections.Generic.IList[ChildrenType])
+
+Gets the list of children, filtered by type.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="MeshWorkflowInput.GetParameter"></a>
+
+### MeshWorkflowInput.GetParameter(propName: System.String)
+
+Gets the parameter corresponding to the given property.
 
 <!-- !! processed by numpydoc !! -->
 
@@ -210,36 +210,22 @@ Run the GroupSimilarObjects action.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="MeshWorkflowInput.PropertyByAPIName"></a>
+
+### MeshWorkflowInput.PropertyByAPIName(name: System.String)
+
+```text
+Get a property by its API name.
+If multiple properties have the same API Name, only the first property with that name will be returned.
+```
+
+<!-- !! processed by numpydoc !! -->
+
 <a id="MeshWorkflowInput.PropertyByName"></a>
 
 ### MeshWorkflowInput.PropertyByName(name: System.String)
 
 Get a property by its unique name.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="MeshWorkflowInput.PropertyByAPIName"></a>
-
-### MeshWorkflowInput.PropertyByAPIName(name: System.String)
-
-Get a property by its API name.
-If multiple properties have the same API Name, only the first property with that name will be returned.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="MeshWorkflowInput.CreateParameter"></a>
-
-### MeshWorkflowInput.CreateParameter(propName: System.String)
-
-Creates a new parameter for a Property.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="MeshWorkflowInput.GetParameter"></a>
-
-### MeshWorkflowInput.GetParameter(propName: System.String)
-
-Gets the parameter corresponding to the given property.
 
 <!-- !! processed by numpydoc !! -->
 

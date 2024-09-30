@@ -1,6 +1,6 @@
 # `EXDEulerTrackType`
 
-
+<a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.EXDEulerTrackType"></a>
 
 #### *class* ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.EXDEulerTrackType
 
@@ -15,9 +15,9 @@ Bases: [`enum.Enum`](https://docs.python.org/3/library/enum.html#enum.Enum)
 ### Attributes
 
 | Name |
-| ------------------------------------------------------------------------------------------------------------------------ |
-| [`ByBody`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/EXDEulerTrackType.md#EXDEulerTrackType.ByBody) |
-| [`ByMaterial`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/EXDEulerTrackType.md#EXDEulerTrackType.ByMaterial) |
+| ----------------------------------------------- |
+| [`ByBody`](#EXDEulerTrackType.ByBody) |
+| [`ByMaterial`](#EXDEulerTrackType.ByMaterial) |
 
 <a id="attribute-detail"></a>
 

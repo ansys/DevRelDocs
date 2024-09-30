@@ -1,6 +1,6 @@
 # `SurfaceCoatingStiffnessBehavior`
 
-
+<a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.SurfaceCoatingStiffnessBehavior"></a>
 
 #### *class* ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.SurfaceCoatingStiffnessBehavior
 
@@ -17,10 +17,10 @@ Specifies the SurfaceCoatingStiffnessBehavior.
 ### Attributes
 
 | Name |
-| ------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| [`MembraneAndBending`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/SurfaceCoatingStiffnessBehavior.md#SurfaceCoatingStiffnessBehavior.MembraneAndBending) |
-| [`MembraneOnly`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/SurfaceCoatingStiffnessBehavior.md#SurfaceCoatingStiffnessBehavior.MembraneOnly) |
-| [`StressEvaluationOnly`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/SurfaceCoatingStiffnessBehavior.md#SurfaceCoatingStiffnessBehavior.StressEvaluationOnly) |
+| --------------------------------------------------------------------------------- |
+| [`MembraneAndBending`](#SurfaceCoatingStiffnessBehavior.MembraneAndBending) |
+| [`MembraneOnly`](#SurfaceCoatingStiffnessBehavior.MembraneOnly) |
+| [`StressEvaluationOnly`](#SurfaceCoatingStiffnessBehavior.StressEvaluationOnly) |
 
 <a id="attribute-detail"></a>
 

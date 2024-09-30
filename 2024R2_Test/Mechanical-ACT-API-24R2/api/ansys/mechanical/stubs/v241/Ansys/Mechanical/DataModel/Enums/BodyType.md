@@ -1,6 +1,6 @@
 # `BodyType`
 
-
+<a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.BodyType"></a>
 
 #### *class* ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.BodyType
 
@@ -17,14 +17,18 @@ Specifies the BodyType.
 ### Attributes
 
 | Name |
-| ------------------------------------------------------------------------------------------------ |
-| [`Solid`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/BodyType.md#BodyType.Solid) |
-| [`Surface`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/BodyType.md#BodyType.Surface) |
-| [`Line`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/BodyType.md#BodyType.Line) |
+| -------------------------------- |
+| [`Line`](#BodyType.Line) |
+| [`Solid`](#BodyType.Solid) |
+| [`Surface`](#BodyType.Surface) |
 
 <a id="attribute-detail"></a>
 
 ## Attribute detail
+
+<a id="BodyType.Line"></a>
+
+### BodyType.Line *= 17*
 
 <a id="BodyType.Solid"></a>
 
@@ -33,9 +37,5 @@ Specifies the BodyType.
 <a id="BodyType.Surface"></a>
 
 ### BodyType.Surface *= 16*
-
-<a id="BodyType.Line"></a>
-
-### BodyType.Line *= 17*
 
 

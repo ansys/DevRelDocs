@@ -1,6 +1,6 @@
 # `PreadCommand`
 
-
+<a id="ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.FE.CDB.PreadCommand"></a>
 
 #### *class* ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.FE.CDB.PreadCommand
 
@@ -24,10 +24,10 @@ PREAD command.
 
 | Name | Description |
 |------------------------------------------------------------------------------------------------------------------|-------------------------|
-| [`Aname`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/FE/CDB/PreadCommand.md#PreadCommand.Aname)   | Gets the table name.    |
-| [`Values`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/FE/CDB/PreadCommand.md#PreadCommand.Values) | Gets the values.        |
-| [`Name`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/FE/CDB/PreadCommand.md#PreadCommand.Name)     | Gets the command name.  |
-| [`Index`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/FE/CDB/PreadCommand.md#PreadCommand.Index)   | Gets the command index. |
+| [`Aname`](#PreadCommand.Aname)   | Gets the table name.    |
+| [`Index`](#PreadCommand.Index)   | Gets the command index. |
+| [`Name`](#PreadCommand.Name)     | Gets the command name.  |
+| [`Values`](#PreadCommand.Values) | Gets the values.        |
 
 <a id="property-detail"></a>
 
@@ -41,11 +41,11 @@ Gets the table name.
 
 <!-- !! processed by numpydoc !! -->
 
-<a id="PreadCommand.Values"></a>
+<a id="PreadCommand.Index"></a>
 
-### *property* PreadCommand.Values *: System.Collections.Generic.IReadOnlyList[System.Double] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* PreadCommand.Index *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets the values.
+Gets the command index.
 
 <!-- !! processed by numpydoc !! -->
 
@@ -57,11 +57,11 @@ Gets the command name.
 
 <!-- !! processed by numpydoc !! -->
 
-<a id="PreadCommand.Index"></a>
+<a id="PreadCommand.Values"></a>
 
-### *property* PreadCommand.Index *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* PreadCommand.Values *: System.Collections.Generic.IReadOnlyList[System.Double] | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets the command index.
+Gets the values.
 
 <!-- !! processed by numpydoc !! -->
 

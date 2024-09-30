@@ -1,6 +1,6 @@
 # `AnalysisTypeDimensionEnum`
 
-
+<a id="ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.AnalysisTypeDimensionEnum"></a>
 
 #### *class* ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.AnalysisTypeDimensionEnum
 
@@ -17,20 +17,20 @@ To select the analysis type dimension for the Model Import Object.
 ### Attributes
 
 | Name |
-| ----------------------------------------------- |
-| [`TwoD`](#AnalysisTypeDimensionEnum.TwoD) |
+| ---------------------------------------------------------------------------------------------------------------------------------- |
 | [`ThreeD`](#AnalysisTypeDimensionEnum.ThreeD) |
+| [`TwoD`](#AnalysisTypeDimensionEnum.TwoD) |
 
 <a id="attribute-detail"></a>
 
 ## Attribute detail
 
-<a id="AnalysisTypeDimensionEnum.TwoD"></a>
-
-### AnalysisTypeDimensionEnum.TwoD *= 1*
-
 <a id="AnalysisTypeDimensionEnum.ThreeD"></a>
 
 ### AnalysisTypeDimensionEnum.ThreeD *= 2*
+
+<a id="AnalysisTypeDimensionEnum.TwoD"></a>
+
+### AnalysisTypeDimensionEnum.TwoD *= 1*
 
 

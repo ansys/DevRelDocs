@@ -1,6 +1,6 @@
 # `IDataSeries`
 
-
+<a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.Interfaces.IDataSeries"></a>
 
 #### *class* ansys.mechanical.stubs.v241.Ansys.Mechanical.Interfaces.IDataSeries
 
@@ -17,12 +17,12 @@ IDataSeries interface.
 ### Properties
 
 | Name | Description |
-|--------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------|
-| [`DataType`](../../../../v242/Ansys/Mechanical/Interfaces/IDataSeries.md#IDataSeries.DataType)         |                                                                                                |
-| [`Name`](../../../../v242/Ansys/Mechanical/Interfaces/IDataSeries.md#IDataSeries.Name)                 | Gets or sets the name of the data series.                                                      |
-| [`QuantityName`](../../../../v242/Ansys/Mechanical/Interfaces/IDataSeries.md#IDataSeries.QuantityName) | Gets or sets the quantity name of the data series, e.g., “Length”, “Pressure”, or “Heat Flux”. |
-| [`Unit`](../../../../v242/Ansys/Mechanical/Interfaces/IDataSeries.md#IDataSeries.Unit)                 | Gets or sets a string representation of the data series units, e.g., “m”,                      |
-| [`Values`](../../../../v242/Ansys/Mechanical/Interfaces/IDataSeries.md#IDataSeries.Values)             | Explicitly gets or sets the values of the data series.                                         |
+|---------------------------------------------|------------------------------------------------------------------------------------------------|
+| [`DataType`](#IDataSeries.DataType)         |                                                                                                |
+| [`Name`](#IDataSeries.Name)                 | Gets or sets the name of the data series.                                                      |
+| [`QuantityName`](#IDataSeries.QuantityName) | Gets or sets the quantity name of the data series, e.g., “Length”, “Pressure”, or “Heat Flux”. |
+| [`Unit`](#IDataSeries.Unit)                 | Gets or sets a string representation of the data series units, e.g., “m”,                      |
+| [`Values`](#IDataSeries.Values)             | Explicitly gets or sets the values of the data series.                                         |
 
 <a id="property-detail"></a>
 

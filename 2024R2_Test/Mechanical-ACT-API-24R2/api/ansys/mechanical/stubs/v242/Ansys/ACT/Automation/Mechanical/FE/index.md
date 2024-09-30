@@ -15,11 +15,11 @@
 ### Classes
 
 | Name | Description |
-|------------------------------------------------------------------------------------------------------------------------------|------------------------------|
-| [`CommandColl`](CommandColl.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.FE.CommandColl)                   | Collection of commands.      |
-| [`CommandRepository`](CommandRepository.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.FE.CommandRepository) | Command repository.          |
-| [`Command`](Command.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.FE.Command)                               | Base class for all Commands. |
-| [`FEParser`](FEParser.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.FE.FEParser)                            | FE parser object.            |
+|------------------------------------------------------------------------------------------------------------------------------|--------------------------------|
+| [`Command`](Command.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.FE.Command)                               | Base class for all Commands.   |
+| [`CommandColl`](CommandColl.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.FE.CommandColl)                   | Collection of commands.        |
+| [`CommandRepository`](CommandRepository.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.FE.CommandRepository) | Command repository.            |
+| [`FEParser`](FEParser.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.FE.FEParser)                            | FE parser object.              |
 
 ### Enums
 

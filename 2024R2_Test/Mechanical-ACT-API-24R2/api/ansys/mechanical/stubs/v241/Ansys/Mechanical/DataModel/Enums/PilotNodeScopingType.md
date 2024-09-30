@@ -1,6 +1,6 @@
 # `PilotNodeScopingType`
 
-
+<a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.PilotNodeScopingType"></a>
 
 #### *class* ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.PilotNodeScopingType
 
@@ -17,20 +17,20 @@ Specifies the PilotNodeScopingType.
 ### Attributes
 
 | Name |
-| ------------------------------------------------------------------------------------------------------------------------------------------ |
-| [`Point`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/PilotNodeScopingType.md#PilotNodeScopingType.Point) |
-| [`CoordinateSystem`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/PilotNodeScopingType.md#PilotNodeScopingType.CoordinateSystem) |
+| ---------------------------------------------------------------- |
+| [`CoordinateSystem`](#PilotNodeScopingType.CoordinateSystem) |
+| [`Point`](#PilotNodeScopingType.Point) |
 
 <a id="attribute-detail"></a>
 
 ## Attribute detail
 
-<a id="PilotNodeScopingType.Point"></a>
-
-### PilotNodeScopingType.Point *= 1*
-
 <a id="PilotNodeScopingType.CoordinateSystem"></a>
 
 ### PilotNodeScopingType.CoordinateSystem *= 0*
+
+<a id="PilotNodeScopingType.Point"></a>
+
+### PilotNodeScopingType.Point *= 1*
 
 

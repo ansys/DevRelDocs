@@ -1,6 +1,6 @@
 # `LoadedArea`
 
-
+<a id="ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.LoadedArea"></a>
 
 #### *class* ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.LoadedArea
 
@@ -17,7 +17,7 @@ Specifies the LoadedArea.
 ### Attributes
 
 | Name |
-| -------------------------------------- |
+| -------------------------------------------------------------------------------------------------------- |
 | [`Deformed`](#LoadedArea.Deformed) |
 | [`Initial`](#LoadedArea.Initial) |
 

@@ -1,6 +1,6 @@
 # `SpectrumType`
 
-
+<a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.SpectrumType"></a>
 
 #### *class* ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.SpectrumType
 
@@ -17,10 +17,10 @@ Specifies the SpectrumType.
 ### Attributes
 
 | Name |
-| ------------------------------------------------------------------------------------------------------------------------ |
-| [`MultiplePoints`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/SpectrumType.md#SpectrumType.MultiplePoints) |
-| [`None_`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/SpectrumType.md#SpectrumType.None_) |
-| [`SinglePoint`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/SpectrumType.md#SpectrumType.SinglePoint) |
+| ---------------------------------------------------- |
+| [`MultiplePoints`](#SpectrumType.MultiplePoints) |
+| [`None_`](#SpectrumType.None_) |
+| [`SinglePoint`](#SpectrumType.SinglePoint) |
 
 <a id="attribute-detail"></a>
 

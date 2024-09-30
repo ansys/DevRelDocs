@@ -1,6 +1,6 @@
 # `Format`
 
-
+<a id="ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.GeometryImportPreference.Format"></a>
 
 #### *class* ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.GeometryImportPreference.Format
 
@@ -17,7 +17,7 @@ Specifies how to interpret the geometry file.
 ### Attributes
 
 | Name |
-| ------------------------------------ |
+| ------------------------------------------------------------------------------------------------------------------------------ |
 | [`Automatic`](#Format.Automatic) |
 
 <a id="attribute-detail"></a>

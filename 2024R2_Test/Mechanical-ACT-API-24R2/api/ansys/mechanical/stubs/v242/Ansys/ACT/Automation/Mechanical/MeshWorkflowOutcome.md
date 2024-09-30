@@ -1,6 +1,6 @@
 # `MeshWorkflowOutcome`
 
-
+<a id="ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.MeshWorkflowOutcome"></a>
 
 #### *class* ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.MeshWorkflowOutcome
 
@@ -17,34 +17,32 @@ Object that wraps IDSEngineeringModelOutcome.
 ### Methods
 
 | Name | Description |
-|---------------------------------------------------------------------------|-----------------------------------------------------------------------------------|
-| [`Delete`](#MeshWorkflowOutcome.Delete)                                   | Run the Delete action.                                                            |
-| [`GetChildren`](#id1)                                                     | Gets the list of children, filtered by type.                                      |
-| [`GetChildren`](#id1)                                                     | Gets the list of children, filtered by type.                                      |
+|-----------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------|
+| [`Activate`](#MeshWorkflowOutcome.Activate)                               | Activate the current object.                                                      |
 | [`AddFigure`](#MeshWorkflowOutcome.AddFigure)                             | Creates a new child Figure.                                                       |
 | [`AddImage`](#MeshWorkflowOutcome.AddImage)                               | Creates a new child Image.                                                        |
-| [`Activate`](#MeshWorkflowOutcome.Activate)                               | Activate the current object.                                                      |
 | [`CopyTo`](#MeshWorkflowOutcome.CopyTo)                                   | Copies all visible properties from this object to another.                        |
+| [`CreateParameter`](#MeshWorkflowOutcome.CreateParameter)                 | Creates a new parameter for a Property.                                           |
+| [`Delete`](#MeshWorkflowOutcome.Delete)                                   | Run the Delete action.                                                            |
 | [`Duplicate`](#MeshWorkflowOutcome.Duplicate)                             | Creates a copy of the current DataModelObject.                                    |
+| [`GetChildren`](#MeshWorkflowOutcome.GetChildren)                         | Gets the list of children, filtered by type.                                      |
+| [`GetParameter`](#MeshWorkflowOutcome.GetParameter)                       | Gets the parameter corresponding to the given property.                           |
 | [`GroupAllSimilarChildren`](#MeshWorkflowOutcome.GroupAllSimilarChildren) | Run the GroupAllSimilarChildren action.                                           |
 | [`GroupSimilarObjects`](#MeshWorkflowOutcome.GroupSimilarObjects)         | Run the GroupSimilarObjects action.                                               |
-| [`PropertyByName`](#MeshWorkflowOutcome.PropertyByName)                   | Get a property by its unique name.                                                |
 | [`PropertyByAPIName`](#MeshWorkflowOutcome.PropertyByAPIName)             | Get a property by its API name.                                                   |
-| [`CreateParameter`](#MeshWorkflowOutcome.CreateParameter)                 | Creates a new parameter for a Property.                                           |
-| [`GetParameter`](#MeshWorkflowOutcome.GetParameter)                       | Gets the parameter corresponding to the given property.                           |
+| [`PropertyByName`](#MeshWorkflowOutcome.PropertyByName)                   | Get a property by its unique name.                                                |
 | [`RemoveParameter`](#MeshWorkflowOutcome.RemoveParameter)                 | Removes the parameter from the parameter set corresponding to the given property. |
 
 ### Properties
 
 | Name | Description |
-|---------------------------------------------------------------------------|---------------------------------------------------------------|
-| [`OutcomeType`](#MeshWorkflowOutcome.OutcomeType)                         | Returns the type of the control.                              |
-| [`InternalObject`](#id0)                                                  | Gets the internal object. For advanced usage only.            |
-| [`DataModelObjectCategory`](#MeshWorkflowOutcome.DataModelObjectCategory) | Gets the current DataModelObject's category.                  |
+|-----------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------|
 | [`Children`](#MeshWorkflowOutcome.Children)                               | Gets the list of children.                                    |
+| [`DataModelObjectCategory`](#MeshWorkflowOutcome.DataModelObjectCategory) | Gets the current DataModelObject’s category.                  |
 | [`Figures`](#MeshWorkflowOutcome.Figures)                                 | Gets the list of associated figures.                          |
 | [`Images`](#MeshWorkflowOutcome.Images)                                   | Gets the list of associated images.                           |
-| [`InternalObject`](#id0)                                                  | Gets the internal object. For advanced usage only.            |
+| [`InternalObject`](#MeshWorkflowOutcome.InternalObject)                   | Gets the internal object. For advanced usage only.            |
+| [`OutcomeType`](#MeshWorkflowOutcome.OutcomeType)                         | Returns the type of the control.                              |
 | [`Properties`](#MeshWorkflowOutcome.Properties)                           | Gets the list of properties for this object.                  |
 | [`VisibleProperties`](#MeshWorkflowOutcome.VisibleProperties)             | Gets the list of properties that are visible for this object. |
 
@@ -52,35 +50,19 @@ Object that wraps IDSEngineeringModelOutcome.
 
 ## Property detail
 
-<a id="MeshWorkflowOutcome.OutcomeType"></a>
-
-### *property* MeshWorkflowOutcome.OutcomeType *: [Ansys.Mechanical.DataModel.MechanicalEnums.MeshWorkflow.OutcomeType](../../../../../v241/Ansys/Mechanical/DataModel/MechanicalEnums/MeshWorkflow/OutcomeType.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.MechanicalEnums.MeshWorkflow.OutcomeType) | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Returns the type of the control.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="MeshWorkflowOutcome.InternalObject"></a>
-
-### *property* MeshWorkflowOutcome.InternalObject *: Ansys.Common.Interop.DSObjectsAuto.IDSEngineeringModelOutcomeAuto | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets the internal object. For advanced usage only.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="MeshWorkflowOutcome.DataModelObjectCategory"></a>
-
-### *property* MeshWorkflowOutcome.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../v241/Ansys/Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets the current DataModelObject's category.
-
-<!-- !! processed by numpydoc !! -->
-
 <a id="MeshWorkflowOutcome.Children"></a>
 
 ### *property* MeshWorkflowOutcome.Children *: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of children.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="MeshWorkflowOutcome.DataModelObjectCategory"></a>
+
+### *property* MeshWorkflowOutcome.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets the current DataModelObject’s category.
 
 <!-- !! processed by numpydoc !! -->
 
@@ -100,11 +82,19 @@ Gets the list of associated images.
 
 <!-- !! processed by numpydoc !! -->
 
-<a id="id0"></a>
+<a id="MeshWorkflowOutcome.InternalObject"></a>
 
-### *property* MeshWorkflowOutcome.InternalObject *: System.Object | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* MeshWorkflowOutcome.InternalObject *: Ansys.Common.Interop.DSObjectsAuto.IDSEngineeringModelOutcomeAuto | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the internal object. For advanced usage only.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="MeshWorkflowOutcome.OutcomeType"></a>
+
+### *property* MeshWorkflowOutcome.OutcomeType *: [Ansys.Mechanical.DataModel.MechanicalEnums.MeshWorkflow.OutcomeType](../../../Mechanical/DataModel/MechanicalEnums/MeshWorkflow/OutcomeType.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.MechanicalEnums.MeshWorkflow.OutcomeType) | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Returns the type of the control.
 
 <!-- !! processed by numpydoc !! -->
 
@@ -128,27 +118,11 @@ Gets the list of properties that are visible for this object.
 
 ## Method detail
 
-<a id="MeshWorkflowOutcome.Delete"></a>
+<a id="MeshWorkflowOutcome.Activate"></a>
 
-### MeshWorkflowOutcome.Delete()
+### MeshWorkflowOutcome.Activate()
 
-Run the Delete action.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="MeshWorkflowOutcome.GetChildren"></a>
-
-### MeshWorkflowOutcome.GetChildren(recurses: System.Boolean, children: System.Collections.Generic.IList[ChildrenType])
-
-Gets the list of children, filtered by type.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="id1"></a>
-
-### MeshWorkflowOutcome.GetChildren(category: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../v241/Ansys/Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory), recurses: System.Boolean, children: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject])
-
-Gets the list of children, filtered by type.
+Activate the current object.
 
 <!-- !! processed by numpydoc !! -->
 
@@ -164,17 +138,11 @@ Creates a new child Figure.
 
 ### MeshWorkflowOutcome.AddImage(filePath: System.String)
 
+```text
 Creates a new child Image.
 If a filePath is provided, the image will be loaded from that file,
 if not, the image will be a screen capture of the Geometry window.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="MeshWorkflowOutcome.Activate"></a>
-
-### MeshWorkflowOutcome.Activate()
-
-Activate the current object.
+```
 
 <!-- !! processed by numpydoc !! -->
 
@@ -186,11 +154,43 @@ Copies all visible properties from this object to another.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="MeshWorkflowOutcome.CreateParameter"></a>
+
+### MeshWorkflowOutcome.CreateParameter(propName: System.String)
+
+Creates a new parameter for a Property.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="MeshWorkflowOutcome.Delete"></a>
+
+### MeshWorkflowOutcome.Delete()
+
+Run the Delete action.
+
+<!-- !! processed by numpydoc !! -->
+
 <a id="MeshWorkflowOutcome.Duplicate"></a>
 
 ### MeshWorkflowOutcome.Duplicate()
 
 Creates a copy of the current DataModelObject.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="MeshWorkflowOutcome.GetChildren"></a>
+
+### MeshWorkflowOutcome.GetChildren(recurses: System.Boolean, children: System.Collections.Generic.IList[ChildrenType])
+
+Gets the list of children, filtered by type.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="MeshWorkflowOutcome.GetParameter"></a>
+
+### MeshWorkflowOutcome.GetParameter(propName: System.String)
+
+Gets the parameter corresponding to the given property.
 
 <!-- !! processed by numpydoc !! -->
 
@@ -210,36 +210,22 @@ Run the GroupSimilarObjects action.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="MeshWorkflowOutcome.PropertyByAPIName"></a>
+
+### MeshWorkflowOutcome.PropertyByAPIName(name: System.String)
+
+```text
+Get a property by its API name.
+If multiple properties have the same API Name, only the first property with that name will be returned.
+```
+
+<!-- !! processed by numpydoc !! -->
+
 <a id="MeshWorkflowOutcome.PropertyByName"></a>
 
 ### MeshWorkflowOutcome.PropertyByName(name: System.String)
 
 Get a property by its unique name.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="MeshWorkflowOutcome.PropertyByAPIName"></a>
-
-### MeshWorkflowOutcome.PropertyByAPIName(name: System.String)
-
-Get a property by its API name.
-If multiple properties have the same API Name, only the first property with that name will be returned.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="MeshWorkflowOutcome.CreateParameter"></a>
-
-### MeshWorkflowOutcome.CreateParameter(propName: System.String)
-
-Creates a new parameter for a Property.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="MeshWorkflowOutcome.GetParameter"></a>
-
-### MeshWorkflowOutcome.GetParameter(propName: System.String)
-
-Gets the parameter corresponding to the given property.
 
 <!-- !! processed by numpydoc !! -->
 

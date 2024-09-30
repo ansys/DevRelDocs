@@ -1,6 +1,6 @@
 # `EXDAutomaticMassScalingType`
 
-
+<a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.EXDAutomaticMassScalingType"></a>
 
 #### *class* ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.EXDAutomaticMassScalingType
 
@@ -15,9 +15,9 @@ Bases: [`enum.Enum`](https://docs.python.org/3/library/enum.html#enum.Enum)
 ### Attributes
 
 | Name |
-| ------------------------------------------------------------------------------------------------------------------------------ |
-| [`No`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/EXDAutomaticMassScalingType.md#EXDAutomaticMassScalingType.No) |
-| [`Yes`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/EXDAutomaticMassScalingType.md#EXDAutomaticMassScalingType.Yes) |
+| ------------------------------------------- |
+| [`No`](#EXDAutomaticMassScalingType.No) |
+| [`Yes`](#EXDAutomaticMassScalingType.Yes) |
 
 <a id="attribute-detail"></a>
 

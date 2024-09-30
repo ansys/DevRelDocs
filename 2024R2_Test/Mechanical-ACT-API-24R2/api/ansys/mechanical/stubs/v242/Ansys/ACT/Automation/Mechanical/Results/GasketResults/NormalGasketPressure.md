@@ -1,6 +1,6 @@
 # `NormalGasketPressure`
 
-
+<a id="ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Results.GasketResults.NormalGasketPressure"></a>
 
 #### *class* ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Results.GasketResults.NormalGasketPressure
 
@@ -17,210 +17,144 @@ Defines a NormalGasketPressure.
 ### Methods
 
 | Name | Description |
-|----------------------------------------------------------------------------|-----------------------------------------------------------------------------------|
-| [`ClearGeneratedData`](#NormalGasketPressure.ClearGeneratedData)           | Run the ClearGeneratedData action.                                                |
-| [`EvaluateAllResults`](#NormalGasketPressure.EvaluateAllResults)           | Run the EvaluateAllResults action.                                                |
-| [`FetchRemoteResults`](#NormalGasketPressure.FetchRemoteResults)           | Run the FetchRemoteResult action.                                                 |
-| [`ExportToTextFile`](#NormalGasketPressure.ExportToTextFile)               | Run the ExportToTextFile action.                                                  |
-| [`ExportAnimation`](#NormalGasketPressure.ExportAnimation)                 | Run the ExportAnimation action.                                                   |
-| [`DuplicateWithoutResults`](#NormalGasketPressure.DuplicateWithoutResults) | Run the DuplicateWithoutResults action.                                           |
-| [`CreateResultsAtAllSets`](#NormalGasketPressure.CreateResultsAtAllSets)   | Creates results at all sets for results under a solution.                         |
-| [`PromoteToNamedSelection`](#NormalGasketPressure.PromoteToNamedSelection) | Run the PromoteToNamedSelection action.                                           |
-| [`CreateParameter`](#NormalGasketPressure.CreateParameter)                 | CreateParameter method.                                                           |
+|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------|
+| [`Activate`](#NormalGasketPressure.Activate)                               | Activate the current object.                                                      |
 | [`AddAlert`](#NormalGasketPressure.AddAlert)                               | Creates a new Alert                                                               |
-| [`AddConvergence`](#NormalGasketPressure.AddConvergence)                   | Creates a new Convergence                                                         |
-| [`RenameBasedOnDefinition`](#NormalGasketPressure.RenameBasedOnDefinition) | Run the RenameBasedOnDefinition action.                                           |
-| [`Delete`](#NormalGasketPressure.Delete)                                   | Run the Delete action.                                                            |
-| [`GetChildren`](#id1)                                                      | Gets the list of children, filtered by type.                                      |
-| [`GetChildren`](#id1)                                                      | Gets the list of children, filtered by type.                                      |
 | [`AddComment`](#NormalGasketPressure.AddComment)                           | Creates a new child Comment.                                                      |
+| [`AddConvergence`](#NormalGasketPressure.AddConvergence)                   | Creates a new Convergence                                                         |
 | [`AddFigure`](#NormalGasketPressure.AddFigure)                             | Creates a new child Figure.                                                       |
 | [`AddImage`](#NormalGasketPressure.AddImage)                               | Creates a new child Image.                                                        |
-| [`Activate`](#NormalGasketPressure.Activate)                               | Activate the current object.                                                      |
+| [`ClearGeneratedData`](#NormalGasketPressure.ClearGeneratedData)           | Run the ClearGeneratedData action.                                                |
 | [`CopyTo`](#NormalGasketPressure.CopyTo)                                   | Copies all visible properties from this object to another.                        |
+| [`CreateParameter`](#NormalGasketPressure.CreateParameter)                 | CreateParameter method.                                                           |
+| [`CreateResultsAtAllSets`](#NormalGasketPressure.CreateResultsAtAllSets)   | Creates results at all sets for results under a solution.                         |
+| [`Delete`](#NormalGasketPressure.Delete)                                   | Run the Delete action.                                                            |
 | [`Duplicate`](#NormalGasketPressure.Duplicate)                             | Creates a copy of the current DataModelObject.                                    |
+| [`DuplicateWithoutResults`](#NormalGasketPressure.DuplicateWithoutResults) | Run the DuplicateWithoutResults action.                                           |
+| [`EvaluateAllResults`](#NormalGasketPressure.EvaluateAllResults)           | Run the EvaluateAllResults action.                                                |
+| [`ExportAnimation`](#NormalGasketPressure.ExportAnimation)                 | Run the ExportAnimation action.                                                   |
+| [`ExportToTextFile`](#NormalGasketPressure.ExportToTextFile)               | Run the ExportToTextFile action.                                                  |
+| [`FetchRemoteResults`](#NormalGasketPressure.FetchRemoteResults)           | Run the FetchRemoteResult action.                                                 |
+| [`GetChildren`](#NormalGasketPressure.GetChildren)                         | Gets the list of children, filtered by type.                                      |
+| [`GetParameter`](#NormalGasketPressure.GetParameter)                       | Gets the parameter corresponding to the given property.                           |
 | [`GroupAllSimilarChildren`](#NormalGasketPressure.GroupAllSimilarChildren) | Run the GroupAllSimilarChildren action.                                           |
 | [`GroupSimilarObjects`](#NormalGasketPressure.GroupSimilarObjects)         | Run the GroupSimilarObjects action.                                               |
-| [`PropertyByName`](#NormalGasketPressure.PropertyByName)                   | Get a property by its unique name.                                                |
+| [`PromoteToNamedSelection`](#NormalGasketPressure.PromoteToNamedSelection) | Run the PromoteToNamedSelection action.                                           |
 | [`PropertyByAPIName`](#NormalGasketPressure.PropertyByAPIName)             | Get a property by its API name.                                                   |
-| [`GetParameter`](#NormalGasketPressure.GetParameter)                       | Gets the parameter corresponding to the given property.                           |
+| [`PropertyByName`](#NormalGasketPressure.PropertyByName)                   | Get a property by its unique name.                                                |
 | [`RemoveParameter`](#NormalGasketPressure.RemoveParameter)                 | Removes the parameter from the parameter set corresponding to the given property. |
+| [`RenameBasedOnDefinition`](#NormalGasketPressure.RenameBasedOnDefinition) | Run the RenameBasedOnDefinition action.                                           |
 
 ### Properties
 
 | Name | Description |
-|------------------------------------------------------------------------------------------------|------------------------------------------------------------------------|
-| [`InternalObject`](#id0)                                                                       | Gets the internal object. For advanced usage only.                     |
-| [`DataModelObjectCategory`](#NormalGasketPressure.DataModelObjectCategory)                     | Gets the current DataModelObject's category.                           |
-| [`GasketResultType`](#NormalGasketPressure.GasketResultType)                                   | Gets or sets the GasketResultType.                                     |
-| [`PlotData`](#NormalGasketPressure.PlotData)                                                   | Gets the result table.                                                 |
-| [`Location`](#NormalGasketPressure.Location)                                                   | Gets or sets the Location.                                             |
-| [`TimeForMinimumOfMinimumValues`](#NormalGasketPressure.TimeForMinimumOfMinimumValues)         | Get the Time for the minimum of minimum values.                        |
-| [`TimeForMinimumOfMaximumValues`](#NormalGasketPressure.TimeForMinimumOfMaximumValues)         | Get the Time for the minimum of maximum values.                        |
-| [`LoadStepForMinimumOfMinimumValues`](#NormalGasketPressure.LoadStepForMinimumOfMinimumValues) | Get the Load Step for the minimum of minimum values.                   |
-| [`LoadStepForMinimumOfMaximumValues`](#NormalGasketPressure.LoadStepForMinimumOfMaximumValues) | Get the Load Step for the minimum of maximum values.                   |
-| [`TimeForMaximumOfMinimumValues`](#NormalGasketPressure.TimeForMaximumOfMinimumValues)         | Get the Time for the maximum of minimum values.                        |
-| [`TimeForMaximumOfMaximumValues`](#NormalGasketPressure.TimeForMaximumOfMaximumValues)         | Get the Time for the maximum of maximum values.                        |
-| [`LoadStepForMaximumOfMinimumValues`](#NormalGasketPressure.LoadStepForMaximumOfMinimumValues) | Get the Load Step for the maximum of minimum values.                   |
-| [`LoadStepForMaximumOfMaximumValues`](#NormalGasketPressure.LoadStepForMaximumOfMaximumValues) | Get the Load Step for the maximum of maximum values.                   |
-| [`IsSolved`](#NormalGasketPressure.IsSolved)                                                   | Gets the IsSolved.                                                     |
-| [`CoordinateSystem`](#NormalGasketPressure.CoordinateSystem)                                   | Gets or sets the Coordinate System.                                    |
-| [`ScopingMethod`](#NormalGasketPressure.ScopingMethod)                                         | Gets or sets the ScopingMethod.                                        |
-| [`SetNumber`](#NormalGasketPressure.SetNumber)                                                 | Gets or sets the Set Number.                                           |
+|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------|
+| [`Average`](#NormalGasketPressure.Average)                                                     | Gets the Average.                                                      |
+| [`By`](#NormalGasketPressure.By)                                                               | Gets or sets the By.                                                   |
+| [`CalculateTimeHistory`](#NormalGasketPressure.CalculateTimeHistory)                           | Gets or sets the CalculateTimeHistory.                                 |
+| [`Children`](#NormalGasketPressure.Children)                                                   | Gets the list of children.                                             |
 | [`CombinationNumber`](#NormalGasketPressure.CombinationNumber)                                 | Gets or sets the Combination Number for a Solution Combination result. |
-| [`SolutionCombinationDriver`](#NormalGasketPressure.SolutionCombinationDriver)                 | Gets or sets the SolutionCombinationDriver.                            |
-| [`Path`](#NormalGasketPressure.Path)                                                           | Path property.                                                         |
-| [`Surface`](#NormalGasketPressure.Surface)                                                     | Surface property.                                                      |
-| [`SurfaceCoating`](#NormalGasketPressure.SurfaceCoating)                                       | SurfaceCoating property.                                               |
-| [`NamedSelections`](#NormalGasketPressure.NamedSelections)                                     | Gets or sets the NamedSelections.                                      |
-| [`WaterfallShowTextOnMosaic`](#NormalGasketPressure.WaterfallShowTextOnMosaic)                 | Gets or sets the Waterfall Mosaic Text Property.                       |
+| [`Comments`](#NormalGasketPressure.Comments)                                                   | Gets the list of associated comments.                                  |
+| [`CoordinateSystem`](#NormalGasketPressure.CoordinateSystem)                                   | Gets or sets the Coordinate System.                                    |
 | [`CrackFrontNumber`](#NormalGasketPressure.CrackFrontNumber)                                   | Gets or sets the CrackFrontNumber.                                     |
+| [`DataModelObjectCategory`](#NormalGasketPressure.DataModelObjectCategory)                     | Gets the current DataModelObject’s category.                           |
+| [`DisplayOption`](#NormalGasketPressure.DisplayOption)                                         | Gets or sets the DisplayOption.                                        |
+| [`DisplayTime`](#NormalGasketPressure.DisplayTime)                                             | Gets or sets the DisplayTime.                                          |
+| [`DpfEvaluation`](#NormalGasketPressure.DpfEvaluation)                                         | Gets or sets the DpfEvaluation.                                        |
+| [`Figures`](#NormalGasketPressure.Figures)                                                     | Gets the list of associated figures.                                   |
+| [`GasketResultType`](#NormalGasketPressure.GasketResultType)                                   | Gets or sets the GasketResultType.                                     |
 | [`GlobalIDs`](#NormalGasketPressure.GlobalIDs)                                                 | Gets or sets the GlobalIDs.                                            |
+| [`GraphControlsXAxis`](#NormalGasketPressure.GraphControlsXAxis)                               | Gets or sets the GraphControlsXAxis.                                   |
 | [`Identifier`](#NormalGasketPressure.Identifier)                                               | Gets or sets the Identifier.                                           |
+| [`Images`](#NormalGasketPressure.Images)                                                       | Gets the list of associated images.                                    |
+| [`InternalObject`](#NormalGasketPressure.InternalObject)                                       | Gets the internal object. For advanced usage only.                     |
+| [`IsSolved`](#NormalGasketPressure.IsSolved)                                                   | Gets the IsSolved.                                                     |
+| [`ItemType`](#NormalGasketPressure.ItemType)                                                   | Gets or sets the ItemType.                                             |
 | [`IterationNumber`](#NormalGasketPressure.IterationNumber)                                     | Gets the IterationNumber.                                              |
 | [`LoadStep`](#NormalGasketPressure.LoadStep)                                                   | Gets the LoadStep.                                                     |
-| [`MaximumOccursOn`](#NormalGasketPressure.MaximumOccursOn)                                     | Gets the MaximumOccursOn.                                              |
-| [`MinimumOccursOn`](#NormalGasketPressure.MinimumOccursOn)                                     | Gets the MinimumOccursOn.                                              |
+| [`LoadStepForMaximumOfMaximumValues`](#NormalGasketPressure.LoadStepForMaximumOfMaximumValues) | Get the Load Step for the maximum of maximum values.                   |
+| [`LoadStepForMaximumOfMinimumValues`](#NormalGasketPressure.LoadStepForMaximumOfMinimumValues) | Get the Load Step for the maximum of minimum values.                   |
+| [`LoadStepForMinimumOfMaximumValues`](#NormalGasketPressure.LoadStepForMinimumOfMaximumValues) | Get the Load Step for the minimum of maximum values.                   |
+| [`LoadStepForMinimumOfMinimumValues`](#NormalGasketPressure.LoadStepForMinimumOfMinimumValues) | Get the Load Step for the minimum of minimum values.                   |
 | [`LoadStepNumber`](#NormalGasketPressure.LoadStepNumber)                                       | Gets or sets the LoadStepNumber.                                       |
-| [`SolverComponentIDs`](#NormalGasketPressure.SolverComponentIDs)                               | Gets or sets the SolverComponentIDs.                                   |
-| [`Substep`](#NormalGasketPressure.Substep)                                                     | Gets the Substep.                                                      |
-| [`Average`](#NormalGasketPressure.Average)                                                     | Gets the Average.                                                      |
+| [`Location`](#NormalGasketPressure.Location)                                                   | Gets or sets the Location.                                             |
 | [`Maximum`](#NormalGasketPressure.Maximum)                                                     | Gets the Maximum.                                                      |
+| [`MaximumOccursOn`](#NormalGasketPressure.MaximumOccursOn)                                     | Gets the MaximumOccursOn.                                              |
 | [`MaximumOfMaximumOverTime`](#NormalGasketPressure.MaximumOfMaximumOverTime)                   | Gets the MaximumOfMaximumOverTime.                                     |
 | [`MaximumOfMinimumOverTime`](#NormalGasketPressure.MaximumOfMinimumOverTime)                   | Gets the MaximumOfMinimumOverTime.                                     |
 | [`Minimum`](#NormalGasketPressure.Minimum)                                                     | Gets the Minimum.                                                      |
+| [`MinimumOccursOn`](#NormalGasketPressure.MinimumOccursOn)                                     | Gets the MinimumOccursOn.                                              |
 | [`MinimumOfMaximumOverTime`](#NormalGasketPressure.MinimumOfMaximumOverTime)                   | Gets the MinimumOfMaximumOverTime.                                     |
 | [`MinimumOfMinimumOverTime`](#NormalGasketPressure.MinimumOfMinimumOverTime)                   | Gets the MinimumOfMinimumOverTime.                                     |
-| [`Time`](#NormalGasketPressure.Time)                                                           | Gets the Time.                                                         |
-| [`DisplayTime`](#NormalGasketPressure.DisplayTime)                                             | Gets or sets the DisplayTime.                                          |
-| [`GraphControlsXAxis`](#NormalGasketPressure.GraphControlsXAxis)                               | Gets or sets the GraphControlsXAxis.                                   |
-| [`DisplayOption`](#NormalGasketPressure.DisplayOption)                                         | Gets or sets the DisplayOption.                                        |
-| [`DpfEvaluation`](#NormalGasketPressure.DpfEvaluation)                                         | Gets or sets the DpfEvaluation.                                        |
-| [`By`](#NormalGasketPressure.By)                                                               | Gets or sets the By.                                                   |
-| [`ItemType`](#NormalGasketPressure.ItemType)                                                   | Gets or sets the ItemType.                                             |
-| [`CalculateTimeHistory`](#NormalGasketPressure.CalculateTimeHistory)                           | Gets or sets the CalculateTimeHistory.                                 |
-| [`Suppressed`](#NormalGasketPressure.Suppressed)                                               | Gets or sets the Suppressed.                                           |
-| [`Children`](#NormalGasketPressure.Children)                                                   | Gets the list of children.                                             |
-| [`Comments`](#NormalGasketPressure.Comments)                                                   | Gets the list of associated comments.                                  |
-| [`Figures`](#NormalGasketPressure.Figures)                                                     | Gets the list of associated figures.                                   |
-| [`Images`](#NormalGasketPressure.Images)                                                       | Gets the list of associated images.                                    |
-| [`InternalObject`](#id0)                                                                       | Gets the internal object. For advanced usage only.                     |
+| [`NamedSelections`](#NormalGasketPressure.NamedSelections)                                     | Gets or sets the NamedSelections.                                      |
+| [`Path`](#NormalGasketPressure.Path)                                                           | Path property.                                                         |
+| [`PlotData`](#NormalGasketPressure.PlotData)                                                   | Gets the result table.                                                 |
 | [`Properties`](#NormalGasketPressure.Properties)                                               | Gets the list of properties for this object.                           |
+| [`ScopingMethod`](#NormalGasketPressure.ScopingMethod)                                         | Gets or sets the ScopingMethod.                                        |
+| [`SetNumber`](#NormalGasketPressure.SetNumber)                                                 | Gets or sets the Set Number.                                           |
+| [`SolutionCombinationDriver`](#NormalGasketPressure.SolutionCombinationDriver)                 | Gets or sets the SolutionCombinationDriver.                            |
+| [`SolverComponentIDs`](#NormalGasketPressure.SolverComponentIDs)                               | Gets or sets the SolverComponentIDs.                                   |
+| [`Substep`](#NormalGasketPressure.Substep)                                                     | Gets the Substep.                                                      |
+| [`Suppressed`](#NormalGasketPressure.Suppressed)                                               | Gets or sets the Suppressed.                                           |
+| [`Surface`](#NormalGasketPressure.Surface)                                                     | Surface property.                                                      |
+| [`SurfaceCoating`](#NormalGasketPressure.SurfaceCoating)                                                                                                                                              | SurfaceCoating property.                                               |
+| [`Time`](#NormalGasketPressure.Time)                                                           | Gets the Time.                                                         |
+| [`TimeForMaximumOfMaximumValues`](#NormalGasketPressure.TimeForMaximumOfMaximumValues)         | Get the Time for the maximum of maximum values.                        |
+| [`TimeForMaximumOfMinimumValues`](#NormalGasketPressure.TimeForMaximumOfMinimumValues)         | Get the Time for the maximum of minimum values.                        |
+| [`TimeForMinimumOfMaximumValues`](#NormalGasketPressure.TimeForMinimumOfMaximumValues)         | Get the Time for the minimum of maximum values.                        |
+| [`TimeForMinimumOfMinimumValues`](#NormalGasketPressure.TimeForMinimumOfMinimumValues)         | Get the Time for the minimum of minimum values.                        |
 | [`VisibleProperties`](#NormalGasketPressure.VisibleProperties)                                 | Gets the list of properties that are visible for this object.          |
+| [`WaterfallShowTextOnMosaic`](#NormalGasketPressure.WaterfallShowTextOnMosaic)                                                                                                                        | Gets or sets the Waterfall Mosaic Text Property.                       |
 
 <a id="property-detail"></a>
 
 ## Property detail
 
-<a id="NormalGasketPressure.InternalObject"></a>
+<a id="NormalGasketPressure.Average"></a>
 
-### *property* NormalGasketPressure.InternalObject *: Ansys.Common.Interop.DSObjectsAuto.IDSResultAuto | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* NormalGasketPressure.Average *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets the internal object. For advanced usage only.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="NormalGasketPressure.DataModelObjectCategory"></a>
-
-### *property* NormalGasketPressure.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../../../v241/Ansys/Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets the current DataModelObject's category.
+Gets the Average.
 
 <!-- !! processed by numpydoc !! -->
 
-<a id="NormalGasketPressure.GasketResultType"></a>
+<a id="NormalGasketPressure.By"></a>
 
-### *property* NormalGasketPressure.GasketResultType *: [Ansys.Mechanical.DataModel.Enums.GasketResultType](../../../../../../../v241/Ansys/Mechanical/DataModel/Enums/GasketResultType.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.GasketResultType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* NormalGasketPressure.By *: [Ansys.Mechanical.DataModel.Enums.SetDriverStyle](../../../../../Mechanical/DataModel/Enums/SetDriverStyle.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.SetDriverStyle) | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets or sets the GasketResultType.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="NormalGasketPressure.PlotData"></a>
-
-### *property* NormalGasketPressure.PlotData *: [Ansys.Mechanical.DataModel.Results.ResultDataTable](../../../../../../../v241/Ansys/Mechanical/DataModel/Results/ResultDataTable.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Results.ResultDataTable) | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets the result table.
+Gets or sets the By.
 
 <!-- !! processed by numpydoc !! -->
 
-<a id="NormalGasketPressure.Location"></a>
+<a id="NormalGasketPressure.CalculateTimeHistory"></a>
 
-### *property* NormalGasketPressure.Location *: Ansys.ACT.Interfaces.Common.ISelectionInfo | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* NormalGasketPressure.CalculateTimeHistory *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets or sets the Location.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="NormalGasketPressure.TimeForMinimumOfMinimumValues"></a>
-
-### *property* NormalGasketPressure.TimeForMinimumOfMinimumValues *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Get the Time for the minimum of minimum values.
+Gets or sets the CalculateTimeHistory.
 
 <!-- !! processed by numpydoc !! -->
 
-<a id="NormalGasketPressure.TimeForMinimumOfMaximumValues"></a>
+<a id="NormalGasketPressure.Children"></a>
 
-### *property* NormalGasketPressure.TimeForMinimumOfMaximumValues *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* NormalGasketPressure.Children *: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Get the Time for the minimum of maximum values.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="NormalGasketPressure.LoadStepForMinimumOfMinimumValues"></a>
-
-### *property* NormalGasketPressure.LoadStepForMinimumOfMinimumValues *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Get the Load Step for the minimum of minimum values.
+Gets the list of children.
 
 <!-- !! processed by numpydoc !! -->
 
-<a id="NormalGasketPressure.LoadStepForMinimumOfMaximumValues"></a>
+<a id="NormalGasketPressure.CombinationNumber"></a>
 
-### *property* NormalGasketPressure.LoadStepForMinimumOfMaximumValues *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* NormalGasketPressure.CombinationNumber *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Get the Load Step for the minimum of maximum values.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="NormalGasketPressure.TimeForMaximumOfMinimumValues"></a>
-
-### *property* NormalGasketPressure.TimeForMaximumOfMinimumValues *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Get the Time for the maximum of minimum values.
+Gets or sets the Combination Number for a Solution Combination result.
 
 <!-- !! processed by numpydoc !! -->
 
-<a id="NormalGasketPressure.TimeForMaximumOfMaximumValues"></a>
+<a id="NormalGasketPressure.Comments"></a>
 
-### *property* NormalGasketPressure.TimeForMaximumOfMaximumValues *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* NormalGasketPressure.Comments *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Comment](../../../../../../../v241/Ansys/ACT/Automation/Mechanical/Comment.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Get the Time for the maximum of maximum values.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="NormalGasketPressure.LoadStepForMaximumOfMinimumValues"></a>
-
-### *property* NormalGasketPressure.LoadStepForMaximumOfMinimumValues *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Get the Load Step for the maximum of minimum values.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="NormalGasketPressure.LoadStepForMaximumOfMaximumValues"></a>
-
-### *property* NormalGasketPressure.LoadStepForMaximumOfMaximumValues *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Get the Load Step for the maximum of maximum values.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="NormalGasketPressure.IsSolved"></a>
-
-### *property* NormalGasketPressure.IsSolved *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets the IsSolved.
+Gets the list of associated comments.
 
 <!-- !! processed by numpydoc !! -->
 
@@ -234,83 +168,59 @@ Accepts/Returns None for Fiber Coordinate System for a result that is sub scoped
 
 <!-- !! processed by numpydoc !! -->
 
-<a id="NormalGasketPressure.ScopingMethod"></a>
-
-### *property* NormalGasketPressure.ScopingMethod *: [Ansys.Mechanical.DataModel.Enums.GeometryDefineByType](../../../../../../../v241/Ansys/Mechanical/DataModel/Enums/GeometryDefineByType.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.GeometryDefineByType) | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the ScopingMethod.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="NormalGasketPressure.SetNumber"></a>
-
-### *property* NormalGasketPressure.SetNumber *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the Set Number.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="NormalGasketPressure.CombinationNumber"></a>
-
-### *property* NormalGasketPressure.CombinationNumber *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the Combination Number for a Solution Combination result.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="NormalGasketPressure.SolutionCombinationDriver"></a>
-
-### *property* NormalGasketPressure.SolutionCombinationDriver *: [Ansys.Mechanical.DataModel.Enums.SolutionCombinationDriverStyle](../../../../../../../v241/Ansys/Mechanical/DataModel/Enums/SolutionCombinationDriverStyle.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.SolutionCombinationDriverStyle) | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the SolutionCombinationDriver.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="NormalGasketPressure.Path"></a>
-
-### *property* NormalGasketPressure.Path *: [Ansys.ACT.Automation.Mechanical.Path](../../../../../../../v241/Ansys/ACT/Automation/Mechanical/Path.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Path) | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Path property.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="NormalGasketPressure.Surface"></a>
-
-### *property* NormalGasketPressure.Surface *: [Ansys.ACT.Automation.Mechanical.Surface](../../../../../../../v241/Ansys/ACT/Automation/Mechanical/Surface.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Surface) | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Surface property.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="NormalGasketPressure.SurfaceCoating"></a>
-
-### *property* NormalGasketPressure.SurfaceCoating *: [Ansys.ACT.Automation.Mechanical.SurfaceCoating](../../../../../../../v241/Ansys/ACT/Automation/Mechanical/SurfaceCoating.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.SurfaceCoating) | [None](https://docs.python.org/3/library/constants.html#None)*
-
-SurfaceCoating property.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="NormalGasketPressure.NamedSelections"></a>
-
-### *property* NormalGasketPressure.NamedSelections *: System.Collections.Generic.IEnumerable[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the NamedSelections.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="NormalGasketPressure.WaterfallShowTextOnMosaic"></a>
-
-### *property* NormalGasketPressure.WaterfallShowTextOnMosaic *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the Waterfall Mosaic Text Property.
-
-<!-- !! processed by numpydoc !! -->
-
 <a id="NormalGasketPressure.CrackFrontNumber"></a>
 
 ### *property* NormalGasketPressure.CrackFrontNumber *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the CrackFrontNumber.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="NormalGasketPressure.DataModelObjectCategory"></a>
+
+### *property* NormalGasketPressure.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets the current DataModelObject’s category.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="NormalGasketPressure.DisplayOption"></a>
+
+### *property* NormalGasketPressure.DisplayOption *: [Ansys.Mechanical.DataModel.Enums.ResultAveragingType](../../../../../Mechanical/DataModel/Enums/ResultAveragingType.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.ResultAveragingType) | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the DisplayOption.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="NormalGasketPressure.DisplayTime"></a>
+
+### *property* NormalGasketPressure.DisplayTime *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the DisplayTime.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="NormalGasketPressure.DpfEvaluation"></a>
+
+### *property* NormalGasketPressure.DpfEvaluation *: [Ansys.Mechanical.DataModel.Enums.DpfEvaluationType](../../../../../Mechanical/DataModel/Enums/DpfEvaluationType.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.DpfEvaluationType) | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the DpfEvaluation.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="NormalGasketPressure.Figures"></a>
+
+### *property* NormalGasketPressure.Figures *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Figure](../../../../../../../v241/Ansys/ACT/Automation/Mechanical/Figure.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets the list of associated figures.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="NormalGasketPressure.GasketResultType"></a>
+
+### *property* NormalGasketPressure.GasketResultType *: [Ansys.Mechanical.DataModel.Enums.GasketResultType](../../../../../Mechanical/DataModel/Enums/GasketResultType.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.GasketResultType) | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the GasketResultType.
 
 <!-- !! processed by numpydoc !! -->
 
@@ -322,11 +232,51 @@ Gets or sets the GlobalIDs.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="NormalGasketPressure.GraphControlsXAxis"></a>
+
+### *property* NormalGasketPressure.GraphControlsXAxis *: [Ansys.Mechanical.DataModel.Enums.GraphControlsXAxis](../../../../../Mechanical/DataModel/Enums/GraphControlsXAxis.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.GraphControlsXAxis) | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the GraphControlsXAxis.
+
+<!-- !! processed by numpydoc !! -->
+
 <a id="NormalGasketPressure.Identifier"></a>
 
 ### *property* NormalGasketPressure.Identifier *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Identifier.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="NormalGasketPressure.Images"></a>
+
+### *property* NormalGasketPressure.Images *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Image](../../../../../../../v241/Ansys/ACT/Automation/Mechanical/Image.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets the list of associated images.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="NormalGasketPressure.InternalObject"></a>
+
+### *property* NormalGasketPressure.InternalObject *: Ansys.Common.Interop.DSObjectsAuto.IDSResultAuto | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets the internal object. For advanced usage only.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="NormalGasketPressure.IsSolved"></a>
+
+### *property* NormalGasketPressure.IsSolved *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets the IsSolved.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="NormalGasketPressure.ItemType"></a>
+
+### *property* NormalGasketPressure.ItemType *: [Ansys.Mechanical.DataModel.Enums.ResultFileItemType](../../../../../Mechanical/DataModel/Enums/ResultFileItemType.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.ResultFileItemType) | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the ItemType.
 
 <!-- !! processed by numpydoc !! -->
 
@@ -346,19 +296,35 @@ Gets the LoadStep.
 
 <!-- !! processed by numpydoc !! -->
 
-<a id="NormalGasketPressure.MaximumOccursOn"></a>
+<a id="NormalGasketPressure.LoadStepForMaximumOfMaximumValues"></a>
 
-### *property* NormalGasketPressure.MaximumOccursOn *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* NormalGasketPressure.LoadStepForMaximumOfMaximumValues *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets the MaximumOccursOn.
+Get the Load Step for the maximum of maximum values.
 
 <!-- !! processed by numpydoc !! -->
 
-<a id="NormalGasketPressure.MinimumOccursOn"></a>
+<a id="NormalGasketPressure.LoadStepForMaximumOfMinimumValues"></a>
 
-### *property* NormalGasketPressure.MinimumOccursOn *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* NormalGasketPressure.LoadStepForMaximumOfMinimumValues *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets the MinimumOccursOn.
+Get the Load Step for the maximum of minimum values.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="NormalGasketPressure.LoadStepForMinimumOfMaximumValues"></a>
+
+### *property* NormalGasketPressure.LoadStepForMinimumOfMaximumValues *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Get the Load Step for the minimum of maximum values.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="NormalGasketPressure.LoadStepForMinimumOfMinimumValues"></a>
+
+### *property* NormalGasketPressure.LoadStepForMinimumOfMinimumValues *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Get the Load Step for the minimum of minimum values.
 
 <!-- !! processed by numpydoc !! -->
 
@@ -370,27 +336,11 @@ Gets or sets the LoadStepNumber.
 
 <!-- !! processed by numpydoc !! -->
 
-<a id="NormalGasketPressure.SolverComponentIDs"></a>
+<a id="NormalGasketPressure.Location"></a>
 
-### *property* NormalGasketPressure.SolverComponentIDs *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* NormalGasketPressure.Location *: Ansys.ACT.Interfaces.Common.ISelectionInfo | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets or sets the SolverComponentIDs.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="NormalGasketPressure.Substep"></a>
-
-### *property* NormalGasketPressure.Substep *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets the Substep.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="NormalGasketPressure.Average"></a>
-
-### *property* NormalGasketPressure.Average *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets the Average.
+Gets or sets the Location.
 
 <!-- !! processed by numpydoc !! -->
 
@@ -399,6 +349,14 @@ Gets the Average.
 ### *property* NormalGasketPressure.Maximum *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the Maximum.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="NormalGasketPressure.MaximumOccursOn"></a>
+
+### *property* NormalGasketPressure.MaximumOccursOn *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets the MaximumOccursOn.
 
 <!-- !! processed by numpydoc !! -->
 
@@ -426,6 +384,14 @@ Gets the Minimum.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="NormalGasketPressure.MinimumOccursOn"></a>
+
+### *property* NormalGasketPressure.MinimumOccursOn *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets the MinimumOccursOn.
+
+<!-- !! processed by numpydoc !! -->
+
 <a id="NormalGasketPressure.MinimumOfMaximumOverTime"></a>
 
 ### *property* NormalGasketPressure.MinimumOfMaximumOverTime *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
@@ -442,115 +408,27 @@ Gets the MinimumOfMinimumOverTime.
 
 <!-- !! processed by numpydoc !! -->
 
-<a id="NormalGasketPressure.Time"></a>
+<a id="NormalGasketPressure.NamedSelections"></a>
 
-### *property* NormalGasketPressure.Time *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* NormalGasketPressure.NamedSelections *: System.Collections.Generic.IEnumerable[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets the Time.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="NormalGasketPressure.DisplayTime"></a>
-
-### *property* NormalGasketPressure.DisplayTime *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the DisplayTime.
+Gets or sets the NamedSelections.
 
 <!-- !! processed by numpydoc !! -->
 
-<a id="NormalGasketPressure.GraphControlsXAxis"></a>
+<a id="NormalGasketPressure.Path"></a>
 
-### *property* NormalGasketPressure.GraphControlsXAxis *: [Ansys.Mechanical.DataModel.Enums.GraphControlsXAxis](../../../../../../../v241/Ansys/Mechanical/DataModel/Enums/GraphControlsXAxis.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.GraphControlsXAxis) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* NormalGasketPressure.Path *: [Ansys.ACT.Automation.Mechanical.Path](../../Path.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Path) | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets or sets the GraphControlsXAxis.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="NormalGasketPressure.DisplayOption"></a>
-
-### *property* NormalGasketPressure.DisplayOption *: [Ansys.Mechanical.DataModel.Enums.ResultAveragingType](../../../../../../../v241/Ansys/Mechanical/DataModel/Enums/ResultAveragingType.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.ResultAveragingType) | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the DisplayOption.
+Path property.
 
 <!-- !! processed by numpydoc !! -->
 
-<a id="NormalGasketPressure.DpfEvaluation"></a>
+<a id="NormalGasketPressure.PlotData"></a>
 
-### *property* NormalGasketPressure.DpfEvaluation *: [Ansys.Mechanical.DataModel.Enums.DpfEvaluationType](../../../../../../../v241/Ansys/Mechanical/DataModel/Enums/DpfEvaluationType.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DpfEvaluationType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* NormalGasketPressure.PlotData *: [Ansys.Mechanical.DataModel.Results.ResultDataTable](../../../../../Mechanical/DataModel/Results/ResultDataTable.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Results.ResultDataTable) | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets or sets the DpfEvaluation.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="NormalGasketPressure.By"></a>
-
-### *property* NormalGasketPressure.By *: [Ansys.Mechanical.DataModel.Enums.SetDriverStyle](../../../../../../../v241/Ansys/Mechanical/DataModel/Enums/SetDriverStyle.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.SetDriverStyle) | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the By.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="NormalGasketPressure.ItemType"></a>
-
-### *property* NormalGasketPressure.ItemType *: [Ansys.Mechanical.DataModel.Enums.ResultFileItemType](../../../../../../../v241/Ansys/Mechanical/DataModel/Enums/ResultFileItemType.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.ResultFileItemType) | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the ItemType.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="NormalGasketPressure.CalculateTimeHistory"></a>
-
-### *property* NormalGasketPressure.CalculateTimeHistory *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the CalculateTimeHistory.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="NormalGasketPressure.Suppressed"></a>
-
-### *property* NormalGasketPressure.Suppressed *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the Suppressed.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="NormalGasketPressure.Children"></a>
-
-### *property* NormalGasketPressure.Children *: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets the list of children.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="NormalGasketPressure.Comments"></a>
-
-### *property* NormalGasketPressure.Comments *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Comment](../../../../../../../v241/Ansys/ACT/Automation/Mechanical/Comment.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets the list of associated comments.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="NormalGasketPressure.Figures"></a>
-
-### *property* NormalGasketPressure.Figures *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Figure](../../../../../../../v241/Ansys/ACT/Automation/Mechanical/Figure.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets the list of associated figures.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="NormalGasketPressure.Images"></a>
-
-### *property* NormalGasketPressure.Images *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Image](../../../../../../../v241/Ansys/ACT/Automation/Mechanical/Image.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets the list of associated images.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="id0"></a>
-
-### *property* NormalGasketPressure.InternalObject *: System.Object | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets the internal object. For advanced usage only.
+Gets the result table.
 
 <!-- !! processed by numpydoc !! -->
 
@@ -562,6 +440,110 @@ Gets the list of properties for this object.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="NormalGasketPressure.ScopingMethod"></a>
+
+### *property* NormalGasketPressure.ScopingMethod *: [Ansys.Mechanical.DataModel.Enums.GeometryDefineByType](../../../../../Mechanical/DataModel/Enums/GeometryDefineByType.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.GeometryDefineByType) | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the ScopingMethod.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="NormalGasketPressure.SetNumber"></a>
+
+### *property* NormalGasketPressure.SetNumber *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the Set Number.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="NormalGasketPressure.SolutionCombinationDriver"></a>
+
+### *property* NormalGasketPressure.SolutionCombinationDriver *: [Ansys.Mechanical.DataModel.Enums.SolutionCombinationDriverStyle](../../../../../Mechanical/DataModel/Enums/SolutionCombinationDriverStyle.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.SolutionCombinationDriverStyle) | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the SolutionCombinationDriver.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="NormalGasketPressure.SolverComponentIDs"></a>
+
+### *property* NormalGasketPressure.SolverComponentIDs *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the SolverComponentIDs.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="NormalGasketPressure.Substep"></a>
+
+### *property* NormalGasketPressure.Substep *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets the Substep.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="NormalGasketPressure.Suppressed"></a>
+
+### *property* NormalGasketPressure.Suppressed *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the Suppressed.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="NormalGasketPressure.Surface"></a>
+
+### *property* NormalGasketPressure.Surface *: [Ansys.ACT.Automation.Mechanical.Surface](../../Surface.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Surface) | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Surface property.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="NormalGasketPressure.SurfaceCoating"></a>
+
+### *property* NormalGasketPressure.SurfaceCoating *: [Ansys.ACT.Automation.Mechanical.SurfaceCoating](../../SurfaceCoating.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.SurfaceCoating) | [None](https://docs.python.org/3/library/constants.html#None)*
+
+SurfaceCoating property.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="NormalGasketPressure.Time"></a>
+
+### *property* NormalGasketPressure.Time *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets the Time.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="NormalGasketPressure.TimeForMaximumOfMaximumValues"></a>
+
+### *property* NormalGasketPressure.TimeForMaximumOfMaximumValues *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Get the Time for the maximum of maximum values.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="NormalGasketPressure.TimeForMaximumOfMinimumValues"></a>
+
+### *property* NormalGasketPressure.TimeForMaximumOfMinimumValues *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Get the Time for the maximum of minimum values.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="NormalGasketPressure.TimeForMinimumOfMaximumValues"></a>
+
+### *property* NormalGasketPressure.TimeForMinimumOfMaximumValues *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Get the Time for the minimum of maximum values.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="NormalGasketPressure.TimeForMinimumOfMinimumValues"></a>
+
+### *property* NormalGasketPressure.TimeForMinimumOfMinimumValues *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Get the Time for the minimum of minimum values.
+
+<!-- !! processed by numpydoc !! -->
+
 <a id="NormalGasketPressure.VisibleProperties"></a>
 
 ### *property* NormalGasketPressure.VisibleProperties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
@@ -570,79 +552,23 @@ Gets the list of properties that are visible for this object.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="NormalGasketPressure.WaterfallShowTextOnMosaic"></a>
+
+### *property* NormalGasketPressure.WaterfallShowTextOnMosaic *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the Waterfall Mosaic Text Property.
+
+<!-- !! processed by numpydoc !! -->
+
 <a id="method-detail"></a>
 
 ## Method detail
 
-<a id="NormalGasketPressure.ClearGeneratedData"></a>
+<a id="NormalGasketPressure.Activate"></a>
 
-### NormalGasketPressure.ClearGeneratedData()
+### NormalGasketPressure.Activate()
 
-Run the ClearGeneratedData action.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="NormalGasketPressure.EvaluateAllResults"></a>
-
-### NormalGasketPressure.EvaluateAllResults()
-
-Run the EvaluateAllResults action.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="NormalGasketPressure.FetchRemoteResults"></a>
-
-### NormalGasketPressure.FetchRemoteResults()
-
-Run the FetchRemoteResult action.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="NormalGasketPressure.ExportToTextFile"></a>
-
-### NormalGasketPressure.ExportToTextFile(filePath: System.String)
-
-Run the ExportToTextFile action.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="NormalGasketPressure.ExportAnimation"></a>
-
-### NormalGasketPressure.ExportAnimation(filePath: System.String, format: [Ansys.Mechanical.DataModel.Enums.GraphicsAnimationExportFormat](../../../../../../../v241/Ansys/Mechanical/DataModel/Enums/GraphicsAnimationExportFormat.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.GraphicsAnimationExportFormat), settings: [Ansys.Mechanical.Graphics.AnimationExportSettings](../../../../../../../v241/Ansys/Mechanical/Graphics/AnimationExportSettings.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.Graphics.AnimationExportSettings))
-
-Run the ExportAnimation action.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="NormalGasketPressure.DuplicateWithoutResults"></a>
-
-### NormalGasketPressure.DuplicateWithoutResults()
-
-Run the DuplicateWithoutResults action.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="NormalGasketPressure.CreateResultsAtAllSets"></a>
-
-### NormalGasketPressure.CreateResultsAtAllSets()
-
-Creates results at all sets for results under a solution.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="NormalGasketPressure.PromoteToNamedSelection"></a>
-
-### NormalGasketPressure.PromoteToNamedSelection()
-
-Run the PromoteToNamedSelection action.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="NormalGasketPressure.CreateParameter"></a>
-
-### NormalGasketPressure.CreateParameter(propName: System.String)
-
-CreateParameter method.
+Activate the current object.
 
 <!-- !! processed by numpydoc !! -->
 
@@ -654,51 +580,19 @@ Creates a new Alert
 
 <!-- !! processed by numpydoc !! -->
 
-<a id="NormalGasketPressure.AddConvergence"></a>
-
-### NormalGasketPressure.AddConvergence()
-
-Creates a new Convergence
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="NormalGasketPressure.RenameBasedOnDefinition"></a>
-
-### NormalGasketPressure.RenameBasedOnDefinition()
-
-Run the RenameBasedOnDefinition action.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="NormalGasketPressure.Delete"></a>
-
-### NormalGasketPressure.Delete()
-
-Run the Delete action.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="NormalGasketPressure.GetChildren"></a>
-
-### NormalGasketPressure.GetChildren(recurses: System.Boolean, children: System.Collections.Generic.IList[ChildrenType])
-
-Gets the list of children, filtered by type.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="id1"></a>
-
-### NormalGasketPressure.GetChildren(category: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../../../v241/Ansys/Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory), recurses: System.Boolean, children: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject])
-
-Gets the list of children, filtered by type.
-
-<!-- !! processed by numpydoc !! -->
-
 <a id="NormalGasketPressure.AddComment"></a>
 
 ### NormalGasketPressure.AddComment()
 
 Creates a new child Comment.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="NormalGasketPressure.AddConvergence"></a>
+
+### NormalGasketPressure.AddConvergence()
+
+Creates a new Convergence
 
 <!-- !! processed by numpydoc !! -->
 
@@ -714,17 +608,19 @@ Creates a new child Figure.
 
 ### NormalGasketPressure.AddImage(filePath: System.String)
 
+```text
 Creates a new child Image.
 If a filePath is provided, the image will be loaded from that file,
 if not, the image will be a screen capture of the Geometry window.
+```
 
 <!-- !! processed by numpydoc !! -->
 
-<a id="NormalGasketPressure.Activate"></a>
+<a id="NormalGasketPressure.ClearGeneratedData"></a>
 
-### NormalGasketPressure.Activate()
+### NormalGasketPressure.ClearGeneratedData()
 
-Activate the current object.
+Run the ClearGeneratedData action.
 
 <!-- !! processed by numpydoc !! -->
 
@@ -736,11 +632,91 @@ Copies all visible properties from this object to another.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="NormalGasketPressure.CreateParameter"></a>
+
+### NormalGasketPressure.CreateParameter(propName: System.String)
+
+CreateParameter method.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="NormalGasketPressure.CreateResultsAtAllSets"></a>
+
+### NormalGasketPressure.CreateResultsAtAllSets()
+
+Creates results at all sets for results under a solution.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="NormalGasketPressure.Delete"></a>
+
+### NormalGasketPressure.Delete()
+
+Run the Delete action.
+
+<!-- !! processed by numpydoc !! -->
+
 <a id="NormalGasketPressure.Duplicate"></a>
 
 ### NormalGasketPressure.Duplicate()
 
 Creates a copy of the current DataModelObject.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="NormalGasketPressure.DuplicateWithoutResults"></a>
+
+### NormalGasketPressure.DuplicateWithoutResults()
+
+Run the DuplicateWithoutResults action.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="NormalGasketPressure.EvaluateAllResults"></a>
+
+### NormalGasketPressure.EvaluateAllResults()
+
+Run the EvaluateAllResults action.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="NormalGasketPressure.ExportAnimation"></a>
+
+### NormalGasketPressure.ExportAnimation(filePath: System.String, format: [Ansys.Mechanical.DataModel.Enums.GraphicsAnimationExportFormat](../../../../../Mechanical/DataModel/Enums/GraphicsAnimationExportFormat.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.GraphicsAnimationExportFormat), settings: [Ansys.Mechanical.Graphics.AnimationExportSettings](../../../../../Mechanical/Graphics/AnimationExportSettings.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.Graphics.AnimationExportSettings))
+
+Run the ExportAnimation action.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="NormalGasketPressure.ExportToTextFile"></a>
+
+### NormalGasketPressure.ExportToTextFile(filePath: System.String)
+
+Run the ExportToTextFile action.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="NormalGasketPressure.FetchRemoteResults"></a>
+
+### NormalGasketPressure.FetchRemoteResults()
+
+Run the FetchRemoteResult action.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="NormalGasketPressure.GetChildren"></a>
+
+### NormalGasketPressure.GetChildren(recurses: System.Boolean, children: System.Collections.Generic.IList[ChildrenType])
+
+Gets the list of children, filtered by type.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="NormalGasketPressure.GetParameter"></a>
+
+### NormalGasketPressure.GetParameter(propName: System.String)
+
+Gets the parameter corresponding to the given property.
 
 <!-- !! processed by numpydoc !! -->
 
@@ -760,6 +736,25 @@ Run the GroupSimilarObjects action.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="NormalGasketPressure.PromoteToNamedSelection"></a>
+
+### NormalGasketPressure.PromoteToNamedSelection()
+
+Run the PromoteToNamedSelection action.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="NormalGasketPressure.PropertyByAPIName"></a>
+
+### NormalGasketPressure.PropertyByAPIName(name: System.String)
+
+```text
+Get a property by its API name.
+If multiple properties have the same API Name, only the first property with that name will be returned.
+```
+
+<!-- !! processed by numpydoc !! -->
+
 <a id="NormalGasketPressure.PropertyByName"></a>
 
 ### NormalGasketPressure.PropertyByName(name: System.String)
@@ -768,28 +763,19 @@ Get a property by its unique name.
 
 <!-- !! processed by numpydoc !! -->
 
-<a id="NormalGasketPressure.PropertyByAPIName"></a>
-
-### NormalGasketPressure.PropertyByAPIName(name: System.String)
-
-Get a property by its API name.
-If multiple properties have the same API Name, only the first property with that name will be returned.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="NormalGasketPressure.GetParameter"></a>
-
-### NormalGasketPressure.GetParameter(propName: System.String)
-
-Gets the parameter corresponding to the given property.
-
-<!-- !! processed by numpydoc !! -->
-
 <a id="NormalGasketPressure.RemoveParameter"></a>
 
 ### NormalGasketPressure.RemoveParameter(propName: System.String)
 
 Removes the parameter from the parameter set corresponding to the given property.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="NormalGasketPressure.RenameBasedOnDefinition"></a>
+
+### NormalGasketPressure.RenameBasedOnDefinition()
+
+Run the RenameBasedOnDefinition action.
 
 <!-- !! processed by numpydoc !! -->
 

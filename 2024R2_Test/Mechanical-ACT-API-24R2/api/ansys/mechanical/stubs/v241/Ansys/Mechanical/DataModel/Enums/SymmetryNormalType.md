@@ -1,6 +1,6 @@
 # `SymmetryNormalType`
 
-
+<a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.SymmetryNormalType"></a>
 
 #### *class* ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.SymmetryNormalType
 
@@ -17,10 +17,10 @@ Specifies the SymmetryNormalType.
 ### Attributes
 
 | Name |
-| ------------------------------------------------------------------------------------------------------------------ |
-| [`XAxis`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/SymmetryNormalType.md#SymmetryNormalType.XAxis) |
-| [`YAxis`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/SymmetryNormalType.md#SymmetryNormalType.YAxis) |
-| [`ZAxis`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/SymmetryNormalType.md#SymmetryNormalType.ZAxis) |
+| ---------------------------------------- |
+| [`XAxis`](#SymmetryNormalType.XAxis) |
+| [`YAxis`](#SymmetryNormalType.YAxis) |
+| [`ZAxis`](#SymmetryNormalType.ZAxis) |
 
 <a id="attribute-detail"></a>
 

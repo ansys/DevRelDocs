@@ -1,6 +1,6 @@
 # `ThermalStrainType`
 
-
+<a id="ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.ThermalStrainType"></a>
 
 #### *class* ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.ThermalStrainType
 
@@ -17,7 +17,7 @@ Specifies the ThermalStrainType.
 ### Attributes
 
 | Name |
-| --------------------------------------------------------------- |
+| ---------------------------------------------------------------------------------------------------------------------------------------- |
 | [`ProgramControlled`](#ThermalStrainType.ProgramControlled) |
 | [`Strong`](#ThermalStrainType.Strong) |
 | [`Weak`](#ThermalStrainType.Weak) |

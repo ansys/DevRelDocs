@@ -1,6 +1,6 @@
 # `CMBlockCommand`
 
-
+<a id="ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.FE.CDB.CMBlockCommand"></a>
 
 #### *class* ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.FE.CDB.CMBlockCommand
 
@@ -18,11 +18,11 @@ Represents a CMBLOCK command.
 
 | Name | Description |
 |--------------------------------------------------------------------------------------------------------------------------|-------------------------------------------|
-| [`Cmname`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/FE/CDB/CMBlockCommand.md#CMBlockCommand.Cmname)     | Gets the component name.                  |
-| [`Type`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/FE/CDB/CMBlockCommand.md#CMBlockCommand.Type)         | Gets the type of entities (node or elem). |
-| [`Elements`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/FE/CDB/CMBlockCommand.md#CMBlockCommand.Elements) | Gets the type of entities.                |
-| [`Name`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/FE/CDB/CMBlockCommand.md#CMBlockCommand.Name)         | Gets the command name.                    |
-| [`Index`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/FE/CDB/CMBlockCommand.md#CMBlockCommand.Index)       | Gets the command index.                   |
+| [`Cmname`](#CMBlockCommand.Cmname)     | Gets the component name.                  |
+| [`Elements`](#CMBlockCommand.Elements) | Gets the type of entities.                |
+| [`Index`](#CMBlockCommand.Index)       | Gets the command index.                   |
+| [`Name`](#CMBlockCommand.Name)         | Gets the command name.                    |
+| [`Type`](#CMBlockCommand.Type)         | Gets the type of entities (node or elem). |
 
 <a id="property-detail"></a>
 
@@ -36,19 +36,19 @@ Gets the component name.
 
 <!-- !! processed by numpydoc !! -->
 
-<a id="CMBlockCommand.Type"></a>
-
-### *property* CMBlockCommand.Type *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets the type of entities (node or elem).
-
-<!-- !! processed by numpydoc !! -->
-
 <a id="CMBlockCommand.Elements"></a>
 
 ### *property* CMBlockCommand.Elements *: System.Collections.Generic.IReadOnlyList[System.Int32] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the type of entities.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="CMBlockCommand.Index"></a>
+
+### *property* CMBlockCommand.Index *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets the command index.
 
 <!-- !! processed by numpydoc !! -->
 
@@ -60,11 +60,11 @@ Gets the command name.
 
 <!-- !! processed by numpydoc !! -->
 
-<a id="CMBlockCommand.Index"></a>
+<a id="CMBlockCommand.Type"></a>
 
-### *property* CMBlockCommand.Index *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* CMBlockCommand.Type *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets the command index.
+Gets the type of entities (node or elem).
 
 <!-- !! processed by numpydoc !! -->
 

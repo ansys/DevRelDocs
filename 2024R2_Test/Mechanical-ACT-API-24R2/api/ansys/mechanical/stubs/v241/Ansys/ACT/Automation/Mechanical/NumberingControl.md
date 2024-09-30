@@ -1,6 +1,6 @@
 # `NumberingControl`
 
-
+<a id="ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.NumberingControl"></a>
 
 #### *class* ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.NumberingControl
 
@@ -17,56 +17,46 @@ Defines a NumberingControl.
 ### Methods
 
 | Name | Description |
-|-----------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------|
-| [`Delete`](../../../../../v242/Ansys/ACT/Automation/Mechanical/NumberingControl.md#NumberingControl.Delete)                                   | Run the Delete action.                                                            |
-| [`GetChildren`](../../../../../v242/Ansys/ACT/Automation/Mechanical/NumberingControl.md#id1)                                                  | Gets the list of children, filtered by type.                                      |
-| [`GetChildren`](../../../../../v242/Ansys/ACT/Automation/Mechanical/NumberingControl.md#id1)                                                  | Gets the list of children, filtered by type.                                      |
-| [`AddComment`](../../../../../v242/Ansys/ACT/Automation/Mechanical/NumberingControl.md#NumberingControl.AddComment)                           | Creates a new child Comment.                                                      |
-| [`AddFigure`](../../../../../v242/Ansys/ACT/Automation/Mechanical/NumberingControl.md#NumberingControl.AddFigure)                             | Creates a new child Figure.                                                       |
-| [`AddImage`](../../../../../v242/Ansys/ACT/Automation/Mechanical/NumberingControl.md#NumberingControl.AddImage)                               | Creates a new child Image.                                                        |
-| [`Activate`](../../../../../v242/Ansys/ACT/Automation/Mechanical/NumberingControl.md#NumberingControl.Activate)                               | Activate the current object.                                                      |
-| [`CopyTo`](../../../../../v242/Ansys/ACT/Automation/Mechanical/NumberingControl.md#NumberingControl.CopyTo)                                   | Copies all visible properties from this object to another.                        |
-| [`Duplicate`](../../../../../v242/Ansys/ACT/Automation/Mechanical/NumberingControl.md#NumberingControl.Duplicate)                             | Creates a copy of the current DataModelObject.                                    |
-| [`GroupAllSimilarChildren`](../../../../../v242/Ansys/ACT/Automation/Mechanical/NumberingControl.md#NumberingControl.GroupAllSimilarChildren) | Run the GroupAllSimilarChildren action.                                           |
-| [`GroupSimilarObjects`](../../../../../v242/Ansys/ACT/Automation/Mechanical/NumberingControl.md#NumberingControl.GroupSimilarObjects)         | Run the GroupSimilarObjects action.                                               |
-| [`PropertyByName`](../../../../../v242/Ansys/ACT/Automation/Mechanical/NumberingControl.md#NumberingControl.PropertyByName)                   | Get a property by its unique name.                                                |
-| [`PropertyByAPIName`](../../../../../v242/Ansys/ACT/Automation/Mechanical/NumberingControl.md#NumberingControl.PropertyByAPIName)             | Get a property by its API name.                                                   |
-| [`CreateParameter`](../../../../../v242/Ansys/ACT/Automation/Mechanical/NumberingControl.md#NumberingControl.CreateParameter)                 | Creates a new parameter for a Property.                                           |
-| [`GetParameter`](../../../../../v242/Ansys/ACT/Automation/Mechanical/NumberingControl.md#NumberingControl.GetParameter)                       | Gets the parameter corresponding to the given property.                           |
-| [`RemoveParameter`](../../../../../v242/Ansys/ACT/Automation/Mechanical/NumberingControl.md#NumberingControl.RemoveParameter)                 | Removes the parameter from the parameter set corresponding to the given property. |
+|------------------------------------------------------------------------|-----------------------------------------------------------------------------------|
+| [`Activate`](#NumberingControl.Activate)                               | Activate the current object.                                                      |
+| [`AddComment`](#NumberingControl.AddComment)                           | Creates a new child Comment.                                                      |
+| [`AddFigure`](#NumberingControl.AddFigure)                             | Creates a new child Figure.                                                       |
+| [`AddImage`](#NumberingControl.AddImage)                               | Creates a new child Image.                                                        |
+| [`CopyTo`](#NumberingControl.CopyTo)                                   | Copies all visible properties from this object to another.                        |
+| [`CreateParameter`](#NumberingControl.CreateParameter)                 | Creates a new parameter for a Property.                                           |
+| [`Delete`](#NumberingControl.Delete)                                   | Run the Delete action.                                                            |
+| [`Duplicate`](#NumberingControl.Duplicate)                             | Creates a copy of the current DataModelObject.                                    |
+| [`GetChildren`](#NumberingControl.GetChildren)                         | Gets the list of children, filtered by type.                                      |
+| [`GetParameter`](#NumberingControl.GetParameter)                       | Gets the parameter corresponding to the given property.                           |
+| [`GroupAllSimilarChildren`](#NumberingControl.GroupAllSimilarChildren) | Run the GroupAllSimilarChildren action.                                           |
+| [`GroupSimilarObjects`](#NumberingControl.GroupSimilarObjects)         | Run the GroupSimilarObjects action.                                               |
+| [`PropertyByAPIName`](#NumberingControl.PropertyByAPIName)             | Get a property by its API name.                                                   |
+| [`PropertyByName`](#NumberingControl.PropertyByName)                   | Get a property by its unique name.                                                |
+| [`RemoveParameter`](#NumberingControl.RemoveParameter)                 | Removes the parameter from the parameter set corresponding to the given property. |
 
 ### Properties
 
 | Name | Description |
-|-----------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------|
-| [`InternalObject`](../../../../../v242/Ansys/ACT/Automation/Mechanical/NumberingControl.md#id0)                                               | Gets the internal object. For advanced usage only.            |
-| [`BeginElementNumber`](../../../../../v242/Ansys/ACT/Automation/Mechanical/NumberingControl.md#NumberingControl.BeginElementNumber)           | Gets or sets the BeginElementNumber.                          |
-| [`BeginNodeNumber`](../../../../../v242/Ansys/ACT/Automation/Mechanical/NumberingControl.md#NumberingControl.BeginNodeNumber)                 | Gets or sets the BeginNodeNumber.                             |
-| [`EndElementNumber`](../../../../../v242/Ansys/ACT/Automation/Mechanical/NumberingControl.md#NumberingControl.EndElementNumber)               | Gets or sets the EndElementNumber.                            |
-| [`EndNodeNumber`](../../../../../v242/Ansys/ACT/Automation/Mechanical/NumberingControl.md#NumberingControl.EndNodeNumber)                     | Gets or sets the EndNodeNumber.                               |
-| [`NodeNumber`](../../../../../v242/Ansys/ACT/Automation/Mechanical/NumberingControl.md#NumberingControl.NodeNumber)                           | Gets or sets the NodeNumber.                                  |
-| [`Suppressed`](../../../../../v242/Ansys/ACT/Automation/Mechanical/NumberingControl.md#NumberingControl.Suppressed)                           | Gets or sets the Suppressed.                                  |
-| [`Location`](../../../../../v242/Ansys/ACT/Automation/Mechanical/NumberingControl.md#NumberingControl.Location)                               | Gets or sets the Location.                                    |
-| [`DataModelObjectCategory`](../../../../../v242/Ansys/ACT/Automation/Mechanical/NumberingControl.md#NumberingControl.DataModelObjectCategory) | Gets the current DataModelObject's category.                  |
-| [`Children`](../../../../../v242/Ansys/ACT/Automation/Mechanical/NumberingControl.md#NumberingControl.Children)                               | Gets the list of children.                                    |
-| [`Comments`](../../../../../v242/Ansys/ACT/Automation/Mechanical/NumberingControl.md#NumberingControl.Comments)                               | Gets the list of associated comments.                         |
-| [`Figures`](../../../../../v242/Ansys/ACT/Automation/Mechanical/NumberingControl.md#NumberingControl.Figures)                                 | Gets the list of associated figures.                          |
-| [`Images`](../../../../../v242/Ansys/ACT/Automation/Mechanical/NumberingControl.md#NumberingControl.Images)                                   | Gets the list of associated images.                           |
-| [`InternalObject`](../../../../../v242/Ansys/ACT/Automation/Mechanical/NumberingControl.md#id0)                                               | Gets the internal object. For advanced usage only.            |
-| [`Properties`](../../../../../v242/Ansys/ACT/Automation/Mechanical/NumberingControl.md#NumberingControl.Properties)                           | Gets the list of properties for this object.                  |
-| [`VisibleProperties`](../../../../../v242/Ansys/ACT/Automation/Mechanical/NumberingControl.md#NumberingControl.VisibleProperties)             | Gets the list of properties that are visible for this object. |
+|------------------------------------------------------------------------|---------------------------------------------------------------|
+| [`BeginElementNumber`](#NumberingControl.BeginElementNumber)           | Gets or sets the BeginElementNumber.                          |
+| [`BeginNodeNumber`](#NumberingControl.BeginNodeNumber)                 | Gets or sets the BeginNodeNumber.                             |
+| [`Children`](#NumberingControl.Children)                               | Gets the list of children.                                    |
+| [`Comments`](#NumberingControl.Comments)                               | Gets the list of associated comments.                         |
+| [`DataModelObjectCategory`](#NumberingControl.DataModelObjectCategory) | Gets the current DataModelObject’s category.                  |
+| [`EndElementNumber`](#NumberingControl.EndElementNumber)               | Gets or sets the EndElementNumber.                            |
+| [`EndNodeNumber`](#NumberingControl.EndNodeNumber)                     | Gets or sets the EndNodeNumber.                               |
+| [`Figures`](#NumberingControl.Figures)                                 | Gets the list of associated figures.                          |
+| [`Images`](#NumberingControl.Images)                                   | Gets the list of associated images.                           |
+| [`InternalObject`](#NumberingControl.InternalObject)                   | Gets the internal object. For advanced usage only.            |
+| [`Location`](#NumberingControl.Location)                               | Gets or sets the Location.                                    |
+| [`NodeNumber`](#NumberingControl.NodeNumber)                           | Gets or sets the NodeNumber.                                  |
+| [`Properties`](#NumberingControl.Properties)                           | Gets the list of properties for this object.                  |
+| [`Suppressed`](#NumberingControl.Suppressed)                           | Gets or sets the Suppressed.                                  |
+| [`VisibleProperties`](#NumberingControl.VisibleProperties)             | Gets the list of properties that are visible for this object. |
 
 <a id="property-detail"></a>
 
 ## Property detail
-
-<a id="NumberingControl.InternalObject"></a>
-
-### *property* NumberingControl.InternalObject *: Ansys.Common.Interop.DSObjectsAuto.IDSMeshRenumberingControlAuto | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets the internal object. For advanced usage only.
-
-<!-- !! processed by numpydoc !! -->
 
 <a id="NumberingControl.BeginElementNumber"></a>
 
@@ -81,54 +71,6 @@ Gets or sets the BeginElementNumber.
 ### *property* NumberingControl.BeginNodeNumber *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the BeginNodeNumber.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="NumberingControl.EndElementNumber"></a>
-
-### *property* NumberingControl.EndElementNumber *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the EndElementNumber.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="NumberingControl.EndNodeNumber"></a>
-
-### *property* NumberingControl.EndNodeNumber *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the EndNodeNumber.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="NumberingControl.NodeNumber"></a>
-
-### *property* NumberingControl.NodeNumber *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the NodeNumber.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="NumberingControl.Suppressed"></a>
-
-### *property* NumberingControl.Suppressed *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the Suppressed.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="NumberingControl.Location"></a>
-
-### *property* NumberingControl.Location *: Ansys.ACT.Interfaces.Common.ISelectionInfo | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the Location.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="NumberingControl.DataModelObjectCategory"></a>
-
-### *property* NumberingControl.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets the current DataModelObject's category.
 
 <!-- !! processed by numpydoc !! -->
 
@@ -148,6 +90,30 @@ Gets the list of associated comments.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="NumberingControl.DataModelObjectCategory"></a>
+
+### *property* NumberingControl.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../v242/Ansys/Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets the current DataModelObject’s category.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="NumberingControl.EndElementNumber"></a>
+
+### *property* NumberingControl.EndElementNumber *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the EndElementNumber.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="NumberingControl.EndNodeNumber"></a>
+
+### *property* NumberingControl.EndNodeNumber *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the EndNodeNumber.
+
+<!-- !! processed by numpydoc !! -->
+
 <a id="NumberingControl.Figures"></a>
 
 ### *property* NumberingControl.Figures *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Figure](Figure.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
@@ -164,11 +130,27 @@ Gets the list of associated images.
 
 <!-- !! processed by numpydoc !! -->
 
-<a id="id0"></a>
+<a id="NumberingControl.InternalObject"></a>
 
-### *property* NumberingControl.InternalObject *: System.Object | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* NumberingControl.InternalObject *: Ansys.Common.Interop.DSObjectsAuto.IDSMeshRenumberingControlAuto | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the internal object. For advanced usage only.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="NumberingControl.Location"></a>
+
+### *property* NumberingControl.Location *: Ansys.ACT.Interfaces.Common.ISelectionInfo | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the Location.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="NumberingControl.NodeNumber"></a>
+
+### *property* NumberingControl.NodeNumber *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the NodeNumber.
 
 <!-- !! processed by numpydoc !! -->
 
@@ -177,6 +159,14 @@ Gets the internal object. For advanced usage only.
 ### *property* NumberingControl.Properties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of properties for this object.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="NumberingControl.Suppressed"></a>
+
+### *property* NumberingControl.Suppressed *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the Suppressed.
 
 <!-- !! processed by numpydoc !! -->
 
@@ -192,27 +182,11 @@ Gets the list of properties that are visible for this object.
 
 ## Method detail
 
-<a id="NumberingControl.Delete"></a>
+<a id="NumberingControl.Activate"></a>
 
-### NumberingControl.Delete()
+### NumberingControl.Activate()
 
-Run the Delete action.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="NumberingControl.GetChildren"></a>
-
-### NumberingControl.GetChildren(recurses: System.Boolean, children: System.Collections.Generic.IList[ChildrenType])
-
-Gets the list of children, filtered by type.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="id1"></a>
-
-### NumberingControl.GetChildren(category: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory), recurses: System.Boolean, children: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject])
-
-Gets the list of children, filtered by type.
+Activate the current object.
 
 <!-- !! processed by numpydoc !! -->
 
@@ -236,17 +210,11 @@ Creates a new child Figure.
 
 ### NumberingControl.AddImage(filePath: System.String)
 
+```text
 Creates a new child Image.
 If a filePath is provided, the image will be loaded from that file,
 if not, the image will be a screen capture of the Geometry window.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="NumberingControl.Activate"></a>
-
-### NumberingControl.Activate()
-
-Activate the current object.
+```
 
 <!-- !! processed by numpydoc !! -->
 
@@ -258,11 +226,43 @@ Copies all visible properties from this object to another.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="NumberingControl.CreateParameter"></a>
+
+### NumberingControl.CreateParameter(propName: System.String)
+
+Creates a new parameter for a Property.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="NumberingControl.Delete"></a>
+
+### NumberingControl.Delete()
+
+Run the Delete action.
+
+<!-- !! processed by numpydoc !! -->
+
 <a id="NumberingControl.Duplicate"></a>
 
 ### NumberingControl.Duplicate()
 
 Creates a copy of the current DataModelObject.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="NumberingControl.GetChildren"></a>
+
+### NumberingControl.GetChildren(recurses: System.Boolean, children: System.Collections.Generic.IList[ChildrenType])
+
+Gets the list of children, filtered by type.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="NumberingControl.GetParameter"></a>
+
+### NumberingControl.GetParameter(propName: System.String)
+
+Gets the parameter corresponding to the given property.
 
 <!-- !! processed by numpydoc !! -->
 
@@ -282,36 +282,22 @@ Run the GroupSimilarObjects action.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="NumberingControl.PropertyByAPIName"></a>
+
+### NumberingControl.PropertyByAPIName(name: System.String)
+
+```text
+Get a property by its API name.
+If multiple properties have the same API Name, only the first property with that name will be returned.
+```
+
+<!-- !! processed by numpydoc !! -->
+
 <a id="NumberingControl.PropertyByName"></a>
 
 ### NumberingControl.PropertyByName(name: System.String)
 
 Get a property by its unique name.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="NumberingControl.PropertyByAPIName"></a>
-
-### NumberingControl.PropertyByAPIName(name: System.String)
-
-Get a property by its API name.
-If multiple properties have the same API Name, only the first property with that name will be returned.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="NumberingControl.CreateParameter"></a>
-
-### NumberingControl.CreateParameter(propName: System.String)
-
-Creates a new parameter for a Property.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="NumberingControl.GetParameter"></a>
-
-### NumberingControl.GetParameter(propName: System.String)
-
-Gets the parameter corresponding to the given property.
 
 <!-- !! processed by numpydoc !! -->
 
