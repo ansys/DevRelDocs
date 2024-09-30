@@ -1,6 +1,6 @@
 # `ContactBoltThreadType`
 
-
+<a id="ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.ContactBoltThreadType"></a>
 
 #### *class* ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.ContactBoltThreadType
 
@@ -17,7 +17,7 @@ Specifies the ContactBoltThreadType.
 ### Attributes
 
 | Name |
-| --------------------------------------------------------- |
+| -------------------------------------------------------------------------------------------------------------------------------------- |
 | [`DoubleThread`](#ContactBoltThreadType.DoubleThread) |
 | [`SingleThread`](#ContactBoltThreadType.SingleThread) |
 | [`TripleThread`](#ContactBoltThreadType.TripleThread) |

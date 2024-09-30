@@ -1,6 +1,6 @@
 # `MeshMethodAlgorithm`
 
-
+<a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.MeshMethodAlgorithm"></a>
 
 #### *class* ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.MeshMethodAlgorithm
 
@@ -17,15 +17,19 @@ Specifies the MeshMethodAlgorithm.
 ### Attributes
 
 | Name |
-| ---------------------------------------------------------------------------------------------------------------------------------------- |
-| [`Axisymmetric`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/MeshMethodAlgorithm.md#MeshMethodAlgorithm.Axisymmetric) |
-| [`PatchConforming`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/MeshMethodAlgorithm.md#MeshMethodAlgorithm.PatchConforming) |
-| [`PatchIndependent`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/MeshMethodAlgorithm.md#MeshMethodAlgorithm.PatchIndependent) |
-| [`AutomaticSweep`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/MeshMethodAlgorithm.md#MeshMethodAlgorithm.AutomaticSweep) |
+| ------------------------------------------------------------- |
+| [`AutomaticSweep`](#MeshMethodAlgorithm.AutomaticSweep) |
+| [`Axisymmetric`](#MeshMethodAlgorithm.Axisymmetric) |
+| [`PatchConforming`](#MeshMethodAlgorithm.PatchConforming) |
+| [`PatchIndependent`](#MeshMethodAlgorithm.PatchIndependent) |
 
 <a id="attribute-detail"></a>
 
 ## Attribute detail
+
+<a id="MeshMethodAlgorithm.AutomaticSweep"></a>
+
+### MeshMethodAlgorithm.AutomaticSweep *= 4*
 
 <a id="MeshMethodAlgorithm.Axisymmetric"></a>
 
@@ -38,9 +42,5 @@ Specifies the MeshMethodAlgorithm.
 <a id="MeshMethodAlgorithm.PatchIndependent"></a>
 
 ### MeshMethodAlgorithm.PatchIndependent *= 3*
-
-<a id="MeshMethodAlgorithm.AutomaticSweep"></a>
-
-### MeshMethodAlgorithm.AutomaticSweep *= 4*
 
 

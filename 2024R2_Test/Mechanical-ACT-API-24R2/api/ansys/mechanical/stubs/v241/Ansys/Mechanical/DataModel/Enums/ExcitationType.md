@@ -1,6 +1,6 @@
 # `ExcitationType`
 
-
+<a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.ExcitationType"></a>
 
 #### *class* ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.ExcitationType
 
@@ -17,9 +17,9 @@ Specifies the ExcitationType.
 ### Attributes
 
 | Name |
-| ---------------------------------------------------------------------------------------------------------------- |
-| [`Pressure`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/ExcitationType.md#ExcitationType.Pressure) |
-| [`Velocity`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/ExcitationType.md#ExcitationType.Velocity) |
+| ------------------------------------------ |
+| [`Pressure`](#ExcitationType.Pressure) |
+| [`Velocity`](#ExcitationType.Velocity) |
 
 <a id="attribute-detail"></a>
 

@@ -1,6 +1,6 @@
 # `EXDEulerBoundaryDefType`
 
-
+<a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.EXDEulerBoundaryDefType"></a>
 
 #### *class* ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.EXDEulerBoundaryDefType
 
@@ -15,10 +15,10 @@ Bases: [`enum.Enum`](https://docs.python.org/3/library/enum.html#enum.Enum)
 ### Attributes
 
 | Name |
-| ------------------------------------------------------------------------------------------------------------------------------------ |
-| [`eFlowOut`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/EXDEulerBoundaryDefType.md#EXDEulerBoundaryDefType.eFlowOut) |
-| [`eImpedance`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/EXDEulerBoundaryDefType.md#EXDEulerBoundaryDefType.eImpedance) |
-| [`eRigid`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/EXDEulerBoundaryDefType.md#EXDEulerBoundaryDefType.eRigid) |
+| ----------------------------------------------------- |
+| [`eFlowOut`](#EXDEulerBoundaryDefType.eFlowOut) |
+| [`eImpedance`](#EXDEulerBoundaryDefType.eImpedance) |
+| [`eRigid`](#EXDEulerBoundaryDefType.eRigid) |
 
 <a id="attribute-detail"></a>
 

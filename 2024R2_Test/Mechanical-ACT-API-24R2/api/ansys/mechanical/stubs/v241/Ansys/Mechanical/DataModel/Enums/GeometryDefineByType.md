@@ -1,6 +1,6 @@
 # `GeometryDefineByType`
 
-
+<a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.GeometryDefineByType"></a>
 
 #### *class* ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.GeometryDefineByType
 
@@ -17,34 +17,34 @@ Specifies the GeometryDefineByType.
 ### Attributes
 
 | Name |
-| -------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| [`AllOptimizationRegions`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/GeometryDefineByType.md#GeometryDefineByType.AllOptimizationRegions) |
-| [`AnalysisPly`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/GeometryDefineByType.md#GeometryDefineByType.AnalysisPly) |
-| [`BeamConnection`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/GeometryDefineByType.md#GeometryDefineByType.BeamConnection) |
-| [`BoundaryCondition`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/GeometryDefineByType.md#GeometryDefineByType.BoundaryCondition) |
-| [`Component`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/GeometryDefineByType.md#GeometryDefineByType.Component) |
-| [`ContactRegion`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/GeometryDefineByType.md#GeometryDefineByType.ContactRegion) |
-| [`Coordinates`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/GeometryDefineByType.md#GeometryDefineByType.Coordinates) |
-| [`Fracture`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/GeometryDefineByType.md#GeometryDefineByType.Fracture) |
-| [`FreeStanding`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/GeometryDefineByType.md#GeometryDefineByType.FreeStanding) |
-| [`Geometry`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/GeometryDefineByType.md#GeometryDefineByType.Geometry) |
-| [`ImportedAssembly`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/GeometryDefineByType.md#GeometryDefineByType.ImportedAssembly) |
-| [`ImportedCondensedPart`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/GeometryDefineByType.md#GeometryDefineByType.ImportedCondensedPart) |
-| [`ImportedInterface`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/GeometryDefineByType.md#GeometryDefineByType.ImportedInterface) |
-| [`ImportedPretension`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/GeometryDefineByType.md#GeometryDefineByType.ImportedPretension) |
-| [`Mapping`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/GeometryDefineByType.md#GeometryDefineByType.Mapping) |
-| [`NamedSelections`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/GeometryDefineByType.md#GeometryDefineByType.NamedSelections) |
-| [`OptimizationRegion`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/GeometryDefineByType.md#GeometryDefineByType.OptimizationRegion) |
-| [`Path`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/GeometryDefineByType.md#GeometryDefineByType.Path) |
-| [`RemotePoint`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/GeometryDefineByType.md#GeometryDefineByType.RemotePoint) |
-| [`RemotePointAndNodes`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/GeometryDefineByType.md#GeometryDefineByType.RemotePointAndNodes) |
-| [`ResultFileItem`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/GeometryDefineByType.md#GeometryDefineByType.ResultFileItem) |
-| [`Surface`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/GeometryDefineByType.md#GeometryDefineByType.Surface) |
-| [`SurfaceCoating`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/GeometryDefineByType.md#GeometryDefineByType.SurfaceCoating) |
-| [`VoltageCoupling`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/GeometryDefineByType.md#GeometryDefineByType.VoltageCoupling) |
-| [`Worksheet`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/GeometryDefineByType.md#GeometryDefineByType.Worksheet) |
-| [`MaximumValues`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/GeometryDefineByType.md#GeometryDefineByType.MaximumValues) |
-| [`MinimumValues`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/GeometryDefineByType.md#GeometryDefineByType.MinimumValues) |
+| ---------------------------------------------------------------------------- |
+| [`AllOptimizationRegions`](#GeometryDefineByType.AllOptimizationRegions) |
+| [`AnalysisPly`](#GeometryDefineByType.AnalysisPly) |
+| [`BeamConnection`](#GeometryDefineByType.BeamConnection) |
+| [`BoundaryCondition`](#GeometryDefineByType.BoundaryCondition) |
+| [`Component`](#GeometryDefineByType.Component) |
+| [`ContactRegion`](#GeometryDefineByType.ContactRegion) |
+| [`Coordinates`](#GeometryDefineByType.Coordinates) |
+| [`Fracture`](#GeometryDefineByType.Fracture) |
+| [`FreeStanding`](#GeometryDefineByType.FreeStanding) |
+| [`Geometry`](#GeometryDefineByType.Geometry) |
+| [`ImportedAssembly`](#GeometryDefineByType.ImportedAssembly) |
+| [`ImportedCondensedPart`](#GeometryDefineByType.ImportedCondensedPart) |
+| [`ImportedInterface`](#GeometryDefineByType.ImportedInterface) |
+| [`ImportedPretension`](#GeometryDefineByType.ImportedPretension) |
+| [`Mapping`](#GeometryDefineByType.Mapping) |
+| [`MaximumValues`](#GeometryDefineByType.MaximumValues) |
+| [`MinimumValues`](#GeometryDefineByType.MinimumValues) |
+| [`NamedSelections`](#GeometryDefineByType.NamedSelections) |
+| [`OptimizationRegion`](#GeometryDefineByType.OptimizationRegion) |
+| [`Path`](#GeometryDefineByType.Path) |
+| [`RemotePoint`](#GeometryDefineByType.RemotePoint) |
+| [`RemotePointAndNodes`](#GeometryDefineByType.RemotePointAndNodes) |
+| [`ResultFileItem`](#GeometryDefineByType.ResultFileItem) |
+| [`Surface`](#GeometryDefineByType.Surface) |
+| [`SurfaceCoating`](#GeometryDefineByType.SurfaceCoating) |
+| [`VoltageCoupling`](#GeometryDefineByType.VoltageCoupling) |
+| [`Worksheet`](#GeometryDefineByType.Worksheet) |
 
 <a id="attribute-detail"></a>
 
@@ -110,6 +110,14 @@ Specifies the GeometryDefineByType.
 
 ### GeometryDefineByType.Mapping *= 8*
 
+<a id="GeometryDefineByType.MaximumValues"></a>
+
+### GeometryDefineByType.MaximumValues *= 4*
+
+<a id="GeometryDefineByType.MinimumValues"></a>
+
+### GeometryDefineByType.MinimumValues *= 3*
+
 <a id="GeometryDefineByType.NamedSelections"></a>
 
 ### GeometryDefineByType.NamedSelections *= 30*
@@ -149,13 +157,5 @@ Specifies the GeometryDefineByType.
 <a id="GeometryDefineByType.Worksheet"></a>
 
 ### GeometryDefineByType.Worksheet *= 2*
-
-<a id="GeometryDefineByType.MaximumValues"></a>
-
-### GeometryDefineByType.MaximumValues *= 4*
-
-<a id="GeometryDefineByType.MinimumValues"></a>
-
-### GeometryDefineByType.MinimumValues *= 3*
 
 

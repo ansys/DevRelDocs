@@ -1,6 +1,6 @@
 # `LinuxSettings`
 
-
+<a id="ansys.mechanical.stubs.v242.Ansys.ACT.Mechanical.Application.SolveProcessSettings.LinuxSettings"></a>
 
 #### *class* ansys.mechanical.stubs.v242.Ansys.ACT.Mechanical.Application.SolveProcessSettings.LinuxSettings
 
@@ -17,7 +17,7 @@ The class representing the linux settings portion of the solve process settings.
 ### Properties
 
 | Name | Description |
-|-------------------------------------------------|------------------------------------------|
+|----------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------|
 | [`Active`](#LinuxSettings.Active)               | Whether the linux settings are active.   |
 | [`UserName`](#LinuxSettings.UserName)           | The user name.                           |
 | [`WorkingFolder`](#LinuxSettings.WorkingFolder) | The working folder.                      |

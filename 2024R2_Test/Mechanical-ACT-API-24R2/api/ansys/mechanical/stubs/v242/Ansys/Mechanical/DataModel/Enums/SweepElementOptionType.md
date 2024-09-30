@@ -1,6 +1,6 @@
 # `SweepElementOptionType`
 
-
+<a id="ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.SweepElementOptionType"></a>
 
 #### *class* ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.SweepElementOptionType
 
@@ -17,20 +17,20 @@ Specifies the SweepElementOptionType.
 ### Attributes
 
 | Name |
-| ------------------------------------------------------ |
-| [`SolidShell`](#SweepElementOptionType.SolidShell) |
+| ---------------------------------------------------------------------------------------------------------------------------------- |
 | [`Solid`](#SweepElementOptionType.Solid) |
+| [`SolidShell`](#SweepElementOptionType.SolidShell) |
 
 <a id="attribute-detail"></a>
 
 ## Attribute detail
 
-<a id="SweepElementOptionType.SolidShell"></a>
-
-### SweepElementOptionType.SolidShell *= 0*
-
 <a id="SweepElementOptionType.Solid"></a>
 
 ### SweepElementOptionType.Solid *= 1*
+
+<a id="SweepElementOptionType.SolidShell"></a>
+
+### SweepElementOptionType.SolidShell *= 0*
 
 

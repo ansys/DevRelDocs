@@ -1,6 +1,6 @@
 # `StopCriterion`
 
-
+<a id="ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.StopCriterion"></a>
 
 #### *class* ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.StopCriterion
 
@@ -17,7 +17,7 @@ Specifies the StopCriterion.
 ### Attributes
 
 | Name |
-| ----------------------------------------------------------------------- |
+| -------------------------------------------------------------------------------------------------------------------------------------------- |
 | [`FreeBoundary`](#StopCriterion.FreeBoundary) |
 | [`MaxCrackExtension`](#StopCriterion.MaxCrackExtension) |
 | [`MaxStressIntensityFactor`](#StopCriterion.MaxStressIntensityFactor) |

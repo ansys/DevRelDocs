@@ -1,6 +1,6 @@
 # `BoltLoadDefineBy`
 
-
+<a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.BoltLoadDefineBy"></a>
 
 #### *class* ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.BoltLoadDefineBy
 
@@ -17,20 +17,28 @@ Specifies the BoltLoadDefineBy.
 ### Attributes
 
 | Name |
-| ---------------------------------------------------------------------------------------------------------------------- |
-| [`Increment`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/BoltLoadDefineBy.md#BoltLoadDefineBy.Increment) |
-| [`Lock`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/BoltLoadDefineBy.md#BoltLoadDefineBy.Lock) |
-| [`Open`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/BoltLoadDefineBy.md#BoltLoadDefineBy.Open) |
-| [`Adjustment`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/BoltLoadDefineBy.md#BoltLoadDefineBy.Adjustment) |
-| [`Load`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/BoltLoadDefineBy.md#BoltLoadDefineBy.Load) |
+| ------------------------------------------------ |
+| [`Adjustment`](#BoltLoadDefineBy.Adjustment) |
+| [`Increment`](#BoltLoadDefineBy.Increment) |
+| [`Load`](#BoltLoadDefineBy.Load) |
+| [`Lock`](#BoltLoadDefineBy.Lock) |
+| [`Open`](#BoltLoadDefineBy.Open) |
 
 <a id="attribute-detail"></a>
 
 ## Attribute detail
 
+<a id="BoltLoadDefineBy.Adjustment"></a>
+
+### BoltLoadDefineBy.Adjustment *= 1*
+
 <a id="BoltLoadDefineBy.Increment"></a>
 
 ### BoltLoadDefineBy.Increment *= 4*
+
+<a id="BoltLoadDefineBy.Load"></a>
+
+### BoltLoadDefineBy.Load *= 0*
 
 <a id="BoltLoadDefineBy.Lock"></a>
 
@@ -39,13 +47,5 @@ Specifies the BoltLoadDefineBy.
 <a id="BoltLoadDefineBy.Open"></a>
 
 ### BoltLoadDefineBy.Open *= 3*
-
-<a id="BoltLoadDefineBy.Adjustment"></a>
-
-### BoltLoadDefineBy.Adjustment *= 1*
-
-<a id="BoltLoadDefineBy.Load"></a>
-
-### BoltLoadDefineBy.Load *= 0*
 
 

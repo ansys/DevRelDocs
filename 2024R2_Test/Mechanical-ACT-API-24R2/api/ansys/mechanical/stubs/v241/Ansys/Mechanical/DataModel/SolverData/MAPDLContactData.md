@@ -1,6 +1,6 @@
 # `MAPDLContactData`
 
-
+<a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.SolverData.MAPDLContactData"></a>
 
 #### *class* ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.SolverData.MAPDLContactData
 
@@ -17,9 +17,9 @@ MAPDLContactData class.
 ### Properties
 
 | Name | Description |
-|-------------------------------------------------------------------------------------------------------------------------|---------------------------------------------|
-| [`SourceId`](../../../../../v242/Ansys/Mechanical/DataModel/SolverData/MAPDLContactData.md#MAPDLContactData.SourceId)   | Gets the Source Id of the Contact region.   |
-| [`TargetId`](../../../../../v242/Ansys/Mechanical/DataModel/SolverData/MAPDLContactData.md#MAPDLContactData.TargetId)   | Gets the Target Id of the Contact region.   |
+|--------------------------------------------|---------------------------------------------|
+| [`SourceId`](#MAPDLContactData.SourceId)   | Gets the Source Id of the Contact region.   |
+| [`TargetId`](#MAPDLContactData.TargetId)   | Gets the Target Id of the Contact region.   |
 
 <a id="property-detail"></a>
 

@@ -1,6 +1,6 @@
 # `AutomaticNodeMovementMethod`
 
-
+<a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.AutomaticNodeMovementMethod"></a>
 
 #### *class* ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.AutomaticNodeMovementMethod
 
@@ -17,12 +17,12 @@ To select the method of AutoNodeMove under PCTet.
 ### Attributes
 
 | Name |
-| ---------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| [`Aggressive`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/AutomaticNodeMovementMethod.md#AutomaticNodeMovementMethod.Aggressive) |
-| [`Conservative`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/AutomaticNodeMovementMethod.md#AutomaticNodeMovementMethod.Conservative) |
-| [`Custom`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/AutomaticNodeMovementMethod.md#AutomaticNodeMovementMethod.Custom) |
-| [`Off`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/AutomaticNodeMovementMethod.md#AutomaticNodeMovementMethod.Off) |
-| [`ProgramControlled`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/AutomaticNodeMovementMethod.md#AutomaticNodeMovementMethod.ProgramControlled) |
+| ----------------------------------------------------------------------- |
+| [`Aggressive`](#AutomaticNodeMovementMethod.Aggressive) |
+| [`Conservative`](#AutomaticNodeMovementMethod.Conservative) |
+| [`Custom`](#AutomaticNodeMovementMethod.Custom) |
+| [`Off`](#AutomaticNodeMovementMethod.Off) |
+| [`ProgramControlled`](#AutomaticNodeMovementMethod.ProgramControlled) |
 
 <a id="attribute-detail"></a>
 

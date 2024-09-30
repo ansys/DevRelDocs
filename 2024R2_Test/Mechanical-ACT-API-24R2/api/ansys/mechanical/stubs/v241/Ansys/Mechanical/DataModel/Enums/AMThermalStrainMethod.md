@@ -1,6 +1,6 @@
 # `AMThermalStrainMethod`
 
-
+<a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.AMThermalStrainMethod"></a>
 
 #### *class* ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.AMThermalStrainMethod
 
@@ -17,9 +17,9 @@ Specifies the AMThermalStrainMethod.
 ### Attributes
 
 | Name |
-| ------------------------------------------------------------------------------------------------------------------------------------------ |
-| [`FullThermal`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/AMThermalStrainMethod.md#AMThermalStrainMethod.FullThermal) |
-| [`MachineLearning`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/AMThermalStrainMethod.md#AMThermalStrainMethod.MachineLearning) |
+| ------------------------------------------------------------- |
+| [`FullThermal`](#AMThermalStrainMethod.FullThermal) |
+| [`MachineLearning`](#AMThermalStrainMethod.MachineLearning) |
 
 <a id="attribute-detail"></a>
 

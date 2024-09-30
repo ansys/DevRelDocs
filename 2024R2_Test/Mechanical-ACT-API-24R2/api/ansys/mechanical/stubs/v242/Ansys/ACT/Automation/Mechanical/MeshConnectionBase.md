@@ -1,6 +1,6 @@
 # `MeshConnectionBase`
 
-
+<a id="ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.MeshConnectionBase"></a>
 
 #### *class* ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.MeshConnectionBase
 
@@ -18,166 +18,52 @@ Defines a MeshConnectionBase.
 
 | Name | Description |
 |--------------------------------------------------------------------------|-----------------------------------------------------------------------------------|
-| [`Generate`](#MeshConnectionBase.Generate)                               | Run the Generate action.                                                          |
-| [`RenameBasedOnDefinition`](#MeshConnectionBase.RenameBasedOnDefinition) | Run the RenameBasedOnDefinition action.                                           |
-| [`Delete`](#MeshConnectionBase.Delete)                                   | Run the Delete action.                                                            |
-| [`GetChildren`](#id1)                                                    | Gets the list of children, filtered by type.                                      |
-| [`GetChildren`](#id1)                                                    | Gets the list of children, filtered by type.                                      |
+| [`Activate`](#MeshConnectionBase.Activate)                               | Activate the current object.                                                      |
 | [`AddComment`](#MeshConnectionBase.AddComment)                           | Creates a new child Comment.                                                      |
 | [`AddFigure`](#MeshConnectionBase.AddFigure)                             | Creates a new child Figure.                                                       |
 | [`AddImage`](#MeshConnectionBase.AddImage)                               | Creates a new child Image.                                                        |
-| [`Activate`](#MeshConnectionBase.Activate)                               | Activate the current object.                                                      |
 | [`CopyTo`](#MeshConnectionBase.CopyTo)                                   | Copies all visible properties from this object to another.                        |
+| [`CreateParameter`](#MeshConnectionBase.CreateParameter)                 | Creates a new parameter for a Property.                                           |
+| [`Delete`](#MeshConnectionBase.Delete)                                   | Run the Delete action.                                                            |
 | [`Duplicate`](#MeshConnectionBase.Duplicate)                             | Creates a copy of the current DataModelObject.                                    |
+| [`Generate`](#MeshConnectionBase.Generate)                               | Run the Generate action.                                                          |
+| [`GetChildren`](#MeshConnectionBase.GetChildren)                         | Gets the list of children, filtered by type.                                      |
+| [`GetParameter`](#MeshConnectionBase.GetParameter)                       | Gets the parameter corresponding to the given property.                           |
 | [`GroupAllSimilarChildren`](#MeshConnectionBase.GroupAllSimilarChildren) | Run the GroupAllSimilarChildren action.                                           |
 | [`GroupSimilarObjects`](#MeshConnectionBase.GroupSimilarObjects)         | Run the GroupSimilarObjects action.                                               |
-| [`PropertyByName`](#MeshConnectionBase.PropertyByName)                   | Get a property by its unique name.                                                |
 | [`PropertyByAPIName`](#MeshConnectionBase.PropertyByAPIName)             | Get a property by its API name.                                                   |
-| [`CreateParameter`](#MeshConnectionBase.CreateParameter)                 | Creates a new parameter for a Property.                                           |
-| [`GetParameter`](#MeshConnectionBase.GetParameter)                       | Gets the parameter corresponding to the given property.                           |
+| [`PropertyByName`](#MeshConnectionBase.PropertyByName)                   | Get a property by its unique name.                                                |
 | [`RemoveParameter`](#MeshConnectionBase.RemoveParameter)                 | Removes the parameter from the parameter set corresponding to the given property. |
+| [`RenameBasedOnDefinition`](#MeshConnectionBase.RenameBasedOnDefinition) | Run the RenameBasedOnDefinition action.                                           |
 
 ### Properties
 
 | Name | Description |
 |--------------------------------------------------------------------------|---------------------------------------------------------------|
-| [`ScopingMethod`](#MeshConnectionBase.ScopingMethod)                     | ScopingMethod property.                                       |
-| [`InternalObject`](#id0)                                                 | Gets the internal object. For advanced usage only.            |
-| [`ToleranceSlider`](#MeshConnectionBase.ToleranceSlider)                 | Gets or sets the ToleranceSlider.                             |
-| [`MasterBodies`](#MeshConnectionBase.MasterBodies)                       | Gets the MasterBodies.                                        |
-| [`SlaveBodies`](#MeshConnectionBase.SlaveBodies)                         | Gets the SlaveBodies.                                         |
-| [`SnapTolerance`](#MeshConnectionBase.SnapTolerance)                     | Gets or sets the SnapTolerance.                               |
-| [`ScopeMode`](#MeshConnectionBase.ScopeMode)                             | Gets the ScopeMode.                                           |
-| [`SnapType`](#MeshConnectionBase.SnapType)                               | Gets or sets the SnapType.                                    |
-| [`ToleranceType`](#MeshConnectionBase.ToleranceType)                     | Gets or sets the ToleranceType.                               |
-| [`SnapToBoundary`](#MeshConnectionBase.SnapToBoundary)                   | Gets or sets the SnapToBoundary.                              |
-| [`Suppressed`](#MeshConnectionBase.Suppressed)                           | Gets or sets the Suppressed.                                  |
-| [`MasterLocation`](#MeshConnectionBase.MasterLocation)                   | Gets or sets the MasterLocation.                              |
-| [`SlaveLocation`](#MeshConnectionBase.SlaveLocation)                     | Gets or sets the SlaveLocation.                               |
-| [`DataModelObjectCategory`](#MeshConnectionBase.DataModelObjectCategory) | Gets the current DataModelObject's category.                  |
 | [`Children`](#MeshConnectionBase.Children)                               | Gets the list of children.                                    |
 | [`Comments`](#MeshConnectionBase.Comments)                               | Gets the list of associated comments.                         |
+| [`DataModelObjectCategory`](#MeshConnectionBase.DataModelObjectCategory) | Gets the current DataModelObject’s category.                  |
 | [`Figures`](#MeshConnectionBase.Figures)                                 | Gets the list of associated figures.                          |
 | [`Images`](#MeshConnectionBase.Images)                                   | Gets the list of associated images.                           |
-| [`InternalObject`](#id0)                                                 | Gets the internal object. For advanced usage only.            |
+| [`InternalObject`](#MeshConnectionBase.InternalObject)                   | Gets the internal object. For advanced usage only.            |
+| [`MasterBodies`](#MeshConnectionBase.MasterBodies)                       | Gets the MasterBodies.                                        |
+| [`MasterLocation`](#MeshConnectionBase.MasterLocation)                   | Gets or sets the MasterLocation.                              |
 | [`Properties`](#MeshConnectionBase.Properties)                           | Gets the list of properties for this object.                  |
+| [`ScopeMode`](#MeshConnectionBase.ScopeMode)                             | Gets the ScopeMode.                                           |
+| [`ScopingMethod`](#MeshConnectionBase.ScopingMethod)                     | ScopingMethod property.                                       |
+| [`SlaveBodies`](#MeshConnectionBase.SlaveBodies)                         | Gets the SlaveBodies.                                         |
+| [`SlaveLocation`](#MeshConnectionBase.SlaveLocation)                     | Gets or sets the SlaveLocation.                               |
+| [`SnapToBoundary`](#MeshConnectionBase.SnapToBoundary)                   | Gets or sets the SnapToBoundary.                              |
+| [`SnapTolerance`](#MeshConnectionBase.SnapTolerance)                     | Gets or sets the SnapTolerance.                               |
+| [`SnapType`](#MeshConnectionBase.SnapType)                               | Gets or sets the SnapType.                                    |
+| [`Suppressed`](#MeshConnectionBase.Suppressed)                           | Gets or sets the Suppressed.                                  |
+| [`ToleranceSlider`](#MeshConnectionBase.ToleranceSlider)                 | Gets or sets the ToleranceSlider.                             |
+| [`ToleranceType`](#MeshConnectionBase.ToleranceType)                     | Gets or sets the ToleranceType.                               |
 | [`VisibleProperties`](#MeshConnectionBase.VisibleProperties)             | Gets the list of properties that are visible for this object. |
 
 <a id="property-detail"></a>
 
 ## Property detail
-
-<a id="MeshConnectionBase.ScopingMethod"></a>
-
-### *property* MeshConnectionBase.ScopingMethod *: [Ansys.Mechanical.DataModel.Enums.GeometryDefineByType](../../../../../v241/Ansys/Mechanical/DataModel/Enums/GeometryDefineByType.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.GeometryDefineByType) | [None](https://docs.python.org/3/library/constants.html#None)*
-
-ScopingMethod property.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="MeshConnectionBase.InternalObject"></a>
-
-### *property* MeshConnectionBase.InternalObject *: Ansys.Common.Interop.DSObjectsAuto.IDSMeshConnectionAuto | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets the internal object. For advanced usage only.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="MeshConnectionBase.ToleranceSlider"></a>
-
-### *property* MeshConnectionBase.ToleranceSlider *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the ToleranceSlider.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="MeshConnectionBase.MasterBodies"></a>
-
-### *property* MeshConnectionBase.MasterBodies *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets the MasterBodies.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="MeshConnectionBase.SlaveBodies"></a>
-
-### *property* MeshConnectionBase.SlaveBodies *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets the SlaveBodies.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="MeshConnectionBase.SnapTolerance"></a>
-
-### *property* MeshConnectionBase.SnapTolerance *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the SnapTolerance.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="MeshConnectionBase.ScopeMode"></a>
-
-### *property* MeshConnectionBase.ScopeMode *: [Ansys.Mechanical.DataModel.Enums.AutomaticOrManual](../../../../../v241/Ansys/Mechanical/DataModel/Enums/AutomaticOrManual.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.AutomaticOrManual) | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets the ScopeMode.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="MeshConnectionBase.SnapType"></a>
-
-### *property* MeshConnectionBase.SnapType *: [Ansys.Mechanical.DataModel.Enums.SnapType](../../../../../v241/Ansys/Mechanical/DataModel/Enums/SnapType.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.SnapType) | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the SnapType.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="MeshConnectionBase.ToleranceType"></a>
-
-### *property* MeshConnectionBase.ToleranceType *: [Ansys.Mechanical.DataModel.Enums.ContactToleranceType](../../../../../v241/Ansys/Mechanical/DataModel/Enums/ContactToleranceType.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.ContactToleranceType) | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the ToleranceType.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="MeshConnectionBase.SnapToBoundary"></a>
-
-### *property* MeshConnectionBase.SnapToBoundary *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the SnapToBoundary.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="MeshConnectionBase.Suppressed"></a>
-
-### *property* MeshConnectionBase.Suppressed *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the Suppressed.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="MeshConnectionBase.MasterLocation"></a>
-
-### *property* MeshConnectionBase.MasterLocation *: Ansys.ACT.Interfaces.Common.ISelectionInfo | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the MasterLocation.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="MeshConnectionBase.SlaveLocation"></a>
-
-### *property* MeshConnectionBase.SlaveLocation *: Ansys.ACT.Interfaces.Common.ISelectionInfo | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the SlaveLocation.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="MeshConnectionBase.DataModelObjectCategory"></a>
-
-### *property* MeshConnectionBase.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../v241/Ansys/Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets the current DataModelObject's category.
-
-<!-- !! processed by numpydoc !! -->
 
 <a id="MeshConnectionBase.Children"></a>
 
@@ -192,6 +78,14 @@ Gets the list of children.
 ### *property* MeshConnectionBase.Comments *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Comment](../../../../../v241/Ansys/ACT/Automation/Mechanical/Comment.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated comments.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="MeshConnectionBase.DataModelObjectCategory"></a>
+
+### *property* MeshConnectionBase.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets the current DataModelObject’s category.
 
 <!-- !! processed by numpydoc !! -->
 
@@ -211,11 +105,27 @@ Gets the list of associated images.
 
 <!-- !! processed by numpydoc !! -->
 
-<a id="id0"></a>
+<a id="MeshConnectionBase.InternalObject"></a>
 
-### *property* MeshConnectionBase.InternalObject *: System.Object | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* MeshConnectionBase.InternalObject *: Ansys.Common.Interop.DSObjectsAuto.IDSMeshConnectionAuto | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the internal object. For advanced usage only.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="MeshConnectionBase.MasterBodies"></a>
+
+### *property* MeshConnectionBase.MasterBodies *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets the MasterBodies.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="MeshConnectionBase.MasterLocation"></a>
+
+### *property* MeshConnectionBase.MasterLocation *: Ansys.ACT.Interfaces.Common.ISelectionInfo | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the MasterLocation.
 
 <!-- !! processed by numpydoc !! -->
 
@@ -224,6 +134,86 @@ Gets the internal object. For advanced usage only.
 ### *property* MeshConnectionBase.Properties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of properties for this object.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="MeshConnectionBase.ScopeMode"></a>
+
+### *property* MeshConnectionBase.ScopeMode *: [Ansys.Mechanical.DataModel.Enums.AutomaticOrManual](../../../Mechanical/DataModel/Enums/AutomaticOrManual.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.AutomaticOrManual) | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets the ScopeMode.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="MeshConnectionBase.ScopingMethod"></a>
+
+### *property* MeshConnectionBase.ScopingMethod *: [Ansys.Mechanical.DataModel.Enums.GeometryDefineByType](../../../Mechanical/DataModel/Enums/GeometryDefineByType.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.GeometryDefineByType) | [None](https://docs.python.org/3/library/constants.html#None)*
+
+ScopingMethod property.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="MeshConnectionBase.SlaveBodies"></a>
+
+### *property* MeshConnectionBase.SlaveBodies *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets the SlaveBodies.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="MeshConnectionBase.SlaveLocation"></a>
+
+### *property* MeshConnectionBase.SlaveLocation *: Ansys.ACT.Interfaces.Common.ISelectionInfo | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the SlaveLocation.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="MeshConnectionBase.SnapToBoundary"></a>
+
+### *property* MeshConnectionBase.SnapToBoundary *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the SnapToBoundary.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="MeshConnectionBase.SnapTolerance"></a>
+
+### *property* MeshConnectionBase.SnapTolerance *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the SnapTolerance.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="MeshConnectionBase.SnapType"></a>
+
+### *property* MeshConnectionBase.SnapType *: [Ansys.Mechanical.DataModel.Enums.SnapType](../../../Mechanical/DataModel/Enums/SnapType.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.SnapType) | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the SnapType.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="MeshConnectionBase.Suppressed"></a>
+
+### *property* MeshConnectionBase.Suppressed *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the Suppressed.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="MeshConnectionBase.ToleranceSlider"></a>
+
+### *property* MeshConnectionBase.ToleranceSlider *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the ToleranceSlider.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="MeshConnectionBase.ToleranceType"></a>
+
+### *property* MeshConnectionBase.ToleranceType *: [Ansys.Mechanical.DataModel.Enums.ContactToleranceType](../../../Mechanical/DataModel/Enums/ContactToleranceType.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.ContactToleranceType) | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the ToleranceType.
 
 <!-- !! processed by numpydoc !! -->
 
@@ -239,43 +229,11 @@ Gets the list of properties that are visible for this object.
 
 ## Method detail
 
-<a id="MeshConnectionBase.Generate"></a>
+<a id="MeshConnectionBase.Activate"></a>
 
-### MeshConnectionBase.Generate()
+### MeshConnectionBase.Activate()
 
-Run the Generate action.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="MeshConnectionBase.RenameBasedOnDefinition"></a>
-
-### MeshConnectionBase.RenameBasedOnDefinition()
-
-Run the RenameBasedOnDefinition action.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="MeshConnectionBase.Delete"></a>
-
-### MeshConnectionBase.Delete()
-
-Run the Delete action.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="MeshConnectionBase.GetChildren"></a>
-
-### MeshConnectionBase.GetChildren(recurses: System.Boolean, children: System.Collections.Generic.IList[ChildrenType])
-
-Gets the list of children, filtered by type.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="id1"></a>
-
-### MeshConnectionBase.GetChildren(category: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../v241/Ansys/Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory), recurses: System.Boolean, children: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject])
-
-Gets the list of children, filtered by type.
+Activate the current object.
 
 <!-- !! processed by numpydoc !! -->
 
@@ -299,17 +257,11 @@ Creates a new child Figure.
 
 ### MeshConnectionBase.AddImage(filePath: System.String)
 
+```text
 Creates a new child Image.
 If a filePath is provided, the image will be loaded from that file,
 if not, the image will be a screen capture of the Geometry window.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="MeshConnectionBase.Activate"></a>
-
-### MeshConnectionBase.Activate()
-
-Activate the current object.
+```
 
 <!-- !! processed by numpydoc !! -->
 
@@ -321,11 +273,51 @@ Copies all visible properties from this object to another.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="MeshConnectionBase.CreateParameter"></a>
+
+### MeshConnectionBase.CreateParameter(propName: System.String)
+
+Creates a new parameter for a Property.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="MeshConnectionBase.Delete"></a>
+
+### MeshConnectionBase.Delete()
+
+Run the Delete action.
+
+<!-- !! processed by numpydoc !! -->
+
 <a id="MeshConnectionBase.Duplicate"></a>
 
 ### MeshConnectionBase.Duplicate()
 
 Creates a copy of the current DataModelObject.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="MeshConnectionBase.Generate"></a>
+
+### MeshConnectionBase.Generate()
+
+Run the Generate action.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="MeshConnectionBase.GetChildren"></a>
+
+### MeshConnectionBase.GetChildren(recurses: System.Boolean, children: System.Collections.Generic.IList[ChildrenType])
+
+Gets the list of children, filtered by type.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="MeshConnectionBase.GetParameter"></a>
+
+### MeshConnectionBase.GetParameter(propName: System.String)
+
+Gets the parameter corresponding to the given property.
 
 <!-- !! processed by numpydoc !! -->
 
@@ -345,6 +337,17 @@ Run the GroupSimilarObjects action.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="MeshConnectionBase.PropertyByAPIName"></a>
+
+### MeshConnectionBase.PropertyByAPIName(name: System.String)
+
+```text
+Get a property by its API name.
+If multiple properties have the same API Name, only the first property with that name will be returned.
+```
+
+<!-- !! processed by numpydoc !! -->
+
 <a id="MeshConnectionBase.PropertyByName"></a>
 
 ### MeshConnectionBase.PropertyByName(name: System.String)
@@ -353,36 +356,19 @@ Get a property by its unique name.
 
 <!-- !! processed by numpydoc !! -->
 
-<a id="MeshConnectionBase.PropertyByAPIName"></a>
-
-### MeshConnectionBase.PropertyByAPIName(name: System.String)
-
-Get a property by its API name.
-If multiple properties have the same API Name, only the first property with that name will be returned.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="MeshConnectionBase.CreateParameter"></a>
-
-### MeshConnectionBase.CreateParameter(propName: System.String)
-
-Creates a new parameter for a Property.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="MeshConnectionBase.GetParameter"></a>
-
-### MeshConnectionBase.GetParameter(propName: System.String)
-
-Gets the parameter corresponding to the given property.
-
-<!-- !! processed by numpydoc !! -->
-
 <a id="MeshConnectionBase.RemoveParameter"></a>
 
 ### MeshConnectionBase.RemoveParameter(propName: System.String)
 
 Removes the parameter from the parameter set corresponding to the given property.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="MeshConnectionBase.RenameBasedOnDefinition"></a>
+
+### MeshConnectionBase.RenameBasedOnDefinition()
+
+Run the RenameBasedOnDefinition action.
 
 <!-- !! processed by numpydoc !! -->
 

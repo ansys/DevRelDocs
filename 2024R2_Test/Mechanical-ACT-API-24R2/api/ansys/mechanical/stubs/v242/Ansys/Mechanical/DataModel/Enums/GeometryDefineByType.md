@@ -1,6 +1,6 @@
 # `GeometryDefineByType`
 
-
+<a id="ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.GeometryDefineByType"></a>
 
 #### *class* ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.GeometryDefineByType
 
@@ -17,7 +17,7 @@ Specifies the GeometryDefineByType.
 ### Attributes
 
 | Name |
-| ---------------------------------------------------------------------------- |
+| -------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | [`AllOptimizationRegions`](#GeometryDefineByType.AllOptimizationRegions) |
 | [`AnalysisPly`](#GeometryDefineByType.AnalysisPly) |
 | [`BeamConnection`](#GeometryDefineByType.BeamConnection) |
@@ -34,6 +34,8 @@ Specifies the GeometryDefineByType.
 | [`ImportedInterface`](#GeometryDefineByType.ImportedInterface) |
 | [`ImportedPretension`](#GeometryDefineByType.ImportedPretension) |
 | [`Mapping`](#GeometryDefineByType.Mapping) |
+| [`MaximumValues`](#GeometryDefineByType.MaximumValues) |
+| [`MinimumValues`](#GeometryDefineByType.MinimumValues) |
 | [`NamedSelections`](#GeometryDefineByType.NamedSelections) |
 | [`OptimizationRegion`](#GeometryDefineByType.OptimizationRegion) |
 | [`Path`](#GeometryDefineByType.Path) |
@@ -44,8 +46,6 @@ Specifies the GeometryDefineByType.
 | [`SurfaceCoating`](#GeometryDefineByType.SurfaceCoating) |
 | [`VoltageCoupling`](#GeometryDefineByType.VoltageCoupling) |
 | [`Worksheet`](#GeometryDefineByType.Worksheet) |
-| [`MaximumValues`](#GeometryDefineByType.MaximumValues) |
-| [`MinimumValues`](#GeometryDefineByType.MinimumValues) |
 
 <a id="attribute-detail"></a>
 
@@ -115,6 +115,14 @@ Specifies the GeometryDefineByType.
 
 ### GeometryDefineByType.Mapping *= 8*
 
+<a id="GeometryDefineByType.MaximumValues"></a>
+
+### GeometryDefineByType.MaximumValues *= 4*
+
+<a id="GeometryDefineByType.MinimumValues"></a>
+
+### GeometryDefineByType.MinimumValues *= 3*
+
 <a id="GeometryDefineByType.NamedSelections"></a>
 
 ### GeometryDefineByType.NamedSelections *= 30*
@@ -154,13 +162,5 @@ Specifies the GeometryDefineByType.
 <a id="GeometryDefineByType.Worksheet"></a>
 
 ### GeometryDefineByType.Worksheet *= 2*
-
-<a id="GeometryDefineByType.MaximumValues"></a>
-
-### GeometryDefineByType.MaximumValues *= 4*
-
-<a id="GeometryDefineByType.MinimumValues"></a>
-
-### GeometryDefineByType.MinimumValues *= 3*
 
 

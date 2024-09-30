@@ -1,6 +1,6 @@
 # `MAPDLBoltPretensionData`
 
-
+<a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.SolverData.MAPDLBoltPretensionData"></a>
 
 #### *class* ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.SolverData.MAPDLBoltPretensionData
 
@@ -17,9 +17,9 @@ MAPDLBoltPretensionData class.
 ### Properties
 
 | Name | Description |
-|---------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------|
-| [`PretensionNodeIds`](../../../../../v242/Ansys/Mechanical/DataModel/SolverData/MAPDLBoltPretensionData.md#MAPDLBoltPretensionData.PretensionNodeIds)   | Gets the Pretension Node Ids for the bolt pretension.   |
-| [`RealConstantIds`](../../../../../v242/Ansys/Mechanical/DataModel/SolverData/MAPDLBoltPretensionData.md#MAPDLBoltPretensionData.RealConstantIds)       | Gets the Real Constant Ids for the bolt pretension.     |
+|---------------------------------------------------------------------|---------------------------------------------------------|
+| [`PretensionNodeIds`](#MAPDLBoltPretensionData.PretensionNodeIds)   | Gets the Pretension Node Ids for the bolt pretension.   |
+| [`RealConstantIds`](#MAPDLBoltPretensionData.RealConstantIds)       | Gets the Real Constant Ids for the bolt pretension.     |
 
 <a id="property-detail"></a>
 

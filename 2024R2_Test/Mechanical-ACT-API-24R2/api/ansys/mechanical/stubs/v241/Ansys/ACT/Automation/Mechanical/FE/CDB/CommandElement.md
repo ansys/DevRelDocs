@@ -1,6 +1,6 @@
 # `CommandElement`
 
-
+<a id="ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.FE.CDB.CommandElement"></a>
 
 #### *class* ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.FE.CDB.CommandElement
 
@@ -18,15 +18,15 @@ Represents an element associated to an EBLOCK command.
 
 | Name | Description |
 |------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------|
-| [`Csys`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/FE/CDB/CommandElement.md#CommandElement.Csys)                         | Gets the coordinate system number.                          |
-| [`Id`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/FE/CDB/CommandElement.md#CommandElement.Id)                             | Gets the element number.                                    |
-| [`Mat`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/FE/CDB/CommandElement.md#CommandElement.Mat)                           | Gets the material number.                                   |
-| [`Real`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/FE/CDB/CommandElement.md#CommandElement.Real)                         | Gets the real constant set number.                          |
-| [`Section`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/FE/CDB/CommandElement.md#CommandElement.Section)                   | Gets the section number.                                    |
-| [`Type`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/FE/CDB/CommandElement.md#CommandElement.Type)                         | Gets the element type number.                               |
-| [`ElementShapeFlag`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/FE/CDB/CommandElement.md#CommandElement.ElementShapeFlag) | Gets the element shape flag used for contact element types. |
-| [`NodeCount`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/FE/CDB/CommandElement.md#CommandElement.NodeCount)               | Gets the number of nodes.                                   |
-| [`Nodes`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/FE/CDB/CommandElement.md#CommandElement.Nodes)                       | Gets the nodes.                                             |
+| [`Csys`](#CommandElement.Csys)                         | Gets the coordinate system number.                          |
+| [`ElementShapeFlag`](#CommandElement.ElementShapeFlag) | Gets the element shape flag used for contact element types. |
+| [`Id`](#CommandElement.Id)                             | Gets the element number.                                    |
+| [`Mat`](#CommandElement.Mat)                           | Gets the material number.                                   |
+| [`NodeCount`](#CommandElement.NodeCount)               | Gets the number of nodes.                                   |
+| [`Nodes`](#CommandElement.Nodes)                       | Gets the nodes.                                             |
+| [`Real`](#CommandElement.Real)                         | Gets the real constant set number.                          |
+| [`Section`](#CommandElement.Section)                   | Gets the section number.                                    |
+| [`Type`](#CommandElement.Type)                         | Gets the element type number.                               |
 
 <a id="property-detail"></a>
 
@@ -37,6 +37,14 @@ Represents an element associated to an EBLOCK command.
 ### *property* CommandElement.Csys *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the coordinate system number.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="CommandElement.ElementShapeFlag"></a>
+
+### *property* CommandElement.ElementShapeFlag *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets the element shape flag used for contact element types.
 
 <!-- !! processed by numpydoc !! -->
 
@@ -53,6 +61,22 @@ Gets the element number.
 ### *property* CommandElement.Mat *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the material number.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="CommandElement.NodeCount"></a>
+
+### *property* CommandElement.NodeCount *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets the number of nodes.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="CommandElement.Nodes"></a>
+
+### *property* CommandElement.Nodes *: System.Collections.Generic.IReadOnlyList[System.Int32] | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets the nodes.
 
 <!-- !! processed by numpydoc !! -->
 
@@ -77,30 +101,6 @@ Gets the section number.
 ### *property* CommandElement.Type *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the element type number.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="CommandElement.ElementShapeFlag"></a>
-
-### *property* CommandElement.ElementShapeFlag *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets the element shape flag used for contact element types.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="CommandElement.NodeCount"></a>
-
-### *property* CommandElement.NodeCount *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets the number of nodes.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="CommandElement.Nodes"></a>
-
-### *property* CommandElement.Nodes *: System.Collections.Generic.IReadOnlyList[System.Int32] | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets the nodes.
 
 <!-- !! processed by numpydoc !! -->
 

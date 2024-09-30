@@ -1,6 +1,6 @@
 # `RobustFrequenciesReductionType`
 
-
+<a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.RobustFrequenciesReductionType"></a>
 
 #### *class* ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.RobustFrequenciesReductionType
 
@@ -17,10 +17,10 @@ Specifies the RobustFrequenciesReductionType.
 ### Attributes
 
 | Name |
-| ------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| [`Average`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/RobustFrequenciesReductionType.md#RobustFrequenciesReductionType.Average) |
-| [`ModeTracking`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/RobustFrequenciesReductionType.md#RobustFrequenciesReductionType.ModeTracking) |
-| [`SmoothMin`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/RobustFrequenciesReductionType.md#RobustFrequenciesReductionType.SmoothMin) |
+| ---------------------------------------------------------------- |
+| [`Average`](#RobustFrequenciesReductionType.Average) |
+| [`ModeTracking`](#RobustFrequenciesReductionType.ModeTracking) |
+| [`SmoothMin`](#RobustFrequenciesReductionType.SmoothMin) |
 
 <a id="attribute-detail"></a>
 

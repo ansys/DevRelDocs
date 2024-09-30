@@ -1,6 +1,6 @@
 # `GeneralMiscellaneousOptionType`
 
-
+<a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.GeneralMiscellaneousOptionType"></a>
 
 #### *class* ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.GeneralMiscellaneousOptionType
 
@@ -17,11 +17,11 @@ Specifies the GeneralMiscellaneousOptionType.
 ### Attributes
 
 | Name |
-| ---------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| [`AcousticBodies`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/GeneralMiscellaneousOptionType.md#GeneralMiscellaneousOptionType.AcousticBodies) |
-| [`AllBodies`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/GeneralMiscellaneousOptionType.md#GeneralMiscellaneousOptionType.AllBodies) |
-| [`ProgramControlled`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/GeneralMiscellaneousOptionType.md#GeneralMiscellaneousOptionType.ProgramControlled) |
-| [`StructuralBodies`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/GeneralMiscellaneousOptionType.md#GeneralMiscellaneousOptionType.StructuralBodies) |
+| -------------------------------------------------------------------------- |
+| [`AcousticBodies`](#GeneralMiscellaneousOptionType.AcousticBodies) |
+| [`AllBodies`](#GeneralMiscellaneousOptionType.AllBodies) |
+| [`ProgramControlled`](#GeneralMiscellaneousOptionType.ProgramControlled) |
+| [`StructuralBodies`](#GeneralMiscellaneousOptionType.StructuralBodies) |
 
 <a id="attribute-detail"></a>
 

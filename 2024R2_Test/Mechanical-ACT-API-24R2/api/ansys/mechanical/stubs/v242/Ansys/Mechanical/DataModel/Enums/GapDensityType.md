@@ -1,6 +1,6 @@
 # `GapDensityType`
 
-
+<a id="ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.GapDensityType"></a>
 
 #### *class* ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.GapDensityType
 
@@ -17,7 +17,7 @@ Specifies the GapDensityType.
 ### Attributes
 
 | Name |
-| -------------------------------------- |
+| ------------------------------------------------------------------------------------------------------------ |
 | [`Coarse`](#GapDensityType.Coarse) |
 | [`Fine`](#GapDensityType.Fine) |
 

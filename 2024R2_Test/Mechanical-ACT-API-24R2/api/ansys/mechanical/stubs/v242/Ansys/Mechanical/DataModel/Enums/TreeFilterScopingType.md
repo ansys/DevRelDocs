@@ -1,6 +1,6 @@
 # `TreeFilterScopingType`
 
-
+<a id="ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.TreeFilterScopingType"></a>
 
 #### *class* ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.TreeFilterScopingType
 
@@ -17,7 +17,7 @@ Specifies the TreeFilterScopingType.
 ### Attributes
 
 | Name |
-| --------------------------------------------- |
+| -------------------------------------------------------------------------------------------------------------------------- |
 | [`All`](#TreeFilterScopingType.All) |
 | [`Partial`](#TreeFilterScopingType.Partial) |
 

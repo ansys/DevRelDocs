@@ -1,6 +1,6 @@
 # `MagneticCoenergy`
 
-
+<a id="ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Results.MagneticCoenergy"></a>
 
 #### *class* ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Results.MagneticCoenergy
 
@@ -17,201 +17,143 @@ Defines a MagneticCoenergy.
 ### Methods
 
 | Name | Description |
-|------------------------------------------------------------------------|-----------------------------------------------------------------------------------|
-| [`ClearGeneratedData`](#MagneticCoenergy.ClearGeneratedData)           | Run the ClearGeneratedData action.                                                |
-| [`EvaluateAllResults`](#MagneticCoenergy.EvaluateAllResults)           | Run the EvaluateAllResults action.                                                |
-| [`FetchRemoteResults`](#MagneticCoenergy.FetchRemoteResults)           | Run the FetchRemoteResult action.                                                 |
-| [`ExportToTextFile`](#MagneticCoenergy.ExportToTextFile)               | Run the ExportToTextFile action.                                                  |
-| [`ExportAnimation`](#MagneticCoenergy.ExportAnimation)                 | Run the ExportAnimation action.                                                   |
-| [`DuplicateWithoutResults`](#MagneticCoenergy.DuplicateWithoutResults) | Run the DuplicateWithoutResults action.                                           |
-| [`CreateResultsAtAllSets`](#MagneticCoenergy.CreateResultsAtAllSets)   | Creates results at all sets for results under a solution.                         |
-| [`PromoteToNamedSelection`](#MagneticCoenergy.PromoteToNamedSelection) | Run the PromoteToNamedSelection action.                                           |
-| [`CreateParameter`](#MagneticCoenergy.CreateParameter)                 | CreateParameter method.                                                           |
+|----------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------|
+| [`Activate`](#MagneticCoenergy.Activate)                               | Activate the current object.                                                      |
 | [`AddAlert`](#MagneticCoenergy.AddAlert)                               | Creates a new Alert                                                               |
-| [`AddConvergence`](#MagneticCoenergy.AddConvergence)                   | Creates a new Convergence                                                         |
-| [`RenameBasedOnDefinition`](#MagneticCoenergy.RenameBasedOnDefinition) | Run the RenameBasedOnDefinition action.                                           |
-| [`Delete`](#MagneticCoenergy.Delete)                                   | Run the Delete action.                                                            |
-| [`GetChildren`](#id1)                                                  | Gets the list of children, filtered by type.                                      |
-| [`GetChildren`](#id1)                                                  | Gets the list of children, filtered by type.                                      |
 | [`AddComment`](#MagneticCoenergy.AddComment)                           | Creates a new child Comment.                                                      |
+| [`AddConvergence`](#MagneticCoenergy.AddConvergence)                   | Creates a new Convergence                                                         |
 | [`AddFigure`](#MagneticCoenergy.AddFigure)                             | Creates a new child Figure.                                                       |
 | [`AddImage`](#MagneticCoenergy.AddImage)                               | Creates a new child Image.                                                        |
-| [`Activate`](#MagneticCoenergy.Activate)                               | Activate the current object.                                                      |
+| [`ClearGeneratedData`](#MagneticCoenergy.ClearGeneratedData)           | Run the ClearGeneratedData action.                                                |
 | [`CopyTo`](#MagneticCoenergy.CopyTo)                                   | Copies all visible properties from this object to another.                        |
+| [`CreateParameter`](#MagneticCoenergy.CreateParameter)                 | CreateParameter method.                                                           |
+| [`CreateResultsAtAllSets`](#MagneticCoenergy.CreateResultsAtAllSets)   | Creates results at all sets for results under a solution.                         |
+| [`Delete`](#MagneticCoenergy.Delete)                                   | Run the Delete action.                                                            |
 | [`Duplicate`](#MagneticCoenergy.Duplicate)                             | Creates a copy of the current DataModelObject.                                    |
+| [`DuplicateWithoutResults`](#MagneticCoenergy.DuplicateWithoutResults) | Run the DuplicateWithoutResults action.                                           |
+| [`EvaluateAllResults`](#MagneticCoenergy.EvaluateAllResults)           | Run the EvaluateAllResults action.                                                |
+| [`ExportAnimation`](#MagneticCoenergy.ExportAnimation)                 | Run the ExportAnimation action.                                                   |
+| [`ExportToTextFile`](#MagneticCoenergy.ExportToTextFile)               | Run the ExportToTextFile action.                                                  |
+| [`FetchRemoteResults`](#MagneticCoenergy.FetchRemoteResults)           | Run the FetchRemoteResult action.                                                 |
+| [`GetChildren`](#MagneticCoenergy.GetChildren)                         | Gets the list of children, filtered by type.                                      |
+| [`GetParameter`](#MagneticCoenergy.GetParameter)                       | Gets the parameter corresponding to the given property.                           |
 | [`GroupAllSimilarChildren`](#MagneticCoenergy.GroupAllSimilarChildren) | Run the GroupAllSimilarChildren action.                                           |
 | [`GroupSimilarObjects`](#MagneticCoenergy.GroupSimilarObjects)         | Run the GroupSimilarObjects action.                                               |
-| [`PropertyByName`](#MagneticCoenergy.PropertyByName)                   | Get a property by its unique name.                                                |
+| [`PromoteToNamedSelection`](#MagneticCoenergy.PromoteToNamedSelection) | Run the PromoteToNamedSelection action.                                           |
 | [`PropertyByAPIName`](#MagneticCoenergy.PropertyByAPIName)             | Get a property by its API name.                                                   |
-| [`GetParameter`](#MagneticCoenergy.GetParameter)                       | Gets the parameter corresponding to the given property.                           |
+| [`PropertyByName`](#MagneticCoenergy.PropertyByName)                   | Get a property by its unique name.                                                |
 | [`RemoveParameter`](#MagneticCoenergy.RemoveParameter)                 | Removes the parameter from the parameter set corresponding to the given property. |
+| [`RenameBasedOnDefinition`](#MagneticCoenergy.RenameBasedOnDefinition) | Run the RenameBasedOnDefinition action.                                           |
 
 ### Properties
 
 | Name | Description |
-|--------------------------------------------------------------------------------------------|------------------------------------------------------------------------|
-| [`InternalObject`](#id0)                                                                   | Gets the internal object. For advanced usage only.                     |
-| [`DataModelObjectCategory`](#MagneticCoenergy.DataModelObjectCategory)                     | Gets the current DataModelObject's category.                           |
-| [`PlotData`](#MagneticCoenergy.PlotData)                                                   | Gets the result table.                                                 |
-| [`Location`](#MagneticCoenergy.Location)                                                   | Gets or sets the Location.                                             |
-| [`TimeForMinimumOfMinimumValues`](#MagneticCoenergy.TimeForMinimumOfMinimumValues)         | Get the Time for the minimum of minimum values.                        |
-| [`TimeForMinimumOfMaximumValues`](#MagneticCoenergy.TimeForMinimumOfMaximumValues)         | Get the Time for the minimum of maximum values.                        |
-| [`LoadStepForMinimumOfMinimumValues`](#MagneticCoenergy.LoadStepForMinimumOfMinimumValues) | Get the Load Step for the minimum of minimum values.                   |
-| [`LoadStepForMinimumOfMaximumValues`](#MagneticCoenergy.LoadStepForMinimumOfMaximumValues) | Get the Load Step for the minimum of maximum values.                   |
-| [`TimeForMaximumOfMinimumValues`](#MagneticCoenergy.TimeForMaximumOfMinimumValues)         | Get the Time for the maximum of minimum values.                        |
-| [`TimeForMaximumOfMaximumValues`](#MagneticCoenergy.TimeForMaximumOfMaximumValues)         | Get the Time for the maximum of maximum values.                        |
-| [`LoadStepForMaximumOfMinimumValues`](#MagneticCoenergy.LoadStepForMaximumOfMinimumValues) | Get the Load Step for the maximum of minimum values.                   |
-| [`LoadStepForMaximumOfMaximumValues`](#MagneticCoenergy.LoadStepForMaximumOfMaximumValues) | Get the Load Step for the maximum of maximum values.                   |
-| [`IsSolved`](#MagneticCoenergy.IsSolved)                                                   | Gets the IsSolved.                                                     |
-| [`CoordinateSystem`](#MagneticCoenergy.CoordinateSystem)                                   | Gets or sets the Coordinate System.                                    |
-| [`ScopingMethod`](#MagneticCoenergy.ScopingMethod)                                         | Gets or sets the ScopingMethod.                                        |
-| [`SetNumber`](#MagneticCoenergy.SetNumber)                                                 | Gets or sets the Set Number.                                           |
+|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------|
+| [`Average`](#MagneticCoenergy.Average)                                                     | Gets the Average.                                                      |
+| [`By`](#MagneticCoenergy.By)                                                               | Gets or sets the By.                                                   |
+| [`CalculateTimeHistory`](#MagneticCoenergy.CalculateTimeHistory)                           | Gets or sets the CalculateTimeHistory.                                 |
+| [`Children`](#MagneticCoenergy.Children)                                                   | Gets the list of children.                                             |
 | [`CombinationNumber`](#MagneticCoenergy.CombinationNumber)                                 | Gets or sets the Combination Number for a Solution Combination result. |
-| [`SolutionCombinationDriver`](#MagneticCoenergy.SolutionCombinationDriver)                 | Gets or sets the SolutionCombinationDriver.                            |
-| [`Path`](#MagneticCoenergy.Path)                                                           | Path property.                                                         |
-| [`Surface`](#MagneticCoenergy.Surface)                                                     | Surface property.                                                      |
-| [`SurfaceCoating`](#MagneticCoenergy.SurfaceCoating)                                       | SurfaceCoating property.                                               |
-| [`NamedSelections`](#MagneticCoenergy.NamedSelections)                                     | Gets or sets the NamedSelections.                                      |
-| [`WaterfallShowTextOnMosaic`](#MagneticCoenergy.WaterfallShowTextOnMosaic)                 | Gets or sets the Waterfall Mosaic Text Property.                       |
+| [`Comments`](#MagneticCoenergy.Comments)                                                   | Gets the list of associated comments.                                  |
+| [`CoordinateSystem`](#MagneticCoenergy.CoordinateSystem)                                   | Gets or sets the Coordinate System.                                    |
 | [`CrackFrontNumber`](#MagneticCoenergy.CrackFrontNumber)                                   | Gets or sets the CrackFrontNumber.                                     |
+| [`DataModelObjectCategory`](#MagneticCoenergy.DataModelObjectCategory)                     | Gets the current DataModelObject’s category.                           |
+| [`DisplayOption`](#MagneticCoenergy.DisplayOption)                                         | Gets or sets the DisplayOption.                                        |
+| [`DisplayTime`](#MagneticCoenergy.DisplayTime)                                             | Gets or sets the DisplayTime.                                          |
+| [`DpfEvaluation`](#MagneticCoenergy.DpfEvaluation)                                         | Gets or sets the DpfEvaluation.                                        |
+| [`Figures`](#MagneticCoenergy.Figures)                                                     | Gets the list of associated figures.                                   |
 | [`GlobalIDs`](#MagneticCoenergy.GlobalIDs)                                                 | Gets or sets the GlobalIDs.                                            |
+| [`GraphControlsXAxis`](#MagneticCoenergy.GraphControlsXAxis)                               | Gets or sets the GraphControlsXAxis.                                   |
 | [`Identifier`](#MagneticCoenergy.Identifier)                                               | Gets or sets the Identifier.                                           |
+| [`Images`](#MagneticCoenergy.Images)                                                       | Gets the list of associated images.                                    |
+| [`InternalObject`](#MagneticCoenergy.InternalObject)                                       | Gets the internal object. For advanced usage only.                     |
+| [`IsSolved`](#MagneticCoenergy.IsSolved)                                                   | Gets the IsSolved.                                                     |
+| [`ItemType`](#MagneticCoenergy.ItemType)                                                   | Gets or sets the ItemType.                                             |
 | [`IterationNumber`](#MagneticCoenergy.IterationNumber)                                     | Gets the IterationNumber.                                              |
 | [`LoadStep`](#MagneticCoenergy.LoadStep)                                                   | Gets the LoadStep.                                                     |
-| [`MaximumOccursOn`](#MagneticCoenergy.MaximumOccursOn)                                     | Gets the MaximumOccursOn.                                              |
-| [`MinimumOccursOn`](#MagneticCoenergy.MinimumOccursOn)                                     | Gets the MinimumOccursOn.                                              |
+| [`LoadStepForMaximumOfMaximumValues`](#MagneticCoenergy.LoadStepForMaximumOfMaximumValues) | Get the Load Step for the maximum of maximum values.                   |
+| [`LoadStepForMaximumOfMinimumValues`](#MagneticCoenergy.LoadStepForMaximumOfMinimumValues) | Get the Load Step for the maximum of minimum values.                   |
+| [`LoadStepForMinimumOfMaximumValues`](#MagneticCoenergy.LoadStepForMinimumOfMaximumValues) | Get the Load Step for the minimum of maximum values.                   |
+| [`LoadStepForMinimumOfMinimumValues`](#MagneticCoenergy.LoadStepForMinimumOfMinimumValues) | Get the Load Step for the minimum of minimum values.                   |
 | [`LoadStepNumber`](#MagneticCoenergy.LoadStepNumber)                                       | Gets or sets the LoadStepNumber.                                       |
-| [`SolverComponentIDs`](#MagneticCoenergy.SolverComponentIDs)                               | Gets or sets the SolverComponentIDs.                                   |
-| [`Substep`](#MagneticCoenergy.Substep)                                                     | Gets the Substep.                                                      |
-| [`Average`](#MagneticCoenergy.Average)                                                     | Gets the Average.                                                      |
+| [`Location`](#MagneticCoenergy.Location)                                                   | Gets or sets the Location.                                             |
 | [`Maximum`](#MagneticCoenergy.Maximum)                                                     | Gets the Maximum.                                                      |
+| [`MaximumOccursOn`](#MagneticCoenergy.MaximumOccursOn)                                     | Gets the MaximumOccursOn.                                              |
 | [`MaximumOfMaximumOverTime`](#MagneticCoenergy.MaximumOfMaximumOverTime)                   | Gets the MaximumOfMaximumOverTime.                                     |
 | [`MaximumOfMinimumOverTime`](#MagneticCoenergy.MaximumOfMinimumOverTime)                   | Gets the MaximumOfMinimumOverTime.                                     |
 | [`Minimum`](#MagneticCoenergy.Minimum)                                                     | Gets the Minimum.                                                      |
+| [`MinimumOccursOn`](#MagneticCoenergy.MinimumOccursOn)                                     | Gets the MinimumOccursOn.                                              |
 | [`MinimumOfMaximumOverTime`](#MagneticCoenergy.MinimumOfMaximumOverTime)                   | Gets the MinimumOfMaximumOverTime.                                     |
 | [`MinimumOfMinimumOverTime`](#MagneticCoenergy.MinimumOfMinimumOverTime)                   | Gets the MinimumOfMinimumOverTime.                                     |
-| [`Time`](#MagneticCoenergy.Time)                                                           | Gets the Time.                                                         |
-| [`DisplayTime`](#MagneticCoenergy.DisplayTime)                                             | Gets or sets the DisplayTime.                                          |
-| [`GraphControlsXAxis`](#MagneticCoenergy.GraphControlsXAxis)                               | Gets or sets the GraphControlsXAxis.                                   |
-| [`DisplayOption`](#MagneticCoenergy.DisplayOption)                                         | Gets or sets the DisplayOption.                                        |
-| [`DpfEvaluation`](#MagneticCoenergy.DpfEvaluation)                                         | Gets or sets the DpfEvaluation.                                        |
-| [`By`](#MagneticCoenergy.By)                                                               | Gets or sets the By.                                                   |
-| [`ItemType`](#MagneticCoenergy.ItemType)                                                   | Gets or sets the ItemType.                                             |
-| [`CalculateTimeHistory`](#MagneticCoenergy.CalculateTimeHistory)                           | Gets or sets the CalculateTimeHistory.                                 |
-| [`Suppressed`](#MagneticCoenergy.Suppressed)                                               | Gets or sets the Suppressed.                                           |
-| [`Children`](#MagneticCoenergy.Children)                                                   | Gets the list of children.                                             |
-| [`Comments`](#MagneticCoenergy.Comments)                                                   | Gets the list of associated comments.                                  |
-| [`Figures`](#MagneticCoenergy.Figures)                                                     | Gets the list of associated figures.                                   |
-| [`Images`](#MagneticCoenergy.Images)                                                       | Gets the list of associated images.                                    |
-| [`InternalObject`](#id0)                                                                   | Gets the internal object. For advanced usage only.                     |
+| [`NamedSelections`](#MagneticCoenergy.NamedSelections)                                     | Gets or sets the NamedSelections.                                      |
+| [`Path`](#MagneticCoenergy.Path)                                                           | Path property.                                                         |
+| [`PlotData`](#MagneticCoenergy.PlotData)                                                   | Gets the result table.                                                 |
 | [`Properties`](#MagneticCoenergy.Properties)                                               | Gets the list of properties for this object.                           |
+| [`ScopingMethod`](#MagneticCoenergy.ScopingMethod)                                         | Gets or sets the ScopingMethod.                                        |
+| [`SetNumber`](#MagneticCoenergy.SetNumber)                                                 | Gets or sets the Set Number.                                           |
+| [`SolutionCombinationDriver`](#MagneticCoenergy.SolutionCombinationDriver)                 | Gets or sets the SolutionCombinationDriver.                            |
+| [`SolverComponentIDs`](#MagneticCoenergy.SolverComponentIDs)                               | Gets or sets the SolverComponentIDs.                                   |
+| [`Substep`](#MagneticCoenergy.Substep)                                                     | Gets the Substep.                                                      |
+| [`Suppressed`](#MagneticCoenergy.Suppressed)                                               | Gets or sets the Suppressed.                                           |
+| [`Surface`](#MagneticCoenergy.Surface)                                                     | Surface property.                                                      |
+| [`SurfaceCoating`](#MagneticCoenergy.SurfaceCoating)                                                                                                                         | SurfaceCoating property.                                               |
+| [`Time`](#MagneticCoenergy.Time)                                                           | Gets the Time.                                                         |
+| [`TimeForMaximumOfMaximumValues`](#MagneticCoenergy.TimeForMaximumOfMaximumValues)         | Get the Time for the maximum of maximum values.                        |
+| [`TimeForMaximumOfMinimumValues`](#MagneticCoenergy.TimeForMaximumOfMinimumValues)         | Get the Time for the maximum of minimum values.                        |
+| [`TimeForMinimumOfMaximumValues`](#MagneticCoenergy.TimeForMinimumOfMaximumValues)         | Get the Time for the minimum of maximum values.                        |
+| [`TimeForMinimumOfMinimumValues`](#MagneticCoenergy.TimeForMinimumOfMinimumValues)         | Get the Time for the minimum of minimum values.                        |
 | [`VisibleProperties`](#MagneticCoenergy.VisibleProperties)                                 | Gets the list of properties that are visible for this object.          |
+| [`WaterfallShowTextOnMosaic`](#MagneticCoenergy.WaterfallShowTextOnMosaic)                                                                                                   | Gets or sets the Waterfall Mosaic Text Property.                       |
 
 <a id="property-detail"></a>
 
 ## Property detail
 
-<a id="MagneticCoenergy.InternalObject"></a>
+<a id="MagneticCoenergy.Average"></a>
 
-### *property* MagneticCoenergy.InternalObject *: Ansys.Common.Interop.DSObjectsAuto.IDSResultAuto | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* MagneticCoenergy.Average *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets the internal object. For advanced usage only.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="MagneticCoenergy.DataModelObjectCategory"></a>
-
-### *property* MagneticCoenergy.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../../v241/Ansys/Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets the current DataModelObject's category.
+Gets the Average.
 
 <!-- !! processed by numpydoc !! -->
 
-<a id="MagneticCoenergy.PlotData"></a>
+<a id="MagneticCoenergy.By"></a>
 
-### *property* MagneticCoenergy.PlotData *: [Ansys.Mechanical.DataModel.Results.ResultDataTable](../../../../../../v241/Ansys/Mechanical/DataModel/Results/ResultDataTable.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Results.ResultDataTable) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* MagneticCoenergy.By *: [Ansys.Mechanical.DataModel.Enums.SetDriverStyle](../../../../Mechanical/DataModel/Enums/SetDriverStyle.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.SetDriverStyle) | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets the result table.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="MagneticCoenergy.Location"></a>
-
-### *property* MagneticCoenergy.Location *: Ansys.ACT.Interfaces.Common.ISelectionInfo | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the Location.
+Gets or sets the By.
 
 <!-- !! processed by numpydoc !! -->
 
-<a id="MagneticCoenergy.TimeForMinimumOfMinimumValues"></a>
+<a id="MagneticCoenergy.CalculateTimeHistory"></a>
 
-### *property* MagneticCoenergy.TimeForMinimumOfMinimumValues *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* MagneticCoenergy.CalculateTimeHistory *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Get the Time for the minimum of minimum values.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="MagneticCoenergy.TimeForMinimumOfMaximumValues"></a>
-
-### *property* MagneticCoenergy.TimeForMinimumOfMaximumValues *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Get the Time for the minimum of maximum values.
+Gets or sets the CalculateTimeHistory.
 
 <!-- !! processed by numpydoc !! -->
 
-<a id="MagneticCoenergy.LoadStepForMinimumOfMinimumValues"></a>
+<a id="MagneticCoenergy.Children"></a>
 
-### *property* MagneticCoenergy.LoadStepForMinimumOfMinimumValues *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* MagneticCoenergy.Children *: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Get the Load Step for the minimum of minimum values.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="MagneticCoenergy.LoadStepForMinimumOfMaximumValues"></a>
-
-### *property* MagneticCoenergy.LoadStepForMinimumOfMaximumValues *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Get the Load Step for the minimum of maximum values.
+Gets the list of children.
 
 <!-- !! processed by numpydoc !! -->
 
-<a id="MagneticCoenergy.TimeForMaximumOfMinimumValues"></a>
+<a id="MagneticCoenergy.CombinationNumber"></a>
 
-### *property* MagneticCoenergy.TimeForMaximumOfMinimumValues *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* MagneticCoenergy.CombinationNumber *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Get the Time for the maximum of minimum values.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="MagneticCoenergy.TimeForMaximumOfMaximumValues"></a>
-
-### *property* MagneticCoenergy.TimeForMaximumOfMaximumValues *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Get the Time for the maximum of maximum values.
+Gets or sets the Combination Number for a Solution Combination result.
 
 <!-- !! processed by numpydoc !! -->
 
-<a id="MagneticCoenergy.LoadStepForMaximumOfMinimumValues"></a>
+<a id="MagneticCoenergy.Comments"></a>
 
-### *property* MagneticCoenergy.LoadStepForMaximumOfMinimumValues *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* MagneticCoenergy.Comments *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Comment](../../../../../../v241/Ansys/ACT/Automation/Mechanical/Comment.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Get the Load Step for the maximum of minimum values.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="MagneticCoenergy.LoadStepForMaximumOfMaximumValues"></a>
-
-### *property* MagneticCoenergy.LoadStepForMaximumOfMaximumValues *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Get the Load Step for the maximum of maximum values.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="MagneticCoenergy.IsSolved"></a>
-
-### *property* MagneticCoenergy.IsSolved *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets the IsSolved.
+Gets the list of associated comments.
 
 <!-- !! processed by numpydoc !! -->
 
@@ -225,83 +167,51 @@ Accepts/Returns None for Fiber Coordinate System for a result that is sub scoped
 
 <!-- !! processed by numpydoc !! -->
 
-<a id="MagneticCoenergy.ScopingMethod"></a>
-
-### *property* MagneticCoenergy.ScopingMethod *: [Ansys.Mechanical.DataModel.Enums.GeometryDefineByType](../../../../../../v241/Ansys/Mechanical/DataModel/Enums/GeometryDefineByType.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.GeometryDefineByType) | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the ScopingMethod.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="MagneticCoenergy.SetNumber"></a>
-
-### *property* MagneticCoenergy.SetNumber *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the Set Number.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="MagneticCoenergy.CombinationNumber"></a>
-
-### *property* MagneticCoenergy.CombinationNumber *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the Combination Number for a Solution Combination result.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="MagneticCoenergy.SolutionCombinationDriver"></a>
-
-### *property* MagneticCoenergy.SolutionCombinationDriver *: [Ansys.Mechanical.DataModel.Enums.SolutionCombinationDriverStyle](../../../../../../v241/Ansys/Mechanical/DataModel/Enums/SolutionCombinationDriverStyle.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.SolutionCombinationDriverStyle) | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the SolutionCombinationDriver.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="MagneticCoenergy.Path"></a>
-
-### *property* MagneticCoenergy.Path *: [Ansys.ACT.Automation.Mechanical.Path](../../../../../../v241/Ansys/ACT/Automation/Mechanical/Path.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Path) | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Path property.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="MagneticCoenergy.Surface"></a>
-
-### *property* MagneticCoenergy.Surface *: [Ansys.ACT.Automation.Mechanical.Surface](../../../../../../v241/Ansys/ACT/Automation/Mechanical/Surface.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Surface) | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Surface property.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="MagneticCoenergy.SurfaceCoating"></a>
-
-### *property* MagneticCoenergy.SurfaceCoating *: [Ansys.ACT.Automation.Mechanical.SurfaceCoating](../../../../../../v241/Ansys/ACT/Automation/Mechanical/SurfaceCoating.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.SurfaceCoating) | [None](https://docs.python.org/3/library/constants.html#None)*
-
-SurfaceCoating property.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="MagneticCoenergy.NamedSelections"></a>
-
-### *property* MagneticCoenergy.NamedSelections *: System.Collections.Generic.IEnumerable[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the NamedSelections.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="MagneticCoenergy.WaterfallShowTextOnMosaic"></a>
-
-### *property* MagneticCoenergy.WaterfallShowTextOnMosaic *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the Waterfall Mosaic Text Property.
-
-<!-- !! processed by numpydoc !! -->
-
 <a id="MagneticCoenergy.CrackFrontNumber"></a>
 
 ### *property* MagneticCoenergy.CrackFrontNumber *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the CrackFrontNumber.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="MagneticCoenergy.DataModelObjectCategory"></a>
+
+### *property* MagneticCoenergy.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets the current DataModelObject’s category.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="MagneticCoenergy.DisplayOption"></a>
+
+### *property* MagneticCoenergy.DisplayOption *: [Ansys.Mechanical.DataModel.Enums.ResultAveragingType](../../../../Mechanical/DataModel/Enums/ResultAveragingType.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.ResultAveragingType) | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the DisplayOption.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="MagneticCoenergy.DisplayTime"></a>
+
+### *property* MagneticCoenergy.DisplayTime *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the DisplayTime.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="MagneticCoenergy.DpfEvaluation"></a>
+
+### *property* MagneticCoenergy.DpfEvaluation *: [Ansys.Mechanical.DataModel.Enums.DpfEvaluationType](../../../../Mechanical/DataModel/Enums/DpfEvaluationType.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.DpfEvaluationType) | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the DpfEvaluation.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="MagneticCoenergy.Figures"></a>
+
+### *property* MagneticCoenergy.Figures *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Figure](../../../../../../v241/Ansys/ACT/Automation/Mechanical/Figure.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets the list of associated figures.
 
 <!-- !! processed by numpydoc !! -->
 
@@ -313,11 +223,51 @@ Gets or sets the GlobalIDs.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="MagneticCoenergy.GraphControlsXAxis"></a>
+
+### *property* MagneticCoenergy.GraphControlsXAxis *: [Ansys.Mechanical.DataModel.Enums.GraphControlsXAxis](../../../../Mechanical/DataModel/Enums/GraphControlsXAxis.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.GraphControlsXAxis) | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the GraphControlsXAxis.
+
+<!-- !! processed by numpydoc !! -->
+
 <a id="MagneticCoenergy.Identifier"></a>
 
 ### *property* MagneticCoenergy.Identifier *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Identifier.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="MagneticCoenergy.Images"></a>
+
+### *property* MagneticCoenergy.Images *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Image](../../../../../../v241/Ansys/ACT/Automation/Mechanical/Image.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets the list of associated images.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="MagneticCoenergy.InternalObject"></a>
+
+### *property* MagneticCoenergy.InternalObject *: Ansys.Common.Interop.DSObjectsAuto.IDSResultAuto | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets the internal object. For advanced usage only.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="MagneticCoenergy.IsSolved"></a>
+
+### *property* MagneticCoenergy.IsSolved *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets the IsSolved.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="MagneticCoenergy.ItemType"></a>
+
+### *property* MagneticCoenergy.ItemType *: [Ansys.Mechanical.DataModel.Enums.ResultFileItemType](../../../../Mechanical/DataModel/Enums/ResultFileItemType.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.ResultFileItemType) | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the ItemType.
 
 <!-- !! processed by numpydoc !! -->
 
@@ -337,19 +287,35 @@ Gets the LoadStep.
 
 <!-- !! processed by numpydoc !! -->
 
-<a id="MagneticCoenergy.MaximumOccursOn"></a>
+<a id="MagneticCoenergy.LoadStepForMaximumOfMaximumValues"></a>
 
-### *property* MagneticCoenergy.MaximumOccursOn *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* MagneticCoenergy.LoadStepForMaximumOfMaximumValues *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets the MaximumOccursOn.
+Get the Load Step for the maximum of maximum values.
 
 <!-- !! processed by numpydoc !! -->
 
-<a id="MagneticCoenergy.MinimumOccursOn"></a>
+<a id="MagneticCoenergy.LoadStepForMaximumOfMinimumValues"></a>
 
-### *property* MagneticCoenergy.MinimumOccursOn *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* MagneticCoenergy.LoadStepForMaximumOfMinimumValues *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets the MinimumOccursOn.
+Get the Load Step for the maximum of minimum values.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="MagneticCoenergy.LoadStepForMinimumOfMaximumValues"></a>
+
+### *property* MagneticCoenergy.LoadStepForMinimumOfMaximumValues *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Get the Load Step for the minimum of maximum values.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="MagneticCoenergy.LoadStepForMinimumOfMinimumValues"></a>
+
+### *property* MagneticCoenergy.LoadStepForMinimumOfMinimumValues *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Get the Load Step for the minimum of minimum values.
 
 <!-- !! processed by numpydoc !! -->
 
@@ -361,27 +327,11 @@ Gets or sets the LoadStepNumber.
 
 <!-- !! processed by numpydoc !! -->
 
-<a id="MagneticCoenergy.SolverComponentIDs"></a>
+<a id="MagneticCoenergy.Location"></a>
 
-### *property* MagneticCoenergy.SolverComponentIDs *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* MagneticCoenergy.Location *: Ansys.ACT.Interfaces.Common.ISelectionInfo | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets or sets the SolverComponentIDs.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="MagneticCoenergy.Substep"></a>
-
-### *property* MagneticCoenergy.Substep *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets the Substep.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="MagneticCoenergy.Average"></a>
-
-### *property* MagneticCoenergy.Average *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets the Average.
+Gets or sets the Location.
 
 <!-- !! processed by numpydoc !! -->
 
@@ -390,6 +340,14 @@ Gets the Average.
 ### *property* MagneticCoenergy.Maximum *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the Maximum.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="MagneticCoenergy.MaximumOccursOn"></a>
+
+### *property* MagneticCoenergy.MaximumOccursOn *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets the MaximumOccursOn.
 
 <!-- !! processed by numpydoc !! -->
 
@@ -417,6 +375,14 @@ Gets the Minimum.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="MagneticCoenergy.MinimumOccursOn"></a>
+
+### *property* MagneticCoenergy.MinimumOccursOn *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets the MinimumOccursOn.
+
+<!-- !! processed by numpydoc !! -->
+
 <a id="MagneticCoenergy.MinimumOfMaximumOverTime"></a>
 
 ### *property* MagneticCoenergy.MinimumOfMaximumOverTime *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
@@ -433,115 +399,27 @@ Gets the MinimumOfMinimumOverTime.
 
 <!-- !! processed by numpydoc !! -->
 
-<a id="MagneticCoenergy.Time"></a>
+<a id="MagneticCoenergy.NamedSelections"></a>
 
-### *property* MagneticCoenergy.Time *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* MagneticCoenergy.NamedSelections *: System.Collections.Generic.IEnumerable[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets the Time.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="MagneticCoenergy.DisplayTime"></a>
-
-### *property* MagneticCoenergy.DisplayTime *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the DisplayTime.
+Gets or sets the NamedSelections.
 
 <!-- !! processed by numpydoc !! -->
 
-<a id="MagneticCoenergy.GraphControlsXAxis"></a>
+<a id="MagneticCoenergy.Path"></a>
 
-### *property* MagneticCoenergy.GraphControlsXAxis *: [Ansys.Mechanical.DataModel.Enums.GraphControlsXAxis](../../../../../../v241/Ansys/Mechanical/DataModel/Enums/GraphControlsXAxis.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.GraphControlsXAxis) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* MagneticCoenergy.Path *: [Ansys.ACT.Automation.Mechanical.Path](../Path.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Path) | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets or sets the GraphControlsXAxis.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="MagneticCoenergy.DisplayOption"></a>
-
-### *property* MagneticCoenergy.DisplayOption *: [Ansys.Mechanical.DataModel.Enums.ResultAveragingType](../../../../../../v241/Ansys/Mechanical/DataModel/Enums/ResultAveragingType.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.ResultAveragingType) | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the DisplayOption.
+Path property.
 
 <!-- !! processed by numpydoc !! -->
 
-<a id="MagneticCoenergy.DpfEvaluation"></a>
+<a id="MagneticCoenergy.PlotData"></a>
 
-### *property* MagneticCoenergy.DpfEvaluation *: [Ansys.Mechanical.DataModel.Enums.DpfEvaluationType](../../../../../../v241/Ansys/Mechanical/DataModel/Enums/DpfEvaluationType.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DpfEvaluationType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* MagneticCoenergy.PlotData *: [Ansys.Mechanical.DataModel.Results.ResultDataTable](../../../../Mechanical/DataModel/Results/ResultDataTable.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Results.ResultDataTable) | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets or sets the DpfEvaluation.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="MagneticCoenergy.By"></a>
-
-### *property* MagneticCoenergy.By *: [Ansys.Mechanical.DataModel.Enums.SetDriverStyle](../../../../../../v241/Ansys/Mechanical/DataModel/Enums/SetDriverStyle.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.SetDriverStyle) | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the By.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="MagneticCoenergy.ItemType"></a>
-
-### *property* MagneticCoenergy.ItemType *: [Ansys.Mechanical.DataModel.Enums.ResultFileItemType](../../../../../../v241/Ansys/Mechanical/DataModel/Enums/ResultFileItemType.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.ResultFileItemType) | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the ItemType.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="MagneticCoenergy.CalculateTimeHistory"></a>
-
-### *property* MagneticCoenergy.CalculateTimeHistory *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the CalculateTimeHistory.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="MagneticCoenergy.Suppressed"></a>
-
-### *property* MagneticCoenergy.Suppressed *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the Suppressed.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="MagneticCoenergy.Children"></a>
-
-### *property* MagneticCoenergy.Children *: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets the list of children.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="MagneticCoenergy.Comments"></a>
-
-### *property* MagneticCoenergy.Comments *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Comment](../../../../../../v241/Ansys/ACT/Automation/Mechanical/Comment.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets the list of associated comments.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="MagneticCoenergy.Figures"></a>
-
-### *property* MagneticCoenergy.Figures *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Figure](../../../../../../v241/Ansys/ACT/Automation/Mechanical/Figure.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets the list of associated figures.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="MagneticCoenergy.Images"></a>
-
-### *property* MagneticCoenergy.Images *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Image](../../../../../../v241/Ansys/ACT/Automation/Mechanical/Image.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets the list of associated images.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="id0"></a>
-
-### *property* MagneticCoenergy.InternalObject *: System.Object | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets the internal object. For advanced usage only.
+Gets the result table.
 
 <!-- !! processed by numpydoc !! -->
 
@@ -553,6 +431,110 @@ Gets the list of properties for this object.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="MagneticCoenergy.ScopingMethod"></a>
+
+### *property* MagneticCoenergy.ScopingMethod *: [Ansys.Mechanical.DataModel.Enums.GeometryDefineByType](../../../../Mechanical/DataModel/Enums/GeometryDefineByType.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.GeometryDefineByType) | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the ScopingMethod.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="MagneticCoenergy.SetNumber"></a>
+
+### *property* MagneticCoenergy.SetNumber *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the Set Number.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="MagneticCoenergy.SolutionCombinationDriver"></a>
+
+### *property* MagneticCoenergy.SolutionCombinationDriver *: [Ansys.Mechanical.DataModel.Enums.SolutionCombinationDriverStyle](../../../../Mechanical/DataModel/Enums/SolutionCombinationDriverStyle.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.SolutionCombinationDriverStyle) | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the SolutionCombinationDriver.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="MagneticCoenergy.SolverComponentIDs"></a>
+
+### *property* MagneticCoenergy.SolverComponentIDs *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the SolverComponentIDs.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="MagneticCoenergy.Substep"></a>
+
+### *property* MagneticCoenergy.Substep *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets the Substep.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="MagneticCoenergy.Suppressed"></a>
+
+### *property* MagneticCoenergy.Suppressed *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the Suppressed.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="MagneticCoenergy.Surface"></a>
+
+### *property* MagneticCoenergy.Surface *: [Ansys.ACT.Automation.Mechanical.Surface](../Surface.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Surface) | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Surface property.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="MagneticCoenergy.SurfaceCoating"></a>
+
+### *property* MagneticCoenergy.SurfaceCoating *: [Ansys.ACT.Automation.Mechanical.SurfaceCoating](../SurfaceCoating.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.SurfaceCoating) | [None](https://docs.python.org/3/library/constants.html#None)*
+
+SurfaceCoating property.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="MagneticCoenergy.Time"></a>
+
+### *property* MagneticCoenergy.Time *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets the Time.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="MagneticCoenergy.TimeForMaximumOfMaximumValues"></a>
+
+### *property* MagneticCoenergy.TimeForMaximumOfMaximumValues *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Get the Time for the maximum of maximum values.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="MagneticCoenergy.TimeForMaximumOfMinimumValues"></a>
+
+### *property* MagneticCoenergy.TimeForMaximumOfMinimumValues *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Get the Time for the maximum of minimum values.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="MagneticCoenergy.TimeForMinimumOfMaximumValues"></a>
+
+### *property* MagneticCoenergy.TimeForMinimumOfMaximumValues *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Get the Time for the minimum of maximum values.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="MagneticCoenergy.TimeForMinimumOfMinimumValues"></a>
+
+### *property* MagneticCoenergy.TimeForMinimumOfMinimumValues *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Get the Time for the minimum of minimum values.
+
+<!-- !! processed by numpydoc !! -->
+
 <a id="MagneticCoenergy.VisibleProperties"></a>
 
 ### *property* MagneticCoenergy.VisibleProperties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
@@ -561,79 +543,23 @@ Gets the list of properties that are visible for this object.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="MagneticCoenergy.WaterfallShowTextOnMosaic"></a>
+
+### *property* MagneticCoenergy.WaterfallShowTextOnMosaic *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the Waterfall Mosaic Text Property.
+
+<!-- !! processed by numpydoc !! -->
+
 <a id="method-detail"></a>
 
 ## Method detail
 
-<a id="MagneticCoenergy.ClearGeneratedData"></a>
+<a id="MagneticCoenergy.Activate"></a>
 
-### MagneticCoenergy.ClearGeneratedData()
+### MagneticCoenergy.Activate()
 
-Run the ClearGeneratedData action.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="MagneticCoenergy.EvaluateAllResults"></a>
-
-### MagneticCoenergy.EvaluateAllResults()
-
-Run the EvaluateAllResults action.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="MagneticCoenergy.FetchRemoteResults"></a>
-
-### MagneticCoenergy.FetchRemoteResults()
-
-Run the FetchRemoteResult action.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="MagneticCoenergy.ExportToTextFile"></a>
-
-### MagneticCoenergy.ExportToTextFile(filePath: System.String)
-
-Run the ExportToTextFile action.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="MagneticCoenergy.ExportAnimation"></a>
-
-### MagneticCoenergy.ExportAnimation(filePath: System.String, format: [Ansys.Mechanical.DataModel.Enums.GraphicsAnimationExportFormat](../../../../../../v241/Ansys/Mechanical/DataModel/Enums/GraphicsAnimationExportFormat.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.GraphicsAnimationExportFormat), settings: [Ansys.Mechanical.Graphics.AnimationExportSettings](../../../../../../v241/Ansys/Mechanical/Graphics/AnimationExportSettings.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.Graphics.AnimationExportSettings))
-
-Run the ExportAnimation action.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="MagneticCoenergy.DuplicateWithoutResults"></a>
-
-### MagneticCoenergy.DuplicateWithoutResults()
-
-Run the DuplicateWithoutResults action.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="MagneticCoenergy.CreateResultsAtAllSets"></a>
-
-### MagneticCoenergy.CreateResultsAtAllSets()
-
-Creates results at all sets for results under a solution.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="MagneticCoenergy.PromoteToNamedSelection"></a>
-
-### MagneticCoenergy.PromoteToNamedSelection()
-
-Run the PromoteToNamedSelection action.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="MagneticCoenergy.CreateParameter"></a>
-
-### MagneticCoenergy.CreateParameter(propName: System.String)
-
-CreateParameter method.
+Activate the current object.
 
 <!-- !! processed by numpydoc !! -->
 
@@ -645,51 +571,19 @@ Creates a new Alert
 
 <!-- !! processed by numpydoc !! -->
 
-<a id="MagneticCoenergy.AddConvergence"></a>
-
-### MagneticCoenergy.AddConvergence()
-
-Creates a new Convergence
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="MagneticCoenergy.RenameBasedOnDefinition"></a>
-
-### MagneticCoenergy.RenameBasedOnDefinition()
-
-Run the RenameBasedOnDefinition action.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="MagneticCoenergy.Delete"></a>
-
-### MagneticCoenergy.Delete()
-
-Run the Delete action.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="MagneticCoenergy.GetChildren"></a>
-
-### MagneticCoenergy.GetChildren(recurses: System.Boolean, children: System.Collections.Generic.IList[ChildrenType])
-
-Gets the list of children, filtered by type.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="id1"></a>
-
-### MagneticCoenergy.GetChildren(category: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../../v241/Ansys/Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory), recurses: System.Boolean, children: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject])
-
-Gets the list of children, filtered by type.
-
-<!-- !! processed by numpydoc !! -->
-
 <a id="MagneticCoenergy.AddComment"></a>
 
 ### MagneticCoenergy.AddComment()
 
 Creates a new child Comment.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="MagneticCoenergy.AddConvergence"></a>
+
+### MagneticCoenergy.AddConvergence()
+
+Creates a new Convergence
 
 <!-- !! processed by numpydoc !! -->
 
@@ -705,17 +599,19 @@ Creates a new child Figure.
 
 ### MagneticCoenergy.AddImage(filePath: System.String)
 
+```text
 Creates a new child Image.
 If a filePath is provided, the image will be loaded from that file,
 if not, the image will be a screen capture of the Geometry window.
+```
 
 <!-- !! processed by numpydoc !! -->
 
-<a id="MagneticCoenergy.Activate"></a>
+<a id="MagneticCoenergy.ClearGeneratedData"></a>
 
-### MagneticCoenergy.Activate()
+### MagneticCoenergy.ClearGeneratedData()
 
-Activate the current object.
+Run the ClearGeneratedData action.
 
 <!-- !! processed by numpydoc !! -->
 
@@ -727,11 +623,91 @@ Copies all visible properties from this object to another.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="MagneticCoenergy.CreateParameter"></a>
+
+### MagneticCoenergy.CreateParameter(propName: System.String)
+
+CreateParameter method.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="MagneticCoenergy.CreateResultsAtAllSets"></a>
+
+### MagneticCoenergy.CreateResultsAtAllSets()
+
+Creates results at all sets for results under a solution.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="MagneticCoenergy.Delete"></a>
+
+### MagneticCoenergy.Delete()
+
+Run the Delete action.
+
+<!-- !! processed by numpydoc !! -->
+
 <a id="MagneticCoenergy.Duplicate"></a>
 
 ### MagneticCoenergy.Duplicate()
 
 Creates a copy of the current DataModelObject.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="MagneticCoenergy.DuplicateWithoutResults"></a>
+
+### MagneticCoenergy.DuplicateWithoutResults()
+
+Run the DuplicateWithoutResults action.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="MagneticCoenergy.EvaluateAllResults"></a>
+
+### MagneticCoenergy.EvaluateAllResults()
+
+Run the EvaluateAllResults action.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="MagneticCoenergy.ExportAnimation"></a>
+
+### MagneticCoenergy.ExportAnimation(filePath: System.String, format: [Ansys.Mechanical.DataModel.Enums.GraphicsAnimationExportFormat](../../../../Mechanical/DataModel/Enums/GraphicsAnimationExportFormat.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.GraphicsAnimationExportFormat), settings: [Ansys.Mechanical.Graphics.AnimationExportSettings](../../../../Mechanical/Graphics/AnimationExportSettings.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.Graphics.AnimationExportSettings))
+
+Run the ExportAnimation action.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="MagneticCoenergy.ExportToTextFile"></a>
+
+### MagneticCoenergy.ExportToTextFile(filePath: System.String)
+
+Run the ExportToTextFile action.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="MagneticCoenergy.FetchRemoteResults"></a>
+
+### MagneticCoenergy.FetchRemoteResults()
+
+Run the FetchRemoteResult action.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="MagneticCoenergy.GetChildren"></a>
+
+### MagneticCoenergy.GetChildren(recurses: System.Boolean, children: System.Collections.Generic.IList[ChildrenType])
+
+Gets the list of children, filtered by type.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="MagneticCoenergy.GetParameter"></a>
+
+### MagneticCoenergy.GetParameter(propName: System.String)
+
+Gets the parameter corresponding to the given property.
 
 <!-- !! processed by numpydoc !! -->
 
@@ -751,6 +727,25 @@ Run the GroupSimilarObjects action.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="MagneticCoenergy.PromoteToNamedSelection"></a>
+
+### MagneticCoenergy.PromoteToNamedSelection()
+
+Run the PromoteToNamedSelection action.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="MagneticCoenergy.PropertyByAPIName"></a>
+
+### MagneticCoenergy.PropertyByAPIName(name: System.String)
+
+```text
+Get a property by its API name.
+If multiple properties have the same API Name, only the first property with that name will be returned.
+```
+
+<!-- !! processed by numpydoc !! -->
+
 <a id="MagneticCoenergy.PropertyByName"></a>
 
 ### MagneticCoenergy.PropertyByName(name: System.String)
@@ -759,28 +754,19 @@ Get a property by its unique name.
 
 <!-- !! processed by numpydoc !! -->
 
-<a id="MagneticCoenergy.PropertyByAPIName"></a>
-
-### MagneticCoenergy.PropertyByAPIName(name: System.String)
-
-Get a property by its API name.
-If multiple properties have the same API Name, only the first property with that name will be returned.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="MagneticCoenergy.GetParameter"></a>
-
-### MagneticCoenergy.GetParameter(propName: System.String)
-
-Gets the parameter corresponding to the given property.
-
-<!-- !! processed by numpydoc !! -->
-
 <a id="MagneticCoenergy.RemoveParameter"></a>
 
 ### MagneticCoenergy.RemoveParameter(propName: System.String)
 
 Removes the parameter from the parameter set corresponding to the given property.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="MagneticCoenergy.RenameBasedOnDefinition"></a>
+
+### MagneticCoenergy.RenameBasedOnDefinition()
+
+Run the RenameBasedOnDefinition action.
 
 <!-- !! processed by numpydoc !! -->
 

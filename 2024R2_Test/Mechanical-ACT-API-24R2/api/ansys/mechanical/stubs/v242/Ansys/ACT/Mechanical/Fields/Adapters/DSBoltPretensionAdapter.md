@@ -1,6 +1,6 @@
 # `DSBoltPretensionAdapter`
 
-
+<a id="ansys.mechanical.stubs.v242.Ansys.ACT.Mechanical.Fields.Adapters.DSBoltPretensionAdapter"></a>
 
 #### *class* ansys.mechanical.stubs.v242.Ansys.ACT.Mechanical.Fields.Adapters.DSBoltPretensionAdapter
 
@@ -17,13 +17,13 @@ Adapter dedicated to IDSBoltPretensionAuto objects.
 ### Methods
 
 | Name | Description |
-|-------------------------------------------------------------------------------------|-------------------------------------|
+|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------|
 | [`ChangeFieldDefinitionType`](#DSBoltPretensionAdapter.ChangeFieldDefinitionType)   | ChangeFieldDefinitionType method.   |
 
 ### Properties
 
 | Name | Description |
-|-------------------------------------------------------------|--------------------------------------------|
+|---------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------|
 | [`FieldProvider`](#DSBoltPretensionAdapter.FieldProvider)   | Gets the wrapped object from Mechanical.   |
 
 <a id="property-detail"></a>

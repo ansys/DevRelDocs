@@ -1,6 +1,6 @@
 # `JointType`
 
-
+<a id="ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.JointType"></a>
 
 #### *class* ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.JointType
 
@@ -17,8 +17,7 @@ Specifies the JointType.
 ### Attributes
 
 | Name |
-| --------------------------------------------------- |
-| [`RadialGap3D`](#JointType.RadialGap3D) |
+| -------------------------------------------------------------------------------------------------------------------- |
 | [`Bushing`](#JointType.Bushing) |
 | [`ConstantVelocity`](#JointType.ConstantVelocity) |
 | [`Cylindrical`](#JointType.Cylindrical) |
@@ -28,6 +27,7 @@ Specifies the JointType.
 | [`Planar`](#JointType.Planar) |
 | [`PlaneRadialGap`](#JointType.PlaneRadialGap) |
 | [`PointOnCurve`](#JointType.PointOnCurve) |
+| [`RadialGap3D`](#JointType.RadialGap3D) |
 | [`Revolute`](#JointType.Revolute) |
 | [`Screw`](#JointType.Screw) |
 | [`Slot`](#JointType.Slot) |
@@ -39,10 +39,6 @@ Specifies the JointType.
 <a id="attribute-detail"></a>
 
 ## Attribute detail
-
-<a id="JointType.RadialGap3D"></a>
-
-### JointType.RadialGap3D *= 13*
 
 <a id="JointType.Bushing"></a>
 
@@ -79,6 +75,10 @@ Specifies the JointType.
 <a id="JointType.PointOnCurve"></a>
 
 ### JointType.PointOnCurve *= 10*
+
+<a id="JointType.RadialGap3D"></a>
+
+### JointType.RadialGap3D *= 13*
 
 <a id="JointType.Revolute"></a>
 

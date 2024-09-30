@@ -1,6 +1,6 @@
 # `NodeMergeToleranceMethod`
 
-
+<a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.NodeMergeToleranceMethod"></a>
 
 #### *class* ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.NodeMergeToleranceMethod
 
@@ -17,10 +17,10 @@ To select the method of AutoNodeMove under PCTet.
 ### Attributes
 
 | Name |
-| ---------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| [`AbsoluteValue`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/NodeMergeToleranceMethod.md#NodeMergeToleranceMethod.AbsoluteValue) |
-| [`PercentageOfElementSize`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/NodeMergeToleranceMethod.md#NodeMergeToleranceMethod.PercentageOfElementSize) |
-| [`ProgramControlled`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/NodeMergeToleranceMethod.md#NodeMergeToleranceMethod.ProgramControlled) |
+| -------------------------------------------------------------------------------- |
+| [`AbsoluteValue`](#NodeMergeToleranceMethod.AbsoluteValue) |
+| [`PercentageOfElementSize`](#NodeMergeToleranceMethod.PercentageOfElementSize) |
+| [`ProgramControlled`](#NodeMergeToleranceMethod.ProgramControlled) |
 
 <a id="attribute-detail"></a>
 

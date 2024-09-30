@@ -1,6 +1,6 @@
 # `PSDAcceleration`
 
-
+<a id="ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.BoundaryConditions.PSDAcceleration"></a>
 
 #### *class* ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.BoundaryConditions.PSDAcceleration
 
@@ -18,90 +18,48 @@ Defines a PSDAcceleration.
 
 | Name | Description |
 |-----------------------------------------------------------------------|-----------------------------------------------------------------------------------|
-| [`Delete`](#PSDAcceleration.Delete)                                   | Run the Delete action.                                                            |
-| [`GetChildren`](#id1)                                                 | Gets the list of children, filtered by type.                                      |
-| [`GetChildren`](#id1)                                                 | Gets the list of children, filtered by type.                                      |
+| [`Activate`](#PSDAcceleration.Activate)                               | Activate the current object.                                                      |
 | [`AddComment`](#PSDAcceleration.AddComment)                           | Creates a new child Comment.                                                      |
 | [`AddFigure`](#PSDAcceleration.AddFigure)                             | Creates a new child Figure.                                                       |
 | [`AddImage`](#PSDAcceleration.AddImage)                               | Creates a new child Image.                                                        |
-| [`Activate`](#PSDAcceleration.Activate)                               | Activate the current object.                                                      |
 | [`CopyTo`](#PSDAcceleration.CopyTo)                                   | Copies all visible properties from this object to another.                        |
+| [`CreateParameter`](#PSDAcceleration.CreateParameter)                 | Creates a new parameter for a Property.                                           |
+| [`Delete`](#PSDAcceleration.Delete)                                   | Run the Delete action.                                                            |
 | [`Duplicate`](#PSDAcceleration.Duplicate)                             | Creates a copy of the current DataModelObject.                                    |
+| [`GetChildren`](#PSDAcceleration.GetChildren)                         | Gets the list of children, filtered by type.                                      |
+| [`GetParameter`](#PSDAcceleration.GetParameter)                       | Gets the parameter corresponding to the given property.                           |
 | [`GroupAllSimilarChildren`](#PSDAcceleration.GroupAllSimilarChildren) | Run the GroupAllSimilarChildren action.                                           |
 | [`GroupSimilarObjects`](#PSDAcceleration.GroupSimilarObjects)         | Run the GroupSimilarObjects action.                                               |
-| [`PropertyByName`](#PSDAcceleration.PropertyByName)                   | Get a property by its unique name.                                                |
 | [`PropertyByAPIName`](#PSDAcceleration.PropertyByAPIName)             | Get a property by its API name.                                                   |
-| [`CreateParameter`](#PSDAcceleration.CreateParameter)                 | Creates a new parameter for a Property.                                           |
-| [`GetParameter`](#PSDAcceleration.GetParameter)                       | Gets the parameter corresponding to the given property.                           |
+| [`PropertyByName`](#PSDAcceleration.PropertyByName)                   | Get a property by its unique name.                                                |
 | [`RemoveParameter`](#PSDAcceleration.RemoveParameter)                 | Removes the parameter from the parameter set corresponding to the given property. |
 
 ### Properties
 
 | Name | Description |
 |-----------------------------------------------------------------------|---------------------------------------------------------------|
-| [`InternalObject`](#id0)                                              | Gets the internal object. For advanced usage only.            |
-| [`LoadData`](#PSDAcceleration.LoadData)                               | Gets or sets the LoadData.                                    |
-| [`DataModelObjectCategory`](#PSDAcceleration.DataModelObjectCategory) | Gets the current DataModelObject's category.                  |
 | [`BoundaryCondition`](#PSDAcceleration.BoundaryCondition)             | Gets or sets the BoundaryCondition.                           |
-| [`Direction`](#PSDAcceleration.Direction)                             | Gets or sets the Direction.                                   |
-| [`Suppressed`](#PSDAcceleration.Suppressed)                           | Gets or sets the Suppressed.                                  |
 | [`Children`](#PSDAcceleration.Children)                               | Gets the list of children.                                    |
 | [`Comments`](#PSDAcceleration.Comments)                               | Gets the list of associated comments.                         |
+| [`DataModelObjectCategory`](#PSDAcceleration.DataModelObjectCategory) | Gets the current DataModelObject’s category.                  |
+| [`Direction`](#PSDAcceleration.Direction)                             | Gets or sets the Direction.                                   |
 | [`Figures`](#PSDAcceleration.Figures)                                 | Gets the list of associated figures.                          |
 | [`Images`](#PSDAcceleration.Images)                                   | Gets the list of associated images.                           |
-| [`InternalObject`](#id0)                                              | Gets the internal object. For advanced usage only.            |
+| [`InternalObject`](#PSDAcceleration.InternalObject)                   | Gets the internal object. For advanced usage only.            |
+| [`LoadData`](#PSDAcceleration.LoadData)                               | Gets or sets the LoadData.                                    |
 | [`Properties`](#PSDAcceleration.Properties)                           | Gets the list of properties for this object.                  |
+| [`Suppressed`](#PSDAcceleration.Suppressed)                           | Gets or sets the Suppressed.                                  |
 | [`VisibleProperties`](#PSDAcceleration.VisibleProperties)             | Gets the list of properties that are visible for this object. |
 
 <a id="property-detail"></a>
 
 ## Property detail
 
-<a id="PSDAcceleration.InternalObject"></a>
-
-### *property* PSDAcceleration.InternalObject *: Ansys.Common.Interop.DSObjectsAuto.IDSPSDLoadAuto | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets the internal object. For advanced usage only.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="PSDAcceleration.LoadData"></a>
-
-### *property* PSDAcceleration.LoadData *: [Ansys.ACT.Mechanical.Fields.Field](../../../../../../v241/Ansys/ACT/Mechanical/Fields/Field.md#ansys.mechanical.stubs.v241.Ansys.ACT.Mechanical.Fields.Field) | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the LoadData.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="PSDAcceleration.DataModelObjectCategory"></a>
-
-### *property* PSDAcceleration.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../../v241/Ansys/Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets the current DataModelObject's category.
-
-<!-- !! processed by numpydoc !! -->
-
 <a id="PSDAcceleration.BoundaryCondition"></a>
 
 ### *property* PSDAcceleration.BoundaryCondition *: System.Object | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the BoundaryCondition.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="PSDAcceleration.Direction"></a>
-
-### *property* PSDAcceleration.Direction *: [Ansys.Mechanical.DataModel.Enums.NormalOrientationType](../../../../../../v241/Ansys/Mechanical/DataModel/Enums/NormalOrientationType.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.NormalOrientationType) | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the Direction.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="PSDAcceleration.Suppressed"></a>
-
-### *property* PSDAcceleration.Suppressed *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the Suppressed.
 
 <!-- !! processed by numpydoc !! -->
 
@@ -121,6 +79,22 @@ Gets the list of associated comments.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="PSDAcceleration.DataModelObjectCategory"></a>
+
+### *property* PSDAcceleration.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets the current DataModelObject’s category.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="PSDAcceleration.Direction"></a>
+
+### *property* PSDAcceleration.Direction *: [Ansys.Mechanical.DataModel.Enums.NormalOrientationType](../../../../Mechanical/DataModel/Enums/NormalOrientationType.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.NormalOrientationType) | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the Direction.
+
+<!-- !! processed by numpydoc !! -->
+
 <a id="PSDAcceleration.Figures"></a>
 
 ### *property* PSDAcceleration.Figures *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Figure](../../../../../../v241/Ansys/ACT/Automation/Mechanical/Figure.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
@@ -137,11 +111,19 @@ Gets the list of associated images.
 
 <!-- !! processed by numpydoc !! -->
 
-<a id="id0"></a>
+<a id="PSDAcceleration.InternalObject"></a>
 
-### *property* PSDAcceleration.InternalObject *: System.Object | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* PSDAcceleration.InternalObject *: Ansys.Common.Interop.DSObjectsAuto.IDSPSDLoadAuto | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the internal object. For advanced usage only.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="PSDAcceleration.LoadData"></a>
+
+### *property* PSDAcceleration.LoadData *: [Ansys.ACT.Mechanical.Fields.Field](../../../Mechanical/Fields/Field.md#ansys.mechanical.stubs.v242.Ansys.ACT.Mechanical.Fields.Field) | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the LoadData.
 
 <!-- !! processed by numpydoc !! -->
 
@@ -150,6 +132,14 @@ Gets the internal object. For advanced usage only.
 ### *property* PSDAcceleration.Properties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of properties for this object.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="PSDAcceleration.Suppressed"></a>
+
+### *property* PSDAcceleration.Suppressed *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the Suppressed.
 
 <!-- !! processed by numpydoc !! -->
 
@@ -165,27 +155,11 @@ Gets the list of properties that are visible for this object.
 
 ## Method detail
 
-<a id="PSDAcceleration.Delete"></a>
+<a id="PSDAcceleration.Activate"></a>
 
-### PSDAcceleration.Delete()
+### PSDAcceleration.Activate()
 
-Run the Delete action.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="PSDAcceleration.GetChildren"></a>
-
-### PSDAcceleration.GetChildren(recurses: System.Boolean, children: System.Collections.Generic.IList[ChildrenType])
-
-Gets the list of children, filtered by type.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="id1"></a>
-
-### PSDAcceleration.GetChildren(category: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../../v241/Ansys/Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory), recurses: System.Boolean, children: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject])
-
-Gets the list of children, filtered by type.
+Activate the current object.
 
 <!-- !! processed by numpydoc !! -->
 
@@ -209,17 +183,11 @@ Creates a new child Figure.
 
 ### PSDAcceleration.AddImage(filePath: System.String)
 
+```text
 Creates a new child Image.
 If a filePath is provided, the image will be loaded from that file,
 if not, the image will be a screen capture of the Geometry window.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="PSDAcceleration.Activate"></a>
-
-### PSDAcceleration.Activate()
-
-Activate the current object.
+```
 
 <!-- !! processed by numpydoc !! -->
 
@@ -231,11 +199,43 @@ Copies all visible properties from this object to another.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="PSDAcceleration.CreateParameter"></a>
+
+### PSDAcceleration.CreateParameter(propName: System.String)
+
+Creates a new parameter for a Property.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="PSDAcceleration.Delete"></a>
+
+### PSDAcceleration.Delete()
+
+Run the Delete action.
+
+<!-- !! processed by numpydoc !! -->
+
 <a id="PSDAcceleration.Duplicate"></a>
 
 ### PSDAcceleration.Duplicate()
 
 Creates a copy of the current DataModelObject.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="PSDAcceleration.GetChildren"></a>
+
+### PSDAcceleration.GetChildren(recurses: System.Boolean, children: System.Collections.Generic.IList[ChildrenType])
+
+Gets the list of children, filtered by type.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="PSDAcceleration.GetParameter"></a>
+
+### PSDAcceleration.GetParameter(propName: System.String)
+
+Gets the parameter corresponding to the given property.
 
 <!-- !! processed by numpydoc !! -->
 
@@ -255,36 +255,22 @@ Run the GroupSimilarObjects action.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="PSDAcceleration.PropertyByAPIName"></a>
+
+### PSDAcceleration.PropertyByAPIName(name: System.String)
+
+```text
+Get a property by its API name.
+If multiple properties have the same API Name, only the first property with that name will be returned.
+```
+
+<!-- !! processed by numpydoc !! -->
+
 <a id="PSDAcceleration.PropertyByName"></a>
 
 ### PSDAcceleration.PropertyByName(name: System.String)
 
 Get a property by its unique name.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="PSDAcceleration.PropertyByAPIName"></a>
-
-### PSDAcceleration.PropertyByAPIName(name: System.String)
-
-Get a property by its API name.
-If multiple properties have the same API Name, only the first property with that name will be returned.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="PSDAcceleration.CreateParameter"></a>
-
-### PSDAcceleration.CreateParameter(propName: System.String)
-
-Creates a new parameter for a Property.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="PSDAcceleration.GetParameter"></a>
-
-### PSDAcceleration.GetParameter(propName: System.String)
-
-Gets the parameter corresponding to the given property.
 
 <!-- !! processed by numpydoc !! -->
 

@@ -1,6 +1,6 @@
 # `ImportParameterType`
 
-
+<a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.ImportParameterType"></a>
 
 #### *class* ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.ImportParameterType
 
@@ -17,25 +17,25 @@ Specifies the MethodType.
 ### Attributes
 
 | Name |
-| ------------------------------------------------------------------------------------------------------------------------------ |
-| [`None_`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/ImportParameterType.md#ImportParameterType.None_) |
-| [`Independent`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/ImportParameterType.md#ImportParameterType.Independent) |
-| [`All`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/ImportParameterType.md#ImportParameterType.All) |
+| --------------------------------------------------- |
+| [`All`](#ImportParameterType.All) |
+| [`Independent`](#ImportParameterType.Independent) |
+| [`None_`](#ImportParameterType.None_) |
 
 <a id="attribute-detail"></a>
 
 ## Attribute detail
 
-<a id="ImportParameterType.None_"></a>
+<a id="ImportParameterType.All"></a>
 
-### ImportParameterType.None_ *= 0*
+### ImportParameterType.All *= 3*
 
 <a id="ImportParameterType.Independent"></a>
 
 ### ImportParameterType.Independent *= 1*
 
-<a id="ImportParameterType.All"></a>
+<a id="ImportParameterType.None_"></a>
 
-### ImportParameterType.All *= 3*
+### ImportParameterType.None_ *= 0*
 
 

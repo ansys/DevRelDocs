@@ -1,6 +1,6 @@
 # `HarmonicMSUPStorage`
 
-
+<a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.HarmonicMSUPStorage"></a>
 
 #### *class* ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.HarmonicMSUPStorage
 
@@ -17,9 +17,9 @@ Specifies the HarmonicMSUPStorage.
 ### Attributes
 
 | Name |
-| ---------------------------------------------------------------------------------------------------------------------------------------------- |
-| [`AllFrequencies`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/HarmonicMSUPStorage.md#HarmonicMSUPStorage.AllFrequencies) |
-| [`SelectedFrequencies`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/HarmonicMSUPStorage.md#HarmonicMSUPStorage.SelectedFrequencies) |
+| ------------------------------------------------------------------- |
+| [`AllFrequencies`](#HarmonicMSUPStorage.AllFrequencies) |
+| [`SelectedFrequencies`](#HarmonicMSUPStorage.SelectedFrequencies) |
 
 <a id="attribute-detail"></a>
 

@@ -1,6 +1,6 @@
 # `PullMethod`
 
-
+<a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.PullMethod"></a>
 
 #### *class* ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.PullMethod
 
@@ -17,11 +17,11 @@ To select the method of Pull. There are three methods. They are Extrude, Revolve
 ### Attributes
 
 | Name |
-| ------------------------------------------------------------------------------------------------------------------ |
-| [`Extrude`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/PullMethod.md#PullMethod.Extrude) |
-| [`LineCoating`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/PullMethod.md#PullMethod.LineCoating) |
-| [`Revolve`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/PullMethod.md#PullMethod.Revolve) |
-| [`SurfaceCoating`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/PullMethod.md#PullMethod.SurfaceCoating) |
+| ------------------------------------------------ |
+| [`Extrude`](#PullMethod.Extrude) |
+| [`LineCoating`](#PullMethod.LineCoating) |
+| [`Revolve`](#PullMethod.Revolve) |
+| [`SurfaceCoating`](#PullMethod.SurfaceCoating) |
 
 <a id="attribute-detail"></a>
 

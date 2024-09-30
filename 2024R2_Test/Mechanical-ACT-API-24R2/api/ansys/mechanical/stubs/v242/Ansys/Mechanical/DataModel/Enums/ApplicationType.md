@@ -1,6 +1,6 @@
 # `ApplicationType`
 
-
+<a id="ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.ApplicationType"></a>
 
 #### *class* ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.ApplicationType
 
@@ -17,20 +17,20 @@ Specifies the Application type.
 ### Attributes
 
 | Name |
-| ----------------------------------------------- |
-| [`Mechanical`](#ApplicationType.Mechanical) |
+| -------------------------------------------------------------------------------------------------------------------- |
 | [`MAPDL`](#ApplicationType.MAPDL) |
+| [`Mechanical`](#ApplicationType.Mechanical) |
 
 <a id="attribute-detail"></a>
 
 ## Attribute detail
 
-<a id="ApplicationType.Mechanical"></a>
-
-### ApplicationType.Mechanical *= 0*
-
 <a id="ApplicationType.MAPDL"></a>
 
 ### ApplicationType.MAPDL *= 1*
+
+<a id="ApplicationType.Mechanical"></a>
+
+### ApplicationType.Mechanical *= 0*
 
 

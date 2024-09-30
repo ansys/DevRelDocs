@@ -1,6 +1,6 @@
 # `TBPTValues`
 
-
+<a id="ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.FE.CDB.TBPTValues"></a>
 
 #### *class* ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.FE.CDB.TBPTValues
 
@@ -18,8 +18,8 @@ Represents a tuple of values for the TBPT commmand.
 
 | Name | Description |
 |------------------------------------------------------------------------------------------------------------------------|------------------------------|
-| [`ValueCount`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/FE/CDB/TBPTValues.md#TBPTValues.ValueCount)   | Gets the number of values.   |
-| [`Values`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/FE/CDB/TBPTValues.md#TBPTValues.Values)           | Gets the values.             |
+| [`ValueCount`](#TBPTValues.ValueCount)   | Gets the number of values.   |
+| [`Values`](#TBPTValues.Values)           | Gets the values.             |
 
 <a id="property-detail"></a>
 

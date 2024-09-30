@@ -1,6 +1,6 @@
 # `ControlType`
 
-
+<a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.MechanicalEnums.MeshWorkflow.ControlType"></a>
 
 #### *class* ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.MechanicalEnums.MeshWorkflow.ControlType
 
@@ -17,69 +17,65 @@ To select the mesh workflow control type.
 ### Attributes
 
 | Name |
-| ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| [`ZoneMaterialAssignment`](../../../../../../v242/Ansys/Mechanical/DataModel/MechanicalEnums/MeshWorkflow/ControlType.md#ControlType.ZoneMaterialAssignment) |
-| [`Checkpoint`](../../../../../../v242/Ansys/Mechanical/DataModel/MechanicalEnums/MeshWorkflow/ControlType.md#ControlType.Checkpoint) |
-| [`PartEnclosure`](../../../../../../v242/Ansys/Mechanical/DataModel/MechanicalEnums/MeshWorkflow/ControlType.md#ControlType.PartEnclosure) |
-| [`IrregularShapeConvexEnclosure`](../../../../../../v242/Ansys/Mechanical/DataModel/MechanicalEnums/MeshWorkflow/ControlType.md#ControlType.IrregularShapeConvexEnclosure) |
-| [`SphericalEnclosure`](../../../../../../v242/Ansys/Mechanical/DataModel/MechanicalEnums/MeshWorkflow/ControlType.md#ControlType.SphericalEnclosure) |
-| [`CustomNamesEnclosure`](../../../../../../v242/Ansys/Mechanical/DataModel/MechanicalEnums/MeshWorkflow/ControlType.md#ControlType.CustomNamesEnclosure) |
-| [`TopologyCreation`](../../../../../../v242/Ansys/Mechanical/DataModel/MechanicalEnums/MeshWorkflow/ControlType.md#ControlType.TopologyCreation) |
-| [`Extrusion`](../../../../../../v242/Ansys/Mechanical/DataModel/MechanicalEnums/MeshWorkflow/ControlType.md#ControlType.Extrusion) |
-| [`CustomNamesExtrusion`](../../../../../../v242/Ansys/Mechanical/DataModel/MechanicalEnums/MeshWorkflow/ControlType.md#ControlType.CustomNamesExtrusion) |
-| [`HoleFilling`](../../../../../../v242/Ansys/Mechanical/DataModel/MechanicalEnums/MeshWorkflow/ControlType.md#ControlType.HoleFilling) |
-| [`ImproveSurfaceMeshSecondOrderConversion`](../../../../../../v242/Ansys/Mechanical/DataModel/MechanicalEnums/MeshWorkflow/ControlType.md#ControlType.ImproveSurfaceMeshSecondOrderConversion) |
-| [`ImproveVolumeMeshAutoNodeMove`](../../../../../../v242/Ansys/Mechanical/DataModel/MechanicalEnums/MeshWorkflow/ControlType.md#ControlType.ImproveVolumeMeshAutoNodeMove) |
-| [`ImproveVolumeMeshSecondOrderConversion`](../../../../../../v242/Ansys/Mechanical/DataModel/MechanicalEnums/MeshWorkflow/ControlType.md#ControlType.ImproveVolumeMeshSecondOrderConversion) |
-| [`MaterialPoint`](../../../../../../v242/Ansys/Mechanical/DataModel/MechanicalEnums/MeshWorkflow/ControlType.md#ControlType.MaterialPoint) |
-| [`VolumesMerging`](../../../../../../v242/Ansys/Mechanical/DataModel/MechanicalEnums/MeshWorkflow/ControlType.md#ControlType.VolumesMerging) |
-| [`MeshImport`](../../../../../../v242/Ansys/Mechanical/DataModel/MechanicalEnums/MeshWorkflow/ControlType.md#ControlType.MeshImport) |
-| [`ConstantSizeSurfaceMesh`](../../../../../../v242/Ansys/Mechanical/DataModel/MechanicalEnums/MeshWorkflow/ControlType.md#ControlType.ConstantSizeSurfaceMesh) |
-| [`WrapSpecificSurfaceMesh`](../../../../../../v242/Ansys/Mechanical/DataModel/MechanicalEnums/MeshWorkflow/ControlType.md#ControlType.WrapSpecificSurfaceMesh) |
-| [`ConstantSizeVolumeMesh`](../../../../../../v242/Ansys/Mechanical/DataModel/MechanicalEnums/MeshWorkflow/ControlType.md#ControlType.ConstantSizeVolumeMesh) |
-| [`ConstantSizeWrap`](../../../../../../v242/Ansys/Mechanical/DataModel/MechanicalEnums/MeshWorkflow/ControlType.md#ControlType.ConstantSizeWrap) |
-| [`CustomNamesWrap`](../../../../../../v242/Ansys/Mechanical/DataModel/MechanicalEnums/MeshWorkflow/ControlType.md#ControlType.CustomNamesWrap) |
-| [`MeshExport`](../../../../../../v242/Ansys/Mechanical/DataModel/MechanicalEnums/MeshWorkflow/ControlType.md#ControlType.MeshExport) |
+| --------------------------------------------------------------------------------------------------- |
+| [`Checkpoint`](#ControlType.Checkpoint) |
+| [`ConstantSizeSurfaceMesh`](#ControlType.ConstantSizeSurfaceMesh) |
+| [`ConstantSizeVolumeMesh`](#ControlType.ConstantSizeVolumeMesh) |
+| [`ConstantSizeWrap`](#ControlType.ConstantSizeWrap) |
+| [`CustomNamesEnclosure`](#ControlType.CustomNamesEnclosure) |
+| [`CustomNamesExtrusion`](#ControlType.CustomNamesExtrusion) |
+| [`CustomNamesWrap`](#ControlType.CustomNamesWrap) |
+| [`Extrusion`](#ControlType.Extrusion) |
+| [`HoleFilling`](#ControlType.HoleFilling) |
+| [`ImproveSurfaceMeshSecondOrderConversion`](#ControlType.ImproveSurfaceMeshSecondOrderConversion) |
+| [`ImproveVolumeMeshAutoNodeMove`](#ControlType.ImproveVolumeMeshAutoNodeMove) |
+| [`ImproveVolumeMeshSecondOrderConversion`](#ControlType.ImproveVolumeMeshSecondOrderConversion) |
+| [`IrregularShapeConvexEnclosure`](#ControlType.IrregularShapeConvexEnclosure) |
+| [`MaterialPoint`](#ControlType.MaterialPoint) |
+| [`MeshExport`](#ControlType.MeshExport) |
+| [`MeshImport`](#ControlType.MeshImport) |
+| [`PartEnclosure`](#ControlType.PartEnclosure) |
+| [`SphericalEnclosure`](#ControlType.SphericalEnclosure) |
+| [`TopologyCreation`](#ControlType.TopologyCreation) |
+| [`VolumesMerging`](#ControlType.VolumesMerging) |
+| [`WrapSpecificSurfaceMesh`](#ControlType.WrapSpecificSurfaceMesh) |
+| [`ZoneMaterialAssignment`](#ControlType.ZoneMaterialAssignment) |
 
 <a id="attribute-detail"></a>
 
 ## Attribute detail
 
-<a id="ControlType.ZoneMaterialAssignment"></a>
-
-### ControlType.ZoneMaterialAssignment *= 13*
-
 <a id="ControlType.Checkpoint"></a>
 
 ### ControlType.Checkpoint *= 3*
 
-<a id="ControlType.PartEnclosure"></a>
+<a id="ControlType.ConstantSizeSurfaceMesh"></a>
 
-### ControlType.PartEnclosure *= 7*
+### ControlType.ConstantSizeSurfaceMesh *= 41*
 
-<a id="ControlType.IrregularShapeConvexEnclosure"></a>
+<a id="ControlType.ConstantSizeVolumeMesh"></a>
 
-### ControlType.IrregularShapeConvexEnclosure *= 11*
+### ControlType.ConstantSizeVolumeMesh *= 47*
 
-<a id="ControlType.SphericalEnclosure"></a>
+<a id="ControlType.ConstantSizeWrap"></a>
 
-### ControlType.SphericalEnclosure *= 8*
+### ControlType.ConstantSizeWrap *= 51*
 
 <a id="ControlType.CustomNamesEnclosure"></a>
 
 ### ControlType.CustomNamesEnclosure *= 12*
 
-<a id="ControlType.TopologyCreation"></a>
+<a id="ControlType.CustomNamesExtrusion"></a>
 
-### ControlType.TopologyCreation *= 16*
+### ControlType.CustomNamesExtrusion *= 22*
+
+<a id="ControlType.CustomNamesWrap"></a>
+
+### ControlType.CustomNamesWrap *= 53*
 
 <a id="ControlType.Extrusion"></a>
 
 ### ControlType.Extrusion *= 21*
-
-<a id="ControlType.CustomNamesExtrusion"></a>
-
-### ControlType.CustomNamesExtrusion *= 22*
 
 <a id="ControlType.HoleFilling"></a>
 
@@ -97,40 +93,44 @@ To select the mesh workflow control type.
 
 ### ControlType.ImproveVolumeMeshSecondOrderConversion *= 50*
 
+<a id="ControlType.IrregularShapeConvexEnclosure"></a>
+
+### ControlType.IrregularShapeConvexEnclosure *= 11*
+
 <a id="ControlType.MaterialPoint"></a>
 
 ### ControlType.MaterialPoint *= 55*
 
-<a id="ControlType.VolumesMerging"></a>
+<a id="ControlType.MeshExport"></a>
 
-### ControlType.VolumesMerging *= 24*
+### ControlType.MeshExport *= 5*
 
 <a id="ControlType.MeshImport"></a>
 
 ### ControlType.MeshImport *= 4*
 
-<a id="ControlType.ConstantSizeSurfaceMesh"></a>
+<a id="ControlType.PartEnclosure"></a>
 
-### ControlType.ConstantSizeSurfaceMesh *= 41*
+### ControlType.PartEnclosure *= 7*
+
+<a id="ControlType.SphericalEnclosure"></a>
+
+### ControlType.SphericalEnclosure *= 8*
+
+<a id="ControlType.TopologyCreation"></a>
+
+### ControlType.TopologyCreation *= 16*
+
+<a id="ControlType.VolumesMerging"></a>
+
+### ControlType.VolumesMerging *= 24*
 
 <a id="ControlType.WrapSpecificSurfaceMesh"></a>
 
 ### ControlType.WrapSpecificSurfaceMesh *= 43*
 
-<a id="ControlType.ConstantSizeVolumeMesh"></a>
+<a id="ControlType.ZoneMaterialAssignment"></a>
 
-### ControlType.ConstantSizeVolumeMesh *= 47*
-
-<a id="ControlType.ConstantSizeWrap"></a>
-
-### ControlType.ConstantSizeWrap *= 51*
-
-<a id="ControlType.CustomNamesWrap"></a>
-
-### ControlType.CustomNamesWrap *= 53*
-
-<a id="ControlType.MeshExport"></a>
-
-### ControlType.MeshExport *= 5*
+### ControlType.ZoneMaterialAssignment *= 13*
 
 

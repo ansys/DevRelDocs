@@ -1,6 +1,6 @@
 # `ModelDisplay`
 
-
+<a id="ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.ModelDisplay"></a>
 
 #### *class* ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.ModelDisplay
 
@@ -17,10 +17,10 @@ Specifies the Model display options.
 ### Attributes
 
 | Name |
-| ------------------------------------------------------------------ |
+| -------------------------------------------------------------------------------------------------------------------------------------- |
 | [`ShadedExterior`](#ModelDisplay.ShadedExterior) |
-| [`Wireframe`](#ModelDisplay.Wireframe) |
 | [`ShadedExteriorAndEdges`](#ModelDisplay.ShadedExteriorAndEdges) |
+| [`Wireframe`](#ModelDisplay.Wireframe) |
 
 <a id="attribute-detail"></a>
 
@@ -30,12 +30,12 @@ Specifies the Model display options.
 
 ### ModelDisplay.ShadedExterior *= 1*
 
-<a id="ModelDisplay.Wireframe"></a>
-
-### ModelDisplay.Wireframe *= 2*
-
 <a id="ModelDisplay.ShadedExteriorAndEdges"></a>
 
 ### ModelDisplay.ShadedExteriorAndEdges *= 3*
+
+<a id="ModelDisplay.Wireframe"></a>
+
+### ModelDisplay.Wireframe *= 2*
 
 

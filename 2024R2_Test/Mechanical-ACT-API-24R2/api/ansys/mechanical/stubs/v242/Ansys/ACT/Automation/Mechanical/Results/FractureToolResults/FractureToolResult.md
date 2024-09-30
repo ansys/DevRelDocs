@@ -1,6 +1,6 @@
 # `FractureToolResult`
 
-
+<a id="ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Results.FractureToolResults.FractureToolResult"></a>
 
 #### *class* ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Results.FractureToolResults.FractureToolResult
 
@@ -17,138 +17,104 @@ Defines a FractureToolResult.
 ### Methods
 
 | Name | Description |
-|--------------------------------------------------------------------------|-----------------------------------------------------------------------------------|
-| [`ClearGeneratedData`](#FractureToolResult.ClearGeneratedData)           | Run the ClearGeneratedData action.                                                |
-| [`EvaluateAllResults`](#FractureToolResult.EvaluateAllResults)           | Run the EvaluateAllResults action.                                                |
-| [`FetchRemoteResults`](#FractureToolResult.FetchRemoteResults)           | Run the FetchRemoteResult action.                                                 |
-| [`ExportToTextFile`](#FractureToolResult.ExportToTextFile)               | Run the ExportToTextFile action.                                                  |
-| [`ExportAnimation`](#FractureToolResult.ExportAnimation)                 | Run the ExportAnimation action.                                                   |
-| [`DuplicateWithoutResults`](#FractureToolResult.DuplicateWithoutResults) | Run the DuplicateWithoutResults action.                                           |
-| [`CreateResultsAtAllSets`](#FractureToolResult.CreateResultsAtAllSets)   | Creates results at all sets for results under a solution.                         |
-| [`PromoteToNamedSelection`](#FractureToolResult.PromoteToNamedSelection) | Run the PromoteToNamedSelection action.                                           |
-| [`CreateParameter`](#FractureToolResult.CreateParameter)                 | CreateParameter method.                                                           |
+|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------|
+| [`Activate`](#FractureToolResult.Activate)                               | Activate the current object.                                                      |
 | [`AddAlert`](#FractureToolResult.AddAlert)                               | Creates a new Alert                                                               |
-| [`AddConvergence`](#FractureToolResult.AddConvergence)                   | Creates a new Convergence                                                         |
-| [`RenameBasedOnDefinition`](#FractureToolResult.RenameBasedOnDefinition) | Run the RenameBasedOnDefinition action.                                           |
-| [`Delete`](#FractureToolResult.Delete)                                   | Run the Delete action.                                                            |
-| [`GetChildren`](#id1)                                                    | Gets the list of children, filtered by type.                                      |
-| [`GetChildren`](#id1)                                                    | Gets the list of children, filtered by type.                                      |
 | [`AddComment`](#FractureToolResult.AddComment)                           | Creates a new child Comment.                                                      |
+| [`AddConvergence`](#FractureToolResult.AddConvergence)                   | Creates a new Convergence                                                         |
 | [`AddFigure`](#FractureToolResult.AddFigure)                             | Creates a new child Figure.                                                       |
 | [`AddImage`](#FractureToolResult.AddImage)                               | Creates a new child Image.                                                        |
-| [`Activate`](#FractureToolResult.Activate)                               | Activate the current object.                                                      |
+| [`ClearGeneratedData`](#FractureToolResult.ClearGeneratedData)           | Run the ClearGeneratedData action.                                                |
 | [`CopyTo`](#FractureToolResult.CopyTo)                                   | Copies all visible properties from this object to another.                        |
+| [`CreateParameter`](#FractureToolResult.CreateParameter)                 | CreateParameter method.                                                           |
+| [`CreateResultsAtAllSets`](#FractureToolResult.CreateResultsAtAllSets)   | Creates results at all sets for results under a solution.                         |
+| [`Delete`](#FractureToolResult.Delete)                                   | Run the Delete action.                                                            |
 | [`Duplicate`](#FractureToolResult.Duplicate)                             | Creates a copy of the current DataModelObject.                                    |
+| [`DuplicateWithoutResults`](#FractureToolResult.DuplicateWithoutResults) | Run the DuplicateWithoutResults action.                                           |
+| [`EvaluateAllResults`](#FractureToolResult.EvaluateAllResults)           | Run the EvaluateAllResults action.                                                |
+| [`ExportAnimation`](#FractureToolResult.ExportAnimation)                 | Run the ExportAnimation action.                                                   |
+| [`ExportToTextFile`](#FractureToolResult.ExportToTextFile)               | Run the ExportToTextFile action.                                                  |
+| [`FetchRemoteResults`](#FractureToolResult.FetchRemoteResults)           | Run the FetchRemoteResult action.                                                 |
+| [`GetChildren`](#FractureToolResult.GetChildren)                         | Gets the list of children, filtered by type.                                      |
+| [`GetParameter`](#FractureToolResult.GetParameter)                       | Gets the parameter corresponding to the given property.                           |
 | [`GroupAllSimilarChildren`](#FractureToolResult.GroupAllSimilarChildren) | Run the GroupAllSimilarChildren action.                                           |
 | [`GroupSimilarObjects`](#FractureToolResult.GroupSimilarObjects)         | Run the GroupSimilarObjects action.                                               |
-| [`PropertyByName`](#FractureToolResult.PropertyByName)                   | Get a property by its unique name.                                                |
+| [`PromoteToNamedSelection`](#FractureToolResult.PromoteToNamedSelection) | Run the PromoteToNamedSelection action.                                           |
 | [`PropertyByAPIName`](#FractureToolResult.PropertyByAPIName)             | Get a property by its API name.                                                   |
-| [`GetParameter`](#FractureToolResult.GetParameter)                       | Gets the parameter corresponding to the given property.                           |
+| [`PropertyByName`](#FractureToolResult.PropertyByName)                   | Get a property by its unique name.                                                |
 | [`RemoveParameter`](#FractureToolResult.RemoveParameter)                 | Removes the parameter from the parameter set corresponding to the given property. |
+| [`RenameBasedOnDefinition`](#FractureToolResult.RenameBasedOnDefinition) | Run the RenameBasedOnDefinition action.                                           |
 
 ### Properties
 
 | Name | Description |
-|----------------------------------------------------------------------------------------------|------------------------------------------------------------------------|
-| [`Mode`](#FractureToolResult.Mode)                                                           | Gets or sets the Mode.                                                 |
-| [`FractureResultType`](#FractureToolResult.FractureResultType)                               | Gets or sets the FractureResultType.                                   |
-| [`FractureResultSubType`](#FractureToolResult.FractureResultSubType)                         | Gets or sets the FractureResultSubType.                                |
-| [`InternalObject`](#id0)                                                                     | Gets the internal object. For advanced usage only.                     |
+|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------|
 | [`ActiveContour`](#FractureToolResult.ActiveContour)                                         | Gets or sets the ActiveContour.                                        |
 | [`ActiveContourEnd`](#FractureToolResult.ActiveContourEnd)                                   | Gets or sets the ActiveContourEnd.                                     |
 | [`ActiveContourStart`](#FractureToolResult.ActiveContourStart)                               | Gets or sets the ActiveContourStart.                                   |
-| [`SolverID`](#FractureToolResult.SolverID)                                                   | Gets or sets the SolverID.                                             |
-| [`DataModelObjectCategory`](#FractureToolResult.DataModelObjectCategory)                     | Gets the current DataModelObject's category.                           |
-| [`PlotData`](#FractureToolResult.PlotData)                                                   | Gets the result table.                                                 |
-| [`Location`](#FractureToolResult.Location)                                                   | Gets or sets the Location.                                             |
-| [`TimeForMinimumOfMinimumValues`](#FractureToolResult.TimeForMinimumOfMinimumValues)         | Get the Time for the minimum of minimum values.                        |
-| [`TimeForMinimumOfMaximumValues`](#FractureToolResult.TimeForMinimumOfMaximumValues)         | Get the Time for the minimum of maximum values.                        |
-| [`LoadStepForMinimumOfMinimumValues`](#FractureToolResult.LoadStepForMinimumOfMinimumValues) | Get the Load Step for the minimum of minimum values.                   |
-| [`LoadStepForMinimumOfMaximumValues`](#FractureToolResult.LoadStepForMinimumOfMaximumValues) | Get the Load Step for the minimum of maximum values.                   |
-| [`TimeForMaximumOfMinimumValues`](#FractureToolResult.TimeForMaximumOfMinimumValues)         | Get the Time for the maximum of minimum values.                        |
-| [`TimeForMaximumOfMaximumValues`](#FractureToolResult.TimeForMaximumOfMaximumValues)         | Get the Time for the maximum of maximum values.                        |
-| [`LoadStepForMaximumOfMinimumValues`](#FractureToolResult.LoadStepForMaximumOfMinimumValues) | Get the Load Step for the maximum of minimum values.                   |
-| [`LoadStepForMaximumOfMaximumValues`](#FractureToolResult.LoadStepForMaximumOfMaximumValues) | Get the Load Step for the maximum of maximum values.                   |
-| [`IsSolved`](#FractureToolResult.IsSolved)                                                   | Gets the IsSolved.                                                     |
-| [`CoordinateSystem`](#FractureToolResult.CoordinateSystem)                                   | Gets or sets the Coordinate System.                                    |
-| [`ScopingMethod`](#FractureToolResult.ScopingMethod)                                         | Gets or sets the ScopingMethod.                                        |
-| [`SetNumber`](#FractureToolResult.SetNumber)                                                 | Gets or sets the Set Number.                                           |
+| [`Average`](#FractureToolResult.Average)                                                     | Gets the Average.                                                      |
+| [`By`](#FractureToolResult.By)                                                               | Gets or sets the By.                                                   |
+| [`CalculateTimeHistory`](#FractureToolResult.CalculateTimeHistory)                           | Gets or sets the CalculateTimeHistory.                                 |
+| [`Children`](#FractureToolResult.Children)                                                   | Gets the list of children.                                             |
 | [`CombinationNumber`](#FractureToolResult.CombinationNumber)                                 | Gets or sets the Combination Number for a Solution Combination result. |
-| [`SolutionCombinationDriver`](#FractureToolResult.SolutionCombinationDriver)                 | Gets or sets the SolutionCombinationDriver.                            |
-| [`Path`](#FractureToolResult.Path)                                                           | Path property.                                                         |
-| [`Surface`](#FractureToolResult.Surface)                                                     | Surface property.                                                      |
-| [`SurfaceCoating`](#FractureToolResult.SurfaceCoating)                                       | SurfaceCoating property.                                               |
-| [`NamedSelections`](#FractureToolResult.NamedSelections)                                     | Gets or sets the NamedSelections.                                      |
-| [`WaterfallShowTextOnMosaic`](#FractureToolResult.WaterfallShowTextOnMosaic)                 | Gets or sets the Waterfall Mosaic Text Property.                       |
+| [`Comments`](#FractureToolResult.Comments)                                                   | Gets the list of associated comments.                                  |
+| [`CoordinateSystem`](#FractureToolResult.CoordinateSystem)                                   | Gets or sets the Coordinate System.                                    |
 | [`CrackFrontNumber`](#FractureToolResult.CrackFrontNumber)                                   | Gets or sets the CrackFrontNumber.                                     |
+| [`DataModelObjectCategory`](#FractureToolResult.DataModelObjectCategory)                     | Gets the current DataModelObject’s category.                           |
+| [`DisplayOption`](#FractureToolResult.DisplayOption)                                         | Gets or sets the DisplayOption.                                        |
+| [`DisplayTime`](#FractureToolResult.DisplayTime)                                             | Gets or sets the DisplayTime.                                          |
+| [`DpfEvaluation`](#FractureToolResult.DpfEvaluation)                                         | Gets or sets the DpfEvaluation.                                        |
+| [`Figures`](#FractureToolResult.Figures)                                                     | Gets the list of associated figures.                                   |
+| [`FractureResultSubType`](#FractureToolResult.FractureResultSubType)                         | Gets or sets the FractureResultSubType.                                |
+| [`FractureResultType`](#FractureToolResult.FractureResultType)                               | Gets or sets the FractureResultType.                                   |
 | [`GlobalIDs`](#FractureToolResult.GlobalIDs)                                                 | Gets or sets the GlobalIDs.                                            |
+| [`GraphControlsXAxis`](#FractureToolResult.GraphControlsXAxis)                               | Gets or sets the GraphControlsXAxis.                                   |
 | [`Identifier`](#FractureToolResult.Identifier)                                               | Gets or sets the Identifier.                                           |
+| [`Images`](#FractureToolResult.Images)                                                       | Gets the list of associated images.                                    |
+| [`InternalObject`](#FractureToolResult.InternalObject)                                       | Gets the internal object. For advanced usage only.                     |
+| [`IsSolved`](#FractureToolResult.IsSolved)                                                   | Gets the IsSolved.                                                     |
+| [`ItemType`](#FractureToolResult.ItemType)                                                   | Gets or sets the ItemType.                                             |
 | [`IterationNumber`](#FractureToolResult.IterationNumber)                                     | Gets the IterationNumber.                                              |
 | [`LoadStep`](#FractureToolResult.LoadStep)                                                   | Gets the LoadStep.                                                     |
-| [`MaximumOccursOn`](#FractureToolResult.MaximumOccursOn)                                     | Gets the MaximumOccursOn.                                              |
-| [`MinimumOccursOn`](#FractureToolResult.MinimumOccursOn)                                     | Gets the MinimumOccursOn.                                              |
+| [`LoadStepForMaximumOfMaximumValues`](#FractureToolResult.LoadStepForMaximumOfMaximumValues) | Get the Load Step for the maximum of maximum values.                   |
+| [`LoadStepForMaximumOfMinimumValues`](#FractureToolResult.LoadStepForMaximumOfMinimumValues) | Get the Load Step for the maximum of minimum values.                   |
+| [`LoadStepForMinimumOfMaximumValues`](#FractureToolResult.LoadStepForMinimumOfMaximumValues) | Get the Load Step for the minimum of maximum values.                   |
+| [`LoadStepForMinimumOfMinimumValues`](#FractureToolResult.LoadStepForMinimumOfMinimumValues) | Get the Load Step for the minimum of minimum values.                   |
 | [`LoadStepNumber`](#FractureToolResult.LoadStepNumber)                                       | Gets or sets the LoadStepNumber.                                       |
-| [`SolverComponentIDs`](#FractureToolResult.SolverComponentIDs)                               | Gets or sets the SolverComponentIDs.                                   |
-| [`Substep`](#FractureToolResult.Substep)                                                     | Gets the Substep.                                                      |
-| [`Average`](#FractureToolResult.Average)                                                     | Gets the Average.                                                      |
+| [`Location`](#FractureToolResult.Location)                                                   | Gets or sets the Location.                                             |
 | [`Maximum`](#FractureToolResult.Maximum)                                                     | Gets the Maximum.                                                      |
+| [`MaximumOccursOn`](#FractureToolResult.MaximumOccursOn)                                     | Gets the MaximumOccursOn.                                              |
 | [`MaximumOfMaximumOverTime`](#FractureToolResult.MaximumOfMaximumOverTime)                   | Gets the MaximumOfMaximumOverTime.                                     |
 | [`MaximumOfMinimumOverTime`](#FractureToolResult.MaximumOfMinimumOverTime)                   | Gets the MaximumOfMinimumOverTime.                                     |
 | [`Minimum`](#FractureToolResult.Minimum)                                                     | Gets the Minimum.                                                      |
+| [`MinimumOccursOn`](#FractureToolResult.MinimumOccursOn)                                     | Gets the MinimumOccursOn.                                              |
 | [`MinimumOfMaximumOverTime`](#FractureToolResult.MinimumOfMaximumOverTime)                   | Gets the MinimumOfMaximumOverTime.                                     |
 | [`MinimumOfMinimumOverTime`](#FractureToolResult.MinimumOfMinimumOverTime)                   | Gets the MinimumOfMinimumOverTime.                                     |
-| [`Time`](#FractureToolResult.Time)                                                           | Gets the Time.                                                         |
-| [`DisplayTime`](#FractureToolResult.DisplayTime)                                             | Gets or sets the DisplayTime.                                          |
-| [`GraphControlsXAxis`](#FractureToolResult.GraphControlsXAxis)                               | Gets or sets the GraphControlsXAxis.                                   |
-| [`DisplayOption`](#FractureToolResult.DisplayOption)                                         | Gets or sets the DisplayOption.                                        |
-| [`DpfEvaluation`](#FractureToolResult.DpfEvaluation)                                         | Gets or sets the DpfEvaluation.                                        |
-| [`By`](#FractureToolResult.By)                                                               | Gets or sets the By.                                                   |
-| [`ItemType`](#FractureToolResult.ItemType)                                                   | Gets or sets the ItemType.                                             |
-| [`CalculateTimeHistory`](#FractureToolResult.CalculateTimeHistory)                           | Gets or sets the CalculateTimeHistory.                                 |
-| [`Suppressed`](#FractureToolResult.Suppressed)                                               | Gets or sets the Suppressed.                                           |
-| [`Children`](#FractureToolResult.Children)                                                   | Gets the list of children.                                             |
-| [`Comments`](#FractureToolResult.Comments)                                                   | Gets the list of associated comments.                                  |
-| [`Figures`](#FractureToolResult.Figures)                                                     | Gets the list of associated figures.                                   |
-| [`Images`](#FractureToolResult.Images)                                                       | Gets the list of associated images.                                    |
-| [`InternalObject`](#id0)                                                                     | Gets the internal object. For advanced usage only.                     |
+| [`Mode`](#FractureToolResult.Mode)                                                           | Gets or sets the Mode.                                                 |
+| [`NamedSelections`](#FractureToolResult.NamedSelections)                                     | Gets or sets the NamedSelections.                                      |
+| [`Path`](#FractureToolResult.Path)                                                           | Path property.                                                         |
+| [`PlotData`](#FractureToolResult.PlotData)                                                   | Gets the result table.                                                 |
 | [`Properties`](#FractureToolResult.Properties)                                               | Gets the list of properties for this object.                           |
+| [`ScopingMethod`](#FractureToolResult.ScopingMethod)                                         | Gets or sets the ScopingMethod.                                        |
+| [`SetNumber`](#FractureToolResult.SetNumber)                                                 | Gets or sets the Set Number.                                           |
+| [`SolutionCombinationDriver`](#FractureToolResult.SolutionCombinationDriver)                 | Gets or sets the SolutionCombinationDriver.                            |
+| [`SolverComponentIDs`](#FractureToolResult.SolverComponentIDs)                               | Gets or sets the SolverComponentIDs.                                   |
+| [`SolverID`](#FractureToolResult.SolverID)                                                   | Gets or sets the SolverID.                                             |
+| [`Substep`](#FractureToolResult.Substep)                                                     | Gets the Substep.                                                      |
+| [`Suppressed`](#FractureToolResult.Suppressed)                                               | Gets or sets the Suppressed.                                           |
+| [`Surface`](#FractureToolResult.Surface)                                                     | Surface property.                                                      |
+| [`SurfaceCoating`](#FractureToolResult.SurfaceCoating)                                                                                                                                                  | SurfaceCoating property.                                               |
+| [`Time`](#FractureToolResult.Time)                                                           | Gets the Time.                                                         |
+| [`TimeForMaximumOfMaximumValues`](#FractureToolResult.TimeForMaximumOfMaximumValues)         | Get the Time for the maximum of maximum values.                        |
+| [`TimeForMaximumOfMinimumValues`](#FractureToolResult.TimeForMaximumOfMinimumValues)         | Get the Time for the maximum of minimum values.                        |
+| [`TimeForMinimumOfMaximumValues`](#FractureToolResult.TimeForMinimumOfMaximumValues)         | Get the Time for the minimum of maximum values.                        |
+| [`TimeForMinimumOfMinimumValues`](#FractureToolResult.TimeForMinimumOfMinimumValues)         | Get the Time for the minimum of minimum values.                        |
 | [`VisibleProperties`](#FractureToolResult.VisibleProperties)                                 | Gets the list of properties that are visible for this object.          |
+| [`WaterfallShowTextOnMosaic`](#FractureToolResult.WaterfallShowTextOnMosaic)                                                                                                                            | Gets or sets the Waterfall Mosaic Text Property.                       |
 
 <a id="property-detail"></a>
 
 ## Property detail
-
-<a id="FractureToolResult.Mode"></a>
-
-### *property* FractureToolResult.Mode *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the Mode.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="FractureToolResult.FractureResultType"></a>
-
-### *property* FractureToolResult.FractureResultType *: Ansys.Mechanical.DataModel.Enums.FractureResultType | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the FractureResultType.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="FractureToolResult.FractureResultSubType"></a>
-
-### *property* FractureToolResult.FractureResultSubType *: Ansys.Mechanical.DataModel.Enums.FractureResultSubType | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the FractureResultSubType.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="FractureToolResult.InternalObject"></a>
-
-### *property* FractureToolResult.InternalObject *: Ansys.Common.Interop.DSObjectsAuto.IDSResultAuto | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets the internal object. For advanced usage only.
-
-<!-- !! processed by numpydoc !! -->
 
 <a id="FractureToolResult.ActiveContour"></a>
 
@@ -174,107 +140,51 @@ Gets or sets the ActiveContourStart.
 
 <!-- !! processed by numpydoc !! -->
 
-<a id="FractureToolResult.SolverID"></a>
+<a id="FractureToolResult.Average"></a>
 
-### *property* FractureToolResult.SolverID *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* FractureToolResult.Average *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets or sets the SolverID.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="FractureToolResult.DataModelObjectCategory"></a>
-
-### *property* FractureToolResult.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../../../v241/Ansys/Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets the current DataModelObject's category.
+Gets the Average.
 
 <!-- !! processed by numpydoc !! -->
 
-<a id="FractureToolResult.PlotData"></a>
+<a id="FractureToolResult.By"></a>
 
-### *property* FractureToolResult.PlotData *: [Ansys.Mechanical.DataModel.Results.ResultDataTable](../../../../../../../v241/Ansys/Mechanical/DataModel/Results/ResultDataTable.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Results.ResultDataTable) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* FractureToolResult.By *: [Ansys.Mechanical.DataModel.Enums.SetDriverStyle](../../../../../Mechanical/DataModel/Enums/SetDriverStyle.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.SetDriverStyle) | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets the result table.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="FractureToolResult.Location"></a>
-
-### *property* FractureToolResult.Location *: Ansys.ACT.Interfaces.Common.ISelectionInfo | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the Location.
+Gets or sets the By.
 
 <!-- !! processed by numpydoc !! -->
 
-<a id="FractureToolResult.TimeForMinimumOfMinimumValues"></a>
+<a id="FractureToolResult.CalculateTimeHistory"></a>
 
-### *property* FractureToolResult.TimeForMinimumOfMinimumValues *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* FractureToolResult.CalculateTimeHistory *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Get the Time for the minimum of minimum values.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="FractureToolResult.TimeForMinimumOfMaximumValues"></a>
-
-### *property* FractureToolResult.TimeForMinimumOfMaximumValues *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Get the Time for the minimum of maximum values.
+Gets or sets the CalculateTimeHistory.
 
 <!-- !! processed by numpydoc !! -->
 
-<a id="FractureToolResult.LoadStepForMinimumOfMinimumValues"></a>
+<a id="FractureToolResult.Children"></a>
 
-### *property* FractureToolResult.LoadStepForMinimumOfMinimumValues *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* FractureToolResult.Children *: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Get the Load Step for the minimum of minimum values.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="FractureToolResult.LoadStepForMinimumOfMaximumValues"></a>
-
-### *property* FractureToolResult.LoadStepForMinimumOfMaximumValues *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Get the Load Step for the minimum of maximum values.
+Gets the list of children.
 
 <!-- !! processed by numpydoc !! -->
 
-<a id="FractureToolResult.TimeForMaximumOfMinimumValues"></a>
+<a id="FractureToolResult.CombinationNumber"></a>
 
-### *property* FractureToolResult.TimeForMaximumOfMinimumValues *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* FractureToolResult.CombinationNumber *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Get the Time for the maximum of minimum values.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="FractureToolResult.TimeForMaximumOfMaximumValues"></a>
-
-### *property* FractureToolResult.TimeForMaximumOfMaximumValues *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Get the Time for the maximum of maximum values.
+Gets or sets the Combination Number for a Solution Combination result.
 
 <!-- !! processed by numpydoc !! -->
 
-<a id="FractureToolResult.LoadStepForMaximumOfMinimumValues"></a>
+<a id="FractureToolResult.Comments"></a>
 
-### *property* FractureToolResult.LoadStepForMaximumOfMinimumValues *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* FractureToolResult.Comments *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Comment](../../../../../../../v241/Ansys/ACT/Automation/Mechanical/Comment.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Get the Load Step for the maximum of minimum values.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="FractureToolResult.LoadStepForMaximumOfMaximumValues"></a>
-
-### *property* FractureToolResult.LoadStepForMaximumOfMaximumValues *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Get the Load Step for the maximum of maximum values.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="FractureToolResult.IsSolved"></a>
-
-### *property* FractureToolResult.IsSolved *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets the IsSolved.
+Gets the list of associated comments.
 
 <!-- !! processed by numpydoc !! -->
 
@@ -288,83 +198,67 @@ Accepts/Returns None for Fiber Coordinate System for a result that is sub scoped
 
 <!-- !! processed by numpydoc !! -->
 
-<a id="FractureToolResult.ScopingMethod"></a>
-
-### *property* FractureToolResult.ScopingMethod *: [Ansys.Mechanical.DataModel.Enums.GeometryDefineByType](../../../../../../../v241/Ansys/Mechanical/DataModel/Enums/GeometryDefineByType.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.GeometryDefineByType) | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the ScopingMethod.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="FractureToolResult.SetNumber"></a>
-
-### *property* FractureToolResult.SetNumber *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the Set Number.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="FractureToolResult.CombinationNumber"></a>
-
-### *property* FractureToolResult.CombinationNumber *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the Combination Number for a Solution Combination result.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="FractureToolResult.SolutionCombinationDriver"></a>
-
-### *property* FractureToolResult.SolutionCombinationDriver *: [Ansys.Mechanical.DataModel.Enums.SolutionCombinationDriverStyle](../../../../../../../v241/Ansys/Mechanical/DataModel/Enums/SolutionCombinationDriverStyle.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.SolutionCombinationDriverStyle) | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the SolutionCombinationDriver.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="FractureToolResult.Path"></a>
-
-### *property* FractureToolResult.Path *: [Ansys.ACT.Automation.Mechanical.Path](../../../../../../../v241/Ansys/ACT/Automation/Mechanical/Path.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Path) | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Path property.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="FractureToolResult.Surface"></a>
-
-### *property* FractureToolResult.Surface *: [Ansys.ACT.Automation.Mechanical.Surface](../../../../../../../v241/Ansys/ACT/Automation/Mechanical/Surface.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Surface) | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Surface property.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="FractureToolResult.SurfaceCoating"></a>
-
-### *property* FractureToolResult.SurfaceCoating *: [Ansys.ACT.Automation.Mechanical.SurfaceCoating](../../../../../../../v241/Ansys/ACT/Automation/Mechanical/SurfaceCoating.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.SurfaceCoating) | [None](https://docs.python.org/3/library/constants.html#None)*
-
-SurfaceCoating property.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="FractureToolResult.NamedSelections"></a>
-
-### *property* FractureToolResult.NamedSelections *: System.Collections.Generic.IEnumerable[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the NamedSelections.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="FractureToolResult.WaterfallShowTextOnMosaic"></a>
-
-### *property* FractureToolResult.WaterfallShowTextOnMosaic *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the Waterfall Mosaic Text Property.
-
-<!-- !! processed by numpydoc !! -->
-
 <a id="FractureToolResult.CrackFrontNumber"></a>
 
 ### *property* FractureToolResult.CrackFrontNumber *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the CrackFrontNumber.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="FractureToolResult.DataModelObjectCategory"></a>
+
+### *property* FractureToolResult.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets the current DataModelObject’s category.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="FractureToolResult.DisplayOption"></a>
+
+### *property* FractureToolResult.DisplayOption *: [Ansys.Mechanical.DataModel.Enums.ResultAveragingType](../../../../../Mechanical/DataModel/Enums/ResultAveragingType.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.ResultAveragingType) | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the DisplayOption.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="FractureToolResult.DisplayTime"></a>
+
+### *property* FractureToolResult.DisplayTime *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the DisplayTime.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="FractureToolResult.DpfEvaluation"></a>
+
+### *property* FractureToolResult.DpfEvaluation *: [Ansys.Mechanical.DataModel.Enums.DpfEvaluationType](../../../../../Mechanical/DataModel/Enums/DpfEvaluationType.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.DpfEvaluationType) | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the DpfEvaluation.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="FractureToolResult.Figures"></a>
+
+### *property* FractureToolResult.Figures *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Figure](../../../../../../../v241/Ansys/ACT/Automation/Mechanical/Figure.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets the list of associated figures.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="FractureToolResult.FractureResultSubType"></a>
+
+### *property* FractureToolResult.FractureResultSubType *: Ansys.Mechanical.DataModel.Enums.FractureResultSubType | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the FractureResultSubType.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="FractureToolResult.FractureResultType"></a>
+
+### *property* FractureToolResult.FractureResultType *: Ansys.Mechanical.DataModel.Enums.FractureResultType | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the FractureResultType.
 
 <!-- !! processed by numpydoc !! -->
 
@@ -376,11 +270,51 @@ Gets or sets the GlobalIDs.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="FractureToolResult.GraphControlsXAxis"></a>
+
+### *property* FractureToolResult.GraphControlsXAxis *: [Ansys.Mechanical.DataModel.Enums.GraphControlsXAxis](../../../../../Mechanical/DataModel/Enums/GraphControlsXAxis.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.GraphControlsXAxis) | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the GraphControlsXAxis.
+
+<!-- !! processed by numpydoc !! -->
+
 <a id="FractureToolResult.Identifier"></a>
 
 ### *property* FractureToolResult.Identifier *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Identifier.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="FractureToolResult.Images"></a>
+
+### *property* FractureToolResult.Images *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Image](../../../../../../../v241/Ansys/ACT/Automation/Mechanical/Image.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets the list of associated images.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="FractureToolResult.InternalObject"></a>
+
+### *property* FractureToolResult.InternalObject *: Ansys.Common.Interop.DSObjectsAuto.IDSResultAuto | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets the internal object. For advanced usage only.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="FractureToolResult.IsSolved"></a>
+
+### *property* FractureToolResult.IsSolved *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets the IsSolved.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="FractureToolResult.ItemType"></a>
+
+### *property* FractureToolResult.ItemType *: [Ansys.Mechanical.DataModel.Enums.ResultFileItemType](../../../../../Mechanical/DataModel/Enums/ResultFileItemType.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.ResultFileItemType) | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the ItemType.
 
 <!-- !! processed by numpydoc !! -->
 
@@ -400,19 +334,35 @@ Gets the LoadStep.
 
 <!-- !! processed by numpydoc !! -->
 
-<a id="FractureToolResult.MaximumOccursOn"></a>
+<a id="FractureToolResult.LoadStepForMaximumOfMaximumValues"></a>
 
-### *property* FractureToolResult.MaximumOccursOn *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* FractureToolResult.LoadStepForMaximumOfMaximumValues *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets the MaximumOccursOn.
+Get the Load Step for the maximum of maximum values.
 
 <!-- !! processed by numpydoc !! -->
 
-<a id="FractureToolResult.MinimumOccursOn"></a>
+<a id="FractureToolResult.LoadStepForMaximumOfMinimumValues"></a>
 
-### *property* FractureToolResult.MinimumOccursOn *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* FractureToolResult.LoadStepForMaximumOfMinimumValues *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets the MinimumOccursOn.
+Get the Load Step for the maximum of minimum values.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="FractureToolResult.LoadStepForMinimumOfMaximumValues"></a>
+
+### *property* FractureToolResult.LoadStepForMinimumOfMaximumValues *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Get the Load Step for the minimum of maximum values.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="FractureToolResult.LoadStepForMinimumOfMinimumValues"></a>
+
+### *property* FractureToolResult.LoadStepForMinimumOfMinimumValues *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Get the Load Step for the minimum of minimum values.
 
 <!-- !! processed by numpydoc !! -->
 
@@ -424,27 +374,11 @@ Gets or sets the LoadStepNumber.
 
 <!-- !! processed by numpydoc !! -->
 
-<a id="FractureToolResult.SolverComponentIDs"></a>
+<a id="FractureToolResult.Location"></a>
 
-### *property* FractureToolResult.SolverComponentIDs *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* FractureToolResult.Location *: Ansys.ACT.Interfaces.Common.ISelectionInfo | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets or sets the SolverComponentIDs.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="FractureToolResult.Substep"></a>
-
-### *property* FractureToolResult.Substep *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets the Substep.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="FractureToolResult.Average"></a>
-
-### *property* FractureToolResult.Average *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets the Average.
+Gets or sets the Location.
 
 <!-- !! processed by numpydoc !! -->
 
@@ -453,6 +387,14 @@ Gets the Average.
 ### *property* FractureToolResult.Maximum *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the Maximum.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="FractureToolResult.MaximumOccursOn"></a>
+
+### *property* FractureToolResult.MaximumOccursOn *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets the MaximumOccursOn.
 
 <!-- !! processed by numpydoc !! -->
 
@@ -480,6 +422,14 @@ Gets the Minimum.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="FractureToolResult.MinimumOccursOn"></a>
+
+### *property* FractureToolResult.MinimumOccursOn *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets the MinimumOccursOn.
+
+<!-- !! processed by numpydoc !! -->
+
 <a id="FractureToolResult.MinimumOfMaximumOverTime"></a>
 
 ### *property* FractureToolResult.MinimumOfMaximumOverTime *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
@@ -496,115 +446,35 @@ Gets the MinimumOfMinimumOverTime.
 
 <!-- !! processed by numpydoc !! -->
 
-<a id="FractureToolResult.Time"></a>
+<a id="FractureToolResult.Mode"></a>
 
-### *property* FractureToolResult.Time *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* FractureToolResult.Mode *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets the Time.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="FractureToolResult.DisplayTime"></a>
-
-### *property* FractureToolResult.DisplayTime *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the DisplayTime.
+Gets or sets the Mode.
 
 <!-- !! processed by numpydoc !! -->
 
-<a id="FractureToolResult.GraphControlsXAxis"></a>
+<a id="FractureToolResult.NamedSelections"></a>
 
-### *property* FractureToolResult.GraphControlsXAxis *: [Ansys.Mechanical.DataModel.Enums.GraphControlsXAxis](../../../../../../../v241/Ansys/Mechanical/DataModel/Enums/GraphControlsXAxis.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.GraphControlsXAxis) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* FractureToolResult.NamedSelections *: System.Collections.Generic.IEnumerable[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets or sets the GraphControlsXAxis.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="FractureToolResult.DisplayOption"></a>
-
-### *property* FractureToolResult.DisplayOption *: [Ansys.Mechanical.DataModel.Enums.ResultAveragingType](../../../../../../../v241/Ansys/Mechanical/DataModel/Enums/ResultAveragingType.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.ResultAveragingType) | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the DisplayOption.
+Gets or sets the NamedSelections.
 
 <!-- !! processed by numpydoc !! -->
 
-<a id="FractureToolResult.DpfEvaluation"></a>
+<a id="FractureToolResult.Path"></a>
 
-### *property* FractureToolResult.DpfEvaluation *: [Ansys.Mechanical.DataModel.Enums.DpfEvaluationType](../../../../../../../v241/Ansys/Mechanical/DataModel/Enums/DpfEvaluationType.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DpfEvaluationType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* FractureToolResult.Path *: [Ansys.ACT.Automation.Mechanical.Path](../../Path.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Path) | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets or sets the DpfEvaluation.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="FractureToolResult.By"></a>
-
-### *property* FractureToolResult.By *: [Ansys.Mechanical.DataModel.Enums.SetDriverStyle](../../../../../../../v241/Ansys/Mechanical/DataModel/Enums/SetDriverStyle.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.SetDriverStyle) | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the By.
+Path property.
 
 <!-- !! processed by numpydoc !! -->
 
-<a id="FractureToolResult.ItemType"></a>
+<a id="FractureToolResult.PlotData"></a>
 
-### *property* FractureToolResult.ItemType *: [Ansys.Mechanical.DataModel.Enums.ResultFileItemType](../../../../../../../v241/Ansys/Mechanical/DataModel/Enums/ResultFileItemType.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.ResultFileItemType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* FractureToolResult.PlotData *: [Ansys.Mechanical.DataModel.Results.ResultDataTable](../../../../../Mechanical/DataModel/Results/ResultDataTable.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Results.ResultDataTable) | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets or sets the ItemType.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="FractureToolResult.CalculateTimeHistory"></a>
-
-### *property* FractureToolResult.CalculateTimeHistory *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the CalculateTimeHistory.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="FractureToolResult.Suppressed"></a>
-
-### *property* FractureToolResult.Suppressed *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the Suppressed.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="FractureToolResult.Children"></a>
-
-### *property* FractureToolResult.Children *: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets the list of children.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="FractureToolResult.Comments"></a>
-
-### *property* FractureToolResult.Comments *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Comment](../../../../../../../v241/Ansys/ACT/Automation/Mechanical/Comment.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets the list of associated comments.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="FractureToolResult.Figures"></a>
-
-### *property* FractureToolResult.Figures *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Figure](../../../../../../../v241/Ansys/ACT/Automation/Mechanical/Figure.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets the list of associated figures.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="FractureToolResult.Images"></a>
-
-### *property* FractureToolResult.Images *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Image](../../../../../../../v241/Ansys/ACT/Automation/Mechanical/Image.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets the list of associated images.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="id0"></a>
-
-### *property* FractureToolResult.InternalObject *: System.Object | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets the internal object. For advanced usage only.
+Gets the result table.
 
 <!-- !! processed by numpydoc !! -->
 
@@ -616,6 +486,118 @@ Gets the list of properties for this object.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="FractureToolResult.ScopingMethod"></a>
+
+### *property* FractureToolResult.ScopingMethod *: [Ansys.Mechanical.DataModel.Enums.GeometryDefineByType](../../../../../Mechanical/DataModel/Enums/GeometryDefineByType.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.GeometryDefineByType) | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the ScopingMethod.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="FractureToolResult.SetNumber"></a>
+
+### *property* FractureToolResult.SetNumber *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the Set Number.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="FractureToolResult.SolutionCombinationDriver"></a>
+
+### *property* FractureToolResult.SolutionCombinationDriver *: [Ansys.Mechanical.DataModel.Enums.SolutionCombinationDriverStyle](../../../../../Mechanical/DataModel/Enums/SolutionCombinationDriverStyle.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.SolutionCombinationDriverStyle) | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the SolutionCombinationDriver.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="FractureToolResult.SolverComponentIDs"></a>
+
+### *property* FractureToolResult.SolverComponentIDs *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the SolverComponentIDs.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="FractureToolResult.SolverID"></a>
+
+### *property* FractureToolResult.SolverID *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the SolverID.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="FractureToolResult.Substep"></a>
+
+### *property* FractureToolResult.Substep *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets the Substep.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="FractureToolResult.Suppressed"></a>
+
+### *property* FractureToolResult.Suppressed *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the Suppressed.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="FractureToolResult.Surface"></a>
+
+### *property* FractureToolResult.Surface *: [Ansys.ACT.Automation.Mechanical.Surface](../../Surface.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Surface) | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Surface property.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="FractureToolResult.SurfaceCoating"></a>
+
+### *property* FractureToolResult.SurfaceCoating *: [Ansys.ACT.Automation.Mechanical.SurfaceCoating](../../SurfaceCoating.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.SurfaceCoating) | [None](https://docs.python.org/3/library/constants.html#None)*
+
+SurfaceCoating property.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="FractureToolResult.Time"></a>
+
+### *property* FractureToolResult.Time *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets the Time.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="FractureToolResult.TimeForMaximumOfMaximumValues"></a>
+
+### *property* FractureToolResult.TimeForMaximumOfMaximumValues *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Get the Time for the maximum of maximum values.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="FractureToolResult.TimeForMaximumOfMinimumValues"></a>
+
+### *property* FractureToolResult.TimeForMaximumOfMinimumValues *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Get the Time for the maximum of minimum values.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="FractureToolResult.TimeForMinimumOfMaximumValues"></a>
+
+### *property* FractureToolResult.TimeForMinimumOfMaximumValues *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Get the Time for the minimum of maximum values.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="FractureToolResult.TimeForMinimumOfMinimumValues"></a>
+
+### *property* FractureToolResult.TimeForMinimumOfMinimumValues *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Get the Time for the minimum of minimum values.
+
+<!-- !! processed by numpydoc !! -->
+
 <a id="FractureToolResult.VisibleProperties"></a>
 
 ### *property* FractureToolResult.VisibleProperties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
@@ -624,79 +606,23 @@ Gets the list of properties that are visible for this object.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="FractureToolResult.WaterfallShowTextOnMosaic"></a>
+
+### *property* FractureToolResult.WaterfallShowTextOnMosaic *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the Waterfall Mosaic Text Property.
+
+<!-- !! processed by numpydoc !! -->
+
 <a id="method-detail"></a>
 
 ## Method detail
 
-<a id="FractureToolResult.ClearGeneratedData"></a>
+<a id="FractureToolResult.Activate"></a>
 
-### FractureToolResult.ClearGeneratedData()
+### FractureToolResult.Activate()
 
-Run the ClearGeneratedData action.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="FractureToolResult.EvaluateAllResults"></a>
-
-### FractureToolResult.EvaluateAllResults()
-
-Run the EvaluateAllResults action.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="FractureToolResult.FetchRemoteResults"></a>
-
-### FractureToolResult.FetchRemoteResults()
-
-Run the FetchRemoteResult action.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="FractureToolResult.ExportToTextFile"></a>
-
-### FractureToolResult.ExportToTextFile(filePath: System.String)
-
-Run the ExportToTextFile action.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="FractureToolResult.ExportAnimation"></a>
-
-### FractureToolResult.ExportAnimation(filePath: System.String, format: [Ansys.Mechanical.DataModel.Enums.GraphicsAnimationExportFormat](../../../../../../../v241/Ansys/Mechanical/DataModel/Enums/GraphicsAnimationExportFormat.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.GraphicsAnimationExportFormat), settings: [Ansys.Mechanical.Graphics.AnimationExportSettings](../../../../../../../v241/Ansys/Mechanical/Graphics/AnimationExportSettings.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.Graphics.AnimationExportSettings))
-
-Run the ExportAnimation action.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="FractureToolResult.DuplicateWithoutResults"></a>
-
-### FractureToolResult.DuplicateWithoutResults()
-
-Run the DuplicateWithoutResults action.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="FractureToolResult.CreateResultsAtAllSets"></a>
-
-### FractureToolResult.CreateResultsAtAllSets()
-
-Creates results at all sets for results under a solution.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="FractureToolResult.PromoteToNamedSelection"></a>
-
-### FractureToolResult.PromoteToNamedSelection()
-
-Run the PromoteToNamedSelection action.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="FractureToolResult.CreateParameter"></a>
-
-### FractureToolResult.CreateParameter(propName: System.String)
-
-CreateParameter method.
+Activate the current object.
 
 <!-- !! processed by numpydoc !! -->
 
@@ -708,51 +634,19 @@ Creates a new Alert
 
 <!-- !! processed by numpydoc !! -->
 
-<a id="FractureToolResult.AddConvergence"></a>
-
-### FractureToolResult.AddConvergence()
-
-Creates a new Convergence
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="FractureToolResult.RenameBasedOnDefinition"></a>
-
-### FractureToolResult.RenameBasedOnDefinition()
-
-Run the RenameBasedOnDefinition action.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="FractureToolResult.Delete"></a>
-
-### FractureToolResult.Delete()
-
-Run the Delete action.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="FractureToolResult.GetChildren"></a>
-
-### FractureToolResult.GetChildren(recurses: System.Boolean, children: System.Collections.Generic.IList[ChildrenType])
-
-Gets the list of children, filtered by type.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="id1"></a>
-
-### FractureToolResult.GetChildren(category: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../../../v241/Ansys/Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory), recurses: System.Boolean, children: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject])
-
-Gets the list of children, filtered by type.
-
-<!-- !! processed by numpydoc !! -->
-
 <a id="FractureToolResult.AddComment"></a>
 
 ### FractureToolResult.AddComment()
 
 Creates a new child Comment.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="FractureToolResult.AddConvergence"></a>
+
+### FractureToolResult.AddConvergence()
+
+Creates a new Convergence
 
 <!-- !! processed by numpydoc !! -->
 
@@ -768,17 +662,19 @@ Creates a new child Figure.
 
 ### FractureToolResult.AddImage(filePath: System.String)
 
+```text
 Creates a new child Image.
 If a filePath is provided, the image will be loaded from that file,
 if not, the image will be a screen capture of the Geometry window.
+```
 
 <!-- !! processed by numpydoc !! -->
 
-<a id="FractureToolResult.Activate"></a>
+<a id="FractureToolResult.ClearGeneratedData"></a>
 
-### FractureToolResult.Activate()
+### FractureToolResult.ClearGeneratedData()
 
-Activate the current object.
+Run the ClearGeneratedData action.
 
 <!-- !! processed by numpydoc !! -->
 
@@ -790,11 +686,91 @@ Copies all visible properties from this object to another.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="FractureToolResult.CreateParameter"></a>
+
+### FractureToolResult.CreateParameter(propName: System.String)
+
+CreateParameter method.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="FractureToolResult.CreateResultsAtAllSets"></a>
+
+### FractureToolResult.CreateResultsAtAllSets()
+
+Creates results at all sets for results under a solution.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="FractureToolResult.Delete"></a>
+
+### FractureToolResult.Delete()
+
+Run the Delete action.
+
+<!-- !! processed by numpydoc !! -->
+
 <a id="FractureToolResult.Duplicate"></a>
 
 ### FractureToolResult.Duplicate()
 
 Creates a copy of the current DataModelObject.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="FractureToolResult.DuplicateWithoutResults"></a>
+
+### FractureToolResult.DuplicateWithoutResults()
+
+Run the DuplicateWithoutResults action.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="FractureToolResult.EvaluateAllResults"></a>
+
+### FractureToolResult.EvaluateAllResults()
+
+Run the EvaluateAllResults action.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="FractureToolResult.ExportAnimation"></a>
+
+### FractureToolResult.ExportAnimation(filePath: System.String, format: [Ansys.Mechanical.DataModel.Enums.GraphicsAnimationExportFormat](../../../../../Mechanical/DataModel/Enums/GraphicsAnimationExportFormat.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.GraphicsAnimationExportFormat), settings: [Ansys.Mechanical.Graphics.AnimationExportSettings](../../../../../Mechanical/Graphics/AnimationExportSettings.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.Graphics.AnimationExportSettings))
+
+Run the ExportAnimation action.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="FractureToolResult.ExportToTextFile"></a>
+
+### FractureToolResult.ExportToTextFile(filePath: System.String)
+
+Run the ExportToTextFile action.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="FractureToolResult.FetchRemoteResults"></a>
+
+### FractureToolResult.FetchRemoteResults()
+
+Run the FetchRemoteResult action.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="FractureToolResult.GetChildren"></a>
+
+### FractureToolResult.GetChildren(recurses: System.Boolean, children: System.Collections.Generic.IList[ChildrenType])
+
+Gets the list of children, filtered by type.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="FractureToolResult.GetParameter"></a>
+
+### FractureToolResult.GetParameter(propName: System.String)
+
+Gets the parameter corresponding to the given property.
 
 <!-- !! processed by numpydoc !! -->
 
@@ -814,6 +790,25 @@ Run the GroupSimilarObjects action.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="FractureToolResult.PromoteToNamedSelection"></a>
+
+### FractureToolResult.PromoteToNamedSelection()
+
+Run the PromoteToNamedSelection action.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="FractureToolResult.PropertyByAPIName"></a>
+
+### FractureToolResult.PropertyByAPIName(name: System.String)
+
+```text
+Get a property by its API name.
+If multiple properties have the same API Name, only the first property with that name will be returned.
+```
+
+<!-- !! processed by numpydoc !! -->
+
 <a id="FractureToolResult.PropertyByName"></a>
 
 ### FractureToolResult.PropertyByName(name: System.String)
@@ -822,28 +817,19 @@ Get a property by its unique name.
 
 <!-- !! processed by numpydoc !! -->
 
-<a id="FractureToolResult.PropertyByAPIName"></a>
-
-### FractureToolResult.PropertyByAPIName(name: System.String)
-
-Get a property by its API name.
-If multiple properties have the same API Name, only the first property with that name will be returned.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="FractureToolResult.GetParameter"></a>
-
-### FractureToolResult.GetParameter(propName: System.String)
-
-Gets the parameter corresponding to the given property.
-
-<!-- !! processed by numpydoc !! -->
-
 <a id="FractureToolResult.RemoveParameter"></a>
 
 ### FractureToolResult.RemoveParameter(propName: System.String)
 
 Removes the parameter from the parameter set corresponding to the given property.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="FractureToolResult.RenameBasedOnDefinition"></a>
+
+### FractureToolResult.RenameBasedOnDefinition()
+
+Run the RenameBasedOnDefinition action.
 
 <!-- !! processed by numpydoc !! -->
 

@@ -1,6 +1,6 @@
 # `DpfEvaluationType`
 
-
+<a id="ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.DpfEvaluationType"></a>
 
 #### *class* ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.DpfEvaluationType
 
@@ -17,24 +17,16 @@ Specifies the DpfEvaluationType.
 ### Attributes
 
 | Name |
-| ------------------------------------------------------------- |
-| [`Off`](#DpfEvaluationType.Off) |
-| [`ProgramControlled`](#DpfEvaluationType.ProgramControlled) |
+| -------------------------------------------------------------------------------------------------------------------------------------- |
 | [`CmsFiles`](#DpfEvaluationType.CmsFiles) |
 | [`MsupFiles`](#DpfEvaluationType.MsupFiles) |
+| [`Off`](#DpfEvaluationType.Off) |
+| [`ProgramControlled`](#DpfEvaluationType.ProgramControlled) |
 | [`ResultFiles`](#DpfEvaluationType.ResultFiles) |
 
 <a id="attribute-detail"></a>
 
 ## Attribute detail
-
-<a id="DpfEvaluationType.Off"></a>
-
-### DpfEvaluationType.Off *= 1*
-
-<a id="DpfEvaluationType.ProgramControlled"></a>
-
-### DpfEvaluationType.ProgramControlled *= 0*
 
 <a id="DpfEvaluationType.CmsFiles"></a>
 
@@ -43,6 +35,14 @@ Specifies the DpfEvaluationType.
 <a id="DpfEvaluationType.MsupFiles"></a>
 
 ### DpfEvaluationType.MsupFiles *= 3*
+
+<a id="DpfEvaluationType.Off"></a>
+
+### DpfEvaluationType.Off *= 1*
+
+<a id="DpfEvaluationType.ProgramControlled"></a>
+
+### DpfEvaluationType.ProgramControlled *= 0*
 
 <a id="DpfEvaluationType.ResultFiles"></a>
 

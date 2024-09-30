@@ -1,6 +1,6 @@
 # `SolverControlsModeReuse`
 
-
+<a id="ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.SolverControlsModeReuse"></a>
 
 #### *class* ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.SolverControlsModeReuse
 
@@ -17,7 +17,7 @@ Specifies the SolverControlsModeReuse.
 ### Attributes
 
 | Name |
-| ------------------------------------------------------------------- |
+| -------------------------------------------------------------------------------------------------------------------------------------------------- |
 | [`No`](#SolverControlsModeReuse.No) |
 | [`ProgramControlled`](#SolverControlsModeReuse.ProgramControlled) |
 | [`Yes`](#SolverControlsModeReuse.Yes) |

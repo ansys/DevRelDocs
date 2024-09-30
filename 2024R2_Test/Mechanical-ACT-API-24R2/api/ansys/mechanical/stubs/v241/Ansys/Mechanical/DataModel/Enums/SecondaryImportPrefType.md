@@ -1,6 +1,6 @@
 # `SecondaryImportPrefType`
 
-
+<a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.SecondaryImportPrefType"></a>
 
 #### *class* ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.SecondaryImportPrefType
 
@@ -17,17 +17,21 @@ Specifies the SecondaryImportPrefType.
 ### Attributes
 
 | Name |
-| ---------------------------------------------------------------------------------------------------------------------------------------------- |
-| [`None_`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/SecondaryImportPrefType.md#SecondaryImportPrefType.None_) |
-| [`Solid`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/SecondaryImportPrefType.md#SecondaryImportPrefType.Solid) |
-| [`Surface`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/SecondaryImportPrefType.md#SecondaryImportPrefType.Surface) |
-| [`Line`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/SecondaryImportPrefType.md#SecondaryImportPrefType.Line) |
-| [`SolidAndSurface`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/SecondaryImportPrefType.md#SecondaryImportPrefType.SolidAndSurface) |
-| [`SurfaceAndLine`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/SecondaryImportPrefType.md#SecondaryImportPrefType.SurfaceAndLine) |
+| --------------------------------------------------------------- |
+| [`Line`](#SecondaryImportPrefType.Line) |
+| [`None_`](#SecondaryImportPrefType.None_) |
+| [`Solid`](#SecondaryImportPrefType.Solid) |
+| [`SolidAndSurface`](#SecondaryImportPrefType.SolidAndSurface) |
+| [`Surface`](#SecondaryImportPrefType.Surface) |
+| [`SurfaceAndLine`](#SecondaryImportPrefType.SurfaceAndLine) |
 
 <a id="attribute-detail"></a>
 
 ## Attribute detail
+
+<a id="SecondaryImportPrefType.Line"></a>
+
+### SecondaryImportPrefType.Line *= 3*
 
 <a id="SecondaryImportPrefType.None_"></a>
 
@@ -37,17 +41,13 @@ Specifies the SecondaryImportPrefType.
 
 ### SecondaryImportPrefType.Solid *= 1*
 
-<a id="SecondaryImportPrefType.Surface"></a>
-
-### SecondaryImportPrefType.Surface *= 2*
-
-<a id="SecondaryImportPrefType.Line"></a>
-
-### SecondaryImportPrefType.Line *= 3*
-
 <a id="SecondaryImportPrefType.SolidAndSurface"></a>
 
 ### SecondaryImportPrefType.SolidAndSurface *= 4*
+
+<a id="SecondaryImportPrefType.Surface"></a>
+
+### SecondaryImportPrefType.Surface *= 2*
 
 <a id="SecondaryImportPrefType.SurfaceAndLine"></a>
 

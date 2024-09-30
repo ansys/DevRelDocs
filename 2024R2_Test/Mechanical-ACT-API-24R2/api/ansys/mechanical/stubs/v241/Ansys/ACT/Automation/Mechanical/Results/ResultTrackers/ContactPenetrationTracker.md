@@ -1,6 +1,6 @@
 # `ContactPenetrationTracker`
 
-
+<a id="ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Results.ResultTrackers.ContactPenetrationTracker"></a>
 
 #### *class* ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Results.ResultTrackers.ContactPenetrationTracker
 
@@ -17,132 +17,90 @@ Defines a ContactPenetrationTracker.
 ### Methods
 
 | Name | Description |
-|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------|
-| [`ExportAnimation`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/ResultTrackers/ContactPenetrationTracker.md#ContactPenetrationTracker.ExportAnimation)                 | Run the ExportAnimation action.                                                   |
-| [`ClearGeneratedData`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/ResultTrackers/ContactPenetrationTracker.md#ContactPenetrationTracker.ClearGeneratedData)           | Run the ClearGeneratedData action.                                                |
-| [`EvaluateAllResults`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/ResultTrackers/ContactPenetrationTracker.md#ContactPenetrationTracker.EvaluateAllResults)           | Run the EvaluateAllResults action.                                                |
-| [`RenameBasedOnDefinition`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/ResultTrackers/ContactPenetrationTracker.md#ContactPenetrationTracker.RenameBasedOnDefinition) | Run the RenameBasedOnDefinition action.                                           |
-| [`Delete`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/ResultTrackers/ContactPenetrationTracker.md#ContactPenetrationTracker.Delete)                                   | Run the Delete action.                                                            |
-| [`GetChildren`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/ResultTrackers/ContactPenetrationTracker.md#id1)                                                           | Gets the list of children, filtered by type.                                      |
-| [`GetChildren`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/ResultTrackers/ContactPenetrationTracker.md#id1)                                                           | Gets the list of children, filtered by type.                                      |
-| [`AddComment`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/ResultTrackers/ContactPenetrationTracker.md#ContactPenetrationTracker.AddComment)                           | Creates a new child Comment.                                                      |
-| [`AddImage`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/ResultTrackers/ContactPenetrationTracker.md#ContactPenetrationTracker.AddImage)                               | Creates a new child Image.                                                        |
-| [`Activate`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/ResultTrackers/ContactPenetrationTracker.md#ContactPenetrationTracker.Activate)                               | Activate the current object.                                                      |
-| [`CopyTo`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/ResultTrackers/ContactPenetrationTracker.md#ContactPenetrationTracker.CopyTo)                                   | Copies all visible properties from this object to another.                        |
-| [`Duplicate`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/ResultTrackers/ContactPenetrationTracker.md#ContactPenetrationTracker.Duplicate)                             | Creates a copy of the current DataModelObject.                                    |
-| [`GroupAllSimilarChildren`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/ResultTrackers/ContactPenetrationTracker.md#ContactPenetrationTracker.GroupAllSimilarChildren) | Run the GroupAllSimilarChildren action.                                           |
-| [`GroupSimilarObjects`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/ResultTrackers/ContactPenetrationTracker.md#ContactPenetrationTracker.GroupSimilarObjects)         | Run the GroupSimilarObjects action.                                               |
-| [`PropertyByName`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/ResultTrackers/ContactPenetrationTracker.md#ContactPenetrationTracker.PropertyByName)                   | Get a property by its unique name.                                                |
-| [`PropertyByAPIName`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/ResultTrackers/ContactPenetrationTracker.md#ContactPenetrationTracker.PropertyByAPIName)             | Get a property by its API name.                                                   |
-| [`CreateParameter`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/ResultTrackers/ContactPenetrationTracker.md#ContactPenetrationTracker.CreateParameter)                 | Creates a new parameter for a Property.                                           |
-| [`GetParameter`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/ResultTrackers/ContactPenetrationTracker.md#ContactPenetrationTracker.GetParameter)                       | Gets the parameter corresponding to the given property.                           |
-| [`RemoveParameter`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/ResultTrackers/ContactPenetrationTracker.md#ContactPenetrationTracker.RemoveParameter)                 | Removes the parameter from the parameter set corresponding to the given property. |
+|---------------------------------------------------------------------------------|-----------------------------------------------------------------------------------|
+| [`Activate`](#ContactPenetrationTracker.Activate)                               | Activate the current object.                                                      |
+| [`AddComment`](#ContactPenetrationTracker.AddComment)                           | Creates a new child Comment.                                                      |
+| [`AddImage`](#ContactPenetrationTracker.AddImage)                               | Creates a new child Image.                                                        |
+| [`ClearGeneratedData`](#ContactPenetrationTracker.ClearGeneratedData)           | Run the ClearGeneratedData action.                                                |
+| [`CopyTo`](#ContactPenetrationTracker.CopyTo)                                   | Copies all visible properties from this object to another.                        |
+| [`CreateParameter`](#ContactPenetrationTracker.CreateParameter)                 | Creates a new parameter for a Property.                                           |
+| [`Delete`](#ContactPenetrationTracker.Delete)                                   | Run the Delete action.                                                            |
+| [`Duplicate`](#ContactPenetrationTracker.Duplicate)                             | Creates a copy of the current DataModelObject.                                    |
+| [`EvaluateAllResults`](#ContactPenetrationTracker.EvaluateAllResults)           | Run the EvaluateAllResults action.                                                |
+| [`ExportAnimation`](#ContactPenetrationTracker.ExportAnimation)                 | Run the ExportAnimation action.                                                   |
+| [`GetChildren`](#ContactPenetrationTracker.GetChildren)                         | Gets the list of children, filtered by type.                                      |
+| [`GetParameter`](#ContactPenetrationTracker.GetParameter)                       | Gets the parameter corresponding to the given property.                           |
+| [`GroupAllSimilarChildren`](#ContactPenetrationTracker.GroupAllSimilarChildren) | Run the GroupAllSimilarChildren action.                                           |
+| [`GroupSimilarObjects`](#ContactPenetrationTracker.GroupSimilarObjects)         | Run the GroupSimilarObjects action.                                               |
+| [`PropertyByAPIName`](#ContactPenetrationTracker.PropertyByAPIName)             | Get a property by its API name.                                                   |
+| [`PropertyByName`](#ContactPenetrationTracker.PropertyByName)                   | Get a property by its unique name.                                                |
+| [`RemoveParameter`](#ContactPenetrationTracker.RemoveParameter)                 | Removes the parameter from the parameter set corresponding to the given property. |
+| [`RenameBasedOnDefinition`](#ContactPenetrationTracker.RenameBasedOnDefinition) | Run the RenameBasedOnDefinition action.                                           |
 
 ### Properties
 
 | Name | Description |
-|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------|
-| [`InternalObject`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/ResultTrackers/ContactPenetrationTracker.md#id0)                                                                | Gets the internal object. For advanced usage only.            |
-| [`ContactSide`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/ResultTrackers/ContactPenetrationTracker.md#ContactPenetrationTracker.ContactSide)                                 | Gets or sets the ContactSide.                                 |
-| [`ContactRegion`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/ResultTrackers/ContactPenetrationTracker.md#ContactPenetrationTracker.ContactRegion)                             | Gets or sets the ContactRegion.                               |
-| [`DataModelObjectCategory`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/ResultTrackers/ContactPenetrationTracker.md#ContactPenetrationTracker.DataModelObjectCategory)         | Gets the current DataModelObject's category.                  |
-| [`IsSolved`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/ResultTrackers/ContactPenetrationTracker.md#ContactPenetrationTracker.IsSolved)                                       | Gets the IsSolved.                                            |
-| [`ChartDimensions`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/ResultTrackers/ContactPenetrationTracker.md#ContactPenetrationTracker.ChartDimensions)                         | Gets or sets the Chart Dimensions                             |
-| [`BoundaryCondition`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/ResultTrackers/ContactPenetrationTracker.md#ContactPenetrationTracker.BoundaryCondition)                     | Gets or sets the BoundaryCondition.                           |
-| [`CutFrequency`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/ResultTrackers/ContactPenetrationTracker.md#ContactPenetrationTracker.CutFrequency)                               | Gets or sets the CutFrequency.                                |
-| [`SectorNumber`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/ResultTrackers/ContactPenetrationTracker.md#ContactPenetrationTracker.SectorNumber)                               | Gets or sets the SectorNumber.                                |
-| [`GeometrySelectionString`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/ResultTrackers/ContactPenetrationTracker.md#ContactPenetrationTracker.GeometrySelectionString)         | Gets or sets the GeometrySelectionString.                     |
-| [`LoadStepNumber`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/ResultTrackers/ContactPenetrationTracker.md#ContactPenetrationTracker.LoadStepNumber)                           | Gets or sets the LoadStepNumber.                              |
-| [`ReportedFrequency`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/ResultTrackers/ContactPenetrationTracker.md#ContactPenetrationTracker.ReportedFrequency)                     | Gets the ReportedFrequency.                                   |
-| [`Duration`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/ResultTrackers/ContactPenetrationTracker.md#ContactPenetrationTracker.Duration)                                       | Gets or sets the Duration.                                    |
-| [`FilterMaximum`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/ResultTrackers/ContactPenetrationTracker.md#ContactPenetrationTracker.FilterMaximum)                             | Gets the FilterMaximum.                                       |
-| [`FilterMinimum`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/ResultTrackers/ContactPenetrationTracker.md#ContactPenetrationTracker.FilterMinimum)                             | Gets the FilterMinimum.                                       |
-| [`FrequencyAtMaximumAmplitude`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/ResultTrackers/ContactPenetrationTracker.md#ContactPenetrationTracker.FrequencyAtMaximumAmplitude) | Gets the FrequencyAtMaximumAmplitude.                         |
-| [`ImaginaryAtMaximumAmplitude`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/ResultTrackers/ContactPenetrationTracker.md#ContactPenetrationTracker.ImaginaryAtMaximumAmplitude) | Gets the ImaginaryAtMaximumAmplitude.                         |
-| [`MaximumAmplitude`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/ResultTrackers/ContactPenetrationTracker.md#ContactPenetrationTracker.MaximumAmplitude)                       | Gets the MaximumAmplitude.                                    |
-| [`MaximumFrequency`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/ResultTrackers/ContactPenetrationTracker.md#ContactPenetrationTracker.MaximumFrequency)                       | Gets or sets the MaximumFrequency.                            |
-| [`Maximum`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/ResultTrackers/ContactPenetrationTracker.md#ContactPenetrationTracker.Maximum)                                         | Gets the Maximum.                                             |
-| [`MinimumFrequency`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/ResultTrackers/ContactPenetrationTracker.md#ContactPenetrationTracker.MinimumFrequency)                       | Gets or sets the MinimumFrequency.                            |
-| [`Minimum`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/ResultTrackers/ContactPenetrationTracker.md#ContactPenetrationTracker.Minimum)                                         | Gets the Minimum.                                             |
-| [`PhaseAngle`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/ResultTrackers/ContactPenetrationTracker.md#ContactPenetrationTracker.PhaseAngle)                                   | Gets the PhaseAngle.                                          |
-| [`RealAtMaximumAmplitude`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/ResultTrackers/ContactPenetrationTracker.md#ContactPenetrationTracker.RealAtMaximumAmplitude)           | Gets the RealAtMaximumAmplitude.                              |
-| [`RequestedFrequency`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/ResultTrackers/ContactPenetrationTracker.md#ContactPenetrationTracker.RequestedFrequency)                   | Gets or sets the RequestedFrequency.                          |
-| [`AccelerationType`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/ResultTrackers/ContactPenetrationTracker.md#ContactPenetrationTracker.AccelerationType)                       | Gets or sets the AccelerationType.                            |
-| [`ChartViewingStyle`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/ResultTrackers/ContactPenetrationTracker.md#ContactPenetrationTracker.ChartViewingStyle)                     | Gets or sets the ChartViewingStyle.                           |
-| [`DeformationType`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/ResultTrackers/ContactPenetrationTracker.md#ContactPenetrationTracker.DeformationType)                         | Gets or sets the DeformationType.                             |
-| [`FilterType`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/ResultTrackers/ContactPenetrationTracker.md#ContactPenetrationTracker.FilterType)                                   | Gets or sets the FilterType.                                  |
-| [`SpatialResolution`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/ResultTrackers/ContactPenetrationTracker.md#ContactPenetrationTracker.SpatialResolution)                     | Gets or sets the SpatialResolution.                           |
-| [`NormalOrientation`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/ResultTrackers/ContactPenetrationTracker.md#ContactPenetrationTracker.NormalOrientation)                     | Gets or sets the NormalOrientation.                           |
-| [`CurvesAppearanceDisplay`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/ResultTrackers/ContactPenetrationTracker.md#ContactPenetrationTracker.CurvesAppearanceDisplay)         | Gets or sets the CurvesAppearanceDisplay.                     |
-| [`ResultChartType`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/ResultTrackers/ContactPenetrationTracker.md#ContactPenetrationTracker.ResultChartType)                         | Gets the ResultChartType.                                     |
-| [`DpfEvaluation`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/ResultTrackers/ContactPenetrationTracker.md#ContactPenetrationTracker.DpfEvaluation)                             | Gets or sets the DpfEvaluation.                               |
-| [`XAxisValues`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/ResultTrackers/ContactPenetrationTracker.md#ContactPenetrationTracker.XAxisValues)                                 | Gets or sets the XAxisValues.                                 |
-| [`ShearOrientation`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/ResultTrackers/ContactPenetrationTracker.md#ContactPenetrationTracker.ShearOrientation)                       | Gets or sets the ShearOrientation.                            |
-| [`StressStrainType`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/ResultTrackers/ContactPenetrationTracker.md#ContactPenetrationTracker.StressStrainType)                       | Gets or sets the StressStrainType.                            |
-| [`TimeHistoryDisplay`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/ResultTrackers/ContactPenetrationTracker.md#ContactPenetrationTracker.TimeHistoryDisplay)                   | Gets or sets the TimeHistoryDisplay.                          |
-| [`VelocityType`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/ResultTrackers/ContactPenetrationTracker.md#ContactPenetrationTracker.VelocityType)                               | Gets or sets the VelocityType.                                |
-| [`Suppressed`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/ResultTrackers/ContactPenetrationTracker.md#ContactPenetrationTracker.Suppressed)                                   | Gets or sets the Suppressed.                                  |
-| [`EnhancedTracking`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/ResultTrackers/ContactPenetrationTracker.md#ContactPenetrationTracker.EnhancedTracking)                       | Gets the EnhancedTracking.                                    |
-| [`UseParentFrequencyRange`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/ResultTrackers/ContactPenetrationTracker.md#ContactPenetrationTracker.UseParentFrequencyRange)         | Gets or sets the UseParentFrequencyRange.                     |
-| [`CoordinateSystem`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/ResultTrackers/ContactPenetrationTracker.md#ContactPenetrationTracker.CoordinateSystem)                       | Gets or sets the CoordinateSystem.                            |
-| [`Spring`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/ResultTrackers/ContactPenetrationTracker.md#ContactPenetrationTracker.Spring)                                           | Gets or sets the Spring.                                      |
-| [`Location`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/ResultTrackers/ContactPenetrationTracker.md#ContactPenetrationTracker.Location)                                       | Gets or sets the Location.                                    |
-| [`Children`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/ResultTrackers/ContactPenetrationTracker.md#ContactPenetrationTracker.Children)                                       | Gets the list of children.                                    |
-| [`Comments`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/ResultTrackers/ContactPenetrationTracker.md#ContactPenetrationTracker.Comments)                                       | Gets the list of associated comments.                         |
-| [`Images`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/ResultTrackers/ContactPenetrationTracker.md#ContactPenetrationTracker.Images)                                           | Gets the list of associated images.                           |
-| [`InternalObject`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/ResultTrackers/ContactPenetrationTracker.md#id0)                                                                | Gets the internal object. For advanced usage only.            |
-| [`Properties`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/ResultTrackers/ContactPenetrationTracker.md#ContactPenetrationTracker.Properties)                                   | Gets the list of properties for this object.                  |
-| [`VisibleProperties`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/ResultTrackers/ContactPenetrationTracker.md#ContactPenetrationTracker.VisibleProperties)                     | Gets the list of properties that are visible for this object. |
+|-----------------------------------------------------------------------------------------|---------------------------------------------------------------|
+| [`AccelerationType`](#ContactPenetrationTracker.AccelerationType)                       | Gets or sets the AccelerationType.                            |
+| [`BoundaryCondition`](#ContactPenetrationTracker.BoundaryCondition)                     | Gets or sets the BoundaryCondition.                           |
+| [`ChartDimensions`](#ContactPenetrationTracker.ChartDimensions)                         | Gets or sets the Chart Dimensions                             |
+| [`ChartViewingStyle`](#ContactPenetrationTracker.ChartViewingStyle)                     | Gets or sets the ChartViewingStyle.                           |
+| [`Children`](#ContactPenetrationTracker.Children)                                       | Gets the list of children.                                    |
+| [`Comments`](#ContactPenetrationTracker.Comments)                                       | Gets the list of associated comments.                         |
+| [`ContactRegion`](#ContactPenetrationTracker.ContactRegion)                             | Gets or sets the ContactRegion.                               |
+| [`ContactSide`](#ContactPenetrationTracker.ContactSide)                                 | Gets or sets the ContactSide.                                 |
+| [`CoordinateSystem`](#ContactPenetrationTracker.CoordinateSystem)                       | Gets or sets the CoordinateSystem.                            |
+| [`CurvesAppearanceDisplay`](#ContactPenetrationTracker.CurvesAppearanceDisplay)         | Gets or sets the CurvesAppearanceDisplay.                     |
+| [`CutFrequency`](#ContactPenetrationTracker.CutFrequency)                               | Gets or sets the CutFrequency.                                |
+| [`DataModelObjectCategory`](#ContactPenetrationTracker.DataModelObjectCategory)         | Gets the current DataModelObject’s category.                  |
+| [`DeformationType`](#ContactPenetrationTracker.DeformationType)                         | Gets or sets the DeformationType.                             |
+| [`DpfEvaluation`](#ContactPenetrationTracker.DpfEvaluation)                             | Gets or sets the DpfEvaluation.                               |
+| [`Duration`](#ContactPenetrationTracker.Duration)                                       | Gets or sets the Duration.                                    |
+| [`EnhancedTracking`](#ContactPenetrationTracker.EnhancedTracking)                       | Gets the EnhancedTracking.                                    |
+| [`FilterMaximum`](#ContactPenetrationTracker.FilterMaximum)                             | Gets the FilterMaximum.                                       |
+| [`FilterMinimum`](#ContactPenetrationTracker.FilterMinimum)                             | Gets the FilterMinimum.                                       |
+| [`FilterType`](#ContactPenetrationTracker.FilterType)                                   | Gets or sets the FilterType.                                  |
+| [`FrequencyAtMaximumAmplitude`](#ContactPenetrationTracker.FrequencyAtMaximumAmplitude) | Gets the FrequencyAtMaximumAmplitude.                         |
+| [`GeometrySelectionString`](#ContactPenetrationTracker.GeometrySelectionString)         | Gets or sets the GeometrySelectionString.                     |
+| [`Images`](#ContactPenetrationTracker.Images)                                           | Gets the list of associated images.                           |
+| [`ImaginaryAtMaximumAmplitude`](#ContactPenetrationTracker.ImaginaryAtMaximumAmplitude) | Gets the ImaginaryAtMaximumAmplitude.                         |
+| [`InternalObject`](#ContactPenetrationTracker.InternalObject)                           | Gets the internal object. For advanced usage only.            |
+| [`IsSolved`](#ContactPenetrationTracker.IsSolved)                                       | Gets the IsSolved.                                            |
+| [`LoadStepNumber`](#ContactPenetrationTracker.LoadStepNumber)                           | Gets or sets the LoadStepNumber.                              |
+| [`Location`](#ContactPenetrationTracker.Location)                                       | Gets or sets the Location.                                    |
+| [`Maximum`](#ContactPenetrationTracker.Maximum)                                         | Gets the Maximum.                                             |
+| [`MaximumAmplitude`](#ContactPenetrationTracker.MaximumAmplitude)                       | Gets the MaximumAmplitude.                                    |
+| [`MaximumFrequency`](#ContactPenetrationTracker.MaximumFrequency)                       | Gets or sets the MaximumFrequency.                            |
+| [`Minimum`](#ContactPenetrationTracker.Minimum)                                         | Gets the Minimum.                                             |
+| [`MinimumFrequency`](#ContactPenetrationTracker.MinimumFrequency)                       | Gets or sets the MinimumFrequency.                            |
+| [`NormalOrientation`](#ContactPenetrationTracker.NormalOrientation)                     | Gets or sets the NormalOrientation.                           |
+| [`PhaseAngle`](#ContactPenetrationTracker.PhaseAngle)                                   | Gets the PhaseAngle.                                          |
+| [`Properties`](#ContactPenetrationTracker.Properties)                                   | Gets the list of properties for this object.                  |
+| [`RealAtMaximumAmplitude`](#ContactPenetrationTracker.RealAtMaximumAmplitude)           | Gets the RealAtMaximumAmplitude.                              |
+| [`ReportedFrequency`](#ContactPenetrationTracker.ReportedFrequency)                     | Gets the ReportedFrequency.                                   |
+| [`RequestedFrequency`](#ContactPenetrationTracker.RequestedFrequency)                   | Gets or sets the RequestedFrequency.                          |
+| [`ResultChartType`](#ContactPenetrationTracker.ResultChartType)                         | Gets the ResultChartType.                                     |
+| [`SectorNumber`](#ContactPenetrationTracker.SectorNumber)                               | Gets or sets the SectorNumber.                                |
+| [`ShearOrientation`](#ContactPenetrationTracker.ShearOrientation)                       | Gets or sets the ShearOrientation.                            |
+| [`SpatialResolution`](#ContactPenetrationTracker.SpatialResolution)                     | Gets or sets the SpatialResolution.                           |
+| [`Spring`](#ContactPenetrationTracker.Spring)                                           | Gets or sets the Spring.                                      |
+| [`StressStrainType`](#ContactPenetrationTracker.StressStrainType)                       | Gets or sets the StressStrainType.                            |
+| [`Suppressed`](#ContactPenetrationTracker.Suppressed)                                   | Gets or sets the Suppressed.                                  |
+| [`TimeHistoryDisplay`](#ContactPenetrationTracker.TimeHistoryDisplay)                   | Gets or sets the TimeHistoryDisplay.                          |
+| [`UseParentFrequencyRange`](#ContactPenetrationTracker.UseParentFrequencyRange)         | Gets or sets the UseParentFrequencyRange.                     |
+| [`VelocityType`](#ContactPenetrationTracker.VelocityType)                               | Gets or sets the VelocityType.                                |
+| [`VisibleProperties`](#ContactPenetrationTracker.VisibleProperties)                     | Gets the list of properties that are visible for this object. |
+| [`XAxisValues`](#ContactPenetrationTracker.XAxisValues)                                 | Gets or sets the XAxisValues.                                 |
 
 <a id="property-detail"></a>
 
 ## Property detail
 
-<a id="ContactPenetrationTracker.InternalObject"></a>
+<a id="ContactPenetrationTracker.AccelerationType"></a>
 
-### *property* ContactPenetrationTracker.InternalObject *: Ansys.Common.Interop.DSObjectsAuto.IDSResultChartAuto | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ContactPenetrationTracker.AccelerationType *: [Ansys.Mechanical.DataModel.Enums.TotalOrDirectional](../../../../../../../v242/Ansys/Mechanical/DataModel/Enums/TotalOrDirectional.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.TotalOrDirectional) | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets the internal object. For advanced usage only.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="ContactPenetrationTracker.ContactSide"></a>
-
-### *property* ContactPenetrationTracker.ContactSide *: [Ansys.Mechanical.DataModel.Enums.ContactScopingType](../../../../../Mechanical/DataModel/Enums/ContactScopingType.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.ContactScopingType) | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the ContactSide.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="ContactPenetrationTracker.ContactRegion"></a>
-
-### *property* ContactPenetrationTracker.ContactRegion *: [Ansys.ACT.Automation.Mechanical.Connections.ContactRegion](../../Connections/ContactRegion.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Connections.ContactRegion) | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the ContactRegion.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="ContactPenetrationTracker.DataModelObjectCategory"></a>
-
-### *property* ContactPenetrationTracker.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets the current DataModelObject's category.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="ContactPenetrationTracker.IsSolved"></a>
-
-### *property* ContactPenetrationTracker.IsSolved *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets the IsSolved.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="ContactPenetrationTracker.ChartDimensions"></a>
-
-### *property* ContactPenetrationTracker.ChartDimensions *: [Ansys.Mechanical.DataModel.Enums.ChartDimensions](../../../../../Mechanical/DataModel/Enums/ChartDimensions.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.ChartDimensions) | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the Chart Dimensions
+Gets or sets the AccelerationType.
 
 <!-- !! processed by numpydoc !! -->
 
@@ -154,307 +112,19 @@ Gets or sets the BoundaryCondition.
 
 <!-- !! processed by numpydoc !! -->
 
-<a id="ContactPenetrationTracker.CutFrequency"></a>
+<a id="ContactPenetrationTracker.ChartDimensions"></a>
 
-### *property* ContactPenetrationTracker.CutFrequency *: System.Double | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ContactPenetrationTracker.ChartDimensions *: [Ansys.Mechanical.DataModel.Enums.ChartDimensions](../../../../../../../v242/Ansys/Mechanical/DataModel/Enums/ChartDimensions.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.ChartDimensions) | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets or sets the CutFrequency.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="ContactPenetrationTracker.SectorNumber"></a>
-
-### *property* ContactPenetrationTracker.SectorNumber *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the SectorNumber.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="ContactPenetrationTracker.GeometrySelectionString"></a>
-
-### *property* ContactPenetrationTracker.GeometrySelectionString *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the GeometrySelectionString.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="ContactPenetrationTracker.LoadStepNumber"></a>
-
-### *property* ContactPenetrationTracker.LoadStepNumber *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the LoadStepNumber.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="ContactPenetrationTracker.ReportedFrequency"></a>
-
-### *property* ContactPenetrationTracker.ReportedFrequency *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets the ReportedFrequency.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="ContactPenetrationTracker.Duration"></a>
-
-### *property* ContactPenetrationTracker.Duration *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the Duration.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="ContactPenetrationTracker.FilterMaximum"></a>
-
-### *property* ContactPenetrationTracker.FilterMaximum *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets the FilterMaximum.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="ContactPenetrationTracker.FilterMinimum"></a>
-
-### *property* ContactPenetrationTracker.FilterMinimum *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets the FilterMinimum.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="ContactPenetrationTracker.FrequencyAtMaximumAmplitude"></a>
-
-### *property* ContactPenetrationTracker.FrequencyAtMaximumAmplitude *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets the FrequencyAtMaximumAmplitude.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="ContactPenetrationTracker.ImaginaryAtMaximumAmplitude"></a>
-
-### *property* ContactPenetrationTracker.ImaginaryAtMaximumAmplitude *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets the ImaginaryAtMaximumAmplitude.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="ContactPenetrationTracker.MaximumAmplitude"></a>
-
-### *property* ContactPenetrationTracker.MaximumAmplitude *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets the MaximumAmplitude.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="ContactPenetrationTracker.MaximumFrequency"></a>
-
-### *property* ContactPenetrationTracker.MaximumFrequency *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the MaximumFrequency.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="ContactPenetrationTracker.Maximum"></a>
-
-### *property* ContactPenetrationTracker.Maximum *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets the Maximum.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="ContactPenetrationTracker.MinimumFrequency"></a>
-
-### *property* ContactPenetrationTracker.MinimumFrequency *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the MinimumFrequency.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="ContactPenetrationTracker.Minimum"></a>
-
-### *property* ContactPenetrationTracker.Minimum *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets the Minimum.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="ContactPenetrationTracker.PhaseAngle"></a>
-
-### *property* ContactPenetrationTracker.PhaseAngle *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets the PhaseAngle.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="ContactPenetrationTracker.RealAtMaximumAmplitude"></a>
-
-### *property* ContactPenetrationTracker.RealAtMaximumAmplitude *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets the RealAtMaximumAmplitude.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="ContactPenetrationTracker.RequestedFrequency"></a>
-
-### *property* ContactPenetrationTracker.RequestedFrequency *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the RequestedFrequency.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="ContactPenetrationTracker.AccelerationType"></a>
-
-### *property* ContactPenetrationTracker.AccelerationType *: [Ansys.Mechanical.DataModel.Enums.TotalOrDirectional](../../../../../Mechanical/DataModel/Enums/TotalOrDirectional.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.TotalOrDirectional) | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the AccelerationType.
+Gets or sets the Chart Dimensions
 
 <!-- !! processed by numpydoc !! -->
 
 <a id="ContactPenetrationTracker.ChartViewingStyle"></a>
 
-### *property* ContactPenetrationTracker.ChartViewingStyle *: [Ansys.Mechanical.DataModel.Enums.ChartAxisScaleType](../../../../../Mechanical/DataModel/Enums/ChartAxisScaleType.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.ChartAxisScaleType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ContactPenetrationTracker.ChartViewingStyle *: [Ansys.Mechanical.DataModel.Enums.ChartAxisScaleType](../../../../../../../v242/Ansys/Mechanical/DataModel/Enums/ChartAxisScaleType.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.ChartAxisScaleType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the ChartViewingStyle.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="ContactPenetrationTracker.DeformationType"></a>
-
-### *property* ContactPenetrationTracker.DeformationType *: [Ansys.Mechanical.DataModel.Enums.TotalOrDirectional](../../../../../Mechanical/DataModel/Enums/TotalOrDirectional.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.TotalOrDirectional) | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the DeformationType.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="ContactPenetrationTracker.FilterType"></a>
-
-### *property* ContactPenetrationTracker.FilterType *: [Ansys.Mechanical.DataModel.Enums.FilterType](../../../../../Mechanical/DataModel/Enums/FilterType.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.FilterType) | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the FilterType.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="ContactPenetrationTracker.SpatialResolution"></a>
-
-### *property* ContactPenetrationTracker.SpatialResolution *: [Ansys.Mechanical.DataModel.Enums.MultipleNodeType](../../../../../Mechanical/DataModel/Enums/MultipleNodeType.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.MultipleNodeType) | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the SpatialResolution.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="ContactPenetrationTracker.NormalOrientation"></a>
-
-### *property* ContactPenetrationTracker.NormalOrientation *: [Ansys.Mechanical.DataModel.Enums.NormalOrientationType](../../../../../Mechanical/DataModel/Enums/NormalOrientationType.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.NormalOrientationType) | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the NormalOrientation.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="ContactPenetrationTracker.CurvesAppearanceDisplay"></a>
-
-### *property* ContactPenetrationTracker.CurvesAppearanceDisplay *: [Ansys.Mechanical.DataModel.Enums.ChartPlotStyle](../../../../../Mechanical/DataModel/Enums/ChartPlotStyle.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.ChartPlotStyle) | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the CurvesAppearanceDisplay.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="ContactPenetrationTracker.ResultChartType"></a>
-
-### *property* ContactPenetrationTracker.ResultChartType *: [Ansys.Mechanical.DataModel.Enums.ChartResultType](../../../../../Mechanical/DataModel/Enums/ChartResultType.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.ChartResultType) | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets the ResultChartType.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="ContactPenetrationTracker.DpfEvaluation"></a>
-
-### *property* ContactPenetrationTracker.DpfEvaluation *: [Ansys.Mechanical.DataModel.Enums.DpfEvaluationType](../../../../../Mechanical/DataModel/Enums/DpfEvaluationType.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DpfEvaluationType) | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the DpfEvaluation.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="ContactPenetrationTracker.XAxisValues"></a>
-
-### *property* ContactPenetrationTracker.XAxisValues *: [Ansys.Mechanical.DataModel.Enums.XAxisValues](../../../../../Mechanical/DataModel/Enums/XAxisValues.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.XAxisValues) | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the XAxisValues.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="ContactPenetrationTracker.ShearOrientation"></a>
-
-### *property* ContactPenetrationTracker.ShearOrientation *: [Ansys.Mechanical.DataModel.Enums.ShearOrientationType](../../../../../Mechanical/DataModel/Enums/ShearOrientationType.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.ShearOrientationType) | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the ShearOrientation.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="ContactPenetrationTracker.StressStrainType"></a>
-
-### *property* ContactPenetrationTracker.StressStrainType *: [Ansys.Mechanical.DataModel.Enums.StressStrainType](../../../../../Mechanical/DataModel/Enums/StressStrainType.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.StressStrainType) | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the StressStrainType.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="ContactPenetrationTracker.TimeHistoryDisplay"></a>
-
-### *property* ContactPenetrationTracker.TimeHistoryDisplay *: [Ansys.Mechanical.DataModel.Enums.TimeHistoryDisplayType](../../../../../Mechanical/DataModel/Enums/TimeHistoryDisplayType.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.TimeHistoryDisplayType) | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the TimeHistoryDisplay.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="ContactPenetrationTracker.VelocityType"></a>
-
-### *property* ContactPenetrationTracker.VelocityType *: [Ansys.Mechanical.DataModel.Enums.TotalOrDirectional](../../../../../Mechanical/DataModel/Enums/TotalOrDirectional.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.TotalOrDirectional) | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the VelocityType.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="ContactPenetrationTracker.Suppressed"></a>
-
-### *property* ContactPenetrationTracker.Suppressed *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the Suppressed.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="ContactPenetrationTracker.EnhancedTracking"></a>
-
-### *property* ContactPenetrationTracker.EnhancedTracking *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets the EnhancedTracking.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="ContactPenetrationTracker.UseParentFrequencyRange"></a>
-
-### *property* ContactPenetrationTracker.UseParentFrequencyRange *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the UseParentFrequencyRange.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="ContactPenetrationTracker.CoordinateSystem"></a>
-
-### *property* ContactPenetrationTracker.CoordinateSystem *: [Ansys.ACT.Automation.Mechanical.CoordinateSystem](../../CoordinateSystem.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.CoordinateSystem) | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the CoordinateSystem.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="ContactPenetrationTracker.Spring"></a>
-
-### *property* ContactPenetrationTracker.Spring *: [Ansys.ACT.Automation.Mechanical.Connections.Spring](../../Connections/Spring.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Connections.Spring) | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the Spring.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="ContactPenetrationTracker.Location"></a>
-
-### *property* ContactPenetrationTracker.Location *: Ansys.ACT.Interfaces.Common.ISelectionInfo | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the Location.
 
 <!-- !! processed by numpydoc !! -->
 
@@ -474,6 +144,126 @@ Gets the list of associated comments.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="ContactPenetrationTracker.ContactRegion"></a>
+
+### *property* ContactPenetrationTracker.ContactRegion *: [Ansys.ACT.Automation.Mechanical.Connections.ContactRegion](../../Connections/ContactRegion.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Connections.ContactRegion) | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the ContactRegion.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ContactPenetrationTracker.ContactSide"></a>
+
+### *property* ContactPenetrationTracker.ContactSide *: [Ansys.Mechanical.DataModel.Enums.ContactScopingType](../../../../../../../v242/Ansys/Mechanical/DataModel/Enums/ContactScopingType.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.ContactScopingType) | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the ContactSide.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ContactPenetrationTracker.CoordinateSystem"></a>
+
+### *property* ContactPenetrationTracker.CoordinateSystem *: [Ansys.ACT.Automation.Mechanical.CoordinateSystem](../../CoordinateSystem.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.CoordinateSystem) | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the CoordinateSystem.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ContactPenetrationTracker.CurvesAppearanceDisplay"></a>
+
+### *property* ContactPenetrationTracker.CurvesAppearanceDisplay *: [Ansys.Mechanical.DataModel.Enums.ChartPlotStyle](../../../../../../../v242/Ansys/Mechanical/DataModel/Enums/ChartPlotStyle.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.ChartPlotStyle) | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the CurvesAppearanceDisplay.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ContactPenetrationTracker.CutFrequency"></a>
+
+### *property* ContactPenetrationTracker.CutFrequency *: System.Double | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the CutFrequency.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ContactPenetrationTracker.DataModelObjectCategory"></a>
+
+### *property* ContactPenetrationTracker.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../../../v242/Ansys/Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets the current DataModelObject’s category.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ContactPenetrationTracker.DeformationType"></a>
+
+### *property* ContactPenetrationTracker.DeformationType *: [Ansys.Mechanical.DataModel.Enums.TotalOrDirectional](../../../../../../../v242/Ansys/Mechanical/DataModel/Enums/TotalOrDirectional.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.TotalOrDirectional) | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the DeformationType.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ContactPenetrationTracker.DpfEvaluation"></a>
+
+### *property* ContactPenetrationTracker.DpfEvaluation *: [Ansys.Mechanical.DataModel.Enums.DpfEvaluationType](../../../../../../../v242/Ansys/Mechanical/DataModel/Enums/DpfEvaluationType.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.DpfEvaluationType) | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the DpfEvaluation.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ContactPenetrationTracker.Duration"></a>
+
+### *property* ContactPenetrationTracker.Duration *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the Duration.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ContactPenetrationTracker.EnhancedTracking"></a>
+
+### *property* ContactPenetrationTracker.EnhancedTracking *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets the EnhancedTracking.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ContactPenetrationTracker.FilterMaximum"></a>
+
+### *property* ContactPenetrationTracker.FilterMaximum *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets the FilterMaximum.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ContactPenetrationTracker.FilterMinimum"></a>
+
+### *property* ContactPenetrationTracker.FilterMinimum *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets the FilterMinimum.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ContactPenetrationTracker.FilterType"></a>
+
+### *property* ContactPenetrationTracker.FilterType *: [Ansys.Mechanical.DataModel.Enums.FilterType](../../../../../../../v242/Ansys/Mechanical/DataModel/Enums/FilterType.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.FilterType) | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the FilterType.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ContactPenetrationTracker.FrequencyAtMaximumAmplitude"></a>
+
+### *property* ContactPenetrationTracker.FrequencyAtMaximumAmplitude *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets the FrequencyAtMaximumAmplitude.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ContactPenetrationTracker.GeometrySelectionString"></a>
+
+### *property* ContactPenetrationTracker.GeometrySelectionString *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the GeometrySelectionString.
+
+<!-- !! processed by numpydoc !! -->
+
 <a id="ContactPenetrationTracker.Images"></a>
 
 ### *property* ContactPenetrationTracker.Images *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Image](../../Image.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
@@ -482,11 +272,99 @@ Gets the list of associated images.
 
 <!-- !! processed by numpydoc !! -->
 
-<a id="id0"></a>
+<a id="ContactPenetrationTracker.ImaginaryAtMaximumAmplitude"></a>
 
-### *property* ContactPenetrationTracker.InternalObject *: System.Object | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ContactPenetrationTracker.ImaginaryAtMaximumAmplitude *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets the ImaginaryAtMaximumAmplitude.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ContactPenetrationTracker.InternalObject"></a>
+
+### *property* ContactPenetrationTracker.InternalObject *: Ansys.Common.Interop.DSObjectsAuto.IDSResultChartAuto | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the internal object. For advanced usage only.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ContactPenetrationTracker.IsSolved"></a>
+
+### *property* ContactPenetrationTracker.IsSolved *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets the IsSolved.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ContactPenetrationTracker.LoadStepNumber"></a>
+
+### *property* ContactPenetrationTracker.LoadStepNumber *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the LoadStepNumber.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ContactPenetrationTracker.Location"></a>
+
+### *property* ContactPenetrationTracker.Location *: Ansys.ACT.Interfaces.Common.ISelectionInfo | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the Location.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ContactPenetrationTracker.Maximum"></a>
+
+### *property* ContactPenetrationTracker.Maximum *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets the Maximum.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ContactPenetrationTracker.MaximumAmplitude"></a>
+
+### *property* ContactPenetrationTracker.MaximumAmplitude *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets the MaximumAmplitude.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ContactPenetrationTracker.MaximumFrequency"></a>
+
+### *property* ContactPenetrationTracker.MaximumFrequency *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the MaximumFrequency.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ContactPenetrationTracker.Minimum"></a>
+
+### *property* ContactPenetrationTracker.Minimum *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets the Minimum.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ContactPenetrationTracker.MinimumFrequency"></a>
+
+### *property* ContactPenetrationTracker.MinimumFrequency *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the MinimumFrequency.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ContactPenetrationTracker.NormalOrientation"></a>
+
+### *property* ContactPenetrationTracker.NormalOrientation *: [Ansys.Mechanical.DataModel.Enums.NormalOrientationType](../../../../../../../v242/Ansys/Mechanical/DataModel/Enums/NormalOrientationType.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.NormalOrientationType) | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the NormalOrientation.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ContactPenetrationTracker.PhaseAngle"></a>
+
+### *property* ContactPenetrationTracker.PhaseAngle *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets the PhaseAngle.
 
 <!-- !! processed by numpydoc !! -->
 
@@ -498,6 +376,110 @@ Gets the list of properties for this object.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="ContactPenetrationTracker.RealAtMaximumAmplitude"></a>
+
+### *property* ContactPenetrationTracker.RealAtMaximumAmplitude *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets the RealAtMaximumAmplitude.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ContactPenetrationTracker.ReportedFrequency"></a>
+
+### *property* ContactPenetrationTracker.ReportedFrequency *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets the ReportedFrequency.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ContactPenetrationTracker.RequestedFrequency"></a>
+
+### *property* ContactPenetrationTracker.RequestedFrequency *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the RequestedFrequency.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ContactPenetrationTracker.ResultChartType"></a>
+
+### *property* ContactPenetrationTracker.ResultChartType *: [Ansys.Mechanical.DataModel.Enums.ChartResultType](../../../../../../../v242/Ansys/Mechanical/DataModel/Enums/ChartResultType.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.ChartResultType) | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets the ResultChartType.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ContactPenetrationTracker.SectorNumber"></a>
+
+### *property* ContactPenetrationTracker.SectorNumber *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the SectorNumber.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ContactPenetrationTracker.ShearOrientation"></a>
+
+### *property* ContactPenetrationTracker.ShearOrientation *: [Ansys.Mechanical.DataModel.Enums.ShearOrientationType](../../../../../../../v242/Ansys/Mechanical/DataModel/Enums/ShearOrientationType.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.ShearOrientationType) | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the ShearOrientation.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ContactPenetrationTracker.SpatialResolution"></a>
+
+### *property* ContactPenetrationTracker.SpatialResolution *: [Ansys.Mechanical.DataModel.Enums.MultipleNodeType](../../../../../../../v242/Ansys/Mechanical/DataModel/Enums/MultipleNodeType.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.MultipleNodeType) | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the SpatialResolution.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ContactPenetrationTracker.Spring"></a>
+
+### *property* ContactPenetrationTracker.Spring *: [Ansys.ACT.Automation.Mechanical.Connections.Spring](../../Connections/Spring.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Connections.Spring) | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the Spring.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ContactPenetrationTracker.StressStrainType"></a>
+
+### *property* ContactPenetrationTracker.StressStrainType *: [Ansys.Mechanical.DataModel.Enums.StressStrainType](../../../../../../../v242/Ansys/Mechanical/DataModel/Enums/StressStrainType.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.StressStrainType) | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the StressStrainType.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ContactPenetrationTracker.Suppressed"></a>
+
+### *property* ContactPenetrationTracker.Suppressed *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the Suppressed.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ContactPenetrationTracker.TimeHistoryDisplay"></a>
+
+### *property* ContactPenetrationTracker.TimeHistoryDisplay *: [Ansys.Mechanical.DataModel.Enums.TimeHistoryDisplayType](../../../../../../../v242/Ansys/Mechanical/DataModel/Enums/TimeHistoryDisplayType.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.TimeHistoryDisplayType) | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the TimeHistoryDisplay.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ContactPenetrationTracker.UseParentFrequencyRange"></a>
+
+### *property* ContactPenetrationTracker.UseParentFrequencyRange *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the UseParentFrequencyRange.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ContactPenetrationTracker.VelocityType"></a>
+
+### *property* ContactPenetrationTracker.VelocityType *: [Ansys.Mechanical.DataModel.Enums.TotalOrDirectional](../../../../../../../v242/Ansys/Mechanical/DataModel/Enums/TotalOrDirectional.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.TotalOrDirectional) | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the VelocityType.
+
+<!-- !! processed by numpydoc !! -->
+
 <a id="ContactPenetrationTracker.VisibleProperties"></a>
 
 ### *property* ContactPenetrationTracker.VisibleProperties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
@@ -506,63 +488,23 @@ Gets the list of properties that are visible for this object.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="ContactPenetrationTracker.XAxisValues"></a>
+
+### *property* ContactPenetrationTracker.XAxisValues *: [Ansys.Mechanical.DataModel.Enums.XAxisValues](../../../../../../../v242/Ansys/Mechanical/DataModel/Enums/XAxisValues.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.XAxisValues) | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the XAxisValues.
+
+<!-- !! processed by numpydoc !! -->
+
 <a id="method-detail"></a>
 
 ## Method detail
 
-<a id="ContactPenetrationTracker.ExportAnimation"></a>
+<a id="ContactPenetrationTracker.Activate"></a>
 
-### ContactPenetrationTracker.ExportAnimation(filePath: System.String, format: [Ansys.Mechanical.DataModel.Enums.GraphicsAnimationExportFormat](../../../../../Mechanical/DataModel/Enums/GraphicsAnimationExportFormat.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.GraphicsAnimationExportFormat), settings: [Ansys.Mechanical.Graphics.AnimationExportSettings](../../../../../Mechanical/Graphics/AnimationExportSettings.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.Graphics.AnimationExportSettings))
+### ContactPenetrationTracker.Activate()
 
-Run the ExportAnimation action.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="ContactPenetrationTracker.ClearGeneratedData"></a>
-
-### ContactPenetrationTracker.ClearGeneratedData()
-
-Run the ClearGeneratedData action.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="ContactPenetrationTracker.EvaluateAllResults"></a>
-
-### ContactPenetrationTracker.EvaluateAllResults()
-
-Run the EvaluateAllResults action.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="ContactPenetrationTracker.RenameBasedOnDefinition"></a>
-
-### ContactPenetrationTracker.RenameBasedOnDefinition()
-
-Run the RenameBasedOnDefinition action.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="ContactPenetrationTracker.Delete"></a>
-
-### ContactPenetrationTracker.Delete()
-
-Run the Delete action.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="ContactPenetrationTracker.GetChildren"></a>
-
-### ContactPenetrationTracker.GetChildren(recurses: System.Boolean, children: System.Collections.Generic.IList[ChildrenType])
-
-Gets the list of children, filtered by type.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="id1"></a>
-
-### ContactPenetrationTracker.GetChildren(category: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory), recurses: System.Boolean, children: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject])
-
-Gets the list of children, filtered by type.
+Activate the current object.
 
 <!-- !! processed by numpydoc !! -->
 
@@ -578,17 +520,19 @@ Creates a new child Comment.
 
 ### ContactPenetrationTracker.AddImage(filePath: System.String)
 
+```text
 Creates a new child Image.
 If a filePath is provided, the image will be loaded from that file,
 if not, the image will be a screen capture of the Geometry window.
+```
 
 <!-- !! processed by numpydoc !! -->
 
-<a id="ContactPenetrationTracker.Activate"></a>
+<a id="ContactPenetrationTracker.ClearGeneratedData"></a>
 
-### ContactPenetrationTracker.Activate()
+### ContactPenetrationTracker.ClearGeneratedData()
 
-Activate the current object.
+Run the ClearGeneratedData action.
 
 <!-- !! processed by numpydoc !! -->
 
@@ -600,11 +544,59 @@ Copies all visible properties from this object to another.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="ContactPenetrationTracker.CreateParameter"></a>
+
+### ContactPenetrationTracker.CreateParameter(propName: System.String)
+
+Creates a new parameter for a Property.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ContactPenetrationTracker.Delete"></a>
+
+### ContactPenetrationTracker.Delete()
+
+Run the Delete action.
+
+<!-- !! processed by numpydoc !! -->
+
 <a id="ContactPenetrationTracker.Duplicate"></a>
 
 ### ContactPenetrationTracker.Duplicate()
 
 Creates a copy of the current DataModelObject.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ContactPenetrationTracker.EvaluateAllResults"></a>
+
+### ContactPenetrationTracker.EvaluateAllResults()
+
+Run the EvaluateAllResults action.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ContactPenetrationTracker.ExportAnimation"></a>
+
+### ContactPenetrationTracker.ExportAnimation(filePath: System.String, format: [Ansys.Mechanical.DataModel.Enums.GraphicsAnimationExportFormat](../../../../../../../v242/Ansys/Mechanical/DataModel/Enums/GraphicsAnimationExportFormat.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.GraphicsAnimationExportFormat), settings: [Ansys.Mechanical.Graphics.AnimationExportSettings](../../../../../../../v242/Ansys/Mechanical/Graphics/AnimationExportSettings.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.Graphics.AnimationExportSettings))
+
+Run the ExportAnimation action.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ContactPenetrationTracker.GetChildren"></a>
+
+### ContactPenetrationTracker.GetChildren(recurses: System.Boolean, children: System.Collections.Generic.IList[ChildrenType])
+
+Gets the list of children, filtered by type.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ContactPenetrationTracker.GetParameter"></a>
+
+### ContactPenetrationTracker.GetParameter(propName: System.String)
+
+Gets the parameter corresponding to the given property.
 
 <!-- !! processed by numpydoc !! -->
 
@@ -624,6 +616,17 @@ Run the GroupSimilarObjects action.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="ContactPenetrationTracker.PropertyByAPIName"></a>
+
+### ContactPenetrationTracker.PropertyByAPIName(name: System.String)
+
+```text
+Get a property by its API name.
+If multiple properties have the same API Name, only the first property with that name will be returned.
+```
+
+<!-- !! processed by numpydoc !! -->
+
 <a id="ContactPenetrationTracker.PropertyByName"></a>
 
 ### ContactPenetrationTracker.PropertyByName(name: System.String)
@@ -632,36 +635,19 @@ Get a property by its unique name.
 
 <!-- !! processed by numpydoc !! -->
 
-<a id="ContactPenetrationTracker.PropertyByAPIName"></a>
-
-### ContactPenetrationTracker.PropertyByAPIName(name: System.String)
-
-Get a property by its API name.
-If multiple properties have the same API Name, only the first property with that name will be returned.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="ContactPenetrationTracker.CreateParameter"></a>
-
-### ContactPenetrationTracker.CreateParameter(propName: System.String)
-
-Creates a new parameter for a Property.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="ContactPenetrationTracker.GetParameter"></a>
-
-### ContactPenetrationTracker.GetParameter(propName: System.String)
-
-Gets the parameter corresponding to the given property.
-
-<!-- !! processed by numpydoc !! -->
-
 <a id="ContactPenetrationTracker.RemoveParameter"></a>
 
 ### ContactPenetrationTracker.RemoveParameter(propName: System.String)
 
 Removes the parameter from the parameter set corresponding to the given property.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ContactPenetrationTracker.RenameBasedOnDefinition"></a>
+
+### ContactPenetrationTracker.RenameBasedOnDefinition()
+
+Run the RenameBasedOnDefinition action.
 
 <!-- !! processed by numpydoc !! -->
 

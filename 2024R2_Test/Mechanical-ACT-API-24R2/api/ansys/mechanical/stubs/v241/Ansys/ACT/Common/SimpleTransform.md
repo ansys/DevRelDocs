@@ -1,6 +1,6 @@
 # `SimpleTransform`
 
-
+<a id="ansys.mechanical.stubs.v241.Ansys.ACT.Common.SimpleTransform"></a>
 
 #### *class* ansys.mechanical.stubs.v241.Ansys.ACT.Common.SimpleTransform
 
@@ -17,31 +17,31 @@ Exposes simple getters and setters for rigid body transformations.
 ### Properties
 
 | Name | Description |
-|-----------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------|
-| [`TransformationMatrix`](../../../../v242/Ansys/ACT/Common/SimpleTransform.md#SimpleTransform.TransformationMatrix)   | TransformationMatrix property.                                                    |
-| [`IsOrthonormal`](../../../../v242/Ansys/ACT/Common/SimpleTransform.md#SimpleTransform.IsOrthonormal)                 | Returns true if the provided axis vectors are all normalized and orthogonal.      |
-| [`Translation`](../../../../v242/Ansys/ACT/Common/SimpleTransform.md#SimpleTransform.Translation)                     | The translation of the transformation with respect to the global/world coordinate |
-| [`XAxis`](../../../../v242/Ansys/ACT/Common/SimpleTransform.md#SimpleTransform.XAxis)                                 | The X-axis orientation of the transformation with respect to the global/world     |
-| [`YAxis`](../../../../v242/Ansys/ACT/Common/SimpleTransform.md#SimpleTransform.YAxis)                                 | The Y-axis orientation of the transformation with respect to the global/world     |
-| [`ZAxis`](../../../../v242/Ansys/ACT/Common/SimpleTransform.md#SimpleTransform.ZAxis)                                 | The X-axis orientation of the transformation with respect to the global/world     |
+|-----------------------------------------------------------------|-----------------------------------------------------------------------------------|
+| [`IsOrthonormal`](#SimpleTransform.IsOrthonormal)               | Returns true if the provided axis vectors are all normalized and orthogonal.      |
+| [`TransformationMatrix`](#SimpleTransform.TransformationMatrix) | TransformationMatrix property.                                                    |
+| [`Translation`](#SimpleTransform.Translation)                   | The translation of the transformation with respect to the global/world coordinate |
+| [`XAxis`](#SimpleTransform.XAxis)                               | The X-axis orientation of the transformation with respect to the global/world     |
+| [`YAxis`](#SimpleTransform.YAxis)                               | The Y-axis orientation of the transformation with respect to the global/world     |
+| [`ZAxis`](#SimpleTransform.ZAxis)                               | The X-axis orientation of the transformation with respect to the global/world     |
 
 <a id="property-detail"></a>
 
 ## Property detail
-
-<a id="SimpleTransform.TransformationMatrix"></a>
-
-### *property* SimpleTransform.TransformationMatrix *: [Ansys.Mechanical.DataModel.Utilities.RigidBodyTransformationMatrix](../../Mechanical/DataModel/Utilities/RigidBodyTransformationMatrix.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Utilities.RigidBodyTransformationMatrix) | [None](https://docs.python.org/3/library/constants.html#None)*
-
-TransformationMatrix property.
-
-<!-- !! processed by numpydoc !! -->
 
 <a id="SimpleTransform.IsOrthonormal"></a>
 
 ### *property* SimpleTransform.IsOrthonormal *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Returns true if the provided axis vectors are all normalized and orthogonal.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="SimpleTransform.TransformationMatrix"></a>
+
+### *property* SimpleTransform.TransformationMatrix *: [Ansys.Mechanical.DataModel.Utilities.RigidBodyTransformationMatrix](../../../../v242/Ansys/Mechanical/DataModel/Utilities/RigidBodyTransformationMatrix.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Utilities.RigidBodyTransformationMatrix) | [None](https://docs.python.org/3/library/constants.html#None)*
+
+TransformationMatrix property.
 
 <!-- !! processed by numpydoc !! -->
 

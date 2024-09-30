@@ -1,6 +1,6 @@
 # `SpinSofteningType`
 
-
+<a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.SpinSofteningType"></a>
 
 #### *class* ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.SpinSofteningType
 
@@ -17,10 +17,10 @@ Specifies the SpinSofteningType.
 ### Attributes
 
 | Name |
-| -------------------------------------------------------------------------------------------------------------------------------------- |
-| [`No`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/SpinSofteningType.md#SpinSofteningType.No) |
-| [`Yes`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/SpinSofteningType.md#SpinSofteningType.Yes) |
-| [`ProgramControlled`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/SpinSofteningType.md#SpinSofteningType.ProgramControlled) |
+| ------------------------------------------------------------- |
+| [`No`](#SpinSofteningType.No) |
+| [`ProgramControlled`](#SpinSofteningType.ProgramControlled) |
+| [`Yes`](#SpinSofteningType.Yes) |
 
 <a id="attribute-detail"></a>
 
@@ -30,12 +30,12 @@ Specifies the SpinSofteningType.
 
 ### SpinSofteningType.No *= 0*
 
-<a id="SpinSofteningType.Yes"></a>
-
-### SpinSofteningType.Yes *= 1*
-
 <a id="SpinSofteningType.ProgramControlled"></a>
 
 ### SpinSofteningType.ProgramControlled *= 2*
+
+<a id="SpinSofteningType.Yes"></a>
+
+### SpinSofteningType.Yes *= 1*
 
 

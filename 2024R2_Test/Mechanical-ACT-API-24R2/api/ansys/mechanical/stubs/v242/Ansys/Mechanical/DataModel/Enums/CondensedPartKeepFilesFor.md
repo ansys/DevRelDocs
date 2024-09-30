@@ -1,6 +1,6 @@
 # `CondensedPartKeepFilesFor`
 
-
+<a id="ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.CondensedPartKeepFilesFor"></a>
 
 #### *class* ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.CondensedPartKeepFilesFor
 
@@ -17,18 +17,14 @@ Specifies the CondensedPartKeepFilesFor.
 ### Attributes
 
 | Name |
-| --------------------------------------------------------------------- |
-| [`UsePassOnly`](#CondensedPartKeepFilesFor.UsePassOnly) |
+| ------------------------------------------------------------------------------------------------------------------------------------------------------ |
 | [`MAPDLExpansion`](#CondensedPartKeepFilesFor.MAPDLExpansion) |
 | [`OnDemandExpansion`](#CondensedPartKeepFilesFor.OnDemandExpansion) |
+| [`UsePassOnly`](#CondensedPartKeepFilesFor.UsePassOnly) |
 
 <a id="attribute-detail"></a>
 
 ## Attribute detail
-
-<a id="CondensedPartKeepFilesFor.UsePassOnly"></a>
-
-### CondensedPartKeepFilesFor.UsePassOnly *= 0*
 
 <a id="CondensedPartKeepFilesFor.MAPDLExpansion"></a>
 
@@ -37,5 +33,9 @@ Specifies the CondensedPartKeepFilesFor.
 <a id="CondensedPartKeepFilesFor.OnDemandExpansion"></a>
 
 ### CondensedPartKeepFilesFor.OnDemandExpansion *= 1*
+
+<a id="CondensedPartKeepFilesFor.UsePassOnly"></a>
+
+### CondensedPartKeepFilesFor.UsePassOnly *= 0*
 
 

@@ -1,6 +1,6 @@
 # `ExternalLoadDisplacementType`
 
-
+<a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.ExternalLoadDisplacementType"></a>
 
 #### *class* ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.ExternalLoadDisplacementType
 
@@ -17,9 +17,9 @@ Specifies the ExternalLoadDisplacementType.
 ### Attributes
 
 | Name |
-| ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| [`BoundaryPrescribedFinalGeometry`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/ExternalLoadDisplacementType.md#ExternalLoadDisplacementType.BoundaryPrescribedFinalGeometry) |
-| [`InitialFoamReferenceGeometry`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/ExternalLoadDisplacementType.md#ExternalLoadDisplacementType.InitialFoamReferenceGeometry) |
+| ------------------------------------------------------------------------------------------------------ |
+| [`BoundaryPrescribedFinalGeometry`](#ExternalLoadDisplacementType.BoundaryPrescribedFinalGeometry) |
+| [`InitialFoamReferenceGeometry`](#ExternalLoadDisplacementType.InitialFoamReferenceGeometry) |
 
 <a id="attribute-detail"></a>
 

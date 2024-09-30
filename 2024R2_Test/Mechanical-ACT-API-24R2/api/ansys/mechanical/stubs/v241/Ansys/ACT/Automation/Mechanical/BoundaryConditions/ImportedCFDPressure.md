@@ -1,6 +1,6 @@
 # `ImportedCFDPressure`
 
-
+<a id="ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.BoundaryConditions.ImportedCFDPressure"></a>
 
 #### *class* ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.BoundaryConditions.ImportedCFDPressure
 
@@ -17,93 +17,51 @@ Defines a ImportedCFDPressure.
 ### Methods
 
 | Name | Description |
-|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------|
-| [`PromoteToNamedSelection`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/BoundaryConditions/ImportedCFDPressure.md#ImportedCFDPressure.PromoteToNamedSelection)   | Run the PromoteToNamedSelection action.                                           |
-| [`Delete`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/BoundaryConditions/ImportedCFDPressure.md#ImportedCFDPressure.Delete)                                     | Run the Delete action.                                                            |
-| [`GetChildren`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/BoundaryConditions/ImportedCFDPressure.md#id1)                                                       | Gets the list of children, filtered by type.                                      |
-| [`GetChildren`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/BoundaryConditions/ImportedCFDPressure.md#id1)                                                       | Gets the list of children, filtered by type.                                      |
-| [`AddComment`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/BoundaryConditions/ImportedCFDPressure.md#ImportedCFDPressure.AddComment)                             | Creates a new child Comment.                                                      |
-| [`AddFigure`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/BoundaryConditions/ImportedCFDPressure.md#ImportedCFDPressure.AddFigure)                               | Creates a new child Figure.                                                       |
-| [`AddImage`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/BoundaryConditions/ImportedCFDPressure.md#ImportedCFDPressure.AddImage)                                 | Creates a new child Image.                                                        |
-| [`Activate`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/BoundaryConditions/ImportedCFDPressure.md#ImportedCFDPressure.Activate)                                 | Activate the current object.                                                      |
-| [`CopyTo`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/BoundaryConditions/ImportedCFDPressure.md#ImportedCFDPressure.CopyTo)                                     | Copies all visible properties from this object to another.                        |
-| [`Duplicate`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/BoundaryConditions/ImportedCFDPressure.md#ImportedCFDPressure.Duplicate)                               | Creates a copy of the current DataModelObject.                                    |
-| [`GroupAllSimilarChildren`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/BoundaryConditions/ImportedCFDPressure.md#ImportedCFDPressure.GroupAllSimilarChildren)   | Run the GroupAllSimilarChildren action.                                           |
-| [`GroupSimilarObjects`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/BoundaryConditions/ImportedCFDPressure.md#ImportedCFDPressure.GroupSimilarObjects)           | Run the GroupSimilarObjects action.                                               |
-| [`PropertyByName`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/BoundaryConditions/ImportedCFDPressure.md#ImportedCFDPressure.PropertyByName)                     | Get a property by its unique name.                                                |
-| [`PropertyByAPIName`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/BoundaryConditions/ImportedCFDPressure.md#ImportedCFDPressure.PropertyByAPIName)               | Get a property by its API name.                                                   |
-| [`CreateParameter`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/BoundaryConditions/ImportedCFDPressure.md#ImportedCFDPressure.CreateParameter)                   | Creates a new parameter for a Property.                                           |
-| [`GetParameter`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/BoundaryConditions/ImportedCFDPressure.md#ImportedCFDPressure.GetParameter)                         | Gets the parameter corresponding to the given property.                           |
-| [`RemoveParameter`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/BoundaryConditions/ImportedCFDPressure.md#ImportedCFDPressure.RemoveParameter)                   | Removes the parameter from the parameter set corresponding to the given property. |
+|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------|
+| [`Activate`](#ImportedCFDPressure.Activate)                               | Activate the current object.                                                      |
+| [`AddComment`](#ImportedCFDPressure.AddComment)                           | Creates a new child Comment.                                                      |
+| [`AddFigure`](#ImportedCFDPressure.AddFigure)                             | Creates a new child Figure.                                                       |
+| [`AddImage`](#ImportedCFDPressure.AddImage)                               | Creates a new child Image.                                                        |
+| [`CopyTo`](#ImportedCFDPressure.CopyTo)                                   | Copies all visible properties from this object to another.                        |
+| [`CreateParameter`](#ImportedCFDPressure.CreateParameter)                 | Creates a new parameter for a Property.                                           |
+| [`Delete`](#ImportedCFDPressure.Delete)                                   | Run the Delete action.                                                            |
+| [`Duplicate`](#ImportedCFDPressure.Duplicate)                             | Creates a copy of the current DataModelObject.                                    |
+| [`GetChildren`](#ImportedCFDPressure.GetChildren)                         | Gets the list of children, filtered by type.                                      |
+| [`GetParameter`](#ImportedCFDPressure.GetParameter)                       | Gets the parameter corresponding to the given property.                           |
+| [`GroupAllSimilarChildren`](#ImportedCFDPressure.GroupAllSimilarChildren) | Run the GroupAllSimilarChildren action.                                           |
+| [`GroupSimilarObjects`](#ImportedCFDPressure.GroupSimilarObjects)         | Run the GroupSimilarObjects action.                                               |
+| [`PromoteToNamedSelection`](#ImportedCFDPressure.PromoteToNamedSelection) | Run the PromoteToNamedSelection action.                                           |
+| [`PropertyByAPIName`](#ImportedCFDPressure.PropertyByAPIName)             | Get a property by its API name.                                                   |
+| [`PropertyByName`](#ImportedCFDPressure.PropertyByName)                   | Get a property by its unique name.                                                |
+| [`RemoveParameter`](#ImportedCFDPressure.RemoveParameter)                 | Removes the parameter from the parameter set corresponding to the given property. |
 
 ### Properties
 
 | Name | Description |
 |---------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------|
-| [`InternalObject`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/BoundaryConditions/ImportedCFDPressure.md#id0)                                                  | Gets the internal object. For advanced usage only.            |
-| [`CFDPressureFile`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/BoundaryConditions/ImportedCFDPressure.md#ImportedCFDPressure.CFDPressureFile)                 | Gets or sets the CFDPressureFile.                             |
-| [`Location`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/BoundaryConditions/ImportedCFDPressure.md#ImportedCFDPressure.Location)                               | Gets or sets the Location.                                    |
-| [`DataModelObjectCategory`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/BoundaryConditions/ImportedCFDPressure.md#ImportedCFDPressure.DataModelObjectCategory) | Gets the current DataModelObject's category.                  |
-| [`Suppressed`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/BoundaryConditions/ImportedCFDPressure.md#ImportedCFDPressure.Suppressed)                           | Gets or sets the Suppressed.                                  |
-| [`SharedRefBody`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/BoundaryConditions/ImportedCFDPressure.md#ImportedCFDPressure.SharedRefBody)                     | Gets or sets the SharedRefBody.                               |
-| [`Children`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/BoundaryConditions/ImportedCFDPressure.md#ImportedCFDPressure.Children)                               | Gets the list of children.                                    |
-| [`Comments`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/BoundaryConditions/ImportedCFDPressure.md#ImportedCFDPressure.Comments)                               | Gets the list of associated comments.                         |
-| [`Figures`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/BoundaryConditions/ImportedCFDPressure.md#ImportedCFDPressure.Figures)                                 | Gets the list of associated figures.                          |
-| [`Images`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/BoundaryConditions/ImportedCFDPressure.md#ImportedCFDPressure.Images)                                   | Gets the list of associated images.                           |
-| [`ReadOnly`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/BoundaryConditions/ImportedCFDPressure.md#ImportedCFDPressure.ReadOnly)                               | Gets or sets the ReadOnly.                                    |
-| [`InternalObject`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/BoundaryConditions/ImportedCFDPressure.md#id0)                                                  | Gets the internal object. For advanced usage only.            |
-| [`Properties`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/BoundaryConditions/ImportedCFDPressure.md#ImportedCFDPressure.Properties)                           | Gets the list of properties for this object.                  |
-| [`VisibleProperties`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/BoundaryConditions/ImportedCFDPressure.md#ImportedCFDPressure.VisibleProperties)             | Gets the list of properties that are visible for this object. |
+| [`CFDPressureFile`](#ImportedCFDPressure.CFDPressureFile)                 | Gets or sets the CFDPressureFile.                             |
+| [`Children`](#ImportedCFDPressure.Children)                               | Gets the list of children.                                    |
+| [`Comments`](#ImportedCFDPressure.Comments)                               | Gets the list of associated comments.                         |
+| [`DataModelObjectCategory`](#ImportedCFDPressure.DataModelObjectCategory) | Gets the current DataModelObject’s category.                  |
+| [`Figures`](#ImportedCFDPressure.Figures)                                 | Gets the list of associated figures.                          |
+| [`Images`](#ImportedCFDPressure.Images)                                   | Gets the list of associated images.                           |
+| [`InternalObject`](#ImportedCFDPressure.InternalObject)                   | Gets the internal object. For advanced usage only.            |
+| [`Location`](#ImportedCFDPressure.Location)                               | Gets or sets the Location.                                    |
+| [`Properties`](#ImportedCFDPressure.Properties)                           | Gets the list of properties for this object.                  |
+| [`ReadOnly`](#ImportedCFDPressure.ReadOnly)                               | Gets or sets the ReadOnly.                                    |
+| [`SharedRefBody`](#ImportedCFDPressure.SharedRefBody)                     | Gets or sets the SharedRefBody.                               |
+| [`Suppressed`](#ImportedCFDPressure.Suppressed)                           | Gets or sets the Suppressed.                                  |
+| [`VisibleProperties`](#ImportedCFDPressure.VisibleProperties)             | Gets the list of properties that are visible for this object. |
 
 <a id="property-detail"></a>
 
 ## Property detail
-
-<a id="ImportedCFDPressure.InternalObject"></a>
-
-### *property* ImportedCFDPressure.InternalObject *: Ansys.Common.Interop.DSObjectsAuto.IDSLoadAuto | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets the internal object. For advanced usage only.
-
-<!-- !! processed by numpydoc !! -->
 
 <a id="ImportedCFDPressure.CFDPressureFile"></a>
 
 ### *property* ImportedCFDPressure.CFDPressureFile *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the CFDPressureFile.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="ImportedCFDPressure.Location"></a>
-
-### *property* ImportedCFDPressure.Location *: Ansys.ACT.Interfaces.Common.ISelectionInfo | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the Location.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="ImportedCFDPressure.DataModelObjectCategory"></a>
-
-### *property* ImportedCFDPressure.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets the current DataModelObject's category.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="ImportedCFDPressure.Suppressed"></a>
-
-### *property* ImportedCFDPressure.Suppressed *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the Suppressed.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="ImportedCFDPressure.SharedRefBody"></a>
-
-### *property* ImportedCFDPressure.SharedRefBody *: [Ansys.ACT.Automation.Mechanical.Body](../Body.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Body) | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the SharedRefBody.
 
 <!-- !! processed by numpydoc !! -->
 
@@ -123,6 +81,14 @@ Gets the list of associated comments.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="ImportedCFDPressure.DataModelObjectCategory"></a>
+
+### *property* ImportedCFDPressure.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../../v242/Ansys/Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets the current DataModelObject’s category.
+
+<!-- !! processed by numpydoc !! -->
+
 <a id="ImportedCFDPressure.Figures"></a>
 
 ### *property* ImportedCFDPressure.Figures *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Figure](../Figure.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
@@ -139,19 +105,19 @@ Gets the list of associated images.
 
 <!-- !! processed by numpydoc !! -->
 
-<a id="ImportedCFDPressure.ReadOnly"></a>
+<a id="ImportedCFDPressure.InternalObject"></a>
 
-### *property* ImportedCFDPressure.ReadOnly *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ImportedCFDPressure.InternalObject *: Ansys.Common.Interop.DSObjectsAuto.IDSLoadAuto | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets or sets the ReadOnly.
+Gets the internal object. For advanced usage only.
 
 <!-- !! processed by numpydoc !! -->
 
-<a id="id0"></a>
+<a id="ImportedCFDPressure.Location"></a>
 
-### *property* ImportedCFDPressure.InternalObject *: System.Object | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ImportedCFDPressure.Location *: Ansys.ACT.Interfaces.Common.ISelectionInfo | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets the internal object. For advanced usage only.
+Gets or sets the Location.
 
 <!-- !! processed by numpydoc !! -->
 
@@ -160,6 +126,30 @@ Gets the internal object. For advanced usage only.
 ### *property* ImportedCFDPressure.Properties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of properties for this object.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ImportedCFDPressure.ReadOnly"></a>
+
+### *property* ImportedCFDPressure.ReadOnly *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the ReadOnly.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ImportedCFDPressure.SharedRefBody"></a>
+
+### *property* ImportedCFDPressure.SharedRefBody *: [Ansys.ACT.Automation.Mechanical.Body](../Body.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Body) | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the SharedRefBody.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ImportedCFDPressure.Suppressed"></a>
+
+### *property* ImportedCFDPressure.Suppressed *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the Suppressed.
 
 <!-- !! processed by numpydoc !! -->
 
@@ -175,35 +165,11 @@ Gets the list of properties that are visible for this object.
 
 ## Method detail
 
-<a id="ImportedCFDPressure.PromoteToNamedSelection"></a>
+<a id="ImportedCFDPressure.Activate"></a>
 
-### ImportedCFDPressure.PromoteToNamedSelection()
+### ImportedCFDPressure.Activate()
 
-Run the PromoteToNamedSelection action.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="ImportedCFDPressure.Delete"></a>
-
-### ImportedCFDPressure.Delete()
-
-Run the Delete action.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="ImportedCFDPressure.GetChildren"></a>
-
-### ImportedCFDPressure.GetChildren(recurses: System.Boolean, children: System.Collections.Generic.IList[ChildrenType])
-
-Gets the list of children, filtered by type.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="id1"></a>
-
-### ImportedCFDPressure.GetChildren(category: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory), recurses: System.Boolean, children: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject])
-
-Gets the list of children, filtered by type.
+Activate the current object.
 
 <!-- !! processed by numpydoc !! -->
 
@@ -227,17 +193,11 @@ Creates a new child Figure.
 
 ### ImportedCFDPressure.AddImage(filePath: System.String)
 
+```text
 Creates a new child Image.
 If a filePath is provided, the image will be loaded from that file,
 if not, the image will be a screen capture of the Geometry window.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="ImportedCFDPressure.Activate"></a>
-
-### ImportedCFDPressure.Activate()
-
-Activate the current object.
+```
 
 <!-- !! processed by numpydoc !! -->
 
@@ -249,11 +209,43 @@ Copies all visible properties from this object to another.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="ImportedCFDPressure.CreateParameter"></a>
+
+### ImportedCFDPressure.CreateParameter(propName: System.String)
+
+Creates a new parameter for a Property.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ImportedCFDPressure.Delete"></a>
+
+### ImportedCFDPressure.Delete()
+
+Run the Delete action.
+
+<!-- !! processed by numpydoc !! -->
+
 <a id="ImportedCFDPressure.Duplicate"></a>
 
 ### ImportedCFDPressure.Duplicate()
 
 Creates a copy of the current DataModelObject.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ImportedCFDPressure.GetChildren"></a>
+
+### ImportedCFDPressure.GetChildren(recurses: System.Boolean, children: System.Collections.Generic.IList[ChildrenType])
+
+Gets the list of children, filtered by type.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ImportedCFDPressure.GetParameter"></a>
+
+### ImportedCFDPressure.GetParameter(propName: System.String)
+
+Gets the parameter corresponding to the given property.
 
 <!-- !! processed by numpydoc !! -->
 
@@ -273,11 +265,11 @@ Run the GroupSimilarObjects action.
 
 <!-- !! processed by numpydoc !! -->
 
-<a id="ImportedCFDPressure.PropertyByName"></a>
+<a id="ImportedCFDPressure.PromoteToNamedSelection"></a>
 
-### ImportedCFDPressure.PropertyByName(name: System.String)
+### ImportedCFDPressure.PromoteToNamedSelection()
 
-Get a property by its unique name.
+Run the PromoteToNamedSelection action.
 
 <!-- !! processed by numpydoc !! -->
 
@@ -285,24 +277,18 @@ Get a property by its unique name.
 
 ### ImportedCFDPressure.PropertyByAPIName(name: System.String)
 
+```text
 Get a property by its API name.
 If multiple properties have the same API Name, only the first property with that name will be returned.
+```
 
 <!-- !! processed by numpydoc !! -->
 
-<a id="ImportedCFDPressure.CreateParameter"></a>
+<a id="ImportedCFDPressure.PropertyByName"></a>
 
-### ImportedCFDPressure.CreateParameter(propName: System.String)
+### ImportedCFDPressure.PropertyByName(name: System.String)
 
-Creates a new parameter for a Property.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="ImportedCFDPressure.GetParameter"></a>
-
-### ImportedCFDPressure.GetParameter(propName: System.String)
-
-Gets the parameter corresponding to the given property.
+Get a property by its unique name.
 
 <!-- !! processed by numpydoc !! -->
 

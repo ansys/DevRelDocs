@@ -1,6 +1,6 @@
 # `RadiosityViewFactorType`
 
-
+<a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.RadiosityViewFactorType"></a>
 
 #### *class* ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.RadiosityViewFactorType
 
@@ -17,9 +17,9 @@ Specifies the RadiosityViewFactorType.
 ### Attributes
 
 | Name |
-| ------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| [`RadiosityFF2DHidden`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/RadiosityViewFactorType.md#RadiosityViewFactorType.RadiosityFF2DHidden) |
-| [`RadiosityFF2DNonHidden`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/RadiosityViewFactorType.md#RadiosityViewFactorType.RadiosityFF2DNonHidden) |
+| ----------------------------------------------------------------------------- |
+| [`RadiosityFF2DHidden`](#RadiosityViewFactorType.RadiosityFF2DHidden) |
+| [`RadiosityFF2DNonHidden`](#RadiosityViewFactorType.RadiosityFF2DNonHidden) |
 
 <a id="attribute-detail"></a>
 

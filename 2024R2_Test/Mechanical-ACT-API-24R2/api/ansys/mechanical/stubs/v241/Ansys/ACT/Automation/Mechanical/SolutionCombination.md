@@ -1,6 +1,6 @@
 # `SolutionCombination`
 
-
+<a id="ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.SolutionCombination"></a>
 
 #### *class* ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.SolutionCombination
 
@@ -17,128 +17,101 @@ Defines a SolutionCombination.
 ### Methods
 
 | Name | Description |
-|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------|
-| [`ClearGeneratedData`](../../../../../v242/Ansys/ACT/Automation/Mechanical/SolutionCombination.md#SolutionCombination.ClearGeneratedData)                                   | Run the ClearGeneratedData action.                                                |
-| [`AddContactTool`](../../../../../v242/Ansys/ACT/Automation/Mechanical/SolutionCombination.md#SolutionCombination.AddContactTool)                                           | Creates a new ContactTool                                                         |
-| [`EvaluateAllResults`](../../../../../v242/Ansys/ACT/Automation/Mechanical/SolutionCombination.md#SolutionCombination.EvaluateAllResults)                                   | Run the EvaluateAllResults action.                                                |
-| [`AddFatigueTool`](../../../../../v242/Ansys/ACT/Automation/Mechanical/SolutionCombination.md#SolutionCombination.AddFatigueTool)                                           | Creates a new FatigueTool                                                         |
-| [`AddCompositeFailureTool`](../../../../../v242/Ansys/ACT/Automation/Mechanical/SolutionCombination.md#SolutionCombination.AddCompositeFailureTool)                         | Creates a new CompositeFailureTool                                                |
-| [`AddBeamTool`](../../../../../v242/Ansys/ACT/Automation/Mechanical/SolutionCombination.md#SolutionCombination.AddBeamTool)                                                 | Creates a new BeamTool                                                            |
-| [`AddDirectionalAcceleration`](../../../../../v242/Ansys/ACT/Automation/Mechanical/SolutionCombination.md#SolutionCombination.AddDirectionalAcceleration)                   | Creates a new DirectionalAcceleration                                             |
-| [`AddDirectionalAxialForce`](../../../../../v242/Ansys/ACT/Automation/Mechanical/SolutionCombination.md#SolutionCombination.AddDirectionalAxialForce)                       | Creates a new DirectionalAxialForce                                               |
-| [`AddDirectionalBendingMoment`](../../../../../v242/Ansys/ACT/Automation/Mechanical/SolutionCombination.md#SolutionCombination.AddDirectionalBendingMoment)                 | Creates a new DirectionalBendingMoment                                            |
-| [`AddDirectionalDeformation`](../../../../../v242/Ansys/ACT/Automation/Mechanical/SolutionCombination.md#SolutionCombination.AddDirectionalDeformation)                     | Creates a new DirectionalDeformation                                              |
-| [`AddDirectionalShearForce`](../../../../../v242/Ansys/ACT/Automation/Mechanical/SolutionCombination.md#SolutionCombination.AddDirectionalShearForce)                       | Creates a new DirectionalShearForce                                               |
-| [`AddShearMomentDiagramMY`](../../../../../v242/Ansys/ACT/Automation/Mechanical/SolutionCombination.md#SolutionCombination.AddShearMomentDiagramMY)                         | Creates a new DirectionalShearMomentDiagram                                       |
-| [`AddShearMomentDiagramMZ`](../../../../../v242/Ansys/ACT/Automation/Mechanical/SolutionCombination.md#SolutionCombination.AddShearMomentDiagramMZ)                         | Creates a new DirectionalShearMomentDiagram                                       |
-| [`AddShearMomentDiagramUY`](../../../../../v242/Ansys/ACT/Automation/Mechanical/SolutionCombination.md#SolutionCombination.AddShearMomentDiagramUY)                         | Creates a new DirectionalShearMomentDiagram                                       |
-| [`AddShearMomentDiagramUZ`](../../../../../v242/Ansys/ACT/Automation/Mechanical/SolutionCombination.md#SolutionCombination.AddShearMomentDiagramUZ)                         | Creates a new DirectionalShearMomentDiagram                                       |
-| [`AddShearMomentDiagramVY`](../../../../../v242/Ansys/ACT/Automation/Mechanical/SolutionCombination.md#SolutionCombination.AddShearMomentDiagramVY)                         | Creates a new DirectionalShearMomentDiagram                                       |
-| [`AddShearMomentDiagramVZ`](../../../../../v242/Ansys/ACT/Automation/Mechanical/SolutionCombination.md#SolutionCombination.AddShearMomentDiagramVZ)                         | Creates a new DirectionalShearMomentDiagram                                       |
-| [`AddDirectionalTorsionalMoment`](../../../../../v242/Ansys/ACT/Automation/Mechanical/SolutionCombination.md#SolutionCombination.AddDirectionalTorsionalMoment)             | Creates a new DirectionalTorsionalMoment                                          |
-| [`AddDirectionalVelocity`](../../../../../v242/Ansys/ACT/Automation/Mechanical/SolutionCombination.md#SolutionCombination.AddDirectionalVelocity)                           | Creates a new DirectionalVelocity                                                 |
-| [`AddElasticStrainIntensity`](../../../../../v242/Ansys/ACT/Automation/Mechanical/SolutionCombination.md#SolutionCombination.AddElasticStrainIntensity)                     | Creates a new ElasticStrainIntensity                                              |
-| [`AddEquivalentElasticStrain`](../../../../../v242/Ansys/ACT/Automation/Mechanical/SolutionCombination.md#SolutionCombination.AddEquivalentElasticStrain)                   | Creates a new EquivalentElasticStrain                                             |
-| [`AddEquivalentElasticStrainRST`](../../../../../v242/Ansys/ACT/Automation/Mechanical/SolutionCombination.md#SolutionCombination.AddEquivalentElasticStrainRST)             | Creates a new EquivalentElasticStrainRST                                          |
-| [`AddEquivalentStress`](../../../../../v242/Ansys/ACT/Automation/Mechanical/SolutionCombination.md#SolutionCombination.AddEquivalentStress)                                 | Creates a new EquivalentStress                                                    |
-| [`AddEquivalentTotalStrain`](../../../../../v242/Ansys/ACT/Automation/Mechanical/SolutionCombination.md#SolutionCombination.AddEquivalentTotalStrain)                       | Creates a new EquivalentTotalStrain                                               |
-| [`AddLinearizedEquivalentStress`](../../../../../v242/Ansys/ACT/Automation/Mechanical/SolutionCombination.md#SolutionCombination.AddLinearizedEquivalentStress)             | Creates a new LinearizedEquivalentStress                                          |
-| [`AddLinearizedMaximumPrincipalStress`](../../../../../v242/Ansys/ACT/Automation/Mechanical/SolutionCombination.md#SolutionCombination.AddLinearizedMaximumPrincipalStress) | Creates a new LinearizedMaximumPrincipalStress                                    |
-| [`AddLinearizedMaximumShearStress`](../../../../../v242/Ansys/ACT/Automation/Mechanical/SolutionCombination.md#SolutionCombination.AddLinearizedMaximumShearStress)         | Creates a new LinearizedMaximumShearStress                                        |
-| [`AddLinearizedMiddlePrincipalStress`](../../../../../v242/Ansys/ACT/Automation/Mechanical/SolutionCombination.md#SolutionCombination.AddLinearizedMiddlePrincipalStress)   | Creates a new LinearizedMiddlePrincipalStress                                     |
-| [`AddLinearizedMinimumPrincipalStress`](../../../../../v242/Ansys/ACT/Automation/Mechanical/SolutionCombination.md#SolutionCombination.AddLinearizedMinimumPrincipalStress) | Creates a new LinearizedMinimumPrincipalStress                                    |
-| [`AddLinearizedNormalStress`](../../../../../v242/Ansys/ACT/Automation/Mechanical/SolutionCombination.md#SolutionCombination.AddLinearizedNormalStress)                     | Creates a new LinearizedNormalStress                                              |
-| [`AddLinearizedShearStress`](../../../../../v242/Ansys/ACT/Automation/Mechanical/SolutionCombination.md#SolutionCombination.AddLinearizedShearStress)                       | Creates a new LinearizedShearStress                                               |
-| [`AddLinearizedStressIntensity`](../../../../../v242/Ansys/ACT/Automation/Mechanical/SolutionCombination.md#SolutionCombination.AddLinearizedStressIntensity)               | Creates a new LinearizedStressIntensity                                           |
-| [`AddMaximumPrincipalElasticStrain`](../../../../../v242/Ansys/ACT/Automation/Mechanical/SolutionCombination.md#SolutionCombination.AddMaximumPrincipalElasticStrain)       | Creates a new MaximumPrincipalElasticStrain                                       |
-| [`AddMaximumPrincipalStress`](../../../../../v242/Ansys/ACT/Automation/Mechanical/SolutionCombination.md#SolutionCombination.AddMaximumPrincipalStress)                     | Creates a new MaximumPrincipalStress                                              |
-| [`AddMaximumShearElasticStrain`](../../../../../v242/Ansys/ACT/Automation/Mechanical/SolutionCombination.md#SolutionCombination.AddMaximumShearElasticStrain)               | Creates a new MaximumShearElasticStrain                                           |
-| [`AddMaximumShearStress`](../../../../../v242/Ansys/ACT/Automation/Mechanical/SolutionCombination.md#SolutionCombination.AddMaximumShearStress)                             | Creates a new MaximumShearStress                                                  |
-| [`AddMiddlePrincipalElasticStrain`](../../../../../v242/Ansys/ACT/Automation/Mechanical/SolutionCombination.md#SolutionCombination.AddMiddlePrincipalElasticStrain)         | Creates a new MiddlePrincipalElasticStrain                                        |
-| [`AddMiddlePrincipalStress`](../../../../../v242/Ansys/ACT/Automation/Mechanical/SolutionCombination.md#SolutionCombination.AddMiddlePrincipalStress)                       | Creates a new MiddlePrincipalStress                                               |
-| [`AddMinimumPrincipalElasticStrain`](../../../../../v242/Ansys/ACT/Automation/Mechanical/SolutionCombination.md#SolutionCombination.AddMinimumPrincipalElasticStrain)       | Creates a new MinimumPrincipalElasticStrain                                       |
-| [`AddMinimumPrincipalStress`](../../../../../v242/Ansys/ACT/Automation/Mechanical/SolutionCombination.md#SolutionCombination.AddMinimumPrincipalStress)                     | Creates a new MinimumPrincipalStress                                              |
-| [`AddNormalElasticStrain`](../../../../../v242/Ansys/ACT/Automation/Mechanical/SolutionCombination.md#SolutionCombination.AddNormalElasticStrain)                           | Creates a new NormalElasticStrain                                                 |
-| [`AddNormalStress`](../../../../../v242/Ansys/ACT/Automation/Mechanical/SolutionCombination.md#SolutionCombination.AddNormalStress)                                         | Creates a new NormalStress                                                        |
-| [`AddShearElasticStrain`](../../../../../v242/Ansys/ACT/Automation/Mechanical/SolutionCombination.md#SolutionCombination.AddShearElasticStrain)                             | Creates a new ShearElasticStrain                                                  |
-| [`AddShearStress`](../../../../../v242/Ansys/ACT/Automation/Mechanical/SolutionCombination.md#SolutionCombination.AddShearStress)                                           | Creates a new ShearStress                                                         |
-| [`AddStressIntensity`](../../../../../v242/Ansys/ACT/Automation/Mechanical/SolutionCombination.md#SolutionCombination.AddStressIntensity)                                   | Creates a new StressIntensity                                                     |
-| [`AddStressTool`](../../../../../v242/Ansys/ACT/Automation/Mechanical/SolutionCombination.md#SolutionCombination.AddStressTool)                                             | Creates a new StressTool                                                          |
-| [`AddTotalAcceleration`](../../../../../v242/Ansys/ACT/Automation/Mechanical/SolutionCombination.md#SolutionCombination.AddTotalAcceleration)                               | Creates a new TotalAcceleration                                                   |
-| [`AddTotalAxialForce`](../../../../../v242/Ansys/ACT/Automation/Mechanical/SolutionCombination.md#SolutionCombination.AddTotalAxialForce)                                   | Creates a new TotalAxialForce                                                     |
-| [`AddTotalBendingMoment`](../../../../../v242/Ansys/ACT/Automation/Mechanical/SolutionCombination.md#SolutionCombination.AddTotalBendingMoment)                             | Creates a new TotalBendingMoment                                                  |
-| [`AddTotalDeformation`](../../../../../v242/Ansys/ACT/Automation/Mechanical/SolutionCombination.md#SolutionCombination.AddTotalDeformation)                                 | Creates a new TotalDeformation                                                    |
-| [`AddTotalShearForce`](../../../../../v242/Ansys/ACT/Automation/Mechanical/SolutionCombination.md#SolutionCombination.AddTotalShearForce)                                   | Creates a new TotalShearForce                                                     |
-| [`AddShearMomentDiagramMSUM`](../../../../../v242/Ansys/ACT/Automation/Mechanical/SolutionCombination.md#SolutionCombination.AddShearMomentDiagramMSUM)                     | Creates a new TotalShearMomentDiagram                                             |
-| [`AddShearMomentDiagramUSUM`](../../../../../v242/Ansys/ACT/Automation/Mechanical/SolutionCombination.md#SolutionCombination.AddShearMomentDiagramUSUM)                     | Creates a new TotalShearMomentDiagram                                             |
-| [`AddShearMomentDiagramVSUM`](../../../../../v242/Ansys/ACT/Automation/Mechanical/SolutionCombination.md#SolutionCombination.AddShearMomentDiagramVSUM)                     | Creates a new TotalShearMomentDiagram                                             |
-| [`AddTotalTorsionalMoment`](../../../../../v242/Ansys/ACT/Automation/Mechanical/SolutionCombination.md#SolutionCombination.AddTotalTorsionalMoment)                         | Creates a new TotalTorsionalMoment                                                |
-| [`AddTotalVelocity`](../../../../../v242/Ansys/ACT/Automation/Mechanical/SolutionCombination.md#SolutionCombination.AddTotalVelocity)                                       | Creates a new TotalVelocity                                                       |
-| [`AddUserDefinedResult`](../../../../../v242/Ansys/ACT/Automation/Mechanical/SolutionCombination.md#SolutionCombination.AddUserDefinedResult)                               | Creates a new UserDefinedResult                                                   |
-| [`AddVectorAxialForce`](../../../../../v242/Ansys/ACT/Automation/Mechanical/SolutionCombination.md#SolutionCombination.AddVectorAxialForce)                                 | Creates a new VectorAxialForce                                                    |
-| [`AddVectorBendingMoment`](../../../../../v242/Ansys/ACT/Automation/Mechanical/SolutionCombination.md#SolutionCombination.AddVectorBendingMoment)                           | Creates a new VectorBendingMoment                                                 |
-| [`AddVectorPrincipalElasticStrain`](../../../../../v242/Ansys/ACT/Automation/Mechanical/SolutionCombination.md#SolutionCombination.AddVectorPrincipalElasticStrain)         | Creates a new VectorPrincipalElasticStrain                                        |
-| [`AddVectorPrincipalStress`](../../../../../v242/Ansys/ACT/Automation/Mechanical/SolutionCombination.md#SolutionCombination.AddVectorPrincipalStress)                       | Creates a new VectorPrincipalStress                                               |
-| [`AddVectorShearForce`](../../../../../v242/Ansys/ACT/Automation/Mechanical/SolutionCombination.md#SolutionCombination.AddVectorShearForce)                                 | Creates a new VectorShearForce                                                    |
-| [`AddVectorTorsionalMoment`](../../../../../v242/Ansys/ACT/Automation/Mechanical/SolutionCombination.md#SolutionCombination.AddVectorTorsionalMoment)                       | Creates a new VectorTorsionalMoment                                               |
-| [`Delete`](../../../../../v242/Ansys/ACT/Automation/Mechanical/SolutionCombination.md#SolutionCombination.Delete)                                                           | Run the Delete action.                                                            |
-| [`GetChildren`](../../../../../v242/Ansys/ACT/Automation/Mechanical/SolutionCombination.md#id1)                                                                             | Gets the list of children, filtered by type.                                      |
-| [`GetChildren`](../../../../../v242/Ansys/ACT/Automation/Mechanical/SolutionCombination.md#id1)                                                                             | Gets the list of children, filtered by type.                                      |
-| [`AddComment`](../../../../../v242/Ansys/ACT/Automation/Mechanical/SolutionCombination.md#SolutionCombination.AddComment)                                                   | Creates a new child Comment.                                                      |
-| [`AddImage`](../../../../../v242/Ansys/ACT/Automation/Mechanical/SolutionCombination.md#SolutionCombination.AddImage)                                                       | Creates a new child Image.                                                        |
-| [`Activate`](../../../../../v242/Ansys/ACT/Automation/Mechanical/SolutionCombination.md#SolutionCombination.Activate)                                                       | Activate the current object.                                                      |
-| [`CopyTo`](../../../../../v242/Ansys/ACT/Automation/Mechanical/SolutionCombination.md#SolutionCombination.CopyTo)                                                           | Copies all visible properties from this object to another.                        |
-| [`Duplicate`](../../../../../v242/Ansys/ACT/Automation/Mechanical/SolutionCombination.md#SolutionCombination.Duplicate)                                                     | Creates a copy of the current DataModelObject.                                    |
-| [`GroupAllSimilarChildren`](../../../../../v242/Ansys/ACT/Automation/Mechanical/SolutionCombination.md#SolutionCombination.GroupAllSimilarChildren)                         | Run the GroupAllSimilarChildren action.                                           |
-| [`GroupSimilarObjects`](../../../../../v242/Ansys/ACT/Automation/Mechanical/SolutionCombination.md#SolutionCombination.GroupSimilarObjects)                                 | Run the GroupSimilarObjects action.                                               |
-| [`PropertyByName`](../../../../../v242/Ansys/ACT/Automation/Mechanical/SolutionCombination.md#SolutionCombination.PropertyByName)                                           | Get a property by its unique name.                                                |
-| [`PropertyByAPIName`](../../../../../v242/Ansys/ACT/Automation/Mechanical/SolutionCombination.md#SolutionCombination.PropertyByAPIName)                                     | Get a property by its API name.                                                   |
-| [`CreateParameter`](../../../../../v242/Ansys/ACT/Automation/Mechanical/SolutionCombination.md#SolutionCombination.CreateParameter)                                         | Creates a new parameter for a Property.                                           |
-| [`GetParameter`](../../../../../v242/Ansys/ACT/Automation/Mechanical/SolutionCombination.md#SolutionCombination.GetParameter)                                               | Gets the parameter corresponding to the given property.                           |
-| [`RemoveParameter`](../../../../../v242/Ansys/ACT/Automation/Mechanical/SolutionCombination.md#SolutionCombination.RemoveParameter)                                         | Removes the parameter from the parameter set corresponding to the given property. |
+|---------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------|
+| [`Activate`](#SolutionCombination.Activate)                                                       | Activate the current object.                                                      |
+| [`AddBeamTool`](#SolutionCombination.AddBeamTool)                                                 | Creates a new BeamTool                                                            |
+| [`AddComment`](#SolutionCombination.AddComment)                                                   | Creates a new child Comment.                                                      |
+| [`AddCompositeFailureTool`](#SolutionCombination.AddCompositeFailureTool)                         | Creates a new CompositeFailureTool                                                |
+| [`AddContactTool`](#SolutionCombination.AddContactTool)                                           | Creates a new ContactTool                                                         |
+| [`AddDirectionalAcceleration`](#SolutionCombination.AddDirectionalAcceleration)                   | Creates a new DirectionalAcceleration                                             |
+| [`AddDirectionalAxialForce`](#SolutionCombination.AddDirectionalAxialForce)                       | Creates a new DirectionalAxialForce                                               |
+| [`AddDirectionalBendingMoment`](#SolutionCombination.AddDirectionalBendingMoment)                 | Creates a new DirectionalBendingMoment                                            |
+| [`AddDirectionalDeformation`](#SolutionCombination.AddDirectionalDeformation)                     | Creates a new DirectionalDeformation                                              |
+| [`AddDirectionalShearForce`](#SolutionCombination.AddDirectionalShearForce)                       | Creates a new DirectionalShearForce                                               |
+| [`AddDirectionalTorsionalMoment`](#SolutionCombination.AddDirectionalTorsionalMoment)             | Creates a new DirectionalTorsionalMoment                                          |
+| [`AddDirectionalVelocity`](#SolutionCombination.AddDirectionalVelocity)                           | Creates a new DirectionalVelocity                                                 |
+| [`AddElasticStrainIntensity`](#SolutionCombination.AddElasticStrainIntensity)                     | Creates a new ElasticStrainIntensity                                              |
+| [`AddEquivalentElasticStrain`](#SolutionCombination.AddEquivalentElasticStrain)                   | Creates a new EquivalentElasticStrain                                             |
+| [`AddEquivalentElasticStrainRST`](#SolutionCombination.AddEquivalentElasticStrainRST)             | Creates a new EquivalentElasticStrainRST                                          |
+| [`AddEquivalentStress`](#SolutionCombination.AddEquivalentStress)                                 | Creates a new EquivalentStress                                                    |
+| [`AddEquivalentTotalStrain`](#SolutionCombination.AddEquivalentTotalStrain)                       | Creates a new EquivalentTotalStrain                                               |
+| [`AddFatigueTool`](#SolutionCombination.AddFatigueTool)                                           | Creates a new FatigueTool                                                         |
+| [`AddImage`](#SolutionCombination.AddImage)                                                       | Creates a new child Image.                                                        |
+| [`AddLinearizedEquivalentStress`](#SolutionCombination.AddLinearizedEquivalentStress)             | Creates a new LinearizedEquivalentStress                                          |
+| [`AddLinearizedMaximumPrincipalStress`](#SolutionCombination.AddLinearizedMaximumPrincipalStress) | Creates a new LinearizedMaximumPrincipalStress                                    |
+| [`AddLinearizedMaximumShearStress`](#SolutionCombination.AddLinearizedMaximumShearStress)         | Creates a new LinearizedMaximumShearStress                                        |
+| [`AddLinearizedMiddlePrincipalStress`](#SolutionCombination.AddLinearizedMiddlePrincipalStress)   | Creates a new LinearizedMiddlePrincipalStress                                     |
+| [`AddLinearizedMinimumPrincipalStress`](#SolutionCombination.AddLinearizedMinimumPrincipalStress) | Creates a new LinearizedMinimumPrincipalStress                                    |
+| [`AddLinearizedNormalStress`](#SolutionCombination.AddLinearizedNormalStress)                     | Creates a new LinearizedNormalStress                                              |
+| [`AddLinearizedShearStress`](#SolutionCombination.AddLinearizedShearStress)                       | Creates a new LinearizedShearStress                                               |
+| [`AddLinearizedStressIntensity`](#SolutionCombination.AddLinearizedStressIntensity)               | Creates a new LinearizedStressIntensity                                           |
+| [`AddMaximumPrincipalElasticStrain`](#SolutionCombination.AddMaximumPrincipalElasticStrain)       | Creates a new MaximumPrincipalElasticStrain                                       |
+| [`AddMaximumPrincipalStress`](#SolutionCombination.AddMaximumPrincipalStress)                     | Creates a new MaximumPrincipalStress                                              |
+| [`AddMaximumShearElasticStrain`](#SolutionCombination.AddMaximumShearElasticStrain)               | Creates a new MaximumShearElasticStrain                                           |
+| [`AddMaximumShearStress`](#SolutionCombination.AddMaximumShearStress)                             | Creates a new MaximumShearStress                                                  |
+| [`AddMiddlePrincipalElasticStrain`](#SolutionCombination.AddMiddlePrincipalElasticStrain)         | Creates a new MiddlePrincipalElasticStrain                                        |
+| [`AddMiddlePrincipalStress`](#SolutionCombination.AddMiddlePrincipalStress)                       | Creates a new MiddlePrincipalStress                                               |
+| [`AddMinimumPrincipalElasticStrain`](#SolutionCombination.AddMinimumPrincipalElasticStrain)       | Creates a new MinimumPrincipalElasticStrain                                       |
+| [`AddMinimumPrincipalStress`](#SolutionCombination.AddMinimumPrincipalStress)                     | Creates a new MinimumPrincipalStress                                              |
+| [`AddNormalElasticStrain`](#SolutionCombination.AddNormalElasticStrain)                           | Creates a new NormalElasticStrain                                                 |
+| [`AddNormalStress`](#SolutionCombination.AddNormalStress)                                         | Creates a new NormalStress                                                        |
+| [`AddShearElasticStrain`](#SolutionCombination.AddShearElasticStrain)                             | Creates a new ShearElasticStrain                                                  |
+| [`AddShearMomentDiagramMSUM`](#SolutionCombination.AddShearMomentDiagramMSUM)                     | Creates a new TotalShearMomentDiagram                                             |
+| [`AddShearMomentDiagramMY`](#SolutionCombination.AddShearMomentDiagramMY)                         | Creates a new DirectionalShearMomentDiagram                                       |
+| [`AddShearMomentDiagramMZ`](#SolutionCombination.AddShearMomentDiagramMZ)                         | Creates a new DirectionalShearMomentDiagram                                       |
+| [`AddShearMomentDiagramUSUM`](#SolutionCombination.AddShearMomentDiagramUSUM)                     | Creates a new TotalShearMomentDiagram                                             |
+| [`AddShearMomentDiagramUY`](#SolutionCombination.AddShearMomentDiagramUY)                         | Creates a new DirectionalShearMomentDiagram                                       |
+| [`AddShearMomentDiagramUZ`](#SolutionCombination.AddShearMomentDiagramUZ)                         | Creates a new DirectionalShearMomentDiagram                                       |
+| [`AddShearMomentDiagramVSUM`](#SolutionCombination.AddShearMomentDiagramVSUM)                     | Creates a new TotalShearMomentDiagram                                             |
+| [`AddShearMomentDiagramVY`](#SolutionCombination.AddShearMomentDiagramVY)                         | Creates a new DirectionalShearMomentDiagram                                       |
+| [`AddShearMomentDiagramVZ`](#SolutionCombination.AddShearMomentDiagramVZ)                         | Creates a new DirectionalShearMomentDiagram                                       |
+| [`AddShearStress`](#SolutionCombination.AddShearStress)                                           | Creates a new ShearStress                                                         |
+| [`AddStressIntensity`](#SolutionCombination.AddStressIntensity)                                   | Creates a new StressIntensity                                                     |
+| [`AddStressTool`](#SolutionCombination.AddStressTool)                                             | Creates a new StressTool                                                          |
+| [`AddTotalAcceleration`](#SolutionCombination.AddTotalAcceleration)                               | Creates a new TotalAcceleration                                                   |
+| [`AddTotalAxialForce`](#SolutionCombination.AddTotalAxialForce)                                   | Creates a new TotalAxialForce                                                     |
+| [`AddTotalBendingMoment`](#SolutionCombination.AddTotalBendingMoment)                             | Creates a new TotalBendingMoment                                                  |
+| [`AddTotalDeformation`](#SolutionCombination.AddTotalDeformation)                                 | Creates a new TotalDeformation                                                    |
+| [`AddTotalShearForce`](#SolutionCombination.AddTotalShearForce)                                   | Creates a new TotalShearForce                                                     |
+| [`AddTotalTorsionalMoment`](#SolutionCombination.AddTotalTorsionalMoment)                         | Creates a new TotalTorsionalMoment                                                |
+| [`AddTotalVelocity`](#SolutionCombination.AddTotalVelocity)                                       | Creates a new TotalVelocity                                                       |
+| [`AddUserDefinedResult`](#SolutionCombination.AddUserDefinedResult)                               | Creates a new UserDefinedResult                                                   |
+| [`AddVectorAxialForce`](#SolutionCombination.AddVectorAxialForce)                                 | Creates a new VectorAxialForce                                                    |
+| [`AddVectorBendingMoment`](#SolutionCombination.AddVectorBendingMoment)                           | Creates a new VectorBendingMoment                                                 |
+| [`AddVectorPrincipalElasticStrain`](#SolutionCombination.AddVectorPrincipalElasticStrain)         | Creates a new VectorPrincipalElasticStrain                                        |
+| [`AddVectorPrincipalStress`](#SolutionCombination.AddVectorPrincipalStress)                       | Creates a new VectorPrincipalStress                                               |
+| [`AddVectorShearForce`](#SolutionCombination.AddVectorShearForce)                                 | Creates a new VectorShearForce                                                    |
+| [`AddVectorTorsionalMoment`](#SolutionCombination.AddVectorTorsionalMoment)                       | Creates a new VectorTorsionalMoment                                               |
+| [`ClearGeneratedData`](#SolutionCombination.ClearGeneratedData)                                   | Run the ClearGeneratedData action.                                                |
+| [`CopyTo`](#SolutionCombination.CopyTo)                                                           | Copies all visible properties from this object to another.                        |
+| [`CreateParameter`](#SolutionCombination.CreateParameter)                                         | Creates a new parameter for a Property.                                           |
+| [`Delete`](#SolutionCombination.Delete)                                                           | Run the Delete action.                                                            |
+| [`Duplicate`](#SolutionCombination.Duplicate)                                                     | Creates a copy of the current DataModelObject.                                    |
+| [`EvaluateAllResults`](#SolutionCombination.EvaluateAllResults)                                   | Run the EvaluateAllResults action.                                                |
+| [`GetChildren`](#SolutionCombination.GetChildren)                                                 | Gets the list of children, filtered by type.                                      |
+| [`GetParameter`](#SolutionCombination.GetParameter)                                               | Gets the parameter corresponding to the given property.                           |
+| [`GroupAllSimilarChildren`](#SolutionCombination.GroupAllSimilarChildren)                         | Run the GroupAllSimilarChildren action.                                           |
+| [`GroupSimilarObjects`](#SolutionCombination.GroupSimilarObjects)                                 | Run the GroupSimilarObjects action.                                               |
+| [`PropertyByAPIName`](#SolutionCombination.PropertyByAPIName)                                     | Get a property by its API name.                                                   |
+| [`PropertyByName`](#SolutionCombination.PropertyByName)                                           | Get a property by its unique name.                                                |
+| [`RemoveParameter`](#SolutionCombination.RemoveParameter)                                         | Removes the parameter from the parameter set corresponding to the given property. |
 
 ### Properties
 
 | Name | Description |
-|-----------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------|
-| [`Definition`](../../../../../v242/Ansys/ACT/Automation/Mechanical/SolutionCombination.md#SolutionCombination.Definition)                           | Get the SolutionCombinationDefinition object.                 |
-| [`InternalObject`](../../../../../v242/Ansys/ACT/Automation/Mechanical/SolutionCombination.md#id0)                                                  | Gets the internal object. For advanced usage only.            |
-| [`DataModelObjectCategory`](../../../../../v242/Ansys/ACT/Automation/Mechanical/SolutionCombination.md#SolutionCombination.DataModelObjectCategory) | Gets the current DataModelObject's category.                  |
-| [`Children`](../../../../../v242/Ansys/ACT/Automation/Mechanical/SolutionCombination.md#SolutionCombination.Children)                               | Gets the list of children.                                    |
-| [`Comments`](../../../../../v242/Ansys/ACT/Automation/Mechanical/SolutionCombination.md#SolutionCombination.Comments)                               | Gets the list of associated comments.                         |
-| [`Images`](../../../../../v242/Ansys/ACT/Automation/Mechanical/SolutionCombination.md#SolutionCombination.Images)                                   | Gets the list of associated images.                           |
-| [`InternalObject`](../../../../../v242/Ansys/ACT/Automation/Mechanical/SolutionCombination.md#id0)                                                  | Gets the internal object. For advanced usage only.            |
-| [`Properties`](../../../../../v242/Ansys/ACT/Automation/Mechanical/SolutionCombination.md#SolutionCombination.Properties)                           | Gets the list of properties for this object.                  |
-| [`VisibleProperties`](../../../../../v242/Ansys/ACT/Automation/Mechanical/SolutionCombination.md#SolutionCombination.VisibleProperties)             | Gets the list of properties that are visible for this object. |
+|---------------------------------------------------------------------------|---------------------------------------------------------------|
+| [`Children`](#SolutionCombination.Children)                               | Gets the list of children.                                    |
+| [`Comments`](#SolutionCombination.Comments)                               | Gets the list of associated comments.                         |
+| [`DataModelObjectCategory`](#SolutionCombination.DataModelObjectCategory) | Gets the current DataModelObject’s category.                  |
+| [`Definition`](#SolutionCombination.Definition)                           | Get the SolutionCombinationDefinition object.                 |
+| [`Images`](#SolutionCombination.Images)                                   | Gets the list of associated images.                           |
+| [`InternalObject`](#SolutionCombination.InternalObject)                   | Gets the internal object. For advanced usage only.            |
+| [`Properties`](#SolutionCombination.Properties)                           | Gets the list of properties for this object.                  |
+| [`VisibleProperties`](#SolutionCombination.VisibleProperties)             | Gets the list of properties that are visible for this object. |
 
 <a id="property-detail"></a>
 
 ## Property detail
-
-<a id="SolutionCombination.Definition"></a>
-
-### *property* SolutionCombination.Definition *: [Ansys.ACT.Automation.Mechanical.SolutionCombinationDefinition](SolutionCombinationDefinition.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.SolutionCombinationDefinition) | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Get the SolutionCombinationDefinition object.
-: This object contains all the Solution Combination data like Base Cases, Load Combinations and Coefficients.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="SolutionCombination.InternalObject"></a>
-
-### *property* SolutionCombination.InternalObject *: Ansys.Common.Interop.DSObjectsAuto.IDSSolutionCombinationAuto | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets the internal object. For advanced usage only.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="SolutionCombination.DataModelObjectCategory"></a>
-
-### *property* SolutionCombination.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets the current DataModelObject's category.
-
-<!-- !! processed by numpydoc !! -->
 
 <a id="SolutionCombination.Children"></a>
 
@@ -156,6 +129,23 @@ Gets the list of associated comments.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="SolutionCombination.DataModelObjectCategory"></a>
+
+### *property* SolutionCombination.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../v242/Ansys/Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets the current DataModelObject’s category.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="SolutionCombination.Definition"></a>
+
+### *property* SolutionCombination.Definition *: [Ansys.ACT.Automation.Mechanical.SolutionCombinationDefinition](../../../../../v242/Ansys/ACT/Automation/Mechanical/SolutionCombinationDefinition.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.SolutionCombinationDefinition) | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Get the SolutionCombinationDefinition object.
+: This object contains all the Solution Combination data like Base Cases, Load Combinations and Coefficients.
+
+<!-- !! processed by numpydoc !! -->
+
 <a id="SolutionCombination.Images"></a>
 
 ### *property* SolutionCombination.Images *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Image](Image.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
@@ -164,9 +154,9 @@ Gets the list of associated images.
 
 <!-- !! processed by numpydoc !! -->
 
-<a id="id0"></a>
+<a id="SolutionCombination.InternalObject"></a>
 
-### *property* SolutionCombination.InternalObject *: System.Object | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* SolutionCombination.InternalObject *: Ansys.Common.Interop.DSObjectsAuto.IDSSolutionCombinationAuto | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the internal object. For advanced usage only.
 
@@ -192,35 +182,27 @@ Gets the list of properties that are visible for this object.
 
 ## Method detail
 
-<a id="SolutionCombination.ClearGeneratedData"></a>
+<a id="SolutionCombination.Activate"></a>
 
-### SolutionCombination.ClearGeneratedData()
+### SolutionCombination.Activate()
 
-Run the ClearGeneratedData action.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="SolutionCombination.AddContactTool"></a>
-
-### SolutionCombination.AddContactTool()
-
-Creates a new ContactTool
+Activate the current object.
 
 <!-- !! processed by numpydoc !! -->
 
-<a id="SolutionCombination.EvaluateAllResults"></a>
+<a id="SolutionCombination.AddBeamTool"></a>
 
-### SolutionCombination.EvaluateAllResults()
+### SolutionCombination.AddBeamTool()
 
-Run the EvaluateAllResults action.
+Creates a new BeamTool
 
 <!-- !! processed by numpydoc !! -->
 
-<a id="SolutionCombination.AddFatigueTool"></a>
+<a id="SolutionCombination.AddComment"></a>
 
-### SolutionCombination.AddFatigueTool()
+### SolutionCombination.AddComment()
 
-Creates a new FatigueTool
+Creates a new child Comment.
 
 <!-- !! processed by numpydoc !! -->
 
@@ -232,11 +214,11 @@ Creates a new CompositeFailureTool
 
 <!-- !! processed by numpydoc !! -->
 
-<a id="SolutionCombination.AddBeamTool"></a>
+<a id="SolutionCombination.AddContactTool"></a>
 
-### SolutionCombination.AddBeamTool()
+### SolutionCombination.AddContactTool()
 
-Creates a new BeamTool
+Creates a new ContactTool
 
 <!-- !! processed by numpydoc !! -->
 
@@ -277,54 +259,6 @@ Creates a new DirectionalDeformation
 ### SolutionCombination.AddDirectionalShearForce()
 
 Creates a new DirectionalShearForce
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="SolutionCombination.AddShearMomentDiagramMY"></a>
-
-### SolutionCombination.AddShearMomentDiagramMY()
-
-Creates a new DirectionalShearMomentDiagram
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="SolutionCombination.AddShearMomentDiagramMZ"></a>
-
-### SolutionCombination.AddShearMomentDiagramMZ()
-
-Creates a new DirectionalShearMomentDiagram
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="SolutionCombination.AddShearMomentDiagramUY"></a>
-
-### SolutionCombination.AddShearMomentDiagramUY()
-
-Creates a new DirectionalShearMomentDiagram
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="SolutionCombination.AddShearMomentDiagramUZ"></a>
-
-### SolutionCombination.AddShearMomentDiagramUZ()
-
-Creates a new DirectionalShearMomentDiagram
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="SolutionCombination.AddShearMomentDiagramVY"></a>
-
-### SolutionCombination.AddShearMomentDiagramVY()
-
-Creates a new DirectionalShearMomentDiagram
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="SolutionCombination.AddShearMomentDiagramVZ"></a>
-
-### SolutionCombination.AddShearMomentDiagramVZ()
-
-Creates a new DirectionalShearMomentDiagram
 
 <!-- !! processed by numpydoc !! -->
 
@@ -381,6 +315,26 @@ Creates a new EquivalentStress
 ### SolutionCombination.AddEquivalentTotalStrain()
 
 Creates a new EquivalentTotalStrain
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="SolutionCombination.AddFatigueTool"></a>
+
+### SolutionCombination.AddFatigueTool()
+
+Creates a new FatigueTool
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="SolutionCombination.AddImage"></a>
+
+### SolutionCombination.AddImage(filePath: System.String)
+
+```text
+Creates a new child Image.
+If a filePath is provided, the image will be loaded from that file,
+if not, the image will be a screen capture of the Geometry window.
+```
 
 <!-- !! processed by numpydoc !! -->
 
@@ -536,6 +490,78 @@ Creates a new ShearElasticStrain
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="SolutionCombination.AddShearMomentDiagramMSUM"></a>
+
+### SolutionCombination.AddShearMomentDiagramMSUM()
+
+Creates a new TotalShearMomentDiagram
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="SolutionCombination.AddShearMomentDiagramMY"></a>
+
+### SolutionCombination.AddShearMomentDiagramMY()
+
+Creates a new DirectionalShearMomentDiagram
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="SolutionCombination.AddShearMomentDiagramMZ"></a>
+
+### SolutionCombination.AddShearMomentDiagramMZ()
+
+Creates a new DirectionalShearMomentDiagram
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="SolutionCombination.AddShearMomentDiagramUSUM"></a>
+
+### SolutionCombination.AddShearMomentDiagramUSUM()
+
+Creates a new TotalShearMomentDiagram
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="SolutionCombination.AddShearMomentDiagramUY"></a>
+
+### SolutionCombination.AddShearMomentDiagramUY()
+
+Creates a new DirectionalShearMomentDiagram
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="SolutionCombination.AddShearMomentDiagramUZ"></a>
+
+### SolutionCombination.AddShearMomentDiagramUZ()
+
+Creates a new DirectionalShearMomentDiagram
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="SolutionCombination.AddShearMomentDiagramVSUM"></a>
+
+### SolutionCombination.AddShearMomentDiagramVSUM()
+
+Creates a new TotalShearMomentDiagram
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="SolutionCombination.AddShearMomentDiagramVY"></a>
+
+### SolutionCombination.AddShearMomentDiagramVY()
+
+Creates a new DirectionalShearMomentDiagram
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="SolutionCombination.AddShearMomentDiagramVZ"></a>
+
+### SolutionCombination.AddShearMomentDiagramVZ()
+
+Creates a new DirectionalShearMomentDiagram
+
+<!-- !! processed by numpydoc !! -->
+
 <a id="SolutionCombination.AddShearStress"></a>
 
 ### SolutionCombination.AddShearStress()
@@ -597,30 +623,6 @@ Creates a new TotalDeformation
 ### SolutionCombination.AddTotalShearForce()
 
 Creates a new TotalShearForce
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="SolutionCombination.AddShearMomentDiagramMSUM"></a>
-
-### SolutionCombination.AddShearMomentDiagramMSUM()
-
-Creates a new TotalShearMomentDiagram
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="SolutionCombination.AddShearMomentDiagramUSUM"></a>
-
-### SolutionCombination.AddShearMomentDiagramUSUM()
-
-Creates a new TotalShearMomentDiagram
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="SolutionCombination.AddShearMomentDiagramVSUM"></a>
-
-### SolutionCombination.AddShearMomentDiagramVSUM()
-
-Creates a new TotalShearMomentDiagram
 
 <!-- !! processed by numpydoc !! -->
 
@@ -696,53 +698,11 @@ Creates a new VectorTorsionalMoment
 
 <!-- !! processed by numpydoc !! -->
 
-<a id="SolutionCombination.Delete"></a>
+<a id="SolutionCombination.ClearGeneratedData"></a>
 
-### SolutionCombination.Delete()
+### SolutionCombination.ClearGeneratedData()
 
-Run the Delete action.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="SolutionCombination.GetChildren"></a>
-
-### SolutionCombination.GetChildren(recurses: System.Boolean, children: System.Collections.Generic.IList[ChildrenType])
-
-Gets the list of children, filtered by type.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="id1"></a>
-
-### SolutionCombination.GetChildren(category: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory), recurses: System.Boolean, children: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject])
-
-Gets the list of children, filtered by type.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="SolutionCombination.AddComment"></a>
-
-### SolutionCombination.AddComment()
-
-Creates a new child Comment.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="SolutionCombination.AddImage"></a>
-
-### SolutionCombination.AddImage(filePath: System.String)
-
-Creates a new child Image.
-If a filePath is provided, the image will be loaded from that file,
-if not, the image will be a screen capture of the Geometry window.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="SolutionCombination.Activate"></a>
-
-### SolutionCombination.Activate()
-
-Activate the current object.
+Run the ClearGeneratedData action.
 
 <!-- !! processed by numpydoc !! -->
 
@@ -754,11 +714,51 @@ Copies all visible properties from this object to another.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="SolutionCombination.CreateParameter"></a>
+
+### SolutionCombination.CreateParameter(propName: System.String)
+
+Creates a new parameter for a Property.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="SolutionCombination.Delete"></a>
+
+### SolutionCombination.Delete()
+
+Run the Delete action.
+
+<!-- !! processed by numpydoc !! -->
+
 <a id="SolutionCombination.Duplicate"></a>
 
 ### SolutionCombination.Duplicate()
 
 Creates a copy of the current DataModelObject.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="SolutionCombination.EvaluateAllResults"></a>
+
+### SolutionCombination.EvaluateAllResults()
+
+Run the EvaluateAllResults action.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="SolutionCombination.GetChildren"></a>
+
+### SolutionCombination.GetChildren(recurses: System.Boolean, children: System.Collections.Generic.IList[ChildrenType])
+
+Gets the list of children, filtered by type.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="SolutionCombination.GetParameter"></a>
+
+### SolutionCombination.GetParameter(propName: System.String)
+
+Gets the parameter corresponding to the given property.
 
 <!-- !! processed by numpydoc !! -->
 
@@ -778,36 +778,22 @@ Run the GroupSimilarObjects action.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="SolutionCombination.PropertyByAPIName"></a>
+
+### SolutionCombination.PropertyByAPIName(name: System.String)
+
+```text
+Get a property by its API name.
+If multiple properties have the same API Name, only the first property with that name will be returned.
+```
+
+<!-- !! processed by numpydoc !! -->
+
 <a id="SolutionCombination.PropertyByName"></a>
 
 ### SolutionCombination.PropertyByName(name: System.String)
 
 Get a property by its unique name.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="SolutionCombination.PropertyByAPIName"></a>
-
-### SolutionCombination.PropertyByAPIName(name: System.String)
-
-Get a property by its API name.
-If multiple properties have the same API Name, only the first property with that name will be returned.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="SolutionCombination.CreateParameter"></a>
-
-### SolutionCombination.CreateParameter(propName: System.String)
-
-Creates a new parameter for a Property.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="SolutionCombination.GetParameter"></a>
-
-### SolutionCombination.GetParameter(propName: System.String)
-
-Gets the parameter corresponding to the given property.
 
 <!-- !! processed by numpydoc !! -->
 

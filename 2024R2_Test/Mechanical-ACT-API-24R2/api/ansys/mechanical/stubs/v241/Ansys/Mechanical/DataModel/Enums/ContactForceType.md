@@ -1,6 +1,6 @@
 # `ContactForceType`
 
-
+<a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.ContactForceType"></a>
 
 #### *class* ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.ContactForceType
 
@@ -17,10 +17,10 @@ Specifies the ContactForceType.
 ### Attributes
 
 | Name |
-| ---------------------------------------------------------------------------------------------------------------- |
-| [`Normal`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/ContactForceType.md#ContactForceType.Normal) |
-| [`Tangent`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/ContactForceType.md#ContactForceType.Tangent) |
-| [`Total`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/ContactForceType.md#ContactForceType.Total) |
+| ---------------------------------------- |
+| [`Normal`](#ContactForceType.Normal) |
+| [`Tangent`](#ContactForceType.Tangent) |
+| [`Total`](#ContactForceType.Total) |
 
 <a id="attribute-detail"></a>
 

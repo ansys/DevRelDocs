@@ -1,6 +1,6 @@
 # `LowReducedFrequencyModelType`
 
-
+<a id="ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.LowReducedFrequencyModelType"></a>
 
 #### *class* ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.LowReducedFrequencyModelType
 
@@ -17,7 +17,7 @@ Specifies the LowReducedFrequencyModelType.
 ### Attributes
 
 | Name |
-| -------------------------------------------------------------------- |
+| -------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | [`CircularTube`](#LowReducedFrequencyModelType.CircularTube) |
 | [`RectangularTube`](#LowReducedFrequencyModelType.RectangularTube) |
 | [`ThinLayer`](#LowReducedFrequencyModelType.ThinLayer) |

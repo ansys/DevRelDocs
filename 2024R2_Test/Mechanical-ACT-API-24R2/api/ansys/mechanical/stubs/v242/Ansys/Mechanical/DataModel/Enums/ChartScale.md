@@ -1,6 +1,6 @@
 # `ChartScale`
 
-
+<a id="ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.ChartScale"></a>
 
 #### *class* ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.ChartScale
 
@@ -17,7 +17,7 @@ Specifies the ChartScale.
 ### Attributes
 
 | Name |
-| ------------------------------------ |
+| ------------------------------------------------------------------------------------------------------ |
 | [`Linear`](#ChartScale.Linear) |
 | [`LogLog`](#ChartScale.LogLog) |
 | [`SemiLogX`](#ChartScale.SemiLogX) |

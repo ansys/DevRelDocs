@@ -1,6 +1,6 @@
 # `AMHeatingDurationType`
 
-
+<a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.AMHeatingDurationType"></a>
 
 #### *class* ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.AMHeatingDurationType
 
@@ -17,9 +17,9 @@ Specifies the AMHeatingDurationType.
 ### Attributes
 
 | Name |
-| ---------------------------------------------------------------------------------------------------------------------------- |
-| [`Flash`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/AMHeatingDurationType.md#AMHeatingDurationType.Flash) |
-| [`ScanTime`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/AMHeatingDurationType.md#AMHeatingDurationType.ScanTime) |
+| ----------------------------------------------- |
+| [`Flash`](#AMHeatingDurationType.Flash) |
+| [`ScanTime`](#AMHeatingDurationType.ScanTime) |
 
 <a id="attribute-detail"></a>
 

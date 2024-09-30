@@ -1,6 +1,6 @@
 # `AcousticAbsorptionSurface`
 
-
+<a id="ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.BoundaryConditions.AcousticAbsorptionSurface"></a>
 
 #### *class* ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.BoundaryConditions.AcousticAbsorptionSurface
 
@@ -17,93 +17,51 @@ Defines a AcousticAbsorptionSurface.
 ### Methods
 
 | Name | Description |
-|-----------------------------------------------------------------------------------|-----------------------------------------------------------------------------------|
-| [`PromoteToNamedSelection`](#AcousticAbsorptionSurface.PromoteToNamedSelection)   | Run the PromoteToNamedSelection action.                                           |
-| [`Delete`](#AcousticAbsorptionSurface.Delete)                                     | Run the Delete action.                                                            |
-| [`GetChildren`](#id1)                                                             | Gets the list of children, filtered by type.                                      |
-| [`GetChildren`](#id1)                                                             | Gets the list of children, filtered by type.                                      |
-| [`AddComment`](#AcousticAbsorptionSurface.AddComment)                             | Creates a new child Comment.                                                      |
-| [`AddFigure`](#AcousticAbsorptionSurface.AddFigure)                               | Creates a new child Figure.                                                       |
-| [`AddImage`](#AcousticAbsorptionSurface.AddImage)                                 | Creates a new child Image.                                                        |
-| [`Activate`](#AcousticAbsorptionSurface.Activate)                                 | Activate the current object.                                                      |
-| [`CopyTo`](#AcousticAbsorptionSurface.CopyTo)                                     | Copies all visible properties from this object to another.                        |
-| [`Duplicate`](#AcousticAbsorptionSurface.Duplicate)                               | Creates a copy of the current DataModelObject.                                    |
-| [`GroupAllSimilarChildren`](#AcousticAbsorptionSurface.GroupAllSimilarChildren)   | Run the GroupAllSimilarChildren action.                                           |
-| [`GroupSimilarObjects`](#AcousticAbsorptionSurface.GroupSimilarObjects)           | Run the GroupSimilarObjects action.                                               |
-| [`PropertyByName`](#AcousticAbsorptionSurface.PropertyByName)                     | Get a property by its unique name.                                                |
-| [`PropertyByAPIName`](#AcousticAbsorptionSurface.PropertyByAPIName)               | Get a property by its API name.                                                   |
-| [`CreateParameter`](#AcousticAbsorptionSurface.CreateParameter)                   | Creates a new parameter for a Property.                                           |
-| [`GetParameter`](#AcousticAbsorptionSurface.GetParameter)                         | Gets the parameter corresponding to the given property.                           |
-| [`RemoveParameter`](#AcousticAbsorptionSurface.RemoveParameter)                   | Removes the parameter from the parameter set corresponding to the given property. |
+|---------------------------------------------------------------------------------|-----------------------------------------------------------------------------------|
+| [`Activate`](#AcousticAbsorptionSurface.Activate)                               | Activate the current object.                                                      |
+| [`AddComment`](#AcousticAbsorptionSurface.AddComment)                           | Creates a new child Comment.                                                      |
+| [`AddFigure`](#AcousticAbsorptionSurface.AddFigure)                             | Creates a new child Figure.                                                       |
+| [`AddImage`](#AcousticAbsorptionSurface.AddImage)                               | Creates a new child Image.                                                        |
+| [`CopyTo`](#AcousticAbsorptionSurface.CopyTo)                                   | Copies all visible properties from this object to another.                        |
+| [`CreateParameter`](#AcousticAbsorptionSurface.CreateParameter)                 | Creates a new parameter for a Property.                                           |
+| [`Delete`](#AcousticAbsorptionSurface.Delete)                                   | Run the Delete action.                                                            |
+| [`Duplicate`](#AcousticAbsorptionSurface.Duplicate)                             | Creates a copy of the current DataModelObject.                                    |
+| [`GetChildren`](#AcousticAbsorptionSurface.GetChildren)                         | Gets the list of children, filtered by type.                                      |
+| [`GetParameter`](#AcousticAbsorptionSurface.GetParameter)                       | Gets the parameter corresponding to the given property.                           |
+| [`GroupAllSimilarChildren`](#AcousticAbsorptionSurface.GroupAllSimilarChildren) | Run the GroupAllSimilarChildren action.                                           |
+| [`GroupSimilarObjects`](#AcousticAbsorptionSurface.GroupSimilarObjects)         | Run the GroupSimilarObjects action.                                               |
+| [`PromoteToNamedSelection`](#AcousticAbsorptionSurface.PromoteToNamedSelection) | Run the PromoteToNamedSelection action.                                           |
+| [`PropertyByAPIName`](#AcousticAbsorptionSurface.PropertyByAPIName)             | Get a property by its API name.                                                   |
+| [`PropertyByName`](#AcousticAbsorptionSurface.PropertyByName)                   | Get a property by its unique name.                                                |
+| [`RemoveParameter`](#AcousticAbsorptionSurface.RemoveParameter)                 | Removes the parameter from the parameter set corresponding to the given property. |
 
 ### Properties
 
 | Name | Description |
 |---------------------------------------------------------------------------------|---------------------------------------------------------------|
-| [`InternalObject`](#id0)                                                        | Gets the internal object. For advanced usage only.            |
 | [`AbsorptionCoefficient`](#AcousticAbsorptionSurface.AbsorptionCoefficient)     | Gets or sets the AbsorptionCoefficient.                       |
-| [`Location`](#AcousticAbsorptionSurface.Location)                               | Gets or sets the Location.                                    |
-| [`DataModelObjectCategory`](#AcousticAbsorptionSurface.DataModelObjectCategory) | Gets the current DataModelObject's category.                  |
-| [`Suppressed`](#AcousticAbsorptionSurface.Suppressed)                           | Gets or sets the Suppressed.                                  |
-| [`SharedRefBody`](#AcousticAbsorptionSurface.SharedRefBody)                     | Gets or sets the SharedRefBody.                               |
 | [`Children`](#AcousticAbsorptionSurface.Children)                               | Gets the list of children.                                    |
 | [`Comments`](#AcousticAbsorptionSurface.Comments)                               | Gets the list of associated comments.                         |
+| [`DataModelObjectCategory`](#AcousticAbsorptionSurface.DataModelObjectCategory) | Gets the current DataModelObject’s category.                  |
 | [`Figures`](#AcousticAbsorptionSurface.Figures)                                 | Gets the list of associated figures.                          |
 | [`Images`](#AcousticAbsorptionSurface.Images)                                   | Gets the list of associated images.                           |
-| [`ReadOnly`](#AcousticAbsorptionSurface.ReadOnly)                               | Gets or sets the ReadOnly.                                    |
-| [`InternalObject`](#id0)                                                        | Gets the internal object. For advanced usage only.            |
+| [`InternalObject`](#AcousticAbsorptionSurface.InternalObject)                   | Gets the internal object. For advanced usage only.            |
+| [`Location`](#AcousticAbsorptionSurface.Location)                               | Gets or sets the Location.                                    |
 | [`Properties`](#AcousticAbsorptionSurface.Properties)                           | Gets the list of properties for this object.                  |
+| [`ReadOnly`](#AcousticAbsorptionSurface.ReadOnly)                               | Gets or sets the ReadOnly.                                    |
+| [`SharedRefBody`](#AcousticAbsorptionSurface.SharedRefBody)                     | Gets or sets the SharedRefBody.                               |
+| [`Suppressed`](#AcousticAbsorptionSurface.Suppressed)                           | Gets or sets the Suppressed.                                  |
 | [`VisibleProperties`](#AcousticAbsorptionSurface.VisibleProperties)             | Gets the list of properties that are visible for this object. |
 
 <a id="property-detail"></a>
 
 ## Property detail
 
-<a id="AcousticAbsorptionSurface.InternalObject"></a>
-
-### *property* AcousticAbsorptionSurface.InternalObject *: Ansys.Common.Interop.DSObjectsAuto.IDSLoadAuto | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets the internal object. For advanced usage only.
-
-<!-- !! processed by numpydoc !! -->
-
 <a id="AcousticAbsorptionSurface.AbsorptionCoefficient"></a>
 
-### *property* AcousticAbsorptionSurface.AbsorptionCoefficient *: [Ansys.ACT.Mechanical.Fields.Field](../../../../../../v241/Ansys/ACT/Mechanical/Fields/Field.md#ansys.mechanical.stubs.v241.Ansys.ACT.Mechanical.Fields.Field) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AcousticAbsorptionSurface.AbsorptionCoefficient *: [Ansys.ACT.Mechanical.Fields.Field](../../../Mechanical/Fields/Field.md#ansys.mechanical.stubs.v242.Ansys.ACT.Mechanical.Fields.Field) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the AbsorptionCoefficient.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="AcousticAbsorptionSurface.Location"></a>
-
-### *property* AcousticAbsorptionSurface.Location *: Ansys.ACT.Interfaces.Common.ISelectionInfo | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the Location.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="AcousticAbsorptionSurface.DataModelObjectCategory"></a>
-
-### *property* AcousticAbsorptionSurface.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../../v241/Ansys/Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets the current DataModelObject's category.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="AcousticAbsorptionSurface.Suppressed"></a>
-
-### *property* AcousticAbsorptionSurface.Suppressed *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the Suppressed.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="AcousticAbsorptionSurface.SharedRefBody"></a>
-
-### *property* AcousticAbsorptionSurface.SharedRefBody *: [Ansys.ACT.Automation.Mechanical.Body](../../../../../../v241/Ansys/ACT/Automation/Mechanical/Body.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Body) | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the SharedRefBody.
 
 <!-- !! processed by numpydoc !! -->
 
@@ -123,6 +81,14 @@ Gets the list of associated comments.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="AcousticAbsorptionSurface.DataModelObjectCategory"></a>
+
+### *property* AcousticAbsorptionSurface.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets the current DataModelObject’s category.
+
+<!-- !! processed by numpydoc !! -->
+
 <a id="AcousticAbsorptionSurface.Figures"></a>
 
 ### *property* AcousticAbsorptionSurface.Figures *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Figure](../../../../../../v241/Ansys/ACT/Automation/Mechanical/Figure.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
@@ -139,19 +105,19 @@ Gets the list of associated images.
 
 <!-- !! processed by numpydoc !! -->
 
-<a id="AcousticAbsorptionSurface.ReadOnly"></a>
+<a id="AcousticAbsorptionSurface.InternalObject"></a>
 
-### *property* AcousticAbsorptionSurface.ReadOnly *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AcousticAbsorptionSurface.InternalObject *: Ansys.Common.Interop.DSObjectsAuto.IDSLoadAuto | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets or sets the ReadOnly.
+Gets the internal object. For advanced usage only.
 
 <!-- !! processed by numpydoc !! -->
 
-<a id="id0"></a>
+<a id="AcousticAbsorptionSurface.Location"></a>
 
-### *property* AcousticAbsorptionSurface.InternalObject *: System.Object | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AcousticAbsorptionSurface.Location *: Ansys.ACT.Interfaces.Common.ISelectionInfo | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets the internal object. For advanced usage only.
+Gets or sets the Location.
 
 <!-- !! processed by numpydoc !! -->
 
@@ -160,6 +126,30 @@ Gets the internal object. For advanced usage only.
 ### *property* AcousticAbsorptionSurface.Properties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of properties for this object.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="AcousticAbsorptionSurface.ReadOnly"></a>
+
+### *property* AcousticAbsorptionSurface.ReadOnly *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the ReadOnly.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="AcousticAbsorptionSurface.SharedRefBody"></a>
+
+### *property* AcousticAbsorptionSurface.SharedRefBody *: [Ansys.ACT.Automation.Mechanical.Body](../../../../../../v241/Ansys/ACT/Automation/Mechanical/Body.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Body) | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the SharedRefBody.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="AcousticAbsorptionSurface.Suppressed"></a>
+
+### *property* AcousticAbsorptionSurface.Suppressed *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the Suppressed.
 
 <!-- !! processed by numpydoc !! -->
 
@@ -175,35 +165,11 @@ Gets the list of properties that are visible for this object.
 
 ## Method detail
 
-<a id="AcousticAbsorptionSurface.PromoteToNamedSelection"></a>
+<a id="AcousticAbsorptionSurface.Activate"></a>
 
-### AcousticAbsorptionSurface.PromoteToNamedSelection()
+### AcousticAbsorptionSurface.Activate()
 
-Run the PromoteToNamedSelection action.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="AcousticAbsorptionSurface.Delete"></a>
-
-### AcousticAbsorptionSurface.Delete()
-
-Run the Delete action.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="AcousticAbsorptionSurface.GetChildren"></a>
-
-### AcousticAbsorptionSurface.GetChildren(recurses: System.Boolean, children: System.Collections.Generic.IList[ChildrenType])
-
-Gets the list of children, filtered by type.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="id1"></a>
-
-### AcousticAbsorptionSurface.GetChildren(category: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../../v241/Ansys/Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory), recurses: System.Boolean, children: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject])
-
-Gets the list of children, filtered by type.
+Activate the current object.
 
 <!-- !! processed by numpydoc !! -->
 
@@ -227,17 +193,11 @@ Creates a new child Figure.
 
 ### AcousticAbsorptionSurface.AddImage(filePath: System.String)
 
+```text
 Creates a new child Image.
 If a filePath is provided, the image will be loaded from that file,
 if not, the image will be a screen capture of the Geometry window.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="AcousticAbsorptionSurface.Activate"></a>
-
-### AcousticAbsorptionSurface.Activate()
-
-Activate the current object.
+```
 
 <!-- !! processed by numpydoc !! -->
 
@@ -249,11 +209,43 @@ Copies all visible properties from this object to another.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="AcousticAbsorptionSurface.CreateParameter"></a>
+
+### AcousticAbsorptionSurface.CreateParameter(propName: System.String)
+
+Creates a new parameter for a Property.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="AcousticAbsorptionSurface.Delete"></a>
+
+### AcousticAbsorptionSurface.Delete()
+
+Run the Delete action.
+
+<!-- !! processed by numpydoc !! -->
+
 <a id="AcousticAbsorptionSurface.Duplicate"></a>
 
 ### AcousticAbsorptionSurface.Duplicate()
 
 Creates a copy of the current DataModelObject.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="AcousticAbsorptionSurface.GetChildren"></a>
+
+### AcousticAbsorptionSurface.GetChildren(recurses: System.Boolean, children: System.Collections.Generic.IList[ChildrenType])
+
+Gets the list of children, filtered by type.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="AcousticAbsorptionSurface.GetParameter"></a>
+
+### AcousticAbsorptionSurface.GetParameter(propName: System.String)
+
+Gets the parameter corresponding to the given property.
 
 <!-- !! processed by numpydoc !! -->
 
@@ -273,11 +265,11 @@ Run the GroupSimilarObjects action.
 
 <!-- !! processed by numpydoc !! -->
 
-<a id="AcousticAbsorptionSurface.PropertyByName"></a>
+<a id="AcousticAbsorptionSurface.PromoteToNamedSelection"></a>
 
-### AcousticAbsorptionSurface.PropertyByName(name: System.String)
+### AcousticAbsorptionSurface.PromoteToNamedSelection()
 
-Get a property by its unique name.
+Run the PromoteToNamedSelection action.
 
 <!-- !! processed by numpydoc !! -->
 
@@ -285,24 +277,18 @@ Get a property by its unique name.
 
 ### AcousticAbsorptionSurface.PropertyByAPIName(name: System.String)
 
+```text
 Get a property by its API name.
 If multiple properties have the same API Name, only the first property with that name will be returned.
+```
 
 <!-- !! processed by numpydoc !! -->
 
-<a id="AcousticAbsorptionSurface.CreateParameter"></a>
+<a id="AcousticAbsorptionSurface.PropertyByName"></a>
 
-### AcousticAbsorptionSurface.CreateParameter(propName: System.String)
+### AcousticAbsorptionSurface.PropertyByName(name: System.String)
 
-Creates a new parameter for a Property.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="AcousticAbsorptionSurface.GetParameter"></a>
-
-### AcousticAbsorptionSurface.GetParameter(propName: System.String)
-
-Gets the parameter corresponding to the given property.
+Get a property by its unique name.
 
 <!-- !! processed by numpydoc !! -->
 

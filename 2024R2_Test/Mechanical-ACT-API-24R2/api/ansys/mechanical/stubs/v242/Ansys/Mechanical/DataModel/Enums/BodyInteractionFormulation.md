@@ -1,6 +1,6 @@
 # `BodyInteractionFormulation`
 
-
+<a id="ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.BodyInteractionFormulation"></a>
 
 #### *class* ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.BodyInteractionFormulation
 
@@ -17,7 +17,7 @@ Specifies the BodyInteractionFormulation.
 ### Attributes
 
 | Name |
-| ---------------------------------------------------------------------------------- |
+| -------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | [`DECOMPOSITION_RESPONSE`](#BodyInteractionFormulation.DECOMPOSITION_RESPONSE) |
 | [`PENALTY`](#BodyInteractionFormulation.PENALTY) |
 

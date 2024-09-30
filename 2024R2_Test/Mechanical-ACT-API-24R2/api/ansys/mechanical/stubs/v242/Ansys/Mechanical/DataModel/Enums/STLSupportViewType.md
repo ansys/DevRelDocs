@@ -1,6 +1,6 @@
 # `STLSupportViewType`
 
-
+<a id="ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.STLSupportViewType"></a>
 
 #### *class* ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.STLSupportViewType
 
@@ -17,7 +17,7 @@ Specifies the STLSupportViewType.
 ### Attributes
 
 | Name |
-| -------------------------------------------------------------- |
+| ---------------------------------------------------------------------------------------------------------------------------------------- |
 | [`KnockdownFactors`](#STLSupportViewType.KnockdownFactors) |
 | [`Mesh`](#STLSupportViewType.Mesh) |
 | [`STL`](#STLSupportViewType.STL) |

@@ -1,6 +1,6 @@
 # `SpringScopingType`
 
-
+<a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.SpringScopingType"></a>
 
 #### *class* ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.SpringScopingType
 
@@ -17,9 +17,9 @@ Specifies the SpringScopingType.
 ### Attributes
 
 | Name |
-| ---------------------------------------------------------------------------------------------------------------------------- |
-| [`BodyToBody`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/SpringScopingType.md#SpringScopingType.BodyToBody) |
-| [`BodyToGround`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/SpringScopingType.md#SpringScopingType.BodyToGround) |
+| --------------------------------------------------- |
+| [`BodyToBody`](#SpringScopingType.BodyToBody) |
+| [`BodyToGround`](#SpringScopingType.BodyToGround) |
 
 <a id="attribute-detail"></a>
 

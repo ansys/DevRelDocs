@@ -1,6 +1,6 @@
 # `StrainProbe`
 
-
+<a id="ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Results.ProbeResults.StrainProbe"></a>
 
 #### *class* ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Results.ProbeResults.StrainProbe
 
@@ -17,36 +17,52 @@ Defines a StrainProbe.
 ### Methods
 
 | Name | Description |
-|-------------------------------------------------------------------|-----------------------------------------------------------------------------------|
-| [`ExportAnimation`](#StrainProbe.ExportAnimation)                 | Run the ExportAnimation action.                                                   |
-| [`ClearGeneratedData`](#StrainProbe.ClearGeneratedData)           | Run the ClearGeneratedData action.                                                |
-| [`DuplicateWithoutResults`](#StrainProbe.DuplicateWithoutResults) | Run the DuplicateWithoutResults action.                                           |
-| [`EvaluateAllResults`](#StrainProbe.EvaluateAllResults)           | Run the EvaluateAllResults action.                                                |
-| [`SnapToMeshNodes`](#StrainProbe.SnapToMeshNodes)                 | Snap the coordinates of probe result to the mesh nodes.                           |
-| [`RenameBasedOnDefinition`](#StrainProbe.RenameBasedOnDefinition) | Run the RenameBasedOnDefinition action.                                           |
-| [`Delete`](#StrainProbe.Delete)                                   | Run the Delete action.                                                            |
-| [`GetChildren`](#id1)                                             | Gets the list of children, filtered by type.                                      |
-| [`GetChildren`](#id1)                                             | Gets the list of children, filtered by type.                                      |
+|----------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------|
+| [`Activate`](#StrainProbe.Activate)                               | Activate the current object.                                                      |
 | [`AddComment`](#StrainProbe.AddComment)                           | Creates a new child Comment.                                                      |
 | [`AddFigure`](#StrainProbe.AddFigure)                             | Creates a new child Figure.                                                       |
 | [`AddImage`](#StrainProbe.AddImage)                               | Creates a new child Image.                                                        |
-| [`Activate`](#StrainProbe.Activate)                               | Activate the current object.                                                      |
+| [`ClearGeneratedData`](#StrainProbe.ClearGeneratedData)           | Run the ClearGeneratedData action.                                                |
 | [`CopyTo`](#StrainProbe.CopyTo)                                   | Copies all visible properties from this object to another.                        |
+| [`CreateParameter`](#StrainProbe.CreateParameter)                 | Creates a new parameter for a Property.                                           |
+| [`Delete`](#StrainProbe.Delete)                                   | Run the Delete action.                                                            |
 | [`Duplicate`](#StrainProbe.Duplicate)                             | Creates a copy of the current DataModelObject.                                    |
+| [`DuplicateWithoutResults`](#StrainProbe.DuplicateWithoutResults) | Run the DuplicateWithoutResults action.                                           |
+| [`EvaluateAllResults`](#StrainProbe.EvaluateAllResults)           | Run the EvaluateAllResults action.                                                |
+| [`ExportAnimation`](#StrainProbe.ExportAnimation)                 | Run the ExportAnimation action.                                                   |
+| [`GetChildren`](#StrainProbe.GetChildren)                         | Gets the list of children, filtered by type.                                      |
+| [`GetParameter`](#StrainProbe.GetParameter)                       | Gets the parameter corresponding to the given property.                           |
 | [`GroupAllSimilarChildren`](#StrainProbe.GroupAllSimilarChildren) | Run the GroupAllSimilarChildren action.                                           |
 | [`GroupSimilarObjects`](#StrainProbe.GroupSimilarObjects)         | Run the GroupSimilarObjects action.                                               |
-| [`PropertyByName`](#StrainProbe.PropertyByName)                   | Get a property by its unique name.                                                |
 | [`PropertyByAPIName`](#StrainProbe.PropertyByAPIName)             | Get a property by its API name.                                                   |
-| [`CreateParameter`](#StrainProbe.CreateParameter)                 | Creates a new parameter for a Property.                                           |
-| [`GetParameter`](#StrainProbe.GetParameter)                       | Gets the parameter corresponding to the given property.                           |
+| [`PropertyByName`](#StrainProbe.PropertyByName)                   | Get a property by its unique name.                                                |
 | [`RemoveParameter`](#StrainProbe.RemoveParameter)                 | Removes the parameter from the parameter set corresponding to the given property. |
+| [`RenameBasedOnDefinition`](#StrainProbe.RenameBasedOnDefinition) | Run the RenameBasedOnDefinition action.                                           |
+| [`SnapToMeshNodes`](#StrainProbe.SnapToMeshNodes)                 | Snap the coordinates of probe result to the mesh nodes.                           |
 
 ### Properties
 
 | Name | Description |
-|-------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [`InternalObject`](#id0)                                                      | Gets the internal object. For advanced usage only.                                                                                                                         |
+|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| [`BeamSelection`](#StrainProbe.BeamSelection)                                 | Gets or sets the BeamSelection.                                                                                                                                            |
+| [`BoundaryConditionSelection`](#StrainProbe.BoundaryConditionSelection)       | Gets or sets the BoundaryConditionSelection. In order to select the option ‘WeakSprings’, please use the property ‘LocationMethod = LocationDefinitionMethod.WeakSprings’. |
+| [`Children`](#StrainProbe.Children)                                           | Gets the list of children.                                                                                                                                                 |
+| [`Comments`](#StrainProbe.Comments)                                           | Gets the list of associated comments.                                                                                                                                      |
+| [`ContactRegionSelection`](#StrainProbe.ContactRegionSelection)               | Gets or sets the ContactRegionSelection.                                                                                                                                   |
+| [`CoordinateSystemSelection`](#StrainProbe.CoordinateSystemSelection)         | Gets or sets the CoordinateSystemSelection.                                                                                                                                |
+| [`DataModelObjectCategory`](#StrainProbe.DataModelObjectCategory)             | Gets the current DataModelObject’s category.                                                                                                                               |
+| [`DisplayTime`](#StrainProbe.DisplayTime)                                     | Gets or sets the DisplayTime.                                                                                                                                              |
+| [`DpfEvaluation`](#StrainProbe.DpfEvaluation)                                 | Gets or sets the DpfEvaluation.                                                                                                                                            |
 | [`EquivalentStrain`](#StrainProbe.EquivalentStrain)                           | Gets the EquivalentStrain.                                                                                                                                                 |
+| [`Figures`](#StrainProbe.Figures)                                             | Gets the list of associated figures.                                                                                                                                       |
+| [`GeometryLocation`](#StrainProbe.GeometryLocation)                           | Gets or sets the GeometryLocation.                                                                                                                                         |
+| [`Images`](#StrainProbe.Images)                                               | Gets the list of associated images.                                                                                                                                        |
+| [`InternalObject`](#StrainProbe.InternalObject)                               | Gets the internal object. For advanced usage only.                                                                                                                         |
+| [`IsSolved`](#StrainProbe.IsSolved)                                           | Gets the IsSolved.                                                                                                                                                         |
+| [`IterationNumber`](#StrainProbe.IterationNumber)                             | Gets the IterationNumber.                                                                                                                                                  |
+| [`LoadStep`](#StrainProbe.LoadStep)                                           | Gets the LoadStep.                                                                                                                                                         |
+| [`LoadStepNumber`](#StrainProbe.LoadStepNumber)                               | Gets or sets the LoadStepNumber.                                                                                                                                           |
+| [`LocationMethod`](#StrainProbe.LocationMethod)                               | Gets or sets the LocationMethod.                                                                                                                                           |
 | [`MaximumEquivalentStrain`](#StrainProbe.MaximumEquivalentStrain)             | Gets the MaximumEquivalentStrain.                                                                                                                                          |
 | [`MaximumMaximumPrincipalStrain`](#StrainProbe.MaximumMaximumPrincipalStrain) | Gets the MaximumMaximumPrincipalStrain.                                                                                                                                    |
 | [`MaximumMiddlePrincipalStrain`](#StrainProbe.MaximumMiddlePrincipalStrain)   | Gets the MaximumMiddlePrincipalStrain.                                                                                                                                     |
@@ -55,80 +71,166 @@ Defines a StrainProbe.
 | [`MaximumNormalYAxisStrain`](#StrainProbe.MaximumNormalYAxisStrain)           | Gets the MaximumNormalYAxisStrain.                                                                                                                                         |
 | [`MaximumNormalZAxisStrain`](#StrainProbe.MaximumNormalZAxisStrain)           | Gets the MaximumNormalZAxisStrain.                                                                                                                                         |
 | [`MaximumPrincipalStrain`](#StrainProbe.MaximumPrincipalStrain)               | Gets the MaximumPrincipalStrain.                                                                                                                                           |
+| [`MaximumStrainIntensity`](#StrainProbe.MaximumStrainIntensity)               | Gets the MaximumStrainIntensity.                                                                                                                                           |
+| [`MaximumTotal`](#StrainProbe.MaximumTotal)                                   | Gets the MaximumTotal.                                                                                                                                                     |
+| [`MaximumXAxis`](#StrainProbe.MaximumXAxis)                                   | Gets the MaximumXAxis.                                                                                                                                                     |
 | [`MaximumXYShearStrain`](#StrainProbe.MaximumXYShearStrain)                   | Gets the MaximumXYShearStrain.                                                                                                                                             |
 | [`MaximumXZShearStrain`](#StrainProbe.MaximumXZShearStrain)                   | Gets the MaximumXZShearStrain.                                                                                                                                             |
+| [`MaximumYAxis`](#StrainProbe.MaximumYAxis)                                   | Gets the MaximumYAxis.                                                                                                                                                     |
 | [`MaximumYZShearStrain`](#StrainProbe.MaximumYZShearStrain)                   | Gets the MaximumYZShearStrain.                                                                                                                                             |
-| [`MaximumStrainIntensity`](#StrainProbe.MaximumStrainIntensity)               | Gets the MaximumStrainIntensity.                                                                                                                                           |
+| [`MaximumZAxis`](#StrainProbe.MaximumZAxis)                                   | Gets the MaximumZAxis.                                                                                                                                                     |
+| [`MeshConnectionSelection`](#StrainProbe.MeshConnectionSelection)             | Gets or sets the MeshConnectionSelection.                                                                                                                                  |
 | [`MiddlePrincipalStrain`](#StrainProbe.MiddlePrincipalStrain)                 | Gets the MiddlePrincipalStrain.                                                                                                                                            |
 | [`MinimumEquivalentStrain`](#StrainProbe.MinimumEquivalentStrain)             | Gets the MinimumEquivalentStrain.                                                                                                                                          |
-| [`MinimumStrainMaximumPrincipal`](#StrainProbe.MinimumStrainMaximumPrincipal) | Gets the MinimumStrainMaximumPrincipal.                                                                                                                                    |
 | [`MinimumMiddlePrincipalStrain`](#StrainProbe.MinimumMiddlePrincipalStrain)   | Gets the MinimumMiddlePrincipalStrain.                                                                                                                                     |
 | [`MinimumMinimumPrincipalStrain`](#StrainProbe.MinimumMinimumPrincipalStrain) | Gets the MinimumMinimumPrincipalStrain.                                                                                                                                    |
 | [`MinimumNormalXAxisStrain`](#StrainProbe.MinimumNormalXAxisStrain)           | Gets the MinimumNormalXAxisStrain.                                                                                                                                         |
 | [`MinimumNormalYAxisStrain`](#StrainProbe.MinimumNormalYAxisStrain)           | Gets the MinimumNormalYAxisStrain.                                                                                                                                         |
 | [`MinimumNormalZAxisStrain`](#StrainProbe.MinimumNormalZAxisStrain)           | Gets the MinimumNormalZAxisStrain.                                                                                                                                         |
 | [`MinimumPrincipalStrain`](#StrainProbe.MinimumPrincipalStrain)               | Gets the MinimumPrincipalStrain.                                                                                                                                           |
-| [`MinimumXYShearStrain`](#StrainProbe.MinimumXYShearStrain)                   | Gets the MinimumXYShearStrain.                                                                                                                                             |
-| [`MinimumXZShearStrain`](#StrainProbe.MinimumXZShearStrain)                   | Gets the MinimumXZShearStrain.                                                                                                                                             |
-| [`MinimumYZShearStrain`](#StrainProbe.MinimumYZShearStrain)                   | Gets the MinimumYZShearStrain.                                                                                                                                             |
 | [`MinimumStrain`](#StrainProbe.MinimumStrain)                                 | Gets the MinimumStrain.                                                                                                                                                    |
 | [`MinimumStrainIntensity`](#StrainProbe.MinimumStrainIntensity)               | Gets the MinimumStrainIntensity.                                                                                                                                           |
+| [`MinimumStrainMaximumPrincipal`](#StrainProbe.MinimumStrainMaximumPrincipal) | Gets the MinimumStrainMaximumPrincipal.                                                                                                                                    |
+| [`MinimumTotal`](#StrainProbe.MinimumTotal)                                   | Gets the MinimumTotal.                                                                                                                                                     |
+| [`MinimumXAxis`](#StrainProbe.MinimumXAxis)                                   | Gets the MinimumXAxis.                                                                                                                                                     |
+| [`MinimumXYShearStrain`](#StrainProbe.MinimumXYShearStrain)                   | Gets the MinimumXYShearStrain.                                                                                                                                             |
+| [`MinimumXZShearStrain`](#StrainProbe.MinimumXZShearStrain)                   | Gets the MinimumXZShearStrain.                                                                                                                                             |
+| [`MinimumYAxis`](#StrainProbe.MinimumYAxis)                                   | Gets the MinimumYAxis.                                                                                                                                                     |
+| [`MinimumYZShearStrain`](#StrainProbe.MinimumYZShearStrain)                   | Gets the MinimumYZShearStrain.                                                                                                                                             |
+| [`MinimumZAxis`](#StrainProbe.MinimumZAxis)                                   | Gets the MinimumZAxis.                                                                                                                                                     |
 | [`NormalXAxisStrain`](#StrainProbe.NormalXAxisStrain)                         | Gets the NormalXAxisStrain.                                                                                                                                                |
 | [`NormalYAxisStrain`](#StrainProbe.NormalYAxisStrain)                         | Gets the NormalYAxisStrain.                                                                                                                                                |
 | [`NormalZAxisStrain`](#StrainProbe.NormalZAxisStrain)                         | Gets the NormalZAxisStrain.                                                                                                                                                |
-| [`XYShearStrain`](#StrainProbe.XYShearStrain)                                 | Gets the XYShearStrain.                                                                                                                                                    |
-| [`XZShearStrain`](#StrainProbe.XZShearStrain)                                 | Gets the XZShearStrain.                                                                                                                                                    |
-| [`YZShearStrain`](#StrainProbe.YZShearStrain)                                 | Gets the YZShearStrain.                                                                                                                                                    |
-| [`Strain`](#StrainProbe.Strain)                                               | Gets the Strain.                                                                                                                                                           |
-| [`StrainIntensity`](#StrainProbe.StrainIntensity)                             | Gets the StrainIntensity.                                                                                                                                                  |
-| [`DataModelObjectCategory`](#StrainProbe.DataModelObjectCategory)             | Gets the current DataModelObject's category.                                                                                                                               |
-| [`Summation`](#StrainProbe.Summation)                                         | Gets or sets the Summation.                                                                                                                                                |
-| [`LocationMethod`](#StrainProbe.LocationMethod)                               | Gets or sets the LocationMethod.                                                                                                                                           |
-| [`GeometryLocation`](#StrainProbe.GeometryLocation)                           | Gets or sets the GeometryLocation.                                                                                                                                         |
-| [`CoordinateSystemSelection`](#StrainProbe.CoordinateSystemSelection)         | Gets or sets the CoordinateSystemSelection.                                                                                                                                |
-| [`BoundaryConditionSelection`](#StrainProbe.BoundaryConditionSelection)       | Gets or sets the BoundaryConditionSelection. In order to select the option â€˜WeakSprings', please use the property â€˜LocationMethod = LocationDefinitionMethod.WeakSprings'. |
-| [`ContactRegionSelection`](#StrainProbe.ContactRegionSelection)               | Gets or sets the ContactRegionSelection.                                                                                                                                   |
-| [`RemotePointSelection`](#StrainProbe.RemotePointSelection)                   | Gets or sets the RemotePointSelection.                                                                                                                                     |
-| [`BeamSelection`](#StrainProbe.BeamSelection)                                 | Gets or sets the BeamSelection.                                                                                                                                            |
-| [`MeshConnectionSelection`](#StrainProbe.MeshConnectionSelection)             | Gets or sets the MeshConnectionSelection.                                                                                                                                  |
-| [`SurfaceSelection`](#StrainProbe.SurfaceSelection)                           | Gets or sets the MeshConnectionSelection.                                                                                                                                  |
-| [`SpringSelection`](#StrainProbe.SpringSelection)                             | Gets or sets the SpringSelection.                                                                                                                                          |
-| [`IsSolved`](#StrainProbe.IsSolved)                                           | Gets the IsSolved.                                                                                                                                                         |
 | [`Orientation`](#StrainProbe.Orientation)                                     | Gets or sets the Orientation. Accepts/Returns None if it is the Solution Coordinate System.                                                                                |
-| [`IterationNumber`](#StrainProbe.IterationNumber)                             | Gets the IterationNumber.                                                                                                                                                  |
-| [`LoadStep`](#StrainProbe.LoadStep)                                           | Gets the LoadStep.                                                                                                                                                         |
-| [`LoadStepNumber`](#StrainProbe.LoadStepNumber)                               | Gets or sets the LoadStepNumber.                                                                                                                                           |
-| [`Substep`](#StrainProbe.Substep)                                             | Gets the Substep.                                                                                                                                                          |
-| [`DisplayTime`](#StrainProbe.DisplayTime)                                     | Gets or sets the DisplayTime.                                                                                                                                              |
-| [`MaximumTotal`](#StrainProbe.MaximumTotal)                                   | Gets the MaximumTotal.                                                                                                                                                     |
-| [`MaximumXAxis`](#StrainProbe.MaximumXAxis)                                   | Gets the MaximumXAxis.                                                                                                                                                     |
-| [`MaximumYAxis`](#StrainProbe.MaximumYAxis)                                   | Gets the MaximumYAxis.                                                                                                                                                     |
-| [`MaximumZAxis`](#StrainProbe.MaximumZAxis)                                   | Gets the MaximumZAxis.                                                                                                                                                     |
-| [`MinimumTotal`](#StrainProbe.MinimumTotal)                                   | Gets the MinimumTotal.                                                                                                                                                     |
-| [`MinimumXAxis`](#StrainProbe.MinimumXAxis)                                   | Gets the MinimumXAxis.                                                                                                                                                     |
-| [`MinimumYAxis`](#StrainProbe.MinimumYAxis)                                   | Gets the MinimumYAxis.                                                                                                                                                     |
-| [`MinimumZAxis`](#StrainProbe.MinimumZAxis)                                   | Gets the MinimumZAxis.                                                                                                                                                     |
-| [`Time`](#StrainProbe.Time)                                                   | Gets the Time.                                                                                                                                                             |
-| [`Total`](#StrainProbe.Total)                                                 | Gets the Total.                                                                                                                                                            |
-| [`XAxis`](#StrainProbe.XAxis)                                                 | Gets the XAxis.                                                                                                                                                            |
-| [`YAxis`](#StrainProbe.YAxis)                                                 | Gets the YAxis.                                                                                                                                                            |
-| [`ZAxis`](#StrainProbe.ZAxis)                                                 | Gets the ZAxis.                                                                                                                                                            |
+| [`Properties`](#StrainProbe.Properties)                                       | Gets the list of properties for this object.                                                                                                                               |
+| [`RemotePointSelection`](#StrainProbe.RemotePointSelection)                   | Gets or sets the RemotePointSelection.                                                                                                                                     |
 | [`ResultSelection`](#StrainProbe.ResultSelection)                             | Gets or sets the ResultSelection.                                                                                                                                          |
 | [`SpatialResolution`](#StrainProbe.SpatialResolution)                         | Gets or sets the SpatialResolution.                                                                                                                                        |
-| [`Type`](#StrainProbe.Type)                                                   | Gets the Type.                                                                                                                                                             |
-| [`DpfEvaluation`](#StrainProbe.DpfEvaluation)                                 | Gets or sets the DpfEvaluation.                                                                                                                                            |
+| [`SpringSelection`](#StrainProbe.SpringSelection)                             | Gets or sets the SpringSelection.                                                                                                                                          |
+| [`Strain`](#StrainProbe.Strain)                                               | Gets the Strain.                                                                                                                                                           |
+| [`StrainIntensity`](#StrainProbe.StrainIntensity)                             | Gets the StrainIntensity.                                                                                                                                                  |
+| [`Substep`](#StrainProbe.Substep)                                             | Gets the Substep.                                                                                                                                                          |
+| [`Summation`](#StrainProbe.Summation)                                         | Gets or sets the Summation.                                                                                                                                                |
 | [`Suppressed`](#StrainProbe.Suppressed)                                       | Gets or sets the Suppressed.                                                                                                                                               |
-| [`Children`](#StrainProbe.Children)                                           | Gets the list of children.                                                                                                                                                 |
-| [`Comments`](#StrainProbe.Comments)                                           | Gets the list of associated comments.                                                                                                                                      |
-| [`Figures`](#StrainProbe.Figures)                                             | Gets the list of associated figures.                                                                                                                                       |
-| [`Images`](#StrainProbe.Images)                                               | Gets the list of associated images.                                                                                                                                        |
-| [`InternalObject`](#id0)                                                      | Gets the internal object. For advanced usage only.                                                                                                                         |
-| [`Properties`](#StrainProbe.Properties)                                       | Gets the list of properties for this object.                                                                                                                               |
+| [`SurfaceSelection`](#StrainProbe.SurfaceSelection)                           | Gets or sets the MeshConnectionSelection.                                                                                                                                  |
+| [`Time`](#StrainProbe.Time)                                                   | Gets the Time.                                                                                                                                                             |
+| [`Total`](#StrainProbe.Total)                                                 | Gets the Total.                                                                                                                                                            |
+| [`Type`](#StrainProbe.Type)                                                   | Gets the Type.                                                                                                                                                             |
 | [`VisibleProperties`](#StrainProbe.VisibleProperties)                         | Gets the list of properties that are visible for this object.                                                                                                              |
+| [`XAxis`](#StrainProbe.XAxis)                                                 | Gets the XAxis.                                                                                                                                                            |
+| [`XYShearStrain`](#StrainProbe.XYShearStrain)                                 | Gets the XYShearStrain.                                                                                                                                                    |
+| [`XZShearStrain`](#StrainProbe.XZShearStrain)                                 | Gets the XZShearStrain.                                                                                                                                                    |
+| [`YAxis`](#StrainProbe.YAxis)                                                 | Gets the YAxis.                                                                                                                                                            |
+| [`YZShearStrain`](#StrainProbe.YZShearStrain)                                 | Gets the YZShearStrain.                                                                                                                                                    |
+| [`ZAxis`](#StrainProbe.ZAxis)                                                 | Gets the ZAxis.                                                                                                                                                            |
 
 <a id="property-detail"></a>
 
 ## Property detail
+
+<a id="StrainProbe.BeamSelection"></a>
+
+### *property* StrainProbe.BeamSelection *: [Ansys.ACT.Automation.Mechanical.Connections.Beam](../../../../../../../v241/Ansys/ACT/Automation/Mechanical/Connections/Beam.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Connections.Beam) | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the BeamSelection.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="StrainProbe.BoundaryConditionSelection"></a>
+
+### *property* StrainProbe.BoundaryConditionSelection *: Ansys.ACT.Automation.Mechanical.DataModelObject | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the BoundaryConditionSelection. In order to select the option ‘WeakSprings’, please use the property ‘LocationMethod = LocationDefinitionMethod.WeakSprings’.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="StrainProbe.Children"></a>
+
+### *property* StrainProbe.Children *: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets the list of children.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="StrainProbe.Comments"></a>
+
+### *property* StrainProbe.Comments *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Comment](../../../../../../../v241/Ansys/ACT/Automation/Mechanical/Comment.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets the list of associated comments.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="StrainProbe.ContactRegionSelection"></a>
+
+### *property* StrainProbe.ContactRegionSelection *: [Ansys.ACT.Automation.Mechanical.Connections.ContactRegion](../../../../../../../v241/Ansys/ACT/Automation/Mechanical/Connections/ContactRegion.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Connections.ContactRegion) | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the ContactRegionSelection.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="StrainProbe.CoordinateSystemSelection"></a>
+
+### *property* StrainProbe.CoordinateSystemSelection *: [Ansys.ACT.Automation.Mechanical.CoordinateSystem](../../../../../../../v241/Ansys/ACT/Automation/Mechanical/CoordinateSystem.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.CoordinateSystem) | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the CoordinateSystemSelection.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="StrainProbe.DataModelObjectCategory"></a>
+
+### *property* StrainProbe.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets the current DataModelObject’s category.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="StrainProbe.DisplayTime"></a>
+
+### *property* StrainProbe.DisplayTime *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the DisplayTime.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="StrainProbe.DpfEvaluation"></a>
+
+### *property* StrainProbe.DpfEvaluation *: [Ansys.Mechanical.DataModel.Enums.DpfEvaluationType](../../../../../Mechanical/DataModel/Enums/DpfEvaluationType.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.DpfEvaluationType) | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the DpfEvaluation.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="StrainProbe.EquivalentStrain"></a>
+
+### *property* StrainProbe.EquivalentStrain *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets the EquivalentStrain.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="StrainProbe.Figures"></a>
+
+### *property* StrainProbe.Figures *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Figure](../../../../../../../v241/Ansys/ACT/Automation/Mechanical/Figure.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets the list of associated figures.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="StrainProbe.GeometryLocation"></a>
+
+### *property* StrainProbe.GeometryLocation *: Ansys.ACT.Interfaces.Common.ISelectionInfo | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the GeometryLocation.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="StrainProbe.Images"></a>
+
+### *property* StrainProbe.Images *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Image](../../../../../../../v241/Ansys/ACT/Automation/Mechanical/Image.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets the list of associated images.
+
+<!-- !! processed by numpydoc !! -->
 
 <a id="StrainProbe.InternalObject"></a>
 
@@ -138,11 +240,43 @@ Gets the internal object. For advanced usage only.
 
 <!-- !! processed by numpydoc !! -->
 
-<a id="StrainProbe.EquivalentStrain"></a>
+<a id="StrainProbe.IsSolved"></a>
 
-### *property* StrainProbe.EquivalentStrain *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* StrainProbe.IsSolved *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets the EquivalentStrain.
+Gets the IsSolved.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="StrainProbe.IterationNumber"></a>
+
+### *property* StrainProbe.IterationNumber *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets the IterationNumber.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="StrainProbe.LoadStep"></a>
+
+### *property* StrainProbe.LoadStep *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets the LoadStep.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="StrainProbe.LoadStepNumber"></a>
+
+### *property* StrainProbe.LoadStepNumber *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the LoadStepNumber.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="StrainProbe.LocationMethod"></a>
+
+### *property* StrainProbe.LocationMethod *: [Ansys.Mechanical.DataModel.Enums.LocationDefinitionMethod](../../../../../Mechanical/DataModel/Enums/LocationDefinitionMethod.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.LocationDefinitionMethod) | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the LocationMethod.
 
 <!-- !! processed by numpydoc !! -->
 
@@ -210,6 +344,30 @@ Gets the MaximumPrincipalStrain.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="StrainProbe.MaximumStrainIntensity"></a>
+
+### *property* StrainProbe.MaximumStrainIntensity *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets the MaximumStrainIntensity.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="StrainProbe.MaximumTotal"></a>
+
+### *property* StrainProbe.MaximumTotal *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets the MaximumTotal.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="StrainProbe.MaximumXAxis"></a>
+
+### *property* StrainProbe.MaximumXAxis *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets the MaximumXAxis.
+
+<!-- !! processed by numpydoc !! -->
+
 <a id="StrainProbe.MaximumXYShearStrain"></a>
 
 ### *property* StrainProbe.MaximumXYShearStrain *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
@@ -226,6 +384,14 @@ Gets the MaximumXZShearStrain.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="StrainProbe.MaximumYAxis"></a>
+
+### *property* StrainProbe.MaximumYAxis *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets the MaximumYAxis.
+
+<!-- !! processed by numpydoc !! -->
+
 <a id="StrainProbe.MaximumYZShearStrain"></a>
 
 ### *property* StrainProbe.MaximumYZShearStrain *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
@@ -234,11 +400,19 @@ Gets the MaximumYZShearStrain.
 
 <!-- !! processed by numpydoc !! -->
 
-<a id="StrainProbe.MaximumStrainIntensity"></a>
+<a id="StrainProbe.MaximumZAxis"></a>
 
-### *property* StrainProbe.MaximumStrainIntensity *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* StrainProbe.MaximumZAxis *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets the MaximumStrainIntensity.
+Gets the MaximumZAxis.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="StrainProbe.MeshConnectionSelection"></a>
+
+### *property* StrainProbe.MeshConnectionSelection *: [Ansys.ACT.Automation.Mechanical.MeshConnection](../../../../../../../v241/Ansys/ACT/Automation/Mechanical/MeshConnection.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.MeshConnection) | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the MeshConnectionSelection.
 
 <!-- !! processed by numpydoc !! -->
 
@@ -255,14 +429,6 @@ Gets the MiddlePrincipalStrain.
 ### *property* StrainProbe.MinimumEquivalentStrain *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the MinimumEquivalentStrain.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="StrainProbe.MinimumStrainMaximumPrincipal"></a>
-
-### *property* StrainProbe.MinimumStrainMaximumPrincipal *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets the MinimumStrainMaximumPrincipal.
 
 <!-- !! processed by numpydoc !! -->
 
@@ -314,6 +480,46 @@ Gets the MinimumPrincipalStrain.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="StrainProbe.MinimumStrain"></a>
+
+### *property* StrainProbe.MinimumStrain *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets the MinimumStrain.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="StrainProbe.MinimumStrainIntensity"></a>
+
+### *property* StrainProbe.MinimumStrainIntensity *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets the MinimumStrainIntensity.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="StrainProbe.MinimumStrainMaximumPrincipal"></a>
+
+### *property* StrainProbe.MinimumStrainMaximumPrincipal *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets the MinimumStrainMaximumPrincipal.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="StrainProbe.MinimumTotal"></a>
+
+### *property* StrainProbe.MinimumTotal *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets the MinimumTotal.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="StrainProbe.MinimumXAxis"></a>
+
+### *property* StrainProbe.MinimumXAxis *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets the MinimumXAxis.
+
+<!-- !! processed by numpydoc !! -->
+
 <a id="StrainProbe.MinimumXYShearStrain"></a>
 
 ### *property* StrainProbe.MinimumXYShearStrain *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
@@ -330,6 +536,14 @@ Gets the MinimumXZShearStrain.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="StrainProbe.MinimumYAxis"></a>
+
+### *property* StrainProbe.MinimumYAxis *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets the MinimumYAxis.
+
+<!-- !! processed by numpydoc !! -->
+
 <a id="StrainProbe.MinimumYZShearStrain"></a>
 
 ### *property* StrainProbe.MinimumYZShearStrain *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
@@ -338,19 +552,11 @@ Gets the MinimumYZShearStrain.
 
 <!-- !! processed by numpydoc !! -->
 
-<a id="StrainProbe.MinimumStrain"></a>
+<a id="StrainProbe.MinimumZAxis"></a>
 
-### *property* StrainProbe.MinimumStrain *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* StrainProbe.MinimumZAxis *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets the MinimumStrain.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="StrainProbe.MinimumStrainIntensity"></a>
-
-### *property* StrainProbe.MinimumStrainIntensity *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets the MinimumStrainIntensity.
+Gets the MinimumZAxis.
 
 <!-- !! processed by numpydoc !! -->
 
@@ -378,27 +584,51 @@ Gets the NormalZAxisStrain.
 
 <!-- !! processed by numpydoc !! -->
 
-<a id="StrainProbe.XYShearStrain"></a>
+<a id="StrainProbe.Orientation"></a>
 
-### *property* StrainProbe.XYShearStrain *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* StrainProbe.Orientation *: [Ansys.ACT.Automation.Mechanical.CoordinateSystem](../../../../../../../v241/Ansys/ACT/Automation/Mechanical/CoordinateSystem.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.CoordinateSystem) | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets the XYShearStrain.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="StrainProbe.XZShearStrain"></a>
-
-### *property* StrainProbe.XZShearStrain *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets the XZShearStrain.
+Gets or sets the Orientation. Accepts/Returns None if it is the Solution Coordinate System.
 
 <!-- !! processed by numpydoc !! -->
 
-<a id="StrainProbe.YZShearStrain"></a>
+<a id="StrainProbe.Properties"></a>
 
-### *property* StrainProbe.YZShearStrain *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* StrainProbe.Properties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets the YZShearStrain.
+Gets the list of properties for this object.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="StrainProbe.RemotePointSelection"></a>
+
+### *property* StrainProbe.RemotePointSelection *: [Ansys.ACT.Automation.Mechanical.RemotePoint](../../RemotePoint.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.RemotePoint) | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the RemotePointSelection.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="StrainProbe.ResultSelection"></a>
+
+### *property* StrainProbe.ResultSelection *: [Ansys.Mechanical.DataModel.Enums.ProbeDisplayFilter](../../../../../Mechanical/DataModel/Enums/ProbeDisplayFilter.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.ProbeDisplayFilter) | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the ResultSelection.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="StrainProbe.SpatialResolution"></a>
+
+### *property* StrainProbe.SpatialResolution *: [Ansys.Mechanical.DataModel.Enums.MinimumOrMaximum](../../../../../Mechanical/DataModel/Enums/MinimumOrMaximum.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.MinimumOrMaximum) | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the SpatialResolution.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="StrainProbe.SpringSelection"></a>
+
+### *property* StrainProbe.SpringSelection *: [Ansys.ACT.Automation.Mechanical.Connections.Spring](../../../../../../../v241/Ansys/ACT/Automation/Mechanical/Connections/Spring.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Connections.Spring) | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the SpringSelection.
 
 <!-- !! processed by numpydoc !! -->
 
@@ -418,142 +648,6 @@ Gets the StrainIntensity.
 
 <!-- !! processed by numpydoc !! -->
 
-<a id="StrainProbe.DataModelObjectCategory"></a>
-
-### *property* StrainProbe.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../../../v241/Ansys/Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets the current DataModelObject's category.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="StrainProbe.Summation"></a>
-
-### *property* StrainProbe.Summation *: [Ansys.Mechanical.DataModel.Enums.MomentsAtSummationPointType](../../../../../../../v241/Ansys/Mechanical/DataModel/Enums/MomentsAtSummationPointType.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.MomentsAtSummationPointType) | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the Summation.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="StrainProbe.LocationMethod"></a>
-
-### *property* StrainProbe.LocationMethod *: [Ansys.Mechanical.DataModel.Enums.LocationDefinitionMethod](../../../../../../../v241/Ansys/Mechanical/DataModel/Enums/LocationDefinitionMethod.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.LocationDefinitionMethod) | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the LocationMethod.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="StrainProbe.GeometryLocation"></a>
-
-### *property* StrainProbe.GeometryLocation *: Ansys.ACT.Interfaces.Common.ISelectionInfo | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the GeometryLocation.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="StrainProbe.CoordinateSystemSelection"></a>
-
-### *property* StrainProbe.CoordinateSystemSelection *: [Ansys.ACT.Automation.Mechanical.CoordinateSystem](../../../../../../../v241/Ansys/ACT/Automation/Mechanical/CoordinateSystem.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.CoordinateSystem) | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the CoordinateSystemSelection.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="StrainProbe.BoundaryConditionSelection"></a>
-
-### *property* StrainProbe.BoundaryConditionSelection *: Ansys.ACT.Automation.Mechanical.DataModelObject | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the BoundaryConditionSelection. In order to select the option â€˜WeakSprings', please use the property â€˜LocationMethod = LocationDefinitionMethod.WeakSprings'.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="StrainProbe.ContactRegionSelection"></a>
-
-### *property* StrainProbe.ContactRegionSelection *: [Ansys.ACT.Automation.Mechanical.Connections.ContactRegion](../../../../../../../v241/Ansys/ACT/Automation/Mechanical/Connections/ContactRegion.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Connections.ContactRegion) | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the ContactRegionSelection.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="StrainProbe.RemotePointSelection"></a>
-
-### *property* StrainProbe.RemotePointSelection *: [Ansys.ACT.Automation.Mechanical.RemotePoint](../../../../../../../v241/Ansys/ACT/Automation/Mechanical/RemotePoint.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.RemotePoint) | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the RemotePointSelection.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="StrainProbe.BeamSelection"></a>
-
-### *property* StrainProbe.BeamSelection *: [Ansys.ACT.Automation.Mechanical.Connections.Beam](../../../../../../../v241/Ansys/ACT/Automation/Mechanical/Connections/Beam.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Connections.Beam) | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the BeamSelection.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="StrainProbe.MeshConnectionSelection"></a>
-
-### *property* StrainProbe.MeshConnectionSelection *: [Ansys.ACT.Automation.Mechanical.MeshConnection](../../../../../../../v241/Ansys/ACT/Automation/Mechanical/MeshConnection.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.MeshConnection) | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the MeshConnectionSelection.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="StrainProbe.SurfaceSelection"></a>
-
-### *property* StrainProbe.SurfaceSelection *: [Ansys.ACT.Automation.Mechanical.Surface](../../../../../../../v241/Ansys/ACT/Automation/Mechanical/Surface.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Surface) | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the MeshConnectionSelection.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="StrainProbe.SpringSelection"></a>
-
-### *property* StrainProbe.SpringSelection *: [Ansys.ACT.Automation.Mechanical.Connections.Spring](../../../../../../../v241/Ansys/ACT/Automation/Mechanical/Connections/Spring.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Connections.Spring) | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the SpringSelection.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="StrainProbe.IsSolved"></a>
-
-### *property* StrainProbe.IsSolved *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets the IsSolved.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="StrainProbe.Orientation"></a>
-
-### *property* StrainProbe.Orientation *: [Ansys.ACT.Automation.Mechanical.CoordinateSystem](../../../../../../../v241/Ansys/ACT/Automation/Mechanical/CoordinateSystem.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.CoordinateSystem) | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the Orientation. Accepts/Returns None if it is the Solution Coordinate System.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="StrainProbe.IterationNumber"></a>
-
-### *property* StrainProbe.IterationNumber *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets the IterationNumber.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="StrainProbe.LoadStep"></a>
-
-### *property* StrainProbe.LoadStep *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets the LoadStep.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="StrainProbe.LoadStepNumber"></a>
-
-### *property* StrainProbe.LoadStepNumber *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the LoadStepNumber.
-
-<!-- !! processed by numpydoc !! -->
-
 <a id="StrainProbe.Substep"></a>
 
 ### *property* StrainProbe.Substep *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
@@ -562,75 +656,27 @@ Gets the Substep.
 
 <!-- !! processed by numpydoc !! -->
 
-<a id="StrainProbe.DisplayTime"></a>
+<a id="StrainProbe.Summation"></a>
 
-### *property* StrainProbe.DisplayTime *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* StrainProbe.Summation *: [Ansys.Mechanical.DataModel.Enums.MomentsAtSummationPointType](../../../../../Mechanical/DataModel/Enums/MomentsAtSummationPointType.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.MomentsAtSummationPointType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets or sets the DisplayTime.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="StrainProbe.MaximumTotal"></a>
-
-### *property* StrainProbe.MaximumTotal *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets the MaximumTotal.
+Gets or sets the Summation.
 
 <!-- !! processed by numpydoc !! -->
 
-<a id="StrainProbe.MaximumXAxis"></a>
+<a id="StrainProbe.Suppressed"></a>
 
-### *property* StrainProbe.MaximumXAxis *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* StrainProbe.Suppressed *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets the MaximumXAxis.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="StrainProbe.MaximumYAxis"></a>
-
-### *property* StrainProbe.MaximumYAxis *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets the MaximumYAxis.
+Gets or sets the Suppressed.
 
 <!-- !! processed by numpydoc !! -->
 
-<a id="StrainProbe.MaximumZAxis"></a>
+<a id="StrainProbe.SurfaceSelection"></a>
 
-### *property* StrainProbe.MaximumZAxis *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* StrainProbe.SurfaceSelection *: [Ansys.ACT.Automation.Mechanical.Surface](../../Surface.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Surface) | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets the MaximumZAxis.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="StrainProbe.MinimumTotal"></a>
-
-### *property* StrainProbe.MinimumTotal *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets the MinimumTotal.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="StrainProbe.MinimumXAxis"></a>
-
-### *property* StrainProbe.MinimumXAxis *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets the MinimumXAxis.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="StrainProbe.MinimumYAxis"></a>
-
-### *property* StrainProbe.MinimumYAxis *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets the MinimumYAxis.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="StrainProbe.MinimumZAxis"></a>
-
-### *property* StrainProbe.MinimumZAxis *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets the MinimumZAxis.
+Gets or sets the MeshConnectionSelection.
 
 <!-- !! processed by numpydoc !! -->
 
@@ -650,115 +696,11 @@ Gets the Total.
 
 <!-- !! processed by numpydoc !! -->
 
-<a id="StrainProbe.XAxis"></a>
-
-### *property* StrainProbe.XAxis *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets the XAxis.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="StrainProbe.YAxis"></a>
-
-### *property* StrainProbe.YAxis *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets the YAxis.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="StrainProbe.ZAxis"></a>
-
-### *property* StrainProbe.ZAxis *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets the ZAxis.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="StrainProbe.ResultSelection"></a>
-
-### *property* StrainProbe.ResultSelection *: [Ansys.Mechanical.DataModel.Enums.ProbeDisplayFilter](../../../../../../../v241/Ansys/Mechanical/DataModel/Enums/ProbeDisplayFilter.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.ProbeDisplayFilter) | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the ResultSelection.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="StrainProbe.SpatialResolution"></a>
-
-### *property* StrainProbe.SpatialResolution *: [Ansys.Mechanical.DataModel.Enums.MinimumOrMaximum](../../../../../../../v241/Ansys/Mechanical/DataModel/Enums/MinimumOrMaximum.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.MinimumOrMaximum) | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the SpatialResolution.
-
-<!-- !! processed by numpydoc !! -->
-
 <a id="StrainProbe.Type"></a>
 
-### *property* StrainProbe.Type *: [Ansys.Mechanical.DataModel.Enums.ProbeResultType](../../../../../../../v241/Ansys/Mechanical/DataModel/Enums/ProbeResultType.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.ProbeResultType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* StrainProbe.Type *: [Ansys.Mechanical.DataModel.Enums.ProbeResultType](../../../../../Mechanical/DataModel/Enums/ProbeResultType.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.ProbeResultType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the Type.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="StrainProbe.DpfEvaluation"></a>
-
-### *property* StrainProbe.DpfEvaluation *: [Ansys.Mechanical.DataModel.Enums.DpfEvaluationType](../../../../../../../v241/Ansys/Mechanical/DataModel/Enums/DpfEvaluationType.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DpfEvaluationType) | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the DpfEvaluation.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="StrainProbe.Suppressed"></a>
-
-### *property* StrainProbe.Suppressed *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the Suppressed.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="StrainProbe.Children"></a>
-
-### *property* StrainProbe.Children *: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets the list of children.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="StrainProbe.Comments"></a>
-
-### *property* StrainProbe.Comments *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Comment](../../../../../../../v241/Ansys/ACT/Automation/Mechanical/Comment.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets the list of associated comments.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="StrainProbe.Figures"></a>
-
-### *property* StrainProbe.Figures *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Figure](../../../../../../../v241/Ansys/ACT/Automation/Mechanical/Figure.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets the list of associated figures.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="StrainProbe.Images"></a>
-
-### *property* StrainProbe.Images *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Image](../../../../../../../v241/Ansys/ACT/Automation/Mechanical/Image.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets the list of associated images.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="id0"></a>
-
-### *property* StrainProbe.InternalObject *: System.Object | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets the internal object. For advanced usage only.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="StrainProbe.Properties"></a>
-
-### *property* StrainProbe.Properties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets the list of properties for this object.
 
 <!-- !! processed by numpydoc !! -->
 
@@ -770,79 +712,63 @@ Gets the list of properties that are visible for this object.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="StrainProbe.XAxis"></a>
+
+### *property* StrainProbe.XAxis *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets the XAxis.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="StrainProbe.XYShearStrain"></a>
+
+### *property* StrainProbe.XYShearStrain *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets the XYShearStrain.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="StrainProbe.XZShearStrain"></a>
+
+### *property* StrainProbe.XZShearStrain *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets the XZShearStrain.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="StrainProbe.YAxis"></a>
+
+### *property* StrainProbe.YAxis *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets the YAxis.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="StrainProbe.YZShearStrain"></a>
+
+### *property* StrainProbe.YZShearStrain *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets the YZShearStrain.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="StrainProbe.ZAxis"></a>
+
+### *property* StrainProbe.ZAxis *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets the ZAxis.
+
+<!-- !! processed by numpydoc !! -->
+
 <a id="method-detail"></a>
 
 ## Method detail
 
-<a id="StrainProbe.ExportAnimation"></a>
+<a id="StrainProbe.Activate"></a>
 
-### StrainProbe.ExportAnimation(filePath: System.String, format: [Ansys.Mechanical.DataModel.Enums.GraphicsAnimationExportFormat](../../../../../../../v241/Ansys/Mechanical/DataModel/Enums/GraphicsAnimationExportFormat.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.GraphicsAnimationExportFormat), settings: [Ansys.Mechanical.Graphics.AnimationExportSettings](../../../../../../../v241/Ansys/Mechanical/Graphics/AnimationExportSettings.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.Graphics.AnimationExportSettings))
+### StrainProbe.Activate()
 
-Run the ExportAnimation action.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="StrainProbe.ClearGeneratedData"></a>
-
-### StrainProbe.ClearGeneratedData()
-
-Run the ClearGeneratedData action.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="StrainProbe.DuplicateWithoutResults"></a>
-
-### StrainProbe.DuplicateWithoutResults()
-
-Run the DuplicateWithoutResults action.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="StrainProbe.EvaluateAllResults"></a>
-
-### StrainProbe.EvaluateAllResults()
-
-Run the EvaluateAllResults action.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="StrainProbe.SnapToMeshNodes"></a>
-
-### StrainProbe.SnapToMeshNodes()
-
-Snap the coordinates of probe result to the mesh nodes.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="StrainProbe.RenameBasedOnDefinition"></a>
-
-### StrainProbe.RenameBasedOnDefinition()
-
-Run the RenameBasedOnDefinition action.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="StrainProbe.Delete"></a>
-
-### StrainProbe.Delete()
-
-Run the Delete action.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="StrainProbe.GetChildren"></a>
-
-### StrainProbe.GetChildren(recurses: System.Boolean, children: System.Collections.Generic.IList[ChildrenType])
-
-Gets the list of children, filtered by type.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="id1"></a>
-
-### StrainProbe.GetChildren(category: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../../../v241/Ansys/Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory), recurses: System.Boolean, children: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject])
-
-Gets the list of children, filtered by type.
+Activate the current object.
 
 <!-- !! processed by numpydoc !! -->
 
@@ -866,17 +792,19 @@ Creates a new child Figure.
 
 ### StrainProbe.AddImage(filePath: System.String)
 
+```text
 Creates a new child Image.
 If a filePath is provided, the image will be loaded from that file,
 if not, the image will be a screen capture of the Geometry window.
+```
 
 <!-- !! processed by numpydoc !! -->
 
-<a id="StrainProbe.Activate"></a>
+<a id="StrainProbe.ClearGeneratedData"></a>
 
-### StrainProbe.Activate()
+### StrainProbe.ClearGeneratedData()
 
-Activate the current object.
+Run the ClearGeneratedData action.
 
 <!-- !! processed by numpydoc !! -->
 
@@ -888,11 +816,67 @@ Copies all visible properties from this object to another.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="StrainProbe.CreateParameter"></a>
+
+### StrainProbe.CreateParameter(propName: System.String)
+
+Creates a new parameter for a Property.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="StrainProbe.Delete"></a>
+
+### StrainProbe.Delete()
+
+Run the Delete action.
+
+<!-- !! processed by numpydoc !! -->
+
 <a id="StrainProbe.Duplicate"></a>
 
 ### StrainProbe.Duplicate()
 
 Creates a copy of the current DataModelObject.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="StrainProbe.DuplicateWithoutResults"></a>
+
+### StrainProbe.DuplicateWithoutResults()
+
+Run the DuplicateWithoutResults action.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="StrainProbe.EvaluateAllResults"></a>
+
+### StrainProbe.EvaluateAllResults()
+
+Run the EvaluateAllResults action.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="StrainProbe.ExportAnimation"></a>
+
+### StrainProbe.ExportAnimation(filePath: System.String, format: [Ansys.Mechanical.DataModel.Enums.GraphicsAnimationExportFormat](../../../../../Mechanical/DataModel/Enums/GraphicsAnimationExportFormat.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.GraphicsAnimationExportFormat), settings: [Ansys.Mechanical.Graphics.AnimationExportSettings](../../../../../Mechanical/Graphics/AnimationExportSettings.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.Graphics.AnimationExportSettings))
+
+Run the ExportAnimation action.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="StrainProbe.GetChildren"></a>
+
+### StrainProbe.GetChildren(recurses: System.Boolean, children: System.Collections.Generic.IList[ChildrenType])
+
+Gets the list of children, filtered by type.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="StrainProbe.GetParameter"></a>
+
+### StrainProbe.GetParameter(propName: System.String)
+
+Gets the parameter corresponding to the given property.
 
 <!-- !! processed by numpydoc !! -->
 
@@ -912,6 +896,17 @@ Run the GroupSimilarObjects action.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="StrainProbe.PropertyByAPIName"></a>
+
+### StrainProbe.PropertyByAPIName(name: System.String)
+
+```text
+Get a property by its API name.
+If multiple properties have the same API Name, only the first property with that name will be returned.
+```
+
+<!-- !! processed by numpydoc !! -->
+
 <a id="StrainProbe.PropertyByName"></a>
 
 ### StrainProbe.PropertyByName(name: System.String)
@@ -920,36 +915,27 @@ Get a property by its unique name.
 
 <!-- !! processed by numpydoc !! -->
 
-<a id="StrainProbe.PropertyByAPIName"></a>
-
-### StrainProbe.PropertyByAPIName(name: System.String)
-
-Get a property by its API name.
-If multiple properties have the same API Name, only the first property with that name will be returned.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="StrainProbe.CreateParameter"></a>
-
-### StrainProbe.CreateParameter(propName: System.String)
-
-Creates a new parameter for a Property.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="StrainProbe.GetParameter"></a>
-
-### StrainProbe.GetParameter(propName: System.String)
-
-Gets the parameter corresponding to the given property.
-
-<!-- !! processed by numpydoc !! -->
-
 <a id="StrainProbe.RemoveParameter"></a>
 
 ### StrainProbe.RemoveParameter(propName: System.String)
 
 Removes the parameter from the parameter set corresponding to the given property.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="StrainProbe.RenameBasedOnDefinition"></a>
+
+### StrainProbe.RenameBasedOnDefinition()
+
+Run the RenameBasedOnDefinition action.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="StrainProbe.SnapToMeshNodes"></a>
+
+### StrainProbe.SnapToMeshNodes()
+
+Snap the coordinates of probe result to the mesh nodes.
 
 <!-- !! processed by numpydoc !! -->
 

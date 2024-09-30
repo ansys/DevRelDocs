@@ -1,6 +1,6 @@
 # `ConvectionTableSelection`
 
-
+<a id="ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.ConvectionTableSelection"></a>
 
 #### *class* ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.ConvectionTableSelection
 
@@ -17,7 +17,7 @@ Specifies the ConvectionTableSelection.
 ### Attributes
 
 | Name |
-| ------------------------------------------------------------------------ |
+| -------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | [`AmbientTemperature`](#ConvectionTableSelection.AmbientTemperature) |
 | [`FilmCoefficient`](#ConvectionTableSelection.FilmCoefficient) |
 

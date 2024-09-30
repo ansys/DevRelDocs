@@ -1,6 +1,6 @@
 # `PreStressLoadControl`
 
-
+<a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.PreStressLoadControl"></a>
 
 #### *class* ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.PreStressLoadControl
 
@@ -17,16 +17,20 @@ Specifies the PreStressLoadControl.
 ### Attributes
 
 | Name |
-| ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| [`KeepAll`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/PreStressLoadControl.md#PreStressLoadControl.KeepAll) |
-| [`KeepAllDisplacementsAsZero`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/PreStressLoadControl.md#PreStressLoadControl.KeepAllDisplacementsAsZero) |
-| [`KeepInertiaAndDisplacementConstraints`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/PreStressLoadControl.md#PreStressLoadControl.KeepInertiaAndDisplacementConstraints) |
-| [`DeleteAll`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/PreStressLoadControl.md#PreStressLoadControl.DeleteAll) |
-| [`KeepDisplacementConstraints`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/PreStressLoadControl.md#PreStressLoadControl.KeepDisplacementConstraints) |
+| -------------------------------------------------------------------------------------------------------- |
+| [`DeleteAll`](#PreStressLoadControl.DeleteAll) |
+| [`KeepAll`](#PreStressLoadControl.KeepAll) |
+| [`KeepAllDisplacementsAsZero`](#PreStressLoadControl.KeepAllDisplacementsAsZero) |
+| [`KeepDisplacementConstraints`](#PreStressLoadControl.KeepDisplacementConstraints) |
+| [`KeepInertiaAndDisplacementConstraints`](#PreStressLoadControl.KeepInertiaAndDisplacementConstraints) |
 
 <a id="attribute-detail"></a>
 
 ## Attribute detail
+
+<a id="PreStressLoadControl.DeleteAll"></a>
+
+### PreStressLoadControl.DeleteAll *= 4*
 
 <a id="PreStressLoadControl.KeepAll"></a>
 
@@ -36,16 +40,12 @@ Specifies the PreStressLoadControl.
 
 ### PreStressLoadControl.KeepAllDisplacementsAsZero *= 3*
 
-<a id="PreStressLoadControl.KeepInertiaAndDisplacementConstraints"></a>
-
-### PreStressLoadControl.KeepInertiaAndDisplacementConstraints *= 1*
-
-<a id="PreStressLoadControl.DeleteAll"></a>
-
-### PreStressLoadControl.DeleteAll *= 4*
-
 <a id="PreStressLoadControl.KeepDisplacementConstraints"></a>
 
 ### PreStressLoadControl.KeepDisplacementConstraints *= 2*
+
+<a id="PreStressLoadControl.KeepInertiaAndDisplacementConstraints"></a>
+
+### PreStressLoadControl.KeepInertiaAndDisplacementConstraints *= 1*
 
 

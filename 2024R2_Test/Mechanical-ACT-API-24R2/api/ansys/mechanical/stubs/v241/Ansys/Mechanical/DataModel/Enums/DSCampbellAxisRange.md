@@ -1,6 +1,6 @@
 # `DSCampbellAxisRange`
 
-
+<a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DSCampbellAxisRange"></a>
 
 #### *class* ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DSCampbellAxisRange
 
@@ -17,9 +17,9 @@ Specifies the DSCampbellAxisRange.
 ### Attributes
 
 | Name |
-| ------------------------------------------------------------------------------------------------------------------------------------------ |
-| [`Manual`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/DSCampbellAxisRange.md#DSCampbellAxisRange.Manual) |
-| [`ProgramControlled`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/DSCampbellAxisRange.md#DSCampbellAxisRange.ProgramControlled) |
+| --------------------------------------------------------------- |
+| [`Manual`](#DSCampbellAxisRange.Manual) |
+| [`ProgramControlled`](#DSCampbellAxisRange.ProgramControlled) |
 
 <a id="attribute-detail"></a>
 

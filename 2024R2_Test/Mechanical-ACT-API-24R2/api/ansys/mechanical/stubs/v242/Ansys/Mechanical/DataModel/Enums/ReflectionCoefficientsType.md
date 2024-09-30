@@ -1,6 +1,6 @@
 # `ReflectionCoefficientsType`
 
-
+<a id="ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.ReflectionCoefficientsType"></a>
 
 #### *class* ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.ReflectionCoefficientsType
 
@@ -17,7 +17,7 @@ Specifies the ReflectionCoefficientsType.
 ### Attributes
 
 | Name |
-| ---------------------------------------------------------------------- |
+| -------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | [`Manual`](#ReflectionCoefficientsType.Manual) |
 | [`ProgramControlled`](#ReflectionCoefficientsType.ProgramControlled) |
 

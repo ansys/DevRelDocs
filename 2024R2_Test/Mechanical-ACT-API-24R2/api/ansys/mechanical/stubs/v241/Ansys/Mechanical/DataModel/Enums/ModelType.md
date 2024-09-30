@@ -1,6 +1,6 @@
 # `ModelType`
 
-
+<a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.ModelType"></a>
 
 #### *class* ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.ModelType
 
@@ -17,23 +17,23 @@ Specifies the ModelType.
 ### Attributes
 
 | Name |
-| -------------------------------------------------------------------------------------------------------------------------------------------------- |
-| [`Type_2_5YAxisRotationExtrusion`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/ModelType.md#ModelType.Type_2_5YAxisRotationExtrusion) |
-| [`Type_2_5DZDirectionExtrusion`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/ModelType.md#ModelType.Type_2_5DZDirectionExtrusion) |
-| [`Type_3D`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/ModelType.md#ModelType.Type_3D) |
-| [`Type_VibratingStructuralPanel`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/ModelType.md#ModelType.Type_VibratingStructuralPanel) |
+| ------------------------------------------------------------------------------- |
+| [`Type_2_5DZDirectionExtrusion`](#ModelType.Type_2_5DZDirectionExtrusion) |
+| [`Type_2_5YAxisRotationExtrusion`](#ModelType.Type_2_5YAxisRotationExtrusion) |
+| [`Type_3D`](#ModelType.Type_3D) |
+| [`Type_VibratingStructuralPanel`](#ModelType.Type_VibratingStructuralPanel) |
 
 <a id="attribute-detail"></a>
 
 ## Attribute detail
 
-<a id="ModelType.Type_2_5YAxisRotationExtrusion"></a>
-
-### ModelType.Type_2_5YAxisRotationExtrusion *= 2*
-
 <a id="ModelType.Type_2_5DZDirectionExtrusion"></a>
 
 ### ModelType.Type_2_5DZDirectionExtrusion *= 1*
+
+<a id="ModelType.Type_2_5YAxisRotationExtrusion"></a>
+
+### ModelType.Type_2_5YAxisRotationExtrusion *= 2*
 
 <a id="ModelType.Type_3D"></a>
 

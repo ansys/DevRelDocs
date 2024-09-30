@@ -1,6 +1,6 @@
 # `LoadVariableVariationType`
 
-
+<a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.LoadVariableVariationType"></a>
 
 #### *class* ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.LoadVariableVariationType
 
@@ -17,178 +17,178 @@ Specifies the LoadVariableVariationType.
 ### Attributes
 
 | Name |
-| ------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| [`Acceleration`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/LoadVariableVariationType.md#LoadVariableVariationType.Acceleration) |
-| [`Reactance`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/LoadVariableVariationType.md#LoadVariableVariationType.Reactance) |
-| [`Resistance`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/LoadVariableVariationType.md#LoadVariableVariationType.Resistance) |
-| [`AxisComponentX`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/LoadVariableVariationType.md#LoadVariableVariationType.AxisComponentX) |
-| [`AxisComponentY`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/LoadVariableVariationType.md#LoadVariableVariationType.AxisComponentY) |
-| [`AxisComponentZ`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/LoadVariableVariationType.md#LoadVariableVariationType.AxisComponentZ) |
-| [`AxisLocationX`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/LoadVariableVariationType.md#LoadVariableVariationType.AxisLocationX) |
-| [`AxisLocationY`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/LoadVariableVariationType.md#LoadVariableVariationType.AxisLocationY) |
-| [`AxisLocationZ`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/LoadVariableVariationType.md#LoadVariableVariationType.AxisLocationZ) |
-| [`BearingDampingC11`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/LoadVariableVariationType.md#LoadVariableVariationType.BearingDampingC11) |
-| [`BearingDampingC12`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/LoadVariableVariationType.md#LoadVariableVariationType.BearingDampingC12) |
-| [`BearingDampingC21`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/LoadVariableVariationType.md#LoadVariableVariationType.BearingDampingC21) |
-| [`BearingDampingC22`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/LoadVariableVariationType.md#LoadVariableVariationType.BearingDampingC22) |
-| [`BearingPropertiesBegin`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/LoadVariableVariationType.md#LoadVariableVariationType.BearingPropertiesBegin) |
-| [`BearingPropertiesEnd`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/LoadVariableVariationType.md#LoadVariableVariationType.BearingPropertiesEnd) |
-| [`BearingStiffnessK11`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/LoadVariableVariationType.md#LoadVariableVariationType.BearingStiffnessK11) |
-| [`BearingStiffnessK12`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/LoadVariableVariationType.md#LoadVariableVariationType.BearingStiffnessK12) |
-| [`BearingStiffnessK21`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/LoadVariableVariationType.md#LoadVariableVariationType.BearingStiffnessK21) |
-| [`BearingStiffnessK22`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/LoadVariableVariationType.md#LoadVariableVariationType.BearingStiffnessK22) |
-| [`Behavior`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/LoadVariableVariationType.md#LoadVariableVariationType.Behavior) |
-| [`BoltBegin`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/LoadVariableVariationType.md#LoadVariableVariationType.BoltBegin) |
-| [`BoltEnd`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/LoadVariableVariationType.md#LoadVariableVariationType.BoltEnd) |
-| [`BoltIncrement`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/LoadVariableVariationType.md#LoadVariableVariationType.BoltIncrement) |
-| [`BoltLoadDefineBy`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/LoadVariableVariationType.md#LoadVariableVariationType.BoltLoadDefineBy) |
-| [`BulkTemperature`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/LoadVariableVariationType.md#LoadVariableVariationType.BulkTemperature) |
-| [`BushingNonlinStiffness`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/LoadVariableVariationType.md#LoadVariableVariationType.BushingNonlinStiffness) |
-| [`Capacitance`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/LoadVariableVariationType.md#LoadVariableVariationType.Capacitance) |
-| [`ComponentX`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/LoadVariableVariationType.md#LoadVariableVariationType.ComponentX) |
-| [`ComponentY`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/LoadVariableVariationType.md#LoadVariableVariationType.ComponentY) |
-| [`ComponentZ`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/LoadVariableVariationType.md#LoadVariableVariationType.ComponentZ) |
-| [`ConvectionCoefficient`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/LoadVariableVariationType.md#LoadVariableVariationType.ConvectionCoefficient) |
-| [`Current`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/LoadVariableVariationType.md#LoadVariableVariationType.Current) |
-| [`HarmonicIndex`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/LoadVariableVariationType.md#LoadVariableVariationType.HarmonicIndex) |
-| [`SectorNumber`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/LoadVariableVariationType.md#LoadVariableVariationType.SectorNumber) |
-| [`Damping`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/LoadVariableVariationType.md#LoadVariableVariationType.Damping) |
-| [`DependentDataIndex`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/LoadVariableVariationType.md#LoadVariableVariationType.DependentDataIndex) |
-| [`DependentsBegin`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/LoadVariableVariationType.md#LoadVariableVariationType.DependentsBegin) |
-| [`DependentsEnd`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/LoadVariableVariationType.md#LoadVariableVariationType.DependentsEnd) |
-| [`Displacement`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/LoadVariableVariationType.md#LoadVariableVariationType.Displacement) |
-| [`ElementFace`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/LoadVariableVariationType.md#LoadVariableVariationType.ElementFace) |
-| [`ElementType`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/LoadVariableVariationType.md#LoadVariableVariationType.ElementType) |
-| [`EMagBegin`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/LoadVariableVariationType.md#LoadVariableVariationType.EMagBegin) |
-| [`EMagEnd`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/LoadVariableVariationType.md#LoadVariableVariationType.EMagEnd) |
-| [`Emissivity`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/LoadVariableVariationType.md#LoadVariableVariationType.Emissivity) |
-| [`End`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/LoadVariableVariationType.md#LoadVariableVariationType.End) |
-| [`Energy`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/LoadVariableVariationType.md#LoadVariableVariationType.Energy) |
-| [`EntityId`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/LoadVariableVariationType.md#LoadVariableVariationType.EntityId) |
-| [`ExternalBegin`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/LoadVariableVariationType.md#LoadVariableVariationType.ExternalBegin) |
-| [`ExternalEnd`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/LoadVariableVariationType.md#LoadVariableVariationType.ExternalEnd) |
-| [`ExternalEnhancedModelBegin`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/LoadVariableVariationType.md#LoadVariableVariationType.ExternalEnhancedModelBegin) |
-| [`ExternalEnhancedModelEnd`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/LoadVariableVariationType.md#LoadVariableVariationType.ExternalEnhancedModelEnd) |
-| [`ExternalImagValue`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/LoadVariableVariationType.md#LoadVariableVariationType.ExternalImagValue) |
-| [`ExternalImagValueX`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/LoadVariableVariationType.md#LoadVariableVariationType.ExternalImagValueX) |
-| [`ExternalImagValueY`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/LoadVariableVariationType.md#LoadVariableVariationType.ExternalImagValueY) |
-| [`ExternalImagValueZ`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/LoadVariableVariationType.md#LoadVariableVariationType.ExternalImagValueZ) |
-| [`ExternalImagVectorI`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/LoadVariableVariationType.md#LoadVariableVariationType.ExternalImagVectorI) |
-| [`ExternalImagVectorJ`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/LoadVariableVariationType.md#LoadVariableVariationType.ExternalImagVectorJ) |
-| [`ExternalImagVectorK`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/LoadVariableVariationType.md#LoadVariableVariationType.ExternalImagVectorK) |
-| [`ExternalRealValue`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/LoadVariableVariationType.md#LoadVariableVariationType.ExternalRealValue) |
-| [`ExternalRealValueX`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/LoadVariableVariationType.md#LoadVariableVariationType.ExternalRealValueX) |
-| [`ExternalRealValueX2`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/LoadVariableVariationType.md#LoadVariableVariationType.ExternalRealValueX2) |
-| [`ExternalRealValueY`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/LoadVariableVariationType.md#LoadVariableVariationType.ExternalRealValueY) |
-| [`ExternalRealValueY2`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/LoadVariableVariationType.md#LoadVariableVariationType.ExternalRealValueY2) |
-| [`ExternalRealValueZ`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/LoadVariableVariationType.md#LoadVariableVariationType.ExternalRealValueZ) |
-| [`ExternalRealValueZ2`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/LoadVariableVariationType.md#LoadVariableVariationType.ExternalRealValueZ2) |
-| [`ExternalRealVectorI`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/LoadVariableVariationType.md#LoadVariableVariationType.ExternalRealVectorI) |
-| [`ExternalRealVectorJ`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/LoadVariableVariationType.md#LoadVariableVariationType.ExternalRealVectorJ) |
-| [`ExternalRealVectorK`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/LoadVariableVariationType.md#LoadVariableVariationType.ExternalRealVectorK) |
-| [`ExternalTemperature`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/LoadVariableVariationType.md#LoadVariableVariationType.ExternalTemperature) |
-| [`ExtLayeredSectionID`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/LoadVariableVariationType.md#LoadVariableVariationType.ExtLayeredSectionID) |
-| [`ExtLayeredSectionOffset`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/LoadVariableVariationType.md#LoadVariableVariationType.ExtLayeredSectionOffset) |
-| [`FluidBegin`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/LoadVariableVariationType.md#LoadVariableVariationType.FluidBegin) |
-| [`FluidDensity`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/LoadVariableVariationType.md#LoadVariableVariationType.FluidDensity) |
-| [`FluidEnd`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/LoadVariableVariationType.md#LoadVariableVariationType.FluidEnd) |
-| [`Force`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/LoadVariableVariationType.md#LoadVariableVariationType.Force) |
-| [`ForceIntensity`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/LoadVariableVariationType.md#LoadVariableVariationType.ForceIntensity) |
-| [`FoundationStiffness`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/LoadVariableVariationType.md#LoadVariableVariationType.FoundationStiffness) |
-| [`Frequency`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/LoadVariableVariationType.md#LoadVariableVariationType.Frequency) |
-| [`Friction`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/LoadVariableVariationType.md#LoadVariableVariationType.Friction) |
-| [`GraphEnd`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/LoadVariableVariationType.md#LoadVariableVariationType.GraphEnd) |
-| [`GraphPSDFittedValue`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/LoadVariableVariationType.md#LoadVariableVariationType.GraphPSDFittedValue) |
-| [`HeatFlow`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/LoadVariableVariationType.md#LoadVariableVariationType.HeatFlow) |
-| [`HeatFlux`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/LoadVariableVariationType.md#LoadVariableVariationType.HeatFlux) |
-| [`HeatGenerationRate`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/LoadVariableVariationType.md#LoadVariableVariationType.HeatGenerationRate) |
-| [`IndependentsBegin`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/LoadVariableVariationType.md#LoadVariableVariationType.IndependentsBegin) |
-| [`IndependentsEnd`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/LoadVariableVariationType.md#LoadVariableVariationType.IndependentsEnd) |
-| [`IndexBegin`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/LoadVariableVariationType.md#LoadVariableVariationType.IndexBegin) |
-| [`IndexEnd`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/LoadVariableVariationType.md#LoadVariableVariationType.IndexEnd) |
-| [`LocationX`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/LoadVariableVariationType.md#LoadVariableVariationType.LocationX) |
-| [`LocationY`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/LoadVariableVariationType.md#LoadVariableVariationType.LocationY) |
-| [`LocationZ`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/LoadVariableVariationType.md#LoadVariableVariationType.LocationZ) |
-| [`Mass`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/LoadVariableVariationType.md#LoadVariableVariationType.Mass) |
-| [`MassFlowRate`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/LoadVariableVariationType.md#LoadVariableVariationType.MassFlowRate) |
-| [`MaterialID`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/LoadVariableVariationType.md#LoadVariableVariationType.MaterialID) |
-| [`Moment`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/LoadVariableVariationType.md#LoadVariableVariationType.Moment) |
-| [`NodeId0`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/LoadVariableVariationType.md#LoadVariableVariationType.NodeId0) |
-| [`NodeId1`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/LoadVariableVariationType.md#LoadVariableVariationType.NodeId1) |
-| [`NodeId10`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/LoadVariableVariationType.md#LoadVariableVariationType.NodeId10) |
-| [`NodeId11`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/LoadVariableVariationType.md#LoadVariableVariationType.NodeId11) |
-| [`NodeId12`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/LoadVariableVariationType.md#LoadVariableVariationType.NodeId12) |
-| [`NodeId13`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/LoadVariableVariationType.md#LoadVariableVariationType.NodeId13) |
-| [`NodeId14`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/LoadVariableVariationType.md#LoadVariableVariationType.NodeId14) |
-| [`NodeId15`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/LoadVariableVariationType.md#LoadVariableVariationType.NodeId15) |
-| [`NodeId16`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/LoadVariableVariationType.md#LoadVariableVariationType.NodeId16) |
-| [`NodeId17`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/LoadVariableVariationType.md#LoadVariableVariationType.NodeId17) |
-| [`NodeId18`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/LoadVariableVariationType.md#LoadVariableVariationType.NodeId18) |
-| [`NodeId19`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/LoadVariableVariationType.md#LoadVariableVariationType.NodeId19) |
-| [`NodeId2`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/LoadVariableVariationType.md#LoadVariableVariationType.NodeId2) |
-| [`NodeId3`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/LoadVariableVariationType.md#LoadVariableVariationType.NodeId3) |
-| [`NodeId4`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/LoadVariableVariationType.md#LoadVariableVariationType.NodeId4) |
-| [`NodeId5`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/LoadVariableVariationType.md#LoadVariableVariationType.NodeId5) |
-| [`NodeId6`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/LoadVariableVariationType.md#LoadVariableVariationType.NodeId6) |
-| [`NodeId7`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/LoadVariableVariationType.md#LoadVariableVariationType.NodeId7) |
-| [`NodeId8`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/LoadVariableVariationType.md#LoadVariableVariationType.NodeId8) |
-| [`NodeId9`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/LoadVariableVariationType.md#LoadVariableVariationType.NodeId9) |
-| [`NonlinearAdaptivity`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/LoadVariableVariationType.md#LoadVariableVariationType.NonlinearAdaptivity) |
-| [`NonlinearAdaptivityBegin`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/LoadVariableVariationType.md#LoadVariableVariationType.NonlinearAdaptivityBegin) |
-| [`NonlinearAdaptivityEnd`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/LoadVariableVariationType.md#LoadVariableVariationType.NonlinearAdaptivityEnd) |
-| [`NonlinearStiffnessBegin`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/LoadVariableVariationType.md#LoadVariableVariationType.NonlinearStiffnessBegin) |
-| [`NonlinearStiffnessEnd`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/LoadVariableVariationType.md#LoadVariableVariationType.NonlinearStiffnessEnd) |
-| [`NormalizedS`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/LoadVariableVariationType.md#LoadVariableVariationType.NormalizedS) |
-| [`Offset`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/LoadVariableVariationType.md#LoadVariableVariationType.Offset) |
-| [`PathLength`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/LoadVariableVariationType.md#LoadVariableVariationType.PathLength) |
-| [`PhaseAngle`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/LoadVariableVariationType.md#LoadVariableVariationType.PhaseAngle) |
-| [`Preadjustment`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/LoadVariableVariationType.md#LoadVariableVariationType.Preadjustment) |
-| [`Preload`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/LoadVariableVariationType.md#LoadVariableVariationType.Preload) |
-| [`Pressure`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/LoadVariableVariationType.md#LoadVariableVariationType.Pressure) |
-| [`PSDAcceleration`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/LoadVariableVariationType.md#LoadVariableVariationType.PSDAcceleration) |
-| [`PSDBegin`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/LoadVariableVariationType.md#LoadVariableVariationType.PSDBegin) |
-| [`PSDDisplacement`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/LoadVariableVariationType.md#LoadVariableVariationType.PSDDisplacement) |
-| [`PSDEnd`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/LoadVariableVariationType.md#LoadVariableVariationType.PSDEnd) |
-| [`PSDGAcceleration`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/LoadVariableVariationType.md#LoadVariableVariationType.PSDGAcceleration) |
-| [`PSDVelocity`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/LoadVariableVariationType.md#LoadVariableVariationType.PSDVelocity) |
-| [`RefId`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/LoadVariableVariationType.md#LoadVariableVariationType.RefId) |
-| [`RotatingForceBegin`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/LoadVariableVariationType.md#LoadVariableVariationType.RotatingForceBegin) |
-| [`RotatingForceEnd`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/LoadVariableVariationType.md#LoadVariableVariationType.RotatingForceEnd) |
-| [`RotatingRadius`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/LoadVariableVariationType.md#LoadVariableVariationType.RotatingRadius) |
-| [`Rotation`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/LoadVariableVariationType.md#LoadVariableVariationType.Rotation) |
-| [`RotationalAcceleration`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/LoadVariableVariationType.md#LoadVariableVariationType.RotationalAcceleration) |
-| [`RotationalVelocity`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/LoadVariableVariationType.md#LoadVariableVariationType.RotationalVelocity) |
-| [`RotationX`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/LoadVariableVariationType.md#LoadVariableVariationType.RotationX) |
-| [`RotationY`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/LoadVariableVariationType.md#LoadVariableVariationType.RotationY) |
-| [`RotationZ`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/LoadVariableVariationType.md#LoadVariableVariationType.RotationZ) |
-| [`RSAcceleration`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/LoadVariableVariationType.md#LoadVariableVariationType.RSAcceleration) |
-| [`RSBegin`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/LoadVariableVariationType.md#LoadVariableVariationType.RSBegin) |
-| [`RSDisplacement`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/LoadVariableVariationType.md#LoadVariableVariationType.RSDisplacement) |
-| [`RSEnd`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/LoadVariableVariationType.md#LoadVariableVariationType.RSEnd) |
-| [`RSGAcceleration`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/LoadVariableVariationType.md#LoadVariableVariationType.RSGAcceleration) |
-| [`RSVelocity`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/LoadVariableVariationType.md#LoadVariableVariationType.RSVelocity) |
-| [`Scale`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/LoadVariableVariationType.md#LoadVariableVariationType.Scale) |
-| [`Sector`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/LoadVariableVariationType.md#LoadVariableVariationType.Sector) |
-| [`ShellThickness`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/LoadVariableVariationType.md#LoadVariableVariationType.ShellThickness) |
-| [`ShellThicknessEnd`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/LoadVariableVariationType.md#LoadVariableVariationType.ShellThicknessEnd) |
-| [`SpringNonLinearStiffness`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/LoadVariableVariationType.md#LoadVariableVariationType.SpringNonLinearStiffness) |
-| [`Step`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/LoadVariableVariationType.md#LoadVariableVariationType.Step) |
-| [`StructuralBegin`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/LoadVariableVariationType.md#LoadVariableVariationType.StructuralBegin) |
-| [`StructuralEnd`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/LoadVariableVariationType.md#LoadVariableVariationType.StructuralEnd) |
-| [`SynchronousRatio`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/LoadVariableVariationType.md#LoadVariableVariationType.SynchronousRatio) |
-| [`Temperature`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/LoadVariableVariationType.md#LoadVariableVariationType.Temperature) |
-| [`ThermalBegin`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/LoadVariableVariationType.md#LoadVariableVariationType.ThermalBegin) |
-| [`ThermalCompliance`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/LoadVariableVariationType.md#LoadVariableVariationType.ThermalCompliance) |
-| [`ThermalEnd`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/LoadVariableVariationType.md#LoadVariableVariationType.ThermalEnd) |
-| [`Time`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/LoadVariableVariationType.md#LoadVariableVariationType.Time) |
-| [`UnbalancedForce`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/LoadVariableVariationType.md#LoadVariableVariationType.UnbalancedForce) |
-| [`UnbalancedMass`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/LoadVariableVariationType.md#LoadVariableVariationType.UnbalancedMass) |
-| [`Value`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/LoadVariableVariationType.md#LoadVariableVariationType.Value) |
-| [`Velocity`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/LoadVariableVariationType.md#LoadVariableVariationType.Velocity) |
-| [`Voltage`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/LoadVariableVariationType.md#LoadVariableVariationType.Voltage) |
-| [`XValue`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/LoadVariableVariationType.md#LoadVariableVariationType.XValue) |
-| [`YValue`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/LoadVariableVariationType.md#LoadVariableVariationType.YValue) |
-| [`ZValue`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/LoadVariableVariationType.md#LoadVariableVariationType.ZValue) |
+| --------------------------------------------------------------------------------------- |
+| [`Acceleration`](#LoadVariableVariationType.Acceleration) |
+| [`AxisComponentX`](#LoadVariableVariationType.AxisComponentX) |
+| [`AxisComponentY`](#LoadVariableVariationType.AxisComponentY) |
+| [`AxisComponentZ`](#LoadVariableVariationType.AxisComponentZ) |
+| [`AxisLocationX`](#LoadVariableVariationType.AxisLocationX) |
+| [`AxisLocationY`](#LoadVariableVariationType.AxisLocationY) |
+| [`AxisLocationZ`](#LoadVariableVariationType.AxisLocationZ) |
+| [`BearingDampingC11`](#LoadVariableVariationType.BearingDampingC11) |
+| [`BearingDampingC12`](#LoadVariableVariationType.BearingDampingC12) |
+| [`BearingDampingC21`](#LoadVariableVariationType.BearingDampingC21) |
+| [`BearingDampingC22`](#LoadVariableVariationType.BearingDampingC22) |
+| [`BearingPropertiesBegin`](#LoadVariableVariationType.BearingPropertiesBegin) |
+| [`BearingPropertiesEnd`](#LoadVariableVariationType.BearingPropertiesEnd) |
+| [`BearingStiffnessK11`](#LoadVariableVariationType.BearingStiffnessK11) |
+| [`BearingStiffnessK12`](#LoadVariableVariationType.BearingStiffnessK12) |
+| [`BearingStiffnessK21`](#LoadVariableVariationType.BearingStiffnessK21) |
+| [`BearingStiffnessK22`](#LoadVariableVariationType.BearingStiffnessK22) |
+| [`Behavior`](#LoadVariableVariationType.Behavior) |
+| [`BoltBegin`](#LoadVariableVariationType.BoltBegin) |
+| [`BoltEnd`](#LoadVariableVariationType.BoltEnd) |
+| [`BoltIncrement`](#LoadVariableVariationType.BoltIncrement) |
+| [`BoltLoadDefineBy`](#LoadVariableVariationType.BoltLoadDefineBy) |
+| [`BulkTemperature`](#LoadVariableVariationType.BulkTemperature) |
+| [`BushingNonlinStiffness`](#LoadVariableVariationType.BushingNonlinStiffness) |
+| [`Capacitance`](#LoadVariableVariationType.Capacitance) |
+| [`ComponentX`](#LoadVariableVariationType.ComponentX) |
+| [`ComponentY`](#LoadVariableVariationType.ComponentY) |
+| [`ComponentZ`](#LoadVariableVariationType.ComponentZ) |
+| [`ConvectionCoefficient`](#LoadVariableVariationType.ConvectionCoefficient) |
+| [`Current`](#LoadVariableVariationType.Current) |
+| [`Damping`](#LoadVariableVariationType.Damping) |
+| [`DependentDataIndex`](#LoadVariableVariationType.DependentDataIndex) |
+| [`DependentsBegin`](#LoadVariableVariationType.DependentsBegin) |
+| [`DependentsEnd`](#LoadVariableVariationType.DependentsEnd) |
+| [`Displacement`](#LoadVariableVariationType.Displacement) |
+| [`EMagBegin`](#LoadVariableVariationType.EMagBegin) |
+| [`EMagEnd`](#LoadVariableVariationType.EMagEnd) |
+| [`ElementFace`](#LoadVariableVariationType.ElementFace) |
+| [`ElementType`](#LoadVariableVariationType.ElementType) |
+| [`Emissivity`](#LoadVariableVariationType.Emissivity) |
+| [`End`](#LoadVariableVariationType.End) |
+| [`Energy`](#LoadVariableVariationType.Energy) |
+| [`EntityId`](#LoadVariableVariationType.EntityId) |
+| [`ExtLayeredSectionID`](#LoadVariableVariationType.ExtLayeredSectionID) |
+| [`ExtLayeredSectionOffset`](#LoadVariableVariationType.ExtLayeredSectionOffset) |
+| [`ExternalBegin`](#LoadVariableVariationType.ExternalBegin) |
+| [`ExternalEnd`](#LoadVariableVariationType.ExternalEnd) |
+| [`ExternalEnhancedModelBegin`](#LoadVariableVariationType.ExternalEnhancedModelBegin) |
+| [`ExternalEnhancedModelEnd`](#LoadVariableVariationType.ExternalEnhancedModelEnd) |
+| [`ExternalImagValue`](#LoadVariableVariationType.ExternalImagValue) |
+| [`ExternalImagValueX`](#LoadVariableVariationType.ExternalImagValueX) |
+| [`ExternalImagValueY`](#LoadVariableVariationType.ExternalImagValueY) |
+| [`ExternalImagValueZ`](#LoadVariableVariationType.ExternalImagValueZ) |
+| [`ExternalImagVectorI`](#LoadVariableVariationType.ExternalImagVectorI) |
+| [`ExternalImagVectorJ`](#LoadVariableVariationType.ExternalImagVectorJ) |
+| [`ExternalImagVectorK`](#LoadVariableVariationType.ExternalImagVectorK) |
+| [`ExternalRealValue`](#LoadVariableVariationType.ExternalRealValue) |
+| [`ExternalRealValueX`](#LoadVariableVariationType.ExternalRealValueX) |
+| [`ExternalRealValueX2`](#LoadVariableVariationType.ExternalRealValueX2) |
+| [`ExternalRealValueY`](#LoadVariableVariationType.ExternalRealValueY) |
+| [`ExternalRealValueY2`](#LoadVariableVariationType.ExternalRealValueY2) |
+| [`ExternalRealValueZ`](#LoadVariableVariationType.ExternalRealValueZ) |
+| [`ExternalRealValueZ2`](#LoadVariableVariationType.ExternalRealValueZ2) |
+| [`ExternalRealVectorI`](#LoadVariableVariationType.ExternalRealVectorI) |
+| [`ExternalRealVectorJ`](#LoadVariableVariationType.ExternalRealVectorJ) |
+| [`ExternalRealVectorK`](#LoadVariableVariationType.ExternalRealVectorK) |
+| [`ExternalTemperature`](#LoadVariableVariationType.ExternalTemperature) |
+| [`FluidBegin`](#LoadVariableVariationType.FluidBegin) |
+| [`FluidDensity`](#LoadVariableVariationType.FluidDensity) |
+| [`FluidEnd`](#LoadVariableVariationType.FluidEnd) |
+| [`Force`](#LoadVariableVariationType.Force) |
+| [`ForceIntensity`](#LoadVariableVariationType.ForceIntensity) |
+| [`FoundationStiffness`](#LoadVariableVariationType.FoundationStiffness) |
+| [`Frequency`](#LoadVariableVariationType.Frequency) |
+| [`Friction`](#LoadVariableVariationType.Friction) |
+| [`GraphEnd`](#LoadVariableVariationType.GraphEnd) |
+| [`GraphPSDFittedValue`](#LoadVariableVariationType.GraphPSDFittedValue) |
+| [`HarmonicIndex`](#LoadVariableVariationType.HarmonicIndex) |
+| [`HeatFlow`](#LoadVariableVariationType.HeatFlow) |
+| [`HeatFlux`](#LoadVariableVariationType.HeatFlux) |
+| [`HeatGenerationRate`](#LoadVariableVariationType.HeatGenerationRate) |
+| [`IndependentsBegin`](#LoadVariableVariationType.IndependentsBegin) |
+| [`IndependentsEnd`](#LoadVariableVariationType.IndependentsEnd) |
+| [`IndexBegin`](#LoadVariableVariationType.IndexBegin) |
+| [`IndexEnd`](#LoadVariableVariationType.IndexEnd) |
+| [`LocationX`](#LoadVariableVariationType.LocationX) |
+| [`LocationY`](#LoadVariableVariationType.LocationY) |
+| [`LocationZ`](#LoadVariableVariationType.LocationZ) |
+| [`Mass`](#LoadVariableVariationType.Mass) |
+| [`MassFlowRate`](#LoadVariableVariationType.MassFlowRate) |
+| [`MaterialID`](#LoadVariableVariationType.MaterialID) |
+| [`Moment`](#LoadVariableVariationType.Moment) |
+| [`NodeId0`](#LoadVariableVariationType.NodeId0) |
+| [`NodeId1`](#LoadVariableVariationType.NodeId1) |
+| [`NodeId10`](#LoadVariableVariationType.NodeId10) |
+| [`NodeId11`](#LoadVariableVariationType.NodeId11) |
+| [`NodeId12`](#LoadVariableVariationType.NodeId12) |
+| [`NodeId13`](#LoadVariableVariationType.NodeId13) |
+| [`NodeId14`](#LoadVariableVariationType.NodeId14) |
+| [`NodeId15`](#LoadVariableVariationType.NodeId15) |
+| [`NodeId16`](#LoadVariableVariationType.NodeId16) |
+| [`NodeId17`](#LoadVariableVariationType.NodeId17) |
+| [`NodeId18`](#LoadVariableVariationType.NodeId18) |
+| [`NodeId19`](#LoadVariableVariationType.NodeId19) |
+| [`NodeId2`](#LoadVariableVariationType.NodeId2) |
+| [`NodeId3`](#LoadVariableVariationType.NodeId3) |
+| [`NodeId4`](#LoadVariableVariationType.NodeId4) |
+| [`NodeId5`](#LoadVariableVariationType.NodeId5) |
+| [`NodeId6`](#LoadVariableVariationType.NodeId6) |
+| [`NodeId7`](#LoadVariableVariationType.NodeId7) |
+| [`NodeId8`](#LoadVariableVariationType.NodeId8) |
+| [`NodeId9`](#LoadVariableVariationType.NodeId9) |
+| [`NonlinearAdaptivity`](#LoadVariableVariationType.NonlinearAdaptivity) |
+| [`NonlinearAdaptivityBegin`](#LoadVariableVariationType.NonlinearAdaptivityBegin) |
+| [`NonlinearAdaptivityEnd`](#LoadVariableVariationType.NonlinearAdaptivityEnd) |
+| [`NonlinearStiffnessBegin`](#LoadVariableVariationType.NonlinearStiffnessBegin) |
+| [`NonlinearStiffnessEnd`](#LoadVariableVariationType.NonlinearStiffnessEnd) |
+| [`NormalizedS`](#LoadVariableVariationType.NormalizedS) |
+| [`Offset`](#LoadVariableVariationType.Offset) |
+| [`PSDAcceleration`](#LoadVariableVariationType.PSDAcceleration) |
+| [`PSDBegin`](#LoadVariableVariationType.PSDBegin) |
+| [`PSDDisplacement`](#LoadVariableVariationType.PSDDisplacement) |
+| [`PSDEnd`](#LoadVariableVariationType.PSDEnd) |
+| [`PSDGAcceleration`](#LoadVariableVariationType.PSDGAcceleration) |
+| [`PSDVelocity`](#LoadVariableVariationType.PSDVelocity) |
+| [`PathLength`](#LoadVariableVariationType.PathLength) |
+| [`PhaseAngle`](#LoadVariableVariationType.PhaseAngle) |
+| [`Preadjustment`](#LoadVariableVariationType.Preadjustment) |
+| [`Preload`](#LoadVariableVariationType.Preload) |
+| [`Pressure`](#LoadVariableVariationType.Pressure) |
+| [`RSAcceleration`](#LoadVariableVariationType.RSAcceleration) |
+| [`RSBegin`](#LoadVariableVariationType.RSBegin) |
+| [`RSDisplacement`](#LoadVariableVariationType.RSDisplacement) |
+| [`RSEnd`](#LoadVariableVariationType.RSEnd) |
+| [`RSGAcceleration`](#LoadVariableVariationType.RSGAcceleration) |
+| [`RSVelocity`](#LoadVariableVariationType.RSVelocity) |
+| [`Reactance`](#LoadVariableVariationType.Reactance) |
+| [`RefId`](#LoadVariableVariationType.RefId) |
+| [`Resistance`](#LoadVariableVariationType.Resistance) |
+| [`RotatingForceBegin`](#LoadVariableVariationType.RotatingForceBegin) |
+| [`RotatingForceEnd`](#LoadVariableVariationType.RotatingForceEnd) |
+| [`RotatingRadius`](#LoadVariableVariationType.RotatingRadius) |
+| [`Rotation`](#LoadVariableVariationType.Rotation) |
+| [`RotationX`](#LoadVariableVariationType.RotationX) |
+| [`RotationY`](#LoadVariableVariationType.RotationY) |
+| [`RotationZ`](#LoadVariableVariationType.RotationZ) |
+| [`RotationalAcceleration`](#LoadVariableVariationType.RotationalAcceleration) |
+| [`RotationalVelocity`](#LoadVariableVariationType.RotationalVelocity) |
+| [`Scale`](#LoadVariableVariationType.Scale) |
+| [`Sector`](#LoadVariableVariationType.Sector) |
+| [`SectorNumber`](#LoadVariableVariationType.SectorNumber) |
+| [`ShellThickness`](#LoadVariableVariationType.ShellThickness) |
+| [`ShellThicknessEnd`](#LoadVariableVariationType.ShellThicknessEnd) |
+| [`SpringNonLinearStiffness`](#LoadVariableVariationType.SpringNonLinearStiffness) |
+| [`Step`](#LoadVariableVariationType.Step) |
+| [`StructuralBegin`](#LoadVariableVariationType.StructuralBegin) |
+| [`StructuralEnd`](#LoadVariableVariationType.StructuralEnd) |
+| [`SynchronousRatio`](#LoadVariableVariationType.SynchronousRatio) |
+| [`Temperature`](#LoadVariableVariationType.Temperature) |
+| [`ThermalBegin`](#LoadVariableVariationType.ThermalBegin) |
+| [`ThermalCompliance`](#LoadVariableVariationType.ThermalCompliance) |
+| [`ThermalEnd`](#LoadVariableVariationType.ThermalEnd) |
+| [`Time`](#LoadVariableVariationType.Time) |
+| [`UnbalancedForce`](#LoadVariableVariationType.UnbalancedForce) |
+| [`UnbalancedMass`](#LoadVariableVariationType.UnbalancedMass) |
+| [`Value`](#LoadVariableVariationType.Value) |
+| [`Velocity`](#LoadVariableVariationType.Velocity) |
+| [`Voltage`](#LoadVariableVariationType.Voltage) |
+| [`XValue`](#LoadVariableVariationType.XValue) |
+| [`YValue`](#LoadVariableVariationType.YValue) |
+| [`ZValue`](#LoadVariableVariationType.ZValue) |
 
 <a id="attribute-detail"></a>
 
@@ -197,14 +197,6 @@ Specifies the LoadVariableVariationType.
 <a id="LoadVariableVariationType.Acceleration"></a>
 
 ### LoadVariableVariationType.Acceleration *= 201*
-
-<a id="LoadVariableVariationType.Reactance"></a>
-
-### LoadVariableVariationType.Reactance *= 843*
-
-<a id="LoadVariableVariationType.Resistance"></a>
-
-### LoadVariableVariationType.Resistance *= 842*
 
 <a id="LoadVariableVariationType.AxisComponentX"></a>
 
@@ -322,14 +314,6 @@ Specifies the LoadVariableVariationType.
 
 ### LoadVariableVariationType.Current *= 402*
 
-<a id="LoadVariableVariationType.HarmonicIndex"></a>
-
-### LoadVariableVariationType.HarmonicIndex *= 47*
-
-<a id="LoadVariableVariationType.SectorNumber"></a>
-
-### LoadVariableVariationType.SectorNumber *= 48*
-
 <a id="LoadVariableVariationType.Damping"></a>
 
 ### LoadVariableVariationType.Damping *= 211*
@@ -350,14 +334,6 @@ Specifies the LoadVariableVariationType.
 
 ### LoadVariableVariationType.Displacement *= 202*
 
-<a id="LoadVariableVariationType.ElementFace"></a>
-
-### LoadVariableVariationType.ElementFace *= 20*
-
-<a id="LoadVariableVariationType.ElementType"></a>
-
-### LoadVariableVariationType.ElementType *= 21*
-
 <a id="LoadVariableVariationType.EMagBegin"></a>
 
 ### LoadVariableVariationType.EMagBegin *= 400*
@@ -365,6 +341,14 @@ Specifies the LoadVariableVariationType.
 <a id="LoadVariableVariationType.EMagEnd"></a>
 
 ### LoadVariableVariationType.EMagEnd *= 403*
+
+<a id="LoadVariableVariationType.ElementFace"></a>
+
+### LoadVariableVariationType.ElementFace *= 20*
+
+<a id="LoadVariableVariationType.ElementType"></a>
+
+### LoadVariableVariationType.ElementType *= 21*
 
 <a id="LoadVariableVariationType.Emissivity"></a>
 
@@ -381,6 +365,14 @@ Specifies the LoadVariableVariationType.
 <a id="LoadVariableVariationType.EntityId"></a>
 
 ### LoadVariableVariationType.EntityId *= 19*
+
+<a id="LoadVariableVariationType.ExtLayeredSectionID"></a>
+
+### LoadVariableVariationType.ExtLayeredSectionID *= 45*
+
+<a id="LoadVariableVariationType.ExtLayeredSectionOffset"></a>
+
+### LoadVariableVariationType.ExtLayeredSectionOffset *= 652*
 
 <a id="LoadVariableVariationType.ExternalBegin"></a>
 
@@ -470,14 +462,6 @@ Specifies the LoadVariableVariationType.
 
 ### LoadVariableVariationType.ExternalTemperature *= 609*
 
-<a id="LoadVariableVariationType.ExtLayeredSectionID"></a>
-
-### LoadVariableVariationType.ExtLayeredSectionID *= 45*
-
-<a id="LoadVariableVariationType.ExtLayeredSectionOffset"></a>
-
-### LoadVariableVariationType.ExtLayeredSectionOffset *= 652*
-
 <a id="LoadVariableVariationType.FluidBegin"></a>
 
 ### LoadVariableVariationType.FluidBegin *= 500*
@@ -517,6 +501,10 @@ Specifies the LoadVariableVariationType.
 <a id="LoadVariableVariationType.GraphPSDFittedValue"></a>
 
 ### LoadVariableVariationType.GraphPSDFittedValue *= 1012*
+
+<a id="LoadVariableVariationType.HarmonicIndex"></a>
+
+### LoadVariableVariationType.HarmonicIndex *= 47*
 
 <a id="LoadVariableVariationType.HeatFlow"></a>
 
@@ -682,26 +670,6 @@ Specifies the LoadVariableVariationType.
 
 ### LoadVariableVariationType.Offset *= 155*
 
-<a id="LoadVariableVariationType.PathLength"></a>
-
-### LoadVariableVariationType.PathLength *= 43*
-
-<a id="LoadVariableVariationType.PhaseAngle"></a>
-
-### LoadVariableVariationType.PhaseAngle *= 18*
-
-<a id="LoadVariableVariationType.Preadjustment"></a>
-
-### LoadVariableVariationType.Preadjustment *= 578*
-
-<a id="LoadVariableVariationType.Preload"></a>
-
-### LoadVariableVariationType.Preload *= 577*
-
-<a id="LoadVariableVariationType.Pressure"></a>
-
-### LoadVariableVariationType.Pressure *= 205*
-
 <a id="LoadVariableVariationType.PSDAcceleration"></a>
 
 ### LoadVariableVariationType.PSDAcceleration *= 552*
@@ -726,45 +694,25 @@ Specifies the LoadVariableVariationType.
 
 ### LoadVariableVariationType.PSDVelocity *= 554*
 
-<a id="LoadVariableVariationType.RefId"></a>
+<a id="LoadVariableVariationType.PathLength"></a>
 
-### LoadVariableVariationType.RefId *= 22*
+### LoadVariableVariationType.PathLength *= 43*
 
-<a id="LoadVariableVariationType.RotatingForceBegin"></a>
+<a id="LoadVariableVariationType.PhaseAngle"></a>
 
-### LoadVariableVariationType.RotatingForceBegin *= 760*
+### LoadVariableVariationType.PhaseAngle *= 18*
 
-<a id="LoadVariableVariationType.RotatingForceEnd"></a>
+<a id="LoadVariableVariationType.Preadjustment"></a>
 
-### LoadVariableVariationType.RotatingForceEnd *= 771*
+### LoadVariableVariationType.Preadjustment *= 578*
 
-<a id="LoadVariableVariationType.RotatingRadius"></a>
+<a id="LoadVariableVariationType.Preload"></a>
 
-### LoadVariableVariationType.RotatingRadius *= 770*
+### LoadVariableVariationType.Preload *= 577*
 
-<a id="LoadVariableVariationType.Rotation"></a>
+<a id="LoadVariableVariationType.Pressure"></a>
 
-### LoadVariableVariationType.Rotation *= 206*
-
-<a id="LoadVariableVariationType.RotationalAcceleration"></a>
-
-### LoadVariableVariationType.RotationalAcceleration *= 213*
-
-<a id="LoadVariableVariationType.RotationalVelocity"></a>
-
-### LoadVariableVariationType.RotationalVelocity *= 207*
-
-<a id="LoadVariableVariationType.RotationX"></a>
-
-### LoadVariableVariationType.RotationX *= 1016*
-
-<a id="LoadVariableVariationType.RotationY"></a>
-
-### LoadVariableVariationType.RotationY *= 1017*
-
-<a id="LoadVariableVariationType.RotationZ"></a>
-
-### LoadVariableVariationType.RotationZ *= 1018*
+### LoadVariableVariationType.Pressure *= 205*
 
 <a id="LoadVariableVariationType.RSAcceleration"></a>
 
@@ -790,6 +738,54 @@ Specifies the LoadVariableVariationType.
 
 ### LoadVariableVariationType.RSVelocity *= 704*
 
+<a id="LoadVariableVariationType.Reactance"></a>
+
+### LoadVariableVariationType.Reactance *= 843*
+
+<a id="LoadVariableVariationType.RefId"></a>
+
+### LoadVariableVariationType.RefId *= 22*
+
+<a id="LoadVariableVariationType.Resistance"></a>
+
+### LoadVariableVariationType.Resistance *= 842*
+
+<a id="LoadVariableVariationType.RotatingForceBegin"></a>
+
+### LoadVariableVariationType.RotatingForceBegin *= 760*
+
+<a id="LoadVariableVariationType.RotatingForceEnd"></a>
+
+### LoadVariableVariationType.RotatingForceEnd *= 771*
+
+<a id="LoadVariableVariationType.RotatingRadius"></a>
+
+### LoadVariableVariationType.RotatingRadius *= 770*
+
+<a id="LoadVariableVariationType.Rotation"></a>
+
+### LoadVariableVariationType.Rotation *= 206*
+
+<a id="LoadVariableVariationType.RotationX"></a>
+
+### LoadVariableVariationType.RotationX *= 1016*
+
+<a id="LoadVariableVariationType.RotationY"></a>
+
+### LoadVariableVariationType.RotationY *= 1017*
+
+<a id="LoadVariableVariationType.RotationZ"></a>
+
+### LoadVariableVariationType.RotationZ *= 1018*
+
+<a id="LoadVariableVariationType.RotationalAcceleration"></a>
+
+### LoadVariableVariationType.RotationalAcceleration *= 213*
+
+<a id="LoadVariableVariationType.RotationalVelocity"></a>
+
+### LoadVariableVariationType.RotationalVelocity *= 207*
+
 <a id="LoadVariableVariationType.Scale"></a>
 
 ### LoadVariableVariationType.Scale *= 154*
@@ -797,6 +793,10 @@ Specifies the LoadVariableVariationType.
 <a id="LoadVariableVariationType.Sector"></a>
 
 ### LoadVariableVariationType.Sector *= 15*
+
+<a id="LoadVariableVariationType.SectorNumber"></a>
+
+### LoadVariableVariationType.SectorNumber *= 48*
 
 <a id="LoadVariableVariationType.ShellThickness"></a>
 

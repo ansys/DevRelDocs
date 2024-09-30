@@ -1,6 +1,6 @@
 # `LoadVariableVariationType`
 
-
+<a id="ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.LoadVariableVariationType"></a>
 
 #### *class* ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.LoadVariableVariationType
 
@@ -17,10 +17,8 @@ Specifies the LoadVariableVariationType.
 ### Attributes
 
 | Name |
-| --------------------------------------------------------------------------------------- |
+| ------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
 | [`Acceleration`](#LoadVariableVariationType.Acceleration) |
-| [`Reactance`](#LoadVariableVariationType.Reactance) |
-| [`Resistance`](#LoadVariableVariationType.Resistance) |
 | [`AxisComponentX`](#LoadVariableVariationType.AxisComponentX) |
 | [`AxisComponentY`](#LoadVariableVariationType.AxisComponentY) |
 | [`AxisComponentZ`](#LoadVariableVariationType.AxisComponentZ) |
@@ -50,21 +48,21 @@ Specifies the LoadVariableVariationType.
 | [`ComponentZ`](#LoadVariableVariationType.ComponentZ) |
 | [`ConvectionCoefficient`](#LoadVariableVariationType.ConvectionCoefficient) |
 | [`Current`](#LoadVariableVariationType.Current) |
-| [`HarmonicIndex`](#LoadVariableVariationType.HarmonicIndex) |
-| [`SectorNumber`](#LoadVariableVariationType.SectorNumber) |
 | [`Damping`](#LoadVariableVariationType.Damping) |
 | [`DependentDataIndex`](#LoadVariableVariationType.DependentDataIndex) |
 | [`DependentsBegin`](#LoadVariableVariationType.DependentsBegin) |
 | [`DependentsEnd`](#LoadVariableVariationType.DependentsEnd) |
 | [`Displacement`](#LoadVariableVariationType.Displacement) |
-| [`ElementFace`](#LoadVariableVariationType.ElementFace) |
-| [`ElementType`](#LoadVariableVariationType.ElementType) |
 | [`EMagBegin`](#LoadVariableVariationType.EMagBegin) |
 | [`EMagEnd`](#LoadVariableVariationType.EMagEnd) |
+| [`ElementFace`](#LoadVariableVariationType.ElementFace) |
+| [`ElementType`](#LoadVariableVariationType.ElementType) |
 | [`Emissivity`](#LoadVariableVariationType.Emissivity) |
 | [`End`](#LoadVariableVariationType.End) |
 | [`Energy`](#LoadVariableVariationType.Energy) |
 | [`EntityId`](#LoadVariableVariationType.EntityId) |
+| [`ExtLayeredSectionID`](#LoadVariableVariationType.ExtLayeredSectionID) |
+| [`ExtLayeredSectionOffset`](#LoadVariableVariationType.ExtLayeredSectionOffset) |
 | [`ExternalBegin`](#LoadVariableVariationType.ExternalBegin) |
 | [`ExternalEnd`](#LoadVariableVariationType.ExternalEnd) |
 | [`ExternalEnhancedModelBegin`](#LoadVariableVariationType.ExternalEnhancedModelBegin) |
@@ -87,8 +85,6 @@ Specifies the LoadVariableVariationType.
 | [`ExternalRealVectorJ`](#LoadVariableVariationType.ExternalRealVectorJ) |
 | [`ExternalRealVectorK`](#LoadVariableVariationType.ExternalRealVectorK) |
 | [`ExternalTemperature`](#LoadVariableVariationType.ExternalTemperature) |
-| [`ExtLayeredSectionID`](#LoadVariableVariationType.ExtLayeredSectionID) |
-| [`ExtLayeredSectionOffset`](#LoadVariableVariationType.ExtLayeredSectionOffset) |
 | [`FluidBegin`](#LoadVariableVariationType.FluidBegin) |
 | [`FluidDensity`](#LoadVariableVariationType.FluidDensity) |
 | [`FluidEnd`](#LoadVariableVariationType.FluidEnd) |
@@ -99,6 +95,7 @@ Specifies the LoadVariableVariationType.
 | [`Friction`](#LoadVariableVariationType.Friction) |
 | [`GraphEnd`](#LoadVariableVariationType.GraphEnd) |
 | [`GraphPSDFittedValue`](#LoadVariableVariationType.GraphPSDFittedValue) |
+| [`HarmonicIndex`](#LoadVariableVariationType.HarmonicIndex) |
 | [`HeatFlow`](#LoadVariableVariationType.HeatFlow) |
 | [`HeatFlux`](#LoadVariableVariationType.HeatFlux) |
 | [`HeatGenerationRate`](#LoadVariableVariationType.HeatGenerationRate) |
@@ -140,35 +137,38 @@ Specifies the LoadVariableVariationType.
 | [`NonlinearStiffnessEnd`](#LoadVariableVariationType.NonlinearStiffnessEnd) |
 | [`NormalizedS`](#LoadVariableVariationType.NormalizedS) |
 | [`Offset`](#LoadVariableVariationType.Offset) |
-| [`PathLength`](#LoadVariableVariationType.PathLength) |
-| [`PhaseAngle`](#LoadVariableVariationType.PhaseAngle) |
-| [`Preadjustment`](#LoadVariableVariationType.Preadjustment) |
-| [`Preload`](#LoadVariableVariationType.Preload) |
-| [`Pressure`](#LoadVariableVariationType.Pressure) |
 | [`PSDAcceleration`](#LoadVariableVariationType.PSDAcceleration) |
 | [`PSDBegin`](#LoadVariableVariationType.PSDBegin) |
 | [`PSDDisplacement`](#LoadVariableVariationType.PSDDisplacement) |
 | [`PSDEnd`](#LoadVariableVariationType.PSDEnd) |
 | [`PSDGAcceleration`](#LoadVariableVariationType.PSDGAcceleration) |
 | [`PSDVelocity`](#LoadVariableVariationType.PSDVelocity) |
-| [`RefId`](#LoadVariableVariationType.RefId) |
-| [`RotatingForceBegin`](#LoadVariableVariationType.RotatingForceBegin) |
-| [`RotatingForceEnd`](#LoadVariableVariationType.RotatingForceEnd) |
-| [`RotatingRadius`](#LoadVariableVariationType.RotatingRadius) |
-| [`Rotation`](#LoadVariableVariationType.Rotation) |
-| [`RotationalAcceleration`](#LoadVariableVariationType.RotationalAcceleration) |
-| [`RotationalVelocity`](#LoadVariableVariationType.RotationalVelocity) |
-| [`RotationX`](#LoadVariableVariationType.RotationX) |
-| [`RotationY`](#LoadVariableVariationType.RotationY) |
-| [`RotationZ`](#LoadVariableVariationType.RotationZ) |
+| [`PathLength`](#LoadVariableVariationType.PathLength) |
+| [`PhaseAngle`](#LoadVariableVariationType.PhaseAngle) |
+| [`Preadjustment`](#LoadVariableVariationType.Preadjustment) |
+| [`Preload`](#LoadVariableVariationType.Preload) |
+| [`Pressure`](#LoadVariableVariationType.Pressure) |
 | [`RSAcceleration`](#LoadVariableVariationType.RSAcceleration) |
 | [`RSBegin`](#LoadVariableVariationType.RSBegin) |
 | [`RSDisplacement`](#LoadVariableVariationType.RSDisplacement) |
 | [`RSEnd`](#LoadVariableVariationType.RSEnd) |
 | [`RSGAcceleration`](#LoadVariableVariationType.RSGAcceleration) |
 | [`RSVelocity`](#LoadVariableVariationType.RSVelocity) |
+| [`Reactance`](#LoadVariableVariationType.Reactance) |
+| [`RefId`](#LoadVariableVariationType.RefId) |
+| [`Resistance`](#LoadVariableVariationType.Resistance) |
+| [`RotatingForceBegin`](#LoadVariableVariationType.RotatingForceBegin) |
+| [`RotatingForceEnd`](#LoadVariableVariationType.RotatingForceEnd) |
+| [`RotatingRadius`](#LoadVariableVariationType.RotatingRadius) |
+| [`Rotation`](#LoadVariableVariationType.Rotation) |
+| [`RotationX`](#LoadVariableVariationType.RotationX) |
+| [`RotationY`](#LoadVariableVariationType.RotationY) |
+| [`RotationZ`](#LoadVariableVariationType.RotationZ) |
+| [`RotationalAcceleration`](#LoadVariableVariationType.RotationalAcceleration) |
+| [`RotationalVelocity`](#LoadVariableVariationType.RotationalVelocity) |
 | [`Scale`](#LoadVariableVariationType.Scale) |
 | [`Sector`](#LoadVariableVariationType.Sector) |
+| [`SectorNumber`](#LoadVariableVariationType.SectorNumber) |
 | [`ShellThickness`](#LoadVariableVariationType.ShellThickness) |
 | [`ShellThicknessEnd`](#LoadVariableVariationType.ShellThicknessEnd) |
 | [`SpringNonLinearStiffness`](#LoadVariableVariationType.SpringNonLinearStiffness) |
@@ -197,14 +197,6 @@ Specifies the LoadVariableVariationType.
 <a id="LoadVariableVariationType.Acceleration"></a>
 
 ### LoadVariableVariationType.Acceleration *= 201*
-
-<a id="LoadVariableVariationType.Reactance"></a>
-
-### LoadVariableVariationType.Reactance *= 843*
-
-<a id="LoadVariableVariationType.Resistance"></a>
-
-### LoadVariableVariationType.Resistance *= 842*
 
 <a id="LoadVariableVariationType.AxisComponentX"></a>
 
@@ -322,14 +314,6 @@ Specifies the LoadVariableVariationType.
 
 ### LoadVariableVariationType.Current *= 402*
 
-<a id="LoadVariableVariationType.HarmonicIndex"></a>
-
-### LoadVariableVariationType.HarmonicIndex *= 47*
-
-<a id="LoadVariableVariationType.SectorNumber"></a>
-
-### LoadVariableVariationType.SectorNumber *= 48*
-
 <a id="LoadVariableVariationType.Damping"></a>
 
 ### LoadVariableVariationType.Damping *= 211*
@@ -350,14 +334,6 @@ Specifies the LoadVariableVariationType.
 
 ### LoadVariableVariationType.Displacement *= 202*
 
-<a id="LoadVariableVariationType.ElementFace"></a>
-
-### LoadVariableVariationType.ElementFace *= 20*
-
-<a id="LoadVariableVariationType.ElementType"></a>
-
-### LoadVariableVariationType.ElementType *= 21*
-
 <a id="LoadVariableVariationType.EMagBegin"></a>
 
 ### LoadVariableVariationType.EMagBegin *= 400*
@@ -365,6 +341,14 @@ Specifies the LoadVariableVariationType.
 <a id="LoadVariableVariationType.EMagEnd"></a>
 
 ### LoadVariableVariationType.EMagEnd *= 403*
+
+<a id="LoadVariableVariationType.ElementFace"></a>
+
+### LoadVariableVariationType.ElementFace *= 20*
+
+<a id="LoadVariableVariationType.ElementType"></a>
+
+### LoadVariableVariationType.ElementType *= 21*
 
 <a id="LoadVariableVariationType.Emissivity"></a>
 
@@ -381,6 +365,14 @@ Specifies the LoadVariableVariationType.
 <a id="LoadVariableVariationType.EntityId"></a>
 
 ### LoadVariableVariationType.EntityId *= 19*
+
+<a id="LoadVariableVariationType.ExtLayeredSectionID"></a>
+
+### LoadVariableVariationType.ExtLayeredSectionID *= 45*
+
+<a id="LoadVariableVariationType.ExtLayeredSectionOffset"></a>
+
+### LoadVariableVariationType.ExtLayeredSectionOffset *= 652*
 
 <a id="LoadVariableVariationType.ExternalBegin"></a>
 
@@ -470,14 +462,6 @@ Specifies the LoadVariableVariationType.
 
 ### LoadVariableVariationType.ExternalTemperature *= 609*
 
-<a id="LoadVariableVariationType.ExtLayeredSectionID"></a>
-
-### LoadVariableVariationType.ExtLayeredSectionID *= 45*
-
-<a id="LoadVariableVariationType.ExtLayeredSectionOffset"></a>
-
-### LoadVariableVariationType.ExtLayeredSectionOffset *= 652*
-
 <a id="LoadVariableVariationType.FluidBegin"></a>
 
 ### LoadVariableVariationType.FluidBegin *= 500*
@@ -517,6 +501,10 @@ Specifies the LoadVariableVariationType.
 <a id="LoadVariableVariationType.GraphPSDFittedValue"></a>
 
 ### LoadVariableVariationType.GraphPSDFittedValue *= 1012*
+
+<a id="LoadVariableVariationType.HarmonicIndex"></a>
+
+### LoadVariableVariationType.HarmonicIndex *= 47*
 
 <a id="LoadVariableVariationType.HeatFlow"></a>
 
@@ -682,26 +670,6 @@ Specifies the LoadVariableVariationType.
 
 ### LoadVariableVariationType.Offset *= 155*
 
-<a id="LoadVariableVariationType.PathLength"></a>
-
-### LoadVariableVariationType.PathLength *= 43*
-
-<a id="LoadVariableVariationType.PhaseAngle"></a>
-
-### LoadVariableVariationType.PhaseAngle *= 18*
-
-<a id="LoadVariableVariationType.Preadjustment"></a>
-
-### LoadVariableVariationType.Preadjustment *= 578*
-
-<a id="LoadVariableVariationType.Preload"></a>
-
-### LoadVariableVariationType.Preload *= 577*
-
-<a id="LoadVariableVariationType.Pressure"></a>
-
-### LoadVariableVariationType.Pressure *= 205*
-
 <a id="LoadVariableVariationType.PSDAcceleration"></a>
 
 ### LoadVariableVariationType.PSDAcceleration *= 552*
@@ -726,45 +694,25 @@ Specifies the LoadVariableVariationType.
 
 ### LoadVariableVariationType.PSDVelocity *= 554*
 
-<a id="LoadVariableVariationType.RefId"></a>
+<a id="LoadVariableVariationType.PathLength"></a>
 
-### LoadVariableVariationType.RefId *= 22*
+### LoadVariableVariationType.PathLength *= 43*
 
-<a id="LoadVariableVariationType.RotatingForceBegin"></a>
+<a id="LoadVariableVariationType.PhaseAngle"></a>
 
-### LoadVariableVariationType.RotatingForceBegin *= 760*
+### LoadVariableVariationType.PhaseAngle *= 18*
 
-<a id="LoadVariableVariationType.RotatingForceEnd"></a>
+<a id="LoadVariableVariationType.Preadjustment"></a>
 
-### LoadVariableVariationType.RotatingForceEnd *= 771*
+### LoadVariableVariationType.Preadjustment *= 578*
 
-<a id="LoadVariableVariationType.RotatingRadius"></a>
+<a id="LoadVariableVariationType.Preload"></a>
 
-### LoadVariableVariationType.RotatingRadius *= 770*
+### LoadVariableVariationType.Preload *= 577*
 
-<a id="LoadVariableVariationType.Rotation"></a>
+<a id="LoadVariableVariationType.Pressure"></a>
 
-### LoadVariableVariationType.Rotation *= 206*
-
-<a id="LoadVariableVariationType.RotationalAcceleration"></a>
-
-### LoadVariableVariationType.RotationalAcceleration *= 213*
-
-<a id="LoadVariableVariationType.RotationalVelocity"></a>
-
-### LoadVariableVariationType.RotationalVelocity *= 207*
-
-<a id="LoadVariableVariationType.RotationX"></a>
-
-### LoadVariableVariationType.RotationX *= 1016*
-
-<a id="LoadVariableVariationType.RotationY"></a>
-
-### LoadVariableVariationType.RotationY *= 1017*
-
-<a id="LoadVariableVariationType.RotationZ"></a>
-
-### LoadVariableVariationType.RotationZ *= 1018*
+### LoadVariableVariationType.Pressure *= 205*
 
 <a id="LoadVariableVariationType.RSAcceleration"></a>
 
@@ -790,6 +738,54 @@ Specifies the LoadVariableVariationType.
 
 ### LoadVariableVariationType.RSVelocity *= 704*
 
+<a id="LoadVariableVariationType.Reactance"></a>
+
+### LoadVariableVariationType.Reactance *= 843*
+
+<a id="LoadVariableVariationType.RefId"></a>
+
+### LoadVariableVariationType.RefId *= 22*
+
+<a id="LoadVariableVariationType.Resistance"></a>
+
+### LoadVariableVariationType.Resistance *= 842*
+
+<a id="LoadVariableVariationType.RotatingForceBegin"></a>
+
+### LoadVariableVariationType.RotatingForceBegin *= 760*
+
+<a id="LoadVariableVariationType.RotatingForceEnd"></a>
+
+### LoadVariableVariationType.RotatingForceEnd *= 771*
+
+<a id="LoadVariableVariationType.RotatingRadius"></a>
+
+### LoadVariableVariationType.RotatingRadius *= 770*
+
+<a id="LoadVariableVariationType.Rotation"></a>
+
+### LoadVariableVariationType.Rotation *= 206*
+
+<a id="LoadVariableVariationType.RotationX"></a>
+
+### LoadVariableVariationType.RotationX *= 1016*
+
+<a id="LoadVariableVariationType.RotationY"></a>
+
+### LoadVariableVariationType.RotationY *= 1017*
+
+<a id="LoadVariableVariationType.RotationZ"></a>
+
+### LoadVariableVariationType.RotationZ *= 1018*
+
+<a id="LoadVariableVariationType.RotationalAcceleration"></a>
+
+### LoadVariableVariationType.RotationalAcceleration *= 213*
+
+<a id="LoadVariableVariationType.RotationalVelocity"></a>
+
+### LoadVariableVariationType.RotationalVelocity *= 207*
+
 <a id="LoadVariableVariationType.Scale"></a>
 
 ### LoadVariableVariationType.Scale *= 154*
@@ -797,6 +793,10 @@ Specifies the LoadVariableVariationType.
 <a id="LoadVariableVariationType.Sector"></a>
 
 ### LoadVariableVariationType.Sector *= 15*
+
+<a id="LoadVariableVariationType.SectorNumber"></a>
+
+### LoadVariableVariationType.SectorNumber *= 48*
 
 <a id="LoadVariableVariationType.ShellThickness"></a>
 

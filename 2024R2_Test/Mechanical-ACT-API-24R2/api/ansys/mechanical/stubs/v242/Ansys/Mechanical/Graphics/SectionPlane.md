@@ -1,6 +1,6 @@
 # `SectionPlane`
 
-
+<a id="ansys.mechanical.stubs.v242.Ansys.Mechanical.Graphics.SectionPlane"></a>
 
 #### *class* ansys.mechanical.stubs.v242.Ansys.Mechanical.Graphics.SectionPlane
 
@@ -17,13 +17,13 @@ Represents a SectionPlane object. This object holds properties of the Plane.
 ### Methods
 
 | Name | Description |
-|------------------------------------|---------------------------------------------------------------------------------------------------------------------|
+|----------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------|
 | [`Equals`](#SectionPlane.Equals)   | Indicates whether the current SectionPlane properties are equal to the properties of another SectionPlane object.   |
 
 ### Properties
 
 | Name | Description |
-|----------------------------------------|---------------------------------------------------------|
+|--------------------------------------------------------------------------------------------------|---------------------------------------------------------|
 | [`Active`](#SectionPlane.Active)       | Gets or Sets the Active State of the Section Plane      |
 | [`Center`](#SectionPlane.Center)       | Gets or Sets the Center point of the Section Plane      |
 | [`Direction`](#SectionPlane.Direction) | Gets or Sets the Direction(Normal) of the Section Plane |
@@ -44,7 +44,7 @@ Gets or Sets the Active State of the Section Plane
 
 <a id="SectionPlane.Center"></a>
 
-### *property* SectionPlane.Center *: [Ansys.Mechanical.Graphics.Point](../../../../v241/Ansys/Mechanical/Graphics/Point.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.Graphics.Point) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* SectionPlane.Center *: [Ansys.Mechanical.Graphics.Point](Point.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.Graphics.Point) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or Sets the Center point of the Section Plane
 
@@ -68,7 +68,7 @@ Gets or Sets the Name of the Section Plane
 
 <a id="SectionPlane.Type"></a>
 
-### *property* SectionPlane.Type *: [Ansys.Mechanical.DataModel.Enums.SectionPlaneType](../../../../v241/Ansys/Mechanical/DataModel/Enums/SectionPlaneType.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.SectionPlaneType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* SectionPlane.Type *: [Ansys.Mechanical.DataModel.Enums.SectionPlaneType](../DataModel/Enums/SectionPlaneType.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.SectionPlaneType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or Sets the SectionPlane Type of the Section Plane
 
@@ -80,7 +80,7 @@ Gets or Sets the SectionPlane Type of the Section Plane
 
 <a id="SectionPlane.Equals"></a>
 
-### SectionPlane.Equals(sectionPlane: [Ansys.Mechanical.Graphics.SectionPlane](../../../../v241/Ansys/Mechanical/Graphics/SectionPlane.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.Graphics.SectionPlane))
+### SectionPlane.Equals(sectionPlane: [Ansys.Mechanical.Graphics.SectionPlane](#ansys.mechanical.stubs.v242.Ansys.Mechanical.Graphics.SectionPlane))
 
 Indicates whether the current SectionPlane properties are equal to the properties of another SectionPlane object.
 

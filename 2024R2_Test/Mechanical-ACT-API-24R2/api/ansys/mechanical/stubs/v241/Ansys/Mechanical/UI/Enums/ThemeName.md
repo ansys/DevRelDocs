@@ -1,6 +1,6 @@
 # `ThemeName`
 
-
+<a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.UI.Enums.ThemeName"></a>
 
 #### *class* ansys.mechanical.stubs.v241.Ansys.Mechanical.UI.Enums.ThemeName
 
@@ -17,25 +17,25 @@ Represents the different themes that can be set in Mechanical.
 ### Attributes
 
 | Name |
-| ------------------------------------------------------------------------------------------- |
-| [`Light`](../../../../../v242/Ansys/Mechanical/UI/Enums/ThemeName.md#ThemeName.Light) |
-| [`Dark`](../../../../../v242/Ansys/Mechanical/UI/Enums/ThemeName.md#ThemeName.Dark) |
-| [`Classic`](../../../../../v242/Ansys/Mechanical/UI/Enums/ThemeName.md#ThemeName.Classic) |
+| ----------------------------------- |
+| [`Classic`](#ThemeName.Classic) |
+| [`Dark`](#ThemeName.Dark) |
+| [`Light`](#ThemeName.Light) |
 
 <a id="attribute-detail"></a>
 
 ## Attribute detail
 
-<a id="ThemeName.Light"></a>
+<a id="ThemeName.Classic"></a>
 
-### ThemeName.Light *= 0*
+### ThemeName.Classic *= 2*
 
 <a id="ThemeName.Dark"></a>
 
 ### ThemeName.Dark *= 1*
 
-<a id="ThemeName.Classic"></a>
+<a id="ThemeName.Light"></a>
 
-### ThemeName.Classic *= 2*
+### ThemeName.Light *= 0*
 
 

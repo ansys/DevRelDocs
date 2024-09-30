@@ -1,6 +1,6 @@
 # `StiffnessBehavior`
 
-
+<a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.StiffnessBehavior"></a>
 
 #### *class* ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.StiffnessBehavior
 
@@ -17,15 +17,15 @@ Specifies the StiffnessBehavior.
 ### Attributes
 
 | Name |
-| ---------------------------------------------------------------------------------------------------------------------------- |
-| [`Beam`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/StiffnessBehavior.md#StiffnessBehavior.Beam) |
-| [`Flexible`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/StiffnessBehavior.md#StiffnessBehavior.Flexible) |
-| [`Explicit`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/StiffnessBehavior.md#StiffnessBehavior.Explicit) |
-| [`Gasket`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/StiffnessBehavior.md#StiffnessBehavior.Gasket) |
-| [`Rigid`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/StiffnessBehavior.md#StiffnessBehavior.Rigid) |
-| [`RigidBeam`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/StiffnessBehavior.md#StiffnessBehavior.RigidBeam) |
-| [`StiffBeam`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/StiffnessBehavior.md#StiffnessBehavior.StiffBeam) |
-| [`SuperElement`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/StiffnessBehavior.md#StiffnessBehavior.SuperElement) |
+| --------------------------------------------------- |
+| [`Beam`](#StiffnessBehavior.Beam) |
+| [`Explicit`](#StiffnessBehavior.Explicit) |
+| [`Flexible`](#StiffnessBehavior.Flexible) |
+| [`Gasket`](#StiffnessBehavior.Gasket) |
+| [`Rigid`](#StiffnessBehavior.Rigid) |
+| [`RigidBeam`](#StiffnessBehavior.RigidBeam) |
+| [`StiffBeam`](#StiffnessBehavior.StiffBeam) |
+| [`SuperElement`](#StiffnessBehavior.SuperElement) |
 
 <a id="attribute-detail"></a>
 
@@ -35,13 +35,13 @@ Specifies the StiffnessBehavior.
 
 ### StiffnessBehavior.Beam *= 2*
 
-<a id="StiffnessBehavior.Flexible"></a>
-
-### StiffnessBehavior.Flexible *= 0*
-
 <a id="StiffnessBehavior.Explicit"></a>
 
 ### StiffnessBehavior.Explicit *= 7*
+
+<a id="StiffnessBehavior.Flexible"></a>
+
+### StiffnessBehavior.Flexible *= 0*
 
 <a id="StiffnessBehavior.Gasket"></a>
 

@@ -1,6 +1,6 @@
 # `ExpandResultFrom`
 
-
+<a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.ExpandResultFrom"></a>
 
 #### *class* ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.ExpandResultFrom
 
@@ -17,11 +17,11 @@ Specifies the ExpandResultFrom.
 ### Attributes
 
 | Name |
-| ------------------------------------------------------------------------------------------------------------------------------------ |
-| [`HarmonicSolution`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/ExpandResultFrom.md#ExpandResultFrom.HarmonicSolution) |
-| [`ModalSolution`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/ExpandResultFrom.md#ExpandResultFrom.ModalSolution) |
-| [`ProgramControlled`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/ExpandResultFrom.md#ExpandResultFrom.ProgramControlled) |
-| [`TransientSolution`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/ExpandResultFrom.md#ExpandResultFrom.TransientSolution) |
+| ------------------------------------------------------------ |
+| [`HarmonicSolution`](#ExpandResultFrom.HarmonicSolution) |
+| [`ModalSolution`](#ExpandResultFrom.ModalSolution) |
+| [`ProgramControlled`](#ExpandResultFrom.ProgramControlled) |
+| [`TransientSolution`](#ExpandResultFrom.TransientSolution) |
 
 <a id="attribute-detail"></a>
 

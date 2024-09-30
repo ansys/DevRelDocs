@@ -1,6 +1,6 @@
 # `CrackShapeType`
 
-
+<a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.CrackShapeType"></a>
 
 #### *class* ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.CrackShapeType
 
@@ -17,15 +17,15 @@ Specifies the CrackShapeType.
 ### Attributes
 
 | Name |
-| -------------------------------------------------------------------------------------------------------------------------- |
-| [`Arbitrary`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/CrackShapeType.md#CrackShapeType.Arbitrary) |
-| [`Corner`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/CrackShapeType.md#CrackShapeType.Corner) |
-| [`Cylindrical`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/CrackShapeType.md#CrackShapeType.Cylindrical) |
-| [`Edge`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/CrackShapeType.md#CrackShapeType.Edge) |
-| [`Elliptical`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/CrackShapeType.md#CrackShapeType.Elliptical) |
-| [`Ring`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/CrackShapeType.md#CrackShapeType.Ring) |
-| [`SemiElliptical`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/CrackShapeType.md#CrackShapeType.SemiElliptical) |
-| [`Through`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/CrackShapeType.md#CrackShapeType.Through) |
+| ---------------------------------------------------- |
+| [`Arbitrary`](#CrackShapeType.Arbitrary) |
+| [`Corner`](#CrackShapeType.Corner) |
+| [`Cylindrical`](#CrackShapeType.Cylindrical) |
+| [`Edge`](#CrackShapeType.Edge) |
+| [`Elliptical`](#CrackShapeType.Elliptical) |
+| [`Ring`](#CrackShapeType.Ring) |
+| [`SemiElliptical`](#CrackShapeType.SemiElliptical) |
+| [`Through`](#CrackShapeType.Through) |
 
 <a id="attribute-detail"></a>
 

@@ -1,6 +1,6 @@
 # `NonlinearAdaptivityOptionType`
 
-
+<a id="ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.NonlinearAdaptivityOptionType"></a>
 
 #### *class* ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.NonlinearAdaptivityOptionType
 
@@ -17,7 +17,7 @@ Specifies the NonlinearAdaptivityOptionType.
 ### Attributes
 
 | Name |
-| --------------------------------------------------------------------------------------- |
+| ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | [`JacobianRatio`](#NonlinearAdaptivityOptionType.JacobianRatio) |
 | [`Shape`](#NonlinearAdaptivityOptionType.Shape) |
 | [`Skewness`](#NonlinearAdaptivityOptionType.Skewness) |

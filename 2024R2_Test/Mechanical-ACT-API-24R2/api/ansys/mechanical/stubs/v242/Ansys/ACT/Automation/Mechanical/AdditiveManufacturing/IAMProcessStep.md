@@ -1,6 +1,6 @@
 # `IAMProcessStep`
 
-
+<a id="ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.AdditiveManufacturing.IAMProcessStep"></a>
 
 #### *class* ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.AdditiveManufacturing.IAMProcessStep
 
@@ -26,7 +26,7 @@ IAMProcessStep interface.
 
 <a id="IAMProcessStep.ProcessStepType"></a>
 
-### *property* IAMProcessStep.ProcessStepType *: [Ansys.Mechanical.DataModel.Enums.AMProcessStepType](../../../../../../v241/Ansys/Mechanical/DataModel/Enums/AMProcessStepType.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.AMProcessStepType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* IAMProcessStep.ProcessStepType *: [Ansys.Mechanical.DataModel.Enums.AMProcessStepType](../../../../Mechanical/DataModel/Enums/AMProcessStepType.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.AMProcessStepType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 ProcessStepType property.
 

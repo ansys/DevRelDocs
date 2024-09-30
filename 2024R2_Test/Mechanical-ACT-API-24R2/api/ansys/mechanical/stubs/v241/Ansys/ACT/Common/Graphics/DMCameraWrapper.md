@@ -1,6 +1,6 @@
 # `DMCameraWrapper`
 
-
+<a id="ansys.mechanical.stubs.v241.Ansys.ACT.Common.Graphics.DMCameraWrapper"></a>
 
 #### *class* ansys.mechanical.stubs.v241.Ansys.ACT.Common.Graphics.DMCameraWrapper
 

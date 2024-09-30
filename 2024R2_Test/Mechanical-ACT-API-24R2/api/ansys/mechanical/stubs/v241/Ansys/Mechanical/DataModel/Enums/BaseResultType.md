@@ -1,6 +1,6 @@
 # `BaseResultType`
 
-
+<a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.BaseResultType"></a>
 
 #### *class* ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.BaseResultType
 
@@ -17,27 +17,43 @@ Specifies the BaseResultType.
 ### Attributes
 
 | Name |
-| ------------------------------------------------------------------------------------------------------------------------------ |
-| [`CenterOfGravity`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/BaseResultType.md#BaseResultType.CenterOfGravity) |
-| [`Mass`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/BaseResultType.md#BaseResultType.Mass) |
-| [`MomentOfInertia`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/BaseResultType.md#BaseResultType.MomentOfInertia) |
-| [`Rotation`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/BaseResultType.md#BaseResultType.Rotation) |
-| [`Acceleration`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/BaseResultType.md#BaseResultType.Acceleration) |
-| [`Displacement`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/BaseResultType.md#BaseResultType.Displacement) |
-| [`Frequency`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/BaseResultType.md#BaseResultType.Frequency) |
-| [`ReactionForce`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/BaseResultType.md#BaseResultType.ReactionForce) |
-| [`ReactionMoment`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/BaseResultType.md#BaseResultType.ReactionMoment) |
-| [`Frequencies`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/BaseResultType.md#BaseResultType.Frequencies) |
-| [`Velocity`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/BaseResultType.md#BaseResultType.Velocity) |
-| [`Volume`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/BaseResultType.md#BaseResultType.Volume) |
+| ------------------------------------------------------ |
+| [`Acceleration`](#BaseResultType.Acceleration) |
+| [`CenterOfGravity`](#BaseResultType.CenterOfGravity) |
+| [`Displacement`](#BaseResultType.Displacement) |
+| [`Frequencies`](#BaseResultType.Frequencies) |
+| [`Frequency`](#BaseResultType.Frequency) |
+| [`Mass`](#BaseResultType.Mass) |
+| [`MomentOfInertia`](#BaseResultType.MomentOfInertia) |
+| [`ReactionForce`](#BaseResultType.ReactionForce) |
+| [`ReactionMoment`](#BaseResultType.ReactionMoment) |
+| [`Rotation`](#BaseResultType.Rotation) |
+| [`Velocity`](#BaseResultType.Velocity) |
+| [`Volume`](#BaseResultType.Volume) |
 
 <a id="attribute-detail"></a>
 
 ## Attribute detail
 
+<a id="BaseResultType.Acceleration"></a>
+
+### BaseResultType.Acceleration *= 12*
+
 <a id="BaseResultType.CenterOfGravity"></a>
 
 ### BaseResultType.CenterOfGravity *= 3*
+
+<a id="BaseResultType.Displacement"></a>
+
+### BaseResultType.Displacement *= 0*
+
+<a id="BaseResultType.Frequencies"></a>
+
+### BaseResultType.Frequencies *= 10*
+
+<a id="BaseResultType.Frequency"></a>
+
+### BaseResultType.Frequency *= 9*
 
 <a id="BaseResultType.Mass"></a>
 
@@ -47,22 +63,6 @@ Specifies the BaseResultType.
 
 ### BaseResultType.MomentOfInertia *= 4*
 
-<a id="BaseResultType.Rotation"></a>
-
-### BaseResultType.Rotation *= 7*
-
-<a id="BaseResultType.Acceleration"></a>
-
-### BaseResultType.Acceleration *= 12*
-
-<a id="BaseResultType.Displacement"></a>
-
-### BaseResultType.Displacement *= 0*
-
-<a id="BaseResultType.Frequency"></a>
-
-### BaseResultType.Frequency *= 9*
-
 <a id="BaseResultType.ReactionForce"></a>
 
 ### BaseResultType.ReactionForce *= 2*
@@ -71,9 +71,9 @@ Specifies the BaseResultType.
 
 ### BaseResultType.ReactionMoment *= 8*
 
-<a id="BaseResultType.Frequencies"></a>
+<a id="BaseResultType.Rotation"></a>
 
-### BaseResultType.Frequencies *= 10*
+### BaseResultType.Rotation *= 7*
 
 <a id="BaseResultType.Velocity"></a>
 

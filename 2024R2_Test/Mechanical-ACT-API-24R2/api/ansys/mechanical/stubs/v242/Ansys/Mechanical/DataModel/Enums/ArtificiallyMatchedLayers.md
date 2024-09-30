@@ -1,6 +1,6 @@
 # `ArtificiallyMatchedLayers`
 
-
+<a id="ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.ArtificiallyMatchedLayers"></a>
 
 #### *class* ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.ArtificiallyMatchedLayers
 
@@ -17,7 +17,7 @@ Specifies the ArtificiallyMatchedLayers.
 ### Attributes
 
 | Name |
-| --------------------------------------------- |
+| ------------------------------------------------------------------------------------------------------------------------------ |
 | [`IPML`](#ArtificiallyMatchedLayers.IPML) |
 | [`Off`](#ArtificiallyMatchedLayers.Off) |
 | [`PML`](#ArtificiallyMatchedLayers.PML) |

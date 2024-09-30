@@ -1,6 +1,6 @@
 # `AutomaticNodeMovementMethod`
 
-
+<a id="ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.AutomaticNodeMovementMethod"></a>
 
 #### *class* ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.AutomaticNodeMovementMethod
 
@@ -17,7 +17,7 @@ To select the method of AutoNodeMove under PCTet.
 ### Attributes
 
 | Name |
-| ----------------------------------------------------------------------- |
+| ---------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | [`Aggressive`](#AutomaticNodeMovementMethod.Aggressive) |
 | [`Conservative`](#AutomaticNodeMovementMethod.Conservative) |
 | [`Custom`](#AutomaticNodeMovementMethod.Custom) |

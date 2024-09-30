@@ -1,6 +1,6 @@
 # `ImportSettingsFactory`
 
-
+<a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.ExternalData.ImportSettingsFactory"></a>
 
 #### *class* ansys.mechanical.stubs.v241.Ansys.Mechanical.ExternalData.ImportSettingsFactory
 
@@ -16,9 +16,9 @@ ImportSettingsFactory interface.
 
 ### Constructors
 
-| Name |
-| ----------------------------------------------------------------------------------------------------------------------------------------- |
-| [`GetSettingsForFormat`](../../../../v242/Ansys/Mechanical/Table/ImportSettingsFactory.md#ImportSettingsFactory.GetSettingsForFormat) |
+| Name | Description |
+|-------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| [`GetSettingsForFormat`](#ImportSettingsFactory.GetSettingsForFormat)   | M:Ansys.Mechanical.ExternalData.ImportSettingsFactory.GetSettingsForFormat(Ansys.Mechanical.DataModel.MechanicalEnums.ExternalData.ImportFormat) constructs and returns the correct settings class   |
 
 <a id="method-detail"></a>
 
@@ -26,7 +26,12 @@ ImportSettingsFactory interface.
 
 <a id="ImportSettingsFactory.GetSettingsForFormat"></a>
 
-### *classmethod* ImportSettingsFactory.GetSettingsForFormat(format: [Ansys.Mechanical.DataModel.MechanicalEnums.ExternalData.ImportFormat](../DataModel/MechanicalEnums/ExternalData/ImportFormat.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.MechanicalEnums.ExternalData.ImportFormat))
+### *classmethod* ImportSettingsFactory.GetSettingsForFormat(format: [Ansys.Mechanical.DataModel.MechanicalEnums.ExternalData.ImportFormat](../../../../v242/Ansys/Mechanical/DataModel/MechanicalEnums/ExternalData/ImportFormat.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.MechanicalEnums.ExternalData.ImportFormat))
+
+```text
+M:Ansys.Mechanical.ExternalData.ImportSettingsFactory.GetSettingsForFormat(Ansys.Mechanical.DataModel.MechanicalEnums.ExternalData.ImportFormat) constructs and returns the correct settings class
+instance based on the specified format.
+```
 
 <!-- !! processed by numpydoc !! -->
 

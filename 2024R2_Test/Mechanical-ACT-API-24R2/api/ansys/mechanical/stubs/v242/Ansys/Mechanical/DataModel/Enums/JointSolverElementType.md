@@ -1,6 +1,6 @@
 # `JointSolverElementType`
 
-
+<a id="ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.JointSolverElementType"></a>
 
 #### *class* ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.JointSolverElementType
 
@@ -17,7 +17,7 @@ Specifies the JointSolverElementType.
 ### Attributes
 
 | Name |
-| ------------------------------------------------------------------ |
+| ------------------------------------------------------------------------------------------------------------------------------------------------ |
 | [`ContactDirect`](#JointSolverElementType.ContactDirect) |
 | [`Element`](#JointSolverElementType.Element) |
 | [`ProgramControlled`](#JointSolverElementType.ProgramControlled) |

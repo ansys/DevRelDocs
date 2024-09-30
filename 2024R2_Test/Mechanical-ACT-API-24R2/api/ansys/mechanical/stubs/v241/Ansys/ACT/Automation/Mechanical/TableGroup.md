@@ -1,6 +1,6 @@
 # `TableGroup`
 
-
+<a id="ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.TableGroup"></a>
 
 #### *class* ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.TableGroup
 
@@ -17,57 +17,39 @@ Defines a TableGroup.
 ### Methods
 
 | Name | Description |
-|-----------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------|
-| [`AddTable`](../../../../../v242/Ansys/ACT/Automation/Mechanical/TableGroup.md#TableGroup.AddTable)                               | Create the object for working with an imported part.                              |
-| [`GetChildren`](../../../../../v242/Ansys/ACT/Automation/Mechanical/TableGroup.md#id1)                                            | Gets the list of children, filtered by type.                                      |
-| [`GetChildren`](../../../../../v242/Ansys/ACT/Automation/Mechanical/TableGroup.md#id1)                                            | Gets the list of children, filtered by type.                                      |
-| [`AddComment`](../../../../../v242/Ansys/ACT/Automation/Mechanical/TableGroup.md#TableGroup.AddComment)                           | Creates a new child Comment.                                                      |
-| [`AddFigure`](../../../../../v242/Ansys/ACT/Automation/Mechanical/TableGroup.md#TableGroup.AddFigure)                             | Creates a new child Figure.                                                       |
-| [`AddImage`](../../../../../v242/Ansys/ACT/Automation/Mechanical/TableGroup.md#TableGroup.AddImage)                               | Creates a new child Image.                                                        |
-| [`Activate`](../../../../../v242/Ansys/ACT/Automation/Mechanical/TableGroup.md#TableGroup.Activate)                               | Activate the current object.                                                      |
-| [`CopyTo`](../../../../../v242/Ansys/ACT/Automation/Mechanical/TableGroup.md#TableGroup.CopyTo)                                   | Copies all visible properties from this object to another.                        |
-| [`Duplicate`](../../../../../v242/Ansys/ACT/Automation/Mechanical/TableGroup.md#TableGroup.Duplicate)                             | Creates a copy of the current DataModelObject.                                    |
-| [`GroupAllSimilarChildren`](../../../../../v242/Ansys/ACT/Automation/Mechanical/TableGroup.md#TableGroup.GroupAllSimilarChildren) | Run the GroupAllSimilarChildren action.                                           |
-| [`GroupSimilarObjects`](../../../../../v242/Ansys/ACT/Automation/Mechanical/TableGroup.md#TableGroup.GroupSimilarObjects)         | Run the GroupSimilarObjects action.                                               |
-| [`PropertyByName`](../../../../../v242/Ansys/ACT/Automation/Mechanical/TableGroup.md#TableGroup.PropertyByName)                   | Get a property by its unique name.                                                |
-| [`PropertyByAPIName`](../../../../../v242/Ansys/ACT/Automation/Mechanical/TableGroup.md#TableGroup.PropertyByAPIName)             | Get a property by its API name.                                                   |
-| [`CreateParameter`](../../../../../v242/Ansys/ACT/Automation/Mechanical/TableGroup.md#TableGroup.CreateParameter)                 | Creates a new parameter for a Property.                                           |
-| [`GetParameter`](../../../../../v242/Ansys/ACT/Automation/Mechanical/TableGroup.md#TableGroup.GetParameter)                       | Gets the parameter corresponding to the given property.                           |
-| [`RemoveParameter`](../../../../../v242/Ansys/ACT/Automation/Mechanical/TableGroup.md#TableGroup.RemoveParameter)                 | Removes the parameter from the parameter set corresponding to the given property. |
+|------------------------------------------------------------------|-----------------------------------------------------------------------------------|
+| [`Activate`](#TableGroup.Activate)                               | Activate the current object.                                                      |
+| [`AddComment`](#TableGroup.AddComment)                           | Creates a new child Comment.                                                      |
+| [`AddFigure`](#TableGroup.AddFigure)                             | Creates a new child Figure.                                                       |
+| [`AddImage`](#TableGroup.AddImage)                               | Creates a new child Image.                                                        |
+| [`AddTable`](#TableGroup.AddTable)                               | Create the object for working with an imported part.                              |
+| [`CopyTo`](#TableGroup.CopyTo)                                   | Copies all visible properties from this object to another.                        |
+| [`CreateParameter`](#TableGroup.CreateParameter)                 | Creates a new parameter for a Property.                                           |
+| [`Duplicate`](#TableGroup.Duplicate)                             | Creates a copy of the current DataModelObject.                                    |
+| [`GetChildren`](#TableGroup.GetChildren)                         | Gets the list of children, filtered by type.                                      |
+| [`GetParameter`](#TableGroup.GetParameter)                       | Gets the parameter corresponding to the given property.                           |
+| [`GroupAllSimilarChildren`](#TableGroup.GroupAllSimilarChildren) | Run the GroupAllSimilarChildren action.                                           |
+| [`GroupSimilarObjects`](#TableGroup.GroupSimilarObjects)         | Run the GroupSimilarObjects action.                                               |
+| [`PropertyByAPIName`](#TableGroup.PropertyByAPIName)             | Get a property by its API name.                                                   |
+| [`PropertyByName`](#TableGroup.PropertyByName)                   | Get a property by its unique name.                                                |
+| [`RemoveParameter`](#TableGroup.RemoveParameter)                 | Removes the parameter from the parameter set corresponding to the given property. |
 
 ### Properties
 
 | Name | Description |
-|-----------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------|
-| [`InternalObject`](../../../../../v242/Ansys/ACT/Automation/Mechanical/TableGroup.md#id0)                                         | Gets the internal object. For advanced usage only.            |
-| [`DataModelObjectCategory`](../../../../../v242/Ansys/ACT/Automation/Mechanical/TableGroup.md#TableGroup.DataModelObjectCategory) | Gets the current DataModelObject's category.                  |
-| [`Children`](../../../../../v242/Ansys/ACT/Automation/Mechanical/TableGroup.md#TableGroup.Children)                               | Gets the list of children.                                    |
-| [`Comments`](../../../../../v242/Ansys/ACT/Automation/Mechanical/TableGroup.md#TableGroup.Comments)                               | Gets the list of associated comments.                         |
-| [`Figures`](../../../../../v242/Ansys/ACT/Automation/Mechanical/TableGroup.md#TableGroup.Figures)                                 | Gets the list of associated figures.                          |
-| [`Images`](../../../../../v242/Ansys/ACT/Automation/Mechanical/TableGroup.md#TableGroup.Images)                                   | Gets the list of associated images.                           |
-| [`InternalObject`](../../../../../v242/Ansys/ACT/Automation/Mechanical/TableGroup.md#id0)                                         | Gets the internal object. For advanced usage only.            |
-| [`Properties`](../../../../../v242/Ansys/ACT/Automation/Mechanical/TableGroup.md#TableGroup.Properties)                           | Gets the list of properties for this object.                  |
-| [`VisibleProperties`](../../../../../v242/Ansys/ACT/Automation/Mechanical/TableGroup.md#TableGroup.VisibleProperties)             | Gets the list of properties that are visible for this object. |
+|------------------------------------------------------------------|---------------------------------------------------------------|
+| [`Children`](#TableGroup.Children)                               | Gets the list of children.                                    |
+| [`Comments`](#TableGroup.Comments)                               | Gets the list of associated comments.                         |
+| [`DataModelObjectCategory`](#TableGroup.DataModelObjectCategory) | Gets the current DataModelObject’s category.                  |
+| [`Figures`](#TableGroup.Figures)                                 | Gets the list of associated figures.                          |
+| [`Images`](#TableGroup.Images)                                   | Gets the list of associated images.                           |
+| [`InternalObject`](#TableGroup.InternalObject)                   | Gets the internal object. For advanced usage only.            |
+| [`Properties`](#TableGroup.Properties)                           | Gets the list of properties for this object.                  |
+| [`VisibleProperties`](#TableGroup.VisibleProperties)             | Gets the list of properties that are visible for this object. |
 
 <a id="property-detail"></a>
 
 ## Property detail
-
-<a id="TableGroup.InternalObject"></a>
-
-### *property* TableGroup.InternalObject *: Ansys.Common.Interop.DSObjectsAuto.IDSTableGroupAuto | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets the internal object. For advanced usage only.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="TableGroup.DataModelObjectCategory"></a>
-
-### *property* TableGroup.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets the current DataModelObject's category.
-
-<!-- !! processed by numpydoc !! -->
 
 <a id="TableGroup.Children"></a>
 
@@ -82,6 +64,14 @@ Gets the list of children.
 ### *property* TableGroup.Comments *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Comment](Comment.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated comments.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="TableGroup.DataModelObjectCategory"></a>
+
+### *property* TableGroup.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../v242/Ansys/Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets the current DataModelObject’s category.
 
 <!-- !! processed by numpydoc !! -->
 
@@ -101,9 +91,9 @@ Gets the list of associated images.
 
 <!-- !! processed by numpydoc !! -->
 
-<a id="id0"></a>
+<a id="TableGroup.InternalObject"></a>
 
-### *property* TableGroup.InternalObject *: System.Object | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* TableGroup.InternalObject *: Ansys.Common.Interop.DSObjectsAuto.IDSTableGroupAuto | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the internal object. For advanced usage only.
 
@@ -129,27 +119,11 @@ Gets the list of properties that are visible for this object.
 
 ## Method detail
 
-<a id="TableGroup.AddTable"></a>
+<a id="TableGroup.Activate"></a>
 
-### TableGroup.AddTable(activate: System.Boolean, expandGroup: System.Boolean)
+### TableGroup.Activate()
 
-Create the object for working with an imported part.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="TableGroup.GetChildren"></a>
-
-### TableGroup.GetChildren(recurses: System.Boolean, children: System.Collections.Generic.IList[ChildrenType])
-
-Gets the list of children, filtered by type.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="id1"></a>
-
-### TableGroup.GetChildren(category: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory), recurses: System.Boolean, children: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject])
-
-Gets the list of children, filtered by type.
+Activate the current object.
 
 <!-- !! processed by numpydoc !! -->
 
@@ -173,17 +147,19 @@ Creates a new child Figure.
 
 ### TableGroup.AddImage(filePath: System.String)
 
+```text
 Creates a new child Image.
 If a filePath is provided, the image will be loaded from that file,
 if not, the image will be a screen capture of the Geometry window.
+```
 
 <!-- !! processed by numpydoc !! -->
 
-<a id="TableGroup.Activate"></a>
+<a id="TableGroup.AddTable"></a>
 
-### TableGroup.Activate()
+### TableGroup.AddTable(activate: System.Boolean, expandGroup: System.Boolean)
 
-Activate the current object.
+Create the object for working with an imported part.
 
 <!-- !! processed by numpydoc !! -->
 
@@ -195,11 +171,35 @@ Copies all visible properties from this object to another.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="TableGroup.CreateParameter"></a>
+
+### TableGroup.CreateParameter(propName: System.String)
+
+Creates a new parameter for a Property.
+
+<!-- !! processed by numpydoc !! -->
+
 <a id="TableGroup.Duplicate"></a>
 
 ### TableGroup.Duplicate()
 
 Creates a copy of the current DataModelObject.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="TableGroup.GetChildren"></a>
+
+### TableGroup.GetChildren(recurses: System.Boolean, children: System.Collections.Generic.IList[ChildrenType])
+
+Gets the list of children, filtered by type.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="TableGroup.GetParameter"></a>
+
+### TableGroup.GetParameter(propName: System.String)
+
+Gets the parameter corresponding to the given property.
 
 <!-- !! processed by numpydoc !! -->
 
@@ -219,36 +219,22 @@ Run the GroupSimilarObjects action.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="TableGroup.PropertyByAPIName"></a>
+
+### TableGroup.PropertyByAPIName(name: System.String)
+
+```text
+Get a property by its API name.
+If multiple properties have the same API Name, only the first property with that name will be returned.
+```
+
+<!-- !! processed by numpydoc !! -->
+
 <a id="TableGroup.PropertyByName"></a>
 
 ### TableGroup.PropertyByName(name: System.String)
 
 Get a property by its unique name.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="TableGroup.PropertyByAPIName"></a>
-
-### TableGroup.PropertyByAPIName(name: System.String)
-
-Get a property by its API name.
-If multiple properties have the same API Name, only the first property with that name will be returned.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="TableGroup.CreateParameter"></a>
-
-### TableGroup.CreateParameter(propName: System.String)
-
-Creates a new parameter for a Property.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="TableGroup.GetParameter"></a>
-
-### TableGroup.GetParameter(propName: System.String)
-
-Gets the parameter corresponding to the given property.
 
 <!-- !! processed by numpydoc !! -->
 

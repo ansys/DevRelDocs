@@ -1,6 +1,6 @@
 # `PressureInitializationType`
 
-
+<a id="ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.PressureInitializationType"></a>
 
 #### *class* ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.PressureInitializationType
 
@@ -17,7 +17,7 @@ Specifies the PressureInitializationType.
 ### Attributes
 
 | Name |
-| ------------------------------------------------------------------------ |
+| ---------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | [`FromDeformedState`](#PressureInitializationType.FromDeformedState) |
 | [`FromStressTrace`](#PressureInitializationType.FromStressTrace) |
 

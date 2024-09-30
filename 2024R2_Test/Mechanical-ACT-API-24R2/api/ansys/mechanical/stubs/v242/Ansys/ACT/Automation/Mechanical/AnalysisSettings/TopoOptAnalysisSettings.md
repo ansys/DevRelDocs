@@ -1,6 +1,6 @@
 # `TopoOptAnalysisSettings`
 
-
+<a id="ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.AnalysisSettings.TopoOptAnalysisSettings"></a>
 
 #### *class* ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.AnalysisSettings.TopoOptAnalysisSettings
 
@@ -18,89 +18,87 @@ Defines a TopoOptAnalysisSettings.
 
 | Name | Description |
 |-------------------------------------------------------------------------------|-----------------------------------------------------------------------------------|
-| [`DeleteAllRestartPoints`](#TopoOptAnalysisSettings.DeleteAllRestartPoints)   | DeleteAllRestartPoints method.                                                    |
-| [`GetChildren`](#id1)                                                         | Gets the list of children, filtered by type.                                      |
-| [`GetChildren`](#id1)                                                         | Gets the list of children, filtered by type.                                      |
+| [`Activate`](#TopoOptAnalysisSettings.Activate)                               | Activate the current object.                                                      |
 | [`AddComment`](#TopoOptAnalysisSettings.AddComment)                           | Creates a new child Comment.                                                      |
 | [`AddFigure`](#TopoOptAnalysisSettings.AddFigure)                             | Creates a new child Figure.                                                       |
 | [`AddImage`](#TopoOptAnalysisSettings.AddImage)                               | Creates a new child Image.                                                        |
-| [`Activate`](#TopoOptAnalysisSettings.Activate)                               | Activate the current object.                                                      |
 | [`CopyTo`](#TopoOptAnalysisSettings.CopyTo)                                   | Copies all visible properties from this object to another.                        |
+| [`CreateParameter`](#TopoOptAnalysisSettings.CreateParameter)                 | Creates a new parameter for a Property.                                           |
+| [`DeleteAllRestartPoints`](#TopoOptAnalysisSettings.DeleteAllRestartPoints)   | DeleteAllRestartPoints method.                                                    |
 | [`Duplicate`](#TopoOptAnalysisSettings.Duplicate)                             | Creates a copy of the current DataModelObject.                                    |
+| [`GetChildren`](#TopoOptAnalysisSettings.GetChildren)                         | Gets the list of children, filtered by type.                                      |
+| [`GetParameter`](#TopoOptAnalysisSettings.GetParameter)                       | Gets the parameter corresponding to the given property.                           |
 | [`GroupAllSimilarChildren`](#TopoOptAnalysisSettings.GroupAllSimilarChildren) | Run the GroupAllSimilarChildren action.                                           |
 | [`GroupSimilarObjects`](#TopoOptAnalysisSettings.GroupSimilarObjects)         | Run the GroupSimilarObjects action.                                               |
-| [`PropertyByName`](#TopoOptAnalysisSettings.PropertyByName)                   | Get a property by its unique name.                                                |
 | [`PropertyByAPIName`](#TopoOptAnalysisSettings.PropertyByAPIName)             | Get a property by its API name.                                                   |
-| [`CreateParameter`](#TopoOptAnalysisSettings.CreateParameter)                 | Creates a new parameter for a Property.                                           |
-| [`GetParameter`](#TopoOptAnalysisSettings.GetParameter)                       | Gets the parameter corresponding to the given property.                           |
+| [`PropertyByName`](#TopoOptAnalysisSettings.PropertyByName)                   | Get a property by its unique name.                                                |
 | [`RemoveParameter`](#TopoOptAnalysisSettings.RemoveParameter)                 | Removes the parameter from the parameter set corresponding to the given property. |
 
 ### Properties
 
 | Name | Description |
 |-------------------------------------------------------------------------------------------------|---------------------------------------------------------------|
+| [`Algorithm`](#TopoOptAnalysisSettings.Algorithm)                                               | Gets or sets the Algorithm.                                   |
+| [`Children`](#TopoOptAnalysisSettings.Children)                                                 | Gets the list of children.                                    |
+| [`Comments`](#TopoOptAnalysisSettings.Comments)                                                 | Gets the list of associated comments.                         |
+| [`ConvergenceAccuracy`](#TopoOptAnalysisSettings.ConvergenceAccuracy)                           | Gets or sets the ConvergenceAccuracy.                         |
+| [`DataModelObjectCategory`](#TopoOptAnalysisSettings.DataModelObjectCategory)                   | Gets the current DataModelObject’s category.                  |
+| [`DeleteUnneededFiles`](#TopoOptAnalysisSettings.DeleteUnneededFiles)                           | Gets or sets the DeleteUnneededFiles.                         |
 | [`ExportDesignProperties`](#TopoOptAnalysisSettings.ExportDesignProperties)                     | Gets or sets the ExportDesignProperties.                      |
 | [`ExportDesignPropertiesFileFormat`](#TopoOptAnalysisSettings.ExportDesignPropertiesFileFormat) | Gets or sets the ExportDesignPropertiesFileFormat.            |
-| [`InternalObject`](#id0)                                                                        | Gets the internal object. For advanced usage only.            |
-| [`ConvergenceAccuracy`](#TopoOptAnalysisSettings.ConvergenceAccuracy)                           | Gets or sets the ConvergenceAccuracy.                         |
-| [`TopoOptInitialDensity`](#TopoOptAnalysisSettings.TopoOptInitialDensity)                       | Gets or sets the TopoOptInitialDensity.                       |
+| [`ExportKnockdownFilePath`](#TopoOptAnalysisSettings.ExportKnockdownFilePath)                   | Gets or sets the ExportKnockdownFilePath.                     |
+| [`Figures`](#TopoOptAnalysisSettings.Figures)                                                   | Gets the list of associated figures.                          |
+| [`Filter`](#TopoOptAnalysisSettings.Filter)                                                     | Gets or sets the Filter.                                      |
+| [`FutureAnalysis`](#TopoOptAnalysisSettings.FutureAnalysis)                                     | Gets or sets the FutureAnalysis.                              |
+| [`Graph`](#TopoOptAnalysisSettings.Graph)                                                       | Graph property.                                               |
+| [`Images`](#TopoOptAnalysisSettings.Images)                                                     | Gets the list of associated images.                           |
+| [`InternalObject`](#TopoOptAnalysisSettings.InternalObject)                                     | Gets the internal object. For advanced usage only.            |
 | [`MaxNumOfIntermediateFiles`](#TopoOptAnalysisSettings.MaxNumOfIntermediateFiles)               | Gets or sets the MaxNumOfIntermediateFiles.                   |
 | [`MaximumNumberOfIterations`](#TopoOptAnalysisSettings.MaximumNumberOfIterations)               | Gets or sets the MaximumNumberOfIterations.                   |
 | [`MinimumNormalizedDensity`](#TopoOptAnalysisSettings.MinimumNormalizedDensity)                 | Gets or sets the MinimumNormalizedDensity.                    |
-| [`StoreResultsAtValue`](#TopoOptAnalysisSettings.StoreResultsAtValue)                           | Gets or sets the StoreResultsAtValue.                         |
-| [`PenaltyFactor`](#TopoOptAnalysisSettings.PenaltyFactor)                                       | Gets or sets the PenaltyFactor.                               |
-| [`Algorithm`](#TopoOptAnalysisSettings.Algorithm)                                               | Gets or sets the Algorithm.                                   |
-| [`StoreResultsAt`](#TopoOptAnalysisSettings.StoreResultsAt)                                     | Gets or sets the StoreResultsAt.                              |
-| [`FutureAnalysis`](#TopoOptAnalysisSettings.FutureAnalysis)                                     | Gets or sets the FutureAnalysis.                              |
 | [`MultiOptimTypeStrategy`](#TopoOptAnalysisSettings.MultiOptimTypeStrategy)                     | Gets or sets the MultiOptimTypeStrategy.                      |
 | [`OptimizationOutputLog`](#TopoOptAnalysisSettings.OptimizationOutputLog)                       | Gets or sets the OptimizationOutputLog.                       |
+| [`PenaltyFactor`](#TopoOptAnalysisSettings.PenaltyFactor)                                       | Gets or sets the PenaltyFactor.                               |
+| [`Properties`](#TopoOptAnalysisSettings.Properties)                                             | Gets the list of properties for this object.                  |
 | [`RegionOfAMOverhangConstraint`](#TopoOptAnalysisSettings.RegionOfAMOverhangConstraint)         | Gets or sets the RegionOfAMOverhangConstraint.                |
 | [`RegionOfManufacturingConstraint`](#TopoOptAnalysisSettings.RegionOfManufacturingConstraint)   | Gets or sets the RegionOfManufacturingConstraint.             |
 | [`RegionOfMinMemberSize`](#TopoOptAnalysisSettings.RegionOfMinMemberSize)                       | Gets or sets the RegionOfMinMemberSize.                       |
-| [`SolverUnitSystem`](#TopoOptAnalysisSettings.SolverUnitSystem)                                 | Gets or sets the SolverUnitSystem.                            |
-| [`SolverType`](#TopoOptAnalysisSettings.SolverType)                                             | Gets or sets the SolverType.                                  |
-| [`SolverUnits`](#TopoOptAnalysisSettings.SolverUnits)                                           | Gets or sets the SolverUnits.                                 |
-| [`Filter`](#TopoOptAnalysisSettings.Filter)                                                     | Gets or sets the Filter.                                      |
-| [`DeleteUnneededFiles`](#TopoOptAnalysisSettings.DeleteUnneededFiles)                           | Gets or sets the DeleteUnneededFiles.                         |
-| [`ExportKnockdownFilePath`](#TopoOptAnalysisSettings.ExportKnockdownFilePath)                   | Gets or sets the ExportKnockdownFilePath.                     |
 | [`SaveMAPDLDB`](#TopoOptAnalysisSettings.SaveMAPDLDB)                                           | Gets or sets the SaveMAPDLDB.                                 |
-| [`DataModelObjectCategory`](#TopoOptAnalysisSettings.DataModelObjectCategory)                   | Gets the current DataModelObject's category.                  |
-| [`Graph`](#TopoOptAnalysisSettings.Graph)                                                       | Graph property.                                               |
 | [`ScratchSolverFilesDirectory`](#TopoOptAnalysisSettings.ScratchSolverFilesDirectory)           | Gets the ScratchSolverFilesDirectory.                         |
 | [`SolverFilesDirectory`](#TopoOptAnalysisSettings.SolverFilesDirectory)                         | Gets the SolverFilesDirectory.                                |
-| [`Children`](#TopoOptAnalysisSettings.Children)                                                 | Gets the list of children.                                    |
-| [`Comments`](#TopoOptAnalysisSettings.Comments)                                                 | Gets the list of associated comments.                         |
-| [`Figures`](#TopoOptAnalysisSettings.Figures)                                                   | Gets the list of associated figures.                          |
-| [`Images`](#TopoOptAnalysisSettings.Images)                                                     | Gets the list of associated images.                           |
-| [`InternalObject`](#id0)                                                                        | Gets the internal object. For advanced usage only.            |
-| [`Properties`](#TopoOptAnalysisSettings.Properties)                                             | Gets the list of properties for this object.                  |
+| [`SolverType`](#TopoOptAnalysisSettings.SolverType)                                             | Gets or sets the SolverType.                                  |
+| [`SolverUnitSystem`](#TopoOptAnalysisSettings.SolverUnitSystem)                                 | Gets or sets the SolverUnitSystem.                            |
+| [`SolverUnits`](#TopoOptAnalysisSettings.SolverUnits)                                           | Gets or sets the SolverUnits.                                 |
+| [`StoreResultsAt`](#TopoOptAnalysisSettings.StoreResultsAt)                                     | Gets or sets the StoreResultsAt.                              |
+| [`StoreResultsAtValue`](#TopoOptAnalysisSettings.StoreResultsAtValue)                           | Gets or sets the StoreResultsAtValue.                         |
+| [`TopoOptInitialDensity`](#TopoOptAnalysisSettings.TopoOptInitialDensity)                       | Gets or sets the TopoOptInitialDensity.                       |
 | [`VisibleProperties`](#TopoOptAnalysisSettings.VisibleProperties)                               | Gets the list of properties that are visible for this object. |
 
 <a id="property-detail"></a>
 
 ## Property detail
 
-<a id="TopoOptAnalysisSettings.ExportDesignProperties"></a>
+<a id="TopoOptAnalysisSettings.Algorithm"></a>
 
-### *property* TopoOptAnalysisSettings.ExportDesignProperties *: [Ansys.Mechanical.DataModel.Enums.TopoOptimizationExportDesignProperties](../../../../../../v241/Ansys/Mechanical/DataModel/Enums/TopoOptimizationExportDesignProperties.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.TopoOptimizationExportDesignProperties) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* TopoOptAnalysisSettings.Algorithm *: [Ansys.Mechanical.DataModel.Enums.AlgorithmType](../../../../Mechanical/DataModel/Enums/AlgorithmType.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.AlgorithmType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets or sets the ExportDesignProperties.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="TopoOptAnalysisSettings.ExportDesignPropertiesFileFormat"></a>
-
-### *property* TopoOptAnalysisSettings.ExportDesignPropertiesFileFormat *: [Ansys.Mechanical.DataModel.Enums.TopoOptimizationExportDesignPropertiesFileFormat](../../../../../../v241/Ansys/Mechanical/DataModel/Enums/TopoOptimizationExportDesignPropertiesFileFormat.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.TopoOptimizationExportDesignPropertiesFileFormat) | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the ExportDesignPropertiesFileFormat.
+Gets or sets the Algorithm.
 
 <!-- !! processed by numpydoc !! -->
 
-<a id="TopoOptAnalysisSettings.InternalObject"></a>
+<a id="TopoOptAnalysisSettings.Children"></a>
 
-### *property* TopoOptAnalysisSettings.InternalObject *: Ansys.Common.Interop.DSObjectsAuto.IDSAnalysisSettings | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* TopoOptAnalysisSettings.Children *: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets the internal object. For advanced usage only.
+Gets the list of children.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="TopoOptAnalysisSettings.Comments"></a>
+
+### *property* TopoOptAnalysisSettings.Comments *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Comment](../../../../../../v241/Ansys/ACT/Automation/Mechanical/Comment.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets the list of associated comments.
 
 <!-- !! processed by numpydoc !! -->
 
@@ -112,11 +110,91 @@ Gets or sets the ConvergenceAccuracy.
 
 <!-- !! processed by numpydoc !! -->
 
-<a id="TopoOptAnalysisSettings.TopoOptInitialDensity"></a>
+<a id="TopoOptAnalysisSettings.DataModelObjectCategory"></a>
 
-### *property* TopoOptAnalysisSettings.TopoOptInitialDensity *: System.Double | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* TopoOptAnalysisSettings.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets or sets the TopoOptInitialDensity.
+Gets the current DataModelObject’s category.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="TopoOptAnalysisSettings.DeleteUnneededFiles"></a>
+
+### *property* TopoOptAnalysisSettings.DeleteUnneededFiles *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the DeleteUnneededFiles.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="TopoOptAnalysisSettings.ExportDesignProperties"></a>
+
+### *property* TopoOptAnalysisSettings.ExportDesignProperties *: [Ansys.Mechanical.DataModel.Enums.TopoOptimizationExportDesignProperties](../../../../Mechanical/DataModel/Enums/TopoOptimizationExportDesignProperties.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.TopoOptimizationExportDesignProperties) | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the ExportDesignProperties.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="TopoOptAnalysisSettings.ExportDesignPropertiesFileFormat"></a>
+
+### *property* TopoOptAnalysisSettings.ExportDesignPropertiesFileFormat *: [Ansys.Mechanical.DataModel.Enums.TopoOptimizationExportDesignPropertiesFileFormat](../../../../Mechanical/DataModel/Enums/TopoOptimizationExportDesignPropertiesFileFormat.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.TopoOptimizationExportDesignPropertiesFileFormat) | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the ExportDesignPropertiesFileFormat.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="TopoOptAnalysisSettings.ExportKnockdownFilePath"></a>
+
+### *property* TopoOptAnalysisSettings.ExportKnockdownFilePath *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the ExportKnockdownFilePath.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="TopoOptAnalysisSettings.Figures"></a>
+
+### *property* TopoOptAnalysisSettings.Figures *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Figure](../../../../../../v241/Ansys/ACT/Automation/Mechanical/Figure.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets the list of associated figures.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="TopoOptAnalysisSettings.Filter"></a>
+
+### *property* TopoOptAnalysisSettings.Filter *: [Ansys.Mechanical.DataModel.Enums.TopoOptimizationDensityFilter](../../../../Mechanical/DataModel/Enums/TopoOptimizationDensityFilter.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.TopoOptimizationDensityFilter) | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the Filter.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="TopoOptAnalysisSettings.FutureAnalysis"></a>
+
+### *property* TopoOptAnalysisSettings.FutureAnalysis *: [Ansys.Mechanical.DataModel.Enums.FutureIntentType](../../../../Mechanical/DataModel/Enums/FutureIntentType.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.FutureIntentType) | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the FutureAnalysis.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="TopoOptAnalysisSettings.Graph"></a>
+
+### *property* TopoOptAnalysisSettings.Graph *: [Ansys.Mechanical.Graphics.AnalysisSettingsGraph](../../../../Mechanical/Graphics/AnalysisSettingsGraph.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.Graphics.AnalysisSettingsGraph) | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Graph property.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="TopoOptAnalysisSettings.Images"></a>
+
+### *property* TopoOptAnalysisSettings.Images *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Image](../../../../../../v241/Ansys/ACT/Automation/Mechanical/Image.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets the list of associated images.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="TopoOptAnalysisSettings.InternalObject"></a>
+
+### *property* TopoOptAnalysisSettings.InternalObject *: Ansys.Common.Interop.DSObjectsAuto.IDSAnalysisSettings | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets the internal object. For advanced usage only.
 
 <!-- !! processed by numpydoc !! -->
 
@@ -144,11 +222,19 @@ Gets or sets the MinimumNormalizedDensity.
 
 <!-- !! processed by numpydoc !! -->
 
-<a id="TopoOptAnalysisSettings.StoreResultsAtValue"></a>
+<a id="TopoOptAnalysisSettings.MultiOptimTypeStrategy"></a>
 
-### *property* TopoOptAnalysisSettings.StoreResultsAtValue *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* TopoOptAnalysisSettings.MultiOptimTypeStrategy *: [Ansys.Mechanical.DataModel.Enums.MultiOptimTypeStrategyType](../../../../Mechanical/DataModel/Enums/MultiOptimTypeStrategyType.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.MultiOptimTypeStrategyType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets or sets the StoreResultsAtValue.
+Gets or sets the MultiOptimTypeStrategy.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="TopoOptAnalysisSettings.OptimizationOutputLog"></a>
+
+### *property* TopoOptAnalysisSettings.OptimizationOutputLog *: [Ansys.Mechanical.DataModel.Enums.TopoOptimizationOutputLog](../../../../Mechanical/DataModel/Enums/TopoOptimizationOutputLog.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.TopoOptimizationOutputLog) | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the OptimizationOutputLog.
 
 <!-- !! processed by numpydoc !! -->
 
@@ -160,49 +246,17 @@ Gets or sets the PenaltyFactor.
 
 <!-- !! processed by numpydoc !! -->
 
-<a id="TopoOptAnalysisSettings.Algorithm"></a>
+<a id="TopoOptAnalysisSettings.Properties"></a>
 
-### *property* TopoOptAnalysisSettings.Algorithm *: [Ansys.Mechanical.DataModel.Enums.AlgorithmType](../../../../../../v241/Ansys/Mechanical/DataModel/Enums/AlgorithmType.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.AlgorithmType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* TopoOptAnalysisSettings.Properties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets or sets the Algorithm.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="TopoOptAnalysisSettings.StoreResultsAt"></a>
-
-### *property* TopoOptAnalysisSettings.StoreResultsAt *: [Ansys.Mechanical.DataModel.Enums.IterationOptions](../../../../../../v241/Ansys/Mechanical/DataModel/Enums/IterationOptions.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.IterationOptions) | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the StoreResultsAt.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="TopoOptAnalysisSettings.FutureAnalysis"></a>
-
-### *property* TopoOptAnalysisSettings.FutureAnalysis *: [Ansys.Mechanical.DataModel.Enums.FutureIntentType](../../../../../../v241/Ansys/Mechanical/DataModel/Enums/FutureIntentType.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.FutureIntentType) | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the FutureAnalysis.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="TopoOptAnalysisSettings.MultiOptimTypeStrategy"></a>
-
-### *property* TopoOptAnalysisSettings.MultiOptimTypeStrategy *: [Ansys.Mechanical.DataModel.Enums.MultiOptimTypeStrategyType](../../../../../../v241/Ansys/Mechanical/DataModel/Enums/MultiOptimTypeStrategyType.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.MultiOptimTypeStrategyType) | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the MultiOptimTypeStrategy.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="TopoOptAnalysisSettings.OptimizationOutputLog"></a>
-
-### *property* TopoOptAnalysisSettings.OptimizationOutputLog *: [Ansys.Mechanical.DataModel.Enums.TopoOptimizationOutputLog](../../../../../../v241/Ansys/Mechanical/DataModel/Enums/TopoOptimizationOutputLog.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.TopoOptimizationOutputLog) | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the OptimizationOutputLog.
+Gets the list of properties for this object.
 
 <!-- !! processed by numpydoc !! -->
 
 <a id="TopoOptAnalysisSettings.RegionOfAMOverhangConstraint"></a>
 
-### *property* TopoOptAnalysisSettings.RegionOfAMOverhangConstraint *: [Ansys.Mechanical.DataModel.Enums.ExclusionParticipantType](../../../../../../v241/Ansys/Mechanical/DataModel/Enums/ExclusionParticipantType.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.ExclusionParticipantType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* TopoOptAnalysisSettings.RegionOfAMOverhangConstraint *: [Ansys.Mechanical.DataModel.Enums.ExclusionParticipantType](../../../../Mechanical/DataModel/Enums/ExclusionParticipantType.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.ExclusionParticipantType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the RegionOfAMOverhangConstraint.
 
@@ -210,7 +264,7 @@ Gets or sets the RegionOfAMOverhangConstraint.
 
 <a id="TopoOptAnalysisSettings.RegionOfManufacturingConstraint"></a>
 
-### *property* TopoOptAnalysisSettings.RegionOfManufacturingConstraint *: [Ansys.Mechanical.DataModel.Enums.ExclusionParticipantType](../../../../../../v241/Ansys/Mechanical/DataModel/Enums/ExclusionParticipantType.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.ExclusionParticipantType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* TopoOptAnalysisSettings.RegionOfManufacturingConstraint *: [Ansys.Mechanical.DataModel.Enums.ExclusionParticipantType](../../../../Mechanical/DataModel/Enums/ExclusionParticipantType.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.ExclusionParticipantType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the RegionOfManufacturingConstraint.
 
@@ -218,57 +272,9 @@ Gets or sets the RegionOfManufacturingConstraint.
 
 <a id="TopoOptAnalysisSettings.RegionOfMinMemberSize"></a>
 
-### *property* TopoOptAnalysisSettings.RegionOfMinMemberSize *: [Ansys.Mechanical.DataModel.Enums.ExclusionParticipantType](../../../../../../v241/Ansys/Mechanical/DataModel/Enums/ExclusionParticipantType.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.ExclusionParticipantType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* TopoOptAnalysisSettings.RegionOfMinMemberSize *: [Ansys.Mechanical.DataModel.Enums.ExclusionParticipantType](../../../../Mechanical/DataModel/Enums/ExclusionParticipantType.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.ExclusionParticipantType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the RegionOfMinMemberSize.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="TopoOptAnalysisSettings.SolverUnitSystem"></a>
-
-### *property* TopoOptAnalysisSettings.SolverUnitSystem *: [Ansys.Mechanical.DataModel.Enums.WBUnitSystemType](../../../../../../v241/Ansys/Mechanical/DataModel/Enums/WBUnitSystemType.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.WBUnitSystemType) | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the SolverUnitSystem.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="TopoOptAnalysisSettings.SolverType"></a>
-
-### *property* TopoOptAnalysisSettings.SolverType *: [Ansys.Mechanical.DataModel.Enums.OptimizationSolverType](../../../../../../v241/Ansys/Mechanical/DataModel/Enums/OptimizationSolverType.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.OptimizationSolverType) | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the SolverType.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="TopoOptAnalysisSettings.SolverUnits"></a>
-
-### *property* TopoOptAnalysisSettings.SolverUnits *: [Ansys.Mechanical.DataModel.Enums.SolverUnitsControlType](../../../../../../v241/Ansys/Mechanical/DataModel/Enums/SolverUnitsControlType.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.SolverUnitsControlType) | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the SolverUnits.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="TopoOptAnalysisSettings.Filter"></a>
-
-### *property* TopoOptAnalysisSettings.Filter *: [Ansys.Mechanical.DataModel.Enums.TopoOptimizationDensityFilter](../../../../../../v241/Ansys/Mechanical/DataModel/Enums/TopoOptimizationDensityFilter.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.TopoOptimizationDensityFilter) | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the Filter.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="TopoOptAnalysisSettings.DeleteUnneededFiles"></a>
-
-### *property* TopoOptAnalysisSettings.DeleteUnneededFiles *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the DeleteUnneededFiles.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="TopoOptAnalysisSettings.ExportKnockdownFilePath"></a>
-
-### *property* TopoOptAnalysisSettings.ExportKnockdownFilePath *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the ExportKnockdownFilePath.
 
 <!-- !! processed by numpydoc !! -->
 
@@ -277,22 +283,6 @@ Gets or sets the ExportKnockdownFilePath.
 ### *property* TopoOptAnalysisSettings.SaveMAPDLDB *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the SaveMAPDLDB.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="TopoOptAnalysisSettings.DataModelObjectCategory"></a>
-
-### *property* TopoOptAnalysisSettings.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../../v241/Ansys/Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets the current DataModelObject's category.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="TopoOptAnalysisSettings.Graph"></a>
-
-### *property* TopoOptAnalysisSettings.Graph *: [Ansys.Mechanical.Graphics.AnalysisSettingsGraph](../../../../../../v241/Ansys/Mechanical/Graphics/AnalysisSettingsGraph.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.Graphics.AnalysisSettingsGraph) | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Graph property.
 
 <!-- !! processed by numpydoc !! -->
 
@@ -312,51 +302,51 @@ Gets the SolverFilesDirectory.
 
 <!-- !! processed by numpydoc !! -->
 
-<a id="TopoOptAnalysisSettings.Children"></a>
+<a id="TopoOptAnalysisSettings.SolverType"></a>
 
-### *property* TopoOptAnalysisSettings.Children *: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* TopoOptAnalysisSettings.SolverType *: [Ansys.Mechanical.DataModel.Enums.OptimizationSolverType](../../../../Mechanical/DataModel/Enums/OptimizationSolverType.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.OptimizationSolverType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets the list of children.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="TopoOptAnalysisSettings.Comments"></a>
-
-### *property* TopoOptAnalysisSettings.Comments *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Comment](../../../../../../v241/Ansys/ACT/Automation/Mechanical/Comment.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets the list of associated comments.
+Gets or sets the SolverType.
 
 <!-- !! processed by numpydoc !! -->
 
-<a id="TopoOptAnalysisSettings.Figures"></a>
+<a id="TopoOptAnalysisSettings.SolverUnitSystem"></a>
 
-### *property* TopoOptAnalysisSettings.Figures *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Figure](../../../../../../v241/Ansys/ACT/Automation/Mechanical/Figure.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* TopoOptAnalysisSettings.SolverUnitSystem *: [Ansys.Mechanical.DataModel.Enums.WBUnitSystemType](../../../../Mechanical/DataModel/Enums/WBUnitSystemType.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.WBUnitSystemType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets the list of associated figures.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="TopoOptAnalysisSettings.Images"></a>
-
-### *property* TopoOptAnalysisSettings.Images *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Image](../../../../../../v241/Ansys/ACT/Automation/Mechanical/Image.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets the list of associated images.
+Gets or sets the SolverUnitSystem.
 
 <!-- !! processed by numpydoc !! -->
 
-<a id="id0"></a>
+<a id="TopoOptAnalysisSettings.SolverUnits"></a>
 
-### *property* TopoOptAnalysisSettings.InternalObject *: System.Object | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* TopoOptAnalysisSettings.SolverUnits *: [Ansys.Mechanical.DataModel.Enums.SolverUnitsControlType](../../../../Mechanical/DataModel/Enums/SolverUnitsControlType.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.SolverUnitsControlType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets the internal object. For advanced usage only.
+Gets or sets the SolverUnits.
 
 <!-- !! processed by numpydoc !! -->
 
-<a id="TopoOptAnalysisSettings.Properties"></a>
+<a id="TopoOptAnalysisSettings.StoreResultsAt"></a>
 
-### *property* TopoOptAnalysisSettings.Properties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* TopoOptAnalysisSettings.StoreResultsAt *: [Ansys.Mechanical.DataModel.Enums.IterationOptions](../../../../Mechanical/DataModel/Enums/IterationOptions.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.IterationOptions) | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets the list of properties for this object.
+Gets or sets the StoreResultsAt.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="TopoOptAnalysisSettings.StoreResultsAtValue"></a>
+
+### *property* TopoOptAnalysisSettings.StoreResultsAtValue *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the StoreResultsAtValue.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="TopoOptAnalysisSettings.TopoOptInitialDensity"></a>
+
+### *property* TopoOptAnalysisSettings.TopoOptInitialDensity *: System.Double | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the TopoOptInitialDensity.
 
 <!-- !! processed by numpydoc !! -->
 
@@ -372,27 +362,11 @@ Gets the list of properties that are visible for this object.
 
 ## Method detail
 
-<a id="TopoOptAnalysisSettings.DeleteAllRestartPoints"></a>
+<a id="TopoOptAnalysisSettings.Activate"></a>
 
-### TopoOptAnalysisSettings.DeleteAllRestartPoints()
+### TopoOptAnalysisSettings.Activate()
 
-DeleteAllRestartPoints method.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="TopoOptAnalysisSettings.GetChildren"></a>
-
-### TopoOptAnalysisSettings.GetChildren(recurses: System.Boolean, children: System.Collections.Generic.IList[ChildrenType])
-
-Gets the list of children, filtered by type.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="id1"></a>
-
-### TopoOptAnalysisSettings.GetChildren(category: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../../v241/Ansys/Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory), recurses: System.Boolean, children: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject])
-
-Gets the list of children, filtered by type.
+Activate the current object.
 
 <!-- !! processed by numpydoc !! -->
 
@@ -416,17 +390,11 @@ Creates a new child Figure.
 
 ### TopoOptAnalysisSettings.AddImage(filePath: System.String)
 
+```text
 Creates a new child Image.
 If a filePath is provided, the image will be loaded from that file,
 if not, the image will be a screen capture of the Geometry window.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="TopoOptAnalysisSettings.Activate"></a>
-
-### TopoOptAnalysisSettings.Activate()
-
-Activate the current object.
+```
 
 <!-- !! processed by numpydoc !! -->
 
@@ -438,11 +406,43 @@ Copies all visible properties from this object to another.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="TopoOptAnalysisSettings.CreateParameter"></a>
+
+### TopoOptAnalysisSettings.CreateParameter(propName: System.String)
+
+Creates a new parameter for a Property.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="TopoOptAnalysisSettings.DeleteAllRestartPoints"></a>
+
+### TopoOptAnalysisSettings.DeleteAllRestartPoints()
+
+DeleteAllRestartPoints method.
+
+<!-- !! processed by numpydoc !! -->
+
 <a id="TopoOptAnalysisSettings.Duplicate"></a>
 
 ### TopoOptAnalysisSettings.Duplicate()
 
 Creates a copy of the current DataModelObject.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="TopoOptAnalysisSettings.GetChildren"></a>
+
+### TopoOptAnalysisSettings.GetChildren(recurses: System.Boolean, children: System.Collections.Generic.IList[ChildrenType])
+
+Gets the list of children, filtered by type.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="TopoOptAnalysisSettings.GetParameter"></a>
+
+### TopoOptAnalysisSettings.GetParameter(propName: System.String)
+
+Gets the parameter corresponding to the given property.
 
 <!-- !! processed by numpydoc !! -->
 
@@ -462,36 +462,22 @@ Run the GroupSimilarObjects action.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="TopoOptAnalysisSettings.PropertyByAPIName"></a>
+
+### TopoOptAnalysisSettings.PropertyByAPIName(name: System.String)
+
+```text
+Get a property by its API name.
+If multiple properties have the same API Name, only the first property with that name will be returned.
+```
+
+<!-- !! processed by numpydoc !! -->
+
 <a id="TopoOptAnalysisSettings.PropertyByName"></a>
 
 ### TopoOptAnalysisSettings.PropertyByName(name: System.String)
 
 Get a property by its unique name.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="TopoOptAnalysisSettings.PropertyByAPIName"></a>
-
-### TopoOptAnalysisSettings.PropertyByAPIName(name: System.String)
-
-Get a property by its API name.
-If multiple properties have the same API Name, only the first property with that name will be returned.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="TopoOptAnalysisSettings.CreateParameter"></a>
-
-### TopoOptAnalysisSettings.CreateParameter(propName: System.String)
-
-Creates a new parameter for a Property.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="TopoOptAnalysisSettings.GetParameter"></a>
-
-### TopoOptAnalysisSettings.GetParameter(propName: System.String)
-
-Gets the parameter corresponding to the given property.
 
 <!-- !! processed by numpydoc !! -->
 

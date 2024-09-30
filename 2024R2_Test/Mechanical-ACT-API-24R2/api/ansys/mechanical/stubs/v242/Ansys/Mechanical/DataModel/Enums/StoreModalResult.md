@@ -1,6 +1,6 @@
 # `StoreModalResult`
 
-
+<a id="ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.StoreModalResult"></a>
 
 #### *class* ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.StoreModalResult
 
@@ -17,7 +17,7 @@ Specifies the StoreModalResult.
 ### Attributes
 
 | Name |
-| -------------------------------------------------------------- |
+| -------------------------------------------------------------------------------------------------------------------------------------- |
 | [`ForFutureAnalysis`](#StoreModalResult.ForFutureAnalysis) |
 | [`No`](#StoreModalResult.No) |
 | [`ProgramControlled`](#StoreModalResult.ProgramControlled) |

@@ -1,6 +1,6 @@
 # `CylindricalFacesOption`
 
-
+<a id="ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.CylindricalFacesOption"></a>
 
 #### *class* ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.CylindricalFacesOption
 
@@ -17,22 +17,22 @@ Specifies the CylindricalFacesOption.
 ### Attributes
 
 | Name |
-| ------------------------------------------------ |
-| [`Include`](#CylindricalFacesOption.Include) |
+| ------------------------------------------------------------------------------------------------------------------------------ |
 | [`Exclude`](#CylindricalFacesOption.Exclude) |
+| [`Include`](#CylindricalFacesOption.Include) |
 | [`Only`](#CylindricalFacesOption.Only) |
 
 <a id="attribute-detail"></a>
 
 ## Attribute detail
 
-<a id="CylindricalFacesOption.Include"></a>
-
-### CylindricalFacesOption.Include *= 0*
-
 <a id="CylindricalFacesOption.Exclude"></a>
 
 ### CylindricalFacesOption.Exclude *= 1*
+
+<a id="CylindricalFacesOption.Include"></a>
+
+### CylindricalFacesOption.Include *= 0*
 
 <a id="CylindricalFacesOption.Only"></a>
 

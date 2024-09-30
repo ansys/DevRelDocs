@@ -1,6 +1,6 @@
 # `PullOutDirectionType`
 
-
+<a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.PullOutDirectionType"></a>
 
 #### *class* ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.PullOutDirectionType
 
@@ -17,14 +17,18 @@ Specifies the PullOutDirectionType.
 ### Attributes
 
 | Name |
-| ---------------------------------------------------------------------------------------------------------------------------------------- |
-| [`BothDirections`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/PullOutDirectionType.md#PullOutDirectionType.BothDirections) |
-| [`OppositeToAxis`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/PullOutDirectionType.md#PullOutDirectionType.OppositeToAxis) |
-| [`AlongAxis`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/PullOutDirectionType.md#PullOutDirectionType.AlongAxis) |
+| ---------------------------------------------------------- |
+| [`AlongAxis`](#PullOutDirectionType.AlongAxis) |
+| [`BothDirections`](#PullOutDirectionType.BothDirections) |
+| [`OppositeToAxis`](#PullOutDirectionType.OppositeToAxis) |
 
 <a id="attribute-detail"></a>
 
 ## Attribute detail
+
+<a id="PullOutDirectionType.AlongAxis"></a>
+
+### PullOutDirectionType.AlongAxis *= 0*
 
 <a id="PullOutDirectionType.BothDirections"></a>
 
@@ -33,9 +37,5 @@ Specifies the PullOutDirectionType.
 <a id="PullOutDirectionType.OppositeToAxis"></a>
 
 ### PullOutDirectionType.OppositeToAxis *= 1*
-
-<a id="PullOutDirectionType.AlongAxis"></a>
-
-### PullOutDirectionType.AlongAxis *= 0*
 
 

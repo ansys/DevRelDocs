@@ -1,6 +1,6 @@
 # `CrackGrowthOption`
 
-
+<a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.CrackGrowthOption"></a>
 
 #### *class* ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.CrackGrowthOption
 
@@ -17,9 +17,9 @@ Specifies the CrackGrowthOption.
 ### Attributes
 
 | Name |
-| -------------------------------------------------------------------------------------------------------------------- |
-| [`Fatigue`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/CrackGrowthOption.md#CrackGrowthOption.Fatigue) |
-| [`Static`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/CrackGrowthOption.md#CrackGrowthOption.Static) |
+| ------------------------------------------- |
+| [`Fatigue`](#CrackGrowthOption.Fatigue) |
+| [`Static`](#CrackGrowthOption.Static) |
 
 <a id="attribute-detail"></a>
 

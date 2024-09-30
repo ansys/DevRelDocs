@@ -1,6 +1,6 @@
 # `RemotePointDOFSelectionType`
 
-
+<a id="ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.RemotePointDOFSelectionType"></a>
 
 #### *class* ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.RemotePointDOFSelectionType
 
@@ -17,7 +17,7 @@ Specifies the RemotePointDOFSelectionType.
 ### Attributes
 
 | Name |
-| ----------------------------------------------------------------------- |
+| ---------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | [`Manual`](#RemotePointDOFSelectionType.Manual) |
 | [`ProgramControlled`](#RemotePointDOFSelectionType.ProgramControlled) |
 

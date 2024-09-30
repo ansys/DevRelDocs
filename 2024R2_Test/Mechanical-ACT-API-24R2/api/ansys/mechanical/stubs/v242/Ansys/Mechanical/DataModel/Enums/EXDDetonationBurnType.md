@@ -1,6 +1,6 @@
 # `EXDDetonationBurnType`
 
-
+<a id="ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.EXDDetonationBurnType"></a>
 
 #### *class* ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.EXDDetonationBurnType
 
@@ -15,25 +15,25 @@ Bases: [`enum.Enum`](https://docs.python.org/3/library/enum.html#enum.Enum)
 ### Attributes
 
 | Name |
-| ------------------------------------------------------------------- |
-| [`ProgramControlled`](#EXDDetonationBurnType.ProgramControlled) |
-| [`Indirect`](#EXDDetonationBurnType.Indirect) |
+| ---------------------------------------------------------------------------------------------------------------------------------------------- |
 | [`Direct`](#EXDDetonationBurnType.Direct) |
+| [`Indirect`](#EXDDetonationBurnType.Indirect) |
+| [`ProgramControlled`](#EXDDetonationBurnType.ProgramControlled) |
 
 <a id="attribute-detail"></a>
 
 ## Attribute detail
 
-<a id="EXDDetonationBurnType.ProgramControlled"></a>
+<a id="EXDDetonationBurnType.Direct"></a>
 
-### EXDDetonationBurnType.ProgramControlled *= 0*
+### EXDDetonationBurnType.Direct *= 2*
 
 <a id="EXDDetonationBurnType.Indirect"></a>
 
 ### EXDDetonationBurnType.Indirect *= 1*
 
-<a id="EXDDetonationBurnType.Direct"></a>
+<a id="EXDDetonationBurnType.ProgramControlled"></a>
 
-### EXDDetonationBurnType.Direct *= 2*
+### EXDDetonationBurnType.ProgramControlled *= 0*
 
 

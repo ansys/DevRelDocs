@@ -1,6 +1,6 @@
 # `SweepAxisymmetricFallBackMeshType`
 
-
+<a id="ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.SweepAxisymmetricFallBackMeshType"></a>
 
 #### *class* ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.SweepAxisymmetricFallBackMeshType
 
@@ -17,25 +17,25 @@ Specifies the SweepAxisymmetricFallBackMeshType for Sweep method with Axisymmetr
 ### Attributes
 
 | Name |
-| ------------------------------------------------------------------------------- |
-| [`ProgramControlled`](#SweepAxisymmetricFallBackMeshType.ProgramControlled) |
-| [`None_`](#SweepAxisymmetricFallBackMeshType.None_) |
+| ----------------------------------------------------------------------------- |
 | [`MeshTypeTet`](#SweepAxisymmetricFallBackMeshType.MeshTypeTet) |
+| [`None_`](#SweepAxisymmetricFallBackMeshType.None_) |
+| [`ProgramControlled`](#SweepAxisymmetricFallBackMeshType.ProgramControlled) |
 
 <a id="attribute-detail"></a>
 
 ## Attribute detail
 
-<a id="SweepAxisymmetricFallBackMeshType.ProgramControlled"></a>
+<a id="SweepAxisymmetricFallBackMeshType.MeshTypeTet"></a>
 
-### SweepAxisymmetricFallBackMeshType.ProgramControlled *= 0*
+### SweepAxisymmetricFallBackMeshType.MeshTypeTet *= 2*
 
 <a id="SweepAxisymmetricFallBackMeshType.None_"></a>
 
 ### SweepAxisymmetricFallBackMeshType.None_ *= 1*
 
-<a id="SweepAxisymmetricFallBackMeshType.MeshTypeTet"></a>
+<a id="SweepAxisymmetricFallBackMeshType.ProgramControlled"></a>
 
-### SweepAxisymmetricFallBackMeshType.MeshTypeTet *= 2*
+### SweepAxisymmetricFallBackMeshType.ProgramControlled *= 0*
 
 

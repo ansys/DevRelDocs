@@ -1,6 +1,6 @@
 # `ChartModalType`
 
-
+<a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.ChartModalType"></a>
 
 #### *class* ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.ChartModalType
 
@@ -17,9 +17,9 @@ Specifies the ChartModalType.
 ### Attributes
 
 | Name |
-| ------------------------------------------------------------------------------------------------------------------ |
-| [`Histogram`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/ChartModalType.md#ChartModalType.Histogram) |
-| [`RootLocus`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/ChartModalType.md#ChartModalType.RootLocus) |
+| -------------------------------------------- |
+| [`Histogram`](#ChartModalType.Histogram) |
+| [`RootLocus`](#ChartModalType.RootLocus) |
 
 <a id="attribute-detail"></a>
 

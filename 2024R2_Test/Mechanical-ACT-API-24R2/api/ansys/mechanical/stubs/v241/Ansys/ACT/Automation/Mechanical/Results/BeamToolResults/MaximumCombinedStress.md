@@ -1,6 +1,6 @@
 # `MaximumCombinedStress`
 
-
+<a id="ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Results.BeamToolResults.MaximumCombinedStress"></a>
 
 #### *class* ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Results.BeamToolResults.MaximumCombinedStress
 
@@ -17,209 +17,151 @@ Defines a MaximumCombinedStress.
 ### Methods
 
 | Name | Description |
-|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------|
-| [`ClearGeneratedData`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/BeamToolResults/MaximumCombinedStress.md#MaximumCombinedStress.ClearGeneratedData)           | Run the ClearGeneratedData action.                                                |
-| [`EvaluateAllResults`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/BeamToolResults/MaximumCombinedStress.md#MaximumCombinedStress.EvaluateAllResults)           | Run the EvaluateAllResults action.                                                |
-| [`FetchRemoteResults`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/BeamToolResults/MaximumCombinedStress.md#MaximumCombinedStress.FetchRemoteResults)           | Run the FetchRemoteResult action.                                                 |
-| [`ExportToTextFile`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/BeamToolResults/MaximumCombinedStress.md#MaximumCombinedStress.ExportToTextFile)               | Run the ExportToTextFile action.                                                  |
-| [`ExportAnimation`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/BeamToolResults/MaximumCombinedStress.md#MaximumCombinedStress.ExportAnimation)                 | Run the ExportAnimation action.                                                   |
-| [`DuplicateWithoutResults`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/BeamToolResults/MaximumCombinedStress.md#MaximumCombinedStress.DuplicateWithoutResults) | Run the DuplicateWithoutResults action.                                           |
-| [`CreateResultsAtAllSets`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/BeamToolResults/MaximumCombinedStress.md#MaximumCombinedStress.CreateResultsAtAllSets)   | Creates results at all sets for results under a solution.                         |
-| [`PromoteToNamedSelection`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/BeamToolResults/MaximumCombinedStress.md#MaximumCombinedStress.PromoteToNamedSelection) | Run the PromoteToNamedSelection action.                                           |
-| [`CreateParameter`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/BeamToolResults/MaximumCombinedStress.md#MaximumCombinedStress.CreateParameter)                 | CreateParameter method.                                                           |
-| [`AddAlert`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/BeamToolResults/MaximumCombinedStress.md#MaximumCombinedStress.AddAlert)                               | Creates a new Alert                                                               |
-| [`AddConvergence`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/BeamToolResults/MaximumCombinedStress.md#MaximumCombinedStress.AddConvergence)                   | Creates a new Convergence                                                         |
-| [`RenameBasedOnDefinition`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/BeamToolResults/MaximumCombinedStress.md#MaximumCombinedStress.RenameBasedOnDefinition) | Run the RenameBasedOnDefinition action.                                           |
-| [`Delete`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/BeamToolResults/MaximumCombinedStress.md#MaximumCombinedStress.Delete)                                   | Run the Delete action.                                                            |
-| [`GetChildren`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/BeamToolResults/MaximumCombinedStress.md#id1)                                                       | Gets the list of children, filtered by type.                                      |
-| [`GetChildren`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/BeamToolResults/MaximumCombinedStress.md#id1)                                                       | Gets the list of children, filtered by type.                                      |
-| [`AddComment`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/BeamToolResults/MaximumCombinedStress.md#MaximumCombinedStress.AddComment)                           | Creates a new child Comment.                                                      |
-| [`AddFigure`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/BeamToolResults/MaximumCombinedStress.md#MaximumCombinedStress.AddFigure)                             | Creates a new child Figure.                                                       |
-| [`AddImage`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/BeamToolResults/MaximumCombinedStress.md#MaximumCombinedStress.AddImage)                               | Creates a new child Image.                                                        |
-| [`Activate`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/BeamToolResults/MaximumCombinedStress.md#MaximumCombinedStress.Activate)                               | Activate the current object.                                                      |
-| [`CopyTo`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/BeamToolResults/MaximumCombinedStress.md#MaximumCombinedStress.CopyTo)                                   | Copies all visible properties from this object to another.                        |
-| [`Duplicate`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/BeamToolResults/MaximumCombinedStress.md#MaximumCombinedStress.Duplicate)                             | Creates a copy of the current DataModelObject.                                    |
-| [`GroupAllSimilarChildren`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/BeamToolResults/MaximumCombinedStress.md#MaximumCombinedStress.GroupAllSimilarChildren) | Run the GroupAllSimilarChildren action.                                           |
-| [`GroupSimilarObjects`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/BeamToolResults/MaximumCombinedStress.md#MaximumCombinedStress.GroupSimilarObjects)         | Run the GroupSimilarObjects action.                                               |
-| [`PropertyByName`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/BeamToolResults/MaximumCombinedStress.md#MaximumCombinedStress.PropertyByName)                   | Get a property by its unique name.                                                |
-| [`PropertyByAPIName`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/BeamToolResults/MaximumCombinedStress.md#MaximumCombinedStress.PropertyByAPIName)             | Get a property by its API name.                                                   |
-| [`GetParameter`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/BeamToolResults/MaximumCombinedStress.md#MaximumCombinedStress.GetParameter)                       | Gets the parameter corresponding to the given property.                           |
-| [`RemoveParameter`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/BeamToolResults/MaximumCombinedStress.md#MaximumCombinedStress.RemoveParameter)                 | Removes the parameter from the parameter set corresponding to the given property. |
+|-----------------------------------------------------------------------------|-----------------------------------------------------------------------------------|
+| [`Activate`](#MaximumCombinedStress.Activate)                               | Activate the current object.                                                      |
+| [`AddAlert`](#MaximumCombinedStress.AddAlert)                               | Creates a new Alert                                                               |
+| [`AddComment`](#MaximumCombinedStress.AddComment)                           | Creates a new child Comment.                                                      |
+| [`AddConvergence`](#MaximumCombinedStress.AddConvergence)                   | Creates a new Convergence                                                         |
+| [`AddFigure`](#MaximumCombinedStress.AddFigure)                             | Creates a new child Figure.                                                       |
+| [`AddImage`](#MaximumCombinedStress.AddImage)                               | Creates a new child Image.                                                        |
+| [`ClearGeneratedData`](#MaximumCombinedStress.ClearGeneratedData)           | Run the ClearGeneratedData action.                                                |
+| [`CopyTo`](#MaximumCombinedStress.CopyTo)                                   | Copies all visible properties from this object to another.                        |
+| [`CreateParameter`](#MaximumCombinedStress.CreateParameter)                 | CreateParameter method.                                                           |
+| [`CreateResultsAtAllSets`](#MaximumCombinedStress.CreateResultsAtAllSets)   | Creates results at all sets for results under a solution.                         |
+| [`Delete`](#MaximumCombinedStress.Delete)                                   | Run the Delete action.                                                            |
+| [`Duplicate`](#MaximumCombinedStress.Duplicate)                             | Creates a copy of the current DataModelObject.                                    |
+| [`DuplicateWithoutResults`](#MaximumCombinedStress.DuplicateWithoutResults) | Run the DuplicateWithoutResults action.                                           |
+| [`EvaluateAllResults`](#MaximumCombinedStress.EvaluateAllResults)           | Run the EvaluateAllResults action.                                                |
+| [`ExportAnimation`](#MaximumCombinedStress.ExportAnimation)                 | Run the ExportAnimation action.                                                   |
+| [`ExportToTextFile`](#MaximumCombinedStress.ExportToTextFile)               | Run the ExportToTextFile action.                                                  |
+| [`FetchRemoteResults`](#MaximumCombinedStress.FetchRemoteResults)           | Run the FetchRemoteResult action.                                                 |
+| [`GetChildren`](#MaximumCombinedStress.GetChildren)                         | Gets the list of children, filtered by type.                                      |
+| [`GetParameter`](#MaximumCombinedStress.GetParameter)                       | Gets the parameter corresponding to the given property.                           |
+| [`GroupAllSimilarChildren`](#MaximumCombinedStress.GroupAllSimilarChildren) | Run the GroupAllSimilarChildren action.                                           |
+| [`GroupSimilarObjects`](#MaximumCombinedStress.GroupSimilarObjects)         | Run the GroupSimilarObjects action.                                               |
+| [`PromoteToNamedSelection`](#MaximumCombinedStress.PromoteToNamedSelection) | Run the PromoteToNamedSelection action.                                           |
+| [`PropertyByAPIName`](#MaximumCombinedStress.PropertyByAPIName)             | Get a property by its API name.                                                   |
+| [`PropertyByName`](#MaximumCombinedStress.PropertyByName)                   | Get a property by its unique name.                                                |
+| [`RemoveParameter`](#MaximumCombinedStress.RemoveParameter)                 | Removes the parameter from the parameter set corresponding to the given property. |
+| [`RenameBasedOnDefinition`](#MaximumCombinedStress.RenameBasedOnDefinition) | Run the RenameBasedOnDefinition action.                                           |
 
 ### Properties
 
 | Name | Description |
-|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------|
-| [`InternalObject`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/BeamToolResults/MaximumCombinedStress.md#id0)                                                                        | Gets the internal object. For advanced usage only.                     |
-| [`DataModelObjectCategory`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/BeamToolResults/MaximumCombinedStress.md#MaximumCombinedStress.DataModelObjectCategory)                     | Gets the current DataModelObject's category.                           |
-| [`BeamToolStressResultType`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/BeamToolResults/MaximumCombinedStress.md#MaximumCombinedStress.BeamToolStressResultType)                   | Gets or sets the BeamToolStressResultType.                             |
-| [`PlotData`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/BeamToolResults/MaximumCombinedStress.md#MaximumCombinedStress.PlotData)                                                   | Gets the result table.                                                 |
-| [`Location`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/BeamToolResults/MaximumCombinedStress.md#MaximumCombinedStress.Location)                                                   | Gets or sets the Location.                                             |
-| [`TimeForMinimumOfMinimumValues`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/BeamToolResults/MaximumCombinedStress.md#MaximumCombinedStress.TimeForMinimumOfMinimumValues)         | Get the Time for the minimum of minimum values.                        |
-| [`TimeForMinimumOfMaximumValues`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/BeamToolResults/MaximumCombinedStress.md#MaximumCombinedStress.TimeForMinimumOfMaximumValues)         | Get the Time for the minimum of maximum values.                        |
-| [`LoadStepForMinimumOfMinimumValues`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/BeamToolResults/MaximumCombinedStress.md#MaximumCombinedStress.LoadStepForMinimumOfMinimumValues) | Get the Load Step for the minimum of minimum values.                   |
-| [`LoadStepForMinimumOfMaximumValues`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/BeamToolResults/MaximumCombinedStress.md#MaximumCombinedStress.LoadStepForMinimumOfMaximumValues) | Get the Load Step for the minimum of maximum values.                   |
-| [`TimeForMaximumOfMinimumValues`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/BeamToolResults/MaximumCombinedStress.md#MaximumCombinedStress.TimeForMaximumOfMinimumValues)         | Get the Time for the maximum of minimum values.                        |
-| [`TimeForMaximumOfMaximumValues`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/BeamToolResults/MaximumCombinedStress.md#MaximumCombinedStress.TimeForMaximumOfMaximumValues)         | Get the Time for the maximum of maximum values.                        |
-| [`LoadStepForMaximumOfMinimumValues`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/BeamToolResults/MaximumCombinedStress.md#MaximumCombinedStress.LoadStepForMaximumOfMinimumValues) | Get the Load Step for the maximum of minimum values.                   |
-| [`LoadStepForMaximumOfMaximumValues`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/BeamToolResults/MaximumCombinedStress.md#MaximumCombinedStress.LoadStepForMaximumOfMaximumValues) | Get the Load Step for the maximum of maximum values.                   |
-| [`IsSolved`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/BeamToolResults/MaximumCombinedStress.md#MaximumCombinedStress.IsSolved)                                                   | Gets the IsSolved.                                                     |
-| [`CoordinateSystem`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/BeamToolResults/MaximumCombinedStress.md#MaximumCombinedStress.CoordinateSystem)                                   | Gets or sets the Coordinate System.                                    |
-| [`ScopingMethod`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/BeamToolResults/MaximumCombinedStress.md#MaximumCombinedStress.ScopingMethod)                                         | Gets or sets the ScopingMethod.                                        |
-| [`SetNumber`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/BeamToolResults/MaximumCombinedStress.md#MaximumCombinedStress.SetNumber)                                                 | Gets or sets the Set Number.                                           |
-| [`CombinationNumber`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/BeamToolResults/MaximumCombinedStress.md#MaximumCombinedStress.CombinationNumber)                                 | Gets or sets the Combination Number for a Solution Combination result. |
-| [`SolutionCombinationDriver`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/BeamToolResults/MaximumCombinedStress.md#MaximumCombinedStress.SolutionCombinationDriver)                 | Gets or sets the SolutionCombinationDriver.                            |
-| [`Path`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/BeamToolResults/MaximumCombinedStress.md#MaximumCombinedStress.Path)                                                           | Path property.                                                         |
-| [`Surface`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/BeamToolResults/MaximumCombinedStress.md#MaximumCombinedStress.Surface)                                                     | Surface property.                                                      |
-| [`NamedSelections`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/BeamToolResults/MaximumCombinedStress.md#MaximumCombinedStress.NamedSelections)                                     | Gets or sets the NamedSelections.                                      |
-| [`WaterfallPanelShowTextOnMosaic`](#MaximumCombinedStress.WaterfallPanelShowTextOnMosaic)                                                                                                                 | Gets or sets the Waterfall Panel Mosaic Text Property.                 |
-| [`CrackFrontNumber`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/BeamToolResults/MaximumCombinedStress.md#MaximumCombinedStress.CrackFrontNumber)                                   | Gets or sets the CrackFrontNumber.                                     |
-| [`GlobalIDs`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/BeamToolResults/MaximumCombinedStress.md#MaximumCombinedStress.GlobalIDs)                                                 | Gets or sets the GlobalIDs.                                            |
-| [`Identifier`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/BeamToolResults/MaximumCombinedStress.md#MaximumCombinedStress.Identifier)                                               | Gets or sets the Identifier.                                           |
-| [`IterationNumber`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/BeamToolResults/MaximumCombinedStress.md#MaximumCombinedStress.IterationNumber)                                     | Gets the IterationNumber.                                              |
-| [`LoadStep`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/BeamToolResults/MaximumCombinedStress.md#MaximumCombinedStress.LoadStep)                                                   | Gets the LoadStep.                                                     |
-| [`MaximumOccursOn`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/BeamToolResults/MaximumCombinedStress.md#MaximumCombinedStress.MaximumOccursOn)                                     | Gets the MaximumOccursOn.                                              |
-| [`MinimumOccursOn`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/BeamToolResults/MaximumCombinedStress.md#MaximumCombinedStress.MinimumOccursOn)                                     | Gets the MinimumOccursOn.                                              |
-| [`LoadStepNumber`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/BeamToolResults/MaximumCombinedStress.md#MaximumCombinedStress.LoadStepNumber)                                       | Gets or sets the LoadStepNumber.                                       |
-| [`SolverComponentIDs`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/BeamToolResults/MaximumCombinedStress.md#MaximumCombinedStress.SolverComponentIDs)                               | Gets or sets the SolverComponentIDs.                                   |
-| [`Substep`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/BeamToolResults/MaximumCombinedStress.md#MaximumCombinedStress.Substep)                                                     | Gets the Substep.                                                      |
-| [`Average`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/BeamToolResults/MaximumCombinedStress.md#MaximumCombinedStress.Average)                                                     | Gets the Average.                                                      |
-| [`Maximum`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/BeamToolResults/MaximumCombinedStress.md#MaximumCombinedStress.Maximum)                                                     | Gets the Maximum.                                                      |
-| [`MaximumOfMaximumOverTime`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/BeamToolResults/MaximumCombinedStress.md#MaximumCombinedStress.MaximumOfMaximumOverTime)                   | Gets the MaximumOfMaximumOverTime.                                     |
-| [`MaximumOfMinimumOverTime`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/BeamToolResults/MaximumCombinedStress.md#MaximumCombinedStress.MaximumOfMinimumOverTime)                   | Gets the MaximumOfMinimumOverTime.                                     |
-| [`Minimum`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/BeamToolResults/MaximumCombinedStress.md#MaximumCombinedStress.Minimum)                                                     | Gets the Minimum.                                                      |
-| [`MinimumOfMaximumOverTime`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/BeamToolResults/MaximumCombinedStress.md#MaximumCombinedStress.MinimumOfMaximumOverTime)                   | Gets the MinimumOfMaximumOverTime.                                     |
-| [`MinimumOfMinimumOverTime`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/BeamToolResults/MaximumCombinedStress.md#MaximumCombinedStress.MinimumOfMinimumOverTime)                   | Gets the MinimumOfMinimumOverTime.                                     |
-| [`Time`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/BeamToolResults/MaximumCombinedStress.md#MaximumCombinedStress.Time)                                                           | Gets the Time.                                                         |
-| [`DisplayTime`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/BeamToolResults/MaximumCombinedStress.md#MaximumCombinedStress.DisplayTime)                                             | Gets or sets the DisplayTime.                                          |
-| [`GraphControlsXAxis`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/BeamToolResults/MaximumCombinedStress.md#MaximumCombinedStress.GraphControlsXAxis)                               | Gets or sets the GraphControlsXAxis.                                   |
-| [`DisplayOption`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/BeamToolResults/MaximumCombinedStress.md#MaximumCombinedStress.DisplayOption)                                         | Gets or sets the DisplayOption.                                        |
-| [`DpfEvaluation`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/BeamToolResults/MaximumCombinedStress.md#MaximumCombinedStress.DpfEvaluation)                                         | Gets or sets the DpfEvaluation.                                        |
-| [`By`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/BeamToolResults/MaximumCombinedStress.md#MaximumCombinedStress.By)                                                               | Gets or sets the By.                                                   |
-| [`ItemType`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/BeamToolResults/MaximumCombinedStress.md#MaximumCombinedStress.ItemType)                                                   | Gets or sets the ItemType.                                             |
-| [`CalculateTimeHistory`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/BeamToolResults/MaximumCombinedStress.md#MaximumCombinedStress.CalculateTimeHistory)                           | Gets or sets the CalculateTimeHistory.                                 |
-| [`Suppressed`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/BeamToolResults/MaximumCombinedStress.md#MaximumCombinedStress.Suppressed)                                               | Gets or sets the Suppressed.                                           |
-| [`Children`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/BeamToolResults/MaximumCombinedStress.md#MaximumCombinedStress.Children)                                                   | Gets the list of children.                                             |
-| [`Comments`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/BeamToolResults/MaximumCombinedStress.md#MaximumCombinedStress.Comments)                                                   | Gets the list of associated comments.                                  |
-| [`Figures`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/BeamToolResults/MaximumCombinedStress.md#MaximumCombinedStress.Figures)                                                     | Gets the list of associated figures.                                   |
-| [`Images`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/BeamToolResults/MaximumCombinedStress.md#MaximumCombinedStress.Images)                                                       | Gets the list of associated images.                                    |
-| [`InternalObject`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/BeamToolResults/MaximumCombinedStress.md#id0)                                                                        | Gets the internal object. For advanced usage only.                     |
-| [`Properties`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/BeamToolResults/MaximumCombinedStress.md#MaximumCombinedStress.Properties)                                               | Gets the list of properties for this object.                           |
-| [`VisibleProperties`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Results/BeamToolResults/MaximumCombinedStress.md#MaximumCombinedStress.VisibleProperties)                                 | Gets the list of properties that are visible for this object.          |
+|-------------------------------------------------------------------------------------------------|------------------------------------------------------------------------|
+| [`Average`](#MaximumCombinedStress.Average)                                                     | Gets the Average.                                                      |
+| [`BeamToolStressResultType`](#MaximumCombinedStress.BeamToolStressResultType)                   | Gets or sets the BeamToolStressResultType.                             |
+| [`By`](#MaximumCombinedStress.By)                                                               | Gets or sets the By.                                                   |
+| [`CalculateTimeHistory`](#MaximumCombinedStress.CalculateTimeHistory)                           | Gets or sets the CalculateTimeHistory.                                 |
+| [`Children`](#MaximumCombinedStress.Children)                                                   | Gets the list of children.                                             |
+| [`CombinationNumber`](#MaximumCombinedStress.CombinationNumber)                                 | Gets or sets the Combination Number for a Solution Combination result. |
+| [`Comments`](#MaximumCombinedStress.Comments)                                                   | Gets the list of associated comments.                                  |
+| [`CoordinateSystem`](#MaximumCombinedStress.CoordinateSystem)                                   | Gets or sets the Coordinate System.                                    |
+| [`CrackFrontNumber`](#MaximumCombinedStress.CrackFrontNumber)                                   | Gets or sets the CrackFrontNumber.                                     |
+| [`DataModelObjectCategory`](#MaximumCombinedStress.DataModelObjectCategory)                     | Gets the current DataModelObject’s category.                           |
+| [`DisplayOption`](#MaximumCombinedStress.DisplayOption)                                         | Gets or sets the DisplayOption.                                        |
+| [`DisplayTime`](#MaximumCombinedStress.DisplayTime)                                             | Gets or sets the DisplayTime.                                          |
+| [`DpfEvaluation`](#MaximumCombinedStress.DpfEvaluation)                                         | Gets or sets the DpfEvaluation.                                        |
+| [`Figures`](#MaximumCombinedStress.Figures)                                                     | Gets the list of associated figures.                                   |
+| [`GlobalIDs`](#MaximumCombinedStress.GlobalIDs)                                                 | Gets or sets the GlobalIDs.                                            |
+| [`GraphControlsXAxis`](#MaximumCombinedStress.GraphControlsXAxis)                               | Gets or sets the GraphControlsXAxis.                                   |
+| [`Identifier`](#MaximumCombinedStress.Identifier)                                               | Gets or sets the Identifier.                                           |
+| [`Images`](#MaximumCombinedStress.Images)                                                       | Gets the list of associated images.                                    |
+| [`InternalObject`](#MaximumCombinedStress.InternalObject)                                       | Gets the internal object. For advanced usage only.                     |
+| [`IsSolved`](#MaximumCombinedStress.IsSolved)                                                   | Gets the IsSolved.                                                     |
+| [`ItemType`](#MaximumCombinedStress.ItemType)                                                   | Gets or sets the ItemType.                                             |
+| [`IterationNumber`](#MaximumCombinedStress.IterationNumber)                                     | Gets the IterationNumber.                                              |
+| [`LoadStep`](#MaximumCombinedStress.LoadStep)                                                   | Gets the LoadStep.                                                     |
+| [`LoadStepForMaximumOfMaximumValues`](#MaximumCombinedStress.LoadStepForMaximumOfMaximumValues) | Get the Load Step for the maximum of maximum values.                   |
+| [`LoadStepForMaximumOfMinimumValues`](#MaximumCombinedStress.LoadStepForMaximumOfMinimumValues) | Get the Load Step for the maximum of minimum values.                   |
+| [`LoadStepForMinimumOfMaximumValues`](#MaximumCombinedStress.LoadStepForMinimumOfMaximumValues) | Get the Load Step for the minimum of maximum values.                   |
+| [`LoadStepForMinimumOfMinimumValues`](#MaximumCombinedStress.LoadStepForMinimumOfMinimumValues) | Get the Load Step for the minimum of minimum values.                   |
+| [`LoadStepNumber`](#MaximumCombinedStress.LoadStepNumber)                                       | Gets or sets the LoadStepNumber.                                       |
+| [`Location`](#MaximumCombinedStress.Location)                                                   | Gets or sets the Location.                                             |
+| [`Maximum`](#MaximumCombinedStress.Maximum)                                                     | Gets the Maximum.                                                      |
+| [`MaximumOccursOn`](#MaximumCombinedStress.MaximumOccursOn)                                     | Gets the MaximumOccursOn.                                              |
+| [`MaximumOfMaximumOverTime`](#MaximumCombinedStress.MaximumOfMaximumOverTime)                   | Gets the MaximumOfMaximumOverTime.                                     |
+| [`MaximumOfMinimumOverTime`](#MaximumCombinedStress.MaximumOfMinimumOverTime)                   | Gets the MaximumOfMinimumOverTime.                                     |
+| [`Minimum`](#MaximumCombinedStress.Minimum)                                                     | Gets the Minimum.                                                      |
+| [`MinimumOccursOn`](#MaximumCombinedStress.MinimumOccursOn)                                     | Gets the MinimumOccursOn.                                              |
+| [`MinimumOfMaximumOverTime`](#MaximumCombinedStress.MinimumOfMaximumOverTime)                   | Gets the MinimumOfMaximumOverTime.                                     |
+| [`MinimumOfMinimumOverTime`](#MaximumCombinedStress.MinimumOfMinimumOverTime)                   | Gets the MinimumOfMinimumOverTime.                                     |
+| [`NamedSelections`](#MaximumCombinedStress.NamedSelections)                                     | Gets or sets the NamedSelections.                                      |
+| [`Path`](#MaximumCombinedStress.Path)                                                           | Path property.                                                         |
+| [`PlotData`](#MaximumCombinedStress.PlotData)                                                   | Gets the result table.                                                 |
+| [`Properties`](#MaximumCombinedStress.Properties)                                               | Gets the list of properties for this object.                           |
+| [`ScopingMethod`](#MaximumCombinedStress.ScopingMethod)                                         | Gets or sets the ScopingMethod.                                        |
+| [`SetNumber`](#MaximumCombinedStress.SetNumber)                                                 | Gets or sets the Set Number.                                           |
+| [`SolutionCombinationDriver`](#MaximumCombinedStress.SolutionCombinationDriver)                 | Gets or sets the SolutionCombinationDriver.                            |
+| [`SolverComponentIDs`](#MaximumCombinedStress.SolverComponentIDs)                               | Gets or sets the SolverComponentIDs.                                   |
+| [`Substep`](#MaximumCombinedStress.Substep)                                                     | Gets the Substep.                                                      |
+| [`Suppressed`](#MaximumCombinedStress.Suppressed)                                               | Gets or sets the Suppressed.                                           |
+| [`Surface`](#MaximumCombinedStress.Surface)                                                     | Surface property.                                                      |
+| [`Time`](#MaximumCombinedStress.Time)                                                           | Gets the Time.                                                         |
+| [`TimeForMaximumOfMaximumValues`](#MaximumCombinedStress.TimeForMaximumOfMaximumValues)         | Get the Time for the maximum of maximum values.                        |
+| [`TimeForMaximumOfMinimumValues`](#MaximumCombinedStress.TimeForMaximumOfMinimumValues)         | Get the Time for the maximum of minimum values.                        |
+| [`TimeForMinimumOfMaximumValues`](#MaximumCombinedStress.TimeForMinimumOfMaximumValues)         | Get the Time for the minimum of maximum values.                        |
+| [`TimeForMinimumOfMinimumValues`](#MaximumCombinedStress.TimeForMinimumOfMinimumValues)         | Get the Time for the minimum of minimum values.                        |
+| [`VisibleProperties`](#MaximumCombinedStress.VisibleProperties)                                 | Gets the list of properties that are visible for this object.          |
+| [`WaterfallPanelShowTextOnMosaic`](#MaximumCombinedStress.WaterfallPanelShowTextOnMosaic)       | Gets or sets the Waterfall Panel Mosaic Text Property.                 |
 
 <a id="property-detail"></a>
 
 ## Property detail
 
-<a id="MaximumCombinedStress.InternalObject"></a>
+<a id="MaximumCombinedStress.Average"></a>
 
-### *property* MaximumCombinedStress.InternalObject *: Ansys.Common.Interop.DSObjectsAuto.IDSResultAuto | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* MaximumCombinedStress.Average *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets the internal object. For advanced usage only.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="MaximumCombinedStress.DataModelObjectCategory"></a>
-
-### *property* MaximumCombinedStress.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets the current DataModelObject's category.
+Gets the Average.
 
 <!-- !! processed by numpydoc !! -->
 
 <a id="MaximumCombinedStress.BeamToolStressResultType"></a>
 
-### *property* MaximumCombinedStress.BeamToolStressResultType *: [Ansys.Mechanical.DataModel.Enums.BeamToolStressResultType](../../../../../Mechanical/DataModel/Enums/BeamToolStressResultType.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.BeamToolStressResultType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* MaximumCombinedStress.BeamToolStressResultType *: [Ansys.Mechanical.DataModel.Enums.BeamToolStressResultType](../../../../../../../v242/Ansys/Mechanical/DataModel/Enums/BeamToolStressResultType.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.BeamToolStressResultType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the BeamToolStressResultType.
 
 <!-- !! processed by numpydoc !! -->
 
-<a id="MaximumCombinedStress.PlotData"></a>
+<a id="MaximumCombinedStress.By"></a>
 
-### *property* MaximumCombinedStress.PlotData *: [Ansys.Mechanical.DataModel.Results.ResultDataTable](../../../../../Mechanical/DataModel/Results/ResultDataTable.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Results.ResultDataTable) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* MaximumCombinedStress.By *: [Ansys.Mechanical.DataModel.Enums.SetDriverStyle](../../../../../../../v242/Ansys/Mechanical/DataModel/Enums/SetDriverStyle.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.SetDriverStyle) | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets the result table.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="MaximumCombinedStress.Location"></a>
-
-### *property* MaximumCombinedStress.Location *: Ansys.ACT.Interfaces.Common.ISelectionInfo | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the Location.
+Gets or sets the By.
 
 <!-- !! processed by numpydoc !! -->
 
-<a id="MaximumCombinedStress.TimeForMinimumOfMinimumValues"></a>
+<a id="MaximumCombinedStress.CalculateTimeHistory"></a>
 
-### *property* MaximumCombinedStress.TimeForMinimumOfMinimumValues *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* MaximumCombinedStress.CalculateTimeHistory *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Get the Time for the minimum of minimum values.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="MaximumCombinedStress.TimeForMinimumOfMaximumValues"></a>
-
-### *property* MaximumCombinedStress.TimeForMinimumOfMaximumValues *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Get the Time for the minimum of maximum values.
+Gets or sets the CalculateTimeHistory.
 
 <!-- !! processed by numpydoc !! -->
 
-<a id="MaximumCombinedStress.LoadStepForMinimumOfMinimumValues"></a>
+<a id="MaximumCombinedStress.Children"></a>
 
-### *property* MaximumCombinedStress.LoadStepForMinimumOfMinimumValues *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* MaximumCombinedStress.Children *: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Get the Load Step for the minimum of minimum values.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="MaximumCombinedStress.LoadStepForMinimumOfMaximumValues"></a>
-
-### *property* MaximumCombinedStress.LoadStepForMinimumOfMaximumValues *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Get the Load Step for the minimum of maximum values.
+Gets the list of children.
 
 <!-- !! processed by numpydoc !! -->
 
-<a id="MaximumCombinedStress.TimeForMaximumOfMinimumValues"></a>
+<a id="MaximumCombinedStress.CombinationNumber"></a>
 
-### *property* MaximumCombinedStress.TimeForMaximumOfMinimumValues *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* MaximumCombinedStress.CombinationNumber *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Get the Time for the maximum of minimum values.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="MaximumCombinedStress.TimeForMaximumOfMaximumValues"></a>
-
-### *property* MaximumCombinedStress.TimeForMaximumOfMaximumValues *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Get the Time for the maximum of maximum values.
+Gets or sets the Combination Number for a Solution Combination result.
 
 <!-- !! processed by numpydoc !! -->
 
-<a id="MaximumCombinedStress.LoadStepForMaximumOfMinimumValues"></a>
+<a id="MaximumCombinedStress.Comments"></a>
 
-### *property* MaximumCombinedStress.LoadStepForMaximumOfMinimumValues *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* MaximumCombinedStress.Comments *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Comment](../../Comment.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Get the Load Step for the maximum of minimum values.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="MaximumCombinedStress.LoadStepForMaximumOfMaximumValues"></a>
-
-### *property* MaximumCombinedStress.LoadStepForMaximumOfMaximumValues *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Get the Load Step for the maximum of maximum values.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="MaximumCombinedStress.IsSolved"></a>
-
-### *property* MaximumCombinedStress.IsSolved *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets the IsSolved.
+Gets the list of associated comments.
 
 <!-- !! processed by numpydoc !! -->
 
@@ -233,75 +175,51 @@ Accepts/Returns None for Fiber Coordinate System for a result that is sub scoped
 
 <!-- !! processed by numpydoc !! -->
 
-<a id="MaximumCombinedStress.ScopingMethod"></a>
-
-### *property* MaximumCombinedStress.ScopingMethod *: [Ansys.Mechanical.DataModel.Enums.GeometryDefineByType](../../../../../Mechanical/DataModel/Enums/GeometryDefineByType.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.GeometryDefineByType) | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the ScopingMethod.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="MaximumCombinedStress.SetNumber"></a>
-
-### *property* MaximumCombinedStress.SetNumber *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the Set Number.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="MaximumCombinedStress.CombinationNumber"></a>
-
-### *property* MaximumCombinedStress.CombinationNumber *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the Combination Number for a Solution Combination result.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="MaximumCombinedStress.SolutionCombinationDriver"></a>
-
-### *property* MaximumCombinedStress.SolutionCombinationDriver *: [Ansys.Mechanical.DataModel.Enums.SolutionCombinationDriverStyle](../../../../../Mechanical/DataModel/Enums/SolutionCombinationDriverStyle.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.SolutionCombinationDriverStyle) | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the SolutionCombinationDriver.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="MaximumCombinedStress.Path"></a>
-
-### *property* MaximumCombinedStress.Path *: [Ansys.ACT.Automation.Mechanical.Path](../../Path.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Path) | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Path property.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="MaximumCombinedStress.Surface"></a>
-
-### *property* MaximumCombinedStress.Surface *: [Ansys.ACT.Automation.Mechanical.Surface](../../Surface.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Surface) | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Surface property.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="MaximumCombinedStress.NamedSelections"></a>
-
-### *property* MaximumCombinedStress.NamedSelections *: System.Collections.Generic.IEnumerable[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the NamedSelections.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="MaximumCombinedStress.WaterfallPanelShowTextOnMosaic"></a>
-
-### *property* MaximumCombinedStress.WaterfallPanelShowTextOnMosaic *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the Waterfall Panel Mosaic Text Property.
-
-<!-- !! processed by numpydoc !! -->
-
 <a id="MaximumCombinedStress.CrackFrontNumber"></a>
 
 ### *property* MaximumCombinedStress.CrackFrontNumber *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the CrackFrontNumber.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="MaximumCombinedStress.DataModelObjectCategory"></a>
+
+### *property* MaximumCombinedStress.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../../../v242/Ansys/Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets the current DataModelObject’s category.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="MaximumCombinedStress.DisplayOption"></a>
+
+### *property* MaximumCombinedStress.DisplayOption *: [Ansys.Mechanical.DataModel.Enums.ResultAveragingType](../../../../../../../v242/Ansys/Mechanical/DataModel/Enums/ResultAveragingType.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.ResultAveragingType) | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the DisplayOption.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="MaximumCombinedStress.DisplayTime"></a>
+
+### *property* MaximumCombinedStress.DisplayTime *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the DisplayTime.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="MaximumCombinedStress.DpfEvaluation"></a>
+
+### *property* MaximumCombinedStress.DpfEvaluation *: [Ansys.Mechanical.DataModel.Enums.DpfEvaluationType](../../../../../../../v242/Ansys/Mechanical/DataModel/Enums/DpfEvaluationType.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.DpfEvaluationType) | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the DpfEvaluation.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="MaximumCombinedStress.Figures"></a>
+
+### *property* MaximumCombinedStress.Figures *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Figure](../../Figure.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets the list of associated figures.
 
 <!-- !! processed by numpydoc !! -->
 
@@ -313,11 +231,51 @@ Gets or sets the GlobalIDs.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="MaximumCombinedStress.GraphControlsXAxis"></a>
+
+### *property* MaximumCombinedStress.GraphControlsXAxis *: [Ansys.Mechanical.DataModel.Enums.GraphControlsXAxis](../../../../../../../v242/Ansys/Mechanical/DataModel/Enums/GraphControlsXAxis.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.GraphControlsXAxis) | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the GraphControlsXAxis.
+
+<!-- !! processed by numpydoc !! -->
+
 <a id="MaximumCombinedStress.Identifier"></a>
 
 ### *property* MaximumCombinedStress.Identifier *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Identifier.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="MaximumCombinedStress.Images"></a>
+
+### *property* MaximumCombinedStress.Images *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Image](../../Image.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets the list of associated images.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="MaximumCombinedStress.InternalObject"></a>
+
+### *property* MaximumCombinedStress.InternalObject *: Ansys.Common.Interop.DSObjectsAuto.IDSResultAuto | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets the internal object. For advanced usage only.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="MaximumCombinedStress.IsSolved"></a>
+
+### *property* MaximumCombinedStress.IsSolved *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets the IsSolved.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="MaximumCombinedStress.ItemType"></a>
+
+### *property* MaximumCombinedStress.ItemType *: [Ansys.Mechanical.DataModel.Enums.ResultFileItemType](../../../../../../../v242/Ansys/Mechanical/DataModel/Enums/ResultFileItemType.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.ResultFileItemType) | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the ItemType.
 
 <!-- !! processed by numpydoc !! -->
 
@@ -337,19 +295,35 @@ Gets the LoadStep.
 
 <!-- !! processed by numpydoc !! -->
 
-<a id="MaximumCombinedStress.MaximumOccursOn"></a>
+<a id="MaximumCombinedStress.LoadStepForMaximumOfMaximumValues"></a>
 
-### *property* MaximumCombinedStress.MaximumOccursOn *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* MaximumCombinedStress.LoadStepForMaximumOfMaximumValues *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets the MaximumOccursOn.
+Get the Load Step for the maximum of maximum values.
 
 <!-- !! processed by numpydoc !! -->
 
-<a id="MaximumCombinedStress.MinimumOccursOn"></a>
+<a id="MaximumCombinedStress.LoadStepForMaximumOfMinimumValues"></a>
 
-### *property* MaximumCombinedStress.MinimumOccursOn *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* MaximumCombinedStress.LoadStepForMaximumOfMinimumValues *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets the MinimumOccursOn.
+Get the Load Step for the maximum of minimum values.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="MaximumCombinedStress.LoadStepForMinimumOfMaximumValues"></a>
+
+### *property* MaximumCombinedStress.LoadStepForMinimumOfMaximumValues *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Get the Load Step for the minimum of maximum values.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="MaximumCombinedStress.LoadStepForMinimumOfMinimumValues"></a>
+
+### *property* MaximumCombinedStress.LoadStepForMinimumOfMinimumValues *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Get the Load Step for the minimum of minimum values.
 
 <!-- !! processed by numpydoc !! -->
 
@@ -361,27 +335,11 @@ Gets or sets the LoadStepNumber.
 
 <!-- !! processed by numpydoc !! -->
 
-<a id="MaximumCombinedStress.SolverComponentIDs"></a>
+<a id="MaximumCombinedStress.Location"></a>
 
-### *property* MaximumCombinedStress.SolverComponentIDs *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* MaximumCombinedStress.Location *: Ansys.ACT.Interfaces.Common.ISelectionInfo | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets or sets the SolverComponentIDs.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="MaximumCombinedStress.Substep"></a>
-
-### *property* MaximumCombinedStress.Substep *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets the Substep.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="MaximumCombinedStress.Average"></a>
-
-### *property* MaximumCombinedStress.Average *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets the Average.
+Gets or sets the Location.
 
 <!-- !! processed by numpydoc !! -->
 
@@ -390,6 +348,14 @@ Gets the Average.
 ### *property* MaximumCombinedStress.Maximum *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the Maximum.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="MaximumCombinedStress.MaximumOccursOn"></a>
+
+### *property* MaximumCombinedStress.MaximumOccursOn *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets the MaximumOccursOn.
 
 <!-- !! processed by numpydoc !! -->
 
@@ -417,6 +383,14 @@ Gets the Minimum.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="MaximumCombinedStress.MinimumOccursOn"></a>
+
+### *property* MaximumCombinedStress.MinimumOccursOn *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets the MinimumOccursOn.
+
+<!-- !! processed by numpydoc !! -->
+
 <a id="MaximumCombinedStress.MinimumOfMaximumOverTime"></a>
 
 ### *property* MaximumCombinedStress.MinimumOfMaximumOverTime *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
@@ -433,115 +407,27 @@ Gets the MinimumOfMinimumOverTime.
 
 <!-- !! processed by numpydoc !! -->
 
-<a id="MaximumCombinedStress.Time"></a>
+<a id="MaximumCombinedStress.NamedSelections"></a>
 
-### *property* MaximumCombinedStress.Time *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* MaximumCombinedStress.NamedSelections *: System.Collections.Generic.IEnumerable[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets the Time.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="MaximumCombinedStress.DisplayTime"></a>
-
-### *property* MaximumCombinedStress.DisplayTime *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the DisplayTime.
+Gets or sets the NamedSelections.
 
 <!-- !! processed by numpydoc !! -->
 
-<a id="MaximumCombinedStress.GraphControlsXAxis"></a>
+<a id="MaximumCombinedStress.Path"></a>
 
-### *property* MaximumCombinedStress.GraphControlsXAxis *: [Ansys.Mechanical.DataModel.Enums.GraphControlsXAxis](../../../../../Mechanical/DataModel/Enums/GraphControlsXAxis.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.GraphControlsXAxis) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* MaximumCombinedStress.Path *: [Ansys.ACT.Automation.Mechanical.Path](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Path.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Path) | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets or sets the GraphControlsXAxis.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="MaximumCombinedStress.DisplayOption"></a>
-
-### *property* MaximumCombinedStress.DisplayOption *: [Ansys.Mechanical.DataModel.Enums.ResultAveragingType](../../../../../Mechanical/DataModel/Enums/ResultAveragingType.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.ResultAveragingType) | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the DisplayOption.
+Path property.
 
 <!-- !! processed by numpydoc !! -->
 
-<a id="MaximumCombinedStress.DpfEvaluation"></a>
+<a id="MaximumCombinedStress.PlotData"></a>
 
-### *property* MaximumCombinedStress.DpfEvaluation *: [Ansys.Mechanical.DataModel.Enums.DpfEvaluationType](../../../../../Mechanical/DataModel/Enums/DpfEvaluationType.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DpfEvaluationType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* MaximumCombinedStress.PlotData *: [Ansys.Mechanical.DataModel.Results.ResultDataTable](../../../../../../../v242/Ansys/Mechanical/DataModel/Results/ResultDataTable.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Results.ResultDataTable) | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets or sets the DpfEvaluation.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="MaximumCombinedStress.By"></a>
-
-### *property* MaximumCombinedStress.By *: [Ansys.Mechanical.DataModel.Enums.SetDriverStyle](../../../../../Mechanical/DataModel/Enums/SetDriverStyle.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.SetDriverStyle) | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the By.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="MaximumCombinedStress.ItemType"></a>
-
-### *property* MaximumCombinedStress.ItemType *: [Ansys.Mechanical.DataModel.Enums.ResultFileItemType](../../../../../Mechanical/DataModel/Enums/ResultFileItemType.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.ResultFileItemType) | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the ItemType.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="MaximumCombinedStress.CalculateTimeHistory"></a>
-
-### *property* MaximumCombinedStress.CalculateTimeHistory *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the CalculateTimeHistory.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="MaximumCombinedStress.Suppressed"></a>
-
-### *property* MaximumCombinedStress.Suppressed *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the Suppressed.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="MaximumCombinedStress.Children"></a>
-
-### *property* MaximumCombinedStress.Children *: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets the list of children.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="MaximumCombinedStress.Comments"></a>
-
-### *property* MaximumCombinedStress.Comments *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Comment](../../Comment.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets the list of associated comments.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="MaximumCombinedStress.Figures"></a>
-
-### *property* MaximumCombinedStress.Figures *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Figure](../../Figure.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets the list of associated figures.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="MaximumCombinedStress.Images"></a>
-
-### *property* MaximumCombinedStress.Images *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Image](../../Image.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets the list of associated images.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="id0"></a>
-
-### *property* MaximumCombinedStress.InternalObject *: System.Object | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets the internal object. For advanced usage only.
+Gets the result table.
 
 <!-- !! processed by numpydoc !! -->
 
@@ -553,6 +439,102 @@ Gets the list of properties for this object.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="MaximumCombinedStress.ScopingMethod"></a>
+
+### *property* MaximumCombinedStress.ScopingMethod *: [Ansys.Mechanical.DataModel.Enums.GeometryDefineByType](../../../../../../../v242/Ansys/Mechanical/DataModel/Enums/GeometryDefineByType.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.GeometryDefineByType) | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the ScopingMethod.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="MaximumCombinedStress.SetNumber"></a>
+
+### *property* MaximumCombinedStress.SetNumber *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the Set Number.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="MaximumCombinedStress.SolutionCombinationDriver"></a>
+
+### *property* MaximumCombinedStress.SolutionCombinationDriver *: [Ansys.Mechanical.DataModel.Enums.SolutionCombinationDriverStyle](../../../../../../../v242/Ansys/Mechanical/DataModel/Enums/SolutionCombinationDriverStyle.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.SolutionCombinationDriverStyle) | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the SolutionCombinationDriver.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="MaximumCombinedStress.SolverComponentIDs"></a>
+
+### *property* MaximumCombinedStress.SolverComponentIDs *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the SolverComponentIDs.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="MaximumCombinedStress.Substep"></a>
+
+### *property* MaximumCombinedStress.Substep *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets the Substep.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="MaximumCombinedStress.Suppressed"></a>
+
+### *property* MaximumCombinedStress.Suppressed *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the Suppressed.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="MaximumCombinedStress.Surface"></a>
+
+### *property* MaximumCombinedStress.Surface *: [Ansys.ACT.Automation.Mechanical.Surface](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Surface.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Surface) | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Surface property.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="MaximumCombinedStress.Time"></a>
+
+### *property* MaximumCombinedStress.Time *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets the Time.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="MaximumCombinedStress.TimeForMaximumOfMaximumValues"></a>
+
+### *property* MaximumCombinedStress.TimeForMaximumOfMaximumValues *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Get the Time for the maximum of maximum values.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="MaximumCombinedStress.TimeForMaximumOfMinimumValues"></a>
+
+### *property* MaximumCombinedStress.TimeForMaximumOfMinimumValues *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Get the Time for the maximum of minimum values.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="MaximumCombinedStress.TimeForMinimumOfMaximumValues"></a>
+
+### *property* MaximumCombinedStress.TimeForMinimumOfMaximumValues *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Get the Time for the minimum of maximum values.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="MaximumCombinedStress.TimeForMinimumOfMinimumValues"></a>
+
+### *property* MaximumCombinedStress.TimeForMinimumOfMinimumValues *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Get the Time for the minimum of minimum values.
+
+<!-- !! processed by numpydoc !! -->
+
 <a id="MaximumCombinedStress.VisibleProperties"></a>
 
 ### *property* MaximumCombinedStress.VisibleProperties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
@@ -561,79 +543,23 @@ Gets the list of properties that are visible for this object.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="MaximumCombinedStress.WaterfallPanelShowTextOnMosaic"></a>
+
+### *property* MaximumCombinedStress.WaterfallPanelShowTextOnMosaic *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the Waterfall Panel Mosaic Text Property.
+
+<!-- !! processed by numpydoc !! -->
+
 <a id="method-detail"></a>
 
 ## Method detail
 
-<a id="MaximumCombinedStress.ClearGeneratedData"></a>
+<a id="MaximumCombinedStress.Activate"></a>
 
-### MaximumCombinedStress.ClearGeneratedData()
+### MaximumCombinedStress.Activate()
 
-Run the ClearGeneratedData action.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="MaximumCombinedStress.EvaluateAllResults"></a>
-
-### MaximumCombinedStress.EvaluateAllResults()
-
-Run the EvaluateAllResults action.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="MaximumCombinedStress.FetchRemoteResults"></a>
-
-### MaximumCombinedStress.FetchRemoteResults()
-
-Run the FetchRemoteResult action.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="MaximumCombinedStress.ExportToTextFile"></a>
-
-### MaximumCombinedStress.ExportToTextFile(filePath: System.String)
-
-Run the ExportToTextFile action.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="MaximumCombinedStress.ExportAnimation"></a>
-
-### MaximumCombinedStress.ExportAnimation(filePath: System.String, format: [Ansys.Mechanical.DataModel.Enums.GraphicsAnimationExportFormat](../../../../../Mechanical/DataModel/Enums/GraphicsAnimationExportFormat.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.GraphicsAnimationExportFormat), settings: [Ansys.Mechanical.Graphics.AnimationExportSettings](../../../../../Mechanical/Graphics/AnimationExportSettings.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.Graphics.AnimationExportSettings))
-
-Run the ExportAnimation action.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="MaximumCombinedStress.DuplicateWithoutResults"></a>
-
-### MaximumCombinedStress.DuplicateWithoutResults()
-
-Run the DuplicateWithoutResults action.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="MaximumCombinedStress.CreateResultsAtAllSets"></a>
-
-### MaximumCombinedStress.CreateResultsAtAllSets()
-
-Creates results at all sets for results under a solution.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="MaximumCombinedStress.PromoteToNamedSelection"></a>
-
-### MaximumCombinedStress.PromoteToNamedSelection()
-
-Run the PromoteToNamedSelection action.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="MaximumCombinedStress.CreateParameter"></a>
-
-### MaximumCombinedStress.CreateParameter(propName: System.String)
-
-CreateParameter method.
+Activate the current object.
 
 <!-- !! processed by numpydoc !! -->
 
@@ -645,51 +571,19 @@ Creates a new Alert
 
 <!-- !! processed by numpydoc !! -->
 
-<a id="MaximumCombinedStress.AddConvergence"></a>
-
-### MaximumCombinedStress.AddConvergence()
-
-Creates a new Convergence
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="MaximumCombinedStress.RenameBasedOnDefinition"></a>
-
-### MaximumCombinedStress.RenameBasedOnDefinition()
-
-Run the RenameBasedOnDefinition action.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="MaximumCombinedStress.Delete"></a>
-
-### MaximumCombinedStress.Delete()
-
-Run the Delete action.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="MaximumCombinedStress.GetChildren"></a>
-
-### MaximumCombinedStress.GetChildren(recurses: System.Boolean, children: System.Collections.Generic.IList[ChildrenType])
-
-Gets the list of children, filtered by type.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="id1"></a>
-
-### MaximumCombinedStress.GetChildren(category: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory), recurses: System.Boolean, children: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject])
-
-Gets the list of children, filtered by type.
-
-<!-- !! processed by numpydoc !! -->
-
 <a id="MaximumCombinedStress.AddComment"></a>
 
 ### MaximumCombinedStress.AddComment()
 
 Creates a new child Comment.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="MaximumCombinedStress.AddConvergence"></a>
+
+### MaximumCombinedStress.AddConvergence()
+
+Creates a new Convergence
 
 <!-- !! processed by numpydoc !! -->
 
@@ -705,17 +599,19 @@ Creates a new child Figure.
 
 ### MaximumCombinedStress.AddImage(filePath: System.String)
 
+```text
 Creates a new child Image.
 If a filePath is provided, the image will be loaded from that file,
 if not, the image will be a screen capture of the Geometry window.
+```
 
 <!-- !! processed by numpydoc !! -->
 
-<a id="MaximumCombinedStress.Activate"></a>
+<a id="MaximumCombinedStress.ClearGeneratedData"></a>
 
-### MaximumCombinedStress.Activate()
+### MaximumCombinedStress.ClearGeneratedData()
 
-Activate the current object.
+Run the ClearGeneratedData action.
 
 <!-- !! processed by numpydoc !! -->
 
@@ -727,11 +623,91 @@ Copies all visible properties from this object to another.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="MaximumCombinedStress.CreateParameter"></a>
+
+### MaximumCombinedStress.CreateParameter(propName: System.String)
+
+CreateParameter method.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="MaximumCombinedStress.CreateResultsAtAllSets"></a>
+
+### MaximumCombinedStress.CreateResultsAtAllSets()
+
+Creates results at all sets for results under a solution.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="MaximumCombinedStress.Delete"></a>
+
+### MaximumCombinedStress.Delete()
+
+Run the Delete action.
+
+<!-- !! processed by numpydoc !! -->
+
 <a id="MaximumCombinedStress.Duplicate"></a>
 
 ### MaximumCombinedStress.Duplicate()
 
 Creates a copy of the current DataModelObject.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="MaximumCombinedStress.DuplicateWithoutResults"></a>
+
+### MaximumCombinedStress.DuplicateWithoutResults()
+
+Run the DuplicateWithoutResults action.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="MaximumCombinedStress.EvaluateAllResults"></a>
+
+### MaximumCombinedStress.EvaluateAllResults()
+
+Run the EvaluateAllResults action.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="MaximumCombinedStress.ExportAnimation"></a>
+
+### MaximumCombinedStress.ExportAnimation(filePath: System.String, format: [Ansys.Mechanical.DataModel.Enums.GraphicsAnimationExportFormat](../../../../../../../v242/Ansys/Mechanical/DataModel/Enums/GraphicsAnimationExportFormat.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.GraphicsAnimationExportFormat), settings: [Ansys.Mechanical.Graphics.AnimationExportSettings](../../../../../../../v242/Ansys/Mechanical/Graphics/AnimationExportSettings.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.Graphics.AnimationExportSettings))
+
+Run the ExportAnimation action.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="MaximumCombinedStress.ExportToTextFile"></a>
+
+### MaximumCombinedStress.ExportToTextFile(filePath: System.String)
+
+Run the ExportToTextFile action.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="MaximumCombinedStress.FetchRemoteResults"></a>
+
+### MaximumCombinedStress.FetchRemoteResults()
+
+Run the FetchRemoteResult action.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="MaximumCombinedStress.GetChildren"></a>
+
+### MaximumCombinedStress.GetChildren(recurses: System.Boolean, children: System.Collections.Generic.IList[ChildrenType])
+
+Gets the list of children, filtered by type.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="MaximumCombinedStress.GetParameter"></a>
+
+### MaximumCombinedStress.GetParameter(propName: System.String)
+
+Gets the parameter corresponding to the given property.
 
 <!-- !! processed by numpydoc !! -->
 
@@ -751,6 +727,25 @@ Run the GroupSimilarObjects action.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="MaximumCombinedStress.PromoteToNamedSelection"></a>
+
+### MaximumCombinedStress.PromoteToNamedSelection()
+
+Run the PromoteToNamedSelection action.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="MaximumCombinedStress.PropertyByAPIName"></a>
+
+### MaximumCombinedStress.PropertyByAPIName(name: System.String)
+
+```text
+Get a property by its API name.
+If multiple properties have the same API Name, only the first property with that name will be returned.
+```
+
+<!-- !! processed by numpydoc !! -->
+
 <a id="MaximumCombinedStress.PropertyByName"></a>
 
 ### MaximumCombinedStress.PropertyByName(name: System.String)
@@ -759,28 +754,19 @@ Get a property by its unique name.
 
 <!-- !! processed by numpydoc !! -->
 
-<a id="MaximumCombinedStress.PropertyByAPIName"></a>
-
-### MaximumCombinedStress.PropertyByAPIName(name: System.String)
-
-Get a property by its API name.
-If multiple properties have the same API Name, only the first property with that name will be returned.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="MaximumCombinedStress.GetParameter"></a>
-
-### MaximumCombinedStress.GetParameter(propName: System.String)
-
-Gets the parameter corresponding to the given property.
-
-<!-- !! processed by numpydoc !! -->
-
 <a id="MaximumCombinedStress.RemoveParameter"></a>
 
 ### MaximumCombinedStress.RemoveParameter(propName: System.String)
 
 Removes the parameter from the parameter set corresponding to the given property.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="MaximumCombinedStress.RenameBasedOnDefinition"></a>
+
+### MaximumCombinedStress.RenameBasedOnDefinition()
+
+Run the RenameBasedOnDefinition action.
 
 <!-- !! processed by numpydoc !! -->
 

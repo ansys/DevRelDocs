@@ -1,6 +1,6 @@
 # `UseExistingModesymFile`
 
-
+<a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.UseExistingModesymFile"></a>
 
 #### *class* ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.UseExistingModesymFile
 
@@ -17,10 +17,10 @@ Specifies the UseExistingModesymFile.
 ### Attributes
 
 | Name |
-| ------------------------------------------------------------------------------------------------------------------------------------------------ |
-| [`No`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/UseExistingModesymFile.md#UseExistingModesymFile.No) |
-| [`ProgramControlled`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/UseExistingModesymFile.md#UseExistingModesymFile.ProgramControlled) |
-| [`Yes`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/UseExistingModesymFile.md#UseExistingModesymFile.Yes) |
+| ------------------------------------------------------------------ |
+| [`No`](#UseExistingModesymFile.No) |
+| [`ProgramControlled`](#UseExistingModesymFile.ProgramControlled) |
+| [`Yes`](#UseExistingModesymFile.Yes) |
 
 <a id="attribute-detail"></a>
 

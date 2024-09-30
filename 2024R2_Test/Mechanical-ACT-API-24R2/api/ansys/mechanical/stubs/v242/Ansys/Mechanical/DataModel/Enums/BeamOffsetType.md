@@ -1,6 +1,6 @@
 # `BeamOffsetType`
 
-
+<a id="ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.BeamOffsetType"></a>
 
 #### *class* ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.BeamOffsetType
 
@@ -17,7 +17,7 @@ Specifies the BeamOffsetType.
 ### Attributes
 
 | Name |
-| -------------------------------------------------------------------- |
+| ------------------------------------------------------------------------------------------------------------------------------------------ |
 | [`Centroid`](#BeamOffsetType.Centroid) |
 | [`CoordinateSystemOrigin`](#BeamOffsetType.CoordinateSystemOrigin) |
 | [`ShearCenter`](#BeamOffsetType.ShearCenter) |

@@ -1,6 +1,6 @@
 # `LoadVariationType`
 
-
+<a id="ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.LoadVariationType"></a>
 
 #### *class* ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.LoadVariationType
 
@@ -17,24 +17,24 @@ Specifies the LoadVariationType.
 ### Attributes
 
 | Name |
-| --------------------------------------------------------------------- |
+| ---------------------------------------------------------------------------------------------------------------------------------------------- |
+| [`CFXResults`](#LoadVariationType.CFXResults) |
 | [`ConstantOrHeatFlow`](#LoadVariationType.ConstantOrHeatFlow) |
-| [`TemperatureDependent`](#LoadVariationType.TemperatureDependent) |
 | [`LoadHistoryOrHeatFlow`](#LoadVariationType.LoadHistoryOrHeatFlow) |
 | [`PerfectInsulation`](#LoadVariationType.PerfectInsulation) |
-| [`CFXResults`](#LoadVariationType.CFXResults) |
+| [`TemperatureDependent`](#LoadVariationType.TemperatureDependent) |
 
 <a id="attribute-detail"></a>
 
 ## Attribute detail
 
+<a id="LoadVariationType.CFXResults"></a>
+
+### LoadVariationType.CFXResults *= 4*
+
 <a id="LoadVariationType.ConstantOrHeatFlow"></a>
 
 ### LoadVariationType.ConstantOrHeatFlow *= 0*
-
-<a id="LoadVariationType.TemperatureDependent"></a>
-
-### LoadVariationType.TemperatureDependent *= 3*
 
 <a id="LoadVariationType.LoadHistoryOrHeatFlow"></a>
 
@@ -44,8 +44,8 @@ Specifies the LoadVariationType.
 
 ### LoadVariationType.PerfectInsulation *= 2*
 
-<a id="LoadVariationType.CFXResults"></a>
+<a id="LoadVariationType.TemperatureDependent"></a>
 
-### LoadVariationType.CFXResults *= 4*
+### LoadVariationType.TemperatureDependent *= 3*
 
 

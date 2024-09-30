@@ -1,6 +1,6 @@
 # `MAPDLCoordinateSystemData`
 
-
+<a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.SolverData.MAPDLCoordinateSystemData"></a>
 
 #### *class* ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.SolverData.MAPDLCoordinateSystemData
 
@@ -17,8 +17,8 @@ MAPDLCoordinateSystemData class.
 ### Properties
 
 | Name | Description |
-|-------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------|
-| [`SystemId`](../../../../../v242/Ansys/Mechanical/DataModel/SolverData/MAPDLCoordinateSystemData.md#MAPDLCoordinateSystemData.SystemId)   | Gets the System Id for the coordinate system.   |
+|-----------------------------------------------------|-------------------------------------------------|
+| [`SystemId`](#MAPDLCoordinateSystemData.SystemId)   | Gets the System Id for the coordinate system.   |
 
 <a id="property-detail"></a>
 

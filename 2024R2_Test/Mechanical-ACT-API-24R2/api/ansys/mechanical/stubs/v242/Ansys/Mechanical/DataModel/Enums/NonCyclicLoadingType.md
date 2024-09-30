@@ -1,6 +1,6 @@
 # `NonCyclicLoadingType`
 
-
+<a id="ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.NonCyclicLoadingType"></a>
 
 #### *class* ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.NonCyclicLoadingType
 
@@ -17,10 +17,10 @@ Specifies the NonCyclicLoadingType.
 ### Attributes
 
 | Name |
-| ---------------------------------------------------------- |
+| -------------------------------------------------------------------------------------------------------------------------------------- |
 | [`HarmonicIndex`](#NonCyclicLoadingType.HarmonicIndex) |
-| [`SectorNumber`](#NonCyclicLoadingType.SectorNumber) |
 | [`No`](#NonCyclicLoadingType.No) |
+| [`SectorNumber`](#NonCyclicLoadingType.SectorNumber) |
 
 <a id="attribute-detail"></a>
 
@@ -30,12 +30,12 @@ Specifies the NonCyclicLoadingType.
 
 ### NonCyclicLoadingType.HarmonicIndex *= 1*
 
-<a id="NonCyclicLoadingType.SectorNumber"></a>
-
-### NonCyclicLoadingType.SectorNumber *= 2*
-
 <a id="NonCyclicLoadingType.No"></a>
 
 ### NonCyclicLoadingType.No *= 0*
+
+<a id="NonCyclicLoadingType.SectorNumber"></a>
+
+### NonCyclicLoadingType.SectorNumber *= 2*
 
 

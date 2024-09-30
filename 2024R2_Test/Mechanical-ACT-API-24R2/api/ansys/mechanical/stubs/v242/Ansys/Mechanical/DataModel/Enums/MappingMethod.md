@@ -1,6 +1,6 @@
 # `MappingMethod`
 
-
+<a id="ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.MappingMethod"></a>
 
 #### *class* ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.MappingMethod
 
@@ -15,25 +15,25 @@ Bases: [`enum.Enum`](https://docs.python.org/3/library/enum.html#enum.Enum)
 ### Attributes
 
 | Name |
-| --------------------------------------------------- |
-| [`PointPoint`](#MappingMethod.PointPoint) |
-| [`PointElement`](#MappingMethod.PointElement) |
+| -------------------------------------------------------------------------------------------------------------------------- |
 | [`ElementElement`](#MappingMethod.ElementElement) |
+| [`PointElement`](#MappingMethod.PointElement) |
+| [`PointPoint`](#MappingMethod.PointPoint) |
 
 <a id="attribute-detail"></a>
 
 ## Attribute detail
 
-<a id="MappingMethod.PointPoint"></a>
+<a id="MappingMethod.ElementElement"></a>
 
-### MappingMethod.PointPoint *= 0*
+### MappingMethod.ElementElement *= 2*
 
 <a id="MappingMethod.PointElement"></a>
 
 ### MappingMethod.PointElement *= 1*
 
-<a id="MappingMethod.ElementElement"></a>
+<a id="MappingMethod.PointPoint"></a>
 
-### MappingMethod.ElementElement *= 2*
+### MappingMethod.PointPoint *= 0*
 
 

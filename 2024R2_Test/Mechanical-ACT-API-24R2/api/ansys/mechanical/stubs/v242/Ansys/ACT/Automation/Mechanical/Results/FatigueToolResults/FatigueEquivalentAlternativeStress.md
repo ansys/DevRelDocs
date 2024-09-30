@@ -1,6 +1,6 @@
 # `FatigueEquivalentAlternativeStress`
 
-
+<a id="ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Results.FatigueToolResults.FatigueEquivalentAlternativeStress"></a>
 
 #### *class* ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Results.FatigueToolResults.FatigueEquivalentAlternativeStress
 
@@ -17,132 +17,106 @@ Defines a FatigueEquivalentAlternativeStress.
 ### Methods
 
 | Name | Description |
-|------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------|
-| [`ClearGeneratedData`](#FatigueEquivalentAlternativeStress.ClearGeneratedData)           | Run the ClearGeneratedData action.                                                |
-| [`EvaluateAllResults`](#FatigueEquivalentAlternativeStress.EvaluateAllResults)           | Run the EvaluateAllResults action.                                                |
-| [`FetchRemoteResults`](#FatigueEquivalentAlternativeStress.FetchRemoteResults)           | Run the FetchRemoteResult action.                                                 |
-| [`ExportToTextFile`](#FatigueEquivalentAlternativeStress.ExportToTextFile)               | Run the ExportToTextFile action.                                                  |
-| [`ExportAnimation`](#FatigueEquivalentAlternativeStress.ExportAnimation)                 | Run the ExportAnimation action.                                                   |
-| [`DuplicateWithoutResults`](#FatigueEquivalentAlternativeStress.DuplicateWithoutResults) | Run the DuplicateWithoutResults action.                                           |
-| [`CreateResultsAtAllSets`](#FatigueEquivalentAlternativeStress.CreateResultsAtAllSets)   | Creates results at all sets for results under a solution.                         |
-| [`PromoteToNamedSelection`](#FatigueEquivalentAlternativeStress.PromoteToNamedSelection) | Run the PromoteToNamedSelection action.                                           |
-| [`CreateParameter`](#FatigueEquivalentAlternativeStress.CreateParameter)                 | CreateParameter method.                                                           |
+|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------|
+| [`Activate`](#FatigueEquivalentAlternativeStress.Activate)                               | Activate the current object.                                                      |
 | [`AddAlert`](#FatigueEquivalentAlternativeStress.AddAlert)                               | Creates a new Alert                                                               |
-| [`AddConvergence`](#FatigueEquivalentAlternativeStress.AddConvergence)                   | Creates a new Convergence                                                         |
-| [`RenameBasedOnDefinition`](#FatigueEquivalentAlternativeStress.RenameBasedOnDefinition) | Run the RenameBasedOnDefinition action.                                           |
-| [`Delete`](#FatigueEquivalentAlternativeStress.Delete)                                   | Run the Delete action.                                                            |
-| [`GetChildren`](#id1)                                                                    | Gets the list of children, filtered by type.                                      |
-| [`GetChildren`](#id1)                                                                    | Gets the list of children, filtered by type.                                      |
 | [`AddComment`](#FatigueEquivalentAlternativeStress.AddComment)                           | Creates a new child Comment.                                                      |
+| [`AddConvergence`](#FatigueEquivalentAlternativeStress.AddConvergence)                   | Creates a new Convergence                                                         |
 | [`AddFigure`](#FatigueEquivalentAlternativeStress.AddFigure)                             | Creates a new child Figure.                                                       |
 | [`AddImage`](#FatigueEquivalentAlternativeStress.AddImage)                               | Creates a new child Image.                                                        |
-| [`Activate`](#FatigueEquivalentAlternativeStress.Activate)                               | Activate the current object.                                                      |
+| [`ClearGeneratedData`](#FatigueEquivalentAlternativeStress.ClearGeneratedData)           | Run the ClearGeneratedData action.                                                |
 | [`CopyTo`](#FatigueEquivalentAlternativeStress.CopyTo)                                   | Copies all visible properties from this object to another.                        |
+| [`CreateParameter`](#FatigueEquivalentAlternativeStress.CreateParameter)                 | CreateParameter method.                                                           |
+| [`CreateResultsAtAllSets`](#FatigueEquivalentAlternativeStress.CreateResultsAtAllSets)   | Creates results at all sets for results under a solution.                         |
+| [`Delete`](#FatigueEquivalentAlternativeStress.Delete)                                   | Run the Delete action.                                                            |
 | [`Duplicate`](#FatigueEquivalentAlternativeStress.Duplicate)                             | Creates a copy of the current DataModelObject.                                    |
+| [`DuplicateWithoutResults`](#FatigueEquivalentAlternativeStress.DuplicateWithoutResults) | Run the DuplicateWithoutResults action.                                           |
+| [`EvaluateAllResults`](#FatigueEquivalentAlternativeStress.EvaluateAllResults)           | Run the EvaluateAllResults action.                                                |
+| [`ExportAnimation`](#FatigueEquivalentAlternativeStress.ExportAnimation)                 | Run the ExportAnimation action.                                                   |
+| [`ExportToTextFile`](#FatigueEquivalentAlternativeStress.ExportToTextFile)               | Run the ExportToTextFile action.                                                  |
+| [`FetchRemoteResults`](#FatigueEquivalentAlternativeStress.FetchRemoteResults)           | Run the FetchRemoteResult action.                                                 |
+| [`GetChildren`](#FatigueEquivalentAlternativeStress.GetChildren)                         | Gets the list of children, filtered by type.                                      |
+| [`GetParameter`](#FatigueEquivalentAlternativeStress.GetParameter)                       | Gets the parameter corresponding to the given property.                           |
 | [`GroupAllSimilarChildren`](#FatigueEquivalentAlternativeStress.GroupAllSimilarChildren) | Run the GroupAllSimilarChildren action.                                           |
 | [`GroupSimilarObjects`](#FatigueEquivalentAlternativeStress.GroupSimilarObjects)         | Run the GroupSimilarObjects action.                                               |
-| [`PropertyByName`](#FatigueEquivalentAlternativeStress.PropertyByName)                   | Get a property by its unique name.                                                |
+| [`PromoteToNamedSelection`](#FatigueEquivalentAlternativeStress.PromoteToNamedSelection) | Run the PromoteToNamedSelection action.                                           |
 | [`PropertyByAPIName`](#FatigueEquivalentAlternativeStress.PropertyByAPIName)             | Get a property by its API name.                                                   |
-| [`GetParameter`](#FatigueEquivalentAlternativeStress.GetParameter)                       | Gets the parameter corresponding to the given property.                           |
+| [`PropertyByName`](#FatigueEquivalentAlternativeStress.PropertyByName)                   | Get a property by its unique name.                                                |
 | [`RemoveParameter`](#FatigueEquivalentAlternativeStress.RemoveParameter)                 | Removes the parameter from the parameter set corresponding to the given property. |
+| [`RenameBasedOnDefinition`](#FatigueEquivalentAlternativeStress.RenameBasedOnDefinition) | Run the RenameBasedOnDefinition action.                                           |
 
 ### Properties
 
 | Name | Description |
-|--------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------|
-| [`InternalObject`](#id0)                                                                                     | Gets the internal object. For advanced usage only.                     |
-| [`DataModelObjectCategory`](#FatigueEquivalentAlternativeStress.DataModelObjectCategory)                     | Gets the current DataModelObject's category.                           |
-| [`Method`](#FatigueEquivalentAlternativeStress.Method)                                                       | Gets the Method.                                                       |
-| [`DesignLife`](#FatigueEquivalentAlternativeStress.DesignLife)                                               | Gets or sets the DesignLife.                                           |
+|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------|
+| [`Average`](#FatigueEquivalentAlternativeStress.Average)                                                     | Gets the Average.                                                      |
 | [`AverageAcrossBodies`](#FatigueEquivalentAlternativeStress.AverageAcrossBodies)                             | Gets or sets the AverageAcrossBodies.                                  |
-| [`PlotData`](#FatigueEquivalentAlternativeStress.PlotData)                                                   | Gets the result table.                                                 |
-| [`Location`](#FatigueEquivalentAlternativeStress.Location)                                                   | Gets or sets the Location.                                             |
-| [`TimeForMinimumOfMinimumValues`](#FatigueEquivalentAlternativeStress.TimeForMinimumOfMinimumValues)         | Get the Time for the minimum of minimum values.                        |
-| [`TimeForMinimumOfMaximumValues`](#FatigueEquivalentAlternativeStress.TimeForMinimumOfMaximumValues)         | Get the Time for the minimum of maximum values.                        |
-| [`LoadStepForMinimumOfMinimumValues`](#FatigueEquivalentAlternativeStress.LoadStepForMinimumOfMinimumValues) | Get the Load Step for the minimum of minimum values.                   |
-| [`LoadStepForMinimumOfMaximumValues`](#FatigueEquivalentAlternativeStress.LoadStepForMinimumOfMaximumValues) | Get the Load Step for the minimum of maximum values.                   |
-| [`TimeForMaximumOfMinimumValues`](#FatigueEquivalentAlternativeStress.TimeForMaximumOfMinimumValues)         | Get the Time for the maximum of minimum values.                        |
-| [`TimeForMaximumOfMaximumValues`](#FatigueEquivalentAlternativeStress.TimeForMaximumOfMaximumValues)         | Get the Time for the maximum of maximum values.                        |
-| [`LoadStepForMaximumOfMinimumValues`](#FatigueEquivalentAlternativeStress.LoadStepForMaximumOfMinimumValues) | Get the Load Step for the maximum of minimum values.                   |
-| [`LoadStepForMaximumOfMaximumValues`](#FatigueEquivalentAlternativeStress.LoadStepForMaximumOfMaximumValues) | Get the Load Step for the maximum of maximum values.                   |
-| [`IsSolved`](#FatigueEquivalentAlternativeStress.IsSolved)                                                   | Gets the IsSolved.                                                     |
-| [`CoordinateSystem`](#FatigueEquivalentAlternativeStress.CoordinateSystem)                                   | Gets or sets the Coordinate System.                                    |
-| [`ScopingMethod`](#FatigueEquivalentAlternativeStress.ScopingMethod)                                         | Gets or sets the ScopingMethod.                                        |
-| [`SetNumber`](#FatigueEquivalentAlternativeStress.SetNumber)                                                 | Gets or sets the Set Number.                                           |
+| [`By`](#FatigueEquivalentAlternativeStress.By)                                                               | Gets or sets the By.                                                   |
+| [`CalculateTimeHistory`](#FatigueEquivalentAlternativeStress.CalculateTimeHistory)                           | Gets or sets the CalculateTimeHistory.                                 |
+| [`Children`](#FatigueEquivalentAlternativeStress.Children)                                                   | Gets the list of children.                                             |
 | [`CombinationNumber`](#FatigueEquivalentAlternativeStress.CombinationNumber)                                 | Gets or sets the Combination Number for a Solution Combination result. |
-| [`SolutionCombinationDriver`](#FatigueEquivalentAlternativeStress.SolutionCombinationDriver)                 | Gets or sets the SolutionCombinationDriver.                            |
-| [`Path`](#FatigueEquivalentAlternativeStress.Path)                                                           | Path property.                                                         |
-| [`Surface`](#FatigueEquivalentAlternativeStress.Surface)                                                     | Surface property.                                                      |
-| [`SurfaceCoating`](#FatigueEquivalentAlternativeStress.SurfaceCoating)                                       | SurfaceCoating property.                                               |
-| [`NamedSelections`](#FatigueEquivalentAlternativeStress.NamedSelections)                                     | Gets or sets the NamedSelections.                                      |
-| [`WaterfallShowTextOnMosaic`](#FatigueEquivalentAlternativeStress.WaterfallShowTextOnMosaic)                 | Gets or sets the Waterfall Mosaic Text Property.                       |
+| [`Comments`](#FatigueEquivalentAlternativeStress.Comments)                                                   | Gets the list of associated comments.                                  |
+| [`CoordinateSystem`](#FatigueEquivalentAlternativeStress.CoordinateSystem)                                   | Gets or sets the Coordinate System.                                    |
 | [`CrackFrontNumber`](#FatigueEquivalentAlternativeStress.CrackFrontNumber)                                   | Gets or sets the CrackFrontNumber.                                     |
+| [`DataModelObjectCategory`](#FatigueEquivalentAlternativeStress.DataModelObjectCategory)                     | Gets the current DataModelObject’s category.                           |
+| [`DesignLife`](#FatigueEquivalentAlternativeStress.DesignLife)                                               | Gets or sets the DesignLife.                                           |
+| [`DisplayOption`](#FatigueEquivalentAlternativeStress.DisplayOption)                                         | Gets or sets the DisplayOption.                                        |
+| [`DisplayTime`](#FatigueEquivalentAlternativeStress.DisplayTime)                                             | Gets or sets the DisplayTime.                                          |
+| [`DpfEvaluation`](#FatigueEquivalentAlternativeStress.DpfEvaluation)                                         | Gets or sets the DpfEvaluation.                                        |
+| [`Figures`](#FatigueEquivalentAlternativeStress.Figures)                                                     | Gets the list of associated figures.                                   |
 | [`GlobalIDs`](#FatigueEquivalentAlternativeStress.GlobalIDs)                                                 | Gets or sets the GlobalIDs.                                            |
+| [`GraphControlsXAxis`](#FatigueEquivalentAlternativeStress.GraphControlsXAxis)                               | Gets or sets the GraphControlsXAxis.                                   |
 | [`Identifier`](#FatigueEquivalentAlternativeStress.Identifier)                                               | Gets or sets the Identifier.                                           |
+| [`Images`](#FatigueEquivalentAlternativeStress.Images)                                                       | Gets the list of associated images.                                    |
+| [`InternalObject`](#FatigueEquivalentAlternativeStress.InternalObject)                                       | Gets the internal object. For advanced usage only.                     |
+| [`IsSolved`](#FatigueEquivalentAlternativeStress.IsSolved)                                                   | Gets the IsSolved.                                                     |
+| [`ItemType`](#FatigueEquivalentAlternativeStress.ItemType)                                                   | Gets or sets the ItemType.                                             |
 | [`IterationNumber`](#FatigueEquivalentAlternativeStress.IterationNumber)                                     | Gets the IterationNumber.                                              |
 | [`LoadStep`](#FatigueEquivalentAlternativeStress.LoadStep)                                                   | Gets the LoadStep.                                                     |
-| [`MaximumOccursOn`](#FatigueEquivalentAlternativeStress.MaximumOccursOn)                                     | Gets the MaximumOccursOn.                                              |
-| [`MinimumOccursOn`](#FatigueEquivalentAlternativeStress.MinimumOccursOn)                                     | Gets the MinimumOccursOn.                                              |
+| [`LoadStepForMaximumOfMaximumValues`](#FatigueEquivalentAlternativeStress.LoadStepForMaximumOfMaximumValues) | Get the Load Step for the maximum of maximum values.                   |
+| [`LoadStepForMaximumOfMinimumValues`](#FatigueEquivalentAlternativeStress.LoadStepForMaximumOfMinimumValues) | Get the Load Step for the maximum of minimum values.                   |
+| [`LoadStepForMinimumOfMaximumValues`](#FatigueEquivalentAlternativeStress.LoadStepForMinimumOfMaximumValues) | Get the Load Step for the minimum of maximum values.                   |
+| [`LoadStepForMinimumOfMinimumValues`](#FatigueEquivalentAlternativeStress.LoadStepForMinimumOfMinimumValues) | Get the Load Step for the minimum of minimum values.                   |
 | [`LoadStepNumber`](#FatigueEquivalentAlternativeStress.LoadStepNumber)                                       | Gets or sets the LoadStepNumber.                                       |
-| [`SolverComponentIDs`](#FatigueEquivalentAlternativeStress.SolverComponentIDs)                               | Gets or sets the SolverComponentIDs.                                   |
-| [`Substep`](#FatigueEquivalentAlternativeStress.Substep)                                                     | Gets the Substep.                                                      |
-| [`Average`](#FatigueEquivalentAlternativeStress.Average)                                                     | Gets the Average.                                                      |
+| [`Location`](#FatigueEquivalentAlternativeStress.Location)                                                   | Gets or sets the Location.                                             |
 | [`Maximum`](#FatigueEquivalentAlternativeStress.Maximum)                                                     | Gets the Maximum.                                                      |
+| [`MaximumOccursOn`](#FatigueEquivalentAlternativeStress.MaximumOccursOn)                                     | Gets the MaximumOccursOn.                                              |
 | [`MaximumOfMaximumOverTime`](#FatigueEquivalentAlternativeStress.MaximumOfMaximumOverTime)                   | Gets the MaximumOfMaximumOverTime.                                     |
 | [`MaximumOfMinimumOverTime`](#FatigueEquivalentAlternativeStress.MaximumOfMinimumOverTime)                   | Gets the MaximumOfMinimumOverTime.                                     |
+| [`Method`](#FatigueEquivalentAlternativeStress.Method)                                                       | Gets the Method.                                                       |
 | [`Minimum`](#FatigueEquivalentAlternativeStress.Minimum)                                                     | Gets the Minimum.                                                      |
+| [`MinimumOccursOn`](#FatigueEquivalentAlternativeStress.MinimumOccursOn)                                     | Gets the MinimumOccursOn.                                              |
 | [`MinimumOfMaximumOverTime`](#FatigueEquivalentAlternativeStress.MinimumOfMaximumOverTime)                   | Gets the MinimumOfMaximumOverTime.                                     |
 | [`MinimumOfMinimumOverTime`](#FatigueEquivalentAlternativeStress.MinimumOfMinimumOverTime)                   | Gets the MinimumOfMinimumOverTime.                                     |
-| [`Time`](#FatigueEquivalentAlternativeStress.Time)                                                           | Gets the Time.                                                         |
-| [`DisplayTime`](#FatigueEquivalentAlternativeStress.DisplayTime)                                             | Gets or sets the DisplayTime.                                          |
-| [`GraphControlsXAxis`](#FatigueEquivalentAlternativeStress.GraphControlsXAxis)                               | Gets or sets the GraphControlsXAxis.                                   |
-| [`DisplayOption`](#FatigueEquivalentAlternativeStress.DisplayOption)                                         | Gets or sets the DisplayOption.                                        |
-| [`DpfEvaluation`](#FatigueEquivalentAlternativeStress.DpfEvaluation)                                         | Gets or sets the DpfEvaluation.                                        |
-| [`By`](#FatigueEquivalentAlternativeStress.By)                                                               | Gets or sets the By.                                                   |
-| [`ItemType`](#FatigueEquivalentAlternativeStress.ItemType)                                                   | Gets or sets the ItemType.                                             |
-| [`CalculateTimeHistory`](#FatigueEquivalentAlternativeStress.CalculateTimeHistory)                           | Gets or sets the CalculateTimeHistory.                                 |
-| [`Suppressed`](#FatigueEquivalentAlternativeStress.Suppressed)                                               | Gets or sets the Suppressed.                                           |
-| [`Children`](#FatigueEquivalentAlternativeStress.Children)                                                   | Gets the list of children.                                             |
-| [`Comments`](#FatigueEquivalentAlternativeStress.Comments)                                                   | Gets the list of associated comments.                                  |
-| [`Figures`](#FatigueEquivalentAlternativeStress.Figures)                                                     | Gets the list of associated figures.                                   |
-| [`Images`](#FatigueEquivalentAlternativeStress.Images)                                                       | Gets the list of associated images.                                    |
-| [`InternalObject`](#id0)                                                                                     | Gets the internal object. For advanced usage only.                     |
+| [`NamedSelections`](#FatigueEquivalentAlternativeStress.NamedSelections)                                     | Gets or sets the NamedSelections.                                      |
+| [`Path`](#FatigueEquivalentAlternativeStress.Path)                                                           | Path property.                                                         |
+| [`PlotData`](#FatigueEquivalentAlternativeStress.PlotData)                                                   | Gets the result table.                                                 |
 | [`Properties`](#FatigueEquivalentAlternativeStress.Properties)                                               | Gets the list of properties for this object.                           |
+| [`ScopingMethod`](#FatigueEquivalentAlternativeStress.ScopingMethod)                                         | Gets or sets the ScopingMethod.                                        |
+| [`SetNumber`](#FatigueEquivalentAlternativeStress.SetNumber)                                                 | Gets or sets the Set Number.                                           |
+| [`SolutionCombinationDriver`](#FatigueEquivalentAlternativeStress.SolutionCombinationDriver)                 | Gets or sets the SolutionCombinationDriver.                            |
+| [`SolverComponentIDs`](#FatigueEquivalentAlternativeStress.SolverComponentIDs)                               | Gets or sets the SolverComponentIDs.                                   |
+| [`Substep`](#FatigueEquivalentAlternativeStress.Substep)                                                     | Gets the Substep.                                                      |
+| [`Suppressed`](#FatigueEquivalentAlternativeStress.Suppressed)                                               | Gets or sets the Suppressed.                                           |
+| [`Surface`](#FatigueEquivalentAlternativeStress.Surface)                                                     | Surface property.                                                      |
+| [`SurfaceCoating`](#FatigueEquivalentAlternativeStress.SurfaceCoating)                                                                                                                                                                 | SurfaceCoating property.                                               |
+| [`Time`](#FatigueEquivalentAlternativeStress.Time)                                                           | Gets the Time.                                                         |
+| [`TimeForMaximumOfMaximumValues`](#FatigueEquivalentAlternativeStress.TimeForMaximumOfMaximumValues)         | Get the Time for the maximum of maximum values.                        |
+| [`TimeForMaximumOfMinimumValues`](#FatigueEquivalentAlternativeStress.TimeForMaximumOfMinimumValues)         | Get the Time for the maximum of minimum values.                        |
+| [`TimeForMinimumOfMaximumValues`](#FatigueEquivalentAlternativeStress.TimeForMinimumOfMaximumValues)         | Get the Time for the minimum of maximum values.                        |
+| [`TimeForMinimumOfMinimumValues`](#FatigueEquivalentAlternativeStress.TimeForMinimumOfMinimumValues)         | Get the Time for the minimum of minimum values.                        |
 | [`VisibleProperties`](#FatigueEquivalentAlternativeStress.VisibleProperties)                                 | Gets the list of properties that are visible for this object.          |
+| [`WaterfallShowTextOnMosaic`](#FatigueEquivalentAlternativeStress.WaterfallShowTextOnMosaic)                                                                                                                                           | Gets or sets the Waterfall Mosaic Text Property.                       |
 
 <a id="property-detail"></a>
 
 ## Property detail
 
-<a id="FatigueEquivalentAlternativeStress.InternalObject"></a>
+<a id="FatigueEquivalentAlternativeStress.Average"></a>
 
-### *property* FatigueEquivalentAlternativeStress.InternalObject *: Ansys.Common.Interop.DSObjectsAuto.IDSResultAuto | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* FatigueEquivalentAlternativeStress.Average *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets the internal object. For advanced usage only.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="FatigueEquivalentAlternativeStress.DataModelObjectCategory"></a>
-
-### *property* FatigueEquivalentAlternativeStress.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../../../v241/Ansys/Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets the current DataModelObject's category.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="FatigueEquivalentAlternativeStress.Method"></a>
-
-### *property* FatigueEquivalentAlternativeStress.Method *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets the Method.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="FatigueEquivalentAlternativeStress.DesignLife"></a>
-
-### *property* FatigueEquivalentAlternativeStress.DesignLife *: System.Double | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the DesignLife.
+Gets the Average.
 
 <!-- !! processed by numpydoc !! -->
 
@@ -154,91 +128,43 @@ Gets or sets the AverageAcrossBodies.
 
 <!-- !! processed by numpydoc !! -->
 
-<a id="FatigueEquivalentAlternativeStress.PlotData"></a>
+<a id="FatigueEquivalentAlternativeStress.By"></a>
 
-### *property* FatigueEquivalentAlternativeStress.PlotData *: [Ansys.Mechanical.DataModel.Results.ResultDataTable](../../../../../../../v241/Ansys/Mechanical/DataModel/Results/ResultDataTable.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Results.ResultDataTable) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* FatigueEquivalentAlternativeStress.By *: [Ansys.Mechanical.DataModel.Enums.SetDriverStyle](../../../../../Mechanical/DataModel/Enums/SetDriverStyle.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.SetDriverStyle) | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets the result table.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="FatigueEquivalentAlternativeStress.Location"></a>
-
-### *property* FatigueEquivalentAlternativeStress.Location *: Ansys.ACT.Interfaces.Common.ISelectionInfo | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the Location.
+Gets or sets the By.
 
 <!-- !! processed by numpydoc !! -->
 
-<a id="FatigueEquivalentAlternativeStress.TimeForMinimumOfMinimumValues"></a>
+<a id="FatigueEquivalentAlternativeStress.CalculateTimeHistory"></a>
 
-### *property* FatigueEquivalentAlternativeStress.TimeForMinimumOfMinimumValues *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* FatigueEquivalentAlternativeStress.CalculateTimeHistory *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Get the Time for the minimum of minimum values.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="FatigueEquivalentAlternativeStress.TimeForMinimumOfMaximumValues"></a>
-
-### *property* FatigueEquivalentAlternativeStress.TimeForMinimumOfMaximumValues *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Get the Time for the minimum of maximum values.
+Gets or sets the CalculateTimeHistory.
 
 <!-- !! processed by numpydoc !! -->
 
-<a id="FatigueEquivalentAlternativeStress.LoadStepForMinimumOfMinimumValues"></a>
+<a id="FatigueEquivalentAlternativeStress.Children"></a>
 
-### *property* FatigueEquivalentAlternativeStress.LoadStepForMinimumOfMinimumValues *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* FatigueEquivalentAlternativeStress.Children *: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Get the Load Step for the minimum of minimum values.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="FatigueEquivalentAlternativeStress.LoadStepForMinimumOfMaximumValues"></a>
-
-### *property* FatigueEquivalentAlternativeStress.LoadStepForMinimumOfMaximumValues *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Get the Load Step for the minimum of maximum values.
+Gets the list of children.
 
 <!-- !! processed by numpydoc !! -->
 
-<a id="FatigueEquivalentAlternativeStress.TimeForMaximumOfMinimumValues"></a>
+<a id="FatigueEquivalentAlternativeStress.CombinationNumber"></a>
 
-### *property* FatigueEquivalentAlternativeStress.TimeForMaximumOfMinimumValues *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* FatigueEquivalentAlternativeStress.CombinationNumber *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Get the Time for the maximum of minimum values.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="FatigueEquivalentAlternativeStress.TimeForMaximumOfMaximumValues"></a>
-
-### *property* FatigueEquivalentAlternativeStress.TimeForMaximumOfMaximumValues *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Get the Time for the maximum of maximum values.
+Gets or sets the Combination Number for a Solution Combination result.
 
 <!-- !! processed by numpydoc !! -->
 
-<a id="FatigueEquivalentAlternativeStress.LoadStepForMaximumOfMinimumValues"></a>
+<a id="FatigueEquivalentAlternativeStress.Comments"></a>
 
-### *property* FatigueEquivalentAlternativeStress.LoadStepForMaximumOfMinimumValues *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* FatigueEquivalentAlternativeStress.Comments *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Comment](../../../../../../../v241/Ansys/ACT/Automation/Mechanical/Comment.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Get the Load Step for the maximum of minimum values.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="FatigueEquivalentAlternativeStress.LoadStepForMaximumOfMaximumValues"></a>
-
-### *property* FatigueEquivalentAlternativeStress.LoadStepForMaximumOfMaximumValues *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Get the Load Step for the maximum of maximum values.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="FatigueEquivalentAlternativeStress.IsSolved"></a>
-
-### *property* FatigueEquivalentAlternativeStress.IsSolved *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets the IsSolved.
+Gets the list of associated comments.
 
 <!-- !! processed by numpydoc !! -->
 
@@ -252,83 +178,59 @@ Accepts/Returns None for Fiber Coordinate System for a result that is sub scoped
 
 <!-- !! processed by numpydoc !! -->
 
-<a id="FatigueEquivalentAlternativeStress.ScopingMethod"></a>
-
-### *property* FatigueEquivalentAlternativeStress.ScopingMethod *: [Ansys.Mechanical.DataModel.Enums.GeometryDefineByType](../../../../../../../v241/Ansys/Mechanical/DataModel/Enums/GeometryDefineByType.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.GeometryDefineByType) | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the ScopingMethod.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="FatigueEquivalentAlternativeStress.SetNumber"></a>
-
-### *property* FatigueEquivalentAlternativeStress.SetNumber *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the Set Number.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="FatigueEquivalentAlternativeStress.CombinationNumber"></a>
-
-### *property* FatigueEquivalentAlternativeStress.CombinationNumber *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the Combination Number for a Solution Combination result.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="FatigueEquivalentAlternativeStress.SolutionCombinationDriver"></a>
-
-### *property* FatigueEquivalentAlternativeStress.SolutionCombinationDriver *: [Ansys.Mechanical.DataModel.Enums.SolutionCombinationDriverStyle](../../../../../../../v241/Ansys/Mechanical/DataModel/Enums/SolutionCombinationDriverStyle.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.SolutionCombinationDriverStyle) | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the SolutionCombinationDriver.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="FatigueEquivalentAlternativeStress.Path"></a>
-
-### *property* FatigueEquivalentAlternativeStress.Path *: [Ansys.ACT.Automation.Mechanical.Path](../../../../../../../v241/Ansys/ACT/Automation/Mechanical/Path.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Path) | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Path property.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="FatigueEquivalentAlternativeStress.Surface"></a>
-
-### *property* FatigueEquivalentAlternativeStress.Surface *: [Ansys.ACT.Automation.Mechanical.Surface](../../../../../../../v241/Ansys/ACT/Automation/Mechanical/Surface.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Surface) | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Surface property.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="FatigueEquivalentAlternativeStress.SurfaceCoating"></a>
-
-### *property* FatigueEquivalentAlternativeStress.SurfaceCoating *: [Ansys.ACT.Automation.Mechanical.SurfaceCoating](../../../../../../../v241/Ansys/ACT/Automation/Mechanical/SurfaceCoating.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.SurfaceCoating) | [None](https://docs.python.org/3/library/constants.html#None)*
-
-SurfaceCoating property.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="FatigueEquivalentAlternativeStress.NamedSelections"></a>
-
-### *property* FatigueEquivalentAlternativeStress.NamedSelections *: System.Collections.Generic.IEnumerable[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the NamedSelections.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="FatigueEquivalentAlternativeStress.WaterfallShowTextOnMosaic"></a>
-
-### *property* FatigueEquivalentAlternativeStress.WaterfallShowTextOnMosaic *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the Waterfall Mosaic Text Property.
-
-<!-- !! processed by numpydoc !! -->
-
 <a id="FatigueEquivalentAlternativeStress.CrackFrontNumber"></a>
 
 ### *property* FatigueEquivalentAlternativeStress.CrackFrontNumber *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the CrackFrontNumber.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="FatigueEquivalentAlternativeStress.DataModelObjectCategory"></a>
+
+### *property* FatigueEquivalentAlternativeStress.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets the current DataModelObject’s category.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="FatigueEquivalentAlternativeStress.DesignLife"></a>
+
+### *property* FatigueEquivalentAlternativeStress.DesignLife *: System.Double | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the DesignLife.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="FatigueEquivalentAlternativeStress.DisplayOption"></a>
+
+### *property* FatigueEquivalentAlternativeStress.DisplayOption *: [Ansys.Mechanical.DataModel.Enums.ResultAveragingType](../../../../../Mechanical/DataModel/Enums/ResultAveragingType.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.ResultAveragingType) | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the DisplayOption.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="FatigueEquivalentAlternativeStress.DisplayTime"></a>
+
+### *property* FatigueEquivalentAlternativeStress.DisplayTime *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the DisplayTime.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="FatigueEquivalentAlternativeStress.DpfEvaluation"></a>
+
+### *property* FatigueEquivalentAlternativeStress.DpfEvaluation *: [Ansys.Mechanical.DataModel.Enums.DpfEvaluationType](../../../../../Mechanical/DataModel/Enums/DpfEvaluationType.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.DpfEvaluationType) | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the DpfEvaluation.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="FatigueEquivalentAlternativeStress.Figures"></a>
+
+### *property* FatigueEquivalentAlternativeStress.Figures *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Figure](../../../../../../../v241/Ansys/ACT/Automation/Mechanical/Figure.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets the list of associated figures.
 
 <!-- !! processed by numpydoc !! -->
 
@@ -340,11 +242,51 @@ Gets or sets the GlobalIDs.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="FatigueEquivalentAlternativeStress.GraphControlsXAxis"></a>
+
+### *property* FatigueEquivalentAlternativeStress.GraphControlsXAxis *: [Ansys.Mechanical.DataModel.Enums.GraphControlsXAxis](../../../../../Mechanical/DataModel/Enums/GraphControlsXAxis.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.GraphControlsXAxis) | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the GraphControlsXAxis.
+
+<!-- !! processed by numpydoc !! -->
+
 <a id="FatigueEquivalentAlternativeStress.Identifier"></a>
 
 ### *property* FatigueEquivalentAlternativeStress.Identifier *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Identifier.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="FatigueEquivalentAlternativeStress.Images"></a>
+
+### *property* FatigueEquivalentAlternativeStress.Images *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Image](../../../../../../../v241/Ansys/ACT/Automation/Mechanical/Image.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets the list of associated images.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="FatigueEquivalentAlternativeStress.InternalObject"></a>
+
+### *property* FatigueEquivalentAlternativeStress.InternalObject *: Ansys.Common.Interop.DSObjectsAuto.IDSResultAuto | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets the internal object. For advanced usage only.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="FatigueEquivalentAlternativeStress.IsSolved"></a>
+
+### *property* FatigueEquivalentAlternativeStress.IsSolved *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets the IsSolved.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="FatigueEquivalentAlternativeStress.ItemType"></a>
+
+### *property* FatigueEquivalentAlternativeStress.ItemType *: [Ansys.Mechanical.DataModel.Enums.ResultFileItemType](../../../../../Mechanical/DataModel/Enums/ResultFileItemType.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.ResultFileItemType) | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the ItemType.
 
 <!-- !! processed by numpydoc !! -->
 
@@ -364,19 +306,35 @@ Gets the LoadStep.
 
 <!-- !! processed by numpydoc !! -->
 
-<a id="FatigueEquivalentAlternativeStress.MaximumOccursOn"></a>
+<a id="FatigueEquivalentAlternativeStress.LoadStepForMaximumOfMaximumValues"></a>
 
-### *property* FatigueEquivalentAlternativeStress.MaximumOccursOn *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* FatigueEquivalentAlternativeStress.LoadStepForMaximumOfMaximumValues *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets the MaximumOccursOn.
+Get the Load Step for the maximum of maximum values.
 
 <!-- !! processed by numpydoc !! -->
 
-<a id="FatigueEquivalentAlternativeStress.MinimumOccursOn"></a>
+<a id="FatigueEquivalentAlternativeStress.LoadStepForMaximumOfMinimumValues"></a>
 
-### *property* FatigueEquivalentAlternativeStress.MinimumOccursOn *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* FatigueEquivalentAlternativeStress.LoadStepForMaximumOfMinimumValues *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets the MinimumOccursOn.
+Get the Load Step for the maximum of minimum values.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="FatigueEquivalentAlternativeStress.LoadStepForMinimumOfMaximumValues"></a>
+
+### *property* FatigueEquivalentAlternativeStress.LoadStepForMinimumOfMaximumValues *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Get the Load Step for the minimum of maximum values.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="FatigueEquivalentAlternativeStress.LoadStepForMinimumOfMinimumValues"></a>
+
+### *property* FatigueEquivalentAlternativeStress.LoadStepForMinimumOfMinimumValues *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Get the Load Step for the minimum of minimum values.
 
 <!-- !! processed by numpydoc !! -->
 
@@ -388,27 +346,11 @@ Gets or sets the LoadStepNumber.
 
 <!-- !! processed by numpydoc !! -->
 
-<a id="FatigueEquivalentAlternativeStress.SolverComponentIDs"></a>
+<a id="FatigueEquivalentAlternativeStress.Location"></a>
 
-### *property* FatigueEquivalentAlternativeStress.SolverComponentIDs *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* FatigueEquivalentAlternativeStress.Location *: Ansys.ACT.Interfaces.Common.ISelectionInfo | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets or sets the SolverComponentIDs.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="FatigueEquivalentAlternativeStress.Substep"></a>
-
-### *property* FatigueEquivalentAlternativeStress.Substep *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets the Substep.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="FatigueEquivalentAlternativeStress.Average"></a>
-
-### *property* FatigueEquivalentAlternativeStress.Average *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets the Average.
+Gets or sets the Location.
 
 <!-- !! processed by numpydoc !! -->
 
@@ -417,6 +359,14 @@ Gets the Average.
 ### *property* FatigueEquivalentAlternativeStress.Maximum *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the Maximum.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="FatigueEquivalentAlternativeStress.MaximumOccursOn"></a>
+
+### *property* FatigueEquivalentAlternativeStress.MaximumOccursOn *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets the MaximumOccursOn.
 
 <!-- !! processed by numpydoc !! -->
 
@@ -436,11 +386,27 @@ Gets the MaximumOfMinimumOverTime.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="FatigueEquivalentAlternativeStress.Method"></a>
+
+### *property* FatigueEquivalentAlternativeStress.Method *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets the Method.
+
+<!-- !! processed by numpydoc !! -->
+
 <a id="FatigueEquivalentAlternativeStress.Minimum"></a>
 
 ### *property* FatigueEquivalentAlternativeStress.Minimum *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the Minimum.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="FatigueEquivalentAlternativeStress.MinimumOccursOn"></a>
+
+### *property* FatigueEquivalentAlternativeStress.MinimumOccursOn *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets the MinimumOccursOn.
 
 <!-- !! processed by numpydoc !! -->
 
@@ -460,115 +426,27 @@ Gets the MinimumOfMinimumOverTime.
 
 <!-- !! processed by numpydoc !! -->
 
-<a id="FatigueEquivalentAlternativeStress.Time"></a>
+<a id="FatigueEquivalentAlternativeStress.NamedSelections"></a>
 
-### *property* FatigueEquivalentAlternativeStress.Time *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* FatigueEquivalentAlternativeStress.NamedSelections *: System.Collections.Generic.IEnumerable[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets the Time.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="FatigueEquivalentAlternativeStress.DisplayTime"></a>
-
-### *property* FatigueEquivalentAlternativeStress.DisplayTime *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the DisplayTime.
+Gets or sets the NamedSelections.
 
 <!-- !! processed by numpydoc !! -->
 
-<a id="FatigueEquivalentAlternativeStress.GraphControlsXAxis"></a>
+<a id="FatigueEquivalentAlternativeStress.Path"></a>
 
-### *property* FatigueEquivalentAlternativeStress.GraphControlsXAxis *: [Ansys.Mechanical.DataModel.Enums.GraphControlsXAxis](../../../../../../../v241/Ansys/Mechanical/DataModel/Enums/GraphControlsXAxis.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.GraphControlsXAxis) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* FatigueEquivalentAlternativeStress.Path *: [Ansys.ACT.Automation.Mechanical.Path](../../Path.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Path) | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets or sets the GraphControlsXAxis.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="FatigueEquivalentAlternativeStress.DisplayOption"></a>
-
-### *property* FatigueEquivalentAlternativeStress.DisplayOption *: [Ansys.Mechanical.DataModel.Enums.ResultAveragingType](../../../../../../../v241/Ansys/Mechanical/DataModel/Enums/ResultAveragingType.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.ResultAveragingType) | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the DisplayOption.
+Path property.
 
 <!-- !! processed by numpydoc !! -->
 
-<a id="FatigueEquivalentAlternativeStress.DpfEvaluation"></a>
+<a id="FatigueEquivalentAlternativeStress.PlotData"></a>
 
-### *property* FatigueEquivalentAlternativeStress.DpfEvaluation *: [Ansys.Mechanical.DataModel.Enums.DpfEvaluationType](../../../../../../../v241/Ansys/Mechanical/DataModel/Enums/DpfEvaluationType.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DpfEvaluationType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* FatigueEquivalentAlternativeStress.PlotData *: [Ansys.Mechanical.DataModel.Results.ResultDataTable](../../../../../Mechanical/DataModel/Results/ResultDataTable.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Results.ResultDataTable) | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets or sets the DpfEvaluation.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="FatigueEquivalentAlternativeStress.By"></a>
-
-### *property* FatigueEquivalentAlternativeStress.By *: [Ansys.Mechanical.DataModel.Enums.SetDriverStyle](../../../../../../../v241/Ansys/Mechanical/DataModel/Enums/SetDriverStyle.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.SetDriverStyle) | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the By.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="FatigueEquivalentAlternativeStress.ItemType"></a>
-
-### *property* FatigueEquivalentAlternativeStress.ItemType *: [Ansys.Mechanical.DataModel.Enums.ResultFileItemType](../../../../../../../v241/Ansys/Mechanical/DataModel/Enums/ResultFileItemType.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.ResultFileItemType) | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the ItemType.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="FatigueEquivalentAlternativeStress.CalculateTimeHistory"></a>
-
-### *property* FatigueEquivalentAlternativeStress.CalculateTimeHistory *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the CalculateTimeHistory.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="FatigueEquivalentAlternativeStress.Suppressed"></a>
-
-### *property* FatigueEquivalentAlternativeStress.Suppressed *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the Suppressed.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="FatigueEquivalentAlternativeStress.Children"></a>
-
-### *property* FatigueEquivalentAlternativeStress.Children *: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets the list of children.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="FatigueEquivalentAlternativeStress.Comments"></a>
-
-### *property* FatigueEquivalentAlternativeStress.Comments *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Comment](../../../../../../../v241/Ansys/ACT/Automation/Mechanical/Comment.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets the list of associated comments.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="FatigueEquivalentAlternativeStress.Figures"></a>
-
-### *property* FatigueEquivalentAlternativeStress.Figures *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Figure](../../../../../../../v241/Ansys/ACT/Automation/Mechanical/Figure.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets the list of associated figures.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="FatigueEquivalentAlternativeStress.Images"></a>
-
-### *property* FatigueEquivalentAlternativeStress.Images *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Image](../../../../../../../v241/Ansys/ACT/Automation/Mechanical/Image.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets the list of associated images.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="id0"></a>
-
-### *property* FatigueEquivalentAlternativeStress.InternalObject *: System.Object | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets the internal object. For advanced usage only.
+Gets the result table.
 
 <!-- !! processed by numpydoc !! -->
 
@@ -580,6 +458,110 @@ Gets the list of properties for this object.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="FatigueEquivalentAlternativeStress.ScopingMethod"></a>
+
+### *property* FatigueEquivalentAlternativeStress.ScopingMethod *: [Ansys.Mechanical.DataModel.Enums.GeometryDefineByType](../../../../../Mechanical/DataModel/Enums/GeometryDefineByType.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.GeometryDefineByType) | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the ScopingMethod.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="FatigueEquivalentAlternativeStress.SetNumber"></a>
+
+### *property* FatigueEquivalentAlternativeStress.SetNumber *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the Set Number.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="FatigueEquivalentAlternativeStress.SolutionCombinationDriver"></a>
+
+### *property* FatigueEquivalentAlternativeStress.SolutionCombinationDriver *: [Ansys.Mechanical.DataModel.Enums.SolutionCombinationDriverStyle](../../../../../Mechanical/DataModel/Enums/SolutionCombinationDriverStyle.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.SolutionCombinationDriverStyle) | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the SolutionCombinationDriver.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="FatigueEquivalentAlternativeStress.SolverComponentIDs"></a>
+
+### *property* FatigueEquivalentAlternativeStress.SolverComponentIDs *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the SolverComponentIDs.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="FatigueEquivalentAlternativeStress.Substep"></a>
+
+### *property* FatigueEquivalentAlternativeStress.Substep *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets the Substep.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="FatigueEquivalentAlternativeStress.Suppressed"></a>
+
+### *property* FatigueEquivalentAlternativeStress.Suppressed *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the Suppressed.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="FatigueEquivalentAlternativeStress.Surface"></a>
+
+### *property* FatigueEquivalentAlternativeStress.Surface *: [Ansys.ACT.Automation.Mechanical.Surface](../../Surface.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Surface) | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Surface property.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="FatigueEquivalentAlternativeStress.SurfaceCoating"></a>
+
+### *property* FatigueEquivalentAlternativeStress.SurfaceCoating *: [Ansys.ACT.Automation.Mechanical.SurfaceCoating](../../SurfaceCoating.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.SurfaceCoating) | [None](https://docs.python.org/3/library/constants.html#None)*
+
+SurfaceCoating property.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="FatigueEquivalentAlternativeStress.Time"></a>
+
+### *property* FatigueEquivalentAlternativeStress.Time *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets the Time.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="FatigueEquivalentAlternativeStress.TimeForMaximumOfMaximumValues"></a>
+
+### *property* FatigueEquivalentAlternativeStress.TimeForMaximumOfMaximumValues *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Get the Time for the maximum of maximum values.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="FatigueEquivalentAlternativeStress.TimeForMaximumOfMinimumValues"></a>
+
+### *property* FatigueEquivalentAlternativeStress.TimeForMaximumOfMinimumValues *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Get the Time for the maximum of minimum values.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="FatigueEquivalentAlternativeStress.TimeForMinimumOfMaximumValues"></a>
+
+### *property* FatigueEquivalentAlternativeStress.TimeForMinimumOfMaximumValues *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Get the Time for the minimum of maximum values.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="FatigueEquivalentAlternativeStress.TimeForMinimumOfMinimumValues"></a>
+
+### *property* FatigueEquivalentAlternativeStress.TimeForMinimumOfMinimumValues *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Get the Time for the minimum of minimum values.
+
+<!-- !! processed by numpydoc !! -->
+
 <a id="FatigueEquivalentAlternativeStress.VisibleProperties"></a>
 
 ### *property* FatigueEquivalentAlternativeStress.VisibleProperties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
@@ -588,79 +570,23 @@ Gets the list of properties that are visible for this object.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="FatigueEquivalentAlternativeStress.WaterfallShowTextOnMosaic"></a>
+
+### *property* FatigueEquivalentAlternativeStress.WaterfallShowTextOnMosaic *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the Waterfall Mosaic Text Property.
+
+<!-- !! processed by numpydoc !! -->
+
 <a id="method-detail"></a>
 
 ## Method detail
 
-<a id="FatigueEquivalentAlternativeStress.ClearGeneratedData"></a>
+<a id="FatigueEquivalentAlternativeStress.Activate"></a>
 
-### FatigueEquivalentAlternativeStress.ClearGeneratedData()
+### FatigueEquivalentAlternativeStress.Activate()
 
-Run the ClearGeneratedData action.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="FatigueEquivalentAlternativeStress.EvaluateAllResults"></a>
-
-### FatigueEquivalentAlternativeStress.EvaluateAllResults()
-
-Run the EvaluateAllResults action.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="FatigueEquivalentAlternativeStress.FetchRemoteResults"></a>
-
-### FatigueEquivalentAlternativeStress.FetchRemoteResults()
-
-Run the FetchRemoteResult action.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="FatigueEquivalentAlternativeStress.ExportToTextFile"></a>
-
-### FatigueEquivalentAlternativeStress.ExportToTextFile(filePath: System.String)
-
-Run the ExportToTextFile action.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="FatigueEquivalentAlternativeStress.ExportAnimation"></a>
-
-### FatigueEquivalentAlternativeStress.ExportAnimation(filePath: System.String, format: [Ansys.Mechanical.DataModel.Enums.GraphicsAnimationExportFormat](../../../../../../../v241/Ansys/Mechanical/DataModel/Enums/GraphicsAnimationExportFormat.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.GraphicsAnimationExportFormat), settings: [Ansys.Mechanical.Graphics.AnimationExportSettings](../../../../../../../v241/Ansys/Mechanical/Graphics/AnimationExportSettings.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.Graphics.AnimationExportSettings))
-
-Run the ExportAnimation action.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="FatigueEquivalentAlternativeStress.DuplicateWithoutResults"></a>
-
-### FatigueEquivalentAlternativeStress.DuplicateWithoutResults()
-
-Run the DuplicateWithoutResults action.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="FatigueEquivalentAlternativeStress.CreateResultsAtAllSets"></a>
-
-### FatigueEquivalentAlternativeStress.CreateResultsAtAllSets()
-
-Creates results at all sets for results under a solution.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="FatigueEquivalentAlternativeStress.PromoteToNamedSelection"></a>
-
-### FatigueEquivalentAlternativeStress.PromoteToNamedSelection()
-
-Run the PromoteToNamedSelection action.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="FatigueEquivalentAlternativeStress.CreateParameter"></a>
-
-### FatigueEquivalentAlternativeStress.CreateParameter(propName: System.String)
-
-CreateParameter method.
+Activate the current object.
 
 <!-- !! processed by numpydoc !! -->
 
@@ -672,51 +598,19 @@ Creates a new Alert
 
 <!-- !! processed by numpydoc !! -->
 
-<a id="FatigueEquivalentAlternativeStress.AddConvergence"></a>
-
-### FatigueEquivalentAlternativeStress.AddConvergence()
-
-Creates a new Convergence
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="FatigueEquivalentAlternativeStress.RenameBasedOnDefinition"></a>
-
-### FatigueEquivalentAlternativeStress.RenameBasedOnDefinition()
-
-Run the RenameBasedOnDefinition action.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="FatigueEquivalentAlternativeStress.Delete"></a>
-
-### FatigueEquivalentAlternativeStress.Delete()
-
-Run the Delete action.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="FatigueEquivalentAlternativeStress.GetChildren"></a>
-
-### FatigueEquivalentAlternativeStress.GetChildren(recurses: System.Boolean, children: System.Collections.Generic.IList[ChildrenType])
-
-Gets the list of children, filtered by type.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="id1"></a>
-
-### FatigueEquivalentAlternativeStress.GetChildren(category: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../../../v241/Ansys/Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory), recurses: System.Boolean, children: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject])
-
-Gets the list of children, filtered by type.
-
-<!-- !! processed by numpydoc !! -->
-
 <a id="FatigueEquivalentAlternativeStress.AddComment"></a>
 
 ### FatigueEquivalentAlternativeStress.AddComment()
 
 Creates a new child Comment.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="FatigueEquivalentAlternativeStress.AddConvergence"></a>
+
+### FatigueEquivalentAlternativeStress.AddConvergence()
+
+Creates a new Convergence
 
 <!-- !! processed by numpydoc !! -->
 
@@ -732,17 +626,19 @@ Creates a new child Figure.
 
 ### FatigueEquivalentAlternativeStress.AddImage(filePath: System.String)
 
+```text
 Creates a new child Image.
 If a filePath is provided, the image will be loaded from that file,
 if not, the image will be a screen capture of the Geometry window.
+```
 
 <!-- !! processed by numpydoc !! -->
 
-<a id="FatigueEquivalentAlternativeStress.Activate"></a>
+<a id="FatigueEquivalentAlternativeStress.ClearGeneratedData"></a>
 
-### FatigueEquivalentAlternativeStress.Activate()
+### FatigueEquivalentAlternativeStress.ClearGeneratedData()
 
-Activate the current object.
+Run the ClearGeneratedData action.
 
 <!-- !! processed by numpydoc !! -->
 
@@ -754,11 +650,91 @@ Copies all visible properties from this object to another.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="FatigueEquivalentAlternativeStress.CreateParameter"></a>
+
+### FatigueEquivalentAlternativeStress.CreateParameter(propName: System.String)
+
+CreateParameter method.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="FatigueEquivalentAlternativeStress.CreateResultsAtAllSets"></a>
+
+### FatigueEquivalentAlternativeStress.CreateResultsAtAllSets()
+
+Creates results at all sets for results under a solution.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="FatigueEquivalentAlternativeStress.Delete"></a>
+
+### FatigueEquivalentAlternativeStress.Delete()
+
+Run the Delete action.
+
+<!-- !! processed by numpydoc !! -->
+
 <a id="FatigueEquivalentAlternativeStress.Duplicate"></a>
 
 ### FatigueEquivalentAlternativeStress.Duplicate()
 
 Creates a copy of the current DataModelObject.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="FatigueEquivalentAlternativeStress.DuplicateWithoutResults"></a>
+
+### FatigueEquivalentAlternativeStress.DuplicateWithoutResults()
+
+Run the DuplicateWithoutResults action.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="FatigueEquivalentAlternativeStress.EvaluateAllResults"></a>
+
+### FatigueEquivalentAlternativeStress.EvaluateAllResults()
+
+Run the EvaluateAllResults action.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="FatigueEquivalentAlternativeStress.ExportAnimation"></a>
+
+### FatigueEquivalentAlternativeStress.ExportAnimation(filePath: System.String, format: [Ansys.Mechanical.DataModel.Enums.GraphicsAnimationExportFormat](../../../../../Mechanical/DataModel/Enums/GraphicsAnimationExportFormat.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.GraphicsAnimationExportFormat), settings: [Ansys.Mechanical.Graphics.AnimationExportSettings](../../../../../Mechanical/Graphics/AnimationExportSettings.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.Graphics.AnimationExportSettings))
+
+Run the ExportAnimation action.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="FatigueEquivalentAlternativeStress.ExportToTextFile"></a>
+
+### FatigueEquivalentAlternativeStress.ExportToTextFile(filePath: System.String)
+
+Run the ExportToTextFile action.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="FatigueEquivalentAlternativeStress.FetchRemoteResults"></a>
+
+### FatigueEquivalentAlternativeStress.FetchRemoteResults()
+
+Run the FetchRemoteResult action.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="FatigueEquivalentAlternativeStress.GetChildren"></a>
+
+### FatigueEquivalentAlternativeStress.GetChildren(recurses: System.Boolean, children: System.Collections.Generic.IList[ChildrenType])
+
+Gets the list of children, filtered by type.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="FatigueEquivalentAlternativeStress.GetParameter"></a>
+
+### FatigueEquivalentAlternativeStress.GetParameter(propName: System.String)
+
+Gets the parameter corresponding to the given property.
 
 <!-- !! processed by numpydoc !! -->
 
@@ -778,6 +754,25 @@ Run the GroupSimilarObjects action.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="FatigueEquivalentAlternativeStress.PromoteToNamedSelection"></a>
+
+### FatigueEquivalentAlternativeStress.PromoteToNamedSelection()
+
+Run the PromoteToNamedSelection action.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="FatigueEquivalentAlternativeStress.PropertyByAPIName"></a>
+
+### FatigueEquivalentAlternativeStress.PropertyByAPIName(name: System.String)
+
+```text
+Get a property by its API name.
+If multiple properties have the same API Name, only the first property with that name will be returned.
+```
+
+<!-- !! processed by numpydoc !! -->
+
 <a id="FatigueEquivalentAlternativeStress.PropertyByName"></a>
 
 ### FatigueEquivalentAlternativeStress.PropertyByName(name: System.String)
@@ -786,28 +781,19 @@ Get a property by its unique name.
 
 <!-- !! processed by numpydoc !! -->
 
-<a id="FatigueEquivalentAlternativeStress.PropertyByAPIName"></a>
-
-### FatigueEquivalentAlternativeStress.PropertyByAPIName(name: System.String)
-
-Get a property by its API name.
-If multiple properties have the same API Name, only the first property with that name will be returned.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="FatigueEquivalentAlternativeStress.GetParameter"></a>
-
-### FatigueEquivalentAlternativeStress.GetParameter(propName: System.String)
-
-Gets the parameter corresponding to the given property.
-
-<!-- !! processed by numpydoc !! -->
-
 <a id="FatigueEquivalentAlternativeStress.RemoveParameter"></a>
 
 ### FatigueEquivalentAlternativeStress.RemoveParameter(propName: System.String)
 
 Removes the parameter from the parameter set corresponding to the given property.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="FatigueEquivalentAlternativeStress.RenameBasedOnDefinition"></a>
+
+### FatigueEquivalentAlternativeStress.RenameBasedOnDefinition()
+
+Run the RenameBasedOnDefinition action.
 
 <!-- !! processed by numpydoc !! -->
 

@@ -1,6 +1,6 @@
 # `TransientApplicationType`
 
-
+<a id="ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.TransientApplicationType"></a>
 
 #### *class* ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.TransientApplicationType
 
@@ -17,7 +17,7 @@ Specifies the TransientApplicationType.
 ### Attributes
 
 | Name |
-| ---------------------------------------------------------------------------- |
+| ------------------------------------------------------------------------------------------------------------------------------------------------------------ |
 | [`HighSpeedDynamics`](#TransientApplicationType.HighSpeedDynamics) |
 | [`Impact`](#TransientApplicationType.Impact) |
 | [`LowSpeedDynamics`](#TransientApplicationType.LowSpeedDynamics) |

@@ -1,6 +1,6 @@
 # `Graphics3DExportFormat`
 
-
+<a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.Graphics3DExportFormat"></a>
 
 #### *class* ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.Graphics3DExportFormat
 
@@ -17,14 +17,18 @@ Specifies the 3D Format.
 ### Attributes
 
 | Name |
-| -------------------------------------------------------------------------------------------------------------------------------- |
-| [`AVZ`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/Graphics3DExportFormat.md#Graphics3DExportFormat.AVZ) |
-| [`BinarySTL`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/Graphics3DExportFormat.md#Graphics3DExportFormat.BinarySTL) |
-| [`ASCIISTL`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/Graphics3DExportFormat.md#Graphics3DExportFormat.ASCIISTL) |
+| -------------------------------------------------- |
+| [`ASCIISTL`](#Graphics3DExportFormat.ASCIISTL) |
+| [`AVZ`](#Graphics3DExportFormat.AVZ) |
+| [`BinarySTL`](#Graphics3DExportFormat.BinarySTL) |
 
 <a id="attribute-detail"></a>
 
 ## Attribute detail
+
+<a id="Graphics3DExportFormat.ASCIISTL"></a>
+
+### Graphics3DExportFormat.ASCIISTL *= 2*
 
 <a id="Graphics3DExportFormat.AVZ"></a>
 
@@ -33,9 +37,5 @@ Specifies the 3D Format.
 <a id="Graphics3DExportFormat.BinarySTL"></a>
 
 ### Graphics3DExportFormat.BinarySTL *= 1*
-
-<a id="Graphics3DExportFormat.ASCIISTL"></a>
-
-### Graphics3DExportFormat.ASCIISTL *= 2*
 
 

@@ -1,6 +1,6 @@
 # `ILinuxSettings`
 
-
+<a id="ansys.mechanical.stubs.v241.Ansys.ACT.Mechanical.Application.SolveProcessSettings.ILinuxSettings"></a>
 
 #### *class* ansys.mechanical.stubs.v241.Ansys.ACT.Mechanical.Application.SolveProcessSettings.ILinuxSettings
 
@@ -17,10 +17,10 @@ ILinuxSettings interface.
 ### Properties
 
 | Name | Description |
-|------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------|
-| [`Active`](../../../../../../v242/Ansys/ACT/Mechanical/Application/SolveProcessSettings/ILinuxSettings.md#ILinuxSettings.Active)               | Gets or sets whether or not manual linux settings are enable for the configuration.   |
-| [`UserName`](../../../../../../v242/Ansys/ACT/Mechanical/Application/SolveProcessSettings/ILinuxSettings.md#ILinuxSettings.UserName)           | Gets or sets the user name field for the manual linux settings.                       |
-| [`WorkingFolder`](../../../../../../v242/Ansys/ACT/Mechanical/Application/SolveProcessSettings/ILinuxSettings.md#ILinuxSettings.WorkingFolder) | Gets or sets the working folder field for the manual linxus settings.                 |
+|--------------------------------------------------|---------------------------------------------------------------------------------------|
+| [`Active`](#ILinuxSettings.Active)               | Gets or sets whether or not manual linux settings are enable for the configuration.   |
+| [`UserName`](#ILinuxSettings.UserName)           | Gets or sets the user name field for the manual linux settings.                       |
+| [`WorkingFolder`](#ILinuxSettings.WorkingFolder) | Gets or sets the working folder field for the manual linxus settings.                 |
 
 <a id="property-detail"></a>
 

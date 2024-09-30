@@ -1,6 +1,6 @@
 # `EXDErosionOnMinElemTimestepType`
 
-
+<a id="ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.EXDErosionOnMinElemTimestepType"></a>
 
 #### *class* ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.EXDErosionOnMinElemTimestepType
 
@@ -15,7 +15,7 @@ Bases: [`enum.Enum`](https://docs.python.org/3/library/enum.html#enum.Enum)
 ### Attributes
 
 | Name |
-| ----------------------------------------------- |
+| -------------------------------------------------------------------------------------------------------------------------------------- |
 | [`No`](#EXDErosionOnMinElemTimestepType.No) |
 | [`Yes`](#EXDErosionOnMinElemTimestepType.Yes) |
 

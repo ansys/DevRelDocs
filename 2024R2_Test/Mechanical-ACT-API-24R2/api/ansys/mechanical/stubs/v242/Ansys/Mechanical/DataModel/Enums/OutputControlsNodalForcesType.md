@@ -1,6 +1,6 @@
 # `OutputControlsNodalForcesType`
 
-
+<a id="ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.OutputControlsNodalForcesType"></a>
 
 #### *class* ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.OutputControlsNodalForcesType
 
@@ -17,7 +17,7 @@ Specifies the OutputControlsNodalForcesType.
 ### Attributes
 
 | Name |
-| ------------------------------------------------------------------- |
+| -------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | [`ConstrainNode`](#OutputControlsNodalForcesType.ConstrainNode) |
 | [`No`](#OutputControlsNodalForcesType.No) |
 | [`Yes`](#OutputControlsNodalForcesType.Yes) |

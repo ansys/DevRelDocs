@@ -1,6 +1,6 @@
 # `BoundaryConditionAlongFiber`
 
-
+<a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.BoundaryConditionAlongFiber"></a>
 
 #### *class* ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.BoundaryConditionAlongFiber
 
@@ -17,10 +17,10 @@ Specifies the BoundaryConditionAlongFiber.
 ### Attributes
 
 | Name |
-| -------------------------------------------------------------------------------------------------------------------------------------------------- |
-| [`Displacement`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/BoundaryConditionAlongFiber.md#BoundaryConditionAlongFiber.Displacement) |
-| [`Force`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/BoundaryConditionAlongFiber.md#BoundaryConditionAlongFiber.Force) |
-| [`Free`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/BoundaryConditionAlongFiber.md#BoundaryConditionAlongFiber.Free) |
+| --------------------------------------------------------------- |
+| [`Displacement`](#BoundaryConditionAlongFiber.Displacement) |
+| [`Force`](#BoundaryConditionAlongFiber.Force) |
+| [`Free`](#BoundaryConditionAlongFiber.Free) |
 
 <a id="attribute-detail"></a>
 

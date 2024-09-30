@@ -1,6 +1,6 @@
 # `LengthUnit`
 
-
+<a id="ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.MechanicalEnums.ExternalData.LengthUnit"></a>
 
 #### *class* ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.MechanicalEnums.ExternalData.LengthUnit
 
@@ -17,21 +17,17 @@ Specifies how to interpret the variable data source.
 ### Attributes
 
 | Name |
-| ---------------------------------------- |
-| [`meter`](#LengthUnit.meter) |
+| -------------------------------------------------------------------------------------------------------------------------------------- |
 | [`centimeter`](#LengthUnit.centimeter) |
 | [`foot`](#LengthUnit.foot) |
 | [`inch`](#LengthUnit.inch) |
-| [`millimeter`](#LengthUnit.millimeter) |
+| [`meter`](#LengthUnit.meter) |
 | [`micrometer`](#LengthUnit.micrometer) |
+| [`millimeter`](#LengthUnit.millimeter) |
 
 <a id="attribute-detail"></a>
 
 ## Attribute detail
-
-<a id="LengthUnit.meter"></a>
-
-### LengthUnit.meter *= 0*
 
 <a id="LengthUnit.centimeter"></a>
 
@@ -45,12 +41,16 @@ Specifies how to interpret the variable data source.
 
 ### LengthUnit.inch *= 3*
 
-<a id="LengthUnit.millimeter"></a>
+<a id="LengthUnit.meter"></a>
 
-### LengthUnit.millimeter *= 4*
+### LengthUnit.meter *= 0*
 
 <a id="LengthUnit.micrometer"></a>
 
 ### LengthUnit.micrometer *= 5*
+
+<a id="LengthUnit.millimeter"></a>
+
+### LengthUnit.millimeter *= 4*
 
 

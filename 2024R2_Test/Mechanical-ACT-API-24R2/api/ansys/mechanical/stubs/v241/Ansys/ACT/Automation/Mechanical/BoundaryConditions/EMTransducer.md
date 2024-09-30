@@ -1,6 +1,6 @@
 # `EMTransducer`
 
-
+<a id="ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.BoundaryConditions.EMTransducer"></a>
 
 #### *class* ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.BoundaryConditions.EMTransducer
 
@@ -18,170 +18,56 @@ Defines a EMTransducer.
 
 | Name | Description |
 |---------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------|
-| [`GetActivateAtLoadStep`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/BoundaryConditions/EMTransducer.md#EMTransducer.GetActivateAtLoadStep)                   | GetActivateAtLoadStep method.                                                     |
-| [`SetActivateAtLoadStep`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/BoundaryConditions/EMTransducer.md#EMTransducer.SetActivateAtLoadStep)                   | SetActivateAtLoadStep method.                                                     |
-| [`GetComponentActivateAtLoadStep`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/BoundaryConditions/EMTransducer.md#EMTransducer.GetComponentActivateAtLoadStep) | GetComponentActivateAtLoadStep method.                                            |
-| [`SetComponentActivateAtLoadStep`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/BoundaryConditions/EMTransducer.md#EMTransducer.SetComponentActivateAtLoadStep) | SetComponentActivateAtLoadStep method.                                            |
-| [`PromoteToNamedSelection`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/BoundaryConditions/EMTransducer.md#EMTransducer.PromoteToNamedSelection)               | Run the PromoteToNamedSelection action.                                           |
-| [`Delete`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/BoundaryConditions/EMTransducer.md#EMTransducer.Delete)                                                 | Run the Delete action.                                                            |
-| [`GetChildren`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/BoundaryConditions/EMTransducer.md#id1)                                                            | Gets the list of children, filtered by type.                                      |
-| [`GetChildren`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/BoundaryConditions/EMTransducer.md#id1)                                                            | Gets the list of children, filtered by type.                                      |
-| [`AddComment`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/BoundaryConditions/EMTransducer.md#EMTransducer.AddComment)                                         | Creates a new child Comment.                                                      |
-| [`AddFigure`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/BoundaryConditions/EMTransducer.md#EMTransducer.AddFigure)                                           | Creates a new child Figure.                                                       |
-| [`AddImage`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/BoundaryConditions/EMTransducer.md#EMTransducer.AddImage)                                             | Creates a new child Image.                                                        |
-| [`Activate`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/BoundaryConditions/EMTransducer.md#EMTransducer.Activate)                                             | Activate the current object.                                                      |
-| [`CopyTo`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/BoundaryConditions/EMTransducer.md#EMTransducer.CopyTo)                                                 | Copies all visible properties from this object to another.                        |
-| [`Duplicate`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/BoundaryConditions/EMTransducer.md#EMTransducer.Duplicate)                                           | Creates a copy of the current DataModelObject.                                    |
-| [`GroupAllSimilarChildren`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/BoundaryConditions/EMTransducer.md#EMTransducer.GroupAllSimilarChildren)               | Run the GroupAllSimilarChildren action.                                           |
-| [`GroupSimilarObjects`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/BoundaryConditions/EMTransducer.md#EMTransducer.GroupSimilarObjects)                       | Run the GroupSimilarObjects action.                                               |
-| [`PropertyByName`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/BoundaryConditions/EMTransducer.md#EMTransducer.PropertyByName)                                 | Get a property by its unique name.                                                |
-| [`PropertyByAPIName`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/BoundaryConditions/EMTransducer.md#EMTransducer.PropertyByAPIName)                           | Get a property by its API name.                                                   |
-| [`CreateParameter`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/BoundaryConditions/EMTransducer.md#EMTransducer.CreateParameter)                               | Creates a new parameter for a Property.                                           |
-| [`GetParameter`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/BoundaryConditions/EMTransducer.md#EMTransducer.GetParameter)                                     | Gets the parameter corresponding to the given property.                           |
-| [`RemoveParameter`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/BoundaryConditions/EMTransducer.md#EMTransducer.RemoveParameter)                               | Removes the parameter from the parameter set corresponding to the given property. |
+| [`Activate`](#EMTransducer.Activate)                                             | Activate the current object.                                                      |
+| [`AddComment`](#EMTransducer.AddComment)                                         | Creates a new child Comment.                                                      |
+| [`AddFigure`](#EMTransducer.AddFigure)                                           | Creates a new child Figure.                                                       |
+| [`AddImage`](#EMTransducer.AddImage)                                             | Creates a new child Image.                                                        |
+| [`CopyTo`](#EMTransducer.CopyTo)                                                 | Copies all visible properties from this object to another.                        |
+| [`CreateParameter`](#EMTransducer.CreateParameter)                               | Creates a new parameter for a Property.                                           |
+| [`Delete`](#EMTransducer.Delete)                                                 | Run the Delete action.                                                            |
+| [`Duplicate`](#EMTransducer.Duplicate)                                           | Creates a copy of the current DataModelObject.                                    |
+| [`GetActivateAtLoadStep`](#EMTransducer.GetActivateAtLoadStep)                   | GetActivateAtLoadStep method.                                                     |
+| [`GetChildren`](#EMTransducer.GetChildren)                                       | Gets the list of children, filtered by type.                                      |
+| [`GetComponentActivateAtLoadStep`](#EMTransducer.GetComponentActivateAtLoadStep) | GetComponentActivateAtLoadStep method.                                            |
+| [`GetParameter`](#EMTransducer.GetParameter)                                     | Gets the parameter corresponding to the given property.                           |
+| [`GroupAllSimilarChildren`](#EMTransducer.GroupAllSimilarChildren)               | Run the GroupAllSimilarChildren action.                                           |
+| [`GroupSimilarObjects`](#EMTransducer.GroupSimilarObjects)                       | Run the GroupSimilarObjects action.                                               |
+| [`PromoteToNamedSelection`](#EMTransducer.PromoteToNamedSelection)               | Run the PromoteToNamedSelection action.                                           |
+| [`PropertyByAPIName`](#EMTransducer.PropertyByAPIName)                           | Get a property by its API name.                                                   |
+| [`PropertyByName`](#EMTransducer.PropertyByName)                                 | Get a property by its unique name.                                                |
+| [`RemoveParameter`](#EMTransducer.RemoveParameter)                               | Removes the parameter from the parameter set corresponding to the given property. |
+| [`SetActivateAtLoadStep`](#EMTransducer.SetActivateAtLoadStep)                   | SetActivateAtLoadStep method.                                                     |
+| [`SetComponentActivateAtLoadStep`](#EMTransducer.SetComponentActivateAtLoadStep) | SetComponentActivateAtLoadStep method.                                            |
 
 ### Properties
 
 | Name | Description |
 |-------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------|
-| [`InternalObject`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/BoundaryConditions/EMTransducer.md#id0)                                           | Gets the internal object. For advanced usage only.            |
-| [`NumberOfSegments`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/BoundaryConditions/EMTransducer.md#EMTransducer.NumberOfSegments)               | Gets or sets the NumberOfSegments.                            |
-| [`VoltageDifference`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/BoundaryConditions/EMTransducer.md#EMTransducer.VoltageDifference)             | Gets the VoltageDifference.                                   |
-| [`InitialGap`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/BoundaryConditions/EMTransducer.md#EMTransducer.InitialGap)                           | Gets or sets the InitialGap.                                  |
-| [`MinimalGap`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/BoundaryConditions/EMTransducer.md#EMTransducer.MinimalGap)                           | Gets or sets the MinimalGap.                                  |
-| [`ZCoordinate`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/BoundaryConditions/EMTransducer.md#EMTransducer.ZCoordinate)                         | Gets or sets the ZCoordinate.                                 |
-| [`StiffnessMethod`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/BoundaryConditions/EMTransducer.md#EMTransducer.StiffnessMethod)                 | Gets or sets the StiffnessMethod.                             |
-| [`GAPDirection`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/BoundaryConditions/EMTransducer.md#EMTransducer.GAPDirection)                       | Gets or sets the GAPDirection.                                |
-| [`IndependentVariable`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/BoundaryConditions/EMTransducer.md#EMTransducer.IndependentVariable)         | Gets or sets the IndependentVariable.                         |
-| [`CoordinateSystem`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/BoundaryConditions/EMTransducer.md#EMTransducer.CoordinateSystem)               | Gets the CoordinateSystem.                                    |
-| [`Location`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/BoundaryConditions/EMTransducer.md#EMTransducer.Location)                               | Gets or sets the Location.                                    |
-| [`DataModelObjectCategory`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/BoundaryConditions/EMTransducer.md#EMTransducer.DataModelObjectCategory) | Gets the current DataModelObject's category.                  |
-| [`Suppressed`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/BoundaryConditions/EMTransducer.md#EMTransducer.Suppressed)                           | Gets or sets the Suppressed.                                  |
-| [`SharedRefBody`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/BoundaryConditions/EMTransducer.md#EMTransducer.SharedRefBody)                     | Gets or sets the SharedRefBody.                               |
-| [`Children`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/BoundaryConditions/EMTransducer.md#EMTransducer.Children)                               | Gets the list of children.                                    |
-| [`Comments`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/BoundaryConditions/EMTransducer.md#EMTransducer.Comments)                               | Gets the list of associated comments.                         |
-| [`Figures`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/BoundaryConditions/EMTransducer.md#EMTransducer.Figures)                                 | Gets the list of associated figures.                          |
-| [`Images`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/BoundaryConditions/EMTransducer.md#EMTransducer.Images)                                   | Gets the list of associated images.                           |
-| [`ReadOnly`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/BoundaryConditions/EMTransducer.md#EMTransducer.ReadOnly)                               | Gets or sets the ReadOnly.                                    |
-| [`InternalObject`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/BoundaryConditions/EMTransducer.md#id0)                                           | Gets the internal object. For advanced usage only.            |
-| [`Properties`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/BoundaryConditions/EMTransducer.md#EMTransducer.Properties)                           | Gets the list of properties for this object.                  |
-| [`VisibleProperties`](../../../../../../v242/Ansys/ACT/Automation/Mechanical/BoundaryConditions/EMTransducer.md#EMTransducer.VisibleProperties)             | Gets the list of properties that are visible for this object. |
+| [`Children`](#EMTransducer.Children)                               | Gets the list of children.                                    |
+| [`Comments`](#EMTransducer.Comments)                               | Gets the list of associated comments.                         |
+| [`CoordinateSystem`](#EMTransducer.CoordinateSystem)               | Gets the CoordinateSystem.                                    |
+| [`DataModelObjectCategory`](#EMTransducer.DataModelObjectCategory) | Gets the current DataModelObject’s category.                  |
+| [`Figures`](#EMTransducer.Figures)                                 | Gets the list of associated figures.                          |
+| [`GAPDirection`](#EMTransducer.GAPDirection)                       | Gets or sets the GAPDirection.                                |
+| [`Images`](#EMTransducer.Images)                                   | Gets the list of associated images.                           |
+| [`IndependentVariable`](#EMTransducer.IndependentVariable)         | Gets or sets the IndependentVariable.                         |
+| [`InitialGap`](#EMTransducer.InitialGap)                           | Gets or sets the InitialGap.                                  |
+| [`InternalObject`](#EMTransducer.InternalObject)                   | Gets the internal object. For advanced usage only.            |
+| [`Location`](#EMTransducer.Location)                               | Gets or sets the Location.                                    |
+| [`MinimalGap`](#EMTransducer.MinimalGap)                           | Gets or sets the MinimalGap.                                  |
+| [`NumberOfSegments`](#EMTransducer.NumberOfSegments)               | Gets or sets the NumberOfSegments.                            |
+| [`Properties`](#EMTransducer.Properties)                           | Gets the list of properties for this object.                  |
+| [`ReadOnly`](#EMTransducer.ReadOnly)                               | Gets or sets the ReadOnly.                                    |
+| [`SharedRefBody`](#EMTransducer.SharedRefBody)                     | Gets or sets the SharedRefBody.                               |
+| [`StiffnessMethod`](#EMTransducer.StiffnessMethod)                 | Gets or sets the StiffnessMethod.                             |
+| [`Suppressed`](#EMTransducer.Suppressed)                           | Gets or sets the Suppressed.                                  |
+| [`VisibleProperties`](#EMTransducer.VisibleProperties)             | Gets the list of properties that are visible for this object. |
+| [`VoltageDifference`](#EMTransducer.VoltageDifference)             | Gets the VoltageDifference.                                   |
+| [`ZCoordinate`](#EMTransducer.ZCoordinate)                         | Gets or sets the ZCoordinate.                                 |
 
 <a id="property-detail"></a>
 
 ## Property detail
-
-<a id="EMTransducer.InternalObject"></a>
-
-### *property* EMTransducer.InternalObject *: Ansys.Common.Interop.DSObjectsAuto.IDSLoadAuto | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets the internal object. For advanced usage only.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="EMTransducer.NumberOfSegments"></a>
-
-### *property* EMTransducer.NumberOfSegments *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the NumberOfSegments.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="EMTransducer.VoltageDifference"></a>
-
-### *property* EMTransducer.VoltageDifference *: [Ansys.ACT.Mechanical.Fields.Field](../../../Mechanical/Fields/Field.md#ansys.mechanical.stubs.v241.Ansys.ACT.Mechanical.Fields.Field) | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets the VoltageDifference.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="EMTransducer.InitialGap"></a>
-
-### *property* EMTransducer.InitialGap *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the InitialGap.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="EMTransducer.MinimalGap"></a>
-
-### *property* EMTransducer.MinimalGap *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the MinimalGap.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="EMTransducer.ZCoordinate"></a>
-
-### *property* EMTransducer.ZCoordinate *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the ZCoordinate.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="EMTransducer.StiffnessMethod"></a>
-
-### *property* EMTransducer.StiffnessMethod *: [Ansys.Mechanical.DataModel.Enums.StiffnessMethodType](../../../../Mechanical/DataModel/Enums/StiffnessMethodType.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.StiffnessMethodType) | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the StiffnessMethod.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="EMTransducer.GAPDirection"></a>
-
-### *property* EMTransducer.GAPDirection *: [Ansys.Mechanical.DataModel.Enums.GAPDirectionType](../../../../Mechanical/DataModel/Enums/GAPDirectionType.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.GAPDirectionType) | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the GAPDirection.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="EMTransducer.IndependentVariable"></a>
-
-### *property* EMTransducer.IndependentVariable *: [Ansys.Mechanical.DataModel.Enums.LoadVariableVariationType](../../../../Mechanical/DataModel/Enums/LoadVariableVariationType.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.LoadVariableVariationType) | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the IndependentVariable.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="EMTransducer.CoordinateSystem"></a>
-
-### *property* EMTransducer.CoordinateSystem *: [Ansys.ACT.Automation.Mechanical.CoordinateSystem](../CoordinateSystem.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.CoordinateSystem) | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets the CoordinateSystem.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="EMTransducer.Location"></a>
-
-### *property* EMTransducer.Location *: Ansys.ACT.Interfaces.Common.ISelectionInfo | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the Location.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="EMTransducer.DataModelObjectCategory"></a>
-
-### *property* EMTransducer.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets the current DataModelObject's category.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="EMTransducer.Suppressed"></a>
-
-### *property* EMTransducer.Suppressed *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the Suppressed.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="EMTransducer.SharedRefBody"></a>
-
-### *property* EMTransducer.SharedRefBody *: [Ansys.ACT.Automation.Mechanical.Body](../Body.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Body) | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the SharedRefBody.
-
-<!-- !! processed by numpydoc !! -->
 
 <a id="EMTransducer.Children"></a>
 
@@ -199,11 +85,35 @@ Gets the list of associated comments.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="EMTransducer.CoordinateSystem"></a>
+
+### *property* EMTransducer.CoordinateSystem *: [Ansys.ACT.Automation.Mechanical.CoordinateSystem](../CoordinateSystem.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.CoordinateSystem) | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets the CoordinateSystem.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="EMTransducer.DataModelObjectCategory"></a>
+
+### *property* EMTransducer.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../../v242/Ansys/Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets the current DataModelObject’s category.
+
+<!-- !! processed by numpydoc !! -->
+
 <a id="EMTransducer.Figures"></a>
 
 ### *property* EMTransducer.Figures *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Figure](../Figure.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated figures.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="EMTransducer.GAPDirection"></a>
+
+### *property* EMTransducer.GAPDirection *: [Ansys.Mechanical.DataModel.Enums.GAPDirectionType](../../../../../../v242/Ansys/Mechanical/DataModel/Enums/GAPDirectionType.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.GAPDirectionType) | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the GAPDirection.
 
 <!-- !! processed by numpydoc !! -->
 
@@ -215,19 +125,51 @@ Gets the list of associated images.
 
 <!-- !! processed by numpydoc !! -->
 
-<a id="EMTransducer.ReadOnly"></a>
+<a id="EMTransducer.IndependentVariable"></a>
 
-### *property* EMTransducer.ReadOnly *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* EMTransducer.IndependentVariable *: [Ansys.Mechanical.DataModel.Enums.LoadVariableVariationType](../../../../../../v242/Ansys/Mechanical/DataModel/Enums/LoadVariableVariationType.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.LoadVariableVariationType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets or sets the ReadOnly.
+Gets or sets the IndependentVariable.
 
 <!-- !! processed by numpydoc !! -->
 
-<a id="id0"></a>
+<a id="EMTransducer.InitialGap"></a>
 
-### *property* EMTransducer.InternalObject *: System.Object | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* EMTransducer.InitialGap *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the InitialGap.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="EMTransducer.InternalObject"></a>
+
+### *property* EMTransducer.InternalObject *: Ansys.Common.Interop.DSObjectsAuto.IDSLoadAuto | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the internal object. For advanced usage only.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="EMTransducer.Location"></a>
+
+### *property* EMTransducer.Location *: Ansys.ACT.Interfaces.Common.ISelectionInfo | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the Location.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="EMTransducer.MinimalGap"></a>
+
+### *property* EMTransducer.MinimalGap *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the MinimalGap.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="EMTransducer.NumberOfSegments"></a>
+
+### *property* EMTransducer.NumberOfSegments *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the NumberOfSegments.
 
 <!-- !! processed by numpydoc !! -->
 
@@ -239,6 +181,38 @@ Gets the list of properties for this object.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="EMTransducer.ReadOnly"></a>
+
+### *property* EMTransducer.ReadOnly *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the ReadOnly.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="EMTransducer.SharedRefBody"></a>
+
+### *property* EMTransducer.SharedRefBody *: [Ansys.ACT.Automation.Mechanical.Body](../Body.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Body) | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the SharedRefBody.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="EMTransducer.StiffnessMethod"></a>
+
+### *property* EMTransducer.StiffnessMethod *: [Ansys.Mechanical.DataModel.Enums.StiffnessMethodType](../../../../../../v242/Ansys/Mechanical/DataModel/Enums/StiffnessMethodType.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.StiffnessMethodType) | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the StiffnessMethod.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="EMTransducer.Suppressed"></a>
+
+### *property* EMTransducer.Suppressed *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the Suppressed.
+
+<!-- !! processed by numpydoc !! -->
+
 <a id="EMTransducer.VisibleProperties"></a>
 
 ### *property* EMTransducer.VisibleProperties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
@@ -247,71 +221,31 @@ Gets the list of properties that are visible for this object.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="EMTransducer.VoltageDifference"></a>
+
+### *property* EMTransducer.VoltageDifference *: [Ansys.ACT.Mechanical.Fields.Field](../../../../../../v242/Ansys/ACT/Mechanical/Fields/Field.md#ansys.mechanical.stubs.v242.Ansys.ACT.Mechanical.Fields.Field) | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets the VoltageDifference.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="EMTransducer.ZCoordinate"></a>
+
+### *property* EMTransducer.ZCoordinate *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the ZCoordinate.
+
+<!-- !! processed by numpydoc !! -->
+
 <a id="method-detail"></a>
 
 ## Method detail
 
-<a id="EMTransducer.GetActivateAtLoadStep"></a>
+<a id="EMTransducer.Activate"></a>
 
-### EMTransducer.GetActivateAtLoadStep(stepNumber: System.UInt32)
+### EMTransducer.Activate()
 
-GetActivateAtLoadStep method.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="EMTransducer.SetActivateAtLoadStep"></a>
-
-### EMTransducer.SetActivateAtLoadStep(stepNumber: System.UInt32, bActive: System.Boolean)
-
-SetActivateAtLoadStep method.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="EMTransducer.GetComponentActivateAtLoadStep"></a>
-
-### EMTransducer.GetComponentActivateAtLoadStep(component: System.String, stepNumber: System.UInt32)
-
-GetComponentActivateAtLoadStep method.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="EMTransducer.SetComponentActivateAtLoadStep"></a>
-
-### EMTransducer.SetComponentActivateAtLoadStep(component: System.String, stepNumber: System.UInt32, bActive: System.Boolean)
-
-SetComponentActivateAtLoadStep method.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="EMTransducer.PromoteToNamedSelection"></a>
-
-### EMTransducer.PromoteToNamedSelection()
-
-Run the PromoteToNamedSelection action.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="EMTransducer.Delete"></a>
-
-### EMTransducer.Delete()
-
-Run the Delete action.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="EMTransducer.GetChildren"></a>
-
-### EMTransducer.GetChildren(recurses: System.Boolean, children: System.Collections.Generic.IList[ChildrenType])
-
-Gets the list of children, filtered by type.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="id1"></a>
-
-### EMTransducer.GetChildren(category: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory), recurses: System.Boolean, children: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject])
-
-Gets the list of children, filtered by type.
+Activate the current object.
 
 <!-- !! processed by numpydoc !! -->
 
@@ -335,17 +269,11 @@ Creates a new child Figure.
 
 ### EMTransducer.AddImage(filePath: System.String)
 
+```text
 Creates a new child Image.
 If a filePath is provided, the image will be loaded from that file,
 if not, the image will be a screen capture of the Geometry window.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="EMTransducer.Activate"></a>
-
-### EMTransducer.Activate()
-
-Activate the current object.
+```
 
 <!-- !! processed by numpydoc !! -->
 
@@ -357,11 +285,59 @@ Copies all visible properties from this object to another.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="EMTransducer.CreateParameter"></a>
+
+### EMTransducer.CreateParameter(propName: System.String)
+
+Creates a new parameter for a Property.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="EMTransducer.Delete"></a>
+
+### EMTransducer.Delete()
+
+Run the Delete action.
+
+<!-- !! processed by numpydoc !! -->
+
 <a id="EMTransducer.Duplicate"></a>
 
 ### EMTransducer.Duplicate()
 
 Creates a copy of the current DataModelObject.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="EMTransducer.GetActivateAtLoadStep"></a>
+
+### EMTransducer.GetActivateAtLoadStep(stepNumber: System.UInt32)
+
+GetActivateAtLoadStep method.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="EMTransducer.GetChildren"></a>
+
+### EMTransducer.GetChildren(recurses: System.Boolean, children: System.Collections.Generic.IList[ChildrenType])
+
+Gets the list of children, filtered by type.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="EMTransducer.GetComponentActivateAtLoadStep"></a>
+
+### EMTransducer.GetComponentActivateAtLoadStep(component: System.String, stepNumber: System.UInt32)
+
+GetComponentActivateAtLoadStep method.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="EMTransducer.GetParameter"></a>
+
+### EMTransducer.GetParameter(propName: System.String)
+
+Gets the parameter corresponding to the given property.
 
 <!-- !! processed by numpydoc !! -->
 
@@ -381,6 +357,25 @@ Run the GroupSimilarObjects action.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="EMTransducer.PromoteToNamedSelection"></a>
+
+### EMTransducer.PromoteToNamedSelection()
+
+Run the PromoteToNamedSelection action.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="EMTransducer.PropertyByAPIName"></a>
+
+### EMTransducer.PropertyByAPIName(name: System.String)
+
+```text
+Get a property by its API name.
+If multiple properties have the same API Name, only the first property with that name will be returned.
+```
+
+<!-- !! processed by numpydoc !! -->
+
 <a id="EMTransducer.PropertyByName"></a>
 
 ### EMTransducer.PropertyByName(name: System.String)
@@ -389,36 +384,27 @@ Get a property by its unique name.
 
 <!-- !! processed by numpydoc !! -->
 
-<a id="EMTransducer.PropertyByAPIName"></a>
-
-### EMTransducer.PropertyByAPIName(name: System.String)
-
-Get a property by its API name.
-If multiple properties have the same API Name, only the first property with that name will be returned.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="EMTransducer.CreateParameter"></a>
-
-### EMTransducer.CreateParameter(propName: System.String)
-
-Creates a new parameter for a Property.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="EMTransducer.GetParameter"></a>
-
-### EMTransducer.GetParameter(propName: System.String)
-
-Gets the parameter corresponding to the given property.
-
-<!-- !! processed by numpydoc !! -->
-
 <a id="EMTransducer.RemoveParameter"></a>
 
 ### EMTransducer.RemoveParameter(propName: System.String)
 
 Removes the parameter from the parameter set corresponding to the given property.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="EMTransducer.SetActivateAtLoadStep"></a>
+
+### EMTransducer.SetActivateAtLoadStep(stepNumber: System.UInt32, bActive: System.Boolean)
+
+SetActivateAtLoadStep method.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="EMTransducer.SetComponentActivateAtLoadStep"></a>
+
+### EMTransducer.SetComponentActivateAtLoadStep(component: System.String, stepNumber: System.UInt32, bActive: System.Boolean)
+
+SetComponentActivateAtLoadStep method.
 
 <!-- !! processed by numpydoc !! -->
 

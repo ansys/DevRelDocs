@@ -1,6 +1,6 @@
 # `AMProcessSimulationType`
 
-
+<a id="ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.AMProcessSimulationType"></a>
 
 #### *class* ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.AMProcessSimulationType
 
@@ -17,7 +17,7 @@ Specifies the AMProcessSimulationType.
 ### Attributes
 
 | Name |
-| ------------------------------------------------------------------- |
+| -------------------------------------------------------------------------------------------------------------------------------------------------- |
 | [`No`](#AMProcessSimulationType.No) |
 | [`ProgramControlled`](#AMProcessSimulationType.ProgramControlled) |
 | [`Yes`](#AMProcessSimulationType.Yes) |

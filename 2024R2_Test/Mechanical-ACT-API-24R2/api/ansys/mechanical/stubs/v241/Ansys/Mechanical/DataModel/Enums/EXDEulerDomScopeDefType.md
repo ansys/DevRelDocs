@@ -1,6 +1,6 @@
 # `EXDEulerDomScopeDefType`
 
-
+<a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.EXDEulerDomScopeDefType"></a>
 
 #### *class* ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.EXDEulerDomScopeDefType
 
@@ -15,9 +15,9 @@ Bases: [`enum.Enum`](https://docs.python.org/3/library/enum.html#enum.Enum)
 ### Attributes
 
 | Name |
-| ------------------------------------------------------------------------------------------------------------------------------------------ |
-| [`eAllBodies`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/EXDEulerDomScopeDefType.md#EXDEulerDomScopeDefType.eAllBodies) |
-| [`eEulerianOnly`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/EXDEulerDomScopeDefType.md#EXDEulerDomScopeDefType.eEulerianOnly) |
+| ----------------------------------------------------------- |
+| [`eAllBodies`](#EXDEulerDomScopeDefType.eAllBodies) |
+| [`eEulerianOnly`](#EXDEulerDomScopeDefType.eEulerianOnly) |
 
 <a id="attribute-detail"></a>
 

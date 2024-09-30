@@ -1,6 +1,6 @@
 # `EquationSolverType`
 
-
+<a id="ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.EquationSolverType"></a>
 
 #### *class* ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.EquationSolverType
 
@@ -17,7 +17,7 @@ Specifies the EquationSolverType.
 ### Attributes
 
 | Name |
-| -------------------------------------------- |
+| ---------------------------------------------------------------------------------------------------------------------- |
 | [`AMG`](#EquationSolverType.AMG) |
 | [`Frontal`](#EquationSolverType.Frontal) |
 | [`ICCG`](#EquationSolverType.ICCG) |

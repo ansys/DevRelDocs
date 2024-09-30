@@ -1,6 +1,6 @@
 # `ImportSettings`
 
-
+<a id="ansys.mechanical.stubs.v242.Ansys.Mechanical.Materials.ImportSettings"></a>
 
 #### *class* ansys.mechanical.stubs.v242.Ansys.Mechanical.Materials.ImportSettings
 
@@ -17,7 +17,7 @@ ImportSettings interface.
 ### Properties
 
 | Name | Description |
-|--------------------------------------|---------------------------------------------------------------|
+|---------------------------------------------------------------------------------------------------|---------------------------------------------------------------|
 | [`Filter`](#ImportSettings.Filter)   | All materials will be imported if this list of the names of   |
 
 <a id="property-detail"></a>

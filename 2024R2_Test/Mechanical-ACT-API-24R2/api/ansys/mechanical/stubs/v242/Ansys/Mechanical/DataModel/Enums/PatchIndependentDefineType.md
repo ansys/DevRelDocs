@@ -1,6 +1,6 @@
 # `PatchIndependentDefineType`
 
-
+<a id="ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.PatchIndependentDefineType"></a>
 
 #### *class* ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.PatchIndependentDefineType
 
@@ -17,20 +17,20 @@ Specifies the PatchIndependentDefineType.
 ### Attributes
 
 | Name |
-| ---------------------------------------------------------------------- |
-| [`MaxElementSize`](#PatchIndependentDefineType.MaxElementSize) |
+| ---------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | [`ApproxNumElements`](#PatchIndependentDefineType.ApproxNumElements) |
+| [`MaxElementSize`](#PatchIndependentDefineType.MaxElementSize) |
 
 <a id="attribute-detail"></a>
 
 ## Attribute detail
 
-<a id="PatchIndependentDefineType.MaxElementSize"></a>
-
-### PatchIndependentDefineType.MaxElementSize *= 0*
-
 <a id="PatchIndependentDefineType.ApproxNumElements"></a>
 
 ### PatchIndependentDefineType.ApproxNumElements *= 1*
+
+<a id="PatchIndependentDefineType.MaxElementSize"></a>
+
+### PatchIndependentDefineType.MaxElementSize *= 0*
 
 

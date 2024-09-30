@@ -1,6 +1,6 @@
 # `AutomaticTimeStepping`
 
-
+<a id="ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.AutomaticTimeStepping"></a>
 
 #### *class* ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.AutomaticTimeStepping
 
@@ -17,7 +17,7 @@ Specifies the AutomaticTimeStepping.
 ### Attributes
 
 | Name |
-| ----------------------------------------------------------------- |
+| ---------------------------------------------------------------------------------------------------------------------------------------------- |
 | [`Off`](#AutomaticTimeStepping.Off) |
 | [`On`](#AutomaticTimeStepping.On) |
 | [`ProgramControlled`](#AutomaticTimeStepping.ProgramControlled) |

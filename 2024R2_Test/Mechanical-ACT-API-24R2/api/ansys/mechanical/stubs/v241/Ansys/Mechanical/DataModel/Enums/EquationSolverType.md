@@ -1,6 +1,6 @@
 # `EquationSolverType`
 
-
+<a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.EquationSolverType"></a>
 
 #### *class* ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.EquationSolverType
 
@@ -17,15 +17,15 @@ Specifies the EquationSolverType.
 ### Attributes
 
 | Name |
-| ---------------------------------------------------------------------------------------------------------------------- |
-| [`AMG`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/EquationSolverType.md#EquationSolverType.AMG) |
-| [`Frontal`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/EquationSolverType.md#EquationSolverType.Frontal) |
-| [`ICCG`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/EquationSolverType.md#EquationSolverType.ICCG) |
-| [`JCG`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/EquationSolverType.md#EquationSolverType.JCG) |
-| [`PCG`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/EquationSolverType.md#EquationSolverType.PCG) |
-| [`QMR`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/EquationSolverType.md#EquationSolverType.QMR) |
-| [`Sparse`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/EquationSolverType.md#EquationSolverType.Sparse) |
-| [`Supplied`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/EquationSolverType.md#EquationSolverType.Supplied) |
+| -------------------------------------------- |
+| [`AMG`](#EquationSolverType.AMG) |
+| [`Frontal`](#EquationSolverType.Frontal) |
+| [`ICCG`](#EquationSolverType.ICCG) |
+| [`JCG`](#EquationSolverType.JCG) |
+| [`PCG`](#EquationSolverType.PCG) |
+| [`QMR`](#EquationSolverType.QMR) |
+| [`Sparse`](#EquationSolverType.Sparse) |
+| [`Supplied`](#EquationSolverType.Supplied) |
 
 <a id="attribute-detail"></a>
 

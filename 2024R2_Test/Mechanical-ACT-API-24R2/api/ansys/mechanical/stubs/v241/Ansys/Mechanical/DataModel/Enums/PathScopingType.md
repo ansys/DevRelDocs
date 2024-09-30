@@ -1,6 +1,6 @@
 # `PathScopingType`
 
-
+<a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.PathScopingType"></a>
 
 #### *class* ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.PathScopingType
 
@@ -17,11 +17,11 @@ Specifies the PathScopingType.
 ### Attributes
 
 | Name |
-| ------------------------------------------------------------------------------------------------------------ |
-| [`Edge`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/PathScopingType.md#PathScopingType.Edge) |
-| [`Offset`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/PathScopingType.md#PathScopingType.Offset) |
-| [`Points`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/PathScopingType.md#PathScopingType.Points) |
-| [`Ray`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/PathScopingType.md#PathScopingType.Ray) |
+| ------------------------------------- |
+| [`Edge`](#PathScopingType.Edge) |
+| [`Offset`](#PathScopingType.Offset) |
+| [`Points`](#PathScopingType.Points) |
+| [`Ray`](#PathScopingType.Ray) |
 
 <a id="attribute-detail"></a>
 

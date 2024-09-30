@@ -1,6 +1,6 @@
 # `ContactToleranceType`
 
-
+<a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.ContactToleranceType"></a>
 
 #### *class* ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.ContactToleranceType
 
@@ -17,10 +17,10 @@ Specifies the ContactToleranceType.
 ### Attributes
 
 | Name |
-| ---------------------------------------------------------------------------------------------------------------------------------------- |
-| [`SheetThickness`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/ContactToleranceType.md#ContactToleranceType.SheetThickness) |
-| [`Slider`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/ContactToleranceType.md#ContactToleranceType.Slider) |
-| [`Value`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/ContactToleranceType.md#ContactToleranceType.Value) |
+| ------------------------------------------------------------ |
+| [`SheetThickness`](#ContactToleranceType.SheetThickness) |
+| [`Slider`](#ContactToleranceType.Slider) |
+| [`Value`](#ContactToleranceType.Value) |
 
 <a id="attribute-detail"></a>
 

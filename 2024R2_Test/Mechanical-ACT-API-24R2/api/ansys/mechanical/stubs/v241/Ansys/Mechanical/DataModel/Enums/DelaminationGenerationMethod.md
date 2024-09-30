@@ -1,6 +1,6 @@
 # `DelaminationGenerationMethod`
 
-
+<a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DelaminationGenerationMethod"></a>
 
 #### *class* ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DelaminationGenerationMethod
 
@@ -17,11 +17,11 @@ Specifies the DelaminationGenerationMethod.
 ### Attributes
 
 | Name |
-| -------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| [`MatchedMeshing`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/DelaminationGenerationMethod.md#DelaminationGenerationMethod.MatchedMeshing) |
-| [`NodeMatching`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/DelaminationGenerationMethod.md#DelaminationGenerationMethod.NodeMatching) |
-| [`PregeneratedInterface`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/DelaminationGenerationMethod.md#DelaminationGenerationMethod.PregeneratedInterface) |
-| [`SurfaceSplitting`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/DelaminationGenerationMethod.md#DelaminationGenerationMethod.SurfaceSplitting) |
+| -------------------------------------------------------------------------------- |
+| [`MatchedMeshing`](#DelaminationGenerationMethod.MatchedMeshing) |
+| [`NodeMatching`](#DelaminationGenerationMethod.NodeMatching) |
+| [`PregeneratedInterface`](#DelaminationGenerationMethod.PregeneratedInterface) |
+| [`SurfaceSplitting`](#DelaminationGenerationMethod.SurfaceSplitting) |
 
 <a id="attribute-detail"></a>
 

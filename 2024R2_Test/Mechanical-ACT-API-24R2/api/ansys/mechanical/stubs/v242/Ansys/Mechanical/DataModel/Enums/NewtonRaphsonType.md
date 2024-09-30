@@ -1,6 +1,6 @@
 # `NewtonRaphsonType`
 
-
+<a id="ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.NewtonRaphsonType"></a>
 
 #### *class* ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.NewtonRaphsonType
 
@@ -17,7 +17,7 @@ Specifies the NewtonRaphsonType.
 ### Attributes
 
 | Name |
-| ------------------------------------------------------------- |
+| -------------------------------------------------------------------------------------------------------------------------------------- |
 | [`Full`](#NewtonRaphsonType.Full) |
 | [`Modified`](#NewtonRaphsonType.Modified) |
 | [`ProgramControlled`](#NewtonRaphsonType.ProgramControlled) |

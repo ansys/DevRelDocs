@@ -1,6 +1,6 @@
 # `ContourView`
 
-
+<a id="ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.MechanicalEnums.Graphics.ContourView"></a>
 
 #### *class* ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.MechanicalEnums.Graphics.ContourView
 
@@ -17,19 +17,15 @@ Specifies the ContourView.
 ### Attributes
 
 | Name |
-| --------------------------------------------------- |
-| [`SmoothContours`](#ContourView.SmoothContours) |
+| ------------------------------------------------------------------------------------------------------------------------------------------ |
 | [`ContourBands`](#ContourView.ContourBands) |
 | [`Isolines`](#ContourView.Isolines) |
+| [`SmoothContours`](#ContourView.SmoothContours) |
 | [`SolidFill`](#ContourView.SolidFill) |
 
 <a id="attribute-detail"></a>
 
 ## Attribute detail
-
-<a id="ContourView.SmoothContours"></a>
-
-### ContourView.SmoothContours *= 0*
 
 <a id="ContourView.ContourBands"></a>
 
@@ -38,6 +34,10 @@ Specifies the ContourView.
 <a id="ContourView.Isolines"></a>
 
 ### ContourView.Isolines *= 2*
+
+<a id="ContourView.SmoothContours"></a>
+
+### ContourView.SmoothContours *= 0*
 
 <a id="ContourView.SolidFill"></a>
 

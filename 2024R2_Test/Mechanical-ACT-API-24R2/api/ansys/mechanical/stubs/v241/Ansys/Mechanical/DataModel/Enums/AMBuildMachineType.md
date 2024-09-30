@@ -1,6 +1,6 @@
 # `AMBuildMachineType`
 
-
+<a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.AMBuildMachineType"></a>
 
 #### *class* ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.AMBuildMachineType
 
@@ -17,15 +17,15 @@ Specifies the AMBuildMachineType.
 ### Attributes
 
 | Name |
-| ------------------------------------------------------------------------------------------------------------------------ |
-| [`Ai`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/AMBuildMachineType.md#AMBuildMachineType.Ai) |
-| [`Eos`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/AMBuildMachineType.md#AMBuildMachineType.Eos) |
-| [`Hb3d`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/AMBuildMachineType.md#AMBuildMachineType.Hb3d) |
-| [`Renishaw`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/AMBuildMachineType.md#AMBuildMachineType.Renishaw) |
-| [`Sisma`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/AMBuildMachineType.md#AMBuildMachineType.Sisma) |
-| [`Slm`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/AMBuildMachineType.md#AMBuildMachineType.Slm) |
-| [`Trumpf`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/AMBuildMachineType.md#AMBuildMachineType.Trumpf) |
-| [`Undefined`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/AMBuildMachineType.md#AMBuildMachineType.Undefined) |
+| ---------------------------------------------- |
+| [`Ai`](#AMBuildMachineType.Ai) |
+| [`Eos`](#AMBuildMachineType.Eos) |
+| [`Hb3d`](#AMBuildMachineType.Hb3d) |
+| [`Renishaw`](#AMBuildMachineType.Renishaw) |
+| [`Sisma`](#AMBuildMachineType.Sisma) |
+| [`Slm`](#AMBuildMachineType.Slm) |
+| [`Trumpf`](#AMBuildMachineType.Trumpf) |
+| [`Undefined`](#AMBuildMachineType.Undefined) |
 
 <a id="attribute-detail"></a>
 

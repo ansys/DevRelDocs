@@ -1,6 +1,6 @@
 # `StiffnessMethodType`
 
-
+<a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.StiffnessMethodType"></a>
 
 #### *class* ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.StiffnessMethodType
 
@@ -17,10 +17,10 @@ Specifies the StiffnessMethodType.
 ### Attributes
 
 | Name |
-| ------------------------------------------------------------------------------------------------------------------------------------------ |
-| [`Augmented`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/StiffnessMethodType.md#StiffnessMethodType.Augmented) |
-| [`Full`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/StiffnessMethodType.md#StiffnessMethodType.Full) |
-| [`ProgramControlled`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/StiffnessMethodType.md#StiffnessMethodType.ProgramControlled) |
+| --------------------------------------------------------------- |
+| [`Augmented`](#StiffnessMethodType.Augmented) |
+| [`Full`](#StiffnessMethodType.Full) |
+| [`ProgramControlled`](#StiffnessMethodType.ProgramControlled) |
 
 <a id="attribute-detail"></a>
 

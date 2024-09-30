@@ -1,6 +1,6 @@
 # `FacetQuality`
 
-
+<a id="ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.GeometryImportPreference.FacetQuality"></a>
 
 #### *class* ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.GeometryImportPreference.FacetQuality
 
@@ -17,40 +17,40 @@ Used to specify the quality of the facet for the import.
 ### Attributes
 
 | Name |
-| -------------------------------------------- |
-| [`VeryCoarse`](#FacetQuality.VeryCoarse) |
+| ------------------------------------------------------------------------------------------------------------------------------------------ |
 | [`Coarse`](#FacetQuality.Coarse) |
-| [`Normal`](#FacetQuality.Normal) |
 | [`Fine`](#FacetQuality.Fine) |
-| [`VeryFine`](#FacetQuality.VeryFine) |
+| [`Normal`](#FacetQuality.Normal) |
 | [`Source`](#FacetQuality.Source) |
+| [`VeryCoarse`](#FacetQuality.VeryCoarse) |
+| [`VeryFine`](#FacetQuality.VeryFine) |
 
 <a id="attribute-detail"></a>
 
 ## Attribute detail
 
-<a id="FacetQuality.VeryCoarse"></a>
-
-### FacetQuality.VeryCoarse *= 1*
-
 <a id="FacetQuality.Coarse"></a>
 
 ### FacetQuality.Coarse *= 2*
-
-<a id="FacetQuality.Normal"></a>
-
-### FacetQuality.Normal *= 3*
 
 <a id="FacetQuality.Fine"></a>
 
 ### FacetQuality.Fine *= 4*
 
-<a id="FacetQuality.VeryFine"></a>
+<a id="FacetQuality.Normal"></a>
 
-### FacetQuality.VeryFine *= 5*
+### FacetQuality.Normal *= 3*
 
 <a id="FacetQuality.Source"></a>
 
 ### FacetQuality.Source *= 6*
+
+<a id="FacetQuality.VeryCoarse"></a>
+
+### FacetQuality.VeryCoarse *= 1*
+
+<a id="FacetQuality.VeryFine"></a>
+
+### FacetQuality.VeryFine *= 5*
 
 

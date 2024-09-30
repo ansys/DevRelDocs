@@ -1,6 +1,6 @@
 # `FittingMethodType`
 
-
+<a id="ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.FittingMethodType"></a>
 
 #### *class* ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.FittingMethodType
 
@@ -17,20 +17,20 @@ Specifies the FittingMethodType.
 ### Attributes
 
 | Name |
-| ------------------------------------------------------------------- |
-| [`ProgramControlled`](#FittingMethodType.ProgramControlled) |
+| ---------------------------------------------------------------------------------------------------------------------------------------------- |
 | [`FastFourierTransform`](#FittingMethodType.FastFourierTransform) |
+| [`ProgramControlled`](#FittingMethodType.ProgramControlled) |
 
 <a id="attribute-detail"></a>
 
 ## Attribute detail
 
-<a id="FittingMethodType.ProgramControlled"></a>
-
-### FittingMethodType.ProgramControlled *= 0*
-
 <a id="FittingMethodType.FastFourierTransform"></a>
 
 ### FittingMethodType.FastFourierTransform *= 1*
+
+<a id="FittingMethodType.ProgramControlled"></a>
+
+### FittingMethodType.ProgramControlled *= 0*
 
 

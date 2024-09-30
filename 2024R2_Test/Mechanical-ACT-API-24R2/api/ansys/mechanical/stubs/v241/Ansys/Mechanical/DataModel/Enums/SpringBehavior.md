@@ -1,6 +1,6 @@
 # `SpringBehavior`
 
-
+<a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.SpringBehavior"></a>
 
 #### *class* ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.SpringBehavior
 
@@ -17,11 +17,11 @@ Specifies the SpringBehavior.
 ### Attributes
 
 | Name |
-| ---------------------------------------------------------------------------------------------------------------------------------------------- |
-| [`Linear`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/SpringBehavior.md#SpringBehavior.Linear) |
-| [`NonLinear`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/SpringBehavior.md#SpringBehavior.NonLinear) |
-| [`NonLinearCompressionOnly`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/SpringBehavior.md#SpringBehavior.NonLinearCompressionOnly) |
-| [`NonLinearTensionOnly`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/SpringBehavior.md#SpringBehavior.NonLinearTensionOnly) |
+| ------------------------------------------------------------------------ |
+| [`Linear`](#SpringBehavior.Linear) |
+| [`NonLinear`](#SpringBehavior.NonLinear) |
+| [`NonLinearCompressionOnly`](#SpringBehavior.NonLinearCompressionOnly) |
+| [`NonLinearTensionOnly`](#SpringBehavior.NonLinearTensionOnly) |
 
 <a id="attribute-detail"></a>
 

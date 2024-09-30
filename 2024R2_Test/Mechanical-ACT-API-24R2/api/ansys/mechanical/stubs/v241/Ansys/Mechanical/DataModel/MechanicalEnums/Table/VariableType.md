@@ -1,12 +1,13 @@
 # `VariableType`
 
-
+<a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.MechanicalEnums.Table.VariableType"></a>
 
 #### *class* ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.MechanicalEnums.Table.VariableType
 
 Bases: [`enum.Enum`](https://docs.python.org/3/library/enum.html#enum.Enum)
 
 An enumeration of the different variable types supported by the tabular data
+T:Ansys.Mechanical.Interfaces.IDataSeries implementation “Ansys.ACT.Automation.Mechanical.Table.Column”.
 
 <!-- !! processed by numpydoc !! -->
 
@@ -17,20 +18,24 @@ An enumeration of the different variable types supported by the tabular data
 ### Attributes
 
 | Name |
-| ----------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| [`ID`](../../../../../../v242/Ansys/Mechanical/DataModel/MechanicalEnums/Table/VariableType.md#VariableType.ID) |
-| [`Pressure`](../../../../../../v242/Ansys/Mechanical/DataModel/MechanicalEnums/Table/VariableType.md#VariableType.Pressure) |
-| [`HeatTransferCoefficient`](../../../../../../v242/Ansys/Mechanical/DataModel/MechanicalEnums/Table/VariableType.md#VariableType.HeatTransferCoefficient) |
-| [`Temperature`](../../../../../../v242/Ansys/Mechanical/DataModel/MechanicalEnums/Table/VariableType.md#VariableType.Temperature) |
-| [`ThetaCoordinate`](../../../../../../v242/Ansys/Mechanical/DataModel/MechanicalEnums/Table/VariableType.md#VariableType.ThetaCoordinate) |
-| [`Time`](../../../../../../v242/Ansys/Mechanical/DataModel/MechanicalEnums/Table/VariableType.md#VariableType.Time) |
-| [`XCoordinate`](../../../../../../v242/Ansys/Mechanical/DataModel/MechanicalEnums/Table/VariableType.md#VariableType.XCoordinate) |
-| [`YCoordinate`](../../../../../../v242/Ansys/Mechanical/DataModel/MechanicalEnums/Table/VariableType.md#VariableType.YCoordinate) |
-| [`ZCoordinate`](../../../../../../v242/Ansys/Mechanical/DataModel/MechanicalEnums/Table/VariableType.md#VariableType.ZCoordinate) |
+| ---------------------------------------------------------------------- |
+| [`HeatTransferCoefficient`](#VariableType.HeatTransferCoefficient) |
+| [`ID`](#VariableType.ID) |
+| [`Pressure`](#VariableType.Pressure) |
+| [`Temperature`](#VariableType.Temperature) |
+| [`ThetaCoordinate`](#VariableType.ThetaCoordinate) |
+| [`Time`](#VariableType.Time) |
+| [`XCoordinate`](#VariableType.XCoordinate) |
+| [`YCoordinate`](#VariableType.YCoordinate) |
+| [`ZCoordinate`](#VariableType.ZCoordinate) |
 
 <a id="attribute-detail"></a>
 
 ## Attribute detail
+
+<a id="VariableType.HeatTransferCoefficient"></a>
+
+### VariableType.HeatTransferCoefficient *= 5*
 
 <a id="VariableType.ID"></a>
 
@@ -39,10 +44,6 @@ An enumeration of the different variable types supported by the tabular data
 <a id="VariableType.Pressure"></a>
 
 ### VariableType.Pressure *= 4*
-
-<a id="VariableType.HeatTransferCoefficient"></a>
-
-### VariableType.HeatTransferCoefficient *= 5*
 
 <a id="VariableType.Temperature"></a>
 

@@ -1,6 +1,6 @@
 # `PortBehavior`
 
-
+<a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.PortBehavior"></a>
 
 #### *class* ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.PortBehavior
 
@@ -17,9 +17,9 @@ Specifies the PortBehavior.
 ### Attributes
 
 | Name |
-| ------------------------------------------------------------------------------------------------------------------ |
-| [`Transparent`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/PortBehavior.md#PortBehavior.Transparent) |
-| [`Vibro`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/PortBehavior.md#PortBehavior.Vibro) |
+| ---------------------------------------------- |
+| [`Transparent`](#PortBehavior.Transparent) |
+| [`Vibro`](#PortBehavior.Vibro) |
 
 <a id="attribute-detail"></a>
 

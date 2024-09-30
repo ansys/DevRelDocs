@@ -1,6 +1,6 @@
 # `ResultFileItemType`
 
-
+<a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.ResultFileItemType"></a>
 
 #### *class* ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.ResultFileItemType
 
@@ -17,21 +17,25 @@ Specifies the ResultFileItemType.
 ### Attributes
 
 | Name |
-| ---------------------------------------------------------------------------------------------------------------------------------- |
-| [`MaterialIDs`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/ResultFileItemType.md#ResultFileItemType.MaterialIDs) |
-| [`ElementNameIDs`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/ResultFileItemType.md#ResultFileItemType.ElementNameIDs) |
-| [`ElementTypeIDs`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/ResultFileItemType.md#ResultFileItemType.ElementTypeIDs) |
-| [`ComponentName`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/ResultFileItemType.md#ResultFileItemType.ComponentName) |
-| [`ElementIDs`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/ResultFileItemType.md#ResultFileItemType.ElementIDs) |
-| [`NodeIDs`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/ResultFileItemType.md#ResultFileItemType.NodeIDs) |
+| -------------------------------------------------------- |
+| [`ComponentName`](#ResultFileItemType.ComponentName) |
+| [`ElementIDs`](#ResultFileItemType.ElementIDs) |
+| [`ElementNameIDs`](#ResultFileItemType.ElementNameIDs) |
+| [`ElementTypeIDs`](#ResultFileItemType.ElementTypeIDs) |
+| [`MaterialIDs`](#ResultFileItemType.MaterialIDs) |
+| [`NodeIDs`](#ResultFileItemType.NodeIDs) |
 
 <a id="attribute-detail"></a>
 
 ## Attribute detail
 
-<a id="ResultFileItemType.MaterialIDs"></a>
+<a id="ResultFileItemType.ComponentName"></a>
 
-### ResultFileItemType.MaterialIDs *= 0*
+### ResultFileItemType.ComponentName *= 3*
+
+<a id="ResultFileItemType.ElementIDs"></a>
+
+### ResultFileItemType.ElementIDs *= 4*
 
 <a id="ResultFileItemType.ElementNameIDs"></a>
 
@@ -41,13 +45,9 @@ Specifies the ResultFileItemType.
 
 ### ResultFileItemType.ElementTypeIDs *= 2*
 
-<a id="ResultFileItemType.ComponentName"></a>
+<a id="ResultFileItemType.MaterialIDs"></a>
 
-### ResultFileItemType.ComponentName *= 3*
-
-<a id="ResultFileItemType.ElementIDs"></a>
-
-### ResultFileItemType.ElementIDs *= 4*
+### ResultFileItemType.MaterialIDs *= 0*
 
 <a id="ResultFileItemType.NodeIDs"></a>
 

@@ -1,6 +1,6 @@
 # `ContactResultType`
 
-
+<a id="ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.ContactResultType"></a>
 
 #### *class* ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.ContactResultType
 
@@ -17,34 +17,38 @@ Specifies the ContactResultType.
 ### Attributes
 
 | Name |
-| ----------------------------------------------------------- |
-| [`Pressure`](#ContactResultType.Pressure) |
-| [`Penetration`](#ContactResultType.Penetration) |
-| [`Gap`](#ContactResultType.Gap) |
+| ------------------------------------------------------------------------------------------------------------------------------------ |
+| [`FluidPressure`](#ContactResultType.FluidPressure) |
 | [`FrictionalStress`](#ContactResultType.FrictionalStress) |
+| [`Gap`](#ContactResultType.Gap) |
+| [`Penetration`](#ContactResultType.Penetration) |
+| [`Pressure`](#ContactResultType.Pressure) |
 | [`SlidingDistance`](#ContactResultType.SlidingDistance) |
 | [`Status`](#ContactResultType.Status) |
-| [`FluidPressure`](#ContactResultType.FluidPressure) |
 
 <a id="attribute-detail"></a>
 
 ## Attribute detail
 
-<a id="ContactResultType.Pressure"></a>
+<a id="ContactResultType.FluidPressure"></a>
 
-### ContactResultType.Pressure *= 68*
+### ContactResultType.FluidPressure *= 265*
 
-<a id="ContactResultType.Penetration"></a>
+<a id="ContactResultType.FrictionalStress"></a>
 
-### ContactResultType.Penetration *= 69*
+### ContactResultType.FrictionalStress *= 71*
 
 <a id="ContactResultType.Gap"></a>
 
 ### ContactResultType.Gap *= 70*
 
-<a id="ContactResultType.FrictionalStress"></a>
+<a id="ContactResultType.Penetration"></a>
 
-### ContactResultType.FrictionalStress *= 71*
+### ContactResultType.Penetration *= 69*
+
+<a id="ContactResultType.Pressure"></a>
+
+### ContactResultType.Pressure *= 68*
 
 <a id="ContactResultType.SlidingDistance"></a>
 
@@ -53,9 +57,5 @@ Specifies the ContactResultType.
 <a id="ContactResultType.Status"></a>
 
 ### ContactResultType.Status *= 73*
-
-<a id="ContactResultType.FluidPressure"></a>
-
-### ContactResultType.FluidPressure *= 265*
 
 

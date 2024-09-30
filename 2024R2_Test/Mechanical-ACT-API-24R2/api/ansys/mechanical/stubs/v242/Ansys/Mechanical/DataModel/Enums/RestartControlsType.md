@@ -1,6 +1,6 @@
 # `RestartControlsType`
 
-
+<a id="ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.RestartControlsType"></a>
 
 #### *class* ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.RestartControlsType
 
@@ -17,7 +17,7 @@ Specifies the RestartControlsType.
 ### Attributes
 
 | Name |
-| --------------------------------------------------------------- |
+| ------------------------------------------------------------------------------------------------------------------------------------------ |
 | [`Manual`](#RestartControlsType.Manual) |
 | [`Off`](#RestartControlsType.Off) |
 | [`ProgramControlled`](#RestartControlsType.ProgramControlled) |

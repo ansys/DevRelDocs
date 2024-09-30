@@ -1,6 +1,6 @@
 # `FacetQuality`
 
-
+<a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.GeometryImportPreference.FacetQuality"></a>
 
 #### *class* ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.GeometryImportPreference.FacetQuality
 
@@ -17,40 +17,40 @@ Used to specify the quality of the facet for the import.
 ### Attributes
 
 | Name |
-| -------------------------------------------------------------------------------------------------------------------------------------------- |
-| [`VeryCoarse`](../../../../../../v242/Ansys/Mechanical/DataModel/Enums/GeometryImportPreference/FacetQuality.md#FacetQuality.VeryCoarse) |
-| [`Coarse`](../../../../../../v242/Ansys/Mechanical/DataModel/Enums/GeometryImportPreference/FacetQuality.md#FacetQuality.Coarse) |
-| [`Normal`](../../../../../../v242/Ansys/Mechanical/DataModel/Enums/GeometryImportPreference/FacetQuality.md#FacetQuality.Normal) |
-| [`Fine`](../../../../../../v242/Ansys/Mechanical/DataModel/Enums/GeometryImportPreference/FacetQuality.md#FacetQuality.Fine) |
-| [`VeryFine`](../../../../../../v242/Ansys/Mechanical/DataModel/Enums/GeometryImportPreference/FacetQuality.md#FacetQuality.VeryFine) |
-| [`Source`](../../../../../../v242/Ansys/Mechanical/DataModel/Enums/GeometryImportPreference/FacetQuality.md#FacetQuality.Source) |
+| ------------------------------------------ |
+| [`Coarse`](#FacetQuality.Coarse) |
+| [`Fine`](#FacetQuality.Fine) |
+| [`Normal`](#FacetQuality.Normal) |
+| [`Source`](#FacetQuality.Source) |
+| [`VeryCoarse`](#FacetQuality.VeryCoarse) |
+| [`VeryFine`](#FacetQuality.VeryFine) |
 
 <a id="attribute-detail"></a>
 
 ## Attribute detail
 
-<a id="FacetQuality.VeryCoarse"></a>
-
-### FacetQuality.VeryCoarse *= 1*
-
 <a id="FacetQuality.Coarse"></a>
 
 ### FacetQuality.Coarse *= 2*
-
-<a id="FacetQuality.Normal"></a>
-
-### FacetQuality.Normal *= 3*
 
 <a id="FacetQuality.Fine"></a>
 
 ### FacetQuality.Fine *= 4*
 
-<a id="FacetQuality.VeryFine"></a>
+<a id="FacetQuality.Normal"></a>
 
-### FacetQuality.VeryFine *= 5*
+### FacetQuality.Normal *= 3*
 
 <a id="FacetQuality.Source"></a>
 
 ### FacetQuality.Source *= 6*
+
+<a id="FacetQuality.VeryCoarse"></a>
+
+### FacetQuality.VeryCoarse *= 1*
+
+<a id="FacetQuality.VeryFine"></a>
+
+### FacetQuality.VeryFine *= 5*
 
 

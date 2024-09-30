@@ -1,6 +1,6 @@
 # `ResultDataTable`
 
-
+<a id="ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Results.ResultDataTable"></a>
 
 #### *class* ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Results.ResultDataTable
 
@@ -17,21 +17,29 @@ Specifies the Result Table.
 ### Methods
 
 | Name | Description |
-|-------------------------------------------------|-----------------------|
+|--------------------------------------------------------------------------------------------------------------------------|-----------------------|
 | [`ContainsKey`](#ResultDataTable.ContainsKey)   | ContainsKey method.   |
 
 ### Properties
 
 | Name | Description |
-|-------------------------------------|------------------|
-| [`Item`](#ResultDataTable.Item)     | Item property.   |
-| [`Keys`](#ResultDataTable.Keys)     | Keys property.   |
-| [`Values`](#ResultDataTable.Values) | Values property. |
-| [`Count`](#ResultDataTable.Count)   | Count property.  |
+|--------------------------------------------------------------------------------------------------------------|-------------------|
+| [`Count`](#ResultDataTable.Count)   | Count property.   |
+| [`Item`](#ResultDataTable.Item)     | Item property.    |
+| [`Keys`](#ResultDataTable.Keys)     | Keys property.    |
+| [`Values`](#ResultDataTable.Values) | Values property.  |
 
 <a id="property-detail"></a>
 
 ## Property detail
+
+<a id="ResultDataTable.Count"></a>
+
+### *property* ResultDataTable.Count *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Count property.
+
+<!-- !! processed by numpydoc !! -->
 
 <a id="ResultDataTable.Item"></a>
 
@@ -54,14 +62,6 @@ Keys property.
 ### *property* ResultDataTable.Values *: System.Collections.Generic.IEnumerable[System.Collections.IEnumerable] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Values property.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="ResultDataTable.Count"></a>
-
-### *property* ResultDataTable.Count *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Count property.
 
 <!-- !! processed by numpydoc !! -->
 

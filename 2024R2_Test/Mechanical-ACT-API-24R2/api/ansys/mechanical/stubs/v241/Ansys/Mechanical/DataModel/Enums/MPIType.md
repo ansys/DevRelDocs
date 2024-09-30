@@ -1,6 +1,6 @@
 # `MPIType`
 
-
+<a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.MPIType"></a>
 
 #### *class* ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.MPIType
 
@@ -17,10 +17,10 @@ Specifies the MPIType.
 ### Attributes
 
 | Name |
-| -------------------------------------------------------------------------------------------------- |
-| [`INTELMPI`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/MPIType.md#MPIType.INTELMPI) |
-| [`MSMPI`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/MPIType.md#MPIType.MSMPI) |
-| [`PCMPI`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/MPIType.md#MPIType.PCMPI) |
+| ----------------------------------- |
+| [`INTELMPI`](#MPIType.INTELMPI) |
+| [`MSMPI`](#MPIType.MSMPI) |
+| [`PCMPI`](#MPIType.PCMPI) |
 
 <a id="attribute-detail"></a>
 

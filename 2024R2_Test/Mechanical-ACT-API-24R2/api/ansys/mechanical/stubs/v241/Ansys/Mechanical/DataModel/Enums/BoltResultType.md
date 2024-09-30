@@ -1,6 +1,6 @@
 # `BoltResultType`
 
-
+<a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.BoltResultType"></a>
 
 #### *class* ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.BoltResultType
 
@@ -17,9 +17,9 @@ Specifies the BoltResultType.
 ### Attributes
 
 | Name |
-| -------------------------------------------------------------------------------------------------------------------- |
-| [`Adjustment`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/BoltResultType.md#BoltResultType.Adjustment) |
-| [`WorkingLoad`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/BoltResultType.md#BoltResultType.WorkingLoad) |
+| ---------------------------------------------- |
+| [`Adjustment`](#BoltResultType.Adjustment) |
+| [`WorkingLoad`](#BoltResultType.WorkingLoad) |
 
 <a id="attribute-detail"></a>
 

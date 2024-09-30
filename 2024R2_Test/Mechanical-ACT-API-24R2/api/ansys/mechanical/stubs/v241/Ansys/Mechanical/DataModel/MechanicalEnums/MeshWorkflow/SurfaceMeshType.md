@@ -1,6 +1,6 @@
 # `SurfaceMeshType`
 
-
+<a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.MechanicalEnums.MeshWorkflow.SurfaceMeshType"></a>
 
 #### *class* ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.MechanicalEnums.MeshWorkflow.SurfaceMeshType
 
@@ -17,9 +17,9 @@ This enum is referenced in the “Control” tree node and reflects the type of 
 ### Attributes
 
 | Name |
-| -------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| [`Quadrilaterals`](../../../../../../v242/Ansys/Mechanical/DataModel/MechanicalEnums/MeshWorkflow/SurfaceMeshType.md#SurfaceMeshType.Quadrilaterals) |
-| [`Triangles`](../../../../../../v242/Ansys/Mechanical/DataModel/MechanicalEnums/MeshWorkflow/SurfaceMeshType.md#SurfaceMeshType.Triangles) |
+| ------------------------------------------------------- |
+| [`Quadrilaterals`](#SurfaceMeshType.Quadrilaterals) |
+| [`Triangles`](#SurfaceMeshType.Triangles) |
 
 <a id="attribute-detail"></a>
 

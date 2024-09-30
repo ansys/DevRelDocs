@@ -1,6 +1,6 @@
 # `TableRefreshImportOn`
 
-
+<a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.MechanicalEnums.Table.TableRefreshImportOn"></a>
 
 #### *class* ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.MechanicalEnums.Table.TableRefreshImportOn
 
@@ -17,9 +17,9 @@ Allows control on when an import should be refreshed.
 ### Attributes
 
 | Name |
-| ----------------------------------------------------------------------------------------------------------------------------------------------------- |
-| [`BeforeSolve`](../../../../../../v242/Ansys/Mechanical/DataModel/MechanicalEnums/Table/TableRefreshImportOn.md#TableRefreshImportOn.BeforeSolve) |
-| [`None_`](../../../../../../v242/Ansys/Mechanical/DataModel/MechanicalEnums/Table/TableRefreshImportOn.md#TableRefreshImportOn.None_) |
+| ------------------------------------------------------ |
+| [`BeforeSolve`](#TableRefreshImportOn.BeforeSolve) |
+| [`None_`](#TableRefreshImportOn.None_) |
 
 <a id="attribute-detail"></a>
 

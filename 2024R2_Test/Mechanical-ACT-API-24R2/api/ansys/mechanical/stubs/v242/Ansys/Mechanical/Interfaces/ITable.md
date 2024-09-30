@@ -1,6 +1,6 @@
 # `ITable`
 
-
+<a id="ansys.mechanical.stubs.v242.Ansys.Mechanical.Interfaces.ITable"></a>
 
 #### *class* ansys.mechanical.stubs.v242.Ansys.Mechanical.Interfaces.ITable
 
@@ -18,27 +18,27 @@ The columns are usually instances of IVariable but can be any sort of array
 ### Properties
 
 | Name | Description |
-|------------------------------------------|--------------------------------------------------------------------|
-| [`Independents`](#ITable.Independents)   | The portion of the table corresponding to independent variables.   |
-| [`Dependents`](#ITable.Dependents)       | The portion of the table corresponding to dependent variables.     |
+|----------------------------------------------------------------------------------------------|------------------------------------------------------------------|
+| [`Dependents`](#ITable.Dependents)     | The portion of the table corresponding to dependent variables.   |
+| [`Independents`](#ITable.Independents) | The portion of the table corresponding to independent variables. |
 
 <a id="property-detail"></a>
 
 ## Property detail
-
-<a id="ITable.Independents"></a>
-
-### *property* ITable.Independents *: System.Collections.Generic.IReadOnlyDictionary[System.String, System.Collections.IEnumerable] | [None](https://docs.python.org/3/library/constants.html#None)*
-
-The portion of the table corresponding to independent variables.
-
-<!-- !! processed by numpydoc !! -->
 
 <a id="ITable.Dependents"></a>
 
 ### *property* ITable.Dependents *: System.Collections.Generic.IReadOnlyDictionary[System.String, System.Collections.IEnumerable] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 The portion of the table corresponding to dependent variables.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ITable.Independents"></a>
+
+### *property* ITable.Independents *: System.Collections.Generic.IReadOnlyDictionary[System.String, System.Collections.IEnumerable] | [None](https://docs.python.org/3/library/constants.html#None)*
+
+The portion of the table corresponding to independent variables.
 
 <!-- !! processed by numpydoc !! -->
 

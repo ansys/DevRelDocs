@@ -1,6 +1,6 @@
 # `UnitsHelper`
 
-
+<a id="ansys.mechanical.stubs.v242.Ansys.ACT.Mechanical.UnitsHelper"></a>
 
 #### *class* ansys.mechanical.stubs.v242.Ansys.ACT.Mechanical.UnitsHelper
 
@@ -17,7 +17,7 @@ Defines set of methods that can be used to find mechanical unit information
 ### Constructors
 
 | Name | Description |
-|-------------------------------------------------------------------------------------|----------------------------------------------------------|
+|-----------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------|
 | [`ConvertMechanicalUnitToCoreUnit`](#UnitsHelper.ConvertMechanicalUnitToCoreUnit)   | Takes input mechanical unit string and category string   |
 | [`GetValidQuantityNamesAndUnits`](#UnitsHelper.GetValidQuantityNamesAndUnits)       | Retrieve a dictionary of quantity names to unit strings. |
 
@@ -29,8 +29,10 @@ Defines set of methods that can be used to find mechanical unit information
 
 ### *classmethod* UnitsHelper.ConvertMechanicalUnitToCoreUnit(mechanicalUnit: System.String, unitCategory: System.String)
 
+```text
 Takes input mechanical unit string and category string
 And returns framework unit string which can be used for conversion
+```
 
 <!-- !! processed by numpydoc !! -->
 
@@ -38,9 +40,11 @@ And returns framework unit string which can be used for conversion
 
 ### *classmethod* UnitsHelper.GetValidQuantityNamesAndUnits()
 
+```text
 Retrieve a dictionary of quantity names to unit strings.
 These quantity names represent valid quantity names that can be used when defining quantities in
 Mechanical ACT extensions.
+```
 
 <!-- !! processed by numpydoc !! -->
 

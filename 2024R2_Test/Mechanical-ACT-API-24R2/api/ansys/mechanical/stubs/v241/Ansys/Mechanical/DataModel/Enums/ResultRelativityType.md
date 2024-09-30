@@ -1,6 +1,6 @@
 # `ResultRelativityType`
 
-
+<a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.ResultRelativityType"></a>
 
 #### *class* ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.ResultRelativityType
 
@@ -17,9 +17,9 @@ Specifies the ResultRelativityType.
 ### Attributes
 
 | Name |
-| ---------------------------------------------------------------------------------------------------------------------------- |
-| [`Absolute`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/ResultRelativityType.md#ResultRelativityType.Absolute) |
-| [`Relative`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/ResultRelativityType.md#ResultRelativityType.Relative) |
+| ------------------------------------------------ |
+| [`Absolute`](#ResultRelativityType.Absolute) |
+| [`Relative`](#ResultRelativityType.Relative) |
 
 <a id="attribute-detail"></a>
 

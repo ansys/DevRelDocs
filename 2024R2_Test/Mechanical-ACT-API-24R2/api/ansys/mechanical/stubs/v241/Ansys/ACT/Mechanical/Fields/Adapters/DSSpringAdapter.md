@@ -1,6 +1,6 @@
 # `DSSpringAdapter`
 
-
+<a id="ansys.mechanical.stubs.v241.Ansys.ACT.Mechanical.Fields.Adapters.DSSpringAdapter"></a>
 
 #### *class* ansys.mechanical.stubs.v241.Ansys.ACT.Mechanical.Fields.Adapters.DSSpringAdapter
 
@@ -17,14 +17,14 @@ Adapter dedicated to IDSSpringAuto objects.
 ### Methods
 
 | Name | Description |
-|-----------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------|
-| [`ChangeFieldDefinitionType`](../../../../../../v242/Ansys/ACT/Mechanical/Fields/Adapters/DSSpringAdapter.md#DSSpringAdapter.ChangeFieldDefinitionType)   | ChangeFieldDefinitionType method.   |
+|-----------------------------------------------------------------------------|-------------------------------------|
+| [`ChangeFieldDefinitionType`](#DSSpringAdapter.ChangeFieldDefinitionType)   | ChangeFieldDefinitionType method.   |
 
 ### Properties
 
 | Name | Description |
-|-----------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------|
-| [`FieldProvider`](../../../../../../v242/Ansys/ACT/Mechanical/Fields/Adapters/DSSpringAdapter.md#DSSpringAdapter.FieldProvider)   | Gets the wrapped object from Mechanical.   |
+|-----------------------------------------------------|--------------------------------------------|
+| [`FieldProvider`](#DSSpringAdapter.FieldProvider)   | Gets the wrapped object from Mechanical.   |
 
 <a id="property-detail"></a>
 

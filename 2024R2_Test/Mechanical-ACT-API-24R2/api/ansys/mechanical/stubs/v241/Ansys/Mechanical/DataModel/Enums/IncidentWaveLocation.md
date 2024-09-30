@@ -1,6 +1,6 @@
 # `IncidentWaveLocation`
 
-
+<a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.IncidentWaveLocation"></a>
 
 #### *class* ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.IncidentWaveLocation
 
@@ -17,9 +17,9 @@ Specifies the IncidentWaveLocation.
 ### Attributes
 
 | Name |
-| ---------------------------------------------------------------------------------------------------------------------------------------- |
-| [`InsideTheModel`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/IncidentWaveLocation.md#IncidentWaveLocation.InsideTheModel) |
-| [`OutsideTheModel`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/IncidentWaveLocation.md#IncidentWaveLocation.OutsideTheModel) |
+| ------------------------------------------------------------ |
+| [`InsideTheModel`](#IncidentWaveLocation.InsideTheModel) |
+| [`OutsideTheModel`](#IncidentWaveLocation.OutsideTheModel) |
 
 <a id="attribute-detail"></a>
 

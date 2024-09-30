@@ -1,6 +1,6 @@
 # `Point`
 
-
+<a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.ConstructionLines.Point"></a>
 
 #### *class* ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.ConstructionLines.Point
 
@@ -17,36 +17,36 @@ A point in a ConstructionLine instance, may have an associated edge vertex.
 ### Methods
 
 | Name | Description |
-|--------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------|
-| [`Equivalent`](../../../../../v242/Ansys/Mechanical/DataModel/ConstructionLines/Point.md#Point.Equivalent)   | Checks to see if another point is equivalent to this one.   |
+|-------------------------------------|-------------------------------------------------------------|
+| [`Equivalent`](#Point.Equivalent)   | Checks to see if another point is equivalent to this one.   |
 
 ### Properties
 
 | Name | Description |
-|------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------|
-| [`Type`](../../../../../v242/Ansys/Mechanical/DataModel/ConstructionLines/Point.md#Point.Type)                         | Type property.                                                         |
-| [`Definition`](../../../../../v242/Ansys/Mechanical/DataModel/ConstructionLines/Point.md#Point.Definition)             | Definition property.                                                   |
-| [`Location`](../../../../../v242/Ansys/Mechanical/Graphics/Point.md#Point.Location)                                    | Get the global location of this point.                                 |
-| [`ObjectId`](../../../../../v242/Ansys/Mechanical/DataModel/ConstructionLines/Point.md#Point.ObjectId)                 | Get the ID of the represented entity.                                  |
-| [`IsRepresentation`](../../../../../v242/Ansys/Mechanical/DataModel/ConstructionLines/Point.md#Point.IsRepresentation) | Check to see if there is a valid entity that this instance represents. |
+|-----------------------------------------------|------------------------------------------------------------------------|
+| [`Definition`](#Point.Definition)             | Definition property.                                                   |
+| [`IsRepresentation`](#Point.IsRepresentation) | Check to see if there is a valid entity that this instance represents. |
+| [`Location`](#Point.Location)                 | Get the global location of this point.                                 |
+| [`ObjectId`](#Point.ObjectId)                 | Get the ID of the represented entity.                                  |
+| [`Type`](#Point.Type)                         | Type property.                                                         |
 
 <a id="property-detail"></a>
 
 ## Property detail
-
-<a id="Point.Type"></a>
-
-### *property* Point.Type *: [Ansys.Mechanical.DataModel.ConstructionLines.PointType](PointType.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.ConstructionLines.PointType) | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Type property.
-
-<!-- !! processed by numpydoc !! -->
 
 <a id="Point.Definition"></a>
 
 ### *property* Point.Definition *: System.Object | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Definition property.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="Point.IsRepresentation"></a>
+
+### *property* Point.IsRepresentation *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Check to see if there is a valid entity that this instance represents.
 
 <!-- !! processed by numpydoc !! -->
 
@@ -66,11 +66,11 @@ Get the ID of the represented entity.
 
 <!-- !! processed by numpydoc !! -->
 
-<a id="Point.IsRepresentation"></a>
+<a id="Point.Type"></a>
 
-### *property* Point.IsRepresentation *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Point.Type *: [Ansys.Mechanical.DataModel.ConstructionLines.PointType](../../../../../v242/Ansys/Mechanical/DataModel/ConstructionLines/PointType.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.ConstructionLines.PointType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Check to see if there is a valid entity that this instance represents.
+Type property.
 
 <!-- !! processed by numpydoc !! -->
 
@@ -80,7 +80,7 @@ Check to see if there is a valid entity that this instance represents.
 
 <a id="Point.Equivalent"></a>
 
-### Point.Equivalent(other: [Ansys.Mechanical.DataModel.ConstructionLines.Point](#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.ConstructionLines.Point))
+### Point.Equivalent(other: [Ansys.Mechanical.DataModel.ConstructionLines.Point](../../../../../v242/Ansys/Mechanical/DataModel/ConstructionLines/Point.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.ConstructionLines.Point))
 
 Checks to see if another point is equivalent to this one.
 

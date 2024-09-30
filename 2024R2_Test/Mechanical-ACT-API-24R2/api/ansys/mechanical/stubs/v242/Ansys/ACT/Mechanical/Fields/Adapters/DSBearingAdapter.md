@@ -1,6 +1,6 @@
 # `DSBearingAdapter`
 
-
+<a id="ansys.mechanical.stubs.v242.Ansys.ACT.Mechanical.Fields.Adapters.DSBearingAdapter"></a>
 
 #### *class* ansys.mechanical.stubs.v242.Ansys.ACT.Mechanical.Fields.Adapters.DSBearingAdapter
 
@@ -17,13 +17,13 @@ Adapter dedicated to IDSBearingAuto objects.
 ### Methods
 
 | Name | Description |
-|------------------------------------------------------------------------------|-------------------------------------|
+|-------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------|
 | [`ChangeFieldDefinitionType`](#DSBearingAdapter.ChangeFieldDefinitionType)   | ChangeFieldDefinitionType method.   |
 
 ### Properties
 
 | Name | Description |
-|------------------------------------------------------|--------------------------------------------|
+|-------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------|
 | [`FieldProvider`](#DSBearingAdapter.FieldProvider)   | Gets the wrapped object from Mechanical.   |
 
 <a id="property-detail"></a>

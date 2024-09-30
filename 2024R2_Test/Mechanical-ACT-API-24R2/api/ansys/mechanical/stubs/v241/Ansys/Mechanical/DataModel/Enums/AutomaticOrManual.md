@@ -1,6 +1,6 @@
 # `AutomaticOrManual`
 
-
+<a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.AutomaticOrManual"></a>
 
 #### *class* ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.AutomaticOrManual
 
@@ -17,9 +17,9 @@ Specifies the AutomaticOrManual.
 ### Attributes
 
 | Name |
-| ------------------------------------------------------------------------------------------------------------------------ |
-| [`Automatic`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/AutomaticOrManual.md#AutomaticOrManual.Automatic) |
-| [`Manual`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/AutomaticOrManual.md#AutomaticOrManual.Manual) |
+| ----------------------------------------------- |
+| [`Automatic`](#AutomaticOrManual.Automatic) |
+| [`Manual`](#AutomaticOrManual.Manual) |
 
 <a id="attribute-detail"></a>
 

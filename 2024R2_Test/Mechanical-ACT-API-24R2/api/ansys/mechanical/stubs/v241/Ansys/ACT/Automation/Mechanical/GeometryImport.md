@@ -1,6 +1,6 @@
 # `GeometryImport`
 
-
+<a id="ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.GeometryImport"></a>
 
 #### *class* ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.GeometryImport
 
@@ -18,68 +18,42 @@ Defines a GeometryImport.
 
 | Name | Description |
 |-------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------|
-| [`GetGeometryURI`](../../../../../v242/Ansys/ACT/Automation/Mechanical/GeometryImport.md#GeometryImport.GetGeometryURI)                   | Gets the Geometry URI for the most recent import. The Universal Resource Identifier,                                    |
-| [`GetFormat`](../../../../../v242/Ansys/ACT/Automation/Mechanical/GeometryImport.md#GeometryImport.GetFormat)                             | Gets the format of the geometry file/data for the most recent import.                                                   |
-| [`GetPreferences`](../../../../../v242/Ansys/ACT/Automation/Mechanical/GeometryImport.md#GeometryImport.GetPreferences)                   | Gets the preferences for most recent import operations with the geometry file/data.                                     |
-| [`Import`](../../../../../v242/Ansys/ACT/Automation/Mechanical/GeometryImport.md#GeometryImport.Import)                                   | Import/reload geometry from the CAD file using the provided preferences. <br/><br/>```<br/>**<br/>```<br/><br/>\* If no |
-| [`GetChildren`](../../../../../v242/Ansys/ACT/Automation/Mechanical/GeometryImport.md#id3)                                                | Gets the list of children, filtered by type.                                                                            |
-| [`GetChildren`](../../../../../v242/Ansys/ACT/Automation/Mechanical/GeometryImport.md#id3)                                                | Gets the list of children, filtered by type.                                                                            |
-| [`AddComment`](../../../../../v242/Ansys/ACT/Automation/Mechanical/GeometryImport.md#GeometryImport.AddComment)                           | Creates a new child Comment.                                                                                            |
-| [`AddFigure`](../../../../../v242/Ansys/ACT/Automation/Mechanical/GeometryImport.md#GeometryImport.AddFigure)                             | Creates a new child Figure.                                                                                             |
-| [`AddImage`](../../../../../v242/Ansys/ACT/Automation/Mechanical/GeometryImport.md#GeometryImport.AddImage)                               | Creates a new child Image.                                                                                              |
-| [`Activate`](../../../../../v242/Ansys/ACT/Automation/Mechanical/GeometryImport.md#GeometryImport.Activate)                               | Activate the current object.                                                                                            |
-| [`CopyTo`](../../../../../v242/Ansys/ACT/Automation/Mechanical/GeometryImport.md#GeometryImport.CopyTo)                                   | Copies all visible properties from this object to another.                                                              |
-| [`Duplicate`](../../../../../v242/Ansys/ACT/Automation/Mechanical/GeometryImport.md#GeometryImport.Duplicate)                             | Creates a copy of the current DataModelObject.                                                                          |
-| [`GroupAllSimilarChildren`](../../../../../v242/Ansys/ACT/Automation/Mechanical/GeometryImport.md#GeometryImport.GroupAllSimilarChildren) | Run the GroupAllSimilarChildren action.                                                                                 |
-| [`GroupSimilarObjects`](../../../../../v242/Ansys/ACT/Automation/Mechanical/GeometryImport.md#GeometryImport.GroupSimilarObjects)         | Run the GroupSimilarObjects action.                                                                                     |
-| [`PropertyByName`](../../../../../v242/Ansys/ACT/Automation/Mechanical/GeometryImport.md#GeometryImport.PropertyByName)                   | Get a property by its unique name.                                                                                      |
-| [`PropertyByAPIName`](../../../../../v242/Ansys/ACT/Automation/Mechanical/GeometryImport.md#GeometryImport.PropertyByAPIName)             | Get a property by its API name.                                                                                         |
-| [`CreateParameter`](../../../../../v242/Ansys/ACT/Automation/Mechanical/GeometryImport.md#GeometryImport.CreateParameter)                 | Creates a new parameter for a Property.                                                                                 |
-| [`GetParameter`](../../../../../v242/Ansys/ACT/Automation/Mechanical/GeometryImport.md#GeometryImport.GetParameter)                       | Gets the parameter corresponding to the given property.                                                                 |
-| [`RemoveParameter`](../../../../../v242/Ansys/ACT/Automation/Mechanical/GeometryImport.md#GeometryImport.RemoveParameter)                 | Removes the parameter from the parameter set corresponding to the given property.                                       |
+| [`Activate`](#GeometryImport.Activate)                               | Activate the current object.                                                                                            |
+| [`AddComment`](#GeometryImport.AddComment)                           | Creates a new child Comment.                                                                                            |
+| [`AddFigure`](#GeometryImport.AddFigure)                             | Creates a new child Figure.                                                                                             |
+| [`AddImage`](#GeometryImport.AddImage)                               | Creates a new child Image.                                                                                              |
+| [`CopyTo`](#GeometryImport.CopyTo)                                   | Copies all visible properties from this object to another.                                                              |
+| [`CreateParameter`](#GeometryImport.CreateParameter)                 | Creates a new parameter for a Property.                                                                                 |
+| [`Duplicate`](#GeometryImport.Duplicate)                             | Creates a copy of the current DataModelObject.                                                                          |
+| [`GetChildren`](#GeometryImport.GetChildren)                         | Gets the list of children, filtered by type.                                                                            |
+| [`GetFormat`](#GeometryImport.GetFormat)                             | Gets the format of the geometry file/data for the most recent import.                                                   |
+| [`GetGeometryURI`](#GeometryImport.GetGeometryURI)                   | Gets the Geometry URI for the most recent import. The Universal Resource Identifier,                                    |
+| [`GetParameter`](#GeometryImport.GetParameter)                       | Gets the parameter corresponding to the given property.                                                                 |
+| [`GetPreferences`](#GeometryImport.GetPreferences)                   | Gets the preferences for most recent import operations with the geometry file/data.                                     |
+| [`GroupAllSimilarChildren`](#GeometryImport.GroupAllSimilarChildren) | Run the GroupAllSimilarChildren action.                                                                                 |
+| [`GroupSimilarObjects`](#GeometryImport.GroupSimilarObjects)         | Run the GroupSimilarObjects action.                                                                                     |
+| [`Import`](#GeometryImport.Import)                                   | Import/reload geometry from the CAD file using the provided preferences. <br/><br/>```<br/>**<br/>```<br/><br/>\* If no |
+| [`PropertyByAPIName`](#GeometryImport.PropertyByAPIName)             | Get a property by its API name.                                                                                         |
+| [`PropertyByName`](#GeometryImport.PropertyByName)                   | Get a property by its unique name.                                                                                      |
+| [`RemoveParameter`](#GeometryImport.RemoveParameter)                 | Removes the parameter from the parameter set corresponding to the given property.                                       |
 
 ### Properties
 
 | Name | Description |
 |-------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------|
-| [`Parts`](../../../../../v242/Ansys/ACT/Automation/Mechanical/GeometryImport.md#GeometryImport.Parts)                                     | List of parts created by the most recent import operation.    |
-| [`InternalObject`](../../../../../v242/Ansys/ACT/Automation/Mechanical/GeometryImport.md#id0)                                             | Gets the internal object. For advanced usage only.            |
-| [`DataModelObjectCategory`](../../../../../v242/Ansys/ACT/Automation/Mechanical/GeometryImport.md#GeometryImport.DataModelObjectCategory) | Gets the current DataModelObject’s category.                  |
-| [`Children`](../../../../../v242/Ansys/ACT/Automation/Mechanical/GeometryImport.md#GeometryImport.Children)                               | Gets the list of children.                                    |
-| [`Comments`](../../../../../v242/Ansys/ACT/Automation/Mechanical/GeometryImport.md#GeometryImport.Comments)                               | Gets the list of associated comments.                         |
-| [`Figures`](../../../../../v242/Ansys/ACT/Automation/Mechanical/GeometryImport.md#GeometryImport.Figures)                                 | Gets the list of associated figures.                          |
-| [`Images`](../../../../../v242/Ansys/ACT/Automation/Mechanical/GeometryImport.md#GeometryImport.Images)                                   | Gets the list of associated images.                           |
-| [`InternalObject`](../../../../../v242/Ansys/ACT/Automation/Mechanical/GeometryImport.md#id0)                                             | Gets the internal object. For advanced usage only.            |
-| [`Properties`](../../../../../v242/Ansys/ACT/Automation/Mechanical/GeometryImport.md#GeometryImport.Properties)                           | Gets the list of properties for this object.                  |
-| [`VisibleProperties`](../../../../../v242/Ansys/ACT/Automation/Mechanical/GeometryImport.md#GeometryImport.VisibleProperties)             | Gets the list of properties that are visible for this object. |
+| [`Children`](#GeometryImport.Children)                               | Gets the list of children.                                    |
+| [`Comments`](#GeometryImport.Comments)                               | Gets the list of associated comments.                         |
+| [`DataModelObjectCategory`](#GeometryImport.DataModelObjectCategory) | Gets the current DataModelObject’s category.                  |
+| [`Figures`](#GeometryImport.Figures)                                 | Gets the list of associated figures.                          |
+| [`Images`](#GeometryImport.Images)                                   | Gets the list of associated images.                           |
+| [`InternalObject`](#GeometryImport.InternalObject)                   | Gets the internal object. For advanced usage only.            |
+| [`Parts`](#GeometryImport.Parts)                                     | List of parts created by the most recent import operation.    |
+| [`Properties`](#GeometryImport.Properties)                           | Gets the list of properties for this object.                  |
+| [`VisibleProperties`](#GeometryImport.VisibleProperties)             | Gets the list of properties that are visible for this object. |
 
 <a id="property-detail"></a>
 
 ## Property detail
-
-<a id="GeometryImport.Parts"></a>
-
-### *property* GeometryImport.Parts *: System.Collections.Generic.IList[System.Object] | [None](https://docs.python.org/3/library/constants.html#None)*
-
-List of parts created by the most recent import operation.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="GeometryImport.InternalObject"></a>
-
-### *property* GeometryImport.InternalObject *: Ansys.Common.Interop.DSObjectsAuto.IDSGeometryImportAuto | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets the internal object. For advanced usage only.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="GeometryImport.DataModelObjectCategory"></a>
-
-### *property* GeometryImport.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets the current DataModelObject’s category.
-
-<!-- !! processed by numpydoc !! -->
 
 <a id="GeometryImport.Children"></a>
 
@@ -94,6 +68,14 @@ Gets the list of children.
 ### *property* GeometryImport.Comments *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Comment](Comment.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated comments.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="GeometryImport.DataModelObjectCategory"></a>
+
+### *property* GeometryImport.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../v242/Ansys/Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets the current DataModelObject’s category.
 
 <!-- !! processed by numpydoc !! -->
 
@@ -113,11 +95,19 @@ Gets the list of associated images.
 
 <!-- !! processed by numpydoc !! -->
 
-<a id="id0"></a>
+<a id="GeometryImport.InternalObject"></a>
 
-### *property* GeometryImport.InternalObject *: System.Object | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* GeometryImport.InternalObject *: Ansys.Common.Interop.DSObjectsAuto.IDSGeometryImportAuto | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the internal object. For advanced usage only.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="GeometryImport.Parts"></a>
+
+### *property* GeometryImport.Parts *: System.Collections.Generic.IList[System.Object] | [None](https://docs.python.org/3/library/constants.html#None)*
+
+List of parts created by the most recent import operation.
 
 <!-- !! processed by numpydoc !! -->
 
@@ -141,56 +131,11 @@ Gets the list of properties that are visible for this object.
 
 ## Method detail
 
-<a id="GeometryImport.GetGeometryURI"></a>
+<a id="GeometryImport.Activate"></a>
 
-### GeometryImport.GetGeometryURI()
+### GeometryImport.Activate()
 
-Gets the Geometry URI for the most recent import. The Universal Resource Identifier,
-which on disk would be “[file://](file://)…”
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="GeometryImport.GetFormat"></a>
-
-### GeometryImport.GetFormat()
-
-Gets the format of the geometry file/data for the most recent import.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="GeometryImport.GetPreferences"></a>
-
-### GeometryImport.GetPreferences()
-
-Gets the preferences for most recent import operations with the geometry file/data.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="GeometryImport.Import"></a>
-
-### GeometryImport.Import(geometryURI: System.String, format: [Ansys.Mechanical.DataModel.Enums.GeometryImportPreference.Format](../../../Mechanical/DataModel/Enums/GeometryImportPreference/Format.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.GeometryImportPreference.Format), preferences: [Ansys.ACT.Mechanical.Utilities.GeometryImportPreferences](../../Mechanical/Utilities/GeometryImportPreferences.md#ansys.mechanical.stubs.v241.Ansys.ACT.Mechanical.Utilities.GeometryImportPreferences))
-
-Import/reload geometry from the CAD file using the provided preferences. **\* If no
-preference argument is provided, i.e., null is used (also the default argument), then
-default values from Mechanical preferences will be used (Mechanical: File -> Options:
-Import; this will need to be implemented). Previously used preferences are always purged
-during an import operation. \*** The parts will be read into the Geometry.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="GeometryImport.GetChildren"></a>
-
-### GeometryImport.GetChildren(recurses: System.Boolean, children: System.Collections.Generic.IList[ChildrenType])
-
-Gets the list of children, filtered by type.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="id3"></a>
-
-### GeometryImport.GetChildren(category: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory), recurses: System.Boolean, children: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject])
-
-Gets the list of children, filtered by type.
+Activate the current object.
 
 <!-- !! processed by numpydoc !! -->
 
@@ -214,17 +159,11 @@ Creates a new child Figure.
 
 ### GeometryImport.AddImage(filePath: System.String)
 
+```text
 Creates a new child Image.
 If a filePath is provided, the image will be loaded from that file,
 if not, the image will be a screen capture of the Geometry window.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="GeometryImport.Activate"></a>
-
-### GeometryImport.Activate()
-
-Activate the current object.
+```
 
 <!-- !! processed by numpydoc !! -->
 
@@ -236,11 +175,62 @@ Copies all visible properties from this object to another.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="GeometryImport.CreateParameter"></a>
+
+### GeometryImport.CreateParameter(propName: System.String)
+
+Creates a new parameter for a Property.
+
+<!-- !! processed by numpydoc !! -->
+
 <a id="GeometryImport.Duplicate"></a>
 
 ### GeometryImport.Duplicate()
 
 Creates a copy of the current DataModelObject.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="GeometryImport.GetChildren"></a>
+
+### GeometryImport.GetChildren(recurses: System.Boolean, children: System.Collections.Generic.IList[ChildrenType])
+
+Gets the list of children, filtered by type.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="GeometryImport.GetFormat"></a>
+
+### GeometryImport.GetFormat()
+
+Gets the format of the geometry file/data for the most recent import.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="GeometryImport.GetGeometryURI"></a>
+
+### GeometryImport.GetGeometryURI()
+
+```text
+Gets the Geometry URI for the most recent import. The Universal Resource Identifier,
+which on disk would be "file://..."
+```
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="GeometryImport.GetParameter"></a>
+
+### GeometryImport.GetParameter(propName: System.String)
+
+Gets the parameter corresponding to the given property.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="GeometryImport.GetPreferences"></a>
+
+### GeometryImport.GetPreferences()
+
+Gets the preferences for most recent import operations with the geometry file/data.
 
 <!-- !! processed by numpydoc !! -->
 
@@ -260,11 +250,17 @@ Run the GroupSimilarObjects action.
 
 <!-- !! processed by numpydoc !! -->
 
-<a id="GeometryImport.PropertyByName"></a>
+<a id="GeometryImport.Import"></a>
 
-### GeometryImport.PropertyByName(name: System.String)
+### GeometryImport.Import(geometryURI: System.String, format: [Ansys.Mechanical.DataModel.Enums.GeometryImportPreference.Format](../../../../../v242/Ansys/Mechanical/DataModel/Enums/GeometryImportPreference/Format.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.GeometryImportPreference.Format), preferences: [Ansys.ACT.Mechanical.Utilities.GeometryImportPreferences](../../../../../v242/Ansys/ACT/Mechanical/Utilities/GeometryImportPreferences.md#ansys.mechanical.stubs.v242.Ansys.ACT.Mechanical.Utilities.GeometryImportPreferences))
 
-Get a property by its unique name.
+```text
+Import/reload geometry from the CAD file using the provided preferences. *** If no
+preference argument is provided, i.e., null is used (also the default argument), then
+default values from Mechanical preferences will be used (Mechanical: File -> Options:
+Import; this will need to be implemented). Previously used preferences are always purged
+during an import operation. *** The parts will be read into the Geometry.
+```
 
 <!-- !! processed by numpydoc !! -->
 
@@ -272,24 +268,18 @@ Get a property by its unique name.
 
 ### GeometryImport.PropertyByAPIName(name: System.String)
 
+```text
 Get a property by its API name.
 If multiple properties have the same API Name, only the first property with that name will be returned.
+```
 
 <!-- !! processed by numpydoc !! -->
 
-<a id="GeometryImport.CreateParameter"></a>
+<a id="GeometryImport.PropertyByName"></a>
 
-### GeometryImport.CreateParameter(propName: System.String)
+### GeometryImport.PropertyByName(name: System.String)
 
-Creates a new parameter for a Property.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="GeometryImport.GetParameter"></a>
-
-### GeometryImport.GetParameter(propName: System.String)
-
-Gets the parameter corresponding to the given property.
+Get a property by its unique name.
 
 <!-- !! processed by numpydoc !! -->
 

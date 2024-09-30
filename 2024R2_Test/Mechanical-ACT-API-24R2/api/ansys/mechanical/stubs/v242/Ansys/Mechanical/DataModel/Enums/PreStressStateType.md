@@ -1,6 +1,6 @@
 # `PreStressStateType`
 
-
+<a id="ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.PreStressStateType"></a>
 
 #### *class* ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.PreStressStateType
 
@@ -17,7 +17,7 @@ Specifies the PreStressStateType.
 ### Attributes
 
 | Name |
-| -------------------------------------------------------------- |
+| ---------------------------------------------------------------------------------------------------------------------------------------- |
 | [`LoadStep`](#PreStressStateType.LoadStep) |
 | [`ProgramControlled`](#PreStressStateType.ProgramControlled) |
 | [`Time`](#PreStressStateType.Time) |

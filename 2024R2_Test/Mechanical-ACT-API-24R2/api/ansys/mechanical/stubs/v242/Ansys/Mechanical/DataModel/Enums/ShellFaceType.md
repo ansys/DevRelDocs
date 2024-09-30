@@ -1,6 +1,6 @@
 # `ShellFaceType`
 
-
+<a id="ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.ShellFaceType"></a>
 
 #### *class* ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.ShellFaceType
 
@@ -17,14 +17,14 @@ Specifies the ShellFaceType.
 ### Attributes
 
 | Name |
-| --------------------------------------------------------- |
+| ------------------------------------------------------------------------------------------------------------------------------ |
 | [`All`](#ShellFaceType.All) |
 | [`Bending`](#ShellFaceType.Bending) |
 | [`Bottom`](#ShellFaceType.Bottom) |
 | [`Middle`](#ShellFaceType.Middle) |
 | [`ProgramControlled`](#ShellFaceType.ProgramControlled) |
-| [`TopAndBottom`](#ShellFaceType.TopAndBottom) |
 | [`Top`](#ShellFaceType.Top) |
+| [`TopAndBottom`](#ShellFaceType.TopAndBottom) |
 
 <a id="attribute-detail"></a>
 
@@ -50,12 +50,12 @@ Specifies the ShellFaceType.
 
 ### ShellFaceType.ProgramControlled *= 5*
 
-<a id="ShellFaceType.TopAndBottom"></a>
-
-### ShellFaceType.TopAndBottom *= 2*
-
 <a id="ShellFaceType.Top"></a>
 
 ### ShellFaceType.Top *= 0*
+
+<a id="ShellFaceType.TopAndBottom"></a>
+
+### ShellFaceType.TopAndBottom *= 2*
 
 

@@ -1,6 +1,6 @@
 # `Deviation`
 
-
+<a id="ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.MeshControls.Deviation"></a>
 
 #### *class* ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.MeshControls.Deviation
 
@@ -18,130 +18,48 @@ Defines a Deviation.
 
 | Name | Description |
 |-----------------------------------------------------------------|-----------------------------------------------------------------------------------|
-| [`GenerateMesh`](#Deviation.GenerateMesh)                       | Generate the Mesh.                                                                |
-| [`RenameBasedOnDefinition`](#Deviation.RenameBasedOnDefinition) | Run the RenameBasedOnDefinition action.                                           |
-| [`Delete`](#Deviation.Delete)                                   | Run the Delete action.                                                            |
-| [`GetChildren`](#id1)                                           | Gets the list of children, filtered by type.                                      |
-| [`GetChildren`](#id1)                                           | Gets the list of children, filtered by type.                                      |
+| [`Activate`](#Deviation.Activate)                               | Activate the current object.                                                      |
 | [`AddComment`](#Deviation.AddComment)                           | Creates a new child Comment.                                                      |
 | [`AddFigure`](#Deviation.AddFigure)                             | Creates a new child Figure.                                                       |
 | [`AddImage`](#Deviation.AddImage)                               | Creates a new child Image.                                                        |
-| [`Activate`](#Deviation.Activate)                               | Activate the current object.                                                      |
 | [`CopyTo`](#Deviation.CopyTo)                                   | Copies all visible properties from this object to another.                        |
+| [`CreateParameter`](#Deviation.CreateParameter)                 | Creates a new parameter for a Property.                                           |
+| [`Delete`](#Deviation.Delete)                                   | Run the Delete action.                                                            |
 | [`Duplicate`](#Deviation.Duplicate)                             | Creates a copy of the current DataModelObject.                                    |
+| [`GenerateMesh`](#Deviation.GenerateMesh)                       | Generate the Mesh.                                                                |
+| [`GetChildren`](#Deviation.GetChildren)                         | Gets the list of children, filtered by type.                                      |
+| [`GetParameter`](#Deviation.GetParameter)                       | Gets the parameter corresponding to the given property.                           |
 | [`GroupAllSimilarChildren`](#Deviation.GroupAllSimilarChildren) | Run the GroupAllSimilarChildren action.                                           |
 | [`GroupSimilarObjects`](#Deviation.GroupSimilarObjects)         | Run the GroupSimilarObjects action.                                               |
-| [`PropertyByName`](#Deviation.PropertyByName)                   | Get a property by its unique name.                                                |
 | [`PropertyByAPIName`](#Deviation.PropertyByAPIName)             | Get a property by its API name.                                                   |
-| [`CreateParameter`](#Deviation.CreateParameter)                 | Creates a new parameter for a Property.                                           |
-| [`GetParameter`](#Deviation.GetParameter)                       | Gets the parameter corresponding to the given property.                           |
+| [`PropertyByName`](#Deviation.PropertyByName)                   | Get a property by its unique name.                                                |
 | [`RemoveParameter`](#Deviation.RemoveParameter)                 | Removes the parameter from the parameter set corresponding to the given property. |
+| [`RenameBasedOnDefinition`](#Deviation.RenameBasedOnDefinition) | Run the RenameBasedOnDefinition action.                                           |
 
 ### Properties
 
 | Name | Description |
 |-----------------------------------------------------------------|---------------------------------------------------------------|
-| [`Tolerance`](#Deviation.Tolerance)                             | Tolerance property.                                           |
-| [`MeshSize`](#Deviation.MeshSize)                               | MeshSize property.                                            |
-| [`NumberOfDivisions`](#Deviation.NumberOfDivisions)             | NumberOfDivisions property.                                   |
-| [`ControlType`](#Deviation.ControlType)                         | Gets or sets the SagControlType.                              |
-| [`InternalObject`](#id0)                                        | Gets the internal object. For advanced usage only.            |
-| [`NamedSelection`](#Deviation.NamedSelection)                   | Gets or sets the NamedSelection.                              |
-| [`Location`](#Deviation.Location)                               | Gets or sets the Location.                                    |
-| [`DataModelObjectCategory`](#Deviation.DataModelObjectCategory) | Gets the current DataModelObject's category.                  |
-| [`ScopingMethod`](#Deviation.ScopingMethod)                     | Gets or sets the ScopingMethod.                               |
-| [`Suppressed`](#Deviation.Suppressed)                           | Gets or sets the Suppressed.                                  |
 | [`Children`](#Deviation.Children)                               | Gets the list of children.                                    |
 | [`Comments`](#Deviation.Comments)                               | Gets the list of associated comments.                         |
+| [`ControlType`](#Deviation.ControlType)                         | Gets or sets the SagControlType.                              |
+| [`DataModelObjectCategory`](#Deviation.DataModelObjectCategory) | Gets the current DataModelObject’s category.                  |
 | [`Figures`](#Deviation.Figures)                                 | Gets the list of associated figures.                          |
 | [`Images`](#Deviation.Images)                                   | Gets the list of associated images.                           |
-| [`InternalObject`](#id0)                                        | Gets the internal object. For advanced usage only.            |
+| [`InternalObject`](#Deviation.InternalObject)                   | Gets the internal object. For advanced usage only.            |
+| [`Location`](#Deviation.Location)                               | Gets or sets the Location.                                    |
+| [`MeshSize`](#Deviation.MeshSize)                               | MeshSize property.                                            |
+| [`NamedSelection`](#Deviation.NamedSelection)                   | Gets or sets the NamedSelection.                              |
+| [`NumberOfDivisions`](#Deviation.NumberOfDivisions)             | NumberOfDivisions property.                                   |
 | [`Properties`](#Deviation.Properties)                           | Gets the list of properties for this object.                  |
+| [`ScopingMethod`](#Deviation.ScopingMethod)                     | Gets or sets the ScopingMethod.                               |
+| [`Suppressed`](#Deviation.Suppressed)                           | Gets or sets the Suppressed.                                  |
+| [`Tolerance`](#Deviation.Tolerance)                             | Tolerance property.                                           |
 | [`VisibleProperties`](#Deviation.VisibleProperties)             | Gets the list of properties that are visible for this object. |
 
 <a id="property-detail"></a>
 
 ## Property detail
-
-<a id="Deviation.Tolerance"></a>
-
-### *property* Deviation.Tolerance *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Tolerance property.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="Deviation.MeshSize"></a>
-
-### *property* Deviation.MeshSize *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
-
-MeshSize property.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="Deviation.NumberOfDivisions"></a>
-
-### *property* Deviation.NumberOfDivisions *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
-
-NumberOfDivisions property.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="Deviation.ControlType"></a>
-
-### *property* Deviation.ControlType *: Ansys.Mechanical.DataModel.Enums.DeviationControlType | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the SagControlType.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="Deviation.InternalObject"></a>
-
-### *property* Deviation.InternalObject *: Ansys.Common.Interop.DSObjectsAuto.IDSMeshControlAuto | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets the internal object. For advanced usage only.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="Deviation.NamedSelection"></a>
-
-### *property* Deviation.NamedSelection *: [Ansys.ACT.Automation.Mechanical.NamedSelection](../../../../../../v241/Ansys/ACT/Automation/Mechanical/NamedSelection.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.NamedSelection) | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the NamedSelection.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="Deviation.Location"></a>
-
-### *property* Deviation.Location *: Ansys.ACT.Interfaces.Common.ISelectionInfo | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the Location.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="Deviation.DataModelObjectCategory"></a>
-
-### *property* Deviation.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../../v241/Ansys/Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets the current DataModelObject's category.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="Deviation.ScopingMethod"></a>
-
-### *property* Deviation.ScopingMethod *: [Ansys.Mechanical.DataModel.Enums.GeometryDefineByType](../../../../../../v241/Ansys/Mechanical/DataModel/Enums/GeometryDefineByType.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.GeometryDefineByType) | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the ScopingMethod.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="Deviation.Suppressed"></a>
-
-### *property* Deviation.Suppressed *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the Suppressed.
-
-<!-- !! processed by numpydoc !! -->
 
 <a id="Deviation.Children"></a>
 
@@ -156,6 +74,22 @@ Gets the list of children.
 ### *property* Deviation.Comments *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Comment](../../../../../../v241/Ansys/ACT/Automation/Mechanical/Comment.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated comments.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="Deviation.ControlType"></a>
+
+### *property* Deviation.ControlType *: Ansys.Mechanical.DataModel.Enums.DeviationControlType | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the SagControlType.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="Deviation.DataModelObjectCategory"></a>
+
+### *property* Deviation.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets the current DataModelObject’s category.
 
 <!-- !! processed by numpydoc !! -->
 
@@ -175,11 +109,43 @@ Gets the list of associated images.
 
 <!-- !! processed by numpydoc !! -->
 
-<a id="id0"></a>
+<a id="Deviation.InternalObject"></a>
 
-### *property* Deviation.InternalObject *: System.Object | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Deviation.InternalObject *: Ansys.Common.Interop.DSObjectsAuto.IDSMeshControlAuto | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the internal object. For advanced usage only.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="Deviation.Location"></a>
+
+### *property* Deviation.Location *: Ansys.ACT.Interfaces.Common.ISelectionInfo | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the Location.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="Deviation.MeshSize"></a>
+
+### *property* Deviation.MeshSize *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
+
+MeshSize property.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="Deviation.NamedSelection"></a>
+
+### *property* Deviation.NamedSelection *: [Ansys.ACT.Automation.Mechanical.NamedSelection](../NamedSelection.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.NamedSelection) | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the NamedSelection.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="Deviation.NumberOfDivisions"></a>
+
+### *property* Deviation.NumberOfDivisions *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+
+NumberOfDivisions property.
 
 <!-- !! processed by numpydoc !! -->
 
@@ -188,6 +154,30 @@ Gets the internal object. For advanced usage only.
 ### *property* Deviation.Properties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of properties for this object.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="Deviation.ScopingMethod"></a>
+
+### *property* Deviation.ScopingMethod *: [Ansys.Mechanical.DataModel.Enums.GeometryDefineByType](../../../../Mechanical/DataModel/Enums/GeometryDefineByType.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.GeometryDefineByType) | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the ScopingMethod.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="Deviation.Suppressed"></a>
+
+### *property* Deviation.Suppressed *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the Suppressed.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="Deviation.Tolerance"></a>
+
+### *property* Deviation.Tolerance *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Tolerance property.
 
 <!-- !! processed by numpydoc !! -->
 
@@ -203,43 +193,11 @@ Gets the list of properties that are visible for this object.
 
 ## Method detail
 
-<a id="Deviation.GenerateMesh"></a>
+<a id="Deviation.Activate"></a>
 
-### Deviation.GenerateMesh()
+### Deviation.Activate()
 
-Generate the Mesh.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="Deviation.RenameBasedOnDefinition"></a>
-
-### Deviation.RenameBasedOnDefinition()
-
-Run the RenameBasedOnDefinition action.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="Deviation.Delete"></a>
-
-### Deviation.Delete()
-
-Run the Delete action.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="Deviation.GetChildren"></a>
-
-### Deviation.GetChildren(recurses: System.Boolean, children: System.Collections.Generic.IList[ChildrenType])
-
-Gets the list of children, filtered by type.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="id1"></a>
-
-### Deviation.GetChildren(category: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../../v241/Ansys/Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory), recurses: System.Boolean, children: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject])
-
-Gets the list of children, filtered by type.
+Activate the current object.
 
 <!-- !! processed by numpydoc !! -->
 
@@ -263,17 +221,11 @@ Creates a new child Figure.
 
 ### Deviation.AddImage(filePath: System.String)
 
+```text
 Creates a new child Image.
 If a filePath is provided, the image will be loaded from that file,
 if not, the image will be a screen capture of the Geometry window.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="Deviation.Activate"></a>
-
-### Deviation.Activate()
-
-Activate the current object.
+```
 
 <!-- !! processed by numpydoc !! -->
 
@@ -285,11 +237,51 @@ Copies all visible properties from this object to another.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="Deviation.CreateParameter"></a>
+
+### Deviation.CreateParameter(propName: System.String)
+
+Creates a new parameter for a Property.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="Deviation.Delete"></a>
+
+### Deviation.Delete()
+
+Run the Delete action.
+
+<!-- !! processed by numpydoc !! -->
+
 <a id="Deviation.Duplicate"></a>
 
 ### Deviation.Duplicate()
 
 Creates a copy of the current DataModelObject.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="Deviation.GenerateMesh"></a>
+
+### Deviation.GenerateMesh()
+
+Generate the Mesh.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="Deviation.GetChildren"></a>
+
+### Deviation.GetChildren(recurses: System.Boolean, children: System.Collections.Generic.IList[ChildrenType])
+
+Gets the list of children, filtered by type.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="Deviation.GetParameter"></a>
+
+### Deviation.GetParameter(propName: System.String)
+
+Gets the parameter corresponding to the given property.
 
 <!-- !! processed by numpydoc !! -->
 
@@ -309,6 +301,17 @@ Run the GroupSimilarObjects action.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="Deviation.PropertyByAPIName"></a>
+
+### Deviation.PropertyByAPIName(name: System.String)
+
+```text
+Get a property by its API name.
+If multiple properties have the same API Name, only the first property with that name will be returned.
+```
+
+<!-- !! processed by numpydoc !! -->
+
 <a id="Deviation.PropertyByName"></a>
 
 ### Deviation.PropertyByName(name: System.String)
@@ -317,36 +320,19 @@ Get a property by its unique name.
 
 <!-- !! processed by numpydoc !! -->
 
-<a id="Deviation.PropertyByAPIName"></a>
-
-### Deviation.PropertyByAPIName(name: System.String)
-
-Get a property by its API name.
-If multiple properties have the same API Name, only the first property with that name will be returned.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="Deviation.CreateParameter"></a>
-
-### Deviation.CreateParameter(propName: System.String)
-
-Creates a new parameter for a Property.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="Deviation.GetParameter"></a>
-
-### Deviation.GetParameter(propName: System.String)
-
-Gets the parameter corresponding to the given property.
-
-<!-- !! processed by numpydoc !! -->
-
 <a id="Deviation.RemoveParameter"></a>
 
 ### Deviation.RemoveParameter(propName: System.String)
 
 Removes the parameter from the parameter set corresponding to the given property.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="Deviation.RenameBasedOnDefinition"></a>
+
+### Deviation.RenameBasedOnDefinition()
+
+Run the RenameBasedOnDefinition action.
 
 <!-- !! processed by numpydoc !! -->
 

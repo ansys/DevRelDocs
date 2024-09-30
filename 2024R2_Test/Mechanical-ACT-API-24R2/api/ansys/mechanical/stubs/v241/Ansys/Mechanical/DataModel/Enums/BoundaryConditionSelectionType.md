@@ -1,6 +1,6 @@
 # `BoundaryConditionSelectionType`
 
-
+<a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.BoundaryConditionSelectionType"></a>
 
 #### *class* ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.BoundaryConditionSelectionType
 
@@ -17,20 +17,20 @@ Specifies the BoundaryConditionSelection.
 ### Attributes
 
 | Name |
-| -------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| [`None_`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/BoundaryConditionSelectionType.md#BoundaryConditionSelectionType.None_) |
-| [`AllFixedSupports`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/BoundaryConditionSelectionType.md#BoundaryConditionSelectionType.AllFixedSupports) |
+| -------------------------------------------------------------------------- |
+| [`AllFixedSupports`](#BoundaryConditionSelectionType.AllFixedSupports) |
+| [`None_`](#BoundaryConditionSelectionType.None_) |
 
 <a id="attribute-detail"></a>
 
 ## Attribute detail
 
-<a id="BoundaryConditionSelectionType.None_"></a>
-
-### BoundaryConditionSelectionType.None_ *= 0*
-
 <a id="BoundaryConditionSelectionType.AllFixedSupports"></a>
 
 ### BoundaryConditionSelectionType.AllFixedSupports *= 1*
+
+<a id="BoundaryConditionSelectionType.None_"></a>
+
+### BoundaryConditionSelectionType.None_ *= 0*
 
 

@@ -1,6 +1,6 @@
 # `AMSupportSTLType`
 
-
+<a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.AMSupportSTLType"></a>
 
 #### *class* ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.AMSupportSTLType
 
@@ -17,9 +17,9 @@ Specifies the AMSupportSTLType.
 ### Attributes
 
 | Name |
-| ---------------------------------------------------------------------------------------------------------------------- |
-| [`Solid`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/AMSupportSTLType.md#AMSupportSTLType.Solid) |
-| [`Volumeless`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/AMSupportSTLType.md#AMSupportSTLType.Volumeless) |
+| ---------------------------------------------- |
+| [`Solid`](#AMSupportSTLType.Solid) |
+| [`Volumeless`](#AMSupportSTLType.Volumeless) |
 
 <a id="attribute-detail"></a>
 

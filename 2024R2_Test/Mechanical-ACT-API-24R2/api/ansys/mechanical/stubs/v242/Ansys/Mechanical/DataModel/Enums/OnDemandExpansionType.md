@@ -1,6 +1,6 @@
 # `OnDemandExpansionType`
 
-
+<a id="ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.OnDemandExpansionType"></a>
 
 #### *class* ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.OnDemandExpansionType
 
@@ -17,7 +17,7 @@ Specifies the OnDemandExpansionType.
 ### Attributes
 
 | Name |
-| ----------------------------------------------------------------- |
+| ---------------------------------------------------------------------------------------------------------------------------------------------- |
 | [`No`](#OnDemandExpansionType.No) |
 | [`ProgramControlled`](#OnDemandExpansionType.ProgramControlled) |
 | [`Yes`](#OnDemandExpansionType.Yes) |

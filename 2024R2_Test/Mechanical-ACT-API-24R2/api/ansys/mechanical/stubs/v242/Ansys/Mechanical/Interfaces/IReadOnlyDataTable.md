@@ -1,6 +1,6 @@
 # `IReadOnlyDataTable`
 
-
+<a id="ansys.mechanical.stubs.v242.Ansys.Mechanical.Interfaces.IReadOnlyDataTable"></a>
 
 #### *class* ansys.mechanical.stubs.v242.Ansys.Mechanical.Interfaces.IReadOnlyDataTable
 
@@ -17,13 +17,13 @@ IReadOnlyDataTable interface.
 ### Methods
 
 | Name | Description |
-|------------------------------------------|--------------------------------------------------------------|
+|------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------|
 | [`GetRow`](#IReadOnlyDataTable.GetRow)   | Returns an enumerable to iterate over the values in a row.   |
 
 ### Properties
 
 | Name | Description |
-|----------------------------------------------------|---------------------------------------------------------------------------------------|
+|----------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------|
 | [`ColumnNames`](#IReadOnlyDataTable.ColumnNames)   | Gets a list of the column names.                                                      |
 | [`Columns`](#IReadOnlyDataTable.Columns)           | Explicitly get the columns of the table.                                              |
 | [`Item`](#IReadOnlyDataTable.Item)                 | Item property.                                                                        |
@@ -45,7 +45,7 @@ Gets a list of the column names.
 
 <a id="IReadOnlyDataTable.Columns"></a>
 
-### *property* IReadOnlyDataTable.Columns *: System.Collections.Generic.IReadOnlyList[[Ansys.Mechanical.Interfaces.IReadOnlyDataSeries](../../../../v241/Ansys/Mechanical/Interfaces/IReadOnlyDataSeries.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.Interfaces.IReadOnlyDataSeries)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* IReadOnlyDataTable.Columns *: System.Collections.Generic.IReadOnlyList[[Ansys.Mechanical.Interfaces.IReadOnlyDataSeries](IReadOnlyDataSeries.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.Interfaces.IReadOnlyDataSeries)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Explicitly get the columns of the table.
 
@@ -53,7 +53,7 @@ Explicitly get the columns of the table.
 
 <a id="IReadOnlyDataTable.Item"></a>
 
-### *property* IReadOnlyDataTable.Item *: [Ansys.Mechanical.Interfaces.IReadOnlyDataSeries](../../../../v241/Ansys/Mechanical/Interfaces/IReadOnlyDataSeries.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.Interfaces.IReadOnlyDataSeries) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* IReadOnlyDataTable.Item *: [Ansys.Mechanical.Interfaces.IReadOnlyDataSeries](IReadOnlyDataSeries.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.Interfaces.IReadOnlyDataSeries) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Item property.
 

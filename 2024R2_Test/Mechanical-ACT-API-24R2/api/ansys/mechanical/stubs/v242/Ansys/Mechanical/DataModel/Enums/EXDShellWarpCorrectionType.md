@@ -1,6 +1,6 @@
 # `EXDShellWarpCorrectionType`
 
-
+<a id="ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.EXDShellWarpCorrectionType"></a>
 
 #### *class* ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.EXDShellWarpCorrectionType
 
@@ -15,7 +15,7 @@ Bases: [`enum.Enum`](https://docs.python.org/3/library/enum.html#enum.Enum)
 ### Attributes
 
 | Name |
-| ------------------------------------------ |
+| ---------------------------------------------------------------------------------------------------------------------------- |
 | [`No`](#EXDShellWarpCorrectionType.No) |
 | [`Yes`](#EXDShellWarpCorrectionType.Yes) |
 

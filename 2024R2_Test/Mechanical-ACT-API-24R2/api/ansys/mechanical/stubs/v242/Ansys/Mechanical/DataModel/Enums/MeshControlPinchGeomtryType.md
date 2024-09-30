@@ -1,6 +1,6 @@
 # `MeshControlPinchGeomtryType`
 
-
+<a id="ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.MeshControlPinchGeomtryType"></a>
 
 #### *class* ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.MeshControlPinchGeomtryType
 
@@ -17,7 +17,7 @@ Specifies the MeshControlPinchGeomtryType.
 ### Attributes
 
 | Name |
-| ------------------------------------------------------------------- |
+| ------------------------------------------------------------------------------------------------------------------------------------------------------ |
 | [`AddPinchMaster`](#MeshControlPinchGeomtryType.AddPinchMaster) |
 | [`AddPinchSlave`](#MeshControlPinchGeomtryType.AddPinchSlave) |
 | [`SetPinchMaster`](#MeshControlPinchGeomtryType.SetPinchMaster) |

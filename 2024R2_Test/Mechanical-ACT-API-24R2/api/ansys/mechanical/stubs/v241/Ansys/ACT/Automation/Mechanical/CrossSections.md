@@ -1,6 +1,6 @@
 # `CrossSections`
 
-
+<a id="ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.CrossSections"></a>
 
 #### *class* ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.CrossSections
 
@@ -18,68 +18,50 @@ Defines a CrossSections.
 
 | Name | Description |
 |-----------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------|
-| [`NameCrossSectionsUniquely`](../../../../../v242/Ansys/ACT/Automation/Mechanical/CrossSections.md#CrossSections.NameCrossSectionsUniquely)               | programmatically give each of the Cross Section objects a unique name .           |
-| [`AddChannelCrossSection`](../../../../../v242/Ansys/ACT/Automation/Mechanical/CrossSections.md#CrossSections.AddChannelCrossSection)                     | Creates a new ChannelCrossSection                                                 |
-| [`AddCircularCrossSection`](../../../../../v242/Ansys/ACT/Automation/Mechanical/CrossSections.md#CrossSections.AddCircularCrossSection)                   | Creates a new CircularCrossSection                                                |
-| [`AddCircularTubeCrossSection`](../../../../../v242/Ansys/ACT/Automation/Mechanical/CrossSections.md#CrossSections.AddCircularTubeCrossSection)           | Creates a new CircularTubeCrossSection                                            |
-| [`AddHatCrossSection`](../../../../../v242/Ansys/ACT/Automation/Mechanical/CrossSections.md#CrossSections.AddHatCrossSection)                             | Creates a new HatCrossSection                                                     |
-| [`AddHollowRectangularCrossSection`](../../../../../v242/Ansys/ACT/Automation/Mechanical/CrossSections.md#CrossSections.AddHollowRectangularCrossSection) | Creates a new HollowRectangularCrossSection                                       |
-| [`AddICrossSection`](../../../../../v242/Ansys/ACT/Automation/Mechanical/CrossSections.md#CrossSections.AddICrossSection)                                 | Creates a new ICrossSection                                                       |
-| [`AddLCrossSection`](../../../../../v242/Ansys/ACT/Automation/Mechanical/CrossSections.md#CrossSections.AddLCrossSection)                                 | Creates a new LCrossSection                                                       |
-| [`AddRectangularCrossSection`](../../../../../v242/Ansys/ACT/Automation/Mechanical/CrossSections.md#CrossSections.AddRectangularCrossSection)             | Creates a new RectangularCrossSection                                             |
-| [`AddTCrossSection`](../../../../../v242/Ansys/ACT/Automation/Mechanical/CrossSections.md#CrossSections.AddTCrossSection)                                 | Creates a new TCrossSection                                                       |
-| [`AddUserDefinedCrossSection`](../../../../../v242/Ansys/ACT/Automation/Mechanical/CrossSections.md#CrossSections.AddUserDefinedCrossSection)             | Creates a new UserDefinedCrossSection                                             |
-| [`AddZCrossSection`](../../../../../v242/Ansys/ACT/Automation/Mechanical/CrossSections.md#CrossSections.AddZCrossSection)                                 | Creates a new ZCrossSection                                                       |
-| [`Delete`](../../../../../v242/Ansys/ACT/Automation/Mechanical/CrossSections.md#CrossSections.Delete)                                                     | Run the Delete action.                                                            |
-| [`GetChildren`](../../../../../v242/Ansys/ACT/Automation/Mechanical/CrossSections.md#id1)                                                                 | Gets the list of children, filtered by type.                                      |
-| [`GetChildren`](../../../../../v242/Ansys/ACT/Automation/Mechanical/CrossSections.md#id1)                                                                 | Gets the list of children, filtered by type.                                      |
-| [`AddComment`](../../../../../v242/Ansys/ACT/Automation/Mechanical/CrossSections.md#CrossSections.AddComment)                                             | Creates a new child Comment.                                                      |
-| [`AddFigure`](../../../../../v242/Ansys/ACT/Automation/Mechanical/CrossSections.md#CrossSections.AddFigure)                                               | Creates a new child Figure.                                                       |
-| [`AddImage`](../../../../../v242/Ansys/ACT/Automation/Mechanical/CrossSections.md#CrossSections.AddImage)                                                 | Creates a new child Image.                                                        |
-| [`Activate`](../../../../../v242/Ansys/ACT/Automation/Mechanical/CrossSections.md#CrossSections.Activate)                                                 | Activate the current object.                                                      |
-| [`CopyTo`](../../../../../v242/Ansys/ACT/Automation/Mechanical/CrossSections.md#CrossSections.CopyTo)                                                     | Copies all visible properties from this object to another.                        |
-| [`Duplicate`](../../../../../v242/Ansys/ACT/Automation/Mechanical/CrossSections.md#CrossSections.Duplicate)                                               | Creates a copy of the current DataModelObject.                                    |
-| [`GroupAllSimilarChildren`](../../../../../v242/Ansys/ACT/Automation/Mechanical/CrossSections.md#CrossSections.GroupAllSimilarChildren)                   | Run the GroupAllSimilarChildren action.                                           |
-| [`GroupSimilarObjects`](../../../../../v242/Ansys/ACT/Automation/Mechanical/CrossSections.md#CrossSections.GroupSimilarObjects)                           | Run the GroupSimilarObjects action.                                               |
-| [`PropertyByName`](../../../../../v242/Ansys/ACT/Automation/Mechanical/CrossSections.md#CrossSections.PropertyByName)                                     | Get a property by its unique name.                                                |
-| [`PropertyByAPIName`](../../../../../v242/Ansys/ACT/Automation/Mechanical/CrossSections.md#CrossSections.PropertyByAPIName)                               | Get a property by its API name.                                                   |
-| [`CreateParameter`](../../../../../v242/Ansys/ACT/Automation/Mechanical/CrossSections.md#CrossSections.CreateParameter)                                   | Creates a new parameter for a Property.                                           |
-| [`GetParameter`](../../../../../v242/Ansys/ACT/Automation/Mechanical/CrossSections.md#CrossSections.GetParameter)                                         | Gets the parameter corresponding to the given property.                           |
-| [`RemoveParameter`](../../../../../v242/Ansys/ACT/Automation/Mechanical/CrossSections.md#CrossSections.RemoveParameter)                                   | Removes the parameter from the parameter set corresponding to the given property. |
+| [`Activate`](#CrossSections.Activate)                                                 | Activate the current object.                                                      |
+| [`AddChannelCrossSection`](#CrossSections.AddChannelCrossSection)                     | Creates a new ChannelCrossSection                                                 |
+| [`AddCircularCrossSection`](#CrossSections.AddCircularCrossSection)                   | Creates a new CircularCrossSection                                                |
+| [`AddCircularTubeCrossSection`](#CrossSections.AddCircularTubeCrossSection)           | Creates a new CircularTubeCrossSection                                            |
+| [`AddComment`](#CrossSections.AddComment)                                             | Creates a new child Comment.                                                      |
+| [`AddFigure`](#CrossSections.AddFigure)                                               | Creates a new child Figure.                                                       |
+| [`AddHatCrossSection`](#CrossSections.AddHatCrossSection)                             | Creates a new HatCrossSection                                                     |
+| [`AddHollowRectangularCrossSection`](#CrossSections.AddHollowRectangularCrossSection) | Creates a new HollowRectangularCrossSection                                       |
+| [`AddICrossSection`](#CrossSections.AddICrossSection)                                 | Creates a new ICrossSection                                                       |
+| [`AddImage`](#CrossSections.AddImage)                                                 | Creates a new child Image.                                                        |
+| [`AddLCrossSection`](#CrossSections.AddLCrossSection)                                 | Creates a new LCrossSection                                                       |
+| [`AddRectangularCrossSection`](#CrossSections.AddRectangularCrossSection)             | Creates a new RectangularCrossSection                                             |
+| [`AddTCrossSection`](#CrossSections.AddTCrossSection)                                 | Creates a new TCrossSection                                                       |
+| [`AddUserDefinedCrossSection`](#CrossSections.AddUserDefinedCrossSection)             | Creates a new UserDefinedCrossSection                                             |
+| [`AddZCrossSection`](#CrossSections.AddZCrossSection)                                 | Creates a new ZCrossSection                                                       |
+| [`CopyTo`](#CrossSections.CopyTo)                                                     | Copies all visible properties from this object to another.                        |
+| [`CreateParameter`](#CrossSections.CreateParameter)                                   | Creates a new parameter for a Property.                                           |
+| [`Delete`](#CrossSections.Delete)                                                     | Run the Delete action.                                                            |
+| [`Duplicate`](#CrossSections.Duplicate)                                               | Creates a copy of the current DataModelObject.                                    |
+| [`GetChildren`](#CrossSections.GetChildren)                                           | Gets the list of children, filtered by type.                                      |
+| [`GetParameter`](#CrossSections.GetParameter)                                         | Gets the parameter corresponding to the given property.                           |
+| [`GroupAllSimilarChildren`](#CrossSections.GroupAllSimilarChildren)                   | Run the GroupAllSimilarChildren action.                                           |
+| [`GroupSimilarObjects`](#CrossSections.GroupSimilarObjects)                           | Run the GroupSimilarObjects action.                                               |
+| [`NameCrossSectionsUniquely`](#CrossSections.NameCrossSectionsUniquely)               | programmatically give each of the Cross Section objects a unique name .           |
+| [`PropertyByAPIName`](#CrossSections.PropertyByAPIName)                               | Get a property by its API name.                                                   |
+| [`PropertyByName`](#CrossSections.PropertyByName)                                     | Get a property by its unique name.                                                |
+| [`RemoveParameter`](#CrossSections.RemoveParameter)                                   | Removes the parameter from the parameter set corresponding to the given property. |
 
 ### Properties
 
 | Name | Description |
 |-----------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------|
-| [`InternalObject`](../../../../../v242/Ansys/ACT/Automation/Mechanical/CrossSections.md#id0)                                            | Gets the internal object. For advanced usage only.            |
-| [`DataModelObjectCategory`](../../../../../v242/Ansys/ACT/Automation/Mechanical/CrossSections.md#CrossSections.DataModelObjectCategory) | Gets the current DataModelObject's category.                  |
-| [`Children`](../../../../../v242/Ansys/ACT/Automation/Mechanical/CrossSections.md#CrossSections.Children)                               | Gets the list of children.                                    |
-| [`Comments`](../../../../../v242/Ansys/ACT/Automation/Mechanical/CrossSections.md#CrossSections.Comments)                               | Gets the list of associated comments.                         |
-| [`Figures`](../../../../../v242/Ansys/ACT/Automation/Mechanical/CrossSections.md#CrossSections.Figures)                                 | Gets the list of associated figures.                          |
-| [`Images`](../../../../../v242/Ansys/ACT/Automation/Mechanical/CrossSections.md#CrossSections.Images)                                   | Gets the list of associated images.                           |
-| [`InternalObject`](../../../../../v242/Ansys/ACT/Automation/Mechanical/CrossSections.md#id0)                                            | Gets the internal object. For advanced usage only.            |
-| [`Properties`](../../../../../v242/Ansys/ACT/Automation/Mechanical/CrossSections.md#CrossSections.Properties)                           | Gets the list of properties for this object.                  |
-| [`VisibleProperties`](../../../../../v242/Ansys/ACT/Automation/Mechanical/CrossSections.md#CrossSections.VisibleProperties)             | Gets the list of properties that are visible for this object. |
+| [`Children`](#CrossSections.Children)                               | Gets the list of children.                                    |
+| [`Comments`](#CrossSections.Comments)                               | Gets the list of associated comments.                         |
+| [`DataModelObjectCategory`](#CrossSections.DataModelObjectCategory) | Gets the current DataModelObject’s category.                  |
+| [`Figures`](#CrossSections.Figures)                                 | Gets the list of associated figures.                          |
+| [`Images`](#CrossSections.Images)                                   | Gets the list of associated images.                           |
+| [`InternalObject`](#CrossSections.InternalObject)                   | Gets the internal object. For advanced usage only.            |
+| [`Properties`](#CrossSections.Properties)                           | Gets the list of properties for this object.                  |
+| [`VisibleProperties`](#CrossSections.VisibleProperties)             | Gets the list of properties that are visible for this object. |
 
 <a id="property-detail"></a>
 
 ## Property detail
-
-<a id="CrossSections.InternalObject"></a>
-
-### *property* CrossSections.InternalObject *: Ansys.Common.Interop.DSObjectsAuto.IDSCrossSectionGroupAuto | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets the internal object. For advanced usage only.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="CrossSections.DataModelObjectCategory"></a>
-
-### *property* CrossSections.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets the current DataModelObject's category.
-
-<!-- !! processed by numpydoc !! -->
 
 <a id="CrossSections.Children"></a>
 
@@ -94,6 +76,14 @@ Gets the list of children.
 ### *property* CrossSections.Comments *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Comment](Comment.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated comments.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="CrossSections.DataModelObjectCategory"></a>
+
+### *property* CrossSections.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../v242/Ansys/Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets the current DataModelObject’s category.
 
 <!-- !! processed by numpydoc !! -->
 
@@ -113,9 +103,9 @@ Gets the list of associated images.
 
 <!-- !! processed by numpydoc !! -->
 
-<a id="id0"></a>
+<a id="CrossSections.InternalObject"></a>
 
-### *property* CrossSections.InternalObject *: System.Object | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* CrossSections.InternalObject *: Ansys.Common.Interop.DSObjectsAuto.IDSCrossSectionGroupAuto | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the internal object. For advanced usage only.
 
@@ -141,11 +131,11 @@ Gets the list of properties that are visible for this object.
 
 ## Method detail
 
-<a id="CrossSections.NameCrossSectionsUniquely"></a>
+<a id="CrossSections.Activate"></a>
 
-### CrossSections.NameCrossSectionsUniquely()
+### CrossSections.Activate()
 
-programmatically give each of the Cross Section objects a unique name .
+Activate the current object.
 
 <!-- !! processed by numpydoc !! -->
 
@@ -173,6 +163,22 @@ Creates a new CircularTubeCrossSection
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="CrossSections.AddComment"></a>
+
+### CrossSections.AddComment()
+
+Creates a new child Comment.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="CrossSections.AddFigure"></a>
+
+### CrossSections.AddFigure()
+
+Creates a new child Figure.
+
+<!-- !! processed by numpydoc !! -->
+
 <a id="CrossSections.AddHatCrossSection"></a>
 
 ### CrossSections.AddHatCrossSection()
@@ -194,6 +200,18 @@ Creates a new HollowRectangularCrossSection
 ### CrossSections.AddICrossSection()
 
 Creates a new ICrossSection
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="CrossSections.AddImage"></a>
+
+### CrossSections.AddImage(filePath: System.String)
+
+```text
+Creates a new child Image.
+If a filePath is provided, the image will be loaded from that file,
+if not, the image will be a screen capture of the Geometry window.
+```
 
 <!-- !! processed by numpydoc !! -->
 
@@ -237,11 +255,35 @@ Creates a new ZCrossSection
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="CrossSections.CopyTo"></a>
+
+### CrossSections.CopyTo(other: Ansys.ACT.Automation.Mechanical.DataModelObject)
+
+Copies all visible properties from this object to another.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="CrossSections.CreateParameter"></a>
+
+### CrossSections.CreateParameter(propName: System.String)
+
+Creates a new parameter for a Property.
+
+<!-- !! processed by numpydoc !! -->
+
 <a id="CrossSections.Delete"></a>
 
 ### CrossSections.Delete()
 
 Run the Delete action.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="CrossSections.Duplicate"></a>
+
+### CrossSections.Duplicate()
+
+Creates a copy of the current DataModelObject.
 
 <!-- !! processed by numpydoc !! -->
 
@@ -253,61 +295,11 @@ Gets the list of children, filtered by type.
 
 <!-- !! processed by numpydoc !! -->
 
-<a id="id1"></a>
+<a id="CrossSections.GetParameter"></a>
 
-### CrossSections.GetChildren(category: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory), recurses: System.Boolean, children: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject])
+### CrossSections.GetParameter(propName: System.String)
 
-Gets the list of children, filtered by type.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="CrossSections.AddComment"></a>
-
-### CrossSections.AddComment()
-
-Creates a new child Comment.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="CrossSections.AddFigure"></a>
-
-### CrossSections.AddFigure()
-
-Creates a new child Figure.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="CrossSections.AddImage"></a>
-
-### CrossSections.AddImage(filePath: System.String)
-
-Creates a new child Image.
-If a filePath is provided, the image will be loaded from that file,
-if not, the image will be a screen capture of the Geometry window.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="CrossSections.Activate"></a>
-
-### CrossSections.Activate()
-
-Activate the current object.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="CrossSections.CopyTo"></a>
-
-### CrossSections.CopyTo(other: Ansys.ACT.Automation.Mechanical.DataModelObject)
-
-Copies all visible properties from this object to another.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="CrossSections.Duplicate"></a>
-
-### CrossSections.Duplicate()
-
-Creates a copy of the current DataModelObject.
+Gets the parameter corresponding to the given property.
 
 <!-- !! processed by numpydoc !! -->
 
@@ -327,11 +319,11 @@ Run the GroupSimilarObjects action.
 
 <!-- !! processed by numpydoc !! -->
 
-<a id="CrossSections.PropertyByName"></a>
+<a id="CrossSections.NameCrossSectionsUniquely"></a>
 
-### CrossSections.PropertyByName(name: System.String)
+### CrossSections.NameCrossSectionsUniquely()
 
-Get a property by its unique name.
+programmatically give each of the Cross Section objects a unique name .
 
 <!-- !! processed by numpydoc !! -->
 
@@ -339,24 +331,18 @@ Get a property by its unique name.
 
 ### CrossSections.PropertyByAPIName(name: System.String)
 
+```text
 Get a property by its API name.
 If multiple properties have the same API Name, only the first property with that name will be returned.
+```
 
 <!-- !! processed by numpydoc !! -->
 
-<a id="CrossSections.CreateParameter"></a>
+<a id="CrossSections.PropertyByName"></a>
 
-### CrossSections.CreateParameter(propName: System.String)
+### CrossSections.PropertyByName(name: System.String)
 
-Creates a new parameter for a Property.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="CrossSections.GetParameter"></a>
-
-### CrossSections.GetParameter(propName: System.String)
-
-Gets the parameter corresponding to the given property.
+Get a property by its unique name.
 
 <!-- !! processed by numpydoc !! -->
 

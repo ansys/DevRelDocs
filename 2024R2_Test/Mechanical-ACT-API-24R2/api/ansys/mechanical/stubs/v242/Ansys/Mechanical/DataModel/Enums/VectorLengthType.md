@@ -1,6 +1,6 @@
 # `VectorLengthType`
 
-
+<a id="ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.VectorLengthType"></a>
 
 #### *class* ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.VectorLengthType
 
@@ -17,7 +17,7 @@ Specifies the VectorLengthType.
 ### Attributes
 
 | Name |
-| ---------------------------------------------------- |
+| ---------------------------------------------------------------------------------------------------------------------------- |
 | [`Proportional`](#VectorLengthType.Proportional) |
 | [`Uniform`](#VectorLengthType.Uniform) |
 

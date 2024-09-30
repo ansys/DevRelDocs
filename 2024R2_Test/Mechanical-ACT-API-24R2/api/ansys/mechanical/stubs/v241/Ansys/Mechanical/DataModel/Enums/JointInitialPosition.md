@@ -1,6 +1,6 @@
 # `JointInitialPosition`
 
-
+<a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.JointInitialPosition"></a>
 
 #### *class* ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.JointInitialPosition
 
@@ -17,9 +17,9 @@ Specifies the JointInitialPosition.
 ### Attributes
 
 | Name |
-| ---------------------------------------------------------------------------------------------------------------------------- |
-| [`Override`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/JointInitialPosition.md#JointInitialPosition.Override) |
-| [`Unchanged`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/JointInitialPosition.md#JointInitialPosition.Unchanged) |
+| ------------------------------------------------ |
+| [`Override`](#JointInitialPosition.Override) |
+| [`Unchanged`](#JointInitialPosition.Unchanged) |
 
 <a id="attribute-detail"></a>
 

@@ -1,6 +1,6 @@
 # `GraphicsCaptureType`
 
-
+<a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.GraphicsCaptureType"></a>
 
 #### *class* ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.GraphicsCaptureType
 
@@ -17,9 +17,9 @@ Specifies the Graphics Image Capture Type.
 ### Attributes
 
 | Name |
-| -------------------------------------------------------------------------------------------------------------------------------------- |
-| [`ImageAndLegend`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/GraphicsCaptureType.md#GraphicsCaptureType.ImageAndLegend) |
-| [`ImageOnly`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/GraphicsCaptureType.md#GraphicsCaptureType.ImageOnly) |
+| ----------------------------------------------------------- |
+| [`ImageAndLegend`](#GraphicsCaptureType.ImageAndLegend) |
+| [`ImageOnly`](#GraphicsCaptureType.ImageOnly) |
 
 <a id="attribute-detail"></a>
 

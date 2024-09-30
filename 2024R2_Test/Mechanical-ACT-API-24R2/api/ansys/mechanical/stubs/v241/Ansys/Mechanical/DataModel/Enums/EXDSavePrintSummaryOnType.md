@@ -1,6 +1,6 @@
 # `EXDSavePrintSummaryOnType`
 
-
+<a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.EXDSavePrintSummaryOnType"></a>
 
 #### *class* ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.EXDSavePrintSummaryOnType
 
@@ -15,20 +15,20 @@ Bases: [`enum.Enum`](https://docs.python.org/3/library/enum.html#enum.Enum)
 ### Attributes
 
 | Name |
-| ---------------------------------------------------------------------------------------------------------------------------------------- |
-| [`TimeSteps`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/EXDSavePrintSummaryOnType.md#EXDSavePrintSummaryOnType.TimeSteps) |
-| [`Time`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/EXDSavePrintSummaryOnType.md#EXDSavePrintSummaryOnType.Time) |
+| ----------------------------------------------------- |
+| [`Time`](#EXDSavePrintSummaryOnType.Time) |
+| [`TimeSteps`](#EXDSavePrintSummaryOnType.TimeSteps) |
 
 <a id="attribute-detail"></a>
 
 ## Attribute detail
 
-<a id="EXDSavePrintSummaryOnType.TimeSteps"></a>
-
-### EXDSavePrintSummaryOnType.TimeSteps *= 0*
-
 <a id="EXDSavePrintSummaryOnType.Time"></a>
 
 ### EXDSavePrintSummaryOnType.Time *= 1*
+
+<a id="EXDSavePrintSummaryOnType.TimeSteps"></a>
+
+### EXDSavePrintSummaryOnType.TimeSteps *= 0*
 
 

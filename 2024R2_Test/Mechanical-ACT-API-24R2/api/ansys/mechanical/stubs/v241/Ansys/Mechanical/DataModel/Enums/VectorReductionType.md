@@ -1,6 +1,6 @@
 # `VectorReductionType`
 
-
+<a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.VectorReductionType"></a>
 
 #### *class* ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.VectorReductionType
 
@@ -17,19 +17,19 @@ Specifies the VectorReductionType.
 ### Attributes
 
 | Name |
-| -------------------------------------------------------------------------------------------------------------------------------- |
-| [`Directional`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/VectorReductionType.md#VectorReductionType.Directional) |
-| [`FaceNormal`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/VectorReductionType.md#VectorReductionType.FaceNormal) |
-| [`Magnitude`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/VectorReductionType.md#VectorReductionType.Magnitude) |
-| [`X`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/VectorReductionType.md#VectorReductionType.X) |
-| [`XX`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/VectorReductionType.md#VectorReductionType.XX) |
-| [`XY`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/VectorReductionType.md#VectorReductionType.XY) |
-| [`XZ`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/VectorReductionType.md#VectorReductionType.XZ) |
-| [`Y`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/VectorReductionType.md#VectorReductionType.Y) |
-| [`YY`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/VectorReductionType.md#VectorReductionType.YY) |
-| [`YZ`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/VectorReductionType.md#VectorReductionType.YZ) |
-| [`Z`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/VectorReductionType.md#VectorReductionType.Z) |
-| [`ZZ`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/VectorReductionType.md#VectorReductionType.ZZ) |
+| ----------------------------------------------------- |
+| [`Directional`](#VectorReductionType.Directional) |
+| [`FaceNormal`](#VectorReductionType.FaceNormal) |
+| [`Magnitude`](#VectorReductionType.Magnitude) |
+| [`X`](#VectorReductionType.X) |
+| [`XX`](#VectorReductionType.XX) |
+| [`XY`](#VectorReductionType.XY) |
+| [`XZ`](#VectorReductionType.XZ) |
+| [`Y`](#VectorReductionType.Y) |
+| [`YY`](#VectorReductionType.YY) |
+| [`YZ`](#VectorReductionType.YZ) |
+| [`Z`](#VectorReductionType.Z) |
+| [`ZZ`](#VectorReductionType.ZZ) |
 
 <a id="attribute-detail"></a>
 

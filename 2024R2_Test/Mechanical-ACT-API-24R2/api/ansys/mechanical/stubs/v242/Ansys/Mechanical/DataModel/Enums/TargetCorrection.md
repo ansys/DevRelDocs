@@ -1,6 +1,6 @@
 # `TargetCorrection`
 
-
+<a id="ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.TargetCorrection"></a>
 
 #### *class* ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.TargetCorrection
 
@@ -17,7 +17,7 @@ Specifies the TargetCorrection.
 ### Attributes
 
 | Name |
-| -------------------------------------------- |
+| -------------------------------------------------------------------------------------------------------------------- |
 | [`No`](#TargetCorrection.No) |
 | [`Smoothing`](#TargetCorrection.Smoothing) |
 

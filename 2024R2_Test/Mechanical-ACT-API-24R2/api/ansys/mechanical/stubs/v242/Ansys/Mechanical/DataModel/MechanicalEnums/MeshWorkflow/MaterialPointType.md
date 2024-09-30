@@ -1,6 +1,6 @@
 # `MaterialPointType`
 
-
+<a id="ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.MechanicalEnums.MeshWorkflow.MaterialPointType"></a>
 
 #### *class* ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.MechanicalEnums.MeshWorkflow.MaterialPointType
 
@@ -17,7 +17,7 @@ To select the MeshWorkflow Surface Scope Modality Type.
 ### Attributes
 
 | Name |
-| ------------------------------------------- |
+| ---------------------------------------------------------------------------------------------------------------------------------------------- |
 | [`Exclude`](#MaterialPointType.Exclude) |
 | [`Include`](#MaterialPointType.Include) |
 

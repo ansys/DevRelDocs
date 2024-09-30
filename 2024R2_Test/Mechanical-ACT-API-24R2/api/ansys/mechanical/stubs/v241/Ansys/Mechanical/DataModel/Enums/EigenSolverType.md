@@ -1,6 +1,6 @@
 # `EigenSolverType`
 
-
+<a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.EigenSolverType"></a>
 
 #### *class* ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.EigenSolverType
 
@@ -17,16 +17,16 @@ Specifies the EigenSolverType.
 ### Attributes
 
 | Name |
-| -------------------------------------------------------------------------------------------------------------------------- |
-| [`BlockLanczos`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/EigenSolverType.md#EigenSolverType.BlockLanczos) |
-| [`Damped`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/EigenSolverType.md#EigenSolverType.Damped) |
-| [`Lanczos`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/EigenSolverType.md#EigenSolverType.Lanczos) |
-| [`PCGLanczos`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/EigenSolverType.md#EigenSolverType.PCGLanczos) |
-| [`Qrdamp`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/EigenSolverType.md#EigenSolverType.Qrdamp) |
-| [`Reduced`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/EigenSolverType.md#EigenSolverType.Reduced) |
-| [`Subspace`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/EigenSolverType.md#EigenSolverType.Subspace) |
-| [`Supernode`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/EigenSolverType.md#EigenSolverType.Supernode) |
-| [`Unsymmetric`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/EigenSolverType.md#EigenSolverType.Unsymmetric) |
+| --------------------------------------------------- |
+| [`BlockLanczos`](#EigenSolverType.BlockLanczos) |
+| [`Damped`](#EigenSolverType.Damped) |
+| [`Lanczos`](#EigenSolverType.Lanczos) |
+| [`PCGLanczos`](#EigenSolverType.PCGLanczos) |
+| [`Qrdamp`](#EigenSolverType.Qrdamp) |
+| [`Reduced`](#EigenSolverType.Reduced) |
+| [`Subspace`](#EigenSolverType.Subspace) |
+| [`Supernode`](#EigenSolverType.Supernode) |
+| [`Unsymmetric`](#EigenSolverType.Unsymmetric) |
 
 <a id="attribute-detail"></a>
 

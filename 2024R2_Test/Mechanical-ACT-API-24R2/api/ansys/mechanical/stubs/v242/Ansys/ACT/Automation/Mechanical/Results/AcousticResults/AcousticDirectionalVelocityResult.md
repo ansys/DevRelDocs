@@ -1,6 +1,6 @@
 # `AcousticDirectionalVelocityResult`
 
-
+<a id="ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Results.AcousticResults.AcousticDirectionalVelocityResult"></a>
 
 #### *class* ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Results.AcousticResults.AcousticDirectionalVelocityResult
 
@@ -17,197 +17,107 @@ Defines a AcousticDirectionalVelocityResult.
 ### Methods
 
 | Name | Description |
-|-----------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------|
-| [`ClearGeneratedData`](#AcousticDirectionalVelocityResult.ClearGeneratedData)           | Run the ClearGeneratedData action.                                                |
-| [`EvaluateAllResults`](#AcousticDirectionalVelocityResult.EvaluateAllResults)           | Run the EvaluateAllResults action.                                                |
-| [`FetchRemoteResults`](#AcousticDirectionalVelocityResult.FetchRemoteResults)           | Run the FetchRemoteResult action.                                                 |
-| [`ExportToTextFile`](#AcousticDirectionalVelocityResult.ExportToTextFile)               | Run the ExportToTextFile action.                                                  |
-| [`ExportAnimation`](#AcousticDirectionalVelocityResult.ExportAnimation)                 | Run the ExportAnimation action.                                                   |
-| [`DuplicateWithoutResults`](#AcousticDirectionalVelocityResult.DuplicateWithoutResults) | Run the DuplicateWithoutResults action.                                           |
-| [`CreateResultsAtAllSets`](#AcousticDirectionalVelocityResult.CreateResultsAtAllSets)   | Creates results at all sets for results under a solution.                         |
-| [`PromoteToNamedSelection`](#AcousticDirectionalVelocityResult.PromoteToNamedSelection) | Run the PromoteToNamedSelection action.                                           |
-| [`CreateParameter`](#AcousticDirectionalVelocityResult.CreateParameter)                 | CreateParameter method.                                                           |
+|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------|
+| [`Activate`](#AcousticDirectionalVelocityResult.Activate)                               | Activate the current object.                                                      |
 | [`AddAlert`](#AcousticDirectionalVelocityResult.AddAlert)                               | Creates a new Alert                                                               |
-| [`AddConvergence`](#AcousticDirectionalVelocityResult.AddConvergence)                   | Creates a new Convergence                                                         |
-| [`RenameBasedOnDefinition`](#AcousticDirectionalVelocityResult.RenameBasedOnDefinition) | Run the RenameBasedOnDefinition action.                                           |
-| [`Delete`](#AcousticDirectionalVelocityResult.Delete)                                   | Run the Delete action.                                                            |
-| [`GetChildren`](#id1)                                                                   | Gets the list of children, filtered by type.                                      |
-| [`GetChildren`](#id1)                                                                   | Gets the list of children, filtered by type.                                      |
 | [`AddComment`](#AcousticDirectionalVelocityResult.AddComment)                           | Creates a new child Comment.                                                      |
+| [`AddConvergence`](#AcousticDirectionalVelocityResult.AddConvergence)                   | Creates a new Convergence                                                         |
 | [`AddFigure`](#AcousticDirectionalVelocityResult.AddFigure)                             | Creates a new child Figure.                                                       |
 | [`AddImage`](#AcousticDirectionalVelocityResult.AddImage)                               | Creates a new child Image.                                                        |
-| [`Activate`](#AcousticDirectionalVelocityResult.Activate)                               | Activate the current object.                                                      |
+| [`ClearGeneratedData`](#AcousticDirectionalVelocityResult.ClearGeneratedData)           | Run the ClearGeneratedData action.                                                |
 | [`CopyTo`](#AcousticDirectionalVelocityResult.CopyTo)                                   | Copies all visible properties from this object to another.                        |
+| [`CreateParameter`](#AcousticDirectionalVelocityResult.CreateParameter)                 | CreateParameter method.                                                           |
+| [`CreateResultsAtAllSets`](#AcousticDirectionalVelocityResult.CreateResultsAtAllSets)   | Creates results at all sets for results under a solution.                         |
+| [`Delete`](#AcousticDirectionalVelocityResult.Delete)                                   | Run the Delete action.                                                            |
 | [`Duplicate`](#AcousticDirectionalVelocityResult.Duplicate)                             | Creates a copy of the current DataModelObject.                                    |
+| [`DuplicateWithoutResults`](#AcousticDirectionalVelocityResult.DuplicateWithoutResults) | Run the DuplicateWithoutResults action.                                           |
+| [`EvaluateAllResults`](#AcousticDirectionalVelocityResult.EvaluateAllResults)           | Run the EvaluateAllResults action.                                                |
+| [`ExportAnimation`](#AcousticDirectionalVelocityResult.ExportAnimation)                 | Run the ExportAnimation action.                                                   |
+| [`ExportToTextFile`](#AcousticDirectionalVelocityResult.ExportToTextFile)               | Run the ExportToTextFile action.                                                  |
+| [`FetchRemoteResults`](#AcousticDirectionalVelocityResult.FetchRemoteResults)           | Run the FetchRemoteResult action.                                                 |
+| [`GetChildren`](#AcousticDirectionalVelocityResult.GetChildren)                         | Gets the list of children, filtered by type.                                      |
+| [`GetParameter`](#AcousticDirectionalVelocityResult.GetParameter)                       | Gets the parameter corresponding to the given property.                           |
 | [`GroupAllSimilarChildren`](#AcousticDirectionalVelocityResult.GroupAllSimilarChildren) | Run the GroupAllSimilarChildren action.                                           |
 | [`GroupSimilarObjects`](#AcousticDirectionalVelocityResult.GroupSimilarObjects)         | Run the GroupSimilarObjects action.                                               |
-| [`PropertyByName`](#AcousticDirectionalVelocityResult.PropertyByName)                   | Get a property by its unique name.                                                |
+| [`PromoteToNamedSelection`](#AcousticDirectionalVelocityResult.PromoteToNamedSelection) | Run the PromoteToNamedSelection action.                                           |
 | [`PropertyByAPIName`](#AcousticDirectionalVelocityResult.PropertyByAPIName)             | Get a property by its API name.                                                   |
-| [`GetParameter`](#AcousticDirectionalVelocityResult.GetParameter)                       | Gets the parameter corresponding to the given property.                           |
+| [`PropertyByName`](#AcousticDirectionalVelocityResult.PropertyByName)                   | Get a property by its unique name.                                                |
 | [`RemoveParameter`](#AcousticDirectionalVelocityResult.RemoveParameter)                 | Removes the parameter from the parameter set corresponding to the given property. |
+| [`RenameBasedOnDefinition`](#AcousticDirectionalVelocityResult.RenameBasedOnDefinition) | Run the RenameBasedOnDefinition action.                                           |
 
 ### Properties
 
 | Name | Description |
-|-------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------|
-| [`InternalObject`](#id0)                                                                                    | Gets the internal object. For advanced usage only.                     |
-| [`NormalOrientation`](#AcousticDirectionalVelocityResult.NormalOrientation)                                 | Gets or sets the NormalOrientation.                                    |
-| [`DataModelObjectCategory`](#AcousticDirectionalVelocityResult.DataModelObjectCategory)                     | Gets the current DataModelObject's category.                           |
-| [`Mode`](#AcousticDirectionalVelocityResult.Mode)                                                           | Gets or sets the Mode.                                                 |
-| [`ReportedFrequency`](#AcousticDirectionalVelocityResult.ReportedFrequency)                                 | Gets the ReportedFrequency.                                            |
-| [`DampedFrequency`](#AcousticDirectionalVelocityResult.DampedFrequency)                                     | Gets the DampedFrequency.                                              |
-| [`LogarithmicDecrement`](#AcousticDirectionalVelocityResult.LogarithmicDecrement)                           | Gets the LogarithmicDecrement.                                         |
-| [`ModalDampingRatio`](#AcousticDirectionalVelocityResult.ModalDampingRatio)                                 | Gets the ModalDampingRatio.                                            |
-| [`Stability`](#AcousticDirectionalVelocityResult.Stability)                                                 | Gets the Stability.                                                    |
-| [`SweepingPhase`](#AcousticDirectionalVelocityResult.SweepingPhase)                                         | Gets or sets the SweepingPhase.                                        |
-| [`Frequency`](#AcousticDirectionalVelocityResult.Frequency)                                                 | Gets or sets the Frequency.                                            |
+|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------|
 | [`Amplitude`](#AcousticDirectionalVelocityResult.Amplitude)                                                 | Gets or sets the Amplitude.                                            |
-| [`PlotData`](#AcousticDirectionalVelocityResult.PlotData)                                                   | Gets the result table.                                                 |
-| [`Location`](#AcousticDirectionalVelocityResult.Location)                                                   | Gets or sets the Location.                                             |
-| [`TimeForMinimumOfMinimumValues`](#AcousticDirectionalVelocityResult.TimeForMinimumOfMinimumValues)         | Get the Time for the minimum of minimum values.                        |
-| [`TimeForMinimumOfMaximumValues`](#AcousticDirectionalVelocityResult.TimeForMinimumOfMaximumValues)         | Get the Time for the minimum of maximum values.                        |
-| [`LoadStepForMinimumOfMinimumValues`](#AcousticDirectionalVelocityResult.LoadStepForMinimumOfMinimumValues) | Get the Load Step for the minimum of minimum values.                   |
-| [`LoadStepForMinimumOfMaximumValues`](#AcousticDirectionalVelocityResult.LoadStepForMinimumOfMaximumValues) | Get the Load Step for the minimum of maximum values.                   |
-| [`TimeForMaximumOfMinimumValues`](#AcousticDirectionalVelocityResult.TimeForMaximumOfMinimumValues)         | Get the Time for the maximum of minimum values.                        |
-| [`TimeForMaximumOfMaximumValues`](#AcousticDirectionalVelocityResult.TimeForMaximumOfMaximumValues)         | Get the Time for the maximum of maximum values.                        |
-| [`LoadStepForMaximumOfMinimumValues`](#AcousticDirectionalVelocityResult.LoadStepForMaximumOfMinimumValues) | Get the Load Step for the maximum of minimum values.                   |
-| [`LoadStepForMaximumOfMaximumValues`](#AcousticDirectionalVelocityResult.LoadStepForMaximumOfMaximumValues) | Get the Load Step for the maximum of maximum values.                   |
-| [`IsSolved`](#AcousticDirectionalVelocityResult.IsSolved)                                                   | Gets the IsSolved.                                                     |
-| [`CoordinateSystem`](#AcousticDirectionalVelocityResult.CoordinateSystem)                                   | Gets or sets the Coordinate System.                                    |
-| [`ScopingMethod`](#AcousticDirectionalVelocityResult.ScopingMethod)                                         | Gets or sets the ScopingMethod.                                        |
-| [`SetNumber`](#AcousticDirectionalVelocityResult.SetNumber)                                                 | Gets or sets the Set Number.                                           |
+| [`Average`](#AcousticDirectionalVelocityResult.Average)                                                     | Gets the Average.                                                      |
+| [`By`](#AcousticDirectionalVelocityResult.By)                                                               | Gets or sets the By.                                                   |
+| [`CalculateTimeHistory`](#AcousticDirectionalVelocityResult.CalculateTimeHistory)                           | Gets or sets the CalculateTimeHistory.                                 |
+| [`Children`](#AcousticDirectionalVelocityResult.Children)                                                   | Gets the list of children.                                             |
 | [`CombinationNumber`](#AcousticDirectionalVelocityResult.CombinationNumber)                                 | Gets or sets the Combination Number for a Solution Combination result. |
-| [`SolutionCombinationDriver`](#AcousticDirectionalVelocityResult.SolutionCombinationDriver)                 | Gets or sets the SolutionCombinationDriver.                            |
-| [`Path`](#AcousticDirectionalVelocityResult.Path)                                                           | Path property.                                                         |
-| [`Surface`](#AcousticDirectionalVelocityResult.Surface)                                                     | Surface property.                                                      |
-| [`SurfaceCoating`](#AcousticDirectionalVelocityResult.SurfaceCoating)                                       | SurfaceCoating property.                                               |
-| [`NamedSelections`](#AcousticDirectionalVelocityResult.NamedSelections)                                     | Gets or sets the NamedSelections.                                      |
-| [`WaterfallShowTextOnMosaic`](#AcousticDirectionalVelocityResult.WaterfallShowTextOnMosaic)                 | Gets or sets the Waterfall Mosaic Text Property.                       |
+| [`Comments`](#AcousticDirectionalVelocityResult.Comments)                                                   | Gets the list of associated comments.                                  |
+| [`CoordinateSystem`](#AcousticDirectionalVelocityResult.CoordinateSystem)                                   | Gets or sets the Coordinate System.                                    |
 | [`CrackFrontNumber`](#AcousticDirectionalVelocityResult.CrackFrontNumber)                                   | Gets or sets the CrackFrontNumber.                                     |
+| [`DampedFrequency`](#AcousticDirectionalVelocityResult.DampedFrequency)                                     | Gets the DampedFrequency.                                              |
+| [`DataModelObjectCategory`](#AcousticDirectionalVelocityResult.DataModelObjectCategory)                     | Gets the current DataModelObject’s category.                           |
+| [`DisplayOption`](#AcousticDirectionalVelocityResult.DisplayOption)                                         | Gets or sets the DisplayOption.                                        |
+| [`DisplayTime`](#AcousticDirectionalVelocityResult.DisplayTime)                                             | Gets or sets the DisplayTime.                                          |
+| [`DpfEvaluation`](#AcousticDirectionalVelocityResult.DpfEvaluation)                                         | Gets or sets the DpfEvaluation.                                        |
+| [`Figures`](#AcousticDirectionalVelocityResult.Figures)                                                     | Gets the list of associated figures.                                   |
+| [`Frequency`](#AcousticDirectionalVelocityResult.Frequency)                                                 | Gets or sets the Frequency.                                            |
 | [`GlobalIDs`](#AcousticDirectionalVelocityResult.GlobalIDs)                                                 | Gets or sets the GlobalIDs.                                            |
+| [`GraphControlsXAxis`](#AcousticDirectionalVelocityResult.GraphControlsXAxis)                               | Gets or sets the GraphControlsXAxis.                                   |
 | [`Identifier`](#AcousticDirectionalVelocityResult.Identifier)                                               | Gets or sets the Identifier.                                           |
+| [`Images`](#AcousticDirectionalVelocityResult.Images)                                                       | Gets the list of associated images.                                    |
+| [`InternalObject`](#AcousticDirectionalVelocityResult.InternalObject)                                       | Gets the internal object. For advanced usage only.                     |
+| [`IsSolved`](#AcousticDirectionalVelocityResult.IsSolved)                                                   | Gets the IsSolved.                                                     |
+| [`ItemType`](#AcousticDirectionalVelocityResult.ItemType)                                                   | Gets or sets the ItemType.                                             |
 | [`IterationNumber`](#AcousticDirectionalVelocityResult.IterationNumber)                                     | Gets the IterationNumber.                                              |
 | [`LoadStep`](#AcousticDirectionalVelocityResult.LoadStep)                                                   | Gets the LoadStep.                                                     |
-| [`MaximumOccursOn`](#AcousticDirectionalVelocityResult.MaximumOccursOn)                                     | Gets the MaximumOccursOn.                                              |
-| [`MinimumOccursOn`](#AcousticDirectionalVelocityResult.MinimumOccursOn)                                     | Gets the MinimumOccursOn.                                              |
+| [`LoadStepForMaximumOfMaximumValues`](#AcousticDirectionalVelocityResult.LoadStepForMaximumOfMaximumValues) | Get the Load Step for the maximum of maximum values.                   |
+| [`LoadStepForMaximumOfMinimumValues`](#AcousticDirectionalVelocityResult.LoadStepForMaximumOfMinimumValues) | Get the Load Step for the maximum of minimum values.                   |
+| [`LoadStepForMinimumOfMaximumValues`](#AcousticDirectionalVelocityResult.LoadStepForMinimumOfMaximumValues) | Get the Load Step for the minimum of maximum values.                   |
+| [`LoadStepForMinimumOfMinimumValues`](#AcousticDirectionalVelocityResult.LoadStepForMinimumOfMinimumValues) | Get the Load Step for the minimum of minimum values.                   |
 | [`LoadStepNumber`](#AcousticDirectionalVelocityResult.LoadStepNumber)                                       | Gets or sets the LoadStepNumber.                                       |
-| [`SolverComponentIDs`](#AcousticDirectionalVelocityResult.SolverComponentIDs)                               | Gets or sets the SolverComponentIDs.                                   |
-| [`Substep`](#AcousticDirectionalVelocityResult.Substep)                                                     | Gets the Substep.                                                      |
-| [`Average`](#AcousticDirectionalVelocityResult.Average)                                                     | Gets the Average.                                                      |
+| [`Location`](#AcousticDirectionalVelocityResult.Location)                                                   | Gets or sets the Location.                                             |
+| [`LogarithmicDecrement`](#AcousticDirectionalVelocityResult.LogarithmicDecrement)                           | Gets the LogarithmicDecrement.                                         |
 | [`Maximum`](#AcousticDirectionalVelocityResult.Maximum)                                                     | Gets the Maximum.                                                      |
+| [`MaximumOccursOn`](#AcousticDirectionalVelocityResult.MaximumOccursOn)                                     | Gets the MaximumOccursOn.                                              |
 | [`MaximumOfMaximumOverTime`](#AcousticDirectionalVelocityResult.MaximumOfMaximumOverTime)                   | Gets the MaximumOfMaximumOverTime.                                     |
 | [`MaximumOfMinimumOverTime`](#AcousticDirectionalVelocityResult.MaximumOfMinimumOverTime)                   | Gets the MaximumOfMinimumOverTime.                                     |
 | [`Minimum`](#AcousticDirectionalVelocityResult.Minimum)                                                     | Gets the Minimum.                                                      |
+| [`MinimumOccursOn`](#AcousticDirectionalVelocityResult.MinimumOccursOn)                                     | Gets the MinimumOccursOn.                                              |
 | [`MinimumOfMaximumOverTime`](#AcousticDirectionalVelocityResult.MinimumOfMaximumOverTime)                   | Gets the MinimumOfMaximumOverTime.                                     |
 | [`MinimumOfMinimumOverTime`](#AcousticDirectionalVelocityResult.MinimumOfMinimumOverTime)                   | Gets the MinimumOfMinimumOverTime.                                     |
-| [`Time`](#AcousticDirectionalVelocityResult.Time)                                                           | Gets the Time.                                                         |
-| [`DisplayTime`](#AcousticDirectionalVelocityResult.DisplayTime)                                             | Gets or sets the DisplayTime.                                          |
-| [`GraphControlsXAxis`](#AcousticDirectionalVelocityResult.GraphControlsXAxis)                               | Gets or sets the GraphControlsXAxis.                                   |
-| [`DisplayOption`](#AcousticDirectionalVelocityResult.DisplayOption)                                         | Gets or sets the DisplayOption.                                        |
-| [`DpfEvaluation`](#AcousticDirectionalVelocityResult.DpfEvaluation)                                         | Gets or sets the DpfEvaluation.                                        |
-| [`By`](#AcousticDirectionalVelocityResult.By)                                                               | Gets or sets the By.                                                   |
-| [`ItemType`](#AcousticDirectionalVelocityResult.ItemType)                                                   | Gets or sets the ItemType.                                             |
-| [`CalculateTimeHistory`](#AcousticDirectionalVelocityResult.CalculateTimeHistory)                           | Gets or sets the CalculateTimeHistory.                                 |
-| [`Suppressed`](#AcousticDirectionalVelocityResult.Suppressed)                                               | Gets or sets the Suppressed.                                           |
-| [`Children`](#AcousticDirectionalVelocityResult.Children)                                                   | Gets the list of children.                                             |
-| [`Comments`](#AcousticDirectionalVelocityResult.Comments)                                                   | Gets the list of associated comments.                                  |
-| [`Figures`](#AcousticDirectionalVelocityResult.Figures)                                                     | Gets the list of associated figures.                                   |
-| [`Images`](#AcousticDirectionalVelocityResult.Images)                                                       | Gets the list of associated images.                                    |
-| [`InternalObject`](#id0)                                                                                    | Gets the internal object. For advanced usage only.                     |
+| [`ModalDampingRatio`](#AcousticDirectionalVelocityResult.ModalDampingRatio)                                 | Gets the ModalDampingRatio.                                            |
+| [`Mode`](#AcousticDirectionalVelocityResult.Mode)                                                           | Gets or sets the Mode.                                                 |
+| [`NamedSelections`](#AcousticDirectionalVelocityResult.NamedSelections)                                     | Gets or sets the NamedSelections.                                      |
+| [`NormalOrientation`](#AcousticDirectionalVelocityResult.NormalOrientation)                                 | Gets or sets the NormalOrientation.                                    |
+| [`Path`](#AcousticDirectionalVelocityResult.Path)                                                           | Path property.                                                         |
+| [`PlotData`](#AcousticDirectionalVelocityResult.PlotData)                                                   | Gets the result table.                                                 |
 | [`Properties`](#AcousticDirectionalVelocityResult.Properties)                                               | Gets the list of properties for this object.                           |
+| [`ReportedFrequency`](#AcousticDirectionalVelocityResult.ReportedFrequency)                                 | Gets the ReportedFrequency.                                            |
+| [`ScopingMethod`](#AcousticDirectionalVelocityResult.ScopingMethod)                                         | Gets or sets the ScopingMethod.                                        |
+| [`SetNumber`](#AcousticDirectionalVelocityResult.SetNumber)                                                 | Gets or sets the Set Number.                                           |
+| [`SolutionCombinationDriver`](#AcousticDirectionalVelocityResult.SolutionCombinationDriver)                 | Gets or sets the SolutionCombinationDriver.                            |
+| [`SolverComponentIDs`](#AcousticDirectionalVelocityResult.SolverComponentIDs)                               | Gets or sets the SolverComponentIDs.                                   |
+| [`Stability`](#AcousticDirectionalVelocityResult.Stability)                                                 | Gets the Stability.                                                    |
+| [`Substep`](#AcousticDirectionalVelocityResult.Substep)                                                     | Gets the Substep.                                                      |
+| [`Suppressed`](#AcousticDirectionalVelocityResult.Suppressed)                                               | Gets or sets the Suppressed.                                           |
+| [`Surface`](#AcousticDirectionalVelocityResult.Surface)                                                     | Surface property.                                                      |
+| [`SurfaceCoating`](#AcousticDirectionalVelocityResult.SurfaceCoating)                                                                                                                                                             | SurfaceCoating property.                                               |
+| [`SweepingPhase`](#AcousticDirectionalVelocityResult.SweepingPhase)                                         | Gets or sets the SweepingPhase.                                        |
+| [`Time`](#AcousticDirectionalVelocityResult.Time)                                                           | Gets the Time.                                                         |
+| [`TimeForMaximumOfMaximumValues`](#AcousticDirectionalVelocityResult.TimeForMaximumOfMaximumValues)         | Get the Time for the maximum of maximum values.                        |
+| [`TimeForMaximumOfMinimumValues`](#AcousticDirectionalVelocityResult.TimeForMaximumOfMinimumValues)         | Get the Time for the maximum of minimum values.                        |
+| [`TimeForMinimumOfMaximumValues`](#AcousticDirectionalVelocityResult.TimeForMinimumOfMaximumValues)         | Get the Time for the minimum of maximum values.                        |
+| [`TimeForMinimumOfMinimumValues`](#AcousticDirectionalVelocityResult.TimeForMinimumOfMinimumValues)         | Get the Time for the minimum of minimum values.                        |
 | [`VisibleProperties`](#AcousticDirectionalVelocityResult.VisibleProperties)                                 | Gets the list of properties that are visible for this object.          |
+| [`WaterfallShowTextOnMosaic`](#AcousticDirectionalVelocityResult.WaterfallShowTextOnMosaic)                                                                                                                                       | Gets or sets the Waterfall Mosaic Text Property.                       |
 
 <a id="property-detail"></a>
 
 ## Property detail
-
-<a id="AcousticDirectionalVelocityResult.InternalObject"></a>
-
-### *property* AcousticDirectionalVelocityResult.InternalObject *: Ansys.Common.Interop.DSObjectsAuto.IDSResultAuto | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets the internal object. For advanced usage only.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="AcousticDirectionalVelocityResult.NormalOrientation"></a>
-
-### *property* AcousticDirectionalVelocityResult.NormalOrientation *: [Ansys.Mechanical.DataModel.Enums.NormalOrientationType](../../../../../../../v241/Ansys/Mechanical/DataModel/Enums/NormalOrientationType.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.NormalOrientationType) | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the NormalOrientation.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="AcousticDirectionalVelocityResult.DataModelObjectCategory"></a>
-
-### *property* AcousticDirectionalVelocityResult.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../../../v241/Ansys/Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets the current DataModelObject's category.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="AcousticDirectionalVelocityResult.Mode"></a>
-
-### *property* AcousticDirectionalVelocityResult.Mode *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the Mode.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="AcousticDirectionalVelocityResult.ReportedFrequency"></a>
-
-### *property* AcousticDirectionalVelocityResult.ReportedFrequency *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets the ReportedFrequency.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="AcousticDirectionalVelocityResult.DampedFrequency"></a>
-
-### *property* AcousticDirectionalVelocityResult.DampedFrequency *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets the DampedFrequency.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="AcousticDirectionalVelocityResult.LogarithmicDecrement"></a>
-
-### *property* AcousticDirectionalVelocityResult.LogarithmicDecrement *: System.Double | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets the LogarithmicDecrement.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="AcousticDirectionalVelocityResult.ModalDampingRatio"></a>
-
-### *property* AcousticDirectionalVelocityResult.ModalDampingRatio *: System.Double | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets the ModalDampingRatio.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="AcousticDirectionalVelocityResult.Stability"></a>
-
-### *property* AcousticDirectionalVelocityResult.Stability *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets the Stability.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="AcousticDirectionalVelocityResult.SweepingPhase"></a>
-
-### *property* AcousticDirectionalVelocityResult.SweepingPhase *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the SweepingPhase.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="AcousticDirectionalVelocityResult.Frequency"></a>
-
-### *property* AcousticDirectionalVelocityResult.Frequency *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the Frequency.
-
-<!-- !! processed by numpydoc !! -->
 
 <a id="AcousticDirectionalVelocityResult.Amplitude"></a>
 
@@ -217,91 +127,51 @@ Gets or sets the Amplitude.
 
 <!-- !! processed by numpydoc !! -->
 
-<a id="AcousticDirectionalVelocityResult.PlotData"></a>
+<a id="AcousticDirectionalVelocityResult.Average"></a>
 
-### *property* AcousticDirectionalVelocityResult.PlotData *: [Ansys.Mechanical.DataModel.Results.ResultDataTable](../../../../../../../v241/Ansys/Mechanical/DataModel/Results/ResultDataTable.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Results.ResultDataTable) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AcousticDirectionalVelocityResult.Average *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets the result table.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="AcousticDirectionalVelocityResult.Location"></a>
-
-### *property* AcousticDirectionalVelocityResult.Location *: Ansys.ACT.Interfaces.Common.ISelectionInfo | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the Location.
+Gets the Average.
 
 <!-- !! processed by numpydoc !! -->
 
-<a id="AcousticDirectionalVelocityResult.TimeForMinimumOfMinimumValues"></a>
+<a id="AcousticDirectionalVelocityResult.By"></a>
 
-### *property* AcousticDirectionalVelocityResult.TimeForMinimumOfMinimumValues *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AcousticDirectionalVelocityResult.By *: [Ansys.Mechanical.DataModel.Enums.SetDriverStyle](../../../../../Mechanical/DataModel/Enums/SetDriverStyle.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.SetDriverStyle) | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Get the Time for the minimum of minimum values.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="AcousticDirectionalVelocityResult.TimeForMinimumOfMaximumValues"></a>
-
-### *property* AcousticDirectionalVelocityResult.TimeForMinimumOfMaximumValues *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Get the Time for the minimum of maximum values.
+Gets or sets the By.
 
 <!-- !! processed by numpydoc !! -->
 
-<a id="AcousticDirectionalVelocityResult.LoadStepForMinimumOfMinimumValues"></a>
+<a id="AcousticDirectionalVelocityResult.CalculateTimeHistory"></a>
 
-### *property* AcousticDirectionalVelocityResult.LoadStepForMinimumOfMinimumValues *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AcousticDirectionalVelocityResult.CalculateTimeHistory *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Get the Load Step for the minimum of minimum values.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="AcousticDirectionalVelocityResult.LoadStepForMinimumOfMaximumValues"></a>
-
-### *property* AcousticDirectionalVelocityResult.LoadStepForMinimumOfMaximumValues *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Get the Load Step for the minimum of maximum values.
+Gets or sets the CalculateTimeHistory.
 
 <!-- !! processed by numpydoc !! -->
 
-<a id="AcousticDirectionalVelocityResult.TimeForMaximumOfMinimumValues"></a>
+<a id="AcousticDirectionalVelocityResult.Children"></a>
 
-### *property* AcousticDirectionalVelocityResult.TimeForMaximumOfMinimumValues *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AcousticDirectionalVelocityResult.Children *: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Get the Time for the maximum of minimum values.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="AcousticDirectionalVelocityResult.TimeForMaximumOfMaximumValues"></a>
-
-### *property* AcousticDirectionalVelocityResult.TimeForMaximumOfMaximumValues *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Get the Time for the maximum of maximum values.
+Gets the list of children.
 
 <!-- !! processed by numpydoc !! -->
 
-<a id="AcousticDirectionalVelocityResult.LoadStepForMaximumOfMinimumValues"></a>
+<a id="AcousticDirectionalVelocityResult.CombinationNumber"></a>
 
-### *property* AcousticDirectionalVelocityResult.LoadStepForMaximumOfMinimumValues *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AcousticDirectionalVelocityResult.CombinationNumber *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Get the Load Step for the maximum of minimum values.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="AcousticDirectionalVelocityResult.LoadStepForMaximumOfMaximumValues"></a>
-
-### *property* AcousticDirectionalVelocityResult.LoadStepForMaximumOfMaximumValues *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Get the Load Step for the maximum of maximum values.
+Gets or sets the Combination Number for a Solution Combination result.
 
 <!-- !! processed by numpydoc !! -->
 
-<a id="AcousticDirectionalVelocityResult.IsSolved"></a>
+<a id="AcousticDirectionalVelocityResult.Comments"></a>
 
-### *property* AcousticDirectionalVelocityResult.IsSolved *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AcousticDirectionalVelocityResult.Comments *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Comment](../../../../../../../v241/Ansys/ACT/Automation/Mechanical/Comment.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets the IsSolved.
+Gets the list of associated comments.
 
 <!-- !! processed by numpydoc !! -->
 
@@ -315,83 +185,67 @@ Accepts/Returns None for Fiber Coordinate System for a result that is sub scoped
 
 <!-- !! processed by numpydoc !! -->
 
-<a id="AcousticDirectionalVelocityResult.ScopingMethod"></a>
-
-### *property* AcousticDirectionalVelocityResult.ScopingMethod *: [Ansys.Mechanical.DataModel.Enums.GeometryDefineByType](../../../../../../../v241/Ansys/Mechanical/DataModel/Enums/GeometryDefineByType.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.GeometryDefineByType) | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the ScopingMethod.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="AcousticDirectionalVelocityResult.SetNumber"></a>
-
-### *property* AcousticDirectionalVelocityResult.SetNumber *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the Set Number.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="AcousticDirectionalVelocityResult.CombinationNumber"></a>
-
-### *property* AcousticDirectionalVelocityResult.CombinationNumber *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the Combination Number for a Solution Combination result.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="AcousticDirectionalVelocityResult.SolutionCombinationDriver"></a>
-
-### *property* AcousticDirectionalVelocityResult.SolutionCombinationDriver *: [Ansys.Mechanical.DataModel.Enums.SolutionCombinationDriverStyle](../../../../../../../v241/Ansys/Mechanical/DataModel/Enums/SolutionCombinationDriverStyle.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.SolutionCombinationDriverStyle) | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the SolutionCombinationDriver.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="AcousticDirectionalVelocityResult.Path"></a>
-
-### *property* AcousticDirectionalVelocityResult.Path *: [Ansys.ACT.Automation.Mechanical.Path](../../../../../../../v241/Ansys/ACT/Automation/Mechanical/Path.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Path) | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Path property.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="AcousticDirectionalVelocityResult.Surface"></a>
-
-### *property* AcousticDirectionalVelocityResult.Surface *: [Ansys.ACT.Automation.Mechanical.Surface](../../../../../../../v241/Ansys/ACT/Automation/Mechanical/Surface.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Surface) | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Surface property.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="AcousticDirectionalVelocityResult.SurfaceCoating"></a>
-
-### *property* AcousticDirectionalVelocityResult.SurfaceCoating *: [Ansys.ACT.Automation.Mechanical.SurfaceCoating](../../../../../../../v241/Ansys/ACT/Automation/Mechanical/SurfaceCoating.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.SurfaceCoating) | [None](https://docs.python.org/3/library/constants.html#None)*
-
-SurfaceCoating property.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="AcousticDirectionalVelocityResult.NamedSelections"></a>
-
-### *property* AcousticDirectionalVelocityResult.NamedSelections *: System.Collections.Generic.IEnumerable[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the NamedSelections.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="AcousticDirectionalVelocityResult.WaterfallShowTextOnMosaic"></a>
-
-### *property* AcousticDirectionalVelocityResult.WaterfallShowTextOnMosaic *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the Waterfall Mosaic Text Property.
-
-<!-- !! processed by numpydoc !! -->
-
 <a id="AcousticDirectionalVelocityResult.CrackFrontNumber"></a>
 
 ### *property* AcousticDirectionalVelocityResult.CrackFrontNumber *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the CrackFrontNumber.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="AcousticDirectionalVelocityResult.DampedFrequency"></a>
+
+### *property* AcousticDirectionalVelocityResult.DampedFrequency *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets the DampedFrequency.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="AcousticDirectionalVelocityResult.DataModelObjectCategory"></a>
+
+### *property* AcousticDirectionalVelocityResult.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets the current DataModelObject’s category.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="AcousticDirectionalVelocityResult.DisplayOption"></a>
+
+### *property* AcousticDirectionalVelocityResult.DisplayOption *: [Ansys.Mechanical.DataModel.Enums.ResultAveragingType](../../../../../Mechanical/DataModel/Enums/ResultAveragingType.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.ResultAveragingType) | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the DisplayOption.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="AcousticDirectionalVelocityResult.DisplayTime"></a>
+
+### *property* AcousticDirectionalVelocityResult.DisplayTime *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the DisplayTime.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="AcousticDirectionalVelocityResult.DpfEvaluation"></a>
+
+### *property* AcousticDirectionalVelocityResult.DpfEvaluation *: [Ansys.Mechanical.DataModel.Enums.DpfEvaluationType](../../../../../Mechanical/DataModel/Enums/DpfEvaluationType.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.DpfEvaluationType) | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the DpfEvaluation.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="AcousticDirectionalVelocityResult.Figures"></a>
+
+### *property* AcousticDirectionalVelocityResult.Figures *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Figure](../../../../../../../v241/Ansys/ACT/Automation/Mechanical/Figure.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets the list of associated figures.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="AcousticDirectionalVelocityResult.Frequency"></a>
+
+### *property* AcousticDirectionalVelocityResult.Frequency *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the Frequency.
 
 <!-- !! processed by numpydoc !! -->
 
@@ -403,11 +257,51 @@ Gets or sets the GlobalIDs.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="AcousticDirectionalVelocityResult.GraphControlsXAxis"></a>
+
+### *property* AcousticDirectionalVelocityResult.GraphControlsXAxis *: [Ansys.Mechanical.DataModel.Enums.GraphControlsXAxis](../../../../../Mechanical/DataModel/Enums/GraphControlsXAxis.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.GraphControlsXAxis) | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the GraphControlsXAxis.
+
+<!-- !! processed by numpydoc !! -->
+
 <a id="AcousticDirectionalVelocityResult.Identifier"></a>
 
 ### *property* AcousticDirectionalVelocityResult.Identifier *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Identifier.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="AcousticDirectionalVelocityResult.Images"></a>
+
+### *property* AcousticDirectionalVelocityResult.Images *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Image](../../../../../../../v241/Ansys/ACT/Automation/Mechanical/Image.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets the list of associated images.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="AcousticDirectionalVelocityResult.InternalObject"></a>
+
+### *property* AcousticDirectionalVelocityResult.InternalObject *: Ansys.Common.Interop.DSObjectsAuto.IDSResultAuto | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets the internal object. For advanced usage only.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="AcousticDirectionalVelocityResult.IsSolved"></a>
+
+### *property* AcousticDirectionalVelocityResult.IsSolved *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets the IsSolved.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="AcousticDirectionalVelocityResult.ItemType"></a>
+
+### *property* AcousticDirectionalVelocityResult.ItemType *: [Ansys.Mechanical.DataModel.Enums.ResultFileItemType](../../../../../Mechanical/DataModel/Enums/ResultFileItemType.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.ResultFileItemType) | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the ItemType.
 
 <!-- !! processed by numpydoc !! -->
 
@@ -427,19 +321,35 @@ Gets the LoadStep.
 
 <!-- !! processed by numpydoc !! -->
 
-<a id="AcousticDirectionalVelocityResult.MaximumOccursOn"></a>
+<a id="AcousticDirectionalVelocityResult.LoadStepForMaximumOfMaximumValues"></a>
 
-### *property* AcousticDirectionalVelocityResult.MaximumOccursOn *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AcousticDirectionalVelocityResult.LoadStepForMaximumOfMaximumValues *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets the MaximumOccursOn.
+Get the Load Step for the maximum of maximum values.
 
 <!-- !! processed by numpydoc !! -->
 
-<a id="AcousticDirectionalVelocityResult.MinimumOccursOn"></a>
+<a id="AcousticDirectionalVelocityResult.LoadStepForMaximumOfMinimumValues"></a>
 
-### *property* AcousticDirectionalVelocityResult.MinimumOccursOn *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AcousticDirectionalVelocityResult.LoadStepForMaximumOfMinimumValues *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets the MinimumOccursOn.
+Get the Load Step for the maximum of minimum values.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="AcousticDirectionalVelocityResult.LoadStepForMinimumOfMaximumValues"></a>
+
+### *property* AcousticDirectionalVelocityResult.LoadStepForMinimumOfMaximumValues *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Get the Load Step for the minimum of maximum values.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="AcousticDirectionalVelocityResult.LoadStepForMinimumOfMinimumValues"></a>
+
+### *property* AcousticDirectionalVelocityResult.LoadStepForMinimumOfMinimumValues *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Get the Load Step for the minimum of minimum values.
 
 <!-- !! processed by numpydoc !! -->
 
@@ -451,27 +361,19 @@ Gets or sets the LoadStepNumber.
 
 <!-- !! processed by numpydoc !! -->
 
-<a id="AcousticDirectionalVelocityResult.SolverComponentIDs"></a>
+<a id="AcousticDirectionalVelocityResult.Location"></a>
 
-### *property* AcousticDirectionalVelocityResult.SolverComponentIDs *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AcousticDirectionalVelocityResult.Location *: Ansys.ACT.Interfaces.Common.ISelectionInfo | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets or sets the SolverComponentIDs.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="AcousticDirectionalVelocityResult.Substep"></a>
-
-### *property* AcousticDirectionalVelocityResult.Substep *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets the Substep.
+Gets or sets the Location.
 
 <!-- !! processed by numpydoc !! -->
 
-<a id="AcousticDirectionalVelocityResult.Average"></a>
+<a id="AcousticDirectionalVelocityResult.LogarithmicDecrement"></a>
 
-### *property* AcousticDirectionalVelocityResult.Average *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AcousticDirectionalVelocityResult.LogarithmicDecrement *: System.Double | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets the Average.
+Gets the LogarithmicDecrement.
 
 <!-- !! processed by numpydoc !! -->
 
@@ -480,6 +382,14 @@ Gets the Average.
 ### *property* AcousticDirectionalVelocityResult.Maximum *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the Maximum.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="AcousticDirectionalVelocityResult.MaximumOccursOn"></a>
+
+### *property* AcousticDirectionalVelocityResult.MaximumOccursOn *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets the MaximumOccursOn.
 
 <!-- !! processed by numpydoc !! -->
 
@@ -507,6 +417,14 @@ Gets the Minimum.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="AcousticDirectionalVelocityResult.MinimumOccursOn"></a>
+
+### *property* AcousticDirectionalVelocityResult.MinimumOccursOn *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets the MinimumOccursOn.
+
+<!-- !! processed by numpydoc !! -->
+
 <a id="AcousticDirectionalVelocityResult.MinimumOfMaximumOverTime"></a>
 
 ### *property* AcousticDirectionalVelocityResult.MinimumOfMaximumOverTime *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
@@ -523,115 +441,51 @@ Gets the MinimumOfMinimumOverTime.
 
 <!-- !! processed by numpydoc !! -->
 
-<a id="AcousticDirectionalVelocityResult.Time"></a>
+<a id="AcousticDirectionalVelocityResult.ModalDampingRatio"></a>
 
-### *property* AcousticDirectionalVelocityResult.Time *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AcousticDirectionalVelocityResult.ModalDampingRatio *: System.Double | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets the Time.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="AcousticDirectionalVelocityResult.DisplayTime"></a>
-
-### *property* AcousticDirectionalVelocityResult.DisplayTime *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the DisplayTime.
+Gets the ModalDampingRatio.
 
 <!-- !! processed by numpydoc !! -->
 
-<a id="AcousticDirectionalVelocityResult.GraphControlsXAxis"></a>
+<a id="AcousticDirectionalVelocityResult.Mode"></a>
 
-### *property* AcousticDirectionalVelocityResult.GraphControlsXAxis *: [Ansys.Mechanical.DataModel.Enums.GraphControlsXAxis](../../../../../../../v241/Ansys/Mechanical/DataModel/Enums/GraphControlsXAxis.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.GraphControlsXAxis) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AcousticDirectionalVelocityResult.Mode *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets or sets the GraphControlsXAxis.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="AcousticDirectionalVelocityResult.DisplayOption"></a>
-
-### *property* AcousticDirectionalVelocityResult.DisplayOption *: [Ansys.Mechanical.DataModel.Enums.ResultAveragingType](../../../../../../../v241/Ansys/Mechanical/DataModel/Enums/ResultAveragingType.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.ResultAveragingType) | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the DisplayOption.
+Gets or sets the Mode.
 
 <!-- !! processed by numpydoc !! -->
 
-<a id="AcousticDirectionalVelocityResult.DpfEvaluation"></a>
+<a id="AcousticDirectionalVelocityResult.NamedSelections"></a>
 
-### *property* AcousticDirectionalVelocityResult.DpfEvaluation *: [Ansys.Mechanical.DataModel.Enums.DpfEvaluationType](../../../../../../../v241/Ansys/Mechanical/DataModel/Enums/DpfEvaluationType.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DpfEvaluationType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AcousticDirectionalVelocityResult.NamedSelections *: System.Collections.Generic.IEnumerable[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets or sets the DpfEvaluation.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="AcousticDirectionalVelocityResult.By"></a>
-
-### *property* AcousticDirectionalVelocityResult.By *: [Ansys.Mechanical.DataModel.Enums.SetDriverStyle](../../../../../../../v241/Ansys/Mechanical/DataModel/Enums/SetDriverStyle.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.SetDriverStyle) | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the By.
+Gets or sets the NamedSelections.
 
 <!-- !! processed by numpydoc !! -->
 
-<a id="AcousticDirectionalVelocityResult.ItemType"></a>
+<a id="AcousticDirectionalVelocityResult.NormalOrientation"></a>
 
-### *property* AcousticDirectionalVelocityResult.ItemType *: [Ansys.Mechanical.DataModel.Enums.ResultFileItemType](../../../../../../../v241/Ansys/Mechanical/DataModel/Enums/ResultFileItemType.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.ResultFileItemType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AcousticDirectionalVelocityResult.NormalOrientation *: [Ansys.Mechanical.DataModel.Enums.NormalOrientationType](../../../../../Mechanical/DataModel/Enums/NormalOrientationType.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.NormalOrientationType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets or sets the ItemType.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="AcousticDirectionalVelocityResult.CalculateTimeHistory"></a>
-
-### *property* AcousticDirectionalVelocityResult.CalculateTimeHistory *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the CalculateTimeHistory.
+Gets or sets the NormalOrientation.
 
 <!-- !! processed by numpydoc !! -->
 
-<a id="AcousticDirectionalVelocityResult.Suppressed"></a>
+<a id="AcousticDirectionalVelocityResult.Path"></a>
 
-### *property* AcousticDirectionalVelocityResult.Suppressed *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AcousticDirectionalVelocityResult.Path *: [Ansys.ACT.Automation.Mechanical.Path](../../Path.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Path) | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets or sets the Suppressed.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="AcousticDirectionalVelocityResult.Children"></a>
-
-### *property* AcousticDirectionalVelocityResult.Children *: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets the list of children.
+Path property.
 
 <!-- !! processed by numpydoc !! -->
 
-<a id="AcousticDirectionalVelocityResult.Comments"></a>
+<a id="AcousticDirectionalVelocityResult.PlotData"></a>
 
-### *property* AcousticDirectionalVelocityResult.Comments *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Comment](../../../../../../../v241/Ansys/ACT/Automation/Mechanical/Comment.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AcousticDirectionalVelocityResult.PlotData *: [Ansys.Mechanical.DataModel.Results.ResultDataTable](../../../../../Mechanical/DataModel/Results/ResultDataTable.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Results.ResultDataTable) | [None](https://docs.python.org/3/library/constants.html#None)*
 
-Gets the list of associated comments.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="AcousticDirectionalVelocityResult.Figures"></a>
-
-### *property* AcousticDirectionalVelocityResult.Figures *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Figure](../../../../../../../v241/Ansys/ACT/Automation/Mechanical/Figure.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets the list of associated figures.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="AcousticDirectionalVelocityResult.Images"></a>
-
-### *property* AcousticDirectionalVelocityResult.Images *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Image](../../../../../../../v241/Ansys/ACT/Automation/Mechanical/Image.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets the list of associated images.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="id0"></a>
-
-### *property* AcousticDirectionalVelocityResult.InternalObject *: System.Object | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets the internal object. For advanced usage only.
+Gets the result table.
 
 <!-- !! processed by numpydoc !! -->
 
@@ -643,6 +497,134 @@ Gets the list of properties for this object.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="AcousticDirectionalVelocityResult.ReportedFrequency"></a>
+
+### *property* AcousticDirectionalVelocityResult.ReportedFrequency *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets the ReportedFrequency.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="AcousticDirectionalVelocityResult.ScopingMethod"></a>
+
+### *property* AcousticDirectionalVelocityResult.ScopingMethod *: [Ansys.Mechanical.DataModel.Enums.GeometryDefineByType](../../../../../Mechanical/DataModel/Enums/GeometryDefineByType.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.GeometryDefineByType) | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the ScopingMethod.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="AcousticDirectionalVelocityResult.SetNumber"></a>
+
+### *property* AcousticDirectionalVelocityResult.SetNumber *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the Set Number.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="AcousticDirectionalVelocityResult.SolutionCombinationDriver"></a>
+
+### *property* AcousticDirectionalVelocityResult.SolutionCombinationDriver *: [Ansys.Mechanical.DataModel.Enums.SolutionCombinationDriverStyle](../../../../../Mechanical/DataModel/Enums/SolutionCombinationDriverStyle.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.SolutionCombinationDriverStyle) | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the SolutionCombinationDriver.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="AcousticDirectionalVelocityResult.SolverComponentIDs"></a>
+
+### *property* AcousticDirectionalVelocityResult.SolverComponentIDs *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the SolverComponentIDs.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="AcousticDirectionalVelocityResult.Stability"></a>
+
+### *property* AcousticDirectionalVelocityResult.Stability *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets the Stability.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="AcousticDirectionalVelocityResult.Substep"></a>
+
+### *property* AcousticDirectionalVelocityResult.Substep *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets the Substep.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="AcousticDirectionalVelocityResult.Suppressed"></a>
+
+### *property* AcousticDirectionalVelocityResult.Suppressed *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the Suppressed.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="AcousticDirectionalVelocityResult.Surface"></a>
+
+### *property* AcousticDirectionalVelocityResult.Surface *: [Ansys.ACT.Automation.Mechanical.Surface](../../Surface.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Surface) | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Surface property.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="AcousticDirectionalVelocityResult.SurfaceCoating"></a>
+
+### *property* AcousticDirectionalVelocityResult.SurfaceCoating *: [Ansys.ACT.Automation.Mechanical.SurfaceCoating](../../SurfaceCoating.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.SurfaceCoating) | [None](https://docs.python.org/3/library/constants.html#None)*
+
+SurfaceCoating property.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="AcousticDirectionalVelocityResult.SweepingPhase"></a>
+
+### *property* AcousticDirectionalVelocityResult.SweepingPhase *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the SweepingPhase.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="AcousticDirectionalVelocityResult.Time"></a>
+
+### *property* AcousticDirectionalVelocityResult.Time *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets the Time.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="AcousticDirectionalVelocityResult.TimeForMaximumOfMaximumValues"></a>
+
+### *property* AcousticDirectionalVelocityResult.TimeForMaximumOfMaximumValues *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Get the Time for the maximum of maximum values.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="AcousticDirectionalVelocityResult.TimeForMaximumOfMinimumValues"></a>
+
+### *property* AcousticDirectionalVelocityResult.TimeForMaximumOfMinimumValues *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Get the Time for the maximum of minimum values.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="AcousticDirectionalVelocityResult.TimeForMinimumOfMaximumValues"></a>
+
+### *property* AcousticDirectionalVelocityResult.TimeForMinimumOfMaximumValues *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Get the Time for the minimum of maximum values.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="AcousticDirectionalVelocityResult.TimeForMinimumOfMinimumValues"></a>
+
+### *property* AcousticDirectionalVelocityResult.TimeForMinimumOfMinimumValues *: Ansys.Core.Units.Quantity | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Get the Time for the minimum of minimum values.
+
+<!-- !! processed by numpydoc !! -->
+
 <a id="AcousticDirectionalVelocityResult.VisibleProperties"></a>
 
 ### *property* AcousticDirectionalVelocityResult.VisibleProperties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
@@ -651,79 +633,23 @@ Gets the list of properties that are visible for this object.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="AcousticDirectionalVelocityResult.WaterfallShowTextOnMosaic"></a>
+
+### *property* AcousticDirectionalVelocityResult.WaterfallShowTextOnMosaic *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the Waterfall Mosaic Text Property.
+
+<!-- !! processed by numpydoc !! -->
+
 <a id="method-detail"></a>
 
 ## Method detail
 
-<a id="AcousticDirectionalVelocityResult.ClearGeneratedData"></a>
+<a id="AcousticDirectionalVelocityResult.Activate"></a>
 
-### AcousticDirectionalVelocityResult.ClearGeneratedData()
+### AcousticDirectionalVelocityResult.Activate()
 
-Run the ClearGeneratedData action.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="AcousticDirectionalVelocityResult.EvaluateAllResults"></a>
-
-### AcousticDirectionalVelocityResult.EvaluateAllResults()
-
-Run the EvaluateAllResults action.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="AcousticDirectionalVelocityResult.FetchRemoteResults"></a>
-
-### AcousticDirectionalVelocityResult.FetchRemoteResults()
-
-Run the FetchRemoteResult action.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="AcousticDirectionalVelocityResult.ExportToTextFile"></a>
-
-### AcousticDirectionalVelocityResult.ExportToTextFile(filePath: System.String)
-
-Run the ExportToTextFile action.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="AcousticDirectionalVelocityResult.ExportAnimation"></a>
-
-### AcousticDirectionalVelocityResult.ExportAnimation(filePath: System.String, format: [Ansys.Mechanical.DataModel.Enums.GraphicsAnimationExportFormat](../../../../../../../v241/Ansys/Mechanical/DataModel/Enums/GraphicsAnimationExportFormat.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.GraphicsAnimationExportFormat), settings: [Ansys.Mechanical.Graphics.AnimationExportSettings](../../../../../../../v241/Ansys/Mechanical/Graphics/AnimationExportSettings.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.Graphics.AnimationExportSettings))
-
-Run the ExportAnimation action.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="AcousticDirectionalVelocityResult.DuplicateWithoutResults"></a>
-
-### AcousticDirectionalVelocityResult.DuplicateWithoutResults()
-
-Run the DuplicateWithoutResults action.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="AcousticDirectionalVelocityResult.CreateResultsAtAllSets"></a>
-
-### AcousticDirectionalVelocityResult.CreateResultsAtAllSets()
-
-Creates results at all sets for results under a solution.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="AcousticDirectionalVelocityResult.PromoteToNamedSelection"></a>
-
-### AcousticDirectionalVelocityResult.PromoteToNamedSelection()
-
-Run the PromoteToNamedSelection action.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="AcousticDirectionalVelocityResult.CreateParameter"></a>
-
-### AcousticDirectionalVelocityResult.CreateParameter(propName: System.String)
-
-CreateParameter method.
+Activate the current object.
 
 <!-- !! processed by numpydoc !! -->
 
@@ -735,51 +661,19 @@ Creates a new Alert
 
 <!-- !! processed by numpydoc !! -->
 
-<a id="AcousticDirectionalVelocityResult.AddConvergence"></a>
-
-### AcousticDirectionalVelocityResult.AddConvergence()
-
-Creates a new Convergence
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="AcousticDirectionalVelocityResult.RenameBasedOnDefinition"></a>
-
-### AcousticDirectionalVelocityResult.RenameBasedOnDefinition()
-
-Run the RenameBasedOnDefinition action.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="AcousticDirectionalVelocityResult.Delete"></a>
-
-### AcousticDirectionalVelocityResult.Delete()
-
-Run the Delete action.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="AcousticDirectionalVelocityResult.GetChildren"></a>
-
-### AcousticDirectionalVelocityResult.GetChildren(recurses: System.Boolean, children: System.Collections.Generic.IList[ChildrenType])
-
-Gets the list of children, filtered by type.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="id1"></a>
-
-### AcousticDirectionalVelocityResult.GetChildren(category: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../../../v241/Ansys/Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory), recurses: System.Boolean, children: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject])
-
-Gets the list of children, filtered by type.
-
-<!-- !! processed by numpydoc !! -->
-
 <a id="AcousticDirectionalVelocityResult.AddComment"></a>
 
 ### AcousticDirectionalVelocityResult.AddComment()
 
 Creates a new child Comment.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="AcousticDirectionalVelocityResult.AddConvergence"></a>
+
+### AcousticDirectionalVelocityResult.AddConvergence()
+
+Creates a new Convergence
 
 <!-- !! processed by numpydoc !! -->
 
@@ -795,17 +689,19 @@ Creates a new child Figure.
 
 ### AcousticDirectionalVelocityResult.AddImage(filePath: System.String)
 
+```text
 Creates a new child Image.
 If a filePath is provided, the image will be loaded from that file,
 if not, the image will be a screen capture of the Geometry window.
+```
 
 <!-- !! processed by numpydoc !! -->
 
-<a id="AcousticDirectionalVelocityResult.Activate"></a>
+<a id="AcousticDirectionalVelocityResult.ClearGeneratedData"></a>
 
-### AcousticDirectionalVelocityResult.Activate()
+### AcousticDirectionalVelocityResult.ClearGeneratedData()
 
-Activate the current object.
+Run the ClearGeneratedData action.
 
 <!-- !! processed by numpydoc !! -->
 
@@ -817,11 +713,91 @@ Copies all visible properties from this object to another.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="AcousticDirectionalVelocityResult.CreateParameter"></a>
+
+### AcousticDirectionalVelocityResult.CreateParameter(propName: System.String)
+
+CreateParameter method.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="AcousticDirectionalVelocityResult.CreateResultsAtAllSets"></a>
+
+### AcousticDirectionalVelocityResult.CreateResultsAtAllSets()
+
+Creates results at all sets for results under a solution.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="AcousticDirectionalVelocityResult.Delete"></a>
+
+### AcousticDirectionalVelocityResult.Delete()
+
+Run the Delete action.
+
+<!-- !! processed by numpydoc !! -->
+
 <a id="AcousticDirectionalVelocityResult.Duplicate"></a>
 
 ### AcousticDirectionalVelocityResult.Duplicate()
 
 Creates a copy of the current DataModelObject.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="AcousticDirectionalVelocityResult.DuplicateWithoutResults"></a>
+
+### AcousticDirectionalVelocityResult.DuplicateWithoutResults()
+
+Run the DuplicateWithoutResults action.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="AcousticDirectionalVelocityResult.EvaluateAllResults"></a>
+
+### AcousticDirectionalVelocityResult.EvaluateAllResults()
+
+Run the EvaluateAllResults action.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="AcousticDirectionalVelocityResult.ExportAnimation"></a>
+
+### AcousticDirectionalVelocityResult.ExportAnimation(filePath: System.String, format: [Ansys.Mechanical.DataModel.Enums.GraphicsAnimationExportFormat](../../../../../Mechanical/DataModel/Enums/GraphicsAnimationExportFormat.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.GraphicsAnimationExportFormat), settings: [Ansys.Mechanical.Graphics.AnimationExportSettings](../../../../../Mechanical/Graphics/AnimationExportSettings.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.Graphics.AnimationExportSettings))
+
+Run the ExportAnimation action.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="AcousticDirectionalVelocityResult.ExportToTextFile"></a>
+
+### AcousticDirectionalVelocityResult.ExportToTextFile(filePath: System.String)
+
+Run the ExportToTextFile action.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="AcousticDirectionalVelocityResult.FetchRemoteResults"></a>
+
+### AcousticDirectionalVelocityResult.FetchRemoteResults()
+
+Run the FetchRemoteResult action.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="AcousticDirectionalVelocityResult.GetChildren"></a>
+
+### AcousticDirectionalVelocityResult.GetChildren(recurses: System.Boolean, children: System.Collections.Generic.IList[ChildrenType])
+
+Gets the list of children, filtered by type.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="AcousticDirectionalVelocityResult.GetParameter"></a>
+
+### AcousticDirectionalVelocityResult.GetParameter(propName: System.String)
+
+Gets the parameter corresponding to the given property.
 
 <!-- !! processed by numpydoc !! -->
 
@@ -841,6 +817,25 @@ Run the GroupSimilarObjects action.
 
 <!-- !! processed by numpydoc !! -->
 
+<a id="AcousticDirectionalVelocityResult.PromoteToNamedSelection"></a>
+
+### AcousticDirectionalVelocityResult.PromoteToNamedSelection()
+
+Run the PromoteToNamedSelection action.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="AcousticDirectionalVelocityResult.PropertyByAPIName"></a>
+
+### AcousticDirectionalVelocityResult.PropertyByAPIName(name: System.String)
+
+```text
+Get a property by its API name.
+If multiple properties have the same API Name, only the first property with that name will be returned.
+```
+
+<!-- !! processed by numpydoc !! -->
+
 <a id="AcousticDirectionalVelocityResult.PropertyByName"></a>
 
 ### AcousticDirectionalVelocityResult.PropertyByName(name: System.String)
@@ -849,28 +844,19 @@ Get a property by its unique name.
 
 <!-- !! processed by numpydoc !! -->
 
-<a id="AcousticDirectionalVelocityResult.PropertyByAPIName"></a>
-
-### AcousticDirectionalVelocityResult.PropertyByAPIName(name: System.String)
-
-Get a property by its API name.
-If multiple properties have the same API Name, only the first property with that name will be returned.
-
-<!-- !! processed by numpydoc !! -->
-
-<a id="AcousticDirectionalVelocityResult.GetParameter"></a>
-
-### AcousticDirectionalVelocityResult.GetParameter(propName: System.String)
-
-Gets the parameter corresponding to the given property.
-
-<!-- !! processed by numpydoc !! -->
-
 <a id="AcousticDirectionalVelocityResult.RemoveParameter"></a>
 
 ### AcousticDirectionalVelocityResult.RemoveParameter(propName: System.String)
 
 Removes the parameter from the parameter set corresponding to the given property.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="AcousticDirectionalVelocityResult.RenameBasedOnDefinition"></a>
+
+### AcousticDirectionalVelocityResult.RenameBasedOnDefinition()
+
+Run the RenameBasedOnDefinition action.
 
 <!-- !! processed by numpydoc !! -->
 

@@ -1,6 +1,6 @@
 # `GrowElbowElementsBy`
 
-
+<a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.GrowElbowElementsBy"></a>
 
 #### *class* ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.GrowElbowElementsBy
 
@@ -17,11 +17,11 @@ Specifies the GrowElbowElementsBy.
 ### Attributes
 
 | Name |
-| ---------------------------------------------------------------------------------------------------------------------------------------- |
-| [`Factor`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/GrowElbowElementsBy.md#GrowElbowElementsBy.Factor) |
-| [`Length`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/GrowElbowElementsBy.md#GrowElbowElementsBy.Length) |
-| [`NumberOfElements`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/GrowElbowElementsBy.md#GrowElbowElementsBy.NumberOfElements) |
-| [`No`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/GrowElbowElementsBy.md#GrowElbowElementsBy.No) |
+| ------------------------------------------------------------- |
+| [`Factor`](#GrowElbowElementsBy.Factor) |
+| [`Length`](#GrowElbowElementsBy.Length) |
+| [`No`](#GrowElbowElementsBy.No) |
+| [`NumberOfElements`](#GrowElbowElementsBy.NumberOfElements) |
 
 <a id="attribute-detail"></a>
 
@@ -35,12 +35,12 @@ Specifies the GrowElbowElementsBy.
 
 ### GrowElbowElementsBy.Length *= 2*
 
-<a id="GrowElbowElementsBy.NumberOfElements"></a>
-
-### GrowElbowElementsBy.NumberOfElements *= 3*
-
 <a id="GrowElbowElementsBy.No"></a>
 
 ### GrowElbowElementsBy.No *= 0*
+
+<a id="GrowElbowElementsBy.NumberOfElements"></a>
+
+### GrowElbowElementsBy.NumberOfElements *= 3*
 
 

@@ -1,6 +1,6 @@
 # `ColumnarDataImportDefinition`
 
-
+<a id="ansys.mechanical.stubs.v242.Ansys.Mechanical.ExternalData.ColumnarDataImportDefinition"></a>
 
 #### *class* ansys.mechanical.stubs.v242.Ansys.Mechanical.ExternalData.ColumnarDataImportDefinition
 
@@ -18,12 +18,12 @@ columnar format should be processed.
 ### Properties
 
 | Name | Description |
-|------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------|
-| [`Index`](../Table/ColumnarDataImportDefinition.md#ColumnarDataImportDefinition.Index)               | Gets or sets the specified data source column index from which this variable will be   |
-| [`Name`](../Table/ColumnarDataImportDefinition.md#ColumnarDataImportDefinition.Name)                 | Gets or sets an identifier for the data source column.                                 |
-| [`Unit`](../Table/ColumnarDataImportDefinition.md#ColumnarDataImportDefinition.Unit)                 | Gets or sets the unit of the column.                                                   |
-| [`VariableType`](../Table/ColumnarDataImportDefinition.md#ColumnarDataImportDefinition.VariableType) | Gets or sets the variable type of the column.                                          |
-| [`UserFieldVariable`](#ColumnarDataImportDefinition.UserFieldVariable)                               |                                                                                        |
+|------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------|
+| [`Index`](#ColumnarDataImportDefinition.Index)                         | Gets or sets the specified data source column index from which this variable will be   |
+| [`Name`](#ColumnarDataImportDefinition.Name)                           | Gets or sets an identifier for the data source column.                                 |
+| [`Unit`](#ColumnarDataImportDefinition.Unit)                           | Gets or sets the unit of the column.                                                   |
+| [`UserFieldVariable`](#ColumnarDataImportDefinition.UserFieldVariable) |                                                                                        |
+| [`VariableType`](#ColumnarDataImportDefinition.VariableType)           | Gets or sets the variable type of the column.                                          |
 
 <a id="property-detail"></a>
 
@@ -54,17 +54,17 @@ Gets or sets the unit of the column.
 
 <!-- !! processed by numpydoc !! -->
 
-<a id="ColumnarDataImportDefinition.VariableType"></a>
-
-### *property* ColumnarDataImportDefinition.VariableType *: [Ansys.Mechanical.DataModel.MechanicalEnums.ExternalData.VariableType](../../../../v241/Ansys/Mechanical/DataModel/MechanicalEnums/ExternalData/VariableType.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.MechanicalEnums.ExternalData.VariableType) | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets or sets the variable type of the column.
-
-<!-- !! processed by numpydoc !! -->
-
 <a id="ColumnarDataImportDefinition.UserFieldVariable"></a>
 
 ### *property* ColumnarDataImportDefinition.UserFieldVariable *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="ColumnarDataImportDefinition.VariableType"></a>
+
+### *property* ColumnarDataImportDefinition.VariableType *: [Ansys.Mechanical.DataModel.MechanicalEnums.ExternalData.VariableType](../DataModel/MechanicalEnums/ExternalData/VariableType.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.MechanicalEnums.ExternalData.VariableType) | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets or sets the variable type of the column.
 
 <!-- !! processed by numpydoc !! -->
 

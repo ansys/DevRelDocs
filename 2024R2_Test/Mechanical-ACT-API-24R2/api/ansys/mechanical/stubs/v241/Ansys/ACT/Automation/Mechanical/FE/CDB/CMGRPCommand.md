@@ -1,6 +1,6 @@
 # `CMGRPCommand`
 
-
+<a id="ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.FE.CDB.CMGRPCommand"></a>
 
 #### *class* ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.FE.CDB.CMGRPCommand
 
@@ -18,10 +18,10 @@ Represents a CMGRP command.
 
 | Name | Description |
 |------------------------------------------------------------------------------------------------------------------|-------------------------------------------|
-| [`Aname`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/FE/CDB/CMGRPCommand.md#CMGRPCommand.Aname)   | Gets the assembly name.                   |
-| [`Cnames`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/FE/CDB/CMGRPCommand.md#CMGRPCommand.Cnames) | Gets the component and/or assembly names. |
-| [`Name`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/FE/CDB/CMGRPCommand.md#CMGRPCommand.Name)     | Gets the command name.                    |
-| [`Index`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/FE/CDB/CMGRPCommand.md#CMGRPCommand.Index)   | Gets the command index.                   |
+| [`Aname`](#CMGRPCommand.Aname)   | Gets the assembly name.                   |
+| [`Cnames`](#CMGRPCommand.Cnames) | Gets the component and/or assembly names. |
+| [`Index`](#CMGRPCommand.Index)   | Gets the command index.                   |
+| [`Name`](#CMGRPCommand.Name)     | Gets the command name.                    |
 
 <a id="property-detail"></a>
 
@@ -43,19 +43,19 @@ Gets the component and/or assembly names.
 
 <!-- !! processed by numpydoc !! -->
 
-<a id="CMGRPCommand.Name"></a>
-
-### *property* CMGRPCommand.Name *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
-
-Gets the command name.
-
-<!-- !! processed by numpydoc !! -->
-
 <a id="CMGRPCommand.Index"></a>
 
 ### *property* CMGRPCommand.Index *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the command index.
+
+<!-- !! processed by numpydoc !! -->
+
+<a id="CMGRPCommand.Name"></a>
+
+### *property* CMGRPCommand.Name *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+
+Gets the command name.
 
 <!-- !! processed by numpydoc !! -->
 

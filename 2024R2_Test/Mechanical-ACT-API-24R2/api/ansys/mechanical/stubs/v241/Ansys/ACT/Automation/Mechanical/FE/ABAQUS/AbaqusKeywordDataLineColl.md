@@ -1,6 +1,6 @@
 # `AbaqusKeywordDataLineColl`
 
-
+<a id="ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.FE.ABAQUS.AbaqusKeywordDataLineColl"></a>
 
 #### *class* ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.FE.ABAQUS.AbaqusKeywordDataLineColl
 
@@ -18,7 +18,7 @@ Collection of keyword data lines.
 
 | Name | Description |
 |-----------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------|
-| [`Items`](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/FE/ABAQUS/AbaqusKeywordDataLineColl.md#AbaqusKeywordDataLineColl.Items)   | Gets the list of data lines.   |
+| [`Items`](#AbaqusKeywordDataLineColl.Items)   | Gets the list of data lines.   |
 
 <a id="property-detail"></a>
 

@@ -1,6 +1,6 @@
 # `VirtualCellGroupMethodType`
 
-
+<a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.VirtualCellGroupMethodType"></a>
 
 #### *class* ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.VirtualCellGroupMethodType
 
@@ -17,10 +17,10 @@ Specifies the VirtualCellGroupMethodType.
 ### Attributes
 
 | Name |
-| -------------------------------------------------------------------------------------------------------------------------------------------- |
-| [`Automatic`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/VirtualCellGroupMethodType.md#VirtualCellGroupMethodType.Automatic) |
-| [`Repair`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/VirtualCellGroupMethodType.md#VirtualCellGroupMethodType.Repair) |
-| [`UserDefined`](../../../../../v242/Ansys/Mechanical/DataModel/Enums/VirtualCellGroupMethodType.md#VirtualCellGroupMethodType.UserDefined) |
+| ---------------------------------------------------------- |
+| [`Automatic`](#VirtualCellGroupMethodType.Automatic) |
+| [`Repair`](#VirtualCellGroupMethodType.Repair) |
+| [`UserDefined`](#VirtualCellGroupMethodType.UserDefined) |
 
 <a id="attribute-detail"></a>
 

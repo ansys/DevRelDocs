@@ -1,6 +1,6 @@
 # `ResultFileCompressionType`
 
-
+<a id="ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.ResultFileCompressionType"></a>
 
 #### *class* ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.ResultFileCompressionType
 
@@ -17,7 +17,7 @@ Specifies the ResultFileCompressionType.
 ### Attributes
 
 | Name |
-| --------------------------------------------------------------------- |
+| ------------------------------------------------------------------------------------------------------------------------------------------------------ |
 | [`Off`](#ResultFileCompressionType.Off) |
 | [`ProgramControlled`](#ResultFileCompressionType.ProgramControlled) |
 | [`Sparse`](#ResultFileCompressionType.Sparse) |
