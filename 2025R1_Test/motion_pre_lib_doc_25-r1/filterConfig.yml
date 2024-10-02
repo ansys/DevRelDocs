@@ -1,0 +1,11 @@
+### YamlMime:ManagedReference
+apiRules:
+- exclude:
+    uidRegex: ^System\.
+    type: Type
+- exclude:
+    uidRegex: ^VM\.AbstractXmlSerial
+    type: Type
+- exclude:
+    uidRegex: ^.+\.Properties\.Resources.*
+    type: Type
