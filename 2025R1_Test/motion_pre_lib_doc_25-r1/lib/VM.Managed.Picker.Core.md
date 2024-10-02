@@ -1,4 +1,4 @@
-# <a id="VM_Managed_Picker_Core"></a> Namespace VM.Managed.Picker.Core
+#  Namespace VM.Managed.Picker.Core
 
 ### Namespaces
 

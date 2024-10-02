@@ -1,4 +1,4 @@
-# <a id="VM_Managed_AttributeDoNotMakeHistory"></a> Class AttributeDoNotMakeHistory
+#  Class AttributeDoNotMakeHistory
 
 Namespace: [VM.Managed](VM.Managed.md)  
 Assembly: VMAppCore.dll  

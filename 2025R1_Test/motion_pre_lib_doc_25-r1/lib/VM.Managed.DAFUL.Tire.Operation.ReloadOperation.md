@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_Tire_Operation_ReloadOperation"></a> Class ReloadOperation
+#  Class ReloadOperation
 
 Namespace: [VM.Managed.DAFUL.Tire.Operation](VM.Managed.DAFUL.Tire.Operation.md)  
 Assembly: VMOpTire.dll  

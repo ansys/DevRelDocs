@@ -1,4 +1,4 @@
-# <a id="VM_Managed_Symmetric_OrientationThreePoints"></a> Class OrientationThreePoints
+#  Class OrientationThreePoints
 
 Namespace: [VM.Managed.Symmetric](VM.Managed.Symmetric.md)  
 Assembly: VMSymBase.dll  

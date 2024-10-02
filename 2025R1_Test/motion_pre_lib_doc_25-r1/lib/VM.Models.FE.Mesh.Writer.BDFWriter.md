@@ -1,4 +1,4 @@
-# <a id="VM_Models_FE_Mesh_Writer_BDFWriter"></a> Class BDFWriter
+#  Class BDFWriter
 
 Namespace: [VM.Models.FE.Mesh.Writer](VM.Models.FE.Mesh.Writer.md)  
 Assembly: VM.Models.FE.Mesh.dll  

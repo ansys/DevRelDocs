@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_Equation_EquationFunction"></a> Class EquationFunction
+#  Class EquationFunction
 
 Namespace: [VM.Managed.DAFUL.Equation](VM.Managed.DAFUL.Equation.md)  
 Assembly: VMDEq.dll  

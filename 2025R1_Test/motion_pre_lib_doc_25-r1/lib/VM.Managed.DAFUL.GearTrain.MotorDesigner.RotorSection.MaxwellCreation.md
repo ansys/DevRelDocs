@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_GearTrain_MotorDesigner_RotorSection_MaxwellCreation"></a> Class MotorDesigner.RotorSection.MaxwellCreation
+#  Class MotorDesigner.RotorSection.MaxwellCreation
 
 Namespace: [VM.Managed.DAFUL.GearTrain](VM.Managed.DAFUL.GearTrain.md)  
 Assembly: VMDGearTrain.dll  

@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_KernelOperationGetPointsOnCurve"></a> Class KernelOperationGetPointsOnCurve
+#  Class KernelOperationGetPointsOnCurve
 
 Namespace: [VM.Managed.DAFUL](VM.Managed.DAFUL.md)  
 Assembly: VMDBallPlacing.dll  

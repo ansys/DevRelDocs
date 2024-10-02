@@ -1,4 +1,4 @@
-# <a id="VM_Managed_History_RebuildHiddenDocOp"></a> Class RebuildHiddenDocOp
+#  Class RebuildHiddenDocOp
 
 Namespace: [VM.Managed.History](VM.Managed.History.md)  
 Assembly: VMAppCore.dll  

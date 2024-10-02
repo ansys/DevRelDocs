@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_IReportable"></a> Interface IReportable
+#  Interface IReportable
 
 Namespace: [VM.Managed.DAFUL](VM.Managed.DAFUL.md)  
 Assembly: VMDFBase.dll  

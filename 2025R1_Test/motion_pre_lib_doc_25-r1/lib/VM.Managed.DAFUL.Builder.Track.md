@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_Builder_Track"></a> Namespace VM.Managed.DAFUL.Builder.Track
+#  Namespace VM.Managed.DAFUL.Builder.Track
 
 ### Classes
 

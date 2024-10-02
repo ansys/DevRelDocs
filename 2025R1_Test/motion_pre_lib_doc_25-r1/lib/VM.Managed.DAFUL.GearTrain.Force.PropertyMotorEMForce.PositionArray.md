@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_GearTrain_Force_PropertyMotorEMForce_PositionArray"></a> Class PropertyMotorEMForce.PositionArray
+#  Class PropertyMotorEMForce.PositionArray
 
 Namespace: [VM.Managed.DAFUL.GearTrain.Force](VM.Managed.DAFUL.GearTrain.Force.md)  
 Assembly: VMDGearTrain.dll  

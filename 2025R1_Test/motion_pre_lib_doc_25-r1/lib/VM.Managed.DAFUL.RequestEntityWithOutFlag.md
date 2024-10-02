@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_RequestEntityWithOutFlag"></a> Class RequestEntityWithOutFlag
+#  Class RequestEntityWithOutFlag
 
 Namespace: [VM.Managed.DAFUL](VM.Managed.DAFUL.md)  
 Assembly: VMDSB.dll  

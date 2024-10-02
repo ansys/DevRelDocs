@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_Builder_Chained_ChainedPlacing"></a> Class ChainedPlacing
+#  Class ChainedPlacing
 
 Namespace: [VM.Managed.DAFUL.Builder.Chained](VM.Managed.DAFUL.Builder.Chained.md)  
 Assembly: VMBldChained.dll  

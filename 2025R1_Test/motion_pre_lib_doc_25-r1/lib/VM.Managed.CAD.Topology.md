@@ -1,4 +1,4 @@
-# <a id="VM_Managed_CAD_Topology"></a> Class Topology
+#  Class Topology
 
 Namespace: [VM.Managed.CAD](VM.Managed.CAD.md)  
 Assembly: VMAppCore.dll  

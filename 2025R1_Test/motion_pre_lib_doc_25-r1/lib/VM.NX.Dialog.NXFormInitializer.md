@@ -1,4 +1,4 @@
-# <a id="VM_NX_Dialog_NXFormInitializer"></a> Class NXFormInitializer
+#  Class NXFormInitializer
 
 Namespace: [VM.NX.Dialog](VM.NX.Dialog.md)  
 Assembly: VMDM.dll  

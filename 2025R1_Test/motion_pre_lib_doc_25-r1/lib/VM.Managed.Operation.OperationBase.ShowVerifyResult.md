@@ -1,4 +1,4 @@
-# <a id="VM_Managed_Operation_OperationBase_ShowVerifyResult"></a> Delegate OperationBase.ShowVerifyResult
+#  Delegate OperationBase.ShowVerifyResult
 
 Namespace: [VM.Managed.Operation](VM.Managed.Operation.md)  
 Assembly: VMAppCore.dll  

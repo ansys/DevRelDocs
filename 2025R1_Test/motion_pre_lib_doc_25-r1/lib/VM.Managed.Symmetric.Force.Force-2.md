@@ -1,4 +1,4 @@
-# <a id="VM_Managed_Symmetric_Force_Force_2"></a> Class Force<T, TProp\>
+#  Class Force<T, TProp\>
 
 Namespace: [VM.Managed.Symmetric.Force](VM.Managed.Symmetric.Force.md)  
 Assembly: VMSymFB.dll  

@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_GearTrain_Operation_CalculateWebStiffness_NodeInfo"></a> Class CalculateWebStiffness.NodeInfo
+#  Class CalculateWebStiffness.NodeInfo
 
 Namespace: [VM.Managed.DAFUL.GearTrain.Operation](VM.Managed.DAFUL.GearTrain.Operation.md)  
 Assembly: VMOpGearTrain.dll  

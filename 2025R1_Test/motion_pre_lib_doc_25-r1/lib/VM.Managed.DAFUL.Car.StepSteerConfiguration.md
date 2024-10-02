@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_Car_StepSteerConfiguration"></a> Class StepSteerConfiguration
+#  Class StepSteerConfiguration
 
 Namespace: [VM.Managed.DAFUL.Car](VM.Managed.DAFUL.Car.md)  
 Assembly: VMDCar.dll  

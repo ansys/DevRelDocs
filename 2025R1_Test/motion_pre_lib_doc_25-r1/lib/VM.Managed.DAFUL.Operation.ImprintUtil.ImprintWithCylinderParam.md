@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_Operation_ImprintUtil_ImprintWithCylinderParam"></a> Class ImprintUtil.ImprintWithCylinderParam
+#  Class ImprintUtil.ImprintWithCylinderParam
 
 Namespace: [VM.Managed.DAFUL.Operation](VM.Managed.DAFUL.Operation.md)  
 Assembly: VMOP.dll  

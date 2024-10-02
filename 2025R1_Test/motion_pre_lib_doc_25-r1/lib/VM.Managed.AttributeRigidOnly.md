@@ -1,4 +1,4 @@
-# <a id="VM_Managed_AttributeRigidOnly"></a> Class AttributeRigidOnly
+#  Class AttributeRigidOnly
 
 Namespace: [VM.Managed](VM.Managed.md)  
 Assembly: VMAppCore.dll  

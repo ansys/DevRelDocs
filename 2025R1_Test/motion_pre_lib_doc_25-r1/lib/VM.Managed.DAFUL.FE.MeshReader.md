@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_FE_MeshReader"></a> Class MeshReader
+#  Class MeshReader
 
 Namespace: [VM.Managed.DAFUL.FE](VM.Managed.DAFUL.FE.md)  
 Assembly: VMFE.dll  

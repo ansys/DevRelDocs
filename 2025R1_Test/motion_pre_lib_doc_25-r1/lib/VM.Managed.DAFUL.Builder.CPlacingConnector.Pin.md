@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_Builder_CPlacingConnector_Pin"></a> Class Pin
+#  Class Pin
 
 Namespace: [VM.Managed.DAFUL.Builder.CPlacingConnector](VM.Managed.DAFUL.Builder.CPlacingConnector.md)  
 Assembly: VMBldCPlacingConnector.dll  

@@ -1,4 +1,4 @@
-# <a id="VM_Models_FE_Mesh_Sets_Set"></a> Class Set
+#  Class Set
 
 Namespace: [VM.Models.FE.Mesh.Sets](VM.Models.FE.Mesh.Sets.md)  
 Assembly: VM.Models.FE.Mesh.dll  

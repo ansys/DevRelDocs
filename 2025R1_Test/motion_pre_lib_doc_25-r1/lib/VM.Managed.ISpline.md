@@ -1,4 +1,4 @@
-# <a id="VM_Managed_ISpline"></a> Interface ISpline
+#  Interface ISpline
 
 Namespace: [VM.Managed](VM.Managed.md)  
 Assembly: VMAppCore.dll  

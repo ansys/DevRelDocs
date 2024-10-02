@@ -1,4 +1,4 @@
-# <a id="VM_Managed_History_UpdateAllItemInNavigatorAddon"></a> Class UpdateAllItemInNavigatorAddon
+#  Class UpdateAllItemInNavigatorAddon
 
 Namespace: [VM.Managed.History](VM.Managed.History.md)  
 Assembly: VMAppCore.dll  

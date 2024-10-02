@@ -1,4 +1,4 @@
-# <a id="VM_Managed_Symmetric_Car_Force_Reboundstop"></a> Class Reboundstop
+#  Class Reboundstop
 
 Namespace: [VM.Managed.Symmetric.Car.Force](VM.Managed.Symmetric.Car.Force.md)  
 Assembly: VMSymCar.dll  

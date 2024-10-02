@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_DocumentAnalysis"></a> Class DocumentAnalysis
+#  Class DocumentAnalysis
 
 Namespace: [VM.Managed.DAFUL](VM.Managed.DAFUL.md)  
 Assembly: VMDFBase.dll  

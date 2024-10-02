@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_BuilderShaft"></a> Class BuilderShaft
+#  Class BuilderShaft
 
 Namespace: [VM.Managed.DAFUL](VM.Managed.DAFUL.md)  
 Assembly: VMDBallPlacing.dll  

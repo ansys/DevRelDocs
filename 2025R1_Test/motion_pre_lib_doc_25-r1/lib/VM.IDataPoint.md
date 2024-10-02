@@ -1,4 +1,4 @@
-# <a id="VM_IDataPoint"></a> Interface IDataPoint
+#  Interface IDataPoint
 
 Namespace: [VM](VM.md)  
 Assembly: VM.dll  

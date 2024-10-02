@@ -1,4 +1,4 @@
-# <a id="VM_CAD_Kernel_Body"></a> Class Body
+#  Class Body
 
 Namespace: [VM.CAD.Kernel](VM.CAD.Kernel.md)  
 Assembly: VM.CAD.Kernel.dll  

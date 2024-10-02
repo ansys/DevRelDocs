@@ -1,4 +1,4 @@
-# <a id="VM_API_Post_Operations_OperationAPIService"></a> Class OperationAPIService
+#  Class OperationAPIService
 
 Namespace: [VM.API.Post.Operations](VM.API.Post.Operations.md)  
 Assembly: VM.API.Post.Operations.dll  

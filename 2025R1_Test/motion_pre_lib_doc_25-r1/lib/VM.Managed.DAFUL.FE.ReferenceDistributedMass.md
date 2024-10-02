@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_FE_ReferenceDistributedMass"></a> Class ReferenceDistributedMass
+#  Class ReferenceDistributedMass
 
 Namespace: [VM.Managed.DAFUL.FE](VM.Managed.DAFUL.FE.md)  
 Assembly: VMFE.dll  

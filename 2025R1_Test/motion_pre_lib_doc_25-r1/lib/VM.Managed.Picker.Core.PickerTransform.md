@@ -1,4 +1,4 @@
-# <a id="VM_Managed_Picker_Core_PickerTransform"></a> Class PickerTransform
+#  Class PickerTransform
 
 Namespace: [VM.Managed.Picker.Core](VM.Managed.Picker.Core.md)  
 Assembly: VMAppCore.dll  

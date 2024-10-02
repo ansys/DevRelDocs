@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_SplineValue_TwoPoint"></a> Struct SplineValue.TwoPoint
+#  Struct SplineValue.TwoPoint
 
 Namespace: [VM.Managed.DAFUL](VM.Managed.DAFUL.md)  
 Assembly: VMDSB.dll  

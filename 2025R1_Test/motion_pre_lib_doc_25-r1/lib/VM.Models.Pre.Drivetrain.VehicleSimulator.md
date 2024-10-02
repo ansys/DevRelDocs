@@ -1,4 +1,4 @@
-# <a id="VM_Models_Pre_Drivetrain_VehicleSimulator"></a> Namespace VM.Models.Pre.Drivetrain.VehicleSimulator
+#  Namespace VM.Models.Pre.Drivetrain.VehicleSimulator
 
 ### Classes
 

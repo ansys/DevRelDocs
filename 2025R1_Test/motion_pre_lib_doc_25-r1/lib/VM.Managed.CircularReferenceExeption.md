@@ -1,4 +1,4 @@
-# <a id="VM_Managed_CircularReferenceExeption"></a> Class CircularReferenceExeption
+#  Class CircularReferenceExeption
 
 Namespace: [VM.Managed](VM.Managed.md)  
 Assembly: VMAppCore.dll  

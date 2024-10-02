@@ -1,4 +1,4 @@
-# <a id="VM_Managed_Collections_LinkDictionaryCollectionBase_4"></a> Class LinkDictionaryCollectionBase<T, TValue, TValueWrapper, TValueConverter\>
+#  Class LinkDictionaryCollectionBase<T, TValue, TValueWrapper, TValueConverter\>
 
 Namespace: [VM.Managed.Collections](VM.Managed.Collections.md)  
 Assembly: VMAppCore.dll  

@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_PythonCode"></a> Class PythonCode
+#  Class PythonCode
 
 Namespace: [VM.Managed.DAFUL](VM.Managed.DAFUL.md)  
 Assembly: VMDSB.dll  

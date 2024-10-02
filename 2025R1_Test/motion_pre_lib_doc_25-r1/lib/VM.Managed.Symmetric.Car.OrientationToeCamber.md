@@ -1,4 +1,4 @@
-# <a id="VM_Managed_Symmetric_Car_OrientationToeCamber"></a> Class OrientationToeCamber
+#  Class OrientationToeCamber
 
 Namespace: [VM.Managed.Symmetric.Car](VM.Managed.Symmetric.Car.md)  
 Assembly: VMSymCar.dll  

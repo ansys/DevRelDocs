@@ -1,4 +1,4 @@
-# <a id="VM_Managed_Operation_ChangeName"></a> Class ChangeName
+#  Class ChangeName
 
 Namespace: [VM.Managed.Operation](VM.Managed.Operation.md)  
 Assembly: VMOpFEFilm.dll  

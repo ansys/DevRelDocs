@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_GearTrain_PerformanceIndexInformation"></a> Class PerformanceIndexInformation
+#  Class PerformanceIndexInformation
 
 Namespace: [VM.Managed.DAFUL.GearTrain](VM.Managed.DAFUL.GearTrain.md)  
 Assembly: VMDGearTrain.dll  

@@ -1,4 +1,4 @@
-# <a id="VM_Managed_Document3D"></a> Class Document3D
+#  Class Document3D
 
 Namespace: [VM.Managed](VM.Managed.md)  
 Assembly: VMAppCore.dll  

@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DirectionOnFace"></a> Class DirectionOnFace
+#  Class DirectionOnFace
 
 Namespace: [VM.Managed](VM.Managed.md)  
 Assembly: VMAppCore.dll  

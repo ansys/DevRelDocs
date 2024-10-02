@@ -1,4 +1,4 @@
-# <a id="VM_Managed_Operation_AddElementsProperty"></a> Class AddElementsProperty
+#  Class AddElementsProperty
 
 Namespace: [VM.Managed.Operation](VM.Managed.Operation.md)  
 Assembly: VMOpFEFilm.dll  

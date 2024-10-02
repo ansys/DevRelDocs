@@ -1,4 +1,4 @@
-# <a id="VM_Models_Pre_Connections_ReferenceGeneral"></a> Class ReferenceGeneral
+#  Class ReferenceGeneral
 
 Namespace: [VM.Models.Pre.Connections](VM.Models.Pre.Connections.md)  
 Assembly: VM.Models.Pre.Connections.dll  

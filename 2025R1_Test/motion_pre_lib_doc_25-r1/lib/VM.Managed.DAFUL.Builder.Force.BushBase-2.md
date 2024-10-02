@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_Builder_Force_BushBase_2"></a> Class BushBase<TSetDirection, TSetOrientation\>
+#  Class BushBase<TSetDirection, TSetOrientation\>
 
 Namespace: [VM.Managed.DAFUL.Builder.Force](VM.Managed.DAFUL.Builder.Force.md)  
 Assembly: VMBldFB.dll  

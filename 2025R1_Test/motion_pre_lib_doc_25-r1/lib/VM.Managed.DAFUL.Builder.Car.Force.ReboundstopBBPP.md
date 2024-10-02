@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_Builder_Car_Force_ReboundstopBBPP"></a> Class ReboundstopBBPP
+#  Class ReboundstopBBPP
 
 Namespace: [VM.Managed.DAFUL.Builder.Car.Force](VM.Managed.DAFUL.Builder.Car.Force.md)  
 Assembly: VMBldCar.dll  

@@ -1,4 +1,4 @@
-# <a id="VM_Managed_Operation_OperationBase_EndOperation"></a> Delegate OperationBase.EndOperation
+#  Delegate OperationBase.EndOperation
 
 Namespace: [VM.Managed.Operation](VM.Managed.Operation.md)  
 Assembly: VMAppCore.dll  

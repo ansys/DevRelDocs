@@ -1,4 +1,4 @@
-# <a id="VM_CAD_Kernel_Render"></a> Namespace VM.CAD.Kernel.Render
+#  Namespace VM.CAD.Kernel.Render
 
 ### Classes
 

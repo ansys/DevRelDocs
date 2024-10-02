@@ -1,4 +1,4 @@
-# <a id="VM_NX_Dialog_NXFormBase"></a> Class NXFormBase
+#  Class NXFormBase
 
 Namespace: [VM.NX.Dialog](VM.NX.Dialog.md)  
 Assembly: VMDM.dll  

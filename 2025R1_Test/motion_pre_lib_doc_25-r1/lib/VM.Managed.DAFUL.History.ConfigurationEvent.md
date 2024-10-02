@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_History_ConfigurationEvent"></a> Class ConfigurationEvent
+#  Class ConfigurationEvent
 
 Namespace: [VM.Managed.DAFUL.History](VM.Managed.DAFUL.History.md)  
 Assembly: VMDFBase.dll  

@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_Tire_Operation_FinalizeTransFormOperation"></a> Class FinalizeTransFormOperation
+#  Class FinalizeTransFormOperation
 
 Namespace: [VM.Managed.DAFUL.Tire.Operation](VM.Managed.DAFUL.Tire.Operation.md)  
 Assembly: VMOpTire.dll  

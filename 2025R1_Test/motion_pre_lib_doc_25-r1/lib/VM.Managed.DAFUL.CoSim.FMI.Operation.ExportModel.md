@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_CoSim_FMI_Operation_ExportModel"></a> Class ExportModel
+#  Class ExportModel
 
 Namespace: [VM.Managed.DAFUL.CoSim.FMI.Operation](VM.Managed.DAFUL.CoSim.FMI.Operation.md)  
 Assembly: VMOpCoSimFMI.dll  

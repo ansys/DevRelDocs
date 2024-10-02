@@ -1,4 +1,4 @@
-# <a id="VM_Managed_Linker_1"></a> Struct Linker<T\>
+#  Struct Linker<T\>
 
 Namespace: [VM.Managed](VM.Managed.md)  
 Assembly: VMAppCore.dll  

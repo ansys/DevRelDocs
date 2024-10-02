@@ -1,4 +1,4 @@
-# <a id="VM_Managed_CAD_Track_LMShoeType"></a> Enum LMShoeType
+#  Enum LMShoeType
 
 Namespace: [VM.Managed.CAD.Track](VM.Managed.CAD.Track.md)  
 Assembly: VMDTrackBase.dll  

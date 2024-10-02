@@ -1,4 +1,4 @@
-# <a id="VM_IIdentifier"></a> Interface IIdentifier
+#  Interface IIdentifier
 
 Namespace: [VM](VM.md)  
 Assembly: VM.dll  

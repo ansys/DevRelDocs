@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_Constraints_FrictionRevolute"></a> Class FrictionRevolute
+#  Class FrictionRevolute
 
 Namespace: [VM.Managed.DAFUL.Constraints](VM.Managed.DAFUL.Constraints.md)  
 Assembly: VMDCB.dll  

@@ -1,4 +1,4 @@
-# <a id="VM_Models_OutputReader_IVectorDisplayAnimationData"></a> Interface IVectorDisplayAnimationData
+#  Interface IVectorDisplayAnimationData
 
 Namespace: [VM.Models.OutputReader](VM.Models.OutputReader.md)  
 Assembly: VM.Models.OutputReader.dll  

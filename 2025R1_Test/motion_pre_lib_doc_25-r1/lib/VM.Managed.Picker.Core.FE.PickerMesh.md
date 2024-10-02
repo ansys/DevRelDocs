@@ -1,4 +1,4 @@
-# <a id="VM_Managed_Picker_Core_FE_PickerMesh"></a> Class PickerMesh
+#  Class PickerMesh
 
 Namespace: [VM.Managed.Picker.Core.FE](VM.Managed.Picker.Core.FE.md)  
 Assembly: VMAppCore.dll  

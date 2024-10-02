@@ -1,4 +1,4 @@
-# <a id="VM_Models_IStepItemSet"></a> Interface IStepItemSet
+#  Interface IStepItemSet
 
 Namespace: [VM.Models](VM.Models.md)  
 Assembly: VM.Models.Project.dll  

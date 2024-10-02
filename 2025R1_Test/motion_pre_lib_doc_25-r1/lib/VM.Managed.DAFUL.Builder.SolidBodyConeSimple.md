@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_Builder_SolidBodyConeSimple"></a> Class SolidBodyConeSimple
+#  Class SolidBodyConeSimple
 
 Namespace: [VM.Managed.DAFUL.Builder](VM.Managed.DAFUL.Builder.md)  
 Assembly: VMBld.dll  

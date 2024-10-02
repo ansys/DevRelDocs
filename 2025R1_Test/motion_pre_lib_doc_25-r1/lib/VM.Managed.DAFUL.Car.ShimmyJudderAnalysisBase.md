@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_Car_ShimmyJudderAnalysisBase"></a> Class ShimmyJudderAnalysisBase
+#  Class ShimmyJudderAnalysisBase
 
 Namespace: [VM.Managed.DAFUL.Car](VM.Managed.DAFUL.Car.md)  
 Assembly: VMDFullCar.dll  

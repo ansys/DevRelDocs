@@ -1,4 +1,4 @@
-# <a id="VM_Managed_View3DSpecialFit"></a> Class View3DSpecialFit
+#  Class View3DSpecialFit
 
 Namespace: [VM.Managed](VM.Managed.md)  
 Assembly: VMAppCore.dll  

@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_Bearing_Force_BearingGeneral"></a> Class BearingGeneral
+#  Class BearingGeneral
 
 Namespace: [VM.Managed.DAFUL.Bearing.Force](VM.Managed.DAFUL.Bearing.Force.md)  
 Assembly: VMDBearing.dll  

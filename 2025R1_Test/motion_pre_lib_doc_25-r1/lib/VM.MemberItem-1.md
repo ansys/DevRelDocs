@@ -1,4 +1,4 @@
-# <a id="VM_MemberItem_1"></a> Class MemberItem<TDescriptor\>
+#  Class MemberItem<TDescriptor\>
 
 Namespace: [VM](VM.md)  
 Assembly: VM.dll  

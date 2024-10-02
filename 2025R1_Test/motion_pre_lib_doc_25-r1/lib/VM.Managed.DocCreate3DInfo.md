@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DocCreate3DInfo"></a> Class DocCreate3DInfo
+#  Class DocCreate3DInfo
 
 Namespace: [VM.Managed](VM.Managed.md)  
 Assembly: VMAppCore.dll  

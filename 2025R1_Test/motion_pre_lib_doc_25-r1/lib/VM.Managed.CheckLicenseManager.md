@@ -1,4 +1,4 @@
-# <a id="VM_Managed_CheckLicenseManager"></a> Class CheckLicenseManager
+#  Class CheckLicenseManager
 
 Namespace: [VM.Managed](VM.Managed.md)  
 Assembly: VMAppCore.dll  

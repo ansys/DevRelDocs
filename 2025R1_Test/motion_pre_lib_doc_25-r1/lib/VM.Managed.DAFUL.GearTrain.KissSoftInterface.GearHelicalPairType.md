@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_GearTrain_KissSoftInterface_GearHelicalPairType"></a> Enum KissSoftInterface.GearHelicalPairType
+#  Enum KissSoftInterface.GearHelicalPairType
 
 Namespace: [VM.Managed.DAFUL.GearTrain](VM.Managed.DAFUL.GearTrain.md)  
 Assembly: VMDGearTrain.dll  

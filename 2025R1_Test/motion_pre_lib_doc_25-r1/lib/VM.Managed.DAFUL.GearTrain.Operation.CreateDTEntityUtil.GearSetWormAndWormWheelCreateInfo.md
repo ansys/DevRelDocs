@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_GearTrain_Operation_CreateDTEntityUtil_GearSetWormAndWormWheelCreateInfo"></a> Class CreateDTEntityUtil.GearSetWormAndWormWheelCreateInfo
+#  Class CreateDTEntityUtil.GearSetWormAndWormWheelCreateInfo
 
 Namespace: [VM.Managed.DAFUL.GearTrain.Operation](VM.Managed.DAFUL.GearTrain.Operation.md)  
 Assembly: VMOpGearTrain.dll  

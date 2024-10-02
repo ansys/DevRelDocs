@@ -1,4 +1,4 @@
-# <a id="VM_Managed_Collections_DictionaryCollectionEnumerator_5"></a> Class DictionaryCollectionEnumerator<T, TValue, TLink, TValueWrapper, TValueConverter\>
+#  Class DictionaryCollectionEnumerator<T, TValue, TLink, TValueWrapper, TValueConverter\>
 
 Namespace: [VM.Managed.Collections](VM.Managed.Collections.md)  
 Assembly: VMAppCore.dll  

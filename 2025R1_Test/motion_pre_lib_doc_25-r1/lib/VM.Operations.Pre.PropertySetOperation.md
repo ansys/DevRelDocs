@@ -1,4 +1,4 @@
-# <a id="VM_Operations_Pre_PropertySetOperation"></a> Class PropertySetOperation
+#  Class PropertySetOperation
 
 Namespace: [VM.Operations.Pre](VM.Operations.Pre.md)  
 Assembly: VM.Operations.Pre.dll  

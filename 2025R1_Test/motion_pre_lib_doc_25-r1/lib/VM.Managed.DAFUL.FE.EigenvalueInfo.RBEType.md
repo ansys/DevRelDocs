@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_FE_EigenvalueInfo_RBEType"></a> Enum EigenvalueInfo.RBEType
+#  Enum EigenvalueInfo.RBEType
 
 Namespace: [VM.Managed.DAFUL.FE](VM.Managed.DAFUL.FE.md)  
 Assembly: VMFE.dll  

@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_AttributeFacesetTypeColor"></a> Class AttributeFacesetTypeColor
+#  Class AttributeFacesetTypeColor
 
 Namespace: [VM.Managed.DAFUL](VM.Managed.DAFUL.md)  
 Assembly: VMDFBase.dll  

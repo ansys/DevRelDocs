@@ -1,4 +1,4 @@
-# <a id="VM_Managed_Symmetric_Constraints_DriverFunction"></a> Class DriverFunction
+#  Class DriverFunction
 
 Namespace: [VM.Managed.Symmetric.Constraints](VM.Managed.Symmetric.Constraints.md)  
 Assembly: VMSymCB.dll  

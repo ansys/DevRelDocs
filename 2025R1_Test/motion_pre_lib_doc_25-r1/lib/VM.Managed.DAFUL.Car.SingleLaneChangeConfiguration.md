@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_Car_SingleLaneChangeConfiguration"></a> Class SingleLaneChangeConfiguration
+#  Class SingleLaneChangeConfiguration
 
 Namespace: [VM.Managed.DAFUL.Car](VM.Managed.DAFUL.Car.md)  
 Assembly: VMDCar.dll  

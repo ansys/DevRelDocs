@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_Pre_Api"></a> Class Api
+#  Class Api
 
 Namespace: [VM.Managed.DAFUL.Pre](VM.Managed.DAFUL.Pre.md)  
 Assembly: dfpreAPI.dll  

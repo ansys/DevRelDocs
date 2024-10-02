@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_GroundBodyProperty"></a> Class GroundBodyProperty
+#  Class GroundBodyProperty
 
 Namespace: [VM.Managed.DAFUL](VM.Managed.DAFUL.md)  
 Assembly: VMDFBase.dll  

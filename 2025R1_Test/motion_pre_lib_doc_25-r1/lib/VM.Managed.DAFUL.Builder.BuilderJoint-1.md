@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_Builder_BuilderJoint_1"></a> Class BuilderJoint<T\>
+#  Class BuilderJoint<T\>
 
 Namespace: [VM.Managed.DAFUL.Builder](VM.Managed.DAFUL.Builder.md)  
 Assembly: VMBld.dll  

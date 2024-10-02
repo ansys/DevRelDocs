@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_Chained_Placing_File"></a> Class Placing\_File
+#  Class Placing\_File
 
 Namespace: [VM.Managed.DAFUL.Chained](VM.Managed.DAFUL.Chained.md)  
 Assembly: VMDChainedBase.dll  

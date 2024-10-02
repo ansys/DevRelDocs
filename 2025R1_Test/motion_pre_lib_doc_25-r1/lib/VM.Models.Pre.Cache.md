@@ -1,4 +1,4 @@
-# <a id="VM_Models_Pre_Cache"></a> Namespace VM.Models.Pre.Cache
+#  Namespace VM.Models.Pre.Cache
 
 ### Classes
 

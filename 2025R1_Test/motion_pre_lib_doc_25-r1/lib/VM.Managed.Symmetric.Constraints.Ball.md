@@ -1,4 +1,4 @@
-# <a id="VM_Managed_Symmetric_Constraints_Ball"></a> Class Ball
+#  Class Ball
 
 Namespace: [VM.Managed.Symmetric.Constraints](VM.Managed.Symmetric.Constraints.md)  
 Assembly: VMSymCB.dll  

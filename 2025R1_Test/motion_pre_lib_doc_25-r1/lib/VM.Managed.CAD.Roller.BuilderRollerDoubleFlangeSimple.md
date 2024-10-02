@@ -1,4 +1,4 @@
-# <a id="VM_Managed_CAD_Roller_BuilderRollerDoubleFlangeSimple"></a> Class BuilderRollerDoubleFlangeSimple
+#  Class BuilderRollerDoubleFlangeSimple
 
 Namespace: [VM.Managed.CAD.Roller](VM.Managed.CAD.Roller.md)  
 Assembly: VMDRoller.dll  

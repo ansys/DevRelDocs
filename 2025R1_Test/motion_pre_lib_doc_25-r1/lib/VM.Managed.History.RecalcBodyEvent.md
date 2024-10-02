@@ -1,4 +1,4 @@
-# <a id="VM_Managed_History_RecalcBodyEvent"></a> Class RecalcBodyEvent
+#  Class RecalcBodyEvent
 
 Namespace: [VM.Managed.History](VM.Managed.History.md)  
 Assembly: VMAppCore.dll  

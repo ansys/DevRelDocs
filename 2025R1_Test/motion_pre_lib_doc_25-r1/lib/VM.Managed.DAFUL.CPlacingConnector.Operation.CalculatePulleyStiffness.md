@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_CPlacingConnector_Operation_CalculatePulleyStiffness"></a> Class CalculatePulleyStiffness
+#  Class CalculatePulleyStiffness
 
 Namespace: [VM.Managed.DAFUL.CPlacingConnector.Operation](VM.Managed.DAFUL.CPlacingConnector.Operation.md)  
 Assembly: VMOpCPlacingConnector.dll  

@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_GearTrain_IPointEntity"></a> Interface IPointEntity
+#  Interface IPointEntity
 
 Namespace: [VM.Managed.DAFUL.GearTrain](VM.Managed.DAFUL.GearTrain.md)  
 Assembly: VMDGearTrain.dll  

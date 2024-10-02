@@ -1,4 +1,4 @@
-# <a id="VM_DeferredAction"></a> Class DeferredAction
+#  Class DeferredAction
 
 Namespace: [VM](VM.md)  
 Assembly: VM.dll  

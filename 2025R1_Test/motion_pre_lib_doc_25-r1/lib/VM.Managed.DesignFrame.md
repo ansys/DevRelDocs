@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DesignFrame"></a> Class DesignFrame
+#  Class DesignFrame
 
 Namespace: [VM.Managed](VM.Managed.md)  
 Assembly: VMObjBase.dll  

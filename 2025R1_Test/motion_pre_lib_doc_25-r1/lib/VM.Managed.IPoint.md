@@ -1,4 +1,4 @@
-# <a id="VM_Managed_IPoint"></a> Interface IPoint
+#  Interface IPoint
 
 Namespace: [VM.Managed](VM.Managed.md)  
 Assembly: VMAppCore.dll  

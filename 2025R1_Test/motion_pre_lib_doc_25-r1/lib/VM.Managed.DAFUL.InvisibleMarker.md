@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_InvisibleMarker"></a> Class InvisibleMarker
+#  Class InvisibleMarker
 
 Namespace: [VM.Managed.DAFUL](VM.Managed.DAFUL.md)  
 Assembly: VMDFBase.dll  

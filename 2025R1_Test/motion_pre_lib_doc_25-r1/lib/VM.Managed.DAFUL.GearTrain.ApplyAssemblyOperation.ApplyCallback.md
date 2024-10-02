@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_GearTrain_ApplyAssemblyOperation_ApplyCallback"></a> Delegate ApplyAssemblyOperation.ApplyCallback
+#  Delegate ApplyAssemblyOperation.ApplyCallback
 
 Namespace: [VM.Managed.DAFUL.GearTrain](VM.Managed.DAFUL.GearTrain.md)  
 Assembly: VMDGearTrain.dll  

@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_Builder_HarmonicDrive"></a> Class HarmonicDrive
+#  Class HarmonicDrive
 
 Namespace: [VM.Managed.DAFUL.Builder](VM.Managed.DAFUL.Builder.md)  
 Assembly: VMBldHarmonicDrive.dll  

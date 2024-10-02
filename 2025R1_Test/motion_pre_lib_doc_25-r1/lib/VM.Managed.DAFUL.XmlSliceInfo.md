@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_XmlSliceInfo"></a> Class XmlSliceInfo
+#  Class XmlSliceInfo
 
 Namespace: [VM.Managed.DAFUL](VM.Managed.DAFUL.md)  
 Assembly: VMDBallPlacing.dll  

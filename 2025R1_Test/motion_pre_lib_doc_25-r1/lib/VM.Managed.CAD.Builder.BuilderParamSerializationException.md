@@ -1,4 +1,4 @@
-# <a id="VM_Managed_CAD_Builder_BuilderParamSerializationException"></a> Class Builder.BuilderParamSerializationException
+#  Class Builder.BuilderParamSerializationException
 
 Namespace: [VM.Managed.CAD](VM.Managed.CAD.md)  
 Assembly: VMAppCore.dll  

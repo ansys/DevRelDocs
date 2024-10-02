@@ -1,4 +1,4 @@
-# <a id="VM_Managed_AttributeObjectFeature"></a> Class AttributeObjectFeature
+#  Class AttributeObjectFeature
 
 Namespace: [VM.Managed](VM.Managed.md)  
 Assembly: VMAppCore.dll  

@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_RequestStructure_OutputType"></a> Struct RequestStructure.OutputType
+#  Struct RequestStructure.OutputType
 
 Namespace: [VM.Managed.DAFUL](VM.Managed.DAFUL.md)  
 Assembly: VMDSB.dll  

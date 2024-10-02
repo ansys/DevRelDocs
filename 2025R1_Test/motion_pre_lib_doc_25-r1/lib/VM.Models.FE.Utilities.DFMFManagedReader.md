@@ -1,4 +1,4 @@
-# <a id="VM_Models_FE_Utilities_DFMFManagedReader"></a> Class DFMFManagedReader
+#  Class DFMFManagedReader
 
 Namespace: [VM.Models.FE.Utilities](VM.Models.FE.Utilities.md)  
 Assembly: VM.Models.FE.Utilities.dll  

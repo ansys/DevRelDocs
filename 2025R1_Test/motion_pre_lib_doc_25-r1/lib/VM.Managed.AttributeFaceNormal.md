@@ -1,4 +1,4 @@
-# <a id="VM_Managed_AttributeFaceNormal"></a> Class AttributeFaceNormal
+#  Class AttributeFaceNormal
 
 Namespace: [VM.Managed](VM.Managed.md)  
 Assembly: VMAppCore.dll  

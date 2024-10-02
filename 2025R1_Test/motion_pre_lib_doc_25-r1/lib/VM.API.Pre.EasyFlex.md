@@ -1,4 +1,4 @@
-# <a id="VM_API_Pre_EasyFlex"></a> Namespace VM.API.Pre.EasyFlex
+#  Namespace VM.API.Pre.EasyFlex
 
 ### Classes
 

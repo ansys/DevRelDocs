@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_Linear_Operation"></a> Namespace VM.Managed.DAFUL.Linear.Operation
+#  Namespace VM.Managed.DAFUL.Linear.Operation
 
 ### Classes
 

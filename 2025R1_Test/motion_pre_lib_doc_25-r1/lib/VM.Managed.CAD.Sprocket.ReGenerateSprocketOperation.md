@@ -1,4 +1,4 @@
-# <a id="VM_Managed_CAD_Sprocket_ReGenerateSprocketOperation"></a> Class ReGenerateSprocketOperation
+#  Class ReGenerateSprocketOperation
 
 Namespace: [VM.Managed.CAD.Sprocket](VM.Managed.CAD.Sprocket.md)  
 Assembly: VMDSprocket.dll  

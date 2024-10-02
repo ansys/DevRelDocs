@@ -1,4 +1,4 @@
-# <a id="VM_Collections_InheritableHashSet_1"></a> Class InheritableHashSet<T\>
+#  Class InheritableHashSet<T\>
 
 Namespace: [VM.Collections](VM.Collections.md)  
 Assembly: VM.dll  

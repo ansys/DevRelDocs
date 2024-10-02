@@ -1,4 +1,4 @@
-# <a id="VM_Managed_Owned"></a> Class Owned
+#  Class Owned
 
 Namespace: [VM.Managed](VM.Managed.md)  
 Assembly: VMAppCore.dll  

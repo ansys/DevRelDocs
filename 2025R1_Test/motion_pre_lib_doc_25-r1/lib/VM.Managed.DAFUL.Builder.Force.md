@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_Builder_Force"></a> Namespace VM.Managed.DAFUL.Builder.Force
+#  Namespace VM.Managed.DAFUL.Builder.Force
 
 ### Classes
 

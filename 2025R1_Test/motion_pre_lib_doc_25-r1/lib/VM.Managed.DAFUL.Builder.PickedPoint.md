@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_Builder_PickedPoint"></a> Class PickedPoint
+#  Class PickedPoint
 
 Namespace: [VM.Managed.DAFUL.Builder](VM.Managed.DAFUL.Builder.md)  
 Assembly: VMBld.dll  

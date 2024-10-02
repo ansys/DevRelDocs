@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DFException"></a> Class DFException
+#  Class DFException
 
 Namespace: [VM.Managed](VM.Managed.md)  
 Assembly: VMAppCore.dll  

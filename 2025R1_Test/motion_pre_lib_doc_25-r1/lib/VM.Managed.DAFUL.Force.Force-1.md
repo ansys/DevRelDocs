@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_Force_Force_1"></a> Class Force<TProperty\>
+#  Class Force<TProperty\>
 
 Namespace: [VM.Managed.DAFUL.Force](VM.Managed.DAFUL.Force.md)  
 Assembly: VMDFB.dll  

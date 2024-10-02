@@ -1,4 +1,4 @@
-# <a id="VM_Managed_IMarker"></a> Interface IMarker
+#  Interface IMarker
 
 Namespace: [VM.Managed](VM.Managed.md)  
 Assembly: VMAppCore.dll  

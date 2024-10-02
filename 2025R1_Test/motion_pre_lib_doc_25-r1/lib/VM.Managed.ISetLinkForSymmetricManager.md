@@ -1,4 +1,4 @@
-# <a id="VM_Managed_ISetLinkForSymmetricManager"></a> Interface ISetLinkForSymmetricManager
+#  Interface ISetLinkForSymmetricManager
 
 Namespace: [VM.Managed](VM.Managed.md)  
 Assembly: VMObjBase.dll  

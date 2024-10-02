@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_Beam_RECTANGULAR"></a> Class RECTANGULAR
+#  Class RECTANGULAR
 
 Namespace: [VM.Managed.DAFUL.Beam](VM.Managed.DAFUL.Beam.md)  
 Assembly: VM.Models.FE.BeamCrossSection.dll  

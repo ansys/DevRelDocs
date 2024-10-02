@@ -1,4 +1,4 @@
-# <a id="VM_Managed_TMatrix"></a> Class TMatrix
+#  Class TMatrix
 
 Namespace: [VM.Managed](VM.Managed.md)  
 Assembly: VMAppCore.dll  

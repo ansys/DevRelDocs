@@ -1,4 +1,4 @@
-# <a id="VM_Managed_Symmetric_OrientationEulerAngle"></a> Class OrientationEulerAngle
+#  Class OrientationEulerAngle
 
 Namespace: [VM.Managed.Symmetric](VM.Managed.Symmetric.md)  
 Assembly: VMSymBase.dll  

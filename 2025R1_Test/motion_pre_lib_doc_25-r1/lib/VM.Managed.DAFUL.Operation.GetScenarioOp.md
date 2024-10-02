@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_Operation_GetScenarioOp"></a> Class GetScenarioOp
+#  Class GetScenarioOp
 
 Namespace: [VM.Managed.DAFUL.Operation](VM.Managed.DAFUL.Operation.md)  
 Assembly: VMOpCore.dll  

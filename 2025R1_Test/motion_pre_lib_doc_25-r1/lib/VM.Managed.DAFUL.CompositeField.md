@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_CompositeField"></a> Class CompositeField
+#  Class CompositeField
 
 Namespace: [VM.Managed.DAFUL](VM.Managed.DAFUL.md)  
 Assembly: VMDFBase.dll  

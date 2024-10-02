@@ -1,4 +1,4 @@
-# <a id="VM_Managed_Document"></a> Class Document
+#  Class Document
 
 Namespace: [VM.Managed](VM.Managed.md)  
 Assembly: VMAppCore.dll  

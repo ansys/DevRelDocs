@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_GearTrain_CAD_AddedSlidingBearingBuilder"></a> Class AddedSlidingBearingBuilder
+#  Class AddedSlidingBearingBuilder
 
 Namespace: [VM.Managed.DAFUL.GearTrain.CAD](VM.Managed.DAFUL.GearTrain.CAD.md)  
 Assembly: VMDGearTrain.dll  

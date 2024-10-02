@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_GearTrain_PowerLoad_PowerLoadType"></a> Enum PowerLoad.PowerLoadType
+#  Enum PowerLoad.PowerLoadType
 
 Namespace: [VM.Managed.DAFUL.GearTrain](VM.Managed.DAFUL.GearTrain.md)  
 Assembly: VMDGearTrain.dll  

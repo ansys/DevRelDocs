@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_Constraints_CouplerBase_1"></a> Class CouplerBase<TProperty\>
+#  Class CouplerBase<TProperty\>
 
 Namespace: [VM.Managed.DAFUL.Constraints](VM.Managed.DAFUL.Constraints.md)  
 Assembly: VMDCP.dll  

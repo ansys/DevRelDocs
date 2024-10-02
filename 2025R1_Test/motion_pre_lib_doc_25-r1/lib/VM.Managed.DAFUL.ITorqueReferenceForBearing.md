@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_ITorqueReferenceForBearing"></a> Interface ITorqueReferenceForBearing
+#  Interface ITorqueReferenceForBearing
 
 Namespace: [VM.Managed.DAFUL](VM.Managed.DAFUL.md)  
 Assembly: VMDFBase.dll  

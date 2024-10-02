@@ -1,4 +1,4 @@
-# <a id="VM_CAD_Kernel_KernelObject"></a> Class KernelObject
+#  Class KernelObject
 
 Namespace: [VM.CAD.Kernel](VM.CAD.Kernel.md)  
 Assembly: VM.CAD.Kernel.dll  

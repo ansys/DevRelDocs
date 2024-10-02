@@ -1,4 +1,4 @@
-# <a id="VM_IObjectExtensions"></a> Class IObjectExtensions
+#  Class IObjectExtensions
 
 Namespace: [VM](VM.md)  
 Assembly: VM.Operations.Pre.dll  

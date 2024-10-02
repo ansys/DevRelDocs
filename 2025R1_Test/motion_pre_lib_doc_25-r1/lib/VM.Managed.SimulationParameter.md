@@ -1,4 +1,4 @@
-# <a id="VM_Managed_SimulationParameter"></a> Class SimulationParameter
+#  Class SimulationParameter
 
 Namespace: [VM.Managed](VM.Managed.md)  
 Assembly: VMObjBase.dll  

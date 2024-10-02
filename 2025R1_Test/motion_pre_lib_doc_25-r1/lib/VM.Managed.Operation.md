@@ -1,4 +1,4 @@
-# <a id="VM_Managed_Operation"></a> Namespace VM.Managed.Operation
+#  Namespace VM.Managed.Operation
 
 ### Classes
 

@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_Builder_PickedResult_PickedType"></a> Enum PickedResult.PickedType
+#  Enum PickedResult.PickedType
 
 Namespace: [VM.Managed.DAFUL.Builder](VM.Managed.DAFUL.Builder.md)  
 Assembly: VMBld.dll  

@@ -1,4 +1,4 @@
-# <a id="VM_Managed_Symmetric_Connector_2"></a> Class Connector<T, TProp\>
+#  Class Connector<T, TProp\>
 
 Namespace: [VM.Managed.Symmetric](VM.Managed.Symmetric.md)  
 Assembly: VMSymBase.dll  

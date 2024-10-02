@@ -1,4 +1,4 @@
-# <a id="VM_API_Pre_Car_DocumentAPIImpl"></a> Class DocumentAPIImpl
+#  Class DocumentAPIImpl
 
 Namespace: [VM.API.Pre.Car](VM.API.Pre.Car.md)  
 Assembly: VM.API.Pre.Car.dll  

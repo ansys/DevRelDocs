@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DirectionOnEllipseNormal"></a> Class DirectionOnEllipseNormal
+#  Class DirectionOnEllipseNormal
 
 Namespace: [VM.Managed](VM.Managed.md)  
 Assembly: VMAppCore.dll  

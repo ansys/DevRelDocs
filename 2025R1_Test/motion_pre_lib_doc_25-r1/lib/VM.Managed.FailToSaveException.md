@@ -1,4 +1,4 @@
-# <a id="VM_Managed_FailToSaveException"></a> Class FailToSaveException
+#  Class FailToSaveException
 
 Namespace: [VM.Managed](VM.Managed.md)  
 Assembly: VMAppCore.dll  

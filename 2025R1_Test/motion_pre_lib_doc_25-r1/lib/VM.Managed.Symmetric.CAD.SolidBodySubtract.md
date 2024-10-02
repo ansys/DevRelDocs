@@ -1,4 +1,4 @@
-# <a id="VM_Managed_Symmetric_CAD_SolidBodySubtract"></a> Class SolidBodySubtract
+#  Class SolidBodySubtract
 
 Namespace: [VM.Managed.Symmetric.CAD](VM.Managed.Symmetric.CAD.md)  
 Assembly: VMSymBase.dll  

@@ -1,4 +1,4 @@
-# <a id="VM_Managed_NullReferenceWhenAddDocExeption"></a> Class NullReferenceWhenAddDocExeption
+#  Class NullReferenceWhenAddDocExeption
 
 Namespace: [VM.Managed](VM.Managed.md)  
 Assembly: VMAppCore.dll  

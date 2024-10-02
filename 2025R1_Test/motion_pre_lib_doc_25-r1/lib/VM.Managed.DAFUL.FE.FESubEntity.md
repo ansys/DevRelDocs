@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_FE_FESubEntity"></a> Class FESubEntity
+#  Class FESubEntity
 
 Namespace: [VM.Managed.DAFUL.FE](VM.Managed.DAFUL.FE.md)  
 Assembly: VMFE.dll  

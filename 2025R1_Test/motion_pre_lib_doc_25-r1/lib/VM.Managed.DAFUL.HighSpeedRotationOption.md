@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_HighSpeedRotationOption"></a> Enum HighSpeedRotationOption
+#  Enum HighSpeedRotationOption
 
 Namespace: [VM.Managed.DAFUL](VM.Managed.DAFUL.md)  
 Assembly: VMDFBase.dll  

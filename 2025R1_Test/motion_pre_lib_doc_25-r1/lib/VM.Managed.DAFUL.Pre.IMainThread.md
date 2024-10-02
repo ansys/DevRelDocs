@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_Pre_IMainThread"></a> Interface IMainThread
+#  Interface IMainThread
 
 Namespace: [VM.Managed.DAFUL.Pre](VM.Managed.DAFUL.Pre.md)  
 Assembly: dfpredat.dll  

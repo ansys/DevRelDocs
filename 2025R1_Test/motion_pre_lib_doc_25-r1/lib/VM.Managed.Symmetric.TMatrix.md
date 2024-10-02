@@ -1,4 +1,4 @@
-# <a id="VM_Managed_Symmetric_TMatrix"></a> Class TMatrix
+#  Class TMatrix
 
 Namespace: [VM.Managed.Symmetric](VM.Managed.Symmetric.md)  
 Assembly: VMSymBase.dll  

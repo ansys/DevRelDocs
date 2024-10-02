@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_Builder_MeshFree_RigidBodyElementSingle_Faces"></a> Class RigidBodyElementSingle\_Faces
+#  Class RigidBodyElementSingle\_Faces
 
 Namespace: [VM.Managed.DAFUL.Builder.MeshFree](VM.Managed.DAFUL.Builder.MeshFree.md)  
 Assembly: VMBldMeshFree.dll  

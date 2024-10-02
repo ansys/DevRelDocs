@@ -1,4 +1,4 @@
-# <a id="VM_Managed_ILink"></a> Interface ILink
+#  Interface ILink
 
 Namespace: [VM.Managed](VM.Managed.md)  
 Assembly: VMAppCore.dll  

@@ -1,4 +1,4 @@
-# <a id="VM_Operations_Post_Interfaces_IOperationsEigenValueAnalysisResultViewModel"></a> Interface IOperationsEigenValueAnalysisResultViewModel
+#  Interface IOperationsEigenValueAnalysisResultViewModel
 
 Namespace: [VM.Operations.Post.Interfaces](VM.Operations.Post.Interfaces.md)  
 Assembly: VM.Operations.Post.dll  

@@ -1,4 +1,4 @@
-# <a id="VM_UnitType"></a> Enum UnitType
+#  Enum UnitType
 
 Namespace: [VM](VM.md)  
 Assembly: VM.dll  

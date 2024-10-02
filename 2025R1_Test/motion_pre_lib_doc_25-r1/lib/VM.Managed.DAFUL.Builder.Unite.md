@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_Builder_Unite"></a> Class Unite
+#  Class Unite
 
 Namespace: [VM.Managed.DAFUL.Builder](VM.Managed.DAFUL.Builder.md)  
 Assembly: VMBld.dll  

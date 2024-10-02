@@ -1,4 +1,4 @@
-# <a id="VM_CAD_Builders_BuilderParamPlaneCircle"></a> Class BuilderParamPlaneCircle
+#  Class BuilderParamPlaneCircle
 
 Namespace: [VM.CAD.Builders](VM.CAD.Builders.md)  
 Assembly: VM.CAD.Builders.dll  

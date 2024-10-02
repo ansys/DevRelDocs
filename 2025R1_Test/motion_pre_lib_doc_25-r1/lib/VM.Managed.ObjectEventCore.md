@@ -1,4 +1,4 @@
-# <a id="VM_Managed_ObjectEventCore"></a> Class ObjectEventCore
+#  Class ObjectEventCore
 
 Namespace: [VM.Managed](VM.Managed.md)  
 Assembly: VMAppCore.dll  

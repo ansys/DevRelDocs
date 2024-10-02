@@ -1,4 +1,4 @@
-# <a id="VM_API_Pre_TireAPI"></a> Class TireAPI
+#  Class TireAPI
 
 Namespace: [VM.API.Pre](VM.API.Pre.md)  
 Assembly: VM.API.Pre.dll  

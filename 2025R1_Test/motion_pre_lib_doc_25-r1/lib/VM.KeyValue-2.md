@@ -1,4 +1,4 @@
-# <a id="VM_KeyValue_2"></a> Class KeyValue<TKey, TValue\>
+#  Class KeyValue<TKey, TValue\>
 
 Namespace: [VM](VM.md)  
 Assembly: VM.dll  

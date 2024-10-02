@@ -1,4 +1,4 @@
-# <a id="VM_Managed_Symmetric_CAD_SolidBodySphereSimple"></a> Class SolidBodySphereSimple
+#  Class SolidBodySphereSimple
 
 Namespace: [VM.Managed.Symmetric.CAD](VM.Managed.Symmetric.CAD.md)  
 Assembly: VMSymBase.dll  

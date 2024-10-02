@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_IContactGeometry2D"></a> Interface IContactGeometry2D
+#  Interface IContactGeometry2D
 
 Namespace: [VM.Managed.DAFUL](VM.Managed.DAFUL.md)  
 Assembly: VMDFBase.dll  

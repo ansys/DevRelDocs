@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_Force_Vector"></a> Class Vector
+#  Class Vector
 
 Namespace: [VM.Managed.DAFUL.Force](VM.Managed.DAFUL.Force.md)  
 Assembly: VMDFP.dll  

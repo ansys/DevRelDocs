@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_Builder_Beam"></a> Namespace VM.Managed.DAFUL.Builder.Beam
+#  Namespace VM.Managed.DAFUL.Builder.Beam
 
 ### Classes
 

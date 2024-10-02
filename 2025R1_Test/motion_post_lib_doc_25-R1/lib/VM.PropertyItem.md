@@ -1,4 +1,4 @@
-# <a id="VM_PropertyItem"></a> Class PropertyItem
+#  Class PropertyItem
 
 Namespace: [VM](VM.md)  
 Assembly: VM.dll  

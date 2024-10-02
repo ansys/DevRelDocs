@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_DOE_Result_SerializableDictionary_2"></a> Class SerializableDictionary<TKey, TValue\>
+#  Class SerializableDictionary<TKey, TValue\>
 
 Namespace: [VM.Managed.DAFUL.DOE.Result](VM.Managed.DAFUL.DOE.Result.md)  
 Assembly: VMDDOEResult.dll  

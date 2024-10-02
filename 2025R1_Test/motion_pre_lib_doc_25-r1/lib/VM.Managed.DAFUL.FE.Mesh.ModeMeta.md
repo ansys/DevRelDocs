@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_FE_Mesh_ModeMeta"></a> Enum Mesh.ModeMeta
+#  Enum Mesh.ModeMeta
 
 Namespace: [VM.Managed.DAFUL.FE](VM.Managed.DAFUL.FE.md)  
 Assembly: VMFE.dll  

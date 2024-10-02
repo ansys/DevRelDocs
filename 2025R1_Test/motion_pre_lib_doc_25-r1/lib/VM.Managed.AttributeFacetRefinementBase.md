@@ -1,4 +1,4 @@
-# <a id="VM_Managed_AttributeFacetRefinementBase"></a> Class AttributeFacetRefinementBase
+#  Class AttributeFacetRefinementBase
 
 Namespace: [VM.Managed](VM.Managed.md)  
 Assembly: VMAppCore.dll  

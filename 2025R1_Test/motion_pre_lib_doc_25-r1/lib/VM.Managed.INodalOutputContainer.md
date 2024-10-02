@@ -1,4 +1,4 @@
-# <a id="VM_Managed_INodalOutputContainer"></a> Interface INodalOutputContainer
+#  Interface INodalOutputContainer
 
 Namespace: [VM.Managed](VM.Managed.md)  
 Assembly: VMAppCore.dll  

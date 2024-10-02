@@ -1,4 +1,4 @@
-# <a id="VM_Models_FE_Mesh_Writer_NeutralWriter"></a> Class NeutralWriter
+#  Class NeutralWriter
 
 Namespace: [VM.Models.FE.Mesh.Writer](VM.Models.FE.Mesh.Writer.md)  
 Assembly: VM.Models.FE.Mesh.dll  

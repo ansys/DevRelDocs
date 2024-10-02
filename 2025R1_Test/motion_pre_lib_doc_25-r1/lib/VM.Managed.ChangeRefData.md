@@ -1,4 +1,4 @@
-# <a id="VM_Managed_ChangeRefData"></a> Class ChangeRefData
+#  Class ChangeRefData
 
 Namespace: [VM.Managed](VM.Managed.md)  
 Assembly: VMAppCore.dll  

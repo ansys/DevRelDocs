@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_Car_ApplyParameterOperation_ApplyParameterCallback"></a> Delegate ApplyParameterOperation.ApplyParameterCallback
+#  Delegate ApplyParameterOperation.ApplyParameterCallback
 
 Namespace: [VM.Managed.DAFUL.Car](VM.Managed.DAFUL.Car.md)  
 Assembly: VMDCar.dll  

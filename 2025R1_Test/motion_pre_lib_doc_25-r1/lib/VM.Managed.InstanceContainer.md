@@ -1,4 +1,4 @@
-# <a id="VM_Managed_InstanceContainer"></a> Class InstanceContainer
+#  Class InstanceContainer
 
 Namespace: [VM.Managed](VM.Managed.md)  
 Assembly: VMObjBase.dll  

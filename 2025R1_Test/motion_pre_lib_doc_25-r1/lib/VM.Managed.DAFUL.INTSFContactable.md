@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_INTSFContactable"></a> Interface INTSFContactable
+#  Interface INTSFContactable
 
 Namespace: [VM.Managed.DAFUL](VM.Managed.DAFUL.md)  
 Assembly: VMDFBase.dll  

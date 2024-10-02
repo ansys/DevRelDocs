@@ -1,4 +1,4 @@
-# <a id="VM_CAD_Kernel_Export"></a> Class Export
+#  Class Export
 
 Namespace: [VM.CAD.Kernel](VM.CAD.Kernel.md)  
 Assembly: VM.CAD.Kernel.dll  

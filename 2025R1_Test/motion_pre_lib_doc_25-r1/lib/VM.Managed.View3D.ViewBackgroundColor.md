@@ -1,4 +1,4 @@
-# <a id="VM_Managed_View3D_ViewBackgroundColor"></a> Class View3D.ViewBackgroundColor
+#  Class View3D.ViewBackgroundColor
 
 Namespace: [VM.Managed](VM.Managed.md)  
 Assembly: VMAppCore.dll  

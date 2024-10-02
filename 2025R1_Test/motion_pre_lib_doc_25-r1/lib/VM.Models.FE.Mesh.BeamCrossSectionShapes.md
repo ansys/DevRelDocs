@@ -1,4 +1,4 @@
-# <a id="VM_Models_FE_Mesh_BeamCrossSectionShapes"></a> Enum BeamCrossSectionShapes
+#  Enum BeamCrossSectionShapes
 
 Namespace: [VM.Models.FE.Mesh](VM.Models.FE.Mesh.md)  
 Assembly: VM.Models.FE.Mesh.dll  

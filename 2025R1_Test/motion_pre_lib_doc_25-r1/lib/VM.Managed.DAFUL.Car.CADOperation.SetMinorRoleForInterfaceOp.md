@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_Car_CADOperation_SetMinorRoleForInterfaceOp"></a> Class CADOperation.SetMinorRoleForInterfaceOp
+#  Class CADOperation.SetMinorRoleForInterfaceOp
 
 Namespace: [VM.Managed.DAFUL.Car](VM.Managed.DAFUL.Car.md)  
 Assembly: VMDCar.dll  

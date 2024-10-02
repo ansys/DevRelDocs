@@ -1,4 +1,4 @@
-# <a id="VM_Collections_InheritableDictionary_2"></a> Class InheritableDictionary<TKey, TValue\>
+#  Class InheritableDictionary<TKey, TValue\>
 
 Namespace: [VM.Collections](VM.Collections.md)  
 Assembly: VM.dll  

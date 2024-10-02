@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_Builder_FE"></a> Namespace VM.Managed.DAFUL.Builder.FE
+#  Namespace VM.Managed.DAFUL.Builder.FE
 
 ### Namespaces
 

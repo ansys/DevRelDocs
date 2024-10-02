@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_GearTrain_CAD_OuterRacewayGeometryForRBEInFE"></a> Class OuterRacewayGeometryForRBEInFE
+#  Class OuterRacewayGeometryForRBEInFE
 
 Namespace: [VM.Managed.DAFUL.GearTrain.CAD](VM.Managed.DAFUL.GearTrain.CAD.md)  
 Assembly: VMDGearTrain.dll  

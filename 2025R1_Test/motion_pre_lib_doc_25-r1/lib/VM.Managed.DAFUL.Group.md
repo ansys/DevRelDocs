@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_Group"></a> Class Group
+#  Class Group
 
 Namespace: [VM.Managed.DAFUL](VM.Managed.DAFUL.md)  
 Assembly: VMDFBase.dll  

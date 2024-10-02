@@ -1,4 +1,4 @@
-# <a id="VM_NX_Dialog"></a> Namespace VM.NX.Dialog
+#  Namespace VM.NX.Dialog
 
 ### Namespaces
 

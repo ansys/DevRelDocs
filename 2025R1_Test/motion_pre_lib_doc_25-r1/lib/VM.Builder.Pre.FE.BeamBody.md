@@ -1,4 +1,4 @@
-# <a id="VM_Builder_Pre_FE_BeamBody"></a> Class BeamBody
+#  Class BeamBody
 
 Namespace: [VM.Builder.Pre.FE](VM.Builder.Pre.FE.md)  
 Assembly: VM.Builder.Pre.FE.dll  

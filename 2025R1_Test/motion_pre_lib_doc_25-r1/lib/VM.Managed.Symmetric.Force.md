@@ -1,4 +1,4 @@
-# <a id="VM_Managed_Symmetric_Force"></a> Namespace VM.Managed.Symmetric.Force
+#  Namespace VM.Managed.Symmetric.Force
 
 ### Classes
 

@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_GearTrain_MatrixLib"></a> Class MatrixLib
+#  Class MatrixLib
 
 Namespace: [VM.Managed.DAFUL.GearTrain](VM.Managed.DAFUL.GearTrain.md)  
 Assembly: VMDGearTrain.dll  

@@ -1,4 +1,4 @@
-# <a id="VM_API_Pre_AdvancedRestriction"></a> Struct AdvancedRestriction
+#  Struct AdvancedRestriction
 
 Namespace: [VM.API.Pre](VM.API.Pre.md)  
 Assembly: VM.API.Pre.dll  

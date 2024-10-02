@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_FE_AttributeShellToSolid"></a> Class AttributeShellToSolid
+#  Class AttributeShellToSolid
 
 Namespace: [VM.Managed.DAFUL.FE](VM.Managed.DAFUL.FE.md)  
 Assembly: VMFE.dll  

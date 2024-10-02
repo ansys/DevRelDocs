@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_Track"></a> Namespace VM.Managed.DAFUL.Track
+#  Namespace VM.Managed.DAFUL.Track
 
 ### Namespaces
 

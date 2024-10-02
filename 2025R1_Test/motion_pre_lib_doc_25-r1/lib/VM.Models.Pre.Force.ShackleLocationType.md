@@ -1,4 +1,4 @@
-# <a id="VM_Models_Pre_Force_ShackleLocationType"></a> Enum ShackleLocationType
+#  Enum ShackleLocationType
 
 Namespace: [VM.Models.Pre.Force](VM.Models.Pre.Force.md)  
 Assembly: VM.Models.Pre.Force.LeafSpring.dll  

@@ -1,4 +1,4 @@
-# <a id="VM_Managed_View3D"></a> Class View3D
+#  Class View3D
 
 Namespace: [VM.Managed](VM.Managed.md)  
 Assembly: VMAppCore.dll  

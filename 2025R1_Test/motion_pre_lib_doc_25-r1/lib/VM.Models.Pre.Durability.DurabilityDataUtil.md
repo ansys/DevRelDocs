@@ -1,4 +1,4 @@
-# <a id="VM_Models_Pre_Durability_DurabilityDataUtil"></a> Class DurabilityDataUtil
+#  Class DurabilityDataUtil
 
 Namespace: [VM.Models.Pre.Durability](VM.Models.Pre.Durability.md)  
 Assembly: VM.Models.Pre.Durability.dll  

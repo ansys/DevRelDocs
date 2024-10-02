@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_FE_FlexibleBodyType"></a> Enum FlexibleBodyType
+#  Enum FlexibleBodyType
 
 Namespace: [VM.Managed.DAFUL.FE](VM.Managed.DAFUL.FE.md)  
 Assembly: VMFE.dll  

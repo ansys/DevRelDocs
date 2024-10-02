@@ -1,4 +1,4 @@
-# <a id="VM_Managed_Object_1"></a> Class Object<TEventCore\>
+#  Class Object<TEventCore\>
 
 Namespace: [VM.Managed](VM.Managed.md)  
 Assembly: VMAppCore.dll  

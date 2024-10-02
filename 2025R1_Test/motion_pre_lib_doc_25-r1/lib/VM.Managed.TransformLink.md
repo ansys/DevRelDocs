@@ -1,4 +1,4 @@
-# <a id="VM_Managed_TransformLink"></a> Class TransformLink
+#  Class TransformLink
 
 Namespace: [VM.Managed](VM.Managed.md)  
 Assembly: VMAppCore.dll  

@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_SetCurveBase"></a> Class SetCurveBase
+#  Class SetCurveBase
 
 Namespace: [VM.Managed.DAFUL](VM.Managed.DAFUL.md)  
 Assembly: VMDFBase.dll  

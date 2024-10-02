@@ -1,4 +1,4 @@
-# <a id="VM_Managed_CAD_GetFacetInformationForFaceOp"></a> Class GetFacetInformationForFaceOp
+#  Class GetFacetInformationForFaceOp
 
 Namespace: [VM.Managed.CAD](VM.Managed.CAD.md)  
 Assembly: VMAppCore.dll  

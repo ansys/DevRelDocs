@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_Beam_BeamGroup"></a> Class BeamGroup
+#  Class BeamGroup
 
 Namespace: [VM.Managed.DAFUL.Beam](VM.Managed.DAFUL.Beam.md)  
 Assembly: VMDBeamGroup.dll  

@@ -1,4 +1,4 @@
-# <a id="VM_Managed_CAD_Edge"></a> Class Edge
+#  Class Edge
 
 Namespace: [VM.Managed.CAD](VM.Managed.CAD.md)  
 Assembly: VMAppCore.dll  

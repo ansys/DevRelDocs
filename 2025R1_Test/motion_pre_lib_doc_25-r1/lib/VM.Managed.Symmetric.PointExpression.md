@@ -1,4 +1,4 @@
-# <a id="VM_Managed_Symmetric_PointExpression"></a> Class PointExpression
+#  Class PointExpression
 
 Namespace: [VM.Managed.Symmetric](VM.Managed.Symmetric.md)  
 Assembly: VMSymBase.dll  

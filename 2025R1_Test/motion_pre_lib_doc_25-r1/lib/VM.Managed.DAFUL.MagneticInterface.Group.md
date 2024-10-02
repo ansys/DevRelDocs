@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_MagneticInterface_Group"></a> Class MagneticInterface.Group
+#  Class MagneticInterface.Group
 
 Namespace: [VM.Managed.DAFUL](VM.Managed.DAFUL.md)  
 Assembly: VMAppCore.dll  

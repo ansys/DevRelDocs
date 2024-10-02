@@ -1,4 +1,4 @@
-# <a id="VM_Models_Pre_Symmetric_Connections_General"></a> Class General
+#  Class General
 
 Namespace: [VM.Models.Pre.Symmetric.Connections](VM.Models.Pre.Symmetric.Connections.md)  
 Assembly: VM.Models.Pre.Symmetric.Connections.dll  

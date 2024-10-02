@@ -1,4 +1,4 @@
-# <a id="VM_Managed_PropertyEventCore"></a> Class PropertyEventCore
+#  Class PropertyEventCore
 
 Namespace: [VM.Managed](VM.Managed.md)  
 Assembly: VMObjBase.dll  

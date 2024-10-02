@@ -1,4 +1,4 @@
-# <a id="VM_IDeletable"></a> Interface IDeletable
+#  Interface IDeletable
 
 Namespace: [VM](VM.md)  
 Assembly: VM.dll  

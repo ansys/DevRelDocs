@@ -1,4 +1,4 @@
-# <a id="VM_XmlReaderExtension"></a> Class XmlReaderExtension
+#  Class XmlReaderExtension
 
 Namespace: [VM](VM.md)  
 Assembly: VM.dll  

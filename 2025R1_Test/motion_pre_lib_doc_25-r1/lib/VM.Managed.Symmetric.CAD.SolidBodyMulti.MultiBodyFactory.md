@@ -1,4 +1,4 @@
-# <a id="VM_Managed_Symmetric_CAD_SolidBodyMulti_MultiBodyFactory"></a> Class SolidBodyMulti.MultiBodyFactory
+#  Class SolidBodyMulti.MultiBodyFactory
 
 Namespace: [VM.Managed.Symmetric.CAD](VM.Managed.Symmetric.CAD.md)  
 Assembly: VMSymBase.dll  

@@ -1,4 +1,4 @@
-# <a id="VM_Managed_Gravity"></a> Class Gravity
+#  Class Gravity
 
 Namespace: [VM.Managed](VM.Managed.md)  
 Assembly: VMObjBase.dll  

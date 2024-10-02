@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_GearTrain_RVReducer"></a> Class RVReducer
+#  Class RVReducer
 
 Namespace: [VM.Managed.DAFUL.GearTrain](VM.Managed.DAFUL.GearTrain.md)  
 Assembly: VMDGearTrain.dll  

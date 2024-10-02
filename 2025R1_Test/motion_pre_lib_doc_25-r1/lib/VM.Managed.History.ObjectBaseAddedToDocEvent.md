@@ -1,4 +1,4 @@
-# <a id="VM_Managed_History_ObjectBaseAddedToDocEvent"></a> Class ObjectBaseAddedToDocEvent
+#  Class ObjectBaseAddedToDocEvent
 
 Namespace: [VM.Managed.History](VM.Managed.History.md)  
 Assembly: VMAppCore.dll  

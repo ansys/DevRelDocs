@@ -1,4 +1,4 @@
-# <a id="VM_CAD_Kernel_extension"></a> Class extension
+#  Class extension
 
 Namespace: [VM.CAD.Kernel](VM.CAD.Kernel.md)  
 Assembly: VM.CAD.Kernel.dll  

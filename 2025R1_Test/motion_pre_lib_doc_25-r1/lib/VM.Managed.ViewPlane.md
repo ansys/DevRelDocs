@@ -1,4 +1,4 @@
-# <a id="VM_Managed_ViewPlane"></a> Enum ViewPlane
+#  Enum ViewPlane
 
 Namespace: [VM.Managed](VM.Managed.md)  
 Assembly: VMAppCore.dll  

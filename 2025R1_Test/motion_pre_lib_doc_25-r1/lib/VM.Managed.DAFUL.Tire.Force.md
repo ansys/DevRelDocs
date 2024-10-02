@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_Tire_Force"></a> Namespace VM.Managed.DAFUL.Tire.Force
+#  Namespace VM.Managed.DAFUL.Tire.Force
 
 ### Classes
 

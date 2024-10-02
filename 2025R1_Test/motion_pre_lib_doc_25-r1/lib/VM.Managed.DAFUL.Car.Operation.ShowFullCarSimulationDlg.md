@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_Car_Operation_ShowFullCarSimulationDlg"></a> Class ShowFullCarSimulationDlg
+#  Class ShowFullCarSimulationDlg
 
 Namespace: [VM.Managed.DAFUL.Car.Operation](VM.Managed.DAFUL.Car.Operation.md)  
 Assembly: VMOpFullCar.dll  

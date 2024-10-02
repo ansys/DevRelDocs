@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_Builder_Force_RScalarBBPD"></a> Class RScalarBBPD
+#  Class RScalarBBPD
 
 Namespace: [VM.Managed.DAFUL.Builder.Force](VM.Managed.DAFUL.Builder.Force.md)  
 Assembly: VMBldFP.dll  

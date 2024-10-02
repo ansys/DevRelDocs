@@ -1,4 +1,4 @@
-# <a id="VM_Managed_OrientationMatrix"></a> Class OrientationMatrix
+#  Class OrientationMatrix
 
 Namespace: [VM.Managed](VM.Managed.md)  
 Assembly: VMAppCore.dll  

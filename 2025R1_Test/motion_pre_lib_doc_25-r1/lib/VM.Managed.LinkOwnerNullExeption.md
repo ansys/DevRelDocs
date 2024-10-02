@@ -1,4 +1,4 @@
-# <a id="VM_Managed_LinkOwnerNullExeption"></a> Class LinkOwnerNullExeption
+#  Class LinkOwnerNullExeption
 
 Namespace: [VM.Managed](VM.Managed.md)  
 Assembly: VMAppCore.dll  

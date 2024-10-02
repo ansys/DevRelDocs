@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_Pre_Module_Command"></a> Class Module.Command
+#  Class Module.Command
 
 Namespace: [VM.Managed.DAFUL.Pre](VM.Managed.DAFUL.Pre.md)  
 Assembly: dfpredat.dll  

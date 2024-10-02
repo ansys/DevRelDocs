@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_GearTrain_Force_PropertyMotorEMForce_MaxwellResultInformation"></a> Class PropertyMotorEMForce.MaxwellResultInformation
+#  Class PropertyMotorEMForce.MaxwellResultInformation
 
 Namespace: [VM.Managed.DAFUL.GearTrain.Force](VM.Managed.DAFUL.GearTrain.Force.md)  
 Assembly: VMDGearTrain.dll  

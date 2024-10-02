@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_Builder_Sprocket"></a> Namespace VM.Managed.DAFUL.Builder.Sprocket
+#  Namespace VM.Managed.DAFUL.Builder.Sprocket
 
 ### Classes
 

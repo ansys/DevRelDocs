@@ -1,4 +1,4 @@
-# <a id="VM_Managed_CAD_Track_BodyLink"></a> Class BodyLink
+#  Class BodyLink
 
 Namespace: [VM.Managed.CAD.Track](VM.Managed.CAD.Track.md)  
 Assembly: VMDTrackBase.dll  

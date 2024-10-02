@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_Car_SteeringDocument"></a> Class SteeringDocument
+#  Class SteeringDocument
 
 Namespace: [VM.Managed.DAFUL.Car](VM.Managed.DAFUL.Car.md)  
 Assembly: VMDCar.dll  

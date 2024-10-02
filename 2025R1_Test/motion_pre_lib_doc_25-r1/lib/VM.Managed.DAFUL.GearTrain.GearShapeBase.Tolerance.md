@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_GearTrain_GearShapeBase_Tolerance"></a> Class GearShapeBase.Tolerance
+#  Class GearShapeBase.Tolerance
 
 Namespace: [VM.Managed.DAFUL.GearTrain](VM.Managed.DAFUL.GearTrain.md)  
 Assembly: VMDGearTrain.dll  

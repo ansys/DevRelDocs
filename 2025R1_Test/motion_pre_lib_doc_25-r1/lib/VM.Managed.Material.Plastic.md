@@ -1,4 +1,4 @@
-# <a id="VM_Managed_Material_Plastic"></a> Class Plastic
+#  Class Plastic
 
 Namespace: [VM.Managed.Material](VM.Managed.Material.md)  
 Assembly: VMObjBase.dll  

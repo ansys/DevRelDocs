@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_GearTrain_ShaftSetMeshFree"></a> Class ShaftSetMeshFree
+#  Class ShaftSetMeshFree
 
 Namespace: [VM.Managed.DAFUL.GearTrain](VM.Managed.DAFUL.GearTrain.md)  
 Assembly: VMDGearTrain.dll  

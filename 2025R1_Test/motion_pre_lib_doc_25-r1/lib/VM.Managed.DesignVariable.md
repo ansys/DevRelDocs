@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DesignVariable"></a> Class DesignVariable
+#  Class DesignVariable
 
 Namespace: [VM.Managed](VM.Managed.md)  
 Assembly: VMObjBase.dll  

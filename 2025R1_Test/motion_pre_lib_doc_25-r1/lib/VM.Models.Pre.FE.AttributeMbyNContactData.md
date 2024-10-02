@@ -1,4 +1,4 @@
-# <a id="VM_Models_Pre_FE_AttributeMbyNContactData"></a> Struct AttributeMbyNContactData
+#  Struct AttributeMbyNContactData
 
 Namespace: [VM.Models.Pre.FE](VM.Models.Pre.FE.md)  
 Assembly: VM.Models.Pre.FE.dll  

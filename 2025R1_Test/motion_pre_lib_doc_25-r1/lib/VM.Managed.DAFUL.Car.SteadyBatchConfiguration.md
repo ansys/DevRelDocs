@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_Car_SteadyBatchConfiguration"></a> Class SteadyBatchConfiguration
+#  Class SteadyBatchConfiguration
 
 Namespace: [VM.Managed.DAFUL.Car](VM.Managed.DAFUL.Car.md)  
 Assembly: VMDCar.dll  

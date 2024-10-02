@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_Linear_Actuator_1"></a> Class Actuator<TProperty\>
+#  Class Actuator<TProperty\>
 
 Namespace: [VM.Managed.DAFUL.Linear](VM.Managed.DAFUL.Linear.md)  
 Assembly: VMDLinear.dll  

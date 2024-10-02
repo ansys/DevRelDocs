@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_Track_BekkerFormulation"></a> Class BekkerFormulation
+#  Class BekkerFormulation
 
 Namespace: [VM.Managed.DAFUL.Track](VM.Managed.DAFUL.Track.md)  
 Assembly: VMDTrackBase.dll  

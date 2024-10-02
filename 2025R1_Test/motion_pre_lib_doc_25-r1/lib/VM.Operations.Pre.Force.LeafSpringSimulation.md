@@ -1,4 +1,4 @@
-# <a id="VM_Operations_Pre_Force_LeafSpringSimulation"></a> Class LeafSpringSimulation
+#  Class LeafSpringSimulation
 
 Namespace: [VM.Operations.Pre.Force](VM.Operations.Pre.Force.md)  
 Assembly: VM.Operations.Pre.Force.dll  

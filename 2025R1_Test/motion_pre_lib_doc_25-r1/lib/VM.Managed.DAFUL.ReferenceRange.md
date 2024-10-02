@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_ReferenceRange"></a> Class ReferenceRange
+#  Class ReferenceRange
 
 Namespace: [VM.Managed.DAFUL](VM.Managed.DAFUL.md)  
 Assembly: VMDFBase.dll  

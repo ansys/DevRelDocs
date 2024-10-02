@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_Linear"></a> Namespace VM.Managed.DAFUL.Linear
+#  Namespace VM.Managed.DAFUL.Linear
 
 ### Namespaces
 

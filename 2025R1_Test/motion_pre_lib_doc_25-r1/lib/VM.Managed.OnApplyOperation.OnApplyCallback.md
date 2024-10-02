@@ -1,4 +1,4 @@
-# <a id="VM_Managed_OnApplyOperation_OnApplyCallback"></a> Delegate OnApplyOperation.OnApplyCallback
+#  Delegate OnApplyOperation.OnApplyCallback
 
 Namespace: [VM.Managed](VM.Managed.md)  
 Assembly: VMObjBase.dll  

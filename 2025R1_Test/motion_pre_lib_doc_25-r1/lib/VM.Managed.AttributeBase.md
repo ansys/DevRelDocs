@@ -1,4 +1,4 @@
-# <a id="VM_Managed_AttributeBase"></a> Class AttributeBase
+#  Class AttributeBase
 
 Namespace: [VM.Managed](VM.Managed.md)  
 Assembly: VMAppCore.dll  

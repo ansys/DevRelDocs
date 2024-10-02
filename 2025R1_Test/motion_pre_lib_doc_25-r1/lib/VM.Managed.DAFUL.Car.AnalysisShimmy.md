@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_Car_AnalysisShimmy"></a> Class AnalysisShimmy
+#  Class AnalysisShimmy
 
 Namespace: [VM.Managed.DAFUL.Car](VM.Managed.DAFUL.Car.md)  
 Assembly: VMDFullCar.dll  

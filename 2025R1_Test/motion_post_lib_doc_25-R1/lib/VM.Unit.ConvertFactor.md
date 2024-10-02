@@ -1,4 +1,4 @@
-# <a id="VM_Unit_ConvertFactor"></a> Class Unit.ConvertFactor
+#  Class Unit.ConvertFactor
 
 Namespace: [VM](VM.md)  
 Assembly: VM.dll  

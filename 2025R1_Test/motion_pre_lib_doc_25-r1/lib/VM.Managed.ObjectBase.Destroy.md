@@ -1,4 +1,4 @@
-# <a id="VM_Managed_ObjectBase_Destroy"></a> Struct ObjectBase.Destroy
+#  Struct ObjectBase.Destroy
 
 Namespace: [VM.Managed](VM.Managed.md)  
 Assembly: VMAppCore.dll  

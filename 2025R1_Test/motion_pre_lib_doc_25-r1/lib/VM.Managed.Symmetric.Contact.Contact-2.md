@@ -1,4 +1,4 @@
-# <a id="VM_Managed_Symmetric_Contact_Contact_2"></a> Class Contact<T, TProp\>
+#  Class Contact<T, TProp\>
 
 Namespace: [VM.Managed.Symmetric.Contact](VM.Managed.Symmetric.Contact.md)  
 Assembly: VMSymCt.dll  

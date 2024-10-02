@@ -1,4 +1,4 @@
-# <a id="VM_Identifier"></a> Struct Identifier
+#  Struct Identifier
 
 Namespace: [VM](VM.md)  
 Assembly: VM.dll  

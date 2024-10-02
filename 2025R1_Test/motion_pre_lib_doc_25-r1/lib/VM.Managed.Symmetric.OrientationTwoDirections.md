@@ -1,4 +1,4 @@
-# <a id="VM_Managed_Symmetric_OrientationTwoDirections"></a> Class OrientationTwoDirections
+#  Class OrientationTwoDirections
 
 Namespace: [VM.Managed.Symmetric](VM.Managed.Symmetric.md)  
 Assembly: VMSymBase.dll  

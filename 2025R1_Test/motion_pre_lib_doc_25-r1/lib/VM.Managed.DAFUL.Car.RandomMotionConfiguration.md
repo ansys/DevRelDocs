@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_Car_RandomMotionConfiguration"></a> Class RandomMotionConfiguration
+#  Class RandomMotionConfiguration
 
 Namespace: [VM.Managed.DAFUL.Car](VM.Managed.DAFUL.Car.md)  
 Assembly: VMDCar.dll  

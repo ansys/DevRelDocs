@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_GearTrain_MotorDesigner_MeasuringPointSection_MeasuringInfo"></a> Class MotorDesigner.MeasuringPointSection.MeasuringInfo
+#  Class MotorDesigner.MeasuringPointSection.MeasuringInfo
 
 Namespace: [VM.Managed.DAFUL.GearTrain](VM.Managed.DAFUL.GearTrain.md)  
 Assembly: VMDGearTrain.dll  

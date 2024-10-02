@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_SetPointBase"></a> Class SetPointBase
+#  Class SetPointBase
 
 Namespace: [VM.Managed.DAFUL](VM.Managed.DAFUL.md)  
 Assembly: VMDFBase.dll  

@@ -1,4 +1,4 @@
-# <a id="VM_CAD_Kernel_RoadFileCanvas"></a> Class RoadFileCanvas
+#  Class RoadFileCanvas
 
 Namespace: [VM.CAD.Kernel](VM.CAD.Kernel.md)  
 Assembly: VM.CAD.Kernel.dll  

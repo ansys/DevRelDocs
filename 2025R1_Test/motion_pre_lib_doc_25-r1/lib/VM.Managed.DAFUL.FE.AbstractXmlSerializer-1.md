@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_FE_AbstractXmlSerializer_1"></a> Class AbstractXmlSerializer<AbstractType\>
+#  Class AbstractXmlSerializer<AbstractType\>
 
 Namespace: [VM.Managed.DAFUL.FE](VM.Managed.DAFUL.FE.md)  
 Assembly: VMFE.dll  

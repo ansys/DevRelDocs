@@ -1,4 +1,4 @@
-# <a id="VM_API_Pre_EasyFlex_GlueAPI"></a> Class GlueAPI
+#  Class GlueAPI
 
 Namespace: [VM.API.Pre.EasyFlex](VM.API.Pre.EasyFlex.md)  
 Assembly: VM.API.Pre.EasyFlex.dll  

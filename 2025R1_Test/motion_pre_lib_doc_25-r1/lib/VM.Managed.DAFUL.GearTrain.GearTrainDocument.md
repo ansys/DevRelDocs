@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_GearTrain_GearTrainDocument"></a> Class GearTrainDocument
+#  Class GearTrainDocument
 
 Namespace: [VM.Managed.DAFUL.GearTrain](VM.Managed.DAFUL.GearTrain.md)  
 Assembly: VMDGearTrain.dll  

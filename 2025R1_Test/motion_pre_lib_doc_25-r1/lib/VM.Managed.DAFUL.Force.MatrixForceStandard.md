@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_Force_MatrixForceStandard"></a> Class MatrixForceStandard
+#  Class MatrixForceStandard
 
 Namespace: [VM.Managed.DAFUL.Force](VM.Managed.DAFUL.Force.md)  
 Assembly: VMDFP.dll  

@@ -1,4 +1,4 @@
-# <a id="VM_API_Pre_Car_TireAssembly"></a> Struct TireAssembly
+#  Struct TireAssembly
 
 Namespace: [VM.API.Pre.Car](VM.API.Pre.Car.md)  
 Assembly: VM.API.Pre.Car.dll  

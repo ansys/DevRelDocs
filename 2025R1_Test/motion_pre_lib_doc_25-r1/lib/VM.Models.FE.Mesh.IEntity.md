@@ -1,4 +1,4 @@
-# <a id="VM_Models_FE_Mesh_IEntity"></a> Interface IEntity
+#  Interface IEntity
 
 Namespace: [VM.Models.FE.Mesh](VM.Models.FE.Mesh.md)  
 Assembly: VM.Models.FE.Mesh.dll  

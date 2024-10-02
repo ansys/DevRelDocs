@@ -1,4 +1,4 @@
-# <a id="VM_Managed_Operation_UpdateVariablesForTabShape"></a> Class UpdateVariablesForTabShape
+#  Class UpdateVariablesForTabShape
 
 Namespace: [VM.Managed.Operation](VM.Managed.Operation.md)  
 Assembly: VMOpFEFilm.dll  

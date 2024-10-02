@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_CompositeFieldUsableFunction"></a> Class CompositeFieldUsableFunction
+#  Class CompositeFieldUsableFunction
 
 Namespace: [VM.Managed.DAFUL](VM.Managed.DAFUL.md)  
 Assembly: VMDSB.dll  

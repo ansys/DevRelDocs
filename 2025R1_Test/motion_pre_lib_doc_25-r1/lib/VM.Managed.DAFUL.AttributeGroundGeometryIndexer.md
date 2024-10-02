@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_AttributeGroundGeometryIndexer"></a> Class AttributeGroundGeometryIndexer
+#  Class AttributeGroundGeometryIndexer
 
 Namespace: [VM.Managed.DAFUL](VM.Managed.DAFUL.md)  
 Assembly: VMDFBase.dll  

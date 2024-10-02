@@ -1,4 +1,4 @@
-# <a id="VM_Managed_CAD_SetSelectionObjectOp"></a> Class SetSelectionObjectOp
+#  Class SetSelectionObjectOp
 
 Namespace: [VM.Managed.CAD](VM.Managed.CAD.md)  
 Assembly: VMAppCore.dll  

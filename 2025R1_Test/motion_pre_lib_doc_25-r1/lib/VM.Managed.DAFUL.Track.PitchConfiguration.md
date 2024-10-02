@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_Track_PitchConfiguration"></a> Class PitchConfiguration
+#  Class PitchConfiguration
 
 Namespace: [VM.Managed.DAFUL.Track](VM.Managed.DAFUL.Track.md)  
 Assembly: VMDTrackBase.dll  

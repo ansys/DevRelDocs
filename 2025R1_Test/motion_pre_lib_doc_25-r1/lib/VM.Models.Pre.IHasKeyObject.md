@@ -1,4 +1,4 @@
-# <a id="VM_Models_Pre_IHasKeyObject"></a> Interface IHasKeyObject
+#  Interface IHasKeyObject
 
 Namespace: [VM.Models.Pre](VM.Models.Pre.md)  
 Assembly: VM.Models.Pre.dll  

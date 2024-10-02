@@ -1,4 +1,4 @@
-# <a id="VM_Managed_History_DocumentMemberModifiedEvent"></a> Class DocumentMemberModifiedEvent
+#  Class DocumentMemberModifiedEvent
 
 Namespace: [VM.Managed.History](VM.Managed.History.md)  
 Assembly: VMAppCore.dll  

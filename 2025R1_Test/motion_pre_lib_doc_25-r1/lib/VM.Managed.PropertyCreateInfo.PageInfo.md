@@ -1,4 +1,4 @@
-# <a id="VM_Managed_PropertyCreateInfo_PageInfo"></a> Class PropertyCreateInfo.PageInfo
+#  Class PropertyCreateInfo.PageInfo
 
 Namespace: [VM.Managed](VM.Managed.md)  
 Assembly: VMAppCore.dll  

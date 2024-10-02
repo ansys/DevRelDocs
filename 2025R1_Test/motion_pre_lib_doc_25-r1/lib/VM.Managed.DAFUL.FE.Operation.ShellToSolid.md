@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_FE_Operation_ShellToSolid"></a> Class ShellToSolid
+#  Class ShellToSolid
 
 Namespace: [VM.Managed.DAFUL.FE.Operation](VM.Managed.DAFUL.FE.Operation.md)  
 Assembly: VMOpMesh.dll  

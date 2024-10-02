@@ -1,4 +1,4 @@
-# <a id="VM_Managed_FilePropertyOwner_1"></a> Class FilePropertyOwner<TProp\>
+#  Class FilePropertyOwner<TProp\>
 
 Namespace: [VM.Managed](VM.Managed.md)  
 Assembly: VMObjBase.dll  

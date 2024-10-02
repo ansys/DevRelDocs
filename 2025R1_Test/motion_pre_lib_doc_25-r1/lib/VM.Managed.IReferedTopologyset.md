@@ -1,4 +1,4 @@
-# <a id="VM_Managed_IReferedTopologyset"></a> Interface IReferedTopologyset
+#  Interface IReferedTopologyset
 
 Namespace: [VM.Managed](VM.Managed.md)  
 Assembly: VMAppCore.dll  

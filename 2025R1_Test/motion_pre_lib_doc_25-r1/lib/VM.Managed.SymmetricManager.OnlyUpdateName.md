@@ -1,4 +1,4 @@
-# <a id="VM_Managed_SymmetricManager_OnlyUpdateName"></a> Delegate SymmetricManager.OnlyUpdateName
+#  Delegate SymmetricManager.OnlyUpdateName
 
 Namespace: [VM.Managed](VM.Managed.md)  
 Assembly: VMObjBase.dll  

@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_Constraints_Coupler"></a> Class Coupler
+#  Class Coupler
 
 Namespace: [VM.Managed.DAFUL.Constraints](VM.Managed.DAFUL.Constraints.md)  
 Assembly: VMDCP.dll  

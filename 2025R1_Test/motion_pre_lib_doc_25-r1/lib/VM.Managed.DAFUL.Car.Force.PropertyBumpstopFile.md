@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_Car_Force_PropertyBumpstopFile"></a> Class PropertyBumpstopFile
+#  Class PropertyBumpstopFile
 
 Namespace: [VM.Managed.DAFUL.Car.Force](VM.Managed.DAFUL.Car.Force.md)  
 Assembly: VMDCar.dll  

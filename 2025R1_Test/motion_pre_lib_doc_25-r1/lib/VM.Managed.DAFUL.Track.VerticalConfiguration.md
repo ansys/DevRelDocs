@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_Track_VerticalConfiguration"></a> Class VerticalConfiguration
+#  Class VerticalConfiguration
 
 Namespace: [VM.Managed.DAFUL.Track](VM.Managed.DAFUL.Track.md)  
 Assembly: VMDTrackBase.dll  

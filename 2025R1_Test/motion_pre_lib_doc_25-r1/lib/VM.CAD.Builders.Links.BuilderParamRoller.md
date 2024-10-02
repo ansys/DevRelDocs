@@ -1,4 +1,4 @@
-# <a id="VM_CAD_Builders_Links_BuilderParamRoller"></a> Class BuilderParamRoller
+#  Class BuilderParamRoller
 
 Namespace: [VM.CAD.Builders.Links](VM.CAD.Builders.Links.md)  
 Assembly: VM.CAD.Builders.Links.dll  

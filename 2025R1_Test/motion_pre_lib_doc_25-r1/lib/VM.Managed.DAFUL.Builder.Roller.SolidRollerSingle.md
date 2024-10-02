@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_Builder_Roller_SolidRollerSingle"></a> Class SolidRollerSingle
+#  Class SolidRollerSingle
 
 Namespace: [VM.Managed.DAFUL.Builder.Roller](VM.Managed.DAFUL.Builder.Roller.md)  
 Assembly: VMBldRoller.dll  

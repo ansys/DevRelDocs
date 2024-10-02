@@ -1,4 +1,4 @@
-# <a id="VM_Models_OutputReader_PlotParametersEx"></a> Class PlotParametersEx
+#  Class PlotParametersEx
 
 Namespace: [VM.Models.OutputReader](VM.Models.OutputReader.md)  
 Assembly: VM.Models.OutputReader.dll  

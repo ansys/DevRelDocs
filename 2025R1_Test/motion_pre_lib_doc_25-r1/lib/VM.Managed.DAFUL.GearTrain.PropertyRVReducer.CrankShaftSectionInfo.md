@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_GearTrain_PropertyRVReducer_CrankShaftSectionInfo"></a> Class PropertyRVReducer.CrankShaftSectionInfo
+#  Class PropertyRVReducer.CrankShaftSectionInfo
 
 Namespace: [VM.Managed.DAFUL.GearTrain](VM.Managed.DAFUL.GearTrain.md)  
 Assembly: VMDGearTrain.dll  

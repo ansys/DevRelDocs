@@ -1,4 +1,4 @@
-# <a id="VM_API_Pre_Links_BallPlacingAPI"></a> Class BallPlacingAPI
+#  Class BallPlacingAPI
 
 Namespace: [VM.API.Pre.Links](VM.API.Pre.Links.md)  
 Assembly: VM.API.Pre.Links.dll  

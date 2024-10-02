@@ -1,4 +1,4 @@
-# <a id="VM_Managed_CategoryInfo_Category"></a> Class CategoryInfo.Category
+#  Class CategoryInfo.Category
 
 Namespace: [VM.Managed](VM.Managed.md)  
 Assembly: VMAppCore.dll  

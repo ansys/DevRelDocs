@@ -1,4 +1,4 @@
-# <a id="VM_Managed_CAD_ImportBuilderEventCore"></a> Class ImportBuilderEventCore
+#  Class ImportBuilderEventCore
 
 Namespace: [VM.Managed.CAD](VM.Managed.CAD.md)  
 Assembly: VMAppCore.dll  

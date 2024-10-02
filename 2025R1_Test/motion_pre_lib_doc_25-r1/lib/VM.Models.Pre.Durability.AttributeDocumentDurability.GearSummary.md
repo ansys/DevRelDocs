@@ -1,4 +1,4 @@
-# <a id="VM_Models_Pre_Durability_AttributeDocumentDurability_GearSummary"></a> Class AttributeDocumentDurability.GearSummary
+#  Class AttributeDocumentDurability.GearSummary
 
 Namespace: [VM.Models.Pre.Durability](VM.Models.Pre.Durability.md)  
 Assembly: VM.Models.Pre.Durability.dll  

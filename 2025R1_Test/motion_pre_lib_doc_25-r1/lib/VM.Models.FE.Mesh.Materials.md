@@ -1,4 +1,4 @@
-# <a id="VM_Models_FE_Mesh_Materials"></a> Namespace VM.Models.FE.Mesh.Materials
+#  Namespace VM.Models.FE.Mesh.Materials
 
 ### Classes
 

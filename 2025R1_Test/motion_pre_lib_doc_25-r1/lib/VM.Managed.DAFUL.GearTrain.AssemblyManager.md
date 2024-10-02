@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_GearTrain_AssemblyManager"></a> Class AssemblyManager
+#  Class AssemblyManager
 
 Namespace: [VM.Managed.DAFUL.GearTrain](VM.Managed.DAFUL.GearTrain.md)  
 Assembly: VMDGearTrain.dll  

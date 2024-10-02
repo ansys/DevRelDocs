@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_Car_Analysis_Suspension_TravelMotionType"></a> Enum TravelMotionType
+#  Enum TravelMotionType
 
 Namespace: [VM.Managed.DAFUL.Car.Analysis.Suspension](VM.Managed.DAFUL.Car.Analysis.Suspension.md)  
 Assembly: VMDCar.dll  

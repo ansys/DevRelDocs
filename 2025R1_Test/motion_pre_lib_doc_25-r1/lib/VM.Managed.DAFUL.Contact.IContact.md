@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_Contact_IContact"></a> Interface IContact
+#  Interface IContact
 
 Namespace: [VM.Managed.DAFUL.Contact](VM.Managed.DAFUL.Contact.md)  
 Assembly: VMDCt.dll  

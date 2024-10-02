@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_FE_LinkerFE_1"></a> Struct LinkerFE<T\>
+#  Struct LinkerFE<T\>
 
 Namespace: [VM.Managed.DAFUL.FE](VM.Managed.DAFUL.FE.md)  
 Assembly: VMFE.dll  

@@ -1,4 +1,4 @@
-# <a id="VM_Managed_Hole"></a> Class Hole
+#  Class Hole
 
 Namespace: [VM.Managed](VM.Managed.md)  
 Assembly: VMAppCore.dll  

@@ -1,4 +1,4 @@
-# <a id="VM_Managed_Resource_Resources"></a> Class Resources
+#  Class Resources
 
 Namespace: [VM.Managed.Resource](VM.Managed.Resource.md)  
 Assembly: VMAppCore.dll  

@@ -1,4 +1,4 @@
-# <a id="VM_Managed_Document3D_enRenderingMode"></a> Enum Document3D.enRenderingMode
+#  Enum Document3D.enRenderingMode
 
 Namespace: [VM.Managed](VM.Managed.md)  
 Assembly: VMAppCore.dll  

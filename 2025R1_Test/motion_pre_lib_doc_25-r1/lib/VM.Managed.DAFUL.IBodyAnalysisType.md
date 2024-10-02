@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_IBodyAnalysisType"></a> Interface IBodyAnalysisType
+#  Interface IBodyAnalysisType
 
 Namespace: [VM.Managed.DAFUL](VM.Managed.DAFUL.md)  
 Assembly: VMDFBase.dll  

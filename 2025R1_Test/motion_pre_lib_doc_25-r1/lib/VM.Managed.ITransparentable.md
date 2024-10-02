@@ -1,4 +1,4 @@
-# <a id="VM_Managed_ITransparentable"></a> Interface ITransparentable
+#  Interface ITransparentable
 
 Namespace: [VM.Managed](VM.Managed.md)  
 Assembly: VMAppCore.dll  

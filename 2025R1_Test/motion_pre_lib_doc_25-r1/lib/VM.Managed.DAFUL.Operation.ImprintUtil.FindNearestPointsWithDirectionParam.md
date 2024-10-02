@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_Operation_ImprintUtil_FindNearestPointsWithDirectionParam"></a> Class ImprintUtil.FindNearestPointsWithDirectionParam
+#  Class ImprintUtil.FindNearestPointsWithDirectionParam
 
 Namespace: [VM.Managed.DAFUL.Operation](VM.Managed.DAFUL.Operation.md)  
 Assembly: VMOP.dll  

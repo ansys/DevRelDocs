@@ -1,4 +1,4 @@
-# <a id="VM_IPostDeserialized"></a> Interface IPostDeserialized
+#  Interface IPostDeserialized
 
 Namespace: [VM](VM.md)  
 Assembly: VM.dll  

@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_FE_MeshPropertyApplyOperation_GetResultCallback"></a> Delegate MeshPropertyApplyOperation.GetResultCallback
+#  Delegate MeshPropertyApplyOperation.GetResultCallback
 
 Namespace: [VM.Managed.DAFUL.FE](VM.Managed.DAFUL.FE.md)  
 Assembly: VMFE.dll  

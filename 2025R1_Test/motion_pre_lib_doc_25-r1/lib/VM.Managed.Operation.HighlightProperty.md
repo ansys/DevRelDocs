@@ -1,4 +1,4 @@
-# <a id="VM_Managed_Operation_HighlightProperty"></a> Class HighlightProperty
+#  Class HighlightProperty
 
 Namespace: [VM.Managed.Operation](VM.Managed.Operation.md)  
 Assembly: VMOpFEFilm.dll  

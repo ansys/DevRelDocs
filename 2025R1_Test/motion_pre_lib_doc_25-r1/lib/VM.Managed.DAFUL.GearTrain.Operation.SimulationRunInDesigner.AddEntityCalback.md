@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_GearTrain_Operation_SimulationRunInDesigner_AddEntityCalback"></a> Delegate SimulationRunInDesigner.AddEntityCalback
+#  Delegate SimulationRunInDesigner.AddEntityCalback
 
 Namespace: [VM.Managed.DAFUL.GearTrain.Operation](VM.Managed.DAFUL.GearTrain.Operation.md)  
 Assembly: VMOpGearTrain.dll  

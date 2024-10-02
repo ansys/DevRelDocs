@@ -1,4 +1,4 @@
-# <a id="VM_CAD_Builders_DriveTrain_BuilderParamGear"></a> Class BuilderParamGear
+#  Class BuilderParamGear
 
 Namespace: [VM.CAD.Builders.DriveTrain](VM.CAD.Builders.DriveTrain.md)  
 Assembly: VM.CAD.Builders.DriveTrain.dll  

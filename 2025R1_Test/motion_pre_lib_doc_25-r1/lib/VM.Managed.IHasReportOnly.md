@@ -1,4 +1,4 @@
-# <a id="VM_Managed_IHasReportOnly"></a> Interface IHasReportOnly
+#  Interface IHasReportOnly
 
 Namespace: [VM.Managed](VM.Managed.md)  
 Assembly: VMAppCore.dll  

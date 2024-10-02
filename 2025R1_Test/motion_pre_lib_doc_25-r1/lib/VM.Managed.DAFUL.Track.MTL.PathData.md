@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_Track_MTL_PathData"></a> Class MTL.PathData
+#  Class MTL.PathData
 
 Namespace: [VM.Managed.DAFUL.Track](VM.Managed.DAFUL.Track.md)  
 Assembly: VMDTrackBase.dll  

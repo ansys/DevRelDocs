@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_IReportable_ReportEntityType"></a> Enum IReportable.ReportEntityType
+#  Enum IReportable.ReportEntityType
 
 Namespace: [VM.Managed.DAFUL](VM.Managed.DAFUL.md)  
 Assembly: VMDFBase.dll  

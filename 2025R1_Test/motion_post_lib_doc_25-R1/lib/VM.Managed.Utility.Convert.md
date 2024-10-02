@@ -1,4 +1,4 @@
-# <a id="VM_Managed_Utility_Convert"></a> Class Convert
+#  Class Convert
 
 Namespace: [VM.Managed.Utility](VM.Managed.Utility.md)  
 Assembly: VM.dll  

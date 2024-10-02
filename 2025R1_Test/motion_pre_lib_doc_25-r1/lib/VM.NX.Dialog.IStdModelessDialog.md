@@ -1,4 +1,4 @@
-# <a id="VM_NX_Dialog_IStdModelessDialog"></a> Interface IStdModelessDialog
+#  Interface IStdModelessDialog
 
 Namespace: [VM.NX.Dialog](VM.NX.Dialog.md)  
 Assembly: VMDIDef.dll  

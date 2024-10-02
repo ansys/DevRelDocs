@@ -1,4 +1,4 @@
-# <a id="VM_Managed_Collections_LinkListCollectionWithFixedAddition_2"></a> Class LinkListCollectionWithFixedAddition<T, TLink\>
+#  Class LinkListCollectionWithFixedAddition<T, TLink\>
 
 Namespace: [VM.Managed.Collections](VM.Managed.Collections.md)  
 Assembly: VMAppCore.dll  

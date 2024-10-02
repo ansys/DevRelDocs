@@ -1,4 +1,4 @@
-# <a id="VM_Managed_Symmetric_DirectionTwoPoints"></a> Class DirectionTwoPoints
+#  Class DirectionTwoPoints
 
 Namespace: [VM.Managed.Symmetric](VM.Managed.Symmetric.md)  
 Assembly: VMSymBase.dll  

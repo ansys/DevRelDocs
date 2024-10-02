@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_Car_Operation_ShimmyJudderAnalysis"></a> Class ShimmyJudderAnalysis
+#  Class ShimmyJudderAnalysis
 
 Namespace: [VM.Managed.DAFUL.Car.Operation](VM.Managed.DAFUL.Car.Operation.md)  
 Assembly: VMOpFullCar.dll  

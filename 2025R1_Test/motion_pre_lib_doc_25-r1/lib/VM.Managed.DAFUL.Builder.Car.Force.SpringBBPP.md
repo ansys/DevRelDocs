@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_Builder_Car_Force_SpringBBPP"></a> Class SpringBBPP
+#  Class SpringBBPP
 
 Namespace: [VM.Managed.DAFUL.Builder.Car.Force](VM.Managed.DAFUL.Builder.Car.Force.md)  
 Assembly: VMBldCar.dll  

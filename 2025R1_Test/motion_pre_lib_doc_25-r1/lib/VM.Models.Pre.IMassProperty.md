@@ -1,4 +1,4 @@
-# <a id="VM_Models_Pre_IMassProperty"></a> Interface IMassProperty
+#  Interface IMassProperty
 
 Namespace: [VM.Models.Pre](VM.Models.Pre.md)  
 Assembly: VM.Models.Pre.dll  

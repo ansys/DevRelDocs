@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_Thermal_PropertyHeatFlow"></a> Class PropertyHeatFlow
+#  Class PropertyHeatFlow
 
 Namespace: [VM.Managed.DAFUL.Thermal](VM.Managed.DAFUL.Thermal.md)  
 Assembly: VMDThermal.dll  

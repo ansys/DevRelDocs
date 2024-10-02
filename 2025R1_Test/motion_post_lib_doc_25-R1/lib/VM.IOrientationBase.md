@@ -1,4 +1,4 @@
-# <a id="VM_IOrientationBase"></a> Interface IOrientationBase
+#  Interface IOrientationBase
 
 Namespace: [VM](VM.md)  
 Assembly: VM.dll  

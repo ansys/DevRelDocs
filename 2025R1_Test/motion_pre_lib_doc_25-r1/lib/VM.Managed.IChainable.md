@@ -1,4 +1,4 @@
-# <a id="VM_Managed_IChainable"></a> Interface IChainable
+#  Interface IChainable
 
 Namespace: [VM.Managed](VM.Managed.md)  
 Assembly: VMAppCore.dll  

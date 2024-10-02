@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_SplineValue"></a> Class SplineValue
+#  Class SplineValue
 
 Namespace: [VM.Managed.DAFUL](VM.Managed.DAFUL.md)  
 Assembly: VMDSB.dll  

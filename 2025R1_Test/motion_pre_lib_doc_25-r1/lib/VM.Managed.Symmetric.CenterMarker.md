@@ -1,4 +1,4 @@
-# <a id="VM_Managed_Symmetric_CenterMarker"></a> Class CenterMarker
+#  Class CenterMarker
 
 Namespace: [VM.Managed.Symmetric](VM.Managed.Symmetric.md)  
 Assembly: VMSymBase.dll  

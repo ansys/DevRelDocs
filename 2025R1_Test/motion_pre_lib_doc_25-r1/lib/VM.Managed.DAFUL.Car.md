@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_Car"></a> Namespace VM.Managed.DAFUL.Car
+#  Namespace VM.Managed.DAFUL.Car
 
 ### Namespaces
 

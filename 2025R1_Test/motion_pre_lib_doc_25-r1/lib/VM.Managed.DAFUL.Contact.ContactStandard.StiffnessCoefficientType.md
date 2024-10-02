@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_Contact_ContactStandard_StiffnessCoefficientType"></a> Enum ContactStandard.StiffnessCoefficientType
+#  Enum ContactStandard.StiffnessCoefficientType
 
 Namespace: [VM.Managed.DAFUL.Contact](VM.Managed.DAFUL.Contact.md)  
 Assembly: VMDCt.dll  

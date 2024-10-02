@@ -1,4 +1,4 @@
-# <a id="VM_Managed_TransformMatrix"></a> Class TransformMatrix
+#  Class TransformMatrix
 
 Namespace: [VM.Managed](VM.Managed.md)  
 Assembly: VMAppCore.dll  

@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_GearTrain_GearSetPlanetaryTS_GearSetType"></a> Enum GearSetPlanetaryTS.GearSetType
+#  Enum GearSetPlanetaryTS.GearSetType
 
 Namespace: [VM.Managed.DAFUL.GearTrain](VM.Managed.DAFUL.GearTrain.md)  
 Assembly: VMDGearTrain.dll  

@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_Builder_Contact_CurveSetForImportInPart"></a> Class CurveSetForImportInPart
+#  Class CurveSetForImportInPart
 
 Namespace: [VM.Managed.DAFUL.Builder.Contact](VM.Managed.DAFUL.Builder.Contact.md)  
 Assembly: VMBldCt.dll  

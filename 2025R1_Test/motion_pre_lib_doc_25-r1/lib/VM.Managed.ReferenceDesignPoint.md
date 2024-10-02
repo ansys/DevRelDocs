@@ -1,4 +1,4 @@
-# <a id="VM_Managed_ReferenceDesignPoint"></a> Class ReferenceDesignPoint
+#  Class ReferenceDesignPoint
 
 Namespace: [VM.Managed](VM.Managed.md)  
 Assembly: VMObjBase.dll  

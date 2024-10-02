@@ -1,4 +1,4 @@
-# <a id="VM_Managed_Operation_ApplyProperty"></a> Class ApplyProperty
+#  Class ApplyProperty
 
 Namespace: [VM.Managed.Operation](VM.Managed.Operation.md)  
 Assembly: VMOP.dll  

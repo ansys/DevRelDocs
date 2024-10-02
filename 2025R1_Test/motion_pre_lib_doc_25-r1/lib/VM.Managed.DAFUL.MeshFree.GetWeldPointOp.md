@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_MeshFree_GetWeldPointOp"></a> Class GetWeldPointOp
+#  Class GetWeldPointOp
 
 Namespace: [VM.Managed.DAFUL.MeshFree](VM.Managed.DAFUL.MeshFree.md)  
 Assembly: VMDMeshFree.dll  

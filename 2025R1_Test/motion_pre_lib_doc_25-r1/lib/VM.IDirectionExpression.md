@@ -1,4 +1,4 @@
-# <a id="VM_IDirectionExpression"></a> Interface IDirectionExpression
+#  Interface IDirectionExpression
 
 Namespace: [VM](VM.md)  
 Assembly: VM.dll  

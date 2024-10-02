@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_GearTrain_BasicInvolute_GearType"></a> Enum BasicInvolute.GearType
+#  Enum BasicInvolute.GearType
 
 Namespace: [VM.Managed.DAFUL.GearTrain](VM.Managed.DAFUL.GearTrain.md)  
 Assembly: VMDGearTrain.dll  

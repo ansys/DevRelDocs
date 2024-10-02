@@ -1,4 +1,4 @@
-# <a id="VM_Managed_PointOnGeometryBase"></a> Class PointOnGeometryBase
+#  Class PointOnGeometryBase
 
 Namespace: [VM.Managed](VM.Managed.md)  
 Assembly: VMAppCore.dll  

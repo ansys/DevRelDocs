@@ -1,4 +1,4 @@
-# <a id="VM_Managed_IHasBody"></a> Interface IHasBody
+#  Interface IHasBody
 
 Namespace: [VM.Managed](VM.Managed.md)  
 Assembly: VMAppCore.dll  

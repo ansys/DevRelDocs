@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_Tire_Force_PropertyTireDocument"></a> Class PropertyTireDocument
+#  Class PropertyTireDocument
 
 Namespace: [VM.Managed.DAFUL.Tire.Force](VM.Managed.DAFUL.Tire.Force.md)  
 Assembly: VMDTire.dll  

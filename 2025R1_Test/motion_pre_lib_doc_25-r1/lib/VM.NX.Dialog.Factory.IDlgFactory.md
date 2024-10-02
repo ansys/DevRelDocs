@@ -1,4 +1,4 @@
-# <a id="VM_NX_Dialog_Factory_IDlgFactory"></a> Interface IDlgFactory
+#  Interface IDlgFactory
 
 Namespace: [VM.NX.Dialog.Factory](VM.NX.Dialog.Factory.md)  
 Assembly: VMDIDef.dll  

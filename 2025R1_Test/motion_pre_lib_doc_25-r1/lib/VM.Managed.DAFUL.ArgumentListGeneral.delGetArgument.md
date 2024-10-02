@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_ArgumentListGeneral_delGetArgument"></a> Delegate ArgumentListGeneral.delGetArgument
+#  Delegate ArgumentListGeneral.delGetArgument
 
 Namespace: [VM.Managed.DAFUL](VM.Managed.DAFUL.md)  
 Assembly: VMDSB.dll  

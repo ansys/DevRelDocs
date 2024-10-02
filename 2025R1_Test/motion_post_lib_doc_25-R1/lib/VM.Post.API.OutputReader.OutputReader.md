@@ -1,4 +1,4 @@
-# <a id="VM_Post_API_OutputReader_OutputReader"></a> Class OutputReader
+#  Class OutputReader
 
 Namespace: [VM.Post.API.OutputReader](VM.Post.API.OutputReader.md)  
 Assembly: VM.Post.API.OutputReader.dll  

@@ -1,4 +1,4 @@
-# <a id="VM_Managed_Operation_ClearElementsProperty"></a> Class ClearElementsProperty
+#  Class ClearElementsProperty
 
 Namespace: [VM.Managed.Operation](VM.Managed.Operation.md)  
 Assembly: VMOpFEFilm.dll  

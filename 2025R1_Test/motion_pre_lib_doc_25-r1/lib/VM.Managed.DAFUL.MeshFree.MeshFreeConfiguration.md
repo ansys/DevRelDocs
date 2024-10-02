@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_MeshFree_MeshFreeConfiguration"></a> Class MeshFreeConfiguration
+#  Class MeshFreeConfiguration
 
 Namespace: [VM.Managed.DAFUL.MeshFree](VM.Managed.DAFUL.MeshFree.md)  
 Assembly: VMDMeshFree.dll  

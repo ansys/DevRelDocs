@@ -1,4 +1,4 @@
-# <a id="VM_Builders_Pre_Force_LeafBeamGroupBuilder"></a> Class LeafBeamGroupBuilder
+#  Class LeafBeamGroupBuilder
 
 Namespace: [VM.Builders.Pre.Force](VM.Builders.Pre.Force.md)  
 Assembly: VM.Operations.Pre.Force.dll  

@@ -1,4 +1,4 @@
-# <a id="VM_Managed_Material_ISO"></a> Class ISO
+#  Class ISO
 
 Namespace: [VM.Managed.Material](VM.Managed.Material.md)  
 Assembly: VMObjBase.dll  

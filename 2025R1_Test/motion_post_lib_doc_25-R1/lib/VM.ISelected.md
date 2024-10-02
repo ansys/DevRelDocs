@@ -1,4 +1,4 @@
-# <a id="VM_ISelected"></a> Interface ISelected
+#  Interface ISelected
 
 Namespace: [VM](VM.md)  
 Assembly: VM.dll  

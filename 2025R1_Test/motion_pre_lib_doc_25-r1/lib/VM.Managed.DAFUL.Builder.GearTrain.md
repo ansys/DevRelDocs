@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_Builder_GearTrain"></a> Namespace VM.Managed.DAFUL.Builder.GearTrain
+#  Namespace VM.Managed.DAFUL.Builder.GearTrain
 
 ### Namespaces
 

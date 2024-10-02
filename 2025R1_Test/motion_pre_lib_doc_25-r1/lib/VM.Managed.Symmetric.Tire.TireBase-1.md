@@ -1,4 +1,4 @@
-# <a id="VM_Managed_Symmetric_Tire_TireBase_1"></a> Class TireBase<T\>
+#  Class TireBase<T\>
 
 Namespace: [VM.Managed.Symmetric.Tire](VM.Managed.Symmetric.Tire.md)  
 Assembly: VMSymTire.dll  

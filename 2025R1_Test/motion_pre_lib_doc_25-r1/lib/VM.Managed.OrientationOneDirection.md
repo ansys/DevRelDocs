@@ -1,4 +1,4 @@
-# <a id="VM_Managed_OrientationOneDirection"></a> Class OrientationOneDirection
+#  Class OrientationOneDirection
 
 Namespace: [VM.Managed](VM.Managed.md)  
 Assembly: VMAppCore.dll  

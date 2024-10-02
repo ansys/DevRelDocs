@@ -1,4 +1,4 @@
-# <a id="VM_Collections_ObservableHashSet_1"></a> Class ObservableHashSet<T\>
+#  Class ObservableHashSet<T\>
 
 Namespace: [VM.Collections](VM.Collections.md)  
 Assembly: VM.dll  

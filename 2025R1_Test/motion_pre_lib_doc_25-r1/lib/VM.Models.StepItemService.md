@@ -1,4 +1,4 @@
-# <a id="VM_Models_StepItemService"></a> Class StepItemService
+#  Class StepItemService
 
 Namespace: [VM.Models](VM.Models.md)  
 Assembly: VM.Models.Project.dll  

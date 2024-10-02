@@ -1,4 +1,4 @@
-# <a id="VM_Models_Pre_Durability_AttributeDocumentDurability_DynamicResult_DamageTable"></a> Class AttributeDocumentDurability.DynamicResult.DamageTable
+#  Class AttributeDocumentDurability.DynamicResult.DamageTable
 
 Namespace: [VM.Models.Pre.Durability](VM.Models.Pre.Durability.md)  
 Assembly: VM.Models.Pre.Durability.dll  

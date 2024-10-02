@@ -1,4 +1,4 @@
-# <a id="VM_Managed_InterfaceManager_InterfaceInfoForUndo"></a> Struct InterfaceManager.InterfaceInfoForUndo
+#  Struct InterfaceManager.InterfaceInfoForUndo
 
 Namespace: [VM.Managed](VM.Managed.md)  
 Assembly: VMObjBase.dll  

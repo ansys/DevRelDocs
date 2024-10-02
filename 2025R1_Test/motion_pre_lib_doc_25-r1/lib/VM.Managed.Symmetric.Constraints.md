@@ -1,4 +1,4 @@
-# <a id="VM_Managed_Symmetric_Constraints"></a> Namespace VM.Managed.Symmetric.Constraints
+#  Namespace VM.Managed.Symmetric.Constraints
 
 ### Classes
 

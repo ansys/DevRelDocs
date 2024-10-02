@@ -1,4 +1,4 @@
-# <a id="VM_Managed_Primitive"></a> Class Primitive
+#  Class Primitive
 
 Namespace: [VM.Managed](VM.Managed.md)  
 Assembly: VMAppCore.dll  

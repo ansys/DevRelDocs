@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_GearTrain_IHasGeometryInfo"></a> Interface IHasGeometryInfo
+#  Interface IHasGeometryInfo
 
 Namespace: [VM.Managed.DAFUL.GearTrain](VM.Managed.DAFUL.GearTrain.md)  
 Assembly: VMDGearTrain.dll  

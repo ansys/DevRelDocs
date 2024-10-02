@@ -1,4 +1,4 @@
-# <a id="VM_Managed_Material_HyperElastic"></a> Class HyperElastic
+#  Class HyperElastic
 
 Namespace: [VM.Managed.Material](VM.Managed.Material.md)  
 Assembly: VMObjBase.dll  

@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_MultiObjectContainerChained"></a> Class MultiObjectContainerChained
+#  Class MultiObjectContainerChained
 
 Namespace: [VM.Managed.DAFUL](VM.Managed.DAFUL.md)  
 Assembly: VMDFBase.dll  

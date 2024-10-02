@@ -1,4 +1,4 @@
-# <a id="VM_Managed_CheckedLink_4"></a> Class CheckedLink<T, TUpdate, TDestroy, TOwnerDestroy\>
+#  Class CheckedLink<T, TUpdate, TDestroy, TOwnerDestroy\>
 
 Namespace: [VM.Managed](VM.Managed.md)  
 Assembly: VMAppCore.dll  

@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_Builder_GearTrain_ImportBase_1_AddEntityFromMeshDoc"></a> Delegate ImportBase<T\>.AddEntityFromMeshDoc
+#  Delegate ImportBase<T\>.AddEntityFromMeshDoc
 
 Namespace: [VM.Managed.DAFUL.Builder.GearTrain](VM.Managed.DAFUL.Builder.GearTrain.md)  
 Assembly: VMBldGearTrain.dll  

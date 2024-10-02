@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_Contact_ContactGeomBody_1"></a> Class ContactGeomBody<TProperty\>
+#  Class ContactGeomBody<TProperty\>
 
 Namespace: [VM.Managed.DAFUL.Contact](VM.Managed.DAFUL.Contact.md)  
 Assembly: VMDCt.dll  

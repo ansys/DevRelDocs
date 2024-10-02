@@ -1,4 +1,4 @@
-# <a id="VM_Models_FE_Utilities"></a> Namespace VM.Models.FE.Utilities
+#  Namespace VM.Models.FE.Utilities
 
 ### Classes
 

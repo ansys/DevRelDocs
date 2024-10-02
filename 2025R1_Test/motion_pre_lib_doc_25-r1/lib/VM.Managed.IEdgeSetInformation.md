@@ -1,4 +1,4 @@
-# <a id="VM_Managed_IEdgeSetInformation"></a> Interface IEdgeSetInformation
+#  Interface IEdgeSetInformation
 
 Namespace: [VM.Managed](VM.Managed.md)  
 Assembly: VMAppCore.dll  

@@ -1,4 +1,4 @@
-# <a id="VM_Managed_NullReferenceWhenRenameExeption"></a> Class NullReferenceWhenRenameExeption
+#  Class NullReferenceWhenRenameExeption
 
 Namespace: [VM.Managed](VM.Managed.md)  
 Assembly: VMAppCore.dll  

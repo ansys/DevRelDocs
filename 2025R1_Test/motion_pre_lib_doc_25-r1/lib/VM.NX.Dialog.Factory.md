@@ -1,4 +1,4 @@
-# <a id="VM_NX_Dialog_Factory"></a> Namespace VM.NX.Dialog.Factory
+#  Namespace VM.NX.Dialog.Factory
 
 ### Classes
 

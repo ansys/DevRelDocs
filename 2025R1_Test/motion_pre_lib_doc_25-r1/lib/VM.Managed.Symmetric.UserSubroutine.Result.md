@@ -1,4 +1,4 @@
-# <a id="VM_Managed_Symmetric_UserSubroutine_Result"></a> Class UserSubroutine.Result
+#  Class UserSubroutine.Result
 
 Namespace: [VM.Managed.Symmetric](VM.Managed.Symmetric.md)  
 Assembly: VMSymSP.dll  

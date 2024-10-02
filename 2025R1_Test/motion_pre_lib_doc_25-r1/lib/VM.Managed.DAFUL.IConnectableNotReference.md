@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_IConnectableNotReference"></a> Interface IConnectableNotReference
+#  Interface IConnectableNotReference
 
 Namespace: [VM.Managed.DAFUL](VM.Managed.DAFUL.md)  
 Assembly: VMDFBase.dll  

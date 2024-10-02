@@ -1,4 +1,4 @@
-# <a id="VM_Managed_Symmetric_TransformLink"></a> Class TransformLink
+#  Class TransformLink
 
 Namespace: [VM.Managed.Symmetric](VM.Managed.Symmetric.md)  
 Assembly: VMSymBase.dll  

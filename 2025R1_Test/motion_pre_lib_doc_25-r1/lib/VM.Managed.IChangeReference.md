@@ -1,4 +1,4 @@
-# <a id="VM_Managed_IChangeReference"></a> Interface IChangeReference
+#  Interface IChangeReference
 
 Namespace: [VM.Managed](VM.Managed.md)  
 Assembly: VMAppCore.dll  

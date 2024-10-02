@@ -1,4 +1,4 @@
-# <a id="VM_Managed_Document_DocumentDestroying"></a> Delegate Document.DocumentDestroying
+#  Delegate Document.DocumentDestroying
 
 Namespace: [VM.Managed](VM.Managed.md)  
 Assembly: VMAppCore.dll  

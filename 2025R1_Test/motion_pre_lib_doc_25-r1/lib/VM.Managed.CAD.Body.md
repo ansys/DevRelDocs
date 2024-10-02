@@ -1,4 +1,4 @@
-# <a id="VM_Managed_CAD_Body"></a> Class Body
+#  Class Body
 
 Namespace: [VM.Managed.CAD](VM.Managed.CAD.md)  
 Assembly: VMAppCore.dll  

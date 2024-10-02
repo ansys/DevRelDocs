@@ -1,4 +1,4 @@
-# <a id="VM_CAD_Kernel_KernelObject_delGetFrom_1"></a> Delegate KernelObject.delGetFrom<TResult\>
+#  Delegate KernelObject.delGetFrom<TResult\>
 
 Namespace: [VM.CAD.Kernel](VM.CAD.Kernel.md)  
 Assembly: VM.CAD.Kernel.dll  

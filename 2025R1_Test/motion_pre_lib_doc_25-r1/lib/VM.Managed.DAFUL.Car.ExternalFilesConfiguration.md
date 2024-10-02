@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_Car_ExternalFilesConfiguration"></a> Class ExternalFilesConfiguration
+#  Class ExternalFilesConfiguration
 
 Namespace: [VM.Managed.DAFUL.Car](VM.Managed.DAFUL.Car.md)  
 Assembly: VMDCar.dll  

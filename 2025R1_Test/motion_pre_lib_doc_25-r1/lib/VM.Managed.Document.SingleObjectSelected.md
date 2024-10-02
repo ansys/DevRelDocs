@@ -1,4 +1,4 @@
-# <a id="VM_Managed_Document_SingleObjectSelected"></a> Delegate Document.SingleObjectSelected
+#  Delegate Document.SingleObjectSelected
 
 Namespace: [VM.Managed](VM.Managed.md)  
 Assembly: VMAppCore.dll  

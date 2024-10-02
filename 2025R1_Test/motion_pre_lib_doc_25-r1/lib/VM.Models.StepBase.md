@@ -1,4 +1,4 @@
-# <a id="VM_Models_StepBase"></a> Class StepBase
+#  Class StepBase
 
 Namespace: [VM.Models](VM.Models.md)  
 Assembly: VM.Models.Project.dll  

@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_FunctionUnitBase"></a> Class FunctionUnitBase
+#  Class FunctionUnitBase
 
 Namespace: [VM.Managed.DAFUL](VM.Managed.DAFUL.md)  
 Assembly: VMDFBase.dll  

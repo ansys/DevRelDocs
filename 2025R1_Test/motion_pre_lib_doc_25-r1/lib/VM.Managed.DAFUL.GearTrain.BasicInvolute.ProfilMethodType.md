@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_GearTrain_BasicInvolute_ProfilMethodType"></a> Enum BasicInvolute.ProfilMethodType
+#  Enum BasicInvolute.ProfilMethodType
 
 Namespace: [VM.Managed.DAFUL.GearTrain](VM.Managed.DAFUL.GearTrain.md)  
 Assembly: VMDGearTrain.dll  

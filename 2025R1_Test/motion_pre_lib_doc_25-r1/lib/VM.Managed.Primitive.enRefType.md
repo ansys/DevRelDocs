@@ -1,4 +1,4 @@
-# <a id="VM_Managed_Primitive_enRefType"></a> Enum Primitive.enRefType
+#  Enum Primitive.enRefType
 
 Namespace: [VM.Managed](VM.Managed.md)  
 Assembly: VMAppCore.dll  

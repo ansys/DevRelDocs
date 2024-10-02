@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_Builder_Force_MatrixBBPP"></a> Class MatrixBBPP
+#  Class MatrixBBPP
 
 Namespace: [VM.Managed.DAFUL.Builder.Force](VM.Managed.DAFUL.Builder.Force.md)  
 Assembly: VMBldFP.dll  

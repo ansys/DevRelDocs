@@ -1,4 +1,4 @@
-# <a id="VM_Managed_AttributeCanNotOpenWithNewPreprocessor"></a> Class AttributeCanNotOpenWithNewPreprocessor
+#  Class AttributeCanNotOpenWithNewPreprocessor
 
 Namespace: [VM.Managed](VM.Managed.md)  
 Assembly: VMAppCore.dll  

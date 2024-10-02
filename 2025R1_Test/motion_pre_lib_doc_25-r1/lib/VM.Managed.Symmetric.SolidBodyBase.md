@@ -1,4 +1,4 @@
-# <a id="VM_Managed_Symmetric_SolidBodyBase"></a> Class SolidBodyBase
+#  Class SolidBodyBase
 
 Namespace: [VM.Managed.Symmetric](VM.Managed.Symmetric.md)  
 Assembly: VMSymBase.dll  

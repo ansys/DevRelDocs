@@ -1,4 +1,4 @@
-# <a id="VM_Managed_Symmetric_Constraints_CouplerGear"></a> Class CouplerGear
+#  Class CouplerGear
 
 Namespace: [VM.Managed.Symmetric.Constraints](VM.Managed.Symmetric.Constraints.md)  
 Assembly: VMSymCP.dll  

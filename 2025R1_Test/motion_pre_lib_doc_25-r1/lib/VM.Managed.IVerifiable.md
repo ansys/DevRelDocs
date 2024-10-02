@@ -1,4 +1,4 @@
-# <a id="VM_Managed_IVerifiable"></a> Interface IVerifiable
+#  Interface IVerifiable
 
 Namespace: [VM.Managed](VM.Managed.md)  
 Assembly: VMAppCore.dll  

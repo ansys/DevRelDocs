@@ -1,4 +1,4 @@
-# <a id="VM_Managed_AnalysisParameterEigenvalue"></a> Class AnalysisParameterEigenvalue
+#  Class AnalysisParameterEigenvalue
 
 Namespace: [VM.Managed](VM.Managed.md)  
 Assembly: VMObjBase.dll  

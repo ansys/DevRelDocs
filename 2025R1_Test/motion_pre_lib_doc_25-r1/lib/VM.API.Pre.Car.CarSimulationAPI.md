@@ -1,4 +1,4 @@
-# <a id="VM_API_Pre_Car_CarSimulationAPI"></a> Class CarSimulationAPI
+#  Class CarSimulationAPI
 
 Namespace: [VM.API.Pre.Car](VM.API.Pre.Car.md)  
 Assembly: VM.API.Pre.Car.dll  

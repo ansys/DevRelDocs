@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_FE_Operation_AddDesignPointOperation"></a> Class AddDesignPointOperation
+#  Class AddDesignPointOperation
 
 Namespace: [VM.Managed.DAFUL.FE.Operation](VM.Managed.DAFUL.FE.Operation.md)  
 Assembly: VMOpMesh.dll  

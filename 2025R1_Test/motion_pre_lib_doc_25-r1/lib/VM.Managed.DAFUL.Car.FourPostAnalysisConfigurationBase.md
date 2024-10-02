@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_Car_FourPostAnalysisConfigurationBase"></a> Class FourPostAnalysisConfigurationBase
+#  Class FourPostAnalysisConfigurationBase
 
 Namespace: [VM.Managed.DAFUL.Car](VM.Managed.DAFUL.Car.md)  
 Assembly: VMDFullCar.dll  

@@ -1,4 +1,4 @@
-# <a id="VM_Builder_Pre_FE"></a> Namespace VM.Builder.Pre.FE
+#  Namespace VM.Builder.Pre.FE
 
 ### Classes
 

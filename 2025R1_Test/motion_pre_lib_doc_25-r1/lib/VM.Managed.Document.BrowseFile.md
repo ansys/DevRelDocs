@@ -1,4 +1,4 @@
-# <a id="VM_Managed_Document_BrowseFile"></a> Delegate Document.BrowseFile
+#  Delegate Document.BrowseFile
 
 Namespace: [VM.Managed](VM.Managed.md)  
 Assembly: VMAppCore.dll  

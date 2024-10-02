@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_Car_Analysis_FourPost_ExcitationMode"></a> Enum ExcitationMode
+#  Enum ExcitationMode
 
 Namespace: [VM.Managed.DAFUL.Car.Analysis.FourPost](VM.Managed.DAFUL.Car.Analysis.FourPost.md)  
 Assembly: VMDCar.dll  

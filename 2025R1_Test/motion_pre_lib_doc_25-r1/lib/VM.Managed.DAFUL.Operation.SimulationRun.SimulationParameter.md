@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_Operation_SimulationRun_SimulationParameter"></a> Class SimulationRun.SimulationParameter
+#  Class SimulationRun.SimulationParameter
 
 Namespace: [VM.Managed.DAFUL.Operation](VM.Managed.DAFUL.Operation.md)  
 Assembly: VMOpCore.dll  

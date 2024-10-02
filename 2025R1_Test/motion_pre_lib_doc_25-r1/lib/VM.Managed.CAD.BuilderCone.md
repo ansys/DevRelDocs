@@ -1,4 +1,4 @@
-# <a id="VM_Managed_CAD_BuilderCone"></a> Class BuilderCone
+#  Class BuilderCone
 
 Namespace: [VM.Managed.CAD](VM.Managed.CAD.md)  
 Assembly: VMAppCore.dll  

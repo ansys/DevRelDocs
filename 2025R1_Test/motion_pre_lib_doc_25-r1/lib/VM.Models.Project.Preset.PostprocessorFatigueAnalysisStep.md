@@ -1,4 +1,4 @@
-# <a id="VM_Models_Project_Preset_PostprocessorFatigueAnalysisStep"></a> Class PostprocessorFatigueAnalysisStep
+#  Class PostprocessorFatigueAnalysisStep
 
 Namespace: [VM.Models.Project.Preset](VM.Models.Project.Preset.md)  
 Assembly: VM.Models.Project.Preset.dll  

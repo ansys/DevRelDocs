@@ -1,4 +1,4 @@
-# <a id="VM_Managed_ExpressionParser_1"></a> Class ExpressionParser<T\>
+#  Class ExpressionParser<T\>
 
 Namespace: [VM.Managed](VM.Managed.md)  
 Assembly: VMAppCore.dll  

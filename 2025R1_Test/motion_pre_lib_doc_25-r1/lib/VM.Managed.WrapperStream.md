@@ -1,4 +1,4 @@
-# <a id="VM_Managed_WrapperStream"></a> Class WrapperStream
+#  Class WrapperStream
 
 Namespace: [VM.Managed](VM.Managed.md)  
 Assembly: VMAppCore.dll  

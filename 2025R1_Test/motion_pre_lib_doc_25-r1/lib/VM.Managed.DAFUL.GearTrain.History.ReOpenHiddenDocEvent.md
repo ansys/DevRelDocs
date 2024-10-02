@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_GearTrain_History_ReOpenHiddenDocEvent"></a> Class ReOpenHiddenDocEvent
+#  Class ReOpenHiddenDocEvent
 
 Namespace: [VM.Managed.DAFUL.GearTrain.History](VM.Managed.DAFUL.GearTrain.History.md)  
 Assembly: VMDGearTrain.dll  

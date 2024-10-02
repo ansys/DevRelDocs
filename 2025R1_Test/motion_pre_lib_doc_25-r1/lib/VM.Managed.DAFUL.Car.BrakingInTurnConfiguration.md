@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_Car_BrakingInTurnConfiguration"></a> Class BrakingInTurnConfiguration
+#  Class BrakingInTurnConfiguration
 
 Namespace: [VM.Managed.DAFUL.Car](VM.Managed.DAFUL.Car.md)  
 Assembly: VMDCar.dll  

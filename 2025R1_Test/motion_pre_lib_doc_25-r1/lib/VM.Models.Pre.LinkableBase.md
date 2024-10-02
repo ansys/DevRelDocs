@@ -1,4 +1,4 @@
-# <a id="VM_Models_Pre_LinkableBase"></a> Class LinkableBase
+#  Class LinkableBase
 
 Namespace: [VM.Models.Pre](VM.Models.Pre.md)  
 Assembly: VM.Models.Pre.dll  

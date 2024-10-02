@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_GearTrain_MotorDesigner_EMForceSection_Harmonic"></a> Class MotorDesigner.EMForceSection.Harmonic
+#  Class MotorDesigner.EMForceSection.Harmonic
 
 Namespace: [VM.Managed.DAFUL.GearTrain](VM.Managed.DAFUL.GearTrain.md)  
 Assembly: VMDGearTrain.dll  

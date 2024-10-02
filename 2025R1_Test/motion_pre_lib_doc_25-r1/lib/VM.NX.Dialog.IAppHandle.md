@@ -1,4 +1,4 @@
-# <a id="VM_NX_Dialog_IAppHandle"></a> Interface IAppHandle
+#  Interface IAppHandle
 
 Namespace: [VM.NX.Dialog](VM.NX.Dialog.md)  
 Assembly: VMDIDef.dll  

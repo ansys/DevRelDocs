@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_Constraints_Orientation"></a> Class Orientation
+#  Class Orientation
 
 Namespace: [VM.Managed.DAFUL.Constraints](VM.Managed.DAFUL.Constraints.md)  
 Assembly: VMDCP.dll  

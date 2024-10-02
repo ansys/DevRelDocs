@@ -1,4 +1,4 @@
-# <a id="VM_Managed_IDesignFrame"></a> Interface IDesignFrame
+#  Interface IDesignFrame
 
 Namespace: [VM.Managed](VM.Managed.md)  
 Assembly: VMAppCore.dll  

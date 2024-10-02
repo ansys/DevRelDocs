@@ -1,4 +1,4 @@
-# <a id="VM_API_Pre_GeometryAPI"></a> Class GeometryAPI
+#  Class GeometryAPI
 
 Namespace: [VM.API.Pre](VM.API.Pre.md)  
 Assembly: VM.API.Pre.dll  

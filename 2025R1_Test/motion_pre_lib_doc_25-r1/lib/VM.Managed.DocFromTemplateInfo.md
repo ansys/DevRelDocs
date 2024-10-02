@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DocFromTemplateInfo"></a> Class DocFromTemplateInfo
+#  Class DocFromTemplateInfo
 
 Namespace: [VM.Managed](VM.Managed.md)  
 Assembly: VMAppCore.dll  

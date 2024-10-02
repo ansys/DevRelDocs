@@ -1,4 +1,4 @@
-# <a id="VM_Managed_Material_MooneyRivlin"></a> Class MooneyRivlin
+#  Class MooneyRivlin
 
 Namespace: [VM.Managed.Material](VM.Managed.Material.md)  
 Assembly: VMObjBase.dll  

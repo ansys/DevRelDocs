@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_CoSim_Operation"></a> Namespace VM.Managed.DAFUL.CoSim.Operation
+#  Namespace VM.Managed.DAFUL.CoSim.Operation
 
 ### Classes
 

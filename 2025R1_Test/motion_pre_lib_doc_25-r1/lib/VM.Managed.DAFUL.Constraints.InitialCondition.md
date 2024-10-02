@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_Constraints_InitialCondition"></a> Class InitialCondition
+#  Class InitialCondition
 
 Namespace: [VM.Managed.DAFUL.Constraints](VM.Managed.DAFUL.Constraints.md)  
 Assembly: VMDCB.dll  

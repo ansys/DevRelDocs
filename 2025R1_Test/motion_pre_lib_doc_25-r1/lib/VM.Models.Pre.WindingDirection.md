@@ -1,4 +1,4 @@
-# <a id="VM_Models_Pre_WindingDirection"></a> Enum WindingDirection
+#  Enum WindingDirection
 
 Namespace: [VM.Models.Pre](VM.Models.Pre.md)  
 Assembly: VM.Models.Pre.dll  

@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_Builder_Tire_Force_TireTRBase_1"></a> Class TireTRBase<T\>
+#  Class TireTRBase<T\>
 
 Namespace: [VM.Managed.DAFUL.Builder.Tire.Force](VM.Managed.DAFUL.Builder.Tire.Force.md)  
 Assembly: VMBldTire.dll  

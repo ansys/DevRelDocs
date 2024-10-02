@@ -1,4 +1,4 @@
-# <a id="VM_Managed_PropertyDocumentBase"></a> Class PropertyDocumentBase
+#  Class PropertyDocumentBase
 
 Namespace: [VM.Managed](VM.Managed.md)  
 Assembly: VMObjBase.dll  

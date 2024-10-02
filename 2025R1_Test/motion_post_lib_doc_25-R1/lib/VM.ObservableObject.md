@@ -1,4 +1,4 @@
-# <a id="VM_ObservableObject"></a> Class ObservableObject
+#  Class ObservableObject
 
 Namespace: [VM](VM.md)  
 Assembly: VM.dll  

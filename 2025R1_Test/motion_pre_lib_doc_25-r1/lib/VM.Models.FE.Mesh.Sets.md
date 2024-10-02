@@ -1,4 +1,4 @@
-# <a id="VM_Models_FE_Mesh_Sets"></a> Namespace VM.Models.FE.Mesh.Sets
+#  Namespace VM.Models.FE.Mesh.Sets
 
 ### Classes
 

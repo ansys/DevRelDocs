@@ -1,4 +1,4 @@
-# <a id="VM_Managed_AttributeNotDelete"></a> Class AttributeNotDelete
+#  Class AttributeNotDelete
 
 Namespace: [VM.Managed](VM.Managed.md)  
 Assembly: VMAppCore.dll  

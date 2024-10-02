@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_Chained_EngageType"></a> Enum EngageType
+#  Enum EngageType
 
 Namespace: [VM.Managed.DAFUL.Chained](VM.Managed.DAFUL.Chained.md)  
 Assembly: VMDChainedBase.dll  

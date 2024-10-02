@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DocCreateAnalysisInfo"></a> Class DocCreateAnalysisInfo
+#  Class DocCreateAnalysisInfo
 
 Namespace: [VM.Managed](VM.Managed.md)  
 Assembly: VMObjBase.dll  

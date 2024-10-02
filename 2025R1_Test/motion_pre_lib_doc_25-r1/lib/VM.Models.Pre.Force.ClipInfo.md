@@ -1,4 +1,4 @@
-# <a id="VM_Models_Pre_Force_ClipInfo"></a> Class ClipInfo
+#  Class ClipInfo
 
 Namespace: [VM.Models.Pre.Force](VM.Models.Pre.Force.md)  
 Assembly: VM.Models.Pre.Force.LeafSpring.dll  

@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_Pre_DocModifiedInfoFileGroupDocument_1"></a> Class DocModifiedInfoFileGroupDocument<T\>
+#  Class DocModifiedInfoFileGroupDocument<T\>
 
 Namespace: [VM.Managed.DAFUL.Pre](VM.Managed.DAFUL.Pre.md)  
 Assembly: dfpredat.dll  

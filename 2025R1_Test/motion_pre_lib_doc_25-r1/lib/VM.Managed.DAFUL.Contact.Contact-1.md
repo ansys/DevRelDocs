@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_Contact_Contact_1"></a> Class Contact<TProperty\>
+#  Class Contact<TProperty\>
 
 Namespace: [VM.Managed.DAFUL.Contact](VM.Managed.DAFUL.Contact.md)  
 Assembly: VMDCt.dll  

@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_Mesher_AttributeGeometricMesher"></a> Class AttributeGeometricMesher
+#  Class AttributeGeometricMesher
 
 Namespace: [VM.Managed.DAFUL.Mesher](VM.Managed.DAFUL.Mesher.md)  
 Assembly: VMDMesher.dll  

@@ -1,4 +1,4 @@
-# <a id="VM_Managed_CAD_BodyType"></a> Enum BodyType
+#  Enum BodyType
 
 Namespace: [VM.Managed.CAD](VM.Managed.CAD.md)  
 Assembly: VMAppCore.dll  

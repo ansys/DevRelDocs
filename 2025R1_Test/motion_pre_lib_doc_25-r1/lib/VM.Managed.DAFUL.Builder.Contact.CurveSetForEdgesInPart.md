@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_Builder_Contact_CurveSetForEdgesInPart"></a> Class CurveSetForEdgesInPart
+#  Class CurveSetForEdgesInPart
 
 Namespace: [VM.Managed.DAFUL.Builder.Contact](VM.Managed.DAFUL.Builder.Contact.md)  
 Assembly: VMBldCt.dll  

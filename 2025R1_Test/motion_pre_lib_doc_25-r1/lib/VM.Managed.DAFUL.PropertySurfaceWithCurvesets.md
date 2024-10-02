@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_PropertySurfaceWithCurvesets"></a> Class PropertySurfaceWithCurvesets
+#  Class PropertySurfaceWithCurvesets
 
 Namespace: [VM.Managed.DAFUL](VM.Managed.DAFUL.md)  
 Assembly: VMDBallPlacing.dll  

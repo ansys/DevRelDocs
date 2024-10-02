@@ -1,4 +1,4 @@
-# <a id="VM_IHasComment"></a> Interface IHasComment
+#  Interface IHasComment
 
 Namespace: [VM](VM.md)  
 Assembly: VM.dll  

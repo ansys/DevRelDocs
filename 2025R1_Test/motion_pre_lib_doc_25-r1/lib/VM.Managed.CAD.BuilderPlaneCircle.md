@@ -1,4 +1,4 @@
-# <a id="VM_Managed_CAD_BuilderPlaneCircle"></a> Class BuilderPlaneCircle
+#  Class BuilderPlaneCircle
 
 Namespace: [VM.Managed.CAD](VM.Managed.CAD.md)  
 Assembly: VMAppCore.dll  

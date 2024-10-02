@@ -1,4 +1,4 @@
-# <a id="VM_Managed_LinkContainer_None"></a> Struct LinkContainer.None
+#  Struct LinkContainer.None
 
 Namespace: [VM.Managed](VM.Managed.md)  
 Assembly: VMAppCore.dll  

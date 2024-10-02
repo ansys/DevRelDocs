@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_AttributeFacetRefinement"></a> Class AttributeFacetRefinement
+#  Class AttributeFacetRefinement
 
 Namespace: [VM.Managed.DAFUL](VM.Managed.DAFUL.md)  
 Assembly: VMDFBase.dll  

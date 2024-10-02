@@ -1,4 +1,4 @@
-# <a id="VM_Managed_PointNPointsCenter"></a> Class PointNPointsCenter
+#  Class PointNPointsCenter
 
 Namespace: [VM.Managed](VM.Managed.md)  
 Assembly: VMAppCore.dll  

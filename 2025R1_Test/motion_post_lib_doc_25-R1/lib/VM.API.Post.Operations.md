@@ -1,4 +1,4 @@
-# <a id="VM_API_Post_Operations"></a> Namespace VM.API.Post.Operations
+#  Namespace VM.API.Post.Operations
 
 ### Classes
 

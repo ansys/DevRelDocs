@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_GearTrain_BearingDB"></a> Namespace VM.Managed.DAFUL.GearTrain.BearingDB
+#  Namespace VM.Managed.DAFUL.GearTrain.BearingDB
 
 ### Classes
 

@@ -1,4 +1,4 @@
-# <a id="VM_Managed_IVisible"></a> Interface IVisible
+#  Interface IVisible
 
 Namespace: [VM.Managed](VM.Managed.md)  
 Assembly: VMAppCore.dll  

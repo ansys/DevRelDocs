@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_Car_SuspensionDocument_SteeringAxis"></a> Enum SuspensionDocument.SteeringAxis
+#  Enum SuspensionDocument.SteeringAxis
 
 Namespace: [VM.Managed.DAFUL.Car](VM.Managed.DAFUL.Car.md)  
 Assembly: VMDCar.dll  

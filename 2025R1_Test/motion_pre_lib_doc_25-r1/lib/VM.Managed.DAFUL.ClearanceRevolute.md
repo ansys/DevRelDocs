@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_ClearanceRevolute"></a> Class ClearanceRevolute
+#  Class ClearanceRevolute
 
 Namespace: [VM.Managed.DAFUL](VM.Managed.DAFUL.md)  
 Assembly: VMDCB.dll  

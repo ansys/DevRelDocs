@@ -1,4 +1,4 @@
-# <a id="VM_Models_Pre_IDirectionTwoPoints"></a> Interface IDirectionTwoPoints
+#  Interface IDirectionTwoPoints
 
 Namespace: [VM.Models.Pre](VM.Models.Pre.md)  
 Assembly: VM.Models.Pre.dll  

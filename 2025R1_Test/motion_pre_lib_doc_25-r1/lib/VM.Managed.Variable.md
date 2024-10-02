@@ -1,4 +1,4 @@
-# <a id="VM_Managed_Variable"></a> Class Variable
+#  Class Variable
 
 Namespace: [VM.Managed](VM.Managed.md)  
 Assembly: VMAppCore.dll  

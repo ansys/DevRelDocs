@@ -1,4 +1,4 @@
-# <a id="VM_Managed_InterfaceRemoveEvent"></a> Class InterfaceRemoveEvent
+#  Class InterfaceRemoveEvent
 
 Namespace: [VM.Managed](VM.Managed.md)  
 Assembly: VMObjBase.dll  

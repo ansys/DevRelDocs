@@ -1,4 +1,4 @@
-# <a id="VM_Managed_Symmetric_Car"></a> Namespace VM.Managed.Symmetric.Car
+#  Namespace VM.Managed.Symmetric.Car
 
 ### Namespaces
 

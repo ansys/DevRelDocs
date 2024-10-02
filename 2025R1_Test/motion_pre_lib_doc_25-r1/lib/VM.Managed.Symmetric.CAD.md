@@ -1,4 +1,4 @@
-# <a id="VM_Managed_Symmetric_CAD"></a> Namespace VM.Managed.Symmetric.CAD
+#  Namespace VM.Managed.Symmetric.CAD
 
 ### Namespaces
 

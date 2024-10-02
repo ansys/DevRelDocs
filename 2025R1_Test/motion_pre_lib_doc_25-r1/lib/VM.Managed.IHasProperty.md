@@ -1,4 +1,4 @@
-# <a id="VM_Managed_IHasProperty"></a> Interface IHasProperty
+#  Interface IHasProperty
 
 Namespace: [VM.Managed](VM.Managed.md)  
 Assembly: VMObjBase.dll  

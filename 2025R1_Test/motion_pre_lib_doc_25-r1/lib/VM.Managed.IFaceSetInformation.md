@@ -1,4 +1,4 @@
-# <a id="VM_Managed_IFaceSetInformation"></a> Interface IFaceSetInformation
+#  Interface IFaceSetInformation
 
 Namespace: [VM.Managed](VM.Managed.md)  
 Assembly: VMAppCore.dll  

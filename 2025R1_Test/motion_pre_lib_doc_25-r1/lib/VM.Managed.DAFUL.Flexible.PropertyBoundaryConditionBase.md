@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_Flexible_PropertyBoundaryConditionBase"></a> Class PropertyBoundaryConditionBase
+#  Class PropertyBoundaryConditionBase
 
 Namespace: [VM.Managed.DAFUL.Flexible](VM.Managed.DAFUL.Flexible.md)  
 Assembly: VMFlexibleBase.dll  

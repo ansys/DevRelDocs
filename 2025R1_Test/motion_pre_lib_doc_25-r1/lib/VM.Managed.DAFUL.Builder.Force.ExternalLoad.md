@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_Builder_Force_ExternalLoad"></a> Class ExternalLoad
+#  Class ExternalLoad
 
 Namespace: [VM.Managed.DAFUL.Builder.Force](VM.Managed.DAFUL.Builder.Force.md)  
 Assembly: VMBldFP.dll  

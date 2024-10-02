@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_ShoulderType"></a> Enum ShoulderType
+#  Enum ShoulderType
 
 Namespace: [VM.Managed.DAFUL](VM.Managed.DAFUL.md)  
 Assembly: VMDBallPlacing.dll  

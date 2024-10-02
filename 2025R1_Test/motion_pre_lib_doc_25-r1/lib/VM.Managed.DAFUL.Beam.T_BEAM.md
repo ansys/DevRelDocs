@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_Beam_T_BEAM"></a> Class T\_BEAM
+#  Class T\_BEAM
 
 Namespace: [VM.Managed.DAFUL.Beam](VM.Managed.DAFUL.Beam.md)  
 Assembly: VM.Models.FE.BeamCrossSection.dll  

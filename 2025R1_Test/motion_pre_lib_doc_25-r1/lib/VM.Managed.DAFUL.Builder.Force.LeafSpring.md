@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_Builder_Force_LeafSpring"></a> Class LeafSpring
+#  Class LeafSpring
 
 Namespace: [VM.Managed.DAFUL.Builder.Force](VM.Managed.DAFUL.Builder.Force.md)  
 Assembly: VMBldFP.dll  

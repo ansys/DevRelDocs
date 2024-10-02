@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_GearTrain_ClearanceInfo_AxialType"></a> Enum ClearanceInfo.AxialType
+#  Enum ClearanceInfo.AxialType
 
 Namespace: [VM.Managed.DAFUL.GearTrain](VM.Managed.DAFUL.GearTrain.md)  
 Assembly: VMDGearTrain.dll  

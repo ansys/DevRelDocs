@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_Builder_MeshFree_Contact_ColorTiePart"></a> Class ColorTiePart
+#  Class ColorTiePart
 
 Namespace: [VM.Managed.DAFUL.Builder.MeshFree.Contact](VM.Managed.DAFUL.Builder.MeshFree.Contact.md)  
 Assembly: VMBldMeshFree.dll  

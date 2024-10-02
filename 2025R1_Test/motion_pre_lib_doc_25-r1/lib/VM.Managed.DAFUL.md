@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL"></a> Namespace VM.Managed.DAFUL
+#  Namespace VM.Managed.DAFUL
 
 ### Namespaces
 

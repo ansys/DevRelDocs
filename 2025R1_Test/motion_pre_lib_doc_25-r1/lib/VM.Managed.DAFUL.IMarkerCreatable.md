@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_IMarkerCreatable"></a> Interface IMarkerCreatable
+#  Interface IMarkerCreatable
 
 Namespace: [VM.Managed.DAFUL](VM.Managed.DAFUL.md)  
 Assembly: VMDFBase.dll  

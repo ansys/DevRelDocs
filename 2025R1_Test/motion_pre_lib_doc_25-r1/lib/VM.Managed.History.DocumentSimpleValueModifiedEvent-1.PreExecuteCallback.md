@@ -1,4 +1,4 @@
-# <a id="VM_Managed_History_DocumentSimpleValueModifiedEvent_1_PreExecuteCallback"></a> Delegate DocumentSimpleValueModifiedEvent<T\>.PreExecuteCallback
+#  Delegate DocumentSimpleValueModifiedEvent<T\>.PreExecuteCallback
 
 Namespace: [VM.Managed.History](VM.Managed.History.md)  
 Assembly: VMAppCore.dll  

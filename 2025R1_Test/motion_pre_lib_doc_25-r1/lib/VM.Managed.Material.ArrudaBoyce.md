@@ -1,4 +1,4 @@
-# <a id="VM_Managed_Material_ArrudaBoyce"></a> Class ArrudaBoyce
+#  Class ArrudaBoyce
 
 Namespace: [VM.Managed.Material](VM.Managed.Material.md)  
 Assembly: VMObjBase.dll  

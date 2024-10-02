@@ -1,4 +1,4 @@
-# <a id="VM_Models_FE_Mesh_Elements_Element8Nodes"></a> Class Element8Nodes
+#  Class Element8Nodes
 
 Namespace: [VM.Models.FE.Mesh.Elements](VM.Models.FE.Mesh.Elements.md)  
 Assembly: VM.Models.FE.Mesh.dll  

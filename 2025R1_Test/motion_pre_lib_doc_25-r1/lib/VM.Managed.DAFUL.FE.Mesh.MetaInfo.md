@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_FE_Mesh_MetaInfo"></a> Struct Mesh.MetaInfo
+#  Struct Mesh.MetaInfo
 
 Namespace: [VM.Managed.DAFUL.FE](VM.Managed.DAFUL.FE.md)  
 Assembly: VMFE.dll  

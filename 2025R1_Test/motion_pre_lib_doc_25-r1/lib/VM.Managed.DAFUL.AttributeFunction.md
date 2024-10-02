@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_AttributeFunction"></a> Class AttributeFunction
+#  Class AttributeFunction
 
 Namespace: [VM.Managed.DAFUL](VM.Managed.DAFUL.md)  
 Assembly: VMDSB.dll  

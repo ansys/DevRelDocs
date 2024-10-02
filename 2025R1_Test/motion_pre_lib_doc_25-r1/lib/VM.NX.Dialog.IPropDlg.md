@@ -1,4 +1,4 @@
-# <a id="VM_NX_Dialog_IPropDlg"></a> Interface IPropDlg
+#  Interface IPropDlg
 
 Namespace: [VM.NX.Dialog](VM.NX.Dialog.md)  
 Assembly: VMDIDef.dll  

@@ -1,4 +1,4 @@
-# <a id="VM_Managed_IXMLFormatable"></a> Interface IXMLFormatable
+#  Interface IXMLFormatable
 
 Namespace: [VM.Managed](VM.Managed.md)  
 Assembly: VMAppCore.dll  

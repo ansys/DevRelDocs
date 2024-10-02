@@ -1,4 +1,4 @@
-# <a id="VM_Managed_INavigatorItem"></a> Interface INavigatorItem
+#  Interface INavigatorItem
 
 Namespace: [VM.Managed](VM.Managed.md)  
 Assembly: VMAppCore.dll  

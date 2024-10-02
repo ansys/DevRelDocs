@@ -1,4 +1,4 @@
-# <a id="VM_Managed_Symmetric_OrientationLink"></a> Class OrientationLink
+#  Class OrientationLink
 
 Namespace: [VM.Managed.Symmetric](VM.Managed.Symmetric.md)  
 Assembly: VMSymBase.dll  

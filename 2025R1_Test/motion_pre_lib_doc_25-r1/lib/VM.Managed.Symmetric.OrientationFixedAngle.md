@@ -1,4 +1,4 @@
-# <a id="VM_Managed_Symmetric_OrientationFixedAngle"></a> Class OrientationFixedAngle
+#  Class OrientationFixedAngle
 
 Namespace: [VM.Managed.Symmetric](VM.Managed.Symmetric.md)  
 Assembly: VMSymBase.dll  

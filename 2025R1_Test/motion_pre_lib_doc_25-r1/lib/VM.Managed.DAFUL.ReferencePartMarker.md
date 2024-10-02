@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_ReferencePartMarker"></a> Class ReferencePartMarker
+#  Class ReferencePartMarker
 
 Namespace: [VM.Managed.DAFUL](VM.Managed.DAFUL.md)  
 Assembly: VMDFBase.dll  

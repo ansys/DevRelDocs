@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_KeyInfo"></a> Class KeyInfo
+#  Class KeyInfo
 
 Namespace: [VM.Managed.DAFUL](VM.Managed.DAFUL.md)  
 Assembly: VMDBallPlacing.dll  

@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_Builder_FE_Contact_NTSF"></a> Class NTSF
+#  Class NTSF
 
 Namespace: [VM.Managed.DAFUL.Builder.FE.Contact](VM.Managed.DAFUL.Builder.FE.Contact.md)  
 Assembly: VMBldFECt.dll  

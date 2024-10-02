@@ -1,4 +1,4 @@
-# <a id="VM_DependencyResolveAttribute"></a> Class DependencyResolveAttribute
+#  Class DependencyResolveAttribute
 
 Namespace: [VM](VM.md)  
 Assembly: VM.dll  

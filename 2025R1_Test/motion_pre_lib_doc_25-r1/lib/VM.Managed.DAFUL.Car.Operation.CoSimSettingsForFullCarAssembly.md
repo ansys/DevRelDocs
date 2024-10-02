@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_Car_Operation_CoSimSettingsForFullCarAssembly"></a> Class CoSimSettingsForFullCarAssembly
+#  Class CoSimSettingsForFullCarAssembly
 
 Namespace: [VM.Managed.DAFUL.Car.Operation](VM.Managed.DAFUL.Car.Operation.md)  
 Assembly: VMOpFullCar.dll  

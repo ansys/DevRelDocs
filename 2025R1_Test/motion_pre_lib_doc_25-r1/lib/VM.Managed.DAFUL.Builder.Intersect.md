@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_Builder_Intersect"></a> Class Intersect
+#  Class Intersect
 
 Namespace: [VM.Managed.DAFUL.Builder](VM.Managed.DAFUL.Builder.md)  
 Assembly: VMBld.dll  

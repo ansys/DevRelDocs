@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_GearTrain_BearingDB_DBRecordForBearing"></a> Class DBRecordForBearing
+#  Class DBRecordForBearing
 
 Namespace: [VM.Managed.DAFUL.GearTrain.BearingDB](VM.Managed.DAFUL.GearTrain.BearingDB.md)  
 Assembly: VMDGearTrain.dll  

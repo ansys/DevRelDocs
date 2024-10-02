@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_Operation_DialogOperation"></a> Class DialogOperation
+#  Class DialogOperation
 
 Namespace: [VM.Managed.DAFUL.Operation](VM.Managed.DAFUL.Operation.md)  
 Assembly: VMOpCore.dll  

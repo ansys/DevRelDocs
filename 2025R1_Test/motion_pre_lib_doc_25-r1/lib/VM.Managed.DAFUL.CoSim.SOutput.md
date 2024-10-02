@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_CoSim_SOutput"></a> Class SOutput
+#  Class SOutput
 
 Namespace: [VM.Managed.DAFUL.CoSim](VM.Managed.DAFUL.CoSim.md)  
 Assembly: VMDCoSimCore.dll  

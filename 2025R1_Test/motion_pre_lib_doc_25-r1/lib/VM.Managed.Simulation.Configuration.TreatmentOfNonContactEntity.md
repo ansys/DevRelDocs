@@ -1,4 +1,4 @@
-# <a id="VM_Managed_Simulation_Configuration_TreatmentOfNonContactEntity"></a> Enum Configuration.TreatmentOfNonContactEntity
+#  Enum Configuration.TreatmentOfNonContactEntity
 
 Namespace: [VM.Managed.Simulation](VM.Managed.Simulation.md)  
 Assembly: VMDFBase.dll  

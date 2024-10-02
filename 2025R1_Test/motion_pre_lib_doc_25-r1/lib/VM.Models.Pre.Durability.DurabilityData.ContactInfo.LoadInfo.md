@@ -1,4 +1,4 @@
-# <a id="VM_Models_Pre_Durability_DurabilityData_ContactInfo_LoadInfo"></a> Class DurabilityData.ContactInfo.LoadInfo
+#  Class DurabilityData.ContactInfo.LoadInfo
 
 Namespace: [VM.Models.Pre.Durability](VM.Models.Pre.Durability.md)  
 Assembly: VM.Models.Pre.Durability.dll  

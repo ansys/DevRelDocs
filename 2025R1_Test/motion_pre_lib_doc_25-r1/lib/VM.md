@@ -1,4 +1,4 @@
-# <a id="VM"></a> Namespace VM
+#  Namespace VM
 
 ### Namespaces
 

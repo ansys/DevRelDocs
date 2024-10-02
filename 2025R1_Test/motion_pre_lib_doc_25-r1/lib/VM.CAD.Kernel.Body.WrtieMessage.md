@@ -1,4 +1,4 @@
-# <a id="VM_CAD_Kernel_Body_WrtieMessage"></a> Delegate Body.WrtieMessage
+#  Delegate Body.WrtieMessage
 
 Namespace: [VM.CAD.Kernel](VM.CAD.Kernel.md)  
 Assembly: VM.CAD.Kernel.dll  

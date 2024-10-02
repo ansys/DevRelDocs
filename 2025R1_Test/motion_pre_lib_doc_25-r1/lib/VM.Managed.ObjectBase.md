@@ -1,4 +1,4 @@
-# <a id="VM_Managed_ObjectBase"></a> Class ObjectBase
+#  Class ObjectBase
 
 Namespace: [VM.Managed](VM.Managed.md)  
 Assembly: VMAppCore.dll  

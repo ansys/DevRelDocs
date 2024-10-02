@@ -1,4 +1,4 @@
-# <a id="VM_Managed_Symmetric_Variable"></a> Class Variable
+#  Class Variable
 
 Namespace: [VM.Managed.Symmetric](VM.Managed.Symmetric.md)  
 Assembly: VMSymBase.dll  

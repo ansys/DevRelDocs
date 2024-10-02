@@ -1,4 +1,4 @@
-# <a id="VM_Operations_Post_Interfaces"></a> Namespace VM.Operations.Post.Interfaces
+#  Namespace VM.Operations.Post.Interfaces
 
 ### Interfaces
 

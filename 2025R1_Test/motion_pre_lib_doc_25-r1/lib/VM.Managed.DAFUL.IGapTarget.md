@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_IGapTarget"></a> Interface IGapTarget
+#  Interface IGapTarget
 
 Namespace: [VM.Managed.DAFUL](VM.Managed.DAFUL.md)  
 Assembly: VMDFBase.dll  

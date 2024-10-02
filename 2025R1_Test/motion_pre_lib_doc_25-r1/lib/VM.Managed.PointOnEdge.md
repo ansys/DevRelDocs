@@ -1,4 +1,4 @@
-# <a id="VM_Managed_PointOnEdge"></a> Class PointOnEdge
+#  Class PointOnEdge
 
 Namespace: [VM.Managed](VM.Managed.md)  
 Assembly: VMAppCore.dll  

@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_Car_AnalysisStaticLoad_TractionForce"></a> Class AnalysisStaticLoad.TractionForce
+#  Class AnalysisStaticLoad.TractionForce
 
 Namespace: [VM.Managed.DAFUL.Car](VM.Managed.DAFUL.Car.md)  
 Assembly: VMDCar.dll  

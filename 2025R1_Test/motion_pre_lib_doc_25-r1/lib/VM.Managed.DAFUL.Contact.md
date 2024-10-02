@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_Contact"></a> Namespace VM.Managed.DAFUL.Contact
+#  Namespace VM.Managed.DAFUL.Contact
 
 ### Classes
 

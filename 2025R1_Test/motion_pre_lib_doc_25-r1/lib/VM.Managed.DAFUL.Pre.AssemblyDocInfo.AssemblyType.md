@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_Pre_AssemblyDocInfo_AssemblyType"></a> Enum AssemblyDocInfo.AssemblyType
+#  Enum AssemblyDocInfo.AssemblyType
 
 Namespace: [VM.Managed.DAFUL.Pre](VM.Managed.DAFUL.Pre.md)  
 Assembly: dfpredat.dll  

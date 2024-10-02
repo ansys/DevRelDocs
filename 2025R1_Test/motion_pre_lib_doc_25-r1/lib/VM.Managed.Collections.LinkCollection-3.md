@@ -1,4 +1,4 @@
-# <a id="VM_Managed_Collections_LinkCollection_3"></a> Class LinkCollection<T, TLink, TCollection\>
+#  Class LinkCollection<T, TLink, TCollection\>
 
 Namespace: [VM.Managed.Collections](VM.Managed.Collections.md)  
 Assembly: VMAppCore.dll  

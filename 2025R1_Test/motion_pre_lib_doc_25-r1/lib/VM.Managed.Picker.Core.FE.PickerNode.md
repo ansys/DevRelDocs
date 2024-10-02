@@ -1,4 +1,4 @@
-# <a id="VM_Managed_Picker_Core_FE_PickerNode"></a> Class PickerNode
+#  Class PickerNode
 
 Namespace: [VM.Managed.Picker.Core.FE](VM.Managed.Picker.Core.FE.md)  
 Assembly: VMFE.dll  

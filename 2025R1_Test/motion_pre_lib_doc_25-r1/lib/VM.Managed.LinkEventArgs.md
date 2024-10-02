@@ -1,4 +1,4 @@
-# <a id="VM_Managed_LinkEventArgs"></a> Class LinkEventArgs
+#  Class LinkEventArgs
 
 Namespace: [VM.Managed](VM.Managed.md)  
 Assembly: VMAppCore.dll  

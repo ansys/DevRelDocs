@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_Builder_FE_BC"></a> Class BC
+#  Class BC
 
 Namespace: [VM.Managed.DAFUL.Builder.FE](VM.Managed.DAFUL.Builder.FE.md)  
 Assembly: VMBldFE.dll  

@@ -1,4 +1,4 @@
-# <a id="VM_Models_Pre_ArrayExtensions"></a> Class ArrayExtensions
+#  Class ArrayExtensions
 
 Namespace: [VM.Models.Pre](VM.Models.Pre.md)  
 Assembly: VM.Models.Pre.dll  

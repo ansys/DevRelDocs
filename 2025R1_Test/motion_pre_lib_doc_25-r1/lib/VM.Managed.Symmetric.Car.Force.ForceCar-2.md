@@ -1,4 +1,4 @@
-# <a id="VM_Managed_Symmetric_Car_Force_ForceCar_2"></a> Class ForceCar<T, TProp\>
+#  Class ForceCar<T, TProp\>
 
 Namespace: [VM.Managed.Symmetric.Car.Force](VM.Managed.Symmetric.Car.Force.md)  
 Assembly: VMSymCar.dll  

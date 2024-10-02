@@ -1,4 +1,4 @@
-# <a id="VM_Managed_Simulation"></a> Namespace VM.Managed.Simulation
+#  Namespace VM.Managed.Simulation
 
 ### Classes
 

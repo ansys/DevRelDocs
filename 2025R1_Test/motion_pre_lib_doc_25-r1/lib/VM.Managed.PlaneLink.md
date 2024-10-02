@@ -1,4 +1,4 @@
-# <a id="VM_Managed_PlaneLink"></a> Class PlaneLink
+#  Class PlaneLink
 
 Namespace: [VM.Managed](VM.Managed.md)  
 Assembly: VMAppCore.dll  

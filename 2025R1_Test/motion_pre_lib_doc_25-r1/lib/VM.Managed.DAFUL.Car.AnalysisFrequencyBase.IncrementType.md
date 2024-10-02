@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_Car_AnalysisFrequencyBase_IncrementType"></a> Enum AnalysisFrequencyBase.IncrementType
+#  Enum AnalysisFrequencyBase.IncrementType
 
 Namespace: [VM.Managed.DAFUL.Car](VM.Managed.DAFUL.Car.md)  
 Assembly: VMDFullCar.dll  

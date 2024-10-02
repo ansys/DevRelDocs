@@ -1,4 +1,4 @@
-# <a id="VM_API_Pre_GearTrain"></a> Namespace VM.API.Pre.GearTrain
+#  Namespace VM.API.Pre.GearTrain
 
 ### Classes
 

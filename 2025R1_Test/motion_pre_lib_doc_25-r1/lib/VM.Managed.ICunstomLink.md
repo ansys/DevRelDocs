@@ -1,4 +1,4 @@
-# <a id="VM_Managed_ICunstomLink"></a> Interface ICunstomLink
+#  Interface ICunstomLink
 
 Namespace: [VM.Managed](VM.Managed.md)  
 Assembly: VMAppCore.dll  

@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_GearTrain_CAD_AddedRackBuilderForRBEInMeshFree"></a> Class AddedRackBuilderForRBEInMeshFree
+#  Class AddedRackBuilderForRBEInMeshFree
 
 Namespace: [VM.Managed.DAFUL.GearTrain.CAD](VM.Managed.DAFUL.GearTrain.CAD.md)  
 Assembly: VMDGearTrain.dll  

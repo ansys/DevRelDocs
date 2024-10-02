@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_Constraints_RestrictionBase"></a> Class RestrictionBase
+#  Class RestrictionBase
 
 Namespace: [VM.Managed.DAFUL.Constraints](VM.Managed.DAFUL.Constraints.md)  
 Assembly: VMDCB.dll  

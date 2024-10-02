@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_Connector_1"></a> Class Connector<TProperty\>
+#  Class Connector<TProperty\>
 
 Namespace: [VM.Managed.DAFUL](VM.Managed.DAFUL.md)  
 Assembly: VMDFBase.dll  

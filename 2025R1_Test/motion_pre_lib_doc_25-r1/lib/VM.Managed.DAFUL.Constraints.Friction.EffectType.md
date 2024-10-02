@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_Constraints_Friction_EffectType"></a> Enum Friction.EffectType
+#  Enum Friction.EffectType
 
 Namespace: [VM.Managed.DAFUL.Constraints](VM.Managed.DAFUL.Constraints.md)  
 Assembly: VMDCB.dll  

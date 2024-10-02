@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_Builder_FE_Contact_Tie"></a> Class Tie
+#  Class Tie
 
 Namespace: [VM.Managed.DAFUL.Builder.FE.Contact](VM.Managed.DAFUL.Builder.FE.Contact.md)  
 Assembly: VMBldFECt.dll  

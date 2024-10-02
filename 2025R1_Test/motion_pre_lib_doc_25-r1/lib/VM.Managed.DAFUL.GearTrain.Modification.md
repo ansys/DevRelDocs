@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_GearTrain_Modification"></a> Class Modification
+#  Class Modification
 
 Namespace: [VM.Managed.DAFUL.GearTrain](VM.Managed.DAFUL.GearTrain.md)  
 Assembly: VMDGearTrain.dll  

@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_Tire_Road"></a> Class Road
+#  Class Road
 
 Namespace: [VM.Managed.DAFUL.Tire](VM.Managed.DAFUL.Tire.md)  
 Assembly: VMDTire.dll  

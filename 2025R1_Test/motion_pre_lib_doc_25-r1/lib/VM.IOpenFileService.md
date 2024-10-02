@@ -1,4 +1,4 @@
-# <a id="VM_IOpenFileService"></a> Interface IOpenFileService
+#  Interface IOpenFileService
 
 Namespace: [VM](VM.md)  
 Assembly: VM.dll  

@@ -1,4 +1,4 @@
-# <a id="VM_Models_Pre_Force_TorqueTest"></a> Class TorqueTest
+#  Class TorqueTest
 
 Namespace: [VM.Models.Pre.Force](VM.Models.Pre.Force.md)  
 Assembly: VM.Models.Pre.Force.dll  

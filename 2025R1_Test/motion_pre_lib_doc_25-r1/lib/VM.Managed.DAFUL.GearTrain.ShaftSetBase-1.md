@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_GearTrain_ShaftSetBase_1"></a> Class ShaftSetBase<TProperty\>
+#  Class ShaftSetBase<TProperty\>
 
 Namespace: [VM.Managed.DAFUL.GearTrain](VM.Managed.DAFUL.GearTrain.md)  
 Assembly: VMDGearTrain.dll  

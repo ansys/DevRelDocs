@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_Builder_RequestBase_1"></a> Class RequestBase<T\>
+#  Class RequestBase<T\>
 
 Namespace: [VM.Managed.DAFUL.Builder](VM.Managed.DAFUL.Builder.md)  
 Assembly: VMBld.dll  

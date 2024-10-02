@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_Thermal_ThermalUserSubroutine"></a> Class ThermalUserSubroutine
+#  Class ThermalUserSubroutine
 
 Namespace: [VM.Managed.DAFUL.Thermal](VM.Managed.DAFUL.Thermal.md)  
 Assembly: VMThermalBase.dll  

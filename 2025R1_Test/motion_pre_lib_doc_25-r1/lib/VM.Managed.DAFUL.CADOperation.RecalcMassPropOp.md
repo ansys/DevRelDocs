@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_CADOperation_RecalcMassPropOp"></a> Class CADOperation.RecalcMassPropOp
+#  Class CADOperation.RecalcMassPropOp
 
 Namespace: [VM.Managed.DAFUL](VM.Managed.DAFUL.md)  
 Assembly: VMDFBase.dll  

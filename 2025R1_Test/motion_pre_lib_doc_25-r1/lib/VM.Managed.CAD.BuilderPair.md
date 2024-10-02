@@ -1,4 +1,4 @@
-# <a id="VM_Managed_CAD_BuilderPair"></a> Class BuilderPair
+#  Class BuilderPair
 
 Namespace: [VM.Managed.CAD](VM.Managed.CAD.md)  
 Assembly: VMAppCore.dll  

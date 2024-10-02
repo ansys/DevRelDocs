@@ -1,4 +1,4 @@
-# <a id="VM_Models_Pre_IInitialize"></a> Interface IInitialize
+#  Interface IInitialize
 
 Namespace: [VM.Models.Pre](VM.Models.Pre.md)  
 Assembly: VM.Models.Pre.dll  

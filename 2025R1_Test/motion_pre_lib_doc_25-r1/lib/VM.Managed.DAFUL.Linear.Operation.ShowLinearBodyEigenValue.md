@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_Linear_Operation_ShowLinearBodyEigenValue"></a> Class ShowLinearBodyEigenValue
+#  Class ShowLinearBodyEigenValue
 
 Namespace: [VM.Managed.DAFUL.Linear.Operation](VM.Managed.DAFUL.Linear.Operation.md)  
 Assembly: VMOpLinear.dll  

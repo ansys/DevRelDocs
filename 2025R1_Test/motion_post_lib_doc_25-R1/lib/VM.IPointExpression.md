@@ -1,4 +1,4 @@
-# <a id="VM_IPointExpression"></a> Interface IPointExpression
+#  Interface IPointExpression
 
 Namespace: [VM](VM.md)  
 Assembly: VM.dll  

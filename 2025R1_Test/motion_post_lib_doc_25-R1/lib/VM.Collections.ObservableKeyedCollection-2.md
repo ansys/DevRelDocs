@@ -1,4 +1,4 @@
-# <a id="VM_Collections_ObservableKeyedCollection_2"></a> Class ObservableKeyedCollection<TKey, TItem\>
+#  Class ObservableKeyedCollection<TKey, TItem\>
 
 Namespace: [VM.Collections](VM.Collections.md)  
 Assembly: VM.dll  

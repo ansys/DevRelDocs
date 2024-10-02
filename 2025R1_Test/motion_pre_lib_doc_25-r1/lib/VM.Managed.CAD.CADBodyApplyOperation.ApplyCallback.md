@@ -1,4 +1,4 @@
-# <a id="VM_Managed_CAD_CADBodyApplyOperation_ApplyCallback"></a> Delegate CADBodyApplyOperation.ApplyCallback
+#  Delegate CADBodyApplyOperation.ApplyCallback
 
 Namespace: [VM.Managed.CAD](VM.Managed.CAD.md)  
 Assembly: VMAppCore.dll  

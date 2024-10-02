@@ -1,4 +1,4 @@
-# <a id="VM_Managed_CAD_AttributeBodyInformation"></a> Class AttributeBodyInformation
+#  Class AttributeBodyInformation
 
 Namespace: [VM.Managed.CAD](VM.Managed.CAD.md)  
 Assembly: VMAppCore.dll  

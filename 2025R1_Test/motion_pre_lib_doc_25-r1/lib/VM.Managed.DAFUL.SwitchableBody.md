@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_SwitchableBody"></a> Class SwitchableBody
+#  Class SwitchableBody
 
 Namespace: [VM.Managed.DAFUL](VM.Managed.DAFUL.md)  
 Assembly: VMDFBase.dll  

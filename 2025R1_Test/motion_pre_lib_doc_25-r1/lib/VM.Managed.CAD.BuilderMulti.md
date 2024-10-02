@@ -1,4 +1,4 @@
-# <a id="VM_Managed_CAD_BuilderMulti"></a> Class BuilderMulti
+#  Class BuilderMulti
 
 Namespace: [VM.Managed.CAD](VM.Managed.CAD.md)  
 Assembly: VMAppCore.dll  

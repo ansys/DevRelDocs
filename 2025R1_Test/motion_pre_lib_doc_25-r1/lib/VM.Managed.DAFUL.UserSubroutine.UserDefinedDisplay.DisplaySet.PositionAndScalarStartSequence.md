@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_UserSubroutine_UserDefinedDisplay_DisplaySet_PositionAndScalarStartSequence"></a> Struct UserSubroutine.UserDefinedDisplay.DisplaySet.PositionAndScalarStartSequence
+#  Struct UserSubroutine.UserDefinedDisplay.DisplaySet.PositionAndScalarStartSequence
 
 Namespace: [VM.Managed.DAFUL](VM.Managed.DAFUL.md)  
 Assembly: VMDSP.dll  

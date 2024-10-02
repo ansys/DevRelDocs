@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_MeshFreePropertyForSolidBody"></a> Class MeshFreePropertyForSolidBody
+#  Class MeshFreePropertyForSolidBody
 
 Namespace: [VM.Managed.DAFUL](VM.Managed.DAFUL.md)  
 Assembly: VMDFBase.dll  

@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_ITranslationalMotionComponent"></a> Interface ITranslationalMotionComponent
+#  Interface ITranslationalMotionComponent
 
 Namespace: [VM.Managed.DAFUL](VM.Managed.DAFUL.md)  
 Assembly: VMDFBase.dll  

@@ -1,4 +1,4 @@
-# <a id="VM_Models_Pre_LinkUpdateAttribute"></a> Class LinkUpdateAttribute
+#  Class LinkUpdateAttribute
 
 Namespace: [VM.Models.Pre](VM.Models.Pre.md)  
 Assembly: VM.Models.Pre.Aspects.dll  

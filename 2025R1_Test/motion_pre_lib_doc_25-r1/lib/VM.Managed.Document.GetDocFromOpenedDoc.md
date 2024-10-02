@@ -1,4 +1,4 @@
-# <a id="VM_Managed_Document_GetDocFromOpenedDoc"></a> Delegate Document.GetDocFromOpenedDoc
+#  Delegate Document.GetDocFromOpenedDoc
 
 Namespace: [VM.Managed](VM.Managed.md)  
 Assembly: VMAppCore.dll  

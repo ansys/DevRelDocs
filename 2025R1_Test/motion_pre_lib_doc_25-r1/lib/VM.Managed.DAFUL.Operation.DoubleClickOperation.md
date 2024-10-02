@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_Operation_DoubleClickOperation"></a> Class DoubleClickOperation
+#  Class DoubleClickOperation
 
 Namespace: [VM.Managed.DAFUL.Operation](VM.Managed.DAFUL.Operation.md)  
 Assembly: VMOpCore.dll  

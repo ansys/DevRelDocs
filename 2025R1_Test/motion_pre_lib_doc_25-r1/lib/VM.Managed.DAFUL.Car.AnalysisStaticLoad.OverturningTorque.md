@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_Car_AnalysisStaticLoad_OverturningTorque"></a> Class AnalysisStaticLoad.OverturningTorque
+#  Class AnalysisStaticLoad.OverturningTorque
 
 Namespace: [VM.Managed.DAFUL.Car](VM.Managed.DAFUL.Car.md)  
 Assembly: VMDCar.dll  

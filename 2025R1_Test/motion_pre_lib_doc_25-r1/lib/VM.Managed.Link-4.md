@@ -1,4 +1,4 @@
-# <a id="VM_Managed_Link_4"></a> Class Link<T, TUpdate, TDestroy, TOwnerDestroy\>
+#  Class Link<T, TUpdate, TDestroy, TOwnerDestroy\>
 
 Namespace: [VM.Managed](VM.Managed.md)  
 Assembly: VMAppCore.dll  

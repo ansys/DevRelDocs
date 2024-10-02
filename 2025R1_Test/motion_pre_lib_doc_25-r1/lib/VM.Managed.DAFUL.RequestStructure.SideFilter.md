@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_RequestStructure_SideFilter"></a> Enum RequestStructure.SideFilter
+#  Enum RequestStructure.SideFilter
 
 Namespace: [VM.Managed.DAFUL](VM.Managed.DAFUL.md)  
 Assembly: VMDSB.dll  

@@ -1,4 +1,4 @@
-# <a id="VM_Managed_OrientationEulerAngle"></a> Class OrientationEulerAngle
+#  Class OrientationEulerAngle
 
 Namespace: [VM.Managed](VM.Managed.md)  
 Assembly: VMAppCore.dll  

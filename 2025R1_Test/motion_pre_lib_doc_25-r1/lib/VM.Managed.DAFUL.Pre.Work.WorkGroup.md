@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_Pre_Work_WorkGroup"></a> Class Work.WorkGroup
+#  Class Work.WorkGroup
 
 Namespace: [VM.Managed.DAFUL.Pre](VM.Managed.DAFUL.Pre.md)  
 Assembly: dfpredat.dll  

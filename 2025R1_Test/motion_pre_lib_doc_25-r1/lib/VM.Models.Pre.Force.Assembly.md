@@ -1,4 +1,4 @@
-# <a id="VM_Models_Pre_Force_Assembly"></a> Class Assembly
+#  Class Assembly
 
 Namespace: [VM.Models.Pre.Force](VM.Models.Pre.Force.md)  
 Assembly: VM.Models.Pre.Force.dll  

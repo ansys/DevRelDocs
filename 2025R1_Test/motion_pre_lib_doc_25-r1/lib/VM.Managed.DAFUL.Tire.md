@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_Tire"></a> Namespace VM.Managed.DAFUL.Tire
+#  Namespace VM.Managed.DAFUL.Tire
 
 ### Namespaces
 

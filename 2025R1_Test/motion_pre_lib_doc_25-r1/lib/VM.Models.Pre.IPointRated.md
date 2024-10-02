@@ -1,4 +1,4 @@
-# <a id="VM_Models_Pre_IPointRated"></a> Interface IPointRated
+#  Interface IPointRated
 
 Namespace: [VM.Models.Pre](VM.Models.Pre.md)  
 Assembly: VM.Models.Pre.dll  

@@ -1,4 +1,4 @@
-# <a id="VM_Managed_AttributeMeshFreeGeometryOutputProperty"></a> Class AttributeMeshFreeGeometryOutputProperty
+#  Class AttributeMeshFreeGeometryOutputProperty
 
 Namespace: [VM.Managed](VM.Managed.md)  
 Assembly: VMAppCore.dll  

@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_Flexible_Force"></a> Namespace VM.Managed.DAFUL.Flexible.Force
+#  Namespace VM.Managed.DAFUL.Flexible.Force
 
 ### Classes
 

@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_Track_HydroForce_ActionBodyData"></a> Class HydroForce.ActionBodyData
+#  Class HydroForce.ActionBodyData
 
 Namespace: [VM.Managed.DAFUL.Track](VM.Managed.DAFUL.Track.md)  
 Assembly: VMDTrackBase.dll  

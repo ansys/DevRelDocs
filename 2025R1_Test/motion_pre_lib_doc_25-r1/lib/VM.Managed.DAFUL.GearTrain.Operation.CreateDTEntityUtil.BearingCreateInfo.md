@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_GearTrain_Operation_CreateDTEntityUtil_BearingCreateInfo"></a> Class CreateDTEntityUtil.BearingCreateInfo
+#  Class CreateDTEntityUtil.BearingCreateInfo
 
 Namespace: [VM.Managed.DAFUL.GearTrain.Operation](VM.Managed.DAFUL.GearTrain.Operation.md)  
 Assembly: VMOpGearTrain.dll  

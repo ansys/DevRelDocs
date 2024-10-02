@@ -1,4 +1,4 @@
-# <a id="VM_Managed_Expression"></a> Class Expression
+#  Class Expression
 
 Namespace: [VM.Managed](VM.Managed.md)  
 Assembly: VMAppCore.dll  

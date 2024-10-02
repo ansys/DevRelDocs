@@ -1,4 +1,4 @@
-# <a id="VM_Operations_Post_Interfaces_IOperationsLine2DViewModelBase"></a> Interface IOperationsLine2DViewModelBase
+#  Interface IOperationsLine2DViewModelBase
 
 Namespace: [VM.Operations.Post.Interfaces](VM.Operations.Post.Interfaces.md)  
 Assembly: VM.Operations.Post.dll  

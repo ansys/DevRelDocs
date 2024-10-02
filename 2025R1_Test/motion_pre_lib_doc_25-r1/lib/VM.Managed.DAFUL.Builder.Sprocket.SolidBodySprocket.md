@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_Builder_Sprocket_SolidBodySprocket"></a> Class SolidBodySprocket
+#  Class SolidBodySprocket
 
 Namespace: [VM.Managed.DAFUL.Builder.Sprocket](VM.Managed.DAFUL.Builder.Sprocket.md)  
 Assembly: VMBldSprocket.dll  

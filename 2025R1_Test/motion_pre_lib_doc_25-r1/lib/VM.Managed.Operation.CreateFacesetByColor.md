@@ -1,4 +1,4 @@
-# <a id="VM_Managed_Operation_CreateFacesetByColor"></a> Class CreateFacesetByColor
+#  Class CreateFacesetByColor
 
 Namespace: [VM.Managed.Operation](VM.Managed.Operation.md)  
 Assembly: VMOP.dll  

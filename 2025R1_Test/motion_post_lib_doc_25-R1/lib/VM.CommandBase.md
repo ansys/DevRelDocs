@@ -1,4 +1,4 @@
-# <a id="VM_CommandBase"></a> Class CommandBase
+#  Class CommandBase
 
 Namespace: [VM](VM.md)  
 Assembly: VM.dll  

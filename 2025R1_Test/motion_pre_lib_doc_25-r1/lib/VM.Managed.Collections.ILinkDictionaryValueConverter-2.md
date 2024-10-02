@@ -1,4 +1,4 @@
-# <a id="VM_Managed_Collections_ILinkDictionaryValueConverter_2"></a> Interface ILinkDictionaryValueConverter<TValue, TValueWrapper\>
+#  Interface ILinkDictionaryValueConverter<TValue, TValueWrapper\>
 
 Namespace: [VM.Managed.Collections](VM.Managed.Collections.md)  
 Assembly: VMAppCore.dll  

@@ -1,4 +1,4 @@
-# <a id="VM_Managed_Simulation_Configuration_Simulation"></a> Enum Configuration.Simulation
+#  Enum Configuration.Simulation
 
 Namespace: [VM.Managed.Simulation](VM.Managed.Simulation.md)  
 Assembly: VMDFBase.dll  

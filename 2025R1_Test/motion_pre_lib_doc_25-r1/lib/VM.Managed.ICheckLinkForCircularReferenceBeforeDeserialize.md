@@ -1,4 +1,4 @@
-# <a id="VM_Managed_ICheckLinkForCircularReferenceBeforeDeserialize"></a> Interface ICheckLinkForCircularReferenceBeforeDeserialize
+#  Interface ICheckLinkForCircularReferenceBeforeDeserialize
 
 Namespace: [VM.Managed](VM.Managed.md)  
 Assembly: VMObjBase.dll  

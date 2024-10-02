@@ -1,4 +1,4 @@
-# <a id="VM_Models_Pre_PythonFunctionIntellisenseService"></a> Class PythonFunctionIntellisenseService
+#  Class PythonFunctionIntellisenseService
 
 Namespace: [VM.Models.Pre](VM.Models.Pre.md)  
 Assembly: VM.Models.Pre.dll  

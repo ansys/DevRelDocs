@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_FEFilm_Multi_Lateral"></a> Class FEFilm\_Multi\_Lateral
+#  Class FEFilm\_Multi\_Lateral
 
 Namespace: [VM.Managed.DAFUL](VM.Managed.DAFUL.md)  
 Assembly: VMDFEFilm.dll  

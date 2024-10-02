@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_FEFilm_Pole"></a> Class FEFilm\_Pole
+#  Class FEFilm\_Pole
 
 Namespace: [VM.Managed.DAFUL](VM.Managed.DAFUL.md)  
 Assembly: VMDFEFilm.dll  

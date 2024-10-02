@@ -1,4 +1,4 @@
-# <a id="VM_Operations_Post_Interfaces_IOperationsHeatMapBaseViewModel"></a> Interface IOperationsHeatMapBaseViewModel
+#  Interface IOperationsHeatMapBaseViewModel
 
 Namespace: [VM.Operations.Post.Interfaces](VM.Operations.Post.Interfaces.md)  
 Assembly: VM.Operations.Post.dll  

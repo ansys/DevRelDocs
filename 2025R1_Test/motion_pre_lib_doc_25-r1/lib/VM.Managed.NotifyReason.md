@@ -1,4 +1,4 @@
-# <a id="VM_Managed_NotifyReason"></a> Enum NotifyReason
+#  Enum NotifyReason
 
 Namespace: [VM.Managed](VM.Managed.md)  
 Assembly: VMAppCore.dll  

@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_Builder_GearTrain_Force_MotorEMForce"></a> Class MotorEMForce
+#  Class MotorEMForce
 
 Namespace: [VM.Managed.DAFUL.Builder.GearTrain.Force](VM.Managed.DAFUL.Builder.GearTrain.Force.md)  
 Assembly: VMBldGearTrain.dll  

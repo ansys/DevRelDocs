@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DirectionLink"></a> Class DirectionLink
+#  Class DirectionLink
 
 Namespace: [VM.Managed](VM.Managed.md)  
 Assembly: VMAppCore.dll  

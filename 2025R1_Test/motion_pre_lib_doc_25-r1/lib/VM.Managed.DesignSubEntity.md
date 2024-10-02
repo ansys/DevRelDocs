@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DesignSubEntity"></a> Class DesignSubEntity
+#  Class DesignSubEntity
 
 Namespace: [VM.Managed](VM.Managed.md)  
 Assembly: VMObjBase.dll  

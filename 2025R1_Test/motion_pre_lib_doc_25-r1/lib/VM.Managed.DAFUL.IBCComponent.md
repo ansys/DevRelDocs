@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_IBCComponent"></a> Interface IBCComponent
+#  Interface IBCComponent
 
 Namespace: [VM.Managed.DAFUL](VM.Managed.DAFUL.md)  
 Assembly: VMDFBase.dll  

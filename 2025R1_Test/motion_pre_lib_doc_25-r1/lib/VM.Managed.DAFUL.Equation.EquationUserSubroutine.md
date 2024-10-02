@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_Equation_EquationUserSubroutine"></a> Class EquationUserSubroutine
+#  Class EquationUserSubroutine
 
 Namespace: [VM.Managed.DAFUL.Equation](VM.Managed.DAFUL.Equation.md)  
 Assembly: VMDEq.dll  

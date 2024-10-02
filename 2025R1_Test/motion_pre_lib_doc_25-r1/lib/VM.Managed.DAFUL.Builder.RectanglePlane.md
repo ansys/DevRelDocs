@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_Builder_RectanglePlane"></a> Class RectanglePlane
+#  Class RectanglePlane
 
 Namespace: [VM.Managed.DAFUL.Builder](VM.Managed.DAFUL.Builder.md)  
 Assembly: VMBld.dll  

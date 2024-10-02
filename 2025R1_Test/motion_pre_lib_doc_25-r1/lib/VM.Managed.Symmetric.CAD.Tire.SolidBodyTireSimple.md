@@ -1,4 +1,4 @@
-# <a id="VM_Managed_Symmetric_CAD_Tire_SolidBodyTireSimple"></a> Class SolidBodyTireSimple
+#  Class SolidBodyTireSimple
 
 Namespace: [VM.Managed.Symmetric.CAD.Tire](VM.Managed.Symmetric.CAD.Tire.md)  
 Assembly: VMSymTire.dll  

@@ -1,4 +1,4 @@
-# <a id="VM_Managed_Dialog_CreateSubEntityOperation"></a> Class CreateSubEntityOperation
+#  Class CreateSubEntityOperation
 
 Namespace: [VM.Managed.Dialog](VM.Managed.Dialog.md)  
 Assembly: VMAppCore.dll  

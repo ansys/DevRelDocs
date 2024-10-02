@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_FEFilm_Paths"></a> Class FEFilm\_Paths
+#  Class FEFilm\_Paths
 
 Namespace: [VM.Managed.DAFUL](VM.Managed.DAFUL.md)  
 Assembly: VMDFEFilm.dll  

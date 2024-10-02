@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_Builder_NoneDirection"></a> Struct NoneDirection
+#  Struct NoneDirection
 
 Namespace: [VM.Managed.DAFUL.Builder](VM.Managed.DAFUL.Builder.md)  
 Assembly: VMBld.dll  

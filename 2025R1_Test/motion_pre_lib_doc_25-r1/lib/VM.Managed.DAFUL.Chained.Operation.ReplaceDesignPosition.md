@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_Chained_Operation_ReplaceDesignPosition"></a> Class ReplaceDesignPosition
+#  Class ReplaceDesignPosition
 
 Namespace: [VM.Managed.DAFUL.Chained.Operation](VM.Managed.DAFUL.Chained.Operation.md)  
 Assembly: VMOpChained.dll  

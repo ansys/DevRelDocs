@@ -1,4 +1,4 @@
-# <a id="VM_Managed_AnalysisParameterStatic"></a> Class AnalysisParameterStatic
+#  Class AnalysisParameterStatic
 
 Namespace: [VM.Managed](VM.Managed.md)  
 Assembly: VMObjBase.dll  

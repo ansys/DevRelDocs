@@ -1,4 +1,4 @@
-# <a id="VM_Managed_Material_Ortho"></a> Class Ortho
+#  Class Ortho
 
 Namespace: [VM.Managed.Material](VM.Managed.Material.md)  
 Assembly: VMObjBase.dll  

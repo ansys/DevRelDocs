@@ -1,4 +1,4 @@
-# <a id="VM_API_Pre_CAD_Heal"></a> Class Heal
+#  Class Heal
 
 Namespace: [VM.API.Pre.CAD](VM.API.Pre.CAD.md)  
 Assembly: VM.API.Pre.dll  

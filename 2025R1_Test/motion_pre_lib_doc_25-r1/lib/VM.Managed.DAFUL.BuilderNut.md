@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_BuilderNut"></a> Class BuilderNut
+#  Class BuilderNut
 
 Namespace: [VM.Managed.DAFUL](VM.Managed.DAFUL.md)  
 Assembly: VMDBallPlacing.dll  

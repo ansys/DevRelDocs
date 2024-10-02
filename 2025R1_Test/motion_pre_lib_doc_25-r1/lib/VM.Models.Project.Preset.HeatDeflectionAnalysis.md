@@ -1,4 +1,4 @@
-# <a id="VM_Models_Project_Preset_HeatDeflectionAnalysis"></a> Class HeatDeflectionAnalysis
+#  Class HeatDeflectionAnalysis
 
 Namespace: [VM.Models.Project.Preset](VM.Models.Project.Preset.md)  
 Assembly: VM.Models.Project.Preset.dll  

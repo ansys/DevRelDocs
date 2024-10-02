@@ -1,4 +1,4 @@
-# <a id="VM_Managed_Operation_OperationConstructorNotFoundException"></a> Class OperationConstructorNotFoundException
+#  Class OperationConstructorNotFoundException
 
 Namespace: [VM.Managed.Operation](VM.Managed.Operation.md)  
 Assembly: VMAppCore.dll  

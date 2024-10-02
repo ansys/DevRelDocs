@@ -1,4 +1,4 @@
-# <a id="VM_Operations_Post_Interfaces_IOperationsTransformLineDataSeriesViewModel"></a> Interface IOperationsTransformLineDataSeriesViewModel
+#  Interface IOperationsTransformLineDataSeriesViewModel
 
 Namespace: [VM.Operations.Post.Interfaces](VM.Operations.Post.Interfaces.md)  
 Assembly: VM.Operations.Post.dll  

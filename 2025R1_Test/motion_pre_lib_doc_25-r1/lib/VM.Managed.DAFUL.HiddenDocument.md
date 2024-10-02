@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_HiddenDocument"></a> Class HiddenDocument
+#  Class HiddenDocument
 
 Namespace: [VM.Managed.DAFUL](VM.Managed.DAFUL.md)  
 Assembly: VMDFBase.dll  

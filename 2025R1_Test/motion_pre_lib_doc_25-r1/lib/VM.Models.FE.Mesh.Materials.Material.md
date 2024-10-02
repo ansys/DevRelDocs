@@ -1,4 +1,4 @@
-# <a id="VM_Models_FE_Mesh_Materials_Material"></a> Class Material
+#  Class Material
 
 Namespace: [VM.Models.FE.Mesh.Materials](VM.Models.FE.Mesh.Materials.md)  
 Assembly: VM.Models.FE.Mesh.dll  

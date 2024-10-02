@@ -1,4 +1,4 @@
-# <a id="VM_Managed_Material_NeoHookean"></a> Class NeoHookean
+#  Class NeoHookean
 
 Namespace: [VM.Managed.Material](VM.Managed.Material.md)  
 Assembly: VMObjBase.dll  

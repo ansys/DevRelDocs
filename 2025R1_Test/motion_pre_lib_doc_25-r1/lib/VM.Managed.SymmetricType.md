@@ -1,4 +1,4 @@
-# <a id="VM_Managed_SymmetricType"></a> Enum SymmetricType
+#  Enum SymmetricType
 
 Namespace: [VM.Managed](VM.Managed.md)  
 Assembly: VMAppCore.dll  

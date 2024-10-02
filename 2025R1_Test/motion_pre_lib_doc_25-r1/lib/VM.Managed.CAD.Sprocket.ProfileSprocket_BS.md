@@ -1,4 +1,4 @@
-# <a id="VM_Managed_CAD_Sprocket_ProfileSprocket_BS"></a> Class ProfileSprocket\_BS
+#  Class ProfileSprocket\_BS
 
 Namespace: [VM.Managed.CAD.Sprocket](VM.Managed.CAD.Sprocket.md)  
 Assembly: VMDSprocket.dll  

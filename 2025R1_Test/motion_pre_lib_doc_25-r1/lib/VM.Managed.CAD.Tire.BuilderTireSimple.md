@@ -1,4 +1,4 @@
-# <a id="VM_Managed_CAD_Tire_BuilderTireSimple"></a> Class BuilderTireSimple
+#  Class BuilderTireSimple
 
 Namespace: [VM.Managed.CAD.Tire](VM.Managed.CAD.Tire.md)  
 Assembly: VMDTire.dll  

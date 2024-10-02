@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_CADOperation_CalcBoundingBoxOp"></a> Class CADOperation.CalcBoundingBoxOp
+#  Class CADOperation.CalcBoundingBoxOp
 
 Namespace: [VM.Managed.DAFUL](VM.Managed.DAFUL.md)  
 Assembly: VMDFBase.dll  

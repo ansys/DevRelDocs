@@ -1,4 +1,4 @@
-# <a id="VM_Managed_IPerformanceIndexable"></a> Interface IPerformanceIndexable
+#  Interface IPerformanceIndexable
 
 Namespace: [VM.Managed](VM.Managed.md)  
 Assembly: VMAppCore.dll  

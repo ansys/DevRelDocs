@@ -1,4 +1,4 @@
-# <a id="VM_CAD_Builders_ColorInfo"></a> Class ColorInfo
+#  Class ColorInfo
 
 Namespace: [VM.CAD.Builders](VM.CAD.Builders.md)  
 Assembly: VM.CAD.Builders.dll  

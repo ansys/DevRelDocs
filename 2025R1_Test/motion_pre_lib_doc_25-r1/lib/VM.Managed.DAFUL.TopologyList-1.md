@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_TopologyList_1"></a> Class TopologyList<T\>
+#  Class TopologyList<T\>
 
 Namespace: [VM.Managed.DAFUL](VM.Managed.DAFUL.md)  
 Assembly: VMDFBase.dll  

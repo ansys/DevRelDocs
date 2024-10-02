@@ -1,4 +1,4 @@
-# <a id="VM_Managed_History_RemoveAssemblyEvent"></a> Class RemoveAssemblyEvent
+#  Class RemoveAssemblyEvent
 
 Namespace: [VM.Managed.History](VM.Managed.History.md)  
 Assembly: VMAppCore.dll  

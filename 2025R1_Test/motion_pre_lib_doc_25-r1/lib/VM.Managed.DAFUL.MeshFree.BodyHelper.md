@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_MeshFree_BodyHelper"></a> Class BodyHelper
+#  Class BodyHelper
 
 Namespace: [VM.Managed.DAFUL.MeshFree](VM.Managed.DAFUL.MeshFree.md)  
 Assembly: VMDMeshFree.dll  

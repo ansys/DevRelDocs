@@ -1,4 +1,4 @@
-# <a id="VM_Managed_CAD_GetPointAndDirectionFromFacetOp"></a> Class GetPointAndDirectionFromFacetOp
+#  Class GetPointAndDirectionFromFacetOp
 
 Namespace: [VM.Managed.CAD](VM.Managed.CAD.md)  
 Assembly: VMAppCore.dll  

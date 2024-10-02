@@ -1,4 +1,4 @@
-# <a id="VM_Managed_IDuplicateImpl"></a> Class IDuplicateImpl
+#  Class IDuplicateImpl
 
 Namespace: [VM.Managed](VM.Managed.md)  
 Assembly: VMObjBase.dll  

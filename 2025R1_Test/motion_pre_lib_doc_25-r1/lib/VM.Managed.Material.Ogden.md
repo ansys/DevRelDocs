@@ -1,4 +1,4 @@
-# <a id="VM_Managed_Material_Ogden"></a> Class Ogden
+#  Class Ogden
 
 Namespace: [VM.Managed.Material](VM.Managed.Material.md)  
 Assembly: VMObjBase.dll  

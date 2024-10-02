@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_Car_InterfaceManagerForCar"></a> Class InterfaceManagerForCar
+#  Class InterfaceManagerForCar
 
 Namespace: [VM.Managed.DAFUL.Car](VM.Managed.DAFUL.Car.md)  
 Assembly: VMDCar.dll  

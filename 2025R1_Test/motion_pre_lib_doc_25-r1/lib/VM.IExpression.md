@@ -1,4 +1,4 @@
-# <a id="VM_IExpression"></a> Interface IExpression
+#  Interface IExpression
 
 Namespace: [VM](VM.md)  
 Assembly: VM.dll  

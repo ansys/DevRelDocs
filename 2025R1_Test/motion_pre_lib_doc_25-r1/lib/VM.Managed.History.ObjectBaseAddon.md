@@ -1,4 +1,4 @@
-# <a id="VM_Managed_History_ObjectBaseAddon"></a> Class ObjectBaseAddon
+#  Class ObjectBaseAddon
 
 Namespace: [VM.Managed.History](VM.Managed.History.md)  
 Assembly: VMAppCore.dll  

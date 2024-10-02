@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_Car_CreateGroupImpl"></a> Class CreateGroupImpl
+#  Class CreateGroupImpl
 
 Namespace: [VM.Managed.DAFUL.Car](VM.Managed.DAFUL.Car.md)  
 Assembly: VMDCar.dll  

@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_Bearing_Force_BearingBase_1"></a> Class BearingBase<TProperty\>
+#  Class BearingBase<TProperty\>
 
 Namespace: [VM.Managed.DAFUL.Bearing.Force](VM.Managed.DAFUL.Bearing.Force.md)  
 Assembly: VMDBearing.dll  

@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_Builder_Thermal_Convection"></a> Class Convection
+#  Class Convection
 
 Namespace: [VM.Managed.DAFUL.Builder.Thermal](VM.Managed.DAFUL.Builder.Thermal.md)  
 Assembly: VMBldThermal.dll  

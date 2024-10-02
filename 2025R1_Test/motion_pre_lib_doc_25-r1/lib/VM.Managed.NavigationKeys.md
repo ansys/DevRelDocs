@@ -1,4 +1,4 @@
-# <a id="VM_Managed_NavigationKeys"></a> Enum NavigationKeys
+#  Enum NavigationKeys
 
 Namespace: [VM.Managed](VM.Managed.md)  
 Assembly: VMAppCore.dll  

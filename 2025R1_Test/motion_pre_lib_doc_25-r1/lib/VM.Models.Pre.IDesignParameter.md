@@ -1,4 +1,4 @@
-# <a id="VM_Models_Pre_IDesignParameter"></a> Interface IDesignParameter
+#  Interface IDesignParameter
 
 Namespace: [VM.Models.Pre](VM.Models.Pre.md)  
 Assembly: VM.Models.Pre.dll  

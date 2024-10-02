@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_GearTrain_MotorDesigner_StatorSection_UserDefinedCreation"></a> Class MotorDesigner.StatorSection.UserDefinedCreation
+#  Class MotorDesigner.StatorSection.UserDefinedCreation
 
 Namespace: [VM.Managed.DAFUL.GearTrain](VM.Managed.DAFUL.GearTrain.md)  
 Assembly: VMDGearTrain.dll  

@@ -1,4 +1,4 @@
-# <a id="VM_Managed_IVisibleImpl"></a> Class IVisibleImpl
+#  Class IVisibleImpl
 
 Namespace: [VM.Managed](VM.Managed.md)  
 Assembly: VMAppCore.dll  

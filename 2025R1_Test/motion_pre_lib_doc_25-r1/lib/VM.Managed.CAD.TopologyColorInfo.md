@@ -1,4 +1,4 @@
-# <a id="VM_Managed_CAD_TopologyColorInfo"></a> Class TopologyColorInfo
+#  Class TopologyColorInfo
 
 Namespace: [VM.Managed.CAD](VM.Managed.CAD.md)  
 Assembly: VMAppCore.dll  

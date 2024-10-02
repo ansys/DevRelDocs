@@ -1,4 +1,4 @@
-# <a id="VM_Managed_Property"></a> Class Property
+#  Class Property
 
 Namespace: [VM.Managed](VM.Managed.md)  
 Assembly: VMObjBase.dll  

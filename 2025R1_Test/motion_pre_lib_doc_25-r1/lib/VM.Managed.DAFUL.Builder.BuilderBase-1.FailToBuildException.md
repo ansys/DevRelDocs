@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_Builder_BuilderBase_1_FailToBuildException"></a> Class BuilderBase<T\>.FailToBuildException
+#  Class BuilderBase<T\>.FailToBuildException
 
 Namespace: [VM.Managed.DAFUL.Builder](VM.Managed.DAFUL.Builder.md)  
 Assembly: VMBld.dll  

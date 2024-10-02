@@ -1,4 +1,4 @@
-# <a id="VM_Managed_Document_IsOpenDoc"></a> Delegate Document.IsOpenDoc
+#  Delegate Document.IsOpenDoc
 
 Namespace: [VM.Managed](VM.Managed.md)  
 Assembly: VMAppCore.dll  

@@ -1,4 +1,4 @@
-# <a id="VM_Managed_MeshFreeOutputType"></a> Enum MeshFreeOutputType
+#  Enum MeshFreeOutputType
 
 Namespace: [VM.Managed](VM.Managed.md)  
 Assembly: VMAppCore.dll  

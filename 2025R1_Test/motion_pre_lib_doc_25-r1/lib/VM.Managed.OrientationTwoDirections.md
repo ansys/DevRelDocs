@@ -1,4 +1,4 @@
-# <a id="VM_Managed_OrientationTwoDirections"></a> Class OrientationTwoDirections
+#  Class OrientationTwoDirections
 
 Namespace: [VM.Managed](VM.Managed.md)  
 Assembly: VMAppCore.dll  

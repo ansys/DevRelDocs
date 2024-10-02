@@ -1,4 +1,4 @@
-# <a id="VM_Managed_CAD_History_BodyColorEvent"></a> Class BodyColorEvent
+#  Class BodyColorEvent
 
 Namespace: [VM.Managed.CAD.History](VM.Managed.CAD.History.md)  
 Assembly: VMAppCore.dll  

@@ -1,4 +1,4 @@
-# <a id="VM_Models_Pre_Force_PropertyLeafSpring"></a> Class PropertyLeafSpring
+#  Class PropertyLeafSpring
 
 Namespace: [VM.Models.Pre.Force](VM.Models.Pre.Force.md)  
 Assembly: VM.Models.Pre.Force.dll  

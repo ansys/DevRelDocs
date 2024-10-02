@@ -1,4 +1,4 @@
-# <a id="VM_CAD_Builders_DrawInfoLine"></a> Class DrawInfoLine
+#  Class DrawInfoLine
 
 Namespace: [VM.CAD.Builders](VM.CAD.Builders.md)  
 Assembly: VM.CAD.Builders.dll  

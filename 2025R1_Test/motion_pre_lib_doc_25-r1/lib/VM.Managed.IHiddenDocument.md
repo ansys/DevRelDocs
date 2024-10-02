@@ -1,4 +1,4 @@
-# <a id="VM_Managed_IHiddenDocument"></a> Interface IHiddenDocument
+#  Interface IHiddenDocument
 
 Namespace: [VM.Managed](VM.Managed.md)  
 Assembly: VMAppCore.dll  

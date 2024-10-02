@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_Operation"></a> Namespace VM.Managed.DAFUL.Operation
+#  Namespace VM.Managed.DAFUL.Operation
 
 ### Namespaces
 

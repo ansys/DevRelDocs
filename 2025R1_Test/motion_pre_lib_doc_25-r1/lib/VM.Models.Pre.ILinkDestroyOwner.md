@@ -1,4 +1,4 @@
-# <a id="VM_Models_Pre_ILinkDestroyOwner"></a> Interface ILinkDestroyOwner
+#  Interface ILinkDestroyOwner
 
 Namespace: [VM.Models.Pre](VM.Models.Pre.md)  
 Assembly: VM.Models.Pre.dll  

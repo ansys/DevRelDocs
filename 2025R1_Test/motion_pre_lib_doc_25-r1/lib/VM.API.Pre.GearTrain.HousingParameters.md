@@ -1,4 +1,4 @@
-# <a id="VM_API_Pre_GearTrain_HousingParameters"></a> Struct HousingParameters
+#  Struct HousingParameters
 
 Namespace: [VM.API.Pre.GearTrain](VM.API.Pre.GearTrain.md)  
 Assembly: VM.API.Pre.GearTrain.dll  

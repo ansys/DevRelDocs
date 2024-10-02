@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_Operation_DeleteBallOperation"></a> Class DeleteBallOperation
+#  Class DeleteBallOperation
 
 Namespace: [VM.Managed.DAFUL.Operation](VM.Managed.DAFUL.Operation.md)  
 Assembly: VMOPBallPlacing.dll  

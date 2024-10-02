@@ -1,4 +1,4 @@
-# <a id="VM_Managed_CAD_History_BodyEventBase"></a> Class BodyEventBase
+#  Class BodyEventBase
 
 Namespace: [VM.Managed.CAD.History](VM.Managed.CAD.History.md)  
 Assembly: VMAppCore.dll  

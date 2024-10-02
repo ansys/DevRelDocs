@@ -1,4 +1,4 @@
-# <a id="VM_Managed_Picker_Core_PickerMultiTopol"></a> Class PickerMultiTopol
+#  Class PickerMultiTopol
 
 Namespace: [VM.Managed.Picker.Core](VM.Managed.Picker.Core.md)  
 Assembly: VMAppCore.dll  

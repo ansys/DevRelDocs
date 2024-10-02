@@ -1,4 +1,4 @@
-# <a id="VM_Managed_Collections_NamedObjectDictionary_1"></a> Class NamedObjectDictionary<T\>
+#  Class NamedObjectDictionary<T\>
 
 Namespace: [VM.Managed.Collections](VM.Managed.Collections.md)  
 Assembly: VMObjBase.dll  

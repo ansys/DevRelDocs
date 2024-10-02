@@ -1,4 +1,4 @@
-# <a id="VM_Managed_Document3D_CadImportResultType"></a> Enum Document3D.CadImportResultType
+#  Enum Document3D.CadImportResultType
 
 Namespace: [VM.Managed](VM.Managed.md)  
 Assembly: VMAppCore.dll  

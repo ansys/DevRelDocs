@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_FE_Mesh_ModeInvariantVariable"></a> Class Mesh.ModeInvariantVariable
+#  Class Mesh.ModeInvariantVariable
 
 Namespace: [VM.Managed.DAFUL.FE](VM.Managed.DAFUL.FE.md)  
 Assembly: VMFE.dll  

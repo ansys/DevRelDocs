@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_Builder_MeshFree_Force_ConcentratedLoad_Faces"></a> Class ConcentratedLoad\_Faces
+#  Class ConcentratedLoad\_Faces
 
 Namespace: [VM.Managed.DAFUL.Builder.MeshFree.Force](VM.Managed.DAFUL.Builder.MeshFree.Force.md)  
 Assembly: VMBldMeshFree.dll  

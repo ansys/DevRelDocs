@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_Track_IWater"></a> Interface IWater
+#  Interface IWater
 
 Namespace: [VM.Managed.DAFUL.Track](VM.Managed.DAFUL.Track.md)  
 Assembly: VMDTrackBase.dll  

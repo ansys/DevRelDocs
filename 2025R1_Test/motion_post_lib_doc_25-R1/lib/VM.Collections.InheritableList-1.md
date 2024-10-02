@@ -1,4 +1,4 @@
-# <a id="VM_Collections_InheritableList_1"></a> Class InheritableList<T\>
+#  Class InheritableList<T\>
 
 Namespace: [VM.Collections](VM.Collections.md)  
 Assembly: VM.dll  

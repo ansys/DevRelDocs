@@ -1,4 +1,4 @@
-# <a id="VM_Managed_ModifiedResult"></a> Class ModifiedResult
+#  Class ModifiedResult
 
 Namespace: [VM.Managed](VM.Managed.md)  
 Assembly: VMAppCore.dll  

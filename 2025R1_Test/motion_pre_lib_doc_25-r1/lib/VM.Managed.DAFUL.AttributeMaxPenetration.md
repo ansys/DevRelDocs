@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_AttributeMaxPenetration"></a> Class AttributeMaxPenetration
+#  Class AttributeMaxPenetration
 
 Namespace: [VM.Managed.DAFUL](VM.Managed.DAFUL.md)  
 Assembly: VMDFBase.dll  

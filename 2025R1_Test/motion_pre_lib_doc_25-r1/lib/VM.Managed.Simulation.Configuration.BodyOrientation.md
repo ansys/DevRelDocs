@@ -1,4 +1,4 @@
-# <a id="VM_Managed_Simulation_Configuration_BodyOrientation"></a> Enum Configuration.BodyOrientation
+#  Enum Configuration.BodyOrientation
 
 Namespace: [VM.Managed.Simulation](VM.Managed.Simulation.md)  
 Assembly: VMDFBase.dll  

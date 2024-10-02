@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_Pre_NewModel_WorkCreateType"></a> Enum NewModel.WorkCreateType
+#  Enum NewModel.WorkCreateType
 
 Namespace: [VM.Managed.DAFUL.Pre](VM.Managed.DAFUL.Pre.md)  
 Assembly: dfpredat.dll  

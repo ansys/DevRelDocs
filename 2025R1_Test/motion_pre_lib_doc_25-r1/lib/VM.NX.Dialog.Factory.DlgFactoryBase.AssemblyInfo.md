@@ -1,4 +1,4 @@
-# <a id="VM_NX_Dialog_Factory_DlgFactoryBase_AssemblyInfo"></a> Class DlgFactoryBase.AssemblyInfo
+#  Class DlgFactoryBase.AssemblyInfo
 
 Namespace: [VM.NX.Dialog.Factory](VM.NX.Dialog.Factory.md)  
 Assembly: VMDM.dll  

@@ -1,4 +1,4 @@
-# <a id="VM_Managed_IDrawFacet"></a> Interface IDrawFacet
+#  Interface IDrawFacet
 
 Namespace: [VM.Managed](VM.Managed.md)  
 Assembly: VMAppCore.dll  

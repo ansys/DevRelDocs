@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_GearTrain_BearingDB_RadialBall"></a> Class RadialBall
+#  Class RadialBall
 
 Namespace: [VM.Managed.DAFUL.GearTrain.BearingDB](VM.Managed.DAFUL.GearTrain.BearingDB.md)  
 Assembly: VMDGearTrain.dll  

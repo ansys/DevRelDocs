@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_RequestKinematic_OutputType"></a> Struct RequestKinematic.OutputType
+#  Struct RequestKinematic.OutputType
 
 Namespace: [VM.Managed.DAFUL](VM.Managed.DAFUL.md)  
 Assembly: VMDSB.dll  

@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_SolidBody"></a> Class SolidBody
+#  Class SolidBody
 
 Namespace: [VM.Managed.DAFUL](VM.Managed.DAFUL.md)  
 Assembly: VMDFBase.dll  

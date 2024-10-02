@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_DOE_Result_DesignParameter"></a> Class DesignParameter
+#  Class DesignParameter
 
 Namespace: [VM.Managed.DAFUL.DOE.Result](VM.Managed.DAFUL.DOE.Result.md)  
 Assembly: VMDDOEResult.dll  

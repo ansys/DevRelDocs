@@ -1,4 +1,4 @@
-# <a id="VM_Models_Pre_FilmThcknessType"></a> Enum FilmThcknessType
+#  Enum FilmThcknessType
 
 Namespace: [VM.Models.Pre](VM.Models.Pre.md)  
 Assembly: VM.Models.Pre.dll  

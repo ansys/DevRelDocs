@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_FE_History_MeshAddRemoveEventBase"></a> Class MeshAddRemoveEventBase
+#  Class MeshAddRemoveEventBase
 
 Namespace: [VM.Managed.DAFUL.FE.History](VM.Managed.DAFUL.FE.History.md)  
 Assembly: VMFE.dll  

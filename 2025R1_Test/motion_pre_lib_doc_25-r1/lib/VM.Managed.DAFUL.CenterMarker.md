@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_CenterMarker"></a> Class CenterMarker
+#  Class CenterMarker
 
 Namespace: [VM.Managed.DAFUL](VM.Managed.DAFUL.md)  
 Assembly: VMDFBase.dll  

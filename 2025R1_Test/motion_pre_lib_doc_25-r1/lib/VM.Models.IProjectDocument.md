@@ -1,4 +1,4 @@
-# <a id="VM_Models_IProjectDocument"></a> Interface IProjectDocument
+#  Interface IProjectDocument
 
 Namespace: [VM.Models](VM.Models.md)  
 Assembly: VM.Models.Project.dll  

@@ -1,4 +1,4 @@
-# <a id="VM_Managed_Symmetric_PointLinkDelta"></a> Class PointLinkDelta
+#  Class PointLinkDelta
 
 Namespace: [VM.Managed.Symmetric](VM.Managed.Symmetric.md)  
 Assembly: VMSymBase.dll  

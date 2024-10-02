@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_Builder_Bearing_BearingGeneralBBPD"></a> Class BearingGeneralBBPD
+#  Class BearingGeneralBBPD
 
 Namespace: [VM.Managed.DAFUL.Builder.Bearing](VM.Managed.DAFUL.Builder.Bearing.md)  
 Assembly: VMBldBearing.dll  

@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_RequestBase"></a> Class RequestBase
+#  Class RequestBase
 
 Namespace: [VM.Managed.DAFUL](VM.Managed.DAFUL.md)  
 Assembly: VMDSB.dll  

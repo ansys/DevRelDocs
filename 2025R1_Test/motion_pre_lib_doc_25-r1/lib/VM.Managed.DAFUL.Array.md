@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_Array"></a> Class Array
+#  Class Array
 
 Namespace: [VM.Managed.DAFUL](VM.Managed.DAFUL.md)  
 Assembly: VMDSP.dll  

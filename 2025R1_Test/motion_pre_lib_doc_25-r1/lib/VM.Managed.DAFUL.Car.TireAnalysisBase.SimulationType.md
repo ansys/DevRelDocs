@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_Car_TireAnalysisBase_SimulationType"></a> Enum TireAnalysisBase.SimulationType
+#  Enum TireAnalysisBase.SimulationType
 
 Namespace: [VM.Managed.DAFUL.Car](VM.Managed.DAFUL.Car.md)  
 Assembly: VMDCar.dll  

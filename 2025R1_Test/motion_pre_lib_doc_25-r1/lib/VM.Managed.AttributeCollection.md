@@ -1,4 +1,4 @@
-# <a id="VM_Managed_AttributeCollection"></a> Class AttributeCollection
+#  Class AttributeCollection
 
 Namespace: [VM.Managed](VM.Managed.md)  
 Assembly: VMAppCore.dll  

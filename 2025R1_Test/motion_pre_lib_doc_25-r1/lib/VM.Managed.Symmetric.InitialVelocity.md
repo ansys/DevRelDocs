@@ -1,4 +1,4 @@
-# <a id="VM_Managed_Symmetric_InitialVelocity"></a> Class InitialVelocity
+#  Class InitialVelocity
 
 Namespace: [VM.Managed.Symmetric](VM.Managed.Symmetric.md)  
 Assembly: VMSymBase.dll  

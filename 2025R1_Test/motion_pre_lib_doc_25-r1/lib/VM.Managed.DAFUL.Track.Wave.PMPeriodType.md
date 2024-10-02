@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_Track_Wave_PMPeriodType"></a> Enum Wave.PMPeriodType
+#  Enum Wave.PMPeriodType
 
 Namespace: [VM.Managed.DAFUL.Track](VM.Managed.DAFUL.Track.md)  
 Assembly: VMDTrackBase.dll  

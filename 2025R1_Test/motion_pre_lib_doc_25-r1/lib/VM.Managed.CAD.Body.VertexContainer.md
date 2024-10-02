@@ -1,4 +1,4 @@
-# <a id="VM_Managed_CAD_Body_VertexContainer"></a> Class Body.VertexContainer
+#  Class Body.VertexContainer
 
 Namespace: [VM.Managed.CAD](VM.Managed.CAD.md)  
 Assembly: VMAppCore.dll  

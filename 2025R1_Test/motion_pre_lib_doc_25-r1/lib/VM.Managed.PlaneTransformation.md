@@ -1,4 +1,4 @@
-# <a id="VM_Managed_PlaneTransformation"></a> Class PlaneTransformation
+#  Class PlaneTransformation
 
 Namespace: [VM.Managed](VM.Managed.md)  
 Assembly: VMAppCore.dll  

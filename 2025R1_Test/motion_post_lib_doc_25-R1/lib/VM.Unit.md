@@ -1,4 +1,4 @@
-# <a id="VM_Unit"></a> Class Unit
+#  Class Unit
 
 Namespace: [VM](VM.md)  
 Assembly: VM.dll  

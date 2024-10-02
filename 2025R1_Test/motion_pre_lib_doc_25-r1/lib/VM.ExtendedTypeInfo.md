@@ -1,4 +1,4 @@
-# <a id="VM_ExtendedTypeInfo"></a> Class ExtendedTypeInfo
+#  Class ExtendedTypeInfo
 
 Namespace: [VM](VM.md)  
 Assembly: VM.dll  

@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_Car_Force_PropertySpring"></a> Class PropertySpring
+#  Class PropertySpring
 
 Namespace: [VM.Managed.DAFUL.Car.Force](VM.Managed.DAFUL.Car.Force.md)  
 Assembly: VMDCar.dll  

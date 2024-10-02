@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_GearTrain_IOpenDesignerForGearTrain"></a> Interface IOpenDesignerForGearTrain
+#  Interface IOpenDesignerForGearTrain
 
 Namespace: [VM.Managed.DAFUL.GearTrain](VM.Managed.DAFUL.GearTrain.md)  
 Assembly: VMDGearTrain.dll  

@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_ArgumentList"></a> Class ArgumentList
+#  Class ArgumentList
 
 Namespace: [VM.Managed.DAFUL](VM.Managed.DAFUL.md)  
 Assembly: VMDSB.dll  

@@ -1,4 +1,4 @@
-# <a id="VM_Managed_IInterface"></a> Interface IInterface
+#  Interface IInterface
 
 Namespace: [VM.Managed](VM.Managed.md)  
 Assembly: VMObjBase.dll  

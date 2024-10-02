@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_Constraints_Inline"></a> Class Inline
+#  Class Inline
 
 Namespace: [VM.Managed.DAFUL.Constraints](VM.Managed.DAFUL.Constraints.md)  
 Assembly: VMDCP.dll  

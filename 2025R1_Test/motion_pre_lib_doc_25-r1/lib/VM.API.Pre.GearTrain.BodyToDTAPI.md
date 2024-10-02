@@ -1,4 +1,4 @@
-# <a id="VM_API_Pre_GearTrain_BodyToDTAPI"></a> Class BodyToDTAPI
+#  Class BodyToDTAPI
 
 Namespace: [VM.API.Pre.GearTrain](VM.API.Pre.GearTrain.md)  
 Assembly: VM.API.Pre.GearTrain.dll  

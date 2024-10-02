@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_Builder_FE_ShellToSolid"></a> Class ShellToSolid
+#  Class ShellToSolid
 
 Namespace: [VM.Managed.DAFUL.Builder.FE](VM.Managed.DAFUL.Builder.FE.md)  
 Assembly: VMBldFE.dll  

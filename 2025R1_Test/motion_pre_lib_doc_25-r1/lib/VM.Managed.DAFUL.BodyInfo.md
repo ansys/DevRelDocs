@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_BodyInfo"></a> Class BodyInfo
+#  Class BodyInfo
 
 Namespace: [VM.Managed.DAFUL](VM.Managed.DAFUL.md)  
 Assembly: VMDBallPlacing.dll  

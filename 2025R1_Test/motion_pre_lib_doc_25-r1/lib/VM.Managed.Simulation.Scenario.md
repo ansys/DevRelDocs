@@ -1,4 +1,4 @@
-# <a id="VM_Managed_Simulation_Scenario"></a> Class Scenario
+#  Class Scenario
 
 Namespace: [VM.Managed.Simulation](VM.Managed.Simulation.md)  
 Assembly: VMDFBase.dll  

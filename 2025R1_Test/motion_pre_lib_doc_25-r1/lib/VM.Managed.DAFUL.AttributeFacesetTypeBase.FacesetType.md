@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_AttributeFacesetTypeBase_FacesetType"></a> Enum AttributeFacesetTypeBase.FacesetType
+#  Enum AttributeFacesetTypeBase.FacesetType
 
 Namespace: [VM.Managed.DAFUL](VM.Managed.DAFUL.md)  
 Assembly: VMDFBase.dll  

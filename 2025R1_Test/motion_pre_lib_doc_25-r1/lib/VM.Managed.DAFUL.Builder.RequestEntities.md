@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_Builder_RequestEntities"></a> Class RequestEntities
+#  Class RequestEntities
 
 Namespace: [VM.Managed.DAFUL.Builder](VM.Managed.DAFUL.Builder.md)  
 Assembly: VMBld.dll  

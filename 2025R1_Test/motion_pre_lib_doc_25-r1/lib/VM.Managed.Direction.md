@@ -1,4 +1,4 @@
-# <a id="VM_Managed_Direction"></a> Class Direction
+#  Class Direction
 
 Namespace: [VM.Managed](VM.Managed.md)  
 Assembly: VMAppCore.dll  

@@ -1,4 +1,4 @@
-# <a id="VM_Managed_Symmetric_Point"></a> Class Point
+#  Class Point
 
 Namespace: [VM.Managed.Symmetric](VM.Managed.Symmetric.md)  
 Assembly: VMSymBase.dll  

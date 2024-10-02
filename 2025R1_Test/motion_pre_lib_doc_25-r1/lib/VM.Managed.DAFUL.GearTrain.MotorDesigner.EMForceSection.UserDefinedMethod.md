@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_GearTrain_MotorDesigner_EMForceSection_UserDefinedMethod"></a> Class MotorDesigner.EMForceSection.UserDefinedMethod
+#  Class MotorDesigner.EMForceSection.UserDefinedMethod
 
 Namespace: [VM.Managed.DAFUL.GearTrain](VM.Managed.DAFUL.GearTrain.md)  
 Assembly: VMDGearTrain.dll  

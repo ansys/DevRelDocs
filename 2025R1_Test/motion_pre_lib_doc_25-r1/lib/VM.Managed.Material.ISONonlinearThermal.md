@@ -1,4 +1,4 @@
-# <a id="VM_Managed_Material_ISONonlinearThermal"></a> Class ISONonlinearThermal
+#  Class ISONonlinearThermal
 
 Namespace: [VM.Managed.Material](VM.Managed.Material.md)  
 Assembly: VMObjBase.dll  

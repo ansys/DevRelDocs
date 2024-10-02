@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_GearTrain_GTAssemblyInfo"></a> Class GTAssemblyInfo
+#  Class GTAssemblyInfo
 
 Namespace: [VM.Managed.DAFUL.GearTrain](VM.Managed.DAFUL.GearTrain.md)  
 Assembly: VMDGearTrain.dll  
