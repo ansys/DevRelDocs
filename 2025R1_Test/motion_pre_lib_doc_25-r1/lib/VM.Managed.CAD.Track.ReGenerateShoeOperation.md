@@ -1,4 +1,4 @@
-# <a id="VM_Managed_CAD_Track_ReGenerateShoeOperation"></a> Class ReGenerateShoeOperation
+#  Class ReGenerateShoeOperation
 
 Namespace: [VM.Managed.CAD.Track](VM.Managed.CAD.Track.md)  
 Assembly: VMDTrackBase.dll  

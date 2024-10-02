@@ -1,4 +1,4 @@
-# <a id="VM_Managed_IReferencable"></a> Interface IReferencable
+#  Interface IReferencable
 
 Namespace: [VM.Managed](VM.Managed.md)  
 Assembly: VMAppCore.dll  

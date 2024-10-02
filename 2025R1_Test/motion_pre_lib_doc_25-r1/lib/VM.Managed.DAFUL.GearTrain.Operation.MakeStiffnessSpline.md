@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_GearTrain_Operation_MakeStiffnessSpline"></a> Class MakeStiffnessSpline
+#  Class MakeStiffnessSpline
 
 Namespace: [VM.Managed.DAFUL.GearTrain.Operation](VM.Managed.DAFUL.GearTrain.Operation.md)  
 Assembly: VMOpGearTrain.dll  

@@ -1,4 +1,4 @@
-# <a id="VM_Managed_IAutoContactableFlex"></a> Interface IAutoContactableFlex
+#  Interface IAutoContactableFlex
 
 Namespace: [VM.Managed](VM.Managed.md)  
 Assembly: VMAppCore.dll  

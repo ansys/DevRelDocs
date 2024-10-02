@@ -1,4 +1,4 @@
-# <a id="VM_Models_Pre_ISpline3D"></a> Interface ISpline3D
+#  Interface ISpline3D
 
 Namespace: [VM.Models.Pre](VM.Models.Pre.md)  
 Assembly: VM.Models.Pre.dll  

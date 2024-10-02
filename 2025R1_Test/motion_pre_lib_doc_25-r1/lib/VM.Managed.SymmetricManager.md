@@ -1,4 +1,4 @@
-# <a id="VM_Managed_SymmetricManager"></a> Class SymmetricManager
+#  Class SymmetricManager
 
 Namespace: [VM.Managed](VM.Managed.md)  
 Assembly: VMObjBase.dll  

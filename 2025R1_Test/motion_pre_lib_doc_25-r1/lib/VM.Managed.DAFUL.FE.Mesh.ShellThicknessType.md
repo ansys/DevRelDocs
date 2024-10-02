@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_FE_Mesh_ShellThicknessType"></a> Enum Mesh.ShellThicknessType
+#  Enum Mesh.ShellThicknessType
 
 Namespace: [VM.Managed.DAFUL.FE](VM.Managed.DAFUL.FE.md)  
 Assembly: VMFE.dll  

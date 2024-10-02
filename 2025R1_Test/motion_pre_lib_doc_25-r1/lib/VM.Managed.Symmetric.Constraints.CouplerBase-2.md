@@ -1,4 +1,4 @@
-# <a id="VM_Managed_Symmetric_Constraints_CouplerBase_2"></a> Class CouplerBase<T, TProp\>
+#  Class CouplerBase<T, TProp\>
 
 Namespace: [VM.Managed.Symmetric.Constraints](VM.Managed.Symmetric.Constraints.md)  
 Assembly: VMSymCP.dll  

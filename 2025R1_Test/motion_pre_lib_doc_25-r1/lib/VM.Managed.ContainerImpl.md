@@ -1,4 +1,4 @@
-# <a id="VM_Managed_ContainerImpl"></a> Class ContainerImpl
+#  Class ContainerImpl
 
 Namespace: [VM.Managed](VM.Managed.md)  
 Assembly: VMAppCore.dll  

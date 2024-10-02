@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_Builder_Boolean_1"></a> Class Boolean<T\>
+#  Class Boolean<T\>
 
 Namespace: [VM.Managed.DAFUL.Builder](VM.Managed.DAFUL.Builder.md)  
 Assembly: VMBld.dll  

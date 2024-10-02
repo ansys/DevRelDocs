@@ -1,4 +1,4 @@
-# <a id="VM_NX_Dialog_IPropPage"></a> Interface IPropPage
+#  Interface IPropPage
 
 Namespace: [VM.NX.Dialog](VM.NX.Dialog.md)  
 Assembly: VMDIDef.dll  

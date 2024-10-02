@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_IHasResult"></a> Interface IHasResult
+#  Interface IHasResult
 
 Namespace: [VM.Managed.DAFUL](VM.Managed.DAFUL.md)  
 Assembly: VMDSP.dll  

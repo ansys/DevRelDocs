@@ -1,4 +1,4 @@
-# <a id="VM_Managed_CADOperation_SetShearModulusOp"></a> Class CADOperation.SetShearModulusOp
+#  Class CADOperation.SetShearModulusOp
 
 Namespace: [VM.Managed](VM.Managed.md)  
 Assembly: VMObjBase.dll  

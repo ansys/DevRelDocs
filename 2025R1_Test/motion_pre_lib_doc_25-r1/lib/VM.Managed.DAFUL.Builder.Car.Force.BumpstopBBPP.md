@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_Builder_Car_Force_BumpstopBBPP"></a> Class BumpstopBBPP
+#  Class BumpstopBBPP
 
 Namespace: [VM.Managed.DAFUL.Builder.Car.Force](VM.Managed.DAFUL.Builder.Car.Force.md)  
 Assembly: VMBldCar.dll  

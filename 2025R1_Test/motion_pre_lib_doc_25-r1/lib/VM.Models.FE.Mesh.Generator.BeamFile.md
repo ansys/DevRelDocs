@@ -1,4 +1,4 @@
-# <a id="VM_Models_FE_Mesh_Generator_BeamFile"></a> Class BeamFile
+#  Class BeamFile
 
 Namespace: [VM.Models.FE.Mesh.Generator](VM.Models.FE.Mesh.Generator.md)  
 Assembly: VM.Models.FE.Mesh.Generator.dll  

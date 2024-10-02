@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_ICouplerComponent"></a> Interface ICouplerComponent
+#  Interface ICouplerComponent
 
 Namespace: [VM.Managed.DAFUL](VM.Managed.DAFUL.md)  
 Assembly: VMDFBase.dll  

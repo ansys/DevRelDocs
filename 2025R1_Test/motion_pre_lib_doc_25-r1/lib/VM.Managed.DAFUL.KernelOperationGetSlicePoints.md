@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_KernelOperationGetSlicePoints"></a> Class KernelOperationGetSlicePoints
+#  Class KernelOperationGetSlicePoints
 
 Namespace: [VM.Managed.DAFUL](VM.Managed.DAFUL.md)  
 Assembly: VMDBallPlacing.dll  

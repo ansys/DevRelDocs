@@ -1,4 +1,4 @@
-# <a id="VM_Managed_Operation_PublishModel"></a> Class PublishModel
+#  Class PublishModel
 
 Namespace: [VM.Managed.Operation](VM.Managed.Operation.md)  
 Assembly: VMOP.dll  

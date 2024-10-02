@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_Chained_ChainedMultiBaseInfo"></a> Class ChainedMultiBaseInfo
+#  Class ChainedMultiBaseInfo
 
 Namespace: [VM.Managed.DAFUL.Chained](VM.Managed.DAFUL.Chained.md)  
 Assembly: VMDChainedBase.dll  

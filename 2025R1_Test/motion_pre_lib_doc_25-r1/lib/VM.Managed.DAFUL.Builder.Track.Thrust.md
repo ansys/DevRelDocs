@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_Builder_Track_Thrust"></a> Class Thrust
+#  Class Thrust
 
 Namespace: [VM.Managed.DAFUL.Builder.Track](VM.Managed.DAFUL.Builder.Track.md)  
 Assembly: VMBldTrack.dll  

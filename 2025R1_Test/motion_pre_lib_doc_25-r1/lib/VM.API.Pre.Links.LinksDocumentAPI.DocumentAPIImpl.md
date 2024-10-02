@@ -1,4 +1,4 @@
-# <a id="VM_API_Pre_Links_LinksDocumentAPI_DocumentAPIImpl"></a> Class LinksDocumentAPI.DocumentAPIImpl
+#  Class LinksDocumentAPI.DocumentAPIImpl
 
 Namespace: [VM.API.Pre.Links](VM.API.Pre.Links.md)  
 Assembly: VM.API.Pre.Links.dll  

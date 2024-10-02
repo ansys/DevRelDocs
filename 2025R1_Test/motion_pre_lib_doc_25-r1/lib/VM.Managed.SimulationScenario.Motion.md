@@ -1,4 +1,4 @@
-# <a id="VM_Managed_SimulationScenario_Motion"></a> Enum SimulationScenario.Motion
+#  Enum SimulationScenario.Motion
 
 Namespace: [VM.Managed](VM.Managed.md)  
 Assembly: VMObjBase.dll  

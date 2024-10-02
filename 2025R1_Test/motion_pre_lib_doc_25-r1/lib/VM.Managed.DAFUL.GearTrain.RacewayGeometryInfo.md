@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_GearTrain_RacewayGeometryInfo"></a> Class RacewayGeometryInfo
+#  Class RacewayGeometryInfo
 
 Namespace: [VM.Managed.DAFUL.GearTrain](VM.Managed.DAFUL.GearTrain.md)  
 Assembly: VMDGearTrain.dll  

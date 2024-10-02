@@ -1,4 +1,4 @@
-# <a id="VM_Managed_CAD_Roller_BuilderRollerShaft"></a> Class BuilderRollerShaft
+#  Class BuilderRollerShaft
 
 Namespace: [VM.Managed.CAD.Roller](VM.Managed.CAD.Roller.md)  
 Assembly: VMDRoller.dll  

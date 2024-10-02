@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_GearTrain_KissSoftInterface"></a> Class KissSoftInterface
+#  Class KissSoftInterface
 
 Namespace: [VM.Managed.DAFUL.GearTrain](VM.Managed.DAFUL.GearTrain.md)  
 Assembly: VMDGearTrain.dll  

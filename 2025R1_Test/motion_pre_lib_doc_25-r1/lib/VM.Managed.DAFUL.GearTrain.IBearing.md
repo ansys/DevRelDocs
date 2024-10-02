@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_GearTrain_IBearing"></a> Interface IBearing
+#  Interface IBearing
 
 Namespace: [VM.Managed.DAFUL.GearTrain](VM.Managed.DAFUL.GearTrain.md)  
 Assembly: VMDGearTrain.dll  

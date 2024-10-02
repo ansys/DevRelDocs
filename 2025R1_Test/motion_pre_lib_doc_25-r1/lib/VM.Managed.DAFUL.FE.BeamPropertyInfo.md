@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_FE_BeamPropertyInfo"></a> Class BeamPropertyInfo
+#  Class BeamPropertyInfo
 
 Namespace: [VM.Managed.DAFUL.FE](VM.Managed.DAFUL.FE.md)  
 Assembly: VMFE.dll  

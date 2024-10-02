@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_Constraints_Cylindrical"></a> Class Cylindrical
+#  Class Cylindrical
 
 Namespace: [VM.Managed.DAFUL.Constraints](VM.Managed.DAFUL.Constraints.md)  
 Assembly: VMDCB.dll  

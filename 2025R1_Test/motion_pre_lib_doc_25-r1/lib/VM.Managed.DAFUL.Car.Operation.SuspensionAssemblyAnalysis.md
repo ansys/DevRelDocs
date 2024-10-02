@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_Car_Operation_SuspensionAssemblyAnalysis"></a> Class SuspensionAssemblyAnalysis
+#  Class SuspensionAssemblyAnalysis
 
 Namespace: [VM.Managed.DAFUL.Car.Operation](VM.Managed.DAFUL.Car.Operation.md)  
 Assembly: VMOpCar.dll  

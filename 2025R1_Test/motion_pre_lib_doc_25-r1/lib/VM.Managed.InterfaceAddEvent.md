@@ -1,4 +1,4 @@
-# <a id="VM_Managed_InterfaceAddEvent"></a> Class InterfaceAddEvent
+#  Class InterfaceAddEvent
 
 Namespace: [VM.Managed](VM.Managed.md)  
 Assembly: VMObjBase.dll  

@@ -1,4 +1,4 @@
-# <a id="VM_ITransformBase"></a> Interface ITransformBase
+#  Interface ITransformBase
 
 Namespace: [VM](VM.md)  
 Assembly: VM.dll  

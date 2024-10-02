@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_Car_Analysis_Full_ControlType"></a> Enum ControlType
+#  Enum ControlType
 
 Namespace: [VM.Managed.DAFUL.Car.Analysis.Full](VM.Managed.DAFUL.Car.Analysis.Full.md)  
 Assembly: VMDCar.dll  

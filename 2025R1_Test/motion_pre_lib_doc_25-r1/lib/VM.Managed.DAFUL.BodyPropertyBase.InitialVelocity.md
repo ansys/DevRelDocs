@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_BodyPropertyBase_InitialVelocity"></a> Class BodyPropertyBase.InitialVelocity
+#  Class BodyPropertyBase.InitialVelocity
 
 Namespace: [VM.Managed.DAFUL](VM.Managed.DAFUL.md)  
 Assembly: VMDFBase.dll  

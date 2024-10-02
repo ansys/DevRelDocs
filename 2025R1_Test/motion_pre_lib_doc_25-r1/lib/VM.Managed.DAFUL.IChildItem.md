@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_IChildItem"></a> Interface IChildItem
+#  Interface IChildItem
 
 Namespace: [VM.Managed.DAFUL](VM.Managed.DAFUL.md)  
 Assembly: VMDFBase.dll  

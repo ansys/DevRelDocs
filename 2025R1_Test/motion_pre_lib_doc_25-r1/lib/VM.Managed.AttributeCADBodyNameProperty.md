@@ -1,4 +1,4 @@
-# <a id="VM_Managed_AttributeCADBodyNameProperty"></a> Class AttributeCADBodyNameProperty
+#  Class AttributeCADBodyNameProperty
 
 Namespace: [VM.Managed](VM.Managed.md)  
 Assembly: VMAppCore.dll  

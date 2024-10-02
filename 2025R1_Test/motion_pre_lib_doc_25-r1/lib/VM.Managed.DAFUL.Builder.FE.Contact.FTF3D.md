@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_Builder_FE_Contact_FTF3D"></a> Class FTF3D
+#  Class FTF3D
 
 Namespace: [VM.Managed.DAFUL.Builder.FE.Contact](VM.Managed.DAFUL.Builder.FE.Contact.md)  
 Assembly: VMBldFECt.dll  

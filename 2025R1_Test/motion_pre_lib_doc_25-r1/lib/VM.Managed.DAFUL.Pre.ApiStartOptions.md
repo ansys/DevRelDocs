@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_Pre_ApiStartOptions"></a> Struct ApiStartOptions
+#  Struct ApiStartOptions
 
 Namespace: [VM.Managed.DAFUL.Pre](VM.Managed.DAFUL.Pre.md)  
 Assembly: dfpreAPI.dll  

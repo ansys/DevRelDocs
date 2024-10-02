@@ -1,4 +1,4 @@
-# <a id="VM_Managed_Picker_Core_FE_PickerMultiPatch"></a> Class PickerMultiPatch
+#  Class PickerMultiPatch
 
 Namespace: [VM.Managed.Picker.Core.FE](VM.Managed.Picker.Core.FE.md)  
 Assembly: VMFE.dll  

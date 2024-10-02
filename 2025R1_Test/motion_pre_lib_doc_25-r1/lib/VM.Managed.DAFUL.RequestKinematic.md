@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_RequestKinematic"></a> Class RequestKinematic
+#  Class RequestKinematic
 
 Namespace: [VM.Managed.DAFUL](VM.Managed.DAFUL.md)  
 Assembly: VMDSB.dll  

@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_GearTrain_Ball_Bearing_Data"></a> Class Ball\_Bearing\_Data
+#  Class Ball\_Bearing\_Data
 
 Namespace: [VM.Managed.DAFUL.GearTrain](VM.Managed.DAFUL.GearTrain.md)  
 Assembly: VMDGearTrain.dll  

@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_Equation_Differential2"></a> Class Differential2
+#  Class Differential2
 
 Namespace: [VM.Managed.DAFUL.Equation](VM.Managed.DAFUL.Equation.md)  
 Assembly: VMDEq.dll  

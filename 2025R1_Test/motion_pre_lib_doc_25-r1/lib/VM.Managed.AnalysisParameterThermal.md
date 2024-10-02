@@ -1,4 +1,4 @@
-# <a id="VM_Managed_AnalysisParameterThermal"></a> Class AnalysisParameterThermal
+#  Class AnalysisParameterThermal
 
 Namespace: [VM.Managed](VM.Managed.md)  
 Assembly: VMObjBase.dll  

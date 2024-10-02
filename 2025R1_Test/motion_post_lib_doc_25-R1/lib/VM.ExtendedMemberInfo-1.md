@@ -1,4 +1,4 @@
-# <a id="VM_ExtendedMemberInfo_1"></a> Class ExtendedMemberInfo<T\>
+#  Class ExtendedMemberInfo<T\>
 
 Namespace: [VM](VM.md)  
 Assembly: VM.dll  

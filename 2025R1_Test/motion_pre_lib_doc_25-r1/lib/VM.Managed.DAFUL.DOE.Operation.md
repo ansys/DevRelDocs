@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_DOE_Operation"></a> Namespace VM.Managed.DAFUL.DOE.Operation
+#  Namespace VM.Managed.DAFUL.DOE.Operation
 
 ### Classes
 

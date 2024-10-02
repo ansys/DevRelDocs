@@ -1,4 +1,4 @@
-# <a id="VM_IHasParent"></a> Interface IHasParent
+#  Interface IHasParent
 
 Namespace: [VM](VM.md)  
 Assembly: VM.dll  

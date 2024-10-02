@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_MultiObject"></a> Class MultiObject
+#  Class MultiObject
 
 Namespace: [VM.Managed.DAFUL](VM.Managed.DAFUL.md)  
 Assembly: VMDFBase.dll  

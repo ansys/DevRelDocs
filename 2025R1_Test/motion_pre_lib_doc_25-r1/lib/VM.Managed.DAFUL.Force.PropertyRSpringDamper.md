@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_Force_PropertyRSpringDamper"></a> Class PropertyRSpringDamper
+#  Class PropertyRSpringDamper
 
 Namespace: [VM.Managed.DAFUL.Force](VM.Managed.DAFUL.Force.md)  
 Assembly: VMDFB.dll  

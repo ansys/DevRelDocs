@@ -1,4 +1,4 @@
-# <a id="VM_Managed_PointExpression"></a> Class PointExpression
+#  Class PointExpression
 
 Namespace: [VM.Managed](VM.Managed.md)  
 Assembly: VMAppCore.dll  

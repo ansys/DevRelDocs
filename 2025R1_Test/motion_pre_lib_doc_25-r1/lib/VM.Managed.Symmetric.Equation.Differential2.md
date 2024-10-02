@@ -1,4 +1,4 @@
-# <a id="VM_Managed_Symmetric_Equation_Differential2"></a> Class Differential2
+#  Class Differential2
 
 Namespace: [VM.Managed.Symmetric.Equation](VM.Managed.Symmetric.Equation.md)  
 Assembly: VMSymEq.dll  

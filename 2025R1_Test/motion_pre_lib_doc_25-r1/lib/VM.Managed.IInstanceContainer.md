@@ -1,4 +1,4 @@
-# <a id="VM_Managed_IInstanceContainer"></a> Interface IInstanceContainer
+#  Interface IInstanceContainer
 
 Namespace: [VM.Managed](VM.Managed.md)  
 Assembly: VMAppCore.dll  

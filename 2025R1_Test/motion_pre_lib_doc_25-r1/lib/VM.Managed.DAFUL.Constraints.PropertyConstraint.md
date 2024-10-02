@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_Constraints_PropertyConstraint"></a> Class PropertyConstraint
+#  Class PropertyConstraint
 
 Namespace: [VM.Managed.DAFUL.Constraints](VM.Managed.DAFUL.Constraints.md)  
 Assembly: VMDCB.dll  

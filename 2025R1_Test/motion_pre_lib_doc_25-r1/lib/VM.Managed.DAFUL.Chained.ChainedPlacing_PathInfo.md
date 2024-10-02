@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_Chained_ChainedPlacing_PathInfo"></a> Class ChainedPlacing\_PathInfo
+#  Class ChainedPlacing\_PathInfo
 
 Namespace: [VM.Managed.DAFUL.Chained](VM.Managed.DAFUL.Chained.md)  
 Assembly: VMDChainedBase.dll  

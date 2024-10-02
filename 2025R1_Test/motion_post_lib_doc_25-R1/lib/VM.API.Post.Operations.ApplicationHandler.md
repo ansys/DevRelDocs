@@ -1,4 +1,4 @@
-# <a id="VM_API_Post_Operations_ApplicationHandler"></a> Class ApplicationHandler
+#  Class ApplicationHandler
 
 Namespace: [VM.API.Post.Operations](VM.API.Post.Operations.md)  
 Assembly: VM.API.Post.Operations.dll  

@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_SubSystemAssembly"></a> Class SubSystemAssembly
+#  Class SubSystemAssembly
 
 Namespace: [VM.Managed.DAFUL](VM.Managed.DAFUL.md)  
 Assembly: VMDFBase.dll  

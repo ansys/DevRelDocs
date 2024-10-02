@@ -1,4 +1,4 @@
-# <a id="VM_CAD_Kernel_Filter"></a> Class Filter
+#  Class Filter
 
 Namespace: [VM.CAD.Kernel](VM.CAD.Kernel.md)  
 Assembly: VM.CAD.Kernel.dll  

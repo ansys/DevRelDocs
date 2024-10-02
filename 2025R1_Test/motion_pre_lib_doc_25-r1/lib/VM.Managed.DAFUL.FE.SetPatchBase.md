@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_FE_SetPatchBase"></a> Class SetPatchBase
+#  Class SetPatchBase
 
 Namespace: [VM.Managed.DAFUL.FE](VM.Managed.DAFUL.FE.md)  
 Assembly: VMFE.dll  

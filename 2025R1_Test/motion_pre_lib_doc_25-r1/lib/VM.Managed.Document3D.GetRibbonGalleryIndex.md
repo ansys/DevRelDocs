@@ -1,4 +1,4 @@
-# <a id="VM_Managed_Document3D_GetRibbonGalleryIndex"></a> Delegate Document3D.GetRibbonGalleryIndex
+#  Delegate Document3D.GetRibbonGalleryIndex
 
 Namespace: [VM.Managed](VM.Managed.md)  
 Assembly: VMAppCore.dll  

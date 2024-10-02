@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_GearTrain_GearShapeWorm"></a> Class GearShapeWorm
+#  Class GearShapeWorm
 
 Namespace: [VM.Managed.DAFUL.GearTrain](VM.Managed.DAFUL.GearTrain.md)  
 Assembly: VMDGearTrain.dll  

@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_Ground"></a> Class Ground
+#  Class Ground
 
 Namespace: [VM.Managed.DAFUL](VM.Managed.DAFUL.md)  
 Assembly: VMDFBase.dll  

@@ -1,4 +1,4 @@
-# <a id="VM_Managed_SymmetricManager_SymmetricFactory_1"></a> Class SymmetricManager.SymmetricFactory<T\>
+#  Class SymmetricManager.SymmetricFactory<T\>
 
 Namespace: [VM.Managed](VM.Managed.md)  
 Assembly: VMObjBase.dll  

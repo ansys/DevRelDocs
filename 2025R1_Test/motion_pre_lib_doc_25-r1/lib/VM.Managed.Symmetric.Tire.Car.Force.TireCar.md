@@ -1,4 +1,4 @@
-# <a id="VM_Managed_Symmetric_Tire_Car_Force_TireCar"></a> Class TireCar
+#  Class TireCar
 
 Namespace: [VM.Managed.Symmetric.Tire.Car.Force](VM.Managed.Symmetric.Tire.Car.Force.md)  
 Assembly: VMSymTireCar.dll  

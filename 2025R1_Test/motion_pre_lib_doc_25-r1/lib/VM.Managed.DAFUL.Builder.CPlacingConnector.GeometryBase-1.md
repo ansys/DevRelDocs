@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_Builder_CPlacingConnector_GeometryBase_1"></a> Class GeometryBase<T\>
+#  Class GeometryBase<T\>
 
 Namespace: [VM.Managed.DAFUL.Builder.CPlacingConnector](VM.Managed.DAFUL.Builder.CPlacingConnector.md)  
 Assembly: VMBldCPlacingConnector.dll  

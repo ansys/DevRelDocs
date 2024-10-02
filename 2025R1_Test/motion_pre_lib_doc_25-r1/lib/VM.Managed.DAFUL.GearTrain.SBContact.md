@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_GearTrain_SBContact"></a> Class SBContact
+#  Class SBContact
 
 Namespace: [VM.Managed.DAFUL.GearTrain](VM.Managed.DAFUL.GearTrain.md)  
 Assembly: VMDGearTrain.dll  

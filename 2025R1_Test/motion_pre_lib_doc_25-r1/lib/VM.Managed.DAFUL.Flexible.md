@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_Flexible"></a> Namespace VM.Managed.DAFUL.Flexible
+#  Namespace VM.Managed.DAFUL.Flexible
 
 ### Namespaces
 

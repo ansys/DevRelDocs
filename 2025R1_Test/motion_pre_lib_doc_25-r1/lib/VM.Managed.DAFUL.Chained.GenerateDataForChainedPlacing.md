@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_Chained_GenerateDataForChainedPlacing"></a> Class GenerateDataForChainedPlacing
+#  Class GenerateDataForChainedPlacing
 
 Namespace: [VM.Managed.DAFUL.Chained](VM.Managed.DAFUL.Chained.md)  
 Assembly: VMDChainedBase.dll  

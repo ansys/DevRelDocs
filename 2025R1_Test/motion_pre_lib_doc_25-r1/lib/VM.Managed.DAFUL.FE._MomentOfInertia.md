@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_FE__MomentOfInertia"></a> Struct \_MomentOfInertia
+#  Struct \_MomentOfInertia
 
 Namespace: [VM.Managed.DAFUL.FE](VM.Managed.DAFUL.FE.md)  
 Assembly: VMFE.dll  

@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_GearTrain_Operation_AssembleItems"></a> Class AssembleItems
+#  Class AssembleItems
 
 Namespace: [VM.Managed.DAFUL.GearTrain.Operation](VM.Managed.DAFUL.GearTrain.Operation.md)  
 Assembly: VMOpGearTrain.dll  

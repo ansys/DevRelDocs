@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_Tire_Force_ActiveTirePropertyFile_PropertyFileInfo"></a> Class ActiveTirePropertyFile.PropertyFileInfo
+#  Class ActiveTirePropertyFile.PropertyFileInfo
 
 Namespace: [VM.Managed.DAFUL.Tire.Force](VM.Managed.DAFUL.Tire.Force.md)  
 Assembly: VMDTire.dll  

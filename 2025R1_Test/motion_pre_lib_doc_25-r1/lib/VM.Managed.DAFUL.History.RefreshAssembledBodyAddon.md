@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_History_RefreshAssembledBodyAddon"></a> Class RefreshAssembledBodyAddon
+#  Class RefreshAssembledBodyAddon
 
 Namespace: [VM.Managed.DAFUL.History](VM.Managed.DAFUL.History.md)  
 Assembly: VMDFBase.dll  

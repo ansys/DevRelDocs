@@ -1,4 +1,4 @@
-# <a id="VM_Managed_IMultiChangable"></a> Interface IMultiChangable
+#  Interface IMultiChangable
 
 Namespace: [VM.Managed](VM.Managed.md)  
 Assembly: VMAppCore.dll  

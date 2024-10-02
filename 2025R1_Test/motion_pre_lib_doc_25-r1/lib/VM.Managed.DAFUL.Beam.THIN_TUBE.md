@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_Beam_THIN_TUBE"></a> Class THIN\_TUBE
+#  Class THIN\_TUBE
 
 Namespace: [VM.Managed.DAFUL.Beam](VM.Managed.DAFUL.Beam.md)  
 Assembly: VM.Models.FE.BeamCrossSection.dll  

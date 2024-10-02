@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_GearTrain_PowerFlow_SimulationType"></a> Enum PowerFlow.SimulationType
+#  Enum PowerFlow.SimulationType
 
 Namespace: [VM.Managed.DAFUL.GearTrain](VM.Managed.DAFUL.GearTrain.md)  
 Assembly: VMDGearTrain.dll  

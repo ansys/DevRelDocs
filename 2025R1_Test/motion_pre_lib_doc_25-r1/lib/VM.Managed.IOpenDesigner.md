@@ -1,4 +1,4 @@
-# <a id="VM_Managed_IOpenDesigner"></a> Interface IOpenDesigner
+#  Interface IOpenDesigner
 
 Namespace: [VM.Managed](VM.Managed.md)  
 Assembly: VMAppCore.dll  

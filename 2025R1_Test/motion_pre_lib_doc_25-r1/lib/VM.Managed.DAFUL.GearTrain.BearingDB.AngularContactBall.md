@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_GearTrain_BearingDB_AngularContactBall"></a> Class AngularContactBall
+#  Class AngularContactBall
 
 Namespace: [VM.Managed.DAFUL.GearTrain.BearingDB](VM.Managed.DAFUL.GearTrain.BearingDB.md)  
 Assembly: VMDGearTrain.dll  

@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_Pre_ControlDocInfo"></a> Class ControlDocInfo
+#  Class ControlDocInfo
 
 Namespace: [VM.Managed.DAFUL.Pre](VM.Managed.DAFUL.Pre.md)  
 Assembly: dfpredat.dll  

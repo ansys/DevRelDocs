@@ -1,4 +1,4 @@
-# <a id="VM_Managed_IEnableForSimulationScenario"></a> Interface IEnableForSimulationScenario
+#  Interface IEnableForSimulationScenario
 
 Namespace: [VM.Managed](VM.Managed.md)  
 Assembly: VMObjBase.dll  

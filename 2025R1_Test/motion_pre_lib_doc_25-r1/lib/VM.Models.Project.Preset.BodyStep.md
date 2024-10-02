@@ -1,4 +1,4 @@
-# <a id="VM_Models_Project_Preset_BodyStep"></a> Class BodyStep
+#  Class BodyStep
 
 Namespace: [VM.Models.Project.Preset](VM.Models.Project.Preset.md)  
 Assembly: VM.Models.Project.Preset.dll  

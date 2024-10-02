@@ -1,4 +1,4 @@
-# <a id="VM_Managed_PointOnVertex"></a> Class PointOnVertex
+#  Class PointOnVertex
 
 Namespace: [VM.Managed](VM.Managed.md)  
 Assembly: VMAppCore.dll  

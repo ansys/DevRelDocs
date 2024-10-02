@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_FE_Force_CLoadStandard_DirectionType"></a> Enum CLoadStandard.DirectionType
+#  Enum CLoadStandard.DirectionType
 
 Namespace: [VM.Managed.DAFUL.FE.Force](VM.Managed.DAFUL.FE.Force.md)  
 Assembly: VMFE.dll  

@@ -1,4 +1,4 @@
-# <a id="VM_Managed_Symmetric"></a> Namespace VM.Managed.Symmetric
+#  Namespace VM.Managed.Symmetric
 
 ### Namespaces
 

@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_GearTrain_GearShapeCustomBase_Point2D"></a> Struct GearShapeCustomBase.Point2D
+#  Struct GearShapeCustomBase.Point2D
 
 Namespace: [VM.Managed.DAFUL.GearTrain](VM.Managed.DAFUL.GearTrain.md)  
 Assembly: VMDGearTrain.dll  

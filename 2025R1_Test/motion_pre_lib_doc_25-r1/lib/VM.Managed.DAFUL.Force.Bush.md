@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_Force_Bush"></a> Class Bush
+#  Class Bush
 
 Namespace: [VM.Managed.DAFUL.Force](VM.Managed.DAFUL.Force.md)  
 Assembly: VMDFB.dll  

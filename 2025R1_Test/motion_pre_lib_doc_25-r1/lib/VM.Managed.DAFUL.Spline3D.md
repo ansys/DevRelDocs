@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_Spline3D"></a> Class Spline3D
+#  Class Spline3D
 
 Namespace: [VM.Managed.DAFUL](VM.Managed.DAFUL.md)  
 Assembly: VMDSB.dll  

@@ -1,4 +1,4 @@
-# <a id="VM_Models_Pre_IAnalysisDrift"></a> Interface IAnalysisDrift
+#  Interface IAnalysisDrift
 
 Namespace: [VM.Models.Pre](VM.Models.Pre.md)  
 Assembly: VM.Models.Pre.dll  

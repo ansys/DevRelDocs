@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DependentDocEventArgs"></a> Class DependentDocEventArgs
+#  Class DependentDocEventArgs
 
 Namespace: [VM.Managed](VM.Managed.md)  
 Assembly: VMAppCore.dll  

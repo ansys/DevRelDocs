@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_FE_History_ObjectBaseFEShellToSolidEvent"></a> Class ObjectBaseFEShellToSolidEvent
+#  Class ObjectBaseFEShellToSolidEvent
 
 Namespace: [VM.Managed.DAFUL.FE.History](VM.Managed.DAFUL.FE.History.md)  
 Assembly: VMFE.dll  

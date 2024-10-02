@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_ReferenceConnectable"></a> Class ReferenceConnectable
+#  Class ReferenceConnectable
 
 Namespace: [VM.Managed.DAFUL](VM.Managed.DAFUL.md)  
 Assembly: VMDFBase.dll  

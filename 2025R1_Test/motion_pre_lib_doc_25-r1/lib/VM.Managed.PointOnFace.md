@@ -1,4 +1,4 @@
-# <a id="VM_Managed_PointOnFace"></a> Class PointOnFace
+#  Class PointOnFace
 
 Namespace: [VM.Managed](VM.Managed.md)  
 Assembly: VMAppCore.dll  

@@ -1,4 +1,4 @@
-# <a id="VM_Managed_Symmetric_PointRated"></a> Class PointRated
+#  Class PointRated
 
 Namespace: [VM.Managed.Symmetric](VM.Managed.Symmetric.md)  
 Assembly: VMSymBase.dll  

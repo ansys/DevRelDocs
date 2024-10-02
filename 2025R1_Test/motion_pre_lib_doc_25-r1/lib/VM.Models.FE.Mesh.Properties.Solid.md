@@ -1,4 +1,4 @@
-# <a id="VM_Models_FE_Mesh_Properties_Solid"></a> Class Solid
+#  Class Solid
 
 Namespace: [VM.Models.FE.Mesh.Properties](VM.Models.FE.Mesh.Properties.md)  
 Assembly: VM.Models.FE.Mesh.dll  

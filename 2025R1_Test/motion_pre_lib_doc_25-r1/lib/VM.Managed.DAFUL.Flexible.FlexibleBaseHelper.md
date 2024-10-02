@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_Flexible_FlexibleBaseHelper"></a> Class FlexibleBaseHelper
+#  Class FlexibleBaseHelper
 
 Namespace: [VM.Managed.DAFUL.Flexible](VM.Managed.DAFUL.Flexible.md)  
 Assembly: VMFlexibleBase.dll  

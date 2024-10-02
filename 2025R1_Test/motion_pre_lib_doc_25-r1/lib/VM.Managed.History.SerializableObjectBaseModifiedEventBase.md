@@ -1,4 +1,4 @@
-# <a id="VM_Managed_History_SerializableObjectBaseModifiedEventBase"></a> Class SerializableObjectBaseModifiedEventBase
+#  Class SerializableObjectBaseModifiedEventBase
 
 Namespace: [VM.Managed.History](VM.Managed.History.md)  
 Assembly: VMAppCore.dll  

@@ -1,4 +1,4 @@
-# <a id="VM_Models_Pre_ICanvas"></a> Interface ICanvas
+#  Interface ICanvas
 
 Namespace: [VM.Models.Pre](VM.Models.Pre.md)  
 Assembly: VM.Models.Pre.dll  

@@ -1,4 +1,4 @@
-# <a id="VM_Managed_CAD_BuilderCylinderSimple"></a> Class BuilderCylinderSimple
+#  Class BuilderCylinderSimple
 
 Namespace: [VM.Managed.CAD](VM.Managed.CAD.md)  
 Assembly: VMAppCore.dll  

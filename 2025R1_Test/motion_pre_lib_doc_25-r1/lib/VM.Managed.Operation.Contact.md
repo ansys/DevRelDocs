@@ -1,4 +1,4 @@
-# <a id="VM_Managed_Operation_Contact"></a> Class Contact
+#  Class Contact
 
 Namespace: [VM.Managed.Operation](VM.Managed.Operation.md)  
 Assembly: VMOP.dll  

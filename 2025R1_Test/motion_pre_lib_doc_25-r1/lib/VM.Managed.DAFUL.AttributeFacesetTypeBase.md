@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_AttributeFacesetTypeBase"></a> Class AttributeFacesetTypeBase
+#  Class AttributeFacesetTypeBase
 
 Namespace: [VM.Managed.DAFUL](VM.Managed.DAFUL.md)  
 Assembly: VMDFBase.dll  

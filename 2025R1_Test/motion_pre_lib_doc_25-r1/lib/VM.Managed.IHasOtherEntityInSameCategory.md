@@ -1,4 +1,4 @@
-# <a id="VM_Managed_IHasOtherEntityInSameCategory"></a> Interface IHasOtherEntityInSameCategory
+#  Interface IHasOtherEntityInSameCategory
 
 Namespace: [VM.Managed](VM.Managed.md)  
 Assembly: VMAppCore.dll  

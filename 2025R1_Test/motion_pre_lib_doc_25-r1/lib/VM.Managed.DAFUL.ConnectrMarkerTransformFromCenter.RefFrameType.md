@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_ConnectrMarkerTransformFromCenter_RefFrameType"></a> Enum ConnectrMarkerTransformFromCenter.RefFrameType
+#  Enum ConnectrMarkerTransformFromCenter.RefFrameType
 
 Namespace: [VM.Managed.DAFUL](VM.Managed.DAFUL.md)  
 Assembly: VMDFBase.dll  

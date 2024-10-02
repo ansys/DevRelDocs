@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_Builder_MeshFree_Contact"></a> Namespace VM.Managed.DAFUL.Builder.MeshFree.Contact
+#  Namespace VM.Managed.DAFUL.Builder.MeshFree.Contact
 
 ### Classes
 

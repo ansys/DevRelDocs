@@ -1,4 +1,4 @@
-# <a id="VM_Managed_Operation_AddToDocument"></a> Class AddToDocument
+#  Class AddToDocument
 
 Namespace: [VM.Managed.Operation](VM.Managed.Operation.md)  
 Assembly: VMOP.dll  

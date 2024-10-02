@@ -1,4 +1,4 @@
-# <a id="VM_Models_OutputReader"></a> Namespace VM.Models.OutputReader
+#  Namespace VM.Models.OutputReader
 
 ### Classes
 

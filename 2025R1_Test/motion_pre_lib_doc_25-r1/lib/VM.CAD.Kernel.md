@@ -1,4 +1,4 @@
-# <a id="VM_CAD_Kernel"></a> Namespace VM.CAD.Kernel
+#  Namespace VM.CAD.Kernel
 
 ### Namespaces
 

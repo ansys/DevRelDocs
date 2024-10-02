@@ -1,4 +1,4 @@
-# <a id="VM_Managed_CAD_DeleteBuilderOperation"></a> Class DeleteBuilderOperation
+#  Class DeleteBuilderOperation
 
 Namespace: [VM.Managed.CAD](VM.Managed.CAD.md)  
 Assembly: VMAppCore.dll  

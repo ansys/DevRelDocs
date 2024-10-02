@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_Car_AnalysisFourPostVibration"></a> Class AnalysisFourPostVibration
+#  Class AnalysisFourPostVibration
 
 Namespace: [VM.Managed.DAFUL.Car](VM.Managed.DAFUL.Car.md)  
 Assembly: VMDFullCar.dll  

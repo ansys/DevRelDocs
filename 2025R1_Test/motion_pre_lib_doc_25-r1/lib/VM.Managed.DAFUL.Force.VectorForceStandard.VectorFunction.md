@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_Force_VectorForceStandard_VectorFunction"></a> Class VectorForceStandard.VectorFunction
+#  Class VectorForceStandard.VectorFunction
 
 Namespace: [VM.Managed.DAFUL.Force](VM.Managed.DAFUL.Force.md)  
 Assembly: VMDFP.dll  

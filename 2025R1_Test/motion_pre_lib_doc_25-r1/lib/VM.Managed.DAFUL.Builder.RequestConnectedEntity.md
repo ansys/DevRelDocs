@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_Builder_RequestConnectedEntity"></a> Class RequestConnectedEntity
+#  Class RequestConnectedEntity
 
 Namespace: [VM.Managed.DAFUL.Builder](VM.Managed.DAFUL.Builder.md)  
 Assembly: VMBld.dll  

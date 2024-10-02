@@ -1,4 +1,4 @@
-# <a id="VM_Models_Pre_Force_Magnetic_GroupInformation"></a> Class Magnetic.GroupInformation
+#  Class Magnetic.GroupInformation
 
 Namespace: [VM.Models.Pre.Force](VM.Models.Pre.Force.md)  
 Assembly: VM.Models.Pre.Force.dll  

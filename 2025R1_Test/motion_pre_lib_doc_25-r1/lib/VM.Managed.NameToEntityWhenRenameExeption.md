@@ -1,4 +1,4 @@
-# <a id="VM_Managed_NameToEntityWhenRenameExeption"></a> Class NameToEntityWhenRenameExeption
+#  Class NameToEntityWhenRenameExeption
 
 Namespace: [VM.Managed](VM.Managed.md)  
 Assembly: VMAppCore.dll  

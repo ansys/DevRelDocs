@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_CoSim_Settings"></a> Class Settings
+#  Class Settings
 
 Namespace: [VM.Managed.DAFUL.CoSim](VM.Managed.DAFUL.CoSim.md)  
 Assembly: VMDCoSimCore.dll  

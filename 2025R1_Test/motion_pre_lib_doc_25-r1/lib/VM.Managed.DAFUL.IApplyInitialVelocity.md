@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_IApplyInitialVelocity"></a> Interface IApplyInitialVelocity
+#  Interface IApplyInitialVelocity
 
 Namespace: [VM.Managed.DAFUL](VM.Managed.DAFUL.md)  
 Assembly: VMDFBase.dll  

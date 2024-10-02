@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_Chained_NextStepOperation_NextStepCallback"></a> Delegate NextStepOperation.NextStepCallback
+#  Delegate NextStepOperation.NextStepCallback
 
 Namespace: [VM.Managed.DAFUL.Chained](VM.Managed.DAFUL.Chained.md)  
 Assembly: VMDChainedBase.dll  

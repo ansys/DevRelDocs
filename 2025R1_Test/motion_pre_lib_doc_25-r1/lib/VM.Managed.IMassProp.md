@@ -1,4 +1,4 @@
-# <a id="VM_Managed_IMassProp"></a> Interface IMassProp
+#  Interface IMassProp
 
 Namespace: [VM.Managed](VM.Managed.md)  
 Assembly: VMAppCore.dll  

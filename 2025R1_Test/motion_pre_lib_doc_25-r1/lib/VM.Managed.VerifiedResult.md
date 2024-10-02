@@ -1,4 +1,4 @@
-# <a id="VM_Managed_VerifiedResult"></a> Class VerifiedResult
+#  Class VerifiedResult
 
 Namespace: [VM.Managed](VM.Managed.md)  
 Assembly: VMAppCore.dll  

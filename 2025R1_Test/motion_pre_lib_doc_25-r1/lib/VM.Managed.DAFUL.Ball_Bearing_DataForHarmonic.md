@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_Ball_Bearing_DataForHarmonic"></a> Class Ball\_Bearing\_DataForHarmonic
+#  Class Ball\_Bearing\_DataForHarmonic
 
 Namespace: [VM.Managed.DAFUL](VM.Managed.DAFUL.md)  
 Assembly: VMDHarmonicDrive.dll  

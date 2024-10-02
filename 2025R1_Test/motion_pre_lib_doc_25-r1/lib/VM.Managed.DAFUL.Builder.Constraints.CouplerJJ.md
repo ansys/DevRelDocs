@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_Builder_Constraints_CouplerJJ"></a> Class CouplerJJ
+#  Class CouplerJJ
 
 Namespace: [VM.Managed.DAFUL.Builder.Constraints](VM.Managed.DAFUL.Builder.Constraints.md)  
 Assembly: VMBldCP.dll  

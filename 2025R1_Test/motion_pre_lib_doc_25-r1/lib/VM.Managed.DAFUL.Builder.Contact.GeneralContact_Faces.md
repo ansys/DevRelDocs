@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_Builder_Contact_GeneralContact_Faces"></a> Class GeneralContact\_Faces
+#  Class GeneralContact\_Faces
 
 Namespace: [VM.Managed.DAFUL.Builder.Contact](VM.Managed.DAFUL.Builder.Contact.md)  
 Assembly: VMBldCt.dll  

@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_Operation_UpdateDocumentInfo"></a> Class UpdateDocumentInfo
+#  Class UpdateDocumentInfo
 
 Namespace: [VM.Managed.DAFUL.Operation](VM.Managed.DAFUL.Operation.md)  
 Assembly: VMOpCore.dll  

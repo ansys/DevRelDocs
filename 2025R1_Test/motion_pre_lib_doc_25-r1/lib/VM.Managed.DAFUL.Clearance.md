@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_Clearance"></a> Class Clearance
+#  Class Clearance
 
 Namespace: [VM.Managed.DAFUL](VM.Managed.DAFUL.md)  
 Assembly: VMDCB.dll  

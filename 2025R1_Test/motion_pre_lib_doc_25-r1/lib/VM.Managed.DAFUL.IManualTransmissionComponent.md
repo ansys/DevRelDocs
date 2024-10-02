@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_IManualTransmissionComponent"></a> Interface IManualTransmissionComponent
+#  Interface IManualTransmissionComponent
 
 Namespace: [VM.Managed.DAFUL](VM.Managed.DAFUL.md)  
 Assembly: VMDFBase.dll  

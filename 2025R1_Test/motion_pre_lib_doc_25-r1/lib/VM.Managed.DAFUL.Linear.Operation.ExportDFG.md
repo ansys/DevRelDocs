@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_Linear_Operation_ExportDFG"></a> Class ExportDFG
+#  Class ExportDFG
 
 Namespace: [VM.Managed.DAFUL.Linear.Operation](VM.Managed.DAFUL.Linear.Operation.md)  
 Assembly: VMOpLinear.dll  

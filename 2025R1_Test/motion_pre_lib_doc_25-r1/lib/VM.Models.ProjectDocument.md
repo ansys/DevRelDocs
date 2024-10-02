@@ -1,4 +1,4 @@
-# <a id="VM_Models_ProjectDocument"></a> Class ProjectDocument
+#  Class ProjectDocument
 
 Namespace: [VM.Models](VM.Models.md)  
 Assembly: VM.Models.Project.dll  

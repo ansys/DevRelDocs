@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_Contact_MultipleContactBase"></a> Class MultipleContactBase
+#  Class MultipleContactBase
 
 Namespace: [VM.Managed.DAFUL.Contact](VM.Managed.DAFUL.Contact.md)  
 Assembly: VMDCt.dll  

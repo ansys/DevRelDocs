@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_CoSim_Matlab_Operation_ExportModel"></a> Class ExportModel
+#  Class ExportModel
 
 Namespace: [VM.Managed.DAFUL.CoSim.Matlab.Operation](VM.Managed.DAFUL.CoSim.Matlab.Operation.md)  
 Assembly: VMOpCoSimMatlab.dll  

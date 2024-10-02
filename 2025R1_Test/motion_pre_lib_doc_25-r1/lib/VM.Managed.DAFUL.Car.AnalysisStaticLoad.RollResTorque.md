@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_Car_AnalysisStaticLoad_RollResTorque"></a> Class AnalysisStaticLoad.RollResTorque
+#  Class AnalysisStaticLoad.RollResTorque
 
 Namespace: [VM.Managed.DAFUL.Car](VM.Managed.DAFUL.Car.md)  
 Assembly: VMDCar.dll  

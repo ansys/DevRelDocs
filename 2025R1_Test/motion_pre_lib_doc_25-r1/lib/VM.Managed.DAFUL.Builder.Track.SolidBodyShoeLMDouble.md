@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_Builder_Track_SolidBodyShoeLMDouble"></a> Class SolidBodyShoeLMDouble
+#  Class SolidBodyShoeLMDouble
 
 Namespace: [VM.Managed.DAFUL.Builder.Track](VM.Managed.DAFUL.Builder.Track.md)  
 Assembly: VMBldTrack.dll  

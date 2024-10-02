@@ -1,4 +1,4 @@
-# <a id="VM_Operations_Pre_Durability_SimulationRun"></a> Class SimulationRun
+#  Class SimulationRun
 
 Namespace: [VM.Operations.Pre.Durability](VM.Operations.Pre.Durability.md)  
 Assembly: VM.Operations.Pre.Durability.dll  

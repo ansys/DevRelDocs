@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_Beam_Force_BeamForce"></a> Class BeamForce
+#  Class BeamForce
 
 Namespace: [VM.Managed.DAFUL.Beam.Force](VM.Managed.DAFUL.Beam.Force.md)  
 Assembly: VMDBeamGroup.dll  

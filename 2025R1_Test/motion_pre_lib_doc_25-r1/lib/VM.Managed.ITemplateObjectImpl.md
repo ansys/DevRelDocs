@@ -1,4 +1,4 @@
-# <a id="VM_Managed_ITemplateObjectImpl"></a> Class ITemplateObjectImpl
+#  Class ITemplateObjectImpl
 
 Namespace: [VM.Managed](VM.Managed.md)  
 Assembly: VMAppCore.dll  

@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_AssembledBodyProperty"></a> Class AssembledBodyProperty
+#  Class AssembledBodyProperty
 
 Namespace: [VM.Managed.DAFUL](VM.Managed.DAFUL.md)  
 Assembly: VMDFBase.dll  

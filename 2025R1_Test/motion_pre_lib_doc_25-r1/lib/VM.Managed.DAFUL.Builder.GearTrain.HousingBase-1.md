@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_Builder_GearTrain_HousingBase_1"></a> Class HousingBase<TProperty\>
+#  Class HousingBase<TProperty\>
 
 Namespace: [VM.Managed.DAFUL.Builder.GearTrain](VM.Managed.DAFUL.Builder.GearTrain.md)  
 Assembly: VMBldGearTrain.dll  

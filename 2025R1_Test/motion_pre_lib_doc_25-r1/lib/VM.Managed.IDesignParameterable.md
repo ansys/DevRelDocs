@@ -1,4 +1,4 @@
-# <a id="VM_Managed_IDesignParameterable"></a> Interface IDesignParameterable
+#  Interface IDesignParameterable
 
 Namespace: [VM.Managed](VM.Managed.md)  
 Assembly: VMAppCore.dll  

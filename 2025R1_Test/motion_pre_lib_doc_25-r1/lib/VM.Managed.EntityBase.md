@@ -1,4 +1,4 @@
-# <a id="VM_Managed_EntityBase"></a> Class EntityBase
+#  Class EntityBase
 
 Namespace: [VM.Managed](VM.Managed.md)  
 Assembly: VMObjBase.dll  

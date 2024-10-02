@@ -1,4 +1,4 @@
-# <a id="VM_Managed_Application_DocumentType"></a> Enum Application.DocumentType
+#  Enum Application.DocumentType
 
 Namespace: [VM.Managed](VM.Managed.md)  
 Assembly: VMAppCore.dll  

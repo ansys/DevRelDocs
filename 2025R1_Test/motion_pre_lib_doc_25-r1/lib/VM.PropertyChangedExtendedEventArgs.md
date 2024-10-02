@@ -1,4 +1,4 @@
-# <a id="VM_PropertyChangedExtendedEventArgs"></a> Class PropertyChangedExtendedEventArgs
+#  Class PropertyChangedExtendedEventArgs
 
 Namespace: [VM](VM.md)  
 Assembly: VM.dll  

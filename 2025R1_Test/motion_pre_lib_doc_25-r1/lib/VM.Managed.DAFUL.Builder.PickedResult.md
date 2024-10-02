@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_Builder_PickedResult"></a> Class PickedResult
+#  Class PickedResult
 
 Namespace: [VM.Managed.DAFUL.Builder](VM.Managed.DAFUL.Builder.md)  
 Assembly: VMBld.dll  

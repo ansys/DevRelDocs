@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_IHasCenterMarkerForGround"></a> Interface IHasCenterMarkerForGround
+#  Interface IHasCenterMarkerForGround
 
 Namespace: [VM.Managed.DAFUL](VM.Managed.DAFUL.md)  
 Assembly: VMDFBase.dll  

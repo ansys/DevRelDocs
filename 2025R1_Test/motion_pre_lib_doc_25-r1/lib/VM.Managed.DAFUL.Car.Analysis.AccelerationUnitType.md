@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_Car_Analysis_AccelerationUnitType"></a> Enum AccelerationUnitType
+#  Enum AccelerationUnitType
 
 Namespace: [VM.Managed.DAFUL.Car.Analysis](VM.Managed.DAFUL.Car.Analysis.md)  
 Assembly: VMDCar.dll  

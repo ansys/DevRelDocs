@@ -1,4 +1,4 @@
-# <a id="VM_Managed_GetRelationInfoEventArgs"></a> Class GetRelationInfoEventArgs
+#  Class GetRelationInfoEventArgs
 
 Namespace: [VM.Managed](VM.Managed.md)  
 Assembly: VMAppCore.dll  

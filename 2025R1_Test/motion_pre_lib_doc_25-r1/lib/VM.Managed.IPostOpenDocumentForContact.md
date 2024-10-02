@@ -1,4 +1,4 @@
-# <a id="VM_Managed_IPostOpenDocumentForContact"></a> Interface IPostOpenDocumentForContact
+#  Interface IPostOpenDocumentForContact
 
 Namespace: [VM.Managed](VM.Managed.md)  
 Assembly: VMAppCore.dll  

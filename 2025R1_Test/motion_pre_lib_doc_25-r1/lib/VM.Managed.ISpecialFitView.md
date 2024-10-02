@@ -1,4 +1,4 @@
-# <a id="VM_Managed_ISpecialFitView"></a> Interface ISpecialFitView
+#  Interface ISpecialFitView
 
 Namespace: [VM.Managed](VM.Managed.md)  
 Assembly: VMAppCore.dll  

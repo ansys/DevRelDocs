@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_Linear_InputModeType"></a> Enum InputModeType
+#  Enum InputModeType
 
 Namespace: [VM.Managed.DAFUL.Linear](VM.Managed.DAFUL.Linear.md)  
 Assembly: VMDLinear.dll  

@@ -1,4 +1,4 @@
-# <a id="VM_Managed_Object_1_EventCoreSerializeHelper"></a> Class Object<TEventCore\>.EventCoreSerializeHelper
+#  Class Object<TEventCore\>.EventCoreSerializeHelper
 
 Namespace: [VM.Managed](VM.Managed.md)  
 Assembly: VMAppCore.dll  

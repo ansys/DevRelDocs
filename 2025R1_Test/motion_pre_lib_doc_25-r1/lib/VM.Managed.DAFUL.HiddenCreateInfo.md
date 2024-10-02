@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_HiddenCreateInfo"></a> Class HiddenCreateInfo
+#  Class HiddenCreateInfo
 
 Namespace: [VM.Managed.DAFUL](VM.Managed.DAFUL.md)  
 Assembly: VMDFBase.dll  

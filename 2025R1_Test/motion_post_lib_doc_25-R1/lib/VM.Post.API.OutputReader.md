@@ -1,4 +1,4 @@
-# <a id="VM_Post_API_OutputReader"></a> Namespace VM.Post.API.OutputReader
+#  Namespace VM.Post.API.OutputReader
 
 ### Classes
 

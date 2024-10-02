@@ -1,4 +1,4 @@
-# <a id="VM_Managed_CAD_GetVoidPointsOp"></a> Class GetVoidPointsOp
+#  Class GetVoidPointsOp
 
 Namespace: [VM.Managed.CAD](VM.Managed.CAD.md)  
 Assembly: VMAppCore.dll  

@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_GearTrain_Force_PropertyMotorEMForce_MaxwellResultType"></a> Enum PropertyMotorEMForce.MaxwellResultType
+#  Enum PropertyMotorEMForce.MaxwellResultType
 
 Namespace: [VM.Managed.DAFUL.GearTrain.Force](VM.Managed.DAFUL.GearTrain.Force.md)  
 Assembly: VMDGearTrain.dll  

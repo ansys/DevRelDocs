@@ -1,4 +1,4 @@
-# <a id="VM_NX_Dialog_Factory_PropertyDlgFactory"></a> Class PropertyDlgFactory
+#  Class PropertyDlgFactory
 
 Namespace: [VM.NX.Dialog.Factory](VM.NX.Dialog.Factory.md)  
 Assembly: VMDM.dll  

@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_Car_ExperimentForDrivenControl"></a> Class ExperimentForDrivenControl
+#  Class ExperimentForDrivenControl
 
 Namespace: [VM.Managed.DAFUL.Car](VM.Managed.DAFUL.Car.md)  
 Assembly: VMDCar.dll  

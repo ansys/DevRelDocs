@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_Car_Settings"></a> Class Settings
+#  Class Settings
 
 Namespace: [VM.Managed.DAFUL.Car](VM.Managed.DAFUL.Car.md)  
 Assembly: VMDCar.dll  

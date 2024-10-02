@@ -1,4 +1,4 @@
-# <a id="VM_Models_FE_Mesh_Properties_BeamL"></a> Class BeamL
+#  Class BeamL
 
 Namespace: [VM.Models.FE.Mesh.Properties](VM.Models.FE.Mesh.Properties.md)  
 Assembly: VM.Models.FE.Mesh.dll  

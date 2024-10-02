@@ -1,4 +1,4 @@
-# <a id="VM_Managed_IAutoContactable"></a> Interface IAutoContactable
+#  Interface IAutoContactable
 
 Namespace: [VM.Managed](VM.Managed.md)  
 Assembly: VMAppCore.dll  

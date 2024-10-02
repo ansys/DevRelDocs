@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_ToolkitMultiSelectionSettingBase_1"></a> Class ToolkitMultiSelectionSettingBase<T\>
+#  Class ToolkitMultiSelectionSettingBase<T\>
 
 Namespace: [VM.Managed.DAFUL](VM.Managed.DAFUL.md)  
 Assembly: VMDFBase.dll  

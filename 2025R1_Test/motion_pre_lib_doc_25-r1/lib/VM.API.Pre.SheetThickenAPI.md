@@ -1,4 +1,4 @@
-# <a id="VM_API_Pre_SheetThickenAPI"></a> Class SheetThickenAPI
+#  Class SheetThickenAPI
 
 Namespace: [VM.API.Pre](VM.API.Pre.md)  
 Assembly: VM.API.Pre.dll  

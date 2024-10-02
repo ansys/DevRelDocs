@@ -1,4 +1,4 @@
-# <a id="VM_Managed_VariableMatrix"></a> Class VariableMatrix
+#  Class VariableMatrix
 
 Namespace: [VM.Managed](VM.Managed.md)  
 Assembly: VMObjBase.dll  

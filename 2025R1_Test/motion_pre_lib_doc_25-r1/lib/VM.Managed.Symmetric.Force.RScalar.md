@@ -1,4 +1,4 @@
-# <a id="VM_Managed_Symmetric_Force_RScalar"></a> Class RScalar
+#  Class RScalar
 
 Namespace: [VM.Managed.Symmetric.Force](VM.Managed.Symmetric.Force.md)  
 Assembly: VMSymFP.dll  

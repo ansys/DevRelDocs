@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_Builder_Thermal_Temperature"></a> Class Temperature
+#  Class Temperature
 
 Namespace: [VM.Managed.DAFUL.Builder.Thermal](VM.Managed.DAFUL.Builder.Thermal.md)  
 Assembly: VMBldThermal.dll  

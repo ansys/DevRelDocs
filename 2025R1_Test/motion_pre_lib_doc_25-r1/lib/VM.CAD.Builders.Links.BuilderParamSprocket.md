@@ -1,4 +1,4 @@
-# <a id="VM_CAD_Builders_Links_BuilderParamSprocket"></a> Class BuilderParamSprocket
+#  Class BuilderParamSprocket
 
 Namespace: [VM.CAD.Builders.Links](VM.CAD.Builders.Links.md)  
 Assembly: VM.CAD.Builders.Links.dll  

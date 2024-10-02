@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_Builder_Constraints_RevoluteBBP"></a> Class RevoluteBBP
+#  Class RevoluteBBP
 
 Namespace: [VM.Managed.DAFUL.Builder.Constraints](VM.Managed.DAFUL.Builder.Constraints.md)  
 Assembly: VMBldCB.dll  

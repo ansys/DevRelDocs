@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_IMFModalable"></a> Interface IMFModalable
+#  Interface IMFModalable
 
 Namespace: [VM.Managed.DAFUL](VM.Managed.DAFUL.md)  
 Assembly: VMDFBase.dll  

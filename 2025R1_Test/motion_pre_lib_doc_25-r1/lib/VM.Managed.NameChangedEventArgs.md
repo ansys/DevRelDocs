@@ -1,4 +1,4 @@
-# <a id="VM_Managed_NameChangedEventArgs"></a> Class NameChangedEventArgs
+#  Class NameChangedEventArgs
 
 Namespace: [VM.Managed](VM.Managed.md)  
 Assembly: VMAppCore.dll  

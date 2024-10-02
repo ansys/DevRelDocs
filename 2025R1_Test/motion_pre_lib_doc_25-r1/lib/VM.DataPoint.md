@@ -1,4 +1,4 @@
-# <a id="VM_DataPoint"></a> Class DataPoint
+#  Class DataPoint
 
 Namespace: [VM](VM.md)  
 Assembly: VM.dll  

@@ -1,4 +1,4 @@
-# <a id="VM_Managed_Document3D_BasicOpType"></a> Enum Document3D.BasicOpType
+#  Enum Document3D.BasicOpType
 
 Namespace: [VM.Managed](VM.Managed.md)  
 Assembly: VMAppCore.dll  

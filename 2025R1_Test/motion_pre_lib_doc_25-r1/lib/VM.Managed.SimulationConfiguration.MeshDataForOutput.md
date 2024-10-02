@@ -1,4 +1,4 @@
-# <a id="VM_Managed_SimulationConfiguration_MeshDataForOutput"></a> Enum SimulationConfiguration.MeshDataForOutput
+#  Enum SimulationConfiguration.MeshDataForOutput
 
 Namespace: [VM.Managed](VM.Managed.md)  
 Assembly: VMObjBase.dll  

@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_Chained_Operation"></a> Namespace VM.Managed.DAFUL.Chained.Operation
+#  Namespace VM.Managed.DAFUL.Chained.Operation
 
 ### Classes
 

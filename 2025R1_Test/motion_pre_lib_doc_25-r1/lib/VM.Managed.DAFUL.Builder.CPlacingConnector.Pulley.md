@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_Builder_CPlacingConnector_Pulley"></a> Class Pulley
+#  Class Pulley
 
 Namespace: [VM.Managed.DAFUL.Builder.CPlacingConnector](VM.Managed.DAFUL.Builder.CPlacingConnector.md)  
 Assembly: VMBldCPlacingConnector.dll  

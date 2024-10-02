@@ -1,4 +1,4 @@
-# <a id="VM_Managed_Symmetric_TransformThreePoints"></a> Class TransformThreePoints
+#  Class TransformThreePoints
 
 Namespace: [VM.Managed.Symmetric](VM.Managed.Symmetric.md)  
 Assembly: VMSymBase.dll  

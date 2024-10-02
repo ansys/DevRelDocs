@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_CoSim_Matlab_CoSimulationMatlabConfig"></a> Class CoSimulationMatlabConfig
+#  Class CoSimulationMatlabConfig
 
 Namespace: [VM.Managed.DAFUL.CoSim.Matlab](VM.Managed.DAFUL.CoSim.Matlab.md)  
 Assembly: VMDCoSimMatlab.dll  

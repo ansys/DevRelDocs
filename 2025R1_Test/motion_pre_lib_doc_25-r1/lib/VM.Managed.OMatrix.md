@@ -1,4 +1,4 @@
-# <a id="VM_Managed_OMatrix"></a> Class OMatrix
+#  Class OMatrix
 
 Namespace: [VM.Managed](VM.Managed.md)  
 Assembly: VMAppCore.dll  

@@ -1,4 +1,4 @@
-# <a id="VM_Managed_Material_MaterialBase"></a> Class MaterialBase
+#  Class MaterialBase
 
 Namespace: [VM.Managed.Material](VM.Managed.Material.md)  
 Assembly: VMObjBase.dll  

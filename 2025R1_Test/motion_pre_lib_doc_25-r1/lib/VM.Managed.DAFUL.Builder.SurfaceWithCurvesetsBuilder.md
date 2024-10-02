@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_Builder_SurfaceWithCurvesetsBuilder"></a> Class SurfaceWithCurvesetsBuilder
+#  Class SurfaceWithCurvesetsBuilder
 
 Namespace: [VM.Managed.DAFUL.Builder](VM.Managed.DAFUL.Builder.md)  
 Assembly: VMBldBallPlacing.dll  

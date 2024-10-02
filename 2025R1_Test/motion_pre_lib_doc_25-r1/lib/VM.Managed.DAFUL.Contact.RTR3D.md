@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_Contact_RTR3D"></a> Class RTR3D
+#  Class RTR3D
 
 Namespace: [VM.Managed.DAFUL.Contact](VM.Managed.DAFUL.Contact.md)  
 Assembly: VMDCt.dll  

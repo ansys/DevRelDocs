@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_Contact_ContactGeom3D"></a> Class ContactGeom3D
+#  Class ContactGeom3D
 
 Namespace: [VM.Managed.DAFUL.Contact](VM.Managed.DAFUL.Contact.md)  
 Assembly: VMDCt.dll  

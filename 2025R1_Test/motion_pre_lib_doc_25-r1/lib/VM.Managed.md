@@ -1,4 +1,4 @@
-# <a id="VM_Managed"></a> Namespace VM.Managed
+#  Namespace VM.Managed
 
 ### Namespaces
 

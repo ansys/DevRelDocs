@@ -1,4 +1,4 @@
-# <a id="VM_Managed_AttributeSymbolColor"></a> Class AttributeSymbolColor
+#  Class AttributeSymbolColor
 
 Namespace: [VM.Managed](VM.Managed.md)  
 Assembly: VMAppCore.dll  

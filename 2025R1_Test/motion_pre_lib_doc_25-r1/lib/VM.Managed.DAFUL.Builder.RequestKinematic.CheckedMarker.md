@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_Builder_RequestKinematic_CheckedMarker"></a> Struct RequestKinematic.CheckedMarker
+#  Struct RequestKinematic.CheckedMarker
 
 Namespace: [VM.Managed.DAFUL.Builder](VM.Managed.DAFUL.Builder.md)  
 Assembly: VMBld.dll  

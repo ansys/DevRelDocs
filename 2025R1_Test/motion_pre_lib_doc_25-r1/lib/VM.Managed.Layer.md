@@ -1,4 +1,4 @@
-# <a id="VM_Managed_Layer"></a> Class Layer
+#  Class Layer
 
 Namespace: [VM.Managed](VM.Managed.md)  
 Assembly: VMAppCore.dll  

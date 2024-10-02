@@ -1,4 +1,4 @@
-# <a id="VM_Managed_CAD_BuilderEllipseCone"></a> Class BuilderEllipseCone
+#  Class BuilderEllipseCone
 
 Namespace: [VM.Managed.CAD](VM.Managed.CAD.md)  
 Assembly: VMAppCore.dll  

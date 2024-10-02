@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_IGapSupport"></a> Interface IGapSupport
+#  Interface IGapSupport
 
 Namespace: [VM.Managed.DAFUL](VM.Managed.DAFUL.md)  
 Assembly: VMDFBase.dll  

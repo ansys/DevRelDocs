@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_Chained_ApplyPlacingOperation_ApplyCallback"></a> Delegate ApplyPlacingOperation.ApplyCallback
+#  Delegate ApplyPlacingOperation.ApplyCallback
 
 Namespace: [VM.Managed.DAFUL.Chained](VM.Managed.DAFUL.Chained.md)  
 Assembly: VMDChainedBase.dll  

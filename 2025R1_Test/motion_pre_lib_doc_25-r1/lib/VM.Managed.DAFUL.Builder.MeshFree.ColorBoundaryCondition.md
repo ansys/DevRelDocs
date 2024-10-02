@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_Builder_MeshFree_ColorBoundaryCondition"></a> Class ColorBoundaryCondition
+#  Class ColorBoundaryCondition
 
 Namespace: [VM.Managed.DAFUL.Builder.MeshFree](VM.Managed.DAFUL.Builder.MeshFree.md)  
 Assembly: VMBldMeshFree.dll  

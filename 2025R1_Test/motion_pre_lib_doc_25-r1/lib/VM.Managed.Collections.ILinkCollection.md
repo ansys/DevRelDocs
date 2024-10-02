@@ -1,4 +1,4 @@
-# <a id="VM_Managed_Collections_ILinkCollection"></a> Interface ILinkCollection
+#  Interface ILinkCollection
 
 Namespace: [VM.Managed.Collections](VM.Managed.Collections.md)  
 Assembly: VMAppCore.dll  

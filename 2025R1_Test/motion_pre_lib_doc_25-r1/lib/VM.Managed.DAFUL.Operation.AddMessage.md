@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_Operation_AddMessage"></a> Class AddMessage
+#  Class AddMessage
 
 Namespace: [VM.Managed.DAFUL.Operation](VM.Managed.DAFUL.Operation.md)  
 Assembly: VMOpCore.dll  

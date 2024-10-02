@@ -1,4 +1,4 @@
-# <a id="VM_Managed_History_HiddenDocumentAddon"></a> Class HiddenDocumentAddon
+#  Class HiddenDocumentAddon
 
 Namespace: [VM.Managed.History](VM.Managed.History.md)  
 Assembly: VMAppCore.dll  

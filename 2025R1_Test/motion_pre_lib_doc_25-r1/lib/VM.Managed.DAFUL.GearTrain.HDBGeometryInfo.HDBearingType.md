@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_GearTrain_HDBGeometryInfo_HDBearingType"></a> Enum HDBGeometryInfo.HDBearingType
+#  Enum HDBGeometryInfo.HDBearingType
 
 Namespace: [VM.Managed.DAFUL.GearTrain](VM.Managed.DAFUL.GearTrain.md)  
 Assembly: VMDGearTrain.dll  

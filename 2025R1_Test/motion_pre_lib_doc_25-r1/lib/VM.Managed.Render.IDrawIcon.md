@@ -1,4 +1,4 @@
-# <a id="VM_Managed_Render_IDrawIcon"></a> Interface IDrawIcon
+#  Interface IDrawIcon
 
 Namespace: [VM.Managed.Render](VM.Managed.Render.md)  
 Assembly: VMAppCore.dll  

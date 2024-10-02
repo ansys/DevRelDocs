@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_UserSubroutine_UserDefinedDisplay"></a> Class UserSubroutine.UserDefinedDisplay
+#  Class UserSubroutine.UserDefinedDisplay
 
 Namespace: [VM.Managed.DAFUL](VM.Managed.DAFUL.md)  
 Assembly: VMDSP.dll  

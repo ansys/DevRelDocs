@@ -1,4 +1,4 @@
-# <a id="VM_Managed_Simulation_Configuration_Jacobian"></a> Enum Configuration.Jacobian
+#  Enum Configuration.Jacobian
 
 Namespace: [VM.Managed.Simulation](VM.Managed.Simulation.md)  
 Assembly: VMDFBase.dll  

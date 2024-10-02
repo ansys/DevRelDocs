@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_GearTrain_CAD_RacewayBuilderForRBEInFE"></a> Class RacewayBuilderForRBEInFE
+#  Class RacewayBuilderForRBEInFE
 
 Namespace: [VM.Managed.DAFUL.GearTrain.CAD](VM.Managed.DAFUL.GearTrain.CAD.md)  
 Assembly: VMDGearTrain.dll  

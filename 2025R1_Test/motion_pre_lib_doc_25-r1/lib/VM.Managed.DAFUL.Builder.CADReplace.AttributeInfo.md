@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_Builder_CADReplace_AttributeInfo"></a> Class CADReplace.AttributeInfo
+#  Class CADReplace.AttributeInfo
 
 Namespace: [VM.Managed.DAFUL.Builder](VM.Managed.DAFUL.Builder.md)  
 Assembly: VMBld.dll  

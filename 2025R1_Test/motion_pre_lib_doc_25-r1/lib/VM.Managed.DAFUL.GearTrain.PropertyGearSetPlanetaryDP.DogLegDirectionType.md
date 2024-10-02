@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_GearTrain_PropertyGearSetPlanetaryDP_DogLegDirectionType"></a> Enum PropertyGearSetPlanetaryDP.DogLegDirectionType
+#  Enum PropertyGearSetPlanetaryDP.DogLegDirectionType
 
 Namespace: [VM.Managed.DAFUL.GearTrain](VM.Managed.DAFUL.GearTrain.md)  
 Assembly: VMDGearTrain.dll  

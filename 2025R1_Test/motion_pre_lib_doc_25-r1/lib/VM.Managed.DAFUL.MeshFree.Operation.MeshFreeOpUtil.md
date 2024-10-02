@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_MeshFree_Operation_MeshFreeOpUtil"></a> Class MeshFreeOpUtil
+#  Class MeshFreeOpUtil
 
 Namespace: [VM.Managed.DAFUL.MeshFree.Operation](VM.Managed.DAFUL.MeshFree.Operation.md)  
 Assembly: VMOpMeshFree.dll  

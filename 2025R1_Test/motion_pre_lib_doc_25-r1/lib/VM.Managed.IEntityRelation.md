@@ -1,4 +1,4 @@
-# <a id="VM_Managed_IEntityRelation"></a> Interface IEntityRelation
+#  Interface IEntityRelation
 
 Namespace: [VM.Managed](VM.Managed.md)  
 Assembly: VMAppCore.dll  

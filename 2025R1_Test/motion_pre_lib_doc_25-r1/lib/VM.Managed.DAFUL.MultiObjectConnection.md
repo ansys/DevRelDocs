@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_MultiObjectConnection"></a> Class MultiObjectConnection
+#  Class MultiObjectConnection
 
 Namespace: [VM.Managed.DAFUL](VM.Managed.DAFUL.md)  
 Assembly: VMDFBase.dll  

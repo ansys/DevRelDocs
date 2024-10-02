@@ -1,4 +1,4 @@
-# <a id="VM_Managed_CAD_GetBoundingBoxOp"></a> Class GetBoundingBoxOp
+#  Class GetBoundingBoxOp
 
 Namespace: [VM.Managed.CAD](VM.Managed.CAD.md)  
 Assembly: VMAppCore.dll  

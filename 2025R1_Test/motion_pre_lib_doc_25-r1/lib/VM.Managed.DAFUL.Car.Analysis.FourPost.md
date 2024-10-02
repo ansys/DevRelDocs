@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_Car_Analysis_FourPost"></a> Namespace VM.Managed.DAFUL.Car.Analysis.FourPost
+#  Namespace VM.Managed.DAFUL.Car.Analysis.FourPost
 
 ### Enums
 

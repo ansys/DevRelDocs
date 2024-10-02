@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_CPlacingConnector_AttributeExtraData"></a> Class AttributeExtraData
+#  Class AttributeExtraData
 
 Namespace: [VM.Managed.DAFUL.CPlacingConnector](VM.Managed.DAFUL.CPlacingConnector.md)  
 Assembly: VMDCPlacingConnector.dll  

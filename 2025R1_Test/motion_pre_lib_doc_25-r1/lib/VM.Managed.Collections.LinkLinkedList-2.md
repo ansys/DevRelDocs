@@ -1,4 +1,4 @@
-# <a id="VM_Managed_Collections_LinkLinkedList_2"></a> Class LinkLinkedList<T, TLink\>
+#  Class LinkLinkedList<T, TLink\>
 
 Namespace: [VM.Managed.Collections](VM.Managed.Collections.md)  
 Assembly: VMAppCore.dll  

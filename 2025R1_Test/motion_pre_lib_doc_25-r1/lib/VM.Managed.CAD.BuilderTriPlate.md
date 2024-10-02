@@ -1,4 +1,4 @@
-# <a id="VM_Managed_CAD_BuilderTriPlate"></a> Class BuilderTriPlate
+#  Class BuilderTriPlate
 
 Namespace: [VM.Managed.CAD](VM.Managed.CAD.md)  
 Assembly: VMAppCore.dll  

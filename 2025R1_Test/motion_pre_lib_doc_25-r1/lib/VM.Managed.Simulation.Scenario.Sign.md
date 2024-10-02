@@ -1,4 +1,4 @@
-# <a id="VM_Managed_Simulation_Scenario_Sign"></a> Enum Scenario.Sign
+#  Enum Scenario.Sign
 
 Namespace: [VM.Managed.Simulation](VM.Managed.Simulation.md)  
 Assembly: VMDFBase.dll  

@@ -1,4 +1,4 @@
-# <a id="VM_Managed_IObjectSet"></a> Interface IObjectSet
+#  Interface IObjectSet
 
 Namespace: [VM.Managed](VM.Managed.md)  
 Assembly: VMAppCore.dll  

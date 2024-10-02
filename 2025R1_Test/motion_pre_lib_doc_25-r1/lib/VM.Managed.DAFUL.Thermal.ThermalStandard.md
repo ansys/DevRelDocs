@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_Thermal_ThermalStandard"></a> Class ThermalStandard
+#  Class ThermalStandard
 
 Namespace: [VM.Managed.DAFUL.Thermal](VM.Managed.DAFUL.Thermal.md)  
 Assembly: VMThermalBase.dll  

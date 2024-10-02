@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_BallToSurfaceContact"></a> Class BallToSurfaceContact
+#  Class BallToSurfaceContact
 
 Namespace: [VM.Managed.DAFUL](VM.Managed.DAFUL.md)  
 Assembly: VMDBallPlacing.dll  

@@ -1,4 +1,4 @@
-# <a id="VM_Models_FE_Mesh_Elements_Element3Nodes"></a> Class Element3Nodes
+#  Class Element3Nodes
 
 Namespace: [VM.Models.FE.Mesh.Elements](VM.Models.FE.Mesh.Elements.md)  
 Assembly: VM.Models.FE.Mesh.dll  

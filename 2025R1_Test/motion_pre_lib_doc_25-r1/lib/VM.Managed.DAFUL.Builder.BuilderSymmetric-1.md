@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_Builder_BuilderSymmetric_1"></a> Class BuilderSymmetric<T\>
+#  Class BuilderSymmetric<T\>
 
 Namespace: [VM.Managed.DAFUL.Builder](VM.Managed.DAFUL.Builder.md)  
 Assembly: VMBld.dll  

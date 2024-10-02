@@ -1,4 +1,4 @@
-# <a id="VM_CAD_Kernel_Face"></a> Class Face
+#  Class Face
 
 Namespace: [VM.CAD.Kernel](VM.CAD.Kernel.md)  
 Assembly: VM.CAD.Kernel.dll  

@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_FE_History_ObjectBaseNodesetRemoveNodesEvent"></a> Class ObjectBaseNodesetRemoveNodesEvent
+#  Class ObjectBaseNodesetRemoveNodesEvent
 
 Namespace: [VM.Managed.DAFUL.FE.History](VM.Managed.DAFUL.FE.History.md)  
 Assembly: VMFE.dll  

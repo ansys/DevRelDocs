@@ -1,4 +1,4 @@
-# <a id="VM_Managed_TransformPointAndOrientation"></a> Class TransformPointAndOrientation
+#  Class TransformPointAndOrientation
 
 Namespace: [VM.Managed](VM.Managed.md)  
 Assembly: VMAppCore.dll  

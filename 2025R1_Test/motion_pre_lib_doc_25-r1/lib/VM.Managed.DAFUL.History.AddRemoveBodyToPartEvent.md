@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_History_AddRemoveBodyToPartEvent"></a> Class AddRemoveBodyToPartEvent
+#  Class AddRemoveBodyToPartEvent
 
 Namespace: [VM.Managed.DAFUL.History](VM.Managed.DAFUL.History.md)  
 Assembly: VMDFBase.dll  

@@ -1,4 +1,4 @@
-# <a id="VM_Models_Pre_Drivetrain_VehicleSimulator_BrakeValidator"></a> Class BrakeValidator
+#  Class BrakeValidator
 
 Namespace: [VM.Models.Pre.Drivetrain.VehicleSimulator](VM.Models.Pre.Drivetrain.VehicleSimulator.md)  
 Assembly: VM.Models.Pre.Drivetrain.VehicleSimulator.dll  

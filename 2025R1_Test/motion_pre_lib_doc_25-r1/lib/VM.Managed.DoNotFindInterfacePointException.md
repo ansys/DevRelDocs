@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DoNotFindInterfacePointException"></a> Class DoNotFindInterfacePointException
+#  Class DoNotFindInterfacePointException
 
 Namespace: [VM.Managed](VM.Managed.md)  
 Assembly: VMAppCore.dll  

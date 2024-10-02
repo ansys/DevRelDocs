@@ -1,4 +1,4 @@
-# <a id="VM_Managed_Operation_ChangeSolidBodyAnalysisSettingOperation"></a> Class ChangeSolidBodyAnalysisSettingOperation
+#  Class ChangeSolidBodyAnalysisSettingOperation
 
 Namespace: [VM.Managed.Operation](VM.Managed.Operation.md)  
 Assembly: VMOP.dll  

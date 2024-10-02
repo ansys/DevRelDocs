@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_FE_NodalBody_ElementInformation"></a> Struct NodalBody.ElementInformation
+#  Struct NodalBody.ElementInformation
 
 Namespace: [VM.Managed.DAFUL.FE](VM.Managed.DAFUL.FE.md)  
 Assembly: VMFE.dll  

@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_CPlacingConnector_PinShapeContent"></a> Class PinShapeContent
+#  Class PinShapeContent
 
 Namespace: [VM.Managed.DAFUL.CPlacingConnector](VM.Managed.DAFUL.CPlacingConnector.md)  
 Assembly: VMDCPlacingConnector.dll  

@@ -1,4 +1,4 @@
-# <a id="VM_Managed_InterfaceManager_InterfaceInfo"></a> Struct InterfaceManager.InterfaceInfo
+#  Struct InterfaceManager.InterfaceInfo
 
 Namespace: [VM.Managed](VM.Managed.md)  
 Assembly: VMObjBase.dll  

@@ -1,4 +1,4 @@
-# <a id="VM_API_Pre_GearTrain_GearSetAPI"></a> Class GearSetAPI
+#  Class GearSetAPI
 
 Namespace: [VM.API.Pre.GearTrain](VM.API.Pre.GearTrain.md)  
 Assembly: VM.API.Pre.GearTrain.dll  

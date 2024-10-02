@@ -1,4 +1,4 @@
-# <a id="VM_Managed_Symmetric_Spline3D"></a> Class Spline3D
+#  Class Spline3D
 
 Namespace: [VM.Managed.Symmetric](VM.Managed.Symmetric.md)  
 Assembly: VMSymSB.dll  

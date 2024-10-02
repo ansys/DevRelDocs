@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_Car_ShimmySimulationConfiguration"></a> Class ShimmySimulationConfiguration
+#  Class ShimmySimulationConfiguration
 
 Namespace: [VM.Managed.DAFUL.Car](VM.Managed.DAFUL.Car.md)  
 Assembly: VMDFullCar.dll  

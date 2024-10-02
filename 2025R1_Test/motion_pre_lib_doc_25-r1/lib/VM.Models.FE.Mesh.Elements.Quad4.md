@@ -1,4 +1,4 @@
-# <a id="VM_Models_FE_Mesh_Elements_Quad4"></a> Class Quad4
+#  Class Quad4
 
 Namespace: [VM.Models.FE.Mesh.Elements](VM.Models.FE.Mesh.Elements.md)  
 Assembly: VM.Models.FE.Mesh.dll  

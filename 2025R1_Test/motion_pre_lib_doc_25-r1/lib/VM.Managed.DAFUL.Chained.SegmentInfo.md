@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_Chained_SegmentInfo"></a> Class SegmentInfo
+#  Class SegmentInfo
 
 Namespace: [VM.Managed.DAFUL.Chained](VM.Managed.DAFUL.Chained.md)  
 Assembly: VMDChainedBase.dll  

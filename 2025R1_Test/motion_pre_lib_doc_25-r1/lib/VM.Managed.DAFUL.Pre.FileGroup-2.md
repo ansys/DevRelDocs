@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_Pre_FileGroup_2"></a> Class FileGroup<TGroup, TItem\>
+#  Class FileGroup<TGroup, TItem\>
 
 Namespace: [VM.Managed.DAFUL.Pre](VM.Managed.DAFUL.Pre.md)  
 Assembly: dfpredat.dll  

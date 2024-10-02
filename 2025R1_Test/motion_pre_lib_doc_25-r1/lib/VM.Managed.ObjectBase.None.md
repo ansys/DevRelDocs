@@ -1,4 +1,4 @@
-# <a id="VM_Managed_ObjectBase_None"></a> Struct ObjectBase.None
+#  Struct ObjectBase.None
 
 Namespace: [VM.Managed](VM.Managed.md)  
 Assembly: VMAppCore.dll  

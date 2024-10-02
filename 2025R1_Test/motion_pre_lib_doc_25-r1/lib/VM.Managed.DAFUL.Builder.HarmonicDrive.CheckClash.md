@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_Builder_HarmonicDrive_CheckClash"></a> Class HarmonicDrive.CheckClash
+#  Class HarmonicDrive.CheckClash
 
 Namespace: [VM.Managed.DAFUL.Builder](VM.Managed.DAFUL.Builder.md)  
 Assembly: VMBldHarmonicDrive.dll  

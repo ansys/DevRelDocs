@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_GearTrain_MotorDesigner_RotorSection"></a> Class MotorDesigner.RotorSection
+#  Class MotorDesigner.RotorSection
 
 Namespace: [VM.Managed.DAFUL.GearTrain](VM.Managed.DAFUL.GearTrain.md)  
 Assembly: VMDGearTrain.dll  

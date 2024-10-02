@@ -1,4 +1,4 @@
-# <a id="VM_Models_FE_Mesh_Entity"></a> Class Entity
+#  Class Entity
 
 Namespace: [VM.Models.FE.Mesh](VM.Models.FE.Mesh.md)  
 Assembly: VM.Models.FE.Mesh.dll  

@@ -1,4 +1,4 @@
-# <a id="VM_Models_FE_Utilities_MaterialOG"></a> Struct MaterialOG
+#  Struct MaterialOG
 
 Namespace: [VM.Models.FE.Utilities](VM.Models.FE.Utilities.md)  
 Assembly: VM.Models.FE.Utilities.dll  

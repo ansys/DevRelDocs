@@ -1,4 +1,4 @@
-# <a id="VM_CAD_Kernel_Render_LightInterpolationOptionType"></a> Enum LightInterpolationOptionType
+#  Enum LightInterpolationOptionType
 
 Namespace: [VM.CAD.Kernel.Render](VM.CAD.Kernel.Render.md)  
 Assembly: VM.CAD.Kernel.dll  

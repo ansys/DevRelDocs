@@ -1,4 +1,4 @@
-# <a id="VM_Managed_IEnableManager"></a> Interface IEnableManager
+#  Interface IEnableManager
 
 Namespace: [VM.Managed](VM.Managed.md)  
 Assembly: VMAppCore.dll  

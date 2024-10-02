@@ -1,4 +1,4 @@
-# <a id="VM_Managed_Symmetric_Constraints_Planar"></a> Class Planar
+#  Class Planar
 
 Namespace: [VM.Managed.Symmetric.Constraints](VM.Managed.Symmetric.Constraints.md)  
 Assembly: VMSymCB.dll  

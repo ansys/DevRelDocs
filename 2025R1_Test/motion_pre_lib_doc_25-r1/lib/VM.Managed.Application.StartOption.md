@@ -1,4 +1,4 @@
-# <a id="VM_Managed_Application_StartOption"></a> Class Application.StartOption
+#  Class Application.StartOption
 
 Namespace: [VM.Managed](VM.Managed.md)  
 Assembly: VMAppCore.dll  

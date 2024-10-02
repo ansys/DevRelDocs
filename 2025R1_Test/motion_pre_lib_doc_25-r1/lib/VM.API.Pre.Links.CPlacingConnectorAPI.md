@@ -1,4 +1,4 @@
-# <a id="VM_API_Pre_Links_CPlacingConnectorAPI"></a> Class CPlacingConnectorAPI
+#  Class CPlacingConnectorAPI
 
 Namespace: [VM.API.Pre.Links](VM.API.Pre.Links.md)  
 Assembly: VM.API.Pre.Links.dll  

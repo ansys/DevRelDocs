@@ -1,4 +1,4 @@
-# <a id="VM_Managed_ColorXmlSerializer"></a> Class ColorXmlSerializer
+#  Class ColorXmlSerializer
 
 Namespace: [VM.Managed](VM.Managed.md)  
 Assembly: VMAppCore.dll  

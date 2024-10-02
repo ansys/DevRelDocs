@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_FE_Resource_Resources"></a> Class Resources
+#  Class Resources
 
 Namespace: [VM.Managed.DAFUL.FE.Resource](VM.Managed.DAFUL.FE.Resource.md)  
 Assembly: VMFE.dll  

@@ -1,4 +1,4 @@
-# <a id="VM_Managed_VisibleEntity_1"></a> Class VisibleEntity<TProperty\>
+#  Class VisibleEntity<TProperty\>
 
 Namespace: [VM.Managed](VM.Managed.md)  
 Assembly: VMObjBase.dll  

@@ -1,4 +1,4 @@
-# <a id="VM_Managed_SimulationScenario"></a> Class SimulationScenario
+#  Class SimulationScenario
 
 Namespace: [VM.Managed](VM.Managed.md)  
 Assembly: VMObjBase.dll  

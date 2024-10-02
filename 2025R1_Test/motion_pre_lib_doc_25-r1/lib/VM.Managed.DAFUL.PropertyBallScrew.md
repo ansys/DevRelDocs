@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_PropertyBallScrew"></a> Class PropertyBallScrew
+#  Class PropertyBallScrew
 
 Namespace: [VM.Managed.DAFUL](VM.Managed.DAFUL.md)  
 Assembly: VMDBallPlacing.dll  

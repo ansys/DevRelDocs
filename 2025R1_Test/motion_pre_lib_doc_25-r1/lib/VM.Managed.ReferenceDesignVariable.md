@@ -1,4 +1,4 @@
-# <a id="VM_Managed_ReferenceDesignVariable"></a> Class ReferenceDesignVariable
+#  Class ReferenceDesignVariable
 
 Namespace: [VM.Managed](VM.Managed.md)  
 Assembly: VMObjBase.dll  

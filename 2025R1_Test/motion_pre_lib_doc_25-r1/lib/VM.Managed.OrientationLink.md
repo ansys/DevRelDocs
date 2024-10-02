@@ -1,4 +1,4 @@
-# <a id="VM_Managed_OrientationLink"></a> Class OrientationLink
+#  Class OrientationLink
 
 Namespace: [VM.Managed](VM.Managed.md)  
 Assembly: VMAppCore.dll  

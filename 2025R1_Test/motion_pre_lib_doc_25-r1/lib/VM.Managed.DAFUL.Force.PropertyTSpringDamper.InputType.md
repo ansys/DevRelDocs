@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_Force_PropertyTSpringDamper_InputType"></a> Enum PropertyTSpringDamper.InputType
+#  Enum PropertyTSpringDamper.InputType
 
 Namespace: [VM.Managed.DAFUL.Force](VM.Managed.DAFUL.Force.md)  
 Assembly: VMDFB.dll  

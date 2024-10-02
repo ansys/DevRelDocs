@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_FE_Mesh_DFMFType"></a> Enum Mesh.DFMFType
+#  Enum Mesh.DFMFType
 
 Namespace: [VM.Managed.DAFUL.FE](VM.Managed.DAFUL.FE.md)  
 Assembly: VMFE.dll  

@@ -1,4 +1,4 @@
-# <a id="VM_Models_Pre_Force_LeafSpringProfile"></a> Struct LeafSpringProfile
+#  Struct LeafSpringProfile
 
 Namespace: [VM.Models.Pre.Force](VM.Models.Pre.Force.md)  
 Assembly: VM.Models.Pre.Force.dll  

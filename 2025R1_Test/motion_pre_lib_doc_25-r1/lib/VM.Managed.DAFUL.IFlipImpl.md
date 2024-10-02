@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_IFlipImpl"></a> Class IFlipImpl
+#  Class IFlipImpl
 
 Namespace: [VM.Managed.DAFUL](VM.Managed.DAFUL.md)  
 Assembly: VMDFBase.dll  

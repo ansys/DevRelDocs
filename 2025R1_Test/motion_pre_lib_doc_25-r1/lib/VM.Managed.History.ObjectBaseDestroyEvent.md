@@ -1,4 +1,4 @@
-# <a id="VM_Managed_History_ObjectBaseDestroyEvent"></a> Class ObjectBaseDestroyEvent
+#  Class ObjectBaseDestroyEvent
 
 Namespace: [VM.Managed.History](VM.Managed.History.md)  
 Assembly: VMAppCore.dll  

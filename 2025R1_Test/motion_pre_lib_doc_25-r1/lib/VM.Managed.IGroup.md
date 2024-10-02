@@ -1,4 +1,4 @@
-# <a id="VM_Managed_IGroup"></a> Interface IGroup
+#  Interface IGroup
 
 Namespace: [VM.Managed](VM.Managed.md)  
 Assembly: VMAppCore.dll  

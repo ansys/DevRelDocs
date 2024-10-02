@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_FE_SetEdge_EdgeIndexContainer"></a> Class SetEdge.EdgeIndexContainer
+#  Class SetEdge.EdgeIndexContainer
 
 Namespace: [VM.Managed.DAFUL.FE](VM.Managed.DAFUL.FE.md)  
 Assembly: VMFE.dll  

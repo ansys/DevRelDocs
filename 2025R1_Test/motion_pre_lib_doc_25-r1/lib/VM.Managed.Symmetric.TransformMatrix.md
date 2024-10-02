@@ -1,4 +1,4 @@
-# <a id="VM_Managed_Symmetric_TransformMatrix"></a> Class TransformMatrix
+#  Class TransformMatrix
 
 Namespace: [VM.Managed.Symmetric](VM.Managed.Symmetric.md)  
 Assembly: VMSymBase.dll  

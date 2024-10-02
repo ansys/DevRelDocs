@@ -1,4 +1,4 @@
-# <a id="VM_Managed_Operation_OperationNotFoundException"></a> Class OperationNotFoundException
+#  Class OperationNotFoundException
 
 Namespace: [VM.Managed.Operation](VM.Managed.Operation.md)  
 Assembly: VMAppCore.dll  

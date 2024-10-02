@@ -1,4 +1,4 @@
-# <a id="VM_Models_FE_Mesh_Elements_Beam2"></a> Class Beam2
+#  Class Beam2
 
 Namespace: [VM.Models.FE.Mesh.Elements](VM.Models.FE.Mesh.Elements.md)  
 Assembly: VM.Models.FE.Mesh.dll  

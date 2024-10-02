@@ -1,4 +1,4 @@
-# <a id="VM_CAD_Kernel_Entity"></a> Class Entity
+#  Class Entity
 
 Namespace: [VM.CAD.Kernel](VM.CAD.Kernel.md)  
 Assembly: VM.CAD.Kernel.dll  

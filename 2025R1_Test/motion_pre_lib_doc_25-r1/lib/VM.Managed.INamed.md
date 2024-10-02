@@ -1,4 +1,4 @@
-# <a id="VM_Managed_INamed"></a> Interface INamed
+#  Interface INamed
 
 Namespace: [VM.Managed](VM.Managed.md)  
 Assembly: VMAppCore.dll  

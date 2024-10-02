@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_FE_PropertyBC"></a> Class PropertyBC
+#  Class PropertyBC
 
 Namespace: [VM.Managed.DAFUL.FE](VM.Managed.DAFUL.FE.md)  
 Assembly: VMFE.dll  

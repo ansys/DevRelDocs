@@ -1,4 +1,4 @@
-# <a id="VM_Managed_IPostTemplateBasedDocument"></a> Interface IPostTemplateBasedDocument
+#  Interface IPostTemplateBasedDocument
 
 Namespace: [VM.Managed](VM.Managed.md)  
 Assembly: VMAppCore.dll  

@@ -1,4 +1,4 @@
-# <a id="VM_Managed_Symmetric_Marker"></a> Class Marker
+#  Class Marker
 
 Namespace: [VM.Managed.Symmetric](VM.Managed.Symmetric.md)  
 Assembly: VMSymBase.dll  

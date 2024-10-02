@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_ICustomFullName"></a> Interface ICustomFullName
+#  Interface ICustomFullName
 
 Namespace: [VM.Managed.DAFUL](VM.Managed.DAFUL.md)  
 Assembly: VMDFBase.dll  

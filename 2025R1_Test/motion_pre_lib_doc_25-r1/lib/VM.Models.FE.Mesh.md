@@ -1,4 +1,4 @@
-# <a id="VM_Models_FE_Mesh"></a> Namespace VM.Models.FE.Mesh
+#  Namespace VM.Models.FE.Mesh
 
 ### Namespaces
 

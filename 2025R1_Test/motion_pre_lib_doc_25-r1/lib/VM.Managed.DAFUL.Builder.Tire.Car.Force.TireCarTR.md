@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_Builder_Tire_Car_Force_TireCarTR"></a> Class TireCarTR
+#  Class TireCarTR
 
 Namespace: [VM.Managed.DAFUL.Builder.Tire.Car.Force](VM.Managed.DAFUL.Builder.Tire.Car.Force.md)  
 Assembly: VMBldTireCar.dll  

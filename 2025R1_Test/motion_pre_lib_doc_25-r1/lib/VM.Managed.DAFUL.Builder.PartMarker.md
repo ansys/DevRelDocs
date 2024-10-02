@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_Builder_PartMarker"></a> Class PartMarker
+#  Class PartMarker
 
 Namespace: [VM.Managed.DAFUL.Builder](VM.Managed.DAFUL.Builder.md)  
 Assembly: VMBld.dll  

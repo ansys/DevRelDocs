@@ -1,4 +1,4 @@
-# <a id="VM_Models_FE_Mesh_Materials_ISO"></a> Class ISO
+#  Class ISO
 
 Namespace: [VM.Models.FE.Mesh.Materials](VM.Models.FE.Mesh.Materials.md)  
 Assembly: VM.Models.FE.Mesh.dll  

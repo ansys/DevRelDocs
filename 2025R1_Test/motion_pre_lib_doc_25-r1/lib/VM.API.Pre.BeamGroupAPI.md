@@ -1,4 +1,4 @@
-# <a id="VM_API_Pre_BeamGroupAPI"></a> Class BeamGroupAPI
+#  Class BeamGroupAPI
 
 Namespace: [VM.API.Pre](VM.API.Pre.md)  
 Assembly: VM.API.Pre.dll  

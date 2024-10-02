@@ -1,4 +1,4 @@
-# <a id="VM_API_Pre_GearTrain_DocumentAPIImpl"></a> Class DocumentAPIImpl
+#  Class DocumentAPIImpl
 
 Namespace: [VM.API.Pre.GearTrain](VM.API.Pre.GearTrain.md)  
 Assembly: VM.API.Pre.GearTrain.dll  

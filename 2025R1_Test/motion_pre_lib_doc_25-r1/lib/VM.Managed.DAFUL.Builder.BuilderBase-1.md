@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_Builder_BuilderBase_1"></a> Class BuilderBase<T\>
+#  Class BuilderBase<T\>
 
 Namespace: [VM.Managed.DAFUL.Builder](VM.Managed.DAFUL.Builder.md)  
 Assembly: VMBld.dll  

@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_Chained_DocCreateChainedInfo"></a> Class DocCreateChainedInfo
+#  Class DocCreateChainedInfo
 
 Namespace: [VM.Managed.DAFUL.Chained](VM.Managed.DAFUL.Chained.md)  
 Assembly: VMDChainedBase.dll  

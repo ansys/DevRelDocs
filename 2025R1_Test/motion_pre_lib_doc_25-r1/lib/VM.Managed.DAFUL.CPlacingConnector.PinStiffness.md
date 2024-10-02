@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_CPlacingConnector_PinStiffness"></a> Class PinStiffness
+#  Class PinStiffness
 
 Namespace: [VM.Managed.DAFUL.CPlacingConnector](VM.Managed.DAFUL.CPlacingConnector.md)  
 Assembly: VMDCPlacingConnector.dll  

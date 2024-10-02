@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_BodyBase_1"></a> Class BodyBase<TProperty\>
+#  Class BodyBase<TProperty\>
 
 Namespace: [VM.Managed.DAFUL](VM.Managed.DAFUL.md)  
 Assembly: VMDFBase.dll  

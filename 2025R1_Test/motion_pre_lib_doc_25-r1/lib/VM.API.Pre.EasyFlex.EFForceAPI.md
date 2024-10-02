@@ -1,4 +1,4 @@
-# <a id="VM_API_Pre_EasyFlex_EFForceAPI"></a> Class EFForceAPI
+#  Class EFForceAPI
 
 Namespace: [VM.API.Pre.EasyFlex](VM.API.Pre.EasyFlex.md)  
 Assembly: VM.API.Pre.EasyFlex.dll  

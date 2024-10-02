@@ -1,4 +1,4 @@
-# <a id="VM_Managed_Material_AttributeFatigueMaterial"></a> Class AttributeFatigueMaterial
+#  Class AttributeFatigueMaterial
 
 Namespace: [VM.Managed.Material](VM.Managed.Material.md)  
 Assembly: VMObjBase.dll  

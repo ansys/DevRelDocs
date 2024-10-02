@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_GearTrain_PseudoUnbalanceMassOnRBE"></a> Class PseudoUnbalanceMassOnRBE
+#  Class PseudoUnbalanceMassOnRBE
 
 Namespace: [VM.Managed.DAFUL.GearTrain](VM.Managed.DAFUL.GearTrain.md)  
 Assembly: VMDGearTrain.dll  

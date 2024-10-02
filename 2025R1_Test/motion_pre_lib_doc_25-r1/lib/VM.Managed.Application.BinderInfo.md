@@ -1,4 +1,4 @@
-# <a id="VM_Managed_Application_BinderInfo"></a> Class Application.BinderInfo
+#  Class Application.BinderInfo
 
 Namespace: [VM.Managed](VM.Managed.md)  
 Assembly: VMAppCore.dll  

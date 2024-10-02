@@ -1,4 +1,4 @@
-# <a id="VM_CAD_Builders_TransparencyInfo"></a> Struct TransparencyInfo
+#  Struct TransparencyInfo
 
 Namespace: [VM.CAD.Builders](VM.CAD.Builders.md)  
 Assembly: VM.CAD.Builders.dll  

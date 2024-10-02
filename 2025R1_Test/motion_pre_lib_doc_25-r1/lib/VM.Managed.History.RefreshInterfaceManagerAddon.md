@@ -1,4 +1,4 @@
-# <a id="VM_Managed_History_RefreshInterfaceManagerAddon"></a> Class RefreshInterfaceManagerAddon
+#  Class RefreshInterfaceManagerAddon
 
 Namespace: [VM.Managed.History](VM.Managed.History.md)  
 Assembly: VMObjBase.dll  

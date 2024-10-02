@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_AttributeSurfaceOption"></a> Class AttributeSurfaceOption
+#  Class AttributeSurfaceOption
 
 Namespace: [VM.Managed.DAFUL](VM.Managed.DAFUL.md)  
 Assembly: VMDFBase.dll  

@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_Car_Operation_FullCarAssemblyConfigModify"></a> Class FullCarAssemblyConfigModify
+#  Class FullCarAssemblyConfigModify
 
 Namespace: [VM.Managed.DAFUL.Car.Operation](VM.Managed.DAFUL.Car.Operation.md)  
 Assembly: VMOpFullCar.dll  

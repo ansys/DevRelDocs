@@ -1,4 +1,4 @@
-# <a id="VM_Managed_Operation_MacroHelper"></a> Class MacroHelper
+#  Class MacroHelper
 
 Namespace: [VM.Managed.Operation](VM.Managed.Operation.md)  
 Assembly: VMAppCore.dll  

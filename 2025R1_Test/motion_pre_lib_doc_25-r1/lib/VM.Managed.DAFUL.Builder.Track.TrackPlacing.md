@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_Builder_Track_TrackPlacing"></a> Class TrackPlacing
+#  Class TrackPlacing
 
 Namespace: [VM.Managed.DAFUL.Builder.Track](VM.Managed.DAFUL.Builder.Track.md)  
 Assembly: VMBldTrack.dll  

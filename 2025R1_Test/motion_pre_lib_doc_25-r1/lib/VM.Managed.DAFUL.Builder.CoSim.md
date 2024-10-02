@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_Builder_CoSim"></a> Namespace VM.Managed.DAFUL.Builder.CoSim
+#  Namespace VM.Managed.DAFUL.Builder.CoSim
 
 ### Namespaces
 

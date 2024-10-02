@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DirectionOnGeometryBase"></a> Class DirectionOnGeometryBase
+#  Class DirectionOnGeometryBase
 
 Namespace: [VM.Managed](VM.Managed.md)  
 Assembly: VMAppCore.dll  

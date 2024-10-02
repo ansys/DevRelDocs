@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_Car_AnalysisSingleTravel_SideType"></a> Enum AnalysisSingleTravel.SideType
+#  Enum AnalysisSingleTravel.SideType
 
 Namespace: [VM.Managed.DAFUL.Car](VM.Managed.DAFUL.Car.md)  
 Assembly: VMDCar.dll  

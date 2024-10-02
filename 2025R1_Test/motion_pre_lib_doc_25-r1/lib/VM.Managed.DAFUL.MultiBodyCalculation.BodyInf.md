@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_MultiBodyCalculation_BodyInf"></a> Struct MultiBodyCalculation.BodyInf
+#  Struct MultiBodyCalculation.BodyInf
 
 Namespace: [VM.Managed.DAFUL](VM.Managed.DAFUL.md)  
 Assembly: VMDFBase.dll  

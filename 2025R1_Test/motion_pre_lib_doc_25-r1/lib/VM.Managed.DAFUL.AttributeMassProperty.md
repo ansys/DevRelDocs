@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_AttributeMassProperty"></a> Class AttributeMassProperty
+#  Class AttributeMassProperty
 
 Namespace: [VM.Managed.DAFUL](VM.Managed.DAFUL.md)  
 Assembly: VMDFBase.dll  

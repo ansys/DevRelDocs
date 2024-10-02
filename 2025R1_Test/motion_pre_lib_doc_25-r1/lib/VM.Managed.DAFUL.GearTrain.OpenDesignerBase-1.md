@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_GearTrain_OpenDesignerBase_1"></a> Class OpenDesignerBase<TProperty\>
+#  Class OpenDesignerBase<TProperty\>
 
 Namespace: [VM.Managed.DAFUL.GearTrain](VM.Managed.DAFUL.GearTrain.md)  
 Assembly: VMDGearTrain.dll  

@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_CoSim_Operation_ShowEnvironmentDlg"></a> Class ShowEnvironmentDlg
+#  Class ShowEnvironmentDlg
 
 Namespace: [VM.Managed.DAFUL.CoSim.Operation](VM.Managed.DAFUL.CoSim.Operation.md)  
 Assembly: VMOpCoSim.dll  

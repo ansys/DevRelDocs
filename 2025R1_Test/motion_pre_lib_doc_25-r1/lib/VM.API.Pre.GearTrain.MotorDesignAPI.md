@@ -1,4 +1,4 @@
-# <a id="VM_API_Pre_GearTrain_MotorDesignAPI"></a> Class MotorDesignAPI
+#  Class MotorDesignAPI
 
 Namespace: [VM.API.Pre.GearTrain](VM.API.Pre.GearTrain.md)  
 Assembly: VM.API.Pre.GearTrain.dll  

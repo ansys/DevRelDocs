@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_GearTrain_Operation"></a> Namespace VM.Managed.DAFUL.GearTrain.Operation
+#  Namespace VM.Managed.DAFUL.GearTrain.Operation
 
 ### Classes
 

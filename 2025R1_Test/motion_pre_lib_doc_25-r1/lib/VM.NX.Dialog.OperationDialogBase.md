@@ -1,4 +1,4 @@
-# <a id="VM_NX_Dialog_OperationDialogBase"></a> Class OperationDialogBase
+#  Class OperationDialogBase
 
 Namespace: [VM.NX.Dialog](VM.NX.Dialog.md)  
 Assembly: VMDM.dll  

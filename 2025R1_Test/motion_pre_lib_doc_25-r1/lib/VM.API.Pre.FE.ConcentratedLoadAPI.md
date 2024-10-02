@@ -1,4 +1,4 @@
-# <a id="VM_API_Pre_FE_ConcentratedLoadAPI"></a> Class ConcentratedLoadAPI
+#  Class ConcentratedLoadAPI
 
 Namespace: [VM.API.Pre.FE](VM.API.Pre.FE.md)  
 Assembly: VM.API.Pre.FE.dll  

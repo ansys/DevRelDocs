@@ -1,4 +1,4 @@
-# <a id="VM_Operations_Pre_SubEntity_ImportPythonCode"></a> Class ImportPythonCode
+#  Class ImportPythonCode
 
 Namespace: [VM.Operations.Pre.SubEntity](VM.Operations.Pre.SubEntity.md)  
 Assembly: VM.Operations.Pre.SubEntity.dll  

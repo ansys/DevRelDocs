@@ -1,4 +1,4 @@
-# <a id="VM_Managed_Picker_Core_PickerFaceset"></a> Class PickerFaceset
+#  Class PickerFaceset
 
 Namespace: [VM.Managed.Picker.Core](VM.Managed.Picker.Core.md)  
 Assembly: VMAppCore.dll  

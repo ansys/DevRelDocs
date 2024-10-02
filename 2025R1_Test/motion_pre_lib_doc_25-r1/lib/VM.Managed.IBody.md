@@ -1,4 +1,4 @@
-# <a id="VM_Managed_IBody"></a> Interface IBody
+#  Interface IBody
 
 Namespace: [VM.Managed](VM.Managed.md)  
 Assembly: VMAppCore.dll  

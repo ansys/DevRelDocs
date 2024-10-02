@@ -1,4 +1,4 @@
-# <a id="VM_IExpanded"></a> Interface IExpanded
+#  Interface IExpanded
 
 Namespace: [VM](VM.md)  
 Assembly: VM.dll  

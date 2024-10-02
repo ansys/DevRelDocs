@@ -1,4 +1,4 @@
-# <a id="VM_Managed_AttributeVolume"></a> Class AttributeVolume
+#  Class AttributeVolume
 
 Namespace: [VM.Managed](VM.Managed.md)  
 Assembly: VMAppCore.dll  

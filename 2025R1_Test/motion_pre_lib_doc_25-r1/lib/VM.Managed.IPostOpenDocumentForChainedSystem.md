@@ -1,4 +1,4 @@
-# <a id="VM_Managed_IPostOpenDocumentForChainedSystem"></a> Interface IPostOpenDocumentForChainedSystem
+#  Interface IPostOpenDocumentForChainedSystem
 
 Namespace: [VM.Managed](VM.Managed.md)  
 Assembly: VMAppCore.dll  

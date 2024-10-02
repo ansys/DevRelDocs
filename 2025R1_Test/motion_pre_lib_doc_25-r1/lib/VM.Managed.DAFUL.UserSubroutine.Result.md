@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_UserSubroutine_Result"></a> Class UserSubroutine.Result
+#  Class UserSubroutine.Result
 
 Namespace: [VM.Managed.DAFUL](VM.Managed.DAFUL.md)  
 Assembly: VMDSP.dll  

@@ -1,4 +1,4 @@
-# <a id="VM_Managed_Operation_AddPath"></a> Class AddPath
+#  Class AddPath
 
 Namespace: [VM.Managed.Operation](VM.Managed.Operation.md)  
 Assembly: VMOpFEFilm.dll  

@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_Track_Driving"></a> Class Driving
+#  Class Driving
 
 Namespace: [VM.Managed.DAFUL.Track](VM.Managed.DAFUL.Track.md)  
 Assembly: VMDTrackBase.dll  

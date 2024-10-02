@@ -1,4 +1,4 @@
-# <a id="VM_API_Pre_CoSimulator_CoSimulatorAPI"></a> Class CoSimulatorAPI
+#  Class CoSimulatorAPI
 
 Namespace: [VM.API.Pre.CoSimulator](VM.API.Pre.CoSimulator.md)  
 Assembly: VM.API.Pre.CoSimulator.dll  

@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_Bearing_ReferenceEHDBearing"></a> Class ReferenceEHDBearing
+#  Class ReferenceEHDBearing
 
 Namespace: [VM.Managed.DAFUL.Bearing](VM.Managed.DAFUL.Bearing.md)  
 Assembly: VMDEHDBearing.dll  

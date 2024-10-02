@@ -1,4 +1,4 @@
-# <a id="VM_CAD_Kernel_Render_Canvas"></a> Class Canvas
+#  Class Canvas
 
 Namespace: [VM.CAD.Kernel.Render](VM.CAD.Kernel.Render.md)  
 Assembly: VM.CAD.Kernel.dll  

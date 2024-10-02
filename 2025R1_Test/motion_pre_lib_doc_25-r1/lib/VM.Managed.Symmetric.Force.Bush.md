@@ -1,4 +1,4 @@
-# <a id="VM_Managed_Symmetric_Force_Bush"></a> Class Bush
+#  Class Bush
 
 Namespace: [VM.Managed.Symmetric.Force](VM.Managed.Symmetric.Force.md)  
 Assembly: VMSymFB.dll  

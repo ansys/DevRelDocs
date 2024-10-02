@@ -1,4 +1,4 @@
-# <a id="VM_Models_Pre_Cache_LinkPropertyItemCache"></a> Class LinkPropertyItemCache
+#  Class LinkPropertyItemCache
 
 Namespace: [VM.Models.Pre.Cache](VM.Models.Pre.Cache.md)  
 Assembly: VM.Models.Pre.dll  

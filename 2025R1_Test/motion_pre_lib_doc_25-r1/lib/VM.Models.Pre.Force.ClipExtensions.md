@@ -1,4 +1,4 @@
-# <a id="VM_Models_Pre_Force_ClipExtensions"></a> Class ClipExtensions
+#  Class ClipExtensions
 
 Namespace: [VM.Models.Pre.Force](VM.Models.Pre.Force.md)  
 Assembly: VM.Models.Pre.Force.LeafSpring.dll  

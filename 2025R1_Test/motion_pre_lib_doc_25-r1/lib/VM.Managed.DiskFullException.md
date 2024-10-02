@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DiskFullException"></a> Class DiskFullException
+#  Class DiskFullException
 
 Namespace: [VM.Managed](VM.Managed.md)  
 Assembly: VMAppCore.dll  

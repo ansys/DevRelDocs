@@ -1,4 +1,4 @@
-# <a id="VM_NX_App_Navigator_INavigatorPage"></a> Interface INavigatorPage
+#  Interface INavigatorPage
 
 Namespace: [VM.NX.App.Navigator](VM.NX.App.Navigator.md)  
 Assembly: VMDIDef.dll  

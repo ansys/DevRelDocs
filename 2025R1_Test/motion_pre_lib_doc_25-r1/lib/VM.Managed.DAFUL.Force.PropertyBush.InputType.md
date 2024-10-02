@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_Force_PropertyBush_InputType"></a> Enum PropertyBush.InputType
+#  Enum PropertyBush.InputType
 
 Namespace: [VM.Managed.DAFUL.Force](VM.Managed.DAFUL.Force.md)  
 Assembly: VMDFB.dll  

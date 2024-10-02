@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_AttributeCurvesetTypeBase"></a> Class AttributeCurvesetTypeBase
+#  Class AttributeCurvesetTypeBase
 
 Namespace: [VM.Managed.DAFUL](VM.Managed.DAFUL.md)  
 Assembly: VMDFBase.dll  

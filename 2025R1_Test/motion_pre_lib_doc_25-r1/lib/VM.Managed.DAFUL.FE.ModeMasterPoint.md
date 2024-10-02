@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_FE_ModeMasterPoint"></a> Class ModeMasterPoint
+#  Class ModeMasterPoint
 
 Namespace: [VM.Managed.DAFUL.FE](VM.Managed.DAFUL.FE.md)  
 Assembly: VMFE.dll  

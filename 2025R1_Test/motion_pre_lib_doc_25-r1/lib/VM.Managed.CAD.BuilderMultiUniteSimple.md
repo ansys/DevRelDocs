@@ -1,4 +1,4 @@
-# <a id="VM_Managed_CAD_BuilderMultiUniteSimple"></a> Class BuilderMultiUniteSimple
+#  Class BuilderMultiUniteSimple
 
 Namespace: [VM.Managed.CAD](VM.Managed.CAD.md)  
 Assembly: VMAppCore.dll  

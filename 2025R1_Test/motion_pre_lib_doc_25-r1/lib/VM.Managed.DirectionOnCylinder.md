@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DirectionOnCylinder"></a> Class DirectionOnCylinder
+#  Class DirectionOnCylinder
 
 Namespace: [VM.Managed](VM.Managed.md)  
 Assembly: VMAppCore.dll  

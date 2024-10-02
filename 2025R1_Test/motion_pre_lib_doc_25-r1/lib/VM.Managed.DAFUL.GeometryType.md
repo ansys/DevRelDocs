@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_GeometryType"></a> Enum GeometryType
+#  Enum GeometryType
 
 Namespace: [VM.Managed.DAFUL](VM.Managed.DAFUL.md)  
 Assembly: VMDFBase.dll  

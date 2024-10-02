@@ -1,4 +1,4 @@
-# <a id="VM_API_Pre_FE_EdgeSetAPI"></a> Class EdgeSetAPI
+#  Class EdgeSetAPI
 
 Namespace: [VM.API.Pre.FE](VM.API.Pre.FE.md)  
 Assembly: VM.API.Pre.FE.dll  

@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_GearTrain_Rating_CalculateType"></a> Enum Rating.CalculateType
+#  Enum Rating.CalculateType
 
 Namespace: [VM.Managed.DAFUL.GearTrain](VM.Managed.DAFUL.GearTrain.md)  
 Assembly: VMDGearTrain.dll  

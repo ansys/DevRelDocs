@@ -1,4 +1,4 @@
-# <a id="VM_Managed_History_DocumentCategoryRemoveEvent"></a> Class DocumentCategoryRemoveEvent
+#  Class DocumentCategoryRemoveEvent
 
 Namespace: [VM.Managed.History](VM.Managed.History.md)  
 Assembly: VMAppCore.dll  

@@ -1,4 +1,4 @@
-# <a id="VM_Managed_Dialog_AppHandle"></a> Class AppHandle
+#  Class AppHandle
 
 Namespace: [VM.Managed.Dialog](VM.Managed.Dialog.md)  
 Assembly: VMAppCore.dll  

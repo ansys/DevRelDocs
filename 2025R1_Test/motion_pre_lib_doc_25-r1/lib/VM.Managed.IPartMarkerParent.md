@@ -1,4 +1,4 @@
-# <a id="VM_Managed_IPartMarkerParent"></a> Interface IPartMarkerParent
+#  Interface IPartMarkerParent
 
 Namespace: [VM.Managed](VM.Managed.md)  
 Assembly: VMAppCore.dll  

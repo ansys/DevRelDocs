@@ -1,4 +1,4 @@
-# <a id="VM_API_Pre_FE_DocumentAPIImpl"></a> Class DocumentAPIImpl
+#  Class DocumentAPIImpl
 
 Namespace: [VM.API.Pre.FE](VM.API.Pre.FE.md)  
 Assembly: VM.API.Pre.FE.dll  

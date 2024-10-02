@@ -1,4 +1,4 @@
-# <a id="VM_API_Pre_Obj"></a> Struct Obj
+#  Struct Obj
 
 Namespace: [VM.API.Pre](VM.API.Pre.md)  
 Assembly: VM.API.Pre.dll  

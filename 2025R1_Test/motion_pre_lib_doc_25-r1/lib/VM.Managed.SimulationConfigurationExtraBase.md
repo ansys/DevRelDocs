@@ -1,4 +1,4 @@
-# <a id="VM_Managed_SimulationConfigurationExtraBase"></a> Class SimulationConfigurationExtraBase
+#  Class SimulationConfigurationExtraBase
 
 Namespace: [VM.Managed](VM.Managed.md)  
 Assembly: VMObjBase.dll  

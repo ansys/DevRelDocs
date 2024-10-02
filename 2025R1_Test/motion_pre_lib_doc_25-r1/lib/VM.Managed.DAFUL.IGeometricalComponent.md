@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_IGeometricalComponent"></a> Interface IGeometricalComponent
+#  Interface IGeometricalComponent
 
 Namespace: [VM.Managed.DAFUL](VM.Managed.DAFUL.md)  
 Assembly: VMDFBase.dll  

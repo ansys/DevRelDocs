@@ -1,4 +1,4 @@
-# <a id="VM_Models_CommandStepItem"></a> Class CommandStepItem
+#  Class CommandStepItem
 
 Namespace: [VM.Models](VM.Models.md)  
 Assembly: VM.Models.Project.dll  

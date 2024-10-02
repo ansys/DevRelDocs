@@ -1,4 +1,4 @@
-# <a id="VM_Managed_Utility"></a> Namespace VM.Managed.Utility
+#  Namespace VM.Managed.Utility
 
 ### Classes
 

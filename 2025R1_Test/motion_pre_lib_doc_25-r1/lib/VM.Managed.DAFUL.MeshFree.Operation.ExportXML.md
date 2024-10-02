@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_MeshFree_Operation_ExportXML"></a> Class ExportXML
+#  Class ExportXML
 
 Namespace: [VM.Managed.DAFUL.MeshFree.Operation](VM.Managed.DAFUL.MeshFree.Operation.md)  
 Assembly: VMOpMeshFree.dll  

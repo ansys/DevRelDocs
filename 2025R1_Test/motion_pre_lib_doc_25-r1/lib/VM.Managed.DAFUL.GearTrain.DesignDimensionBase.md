@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_GearTrain_DesignDimensionBase"></a> Class DesignDimensionBase
+#  Class DesignDimensionBase
 
 Namespace: [VM.Managed.DAFUL.GearTrain](VM.Managed.DAFUL.GearTrain.md)  
 Assembly: VMDGearTrain.dll  

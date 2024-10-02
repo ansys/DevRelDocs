@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_Builder_FE_NodalBody"></a> Class NodalBody
+#  Class NodalBody
 
 Namespace: [VM.Managed.DAFUL.Builder.FE](VM.Managed.DAFUL.Builder.FE.md)  
 Assembly: VMBldFE.dll  

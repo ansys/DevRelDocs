@@ -1,4 +1,4 @@
-# <a id="VM_IHasBindingValueConverterParam"></a> Interface IHasBindingValueConverterParam
+#  Interface IHasBindingValueConverterParam
 
 Namespace: [VM](VM.md)  
 Assembly: VM.dll  

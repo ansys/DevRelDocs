@@ -1,4 +1,4 @@
-# <a id="VM_CAD_Builders_KeyInfo"></a> Struct KeyInfo
+#  Struct KeyInfo
 
 Namespace: [VM.CAD.Builders](VM.CAD.Builders.md)  
 Assembly: VM.CAD.Builders.dll  

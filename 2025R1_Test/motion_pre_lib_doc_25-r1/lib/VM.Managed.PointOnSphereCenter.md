@@ -1,4 +1,4 @@
-# <a id="VM_Managed_PointOnSphereCenter"></a> Class PointOnSphereCenter
+#  Class PointOnSphereCenter
 
 Namespace: [VM.Managed](VM.Managed.md)  
 Assembly: VMAppCore.dll  

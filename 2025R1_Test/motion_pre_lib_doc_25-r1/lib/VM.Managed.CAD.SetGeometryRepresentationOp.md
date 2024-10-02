@@ -1,4 +1,4 @@
-# <a id="VM_Managed_CAD_SetGeometryRepresentationOp"></a> Class SetGeometryRepresentationOp
+#  Class SetGeometryRepresentationOp
 
 Namespace: [VM.Managed.CAD](VM.Managed.CAD.md)  
 Assembly: VMAppCore.dll  

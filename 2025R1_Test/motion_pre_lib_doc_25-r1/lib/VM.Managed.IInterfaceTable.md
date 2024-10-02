@@ -1,4 +1,4 @@
-# <a id="VM_Managed_IInterfaceTable"></a> Interface IInterfaceTable
+#  Interface IInterfaceTable
 
 Namespace: [VM.Managed](VM.Managed.md)  
 Assembly: VMObjBase.dll  

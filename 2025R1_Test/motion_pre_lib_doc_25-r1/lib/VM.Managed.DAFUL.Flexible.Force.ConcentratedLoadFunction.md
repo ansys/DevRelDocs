@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_Flexible_Force_ConcentratedLoadFunction"></a> Class ConcentratedLoadFunction
+#  Class ConcentratedLoadFunction
 
 Namespace: [VM.Managed.DAFUL.Flexible.Force](VM.Managed.DAFUL.Flexible.Force.md)  
 Assembly: VMFlexibleBase.dll  

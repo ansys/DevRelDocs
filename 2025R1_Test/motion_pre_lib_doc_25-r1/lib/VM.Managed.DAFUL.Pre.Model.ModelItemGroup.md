@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_Pre_Model_ModelItemGroup"></a> Class Model.ModelItemGroup
+#  Class Model.ModelItemGroup
 
 Namespace: [VM.Managed.DAFUL.Pre](VM.Managed.DAFUL.Pre.md)  
 Assembly: dfpredat.dll  

@@ -1,4 +1,4 @@
-# <a id="VM_Models_FE_Utilities_NamedSelection"></a> Struct NamedSelection
+#  Struct NamedSelection
 
 Namespace: [VM.Models.FE.Utilities](VM.Models.FE.Utilities.md)  
 Assembly: VM.Models.FE.Utilities.dll  

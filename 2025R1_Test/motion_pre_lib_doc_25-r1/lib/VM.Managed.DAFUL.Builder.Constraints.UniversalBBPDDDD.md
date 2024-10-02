@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_Builder_Constraints_UniversalBBPDDDD"></a> Class UniversalBBPDDDD
+#  Class UniversalBBPDDDD
 
 Namespace: [VM.Managed.DAFUL.Builder.Constraints](VM.Managed.DAFUL.Builder.Constraints.md)  
 Assembly: VMBldCP.dll  

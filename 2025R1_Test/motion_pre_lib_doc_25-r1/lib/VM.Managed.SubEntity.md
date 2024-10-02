@@ -1,4 +1,4 @@
-# <a id="VM_Managed_SubEntity"></a> Class SubEntity
+#  Class SubEntity
 
 Namespace: [VM.Managed](VM.Managed.md)  
 Assembly: VMObjBase.dll  

@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_Track_HydroForce_ActionBodyData_SurfaceType"></a> Enum HydroForce.ActionBodyData.SurfaceType
+#  Enum HydroForce.ActionBodyData.SurfaceType
 
 Namespace: [VM.Managed.DAFUL.Track](VM.Managed.DAFUL.Track.md)  
 Assembly: VMDTrackBase.dll  

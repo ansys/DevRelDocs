@@ -1,4 +1,4 @@
-# <a id="VM_IObservableObject"></a> Interface IObservableObject
+#  Interface IObservableObject
 
 Namespace: [VM](VM.md)  
 Assembly: VM.dll  

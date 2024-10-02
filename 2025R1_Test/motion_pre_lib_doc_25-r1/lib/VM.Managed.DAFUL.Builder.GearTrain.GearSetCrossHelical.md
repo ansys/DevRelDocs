@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_Builder_GearTrain_GearSetCrossHelical"></a> Class GearSetCrossHelical
+#  Class GearSetCrossHelical
 
 Namespace: [VM.Managed.DAFUL.Builder.GearTrain](VM.Managed.DAFUL.Builder.GearTrain.md)  
 Assembly: VMBldGearTrain.dll  

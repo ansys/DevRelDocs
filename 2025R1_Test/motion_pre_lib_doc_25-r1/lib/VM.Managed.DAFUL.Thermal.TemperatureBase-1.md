@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_Thermal_TemperatureBase_1"></a> Class TemperatureBase<TProperty\>
+#  Class TemperatureBase<TProperty\>
 
 Namespace: [VM.Managed.DAFUL.Thermal](VM.Managed.DAFUL.Thermal.md)  
 Assembly: VMThermalBase.dll  

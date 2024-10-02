@@ -1,4 +1,4 @@
-# <a id="VM_Models_Project_Preset"></a> Namespace VM.Models.Project.Preset
+#  Namespace VM.Models.Project.Preset
 
 ### Classes
 

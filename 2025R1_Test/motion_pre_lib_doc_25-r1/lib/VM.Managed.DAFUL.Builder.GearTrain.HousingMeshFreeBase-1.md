@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_Builder_GearTrain_HousingMeshFreeBase_1"></a> Class HousingMeshFreeBase<TProperty\>
+#  Class HousingMeshFreeBase<TProperty\>
 
 Namespace: [VM.Managed.DAFUL.Builder.GearTrain](VM.Managed.DAFUL.Builder.GearTrain.md)  
 Assembly: VMBldGearTrain.dll  

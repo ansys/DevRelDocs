@@ -1,4 +1,4 @@
-# <a id="VM_Managed_CAD_SetNameAttributeOp"></a> Class SetNameAttributeOp
+#  Class SetNameAttributeOp
 
 Namespace: [VM.Managed.CAD](VM.Managed.CAD.md)  
 Assembly: VMAppCore.dll  

@@ -1,4 +1,4 @@
-# <a id="VM_CAD_Kernel_Environments"></a> Class Environments
+#  Class Environments
 
 Namespace: [VM.CAD.Kernel](VM.CAD.Kernel.md)  
 Assembly: VM.CAD.Kernel.dll  

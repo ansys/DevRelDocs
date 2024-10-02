@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_Builder_Track_MultiMTL"></a> Class MultiMTL
+#  Class MultiMTL
 
 Namespace: [VM.Managed.DAFUL.Builder.Track](VM.Managed.DAFUL.Builder.Track.md)  
 Assembly: VMBldTrack.dll  

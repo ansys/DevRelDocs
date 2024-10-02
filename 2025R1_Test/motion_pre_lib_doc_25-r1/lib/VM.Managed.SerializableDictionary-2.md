@@ -1,4 +1,4 @@
-# <a id="VM_Managed_SerializableDictionary_2"></a> Class SerializableDictionary<TKey, TValue\>
+#  Class SerializableDictionary<TKey, TValue\>
 
 Namespace: [VM.Managed](VM.Managed.md)  
 Assembly: VMObjBase.dll  

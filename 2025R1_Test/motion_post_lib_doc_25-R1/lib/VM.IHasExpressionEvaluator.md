@@ -1,4 +1,4 @@
-# <a id="VM_IHasExpressionEvaluator"></a> Interface IHasExpressionEvaluator
+#  Interface IHasExpressionEvaluator
 
 Namespace: [VM](VM.md)  
 Assembly: VM.dll  

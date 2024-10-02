@@ -1,4 +1,4 @@
-# <a id="VM_Models_ProjectObjectBase"></a> Class ProjectObjectBase
+#  Class ProjectObjectBase
 
 Namespace: [VM.Models](VM.Models.md)  
 Assembly: VM.Models.Project.dll  

@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_ReferenceSetCurve"></a> Class ReferenceSetCurve
+#  Class ReferenceSetCurve
 
 Namespace: [VM.Managed.DAFUL](VM.Managed.DAFUL.md)  
 Assembly: VMDFBase.dll  

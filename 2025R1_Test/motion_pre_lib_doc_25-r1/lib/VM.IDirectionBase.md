@@ -1,4 +1,4 @@
-# <a id="VM_IDirectionBase"></a> Interface IDirectionBase
+#  Interface IDirectionBase
 
 Namespace: [VM](VM.md)  
 Assembly: VM.dll  

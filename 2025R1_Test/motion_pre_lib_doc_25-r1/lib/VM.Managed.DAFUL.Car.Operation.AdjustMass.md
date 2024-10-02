@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_Car_Operation_AdjustMass"></a> Class AdjustMass
+#  Class AdjustMass
 
 Namespace: [VM.Managed.DAFUL.Car.Operation](VM.Managed.DAFUL.Car.Operation.md)  
 Assembly: VMOpCar.dll  

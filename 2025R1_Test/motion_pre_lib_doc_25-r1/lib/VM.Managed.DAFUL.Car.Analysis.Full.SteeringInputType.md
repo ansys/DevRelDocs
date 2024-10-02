@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_Car_Analysis_Full_SteeringInputType"></a> Enum SteeringInputType
+#  Enum SteeringInputType
 
 Namespace: [VM.Managed.DAFUL.Car.Analysis.Full](VM.Managed.DAFUL.Car.Analysis.Full.md)  
 Assembly: VMDCar.dll  

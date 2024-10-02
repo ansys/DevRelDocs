@@ -1,4 +1,4 @@
-# <a id="VM_Managed_History_NavigatorAddon"></a> Class NavigatorAddon
+#  Class NavigatorAddon
 
 Namespace: [VM.Managed.History](VM.Managed.History.md)  
 Assembly: VMAppCore.dll  

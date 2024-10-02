@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_Beam_HOLLOW_TAPERED_CIRCULAR"></a> Class HOLLOW\_TAPERED\_CIRCULAR
+#  Class HOLLOW\_TAPERED\_CIRCULAR
 
 Namespace: [VM.Managed.DAFUL.Beam](VM.Managed.DAFUL.Beam.md)  
 Assembly: VM.Models.FE.BeamCrossSection.dll  

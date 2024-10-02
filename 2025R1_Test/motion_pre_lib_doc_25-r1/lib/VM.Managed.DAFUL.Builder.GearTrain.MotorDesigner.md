@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_Builder_GearTrain_MotorDesigner"></a> Class MotorDesigner
+#  Class MotorDesigner
 
 Namespace: [VM.Managed.DAFUL.Builder.GearTrain](VM.Managed.DAFUL.Builder.GearTrain.md)  
 Assembly: VMBldGearTrain.dll  

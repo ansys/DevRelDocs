@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_Builder_CoSim_FileGen"></a> Class FileGen
+#  Class FileGen
 
 Namespace: [VM.Managed.DAFUL.Builder.CoSim](VM.Managed.DAFUL.Builder.CoSim.md)  
 Assembly: VMBldCoSim.dll  

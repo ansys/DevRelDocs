@@ -1,4 +1,4 @@
-# <a id="VM_Managed_QueryTransform"></a> Class QueryTransform
+#  Class QueryTransform
 
 Namespace: [VM.Managed](VM.Managed.md)  
 Assembly: VMAppCore.dll  

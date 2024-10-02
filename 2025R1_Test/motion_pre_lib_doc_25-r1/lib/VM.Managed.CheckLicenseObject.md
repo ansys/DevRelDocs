@@ -1,4 +1,4 @@
-# <a id="VM_Managed_CheckLicenseObject"></a> Class CheckLicenseObject
+#  Class CheckLicenseObject
 
 Namespace: [VM.Managed](VM.Managed.md)  
 Assembly: VMObjBase.dll  

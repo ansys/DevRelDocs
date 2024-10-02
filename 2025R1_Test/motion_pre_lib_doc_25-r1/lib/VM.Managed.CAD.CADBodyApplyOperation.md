@@ -1,4 +1,4 @@
-# <a id="VM_Managed_CAD_CADBodyApplyOperation"></a> Class CADBodyApplyOperation
+#  Class CADBodyApplyOperation
 
 Namespace: [VM.Managed.CAD](VM.Managed.CAD.md)  
 Assembly: VMAppCore.dll  

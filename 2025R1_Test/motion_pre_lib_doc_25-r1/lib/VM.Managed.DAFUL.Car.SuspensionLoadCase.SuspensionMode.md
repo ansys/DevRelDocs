@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_Car_SuspensionLoadCase_SuspensionMode"></a> Class SuspensionLoadCase.SuspensionMode
+#  Class SuspensionLoadCase.SuspensionMode
 
 Namespace: [VM.Managed.DAFUL.Car](VM.Managed.DAFUL.Car.md)  
 Assembly: VMDCar.dll  

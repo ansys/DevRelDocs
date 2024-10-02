@@ -1,4 +1,4 @@
-# <a id="VM_IHasName"></a> Interface IHasName
+#  Interface IHasName
 
 Namespace: [VM](VM.md)  
 Assembly: VM.dll  

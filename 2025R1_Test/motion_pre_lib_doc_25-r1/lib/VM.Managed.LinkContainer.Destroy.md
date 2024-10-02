@@ -1,4 +1,4 @@
-# <a id="VM_Managed_LinkContainer_Destroy"></a> Struct LinkContainer.Destroy
+#  Struct LinkContainer.Destroy
 
 Namespace: [VM.Managed](VM.Managed.md)  
 Assembly: VMAppCore.dll  

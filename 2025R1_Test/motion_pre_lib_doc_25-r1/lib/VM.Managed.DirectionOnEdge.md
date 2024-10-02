@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DirectionOnEdge"></a> Class DirectionOnEdge
+#  Class DirectionOnEdge
 
 Namespace: [VM.Managed](VM.Managed.md)  
 Assembly: VMAppCore.dll  

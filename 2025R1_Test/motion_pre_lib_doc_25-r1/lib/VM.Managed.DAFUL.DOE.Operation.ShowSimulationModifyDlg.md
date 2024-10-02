@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_DOE_Operation_ShowSimulationModifyDlg"></a> Class ShowSimulationModifyDlg
+#  Class ShowSimulationModifyDlg
 
 Namespace: [VM.Managed.DAFUL.DOE.Operation](VM.Managed.DAFUL.DOE.Operation.md)  
 Assembly: VMOPDOE.dll  

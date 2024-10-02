@@ -1,4 +1,4 @@
-# <a id="VM_Managed_Symmetric_Car_Force_Bumpstop"></a> Class Bumpstop
+#  Class Bumpstop
 
 Namespace: [VM.Managed.Symmetric.Car.Force](VM.Managed.Symmetric.Car.Force.md)  
 Assembly: VMSymCar.dll  

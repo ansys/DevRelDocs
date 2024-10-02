@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_Builder_MeshFree_ColorRigidBodyElementPairPart"></a> Class ColorRigidBodyElementPairPart
+#  Class ColorRigidBodyElementPairPart
 
 Namespace: [VM.Managed.DAFUL.Builder.MeshFree](VM.Managed.DAFUL.Builder.MeshFree.md)  
 Assembly: VMBldMeshFree.dll  

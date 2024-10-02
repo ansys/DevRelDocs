@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_PartDocument_MassProperty"></a> Class PartDocument.MassProperty
+#  Class PartDocument.MassProperty
 
 Namespace: [VM.Managed.DAFUL](VM.Managed.DAFUL.md)  
 Assembly: VMDFBase.dll  

@@ -1,4 +1,4 @@
-# <a id="VM_Models_Project_Preset_ResultStep"></a> Class ResultStep
+#  Class ResultStep
 
 Namespace: [VM.Models.Project.Preset](VM.Models.Project.Preset.md)  
 Assembly: VM.Models.Project.Preset.dll  

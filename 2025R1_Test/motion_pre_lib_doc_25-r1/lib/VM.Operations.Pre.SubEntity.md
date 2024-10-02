@@ -1,4 +1,4 @@
-# <a id="VM_Operations_Pre_SubEntity"></a> Namespace VM.Operations.Pre.SubEntity
+#  Namespace VM.Operations.Pre.SubEntity
 
 ### Classes
 

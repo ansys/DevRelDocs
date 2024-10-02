@@ -1,4 +1,4 @@
-# <a id="VM_Collections_ObservableConcurrentDictionary_2"></a> Class ObservableConcurrentDictionary<TKey, TValue\>
+#  Class ObservableConcurrentDictionary<TKey, TValue\>
 
 Namespace: [VM.Collections](VM.Collections.md)  
 Assembly: VM.dll  

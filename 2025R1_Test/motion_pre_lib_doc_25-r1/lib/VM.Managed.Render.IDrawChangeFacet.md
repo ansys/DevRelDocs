@@ -1,4 +1,4 @@
-# <a id="VM_Managed_Render_IDrawChangeFacet"></a> Interface IDrawChangeFacet
+#  Interface IDrawChangeFacet
 
 Namespace: [VM.Managed.Render](VM.Managed.Render.md)  
 Assembly: VMAppCore.dll  

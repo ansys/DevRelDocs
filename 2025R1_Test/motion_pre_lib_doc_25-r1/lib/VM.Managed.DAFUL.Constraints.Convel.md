@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_Constraints_Convel"></a> Class Convel
+#  Class Convel
 
 Namespace: [VM.Managed.DAFUL.Constraints](VM.Managed.DAFUL.Constraints.md)  
 Assembly: VMDCP.dll  

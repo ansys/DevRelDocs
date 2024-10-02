@@ -1,4 +1,4 @@
-# <a id="VM_CAD_Kernel_Document"></a> Class Document
+#  Class Document
 
 Namespace: [VM.CAD.Kernel](VM.CAD.Kernel.md)  
 Assembly: VM.CAD.Kernel.dll  

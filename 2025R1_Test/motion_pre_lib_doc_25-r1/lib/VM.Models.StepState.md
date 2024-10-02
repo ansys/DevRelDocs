@@ -1,4 +1,4 @@
-# <a id="VM_Models_StepState"></a> Enum StepState
+#  Enum StepState
 
 Namespace: [VM.Models](VM.Models.md)  
 Assembly: VM.Models.Project.dll  

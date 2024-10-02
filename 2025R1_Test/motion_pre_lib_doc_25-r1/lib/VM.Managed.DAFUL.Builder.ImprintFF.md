@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_Builder_ImprintFF"></a> Class ImprintFF
+#  Class ImprintFF
 
 Namespace: [VM.Managed.DAFUL.Builder](VM.Managed.DAFUL.Builder.md)  
 Assembly: VMBld.dll  

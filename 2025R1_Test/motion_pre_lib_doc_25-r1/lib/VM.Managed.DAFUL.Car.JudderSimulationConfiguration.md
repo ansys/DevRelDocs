@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_Car_JudderSimulationConfiguration"></a> Class JudderSimulationConfiguration
+#  Class JudderSimulationConfiguration
 
 Namespace: [VM.Managed.DAFUL.Car](VM.Managed.DAFUL.Car.md)  
 Assembly: VMDFullCar.dll  

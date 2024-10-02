@@ -1,4 +1,4 @@
-# <a id="VM_Managed_Reference"></a> Class Reference
+#  Class Reference
 
 Namespace: [VM.Managed](VM.Managed.md)  
 Assembly: VMAppCore.dll  

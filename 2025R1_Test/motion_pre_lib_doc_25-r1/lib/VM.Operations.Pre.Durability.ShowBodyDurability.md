@@ -1,4 +1,4 @@
-# <a id="VM_Operations_Pre_Durability_ShowBodyDurability"></a> Class ShowBodyDurability
+#  Class ShowBodyDurability
 
 Namespace: [VM.Operations.Pre.Durability](VM.Operations.Pre.Durability.md)  
 Assembly: VM.Operations.Pre.Durability.dll  

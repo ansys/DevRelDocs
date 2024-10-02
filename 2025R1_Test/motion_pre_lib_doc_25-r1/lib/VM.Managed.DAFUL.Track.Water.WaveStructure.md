@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_Track_Water_WaveStructure"></a> Struct Water.WaveStructure
+#  Struct Water.WaveStructure
 
 Namespace: [VM.Managed.DAFUL.Track](VM.Managed.DAFUL.Track.md)  
 Assembly: VMDTrackBase.dll  

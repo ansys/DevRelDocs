@@ -1,4 +1,4 @@
-# <a id="VM_Managed_Symmetric_SwitchableBody"></a> Class SwitchableBody
+#  Class SwitchableBody
 
 Namespace: [VM.Managed.Symmetric](VM.Managed.Symmetric.md)  
 Assembly: VMSymBase.dll  

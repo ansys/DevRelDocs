@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_MeshFree_Contact_PropertyTie"></a> Class PropertyTie
+#  Class PropertyTie
 
 Namespace: [VM.Managed.DAFUL.MeshFree.Contact](VM.Managed.DAFUL.MeshFree.Contact.md)  
 Assembly: VMDMeshFree.dll  

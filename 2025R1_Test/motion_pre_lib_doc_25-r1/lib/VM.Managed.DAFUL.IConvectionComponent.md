@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_IConvectionComponent"></a> Interface IConvectionComponent
+#  Interface IConvectionComponent
 
 Namespace: [VM.Managed.DAFUL](VM.Managed.DAFUL.md)  
 Assembly: VMDFBase.dll  

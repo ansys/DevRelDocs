@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_Builder_Roller"></a> Namespace VM.Managed.DAFUL.Builder.Roller
+#  Namespace VM.Managed.DAFUL.Builder.Roller
 
 ### Classes
 

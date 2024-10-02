@@ -1,4 +1,4 @@
-# <a id="VM_Managed_Symmetric_Constraints_Perpendicular"></a> Class Perpendicular
+#  Class Perpendicular
 
 Namespace: [VM.Managed.Symmetric.Constraints](VM.Managed.Symmetric.Constraints.md)  
 Assembly: VMSymCP.dll  

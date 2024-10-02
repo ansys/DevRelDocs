@@ -1,4 +1,4 @@
-# <a id="VM_Managed_MatrixBase"></a> Class MatrixBase
+#  Class MatrixBase
 
 Namespace: [VM.Managed](VM.Managed.md)  
 Assembly: VMAppCore.dll  

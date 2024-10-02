@@ -1,4 +1,4 @@
-# <a id="VM_Managed_PointLinkDelta"></a> Class PointLinkDelta
+#  Class PointLinkDelta
 
 Namespace: [VM.Managed](VM.Managed.md)  
 Assembly: VMAppCore.dll  

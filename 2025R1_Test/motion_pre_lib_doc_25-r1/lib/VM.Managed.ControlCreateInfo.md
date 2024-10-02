@@ -1,4 +1,4 @@
-# <a id="VM_Managed_ControlCreateInfo"></a> Class ControlCreateInfo
+#  Class ControlCreateInfo
 
 Namespace: [VM.Managed](VM.Managed.md)  
 Assembly: VMAppCore.dll  

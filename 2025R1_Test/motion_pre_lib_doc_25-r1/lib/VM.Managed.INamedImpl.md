@@ -1,4 +1,4 @@
-# <a id="VM_Managed_INamedImpl"></a> Class INamedImpl
+#  Class INamedImpl
 
 Namespace: [VM.Managed](VM.Managed.md)  
 Assembly: VMAppCore.dll  

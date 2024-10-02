@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_Operation_ExportXML"></a> Class ExportXML
+#  Class ExportXML
 
 Namespace: [VM.Managed.DAFUL.Operation](VM.Managed.DAFUL.Operation.md)  
 Assembly: VMOpCore.dll  

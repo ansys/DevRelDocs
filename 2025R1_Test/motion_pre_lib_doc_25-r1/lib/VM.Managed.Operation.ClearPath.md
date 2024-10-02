@@ -1,4 +1,4 @@
-# <a id="VM_Managed_Operation_ClearPath"></a> Class ClearPath
+#  Class ClearPath
 
 Namespace: [VM.Managed.Operation](VM.Managed.Operation.md)  
 Assembly: VMOpFEFilm.dll  

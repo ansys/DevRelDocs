@@ -1,4 +1,4 @@
-# <a id="VM_Managed_Symmetric_Constraints_DriverUserSubroutine"></a> Class DriverUserSubroutine
+#  Class DriverUserSubroutine
 
 Namespace: [VM.Managed.Symmetric.Constraints](VM.Managed.Symmetric.Constraints.md)  
 Assembly: VMSymCB.dll  

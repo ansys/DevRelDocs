@@ -1,4 +1,4 @@
-# <a id="VM_Managed_Operation_CreateAssembly"></a> Class CreateAssembly
+#  Class CreateAssembly
 
 Namespace: [VM.Managed.Operation](VM.Managed.Operation.md)  
 Assembly: VMOP.dll  

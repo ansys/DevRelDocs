@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_GearTrain_GearFEGeneratorException"></a> Class GearFEGeneratorException
+#  Class GearFEGeneratorException
 
 Namespace: [VM.Managed.DAFUL.GearTrain](VM.Managed.DAFUL.GearTrain.md)  
 Assembly: VMDGearTrain.dll  

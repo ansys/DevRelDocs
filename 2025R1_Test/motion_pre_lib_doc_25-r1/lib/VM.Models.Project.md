@@ -1,4 +1,4 @@
-# <a id="VM_Models_Project"></a> Namespace VM.Models.Project
+#  Namespace VM.Models.Project
 
 ### Namespaces
 

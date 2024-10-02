@@ -1,4 +1,4 @@
-# <a id="VM_Managed_IDGenerator"></a> Class IDGenerator
+#  Class IDGenerator
 
 Namespace: [VM.Managed](VM.Managed.md)  
 Assembly: VMAppCore.dll  

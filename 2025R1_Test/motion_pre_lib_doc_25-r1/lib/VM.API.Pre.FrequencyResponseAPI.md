@@ -1,4 +1,4 @@
-# <a id="VM_API_Pre_FrequencyResponseAPI"></a> Class FrequencyResponseAPI
+#  Class FrequencyResponseAPI
 
 Namespace: [VM.API.Pre](VM.API.Pre.md)  
 Assembly: VM.API.Pre.dll  

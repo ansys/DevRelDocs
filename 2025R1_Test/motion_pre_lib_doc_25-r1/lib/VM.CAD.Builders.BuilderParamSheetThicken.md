@@ -1,4 +1,4 @@
-# <a id="VM_CAD_Builders_BuilderParamSheetThicken"></a> Class BuilderParamSheetThicken
+#  Class BuilderParamSheetThicken
 
 Namespace: [VM.CAD.Builders](VM.CAD.Builders.md)  
 Assembly: VM.CAD.Builders.dll  

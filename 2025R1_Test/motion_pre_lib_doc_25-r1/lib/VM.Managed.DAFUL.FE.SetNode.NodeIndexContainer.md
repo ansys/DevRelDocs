@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_FE_SetNode_NodeIndexContainer"></a> Class SetNode.NodeIndexContainer
+#  Class SetNode.NodeIndexContainer
 
 Namespace: [VM.Managed.DAFUL.FE](VM.Managed.DAFUL.FE.md)  
 Assembly: VMFE.dll  

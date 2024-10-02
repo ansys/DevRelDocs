@@ -1,4 +1,4 @@
-# <a id="VM_OMatrix"></a> Struct OMatrix
+#  Struct OMatrix
 
 Namespace: [VM](VM.md)  
 Assembly: VM.dll  

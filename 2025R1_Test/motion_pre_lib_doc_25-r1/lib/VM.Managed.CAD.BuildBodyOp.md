@@ -1,4 +1,4 @@
-# <a id="VM_Managed_CAD_BuildBodyOp"></a> Class BuildBodyOp
+#  Class BuildBodyOp
 
 Namespace: [VM.Managed.CAD](VM.Managed.CAD.md)  
 Assembly: VMAppCore.dll  

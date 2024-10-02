@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_Builder_Force_BushBBPD"></a> Class BushBBPD
+#  Class BushBBPD
 
 Namespace: [VM.Managed.DAFUL.Builder.Force](VM.Managed.DAFUL.Builder.Force.md)  
 Assembly: VMBldFB.dll  

@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_Flexible_Contact_PropertyTie"></a> Class PropertyTie
+#  Class PropertyTie
 
 Namespace: [VM.Managed.DAFUL.Flexible.Contact](VM.Managed.DAFUL.Flexible.Contact.md)  
 Assembly: VMFlexibleBase.dll  

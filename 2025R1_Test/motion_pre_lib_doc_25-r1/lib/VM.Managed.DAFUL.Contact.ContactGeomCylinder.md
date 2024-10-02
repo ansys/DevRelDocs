@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_Contact_ContactGeomCylinder"></a> Class ContactGeomCylinder
+#  Class ContactGeomCylinder
 
 Namespace: [VM.Managed.DAFUL.Contact](VM.Managed.DAFUL.Contact.md)  
 Assembly: VMDCt.dll  

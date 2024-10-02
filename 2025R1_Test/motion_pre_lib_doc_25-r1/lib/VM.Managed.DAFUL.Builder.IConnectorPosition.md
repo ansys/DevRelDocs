@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_Builder_IConnectorPosition"></a> Interface IConnectorPosition
+#  Interface IConnectorPosition
 
 Namespace: [VM.Managed.DAFUL.Builder](VM.Managed.DAFUL.Builder.md)  
 Assembly: VMBld.dll  

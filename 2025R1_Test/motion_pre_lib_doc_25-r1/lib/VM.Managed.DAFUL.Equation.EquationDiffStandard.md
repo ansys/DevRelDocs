@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_Equation_EquationDiffStandard"></a> Class EquationDiffStandard
+#  Class EquationDiffStandard
 
 Namespace: [VM.Managed.DAFUL.Equation](VM.Managed.DAFUL.Equation.md)  
 Assembly: VMDEq.dll  

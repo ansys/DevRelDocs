@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_SolidBodyProperty_MassPropertyType"></a> Enum SolidBodyProperty.MassPropertyType
+#  Enum SolidBodyProperty.MassPropertyType
 
 Namespace: [VM.Managed.DAFUL](VM.Managed.DAFUL.md)  
 Assembly: VMDFBase.dll  

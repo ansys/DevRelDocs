@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_Builder_Track_HydroForce_CheckedMultiBody"></a> Struct HydroForce.CheckedMultiBody
+#  Struct HydroForce.CheckedMultiBody
 
 Namespace: [VM.Managed.DAFUL.Builder.Track](VM.Managed.DAFUL.Builder.Track.md)  
 Assembly: VMBldTrack.dll  

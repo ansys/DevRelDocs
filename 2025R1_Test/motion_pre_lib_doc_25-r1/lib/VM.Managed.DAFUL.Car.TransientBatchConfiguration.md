@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_Car_TransientBatchConfiguration"></a> Class TransientBatchConfiguration
+#  Class TransientBatchConfiguration
 
 Namespace: [VM.Managed.DAFUL.Car](VM.Managed.DAFUL.Car.md)  
 Assembly: VMDCar.dll  

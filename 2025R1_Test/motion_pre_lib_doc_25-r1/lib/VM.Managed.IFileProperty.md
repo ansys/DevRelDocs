@@ -1,4 +1,4 @@
-# <a id="VM_Managed_IFileProperty"></a> Interface IFileProperty
+#  Interface IFileProperty
 
 Namespace: [VM.Managed](VM.Managed.md)  
 Assembly: VMObjBase.dll  

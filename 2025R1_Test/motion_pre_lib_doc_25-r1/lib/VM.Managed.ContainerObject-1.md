@@ -1,4 +1,4 @@
-# <a id="VM_Managed_ContainerObject_1"></a> Class ContainerObject<TEventCore\>
+#  Class ContainerObject<TEventCore\>
 
 Namespace: [VM.Managed](VM.Managed.md)  
 Assembly: VMAppCore.dll  

@@ -1,4 +1,4 @@
-# <a id="VM_Managed_Operation_MeshAssembly"></a> Class MeshAssembly
+#  Class MeshAssembly
 
 Namespace: [VM.Managed.Operation](VM.Managed.Operation.md)  
 Assembly: VMOP.dll  

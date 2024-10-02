@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_StringValue"></a> Class StringValue
+#  Class StringValue
 
 Namespace: [VM.Managed.DAFUL](VM.Managed.DAFUL.md)  
 Assembly: VMDSP.dll  

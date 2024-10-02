@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_IHeatGenerationComponent"></a> Interface IHeatGenerationComponent
+#  Interface IHeatGenerationComponent
 
 Namespace: [VM.Managed.DAFUL](VM.Managed.DAFUL.md)  
 Assembly: VMDFBase.dll  

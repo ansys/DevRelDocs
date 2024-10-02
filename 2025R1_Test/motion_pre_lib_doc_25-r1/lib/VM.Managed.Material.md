@@ -1,4 +1,4 @@
-# <a id="VM_Managed_Material"></a> Namespace VM.Managed.Material
+#  Namespace VM.Managed.Material
 
 ### Classes
 

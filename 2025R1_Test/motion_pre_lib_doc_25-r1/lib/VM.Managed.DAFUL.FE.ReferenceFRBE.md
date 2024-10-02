@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_FE_ReferenceFRBE"></a> Class ReferenceFRBE
+#  Class ReferenceFRBE
 
 Namespace: [VM.Managed.DAFUL.FE](VM.Managed.DAFUL.FE.md)  
 Assembly: VMFE.dll  

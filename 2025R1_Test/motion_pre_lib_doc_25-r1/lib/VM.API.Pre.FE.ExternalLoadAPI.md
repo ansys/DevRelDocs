@@ -1,4 +1,4 @@
-# <a id="VM_API_Pre_FE_ExternalLoadAPI"></a> Class ExternalLoadAPI
+#  Class ExternalLoadAPI
 
 Namespace: [VM.API.Pre.FE](VM.API.Pre.FE.md)  
 Assembly: VM.API.Pre.FE.dll  

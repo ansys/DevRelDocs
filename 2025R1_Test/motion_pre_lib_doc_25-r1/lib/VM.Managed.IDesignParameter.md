@@ -1,4 +1,4 @@
-# <a id="VM_Managed_IDesignParameter"></a> Interface IDesignParameter
+#  Interface IDesignParameter
 
 Namespace: [VM.Managed](VM.Managed.md)  
 Assembly: VMAppCore.dll  

@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_Builder_Bearing"></a> Namespace VM.Managed.DAFUL.Builder.Bearing
+#  Namespace VM.Managed.DAFUL.Builder.Bearing
 
 ### Classes
 

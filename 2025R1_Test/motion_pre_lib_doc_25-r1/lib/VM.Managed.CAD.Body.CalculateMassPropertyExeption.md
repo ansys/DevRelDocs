@@ -1,4 +1,4 @@
-# <a id="VM_Managed_CAD_Body_CalculateMassPropertyExeption"></a> Class Body.CalculateMassPropertyExeption
+#  Class Body.CalculateMassPropertyExeption
 
 Namespace: [VM.Managed.CAD](VM.Managed.CAD.md)  
 Assembly: VMAppCore.dll  

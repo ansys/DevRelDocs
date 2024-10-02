@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DoubleClickEvent"></a> Namespace VM.Managed.DoubleClickEvent
+#  Namespace VM.Managed.DoubleClickEvent
 
 ### Enums
 

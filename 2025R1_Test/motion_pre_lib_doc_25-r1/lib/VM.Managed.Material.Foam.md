@@ -1,4 +1,4 @@
-# <a id="VM_Managed_Material_Foam"></a> Class Foam
+#  Class Foam
 
 Namespace: [VM.Managed.Material](VM.Managed.Material.md)  
 Assembly: VMObjBase.dll  

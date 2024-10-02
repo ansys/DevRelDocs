@@ -1,4 +1,4 @@
-# <a id="VM_Managed_StreamFooter"></a> Class StreamFooter
+#  Class StreamFooter
 
 Namespace: [VM.Managed](VM.Managed.md)  
 Assembly: VMAppCore.dll  

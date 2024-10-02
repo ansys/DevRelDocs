@@ -1,4 +1,4 @@
-# <a id="VM_Operations_Pre_Drivetrain"></a> Namespace VM.Operations.Pre.Drivetrain
+#  Namespace VM.Operations.Pre.Drivetrain
 
 ### Classes
 

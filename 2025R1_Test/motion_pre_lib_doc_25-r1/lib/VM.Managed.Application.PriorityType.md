@@ -1,4 +1,4 @@
-# <a id="VM_Managed_Application_PriorityType"></a> Enum Application.PriorityType
+#  Enum Application.PriorityType
 
 Namespace: [VM.Managed](VM.Managed.md)  
 Assembly: VMAppCore.dll  

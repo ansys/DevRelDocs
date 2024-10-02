@@ -1,4 +1,4 @@
-# <a id="VM_Collections_IdentifierCollection_1"></a> Class IdentifierCollection<TItem\>
+#  Class IdentifierCollection<TItem\>
 
 Namespace: [VM.Collections](VM.Collections.md)  
 Assembly: VM.dll  

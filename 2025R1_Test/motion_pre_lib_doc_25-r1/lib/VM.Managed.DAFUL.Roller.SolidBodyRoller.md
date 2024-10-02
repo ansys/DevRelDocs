@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_Roller_SolidBodyRoller"></a> Class SolidBodyRoller
+#  Class SolidBodyRoller
 
 Namespace: [VM.Managed.DAFUL.Roller](VM.Managed.DAFUL.Roller.md)  
 Assembly: VMDRoller.dll  

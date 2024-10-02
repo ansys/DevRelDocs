@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_Contact_IContactGeometry2Dot5D"></a> Interface IContactGeometry2Dot5D
+#  Interface IContactGeometry2Dot5D
 
 Namespace: [VM.Managed.DAFUL.Contact](VM.Managed.DAFUL.Contact.md)  
 Assembly: VMDCt.dll  

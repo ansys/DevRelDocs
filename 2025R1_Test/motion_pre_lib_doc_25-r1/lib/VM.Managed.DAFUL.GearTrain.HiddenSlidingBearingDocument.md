@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_GearTrain_HiddenSlidingBearingDocument"></a> Class HiddenSlidingBearingDocument
+#  Class HiddenSlidingBearingDocument
 
 Namespace: [VM.Managed.DAFUL.GearTrain](VM.Managed.DAFUL.GearTrain.md)  
 Assembly: VMDGearTrain.dll  

@@ -1,4 +1,4 @@
-# <a id="VM_Managed_Symmetric_ArgumentListGeneral"></a> Class ArgumentListGeneral
+#  Class ArgumentListGeneral
 
 Namespace: [VM.Managed.Symmetric](VM.Managed.Symmetric.md)  
 Assembly: VMSymSB.dll  

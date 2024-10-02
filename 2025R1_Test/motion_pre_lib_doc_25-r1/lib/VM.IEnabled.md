@@ -1,4 +1,4 @@
-# <a id="VM_IEnabled"></a> Interface IEnabled
+#  Interface IEnabled
 
 Namespace: [VM](VM.md)  
 Assembly: VM.dll  

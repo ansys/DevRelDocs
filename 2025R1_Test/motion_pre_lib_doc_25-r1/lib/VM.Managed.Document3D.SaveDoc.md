@@ -1,4 +1,4 @@
-# <a id="VM_Managed_Document3D_SaveDoc"></a> Delegate Document3D.SaveDoc
+#  Delegate Document3D.SaveDoc
 
 Namespace: [VM.Managed](VM.Managed.md)  
 Assembly: VMAppCore.dll  

@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_Track_Operation_RollBackPathToOriginPositionAndOrientation"></a> Class RollBackPathToOriginPositionAndOrientation
+#  Class RollBackPathToOriginPositionAndOrientation
 
 Namespace: [VM.Managed.DAFUL.Track.Operation](VM.Managed.DAFUL.Track.Operation.md)  
 Assembly: VMOpTrack.dll  

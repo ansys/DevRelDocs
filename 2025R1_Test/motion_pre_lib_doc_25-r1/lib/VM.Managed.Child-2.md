@@ -1,4 +1,4 @@
-# <a id="VM_Managed_Child_2"></a> Class Child<T, TUpdate\>
+#  Class Child<T, TUpdate\>
 
 Namespace: [VM.Managed](VM.Managed.md)  
 Assembly: VMAppCore.dll  

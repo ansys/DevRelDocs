@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_Force_PropertyBushFile"></a> Class PropertyBushFile
+#  Class PropertyBushFile
 
 Namespace: [VM.Managed.DAFUL.Force](VM.Managed.DAFUL.Force.md)  
 Assembly: VMDFB.dll  

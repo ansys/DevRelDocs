@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_IHasPlacing"></a> Interface IHasPlacing
+#  Interface IHasPlacing
 
 Namespace: [VM.Managed.DAFUL](VM.Managed.DAFUL.md)  
 Assembly: VMDFBase.dll  

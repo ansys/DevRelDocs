@@ -1,4 +1,4 @@
-# <a id="VM_Managed_Symmetric_Force_TSpringDamper"></a> Class TSpringDamper
+#  Class TSpringDamper
 
 Namespace: [VM.Managed.Symmetric.Force](VM.Managed.Symmetric.Force.md)  
 Assembly: VMSymFB.dll  

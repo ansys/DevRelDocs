@@ -1,4 +1,4 @@
-# <a id="VM_Managed_Symmetric_Function"></a> Class Function
+#  Class Function
 
 Namespace: [VM.Managed.Symmetric](VM.Managed.Symmetric.md)  
 Assembly: VMSymSB.dll  

@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_GearTrain_InputShaftSetInfo"></a> Class InputShaftSetInfo
+#  Class InputShaftSetInfo
 
 Namespace: [VM.Managed.DAFUL.GearTrain](VM.Managed.DAFUL.GearTrain.md)  
 Assembly: VMDGearTrain.dll  

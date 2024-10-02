@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_Builder_Beam_BuilderBeamGroupMultiplePointsBase_1"></a> Class BuilderBeamGroupMultiplePointsBase<T\>
+#  Class BuilderBeamGroupMultiplePointsBase<T\>
 
 Namespace: [VM.Managed.DAFUL.Builder.Beam](VM.Managed.DAFUL.Builder.Beam.md)  
 Assembly: VMBldBeamGroup.dll  

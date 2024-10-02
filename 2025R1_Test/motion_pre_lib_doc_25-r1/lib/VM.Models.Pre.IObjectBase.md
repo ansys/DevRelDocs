@@ -1,4 +1,4 @@
-# <a id="VM_Models_Pre_IObjectBase"></a> Interface IObjectBase
+#  Interface IObjectBase
 
 Namespace: [VM.Models.Pre](VM.Models.Pre.md)  
 Assembly: VM.Models.Pre.dll  

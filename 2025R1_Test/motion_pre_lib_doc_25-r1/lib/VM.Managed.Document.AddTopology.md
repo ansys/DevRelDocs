@@ -1,4 +1,4 @@
-# <a id="VM_Managed_Document_AddTopology"></a> Delegate Document.AddTopology
+#  Delegate Document.AddTopology
 
 Namespace: [VM.Managed](VM.Managed.md)  
 Assembly: VMAppCore.dll  

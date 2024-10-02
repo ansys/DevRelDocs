@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_Operation_Util_CreateAssembledBody"></a> Class CreateAssembledBody
+#  Class CreateAssembledBody
 
 Namespace: [VM.Managed.DAFUL.Operation.Util](VM.Managed.DAFUL.Operation.Util.md)  
 Assembly: VMOpCore.dll  

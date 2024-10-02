@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_Contact_PropertyContactConstraint"></a> Class PropertyContactConstraint
+#  Class PropertyContactConstraint
 
 Namespace: [VM.Managed.DAFUL.Contact](VM.Managed.DAFUL.Contact.md)  
 Assembly: VMDCt.dll  

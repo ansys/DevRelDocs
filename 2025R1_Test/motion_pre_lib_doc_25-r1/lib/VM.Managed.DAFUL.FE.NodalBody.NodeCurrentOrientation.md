@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_FE_NodalBody_NodeCurrentOrientation"></a> Struct NodalBody.NodeCurrentOrientation
+#  Struct NodalBody.NodeCurrentOrientation
 
 Namespace: [VM.Managed.DAFUL.FE](VM.Managed.DAFUL.FE.md)  
 Assembly: VMFE.dll  

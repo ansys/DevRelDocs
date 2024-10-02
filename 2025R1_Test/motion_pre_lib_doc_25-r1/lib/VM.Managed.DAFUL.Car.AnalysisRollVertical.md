@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_Car_AnalysisRollVertical"></a> Class AnalysisRollVertical
+#  Class AnalysisRollVertical
 
 Namespace: [VM.Managed.DAFUL.Car](VM.Managed.DAFUL.Car.md)  
 Assembly: VMDCar.dll  

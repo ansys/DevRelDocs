@@ -1,4 +1,4 @@
-# <a id="VM_CAD_Builders_BuilderParamCone"></a> Class BuilderParamCone
+#  Class BuilderParamCone
 
 Namespace: [VM.CAD.Builders](VM.CAD.Builders.md)  
 Assembly: VM.CAD.Builders.dll  

@@ -1,4 +1,4 @@
-# <a id="VM_Managed_CAD_BuilderHasTransform"></a> Class BuilderHasTransform
+#  Class BuilderHasTransform
 
 Namespace: [VM.Managed.CAD](VM.Managed.CAD.md)  
 Assembly: VMAppCore.dll  

@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_Pre_SaveAllResult"></a> Enum SaveAllResult
+#  Enum SaveAllResult
 
 Namespace: [VM.Managed.DAFUL.Pre](VM.Managed.DAFUL.Pre.md)  
 Assembly: dfpredat.dll  

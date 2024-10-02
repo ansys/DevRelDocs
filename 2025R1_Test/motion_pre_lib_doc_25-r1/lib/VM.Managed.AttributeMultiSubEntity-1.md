@@ -1,4 +1,4 @@
-# <a id="VM_Managed_AttributeMultiSubEntity_1"></a> Class AttributeMultiSubEntity<TSubEntity\>
+#  Class AttributeMultiSubEntity<TSubEntity\>
 
 Namespace: [VM.Managed](VM.Managed.md)  
 Assembly: VMObjBase.dll  

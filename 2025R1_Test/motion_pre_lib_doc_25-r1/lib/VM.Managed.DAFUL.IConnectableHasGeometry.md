@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_IConnectableHasGeometry"></a> Interface IConnectableHasGeometry
+#  Interface IConnectableHasGeometry
 
 Namespace: [VM.Managed.DAFUL](VM.Managed.DAFUL.md)  
 Assembly: VMDFBase.dll  

@@ -1,4 +1,4 @@
-# <a id="VM_Managed_Symmetric_DesignPoint"></a> Class DesignPoint
+#  Class DesignPoint
 
 Namespace: [VM.Managed.Symmetric](VM.Managed.Symmetric.md)  
 Assembly: VMSymBase.dll  

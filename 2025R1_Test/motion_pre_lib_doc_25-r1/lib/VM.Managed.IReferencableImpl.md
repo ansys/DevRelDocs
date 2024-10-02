@@ -1,4 +1,4 @@
-# <a id="VM_Managed_IReferencableImpl"></a> Class IReferencableImpl
+#  Class IReferencableImpl
 
 Namespace: [VM.Managed](VM.Managed.md)  
 Assembly: VMAppCore.dll  

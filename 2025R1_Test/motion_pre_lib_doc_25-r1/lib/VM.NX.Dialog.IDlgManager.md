@@ -1,4 +1,4 @@
-# <a id="VM_NX_Dialog_IDlgManager"></a> Interface IDlgManager
+#  Interface IDlgManager
 
 Namespace: [VM.NX.Dialog](VM.NX.Dialog.md)  
 Assembly: VMDIDef.dll  

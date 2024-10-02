@@ -1,4 +1,4 @@
-# <a id="VM_Managed_CAD"></a> Namespace VM.Managed.CAD
+#  Namespace VM.Managed.CAD
 
 ### Namespaces
 

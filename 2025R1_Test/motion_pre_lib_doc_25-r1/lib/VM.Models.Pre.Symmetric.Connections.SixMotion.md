@@ -1,4 +1,4 @@
-# <a id="VM_Models_Pre_Symmetric_Connections_SixMotion"></a> Class SixMotion
+#  Class SixMotion
 
 Namespace: [VM.Models.Pre.Symmetric.Connections](VM.Models.Pre.Symmetric.Connections.md)  
 Assembly: VM.Models.Pre.Symmetric.Connections.dll  

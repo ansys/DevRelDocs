@@ -1,4 +1,4 @@
-# <a id="VM_Managed_Symmetric_CAD_SolidBodyPair"></a> Class SolidBodyPair
+#  Class SolidBodyPair
 
 Namespace: [VM.Managed.Symmetric.CAD](VM.Managed.Symmetric.CAD.md)  
 Assembly: VMSymBase.dll  

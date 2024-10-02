@@ -1,4 +1,4 @@
-# <a id="VM_Models_Pre_ExpressionValue_1"></a> Struct ExpressionValue<T\>
+#  Struct ExpressionValue<T\>
 
 Namespace: [VM.Models.Pre](VM.Models.Pre.md)  
 Assembly: VM.Models.Pre.dll  

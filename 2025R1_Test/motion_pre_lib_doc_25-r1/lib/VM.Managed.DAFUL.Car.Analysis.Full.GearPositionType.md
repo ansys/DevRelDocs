@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_Car_Analysis_Full_GearPositionType"></a> Enum GearPositionType
+#  Enum GearPositionType
 
 Namespace: [VM.Managed.DAFUL.Car.Analysis.Full](VM.Managed.DAFUL.Car.Analysis.Full.md)  
 Assembly: VMDCar.dll  

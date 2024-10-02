@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_FE_PointMass"></a> Class PointMass
+#  Class PointMass
 
 Namespace: [VM.Managed.DAFUL.FE](VM.Managed.DAFUL.FE.md)  
 Assembly: VMFE.dll  

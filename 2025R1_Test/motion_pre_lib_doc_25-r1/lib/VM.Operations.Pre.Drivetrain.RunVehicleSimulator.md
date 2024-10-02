@@ -1,4 +1,4 @@
-# <a id="VM_Operations_Pre_Drivetrain_RunVehicleSimulator"></a> Class RunVehicleSimulator
+#  Class RunVehicleSimulator
 
 Namespace: [VM.Operations.Pre.Drivetrain](VM.Operations.Pre.Drivetrain.md)  
 Assembly: VMOpGearTrain.dll  

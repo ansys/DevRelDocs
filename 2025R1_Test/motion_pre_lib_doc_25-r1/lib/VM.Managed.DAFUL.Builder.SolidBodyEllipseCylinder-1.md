@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_Builder_SolidBodyEllipseCylinder_1"></a> Class SolidBodyEllipseCylinder<T\>
+#  Class SolidBodyEllipseCylinder<T\>
 
 Namespace: [VM.Managed.DAFUL.Builder](VM.Managed.DAFUL.Builder.md)  
 Assembly: VMBld.dll  

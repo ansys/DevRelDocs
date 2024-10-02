@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_Car_Operation_SuspensionTemplateConfigModify"></a> Class SuspensionTemplateConfigModify
+#  Class SuspensionTemplateConfigModify
 
 Namespace: [VM.Managed.DAFUL.Car.Operation](VM.Managed.DAFUL.Car.Operation.md)  
 Assembly: VMOpCar.dll  

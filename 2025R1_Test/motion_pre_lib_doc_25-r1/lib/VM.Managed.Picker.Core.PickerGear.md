@@ -1,4 +1,4 @@
-# <a id="VM_Managed_Picker_Core_PickerGear"></a> Class PickerGear
+#  Class PickerGear
 
 Namespace: [VM.Managed.Picker.Core](VM.Managed.Picker.Core.md)  
 Assembly: VMAppCore.dll  

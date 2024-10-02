@@ -1,4 +1,4 @@
-# <a id="VM_Managed_ITransform"></a> Interface ITransform
+#  Interface ITransform
 
 Namespace: [VM.Managed](VM.Managed.md)  
 Assembly: VMAppCore.dll  

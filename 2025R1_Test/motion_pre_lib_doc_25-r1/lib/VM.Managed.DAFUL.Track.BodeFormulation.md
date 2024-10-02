@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_Track_BodeFormulation"></a> Class BodeFormulation
+#  Class BodeFormulation
 
 Namespace: [VM.Managed.DAFUL.Track](VM.Managed.DAFUL.Track.md)  
 Assembly: VMDTrackBase.dll  

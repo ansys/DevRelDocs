@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_MeshFree_Operation_PartExportDFS"></a> Class PartExportDFS
+#  Class PartExportDFS
 
 Namespace: [VM.Managed.DAFUL.MeshFree.Operation](VM.Managed.DAFUL.MeshFree.Operation.md)  
 Assembly: VMOpMeshFree.dll  

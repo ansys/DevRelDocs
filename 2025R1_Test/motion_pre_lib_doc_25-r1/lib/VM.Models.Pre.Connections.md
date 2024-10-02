@@ -1,4 +1,4 @@
-# <a id="VM_Models_Pre_Connections"></a> Namespace VM.Models.Pre.Connections
+#  Namespace VM.Models.Pre.Connections
 
 ### Classes
 

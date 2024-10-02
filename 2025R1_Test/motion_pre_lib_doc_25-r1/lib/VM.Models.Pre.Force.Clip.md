@@ -1,4 +1,4 @@
-# <a id="VM_Models_Pre_Force_Clip"></a> Class Clip
+#  Class Clip
 
 Namespace: [VM.Models.Pre.Force](VM.Models.Pre.Force.md)  
 Assembly: VM.Models.Pre.Force.dll  

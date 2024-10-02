@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_GearTrain_SectionGeometryBase"></a> Class SectionGeometryBase
+#  Class SectionGeometryBase
 
 Namespace: [VM.Managed.DAFUL.GearTrain](VM.Managed.DAFUL.GearTrain.md)  
 Assembly: VMDGearTrain.dll  

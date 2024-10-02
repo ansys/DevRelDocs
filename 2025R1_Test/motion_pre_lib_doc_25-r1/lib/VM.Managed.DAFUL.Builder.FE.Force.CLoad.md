@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_Builder_FE_Force_CLoad"></a> Class CLoad
+#  Class CLoad
 
 Namespace: [VM.Managed.DAFUL.Builder.FE.Force](VM.Managed.DAFUL.Builder.FE.Force.md)  
 Assembly: VMBldFE.dll  

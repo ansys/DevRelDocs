@@ -1,4 +1,4 @@
-# <a id="VM_Managed_PropertyDocCreateInfo"></a> Class PropertyDocCreateInfo
+#  Class PropertyDocCreateInfo
 
 Namespace: [VM.Managed](VM.Managed.md)  
 Assembly: VMObjBase.dll  

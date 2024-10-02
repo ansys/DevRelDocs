@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_GearTrain_Operation_AddBearingToRBEInFE"></a> Class AddBearingToRBEInFE
+#  Class AddBearingToRBEInFE
 
 Namespace: [VM.Managed.DAFUL.GearTrain.Operation](VM.Managed.DAFUL.GearTrain.Operation.md)  
 Assembly: VMOpGearTrain.dll  

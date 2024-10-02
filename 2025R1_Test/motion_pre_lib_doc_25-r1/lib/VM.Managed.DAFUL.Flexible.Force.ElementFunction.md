@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_Flexible_Force_ElementFunction"></a> Class ElementFunction
+#  Class ElementFunction
 
 Namespace: [VM.Managed.DAFUL.Flexible.Force](VM.Managed.DAFUL.Flexible.Force.md)  
 Assembly: VMFlexibleBase.dll  

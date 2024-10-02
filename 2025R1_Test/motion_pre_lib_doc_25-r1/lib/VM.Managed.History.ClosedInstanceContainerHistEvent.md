@@ -1,4 +1,4 @@
-# <a id="VM_Managed_History_ClosedInstanceContainerHistEvent"></a> Class ClosedInstanceContainerHistEvent
+#  Class ClosedInstanceContainerHistEvent
 
 Namespace: [VM.Managed.History](VM.Managed.History.md)  
 Assembly: VMAppCore.dll  

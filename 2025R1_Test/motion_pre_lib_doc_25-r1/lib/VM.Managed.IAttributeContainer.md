@@ -1,4 +1,4 @@
-# <a id="VM_Managed_IAttributeContainer"></a> Interface IAttributeContainer
+#  Interface IAttributeContainer
 
 Namespace: [VM.Managed](VM.Managed.md)  
 Assembly: VMAppCore.dll  

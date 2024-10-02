@@ -1,4 +1,4 @@
-# <a id="VM_Managed_Symmetric_CAD_SolidBodyMultiUnite"></a> Class SolidBodyMultiUnite
+#  Class SolidBodyMultiUnite
 
 Namespace: [VM.Managed.Symmetric.CAD](VM.Managed.Symmetric.CAD.md)  
 Assembly: VMSymBase.dll  

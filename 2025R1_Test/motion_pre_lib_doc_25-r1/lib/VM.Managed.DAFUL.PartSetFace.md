@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_PartSetFace"></a> Class PartSetFace
+#  Class PartSetFace
 
 Namespace: [VM.Managed.DAFUL](VM.Managed.DAFUL.md)  
 Assembly: VMDFBase.dll  

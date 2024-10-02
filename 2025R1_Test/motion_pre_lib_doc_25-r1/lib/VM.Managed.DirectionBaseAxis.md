@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DirectionBaseAxis"></a> Class DirectionBaseAxis
+#  Class DirectionBaseAxis
 
 Namespace: [VM.Managed](VM.Managed.md)  
 Assembly: VMAppCore.dll  

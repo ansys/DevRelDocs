@@ -1,4 +1,4 @@
-# <a id="VM_Managed_History_RegisterSetEventBase"></a> Class RegisterSetEventBase
+#  Class RegisterSetEventBase
 
 Namespace: [VM.Managed.History](VM.Managed.History.md)  
 Assembly: VMAppCore.dll  

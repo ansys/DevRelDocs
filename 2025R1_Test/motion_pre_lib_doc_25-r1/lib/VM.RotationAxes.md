@@ -1,4 +1,4 @@
-# <a id="VM_RotationAxes"></a> Enum RotationAxes
+#  Enum RotationAxes
 
 Namespace: [VM](VM.md)  
 Assembly: VM.dll  

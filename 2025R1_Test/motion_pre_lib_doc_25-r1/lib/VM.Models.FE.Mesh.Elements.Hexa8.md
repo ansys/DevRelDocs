@@ -1,4 +1,4 @@
-# <a id="VM_Models_FE_Mesh_Elements_Hexa8"></a> Class Hexa8
+#  Class Hexa8
 
 Namespace: [VM.Models.FE.Mesh.Elements](VM.Models.FE.Mesh.Elements.md)  
 Assembly: VM.Models.FE.Mesh.dll  

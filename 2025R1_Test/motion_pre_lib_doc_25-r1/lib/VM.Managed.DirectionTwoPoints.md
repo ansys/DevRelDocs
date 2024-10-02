@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DirectionTwoPoints"></a> Class DirectionTwoPoints
+#  Class DirectionTwoPoints
 
 Namespace: [VM.Managed](VM.Managed.md)  
 Assembly: VMAppCore.dll  

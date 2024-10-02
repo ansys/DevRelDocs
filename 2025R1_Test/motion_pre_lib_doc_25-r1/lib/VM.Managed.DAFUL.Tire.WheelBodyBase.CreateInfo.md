@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_Tire_WheelBodyBase_CreateInfo"></a> Class WheelBodyBase.CreateInfo
+#  Class WheelBodyBase.CreateInfo
 
 Namespace: [VM.Managed.DAFUL.Tire](VM.Managed.DAFUL.Tire.md)  
 Assembly: VMDTire.dll  

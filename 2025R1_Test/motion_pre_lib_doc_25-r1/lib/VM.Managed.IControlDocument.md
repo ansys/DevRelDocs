@@ -1,4 +1,4 @@
-# <a id="VM_Managed_IControlDocument"></a> Interface IControlDocument
+#  Interface IControlDocument
 
 Namespace: [VM.Managed](VM.Managed.md)  
 Assembly: VMAppCore.dll  

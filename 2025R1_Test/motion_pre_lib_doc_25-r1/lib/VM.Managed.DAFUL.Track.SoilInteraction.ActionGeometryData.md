@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_Track_SoilInteraction_ActionGeometryData"></a> Class SoilInteraction.ActionGeometryData
+#  Class SoilInteraction.ActionGeometryData
 
 Namespace: [VM.Managed.DAFUL.Track](VM.Managed.DAFUL.Track.md)  
 Assembly: VMDTrackBase.dll  

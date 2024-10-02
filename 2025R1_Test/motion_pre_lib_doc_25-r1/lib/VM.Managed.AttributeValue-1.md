@@ -1,4 +1,4 @@
-# <a id="VM_Managed_AttributeValue_1"></a> Class AttributeValue<TValue\>
+#  Class AttributeValue<TValue\>
 
 Namespace: [VM.Managed](VM.Managed.md)  
 Assembly: VMAppCore.dll  

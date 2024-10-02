@@ -1,4 +1,4 @@
-# <a id="VM_IHasFilterPropertyName"></a> Interface IHasFilterPropertyName
+#  Interface IHasFilterPropertyName
 
 Namespace: [VM](VM.md)  
 Assembly: VM.dll  

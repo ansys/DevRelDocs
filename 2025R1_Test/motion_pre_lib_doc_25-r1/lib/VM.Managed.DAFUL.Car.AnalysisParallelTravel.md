@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_Car_AnalysisParallelTravel"></a> Class AnalysisParallelTravel
+#  Class AnalysisParallelTravel
 
 Namespace: [VM.Managed.DAFUL.Car](VM.Managed.DAFUL.Car.md)  
 Assembly: VMDCar.dll  

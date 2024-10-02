@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_Car_Operation_ExportXMLForFourPost"></a> Class ExportXMLForFourPost
+#  Class ExportXMLForFourPost
 
 Namespace: [VM.Managed.DAFUL.Car.Operation](VM.Managed.DAFUL.Car.Operation.md)  
 Assembly: VMOpFullCar.dll  

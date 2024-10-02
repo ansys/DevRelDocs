@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_Constraints_FrictionUniversal"></a> Class FrictionUniversal
+#  Class FrictionUniversal
 
 Namespace: [VM.Managed.DAFUL.Constraints](VM.Managed.DAFUL.Constraints.md)  
 Assembly: VMDCP.dll  

@@ -1,4 +1,4 @@
-# <a id="VM_EventArgs_1"></a> Class EventArgs<T\>
+#  Class EventArgs<T\>
 
 Namespace: [VM](VM.md)  
 Assembly: VM.dll  

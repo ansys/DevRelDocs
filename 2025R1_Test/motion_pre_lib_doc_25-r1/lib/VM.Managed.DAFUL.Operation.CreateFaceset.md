@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_Operation_CreateFaceset"></a> Class CreateFaceset
+#  Class CreateFaceset
 
 Namespace: [VM.Managed.DAFUL.Operation](VM.Managed.DAFUL.Operation.md)  
 Assembly: VMOpCore.dll  

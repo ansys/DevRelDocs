@@ -1,4 +1,4 @@
-# <a id="VM_Managed_Symmetric_ExpressionValue_1"></a> Class ExpressionValue<T\>
+#  Class ExpressionValue<T\>
 
 Namespace: [VM.Managed.Symmetric](VM.Managed.Symmetric.md)  
 Assembly: VMSymBase.dll  

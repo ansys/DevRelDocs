@@ -1,4 +1,4 @@
-# <a id="VM_Managed_PlaneBase"></a> Class PlaneBase
+#  Class PlaneBase
 
 Namespace: [VM.Managed](VM.Managed.md)  
 Assembly: VMAppCore.dll  

@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_Builder_MeshFree_Contact_Tie"></a> Class Tie
+#  Class Tie
 
 Namespace: [VM.Managed.DAFUL.Builder.MeshFree.Contact](VM.Managed.DAFUL.Builder.MeshFree.Contact.md)  
 Assembly: VMBldMeshFree.dll  

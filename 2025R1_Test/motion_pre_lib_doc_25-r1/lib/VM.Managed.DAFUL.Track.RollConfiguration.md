@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_Track_RollConfiguration"></a> Class RollConfiguration
+#  Class RollConfiguration
 
 Namespace: [VM.Managed.DAFUL.Track](VM.Managed.DAFUL.Track.md)  
 Assembly: VMDTrackBase.dll  

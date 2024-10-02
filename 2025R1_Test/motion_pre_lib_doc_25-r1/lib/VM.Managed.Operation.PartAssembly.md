@@ -1,4 +1,4 @@
-# <a id="VM_Managed_Operation_PartAssembly"></a> Class PartAssembly
+#  Class PartAssembly
 
 Namespace: [VM.Managed.Operation](VM.Managed.Operation.md)  
 Assembly: VMOP.dll  

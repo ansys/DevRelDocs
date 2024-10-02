@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_Force_TScalar"></a> Class TScalar
+#  Class TScalar
 
 Namespace: [VM.Managed.DAFUL.Force](VM.Managed.DAFUL.Force.md)  
 Assembly: VMDFP.dll  

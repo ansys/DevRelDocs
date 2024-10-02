@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_Function"></a> Class Function
+#  Class Function
 
 Namespace: [VM.Managed.DAFUL](VM.Managed.DAFUL.md)  
 Assembly: VMDSB.dll  

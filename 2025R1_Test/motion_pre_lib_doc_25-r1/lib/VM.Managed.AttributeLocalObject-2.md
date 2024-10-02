@@ -1,4 +1,4 @@
-# <a id="VM_Managed_AttributeLocalObject_2"></a> Class AttributeLocalObject<TObject, TUpdate\>
+#  Class AttributeLocalObject<TObject, TUpdate\>
 
 Namespace: [VM.Managed](VM.Managed.md)  
 Assembly: VMAppCore.dll  

@@ -1,4 +1,4 @@
-# <a id="VM_Managed_Operation_JournalParameter"></a> Class JournalParameter
+#  Class JournalParameter
 
 Namespace: [VM.Managed.Operation](VM.Managed.Operation.md)  
 Assembly: VMAppCore.dll  

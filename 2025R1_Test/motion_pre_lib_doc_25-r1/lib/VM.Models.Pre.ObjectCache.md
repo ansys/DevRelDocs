@@ -1,4 +1,4 @@
-# <a id="VM_Models_Pre_ObjectCache"></a> Class ObjectCache
+#  Class ObjectCache
 
 Namespace: [VM.Models.Pre](VM.Models.Pre.md)  
 Assembly: VM.Models.Pre.dll  

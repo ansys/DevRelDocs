@@ -1,4 +1,4 @@
-# <a id="VM_Models_Road_RoadType"></a> Enum RoadType
+#  Enum RoadType
 
 Namespace: [VM.Models.Road](VM.Models.Road.md)  
 Assembly: VM.Models.Road.dll  

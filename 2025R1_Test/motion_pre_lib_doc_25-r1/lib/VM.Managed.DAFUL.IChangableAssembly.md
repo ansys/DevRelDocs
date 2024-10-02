@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_IChangableAssembly"></a> Interface IChangableAssembly
+#  Interface IChangableAssembly
 
 Namespace: [VM.Managed.DAFUL](VM.Managed.DAFUL.md)  
 Assembly: VMDFBase.dll  

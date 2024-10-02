@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_Builder_Linear"></a> Namespace VM.Managed.DAFUL.Builder.Linear
+#  Namespace VM.Managed.DAFUL.Builder.Linear
 
 ### Classes
 

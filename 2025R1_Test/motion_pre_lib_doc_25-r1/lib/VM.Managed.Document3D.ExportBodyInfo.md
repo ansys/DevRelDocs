@@ -1,4 +1,4 @@
-# <a id="VM_Managed_Document3D_ExportBodyInfo"></a> Class Document3D.ExportBodyInfo
+#  Class Document3D.ExportBodyInfo
 
 Namespace: [VM.Managed](VM.Managed.md)  
 Assembly: VMAppCore.dll  

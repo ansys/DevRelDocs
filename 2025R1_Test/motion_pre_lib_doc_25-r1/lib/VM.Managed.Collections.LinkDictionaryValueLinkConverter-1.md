@@ -1,4 +1,4 @@
-# <a id="VM_Managed_Collections_LinkDictionaryValueLinkConverter_1"></a> Struct LinkDictionaryValueLinkConverter<TValue\>
+#  Struct LinkDictionaryValueLinkConverter<TValue\>
 
 Namespace: [VM.Managed.Collections](VM.Managed.Collections.md)  
 Assembly: VMAppCore.dll  

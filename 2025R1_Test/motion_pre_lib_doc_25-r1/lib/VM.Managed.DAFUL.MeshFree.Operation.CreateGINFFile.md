@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_MeshFree_Operation_CreateGINFFile"></a> Class CreateGINFFile
+#  Class CreateGINFFile
 
 Namespace: [VM.Managed.DAFUL.MeshFree.Operation](VM.Managed.DAFUL.MeshFree.Operation.md)  
 Assembly: VMOpMeshFree.dll  

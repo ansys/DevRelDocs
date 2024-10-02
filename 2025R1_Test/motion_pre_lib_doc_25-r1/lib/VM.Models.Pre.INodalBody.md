@@ -1,4 +1,4 @@
-# <a id="VM_Models_Pre_INodalBody"></a> Interface INodalBody
+#  Interface INodalBody
 
 Namespace: [VM.Models.Pre](VM.Models.Pre.md)  
 Assembly: VM.Models.Pre.dll  

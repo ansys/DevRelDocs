@@ -1,4 +1,4 @@
-# <a id="VM_Vector"></a> Struct Vector
+#  Struct Vector
 
 Namespace: [VM](VM.md)  
 Assembly: VM.dll  

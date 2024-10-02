@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_GearTrain_AttributeMotorAssembly_MountInfo"></a> Class AttributeMotorAssembly.MountInfo
+#  Class AttributeMotorAssembly.MountInfo
 
 Namespace: [VM.Managed.DAFUL.GearTrain](VM.Managed.DAFUL.GearTrain.md)  
 Assembly: VMDGearTrain.dll  

@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_Builder_Linear_ActuatorRotatingMass"></a> Class ActuatorRotatingMass
+#  Class ActuatorRotatingMass
 
 Namespace: [VM.Managed.DAFUL.Builder.Linear](VM.Managed.DAFUL.Builder.Linear.md)  
 Assembly: VMBldLinear.dll  

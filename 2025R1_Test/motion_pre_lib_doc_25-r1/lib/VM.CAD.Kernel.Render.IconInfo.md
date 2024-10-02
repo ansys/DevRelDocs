@@ -1,4 +1,4 @@
-# <a id="VM_CAD_Kernel_Render_IconInfo"></a> Class IconInfo
+#  Class IconInfo
 
 Namespace: [VM.CAD.Kernel.Render](VM.CAD.Kernel.Render.md)  
 Assembly: VM.CAD.Kernel.dll  

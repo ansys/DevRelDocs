@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_BodyAnalysisSetting"></a> Class BodyAnalysisSetting
+#  Class BodyAnalysisSetting
 
 Namespace: [VM.Managed.DAFUL](VM.Managed.DAFUL.md)  
 Assembly: VMDFBase.dll  

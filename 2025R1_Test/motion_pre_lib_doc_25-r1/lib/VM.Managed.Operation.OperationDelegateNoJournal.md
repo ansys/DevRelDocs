@@ -1,4 +1,4 @@
-# <a id="VM_Managed_Operation_OperationDelegateNoJournal"></a> Class OperationDelegateNoJournal
+#  Class OperationDelegateNoJournal
 
 Namespace: [VM.Managed.Operation](VM.Managed.Operation.md)  
 Assembly: VMAppCore.dll  

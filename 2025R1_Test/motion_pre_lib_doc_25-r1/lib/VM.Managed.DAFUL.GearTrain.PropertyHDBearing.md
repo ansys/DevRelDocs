@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_GearTrain_PropertyHDBearing"></a> Class PropertyHDBearing
+#  Class PropertyHDBearing
 
 Namespace: [VM.Managed.DAFUL.GearTrain](VM.Managed.DAFUL.GearTrain.md)  
 Assembly: VMDGearTrain.dll  

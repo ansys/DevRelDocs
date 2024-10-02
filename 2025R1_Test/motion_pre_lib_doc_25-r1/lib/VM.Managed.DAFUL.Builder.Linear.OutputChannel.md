@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_Builder_Linear_OutputChannel"></a> Class OutputChannel
+#  Class OutputChannel
 
 Namespace: [VM.Managed.DAFUL.Builder.Linear](VM.Managed.DAFUL.Builder.Linear.md)  
 Assembly: VMBldLinear.dll  

@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_Builder_GearTrain_AddDesignerToShaftBase"></a> Class AddDesignerToShaftBase
+#  Class AddDesignerToShaftBase
 
 Namespace: [VM.Managed.DAFUL.Builder.GearTrain](VM.Managed.DAFUL.Builder.GearTrain.md)  
 Assembly: VMBldGearTrain.dll  

@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_Car_CorneringWithSteerReleaseConfiguration"></a> Class CorneringWithSteerReleaseConfiguration
+#  Class CorneringWithSteerReleaseConfiguration
 
 Namespace: [VM.Managed.DAFUL.Car](VM.Managed.DAFUL.Car.md)  
 Assembly: VMDCar.dll  

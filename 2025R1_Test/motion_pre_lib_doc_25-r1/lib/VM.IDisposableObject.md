@@ -1,4 +1,4 @@
-# <a id="VM_IDisposableObject"></a> Interface IDisposableObject
+#  Interface IDisposableObject
 
 Namespace: [VM](VM.md)  
 Assembly: VM.dll  

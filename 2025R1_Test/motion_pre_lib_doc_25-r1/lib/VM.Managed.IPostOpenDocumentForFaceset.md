@@ -1,4 +1,4 @@
-# <a id="VM_Managed_IPostOpenDocumentForFaceset"></a> Interface IPostOpenDocumentForFaceset
+#  Interface IPostOpenDocumentForFaceset
 
 Namespace: [VM.Managed](VM.Managed.md)  
 Assembly: VMAppCore.dll  

@@ -1,4 +1,4 @@
-# <a id="VM_Models_Pre_IDocumentExtensions"></a> Class IDocumentExtensions
+#  Class IDocumentExtensions
 
 Namespace: [VM.Models.Pre](VM.Models.Pre.md)  
 Assembly: VM.Models.Pre.dll  

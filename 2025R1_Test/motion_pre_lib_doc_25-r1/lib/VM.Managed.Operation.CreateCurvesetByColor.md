@@ -1,4 +1,4 @@
-# <a id="VM_Managed_Operation_CreateCurvesetByColor"></a> Class CreateCurvesetByColor
+#  Class CreateCurvesetByColor
 
 Namespace: [VM.Managed.Operation](VM.Managed.Operation.md)  
 Assembly: VMOP.dll  

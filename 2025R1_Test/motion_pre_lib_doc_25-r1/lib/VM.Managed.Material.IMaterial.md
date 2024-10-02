@@ -1,4 +1,4 @@
-# <a id="VM_Managed_Material_IMaterial"></a> Interface IMaterial
+#  Interface IMaterial
 
 Namespace: [VM.Managed.Material](VM.Managed.Material.md)  
 Assembly: VMAppCore.dll  

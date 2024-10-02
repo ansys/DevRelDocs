@@ -1,4 +1,4 @@
-# <a id="VM_Managed_CAD_Roller_BuilderRollerGeneralSimple_RollerWidthDiameter"></a> Struct BuilderRollerGeneralSimple.RollerWidthDiameter
+#  Struct BuilderRollerGeneralSimple.RollerWidthDiameter
 
 Namespace: [VM.Managed.CAD.Roller](VM.Managed.CAD.Roller.md)  
 Assembly: VMDRoller.dll  

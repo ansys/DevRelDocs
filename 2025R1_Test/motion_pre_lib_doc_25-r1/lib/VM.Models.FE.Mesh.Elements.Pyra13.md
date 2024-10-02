@@ -1,4 +1,4 @@
-# <a id="VM_Models_FE_Mesh_Elements_Pyra13"></a> Class Pyra13
+#  Class Pyra13
 
 Namespace: [VM.Models.FE.Mesh.Elements](VM.Models.FE.Mesh.Elements.md)  
 Assembly: VM.Models.FE.Mesh.dll  

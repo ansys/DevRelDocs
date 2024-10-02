@@ -1,4 +1,4 @@
-# <a id="VM_Managed_OnApplyOperation"></a> Class OnApplyOperation
+#  Class OnApplyOperation
 
 Namespace: [VM.Managed](VM.Managed.md)  
 Assembly: VMObjBase.dll  

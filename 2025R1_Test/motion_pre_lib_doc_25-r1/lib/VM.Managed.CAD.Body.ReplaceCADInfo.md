@@ -1,4 +1,4 @@
-# <a id="VM_Managed_CAD_Body_ReplaceCADInfo"></a> Class Body.ReplaceCADInfo
+#  Class Body.ReplaceCADInfo
 
 Namespace: [VM.Managed.CAD](VM.Managed.CAD.md)  
 Assembly: VMAppCore.dll  

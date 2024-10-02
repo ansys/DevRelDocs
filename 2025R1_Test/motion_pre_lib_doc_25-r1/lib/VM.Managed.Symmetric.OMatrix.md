@@ -1,4 +1,4 @@
-# <a id="VM_Managed_Symmetric_OMatrix"></a> Class OMatrix
+#  Class OMatrix
 
 Namespace: [VM.Managed.Symmetric](VM.Managed.Symmetric.md)  
 Assembly: VMSymBase.dll  

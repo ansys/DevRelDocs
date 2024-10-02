@@ -1,4 +1,4 @@
-# <a id="VM_Managed_Operation_OperationDelegate"></a> Class OperationDelegate
+#  Class OperationDelegate
 
 Namespace: [VM.Managed.Operation](VM.Managed.Operation.md)  
 Assembly: VMAppCore.dll  

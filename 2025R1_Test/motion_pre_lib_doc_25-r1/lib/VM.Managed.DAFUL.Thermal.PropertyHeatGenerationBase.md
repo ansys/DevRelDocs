@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_Thermal_PropertyHeatGenerationBase"></a> Class PropertyHeatGenerationBase
+#  Class PropertyHeatGenerationBase
 
 Namespace: [VM.Managed.DAFUL.Thermal](VM.Managed.DAFUL.Thermal.md)  
 Assembly: VMThermalBase.dll  

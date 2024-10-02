@@ -1,4 +1,4 @@
-# <a id="VM_Managed_Simulation_Configuration_LinearSolver"></a> Enum Configuration.LinearSolver
+#  Enum Configuration.LinearSolver
 
 Namespace: [VM.Managed.Simulation](VM.Managed.Simulation.md)  
 Assembly: VMDFBase.dll  

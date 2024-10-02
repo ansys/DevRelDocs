@@ -1,4 +1,4 @@
-# <a id="VM_Models_Pre_Force_LoadType"></a> Enum LoadType
+#  Enum LoadType
 
 Namespace: [VM.Models.Pre.Force](VM.Models.Pre.Force.md)  
 Assembly: VM.Models.Pre.Force.dll  

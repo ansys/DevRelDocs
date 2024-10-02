@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_FE_Operation_ChangeNodalModalOperation"></a> Class ChangeNodalModalOperation
+#  Class ChangeNodalModalOperation
 
 Namespace: [VM.Managed.DAFUL.FE.Operation](VM.Managed.DAFUL.FE.Operation.md)  
 Assembly: VMOpMesh.dll  

@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_GearTrain_AttributeUnit"></a> Class AttributeUnit
+#  Class AttributeUnit
 
 Namespace: [VM.Managed.DAFUL.GearTrain](VM.Managed.DAFUL.GearTrain.md)  
 Assembly: VMDGearTrain.dll  

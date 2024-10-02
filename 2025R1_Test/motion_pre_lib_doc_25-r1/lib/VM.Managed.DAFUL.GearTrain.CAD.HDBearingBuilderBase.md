@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_GearTrain_CAD_HDBearingBuilderBase"></a> Class HDBearingBuilderBase
+#  Class HDBearingBuilderBase
 
 Namespace: [VM.Managed.DAFUL.GearTrain.CAD](VM.Managed.DAFUL.GearTrain.CAD.md)  
 Assembly: VMDGearTrain.dll  

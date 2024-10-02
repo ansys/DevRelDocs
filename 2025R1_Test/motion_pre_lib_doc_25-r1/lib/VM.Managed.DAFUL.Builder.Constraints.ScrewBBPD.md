@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_Builder_Constraints_ScrewBBPD"></a> Class ScrewBBPD
+#  Class ScrewBBPD
 
 Namespace: [VM.Managed.DAFUL.Builder.Constraints](VM.Managed.DAFUL.Builder.Constraints.md)  
 Assembly: VMBldCP.dll  

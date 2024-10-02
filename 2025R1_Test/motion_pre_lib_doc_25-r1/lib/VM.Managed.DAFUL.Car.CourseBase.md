@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_Car_CourseBase"></a> Class CourseBase
+#  Class CourseBase
 
 Namespace: [VM.Managed.DAFUL.Car](VM.Managed.DAFUL.Car.md)  
 Assembly: VMDCar.dll  

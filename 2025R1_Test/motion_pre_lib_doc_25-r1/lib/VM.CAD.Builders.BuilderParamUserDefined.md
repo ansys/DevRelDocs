@@ -1,4 +1,4 @@
-# <a id="VM_CAD_Builders_BuilderParamUserDefined"></a> Class BuilderParamUserDefined
+#  Class BuilderParamUserDefined
 
 Namespace: [VM.CAD.Builders](VM.CAD.Builders.md)  
 Assembly: VM.CAD.Builders.dll  

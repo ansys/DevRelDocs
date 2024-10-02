@@ -1,4 +1,4 @@
-# <a id="VM_Models_Pre_Durability_AttributeDocumentDurability_GearSummary_GearResult"></a> Struct AttributeDocumentDurability.GearSummary.GearResult
+#  Struct AttributeDocumentDurability.GearSummary.GearResult
 
 Namespace: [VM.Models.Pre.Durability](VM.Models.Pre.Durability.md)  
 Assembly: VM.Models.Pre.Durability.dll  

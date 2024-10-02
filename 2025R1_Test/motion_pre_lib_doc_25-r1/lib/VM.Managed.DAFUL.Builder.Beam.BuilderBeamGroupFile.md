@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_Builder_Beam_BuilderBeamGroupFile"></a> Class BuilderBeamGroupFile
+#  Class BuilderBeamGroupFile
 
 Namespace: [VM.Managed.DAFUL.Builder.Beam](VM.Managed.DAFUL.Builder.Beam.md)  
 Assembly: VMBldBeamGroup.dll  

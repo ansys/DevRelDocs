@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_PartSetCurveForImport"></a> Class PartSetCurveForImport
+#  Class PartSetCurveForImport
 
 Namespace: [VM.Managed.DAFUL](VM.Managed.DAFUL.md)  
 Assembly: VMDFBase.dll  

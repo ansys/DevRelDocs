@@ -1,4 +1,4 @@
-# <a id="VM_Managed_History_IUpdateDocAddOn"></a> Interface IUpdateDocAddOn
+#  Interface IUpdateDocAddOn
 
 Namespace: [VM.Managed.History](VM.Managed.History.md)  
 Assembly: VMAppCore.dll  

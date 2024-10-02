@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_Car_AnalysisStaticLoad_StaticRoadBaseInfo"></a> Class AnalysisStaticLoad.StaticRoadBaseInfo
+#  Class AnalysisStaticLoad.StaticRoadBaseInfo
 
 Namespace: [VM.Managed.DAFUL.Car](VM.Managed.DAFUL.Car.md)  
 Assembly: VMDCar.dll  

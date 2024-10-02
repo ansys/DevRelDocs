@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_Thermal_PropertyHeatGeneration"></a> Class PropertyHeatGeneration
+#  Class PropertyHeatGeneration
 
 Namespace: [VM.Managed.DAFUL.Thermal](VM.Managed.DAFUL.Thermal.md)  
 Assembly: VMDThermal.dll  

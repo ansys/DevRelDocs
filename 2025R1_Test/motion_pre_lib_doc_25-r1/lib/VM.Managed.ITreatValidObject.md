@@ -1,4 +1,4 @@
-# <a id="VM_Managed_ITreatValidObject"></a> Interface ITreatValidObject
+#  Interface ITreatValidObject
 
 Namespace: [VM.Managed](VM.Managed.md)  
 Assembly: VMAppCore.dll  

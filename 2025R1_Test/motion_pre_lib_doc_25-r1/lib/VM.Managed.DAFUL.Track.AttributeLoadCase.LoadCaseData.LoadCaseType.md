@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_Track_AttributeLoadCase_LoadCaseData_LoadCaseType"></a> Enum AttributeLoadCase.LoadCaseData.LoadCaseType
+#  Enum AttributeLoadCase.LoadCaseData.LoadCaseType
 
 Namespace: [VM.Managed.DAFUL.Track](VM.Managed.DAFUL.Track.md)  
 Assembly: VMDTrackBase.dll  

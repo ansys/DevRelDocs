@@ -1,4 +1,4 @@
-# <a id="VM_Models_Pre_Force_Shackle"></a> Class Shackle
+#  Class Shackle
 
 Namespace: [VM.Models.Pre.Force](VM.Models.Pre.Force.md)  
 Assembly: VM.Models.Pre.Force.dll  

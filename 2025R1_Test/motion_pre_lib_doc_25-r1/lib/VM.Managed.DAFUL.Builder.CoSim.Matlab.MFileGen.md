@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_Builder_CoSim_Matlab_MFileGen"></a> Class MFileGen
+#  Class MFileGen
 
 Namespace: [VM.Managed.DAFUL.Builder.CoSim.Matlab](VM.Managed.DAFUL.Builder.CoSim.Matlab.md)  
 Assembly: VMBldCoSimMatlab.dll  

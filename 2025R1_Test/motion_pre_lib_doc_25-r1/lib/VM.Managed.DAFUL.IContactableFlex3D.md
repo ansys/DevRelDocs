@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_IContactableFlex3D"></a> Interface IContactableFlex3D
+#  Interface IContactableFlex3D
 
 Namespace: [VM.Managed.DAFUL](VM.Managed.DAFUL.md)  
 Assembly: VMDFBase.dll  

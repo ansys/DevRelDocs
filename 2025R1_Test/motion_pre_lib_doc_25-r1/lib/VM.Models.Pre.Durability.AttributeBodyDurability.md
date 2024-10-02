@@ -1,4 +1,4 @@
-# <a id="VM_Models_Pre_Durability_AttributeBodyDurability"></a> Class AttributeBodyDurability
+#  Class AttributeBodyDurability
 
 Namespace: [VM.Models.Pre.Durability](VM.Models.Pre.Durability.md)  
 Assembly: VM.Models.Pre.Durability.dll  

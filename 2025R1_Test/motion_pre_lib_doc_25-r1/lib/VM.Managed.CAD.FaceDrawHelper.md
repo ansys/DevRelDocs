@@ -1,4 +1,4 @@
-# <a id="VM_Managed_CAD_FaceDrawHelper"></a> Class FaceDrawHelper
+#  Class FaceDrawHelper
 
 Namespace: [VM.Managed.CAD](VM.Managed.CAD.md)  
 Assembly: VMAppCore.dll  

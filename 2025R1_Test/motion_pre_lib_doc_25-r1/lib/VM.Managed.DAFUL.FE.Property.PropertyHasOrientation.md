@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_FE_Property_PropertyHasOrientation"></a> Class PropertyHasOrientation
+#  Class PropertyHasOrientation
 
 Namespace: [VM.Managed.DAFUL.FE.Property](VM.Managed.DAFUL.FE.Property.md)  
 Assembly: VMFE.dll  

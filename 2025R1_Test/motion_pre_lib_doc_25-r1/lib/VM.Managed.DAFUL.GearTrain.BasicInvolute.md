@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_GearTrain_BasicInvolute"></a> Class BasicInvolute
+#  Class BasicInvolute
 
 Namespace: [VM.Managed.DAFUL.GearTrain](VM.Managed.DAFUL.GearTrain.md)  
 Assembly: VMDGearTrain.dll  

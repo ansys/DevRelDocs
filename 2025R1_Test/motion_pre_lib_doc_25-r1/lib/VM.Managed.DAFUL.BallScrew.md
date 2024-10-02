@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_BallScrew"></a> Class BallScrew
+#  Class BallScrew
 
 Namespace: [VM.Managed.DAFUL](VM.Managed.DAFUL.md)  
 Assembly: VMDBallPlacing.dll  

@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_Builder_FEFilm_FEFilm"></a> Class FEFilm
+#  Class FEFilm
 
 Namespace: [VM.Managed.DAFUL.Builder.FEFilm](VM.Managed.DAFUL.Builder.FEFilm.md)  
 Assembly: VMBldFEFilm.dll  

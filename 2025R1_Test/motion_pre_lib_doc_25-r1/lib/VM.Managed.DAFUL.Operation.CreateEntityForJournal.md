@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_Operation_CreateEntityForJournal"></a> Class CreateEntityForJournal
+#  Class CreateEntityForJournal
 
 Namespace: [VM.Managed.DAFUL.Operation](VM.Managed.DAFUL.Operation.md)  
 Assembly: VMOpCore.dll  

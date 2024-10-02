@@ -1,4 +1,4 @@
-# <a id="VM_Models_Pre_Drivetrain_VehicleSimulator_ItemsContainerModelBase_1"></a> Class ItemsContainerModelBase<TObject\>
+#  Class ItemsContainerModelBase<TObject\>
 
 Namespace: [VM.Models.Pre.Drivetrain.VehicleSimulator](VM.Models.Pre.Drivetrain.VehicleSimulator.md)  
 Assembly: VM.Models.Pre.Drivetrain.VehicleSimulator.dll  

@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_Builder_Solid_1"></a> Class Solid<T\>
+#  Class Solid<T\>
 
 Namespace: [VM.Managed.DAFUL.Builder](VM.Managed.DAFUL.Builder.md)  
 Assembly: VMBld.dll  

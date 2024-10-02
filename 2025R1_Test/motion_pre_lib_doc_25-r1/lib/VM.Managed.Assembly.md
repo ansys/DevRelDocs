@@ -1,4 +1,4 @@
-# <a id="VM_Managed_Assembly"></a> Class Assembly
+#  Class Assembly
 
 Namespace: [VM.Managed](VM.Managed.md)  
 Assembly: VMAppCore.dll  

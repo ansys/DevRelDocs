@@ -1,4 +1,4 @@
-# <a id="VM_Managed_Material_PlasticMultilinear"></a> Class PlasticMultilinear
+#  Class PlasticMultilinear
 
 Namespace: [VM.Managed.Material](VM.Managed.Material.md)  
 Assembly: VMObjBase.dll  

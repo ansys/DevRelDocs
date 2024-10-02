@@ -1,4 +1,4 @@
-# <a id="VM_Managed_Symmetric_Equation_EquationUserSubroutine"></a> Class EquationUserSubroutine
+#  Class EquationUserSubroutine
 
 Namespace: [VM.Managed.Symmetric.Equation](VM.Managed.Symmetric.Equation.md)  
 Assembly: VMSymEq.dll  

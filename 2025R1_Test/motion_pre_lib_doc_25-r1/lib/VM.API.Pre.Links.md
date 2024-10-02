@@ -1,4 +1,4 @@
-# <a id="VM_API_Pre_Links"></a> Namespace VM.API.Pre.Links
+#  Namespace VM.API.Pre.Links
 
 ### Classes
 

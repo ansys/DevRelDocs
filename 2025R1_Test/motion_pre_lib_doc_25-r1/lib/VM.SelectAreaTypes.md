@@ -1,4 +1,4 @@
-# <a id="VM_SelectAreaTypes"></a> Enum SelectAreaTypes
+#  Enum SelectAreaTypes
 
 Namespace: [VM](VM.md)  
 Assembly: VM.dll  

@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_Builder_Constraints"></a> Namespace VM.Managed.DAFUL.Builder.Constraints
+#  Namespace VM.Managed.DAFUL.Builder.Constraints
 
 ### Classes
 

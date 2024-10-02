@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_Constraints_RestrictionRotationalAngle"></a> Class RestrictionRotationalAngle
+#  Class RestrictionRotationalAngle
 
 Namespace: [VM.Managed.DAFUL.Constraints](VM.Managed.DAFUL.Constraints.md)  
 Assembly: VMDCB.dll  

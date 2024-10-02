@@ -1,4 +1,4 @@
-# <a id="VM_Managed_TransformBase"></a> Class TransformBase
+#  Class TransformBase
 
 Namespace: [VM.Managed](VM.Managed.md)  
 Assembly: VMAppCore.dll  

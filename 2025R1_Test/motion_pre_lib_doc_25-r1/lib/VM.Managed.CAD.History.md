@@ -1,4 +1,4 @@
-# <a id="VM_Managed_CAD_History"></a> Namespace VM.Managed.CAD.History
+#  Namespace VM.Managed.CAD.History
 
 ### Classes
 

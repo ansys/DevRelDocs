@@ -1,4 +1,4 @@
-# <a id="VM_Managed_InstanceContainer_InterfaceTable"></a> Class InstanceContainer.InterfaceTable
+#  Class InstanceContainer.InterfaceTable
 
 Namespace: [VM.Managed](VM.Managed.md)  
 Assembly: VMObjBase.dll  

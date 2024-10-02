@@ -1,4 +1,4 @@
-# <a id="VM_Managed_History_RegisterCurveSetEvent"></a> Class RegisterCurveSetEvent
+#  Class RegisterCurveSetEvent
 
 Namespace: [VM.Managed.History](VM.Managed.History.md)  
 Assembly: VMAppCore.dll  

@@ -1,4 +1,4 @@
-# <a id="VM_Managed_Symmetric_Constraints_Convel"></a> Class Convel
+#  Class Convel
 
 Namespace: [VM.Managed.Symmetric.Constraints](VM.Managed.Symmetric.Constraints.md)  
 Assembly: VMSymCP.dll  

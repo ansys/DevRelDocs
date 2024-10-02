@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_Car_SingleWheelTravelConfiguration"></a> Class SingleWheelTravelConfiguration
+#  Class SingleWheelTravelConfiguration
 
 Namespace: [VM.Managed.DAFUL.Car](VM.Managed.DAFUL.Car.md)  
 Assembly: VMDCar.dll  

@@ -1,4 +1,4 @@
-# <a id="VM_Managed_EntityToEntityWhenAddDocExeption"></a> Class EntityToEntityWhenAddDocExeption
+#  Class EntityToEntityWhenAddDocExeption
 
 Namespace: [VM.Managed](VM.Managed.md)  
 Assembly: VMAppCore.dll  

@@ -1,4 +1,4 @@
-# <a id="VM_Collections_ExtendedObservableCollection_1"></a> Class ExtendedObservableCollection<T\>
+#  Class ExtendedObservableCollection<T\>
 
 Namespace: [VM.Collections](VM.Collections.md)  
 Assembly: VM.dll  

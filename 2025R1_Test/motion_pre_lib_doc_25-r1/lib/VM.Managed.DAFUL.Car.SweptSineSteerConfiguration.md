@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_Car_SweptSineSteerConfiguration"></a> Class SweptSineSteerConfiguration
+#  Class SweptSineSteerConfiguration
 
 Namespace: [VM.Managed.DAFUL.Car](VM.Managed.DAFUL.Car.md)  
 Assembly: VMDCar.dll  

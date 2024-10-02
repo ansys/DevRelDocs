@@ -1,4 +1,4 @@
-# <a id="VM_Managed_AttributeInvisible"></a> Class AttributeInvisible
+#  Class AttributeInvisible
 
 Namespace: [VM.Managed](VM.Managed.md)  
 Assembly: VMAppCore.dll  

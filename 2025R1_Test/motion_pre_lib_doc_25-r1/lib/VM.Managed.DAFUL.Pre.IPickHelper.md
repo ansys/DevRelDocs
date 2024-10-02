@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_Pre_IPickHelper"></a> Interface IPickHelper
+#  Interface IPickHelper
 
 Namespace: [VM.Managed.DAFUL.Pre](VM.Managed.DAFUL.Pre.md)  
 Assembly: dfpredat.dll  

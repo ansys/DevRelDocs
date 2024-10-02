@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_Pre"></a> Namespace VM.Managed.DAFUL.Pre
+#  Namespace VM.Managed.DAFUL.Pre
 
 ### Classes
 

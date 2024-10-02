@@ -1,4 +1,4 @@
-# <a id="VM_Managed_CAD_Track_ShoeProfileSimple"></a> Class ShoeProfileSimple
+#  Class ShoeProfileSimple
 
 Namespace: [VM.Managed.CAD.Track](VM.Managed.CAD.Track.md)  
 Assembly: VMDTrackBase.dll  

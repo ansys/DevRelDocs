@@ -1,4 +1,4 @@
-# <a id="VM_Managed_PropertyXmlSerializerHelper_1"></a> Class PropertyXmlSerializerHelper<TProperty\>
+#  Class PropertyXmlSerializerHelper<TProperty\>
 
 Namespace: [VM.Managed](VM.Managed.md)  
 Assembly: VMObjBase.dll  

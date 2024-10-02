@@ -1,4 +1,4 @@
-# <a id="VM_Managed_OrientationFixedAngle"></a> Class OrientationFixedAngle
+#  Class OrientationFixedAngle
 
 Namespace: [VM.Managed](VM.Managed.md)  
 Assembly: VMAppCore.dll  

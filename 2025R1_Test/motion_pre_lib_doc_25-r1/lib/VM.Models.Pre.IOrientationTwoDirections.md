@@ -1,4 +1,4 @@
-# <a id="VM_Models_Pre_IOrientationTwoDirections"></a> Interface IOrientationTwoDirections
+#  Interface IOrientationTwoDirections
 
 Namespace: [VM.Models.Pre](VM.Models.Pre.md)  
 Assembly: VM.Models.Pre.dll  

@@ -1,4 +1,4 @@
-# <a id="VM_Models_Pre_Durability"></a> Namespace VM.Models.Pre.Durability
+#  Namespace VM.Models.Pre.Durability
 
 ### Classes
 

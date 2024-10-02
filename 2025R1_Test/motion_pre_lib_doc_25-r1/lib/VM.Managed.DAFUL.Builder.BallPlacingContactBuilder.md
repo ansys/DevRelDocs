@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_Builder_BallPlacingContactBuilder"></a> Class BallPlacingContactBuilder
+#  Class BallPlacingContactBuilder
 
 Namespace: [VM.Managed.DAFUL.Builder](VM.Managed.DAFUL.Builder.md)  
 Assembly: VMBldBallPlacing.dll  

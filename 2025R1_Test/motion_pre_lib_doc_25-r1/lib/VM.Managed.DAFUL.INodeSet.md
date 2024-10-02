@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_INodeSet"></a> Interface INodeSet
+#  Interface INodeSet
 
 Namespace: [VM.Managed.DAFUL](VM.Managed.DAFUL.md)  
 Assembly: VMDFBase.dll  

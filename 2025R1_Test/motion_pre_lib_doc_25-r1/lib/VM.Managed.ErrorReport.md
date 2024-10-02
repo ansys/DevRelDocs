@@ -1,4 +1,4 @@
-# <a id="VM_Managed_ErrorReport"></a> Class ErrorReport
+#  Class ErrorReport
 
 Namespace: [VM.Managed](VM.Managed.md)  
 Assembly: VMAppCore.dll  

@@ -1,4 +1,4 @@
-# <a id="VM_Managed_Application_PostOpenDocument"></a> Delegate Application.PostOpenDocument
+#  Delegate Application.PostOpenDocument
 
 Namespace: [VM.Managed](VM.Managed.md)  
 Assembly: VMAppCore.dll  

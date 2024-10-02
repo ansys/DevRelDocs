@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_CoSim_CoSimIOList"></a> Class CoSimIOList
+#  Class CoSimIOList
 
 Namespace: [VM.Managed.DAFUL.CoSim](VM.Managed.DAFUL.CoSim.md)  
 Assembly: VMDCoSimCore.dll  

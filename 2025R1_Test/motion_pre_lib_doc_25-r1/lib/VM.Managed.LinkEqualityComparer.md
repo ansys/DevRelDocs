@@ -1,4 +1,4 @@
-# <a id="VM_Managed_LinkEqualityComparer"></a> Class LinkEqualityComparer
+#  Class LinkEqualityComparer
 
 Namespace: [VM.Managed](VM.Managed.md)  
 Assembly: VMAppCore.dll  

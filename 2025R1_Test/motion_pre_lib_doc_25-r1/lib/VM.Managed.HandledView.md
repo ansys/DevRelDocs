@@ -1,4 +1,4 @@
-# <a id="VM_Managed_HandledView"></a> Class HandledView
+#  Class HandledView
 
 Namespace: [VM.Managed](VM.Managed.md)  
 Assembly: VMAppCore.dll  

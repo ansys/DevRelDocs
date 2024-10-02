@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_GearTrain_GearShapeHelical"></a> Class GearShapeHelical
+#  Class GearShapeHelical
 
 Namespace: [VM.Managed.DAFUL.GearTrain](VM.Managed.DAFUL.GearTrain.md)  
 Assembly: VMDGearTrain.dll  

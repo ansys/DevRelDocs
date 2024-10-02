@@ -1,4 +1,4 @@
-# <a id="VM_Managed_ILinkContainerEvent"></a> Interface ILinkContainerEvent
+#  Interface ILinkContainerEvent
 
 Namespace: [VM.Managed](VM.Managed.md)  
 Assembly: VMAppCore.dll  

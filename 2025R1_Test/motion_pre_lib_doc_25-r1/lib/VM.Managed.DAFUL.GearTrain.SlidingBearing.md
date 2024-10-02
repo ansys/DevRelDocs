@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_GearTrain_SlidingBearing"></a> Class SlidingBearing
+#  Class SlidingBearing
 
 Namespace: [VM.Managed.DAFUL.GearTrain](VM.Managed.DAFUL.GearTrain.md)  
 Assembly: VMDGearTrain.dll  

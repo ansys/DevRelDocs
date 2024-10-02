@@ -1,4 +1,4 @@
-# <a id="VM_Managed_CADOperation_SetMarkerTramsformOp"></a> Class CADOperation.SetMarkerTramsformOp
+#  Class CADOperation.SetMarkerTramsformOp
 
 Namespace: [VM.Managed](VM.Managed.md)  
 Assembly: VMObjBase.dll  

@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_Flexible_Force_PropertyConcentratedLoadBase_DirectionType"></a> Enum PropertyConcentratedLoadBase.DirectionType
+#  Enum PropertyConcentratedLoadBase.DirectionType
 
 Namespace: [VM.Managed.DAFUL.Flexible.Force](VM.Managed.DAFUL.Flexible.Force.md)  
 Assembly: VMFlexibleBase.dll  

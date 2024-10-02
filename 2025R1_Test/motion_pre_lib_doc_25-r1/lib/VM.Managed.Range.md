@@ -1,4 +1,4 @@
-# <a id="VM_Managed_Range"></a> Class Range
+#  Class Range
 
 Namespace: [VM.Managed](VM.Managed.md)  
 Assembly: VMAppCore.dll  

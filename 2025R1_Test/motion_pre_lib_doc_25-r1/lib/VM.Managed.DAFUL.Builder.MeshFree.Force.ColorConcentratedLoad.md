@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_Builder_MeshFree_Force_ColorConcentratedLoad"></a> Class ColorConcentratedLoad
+#  Class ColorConcentratedLoad
 
 Namespace: [VM.Managed.DAFUL.Builder.MeshFree.Force](VM.Managed.DAFUL.Builder.MeshFree.Force.md)  
 Assembly: VMBldMeshFree.dll  

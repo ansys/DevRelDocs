@@ -1,4 +1,4 @@
-# <a id="VM_Models_StepItemMetadata"></a> Class StepItemMetadata
+#  Class StepItemMetadata
 
 Namespace: [VM.Models](VM.Models.md)  
 Assembly: VM.Models.Project.dll  

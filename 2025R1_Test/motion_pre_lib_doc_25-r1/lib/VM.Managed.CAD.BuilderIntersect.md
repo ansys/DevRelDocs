@@ -1,4 +1,4 @@
-# <a id="VM_Managed_CAD_BuilderIntersect"></a> Class BuilderIntersect
+#  Class BuilderIntersect
 
 Namespace: [VM.Managed.CAD](VM.Managed.CAD.md)  
 Assembly: VMAppCore.dll  

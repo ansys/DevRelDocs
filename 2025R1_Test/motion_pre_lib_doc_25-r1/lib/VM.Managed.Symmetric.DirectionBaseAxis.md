@@ -1,4 +1,4 @@
-# <a id="VM_Managed_Symmetric_DirectionBaseAxis"></a> Class DirectionBaseAxis
+#  Class DirectionBaseAxis
 
 Namespace: [VM.Managed.Symmetric](VM.Managed.Symmetric.md)  
 Assembly: VMSymBase.dll  

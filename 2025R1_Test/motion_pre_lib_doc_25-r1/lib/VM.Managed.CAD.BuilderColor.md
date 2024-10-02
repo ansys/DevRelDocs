@@ -1,4 +1,4 @@
-# <a id="VM_Managed_CAD_BuilderColor"></a> Class BuilderColor
+#  Class BuilderColor
 
 Namespace: [VM.Managed.CAD](VM.Managed.CAD.md)  
 Assembly: VMAppCore.dll  

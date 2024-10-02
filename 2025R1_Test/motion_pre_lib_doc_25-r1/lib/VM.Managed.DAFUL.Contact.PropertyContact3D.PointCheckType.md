@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_Contact_PropertyContact3D_PointCheckType"></a> Enum PropertyContact3D.PointCheckType
+#  Enum PropertyContact3D.PointCheckType
 
 Namespace: [VM.Managed.DAFUL.Contact](VM.Managed.DAFUL.Contact.md)  
 Assembly: VMDCt.dll  

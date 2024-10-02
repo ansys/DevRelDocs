@@ -1,4 +1,4 @@
-# <a id="VM_Managed_View3D_CursorMode"></a> Enum View3D.CursorMode
+#  Enum View3D.CursorMode
 
 Namespace: [VM.Managed](VM.Managed.md)  
 Assembly: VMAppCore.dll  

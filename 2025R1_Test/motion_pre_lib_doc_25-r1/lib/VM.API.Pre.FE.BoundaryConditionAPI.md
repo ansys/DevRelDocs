@@ -1,4 +1,4 @@
-# <a id="VM_API_Pre_FE_BoundaryConditionAPI"></a> Class BoundaryConditionAPI
+#  Class BoundaryConditionAPI
 
 Namespace: [VM.API.Pre.FE](VM.API.Pre.FE.md)  
 Assembly: VM.API.Pre.FE.dll  

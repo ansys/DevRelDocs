@@ -1,4 +1,4 @@
-# <a id="VM_Managed_Material_Material"></a> Class Material
+#  Class Material
 
 Namespace: [VM.Managed.Material](VM.Managed.Material.md)  
 Assembly: VMAppCore.dll  

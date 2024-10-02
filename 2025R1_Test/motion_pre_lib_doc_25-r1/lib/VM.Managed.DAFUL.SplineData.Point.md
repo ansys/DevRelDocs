@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_SplineData_Point"></a> Struct SplineData.Point
+#  Struct SplineData.Point
 
 Namespace: [VM.Managed.DAFUL](VM.Managed.DAFUL.md)  
 Assembly: VMDSB.dll  

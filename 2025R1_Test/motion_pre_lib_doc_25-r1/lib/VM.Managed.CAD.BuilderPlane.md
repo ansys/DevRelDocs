@@ -1,4 +1,4 @@
-# <a id="VM_Managed_CAD_BuilderPlane"></a> Class BuilderPlane
+#  Class BuilderPlane
 
 Namespace: [VM.Managed.CAD](VM.Managed.CAD.md)  
 Assembly: VMAppCore.dll  

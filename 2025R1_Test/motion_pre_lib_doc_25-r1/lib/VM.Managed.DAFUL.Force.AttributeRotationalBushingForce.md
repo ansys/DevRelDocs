@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_Force_AttributeRotationalBushingForce"></a> Class AttributeRotationalBushingForce
+#  Class AttributeRotationalBushingForce
 
 Namespace: [VM.Managed.DAFUL.Force](VM.Managed.DAFUL.Force.md)  
 Assembly: VMDFB.dll  

@@ -1,4 +1,4 @@
-# <a id="VM_Models_Project_Preset_ThermalStep"></a> Class ThermalStep
+#  Class ThermalStep
 
 Namespace: [VM.Models.Project.Preset](VM.Models.Project.Preset.md)  
 Assembly: VM.Models.Project.Preset.dll  

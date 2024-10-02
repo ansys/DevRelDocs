@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_IContactableRigid2D"></a> Interface IContactableRigid2D
+#  Interface IContactableRigid2D
 
 Namespace: [VM.Managed.DAFUL](VM.Managed.DAFUL.md)  
 Assembly: VMDFBase.dll  

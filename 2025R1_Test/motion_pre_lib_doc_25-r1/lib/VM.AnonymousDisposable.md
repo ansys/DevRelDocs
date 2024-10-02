@@ -1,4 +1,4 @@
-# <a id="VM_AnonymousDisposable"></a> Class AnonymousDisposable
+#  Class AnonymousDisposable
 
 Namespace: [VM](VM.md)  
 Assembly: VM.dll  

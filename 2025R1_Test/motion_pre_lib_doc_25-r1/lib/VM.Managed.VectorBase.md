@@ -1,4 +1,4 @@
-# <a id="VM_Managed_VectorBase"></a> Class VectorBase
+#  Class VectorBase
 
 Namespace: [VM.Managed](VM.Managed.md)  
 Assembly: VMAppCore.dll  

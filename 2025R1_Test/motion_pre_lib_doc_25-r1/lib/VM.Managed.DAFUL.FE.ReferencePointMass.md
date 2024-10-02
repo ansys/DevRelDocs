@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_FE_ReferencePointMass"></a> Class ReferencePointMass
+#  Class ReferencePointMass
 
 Namespace: [VM.Managed.DAFUL.FE](VM.Managed.DAFUL.FE.md)  
 Assembly: VMFE.dll  

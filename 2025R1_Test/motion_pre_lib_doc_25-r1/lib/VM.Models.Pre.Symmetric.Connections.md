@@ -1,4 +1,4 @@
-# <a id="VM_Models_Pre_Symmetric_Connections"></a> Namespace VM.Models.Pre.Symmetric.Connections
+#  Namespace VM.Models.Pre.Symmetric.Connections
 
 ### Classes
 

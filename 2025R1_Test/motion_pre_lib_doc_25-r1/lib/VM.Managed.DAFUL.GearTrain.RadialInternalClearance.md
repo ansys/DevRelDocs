@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_GearTrain_RadialInternalClearance"></a> Class RadialInternalClearance
+#  Class RadialInternalClearance
 
 Namespace: [VM.Managed.DAFUL.GearTrain](VM.Managed.DAFUL.GearTrain.md)  
 Assembly: VMDGearTrain.dll  

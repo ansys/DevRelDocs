@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_Builder_Track_SolidBodyLinkLMSimple"></a> Class SolidBodyLinkLMSimple
+#  Class SolidBodyLinkLMSimple
 
 Namespace: [VM.Managed.DAFUL.Builder.Track](VM.Managed.DAFUL.Builder.Track.md)  
 Assembly: VMBldTrack.dll  

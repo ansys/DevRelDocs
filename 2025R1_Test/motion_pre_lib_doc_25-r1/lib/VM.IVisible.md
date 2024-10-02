@@ -1,4 +1,4 @@
-# <a id="VM_IVisible"></a> Interface IVisible
+#  Interface IVisible
 
 Namespace: [VM](VM.md)  
 Assembly: VM.dll  

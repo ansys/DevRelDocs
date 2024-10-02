@@ -1,4 +1,4 @@
-# <a id="VM_Managed_IHasVerifyLevel"></a> Interface IHasVerifyLevel
+#  Interface IHasVerifyLevel
 
 Namespace: [VM.Managed](VM.Managed.md)  
 Assembly: VMAppCore.dll  

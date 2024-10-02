@@ -1,4 +1,4 @@
-# <a id="VM_NX_App_Navigator_ITopologyNavigator"></a> Interface ITopologyNavigator
+#  Interface ITopologyNavigator
 
 Namespace: [VM.NX.App.Navigator](VM.NX.App.Navigator.md)  
 Assembly: VMDIDef.dll  

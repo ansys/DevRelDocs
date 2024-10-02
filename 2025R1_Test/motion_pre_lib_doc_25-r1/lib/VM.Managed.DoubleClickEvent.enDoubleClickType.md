@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DoubleClickEvent_enDoubleClickType"></a> Enum enDoubleClickType
+#  Enum enDoubleClickType
 
 Namespace: [VM.Managed.DoubleClickEvent](VM.Managed.DoubleClickEvent.md)  
 Assembly: VMAppCore.dll  

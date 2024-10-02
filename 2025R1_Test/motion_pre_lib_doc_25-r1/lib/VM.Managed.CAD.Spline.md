@@ -1,4 +1,4 @@
-# <a id="VM_Managed_CAD_Spline"></a> Class Spline
+#  Class Spline
 
 Namespace: [VM.Managed.CAD](VM.Managed.CAD.md)  
 Assembly: VMAppCore.dll  

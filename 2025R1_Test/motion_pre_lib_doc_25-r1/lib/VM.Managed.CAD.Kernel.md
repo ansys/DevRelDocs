@@ -1,4 +1,4 @@
-# <a id="VM_Managed_CAD_Kernel"></a> Class Kernel
+#  Class Kernel
 
 Namespace: [VM.Managed.CAD](VM.Managed.CAD.md)  
 Assembly: VMAppCore.dll  

@@ -1,4 +1,4 @@
-# <a id="VM_Managed_IUCControl"></a> Interface IUCControl
+#  Interface IUCControl
 
 Namespace: [VM.Managed](VM.Managed.md)  
 Assembly: VMAppCore.dll  

@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_Builder_Thermal_HeatFlux"></a> Class HeatFlux
+#  Class HeatFlux
 
 Namespace: [VM.Managed.DAFUL.Builder.Thermal](VM.Managed.DAFUL.Builder.Thermal.md)  
 Assembly: VMBldThermal.dll  

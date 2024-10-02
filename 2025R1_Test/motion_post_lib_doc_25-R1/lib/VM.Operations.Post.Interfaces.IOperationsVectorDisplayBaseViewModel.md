@@ -1,4 +1,4 @@
-# <a id="VM_Operations_Post_Interfaces_IOperationsVectorDisplayBaseViewModel"></a> Interface IOperationsVectorDisplayBaseViewModel
+#  Interface IOperationsVectorDisplayBaseViewModel
 
 Namespace: [VM.Operations.Post.Interfaces](VM.Operations.Post.Interfaces.md)  
 Assembly: VM.Operations.Post.dll  

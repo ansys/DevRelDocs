@@ -1,4 +1,4 @@
-# <a id="VM_Operations_Pre_Force"></a> Namespace VM.Operations.Pre.Force
+#  Namespace VM.Operations.Pre.Force
 
 ### Classes
 

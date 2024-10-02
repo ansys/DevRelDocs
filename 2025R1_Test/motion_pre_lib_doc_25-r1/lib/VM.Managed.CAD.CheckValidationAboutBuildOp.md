@@ -1,4 +1,4 @@
-# <a id="VM_Managed_CAD_CheckValidationAboutBuildOp"></a> Class CheckValidationAboutBuildOp
+#  Class CheckValidationAboutBuildOp
 
 Namespace: [VM.Managed.CAD](VM.Managed.CAD.md)  
 Assembly: VMAppCore.dll  

@@ -1,4 +1,4 @@
-# <a id="VM_Managed_History_ObjectBaseVisibleEvent"></a> Class ObjectBaseVisibleEvent
+#  Class ObjectBaseVisibleEvent
 
 Namespace: [VM.Managed.History](VM.Managed.History.md)  
 Assembly: VMAppCore.dll  

@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_CoSim_CoSimIOFunctionStandard"></a> Class CoSimIOFunctionStandard
+#  Class CoSimIOFunctionStandard
 
 Namespace: [VM.Managed.DAFUL.CoSim](VM.Managed.DAFUL.CoSim.md)  
 Assembly: VMDCoSimCore.dll  

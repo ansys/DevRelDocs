@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_Thermal_HeatFluxUnit"></a> Class HeatFluxUnit
+#  Class HeatFluxUnit
 
 Namespace: [VM.Managed.DAFUL.Thermal](VM.Managed.DAFUL.Thermal.md)  
 Assembly: VMThermalBase.dll  

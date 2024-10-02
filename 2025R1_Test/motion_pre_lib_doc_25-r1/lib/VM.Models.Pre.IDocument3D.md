@@ -1,4 +1,4 @@
-# <a id="VM_Models_Pre_IDocument3D"></a> Interface IDocument3D
+#  Interface IDocument3D
 
 Namespace: [VM.Models.Pre](VM.Models.Pre.md)  
 Assembly: VM.Models.Pre.dll  

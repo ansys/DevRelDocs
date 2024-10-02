@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_IThermalContactable"></a> Interface IThermalContactable
+#  Interface IThermalContactable
 
 Namespace: [VM.Managed.DAFUL](VM.Managed.DAFUL.md)  
 Assembly: VMDFBase.dll  

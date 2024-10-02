@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_Constraints_DriverInitialCondition"></a> Class DriverInitialCondition
+#  Class DriverInitialCondition
 
 Namespace: [VM.Managed.DAFUL.Constraints](VM.Managed.DAFUL.Constraints.md)  
 Assembly: VMDCB.dll  

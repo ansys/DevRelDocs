@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_IPLoadComponent"></a> Interface IPLoadComponent
+#  Interface IPLoadComponent
 
 Namespace: [VM.Managed.DAFUL](VM.Managed.DAFUL.md)  
 Assembly: VMDFBase.dll  

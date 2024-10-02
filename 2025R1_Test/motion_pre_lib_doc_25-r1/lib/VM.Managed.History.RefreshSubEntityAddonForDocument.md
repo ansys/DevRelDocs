@@ -1,4 +1,4 @@
-# <a id="VM_Managed_History_RefreshSubEntityAddonForDocument"></a> Class RefreshSubEntityAddonForDocument
+#  Class RefreshSubEntityAddonForDocument
 
 Namespace: [VM.Managed.History](VM.Managed.History.md)  
 Assembly: VMAppCore.dll  

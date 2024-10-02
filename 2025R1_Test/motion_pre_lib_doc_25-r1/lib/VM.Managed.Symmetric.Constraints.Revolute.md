@@ -1,4 +1,4 @@
-# <a id="VM_Managed_Symmetric_Constraints_Revolute"></a> Class Revolute
+#  Class Revolute
 
 Namespace: [VM.Managed.Symmetric.Constraints](VM.Managed.Symmetric.Constraints.md)  
 Assembly: VMSymCB.dll  

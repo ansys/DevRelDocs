@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_ITieContactable"></a> Interface ITieContactable
+#  Interface ITieContactable
 
 Namespace: [VM.Managed.DAFUL](VM.Managed.DAFUL.md)  
 Assembly: VMDFBase.dll  

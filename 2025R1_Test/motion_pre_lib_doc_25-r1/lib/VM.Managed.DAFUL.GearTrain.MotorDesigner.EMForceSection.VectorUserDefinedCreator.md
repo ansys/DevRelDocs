@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_GearTrain_MotorDesigner_EMForceSection_VectorUserDefinedCreator"></a> Class MotorDesigner.EMForceSection.VectorUserDefinedCreator
+#  Class MotorDesigner.EMForceSection.VectorUserDefinedCreator
 
 Namespace: [VM.Managed.DAFUL.GearTrain](VM.Managed.DAFUL.GearTrain.md)  
 Assembly: VMDGearTrain.dll  

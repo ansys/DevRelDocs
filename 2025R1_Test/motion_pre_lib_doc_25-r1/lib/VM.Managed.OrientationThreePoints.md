@@ -1,4 +1,4 @@
-# <a id="VM_Managed_OrientationThreePoints"></a> Class OrientationThreePoints
+#  Class OrientationThreePoints
 
 Namespace: [VM.Managed](VM.Managed.md)  
 Assembly: VMAppCore.dll  

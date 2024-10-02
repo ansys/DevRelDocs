@@ -1,4 +1,4 @@
-# <a id="VM_Managed_Symmetric_ISymmetricBuilder"></a> Interface ISymmetricBuilder
+#  Interface ISymmetricBuilder
 
 Namespace: [VM.Managed.Symmetric](VM.Managed.Symmetric.md)  
 Assembly: VMAppCore.dll  

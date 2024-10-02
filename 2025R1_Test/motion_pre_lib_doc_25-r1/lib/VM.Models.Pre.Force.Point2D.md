@@ -1,4 +1,4 @@
-# <a id="VM_Models_Pre_Force_Point2D"></a> Class Point2D
+#  Class Point2D
 
 Namespace: [VM.Models.Pre.Force](VM.Models.Pre.Force.md)  
 Assembly: VM.Models.Pre.Force.LeafSpring.dll  

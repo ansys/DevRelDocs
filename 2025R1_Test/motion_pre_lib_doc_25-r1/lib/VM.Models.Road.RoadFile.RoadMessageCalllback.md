@@ -1,4 +1,4 @@
-# <a id="VM_Models_Road_RoadFile_RoadMessageCalllback"></a> Delegate RoadFile.RoadMessageCalllback
+#  Delegate RoadFile.RoadMessageCalllback
 
 Namespace: [VM.Models.Road](VM.Models.Road.md)  
 Assembly: VM.Models.Road.dll  

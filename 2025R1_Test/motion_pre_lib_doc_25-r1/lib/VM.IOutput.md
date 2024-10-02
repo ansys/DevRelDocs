@@ -1,4 +1,4 @@
-# <a id="VM_IOutput"></a> Interface IOutput
+#  Interface IOutput
 
 Namespace: [VM](VM.md)  
 Assembly: VM.dll  

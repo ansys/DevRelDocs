@@ -1,4 +1,4 @@
-# <a id="VM_Managed_AttributeHideFromNavigator"></a> Class AttributeHideFromNavigator
+#  Class AttributeHideFromNavigator
 
 Namespace: [VM.Managed](VM.Managed.md)  
 Assembly: VMAppCore.dll  

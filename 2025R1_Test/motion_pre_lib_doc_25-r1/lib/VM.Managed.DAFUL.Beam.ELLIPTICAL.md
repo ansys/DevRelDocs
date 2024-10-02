@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_Beam_ELLIPTICAL"></a> Class ELLIPTICAL
+#  Class ELLIPTICAL
 
 Namespace: [VM.Managed.DAFUL.Beam](VM.Managed.DAFUL.Beam.md)  
 Assembly: VM.Models.FE.BeamCrossSection.dll  

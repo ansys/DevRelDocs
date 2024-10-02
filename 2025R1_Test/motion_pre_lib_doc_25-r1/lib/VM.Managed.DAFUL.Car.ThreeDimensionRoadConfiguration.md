@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_Car_ThreeDimensionRoadConfiguration"></a> Class ThreeDimensionRoadConfiguration
+#  Class ThreeDimensionRoadConfiguration
 
 Namespace: [VM.Managed.DAFUL.Car](VM.Managed.DAFUL.Car.md)  
 Assembly: VMDCar.dll  

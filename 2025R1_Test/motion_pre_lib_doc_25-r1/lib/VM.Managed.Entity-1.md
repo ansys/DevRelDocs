@@ -1,4 +1,4 @@
-# <a id="VM_Managed_Entity_1"></a> Class Entity<TProperty\>
+#  Class Entity<TProperty\>
 
 Namespace: [VM.Managed](VM.Managed.md)  
 Assembly: VMObjBase.dll  

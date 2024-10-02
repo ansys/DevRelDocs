@@ -1,4 +1,4 @@
-# <a id="VM_Managed_ISpecialFitView_PostFit"></a> Delegate ISpecialFitView.PostFit
+#  Delegate ISpecialFitView.PostFit
 
 Namespace: [VM.Managed](VM.Managed.md)  
 Assembly: VMAppCore.dll  

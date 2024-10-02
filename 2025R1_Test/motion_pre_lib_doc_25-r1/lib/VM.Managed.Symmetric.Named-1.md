@@ -1,4 +1,4 @@
-# <a id="VM_Managed_Symmetric_Named_1"></a> Class Named<T\>
+#  Class Named<T\>
 
 Namespace: [VM.Managed.Symmetric](VM.Managed.Symmetric.md)  
 Assembly: VMSymBase.dll  

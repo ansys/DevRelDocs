@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_FE_Mesh_ElementContainer"></a> Class Mesh.ElementContainer
+#  Class Mesh.ElementContainer
 
 Namespace: [VM.Managed.DAFUL.FE](VM.Managed.DAFUL.FE.md)  
 Assembly: VMFE.dll  

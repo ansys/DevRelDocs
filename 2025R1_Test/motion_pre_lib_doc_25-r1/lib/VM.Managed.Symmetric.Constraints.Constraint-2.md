@@ -1,4 +1,4 @@
-# <a id="VM_Managed_Symmetric_Constraints_Constraint_2"></a> Class Constraint<T, TProp\>
+#  Class Constraint<T, TProp\>
 
 Namespace: [VM.Managed.Symmetric.Constraints](VM.Managed.Symmetric.Constraints.md)  
 Assembly: VMSymCB.dll  

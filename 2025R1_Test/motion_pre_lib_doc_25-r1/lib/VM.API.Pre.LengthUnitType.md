@@ -1,4 +1,4 @@
-# <a id="VM_API_Pre_LengthUnitType"></a> Enum LengthUnitType
+#  Enum LengthUnitType
 
 Namespace: [VM.API.Pre](VM.API.Pre.md)  
 Assembly: VM.API.Pre.dll  

@@ -1,4 +1,4 @@
-# <a id="VM_Managed_SerializeUtil"></a> Class SerializeUtil
+#  Class SerializeUtil
 
 Namespace: [VM.Managed](VM.Managed.md)  
 Assembly: VMObjBase.dll  

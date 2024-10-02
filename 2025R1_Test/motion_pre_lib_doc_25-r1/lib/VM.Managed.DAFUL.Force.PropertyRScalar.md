@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_Force_PropertyRScalar"></a> Class PropertyRScalar
+#  Class PropertyRScalar
 
 Namespace: [VM.Managed.DAFUL.Force](VM.Managed.DAFUL.Force.md)  
 Assembly: VMDFP.dll  

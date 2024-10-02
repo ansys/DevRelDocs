@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DesignVariable_FinalizeUpdateCallBack"></a> Delegate DesignVariable.FinalizeUpdateCallBack
+#  Delegate DesignVariable.FinalizeUpdateCallBack
 
 Namespace: [VM.Managed](VM.Managed.md)  
 Assembly: VMObjBase.dll  

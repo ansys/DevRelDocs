@@ -1,4 +1,4 @@
-# <a id="VM_Managed_Collections_ModifiedType"></a> Enum ModifiedType
+#  Enum ModifiedType
 
 Namespace: [VM.Managed.Collections](VM.Managed.Collections.md)  
 Assembly: VMAppCore.dll  
