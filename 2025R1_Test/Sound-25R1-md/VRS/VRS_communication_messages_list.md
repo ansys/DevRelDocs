@@ -43,7 +43,7 @@ There are 3 types of messages:
   <tbody>
     <tr>
         <td rowspan="2">SOUND_LOAD</td>
-        <td>Id (Int, from 0 to 20)</td>
+        <td>Id (int, from 0 to 20)</td>
         <td>Load a sound file for the 3D sound source identified by the specified Id</td>
     </tr>
     <tr>
@@ -54,7 +54,7 @@ There are 3 types of messages:
     </tr>
     <tr>
         <td rowspan="5">SOUND_PLAY_3D</td>
-        <td>Id (Int, from 0 to 20)</td>
+        <td>Id (int, from 0 to 20)</td>
         <td>Play the 3D sound source identified by the specified Id</td>
     </tr>
      <tr>
@@ -128,7 +128,7 @@ There are 3 types of messages:
         <td>Initial volume</td>
     </tr>
     <tr>
-        <td>>Solo (int 0/1)</td>
+        <td>Solo (int 0/1)</td>
         <td>Solo off/on</td>
     </tr>
     <tr>
@@ -147,7 +147,7 @@ There are 3 types of messages:
         </td>
     </tr>
     <tr>
-        <td>Channel Index (int)</td>
+        <td>Channel index (int)</td>
         <td>Index of the sound card’s input channel to use as 3D input audio stream</td>
     </tr>
     <tr>
@@ -418,7 +418,7 @@ There are 3 types of messages:
                     <tr>
                         <td>3D_SOURCE_TRAJECTORY</td>
                         <td>
-                            <p>Id (Int, from 1 to 20)</p>
+                            <p>Id (int, from 1 to 20)</p>
                             <p>File name (string)</p>
                         </td>
                         <td>
@@ -430,7 +430,7 @@ There are 3 types of messages:
                     <tr>
                         <td>INTERP_TRAJECTORY</td>
                         <td>
-                            <p>Id (Int, from 1 to 10)</p>
+                            <p>Id (int, from 1 to 10)</p>
                             <p>File name (string)</p>
                         </td>
                         <td>
@@ -442,7 +442,7 @@ There are 3 types of messages:
                     <tr>
                         <td>3D_SOURCE_DIFFUSENESS</td>
                         <td>
-                            <p>Id (Int, from 1 to 20)</p>
+                            <p>Id (int, from 1 to 20)</p>
                             <p>Diffuseness value (int, %)</p>
                         </td>
                         <td>
@@ -456,7 +456,7 @@ There are 3 types of messages:
                     <tr>
                         <td>INTERP_SOURCE_DIFFUSENESS</td>
                         <td>
-                            <p>Id (Int, from 1 to 10)</p>
+                            <p>Id (int, from 1 to 10)</p>
                             <p>Diffuseness value (int, %)</p>
                         </td>
                         <td>
@@ -470,7 +470,7 @@ There are 3 types of messages:
                     <tr>
                         <td>INPUTCHANNEL_SOURCE_DIFFUSENESS</td>
                         <td>
-                            <p>Id (Int, from 1 to 3)</p>
+                            <p>Id (int, from 1 to 3)</p>
                             <p>Diffuseness value (int, %)</p>
                         </td>
                         <td>
