@@ -1,9 +1,11 @@
 # Operation API
 
 ## Common Setting
+
 Import the OperationAPI.py file from the "Ansys installed path/Motion/Document/Postprocessor API for Python.zip" file.
 
 ## Added
+
 - The functionality to create, retrieve, update, and delete pages has been added.
 - The view has been relocated, and a capture feature has been added.
 - The functionality to create Contour, VectorDisplay, Node, Element, and Expression has been added.
@@ -11,6 +13,7 @@ Import the OperationAPI.py file from the "Ansys installed path/Motion/Document/P
 - Additional features for modifying various attribute values have been added.
 
 ## Changed
+
 - Name Changes
 	- **PythonUtility** class -> **OperationAPIService**
 	- **CreateLineDataSeires** -> **CreateLineDataSeries**
@@ -22,6 +25,7 @@ Import the OperationAPI.py file from the "Ansys installed path/Motion/Document/P
 - **ApplicationHandler** has been moved to the **VM.API.Post.Operations** project.
 
 ## Deprecated
+
 - **ApplicationHandler.AddPlotView()** is deprecated and will be removed soon; it is recommended to transition to **IPage.CreateChart()**.
 - **ApplicationHandler.GetActiveAnimationView()** is deprecated and will be removed soon; it is recommended to transition to **IPage.GetActiveView()**.
 - **ApplicationHandler.GetActivePlotView()** is deprecated and will be removed soon; it is recommended to transition to **IPage.GetActiveView()**.

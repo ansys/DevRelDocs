@@ -1,8 +1,11 @@
 # Example
+
 This example covers topics related to views.
 
 ## Create a Page
+
 This example demonstrates how to create a page.
+
 ```
 # Example_OperationAPI_CreatePage.py
 # Refer to the OperationAPI.py file
@@ -36,7 +39,9 @@ page = applicationHandler.AddPage("FirstPage")
 ```
 
 ## Find and delete a page
+
 This example demonstrates how to find and delete a created page.
+
 ```
 # Example_OperationAPI_Page.py
 # Refer to the OperationAPI.py file
@@ -93,7 +98,9 @@ if viewCount > 0 :
 ```
 
 ## Move To View
+
 This example demonstrates how to move a view within a page.
+
 ```
 # Example_OperationAPI_MoveToView.py
 # Refer to the OperationAPI.py file
