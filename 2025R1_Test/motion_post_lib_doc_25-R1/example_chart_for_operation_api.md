@@ -1,11 +1,15 @@
 # Chart
+
 The following sample code illustrates how to create a simple example.
+
 * Refer to  operationapi.py in "Ansys installed path/Motion/Document/Postprocessor API for Python.zip"
 * The example was created using "Ansys installed path/Motion/Document/Pre and Post Processor.zip"
 
 ## Create a chart view
+
 This example demonstrates how to create a chart view.
 Chart view is useful for analyzing simulation results by using a graph which is composed of data points.
+
 ```
 # Example_OperationAPI_CreateChart.py
 # Refer to the OperationAPI.py file
@@ -45,6 +49,7 @@ chartView.Legend.ItemsInFilter = "Visible Curves"
 ```
 
 ## Create Curve
+
 This example demonstrates how to create a curve. A graph can be added to the activated chart view. 
 For combinations of paths(Characteristic, Component) on the curve, refer to Common Settings in [Getting Started with the Python language](getting_started_operation_api_using_py.md).
 
@@ -73,6 +78,7 @@ if count > 0 :
 ```
 
 ## Simple Math
+
 This example demonstrates how to create a simple math.
 It is perform addition, subtraction and multiplication between graphs in the chart view. At least two graphs must be selected for the operation.
 Refer to [Create Curve](#create-curve) for curve generation.
@@ -94,6 +100,7 @@ chartView.CreateSimpleMath(curves, SimpleMathType.Multiply, 100)
 ```
 
 ## Transform
+
 This example demonstrates how to create a transform.
 It is transform graphs through translate, align, scale, and absolute in the chart view.
 Refer to [Create Curve](#create-curve) for curve generation.
@@ -126,6 +133,7 @@ chartView.CreateLogScale(curves, 10, 10, False)
 ```
 
 ## Interpolation
+
 This example demonstrates how to create a interpolation.
 It is interpolate graphs with the desired number of data points in the chart view.
 Refer to [Create Curve](#create-curve) for curve generation.
@@ -137,6 +145,7 @@ chartView.CreateInterpolation(curves, 200)
 ```
 
 ## Calculus
+
 This example demonstrates how to create a calculus.
 It is integrate or differentiate graphs in the chart view.
 Refer to [Create Curve](#create-curve) for curve generation.
@@ -150,6 +159,7 @@ chartView.CreateIntegratedCurve(curves)
 ```
 
 ## Signal Processing
+
 This example demonstrates how to create a signal processing.
 It is perform data filtering and smoothing of graphs in the chart view.
 Refer to [Create Curve](#create-curve) for curve generation.
@@ -178,6 +188,7 @@ chartView.CreateFrequencyWeighting(curves, WeightingType.AWeighting, FrequencyAx
 ```
 
 ## FFT
+
 This example demonstrates how to create a fft.
 It is transform data in the time domain to the frequency domain by using the Fast Fourier Transformation method (FFT) in the chart view.
 Refer to [Create Curve](#create-curve) for curve generation.
@@ -194,10 +205,13 @@ chartView.CreateFFT(curves, FFTType.Magnitude, FFTWindowType.Rectangular, ScaleT
 ```
 
 ## STFT
+
 This example demonstrates how to create a stft.
 The short time furrier transformation method(STFT) can transform the data in time domain to the frequency domain. this example describes how to create the STFT.
+
 * The color map plot is supported through this operation.
 * Refer to [Create Curve](#create-curve) for curve generation.
+  
 ```
 # Example_OperationAPI_CreateSTFT.py
 # SeriesNames - The list of the curve name to perform the operation

@@ -5,6 +5,7 @@ The Ansys Motion Standalone Postprocessor C# library can be used in the python c
 ## System requirements
 
 If you are using CPython, you will need to install Python.NET first.
+
 ```
 pip install pythonnet
 ```
@@ -36,6 +37,7 @@ The following sample code demonstrates how to use Result File Reader API :
 * Refer to resultfilereader.py in "Ansys installed path/Motion/Document/Postprocessor API for Python.zip"
 * The example was created using "Ansys installed path/Motion/Document/Pre and Post Processor.zip"
 * Create a example_resultfilereader.py file
+
 ```
 # Example_ResultFileReaderAPI.py
 from ResultFileReaderAPI import *
@@ -55,6 +57,7 @@ outputReader.Close()
 ```
 
 ## See also
+
 * [Python.NET](https://pythonnet.github.io/)
 * [IronPython](https://ironpython.net/)
 * [Reference](lib/VM.md)
