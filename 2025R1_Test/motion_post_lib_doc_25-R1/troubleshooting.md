@@ -7,11 +7,14 @@ One possible reason for this is that there are two packages with the name clr: o
 This can cause a conflict.
 If such a conflict arises, you can try the following steps:
 
-	1. Uninstall the conflicting clr package:
+1. Uninstall the conflicting clr package:
+
 	```
 	pip uninstall clr
 	```
-	2. Install pythonnet:
+
+2. Install pythonnet:
+
 	```
 	pip install pythonnet
 	```
