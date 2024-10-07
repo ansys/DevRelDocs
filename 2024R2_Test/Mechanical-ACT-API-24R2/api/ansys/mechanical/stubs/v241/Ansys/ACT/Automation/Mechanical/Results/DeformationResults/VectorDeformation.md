@@ -2,7 +2,7 @@
 
 <a id="ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Results.DeformationResults.VectorDeformation"></a>
 
-#### *class* ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Results.DeformationResults.VectorDeformation
+#### *class* Ansys.ACT.Automation.Mechanical.Results.DeformationResults.VectorDeformation
 
 Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 

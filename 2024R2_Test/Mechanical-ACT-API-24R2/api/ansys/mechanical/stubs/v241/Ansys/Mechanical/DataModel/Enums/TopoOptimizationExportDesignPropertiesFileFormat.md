@@ -2,7 +2,7 @@
 
 <a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.TopoOptimizationExportDesignPropertiesFileFormat"></a>
 
-#### *class* ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.TopoOptimizationExportDesignPropertiesFileFormat
+#### *class* Ansys.Mechanical.DataModel.Enums.TopoOptimizationExportDesignPropertiesFileFormat
 
 Bases: [`enum.Enum`](https://docs.python.org/3/library/enum.html#enum.Enum)
 

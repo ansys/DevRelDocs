@@ -2,7 +2,7 @@
 
 <a id="ansys.mechanical.stubs.v241.Ansys.ACT.Mechanical.Utilities.GeometryImportPreferences"></a>
 
-#### *class* ansys.mechanical.stubs.v241.Ansys.ACT.Mechanical.Utilities.GeometryImportPreferences
+#### *class* Ansys.ACT.Mechanical.Utilities.GeometryImportPreferences
 
 Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 

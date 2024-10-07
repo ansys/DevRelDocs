@@ -2,7 +2,7 @@
 
 <a id="ansys.mechanical.stubs.v242.Ansys.Mechanical.ExternalData.ImportSettingsFactory"></a>
 
-#### *class* ansys.mechanical.stubs.v242.Ansys.Mechanical.ExternalData.ImportSettingsFactory
+#### *class* Ansys.Mechanical.ExternalData.ImportSettingsFactory
 
 Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 

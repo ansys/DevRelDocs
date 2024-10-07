@@ -2,7 +2,7 @@
 
 <a id="ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Results.ThermalResults.ThermalResult"></a>
 
-#### *class* ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Results.ThermalResults.ThermalResult
+#### *class* Ansys.ACT.Automation.Mechanical.Results.ThermalResults.ThermalResult
 
 Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 

@@ -2,7 +2,7 @@
 
 <a id="ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.BoundaryConditions.PipeTemperature"></a>
 
-#### *class* ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.BoundaryConditions.PipeTemperature
+#### *class* Ansys.ACT.Automation.Mechanical.BoundaryConditions.PipeTemperature
 
 Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 

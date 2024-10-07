@@ -34,7 +34,7 @@
 
 ## Description
 
-Adapters subpackage.
+Adapters module.
 
 <!-- !! processed by numpydoc !! -->
 

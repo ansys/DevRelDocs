@@ -28,7 +28,7 @@
 
 ## Description
 
-BeamResults subpackage.
+BeamResults module.
 
 <!-- !! processed by numpydoc !! -->
 

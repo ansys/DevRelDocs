@@ -26,7 +26,7 @@
 
 ## Description
 
-Connections subpackage.
+Connections module.
 
 <!-- !! processed by numpydoc !! -->
 

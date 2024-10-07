@@ -2,7 +2,7 @@
 
 <a id="ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Results.StressResults.EquivalentStressPSD"></a>
 
-#### *class* ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Results.StressResults.EquivalentStressPSD
+#### *class* Ansys.ACT.Automation.Mechanical.Results.StressResults.EquivalentStressPSD
 
 Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 

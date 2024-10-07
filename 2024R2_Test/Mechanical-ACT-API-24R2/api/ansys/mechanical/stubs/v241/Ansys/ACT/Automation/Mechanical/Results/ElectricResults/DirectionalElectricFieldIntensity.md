@@ -2,7 +2,7 @@
 
 <a id="ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Results.ElectricResults.DirectionalElectricFieldIntensity"></a>
 
-#### *class* ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Results.ElectricResults.DirectionalElectricFieldIntensity
+#### *class* Ansys.ACT.Automation.Mechanical.Results.ElectricResults.DirectionalElectricFieldIntensity
 
 Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 

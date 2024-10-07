@@ -2,7 +2,7 @@
 
 <a id="ansys.mechanical.stubs.v241.Ansys.ACT.Mechanical.Application.SolveProcessSettings.QueueSettings"></a>
 
-#### *class* ansys.mechanical.stubs.v241.Ansys.ACT.Mechanical.Application.SolveProcessSettings.QueueSettings
+#### *class* Ansys.ACT.Mechanical.Application.SolveProcessSettings.QueueSettings
 
 Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 

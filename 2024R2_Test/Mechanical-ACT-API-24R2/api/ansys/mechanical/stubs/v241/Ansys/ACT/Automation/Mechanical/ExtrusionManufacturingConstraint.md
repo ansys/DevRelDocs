@@ -2,7 +2,7 @@
 
 <a id="ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.ExtrusionManufacturingConstraint"></a>
 
-#### *class* ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.ExtrusionManufacturingConstraint
+#### *class* Ansys.ACT.Automation.Mechanical.ExtrusionManufacturingConstraint
 
 Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 

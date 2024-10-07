@@ -2,7 +2,7 @@
 
 <a id="ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Results.Smoothing"></a>
 
-#### *class* ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Results.Smoothing
+#### *class* Ansys.ACT.Automation.Mechanical.Results.Smoothing
 
 Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 

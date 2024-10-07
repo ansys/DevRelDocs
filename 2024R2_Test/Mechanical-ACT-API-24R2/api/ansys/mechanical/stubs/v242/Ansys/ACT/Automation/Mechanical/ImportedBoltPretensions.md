@@ -2,7 +2,7 @@
 
 <a id="ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.ImportedBoltPretensions"></a>
 
-#### *class* ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.ImportedBoltPretensions
+#### *class* Ansys.ACT.Automation.Mechanical.ImportedBoltPretensions
 
 Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 

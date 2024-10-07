@@ -2,7 +2,7 @@
 
 <a id="ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.ContactMatchGroup"></a>
 
-#### *class* ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.ContactMatchGroup
+#### *class* Ansys.ACT.Automation.Mechanical.ContactMatchGroup
 
 Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 

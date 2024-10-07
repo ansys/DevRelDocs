@@ -2,7 +2,7 @@
 
 <a id="ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.BoundaryConditions.AcousticAbsorptionSurface"></a>
 
-#### *class* ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.BoundaryConditions.AcousticAbsorptionSurface
+#### *class* Ansys.ACT.Automation.Mechanical.BoundaryConditions.AcousticAbsorptionSurface
 
 Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 

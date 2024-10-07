@@ -35,7 +35,7 @@
 
 ## Description
 
-StressResults subpackage.
+StressResults module.
 
 <!-- !! processed by numpydoc !! -->
 

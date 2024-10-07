@@ -2,7 +2,7 @@
 
 <a id="ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.EndRelease"></a>
 
-#### *class* ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.EndRelease
+#### *class* Ansys.ACT.Automation.Mechanical.EndRelease
 
 Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 

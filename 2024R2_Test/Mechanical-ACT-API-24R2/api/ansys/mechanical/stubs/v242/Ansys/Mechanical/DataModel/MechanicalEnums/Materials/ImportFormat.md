@@ -2,7 +2,7 @@
 
 <a id="ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.MechanicalEnums.Materials.ImportFormat"></a>
 
-#### *class* ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.MechanicalEnums.Materials.ImportFormat
+#### *class* Ansys.Mechanical.DataModel.MechanicalEnums.Materials.ImportFormat
 
 Bases: [`enum.Enum`](https://docs.python.org/3/library/enum.html#enum.Enum)
 

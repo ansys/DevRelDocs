@@ -2,7 +2,7 @@
 
 <a id="ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Results.ResultTrackers.MomentumTracker"></a>
 
-#### *class* ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Results.ResultTrackers.MomentumTracker
+#### *class* Ansys.ACT.Automation.Mechanical.Results.ResultTrackers.MomentumTracker
 
 Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 

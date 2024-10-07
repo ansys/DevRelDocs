@@ -2,7 +2,7 @@
 
 <a id="ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.BoundaryConditions.VolumeChargeDensity"></a>
 
-#### *class* ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.BoundaryConditions.VolumeChargeDensity
+#### *class* Ansys.ACT.Automation.Mechanical.BoundaryConditions.VolumeChargeDensity
 
 Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 

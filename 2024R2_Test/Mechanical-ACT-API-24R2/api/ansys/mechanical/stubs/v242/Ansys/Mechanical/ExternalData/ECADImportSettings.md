@@ -2,7 +2,7 @@
 
 <a id="ansys.mechanical.stubs.v242.Ansys.Mechanical.ExternalData.ECADImportSettings"></a>
 
-#### *class* ansys.mechanical.stubs.v242.Ansys.Mechanical.ExternalData.ECADImportSettings
+#### *class* Ansys.Mechanical.ExternalData.ECADImportSettings
 
 Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 

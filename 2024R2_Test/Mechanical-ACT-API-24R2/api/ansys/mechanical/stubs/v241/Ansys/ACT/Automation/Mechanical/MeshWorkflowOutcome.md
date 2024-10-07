@@ -2,7 +2,7 @@
 
 <a id="ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.MeshWorkflowOutcome"></a>
 
-#### *class* ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.MeshWorkflowOutcome
+#### *class* Ansys.ACT.Automation.Mechanical.MeshWorkflowOutcome
 
 Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 

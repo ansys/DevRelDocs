@@ -15,7 +15,7 @@
 
 ## Description
 
-Tools subpackage.
+Tools module.
 
 <!-- !! processed by numpydoc !! -->
 

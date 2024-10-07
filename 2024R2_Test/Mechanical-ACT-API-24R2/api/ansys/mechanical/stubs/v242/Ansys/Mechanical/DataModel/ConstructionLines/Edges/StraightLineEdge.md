@@ -2,7 +2,7 @@
 
 <a id="ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.ConstructionLines.Edges.StraightLineEdge"></a>
 
-#### *class* ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.ConstructionLines.Edges.StraightLineEdge
+#### *class* Ansys.Mechanical.DataModel.ConstructionLines.Edges.StraightLineEdge
 
 Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 

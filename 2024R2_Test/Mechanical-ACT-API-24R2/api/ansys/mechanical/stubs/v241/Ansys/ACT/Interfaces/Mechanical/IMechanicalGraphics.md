@@ -2,7 +2,7 @@
 
 <a id="ansys.mechanical.stubs.v241.Ansys.ACT.Interfaces.Mechanical.IMechanicalGraphics"></a>
 
-#### *class* ansys.mechanical.stubs.v241.Ansys.ACT.Interfaces.Mechanical.IMechanicalGraphics
+#### *class* Ansys.ACT.Interfaces.Mechanical.IMechanicalGraphics
 
 Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 

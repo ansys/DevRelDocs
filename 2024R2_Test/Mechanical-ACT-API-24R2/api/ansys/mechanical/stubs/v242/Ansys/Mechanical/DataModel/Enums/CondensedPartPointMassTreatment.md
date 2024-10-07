@@ -2,7 +2,7 @@
 
 <a id="ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.CondensedPartPointMassTreatment"></a>
 
-#### *class* ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.CondensedPartPointMassTreatment
+#### *class* Ansys.Mechanical.DataModel.Enums.CondensedPartPointMassTreatment
 
 Bases: [`enum.Enum`](https://docs.python.org/3/library/enum.html#enum.Enum)
 

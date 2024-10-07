@@ -2,7 +2,7 @@
 
 <a id="ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.CyclicRegion"></a>
 
-#### *class* ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.CyclicRegion
+#### *class* Ansys.ACT.Automation.Mechanical.CyclicRegion
 
 Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 

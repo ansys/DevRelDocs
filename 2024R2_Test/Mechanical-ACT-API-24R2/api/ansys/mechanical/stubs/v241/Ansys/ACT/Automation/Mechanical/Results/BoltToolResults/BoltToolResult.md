@@ -2,7 +2,7 @@
 
 <a id="ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Results.BoltToolResults.BoltToolResult"></a>
 
-#### *class* ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Results.BoltToolResults.BoltToolResult
+#### *class* Ansys.ACT.Automation.Mechanical.Results.BoltToolResults.BoltToolResult
 
 Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 

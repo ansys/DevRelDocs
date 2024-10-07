@@ -2,7 +2,7 @@
 
 <a id="ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.SolverData.MAPDLRemotePointData"></a>
 
-#### *class* ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.SolverData.MAPDLRemotePointData
+#### *class* Ansys.Mechanical.DataModel.SolverData.MAPDLRemotePointData
 
 Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 

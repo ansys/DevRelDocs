@@ -2,7 +2,7 @@
 
 <a id="ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.ResponsePSDTool"></a>
 
-#### *class* ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.ResponsePSDTool
+#### *class* Ansys.ACT.Automation.Mechanical.ResponsePSDTool
 
 Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 

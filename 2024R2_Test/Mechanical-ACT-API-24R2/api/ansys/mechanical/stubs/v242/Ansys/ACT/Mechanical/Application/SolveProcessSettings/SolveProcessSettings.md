@@ -2,7 +2,7 @@
 
 <a id="ansys.mechanical.stubs.v242.Ansys.ACT.Mechanical.Application.SolveProcessSettings.SolveProcessSettings"></a>
 
-#### *class* ansys.mechanical.stubs.v242.Ansys.ACT.Mechanical.Application.SolveProcessSettings.SolveProcessSettings
+#### *class* Ansys.ACT.Mechanical.Application.SolveProcessSettings.SolveProcessSettings
 
 Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
