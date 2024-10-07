@@ -2,7 +2,7 @@
 
 <a id="ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.LineChart2D"></a>
 
-#### *class* ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.LineChart2D
+#### *class* Ansys.ACT.Automation.Mechanical.LineChart2D
 
 Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 

@@ -16,7 +16,7 @@
 
 ## Description
 
-CompositeFailure subpackage.
+CompositeFailure module.
 
 <!-- !! processed by numpydoc !! -->
 

@@ -2,7 +2,7 @@
 
 <a id="ansys.mechanical.stubs.v241.Ansys.ACT.Mechanical.Fields.Adapters.DSJointLoadAdapter"></a>
 
-#### *class* ansys.mechanical.stubs.v241.Ansys.ACT.Mechanical.Fields.Adapters.DSJointLoadAdapter
+#### *class* Ansys.ACT.Mechanical.Fields.Adapters.DSJointLoadAdapter
 
 Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 

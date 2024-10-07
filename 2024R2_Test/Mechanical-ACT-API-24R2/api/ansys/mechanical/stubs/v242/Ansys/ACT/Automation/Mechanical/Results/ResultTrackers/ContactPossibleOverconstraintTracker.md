@@ -2,7 +2,7 @@
 
 <a id="ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Results.ResultTrackers.ContactPossibleOverconstraintTracker"></a>
 
-#### *class* ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Results.ResultTrackers.ContactPossibleOverconstraintTracker
+#### *class* Ansys.ACT.Automation.Mechanical.Results.ResultTrackers.ContactPossibleOverconstraintTracker
 
 Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 

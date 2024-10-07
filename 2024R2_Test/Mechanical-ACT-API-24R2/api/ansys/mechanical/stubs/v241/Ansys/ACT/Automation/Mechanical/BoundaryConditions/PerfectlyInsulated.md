@@ -2,7 +2,7 @@
 
 <a id="ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.BoundaryConditions.PerfectlyInsulated"></a>
 
-#### *class* ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.BoundaryConditions.PerfectlyInsulated
+#### *class* Ansys.ACT.Automation.Mechanical.BoundaryConditions.PerfectlyInsulated
 
 Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 

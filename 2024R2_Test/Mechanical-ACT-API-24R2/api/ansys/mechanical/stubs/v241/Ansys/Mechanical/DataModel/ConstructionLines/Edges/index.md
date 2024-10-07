@@ -20,7 +20,7 @@
 
 ## Description
 
-Edges subpackage.
+Edges module.
 
 <!-- !! processed by numpydoc !! -->
 

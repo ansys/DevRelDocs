@@ -2,7 +2,7 @@
 
 <a id="ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.MeshExtrude"></a>
 
-#### *class* ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.MeshExtrude
+#### *class* Ansys.ACT.Automation.Mechanical.MeshExtrude
 
 Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 

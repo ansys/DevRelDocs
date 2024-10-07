@@ -2,7 +2,7 @@
 
 <a id="ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Results.BeamResults.TotalBendingMoment"></a>
 
-#### *class* ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Results.BeamResults.TotalBendingMoment
+#### *class* Ansys.ACT.Automation.Mechanical.Results.BeamResults.TotalBendingMoment
 
 Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 

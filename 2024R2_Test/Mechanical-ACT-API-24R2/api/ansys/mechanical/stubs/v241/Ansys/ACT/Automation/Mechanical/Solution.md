@@ -2,7 +2,7 @@
 
 <a id="ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Solution"></a>
 
-#### *class* ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Solution
+#### *class* Ansys.ACT.Automation.Mechanical.Solution
 
 Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 

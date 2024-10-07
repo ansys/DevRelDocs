@@ -2,7 +2,7 @@
 
 <a id="ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Results.ElectromagneticResults.MagneticDirectionalForces"></a>
 
-#### *class* ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Results.ElectromagneticResults.MagneticDirectionalForces
+#### *class* Ansys.ACT.Automation.Mechanical.Results.ElectromagneticResults.MagneticDirectionalForces
 
 Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 

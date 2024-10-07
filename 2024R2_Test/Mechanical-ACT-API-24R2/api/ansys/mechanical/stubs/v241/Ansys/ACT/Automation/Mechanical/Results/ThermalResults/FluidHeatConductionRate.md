@@ -2,7 +2,7 @@
 
 <a id="ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Results.ThermalResults.FluidHeatConductionRate"></a>
 
-#### *class* ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Results.ThermalResults.FluidHeatConductionRate
+#### *class* Ansys.ACT.Automation.Mechanical.Results.ThermalResults.FluidHeatConductionRate
 
 Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 

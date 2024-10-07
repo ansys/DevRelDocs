@@ -2,7 +2,7 @@
 
 <a id="ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Results.StressResults.NormalStress"></a>
 
-#### *class* ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Results.StressResults.NormalStress
+#### *class* Ansys.ACT.Automation.Mechanical.Results.StressResults.NormalStress
 
 Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 

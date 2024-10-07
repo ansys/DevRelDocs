@@ -2,7 +2,7 @@
 
 <a id="ansys.mechanical.stubs.v242.Ansys.ACT.Interfaces.Mechanical.IMechanicalUserSolver"></a>
 
-#### *class* ansys.mechanical.stubs.v242.Ansys.ACT.Interfaces.Mechanical.IMechanicalUserSolver
+#### *class* Ansys.ACT.Interfaces.Mechanical.IMechanicalUserSolver
 
 Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 

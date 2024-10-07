@@ -2,7 +2,7 @@
 
 <a id="ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Results.ElectricResults.TotalElectrostaticForce"></a>
 
-#### *class* ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Results.ElectricResults.TotalElectrostaticForce
+#### *class* Ansys.ACT.Automation.Mechanical.Results.ElectricResults.TotalElectrostaticForce
 
 Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 

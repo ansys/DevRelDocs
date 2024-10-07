@@ -2,7 +2,7 @@
 
 <a id="ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.MeshControls.MatchControl"></a>
 
-#### *class* ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.MeshControls.MatchControl
+#### *class* Ansys.ACT.Automation.Mechanical.MeshControls.MatchControl
 
 Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 

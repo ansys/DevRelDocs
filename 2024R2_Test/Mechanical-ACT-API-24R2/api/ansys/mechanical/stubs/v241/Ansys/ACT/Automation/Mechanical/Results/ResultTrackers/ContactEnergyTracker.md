@@ -2,7 +2,7 @@
 
 <a id="ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Results.ResultTrackers.ContactEnergyTracker"></a>
 
-#### *class* ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Results.ResultTrackers.ContactEnergyTracker
+#### *class* Ansys.ACT.Automation.Mechanical.Results.ResultTrackers.ContactEnergyTracker
 
 Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 

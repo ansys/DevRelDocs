@@ -14,7 +14,7 @@
 
 ## Description
 
-Substructure subpackage.
+Substructure module.
 
 <!-- !! processed by numpydoc !! -->
 

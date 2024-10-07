@@ -2,7 +2,7 @@
 
 <a id="ansys.mechanical.stubs.v241.Ansys.ACT.Mechanical.Fields.Adapters.DSRSLoadAdapter"></a>
 
-#### *class* ansys.mechanical.stubs.v241.Ansys.ACT.Mechanical.Fields.Adapters.DSRSLoadAdapter
+#### *class* Ansys.ACT.Mechanical.Fields.Adapters.DSRSLoadAdapter
 
 Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 

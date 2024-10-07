@@ -2,7 +2,7 @@
 
 <a id="ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Results.ResultTrackers.ContactMinimumNormalStiffnessTracker"></a>
 
-#### *class* ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Results.ResultTrackers.ContactMinimumNormalStiffnessTracker
+#### *class* Ansys.ACT.Automation.Mechanical.Results.ResultTrackers.ContactMinimumNormalStiffnessTracker
 
 Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 

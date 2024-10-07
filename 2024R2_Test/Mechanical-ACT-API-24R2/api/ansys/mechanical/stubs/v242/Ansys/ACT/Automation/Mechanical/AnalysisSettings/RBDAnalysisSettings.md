@@ -2,7 +2,7 @@
 
 <a id="ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.AnalysisSettings.RBDAnalysisSettings"></a>
 
-#### *class* ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.AnalysisSettings.RBDAnalysisSettings
+#### *class* Ansys.ACT.Automation.Mechanical.AnalysisSettings.RBDAnalysisSettings
 
 Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 

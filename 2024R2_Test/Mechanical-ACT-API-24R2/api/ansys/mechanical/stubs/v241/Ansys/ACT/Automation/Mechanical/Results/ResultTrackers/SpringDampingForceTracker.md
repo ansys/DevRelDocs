@@ -2,7 +2,7 @@
 
 <a id="ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Results.ResultTrackers.SpringDampingForceTracker"></a>
 
-#### *class* ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Results.ResultTrackers.SpringDampingForceTracker
+#### *class* Ansys.ACT.Automation.Mechanical.Results.ResultTrackers.SpringDampingForceTracker
 
 Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 

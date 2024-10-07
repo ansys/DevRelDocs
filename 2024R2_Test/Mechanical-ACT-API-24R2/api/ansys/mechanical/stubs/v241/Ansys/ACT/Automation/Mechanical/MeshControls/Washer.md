@@ -2,7 +2,7 @@
 
 <a id="ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.MeshControls.Washer"></a>
 
-#### *class* ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.MeshControls.Washer
+#### *class* Ansys.ACT.Automation.Mechanical.MeshControls.Washer
 
 Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 

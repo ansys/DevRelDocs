@@ -2,7 +2,7 @@
 
 <a id="ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.MeshControls.AutomaticMethod"></a>
 
-#### *class* ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.MeshControls.AutomaticMethod
+#### *class* Ansys.ACT.Automation.Mechanical.MeshControls.AutomaticMethod
 
 Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 

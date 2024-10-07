@@ -2,7 +2,7 @@
 
 <a id="ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.PhysicsRegion"></a>
 
-#### *class* ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.PhysicsRegion
+#### *class* Ansys.ACT.Automation.Mechanical.PhysicsRegion
 
 Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 

@@ -2,7 +2,7 @@
 
 <a id="ansys.mechanical.stubs.v242.Ansys.Mechanical.Math.BoundVector"></a>
 
-#### *class* ansys.mechanical.stubs.v242.Ansys.Mechanical.Math.BoundVector
+#### *class* Ansys.Mechanical.Math.BoundVector
 
 Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 

@@ -2,7 +2,7 @@
 
 <a id="ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Results.StressResults.ShellBottomPeakStress"></a>
 
-#### *class* ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Results.StressResults.ShellBottomPeakStress
+#### *class* Ansys.ACT.Automation.Mechanical.Results.StressResults.ShellBottomPeakStress
 
 Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 

@@ -2,7 +2,7 @@
 
 <a id="ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Results.BeamToolResults.BeamTool"></a>
 
-#### *class* ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Results.BeamToolResults.BeamTool
+#### *class* Ansys.ACT.Automation.Mechanical.Results.BeamToolResults.BeamTool
 
 Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 

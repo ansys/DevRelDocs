@@ -2,7 +2,7 @@
 
 <a id="ansys.mechanical.stubs.v242.Ansys.Mechanical.Application.Messages"></a>
 
-#### *class* ansys.mechanical.stubs.v242.Ansys.Mechanical.Application.Messages
+#### *class* Ansys.Mechanical.Application.Messages
 
 Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 

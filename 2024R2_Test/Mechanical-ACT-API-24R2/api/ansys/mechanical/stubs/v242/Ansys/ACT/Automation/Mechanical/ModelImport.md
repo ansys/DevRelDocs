@@ -2,7 +2,7 @@
 
 <a id="ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.ModelImport"></a>
 
-#### *class* ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.ModelImport
+#### *class* Ansys.ACT.Automation.Mechanical.ModelImport
 
 Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 

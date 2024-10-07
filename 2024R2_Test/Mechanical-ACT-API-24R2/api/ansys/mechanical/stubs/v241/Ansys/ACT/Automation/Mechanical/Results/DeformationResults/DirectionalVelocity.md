@@ -2,7 +2,7 @@
 
 <a id="ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Results.DeformationResults.DirectionalVelocity"></a>
 
-#### *class* ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Results.DeformationResults.DirectionalVelocity
+#### *class* Ansys.ACT.Automation.Mechanical.Results.DeformationResults.DirectionalVelocity
 
 Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 

@@ -2,7 +2,7 @@
 
 <a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.Graphics.Tools.CurrentLegendSettings"></a>
 
-#### *class* ansys.mechanical.stubs.v241.Ansys.Mechanical.Graphics.Tools.CurrentLegendSettings
+#### *class* Ansys.Mechanical.Graphics.Tools.CurrentLegendSettings
 
 Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 

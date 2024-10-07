@@ -2,7 +2,7 @@
 
 <a id="ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.AdditiveManufacturing.AMProcess"></a>
 
-#### *class* ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.AdditiveManufacturing.AMProcess
+#### *class* Ansys.ACT.Automation.Mechanical.AdditiveManufacturing.AMProcess
 
 Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 

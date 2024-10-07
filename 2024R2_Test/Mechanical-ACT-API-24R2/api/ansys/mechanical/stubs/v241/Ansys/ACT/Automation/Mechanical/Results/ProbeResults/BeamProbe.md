@@ -2,7 +2,7 @@
 
 <a id="ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Results.ProbeResults.BeamProbe"></a>
 
-#### *class* ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Results.ProbeResults.BeamProbe
+#### *class* Ansys.ACT.Automation.Mechanical.Results.ProbeResults.BeamProbe
 
 Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 

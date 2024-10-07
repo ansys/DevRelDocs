@@ -2,7 +2,7 @@
 
 <a id="ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.MechanicalEnums.Graphics.GeometryView"></a>
 
-#### *class* ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.MechanicalEnums.Graphics.GeometryView
+#### *class* Ansys.Mechanical.DataModel.MechanicalEnums.Graphics.GeometryView
 
 Bases: [`enum.Enum`](https://docs.python.org/3/library/enum.html#enum.Enum)
 

@@ -2,7 +2,7 @@
 
 <a id="ansys.mechanical.stubs.v242.Ansys.ACT.Mechanical.Fields.Adapters.DSBoltPretensionAdapter"></a>
 
-#### *class* ansys.mechanical.stubs.v242.Ansys.ACT.Mechanical.Fields.Adapters.DSBoltPretensionAdapter
+#### *class* Ansys.ACT.Mechanical.Fields.Adapters.DSBoltPretensionAdapter
 
 Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 

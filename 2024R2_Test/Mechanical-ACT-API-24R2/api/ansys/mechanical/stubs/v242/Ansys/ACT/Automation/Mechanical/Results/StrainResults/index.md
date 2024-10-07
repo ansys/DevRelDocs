@@ -33,7 +33,7 @@
 
 ## Description
 
-StrainResults subpackage.
+StrainResults module.
 
 <!-- !! processed by numpydoc !! -->
 

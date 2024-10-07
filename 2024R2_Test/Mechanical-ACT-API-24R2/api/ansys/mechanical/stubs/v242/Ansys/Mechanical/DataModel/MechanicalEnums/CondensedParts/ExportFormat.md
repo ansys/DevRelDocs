@@ -2,7 +2,7 @@
 
 <a id="ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.MechanicalEnums.CondensedParts.ExportFormat"></a>
 
-#### *class* ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.MechanicalEnums.CondensedParts.ExportFormat
+#### *class* Ansys.Mechanical.DataModel.MechanicalEnums.CondensedParts.ExportFormat
 
 Bases: [`enum.Enum`](https://docs.python.org/3/library/enum.html#enum.Enum)
 

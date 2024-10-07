@@ -2,7 +2,7 @@
 
 <a id="ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.FE.ABAQUS.ABAQUSCommand"></a>
 
-#### *class* ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.FE.ABAQUS.ABAQUSCommand
+#### *class* Ansys.ACT.Automation.Mechanical.FE.ABAQUS.ABAQUSCommand
 
 Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 

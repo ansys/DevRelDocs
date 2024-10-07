@@ -2,7 +2,7 @@
 
 <a id="ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Connections.Joint"></a>
 
-#### *class* ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Connections.Joint
+#### *class* Ansys.ACT.Automation.Mechanical.Connections.Joint
 
 Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 

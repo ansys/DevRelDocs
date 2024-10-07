@@ -19,7 +19,7 @@
 
 ## Description
 
-ABAQUS subpackage.
+ABAQUS module.
 
 <!-- !! processed by numpydoc !! -->
 

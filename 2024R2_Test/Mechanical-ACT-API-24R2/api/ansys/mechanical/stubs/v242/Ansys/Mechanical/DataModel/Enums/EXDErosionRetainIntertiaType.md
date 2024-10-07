@@ -2,7 +2,7 @@
 
 <a id="ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.EXDErosionRetainIntertiaType"></a>
 
-#### *class* ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.EXDErosionRetainIntertiaType
+#### *class* Ansys.Mechanical.DataModel.Enums.EXDErosionRetainIntertiaType
 
 Bases: [`enum.Enum`](https://docs.python.org/3/library/enum.html#enum.Enum)
 

@@ -2,7 +2,7 @@
 
 <a id="ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Results.ResultTrackers.ContactPairForceConvergenceNormTracker"></a>
 
-#### *class* ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Results.ResultTrackers.ContactPairForceConvergenceNormTracker
+#### *class* Ansys.ACT.Automation.Mechanical.Results.ResultTrackers.ContactPairForceConvergenceNormTracker
 
 Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 

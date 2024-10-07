@@ -18,7 +18,7 @@
 
 ## Description
 
-Application subpackage.
+Application module.
 
 <!-- !! processed by numpydoc !! -->
 

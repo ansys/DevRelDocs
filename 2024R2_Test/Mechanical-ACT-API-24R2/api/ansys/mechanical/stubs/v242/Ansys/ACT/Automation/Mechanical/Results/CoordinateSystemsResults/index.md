@@ -22,7 +22,7 @@
 
 ## Description
 
-CoordinateSystemsResults subpackage.
+CoordinateSystemsResults module.
 
 <!-- !! processed by numpydoc !! -->
 

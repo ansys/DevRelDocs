@@ -21,7 +21,7 @@
 
 ## Description
 
-FractureToolResults subpackage.
+FractureToolResults module.
 
 <!-- !! processed by numpydoc !! -->
 

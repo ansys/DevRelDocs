@@ -37,7 +37,7 @@
 
 ## Description
 
-FrequencyResponseResults subpackage.
+FrequencyResponseResults module.
 
 <!-- !! processed by numpydoc !! -->
 

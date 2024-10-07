@@ -2,7 +2,7 @@
 
 <a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.Application.ObjectTags"></a>
 
-#### *class* ansys.mechanical.stubs.v241.Ansys.Mechanical.Application.ObjectTags
+#### *class* Ansys.Mechanical.Application.ObjectTags
 
 Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 

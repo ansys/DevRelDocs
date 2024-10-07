@@ -4,35 +4,35 @@
 
 ## Summary
 
-### Subpackages
+### Modules
 
 | Name | Description |
-|---------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------|
-| [`AcousticResults`](AcousticResults/index.md#module-ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Results.AcousticResults)                            | AcousticResults subpackage.          |
-| [`BeamResults`](BeamResults/index.md#module-ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Results.BeamResults)                                        | BeamResults subpackage.              |
-| [`BeamToolResults`](BeamToolResults/index.md#module-ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Results.BeamToolResults)                            | BeamToolResults subpackage.          |
-| [`BoltToolResults`](BoltToolResults/index.md#module-ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Results.BoltToolResults)                            | BoltToolResults subpackage.          |
-| [`CompositeFailureResults`](CompositeFailureResults/index.md#module-ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Results.CompositeFailureResults)    | CompositeFailureResults subpackage.  |
-| [`ContactToolResults`](ContactToolResults/index.md#module-ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Results.ContactToolResults)                   | ContactToolResults subpackage.       |
-| [`CoordinateSystemsResults`](CoordinateSystemsResults/index.md#module-ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Results.CoordinateSystemsResults) | CoordinateSystemsResults subpackage. |
-| [`DamageResults`](DamageResults/index.md#module-ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Results.DamageResults)                                  | DamageResults subpackage.            |
-| [`DeformationResults`](DeformationResults/index.md#module-ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Results.DeformationResults)                   | DeformationResults subpackage.       |
-| [`ElectricResults`](ElectricResults/index.md#module-ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Results.ElectricResults)                            | ElectricResults subpackage.          |
-| [`ElectromagneticResults`](ElectromagneticResults/index.md#module-ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Results.ElectromagneticResults)       | ElectromagneticResults subpackage.   |
-| [`EnergyResults`](EnergyResults/index.md#module-ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Results.EnergyResults)                                  | EnergyResults subpackage.            |
-| [`FatigueToolResults`](FatigueToolResults/index.md#module-ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Results.FatigueToolResults)                   | FatigueToolResults subpackage.       |
-| [`FractureToolResults`](FractureToolResults/index.md#module-ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Results.FractureToolResults)                | FractureToolResults subpackage.      |
-| [`FrequencyResponseResults`](FrequencyResponseResults/index.md#module-ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Results.FrequencyResponseResults) | FrequencyResponseResults subpackage. |
-| [`GasketResults`](GasketResults/index.md#module-ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Results.GasketResults)                                  | GasketResults subpackage.            |
-| [`LinearizedStressResults`](LinearizedStressResults/index.md#module-ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Results.LinearizedStressResults)    | LinearizedStressResults subpackage.  |
-| [`PhaseResponseResults`](PhaseResponseResults/index.md#module-ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Results.PhaseResponseResults)             | PhaseResponseResults subpackage.     |
-| [`ProbeResults`](ProbeResults/index.md#module-ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Results.ProbeResults)                                     | ProbeResults subpackage.             |
-| [`ResultTrackers`](ResultTrackers/index.md#module-ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Results.ResultTrackers)                               | ResultTrackers subpackage.           |
-| [`ScriptableResults`](ScriptableResults/index.md#module-ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Results.ScriptableResults)                      | ScriptableResults subpackage.        |
-| [`StrainResults`](StrainResults/index.md#module-ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Results.StrainResults)                                  | StrainResults subpackage.            |
-| [`StressResults`](StressResults/index.md#module-ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Results.StressResults)                                  | StressResults subpackage.            |
-| [`StressToolResults`](StressToolResults/index.md#module-ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Results.StressToolResults)                      | StressToolResults subpackage.        |
-| [`ThermalResults`](ThermalResults/index.md#module-ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Results.ThermalResults)                               | ThermalResults subpackage.           |
+|---------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------|
+| [`AcousticResults`](AcousticResults/index.md#module-ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Results.AcousticResults)                            | AcousticResults module.          |
+| [`BeamResults`](BeamResults/index.md#module-ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Results.BeamResults)                                        | BeamResults module.              |
+| [`BeamToolResults`](BeamToolResults/index.md#module-ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Results.BeamToolResults)                            | BeamToolResults module.          |
+| [`BoltToolResults`](BoltToolResults/index.md#module-ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Results.BoltToolResults)                            | BoltToolResults module.          |
+| [`CompositeFailureResults`](CompositeFailureResults/index.md#module-ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Results.CompositeFailureResults)    | CompositeFailureResults module.  |
+| [`ContactToolResults`](ContactToolResults/index.md#module-ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Results.ContactToolResults)                   | ContactToolResults module.       |
+| [`CoordinateSystemsResults`](CoordinateSystemsResults/index.md#module-ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Results.CoordinateSystemsResults) | CoordinateSystemsResults module. |
+| [`DamageResults`](DamageResults/index.md#module-ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Results.DamageResults)                                  | DamageResults module.            |
+| [`DeformationResults`](DeformationResults/index.md#module-ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Results.DeformationResults)                   | DeformationResults module.       |
+| [`ElectricResults`](ElectricResults/index.md#module-ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Results.ElectricResults)                            | ElectricResults module.          |
+| [`ElectromagneticResults`](ElectromagneticResults/index.md#module-ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Results.ElectromagneticResults)       | ElectromagneticResults module.   |
+| [`EnergyResults`](EnergyResults/index.md#module-ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Results.EnergyResults)                                  | EnergyResults module.            |
+| [`FatigueToolResults`](FatigueToolResults/index.md#module-ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Results.FatigueToolResults)                   | FatigueToolResults module.       |
+| [`FractureToolResults`](FractureToolResults/index.md#module-ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Results.FractureToolResults)                | FractureToolResults module.      |
+| [`FrequencyResponseResults`](FrequencyResponseResults/index.md#module-ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Results.FrequencyResponseResults) | FrequencyResponseResults module. |
+| [`GasketResults`](GasketResults/index.md#module-ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Results.GasketResults)                                  | GasketResults module.            |
+| [`LinearizedStressResults`](LinearizedStressResults/index.md#module-ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Results.LinearizedStressResults)    | LinearizedStressResults module.  |
+| [`PhaseResponseResults`](PhaseResponseResults/index.md#module-ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Results.PhaseResponseResults)             | PhaseResponseResults module.     |
+| [`ProbeResults`](ProbeResults/index.md#module-ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Results.ProbeResults)                                     | ProbeResults module.             |
+| [`ResultTrackers`](ResultTrackers/index.md#module-ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Results.ResultTrackers)                               | ResultTrackers module.           |
+| [`ScriptableResults`](ScriptableResults/index.md#module-ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Results.ScriptableResults)                      | ScriptableResults module.        |
+| [`StrainResults`](StrainResults/index.md#module-ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Results.StrainResults)                                  | StrainResults module.            |
+| [`StressResults`](StressResults/index.md#module-ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Results.StressResults)                                  | StressResults module.            |
+| [`StressToolResults`](StressToolResults/index.md#module-ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Results.StressToolResults)                      | StressToolResults module.        |
+| [`ThermalResults`](ThermalResults/index.md#module-ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Results.ThermalResults)                               | ThermalResults module.           |
 
 ### Classes
 
@@ -67,7 +67,7 @@
 
 ## Description
 
-Results subpackage.
+Results module.
 
 <!-- !! processed by numpydoc !! -->
 

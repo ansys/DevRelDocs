@@ -2,7 +2,7 @@
 
 <a id="ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.MeshWorkflowInput"></a>
 
-#### *class* ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.MeshWorkflowInput
+#### *class* Ansys.ACT.Automation.Mechanical.MeshWorkflowInput
 
 Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 

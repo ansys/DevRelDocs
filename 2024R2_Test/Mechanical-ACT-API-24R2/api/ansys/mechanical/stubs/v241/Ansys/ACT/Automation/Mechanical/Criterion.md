@@ -2,7 +2,7 @@
 
 <a id="ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Criterion"></a>
 
-#### *class* ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Criterion
+#### *class* Ansys.ACT.Automation.Mechanical.Criterion
 
 Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
