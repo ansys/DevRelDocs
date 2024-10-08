@@ -22,7 +22,7 @@
 
 ## Description
 
-LinearizedStressResults subpackage.
+LinearizedStressResults module.
 
 <!-- !! processed by numpydoc !! -->
 

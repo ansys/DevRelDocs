@@ -24,7 +24,7 @@
 
 ## Description
 
-ElectricResults subpackage.
+ElectricResults module.
 
 <!-- !! processed by numpydoc !! -->
 

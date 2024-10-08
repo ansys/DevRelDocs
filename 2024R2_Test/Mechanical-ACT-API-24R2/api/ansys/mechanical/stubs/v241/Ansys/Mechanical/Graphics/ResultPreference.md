@@ -2,7 +2,7 @@
 
 <a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.Graphics.ResultPreference"></a>
 
-#### *class* ansys.mechanical.stubs.v241.Ansys.Mechanical.Graphics.ResultPreference
+#### *class* Ansys.Mechanical.Graphics.ResultPreference
 
 Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 

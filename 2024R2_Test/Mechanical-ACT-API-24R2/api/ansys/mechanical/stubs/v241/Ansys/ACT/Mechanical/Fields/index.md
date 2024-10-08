@@ -4,11 +4,11 @@
 
 ## Summary
 
-### Subpackages
+### Modules
 
 | Name | Description |
-|-----------------------------------------------------------------------------------------------------------|------------------------|
-| [`Adapters`](Adapters/index.md#module-ansys.mechanical.stubs.v241.Ansys.ACT.Mechanical.Fields.Adapters)   | Adapters subpackage.   |
+|-----------------------------------------------------------------------------------------------------------|--------------------|
+| [`Adapters`](Adapters/index.md#module-ansys.mechanical.stubs.v241.Ansys.ACT.Mechanical.Fields.Adapters)   | Adapters module.   |
 
 ### Classes
 
@@ -27,7 +27,7 @@
 
 ## Description
 
-Fields subpackage.
+Fields module.
 
 <!-- !! processed by numpydoc !! -->
 

@@ -2,7 +2,7 @@
 
 <a id="ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Results.BeamResults.TotalAxialForce"></a>
 
-#### *class* ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Results.BeamResults.TotalAxialForce
+#### *class* Ansys.ACT.Automation.Mechanical.Results.BeamResults.TotalAxialForce
 
 Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 

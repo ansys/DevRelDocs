@@ -2,7 +2,7 @@
 
 <a id="ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Connections.SpotWeldGroup"></a>
 
-#### *class* ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Connections.SpotWeldGroup
+#### *class* Ansys.ACT.Automation.Mechanical.Connections.SpotWeldGroup
 
 Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 

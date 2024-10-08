@@ -34,7 +34,7 @@
 
 ## Description
 
-AdditiveManufacturing subpackage.
+AdditiveManufacturing module.
 
 <!-- !! processed by numpydoc !! -->
 

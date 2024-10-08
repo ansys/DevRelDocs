@@ -2,7 +2,7 @@
 
 <a id="ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.BoundaryConditions.AcousticMassSourceRate"></a>
 
-#### *class* ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.BoundaryConditions.AcousticMassSourceRate
+#### *class* Ansys.ACT.Automation.Mechanical.BoundaryConditions.AcousticMassSourceRate
 
 Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 

@@ -2,7 +2,7 @@
 
 <a id="ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.MappingValidation"></a>
 
-#### *class* ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.MappingValidation
+#### *class* Ansys.ACT.Automation.Mechanical.MappingValidation
 
 Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 

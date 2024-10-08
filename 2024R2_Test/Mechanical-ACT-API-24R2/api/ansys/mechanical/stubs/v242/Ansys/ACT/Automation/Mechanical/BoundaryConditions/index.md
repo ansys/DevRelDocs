@@ -115,7 +115,7 @@
 
 ## Description
 
-BoundaryConditions subpackage.
+BoundaryConditions module.
 
 <!-- !! processed by numpydoc !! -->
 

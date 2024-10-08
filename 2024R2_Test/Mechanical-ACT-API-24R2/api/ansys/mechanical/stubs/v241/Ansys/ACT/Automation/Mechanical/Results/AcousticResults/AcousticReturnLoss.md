@@ -2,7 +2,7 @@
 
 <a id="ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Results.AcousticResults.AcousticReturnLoss"></a>
 
-#### *class* ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Results.AcousticResults.AcousticReturnLoss
+#### *class* Ansys.ACT.Automation.Mechanical.Results.AcousticResults.AcousticReturnLoss
 
 Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 

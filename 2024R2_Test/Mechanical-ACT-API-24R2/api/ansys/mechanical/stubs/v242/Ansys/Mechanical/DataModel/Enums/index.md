@@ -4,12 +4,12 @@
 
 ## Summary
 
-### Subpackages
+### Modules
 
 | Name | Description |
-|--------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------|
-| [`ExternalModel`](ExternalModel/index.md#module-ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.ExternalModel)                                  | ExternalModel subpackage.            |
-| [`GeometryImportPreference`](GeometryImportPreference/index.md#module-ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.GeometryImportPreference) | GeometryImportPreference subpackage. |
+|--------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------|
+| [`ExternalModel`](ExternalModel/index.md#module-ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.ExternalModel)                                  | ExternalModel module.            |
+| [`GeometryImportPreference`](GeometryImportPreference/index.md#module-ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.GeometryImportPreference) | GeometryImportPreference module. |
 
 ### Enums
 
@@ -635,7 +635,7 @@
 
 ## Description
 
-Enums subpackage.
+Enums module.
 
 <!-- !! processed by numpydoc !! -->
 

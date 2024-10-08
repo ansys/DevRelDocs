@@ -2,7 +2,7 @@
 
 <a id="ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.CommandSnippet"></a>
 
-#### *class* ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.CommandSnippet
+#### *class* Ansys.ACT.Automation.Mechanical.CommandSnippet
 
 Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 

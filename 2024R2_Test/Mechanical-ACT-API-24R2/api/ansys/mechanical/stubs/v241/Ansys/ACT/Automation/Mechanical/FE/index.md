@@ -4,13 +4,13 @@
 
 ## Summary
 
-### Subpackages
+### Modules
 
 | Name | Description |
-|-------------------------------------------------------------------------------------------------------------|----------------------|
-| [`ABAQUS`](ABAQUS/index.md#module-ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.FE.ABAQUS)    | ABAQUS subpackage.   |
-| [`CDB`](CDB/index.md#module-ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.FE.CDB)             | CDB subpackage.      |
-| [`NASTRAN`](NASTRAN/index.md#module-ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.FE.NASTRAN) | NASTRAN subpackage.  |
+|-------------------------------------------------------------------------------------------------------------|------------------|
+| [`ABAQUS`](ABAQUS/index.md#module-ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.FE.ABAQUS)    | ABAQUS module.   |
+| [`CDB`](CDB/index.md#module-ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.FE.CDB)             | CDB module.      |
+| [`NASTRAN`](NASTRAN/index.md#module-ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.FE.NASTRAN) | NASTRAN module.  |
 
 ### Classes
 
@@ -31,7 +31,7 @@
 
 ## Description
 
-FE subpackage.
+FE module.
 
 <!-- !! processed by numpydoc !! -->
 

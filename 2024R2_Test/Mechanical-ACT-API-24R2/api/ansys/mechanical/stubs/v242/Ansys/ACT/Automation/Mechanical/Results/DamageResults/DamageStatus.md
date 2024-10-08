@@ -2,7 +2,7 @@
 
 <a id="ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Results.DamageResults.DamageStatus"></a>
 
-#### *class* ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Results.DamageResults.DamageStatus
+#### *class* Ansys.ACT.Automation.Mechanical.Results.DamageResults.DamageStatus
 
 Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 

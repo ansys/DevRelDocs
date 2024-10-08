@@ -4,11 +4,11 @@
 
 ## Summary
 
-### Subpackages
+### Modules
 
 | Name | Description |
-|-----------------------------------------------------------------------------------------------------------------------------|---------------------------|
-| [`TabularData`](TabularData/index.md#module-ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Utilities.TabularData)   | TabularData subpackage.   |
+|-----------------------------------------------------------------------------------------------------------------------------|-----------------------|
+| [`TabularData`](TabularData/index.md#module-ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Utilities.TabularData)   | TabularData module.   |
 
 ### Classes
 
@@ -22,7 +22,7 @@
 
 ## Description
 
-Utilities subpackage.
+Utilities module.
 
 <!-- !! processed by numpydoc !! -->
 

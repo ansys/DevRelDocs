@@ -2,7 +2,7 @@
 
 <a id="ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Results.BeamResults.DirectionalShearForce"></a>
 
-#### *class* ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Results.BeamResults.DirectionalShearForce
+#### *class* Ansys.ACT.Automation.Mechanical.Results.BeamResults.DirectionalShearForce
 
 Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 

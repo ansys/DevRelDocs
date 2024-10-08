@@ -2,7 +2,7 @@
 
 <a id="ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.TableGroup"></a>
 
-#### *class* ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.TableGroup
+#### *class* Ansys.ACT.Automation.Mechanical.TableGroup
 
 Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 

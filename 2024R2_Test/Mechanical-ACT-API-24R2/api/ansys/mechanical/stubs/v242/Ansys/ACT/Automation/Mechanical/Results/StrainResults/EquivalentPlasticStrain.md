@@ -2,7 +2,7 @@
 
 <a id="ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Results.StrainResults.EquivalentPlasticStrain"></a>
 
-#### *class* ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Results.StrainResults.EquivalentPlasticStrain
+#### *class* Ansys.ACT.Automation.Mechanical.Results.StrainResults.EquivalentPlasticStrain
 
 Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 

@@ -62,7 +62,7 @@
 
 ## Description
 
-CDB subpackage.
+CDB module.
 
 <!-- !! processed by numpydoc !! -->
 

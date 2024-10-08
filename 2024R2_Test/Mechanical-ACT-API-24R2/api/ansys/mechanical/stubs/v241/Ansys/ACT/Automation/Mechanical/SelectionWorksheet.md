@@ -2,7 +2,7 @@
 
 <a id="ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.SelectionWorksheet"></a>
 
-#### *class* ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.SelectionWorksheet
+#### *class* Ansys.ACT.Automation.Mechanical.SelectionWorksheet
 
 Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 

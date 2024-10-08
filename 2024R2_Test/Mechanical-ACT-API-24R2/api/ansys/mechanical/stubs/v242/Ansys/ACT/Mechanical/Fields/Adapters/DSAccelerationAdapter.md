@@ -2,7 +2,7 @@
 
 <a id="ansys.mechanical.stubs.v242.Ansys.ACT.Mechanical.Fields.Adapters.DSAccelerationAdapter"></a>
 
-#### *class* ansys.mechanical.stubs.v242.Ansys.ACT.Mechanical.Fields.Adapters.DSAccelerationAdapter
+#### *class* Ansys.ACT.Mechanical.Fields.Adapters.DSAccelerationAdapter
 
 Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 

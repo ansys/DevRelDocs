@@ -14,7 +14,7 @@
 
 ## Description
 
-Materials subpackage.
+Materials module.
 
 <!-- !! processed by numpydoc !! -->
 

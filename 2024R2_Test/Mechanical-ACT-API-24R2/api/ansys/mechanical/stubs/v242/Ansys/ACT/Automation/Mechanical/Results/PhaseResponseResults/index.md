@@ -18,7 +18,7 @@
 
 ## Description
 
-PhaseResponseResults subpackage.
+PhaseResponseResults module.
 
 <!-- !! processed by numpydoc !! -->
 

@@ -2,7 +2,7 @@
 
 <a id="ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Results.ProbeResults.HeatFluxProbe"></a>
 
-#### *class* ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Results.ProbeResults.HeatFluxProbe
+#### *class* Ansys.ACT.Automation.Mechanical.Results.ProbeResults.HeatFluxProbe
 
 Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 

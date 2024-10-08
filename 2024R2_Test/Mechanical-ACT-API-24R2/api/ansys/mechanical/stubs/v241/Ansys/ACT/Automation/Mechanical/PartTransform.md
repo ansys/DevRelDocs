@@ -2,7 +2,7 @@
 
 <a id="ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.PartTransform"></a>
 
-#### *class* ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.PartTransform
+#### *class* Ansys.ACT.Automation.Mechanical.PartTransform
 
 Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 

@@ -2,7 +2,7 @@
 
 <a id="ansys.mechanical.stubs.v242.Ansys.Mechanical.Interfaces.IReadOnlyDataTable"></a>
 
-#### *class* ansys.mechanical.stubs.v242.Ansys.Mechanical.Interfaces.IReadOnlyDataTable
+#### *class* Ansys.Mechanical.Interfaces.IReadOnlyDataTable
 
 Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 

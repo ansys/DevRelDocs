@@ -4,21 +4,21 @@
 
 ## Summary
 
-### Subpackages
+### Modules
 
 | Name | Description |
-|------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------|
-| [`AdditiveManufacturing`](AdditiveManufacturing/index.md#module-ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.AdditiveManufacturing)   | AdditiveManufacturing subpackage.   |
-| [`AnalysisSettings`](AnalysisSettings/index.md#module-ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.AnalysisSettings)                  | AnalysisSettings subpackage.        |
-| [`BoundaryConditions`](BoundaryConditions/index.md#module-ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.BoundaryConditions)            | BoundaryConditions subpackage.      |
-| [`CondensedParts`](CondensedParts/index.md#module-ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.CondensedParts)                        | CondensedParts subpackage.          |
-| [`Connections`](Connections/index.md#module-ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Connections)                                 | Connections subpackage.             |
-| [`ConstructionLines`](ConstructionLines/index.md#module-ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.ConstructionLines)               | ConstructionLines subpackage.       |
-| [`FE`](FE/index.md#module-ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.FE)                                                            | FE subpackage.                      |
-| [`ImportedLoads`](ImportedLoads/index.md#module-ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.ImportedLoads)                           | ImportedLoads subpackage.           |
-| [`MeshControls`](MeshControls/index.md#module-ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.MeshControls)                              | MeshControls subpackage.            |
-| [`Results`](Results/index.md#module-ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Results)                                             | Results subpackage.                 |
-| [`Substructure`](Substructure/index.md#module-ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Substructure)                              | Substructure subpackage.            |
+|------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------|
+| [`AdditiveManufacturing`](AdditiveManufacturing/index.md#module-ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.AdditiveManufacturing)   | AdditiveManufacturing module.   |
+| [`AnalysisSettings`](AnalysisSettings/index.md#module-ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.AnalysisSettings)                  | AnalysisSettings module.        |
+| [`BoundaryConditions`](BoundaryConditions/index.md#module-ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.BoundaryConditions)            | BoundaryConditions module.      |
+| [`CondensedParts`](CondensedParts/index.md#module-ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.CondensedParts)                        | CondensedParts module.          |
+| [`Connections`](Connections/index.md#module-ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Connections)                                 | Connections module.             |
+| [`ConstructionLines`](ConstructionLines/index.md#module-ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.ConstructionLines)               | ConstructionLines module.       |
+| [`FE`](FE/index.md#module-ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.FE)                                                            | FE module.                      |
+| [`ImportedLoads`](ImportedLoads/index.md#module-ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.ImportedLoads)                           | ImportedLoads module.           |
+| [`MeshControls`](MeshControls/index.md#module-ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.MeshControls)                              | MeshControls module.            |
+| [`Results`](Results/index.md#module-ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Results)                                             | Results module.                 |
+| [`Substructure`](Substructure/index.md#module-ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Substructure)                              | Substructure module.            |
 
 ### Interfaces
 
@@ -250,7 +250,7 @@
 
 ## Description
 
-Mechanical subpackage.
+Mechanical module.
 
 <!-- !! processed by numpydoc !! -->
 

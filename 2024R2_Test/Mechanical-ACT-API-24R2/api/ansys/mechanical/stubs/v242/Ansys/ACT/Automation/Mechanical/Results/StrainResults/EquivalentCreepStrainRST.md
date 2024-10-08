@@ -2,7 +2,7 @@
 
 <a id="ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Results.StrainResults.EquivalentCreepStrainRST"></a>
 
-#### *class* ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Results.StrainResults.EquivalentCreepStrainRST
+#### *class* Ansys.ACT.Automation.Mechanical.Results.StrainResults.EquivalentCreepStrainRST
 
 Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 

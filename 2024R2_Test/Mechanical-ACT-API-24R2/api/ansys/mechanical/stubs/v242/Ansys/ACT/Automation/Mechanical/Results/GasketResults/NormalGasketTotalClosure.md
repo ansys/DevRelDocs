@@ -2,7 +2,7 @@
 
 <a id="ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Results.GasketResults.NormalGasketTotalClosure"></a>
 
-#### *class* ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Results.GasketResults.NormalGasketTotalClosure
+#### *class* Ansys.ACT.Automation.Mechanical.Results.GasketResults.NormalGasketTotalClosure
 
 Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 

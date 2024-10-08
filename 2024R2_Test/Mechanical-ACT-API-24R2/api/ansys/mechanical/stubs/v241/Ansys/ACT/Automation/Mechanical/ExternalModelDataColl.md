@@ -2,7 +2,7 @@
 
 <a id="ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.ExternalModelDataColl"></a>
 
-#### *class* ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.ExternalModelDataColl
+#### *class* Ansys.ACT.Automation.Mechanical.ExternalModelDataColl
 
 Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 

@@ -2,7 +2,7 @@
 
 <a id="ansys.mechanical.stubs.v241.Ansys.ACT.Common.BrowserQt"></a>
 
-#### *class* ansys.mechanical.stubs.v241.Ansys.ACT.Common.BrowserQt
+#### *class* Ansys.ACT.Common.BrowserQt
 
 Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 

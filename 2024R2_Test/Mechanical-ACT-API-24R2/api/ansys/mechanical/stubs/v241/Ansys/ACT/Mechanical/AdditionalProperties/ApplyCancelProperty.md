@@ -2,7 +2,7 @@
 
 <a id="ansys.mechanical.stubs.v241.Ansys.ACT.Mechanical.AdditionalProperties.ApplyCancelProperty"></a>
 
-#### *class* ansys.mechanical.stubs.v241.Ansys.ACT.Mechanical.AdditionalProperties.ApplyCancelProperty
+#### *class* Ansys.ACT.Mechanical.AdditionalProperties.ApplyCancelProperty
 
 Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 

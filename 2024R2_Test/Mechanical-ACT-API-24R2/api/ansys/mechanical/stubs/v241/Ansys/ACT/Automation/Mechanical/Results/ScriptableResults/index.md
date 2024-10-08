@@ -15,7 +15,7 @@
 
 ## Description
 
-ScriptableResults subpackage.
+ScriptableResults module.
 
 <!-- !! processed by numpydoc !! -->
 

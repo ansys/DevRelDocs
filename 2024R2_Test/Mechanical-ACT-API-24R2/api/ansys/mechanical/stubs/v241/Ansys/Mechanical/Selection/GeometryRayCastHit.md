@@ -2,7 +2,7 @@
 
 <a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.Selection.GeometryRayCastHit"></a>
 
-#### *class* ansys.mechanical.stubs.v241.Ansys.Mechanical.Selection.GeometryRayCastHit
+#### *class* Ansys.Mechanical.Selection.GeometryRayCastHit
 
 Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 

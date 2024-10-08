@@ -2,7 +2,7 @@
 
 <a id="ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.TreeGroupingFolder"></a>
 
-#### *class* ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.TreeGroupingFolder
+#### *class* Ansys.ACT.Automation.Mechanical.TreeGroupingFolder
 
 Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 

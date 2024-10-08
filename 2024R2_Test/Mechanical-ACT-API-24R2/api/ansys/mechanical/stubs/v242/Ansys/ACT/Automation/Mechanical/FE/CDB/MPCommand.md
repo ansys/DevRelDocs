@@ -2,7 +2,7 @@
 
 <a id="ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.FE.CDB.MPCommand"></a>
 
-#### *class* ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.FE.CDB.MPCommand
+#### *class* Ansys.ACT.Automation.Mechanical.FE.CDB.MPCommand
 
 Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 

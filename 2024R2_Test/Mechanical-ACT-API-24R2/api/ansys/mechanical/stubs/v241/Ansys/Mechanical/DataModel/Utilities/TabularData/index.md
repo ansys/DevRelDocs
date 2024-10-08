@@ -8,7 +8,7 @@
 
 ## Description
 
-TabularData subpackage.
+TabularData module.
 
 <!-- !! processed by numpydoc !! -->
 

@@ -14,7 +14,7 @@
 
 ## Description
 
-Constants subpackage.
+Constants module.
 
 <!-- !! processed by numpydoc !! -->
 

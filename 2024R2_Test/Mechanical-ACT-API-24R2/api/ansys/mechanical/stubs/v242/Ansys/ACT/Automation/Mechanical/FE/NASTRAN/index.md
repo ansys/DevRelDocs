@@ -19,7 +19,7 @@
 
 ## Description
 
-NASTRAN subpackage.
+NASTRAN module.
 
 <!-- !! processed by numpydoc !! -->
 

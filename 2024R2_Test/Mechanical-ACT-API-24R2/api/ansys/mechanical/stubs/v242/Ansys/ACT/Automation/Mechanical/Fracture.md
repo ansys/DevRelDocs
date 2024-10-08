@@ -2,7 +2,7 @@
 
 <a id="ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Fracture"></a>
 
-#### *class* ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Fracture
+#### *class* Ansys.ACT.Automation.Mechanical.Fracture
 
 Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 

@@ -2,7 +2,7 @@
 
 <a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.SolverData.MAPDLSolverData"></a>
 
-#### *class* ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.SolverData.MAPDLSolverData
+#### *class* Ansys.Mechanical.DataModel.SolverData.MAPDLSolverData
 
 Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 

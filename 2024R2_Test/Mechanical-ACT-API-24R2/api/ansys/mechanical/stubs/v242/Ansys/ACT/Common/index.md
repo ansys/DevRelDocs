@@ -4,11 +4,11 @@
 
 ## Summary
 
-### Subpackages
+### Modules
 
 | Name | Description |
-|------------------------------------------------------------------------------------------------|------------------------|
-| [`Graphics`](Graphics/index.md#module-ansys.mechanical.stubs.v242.Ansys.ACT.Common.Graphics)   | Graphics subpackage.   |
+|------------------------------------------------------------------------------------------------|--------------------|
+| [`Graphics`](Graphics/index.md#module-ansys.mechanical.stubs.v242.Ansys.ACT.Common.Graphics)   | Graphics module.   |
 
 ### Classes
 
@@ -22,7 +22,7 @@
 
 ## Description
 
-Common subpackage.
+Common module.
 
 <!-- !! processed by numpydoc !! -->
 

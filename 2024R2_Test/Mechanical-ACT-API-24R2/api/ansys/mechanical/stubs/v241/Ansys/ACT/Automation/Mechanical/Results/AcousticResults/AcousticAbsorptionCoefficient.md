@@ -2,7 +2,7 @@
 
 <a id="ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Results.AcousticResults.AcousticAbsorptionCoefficient"></a>
 
-#### *class* ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Results.AcousticResults.AcousticAbsorptionCoefficient
+#### *class* Ansys.ACT.Automation.Mechanical.Results.AcousticResults.AcousticAbsorptionCoefficient
 
 Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 

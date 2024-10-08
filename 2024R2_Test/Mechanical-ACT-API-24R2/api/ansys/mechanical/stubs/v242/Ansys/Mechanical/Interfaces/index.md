@@ -19,7 +19,7 @@
 
 ## Description
 
-Interfaces subpackage.
+Interfaces module.
 
 <!-- !! processed by numpydoc !! -->
 
