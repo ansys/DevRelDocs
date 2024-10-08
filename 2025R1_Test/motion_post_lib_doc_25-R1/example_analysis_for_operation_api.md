@@ -24,7 +24,11 @@ applicationHandler = ApplicationHandler()
 
 # Import result file
 # Get Install Path
-install_path = get_env_variable("AWP_ROOT251")
+# The 'XX' in AWP_ROOTXXX represents the year, like 25 for the year 2025, and the leat 'X' indicates the half of the year,
+# where '1' represents the first half and '2' represents the second half.
+# For example, in 'AWP_ROOT251' and 'AWP_ROOT252', '25' represents the year 2025, and '1' indicates the first half of the year,
+# while '2' indicates the second half.
+install_path = get_env_variable("AWP_ROOTXXX")
 
 filepath = combine_path(install_path, r'Motion\Document\Drive Train Models\Tutorial_01_Trasmission\Tutorial\Subsystem\Subsystem Drivetrain\GearBox1_improved.dfr')
 

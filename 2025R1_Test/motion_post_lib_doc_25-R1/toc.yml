@@ -1,6 +1,6 @@
 - name: Introduction
   href: index.md
-- name: Getting Started
+- name: Getting started
   items:
   - name: Result File Reader using Python language
     href: getting_started_result_file_reader_using_py.md

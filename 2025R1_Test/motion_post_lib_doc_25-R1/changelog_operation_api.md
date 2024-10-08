@@ -1,6 +1,6 @@
 # Operation API
 
-## Common Setting
+## Common setting
 
 Import the OperationAPI.py file from the "Ansys installed path/Motion/Document/Postprocessor API for Python.zip" file.
 
