@@ -4,17 +4,17 @@
 
 ## Summary
 
-### Subpackages
+### Modules
 
 | Name | Description |
-|----------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------|
-| [`SolveProcessSettings`](SolveProcessSettings/index.md#module-ansys.mechanical.stubs.v242.Ansys.ACT.Mechanical.Application.SolveProcessSettings)   | SolveProcessSettings subpackage.   |
+|----------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------|
+| [`SolveProcessSettings`](SolveProcessSettings/index.md#module-ansys.mechanical.stubs.v242.Ansys.ACT.Mechanical.Application.SolveProcessSettings)   | SolveProcessSettings module.   |
 
 <a id="description"></a>
 
 ## Description
 
-Application submodule.
+Application module.
 
 <!-- !! processed by numpydoc !! -->
 

@@ -14,7 +14,7 @@
 
 ## Description
 
-CondensedParts subpackage.
+CondensedParts module.
 
 <!-- !! processed by numpydoc !! -->
 

@@ -18,7 +18,7 @@
 
 ## Description
 
-Graphics subpackage.
+Graphics module.
 
 <!-- !! processed by numpydoc !! -->
 

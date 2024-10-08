@@ -2,7 +2,7 @@
 
 <a id="ansys.mechanical.stubs.v242.Ansys.Mechanical.Interfaces.IDataSeries"></a>
 
-#### *class* ansys.mechanical.stubs.v242.Ansys.Mechanical.Interfaces.IDataSeries
+#### *class* Ansys.Mechanical.Interfaces.IDataSeries
 
 Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 

@@ -2,7 +2,7 @@
 
 <a id="ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Results.StrainResults.ElasticStrainIntensity"></a>
 
-#### *class* ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Results.StrainResults.ElasticStrainIntensity
+#### *class* Ansys.ACT.Automation.Mechanical.Results.StrainResults.ElasticStrainIntensity
 
 Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 

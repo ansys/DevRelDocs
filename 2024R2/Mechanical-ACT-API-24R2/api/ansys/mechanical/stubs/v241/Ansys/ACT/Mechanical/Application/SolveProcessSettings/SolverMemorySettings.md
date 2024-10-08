@@ -2,7 +2,7 @@
 
 <a id="ansys.mechanical.stubs.v241.Ansys.ACT.Mechanical.Application.SolveProcessSettings.SolverMemorySettings"></a>
 
-#### *class* ansys.mechanical.stubs.v241.Ansys.ACT.Mechanical.Application.SolveProcessSettings.SolverMemorySettings
+#### *class* Ansys.ACT.Mechanical.Application.SolveProcessSettings.SolverMemorySettings
 
 Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 

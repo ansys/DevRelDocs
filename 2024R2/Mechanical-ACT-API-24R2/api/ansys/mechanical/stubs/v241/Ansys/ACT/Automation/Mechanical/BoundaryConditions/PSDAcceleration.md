@@ -2,7 +2,7 @@
 
 <a id="ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.BoundaryConditions.PSDAcceleration"></a>
 
-#### *class* ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.BoundaryConditions.PSDAcceleration
+#### *class* Ansys.ACT.Automation.Mechanical.BoundaryConditions.PSDAcceleration
 
 Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 

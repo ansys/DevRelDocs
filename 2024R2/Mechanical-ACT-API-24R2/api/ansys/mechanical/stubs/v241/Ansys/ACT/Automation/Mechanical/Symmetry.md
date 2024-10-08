@@ -2,7 +2,7 @@
 
 <a id="ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Symmetry"></a>
 
-#### *class* ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Symmetry
+#### *class* Ansys.ACT.Automation.Mechanical.Symmetry
 
 Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 

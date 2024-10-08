@@ -14,7 +14,7 @@
 
 ## Description
 
-Common subpackage.
+Common module.
 
 <!-- !! processed by numpydoc !! -->
 

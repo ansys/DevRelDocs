@@ -23,7 +23,7 @@
 
 ## Description
 
-FatigueToolResults subpackage.
+FatigueToolResults module.
 
 <!-- !! processed by numpydoc !! -->
 

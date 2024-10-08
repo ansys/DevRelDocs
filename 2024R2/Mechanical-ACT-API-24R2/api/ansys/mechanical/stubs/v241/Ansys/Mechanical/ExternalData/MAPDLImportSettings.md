@@ -2,7 +2,7 @@
 
 <a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.ExternalData.MAPDLImportSettings"></a>
 
-#### *class* ansys.mechanical.stubs.v241.Ansys.Mechanical.ExternalData.MAPDLImportSettings
+#### *class* Ansys.Mechanical.ExternalData.MAPDLImportSettings
 
 Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 

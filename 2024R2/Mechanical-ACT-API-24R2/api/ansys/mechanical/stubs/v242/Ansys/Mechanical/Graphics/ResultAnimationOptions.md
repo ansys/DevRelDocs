@@ -2,7 +2,7 @@
 
 <a id="ansys.mechanical.stubs.v242.Ansys.Mechanical.Graphics.ResultAnimationOptions"></a>
 
-#### *class* ansys.mechanical.stubs.v242.Ansys.Mechanical.Graphics.ResultAnimationOptions
+#### *class* Ansys.Mechanical.Graphics.ResultAnimationOptions
 
 Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 

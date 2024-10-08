@@ -25,7 +25,7 @@
 
 ## Description
 
-ElectromagneticResults subpackage.
+ElectromagneticResults module.
 
 <!-- !! processed by numpydoc !! -->
 

@@ -2,7 +2,7 @@
 
 <a id="ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.MassConstraint"></a>
 
-#### *class* ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.MassConstraint
+#### *class* Ansys.ACT.Automation.Mechanical.MassConstraint
 
 Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 

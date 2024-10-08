@@ -14,7 +14,7 @@
 
 ## Description
 
-Utilities subpackage.
+Utilities module.
 
 <!-- !! processed by numpydoc !! -->
 

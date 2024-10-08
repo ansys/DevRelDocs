@@ -2,7 +2,7 @@
 
 <a id="ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.FE.CDB.BFEBlockCommand"></a>
 
-#### *class* ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.FE.CDB.BFEBlockCommand
+#### *class* Ansys.ACT.Automation.Mechanical.FE.CDB.BFEBlockCommand
 
 Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 

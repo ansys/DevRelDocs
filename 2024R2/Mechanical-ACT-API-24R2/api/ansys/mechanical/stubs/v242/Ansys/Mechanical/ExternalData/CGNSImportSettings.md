@@ -2,7 +2,7 @@
 
 <a id="ansys.mechanical.stubs.v242.Ansys.Mechanical.ExternalData.CGNSImportSettings"></a>
 
-#### *class* ansys.mechanical.stubs.v242.Ansys.Mechanical.ExternalData.CGNSImportSettings
+#### *class* Ansys.Mechanical.ExternalData.CGNSImportSettings
 
 Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 

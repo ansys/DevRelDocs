@@ -54,7 +54,7 @@
 
 ## Description
 
-ProbeResults subpackage.
+ProbeResults module.
 
 <!-- !! processed by numpydoc !! -->
 

@@ -20,7 +20,7 @@
 
 ## Description
 
-BeamToolResults subpackage.
+BeamToolResults module.
 
 <!-- !! processed by numpydoc !! -->
 

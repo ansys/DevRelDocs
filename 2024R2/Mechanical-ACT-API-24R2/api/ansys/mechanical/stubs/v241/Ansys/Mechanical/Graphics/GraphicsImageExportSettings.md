@@ -2,7 +2,7 @@
 
 <a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.Graphics.GraphicsImageExportSettings"></a>
 
-#### *class* ansys.mechanical.stubs.v241.Ansys.Mechanical.Graphics.GraphicsImageExportSettings
+#### *class* Ansys.Mechanical.Graphics.GraphicsImageExportSettings
 
 Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 

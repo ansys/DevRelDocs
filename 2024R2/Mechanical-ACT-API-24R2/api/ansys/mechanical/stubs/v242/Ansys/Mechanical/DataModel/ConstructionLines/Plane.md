@@ -2,7 +2,7 @@
 
 <a id="ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.ConstructionLines.Plane"></a>
 
-#### *class* ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.ConstructionLines.Plane
+#### *class* Ansys.Mechanical.DataModel.ConstructionLines.Plane
 
 Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 

@@ -2,7 +2,7 @@
 
 <a id="ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Utilities.RigidBodyTransformationMatrix"></a>
 
-#### *class* ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Utilities.RigidBodyTransformationMatrix
+#### *class* Ansys.Mechanical.DataModel.Utilities.RigidBodyTransformationMatrix
 
 Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 

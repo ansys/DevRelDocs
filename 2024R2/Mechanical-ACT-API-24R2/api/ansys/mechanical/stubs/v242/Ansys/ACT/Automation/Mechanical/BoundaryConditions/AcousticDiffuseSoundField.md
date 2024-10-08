@@ -2,7 +2,7 @@
 
 <a id="ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.BoundaryConditions.AcousticDiffuseSoundField"></a>
 
-#### *class* ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.BoundaryConditions.AcousticDiffuseSoundField
+#### *class* Ansys.ACT.Automation.Mechanical.BoundaryConditions.AcousticDiffuseSoundField
 
 Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 

@@ -2,7 +2,7 @@
 
 <a id="ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Results.ProbeResults.DeformationProbe"></a>
 
-#### *class* ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Results.ProbeResults.DeformationProbe
+#### *class* Ansys.ACT.Automation.Mechanical.Results.ProbeResults.DeformationProbe
 
 Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 

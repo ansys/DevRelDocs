@@ -2,7 +2,7 @@
 
 <a id="ansys.mechanical.stubs.v241.Ansys.ACT.Mechanical.Fields.Adapters.Keywords"></a>
 
-#### *class* ansys.mechanical.stubs.v241.Ansys.ACT.Mechanical.Fields.Adapters.Keywords
+#### *class* Ansys.ACT.Mechanical.Fields.Adapters.Keywords
 
 Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 

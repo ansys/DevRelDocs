@@ -2,7 +2,7 @@
 
 <a id="ansys.mechanical.stubs.v241.Ansys.ACT.Common.Graphics.DMGraphicsWrapper"></a>
 
-#### *class* ansys.mechanical.stubs.v241.Ansys.ACT.Common.Graphics.DMGraphicsWrapper
+#### *class* Ansys.ACT.Common.Graphics.DMGraphicsWrapper
 
 Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 

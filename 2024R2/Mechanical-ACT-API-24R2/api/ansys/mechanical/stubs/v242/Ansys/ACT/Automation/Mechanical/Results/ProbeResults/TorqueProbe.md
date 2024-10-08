@@ -2,7 +2,7 @@
 
 <a id="ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Results.ProbeResults.TorqueProbe"></a>
 
-#### *class* ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Results.ProbeResults.TorqueProbe
+#### *class* Ansys.ACT.Automation.Mechanical.Results.ProbeResults.TorqueProbe
 
 Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 

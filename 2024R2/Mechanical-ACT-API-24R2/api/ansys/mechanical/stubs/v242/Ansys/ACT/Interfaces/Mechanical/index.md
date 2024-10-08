@@ -27,7 +27,7 @@
 
 ## Description
 
-Mechanical subpackage.
+Mechanical module.
 
 <!-- !! processed by numpydoc !! -->
 

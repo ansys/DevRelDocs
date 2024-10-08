@@ -2,7 +2,7 @@
 
 <a id="ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.BoundaryConditions.AcousticSurfaceAcceleration"></a>
 
-#### *class* ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.BoundaryConditions.AcousticSurfaceAcceleration
+#### *class* Ansys.ACT.Automation.Mechanical.BoundaryConditions.AcousticSurfaceAcceleration
 
 Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 

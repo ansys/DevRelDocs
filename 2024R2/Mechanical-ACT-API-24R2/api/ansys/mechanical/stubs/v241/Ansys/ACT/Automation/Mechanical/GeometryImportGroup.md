@@ -2,7 +2,7 @@
 
 <a id="ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.GeometryImportGroup"></a>
 
-#### *class* ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.GeometryImportGroup
+#### *class* Ansys.ACT.Automation.Mechanical.GeometryImportGroup
 
 Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 

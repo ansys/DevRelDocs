@@ -2,7 +2,7 @@
 
 <a id="ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Results.ResultTrackers.DirectionalVelocityTracker"></a>
 
-#### *class* ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Results.ResultTrackers.DirectionalVelocityTracker
+#### *class* Ansys.ACT.Automation.Mechanical.Results.ResultTrackers.DirectionalVelocityTracker
 
 Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 

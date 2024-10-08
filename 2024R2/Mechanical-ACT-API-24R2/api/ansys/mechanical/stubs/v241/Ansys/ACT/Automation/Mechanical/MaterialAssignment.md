@@ -2,7 +2,7 @@
 
 <a id="ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.MaterialAssignment"></a>
 
-#### *class* ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.MaterialAssignment
+#### *class* Ansys.ACT.Automation.Mechanical.MaterialAssignment
 
 Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 

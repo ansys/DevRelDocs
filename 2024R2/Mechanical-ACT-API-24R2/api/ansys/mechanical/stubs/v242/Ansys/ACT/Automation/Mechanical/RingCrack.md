@@ -2,7 +2,7 @@
 
 <a id="ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.RingCrack"></a>
 
-#### *class* ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.RingCrack
+#### *class* Ansys.ACT.Automation.Mechanical.RingCrack
 
 Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 

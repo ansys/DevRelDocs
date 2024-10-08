@@ -2,7 +2,7 @@
 
 <a id="ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Results.DeformationResults.TotalVelocity"></a>
 
-#### *class* ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Results.DeformationResults.TotalVelocity
+#### *class* Ansys.ACT.Automation.Mechanical.Results.DeformationResults.TotalVelocity
 
 Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 

@@ -2,7 +2,7 @@
 
 <a id="ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.BoundaryConditions.Moment"></a>
 
-#### *class* ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.BoundaryConditions.Moment
+#### *class* Ansys.ACT.Automation.Mechanical.BoundaryConditions.Moment
 
 Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 

@@ -18,7 +18,7 @@
 
 ## Description
 
-EnergyResults subpackage.
+EnergyResults module.
 
 <!-- !! processed by numpydoc !! -->
 

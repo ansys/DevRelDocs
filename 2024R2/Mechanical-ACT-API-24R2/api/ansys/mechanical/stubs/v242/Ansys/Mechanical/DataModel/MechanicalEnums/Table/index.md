@@ -17,7 +17,7 @@
 
 ## Description
 
-Table subpackage.
+Table module.
 
 <!-- !! processed by numpydoc !! -->
 

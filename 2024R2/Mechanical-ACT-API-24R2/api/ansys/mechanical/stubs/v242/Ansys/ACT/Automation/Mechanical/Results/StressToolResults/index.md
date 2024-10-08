@@ -18,7 +18,7 @@
 
 ## Description
 
-StressToolResults subpackage.
+StressToolResults module.
 
 <!-- !! processed by numpydoc !! -->
 

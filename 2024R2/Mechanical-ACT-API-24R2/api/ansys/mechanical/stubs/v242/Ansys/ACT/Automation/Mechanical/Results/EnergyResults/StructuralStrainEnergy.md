@@ -2,7 +2,7 @@
 
 <a id="ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Results.EnergyResults.StructuralStrainEnergy"></a>
 
-#### *class* ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Results.EnergyResults.StructuralStrainEnergy
+#### *class* Ansys.ACT.Automation.Mechanical.Results.EnergyResults.StructuralStrainEnergy
 
 Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 

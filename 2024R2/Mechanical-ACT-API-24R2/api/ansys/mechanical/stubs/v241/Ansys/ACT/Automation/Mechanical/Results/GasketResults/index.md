@@ -18,7 +18,7 @@
 
 ## Description
 
-GasketResults subpackage.
+GasketResults module.
 
 <!-- !! processed by numpydoc !! -->
 

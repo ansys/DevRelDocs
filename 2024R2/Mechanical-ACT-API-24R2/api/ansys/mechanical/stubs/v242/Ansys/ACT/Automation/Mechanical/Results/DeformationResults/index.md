@@ -25,7 +25,7 @@
 
 ## Description
 
-DeformationResults subpackage.
+DeformationResults module.
 
 <!-- !! processed by numpydoc !! -->
 

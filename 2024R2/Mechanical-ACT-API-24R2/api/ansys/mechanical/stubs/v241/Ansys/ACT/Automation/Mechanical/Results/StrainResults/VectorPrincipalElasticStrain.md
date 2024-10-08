@@ -2,7 +2,7 @@
 
 <a id="ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Results.StrainResults.VectorPrincipalElasticStrain"></a>
 
-#### *class* ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Results.StrainResults.VectorPrincipalElasticStrain
+#### *class* Ansys.ACT.Automation.Mechanical.Results.StrainResults.VectorPrincipalElasticStrain
 
 Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 

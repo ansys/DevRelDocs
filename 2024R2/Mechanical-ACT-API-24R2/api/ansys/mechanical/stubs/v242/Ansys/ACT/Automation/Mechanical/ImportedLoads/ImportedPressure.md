@@ -2,7 +2,7 @@
 
 <a id="ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.ImportedLoads.ImportedPressure"></a>
 
-#### *class* ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.ImportedLoads.ImportedPressure
+#### *class* Ansys.ACT.Automation.Mechanical.ImportedLoads.ImportedPressure
 
 Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 

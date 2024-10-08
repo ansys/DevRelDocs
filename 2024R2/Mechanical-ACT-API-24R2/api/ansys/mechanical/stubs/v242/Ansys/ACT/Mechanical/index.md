@@ -4,14 +4,14 @@
 
 ## Summary
 
-### Subpackages
+### Modules
 
 | Name | Description |
-|----------------------------------------------------------------------------------------------------------------------------------------|------------------------------------|
-| [`AdditionalProperties`](AdditionalProperties/index.md#module-ansys.mechanical.stubs.v242.Ansys.ACT.Mechanical.AdditionalProperties)   | AdditionalProperties subpackage.   |
-| [`Application`](Application/index.md#module-ansys.mechanical.stubs.v242.Ansys.ACT.Mechanical.Application)                              | Application submodule.             |
-| [`Fields`](Fields/index.md#module-ansys.mechanical.stubs.v242.Ansys.ACT.Mechanical.Fields)                                             | Fields subpackage.                 |
-| [`Utilities`](Utilities/index.md#module-ansys.mechanical.stubs.v242.Ansys.ACT.Mechanical.Utilities)                                    | Utilities subpackage.              |
+|----------------------------------------------------------------------------------------------------------------------------------------|--------------------------------|
+| [`AdditionalProperties`](AdditionalProperties/index.md#module-ansys.mechanical.stubs.v242.Ansys.ACT.Mechanical.AdditionalProperties)   | AdditionalProperties module.   |
+| [`Application`](Application/index.md#module-ansys.mechanical.stubs.v242.Ansys.ACT.Mechanical.Application)                              | Application module.            |
+| [`Fields`](Fields/index.md#module-ansys.mechanical.stubs.v242.Ansys.ACT.Mechanical.Fields)                                             | Fields module.                 |
+| [`Utilities`](Utilities/index.md#module-ansys.mechanical.stubs.v242.Ansys.ACT.Mechanical.Utilities)                                    | Utilities module.              |
 
 ### Classes
 
@@ -24,7 +24,7 @@
 
 ## Description
 
-Mechanical subpackage.
+Mechanical module.
 
 <!-- !! processed by numpydoc !! -->
 

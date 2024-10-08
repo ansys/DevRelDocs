@@ -2,7 +2,7 @@
 
 <a id="ansys.mechanical.stubs.v242.Ansys.Mechanical.ExternalData.H5ImportSettings"></a>
 
-#### *class* ansys.mechanical.stubs.v242.Ansys.Mechanical.ExternalData.H5ImportSettings
+#### *class* Ansys.Mechanical.ExternalData.H5ImportSettings
 
 Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 

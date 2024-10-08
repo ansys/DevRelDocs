@@ -2,7 +2,7 @@
 
 <a id="ansys.mechanical.stubs.v241.Ansys.ACT.Mechanical.AdditionalProperties.DoubleProperty"></a>
 
-#### *class* ansys.mechanical.stubs.v241.Ansys.ACT.Mechanical.AdditionalProperties.DoubleProperty
+#### *class* Ansys.ACT.Mechanical.AdditionalProperties.DoubleProperty
 
 Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 

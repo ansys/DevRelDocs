@@ -2,7 +2,7 @@
 
 <a id="ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.CompositeCriterionDefinition"></a>
 
-#### *class* ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.CompositeCriterionDefinition
+#### *class* Ansys.ACT.Automation.Mechanical.CompositeCriterionDefinition
 
 Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
