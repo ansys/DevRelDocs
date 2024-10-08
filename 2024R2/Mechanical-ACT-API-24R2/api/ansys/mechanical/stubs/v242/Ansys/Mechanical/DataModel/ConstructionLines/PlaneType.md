@@ -2,7 +2,7 @@
 
 <a id="ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.ConstructionLines.PlaneType"></a>
 
-#### *class* ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.ConstructionLines.PlaneType
+#### *class* Ansys.Mechanical.DataModel.ConstructionLines.PlaneType
 
 Bases: [`enum.Enum`](https://docs.python.org/3/library/enum.html#enum.Enum)
 

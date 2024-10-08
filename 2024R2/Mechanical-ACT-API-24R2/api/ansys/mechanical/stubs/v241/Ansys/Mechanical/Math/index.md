@@ -14,7 +14,7 @@
 
 ## Description
 
-Math subpackage.
+Math module.
 
 <!-- !! processed by numpydoc !! -->
 

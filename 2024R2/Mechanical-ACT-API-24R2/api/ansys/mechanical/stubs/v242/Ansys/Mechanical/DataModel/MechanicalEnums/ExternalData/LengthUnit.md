@@ -2,7 +2,7 @@
 
 <a id="ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.MechanicalEnums.ExternalData.LengthUnit"></a>
 
-#### *class* ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.MechanicalEnums.ExternalData.LengthUnit
+#### *class* Ansys.Mechanical.DataModel.MechanicalEnums.ExternalData.LengthUnit
 
 Bases: [`enum.Enum`](https://docs.python.org/3/library/enum.html#enum.Enum)
 

@@ -2,7 +2,7 @@
 
 <a id="ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Results.AcousticResults.AcousticPressureResult"></a>
 
-#### *class* ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Results.AcousticResults.AcousticPressureResult
+#### *class* Ansys.ACT.Automation.Mechanical.Results.AcousticResults.AcousticPressureResult
 
 Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 

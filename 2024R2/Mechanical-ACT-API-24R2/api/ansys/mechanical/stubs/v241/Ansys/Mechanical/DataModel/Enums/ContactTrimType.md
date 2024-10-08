@@ -2,7 +2,7 @@
 
 <a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.ContactTrimType"></a>
 
-#### *class* ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.ContactTrimType
+#### *class* Ansys.Mechanical.DataModel.Enums.ContactTrimType
 
 Bases: [`enum.Enum`](https://docs.python.org/3/library/enum.html#enum.Enum)
 

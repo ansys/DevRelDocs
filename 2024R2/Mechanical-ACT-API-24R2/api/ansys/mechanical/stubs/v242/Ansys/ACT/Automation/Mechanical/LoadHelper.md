@@ -2,7 +2,7 @@
 
 <a id="ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.LoadHelper"></a>
 
-#### *class* ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.LoadHelper
+#### *class* Ansys.ACT.Automation.Mechanical.LoadHelper
 
 Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 

@@ -87,7 +87,7 @@
 
 ## Description
 
-ResultTrackers subpackage.
+ResultTrackers module.
 
 <!-- !! processed by numpydoc !! -->
 

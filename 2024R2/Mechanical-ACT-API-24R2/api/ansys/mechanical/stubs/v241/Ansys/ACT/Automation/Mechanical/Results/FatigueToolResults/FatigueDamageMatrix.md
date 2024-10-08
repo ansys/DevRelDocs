@@ -2,7 +2,7 @@
 
 <a id="ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Results.FatigueToolResults.FatigueDamageMatrix"></a>
 
-#### *class* ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Results.FatigueToolResults.FatigueDamageMatrix
+#### *class* Ansys.ACT.Automation.Mechanical.Results.FatigueToolResults.FatigueDamageMatrix
 
 Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 

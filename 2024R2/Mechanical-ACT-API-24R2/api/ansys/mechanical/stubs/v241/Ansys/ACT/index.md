@@ -4,20 +4,20 @@
 
 ## Summary
 
-### Subpackages
+### Modules
 
 | Name | Description |
-|-----------------------------------------------------------------------------------------------|-------------------------|
-| [`Automation`](Automation/index.md#module-ansys.mechanical.stubs.v241.Ansys.ACT.Automation)   | Automation submodule.   |
-| [`Common`](Common/index.md#module-ansys.mechanical.stubs.v241.Ansys.ACT.Common)               | Common subpackage.      |
-| [`Interfaces`](Interfaces/index.md#module-ansys.mechanical.stubs.v241.Ansys.ACT.Interfaces)   | Interfaces submodule.   |
-| [`Mechanical`](Mechanical/index.md#module-ansys.mechanical.stubs.v241.Ansys.ACT.Mechanical)   | Mechanical subpackage.  |
+|-----------------------------------------------------------------------------------------------|----------------------|
+| [`Automation`](Automation/index.md#module-ansys.mechanical.stubs.v241.Ansys.ACT.Automation)   | Automation module.   |
+| [`Common`](Common/index.md#module-ansys.mechanical.stubs.v241.Ansys.ACT.Common)               | Common module.       |
+| [`Interfaces`](Interfaces/index.md#module-ansys.mechanical.stubs.v241.Ansys.ACT.Interfaces)   | Interfaces module.   |
+| [`Mechanical`](Mechanical/index.md#module-ansys.mechanical.stubs.v241.Ansys.ACT.Mechanical)   | Mechanical module.   |
 
 <a id="description"></a>
 
 ## Description
 
-ACT submodule.
+ACT module.
 
 <!-- !! processed by numpydoc !! -->
 

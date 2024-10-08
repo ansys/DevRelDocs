@@ -14,7 +14,7 @@
 
 ## Description
 
-Enums subpackage.
+Enums module.
 
 <!-- !! processed by numpydoc !! -->
 

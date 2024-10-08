@@ -2,7 +2,7 @@
 
 <a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.PatchIndependentDefineType"></a>
 
-#### *class* ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.PatchIndependentDefineType
+#### *class* Ansys.Mechanical.DataModel.Enums.PatchIndependentDefineType
 
 Bases: [`enum.Enum`](https://docs.python.org/3/library/enum.html#enum.Enum)
 

@@ -2,7 +2,7 @@
 
 <a id="ansys.mechanical.stubs.v242.Ansys.ACT.Common.CoordinateSystem"></a>
 
-#### *class* ansys.mechanical.stubs.v242.Ansys.ACT.Common.CoordinateSystem
+#### *class* Ansys.ACT.Common.CoordinateSystem
 
 Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 

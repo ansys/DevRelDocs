@@ -15,7 +15,7 @@
 
 ## Description
 
-Results subpackage.
+Results module.
 
 <!-- !! processed by numpydoc !! -->
 

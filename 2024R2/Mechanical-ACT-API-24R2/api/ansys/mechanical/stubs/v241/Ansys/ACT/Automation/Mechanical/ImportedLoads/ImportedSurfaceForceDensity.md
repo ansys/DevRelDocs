@@ -2,7 +2,7 @@
 
 <a id="ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.ImportedLoads.ImportedSurfaceForceDensity"></a>
 
-#### *class* ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.ImportedLoads.ImportedSurfaceForceDensity
+#### *class* Ansys.ACT.Automation.Mechanical.ImportedLoads.ImportedSurfaceForceDensity
 
 Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 

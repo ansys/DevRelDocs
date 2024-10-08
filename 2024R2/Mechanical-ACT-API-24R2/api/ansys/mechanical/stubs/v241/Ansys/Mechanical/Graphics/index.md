@@ -4,11 +4,11 @@
 
 ## Summary
 
-### Subpackages
+### Modules
 
 | Name | Description |
-|------------------------------------------------------------------------------------------------|---------------------|
-| [`Tools`](Tools/index.md#module-ansys.mechanical.stubs.v241.Ansys.Mechanical.Graphics.Tools)   | Tools subpackage.   |
+|------------------------------------------------------------------------------------------------|-----------------|
+| [`Tools`](Tools/index.md#module-ansys.mechanical.stubs.v241.Ansys.Mechanical.Graphics.Tools)   | Tools module.   |
 
 ### Classes
 
@@ -33,7 +33,7 @@
 
 ## Description
 
-Graphics subpackage.
+Graphics module.
 
 <!-- !! processed by numpydoc !! -->
 

@@ -33,7 +33,7 @@
 
 ## Description
 
-MeshControls subpackage.
+MeshControls module.
 
 <!-- !! processed by numpydoc !! -->
 

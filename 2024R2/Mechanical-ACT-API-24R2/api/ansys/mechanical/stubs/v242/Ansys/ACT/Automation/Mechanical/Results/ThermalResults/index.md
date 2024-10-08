@@ -23,7 +23,7 @@
 
 ## Description
 
-ThermalResults subpackage.
+ThermalResults module.
 
 <!-- !! processed by numpydoc !! -->
 

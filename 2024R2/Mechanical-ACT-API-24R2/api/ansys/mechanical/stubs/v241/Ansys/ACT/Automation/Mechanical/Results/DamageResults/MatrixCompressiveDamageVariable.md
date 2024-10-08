@@ -2,7 +2,7 @@
 
 <a id="ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Results.DamageResults.MatrixCompressiveDamageVariable"></a>
 
-#### *class* ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Results.DamageResults.MatrixCompressiveDamageVariable
+#### *class* Ansys.ACT.Automation.Mechanical.Results.DamageResults.MatrixCompressiveDamageVariable
 
 Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 

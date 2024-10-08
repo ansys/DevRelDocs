@@ -2,7 +2,7 @@
 
 <a id="ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.BeamSolutionType"></a>
 
-#### *class* ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.BeamSolutionType
+#### *class* Ansys.Mechanical.DataModel.Enums.BeamSolutionType
 
 Bases: [`enum.Enum`](https://docs.python.org/3/library/enum.html#enum.Enum)
 

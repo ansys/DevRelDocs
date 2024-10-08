@@ -2,7 +2,7 @@
 
 <a id="ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.FeatureDetectionDefinition"></a>
 
-#### *class* ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.FeatureDetectionDefinition
+#### *class* Ansys.ACT.Automation.Mechanical.FeatureDetectionDefinition
 
 Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 

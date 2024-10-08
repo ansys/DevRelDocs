@@ -30,7 +30,7 @@
 
 ## Description
 
-AcousticResults subpackage.
+AcousticResults module.
 
 <!-- !! processed by numpydoc !! -->
 

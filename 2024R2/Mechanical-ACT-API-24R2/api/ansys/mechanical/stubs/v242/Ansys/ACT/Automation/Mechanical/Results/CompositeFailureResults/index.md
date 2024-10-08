@@ -32,7 +32,7 @@
 
 ## Description
 
-CompositeFailureResults subpackage.
+CompositeFailureResults module.
 
 <!-- !! processed by numpydoc !! -->
 

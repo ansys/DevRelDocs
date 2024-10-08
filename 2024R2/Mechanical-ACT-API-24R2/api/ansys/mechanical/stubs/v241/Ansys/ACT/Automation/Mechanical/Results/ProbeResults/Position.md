@@ -2,7 +2,7 @@
 
 <a id="ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Results.ProbeResults.Position"></a>
 
-#### *class* ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Results.ProbeResults.Position
+#### *class* Ansys.ACT.Automation.Mechanical.Results.ProbeResults.Position
 
 Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 

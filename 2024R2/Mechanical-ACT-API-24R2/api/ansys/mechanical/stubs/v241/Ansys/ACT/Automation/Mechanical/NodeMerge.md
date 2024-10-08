@@ -2,7 +2,7 @@
 
 <a id="ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.NodeMerge"></a>
 
-#### *class* ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.NodeMerge
+#### *class* Ansys.ACT.Automation.Mechanical.NodeMerge
 
 Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 

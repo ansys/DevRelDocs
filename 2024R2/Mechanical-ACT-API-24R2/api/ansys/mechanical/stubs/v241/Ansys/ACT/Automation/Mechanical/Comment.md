@@ -2,7 +2,7 @@
 
 <a id="ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Comment"></a>
 
-#### *class* ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Comment
+#### *class* Ansys.ACT.Automation.Mechanical.Comment
 
 Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 

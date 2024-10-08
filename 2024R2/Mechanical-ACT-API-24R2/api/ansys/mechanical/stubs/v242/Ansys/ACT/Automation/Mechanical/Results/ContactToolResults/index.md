@@ -22,7 +22,7 @@
 
 ## Description
 
-ContactToolResults subpackage.
+ContactToolResults module.
 
 <!-- !! processed by numpydoc !! -->
 

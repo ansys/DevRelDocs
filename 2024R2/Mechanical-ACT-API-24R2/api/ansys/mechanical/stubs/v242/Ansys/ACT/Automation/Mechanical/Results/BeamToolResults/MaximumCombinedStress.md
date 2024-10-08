@@ -2,7 +2,7 @@
 
 <a id="ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Results.BeamToolResults.MaximumCombinedStress"></a>
 
-#### *class* ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Results.BeamToolResults.MaximumCombinedStress
+#### *class* Ansys.ACT.Automation.Mechanical.Results.BeamToolResults.MaximumCombinedStress
 
 Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 

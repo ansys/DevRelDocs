@@ -31,7 +31,7 @@
 
 ## Description
 
-MeshWorkflow subpackage.
+MeshWorkflow module.
 
 <!-- !! processed by numpydoc !! -->
 

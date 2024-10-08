@@ -2,7 +2,7 @@
 
 <a id="ansys.mechanical.stubs.v241.Ansys.ACT.Interfaces.Graphics.IModelViewManager"></a>
 
-#### *class* ansys.mechanical.stubs.v241.Ansys.ACT.Interfaces.Graphics.IModelViewManager
+#### *class* Ansys.ACT.Interfaces.Graphics.IModelViewManager
 
 Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 

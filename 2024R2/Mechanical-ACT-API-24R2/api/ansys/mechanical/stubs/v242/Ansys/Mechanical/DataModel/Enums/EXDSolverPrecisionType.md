@@ -2,7 +2,7 @@
 
 <a id="ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.EXDSolverPrecisionType"></a>
 
-#### *class* ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.EXDSolverPrecisionType
+#### *class* Ansys.Mechanical.DataModel.Enums.EXDSolverPrecisionType
 
 Bases: [`enum.Enum`](https://docs.python.org/3/library/enum.html#enum.Enum)
 

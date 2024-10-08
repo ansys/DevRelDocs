@@ -2,7 +2,7 @@
 
 <a id="ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.SolverData.MAPDLCoordinateSystemData"></a>
 
-#### *class* ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.SolverData.MAPDLCoordinateSystemData
+#### *class* Ansys.Mechanical.DataModel.SolverData.MAPDLCoordinateSystemData
 
 Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 

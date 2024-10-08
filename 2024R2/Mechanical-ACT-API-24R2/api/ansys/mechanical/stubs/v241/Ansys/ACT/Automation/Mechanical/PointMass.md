@@ -2,7 +2,7 @@
 
 <a id="ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.PointMass"></a>
 
-#### *class* ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.PointMass
+#### *class* Ansys.ACT.Automation.Mechanical.PointMass
 
 Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 

@@ -2,7 +2,7 @@
 
 <a id="ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.EXDBeamSolutionType"></a>
 
-#### *class* ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.EXDBeamSolutionType
+#### *class* Ansys.Mechanical.DataModel.Enums.EXDBeamSolutionType
 
 Bases: [`enum.Enum`](https://docs.python.org/3/library/enum.html#enum.Enum)
 

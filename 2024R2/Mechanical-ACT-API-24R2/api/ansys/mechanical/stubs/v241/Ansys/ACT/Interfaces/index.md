@@ -4,18 +4,18 @@
 
 ## Summary
 
-### Subpackages
+### Modules
 
 | Name | Description |
-|--------------------------------------------------------------------------------------------------------|------------------------|
-| [`Graphics`](Graphics/index.md#module-ansys.mechanical.stubs.v241.Ansys.ACT.Interfaces.Graphics)       | Graphics subpackage.   |
-| [`Mechanical`](Mechanical/index.md#module-ansys.mechanical.stubs.v241.Ansys.ACT.Interfaces.Mechanical) | Mechanical subpackage. |
+|--------------------------------------------------------------------------------------------------------|--------------------|
+| [`Graphics`](Graphics/index.md#module-ansys.mechanical.stubs.v241.Ansys.ACT.Interfaces.Graphics)       | Graphics module.   |
+| [`Mechanical`](Mechanical/index.md#module-ansys.mechanical.stubs.v241.Ansys.ACT.Interfaces.Mechanical) | Mechanical module. |
 
 <a id="description"></a>
 
 ## Description
 
-Interfaces submodule.
+Interfaces module.
 
 <!-- !! processed by numpydoc !! -->
 

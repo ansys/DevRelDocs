@@ -2,7 +2,7 @@
 
 <a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.UI.Interfaces.IMechanicalUserInterface"></a>
 
-#### *class* ansys.mechanical.stubs.v241.Ansys.Mechanical.UI.Interfaces.IMechanicalUserInterface
+#### *class* Ansys.Mechanical.UI.Interfaces.IMechanicalUserInterface
 
 Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 

@@ -14,7 +14,7 @@
 
 ## Description
 
-ExternalModel subpackage.
+ExternalModel module.
 
 <!-- !! processed by numpydoc !! -->
 

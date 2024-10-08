@@ -2,7 +2,7 @@
 
 <a id="ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Results.CompositeFailureResults.CompositeSamplingPoint"></a>
 
-#### *class* ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Results.CompositeFailureResults.CompositeSamplingPoint
+#### *class* Ansys.ACT.Automation.Mechanical.Results.CompositeFailureResults.CompositeSamplingPoint
 
 Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 

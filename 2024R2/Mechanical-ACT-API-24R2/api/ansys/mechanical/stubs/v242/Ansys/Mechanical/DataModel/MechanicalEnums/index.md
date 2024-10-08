@@ -4,28 +4,28 @@
 
 ## Summary
 
-### Subpackages
+### Modules
 
 | Name | Description |
-|------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------|
-| [`BoundaryConditions`](BoundaryConditions/index.md#module-ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.MechanicalEnums.BoundaryConditions)                   | BoundaryConditions subpackage.       |
-| [`Common`](Common/index.md#module-ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.MechanicalEnums.Common)                                                       | Common subpackage.                   |
-| [`CompositeFailure`](CompositeFailure/index.md#module-ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.MechanicalEnums.CompositeFailure)                         | CompositeFailure subpackage.         |
-| [`CondensedParts`](CondensedParts/index.md#module-ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.MechanicalEnums.CondensedParts)                               | CondensedParts subpackage.           |
-| [`CrackInitiation`](CrackInitiation/index.md#module-ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.MechanicalEnums.CrackInitiation)                            | CrackInitiation subpackage.          |
-| [`ExternalData`](ExternalData/index.md#module-ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.MechanicalEnums.ExternalData)                                     | ExternalData subpackage.             |
-| [`FluidPenetrationPressure`](FluidPenetrationPressure/index.md#module-ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.MechanicalEnums.FluidPenetrationPressure) | FluidPenetrationPressure subpackage. |
-| [`Graphics`](Graphics/index.md#module-ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.MechanicalEnums.Graphics)                                                 | Graphics subpackage.                 |
-| [`Materials`](Materials/index.md#module-ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.MechanicalEnums.Materials)                                              | Materials subpackage.                |
-| [`MeshWorkflow`](MeshWorkflow/index.md#module-ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.MechanicalEnums.MeshWorkflow)                                     | MeshWorkflow subpackage.             |
-| [`Substructure`](Substructure/index.md#module-ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.MechanicalEnums.Substructure)                                     | Substructure subpackage.             |
-| [`Table`](Table/index.md#module-ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.MechanicalEnums.Table)                                                          | Table subpackage.                    |
+|------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------|
+| [`BoundaryConditions`](BoundaryConditions/index.md#module-ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.MechanicalEnums.BoundaryConditions)                   | BoundaryConditions module.       |
+| [`Common`](Common/index.md#module-ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.MechanicalEnums.Common)                                                       | Common module.                   |
+| [`CompositeFailure`](CompositeFailure/index.md#module-ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.MechanicalEnums.CompositeFailure)                         | CompositeFailure module.         |
+| [`CondensedParts`](CondensedParts/index.md#module-ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.MechanicalEnums.CondensedParts)                               | CondensedParts module.           |
+| [`CrackInitiation`](CrackInitiation/index.md#module-ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.MechanicalEnums.CrackInitiation)                            | CrackInitiation module.          |
+| [`ExternalData`](ExternalData/index.md#module-ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.MechanicalEnums.ExternalData)                                     | ExternalData module.             |
+| [`FluidPenetrationPressure`](FluidPenetrationPressure/index.md#module-ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.MechanicalEnums.FluidPenetrationPressure) | FluidPenetrationPressure module. |
+| [`Graphics`](Graphics/index.md#module-ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.MechanicalEnums.Graphics)                                                 | Graphics module.                 |
+| [`Materials`](Materials/index.md#module-ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.MechanicalEnums.Materials)                                              | Materials module.                |
+| [`MeshWorkflow`](MeshWorkflow/index.md#module-ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.MechanicalEnums.MeshWorkflow)                                     | MeshWorkflow module.             |
+| [`Substructure`](Substructure/index.md#module-ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.MechanicalEnums.Substructure)                                     | Substructure module.             |
+| [`Table`](Table/index.md#module-ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.MechanicalEnums.Table)                                                          | Table module.                    |
 
 <a id="description"></a>
 
 ## Description
 
-MechanicalEnums submodule.
+MechanicalEnums module.
 
 <!-- !! processed by numpydoc !! -->
 

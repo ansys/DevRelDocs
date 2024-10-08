@@ -2,7 +2,7 @@
 
 <a id="ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.BoundaryConditions.ViscoelasticHeating"></a>
 
-#### *class* ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.BoundaryConditions.ViscoelasticHeating
+#### *class* Ansys.ACT.Automation.Mechanical.BoundaryConditions.ViscoelasticHeating
 
 Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 

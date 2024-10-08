@@ -2,7 +2,7 @@
 
 <a id="ansys.mechanical.stubs.v242.Ansys.ACT.Mechanical.Fields.Adapters.DSTopoConstraintAdapter"></a>
 
-#### *class* ansys.mechanical.stubs.v242.Ansys.ACT.Mechanical.Fields.Adapters.DSTopoConstraintAdapter
+#### *class* Ansys.ACT.Mechanical.Fields.Adapters.DSTopoConstraintAdapter
 
 Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 

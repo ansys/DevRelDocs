@@ -2,7 +2,7 @@
 
 <a id="ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.BoundaryConditions.BearingLoad"></a>
 
-#### *class* ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.BoundaryConditions.BearingLoad
+#### *class* Ansys.ACT.Automation.Mechanical.BoundaryConditions.BearingLoad
 
 Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 

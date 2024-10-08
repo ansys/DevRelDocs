@@ -2,7 +2,7 @@
 
 <a id="ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Results.ResultVariable"></a>
 
-#### *class* ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Results.ResultVariable
+#### *class* Ansys.Mechanical.DataModel.Results.ResultVariable
 
 Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 

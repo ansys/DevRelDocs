@@ -4,11 +4,11 @@
 
 ## Summary
 
-### Subpackages
+### Modules
 
 | Name | Description |
-|----------------------------------------------------------------------|---------------------|
-| [`Ansys`](Ansys/index.md#module-ansys.mechanical.stubs.v242.Ansys)   | Ansys subpackage.   |
+|----------------------------------------------------------------------|-----------------|
+| [`Ansys`](Ansys/index.md#module-ansys.mechanical.stubs.v242.Ansys)   | Ansys module.   |
 
 <a id="description"></a>
 
