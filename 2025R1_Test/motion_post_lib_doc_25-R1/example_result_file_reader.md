@@ -5,7 +5,7 @@ The following sample code illustrates how to create a simple example.
 * The example was created using "Ansys installed path/Motion/Document/Drive Train Models.zip".
 * Refer to the 'resultfilereader.py' file in the 'Ansys installed path/Motion/Document/Postprocessor API for Python.zip' file.
 
-## Create Coordinate System
+## Create a Coordinate System
 
 The Coordinate system can be created from various entities in the result as below, and this example describes how to create the Coordinate System.
 * Rigid Body
@@ -134,7 +134,7 @@ from ResultFileReaderAPI import *
 # where '1' represents the first half and '2' represents the second half.
 # For example, in 'AWP_ROOT251' and 'AWP_ROOT252', '25' represents the year 2025, and '1' indicates the first half of the year,
 # while '2' indicates the second half.
-install_path = os.environ['AWP_ROOT251']
+install_path = os.environ['AWP_ROOTXXX']
 filePath = os.path.join(install_path, r'Motion\Document\Drive Train Models\Tutorial_01_Trasmission\Tutorial\Subsystem\Subsystem Drivetrain\GearBox1_improved.dfr')
 
 # Import result file

@@ -38,7 +38,7 @@ applicationHandler.AddDocument(filepaths)
 page = applicationHandler.AddPage("FirstPage")
 ```
 
-## Find and delete a page
+## Finding and Deleting a Page
 
 This example demonstrates how to find and delete a created page.
 
@@ -97,7 +97,7 @@ if viewCount > 0 :
     page2.FullName = "Page2"
 ```
 
-## Move To View
+## Moving a View
 
 This example demonstrates how to move a view within a page.
 

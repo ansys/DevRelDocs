@@ -3,7 +3,7 @@
 The Ansys Motion Standalone Postprocessor C# Library provides a class library for users who want to automate Ansys Motion Standalone Postprocessor.
 The library is divided into two main categories.
 
-## Getting Started
+## Getting started
 
 The Ansys Motion Standalone Postprocessor C# Library is installed with the Ansys Motion package, so users do not need to do anything extra to install it.
 
@@ -38,7 +38,7 @@ If the problem is not resolved using the methods provided in this guide, contact
 * [Troubleshooting](troubleshooting.md)
 
 
-## System Requirements
+## System requirements
 
 The Ansys Motion Standalone Postprocesor C# Library requires a development environment with the .NET framework version 4.8.
 

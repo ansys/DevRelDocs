@@ -5,7 +5,7 @@ The following sample code illustrates how to create a simple example.
 * Refer to  operationapi.py in "Ansys installed path/Motion/Document/Postprocessor API for Python.zip"
 * The example was created using "Ansys installed path/Motion/Document/Pre and Post Processor.zip"
 
-## Create a chart view
+## Create a ChartView
 
 This example demonstrates how to create a chart view.
 Chart view is useful for analyzing simulation results by using a graph which is composed of data points.
@@ -48,10 +48,10 @@ chartView.Legend.FontColor = Colors.Black
 chartView.Legend.ItemsInFilter = "Visible Curves"
 ```
 
-## Create Curve
+## Creating Curves
 
 This example demonstrates how to create a curve. A graph can be added to the activated chart view. 
-For combinations of paths(Characteristic, Component) on the curve, refer to Common Settings in [Getting Started with the Python language](getting_started_operation_api_using_py.md).
+For combinations of paths(Characteristic, Component) on the curve, refer to Common settings in [Getting started with the Operation API using Python language](getting_started_operation_api_using_py.md).
 
 ```
 # Example_OperationAPI_CreateCurve.py
@@ -81,7 +81,7 @@ if count > 0 :
 
 This example demonstrates how to create a simple math.
 It is perform addition, subtraction and multiplication between graphs in the chart view. At least two graphs must be selected for the operation.
-Refer to [Create Curve](#create-curve) for curve generation.
+Refer to [Creating Curves](#create-curve) for curve generation.
 
 ```
 # Example_OperationAPI_CreateSimpleMath.py
@@ -103,7 +103,7 @@ chartView.CreateSimpleMath(curves, SimpleMathType.Multiply, 100)
 
 This example demonstrates how to create a transform.
 It is transform graphs through translate, align, scale, and absolute in the chart view.
-Refer to [Create Curve](#create-curve) for curve generation.
+Refer to [Creating Curves](#create-curve) for curve generation.
 
 ```
 # Example_OperationAPI_CreateTransform.py
@@ -136,7 +136,7 @@ chartView.CreateLogScale(curves, 10, 10, False)
 
 This example demonstrates how to create a interpolation.
 It is interpolate graphs with the desired number of data points in the chart view.
-Refer to [Create Curve](#create-curve) for curve generation.
+Refer to [Creating Curves](#create-curve) for curve generation.
 ```
 # Example_OperationAPI_CreateInterpolation.py
 # SeriesName - The list of the curve name to perform the operation.
@@ -148,7 +148,7 @@ chartView.CreateInterpolation(curves, 200)
 
 This example demonstrates how to create a calculus.
 It is integrate or differentiate graphs in the chart view.
-Refer to [Create Curve](#create-curve) for curve generation.
+Refer to [Creating Curves](#create-curve) for curve generation.
 ```
 # Example_OperationAPI_CreateCalculus.py
 # Calculus - Differentiation
@@ -162,7 +162,7 @@ chartView.CreateIntegratedCurve(curves)
 
 This example demonstrates how to create a signal processing.
 It is perform data filtering and smoothing of graphs in the chart view.
-Refer to [Create Curve](#create-curve) for curve generation.
+Refer to [Creating Curves](#create-curve) for curve generation.
 ```
 # Example_OperationAPI_CreateSignalProcessing.py
 # Signal Processing - Filtering (LowPass, HighPass, BandPass, BandStop)
@@ -191,7 +191,7 @@ chartView.CreateFrequencyWeighting(curves, WeightingType.AWeighting, FrequencyAx
 
 This example demonstrates how to create a fft.
 It is transform data in the time domain to the frequency domain by using the Fast Fourier Transformation method (FFT) in the chart view.
-Refer to [Create Curve](#create-curve) for curve generation.
+Refer to [Creating Curves](#create-curve) for curve generation.
 ```
 # Example_OperationAPI_CreateFFT.py
 # SeriesNames - The list of the curve name to perform the operation
@@ -210,7 +210,7 @@ This example demonstrates how to create a stft.
 The short time furrier transformation method(STFT) can transform the data in time domain to the frequency domain. this example describes how to create the STFT.
 
 * The color map plot is supported through this operation.
-* Refer to [Create Curve](#create-curve) for curve generation.
+* Refer to [Creating Curves](#create-curve) for curve generation.
   
 ```
 # Example_OperationAPI_CreateSTFT.py

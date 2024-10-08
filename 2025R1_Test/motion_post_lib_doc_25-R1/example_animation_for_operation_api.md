@@ -5,7 +5,7 @@ The following sample code illustrates how to create a simple example.
 * Refer to the 'operationapi.py' file in the 'Ansys installed path/Motion/Document/Postprocessor API for Python.zip' file.
 * This example was created using the 'Ansys installed path/Motion/Document/Frequency Response Analysis.zip' file and 'Install_Path\Motion\Document\Pre and Post Processor.zip' file.
 
-## Create AnimationView corresponding to the analysis type.
+## Create an AnimationView corresponding to the Analysis type
 
 This example demonstrates how to create an animation view suitable for the analysis type and load animation frames.
 
@@ -94,7 +94,7 @@ applicationHandler = ApplicationHandler()
 # where '1' represents the first half and '2' represents the second half.
 # For example, in 'AWP_ROOT251' and 'AWP_ROOT252', '25' represents the year 2025, and '1' indicates the first half of the year,
 # while '2' indicates the second half.
-install_path = get_env_variable("AWP_ROOT251")
+install_path = get_env_variable("AWP_ROOTXXX")
 
 filepath = combine_path(install_path, r'Motion\Document\Pre and Post Processor\Model\Result\Suspension.dfr')
 
@@ -141,7 +141,7 @@ contour.MinMaxTargetType = ExtremalValueType.Part
 contour.IsEnabled = False
 ```
 
-## Create Coordinate System
+## Create a Coordinate System
 
 This example demonstrates how to create a coordinate system.
 The Coordinate system can be created from various entities in the result as below, and this example describes how to create the Coordinate System.
@@ -167,7 +167,7 @@ applicationHandler = ApplicationHandler()
 # where '1' represents the first half and '2' represents the second half.
 # For example, in 'AWP_ROOT251' and 'AWP_ROOT252', '25' represents the year 2025, and '1' indicates the first half of the year,
 # while '2' indicates the second half.
-install_path = get_env_variable("AWP_ROOT251")
+install_path = get_env_variable("AWP_ROOTXXX")
 
 filepath = combine_path(install_path, r'Motion\Document\Pre and Post Processor\Model\Result\Suspension.dfr')
 
@@ -229,7 +229,7 @@ applicationHandler = ApplicationHandler()
 # where '1' represents the first half and '2' represents the second half.
 # For example, in 'AWP_ROOT251' and 'AWP_ROOT252', '25' represents the year 2025, and '1' indicates the first half of the year,
 # while '2' indicates the second half.
-install_path = get_env_variable("AWP_ROOT251")
+install_path = get_env_variable("AWP_ROOTXXX")
 
 filepath = combine_path(install_path, r'Motion\Document\Pre and Post Processor\Model\Result\Suspension.dfr')
 
@@ -345,7 +345,7 @@ applicationHandler = ApplicationHandler()
 # where '1' represents the first half and '2' represents the second half.
 # For example, in 'AWP_ROOT251' and 'AWP_ROOT252', '25' represents the year 2025, and '1' indicates the first half of the year,
 # while '2' indicates the second half.
-install_path = get_env_variable("AWP_ROOT251")
+install_path = get_env_variable("AWP_ROOTXXX")
 
 filepath = combine_path(install_path, r'Motion\Document\Pre and Post Processor\Model\Result\Suspension.dfr')
 
@@ -402,7 +402,7 @@ applicationHandler = ApplicationHandler()
 # where '1' represents the first half and '2' represents the second half.
 # For example, in 'AWP_ROOT251' and 'AWP_ROOT252', '25' represents the year 2025, and '1' indicates the first half of the year,
 # while '2' indicates the second half.
-install_path = get_env_variable("AWP_ROOT251")
+install_path = get_env_variable("AWP_ROOTXXX")
 
 filepath = combine_path(install_path, r'Motion\Document\Pre and Post Processor\Model\Result\Suspension.dfr')
 
@@ -454,7 +454,7 @@ applicationHandler = ApplicationHandler()
 # where '1' represents the first half and '2' represents the second half.
 # For example, in 'AWP_ROOT251' and 'AWP_ROOT252', '25' represents the year 2025, and '1' indicates the first half of the year,
 # while '2' indicates the second half.
-install_path = get_env_variable("AWP_ROOT251")
+install_path = get_env_variable("AWP_ROOTXXX")
 
 filepath = combine_path(install_path, r'Motion\Document\Pre and Post Processor\Model\Result\Suspension.dfr')
 
