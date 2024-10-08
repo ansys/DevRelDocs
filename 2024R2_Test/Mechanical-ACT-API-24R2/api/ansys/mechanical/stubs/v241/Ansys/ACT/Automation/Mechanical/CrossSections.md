@@ -2,7 +2,7 @@
 
 <a id="ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.CrossSections"></a>
 
-#### *class* ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.CrossSections
+#### *class* Ansys.ACT.Automation.Mechanical.CrossSections
 
 Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 

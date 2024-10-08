@@ -2,7 +2,7 @@
 
 <a id="ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.VolumeConstraint"></a>
 
-#### *class* ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.VolumeConstraint
+#### *class* Ansys.ACT.Automation.Mechanical.VolumeConstraint
 
 Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 

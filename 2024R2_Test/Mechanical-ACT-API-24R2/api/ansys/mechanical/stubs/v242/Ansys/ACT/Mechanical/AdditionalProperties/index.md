@@ -23,7 +23,7 @@
 
 ## Description
 
-AdditionalProperties subpackage.
+AdditionalProperties module.
 
 <!-- !! processed by numpydoc !! -->
 

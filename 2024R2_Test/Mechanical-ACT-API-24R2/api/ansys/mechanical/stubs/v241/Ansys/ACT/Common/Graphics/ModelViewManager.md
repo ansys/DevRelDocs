@@ -2,7 +2,7 @@
 
 <a id="ansys.mechanical.stubs.v241.Ansys.ACT.Common.Graphics.ModelViewManager"></a>
 
-#### *class* ansys.mechanical.stubs.v241.Ansys.ACT.Common.Graphics.ModelViewManager
+#### *class* Ansys.ACT.Common.Graphics.ModelViewManager
 
 Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 

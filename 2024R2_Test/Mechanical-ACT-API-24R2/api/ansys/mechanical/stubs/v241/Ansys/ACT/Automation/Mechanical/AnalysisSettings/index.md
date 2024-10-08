@@ -18,7 +18,7 @@
 
 ## Description
 
-AnalysisSettings subpackage.
+AnalysisSettings module.
 
 <!-- !! processed by numpydoc !! -->
 

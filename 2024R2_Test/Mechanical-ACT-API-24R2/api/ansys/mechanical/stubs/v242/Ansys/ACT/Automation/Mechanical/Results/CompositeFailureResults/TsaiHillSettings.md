@@ -2,7 +2,7 @@
 
 <a id="ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Results.CompositeFailureResults.TsaiHillSettings"></a>
 
-#### *class* ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Results.CompositeFailureResults.TsaiHillSettings
+#### *class* Ansys.ACT.Automation.Mechanical.Results.CompositeFailureResults.TsaiHillSettings
 
 Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 

@@ -2,7 +2,7 @@
 
 <a id="ansys.mechanical.stubs.v241.Ansys.Mechanical.Graphics.Point"></a>
 
-#### *class* ansys.mechanical.stubs.v241.Ansys.Mechanical.Graphics.Point
+#### *class* Ansys.Mechanical.Graphics.Point
 
 Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 

@@ -2,7 +2,7 @@
 
 <a id="ansys.mechanical.stubs.v241.Ansys.ACT.Interfaces.Mechanical.IMechanicalSelectionInfo"></a>
 
-#### *class* ansys.mechanical.stubs.v241.Ansys.ACT.Interfaces.Mechanical.IMechanicalSelectionInfo
+#### *class* Ansys.ACT.Interfaces.Mechanical.IMechanicalSelectionInfo
 
 Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 

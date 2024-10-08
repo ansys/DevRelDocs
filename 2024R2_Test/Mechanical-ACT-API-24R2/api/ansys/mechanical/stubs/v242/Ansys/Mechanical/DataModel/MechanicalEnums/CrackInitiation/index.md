@@ -16,7 +16,7 @@
 
 ## Description
 
-CrackInitiation subpackage.
+CrackInitiation module.
 
 <!-- !! processed by numpydoc !! -->
 

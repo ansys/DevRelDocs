@@ -16,7 +16,7 @@
 
 ## Description
 
-Selection subpackage.
+Selection module.
 
 <!-- !! processed by numpydoc !! -->
 

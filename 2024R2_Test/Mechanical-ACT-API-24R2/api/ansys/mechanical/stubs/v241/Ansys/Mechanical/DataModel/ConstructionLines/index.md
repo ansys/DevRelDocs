@@ -4,11 +4,11 @@
 
 ## Summary
 
-### Subpackages
+### Modules
 
 | Name | Description |
-|-------------------------------------------------------------------------------------------------------------------|---------------------|
-| [`Edges`](Edges/index.md#module-ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.ConstructionLines.Edges)   | Edges subpackage.   |
+|-------------------------------------------------------------------------------------------------------------------|-----------------|
+| [`Edges`](Edges/index.md#module-ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.ConstructionLines.Edges)   | Edges module.   |
 
 ### Classes
 
@@ -29,7 +29,7 @@
 
 ## Description
 
-ConstructionLines subpackage.
+ConstructionLines module.
 
 <!-- !! processed by numpydoc !! -->
 

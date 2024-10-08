@@ -30,7 +30,7 @@
 
 ## Description
 
-ExternalData subpackage.
+ExternalData module.
 
 <!-- !! processed by numpydoc !! -->
 

@@ -2,7 +2,7 @@
 
 <a id="ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.CrackInitiation"></a>
 
-#### *class* ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.CrackInitiation
+#### *class* Ansys.ACT.Automation.Mechanical.CrackInitiation
 
 Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 

@@ -2,7 +2,7 @@
 
 <a id="ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.DisplacementConstraint"></a>
 
-#### *class* ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.DisplacementConstraint
+#### *class* Ansys.ACT.Automation.Mechanical.DisplacementConstraint
 
 Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 

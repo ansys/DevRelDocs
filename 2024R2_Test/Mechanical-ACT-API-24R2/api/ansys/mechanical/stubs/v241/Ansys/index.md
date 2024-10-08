@@ -4,18 +4,18 @@
 
 ## Summary
 
-### Subpackages
+### Modules
 
 | Name | Description |
-|-----------------------------------------------------------------------------------------|-----------------------|
-| [`ACT`](ACT/index.md#module-ansys.mechanical.stubs.v241.Ansys.ACT)                      | ACT submodule.        |
-| [`Mechanical`](Mechanical/index.md#module-ansys.mechanical.stubs.v241.Ansys.Mechanical) | Mechanical submodule. |
+|-----------------------------------------------------------------------------------------|--------------------|
+| [`ACT`](ACT/index.md#module-ansys.mechanical.stubs.v241.Ansys.ACT)                      | ACT module.        |
+| [`Mechanical`](Mechanical/index.md#module-ansys.mechanical.stubs.v241.Ansys.Mechanical) | Mechanical module. |
 
 <a id="description"></a>
 
 ## Description
 
-Ansys subpackage.
+Ansys module.
 
 <!-- !! processed by numpydoc !! -->
 

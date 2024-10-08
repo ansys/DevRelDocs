@@ -4,17 +4,17 @@
 
 ## Summary
 
-### Subpackages
+### Modules
 
 | Name | Description |
-|----------------------------------------------------------------------------------------------------------|--------------------------|
-| [`Mechanical`](Mechanical/index.md#module-ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical)   | Mechanical subpackage.   |
+|----------------------------------------------------------------------------------------------------------|----------------------|
+| [`Mechanical`](Mechanical/index.md#module-ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical)   | Mechanical module.   |
 
 <a id="description"></a>
 
 ## Description
 
-Automation submodule.
+Automation module.
 
 <!-- !! processed by numpydoc !! -->
 

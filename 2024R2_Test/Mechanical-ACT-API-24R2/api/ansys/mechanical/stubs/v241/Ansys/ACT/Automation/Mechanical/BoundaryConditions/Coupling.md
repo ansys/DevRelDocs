@@ -2,7 +2,7 @@
 
 <a id="ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.BoundaryConditions.Coupling"></a>
 
-#### *class* ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.BoundaryConditions.Coupling
+#### *class* Ansys.ACT.Automation.Mechanical.BoundaryConditions.Coupling
 
 Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 

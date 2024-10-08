@@ -2,7 +2,7 @@
 
 <a id="ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Chart"></a>
 
-#### *class* ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Chart
+#### *class* Ansys.ACT.Automation.Mechanical.Chart
 
 Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 

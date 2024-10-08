@@ -2,7 +2,7 @@
 
 <a id="ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Results.ContactToolResults.ContactHeatFlux"></a>
 
-#### *class* ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Results.ContactToolResults.ContactHeatFlux
+#### *class* Ansys.ACT.Automation.Mechanical.Results.ContactToolResults.ContactHeatFlux
 
 Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 

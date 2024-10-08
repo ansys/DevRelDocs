@@ -21,7 +21,7 @@
 
 ## Description
 
-GeometryImportPreference subpackage.
+GeometryImportPreference module.
 
 <!-- !! processed by numpydoc !! -->
 

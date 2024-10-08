@@ -29,7 +29,7 @@
 
 ## Description
 
-SolverData subpackage.
+SolverData module.
 
 <!-- !! processed by numpydoc !! -->
 

@@ -2,7 +2,7 @@
 
 <a id="ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.BoundaryConditions.RemoteForce"></a>
 
-#### *class* ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.BoundaryConditions.RemoteForce
+#### *class* Ansys.ACT.Automation.Mechanical.BoundaryConditions.RemoteForce
 
 Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 

@@ -17,7 +17,7 @@
 
 ## Description
 
-BoltToolResults subpackage.
+BoltToolResults module.
 
 <!-- !! processed by numpydoc !! -->
 

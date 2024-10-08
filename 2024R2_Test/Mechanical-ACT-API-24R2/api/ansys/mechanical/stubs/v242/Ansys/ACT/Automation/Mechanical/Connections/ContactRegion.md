@@ -2,7 +2,7 @@
 
 <a id="ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Connections.ContactRegion"></a>
 
-#### *class* ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Connections.ContactRegion
+#### *class* Ansys.ACT.Automation.Mechanical.Connections.ContactRegion
 
 Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 

@@ -2,7 +2,7 @@
 
 <a id="ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.ImportedLoads.ImportedFiberRatio"></a>
 
-#### *class* ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.ImportedLoads.ImportedFiberRatio
+#### *class* Ansys.ACT.Automation.Mechanical.ImportedLoads.ImportedFiberRatio
 
 Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 

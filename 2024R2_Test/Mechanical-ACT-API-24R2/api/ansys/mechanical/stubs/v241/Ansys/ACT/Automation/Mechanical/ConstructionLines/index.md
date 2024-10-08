@@ -14,7 +14,7 @@
 
 ## Description
 
-ConstructionLines subpackage.
+ConstructionLines module.
 
 <!-- !! processed by numpydoc !! -->
 

@@ -28,7 +28,7 @@
 
 ## Description
 
-DamageResults subpackage.
+DamageResults module.
 
 <!-- !! processed by numpydoc !! -->
 

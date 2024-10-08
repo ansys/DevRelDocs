@@ -2,7 +2,7 @@
 
 <a id="ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Results.ProbeResults.SpringProbe"></a>
 
-#### *class* ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Results.ProbeResults.SpringProbe
+#### *class* Ansys.ACT.Automation.Mechanical.Results.ProbeResults.SpringProbe
 
 Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 

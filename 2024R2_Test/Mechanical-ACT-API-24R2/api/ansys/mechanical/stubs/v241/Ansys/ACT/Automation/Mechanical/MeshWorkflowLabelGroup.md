@@ -2,7 +2,7 @@
 
 <a id="ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.MeshWorkflowLabelGroup"></a>
 
-#### *class* ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.MeshWorkflowLabelGroup
+#### *class* Ansys.ACT.Automation.Mechanical.MeshWorkflowLabelGroup
 
 Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 

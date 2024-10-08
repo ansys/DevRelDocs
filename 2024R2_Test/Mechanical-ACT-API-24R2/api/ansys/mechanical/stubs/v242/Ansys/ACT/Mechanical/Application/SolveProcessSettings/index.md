@@ -30,7 +30,7 @@
 
 ## Description
 
-SolveProcessSettings subpackage.
+SolveProcessSettings module.
 
 <!-- !! processed by numpydoc !! -->
 

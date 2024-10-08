@@ -2,7 +2,7 @@
 
 <a id="ansys.mechanical.stubs.v242.Ansys.Mechanical.ExternalData.AXDTImportSettings"></a>
 
-#### *class* ansys.mechanical.stubs.v242.Ansys.Mechanical.ExternalData.AXDTImportSettings
+#### *class* Ansys.Mechanical.ExternalData.AXDTImportSettings
 
 Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 

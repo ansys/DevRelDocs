@@ -2,7 +2,7 @@
 
 <a id="ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.FE.CDB.ETCommand"></a>
 
-#### *class* ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.FE.CDB.ETCommand
+#### *class* Ansys.ACT.Automation.Mechanical.FE.CDB.ETCommand
 
 Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 

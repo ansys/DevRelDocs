@@ -37,7 +37,7 @@
 
 ## Description
 
-ImportedLoads subpackage.
+ImportedLoads module.
 
 <!-- !! processed by numpydoc !! -->
 

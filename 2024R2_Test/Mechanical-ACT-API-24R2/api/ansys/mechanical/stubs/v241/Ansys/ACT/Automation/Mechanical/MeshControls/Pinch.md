@@ -2,7 +2,7 @@
 
 <a id="ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.MeshControls.Pinch"></a>
 
-#### *class* ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.MeshControls.Pinch
+#### *class* Ansys.ACT.Automation.Mechanical.MeshControls.Pinch
 
 Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 

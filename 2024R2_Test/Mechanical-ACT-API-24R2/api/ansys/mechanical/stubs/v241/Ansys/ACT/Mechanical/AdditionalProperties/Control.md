@@ -2,7 +2,7 @@
 
 <a id="ansys.mechanical.stubs.v241.Ansys.ACT.Mechanical.AdditionalProperties.Control"></a>
 
-#### *class* ansys.mechanical.stubs.v241.Ansys.ACT.Mechanical.AdditionalProperties.Control
+#### *class* Ansys.ACT.Mechanical.AdditionalProperties.Control
 
 Bases: [`enum.Enum`](https://docs.python.org/3/library/enum.html#enum.Enum)
 

@@ -2,7 +2,7 @@
 
 <a id="ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Results.ResultTrackers.PositionTracker"></a>
 
-#### *class* ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Results.ResultTrackers.PositionTracker
+#### *class* Ansys.ACT.Automation.Mechanical.Results.ResultTrackers.PositionTracker
 
 Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 

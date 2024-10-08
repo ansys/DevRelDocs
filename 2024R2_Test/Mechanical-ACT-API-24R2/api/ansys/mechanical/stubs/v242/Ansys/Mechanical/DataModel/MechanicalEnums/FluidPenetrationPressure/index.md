@@ -18,7 +18,7 @@
 
 ## Description
 
-FluidPenetrationPressure subpackage.
+FluidPenetrationPressure module.
 
 <!-- !! processed by numpydoc !! -->
 

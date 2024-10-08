@@ -2,7 +2,7 @@
 
 <a id="ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.BoundaryConditions.RotationalAcceleration"></a>
 
-#### *class* ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.BoundaryConditions.RotationalAcceleration
+#### *class* Ansys.ACT.Automation.Mechanical.BoundaryConditions.RotationalAcceleration
 
 Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 

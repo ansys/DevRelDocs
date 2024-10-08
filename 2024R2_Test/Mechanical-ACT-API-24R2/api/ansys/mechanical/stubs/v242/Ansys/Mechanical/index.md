@@ -4,26 +4,26 @@
 
 ## Summary
 
-### Subpackages
+### Modules
 
 | Name | Description |
-|----------------------------------------------------------------------------------------------------------|---------------------------|
-| [`Application`](Application/index.md#module-ansys.mechanical.stubs.v242.Ansys.Mechanical.Application)    | Application subpackage.   |
-| [`DataModel`](DataModel/index.md#module-ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel)          | DataModel submodule.      |
-| [`ExternalData`](ExternalData/index.md#module-ansys.mechanical.stubs.v242.Ansys.Mechanical.ExternalData) | ExternalData subpackage.  |
-| [`Graphics`](Graphics/index.md#module-ansys.mechanical.stubs.v242.Ansys.Mechanical.Graphics)             | Graphics subpackage.      |
-| [`Interfaces`](Interfaces/index.md#module-ansys.mechanical.stubs.v242.Ansys.Mechanical.Interfaces)       | Interfaces subpackage.    |
-| [`Materials`](Materials/index.md#module-ansys.mechanical.stubs.v242.Ansys.Mechanical.Materials)          | Materials subpackage.     |
-| [`Math`](Math/index.md#module-ansys.mechanical.stubs.v242.Ansys.Mechanical.Math)                         | Math subpackage.          |
-| [`Selection`](Selection/index.md#module-ansys.mechanical.stubs.v242.Ansys.Mechanical.Selection)          | Selection subpackage.     |
-| [`Table`](Table/index.md#module-ansys.mechanical.stubs.v242.Ansys.Mechanical.Table)                      | Table subpackage.         |
-| [`UI`](UI/index.md#module-ansys.mechanical.stubs.v242.Ansys.Mechanical.UI)                               | UI submodule.             |
+|----------------------------------------------------------------------------------------------------------|-----------------------|
+| [`Application`](Application/index.md#module-ansys.mechanical.stubs.v242.Ansys.Mechanical.Application)    | Application module.   |
+| [`DataModel`](DataModel/index.md#module-ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel)          | DataModel module.     |
+| [`ExternalData`](ExternalData/index.md#module-ansys.mechanical.stubs.v242.Ansys.Mechanical.ExternalData) | ExternalData module.  |
+| [`Graphics`](Graphics/index.md#module-ansys.mechanical.stubs.v242.Ansys.Mechanical.Graphics)             | Graphics module.      |
+| [`Interfaces`](Interfaces/index.md#module-ansys.mechanical.stubs.v242.Ansys.Mechanical.Interfaces)       | Interfaces module.    |
+| [`Materials`](Materials/index.md#module-ansys.mechanical.stubs.v242.Ansys.Mechanical.Materials)          | Materials module.     |
+| [`Math`](Math/index.md#module-ansys.mechanical.stubs.v242.Ansys.Mechanical.Math)                         | Math module.          |
+| [`Selection`](Selection/index.md#module-ansys.mechanical.stubs.v242.Ansys.Mechanical.Selection)          | Selection module.     |
+| [`Table`](Table/index.md#module-ansys.mechanical.stubs.v242.Ansys.Mechanical.Table)                      | Table module.         |
+| [`UI`](UI/index.md#module-ansys.mechanical.stubs.v242.Ansys.Mechanical.UI)                               | UI module.            |
 
 <a id="description"></a>
 
 ## Description
 
-Mechanical submodule.
+Mechanical module.
 
 <!-- !! processed by numpydoc !! -->
 

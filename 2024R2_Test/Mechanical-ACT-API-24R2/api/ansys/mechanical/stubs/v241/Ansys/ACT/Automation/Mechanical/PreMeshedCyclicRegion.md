@@ -2,7 +2,7 @@
 
 <a id="ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.PreMeshedCyclicRegion"></a>
 
-#### *class* ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.PreMeshedCyclicRegion
+#### *class* Ansys.ACT.Automation.Mechanical.PreMeshedCyclicRegion
 
 Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 

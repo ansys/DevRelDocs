@@ -2,7 +2,7 @@
 
 <a id="ansys.mechanical.stubs.v242.Ansys.Mechanical.Table.ColumnarDataImportDefinition"></a>
 
-#### *class* ansys.mechanical.stubs.v242.Ansys.Mechanical.Table.ColumnarDataImportDefinition
+#### *class* Ansys.Mechanical.Table.ColumnarDataImportDefinition
 
 Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
