@@ -43,8 +43,9 @@ There are 3 types of messages:
   <tbody>
     <tr>
         <td rowspan="2">SOUND_LOAD</td>
-        <td>Id (int, from 0 to 20)</td>
-        <td>Load a sound file for the 3D sound source identified by the specified Id</td>
+        <td>Sound ID (int, from 0 to 32765)</td>
+        <td>Preload a sound file and assign it the specified ID as a
+            reference for later use</td>
     </tr>
     <tr>
         <td>
@@ -54,12 +55,13 @@ There are 3 types of messages:
     </tr>
     <tr>
         <td rowspan="5">SOUND_PLAY_3D</td>
-        <td>Id (int, from 0 to 20)</td>
-        <td>Play the 3D sound source identified by the specified Id</td>
+        <td>Source ID (int, from 0 to 20)</td>
+        <td>Play the 3D sound source identified by the specified ID</td>
     </tr>
      <tr>
-        <td>Sound Id (int)</td>
-        <td></td>
+        <td>Sound ID (int)</td>
+        <td>ID of the preloaded sound (message SOUND_LOAD)
+            that should be played as this sound source</td>
     </tr>
      <tr>
         <td>Number of playback loops (int)</td>
@@ -79,8 +81,8 @@ There are 3 types of messages:
     </tr>
     <tr>
         <td rowspan="7">INTERP_SOUND_PLAY</td>
-        <td>Id (int, from 1 to 10)</td>
-        <td>Play the 3D interpolated sound source identified by the specified Id</td>
+        <td>Source ID (int, from 1 to 10)</td>
+        <td>Play the 3D interpolated sound source identified by the specified ID</td>
     </tr>
     <tr>
         <td>Volume (float, gain in dB)</td>
@@ -112,12 +114,13 @@ There are 3 types of messages:
     </tr>
     <tr>
         <td rowspan="7">SOUND_PLAY_AMBIANCE</td>
-        <td>Id (int, from 1 to 2)</td>
-        <td>Play the ambiance sound source identified by the specified Id</td>
+        <td>Source ID (int, from 1 to 2)</td>
+        <td>Play the ambiance sound source identified by the specified ID</td>
     </tr>
     <tr>
-        <td>Sound Id (int)</td>
-        <td></td>
+        <td>Sound ID (int)</td>
+        <td>ID of the preloaded sound (message SOUND_LOAD)
+            that should be played as this sound source</td>
     </tr>
     <tr>
         <td>Number of playback loops (int)</td>
@@ -137,13 +140,14 @@ There are 3 types of messages:
     </tr>
     <tr>
         <td>Speed (float)</td>
-        <td>Playback speed (1 is the normal speed). Changing the values also affects the pitch.</td>
+        <td>Playback speed (1 is the normal speed).
+            Changing the values also affects the pitch.</td>
     </tr>
     <tr>
         <td rowspan="8">INPUTCHANNEL_SOUND_PLAY</td>
-        <td>Id (int, from 1 to 3)</td>
+        <td>Source ID (int, from 1 to 3)</td>
         <td>
-            <p>Play the 3D input audio stream identified by the specified Id</p>
+            <p>Play the 3D input audio stream identified by the specified ID</p>
         </td>
     </tr>
     <tr>
@@ -180,37 +184,37 @@ There are 3 types of messages:
     </tr>
     <tr>
         <td>SOUND_STOP_3D</td>
-        <td>Id (int, from 1 to 20)</td>
+        <td>Source ID (int, from 1 to 20)</td>
         <td>Stop the playback of the 3D sound source
-            identified by the specified Id</td>
+            identified by the specified ID</td>
     </tr>
     <tr>
         <td>INTERP_SOUND_STOP</td>
-        <td>Id (int, from 1 to 10)</td>
+        <td>Source ID (int, from 1 to 10)</td>
         <td>Stop the playback of the 3D interpolated sound source
-            identified by the specified Id</td>
+            identified by the specified ID</td>
     </tr>
     <tr>
         <td>SOUND_STOP_AMBIANCE</td>
-        <td>Id (int, from 1 to 2)</td>
+        <td>Source ID (int, from 1 to 2)</td>
         <td>Stop the playback of the ambiance sound source
-            identified by the specified Id.</td>
+            identified by the specified ID</td>
     </tr>
     <tr>
         <td>INPUTCHANNEL_SOUND_STOP</td>
-        <td>Id (int, from 1 to 3)</td>
+        <td>Source ID (int, from 1 to 3)</td>
         <td>Stop the playback of the 3D input audio stream
-            identified by the specified Id.</td>
+            identified by the specified ID</td>
     </tr>
     <tr>
         <td>SOUND_VOLUME_3D</td>
         <td>
-            <p>Id (int, from 1 to 20)</p>
+            <p>Source ID (int, from 1 to 20)</p>
             <p>Volume (float, gain in dB)</p>
         </td>
         <td>
             <p>Change the sound volume of the 3D sound source
-               identified by the specified Id.</p>
+               identified by the specified ID</p>
             <p>0 dB = unitary gain</p>
             <p>Maximum gain allowed = 20 dB</p>
         </td>
@@ -218,12 +222,12 @@ There are 3 types of messages:
     <tr>
         <td>INTERP_SOUND_VOLUME</td>
         <td>
-            <p>Id (int, from 1 to 10)</p>
+            <p>Source ID (int, from 1 to 10)</p>
             <p>Volume (float, gain in dB)</p>
         </td>
         <td>
             <p>Change the sound volume of the 3D interpolated sound source
-               identified by the specified Id.</p>
+               identified by the specified ID</p>
             <p>0 dB = unitary gain</p>
             <p>Maximum gain allowed = 10 dB</p>
         </td>
@@ -231,12 +235,12 @@ There are 3 types of messages:
     <tr>
         <td>SOUND_VOLUME_AMBIANCE</td>
         <td>
-            <p>Id (int, from 1 to 2)</p>
+            <p>Source ID (int, from 1 to 2)</p>
             <p>Volume (float, gain in dB)</p>
         </td>
         <td>
             <p>Change the sound volume of the ambiance sound source
-               identified by the specified Id.</p>
+               identified by the specified ID</p>
             <p>0 dB = unitary gain</p>
             <p>Maximum gain allowed = 20 dB</p>
         </td>
@@ -244,12 +248,12 @@ There are 3 types of messages:
     <tr>
         <td>INPUTCHANNEL_VOLUME</td>
         <td>
-            <p>Id (int, from 1 to 3)</p>
+            <p>Source ID (int, from 1 to 3)</p>
             <p>Volume (float, gain in dB)</p>
         </td>
         <td>
             <p>Change the sound volume of the 3D input stream
-               identified by the specified Id.</p>
+               identified by the specified ID</p>
             <p>0 dB = unitary gain</p>
             <p>Maximum gain allowed = 20 dB</p>
         </td>
@@ -257,7 +261,7 @@ There are 3 types of messages:
     <tr>
         <td>SOLO_3D</td>
         <td>
-            <p>Id (int, from 1 to 20)</p>
+            <p>Source ID (int, from 1 to 20)</p>
             <p>Solo info (int 0/1)</p>
         </td>
         <td>When solo is activated (1) for a 3D sound source,
@@ -266,7 +270,7 @@ There are 3 types of messages:
     <tr>
         <td>INTERP_SOLO</td>
         <td>
-            <p>Id (int, from 1 to 10)</p>
+            <p>Source ID (int, from 1 to 10)</p>
             <p>Solo info (int 0/1)</p>
         </td>
         <td>When solo is activated (1) for a 3D interpolated sound source,
@@ -275,7 +279,7 @@ There are 3 types of messages:
     <tr>
         <td>SOLO_AMBIANCE</td>
         <td>
-            <p>Id (int, from 1 to 2)</p>
+            <p>Source ID (int, from 1 to 2)</p>
             <p>Solo info (int 0/1)</p>
         </td>
         <td>When solo is activated (1) for an ambiance sound source,
@@ -284,7 +288,7 @@ There are 3 types of messages:
     <tr>
         <td>INPUTCHANNEL_SOLO</td>
         <td>
-            <p>Id (int, from 1 to 3)</p>
+            <p>Source ID (int, from 1 to 3)</p>
             <p>Solo info (int 0/1)</p>
         </td>
         <td>When solo is activated (1) for a 3D input stream,
@@ -293,7 +297,7 @@ There are 3 types of messages:
     <tr>
         <td>MUTE_3D</td>
         <td>
-            <p>Id (int, from 1 to 20)</p>
+            <p>Source ID (int, from 1 to 20)</p>
             <p>Mute info (int 0/1)</p>
         </td>
         <td>When mute is activated (1) for a 3D sound source, it becomes silent.</td>
@@ -301,7 +305,7 @@ There are 3 types of messages:
     <tr>
         <td>INTERP_MUTE</td>
         <td>
-            <p>Id (int, from 1 to 10)</p>
+            <p>Source ID (int, from 1 to 10)</p>
             <p>Mute info (int 0/1)</p>
         </td>
         <td>When mute is activated (1) for a 3D interpolated sound source, it becomes silent.</td>
@@ -309,7 +313,7 @@ There are 3 types of messages:
     <tr>
         <td>MUTE_AMBIANCE</td>
         <td>
-            <p>Id (int, from 1 to 2)</p>
+            <p>Source ID (int, from 1 to 2)</p>
             <p>Mute info (int 0/1)</p>
         </td>
         <td>When mute is activated (1) for an ambiance sound source, it becomes silent.</td>
@@ -317,7 +321,7 @@ There are 3 types of messages:
     <tr>
         <td>INPUTCHANNEL_MUTE</td>
         <td>
-            <p>Id (int, from 1 to 3)</p>
+            <p>Source ID (int, from 1 to 3)</p>
             <p>Mute info (int 0/1)</p>
         </td>
         <td>When mute is activated (1) for a 3D input stream, it becomes silent.</td>
@@ -325,7 +329,7 @@ There are 3 types of messages:
                     <tr>
                         <td>ACTIVE_SPAT_3D</td>
                         <td>
-                            <p>Id (int, from 1 to 20)</p>
+                            <p>Source ID (int, from 1 to 20)</p>
                             <p>Spat info (int 0/1)</p>
                         </td>
                         <td>
@@ -336,7 +340,7 @@ There are 3 types of messages:
                     <tr>
                         <td>INTERP_ACTIVE_SPAT</td>
                         <td>
-                            <p>Id (int, from 1 to 10)</p>
+                            <p>Source ID (int, from 1 to 10)</p>
                             <p>Spat info (int 0/1)</p>
                         </td>
                         <td>
@@ -347,7 +351,7 @@ There are 3 types of messages:
                     <tr>
                         <td>INPUTCHANNEL_ACTIVE_SPAT</td>
                         <td>
-                            <p>Id (int, from 1 to 3)</p>
+                            <p>Source ID (int, from 1 to 3)</p>
                             <p>Spat info (int 0/1)</p>
                         </td>
                         <td>
@@ -358,7 +362,7 @@ There are 3 types of messages:
                     <tr>
                         <td>ACTIVE_TRACKING_3D</td>
                         <td>
-                            <p>Id (int, from 1 to 20)</p>
+                            <p>Source ID (int, from 1 to 20)</p>
                             <p>Head-tracking info (int 0/1)</p>
                         </td>
                         <td>
@@ -370,7 +374,7 @@ There are 3 types of messages:
                     <tr>
                         <td>INTERP_ACTIVE_TRACKING</td>
                         <td>
-                            <p>Id (int, from 1 to 10)</p>
+                            <p>Source ID (int, from 1 to 10)</p>
                             <p>Head-tracking info (int 0/1)</p>
                         </td>
                         <td>
@@ -382,7 +386,7 @@ There are 3 types of messages:
                     <tr>
                         <td>INPUTCHANNEL_ACTIVE_TRACKING</td>
                         <td>
-                            <p>Id (int, from 1 to 3)</p>
+                            <p>Source ID (int, from 1 to 3)</p>
                             <p>Head-tracking info (int 0/1)</p>
                         </td>
                         <td>
@@ -394,61 +398,61 @@ There are 3 types of messages:
                     <tr>
                         <td>SPEED_3D</td>
                         <td>
-                            <p>Id (int, from 1 to 20)</p>
+                            <p>Source ID (int, from 1 to 20)</p>
                             <p>Playback speed (float)</p>
                         </td>
                         <td>
                             <p>Playback speed for the 3D sound source identified by the
-                                specified Id (1 is the normal speed). Changing the
+                                specified ID (1 is the normal speed). Changing the
                                 value also affects the pitch.</p>
                         </td>
                     </tr>
                     <tr>
                         <td>SPEED_AMBIANCE</td>
                         <td>
-                            <p>Id (int, from 1 to 2)</p>
+                            <p>Source ID (int, from 1 to 2)</p>
                             <p>Playback speed (float)</p>
                         </td>
                         <td>
                             <p>Playback speed for the ambiance sound source identified by the
-                                specified Id (1 is the normal speed). Changing
+                                specified ID (1 is the normal speed). Changing
                                 the value also affects the pitch.</p>
                         </td>
                     </tr>
                     <tr>
                         <td>3D_SOURCE_TRAJECTORY</td>
                         <td>
-                            <p>Id (int, from 1 to 20)</p>
+                            <p>Source ID (int, from 1 to 20)</p>
                             <p>File name (string)</p>
                         </td>
                         <td>
                             <p>Load a trajectory for the 3D sound source
-                                identified by the specified Id.</p>
-                            <p>Full path of the trajectory file including extension.</p>
+                                identified by the specified ID</p>
+                            <p>Full path of the trajectory file including extension</p>
                         </td>
                     </tr>
                     <tr>
                         <td>INTERP_TRAJECTORY</td>
                         <td>
-                            <p>Id (int, from 1 to 10)</p>
+                            <p>Source ID (int, from 1 to 10)</p>
                             <p>File name (string)</p>
                         </td>
                         <td>
                             <p>Load a trajectory for the 3D interpolated sound source 
-                                identified by the specified Id.</p>
-                            <p>Full path of the trajectory file including extension.</p>
+                                identified by the specified ID</p>
+                            <p>Full path of the trajectory file including extension</p>
                         </td>
                     </tr>
                     <tr>
                         <td>3D_SOURCE_DIFFUSENESS</td>
                         <td>
-                            <p>Id (int, from 1 to 20)</p>
+                            <p>Source ID (int, from 1 to 20)</p>
                             <p>Diffuseness value (int, %)</p>
                         </td>
                         <td>
                             <p>For VBAP rendering mode only.</p>
                             <p>Specify how diffuse the spatialization of the 3D sound
-                                source identified by the specified Id shall be.</p>
+                                source identified by the specified ID shall be.</p>
                             <p>0% means the source is not spread, 100% means the source is totally
                                 surrounding and diffused over all speakers.</p>
                         </td>
@@ -456,13 +460,13 @@ There are 3 types of messages:
                     <tr>
                         <td>INTERP_SOURCE_DIFFUSENESS</td>
                         <td>
-                            <p>Id (int, from 1 to 10)</p>
+                            <p>Source ID (int, from 1 to 10)</p>
                             <p>Diffuseness value (int, %)</p>
                         </td>
                         <td>
                             <p>For VBAP rendering mode only.</p>
                             <p>Specify how diffuse the spatialization of the 3D interpolated sound
-                                source identified by the specified Id shall be.</p>
+                                source identified by the specified ID shall be.</p>
                             <p>0% means the source is not spread, 100% means the source is totally
                                 surrounding and diffused over all speakers.</p>
                         </td>
@@ -470,13 +474,13 @@ There are 3 types of messages:
                     <tr>
                         <td>INPUTCHANNEL_SOURCE_DIFFUSENESS</td>
                         <td>
-                            <p>Id (int, from 1 to 3)</p>
+                            <p>Source ID (int, from 1 to 3)</p>
                             <p>Diffuseness value (int, %)</p>
                         </td>
                         <td>
                             <p>For VBAP rendering mode only.</p>
                             <p>Specify how diffuse the spatialization of the 3D input
-                                audio stream identified by the specified Id shall be.</p>
+                                audio stream identified by the specified ID shall be.</p>
                             <p>0% means the source is not spread, 100% means the source is
                                 surrounding and diffused over all speakers.</p>
                         </td>
@@ -484,7 +488,7 @@ There are 3 types of messages:
                     <tr>
                         <td>INTERP_CONTROL_PARAM</td>
                         <td>
-                            <p>Id (int, from 1 to 10)</p>
+                            <p>Source ID (int, from 1 to 10)</p>
                             <p>Control parameter value (int)</p>
                         </td>
                         <td>
@@ -496,7 +500,7 @@ There are 3 types of messages:
                                         <tr>
                         <td>INTERP_CONTROL_PARAMETER_FILE</td>
                         <td>
-                            <p>Id (int, from 1 to 10)</p>
+                            <p>Source ID (int, from 1 to 10)</p>
                             <p>FileName (string)</p>
                         </td>
                         <td>
@@ -506,7 +510,7 @@ There are 3 types of messages:
                     <tr>
                         <td>INTERP_OVERLAP</td>
                         <td>
-                            <p>Id (int, from 1 to 10)</p>
+                            <p>Source ID (int, from 1 to 10)</p>
                             <p>Overlap value (int)</p>
                         </td>
                         <td>
@@ -563,7 +567,7 @@ There are 3 types of messages:
                     <tr>
                         <td>SOURCE_POSITION_3D</td>
                         <td>
-                            <p>Id (int, from 1 to 20)</p>
+                            <p>Source ID (int, from 1 to 20)</p>
                             <p>x (float)</p>
                             <p>y (float)</p>
                             <p>z (float)</p>
@@ -575,7 +579,7 @@ There are 3 types of messages:
                     <tr>
                         <td>INTERP_SOURCE_POSITION</td>
                         <td>
-                            <p>Id (int, from 1 to 10)</p>
+                            <p>Source ID (int, from 1 to 10)</p>
                             <p>x (float)</p>
                             <p>y (float)</p>
                             <p>z (float)</p>
@@ -587,7 +591,7 @@ There are 3 types of messages:
                     <tr>
                         <td>INPUTCHANNEL_POSITION</td>
                         <td>
-                            <p>Id (int, from 1 to 3)</p>
+                            <p>Source ID (int, from 1 to 3)</p>
                             <p>x (float)</p>
                             <p>y (float)</p>
                             <p>z (float)</p>
