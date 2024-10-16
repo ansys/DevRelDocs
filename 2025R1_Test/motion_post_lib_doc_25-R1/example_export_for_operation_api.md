@@ -8,7 +8,6 @@ The following sample code illustrates how to create a simple example.
 
 Export all curves on active plot view.
 * Refer to [Create Curve](example_chart_for_operation_api.md) for curve generation.
-  ![ExportAllCurves](images/Example_ExportAllCurves_For_OperationAPI.png)
 
 ```
 # Example_OperationAPI_ExportCurves.py
