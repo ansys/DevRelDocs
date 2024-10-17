@@ -1,0 +1,38 @@
+# MCATDR
+
+    
+    
+    MCATDR    MCATDR    MCATDR    MCATDR    MCATDR    MCATDR    MCATDR    
+              **********************************************
+                        **************************
+                                  ******
+    
+    SUBROUTINE MCATDR (T, X, IMCWRK, RMCWRK, TDR)
+    This subroutine computes the thermal diffusion ratios for the light
+    species into the mixture.
+    
+    INPUT
+    T         - Real scalar, temperature.
+                   cgs units, K
+    X(*)      - Real array, mole fractions of the mixture;
+                dimension at least KK, the total species count.
+    IMCWRK(*) - Integer workspace array; dimension at least LENIMC.
+    RMCWRK(*) - Real    workspace array; dimension at least LENRMC.
+    
+    OUTPUT
+    TDR(*)    - Real array, thermal diffusion ratios for the species;
+                dimension at least KK, the total species count.
+                TDR(K) = 0 for any species with molecular weight less
+                than 5.
+
+[ « 9.2. MCADIF](pgfId-1070406api.md)
+
+ [9.4. MCAVIS » ](pgfId-1070456.md)
+
+Contains proprietary and confidential information of ANSYS, Inc. and its
+subsidiaries and affiliates.
+
+Release 2025 R1 - (C) ANSYS, Inc. All rights reserved.
+
+Draft Published: 2024-07-05T13:14:42-04:00
+
