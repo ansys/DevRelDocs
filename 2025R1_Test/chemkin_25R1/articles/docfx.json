@@ -1,0 +1,13 @@
+{
+    "build": {
+      "globalMetadata": {
+        "title": " Chemkin Application Programming Interface Manual 2025 R1",
+        "summary": "",
+        "version": "2025 R1",
+        "product": "Chemkin",
+        "programming language": "C",
+        "product collection": "Fluids",
+        "physics": "Fluids"
+      }
+    }
+ }
