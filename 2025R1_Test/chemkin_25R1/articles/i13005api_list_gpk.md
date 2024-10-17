@@ -19,10 +19,3 @@ Subroutines whose call lists have changed since later versions, known as
 _Chemkin_ II, are indicated by a double asterisk.
 
 * * *
-
-
-
-
-
-
-
