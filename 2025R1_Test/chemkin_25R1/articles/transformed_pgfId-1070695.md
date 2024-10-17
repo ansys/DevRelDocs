@@ -1,0 +1,39 @@
+# MCPNT
+
+    
+    
+    MCPNT     MCPNT     MCPNT     MCPNT     MCPNT     MCPNT     MCPNT     
+              **********************************************
+                        **************************
+                                  ******
+    
+    SUBROUTINE MCPNT (LSAVE, LOUT, NPOINT, V, P, LI, LR, IERR)
+    Reads from a binary file information about a Transport linkfile,
+    pointers for the Transport Library, and returns lengths of work
+    arrays.
+    
+    INPUT
+    LSAVE  - Integer scalar, input unit for binary data file.
+    LOUT   - Integer scalar, formatted output file unit.
+    
+    OUTPUT
+    NPOINT - Integer scalar, total number of pointers.
+    V      - Real scalar, version number of the Transport linkfile.
+    P      - Character string, machine precision of the linkfile.
+    LI     - Integer scalar, minimum dimension required for integer
+             workspace array.
+    LR     - Integer scalar, minimumm dimension required for real
+             workspace array.
+    IERR   - Logical, error flag.
+
+[ « 9.11. MCMDIF](pgfId-1070665.md)
+
+ [9.13. MCPRAM » ](pgfId-1070721api.md)
+
+Contains proprietary and confidential information of ANSYS, Inc. and its
+subsidiaries and affiliates.
+
+Release 2025 R1 - (C) ANSYS, Inc. All rights reserved.
+
+Draft Published: 2024-07-05T13:14:42-04:00
+
