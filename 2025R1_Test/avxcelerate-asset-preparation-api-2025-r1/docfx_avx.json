@@ -1,0 +1,16 @@
+{
+  "build": {
+    "globalMetadata": {
+      "title": "AVxcelerate Asset Preparation API Documentation",
+      "summary": "Prepare AVxcelerate assets and tracks by augmenting existing 3D content with physics-based properties.",
+      "version": "2024 R2",
+      "description": "This document is intended for developers who need to streamline the preparation of AVX assets and tracks, AVxcelerate Asset Preparation API exposes the interfaces required to prepare AVX assets and tracks.",
+      "date": "2024-10-22",
+      "status": "unpublished",
+      "api categories": "Autonomous Vehicle Simulation",
+      "product": "AVxcelerate Asset Preparation API",
+      "product collection": "Autonomous Vehicle Simulation",
+      "physics": "Autonomous Driving"
+    }
+  }
+}
