@@ -1,0 +1,13 @@
+{
+    "build": {
+      "globalMetadata": {
+        "title": "Granta scripting toolkit documentation",
+        "summary": "",
+        "version": "4.1",
+        "product": "Granta",
+        "programming language": "Python",
+        "product collection": "Materials",
+        "physics": "Materials Data"
+      }
+    }
+ }
