@@ -1,4 +1,4 @@
-# AVxcelerate Asset Preparation API
+# API description
 
 > **Important Note:** You are reading the documentation for AVxcelerate Asset Preparation API v3 delivered in 2025 R1.
 >
@@ -262,7 +262,7 @@ The *Resource Preparation* service (exposed in the *resource/resource.proto* fil
 
 #### Resource Preparation service input
 
-The *Resource Preparation* service accepts a stream of chunks as input of the **UploadResource** call, see [ResourcePreparation](../ref/reference-documentation.md#ResourcePreparation). The service waits for metadata with the `AVX MIMEType` key, which contains the MIMEType of the sent data.
+The *Resource Preparation* service accepts a stream of chunks as input of the **UploadResource** call, see [ResourcePreparation](../ref/reference-documentation.md#resourcepreparation). The service waits for metadata with the `AVX MIMEType` key, which contains the MIMEType of the sent data.
 
 A user-defined name can be provided to the uploaded resource with the `AVX DataName` key, which contains the name of the sent data.
 
@@ -331,7 +331,7 @@ await call.RequestStream.WriteAsync(new Chunk
 
 #### Resource Preparation service output
 
-The *Resource Description* service outputs chunks as a byte stream from the **DownloadResourceAsChunks** call, see [ResourcePreparation](../ref/reference-documentation.md#ResourcePreparation). The service sends metadata with the `AVX MIMEType` key defining the type of the data, with the same format as for the **UploadResource**: `type/subtype` with the original file extension as a subtype, and the `AVX DataName` key defining the name of the data. The data is the stream of the original file.
+The *Resource Description* service outputs chunks as a byte stream from the **DownloadResourceAsChunks** call, see [ResourcePreparation](../ref/reference-documentation.md#resourcepreparation). The service sends metadata with the `AVX MIMEType` key defining the type of the data, with the same format as for the **UploadResource**: `type/subtype` with the original file extension as a subtype, and the `AVX DataName` key defining the name of the data. The data is the stream of the original file.
 The identifier of a downloaded resource can then be used to reference the resource in a message of another service.
 
 > **Note:** Irradiance maps cannot be downloaded, neither as chunks, nor as file because after import, the xmp file is converted into a proprietary format which cannot be converted back to the xmp file format.
@@ -414,6 +414,7 @@ To reference primitive A in the properties of a Material Part:
 - the number of indices that define this area in the indices array is 3, so the `indices_count` is 3.
 
 ![Primitive A Start Index](Asset_prep_API_geometry_vertices_material_A.png)
+
 ![Primitive A Indices count](Asset_prep_API_geometry_indices_array_A.png)
 
 To reference the area composed by primitives B and C in the properties of a Material Part:
@@ -422,6 +423,7 @@ To reference the area composed by primitives B and C in the properties of a Mate
 - the number of indices that define this area in the indices array is 6, so the `indices_count` is 6.
 
 ![Primitive B Start Index](Asset_prep_API_geometry_vertices_material_A.png)
+
 ![Primitives B and C Indices count](Asset_prep_API_geometry_indices_array_BC.png)
 
 #### Geometry Preparation service inputs
@@ -540,8 +542,8 @@ How the conflicting objects are handled is ruled by:
 Here are possible outputs of the *Scene Tree Preparation* service.
 
 - The binary data of the scene tree with an identifier. This identifier can be used to reference the created scene tree in an environment.
-- Chunks of binary data from the **GetAssetChunks** call, see [SceneTreePreparation](../ref/reference-documentation.md#SceneTreePreparation). The data is the content of the asset.
-- A .asset file from the **GetAssetFile** call, see [SceneTreePreparation](../ref/reference-documentation.md#SceneTreePreparation).
+- Chunks of binary data from the **GetAssetChunks** call, see [SceneTreePreparation](../ref/reference-documentation.md#scenetreepreparation). The data is the content of the asset.
+- A .asset file from the **GetAssetFile** call, see [SceneTreePreparation](../ref/reference-documentation.md#scenetreepreparation).
   When the .asset file exported from the API is imported in AVxcelerate Asset Preparation Editor, the scene tree is converted to one .scenetree file.
 
 ### Environment Preparation service
@@ -850,7 +852,7 @@ For tracks and assets exported as a byte stream from the AVxcelerate Asset Prepa
   </li>
 </ol>
 
-Refer to the AVXCELERATE Sensors Simulator API Documentation published on the [Ansys Developer Portal]](https://developer.ansys.com/).
+Refer to the AVXCELERATE Sensors Simulator API Documentation published on the [Ansys Developer Portal](https://developer.ansys.com/).
 
 ### Asset and Track files
 
