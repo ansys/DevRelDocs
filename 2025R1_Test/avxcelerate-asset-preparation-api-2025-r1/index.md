@@ -1,4 +1,4 @@
-# AVxcelerate Asset Preparation API
+# Introduction
 
 This API documentation is composed of the following sections:
 
