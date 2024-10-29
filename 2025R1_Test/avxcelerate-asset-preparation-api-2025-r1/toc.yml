@@ -1,10 +1,10 @@
 - name: Introduction
   href: index.md
   items:
-- name: API Description
+- name: API description
   items: 
   href: desc/api-description.md
-- name: Reference Documentation
+- name: Reference documentation
   items:
   href: ref/reference-documentation.md
 - name: Changelog
