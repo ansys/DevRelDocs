@@ -27,9 +27,12 @@ MI Scripting Toolkit objects. Instead, methods will be added to the MI Scripting
 interoperability with PyAnsys packages as required. Example notebooks will also be provided to
 demonstrate the use of these methods.
 
-Example notebooks are included in the MI Scripting Toolkit, this is
-included as part of the Granta MI Enterprise package on the Ansys Customer Portal. Contact
-your system administrator for more details.
+There are currently two notebooks that demonstrate this interoperability:
+
+* [RecordLists and MI Scripting Toolkit](samples/streamlined/22_Record_Lists_Interoperability.md)
+* [JobQueue and MI Scripting Toolkit](samples/streamlined/23_Job_Queue_Interoperability.md)
+
+More examples will be added as additional PyAnsys packages are released.
 
 <a id="scripting-toolkit-third-party-dependencies"></a>
 
