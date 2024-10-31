@@ -2,9 +2,11 @@
 
 > **Important Note:** You are reading the documentation for AVxcelerate Asset Preparation API v3 delivered in 2025 R1.
 >
-> To consult the documentation of the v3 delivered in 2024 R2, go to the [Ansys Developer Portal](https://developer.ansys.com/).
+> To consult the documentation of the AVxcelerate Asset Preparation API v3 delivered in 2024 R2, go to the page [AVxcelerate previous releases](https://developer.ansys.com/docs/avxcelerate/previous).
 >
 > Please refer to the [Changelog](../changelog/changelog.md) to get the complete list of changes introduced in this version.
+>
+> AVxcelerate Asset Preparation API v1 and v2 are also delivered in 2025 R1. The documentation for these versions is available locally in the *Documentation* folder under *\v251\Optical Products\VRXPERIENCE\APIs\Asset_Preparation_API\Documentation*.
 >
 ## Overview
 
