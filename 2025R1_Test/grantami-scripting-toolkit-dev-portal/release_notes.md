@@ -208,9 +208,8 @@ modified according to the recommendations below. The features will be removed in
 
 ### Examples
 
-Example notebooks are included in the MI Scripting Toolkit, this is
-included as part of the Granta MI Enterprise package on the Ansys Customer Portal. Contact
-your system administrator for more details.
+* Added new [Data validation](samples/data-analytics/13_Data_validation.md) notebook that demonstrates how to use
+  Scripting Toolkit to validate data in a Granta MI database.
 
 <a id="foundation-api-enhancements-and-bug-fixes"></a>
 
