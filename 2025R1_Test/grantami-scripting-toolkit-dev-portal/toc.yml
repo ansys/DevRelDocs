@@ -9,101 +9,101 @@
   - name: "Streamlined API Example Notebooks"
     items:
     - name: Get Started
-      href: 00_Get_Started.md
+      href: samples/streamlined/00_Get_Started.md
     - name: Get Attributes
-      href: 01_Get_Attributes.md
+      href: samples/streamlined/01_Get_Attributes.md
     - name: Browse Granta MI
-      href: 02_Browse_MI.md
+      href: samples/streamlined/02_Browse_MI.md
     - name: Search Granta MI
-      href: 03_Search_MI.md
+      href: samples/streamlined/03_Search_MI.md
     - name: Fetch Attribute Data in Bulk
-      href: 04_Fetch_Attribute_Data_in_Bulk.md
+      href: samples/streamlined/04_Fetch_Attribute_Data_in_Bulk.md
     - name: Edit Data
-      href: 05_Edit_Data.md
+      href: samples/streamlined/05_Edit_Data.md
     - name: Create and Delete Records in Bulk
-      href: 06_Create_Records.md
+      href: samples/streamlined/06_Create_Records.md
     - name: Import Functional Data
-      href: 07_Import_Functional_Data.md
+      href: samples/streamlined/07_Import_Functional_Data.md
     - name: Create Functional Data
-      href: 08_Create_Functional_Data.md
+      href: samples/streamlined/08_Create_Functional_Data.md
     - name: Edit Tabular Data
-      href: 09_Edit_Tabular_Data.md
+      href: samples/streamlined/09_Edit_Tabular_Data.md
     - name: Edit Pseudo-attributes
-      href: 10_Edit_Pseudo-attributes.md
+      href: samples/streamlined/10_Edit_Pseudo-attributes.md
     - name: Add Files, Pictures, and Hyperlinks
-      href: 11_Add_Files_Pictures_and_Hyperlinks.md
+      href: samples/streamlined/11_Add_Files_Pictures_and_Hyperlinks.md
     - name: Add Point and Range data
-      href: 12_Add_Point_Range_Data.md
+      href: samples/streamlined/12_Add_Point_Range_Data.md
     - name: Add Date, Integer and Logical data
-      href: 13_Add_Date_Integer_and_Logical_Data.md
+      href: samples/streamlined/13_Add_Date_Integer_and_Logical_Data.md
     - name: Create and Edit Tabular Data
-      href: 14_Create_and_Edit_Tabular_Data.md
+      href: samples/streamlined/14_Create_and_Edit_Tabular_Data.md
     - name: Export data for FEA
-      href: 15_Use_Exporters_for_FEA_Export.md
+      href: samples/streamlined/15_Use_Exporters_for_FEA_Export.md
     - name: Link Records
-      href: 16_Link_Records.md
+      href: samples/streamlined/16_Link_Records.md
     - name: Layouts
-      href: 17_Layouts.md
+      href: samples/streamlined/17_Layouts.md
     - name: Streamlined API performance tuning
-      href: 18_Streamlined_API_performance_tuning.md
+      href: samples/streamlined/18_Streamlined_API_performance_tuning.md
     - name: Using OpenID Connect with MI Scripting Toolkit
-      href: 19_Using_OIDC_With_the_STK.md
+      href: samples/streamlined/19_Using_OIDC_With_the_STK.md
     - name: Logging
-      href: 20_Logging.md
+      href: samples/streamlined/20_Logging.md
     - name: Storing Credentials Securely
-      href: 21_Storing_credentials_securely.md
+      href: samples/streamlined/21_Storing_credentials_securely.md
     - name: RecordLists and MI Scripting Toolkit
-      href: 22_Record_Lists_Interoperability.md
+      href: samples/streamlined/22_Record_Lists_Interoperability.md
     - name: JobQueue and MI Scripting Toolkit
-      href: 23_Job_Queue_Interoperability.md
+      href: samples/streamlined/23_Job_Queue_Interoperability.md
   - name: "Data Analytics Example Notebooks"
     items:
     - name: Create scatter plots
-      href: 00_Create_scatter_plots.md
+      href: samples/data-analytics/00_Create_scatter_plots.md
     - name: Compare datasets graphically
-      href: 01_Compare_datasets_graphically.md
+      href: samples/data-analytics/01_Compare_datasets_graphically.md
     - name: Plot data by category
-      href: 02_Plot_data_by_category.md
+      href: samples/data-analytics/02_Plot_data_by_category.md
     - name: Fit series data and import fit results
-      href: 03_Fit_series_data_and_import.md
+      href: samples/data-analytics/03_Fit_series_data_and_import.md
     - name: Process datasets and import results into Granta MI
-      href: 04_Process_datasets_and_import.md
+      href: samples/data-analytics/04_Process_datasets_and_import.md
     - name: Find the area under a curve
-      href: 05_Find_area_under_a_curve.md
+      href: samples/data-analytics/05_Find_area_under_a_curve.md
     - name: Calculate statistics for a set of records
-      href: 06_Calculate_statistics_for_records.md
+      href: samples/data-analytics/06_Calculate_statistics_for_records.md
     - name: Calculate statistics for functional data attributes
-      href: 07_Calculate_statistics_for_functional_attributes.md
+      href: samples/data-analytics/07_Calculate_statistics_for_functional_attributes.md
     - name: Fit a non-linear model to series data
-      href: 08_Fit_model_to_series_data.md
+      href: samples/data-analytics/08_Fit_model_to_series_data.md
     - name: Compare test data to specification values
-      href: 09_Compare_test_data_to_specification_values.md
+      href: samples/data-analytics/09_Compare_test_data_to_specification_values.md
     - name: Generate a Material Datasheet Report using MI Scripting Toolkit and `python-docx`
-      href: 10_Material_datasheet_report.md
+      href: samples/data-analytics/10_Material_datasheet_report.md
     - name: Generate a Material Summary Presentation using MI Scripting Toolkit and `python-pptx`
-      href: 11_Powerpoint_summary_example.md
+      href: samples/data-analytics/11_Powerpoint_summary_example.md
     - name: Preparing data for Power BI
-      href: 12_Preparing_data_for_Power_BI.md
+      href: samples/data-analytics/12_Preparing_data_for_Power_BI.md
     - name: Data validation using Scripting Toolkit
-      href: 13_Data_validation.md
+      href: samples/data-analytics/13_Data_validation.md
   - name: "Foundation API Example Notebooks"
     items:
     - name: Text search
-      href: Text_Search.md
+      href: samples/foundation/Text_Search.md
     - name: Exporting data
-      href: Exporting_data.md
+      href: samples/foundation/Exporting_data.md
     - name: Exporting data using the Engineering Data Service
-      href: Exporting_data_using_EngineeringDataService.md
+      href: samples/foundation/Exporting_data_using_EngineeringDataService.md
     - name: Functional data and importing data
-      href: Functional_data_and_importing_data.md
+      href: samples/foundation/Functional_data_and_importing_data.md
     - name: Importing and exporting tabular data
-      href: Importing_and_exporting_tabular_data.md
+      href: samples/foundation/Importing_and_exporting_tabular_data.md
     - name: New Features in MI Scripting Toolkit v1.5
-      href: Deleting_records_and_other_new_v1_5_features.md
+      href: samples/foundation/Deleting_records_and_other_new_v1_5_features.md
     - name: Inspecting record link groups
-      href: Inspecting_Record_Link_Groups.md
+      href: samples/foundation/Inspecting_Record_Link_Groups.md
     - name: Modifying record link groups
-      href: Modifying_Record_Link_Groups.md
+      href: samples/foundation/Modifying_Record_Link_Groups.md
 - name: "MI Scripting Toolkit and PyAnsys"
   href: pyansys.md
 - name: "Streamlined API Reference"
