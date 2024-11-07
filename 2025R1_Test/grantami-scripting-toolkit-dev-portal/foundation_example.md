@@ -1,5 +1,3 @@
-<a id="foundation-api-example-notebooks"></a>
-
 # Foundation API Example Notebooks
 
 These example scripts show you how to use the MI Scripting Toolkit to search for records, export data, and import data.

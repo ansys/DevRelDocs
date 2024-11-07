@@ -1,5 +1,3 @@
-<a id="example-notebooks"></a>
-
 # Example Notebooks
 
 The MI Scripting Toolkit documentation includes example notebooks that cover key features of the Python interface. These

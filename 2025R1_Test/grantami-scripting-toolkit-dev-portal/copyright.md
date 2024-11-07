@@ -1,5 +1,3 @@
-<a id="copyright-and-trademark-information"></a>
-
 # Copyright and Trademark Information
 
 © 2025 ANSYS, Inc. or its affiliated companies. All rights reserved

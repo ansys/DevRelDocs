@@ -1,5 +1,3 @@
-<a id="foundation-api-reference"></a>
-
 # Foundation API Reference
 
 <a id="services-reference"></a>

@@ -1,7 +1,3 @@
-<a id="release-notes"></a>
-
-<a id="what-s-new-in-version-version"></a>
-
 # What’s new in Version 4.1
 
 Key features introduced or improved in MI Scripting Toolkit 4.1.
