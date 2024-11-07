@@ -1,6 +1,6 @@
 <a id="streamlined-api-reference"></a>
 
-# Streamlined API Reference
+# Streamlined API reference
 
 The classes and functions that form the Streamlined API are grouped by database element, to help you find what you need:
 
