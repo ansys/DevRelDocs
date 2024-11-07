@@ -2,7 +2,7 @@
 
 # Copyright and Trademark Information
 
-© 2024 ANSYS, Inc. or its affiliated companies. All rights reserved
+© 2025 ANSYS, Inc. or its affiliated companies. All rights reserved
 
 Ansys, Ansys Workbench, AUTODYN, CFX, FLUENT and any and all ANSYS, Inc. brand, product, service and feature names, logos and slogans are registered trademarks or trademarks of ANSYS, Inc. or its subsidiaries located in the United States or other countries. ICEM CFD is a trademark used by ANSYS, Inc. under license. CFX is a trademark of Sony Corporation in Japan. All other brand, product, service and feature names or trademarks are the property of their respective owners. FLEXlm and FLEXnet are trademarks of Flexera Software LLC.
 
