@@ -79,4 +79,5 @@ l_sizePacket = OSC_packetSize(b);
 *l_packet = new char[l_sizePacket+1]; memcpy(*l_packet, OSC_getPacket(b), l_sizePacket);
 return true;
 }
+}
 ```
