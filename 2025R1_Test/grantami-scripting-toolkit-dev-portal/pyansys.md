@@ -1,5 +1,3 @@
-<a id="mi-scripting-toolkit-and-pyansys"></a>
-
 # MI Scripting Toolkit and PyAnsys
 
 <a id="new-pyansys-packages-for-granta-mi"></a>
