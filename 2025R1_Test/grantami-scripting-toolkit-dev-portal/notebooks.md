@@ -1,6 +1,6 @@
 <a id="example-notebooks"></a>
 
-# Example Notebooks
+# Example notebooks
 
 The MI Scripting Toolkit documentation includes example notebooks that cover key features of the Python interface. These
 are available as HTML reference documents, Jupyter Notebook files, and python scripts below:
@@ -11,11 +11,11 @@ are available as HTML reference documents, Jupyter Notebook files, and python sc
 
 <a id="package-dependencies"></a>
 
-## Package Dependencies
+## Package dependencies
 
 <a id="third-party-dependencies"></a>
 
-### Third-party Dependencies
+### Third-party dependencies
 
 These notebooks depend on third-party Python packages in addition to the MI Scripting Toolkit. The list
 below defines the requirements for running the notebooks:
@@ -45,7 +45,7 @@ python -m pip install --upgrade pip
 
 <a id="pygranta-dependencies"></a>
 
-### PyGranta Dependencies
+### PyGranta dependencies
 
 The following notebooks also depend on additional PyGranta packages:
 
@@ -64,7 +64,7 @@ metapackage.
 
 <a id="database-compatibility"></a>
 
-## Database Compatibility
+## Database compatibility
 
 These notebooks have been tested against the latest version of the MI Training database at the time of release.
 Every effort has been made to ensure the notebooks will execute without exceptions, even if they are run multiple times
