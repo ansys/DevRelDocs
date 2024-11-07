@@ -1,5 +1,4 @@
 # Example notebooks
-===================
 
 The MI Scripting Toolkit documentation includes example notebooks that cover key features of the Python interface. These
 are available as HTML reference documents, Jupyter Notebook files, and python scripts below:
