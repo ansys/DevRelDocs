@@ -1,5 +1,3 @@
-<a id="data-analytics-example-notebooks"></a>
-
 # Data Analytics Example Notebooks
 
 These examples show how to use the MI Scripting Toolkit to perform some common data analytics tasks, including

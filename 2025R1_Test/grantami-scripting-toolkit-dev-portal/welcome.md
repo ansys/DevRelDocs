@@ -1,5 +1,3 @@
-<a id="welcome"></a>
-
 # Welcome
 
 The MI Scripting Toolkit provides an interface for directly interacting with the Granta MI Service Layer.

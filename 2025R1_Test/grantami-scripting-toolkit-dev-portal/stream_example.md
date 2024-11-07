@@ -1,5 +1,3 @@
-<a id="streamlined-api-example-notebooks"></a>
-
 # Streamlined API Example Notebooks
 
 The MI Scripting Toolkit provides you with ready-to-use sample code to help you get started, whether you’re a
