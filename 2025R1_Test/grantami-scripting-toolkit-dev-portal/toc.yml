@@ -88,8 +88,8 @@
       href: 13_Data_validation.md
   - name: "Foundation API Example Notebooks"
     items:
-    - name: New Features in MI Scripting Toolkit v1.5
-      href: Deleting_records_and_other_new_v1_5_features.md
+    - name: Text search
+      href: Text_Search.md
     - name: Exporting data
       href: Exporting_data.md
     - name: Exporting data using the Engineering Data Service
@@ -98,12 +98,12 @@
       href: Functional_data_and_importing_data.md
     - name: Importing and exporting tabular data
       href: Importing_and_exporting_tabular_data.md
+    - name: New Features in MI Scripting Toolkit v1.5
+      href: Deleting_records_and_other_new_v1_5_features.md
     - name: Inspecting record link groups
       href: Inspecting_Record_Link_Groups.md
     - name: Modifying record link groups
       href: Modifying_Record_Link_Groups.md
-    - name: Text search
-      href: Text_Search.md
 - name: "MI Scripting Toolkit and PyAnsys"
   href: pyansys.md
 - name: "Streamlined API Reference"
