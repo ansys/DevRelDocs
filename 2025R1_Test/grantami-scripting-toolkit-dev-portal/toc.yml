@@ -85,7 +85,7 @@
     - name: Preparing data for Power BI
       href: samples/data-analytics/12_Preparing_data_for_Power_BI.md
     - name: Data validation using Scripting Toolkit
-      href: 13_Data_validation.md
+      href: samples/data-analytics/13_Data_validation.md
   - name: "Foundation API example notebooks"
     items:
     - name: Text search
