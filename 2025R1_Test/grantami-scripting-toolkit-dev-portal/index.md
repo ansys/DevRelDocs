@@ -1,5 +1,3 @@
-<a id="welcome-to-the-mi-scripting-toolkit-version-documentation"></a>
-
 # Welcome to the MI Scripting Toolkit 4.1 documentation
 
 Contents:

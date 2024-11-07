@@ -1,6 +1,4 @@
-<a id="welcome"></a>
-
-# Welcome
+# Introduction
 
 The MI Scripting Toolkit provides an interface for directly interacting with the Granta MI Service Layer.
 Materials data in your Granta MI installation can be analyzed or transformed using Python, and the results imported

@@ -1,7 +1,3 @@
-<a id="upgrading"></a>
-
-<a id="upgrading-from-earlier-versions"></a>
-
 # Upgrading from earlier versions
 
 Breaking changes from previous releases of MI Scripting Toolkit.
