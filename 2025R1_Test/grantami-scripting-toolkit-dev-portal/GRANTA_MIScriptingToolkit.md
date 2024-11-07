@@ -1,6 +1,6 @@
 <a id="foundation-api-reference"></a>
 
-# Foundation API Reference
+# Foundation API reference
 
 <a id="services-reference"></a>
 
