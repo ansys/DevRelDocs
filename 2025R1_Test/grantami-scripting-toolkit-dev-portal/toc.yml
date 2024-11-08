@@ -1,12 +1,12 @@
 - name: "Introduction"
   href: welcome.md
-- name: "What's new in Version 4.1"
+- name: "What's new in version 4.1"
   href: release_notes.md
 - name: "Upgrading from earlier versions"
   href: upgrading.md
-- name: Example Notebooks
+- name: "Example notebooks"
   items:
-  - name: "Streamlined API Example Notebooks"
+  - name: "Streamlined API example notebooks"
     items:
     - name: Get Started
       href: samples/streamlined/00_Get_Started.md
@@ -56,7 +56,7 @@
       href: samples/streamlined/22_Record_Lists_Interoperability.md
     - name: JobQueue and MI Scripting Toolkit
       href: samples/streamlined/23_Job_Queue_Interoperability.md
-  - name: "Data Analytics Example Notebooks"
+  - name: "Data analytics example notebooks"
     items:
     - name: Create scatter plots
       href: samples/data-analytics/00_Create_scatter_plots.md
@@ -86,7 +86,7 @@
       href: samples/data-analytics/12_Preparing_data_for_Power_BI.md
     - name: Data validation using Scripting Toolkit
       href: samples/data-analytics/13_Data_validation.md
-  - name: "Foundation API Example Notebooks"
+  - name: "Foundation API example notebooks"
     items:
     - name: Text search
       href: samples/foundation/Text_Search.md
@@ -106,9 +106,9 @@
       href: samples/foundation/Modifying_Record_Link_Groups.md
 - name: "MI Scripting Toolkit and PyAnsys"
   href: pyansys.md
-- name: "Streamlined API Reference"
+- name: "Streamlined API reference"
   href: stream_api.md
-- name: "Foundation API Reference"
+- name: "Foundation API reference"
   href: GRANTA_MIScriptingToolkit.md
-- name: "Copyright and Trademark Information"
+- name: "Copyright and trademark information"
   href: copyright.md
