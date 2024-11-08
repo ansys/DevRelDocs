@@ -1,4 +1,4 @@
-# Foundation API Example Notebooks
+# Foundation API example notebooks
 
 These example scripts show you how to use the MI Scripting Toolkit to search for records, export data, and import data.
 All examples use the MI Training database, available from the Ansys Download Center.

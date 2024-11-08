@@ -4,7 +4,7 @@ Breaking changes from previous releases of MI Scripting Toolkit.
 
 <a id="upgrading-from-mi-scripting-toolkit-version-4-0"></a>
 
-## Upgrading from MI Scripting Toolkit Version 4.0
+## Upgrading from MI Scripting Toolkit 4.0
 
 <a id="parameters"></a>
 
@@ -71,7 +71,7 @@ some functionality has been deprecated:
 
 <a id="upgrading-from-mi-scripting-toolkit-for-python-version-3-x"></a>
 
-## Upgrading from MI Scripting Toolkit for Python Version 3.x
+## Upgrading from MI Scripting Toolkit for Python 3.x
 
 <a id="subsets"></a>
 
