@@ -127,7 +127,7 @@ BoundingBoxTolerance property.
 
 <a id="ImportedElementOrientation.Children"></a>
 
-### *property* ImportedElementOrientation.Children *: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ImportedElementOrientation.Children *: List[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of children.
 
@@ -135,7 +135,7 @@ Gets the list of children.
 
 <a id="ImportedElementOrientation.Comments"></a>
 
-### *property* ImportedElementOrientation.Comments *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Comment](../../../../../../v241/Ansys/ACT/Automation/Mechanical/Comment.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ImportedElementOrientation.Comments *: Iterable[[Ansys.ACT.Automation.Mechanical.Comment](../Comment.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated comments.
 
@@ -143,7 +143,7 @@ Gets the list of associated comments.
 
 <a id="ImportedElementOrientation.CreateNameSelectionForMappedNodes"></a>
 
-### *property* ImportedElementOrientation.CreateNameSelectionForMappedNodes *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ImportedElementOrientation.CreateNameSelectionForMappedNodes *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 CreateNameSelectionForMappedNodes property.
 
@@ -151,7 +151,7 @@ CreateNameSelectionForMappedNodes property.
 
 <a id="ImportedElementOrientation.CreateNameSelectionForOutsideNodes"></a>
 
-### *property* ImportedElementOrientation.CreateNameSelectionForOutsideNodes *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ImportedElementOrientation.CreateNameSelectionForOutsideNodes *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 CreateNameSelectionForOutsideNodes property.
 
@@ -159,7 +159,7 @@ CreateNameSelectionForOutsideNodes property.
 
 <a id="ImportedElementOrientation.CreateNameSelectionForUnmappedNodes"></a>
 
-### *property* ImportedElementOrientation.CreateNameSelectionForUnmappedNodes *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ImportedElementOrientation.CreateNameSelectionForUnmappedNodes *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 CreateNameSelectionForUnmappedNodes property.
 
@@ -175,7 +175,7 @@ Gets the current DataModelObject’s category.
 
 <a id="ImportedElementOrientation.DisplayInteriorPoints"></a>
 
-### *property* ImportedElementOrientation.DisplayInteriorPoints *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ImportedElementOrientation.DisplayInteriorPoints *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 DisplayInteriorPoints property.
 
@@ -183,7 +183,7 @@ DisplayInteriorPoints property.
 
 <a id="ImportedElementOrientation.DisplayProjectionPlane"></a>
 
-### *property* ImportedElementOrientation.DisplayProjectionPlane *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ImportedElementOrientation.DisplayProjectionPlane *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 DisplayProjectionPlane property.
 
@@ -191,7 +191,7 @@ DisplayProjectionPlane property.
 
 <a id="ImportedElementOrientation.DisplaySourcePointIds"></a>
 
-### *property* ImportedElementOrientation.DisplaySourcePointIds *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ImportedElementOrientation.DisplaySourcePointIds *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 DisplaySourcePointIds property.
 
@@ -199,7 +199,7 @@ DisplaySourcePointIds property.
 
 <a id="ImportedElementOrientation.DisplaySourcePoints"></a>
 
-### *property* ImportedElementOrientation.DisplaySourcePoints *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ImportedElementOrientation.DisplaySourcePoints *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 DisplaySourcePoints property.
 
@@ -207,7 +207,7 @@ DisplaySourcePoints property.
 
 <a id="ImportedElementOrientation.ExtrapolationTolerancePercent"></a>
 
-### *property* ImportedElementOrientation.ExtrapolationTolerancePercent *: System.Double | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ImportedElementOrientation.ExtrapolationTolerancePercent *: [float](https://docs.python.org/3/library/functions.html#float) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 ExtrapolationTolerancePercent property.
 
@@ -215,7 +215,7 @@ ExtrapolationTolerancePercent property.
 
 <a id="ImportedElementOrientation.Figures"></a>
 
-### *property* ImportedElementOrientation.Figures *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Figure](../../../../../../v241/Ansys/ACT/Automation/Mechanical/Figure.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ImportedElementOrientation.Figures *: Iterable[[Ansys.ACT.Automation.Mechanical.Figure](../Figure.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated figures.
 
@@ -223,7 +223,7 @@ Gets the list of associated figures.
 
 <a id="ImportedElementOrientation.Images"></a>
 
-### *property* ImportedElementOrientation.Images *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Image](../../../../../../v241/Ansys/ACT/Automation/Mechanical/Image.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ImportedElementOrientation.Images *: Iterable[[Ansys.ACT.Automation.Mechanical.Image](../Image.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated images.
 
@@ -287,7 +287,7 @@ LegendRange property.
 
 <a id="ImportedElementOrientation.Limit"></a>
 
-### *property* ImportedElementOrientation.Limit *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ImportedElementOrientation.Limit *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Limit property.
 
@@ -303,7 +303,7 @@ Gets or sets the Location.
 
 <a id="ImportedElementOrientation.MappedNodesName"></a>
 
-### *property* ImportedElementOrientation.MappedNodesName *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ImportedElementOrientation.MappedNodesName *: [str](https://docs.python.org/3/library/stdtypes.html#str) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 MappedNodesName property.
 
@@ -343,7 +343,7 @@ Method property.
 
 <a id="ImportedElementOrientation.NumberOfPoints"></a>
 
-### *property* ImportedElementOrientation.NumberOfPoints *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ImportedElementOrientation.NumberOfPoints *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 NumberOfPoints property.
 
@@ -351,7 +351,7 @@ NumberOfPoints property.
 
 <a id="ImportedElementOrientation.OrientationRealignment"></a>
 
-### *property* ImportedElementOrientation.OrientationRealignment *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ImportedElementOrientation.OrientationRealignment *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 OrientationRealignment property.
 
@@ -359,7 +359,7 @@ OrientationRealignment property.
 
 <a id="ImportedElementOrientation.OutsideDistanceCheck"></a>
 
-### *property* ImportedElementOrientation.OutsideDistanceCheck *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ImportedElementOrientation.OutsideDistanceCheck *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 OutsideDistanceCheck property.
 
@@ -367,7 +367,7 @@ OutsideDistanceCheck property.
 
 <a id="ImportedElementOrientation.OutsideNodesName"></a>
 
-### *property* ImportedElementOrientation.OutsideNodesName *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ImportedElementOrientation.OutsideNodesName *: [str](https://docs.python.org/3/library/stdtypes.html#str) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 OutsideNodesName property.
 
@@ -391,7 +391,7 @@ Pinball property.
 
 <a id="ImportedElementOrientation.Projection"></a>
 
-### *property* ImportedElementOrientation.Projection *: [Ansys.ACT.Automation.Mechanical.CoordinateSystem](../../../../../../v241/Ansys/ACT/Automation/Mechanical/CoordinateSystem.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.CoordinateSystem) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ImportedElementOrientation.Projection *: [Ansys.ACT.Automation.Mechanical.CoordinateSystem](../CoordinateSystem.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.CoordinateSystem) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Projection property.
 
@@ -399,7 +399,7 @@ Projection property.
 
 <a id="ImportedElementOrientation.Properties"></a>
 
-### *property* ImportedElementOrientation.Properties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ImportedElementOrientation.Properties *: [tuple](https://docs.python.org/3/library/stdtypes.html#tuple)[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of properties for this object.
 
@@ -415,7 +415,7 @@ RigidBodyTransformationType property.
 
 <a id="ImportedElementOrientation.RigidTransformSourceCoordinateSystem"></a>
 
-### *property* ImportedElementOrientation.RigidTransformSourceCoordinateSystem *: [Ansys.ACT.Automation.Mechanical.CoordinateSystem](../../../../../../v241/Ansys/ACT/Automation/Mechanical/CoordinateSystem.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.CoordinateSystem) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ImportedElementOrientation.RigidTransformSourceCoordinateSystem *: [Ansys.ACT.Automation.Mechanical.CoordinateSystem](../CoordinateSystem.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.CoordinateSystem) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 RigidTransformSourceCoordinateSystem property.
 
@@ -423,7 +423,7 @@ RigidTransformSourceCoordinateSystem property.
 
 <a id="ImportedElementOrientation.RigidTransformTargetCoordinateSystem"></a>
 
-### *property* ImportedElementOrientation.RigidTransformTargetCoordinateSystem *: [Ansys.ACT.Automation.Mechanical.CoordinateSystem](../../../../../../v241/Ansys/ACT/Automation/Mechanical/CoordinateSystem.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.CoordinateSystem) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ImportedElementOrientation.RigidTransformTargetCoordinateSystem *: [Ansys.ACT.Automation.Mechanical.CoordinateSystem](../CoordinateSystem.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.CoordinateSystem) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 RigidTransformTargetCoordinateSystem property.
 
@@ -431,7 +431,7 @@ RigidTransformTargetCoordinateSystem property.
 
 <a id="ImportedElementOrientation.SharedRefBody"></a>
 
-### *property* ImportedElementOrientation.SharedRefBody *: [Ansys.ACT.Automation.Mechanical.Body](../../../../../../v241/Ansys/ACT/Automation/Mechanical/Body.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Body) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ImportedElementOrientation.SharedRefBody *: [Ansys.ACT.Automation.Mechanical.Body](../Body.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Body) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the SharedRefBody.
 
@@ -439,7 +439,7 @@ Gets or sets the SharedRefBody.
 
 <a id="ImportedElementOrientation.ShellThicknessFactor"></a>
 
-### *property* ImportedElementOrientation.ShellThicknessFactor *: System.Double | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ImportedElementOrientation.ShellThicknessFactor *: [float](https://docs.python.org/3/library/functions.html#float) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 ShellThicknessFactor property.
 
@@ -463,7 +463,7 @@ SourceMinimum property.
 
 <a id="ImportedElementOrientation.Suppressed"></a>
 
-### *property* ImportedElementOrientation.Suppressed *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ImportedElementOrientation.Suppressed *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Suppressed.
 
@@ -471,7 +471,7 @@ Gets or sets the Suppressed.
 
 <a id="ImportedElementOrientation.UnmappedNodesName"></a>
 
-### *property* ImportedElementOrientation.UnmappedNodesName *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ImportedElementOrientation.UnmappedNodesName *: [str](https://docs.python.org/3/library/stdtypes.html#str) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 UnmappedNodesName property.
 
@@ -487,7 +487,7 @@ VariableType property.
 
 <a id="ImportedElementOrientation.VisibleProperties"></a>
 
-### *property* ImportedElementOrientation.VisibleProperties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ImportedElementOrientation.VisibleProperties *: [tuple](https://docs.python.org/3/library/stdtypes.html#tuple)[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of properties that are visible for this object.
 
@@ -531,7 +531,7 @@ Creates a new child Figure.
 
 <a id="ImportedElementOrientation.AddImage"></a>
 
-### ImportedElementOrientation.AddImage(filePath: System.String)
+### ImportedElementOrientation.AddImage(filePath: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 ```text
 Creates a new child Image.
@@ -567,7 +567,7 @@ Copies all visible properties from this object to another.
 
 <a id="ImportedElementOrientation.CreateParameter"></a>
 
-### ImportedElementOrientation.CreateParameter(propName: System.String)
+### ImportedElementOrientation.CreateParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Creates a new parameter for a Property.
 
@@ -591,7 +591,7 @@ Creates a copy of the current DataModelObject.
 
 <a id="ImportedElementOrientation.ExportToTextFile"></a>
 
-### ImportedElementOrientation.ExportToTextFile(filePath: System.String)
+### ImportedElementOrientation.ExportToTextFile(filePath: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Run the ExportToTextFile action.
 
@@ -599,7 +599,7 @@ Run the ExportToTextFile action.
 
 <a id="ImportedElementOrientation.GetActivateAtLoadStep"></a>
 
-### ImportedElementOrientation.GetActivateAtLoadStep(stepNumber: System.UInt32)
+### ImportedElementOrientation.GetActivateAtLoadStep(stepNumber: [int](https://docs.python.org/3/library/functions.html#int))
 
 GetActivateAtLoadStep method.
 
@@ -607,7 +607,7 @@ GetActivateAtLoadStep method.
 
 <a id="ImportedElementOrientation.GetChildren"></a>
 
-### ImportedElementOrientation.GetChildren(recurses: System.Boolean, children: System.Collections.Generic.IList[ChildrenType])
+### ImportedElementOrientation.GetChildren(recurses: [bool](https://docs.python.org/3/library/functions.html#bool), children: List[ChildrenType])
 
 Gets the list of children, filtered by type.
 
@@ -615,7 +615,7 @@ Gets the list of children, filtered by type.
 
 <a id="ImportedElementOrientation.GetParameter"></a>
 
-### ImportedElementOrientation.GetParameter(propName: System.String)
+### ImportedElementOrientation.GetParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Gets the parameter corresponding to the given property.
 
@@ -655,7 +655,7 @@ Run the ImportLoad action.
 
 <a id="ImportedElementOrientation.PropertyByAPIName"></a>
 
-### ImportedElementOrientation.PropertyByAPIName(name: System.String)
+### ImportedElementOrientation.PropertyByAPIName(name: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 ```text
 Get a property by its API name.
@@ -666,7 +666,7 @@ If multiple properties have the same API Name, only the first property with that
 
 <a id="ImportedElementOrientation.PropertyByName"></a>
 
-### ImportedElementOrientation.PropertyByName(name: System.String)
+### ImportedElementOrientation.PropertyByName(name: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Get a property by its unique name.
 
@@ -682,7 +682,7 @@ Reload the Imported Load’s setup from its associated configuration file (if av
 
 <a id="ImportedElementOrientation.RemoveParameter"></a>
 
-### ImportedElementOrientation.RemoveParameter(propName: System.String)
+### ImportedElementOrientation.RemoveParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Removes the parameter from the parameter set corresponding to the given property.
 
@@ -690,7 +690,7 @@ Removes the parameter from the parameter set corresponding to the given property
 
 <a id="ImportedElementOrientation.SetActivateAtLoadStep"></a>
 
-### ImportedElementOrientation.SetActivateAtLoadStep(stepNumber: System.UInt32, bActive: System.Boolean)
+### ImportedElementOrientation.SetActivateAtLoadStep(stepNumber: [int](https://docs.python.org/3/library/functions.html#int), bActive: [bool](https://docs.python.org/3/library/functions.html#bool))
 
 SetActivateAtLoadStep method.
 

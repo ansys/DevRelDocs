@@ -17,7 +17,7 @@ Specifies the SpringType.
 ### Attributes
 
 | Name |
-| ---------------------------------------------------------------------------------------------------------------- |
+| ---------------------------------------------- |
 | [`Longitudinal`](#SpringType.Longitudinal) |
 | [`Torsional`](#SpringType.Torsional) |
 

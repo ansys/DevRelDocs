@@ -127,7 +127,7 @@ BoundingBoxTolerance property.
 
 <a id="ImportedHeatFlux.Children"></a>
 
-### *property* ImportedHeatFlux.Children *: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ImportedHeatFlux.Children *: List[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of children.
 
@@ -135,7 +135,7 @@ Gets the list of children.
 
 <a id="ImportedHeatFlux.Comments"></a>
 
-### *property* ImportedHeatFlux.Comments *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Comment](../../../../../../v241/Ansys/ACT/Automation/Mechanical/Comment.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ImportedHeatFlux.Comments *: Iterable[[Ansys.ACT.Automation.Mechanical.Comment](../Comment.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated comments.
 
@@ -143,7 +143,7 @@ Gets the list of associated comments.
 
 <a id="ImportedHeatFlux.CreateNameSelectionForMappedNodes"></a>
 
-### *property* ImportedHeatFlux.CreateNameSelectionForMappedNodes *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ImportedHeatFlux.CreateNameSelectionForMappedNodes *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 CreateNameSelectionForMappedNodes property.
 
@@ -151,7 +151,7 @@ CreateNameSelectionForMappedNodes property.
 
 <a id="ImportedHeatFlux.CreateNameSelectionForOutsideNodes"></a>
 
-### *property* ImportedHeatFlux.CreateNameSelectionForOutsideNodes *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ImportedHeatFlux.CreateNameSelectionForOutsideNodes *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 CreateNameSelectionForOutsideNodes property.
 
@@ -159,7 +159,7 @@ CreateNameSelectionForOutsideNodes property.
 
 <a id="ImportedHeatFlux.CreateNameSelectionForUnmappedNodes"></a>
 
-### *property* ImportedHeatFlux.CreateNameSelectionForUnmappedNodes *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ImportedHeatFlux.CreateNameSelectionForUnmappedNodes *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 CreateNameSelectionForUnmappedNodes property.
 
@@ -175,7 +175,7 @@ Gets the current DataModelObject’s category.
 
 <a id="ImportedHeatFlux.DisplayInteriorPoints"></a>
 
-### *property* ImportedHeatFlux.DisplayInteriorPoints *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ImportedHeatFlux.DisplayInteriorPoints *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 DisplayInteriorPoints property.
 
@@ -183,7 +183,7 @@ DisplayInteriorPoints property.
 
 <a id="ImportedHeatFlux.DisplayProjectionPlane"></a>
 
-### *property* ImportedHeatFlux.DisplayProjectionPlane *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ImportedHeatFlux.DisplayProjectionPlane *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 DisplayProjectionPlane property.
 
@@ -191,7 +191,7 @@ DisplayProjectionPlane property.
 
 <a id="ImportedHeatFlux.DisplaySourcePointIds"></a>
 
-### *property* ImportedHeatFlux.DisplaySourcePointIds *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ImportedHeatFlux.DisplaySourcePointIds *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 DisplaySourcePointIds property.
 
@@ -199,7 +199,7 @@ DisplaySourcePointIds property.
 
 <a id="ImportedHeatFlux.DisplaySourcePoints"></a>
 
-### *property* ImportedHeatFlux.DisplaySourcePoints *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ImportedHeatFlux.DisplaySourcePoints *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 DisplaySourcePoints property.
 
@@ -207,7 +207,7 @@ DisplaySourcePoints property.
 
 <a id="ImportedHeatFlux.ExtrapolationTolerancePercent"></a>
 
-### *property* ImportedHeatFlux.ExtrapolationTolerancePercent *: System.Double | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ImportedHeatFlux.ExtrapolationTolerancePercent *: [float](https://docs.python.org/3/library/functions.html#float) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 ExtrapolationTolerancePercent property.
 
@@ -215,7 +215,7 @@ ExtrapolationTolerancePercent property.
 
 <a id="ImportedHeatFlux.Figures"></a>
 
-### *property* ImportedHeatFlux.Figures *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Figure](../../../../../../v241/Ansys/ACT/Automation/Mechanical/Figure.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ImportedHeatFlux.Figures *: Iterable[[Ansys.ACT.Automation.Mechanical.Figure](../Figure.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated figures.
 
@@ -223,7 +223,7 @@ Gets the list of associated figures.
 
 <a id="ImportedHeatFlux.Images"></a>
 
-### *property* ImportedHeatFlux.Images *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Image](../../../../../../v241/Ansys/ACT/Automation/Mechanical/Image.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ImportedHeatFlux.Images *: Iterable[[Ansys.ACT.Automation.Mechanical.Image](../Image.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated images.
 
@@ -287,7 +287,7 @@ LegendRange property.
 
 <a id="ImportedHeatFlux.Limit"></a>
 
-### *property* ImportedHeatFlux.Limit *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ImportedHeatFlux.Limit *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Limit property.
 
@@ -303,7 +303,7 @@ Gets or sets the Location.
 
 <a id="ImportedHeatFlux.MappedNodesName"></a>
 
-### *property* ImportedHeatFlux.MappedNodesName *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ImportedHeatFlux.MappedNodesName *: [str](https://docs.python.org/3/library/stdtypes.html#str) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 MappedNodesName property.
 
@@ -343,7 +343,7 @@ Method property.
 
 <a id="ImportedHeatFlux.NumberOfPoints"></a>
 
-### *property* ImportedHeatFlux.NumberOfPoints *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ImportedHeatFlux.NumberOfPoints *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 NumberOfPoints property.
 
@@ -351,7 +351,7 @@ NumberOfPoints property.
 
 <a id="ImportedHeatFlux.OrientationRealignment"></a>
 
-### *property* ImportedHeatFlux.OrientationRealignment *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ImportedHeatFlux.OrientationRealignment *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 OrientationRealignment property.
 
@@ -359,7 +359,7 @@ OrientationRealignment property.
 
 <a id="ImportedHeatFlux.OutsideDistanceCheck"></a>
 
-### *property* ImportedHeatFlux.OutsideDistanceCheck *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ImportedHeatFlux.OutsideDistanceCheck *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 OutsideDistanceCheck property.
 
@@ -367,7 +367,7 @@ OutsideDistanceCheck property.
 
 <a id="ImportedHeatFlux.OutsideNodesName"></a>
 
-### *property* ImportedHeatFlux.OutsideNodesName *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ImportedHeatFlux.OutsideNodesName *: [str](https://docs.python.org/3/library/stdtypes.html#str) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 OutsideNodesName property.
 
@@ -391,7 +391,7 @@ Pinball property.
 
 <a id="ImportedHeatFlux.Projection"></a>
 
-### *property* ImportedHeatFlux.Projection *: [Ansys.ACT.Automation.Mechanical.CoordinateSystem](../../../../../../v241/Ansys/ACT/Automation/Mechanical/CoordinateSystem.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.CoordinateSystem) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ImportedHeatFlux.Projection *: [Ansys.ACT.Automation.Mechanical.CoordinateSystem](../CoordinateSystem.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.CoordinateSystem) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Projection property.
 
@@ -399,7 +399,7 @@ Projection property.
 
 <a id="ImportedHeatFlux.Properties"></a>
 
-### *property* ImportedHeatFlux.Properties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ImportedHeatFlux.Properties *: [tuple](https://docs.python.org/3/library/stdtypes.html#tuple)[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of properties for this object.
 
@@ -415,7 +415,7 @@ RigidBodyTransformationType property.
 
 <a id="ImportedHeatFlux.RigidTransformSourceCoordinateSystem"></a>
 
-### *property* ImportedHeatFlux.RigidTransformSourceCoordinateSystem *: [Ansys.ACT.Automation.Mechanical.CoordinateSystem](../../../../../../v241/Ansys/ACT/Automation/Mechanical/CoordinateSystem.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.CoordinateSystem) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ImportedHeatFlux.RigidTransformSourceCoordinateSystem *: [Ansys.ACT.Automation.Mechanical.CoordinateSystem](../CoordinateSystem.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.CoordinateSystem) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 RigidTransformSourceCoordinateSystem property.
 
@@ -423,7 +423,7 @@ RigidTransformSourceCoordinateSystem property.
 
 <a id="ImportedHeatFlux.RigidTransformTargetCoordinateSystem"></a>
 
-### *property* ImportedHeatFlux.RigidTransformTargetCoordinateSystem *: [Ansys.ACT.Automation.Mechanical.CoordinateSystem](../../../../../../v241/Ansys/ACT/Automation/Mechanical/CoordinateSystem.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.CoordinateSystem) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ImportedHeatFlux.RigidTransformTargetCoordinateSystem *: [Ansys.ACT.Automation.Mechanical.CoordinateSystem](../CoordinateSystem.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.CoordinateSystem) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 RigidTransformTargetCoordinateSystem property.
 
@@ -431,7 +431,7 @@ RigidTransformTargetCoordinateSystem property.
 
 <a id="ImportedHeatFlux.SharedRefBody"></a>
 
-### *property* ImportedHeatFlux.SharedRefBody *: [Ansys.ACT.Automation.Mechanical.Body](../../../../../../v241/Ansys/ACT/Automation/Mechanical/Body.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Body) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ImportedHeatFlux.SharedRefBody *: [Ansys.ACT.Automation.Mechanical.Body](../Body.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Body) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the SharedRefBody.
 
@@ -439,7 +439,7 @@ Gets or sets the SharedRefBody.
 
 <a id="ImportedHeatFlux.ShellThicknessFactor"></a>
 
-### *property* ImportedHeatFlux.ShellThicknessFactor *: System.Double | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ImportedHeatFlux.ShellThicknessFactor *: [float](https://docs.python.org/3/library/functions.html#float) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 ShellThicknessFactor property.
 
@@ -463,7 +463,7 @@ SourceMinimum property.
 
 <a id="ImportedHeatFlux.Suppressed"></a>
 
-### *property* ImportedHeatFlux.Suppressed *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ImportedHeatFlux.Suppressed *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Suppressed.
 
@@ -471,7 +471,7 @@ Gets or sets the Suppressed.
 
 <a id="ImportedHeatFlux.UnmappedNodesName"></a>
 
-### *property* ImportedHeatFlux.UnmappedNodesName *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ImportedHeatFlux.UnmappedNodesName *: [str](https://docs.python.org/3/library/stdtypes.html#str) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 UnmappedNodesName property.
 
@@ -487,7 +487,7 @@ VariableType property.
 
 <a id="ImportedHeatFlux.VisibleProperties"></a>
 
-### *property* ImportedHeatFlux.VisibleProperties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ImportedHeatFlux.VisibleProperties *: [tuple](https://docs.python.org/3/library/stdtypes.html#tuple)[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of properties that are visible for this object.
 
@@ -531,7 +531,7 @@ Creates a new child Figure.
 
 <a id="ImportedHeatFlux.AddImage"></a>
 
-### ImportedHeatFlux.AddImage(filePath: System.String)
+### ImportedHeatFlux.AddImage(filePath: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 ```text
 Creates a new child Image.
@@ -567,7 +567,7 @@ Copies all visible properties from this object to another.
 
 <a id="ImportedHeatFlux.CreateParameter"></a>
 
-### ImportedHeatFlux.CreateParameter(propName: System.String)
+### ImportedHeatFlux.CreateParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Creates a new parameter for a Property.
 
@@ -591,7 +591,7 @@ Creates a copy of the current DataModelObject.
 
 <a id="ImportedHeatFlux.ExportToTextFile"></a>
 
-### ImportedHeatFlux.ExportToTextFile(filePath: System.String)
+### ImportedHeatFlux.ExportToTextFile(filePath: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Run the ExportToTextFile action.
 
@@ -599,7 +599,7 @@ Run the ExportToTextFile action.
 
 <a id="ImportedHeatFlux.GetActivateAtLoadStep"></a>
 
-### ImportedHeatFlux.GetActivateAtLoadStep(stepNumber: System.UInt32)
+### ImportedHeatFlux.GetActivateAtLoadStep(stepNumber: [int](https://docs.python.org/3/library/functions.html#int))
 
 GetActivateAtLoadStep method.
 
@@ -607,7 +607,7 @@ GetActivateAtLoadStep method.
 
 <a id="ImportedHeatFlux.GetChildren"></a>
 
-### ImportedHeatFlux.GetChildren(recurses: System.Boolean, children: System.Collections.Generic.IList[ChildrenType])
+### ImportedHeatFlux.GetChildren(recurses: [bool](https://docs.python.org/3/library/functions.html#bool), children: List[ChildrenType])
 
 Gets the list of children, filtered by type.
 
@@ -615,7 +615,7 @@ Gets the list of children, filtered by type.
 
 <a id="ImportedHeatFlux.GetParameter"></a>
 
-### ImportedHeatFlux.GetParameter(propName: System.String)
+### ImportedHeatFlux.GetParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Gets the parameter corresponding to the given property.
 
@@ -655,7 +655,7 @@ Run the ImportLoad action.
 
 <a id="ImportedHeatFlux.PropertyByAPIName"></a>
 
-### ImportedHeatFlux.PropertyByAPIName(name: System.String)
+### ImportedHeatFlux.PropertyByAPIName(name: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 ```text
 Get a property by its API name.
@@ -666,7 +666,7 @@ If multiple properties have the same API Name, only the first property with that
 
 <a id="ImportedHeatFlux.PropertyByName"></a>
 
-### ImportedHeatFlux.PropertyByName(name: System.String)
+### ImportedHeatFlux.PropertyByName(name: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Get a property by its unique name.
 
@@ -682,7 +682,7 @@ Reload the Imported Load’s setup from its associated configuration file (if av
 
 <a id="ImportedHeatFlux.RemoveParameter"></a>
 
-### ImportedHeatFlux.RemoveParameter(propName: System.String)
+### ImportedHeatFlux.RemoveParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Removes the parameter from the parameter set corresponding to the given property.
 
@@ -690,7 +690,7 @@ Removes the parameter from the parameter set corresponding to the given property
 
 <a id="ImportedHeatFlux.SetActivateAtLoadStep"></a>
 
-### ImportedHeatFlux.SetActivateAtLoadStep(stepNumber: System.UInt32, bActive: System.Boolean)
+### ImportedHeatFlux.SetActivateAtLoadStep(stepNumber: [int](https://docs.python.org/3/library/functions.html#int), bActive: [bool](https://docs.python.org/3/library/functions.html#bool))
 
 SetActivateAtLoadStep method.
 

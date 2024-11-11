@@ -17,7 +17,7 @@ Defines a Bearing.
 ### Methods
 
 | Name | Description |
-|--------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------|
+|---------------------------------------------------------------|-----------------------------------------------------------------------------------|
 | [`Activate`](#Bearing.Activate)                               | Activate the current object.                                                      |
 | [`AddCommandSnippet`](#Bearing.AddCommandSnippet)             | Creates a new CommandSnippet                                                      |
 | [`AddComment`](#Bearing.AddComment)                           | Creates a new child Comment.                                                      |
@@ -41,7 +41,7 @@ Defines a Bearing.
 ### Properties
 
 | Name | Description |
-|------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------|
+|-------------------------------------------------------------------|---------------------------------------------------------------|
 | [`AnsBCType`](#Bearing.AnsBCType)                                 | Gets the AnsBCType.                                           |
 | [`Children`](#Bearing.Children)                                   | Gets the list of children.                                    |
 | [`Comments`](#Bearing.Comments)                                   | Gets the list of associated comments.                         |
@@ -91,7 +91,7 @@ Defines a Bearing.
 
 <a id="Bearing.AnsBCType"></a>
 
-### *property* Bearing.AnsBCType *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Bearing.AnsBCType *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the AnsBCType.
 
@@ -99,7 +99,7 @@ Gets the AnsBCType.
 
 <a id="Bearing.Children"></a>
 
-### *property* Bearing.Children *: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Bearing.Children *: List[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of children.
 
@@ -107,7 +107,7 @@ Gets the list of children.
 
 <a id="Bearing.Comments"></a>
 
-### *property* Bearing.Comments *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Comment](../Comment.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Bearing.Comments *: Iterable[[Ansys.ACT.Automation.Mechanical.Comment](../Comment.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated comments.
 
@@ -115,7 +115,7 @@ Gets the list of associated comments.
 
 <a id="Bearing.ConnectionType"></a>
 
-### *property* Bearing.ConnectionType *: [Ansys.Mechanical.DataModel.Enums.ConnectionScopingType](../../../../../../v242/Ansys/Mechanical/DataModel/Enums/ConnectionScopingType.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.ConnectionScopingType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Bearing.ConnectionType *: [Ansys.Mechanical.DataModel.Enums.ConnectionScopingType](../../../../Mechanical/DataModel/Enums/ConnectionScopingType.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.ConnectionScopingType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the ConnectionType.
 
@@ -123,7 +123,7 @@ Gets or sets the ConnectionType.
 
 <a id="Bearing.DampingC11"></a>
 
-### *property* Bearing.DampingC11 *: [Ansys.ACT.Mechanical.Fields.Field](../../../../../../v242/Ansys/ACT/Mechanical/Fields/Field.md#ansys.mechanical.stubs.v242.Ansys.ACT.Mechanical.Fields.Field) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Bearing.DampingC11 *: [Ansys.ACT.Mechanical.Fields.Field](../../../Mechanical/Fields/Field.md#ansys.mechanical.stubs.v241.Ansys.ACT.Mechanical.Fields.Field) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the DampingC11.
 
@@ -131,7 +131,7 @@ Gets the DampingC11.
 
 <a id="Bearing.DampingC12"></a>
 
-### *property* Bearing.DampingC12 *: [Ansys.ACT.Mechanical.Fields.Field](../../../../../../v242/Ansys/ACT/Mechanical/Fields/Field.md#ansys.mechanical.stubs.v242.Ansys.ACT.Mechanical.Fields.Field) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Bearing.DampingC12 *: [Ansys.ACT.Mechanical.Fields.Field](../../../Mechanical/Fields/Field.md#ansys.mechanical.stubs.v241.Ansys.ACT.Mechanical.Fields.Field) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the DampingC12.
 
@@ -139,7 +139,7 @@ Gets the DampingC12.
 
 <a id="Bearing.DampingC21"></a>
 
-### *property* Bearing.DampingC21 *: [Ansys.ACT.Mechanical.Fields.Field](../../../../../../v242/Ansys/ACT/Mechanical/Fields/Field.md#ansys.mechanical.stubs.v242.Ansys.ACT.Mechanical.Fields.Field) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Bearing.DampingC21 *: [Ansys.ACT.Mechanical.Fields.Field](../../../Mechanical/Fields/Field.md#ansys.mechanical.stubs.v241.Ansys.ACT.Mechanical.Fields.Field) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the DampingC21.
 
@@ -147,7 +147,7 @@ Gets the DampingC21.
 
 <a id="Bearing.DampingC22"></a>
 
-### *property* Bearing.DampingC22 *: [Ansys.ACT.Mechanical.Fields.Field](../../../../../../v242/Ansys/ACT/Mechanical/Fields/Field.md#ansys.mechanical.stubs.v242.Ansys.ACT.Mechanical.Fields.Field) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Bearing.DampingC22 *: [Ansys.ACT.Mechanical.Fields.Field](../../../Mechanical/Fields/Field.md#ansys.mechanical.stubs.v241.Ansys.ACT.Mechanical.Fields.Field) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the DampingC22.
 
@@ -155,7 +155,7 @@ Gets the DampingC22.
 
 <a id="Bearing.DataModelObjectCategory"></a>
 
-### *property* Bearing.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../../v242/Ansys/Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Bearing.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the current DataModelObject’s category.
 
@@ -163,7 +163,7 @@ Gets the current DataModelObject’s category.
 
 <a id="Bearing.Figures"></a>
 
-### *property* Bearing.Figures *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Figure](../Figure.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Bearing.Figures *: Iterable[[Ansys.ACT.Automation.Mechanical.Figure](../Figure.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated figures.
 
@@ -171,7 +171,7 @@ Gets the list of associated figures.
 
 <a id="Bearing.Images"></a>
 
-### *property* Bearing.Images *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Image](../Image.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Bearing.Images *: Iterable[[Ansys.ACT.Automation.Mechanical.Image](../Image.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated images.
 
@@ -187,7 +187,7 @@ Gets the internal object. For advanced usage only.
 
 <a id="Bearing.MobileBeamMaterial"></a>
 
-### *property* Bearing.MobileBeamMaterial *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Bearing.MobileBeamMaterial *: [str](https://docs.python.org/3/library/stdtypes.html#str) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the MobileBeamMaterial.
 
@@ -203,7 +203,7 @@ Gets or sets the MobileBeamRadius.
 
 <a id="Bearing.MobileBehavior"></a>
 
-### *property* Bearing.MobileBehavior *: [Ansys.Mechanical.DataModel.Enums.LoadBehavior](../../../../../../v242/Ansys/Mechanical/DataModel/Enums/LoadBehavior.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.LoadBehavior) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Bearing.MobileBehavior *: [Ansys.Mechanical.DataModel.Enums.LoadBehavior](../../../../Mechanical/DataModel/Enums/LoadBehavior.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.LoadBehavior) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the MobileBehavior.
 
@@ -211,7 +211,7 @@ Gets or sets the MobileBehavior.
 
 <a id="Bearing.MobileBody"></a>
 
-### *property* Bearing.MobileBody *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Bearing.MobileBody *: [str](https://docs.python.org/3/library/stdtypes.html#str) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the MobileBody.
 
@@ -267,7 +267,7 @@ Gets or sets the MobileZCoordinate.
 
 <a id="Bearing.Properties"></a>
 
-### *property* Bearing.Properties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Bearing.Properties *: [tuple](https://docs.python.org/3/library/stdtypes.html#tuple)[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of properties for this object.
 
@@ -275,7 +275,7 @@ Gets the list of properties for this object.
 
 <a id="Bearing.ReadOnly"></a>
 
-### *property* Bearing.ReadOnly *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Bearing.ReadOnly *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the ReadOnly.
 
@@ -283,7 +283,7 @@ Gets or sets the ReadOnly.
 
 <a id="Bearing.ReferenceBeamMaterial"></a>
 
-### *property* Bearing.ReferenceBeamMaterial *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Bearing.ReferenceBeamMaterial *: [str](https://docs.python.org/3/library/stdtypes.html#str) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the ReferenceBeamMaterial.
 
@@ -299,7 +299,7 @@ Gets or sets the ReferenceBeamRadius.
 
 <a id="Bearing.ReferenceBehavior"></a>
 
-### *property* Bearing.ReferenceBehavior *: [Ansys.Mechanical.DataModel.Enums.LoadBehavior](../../../../../../v242/Ansys/Mechanical/DataModel/Enums/LoadBehavior.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.LoadBehavior) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Bearing.ReferenceBehavior *: [Ansys.Mechanical.DataModel.Enums.LoadBehavior](../../../../Mechanical/DataModel/Enums/LoadBehavior.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.LoadBehavior) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the ReferenceBehavior.
 
@@ -307,7 +307,7 @@ Gets or sets the ReferenceBehavior.
 
 <a id="Bearing.ReferenceBodyName"></a>
 
-### *property* Bearing.ReferenceBodyName *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Bearing.ReferenceBodyName *: [str](https://docs.python.org/3/library/stdtypes.html#str) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the ReferenceBodyName.
 
@@ -339,7 +339,7 @@ Gets or sets the ReferencePinballRegion.
 
 <a id="Bearing.ReferenceRotationPlane"></a>
 
-### *property* Bearing.ReferenceRotationPlane *: [Ansys.Mechanical.DataModel.Enums.RotationPlane](../../../../../../v242/Ansys/Mechanical/DataModel/Enums/RotationPlane.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.RotationPlane) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Bearing.ReferenceRotationPlane *: [Ansys.Mechanical.DataModel.Enums.RotationPlane](../../../../Mechanical/DataModel/Enums/RotationPlane.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.RotationPlane) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the ReferenceRotationPlane.
 
@@ -379,7 +379,7 @@ Gets or sets the ReferenceZCoordinate.
 
 <a id="Bearing.StiffnessK11"></a>
 
-### *property* Bearing.StiffnessK11 *: [Ansys.ACT.Mechanical.Fields.Field](../../../../../../v242/Ansys/ACT/Mechanical/Fields/Field.md#ansys.mechanical.stubs.v242.Ansys.ACT.Mechanical.Fields.Field) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Bearing.StiffnessK11 *: [Ansys.ACT.Mechanical.Fields.Field](../../../Mechanical/Fields/Field.md#ansys.mechanical.stubs.v241.Ansys.ACT.Mechanical.Fields.Field) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the StiffnessK11.
 
@@ -387,7 +387,7 @@ Gets the StiffnessK11.
 
 <a id="Bearing.StiffnessK12"></a>
 
-### *property* Bearing.StiffnessK12 *: [Ansys.ACT.Mechanical.Fields.Field](../../../../../../v242/Ansys/ACT/Mechanical/Fields/Field.md#ansys.mechanical.stubs.v242.Ansys.ACT.Mechanical.Fields.Field) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Bearing.StiffnessK12 *: [Ansys.ACT.Mechanical.Fields.Field](../../../Mechanical/Fields/Field.md#ansys.mechanical.stubs.v241.Ansys.ACT.Mechanical.Fields.Field) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the StiffnessK12.
 
@@ -395,7 +395,7 @@ Gets the StiffnessK12.
 
 <a id="Bearing.StiffnessK21"></a>
 
-### *property* Bearing.StiffnessK21 *: [Ansys.ACT.Mechanical.Fields.Field](../../../../../../v242/Ansys/ACT/Mechanical/Fields/Field.md#ansys.mechanical.stubs.v242.Ansys.ACT.Mechanical.Fields.Field) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Bearing.StiffnessK21 *: [Ansys.ACT.Mechanical.Fields.Field](../../../Mechanical/Fields/Field.md#ansys.mechanical.stubs.v241.Ansys.ACT.Mechanical.Fields.Field) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the StiffnessK21.
 
@@ -403,7 +403,7 @@ Gets the StiffnessK21.
 
 <a id="Bearing.StiffnessK22"></a>
 
-### *property* Bearing.StiffnessK22 *: [Ansys.ACT.Mechanical.Fields.Field](../../../../../../v242/Ansys/ACT/Mechanical/Fields/Field.md#ansys.mechanical.stubs.v242.Ansys.ACT.Mechanical.Fields.Field) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Bearing.StiffnessK22 *: [Ansys.ACT.Mechanical.Fields.Field](../../../Mechanical/Fields/Field.md#ansys.mechanical.stubs.v241.Ansys.ACT.Mechanical.Fields.Field) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the StiffnessK22.
 
@@ -411,7 +411,7 @@ Gets the StiffnessK22.
 
 <a id="Bearing.Suppressed"></a>
 
-### *property* Bearing.Suppressed *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Bearing.Suppressed *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Suppressed.
 
@@ -419,7 +419,7 @@ Gets or sets the Suppressed.
 
 <a id="Bearing.VisibleProperties"></a>
 
-### *property* Bearing.VisibleProperties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Bearing.VisibleProperties *: [tuple](https://docs.python.org/3/library/stdtypes.html#tuple)[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of properties that are visible for this object.
 
@@ -463,7 +463,7 @@ Creates a new child Figure.
 
 <a id="Bearing.AddImage"></a>
 
-### Bearing.AddImage(filePath: System.String)
+### Bearing.AddImage(filePath: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 ```text
 Creates a new child Image.
@@ -483,7 +483,7 @@ Copies all visible properties from this object to another.
 
 <a id="Bearing.CreateParameter"></a>
 
-### Bearing.CreateParameter(propName: System.String)
+### Bearing.CreateParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Creates a new parameter for a Property.
 
@@ -507,7 +507,7 @@ Creates a copy of the current DataModelObject.
 
 <a id="Bearing.GetChildren"></a>
 
-### Bearing.GetChildren(recurses: System.Boolean, children: System.Collections.Generic.IList[ChildrenType])
+### Bearing.GetChildren(recurses: [bool](https://docs.python.org/3/library/functions.html#bool), children: List[ChildrenType])
 
 Gets the list of children, filtered by type.
 
@@ -515,7 +515,7 @@ Gets the list of children, filtered by type.
 
 <a id="Bearing.GetParameter"></a>
 
-### Bearing.GetParameter(propName: System.String)
+### Bearing.GetParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Gets the parameter corresponding to the given property.
 
@@ -555,7 +555,7 @@ Run the PromoteToRemotePoint action.
 
 <a id="Bearing.PropertyByAPIName"></a>
 
-### Bearing.PropertyByAPIName(name: System.String)
+### Bearing.PropertyByAPIName(name: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 ```text
 Get a property by its API name.
@@ -566,7 +566,7 @@ If multiple properties have the same API Name, only the first property with that
 
 <a id="Bearing.PropertyByName"></a>
 
-### Bearing.PropertyByName(name: System.String)
+### Bearing.PropertyByName(name: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Get a property by its unique name.
 
@@ -574,7 +574,7 @@ Get a property by its unique name.
 
 <a id="Bearing.RemoveParameter"></a>
 
-### Bearing.RemoveParameter(propName: System.String)
+### Bearing.RemoveParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Removes the parameter from the parameter set corresponding to the given property.
 

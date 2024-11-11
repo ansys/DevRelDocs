@@ -17,7 +17,7 @@ Defines a AccelerationPhaseResponse.
 ### Methods
 
 | Name | Description |
-|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------|
+|---------------------------------------------------------------------------------|-----------------------------------------------------------------------------------|
 | [`Activate`](#AccelerationPhaseResponse.Activate)                               | Activate the current object.                                                      |
 | [`AddComment`](#AccelerationPhaseResponse.AddComment)                           | Creates a new child Comment.                                                      |
 | [`AddImage`](#AccelerationPhaseResponse.AddImage)                               | Creates a new child Image.                                                        |
@@ -40,7 +40,7 @@ Defines a AccelerationPhaseResponse.
 ### Properties
 
 | Name | Description |
-|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------|
+|-----------------------------------------------------------------------------------------|---------------------------------------------------------------|
 | [`AccelerationType`](#AccelerationPhaseResponse.AccelerationType)                       | Gets or sets the AccelerationType.                            |
 | [`BoundaryCondition`](#AccelerationPhaseResponse.BoundaryCondition)                     | Gets or sets the BoundaryCondition.                           |
 | [`ChartDimensions`](#AccelerationPhaseResponse.ChartDimensions)                         | Gets or sets the Chart Dimensions                             |
@@ -105,7 +105,7 @@ Gets or sets the AccelerationType.
 
 <a id="AccelerationPhaseResponse.BoundaryCondition"></a>
 
-### *property* AccelerationPhaseResponse.BoundaryCondition *: [Ansys.ACT.Automation.Mechanical.BoundaryConditions.GenericBoundaryCondition](../../../../../../../v241/Ansys/ACT/Automation/Mechanical/BoundaryConditions/GenericBoundaryCondition.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.BoundaryConditions.GenericBoundaryCondition) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AccelerationPhaseResponse.BoundaryCondition *: [Ansys.ACT.Automation.Mechanical.BoundaryConditions.GenericBoundaryCondition](../../BoundaryConditions/GenericBoundaryCondition.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.BoundaryConditions.GenericBoundaryCondition) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the BoundaryCondition.
 
@@ -129,7 +129,7 @@ Gets or sets the ChartViewingStyle.
 
 <a id="AccelerationPhaseResponse.Children"></a>
 
-### *property* AccelerationPhaseResponse.Children *: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AccelerationPhaseResponse.Children *: List[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of children.
 
@@ -137,7 +137,7 @@ Gets the list of children.
 
 <a id="AccelerationPhaseResponse.Comments"></a>
 
-### *property* AccelerationPhaseResponse.Comments *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Comment](../../../../../../../v241/Ansys/ACT/Automation/Mechanical/Comment.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AccelerationPhaseResponse.Comments *: Iterable[[Ansys.ACT.Automation.Mechanical.Comment](../../Comment.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated comments.
 
@@ -145,7 +145,7 @@ Gets the list of associated comments.
 
 <a id="AccelerationPhaseResponse.ContactRegion"></a>
 
-### *property* AccelerationPhaseResponse.ContactRegion *: [Ansys.ACT.Automation.Mechanical.Connections.ContactRegion](../../../../../../../v241/Ansys/ACT/Automation/Mechanical/Connections/ContactRegion.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Connections.ContactRegion) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AccelerationPhaseResponse.ContactRegion *: [Ansys.ACT.Automation.Mechanical.Connections.ContactRegion](../../Connections/ContactRegion.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Connections.ContactRegion) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the ContactRegion.
 
@@ -153,7 +153,7 @@ Gets or sets the ContactRegion.
 
 <a id="AccelerationPhaseResponse.CoordinateSystem"></a>
 
-### *property* AccelerationPhaseResponse.CoordinateSystem *: [Ansys.ACT.Automation.Mechanical.CoordinateSystem](../../../../../../../v241/Ansys/ACT/Automation/Mechanical/CoordinateSystem.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.CoordinateSystem) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AccelerationPhaseResponse.CoordinateSystem *: [Ansys.ACT.Automation.Mechanical.CoordinateSystem](../../CoordinateSystem.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.CoordinateSystem) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the CoordinateSystem.
 
@@ -169,7 +169,7 @@ Gets or sets the CurvesAppearanceDisplay.
 
 <a id="AccelerationPhaseResponse.CutFrequency"></a>
 
-### *property* AccelerationPhaseResponse.CutFrequency *: System.Double | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AccelerationPhaseResponse.CutFrequency *: [float](https://docs.python.org/3/library/functions.html#float) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the CutFrequency.
 
@@ -209,7 +209,7 @@ Gets or sets the Duration.
 
 <a id="AccelerationPhaseResponse.EnhancedTracking"></a>
 
-### *property* AccelerationPhaseResponse.EnhancedTracking *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AccelerationPhaseResponse.EnhancedTracking *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the EnhancedTracking.
 
@@ -249,7 +249,7 @@ Gets the FrequencyAtMaximumAmplitude.
 
 <a id="AccelerationPhaseResponse.GeometrySelectionString"></a>
 
-### *property* AccelerationPhaseResponse.GeometrySelectionString *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AccelerationPhaseResponse.GeometrySelectionString *: [str](https://docs.python.org/3/library/stdtypes.html#str) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the GeometrySelectionString.
 
@@ -257,7 +257,7 @@ Gets or sets the GeometrySelectionString.
 
 <a id="AccelerationPhaseResponse.Images"></a>
 
-### *property* AccelerationPhaseResponse.Images *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Image](../../../../../../../v241/Ansys/ACT/Automation/Mechanical/Image.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AccelerationPhaseResponse.Images *: Iterable[[Ansys.ACT.Automation.Mechanical.Image](../../Image.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated images.
 
@@ -281,7 +281,7 @@ Gets the internal object. For advanced usage only.
 
 <a id="AccelerationPhaseResponse.IsSolved"></a>
 
-### *property* AccelerationPhaseResponse.IsSolved *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AccelerationPhaseResponse.IsSolved *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the IsSolved.
 
@@ -289,7 +289,7 @@ Gets the IsSolved.
 
 <a id="AccelerationPhaseResponse.LoadStepNumber"></a>
 
-### *property* AccelerationPhaseResponse.LoadStepNumber *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AccelerationPhaseResponse.LoadStepNumber *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the LoadStepNumber.
 
@@ -361,7 +361,7 @@ Gets the PhaseAngle.
 
 <a id="AccelerationPhaseResponse.Properties"></a>
 
-### *property* AccelerationPhaseResponse.Properties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AccelerationPhaseResponse.Properties *: [tuple](https://docs.python.org/3/library/stdtypes.html#tuple)[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of properties for this object.
 
@@ -401,7 +401,7 @@ Gets the ResultChartType.
 
 <a id="AccelerationPhaseResponse.SectorNumber"></a>
 
-### *property* AccelerationPhaseResponse.SectorNumber *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AccelerationPhaseResponse.SectorNumber *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the SectorNumber.
 
@@ -425,7 +425,7 @@ Gets or sets the SpatialResolution.
 
 <a id="AccelerationPhaseResponse.Spring"></a>
 
-### *property* AccelerationPhaseResponse.Spring *: [Ansys.ACT.Automation.Mechanical.Connections.Spring](../../../../../../../v241/Ansys/ACT/Automation/Mechanical/Connections/Spring.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Connections.Spring) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AccelerationPhaseResponse.Spring *: [Ansys.ACT.Automation.Mechanical.Connections.Spring](../../Connections/Spring.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Connections.Spring) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Spring.
 
@@ -441,7 +441,7 @@ Gets or sets the StressStrainType.
 
 <a id="AccelerationPhaseResponse.Suppressed"></a>
 
-### *property* AccelerationPhaseResponse.Suppressed *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AccelerationPhaseResponse.Suppressed *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Suppressed.
 
@@ -457,7 +457,7 @@ Gets or sets the TimeHistoryDisplay.
 
 <a id="AccelerationPhaseResponse.UseParentFrequencyRange"></a>
 
-### *property* AccelerationPhaseResponse.UseParentFrequencyRange *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AccelerationPhaseResponse.UseParentFrequencyRange *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the UseParentFrequencyRange.
 
@@ -473,7 +473,7 @@ Gets or sets the VelocityType.
 
 <a id="AccelerationPhaseResponse.VisibleProperties"></a>
 
-### *property* AccelerationPhaseResponse.VisibleProperties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AccelerationPhaseResponse.VisibleProperties *: [tuple](https://docs.python.org/3/library/stdtypes.html#tuple)[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of properties that are visible for this object.
 
@@ -509,7 +509,7 @@ Creates a new child Comment.
 
 <a id="AccelerationPhaseResponse.AddImage"></a>
 
-### AccelerationPhaseResponse.AddImage(filePath: System.String)
+### AccelerationPhaseResponse.AddImage(filePath: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 ```text
 Creates a new child Image.
@@ -537,7 +537,7 @@ Copies all visible properties from this object to another.
 
 <a id="AccelerationPhaseResponse.CreateParameter"></a>
 
-### AccelerationPhaseResponse.CreateParameter(propName: System.String)
+### AccelerationPhaseResponse.CreateParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Creates a new parameter for a Property.
 
@@ -569,7 +569,7 @@ Run the EvaluateAllResults action.
 
 <a id="AccelerationPhaseResponse.ExportAnimation"></a>
 
-### AccelerationPhaseResponse.ExportAnimation(filePath: System.String, format: [Ansys.Mechanical.DataModel.Enums.GraphicsAnimationExportFormat](../../../../../Mechanical/DataModel/Enums/GraphicsAnimationExportFormat.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.GraphicsAnimationExportFormat), settings: [Ansys.Mechanical.Graphics.AnimationExportSettings](../../../../../Mechanical/Graphics/AnimationExportSettings.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.Graphics.AnimationExportSettings))
+### AccelerationPhaseResponse.ExportAnimation(filePath: [str](https://docs.python.org/3/library/stdtypes.html#str), format: [Ansys.Mechanical.DataModel.Enums.GraphicsAnimationExportFormat](../../../../../Mechanical/DataModel/Enums/GraphicsAnimationExportFormat.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.GraphicsAnimationExportFormat), settings: [Ansys.Mechanical.Graphics.AnimationExportSettings](../../../../../Mechanical/Graphics/AnimationExportSettings.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.Graphics.AnimationExportSettings))
 
 Run the ExportAnimation action.
 
@@ -577,7 +577,7 @@ Run the ExportAnimation action.
 
 <a id="AccelerationPhaseResponse.GetChildren"></a>
 
-### AccelerationPhaseResponse.GetChildren(recurses: System.Boolean, children: System.Collections.Generic.IList[ChildrenType])
+### AccelerationPhaseResponse.GetChildren(recurses: [bool](https://docs.python.org/3/library/functions.html#bool), children: List[ChildrenType])
 
 Gets the list of children, filtered by type.
 
@@ -585,7 +585,7 @@ Gets the list of children, filtered by type.
 
 <a id="AccelerationPhaseResponse.GetParameter"></a>
 
-### AccelerationPhaseResponse.GetParameter(propName: System.String)
+### AccelerationPhaseResponse.GetParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Gets the parameter corresponding to the given property.
 
@@ -609,7 +609,7 @@ Run the GroupSimilarObjects action.
 
 <a id="AccelerationPhaseResponse.PropertyByAPIName"></a>
 
-### AccelerationPhaseResponse.PropertyByAPIName(name: System.String)
+### AccelerationPhaseResponse.PropertyByAPIName(name: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 ```text
 Get a property by its API name.
@@ -620,7 +620,7 @@ If multiple properties have the same API Name, only the first property with that
 
 <a id="AccelerationPhaseResponse.PropertyByName"></a>
 
-### AccelerationPhaseResponse.PropertyByName(name: System.String)
+### AccelerationPhaseResponse.PropertyByName(name: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Get a property by its unique name.
 
@@ -628,7 +628,7 @@ Get a property by its unique name.
 
 <a id="AccelerationPhaseResponse.RemoveParameter"></a>
 
-### AccelerationPhaseResponse.RemoveParameter(propName: System.String)
+### AccelerationPhaseResponse.RemoveParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Removes the parameter from the parameter set corresponding to the given property.
 

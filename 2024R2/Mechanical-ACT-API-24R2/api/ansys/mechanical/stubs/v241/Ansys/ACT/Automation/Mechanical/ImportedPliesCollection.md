@@ -17,7 +17,7 @@ Defines a ImportedPliesCollection.
 ### Methods
 
 | Name | Description |
-|-------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------|
+|-------------------------------------------------------------------------------|-----------------------------------------------------------------------------------|
 | [`Activate`](#ImportedPliesCollection.Activate)                               | Activate the current object.                                                      |
 | [`AddComment`](#ImportedPliesCollection.AddComment)                           | Creates a new child Comment.                                                      |
 | [`AddFigure`](#ImportedPliesCollection.AddFigure)                             | Creates a new child Figure.                                                       |
@@ -36,7 +36,7 @@ Defines a ImportedPliesCollection.
 ### Properties
 
 | Name | Description |
-|-------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------|
+|-------------------------------------------------------------------------------|---------------------------------------------------------------|
 | [`Children`](#ImportedPliesCollection.Children)                               | Gets the list of children.                                    |
 | [`Comments`](#ImportedPliesCollection.Comments)                               | Gets the list of associated comments.                         |
 | [`DataModelObjectCategory`](#ImportedPliesCollection.DataModelObjectCategory) | Gets the current DataModelObject’s category.                  |
@@ -53,7 +53,7 @@ Defines a ImportedPliesCollection.
 
 <a id="ImportedPliesCollection.Children"></a>
 
-### *property* ImportedPliesCollection.Children *: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ImportedPliesCollection.Children *: List[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of children.
 
@@ -61,7 +61,7 @@ Gets the list of children.
 
 <a id="ImportedPliesCollection.Comments"></a>
 
-### *property* ImportedPliesCollection.Comments *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Comment](Comment.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ImportedPliesCollection.Comments *: Iterable[[Ansys.ACT.Automation.Mechanical.Comment](Comment.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated comments.
 
@@ -69,7 +69,7 @@ Gets the list of associated comments.
 
 <a id="ImportedPliesCollection.DataModelObjectCategory"></a>
 
-### *property* ImportedPliesCollection.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../v242/Ansys/Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ImportedPliesCollection.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the current DataModelObject’s category.
 
@@ -77,7 +77,7 @@ Gets the current DataModelObject’s category.
 
 <a id="ImportedPliesCollection.Figures"></a>
 
-### *property* ImportedPliesCollection.Figures *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Figure](Figure.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ImportedPliesCollection.Figures *: Iterable[[Ansys.ACT.Automation.Mechanical.Figure](Figure.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated figures.
 
@@ -85,7 +85,7 @@ Gets the list of associated figures.
 
 <a id="ImportedPliesCollection.Images"></a>
 
-### *property* ImportedPliesCollection.Images *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Image](Image.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ImportedPliesCollection.Images *: Iterable[[Ansys.ACT.Automation.Mechanical.Image](Image.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated images.
 
@@ -101,7 +101,7 @@ Gets the internal object. For advanced usage only.
 
 <a id="ImportedPliesCollection.Properties"></a>
 
-### *property* ImportedPliesCollection.Properties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ImportedPliesCollection.Properties *: [tuple](https://docs.python.org/3/library/stdtypes.html#tuple)[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of properties for this object.
 
@@ -109,7 +109,7 @@ Gets the list of properties for this object.
 
 <a id="ImportedPliesCollection.ReadOnly"></a>
 
-### *property* ImportedPliesCollection.ReadOnly *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ImportedPliesCollection.ReadOnly *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the ReadOnly.
 
@@ -117,7 +117,7 @@ Gets or sets the ReadOnly.
 
 <a id="ImportedPliesCollection.VisibleProperties"></a>
 
-### *property* ImportedPliesCollection.VisibleProperties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ImportedPliesCollection.VisibleProperties *: [tuple](https://docs.python.org/3/library/stdtypes.html#tuple)[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of properties that are visible for this object.
 
@@ -153,7 +153,7 @@ Creates a new child Figure.
 
 <a id="ImportedPliesCollection.AddImage"></a>
 
-### ImportedPliesCollection.AddImage(filePath: System.String)
+### ImportedPliesCollection.AddImage(filePath: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 ```text
 Creates a new child Image.
@@ -173,7 +173,7 @@ Copies all visible properties from this object to another.
 
 <a id="ImportedPliesCollection.CreateParameter"></a>
 
-### ImportedPliesCollection.CreateParameter(propName: System.String)
+### ImportedPliesCollection.CreateParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Creates a new parameter for a Property.
 
@@ -189,7 +189,7 @@ Creates a copy of the current DataModelObject.
 
 <a id="ImportedPliesCollection.GetChildren"></a>
 
-### ImportedPliesCollection.GetChildren(recurses: System.Boolean, children: System.Collections.Generic.IList[ChildrenType])
+### ImportedPliesCollection.GetChildren(recurses: [bool](https://docs.python.org/3/library/functions.html#bool), children: List[ChildrenType])
 
 Gets the list of children, filtered by type.
 
@@ -197,7 +197,7 @@ Gets the list of children, filtered by type.
 
 <a id="ImportedPliesCollection.GetParameter"></a>
 
-### ImportedPliesCollection.GetParameter(propName: System.String)
+### ImportedPliesCollection.GetParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Gets the parameter corresponding to the given property.
 
@@ -221,7 +221,7 @@ Run the GroupSimilarObjects action.
 
 <a id="ImportedPliesCollection.PropertyByAPIName"></a>
 
-### ImportedPliesCollection.PropertyByAPIName(name: System.String)
+### ImportedPliesCollection.PropertyByAPIName(name: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 ```text
 Get a property by its API name.
@@ -232,7 +232,7 @@ If multiple properties have the same API Name, only the first property with that
 
 <a id="ImportedPliesCollection.PropertyByName"></a>
 
-### ImportedPliesCollection.PropertyByName(name: System.String)
+### ImportedPliesCollection.PropertyByName(name: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Get a property by its unique name.
 
@@ -240,7 +240,7 @@ Get a property by its unique name.
 
 <a id="ImportedPliesCollection.RemoveParameter"></a>
 
-### ImportedPliesCollection.RemoveParameter(propName: System.String)
+### ImportedPliesCollection.RemoveParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Removes the parameter from the parameter set corresponding to the given property.
 

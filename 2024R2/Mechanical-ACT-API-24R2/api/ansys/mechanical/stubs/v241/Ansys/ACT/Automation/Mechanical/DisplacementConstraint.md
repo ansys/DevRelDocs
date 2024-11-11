@@ -17,7 +17,7 @@ Defines a DisplacementConstraint.
 ### Methods
 
 | Name | Description |
-|-----------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------|
+|------------------------------------------------------------------------------|-----------------------------------------------------------------------------------|
 | [`Activate`](#DisplacementConstraint.Activate)                               | Activate the current object.                                                      |
 | [`CopyTo`](#DisplacementConstraint.CopyTo)                                   | Copies all visible properties from this object to another.                        |
 | [`CreateParameter`](#DisplacementConstraint.CreateParameter)                 | Creates a new parameter for a Property.                                           |
@@ -35,7 +35,7 @@ Defines a DisplacementConstraint.
 ### Properties
 
 | Name | Description |
-|-----------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------|
+|------------------------------------------------------------------------------|------------------------------------------------------------------------------------------|
 | [`Children`](#DisplacementConstraint.Children)                               | Gets the list of children.                                                               |
 | [`DataModelObjectCategory`](#DisplacementConstraint.DataModelObjectCategory) | Gets the current DataModelObject’s category.                                             |
 | [`EnvironmentSelection`](#DisplacementConstraint.EnvironmentSelection)       | Gets or Sets the EnvironmentSelection to an Analysis object or TopoEnvironmentType enum. |
@@ -55,7 +55,7 @@ Defines a DisplacementConstraint.
 
 <a id="DisplacementConstraint.Children"></a>
 
-### *property* DisplacementConstraint.Children *: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* DisplacementConstraint.Children *: List[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of children.
 
@@ -63,7 +63,7 @@ Gets the list of children.
 
 <a id="DisplacementConstraint.DataModelObjectCategory"></a>
 
-### *property* DisplacementConstraint.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../v242/Ansys/Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* DisplacementConstraint.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the current DataModelObject’s category.
 
@@ -71,7 +71,7 @@ Gets the current DataModelObject’s category.
 
 <a id="DisplacementConstraint.EnvironmentSelection"></a>
 
-### *property* DisplacementConstraint.EnvironmentSelection *: System.Object | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* DisplacementConstraint.EnvironmentSelection *: Any | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or Sets the EnvironmentSelection to an Analysis object or TopoEnvironmentType enum.
 
@@ -95,7 +95,7 @@ Gets or sets the Location.
 
 <a id="DisplacementConstraint.Properties"></a>
 
-### *property* DisplacementConstraint.Properties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* DisplacementConstraint.Properties *: [tuple](https://docs.python.org/3/library/stdtypes.html#tuple)[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of properties for this object.
 
@@ -103,7 +103,7 @@ Gets the list of properties for this object.
 
 <a id="DisplacementConstraint.ScopingMethod"></a>
 
-### *property* DisplacementConstraint.ScopingMethod *: [Ansys.Mechanical.DataModel.Enums.GeometryDefineByType](../../../../../v242/Ansys/Mechanical/DataModel/Enums/GeometryDefineByType.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.GeometryDefineByType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* DisplacementConstraint.ScopingMethod *: [Ansys.Mechanical.DataModel.Enums.GeometryDefineByType](../../../Mechanical/DataModel/Enums/GeometryDefineByType.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.GeometryDefineByType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the ScopingMethod.
 
@@ -111,7 +111,7 @@ Gets or sets the ScopingMethod.
 
 <a id="DisplacementConstraint.Suppressed"></a>
 
-### *property* DisplacementConstraint.Suppressed *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* DisplacementConstraint.Suppressed *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Suppressed.
 
@@ -119,7 +119,7 @@ Gets or sets the Suppressed.
 
 <a id="DisplacementConstraint.VisibleProperties"></a>
 
-### *property* DisplacementConstraint.VisibleProperties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* DisplacementConstraint.VisibleProperties *: [tuple](https://docs.python.org/3/library/stdtypes.html#tuple)[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of properties that are visible for this object.
 
@@ -127,7 +127,7 @@ Gets the list of properties that are visible for this object.
 
 <a id="DisplacementConstraint.XComponentMax"></a>
 
-### *property* DisplacementConstraint.XComponentMax *: [Ansys.ACT.Mechanical.Fields.Field](../../../../../v242/Ansys/ACT/Mechanical/Fields/Field.md#ansys.mechanical.stubs.v242.Ansys.ACT.Mechanical.Fields.Field) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* DisplacementConstraint.XComponentMax *: [Ansys.ACT.Mechanical.Fields.Field](../../Mechanical/Fields/Field.md#ansys.mechanical.stubs.v241.Ansys.ACT.Mechanical.Fields.Field) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the XComponentMax.
 
@@ -135,7 +135,7 @@ Gets or sets the XComponentMax.
 
 <a id="DisplacementConstraint.YComponentMax"></a>
 
-### *property* DisplacementConstraint.YComponentMax *: [Ansys.ACT.Mechanical.Fields.Field](../../../../../v242/Ansys/ACT/Mechanical/Fields/Field.md#ansys.mechanical.stubs.v242.Ansys.ACT.Mechanical.Fields.Field) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* DisplacementConstraint.YComponentMax *: [Ansys.ACT.Mechanical.Fields.Field](../../Mechanical/Fields/Field.md#ansys.mechanical.stubs.v241.Ansys.ACT.Mechanical.Fields.Field) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the YComponentMax.
 
@@ -143,7 +143,7 @@ Gets or sets the YComponentMax.
 
 <a id="DisplacementConstraint.ZComponentMax"></a>
 
-### *property* DisplacementConstraint.ZComponentMax *: [Ansys.ACT.Mechanical.Fields.Field](../../../../../v242/Ansys/ACT/Mechanical/Fields/Field.md#ansys.mechanical.stubs.v242.Ansys.ACT.Mechanical.Fields.Field) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* DisplacementConstraint.ZComponentMax *: [Ansys.ACT.Mechanical.Fields.Field](../../Mechanical/Fields/Field.md#ansys.mechanical.stubs.v241.Ansys.ACT.Mechanical.Fields.Field) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the ZComponentMax.
 
@@ -171,7 +171,7 @@ Copies all visible properties from this object to another.
 
 <a id="DisplacementConstraint.CreateParameter"></a>
 
-### DisplacementConstraint.CreateParameter(propName: System.String)
+### DisplacementConstraint.CreateParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Creates a new parameter for a Property.
 
@@ -195,7 +195,7 @@ Creates a copy of the current DataModelObject.
 
 <a id="DisplacementConstraint.GetChildren"></a>
 
-### DisplacementConstraint.GetChildren(recurses: System.Boolean, children: System.Collections.Generic.IList[ChildrenType])
+### DisplacementConstraint.GetChildren(recurses: [bool](https://docs.python.org/3/library/functions.html#bool), children: List[ChildrenType])
 
 Gets the list of children, filtered by type.
 
@@ -203,7 +203,7 @@ Gets the list of children, filtered by type.
 
 <a id="DisplacementConstraint.GetParameter"></a>
 
-### DisplacementConstraint.GetParameter(propName: System.String)
+### DisplacementConstraint.GetParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Gets the parameter corresponding to the given property.
 
@@ -227,7 +227,7 @@ Run the GroupSimilarObjects action.
 
 <a id="DisplacementConstraint.PropertyByAPIName"></a>
 
-### DisplacementConstraint.PropertyByAPIName(name: System.String)
+### DisplacementConstraint.PropertyByAPIName(name: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 ```text
 Get a property by its API name.
@@ -238,7 +238,7 @@ If multiple properties have the same API Name, only the first property with that
 
 <a id="DisplacementConstraint.PropertyByName"></a>
 
-### DisplacementConstraint.PropertyByName(name: System.String)
+### DisplacementConstraint.PropertyByName(name: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Get a property by its unique name.
 
@@ -246,7 +246,7 @@ Get a property by its unique name.
 
 <a id="DisplacementConstraint.RemoveParameter"></a>
 
-### DisplacementConstraint.RemoveParameter(propName: System.String)
+### DisplacementConstraint.RemoveParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Removes the parameter from the parameter set corresponding to the given property.
 

@@ -17,7 +17,7 @@ Specifies the DropTestDefineBy.
 ### Attributes
 
 | Name |
-| ------------------------------------------------------------------------------------------------------------------------------ |
+| ------------------------------------------------------ |
 | [`DropHeight`](#DropTestDefineBy.DropHeight) |
 | [`ImpactVelocity`](#DropTestDefineBy.ImpactVelocity) |
 

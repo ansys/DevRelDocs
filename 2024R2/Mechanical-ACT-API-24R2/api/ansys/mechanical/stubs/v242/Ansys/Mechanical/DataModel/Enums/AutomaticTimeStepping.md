@@ -17,7 +17,7 @@ Specifies the AutomaticTimeStepping.
 ### Attributes
 
 | Name |
-| ---------------------------------------------------------------------------------------------------------------------------------------------- |
+| ----------------------------------------------------------------- |
 | [`Off`](#AutomaticTimeStepping.Off) |
 | [`On`](#AutomaticTimeStepping.On) |
 | [`ProgramControlled`](#AutomaticTimeStepping.ProgramControlled) |

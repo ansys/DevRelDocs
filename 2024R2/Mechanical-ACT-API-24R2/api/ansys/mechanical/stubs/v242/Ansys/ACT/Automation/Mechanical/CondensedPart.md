@@ -94,7 +94,7 @@ Gets or sets the AttachmentMethod.
 
 <a id="CondensedPart.Children"></a>
 
-### *property* CondensedPart.Children *: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* CondensedPart.Children *: List[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of children.
 
@@ -102,7 +102,7 @@ Gets the list of children.
 
 <a id="CondensedPart.Comments"></a>
 
-### *property* CondensedPart.Comments *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Comment](../../../../../v241/Ansys/ACT/Automation/Mechanical/Comment.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* CondensedPart.Comments *: Iterable[[Ansys.ACT.Automation.Mechanical.Comment](Comment.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated comments.
 
@@ -118,7 +118,7 @@ Gets the current DataModelObject’s category.
 
 <a id="CondensedPart.Figures"></a>
 
-### *property* CondensedPart.Figures *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Figure](../../../../../v241/Ansys/ACT/Automation/Mechanical/Figure.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* CondensedPart.Figures *: Iterable[[Ansys.ACT.Automation.Mechanical.Figure](Figure.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated figures.
 
@@ -158,7 +158,7 @@ Gets or sets the GeometrySelection.
 
 <a id="CondensedPart.Images"></a>
 
-### *property* CondensedPart.Images *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Image](../../../../../v241/Ansys/ACT/Automation/Mechanical/Image.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* CondensedPart.Images *: Iterable[[Ansys.ACT.Automation.Mechanical.Image](Image.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated images.
 
@@ -174,7 +174,7 @@ Gets or sets the InterfaceMethod.
 
 <a id="CondensedPart.Interfaces"></a>
 
-### *property* CondensedPart.Interfaces *: [Ansys.ACT.Automation.Mechanical.CondensedPartInterfaces](../../../../../v241/Ansys/ACT/Automation/Mechanical/CondensedPartInterfaces.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.CondensedPartInterfaces) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* CondensedPart.Interfaces *: [Ansys.ACT.Automation.Mechanical.CondensedPartInterfaces](CondensedPartInterfaces.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.CondensedPartInterfaces) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Returns the Interfaces of the condensed part
 
@@ -222,7 +222,7 @@ Gets or sets the MinimumFrequency.
 
 <a id="CondensedPart.NumberInterfaceEntries"></a>
 
-### *property* CondensedPart.NumberInterfaceEntries *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* CondensedPart.NumberInterfaceEntries *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the NumberInterfaceEntries.
 
@@ -230,7 +230,7 @@ Gets the NumberInterfaceEntries.
 
 <a id="CondensedPart.NumberMasterNodes"></a>
 
-### *property* CondensedPart.NumberMasterNodes *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* CondensedPart.NumberMasterNodes *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the NumberMasterNodes.
 
@@ -238,7 +238,7 @@ Gets the NumberMasterNodes.
 
 <a id="CondensedPart.NumberOfModes"></a>
 
-### *property* CondensedPart.NumberOfModes *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* CondensedPart.NumberOfModes *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the NumberOfModes.
 
@@ -262,7 +262,7 @@ Gets or sets the PointMassTreatment.
 
 <a id="CondensedPart.Properties"></a>
 
-### *property* CondensedPart.Properties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* CondensedPart.Properties *: [tuple](https://docs.python.org/3/library/stdtypes.html#tuple)[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of properties for this object.
 
@@ -270,7 +270,7 @@ Gets the list of properties for this object.
 
 <a id="CondensedPart.RangeSearch"></a>
 
-### *property* CondensedPart.RangeSearch *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* CondensedPart.RangeSearch *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the RangeSearch.
 
@@ -294,7 +294,7 @@ Gets or sets the ReferenceTemperature.
 
 <a id="CondensedPart.SolutionName"></a>
 
-### *property* CondensedPart.SolutionName *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* CondensedPart.SolutionName *: [str](https://docs.python.org/3/library/stdtypes.html#str) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the SolutionName.
 
@@ -310,7 +310,7 @@ Gets or sets the SolutionNameMode.
 
 <a id="CondensedPart.SolverFilesDirectory"></a>
 
-### *property* CondensedPart.SolverFilesDirectory *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* CondensedPart.SolverFilesDirectory *: [str](https://docs.python.org/3/library/stdtypes.html#str) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the SolverFilesDirectory.
 
@@ -350,7 +350,7 @@ Gets or sets the StoreBasisResults.
 
 <a id="CondensedPart.Suppressed"></a>
 
-### *property* CondensedPart.Suppressed *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* CondensedPart.Suppressed *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Suppressed.
 
@@ -358,7 +358,7 @@ Gets or sets the Suppressed.
 
 <a id="CondensedPart.TemperatureUnits"></a>
 
-### *property* CondensedPart.TemperatureUnits *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* CondensedPart.TemperatureUnits *: [str](https://docs.python.org/3/library/stdtypes.html#str) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the TemperatureUnits.
 
@@ -366,7 +366,7 @@ Gets the TemperatureUnits.
 
 <a id="CondensedPart.VisibleProperties"></a>
 
-### *property* CondensedPart.VisibleProperties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* CondensedPart.VisibleProperties *: [tuple](https://docs.python.org/3/library/stdtypes.html#tuple)[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of properties that are visible for this object.
 
@@ -410,7 +410,7 @@ Creates a new child Figure.
 
 <a id="CondensedPart.AddImage"></a>
 
-### CondensedPart.AddImage(filePath: System.String)
+### CondensedPart.AddImage(filePath: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 ```text
 Creates a new child Image.
@@ -438,7 +438,7 @@ Copies all visible properties from this object to another.
 
 <a id="CondensedPart.CreateParameter"></a>
 
-### CondensedPart.CreateParameter(propName: System.String)
+### CondensedPart.CreateParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Creates a new parameter for a Property.
 
@@ -470,7 +470,7 @@ Creates a copy of the current DataModelObject.
 
 <a id="CondensedPart.Export"></a>
 
-### CondensedPart.Export(exportFileName: System.String, exportFormat: [Ansys.Mechanical.DataModel.MechanicalEnums.CondensedParts.ExportFormat](../../../Mechanical/DataModel/MechanicalEnums/CondensedParts/ExportFormat.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.MechanicalEnums.CondensedParts.ExportFormat), exportSettings: [Ansys.ACT.Automation.Mechanical.CondensedParts.ExportSettings](CondensedParts/ExportSettings.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.CondensedParts.ExportSettings))
+### CondensedPart.Export(exportFileName: [str](https://docs.python.org/3/library/stdtypes.html#str), exportFormat: [Ansys.Mechanical.DataModel.MechanicalEnums.CondensedParts.ExportFormat](../../../Mechanical/DataModel/MechanicalEnums/CondensedParts/ExportFormat.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.MechanicalEnums.CondensedParts.ExportFormat), exportSettings: [Ansys.ACT.Automation.Mechanical.CondensedParts.ExportSettings](CondensedParts/ExportSettings.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.CondensedParts.ExportSettings))
 
 Run the Export Condensed Part action.
 
@@ -486,7 +486,7 @@ Run the GenerateCondensedParts action.
 
 <a id="CondensedPart.GetChildren"></a>
 
-### CondensedPart.GetChildren(recurses: System.Boolean, children: System.Collections.Generic.IList[ChildrenType])
+### CondensedPart.GetChildren(recurses: [bool](https://docs.python.org/3/library/functions.html#bool), children: List[ChildrenType])
 
 Gets the list of children, filtered by type.
 
@@ -494,7 +494,7 @@ Gets the list of children, filtered by type.
 
 <a id="CondensedPart.GetParameter"></a>
 
-### CondensedPart.GetParameter(propName: System.String)
+### CondensedPart.GetParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Gets the parameter corresponding to the given property.
 
@@ -518,7 +518,7 @@ Run the GroupSimilarObjects action.
 
 <a id="CondensedPart.PropertyByAPIName"></a>
 
-### CondensedPart.PropertyByAPIName(name: System.String)
+### CondensedPart.PropertyByAPIName(name: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 ```text
 Get a property by its API name.
@@ -529,7 +529,7 @@ If multiple properties have the same API Name, only the first property with that
 
 <a id="CondensedPart.PropertyByName"></a>
 
-### CondensedPart.PropertyByName(name: System.String)
+### CondensedPart.PropertyByName(name: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Get a property by its unique name.
 
@@ -537,7 +537,7 @@ Get a property by its unique name.
 
 <a id="CondensedPart.RemoveParameter"></a>
 
-### CondensedPart.RemoveParameter(propName: System.String)
+### CondensedPart.RemoveParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Removes the parameter from the parameter set corresponding to the given property.
 

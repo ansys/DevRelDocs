@@ -17,7 +17,7 @@ Specifies the STLSupportViewType.
 ### Attributes
 
 | Name |
-| ---------------------------------------------------------------------------------------------------------------------------------------- |
+| -------------------------------------------------------------- |
 | [`KnockdownFactors`](#STLSupportViewType.KnockdownFactors) |
 | [`Mesh`](#STLSupportViewType.Mesh) |
 | [`STL`](#STLSupportViewType.STL) |

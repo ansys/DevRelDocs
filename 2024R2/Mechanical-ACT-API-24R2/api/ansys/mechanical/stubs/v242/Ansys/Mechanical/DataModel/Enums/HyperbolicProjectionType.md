@@ -17,7 +17,7 @@ Specifies the HyperbolicProjectionType.
 ### Attributes
 
 | Name |
-| ---------------------------------------------------------------------------------------------------------------------------------------------------- |
+| -------------------------------------------------------------------- |
 | [`No`](#HyperbolicProjectionType.No) |
 | [`ProgramControlled`](#HyperbolicProjectionType.ProgramControlled) |
 | [`Yes`](#HyperbolicProjectionType.Yes) |

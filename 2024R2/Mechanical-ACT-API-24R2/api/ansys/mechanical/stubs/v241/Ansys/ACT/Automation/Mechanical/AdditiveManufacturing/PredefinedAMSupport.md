@@ -17,7 +17,7 @@ Defines a PredefinedAMSupport.
 ### Methods
 
 | Name | Description |
-|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------|
+|---------------------------------------------------------------------------|-----------------------------------------------------------------------------------|
 | [`Activate`](#PredefinedAMSupport.Activate)                               | Activate the current object.                                                      |
 | [`AddCommandSnippet`](#PredefinedAMSupport.AddCommandSnippet)             | Creates a new CommandSnippet                                                      |
 | [`AddComment`](#PredefinedAMSupport.AddComment)                           | Creates a new child Comment.                                                      |
@@ -38,7 +38,7 @@ Defines a PredefinedAMSupport.
 ### Properties
 
 | Name | Description |
-|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------|
+|-----------------------------------------------------------------------------------------|---------------------------------------------------------------|
 | [`Children`](#PredefinedAMSupport.Children)                                             | Gets the list of children.                                    |
 | [`Comments`](#PredefinedAMSupport.Comments)                                             | Gets the list of associated comments.                         |
 | [`DataModelObjectCategory`](#PredefinedAMSupport.DataModelObjectCategory)               | Gets the current DataModelObject’s category.                  |
@@ -72,7 +72,7 @@ Defines a PredefinedAMSupport.
 
 <a id="PredefinedAMSupport.Children"></a>
 
-### *property* PredefinedAMSupport.Children *: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* PredefinedAMSupport.Children *: List[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of children.
 
@@ -80,7 +80,7 @@ Gets the list of children.
 
 <a id="PredefinedAMSupport.Comments"></a>
 
-### *property* PredefinedAMSupport.Comments *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Comment](../Comment.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* PredefinedAMSupport.Comments *: Iterable[[Ansys.ACT.Automation.Mechanical.Comment](../Comment.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated comments.
 
@@ -88,7 +88,7 @@ Gets the list of associated comments.
 
 <a id="PredefinedAMSupport.DataModelObjectCategory"></a>
 
-### *property* PredefinedAMSupport.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../../v242/Ansys/Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* PredefinedAMSupport.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the current DataModelObject’s category.
 
@@ -96,7 +96,7 @@ Gets the current DataModelObject’s category.
 
 <a id="PredefinedAMSupport.DensityMultiple"></a>
 
-### *property* PredefinedAMSupport.DensityMultiple *: System.Double | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* PredefinedAMSupport.DensityMultiple *: [float](https://docs.python.org/3/library/functions.html#float) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the DensityMultiple.
 
@@ -104,7 +104,7 @@ Gets or sets the DensityMultiple.
 
 <a id="PredefinedAMSupport.ElasticModulusMultipleInX"></a>
 
-### *property* PredefinedAMSupport.ElasticModulusMultipleInX *: System.Double | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* PredefinedAMSupport.ElasticModulusMultipleInX *: [float](https://docs.python.org/3/library/functions.html#float) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the ElasticModulusMultipleInX.
 
@@ -112,7 +112,7 @@ Gets or sets the ElasticModulusMultipleInX.
 
 <a id="PredefinedAMSupport.ElasticModulusMultipleInY"></a>
 
-### *property* PredefinedAMSupport.ElasticModulusMultipleInY *: System.Double | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* PredefinedAMSupport.ElasticModulusMultipleInY *: [float](https://docs.python.org/3/library/functions.html#float) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the ElasticModulusMultipleInY.
 
@@ -120,7 +120,7 @@ Gets or sets the ElasticModulusMultipleInY.
 
 <a id="PredefinedAMSupport.ElasticModulusMultipleInZ"></a>
 
-### *property* PredefinedAMSupport.ElasticModulusMultipleInZ *: System.Double | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* PredefinedAMSupport.ElasticModulusMultipleInZ *: [float](https://docs.python.org/3/library/functions.html#float) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the ElasticModulusMultipleInZ.
 
@@ -128,7 +128,7 @@ Gets or sets the ElasticModulusMultipleInZ.
 
 <a id="PredefinedAMSupport.Figures"></a>
 
-### *property* PredefinedAMSupport.Figures *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Figure](../Figure.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* PredefinedAMSupport.Figures *: Iterable[[Ansys.ACT.Automation.Mechanical.Figure](../Figure.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated figures.
 
@@ -136,7 +136,7 @@ Gets the list of associated figures.
 
 <a id="PredefinedAMSupport.Images"></a>
 
-### *property* PredefinedAMSupport.Images *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Image](../Image.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* PredefinedAMSupport.Images *: Iterable[[Ansys.ACT.Automation.Mechanical.Image](../Image.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated images.
 
@@ -160,7 +160,7 @@ Gets or sets the Location.
 
 <a id="PredefinedAMSupport.MaterialMultiplier"></a>
 
-### *property* PredefinedAMSupport.MaterialMultiplier *: System.Double | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* PredefinedAMSupport.MaterialMultiplier *: [float](https://docs.python.org/3/library/functions.html#float) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the MaterialMultiplier.
 
@@ -168,7 +168,7 @@ Gets or sets the MaterialMultiplier.
 
 <a id="PredefinedAMSupport.MultiplierEntry"></a>
 
-### *property* PredefinedAMSupport.MultiplierEntry *: [Ansys.Mechanical.DataModel.Enums.AMMultiplierEntryType](../../../../../../v242/Ansys/Mechanical/DataModel/Enums/AMMultiplierEntryType.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.AMMultiplierEntryType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* PredefinedAMSupport.MultiplierEntry *: [Ansys.Mechanical.DataModel.Enums.AMMultiplierEntryType](../../../../Mechanical/DataModel/Enums/AMMultiplierEntryType.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.AMMultiplierEntryType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the MultiplierEntry.
 
@@ -176,7 +176,7 @@ Gets or sets the MultiplierEntry.
 
 <a id="PredefinedAMSupport.Properties"></a>
 
-### *property* PredefinedAMSupport.Properties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* PredefinedAMSupport.Properties *: [tuple](https://docs.python.org/3/library/stdtypes.html#tuple)[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of properties for this object.
 
@@ -184,7 +184,7 @@ Gets the list of properties for this object.
 
 <a id="PredefinedAMSupport.ShearModulusMultipleInXY"></a>
 
-### *property* PredefinedAMSupport.ShearModulusMultipleInXY *: System.Double | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* PredefinedAMSupport.ShearModulusMultipleInXY *: [float](https://docs.python.org/3/library/functions.html#float) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the ShearModulusMultipleInXY.
 
@@ -192,7 +192,7 @@ Gets or sets the ShearModulusMultipleInXY.
 
 <a id="PredefinedAMSupport.ShearModulusMultipleInXZ"></a>
 
-### *property* PredefinedAMSupport.ShearModulusMultipleInXZ *: System.Double | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* PredefinedAMSupport.ShearModulusMultipleInXZ *: [float](https://docs.python.org/3/library/functions.html#float) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the ShearModulusMultipleInXZ.
 
@@ -200,7 +200,7 @@ Gets or sets the ShearModulusMultipleInXZ.
 
 <a id="PredefinedAMSupport.ShearModulusMultipleInYZ"></a>
 
-### *property* PredefinedAMSupport.ShearModulusMultipleInYZ *: System.Double | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* PredefinedAMSupport.ShearModulusMultipleInYZ *: [float](https://docs.python.org/3/library/functions.html#float) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the ShearModulusMultipleInYZ.
 
@@ -208,7 +208,7 @@ Gets or sets the ShearModulusMultipleInYZ.
 
 <a id="PredefinedAMSupport.SupportType"></a>
 
-### *property* PredefinedAMSupport.SupportType *: [Ansys.Mechanical.DataModel.Enums.AMSupportType](../../../../../../v242/Ansys/Mechanical/DataModel/Enums/AMSupportType.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.AMSupportType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* PredefinedAMSupport.SupportType *: [Ansys.Mechanical.DataModel.Enums.AMSupportType](../../../../Mechanical/DataModel/Enums/AMSupportType.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.AMSupportType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the SupportType.
 
@@ -216,7 +216,7 @@ Gets or sets the SupportType.
 
 <a id="PredefinedAMSupport.Suppressed"></a>
 
-### *property* PredefinedAMSupport.Suppressed *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* PredefinedAMSupport.Suppressed *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Suppressed.
 
@@ -224,7 +224,7 @@ Gets or sets the Suppressed.
 
 <a id="PredefinedAMSupport.ThermalConductivityMultipleInX"></a>
 
-### *property* PredefinedAMSupport.ThermalConductivityMultipleInX *: System.Double | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* PredefinedAMSupport.ThermalConductivityMultipleInX *: [float](https://docs.python.org/3/library/functions.html#float) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the ThermalConductivityMultipleInX.
 
@@ -232,7 +232,7 @@ Gets or sets the ThermalConductivityMultipleInX.
 
 <a id="PredefinedAMSupport.ThermalConductivityMultipleInY"></a>
 
-### *property* PredefinedAMSupport.ThermalConductivityMultipleInY *: System.Double | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* PredefinedAMSupport.ThermalConductivityMultipleInY *: [float](https://docs.python.org/3/library/functions.html#float) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the ThermalConductivityMultipleInY.
 
@@ -240,7 +240,7 @@ Gets or sets the ThermalConductivityMultipleInY.
 
 <a id="PredefinedAMSupport.ThermalConductivityMultipleInZ"></a>
 
-### *property* PredefinedAMSupport.ThermalConductivityMultipleInZ *: System.Double | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* PredefinedAMSupport.ThermalConductivityMultipleInZ *: [float](https://docs.python.org/3/library/functions.html#float) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the ThermalConductivityMultipleInZ.
 
@@ -248,7 +248,7 @@ Gets or sets the ThermalConductivityMultipleInZ.
 
 <a id="PredefinedAMSupport.VisibleProperties"></a>
 
-### *property* PredefinedAMSupport.VisibleProperties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* PredefinedAMSupport.VisibleProperties *: [tuple](https://docs.python.org/3/library/stdtypes.html#tuple)[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of properties that are visible for this object.
 
@@ -316,7 +316,7 @@ Creates a new child Figure.
 
 <a id="PredefinedAMSupport.AddImage"></a>
 
-### PredefinedAMSupport.AddImage(filePath: System.String)
+### PredefinedAMSupport.AddImage(filePath: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 ```text
 Creates a new child Image.
@@ -336,7 +336,7 @@ Copies all visible properties from this object to another.
 
 <a id="PredefinedAMSupport.CreateParameter"></a>
 
-### PredefinedAMSupport.CreateParameter(propName: System.String)
+### PredefinedAMSupport.CreateParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Creates a new parameter for a Property.
 
@@ -360,7 +360,7 @@ Creates a copy of the current DataModelObject.
 
 <a id="PredefinedAMSupport.GetChildren"></a>
 
-### PredefinedAMSupport.GetChildren(recurses: System.Boolean, children: System.Collections.Generic.IList[ChildrenType])
+### PredefinedAMSupport.GetChildren(recurses: [bool](https://docs.python.org/3/library/functions.html#bool), children: List[ChildrenType])
 
 Gets the list of children, filtered by type.
 
@@ -368,7 +368,7 @@ Gets the list of children, filtered by type.
 
 <a id="PredefinedAMSupport.GetParameter"></a>
 
-### PredefinedAMSupport.GetParameter(propName: System.String)
+### PredefinedAMSupport.GetParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Gets the parameter corresponding to the given property.
 
@@ -392,7 +392,7 @@ Run the GroupSimilarObjects action.
 
 <a id="PredefinedAMSupport.PropertyByAPIName"></a>
 
-### PredefinedAMSupport.PropertyByAPIName(name: System.String)
+### PredefinedAMSupport.PropertyByAPIName(name: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 ```text
 Get a property by its API name.
@@ -403,7 +403,7 @@ If multiple properties have the same API Name, only the first property with that
 
 <a id="PredefinedAMSupport.PropertyByName"></a>
 
-### PredefinedAMSupport.PropertyByName(name: System.String)
+### PredefinedAMSupport.PropertyByName(name: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Get a property by its unique name.
 
@@ -411,7 +411,7 @@ Get a property by its unique name.
 
 <a id="PredefinedAMSupport.RemoveParameter"></a>
 
-### PredefinedAMSupport.RemoveParameter(propName: System.String)
+### PredefinedAMSupport.RemoveParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Removes the parameter from the parameter set corresponding to the given property.
 

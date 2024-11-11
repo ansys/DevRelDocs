@@ -17,7 +17,7 @@ Specifies the ComparePartsOnUpdateType.
 ### Attributes
 
 | Name |
-| -------------------------------------------------------------------------------------------------------------------------------------------------- |
+| ------------------------------------------------------------------ |
 | [`Associatively`](#ComparePartsOnUpdateType.Associatively) |
 | [`No`](#ComparePartsOnUpdateType.No) |
 | [`NonAssociatively`](#ComparePartsOnUpdateType.NonAssociatively) |

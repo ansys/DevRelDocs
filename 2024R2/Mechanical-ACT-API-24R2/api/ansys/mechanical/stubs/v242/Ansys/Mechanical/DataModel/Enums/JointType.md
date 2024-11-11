@@ -17,7 +17,7 @@ Specifies the JointType.
 ### Attributes
 
 | Name |
-| -------------------------------------------------------------------------------------------------------------------- |
+| --------------------------------------------------- |
 | [`Bushing`](#JointType.Bushing) |
 | [`ConstantVelocity`](#JointType.ConstantVelocity) |
 | [`Cylindrical`](#JointType.Cylindrical) |

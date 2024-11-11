@@ -150,7 +150,7 @@ Gets the Average.
 
 <a id="AcousticFarFieldResult.By"></a>
 
-### *property* AcousticFarFieldResult.By *: [Ansys.Mechanical.DataModel.Enums.SetDriverStyle](../../../../../../../v242/Ansys/Mechanical/DataModel/Enums/SetDriverStyle.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.SetDriverStyle) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AcousticFarFieldResult.By *: [Ansys.Mechanical.DataModel.Enums.SetDriverStyle](../../../../../Mechanical/DataModel/Enums/SetDriverStyle.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.SetDriverStyle) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the By.
 
@@ -158,7 +158,7 @@ Gets or sets the By.
 
 <a id="AcousticFarFieldResult.CalculateTimeHistory"></a>
 
-### *property* AcousticFarFieldResult.CalculateTimeHistory *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AcousticFarFieldResult.CalculateTimeHistory *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the CalculateTimeHistory.
 
@@ -166,7 +166,7 @@ Gets or sets the CalculateTimeHistory.
 
 <a id="AcousticFarFieldResult.Children"></a>
 
-### *property* AcousticFarFieldResult.Children *: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AcousticFarFieldResult.Children *: List[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of children.
 
@@ -174,7 +174,7 @@ Gets the list of children.
 
 <a id="AcousticFarFieldResult.CombinationNumber"></a>
 
-### *property* AcousticFarFieldResult.CombinationNumber *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AcousticFarFieldResult.CombinationNumber *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Combination Number for a Solution Combination result.
 
@@ -182,7 +182,7 @@ Gets or sets the Combination Number for a Solution Combination result.
 
 <a id="AcousticFarFieldResult.Comments"></a>
 
-### *property* AcousticFarFieldResult.Comments *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Comment](../../Comment.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AcousticFarFieldResult.Comments *: Iterable[[Ansys.ACT.Automation.Mechanical.Comment](../../Comment.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated comments.
 
@@ -200,7 +200,7 @@ Accepts/Returns None for Fiber Coordinate System for a result that is sub scoped
 
 <a id="AcousticFarFieldResult.CrackFrontNumber"></a>
 
-### *property* AcousticFarFieldResult.CrackFrontNumber *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AcousticFarFieldResult.CrackFrontNumber *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the CrackFrontNumber.
 
@@ -216,7 +216,7 @@ Gets the DampedFrequency.
 
 <a id="AcousticFarFieldResult.DataModelObjectCategory"></a>
 
-### *property* AcousticFarFieldResult.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../../../v242/Ansys/Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AcousticFarFieldResult.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the current DataModelObject’s category.
 
@@ -232,7 +232,7 @@ Gets or sets the Density.
 
 <a id="AcousticFarFieldResult.DisplayOption"></a>
 
-### *property* AcousticFarFieldResult.DisplayOption *: [Ansys.Mechanical.DataModel.Enums.ResultAveragingType](../../../../../../../v242/Ansys/Mechanical/DataModel/Enums/ResultAveragingType.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.ResultAveragingType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AcousticFarFieldResult.DisplayOption *: [Ansys.Mechanical.DataModel.Enums.ResultAveragingType](../../../../../Mechanical/DataModel/Enums/ResultAveragingType.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.ResultAveragingType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the DisplayOption.
 
@@ -248,7 +248,7 @@ Gets or sets the DisplayTime.
 
 <a id="AcousticFarFieldResult.DpfEvaluation"></a>
 
-### *property* AcousticFarFieldResult.DpfEvaluation *: [Ansys.Mechanical.DataModel.Enums.DpfEvaluationType](../../../../../../../v242/Ansys/Mechanical/DataModel/Enums/DpfEvaluationType.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.DpfEvaluationType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AcousticFarFieldResult.DpfEvaluation *: [Ansys.Mechanical.DataModel.Enums.DpfEvaluationType](../../../../../Mechanical/DataModel/Enums/DpfEvaluationType.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DpfEvaluationType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the DpfEvaluation.
 
@@ -272,7 +272,7 @@ Gets or sets the EndingRadiationAngleTheta.
 
 <a id="AcousticFarFieldResult.FarFieldMicrophoneDefinitionMethod"></a>
 
-### *property* AcousticFarFieldResult.FarFieldMicrophoneDefinitionMethod *: [Ansys.Mechanical.DataModel.Enums.FarFieldMicrophoneDefinitionMethodType](../../../../../../../v242/Ansys/Mechanical/DataModel/Enums/FarFieldMicrophoneDefinitionMethodType.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.FarFieldMicrophoneDefinitionMethodType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AcousticFarFieldResult.FarFieldMicrophoneDefinitionMethod *: [Ansys.Mechanical.DataModel.Enums.FarFieldMicrophoneDefinitionMethodType](../../../../../Mechanical/DataModel/Enums/FarFieldMicrophoneDefinitionMethodType.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.FarFieldMicrophoneDefinitionMethodType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the FarFieldMicrophoneDefinitionMethod.
 
@@ -280,7 +280,7 @@ Gets or sets the FarFieldMicrophoneDefinitionMethod.
 
 <a id="AcousticFarFieldResult.Figures"></a>
 
-### *property* AcousticFarFieldResult.Figures *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Figure](../../Figure.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AcousticFarFieldResult.Figures *: Iterable[[Ansys.ACT.Automation.Mechanical.Figure](../../Figure.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated figures.
 
@@ -296,7 +296,7 @@ Gets or sets the Frequency.
 
 <a id="AcousticFarFieldResult.GlobalIDs"></a>
 
-### *property* AcousticFarFieldResult.GlobalIDs *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AcousticFarFieldResult.GlobalIDs *: [str](https://docs.python.org/3/library/stdtypes.html#str) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the GlobalIDs.
 
@@ -304,7 +304,7 @@ Gets or sets the GlobalIDs.
 
 <a id="AcousticFarFieldResult.GraphControlsXAxis"></a>
 
-### *property* AcousticFarFieldResult.GraphControlsXAxis *: [Ansys.Mechanical.DataModel.Enums.GraphControlsXAxis](../../../../../../../v242/Ansys/Mechanical/DataModel/Enums/GraphControlsXAxis.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.GraphControlsXAxis) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AcousticFarFieldResult.GraphControlsXAxis *: [Ansys.Mechanical.DataModel.Enums.GraphControlsXAxis](../../../../../Mechanical/DataModel/Enums/GraphControlsXAxis.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.GraphControlsXAxis) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the GraphControlsXAxis.
 
@@ -312,7 +312,7 @@ Gets or sets the GraphControlsXAxis.
 
 <a id="AcousticFarFieldResult.Identifier"></a>
 
-### *property* AcousticFarFieldResult.Identifier *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AcousticFarFieldResult.Identifier *: [str](https://docs.python.org/3/library/stdtypes.html#str) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Identifier.
 
@@ -320,7 +320,7 @@ Gets or sets the Identifier.
 
 <a id="AcousticFarFieldResult.Images"></a>
 
-### *property* AcousticFarFieldResult.Images *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Image](../../Image.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AcousticFarFieldResult.Images *: Iterable[[Ansys.ACT.Automation.Mechanical.Image](../../Image.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated images.
 
@@ -336,7 +336,7 @@ Gets the internal object. For advanced usage only.
 
 <a id="AcousticFarFieldResult.IsSolved"></a>
 
-### *property* AcousticFarFieldResult.IsSolved *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AcousticFarFieldResult.IsSolved *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the IsSolved.
 
@@ -344,7 +344,7 @@ Gets the IsSolved.
 
 <a id="AcousticFarFieldResult.ItemType"></a>
 
-### *property* AcousticFarFieldResult.ItemType *: [Ansys.Mechanical.DataModel.Enums.ResultFileItemType](../../../../../../../v242/Ansys/Mechanical/DataModel/Enums/ResultFileItemType.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.ResultFileItemType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AcousticFarFieldResult.ItemType *: [Ansys.Mechanical.DataModel.Enums.ResultFileItemType](../../../../../Mechanical/DataModel/Enums/ResultFileItemType.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.ResultFileItemType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the ItemType.
 
@@ -352,7 +352,7 @@ Gets or sets the ItemType.
 
 <a id="AcousticFarFieldResult.IterationNumber"></a>
 
-### *property* AcousticFarFieldResult.IterationNumber *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AcousticFarFieldResult.IterationNumber *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the IterationNumber.
 
@@ -360,7 +360,7 @@ Gets the IterationNumber.
 
 <a id="AcousticFarFieldResult.LoadStep"></a>
 
-### *property* AcousticFarFieldResult.LoadStep *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AcousticFarFieldResult.LoadStep *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the LoadStep.
 
@@ -368,7 +368,7 @@ Gets the LoadStep.
 
 <a id="AcousticFarFieldResult.LoadStepForMaximumOfMaximumValues"></a>
 
-### *property* AcousticFarFieldResult.LoadStepForMaximumOfMaximumValues *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AcousticFarFieldResult.LoadStepForMaximumOfMaximumValues *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Get the Load Step for the maximum of maximum values.
 
@@ -376,7 +376,7 @@ Get the Load Step for the maximum of maximum values.
 
 <a id="AcousticFarFieldResult.LoadStepForMaximumOfMinimumValues"></a>
 
-### *property* AcousticFarFieldResult.LoadStepForMaximumOfMinimumValues *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AcousticFarFieldResult.LoadStepForMaximumOfMinimumValues *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Get the Load Step for the maximum of minimum values.
 
@@ -384,7 +384,7 @@ Get the Load Step for the maximum of minimum values.
 
 <a id="AcousticFarFieldResult.LoadStepForMinimumOfMaximumValues"></a>
 
-### *property* AcousticFarFieldResult.LoadStepForMinimumOfMaximumValues *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AcousticFarFieldResult.LoadStepForMinimumOfMaximumValues *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Get the Load Step for the minimum of maximum values.
 
@@ -392,7 +392,7 @@ Get the Load Step for the minimum of maximum values.
 
 <a id="AcousticFarFieldResult.LoadStepForMinimumOfMinimumValues"></a>
 
-### *property* AcousticFarFieldResult.LoadStepForMinimumOfMinimumValues *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AcousticFarFieldResult.LoadStepForMinimumOfMinimumValues *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Get the Load Step for the minimum of minimum values.
 
@@ -400,7 +400,7 @@ Get the Load Step for the minimum of minimum values.
 
 <a id="AcousticFarFieldResult.LoadStepNumber"></a>
 
-### *property* AcousticFarFieldResult.LoadStepNumber *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AcousticFarFieldResult.LoadStepNumber *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the LoadStepNumber.
 
@@ -416,7 +416,7 @@ Gets or sets the Location.
 
 <a id="AcousticFarFieldResult.LogarithmicDecrement"></a>
 
-### *property* AcousticFarFieldResult.LogarithmicDecrement *: System.Double | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AcousticFarFieldResult.LogarithmicDecrement *: [float](https://docs.python.org/3/library/functions.html#float) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the LogarithmicDecrement.
 
@@ -432,7 +432,7 @@ Gets the Maximum.
 
 <a id="AcousticFarFieldResult.MaximumOccursOn"></a>
 
-### *property* AcousticFarFieldResult.MaximumOccursOn *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AcousticFarFieldResult.MaximumOccursOn *: [str](https://docs.python.org/3/library/stdtypes.html#str) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the MaximumOccursOn.
 
@@ -464,7 +464,7 @@ Gets the Minimum.
 
 <a id="AcousticFarFieldResult.MinimumOccursOn"></a>
 
-### *property* AcousticFarFieldResult.MinimumOccursOn *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AcousticFarFieldResult.MinimumOccursOn *: [str](https://docs.python.org/3/library/stdtypes.html#str) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the MinimumOccursOn.
 
@@ -488,7 +488,7 @@ Gets the MinimumOfMinimumOverTime.
 
 <a id="AcousticFarFieldResult.ModalDampingRatio"></a>
 
-### *property* AcousticFarFieldResult.ModalDampingRatio *: System.Double | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AcousticFarFieldResult.ModalDampingRatio *: [float](https://docs.python.org/3/library/functions.html#float) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the ModalDampingRatio.
 
@@ -504,7 +504,7 @@ Gets or sets the ModelThicknessInZDirection.
 
 <a id="AcousticFarFieldResult.ModelType"></a>
 
-### *property* AcousticFarFieldResult.ModelType *: [Ansys.Mechanical.DataModel.Enums.ModelType](../../../../../../../v242/Ansys/Mechanical/DataModel/Enums/ModelType.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.ModelType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AcousticFarFieldResult.ModelType *: [Ansys.Mechanical.DataModel.Enums.ModelType](../../../../../Mechanical/DataModel/Enums/ModelType.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.ModelType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the ModelType.
 
@@ -512,7 +512,7 @@ Gets or sets the ModelType.
 
 <a id="AcousticFarFieldResult.NamedSelections"></a>
 
-### *property* AcousticFarFieldResult.NamedSelections *: System.Collections.Generic.IEnumerable[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AcousticFarFieldResult.NamedSelections *: Iterable[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the NamedSelections.
 
@@ -520,7 +520,7 @@ Gets or sets the NamedSelections.
 
 <a id="AcousticFarFieldResult.Path"></a>
 
-### *property* AcousticFarFieldResult.Path *: [Ansys.ACT.Automation.Mechanical.Path](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Path.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Path) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AcousticFarFieldResult.Path *: [Ansys.ACT.Automation.Mechanical.Path](../../Path.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Path) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Path property.
 
@@ -536,7 +536,7 @@ Gets or sets the PhiAngleEnd.
 
 <a id="AcousticFarFieldResult.PhiAngleNoOfDivisions"></a>
 
-### *property* AcousticFarFieldResult.PhiAngleNoOfDivisions *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AcousticFarFieldResult.PhiAngleNoOfDivisions *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the PhiAngleNoOfDivisions.
 
@@ -552,7 +552,7 @@ Gets or sets the PhiAngleStart.
 
 <a id="AcousticFarFieldResult.PlotData"></a>
 
-### *property* AcousticFarFieldResult.PlotData *: [Ansys.Mechanical.DataModel.Results.ResultDataTable](../../../../../../../v242/Ansys/Mechanical/DataModel/Results/ResultDataTable.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Results.ResultDataTable) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AcousticFarFieldResult.PlotData *: [Ansys.Mechanical.DataModel.Results.ResultDataTable](../../../../../Mechanical/DataModel/Results/ResultDataTable.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Results.ResultDataTable) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the result table.
 
@@ -560,7 +560,7 @@ Gets the result table.
 
 <a id="AcousticFarFieldResult.Properties"></a>
 
-### *property* AcousticFarFieldResult.Properties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AcousticFarFieldResult.Properties *: [tuple](https://docs.python.org/3/library/stdtypes.html#tuple)[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of properties for this object.
 
@@ -592,7 +592,7 @@ Gets the ReportedFrequency.
 
 <a id="AcousticFarFieldResult.ScopingMethod"></a>
 
-### *property* AcousticFarFieldResult.ScopingMethod *: [Ansys.Mechanical.DataModel.Enums.GeometryDefineByType](../../../../../../../v242/Ansys/Mechanical/DataModel/Enums/GeometryDefineByType.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.GeometryDefineByType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AcousticFarFieldResult.ScopingMethod *: [Ansys.Mechanical.DataModel.Enums.GeometryDefineByType](../../../../../Mechanical/DataModel/Enums/GeometryDefineByType.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.GeometryDefineByType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the ScopingMethod.
 
@@ -600,7 +600,7 @@ Gets or sets the ScopingMethod.
 
 <a id="AcousticFarFieldResult.SetNumber"></a>
 
-### *property* AcousticFarFieldResult.SetNumber *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AcousticFarFieldResult.SetNumber *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Set Number.
 
@@ -608,7 +608,7 @@ Gets or sets the Set Number.
 
 <a id="AcousticFarFieldResult.SolutionCombinationDriver"></a>
 
-### *property* AcousticFarFieldResult.SolutionCombinationDriver *: [Ansys.Mechanical.DataModel.Enums.SolutionCombinationDriverStyle](../../../../../../../v242/Ansys/Mechanical/DataModel/Enums/SolutionCombinationDriverStyle.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.SolutionCombinationDriverStyle) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AcousticFarFieldResult.SolutionCombinationDriver *: [Ansys.Mechanical.DataModel.Enums.SolutionCombinationDriverStyle](../../../../../Mechanical/DataModel/Enums/SolutionCombinationDriverStyle.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.SolutionCombinationDriverStyle) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the SolutionCombinationDriver.
 
@@ -616,7 +616,7 @@ Gets or sets the SolutionCombinationDriver.
 
 <a id="AcousticFarFieldResult.SolverComponentIDs"></a>
 
-### *property* AcousticFarFieldResult.SolverComponentIDs *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AcousticFarFieldResult.SolverComponentIDs *: [str](https://docs.python.org/3/library/stdtypes.html#str) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the SolverComponentIDs.
 
@@ -632,7 +632,7 @@ Gets or sets the SoundSpeed.
 
 <a id="AcousticFarFieldResult.SpatialRadiationAngle"></a>
 
-### *property* AcousticFarFieldResult.SpatialRadiationAngle *: [Ansys.Mechanical.DataModel.Enums.SpatialRadiationType](../../../../../../../v242/Ansys/Mechanical/DataModel/Enums/SpatialRadiationType.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.SpatialRadiationType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AcousticFarFieldResult.SpatialRadiationAngle *: [Ansys.Mechanical.DataModel.Enums.SpatialRadiationType](../../../../../Mechanical/DataModel/Enums/SpatialRadiationType.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.SpatialRadiationType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the SpatialRadiationAngle.
 
@@ -672,7 +672,7 @@ Gets or sets the StartingRadiationAngleTheta.
 
 <a id="AcousticFarFieldResult.Substep"></a>
 
-### *property* AcousticFarFieldResult.Substep *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AcousticFarFieldResult.Substep *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the Substep.
 
@@ -680,7 +680,7 @@ Gets the Substep.
 
 <a id="AcousticFarFieldResult.Suppressed"></a>
 
-### *property* AcousticFarFieldResult.Suppressed *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AcousticFarFieldResult.Suppressed *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Suppressed.
 
@@ -688,7 +688,7 @@ Gets or sets the Suppressed.
 
 <a id="AcousticFarFieldResult.Surface"></a>
 
-### *property* AcousticFarFieldResult.Surface *: [Ansys.ACT.Automation.Mechanical.Surface](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Surface.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Surface) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AcousticFarFieldResult.Surface *: [Ansys.ACT.Automation.Mechanical.Surface](../../Surface.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Surface) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Surface property.
 
@@ -704,7 +704,7 @@ Gets or sets the ThetaAngleEnd.
 
 <a id="AcousticFarFieldResult.ThetaAngleNoOfDivisions"></a>
 
-### *property* AcousticFarFieldResult.ThetaAngleNoOfDivisions *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AcousticFarFieldResult.ThetaAngleNoOfDivisions *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the ThetaAngleNoOfDivisions.
 
@@ -760,7 +760,7 @@ Get the Time for the minimum of minimum values.
 
 <a id="AcousticFarFieldResult.VisibleProperties"></a>
 
-### *property* AcousticFarFieldResult.VisibleProperties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AcousticFarFieldResult.VisibleProperties *: [tuple](https://docs.python.org/3/library/stdtypes.html#tuple)[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of properties that are visible for this object.
 
@@ -768,7 +768,7 @@ Gets the list of properties that are visible for this object.
 
 <a id="AcousticFarFieldResult.WaterfallPanelShowTextOnMosaic"></a>
 
-### *property* AcousticFarFieldResult.WaterfallPanelShowTextOnMosaic *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AcousticFarFieldResult.WaterfallPanelShowTextOnMosaic *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Waterfall Panel Mosaic Text Property.
 
@@ -860,7 +860,7 @@ Creates a new child Figure.
 
 <a id="AcousticFarFieldResult.AddImage"></a>
 
-### AcousticFarFieldResult.AddImage(filePath: System.String)
+### AcousticFarFieldResult.AddImage(filePath: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 ```text
 Creates a new child Image.
@@ -888,7 +888,7 @@ Copies all visible properties from this object to another.
 
 <a id="AcousticFarFieldResult.CreateParameter"></a>
 
-### AcousticFarFieldResult.CreateParameter(propName: System.String)
+### AcousticFarFieldResult.CreateParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 CreateParameter method.
 
@@ -936,7 +936,7 @@ Run the EvaluateAllResults action.
 
 <a id="AcousticFarFieldResult.ExportAnimation"></a>
 
-### AcousticFarFieldResult.ExportAnimation(filePath: System.String, format: [Ansys.Mechanical.DataModel.Enums.GraphicsAnimationExportFormat](../../../../../../../v242/Ansys/Mechanical/DataModel/Enums/GraphicsAnimationExportFormat.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.GraphicsAnimationExportFormat), settings: [Ansys.Mechanical.Graphics.AnimationExportSettings](../../../../../../../v242/Ansys/Mechanical/Graphics/AnimationExportSettings.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.Graphics.AnimationExportSettings))
+### AcousticFarFieldResult.ExportAnimation(filePath: [str](https://docs.python.org/3/library/stdtypes.html#str), format: [Ansys.Mechanical.DataModel.Enums.GraphicsAnimationExportFormat](../../../../../Mechanical/DataModel/Enums/GraphicsAnimationExportFormat.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.GraphicsAnimationExportFormat), settings: [Ansys.Mechanical.Graphics.AnimationExportSettings](../../../../../Mechanical/Graphics/AnimationExportSettings.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.Graphics.AnimationExportSettings))
 
 Run the ExportAnimation action.
 
@@ -944,7 +944,7 @@ Run the ExportAnimation action.
 
 <a id="AcousticFarFieldResult.ExportToTextFile"></a>
 
-### AcousticFarFieldResult.ExportToTextFile(filePath: System.String)
+### AcousticFarFieldResult.ExportToTextFile(filePath: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Run the ExportToTextFile action.
 
@@ -952,7 +952,7 @@ Run the ExportToTextFile action.
 
 <a id="AcousticFarFieldResult.ExportToWAVFile"></a>
 
-### AcousticFarFieldResult.ExportToWAVFile(filePath: System.String)
+### AcousticFarFieldResult.ExportToWAVFile(filePath: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Run the ExportToWAVFile action.
 
@@ -960,7 +960,7 @@ Run the ExportToWAVFile action.
 
 <a id="AcousticFarFieldResult.ExportToXMLFile"></a>
 
-### AcousticFarFieldResult.ExportToXMLFile(filePath: System.String)
+### AcousticFarFieldResult.ExportToXMLFile(filePath: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Run the ExportToXMLFile action.
 
@@ -976,7 +976,7 @@ Run the FetchRemoteResult action.
 
 <a id="AcousticFarFieldResult.GetChildren"></a>
 
-### AcousticFarFieldResult.GetChildren(recurses: System.Boolean, children: System.Collections.Generic.IList[ChildrenType])
+### AcousticFarFieldResult.GetChildren(recurses: [bool](https://docs.python.org/3/library/functions.html#bool), children: List[ChildrenType])
 
 Gets the list of children, filtered by type.
 
@@ -984,7 +984,7 @@ Gets the list of children, filtered by type.
 
 <a id="AcousticFarFieldResult.GetParameter"></a>
 
-### AcousticFarFieldResult.GetParameter(propName: System.String)
+### AcousticFarFieldResult.GetParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Gets the parameter corresponding to the given property.
 
@@ -1016,7 +1016,7 @@ Run the PromoteToNamedSelection action.
 
 <a id="AcousticFarFieldResult.PropertyByAPIName"></a>
 
-### AcousticFarFieldResult.PropertyByAPIName(name: System.String)
+### AcousticFarFieldResult.PropertyByAPIName(name: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 ```text
 Get a property by its API name.
@@ -1027,7 +1027,7 @@ If multiple properties have the same API Name, only the first property with that
 
 <a id="AcousticFarFieldResult.PropertyByName"></a>
 
-### AcousticFarFieldResult.PropertyByName(name: System.String)
+### AcousticFarFieldResult.PropertyByName(name: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Get a property by its unique name.
 
@@ -1035,7 +1035,7 @@ Get a property by its unique name.
 
 <a id="AcousticFarFieldResult.RemoveParameter"></a>
 
-### AcousticFarFieldResult.RemoveParameter(propName: System.String)
+### AcousticFarFieldResult.RemoveParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Removes the parameter from the parameter set corresponding to the given property.
 

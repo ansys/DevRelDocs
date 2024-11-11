@@ -17,7 +17,7 @@ Defines a TotalCurrentDensity.
 ### Methods
 
 | Name | Description |
-|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------|
+|---------------------------------------------------------------------------|-----------------------------------------------------------------------------------|
 | [`Activate`](#TotalCurrentDensity.Activate)                               | Activate the current object.                                                      |
 | [`AddAlert`](#TotalCurrentDensity.AddAlert)                               | Creates a new Alert                                                               |
 | [`AddComment`](#TotalCurrentDensity.AddComment)                           | Creates a new child Comment.                                                      |
@@ -48,7 +48,7 @@ Defines a TotalCurrentDensity.
 ### Properties
 
 | Name | Description |
-|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------|
+|-----------------------------------------------------------------------------------------------|------------------------------------------------------------------------|
 | [`Amplitude`](#TotalCurrentDensity.Amplitude)                                                 | Gets or sets the Amplitude.                                            |
 | [`Average`](#TotalCurrentDensity.Average)                                                     | Gets the Average.                                                      |
 | [`AverageAcrossBodies`](#TotalCurrentDensity.AverageAcrossBodies)                             | Gets or sets the AverageAcrossBodies.                                  |
@@ -102,7 +102,7 @@ Defines a TotalCurrentDensity.
 | [`Substep`](#TotalCurrentDensity.Substep)                                                     | Gets the Substep.                                                      |
 | [`Suppressed`](#TotalCurrentDensity.Suppressed)                                               | Gets or sets the Suppressed.                                           |
 | [`Surface`](#TotalCurrentDensity.Surface)                                                     | Surface property.                                                      |
-| [`SurfaceCoating`](#TotalCurrentDensity.SurfaceCoating)                                                                                                                                               | SurfaceCoating property.                                               |
+| [`SurfaceCoating`](#TotalCurrentDensity.SurfaceCoating)                                       | SurfaceCoating property.                                               |
 | [`SweepingPhase`](#TotalCurrentDensity.SweepingPhase)                                         | Gets or sets the SweepingPhase.                                        |
 | [`Time`](#TotalCurrentDensity.Time)                                                           | Gets the Time.                                                         |
 | [`TimeForMaximumOfMaximumValues`](#TotalCurrentDensity.TimeForMaximumOfMaximumValues)         | Get the Time for the maximum of maximum values.                        |
@@ -110,7 +110,7 @@ Defines a TotalCurrentDensity.
 | [`TimeForMinimumOfMaximumValues`](#TotalCurrentDensity.TimeForMinimumOfMaximumValues)         | Get the Time for the minimum of maximum values.                        |
 | [`TimeForMinimumOfMinimumValues`](#TotalCurrentDensity.TimeForMinimumOfMinimumValues)         | Get the Time for the minimum of minimum values.                        |
 | [`VisibleProperties`](#TotalCurrentDensity.VisibleProperties)                                 | Gets the list of properties that are visible for this object.          |
-| [`WaterfallShowTextOnMosaic`](#TotalCurrentDensity.WaterfallShowTextOnMosaic)                                                                                                                         | Gets or sets the Waterfall Mosaic Text Property.                       |
+| [`WaterfallShowTextOnMosaic`](#TotalCurrentDensity.WaterfallShowTextOnMosaic)                 | Gets or sets the Waterfall Mosaic Text Property.                       |
 
 <a id="property-detail"></a>
 
@@ -118,7 +118,7 @@ Defines a TotalCurrentDensity.
 
 <a id="TotalCurrentDensity.Amplitude"></a>
 
-### *property* TotalCurrentDensity.Amplitude *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* TotalCurrentDensity.Amplitude *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Amplitude.
 
@@ -134,7 +134,7 @@ Gets the Average.
 
 <a id="TotalCurrentDensity.AverageAcrossBodies"></a>
 
-### *property* TotalCurrentDensity.AverageAcrossBodies *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* TotalCurrentDensity.AverageAcrossBodies *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the AverageAcrossBodies.
 
@@ -150,7 +150,7 @@ Gets or sets the By.
 
 <a id="TotalCurrentDensity.CalculateTimeHistory"></a>
 
-### *property* TotalCurrentDensity.CalculateTimeHistory *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* TotalCurrentDensity.CalculateTimeHistory *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the CalculateTimeHistory.
 
@@ -158,7 +158,7 @@ Gets or sets the CalculateTimeHistory.
 
 <a id="TotalCurrentDensity.Children"></a>
 
-### *property* TotalCurrentDensity.Children *: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* TotalCurrentDensity.Children *: List[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of children.
 
@@ -166,7 +166,7 @@ Gets the list of children.
 
 <a id="TotalCurrentDensity.CombinationNumber"></a>
 
-### *property* TotalCurrentDensity.CombinationNumber *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* TotalCurrentDensity.CombinationNumber *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Combination Number for a Solution Combination result.
 
@@ -174,7 +174,7 @@ Gets or sets the Combination Number for a Solution Combination result.
 
 <a id="TotalCurrentDensity.Comments"></a>
 
-### *property* TotalCurrentDensity.Comments *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Comment](../../../../../../../v241/Ansys/ACT/Automation/Mechanical/Comment.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* TotalCurrentDensity.Comments *: Iterable[[Ansys.ACT.Automation.Mechanical.Comment](../../Comment.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated comments.
 
@@ -182,7 +182,7 @@ Gets the list of associated comments.
 
 <a id="TotalCurrentDensity.CoordinateSystem"></a>
 
-### *property* TotalCurrentDensity.CoordinateSystem *: [Ansys.ACT.Automation.Mechanical.CoordinateSystem](../../../../../../../v241/Ansys/ACT/Automation/Mechanical/CoordinateSystem.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.CoordinateSystem) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* TotalCurrentDensity.CoordinateSystem *: [Ansys.ACT.Automation.Mechanical.CoordinateSystem](../../CoordinateSystem.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.CoordinateSystem) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Coordinate System.
 Accepts/Returns None for Solution Coordinate System in the general case (if applicable).
@@ -192,7 +192,7 @@ Accepts/Returns None for Fiber Coordinate System for a result that is sub scoped
 
 <a id="TotalCurrentDensity.CrackFrontNumber"></a>
 
-### *property* TotalCurrentDensity.CrackFrontNumber *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* TotalCurrentDensity.CrackFrontNumber *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the CrackFrontNumber.
 
@@ -240,7 +240,7 @@ Gets or sets the ElectricResultType.
 
 <a id="TotalCurrentDensity.Figures"></a>
 
-### *property* TotalCurrentDensity.Figures *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Figure](../../../../../../../v241/Ansys/ACT/Automation/Mechanical/Figure.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* TotalCurrentDensity.Figures *: Iterable[[Ansys.ACT.Automation.Mechanical.Figure](../../Figure.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated figures.
 
@@ -256,7 +256,7 @@ Gets or sets the Frequency.
 
 <a id="TotalCurrentDensity.GlobalIDs"></a>
 
-### *property* TotalCurrentDensity.GlobalIDs *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* TotalCurrentDensity.GlobalIDs *: [str](https://docs.python.org/3/library/stdtypes.html#str) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the GlobalIDs.
 
@@ -272,7 +272,7 @@ Gets or sets the GraphControlsXAxis.
 
 <a id="TotalCurrentDensity.Identifier"></a>
 
-### *property* TotalCurrentDensity.Identifier *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* TotalCurrentDensity.Identifier *: [str](https://docs.python.org/3/library/stdtypes.html#str) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Identifier.
 
@@ -280,7 +280,7 @@ Gets or sets the Identifier.
 
 <a id="TotalCurrentDensity.Images"></a>
 
-### *property* TotalCurrentDensity.Images *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Image](../../../../../../../v241/Ansys/ACT/Automation/Mechanical/Image.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* TotalCurrentDensity.Images *: Iterable[[Ansys.ACT.Automation.Mechanical.Image](../../Image.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated images.
 
@@ -296,7 +296,7 @@ Gets the internal object. For advanced usage only.
 
 <a id="TotalCurrentDensity.IsSolved"></a>
 
-### *property* TotalCurrentDensity.IsSolved *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* TotalCurrentDensity.IsSolved *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the IsSolved.
 
@@ -312,7 +312,7 @@ Gets or sets the ItemType.
 
 <a id="TotalCurrentDensity.IterationNumber"></a>
 
-### *property* TotalCurrentDensity.IterationNumber *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* TotalCurrentDensity.IterationNumber *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the IterationNumber.
 
@@ -320,7 +320,7 @@ Gets the IterationNumber.
 
 <a id="TotalCurrentDensity.LoadStep"></a>
 
-### *property* TotalCurrentDensity.LoadStep *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* TotalCurrentDensity.LoadStep *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the LoadStep.
 
@@ -328,7 +328,7 @@ Gets the LoadStep.
 
 <a id="TotalCurrentDensity.LoadStepForMaximumOfMaximumValues"></a>
 
-### *property* TotalCurrentDensity.LoadStepForMaximumOfMaximumValues *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* TotalCurrentDensity.LoadStepForMaximumOfMaximumValues *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Get the Load Step for the maximum of maximum values.
 
@@ -336,7 +336,7 @@ Get the Load Step for the maximum of maximum values.
 
 <a id="TotalCurrentDensity.LoadStepForMaximumOfMinimumValues"></a>
 
-### *property* TotalCurrentDensity.LoadStepForMaximumOfMinimumValues *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* TotalCurrentDensity.LoadStepForMaximumOfMinimumValues *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Get the Load Step for the maximum of minimum values.
 
@@ -344,7 +344,7 @@ Get the Load Step for the maximum of minimum values.
 
 <a id="TotalCurrentDensity.LoadStepForMinimumOfMaximumValues"></a>
 
-### *property* TotalCurrentDensity.LoadStepForMinimumOfMaximumValues *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* TotalCurrentDensity.LoadStepForMinimumOfMaximumValues *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Get the Load Step for the minimum of maximum values.
 
@@ -352,7 +352,7 @@ Get the Load Step for the minimum of maximum values.
 
 <a id="TotalCurrentDensity.LoadStepForMinimumOfMinimumValues"></a>
 
-### *property* TotalCurrentDensity.LoadStepForMinimumOfMinimumValues *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* TotalCurrentDensity.LoadStepForMinimumOfMinimumValues *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Get the Load Step for the minimum of minimum values.
 
@@ -360,7 +360,7 @@ Get the Load Step for the minimum of minimum values.
 
 <a id="TotalCurrentDensity.LoadStepNumber"></a>
 
-### *property* TotalCurrentDensity.LoadStepNumber *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* TotalCurrentDensity.LoadStepNumber *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the LoadStepNumber.
 
@@ -384,7 +384,7 @@ Gets the Maximum.
 
 <a id="TotalCurrentDensity.MaximumOccursOn"></a>
 
-### *property* TotalCurrentDensity.MaximumOccursOn *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* TotalCurrentDensity.MaximumOccursOn *: [str](https://docs.python.org/3/library/stdtypes.html#str) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the MaximumOccursOn.
 
@@ -416,7 +416,7 @@ Gets the Minimum.
 
 <a id="TotalCurrentDensity.MinimumOccursOn"></a>
 
-### *property* TotalCurrentDensity.MinimumOccursOn *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* TotalCurrentDensity.MinimumOccursOn *: [str](https://docs.python.org/3/library/stdtypes.html#str) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the MinimumOccursOn.
 
@@ -440,7 +440,7 @@ Gets the MinimumOfMinimumOverTime.
 
 <a id="TotalCurrentDensity.NamedSelections"></a>
 
-### *property* TotalCurrentDensity.NamedSelections *: System.Collections.Generic.IEnumerable[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* TotalCurrentDensity.NamedSelections *: Iterable[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the NamedSelections.
 
@@ -472,7 +472,7 @@ Gets the result table.
 
 <a id="TotalCurrentDensity.Properties"></a>
 
-### *property* TotalCurrentDensity.Properties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* TotalCurrentDensity.Properties *: [tuple](https://docs.python.org/3/library/stdtypes.html#tuple)[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of properties for this object.
 
@@ -496,7 +496,7 @@ Gets or sets the ScopingMethod.
 
 <a id="TotalCurrentDensity.SetNumber"></a>
 
-### *property* TotalCurrentDensity.SetNumber *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* TotalCurrentDensity.SetNumber *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Set Number.
 
@@ -512,7 +512,7 @@ Gets or sets the SolutionCombinationDriver.
 
 <a id="TotalCurrentDensity.SolverComponentIDs"></a>
 
-### *property* TotalCurrentDensity.SolverComponentIDs *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* TotalCurrentDensity.SolverComponentIDs *: [str](https://docs.python.org/3/library/stdtypes.html#str) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the SolverComponentIDs.
 
@@ -520,7 +520,7 @@ Gets or sets the SolverComponentIDs.
 
 <a id="TotalCurrentDensity.Substep"></a>
 
-### *property* TotalCurrentDensity.Substep *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* TotalCurrentDensity.Substep *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the Substep.
 
@@ -528,7 +528,7 @@ Gets the Substep.
 
 <a id="TotalCurrentDensity.Suppressed"></a>
 
-### *property* TotalCurrentDensity.Suppressed *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* TotalCurrentDensity.Suppressed *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Suppressed.
 
@@ -600,7 +600,7 @@ Get the Time for the minimum of minimum values.
 
 <a id="TotalCurrentDensity.VisibleProperties"></a>
 
-### *property* TotalCurrentDensity.VisibleProperties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* TotalCurrentDensity.VisibleProperties *: [tuple](https://docs.python.org/3/library/stdtypes.html#tuple)[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of properties that are visible for this object.
 
@@ -608,7 +608,7 @@ Gets the list of properties that are visible for this object.
 
 <a id="TotalCurrentDensity.WaterfallShowTextOnMosaic"></a>
 
-### *property* TotalCurrentDensity.WaterfallShowTextOnMosaic *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* TotalCurrentDensity.WaterfallShowTextOnMosaic *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Waterfall Mosaic Text Property.
 
@@ -660,7 +660,7 @@ Creates a new child Figure.
 
 <a id="TotalCurrentDensity.AddImage"></a>
 
-### TotalCurrentDensity.AddImage(filePath: System.String)
+### TotalCurrentDensity.AddImage(filePath: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 ```text
 Creates a new child Image.
@@ -688,7 +688,7 @@ Copies all visible properties from this object to another.
 
 <a id="TotalCurrentDensity.CreateParameter"></a>
 
-### TotalCurrentDensity.CreateParameter(propName: System.String)
+### TotalCurrentDensity.CreateParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 CreateParameter method.
 
@@ -736,7 +736,7 @@ Run the EvaluateAllResults action.
 
 <a id="TotalCurrentDensity.ExportAnimation"></a>
 
-### TotalCurrentDensity.ExportAnimation(filePath: System.String, format: [Ansys.Mechanical.DataModel.Enums.GraphicsAnimationExportFormat](../../../../../Mechanical/DataModel/Enums/GraphicsAnimationExportFormat.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.GraphicsAnimationExportFormat), settings: [Ansys.Mechanical.Graphics.AnimationExportSettings](../../../../../Mechanical/Graphics/AnimationExportSettings.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.Graphics.AnimationExportSettings))
+### TotalCurrentDensity.ExportAnimation(filePath: [str](https://docs.python.org/3/library/stdtypes.html#str), format: [Ansys.Mechanical.DataModel.Enums.GraphicsAnimationExportFormat](../../../../../Mechanical/DataModel/Enums/GraphicsAnimationExportFormat.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.GraphicsAnimationExportFormat), settings: [Ansys.Mechanical.Graphics.AnimationExportSettings](../../../../../Mechanical/Graphics/AnimationExportSettings.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.Graphics.AnimationExportSettings))
 
 Run the ExportAnimation action.
 
@@ -744,7 +744,7 @@ Run the ExportAnimation action.
 
 <a id="TotalCurrentDensity.ExportToTextFile"></a>
 
-### TotalCurrentDensity.ExportToTextFile(filePath: System.String)
+### TotalCurrentDensity.ExportToTextFile(filePath: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Run the ExportToTextFile action.
 
@@ -760,7 +760,7 @@ Run the FetchRemoteResult action.
 
 <a id="TotalCurrentDensity.GetChildren"></a>
 
-### TotalCurrentDensity.GetChildren(recurses: System.Boolean, children: System.Collections.Generic.IList[ChildrenType])
+### TotalCurrentDensity.GetChildren(recurses: [bool](https://docs.python.org/3/library/functions.html#bool), children: List[ChildrenType])
 
 Gets the list of children, filtered by type.
 
@@ -768,7 +768,7 @@ Gets the list of children, filtered by type.
 
 <a id="TotalCurrentDensity.GetParameter"></a>
 
-### TotalCurrentDensity.GetParameter(propName: System.String)
+### TotalCurrentDensity.GetParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Gets the parameter corresponding to the given property.
 
@@ -800,7 +800,7 @@ Run the PromoteToNamedSelection action.
 
 <a id="TotalCurrentDensity.PropertyByAPIName"></a>
 
-### TotalCurrentDensity.PropertyByAPIName(name: System.String)
+### TotalCurrentDensity.PropertyByAPIName(name: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 ```text
 Get a property by its API name.
@@ -811,7 +811,7 @@ If multiple properties have the same API Name, only the first property with that
 
 <a id="TotalCurrentDensity.PropertyByName"></a>
 
-### TotalCurrentDensity.PropertyByName(name: System.String)
+### TotalCurrentDensity.PropertyByName(name: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Get a property by its unique name.
 
@@ -819,7 +819,7 @@ Get a property by its unique name.
 
 <a id="TotalCurrentDensity.RemoveParameter"></a>
 
-### TotalCurrentDensity.RemoveParameter(propName: System.String)
+### TotalCurrentDensity.RemoveParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Removes the parameter from the parameter set corresponding to the given property.
 

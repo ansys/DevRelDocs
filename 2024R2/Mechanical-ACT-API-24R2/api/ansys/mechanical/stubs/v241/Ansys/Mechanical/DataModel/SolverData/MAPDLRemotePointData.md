@@ -26,7 +26,7 @@ MAPDLRemotePointData class.
 
 <a id="MAPDLRemotePointData.NodeId"></a>
 
-### *property* MAPDLRemotePointData.NodeId *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* MAPDLRemotePointData.NodeId *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the Pilot Node Id number for the remote point.
 

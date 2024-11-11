@@ -17,7 +17,7 @@ Specifies the BeamEndReleaseBehavior.
 ### Attributes
 
 | Name |
-| ------------------------------------------------------------------------------------------------------------------------------ |
+| ------------------------------------------------ |
 | [`Coupled`](#BeamEndReleaseBehavior.Coupled) |
 | [`Joint`](#BeamEndReleaseBehavior.Joint) |
 

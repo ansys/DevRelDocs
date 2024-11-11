@@ -67,7 +67,7 @@ Defines a SymmetryRegion.
 
 <a id="SymmetryRegion.ApplyTo"></a>
 
-### *property* SymmetryRegion.ApplyTo *: [Ansys.Mechanical.DataModel.Enums.PeriodicApplyTo](../../../../../v242/Ansys/Mechanical/DataModel/Enums/PeriodicApplyTo.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.PeriodicApplyTo) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* SymmetryRegion.ApplyTo *: [Ansys.Mechanical.DataModel.Enums.PeriodicApplyTo](../../../Mechanical/DataModel/Enums/PeriodicApplyTo.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.PeriodicApplyTo) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the ApplyTo.
 
@@ -75,7 +75,7 @@ Gets or sets the ApplyTo.
 
 <a id="SymmetryRegion.Behavior"></a>
 
-### *property* SymmetryRegion.Behavior *: [Ansys.Mechanical.DataModel.Enums.SymmetryBehavior](../../../../../v242/Ansys/Mechanical/DataModel/Enums/SymmetryBehavior.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.SymmetryBehavior) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* SymmetryRegion.Behavior *: [Ansys.Mechanical.DataModel.Enums.SymmetryBehavior](../../../Mechanical/DataModel/Enums/SymmetryBehavior.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.SymmetryBehavior) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Behavior.
 
@@ -83,7 +83,7 @@ Gets or sets the Behavior.
 
 <a id="SymmetryRegion.Children"></a>
 
-### *property* SymmetryRegion.Children *: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* SymmetryRegion.Children *: List[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of children.
 
@@ -91,7 +91,7 @@ Gets the list of children.
 
 <a id="SymmetryRegion.Comments"></a>
 
-### *property* SymmetryRegion.Comments *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Comment](Comment.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* SymmetryRegion.Comments *: Iterable[[Ansys.ACT.Automation.Mechanical.Comment](Comment.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated comments.
 
@@ -107,7 +107,7 @@ Gets or sets the CoordinateSystem.
 
 <a id="SymmetryRegion.DataModelObjectCategory"></a>
 
-### *property* SymmetryRegion.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../v242/Ansys/Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* SymmetryRegion.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the current DataModelObject’s category.
 
@@ -115,7 +115,7 @@ Gets the current DataModelObject’s category.
 
 <a id="SymmetryRegion.Figures"></a>
 
-### *property* SymmetryRegion.Figures *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Figure](Figure.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* SymmetryRegion.Figures *: Iterable[[Ansys.ACT.Automation.Mechanical.Figure](Figure.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated figures.
 
@@ -131,7 +131,7 @@ Gets or sets the HighBoundaryLocation.
 
 <a id="SymmetryRegion.Images"></a>
 
-### *property* SymmetryRegion.Images *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Image](Image.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* SymmetryRegion.Images *: Iterable[[Ansys.ACT.Automation.Mechanical.Image](Image.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated images.
 
@@ -171,7 +171,7 @@ Gets or sets the LowBoundaryLocation.
 
 <a id="SymmetryRegion.PeriodicityDirection"></a>
 
-### *property* SymmetryRegion.PeriodicityDirection *: [Ansys.Mechanical.DataModel.Enums.PeriodicityDirectionType](../../../../../v242/Ansys/Mechanical/DataModel/Enums/PeriodicityDirectionType.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.PeriodicityDirectionType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* SymmetryRegion.PeriodicityDirection *: [Ansys.Mechanical.DataModel.Enums.PeriodicityDirectionType](../../../Mechanical/DataModel/Enums/PeriodicityDirectionType.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.PeriodicityDirectionType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the PeriodicityDirection.
 
@@ -179,7 +179,7 @@ Gets or sets the PeriodicityDirection.
 
 <a id="SymmetryRegion.Properties"></a>
 
-### *property* SymmetryRegion.Properties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* SymmetryRegion.Properties *: [tuple](https://docs.python.org/3/library/stdtypes.html#tuple)[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of properties for this object.
 
@@ -187,7 +187,7 @@ Gets the list of properties for this object.
 
 <a id="SymmetryRegion.ReadOnly"></a>
 
-### *property* SymmetryRegion.ReadOnly *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* SymmetryRegion.ReadOnly *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the ReadOnly.
 
@@ -195,7 +195,7 @@ Gets or sets the ReadOnly.
 
 <a id="SymmetryRegion.ScopeMode"></a>
 
-### *property* SymmetryRegion.ScopeMode *: [Ansys.Mechanical.DataModel.Enums.AutomaticOrManual](../../../../../v242/Ansys/Mechanical/DataModel/Enums/AutomaticOrManual.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.AutomaticOrManual) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* SymmetryRegion.ScopeMode *: [Ansys.Mechanical.DataModel.Enums.AutomaticOrManual](../../../Mechanical/DataModel/Enums/AutomaticOrManual.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.AutomaticOrManual) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the ScopeMode.
 
@@ -203,7 +203,7 @@ Gets the ScopeMode.
 
 <a id="SymmetryRegion.Suppressed"></a>
 
-### *property* SymmetryRegion.Suppressed *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* SymmetryRegion.Suppressed *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Suppressed.
 
@@ -211,7 +211,7 @@ Gets or sets the Suppressed.
 
 <a id="SymmetryRegion.SymmetryNormal"></a>
 
-### *property* SymmetryRegion.SymmetryNormal *: [Ansys.Mechanical.DataModel.Enums.SymmetryNormalType](../../../../../v242/Ansys/Mechanical/DataModel/Enums/SymmetryNormalType.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.SymmetryNormalType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* SymmetryRegion.SymmetryNormal *: [Ansys.Mechanical.DataModel.Enums.SymmetryNormalType](../../../Mechanical/DataModel/Enums/SymmetryNormalType.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.SymmetryNormalType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the SymmetryNormal.
 
@@ -219,7 +219,7 @@ Gets or sets the SymmetryNormal.
 
 <a id="SymmetryRegion.Type"></a>
 
-### *property* SymmetryRegion.Type *: [Ansys.Mechanical.DataModel.Enums.SymmetryRegionType](../../../../../v242/Ansys/Mechanical/DataModel/Enums/SymmetryRegionType.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.SymmetryRegionType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* SymmetryRegion.Type *: [Ansys.Mechanical.DataModel.Enums.SymmetryRegionType](../../../Mechanical/DataModel/Enums/SymmetryRegionType.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.SymmetryRegionType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Type.
 
@@ -227,7 +227,7 @@ Gets or sets the Type.
 
 <a id="SymmetryRegion.VisibleProperties"></a>
 
-### *property* SymmetryRegion.VisibleProperties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* SymmetryRegion.VisibleProperties *: [tuple](https://docs.python.org/3/library/stdtypes.html#tuple)[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of properties that are visible for this object.
 
@@ -263,7 +263,7 @@ Creates a new child Figure.
 
 <a id="SymmetryRegion.AddImage"></a>
 
-### SymmetryRegion.AddImage(filePath: System.String)
+### SymmetryRegion.AddImage(filePath: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 ```text
 Creates a new child Image.
@@ -283,7 +283,7 @@ Copies all visible properties from this object to another.
 
 <a id="SymmetryRegion.CreateParameter"></a>
 
-### SymmetryRegion.CreateParameter(propName: System.String)
+### SymmetryRegion.CreateParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Creates a new parameter for a Property.
 
@@ -315,7 +315,7 @@ Flips the High and Low Boundaries.
 
 <a id="SymmetryRegion.GetChildren"></a>
 
-### SymmetryRegion.GetChildren(recurses: System.Boolean, children: System.Collections.Generic.IList[ChildrenType])
+### SymmetryRegion.GetChildren(recurses: [bool](https://docs.python.org/3/library/functions.html#bool), children: List[ChildrenType])
 
 Gets the list of children, filtered by type.
 
@@ -323,7 +323,7 @@ Gets the list of children, filtered by type.
 
 <a id="SymmetryRegion.GetParameter"></a>
 
-### SymmetryRegion.GetParameter(propName: System.String)
+### SymmetryRegion.GetParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Gets the parameter corresponding to the given property.
 
@@ -347,7 +347,7 @@ Run the GroupSimilarObjects action.
 
 <a id="SymmetryRegion.PropertyByAPIName"></a>
 
-### SymmetryRegion.PropertyByAPIName(name: System.String)
+### SymmetryRegion.PropertyByAPIName(name: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 ```text
 Get a property by its API name.
@@ -358,7 +358,7 @@ If multiple properties have the same API Name, only the first property with that
 
 <a id="SymmetryRegion.PropertyByName"></a>
 
-### SymmetryRegion.PropertyByName(name: System.String)
+### SymmetryRegion.PropertyByName(name: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Get a property by its unique name.
 
@@ -366,7 +366,7 @@ Get a property by its unique name.
 
 <a id="SymmetryRegion.RemoveParameter"></a>
 
-### SymmetryRegion.RemoveParameter(propName: System.String)
+### SymmetryRegion.RemoveParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Removes the parameter from the parameter set corresponding to the given property.
 

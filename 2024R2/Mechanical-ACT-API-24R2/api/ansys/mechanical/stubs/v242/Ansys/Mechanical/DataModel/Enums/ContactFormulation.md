@@ -17,7 +17,7 @@ Specifies the ContactFormulation.
 ### Attributes
 
 | Name |
-| ------------------------------------------------------------------------------------------------------------------------------------------ |
+| ---------------------------------------------------------------- |
 | [`AugmentedLagrange`](#ContactFormulation.AugmentedLagrange) |
 | [`Beam`](#ContactFormulation.Beam) |
 | [`MPC`](#ContactFormulation.MPC) |

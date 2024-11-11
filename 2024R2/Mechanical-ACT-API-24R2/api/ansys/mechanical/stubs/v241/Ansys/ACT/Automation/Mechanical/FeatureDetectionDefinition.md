@@ -17,7 +17,7 @@ FeatureDetectionDefinition class.
 ### Methods
 
 | Name | Description |
-|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------|
+|--------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------|
 | [`AddFeatureDetection`](#FeatureDetectionDefinition.AddFeatureDetection)                   | Add a FeatureDetection to the FeatureDetection Definition                       |
 | [`DeleteFeatureDetection`](#FeatureDetectionDefinition.DeleteFeatureDetection)             | Delete a FeatureDetection from the Feature Detection Definition                 |
 | [`ExecuteDetectFeatures`](#FeatureDetectionDefinition.ExecuteDetectFeatures)               | ExecuteDetectFeatures method.                                                   |
@@ -46,7 +46,7 @@ FeatureDetectionDefinition class.
 ### Properties
 
 | Name | Description |
-|-----------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------|
+|--------------------------------------------------------------------------------|-----------------------------------------|
 | [`FeatureDetectionCount`](#FeatureDetectionDefinition.FeatureDetectionCount)   | Gets the number of Feature Detections   |
 
 <a id="property-detail"></a>
@@ -55,7 +55,7 @@ FeatureDetectionDefinition class.
 
 <a id="FeatureDetectionDefinition.FeatureDetectionCount"></a>
 
-### *property* FeatureDetectionDefinition.FeatureDetectionCount *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* FeatureDetectionDefinition.FeatureDetectionCount *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the number of Feature Detections
 
@@ -67,7 +67,7 @@ Gets the number of Feature Detections
 
 <a id="FeatureDetectionDefinition.AddFeatureDetection"></a>
 
-### FeatureDetectionDefinition.AddFeatureDetection(name: System.String, type: System.Int32, criteria: System.Int32, fdOperator: System.Int32, critValue: System.Double, angleValue: System.Double, minBound: System.Double, maxBound: System.Double, meshTreatment: System.Int32)
+### FeatureDetectionDefinition.AddFeatureDetection(name: [str](https://docs.python.org/3/library/stdtypes.html#str), type: [int](https://docs.python.org/3/library/functions.html#int), criteria: [int](https://docs.python.org/3/library/functions.html#int), fdOperator: [int](https://docs.python.org/3/library/functions.html#int), critValue: [float](https://docs.python.org/3/library/functions.html#float), angleValue: [float](https://docs.python.org/3/library/functions.html#float), minBound: [float](https://docs.python.org/3/library/functions.html#float), maxBound: [float](https://docs.python.org/3/library/functions.html#float), meshTreatment: [int](https://docs.python.org/3/library/functions.html#int))
 
 Add a FeatureDetection to the FeatureDetection Definition
 
@@ -75,7 +75,7 @@ Add a FeatureDetection to the FeatureDetection Definition
 
 <a id="FeatureDetectionDefinition.DeleteFeatureDetection"></a>
 
-### FeatureDetectionDefinition.DeleteFeatureDetection(index: System.UInt32)
+### FeatureDetectionDefinition.DeleteFeatureDetection(index: [int](https://docs.python.org/3/library/functions.html#int))
 
 Delete a FeatureDetection from the Feature Detection Definition
 
@@ -91,7 +91,7 @@ ExecuteDetectFeatures method.
 
 <a id="FeatureDetectionDefinition.Export"></a>
 
-### FeatureDetectionDefinition.Export(filepath: System.String)
+### FeatureDetectionDefinition.Export(filepath: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Export Feature Detection Definition data to Comma Separated Value (CSV) files
 
@@ -99,7 +99,7 @@ Export Feature Detection Definition data to Comma Separated Value (CSV) files
 
 <a id="FeatureDetectionDefinition.GetFeatureCriteriaAngle"></a>
 
-### FeatureDetectionDefinition.GetFeatureCriteriaAngle(index: System.UInt32)
+### FeatureDetectionDefinition.GetFeatureCriteriaAngle(index: [int](https://docs.python.org/3/library/functions.html#int))
 
 Gets the Angle property at given FeatureDetection index and BaseCase index
 
@@ -107,7 +107,7 @@ Gets the Angle property at given FeatureDetection index and BaseCase index
 
 <a id="FeatureDetectionDefinition.GetFeatureCriteriaMaxBound"></a>
 
-### FeatureDetectionDefinition.GetFeatureCriteriaMaxBound(index: System.UInt32)
+### FeatureDetectionDefinition.GetFeatureCriteriaMaxBound(index: [int](https://docs.python.org/3/library/functions.html#int))
 
 Gets the Max-Bound property at given FeatureDetection index and BaseCase index
 
@@ -115,7 +115,7 @@ Gets the Max-Bound property at given FeatureDetection index and BaseCase index
 
 <a id="FeatureDetectionDefinition.GetFeatureCriteriaMinBound"></a>
 
-### FeatureDetectionDefinition.GetFeatureCriteriaMinBound(index: System.UInt32)
+### FeatureDetectionDefinition.GetFeatureCriteriaMinBound(index: [int](https://docs.python.org/3/library/functions.html#int))
 
 Gets the Min Bound property at given FeatureDetection index and BaseCase index
 
@@ -123,7 +123,7 @@ Gets the Min Bound property at given FeatureDetection index and BaseCase index
 
 <a id="FeatureDetectionDefinition.GetFeatureCriteriaValue"></a>
 
-### FeatureDetectionDefinition.GetFeatureCriteriaValue(index: System.UInt32)
+### FeatureDetectionDefinition.GetFeatureCriteriaValue(index: [int](https://docs.python.org/3/library/functions.html#int))
 
 Gets the Value property at given FeatureDetection index and BaseCase index
 
@@ -131,7 +131,7 @@ Gets the Value property at given FeatureDetection index and BaseCase index
 
 <a id="FeatureDetectionDefinition.GetFeatureDetectionCriteria"></a>
 
-### FeatureDetectionDefinition.GetFeatureDetectionCriteria(index: System.UInt32)
+### FeatureDetectionDefinition.GetFeatureDetectionCriteria(index: [int](https://docs.python.org/3/library/functions.html#int))
 
 Gets the Feature Detection Criteria property at given index
 
@@ -139,7 +139,7 @@ Gets the Feature Detection Criteria property at given index
 
 <a id="FeatureDetectionDefinition.GetFeatureDetectionName"></a>
 
-### FeatureDetectionDefinition.GetFeatureDetectionName(index: System.UInt32)
+### FeatureDetectionDefinition.GetFeatureDetectionName(index: [int](https://docs.python.org/3/library/functions.html#int))
 
 Gets the FeatureDetection Name property at given index
 
@@ -147,7 +147,7 @@ Gets the FeatureDetection Name property at given index
 
 <a id="FeatureDetectionDefinition.GetFeatureDetectionOperator"></a>
 
-### FeatureDetectionDefinition.GetFeatureDetectionOperator(index: System.UInt32)
+### FeatureDetectionDefinition.GetFeatureDetectionOperator(index: [int](https://docs.python.org/3/library/functions.html#int))
 
 Gets the Feature Detection Operator property at given index
 
@@ -155,7 +155,7 @@ Gets the Feature Detection Operator property at given index
 
 <a id="FeatureDetectionDefinition.GetFeatureDetectionTreatment"></a>
 
-### FeatureDetectionDefinition.GetFeatureDetectionTreatment(index: System.UInt32)
+### FeatureDetectionDefinition.GetFeatureDetectionTreatment(index: [int](https://docs.python.org/3/library/functions.html#int))
 
 Gets the Feature Detection Criteria property at given index
 
@@ -163,7 +163,7 @@ Gets the Feature Detection Criteria property at given index
 
 <a id="FeatureDetectionDefinition.GetFeatureDetectionType"></a>
 
-### FeatureDetectionDefinition.GetFeatureDetectionType(index: System.UInt32)
+### FeatureDetectionDefinition.GetFeatureDetectionType(index: [int](https://docs.python.org/3/library/functions.html#int))
 
 Gets the Feature Detection Type property at given index
 
@@ -171,7 +171,7 @@ Gets the Feature Detection Type property at given index
 
 <a id="FeatureDetectionDefinition.Import"></a>
 
-### FeatureDetectionDefinition.Import(filepath: System.String)
+### FeatureDetectionDefinition.Import(filepath: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Import Feature Detection Definition data from Comma Separated Value (CSV) files
 
@@ -179,7 +179,7 @@ Import Feature Detection Definition data from Comma Separated Value (CSV) files
 
 <a id="FeatureDetectionDefinition.SetFeatureCriteriaAngle"></a>
 
-### FeatureDetectionDefinition.SetFeatureCriteriaAngle(index: System.UInt32, value: System.Double)
+### FeatureDetectionDefinition.SetFeatureCriteriaAngle(index: [int](https://docs.python.org/3/library/functions.html#int), value: [float](https://docs.python.org/3/library/functions.html#float))
 
 Sets  the Angle property at given FeatureDetection index and BaseCase index
 
@@ -187,7 +187,7 @@ Sets  the Angle property at given FeatureDetection index and BaseCase index
 
 <a id="FeatureDetectionDefinition.SetFeatureCriteriaMaxBound"></a>
 
-### FeatureDetectionDefinition.SetFeatureCriteriaMaxBound(index: System.UInt32, value: System.Double)
+### FeatureDetectionDefinition.SetFeatureCriteriaMaxBound(index: [int](https://docs.python.org/3/library/functions.html#int), value: [float](https://docs.python.org/3/library/functions.html#float))
 
 Sets  the Max Bound property at given FeatureDetection index and BaseCase index
 
@@ -195,7 +195,7 @@ Sets  the Max Bound property at given FeatureDetection index and BaseCase index
 
 <a id="FeatureDetectionDefinition.SetFeatureCriteriaMinBound"></a>
 
-### FeatureDetectionDefinition.SetFeatureCriteriaMinBound(index: System.UInt32, value: System.Double)
+### FeatureDetectionDefinition.SetFeatureCriteriaMinBound(index: [int](https://docs.python.org/3/library/functions.html#int), value: [float](https://docs.python.org/3/library/functions.html#float))
 
 Sets  the Min Bound property at given FeatureDetection index and BaseCase index
 
@@ -203,7 +203,7 @@ Sets  the Min Bound property at given FeatureDetection index and BaseCase index
 
 <a id="FeatureDetectionDefinition.SetFeatureCriteriaValue"></a>
 
-### FeatureDetectionDefinition.SetFeatureCriteriaValue(index: System.UInt32, value: System.Double)
+### FeatureDetectionDefinition.SetFeatureCriteriaValue(index: [int](https://docs.python.org/3/library/functions.html#int), value: [float](https://docs.python.org/3/library/functions.html#float))
 
 Sets  the Value property at given FeatureDetection index and BaseCase index
 
@@ -211,7 +211,7 @@ Sets  the Value property at given FeatureDetection index and BaseCase index
 
 <a id="FeatureDetectionDefinition.SetFeatureDetectionCriteria"></a>
 
-### FeatureDetectionDefinition.SetFeatureDetectionCriteria(index: System.UInt32, value: Ansys.Mechanical.DataModel.Enums.FeatureDetectionCriteria)
+### FeatureDetectionDefinition.SetFeatureDetectionCriteria(index: [int](https://docs.python.org/3/library/functions.html#int), value: Ansys.Mechanical.DataModel.Enums.FeatureDetectionCriteria)
 
 Sets the Feature Detection Criteria property at given index
 
@@ -219,7 +219,7 @@ Sets the Feature Detection Criteria property at given index
 
 <a id="FeatureDetectionDefinition.SetFeatureDetectionName"></a>
 
-### FeatureDetectionDefinition.SetFeatureDetectionName(index: System.UInt32, name: System.String)
+### FeatureDetectionDefinition.SetFeatureDetectionName(index: [int](https://docs.python.org/3/library/functions.html#int), name: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Sets the FeatureDetection Name property at given index
 
@@ -227,7 +227,7 @@ Sets the FeatureDetection Name property at given index
 
 <a id="FeatureDetectionDefinition.SetFeatureDetectionOperator"></a>
 
-### FeatureDetectionDefinition.SetFeatureDetectionOperator(index: System.UInt32, value: Ansys.Mechanical.DataModel.Enums.FeatureDetectionOperator)
+### FeatureDetectionDefinition.SetFeatureDetectionOperator(index: [int](https://docs.python.org/3/library/functions.html#int), value: Ansys.Mechanical.DataModel.Enums.FeatureDetectionOperator)
 
 Sets the Feature Detection Operator property at given index
 
@@ -235,7 +235,7 @@ Sets the Feature Detection Operator property at given index
 
 <a id="FeatureDetectionDefinition.SetFeatureDetectionOptions"></a>
 
-### FeatureDetectionDefinition.SetFeatureDetectionOptions(isSolid: System.Boolean, isSheet: System.Boolean, isBeta: System.Boolean)
+### FeatureDetectionDefinition.SetFeatureDetectionOptions(isSolid: [bool](https://docs.python.org/3/library/functions.html#bool), isSheet: [bool](https://docs.python.org/3/library/functions.html#bool), isBeta: [bool](https://docs.python.org/3/library/functions.html#bool))
 
 ```text
 Set Feature Detection Solid / Sheet / Beta settings
@@ -248,7 +248,7 @@ isBeta>
 
 <a id="FeatureDetectionDefinition.SetFeatureDetectionTreatment"></a>
 
-### FeatureDetectionDefinition.SetFeatureDetectionTreatment(index: System.UInt32, value: Ansys.Mechanical.DataModel.Enums.FeatureDetectionTreatment)
+### FeatureDetectionDefinition.SetFeatureDetectionTreatment(index: [int](https://docs.python.org/3/library/functions.html#int), value: Ansys.Mechanical.DataModel.Enums.FeatureDetectionTreatment)
 
 Sets the Feature Detection Criteria property at given index
 
@@ -256,7 +256,7 @@ Sets the Feature Detection Criteria property at given index
 
 <a id="FeatureDetectionDefinition.SetFeatureDetectionType"></a>
 
-### FeatureDetectionDefinition.SetFeatureDetectionType(index: System.UInt32, value: Ansys.Mechanical.DataModel.Enums.FeatureDetectionType)
+### FeatureDetectionDefinition.SetFeatureDetectionType(index: [int](https://docs.python.org/3/library/functions.html#int), value: Ansys.Mechanical.DataModel.Enums.FeatureDetectionType)
 
 Sets the Feature Detection Type property at given index
 

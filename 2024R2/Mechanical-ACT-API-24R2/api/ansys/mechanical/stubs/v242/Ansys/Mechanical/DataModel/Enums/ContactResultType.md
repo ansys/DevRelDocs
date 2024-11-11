@@ -17,7 +17,7 @@ Specifies the ContactResultType.
 ### Attributes
 
 | Name |
-| ------------------------------------------------------------------------------------------------------------------------------------ |
+| ----------------------------------------------------------- |
 | [`FluidPressure`](#ContactResultType.FluidPressure) |
 | [`FrictionalStress`](#ContactResultType.FrictionalStress) |
 | [`Gap`](#ContactResultType.Gap) |

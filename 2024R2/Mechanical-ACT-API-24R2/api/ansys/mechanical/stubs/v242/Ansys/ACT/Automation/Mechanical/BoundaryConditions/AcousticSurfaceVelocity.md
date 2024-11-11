@@ -67,7 +67,7 @@ Defines a AcousticSurfaceVelocity.
 
 <a id="AcousticSurfaceVelocity.Children"></a>
 
-### *property* AcousticSurfaceVelocity.Children *: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AcousticSurfaceVelocity.Children *: List[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of children.
 
@@ -75,7 +75,7 @@ Gets the list of children.
 
 <a id="AcousticSurfaceVelocity.Comments"></a>
 
-### *property* AcousticSurfaceVelocity.Comments *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Comment](../../../../../../v241/Ansys/ACT/Automation/Mechanical/Comment.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AcousticSurfaceVelocity.Comments *: Iterable[[Ansys.ACT.Automation.Mechanical.Comment](../Comment.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated comments.
 
@@ -99,7 +99,7 @@ Gets or sets the DefineBy.
 
 <a id="AcousticSurfaceVelocity.Figures"></a>
 
-### *property* AcousticSurfaceVelocity.Figures *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Figure](../../../../../../v241/Ansys/ACT/Automation/Mechanical/Figure.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AcousticSurfaceVelocity.Figures *: Iterable[[Ansys.ACT.Automation.Mechanical.Figure](../Figure.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated figures.
 
@@ -107,7 +107,7 @@ Gets the list of associated figures.
 
 <a id="AcousticSurfaceVelocity.Images"></a>
 
-### *property* AcousticSurfaceVelocity.Images *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Image](../../../../../../v241/Ansys/ACT/Automation/Mechanical/Image.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AcousticSurfaceVelocity.Images *: Iterable[[Ansys.ACT.Automation.Mechanical.Image](../Image.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated images.
 
@@ -147,7 +147,7 @@ Gets or sets the PhaseAngle.
 
 <a id="AcousticSurfaceVelocity.Properties"></a>
 
-### *property* AcousticSurfaceVelocity.Properties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AcousticSurfaceVelocity.Properties *: [tuple](https://docs.python.org/3/library/stdtypes.html#tuple)[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of properties for this object.
 
@@ -155,7 +155,7 @@ Gets the list of properties for this object.
 
 <a id="AcousticSurfaceVelocity.ReadOnly"></a>
 
-### *property* AcousticSurfaceVelocity.ReadOnly *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AcousticSurfaceVelocity.ReadOnly *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the ReadOnly.
 
@@ -163,7 +163,7 @@ Gets or sets the ReadOnly.
 
 <a id="AcousticSurfaceVelocity.SharedRefBody"></a>
 
-### *property* AcousticSurfaceVelocity.SharedRefBody *: [Ansys.ACT.Automation.Mechanical.Body](../../../../../../v241/Ansys/ACT/Automation/Mechanical/Body.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Body) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AcousticSurfaceVelocity.SharedRefBody *: [Ansys.ACT.Automation.Mechanical.Body](../Body.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Body) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the SharedRefBody.
 
@@ -171,7 +171,7 @@ Gets or sets the SharedRefBody.
 
 <a id="AcousticSurfaceVelocity.Suppressed"></a>
 
-### *property* AcousticSurfaceVelocity.Suppressed *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AcousticSurfaceVelocity.Suppressed *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Suppressed.
 
@@ -179,7 +179,7 @@ Gets or sets the Suppressed.
 
 <a id="AcousticSurfaceVelocity.VisibleProperties"></a>
 
-### *property* AcousticSurfaceVelocity.VisibleProperties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AcousticSurfaceVelocity.VisibleProperties *: [tuple](https://docs.python.org/3/library/stdtypes.html#tuple)[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of properties that are visible for this object.
 
@@ -263,7 +263,7 @@ Creates a new child Figure.
 
 <a id="AcousticSurfaceVelocity.AddImage"></a>
 
-### AcousticSurfaceVelocity.AddImage(filePath: System.String)
+### AcousticSurfaceVelocity.AddImage(filePath: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 ```text
 Creates a new child Image.
@@ -283,7 +283,7 @@ Copies all visible properties from this object to another.
 
 <a id="AcousticSurfaceVelocity.CreateParameter"></a>
 
-### AcousticSurfaceVelocity.CreateParameter(propName: System.String)
+### AcousticSurfaceVelocity.CreateParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Creates a new parameter for a Property.
 
@@ -307,7 +307,7 @@ Creates a copy of the current DataModelObject.
 
 <a id="AcousticSurfaceVelocity.GetChildren"></a>
 
-### AcousticSurfaceVelocity.GetChildren(recurses: System.Boolean, children: System.Collections.Generic.IList[ChildrenType])
+### AcousticSurfaceVelocity.GetChildren(recurses: [bool](https://docs.python.org/3/library/functions.html#bool), children: List[ChildrenType])
 
 Gets the list of children, filtered by type.
 
@@ -315,7 +315,7 @@ Gets the list of children, filtered by type.
 
 <a id="AcousticSurfaceVelocity.GetParameter"></a>
 
-### AcousticSurfaceVelocity.GetParameter(propName: System.String)
+### AcousticSurfaceVelocity.GetParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Gets the parameter corresponding to the given property.
 
@@ -347,7 +347,7 @@ Run the PromoteToNamedSelection action.
 
 <a id="AcousticSurfaceVelocity.PropertyByAPIName"></a>
 
-### AcousticSurfaceVelocity.PropertyByAPIName(name: System.String)
+### AcousticSurfaceVelocity.PropertyByAPIName(name: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 ```text
 Get a property by its API name.
@@ -358,7 +358,7 @@ If multiple properties have the same API Name, only the first property with that
 
 <a id="AcousticSurfaceVelocity.PropertyByName"></a>
 
-### AcousticSurfaceVelocity.PropertyByName(name: System.String)
+### AcousticSurfaceVelocity.PropertyByName(name: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Get a property by its unique name.
 
@@ -366,7 +366,7 @@ Get a property by its unique name.
 
 <a id="AcousticSurfaceVelocity.RemoveParameter"></a>
 
-### AcousticSurfaceVelocity.RemoveParameter(propName: System.String)
+### AcousticSurfaceVelocity.RemoveParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Removes the parameter from the parameter set corresponding to the given property.
 

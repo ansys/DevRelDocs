@@ -17,7 +17,7 @@ Specifies the MeshMetricType.
 ### Attributes
 
 | Name |
-| ---------------------------------------------------------------------------------------------------------------------------------------------- |
+| ------------------------------------------------------------------------ |
 | [`AspectRatio`](#MeshMetricType.AspectRatio) |
 | [`AspectRatioEXD`](#MeshMetricType.AspectRatioEXD) |
 | [`CharacteristicLength`](#MeshMetricType.CharacteristicLength) |

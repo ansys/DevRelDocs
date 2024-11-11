@@ -17,7 +17,7 @@ To select the Unit System Type for the Model Import File being imported.
 ### Attributes
 
 | Name |
-| ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| --------------------------------------------------------------------------------------------- |
 | [`UnitSystemConsistentBFT`](#ModelImportUnitSystemType.UnitSystemConsistentBFT) |
 | [`UnitSystemConsistentBIN`](#ModelImportUnitSystemType.UnitSystemConsistentBIN) |
 | [`UnitSystemConsistentCGS`](#ModelImportUnitSystemType.UnitSystemConsistentCGS) |

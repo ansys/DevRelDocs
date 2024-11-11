@@ -17,7 +17,7 @@ Defines a HollowRectangularCrossSection.
 ### Methods
 
 | Name | Description |
-|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------|
+|-------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------|
 | [`Activate`](#HollowRectangularCrossSection.Activate)                               | Activate the current object.                                                      |
 | [`AddComment`](#HollowRectangularCrossSection.AddComment)                           | Creates a new child Comment.                                                      |
 | [`AddFigure`](#HollowRectangularCrossSection.AddFigure)                             | Creates a new child Figure.                                                       |
@@ -37,7 +37,7 @@ Defines a HollowRectangularCrossSection.
 ### Properties
 
 | Name | Description |
-|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------|
+|-------------------------------------------------------------------------------------|---------------------------------------------------------------|
 | [`Area`](#HollowRectangularCrossSection.Area)                                       | Gets the Area.                                                |
 | [`Children`](#HollowRectangularCrossSection.Children)                               | Gets the list of children.                                    |
 | [`Comments`](#HollowRectangularCrossSection.Comments)                               | Gets the list of associated comments.                         |
@@ -71,7 +71,7 @@ Gets the Area.
 
 <a id="HollowRectangularCrossSection.Children"></a>
 
-### *property* HollowRectangularCrossSection.Children *: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* HollowRectangularCrossSection.Children *: List[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of children.
 
@@ -79,7 +79,7 @@ Gets the list of children.
 
 <a id="HollowRectangularCrossSection.Comments"></a>
 
-### *property* HollowRectangularCrossSection.Comments *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Comment](Comment.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* HollowRectangularCrossSection.Comments *: Iterable[[Ansys.ACT.Automation.Mechanical.Comment](Comment.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated comments.
 
@@ -87,7 +87,7 @@ Gets the list of associated comments.
 
 <a id="HollowRectangularCrossSection.DataModelObjectCategory"></a>
 
-### *property* HollowRectangularCrossSection.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../v242/Ansys/Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* HollowRectangularCrossSection.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the current DataModelObject’s category.
 
@@ -95,7 +95,7 @@ Gets the current DataModelObject’s category.
 
 <a id="HollowRectangularCrossSection.Figures"></a>
 
-### *property* HollowRectangularCrossSection.Figures *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Figure](Figure.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* HollowRectangularCrossSection.Figures *: Iterable[[Ansys.ACT.Automation.Mechanical.Figure](Figure.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated figures.
 
@@ -119,7 +119,7 @@ Gets the IZZ.
 
 <a id="HollowRectangularCrossSection.Images"></a>
 
-### *property* HollowRectangularCrossSection.Images *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Image](Image.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* HollowRectangularCrossSection.Images *: Iterable[[Ansys.ACT.Automation.Mechanical.Image](Image.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated images.
 
@@ -135,7 +135,7 @@ Gets the internal object. For advanced usage only.
 
 <a id="HollowRectangularCrossSection.Properties"></a>
 
-### *property* HollowRectangularCrossSection.Properties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* HollowRectangularCrossSection.Properties *: [tuple](https://docs.python.org/3/library/stdtypes.html#tuple)[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of properties for this object.
 
@@ -143,7 +143,7 @@ Gets the list of properties for this object.
 
 <a id="HollowRectangularCrossSection.ReadOnly"></a>
 
-### *property* HollowRectangularCrossSection.ReadOnly *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* HollowRectangularCrossSection.ReadOnly *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the ReadOnly.
 
@@ -183,7 +183,7 @@ Gets or sets the Thick4.
 
 <a id="HollowRectangularCrossSection.VisibleProperties"></a>
 
-### *property* HollowRectangularCrossSection.VisibleProperties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* HollowRectangularCrossSection.VisibleProperties *: [tuple](https://docs.python.org/3/library/stdtypes.html#tuple)[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of properties that are visible for this object.
 
@@ -235,7 +235,7 @@ Creates a new child Figure.
 
 <a id="HollowRectangularCrossSection.AddImage"></a>
 
-### HollowRectangularCrossSection.AddImage(filePath: System.String)
+### HollowRectangularCrossSection.AddImage(filePath: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 ```text
 Creates a new child Image.
@@ -255,7 +255,7 @@ Copies all visible properties from this object to another.
 
 <a id="HollowRectangularCrossSection.CreateParameter"></a>
 
-### HollowRectangularCrossSection.CreateParameter(propName: System.String)
+### HollowRectangularCrossSection.CreateParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Creates a new parameter for a Property.
 
@@ -279,7 +279,7 @@ Creates a copy of the current DataModelObject.
 
 <a id="HollowRectangularCrossSection.GetChildren"></a>
 
-### HollowRectangularCrossSection.GetChildren(recurses: System.Boolean, children: System.Collections.Generic.IList[ChildrenType])
+### HollowRectangularCrossSection.GetChildren(recurses: [bool](https://docs.python.org/3/library/functions.html#bool), children: List[ChildrenType])
 
 Gets the list of children, filtered by type.
 
@@ -287,7 +287,7 @@ Gets the list of children, filtered by type.
 
 <a id="HollowRectangularCrossSection.GetParameter"></a>
 
-### HollowRectangularCrossSection.GetParameter(propName: System.String)
+### HollowRectangularCrossSection.GetParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Gets the parameter corresponding to the given property.
 
@@ -311,7 +311,7 @@ Run the GroupSimilarObjects action.
 
 <a id="HollowRectangularCrossSection.PropertyByAPIName"></a>
 
-### HollowRectangularCrossSection.PropertyByAPIName(name: System.String)
+### HollowRectangularCrossSection.PropertyByAPIName(name: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 ```text
 Get a property by its API name.
@@ -322,7 +322,7 @@ If multiple properties have the same API Name, only the first property with that
 
 <a id="HollowRectangularCrossSection.PropertyByName"></a>
 
-### HollowRectangularCrossSection.PropertyByName(name: System.String)
+### HollowRectangularCrossSection.PropertyByName(name: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Get a property by its unique name.
 
@@ -330,7 +330,7 @@ Get a property by its unique name.
 
 <a id="HollowRectangularCrossSection.RemoveParameter"></a>
 
-### HollowRectangularCrossSection.RemoveParameter(propName: System.String)
+### HollowRectangularCrossSection.RemoveParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Removes the parameter from the parameter set corresponding to the given property.
 

@@ -84,7 +84,7 @@ Defines a Sizing.
 
 <a id="Sizing.Active"></a>
 
-### *property* Sizing.Active *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Sizing.Active *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the Active.
 
@@ -92,7 +92,7 @@ Gets the Active.
 
 <a id="Sizing.Behavior"></a>
 
-### *property* Sizing.Behavior *: [Ansys.Mechanical.DataModel.Enums.SizingBehavior](../../../../../../v242/Ansys/Mechanical/DataModel/Enums/SizingBehavior.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.SizingBehavior) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Sizing.Behavior *: [Ansys.Mechanical.DataModel.Enums.SizingBehavior](../../../../Mechanical/DataModel/Enums/SizingBehavior.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.SizingBehavior) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Behavior.
 
@@ -100,7 +100,7 @@ Gets or sets the Behavior.
 
 <a id="Sizing.BiasFactor"></a>
 
-### *property* Sizing.BiasFactor *: System.Double | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Sizing.BiasFactor *: [float](https://docs.python.org/3/library/functions.html#float) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the BiasFactor.
 
@@ -108,7 +108,7 @@ Gets or sets the BiasFactor.
 
 <a id="Sizing.BiasGrowthRate"></a>
 
-### *property* Sizing.BiasGrowthRate *: System.Double | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Sizing.BiasGrowthRate *: [float](https://docs.python.org/3/library/functions.html#float) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the BiasGrowthRate.
 
@@ -140,7 +140,7 @@ Gets the BodyOfInfluence.
 
 <a id="Sizing.CaptureCurvature"></a>
 
-### *property* Sizing.CaptureCurvature *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Sizing.CaptureCurvature *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the CaptureCurvature.
 
@@ -148,7 +148,7 @@ Gets or sets the CaptureCurvature.
 
 <a id="Sizing.CaptureProximity"></a>
 
-### *property* Sizing.CaptureProximity *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Sizing.CaptureProximity *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the CaptureProximity.
 
@@ -156,7 +156,7 @@ Gets or sets the CaptureProximity.
 
 <a id="Sizing.Children"></a>
 
-### *property* Sizing.Children *: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Sizing.Children *: List[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of children.
 
@@ -164,7 +164,7 @@ Gets the list of children.
 
 <a id="Sizing.Comments"></a>
 
-### *property* Sizing.Comments *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Comment](../Comment.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Sizing.Comments *: Iterable[[Ansys.ACT.Automation.Mechanical.Comment](../Comment.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated comments.
 
@@ -180,7 +180,7 @@ Gets or sets the CurvatureNormalAngle.
 
 <a id="Sizing.DataModelObjectCategory"></a>
 
-### *property* Sizing.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../../v242/Ansys/Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Sizing.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the current DataModelObject’s category.
 
@@ -204,7 +204,7 @@ Gets or sets the ElementSize.
 
 <a id="Sizing.Figures"></a>
 
-### *property* Sizing.Figures *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Figure](../Figure.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Sizing.Figures *: Iterable[[Ansys.ACT.Automation.Mechanical.Figure](../Figure.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated figures.
 
@@ -212,7 +212,7 @@ Gets the list of associated figures.
 
 <a id="Sizing.GrowthRate"></a>
 
-### *property* Sizing.GrowthRate *: System.Double | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Sizing.GrowthRate *: [float](https://docs.python.org/3/library/functions.html#float) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the GrowthRate.
 
@@ -220,7 +220,7 @@ Gets or sets the GrowthRate.
 
 <a id="Sizing.Images"></a>
 
-### *property* Sizing.Images *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Image](../Image.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Sizing.Images *: Iterable[[Ansys.ACT.Automation.Mechanical.Image](../Image.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated images.
 
@@ -252,7 +252,7 @@ Gets or sets the Location.
 
 <a id="Sizing.NamedSelection"></a>
 
-### *property* Sizing.NamedSelection *: [Ansys.ACT.Automation.Mechanical.NamedSelection](../../../../../../v242/Ansys/ACT/Automation/Mechanical/NamedSelection.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.NamedSelection) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Sizing.NamedSelection *: [Ansys.ACT.Automation.Mechanical.NamedSelection](../NamedSelection.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.NamedSelection) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the NamedSelection.
 
@@ -260,7 +260,7 @@ Gets or sets the NamedSelection.
 
 <a id="Sizing.NumberOfDivisions"></a>
 
-### *property* Sizing.NumberOfDivisions *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Sizing.NumberOfDivisions *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the NumberOfDivisions.
 
@@ -292,7 +292,7 @@ Gets the OriginZ.
 
 <a id="Sizing.Properties"></a>
 
-### *property* Sizing.Properties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Sizing.Properties *: [tuple](https://docs.python.org/3/library/stdtypes.html#tuple)[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of properties for this object.
 
@@ -316,7 +316,7 @@ Gets or sets the ProximityMinimumSize.
 
 <a id="Sizing.ProximitySizeSources"></a>
 
-### *property* Sizing.ProximitySizeSources *: [Ansys.Mechanical.DataModel.Enums.ProximitySFSourcesType](../../../../../../v242/Ansys/Mechanical/DataModel/Enums/ProximitySFSourcesType.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.ProximitySFSourcesType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Sizing.ProximitySizeSources *: [Ansys.Mechanical.DataModel.Enums.ProximitySFSourcesType](../../../../Mechanical/DataModel/Enums/ProximitySFSourcesType.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.ProximitySFSourcesType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the ProximitySizeSources.
 
@@ -332,7 +332,7 @@ Gets or sets the ReverseBias.
 
 <a id="Sizing.ScopingMethod"></a>
 
-### *property* Sizing.ScopingMethod *: [Ansys.Mechanical.DataModel.Enums.GeometryDefineByType](../../../../../../v242/Ansys/Mechanical/DataModel/Enums/GeometryDefineByType.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.GeometryDefineByType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Sizing.ScopingMethod *: [Ansys.Mechanical.DataModel.Enums.GeometryDefineByType](../../../../Mechanical/DataModel/Enums/GeometryDefineByType.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.GeometryDefineByType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the ScopingMethod.
 
@@ -356,7 +356,7 @@ Gets or sets the SphereRadius.
 
 <a id="Sizing.Suppressed"></a>
 
-### *property* Sizing.Suppressed *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Sizing.Suppressed *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Suppressed.
 
@@ -364,7 +364,7 @@ Gets or sets the Suppressed.
 
 <a id="Sizing.Type"></a>
 
-### *property* Sizing.Type *: [Ansys.Mechanical.DataModel.Enums.SizingType](../../../../../../v242/Ansys/Mechanical/DataModel/Enums/SizingType.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.SizingType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Sizing.Type *: [Ansys.Mechanical.DataModel.Enums.SizingType](../../../../Mechanical/DataModel/Enums/SizingType.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.SizingType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Type.
 
@@ -372,7 +372,7 @@ Gets or sets the Type.
 
 <a id="Sizing.VisibleProperties"></a>
 
-### *property* Sizing.VisibleProperties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Sizing.VisibleProperties *: [tuple](https://docs.python.org/3/library/stdtypes.html#tuple)[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of properties that are visible for this object.
 
@@ -408,7 +408,7 @@ Creates a new child Figure.
 
 <a id="Sizing.AddImage"></a>
 
-### Sizing.AddImage(filePath: System.String)
+### Sizing.AddImage(filePath: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 ```text
 Creates a new child Image.
@@ -428,7 +428,7 @@ Copies all visible properties from this object to another.
 
 <a id="Sizing.CreateParameter"></a>
 
-### Sizing.CreateParameter(propName: System.String)
+### Sizing.CreateParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Creates a new parameter for a Property.
 
@@ -460,7 +460,7 @@ Generate the Mesh.
 
 <a id="Sizing.GetChildren"></a>
 
-### Sizing.GetChildren(recurses: System.Boolean, children: System.Collections.Generic.IList[ChildrenType])
+### Sizing.GetChildren(recurses: [bool](https://docs.python.org/3/library/functions.html#bool), children: List[ChildrenType])
 
 Gets the list of children, filtered by type.
 
@@ -468,7 +468,7 @@ Gets the list of children, filtered by type.
 
 <a id="Sizing.GetParameter"></a>
 
-### Sizing.GetParameter(propName: System.String)
+### Sizing.GetParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Gets the parameter corresponding to the given property.
 
@@ -492,7 +492,7 @@ Run the GroupSimilarObjects action.
 
 <a id="Sizing.PropertyByAPIName"></a>
 
-### Sizing.PropertyByAPIName(name: System.String)
+### Sizing.PropertyByAPIName(name: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 ```text
 Get a property by its API name.
@@ -503,7 +503,7 @@ If multiple properties have the same API Name, only the first property with that
 
 <a id="Sizing.PropertyByName"></a>
 
-### Sizing.PropertyByName(name: System.String)
+### Sizing.PropertyByName(name: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Get a property by its unique name.
 
@@ -511,7 +511,7 @@ Get a property by its unique name.
 
 <a id="Sizing.RemoveParameter"></a>
 
-### Sizing.RemoveParameter(propName: System.String)
+### Sizing.RemoveParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Removes the parameter from the parameter set corresponding to the given property.
 

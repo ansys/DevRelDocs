@@ -17,7 +17,7 @@ Specifies the CrackShapeType.
 ### Attributes
 
 | Name |
-| -------------------------------------------------------------------------------------------------------------------------- |
+| ---------------------------------------------------- |
 | [`Arbitrary`](#CrackShapeType.Arbitrary) |
 | [`Corner`](#CrackShapeType.Corner) |
 | [`Cylindrical`](#CrackShapeType.Cylindrical) |

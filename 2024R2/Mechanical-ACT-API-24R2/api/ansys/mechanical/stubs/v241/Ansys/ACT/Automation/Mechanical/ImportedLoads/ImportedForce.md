@@ -17,7 +17,7 @@ Defines a ImportedForce.
 ### Methods
 
 | Name | Description |
-|----------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------|
+|---------------------------------------------------------------------|-----------------------------------------------------------------------------------|
 | [`Activate`](#ImportedForce.Activate)                               | Activate the current object.                                                      |
 | [`AddComment`](#ImportedForce.AddComment)                           | Creates a new child Comment.                                                      |
 | [`AddFigure`](#ImportedForce.AddFigure)                             | Creates a new child Figure.                                                       |
@@ -44,7 +44,7 @@ Defines a ImportedForce.
 ### Properties
 
 | Name | Description |
-|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------|
+|-----------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------|
 | [`Algorithm`](#ImportedForce.Algorithm)                                                       | Algorithm property.                                                                                     |
 | [`ApplyAs`](#ImportedForce.ApplyAs)                                                           | This controls how the imported load is applied, either as a boundary condition or an initial condition. |
 | [`BoundingBoxTolerance`](#ImportedForce.BoundingBoxTolerance)                                 | BoundingBoxTolerance property.                                                                          |
@@ -102,7 +102,7 @@ Defines a ImportedForce.
 
 <a id="ImportedForce.Algorithm"></a>
 
-### *property* ImportedForce.Algorithm *: [Ansys.Mechanical.DataModel.Enums.MappingAlgorithm](../../../../../../v242/Ansys/Mechanical/DataModel/Enums/MappingAlgorithm.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.MappingAlgorithm) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ImportedForce.Algorithm *: [Ansys.Mechanical.DataModel.Enums.MappingAlgorithm](../../../../Mechanical/DataModel/Enums/MappingAlgorithm.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.MappingAlgorithm) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Algorithm property.
 
@@ -110,7 +110,7 @@ Algorithm property.
 
 <a id="ImportedForce.ApplyAs"></a>
 
-### *property* ImportedForce.ApplyAs *: [Ansys.Mechanical.DataModel.Enums.ExternalLoadApplicationType](../../../../../../v242/Ansys/Mechanical/DataModel/Enums/ExternalLoadApplicationType.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.ExternalLoadApplicationType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ImportedForce.ApplyAs *: [Ansys.Mechanical.DataModel.Enums.ExternalLoadApplicationType](../../../../Mechanical/DataModel/Enums/ExternalLoadApplicationType.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.ExternalLoadApplicationType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 This controls how the imported load is applied, either as a boundary condition or an initial condition.
 
@@ -126,7 +126,7 @@ BoundingBoxTolerance property.
 
 <a id="ImportedForce.Children"></a>
 
-### *property* ImportedForce.Children *: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ImportedForce.Children *: List[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of children.
 
@@ -134,7 +134,7 @@ Gets the list of children.
 
 <a id="ImportedForce.Comments"></a>
 
-### *property* ImportedForce.Comments *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Comment](../Comment.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ImportedForce.Comments *: Iterable[[Ansys.ACT.Automation.Mechanical.Comment](../Comment.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated comments.
 
@@ -142,7 +142,7 @@ Gets the list of associated comments.
 
 <a id="ImportedForce.CreateNameSelectionForMappedNodes"></a>
 
-### *property* ImportedForce.CreateNameSelectionForMappedNodes *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ImportedForce.CreateNameSelectionForMappedNodes *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 CreateNameSelectionForMappedNodes property.
 
@@ -150,7 +150,7 @@ CreateNameSelectionForMappedNodes property.
 
 <a id="ImportedForce.CreateNameSelectionForOutsideNodes"></a>
 
-### *property* ImportedForce.CreateNameSelectionForOutsideNodes *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ImportedForce.CreateNameSelectionForOutsideNodes *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 CreateNameSelectionForOutsideNodes property.
 
@@ -158,7 +158,7 @@ CreateNameSelectionForOutsideNodes property.
 
 <a id="ImportedForce.CreateNameSelectionForUnmappedNodes"></a>
 
-### *property* ImportedForce.CreateNameSelectionForUnmappedNodes *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ImportedForce.CreateNameSelectionForUnmappedNodes *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 CreateNameSelectionForUnmappedNodes property.
 
@@ -166,7 +166,7 @@ CreateNameSelectionForUnmappedNodes property.
 
 <a id="ImportedForce.DataModelObjectCategory"></a>
 
-### *property* ImportedForce.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../../v242/Ansys/Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ImportedForce.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the current DataModelObject’s category.
 
@@ -174,7 +174,7 @@ Gets the current DataModelObject’s category.
 
 <a id="ImportedForce.DisplayInteriorPoints"></a>
 
-### *property* ImportedForce.DisplayInteriorPoints *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ImportedForce.DisplayInteriorPoints *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 DisplayInteriorPoints property.
 
@@ -182,7 +182,7 @@ DisplayInteriorPoints property.
 
 <a id="ImportedForce.DisplayProjectionPlane"></a>
 
-### *property* ImportedForce.DisplayProjectionPlane *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ImportedForce.DisplayProjectionPlane *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 DisplayProjectionPlane property.
 
@@ -190,7 +190,7 @@ DisplayProjectionPlane property.
 
 <a id="ImportedForce.DisplaySourcePointIds"></a>
 
-### *property* ImportedForce.DisplaySourcePointIds *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ImportedForce.DisplaySourcePointIds *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 DisplaySourcePointIds property.
 
@@ -198,7 +198,7 @@ DisplaySourcePointIds property.
 
 <a id="ImportedForce.DisplaySourcePoints"></a>
 
-### *property* ImportedForce.DisplaySourcePoints *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ImportedForce.DisplaySourcePoints *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 DisplaySourcePoints property.
 
@@ -206,7 +206,7 @@ DisplaySourcePoints property.
 
 <a id="ImportedForce.ExtrapolationTolerancePercent"></a>
 
-### *property* ImportedForce.ExtrapolationTolerancePercent *: System.Double | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ImportedForce.ExtrapolationTolerancePercent *: [float](https://docs.python.org/3/library/functions.html#float) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 ExtrapolationTolerancePercent property.
 
@@ -214,7 +214,7 @@ ExtrapolationTolerancePercent property.
 
 <a id="ImportedForce.Figures"></a>
 
-### *property* ImportedForce.Figures *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Figure](../Figure.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ImportedForce.Figures *: Iterable[[Ansys.ACT.Automation.Mechanical.Figure](../Figure.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated figures.
 
@@ -222,7 +222,7 @@ Gets the list of associated figures.
 
 <a id="ImportedForce.Images"></a>
 
-### *property* ImportedForce.Images *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Image](../Image.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ImportedForce.Images *: Iterable[[Ansys.ACT.Automation.Mechanical.Image](../Image.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated images.
 
@@ -238,7 +238,7 @@ Gets the internal object. For advanced usage only.
 
 <a id="ImportedForce.Interpolation"></a>
 
-### *property* ImportedForce.Interpolation *: [Ansys.Mechanical.DataModel.Enums.InterpolationType](../../../../../../v242/Ansys/Mechanical/DataModel/Enums/InterpolationType.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.InterpolationType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ImportedForce.Interpolation *: [Ansys.Mechanical.DataModel.Enums.InterpolationType](../../../../Mechanical/DataModel/Enums/InterpolationType.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.InterpolationType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Interpolation property.
 
@@ -246,7 +246,7 @@ Interpolation property.
 
 <a id="ImportedForce.KrigingCorrelationFunction"></a>
 
-### *property* ImportedForce.KrigingCorrelationFunction *: [Ansys.Mechanical.DataModel.Enums.KrigingCorrFuncType](../../../../../../v242/Ansys/Mechanical/DataModel/Enums/KrigingCorrFuncType.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.KrigingCorrFuncType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ImportedForce.KrigingCorrelationFunction *: [Ansys.Mechanical.DataModel.Enums.KrigingCorrFuncType](../../../../Mechanical/DataModel/Enums/KrigingCorrFuncType.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.KrigingCorrFuncType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 KrigingCorrelationFunction property.
 
@@ -254,7 +254,7 @@ KrigingCorrelationFunction property.
 
 <a id="ImportedForce.KrigingPolynom"></a>
 
-### *property* ImportedForce.KrigingPolynom *: [Ansys.Mechanical.DataModel.Enums.KrigingPolynomType](../../../../../../v242/Ansys/Mechanical/DataModel/Enums/KrigingPolynomType.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.KrigingPolynomType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ImportedForce.KrigingPolynom *: [Ansys.Mechanical.DataModel.Enums.KrigingPolynomType](../../../../Mechanical/DataModel/Enums/KrigingPolynomType.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.KrigingPolynomType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 KrigingPolynom property.
 
@@ -278,7 +278,7 @@ LegendMinimum property.
 
 <a id="ImportedForce.LegendRange"></a>
 
-### *property* ImportedForce.LegendRange *: [Ansys.Mechanical.DataModel.Enums.LegendRangeType](../../../../../../v242/Ansys/Mechanical/DataModel/Enums/LegendRangeType.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.LegendRangeType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ImportedForce.LegendRange *: [Ansys.Mechanical.DataModel.Enums.LegendRangeType](../../../../Mechanical/DataModel/Enums/LegendRangeType.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.LegendRangeType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 LegendRange property.
 
@@ -286,7 +286,7 @@ LegendRange property.
 
 <a id="ImportedForce.Limit"></a>
 
-### *property* ImportedForce.Limit *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ImportedForce.Limit *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Limit property.
 
@@ -302,7 +302,7 @@ Gets or sets the Location.
 
 <a id="ImportedForce.MappedNodesName"></a>
 
-### *property* ImportedForce.MappedNodesName *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ImportedForce.MappedNodesName *: [str](https://docs.python.org/3/library/stdtypes.html#str) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 MappedNodesName property.
 
@@ -310,7 +310,7 @@ MappedNodesName property.
 
 <a id="ImportedForce.Mapping"></a>
 
-### *property* ImportedForce.Mapping *: [Ansys.Mechanical.DataModel.Enums.MappingInterpolationType](../../../../../../v242/Ansys/Mechanical/DataModel/Enums/MappingInterpolationType.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.MappingInterpolationType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ImportedForce.Mapping *: [Ansys.Mechanical.DataModel.Enums.MappingInterpolationType](../../../../Mechanical/DataModel/Enums/MappingInterpolationType.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.MappingInterpolationType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Mapping property.
 
@@ -318,7 +318,7 @@ Mapping property.
 
 <a id="ImportedForce.MappingControl"></a>
 
-### *property* ImportedForce.MappingControl *: [Ansys.Mechanical.DataModel.Enums.MappingControlType](../../../../../../v242/Ansys/Mechanical/DataModel/Enums/MappingControlType.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.MappingControlType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ImportedForce.MappingControl *: [Ansys.Mechanical.DataModel.Enums.MappingControlType](../../../../Mechanical/DataModel/Enums/MappingControlType.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.MappingControlType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 MappingControl property.
 
@@ -334,7 +334,7 @@ MaxOutsideDistance property.
 
 <a id="ImportedForce.Method"></a>
 
-### *property* ImportedForce.Method *: [Ansys.Mechanical.DataModel.Enums.MappingMethod](../../../../../../v242/Ansys/Mechanical/DataModel/Enums/MappingMethod.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.MappingMethod) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ImportedForce.Method *: [Ansys.Mechanical.DataModel.Enums.MappingMethod](../../../../Mechanical/DataModel/Enums/MappingMethod.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.MappingMethod) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Method property.
 
@@ -342,7 +342,7 @@ Method property.
 
 <a id="ImportedForce.NumberOfPoints"></a>
 
-### *property* ImportedForce.NumberOfPoints *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ImportedForce.NumberOfPoints *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 NumberOfPoints property.
 
@@ -350,7 +350,7 @@ NumberOfPoints property.
 
 <a id="ImportedForce.OrientationRealignment"></a>
 
-### *property* ImportedForce.OrientationRealignment *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ImportedForce.OrientationRealignment *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 OrientationRealignment property.
 
@@ -358,7 +358,7 @@ OrientationRealignment property.
 
 <a id="ImportedForce.OutsideDistanceCheck"></a>
 
-### *property* ImportedForce.OutsideDistanceCheck *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ImportedForce.OutsideDistanceCheck *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 OutsideDistanceCheck property.
 
@@ -366,7 +366,7 @@ OutsideDistanceCheck property.
 
 <a id="ImportedForce.OutsideNodesName"></a>
 
-### *property* ImportedForce.OutsideNodesName *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ImportedForce.OutsideNodesName *: [str](https://docs.python.org/3/library/stdtypes.html#str) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 OutsideNodesName property.
 
@@ -374,7 +374,7 @@ OutsideNodesName property.
 
 <a id="ImportedForce.OutsideOption"></a>
 
-### *property* ImportedForce.OutsideOption *: [Ansys.Mechanical.DataModel.Enums.MappingOutsideOption](../../../../../../v242/Ansys/Mechanical/DataModel/Enums/MappingOutsideOption.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.MappingOutsideOption) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ImportedForce.OutsideOption *: [Ansys.Mechanical.DataModel.Enums.MappingOutsideOption](../../../../Mechanical/DataModel/Enums/MappingOutsideOption.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.MappingOutsideOption) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 OutsideOption property.
 
@@ -398,7 +398,7 @@ Projection property.
 
 <a id="ImportedForce.Properties"></a>
 
-### *property* ImportedForce.Properties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ImportedForce.Properties *: [tuple](https://docs.python.org/3/library/stdtypes.html#tuple)[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of properties for this object.
 
@@ -406,7 +406,7 @@ Gets the list of properties for this object.
 
 <a id="ImportedForce.RigidBodyTransformationType"></a>
 
-### *property* ImportedForce.RigidBodyTransformationType *: [Ansys.Mechanical.DataModel.Enums.RigidBodyTransformationType](../../../../../../v242/Ansys/Mechanical/DataModel/Enums/RigidBodyTransformationType.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.RigidBodyTransformationType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ImportedForce.RigidBodyTransformationType *: [Ansys.Mechanical.DataModel.Enums.RigidBodyTransformationType](../../../../Mechanical/DataModel/Enums/RigidBodyTransformationType.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.RigidBodyTransformationType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 RigidBodyTransformationType property.
 
@@ -438,7 +438,7 @@ Gets or sets the SharedRefBody.
 
 <a id="ImportedForce.ShellThicknessFactor"></a>
 
-### *property* ImportedForce.ShellThicknessFactor *: System.Double | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ImportedForce.ShellThicknessFactor *: [float](https://docs.python.org/3/library/functions.html#float) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 ShellThicknessFactor property.
 
@@ -462,7 +462,7 @@ SourceMinimum property.
 
 <a id="ImportedForce.Suppressed"></a>
 
-### *property* ImportedForce.Suppressed *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ImportedForce.Suppressed *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Suppressed.
 
@@ -470,7 +470,7 @@ Gets or sets the Suppressed.
 
 <a id="ImportedForce.UnmappedNodesName"></a>
 
-### *property* ImportedForce.UnmappedNodesName *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ImportedForce.UnmappedNodesName *: [str](https://docs.python.org/3/library/stdtypes.html#str) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 UnmappedNodesName property.
 
@@ -478,7 +478,7 @@ UnmappedNodesName property.
 
 <a id="ImportedForce.VariableType"></a>
 
-### *property* ImportedForce.VariableType *: [Ansys.Mechanical.DataModel.Enums.MappingVariableType](../../../../../../v242/Ansys/Mechanical/DataModel/Enums/MappingVariableType.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.MappingVariableType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ImportedForce.VariableType *: [Ansys.Mechanical.DataModel.Enums.MappingVariableType](../../../../Mechanical/DataModel/Enums/MappingVariableType.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.MappingVariableType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 VariableType property.
 
@@ -486,7 +486,7 @@ VariableType property.
 
 <a id="ImportedForce.VisibleProperties"></a>
 
-### *property* ImportedForce.VisibleProperties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ImportedForce.VisibleProperties *: [tuple](https://docs.python.org/3/library/stdtypes.html#tuple)[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of properties that are visible for this object.
 
@@ -494,7 +494,7 @@ Gets the list of properties that are visible for this object.
 
 <a id="ImportedForce.Weighting"></a>
 
-### *property* ImportedForce.Weighting *: [Ansys.Mechanical.DataModel.Enums.WeightingType](../../../../../../v242/Ansys/Mechanical/DataModel/Enums/WeightingType.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.WeightingType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ImportedForce.Weighting *: [Ansys.Mechanical.DataModel.Enums.WeightingType](../../../../Mechanical/DataModel/Enums/WeightingType.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.WeightingType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Weighting property.
 
@@ -530,7 +530,7 @@ Creates a new child Figure.
 
 <a id="ImportedForce.AddImage"></a>
 
-### ImportedForce.AddImage(filePath: System.String)
+### ImportedForce.AddImage(filePath: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 ```text
 Creates a new child Image.
@@ -566,7 +566,7 @@ Copies all visible properties from this object to another.
 
 <a id="ImportedForce.CreateParameter"></a>
 
-### ImportedForce.CreateParameter(propName: System.String)
+### ImportedForce.CreateParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Creates a new parameter for a Property.
 
@@ -590,7 +590,7 @@ Creates a copy of the current DataModelObject.
 
 <a id="ImportedForce.ExportToTextFile"></a>
 
-### ImportedForce.ExportToTextFile(filePath: System.String)
+### ImportedForce.ExportToTextFile(filePath: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Run the ExportToTextFile action.
 
@@ -598,7 +598,7 @@ Run the ExportToTextFile action.
 
 <a id="ImportedForce.GetActivateAtLoadStep"></a>
 
-### ImportedForce.GetActivateAtLoadStep(stepNumber: System.UInt32)
+### ImportedForce.GetActivateAtLoadStep(stepNumber: [int](https://docs.python.org/3/library/functions.html#int))
 
 GetActivateAtLoadStep method.
 
@@ -606,7 +606,7 @@ GetActivateAtLoadStep method.
 
 <a id="ImportedForce.GetChildren"></a>
 
-### ImportedForce.GetChildren(recurses: System.Boolean, children: System.Collections.Generic.IList[ChildrenType])
+### ImportedForce.GetChildren(recurses: [bool](https://docs.python.org/3/library/functions.html#bool), children: List[ChildrenType])
 
 Gets the list of children, filtered by type.
 
@@ -614,7 +614,7 @@ Gets the list of children, filtered by type.
 
 <a id="ImportedForce.GetParameter"></a>
 
-### ImportedForce.GetParameter(propName: System.String)
+### ImportedForce.GetParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Gets the parameter corresponding to the given property.
 
@@ -654,7 +654,7 @@ Run the ImportLoad action.
 
 <a id="ImportedForce.PropertyByAPIName"></a>
 
-### ImportedForce.PropertyByAPIName(name: System.String)
+### ImportedForce.PropertyByAPIName(name: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 ```text
 Get a property by its API name.
@@ -665,7 +665,7 @@ If multiple properties have the same API Name, only the first property with that
 
 <a id="ImportedForce.PropertyByName"></a>
 
-### ImportedForce.PropertyByName(name: System.String)
+### ImportedForce.PropertyByName(name: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Get a property by its unique name.
 
@@ -673,7 +673,7 @@ Get a property by its unique name.
 
 <a id="ImportedForce.RemoveParameter"></a>
 
-### ImportedForce.RemoveParameter(propName: System.String)
+### ImportedForce.RemoveParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Removes the parameter from the parameter set corresponding to the given property.
 
@@ -681,7 +681,7 @@ Removes the parameter from the parameter set corresponding to the given property
 
 <a id="ImportedForce.SetActivateAtLoadStep"></a>
 
-### ImportedForce.SetActivateAtLoadStep(stepNumber: System.UInt32, bActive: System.Boolean)
+### ImportedForce.SetActivateAtLoadStep(stepNumber: [int](https://docs.python.org/3/library/functions.html#int), bActive: [bool](https://docs.python.org/3/library/functions.html#bool))
 
 SetActivateAtLoadStep method.
 

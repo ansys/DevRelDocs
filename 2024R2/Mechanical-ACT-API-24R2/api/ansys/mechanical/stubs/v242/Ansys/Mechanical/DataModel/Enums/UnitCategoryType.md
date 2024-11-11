@@ -17,7 +17,7 @@ Specifies the WB Unit Category Type.
 ### Attributes
 
 | Name |
-| -------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| -------------------------------------------------------------------------------------- |
 | [`AWeightedDecibel`](#UnitCategoryType.AWeightedDecibel) |
 | [`Acceleration`](#UnitCategoryType.Acceleration) |
 | [`AcousticAdmittance`](#UnitCategoryType.AcousticAdmittance) |

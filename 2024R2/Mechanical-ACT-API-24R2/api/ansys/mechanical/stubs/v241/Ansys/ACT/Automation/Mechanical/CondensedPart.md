@@ -17,7 +17,7 @@ Defines a CondensedPart.
 ### Methods
 
 | Name | Description |
-|---------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------|
+|-------------------------------------------------------------------------------|-----------------------------------------------------------------------------------|
 | [`Activate`](#CondensedPart.Activate)                                         | Activate the current object.                                                      |
 | [`AddCommandSnippet`](#CondensedPart.AddCommandSnippet)                       | Creates a new CommandSnippet                                                      |
 | [`AddComment`](#CondensedPart.AddComment)                                     | Creates a new child Comment.                                                      |
@@ -29,7 +29,7 @@ Defines a CondensedPart.
 | [`Delete`](#CondensedPart.Delete)                                             | Run the Delete action.                                                            |
 | [`DetectCondensedPartInterface`](#CondensedPart.DetectCondensedPartInterface) | Run the DetectCondensedPartInterface action.                                      |
 | [`Duplicate`](#CondensedPart.Duplicate)                                       | Creates a copy of the current DataModelObject.                                    |
-| [`ExportCondensedPart`](#CondensedPart.ExportCondensedPart)                                                                                       | Run the Export Condensed Part action.                                             |
+| [`ExportCondensedPart`](#CondensedPart.ExportCondensedPart)                   | Run the Export Condensed Part action.                                             |
 | [`GenerateCondensedParts`](#CondensedPart.GenerateCondensedParts)             | Run the GenerateCondensedParts action.                                            |
 | [`GetChildren`](#CondensedPart.GetChildren)                                   | Gets the list of children, filtered by type.                                      |
 | [`GetParameter`](#CondensedPart.GetParameter)                                 | Gets the parameter corresponding to the given property.                           |
@@ -42,7 +42,7 @@ Defines a CondensedPart.
 ### Properties
 
 | Name | Description |
-|-----------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------|
+|---------------------------------------------------------------------|---------------------------------------------------------------|
 | [`AttachmentMethod`](#CondensedPart.AttachmentMethod)               | Gets or sets the AttachmentMethod.                            |
 | [`Children`](#CondensedPart.Children)                               | Gets the list of children.                                    |
 | [`Comments`](#CondensedPart.Comments)                               | Gets the list of associated comments.                         |
@@ -86,7 +86,7 @@ Defines a CondensedPart.
 
 <a id="CondensedPart.AttachmentMethod"></a>
 
-### *property* CondensedPart.AttachmentMethod *: [Ansys.Mechanical.DataModel.Enums.CondensedPartCMSAttachmentMethod](../../../../../v242/Ansys/Mechanical/DataModel/Enums/CondensedPartCMSAttachmentMethod.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.CondensedPartCMSAttachmentMethod) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* CondensedPart.AttachmentMethod *: [Ansys.Mechanical.DataModel.Enums.CondensedPartCMSAttachmentMethod](../../../Mechanical/DataModel/Enums/CondensedPartCMSAttachmentMethod.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.CondensedPartCMSAttachmentMethod) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the AttachmentMethod.
 
@@ -94,7 +94,7 @@ Gets or sets the AttachmentMethod.
 
 <a id="CondensedPart.Children"></a>
 
-### *property* CondensedPart.Children *: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* CondensedPart.Children *: List[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of children.
 
@@ -102,7 +102,7 @@ Gets the list of children.
 
 <a id="CondensedPart.Comments"></a>
 
-### *property* CondensedPart.Comments *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Comment](Comment.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* CondensedPart.Comments *: Iterable[[Ansys.ACT.Automation.Mechanical.Comment](Comment.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated comments.
 
@@ -110,7 +110,7 @@ Gets the list of associated comments.
 
 <a id="CondensedPart.DataModelObjectCategory"></a>
 
-### *property* CondensedPart.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../v242/Ansys/Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* CondensedPart.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the current DataModelObject’s category.
 
@@ -118,7 +118,7 @@ Gets the current DataModelObject’s category.
 
 <a id="CondensedPart.Figures"></a>
 
-### *property* CondensedPart.Figures *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Figure](Figure.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* CondensedPart.Figures *: Iterable[[Ansys.ACT.Automation.Mechanical.Figure](Figure.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated figures.
 
@@ -126,7 +126,7 @@ Gets the list of associated figures.
 
 <a id="CondensedPart.FutureExpansion"></a>
 
-### *property* CondensedPart.FutureExpansion *: [Ansys.Mechanical.DataModel.Enums.YesNoProgrammedControlled](../../../../../v242/Ansys/Mechanical/DataModel/Enums/YesNoProgrammedControlled.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.YesNoProgrammedControlled) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* CondensedPart.FutureExpansion *: [Ansys.Mechanical.DataModel.Enums.YesNoProgrammedControlled](../../../Mechanical/DataModel/Enums/YesNoProgrammedControlled.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.YesNoProgrammedControlled) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the FutureExpansion.
 
@@ -134,7 +134,7 @@ Gets or sets the FutureExpansion.
 
 <a id="CondensedPart.FutureIntent"></a>
 
-### *property* CondensedPart.FutureIntent *: [Ansys.Mechanical.DataModel.Enums.FutureIntentType](../../../../../v242/Ansys/Mechanical/DataModel/Enums/FutureIntentType.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.FutureIntentType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* CondensedPart.FutureIntent *: [Ansys.Mechanical.DataModel.Enums.FutureIntentType](../../../Mechanical/DataModel/Enums/FutureIntentType.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.FutureIntentType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the FutureIntent.
 
@@ -142,7 +142,7 @@ Gets or sets the FutureIntent.
 
 <a id="CondensedPart.GenerateDampingMatrix"></a>
 
-### *property* CondensedPart.GenerateDampingMatrix *: [Ansys.Mechanical.DataModel.Enums.YesNoProgrammedControlled](../../../../../v242/Ansys/Mechanical/DataModel/Enums/YesNoProgrammedControlled.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.YesNoProgrammedControlled) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* CondensedPart.GenerateDampingMatrix *: [Ansys.Mechanical.DataModel.Enums.YesNoProgrammedControlled](../../../Mechanical/DataModel/Enums/YesNoProgrammedControlled.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.YesNoProgrammedControlled) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the GenerateDampingMatrix.
 
@@ -158,7 +158,7 @@ Gets or sets the GeometrySelection.
 
 <a id="CondensedPart.Images"></a>
 
-### *property* CondensedPart.Images *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Image](Image.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* CondensedPart.Images *: Iterable[[Ansys.ACT.Automation.Mechanical.Image](Image.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated images.
 
@@ -166,7 +166,7 @@ Gets the list of associated images.
 
 <a id="CondensedPart.InterfaceMethod"></a>
 
-### *property* CondensedPart.InterfaceMethod *: [Ansys.Mechanical.DataModel.Enums.CondensedPartInterfaceMethod](../../../../../v242/Ansys/Mechanical/DataModel/Enums/CondensedPartInterfaceMethod.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.CondensedPartInterfaceMethod) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* CondensedPart.InterfaceMethod *: [Ansys.Mechanical.DataModel.Enums.CondensedPartInterfaceMethod](../../../Mechanical/DataModel/Enums/CondensedPartInterfaceMethod.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.CondensedPartInterfaceMethod) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the InterfaceMethod.
 
@@ -190,7 +190,7 @@ Gets the internal object. For advanced usage only.
 
 <a id="CondensedPart.KeepFilesFor"></a>
 
-### *property* CondensedPart.KeepFilesFor *: [Ansys.Mechanical.DataModel.Enums.CondensedPartKeepFilesFor](../../../../../v242/Ansys/Mechanical/DataModel/Enums/CondensedPartKeepFilesFor.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.CondensedPartKeepFilesFor) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* CondensedPart.KeepFilesFor *: [Ansys.Mechanical.DataModel.Enums.CondensedPartKeepFilesFor](../../../Mechanical/DataModel/Enums/CondensedPartKeepFilesFor.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.CondensedPartKeepFilesFor) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the KeepFilesFor.
 
@@ -198,7 +198,7 @@ Gets or sets the KeepFilesFor.
 
 <a id="CondensedPart.LumpedMassFormulation"></a>
 
-### *property* CondensedPart.LumpedMassFormulation *: [Ansys.Mechanical.DataModel.Enums.CondensedPartLumpedMassFormulation](../../../../../v242/Ansys/Mechanical/DataModel/Enums/CondensedPartLumpedMassFormulation.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.CondensedPartLumpedMassFormulation) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* CondensedPart.LumpedMassFormulation *: [Ansys.Mechanical.DataModel.Enums.CondensedPartLumpedMassFormulation](../../../Mechanical/DataModel/Enums/CondensedPartLumpedMassFormulation.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.CondensedPartLumpedMassFormulation) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the LumpedMassFormulation.
 
@@ -222,7 +222,7 @@ Gets or sets the MinimumFrequency.
 
 <a id="CondensedPart.NumberInterfaceEntries"></a>
 
-### *property* CondensedPart.NumberInterfaceEntries *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* CondensedPart.NumberInterfaceEntries *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the NumberInterfaceEntries.
 
@@ -230,7 +230,7 @@ Gets the NumberInterfaceEntries.
 
 <a id="CondensedPart.NumberMasterNodes"></a>
 
-### *property* CondensedPart.NumberMasterNodes *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* CondensedPart.NumberMasterNodes *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the NumberMasterNodes.
 
@@ -238,7 +238,7 @@ Gets the NumberMasterNodes.
 
 <a id="CondensedPart.NumberOfModes"></a>
 
-### *property* CondensedPart.NumberOfModes *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* CondensedPart.NumberOfModes *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the NumberOfModes.
 
@@ -246,7 +246,7 @@ Gets or sets the NumberOfModes.
 
 <a id="CondensedPart.Physics"></a>
 
-### *property* CondensedPart.Physics *: [Ansys.Mechanical.DataModel.Enums.CondensedPartPhysics](../../../../../v242/Ansys/Mechanical/DataModel/Enums/CondensedPartPhysics.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.CondensedPartPhysics) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* CondensedPart.Physics *: [Ansys.Mechanical.DataModel.Enums.CondensedPartPhysics](../../../Mechanical/DataModel/Enums/CondensedPartPhysics.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.CondensedPartPhysics) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the Physics.
 
@@ -254,7 +254,7 @@ Gets the Physics.
 
 <a id="CondensedPart.PointMassTreatment"></a>
 
-### *property* CondensedPart.PointMassTreatment *: [Ansys.Mechanical.DataModel.Enums.CondensedPartPointMassTreatment](../../../../../v242/Ansys/Mechanical/DataModel/Enums/CondensedPartPointMassTreatment.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.CondensedPartPointMassTreatment) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* CondensedPart.PointMassTreatment *: [Ansys.Mechanical.DataModel.Enums.CondensedPartPointMassTreatment](../../../Mechanical/DataModel/Enums/CondensedPartPointMassTreatment.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.CondensedPartPointMassTreatment) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the PointMassTreatment.
 
@@ -262,7 +262,7 @@ Gets or sets the PointMassTreatment.
 
 <a id="CondensedPart.Properties"></a>
 
-### *property* CondensedPart.Properties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* CondensedPart.Properties *: [tuple](https://docs.python.org/3/library/stdtypes.html#tuple)[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of properties for this object.
 
@@ -270,7 +270,7 @@ Gets the list of properties for this object.
 
 <a id="CondensedPart.RangeSearch"></a>
 
-### *property* CondensedPart.RangeSearch *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* CondensedPart.RangeSearch *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the RangeSearch.
 
@@ -278,7 +278,7 @@ Gets or sets the RangeSearch.
 
 <a id="CondensedPart.ReductionMethod"></a>
 
-### *property* CondensedPart.ReductionMethod *: [Ansys.Mechanical.DataModel.Enums.CondensedPartReductionMethod](../../../../../v242/Ansys/Mechanical/DataModel/Enums/CondensedPartReductionMethod.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.CondensedPartReductionMethod) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* CondensedPart.ReductionMethod *: [Ansys.Mechanical.DataModel.Enums.CondensedPartReductionMethod](../../../Mechanical/DataModel/Enums/CondensedPartReductionMethod.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.CondensedPartReductionMethod) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the ReductionMethod.
 
@@ -294,7 +294,7 @@ Gets or sets the ReferenceTemperature.
 
 <a id="CondensedPart.SolutionName"></a>
 
-### *property* CondensedPart.SolutionName *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* CondensedPart.SolutionName *: [str](https://docs.python.org/3/library/stdtypes.html#str) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the SolutionName.
 
@@ -302,7 +302,7 @@ Gets or sets the SolutionName.
 
 <a id="CondensedPart.SolutionNameMode"></a>
 
-### *property* CondensedPart.SolutionNameMode *: [Ansys.Mechanical.DataModel.Enums.AutomaticOrManual](../../../../../v242/Ansys/Mechanical/DataModel/Enums/AutomaticOrManual.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.AutomaticOrManual) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* CondensedPart.SolutionNameMode *: [Ansys.Mechanical.DataModel.Enums.AutomaticOrManual](../../../Mechanical/DataModel/Enums/AutomaticOrManual.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.AutomaticOrManual) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the SolutionNameMode.
 
@@ -310,7 +310,7 @@ Gets or sets the SolutionNameMode.
 
 <a id="CondensedPart.SolverFilesDirectory"></a>
 
-### *property* CondensedPart.SolverFilesDirectory *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* CondensedPart.SolverFilesDirectory *: [str](https://docs.python.org/3/library/stdtypes.html#str) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the SolverFilesDirectory.
 
@@ -318,7 +318,7 @@ Gets the SolverFilesDirectory.
 
 <a id="CondensedPart.SolverType"></a>
 
-### *property* CondensedPart.SolverType *: [Ansys.Mechanical.DataModel.Enums.SolverType](../../../../../v242/Ansys/Mechanical/DataModel/Enums/SolverType.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.SolverType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* CondensedPart.SolverType *: [Ansys.Mechanical.DataModel.Enums.SolverType](../../../Mechanical/DataModel/Enums/SolverType.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.SolverType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the SolverType.
 
@@ -326,7 +326,7 @@ Gets or sets the SolverType.
 
 <a id="CondensedPart.SolverUnitSystem"></a>
 
-### *property* CondensedPart.SolverUnitSystem *: [Ansys.Mechanical.DataModel.Enums.WBUnitSystemType](../../../../../v242/Ansys/Mechanical/DataModel/Enums/WBUnitSystemType.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.WBUnitSystemType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* CondensedPart.SolverUnitSystem *: [Ansys.Mechanical.DataModel.Enums.WBUnitSystemType](../../../Mechanical/DataModel/Enums/WBUnitSystemType.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.WBUnitSystemType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the SolverUnitSystem.
 
@@ -334,7 +334,7 @@ Gets or sets the SolverUnitSystem.
 
 <a id="CondensedPart.SolverUnits"></a>
 
-### *property* CondensedPart.SolverUnits *: [Ansys.Mechanical.DataModel.Enums.SolverUnitsControlType](../../../../../v242/Ansys/Mechanical/DataModel/Enums/SolverUnitsControlType.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.SolverUnitsControlType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* CondensedPart.SolverUnits *: [Ansys.Mechanical.DataModel.Enums.SolverUnitsControlType](../../../Mechanical/DataModel/Enums/SolverUnitsControlType.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.SolverUnitsControlType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the SolverUnits.
 
@@ -342,7 +342,7 @@ Gets or sets the SolverUnits.
 
 <a id="CondensedPart.StoreBasisResults"></a>
 
-### *property* CondensedPart.StoreBasisResults *: [Ansys.Mechanical.DataModel.Enums.YesNoProgrammedControlled](../../../../../v242/Ansys/Mechanical/DataModel/Enums/YesNoProgrammedControlled.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.YesNoProgrammedControlled) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* CondensedPart.StoreBasisResults *: [Ansys.Mechanical.DataModel.Enums.YesNoProgrammedControlled](../../../Mechanical/DataModel/Enums/YesNoProgrammedControlled.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.YesNoProgrammedControlled) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the StoreBasisResults.
 
@@ -350,7 +350,7 @@ Gets or sets the StoreBasisResults.
 
 <a id="CondensedPart.Suppressed"></a>
 
-### *property* CondensedPart.Suppressed *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* CondensedPart.Suppressed *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Suppressed.
 
@@ -358,7 +358,7 @@ Gets or sets the Suppressed.
 
 <a id="CondensedPart.TemperatureUnits"></a>
 
-### *property* CondensedPart.TemperatureUnits *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* CondensedPart.TemperatureUnits *: [str](https://docs.python.org/3/library/stdtypes.html#str) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the TemperatureUnits.
 
@@ -366,7 +366,7 @@ Gets the TemperatureUnits.
 
 <a id="CondensedPart.VisibleProperties"></a>
 
-### *property* CondensedPart.VisibleProperties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* CondensedPart.VisibleProperties *: [tuple](https://docs.python.org/3/library/stdtypes.html#tuple)[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of properties that are visible for this object.
 
@@ -410,7 +410,7 @@ Creates a new child Figure.
 
 <a id="CondensedPart.AddImage"></a>
 
-### CondensedPart.AddImage(filePath: System.String)
+### CondensedPart.AddImage(filePath: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 ```text
 Creates a new child Image.
@@ -438,7 +438,7 @@ Copies all visible properties from this object to another.
 
 <a id="CondensedPart.CreateParameter"></a>
 
-### CondensedPart.CreateParameter(propName: System.String)
+### CondensedPart.CreateParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Creates a new parameter for a Property.
 
@@ -470,7 +470,7 @@ Creates a copy of the current DataModelObject.
 
 <a id="CondensedPart.ExportCondensedPart"></a>
 
-### CondensedPart.ExportCondensedPart(exportFileName: System.String)
+### CondensedPart.ExportCondensedPart(exportFileName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Run the Export Condensed Part action.
 
@@ -486,7 +486,7 @@ Run the GenerateCondensedParts action.
 
 <a id="CondensedPart.GetChildren"></a>
 
-### CondensedPart.GetChildren(recurses: System.Boolean, children: System.Collections.Generic.IList[ChildrenType])
+### CondensedPart.GetChildren(recurses: [bool](https://docs.python.org/3/library/functions.html#bool), children: List[ChildrenType])
 
 Gets the list of children, filtered by type.
 
@@ -494,7 +494,7 @@ Gets the list of children, filtered by type.
 
 <a id="CondensedPart.GetParameter"></a>
 
-### CondensedPart.GetParameter(propName: System.String)
+### CondensedPart.GetParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Gets the parameter corresponding to the given property.
 
@@ -518,7 +518,7 @@ Run the GroupSimilarObjects action.
 
 <a id="CondensedPart.PropertyByAPIName"></a>
 
-### CondensedPart.PropertyByAPIName(name: System.String)
+### CondensedPart.PropertyByAPIName(name: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 ```text
 Get a property by its API name.
@@ -529,7 +529,7 @@ If multiple properties have the same API Name, only the first property with that
 
 <a id="CondensedPart.PropertyByName"></a>
 
-### CondensedPart.PropertyByName(name: System.String)
+### CondensedPart.PropertyByName(name: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Get a property by its unique name.
 
@@ -537,7 +537,7 @@ Get a property by its unique name.
 
 <a id="CondensedPart.RemoveParameter"></a>
 
-### CondensedPart.RemoveParameter(propName: System.String)
+### CondensedPart.RemoveParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Removes the parameter from the parameter set corresponding to the given property.
 

@@ -17,7 +17,7 @@ Specifies the RemotePointUpdateOptions.
 ### Attributes
 
 | Name |
-| ---------------------------------------------------------------------------------------------------------------------------------------- |
+| -------------------------------------------------------- |
 | [`Regenerate`](#RemotePointUpdateOptions.Regenerate) |
 | [`Reuse`](#RemotePointUpdateOptions.Reuse) |
 

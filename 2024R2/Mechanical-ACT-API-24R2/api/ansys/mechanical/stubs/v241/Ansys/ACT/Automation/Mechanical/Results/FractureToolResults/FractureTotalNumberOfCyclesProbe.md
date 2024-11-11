@@ -101,7 +101,7 @@ Defines a FractureTotalNumberOfCyclesProbe.
 
 <a id="FractureTotalNumberOfCyclesProbe.ActiveContour"></a>
 
-### *property* FractureTotalNumberOfCyclesProbe.ActiveContour *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* FractureTotalNumberOfCyclesProbe.ActiveContour *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the ActiveContour.
 
@@ -125,7 +125,7 @@ Gets or sets the BoundaryConditionSelection. In order to select the option ‘We
 
 <a id="FractureTotalNumberOfCyclesProbe.Children"></a>
 
-### *property* FractureTotalNumberOfCyclesProbe.Children *: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* FractureTotalNumberOfCyclesProbe.Children *: List[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of children.
 
@@ -133,7 +133,7 @@ Gets the list of children.
 
 <a id="FractureTotalNumberOfCyclesProbe.Comments"></a>
 
-### *property* FractureTotalNumberOfCyclesProbe.Comments *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Comment](../../Comment.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* FractureTotalNumberOfCyclesProbe.Comments *: Iterable[[Ansys.ACT.Automation.Mechanical.Comment](../../Comment.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated comments.
 
@@ -157,7 +157,7 @@ Gets or sets the CoordinateSystemSelection.
 
 <a id="FractureTotalNumberOfCyclesProbe.CrackLengthPercentage"></a>
 
-### *property* FractureTotalNumberOfCyclesProbe.CrackLengthPercentage *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* FractureTotalNumberOfCyclesProbe.CrackLengthPercentage *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the CrackLengthPercentage.
 
@@ -165,7 +165,7 @@ Gets or sets the CrackLengthPercentage.
 
 <a id="FractureTotalNumberOfCyclesProbe.DataModelObjectCategory"></a>
 
-### *property* FractureTotalNumberOfCyclesProbe.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../../../v242/Ansys/Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* FractureTotalNumberOfCyclesProbe.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the current DataModelObject’s category.
 
@@ -181,7 +181,7 @@ Gets or sets the DisplayTime.
 
 <a id="FractureTotalNumberOfCyclesProbe.DpfEvaluation"></a>
 
-### *property* FractureTotalNumberOfCyclesProbe.DpfEvaluation *: [Ansys.Mechanical.DataModel.Enums.DpfEvaluationType](../../../../../../../v242/Ansys/Mechanical/DataModel/Enums/DpfEvaluationType.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.DpfEvaluationType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* FractureTotalNumberOfCyclesProbe.DpfEvaluation *: [Ansys.Mechanical.DataModel.Enums.DpfEvaluationType](../../../../../Mechanical/DataModel/Enums/DpfEvaluationType.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DpfEvaluationType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the DpfEvaluation.
 
@@ -189,7 +189,7 @@ Gets or sets the DpfEvaluation.
 
 <a id="FractureTotalNumberOfCyclesProbe.Figures"></a>
 
-### *property* FractureTotalNumberOfCyclesProbe.Figures *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Figure](../../Figure.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* FractureTotalNumberOfCyclesProbe.Figures *: Iterable[[Ansys.ACT.Automation.Mechanical.Figure](../../Figure.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated figures.
 
@@ -205,7 +205,7 @@ Gets or sets the GeometryLocation.
 
 <a id="FractureTotalNumberOfCyclesProbe.Images"></a>
 
-### *property* FractureTotalNumberOfCyclesProbe.Images *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Image](../../Image.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* FractureTotalNumberOfCyclesProbe.Images *: Iterable[[Ansys.ACT.Automation.Mechanical.Image](../../Image.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated images.
 
@@ -221,7 +221,7 @@ Gets the internal object. For advanced usage only.
 
 <a id="FractureTotalNumberOfCyclesProbe.IsSolved"></a>
 
-### *property* FractureTotalNumberOfCyclesProbe.IsSolved *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* FractureTotalNumberOfCyclesProbe.IsSolved *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the IsSolved.
 
@@ -229,7 +229,7 @@ Gets the IsSolved.
 
 <a id="FractureTotalNumberOfCyclesProbe.IterationNumber"></a>
 
-### *property* FractureTotalNumberOfCyclesProbe.IterationNumber *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* FractureTotalNumberOfCyclesProbe.IterationNumber *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the IterationNumber.
 
@@ -237,7 +237,7 @@ Gets the IterationNumber.
 
 <a id="FractureTotalNumberOfCyclesProbe.LoadStep"></a>
 
-### *property* FractureTotalNumberOfCyclesProbe.LoadStep *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* FractureTotalNumberOfCyclesProbe.LoadStep *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the LoadStep.
 
@@ -245,7 +245,7 @@ Gets the LoadStep.
 
 <a id="FractureTotalNumberOfCyclesProbe.LoadStepNumber"></a>
 
-### *property* FractureTotalNumberOfCyclesProbe.LoadStepNumber *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* FractureTotalNumberOfCyclesProbe.LoadStepNumber *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the LoadStepNumber.
 
@@ -253,7 +253,7 @@ Gets or sets the LoadStepNumber.
 
 <a id="FractureTotalNumberOfCyclesProbe.LocationMethod"></a>
 
-### *property* FractureTotalNumberOfCyclesProbe.LocationMethod *: [Ansys.Mechanical.DataModel.Enums.LocationDefinitionMethod](../../../../../../../v242/Ansys/Mechanical/DataModel/Enums/LocationDefinitionMethod.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.LocationDefinitionMethod) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* FractureTotalNumberOfCyclesProbe.LocationMethod *: [Ansys.Mechanical.DataModel.Enums.LocationDefinitionMethod](../../../../../Mechanical/DataModel/Enums/LocationDefinitionMethod.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.LocationDefinitionMethod) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the LocationMethod.
 
@@ -269,7 +269,7 @@ Gets the MaximumTotal.
 
 <a id="FractureTotalNumberOfCyclesProbe.MaximumValueOverTime"></a>
 
-### *property* FractureTotalNumberOfCyclesProbe.MaximumValueOverTime *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* FractureTotalNumberOfCyclesProbe.MaximumValueOverTime *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the MaximumValueOverTime.
 
@@ -317,7 +317,7 @@ Gets the MinimumTotal.
 
 <a id="FractureTotalNumberOfCyclesProbe.MinimumValueOverTime"></a>
 
-### *property* FractureTotalNumberOfCyclesProbe.MinimumValueOverTime *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* FractureTotalNumberOfCyclesProbe.MinimumValueOverTime *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the MinimumValueOverTime.
 
@@ -357,7 +357,7 @@ Gets or sets the Orientation. Accepts/Returns None if it is the Solution Coordin
 
 <a id="FractureTotalNumberOfCyclesProbe.Properties"></a>
 
-### *property* FractureTotalNumberOfCyclesProbe.Properties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* FractureTotalNumberOfCyclesProbe.Properties *: [tuple](https://docs.python.org/3/library/stdtypes.html#tuple)[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of properties for this object.
 
@@ -365,7 +365,7 @@ Gets the list of properties for this object.
 
 <a id="FractureTotalNumberOfCyclesProbe.RemotePointSelection"></a>
 
-### *property* FractureTotalNumberOfCyclesProbe.RemotePointSelection *: [Ansys.ACT.Automation.Mechanical.RemotePoint](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/RemotePoint.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.RemotePoint) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* FractureTotalNumberOfCyclesProbe.RemotePointSelection *: [Ansys.ACT.Automation.Mechanical.RemotePoint](../../RemotePoint.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.RemotePoint) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the RemotePointSelection.
 
@@ -373,7 +373,7 @@ Gets or sets the RemotePointSelection.
 
 <a id="FractureTotalNumberOfCyclesProbe.ResultProbeValue"></a>
 
-### *property* FractureTotalNumberOfCyclesProbe.ResultProbeValue *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* FractureTotalNumberOfCyclesProbe.ResultProbeValue *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the ResultProbeValue.
 
@@ -381,7 +381,7 @@ Gets the ResultProbeValue.
 
 <a id="FractureTotalNumberOfCyclesProbe.ResultSelection"></a>
 
-### *property* FractureTotalNumberOfCyclesProbe.ResultSelection *: [Ansys.Mechanical.DataModel.Enums.ProbeDisplayFilter](../../../../../../../v242/Ansys/Mechanical/DataModel/Enums/ProbeDisplayFilter.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.ProbeDisplayFilter) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* FractureTotalNumberOfCyclesProbe.ResultSelection *: [Ansys.Mechanical.DataModel.Enums.ProbeDisplayFilter](../../../../../Mechanical/DataModel/Enums/ProbeDisplayFilter.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.ProbeDisplayFilter) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the ResultSelection.
 
@@ -389,7 +389,7 @@ Gets or sets the ResultSelection.
 
 <a id="FractureTotalNumberOfCyclesProbe.SolverID"></a>
 
-### *property* FractureTotalNumberOfCyclesProbe.SolverID *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* FractureTotalNumberOfCyclesProbe.SolverID *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the SolverID.
 
@@ -397,7 +397,7 @@ Gets or sets the SolverID.
 
 <a id="FractureTotalNumberOfCyclesProbe.SpatialResolution"></a>
 
-### *property* FractureTotalNumberOfCyclesProbe.SpatialResolution *: [Ansys.Mechanical.DataModel.Enums.MinimumOrMaximum](../../../../../../../v242/Ansys/Mechanical/DataModel/Enums/MinimumOrMaximum.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.MinimumOrMaximum) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* FractureTotalNumberOfCyclesProbe.SpatialResolution *: [Ansys.Mechanical.DataModel.Enums.MinimumOrMaximum](../../../../../Mechanical/DataModel/Enums/MinimumOrMaximum.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.MinimumOrMaximum) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the SpatialResolution.
 
@@ -413,7 +413,7 @@ Gets or sets the SpringSelection.
 
 <a id="FractureTotalNumberOfCyclesProbe.Substep"></a>
 
-### *property* FractureTotalNumberOfCyclesProbe.Substep *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* FractureTotalNumberOfCyclesProbe.Substep *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the Substep.
 
@@ -421,7 +421,7 @@ Gets the Substep.
 
 <a id="FractureTotalNumberOfCyclesProbe.Summation"></a>
 
-### *property* FractureTotalNumberOfCyclesProbe.Summation *: [Ansys.Mechanical.DataModel.Enums.MomentsAtSummationPointType](../../../../../../../v242/Ansys/Mechanical/DataModel/Enums/MomentsAtSummationPointType.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.MomentsAtSummationPointType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* FractureTotalNumberOfCyclesProbe.Summation *: [Ansys.Mechanical.DataModel.Enums.MomentsAtSummationPointType](../../../../../Mechanical/DataModel/Enums/MomentsAtSummationPointType.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.MomentsAtSummationPointType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Summation.
 
@@ -429,7 +429,7 @@ Gets or sets the Summation.
 
 <a id="FractureTotalNumberOfCyclesProbe.Suppressed"></a>
 
-### *property* FractureTotalNumberOfCyclesProbe.Suppressed *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* FractureTotalNumberOfCyclesProbe.Suppressed *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Suppressed.
 
@@ -437,7 +437,7 @@ Gets or sets the Suppressed.
 
 <a id="FractureTotalNumberOfCyclesProbe.SurfaceSelection"></a>
 
-### *property* FractureTotalNumberOfCyclesProbe.SurfaceSelection *: [Ansys.ACT.Automation.Mechanical.Surface](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Surface.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Surface) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* FractureTotalNumberOfCyclesProbe.SurfaceSelection *: [Ansys.ACT.Automation.Mechanical.Surface](../../Surface.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Surface) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the MeshConnectionSelection.
 
@@ -461,7 +461,7 @@ Gets the Total.
 
 <a id="FractureTotalNumberOfCyclesProbe.Type"></a>
 
-### *property* FractureTotalNumberOfCyclesProbe.Type *: [Ansys.Mechanical.DataModel.Enums.ProbeResultType](../../../../../../../v242/Ansys/Mechanical/DataModel/Enums/ProbeResultType.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.ProbeResultType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* FractureTotalNumberOfCyclesProbe.Type *: [Ansys.Mechanical.DataModel.Enums.ProbeResultType](../../../../../Mechanical/DataModel/Enums/ProbeResultType.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.ProbeResultType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the Type.
 
@@ -469,7 +469,7 @@ Gets the Type.
 
 <a id="FractureTotalNumberOfCyclesProbe.VisibleProperties"></a>
 
-### *property* FractureTotalNumberOfCyclesProbe.VisibleProperties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* FractureTotalNumberOfCyclesProbe.VisibleProperties *: [tuple](https://docs.python.org/3/library/stdtypes.html#tuple)[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of properties that are visible for this object.
 
@@ -529,7 +529,7 @@ Creates a new child Figure.
 
 <a id="FractureTotalNumberOfCyclesProbe.AddImage"></a>
 
-### FractureTotalNumberOfCyclesProbe.AddImage(filePath: System.String)
+### FractureTotalNumberOfCyclesProbe.AddImage(filePath: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 ```text
 Creates a new child Image.
@@ -557,7 +557,7 @@ Copies all visible properties from this object to another.
 
 <a id="FractureTotalNumberOfCyclesProbe.CreateParameter"></a>
 
-### FractureTotalNumberOfCyclesProbe.CreateParameter(propName: System.String)
+### FractureTotalNumberOfCyclesProbe.CreateParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Creates a new parameter for a Property.
 
@@ -597,7 +597,7 @@ Run the EvaluateAllResults action.
 
 <a id="FractureTotalNumberOfCyclesProbe.ExportAnimation"></a>
 
-### FractureTotalNumberOfCyclesProbe.ExportAnimation(filePath: System.String, format: [Ansys.Mechanical.DataModel.Enums.GraphicsAnimationExportFormat](../../../../../../../v242/Ansys/Mechanical/DataModel/Enums/GraphicsAnimationExportFormat.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.GraphicsAnimationExportFormat), settings: [Ansys.Mechanical.Graphics.AnimationExportSettings](../../../../../../../v242/Ansys/Mechanical/Graphics/AnimationExportSettings.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.Graphics.AnimationExportSettings))
+### FractureTotalNumberOfCyclesProbe.ExportAnimation(filePath: [str](https://docs.python.org/3/library/stdtypes.html#str), format: [Ansys.Mechanical.DataModel.Enums.GraphicsAnimationExportFormat](../../../../../Mechanical/DataModel/Enums/GraphicsAnimationExportFormat.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.GraphicsAnimationExportFormat), settings: [Ansys.Mechanical.Graphics.AnimationExportSettings](../../../../../Mechanical/Graphics/AnimationExportSettings.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.Graphics.AnimationExportSettings))
 
 Run the ExportAnimation action.
 
@@ -605,7 +605,7 @@ Run the ExportAnimation action.
 
 <a id="FractureTotalNumberOfCyclesProbe.GetChildren"></a>
 
-### FractureTotalNumberOfCyclesProbe.GetChildren(recurses: System.Boolean, children: System.Collections.Generic.IList[ChildrenType])
+### FractureTotalNumberOfCyclesProbe.GetChildren(recurses: [bool](https://docs.python.org/3/library/functions.html#bool), children: List[ChildrenType])
 
 Gets the list of children, filtered by type.
 
@@ -613,7 +613,7 @@ Gets the list of children, filtered by type.
 
 <a id="FractureTotalNumberOfCyclesProbe.GetParameter"></a>
 
-### FractureTotalNumberOfCyclesProbe.GetParameter(propName: System.String)
+### FractureTotalNumberOfCyclesProbe.GetParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Gets the parameter corresponding to the given property.
 
@@ -637,7 +637,7 @@ Run the GroupSimilarObjects action.
 
 <a id="FractureTotalNumberOfCyclesProbe.PropertyByAPIName"></a>
 
-### FractureTotalNumberOfCyclesProbe.PropertyByAPIName(name: System.String)
+### FractureTotalNumberOfCyclesProbe.PropertyByAPIName(name: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 ```text
 Get a property by its API name.
@@ -648,7 +648,7 @@ If multiple properties have the same API Name, only the first property with that
 
 <a id="FractureTotalNumberOfCyclesProbe.PropertyByName"></a>
 
-### FractureTotalNumberOfCyclesProbe.PropertyByName(name: System.String)
+### FractureTotalNumberOfCyclesProbe.PropertyByName(name: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Get a property by its unique name.
 
@@ -656,7 +656,7 @@ Get a property by its unique name.
 
 <a id="FractureTotalNumberOfCyclesProbe.RemoveParameter"></a>
 
-### FractureTotalNumberOfCyclesProbe.RemoveParameter(propName: System.String)
+### FractureTotalNumberOfCyclesProbe.RemoveParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Removes the parameter from the parameter set corresponding to the given property.
 

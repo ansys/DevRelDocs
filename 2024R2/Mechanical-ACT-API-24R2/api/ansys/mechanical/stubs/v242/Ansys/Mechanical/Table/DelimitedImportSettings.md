@@ -18,7 +18,7 @@ for tabular data.
 ### Methods
 
 | Name | Description |
-|------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------|
+|-----------------------------------------------------------------------------------------------------|-------------------------------------------------------|
 | [`Clear`](#DelimitedImportSettings.Clear)                 |                                                       |
 | [`GetEnumerator`](#DelimitedImportSettings.GetEnumerator) |                                                       |
 | [`RemoveAt`](#DelimitedImportSettings.RemoveAt)           | Removes the import definition at the specified index. |
@@ -27,12 +27,12 @@ for tabular data.
 ### Properties
 
 | Name | Description |
-|------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------|
+|-----------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------|
 | [`Count`](#DelimitedImportSettings.Count)           | Gets the number of column definitions.                                               |
 | [`Delimiter`](#DelimitedImportSettings.Delimiter)   | The delimiter used to separate columns.                                              |
 | [`Format`](#DelimitedImportSettings.Format)         | Gets the existing corresponding format.                                              |
 | [`Item`](#DelimitedImportSettings.Item)             | Item property.                                                                       |
-| [`PathType`](#DelimitedImportSettings.PathType)            | Gets or sets the type of URI provided for Table import.                              |
+| [`PathType`](#DelimitedImportSettings.PathType)                                               | Gets or sets the type of URI provided for Table import.                              |
 | [`SkipFooter`](#DelimitedImportSettings.SkipFooter) | Gets or sets the number of rows to ignore at the end of the file during import.      |
 | [`SkipRows`](#DelimitedImportSettings.SkipRows)     | Gets or sets the number of rows to skip over at the start of the file during import. |
 
@@ -42,7 +42,7 @@ for tabular data.
 
 <a id="DelimitedImportSettings.Count"></a>
 
-### *property* DelimitedImportSettings.Count *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* DelimitedImportSettings.Count *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the number of column definitions.
 
@@ -50,7 +50,7 @@ Gets the number of column definitions.
 
 <a id="DelimitedImportSettings.Delimiter"></a>
 
-### *property* DelimitedImportSettings.Delimiter *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* DelimitedImportSettings.Delimiter *: [str](https://docs.python.org/3/library/stdtypes.html#str) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 The delimiter used to separate columns.
 
@@ -83,7 +83,7 @@ Default: F:Ansys.Mechanical.DataModel.MechanicalEnums.Common.PathType.Absolute
 
 <a id="DelimitedImportSettings.SkipFooter"></a>
 
-### *property* DelimitedImportSettings.SkipFooter *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* DelimitedImportSettings.SkipFooter *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the number of rows to ignore at the end of the file during import.
 
@@ -91,7 +91,7 @@ Gets or sets the number of rows to ignore at the end of the file during import.
 
 <a id="DelimitedImportSettings.SkipRows"></a>
 
-### *property* DelimitedImportSettings.SkipRows *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* DelimitedImportSettings.SkipRows *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the number of rows to skip over at the start of the file during import.
 
@@ -111,7 +111,7 @@ Gets or sets the number of rows to skip over at the start of the file during imp
 
 <a id="DelimitedImportSettings.RemoveAt"></a>
 
-### DelimitedImportSettings.RemoveAt(index: System.Int32)
+### DelimitedImportSettings.RemoveAt(index: [int](https://docs.python.org/3/library/functions.html#int))
 
 Removes the import definition at the specified index.
 
@@ -119,7 +119,7 @@ Removes the import definition at the specified index.
 
 <a id="DelimitedImportSettings.UseColumn"></a>
 
-### DelimitedImportSettings.UseColumn(index: System.Int32, variableType: [Ansys.Mechanical.DataModel.MechanicalEnums.Table.VariableType](../DataModel/MechanicalEnums/Table/VariableType.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.MechanicalEnums.Table.VariableType), variableClassification: [Ansys.Mechanical.DataModel.MechanicalEnums.Table.VariableClassification](../DataModel/MechanicalEnums/Table/VariableClassification.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.MechanicalEnums.Table.VariableClassification), unit: System.String, name: System.String)
+### DelimitedImportSettings.UseColumn(index: [int](https://docs.python.org/3/library/functions.html#int), variableType: [Ansys.Mechanical.DataModel.MechanicalEnums.Table.VariableType](../DataModel/MechanicalEnums/Table/VariableType.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.MechanicalEnums.Table.VariableType), variableClassification: [Ansys.Mechanical.DataModel.MechanicalEnums.Table.VariableClassification](../DataModel/MechanicalEnums/Table/VariableClassification.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.MechanicalEnums.Table.VariableClassification), unit: [str](https://docs.python.org/3/library/stdtypes.html#str), name: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 <!-- !! processed by numpydoc !! -->
 

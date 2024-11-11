@@ -91,7 +91,7 @@ Defines a Displacement.
 
 <a id="Displacement.AbsoluteResult"></a>
 
-### *property* Displacement.AbsoluteResult *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Displacement.AbsoluteResult *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the AbsoluteResult.
 
@@ -99,7 +99,7 @@ Gets or sets the AbsoluteResult.
 
 <a id="Displacement.BaseExcitation"></a>
 
-### *property* Displacement.BaseExcitation *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Displacement.BaseExcitation *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the BaseExcitation.
 
@@ -107,7 +107,7 @@ Gets or sets the BaseExcitation.
 
 <a id="Displacement.BoundaryCondition"></a>
 
-### *property* Displacement.BoundaryCondition *: System.Object | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Displacement.BoundaryCondition *: Any | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the BoundaryCondition.
 
@@ -115,7 +115,7 @@ Gets or sets the BoundaryCondition.
 
 <a id="Displacement.Children"></a>
 
-### *property* Displacement.Children *: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Displacement.Children *: List[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of children.
 
@@ -123,7 +123,7 @@ Gets the list of children.
 
 <a id="Displacement.Comments"></a>
 
-### *property* Displacement.Comments *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Comment](../../../../../../v241/Ansys/ACT/Automation/Mechanical/Comment.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Displacement.Comments *: Iterable[[Ansys.ACT.Automation.Mechanical.Comment](../Comment.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated comments.
 
@@ -131,7 +131,7 @@ Gets the list of associated comments.
 
 <a id="Displacement.CoordinateSystem"></a>
 
-### *property* Displacement.CoordinateSystem *: [Ansys.ACT.Automation.Mechanical.CoordinateSystem](../../../../../../v241/Ansys/ACT/Automation/Mechanical/CoordinateSystem.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.CoordinateSystem) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Displacement.CoordinateSystem *: [Ansys.ACT.Automation.Mechanical.CoordinateSystem](../CoordinateSystem.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.CoordinateSystem) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the CoordinateSystem.
 
@@ -179,7 +179,7 @@ Gets or sets the DynamicRelaxationBehavior.
 
 <a id="Displacement.Figures"></a>
 
-### *property* Displacement.Figures *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Figure](../../../../../../v241/Ansys/ACT/Automation/Mechanical/Figure.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Displacement.Figures *: Iterable[[Ansys.ACT.Automation.Mechanical.Figure](../Figure.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated figures.
 
@@ -195,7 +195,7 @@ Gets or sets the GraphControlsXAxis.
 
 <a id="Displacement.Images"></a>
 
-### *property* Displacement.Images *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Image](../../../../../../v241/Ansys/ACT/Automation/Mechanical/Image.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Displacement.Images *: Iterable[[Ansys.ACT.Automation.Mechanical.Image](../Image.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated images.
 
@@ -235,7 +235,7 @@ Gets the MagnitudeImag.
 
 <a id="Displacement.NumberOfSegments"></a>
 
-### *property* Displacement.NumberOfSegments *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Displacement.NumberOfSegments *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the NumberOfSegments.
 
@@ -251,7 +251,7 @@ Gets the PhaseAngle.
 
 <a id="Displacement.Properties"></a>
 
-### *property* Displacement.Properties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Displacement.Properties *: [tuple](https://docs.python.org/3/library/stdtypes.html#tuple)[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of properties for this object.
 
@@ -275,7 +275,7 @@ Gets or sets the RangeMinimum.
 
 <a id="Displacement.ReadOnly"></a>
 
-### *property* Displacement.ReadOnly *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Displacement.ReadOnly *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the ReadOnly.
 
@@ -283,7 +283,7 @@ Gets or sets the ReadOnly.
 
 <a id="Displacement.ReverseDirectionForInverseSteps"></a>
 
-### *property* Displacement.ReverseDirectionForInverseSteps *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Displacement.ReverseDirectionForInverseSteps *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the ReverseDirectionForInverseSteps.
 
@@ -299,7 +299,7 @@ Gets or sets the RpmSelection.
 
 <a id="Displacement.SharedRefBody"></a>
 
-### *property* Displacement.SharedRefBody *: [Ansys.ACT.Automation.Mechanical.Body](../../../../../../v241/Ansys/ACT/Automation/Mechanical/Body.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Body) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Displacement.SharedRefBody *: [Ansys.ACT.Automation.Mechanical.Body](../Body.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Body) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the SharedRefBody.
 
@@ -307,7 +307,7 @@ Gets or sets the SharedRefBody.
 
 <a id="Displacement.StepSelection"></a>
 
-### *property* Displacement.StepSelection *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Displacement.StepSelection *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the StepSelection.
 
@@ -323,7 +323,7 @@ Gets or sets the StepVarying.
 
 <a id="Displacement.Suppressed"></a>
 
-### *property* Displacement.Suppressed *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Displacement.Suppressed *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Suppressed.
 
@@ -331,7 +331,7 @@ Gets or sets the Suppressed.
 
 <a id="Displacement.VisibleProperties"></a>
 
-### *property* Displacement.VisibleProperties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Displacement.VisibleProperties *: [tuple](https://docs.python.org/3/library/stdtypes.html#tuple)[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of properties that are visible for this object.
 
@@ -363,7 +363,7 @@ Gets the XPhaseAngle.
 
 <a id="Displacement.XYZFunctionCoordinateSystem"></a>
 
-### *property* Displacement.XYZFunctionCoordinateSystem *: [Ansys.ACT.Automation.Mechanical.CoordinateSystem](../../../../../../v241/Ansys/ACT/Automation/Mechanical/CoordinateSystem.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.CoordinateSystem) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Displacement.XYZFunctionCoordinateSystem *: [Ansys.ACT.Automation.Mechanical.CoordinateSystem](../CoordinateSystem.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.CoordinateSystem) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the XYZFunctionCoordinateSystem.
 
@@ -447,7 +447,7 @@ Creates a new child Figure.
 
 <a id="Displacement.AddImage"></a>
 
-### Displacement.AddImage(filePath: System.String)
+### Displacement.AddImage(filePath: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 ```text
 Creates a new child Image.
@@ -467,7 +467,7 @@ Copies all visible properties from this object to another.
 
 <a id="Displacement.CreateParameter"></a>
 
-### Displacement.CreateParameter(propName: System.String)
+### Displacement.CreateParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Creates a new parameter for a Property.
 
@@ -491,7 +491,7 @@ Creates a copy of the current DataModelObject.
 
 <a id="Displacement.GetActivateAtLoadStep"></a>
 
-### Displacement.GetActivateAtLoadStep(stepNumber: System.UInt32)
+### Displacement.GetActivateAtLoadStep(stepNumber: [int](https://docs.python.org/3/library/functions.html#int))
 
 GetActivateAtLoadStep method.
 
@@ -499,7 +499,7 @@ GetActivateAtLoadStep method.
 
 <a id="Displacement.GetChildren"></a>
 
-### Displacement.GetChildren(recurses: System.Boolean, children: System.Collections.Generic.IList[ChildrenType])
+### Displacement.GetChildren(recurses: [bool](https://docs.python.org/3/library/functions.html#bool), children: List[ChildrenType])
 
 Gets the list of children, filtered by type.
 
@@ -507,7 +507,7 @@ Gets the list of children, filtered by type.
 
 <a id="Displacement.GetComponentActivateAtLoadStep"></a>
 
-### Displacement.GetComponentActivateAtLoadStep(component: System.String, stepNumber: System.UInt32)
+### Displacement.GetComponentActivateAtLoadStep(component: [str](https://docs.python.org/3/library/stdtypes.html#str), stepNumber: [int](https://docs.python.org/3/library/functions.html#int))
 
 GetComponentActivateAtLoadStep method.
 
@@ -515,7 +515,7 @@ GetComponentActivateAtLoadStep method.
 
 <a id="Displacement.GetParameter"></a>
 
-### Displacement.GetParameter(propName: System.String)
+### Displacement.GetParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Gets the parameter corresponding to the given property.
 
@@ -547,7 +547,7 @@ Run the PromoteToNamedSelection action.
 
 <a id="Displacement.PropertyByAPIName"></a>
 
-### Displacement.PropertyByAPIName(name: System.String)
+### Displacement.PropertyByAPIName(name: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 ```text
 Get a property by its API name.
@@ -558,7 +558,7 @@ If multiple properties have the same API Name, only the first property with that
 
 <a id="Displacement.PropertyByName"></a>
 
-### Displacement.PropertyByName(name: System.String)
+### Displacement.PropertyByName(name: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Get a property by its unique name.
 
@@ -566,7 +566,7 @@ Get a property by its unique name.
 
 <a id="Displacement.RemoveParameter"></a>
 
-### Displacement.RemoveParameter(propName: System.String)
+### Displacement.RemoveParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Removes the parameter from the parameter set corresponding to the given property.
 
@@ -574,7 +574,7 @@ Removes the parameter from the parameter set corresponding to the given property
 
 <a id="Displacement.SetActivateAtLoadStep"></a>
 
-### Displacement.SetActivateAtLoadStep(stepNumber: System.UInt32, bActive: System.Boolean)
+### Displacement.SetActivateAtLoadStep(stepNumber: [int](https://docs.python.org/3/library/functions.html#int), bActive: [bool](https://docs.python.org/3/library/functions.html#bool))
 
 SetActivateAtLoadStep method.
 
@@ -582,7 +582,7 @@ SetActivateAtLoadStep method.
 
 <a id="Displacement.SetComponentActivateAtLoadStep"></a>
 
-### Displacement.SetComponentActivateAtLoadStep(component: System.String, stepNumber: System.UInt32, bActive: System.Boolean)
+### Displacement.SetComponentActivateAtLoadStep(component: [str](https://docs.python.org/3/library/stdtypes.html#str), stepNumber: [int](https://docs.python.org/3/library/functions.html#int), bActive: [bool](https://docs.python.org/3/library/functions.html#bool))
 
 SetComponentActivateAtLoadStep method.
 

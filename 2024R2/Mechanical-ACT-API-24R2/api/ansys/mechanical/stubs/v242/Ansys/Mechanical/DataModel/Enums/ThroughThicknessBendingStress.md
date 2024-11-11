@@ -17,7 +17,7 @@ Specifies the ThroughThicknessBendingStress.
 ### Attributes
 
 | Name |
-| -------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| ------------------------------------------------------------------------------------- |
 | [`Ignore`](#ThroughThicknessBendingStress.Ignore) |
 | [`Include`](#ThroughThicknessBendingStress.Include) |
 | [`IncludeUsingYDirFormula`](#ThroughThicknessBendingStress.IncludeUsingYDirFormula) |

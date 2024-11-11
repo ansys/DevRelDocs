@@ -17,7 +17,7 @@ Defines a DistributedMass.
 ### Methods
 
 | Name | Description |
-|---------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------|
+|-----------------------------------------------------------------------|-----------------------------------------------------------------------------------|
 | [`Activate`](#DistributedMass.Activate)                               | Activate the current object.                                                      |
 | [`AddCommandSnippet`](#DistributedMass.AddCommandSnippet)             | Creates a new CommandSnippet                                                      |
 | [`AddComment`](#DistributedMass.AddComment)                           | Creates a new child Comment.                                                      |
@@ -38,7 +38,7 @@ Defines a DistributedMass.
 ### Properties
 
 | Name | Description |
-|---------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------|
+|-----------------------------------------------------------------------|---------------------------------------------------------------|
 | [`Children`](#DistributedMass.Children)                               | Gets the list of children.                                    |
 | [`Comments`](#DistributedMass.Comments)                               | Gets the list of associated comments.                         |
 | [`DataModelObjectCategory`](#DistributedMass.DataModelObjectCategory) | Gets the current DataModelObject’s category.                  |
@@ -63,7 +63,7 @@ Defines a DistributedMass.
 
 <a id="DistributedMass.Children"></a>
 
-### *property* DistributedMass.Children *: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* DistributedMass.Children *: List[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of children.
 
@@ -71,7 +71,7 @@ Gets the list of children.
 
 <a id="DistributedMass.Comments"></a>
 
-### *property* DistributedMass.Comments *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Comment](Comment.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* DistributedMass.Comments *: Iterable[[Ansys.ACT.Automation.Mechanical.Comment](Comment.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated comments.
 
@@ -79,7 +79,7 @@ Gets the list of associated comments.
 
 <a id="DistributedMass.DataModelObjectCategory"></a>
 
-### *property* DistributedMass.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../v242/Ansys/Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* DistributedMass.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the current DataModelObject’s category.
 
@@ -87,7 +87,7 @@ Gets the current DataModelObject’s category.
 
 <a id="DistributedMass.ElementAPDLName"></a>
 
-### *property* DistributedMass.ElementAPDLName *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* DistributedMass.ElementAPDLName *: [str](https://docs.python.org/3/library/stdtypes.html#str) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the ElementAPDLName.
 
@@ -95,7 +95,7 @@ Gets or sets the ElementAPDLName.
 
 <a id="DistributedMass.Figures"></a>
 
-### *property* DistributedMass.Figures *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Figure](Figure.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* DistributedMass.Figures *: Iterable[[Ansys.ACT.Automation.Mechanical.Figure](Figure.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated figures.
 
@@ -103,7 +103,7 @@ Gets the list of associated figures.
 
 <a id="DistributedMass.Images"></a>
 
-### *property* DistributedMass.Images *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Image](Image.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* DistributedMass.Images *: Iterable[[Ansys.ACT.Automation.Mechanical.Image](Image.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated images.
 
@@ -119,7 +119,7 @@ Gets the internal object. For advanced usage only.
 
 <a id="DistributedMass.IsDistributedMass"></a>
 
-### *property* DistributedMass.IsDistributedMass *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* DistributedMass.IsDistributedMass *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the IsDistributedMass.
 
@@ -143,7 +143,7 @@ Gets or sets the MassPerUnitArea.
 
 <a id="DistributedMass.MassType"></a>
 
-### *property* DistributedMass.MassType *: [Ansys.Mechanical.DataModel.Enums.DistributedMassInputType](../../../../../v242/Ansys/Mechanical/DataModel/Enums/DistributedMassInputType.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.DistributedMassInputType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* DistributedMass.MassType *: [Ansys.Mechanical.DataModel.Enums.DistributedMassInputType](../../../Mechanical/DataModel/Enums/DistributedMassInputType.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DistributedMassInputType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the MassType.
 
@@ -151,7 +151,7 @@ Gets or sets the MassType.
 
 <a id="DistributedMass.Properties"></a>
 
-### *property* DistributedMass.Properties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* DistributedMass.Properties *: [tuple](https://docs.python.org/3/library/stdtypes.html#tuple)[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of properties for this object.
 
@@ -159,7 +159,7 @@ Gets the list of properties for this object.
 
 <a id="DistributedMass.ReadOnly"></a>
 
-### *property* DistributedMass.ReadOnly *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* DistributedMass.ReadOnly *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the ReadOnly.
 
@@ -167,7 +167,7 @@ Gets or sets the ReadOnly.
 
 <a id="DistributedMass.RemotePoint"></a>
 
-### *property* DistributedMass.RemotePoint *: [Ansys.ACT.Automation.Mechanical.RemotePoint](../../../../../v242/Ansys/ACT/Automation/Mechanical/RemotePoint.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.RemotePoint) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* DistributedMass.RemotePoint *: [Ansys.ACT.Automation.Mechanical.RemotePoint](RemotePoint.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.RemotePoint) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the remote point associated to the point mass.
 
@@ -175,7 +175,7 @@ Gets the remote point associated to the point mass.
 
 <a id="DistributedMass.Suppressed"></a>
 
-### *property* DistributedMass.Suppressed *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* DistributedMass.Suppressed *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Suppressed.
 
@@ -191,7 +191,7 @@ Gets or sets the TotalMass.
 
 <a id="DistributedMass.VisibleProperties"></a>
 
-### *property* DistributedMass.VisibleProperties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* DistributedMass.VisibleProperties *: [tuple](https://docs.python.org/3/library/stdtypes.html#tuple)[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of properties that are visible for this object.
 
@@ -235,7 +235,7 @@ Creates a new child Figure.
 
 <a id="DistributedMass.AddImage"></a>
 
-### DistributedMass.AddImage(filePath: System.String)
+### DistributedMass.AddImage(filePath: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 ```text
 Creates a new child Image.
@@ -255,7 +255,7 @@ Copies all visible properties from this object to another.
 
 <a id="DistributedMass.CreateParameter"></a>
 
-### DistributedMass.CreateParameter(propName: System.String)
+### DistributedMass.CreateParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Creates a new parameter for a Property.
 
@@ -279,7 +279,7 @@ Creates a copy of the current DataModelObject.
 
 <a id="DistributedMass.GetChildren"></a>
 
-### DistributedMass.GetChildren(recurses: System.Boolean, children: System.Collections.Generic.IList[ChildrenType])
+### DistributedMass.GetChildren(recurses: [bool](https://docs.python.org/3/library/functions.html#bool), children: List[ChildrenType])
 
 Gets the list of children, filtered by type.
 
@@ -287,7 +287,7 @@ Gets the list of children, filtered by type.
 
 <a id="DistributedMass.GetParameter"></a>
 
-### DistributedMass.GetParameter(propName: System.String)
+### DistributedMass.GetParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Gets the parameter corresponding to the given property.
 
@@ -311,7 +311,7 @@ Run the GroupSimilarObjects action.
 
 <a id="DistributedMass.PropertyByAPIName"></a>
 
-### DistributedMass.PropertyByAPIName(name: System.String)
+### DistributedMass.PropertyByAPIName(name: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 ```text
 Get a property by its API name.
@@ -322,7 +322,7 @@ If multiple properties have the same API Name, only the first property with that
 
 <a id="DistributedMass.PropertyByName"></a>
 
-### DistributedMass.PropertyByName(name: System.String)
+### DistributedMass.PropertyByName(name: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Get a property by its unique name.
 
@@ -330,7 +330,7 @@ Get a property by its unique name.
 
 <a id="DistributedMass.RemoveParameter"></a>
 
-### DistributedMass.RemoveParameter(propName: System.String)
+### DistributedMass.RemoveParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Removes the parameter from the parameter set corresponding to the given property.
 

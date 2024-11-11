@@ -17,7 +17,7 @@ Command repository.
 ### Methods
 
 | Name | Description |
-|-------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------|
+|-------------------------------------------------------------------|----------------------------------------------------------------------------------------------------|
 | [`GetCommandByIndex`](#CommandRepository.GetCommandByIndex)       | Gets the commands by index.                                                                        |
 | [`GetCommandName`](#CommandRepository.GetCommandName)             | Gets the name of commands of a type specified by params eCommandsType and index in the repository. |
 | [`GetCommandNames`](#CommandRepository.GetCommandNames)           | Gets the command names of a type specified by params eCommandsType and index in the repository.    |
@@ -30,7 +30,7 @@ Command repository.
 
 <a id="CommandRepository.GetCommandByIndex"></a>
 
-### CommandRepository.GetCommandByIndex(index: System.Int32)
+### CommandRepository.GetCommandByIndex(index: [int](https://docs.python.org/3/library/functions.html#int))
 
 Gets the commands by index.
 
@@ -38,7 +38,7 @@ Gets the commands by index.
 
 <a id="CommandRepository.GetCommandName"></a>
 
-### CommandRepository.GetCommandName(eCommandsType: [Ansys.ACT.Automation.Mechanical.FE.CommandsType](CommandsType.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.FE.CommandsType), index: System.Int32)
+### CommandRepository.GetCommandName(eCommandsType: [Ansys.ACT.Automation.Mechanical.FE.CommandsType](CommandsType.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.FE.CommandsType), index: [int](https://docs.python.org/3/library/functions.html#int))
 
 Gets the name of commands of a type specified by params eCommandsType and index in the repository.
 
@@ -62,7 +62,7 @@ Gets the number of commands of a type specified by param=eCommandsType in the re
 
 <a id="CommandRepository.GetCommandsByName"></a>
 
-### CommandRepository.GetCommandsByName(name: System.String)
+### CommandRepository.GetCommandsByName(name: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Gets the commands by name.
 

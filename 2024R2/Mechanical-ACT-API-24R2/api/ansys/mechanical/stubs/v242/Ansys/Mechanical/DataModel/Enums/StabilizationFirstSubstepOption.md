@@ -17,7 +17,7 @@ Specifies the StabilizationFirstSubstepOption.
 ### Attributes
 
 | Name |
-| ---------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| ------------------------------------------------------------------------- |
 | [`No`](#StabilizationFirstSubstepOption.No) |
 | [`OnNonConvergence`](#StabilizationFirstSubstepOption.OnNonConvergence) |
 | [`Yes`](#StabilizationFirstSubstepOption.Yes) |

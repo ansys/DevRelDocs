@@ -17,7 +17,7 @@ Specifies the AMBaseRemovalType.
 ### Attributes
 
 | Name |
-| ------------------------------------------------------------------------------------------------------------------------------ |
+| ----------------------------------------------------- |
 | [`Directional`](#AMBaseRemovalType.Directional) |
 | [`Instantaneous`](#AMBaseRemovalType.Instantaneous) |
 

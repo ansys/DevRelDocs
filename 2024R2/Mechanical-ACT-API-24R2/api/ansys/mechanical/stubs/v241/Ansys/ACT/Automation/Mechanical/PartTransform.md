@@ -67,7 +67,7 @@ Defines a PartTransform.
 
 <a id="PartTransform.Children"></a>
 
-### *property* PartTransform.Children *: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* PartTransform.Children *: List[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of children.
 
@@ -75,7 +75,7 @@ Gets the list of children.
 
 <a id="PartTransform.Comments"></a>
 
-### *property* PartTransform.Comments *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Comment](Comment.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* PartTransform.Comments *: Iterable[[Ansys.ACT.Automation.Mechanical.Comment](Comment.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated comments.
 
@@ -91,7 +91,7 @@ Gets or sets the CoordinateSystem.
 
 <a id="PartTransform.DataModelObjectCategory"></a>
 
-### *property* PartTransform.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../v242/Ansys/Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* PartTransform.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the current DataModelObject’s category.
 
@@ -99,7 +99,7 @@ Gets the current DataModelObject’s category.
 
 <a id="PartTransform.DefineBy"></a>
 
-### *property* PartTransform.DefineBy *: [Ansys.Mechanical.DataModel.Enums.PartTransformationDefinitionType](../../../../../v242/Ansys/Mechanical/DataModel/Enums/PartTransformationDefinitionType.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.PartTransformationDefinitionType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* PartTransform.DefineBy *: [Ansys.Mechanical.DataModel.Enums.PartTransformationDefinitionType](../../../Mechanical/DataModel/Enums/PartTransformationDefinitionType.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.PartTransformationDefinitionType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the DefineBy.
 
@@ -107,7 +107,7 @@ Gets or sets the DefineBy.
 
 <a id="PartTransform.Figures"></a>
 
-### *property* PartTransform.Figures *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Figure](Figure.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* PartTransform.Figures *: Iterable[[Ansys.ACT.Automation.Mechanical.Figure](Figure.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated figures.
 
@@ -115,7 +115,7 @@ Gets the list of associated figures.
 
 <a id="PartTransform.Images"></a>
 
-### *property* PartTransform.Images *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Image](Image.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* PartTransform.Images *: Iterable[[Ansys.ACT.Automation.Mechanical.Image](Image.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated images.
 
@@ -139,7 +139,7 @@ Gets or sets the Location.
 
 <a id="PartTransform.Properties"></a>
 
-### *property* PartTransform.Properties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* PartTransform.Properties *: [tuple](https://docs.python.org/3/library/stdtypes.html#tuple)[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of properties for this object.
 
@@ -171,7 +171,7 @@ Gets or sets the RotationZ.
 
 <a id="PartTransform.ScopingMethod"></a>
 
-### *property* PartTransform.ScopingMethod *: [Ansys.Mechanical.DataModel.Enums.GeometryDefineByType](../../../../../v242/Ansys/Mechanical/DataModel/Enums/GeometryDefineByType.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.GeometryDefineByType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* PartTransform.ScopingMethod *: [Ansys.Mechanical.DataModel.Enums.GeometryDefineByType](../../../Mechanical/DataModel/Enums/GeometryDefineByType.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.GeometryDefineByType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the ScopingMethod.
 
@@ -187,7 +187,7 @@ Gets or sets the SourceCoordinateSystem.
 
 <a id="PartTransform.Suppressed"></a>
 
-### *property* PartTransform.Suppressed *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* PartTransform.Suppressed *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Suppressed.
 
@@ -227,7 +227,7 @@ Gets or sets the TranslationZ.
 
 <a id="PartTransform.VisibleProperties"></a>
 
-### *property* PartTransform.VisibleProperties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* PartTransform.VisibleProperties *: [tuple](https://docs.python.org/3/library/stdtypes.html#tuple)[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of properties that are visible for this object.
 
@@ -263,7 +263,7 @@ Creates a new child Figure.
 
 <a id="PartTransform.AddImage"></a>
 
-### PartTransform.AddImage(filePath: System.String)
+### PartTransform.AddImage(filePath: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 ```text
 Creates a new child Image.
@@ -283,7 +283,7 @@ Copies all visible properties from this object to another.
 
 <a id="PartTransform.CreateParameter"></a>
 
-### PartTransform.CreateParameter(propName: System.String)
+### PartTransform.CreateParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Creates a new parameter for a Property.
 
@@ -307,7 +307,7 @@ Creates a copy of the current DataModelObject.
 
 <a id="PartTransform.GetChildren"></a>
 
-### PartTransform.GetChildren(recurses: System.Boolean, children: System.Collections.Generic.IList[ChildrenType])
+### PartTransform.GetChildren(recurses: [bool](https://docs.python.org/3/library/functions.html#bool), children: List[ChildrenType])
 
 Gets the list of children, filtered by type.
 
@@ -315,7 +315,7 @@ Gets the list of children, filtered by type.
 
 <a id="PartTransform.GetParameter"></a>
 
-### PartTransform.GetParameter(propName: System.String)
+### PartTransform.GetParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Gets the parameter corresponding to the given property.
 
@@ -339,7 +339,7 @@ Run the GroupSimilarObjects action.
 
 <a id="PartTransform.PropertyByAPIName"></a>
 
-### PartTransform.PropertyByAPIName(name: System.String)
+### PartTransform.PropertyByAPIName(name: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 ```text
 Get a property by its API name.
@@ -350,7 +350,7 @@ If multiple properties have the same API Name, only the first property with that
 
 <a id="PartTransform.PropertyByName"></a>
 
-### PartTransform.PropertyByName(name: System.String)
+### PartTransform.PropertyByName(name: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Get a property by its unique name.
 
@@ -358,7 +358,7 @@ Get a property by its unique name.
 
 <a id="PartTransform.RemoveParameter"></a>
 
-### PartTransform.RemoveParameter(propName: System.String)
+### PartTransform.RemoveParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Removes the parameter from the parameter set corresponding to the given property.
 

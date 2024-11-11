@@ -17,7 +17,7 @@ Defines a ShapeFinder.
 ### Methods
 
 | Name | Description |
-|------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------|
+|-------------------------------------------------------------------|-----------------------------------------------------------------------------------|
 | [`Activate`](#ShapeFinder.Activate)                               | Activate the current object.                                                      |
 | [`AddAlert`](#ShapeFinder.AddAlert)                               | Creates a new Alert                                                               |
 | [`AddComment`](#ShapeFinder.AddComment)                           | Creates a new child Comment.                                                      |
@@ -48,7 +48,7 @@ Defines a ShapeFinder.
 ### Properties
 
 | Name | Description |
-|--------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------|
+|---------------------------------------------------------------------------------------|------------------------------------------------------------------------|
 | [`Average`](#ShapeFinder.Average)                                                     | Gets the Average.                                                      |
 | [`By`](#ShapeFinder.By)                                                               | Gets or sets the By.                                                   |
 | [`CalculateTimeHistory`](#ShapeFinder.CalculateTimeHistory)                           | Gets or sets the CalculateTimeHistory.                                 |
@@ -96,14 +96,14 @@ Defines a ShapeFinder.
 | [`Substep`](#ShapeFinder.Substep)                                                     | Gets the Substep.                                                      |
 | [`Suppressed`](#ShapeFinder.Suppressed)                                               | Gets or sets the Suppressed.                                           |
 | [`Surface`](#ShapeFinder.Surface)                                                     | Surface property.                                                      |
-| [`SurfaceCoating`](#ShapeFinder.SurfaceCoating)                                                                                                                    | SurfaceCoating property.                                               |
+| [`SurfaceCoating`](#ShapeFinder.SurfaceCoating)                                       | SurfaceCoating property.                                               |
 | [`Time`](#ShapeFinder.Time)                                                           | Gets the Time.                                                         |
 | [`TimeForMaximumOfMaximumValues`](#ShapeFinder.TimeForMaximumOfMaximumValues)         | Get the Time for the maximum of maximum values.                        |
 | [`TimeForMaximumOfMinimumValues`](#ShapeFinder.TimeForMaximumOfMinimumValues)         | Get the Time for the maximum of minimum values.                        |
 | [`TimeForMinimumOfMaximumValues`](#ShapeFinder.TimeForMinimumOfMaximumValues)         | Get the Time for the minimum of maximum values.                        |
 | [`TimeForMinimumOfMinimumValues`](#ShapeFinder.TimeForMinimumOfMinimumValues)         | Get the Time for the minimum of minimum values.                        |
 | [`VisibleProperties`](#ShapeFinder.VisibleProperties)                                 | Gets the list of properties that are visible for this object.          |
-| [`WaterfallShowTextOnMosaic`](#ShapeFinder.WaterfallShowTextOnMosaic)                                                                                              | Gets or sets the Waterfall Mosaic Text Property.                       |
+| [`WaterfallShowTextOnMosaic`](#ShapeFinder.WaterfallShowTextOnMosaic)                 | Gets or sets the Waterfall Mosaic Text Property.                       |
 
 <a id="property-detail"></a>
 
@@ -127,7 +127,7 @@ Gets or sets the By.
 
 <a id="ShapeFinder.CalculateTimeHistory"></a>
 
-### *property* ShapeFinder.CalculateTimeHistory *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ShapeFinder.CalculateTimeHistory *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the CalculateTimeHistory.
 
@@ -135,7 +135,7 @@ Gets or sets the CalculateTimeHistory.
 
 <a id="ShapeFinder.Children"></a>
 
-### *property* ShapeFinder.Children *: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ShapeFinder.Children *: List[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of children.
 
@@ -143,7 +143,7 @@ Gets the list of children.
 
 <a id="ShapeFinder.CombinationNumber"></a>
 
-### *property* ShapeFinder.CombinationNumber *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ShapeFinder.CombinationNumber *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Combination Number for a Solution Combination result.
 
@@ -151,7 +151,7 @@ Gets or sets the Combination Number for a Solution Combination result.
 
 <a id="ShapeFinder.Comments"></a>
 
-### *property* ShapeFinder.Comments *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Comment](../../../../../../v241/Ansys/ACT/Automation/Mechanical/Comment.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ShapeFinder.Comments *: Iterable[[Ansys.ACT.Automation.Mechanical.Comment](../Comment.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated comments.
 
@@ -159,7 +159,7 @@ Gets the list of associated comments.
 
 <a id="ShapeFinder.CoordinateSystem"></a>
 
-### *property* ShapeFinder.CoordinateSystem *: [Ansys.ACT.Automation.Mechanical.CoordinateSystem](../../../../../../v241/Ansys/ACT/Automation/Mechanical/CoordinateSystem.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.CoordinateSystem) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ShapeFinder.CoordinateSystem *: [Ansys.ACT.Automation.Mechanical.CoordinateSystem](../CoordinateSystem.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.CoordinateSystem) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Coordinate System.
 Accepts/Returns None for Solution Coordinate System in the general case (if applicable).
@@ -169,7 +169,7 @@ Accepts/Returns None for Fiber Coordinate System for a result that is sub scoped
 
 <a id="ShapeFinder.CrackFrontNumber"></a>
 
-### *property* ShapeFinder.CrackFrontNumber *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ShapeFinder.CrackFrontNumber *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the CrackFrontNumber.
 
@@ -209,7 +209,7 @@ Gets or sets the DpfEvaluation.
 
 <a id="ShapeFinder.Figures"></a>
 
-### *property* ShapeFinder.Figures *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Figure](../../../../../../v241/Ansys/ACT/Automation/Mechanical/Figure.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ShapeFinder.Figures *: Iterable[[Ansys.ACT.Automation.Mechanical.Figure](../Figure.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated figures.
 
@@ -217,7 +217,7 @@ Gets the list of associated figures.
 
 <a id="ShapeFinder.GlobalIDs"></a>
 
-### *property* ShapeFinder.GlobalIDs *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ShapeFinder.GlobalIDs *: [str](https://docs.python.org/3/library/stdtypes.html#str) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the GlobalIDs.
 
@@ -233,7 +233,7 @@ Gets or sets the GraphControlsXAxis.
 
 <a id="ShapeFinder.Identifier"></a>
 
-### *property* ShapeFinder.Identifier *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ShapeFinder.Identifier *: [str](https://docs.python.org/3/library/stdtypes.html#str) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Identifier.
 
@@ -241,7 +241,7 @@ Gets or sets the Identifier.
 
 <a id="ShapeFinder.Images"></a>
 
-### *property* ShapeFinder.Images *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Image](../../../../../../v241/Ansys/ACT/Automation/Mechanical/Image.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ShapeFinder.Images *: Iterable[[Ansys.ACT.Automation.Mechanical.Image](../Image.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated images.
 
@@ -257,7 +257,7 @@ Gets the internal object. For advanced usage only.
 
 <a id="ShapeFinder.IsSolved"></a>
 
-### *property* ShapeFinder.IsSolved *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ShapeFinder.IsSolved *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the IsSolved.
 
@@ -273,7 +273,7 @@ Gets or sets the ItemType.
 
 <a id="ShapeFinder.IterationNumber"></a>
 
-### *property* ShapeFinder.IterationNumber *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ShapeFinder.IterationNumber *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the IterationNumber.
 
@@ -281,7 +281,7 @@ Gets the IterationNumber.
 
 <a id="ShapeFinder.LoadStep"></a>
 
-### *property* ShapeFinder.LoadStep *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ShapeFinder.LoadStep *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the LoadStep.
 
@@ -289,7 +289,7 @@ Gets the LoadStep.
 
 <a id="ShapeFinder.LoadStepForMaximumOfMaximumValues"></a>
 
-### *property* ShapeFinder.LoadStepForMaximumOfMaximumValues *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ShapeFinder.LoadStepForMaximumOfMaximumValues *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Get the Load Step for the maximum of maximum values.
 
@@ -297,7 +297,7 @@ Get the Load Step for the maximum of maximum values.
 
 <a id="ShapeFinder.LoadStepForMaximumOfMinimumValues"></a>
 
-### *property* ShapeFinder.LoadStepForMaximumOfMinimumValues *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ShapeFinder.LoadStepForMaximumOfMinimumValues *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Get the Load Step for the maximum of minimum values.
 
@@ -305,7 +305,7 @@ Get the Load Step for the maximum of minimum values.
 
 <a id="ShapeFinder.LoadStepForMinimumOfMaximumValues"></a>
 
-### *property* ShapeFinder.LoadStepForMinimumOfMaximumValues *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ShapeFinder.LoadStepForMinimumOfMaximumValues *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Get the Load Step for the minimum of maximum values.
 
@@ -313,7 +313,7 @@ Get the Load Step for the minimum of maximum values.
 
 <a id="ShapeFinder.LoadStepForMinimumOfMinimumValues"></a>
 
-### *property* ShapeFinder.LoadStepForMinimumOfMinimumValues *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ShapeFinder.LoadStepForMinimumOfMinimumValues *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Get the Load Step for the minimum of minimum values.
 
@@ -321,7 +321,7 @@ Get the Load Step for the minimum of minimum values.
 
 <a id="ShapeFinder.LoadStepNumber"></a>
 
-### *property* ShapeFinder.LoadStepNumber *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ShapeFinder.LoadStepNumber *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the LoadStepNumber.
 
@@ -345,7 +345,7 @@ Gets the Maximum.
 
 <a id="ShapeFinder.MaximumOccursOn"></a>
 
-### *property* ShapeFinder.MaximumOccursOn *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ShapeFinder.MaximumOccursOn *: [str](https://docs.python.org/3/library/stdtypes.html#str) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the MaximumOccursOn.
 
@@ -377,7 +377,7 @@ Gets the Minimum.
 
 <a id="ShapeFinder.MinimumOccursOn"></a>
 
-### *property* ShapeFinder.MinimumOccursOn *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ShapeFinder.MinimumOccursOn *: [str](https://docs.python.org/3/library/stdtypes.html#str) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the MinimumOccursOn.
 
@@ -401,7 +401,7 @@ Gets the MinimumOfMinimumOverTime.
 
 <a id="ShapeFinder.NamedSelections"></a>
 
-### *property* ShapeFinder.NamedSelections *: System.Collections.Generic.IEnumerable[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ShapeFinder.NamedSelections *: Iterable[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the NamedSelections.
 
@@ -425,7 +425,7 @@ Gets the result table.
 
 <a id="ShapeFinder.Properties"></a>
 
-### *property* ShapeFinder.Properties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ShapeFinder.Properties *: [tuple](https://docs.python.org/3/library/stdtypes.html#tuple)[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of properties for this object.
 
@@ -441,7 +441,7 @@ Gets or sets the ScopingMethod.
 
 <a id="ShapeFinder.SetNumber"></a>
 
-### *property* ShapeFinder.SetNumber *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ShapeFinder.SetNumber *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Set Number.
 
@@ -457,7 +457,7 @@ Gets or sets the SolutionCombinationDriver.
 
 <a id="ShapeFinder.SolverComponentIDs"></a>
 
-### *property* ShapeFinder.SolverComponentIDs *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ShapeFinder.SolverComponentIDs *: [str](https://docs.python.org/3/library/stdtypes.html#str) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the SolverComponentIDs.
 
@@ -465,7 +465,7 @@ Gets or sets the SolverComponentIDs.
 
 <a id="ShapeFinder.Substep"></a>
 
-### *property* ShapeFinder.Substep *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ShapeFinder.Substep *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the Substep.
 
@@ -473,7 +473,7 @@ Gets the Substep.
 
 <a id="ShapeFinder.Suppressed"></a>
 
-### *property* ShapeFinder.Suppressed *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ShapeFinder.Suppressed *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Suppressed.
 
@@ -537,7 +537,7 @@ Get the Time for the minimum of minimum values.
 
 <a id="ShapeFinder.VisibleProperties"></a>
 
-### *property* ShapeFinder.VisibleProperties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ShapeFinder.VisibleProperties *: [tuple](https://docs.python.org/3/library/stdtypes.html#tuple)[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of properties that are visible for this object.
 
@@ -545,7 +545,7 @@ Gets the list of properties that are visible for this object.
 
 <a id="ShapeFinder.WaterfallShowTextOnMosaic"></a>
 
-### *property* ShapeFinder.WaterfallShowTextOnMosaic *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ShapeFinder.WaterfallShowTextOnMosaic *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Waterfall Mosaic Text Property.
 
@@ -597,7 +597,7 @@ Creates a new child Figure.
 
 <a id="ShapeFinder.AddImage"></a>
 
-### ShapeFinder.AddImage(filePath: System.String)
+### ShapeFinder.AddImage(filePath: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 ```text
 Creates a new child Image.
@@ -625,7 +625,7 @@ Copies all visible properties from this object to another.
 
 <a id="ShapeFinder.CreateParameter"></a>
 
-### ShapeFinder.CreateParameter(propName: System.String)
+### ShapeFinder.CreateParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 CreateParameter method.
 
@@ -673,7 +673,7 @@ Run the EvaluateAllResults action.
 
 <a id="ShapeFinder.ExportAnimation"></a>
 
-### ShapeFinder.ExportAnimation(filePath: System.String, format: [Ansys.Mechanical.DataModel.Enums.GraphicsAnimationExportFormat](../../../../Mechanical/DataModel/Enums/GraphicsAnimationExportFormat.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.GraphicsAnimationExportFormat), settings: [Ansys.Mechanical.Graphics.AnimationExportSettings](../../../../Mechanical/Graphics/AnimationExportSettings.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.Graphics.AnimationExportSettings))
+### ShapeFinder.ExportAnimation(filePath: [str](https://docs.python.org/3/library/stdtypes.html#str), format: [Ansys.Mechanical.DataModel.Enums.GraphicsAnimationExportFormat](../../../../Mechanical/DataModel/Enums/GraphicsAnimationExportFormat.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.GraphicsAnimationExportFormat), settings: [Ansys.Mechanical.Graphics.AnimationExportSettings](../../../../Mechanical/Graphics/AnimationExportSettings.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.Graphics.AnimationExportSettings))
 
 Run the ExportAnimation action.
 
@@ -681,7 +681,7 @@ Run the ExportAnimation action.
 
 <a id="ShapeFinder.ExportToTextFile"></a>
 
-### ShapeFinder.ExportToTextFile(filePath: System.String)
+### ShapeFinder.ExportToTextFile(filePath: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Run the ExportToTextFile action.
 
@@ -697,7 +697,7 @@ Run the FetchRemoteResult action.
 
 <a id="ShapeFinder.GetChildren"></a>
 
-### ShapeFinder.GetChildren(recurses: System.Boolean, children: System.Collections.Generic.IList[ChildrenType])
+### ShapeFinder.GetChildren(recurses: [bool](https://docs.python.org/3/library/functions.html#bool), children: List[ChildrenType])
 
 Gets the list of children, filtered by type.
 
@@ -705,7 +705,7 @@ Gets the list of children, filtered by type.
 
 <a id="ShapeFinder.GetParameter"></a>
 
-### ShapeFinder.GetParameter(propName: System.String)
+### ShapeFinder.GetParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Gets the parameter corresponding to the given property.
 
@@ -737,7 +737,7 @@ Run the PromoteToNamedSelection action.
 
 <a id="ShapeFinder.PropertyByAPIName"></a>
 
-### ShapeFinder.PropertyByAPIName(name: System.String)
+### ShapeFinder.PropertyByAPIName(name: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 ```text
 Get a property by its API name.
@@ -748,7 +748,7 @@ If multiple properties have the same API Name, only the first property with that
 
 <a id="ShapeFinder.PropertyByName"></a>
 
-### ShapeFinder.PropertyByName(name: System.String)
+### ShapeFinder.PropertyByName(name: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Get a property by its unique name.
 
@@ -756,7 +756,7 @@ Get a property by its unique name.
 
 <a id="ShapeFinder.RemoveParameter"></a>
 
-### ShapeFinder.RemoveParameter(propName: System.String)
+### ShapeFinder.RemoveParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Removes the parameter from the parameter set corresponding to the given property.
 

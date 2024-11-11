@@ -38,7 +38,7 @@ Defines the configuration for the Hashin failure criterion for reinforced materi
 
 <a id="HashinSettings.DelaminationWeightingFactor"></a>
 
-### *property* HashinSettings.DelaminationWeightingFactor *: System.Double | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* HashinSettings.DelaminationWeightingFactor *: [float](https://docs.python.org/3/library/functions.html#float) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the weighting factor for the delamination evaluation.
 
@@ -46,7 +46,7 @@ Gets or sets the weighting factor for the delamination evaluation.
 
 <a id="HashinSettings.EvaluateDelamination"></a>
 
-### *property* HashinSettings.EvaluateDelamination *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* HashinSettings.EvaluateDelamination *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets whether delamination is evaluated. Only applies when three-dimensional
 : evaluation is selected. The corresponding failure label is ‘hd’
@@ -55,7 +55,7 @@ Gets or sets whether delamination is evaluated. Only applies when three-dimensio
 
 <a id="HashinSettings.EvaluateFiberFailure"></a>
 
-### *property* HashinSettings.EvaluateFiberFailure *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* HashinSettings.EvaluateFiberFailure *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets whether fiber failure is evaluated. The corresponding failure label is ‘hf’
 
@@ -63,7 +63,7 @@ Gets or sets whether fiber failure is evaluated. The corresponding failure label
 
 <a id="HashinSettings.EvaluateMatrixFailure"></a>
 
-### *property* HashinSettings.EvaluateMatrixFailure *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* HashinSettings.EvaluateMatrixFailure *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets whether matrix failure is evaluated. The corresponding failure label is ‘hm’
 
@@ -80,7 +80,7 @@ Gets or sets whether the failure criterion is evaluated only in-plane (2D),
 
 <a id="HashinSettings.FiberFailureWeightingFactor"></a>
 
-### *property* HashinSettings.FiberFailureWeightingFactor *: System.Double | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* HashinSettings.FiberFailureWeightingFactor *: [float](https://docs.python.org/3/library/functions.html#float) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the weighting factor for the fiber failure evaluation.
 
@@ -88,7 +88,7 @@ Gets or sets the weighting factor for the fiber failure evaluation.
 
 <a id="HashinSettings.MatrixFailureWeightingFactor"></a>
 
-### *property* HashinSettings.MatrixFailureWeightingFactor *: System.Double | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* HashinSettings.MatrixFailureWeightingFactor *: [float](https://docs.python.org/3/library/functions.html#float) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the weighting factor for the matrix failure evaluation.
 

@@ -17,7 +17,7 @@ Specifies the Campbell Diagram Rotational Velocity Selection Type.
 ### Attributes
 
 | Name |
-| -------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| -------------------------------------------------------------------- |
 | [`None_`](#CampbellDiagramRotationalVelocitySelectionType.None_) |
 
 <a id="attribute-detail"></a>

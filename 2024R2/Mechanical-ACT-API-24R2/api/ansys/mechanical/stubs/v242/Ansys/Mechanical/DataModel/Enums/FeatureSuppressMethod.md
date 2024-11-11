@@ -17,7 +17,7 @@ To select the method of FeatureSuppress.
 ### Attributes
 
 | Name |
-| ---------------------------------------------------------------------------------------------------------------------------------------- |
+| ----------------------------------------------------------- |
 | [`Automatic`](#FeatureSuppressMethod.Automatic) |
 | [`DefeatureFaces`](#FeatureSuppressMethod.DefeatureFaces) |
 | [`ParentFaces`](#FeatureSuppressMethod.ParentFaces) |

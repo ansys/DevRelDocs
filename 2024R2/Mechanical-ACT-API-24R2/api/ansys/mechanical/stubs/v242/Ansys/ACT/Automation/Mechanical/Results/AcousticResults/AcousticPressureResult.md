@@ -17,7 +17,7 @@ Defines a AcousticPressureResult.
 ### Methods
 
 | Name | Description |
-|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------|
+|------------------------------------------------------------------------------|-----------------------------------------------------------------------------------|
 | [`Activate`](#AcousticPressureResult.Activate)                               | Activate the current object.                                                      |
 | [`AddAlert`](#AcousticPressureResult.AddAlert)                               | Creates a new Alert                                                               |
 | [`AddComment`](#AcousticPressureResult.AddComment)                           | Creates a new child Comment.                                                      |
@@ -49,7 +49,7 @@ Defines a AcousticPressureResult.
 ### Properties
 
 | Name | Description |
-|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------|
+|--------------------------------------------------------------------------------------------------|------------------------------------------------------------------------|
 | [`Amplitude`](#AcousticPressureResult.Amplitude)                                                 | Gets or sets the Amplitude.                                            |
 | [`Average`](#AcousticPressureResult.Average)                                                     | Gets the Average.                                                      |
 | [`By`](#AcousticPressureResult.By)                                                               | Gets or sets the By.                                                   |
@@ -105,7 +105,7 @@ Defines a AcousticPressureResult.
 | [`Substep`](#AcousticPressureResult.Substep)                                                     | Gets the Substep.                                                      |
 | [`Suppressed`](#AcousticPressureResult.Suppressed)                                               | Gets or sets the Suppressed.                                           |
 | [`Surface`](#AcousticPressureResult.Surface)                                                     | Surface property.                                                      |
-| [`SurfaceCoating`](#AcousticPressureResult.SurfaceCoating)                                                                                                                                                  | SurfaceCoating property.                                               |
+| [`SurfaceCoating`](#AcousticPressureResult.SurfaceCoating)                                       | SurfaceCoating property.                                               |
 | [`SweepingPhase`](#AcousticPressureResult.SweepingPhase)                                         | Gets or sets the SweepingPhase.                                        |
 | [`Time`](#AcousticPressureResult.Time)                                                           | Gets the Time.                                                         |
 | [`TimeForMaximumOfMaximumValues`](#AcousticPressureResult.TimeForMaximumOfMaximumValues)         | Get the Time for the maximum of maximum values.                        |
@@ -113,7 +113,7 @@ Defines a AcousticPressureResult.
 | [`TimeForMinimumOfMaximumValues`](#AcousticPressureResult.TimeForMinimumOfMaximumValues)         | Get the Time for the minimum of maximum values.                        |
 | [`TimeForMinimumOfMinimumValues`](#AcousticPressureResult.TimeForMinimumOfMinimumValues)         | Get the Time for the minimum of minimum values.                        |
 | [`VisibleProperties`](#AcousticPressureResult.VisibleProperties)                                 | Gets the list of properties that are visible for this object.          |
-| [`WaterfallShowTextOnMosaic`](#AcousticPressureResult.WaterfallShowTextOnMosaic)                                                                                                                            | Gets or sets the Waterfall Mosaic Text Property.                       |
+| [`WaterfallShowTextOnMosaic`](#AcousticPressureResult.WaterfallShowTextOnMosaic)                 | Gets or sets the Waterfall Mosaic Text Property.                       |
 
 <a id="property-detail"></a>
 
@@ -121,7 +121,7 @@ Defines a AcousticPressureResult.
 
 <a id="AcousticPressureResult.Amplitude"></a>
 
-### *property* AcousticPressureResult.Amplitude *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AcousticPressureResult.Amplitude *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Amplitude.
 
@@ -145,7 +145,7 @@ Gets or sets the By.
 
 <a id="AcousticPressureResult.CalculateTimeHistory"></a>
 
-### *property* AcousticPressureResult.CalculateTimeHistory *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AcousticPressureResult.CalculateTimeHistory *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the CalculateTimeHistory.
 
@@ -153,7 +153,7 @@ Gets or sets the CalculateTimeHistory.
 
 <a id="AcousticPressureResult.Children"></a>
 
-### *property* AcousticPressureResult.Children *: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AcousticPressureResult.Children *: List[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of children.
 
@@ -161,7 +161,7 @@ Gets the list of children.
 
 <a id="AcousticPressureResult.CombinationNumber"></a>
 
-### *property* AcousticPressureResult.CombinationNumber *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AcousticPressureResult.CombinationNumber *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Combination Number for a Solution Combination result.
 
@@ -169,7 +169,7 @@ Gets or sets the Combination Number for a Solution Combination result.
 
 <a id="AcousticPressureResult.Comments"></a>
 
-### *property* AcousticPressureResult.Comments *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Comment](../../../../../../../v241/Ansys/ACT/Automation/Mechanical/Comment.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AcousticPressureResult.Comments *: Iterable[[Ansys.ACT.Automation.Mechanical.Comment](../../Comment.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated comments.
 
@@ -177,7 +177,7 @@ Gets the list of associated comments.
 
 <a id="AcousticPressureResult.CoordinateSystem"></a>
 
-### *property* AcousticPressureResult.CoordinateSystem *: [Ansys.ACT.Automation.Mechanical.CoordinateSystem](../../../../../../../v241/Ansys/ACT/Automation/Mechanical/CoordinateSystem.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.CoordinateSystem) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AcousticPressureResult.CoordinateSystem *: [Ansys.ACT.Automation.Mechanical.CoordinateSystem](../../CoordinateSystem.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.CoordinateSystem) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Coordinate System.
 Accepts/Returns None for Solution Coordinate System in the general case (if applicable).
@@ -187,7 +187,7 @@ Accepts/Returns None for Fiber Coordinate System for a result that is sub scoped
 
 <a id="AcousticPressureResult.CrackFrontNumber"></a>
 
-### *property* AcousticPressureResult.CrackFrontNumber *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AcousticPressureResult.CrackFrontNumber *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the CrackFrontNumber.
 
@@ -235,7 +235,7 @@ Gets or sets the DpfEvaluation.
 
 <a id="AcousticPressureResult.Figures"></a>
 
-### *property* AcousticPressureResult.Figures *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Figure](../../../../../../../v241/Ansys/ACT/Automation/Mechanical/Figure.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AcousticPressureResult.Figures *: Iterable[[Ansys.ACT.Automation.Mechanical.Figure](../../Figure.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated figures.
 
@@ -251,7 +251,7 @@ Gets or sets the Frequency.
 
 <a id="AcousticPressureResult.GlobalIDs"></a>
 
-### *property* AcousticPressureResult.GlobalIDs *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AcousticPressureResult.GlobalIDs *: [str](https://docs.python.org/3/library/stdtypes.html#str) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the GlobalIDs.
 
@@ -267,7 +267,7 @@ Gets or sets the GraphControlsXAxis.
 
 <a id="AcousticPressureResult.Identifier"></a>
 
-### *property* AcousticPressureResult.Identifier *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AcousticPressureResult.Identifier *: [str](https://docs.python.org/3/library/stdtypes.html#str) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Identifier.
 
@@ -275,7 +275,7 @@ Gets or sets the Identifier.
 
 <a id="AcousticPressureResult.Images"></a>
 
-### *property* AcousticPressureResult.Images *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Image](../../../../../../../v241/Ansys/ACT/Automation/Mechanical/Image.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AcousticPressureResult.Images *: Iterable[[Ansys.ACT.Automation.Mechanical.Image](../../Image.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated images.
 
@@ -291,7 +291,7 @@ Gets the internal object. For advanced usage only.
 
 <a id="AcousticPressureResult.IsSolved"></a>
 
-### *property* AcousticPressureResult.IsSolved *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AcousticPressureResult.IsSolved *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the IsSolved.
 
@@ -307,7 +307,7 @@ Gets or sets the ItemType.
 
 <a id="AcousticPressureResult.IterationNumber"></a>
 
-### *property* AcousticPressureResult.IterationNumber *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AcousticPressureResult.IterationNumber *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the IterationNumber.
 
@@ -315,7 +315,7 @@ Gets the IterationNumber.
 
 <a id="AcousticPressureResult.LoadStep"></a>
 
-### *property* AcousticPressureResult.LoadStep *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AcousticPressureResult.LoadStep *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the LoadStep.
 
@@ -323,7 +323,7 @@ Gets the LoadStep.
 
 <a id="AcousticPressureResult.LoadStepForMaximumOfMaximumValues"></a>
 
-### *property* AcousticPressureResult.LoadStepForMaximumOfMaximumValues *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AcousticPressureResult.LoadStepForMaximumOfMaximumValues *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Get the Load Step for the maximum of maximum values.
 
@@ -331,7 +331,7 @@ Get the Load Step for the maximum of maximum values.
 
 <a id="AcousticPressureResult.LoadStepForMaximumOfMinimumValues"></a>
 
-### *property* AcousticPressureResult.LoadStepForMaximumOfMinimumValues *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AcousticPressureResult.LoadStepForMaximumOfMinimumValues *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Get the Load Step for the maximum of minimum values.
 
@@ -339,7 +339,7 @@ Get the Load Step for the maximum of minimum values.
 
 <a id="AcousticPressureResult.LoadStepForMinimumOfMaximumValues"></a>
 
-### *property* AcousticPressureResult.LoadStepForMinimumOfMaximumValues *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AcousticPressureResult.LoadStepForMinimumOfMaximumValues *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Get the Load Step for the minimum of maximum values.
 
@@ -347,7 +347,7 @@ Get the Load Step for the minimum of maximum values.
 
 <a id="AcousticPressureResult.LoadStepForMinimumOfMinimumValues"></a>
 
-### *property* AcousticPressureResult.LoadStepForMinimumOfMinimumValues *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AcousticPressureResult.LoadStepForMinimumOfMinimumValues *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Get the Load Step for the minimum of minimum values.
 
@@ -355,7 +355,7 @@ Get the Load Step for the minimum of minimum values.
 
 <a id="AcousticPressureResult.LoadStepNumber"></a>
 
-### *property* AcousticPressureResult.LoadStepNumber *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AcousticPressureResult.LoadStepNumber *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the LoadStepNumber.
 
@@ -371,7 +371,7 @@ Gets or sets the Location.
 
 <a id="AcousticPressureResult.LogarithmicDecrement"></a>
 
-### *property* AcousticPressureResult.LogarithmicDecrement *: System.Double | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AcousticPressureResult.LogarithmicDecrement *: [float](https://docs.python.org/3/library/functions.html#float) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the LogarithmicDecrement.
 
@@ -387,7 +387,7 @@ Gets the Maximum.
 
 <a id="AcousticPressureResult.MaximumOccursOn"></a>
 
-### *property* AcousticPressureResult.MaximumOccursOn *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AcousticPressureResult.MaximumOccursOn *: [str](https://docs.python.org/3/library/stdtypes.html#str) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the MaximumOccursOn.
 
@@ -419,7 +419,7 @@ Gets the Minimum.
 
 <a id="AcousticPressureResult.MinimumOccursOn"></a>
 
-### *property* AcousticPressureResult.MinimumOccursOn *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AcousticPressureResult.MinimumOccursOn *: [str](https://docs.python.org/3/library/stdtypes.html#str) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the MinimumOccursOn.
 
@@ -443,7 +443,7 @@ Gets the MinimumOfMinimumOverTime.
 
 <a id="AcousticPressureResult.ModalDampingRatio"></a>
 
-### *property* AcousticPressureResult.ModalDampingRatio *: System.Double | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AcousticPressureResult.ModalDampingRatio *: [float](https://docs.python.org/3/library/functions.html#float) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the ModalDampingRatio.
 
@@ -451,7 +451,7 @@ Gets the ModalDampingRatio.
 
 <a id="AcousticPressureResult.Mode"></a>
 
-### *property* AcousticPressureResult.Mode *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AcousticPressureResult.Mode *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Mode.
 
@@ -459,7 +459,7 @@ Gets or sets the Mode.
 
 <a id="AcousticPressureResult.NamedSelections"></a>
 
-### *property* AcousticPressureResult.NamedSelections *: System.Collections.Generic.IEnumerable[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AcousticPressureResult.NamedSelections *: Iterable[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the NamedSelections.
 
@@ -483,7 +483,7 @@ Gets the result table.
 
 <a id="AcousticPressureResult.Properties"></a>
 
-### *property* AcousticPressureResult.Properties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AcousticPressureResult.Properties *: [tuple](https://docs.python.org/3/library/stdtypes.html#tuple)[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of properties for this object.
 
@@ -507,7 +507,7 @@ Gets or sets the ScopingMethod.
 
 <a id="AcousticPressureResult.SetNumber"></a>
 
-### *property* AcousticPressureResult.SetNumber *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AcousticPressureResult.SetNumber *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Set Number.
 
@@ -523,7 +523,7 @@ Gets or sets the SolutionCombinationDriver.
 
 <a id="AcousticPressureResult.SolverComponentIDs"></a>
 
-### *property* AcousticPressureResult.SolverComponentIDs *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AcousticPressureResult.SolverComponentIDs *: [str](https://docs.python.org/3/library/stdtypes.html#str) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the SolverComponentIDs.
 
@@ -539,7 +539,7 @@ Gets the Stability.
 
 <a id="AcousticPressureResult.Substep"></a>
 
-### *property* AcousticPressureResult.Substep *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AcousticPressureResult.Substep *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the Substep.
 
@@ -547,7 +547,7 @@ Gets the Substep.
 
 <a id="AcousticPressureResult.Suppressed"></a>
 
-### *property* AcousticPressureResult.Suppressed *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AcousticPressureResult.Suppressed *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Suppressed.
 
@@ -619,7 +619,7 @@ Get the Time for the minimum of minimum values.
 
 <a id="AcousticPressureResult.VisibleProperties"></a>
 
-### *property* AcousticPressureResult.VisibleProperties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AcousticPressureResult.VisibleProperties *: [tuple](https://docs.python.org/3/library/stdtypes.html#tuple)[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of properties that are visible for this object.
 
@@ -627,7 +627,7 @@ Gets the list of properties that are visible for this object.
 
 <a id="AcousticPressureResult.WaterfallShowTextOnMosaic"></a>
 
-### *property* AcousticPressureResult.WaterfallShowTextOnMosaic *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AcousticPressureResult.WaterfallShowTextOnMosaic *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Waterfall Mosaic Text Property.
 
@@ -679,7 +679,7 @@ Creates a new child Figure.
 
 <a id="AcousticPressureResult.AddImage"></a>
 
-### AcousticPressureResult.AddImage(filePath: System.String)
+### AcousticPressureResult.AddImage(filePath: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 ```text
 Creates a new child Image.
@@ -707,7 +707,7 @@ Copies all visible properties from this object to another.
 
 <a id="AcousticPressureResult.CreateParameter"></a>
 
-### AcousticPressureResult.CreateParameter(propName: System.String)
+### AcousticPressureResult.CreateParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 CreateParameter method.
 
@@ -755,7 +755,7 @@ Run the EvaluateAllResults action.
 
 <a id="AcousticPressureResult.ExportAnimation"></a>
 
-### AcousticPressureResult.ExportAnimation(filePath: System.String, format: [Ansys.Mechanical.DataModel.Enums.GraphicsAnimationExportFormat](../../../../../Mechanical/DataModel/Enums/GraphicsAnimationExportFormat.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.GraphicsAnimationExportFormat), settings: [Ansys.Mechanical.Graphics.AnimationExportSettings](../../../../../Mechanical/Graphics/AnimationExportSettings.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.Graphics.AnimationExportSettings))
+### AcousticPressureResult.ExportAnimation(filePath: [str](https://docs.python.org/3/library/stdtypes.html#str), format: [Ansys.Mechanical.DataModel.Enums.GraphicsAnimationExportFormat](../../../../../Mechanical/DataModel/Enums/GraphicsAnimationExportFormat.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.GraphicsAnimationExportFormat), settings: [Ansys.Mechanical.Graphics.AnimationExportSettings](../../../../../Mechanical/Graphics/AnimationExportSettings.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.Graphics.AnimationExportSettings))
 
 Run the ExportAnimation action.
 
@@ -763,7 +763,7 @@ Run the ExportAnimation action.
 
 <a id="AcousticPressureResult.ExportToTextFile"></a>
 
-### AcousticPressureResult.ExportToTextFile(filePath: System.String)
+### AcousticPressureResult.ExportToTextFile(filePath: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Run the ExportToTextFile action.
 
@@ -771,7 +771,7 @@ Run the ExportToTextFile action.
 
 <a id="AcousticPressureResult.ExportToWAVFile"></a>
 
-### AcousticPressureResult.ExportToWAVFile(filePath: System.String)
+### AcousticPressureResult.ExportToWAVFile(filePath: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Run the Export To WAVFile action.
 
@@ -787,7 +787,7 @@ Run the FetchRemoteResult action.
 
 <a id="AcousticPressureResult.GetChildren"></a>
 
-### AcousticPressureResult.GetChildren(recurses: System.Boolean, children: System.Collections.Generic.IList[ChildrenType])
+### AcousticPressureResult.GetChildren(recurses: [bool](https://docs.python.org/3/library/functions.html#bool), children: List[ChildrenType])
 
 Gets the list of children, filtered by type.
 
@@ -795,7 +795,7 @@ Gets the list of children, filtered by type.
 
 <a id="AcousticPressureResult.GetParameter"></a>
 
-### AcousticPressureResult.GetParameter(propName: System.String)
+### AcousticPressureResult.GetParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Gets the parameter corresponding to the given property.
 
@@ -827,7 +827,7 @@ Run the PromoteToNamedSelection action.
 
 <a id="AcousticPressureResult.PropertyByAPIName"></a>
 
-### AcousticPressureResult.PropertyByAPIName(name: System.String)
+### AcousticPressureResult.PropertyByAPIName(name: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 ```text
 Get a property by its API name.
@@ -838,7 +838,7 @@ If multiple properties have the same API Name, only the first property with that
 
 <a id="AcousticPressureResult.PropertyByName"></a>
 
-### AcousticPressureResult.PropertyByName(name: System.String)
+### AcousticPressureResult.PropertyByName(name: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Get a property by its unique name.
 
@@ -846,7 +846,7 @@ Get a property by its unique name.
 
 <a id="AcousticPressureResult.RemoveParameter"></a>
 
-### AcousticPressureResult.RemoveParameter(propName: System.String)
+### AcousticPressureResult.RemoveParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Removes the parameter from the parameter set corresponding to the given property.
 

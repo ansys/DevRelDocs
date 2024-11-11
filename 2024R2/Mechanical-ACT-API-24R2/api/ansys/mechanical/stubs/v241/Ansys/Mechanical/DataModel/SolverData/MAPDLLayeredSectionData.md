@@ -26,7 +26,7 @@ MAPDLLayeredSectionData class.
 
 <a id="MAPDLLayeredSectionData.SectionId"></a>
 
-### *property* MAPDLLayeredSectionData.SectionId *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* MAPDLLayeredSectionData.SectionId *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the section Id for the layered section.
 

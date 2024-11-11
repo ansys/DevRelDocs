@@ -65,7 +65,7 @@ Defines a STL.
 
 <a id="STL.Children"></a>
 
-### *property* STL.Children *: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* STL.Children *: List[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of children.
 
@@ -73,7 +73,7 @@ Gets the list of children.
 
 <a id="STL.Color"></a>
 
-### *property* STL.Color *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* STL.Color *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Color.
 
@@ -81,7 +81,7 @@ Gets or sets the Color.
 
 <a id="STL.Comments"></a>
 
-### *property* STL.Comments *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Comment](Comment.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* STL.Comments *: Iterable[[Ansys.ACT.Automation.Mechanical.Comment](Comment.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated comments.
 
@@ -89,7 +89,7 @@ Gets the list of associated comments.
 
 <a id="STL.DataModelObjectCategory"></a>
 
-### *property* STL.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../v242/Ansys/Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* STL.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the current DataModelObject’s category.
 
@@ -97,7 +97,7 @@ Gets the current DataModelObject’s category.
 
 <a id="STL.Figures"></a>
 
-### *property* STL.Figures *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Figure](Figure.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* STL.Figures *: Iterable[[Ansys.ACT.Automation.Mechanical.Figure](Figure.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated figures.
 
@@ -105,7 +105,7 @@ Gets the list of associated figures.
 
 <a id="STL.FileName"></a>
 
-### *property* STL.FileName *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* STL.FileName *: [str](https://docs.python.org/3/library/stdtypes.html#str) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the FileName.
 
@@ -113,7 +113,7 @@ Gets or sets the FileName.
 
 <a id="STL.Images"></a>
 
-### *property* STL.Images *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Image](Image.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* STL.Images *: Iterable[[Ansys.ACT.Automation.Mechanical.Image](Image.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated images.
 
@@ -129,7 +129,7 @@ Gets the internal object. For advanced usage only.
 
 <a id="STL.LengthUnits"></a>
 
-### *property* STL.LengthUnits *: [Ansys.Mechanical.DataModel.Enums.WBUnitSystemType](../../../../../v242/Ansys/Mechanical/DataModel/Enums/WBUnitSystemType.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.WBUnitSystemType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* STL.LengthUnits *: [Ansys.Mechanical.DataModel.Enums.WBUnitSystemType](../../../Mechanical/DataModel/Enums/WBUnitSystemType.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.WBUnitSystemType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the LengthUnits.
 
@@ -137,7 +137,7 @@ Gets or sets the LengthUnits.
 
 <a id="STL.Properties"></a>
 
-### *property* STL.Properties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* STL.Properties *: [tuple](https://docs.python.org/3/library/stdtypes.html#tuple)[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of properties for this object.
 
@@ -145,7 +145,7 @@ Gets the list of properties for this object.
 
 <a id="STL.ReadOnly"></a>
 
-### *property* STL.ReadOnly *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* STL.ReadOnly *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the ReadOnly.
 
@@ -153,7 +153,7 @@ Gets or sets the ReadOnly.
 
 <a id="STL.ShowAlways"></a>
 
-### *property* STL.ShowAlways *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* STL.ShowAlways *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the ShowAlways.
 
@@ -161,7 +161,7 @@ Gets or sets the ShowAlways.
 
 <a id="STL.Statistics"></a>
 
-### *property* STL.Statistics *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* STL.Statistics *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the Statistics.
 
@@ -169,7 +169,7 @@ Gets the Statistics.
 
 <a id="STL.Suppressed"></a>
 
-### *property* STL.Suppressed *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* STL.Suppressed *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Suppressed.
 
@@ -177,7 +177,7 @@ Gets or sets the Suppressed.
 
 <a id="STL.TranslateX"></a>
 
-### *property* STL.TranslateX *: System.Double | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* STL.TranslateX *: [float](https://docs.python.org/3/library/functions.html#float) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the TranslateX.
 
@@ -185,7 +185,7 @@ Gets or sets the TranslateX.
 
 <a id="STL.TranslateY"></a>
 
-### *property* STL.TranslateY *: System.Double | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* STL.TranslateY *: [float](https://docs.python.org/3/library/functions.html#float) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the TranslateY.
 
@@ -193,7 +193,7 @@ Gets or sets the TranslateY.
 
 <a id="STL.TranslateZ"></a>
 
-### *property* STL.TranslateZ *: System.Double | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* STL.TranslateZ *: [float](https://docs.python.org/3/library/functions.html#float) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the TranslateZ.
 
@@ -201,7 +201,7 @@ Gets or sets the TranslateZ.
 
 <a id="STL.VisibleProperties"></a>
 
-### *property* STL.VisibleProperties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* STL.VisibleProperties *: [tuple](https://docs.python.org/3/library/stdtypes.html#tuple)[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of properties that are visible for this object.
 
@@ -237,7 +237,7 @@ Creates a new child Figure.
 
 <a id="STL.AddImage"></a>
 
-### STL.AddImage(filePath: System.String)
+### STL.AddImage(filePath: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 ```text
 Creates a new child Image.
@@ -257,7 +257,7 @@ Copies all visible properties from this object to another.
 
 <a id="STL.CreateParameter"></a>
 
-### STL.CreateParameter(propName: System.String)
+### STL.CreateParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Creates a new parameter for a Property.
 
@@ -281,7 +281,7 @@ Creates a copy of the current DataModelObject.
 
 <a id="STL.ExportStl"></a>
 
-### STL.ExportStl(filename: System.String, progress: [Ansys.Mechanical.Application.Progress](../../../../../v242/Ansys/Mechanical/Application/Progress.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.Application.Progress))
+### STL.ExportStl(filename: [str](https://docs.python.org/3/library/stdtypes.html#str), progress: [Ansys.Mechanical.Application.Progress](../../../Mechanical/Application/Progress.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.Application.Progress))
 
 Export STL data.
 
@@ -289,7 +289,7 @@ Export STL data.
 
 <a id="STL.GetChildren"></a>
 
-### STL.GetChildren(recurses: System.Boolean, children: System.Collections.Generic.IList[ChildrenType])
+### STL.GetChildren(recurses: [bool](https://docs.python.org/3/library/functions.html#bool), children: List[ChildrenType])
 
 Gets the list of children, filtered by type.
 
@@ -297,7 +297,7 @@ Gets the list of children, filtered by type.
 
 <a id="STL.GetParameter"></a>
 
-### STL.GetParameter(propName: System.String)
+### STL.GetParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Gets the parameter corresponding to the given property.
 
@@ -329,7 +329,7 @@ Run the ImportSTL action.
 
 <a id="STL.PropertyByAPIName"></a>
 
-### STL.PropertyByAPIName(name: System.String)
+### STL.PropertyByAPIName(name: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 ```text
 Get a property by its API name.
@@ -340,7 +340,7 @@ If multiple properties have the same API Name, only the first property with that
 
 <a id="STL.PropertyByName"></a>
 
-### STL.PropertyByName(name: System.String)
+### STL.PropertyByName(name: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Get a property by its unique name.
 
@@ -348,7 +348,7 @@ Get a property by its unique name.
 
 <a id="STL.RemoveParameter"></a>
 
-### STL.RemoveParameter(propName: System.String)
+### STL.RemoveParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Removes the parameter from the parameter set corresponding to the given property.
 

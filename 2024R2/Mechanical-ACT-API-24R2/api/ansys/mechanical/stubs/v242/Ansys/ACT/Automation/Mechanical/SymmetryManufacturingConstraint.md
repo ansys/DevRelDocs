@@ -17,7 +17,7 @@ Defines a SymmetryManufacturingConstraint.
 ### Methods
 
 | Name | Description |
-|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------|
+|---------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------|
 | [`Activate`](#SymmetryManufacturingConstraint.Activate)                               | Activate the current object.                                                      |
 | [`CopyTo`](#SymmetryManufacturingConstraint.CopyTo)                                   | Copies all visible properties from this object to another.                        |
 | [`CreateParameter`](#SymmetryManufacturingConstraint.CreateParameter)                 | Creates a new parameter for a Property.                                           |
@@ -35,7 +35,7 @@ Defines a SymmetryManufacturingConstraint.
 ### Properties
 
 | Name | Description |
-|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------|
+|---------------------------------------------------------------------------------------|---------------------------------------------------------------|
 | [`Axis`](#SymmetryManufacturingConstraint.Axis)                                       | Gets or sets the Axis.                                        |
 | [`Children`](#SymmetryManufacturingConstraint.Children)                               | Gets the list of children.                                    |
 | [`CoordinateSystem`](#SymmetryManufacturingConstraint.CoordinateSystem)               | Gets or sets the CoordinateSystem.                            |
@@ -62,7 +62,7 @@ Gets or sets the Axis.
 
 <a id="SymmetryManufacturingConstraint.Children"></a>
 
-### *property* SymmetryManufacturingConstraint.Children *: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* SymmetryManufacturingConstraint.Children *: List[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of children.
 
@@ -70,7 +70,7 @@ Gets the list of children.
 
 <a id="SymmetryManufacturingConstraint.CoordinateSystem"></a>
 
-### *property* SymmetryManufacturingConstraint.CoordinateSystem *: [Ansys.ACT.Automation.Mechanical.CoordinateSystem](../../../../../v241/Ansys/ACT/Automation/Mechanical/CoordinateSystem.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.CoordinateSystem) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* SymmetryManufacturingConstraint.CoordinateSystem *: [Ansys.ACT.Automation.Mechanical.CoordinateSystem](CoordinateSystem.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.CoordinateSystem) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the CoordinateSystem.
 
@@ -102,7 +102,7 @@ Gets or sets the Location.
 
 <a id="SymmetryManufacturingConstraint.Properties"></a>
 
-### *property* SymmetryManufacturingConstraint.Properties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* SymmetryManufacturingConstraint.Properties *: [tuple](https://docs.python.org/3/library/stdtypes.html#tuple)[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of properties for this object.
 
@@ -126,7 +126,7 @@ Gets or sets the Selection.
 
 <a id="SymmetryManufacturingConstraint.Suppressed"></a>
 
-### *property* SymmetryManufacturingConstraint.Suppressed *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* SymmetryManufacturingConstraint.Suppressed *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Suppressed.
 
@@ -134,7 +134,7 @@ Gets or sets the Suppressed.
 
 <a id="SymmetryManufacturingConstraint.VisibleProperties"></a>
 
-### *property* SymmetryManufacturingConstraint.VisibleProperties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* SymmetryManufacturingConstraint.VisibleProperties *: [tuple](https://docs.python.org/3/library/stdtypes.html#tuple)[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of properties that are visible for this object.
 
@@ -162,7 +162,7 @@ Copies all visible properties from this object to another.
 
 <a id="SymmetryManufacturingConstraint.CreateParameter"></a>
 
-### SymmetryManufacturingConstraint.CreateParameter(propName: System.String)
+### SymmetryManufacturingConstraint.CreateParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Creates a new parameter for a Property.
 
@@ -186,7 +186,7 @@ Creates a copy of the current DataModelObject.
 
 <a id="SymmetryManufacturingConstraint.GetChildren"></a>
 
-### SymmetryManufacturingConstraint.GetChildren(recurses: System.Boolean, children: System.Collections.Generic.IList[ChildrenType])
+### SymmetryManufacturingConstraint.GetChildren(recurses: [bool](https://docs.python.org/3/library/functions.html#bool), children: List[ChildrenType])
 
 Gets the list of children, filtered by type.
 
@@ -194,7 +194,7 @@ Gets the list of children, filtered by type.
 
 <a id="SymmetryManufacturingConstraint.GetParameter"></a>
 
-### SymmetryManufacturingConstraint.GetParameter(propName: System.String)
+### SymmetryManufacturingConstraint.GetParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Gets the parameter corresponding to the given property.
 
@@ -218,7 +218,7 @@ Run the GroupSimilarObjects action.
 
 <a id="SymmetryManufacturingConstraint.PropertyByAPIName"></a>
 
-### SymmetryManufacturingConstraint.PropertyByAPIName(name: System.String)
+### SymmetryManufacturingConstraint.PropertyByAPIName(name: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 ```text
 Get a property by its API name.
@@ -229,7 +229,7 @@ If multiple properties have the same API Name, only the first property with that
 
 <a id="SymmetryManufacturingConstraint.PropertyByName"></a>
 
-### SymmetryManufacturingConstraint.PropertyByName(name: System.String)
+### SymmetryManufacturingConstraint.PropertyByName(name: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Get a property by its unique name.
 
@@ -237,7 +237,7 @@ Get a property by its unique name.
 
 <a id="SymmetryManufacturingConstraint.RemoveParameter"></a>
 
-### SymmetryManufacturingConstraint.RemoveParameter(propName: System.String)
+### SymmetryManufacturingConstraint.RemoveParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Removes the parameter from the parameter set corresponding to the given property.
 

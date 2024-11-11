@@ -127,7 +127,7 @@ BoundingBoxTolerance property.
 
 <a id="ImportedInitialStress.Children"></a>
 
-### *property* ImportedInitialStress.Children *: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ImportedInitialStress.Children *: List[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of children.
 
@@ -135,7 +135,7 @@ Gets the list of children.
 
 <a id="ImportedInitialStress.Comments"></a>
 
-### *property* ImportedInitialStress.Comments *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Comment](../../../../../../v241/Ansys/ACT/Automation/Mechanical/Comment.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ImportedInitialStress.Comments *: Iterable[[Ansys.ACT.Automation.Mechanical.Comment](../Comment.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated comments.
 
@@ -143,7 +143,7 @@ Gets the list of associated comments.
 
 <a id="ImportedInitialStress.CreateNameSelectionForMappedNodes"></a>
 
-### *property* ImportedInitialStress.CreateNameSelectionForMappedNodes *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ImportedInitialStress.CreateNameSelectionForMappedNodes *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 CreateNameSelectionForMappedNodes property.
 
@@ -151,7 +151,7 @@ CreateNameSelectionForMappedNodes property.
 
 <a id="ImportedInitialStress.CreateNameSelectionForOutsideNodes"></a>
 
-### *property* ImportedInitialStress.CreateNameSelectionForOutsideNodes *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ImportedInitialStress.CreateNameSelectionForOutsideNodes *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 CreateNameSelectionForOutsideNodes property.
 
@@ -159,7 +159,7 @@ CreateNameSelectionForOutsideNodes property.
 
 <a id="ImportedInitialStress.CreateNameSelectionForUnmappedNodes"></a>
 
-### *property* ImportedInitialStress.CreateNameSelectionForUnmappedNodes *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ImportedInitialStress.CreateNameSelectionForUnmappedNodes *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 CreateNameSelectionForUnmappedNodes property.
 
@@ -175,7 +175,7 @@ Gets the current DataModelObject’s category.
 
 <a id="ImportedInitialStress.DisplayInteriorPoints"></a>
 
-### *property* ImportedInitialStress.DisplayInteriorPoints *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ImportedInitialStress.DisplayInteriorPoints *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 DisplayInteriorPoints property.
 
@@ -183,7 +183,7 @@ DisplayInteriorPoints property.
 
 <a id="ImportedInitialStress.DisplayProjectionPlane"></a>
 
-### *property* ImportedInitialStress.DisplayProjectionPlane *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ImportedInitialStress.DisplayProjectionPlane *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 DisplayProjectionPlane property.
 
@@ -191,7 +191,7 @@ DisplayProjectionPlane property.
 
 <a id="ImportedInitialStress.DisplaySourcePointIds"></a>
 
-### *property* ImportedInitialStress.DisplaySourcePointIds *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ImportedInitialStress.DisplaySourcePointIds *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 DisplaySourcePointIds property.
 
@@ -199,7 +199,7 @@ DisplaySourcePointIds property.
 
 <a id="ImportedInitialStress.DisplaySourcePoints"></a>
 
-### *property* ImportedInitialStress.DisplaySourcePoints *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ImportedInitialStress.DisplaySourcePoints *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 DisplaySourcePoints property.
 
@@ -207,7 +207,7 @@ DisplaySourcePoints property.
 
 <a id="ImportedInitialStress.ExtrapolationTolerancePercent"></a>
 
-### *property* ImportedInitialStress.ExtrapolationTolerancePercent *: System.Double | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ImportedInitialStress.ExtrapolationTolerancePercent *: [float](https://docs.python.org/3/library/functions.html#float) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 ExtrapolationTolerancePercent property.
 
@@ -215,7 +215,7 @@ ExtrapolationTolerancePercent property.
 
 <a id="ImportedInitialStress.Figures"></a>
 
-### *property* ImportedInitialStress.Figures *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Figure](../../../../../../v241/Ansys/ACT/Automation/Mechanical/Figure.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ImportedInitialStress.Figures *: Iterable[[Ansys.ACT.Automation.Mechanical.Figure](../Figure.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated figures.
 
@@ -223,7 +223,7 @@ Gets the list of associated figures.
 
 <a id="ImportedInitialStress.Images"></a>
 
-### *property* ImportedInitialStress.Images *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Image](../../../../../../v241/Ansys/ACT/Automation/Mechanical/Image.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ImportedInitialStress.Images *: Iterable[[Ansys.ACT.Automation.Mechanical.Image](../Image.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated images.
 
@@ -287,7 +287,7 @@ LegendRange property.
 
 <a id="ImportedInitialStress.Limit"></a>
 
-### *property* ImportedInitialStress.Limit *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ImportedInitialStress.Limit *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Limit property.
 
@@ -303,7 +303,7 @@ Gets or sets the Location.
 
 <a id="ImportedInitialStress.MappedNodesName"></a>
 
-### *property* ImportedInitialStress.MappedNodesName *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ImportedInitialStress.MappedNodesName *: [str](https://docs.python.org/3/library/stdtypes.html#str) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 MappedNodesName property.
 
@@ -343,7 +343,7 @@ Method property.
 
 <a id="ImportedInitialStress.NumberOfPoints"></a>
 
-### *property* ImportedInitialStress.NumberOfPoints *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ImportedInitialStress.NumberOfPoints *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 NumberOfPoints property.
 
@@ -351,7 +351,7 @@ NumberOfPoints property.
 
 <a id="ImportedInitialStress.OrientationRealignment"></a>
 
-### *property* ImportedInitialStress.OrientationRealignment *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ImportedInitialStress.OrientationRealignment *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 OrientationRealignment property.
 
@@ -359,7 +359,7 @@ OrientationRealignment property.
 
 <a id="ImportedInitialStress.OutsideDistanceCheck"></a>
 
-### *property* ImportedInitialStress.OutsideDistanceCheck *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ImportedInitialStress.OutsideDistanceCheck *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 OutsideDistanceCheck property.
 
@@ -367,7 +367,7 @@ OutsideDistanceCheck property.
 
 <a id="ImportedInitialStress.OutsideNodesName"></a>
 
-### *property* ImportedInitialStress.OutsideNodesName *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ImportedInitialStress.OutsideNodesName *: [str](https://docs.python.org/3/library/stdtypes.html#str) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 OutsideNodesName property.
 
@@ -391,7 +391,7 @@ Pinball property.
 
 <a id="ImportedInitialStress.Projection"></a>
 
-### *property* ImportedInitialStress.Projection *: [Ansys.ACT.Automation.Mechanical.CoordinateSystem](../../../../../../v241/Ansys/ACT/Automation/Mechanical/CoordinateSystem.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.CoordinateSystem) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ImportedInitialStress.Projection *: [Ansys.ACT.Automation.Mechanical.CoordinateSystem](../CoordinateSystem.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.CoordinateSystem) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Projection property.
 
@@ -399,7 +399,7 @@ Projection property.
 
 <a id="ImportedInitialStress.Properties"></a>
 
-### *property* ImportedInitialStress.Properties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ImportedInitialStress.Properties *: [tuple](https://docs.python.org/3/library/stdtypes.html#tuple)[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of properties for this object.
 
@@ -415,7 +415,7 @@ RigidBodyTransformationType property.
 
 <a id="ImportedInitialStress.RigidTransformSourceCoordinateSystem"></a>
 
-### *property* ImportedInitialStress.RigidTransformSourceCoordinateSystem *: [Ansys.ACT.Automation.Mechanical.CoordinateSystem](../../../../../../v241/Ansys/ACT/Automation/Mechanical/CoordinateSystem.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.CoordinateSystem) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ImportedInitialStress.RigidTransformSourceCoordinateSystem *: [Ansys.ACT.Automation.Mechanical.CoordinateSystem](../CoordinateSystem.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.CoordinateSystem) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 RigidTransformSourceCoordinateSystem property.
 
@@ -423,7 +423,7 @@ RigidTransformSourceCoordinateSystem property.
 
 <a id="ImportedInitialStress.RigidTransformTargetCoordinateSystem"></a>
 
-### *property* ImportedInitialStress.RigidTransformTargetCoordinateSystem *: [Ansys.ACT.Automation.Mechanical.CoordinateSystem](../../../../../../v241/Ansys/ACT/Automation/Mechanical/CoordinateSystem.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.CoordinateSystem) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ImportedInitialStress.RigidTransformTargetCoordinateSystem *: [Ansys.ACT.Automation.Mechanical.CoordinateSystem](../CoordinateSystem.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.CoordinateSystem) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 RigidTransformTargetCoordinateSystem property.
 
@@ -431,7 +431,7 @@ RigidTransformTargetCoordinateSystem property.
 
 <a id="ImportedInitialStress.SharedRefBody"></a>
 
-### *property* ImportedInitialStress.SharedRefBody *: [Ansys.ACT.Automation.Mechanical.Body](../../../../../../v241/Ansys/ACT/Automation/Mechanical/Body.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Body) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ImportedInitialStress.SharedRefBody *: [Ansys.ACT.Automation.Mechanical.Body](../Body.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Body) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the SharedRefBody.
 
@@ -439,7 +439,7 @@ Gets or sets the SharedRefBody.
 
 <a id="ImportedInitialStress.ShellThicknessFactor"></a>
 
-### *property* ImportedInitialStress.ShellThicknessFactor *: System.Double | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ImportedInitialStress.ShellThicknessFactor *: [float](https://docs.python.org/3/library/functions.html#float) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 ShellThicknessFactor property.
 
@@ -463,7 +463,7 @@ SourceMinimum property.
 
 <a id="ImportedInitialStress.Suppressed"></a>
 
-### *property* ImportedInitialStress.Suppressed *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ImportedInitialStress.Suppressed *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Suppressed.
 
@@ -471,7 +471,7 @@ Gets or sets the Suppressed.
 
 <a id="ImportedInitialStress.UnmappedNodesName"></a>
 
-### *property* ImportedInitialStress.UnmappedNodesName *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ImportedInitialStress.UnmappedNodesName *: [str](https://docs.python.org/3/library/stdtypes.html#str) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 UnmappedNodesName property.
 
@@ -487,7 +487,7 @@ VariableType property.
 
 <a id="ImportedInitialStress.VisibleProperties"></a>
 
-### *property* ImportedInitialStress.VisibleProperties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ImportedInitialStress.VisibleProperties *: [tuple](https://docs.python.org/3/library/stdtypes.html#tuple)[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of properties that are visible for this object.
 
@@ -531,7 +531,7 @@ Creates a new child Figure.
 
 <a id="ImportedInitialStress.AddImage"></a>
 
-### ImportedInitialStress.AddImage(filePath: System.String)
+### ImportedInitialStress.AddImage(filePath: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 ```text
 Creates a new child Image.
@@ -567,7 +567,7 @@ Copies all visible properties from this object to another.
 
 <a id="ImportedInitialStress.CreateParameter"></a>
 
-### ImportedInitialStress.CreateParameter(propName: System.String)
+### ImportedInitialStress.CreateParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Creates a new parameter for a Property.
 
@@ -591,7 +591,7 @@ Creates a copy of the current DataModelObject.
 
 <a id="ImportedInitialStress.ExportToTextFile"></a>
 
-### ImportedInitialStress.ExportToTextFile(filePath: System.String)
+### ImportedInitialStress.ExportToTextFile(filePath: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Run the ExportToTextFile action.
 
@@ -599,7 +599,7 @@ Run the ExportToTextFile action.
 
 <a id="ImportedInitialStress.GetActivateAtLoadStep"></a>
 
-### ImportedInitialStress.GetActivateAtLoadStep(stepNumber: System.UInt32)
+### ImportedInitialStress.GetActivateAtLoadStep(stepNumber: [int](https://docs.python.org/3/library/functions.html#int))
 
 GetActivateAtLoadStep method.
 
@@ -607,7 +607,7 @@ GetActivateAtLoadStep method.
 
 <a id="ImportedInitialStress.GetChildren"></a>
 
-### ImportedInitialStress.GetChildren(recurses: System.Boolean, children: System.Collections.Generic.IList[ChildrenType])
+### ImportedInitialStress.GetChildren(recurses: [bool](https://docs.python.org/3/library/functions.html#bool), children: List[ChildrenType])
 
 Gets the list of children, filtered by type.
 
@@ -615,7 +615,7 @@ Gets the list of children, filtered by type.
 
 <a id="ImportedInitialStress.GetParameter"></a>
 
-### ImportedInitialStress.GetParameter(propName: System.String)
+### ImportedInitialStress.GetParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Gets the parameter corresponding to the given property.
 
@@ -655,7 +655,7 @@ Run the ImportLoad action.
 
 <a id="ImportedInitialStress.PropertyByAPIName"></a>
 
-### ImportedInitialStress.PropertyByAPIName(name: System.String)
+### ImportedInitialStress.PropertyByAPIName(name: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 ```text
 Get a property by its API name.
@@ -666,7 +666,7 @@ If multiple properties have the same API Name, only the first property with that
 
 <a id="ImportedInitialStress.PropertyByName"></a>
 
-### ImportedInitialStress.PropertyByName(name: System.String)
+### ImportedInitialStress.PropertyByName(name: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Get a property by its unique name.
 
@@ -682,7 +682,7 @@ Reload the Imported Load’s setup from its associated configuration file (if av
 
 <a id="ImportedInitialStress.RemoveParameter"></a>
 
-### ImportedInitialStress.RemoveParameter(propName: System.String)
+### ImportedInitialStress.RemoveParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Removes the parameter from the parameter set corresponding to the given property.
 
@@ -690,7 +690,7 @@ Removes the parameter from the parameter set corresponding to the given property
 
 <a id="ImportedInitialStress.SetActivateAtLoadStep"></a>
 
-### ImportedInitialStress.SetActivateAtLoadStep(stepNumber: System.UInt32, bActive: System.Boolean)
+### ImportedInitialStress.SetActivateAtLoadStep(stepNumber: [int](https://docs.python.org/3/library/functions.html#int), bActive: [bool](https://docs.python.org/3/library/functions.html#bool))
 
 SetActivateAtLoadStep method.
 

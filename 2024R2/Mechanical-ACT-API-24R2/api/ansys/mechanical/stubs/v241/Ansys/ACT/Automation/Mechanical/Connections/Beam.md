@@ -17,7 +17,7 @@ Defines a Beam.
 ### Methods
 
 | Name | Description |
-|--------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------|
+|------------------------------------------------------------|-----------------------------------------------------------------------------------|
 | [`Activate`](#Beam.Activate)                               | Activate the current object.                                                      |
 | [`AddCommandSnippet`](#Beam.AddCommandSnippet)             | Creates a new CommandSnippet                                                      |
 | [`AddComment`](#Beam.AddComment)                           | Creates a new child Comment.                                                      |
@@ -41,7 +41,7 @@ Defines a Beam.
 ### Properties
 
 | Name | Description |
-|------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------|
+|----------------------------------------------------------------|---------------------------------------------------------------|
 | [`BeamElementAPDLName`](#Beam.BeamElementAPDLName)             | Gets or sets the BeamElementAPDLName.                         |
 | [`Children`](#Beam.Children)                                   | Gets the list of children.                                    |
 | [`Comments`](#Beam.Comments)                                   | Gets the list of associated comments.                         |
@@ -88,7 +88,7 @@ Defines a Beam.
 
 <a id="Beam.BeamElementAPDLName"></a>
 
-### *property* Beam.BeamElementAPDLName *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Beam.BeamElementAPDLName *: [str](https://docs.python.org/3/library/stdtypes.html#str) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the BeamElementAPDLName.
 
@@ -96,7 +96,7 @@ Gets or sets the BeamElementAPDLName.
 
 <a id="Beam.Children"></a>
 
-### *property* Beam.Children *: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Beam.Children *: List[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of children.
 
@@ -104,7 +104,7 @@ Gets the list of children.
 
 <a id="Beam.Comments"></a>
 
-### *property* Beam.Comments *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Comment](../Comment.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Beam.Comments *: Iterable[[Ansys.ACT.Automation.Mechanical.Comment](../Comment.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated comments.
 
@@ -112,7 +112,7 @@ Gets the list of associated comments.
 
 <a id="Beam.CrossSection"></a>
 
-### *property* Beam.CrossSection *: [Ansys.Mechanical.DataModel.Enums.CrossSectionType](../../../../../../v242/Ansys/Mechanical/DataModel/Enums/CrossSectionType.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.CrossSectionType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Beam.CrossSection *: [Ansys.Mechanical.DataModel.Enums.CrossSectionType](../../../../Mechanical/DataModel/Enums/CrossSectionType.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.CrossSectionType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the CrossSection.
 
@@ -120,7 +120,7 @@ Gets the CrossSection.
 
 <a id="Beam.DataModelObjectCategory"></a>
 
-### *property* Beam.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../../v242/Ansys/Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Beam.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the current DataModelObject’s category.
 
@@ -128,7 +128,7 @@ Gets the current DataModelObject’s category.
 
 <a id="Beam.Figures"></a>
 
-### *property* Beam.Figures *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Figure](../Figure.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Beam.Figures *: Iterable[[Ansys.ACT.Automation.Mechanical.Figure](../Figure.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated figures.
 
@@ -136,7 +136,7 @@ Gets the list of associated figures.
 
 <a id="Beam.Images"></a>
 
-### *property* Beam.Images *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Image](../Image.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Beam.Images *: Iterable[[Ansys.ACT.Automation.Mechanical.Image](../Image.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated images.
 
@@ -152,7 +152,7 @@ Gets the internal object. For advanced usage only.
 
 <a id="Beam.Material"></a>
 
-### *property* Beam.Material *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Beam.Material *: [str](https://docs.python.org/3/library/stdtypes.html#str) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Material.
 
@@ -160,7 +160,7 @@ Gets or sets the Material.
 
 <a id="Beam.MobileAppliedBy"></a>
 
-### *property* Beam.MobileAppliedBy *: [Ansys.Mechanical.DataModel.Enums.RemoteApplicationType](../../../../../../v242/Ansys/Mechanical/DataModel/Enums/RemoteApplicationType.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.RemoteApplicationType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Beam.MobileAppliedBy *: [Ansys.Mechanical.DataModel.Enums.RemoteApplicationType](../../../../Mechanical/DataModel/Enums/RemoteApplicationType.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.RemoteApplicationType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the MobileAppliedBy.
 
@@ -168,7 +168,7 @@ Gets or sets the MobileAppliedBy.
 
 <a id="Beam.MobileBeamMaterial"></a>
 
-### *property* Beam.MobileBeamMaterial *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Beam.MobileBeamMaterial *: [str](https://docs.python.org/3/library/stdtypes.html#str) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the MobileBeamMaterial.
 
@@ -184,7 +184,7 @@ Gets or sets the MobileBeamRadius.
 
 <a id="Beam.MobileBehavior"></a>
 
-### *property* Beam.MobileBehavior *: [Ansys.Mechanical.DataModel.Enums.LoadBehavior](../../../../../../v242/Ansys/Mechanical/DataModel/Enums/LoadBehavior.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.LoadBehavior) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Beam.MobileBehavior *: [Ansys.Mechanical.DataModel.Enums.LoadBehavior](../../../../Mechanical/DataModel/Enums/LoadBehavior.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.LoadBehavior) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the MobileBehavior.
 
@@ -192,7 +192,7 @@ Gets or sets the MobileBehavior.
 
 <a id="Beam.MobileBody"></a>
 
-### *property* Beam.MobileBody *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Beam.MobileBody *: [str](https://docs.python.org/3/library/stdtypes.html#str) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the MobileBody.
 
@@ -248,7 +248,7 @@ Gets or sets the MobileZCoordinate.
 
 <a id="Beam.Properties"></a>
 
-### *property* Beam.Properties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Beam.Properties *: [tuple](https://docs.python.org/3/library/stdtypes.html#tuple)[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of properties for this object.
 
@@ -264,7 +264,7 @@ Gets or sets the Radius.
 
 <a id="Beam.ReadOnly"></a>
 
-### *property* Beam.ReadOnly *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Beam.ReadOnly *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the ReadOnly.
 
@@ -272,7 +272,7 @@ Gets or sets the ReadOnly.
 
 <a id="Beam.ReferenceAppliedBy"></a>
 
-### *property* Beam.ReferenceAppliedBy *: [Ansys.Mechanical.DataModel.Enums.RemoteApplicationType](../../../../../../v242/Ansys/Mechanical/DataModel/Enums/RemoteApplicationType.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.RemoteApplicationType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Beam.ReferenceAppliedBy *: [Ansys.Mechanical.DataModel.Enums.RemoteApplicationType](../../../../Mechanical/DataModel/Enums/RemoteApplicationType.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.RemoteApplicationType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the ReferenceAppliedBy.
 
@@ -280,7 +280,7 @@ Gets or sets the ReferenceAppliedBy.
 
 <a id="Beam.ReferenceBeamMaterial"></a>
 
-### *property* Beam.ReferenceBeamMaterial *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Beam.ReferenceBeamMaterial *: [str](https://docs.python.org/3/library/stdtypes.html#str) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the ReferenceBeamMaterial.
 
@@ -296,7 +296,7 @@ Gets or sets the ReferenceBeamRadius.
 
 <a id="Beam.ReferenceBehavior"></a>
 
-### *property* Beam.ReferenceBehavior *: [Ansys.Mechanical.DataModel.Enums.LoadBehavior](../../../../../../v242/Ansys/Mechanical/DataModel/Enums/LoadBehavior.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.LoadBehavior) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Beam.ReferenceBehavior *: [Ansys.Mechanical.DataModel.Enums.LoadBehavior](../../../../Mechanical/DataModel/Enums/LoadBehavior.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.LoadBehavior) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the ReferenceBehavior.
 
@@ -304,7 +304,7 @@ Gets or sets the ReferenceBehavior.
 
 <a id="Beam.ReferenceBody"></a>
 
-### *property* Beam.ReferenceBody *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Beam.ReferenceBody *: [str](https://docs.python.org/3/library/stdtypes.html#str) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the ReferenceBody.
 
@@ -368,7 +368,7 @@ Gets or sets the ReferenceZCoordinate.
 
 <a id="Beam.Scope"></a>
 
-### *property* Beam.Scope *: [Ansys.Mechanical.DataModel.Enums.SpringScopingType](../../../../../../v242/Ansys/Mechanical/DataModel/Enums/SpringScopingType.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.SpringScopingType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Beam.Scope *: [Ansys.Mechanical.DataModel.Enums.SpringScopingType](../../../../Mechanical/DataModel/Enums/SpringScopingType.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.SpringScopingType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Scope.
 
@@ -376,7 +376,7 @@ Gets or sets the Scope.
 
 <a id="Beam.Suppressed"></a>
 
-### *property* Beam.Suppressed *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Beam.Suppressed *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Suppressed.
 
@@ -384,7 +384,7 @@ Gets or sets the Suppressed.
 
 <a id="Beam.Visible"></a>
 
-### *property* Beam.Visible *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Beam.Visible *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Visible.
 
@@ -392,7 +392,7 @@ Gets or sets the Visible.
 
 <a id="Beam.VisibleProperties"></a>
 
-### *property* Beam.VisibleProperties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Beam.VisibleProperties *: [tuple](https://docs.python.org/3/library/stdtypes.html#tuple)[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of properties that are visible for this object.
 
@@ -436,7 +436,7 @@ Creates a new child Figure.
 
 <a id="Beam.AddImage"></a>
 
-### Beam.AddImage(filePath: System.String)
+### Beam.AddImage(filePath: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 ```text
 Creates a new child Image.
@@ -456,7 +456,7 @@ Copies all visible properties from this object to another.
 
 <a id="Beam.CreateParameter"></a>
 
-### Beam.CreateParameter(propName: System.String)
+### Beam.CreateParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Creates a new parameter for a Property.
 
@@ -480,7 +480,7 @@ Creates a copy of the current DataModelObject.
 
 <a id="Beam.GetChildren"></a>
 
-### Beam.GetChildren(recurses: System.Boolean, children: System.Collections.Generic.IList[ChildrenType])
+### Beam.GetChildren(recurses: [bool](https://docs.python.org/3/library/functions.html#bool), children: List[ChildrenType])
 
 Gets the list of children, filtered by type.
 
@@ -488,7 +488,7 @@ Gets the list of children, filtered by type.
 
 <a id="Beam.GetParameter"></a>
 
-### Beam.GetParameter(propName: System.String)
+### Beam.GetParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Gets the parameter corresponding to the given property.
 
@@ -528,7 +528,7 @@ Run the PromoteToRemotePoint action.
 
 <a id="Beam.PropertyByAPIName"></a>
 
-### Beam.PropertyByAPIName(name: System.String)
+### Beam.PropertyByAPIName(name: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 ```text
 Get a property by its API name.
@@ -539,7 +539,7 @@ If multiple properties have the same API Name, only the first property with that
 
 <a id="Beam.PropertyByName"></a>
 
-### Beam.PropertyByName(name: System.String)
+### Beam.PropertyByName(name: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Get a property by its unique name.
 
@@ -547,7 +547,7 @@ Get a property by its unique name.
 
 <a id="Beam.RemoveParameter"></a>
 
-### Beam.RemoveParameter(propName: System.String)
+### Beam.RemoveParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Removes the parameter from the parameter set corresponding to the given property.
 

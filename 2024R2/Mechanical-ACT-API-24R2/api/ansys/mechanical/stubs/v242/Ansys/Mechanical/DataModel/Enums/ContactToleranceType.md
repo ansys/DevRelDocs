@@ -17,7 +17,7 @@ Specifies the ContactToleranceType.
 ### Attributes
 
 | Name |
-| ---------------------------------------------------------------------------------------------------------------------------------------- |
+| ------------------------------------------------------------ |
 | [`SheetThickness`](#ContactToleranceType.SheetThickness) |
 | [`Slider`](#ContactToleranceType.Slider) |
 | [`Value`](#ContactToleranceType.Value) |

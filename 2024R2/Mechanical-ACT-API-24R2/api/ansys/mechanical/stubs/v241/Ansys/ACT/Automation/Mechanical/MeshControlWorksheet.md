@@ -17,7 +17,7 @@ MeshControlWorksheet class.
 ### Methods
 
 | Name | Description |
-|-----------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------|
+|--------------------------------------------------------------------|------------------------------------------------|
 | [`AddRow`](#MeshControlWorksheet.AddRow)                           | Add a row to the MeshControlWorksheet          |
 | [`ClearGenerateMesh`](#MeshControlWorksheet.ClearGenerateMesh)     | Clear Mesh                                     |
 | [`DeleteAllRows`](#MeshControlWorksheet.DeleteAllRows)             | Delete All Rows                                |
@@ -34,7 +34,7 @@ MeshControlWorksheet class.
 ### Properties
 
 | Name | Description |
-|---------------------------------------------------------------------------------------------------------------------------|------------------------------|
+|------------------------------------------------|------------------------------|
 | [`RowCount`](#MeshControlWorksheet.RowCount)   | Gets the number of entries   |
 
 <a id="property-detail"></a>
@@ -43,7 +43,7 @@ MeshControlWorksheet class.
 
 <a id="MeshControlWorksheet.RowCount"></a>
 
-### *property* MeshControlWorksheet.RowCount *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* MeshControlWorksheet.RowCount *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the number of entries
 
@@ -79,7 +79,7 @@ Delete All Rows
 
 <a id="MeshControlWorksheet.DeleteRow"></a>
 
-### MeshControlWorksheet.DeleteRow(index: System.Int32)
+### MeshControlWorksheet.DeleteRow(index: [int](https://docs.python.org/3/library/functions.html#int))
 
 Delete a row from the MeshControlWorksheet
 
@@ -87,7 +87,7 @@ Delete a row from the MeshControlWorksheet
 
 <a id="MeshControlWorksheet.GenerateAtRow"></a>
 
-### MeshControlWorksheet.GenerateAtRow(index: System.Int32)
+### MeshControlWorksheet.GenerateAtRow(index: [int](https://docs.python.org/3/library/functions.html#int))
 
 Generate Mesh At Row
 
@@ -103,7 +103,7 @@ Geneate Mesh
 
 <a id="MeshControlWorksheet.GetActiveState"></a>
 
-### MeshControlWorksheet.GetActiveState(index: System.Int32)
+### MeshControlWorksheet.GetActiveState(index: [int](https://docs.python.org/3/library/functions.html#int))
 
 Gets the Active State property at row index
 
@@ -111,7 +111,7 @@ Gets the Active State property at row index
 
 <a id="MeshControlWorksheet.GetNamedSelection"></a>
 
-### MeshControlWorksheet.GetNamedSelection(index: System.Int32)
+### MeshControlWorksheet.GetNamedSelection(index: [int](https://docs.python.org/3/library/functions.html#int))
 
 Gets the NamedSelection at row index
 
@@ -119,7 +119,7 @@ Gets the NamedSelection at row index
 
 <a id="MeshControlWorksheet.GetNamedSelectionId"></a>
 
-### MeshControlWorksheet.GetNamedSelectionId(index: System.Int32)
+### MeshControlWorksheet.GetNamedSelectionId(index: [int](https://docs.python.org/3/library/functions.html#int))
 
 Gets the ID of the NamedSelection at row index
 
@@ -127,7 +127,7 @@ Gets the ID of the NamedSelection at row index
 
 <a id="MeshControlWorksheet.SetActiveState"></a>
 
-### MeshControlWorksheet.SetActiveState(index: System.Int32, value: System.Boolean)
+### MeshControlWorksheet.SetActiveState(index: [int](https://docs.python.org/3/library/functions.html#int), value: [bool](https://docs.python.org/3/library/functions.html#bool))
 
 Sets the Active State property at row index
 
@@ -135,7 +135,7 @@ Sets the Active State property at row index
 
 <a id="MeshControlWorksheet.SetNamedSelection"></a>
 
-### MeshControlWorksheet.SetNamedSelection(index: System.Int32, value: [Ansys.ACT.Automation.Mechanical.NamedSelection](../../../../../v242/Ansys/ACT/Automation/Mechanical/NamedSelection.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.NamedSelection))
+### MeshControlWorksheet.SetNamedSelection(index: [int](https://docs.python.org/3/library/functions.html#int), value: [Ansys.ACT.Automation.Mechanical.NamedSelection](NamedSelection.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.NamedSelection))
 
 Sets the NamedSelection at row index
 
@@ -143,7 +143,7 @@ Sets the NamedSelection at row index
 
 <a id="MeshControlWorksheet.SetNamedSelectionId"></a>
 
-### MeshControlWorksheet.SetNamedSelectionId(index: System.Int32, value: System.UInt32)
+### MeshControlWorksheet.SetNamedSelectionId(index: [int](https://docs.python.org/3/library/functions.html#int), value: [int](https://docs.python.org/3/library/functions.html#int))
 
 Sets the NamedSelection by ID at row index
 

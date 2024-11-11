@@ -17,7 +17,7 @@ Specifies the NodeMoveInformationType.
 ### Attributes
 
 | Name |
-| -------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| ------------------------------------------------------------------------- |
 | [`F4KeytoMoveAnywhere`](#NodeMoveInformationType.F4KeytoMoveAnywhere) |
 
 <a id="attribute-detail"></a>

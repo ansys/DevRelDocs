@@ -17,7 +17,7 @@ Specifies the TargetOrientation.
 ### Attributes
 
 | Name |
-| -------------------------------------------------------------------------------------------------------------------------------------- |
+| ------------------------------------------------------------- |
 | [`Circle`](#TargetOrientation.Circle) |
 | [`Cylinder`](#TargetOrientation.Cylinder) |
 | [`ProgramControlled`](#TargetOrientation.ProgramControlled) |

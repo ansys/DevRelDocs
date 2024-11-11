@@ -17,7 +17,7 @@ To select the method of Pull. There are three methods. They are Extrude, Revolve
 ### Attributes
 
 | Name |
-| ------------------------------------------------------------------------------------------------------------------ |
+| ------------------------------------------------ |
 | [`Extrude`](#PullMethod.Extrude) |
 | [`LineCoating`](#PullMethod.LineCoating) |
 | [`Revolve`](#PullMethod.Revolve) |

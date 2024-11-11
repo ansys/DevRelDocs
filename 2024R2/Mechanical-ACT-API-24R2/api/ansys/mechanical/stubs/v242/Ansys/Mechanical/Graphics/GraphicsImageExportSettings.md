@@ -17,7 +17,7 @@ GraphicsImageExportSettings class.
 ### Properties
 
 | Name | Description |
-|----------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+|---------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [`AppendGraph`](#GraphicsImageExportSettings.AppendGraph)                       | Specifies whether to append the viewport graph(s) to the exported image. Defaults to false.                                                                                                                                                                                             |
 | [`Background`](#GraphicsImageExportSettings.Background)                         | Specifies the background color. Defaults to GraphicsAppearanceSetting.                                                                                                                                                                                                                  |
 | [`Capture`](#GraphicsImageExportSettings.Capture)                               | Specifies what to include in the capture. Defaults to ImageAndLegend.                                                                                                                                                                                                                   |
@@ -33,7 +33,7 @@ GraphicsImageExportSettings class.
 
 <a id="GraphicsImageExportSettings.AppendGraph"></a>
 
-### *property* GraphicsImageExportSettings.AppendGraph *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* GraphicsImageExportSettings.AppendGraph *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Specifies whether to append the viewport graph(s) to the exported image. Defaults to false.
 
@@ -57,7 +57,7 @@ Specifies what to include in the capture. Defaults to ImageAndLegend.
 
 <a id="GraphicsImageExportSettings.CurrentGraphicsDisplay"></a>
 
-### *property* GraphicsImageExportSettings.CurrentGraphicsDisplay *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* GraphicsImageExportSettings.CurrentGraphicsDisplay *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Specifies whether to use the current graphics display settings. Defaults to true.
 
@@ -65,7 +65,7 @@ Specifies whether to use the current graphics display settings. Defaults to true
 
 <a id="GraphicsImageExportSettings.FontMagnification"></a>
 
-### *property* GraphicsImageExportSettings.FontMagnification *: System.Double | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* GraphicsImageExportSettings.FontMagnification *: [float](https://docs.python.org/3/library/functions.html#float) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Specifies the font magnification factor. Defaults to 1.0.
 
@@ -73,7 +73,7 @@ Specifies the font magnification factor. Defaults to 1.0.
 
 <a id="GraphicsImageExportSettings.Height"></a>
 
-### *property* GraphicsImageExportSettings.Height *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* GraphicsImageExportSettings.Height *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Specifies the image height. Defaults to 0. If width AND height are zero, this uses the current dimensions. If only one of the two are nonzero, the current dimension’s ratio is used along with the nonzero of the two properties to determine the computed value of the zero property.
 
@@ -89,7 +89,7 @@ Specifies the resolution type. Defaults to NormalResolution.
 
 <a id="GraphicsImageExportSettings.Width"></a>
 
-### *property* GraphicsImageExportSettings.Width *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* GraphicsImageExportSettings.Width *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Specifies the image width. Defaults to 0. If width AND height are zero, this uses the current dimensions. If only one of the two are nonzero, the current dimension’s ratio is used along with the nonzero of the two properties to determine the computed value of the zero property.
 

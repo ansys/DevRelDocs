@@ -36,7 +36,7 @@ Bases: [`object`](https://docs.python.org/3/library/functions.html#object)
 
 <a id="IModelViewManager.NumberOfViews"></a>
 
-### *property* IModelViewManager.NumberOfViews *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* IModelViewManager.NumberOfViews *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 The number of views currently defined.
 
@@ -48,7 +48,7 @@ The number of views currently defined.
 
 <a id="IModelViewManager.ApplyModelView"></a>
 
-### IModelViewManager.ApplyModelView(viewIndex: System.Int32)
+### IModelViewManager.ApplyModelView(viewIndex: [int](https://docs.python.org/3/library/functions.html#int))
 
 Apply the view specified by index.
 
@@ -56,7 +56,7 @@ Apply the view specified by index.
 
 <a id="IModelViewManager.CaptureModelView"></a>
 
-### IModelViewManager.CaptureModelView(index: System.Int32, mode: System.String)
+### IModelViewManager.CaptureModelView(index: [int](https://docs.python.org/3/library/functions.html#int), mode: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Save the view specified by index as a PNG image to the project userfiles.
 
@@ -72,7 +72,7 @@ Create a view from current graphics with default naming.
 
 <a id="IModelViewManager.DeleteView"></a>
 
-### IModelViewManager.DeleteView(viewIndex: System.Int32)
+### IModelViewManager.DeleteView(viewIndex: [int](https://docs.python.org/3/library/functions.html#int))
 
 Delete the specified view by index.
 
@@ -80,7 +80,7 @@ Delete the specified view by index.
 
 <a id="IModelViewManager.ExportModelViews"></a>
 
-### IModelViewManager.ExportModelViews(viewfilepath: System.String)
+### IModelViewManager.ExportModelViews(viewfilepath: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Export model views to the specified file.
 
@@ -88,7 +88,7 @@ Export model views to the specified file.
 
 <a id="IModelViewManager.ImportModelViews"></a>
 
-### IModelViewManager.ImportModelViews(viewfilepath: System.String)
+### IModelViewManager.ImportModelViews(viewfilepath: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Import model views from the specified file.
 
@@ -96,7 +96,7 @@ Import model views from the specified file.
 
 <a id="IModelViewManager.RenameView"></a>
 
-### IModelViewManager.RenameView(viewIndex: System.Int32, newLabel: System.String)
+### IModelViewManager.RenameView(viewIndex: [int](https://docs.python.org/3/library/functions.html#int), newLabel: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Rename the model view specified by viewIndex to newLabel.
 

@@ -17,7 +17,7 @@ Defines a Crack.
 ### Methods
 
 | Name | Description |
-|-------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------|
+|-------------------------------------------------------------|-----------------------------------------------------------------------------------|
 | [`Activate`](#Crack.Activate)                               | Activate the current object.                                                      |
 | [`AddCommandSnippet`](#Crack.AddCommandSnippet)             | Creates a new CommandSnippet                                                      |
 | [`AddComment`](#Crack.AddComment)                           | Creates a new child Comment.                                                      |
@@ -38,7 +38,7 @@ Defines a Crack.
 ### Properties
 
 | Name | Description |
-|-------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------|
+|-------------------------------------------------------------------|---------------------------------------------------------------|
 | [`AlignWithFaceNormal`](#Crack.AlignWithFaceNormal)               | Gets or sets the AlignWithFaceNormal.                         |
 | [`BottomFaceNodes`](#Crack.BottomFaceNodes)                       | Gets or sets the BottomFaceNodes.                             |
 | [`Children`](#Crack.Children)                                     | Gets the list of children.                                    |
@@ -82,7 +82,7 @@ Defines a Crack.
 
 <a id="Crack.AlignWithFaceNormal"></a>
 
-### *property* Crack.AlignWithFaceNormal *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Crack.AlignWithFaceNormal *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the AlignWithFaceNormal.
 
@@ -90,7 +90,7 @@ Gets or sets the AlignWithFaceNormal.
 
 <a id="Crack.BottomFaceNodes"></a>
 
-### *property* Crack.BottomFaceNodes *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Crack.BottomFaceNodes *: [str](https://docs.python.org/3/library/stdtypes.html#str) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the BottomFaceNodes.
 
@@ -98,7 +98,7 @@ Gets or sets the BottomFaceNodes.
 
 <a id="Crack.Children"></a>
 
-### *property* Crack.Children *: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Crack.Children *: List[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of children.
 
@@ -106,7 +106,7 @@ Gets the list of children.
 
 <a id="Crack.CircumferentialDivisions"></a>
 
-### *property* Crack.CircumferentialDivisions *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Crack.CircumferentialDivisions *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the CircumferentialDivisions.
 
@@ -114,7 +114,7 @@ Gets or sets the CircumferentialDivisions.
 
 <a id="Crack.Comments"></a>
 
-### *property* Crack.Comments *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Comment](Comment.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Crack.Comments *: Iterable[[Ansys.ACT.Automation.Mechanical.Comment](Comment.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated comments.
 
@@ -122,7 +122,7 @@ Gets the list of associated comments.
 
 <a id="Crack.Contact1Nodes"></a>
 
-### *property* Crack.Contact1Nodes *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Crack.Contact1Nodes *: [str](https://docs.python.org/3/library/stdtypes.html#str) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Contact1Nodes.
 
@@ -130,7 +130,7 @@ Gets or sets the Contact1Nodes.
 
 <a id="Crack.ContactPairsNodes"></a>
 
-### *property* Crack.ContactPairsNodes *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Crack.ContactPairsNodes *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the ContactPairsNodes.
 
@@ -146,7 +146,7 @@ Gets or sets the CoordinateSystem.
 
 <a id="Crack.CrackFacesNodes"></a>
 
-### *property* Crack.CrackFacesNodes *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Crack.CrackFacesNodes *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the CrackFacesNodes.
 
@@ -154,7 +154,7 @@ Gets or sets the CrackFacesNodes.
 
 <a id="Crack.CrackFrontDivisions"></a>
 
-### *property* Crack.CrackFrontDivisions *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Crack.CrackFrontDivisions *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the CrackFrontDivisions.
 
@@ -162,7 +162,7 @@ Gets or sets the CrackFrontDivisions.
 
 <a id="Crack.CrackFrontNodes"></a>
 
-### *property* Crack.CrackFrontNodes *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Crack.CrackFrontNodes *: [str](https://docs.python.org/3/library/stdtypes.html#str) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the CrackFrontNodes.
 
@@ -170,7 +170,7 @@ Gets or sets the CrackFrontNodes.
 
 <a id="Crack.CrackID"></a>
 
-### *property* Crack.CrackID *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Crack.CrackID *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the CrackID.
 
@@ -178,7 +178,7 @@ Gets the CrackID.
 
 <a id="Crack.CrackShape"></a>
 
-### *property* Crack.CrackShape *: [Ansys.Mechanical.DataModel.Enums.CrackShapeType](../../../../../v242/Ansys/Mechanical/DataModel/Enums/CrackShapeType.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.CrackShapeType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Crack.CrackShape *: [Ansys.Mechanical.DataModel.Enums.CrackShapeType](../../../Mechanical/DataModel/Enums/CrackShapeType.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.CrackShapeType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the CrackShape.
 
@@ -186,7 +186,7 @@ Gets the CrackShape.
 
 <a id="Crack.CrackSourceType"></a>
 
-### *property* Crack.CrackSourceType *: [Ansys.Mechanical.DataModel.Enums.CrackSourceType](../../../../../v242/Ansys/Mechanical/DataModel/Enums/CrackSourceType.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.CrackSourceType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Crack.CrackSourceType *: [Ansys.Mechanical.DataModel.Enums.CrackSourceType](../../../Mechanical/DataModel/Enums/CrackSourceType.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.CrackSourceType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the CrackSourceType.
 
@@ -194,7 +194,7 @@ Gets the CrackSourceType.
 
 <a id="Crack.DataModelObjectCategory"></a>
 
-### *property* Crack.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../v242/Ansys/Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Crack.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the current DataModelObject’s category.
 
@@ -202,7 +202,7 @@ Gets the current DataModelObject’s category.
 
 <a id="Crack.FaceTopNodes"></a>
 
-### *property* Crack.FaceTopNodes *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Crack.FaceTopNodes *: [str](https://docs.python.org/3/library/stdtypes.html#str) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the FaceTopNodes.
 
@@ -210,7 +210,7 @@ Gets or sets the FaceTopNodes.
 
 <a id="Crack.Figures"></a>
 
-### *property* Crack.Figures *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Figure](Figure.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Crack.Figures *: Iterable[[Ansys.ACT.Automation.Mechanical.Figure](Figure.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated figures.
 
@@ -234,7 +234,7 @@ Gets or sets the FractureAffectedZoneHeight.
 
 <a id="Crack.Images"></a>
 
-### *property* Crack.Images *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Image](Image.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Crack.Images *: Iterable[[Ansys.ACT.Automation.Mechanical.Image](Image.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated images.
 
@@ -274,7 +274,7 @@ Gets or sets the MajorRadius.
 
 <a id="Crack.MeshContours"></a>
 
-### *property* Crack.MeshContours *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Crack.MeshContours *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the MeshContours.
 
@@ -290,7 +290,7 @@ Gets or sets the MinorRadius.
 
 <a id="Crack.ProjectToNearestSurface"></a>
 
-### *property* Crack.ProjectToNearestSurface *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Crack.ProjectToNearestSurface *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the ProjectToNearestSurface.
 
@@ -298,7 +298,7 @@ Gets or sets the ProjectToNearestSurface.
 
 <a id="Crack.Properties"></a>
 
-### *property* Crack.Properties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Crack.Properties *: [tuple](https://docs.python.org/3/library/stdtypes.html#tuple)[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of properties for this object.
 
@@ -306,7 +306,7 @@ Gets the list of properties for this object.
 
 <a id="Crack.ReadOnly"></a>
 
-### *property* Crack.ReadOnly *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Crack.ReadOnly *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the ReadOnly.
 
@@ -314,7 +314,7 @@ Gets or sets the ReadOnly.
 
 <a id="Crack.SolutionContours"></a>
 
-### *property* Crack.SolutionContours *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Crack.SolutionContours *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the SolutionContours.
 
@@ -322,7 +322,7 @@ Gets or sets the SolutionContours.
 
 <a id="Crack.Suppressed"></a>
 
-### *property* Crack.Suppressed *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Crack.Suppressed *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Suppressed.
 
@@ -330,7 +330,7 @@ Gets or sets the Suppressed.
 
 <a id="Crack.Target1Nodes"></a>
 
-### *property* Crack.Target1Nodes *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Crack.Target1Nodes *: [str](https://docs.python.org/3/library/stdtypes.html#str) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Target1Nodes.
 
@@ -338,7 +338,7 @@ Gets or sets the Target1Nodes.
 
 <a id="Crack.VisibleProperties"></a>
 
-### *property* Crack.VisibleProperties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Crack.VisibleProperties *: [tuple](https://docs.python.org/3/library/stdtypes.html#tuple)[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of properties that are visible for this object.
 
@@ -346,7 +346,7 @@ Gets the list of properties that are visible for this object.
 
 <a id="Crack.XScaleFactor"></a>
 
-### *property* Crack.XScaleFactor *: System.Double | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Crack.XScaleFactor *: [float](https://docs.python.org/3/library/functions.html#float) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the XScaleFactor.
 
@@ -354,7 +354,7 @@ Gets or sets the XScaleFactor.
 
 <a id="Crack.YScaleFactor"></a>
 
-### *property* Crack.YScaleFactor *: System.Double | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Crack.YScaleFactor *: [float](https://docs.python.org/3/library/functions.html#float) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the YScaleFactor.
 
@@ -362,7 +362,7 @@ Gets or sets the YScaleFactor.
 
 <a id="Crack.ZScaleFactor"></a>
 
-### *property* Crack.ZScaleFactor *: System.Double | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Crack.ZScaleFactor *: [float](https://docs.python.org/3/library/functions.html#float) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the ZScaleFactor.
 
@@ -406,7 +406,7 @@ Creates a new child Figure.
 
 <a id="Crack.AddImage"></a>
 
-### Crack.AddImage(filePath: System.String)
+### Crack.AddImage(filePath: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 ```text
 Creates a new child Image.
@@ -426,7 +426,7 @@ Copies all visible properties from this object to another.
 
 <a id="Crack.CreateParameter"></a>
 
-### Crack.CreateParameter(propName: System.String)
+### Crack.CreateParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Creates a new parameter for a Property.
 
@@ -450,7 +450,7 @@ Creates a copy of the current DataModelObject.
 
 <a id="Crack.GetChildren"></a>
 
-### Crack.GetChildren(recurses: System.Boolean, children: System.Collections.Generic.IList[ChildrenType])
+### Crack.GetChildren(recurses: [bool](https://docs.python.org/3/library/functions.html#bool), children: List[ChildrenType])
 
 Gets the list of children, filtered by type.
 
@@ -458,7 +458,7 @@ Gets the list of children, filtered by type.
 
 <a id="Crack.GetParameter"></a>
 
-### Crack.GetParameter(propName: System.String)
+### Crack.GetParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Gets the parameter corresponding to the given property.
 
@@ -482,7 +482,7 @@ Run the GroupSimilarObjects action.
 
 <a id="Crack.PropertyByAPIName"></a>
 
-### Crack.PropertyByAPIName(name: System.String)
+### Crack.PropertyByAPIName(name: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 ```text
 Get a property by its API name.
@@ -493,7 +493,7 @@ If multiple properties have the same API Name, only the first property with that
 
 <a id="Crack.PropertyByName"></a>
 
-### Crack.PropertyByName(name: System.String)
+### Crack.PropertyByName(name: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Get a property by its unique name.
 
@@ -501,7 +501,7 @@ Get a property by its unique name.
 
 <a id="Crack.RemoveParameter"></a>
 
-### Crack.RemoveParameter(propName: System.String)
+### Crack.RemoveParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Removes the parameter from the parameter set corresponding to the given property.
 

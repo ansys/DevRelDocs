@@ -17,7 +17,7 @@ Defines a GenericBoundaryCondition.
 ### Methods
 
 | Name | Description |
-|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------|
+|--------------------------------------------------------------------------------|-----------------------------------------------------------------------------------|
 | [`Activate`](#GenericBoundaryCondition.Activate)                               | Activate the current object.                                                      |
 | [`AddComment`](#GenericBoundaryCondition.AddComment)                           | Creates a new child Comment.                                                      |
 | [`AddFigure`](#GenericBoundaryCondition.AddFigure)                             | Creates a new child Figure.                                                       |
@@ -38,7 +38,7 @@ Defines a GenericBoundaryCondition.
 ### Properties
 
 | Name | Description |
-|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------|
+|--------------------------------------------------------------------------------|---------------------------------------------------------------|
 | [`Children`](#GenericBoundaryCondition.Children)                               | Gets the list of children.                                    |
 | [`Comments`](#GenericBoundaryCondition.Comments)                               | Gets the list of associated comments.                         |
 | [`DataModelObjectCategory`](#GenericBoundaryCondition.DataModelObjectCategory) | Gets the current DataModelObject’s category.                  |
@@ -57,7 +57,7 @@ Defines a GenericBoundaryCondition.
 
 <a id="GenericBoundaryCondition.Children"></a>
 
-### *property* GenericBoundaryCondition.Children *: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* GenericBoundaryCondition.Children *: List[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of children.
 
@@ -65,7 +65,7 @@ Gets the list of children.
 
 <a id="GenericBoundaryCondition.Comments"></a>
 
-### *property* GenericBoundaryCondition.Comments *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Comment](../Comment.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* GenericBoundaryCondition.Comments *: Iterable[[Ansys.ACT.Automation.Mechanical.Comment](../Comment.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated comments.
 
@@ -73,7 +73,7 @@ Gets the list of associated comments.
 
 <a id="GenericBoundaryCondition.DataModelObjectCategory"></a>
 
-### *property* GenericBoundaryCondition.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../../v242/Ansys/Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* GenericBoundaryCondition.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the current DataModelObject’s category.
 
@@ -81,7 +81,7 @@ Gets the current DataModelObject’s category.
 
 <a id="GenericBoundaryCondition.Figures"></a>
 
-### *property* GenericBoundaryCondition.Figures *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Figure](../Figure.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* GenericBoundaryCondition.Figures *: Iterable[[Ansys.ACT.Automation.Mechanical.Figure](../Figure.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated figures.
 
@@ -89,7 +89,7 @@ Gets the list of associated figures.
 
 <a id="GenericBoundaryCondition.Images"></a>
 
-### *property* GenericBoundaryCondition.Images *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Image](../Image.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* GenericBoundaryCondition.Images *: Iterable[[Ansys.ACT.Automation.Mechanical.Image](../Image.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated images.
 
@@ -105,7 +105,7 @@ Gets the internal object. For advanced usage only.
 
 <a id="GenericBoundaryCondition.Properties"></a>
 
-### *property* GenericBoundaryCondition.Properties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* GenericBoundaryCondition.Properties *: [tuple](https://docs.python.org/3/library/stdtypes.html#tuple)[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of properties for this object.
 
@@ -113,7 +113,7 @@ Gets the list of properties for this object.
 
 <a id="GenericBoundaryCondition.ReadOnly"></a>
 
-### *property* GenericBoundaryCondition.ReadOnly *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* GenericBoundaryCondition.ReadOnly *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the ReadOnly.
 
@@ -129,7 +129,7 @@ Gets or sets the SharedRefBody.
 
 <a id="GenericBoundaryCondition.Suppressed"></a>
 
-### *property* GenericBoundaryCondition.Suppressed *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* GenericBoundaryCondition.Suppressed *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Suppressed.
 
@@ -137,7 +137,7 @@ Gets or sets the Suppressed.
 
 <a id="GenericBoundaryCondition.VisibleProperties"></a>
 
-### *property* GenericBoundaryCondition.VisibleProperties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* GenericBoundaryCondition.VisibleProperties *: [tuple](https://docs.python.org/3/library/stdtypes.html#tuple)[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of properties that are visible for this object.
 
@@ -173,7 +173,7 @@ Creates a new child Figure.
 
 <a id="GenericBoundaryCondition.AddImage"></a>
 
-### GenericBoundaryCondition.AddImage(filePath: System.String)
+### GenericBoundaryCondition.AddImage(filePath: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 ```text
 Creates a new child Image.
@@ -193,7 +193,7 @@ Copies all visible properties from this object to another.
 
 <a id="GenericBoundaryCondition.CreateParameter"></a>
 
-### GenericBoundaryCondition.CreateParameter(propName: System.String)
+### GenericBoundaryCondition.CreateParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Creates a new parameter for a Property.
 
@@ -217,7 +217,7 @@ Creates a copy of the current DataModelObject.
 
 <a id="GenericBoundaryCondition.GetChildren"></a>
 
-### GenericBoundaryCondition.GetChildren(recurses: System.Boolean, children: System.Collections.Generic.IList[ChildrenType])
+### GenericBoundaryCondition.GetChildren(recurses: [bool](https://docs.python.org/3/library/functions.html#bool), children: List[ChildrenType])
 
 Gets the list of children, filtered by type.
 
@@ -225,7 +225,7 @@ Gets the list of children, filtered by type.
 
 <a id="GenericBoundaryCondition.GetParameter"></a>
 
-### GenericBoundaryCondition.GetParameter(propName: System.String)
+### GenericBoundaryCondition.GetParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Gets the parameter corresponding to the given property.
 
@@ -257,7 +257,7 @@ Run the PromoteToNamedSelection action.
 
 <a id="GenericBoundaryCondition.PropertyByAPIName"></a>
 
-### GenericBoundaryCondition.PropertyByAPIName(name: System.String)
+### GenericBoundaryCondition.PropertyByAPIName(name: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 ```text
 Get a property by its API name.
@@ -268,7 +268,7 @@ If multiple properties have the same API Name, only the first property with that
 
 <a id="GenericBoundaryCondition.PropertyByName"></a>
 
-### GenericBoundaryCondition.PropertyByName(name: System.String)
+### GenericBoundaryCondition.PropertyByName(name: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Get a property by its unique name.
 
@@ -276,7 +276,7 @@ Get a property by its unique name.
 
 <a id="GenericBoundaryCondition.RemoveParameter"></a>
 
-### GenericBoundaryCondition.RemoveParameter(propName: System.String)
+### GenericBoundaryCondition.RemoveParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Removes the parameter from the parameter set corresponding to the given property.
 

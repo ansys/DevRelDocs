@@ -17,7 +17,7 @@ Specifies how to enable mesh preservation on parts during update.
 ### Attributes
 
 | Name |
-| ---------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| -------------------------------------------------------------- |
 | [`Associatively`](#ComparePartsOnUpdate.Associatively) |
 | [`NonAssociatively`](#ComparePartsOnUpdate.NonAssociatively) |
 | [`None_`](#ComparePartsOnUpdate.None_) |

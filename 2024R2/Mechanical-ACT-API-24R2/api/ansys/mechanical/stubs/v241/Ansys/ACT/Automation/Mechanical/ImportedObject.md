@@ -17,7 +17,7 @@ Defines a row object in Imported Objects.
 ### Methods
 
 | Name | Description |
-|---------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------|
+|------------------------------------------------------------------------|-----------------------------------------------------------------------------|
 | [`GetPropertyNames`](#ImportedObject.GetPropertyNames)                 | This method gives the complete list of property names that are supported.   |
 | [`GetPropertyValueAsString`](#ImportedObject.GetPropertyValueAsString) | Data in string format that is present on the columns                        |
 | [`SetPropertyValue`](#ImportedObject.SetPropertyValue)                 | Set the data for a give property name                                       |
@@ -25,7 +25,7 @@ Defines a row object in Imported Objects.
 ### Properties
 
 | Name | Description |
-|-------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------|
+|----------------------------------------------------|--------------------------------------------------------------|
 | [`Active`](#ImportedObject.Active)                 | This property sets the object to active or inactive status   |
 | [`InternalObject`](#ImportedObject.InternalObject) | Gets the internal object. For advanced usage only.           |
 
@@ -35,7 +35,7 @@ Defines a row object in Imported Objects.
 
 <a id="ImportedObject.Active"></a>
 
-### *property* ImportedObject.Active *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ImportedObject.Active *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 This property sets the object to active or inactive status
 
@@ -63,7 +63,7 @@ This method gives the complete list of property names that are supported.
 
 <a id="ImportedObject.GetPropertyValueAsString"></a>
 
-### ImportedObject.GetPropertyValueAsString(name: System.String)
+### ImportedObject.GetPropertyValueAsString(name: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Data in string format that is present on the columns
 
@@ -71,7 +71,7 @@ Data in string format that is present on the columns
 
 <a id="ImportedObject.SetPropertyValue"></a>
 
-### ImportedObject.SetPropertyValue(name: System.String, value: System.Object)
+### ImportedObject.SetPropertyValue(name: [str](https://docs.python.org/3/library/stdtypes.html#str), value: Any)
 
 Set the data for a give property name
 

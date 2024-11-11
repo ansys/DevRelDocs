@@ -62,7 +62,7 @@ Gets or sets the BuildDirection.
 
 <a id="AMOverhangConstraint.Children"></a>
 
-### *property* AMOverhangConstraint.Children *: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AMOverhangConstraint.Children *: List[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of children.
 
@@ -70,7 +70,7 @@ Gets the list of children.
 
 <a id="AMOverhangConstraint.CoordinateSystem"></a>
 
-### *property* AMOverhangConstraint.CoordinateSystem *: [Ansys.ACT.Automation.Mechanical.CoordinateSystem](../../../../../v241/Ansys/ACT/Automation/Mechanical/CoordinateSystem.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.CoordinateSystem) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AMOverhangConstraint.CoordinateSystem *: [Ansys.ACT.Automation.Mechanical.CoordinateSystem](CoordinateSystem.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.CoordinateSystem) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the CoordinateSystem.
 
@@ -102,7 +102,7 @@ Gets or sets the OverhangAngle.
 
 <a id="AMOverhangConstraint.Properties"></a>
 
-### *property* AMOverhangConstraint.Properties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AMOverhangConstraint.Properties *: [tuple](https://docs.python.org/3/library/stdtypes.html#tuple)[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of properties for this object.
 
@@ -126,7 +126,7 @@ Gets or sets the Selection.
 
 <a id="AMOverhangConstraint.Suppressed"></a>
 
-### *property* AMOverhangConstraint.Suppressed *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AMOverhangConstraint.Suppressed *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Suppressed.
 
@@ -134,7 +134,7 @@ Gets or sets the Suppressed.
 
 <a id="AMOverhangConstraint.VisibleProperties"></a>
 
-### *property* AMOverhangConstraint.VisibleProperties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AMOverhangConstraint.VisibleProperties *: [tuple](https://docs.python.org/3/library/stdtypes.html#tuple)[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of properties that are visible for this object.
 
@@ -162,7 +162,7 @@ Copies all visible properties from this object to another.
 
 <a id="AMOverhangConstraint.CreateParameter"></a>
 
-### AMOverhangConstraint.CreateParameter(propName: System.String)
+### AMOverhangConstraint.CreateParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Creates a new parameter for a Property.
 
@@ -186,7 +186,7 @@ Creates a copy of the current DataModelObject.
 
 <a id="AMOverhangConstraint.GetChildren"></a>
 
-### AMOverhangConstraint.GetChildren(recurses: System.Boolean, children: System.Collections.Generic.IList[ChildrenType])
+### AMOverhangConstraint.GetChildren(recurses: [bool](https://docs.python.org/3/library/functions.html#bool), children: List[ChildrenType])
 
 Gets the list of children, filtered by type.
 
@@ -194,7 +194,7 @@ Gets the list of children, filtered by type.
 
 <a id="AMOverhangConstraint.GetParameter"></a>
 
-### AMOverhangConstraint.GetParameter(propName: System.String)
+### AMOverhangConstraint.GetParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Gets the parameter corresponding to the given property.
 
@@ -218,7 +218,7 @@ Run the GroupSimilarObjects action.
 
 <a id="AMOverhangConstraint.PropertyByAPIName"></a>
 
-### AMOverhangConstraint.PropertyByAPIName(name: System.String)
+### AMOverhangConstraint.PropertyByAPIName(name: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 ```text
 Get a property by its API name.
@@ -229,7 +229,7 @@ If multiple properties have the same API Name, only the first property with that
 
 <a id="AMOverhangConstraint.PropertyByName"></a>
 
-### AMOverhangConstraint.PropertyByName(name: System.String)
+### AMOverhangConstraint.PropertyByName(name: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Get a property by its unique name.
 
@@ -237,7 +237,7 @@ Get a property by its unique name.
 
 <a id="AMOverhangConstraint.RemoveParameter"></a>
 
-### AMOverhangConstraint.RemoveParameter(propName: System.String)
+### AMOverhangConstraint.RemoveParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Removes the parameter from the parameter set corresponding to the given property.
 

@@ -17,7 +17,7 @@ Defines a Figure.
 ### Methods
 
 | Name | Description |
-|---------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------|
+|--------------------------------------------------------------|-----------------------------------------------------------------------------------|
 | [`Activate`](#Figure.Activate)                               | Activate the current object.                                                      |
 | [`AddComment`](#Figure.AddComment)                           | Creates a new child Comment.                                                      |
 | [`CopyTo`](#Figure.CopyTo)                                   | Copies all visible properties from this object to another.                        |
@@ -35,7 +35,7 @@ Defines a Figure.
 ### Properties
 
 | Name | Description |
-|---------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------|
+|--------------------------------------------------------------|---------------------------------------------------------------|
 | [`Children`](#Figure.Children)                               | Gets the list of children.                                    |
 | [`Comments`](#Figure.Comments)                               | Gets the list of associated comments.                         |
 | [`DataModelObjectCategory`](#Figure.DataModelObjectCategory) | Gets the current DataModelObject’s category.                  |
@@ -50,7 +50,7 @@ Defines a Figure.
 
 <a id="Figure.Children"></a>
 
-### *property* Figure.Children *: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Figure.Children *: List[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of children.
 
@@ -58,7 +58,7 @@ Gets the list of children.
 
 <a id="Figure.Comments"></a>
 
-### *property* Figure.Comments *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Comment](Comment.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Figure.Comments *: Iterable[[Ansys.ACT.Automation.Mechanical.Comment](Comment.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated comments.
 
@@ -66,7 +66,7 @@ Gets the list of associated comments.
 
 <a id="Figure.DataModelObjectCategory"></a>
 
-### *property* Figure.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../v242/Ansys/Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Figure.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the current DataModelObject’s category.
 
@@ -82,7 +82,7 @@ Gets the internal object. For advanced usage only.
 
 <a id="Figure.Properties"></a>
 
-### *property* Figure.Properties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Figure.Properties *: [tuple](https://docs.python.org/3/library/stdtypes.html#tuple)[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of properties for this object.
 
@@ -90,7 +90,7 @@ Gets the list of properties for this object.
 
 <a id="Figure.Text"></a>
 
-### *property* Figure.Text *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Figure.Text *: [str](https://docs.python.org/3/library/stdtypes.html#str) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Text.
 
@@ -98,7 +98,7 @@ Gets or sets the Text.
 
 <a id="Figure.VisibleProperties"></a>
 
-### *property* Figure.VisibleProperties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Figure.VisibleProperties *: [tuple](https://docs.python.org/3/library/stdtypes.html#tuple)[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of properties that are visible for this object.
 
@@ -134,7 +134,7 @@ Copies all visible properties from this object to another.
 
 <a id="Figure.CreateParameter"></a>
 
-### Figure.CreateParameter(propName: System.String)
+### Figure.CreateParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Creates a new parameter for a Property.
 
@@ -158,7 +158,7 @@ Creates a copy of the current DataModelObject.
 
 <a id="Figure.GetChildren"></a>
 
-### Figure.GetChildren(recurses: System.Boolean, children: System.Collections.Generic.IList[ChildrenType])
+### Figure.GetChildren(recurses: [bool](https://docs.python.org/3/library/functions.html#bool), children: List[ChildrenType])
 
 Gets the list of children, filtered by type.
 
@@ -166,7 +166,7 @@ Gets the list of children, filtered by type.
 
 <a id="Figure.GetParameter"></a>
 
-### Figure.GetParameter(propName: System.String)
+### Figure.GetParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Gets the parameter corresponding to the given property.
 
@@ -190,7 +190,7 @@ Run the GroupSimilarObjects action.
 
 <a id="Figure.PropertyByAPIName"></a>
 
-### Figure.PropertyByAPIName(name: System.String)
+### Figure.PropertyByAPIName(name: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 ```text
 Get a property by its API name.
@@ -201,7 +201,7 @@ If multiple properties have the same API Name, only the first property with that
 
 <a id="Figure.PropertyByName"></a>
 
-### Figure.PropertyByName(name: System.String)
+### Figure.PropertyByName(name: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Get a property by its unique name.
 
@@ -209,7 +209,7 @@ Get a property by its unique name.
 
 <a id="Figure.RemoveParameter"></a>
 
-### Figure.RemoveParameter(propName: System.String)
+### Figure.RemoveParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Removes the parameter from the parameter set corresponding to the given property.
 

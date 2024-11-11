@@ -17,7 +17,7 @@ A basic definition of the external data file.
 ### Properties
 
 | Name | Description |
-|------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------|
+|------------------------------------------------------|--------------------------------------------------------------------|
 | [`Description`](#ExternalDataFile.Description)       | Gets or sets the optional description of the external data file.   |
 | [`FilePath`](#ExternalDataFile.FilePath)             | Gets or sets the file path of the external data file.              |
 | [`Identifier`](#ExternalDataFile.Identifier)         | Gets or sets the identifier of the external data file.             |
@@ -30,7 +30,7 @@ A basic definition of the external data file.
 
 <a id="ExternalDataFile.Description"></a>
 
-### *property* ExternalDataFile.Description *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ExternalDataFile.Description *: [str](https://docs.python.org/3/library/stdtypes.html#str) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the optional description of the external data file.
 
@@ -38,7 +38,7 @@ Gets or sets the optional description of the external data file.
 
 <a id="ExternalDataFile.FilePath"></a>
 
-### *property* ExternalDataFile.FilePath *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ExternalDataFile.FilePath *: [str](https://docs.python.org/3/library/stdtypes.html#str) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the file path of the external data file.
 
@@ -46,7 +46,7 @@ Gets or sets the file path of the external data file.
 
 <a id="ExternalDataFile.Identifier"></a>
 
-### *property* ExternalDataFile.Identifier *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ExternalDataFile.Identifier *: [str](https://docs.python.org/3/library/stdtypes.html#str) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the identifier of the external data file.
 
@@ -60,7 +60,7 @@ Gets or sets the identifier of the external data file.
 
 <a id="ExternalDataFile.IsMainFile"></a>
 
-### *property* ExternalDataFile.IsMainFile *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ExternalDataFile.IsMainFile *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 <!-- !! processed by numpydoc !! -->
 

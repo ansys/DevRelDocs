@@ -17,7 +17,7 @@ BrowserQt class.
 ### Methods
 
 | Name | Description |
-|---------------------------------------------------------------------------------------------------------------------|------------------------------------|
+|-----------------------------------------------------------------------|------------------------------------|
 | [`BeginInvoke`](#BrowserQt.BeginInvoke)                               | BeginInvoke method.                |
 | [`BringToFront`](#BrowserQt.BringToFront)                             | BringToFront method.               |
 | [`Dispose`](#BrowserQt.Dispose)                                       | Dispose method.                    |
@@ -39,7 +39,7 @@ BrowserQt class.
 ### Properties
 
 | Name | Description |
-|-----------------------------------------------------------------------------------------------|---------------------------|
+|-------------------------------------------------|---------------------------|
 | [`BackColor`](#BrowserQt.BackColor)             | BackColor property.       |
 | [`Bounds`](#BrowserQt.Bounds)                   | Bounds property.          |
 | [`Controls`](#BrowserQt.Controls)               | Controls property.        |
@@ -105,7 +105,7 @@ Cursor property.
 
 <a id="BrowserQt.Enabled"></a>
 
-### *property* BrowserQt.Enabled *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* BrowserQt.Enabled *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Enabled property.
 
@@ -113,7 +113,7 @@ Enabled property.
 
 <a id="BrowserQt.Focused"></a>
 
-### *property* BrowserQt.Focused *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* BrowserQt.Focused *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Focused property.
 
@@ -137,7 +137,7 @@ ForeColor property.
 
 <a id="BrowserQt.Height"></a>
 
-### *property* BrowserQt.Height *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* BrowserQt.Height *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Height property.
 
@@ -145,7 +145,7 @@ Height property.
 
 <a id="BrowserQt.InvokeRequired"></a>
 
-### *property* BrowserQt.InvokeRequired *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* BrowserQt.InvokeRequired *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 InvokeRequired property.
 
@@ -153,7 +153,7 @@ InvokeRequired property.
 
 <a id="BrowserQt.IsDisposed"></a>
 
-### *property* BrowserQt.IsDisposed *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* BrowserQt.IsDisposed *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 IsDisposed property.
 
@@ -161,7 +161,7 @@ IsDisposed property.
 
 <a id="BrowserQt.IsMouseCaptured"></a>
 
-### *property* BrowserQt.IsMouseCaptured *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* BrowserQt.IsMouseCaptured *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 IsMouseCaptured property.
 
@@ -169,7 +169,7 @@ IsMouseCaptured property.
 
 <a id="BrowserQt.Left"></a>
 
-### *property* BrowserQt.Left *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* BrowserQt.Left *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Left property.
 
@@ -209,7 +209,7 @@ MinimumSize property.
 
 <a id="BrowserQt.Name"></a>
 
-### *property* BrowserQt.Name *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* BrowserQt.Name *: [str](https://docs.python.org/3/library/stdtypes.html#str) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Name property.
 
@@ -241,7 +241,7 @@ Size property.
 
 <a id="BrowserQt.Tag"></a>
 
-### *property* BrowserQt.Tag *: System.Object | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* BrowserQt.Tag *: Any | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Tag property.
 
@@ -249,7 +249,7 @@ Tag property.
 
 <a id="BrowserQt.ToolTipText"></a>
 
-### *property* BrowserQt.ToolTipText *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* BrowserQt.ToolTipText *: [str](https://docs.python.org/3/library/stdtypes.html#str) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 ToolTipText property.
 
@@ -257,7 +257,7 @@ ToolTipText property.
 
 <a id="BrowserQt.Top"></a>
 
-### *property* BrowserQt.Top *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* BrowserQt.Top *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Top property.
 
@@ -265,7 +265,7 @@ Top property.
 
 <a id="BrowserQt.Visible"></a>
 
-### *property* BrowserQt.Visible *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* BrowserQt.Visible *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Visible property.
 
@@ -273,7 +273,7 @@ Visible property.
 
 <a id="BrowserQt.Width"></a>
 
-### *property* BrowserQt.Width *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* BrowserQt.Width *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Width property.
 
@@ -285,7 +285,7 @@ Width property.
 
 <a id="BrowserQt.BeginInvoke"></a>
 
-### BrowserQt.BeginInvoke(method: System.Delegate, args: System.Object)
+### BrowserQt.BeginInvoke(method: System.Delegate, args: Any)
 
 BeginInvoke method.
 
@@ -349,7 +349,7 @@ Focus method.
 
 <a id="BrowserQt.GetPreferredHeightForWidth"></a>
 
-### BrowserQt.GetPreferredHeightForWidth(width: System.Int32)
+### BrowserQt.GetPreferredHeightForWidth(width: [int](https://docs.python.org/3/library/functions.html#int))
 
 GetPreferredHeightForWidth method.
 
@@ -381,7 +381,7 @@ Invalidate method.
 
 <a id="BrowserQt.Invoke"></a>
 
-### BrowserQt.Invoke(method: System.Delegate, args: System.Object)
+### BrowserQt.Invoke(method: System.Delegate, args: Any)
 
 Invoke method.
 

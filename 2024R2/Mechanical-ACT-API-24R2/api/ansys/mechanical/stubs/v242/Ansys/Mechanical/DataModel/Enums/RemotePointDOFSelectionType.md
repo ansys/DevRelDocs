@@ -17,7 +17,7 @@ Specifies the RemotePointDOFSelectionType.
 ### Attributes
 
 | Name |
-| ---------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| ----------------------------------------------------------------------- |
 | [`Manual`](#RemotePointDOFSelectionType.Manual) |
 | [`ProgramControlled`](#RemotePointDOFSelectionType.ProgramControlled) |
 

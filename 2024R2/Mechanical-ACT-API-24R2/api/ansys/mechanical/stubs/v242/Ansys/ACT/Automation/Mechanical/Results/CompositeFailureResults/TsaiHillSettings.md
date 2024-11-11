@@ -42,7 +42,7 @@ Gets or sets whether the failure criterion is evaluated only in-plane (2D),
 
 <a id="TsaiHillSettings.WeightingFactor"></a>
 
-### *property* TsaiHillSettings.WeightingFactor *: System.Double | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* TsaiHillSettings.WeightingFactor *: [float](https://docs.python.org/3/library/functions.html#float) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the weighting factor for the failure criterion.
 : The corresponding failure label is ‘th’.

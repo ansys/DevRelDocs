@@ -17,7 +17,7 @@ Specifies the AxisSelectionType.
 ### Attributes
 
 | Name |
-| -------------------------------------------------------------------------------------------------------------- |
+| ------------------------------------- |
 | [`All`](#AxisSelectionType.All) |
 | [`XAxis`](#AxisSelectionType.XAxis) |
 | [`YAxis`](#AxisSelectionType.YAxis) |

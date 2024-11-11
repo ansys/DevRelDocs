@@ -17,7 +17,7 @@ Specifies the DiagonalOrConsistent.
 ### Attributes
 
 | Name |
-| -------------------------------------------------------------------------------------------------------------------------------------------- |
+| ---------------------------------------------------------------- |
 | [`Consistent`](#DiagonalOrConsistent.Consistent) |
 | [`Diagonal`](#DiagonalOrConsistent.Diagonal) |
 | [`ProgramControlled`](#DiagonalOrConsistent.ProgramControlled) |

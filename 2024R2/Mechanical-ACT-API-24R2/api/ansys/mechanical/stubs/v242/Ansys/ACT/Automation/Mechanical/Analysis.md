@@ -225,7 +225,7 @@ Gets or sets the AMProcessSimulation.
 
 <a id="Analysis.Acoustics"></a>
 
-### *property* Analysis.Acoustics *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Analysis.Acoustics *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Acoustics.
 
@@ -233,7 +233,7 @@ Gets or sets the Acoustics.
 
 <a id="Analysis.AnalysisSettings"></a>
 
-### *property* Analysis.AnalysisSettings *: [Ansys.ACT.Automation.Mechanical.AnalysisSettings.AnalysisSettings](../../../../../v241/Ansys/ACT/Automation/Mechanical/AnalysisSettings/AnalysisSettings.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.AnalysisSettings.AnalysisSettings) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Analysis.AnalysisSettings *: [Ansys.ACT.Automation.Mechanical.AnalysisSettings.AnalysisSettings](AnalysisSettings/AnalysisSettings.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.AnalysisSettings.AnalysisSettings) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the AnalysisSettings.
 
@@ -249,7 +249,7 @@ Gets the AnalysisType.
 
 <a id="Analysis.CellId"></a>
 
-### *property* Analysis.CellId *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Analysis.CellId *: [str](https://docs.python.org/3/library/stdtypes.html#str) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the CellId.
 
@@ -257,7 +257,7 @@ Gets the CellId.
 
 <a id="Analysis.Children"></a>
 
-### *property* Analysis.Children *: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Analysis.Children *: List[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of children.
 
@@ -265,7 +265,7 @@ Gets the list of children.
 
 <a id="Analysis.Comments"></a>
 
-### *property* Analysis.Comments *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Comment](../../../../../v241/Ansys/ACT/Automation/Mechanical/Comment.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Analysis.Comments *: Iterable[[Ansys.ACT.Automation.Mechanical.Comment](Comment.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated comments.
 
@@ -281,7 +281,7 @@ Gets the current DataModelObject’s category.
 
 <a id="Analysis.Electric"></a>
 
-### *property* Analysis.Electric *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Analysis.Electric *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the Electric.
 
@@ -297,7 +297,7 @@ Gets or sets the EnvironmentTemperature.
 
 <a id="Analysis.Figures"></a>
 
-### *property* Analysis.Figures *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Figure](../../../../../v241/Ansys/ACT/Automation/Mechanical/Figure.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Analysis.Figures *: Iterable[[Ansys.ACT.Automation.Mechanical.Figure](Figure.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated figures.
 
@@ -305,7 +305,7 @@ Gets the list of associated figures.
 
 <a id="Analysis.GenerateInputOnly"></a>
 
-### *property* Analysis.GenerateInputOnly *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Analysis.GenerateInputOnly *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the GenerateInputOnly.
 
@@ -313,7 +313,7 @@ Gets the GenerateInputOnly.
 
 <a id="Analysis.Images"></a>
 
-### *property* Analysis.Images *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Image](../../../../../v241/Ansys/ACT/Automation/Mechanical/Image.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Analysis.Images *: Iterable[[Ansys.ACT.Automation.Mechanical.Image](Image.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated images.
 
@@ -321,7 +321,7 @@ Gets the list of associated images.
 
 <a id="Analysis.InitialConditions"></a>
 
-### *property* Analysis.InitialConditions *: System.Collections.Generic.IList[[Ansys.ACT.Automation.Mechanical.InitialCondition](../../../../../v241/Ansys/ACT/Automation/Mechanical/InitialCondition.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.InitialCondition)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Analysis.InitialConditions *: List[[Ansys.ACT.Automation.Mechanical.InitialCondition](InitialCondition.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.InitialCondition)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Get InitialConditions.
 
@@ -345,7 +345,7 @@ Gets the PhysicsType.
 
 <a id="Analysis.Properties"></a>
 
-### *property* Analysis.Properties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Analysis.Properties *: [tuple](https://docs.python.org/3/library/stdtypes.html#tuple)[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of properties for this object.
 
@@ -353,7 +353,7 @@ Gets the list of properties for this object.
 
 <a id="Analysis.ReadOnly"></a>
 
-### *property* Analysis.ReadOnly *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Analysis.ReadOnly *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the ReadOnly.
 
@@ -361,7 +361,7 @@ Gets or sets the ReadOnly.
 
 <a id="Analysis.ResultFileName"></a>
 
-### *property* Analysis.ResultFileName *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Analysis.ResultFileName *: [str](https://docs.python.org/3/library/stdtypes.html#str) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Get the full path and name of the result file.
 
@@ -377,7 +377,7 @@ Gets the Solution.
 
 <a id="Analysis.Structural"></a>
 
-### *property* Analysis.Structural *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Analysis.Structural *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Structural.
 
@@ -385,7 +385,7 @@ Gets or sets the Structural.
 
 <a id="Analysis.SystemCaption"></a>
 
-### *property* Analysis.SystemCaption *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Analysis.SystemCaption *: [str](https://docs.python.org/3/library/stdtypes.html#str) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the SystemCaption.
 
@@ -393,7 +393,7 @@ Gets the SystemCaption.
 
 <a id="Analysis.Thermal"></a>
 
-### *property* Analysis.Thermal *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Analysis.Thermal *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the Thermal.
 
@@ -401,7 +401,7 @@ Gets the Thermal.
 
 <a id="Analysis.VisibleProperties"></a>
 
-### *property* Analysis.VisibleProperties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Analysis.VisibleProperties *: [tuple](https://docs.python.org/3/library/stdtypes.html#tuple)[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of properties that are visible for this object.
 
@@ -952,7 +952,7 @@ Creates a new HydrostaticPressure
 
 <a id="Analysis.AddImage"></a>
 
-### Analysis.AddImage(filePath: System.String)
+### Analysis.AddImage(filePath: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 ```text
 Creates a new child Image.
@@ -1585,7 +1585,7 @@ Run the CreateAutomaticEquivalentSourceSurfaces action.
 
 <a id="Analysis.CreateParameter"></a>
 
-### Analysis.CreateParameter(propName: System.String)
+### Analysis.CreateParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Creates a new parameter for a Property.
 
@@ -1628,7 +1628,7 @@ Enables interface filtering that only displays model-level items applicable to
 
 <a id="Analysis.GetChildren"></a>
 
-### Analysis.GetChildren(recurses: System.Boolean, children: System.Collections.Generic.IList[ChildrenType])
+### Analysis.GetChildren(recurses: [bool](https://docs.python.org/3/library/functions.html#bool), children: List[ChildrenType])
 
 Gets the list of children, filtered by type.
 
@@ -1636,7 +1636,7 @@ Gets the list of children, filtered by type.
 
 <a id="Analysis.GetParameter"></a>
 
-### Analysis.GetParameter(propName: System.String)
+### Analysis.GetParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Gets the parameter corresponding to the given property.
 
@@ -1660,7 +1660,7 @@ Run the GroupSimilarObjects action.
 
 <a id="Analysis.ImportLoad"></a>
 
-### Analysis.ImportLoad(analysis: [Ansys.ACT.Automation.Mechanical.Analysis](../../../../../v241/Ansys/ACT/Automation/Mechanical/Analysis.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Analysis))
+### Analysis.ImportLoad(analysis: [Ansys.ACT.Automation.Mechanical.Analysis](#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Analysis))
 
 Import Load action.
 
@@ -1676,7 +1676,7 @@ Run the OpenSolverFilesDirectory action.
 
 <a id="Analysis.PropertyByAPIName"></a>
 
-### Analysis.PropertyByAPIName(name: System.String)
+### Analysis.PropertyByAPIName(name: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 ```text
 Get a property by its API name.
@@ -1687,7 +1687,7 @@ If multiple properties have the same API Name, only the first property with that
 
 <a id="Analysis.PropertyByName"></a>
 
-### Analysis.PropertyByName(name: System.String)
+### Analysis.PropertyByName(name: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Get a property by its unique name.
 
@@ -1695,7 +1695,7 @@ Get a property by its unique name.
 
 <a id="Analysis.RemoveParameter"></a>
 
-### Analysis.RemoveParameter(propName: System.String)
+### Analysis.RemoveParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Removes the parameter from the parameter set corresponding to the given property.
 
@@ -1719,7 +1719,7 @@ Run the SelectBodiesWithoutPhysicsRegion action to select the bodies that don’
 
 <a id="Analysis.Solve"></a>
 
-### Analysis.Solve(wait: System.Boolean)
+### Analysis.Solve(wait: [bool](https://docs.python.org/3/library/functions.html#bool))
 
 Run the Solve action.
 
@@ -1727,7 +1727,7 @@ Run the Solve action.
 
 <a id="Analysis.TransferDataFrom"></a>
 
-### Analysis.TransferDataFrom(analysis: [Ansys.ACT.Automation.Mechanical.Analysis](../../../../../v241/Ansys/ACT/Automation/Mechanical/Analysis.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Analysis))
+### Analysis.TransferDataFrom(analysis: [Ansys.ACT.Automation.Mechanical.Analysis](#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Analysis))
 
 Transfer Data From action.
 
@@ -1735,7 +1735,7 @@ Transfer Data From action.
 
 <a id="Analysis.UnlinkDataFrom"></a>
 
-### Analysis.UnlinkDataFrom(analysis: [Ansys.ACT.Automation.Mechanical.Analysis](../../../../../v241/Ansys/ACT/Automation/Mechanical/Analysis.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Analysis))
+### Analysis.UnlinkDataFrom(analysis: [Ansys.ACT.Automation.Mechanical.Analysis](#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Analysis))
 
 Unlink Data From action.
 
@@ -1743,7 +1743,7 @@ Unlink Data From action.
 
 <a id="Analysis.WriteSystemCouplingFiles"></a>
 
-### Analysis.WriteSystemCouplingFiles(filename: System.String)
+### Analysis.WriteSystemCouplingFiles(filename: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Writes the system coupling files. Usage WriteSystemCouplingFiles(“C:Desktoptempscp1.scp”);
 

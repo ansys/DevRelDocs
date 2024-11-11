@@ -17,7 +17,7 @@ Defines a ShearGasketPressure.
 ### Methods
 
 | Name | Description |
-|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------|
+|---------------------------------------------------------------------------|-----------------------------------------------------------------------------------|
 | [`Activate`](#ShearGasketPressure.Activate)                               | Activate the current object.                                                      |
 | [`AddAlert`](#ShearGasketPressure.AddAlert)                               | Creates a new Alert                                                               |
 | [`AddComment`](#ShearGasketPressure.AddComment)                           | Creates a new child Comment.                                                      |
@@ -48,7 +48,7 @@ Defines a ShearGasketPressure.
 ### Properties
 
 | Name | Description |
-|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------|
+|-----------------------------------------------------------------------------------------------|------------------------------------------------------------------------|
 | [`Average`](#ShearGasketPressure.Average)                                                     | Gets the Average.                                                      |
 | [`By`](#ShearGasketPressure.By)                                                               | Gets or sets the By.                                                   |
 | [`CalculateTimeHistory`](#ShearGasketPressure.CalculateTimeHistory)                           | Gets or sets the CalculateTimeHistory.                                 |
@@ -98,14 +98,14 @@ Defines a ShearGasketPressure.
 | [`Substep`](#ShearGasketPressure.Substep)                                                     | Gets the Substep.                                                      |
 | [`Suppressed`](#ShearGasketPressure.Suppressed)                                               | Gets or sets the Suppressed.                                           |
 | [`Surface`](#ShearGasketPressure.Surface)                                                     | Surface property.                                                      |
-| [`SurfaceCoating`](#ShearGasketPressure.SurfaceCoating)                                                                                                                                             | SurfaceCoating property.                                               |
+| [`SurfaceCoating`](#ShearGasketPressure.SurfaceCoating)                                       | SurfaceCoating property.                                               |
 | [`Time`](#ShearGasketPressure.Time)                                                           | Gets the Time.                                                         |
 | [`TimeForMaximumOfMaximumValues`](#ShearGasketPressure.TimeForMaximumOfMaximumValues)         | Get the Time for the maximum of maximum values.                        |
 | [`TimeForMaximumOfMinimumValues`](#ShearGasketPressure.TimeForMaximumOfMinimumValues)         | Get the Time for the maximum of minimum values.                        |
 | [`TimeForMinimumOfMaximumValues`](#ShearGasketPressure.TimeForMinimumOfMaximumValues)         | Get the Time for the minimum of maximum values.                        |
 | [`TimeForMinimumOfMinimumValues`](#ShearGasketPressure.TimeForMinimumOfMinimumValues)         | Get the Time for the minimum of minimum values.                        |
 | [`VisibleProperties`](#ShearGasketPressure.VisibleProperties)                                 | Gets the list of properties that are visible for this object.          |
-| [`WaterfallShowTextOnMosaic`](#ShearGasketPressure.WaterfallShowTextOnMosaic)                                                                                                                       | Gets or sets the Waterfall Mosaic Text Property.                       |
+| [`WaterfallShowTextOnMosaic`](#ShearGasketPressure.WaterfallShowTextOnMosaic)                 | Gets or sets the Waterfall Mosaic Text Property.                       |
 
 <a id="property-detail"></a>
 
@@ -129,7 +129,7 @@ Gets or sets the By.
 
 <a id="ShearGasketPressure.CalculateTimeHistory"></a>
 
-### *property* ShearGasketPressure.CalculateTimeHistory *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ShearGasketPressure.CalculateTimeHistory *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the CalculateTimeHistory.
 
@@ -137,7 +137,7 @@ Gets or sets the CalculateTimeHistory.
 
 <a id="ShearGasketPressure.Children"></a>
 
-### *property* ShearGasketPressure.Children *: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ShearGasketPressure.Children *: List[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of children.
 
@@ -145,7 +145,7 @@ Gets the list of children.
 
 <a id="ShearGasketPressure.CombinationNumber"></a>
 
-### *property* ShearGasketPressure.CombinationNumber *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ShearGasketPressure.CombinationNumber *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Combination Number for a Solution Combination result.
 
@@ -153,7 +153,7 @@ Gets or sets the Combination Number for a Solution Combination result.
 
 <a id="ShearGasketPressure.Comments"></a>
 
-### *property* ShearGasketPressure.Comments *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Comment](../../../../../../../v241/Ansys/ACT/Automation/Mechanical/Comment.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ShearGasketPressure.Comments *: Iterable[[Ansys.ACT.Automation.Mechanical.Comment](../../Comment.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated comments.
 
@@ -161,7 +161,7 @@ Gets the list of associated comments.
 
 <a id="ShearGasketPressure.CoordinateSystem"></a>
 
-### *property* ShearGasketPressure.CoordinateSystem *: [Ansys.ACT.Automation.Mechanical.CoordinateSystem](../../../../../../../v241/Ansys/ACT/Automation/Mechanical/CoordinateSystem.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.CoordinateSystem) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ShearGasketPressure.CoordinateSystem *: [Ansys.ACT.Automation.Mechanical.CoordinateSystem](../../CoordinateSystem.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.CoordinateSystem) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Coordinate System.
 Accepts/Returns None for Solution Coordinate System in the general case (if applicable).
@@ -171,7 +171,7 @@ Accepts/Returns None for Fiber Coordinate System for a result that is sub scoped
 
 <a id="ShearGasketPressure.CrackFrontNumber"></a>
 
-### *property* ShearGasketPressure.CrackFrontNumber *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ShearGasketPressure.CrackFrontNumber *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the CrackFrontNumber.
 
@@ -211,7 +211,7 @@ Gets or sets the DpfEvaluation.
 
 <a id="ShearGasketPressure.Figures"></a>
 
-### *property* ShearGasketPressure.Figures *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Figure](../../../../../../../v241/Ansys/ACT/Automation/Mechanical/Figure.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ShearGasketPressure.Figures *: Iterable[[Ansys.ACT.Automation.Mechanical.Figure](../../Figure.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated figures.
 
@@ -227,7 +227,7 @@ Gets or sets the GasketResultType.
 
 <a id="ShearGasketPressure.GlobalIDs"></a>
 
-### *property* ShearGasketPressure.GlobalIDs *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ShearGasketPressure.GlobalIDs *: [str](https://docs.python.org/3/library/stdtypes.html#str) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the GlobalIDs.
 
@@ -243,7 +243,7 @@ Gets or sets the GraphControlsXAxis.
 
 <a id="ShearGasketPressure.Identifier"></a>
 
-### *property* ShearGasketPressure.Identifier *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ShearGasketPressure.Identifier *: [str](https://docs.python.org/3/library/stdtypes.html#str) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Identifier.
 
@@ -251,7 +251,7 @@ Gets or sets the Identifier.
 
 <a id="ShearGasketPressure.Images"></a>
 
-### *property* ShearGasketPressure.Images *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Image](../../../../../../../v241/Ansys/ACT/Automation/Mechanical/Image.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ShearGasketPressure.Images *: Iterable[[Ansys.ACT.Automation.Mechanical.Image](../../Image.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated images.
 
@@ -267,7 +267,7 @@ Gets the internal object. For advanced usage only.
 
 <a id="ShearGasketPressure.IsSolved"></a>
 
-### *property* ShearGasketPressure.IsSolved *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ShearGasketPressure.IsSolved *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the IsSolved.
 
@@ -283,7 +283,7 @@ Gets or sets the ItemType.
 
 <a id="ShearGasketPressure.IterationNumber"></a>
 
-### *property* ShearGasketPressure.IterationNumber *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ShearGasketPressure.IterationNumber *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the IterationNumber.
 
@@ -291,7 +291,7 @@ Gets the IterationNumber.
 
 <a id="ShearGasketPressure.LoadStep"></a>
 
-### *property* ShearGasketPressure.LoadStep *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ShearGasketPressure.LoadStep *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the LoadStep.
 
@@ -299,7 +299,7 @@ Gets the LoadStep.
 
 <a id="ShearGasketPressure.LoadStepForMaximumOfMaximumValues"></a>
 
-### *property* ShearGasketPressure.LoadStepForMaximumOfMaximumValues *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ShearGasketPressure.LoadStepForMaximumOfMaximumValues *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Get the Load Step for the maximum of maximum values.
 
@@ -307,7 +307,7 @@ Get the Load Step for the maximum of maximum values.
 
 <a id="ShearGasketPressure.LoadStepForMaximumOfMinimumValues"></a>
 
-### *property* ShearGasketPressure.LoadStepForMaximumOfMinimumValues *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ShearGasketPressure.LoadStepForMaximumOfMinimumValues *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Get the Load Step for the maximum of minimum values.
 
@@ -315,7 +315,7 @@ Get the Load Step for the maximum of minimum values.
 
 <a id="ShearGasketPressure.LoadStepForMinimumOfMaximumValues"></a>
 
-### *property* ShearGasketPressure.LoadStepForMinimumOfMaximumValues *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ShearGasketPressure.LoadStepForMinimumOfMaximumValues *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Get the Load Step for the minimum of maximum values.
 
@@ -323,7 +323,7 @@ Get the Load Step for the minimum of maximum values.
 
 <a id="ShearGasketPressure.LoadStepForMinimumOfMinimumValues"></a>
 
-### *property* ShearGasketPressure.LoadStepForMinimumOfMinimumValues *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ShearGasketPressure.LoadStepForMinimumOfMinimumValues *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Get the Load Step for the minimum of minimum values.
 
@@ -331,7 +331,7 @@ Get the Load Step for the minimum of minimum values.
 
 <a id="ShearGasketPressure.LoadStepNumber"></a>
 
-### *property* ShearGasketPressure.LoadStepNumber *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ShearGasketPressure.LoadStepNumber *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the LoadStepNumber.
 
@@ -355,7 +355,7 @@ Gets the Maximum.
 
 <a id="ShearGasketPressure.MaximumOccursOn"></a>
 
-### *property* ShearGasketPressure.MaximumOccursOn *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ShearGasketPressure.MaximumOccursOn *: [str](https://docs.python.org/3/library/stdtypes.html#str) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the MaximumOccursOn.
 
@@ -387,7 +387,7 @@ Gets the Minimum.
 
 <a id="ShearGasketPressure.MinimumOccursOn"></a>
 
-### *property* ShearGasketPressure.MinimumOccursOn *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ShearGasketPressure.MinimumOccursOn *: [str](https://docs.python.org/3/library/stdtypes.html#str) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the MinimumOccursOn.
 
@@ -411,7 +411,7 @@ Gets the MinimumOfMinimumOverTime.
 
 <a id="ShearGasketPressure.NamedSelections"></a>
 
-### *property* ShearGasketPressure.NamedSelections *: System.Collections.Generic.IEnumerable[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ShearGasketPressure.NamedSelections *: Iterable[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the NamedSelections.
 
@@ -435,7 +435,7 @@ Gets the result table.
 
 <a id="ShearGasketPressure.Properties"></a>
 
-### *property* ShearGasketPressure.Properties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ShearGasketPressure.Properties *: [tuple](https://docs.python.org/3/library/stdtypes.html#tuple)[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of properties for this object.
 
@@ -451,7 +451,7 @@ Gets or sets the ScopingMethod.
 
 <a id="ShearGasketPressure.SetNumber"></a>
 
-### *property* ShearGasketPressure.SetNumber *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ShearGasketPressure.SetNumber *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Set Number.
 
@@ -475,7 +475,7 @@ Gets or sets the SolutionCombinationDriver.
 
 <a id="ShearGasketPressure.SolverComponentIDs"></a>
 
-### *property* ShearGasketPressure.SolverComponentIDs *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ShearGasketPressure.SolverComponentIDs *: [str](https://docs.python.org/3/library/stdtypes.html#str) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the SolverComponentIDs.
 
@@ -483,7 +483,7 @@ Gets or sets the SolverComponentIDs.
 
 <a id="ShearGasketPressure.Substep"></a>
 
-### *property* ShearGasketPressure.Substep *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ShearGasketPressure.Substep *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the Substep.
 
@@ -491,7 +491,7 @@ Gets the Substep.
 
 <a id="ShearGasketPressure.Suppressed"></a>
 
-### *property* ShearGasketPressure.Suppressed *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ShearGasketPressure.Suppressed *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Suppressed.
 
@@ -555,7 +555,7 @@ Get the Time for the minimum of minimum values.
 
 <a id="ShearGasketPressure.VisibleProperties"></a>
 
-### *property* ShearGasketPressure.VisibleProperties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ShearGasketPressure.VisibleProperties *: [tuple](https://docs.python.org/3/library/stdtypes.html#tuple)[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of properties that are visible for this object.
 
@@ -563,7 +563,7 @@ Gets the list of properties that are visible for this object.
 
 <a id="ShearGasketPressure.WaterfallShowTextOnMosaic"></a>
 
-### *property* ShearGasketPressure.WaterfallShowTextOnMosaic *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ShearGasketPressure.WaterfallShowTextOnMosaic *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Waterfall Mosaic Text Property.
 
@@ -615,7 +615,7 @@ Creates a new child Figure.
 
 <a id="ShearGasketPressure.AddImage"></a>
 
-### ShearGasketPressure.AddImage(filePath: System.String)
+### ShearGasketPressure.AddImage(filePath: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 ```text
 Creates a new child Image.
@@ -643,7 +643,7 @@ Copies all visible properties from this object to another.
 
 <a id="ShearGasketPressure.CreateParameter"></a>
 
-### ShearGasketPressure.CreateParameter(propName: System.String)
+### ShearGasketPressure.CreateParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 CreateParameter method.
 
@@ -691,7 +691,7 @@ Run the EvaluateAllResults action.
 
 <a id="ShearGasketPressure.ExportAnimation"></a>
 
-### ShearGasketPressure.ExportAnimation(filePath: System.String, format: [Ansys.Mechanical.DataModel.Enums.GraphicsAnimationExportFormat](../../../../../Mechanical/DataModel/Enums/GraphicsAnimationExportFormat.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.GraphicsAnimationExportFormat), settings: [Ansys.Mechanical.Graphics.AnimationExportSettings](../../../../../Mechanical/Graphics/AnimationExportSettings.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.Graphics.AnimationExportSettings))
+### ShearGasketPressure.ExportAnimation(filePath: [str](https://docs.python.org/3/library/stdtypes.html#str), format: [Ansys.Mechanical.DataModel.Enums.GraphicsAnimationExportFormat](../../../../../Mechanical/DataModel/Enums/GraphicsAnimationExportFormat.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.GraphicsAnimationExportFormat), settings: [Ansys.Mechanical.Graphics.AnimationExportSettings](../../../../../Mechanical/Graphics/AnimationExportSettings.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.Graphics.AnimationExportSettings))
 
 Run the ExportAnimation action.
 
@@ -699,7 +699,7 @@ Run the ExportAnimation action.
 
 <a id="ShearGasketPressure.ExportToTextFile"></a>
 
-### ShearGasketPressure.ExportToTextFile(filePath: System.String)
+### ShearGasketPressure.ExportToTextFile(filePath: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Run the ExportToTextFile action.
 
@@ -715,7 +715,7 @@ Run the FetchRemoteResult action.
 
 <a id="ShearGasketPressure.GetChildren"></a>
 
-### ShearGasketPressure.GetChildren(recurses: System.Boolean, children: System.Collections.Generic.IList[ChildrenType])
+### ShearGasketPressure.GetChildren(recurses: [bool](https://docs.python.org/3/library/functions.html#bool), children: List[ChildrenType])
 
 Gets the list of children, filtered by type.
 
@@ -723,7 +723,7 @@ Gets the list of children, filtered by type.
 
 <a id="ShearGasketPressure.GetParameter"></a>
 
-### ShearGasketPressure.GetParameter(propName: System.String)
+### ShearGasketPressure.GetParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Gets the parameter corresponding to the given property.
 
@@ -755,7 +755,7 @@ Run the PromoteToNamedSelection action.
 
 <a id="ShearGasketPressure.PropertyByAPIName"></a>
 
-### ShearGasketPressure.PropertyByAPIName(name: System.String)
+### ShearGasketPressure.PropertyByAPIName(name: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 ```text
 Get a property by its API name.
@@ -766,7 +766,7 @@ If multiple properties have the same API Name, only the first property with that
 
 <a id="ShearGasketPressure.PropertyByName"></a>
 
-### ShearGasketPressure.PropertyByName(name: System.String)
+### ShearGasketPressure.PropertyByName(name: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Get a property by its unique name.
 
@@ -774,7 +774,7 @@ Get a property by its unique name.
 
 <a id="ShearGasketPressure.RemoveParameter"></a>
 
-### ShearGasketPressure.RemoveParameter(propName: System.String)
+### ShearGasketPressure.RemoveParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Removes the parameter from the parameter set corresponding to the given property.
 

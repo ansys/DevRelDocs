@@ -17,7 +17,7 @@ Defines a MagneticTotalForces.
 ### Methods
 
 | Name | Description |
-|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------|
+|---------------------------------------------------------------------------|-----------------------------------------------------------------------------------|
 | [`Activate`](#MagneticTotalForces.Activate)                               | Activate the current object.                                                      |
 | [`AddAlert`](#MagneticTotalForces.AddAlert)                               | Creates a new Alert                                                               |
 | [`AddComment`](#MagneticTotalForces.AddComment)                           | Creates a new child Comment.                                                      |
@@ -48,7 +48,7 @@ Defines a MagneticTotalForces.
 ### Properties
 
 | Name | Description |
-|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------|
+|-----------------------------------------------------------------------------------------------|------------------------------------------------------------------------|
 | [`Average`](#MagneticTotalForces.Average)                                                     | Gets the Average.                                                      |
 | [`AverageAcrossBodies`](#MagneticTotalForces.AverageAcrossBodies)                             | Gets or sets the AverageAcrossBodies.                                  |
 | [`By`](#MagneticTotalForces.By)                                                               | Gets or sets the By.                                                   |
@@ -98,7 +98,7 @@ Defines a MagneticTotalForces.
 | [`Substep`](#MagneticTotalForces.Substep)                                                     | Gets the Substep.                                                      |
 | [`Suppressed`](#MagneticTotalForces.Suppressed)                                               | Gets or sets the Suppressed.                                           |
 | [`Surface`](#MagneticTotalForces.Surface)                                                     | Surface property.                                                      |
-| [`SurfaceCoating`](#MagneticTotalForces.SurfaceCoating)                                                                                                                                                      | SurfaceCoating property.                                               |
+| [`SurfaceCoating`](#MagneticTotalForces.SurfaceCoating)                                       | SurfaceCoating property.                                               |
 | [`Time`](#MagneticTotalForces.Time)                                                           | Gets the Time.                                                         |
 | [`TimeForMaximumOfMaximumValues`](#MagneticTotalForces.TimeForMaximumOfMaximumValues)         | Get the Time for the maximum of maximum values.                        |
 | [`TimeForMaximumOfMinimumValues`](#MagneticTotalForces.TimeForMaximumOfMinimumValues)         | Get the Time for the maximum of minimum values.                        |
@@ -106,7 +106,7 @@ Defines a MagneticTotalForces.
 | [`TimeForMinimumOfMinimumValues`](#MagneticTotalForces.TimeForMinimumOfMinimumValues)         | Get the Time for the minimum of minimum values.                        |
 | [`Total`](#MagneticTotalForces.Total)                                                         | Gets the Total.                                                        |
 | [`VisibleProperties`](#MagneticTotalForces.VisibleProperties)                                 | Gets the list of properties that are visible for this object.          |
-| [`WaterfallShowTextOnMosaic`](#MagneticTotalForces.WaterfallShowTextOnMosaic)                                                                                                                                | Gets or sets the Waterfall Mosaic Text Property.                       |
+| [`WaterfallShowTextOnMosaic`](#MagneticTotalForces.WaterfallShowTextOnMosaic)                 | Gets or sets the Waterfall Mosaic Text Property.                       |
 
 <a id="property-detail"></a>
 
@@ -122,7 +122,7 @@ Gets the Average.
 
 <a id="MagneticTotalForces.AverageAcrossBodies"></a>
 
-### *property* MagneticTotalForces.AverageAcrossBodies *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* MagneticTotalForces.AverageAcrossBodies *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the AverageAcrossBodies.
 
@@ -138,7 +138,7 @@ Gets or sets the By.
 
 <a id="MagneticTotalForces.CalculateTimeHistory"></a>
 
-### *property* MagneticTotalForces.CalculateTimeHistory *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* MagneticTotalForces.CalculateTimeHistory *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the CalculateTimeHistory.
 
@@ -146,7 +146,7 @@ Gets or sets the CalculateTimeHistory.
 
 <a id="MagneticTotalForces.Children"></a>
 
-### *property* MagneticTotalForces.Children *: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* MagneticTotalForces.Children *: List[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of children.
 
@@ -154,7 +154,7 @@ Gets the list of children.
 
 <a id="MagneticTotalForces.CombinationNumber"></a>
 
-### *property* MagneticTotalForces.CombinationNumber *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* MagneticTotalForces.CombinationNumber *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Combination Number for a Solution Combination result.
 
@@ -162,7 +162,7 @@ Gets or sets the Combination Number for a Solution Combination result.
 
 <a id="MagneticTotalForces.Comments"></a>
 
-### *property* MagneticTotalForces.Comments *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Comment](../../../../../../../v241/Ansys/ACT/Automation/Mechanical/Comment.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* MagneticTotalForces.Comments *: Iterable[[Ansys.ACT.Automation.Mechanical.Comment](../../Comment.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated comments.
 
@@ -170,7 +170,7 @@ Gets the list of associated comments.
 
 <a id="MagneticTotalForces.CoordinateSystem"></a>
 
-### *property* MagneticTotalForces.CoordinateSystem *: [Ansys.ACT.Automation.Mechanical.CoordinateSystem](../../../../../../../v241/Ansys/ACT/Automation/Mechanical/CoordinateSystem.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.CoordinateSystem) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* MagneticTotalForces.CoordinateSystem *: [Ansys.ACT.Automation.Mechanical.CoordinateSystem](../../CoordinateSystem.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.CoordinateSystem) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Coordinate System.
 Accepts/Returns None for Solution Coordinate System in the general case (if applicable).
@@ -180,7 +180,7 @@ Accepts/Returns None for Fiber Coordinate System for a result that is sub scoped
 
 <a id="MagneticTotalForces.CrackFrontNumber"></a>
 
-### *property* MagneticTotalForces.CrackFrontNumber *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* MagneticTotalForces.CrackFrontNumber *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the CrackFrontNumber.
 
@@ -228,7 +228,7 @@ Gets or sets the ElectromagneticResultType.
 
 <a id="MagneticTotalForces.Figures"></a>
 
-### *property* MagneticTotalForces.Figures *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Figure](../../../../../../../v241/Ansys/ACT/Automation/Mechanical/Figure.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* MagneticTotalForces.Figures *: Iterable[[Ansys.ACT.Automation.Mechanical.Figure](../../Figure.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated figures.
 
@@ -236,7 +236,7 @@ Gets the list of associated figures.
 
 <a id="MagneticTotalForces.GlobalIDs"></a>
 
-### *property* MagneticTotalForces.GlobalIDs *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* MagneticTotalForces.GlobalIDs *: [str](https://docs.python.org/3/library/stdtypes.html#str) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the GlobalIDs.
 
@@ -252,7 +252,7 @@ Gets or sets the GraphControlsXAxis.
 
 <a id="MagneticTotalForces.Identifier"></a>
 
-### *property* MagneticTotalForces.Identifier *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* MagneticTotalForces.Identifier *: [str](https://docs.python.org/3/library/stdtypes.html#str) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Identifier.
 
@@ -260,7 +260,7 @@ Gets or sets the Identifier.
 
 <a id="MagneticTotalForces.Images"></a>
 
-### *property* MagneticTotalForces.Images *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Image](../../../../../../../v241/Ansys/ACT/Automation/Mechanical/Image.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* MagneticTotalForces.Images *: Iterable[[Ansys.ACT.Automation.Mechanical.Image](../../Image.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated images.
 
@@ -276,7 +276,7 @@ Gets the internal object. For advanced usage only.
 
 <a id="MagneticTotalForces.IsSolved"></a>
 
-### *property* MagneticTotalForces.IsSolved *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* MagneticTotalForces.IsSolved *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the IsSolved.
 
@@ -292,7 +292,7 @@ Gets or sets the ItemType.
 
 <a id="MagneticTotalForces.IterationNumber"></a>
 
-### *property* MagneticTotalForces.IterationNumber *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* MagneticTotalForces.IterationNumber *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the IterationNumber.
 
@@ -300,7 +300,7 @@ Gets the IterationNumber.
 
 <a id="MagneticTotalForces.LoadStep"></a>
 
-### *property* MagneticTotalForces.LoadStep *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* MagneticTotalForces.LoadStep *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the LoadStep.
 
@@ -308,7 +308,7 @@ Gets the LoadStep.
 
 <a id="MagneticTotalForces.LoadStepForMaximumOfMaximumValues"></a>
 
-### *property* MagneticTotalForces.LoadStepForMaximumOfMaximumValues *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* MagneticTotalForces.LoadStepForMaximumOfMaximumValues *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Get the Load Step for the maximum of maximum values.
 
@@ -316,7 +316,7 @@ Get the Load Step for the maximum of maximum values.
 
 <a id="MagneticTotalForces.LoadStepForMaximumOfMinimumValues"></a>
 
-### *property* MagneticTotalForces.LoadStepForMaximumOfMinimumValues *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* MagneticTotalForces.LoadStepForMaximumOfMinimumValues *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Get the Load Step for the maximum of minimum values.
 
@@ -324,7 +324,7 @@ Get the Load Step for the maximum of minimum values.
 
 <a id="MagneticTotalForces.LoadStepForMinimumOfMaximumValues"></a>
 
-### *property* MagneticTotalForces.LoadStepForMinimumOfMaximumValues *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* MagneticTotalForces.LoadStepForMinimumOfMaximumValues *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Get the Load Step for the minimum of maximum values.
 
@@ -332,7 +332,7 @@ Get the Load Step for the minimum of maximum values.
 
 <a id="MagneticTotalForces.LoadStepForMinimumOfMinimumValues"></a>
 
-### *property* MagneticTotalForces.LoadStepForMinimumOfMinimumValues *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* MagneticTotalForces.LoadStepForMinimumOfMinimumValues *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Get the Load Step for the minimum of minimum values.
 
@@ -340,7 +340,7 @@ Get the Load Step for the minimum of minimum values.
 
 <a id="MagneticTotalForces.LoadStepNumber"></a>
 
-### *property* MagneticTotalForces.LoadStepNumber *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* MagneticTotalForces.LoadStepNumber *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the LoadStepNumber.
 
@@ -364,7 +364,7 @@ Gets the Maximum.
 
 <a id="MagneticTotalForces.MaximumOccursOn"></a>
 
-### *property* MagneticTotalForces.MaximumOccursOn *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* MagneticTotalForces.MaximumOccursOn *: [str](https://docs.python.org/3/library/stdtypes.html#str) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the MaximumOccursOn.
 
@@ -396,7 +396,7 @@ Gets the Minimum.
 
 <a id="MagneticTotalForces.MinimumOccursOn"></a>
 
-### *property* MagneticTotalForces.MinimumOccursOn *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* MagneticTotalForces.MinimumOccursOn *: [str](https://docs.python.org/3/library/stdtypes.html#str) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the MinimumOccursOn.
 
@@ -420,7 +420,7 @@ Gets the MinimumOfMinimumOverTime.
 
 <a id="MagneticTotalForces.NamedSelections"></a>
 
-### *property* MagneticTotalForces.NamedSelections *: System.Collections.Generic.IEnumerable[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* MagneticTotalForces.NamedSelections *: Iterable[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the NamedSelections.
 
@@ -444,7 +444,7 @@ Gets the result table.
 
 <a id="MagneticTotalForces.Properties"></a>
 
-### *property* MagneticTotalForces.Properties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* MagneticTotalForces.Properties *: [tuple](https://docs.python.org/3/library/stdtypes.html#tuple)[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of properties for this object.
 
@@ -460,7 +460,7 @@ Gets or sets the ScopingMethod.
 
 <a id="MagneticTotalForces.SetNumber"></a>
 
-### *property* MagneticTotalForces.SetNumber *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* MagneticTotalForces.SetNumber *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Set Number.
 
@@ -476,7 +476,7 @@ Gets or sets the SolutionCombinationDriver.
 
 <a id="MagneticTotalForces.SolverComponentIDs"></a>
 
-### *property* MagneticTotalForces.SolverComponentIDs *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* MagneticTotalForces.SolverComponentIDs *: [str](https://docs.python.org/3/library/stdtypes.html#str) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the SolverComponentIDs.
 
@@ -484,7 +484,7 @@ Gets or sets the SolverComponentIDs.
 
 <a id="MagneticTotalForces.Substep"></a>
 
-### *property* MagneticTotalForces.Substep *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* MagneticTotalForces.Substep *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the Substep.
 
@@ -492,7 +492,7 @@ Gets the Substep.
 
 <a id="MagneticTotalForces.Suppressed"></a>
 
-### *property* MagneticTotalForces.Suppressed *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* MagneticTotalForces.Suppressed *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Suppressed.
 
@@ -564,7 +564,7 @@ Gets the Total.
 
 <a id="MagneticTotalForces.VisibleProperties"></a>
 
-### *property* MagneticTotalForces.VisibleProperties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* MagneticTotalForces.VisibleProperties *: [tuple](https://docs.python.org/3/library/stdtypes.html#tuple)[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of properties that are visible for this object.
 
@@ -572,7 +572,7 @@ Gets the list of properties that are visible for this object.
 
 <a id="MagneticTotalForces.WaterfallShowTextOnMosaic"></a>
 
-### *property* MagneticTotalForces.WaterfallShowTextOnMosaic *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* MagneticTotalForces.WaterfallShowTextOnMosaic *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Waterfall Mosaic Text Property.
 
@@ -624,7 +624,7 @@ Creates a new child Figure.
 
 <a id="MagneticTotalForces.AddImage"></a>
 
-### MagneticTotalForces.AddImage(filePath: System.String)
+### MagneticTotalForces.AddImage(filePath: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 ```text
 Creates a new child Image.
@@ -652,7 +652,7 @@ Copies all visible properties from this object to another.
 
 <a id="MagneticTotalForces.CreateParameter"></a>
 
-### MagneticTotalForces.CreateParameter(propName: System.String)
+### MagneticTotalForces.CreateParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 CreateParameter method.
 
@@ -700,7 +700,7 @@ Run the EvaluateAllResults action.
 
 <a id="MagneticTotalForces.ExportAnimation"></a>
 
-### MagneticTotalForces.ExportAnimation(filePath: System.String, format: [Ansys.Mechanical.DataModel.Enums.GraphicsAnimationExportFormat](../../../../../Mechanical/DataModel/Enums/GraphicsAnimationExportFormat.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.GraphicsAnimationExportFormat), settings: [Ansys.Mechanical.Graphics.AnimationExportSettings](../../../../../Mechanical/Graphics/AnimationExportSettings.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.Graphics.AnimationExportSettings))
+### MagneticTotalForces.ExportAnimation(filePath: [str](https://docs.python.org/3/library/stdtypes.html#str), format: [Ansys.Mechanical.DataModel.Enums.GraphicsAnimationExportFormat](../../../../../Mechanical/DataModel/Enums/GraphicsAnimationExportFormat.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.GraphicsAnimationExportFormat), settings: [Ansys.Mechanical.Graphics.AnimationExportSettings](../../../../../Mechanical/Graphics/AnimationExportSettings.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.Graphics.AnimationExportSettings))
 
 Run the ExportAnimation action.
 
@@ -708,7 +708,7 @@ Run the ExportAnimation action.
 
 <a id="MagneticTotalForces.ExportToTextFile"></a>
 
-### MagneticTotalForces.ExportToTextFile(filePath: System.String)
+### MagneticTotalForces.ExportToTextFile(filePath: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Run the ExportToTextFile action.
 
@@ -724,7 +724,7 @@ Run the FetchRemoteResult action.
 
 <a id="MagneticTotalForces.GetChildren"></a>
 
-### MagneticTotalForces.GetChildren(recurses: System.Boolean, children: System.Collections.Generic.IList[ChildrenType])
+### MagneticTotalForces.GetChildren(recurses: [bool](https://docs.python.org/3/library/functions.html#bool), children: List[ChildrenType])
 
 Gets the list of children, filtered by type.
 
@@ -732,7 +732,7 @@ Gets the list of children, filtered by type.
 
 <a id="MagneticTotalForces.GetParameter"></a>
 
-### MagneticTotalForces.GetParameter(propName: System.String)
+### MagneticTotalForces.GetParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Gets the parameter corresponding to the given property.
 
@@ -764,7 +764,7 @@ Run the PromoteToNamedSelection action.
 
 <a id="MagneticTotalForces.PropertyByAPIName"></a>
 
-### MagneticTotalForces.PropertyByAPIName(name: System.String)
+### MagneticTotalForces.PropertyByAPIName(name: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 ```text
 Get a property by its API name.
@@ -775,7 +775,7 @@ If multiple properties have the same API Name, only the first property with that
 
 <a id="MagneticTotalForces.PropertyByName"></a>
 
-### MagneticTotalForces.PropertyByName(name: System.String)
+### MagneticTotalForces.PropertyByName(name: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Get a property by its unique name.
 
@@ -783,7 +783,7 @@ Get a property by its unique name.
 
 <a id="MagneticTotalForces.RemoveParameter"></a>
 
-### MagneticTotalForces.RemoveParameter(propName: System.String)
+### MagneticTotalForces.RemoveParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Removes the parameter from the parameter set corresponding to the given property.
 

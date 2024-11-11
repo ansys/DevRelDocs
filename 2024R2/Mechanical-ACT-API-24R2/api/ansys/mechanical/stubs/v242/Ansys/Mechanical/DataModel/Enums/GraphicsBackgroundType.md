@@ -17,7 +17,7 @@ Specifies the Graphics Image Background Type.
 ### Attributes
 
 | Name |
-| ------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| ------------------------------------------------------------------------------------ |
 | [`GraphicsAppearanceSetting`](#GraphicsBackgroundType.GraphicsAppearanceSetting) |
 | [`White`](#GraphicsBackgroundType.White) |
 

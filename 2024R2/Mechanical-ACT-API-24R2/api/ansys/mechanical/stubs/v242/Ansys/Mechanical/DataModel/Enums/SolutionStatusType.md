@@ -17,7 +17,7 @@ Specifies the SolutionStatusType.
 ### Attributes
 
 | Name |
-| ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| ---------------------------------------------------------------------------------------------------- |
 | [`AdaptiveRefinementRequired`](#SolutionStatusType.AdaptiveRefinementRequired) |
 | [`Done`](#SolutionStatusType.Done) |
 | [`ExecutePostCommands`](#SolutionStatusType.ExecutePostCommands) |

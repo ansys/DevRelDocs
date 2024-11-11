@@ -17,7 +17,7 @@ Specifies the panel type.
 ### Attributes
 
 | Name |
-| ----------------------------------------------------------------------------------------------------------------------------- |
+| --------------------------------------------------- |
 | [`DataView`](#MechanicalPanelEnum.DataView) |
 | [`Graph`](#MechanicalPanelEnum.Graph) |
 | [`Graphics`](#MechanicalPanelEnum.Graphics) |

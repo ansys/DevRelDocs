@@ -17,7 +17,7 @@ Specifies the TransientDampingType.
 ### Attributes
 
 | Name |
-| ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| ------------------------------------------------------------------------------------------------ |
 | [`NumericalDampingManual`](#TransientDampingType.NumericalDampingManual) |
 | [`NumericalDampingProgramControlled`](#TransientDampingType.NumericalDampingProgramControlled) |
 

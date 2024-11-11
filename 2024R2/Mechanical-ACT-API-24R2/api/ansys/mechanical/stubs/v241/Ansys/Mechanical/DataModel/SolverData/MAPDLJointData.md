@@ -27,7 +27,7 @@ MAPDLJointData class.
 
 <a id="MAPDLJointData.ElementId"></a>
 
-### *property* MAPDLJointData.ElementId *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* MAPDLJointData.ElementId *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the Element number for the object.
 
@@ -35,7 +35,7 @@ Gets the Element number for the object.
 
 <a id="MAPDLJointData.RealConstantId"></a>
 
-### *property* MAPDLJointData.RealConstantId *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* MAPDLJointData.RealConstantId *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the Real Constant Id number for the object.
 

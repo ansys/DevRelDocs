@@ -17,7 +17,7 @@ Defines the collection of Mechanical’s messages.
 ### Methods
 
 | Name | Description |
-|-----------------------------------------------------------------------------------------------|--------------------------------------------------------|
+|--------------------------------------|--------------------------------------------------------|
 | [`Add`](#Messages.Add)               | Add a new message.                                     |
 | [`Clear`](#Messages.Clear)           | Clear the list of the messages.                        |
 | [`Contains`](#Messages.Contains)     | Check if a message is in the current list of messages. |
@@ -27,7 +27,7 @@ Defines the collection of Mechanical’s messages.
 ### Properties
 
 | Name | Description |
-|---------------------------------------------------------------------------------------|-------------------------------|
+|------------------------------|-------------------------------|
 | [`Count`](#Messages.Count)   | Get the number of messages.   |
 
 <a id="property-detail"></a>
@@ -36,7 +36,7 @@ Defines the collection of Mechanical’s messages.
 
 <a id="Messages.Count"></a>
 
-### *property* Messages.Count *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Messages.Count *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Get the number of messages.
 

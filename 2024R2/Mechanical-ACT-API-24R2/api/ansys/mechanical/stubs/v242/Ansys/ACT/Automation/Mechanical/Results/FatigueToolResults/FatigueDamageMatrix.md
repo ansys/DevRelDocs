@@ -17,7 +17,7 @@ Defines a FatigueDamageMatrix.
 ### Methods
 
 | Name | Description |
-|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------|
+|---------------------------------------------------------------------------|-----------------------------------------------------------------------------------|
 | [`Activate`](#FatigueDamageMatrix.Activate)                               | Activate the current object.                                                      |
 | [`AddComment`](#FatigueDamageMatrix.AddComment)                           | Creates a new child Comment.                                                      |
 | [`AddImage`](#FatigueDamageMatrix.AddImage)                               | Creates a new child Image.                                                        |
@@ -40,7 +40,7 @@ Defines a FatigueDamageMatrix.
 ### Properties
 
 | Name | Description |
-|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------|
+|-----------------------------------------------------------------------------------|---------------------------------------------------------------|
 | [`AccelerationType`](#FatigueDamageMatrix.AccelerationType)                       | Gets or sets the AccelerationType.                            |
 | [`BoundaryCondition`](#FatigueDamageMatrix.BoundaryCondition)                     | Gets or sets the BoundaryCondition.                           |
 | [`ChartDimensions`](#FatigueDamageMatrix.ChartDimensions)                         | Gets or sets the Chart Dimensions                             |
@@ -110,7 +110,7 @@ Gets or sets the AccelerationType.
 
 <a id="FatigueDamageMatrix.BoundaryCondition"></a>
 
-### *property* FatigueDamageMatrix.BoundaryCondition *: [Ansys.ACT.Automation.Mechanical.BoundaryConditions.GenericBoundaryCondition](../../../../../../../v241/Ansys/ACT/Automation/Mechanical/BoundaryConditions/GenericBoundaryCondition.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.BoundaryConditions.GenericBoundaryCondition) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* FatigueDamageMatrix.BoundaryCondition *: [Ansys.ACT.Automation.Mechanical.BoundaryConditions.GenericBoundaryCondition](../../BoundaryConditions/GenericBoundaryCondition.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.BoundaryConditions.GenericBoundaryCondition) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the BoundaryCondition.
 
@@ -134,7 +134,7 @@ Gets or sets the ChartViewingStyle.
 
 <a id="FatigueDamageMatrix.Children"></a>
 
-### *property* FatigueDamageMatrix.Children *: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* FatigueDamageMatrix.Children *: List[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of children.
 
@@ -142,7 +142,7 @@ Gets the list of children.
 
 <a id="FatigueDamageMatrix.Comments"></a>
 
-### *property* FatigueDamageMatrix.Comments *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Comment](../../../../../../../v241/Ansys/ACT/Automation/Mechanical/Comment.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* FatigueDamageMatrix.Comments *: Iterable[[Ansys.ACT.Automation.Mechanical.Comment](../../Comment.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated comments.
 
@@ -150,7 +150,7 @@ Gets the list of associated comments.
 
 <a id="FatigueDamageMatrix.CoordinateSystem"></a>
 
-### *property* FatigueDamageMatrix.CoordinateSystem *: [Ansys.ACT.Automation.Mechanical.CoordinateSystem](../../../../../../../v241/Ansys/ACT/Automation/Mechanical/CoordinateSystem.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.CoordinateSystem) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* FatigueDamageMatrix.CoordinateSystem *: [Ansys.ACT.Automation.Mechanical.CoordinateSystem](../../CoordinateSystem.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.CoordinateSystem) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the CoordinateSystem.
 
@@ -166,7 +166,7 @@ Gets or sets the CurvesAppearanceDisplay.
 
 <a id="FatigueDamageMatrix.CutFrequency"></a>
 
-### *property* FatigueDamageMatrix.CutFrequency *: System.Double | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* FatigueDamageMatrix.CutFrequency *: [float](https://docs.python.org/3/library/functions.html#float) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the CutFrequency.
 
@@ -190,7 +190,7 @@ Gets or sets the DeformationType.
 
 <a id="FatigueDamageMatrix.DesignLife"></a>
 
-### *property* FatigueDamageMatrix.DesignLife *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* FatigueDamageMatrix.DesignLife *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the DesignLife.
 
@@ -214,7 +214,7 @@ Gets or sets the Duration.
 
 <a id="FatigueDamageMatrix.EnhancedTracking"></a>
 
-### *property* FatigueDamageMatrix.EnhancedTracking *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* FatigueDamageMatrix.EnhancedTracking *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the EnhancedTracking.
 
@@ -254,7 +254,7 @@ Gets the FrequencyAtMaximumAmplitude.
 
 <a id="FatigueDamageMatrix.GeometrySelectionString"></a>
 
-### *property* FatigueDamageMatrix.GeometrySelectionString *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* FatigueDamageMatrix.GeometrySelectionString *: [str](https://docs.python.org/3/library/stdtypes.html#str) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the GeometrySelectionString.
 
@@ -262,7 +262,7 @@ Gets or sets the GeometrySelectionString.
 
 <a id="FatigueDamageMatrix.Images"></a>
 
-### *property* FatigueDamageMatrix.Images *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Image](../../../../../../../v241/Ansys/ACT/Automation/Mechanical/Image.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* FatigueDamageMatrix.Images *: Iterable[[Ansys.ACT.Automation.Mechanical.Image](../../Image.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated images.
 
@@ -286,7 +286,7 @@ Gets the internal object. For advanced usage only.
 
 <a id="FatigueDamageMatrix.IsSolved"></a>
 
-### *property* FatigueDamageMatrix.IsSolved *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* FatigueDamageMatrix.IsSolved *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the IsSolved.
 
@@ -294,7 +294,7 @@ Gets the IsSolved.
 
 <a id="FatigueDamageMatrix.LoadStepNumber"></a>
 
-### *property* FatigueDamageMatrix.LoadStepNumber *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* FatigueDamageMatrix.LoadStepNumber *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the LoadStepNumber.
 
@@ -406,7 +406,7 @@ Gets the PhaseAngle.
 
 <a id="FatigueDamageMatrix.Properties"></a>
 
-### *property* FatigueDamageMatrix.Properties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* FatigueDamageMatrix.Properties *: [tuple](https://docs.python.org/3/library/stdtypes.html#tuple)[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of properties for this object.
 
@@ -446,7 +446,7 @@ Gets the ResultChartType.
 
 <a id="FatigueDamageMatrix.SectorNumber"></a>
 
-### *property* FatigueDamageMatrix.SectorNumber *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* FatigueDamageMatrix.SectorNumber *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the SectorNumber.
 
@@ -470,7 +470,7 @@ Gets or sets the SpatialResolution.
 
 <a id="FatigueDamageMatrix.Spring"></a>
 
-### *property* FatigueDamageMatrix.Spring *: [Ansys.ACT.Automation.Mechanical.Connections.Spring](../../../../../../../v241/Ansys/ACT/Automation/Mechanical/Connections/Spring.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Connections.Spring) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* FatigueDamageMatrix.Spring *: [Ansys.ACT.Automation.Mechanical.Connections.Spring](../../Connections/Spring.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Connections.Spring) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Spring.
 
@@ -486,7 +486,7 @@ Gets or sets the StressStrainType.
 
 <a id="FatigueDamageMatrix.Suppressed"></a>
 
-### *property* FatigueDamageMatrix.Suppressed *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* FatigueDamageMatrix.Suppressed *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Suppressed.
 
@@ -502,7 +502,7 @@ Gets or sets the TimeHistoryDisplay.
 
 <a id="FatigueDamageMatrix.UseParentFrequencyRange"></a>
 
-### *property* FatigueDamageMatrix.UseParentFrequencyRange *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* FatigueDamageMatrix.UseParentFrequencyRange *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the UseParentFrequencyRange.
 
@@ -518,7 +518,7 @@ Gets or sets the VelocityType.
 
 <a id="FatigueDamageMatrix.VisibleProperties"></a>
 
-### *property* FatigueDamageMatrix.VisibleProperties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* FatigueDamageMatrix.VisibleProperties *: [tuple](https://docs.python.org/3/library/stdtypes.html#tuple)[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of properties that are visible for this object.
 
@@ -554,7 +554,7 @@ Creates a new child Comment.
 
 <a id="FatigueDamageMatrix.AddImage"></a>
 
-### FatigueDamageMatrix.AddImage(filePath: System.String)
+### FatigueDamageMatrix.AddImage(filePath: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 ```text
 Creates a new child Image.
@@ -582,7 +582,7 @@ Copies all visible properties from this object to another.
 
 <a id="FatigueDamageMatrix.CreateParameter"></a>
 
-### FatigueDamageMatrix.CreateParameter(propName: System.String)
+### FatigueDamageMatrix.CreateParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Creates a new parameter for a Property.
 
@@ -614,7 +614,7 @@ Run the EvaluateAllResults action.
 
 <a id="FatigueDamageMatrix.ExportAnimation"></a>
 
-### FatigueDamageMatrix.ExportAnimation(filePath: System.String, format: [Ansys.Mechanical.DataModel.Enums.GraphicsAnimationExportFormat](../../../../../Mechanical/DataModel/Enums/GraphicsAnimationExportFormat.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.GraphicsAnimationExportFormat), settings: [Ansys.Mechanical.Graphics.AnimationExportSettings](../../../../../Mechanical/Graphics/AnimationExportSettings.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.Graphics.AnimationExportSettings))
+### FatigueDamageMatrix.ExportAnimation(filePath: [str](https://docs.python.org/3/library/stdtypes.html#str), format: [Ansys.Mechanical.DataModel.Enums.GraphicsAnimationExportFormat](../../../../../Mechanical/DataModel/Enums/GraphicsAnimationExportFormat.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.GraphicsAnimationExportFormat), settings: [Ansys.Mechanical.Graphics.AnimationExportSettings](../../../../../Mechanical/Graphics/AnimationExportSettings.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.Graphics.AnimationExportSettings))
 
 Run the ExportAnimation action.
 
@@ -622,7 +622,7 @@ Run the ExportAnimation action.
 
 <a id="FatigueDamageMatrix.GetChildren"></a>
 
-### FatigueDamageMatrix.GetChildren(recurses: System.Boolean, children: System.Collections.Generic.IList[ChildrenType])
+### FatigueDamageMatrix.GetChildren(recurses: [bool](https://docs.python.org/3/library/functions.html#bool), children: List[ChildrenType])
 
 Gets the list of children, filtered by type.
 
@@ -630,7 +630,7 @@ Gets the list of children, filtered by type.
 
 <a id="FatigueDamageMatrix.GetParameter"></a>
 
-### FatigueDamageMatrix.GetParameter(propName: System.String)
+### FatigueDamageMatrix.GetParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Gets the parameter corresponding to the given property.
 
@@ -654,7 +654,7 @@ Run the GroupSimilarObjects action.
 
 <a id="FatigueDamageMatrix.PropertyByAPIName"></a>
 
-### FatigueDamageMatrix.PropertyByAPIName(name: System.String)
+### FatigueDamageMatrix.PropertyByAPIName(name: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 ```text
 Get a property by its API name.
@@ -665,7 +665,7 @@ If multiple properties have the same API Name, only the first property with that
 
 <a id="FatigueDamageMatrix.PropertyByName"></a>
 
-### FatigueDamageMatrix.PropertyByName(name: System.String)
+### FatigueDamageMatrix.PropertyByName(name: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Get a property by its unique name.
 
@@ -673,7 +673,7 @@ Get a property by its unique name.
 
 <a id="FatigueDamageMatrix.RemoveParameter"></a>
 
-### FatigueDamageMatrix.RemoveParameter(propName: System.String)
+### FatigueDamageMatrix.RemoveParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Removes the parameter from the parameter set corresponding to the given property.
 

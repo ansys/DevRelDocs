@@ -17,7 +17,7 @@ Representation of a straight line edge between to edge vertices.
 ### Properties
 
 | Name | Description |
-|-------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------|
+|----------------------------------------------------------|------------------------------------------------------------------------|
 | [`EndPoint`](#StraightLineEdge.EndPoint)                 | A Point representing the end vertex of the edge.                       |
 | [`IsRepresentation`](#StraightLineEdge.IsRepresentation) | Check to see if there is a valid entity that this instance represents. |
 | [`Length`](#StraightLineEdge.Length)                     | Length property.                                                       |
@@ -38,7 +38,7 @@ A Point representing the end vertex of the edge.
 
 <a id="StraightLineEdge.IsRepresentation"></a>
 
-### *property* StraightLineEdge.IsRepresentation *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* StraightLineEdge.IsRepresentation *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Check to see if there is a valid entity that this instance represents.
 
@@ -54,7 +54,7 @@ Length property.
 
 <a id="StraightLineEdge.ObjectId"></a>
 
-### *property* StraightLineEdge.ObjectId *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* StraightLineEdge.ObjectId *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Get the ID of the represented entity.
 

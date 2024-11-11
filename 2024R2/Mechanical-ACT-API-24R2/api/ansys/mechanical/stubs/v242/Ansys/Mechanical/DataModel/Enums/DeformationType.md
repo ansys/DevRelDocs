@@ -17,7 +17,7 @@ Specifies the DeformationType.
 ### Attributes
 
 | Name |
-| ------------------------------------------------------------------------------------------------------------------------ |
+| ------------------------------------------------- |
 | [`Directional`](#DeformationType.Directional) |
 | [`Total`](#DeformationType.Total) |
 

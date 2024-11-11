@@ -105,7 +105,7 @@ Defines a ResponsePSD.
 
 <a id="ResponsePSD.AccelerationInG"></a>
 
-### *property* ResponsePSD.AccelerationInG *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ResponsePSD.AccelerationInG *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the AccelerationInG.
 
@@ -129,7 +129,7 @@ Gets or sets the BoundaryConditionSelection. In order to select the option ‘We
 
 <a id="ResponsePSD.Children"></a>
 
-### *property* ResponsePSD.Children *: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ResponsePSD.Children *: List[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of children.
 
@@ -137,7 +137,7 @@ Gets the list of children.
 
 <a id="ResponsePSD.Comments"></a>
 
-### *property* ResponsePSD.Comments *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Comment](../../Comment.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ResponsePSD.Comments *: Iterable[[Ansys.ACT.Automation.Mechanical.Comment](../../Comment.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated comments.
 
@@ -161,7 +161,7 @@ Gets or sets the CoordinateSystemSelection.
 
 <a id="ResponsePSD.DataModelObjectCategory"></a>
 
-### *property* ResponsePSD.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../../../v242/Ansys/Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ResponsePSD.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the current DataModelObject’s category.
 
@@ -177,7 +177,7 @@ Gets or sets the DisplayTime.
 
 <a id="ResponsePSD.DpfEvaluation"></a>
 
-### *property* ResponsePSD.DpfEvaluation *: [Ansys.Mechanical.DataModel.Enums.DpfEvaluationType](../../../../../../../v242/Ansys/Mechanical/DataModel/Enums/DpfEvaluationType.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.DpfEvaluationType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ResponsePSD.DpfEvaluation *: [Ansys.Mechanical.DataModel.Enums.DpfEvaluationType](../../../../../Mechanical/DataModel/Enums/DpfEvaluationType.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DpfEvaluationType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the DpfEvaluation.
 
@@ -193,7 +193,7 @@ Gets the ExpectedFrequency.
 
 <a id="ResponsePSD.Figures"></a>
 
-### *property* ResponsePSD.Figures *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Figure](../../Figure.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ResponsePSD.Figures *: Iterable[[Ansys.ACT.Automation.Mechanical.Figure](../../Figure.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated figures.
 
@@ -209,7 +209,7 @@ Gets or sets the GeometryLocation.
 
 <a id="ResponsePSD.Images"></a>
 
-### *property* ResponsePSD.Images *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Image](../../Image.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ResponsePSD.Images *: Iterable[[Ansys.ACT.Automation.Mechanical.Image](../../Image.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated images.
 
@@ -225,7 +225,7 @@ Gets the internal object. For advanced usage only.
 
 <a id="ResponsePSD.IsSolved"></a>
 
-### *property* ResponsePSD.IsSolved *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ResponsePSD.IsSolved *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the IsSolved.
 
@@ -233,7 +233,7 @@ Gets the IsSolved.
 
 <a id="ResponsePSD.IterationNumber"></a>
 
-### *property* ResponsePSD.IterationNumber *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ResponsePSD.IterationNumber *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the IterationNumber.
 
@@ -241,7 +241,7 @@ Gets the IterationNumber.
 
 <a id="ResponsePSD.LoadStep"></a>
 
-### *property* ResponsePSD.LoadStep *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ResponsePSD.LoadStep *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the LoadStep.
 
@@ -249,7 +249,7 @@ Gets the LoadStep.
 
 <a id="ResponsePSD.LoadStepNumber"></a>
 
-### *property* ResponsePSD.LoadStepNumber *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ResponsePSD.LoadStepNumber *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the LoadStepNumber.
 
@@ -257,7 +257,7 @@ Gets or sets the LoadStepNumber.
 
 <a id="ResponsePSD.LocationMethod"></a>
 
-### *property* ResponsePSD.LocationMethod *: [Ansys.Mechanical.DataModel.Enums.LocationDefinitionMethod](../../../../../../../v242/Ansys/Mechanical/DataModel/Enums/LocationDefinitionMethod.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.LocationDefinitionMethod) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ResponsePSD.LocationMethod *: [Ansys.Mechanical.DataModel.Enums.LocationDefinitionMethod](../../../../../Mechanical/DataModel/Enums/LocationDefinitionMethod.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.LocationDefinitionMethod) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the LocationMethod.
 
@@ -345,7 +345,7 @@ Gets or sets the Orientation. Accepts/Returns None if it is the Solution Coordin
 
 <a id="ResponsePSD.Probability"></a>
 
-### *property* ResponsePSD.Probability *: System.Double | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ResponsePSD.Probability *: [float](https://docs.python.org/3/library/functions.html#float) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the Probability.
 
@@ -353,7 +353,7 @@ Gets the Probability.
 
 <a id="ResponsePSD.Properties"></a>
 
-### *property* ResponsePSD.Properties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ResponsePSD.Properties *: [tuple](https://docs.python.org/3/library/stdtypes.html#tuple)[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of properties for this object.
 
@@ -361,7 +361,7 @@ Gets the list of properties for this object.
 
 <a id="ResponsePSD.RMSPercentage"></a>
 
-### *property* ResponsePSD.RMSPercentage *: System.Double | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ResponsePSD.RMSPercentage *: [float](https://docs.python.org/3/library/functions.html#float) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the RMSPercentage.
 
@@ -393,7 +393,7 @@ Gets or sets the RangeMinimum.
 
 <a id="ResponsePSD.Reference"></a>
 
-### *property* ResponsePSD.Reference *: [Ansys.Mechanical.DataModel.Enums.ResultRelativityType](../../../../../../../v242/Ansys/Mechanical/DataModel/Enums/ResultRelativityType.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.ResultRelativityType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ResponsePSD.Reference *: [Ansys.Mechanical.DataModel.Enums.ResultRelativityType](../../../../../Mechanical/DataModel/Enums/ResultRelativityType.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.ResultRelativityType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Reference.
 
@@ -401,7 +401,7 @@ Gets or sets the Reference.
 
 <a id="ResponsePSD.RemotePointSelection"></a>
 
-### *property* ResponsePSD.RemotePointSelection *: [Ansys.ACT.Automation.Mechanical.RemotePoint](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/RemotePoint.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.RemotePoint) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ResponsePSD.RemotePointSelection *: [Ansys.ACT.Automation.Mechanical.RemotePoint](../../RemotePoint.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.RemotePoint) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the RemotePointSelection.
 
@@ -409,7 +409,7 @@ Gets or sets the RemotePointSelection.
 
 <a id="ResponsePSD.ResultSelection"></a>
 
-### *property* ResponsePSD.ResultSelection *: [Ansys.Mechanical.DataModel.Enums.ProbeDisplayFilter](../../../../../../../v242/Ansys/Mechanical/DataModel/Enums/ProbeDisplayFilter.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.ProbeDisplayFilter) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ResponsePSD.ResultSelection *: [Ansys.Mechanical.DataModel.Enums.ProbeDisplayFilter](../../../../../Mechanical/DataModel/Enums/ProbeDisplayFilter.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.ProbeDisplayFilter) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the ResultSelection.
 
@@ -417,7 +417,7 @@ Gets or sets the ResultSelection.
 
 <a id="ResponsePSD.ResultType"></a>
 
-### *property* ResponsePSD.ResultType *: [Ansys.Mechanical.DataModel.Enums.ProbeResultType](../../../../../../../v242/Ansys/Mechanical/DataModel/Enums/ProbeResultType.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.ProbeResultType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ResponsePSD.ResultType *: [Ansys.Mechanical.DataModel.Enums.ProbeResultType](../../../../../Mechanical/DataModel/Enums/ProbeResultType.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.ProbeResultType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the ResultType.
 
@@ -425,7 +425,7 @@ Gets or sets the ResultType.
 
 <a id="ResponsePSD.SelectedFrequencyRange"></a>
 
-### *property* ResponsePSD.SelectedFrequencyRange *: [Ansys.Mechanical.DataModel.Enums.FrequencyRangeType](../../../../../../../v242/Ansys/Mechanical/DataModel/Enums/FrequencyRangeType.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.FrequencyRangeType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ResponsePSD.SelectedFrequencyRange *: [Ansys.Mechanical.DataModel.Enums.FrequencyRangeType](../../../../../Mechanical/DataModel/Enums/FrequencyRangeType.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.FrequencyRangeType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the SelectedFrequencyRange.
 
@@ -433,7 +433,7 @@ Gets or sets the SelectedFrequencyRange.
 
 <a id="ResponsePSD.SpatialResolution"></a>
 
-### *property* ResponsePSD.SpatialResolution *: [Ansys.Mechanical.DataModel.Enums.MinimumOrMaximum](../../../../../../../v242/Ansys/Mechanical/DataModel/Enums/MinimumOrMaximum.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.MinimumOrMaximum) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ResponsePSD.SpatialResolution *: [Ansys.Mechanical.DataModel.Enums.MinimumOrMaximum](../../../../../Mechanical/DataModel/Enums/MinimumOrMaximum.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.MinimumOrMaximum) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the SpatialResolution.
 
@@ -449,7 +449,7 @@ Gets or sets the SpringSelection.
 
 <a id="ResponsePSD.Substep"></a>
 
-### *property* ResponsePSD.Substep *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ResponsePSD.Substep *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the Substep.
 
@@ -457,7 +457,7 @@ Gets the Substep.
 
 <a id="ResponsePSD.Summation"></a>
 
-### *property* ResponsePSD.Summation *: [Ansys.Mechanical.DataModel.Enums.MomentsAtSummationPointType](../../../../../../../v242/Ansys/Mechanical/DataModel/Enums/MomentsAtSummationPointType.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.MomentsAtSummationPointType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ResponsePSD.Summation *: [Ansys.Mechanical.DataModel.Enums.MomentsAtSummationPointType](../../../../../Mechanical/DataModel/Enums/MomentsAtSummationPointType.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.MomentsAtSummationPointType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Summation.
 
@@ -465,7 +465,7 @@ Gets or sets the Summation.
 
 <a id="ResponsePSD.Suppressed"></a>
 
-### *property* ResponsePSD.Suppressed *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ResponsePSD.Suppressed *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Suppressed.
 
@@ -473,7 +473,7 @@ Gets or sets the Suppressed.
 
 <a id="ResponsePSD.SurfaceSelection"></a>
 
-### *property* ResponsePSD.SurfaceSelection *: [Ansys.ACT.Automation.Mechanical.Surface](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Surface.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Surface) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ResponsePSD.SurfaceSelection *: [Ansys.ACT.Automation.Mechanical.Surface](../../Surface.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Surface) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the MeshConnectionSelection.
 
@@ -497,7 +497,7 @@ Gets the Total.
 
 <a id="ResponsePSD.Type"></a>
 
-### *property* ResponsePSD.Type *: [Ansys.Mechanical.DataModel.Enums.ProbeResultType](../../../../../../../v242/Ansys/Mechanical/DataModel/Enums/ProbeResultType.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.ProbeResultType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ResponsePSD.Type *: [Ansys.Mechanical.DataModel.Enums.ProbeResultType](../../../../../Mechanical/DataModel/Enums/ProbeResultType.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.ProbeResultType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the Type.
 
@@ -505,7 +505,7 @@ Gets the Type.
 
 <a id="ResponsePSD.VisibleProperties"></a>
 
-### *property* ResponsePSD.VisibleProperties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ResponsePSD.VisibleProperties *: [tuple](https://docs.python.org/3/library/stdtypes.html#tuple)[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of properties that are visible for this object.
 
@@ -565,7 +565,7 @@ Creates a new child Figure.
 
 <a id="ResponsePSD.AddImage"></a>
 
-### ResponsePSD.AddImage(filePath: System.String)
+### ResponsePSD.AddImage(filePath: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 ```text
 Creates a new child Image.
@@ -593,7 +593,7 @@ Copies all visible properties from this object to another.
 
 <a id="ResponsePSD.CreateParameter"></a>
 
-### ResponsePSD.CreateParameter(propName: System.String)
+### ResponsePSD.CreateParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Creates a new parameter for a Property.
 
@@ -633,7 +633,7 @@ Run the EvaluateAllResults action.
 
 <a id="ResponsePSD.ExportAnimation"></a>
 
-### ResponsePSD.ExportAnimation(filePath: System.String, format: [Ansys.Mechanical.DataModel.Enums.GraphicsAnimationExportFormat](../../../../../../../v242/Ansys/Mechanical/DataModel/Enums/GraphicsAnimationExportFormat.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.GraphicsAnimationExportFormat), settings: [Ansys.Mechanical.Graphics.AnimationExportSettings](../../../../../../../v242/Ansys/Mechanical/Graphics/AnimationExportSettings.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.Graphics.AnimationExportSettings))
+### ResponsePSD.ExportAnimation(filePath: [str](https://docs.python.org/3/library/stdtypes.html#str), format: [Ansys.Mechanical.DataModel.Enums.GraphicsAnimationExportFormat](../../../../../Mechanical/DataModel/Enums/GraphicsAnimationExportFormat.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.GraphicsAnimationExportFormat), settings: [Ansys.Mechanical.Graphics.AnimationExportSettings](../../../../../Mechanical/Graphics/AnimationExportSettings.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.Graphics.AnimationExportSettings))
 
 Run the ExportAnimation action.
 
@@ -641,7 +641,7 @@ Run the ExportAnimation action.
 
 <a id="ResponsePSD.GetChildren"></a>
 
-### ResponsePSD.GetChildren(recurses: System.Boolean, children: System.Collections.Generic.IList[ChildrenType])
+### ResponsePSD.GetChildren(recurses: [bool](https://docs.python.org/3/library/functions.html#bool), children: List[ChildrenType])
 
 Gets the list of children, filtered by type.
 
@@ -649,7 +649,7 @@ Gets the list of children, filtered by type.
 
 <a id="ResponsePSD.GetParameter"></a>
 
-### ResponsePSD.GetParameter(propName: System.String)
+### ResponsePSD.GetParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Gets the parameter corresponding to the given property.
 
@@ -673,7 +673,7 @@ Run the GroupSimilarObjects action.
 
 <a id="ResponsePSD.PropertyByAPIName"></a>
 
-### ResponsePSD.PropertyByAPIName(name: System.String)
+### ResponsePSD.PropertyByAPIName(name: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 ```text
 Get a property by its API name.
@@ -684,7 +684,7 @@ If multiple properties have the same API Name, only the first property with that
 
 <a id="ResponsePSD.PropertyByName"></a>
 
-### ResponsePSD.PropertyByName(name: System.String)
+### ResponsePSD.PropertyByName(name: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Get a property by its unique name.
 
@@ -692,7 +692,7 @@ Get a property by its unique name.
 
 <a id="ResponsePSD.RemoveParameter"></a>
 
-### ResponsePSD.RemoveParameter(propName: System.String)
+### ResponsePSD.RemoveParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Removes the parameter from the parameter set corresponding to the given property.
 

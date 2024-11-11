@@ -17,7 +17,7 @@ The control type for an additional property.
 ### Attributes
 
 | Name |
-| ----------------------------------------------------------------------------------------------------------------- |
+| ----------------------------------------- |
 | [`ApplyCancel`](#Control.ApplyCancel) |
 | [`Double`](#Control.Double) |
 | [`Expression`](#Control.Expression) |

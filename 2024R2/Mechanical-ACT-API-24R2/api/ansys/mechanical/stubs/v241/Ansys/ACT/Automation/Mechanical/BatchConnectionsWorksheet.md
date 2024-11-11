@@ -17,7 +17,7 @@ BatchConnectionsWorksheet class.
 ### Methods
 
 | Name | Description |
-|-----------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------|
+|---------------------------------------------------------------------------------|----------------------------------------------------------|
 | [`AddRow`](#BatchConnectionsWorksheet.AddRow)                                   | Add a row to the MeshControlWorksheet                    |
 | [`ClearGenerateMesh`](#BatchConnectionsWorksheet.ClearGenerateMesh)             | Clear Mesh                                               |
 | [`DeleteAllRows`](#BatchConnectionsWorksheet.DeleteAllRows)                     | Delete All Rows                                          |
@@ -38,7 +38,7 @@ BatchConnectionsWorksheet class.
 ### Properties
 
 | Name | Description |
-|-------------------------------------------------------------------------------------------------------------------------------------|------------------------------|
+|-----------------------------------------------------|------------------------------|
 | [`RowCount`](#BatchConnectionsWorksheet.RowCount)   | Gets the number of entries   |
 
 <a id="property-detail"></a>
@@ -47,7 +47,7 @@ BatchConnectionsWorksheet class.
 
 <a id="BatchConnectionsWorksheet.RowCount"></a>
 
-### *property* BatchConnectionsWorksheet.RowCount *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* BatchConnectionsWorksheet.RowCount *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the number of entries
 
@@ -83,7 +83,7 @@ Delete All Rows
 
 <a id="BatchConnectionsWorksheet.DeleteRow"></a>
 
-### BatchConnectionsWorksheet.DeleteRow(index: System.Int32)
+### BatchConnectionsWorksheet.DeleteRow(index: [int](https://docs.python.org/3/library/functions.html#int))
 
 Delete a row from the MeshControlWorksheet
 
@@ -91,7 +91,7 @@ Delete a row from the MeshControlWorksheet
 
 <a id="BatchConnectionsWorksheet.GenerateAtRow"></a>
 
-### BatchConnectionsWorksheet.GenerateAtRow(index: System.Int32)
+### BatchConnectionsWorksheet.GenerateAtRow(index: [int](https://docs.python.org/3/library/functions.html#int))
 
 Generate Mesh At Row
 
@@ -107,7 +107,7 @@ Geneate Mesh
 
 <a id="BatchConnectionsWorksheet.GetActiveState"></a>
 
-### BatchConnectionsWorksheet.GetActiveState(index: System.Int32)
+### BatchConnectionsWorksheet.GetActiveState(index: [int](https://docs.python.org/3/library/functions.html#int))
 
 Gets the Active State property at row index
 
@@ -115,7 +115,7 @@ Gets the Active State property at row index
 
 <a id="BatchConnectionsWorksheet.GetConnectionOption"></a>
 
-### BatchConnectionsWorksheet.GetConnectionOption(index: System.Int32)
+### BatchConnectionsWorksheet.GetConnectionOption(index: [int](https://docs.python.org/3/library/functions.html#int))
 
 Gets the current set cconnection option at the row index
 
@@ -123,7 +123,7 @@ Gets the current set cconnection option at the row index
 
 <a id="BatchConnectionsWorksheet.GetConnectionTolerances"></a>
 
-### BatchConnectionsWorksheet.GetConnectionTolerances(index: System.Int32)
+### BatchConnectionsWorksheet.GetConnectionTolerances(index: [int](https://docs.python.org/3/library/functions.html#int))
 
 Gets the list of connection tolerances at the row index
 
@@ -131,7 +131,7 @@ Gets the list of connection tolerances at the row index
 
 <a id="BatchConnectionsWorksheet.GetNamedSelection"></a>
 
-### BatchConnectionsWorksheet.GetNamedSelection(index: System.Int32)
+### BatchConnectionsWorksheet.GetNamedSelection(index: [int](https://docs.python.org/3/library/functions.html#int))
 
 Gets the NamedSelection at row index
 
@@ -139,7 +139,7 @@ Gets the NamedSelection at row index
 
 <a id="BatchConnectionsWorksheet.GetNamedSelectionId"></a>
 
-### BatchConnectionsWorksheet.GetNamedSelectionId(index: System.Int32)
+### BatchConnectionsWorksheet.GetNamedSelectionId(index: [int](https://docs.python.org/3/library/functions.html#int))
 
 Gets the ID of the NamedSelection at row index
 
@@ -147,7 +147,7 @@ Gets the ID of the NamedSelection at row index
 
 <a id="BatchConnectionsWorksheet.SetActiveState"></a>
 
-### BatchConnectionsWorksheet.SetActiveState(index: System.Int32, value: System.Boolean)
+### BatchConnectionsWorksheet.SetActiveState(index: [int](https://docs.python.org/3/library/functions.html#int), value: [bool](https://docs.python.org/3/library/functions.html#bool))
 
 Sets the Active State property at row index
 
@@ -155,7 +155,7 @@ Sets the Active State property at row index
 
 <a id="BatchConnectionsWorksheet.SetConnectionOption"></a>
 
-### BatchConnectionsWorksheet.SetConnectionOption(index: System.Int32, value: System.Int32)
+### BatchConnectionsWorksheet.SetConnectionOption(index: [int](https://docs.python.org/3/library/functions.html#int), value: [int](https://docs.python.org/3/library/functions.html#int))
 
 Sets the connection option at row index
 
@@ -163,7 +163,7 @@ Sets the connection option at row index
 
 <a id="BatchConnectionsWorksheet.SetConnectionTolerances"></a>
 
-### BatchConnectionsWorksheet.SetConnectionTolerances(index: System.Int32, value: System.String)
+### BatchConnectionsWorksheet.SetConnectionTolerances(index: [int](https://docs.python.org/3/library/functions.html#int), value: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Sets the connection tolerance list at row index
 
@@ -171,7 +171,7 @@ Sets the connection tolerance list at row index
 
 <a id="BatchConnectionsWorksheet.SetNamedSelection"></a>
 
-### BatchConnectionsWorksheet.SetNamedSelection(index: System.Int32, value: [Ansys.ACT.Automation.Mechanical.NamedSelection](../../../../../v242/Ansys/ACT/Automation/Mechanical/NamedSelection.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.NamedSelection))
+### BatchConnectionsWorksheet.SetNamedSelection(index: [int](https://docs.python.org/3/library/functions.html#int), value: [Ansys.ACT.Automation.Mechanical.NamedSelection](NamedSelection.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.NamedSelection))
 
 Sets the NamedSelection at row index
 
@@ -179,7 +179,7 @@ Sets the NamedSelection at row index
 
 <a id="BatchConnectionsWorksheet.SetNamedSelectionId"></a>
 
-### BatchConnectionsWorksheet.SetNamedSelectionId(index: System.Int32, value: System.UInt32)
+### BatchConnectionsWorksheet.SetNamedSelectionId(index: [int](https://docs.python.org/3/library/functions.html#int), value: [int](https://docs.python.org/3/library/functions.html#int))
 
 Sets the NamedSelection by ID at row index
 

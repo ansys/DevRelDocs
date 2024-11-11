@@ -17,7 +17,7 @@ Defines a Thickness.
 ### Methods
 
 | Name | Description |
-|---------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------|
+|-----------------------------------------------------------------|-----------------------------------------------------------------------------------|
 | [`Activate`](#Thickness.Activate)                               | Activate the current object.                                                      |
 | [`AddComment`](#Thickness.AddComment)                           | Creates a new child Comment.                                                      |
 | [`AddFigure`](#Thickness.AddFigure)                             | Creates a new child Figure.                                                       |
@@ -37,7 +37,7 @@ Defines a Thickness.
 ### Properties
 
 | Name | Description |
-|-----------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------|
+|-------------------------------------------------------------------------|---------------------------------------------------------------|
 | [`Children`](#Thickness.Children)                                       | Gets the list of children.                                    |
 | [`Comments`](#Thickness.Comments)                                       | Gets the list of associated comments.                         |
 | [`DataModelObjectCategory`](#Thickness.DataModelObjectCategory)         | Gets the current DataModelObject’s category.                  |
@@ -65,7 +65,7 @@ Defines a Thickness.
 
 <a id="Thickness.Children"></a>
 
-### *property* Thickness.Children *: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Thickness.Children *: List[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of children.
 
@@ -73,7 +73,7 @@ Gets the list of children.
 
 <a id="Thickness.Comments"></a>
 
-### *property* Thickness.Comments *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Comment](../../../../../v241/Ansys/ACT/Automation/Mechanical/Comment.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Thickness.Comments *: Iterable[[Ansys.ACT.Automation.Mechanical.Comment](Comment.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated comments.
 
@@ -89,7 +89,7 @@ Gets the current DataModelObject’s category.
 
 <a id="Thickness.Figures"></a>
 
-### *property* Thickness.Figures *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Figure](../../../../../v241/Ansys/ACT/Automation/Mechanical/Figure.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Thickness.Figures *: Iterable[[Ansys.ACT.Automation.Mechanical.Figure](Figure.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated figures.
 
@@ -97,7 +97,7 @@ Gets the list of associated figures.
 
 <a id="Thickness.Images"></a>
 
-### *property* Thickness.Images *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Image](../../../../../v241/Ansys/ACT/Automation/Mechanical/Image.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Thickness.Images *: Iterable[[Ansys.ACT.Automation.Mechanical.Image](Image.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated images.
 
@@ -137,7 +137,7 @@ Gets or sets the MembraneOffset.
 
 <a id="Thickness.NumberOfSegments"></a>
 
-### *property* Thickness.NumberOfSegments *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Thickness.NumberOfSegments *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the NumberOfSegments.
 
@@ -153,7 +153,7 @@ Gets or sets the OffsetType.
 
 <a id="Thickness.Properties"></a>
 
-### *property* Thickness.Properties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Thickness.Properties *: [tuple](https://docs.python.org/3/library/stdtypes.html#tuple)[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of properties for this object.
 
@@ -177,7 +177,7 @@ Gets or sets the RangeMinimum.
 
 <a id="Thickness.ReadOnly"></a>
 
-### *property* Thickness.ReadOnly *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Thickness.ReadOnly *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the ReadOnly.
 
@@ -193,7 +193,7 @@ Gets the ScopeMode.
 
 <a id="Thickness.Suppressed"></a>
 
-### *property* Thickness.Suppressed *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Thickness.Suppressed *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Suppressed.
 
@@ -209,7 +209,7 @@ Gets or sets the ThicknessField.
 
 <a id="Thickness.VisibleProperties"></a>
 
-### *property* Thickness.VisibleProperties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Thickness.VisibleProperties *: [tuple](https://docs.python.org/3/library/stdtypes.html#tuple)[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of properties that are visible for this object.
 
@@ -217,7 +217,7 @@ Gets the list of properties that are visible for this object.
 
 <a id="Thickness.XYZFunctionCoordinateSystem"></a>
 
-### *property* Thickness.XYZFunctionCoordinateSystem *: [Ansys.ACT.Automation.Mechanical.CoordinateSystem](../../../../../v241/Ansys/ACT/Automation/Mechanical/CoordinateSystem.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.CoordinateSystem) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Thickness.XYZFunctionCoordinateSystem *: [Ansys.ACT.Automation.Mechanical.CoordinateSystem](CoordinateSystem.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.CoordinateSystem) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the XYZFunctionCoordinateSystem.
 
@@ -253,7 +253,7 @@ Creates a new child Figure.
 
 <a id="Thickness.AddImage"></a>
 
-### Thickness.AddImage(filePath: System.String)
+### Thickness.AddImage(filePath: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 ```text
 Creates a new child Image.
@@ -273,7 +273,7 @@ Copies all visible properties from this object to another.
 
 <a id="Thickness.CreateParameter"></a>
 
-### Thickness.CreateParameter(propName: System.String)
+### Thickness.CreateParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Creates a new parameter for a Property.
 
@@ -297,7 +297,7 @@ Creates a copy of the current DataModelObject.
 
 <a id="Thickness.GetChildren"></a>
 
-### Thickness.GetChildren(recurses: System.Boolean, children: System.Collections.Generic.IList[ChildrenType])
+### Thickness.GetChildren(recurses: [bool](https://docs.python.org/3/library/functions.html#bool), children: List[ChildrenType])
 
 Gets the list of children, filtered by type.
 
@@ -305,7 +305,7 @@ Gets the list of children, filtered by type.
 
 <a id="Thickness.GetParameter"></a>
 
-### Thickness.GetParameter(propName: System.String)
+### Thickness.GetParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Gets the parameter corresponding to the given property.
 
@@ -329,7 +329,7 @@ Run the GroupSimilarObjects action.
 
 <a id="Thickness.PropertyByAPIName"></a>
 
-### Thickness.PropertyByAPIName(name: System.String)
+### Thickness.PropertyByAPIName(name: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 ```text
 Get a property by its API name.
@@ -340,7 +340,7 @@ If multiple properties have the same API Name, only the first property with that
 
 <a id="Thickness.PropertyByName"></a>
 
-### Thickness.PropertyByName(name: System.String)
+### Thickness.PropertyByName(name: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Get a property by its unique name.
 
@@ -348,7 +348,7 @@ Get a property by its unique name.
 
 <a id="Thickness.RemoveParameter"></a>
 
-### Thickness.RemoveParameter(propName: System.String)
+### Thickness.RemoveParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Removes the parameter from the parameter set corresponding to the given property.
 

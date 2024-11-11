@@ -17,7 +17,7 @@ Defines a AcousticTransmissionLoss.
 ### Methods
 
 | Name | Description |
-|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------|
+|--------------------------------------------------------------------------------|-----------------------------------------------------------------------------------|
 | [`Activate`](#AcousticTransmissionLoss.Activate)                               | Activate the current object.                                                      |
 | [`AddAlert`](#AcousticTransmissionLoss.AddAlert)                               | Creates a new Alert                                                               |
 | [`AddComment`](#AcousticTransmissionLoss.AddComment)                           | Creates a new child Comment.                                                      |
@@ -48,7 +48,7 @@ Defines a AcousticTransmissionLoss.
 ### Properties
 
 | Name | Description |
-|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------|
+|----------------------------------------------------------------------------------------------------|------------------------------------------------------------------------|
 | [`Amplitude`](#AcousticTransmissionLoss.Amplitude)                                                 | Gets or sets the Amplitude.                                            |
 | [`Average`](#AcousticTransmissionLoss.Average)                                                     | Gets the Average.                                                      |
 | [`By`](#AcousticTransmissionLoss.By)                                                               | Gets or sets the By.                                                   |
@@ -109,7 +109,7 @@ Defines a AcousticTransmissionLoss.
 | [`Substep`](#AcousticTransmissionLoss.Substep)                                                     | Gets the Substep.                                                      |
 | [`Suppressed`](#AcousticTransmissionLoss.Suppressed)                                               | Gets or sets the Suppressed.                                           |
 | [`Surface`](#AcousticTransmissionLoss.Surface)                                                     | Surface property.                                                      |
-| [`SurfaceCoating`](#AcousticTransmissionLoss.SurfaceCoating)                                                                                                                                                    | SurfaceCoating property.                                               |
+| [`SurfaceCoating`](#AcousticTransmissionLoss.SurfaceCoating)                                       | SurfaceCoating property.                                               |
 | [`SweepingPhase`](#AcousticTransmissionLoss.SweepingPhase)                                         | Gets or sets the SweepingPhase.                                        |
 | [`Time`](#AcousticTransmissionLoss.Time)                                                           | Gets the Time.                                                         |
 | [`TimeForMaximumOfMaximumValues`](#AcousticTransmissionLoss.TimeForMaximumOfMaximumValues)         | Get the Time for the maximum of maximum values.                        |
@@ -117,7 +117,7 @@ Defines a AcousticTransmissionLoss.
 | [`TimeForMinimumOfMaximumValues`](#AcousticTransmissionLoss.TimeForMinimumOfMaximumValues)         | Get the Time for the minimum of maximum values.                        |
 | [`TimeForMinimumOfMinimumValues`](#AcousticTransmissionLoss.TimeForMinimumOfMinimumValues)         | Get the Time for the minimum of minimum values.                        |
 | [`VisibleProperties`](#AcousticTransmissionLoss.VisibleProperties)                                 | Gets the list of properties that are visible for this object.          |
-| [`WaterfallShowTextOnMosaic`](#AcousticTransmissionLoss.WaterfallShowTextOnMosaic)                                                                                                                              | Gets or sets the Waterfall Mosaic Text Property.                       |
+| [`WaterfallShowTextOnMosaic`](#AcousticTransmissionLoss.WaterfallShowTextOnMosaic)                 | Gets or sets the Waterfall Mosaic Text Property.                       |
 
 <a id="property-detail"></a>
 
@@ -125,7 +125,7 @@ Defines a AcousticTransmissionLoss.
 
 <a id="AcousticTransmissionLoss.Amplitude"></a>
 
-### *property* AcousticTransmissionLoss.Amplitude *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AcousticTransmissionLoss.Amplitude *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Amplitude.
 
@@ -149,7 +149,7 @@ Gets or sets the By.
 
 <a id="AcousticTransmissionLoss.CalculateTimeHistory"></a>
 
-### *property* AcousticTransmissionLoss.CalculateTimeHistory *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AcousticTransmissionLoss.CalculateTimeHistory *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the CalculateTimeHistory.
 
@@ -157,7 +157,7 @@ Gets or sets the CalculateTimeHistory.
 
 <a id="AcousticTransmissionLoss.Children"></a>
 
-### *property* AcousticTransmissionLoss.Children *: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AcousticTransmissionLoss.Children *: List[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of children.
 
@@ -165,7 +165,7 @@ Gets the list of children.
 
 <a id="AcousticTransmissionLoss.CombinationNumber"></a>
 
-### *property* AcousticTransmissionLoss.CombinationNumber *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AcousticTransmissionLoss.CombinationNumber *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Combination Number for a Solution Combination result.
 
@@ -173,7 +173,7 @@ Gets or sets the Combination Number for a Solution Combination result.
 
 <a id="AcousticTransmissionLoss.Comments"></a>
 
-### *property* AcousticTransmissionLoss.Comments *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Comment](../../../../../../../v241/Ansys/ACT/Automation/Mechanical/Comment.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AcousticTransmissionLoss.Comments *: Iterable[[Ansys.ACT.Automation.Mechanical.Comment](../../Comment.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated comments.
 
@@ -181,7 +181,7 @@ Gets the list of associated comments.
 
 <a id="AcousticTransmissionLoss.CoordinateSystem"></a>
 
-### *property* AcousticTransmissionLoss.CoordinateSystem *: [Ansys.ACT.Automation.Mechanical.CoordinateSystem](../../../../../../../v241/Ansys/ACT/Automation/Mechanical/CoordinateSystem.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.CoordinateSystem) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AcousticTransmissionLoss.CoordinateSystem *: [Ansys.ACT.Automation.Mechanical.CoordinateSystem](../../CoordinateSystem.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.CoordinateSystem) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Coordinate System.
 Accepts/Returns None for Solution Coordinate System in the general case (if applicable).
@@ -191,7 +191,7 @@ Accepts/Returns None for Fiber Coordinate System for a result that is sub scoped
 
 <a id="AcousticTransmissionLoss.CrackFrontNumber"></a>
 
-### *property* AcousticTransmissionLoss.CrackFrontNumber *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AcousticTransmissionLoss.CrackFrontNumber *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the CrackFrontNumber.
 
@@ -239,7 +239,7 @@ Gets or sets the DpfEvaluation.
 
 <a id="AcousticTransmissionLoss.Figures"></a>
 
-### *property* AcousticTransmissionLoss.Figures *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Figure](../../../../../../../v241/Ansys/ACT/Automation/Mechanical/Figure.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AcousticTransmissionLoss.Figures *: Iterable[[Ansys.ACT.Automation.Mechanical.Figure](../../Figure.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated figures.
 
@@ -255,7 +255,7 @@ Gets or sets the Frequency.
 
 <a id="AcousticTransmissionLoss.FrequencyRange"></a>
 
-### *property* AcousticTransmissionLoss.FrequencyRange *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AcousticTransmissionLoss.FrequencyRange *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the FrequencyRange.
 
@@ -263,7 +263,7 @@ Gets or sets the FrequencyRange.
 
 <a id="AcousticTransmissionLoss.GlobalIDs"></a>
 
-### *property* AcousticTransmissionLoss.GlobalIDs *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AcousticTransmissionLoss.GlobalIDs *: [str](https://docs.python.org/3/library/stdtypes.html#str) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the GlobalIDs.
 
@@ -279,7 +279,7 @@ Gets or sets the GraphControlsXAxis.
 
 <a id="AcousticTransmissionLoss.Identifier"></a>
 
-### *property* AcousticTransmissionLoss.Identifier *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AcousticTransmissionLoss.Identifier *: [str](https://docs.python.org/3/library/stdtypes.html#str) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Identifier.
 
@@ -287,7 +287,7 @@ Gets or sets the Identifier.
 
 <a id="AcousticTransmissionLoss.Images"></a>
 
-### *property* AcousticTransmissionLoss.Images *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Image](../../../../../../../v241/Ansys/ACT/Automation/Mechanical/Image.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AcousticTransmissionLoss.Images *: Iterable[[Ansys.ACT.Automation.Mechanical.Image](../../Image.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated images.
 
@@ -295,7 +295,7 @@ Gets the list of associated images.
 
 <a id="AcousticTransmissionLoss.InputPort"></a>
 
-### *property* AcousticTransmissionLoss.InputPort *: [Ansys.ACT.Automation.Mechanical.BoundaryConditions.AcousticPort](../../../../../../../v241/Ansys/ACT/Automation/Mechanical/BoundaryConditions/AcousticPort.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.BoundaryConditions.AcousticPort) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AcousticTransmissionLoss.InputPort *: [Ansys.ACT.Automation.Mechanical.BoundaryConditions.AcousticPort](../../BoundaryConditions/AcousticPort.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.BoundaryConditions.AcousticPort) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the InputPort.
 
@@ -311,7 +311,7 @@ Gets the internal object. For advanced usage only.
 
 <a id="AcousticTransmissionLoss.IsSolved"></a>
 
-### *property* AcousticTransmissionLoss.IsSolved *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AcousticTransmissionLoss.IsSolved *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the IsSolved.
 
@@ -327,7 +327,7 @@ Gets or sets the ItemType.
 
 <a id="AcousticTransmissionLoss.IterationNumber"></a>
 
-### *property* AcousticTransmissionLoss.IterationNumber *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AcousticTransmissionLoss.IterationNumber *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the IterationNumber.
 
@@ -335,7 +335,7 @@ Gets the IterationNumber.
 
 <a id="AcousticTransmissionLoss.LoadStep"></a>
 
-### *property* AcousticTransmissionLoss.LoadStep *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AcousticTransmissionLoss.LoadStep *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the LoadStep.
 
@@ -343,7 +343,7 @@ Gets the LoadStep.
 
 <a id="AcousticTransmissionLoss.LoadStepForMaximumOfMaximumValues"></a>
 
-### *property* AcousticTransmissionLoss.LoadStepForMaximumOfMaximumValues *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AcousticTransmissionLoss.LoadStepForMaximumOfMaximumValues *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Get the Load Step for the maximum of maximum values.
 
@@ -351,7 +351,7 @@ Get the Load Step for the maximum of maximum values.
 
 <a id="AcousticTransmissionLoss.LoadStepForMaximumOfMinimumValues"></a>
 
-### *property* AcousticTransmissionLoss.LoadStepForMaximumOfMinimumValues *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AcousticTransmissionLoss.LoadStepForMaximumOfMinimumValues *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Get the Load Step for the maximum of minimum values.
 
@@ -359,7 +359,7 @@ Get the Load Step for the maximum of minimum values.
 
 <a id="AcousticTransmissionLoss.LoadStepForMinimumOfMaximumValues"></a>
 
-### *property* AcousticTransmissionLoss.LoadStepForMinimumOfMaximumValues *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AcousticTransmissionLoss.LoadStepForMinimumOfMaximumValues *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Get the Load Step for the minimum of maximum values.
 
@@ -367,7 +367,7 @@ Get the Load Step for the minimum of maximum values.
 
 <a id="AcousticTransmissionLoss.LoadStepForMinimumOfMinimumValues"></a>
 
-### *property* AcousticTransmissionLoss.LoadStepForMinimumOfMinimumValues *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AcousticTransmissionLoss.LoadStepForMinimumOfMinimumValues *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Get the Load Step for the minimum of minimum values.
 
@@ -375,7 +375,7 @@ Get the Load Step for the minimum of minimum values.
 
 <a id="AcousticTransmissionLoss.LoadStepNumber"></a>
 
-### *property* AcousticTransmissionLoss.LoadStepNumber *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AcousticTransmissionLoss.LoadStepNumber *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the LoadStepNumber.
 
@@ -391,7 +391,7 @@ Gets or sets the Location.
 
 <a id="AcousticTransmissionLoss.LogarithmicDecrement"></a>
 
-### *property* AcousticTransmissionLoss.LogarithmicDecrement *: System.Double | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AcousticTransmissionLoss.LogarithmicDecrement *: [float](https://docs.python.org/3/library/functions.html#float) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the LogarithmicDecrement.
 
@@ -415,7 +415,7 @@ Gets or sets the MaximumFrequency.
 
 <a id="AcousticTransmissionLoss.MaximumOccursOn"></a>
 
-### *property* AcousticTransmissionLoss.MaximumOccursOn *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AcousticTransmissionLoss.MaximumOccursOn *: [str](https://docs.python.org/3/library/stdtypes.html#str) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the MaximumOccursOn.
 
@@ -455,7 +455,7 @@ Gets or sets the MinimumFrequency.
 
 <a id="AcousticTransmissionLoss.MinimumOccursOn"></a>
 
-### *property* AcousticTransmissionLoss.MinimumOccursOn *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AcousticTransmissionLoss.MinimumOccursOn *: [str](https://docs.python.org/3/library/stdtypes.html#str) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the MinimumOccursOn.
 
@@ -479,7 +479,7 @@ Gets the MinimumOfMinimumOverTime.
 
 <a id="AcousticTransmissionLoss.ModalDampingRatio"></a>
 
-### *property* AcousticTransmissionLoss.ModalDampingRatio *: System.Double | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AcousticTransmissionLoss.ModalDampingRatio *: [float](https://docs.python.org/3/library/functions.html#float) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the ModalDampingRatio.
 
@@ -487,7 +487,7 @@ Gets the ModalDampingRatio.
 
 <a id="AcousticTransmissionLoss.Mode"></a>
 
-### *property* AcousticTransmissionLoss.Mode *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AcousticTransmissionLoss.Mode *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Mode.
 
@@ -495,7 +495,7 @@ Gets or sets the Mode.
 
 <a id="AcousticTransmissionLoss.NamedSelections"></a>
 
-### *property* AcousticTransmissionLoss.NamedSelections *: System.Collections.Generic.IEnumerable[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AcousticTransmissionLoss.NamedSelections *: Iterable[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the NamedSelections.
 
@@ -503,7 +503,7 @@ Gets or sets the NamedSelections.
 
 <a id="AcousticTransmissionLoss.OutputPort"></a>
 
-### *property* AcousticTransmissionLoss.OutputPort *: [Ansys.ACT.Automation.Mechanical.BoundaryConditions.AcousticPort](../../../../../../../v241/Ansys/ACT/Automation/Mechanical/BoundaryConditions/AcousticPort.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.BoundaryConditions.AcousticPort) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AcousticTransmissionLoss.OutputPort *: [Ansys.ACT.Automation.Mechanical.BoundaryConditions.AcousticPort](../../BoundaryConditions/AcousticPort.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.BoundaryConditions.AcousticPort) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the OutputPort.
 
@@ -527,7 +527,7 @@ Gets the result table.
 
 <a id="AcousticTransmissionLoss.Properties"></a>
 
-### *property* AcousticTransmissionLoss.Properties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AcousticTransmissionLoss.Properties *: [tuple](https://docs.python.org/3/library/stdtypes.html#tuple)[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of properties for this object.
 
@@ -551,7 +551,7 @@ Gets or sets the ScopingMethod.
 
 <a id="AcousticTransmissionLoss.SetNumber"></a>
 
-### *property* AcousticTransmissionLoss.SetNumber *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AcousticTransmissionLoss.SetNumber *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Set Number.
 
@@ -567,7 +567,7 @@ Gets or sets the SolutionCombinationDriver.
 
 <a id="AcousticTransmissionLoss.SolverComponentIDs"></a>
 
-### *property* AcousticTransmissionLoss.SolverComponentIDs *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AcousticTransmissionLoss.SolverComponentIDs *: [str](https://docs.python.org/3/library/stdtypes.html#str) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the SolverComponentIDs.
 
@@ -583,7 +583,7 @@ Gets the Stability.
 
 <a id="AcousticTransmissionLoss.Substep"></a>
 
-### *property* AcousticTransmissionLoss.Substep *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AcousticTransmissionLoss.Substep *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the Substep.
 
@@ -591,7 +591,7 @@ Gets the Substep.
 
 <a id="AcousticTransmissionLoss.Suppressed"></a>
 
-### *property* AcousticTransmissionLoss.Suppressed *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AcousticTransmissionLoss.Suppressed *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Suppressed.
 
@@ -663,7 +663,7 @@ Get the Time for the minimum of minimum values.
 
 <a id="AcousticTransmissionLoss.VisibleProperties"></a>
 
-### *property* AcousticTransmissionLoss.VisibleProperties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AcousticTransmissionLoss.VisibleProperties *: [tuple](https://docs.python.org/3/library/stdtypes.html#tuple)[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of properties that are visible for this object.
 
@@ -671,7 +671,7 @@ Gets the list of properties that are visible for this object.
 
 <a id="AcousticTransmissionLoss.WaterfallShowTextOnMosaic"></a>
 
-### *property* AcousticTransmissionLoss.WaterfallShowTextOnMosaic *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AcousticTransmissionLoss.WaterfallShowTextOnMosaic *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Waterfall Mosaic Text Property.
 
@@ -723,7 +723,7 @@ Creates a new child Figure.
 
 <a id="AcousticTransmissionLoss.AddImage"></a>
 
-### AcousticTransmissionLoss.AddImage(filePath: System.String)
+### AcousticTransmissionLoss.AddImage(filePath: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 ```text
 Creates a new child Image.
@@ -751,7 +751,7 @@ Copies all visible properties from this object to another.
 
 <a id="AcousticTransmissionLoss.CreateParameter"></a>
 
-### AcousticTransmissionLoss.CreateParameter(propName: System.String)
+### AcousticTransmissionLoss.CreateParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 CreateParameter method.
 
@@ -799,7 +799,7 @@ Run the EvaluateAllResults action.
 
 <a id="AcousticTransmissionLoss.ExportAnimation"></a>
 
-### AcousticTransmissionLoss.ExportAnimation(filePath: System.String, format: [Ansys.Mechanical.DataModel.Enums.GraphicsAnimationExportFormat](../../../../../Mechanical/DataModel/Enums/GraphicsAnimationExportFormat.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.GraphicsAnimationExportFormat), settings: [Ansys.Mechanical.Graphics.AnimationExportSettings](../../../../../Mechanical/Graphics/AnimationExportSettings.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.Graphics.AnimationExportSettings))
+### AcousticTransmissionLoss.ExportAnimation(filePath: [str](https://docs.python.org/3/library/stdtypes.html#str), format: [Ansys.Mechanical.DataModel.Enums.GraphicsAnimationExportFormat](../../../../../Mechanical/DataModel/Enums/GraphicsAnimationExportFormat.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.GraphicsAnimationExportFormat), settings: [Ansys.Mechanical.Graphics.AnimationExportSettings](../../../../../Mechanical/Graphics/AnimationExportSettings.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.Graphics.AnimationExportSettings))
 
 Run the ExportAnimation action.
 
@@ -807,7 +807,7 @@ Run the ExportAnimation action.
 
 <a id="AcousticTransmissionLoss.ExportToTextFile"></a>
 
-### AcousticTransmissionLoss.ExportToTextFile(filePath: System.String)
+### AcousticTransmissionLoss.ExportToTextFile(filePath: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Run the ExportToTextFile action.
 
@@ -823,7 +823,7 @@ Run the FetchRemoteResult action.
 
 <a id="AcousticTransmissionLoss.GetChildren"></a>
 
-### AcousticTransmissionLoss.GetChildren(recurses: System.Boolean, children: System.Collections.Generic.IList[ChildrenType])
+### AcousticTransmissionLoss.GetChildren(recurses: [bool](https://docs.python.org/3/library/functions.html#bool), children: List[ChildrenType])
 
 Gets the list of children, filtered by type.
 
@@ -831,7 +831,7 @@ Gets the list of children, filtered by type.
 
 <a id="AcousticTransmissionLoss.GetParameter"></a>
 
-### AcousticTransmissionLoss.GetParameter(propName: System.String)
+### AcousticTransmissionLoss.GetParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Gets the parameter corresponding to the given property.
 
@@ -863,7 +863,7 @@ Run the PromoteToNamedSelection action.
 
 <a id="AcousticTransmissionLoss.PropertyByAPIName"></a>
 
-### AcousticTransmissionLoss.PropertyByAPIName(name: System.String)
+### AcousticTransmissionLoss.PropertyByAPIName(name: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 ```text
 Get a property by its API name.
@@ -874,7 +874,7 @@ If multiple properties have the same API Name, only the first property with that
 
 <a id="AcousticTransmissionLoss.PropertyByName"></a>
 
-### AcousticTransmissionLoss.PropertyByName(name: System.String)
+### AcousticTransmissionLoss.PropertyByName(name: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Get a property by its unique name.
 
@@ -882,7 +882,7 @@ Get a property by its unique name.
 
 <a id="AcousticTransmissionLoss.RemoveParameter"></a>
 
-### AcousticTransmissionLoss.RemoveParameter(propName: System.String)
+### AcousticTransmissionLoss.RemoveParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Removes the parameter from the parameter set corresponding to the given property.
 

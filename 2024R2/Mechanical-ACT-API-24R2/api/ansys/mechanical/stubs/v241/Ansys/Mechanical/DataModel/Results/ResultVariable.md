@@ -27,7 +27,7 @@ Specifies column data for the Result Table.
 
 <a id="ResultVariable.Count"></a>
 
-### *property* ResultVariable.Count *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ResultVariable.Count *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Count property.
 
@@ -35,7 +35,7 @@ Count property.
 
 <a id="ResultVariable.Item"></a>
 
-### *property* ResultVariable.Item *: System.Double | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ResultVariable.Item *: [float](https://docs.python.org/3/library/functions.html#float) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Item property.
 

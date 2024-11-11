@@ -127,7 +127,7 @@ BoundingBoxTolerance property.
 
 <a id="ImportedCutBoundaryRemoteForce.Children"></a>
 
-### *property* ImportedCutBoundaryRemoteForce.Children *: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ImportedCutBoundaryRemoteForce.Children *: List[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of children.
 
@@ -135,7 +135,7 @@ Gets the list of children.
 
 <a id="ImportedCutBoundaryRemoteForce.Comments"></a>
 
-### *property* ImportedCutBoundaryRemoteForce.Comments *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Comment](../../../../../../v241/Ansys/ACT/Automation/Mechanical/Comment.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ImportedCutBoundaryRemoteForce.Comments *: Iterable[[Ansys.ACT.Automation.Mechanical.Comment](../Comment.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated comments.
 
@@ -143,7 +143,7 @@ Gets the list of associated comments.
 
 <a id="ImportedCutBoundaryRemoteForce.CreateNameSelectionForMappedNodes"></a>
 
-### *property* ImportedCutBoundaryRemoteForce.CreateNameSelectionForMappedNodes *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ImportedCutBoundaryRemoteForce.CreateNameSelectionForMappedNodes *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 CreateNameSelectionForMappedNodes property.
 
@@ -151,7 +151,7 @@ CreateNameSelectionForMappedNodes property.
 
 <a id="ImportedCutBoundaryRemoteForce.CreateNameSelectionForOutsideNodes"></a>
 
-### *property* ImportedCutBoundaryRemoteForce.CreateNameSelectionForOutsideNodes *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ImportedCutBoundaryRemoteForce.CreateNameSelectionForOutsideNodes *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 CreateNameSelectionForOutsideNodes property.
 
@@ -159,7 +159,7 @@ CreateNameSelectionForOutsideNodes property.
 
 <a id="ImportedCutBoundaryRemoteForce.CreateNameSelectionForUnmappedNodes"></a>
 
-### *property* ImportedCutBoundaryRemoteForce.CreateNameSelectionForUnmappedNodes *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ImportedCutBoundaryRemoteForce.CreateNameSelectionForUnmappedNodes *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 CreateNameSelectionForUnmappedNodes property.
 
@@ -175,7 +175,7 @@ Gets the current DataModelObject’s category.
 
 <a id="ImportedCutBoundaryRemoteForce.DisplayInteriorPoints"></a>
 
-### *property* ImportedCutBoundaryRemoteForce.DisplayInteriorPoints *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ImportedCutBoundaryRemoteForce.DisplayInteriorPoints *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 DisplayInteriorPoints property.
 
@@ -183,7 +183,7 @@ DisplayInteriorPoints property.
 
 <a id="ImportedCutBoundaryRemoteForce.DisplayProjectionPlane"></a>
 
-### *property* ImportedCutBoundaryRemoteForce.DisplayProjectionPlane *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ImportedCutBoundaryRemoteForce.DisplayProjectionPlane *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 DisplayProjectionPlane property.
 
@@ -191,7 +191,7 @@ DisplayProjectionPlane property.
 
 <a id="ImportedCutBoundaryRemoteForce.DisplaySourcePointIds"></a>
 
-### *property* ImportedCutBoundaryRemoteForce.DisplaySourcePointIds *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ImportedCutBoundaryRemoteForce.DisplaySourcePointIds *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 DisplaySourcePointIds property.
 
@@ -199,7 +199,7 @@ DisplaySourcePointIds property.
 
 <a id="ImportedCutBoundaryRemoteForce.DisplaySourcePoints"></a>
 
-### *property* ImportedCutBoundaryRemoteForce.DisplaySourcePoints *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ImportedCutBoundaryRemoteForce.DisplaySourcePoints *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 DisplaySourcePoints property.
 
@@ -207,7 +207,7 @@ DisplaySourcePoints property.
 
 <a id="ImportedCutBoundaryRemoteForce.ExtrapolationTolerancePercent"></a>
 
-### *property* ImportedCutBoundaryRemoteForce.ExtrapolationTolerancePercent *: System.Double | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ImportedCutBoundaryRemoteForce.ExtrapolationTolerancePercent *: [float](https://docs.python.org/3/library/functions.html#float) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 ExtrapolationTolerancePercent property.
 
@@ -215,7 +215,7 @@ ExtrapolationTolerancePercent property.
 
 <a id="ImportedCutBoundaryRemoteForce.Figures"></a>
 
-### *property* ImportedCutBoundaryRemoteForce.Figures *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Figure](../../../../../../v241/Ansys/ACT/Automation/Mechanical/Figure.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ImportedCutBoundaryRemoteForce.Figures *: Iterable[[Ansys.ACT.Automation.Mechanical.Figure](../Figure.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated figures.
 
@@ -223,7 +223,7 @@ Gets the list of associated figures.
 
 <a id="ImportedCutBoundaryRemoteForce.Images"></a>
 
-### *property* ImportedCutBoundaryRemoteForce.Images *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Image](../../../../../../v241/Ansys/ACT/Automation/Mechanical/Image.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ImportedCutBoundaryRemoteForce.Images *: Iterable[[Ansys.ACT.Automation.Mechanical.Image](../Image.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated images.
 
@@ -287,7 +287,7 @@ LegendRange property.
 
 <a id="ImportedCutBoundaryRemoteForce.Limit"></a>
 
-### *property* ImportedCutBoundaryRemoteForce.Limit *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ImportedCutBoundaryRemoteForce.Limit *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Limit property.
 
@@ -303,7 +303,7 @@ Gets or sets the Location.
 
 <a id="ImportedCutBoundaryRemoteForce.MappedNodesName"></a>
 
-### *property* ImportedCutBoundaryRemoteForce.MappedNodesName *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ImportedCutBoundaryRemoteForce.MappedNodesName *: [str](https://docs.python.org/3/library/stdtypes.html#str) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 MappedNodesName property.
 
@@ -343,7 +343,7 @@ Method property.
 
 <a id="ImportedCutBoundaryRemoteForce.NumberOfPoints"></a>
 
-### *property* ImportedCutBoundaryRemoteForce.NumberOfPoints *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ImportedCutBoundaryRemoteForce.NumberOfPoints *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 NumberOfPoints property.
 
@@ -351,7 +351,7 @@ NumberOfPoints property.
 
 <a id="ImportedCutBoundaryRemoteForce.OrientationRealignment"></a>
 
-### *property* ImportedCutBoundaryRemoteForce.OrientationRealignment *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ImportedCutBoundaryRemoteForce.OrientationRealignment *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 OrientationRealignment property.
 
@@ -359,7 +359,7 @@ OrientationRealignment property.
 
 <a id="ImportedCutBoundaryRemoteForce.OutsideDistanceCheck"></a>
 
-### *property* ImportedCutBoundaryRemoteForce.OutsideDistanceCheck *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ImportedCutBoundaryRemoteForce.OutsideDistanceCheck *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 OutsideDistanceCheck property.
 
@@ -367,7 +367,7 @@ OutsideDistanceCheck property.
 
 <a id="ImportedCutBoundaryRemoteForce.OutsideNodesName"></a>
 
-### *property* ImportedCutBoundaryRemoteForce.OutsideNodesName *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ImportedCutBoundaryRemoteForce.OutsideNodesName *: [str](https://docs.python.org/3/library/stdtypes.html#str) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 OutsideNodesName property.
 
@@ -391,7 +391,7 @@ Pinball property.
 
 <a id="ImportedCutBoundaryRemoteForce.Projection"></a>
 
-### *property* ImportedCutBoundaryRemoteForce.Projection *: [Ansys.ACT.Automation.Mechanical.CoordinateSystem](../../../../../../v241/Ansys/ACT/Automation/Mechanical/CoordinateSystem.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.CoordinateSystem) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ImportedCutBoundaryRemoteForce.Projection *: [Ansys.ACT.Automation.Mechanical.CoordinateSystem](../CoordinateSystem.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.CoordinateSystem) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Projection property.
 
@@ -399,7 +399,7 @@ Projection property.
 
 <a id="ImportedCutBoundaryRemoteForce.Properties"></a>
 
-### *property* ImportedCutBoundaryRemoteForce.Properties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ImportedCutBoundaryRemoteForce.Properties *: [tuple](https://docs.python.org/3/library/stdtypes.html#tuple)[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of properties for this object.
 
@@ -415,7 +415,7 @@ RigidBodyTransformationType property.
 
 <a id="ImportedCutBoundaryRemoteForce.RigidTransformSourceCoordinateSystem"></a>
 
-### *property* ImportedCutBoundaryRemoteForce.RigidTransformSourceCoordinateSystem *: [Ansys.ACT.Automation.Mechanical.CoordinateSystem](../../../../../../v241/Ansys/ACT/Automation/Mechanical/CoordinateSystem.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.CoordinateSystem) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ImportedCutBoundaryRemoteForce.RigidTransformSourceCoordinateSystem *: [Ansys.ACT.Automation.Mechanical.CoordinateSystem](../CoordinateSystem.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.CoordinateSystem) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 RigidTransformSourceCoordinateSystem property.
 
@@ -423,7 +423,7 @@ RigidTransformSourceCoordinateSystem property.
 
 <a id="ImportedCutBoundaryRemoteForce.RigidTransformTargetCoordinateSystem"></a>
 
-### *property* ImportedCutBoundaryRemoteForce.RigidTransformTargetCoordinateSystem *: [Ansys.ACT.Automation.Mechanical.CoordinateSystem](../../../../../../v241/Ansys/ACT/Automation/Mechanical/CoordinateSystem.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.CoordinateSystem) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ImportedCutBoundaryRemoteForce.RigidTransformTargetCoordinateSystem *: [Ansys.ACT.Automation.Mechanical.CoordinateSystem](../CoordinateSystem.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.CoordinateSystem) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 RigidTransformTargetCoordinateSystem property.
 
@@ -431,7 +431,7 @@ RigidTransformTargetCoordinateSystem property.
 
 <a id="ImportedCutBoundaryRemoteForce.SharedRefBody"></a>
 
-### *property* ImportedCutBoundaryRemoteForce.SharedRefBody *: [Ansys.ACT.Automation.Mechanical.Body](../../../../../../v241/Ansys/ACT/Automation/Mechanical/Body.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Body) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ImportedCutBoundaryRemoteForce.SharedRefBody *: [Ansys.ACT.Automation.Mechanical.Body](../Body.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Body) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the SharedRefBody.
 
@@ -439,7 +439,7 @@ Gets or sets the SharedRefBody.
 
 <a id="ImportedCutBoundaryRemoteForce.ShellThicknessFactor"></a>
 
-### *property* ImportedCutBoundaryRemoteForce.ShellThicknessFactor *: System.Double | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ImportedCutBoundaryRemoteForce.ShellThicknessFactor *: [float](https://docs.python.org/3/library/functions.html#float) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 ShellThicknessFactor property.
 
@@ -463,7 +463,7 @@ SourceMinimum property.
 
 <a id="ImportedCutBoundaryRemoteForce.Suppressed"></a>
 
-### *property* ImportedCutBoundaryRemoteForce.Suppressed *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ImportedCutBoundaryRemoteForce.Suppressed *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Suppressed.
 
@@ -471,7 +471,7 @@ Gets or sets the Suppressed.
 
 <a id="ImportedCutBoundaryRemoteForce.UnmappedNodesName"></a>
 
-### *property* ImportedCutBoundaryRemoteForce.UnmappedNodesName *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ImportedCutBoundaryRemoteForce.UnmappedNodesName *: [str](https://docs.python.org/3/library/stdtypes.html#str) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 UnmappedNodesName property.
 
@@ -487,7 +487,7 @@ VariableType property.
 
 <a id="ImportedCutBoundaryRemoteForce.VisibleProperties"></a>
 
-### *property* ImportedCutBoundaryRemoteForce.VisibleProperties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ImportedCutBoundaryRemoteForce.VisibleProperties *: [tuple](https://docs.python.org/3/library/stdtypes.html#tuple)[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of properties that are visible for this object.
 
@@ -531,7 +531,7 @@ Creates a new child Figure.
 
 <a id="ImportedCutBoundaryRemoteForce.AddImage"></a>
 
-### ImportedCutBoundaryRemoteForce.AddImage(filePath: System.String)
+### ImportedCutBoundaryRemoteForce.AddImage(filePath: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 ```text
 Creates a new child Image.
@@ -567,7 +567,7 @@ Copies all visible properties from this object to another.
 
 <a id="ImportedCutBoundaryRemoteForce.CreateParameter"></a>
 
-### ImportedCutBoundaryRemoteForce.CreateParameter(propName: System.String)
+### ImportedCutBoundaryRemoteForce.CreateParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Creates a new parameter for a Property.
 
@@ -591,7 +591,7 @@ Creates a copy of the current DataModelObject.
 
 <a id="ImportedCutBoundaryRemoteForce.ExportToTextFile"></a>
 
-### ImportedCutBoundaryRemoteForce.ExportToTextFile(filePath: System.String)
+### ImportedCutBoundaryRemoteForce.ExportToTextFile(filePath: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Run the ExportToTextFile action.
 
@@ -599,7 +599,7 @@ Run the ExportToTextFile action.
 
 <a id="ImportedCutBoundaryRemoteForce.GetActivateAtLoadStep"></a>
 
-### ImportedCutBoundaryRemoteForce.GetActivateAtLoadStep(stepNumber: System.UInt32)
+### ImportedCutBoundaryRemoteForce.GetActivateAtLoadStep(stepNumber: [int](https://docs.python.org/3/library/functions.html#int))
 
 GetActivateAtLoadStep method.
 
@@ -607,7 +607,7 @@ GetActivateAtLoadStep method.
 
 <a id="ImportedCutBoundaryRemoteForce.GetChildren"></a>
 
-### ImportedCutBoundaryRemoteForce.GetChildren(recurses: System.Boolean, children: System.Collections.Generic.IList[ChildrenType])
+### ImportedCutBoundaryRemoteForce.GetChildren(recurses: [bool](https://docs.python.org/3/library/functions.html#bool), children: List[ChildrenType])
 
 Gets the list of children, filtered by type.
 
@@ -615,7 +615,7 @@ Gets the list of children, filtered by type.
 
 <a id="ImportedCutBoundaryRemoteForce.GetParameter"></a>
 
-### ImportedCutBoundaryRemoteForce.GetParameter(propName: System.String)
+### ImportedCutBoundaryRemoteForce.GetParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Gets the parameter corresponding to the given property.
 
@@ -655,7 +655,7 @@ Run the ImportLoad action.
 
 <a id="ImportedCutBoundaryRemoteForce.PropertyByAPIName"></a>
 
-### ImportedCutBoundaryRemoteForce.PropertyByAPIName(name: System.String)
+### ImportedCutBoundaryRemoteForce.PropertyByAPIName(name: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 ```text
 Get a property by its API name.
@@ -666,7 +666,7 @@ If multiple properties have the same API Name, only the first property with that
 
 <a id="ImportedCutBoundaryRemoteForce.PropertyByName"></a>
 
-### ImportedCutBoundaryRemoteForce.PropertyByName(name: System.String)
+### ImportedCutBoundaryRemoteForce.PropertyByName(name: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Get a property by its unique name.
 
@@ -682,7 +682,7 @@ Reload the Imported Load’s setup from its associated configuration file (if av
 
 <a id="ImportedCutBoundaryRemoteForce.RemoveParameter"></a>
 
-### ImportedCutBoundaryRemoteForce.RemoveParameter(propName: System.String)
+### ImportedCutBoundaryRemoteForce.RemoveParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Removes the parameter from the parameter set corresponding to the given property.
 
@@ -690,7 +690,7 @@ Removes the parameter from the parameter set corresponding to the given property
 
 <a id="ImportedCutBoundaryRemoteForce.SetActivateAtLoadStep"></a>
 
-### ImportedCutBoundaryRemoteForce.SetActivateAtLoadStep(stepNumber: System.UInt32, bActive: System.Boolean)
+### ImportedCutBoundaryRemoteForce.SetActivateAtLoadStep(stepNumber: [int](https://docs.python.org/3/library/functions.html#int), bActive: [bool](https://docs.python.org/3/library/functions.html#bool))
 
 SetActivateAtLoadStep method.
 

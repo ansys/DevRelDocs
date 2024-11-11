@@ -33,7 +33,7 @@ VectorDisplay class.
 
 <a id="VectorDisplay.ControlDisplayDensity"></a>
 
-### *property* VectorDisplay.ControlDisplayDensity *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* VectorDisplay.ControlDisplayDensity *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Allows control of the vector display density.
 
@@ -41,7 +41,7 @@ Allows control of the vector display density.
 
 <a id="VectorDisplay.DisplayDensity"></a>
 
-### *property* VectorDisplay.DisplayDensity *: System.Double | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* VectorDisplay.DisplayDensity *: [float](https://docs.python.org/3/library/functions.html#float) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Sets the vector display density in percentage.
 
@@ -49,7 +49,7 @@ Sets the vector display density in percentage.
 
 <a id="VectorDisplay.DisplayType"></a>
 
-### *property* VectorDisplay.DisplayType *: [Ansys.Mechanical.DataModel.Enums.VectorDisplayType](../../../../v242/Ansys/Mechanical/DataModel/Enums/VectorDisplayType.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.VectorDisplayType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* VectorDisplay.DisplayType *: [Ansys.Mechanical.DataModel.Enums.VectorDisplayType](../DataModel/Enums/VectorDisplayType.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.VectorDisplayType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Sets the vector display type.
 
@@ -57,7 +57,7 @@ Sets the vector display type.
 
 <a id="VectorDisplay.LengthMultiplier"></a>
 
-### *property* VectorDisplay.LengthMultiplier *: System.Double | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* VectorDisplay.LengthMultiplier *: [float](https://docs.python.org/3/library/functions.html#float) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Sets the vector length multiplier.
 
@@ -65,7 +65,7 @@ Sets the vector length multiplier.
 
 <a id="VectorDisplay.LengthType"></a>
 
-### *property* VectorDisplay.LengthType *: [Ansys.Mechanical.DataModel.Enums.VectorLengthType](../../../../v242/Ansys/Mechanical/DataModel/Enums/VectorLengthType.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.VectorLengthType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* VectorDisplay.LengthType *: [Ansys.Mechanical.DataModel.Enums.VectorLengthType](../DataModel/Enums/VectorLengthType.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.VectorLengthType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Sets the result vector length type.
 
@@ -73,7 +73,7 @@ Sets the result vector length type.
 
 <a id="VectorDisplay.ShowTriadXAxis"></a>
 
-### *property* VectorDisplay.ShowTriadXAxis *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* VectorDisplay.ShowTriadXAxis *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Displays the X axis vector of the triad/tensor.
 
@@ -81,7 +81,7 @@ Displays the X axis vector of the triad/tensor.
 
 <a id="VectorDisplay.ShowTriadYAxis"></a>
 
-### *property* VectorDisplay.ShowTriadYAxis *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* VectorDisplay.ShowTriadYAxis *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Displays the Y axis vector of the triad/tensor.
 
@@ -89,7 +89,7 @@ Displays the Y axis vector of the triad/tensor.
 
 <a id="VectorDisplay.ShowTriadZAxis"></a>
 
-### *property* VectorDisplay.ShowTriadZAxis *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* VectorDisplay.ShowTriadZAxis *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Displays the Z axis vector of the triad/tensor.
 

@@ -17,7 +17,7 @@ Specifies the SpringResultType.
 ### Attributes
 
 | Name |
-| ---------------------------------------------------------------------------------------------------------------------------- |
+| ---------------------------------------------------- |
 | [`DampingForce`](#SpringResultType.DampingForce) |
 | [`ElasticForce`](#SpringResultType.ElasticForce) |
 | [`Elongation`](#SpringResultType.Elongation) |

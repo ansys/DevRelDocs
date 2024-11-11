@@ -17,7 +17,7 @@ Defines a DirectionalMagneticFieldIntensity.
 ### Methods
 
 | Name | Description |
-|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------|
+|-----------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------|
 | [`Activate`](#DirectionalMagneticFieldIntensity.Activate)                               | Activate the current object.                                                      |
 | [`AddAlert`](#DirectionalMagneticFieldIntensity.AddAlert)                               | Creates a new Alert                                                               |
 | [`AddComment`](#DirectionalMagneticFieldIntensity.AddComment)                           | Creates a new child Comment.                                                      |
@@ -48,7 +48,7 @@ Defines a DirectionalMagneticFieldIntensity.
 ### Properties
 
 | Name | Description |
-|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------|
+|-------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------|
 | [`Average`](#DirectionalMagneticFieldIntensity.Average)                                                     | Gets the Average.                                                      |
 | [`AverageAcrossBodies`](#DirectionalMagneticFieldIntensity.AverageAcrossBodies)                             | Gets or sets the AverageAcrossBodies.                                  |
 | [`By`](#DirectionalMagneticFieldIntensity.By)                                                               | Gets or sets the By.                                                   |
@@ -99,14 +99,14 @@ Defines a DirectionalMagneticFieldIntensity.
 | [`Substep`](#DirectionalMagneticFieldIntensity.Substep)                                                     | Gets the Substep.                                                      |
 | [`Suppressed`](#DirectionalMagneticFieldIntensity.Suppressed)                                               | Gets or sets the Suppressed.                                           |
 | [`Surface`](#DirectionalMagneticFieldIntensity.Surface)                                                     | Surface property.                                                      |
-| [`SurfaceCoating`](#DirectionalMagneticFieldIntensity.SurfaceCoating)                                                                                                                                                                    | SurfaceCoating property.                                               |
+| [`SurfaceCoating`](#DirectionalMagneticFieldIntensity.SurfaceCoating)                                       | SurfaceCoating property.                                               |
 | [`Time`](#DirectionalMagneticFieldIntensity.Time)                                                           | Gets the Time.                                                         |
 | [`TimeForMaximumOfMaximumValues`](#DirectionalMagneticFieldIntensity.TimeForMaximumOfMaximumValues)         | Get the Time for the maximum of maximum values.                        |
 | [`TimeForMaximumOfMinimumValues`](#DirectionalMagneticFieldIntensity.TimeForMaximumOfMinimumValues)         | Get the Time for the maximum of minimum values.                        |
 | [`TimeForMinimumOfMaximumValues`](#DirectionalMagneticFieldIntensity.TimeForMinimumOfMaximumValues)         | Get the Time for the minimum of maximum values.                        |
 | [`TimeForMinimumOfMinimumValues`](#DirectionalMagneticFieldIntensity.TimeForMinimumOfMinimumValues)         | Get the Time for the minimum of minimum values.                        |
 | [`VisibleProperties`](#DirectionalMagneticFieldIntensity.VisibleProperties)                                 | Gets the list of properties that are visible for this object.          |
-| [`WaterfallShowTextOnMosaic`](#DirectionalMagneticFieldIntensity.WaterfallShowTextOnMosaic)                                                                                                                                              | Gets or sets the Waterfall Mosaic Text Property.                       |
+| [`WaterfallShowTextOnMosaic`](#DirectionalMagneticFieldIntensity.WaterfallShowTextOnMosaic)                 | Gets or sets the Waterfall Mosaic Text Property.                       |
 
 <a id="property-detail"></a>
 
@@ -122,7 +122,7 @@ Gets the Average.
 
 <a id="DirectionalMagneticFieldIntensity.AverageAcrossBodies"></a>
 
-### *property* DirectionalMagneticFieldIntensity.AverageAcrossBodies *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* DirectionalMagneticFieldIntensity.AverageAcrossBodies *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the AverageAcrossBodies.
 
@@ -138,7 +138,7 @@ Gets or sets the By.
 
 <a id="DirectionalMagneticFieldIntensity.CalculateTimeHistory"></a>
 
-### *property* DirectionalMagneticFieldIntensity.CalculateTimeHistory *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* DirectionalMagneticFieldIntensity.CalculateTimeHistory *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the CalculateTimeHistory.
 
@@ -146,7 +146,7 @@ Gets or sets the CalculateTimeHistory.
 
 <a id="DirectionalMagneticFieldIntensity.Children"></a>
 
-### *property* DirectionalMagneticFieldIntensity.Children *: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* DirectionalMagneticFieldIntensity.Children *: List[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of children.
 
@@ -154,7 +154,7 @@ Gets the list of children.
 
 <a id="DirectionalMagneticFieldIntensity.CombinationNumber"></a>
 
-### *property* DirectionalMagneticFieldIntensity.CombinationNumber *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* DirectionalMagneticFieldIntensity.CombinationNumber *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Combination Number for a Solution Combination result.
 
@@ -162,7 +162,7 @@ Gets or sets the Combination Number for a Solution Combination result.
 
 <a id="DirectionalMagneticFieldIntensity.Comments"></a>
 
-### *property* DirectionalMagneticFieldIntensity.Comments *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Comment](../../../../../../../v241/Ansys/ACT/Automation/Mechanical/Comment.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* DirectionalMagneticFieldIntensity.Comments *: Iterable[[Ansys.ACT.Automation.Mechanical.Comment](../../Comment.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated comments.
 
@@ -170,7 +170,7 @@ Gets the list of associated comments.
 
 <a id="DirectionalMagneticFieldIntensity.CoordinateSystem"></a>
 
-### *property* DirectionalMagneticFieldIntensity.CoordinateSystem *: [Ansys.ACT.Automation.Mechanical.CoordinateSystem](../../../../../../../v241/Ansys/ACT/Automation/Mechanical/CoordinateSystem.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.CoordinateSystem) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* DirectionalMagneticFieldIntensity.CoordinateSystem *: [Ansys.ACT.Automation.Mechanical.CoordinateSystem](../../CoordinateSystem.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.CoordinateSystem) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Coordinate System.
 Accepts/Returns None for Solution Coordinate System in the general case (if applicable).
@@ -180,7 +180,7 @@ Accepts/Returns None for Fiber Coordinate System for a result that is sub scoped
 
 <a id="DirectionalMagneticFieldIntensity.CrackFrontNumber"></a>
 
-### *property* DirectionalMagneticFieldIntensity.CrackFrontNumber *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* DirectionalMagneticFieldIntensity.CrackFrontNumber *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the CrackFrontNumber.
 
@@ -228,7 +228,7 @@ Gets or sets the ElectromagneticResultType.
 
 <a id="DirectionalMagneticFieldIntensity.Figures"></a>
 
-### *property* DirectionalMagneticFieldIntensity.Figures *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Figure](../../../../../../../v241/Ansys/ACT/Automation/Mechanical/Figure.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* DirectionalMagneticFieldIntensity.Figures *: Iterable[[Ansys.ACT.Automation.Mechanical.Figure](../../Figure.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated figures.
 
@@ -236,7 +236,7 @@ Gets the list of associated figures.
 
 <a id="DirectionalMagneticFieldIntensity.GlobalIDs"></a>
 
-### *property* DirectionalMagneticFieldIntensity.GlobalIDs *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* DirectionalMagneticFieldIntensity.GlobalIDs *: [str](https://docs.python.org/3/library/stdtypes.html#str) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the GlobalIDs.
 
@@ -252,7 +252,7 @@ Gets or sets the GraphControlsXAxis.
 
 <a id="DirectionalMagneticFieldIntensity.Identifier"></a>
 
-### *property* DirectionalMagneticFieldIntensity.Identifier *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* DirectionalMagneticFieldIntensity.Identifier *: [str](https://docs.python.org/3/library/stdtypes.html#str) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Identifier.
 
@@ -260,7 +260,7 @@ Gets or sets the Identifier.
 
 <a id="DirectionalMagneticFieldIntensity.Images"></a>
 
-### *property* DirectionalMagneticFieldIntensity.Images *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Image](../../../../../../../v241/Ansys/ACT/Automation/Mechanical/Image.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* DirectionalMagneticFieldIntensity.Images *: Iterable[[Ansys.ACT.Automation.Mechanical.Image](../../Image.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated images.
 
@@ -276,7 +276,7 @@ Gets the internal object. For advanced usage only.
 
 <a id="DirectionalMagneticFieldIntensity.IsSolved"></a>
 
-### *property* DirectionalMagneticFieldIntensity.IsSolved *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* DirectionalMagneticFieldIntensity.IsSolved *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the IsSolved.
 
@@ -292,7 +292,7 @@ Gets or sets the ItemType.
 
 <a id="DirectionalMagneticFieldIntensity.IterationNumber"></a>
 
-### *property* DirectionalMagneticFieldIntensity.IterationNumber *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* DirectionalMagneticFieldIntensity.IterationNumber *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the IterationNumber.
 
@@ -300,7 +300,7 @@ Gets the IterationNumber.
 
 <a id="DirectionalMagneticFieldIntensity.LoadStep"></a>
 
-### *property* DirectionalMagneticFieldIntensity.LoadStep *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* DirectionalMagneticFieldIntensity.LoadStep *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the LoadStep.
 
@@ -308,7 +308,7 @@ Gets the LoadStep.
 
 <a id="DirectionalMagneticFieldIntensity.LoadStepForMaximumOfMaximumValues"></a>
 
-### *property* DirectionalMagneticFieldIntensity.LoadStepForMaximumOfMaximumValues *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* DirectionalMagneticFieldIntensity.LoadStepForMaximumOfMaximumValues *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Get the Load Step for the maximum of maximum values.
 
@@ -316,7 +316,7 @@ Get the Load Step for the maximum of maximum values.
 
 <a id="DirectionalMagneticFieldIntensity.LoadStepForMaximumOfMinimumValues"></a>
 
-### *property* DirectionalMagneticFieldIntensity.LoadStepForMaximumOfMinimumValues *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* DirectionalMagneticFieldIntensity.LoadStepForMaximumOfMinimumValues *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Get the Load Step for the maximum of minimum values.
 
@@ -324,7 +324,7 @@ Get the Load Step for the maximum of minimum values.
 
 <a id="DirectionalMagneticFieldIntensity.LoadStepForMinimumOfMaximumValues"></a>
 
-### *property* DirectionalMagneticFieldIntensity.LoadStepForMinimumOfMaximumValues *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* DirectionalMagneticFieldIntensity.LoadStepForMinimumOfMaximumValues *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Get the Load Step for the minimum of maximum values.
 
@@ -332,7 +332,7 @@ Get the Load Step for the minimum of maximum values.
 
 <a id="DirectionalMagneticFieldIntensity.LoadStepForMinimumOfMinimumValues"></a>
 
-### *property* DirectionalMagneticFieldIntensity.LoadStepForMinimumOfMinimumValues *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* DirectionalMagneticFieldIntensity.LoadStepForMinimumOfMinimumValues *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Get the Load Step for the minimum of minimum values.
 
@@ -340,7 +340,7 @@ Get the Load Step for the minimum of minimum values.
 
 <a id="DirectionalMagneticFieldIntensity.LoadStepNumber"></a>
 
-### *property* DirectionalMagneticFieldIntensity.LoadStepNumber *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* DirectionalMagneticFieldIntensity.LoadStepNumber *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the LoadStepNumber.
 
@@ -364,7 +364,7 @@ Gets the Maximum.
 
 <a id="DirectionalMagneticFieldIntensity.MaximumOccursOn"></a>
 
-### *property* DirectionalMagneticFieldIntensity.MaximumOccursOn *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* DirectionalMagneticFieldIntensity.MaximumOccursOn *: [str](https://docs.python.org/3/library/stdtypes.html#str) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the MaximumOccursOn.
 
@@ -396,7 +396,7 @@ Gets the Minimum.
 
 <a id="DirectionalMagneticFieldIntensity.MinimumOccursOn"></a>
 
-### *property* DirectionalMagneticFieldIntensity.MinimumOccursOn *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* DirectionalMagneticFieldIntensity.MinimumOccursOn *: [str](https://docs.python.org/3/library/stdtypes.html#str) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the MinimumOccursOn.
 
@@ -420,7 +420,7 @@ Gets the MinimumOfMinimumOverTime.
 
 <a id="DirectionalMagneticFieldIntensity.NamedSelections"></a>
 
-### *property* DirectionalMagneticFieldIntensity.NamedSelections *: System.Collections.Generic.IEnumerable[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* DirectionalMagneticFieldIntensity.NamedSelections *: Iterable[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the NamedSelections.
 
@@ -452,7 +452,7 @@ Gets the result table.
 
 <a id="DirectionalMagneticFieldIntensity.Properties"></a>
 
-### *property* DirectionalMagneticFieldIntensity.Properties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* DirectionalMagneticFieldIntensity.Properties *: [tuple](https://docs.python.org/3/library/stdtypes.html#tuple)[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of properties for this object.
 
@@ -468,7 +468,7 @@ Gets or sets the ScopingMethod.
 
 <a id="DirectionalMagneticFieldIntensity.SetNumber"></a>
 
-### *property* DirectionalMagneticFieldIntensity.SetNumber *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* DirectionalMagneticFieldIntensity.SetNumber *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Set Number.
 
@@ -484,7 +484,7 @@ Gets or sets the SolutionCombinationDriver.
 
 <a id="DirectionalMagneticFieldIntensity.SolverComponentIDs"></a>
 
-### *property* DirectionalMagneticFieldIntensity.SolverComponentIDs *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* DirectionalMagneticFieldIntensity.SolverComponentIDs *: [str](https://docs.python.org/3/library/stdtypes.html#str) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the SolverComponentIDs.
 
@@ -492,7 +492,7 @@ Gets or sets the SolverComponentIDs.
 
 <a id="DirectionalMagneticFieldIntensity.Substep"></a>
 
-### *property* DirectionalMagneticFieldIntensity.Substep *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* DirectionalMagneticFieldIntensity.Substep *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the Substep.
 
@@ -500,7 +500,7 @@ Gets the Substep.
 
 <a id="DirectionalMagneticFieldIntensity.Suppressed"></a>
 
-### *property* DirectionalMagneticFieldIntensity.Suppressed *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* DirectionalMagneticFieldIntensity.Suppressed *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Suppressed.
 
@@ -564,7 +564,7 @@ Get the Time for the minimum of minimum values.
 
 <a id="DirectionalMagneticFieldIntensity.VisibleProperties"></a>
 
-### *property* DirectionalMagneticFieldIntensity.VisibleProperties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* DirectionalMagneticFieldIntensity.VisibleProperties *: [tuple](https://docs.python.org/3/library/stdtypes.html#tuple)[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of properties that are visible for this object.
 
@@ -572,7 +572,7 @@ Gets the list of properties that are visible for this object.
 
 <a id="DirectionalMagneticFieldIntensity.WaterfallShowTextOnMosaic"></a>
 
-### *property* DirectionalMagneticFieldIntensity.WaterfallShowTextOnMosaic *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* DirectionalMagneticFieldIntensity.WaterfallShowTextOnMosaic *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Waterfall Mosaic Text Property.
 
@@ -624,7 +624,7 @@ Creates a new child Figure.
 
 <a id="DirectionalMagneticFieldIntensity.AddImage"></a>
 
-### DirectionalMagneticFieldIntensity.AddImage(filePath: System.String)
+### DirectionalMagneticFieldIntensity.AddImage(filePath: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 ```text
 Creates a new child Image.
@@ -652,7 +652,7 @@ Copies all visible properties from this object to another.
 
 <a id="DirectionalMagneticFieldIntensity.CreateParameter"></a>
 
-### DirectionalMagneticFieldIntensity.CreateParameter(propName: System.String)
+### DirectionalMagneticFieldIntensity.CreateParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 CreateParameter method.
 
@@ -700,7 +700,7 @@ Run the EvaluateAllResults action.
 
 <a id="DirectionalMagneticFieldIntensity.ExportAnimation"></a>
 
-### DirectionalMagneticFieldIntensity.ExportAnimation(filePath: System.String, format: [Ansys.Mechanical.DataModel.Enums.GraphicsAnimationExportFormat](../../../../../Mechanical/DataModel/Enums/GraphicsAnimationExportFormat.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.GraphicsAnimationExportFormat), settings: [Ansys.Mechanical.Graphics.AnimationExportSettings](../../../../../Mechanical/Graphics/AnimationExportSettings.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.Graphics.AnimationExportSettings))
+### DirectionalMagneticFieldIntensity.ExportAnimation(filePath: [str](https://docs.python.org/3/library/stdtypes.html#str), format: [Ansys.Mechanical.DataModel.Enums.GraphicsAnimationExportFormat](../../../../../Mechanical/DataModel/Enums/GraphicsAnimationExportFormat.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.GraphicsAnimationExportFormat), settings: [Ansys.Mechanical.Graphics.AnimationExportSettings](../../../../../Mechanical/Graphics/AnimationExportSettings.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.Graphics.AnimationExportSettings))
 
 Run the ExportAnimation action.
 
@@ -708,7 +708,7 @@ Run the ExportAnimation action.
 
 <a id="DirectionalMagneticFieldIntensity.ExportToTextFile"></a>
 
-### DirectionalMagneticFieldIntensity.ExportToTextFile(filePath: System.String)
+### DirectionalMagneticFieldIntensity.ExportToTextFile(filePath: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Run the ExportToTextFile action.
 
@@ -724,7 +724,7 @@ Run the FetchRemoteResult action.
 
 <a id="DirectionalMagneticFieldIntensity.GetChildren"></a>
 
-### DirectionalMagneticFieldIntensity.GetChildren(recurses: System.Boolean, children: System.Collections.Generic.IList[ChildrenType])
+### DirectionalMagneticFieldIntensity.GetChildren(recurses: [bool](https://docs.python.org/3/library/functions.html#bool), children: List[ChildrenType])
 
 Gets the list of children, filtered by type.
 
@@ -732,7 +732,7 @@ Gets the list of children, filtered by type.
 
 <a id="DirectionalMagneticFieldIntensity.GetParameter"></a>
 
-### DirectionalMagneticFieldIntensity.GetParameter(propName: System.String)
+### DirectionalMagneticFieldIntensity.GetParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Gets the parameter corresponding to the given property.
 
@@ -764,7 +764,7 @@ Run the PromoteToNamedSelection action.
 
 <a id="DirectionalMagneticFieldIntensity.PropertyByAPIName"></a>
 
-### DirectionalMagneticFieldIntensity.PropertyByAPIName(name: System.String)
+### DirectionalMagneticFieldIntensity.PropertyByAPIName(name: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 ```text
 Get a property by its API name.
@@ -775,7 +775,7 @@ If multiple properties have the same API Name, only the first property with that
 
 <a id="DirectionalMagneticFieldIntensity.PropertyByName"></a>
 
-### DirectionalMagneticFieldIntensity.PropertyByName(name: System.String)
+### DirectionalMagneticFieldIntensity.PropertyByName(name: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Get a property by its unique name.
 
@@ -783,7 +783,7 @@ Get a property by its unique name.
 
 <a id="DirectionalMagneticFieldIntensity.RemoveParameter"></a>
 
-### DirectionalMagneticFieldIntensity.RemoveParameter(propName: System.String)
+### DirectionalMagneticFieldIntensity.RemoveParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Removes the parameter from the parameter set corresponding to the given property.
 

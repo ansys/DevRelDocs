@@ -17,7 +17,7 @@ Defines a ElementOrientation.
 ### Methods
 
 | Name | Description |
-|---------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------|
+|--------------------------------------------------------------------------|-----------------------------------------------------------------------------------|
 | [`Activate`](#ElementOrientation.Activate)                               | Activate the current object.                                                      |
 | [`AddComment`](#ElementOrientation.AddComment)                           | Creates a new child Comment.                                                      |
 | [`AddFigure`](#ElementOrientation.AddFigure)                             | Creates a new child Figure.                                                       |
@@ -38,7 +38,7 @@ Defines a ElementOrientation.
 ### Properties
 
 | Name | Description |
-|-------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------|
+|------------------------------------------------------------------------------|---------------------------------------------------------------|
 | [`AxisEdgeOrientation`](#ElementOrientation.AxisEdgeOrientation)             | Gets or sets the AxisEdgeOrientation.                         |
 | [`AxisSurfaceOrientation`](#ElementOrientation.AxisSurfaceOrientation)       | Gets or sets the AxisSurfaceOrientation.                      |
 | [`BodyLocation`](#ElementOrientation.BodyLocation)                           | Gets or sets the BodyLocation.                                |
@@ -63,7 +63,7 @@ Defines a ElementOrientation.
 
 <a id="ElementOrientation.AxisEdgeOrientation"></a>
 
-### *property* ElementOrientation.AxisEdgeOrientation *: [Ansys.Mechanical.DataModel.Enums.ElementOrientationAxisType](../../../../../v242/Ansys/Mechanical/DataModel/Enums/ElementOrientationAxisType.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.ElementOrientationAxisType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ElementOrientation.AxisEdgeOrientation *: [Ansys.Mechanical.DataModel.Enums.ElementOrientationAxisType](../../../Mechanical/DataModel/Enums/ElementOrientationAxisType.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.ElementOrientationAxisType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the AxisEdgeOrientation.
 
@@ -71,7 +71,7 @@ Gets or sets the AxisEdgeOrientation.
 
 <a id="ElementOrientation.AxisSurfaceOrientation"></a>
 
-### *property* ElementOrientation.AxisSurfaceOrientation *: [Ansys.Mechanical.DataModel.Enums.ElementOrientationAxisType](../../../../../v242/Ansys/Mechanical/DataModel/Enums/ElementOrientationAxisType.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.ElementOrientationAxisType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ElementOrientation.AxisSurfaceOrientation *: [Ansys.Mechanical.DataModel.Enums.ElementOrientationAxisType](../../../Mechanical/DataModel/Enums/ElementOrientationAxisType.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.ElementOrientationAxisType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the AxisSurfaceOrientation.
 
@@ -87,7 +87,7 @@ Gets or sets the BodyLocation.
 
 <a id="ElementOrientation.Children"></a>
 
-### *property* ElementOrientation.Children *: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ElementOrientation.Children *: List[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of children.
 
@@ -95,7 +95,7 @@ Gets the list of children.
 
 <a id="ElementOrientation.Comments"></a>
 
-### *property* ElementOrientation.Comments *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Comment](Comment.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ElementOrientation.Comments *: Iterable[[Ansys.ACT.Automation.Mechanical.Comment](Comment.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated comments.
 
@@ -111,7 +111,7 @@ Gets or sets the CoordinateSystem.
 
 <a id="ElementOrientation.DataModelObjectCategory"></a>
 
-### *property* ElementOrientation.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../v242/Ansys/Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ElementOrientation.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the current DataModelObject’s category.
 
@@ -127,7 +127,7 @@ Gets or sets the EdgeLocation.
 
 <a id="ElementOrientation.Figures"></a>
 
-### *property* ElementOrientation.Figures *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Figure](Figure.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ElementOrientation.Figures *: Iterable[[Ansys.ACT.Automation.Mechanical.Figure](Figure.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated figures.
 
@@ -135,7 +135,7 @@ Gets the list of associated figures.
 
 <a id="ElementOrientation.Images"></a>
 
-### *property* ElementOrientation.Images *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Image](Image.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ElementOrientation.Images *: Iterable[[Ansys.ACT.Automation.Mechanical.Image](Image.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated images.
 
@@ -151,7 +151,7 @@ Gets the internal object. For advanced usage only.
 
 <a id="ElementOrientation.OrientationGuideDefinedBy"></a>
 
-### *property* ElementOrientation.OrientationGuideDefinedBy *: [Ansys.Mechanical.DataModel.Enums.ElementOrientationGuide](../../../../../v242/Ansys/Mechanical/DataModel/Enums/ElementOrientationGuide.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.ElementOrientationGuide) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ElementOrientation.OrientationGuideDefinedBy *: [Ansys.Mechanical.DataModel.Enums.ElementOrientationGuide](../../../Mechanical/DataModel/Enums/ElementOrientationGuide.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.ElementOrientationGuide) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the OrientationGuideDefinedBy.
 
@@ -159,7 +159,7 @@ Gets or sets the OrientationGuideDefinedBy.
 
 <a id="ElementOrientation.Properties"></a>
 
-### *property* ElementOrientation.Properties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ElementOrientation.Properties *: [tuple](https://docs.python.org/3/library/stdtypes.html#tuple)[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of properties for this object.
 
@@ -167,7 +167,7 @@ Gets the list of properties for this object.
 
 <a id="ElementOrientation.ReadOnly"></a>
 
-### *property* ElementOrientation.ReadOnly *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ElementOrientation.ReadOnly *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the ReadOnly.
 
@@ -175,7 +175,7 @@ Gets or sets the ReadOnly.
 
 <a id="ElementOrientation.Suppressed"></a>
 
-### *property* ElementOrientation.Suppressed *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ElementOrientation.Suppressed *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Suppressed.
 
@@ -191,7 +191,7 @@ Gets or sets the SurfaceLocation.
 
 <a id="ElementOrientation.VisibleProperties"></a>
 
-### *property* ElementOrientation.VisibleProperties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ElementOrientation.VisibleProperties *: [tuple](https://docs.python.org/3/library/stdtypes.html#tuple)[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of properties that are visible for this object.
 
@@ -227,7 +227,7 @@ Creates a new child Figure.
 
 <a id="ElementOrientation.AddImage"></a>
 
-### ElementOrientation.AddImage(filePath: System.String)
+### ElementOrientation.AddImage(filePath: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 ```text
 Creates a new child Image.
@@ -247,7 +247,7 @@ Copies all visible properties from this object to another.
 
 <a id="ElementOrientation.CreateParameter"></a>
 
-### ElementOrientation.CreateParameter(propName: System.String)
+### ElementOrientation.CreateParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Creates a new parameter for a Property.
 
@@ -279,7 +279,7 @@ Runs the GenerateOrientations acton.
 
 <a id="ElementOrientation.GetChildren"></a>
 
-### ElementOrientation.GetChildren(recurses: System.Boolean, children: System.Collections.Generic.IList[ChildrenType])
+### ElementOrientation.GetChildren(recurses: [bool](https://docs.python.org/3/library/functions.html#bool), children: List[ChildrenType])
 
 Gets the list of children, filtered by type.
 
@@ -287,7 +287,7 @@ Gets the list of children, filtered by type.
 
 <a id="ElementOrientation.GetParameter"></a>
 
-### ElementOrientation.GetParameter(propName: System.String)
+### ElementOrientation.GetParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Gets the parameter corresponding to the given property.
 
@@ -311,7 +311,7 @@ Run the GroupSimilarObjects action.
 
 <a id="ElementOrientation.PropertyByAPIName"></a>
 
-### ElementOrientation.PropertyByAPIName(name: System.String)
+### ElementOrientation.PropertyByAPIName(name: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 ```text
 Get a property by its API name.
@@ -322,7 +322,7 @@ If multiple properties have the same API Name, only the first property with that
 
 <a id="ElementOrientation.PropertyByName"></a>
 
-### ElementOrientation.PropertyByName(name: System.String)
+### ElementOrientation.PropertyByName(name: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Get a property by its unique name.
 
@@ -330,7 +330,7 @@ Get a property by its unique name.
 
 <a id="ElementOrientation.RemoveParameter"></a>
 
-### ElementOrientation.RemoveParameter(propName: System.String)
+### ElementOrientation.RemoveParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Removes the parameter from the parameter set corresponding to the given property.
 

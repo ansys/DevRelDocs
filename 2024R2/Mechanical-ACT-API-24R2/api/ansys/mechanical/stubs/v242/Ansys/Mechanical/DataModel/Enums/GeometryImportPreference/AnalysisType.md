@@ -17,7 +17,7 @@ Specifies the type of analysis to target during import.
 ### Attributes
 
 | Name |
-| ------------------------------------------------------------------------------------------------------------------------------------ |
+| ------------------------------------ |
 | [`Type2D`](#AnalysisType.Type2D) |
 | [`Type3D`](#AnalysisType.Type3D) |
 

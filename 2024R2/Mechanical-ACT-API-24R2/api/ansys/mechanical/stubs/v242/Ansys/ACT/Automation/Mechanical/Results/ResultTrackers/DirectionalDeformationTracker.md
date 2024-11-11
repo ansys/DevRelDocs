@@ -17,7 +17,7 @@ Defines a DirectionalDeformationTracker.
 ### Methods
 
 | Name | Description |
-|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------|
+|-------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------|
 | [`Activate`](#DirectionalDeformationTracker.Activate)                               | Activate the current object.                                                      |
 | [`AddComment`](#DirectionalDeformationTracker.AddComment)                           | Creates a new child Comment.                                                      |
 | [`AddImage`](#DirectionalDeformationTracker.AddImage)                               | Creates a new child Image.                                                        |
@@ -40,7 +40,7 @@ Defines a DirectionalDeformationTracker.
 ### Properties
 
 | Name | Description |
-|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------|
+|---------------------------------------------------------------------------------------------|---------------------------------------------------------------|
 | [`AccelerationType`](#DirectionalDeformationTracker.AccelerationType)                       | Gets or sets the AccelerationType.                            |
 | [`BoundaryCondition`](#DirectionalDeformationTracker.BoundaryCondition)                     | Gets or sets the BoundaryCondition.                           |
 | [`ChartDimensions`](#DirectionalDeformationTracker.ChartDimensions)                         | Gets or sets the Chart Dimensions                             |
@@ -109,7 +109,7 @@ Gets or sets the AccelerationType.
 
 <a id="DirectionalDeformationTracker.BoundaryCondition"></a>
 
-### *property* DirectionalDeformationTracker.BoundaryCondition *: [Ansys.ACT.Automation.Mechanical.BoundaryConditions.GenericBoundaryCondition](../../../../../../../v241/Ansys/ACT/Automation/Mechanical/BoundaryConditions/GenericBoundaryCondition.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.BoundaryConditions.GenericBoundaryCondition) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* DirectionalDeformationTracker.BoundaryCondition *: [Ansys.ACT.Automation.Mechanical.BoundaryConditions.GenericBoundaryCondition](../../BoundaryConditions/GenericBoundaryCondition.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.BoundaryConditions.GenericBoundaryCondition) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the BoundaryCondition.
 
@@ -133,7 +133,7 @@ Gets or sets the ChartViewingStyle.
 
 <a id="DirectionalDeformationTracker.Children"></a>
 
-### *property* DirectionalDeformationTracker.Children *: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* DirectionalDeformationTracker.Children *: List[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of children.
 
@@ -141,7 +141,7 @@ Gets the list of children.
 
 <a id="DirectionalDeformationTracker.Comments"></a>
 
-### *property* DirectionalDeformationTracker.Comments *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Comment](../../../../../../../v241/Ansys/ACT/Automation/Mechanical/Comment.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* DirectionalDeformationTracker.Comments *: Iterable[[Ansys.ACT.Automation.Mechanical.Comment](../../Comment.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated comments.
 
@@ -149,7 +149,7 @@ Gets the list of associated comments.
 
 <a id="DirectionalDeformationTracker.CoordinateSystem"></a>
 
-### *property* DirectionalDeformationTracker.CoordinateSystem *: [Ansys.ACT.Automation.Mechanical.CoordinateSystem](../../../../../../../v241/Ansys/ACT/Automation/Mechanical/CoordinateSystem.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.CoordinateSystem) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* DirectionalDeformationTracker.CoordinateSystem *: [Ansys.ACT.Automation.Mechanical.CoordinateSystem](../../CoordinateSystem.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.CoordinateSystem) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the CoordinateSystem.
 
@@ -165,7 +165,7 @@ Gets or sets the CurvesAppearanceDisplay.
 
 <a id="DirectionalDeformationTracker.CutFrequency"></a>
 
-### *property* DirectionalDeformationTracker.CutFrequency *: System.Double | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* DirectionalDeformationTracker.CutFrequency *: [float](https://docs.python.org/3/library/functions.html#float) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the CutFrequency.
 
@@ -205,7 +205,7 @@ Gets or sets the Duration.
 
 <a id="DirectionalDeformationTracker.EnhancedTracking"></a>
 
-### *property* DirectionalDeformationTracker.EnhancedTracking *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* DirectionalDeformationTracker.EnhancedTracking *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the EnhancedTracking.
 
@@ -245,7 +245,7 @@ Gets the FrequencyAtMaximumAmplitude.
 
 <a id="DirectionalDeformationTracker.GeometrySelectionString"></a>
 
-### *property* DirectionalDeformationTracker.GeometrySelectionString *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* DirectionalDeformationTracker.GeometrySelectionString *: [str](https://docs.python.org/3/library/stdtypes.html#str) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the GeometrySelectionString.
 
@@ -253,7 +253,7 @@ Gets or sets the GeometrySelectionString.
 
 <a id="DirectionalDeformationTracker.Images"></a>
 
-### *property* DirectionalDeformationTracker.Images *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Image](../../../../../../../v241/Ansys/ACT/Automation/Mechanical/Image.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* DirectionalDeformationTracker.Images *: Iterable[[Ansys.ACT.Automation.Mechanical.Image](../../Image.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated images.
 
@@ -277,7 +277,7 @@ Gets the internal object. For advanced usage only.
 
 <a id="DirectionalDeformationTracker.IsSolved"></a>
 
-### *property* DirectionalDeformationTracker.IsSolved *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* DirectionalDeformationTracker.IsSolved *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the IsSolved.
 
@@ -285,7 +285,7 @@ Gets the IsSolved.
 
 <a id="DirectionalDeformationTracker.LoadStepNumber"></a>
 
-### *property* DirectionalDeformationTracker.LoadStepNumber *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* DirectionalDeformationTracker.LoadStepNumber *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the LoadStepNumber.
 
@@ -301,7 +301,7 @@ Gets or sets the Location.
 
 <a id="DirectionalDeformationTracker.LocationCoordinateSystem"></a>
 
-### *property* DirectionalDeformationTracker.LocationCoordinateSystem *: [Ansys.ACT.Automation.Mechanical.CoordinateSystem](../../../../../../../v241/Ansys/ACT/Automation/Mechanical/CoordinateSystem.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.CoordinateSystem) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* DirectionalDeformationTracker.LocationCoordinateSystem *: [Ansys.ACT.Automation.Mechanical.CoordinateSystem](../../CoordinateSystem.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.CoordinateSystem) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the LocationCoordinateSystem.
 
@@ -397,7 +397,7 @@ Gets the PhaseAngle.
 
 <a id="DirectionalDeformationTracker.Properties"></a>
 
-### *property* DirectionalDeformationTracker.Properties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* DirectionalDeformationTracker.Properties *: [tuple](https://docs.python.org/3/library/stdtypes.html#tuple)[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of properties for this object.
 
@@ -437,7 +437,7 @@ Gets the ResultChartType.
 
 <a id="DirectionalDeformationTracker.SectorNumber"></a>
 
-### *property* DirectionalDeformationTracker.SectorNumber *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* DirectionalDeformationTracker.SectorNumber *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the SectorNumber.
 
@@ -461,7 +461,7 @@ Gets or sets the SpatialResolution.
 
 <a id="DirectionalDeformationTracker.Spring"></a>
 
-### *property* DirectionalDeformationTracker.Spring *: [Ansys.ACT.Automation.Mechanical.Connections.Spring](../../../../../../../v241/Ansys/ACT/Automation/Mechanical/Connections/Spring.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Connections.Spring) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* DirectionalDeformationTracker.Spring *: [Ansys.ACT.Automation.Mechanical.Connections.Spring](../../Connections/Spring.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Connections.Spring) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Spring.
 
@@ -477,7 +477,7 @@ Gets or sets the StressStrainType.
 
 <a id="DirectionalDeformationTracker.Suppressed"></a>
 
-### *property* DirectionalDeformationTracker.Suppressed *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* DirectionalDeformationTracker.Suppressed *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Suppressed.
 
@@ -493,7 +493,7 @@ Gets or sets the TimeHistoryDisplay.
 
 <a id="DirectionalDeformationTracker.UseParentFrequencyRange"></a>
 
-### *property* DirectionalDeformationTracker.UseParentFrequencyRange *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* DirectionalDeformationTracker.UseParentFrequencyRange *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the UseParentFrequencyRange.
 
@@ -509,7 +509,7 @@ Gets or sets the VelocityType.
 
 <a id="DirectionalDeformationTracker.VisibleProperties"></a>
 
-### *property* DirectionalDeformationTracker.VisibleProperties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* DirectionalDeformationTracker.VisibleProperties *: [tuple](https://docs.python.org/3/library/stdtypes.html#tuple)[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of properties that are visible for this object.
 
@@ -545,7 +545,7 @@ Creates a new child Comment.
 
 <a id="DirectionalDeformationTracker.AddImage"></a>
 
-### DirectionalDeformationTracker.AddImage(filePath: System.String)
+### DirectionalDeformationTracker.AddImage(filePath: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 ```text
 Creates a new child Image.
@@ -573,7 +573,7 @@ Copies all visible properties from this object to another.
 
 <a id="DirectionalDeformationTracker.CreateParameter"></a>
 
-### DirectionalDeformationTracker.CreateParameter(propName: System.String)
+### DirectionalDeformationTracker.CreateParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Creates a new parameter for a Property.
 
@@ -605,7 +605,7 @@ Run the EvaluateAllResults action.
 
 <a id="DirectionalDeformationTracker.ExportAnimation"></a>
 
-### DirectionalDeformationTracker.ExportAnimation(filePath: System.String, format: [Ansys.Mechanical.DataModel.Enums.GraphicsAnimationExportFormat](../../../../../Mechanical/DataModel/Enums/GraphicsAnimationExportFormat.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.GraphicsAnimationExportFormat), settings: [Ansys.Mechanical.Graphics.AnimationExportSettings](../../../../../Mechanical/Graphics/AnimationExportSettings.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.Graphics.AnimationExportSettings))
+### DirectionalDeformationTracker.ExportAnimation(filePath: [str](https://docs.python.org/3/library/stdtypes.html#str), format: [Ansys.Mechanical.DataModel.Enums.GraphicsAnimationExportFormat](../../../../../Mechanical/DataModel/Enums/GraphicsAnimationExportFormat.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.GraphicsAnimationExportFormat), settings: [Ansys.Mechanical.Graphics.AnimationExportSettings](../../../../../Mechanical/Graphics/AnimationExportSettings.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.Graphics.AnimationExportSettings))
 
 Run the ExportAnimation action.
 
@@ -613,7 +613,7 @@ Run the ExportAnimation action.
 
 <a id="DirectionalDeformationTracker.GetChildren"></a>
 
-### DirectionalDeformationTracker.GetChildren(recurses: System.Boolean, children: System.Collections.Generic.IList[ChildrenType])
+### DirectionalDeformationTracker.GetChildren(recurses: [bool](https://docs.python.org/3/library/functions.html#bool), children: List[ChildrenType])
 
 Gets the list of children, filtered by type.
 
@@ -621,7 +621,7 @@ Gets the list of children, filtered by type.
 
 <a id="DirectionalDeformationTracker.GetParameter"></a>
 
-### DirectionalDeformationTracker.GetParameter(propName: System.String)
+### DirectionalDeformationTracker.GetParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Gets the parameter corresponding to the given property.
 
@@ -645,7 +645,7 @@ Run the GroupSimilarObjects action.
 
 <a id="DirectionalDeformationTracker.PropertyByAPIName"></a>
 
-### DirectionalDeformationTracker.PropertyByAPIName(name: System.String)
+### DirectionalDeformationTracker.PropertyByAPIName(name: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 ```text
 Get a property by its API name.
@@ -656,7 +656,7 @@ If multiple properties have the same API Name, only the first property with that
 
 <a id="DirectionalDeformationTracker.PropertyByName"></a>
 
-### DirectionalDeformationTracker.PropertyByName(name: System.String)
+### DirectionalDeformationTracker.PropertyByName(name: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Get a property by its unique name.
 
@@ -664,7 +664,7 @@ Get a property by its unique name.
 
 <a id="DirectionalDeformationTracker.RemoveParameter"></a>
 
-### DirectionalDeformationTracker.RemoveParameter(propName: System.String)
+### DirectionalDeformationTracker.RemoveParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Removes the parameter from the parameter set corresponding to the given property.
 

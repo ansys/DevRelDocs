@@ -18,7 +18,7 @@ Or a vector with fixed initial point(origin) and a direction(vector).
 ### Properties
 
 | Name | Description |
-|----------------------------------------------------------------------------------------|-------------------------------------------------|
+|-----------------------------------|-------------------------------------------------|
 | [`Origin`](#BoundVector.Origin)   | The location at the start of the BoundVector.   |
 | [`Vector`](#BoundVector.Vector)   | The direction of the BoundVector.               |
 

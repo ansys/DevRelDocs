@@ -19,7 +19,7 @@ Derive from this class to define new enumerations.
 ### Attributes
 
 | Name |
-| -------------------------------------------------------------------------------------------------------------- |
+| ---------------------------------------- |
 | [`Quad`](#MethodMeshType.Quad) |
 | [`Triangle`](#MethodMeshType.Triangle) |
 

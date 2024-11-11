@@ -17,7 +17,7 @@ Specifies the LineLineContactDetectionType.
 ### Attributes
 
 | Name |
-| ------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| ------------------------------------------------------------------------ |
 | [`External1Segment`](#LineLineContactDetectionType.External1Segment) |
 | [`External4Segments`](#LineLineContactDetectionType.External4Segments) |
 | [`External8Segments`](#LineLineContactDetectionType.External8Segments) |

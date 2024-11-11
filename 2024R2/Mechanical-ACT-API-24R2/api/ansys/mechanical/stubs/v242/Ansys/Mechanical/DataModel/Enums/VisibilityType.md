@@ -17,7 +17,7 @@ Specifies the Tree Graphic Filter type.
 ### Attributes
 
 | Name |
-| ---------------------------------------------------------------------------------------------------------------- |
+| ------------------------------------------ |
 | [`All`](#VisibilityType.All) |
 | [`Invisible`](#VisibilityType.Invisible) |
 | [`Visible`](#VisibilityType.Visible) |

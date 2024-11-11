@@ -127,7 +127,7 @@ Defines a EquivalentPlasticStrainRST.
 
 <a id="EquivalentPlasticStrainRST.Amplitude"></a>
 
-### *property* EquivalentPlasticStrainRST.Amplitude *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* EquivalentPlasticStrainRST.Amplitude *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Amplitude.
 
@@ -143,7 +143,7 @@ Gets the Average.
 
 <a id="EquivalentPlasticStrainRST.AverageAcrossBodies"></a>
 
-### *property* EquivalentPlasticStrainRST.AverageAcrossBodies *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* EquivalentPlasticStrainRST.AverageAcrossBodies *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the AverageAcrossBodies.
 
@@ -151,7 +151,7 @@ Gets or sets the AverageAcrossBodies.
 
 <a id="EquivalentPlasticStrainRST.By"></a>
 
-### *property* EquivalentPlasticStrainRST.By *: [Ansys.Mechanical.DataModel.Enums.SetDriverStyle](../../../../../../../v242/Ansys/Mechanical/DataModel/Enums/SetDriverStyle.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.SetDriverStyle) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* EquivalentPlasticStrainRST.By *: [Ansys.Mechanical.DataModel.Enums.SetDriverStyle](../../../../../Mechanical/DataModel/Enums/SetDriverStyle.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.SetDriverStyle) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the By.
 
@@ -159,7 +159,7 @@ Gets or sets the By.
 
 <a id="EquivalentPlasticStrainRST.CalculateTimeHistory"></a>
 
-### *property* EquivalentPlasticStrainRST.CalculateTimeHistory *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* EquivalentPlasticStrainRST.CalculateTimeHistory *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the CalculateTimeHistory.
 
@@ -167,7 +167,7 @@ Gets or sets the CalculateTimeHistory.
 
 <a id="EquivalentPlasticStrainRST.Children"></a>
 
-### *property* EquivalentPlasticStrainRST.Children *: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* EquivalentPlasticStrainRST.Children *: List[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of children.
 
@@ -175,7 +175,7 @@ Gets the list of children.
 
 <a id="EquivalentPlasticStrainRST.CombinationNumber"></a>
 
-### *property* EquivalentPlasticStrainRST.CombinationNumber *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* EquivalentPlasticStrainRST.CombinationNumber *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Combination Number for a Solution Combination result.
 
@@ -183,7 +183,7 @@ Gets or sets the Combination Number for a Solution Combination result.
 
 <a id="EquivalentPlasticStrainRST.Comments"></a>
 
-### *property* EquivalentPlasticStrainRST.Comments *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Comment](../../Comment.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* EquivalentPlasticStrainRST.Comments *: Iterable[[Ansys.ACT.Automation.Mechanical.Comment](../../Comment.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated comments.
 
@@ -201,7 +201,7 @@ Accepts/Returns None for Fiber Coordinate System for a result that is sub scoped
 
 <a id="EquivalentPlasticStrainRST.CrackFrontNumber"></a>
 
-### *property* EquivalentPlasticStrainRST.CrackFrontNumber *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* EquivalentPlasticStrainRST.CrackFrontNumber *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the CrackFrontNumber.
 
@@ -209,7 +209,7 @@ Gets or sets the CrackFrontNumber.
 
 <a id="EquivalentPlasticStrainRST.CyclicMode"></a>
 
-### *property* EquivalentPlasticStrainRST.CyclicMode *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* EquivalentPlasticStrainRST.CyclicMode *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the CyclicMode.
 
@@ -217,7 +217,7 @@ Gets or sets the CyclicMode.
 
 <a id="EquivalentPlasticStrainRST.DataModelObjectCategory"></a>
 
-### *property* EquivalentPlasticStrainRST.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../../../v242/Ansys/Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* EquivalentPlasticStrainRST.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the current DataModelObject’s category.
 
@@ -225,7 +225,7 @@ Gets the current DataModelObject’s category.
 
 <a id="EquivalentPlasticStrainRST.DisplayOption"></a>
 
-### *property* EquivalentPlasticStrainRST.DisplayOption *: [Ansys.Mechanical.DataModel.Enums.ResultAveragingType](../../../../../../../v242/Ansys/Mechanical/DataModel/Enums/ResultAveragingType.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.ResultAveragingType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* EquivalentPlasticStrainRST.DisplayOption *: [Ansys.Mechanical.DataModel.Enums.ResultAveragingType](../../../../../Mechanical/DataModel/Enums/ResultAveragingType.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.ResultAveragingType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the DisplayOption.
 
@@ -241,7 +241,7 @@ Gets or sets the DisplayTime.
 
 <a id="EquivalentPlasticStrainRST.DpfEvaluation"></a>
 
-### *property* EquivalentPlasticStrainRST.DpfEvaluation *: [Ansys.Mechanical.DataModel.Enums.DpfEvaluationType](../../../../../../../v242/Ansys/Mechanical/DataModel/Enums/DpfEvaluationType.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.DpfEvaluationType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* EquivalentPlasticStrainRST.DpfEvaluation *: [Ansys.Mechanical.DataModel.Enums.DpfEvaluationType](../../../../../Mechanical/DataModel/Enums/DpfEvaluationType.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DpfEvaluationType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the DpfEvaluation.
 
@@ -257,7 +257,7 @@ Gets or sets the EnvironmentSelection.
 
 <a id="EquivalentPlasticStrainRST.Figures"></a>
 
-### *property* EquivalentPlasticStrainRST.Figures *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Figure](../../Figure.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* EquivalentPlasticStrainRST.Figures *: Iterable[[Ansys.ACT.Automation.Mechanical.Figure](../../Figure.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated figures.
 
@@ -273,7 +273,7 @@ Gets or sets the Frequency.
 
 <a id="EquivalentPlasticStrainRST.GlobalIDs"></a>
 
-### *property* EquivalentPlasticStrainRST.GlobalIDs *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* EquivalentPlasticStrainRST.GlobalIDs *: [str](https://docs.python.org/3/library/stdtypes.html#str) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the GlobalIDs.
 
@@ -281,7 +281,7 @@ Gets or sets the GlobalIDs.
 
 <a id="EquivalentPlasticStrainRST.GraphControlsXAxis"></a>
 
-### *property* EquivalentPlasticStrainRST.GraphControlsXAxis *: [Ansys.Mechanical.DataModel.Enums.GraphControlsXAxis](../../../../../../../v242/Ansys/Mechanical/DataModel/Enums/GraphControlsXAxis.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.GraphControlsXAxis) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* EquivalentPlasticStrainRST.GraphControlsXAxis *: [Ansys.Mechanical.DataModel.Enums.GraphControlsXAxis](../../../../../Mechanical/DataModel/Enums/GraphControlsXAxis.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.GraphControlsXAxis) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the GraphControlsXAxis.
 
@@ -289,7 +289,7 @@ Gets or sets the GraphControlsXAxis.
 
 <a id="EquivalentPlasticStrainRST.HarmonicIndex"></a>
 
-### *property* EquivalentPlasticStrainRST.HarmonicIndex *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* EquivalentPlasticStrainRST.HarmonicIndex *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the HarmonicIndex.
 
@@ -297,7 +297,7 @@ Gets or sets the HarmonicIndex.
 
 <a id="EquivalentPlasticStrainRST.Identifier"></a>
 
-### *property* EquivalentPlasticStrainRST.Identifier *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* EquivalentPlasticStrainRST.Identifier *: [str](https://docs.python.org/3/library/stdtypes.html#str) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Identifier.
 
@@ -305,7 +305,7 @@ Gets or sets the Identifier.
 
 <a id="EquivalentPlasticStrainRST.Images"></a>
 
-### *property* EquivalentPlasticStrainRST.Images *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Image](../../Image.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* EquivalentPlasticStrainRST.Images *: Iterable[[Ansys.ACT.Automation.Mechanical.Image](../../Image.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated images.
 
@@ -321,7 +321,7 @@ Gets the internal object. For advanced usage only.
 
 <a id="EquivalentPlasticStrainRST.IsSolved"></a>
 
-### *property* EquivalentPlasticStrainRST.IsSolved *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* EquivalentPlasticStrainRST.IsSolved *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the IsSolved.
 
@@ -329,7 +329,7 @@ Gets the IsSolved.
 
 <a id="EquivalentPlasticStrainRST.ItemType"></a>
 
-### *property* EquivalentPlasticStrainRST.ItemType *: [Ansys.Mechanical.DataModel.Enums.ResultFileItemType](../../../../../../../v242/Ansys/Mechanical/DataModel/Enums/ResultFileItemType.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.ResultFileItemType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* EquivalentPlasticStrainRST.ItemType *: [Ansys.Mechanical.DataModel.Enums.ResultFileItemType](../../../../../Mechanical/DataModel/Enums/ResultFileItemType.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.ResultFileItemType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the ItemType.
 
@@ -337,7 +337,7 @@ Gets or sets the ItemType.
 
 <a id="EquivalentPlasticStrainRST.IterationNumber"></a>
 
-### *property* EquivalentPlasticStrainRST.IterationNumber *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* EquivalentPlasticStrainRST.IterationNumber *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the IterationNumber.
 
@@ -345,7 +345,7 @@ Gets the IterationNumber.
 
 <a id="EquivalentPlasticStrainRST.IterationStep"></a>
 
-### *property* EquivalentPlasticStrainRST.IterationStep *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* EquivalentPlasticStrainRST.IterationStep *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the IterationStep.
 
@@ -353,7 +353,7 @@ Gets or sets the IterationStep.
 
 <a id="EquivalentPlasticStrainRST.LoadMultiplier"></a>
 
-### *property* EquivalentPlasticStrainRST.LoadMultiplier *: System.Double | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* EquivalentPlasticStrainRST.LoadMultiplier *: [float](https://docs.python.org/3/library/functions.html#float) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the LoadMultiplier.
 
@@ -361,7 +361,7 @@ Gets the LoadMultiplier.
 
 <a id="EquivalentPlasticStrainRST.LoadStep"></a>
 
-### *property* EquivalentPlasticStrainRST.LoadStep *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* EquivalentPlasticStrainRST.LoadStep *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the LoadStep.
 
@@ -369,7 +369,7 @@ Gets the LoadStep.
 
 <a id="EquivalentPlasticStrainRST.LoadStepForMaximumOfMaximumValues"></a>
 
-### *property* EquivalentPlasticStrainRST.LoadStepForMaximumOfMaximumValues *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* EquivalentPlasticStrainRST.LoadStepForMaximumOfMaximumValues *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Get the Load Step for the maximum of maximum values.
 
@@ -377,7 +377,7 @@ Get the Load Step for the maximum of maximum values.
 
 <a id="EquivalentPlasticStrainRST.LoadStepForMaximumOfMinimumValues"></a>
 
-### *property* EquivalentPlasticStrainRST.LoadStepForMaximumOfMinimumValues *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* EquivalentPlasticStrainRST.LoadStepForMaximumOfMinimumValues *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Get the Load Step for the maximum of minimum values.
 
@@ -385,7 +385,7 @@ Get the Load Step for the maximum of minimum values.
 
 <a id="EquivalentPlasticStrainRST.LoadStepForMinimumOfMaximumValues"></a>
 
-### *property* EquivalentPlasticStrainRST.LoadStepForMinimumOfMaximumValues *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* EquivalentPlasticStrainRST.LoadStepForMinimumOfMaximumValues *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Get the Load Step for the minimum of maximum values.
 
@@ -393,7 +393,7 @@ Get the Load Step for the minimum of maximum values.
 
 <a id="EquivalentPlasticStrainRST.LoadStepForMinimumOfMinimumValues"></a>
 
-### *property* EquivalentPlasticStrainRST.LoadStepForMinimumOfMinimumValues *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* EquivalentPlasticStrainRST.LoadStepForMinimumOfMinimumValues *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Get the Load Step for the minimum of minimum values.
 
@@ -401,7 +401,7 @@ Get the Load Step for the minimum of minimum values.
 
 <a id="EquivalentPlasticStrainRST.LoadStepNumber"></a>
 
-### *property* EquivalentPlasticStrainRST.LoadStepNumber *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* EquivalentPlasticStrainRST.LoadStepNumber *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the LoadStepNumber.
 
@@ -425,7 +425,7 @@ Gets the Maximum.
 
 <a id="EquivalentPlasticStrainRST.MaximumOccursOn"></a>
 
-### *property* EquivalentPlasticStrainRST.MaximumOccursOn *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* EquivalentPlasticStrainRST.MaximumOccursOn *: [str](https://docs.python.org/3/library/stdtypes.html#str) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the MaximumOccursOn.
 
@@ -457,7 +457,7 @@ Gets the Minimum.
 
 <a id="EquivalentPlasticStrainRST.MinimumOccursOn"></a>
 
-### *property* EquivalentPlasticStrainRST.MinimumOccursOn *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* EquivalentPlasticStrainRST.MinimumOccursOn *: [str](https://docs.python.org/3/library/stdtypes.html#str) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the MinimumOccursOn.
 
@@ -481,7 +481,7 @@ Gets the MinimumOfMinimumOverTime.
 
 <a id="EquivalentPlasticStrainRST.Mode"></a>
 
-### *property* EquivalentPlasticStrainRST.Mode *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* EquivalentPlasticStrainRST.Mode *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Mode.
 
@@ -489,7 +489,7 @@ Gets or sets the Mode.
 
 <a id="EquivalentPlasticStrainRST.NamedSelections"></a>
 
-### *property* EquivalentPlasticStrainRST.NamedSelections *: System.Collections.Generic.IEnumerable[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* EquivalentPlasticStrainRST.NamedSelections *: Iterable[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the NamedSelections.
 
@@ -497,7 +497,7 @@ Gets or sets the NamedSelections.
 
 <a id="EquivalentPlasticStrainRST.Path"></a>
 
-### *property* EquivalentPlasticStrainRST.Path *: [Ansys.ACT.Automation.Mechanical.Path](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Path.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Path) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* EquivalentPlasticStrainRST.Path *: [Ansys.ACT.Automation.Mechanical.Path](../../Path.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Path) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Path property.
 
@@ -513,7 +513,7 @@ Gets or sets the PhaseIncrement.
 
 <a id="EquivalentPlasticStrainRST.Plies"></a>
 
-### *property* EquivalentPlasticStrainRST.Plies *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.ImportedPliesCollection](../../ImportedPliesCollection.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.ImportedPliesCollection)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* EquivalentPlasticStrainRST.Plies *: Iterable[[Ansys.ACT.Automation.Mechanical.ImportedPliesCollection](../../ImportedPliesCollection.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.ImportedPliesCollection)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Plies property.
 
@@ -521,7 +521,7 @@ Plies property.
 
 <a id="EquivalentPlasticStrainRST.PlotData"></a>
 
-### *property* EquivalentPlasticStrainRST.PlotData *: [Ansys.Mechanical.DataModel.Results.ResultDataTable](../../../../../../../v242/Ansys/Mechanical/DataModel/Results/ResultDataTable.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Results.ResultDataTable) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* EquivalentPlasticStrainRST.PlotData *: [Ansys.Mechanical.DataModel.Results.ResultDataTable](../../../../../Mechanical/DataModel/Results/ResultDataTable.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Results.ResultDataTable) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the result table.
 
@@ -529,7 +529,7 @@ Gets the result table.
 
 <a id="EquivalentPlasticStrainRST.Ply"></a>
 
-### *property* EquivalentPlasticStrainRST.Ply *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.AnalysisPly](../../AnalysisPly.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.AnalysisPly)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* EquivalentPlasticStrainRST.Ply *: Iterable[[Ansys.ACT.Automation.Mechanical.AnalysisPly](../../AnalysisPly.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.AnalysisPly)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Ply selection.
 
@@ -537,7 +537,7 @@ Gets or sets the Ply selection.
 
 <a id="EquivalentPlasticStrainRST.Position"></a>
 
-### *property* EquivalentPlasticStrainRST.Position *: [Ansys.Mechanical.DataModel.Enums.ShellFaceType](../../../../../../../v242/Ansys/Mechanical/DataModel/Enums/ShellFaceType.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.ShellFaceType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* EquivalentPlasticStrainRST.Position *: [Ansys.Mechanical.DataModel.Enums.ShellFaceType](../../../../../Mechanical/DataModel/Enums/ShellFaceType.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.ShellFaceType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Position.
 
@@ -545,7 +545,7 @@ Gets or sets the Position.
 
 <a id="EquivalentPlasticStrainRST.Properties"></a>
 
-### *property* EquivalentPlasticStrainRST.Properties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* EquivalentPlasticStrainRST.Properties *: [tuple](https://docs.python.org/3/library/stdtypes.html#tuple)[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of properties for this object.
 
@@ -561,7 +561,7 @@ Gets the ReportedFrequency.
 
 <a id="EquivalentPlasticStrainRST.ScopingMethod"></a>
 
-### *property* EquivalentPlasticStrainRST.ScopingMethod *: [Ansys.Mechanical.DataModel.Enums.GeometryDefineByType](../../../../../../../v242/Ansys/Mechanical/DataModel/Enums/GeometryDefineByType.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.GeometryDefineByType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* EquivalentPlasticStrainRST.ScopingMethod *: [Ansys.Mechanical.DataModel.Enums.GeometryDefineByType](../../../../../Mechanical/DataModel/Enums/GeometryDefineByType.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.GeometryDefineByType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the ScopingMethod.
 
@@ -569,7 +569,7 @@ Gets or sets the ScopingMethod.
 
 <a id="EquivalentPlasticStrainRST.SetNumber"></a>
 
-### *property* EquivalentPlasticStrainRST.SetNumber *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* EquivalentPlasticStrainRST.SetNumber *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Set Number.
 
@@ -577,7 +577,7 @@ Gets or sets the Set Number.
 
 <a id="EquivalentPlasticStrainRST.SolutionCombinationDriver"></a>
 
-### *property* EquivalentPlasticStrainRST.SolutionCombinationDriver *: [Ansys.Mechanical.DataModel.Enums.SolutionCombinationDriverStyle](../../../../../../../v242/Ansys/Mechanical/DataModel/Enums/SolutionCombinationDriverStyle.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.SolutionCombinationDriverStyle) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* EquivalentPlasticStrainRST.SolutionCombinationDriver *: [Ansys.Mechanical.DataModel.Enums.SolutionCombinationDriverStyle](../../../../../Mechanical/DataModel/Enums/SolutionCombinationDriverStyle.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.SolutionCombinationDriverStyle) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the SolutionCombinationDriver.
 
@@ -585,7 +585,7 @@ Gets or sets the SolutionCombinationDriver.
 
 <a id="EquivalentPlasticStrainRST.SolverComponentIDs"></a>
 
-### *property* EquivalentPlasticStrainRST.SolverComponentIDs *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* EquivalentPlasticStrainRST.SolverComponentIDs *: [str](https://docs.python.org/3/library/stdtypes.html#str) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the SolverComponentIDs.
 
@@ -593,7 +593,7 @@ Gets or sets the SolverComponentIDs.
 
 <a id="EquivalentPlasticStrainRST.StressStrainType"></a>
 
-### *property* EquivalentPlasticStrainRST.StressStrainType *: [Ansys.Mechanical.DataModel.Enums.StressStrainType](../../../../../../../v242/Ansys/Mechanical/DataModel/Enums/StressStrainType.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.StressStrainType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* EquivalentPlasticStrainRST.StressStrainType *: [Ansys.Mechanical.DataModel.Enums.StressStrainType](../../../../../Mechanical/DataModel/Enums/StressStrainType.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.StressStrainType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the StressStrainType.
 
@@ -601,7 +601,7 @@ Gets or sets the StressStrainType.
 
 <a id="EquivalentPlasticStrainRST.SubScopeBy"></a>
 
-### *property* EquivalentPlasticStrainRST.SubScopeBy *: [Ansys.Mechanical.DataModel.Enums.SubScopingDefineByType](../../../../../../../v242/Ansys/Mechanical/DataModel/Enums/SubScopingDefineByType.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.SubScopingDefineByType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* EquivalentPlasticStrainRST.SubScopeBy *: [Ansys.Mechanical.DataModel.Enums.SubScopingDefineByType](../../../../../Mechanical/DataModel/Enums/SubScopingDefineByType.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.SubScopingDefineByType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the SubScopeBy.
 
@@ -609,7 +609,7 @@ Gets or sets the SubScopeBy.
 
 <a id="EquivalentPlasticStrainRST.Substep"></a>
 
-### *property* EquivalentPlasticStrainRST.Substep *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* EquivalentPlasticStrainRST.Substep *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the Substep.
 
@@ -617,7 +617,7 @@ Gets the Substep.
 
 <a id="EquivalentPlasticStrainRST.Suppressed"></a>
 
-### *property* EquivalentPlasticStrainRST.Suppressed *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* EquivalentPlasticStrainRST.Suppressed *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Suppressed.
 
@@ -625,7 +625,7 @@ Gets or sets the Suppressed.
 
 <a id="EquivalentPlasticStrainRST.Surface"></a>
 
-### *property* EquivalentPlasticStrainRST.Surface *: [Ansys.ACT.Automation.Mechanical.Surface](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Surface.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Surface) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* EquivalentPlasticStrainRST.Surface *: [Ansys.ACT.Automation.Mechanical.Surface](../../Surface.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Surface) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Surface property.
 
@@ -681,7 +681,7 @@ Get the Time for the minimum of minimum values.
 
 <a id="EquivalentPlasticStrainRST.VisibleProperties"></a>
 
-### *property* EquivalentPlasticStrainRST.VisibleProperties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* EquivalentPlasticStrainRST.VisibleProperties *: [tuple](https://docs.python.org/3/library/stdtypes.html#tuple)[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of properties that are visible for this object.
 
@@ -689,7 +689,7 @@ Gets the list of properties that are visible for this object.
 
 <a id="EquivalentPlasticStrainRST.WaterfallPanelShowTextOnMosaic"></a>
 
-### *property* EquivalentPlasticStrainRST.WaterfallPanelShowTextOnMosaic *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* EquivalentPlasticStrainRST.WaterfallPanelShowTextOnMosaic *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Waterfall Panel Mosaic Text Property.
 
@@ -741,7 +741,7 @@ Creates a new child Figure.
 
 <a id="EquivalentPlasticStrainRST.AddImage"></a>
 
-### EquivalentPlasticStrainRST.AddImage(filePath: System.String)
+### EquivalentPlasticStrainRST.AddImage(filePath: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 ```text
 Creates a new child Image.
@@ -769,7 +769,7 @@ Copies all visible properties from this object to another.
 
 <a id="EquivalentPlasticStrainRST.CreateParameter"></a>
 
-### EquivalentPlasticStrainRST.CreateParameter(propName: System.String)
+### EquivalentPlasticStrainRST.CreateParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 CreateParameter method.
 
@@ -817,7 +817,7 @@ Run the EvaluateAllResults action.
 
 <a id="EquivalentPlasticStrainRST.ExportAnimation"></a>
 
-### EquivalentPlasticStrainRST.ExportAnimation(filePath: System.String, format: [Ansys.Mechanical.DataModel.Enums.GraphicsAnimationExportFormat](../../../../../../../v242/Ansys/Mechanical/DataModel/Enums/GraphicsAnimationExportFormat.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.GraphicsAnimationExportFormat), settings: [Ansys.Mechanical.Graphics.AnimationExportSettings](../../../../../../../v242/Ansys/Mechanical/Graphics/AnimationExportSettings.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.Graphics.AnimationExportSettings))
+### EquivalentPlasticStrainRST.ExportAnimation(filePath: [str](https://docs.python.org/3/library/stdtypes.html#str), format: [Ansys.Mechanical.DataModel.Enums.GraphicsAnimationExportFormat](../../../../../Mechanical/DataModel/Enums/GraphicsAnimationExportFormat.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.GraphicsAnimationExportFormat), settings: [Ansys.Mechanical.Graphics.AnimationExportSettings](../../../../../Mechanical/Graphics/AnimationExportSettings.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.Graphics.AnimationExportSettings))
 
 Run the ExportAnimation action.
 
@@ -825,7 +825,7 @@ Run the ExportAnimation action.
 
 <a id="EquivalentPlasticStrainRST.ExportToTextFile"></a>
 
-### EquivalentPlasticStrainRST.ExportToTextFile(filePath: System.String)
+### EquivalentPlasticStrainRST.ExportToTextFile(filePath: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Run the ExportToTextFile action.
 
@@ -841,7 +841,7 @@ Run the FetchRemoteResult action.
 
 <a id="EquivalentPlasticStrainRST.GetChildren"></a>
 
-### EquivalentPlasticStrainRST.GetChildren(recurses: System.Boolean, children: System.Collections.Generic.IList[ChildrenType])
+### EquivalentPlasticStrainRST.GetChildren(recurses: [bool](https://docs.python.org/3/library/functions.html#bool), children: List[ChildrenType])
 
 Gets the list of children, filtered by type.
 
@@ -849,7 +849,7 @@ Gets the list of children, filtered by type.
 
 <a id="EquivalentPlasticStrainRST.GetParameter"></a>
 
-### EquivalentPlasticStrainRST.GetParameter(propName: System.String)
+### EquivalentPlasticStrainRST.GetParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Gets the parameter corresponding to the given property.
 
@@ -881,7 +881,7 @@ Run the PromoteToNamedSelection action.
 
 <a id="EquivalentPlasticStrainRST.PropertyByAPIName"></a>
 
-### EquivalentPlasticStrainRST.PropertyByAPIName(name: System.String)
+### EquivalentPlasticStrainRST.PropertyByAPIName(name: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 ```text
 Get a property by its API name.
@@ -892,7 +892,7 @@ If multiple properties have the same API Name, only the first property with that
 
 <a id="EquivalentPlasticStrainRST.PropertyByName"></a>
 
-### EquivalentPlasticStrainRST.PropertyByName(name: System.String)
+### EquivalentPlasticStrainRST.PropertyByName(name: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Get a property by its unique name.
 
@@ -900,7 +900,7 @@ Get a property by its unique name.
 
 <a id="EquivalentPlasticStrainRST.RemoveParameter"></a>
 
-### EquivalentPlasticStrainRST.RemoveParameter(propName: System.String)
+### EquivalentPlasticStrainRST.RemoveParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Removes the parameter from the parameter set corresponding to the given property.
 

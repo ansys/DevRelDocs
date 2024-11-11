@@ -17,7 +17,7 @@ Defines a PythonResult.
 ### Methods
 
 | Name | Description |
-|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------|
+|--------------------------------------------------------------------|-----------------------------------------------------------------------------------|
 | [`Activate`](#PythonResult.Activate)                               | Activate the current object.                                                      |
 | [`AddComment`](#PythonResult.AddComment)                           | Creates a new child Comment.                                                      |
 | [`AddFigure`](#PythonResult.AddFigure)                             | Creates a new child Figure.                                                       |
@@ -43,8 +43,8 @@ Defines a PythonResult.
 ### Properties
 
 | Name | Description |
-|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------|
-| [`AllowRecursion`](#PythonResult.AllowRecursion)                                                                                                                      | Gets or Sets whether the PythonCode allows recursion.                                 |
+|--------------------------------------------------------------------|---------------------------------------------------------------------------------------|
+| [`AllowRecursion`](#PythonResult.AllowRecursion)                   | Gets or Sets whether the PythonCode allows recursion.                                 |
 | [`By`](#PythonResult.By)                                           | Gets or sets the By.                                                                  |
 | [`Children`](#PythonResult.Children)                               | Gets the list of children.                                                            |
 | [`Comments`](#PythonResult.Comments)                               | Gets the list of associated comments.                                                 |
@@ -68,7 +68,7 @@ Defines a PythonResult.
 
 <a id="PythonResult.AllowRecursion"></a>
 
-### *property* PythonResult.AllowRecursion *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* PythonResult.AllowRecursion *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or Sets whether the PythonCode allows recursion.
 
@@ -84,7 +84,7 @@ Gets or sets the By.
 
 <a id="PythonResult.Children"></a>
 
-### *property* PythonResult.Children *: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* PythonResult.Children *: List[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of children.
 
@@ -92,7 +92,7 @@ Gets the list of children.
 
 <a id="PythonResult.Comments"></a>
 
-### *property* PythonResult.Comments *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Comment](../../../../../../../v241/Ansys/ACT/Automation/Mechanical/Comment.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* PythonResult.Comments *: Iterable[[Ansys.ACT.Automation.Mechanical.Comment](../../Comment.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated comments.
 
@@ -100,7 +100,7 @@ Gets the list of associated comments.
 
 <a id="PythonResult.Connected"></a>
 
-### *property* PythonResult.Connected *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* PythonResult.Connected *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets whether the callbacks are currently connected.
 
@@ -124,7 +124,7 @@ Gets or sets the DisplayTime.
 
 <a id="PythonResult.Figures"></a>
 
-### *property* PythonResult.Figures *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Figure](../../../../../../../v241/Ansys/ACT/Automation/Mechanical/Figure.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* PythonResult.Figures *: Iterable[[Ansys.ACT.Automation.Mechanical.Figure](../../Figure.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated figures.
 
@@ -132,7 +132,7 @@ Gets the list of associated figures.
 
 <a id="PythonResult.Images"></a>
 
-### *property* PythonResult.Images *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Image](../../../../../../../v241/Ansys/ACT/Automation/Mechanical/Image.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* PythonResult.Images *: Iterable[[Ansys.ACT.Automation.Mechanical.Image](../../Image.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated images.
 
@@ -156,7 +156,7 @@ Gets or sets the Location.
 
 <a id="PythonResult.Mode"></a>
 
-### *property* PythonResult.Mode *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* PythonResult.Mode *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Mode.
 
@@ -164,7 +164,7 @@ Gets or sets the Mode.
 
 <a id="PythonResult.Properties"></a>
 
-### *property* PythonResult.Properties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* PythonResult.Properties *: [tuple](https://docs.python.org/3/library/stdtypes.html#tuple)[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of properties for this object.
 
@@ -180,7 +180,7 @@ Gets or sets the propperty provider instance associated with this python code ob
 
 <a id="PythonResult.ScriptExecutionScope"></a>
 
-### *property* PythonResult.ScriptExecutionScope *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* PythonResult.ScriptExecutionScope *: [str](https://docs.python.org/3/library/stdtypes.html#str) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 The scope identifier in which the code execution will take place.
 
@@ -188,7 +188,7 @@ The scope identifier in which the code execution will take place.
 
 <a id="PythonResult.Text"></a>
 
-### *property* PythonResult.Text *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* PythonResult.Text *: [str](https://docs.python.org/3/library/stdtypes.html#str) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the text in the script tab for the Python Code object.
 
@@ -196,7 +196,7 @@ Gets or sets the text in the script tab for the Python Code object.
 
 <a id="PythonResult.VisibleProperties"></a>
 
-### *property* PythonResult.VisibleProperties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* PythonResult.VisibleProperties *: [tuple](https://docs.python.org/3/library/stdtypes.html#tuple)[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of properties that are visible for this object.
 
@@ -232,7 +232,7 @@ Creates a new child Figure.
 
 <a id="PythonResult.AddImage"></a>
 
-### PythonResult.AddImage(filePath: System.String)
+### PythonResult.AddImage(filePath: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 ```text
 Creates a new child Image.
@@ -268,7 +268,7 @@ Copies all visible properties from this object to another.
 
 <a id="PythonResult.CreateParameter"></a>
 
-### PythonResult.CreateParameter(propName: System.String)
+### PythonResult.CreateParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Creates a new parameter for a Property.
 
@@ -308,7 +308,7 @@ Evaluate all results.
 
 <a id="PythonResult.ExportAnimation"></a>
 
-### PythonResult.ExportAnimation(filePath: System.String, format: [Ansys.Mechanical.DataModel.Enums.GraphicsAnimationExportFormat](../../../../../Mechanical/DataModel/Enums/GraphicsAnimationExportFormat.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.GraphicsAnimationExportFormat), settings: [Ansys.Mechanical.Graphics.AnimationExportSettings](../../../../../Mechanical/Graphics/AnimationExportSettings.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.Graphics.AnimationExportSettings))
+### PythonResult.ExportAnimation(filePath: [str](https://docs.python.org/3/library/stdtypes.html#str), format: [Ansys.Mechanical.DataModel.Enums.GraphicsAnimationExportFormat](../../../../../Mechanical/DataModel/Enums/GraphicsAnimationExportFormat.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.GraphicsAnimationExportFormat), settings: [Ansys.Mechanical.Graphics.AnimationExportSettings](../../../../../Mechanical/Graphics/AnimationExportSettings.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.Graphics.AnimationExportSettings))
 
 Run the ExportAnimation action.
 
@@ -316,7 +316,7 @@ Run the ExportAnimation action.
 
 <a id="PythonResult.GetChildren"></a>
 
-### PythonResult.GetChildren(recurses: System.Boolean, children: System.Collections.Generic.IList[ChildrenType])
+### PythonResult.GetChildren(recurses: [bool](https://docs.python.org/3/library/functions.html#bool), children: List[ChildrenType])
 
 Gets the list of children, filtered by type.
 
@@ -324,7 +324,7 @@ Gets the list of children, filtered by type.
 
 <a id="PythonResult.GetParameter"></a>
 
-### PythonResult.GetParameter(propName: System.String)
+### PythonResult.GetParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Gets the parameter corresponding to the given property.
 
@@ -348,7 +348,7 @@ Run the GroupSimilarObjects action.
 
 <a id="PythonResult.PropertyByAPIName"></a>
 
-### PythonResult.PropertyByAPIName(name: System.String)
+### PythonResult.PropertyByAPIName(name: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 ```text
 Get a property by its API name.
@@ -359,7 +359,7 @@ If multiple properties have the same API Name, only the first property with that
 
 <a id="PythonResult.PropertyByName"></a>
 
-### PythonResult.PropertyByName(name: System.String)
+### PythonResult.PropertyByName(name: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Get a property by its unique name.
 
@@ -375,7 +375,7 @@ Reload properties to update properties provided by the provider.
 
 <a id="PythonResult.RemoveParameter"></a>
 
-### PythonResult.RemoveParameter(propName: System.String)
+### PythonResult.RemoveParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Removes the parameter from the parameter set corresponding to the given property.
 

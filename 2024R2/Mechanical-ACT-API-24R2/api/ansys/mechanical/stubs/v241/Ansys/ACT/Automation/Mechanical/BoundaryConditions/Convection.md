@@ -17,7 +17,7 @@ Defines a Convection.
 ### Methods
 
 | Name | Description |
-|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------|
+|--------------------------------------------------------------------------------|-----------------------------------------------------------------------------------|
 | [`Activate`](#Convection.Activate)                                             | Activate the current object.                                                      |
 | [`AddComment`](#Convection.AddComment)                                         | Creates a new child Comment.                                                      |
 | [`AddFigure`](#Convection.AddFigure)                                           | Creates a new child Figure.                                                       |
@@ -42,7 +42,7 @@ Defines a Convection.
 ### Properties
 
 | Name | Description |
-|-----------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------|
+|--------------------------------------------------------------------------|---------------------------------------------------------------|
 | [`AmbientTemperature`](#Convection.AmbientTemperature)                   | Gets the AmbientTemperature.                                  |
 | [`Children`](#Convection.Children)                                       | Gets the list of children.                                    |
 | [`CoefficientType`](#Convection.CoefficientType)                         | Gets or sets the CoefficientType.                             |
@@ -77,7 +77,7 @@ Defines a Convection.
 
 <a id="Convection.AmbientTemperature"></a>
 
-### *property* Convection.AmbientTemperature *: [Ansys.ACT.Mechanical.Fields.Field](../../../../../../v242/Ansys/ACT/Mechanical/Fields/Field.md#ansys.mechanical.stubs.v242.Ansys.ACT.Mechanical.Fields.Field) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Convection.AmbientTemperature *: [Ansys.ACT.Mechanical.Fields.Field](../../../Mechanical/Fields/Field.md#ansys.mechanical.stubs.v241.Ansys.ACT.Mechanical.Fields.Field) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the AmbientTemperature.
 
@@ -85,7 +85,7 @@ Gets the AmbientTemperature.
 
 <a id="Convection.Children"></a>
 
-### *property* Convection.Children *: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Convection.Children *: List[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of children.
 
@@ -93,7 +93,7 @@ Gets the list of children.
 
 <a id="Convection.CoefficientType"></a>
 
-### *property* Convection.CoefficientType *: [Ansys.Mechanical.DataModel.Enums.LoadVariationSubOption](../../../../../../v242/Ansys/Mechanical/DataModel/Enums/LoadVariationSubOption.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.LoadVariationSubOption) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Convection.CoefficientType *: [Ansys.Mechanical.DataModel.Enums.LoadVariationSubOption](../../../../Mechanical/DataModel/Enums/LoadVariationSubOption.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.LoadVariationSubOption) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the CoefficientType.
 
@@ -101,7 +101,7 @@ Gets or sets the CoefficientType.
 
 <a id="Convection.Comments"></a>
 
-### *property* Convection.Comments *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Comment](../Comment.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Convection.Comments *: Iterable[[Ansys.ACT.Automation.Mechanical.Comment](../Comment.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated comments.
 
@@ -109,7 +109,7 @@ Gets the list of associated comments.
 
 <a id="Convection.ConvectionMatrix"></a>
 
-### *property* Convection.ConvectionMatrix *: [Ansys.Mechanical.DataModel.Enums.DiagonalOrConsistent](../../../../../../v242/Ansys/Mechanical/DataModel/Enums/DiagonalOrConsistent.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.DiagonalOrConsistent) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Convection.ConvectionMatrix *: [Ansys.Mechanical.DataModel.Enums.DiagonalOrConsistent](../../../../Mechanical/DataModel/Enums/DiagonalOrConsistent.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DiagonalOrConsistent) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the ConvectionMatrix.
 
@@ -117,7 +117,7 @@ Gets or sets the ConvectionMatrix.
 
 <a id="Convection.DataModelObjectCategory"></a>
 
-### *property* Convection.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../../v242/Ansys/Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Convection.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the current DataModelObject’s category.
 
@@ -125,7 +125,7 @@ Gets the current DataModelObject’s category.
 
 <a id="Convection.DisplayConnectionLines"></a>
 
-### *property* Convection.DisplayConnectionLines *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Convection.DisplayConnectionLines *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the DisplayConnectionLines.
 
@@ -133,7 +133,7 @@ Gets or sets the DisplayConnectionLines.
 
 <a id="Convection.EditDataFor"></a>
 
-### *property* Convection.EditDataFor *: [Ansys.Mechanical.DataModel.Enums.ConvectionTableSelection](../../../../../../v242/Ansys/Mechanical/DataModel/Enums/ConvectionTableSelection.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.ConvectionTableSelection) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Convection.EditDataFor *: [Ansys.Mechanical.DataModel.Enums.ConvectionTableSelection](../../../../Mechanical/DataModel/Enums/ConvectionTableSelection.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.ConvectionTableSelection) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the EditDataFor.
 
@@ -141,7 +141,7 @@ Gets or sets the EditDataFor.
 
 <a id="Convection.Figures"></a>
 
-### *property* Convection.Figures *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Figure](../Figure.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Convection.Figures *: Iterable[[Ansys.ACT.Automation.Mechanical.Figure](../Figure.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated figures.
 
@@ -149,7 +149,7 @@ Gets the list of associated figures.
 
 <a id="Convection.FilmCoefficient"></a>
 
-### *property* Convection.FilmCoefficient *: [Ansys.ACT.Mechanical.Fields.Field](../../../../../../v242/Ansys/ACT/Mechanical/Fields/Field.md#ansys.mechanical.stubs.v242.Ansys.ACT.Mechanical.Fields.Field) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Convection.FilmCoefficient *: [Ansys.ACT.Mechanical.Fields.Field](../../../Mechanical/Fields/Field.md#ansys.mechanical.stubs.v241.Ansys.ACT.Mechanical.Fields.Field) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the FilmCoefficient.
 
@@ -157,7 +157,7 @@ Gets the FilmCoefficient.
 
 <a id="Convection.FluidFlowEdge"></a>
 
-### *property* Convection.FluidFlowEdge *: [Ansys.ACT.Automation.Mechanical.NamedSelection](../../../../../../v242/Ansys/ACT/Automation/Mechanical/NamedSelection.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.NamedSelection) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Convection.FluidFlowEdge *: [Ansys.ACT.Automation.Mechanical.NamedSelection](../NamedSelection.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.NamedSelection) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the FluidFlowEdge.
 
@@ -173,7 +173,7 @@ Gets or sets the FluidFlowSelection.
 
 <a id="Convection.GraphControlsXAxis"></a>
 
-### *property* Convection.GraphControlsXAxis *: [Ansys.Mechanical.DataModel.Enums.LoadVariableVariationType](../../../../../../v242/Ansys/Mechanical/DataModel/Enums/LoadVariableVariationType.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.LoadVariableVariationType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Convection.GraphControlsXAxis *: [Ansys.Mechanical.DataModel.Enums.LoadVariableVariationType](../../../../Mechanical/DataModel/Enums/LoadVariableVariationType.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.LoadVariableVariationType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the GraphControlsXAxis.
 
@@ -181,7 +181,7 @@ Gets or sets the GraphControlsXAxis.
 
 <a id="Convection.HasFluidFlow"></a>
 
-### *property* Convection.HasFluidFlow *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Convection.HasFluidFlow *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the HasFluidFlow.
 
@@ -189,7 +189,7 @@ Gets or sets the HasFluidFlow.
 
 <a id="Convection.Images"></a>
 
-### *property* Convection.Images *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Image](../Image.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Convection.Images *: Iterable[[Ansys.ACT.Automation.Mechanical.Image](../Image.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated images.
 
@@ -197,7 +197,7 @@ Gets the list of associated images.
 
 <a id="Convection.IndependentVariable"></a>
 
-### *property* Convection.IndependentVariable *: [Ansys.Mechanical.DataModel.Enums.LoadVariableVariationType](../../../../../../v242/Ansys/Mechanical/DataModel/Enums/LoadVariableVariationType.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.LoadVariableVariationType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Convection.IndependentVariable *: [Ansys.Mechanical.DataModel.Enums.LoadVariableVariationType](../../../../Mechanical/DataModel/Enums/LoadVariableVariationType.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.LoadVariableVariationType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the IndependentVariable.
 
@@ -221,7 +221,7 @@ Gets or sets the Location.
 
 <a id="Convection.NumberOfSegments"></a>
 
-### *property* Convection.NumberOfSegments *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Convection.NumberOfSegments *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the NumberOfSegments.
 
@@ -229,7 +229,7 @@ Gets or sets the NumberOfSegments.
 
 <a id="Convection.Properties"></a>
 
-### *property* Convection.Properties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Convection.Properties *: [tuple](https://docs.python.org/3/library/stdtypes.html#tuple)[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of properties for this object.
 
@@ -253,7 +253,7 @@ Gets or sets the RangeMinimum.
 
 <a id="Convection.ReadOnly"></a>
 
-### *property* Convection.ReadOnly *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Convection.ReadOnly *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the ReadOnly.
 
@@ -269,7 +269,7 @@ Gets or sets the SharedRefBody.
 
 <a id="Convection.Suppressed"></a>
 
-### *property* Convection.Suppressed *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Convection.Suppressed *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Suppressed.
 
@@ -277,7 +277,7 @@ Gets or sets the Suppressed.
 
 <a id="Convection.VisibleProperties"></a>
 
-### *property* Convection.VisibleProperties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Convection.VisibleProperties *: [tuple](https://docs.python.org/3/library/stdtypes.html#tuple)[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of properties that are visible for this object.
 
@@ -321,7 +321,7 @@ Creates a new child Figure.
 
 <a id="Convection.AddImage"></a>
 
-### Convection.AddImage(filePath: System.String)
+### Convection.AddImage(filePath: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 ```text
 Creates a new child Image.
@@ -341,7 +341,7 @@ Copies all visible properties from this object to another.
 
 <a id="Convection.CreateParameter"></a>
 
-### Convection.CreateParameter(propName: System.String)
+### Convection.CreateParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Creates a new parameter for a Property.
 
@@ -365,7 +365,7 @@ Creates a copy of the current DataModelObject.
 
 <a id="Convection.GetActivateAtLoadStep"></a>
 
-### Convection.GetActivateAtLoadStep(stepNumber: System.UInt32)
+### Convection.GetActivateAtLoadStep(stepNumber: [int](https://docs.python.org/3/library/functions.html#int))
 
 GetActivateAtLoadStep method.
 
@@ -373,7 +373,7 @@ GetActivateAtLoadStep method.
 
 <a id="Convection.GetChildren"></a>
 
-### Convection.GetChildren(recurses: System.Boolean, children: System.Collections.Generic.IList[ChildrenType])
+### Convection.GetChildren(recurses: [bool](https://docs.python.org/3/library/functions.html#bool), children: List[ChildrenType])
 
 Gets the list of children, filtered by type.
 
@@ -381,7 +381,7 @@ Gets the list of children, filtered by type.
 
 <a id="Convection.GetComponentActivateAtLoadStep"></a>
 
-### Convection.GetComponentActivateAtLoadStep(component: System.String, stepNumber: System.UInt32)
+### Convection.GetComponentActivateAtLoadStep(component: [str](https://docs.python.org/3/library/stdtypes.html#str), stepNumber: [int](https://docs.python.org/3/library/functions.html#int))
 
 GetComponentActivateAtLoadStep method.
 
@@ -389,7 +389,7 @@ GetComponentActivateAtLoadStep method.
 
 <a id="Convection.GetParameter"></a>
 
-### Convection.GetParameter(propName: System.String)
+### Convection.GetParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Gets the parameter corresponding to the given property.
 
@@ -421,7 +421,7 @@ Run the PromoteToNamedSelection action.
 
 <a id="Convection.PropertyByAPIName"></a>
 
-### Convection.PropertyByAPIName(name: System.String)
+### Convection.PropertyByAPIName(name: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 ```text
 Get a property by its API name.
@@ -432,7 +432,7 @@ If multiple properties have the same API Name, only the first property with that
 
 <a id="Convection.PropertyByName"></a>
 
-### Convection.PropertyByName(name: System.String)
+### Convection.PropertyByName(name: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Get a property by its unique name.
 
@@ -440,7 +440,7 @@ Get a property by its unique name.
 
 <a id="Convection.RemoveParameter"></a>
 
-### Convection.RemoveParameter(propName: System.String)
+### Convection.RemoveParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Removes the parameter from the parameter set corresponding to the given property.
 
@@ -448,7 +448,7 @@ Removes the parameter from the parameter set corresponding to the given property
 
 <a id="Convection.SetActivateAtLoadStep"></a>
 
-### Convection.SetActivateAtLoadStep(stepNumber: System.UInt32, bActive: System.Boolean)
+### Convection.SetActivateAtLoadStep(stepNumber: [int](https://docs.python.org/3/library/functions.html#int), bActive: [bool](https://docs.python.org/3/library/functions.html#bool))
 
 SetActivateAtLoadStep method.
 
@@ -456,7 +456,7 @@ SetActivateAtLoadStep method.
 
 <a id="Convection.SetComponentActivateAtLoadStep"></a>
 
-### Convection.SetComponentActivateAtLoadStep(component: System.String, stepNumber: System.UInt32, bActive: System.Boolean)
+### Convection.SetComponentActivateAtLoadStep(component: [str](https://docs.python.org/3/library/stdtypes.html#str), stepNumber: [int](https://docs.python.org/3/library/functions.html#int), bActive: [bool](https://docs.python.org/3/library/functions.html#bool))
 
 SetComponentActivateAtLoadStep method.
 

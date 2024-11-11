@@ -17,7 +17,7 @@ Specifies the ContactBoltThreadType.
 ### Attributes
 
 | Name |
-| -------------------------------------------------------------------------------------------------------------------------------------- |
+| --------------------------------------------------------- |
 | [`DoubleThread`](#ContactBoltThreadType.DoubleThread) |
 | [`SingleThread`](#ContactBoltThreadType.SingleThread) |
 | [`TripleThread`](#ContactBoltThreadType.TripleThread) |

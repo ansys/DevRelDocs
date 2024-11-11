@@ -17,7 +17,7 @@ Defines a TotalTorsionalMoment.
 ### Methods
 
 | Name | Description |
-|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------|
+|----------------------------------------------------------------------------|-----------------------------------------------------------------------------------|
 | [`Activate`](#TotalTorsionalMoment.Activate)                               | Activate the current object.                                                      |
 | [`AddAlert`](#TotalTorsionalMoment.AddAlert)                               | Creates a new Alert                                                               |
 | [`AddComment`](#TotalTorsionalMoment.AddComment)                           | Creates a new child Comment.                                                      |
@@ -48,7 +48,7 @@ Defines a TotalTorsionalMoment.
 ### Properties
 
 | Name | Description |
-|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------|
+|------------------------------------------------------------------------------------------------|------------------------------------------------------------------------|
 | [`Average`](#TotalTorsionalMoment.Average)                                                     | Gets the Average.                                                      |
 | [`By`](#TotalTorsionalMoment.By)                                                               | Gets or sets the By.                                                   |
 | [`CalculateTimeHistory`](#TotalTorsionalMoment.CalculateTimeHistory)                           | Gets or sets the CalculateTimeHistory.                                 |
@@ -96,14 +96,14 @@ Defines a TotalTorsionalMoment.
 | [`Substep`](#TotalTorsionalMoment.Substep)                                                     | Gets the Substep.                                                      |
 | [`Suppressed`](#TotalTorsionalMoment.Suppressed)                                               | Gets or sets the Suppressed.                                           |
 | [`Surface`](#TotalTorsionalMoment.Surface)                                                     | Surface property.                                                      |
-| [`SurfaceCoating`](#TotalTorsionalMoment.SurfaceCoating)                                                                                                                                            | SurfaceCoating property.                                               |
+| [`SurfaceCoating`](#TotalTorsionalMoment.SurfaceCoating)                                       | SurfaceCoating property.                                               |
 | [`Time`](#TotalTorsionalMoment.Time)                                                           | Gets the Time.                                                         |
 | [`TimeForMaximumOfMaximumValues`](#TotalTorsionalMoment.TimeForMaximumOfMaximumValues)         | Get the Time for the maximum of maximum values.                        |
 | [`TimeForMaximumOfMinimumValues`](#TotalTorsionalMoment.TimeForMaximumOfMinimumValues)         | Get the Time for the maximum of minimum values.                        |
 | [`TimeForMinimumOfMaximumValues`](#TotalTorsionalMoment.TimeForMinimumOfMaximumValues)         | Get the Time for the minimum of maximum values.                        |
 | [`TimeForMinimumOfMinimumValues`](#TotalTorsionalMoment.TimeForMinimumOfMinimumValues)         | Get the Time for the minimum of minimum values.                        |
 | [`VisibleProperties`](#TotalTorsionalMoment.VisibleProperties)                                 | Gets the list of properties that are visible for this object.          |
-| [`WaterfallShowTextOnMosaic`](#TotalTorsionalMoment.WaterfallShowTextOnMosaic)                                                                                                                      | Gets or sets the Waterfall Mosaic Text Property.                       |
+| [`WaterfallShowTextOnMosaic`](#TotalTorsionalMoment.WaterfallShowTextOnMosaic)                 | Gets or sets the Waterfall Mosaic Text Property.                       |
 
 <a id="property-detail"></a>
 
@@ -127,7 +127,7 @@ Gets or sets the By.
 
 <a id="TotalTorsionalMoment.CalculateTimeHistory"></a>
 
-### *property* TotalTorsionalMoment.CalculateTimeHistory *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* TotalTorsionalMoment.CalculateTimeHistory *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the CalculateTimeHistory.
 
@@ -135,7 +135,7 @@ Gets or sets the CalculateTimeHistory.
 
 <a id="TotalTorsionalMoment.Children"></a>
 
-### *property* TotalTorsionalMoment.Children *: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* TotalTorsionalMoment.Children *: List[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of children.
 
@@ -143,7 +143,7 @@ Gets the list of children.
 
 <a id="TotalTorsionalMoment.CombinationNumber"></a>
 
-### *property* TotalTorsionalMoment.CombinationNumber *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* TotalTorsionalMoment.CombinationNumber *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Combination Number for a Solution Combination result.
 
@@ -151,7 +151,7 @@ Gets or sets the Combination Number for a Solution Combination result.
 
 <a id="TotalTorsionalMoment.Comments"></a>
 
-### *property* TotalTorsionalMoment.Comments *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Comment](../../../../../../../v241/Ansys/ACT/Automation/Mechanical/Comment.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* TotalTorsionalMoment.Comments *: Iterable[[Ansys.ACT.Automation.Mechanical.Comment](../../Comment.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated comments.
 
@@ -159,7 +159,7 @@ Gets the list of associated comments.
 
 <a id="TotalTorsionalMoment.CoordinateSystem"></a>
 
-### *property* TotalTorsionalMoment.CoordinateSystem *: [Ansys.ACT.Automation.Mechanical.CoordinateSystem](../../../../../../../v241/Ansys/ACT/Automation/Mechanical/CoordinateSystem.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.CoordinateSystem) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* TotalTorsionalMoment.CoordinateSystem *: [Ansys.ACT.Automation.Mechanical.CoordinateSystem](../../CoordinateSystem.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.CoordinateSystem) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Coordinate System.
 Accepts/Returns None for Solution Coordinate System in the general case (if applicable).
@@ -169,7 +169,7 @@ Accepts/Returns None for Fiber Coordinate System for a result that is sub scoped
 
 <a id="TotalTorsionalMoment.CrackFrontNumber"></a>
 
-### *property* TotalTorsionalMoment.CrackFrontNumber *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* TotalTorsionalMoment.CrackFrontNumber *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the CrackFrontNumber.
 
@@ -209,7 +209,7 @@ Gets or sets the DpfEvaluation.
 
 <a id="TotalTorsionalMoment.Figures"></a>
 
-### *property* TotalTorsionalMoment.Figures *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Figure](../../../../../../../v241/Ansys/ACT/Automation/Mechanical/Figure.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* TotalTorsionalMoment.Figures *: Iterable[[Ansys.ACT.Automation.Mechanical.Figure](../../Figure.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated figures.
 
@@ -217,7 +217,7 @@ Gets the list of associated figures.
 
 <a id="TotalTorsionalMoment.GlobalIDs"></a>
 
-### *property* TotalTorsionalMoment.GlobalIDs *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* TotalTorsionalMoment.GlobalIDs *: [str](https://docs.python.org/3/library/stdtypes.html#str) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the GlobalIDs.
 
@@ -233,7 +233,7 @@ Gets or sets the GraphControlsXAxis.
 
 <a id="TotalTorsionalMoment.Identifier"></a>
 
-### *property* TotalTorsionalMoment.Identifier *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* TotalTorsionalMoment.Identifier *: [str](https://docs.python.org/3/library/stdtypes.html#str) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Identifier.
 
@@ -241,7 +241,7 @@ Gets or sets the Identifier.
 
 <a id="TotalTorsionalMoment.Images"></a>
 
-### *property* TotalTorsionalMoment.Images *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Image](../../../../../../../v241/Ansys/ACT/Automation/Mechanical/Image.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* TotalTorsionalMoment.Images *: Iterable[[Ansys.ACT.Automation.Mechanical.Image](../../Image.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated images.
 
@@ -257,7 +257,7 @@ Gets the internal object. For advanced usage only.
 
 <a id="TotalTorsionalMoment.IsSolved"></a>
 
-### *property* TotalTorsionalMoment.IsSolved *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* TotalTorsionalMoment.IsSolved *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the IsSolved.
 
@@ -273,7 +273,7 @@ Gets or sets the ItemType.
 
 <a id="TotalTorsionalMoment.IterationNumber"></a>
 
-### *property* TotalTorsionalMoment.IterationNumber *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* TotalTorsionalMoment.IterationNumber *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the IterationNumber.
 
@@ -281,7 +281,7 @@ Gets the IterationNumber.
 
 <a id="TotalTorsionalMoment.LoadStep"></a>
 
-### *property* TotalTorsionalMoment.LoadStep *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* TotalTorsionalMoment.LoadStep *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the LoadStep.
 
@@ -289,7 +289,7 @@ Gets the LoadStep.
 
 <a id="TotalTorsionalMoment.LoadStepForMaximumOfMaximumValues"></a>
 
-### *property* TotalTorsionalMoment.LoadStepForMaximumOfMaximumValues *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* TotalTorsionalMoment.LoadStepForMaximumOfMaximumValues *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Get the Load Step for the maximum of maximum values.
 
@@ -297,7 +297,7 @@ Get the Load Step for the maximum of maximum values.
 
 <a id="TotalTorsionalMoment.LoadStepForMaximumOfMinimumValues"></a>
 
-### *property* TotalTorsionalMoment.LoadStepForMaximumOfMinimumValues *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* TotalTorsionalMoment.LoadStepForMaximumOfMinimumValues *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Get the Load Step for the maximum of minimum values.
 
@@ -305,7 +305,7 @@ Get the Load Step for the maximum of minimum values.
 
 <a id="TotalTorsionalMoment.LoadStepForMinimumOfMaximumValues"></a>
 
-### *property* TotalTorsionalMoment.LoadStepForMinimumOfMaximumValues *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* TotalTorsionalMoment.LoadStepForMinimumOfMaximumValues *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Get the Load Step for the minimum of maximum values.
 
@@ -313,7 +313,7 @@ Get the Load Step for the minimum of maximum values.
 
 <a id="TotalTorsionalMoment.LoadStepForMinimumOfMinimumValues"></a>
 
-### *property* TotalTorsionalMoment.LoadStepForMinimumOfMinimumValues *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* TotalTorsionalMoment.LoadStepForMinimumOfMinimumValues *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Get the Load Step for the minimum of minimum values.
 
@@ -321,7 +321,7 @@ Get the Load Step for the minimum of minimum values.
 
 <a id="TotalTorsionalMoment.LoadStepNumber"></a>
 
-### *property* TotalTorsionalMoment.LoadStepNumber *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* TotalTorsionalMoment.LoadStepNumber *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the LoadStepNumber.
 
@@ -345,7 +345,7 @@ Gets the Maximum.
 
 <a id="TotalTorsionalMoment.MaximumOccursOn"></a>
 
-### *property* TotalTorsionalMoment.MaximumOccursOn *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* TotalTorsionalMoment.MaximumOccursOn *: [str](https://docs.python.org/3/library/stdtypes.html#str) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the MaximumOccursOn.
 
@@ -377,7 +377,7 @@ Gets the Minimum.
 
 <a id="TotalTorsionalMoment.MinimumOccursOn"></a>
 
-### *property* TotalTorsionalMoment.MinimumOccursOn *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* TotalTorsionalMoment.MinimumOccursOn *: [str](https://docs.python.org/3/library/stdtypes.html#str) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the MinimumOccursOn.
 
@@ -401,7 +401,7 @@ Gets the MinimumOfMinimumOverTime.
 
 <a id="TotalTorsionalMoment.NamedSelections"></a>
 
-### *property* TotalTorsionalMoment.NamedSelections *: System.Collections.Generic.IEnumerable[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* TotalTorsionalMoment.NamedSelections *: Iterable[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the NamedSelections.
 
@@ -425,7 +425,7 @@ Gets the result table.
 
 <a id="TotalTorsionalMoment.Properties"></a>
 
-### *property* TotalTorsionalMoment.Properties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* TotalTorsionalMoment.Properties *: [tuple](https://docs.python.org/3/library/stdtypes.html#tuple)[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of properties for this object.
 
@@ -441,7 +441,7 @@ Gets or sets the ScopingMethod.
 
 <a id="TotalTorsionalMoment.SetNumber"></a>
 
-### *property* TotalTorsionalMoment.SetNumber *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* TotalTorsionalMoment.SetNumber *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Set Number.
 
@@ -457,7 +457,7 @@ Gets or sets the SolutionCombinationDriver.
 
 <a id="TotalTorsionalMoment.SolverComponentIDs"></a>
 
-### *property* TotalTorsionalMoment.SolverComponentIDs *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* TotalTorsionalMoment.SolverComponentIDs *: [str](https://docs.python.org/3/library/stdtypes.html#str) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the SolverComponentIDs.
 
@@ -465,7 +465,7 @@ Gets or sets the SolverComponentIDs.
 
 <a id="TotalTorsionalMoment.Substep"></a>
 
-### *property* TotalTorsionalMoment.Substep *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* TotalTorsionalMoment.Substep *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the Substep.
 
@@ -473,7 +473,7 @@ Gets the Substep.
 
 <a id="TotalTorsionalMoment.Suppressed"></a>
 
-### *property* TotalTorsionalMoment.Suppressed *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* TotalTorsionalMoment.Suppressed *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Suppressed.
 
@@ -537,7 +537,7 @@ Get the Time for the minimum of minimum values.
 
 <a id="TotalTorsionalMoment.VisibleProperties"></a>
 
-### *property* TotalTorsionalMoment.VisibleProperties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* TotalTorsionalMoment.VisibleProperties *: [tuple](https://docs.python.org/3/library/stdtypes.html#tuple)[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of properties that are visible for this object.
 
@@ -545,7 +545,7 @@ Gets the list of properties that are visible for this object.
 
 <a id="TotalTorsionalMoment.WaterfallShowTextOnMosaic"></a>
 
-### *property* TotalTorsionalMoment.WaterfallShowTextOnMosaic *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* TotalTorsionalMoment.WaterfallShowTextOnMosaic *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Waterfall Mosaic Text Property.
 
@@ -597,7 +597,7 @@ Creates a new child Figure.
 
 <a id="TotalTorsionalMoment.AddImage"></a>
 
-### TotalTorsionalMoment.AddImage(filePath: System.String)
+### TotalTorsionalMoment.AddImage(filePath: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 ```text
 Creates a new child Image.
@@ -625,7 +625,7 @@ Copies all visible properties from this object to another.
 
 <a id="TotalTorsionalMoment.CreateParameter"></a>
 
-### TotalTorsionalMoment.CreateParameter(propName: System.String)
+### TotalTorsionalMoment.CreateParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 CreateParameter method.
 
@@ -673,7 +673,7 @@ Run the EvaluateAllResults action.
 
 <a id="TotalTorsionalMoment.ExportAnimation"></a>
 
-### TotalTorsionalMoment.ExportAnimation(filePath: System.String, format: [Ansys.Mechanical.DataModel.Enums.GraphicsAnimationExportFormat](../../../../../Mechanical/DataModel/Enums/GraphicsAnimationExportFormat.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.GraphicsAnimationExportFormat), settings: [Ansys.Mechanical.Graphics.AnimationExportSettings](../../../../../Mechanical/Graphics/AnimationExportSettings.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.Graphics.AnimationExportSettings))
+### TotalTorsionalMoment.ExportAnimation(filePath: [str](https://docs.python.org/3/library/stdtypes.html#str), format: [Ansys.Mechanical.DataModel.Enums.GraphicsAnimationExportFormat](../../../../../Mechanical/DataModel/Enums/GraphicsAnimationExportFormat.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.GraphicsAnimationExportFormat), settings: [Ansys.Mechanical.Graphics.AnimationExportSettings](../../../../../Mechanical/Graphics/AnimationExportSettings.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.Graphics.AnimationExportSettings))
 
 Run the ExportAnimation action.
 
@@ -681,7 +681,7 @@ Run the ExportAnimation action.
 
 <a id="TotalTorsionalMoment.ExportToTextFile"></a>
 
-### TotalTorsionalMoment.ExportToTextFile(filePath: System.String)
+### TotalTorsionalMoment.ExportToTextFile(filePath: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Run the ExportToTextFile action.
 
@@ -697,7 +697,7 @@ Run the FetchRemoteResult action.
 
 <a id="TotalTorsionalMoment.GetChildren"></a>
 
-### TotalTorsionalMoment.GetChildren(recurses: System.Boolean, children: System.Collections.Generic.IList[ChildrenType])
+### TotalTorsionalMoment.GetChildren(recurses: [bool](https://docs.python.org/3/library/functions.html#bool), children: List[ChildrenType])
 
 Gets the list of children, filtered by type.
 
@@ -705,7 +705,7 @@ Gets the list of children, filtered by type.
 
 <a id="TotalTorsionalMoment.GetParameter"></a>
 
-### TotalTorsionalMoment.GetParameter(propName: System.String)
+### TotalTorsionalMoment.GetParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Gets the parameter corresponding to the given property.
 
@@ -737,7 +737,7 @@ Run the PromoteToNamedSelection action.
 
 <a id="TotalTorsionalMoment.PropertyByAPIName"></a>
 
-### TotalTorsionalMoment.PropertyByAPIName(name: System.String)
+### TotalTorsionalMoment.PropertyByAPIName(name: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 ```text
 Get a property by its API name.
@@ -748,7 +748,7 @@ If multiple properties have the same API Name, only the first property with that
 
 <a id="TotalTorsionalMoment.PropertyByName"></a>
 
-### TotalTorsionalMoment.PropertyByName(name: System.String)
+### TotalTorsionalMoment.PropertyByName(name: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Get a property by its unique name.
 
@@ -756,7 +756,7 @@ Get a property by its unique name.
 
 <a id="TotalTorsionalMoment.RemoveParameter"></a>
 
-### TotalTorsionalMoment.RemoveParameter(propName: System.String)
+### TotalTorsionalMoment.RemoveParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Removes the parameter from the parameter set corresponding to the given property.
 

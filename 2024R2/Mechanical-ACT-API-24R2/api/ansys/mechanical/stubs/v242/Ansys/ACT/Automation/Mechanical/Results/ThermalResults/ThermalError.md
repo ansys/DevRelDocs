@@ -17,7 +17,7 @@ Defines a ThermalError.
 ### Methods
 
 | Name | Description |
-|--------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------|
+|--------------------------------------------------------------------|-----------------------------------------------------------------------------------|
 | [`Activate`](#ThermalError.Activate)                               | Activate the current object.                                                      |
 | [`AddAlert`](#ThermalError.AddAlert)                               | Creates a new Alert                                                               |
 | [`AddComment`](#ThermalError.AddComment)                           | Creates a new child Comment.                                                      |
@@ -48,7 +48,7 @@ Defines a ThermalError.
 ### Properties
 
 | Name | Description |
-|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------|
+|----------------------------------------------------------------------------------------|------------------------------------------------------------------------|
 | [`Average`](#ThermalError.Average)                                                     | Gets the Average.                                                      |
 | [`AverageAcrossBodies`](#ThermalError.AverageAcrossBodies)                             | Gets or sets the AverageAcrossBodies.                                  |
 | [`By`](#ThermalError.By)                                                               | Gets or sets the By.                                                   |
@@ -100,7 +100,7 @@ Defines a ThermalError.
 | [`Substep`](#ThermalError.Substep)                                                     | Gets the Substep.                                                      |
 | [`Suppressed`](#ThermalError.Suppressed)                                               | Gets or sets the Suppressed.                                           |
 | [`Surface`](#ThermalError.Surface)                                                     | Surface property.                                                      |
-| [`SurfaceCoating`](#ThermalError.SurfaceCoating)                                                                                                                                       | SurfaceCoating property.                                               |
+| [`SurfaceCoating`](#ThermalError.SurfaceCoating)                                       | SurfaceCoating property.                                               |
 | [`ThermalResultType`](#ThermalError.ThermalResultType)                                 | Gets or sets the ThermalResultType.                                    |
 | [`Time`](#ThermalError.Time)                                                           | Gets the Time.                                                         |
 | [`TimeForMaximumOfMaximumValues`](#ThermalError.TimeForMaximumOfMaximumValues)         | Get the Time for the maximum of maximum values.                        |
@@ -108,7 +108,7 @@ Defines a ThermalError.
 | [`TimeForMinimumOfMaximumValues`](#ThermalError.TimeForMinimumOfMaximumValues)         | Get the Time for the minimum of maximum values.                        |
 | [`TimeForMinimumOfMinimumValues`](#ThermalError.TimeForMinimumOfMinimumValues)         | Get the Time for the minimum of minimum values.                        |
 | [`VisibleProperties`](#ThermalError.VisibleProperties)                                 | Gets the list of properties that are visible for this object.          |
-| [`WaterfallShowTextOnMosaic`](#ThermalError.WaterfallShowTextOnMosaic)                                                                                                                 | Gets or sets the Waterfall Mosaic Text Property.                       |
+| [`WaterfallShowTextOnMosaic`](#ThermalError.WaterfallShowTextOnMosaic)                 | Gets or sets the Waterfall Mosaic Text Property.                       |
 
 <a id="property-detail"></a>
 
@@ -124,7 +124,7 @@ Gets the Average.
 
 <a id="ThermalError.AverageAcrossBodies"></a>
 
-### *property* ThermalError.AverageAcrossBodies *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ThermalError.AverageAcrossBodies *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the AverageAcrossBodies.
 
@@ -140,7 +140,7 @@ Gets or sets the By.
 
 <a id="ThermalError.CalculateTimeHistory"></a>
 
-### *property* ThermalError.CalculateTimeHistory *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ThermalError.CalculateTimeHistory *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the CalculateTimeHistory.
 
@@ -148,7 +148,7 @@ Gets or sets the CalculateTimeHistory.
 
 <a id="ThermalError.Children"></a>
 
-### *property* ThermalError.Children *: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ThermalError.Children *: List[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of children.
 
@@ -156,7 +156,7 @@ Gets the list of children.
 
 <a id="ThermalError.CombinationNumber"></a>
 
-### *property* ThermalError.CombinationNumber *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ThermalError.CombinationNumber *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Combination Number for a Solution Combination result.
 
@@ -164,7 +164,7 @@ Gets or sets the Combination Number for a Solution Combination result.
 
 <a id="ThermalError.Comments"></a>
 
-### *property* ThermalError.Comments *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Comment](../../../../../../../v241/Ansys/ACT/Automation/Mechanical/Comment.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ThermalError.Comments *: Iterable[[Ansys.ACT.Automation.Mechanical.Comment](../../Comment.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated comments.
 
@@ -172,7 +172,7 @@ Gets the list of associated comments.
 
 <a id="ThermalError.CoordinateSystem"></a>
 
-### *property* ThermalError.CoordinateSystem *: [Ansys.ACT.Automation.Mechanical.CoordinateSystem](../../../../../../../v241/Ansys/ACT/Automation/Mechanical/CoordinateSystem.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.CoordinateSystem) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ThermalError.CoordinateSystem *: [Ansys.ACT.Automation.Mechanical.CoordinateSystem](../../CoordinateSystem.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.CoordinateSystem) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Coordinate System.
 Accepts/Returns None for Solution Coordinate System in the general case (if applicable).
@@ -182,7 +182,7 @@ Accepts/Returns None for Fiber Coordinate System for a result that is sub scoped
 
 <a id="ThermalError.CrackFrontNumber"></a>
 
-### *property* ThermalError.CrackFrontNumber *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ThermalError.CrackFrontNumber *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the CrackFrontNumber.
 
@@ -222,7 +222,7 @@ Gets or sets the DpfEvaluation.
 
 <a id="ThermalError.Figures"></a>
 
-### *property* ThermalError.Figures *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Figure](../../../../../../../v241/Ansys/ACT/Automation/Mechanical/Figure.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ThermalError.Figures *: Iterable[[Ansys.ACT.Automation.Mechanical.Figure](../../Figure.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated figures.
 
@@ -230,7 +230,7 @@ Gets the list of associated figures.
 
 <a id="ThermalError.GlobalIDs"></a>
 
-### *property* ThermalError.GlobalIDs *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ThermalError.GlobalIDs *: [str](https://docs.python.org/3/library/stdtypes.html#str) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the GlobalIDs.
 
@@ -246,7 +246,7 @@ Gets or sets the GraphControlsXAxis.
 
 <a id="ThermalError.Identifier"></a>
 
-### *property* ThermalError.Identifier *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ThermalError.Identifier *: [str](https://docs.python.org/3/library/stdtypes.html#str) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Identifier.
 
@@ -254,7 +254,7 @@ Gets or sets the Identifier.
 
 <a id="ThermalError.Images"></a>
 
-### *property* ThermalError.Images *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Image](../../../../../../../v241/Ansys/ACT/Automation/Mechanical/Image.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ThermalError.Images *: Iterable[[Ansys.ACT.Automation.Mechanical.Image](../../Image.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated images.
 
@@ -270,7 +270,7 @@ Gets the internal object. For advanced usage only.
 
 <a id="ThermalError.IsSolved"></a>
 
-### *property* ThermalError.IsSolved *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ThermalError.IsSolved *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the IsSolved.
 
@@ -286,7 +286,7 @@ Gets or sets the ItemType.
 
 <a id="ThermalError.IterationNumber"></a>
 
-### *property* ThermalError.IterationNumber *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ThermalError.IterationNumber *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the IterationNumber.
 
@@ -294,7 +294,7 @@ Gets the IterationNumber.
 
 <a id="ThermalError.Layer"></a>
 
-### *property* ThermalError.Layer *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ThermalError.Layer *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Layer.
 
@@ -302,7 +302,7 @@ Gets or sets the Layer.
 
 <a id="ThermalError.LoadStep"></a>
 
-### *property* ThermalError.LoadStep *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ThermalError.LoadStep *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the LoadStep.
 
@@ -310,7 +310,7 @@ Gets the LoadStep.
 
 <a id="ThermalError.LoadStepForMaximumOfMaximumValues"></a>
 
-### *property* ThermalError.LoadStepForMaximumOfMaximumValues *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ThermalError.LoadStepForMaximumOfMaximumValues *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Get the Load Step for the maximum of maximum values.
 
@@ -318,7 +318,7 @@ Get the Load Step for the maximum of maximum values.
 
 <a id="ThermalError.LoadStepForMaximumOfMinimumValues"></a>
 
-### *property* ThermalError.LoadStepForMaximumOfMinimumValues *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ThermalError.LoadStepForMaximumOfMinimumValues *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Get the Load Step for the maximum of minimum values.
 
@@ -326,7 +326,7 @@ Get the Load Step for the maximum of minimum values.
 
 <a id="ThermalError.LoadStepForMinimumOfMaximumValues"></a>
 
-### *property* ThermalError.LoadStepForMinimumOfMaximumValues *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ThermalError.LoadStepForMinimumOfMaximumValues *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Get the Load Step for the minimum of maximum values.
 
@@ -334,7 +334,7 @@ Get the Load Step for the minimum of maximum values.
 
 <a id="ThermalError.LoadStepForMinimumOfMinimumValues"></a>
 
-### *property* ThermalError.LoadStepForMinimumOfMinimumValues *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ThermalError.LoadStepForMinimumOfMinimumValues *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Get the Load Step for the minimum of minimum values.
 
@@ -342,7 +342,7 @@ Get the Load Step for the minimum of minimum values.
 
 <a id="ThermalError.LoadStepNumber"></a>
 
-### *property* ThermalError.LoadStepNumber *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ThermalError.LoadStepNumber *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the LoadStepNumber.
 
@@ -366,7 +366,7 @@ Gets the Maximum.
 
 <a id="ThermalError.MaximumOccursOn"></a>
 
-### *property* ThermalError.MaximumOccursOn *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ThermalError.MaximumOccursOn *: [str](https://docs.python.org/3/library/stdtypes.html#str) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the MaximumOccursOn.
 
@@ -398,7 +398,7 @@ Gets the Minimum.
 
 <a id="ThermalError.MinimumOccursOn"></a>
 
-### *property* ThermalError.MinimumOccursOn *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ThermalError.MinimumOccursOn *: [str](https://docs.python.org/3/library/stdtypes.html#str) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the MinimumOccursOn.
 
@@ -422,7 +422,7 @@ Gets the MinimumOfMinimumOverTime.
 
 <a id="ThermalError.NamedSelections"></a>
 
-### *property* ThermalError.NamedSelections *: System.Collections.Generic.IEnumerable[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ThermalError.NamedSelections *: Iterable[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the NamedSelections.
 
@@ -462,7 +462,7 @@ Gets or sets the Position.
 
 <a id="ThermalError.Properties"></a>
 
-### *property* ThermalError.Properties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ThermalError.Properties *: [tuple](https://docs.python.org/3/library/stdtypes.html#tuple)[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of properties for this object.
 
@@ -478,7 +478,7 @@ Gets or sets the ScopingMethod.
 
 <a id="ThermalError.SetNumber"></a>
 
-### *property* ThermalError.SetNumber *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ThermalError.SetNumber *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Set Number.
 
@@ -494,7 +494,7 @@ Gets or sets the SolutionCombinationDriver.
 
 <a id="ThermalError.SolverComponentIDs"></a>
 
-### *property* ThermalError.SolverComponentIDs *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ThermalError.SolverComponentIDs *: [str](https://docs.python.org/3/library/stdtypes.html#str) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the SolverComponentIDs.
 
@@ -502,7 +502,7 @@ Gets or sets the SolverComponentIDs.
 
 <a id="ThermalError.Substep"></a>
 
-### *property* ThermalError.Substep *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ThermalError.Substep *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the Substep.
 
@@ -510,7 +510,7 @@ Gets the Substep.
 
 <a id="ThermalError.Suppressed"></a>
 
-### *property* ThermalError.Suppressed *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ThermalError.Suppressed *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Suppressed.
 
@@ -582,7 +582,7 @@ Get the Time for the minimum of minimum values.
 
 <a id="ThermalError.VisibleProperties"></a>
 
-### *property* ThermalError.VisibleProperties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ThermalError.VisibleProperties *: [tuple](https://docs.python.org/3/library/stdtypes.html#tuple)[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of properties that are visible for this object.
 
@@ -590,7 +590,7 @@ Gets the list of properties that are visible for this object.
 
 <a id="ThermalError.WaterfallShowTextOnMosaic"></a>
 
-### *property* ThermalError.WaterfallShowTextOnMosaic *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ThermalError.WaterfallShowTextOnMosaic *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Waterfall Mosaic Text Property.
 
@@ -642,7 +642,7 @@ Creates a new child Figure.
 
 <a id="ThermalError.AddImage"></a>
 
-### ThermalError.AddImage(filePath: System.String)
+### ThermalError.AddImage(filePath: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 ```text
 Creates a new child Image.
@@ -670,7 +670,7 @@ Copies all visible properties from this object to another.
 
 <a id="ThermalError.CreateParameter"></a>
 
-### ThermalError.CreateParameter(propName: System.String)
+### ThermalError.CreateParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 CreateParameter method.
 
@@ -718,7 +718,7 @@ Run the EvaluateAllResults action.
 
 <a id="ThermalError.ExportAnimation"></a>
 
-### ThermalError.ExportAnimation(filePath: System.String, format: [Ansys.Mechanical.DataModel.Enums.GraphicsAnimationExportFormat](../../../../../Mechanical/DataModel/Enums/GraphicsAnimationExportFormat.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.GraphicsAnimationExportFormat), settings: [Ansys.Mechanical.Graphics.AnimationExportSettings](../../../../../Mechanical/Graphics/AnimationExportSettings.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.Graphics.AnimationExportSettings))
+### ThermalError.ExportAnimation(filePath: [str](https://docs.python.org/3/library/stdtypes.html#str), format: [Ansys.Mechanical.DataModel.Enums.GraphicsAnimationExportFormat](../../../../../Mechanical/DataModel/Enums/GraphicsAnimationExportFormat.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.GraphicsAnimationExportFormat), settings: [Ansys.Mechanical.Graphics.AnimationExportSettings](../../../../../Mechanical/Graphics/AnimationExportSettings.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.Graphics.AnimationExportSettings))
 
 Run the ExportAnimation action.
 
@@ -726,7 +726,7 @@ Run the ExportAnimation action.
 
 <a id="ThermalError.ExportToTextFile"></a>
 
-### ThermalError.ExportToTextFile(filePath: System.String)
+### ThermalError.ExportToTextFile(filePath: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Run the ExportToTextFile action.
 
@@ -742,7 +742,7 @@ Run the FetchRemoteResult action.
 
 <a id="ThermalError.GetChildren"></a>
 
-### ThermalError.GetChildren(recurses: System.Boolean, children: System.Collections.Generic.IList[ChildrenType])
+### ThermalError.GetChildren(recurses: [bool](https://docs.python.org/3/library/functions.html#bool), children: List[ChildrenType])
 
 Gets the list of children, filtered by type.
 
@@ -750,7 +750,7 @@ Gets the list of children, filtered by type.
 
 <a id="ThermalError.GetParameter"></a>
 
-### ThermalError.GetParameter(propName: System.String)
+### ThermalError.GetParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Gets the parameter corresponding to the given property.
 
@@ -782,7 +782,7 @@ Run the PromoteToNamedSelection action.
 
 <a id="ThermalError.PropertyByAPIName"></a>
 
-### ThermalError.PropertyByAPIName(name: System.String)
+### ThermalError.PropertyByAPIName(name: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 ```text
 Get a property by its API name.
@@ -793,7 +793,7 @@ If multiple properties have the same API Name, only the first property with that
 
 <a id="ThermalError.PropertyByName"></a>
 
-### ThermalError.PropertyByName(name: System.String)
+### ThermalError.PropertyByName(name: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Get a property by its unique name.
 
@@ -801,7 +801,7 @@ Get a property by its unique name.
 
 <a id="ThermalError.RemoveParameter"></a>
 
-### ThermalError.RemoveParameter(propName: System.String)
+### ThermalError.RemoveParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Removes the parameter from the parameter set corresponding to the given property.
 

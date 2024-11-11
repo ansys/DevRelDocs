@@ -17,7 +17,7 @@ Specifies how to interpret the geometry file.
 ### Attributes
 
 | Name |
-| ------------------------------------------------------------------------------------------------------------------------------ |
+| ------------------------------------ |
 | [`Automatic`](#Format.Automatic) |
 
 <a id="attribute-detail"></a>

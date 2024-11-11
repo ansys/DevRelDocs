@@ -17,7 +17,7 @@ Specifies the SizingBehaviorType.
 ### Attributes
 
 | Name |
-| -------------------------------------------------------------------------------------------------------- |
+| ---------------------------------- |
 | [`Hard`](#SizingBehavior.Hard) |
 | [`Soft`](#SizingBehavior.Soft) |
 

@@ -27,7 +27,7 @@ Exposes a variable, which is a one dimensional array of real numbers with a unit
 
 <a id="IVariable.QuantityName"></a>
 
-### *property* IVariable.QuantityName *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* IVariable.QuantityName *: [str](https://docs.python.org/3/library/stdtypes.html#str) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 The quantity name of the variable.  For example, this could be “Length”.
 
@@ -35,7 +35,7 @@ The quantity name of the variable.  For example, this could be “Length”.
 
 <a id="IVariable.Unit"></a>
 
-### *property* IVariable.Unit *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* IVariable.Unit *: [str](https://docs.python.org/3/library/stdtypes.html#str) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 The unit of the variable.  For example, this could be “mm”.
 

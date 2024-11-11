@@ -49,7 +49,7 @@ The worksheet of stiffness and damping coefficients for a bushing type joint.
 
 <a id="JointBushingWorksheet.GetBushingDampingPerThetaUnitX"></a>
 
-### JointBushingWorksheet.GetBushingDampingPerThetaUnitX(index: System.Int32)
+### JointBushingWorksheet.GetBushingDampingPerThetaUnitX(index: [int](https://docs.python.org/3/library/functions.html#int))
 
 Gets the Coefficient for the damping per ThetaUnitX at the indicated row index.
 
@@ -57,7 +57,7 @@ Gets the Coefficient for the damping per ThetaUnitX at the indicated row index.
 
 <a id="JointBushingWorksheet.GetBushingDampingPerThetaUnitY"></a>
 
-### JointBushingWorksheet.GetBushingDampingPerThetaUnitY(index: System.Int32)
+### JointBushingWorksheet.GetBushingDampingPerThetaUnitY(index: [int](https://docs.python.org/3/library/functions.html#int))
 
 Gets the Coefficient for the damping per ThetaUnitY at the indicated row index.
 
@@ -65,7 +65,7 @@ Gets the Coefficient for the damping per ThetaUnitY at the indicated row index.
 
 <a id="JointBushingWorksheet.GetBushingDampingPerThetaUnitZ"></a>
 
-### JointBushingWorksheet.GetBushingDampingPerThetaUnitZ(index: System.Int32)
+### JointBushingWorksheet.GetBushingDampingPerThetaUnitZ(index: [int](https://docs.python.org/3/library/functions.html#int))
 
 Gets the Coefficient for the damping per ThetaUnitZ at the indicated row index.
 
@@ -73,7 +73,7 @@ Gets the Coefficient for the damping per ThetaUnitZ at the indicated row index.
 
 <a id="JointBushingWorksheet.GetBushingDampingPerUnitX"></a>
 
-### JointBushingWorksheet.GetBushingDampingPerUnitX(index: System.Int32)
+### JointBushingWorksheet.GetBushingDampingPerUnitX(index: [int](https://docs.python.org/3/library/functions.html#int))
 
 Gets the Coefficient for the damping per UnitX at the indicated row index.
 
@@ -81,7 +81,7 @@ Gets the Coefficient for the damping per UnitX at the indicated row index.
 
 <a id="JointBushingWorksheet.GetBushingDampingPerUnitY"></a>
 
-### JointBushingWorksheet.GetBushingDampingPerUnitY(index: System.Int32)
+### JointBushingWorksheet.GetBushingDampingPerUnitY(index: [int](https://docs.python.org/3/library/functions.html#int))
 
 Gets the Coefficient for the damping per UnitY at the indicated row index.
 
@@ -89,7 +89,7 @@ Gets the Coefficient for the damping per UnitY at the indicated row index.
 
 <a id="JointBushingWorksheet.GetBushingDampingPerUnitZ"></a>
 
-### JointBushingWorksheet.GetBushingDampingPerUnitZ(index: System.Int32)
+### JointBushingWorksheet.GetBushingDampingPerUnitZ(index: [int](https://docs.python.org/3/library/functions.html#int))
 
 Gets the Coefficient for the damping per UnitZ at the indicated row index.
 
@@ -97,7 +97,7 @@ Gets the Coefficient for the damping per UnitZ at the indicated row index.
 
 <a id="JointBushingWorksheet.GetBushingStiffnessPerThetaUnitX"></a>
 
-### JointBushingWorksheet.GetBushingStiffnessPerThetaUnitX(index: System.Int32)
+### JointBushingWorksheet.GetBushingStiffnessPerThetaUnitX(index: [int](https://docs.python.org/3/library/functions.html#int))
 
 Gets the Coefficient for the stiffness per ThetaUnitX at the indicated row index.
 
@@ -105,7 +105,7 @@ Gets the Coefficient for the stiffness per ThetaUnitX at the indicated row index
 
 <a id="JointBushingWorksheet.GetBushingStiffnessPerThetaUnitY"></a>
 
-### JointBushingWorksheet.GetBushingStiffnessPerThetaUnitY(index: System.Int32)
+### JointBushingWorksheet.GetBushingStiffnessPerThetaUnitY(index: [int](https://docs.python.org/3/library/functions.html#int))
 
 Gets the Coefficient for the stiffness per ThetaUnitY at the indicated row index.
 
@@ -113,7 +113,7 @@ Gets the Coefficient for the stiffness per ThetaUnitY at the indicated row index
 
 <a id="JointBushingWorksheet.GetBushingStiffnessPerThetaUnitZ"></a>
 
-### JointBushingWorksheet.GetBushingStiffnessPerThetaUnitZ(index: System.Int32)
+### JointBushingWorksheet.GetBushingStiffnessPerThetaUnitZ(index: [int](https://docs.python.org/3/library/functions.html#int))
 
 Gets the Coefficient for the stiffness per ThetaUnitZ at the indicated row index.
 
@@ -121,7 +121,7 @@ Gets the Coefficient for the stiffness per ThetaUnitZ at the indicated row index
 
 <a id="JointBushingWorksheet.GetBushingStiffnessPerUnitX"></a>
 
-### JointBushingWorksheet.GetBushingStiffnessPerUnitX(index: System.Int32)
+### JointBushingWorksheet.GetBushingStiffnessPerUnitX(index: [int](https://docs.python.org/3/library/functions.html#int))
 
 Gets the Coefficient for the stiffness per UnitX at the indicated row index.
 
@@ -129,7 +129,7 @@ Gets the Coefficient for the stiffness per UnitX at the indicated row index.
 
 <a id="JointBushingWorksheet.GetBushingStiffnessPerUnitY"></a>
 
-### JointBushingWorksheet.GetBushingStiffnessPerUnitY(index: System.Int32)
+### JointBushingWorksheet.GetBushingStiffnessPerUnitY(index: [int](https://docs.python.org/3/library/functions.html#int))
 
 Gets the Coefficient for the stiffness per UnitY at the indicated row index.
 
@@ -137,7 +137,7 @@ Gets the Coefficient for the stiffness per UnitY at the indicated row index.
 
 <a id="JointBushingWorksheet.GetBushingStiffnessPerUnitZ"></a>
 
-### JointBushingWorksheet.GetBushingStiffnessPerUnitZ(index: System.Int32)
+### JointBushingWorksheet.GetBushingStiffnessPerUnitZ(index: [int](https://docs.python.org/3/library/functions.html#int))
 
 Gets the Coefficient for the stiffness per UnitZ at the indicated row index.
 
@@ -145,7 +145,7 @@ Gets the Coefficient for the stiffness per UnitZ at the indicated row index.
 
 <a id="JointBushingWorksheet.SetBushingDampingPerThetaUnitX"></a>
 
-### JointBushingWorksheet.SetBushingDampingPerThetaUnitX(index: System.Int32, newVal: System.Double)
+### JointBushingWorksheet.SetBushingDampingPerThetaUnitX(index: [int](https://docs.python.org/3/library/functions.html#int), newVal: [float](https://docs.python.org/3/library/functions.html#float))
 
 Sets the Coefficient for the damping per ThetaUnitX at the indicated row index.
 
@@ -153,7 +153,7 @@ Sets the Coefficient for the damping per ThetaUnitX at the indicated row index.
 
 <a id="JointBushingWorksheet.SetBushingDampingPerThetaUnitY"></a>
 
-### JointBushingWorksheet.SetBushingDampingPerThetaUnitY(index: System.Int32, newVal: System.Double)
+### JointBushingWorksheet.SetBushingDampingPerThetaUnitY(index: [int](https://docs.python.org/3/library/functions.html#int), newVal: [float](https://docs.python.org/3/library/functions.html#float))
 
 Sets the Coefficient for the damping per ThetaUnitY at the indicated row index.
 
@@ -161,7 +161,7 @@ Sets the Coefficient for the damping per ThetaUnitY at the indicated row index.
 
 <a id="JointBushingWorksheet.SetBushingDampingPerThetaUnitZ"></a>
 
-### JointBushingWorksheet.SetBushingDampingPerThetaUnitZ(index: System.Int32, newVal: System.Double)
+### JointBushingWorksheet.SetBushingDampingPerThetaUnitZ(index: [int](https://docs.python.org/3/library/functions.html#int), newVal: [float](https://docs.python.org/3/library/functions.html#float))
 
 Sets the Coefficient for the damping per ThetaUnitZ at the indicated row index.
 
@@ -169,7 +169,7 @@ Sets the Coefficient for the damping per ThetaUnitZ at the indicated row index.
 
 <a id="JointBushingWorksheet.SetBushingDampingPerUnitX"></a>
 
-### JointBushingWorksheet.SetBushingDampingPerUnitX(index: System.Int32, newVal: System.Double)
+### JointBushingWorksheet.SetBushingDampingPerUnitX(index: [int](https://docs.python.org/3/library/functions.html#int), newVal: [float](https://docs.python.org/3/library/functions.html#float))
 
 Sets the Coefficient for the damping per UnitX at the indicated row index.
 
@@ -177,7 +177,7 @@ Sets the Coefficient for the damping per UnitX at the indicated row index.
 
 <a id="JointBushingWorksheet.SetBushingDampingPerUnitY"></a>
 
-### JointBushingWorksheet.SetBushingDampingPerUnitY(index: System.Int32, newVal: System.Double)
+### JointBushingWorksheet.SetBushingDampingPerUnitY(index: [int](https://docs.python.org/3/library/functions.html#int), newVal: [float](https://docs.python.org/3/library/functions.html#float))
 
 Sets the Coefficient for the damping per UnitY at the indicated row index.
 
@@ -185,7 +185,7 @@ Sets the Coefficient for the damping per UnitY at the indicated row index.
 
 <a id="JointBushingWorksheet.SetBushingDampingPerUnitZ"></a>
 
-### JointBushingWorksheet.SetBushingDampingPerUnitZ(index: System.Int32, newVal: System.Double)
+### JointBushingWorksheet.SetBushingDampingPerUnitZ(index: [int](https://docs.python.org/3/library/functions.html#int), newVal: [float](https://docs.python.org/3/library/functions.html#float))
 
 Sets the Coefficient for the damping per UnitZ at the indicated row index.
 
@@ -193,7 +193,7 @@ Sets the Coefficient for the damping per UnitZ at the indicated row index.
 
 <a id="JointBushingWorksheet.SetBushingStiffnessPerThetaUnitX"></a>
 
-### JointBushingWorksheet.SetBushingStiffnessPerThetaUnitX(index: System.Int32, newVal: System.Double)
+### JointBushingWorksheet.SetBushingStiffnessPerThetaUnitX(index: [int](https://docs.python.org/3/library/functions.html#int), newVal: [float](https://docs.python.org/3/library/functions.html#float))
 
 Sets the Coefficient for the stiffness per ThetaUnitX at the indicated row index.
 
@@ -201,7 +201,7 @@ Sets the Coefficient for the stiffness per ThetaUnitX at the indicated row index
 
 <a id="JointBushingWorksheet.SetBushingStiffnessPerThetaUnitY"></a>
 
-### JointBushingWorksheet.SetBushingStiffnessPerThetaUnitY(index: System.Int32, newVal: System.Double)
+### JointBushingWorksheet.SetBushingStiffnessPerThetaUnitY(index: [int](https://docs.python.org/3/library/functions.html#int), newVal: [float](https://docs.python.org/3/library/functions.html#float))
 
 Sets the Coefficient for the stiffness per ThetaUnitY at the indicated row index.
 
@@ -209,7 +209,7 @@ Sets the Coefficient for the stiffness per ThetaUnitY at the indicated row index
 
 <a id="JointBushingWorksheet.SetBushingStiffnessPerThetaUnitZ"></a>
 
-### JointBushingWorksheet.SetBushingStiffnessPerThetaUnitZ(index: System.Int32, newVal: System.Double)
+### JointBushingWorksheet.SetBushingStiffnessPerThetaUnitZ(index: [int](https://docs.python.org/3/library/functions.html#int), newVal: [float](https://docs.python.org/3/library/functions.html#float))
 
 Sets the Coefficient for the stiffness per ThetaUnitZ at the indicated row index.
 
@@ -217,7 +217,7 @@ Sets the Coefficient for the stiffness per ThetaUnitZ at the indicated row index
 
 <a id="JointBushingWorksheet.SetBushingStiffnessPerUnitX"></a>
 
-### JointBushingWorksheet.SetBushingStiffnessPerUnitX(index: System.Int32, newVal: System.Double)
+### JointBushingWorksheet.SetBushingStiffnessPerUnitX(index: [int](https://docs.python.org/3/library/functions.html#int), newVal: [float](https://docs.python.org/3/library/functions.html#float))
 
 Sets the Coefficient for the stiffness per UnitX at the indicated row index.
 
@@ -225,7 +225,7 @@ Sets the Coefficient for the stiffness per UnitX at the indicated row index.
 
 <a id="JointBushingWorksheet.SetBushingStiffnessPerUnitY"></a>
 
-### JointBushingWorksheet.SetBushingStiffnessPerUnitY(index: System.Int32, newVal: System.Double)
+### JointBushingWorksheet.SetBushingStiffnessPerUnitY(index: [int](https://docs.python.org/3/library/functions.html#int), newVal: [float](https://docs.python.org/3/library/functions.html#float))
 
 Sets the Coefficient for the stiffness per UnitY at the indicated row index.
 
@@ -233,7 +233,7 @@ Sets the Coefficient for the stiffness per UnitY at the indicated row index.
 
 <a id="JointBushingWorksheet.SetBushingStiffnessPerUnitZ"></a>
 
-### JointBushingWorksheet.SetBushingStiffnessPerUnitZ(index: System.Int32, newVal: System.Double)
+### JointBushingWorksheet.SetBushingStiffnessPerUnitZ(index: [int](https://docs.python.org/3/library/functions.html#int), newVal: [float](https://docs.python.org/3/library/functions.html#float))
 
 Sets the Coefficient for the stiffness per UnitZ at the indicated row index.
 

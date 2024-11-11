@@ -58,7 +58,7 @@ Defines a ResponsePSDTool.
 
 <a id="ResponsePSDTool.Children"></a>
 
-### *property* ResponsePSDTool.Children *: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ResponsePSDTool.Children *: List[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of children.
 
@@ -66,7 +66,7 @@ Gets the list of children.
 
 <a id="ResponsePSDTool.ClusteringFrequencyPoints"></a>
 
-### *property* ResponsePSDTool.ClusteringFrequencyPoints *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ResponsePSDTool.ClusteringFrequencyPoints *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the ClusteringFrequencyPoints.
 
@@ -74,7 +74,7 @@ Gets or sets the ClusteringFrequencyPoints.
 
 <a id="ResponsePSDTool.Comments"></a>
 
-### *property* ResponsePSDTool.Comments *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Comment](Comment.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ResponsePSDTool.Comments *: Iterable[[Ansys.ACT.Automation.Mechanical.Comment](Comment.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated comments.
 
@@ -82,7 +82,7 @@ Gets the list of associated comments.
 
 <a id="ResponsePSDTool.DataModelObjectCategory"></a>
 
-### *property* ResponsePSDTool.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../v242/Ansys/Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ResponsePSDTool.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the current DataModelObject’s category.
 
@@ -90,7 +90,7 @@ Gets the current DataModelObject’s category.
 
 <a id="ResponsePSDTool.Figures"></a>
 
-### *property* ResponsePSDTool.Figures *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Figure](Figure.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ResponsePSDTool.Figures *: Iterable[[Ansys.ACT.Automation.Mechanical.Figure](Figure.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated figures.
 
@@ -98,7 +98,7 @@ Gets the list of associated figures.
 
 <a id="ResponsePSDTool.Images"></a>
 
-### *property* ResponsePSDTool.Images *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Image](Image.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ResponsePSDTool.Images *: Iterable[[Ansys.ACT.Automation.Mechanical.Image](Image.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated images.
 
@@ -106,7 +106,7 @@ Gets the list of associated images.
 
 <a id="ResponsePSDTool.IncludeAllExcitationFrequencies"></a>
 
-### *property* ResponsePSDTool.IncludeAllExcitationFrequencies *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ResponsePSDTool.IncludeAllExcitationFrequencies *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the IncludeAllExcitationFrequencies.
 
@@ -114,7 +114,7 @@ Gets or sets the IncludeAllExcitationFrequencies.
 
 <a id="ResponsePSDTool.IncludeUserDefinedFrequencies"></a>
 
-### *property* ResponsePSDTool.IncludeUserDefinedFrequencies *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ResponsePSDTool.IncludeUserDefinedFrequencies *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the IncludeUserDefinedFrequencies.
 
@@ -130,7 +130,7 @@ Gets the internal object. For advanced usage only.
 
 <a id="ResponsePSDTool.Properties"></a>
 
-### *property* ResponsePSDTool.Properties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ResponsePSDTool.Properties *: [tuple](https://docs.python.org/3/library/stdtypes.html#tuple)[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of properties for this object.
 
@@ -138,7 +138,7 @@ Gets the list of properties for this object.
 
 <a id="ResponsePSDTool.VisibleProperties"></a>
 
-### *property* ResponsePSDTool.VisibleProperties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ResponsePSDTool.VisibleProperties *: [tuple](https://docs.python.org/3/library/stdtypes.html#tuple)[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of properties that are visible for this object.
 
@@ -174,7 +174,7 @@ Creates a new child Figure.
 
 <a id="ResponsePSDTool.AddImage"></a>
 
-### ResponsePSDTool.AddImage(filePath: System.String)
+### ResponsePSDTool.AddImage(filePath: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 ```text
 Creates a new child Image.
@@ -202,7 +202,7 @@ Copies all visible properties from this object to another.
 
 <a id="ResponsePSDTool.CreateParameter"></a>
 
-### ResponsePSDTool.CreateParameter(propName: System.String)
+### ResponsePSDTool.CreateParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Creates a new parameter for a Property.
 
@@ -234,7 +234,7 @@ Run the EvaluateAllResults action.
 
 <a id="ResponsePSDTool.GetChildren"></a>
 
-### ResponsePSDTool.GetChildren(recurses: System.Boolean, children: System.Collections.Generic.IList[ChildrenType])
+### ResponsePSDTool.GetChildren(recurses: [bool](https://docs.python.org/3/library/functions.html#bool), children: List[ChildrenType])
 
 Gets the list of children, filtered by type.
 
@@ -242,7 +242,7 @@ Gets the list of children, filtered by type.
 
 <a id="ResponsePSDTool.GetParameter"></a>
 
-### ResponsePSDTool.GetParameter(propName: System.String)
+### ResponsePSDTool.GetParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Gets the parameter corresponding to the given property.
 
@@ -266,7 +266,7 @@ Run the GroupSimilarObjects action.
 
 <a id="ResponsePSDTool.PropertyByAPIName"></a>
 
-### ResponsePSDTool.PropertyByAPIName(name: System.String)
+### ResponsePSDTool.PropertyByAPIName(name: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 ```text
 Get a property by its API name.
@@ -277,7 +277,7 @@ If multiple properties have the same API Name, only the first property with that
 
 <a id="ResponsePSDTool.PropertyByName"></a>
 
-### ResponsePSDTool.PropertyByName(name: System.String)
+### ResponsePSDTool.PropertyByName(name: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Get a property by its unique name.
 
@@ -285,7 +285,7 @@ Get a property by its unique name.
 
 <a id="ResponsePSDTool.RemoveParameter"></a>
 
-### ResponsePSDTool.RemoveParameter(propName: System.String)
+### ResponsePSDTool.RemoveParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Removes the parameter from the parameter set corresponding to the given property.
 

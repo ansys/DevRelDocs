@@ -17,7 +17,7 @@ Specifies the SubScopingDefineByType.
 ### Attributes
 
 | Name |
-| -------------------------------------------------------------------------------------------------------------------------- |
+| -------------------------------------------- |
 | [`Layer`](#SubScopingDefineByType.Layer) |
 | [`Plies`](#SubScopingDefineByType.Plies) |
 | [`Ply`](#SubScopingDefineByType.Ply) |

@@ -17,7 +17,7 @@ Specifies the Life Units Type.
 ### Attributes
 
 | Name |
-| ------------------------------------------------------------------------------------------------------------------ |
+| --------------------------------------------- |
 | [`Blocks_LC`](#LifeUnitsType.Blocks_LC) |
 | [`Cycles_LC`](#LifeUnitsType.Cycles_LC) |
 | [`Days_LC`](#LifeUnitsType.Days_LC) |

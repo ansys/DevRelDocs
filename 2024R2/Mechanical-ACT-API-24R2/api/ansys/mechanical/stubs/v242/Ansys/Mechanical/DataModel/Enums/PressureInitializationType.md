@@ -17,7 +17,7 @@ Specifies the PressureInitializationType.
 ### Attributes
 
 | Name |
-| ---------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| ------------------------------------------------------------------------ |
 | [`FromDeformedState`](#PressureInitializationType.FromDeformedState) |
 | [`FromStressTrace`](#PressureInitializationType.FromStressTrace) |
 

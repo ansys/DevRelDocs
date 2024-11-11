@@ -51,7 +51,7 @@ Defines a LocalDesignRestriction.
 
 <a id="LocalDesignRestriction.Children"></a>
 
-### *property* LocalDesignRestriction.Children *: System.Collections.Generic.IList[Ansys.ACT.Automation.Mechanical.DataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* LocalDesignRestriction.Children *: List[Ansys.ACT.Automation.Mechanical.DataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of children.
 
@@ -99,7 +99,7 @@ Gets or sets the MaxCumulatedDisplacementControl.
 
 <a id="LocalDesignRestriction.MorphingTotalMoveLimit"></a>
 
-### *property* LocalDesignRestriction.MorphingTotalMoveLimit *: System.Double | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* LocalDesignRestriction.MorphingTotalMoveLimit *: [float](https://docs.python.org/3/library/functions.html#float) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the MorphingTotalMoveLimit.
 
@@ -107,7 +107,7 @@ Gets or sets the MorphingTotalMoveLimit.
 
 <a id="LocalDesignRestriction.Properties"></a>
 
-### *property* LocalDesignRestriction.Properties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* LocalDesignRestriction.Properties *: [tuple](https://docs.python.org/3/library/stdtypes.html#tuple)[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of properties for this object.
 
@@ -115,7 +115,7 @@ Gets the list of properties for this object.
 
 <a id="LocalDesignRestriction.VisibleProperties"></a>
 
-### *property* LocalDesignRestriction.VisibleProperties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* LocalDesignRestriction.VisibleProperties *: [tuple](https://docs.python.org/3/library/stdtypes.html#tuple)[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of properties that are visible for this object.
 
@@ -143,7 +143,7 @@ Copies all visible properties from this object to another.
 
 <a id="LocalDesignRestriction.CreateParameter"></a>
 
-### LocalDesignRestriction.CreateParameter(propName: System.String)
+### LocalDesignRestriction.CreateParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Creates a new parameter for a Property.
 
@@ -167,7 +167,7 @@ Creates a copy of the current DataModelObject.
 
 <a id="LocalDesignRestriction.GetChildren"></a>
 
-### LocalDesignRestriction.GetChildren(recurses: System.Boolean, children: System.Collections.Generic.IList[ChildrenType])
+### LocalDesignRestriction.GetChildren(recurses: [bool](https://docs.python.org/3/library/functions.html#bool), children: List[ChildrenType])
 
 Gets the list of children, filtered by type.
 
@@ -175,7 +175,7 @@ Gets the list of children, filtered by type.
 
 <a id="LocalDesignRestriction.GetParameter"></a>
 
-### LocalDesignRestriction.GetParameter(propName: System.String)
+### LocalDesignRestriction.GetParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Gets the parameter corresponding to the given property.
 
@@ -199,7 +199,7 @@ Run the GroupSimilarObjects action.
 
 <a id="LocalDesignRestriction.PropertyByAPIName"></a>
 
-### LocalDesignRestriction.PropertyByAPIName(name: System.String)
+### LocalDesignRestriction.PropertyByAPIName(name: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 ```text
 Get a property by its API name.
@@ -210,7 +210,7 @@ If multiple properties have the same API Name, only the first property with that
 
 <a id="LocalDesignRestriction.PropertyByName"></a>
 
-### LocalDesignRestriction.PropertyByName(name: System.String)
+### LocalDesignRestriction.PropertyByName(name: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Get a property by its unique name.
 
@@ -218,7 +218,7 @@ Get a property by its unique name.
 
 <a id="LocalDesignRestriction.RemoveParameter"></a>
 
-### LocalDesignRestriction.RemoveParameter(propName: System.String)
+### LocalDesignRestriction.RemoveParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Removes the parameter from the parameter set corresponding to the given property.
 

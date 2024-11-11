@@ -17,7 +17,7 @@ IMechanicalTheme interface.
 ### Properties
 
 | Name | Description |
-|------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------|
+|--------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------|
 | [`ColorPalette`](#IMechanicalTheme.ColorPalette)             | Palette object, which provides an entry point to get Mechnical UI’s theme colors represented as Ansys.Utilities.Color objects   |
 | [`HexadecimalPalette`](#IMechanicalTheme.HexadecimalPalette) | Palette object, which provides an entry point to get Mechnical UI’s theme colors represented in Hexadecimal. ei. #FFFFFF        |
 | [`IntPalette`](#IMechanicalTheme.IntPalette)                 | Palette object, which provides an entry point to get Mechnical UI’s theme colors represented as integers formatted as BGR       |

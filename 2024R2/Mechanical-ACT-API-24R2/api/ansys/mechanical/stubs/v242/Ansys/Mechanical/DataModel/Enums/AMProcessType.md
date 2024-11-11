@@ -17,7 +17,7 @@ Specifies the AMProcessType.
 ### Attributes
 
 | Name |
-| ---------------------------------------------------------------------------------------------------------------------------------------------- |
+| ------------------------------------------------------------------------- |
 | [`DirectedEnergyDeposition`](#AMProcessType.DirectedEnergyDeposition) |
 | [`PowderBedFusion`](#AMProcessType.PowderBedFusion) |
 

@@ -100,7 +100,7 @@ Defines a Spring.
 
 <a id="Spring.Children"></a>
 
-### *property* Spring.Children *: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Spring.Children *: List[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of children.
 
@@ -108,7 +108,7 @@ Gets the list of children.
 
 <a id="Spring.Comments"></a>
 
-### *property* Spring.Comments *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Comment](../../../../../../v241/Ansys/ACT/Automation/Mechanical/Comment.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Spring.Comments *: Iterable[[Ansys.ACT.Automation.Mechanical.Comment](../Comment.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated comments.
 
@@ -124,7 +124,7 @@ Gets the current DataModelObject’s category.
 
 <a id="Spring.Figures"></a>
 
-### *property* Spring.Figures *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Figure](../../../../../../v241/Ansys/ACT/Automation/Mechanical/Figure.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Spring.Figures *: Iterable[[Ansys.ACT.Automation.Mechanical.Figure](../Figure.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated figures.
 
@@ -140,7 +140,7 @@ Gets or sets the FreeLength.
 
 <a id="Spring.Images"></a>
 
-### *property* Spring.Images *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Image](../../../../../../v241/Ansys/ACT/Automation/Mechanical/Image.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Spring.Images *: Iterable[[Ansys.ACT.Automation.Mechanical.Image](../Image.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated images.
 
@@ -180,7 +180,7 @@ Gets or sets the constant longitudinal stiffness (expressed in N/m).
 
 <a id="Spring.Material"></a>
 
-### *property* Spring.Material *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Spring.Material *: [str](https://docs.python.org/3/library/stdtypes.html#str) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Material.
 
@@ -196,7 +196,7 @@ Gets or sets the MobileAppliedBy.
 
 <a id="Spring.MobileBeamMaterial"></a>
 
-### *property* Spring.MobileBeamMaterial *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Spring.MobileBeamMaterial *: [str](https://docs.python.org/3/library/stdtypes.html#str) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the MobileBeamMaterial.
 
@@ -220,7 +220,7 @@ Gets or sets the MobileBehavior.
 
 <a id="Spring.MobileBody"></a>
 
-### *property* Spring.MobileBody *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Spring.MobileBody *: [str](https://docs.python.org/3/library/stdtypes.html#str) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the MobileBody.
 
@@ -228,7 +228,7 @@ Gets the MobileBody.
 
 <a id="Spring.MobileCoordinateSystem"></a>
 
-### *property* Spring.MobileCoordinateSystem *: [Ansys.ACT.Automation.Mechanical.CoordinateSystem](../../../../../../v241/Ansys/ACT/Automation/Mechanical/CoordinateSystem.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.CoordinateSystem) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Spring.MobileCoordinateSystem *: [Ansys.ACT.Automation.Mechanical.CoordinateSystem](../CoordinateSystem.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.CoordinateSystem) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the MobileCoordinateSystem.
 
@@ -300,7 +300,7 @@ Gets or sets the PreloadType.
 
 <a id="Spring.Properties"></a>
 
-### *property* Spring.Properties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Spring.Properties *: [tuple](https://docs.python.org/3/library/stdtypes.html#tuple)[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of properties for this object.
 
@@ -308,7 +308,7 @@ Gets the list of properties for this object.
 
 <a id="Spring.ReadOnly"></a>
 
-### *property* Spring.ReadOnly *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Spring.ReadOnly *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the ReadOnly.
 
@@ -324,7 +324,7 @@ Gets or sets the ReferenceAppliedBy.
 
 <a id="Spring.ReferenceBeamMaterial"></a>
 
-### *property* Spring.ReferenceBeamMaterial *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Spring.ReferenceBeamMaterial *: [str](https://docs.python.org/3/library/stdtypes.html#str) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the ReferenceBeamMaterial.
 
@@ -348,7 +348,7 @@ Gets or sets the ReferenceBehavior.
 
 <a id="Spring.ReferenceBody"></a>
 
-### *property* Spring.ReferenceBody *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Spring.ReferenceBody *: [str](https://docs.python.org/3/library/stdtypes.html#str) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the ReferenceBody.
 
@@ -356,7 +356,7 @@ Gets the ReferenceBody.
 
 <a id="Spring.ReferenceCoordinateSystem"></a>
 
-### *property* Spring.ReferenceCoordinateSystem *: [Ansys.ACT.Automation.Mechanical.CoordinateSystem](../../../../../../v241/Ansys/ACT/Automation/Mechanical/CoordinateSystem.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.CoordinateSystem) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Spring.ReferenceCoordinateSystem *: [Ansys.ACT.Automation.Mechanical.CoordinateSystem](../CoordinateSystem.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.CoordinateSystem) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the ReferenceCoordinateSystem.
 
@@ -436,7 +436,7 @@ Gets or sets the SpringBehavior.
 
 <a id="Spring.SpringElementAPDLName"></a>
 
-### *property* Spring.SpringElementAPDLName *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Spring.SpringElementAPDLName *: [str](https://docs.python.org/3/library/stdtypes.html#str) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the SpringElementAPDLName.
 
@@ -460,7 +460,7 @@ Gets or sets the SpringType.
 
 <a id="Spring.Suppressed"></a>
 
-### *property* Spring.Suppressed *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Spring.Suppressed *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Suppressed.
 
@@ -492,7 +492,7 @@ Gets or sets the TorsionalStiffness.
 
 <a id="Spring.Visible"></a>
 
-### *property* Spring.Visible *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Spring.Visible *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Visible.
 
@@ -500,7 +500,7 @@ Gets or sets the Visible.
 
 <a id="Spring.VisibleProperties"></a>
 
-### *property* Spring.VisibleProperties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Spring.VisibleProperties *: [tuple](https://docs.python.org/3/library/stdtypes.html#tuple)[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of properties that are visible for this object.
 
@@ -544,7 +544,7 @@ Creates a new child Figure.
 
 <a id="Spring.AddImage"></a>
 
-### Spring.AddImage(filePath: System.String)
+### Spring.AddImage(filePath: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 ```text
 Creates a new child Image.
@@ -564,7 +564,7 @@ Copies all visible properties from this object to another.
 
 <a id="Spring.CreateParameter"></a>
 
-### Spring.CreateParameter(propName: System.String)
+### Spring.CreateParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Creates a new parameter for a Property.
 
@@ -588,7 +588,7 @@ Creates a copy of the current DataModelObject.
 
 <a id="Spring.GetChildren"></a>
 
-### Spring.GetChildren(recurses: System.Boolean, children: System.Collections.Generic.IList[ChildrenType])
+### Spring.GetChildren(recurses: [bool](https://docs.python.org/3/library/functions.html#bool), children: List[ChildrenType])
 
 Gets the list of children, filtered by type.
 
@@ -596,7 +596,7 @@ Gets the list of children, filtered by type.
 
 <a id="Spring.GetParameter"></a>
 
-### Spring.GetParameter(propName: System.String)
+### Spring.GetParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Gets the parameter corresponding to the given property.
 
@@ -636,7 +636,7 @@ Run the PromoteToRemotePoint action.
 
 <a id="Spring.PropertyByAPIName"></a>
 
-### Spring.PropertyByAPIName(name: System.String)
+### Spring.PropertyByAPIName(name: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 ```text
 Get a property by its API name.
@@ -647,7 +647,7 @@ If multiple properties have the same API Name, only the first property with that
 
 <a id="Spring.PropertyByName"></a>
 
-### Spring.PropertyByName(name: System.String)
+### Spring.PropertyByName(name: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Get a property by its unique name.
 
@@ -655,7 +655,7 @@ Get a property by its unique name.
 
 <a id="Spring.RemoveParameter"></a>
 
-### Spring.RemoveParameter(propName: System.String)
+### Spring.RemoveParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Removes the parameter from the parameter set corresponding to the given property.
 

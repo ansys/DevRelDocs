@@ -17,7 +17,7 @@ Specifies the EnclosureType.
 ### Attributes
 
 | Name |
-| -------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| ----------------------------------------------------------------------- |
 | [`MultipleFrequency`](#FatigueFrequencySelection.MultipleFrequency) |
 | [`SineSweep`](#FatigueFrequencySelection.SineSweep) |
 | [`SingleFrequency`](#FatigueFrequencySelection.SingleFrequency) |

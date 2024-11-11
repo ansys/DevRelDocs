@@ -28,7 +28,7 @@ with rigid body transformations and getting a RigidBodyTransformationMatrix obje
 ### Properties
 
 | Name | Description |
-|------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------|
+|-------------------------------------------------|------------------------------------------------------------------------------|
 | [`Data`](#RigidBodyTransformationMatrix.Data)   | A 16-value list representing a linearized 4x4 transformation matrix.         |
 | [`S`](#RigidBodyTransformationMatrix.S)         | Element 15: the transformation scale, which must be ‘1.0’ for rigid body     |
 | [`T_x`](#RigidBodyTransformationMatrix.T_x)     | Element 3: the x component of the translation.                               |
@@ -53,7 +53,7 @@ with rigid body transformations and getting a RigidBodyTransformationMatrix obje
 
 <a id="RigidBodyTransformationMatrix.Data"></a>
 
-### *property* RigidBodyTransformationMatrix.Data *: System.Collections.Generic.IList[System.Object] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* RigidBodyTransformationMatrix.Data *: List[Any] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 A 16-value list representing a linearized 4x4 transformation matrix.
 
@@ -61,7 +61,7 @@ A 16-value list representing a linearized 4x4 transformation matrix.
 
 <a id="RigidBodyTransformationMatrix.S"></a>
 
-### *property* RigidBodyTransformationMatrix.S *: System.Double | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* RigidBodyTransformationMatrix.S *: [float](https://docs.python.org/3/library/functions.html#float) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Element 15: the transformation scale, which must be ‘1.0’ for rigid body
 transformations.
@@ -70,7 +70,7 @@ transformations.
 
 <a id="RigidBodyTransformationMatrix.T_x"></a>
 
-### *property* RigidBodyTransformationMatrix.T_x *: System.Double | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* RigidBodyTransformationMatrix.T_x *: [float](https://docs.python.org/3/library/functions.html#float) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Element 3: the x component of the translation.
 
@@ -78,7 +78,7 @@ Element 3: the x component of the translation.
 
 <a id="RigidBodyTransformationMatrix.T_y"></a>
 
-### *property* RigidBodyTransformationMatrix.T_y *: System.Double | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* RigidBodyTransformationMatrix.T_y *: [float](https://docs.python.org/3/library/functions.html#float) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Element 7: the y component of the translation.
 
@@ -86,7 +86,7 @@ Element 7: the y component of the translation.
 
 <a id="RigidBodyTransformationMatrix.T_z"></a>
 
-### *property* RigidBodyTransformationMatrix.T_z *: System.Double | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* RigidBodyTransformationMatrix.T_z *: [float](https://docs.python.org/3/library/functions.html#float) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Element 11: the z component of the translation.
 
@@ -94,7 +94,7 @@ Element 11: the z component of the translation.
 
 <a id="RigidBodyTransformationMatrix.X_x"></a>
 
-### *property* RigidBodyTransformationMatrix.X_x *: System.Double | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* RigidBodyTransformationMatrix.X_x *: [float](https://docs.python.org/3/library/functions.html#float) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Element 0: the x component of the X axis rotation.
 
@@ -102,7 +102,7 @@ Element 0: the x component of the X axis rotation.
 
 <a id="RigidBodyTransformationMatrix.X_y"></a>
 
-### *property* RigidBodyTransformationMatrix.X_y *: System.Double | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* RigidBodyTransformationMatrix.X_y *: [float](https://docs.python.org/3/library/functions.html#float) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Element 4: the y component of the X axis rotation.
 
@@ -110,7 +110,7 @@ Element 4: the y component of the X axis rotation.
 
 <a id="RigidBodyTransformationMatrix.X_z"></a>
 
-### *property* RigidBodyTransformationMatrix.X_z *: System.Double | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* RigidBodyTransformationMatrix.X_z *: [float](https://docs.python.org/3/library/functions.html#float) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Element 8: the z component of the X axis rotation.
 
@@ -118,7 +118,7 @@ Element 8: the z component of the X axis rotation.
 
 <a id="RigidBodyTransformationMatrix.Y_x"></a>
 
-### *property* RigidBodyTransformationMatrix.Y_x *: System.Double | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* RigidBodyTransformationMatrix.Y_x *: [float](https://docs.python.org/3/library/functions.html#float) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Element 1: the x component of the Y axis rotation.
 
@@ -126,7 +126,7 @@ Element 1: the x component of the Y axis rotation.
 
 <a id="RigidBodyTransformationMatrix.Y_y"></a>
 
-### *property* RigidBodyTransformationMatrix.Y_y *: System.Double | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* RigidBodyTransformationMatrix.Y_y *: [float](https://docs.python.org/3/library/functions.html#float) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Element 5: the y component of the Y axis rotation.
 
@@ -134,7 +134,7 @@ Element 5: the y component of the Y axis rotation.
 
 <a id="RigidBodyTransformationMatrix.Y_z"></a>
 
-### *property* RigidBodyTransformationMatrix.Y_z *: System.Double | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* RigidBodyTransformationMatrix.Y_z *: [float](https://docs.python.org/3/library/functions.html#float) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Element 9: the z component of the Y axis rotation.
 
@@ -142,7 +142,7 @@ Element 9: the z component of the Y axis rotation.
 
 <a id="RigidBodyTransformationMatrix.Z_x"></a>
 
-### *property* RigidBodyTransformationMatrix.Z_x *: System.Double | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* RigidBodyTransformationMatrix.Z_x *: [float](https://docs.python.org/3/library/functions.html#float) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Element 2: the x component of the Z axis rotation.
 
@@ -150,7 +150,7 @@ Element 2: the x component of the Z axis rotation.
 
 <a id="RigidBodyTransformationMatrix.Z_y"></a>
 
-### *property* RigidBodyTransformationMatrix.Z_y *: System.Double | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* RigidBodyTransformationMatrix.Z_y *: [float](https://docs.python.org/3/library/functions.html#float) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Element 6: the y component of the Z axis rotation.
 
@@ -158,7 +158,7 @@ Element 6: the y component of the Z axis rotation.
 
 <a id="RigidBodyTransformationMatrix.Z_z"></a>
 
-### *property* RigidBodyTransformationMatrix.Z_z *: System.Double | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* RigidBodyTransformationMatrix.Z_z *: [float](https://docs.python.org/3/library/functions.html#float) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Element 10: the z component of the Z axis rotation.
 
@@ -166,7 +166,7 @@ Element 10: the z component of the Z axis rotation.
 
 <a id="RigidBodyTransformationMatrix.tau_x"></a>
 
-### *property* RigidBodyTransformationMatrix.tau_x *: System.Double | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* RigidBodyTransformationMatrix.tau_x *: [float](https://docs.python.org/3/library/functions.html#float) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Element 12: the x component of the shear, which must be ‘0.0’ for rigid body
 transformations.
@@ -175,7 +175,7 @@ transformations.
 
 <a id="RigidBodyTransformationMatrix.tau_y"></a>
 
-### *property* RigidBodyTransformationMatrix.tau_y *: System.Double | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* RigidBodyTransformationMatrix.tau_y *: [float](https://docs.python.org/3/library/functions.html#float) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Element 13: the y component of the shear, which must be ‘0.0’ for rigid body
 transformations.
@@ -184,7 +184,7 @@ transformations.
 
 <a id="RigidBodyTransformationMatrix.tau_z"></a>
 
-### *property* RigidBodyTransformationMatrix.tau_z *: System.Double | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* RigidBodyTransformationMatrix.tau_z *: [float](https://docs.python.org/3/library/functions.html#float) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Element 14: the z component of the shear, which must be ‘0.0’ for rigid body
 transformations.

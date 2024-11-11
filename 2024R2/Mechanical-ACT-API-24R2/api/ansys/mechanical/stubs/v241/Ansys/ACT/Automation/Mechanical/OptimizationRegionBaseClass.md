@@ -48,7 +48,7 @@ Defines a OptimizationRegionBaseClass.
 
 <a id="OptimizationRegionBaseClass.Children"></a>
 
-### *property* OptimizationRegionBaseClass.Children *: System.Collections.Generic.IList[Ansys.ACT.Automation.Mechanical.DataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* OptimizationRegionBaseClass.Children *: List[Ansys.ACT.Automation.Mechanical.DataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of children.
 
@@ -64,7 +64,7 @@ Gets or sets the ExclusionRegionLocation.
 
 <a id="OptimizationRegionBaseClass.ExclusionScopingMethod"></a>
 
-### *property* OptimizationRegionBaseClass.ExclusionScopingMethod *: [Ansys.Mechanical.DataModel.Enums.GeometryDefineByType](../../../../../v242/Ansys/Mechanical/DataModel/Enums/GeometryDefineByType.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.GeometryDefineByType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* OptimizationRegionBaseClass.ExclusionScopingMethod *: [Ansys.Mechanical.DataModel.Enums.GeometryDefineByType](../../../Mechanical/DataModel/Enums/GeometryDefineByType.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.GeometryDefineByType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the ExclusionScopingMethod.
 
@@ -80,7 +80,7 @@ Gets the internal object. For advanced usage only.
 
 <a id="OptimizationRegionBaseClass.Properties"></a>
 
-### *property* OptimizationRegionBaseClass.Properties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* OptimizationRegionBaseClass.Properties *: [tuple](https://docs.python.org/3/library/stdtypes.html#tuple)[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of properties for this object.
 
@@ -88,7 +88,7 @@ Gets the list of properties for this object.
 
 <a id="OptimizationRegionBaseClass.VisibleProperties"></a>
 
-### *property* OptimizationRegionBaseClass.VisibleProperties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* OptimizationRegionBaseClass.VisibleProperties *: [tuple](https://docs.python.org/3/library/stdtypes.html#tuple)[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of properties that are visible for this object.
 
@@ -116,7 +116,7 @@ Copies all visible properties from this object to another.
 
 <a id="OptimizationRegionBaseClass.CreateParameter"></a>
 
-### OptimizationRegionBaseClass.CreateParameter(propName: System.String)
+### OptimizationRegionBaseClass.CreateParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Creates a new parameter for a Property.
 
@@ -140,7 +140,7 @@ Creates a copy of the current DataModelObject.
 
 <a id="OptimizationRegionBaseClass.GetChildren"></a>
 
-### OptimizationRegionBaseClass.GetChildren(recurses: System.Boolean, children: System.Collections.Generic.IList[ChildrenType])
+### OptimizationRegionBaseClass.GetChildren(recurses: [bool](https://docs.python.org/3/library/functions.html#bool), children: List[ChildrenType])
 
 Gets the list of children, filtered by type.
 
@@ -148,7 +148,7 @@ Gets the list of children, filtered by type.
 
 <a id="OptimizationRegionBaseClass.GetParameter"></a>
 
-### OptimizationRegionBaseClass.GetParameter(propName: System.String)
+### OptimizationRegionBaseClass.GetParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Gets the parameter corresponding to the given property.
 
@@ -172,7 +172,7 @@ Run the GroupSimilarObjects action.
 
 <a id="OptimizationRegionBaseClass.PropertyByAPIName"></a>
 
-### OptimizationRegionBaseClass.PropertyByAPIName(name: System.String)
+### OptimizationRegionBaseClass.PropertyByAPIName(name: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 ```text
 Get a property by its API name.
@@ -183,7 +183,7 @@ If multiple properties have the same API Name, only the first property with that
 
 <a id="OptimizationRegionBaseClass.PropertyByName"></a>
 
-### OptimizationRegionBaseClass.PropertyByName(name: System.String)
+### OptimizationRegionBaseClass.PropertyByName(name: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Get a property by its unique name.
 
@@ -191,7 +191,7 @@ Get a property by its unique name.
 
 <a id="OptimizationRegionBaseClass.RemoveParameter"></a>
 
-### OptimizationRegionBaseClass.RemoveParameter(propName: System.String)
+### OptimizationRegionBaseClass.RemoveParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Removes the parameter from the parameter set corresponding to the given property.
 

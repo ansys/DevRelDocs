@@ -17,7 +17,7 @@ Specifies the PeriodicityDirectionType.
 ### Attributes
 
 | Name |
-| ------------------------------------------------------------------------------------------------------------------------------ |
+| ---------------------------------------------- |
 | [`XAxis`](#PeriodicityDirectionType.XAxis) |
 | [`YAxis`](#PeriodicityDirectionType.YAxis) |
 | [`ZAxis`](#PeriodicityDirectionType.ZAxis) |

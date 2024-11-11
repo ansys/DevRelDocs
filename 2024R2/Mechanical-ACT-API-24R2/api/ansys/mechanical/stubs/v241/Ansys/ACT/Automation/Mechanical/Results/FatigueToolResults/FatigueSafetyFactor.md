@@ -121,7 +121,7 @@ Gets the Average.
 
 <a id="FatigueSafetyFactor.AverageAcrossBodies"></a>
 
-### *property* FatigueSafetyFactor.AverageAcrossBodies *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* FatigueSafetyFactor.AverageAcrossBodies *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the AverageAcrossBodies.
 
@@ -129,7 +129,7 @@ Gets or sets the AverageAcrossBodies.
 
 <a id="FatigueSafetyFactor.By"></a>
 
-### *property* FatigueSafetyFactor.By *: [Ansys.Mechanical.DataModel.Enums.SetDriverStyle](../../../../../../../v242/Ansys/Mechanical/DataModel/Enums/SetDriverStyle.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.SetDriverStyle) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* FatigueSafetyFactor.By *: [Ansys.Mechanical.DataModel.Enums.SetDriverStyle](../../../../../Mechanical/DataModel/Enums/SetDriverStyle.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.SetDriverStyle) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the By.
 
@@ -137,7 +137,7 @@ Gets or sets the By.
 
 <a id="FatigueSafetyFactor.CalculateTimeHistory"></a>
 
-### *property* FatigueSafetyFactor.CalculateTimeHistory *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* FatigueSafetyFactor.CalculateTimeHistory *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the CalculateTimeHistory.
 
@@ -145,7 +145,7 @@ Gets or sets the CalculateTimeHistory.
 
 <a id="FatigueSafetyFactor.Children"></a>
 
-### *property* FatigueSafetyFactor.Children *: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* FatigueSafetyFactor.Children *: List[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of children.
 
@@ -153,7 +153,7 @@ Gets the list of children.
 
 <a id="FatigueSafetyFactor.CombinationNumber"></a>
 
-### *property* FatigueSafetyFactor.CombinationNumber *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* FatigueSafetyFactor.CombinationNumber *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Combination Number for a Solution Combination result.
 
@@ -161,7 +161,7 @@ Gets or sets the Combination Number for a Solution Combination result.
 
 <a id="FatigueSafetyFactor.Comments"></a>
 
-### *property* FatigueSafetyFactor.Comments *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Comment](../../Comment.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* FatigueSafetyFactor.Comments *: Iterable[[Ansys.ACT.Automation.Mechanical.Comment](../../Comment.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated comments.
 
@@ -179,7 +179,7 @@ Accepts/Returns None for Fiber Coordinate System for a result that is sub scoped
 
 <a id="FatigueSafetyFactor.CrackFrontNumber"></a>
 
-### *property* FatigueSafetyFactor.CrackFrontNumber *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* FatigueSafetyFactor.CrackFrontNumber *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the CrackFrontNumber.
 
@@ -187,7 +187,7 @@ Gets or sets the CrackFrontNumber.
 
 <a id="FatigueSafetyFactor.DataModelObjectCategory"></a>
 
-### *property* FatigueSafetyFactor.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../../../v242/Ansys/Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* FatigueSafetyFactor.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the current DataModelObject’s category.
 
@@ -195,7 +195,7 @@ Gets the current DataModelObject’s category.
 
 <a id="FatigueSafetyFactor.DesignLife"></a>
 
-### *property* FatigueSafetyFactor.DesignLife *: System.Double | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* FatigueSafetyFactor.DesignLife *: [float](https://docs.python.org/3/library/functions.html#float) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the DesignLife.
 
@@ -203,7 +203,7 @@ Gets or sets the DesignLife.
 
 <a id="FatigueSafetyFactor.DisplayOption"></a>
 
-### *property* FatigueSafetyFactor.DisplayOption *: [Ansys.Mechanical.DataModel.Enums.ResultAveragingType](../../../../../../../v242/Ansys/Mechanical/DataModel/Enums/ResultAveragingType.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.ResultAveragingType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* FatigueSafetyFactor.DisplayOption *: [Ansys.Mechanical.DataModel.Enums.ResultAveragingType](../../../../../Mechanical/DataModel/Enums/ResultAveragingType.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.ResultAveragingType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the DisplayOption.
 
@@ -219,7 +219,7 @@ Gets or sets the DisplayTime.
 
 <a id="FatigueSafetyFactor.DpfEvaluation"></a>
 
-### *property* FatigueSafetyFactor.DpfEvaluation *: [Ansys.Mechanical.DataModel.Enums.DpfEvaluationType](../../../../../../../v242/Ansys/Mechanical/DataModel/Enums/DpfEvaluationType.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.DpfEvaluationType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* FatigueSafetyFactor.DpfEvaluation *: [Ansys.Mechanical.DataModel.Enums.DpfEvaluationType](../../../../../Mechanical/DataModel/Enums/DpfEvaluationType.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DpfEvaluationType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the DpfEvaluation.
 
@@ -227,7 +227,7 @@ Gets or sets the DpfEvaluation.
 
 <a id="FatigueSafetyFactor.Figures"></a>
 
-### *property* FatigueSafetyFactor.Figures *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Figure](../../Figure.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* FatigueSafetyFactor.Figures *: Iterable[[Ansys.ACT.Automation.Mechanical.Figure](../../Figure.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated figures.
 
@@ -235,7 +235,7 @@ Gets the list of associated figures.
 
 <a id="FatigueSafetyFactor.GlobalIDs"></a>
 
-### *property* FatigueSafetyFactor.GlobalIDs *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* FatigueSafetyFactor.GlobalIDs *: [str](https://docs.python.org/3/library/stdtypes.html#str) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the GlobalIDs.
 
@@ -243,7 +243,7 @@ Gets or sets the GlobalIDs.
 
 <a id="FatigueSafetyFactor.GraphControlsXAxis"></a>
 
-### *property* FatigueSafetyFactor.GraphControlsXAxis *: [Ansys.Mechanical.DataModel.Enums.GraphControlsXAxis](../../../../../../../v242/Ansys/Mechanical/DataModel/Enums/GraphControlsXAxis.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.GraphControlsXAxis) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* FatigueSafetyFactor.GraphControlsXAxis *: [Ansys.Mechanical.DataModel.Enums.GraphControlsXAxis](../../../../../Mechanical/DataModel/Enums/GraphControlsXAxis.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.GraphControlsXAxis) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the GraphControlsXAxis.
 
@@ -251,7 +251,7 @@ Gets or sets the GraphControlsXAxis.
 
 <a id="FatigueSafetyFactor.Identifier"></a>
 
-### *property* FatigueSafetyFactor.Identifier *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* FatigueSafetyFactor.Identifier *: [str](https://docs.python.org/3/library/stdtypes.html#str) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Identifier.
 
@@ -259,7 +259,7 @@ Gets or sets the Identifier.
 
 <a id="FatigueSafetyFactor.Images"></a>
 
-### *property* FatigueSafetyFactor.Images *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Image](../../Image.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* FatigueSafetyFactor.Images *: Iterable[[Ansys.ACT.Automation.Mechanical.Image](../../Image.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated images.
 
@@ -275,7 +275,7 @@ Gets the internal object. For advanced usage only.
 
 <a id="FatigueSafetyFactor.IsSolved"></a>
 
-### *property* FatigueSafetyFactor.IsSolved *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* FatigueSafetyFactor.IsSolved *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the IsSolved.
 
@@ -283,7 +283,7 @@ Gets the IsSolved.
 
 <a id="FatigueSafetyFactor.ItemType"></a>
 
-### *property* FatigueSafetyFactor.ItemType *: [Ansys.Mechanical.DataModel.Enums.ResultFileItemType](../../../../../../../v242/Ansys/Mechanical/DataModel/Enums/ResultFileItemType.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.ResultFileItemType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* FatigueSafetyFactor.ItemType *: [Ansys.Mechanical.DataModel.Enums.ResultFileItemType](../../../../../Mechanical/DataModel/Enums/ResultFileItemType.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.ResultFileItemType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the ItemType.
 
@@ -291,7 +291,7 @@ Gets or sets the ItemType.
 
 <a id="FatigueSafetyFactor.IterationNumber"></a>
 
-### *property* FatigueSafetyFactor.IterationNumber *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* FatigueSafetyFactor.IterationNumber *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the IterationNumber.
 
@@ -299,7 +299,7 @@ Gets the IterationNumber.
 
 <a id="FatigueSafetyFactor.LoadStep"></a>
 
-### *property* FatigueSafetyFactor.LoadStep *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* FatigueSafetyFactor.LoadStep *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the LoadStep.
 
@@ -307,7 +307,7 @@ Gets the LoadStep.
 
 <a id="FatigueSafetyFactor.LoadStepForMaximumOfMaximumValues"></a>
 
-### *property* FatigueSafetyFactor.LoadStepForMaximumOfMaximumValues *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* FatigueSafetyFactor.LoadStepForMaximumOfMaximumValues *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Get the Load Step for the maximum of maximum values.
 
@@ -315,7 +315,7 @@ Get the Load Step for the maximum of maximum values.
 
 <a id="FatigueSafetyFactor.LoadStepForMaximumOfMinimumValues"></a>
 
-### *property* FatigueSafetyFactor.LoadStepForMaximumOfMinimumValues *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* FatigueSafetyFactor.LoadStepForMaximumOfMinimumValues *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Get the Load Step for the maximum of minimum values.
 
@@ -323,7 +323,7 @@ Get the Load Step for the maximum of minimum values.
 
 <a id="FatigueSafetyFactor.LoadStepForMinimumOfMaximumValues"></a>
 
-### *property* FatigueSafetyFactor.LoadStepForMinimumOfMaximumValues *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* FatigueSafetyFactor.LoadStepForMinimumOfMaximumValues *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Get the Load Step for the minimum of maximum values.
 
@@ -331,7 +331,7 @@ Get the Load Step for the minimum of maximum values.
 
 <a id="FatigueSafetyFactor.LoadStepForMinimumOfMinimumValues"></a>
 
-### *property* FatigueSafetyFactor.LoadStepForMinimumOfMinimumValues *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* FatigueSafetyFactor.LoadStepForMinimumOfMinimumValues *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Get the Load Step for the minimum of minimum values.
 
@@ -339,7 +339,7 @@ Get the Load Step for the minimum of minimum values.
 
 <a id="FatigueSafetyFactor.LoadStepNumber"></a>
 
-### *property* FatigueSafetyFactor.LoadStepNumber *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* FatigueSafetyFactor.LoadStepNumber *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the LoadStepNumber.
 
@@ -363,7 +363,7 @@ Gets the Maximum.
 
 <a id="FatigueSafetyFactor.MaximumOccursOn"></a>
 
-### *property* FatigueSafetyFactor.MaximumOccursOn *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* FatigueSafetyFactor.MaximumOccursOn *: [str](https://docs.python.org/3/library/stdtypes.html#str) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the MaximumOccursOn.
 
@@ -387,7 +387,7 @@ Gets the MaximumOfMinimumOverTime.
 
 <a id="FatigueSafetyFactor.Method"></a>
 
-### *property* FatigueSafetyFactor.Method *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* FatigueSafetyFactor.Method *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the Method.
 
@@ -403,7 +403,7 @@ Gets the Minimum.
 
 <a id="FatigueSafetyFactor.MinimumOccursOn"></a>
 
-### *property* FatigueSafetyFactor.MinimumOccursOn *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* FatigueSafetyFactor.MinimumOccursOn *: [str](https://docs.python.org/3/library/stdtypes.html#str) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the MinimumOccursOn.
 
@@ -427,7 +427,7 @@ Gets the MinimumOfMinimumOverTime.
 
 <a id="FatigueSafetyFactor.NamedSelections"></a>
 
-### *property* FatigueSafetyFactor.NamedSelections *: System.Collections.Generic.IEnumerable[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* FatigueSafetyFactor.NamedSelections *: Iterable[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the NamedSelections.
 
@@ -435,7 +435,7 @@ Gets or sets the NamedSelections.
 
 <a id="FatigueSafetyFactor.Path"></a>
 
-### *property* FatigueSafetyFactor.Path *: [Ansys.ACT.Automation.Mechanical.Path](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Path.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Path) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* FatigueSafetyFactor.Path *: [Ansys.ACT.Automation.Mechanical.Path](../../Path.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Path) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Path property.
 
@@ -443,7 +443,7 @@ Path property.
 
 <a id="FatigueSafetyFactor.PlotData"></a>
 
-### *property* FatigueSafetyFactor.PlotData *: [Ansys.Mechanical.DataModel.Results.ResultDataTable](../../../../../../../v242/Ansys/Mechanical/DataModel/Results/ResultDataTable.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Results.ResultDataTable) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* FatigueSafetyFactor.PlotData *: [Ansys.Mechanical.DataModel.Results.ResultDataTable](../../../../../Mechanical/DataModel/Results/ResultDataTable.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Results.ResultDataTable) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the result table.
 
@@ -451,7 +451,7 @@ Gets the result table.
 
 <a id="FatigueSafetyFactor.Properties"></a>
 
-### *property* FatigueSafetyFactor.Properties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* FatigueSafetyFactor.Properties *: [tuple](https://docs.python.org/3/library/stdtypes.html#tuple)[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of properties for this object.
 
@@ -459,7 +459,7 @@ Gets the list of properties for this object.
 
 <a id="FatigueSafetyFactor.ScopingMethod"></a>
 
-### *property* FatigueSafetyFactor.ScopingMethod *: [Ansys.Mechanical.DataModel.Enums.GeometryDefineByType](../../../../../../../v242/Ansys/Mechanical/DataModel/Enums/GeometryDefineByType.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.GeometryDefineByType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* FatigueSafetyFactor.ScopingMethod *: [Ansys.Mechanical.DataModel.Enums.GeometryDefineByType](../../../../../Mechanical/DataModel/Enums/GeometryDefineByType.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.GeometryDefineByType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the ScopingMethod.
 
@@ -467,7 +467,7 @@ Gets or sets the ScopingMethod.
 
 <a id="FatigueSafetyFactor.SetNumber"></a>
 
-### *property* FatigueSafetyFactor.SetNumber *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* FatigueSafetyFactor.SetNumber *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Set Number.
 
@@ -475,7 +475,7 @@ Gets or sets the Set Number.
 
 <a id="FatigueSafetyFactor.SolutionCombinationDriver"></a>
 
-### *property* FatigueSafetyFactor.SolutionCombinationDriver *: [Ansys.Mechanical.DataModel.Enums.SolutionCombinationDriverStyle](../../../../../../../v242/Ansys/Mechanical/DataModel/Enums/SolutionCombinationDriverStyle.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.SolutionCombinationDriverStyle) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* FatigueSafetyFactor.SolutionCombinationDriver *: [Ansys.Mechanical.DataModel.Enums.SolutionCombinationDriverStyle](../../../../../Mechanical/DataModel/Enums/SolutionCombinationDriverStyle.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.SolutionCombinationDriverStyle) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the SolutionCombinationDriver.
 
@@ -483,7 +483,7 @@ Gets or sets the SolutionCombinationDriver.
 
 <a id="FatigueSafetyFactor.SolverComponentIDs"></a>
 
-### *property* FatigueSafetyFactor.SolverComponentIDs *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* FatigueSafetyFactor.SolverComponentIDs *: [str](https://docs.python.org/3/library/stdtypes.html#str) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the SolverComponentIDs.
 
@@ -491,7 +491,7 @@ Gets or sets the SolverComponentIDs.
 
 <a id="FatigueSafetyFactor.Substep"></a>
 
-### *property* FatigueSafetyFactor.Substep *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* FatigueSafetyFactor.Substep *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the Substep.
 
@@ -499,7 +499,7 @@ Gets the Substep.
 
 <a id="FatigueSafetyFactor.Suppressed"></a>
 
-### *property* FatigueSafetyFactor.Suppressed *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* FatigueSafetyFactor.Suppressed *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Suppressed.
 
@@ -507,7 +507,7 @@ Gets or sets the Suppressed.
 
 <a id="FatigueSafetyFactor.Surface"></a>
 
-### *property* FatigueSafetyFactor.Surface *: [Ansys.ACT.Automation.Mechanical.Surface](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Surface.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Surface) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* FatigueSafetyFactor.Surface *: [Ansys.ACT.Automation.Mechanical.Surface](../../Surface.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Surface) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Surface property.
 
@@ -555,7 +555,7 @@ Get the Time for the minimum of minimum values.
 
 <a id="FatigueSafetyFactor.VisibleProperties"></a>
 
-### *property* FatigueSafetyFactor.VisibleProperties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* FatigueSafetyFactor.VisibleProperties *: [tuple](https://docs.python.org/3/library/stdtypes.html#tuple)[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of properties that are visible for this object.
 
@@ -563,7 +563,7 @@ Gets the list of properties that are visible for this object.
 
 <a id="FatigueSafetyFactor.WaterfallPanelShowTextOnMosaic"></a>
 
-### *property* FatigueSafetyFactor.WaterfallPanelShowTextOnMosaic *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* FatigueSafetyFactor.WaterfallPanelShowTextOnMosaic *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Waterfall Panel Mosaic Text Property.
 
@@ -615,7 +615,7 @@ Creates a new child Figure.
 
 <a id="FatigueSafetyFactor.AddImage"></a>
 
-### FatigueSafetyFactor.AddImage(filePath: System.String)
+### FatigueSafetyFactor.AddImage(filePath: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 ```text
 Creates a new child Image.
@@ -643,7 +643,7 @@ Copies all visible properties from this object to another.
 
 <a id="FatigueSafetyFactor.CreateParameter"></a>
 
-### FatigueSafetyFactor.CreateParameter(propName: System.String)
+### FatigueSafetyFactor.CreateParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 CreateParameter method.
 
@@ -691,7 +691,7 @@ Run the EvaluateAllResults action.
 
 <a id="FatigueSafetyFactor.ExportAnimation"></a>
 
-### FatigueSafetyFactor.ExportAnimation(filePath: System.String, format: [Ansys.Mechanical.DataModel.Enums.GraphicsAnimationExportFormat](../../../../../../../v242/Ansys/Mechanical/DataModel/Enums/GraphicsAnimationExportFormat.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.GraphicsAnimationExportFormat), settings: [Ansys.Mechanical.Graphics.AnimationExportSettings](../../../../../../../v242/Ansys/Mechanical/Graphics/AnimationExportSettings.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.Graphics.AnimationExportSettings))
+### FatigueSafetyFactor.ExportAnimation(filePath: [str](https://docs.python.org/3/library/stdtypes.html#str), format: [Ansys.Mechanical.DataModel.Enums.GraphicsAnimationExportFormat](../../../../../Mechanical/DataModel/Enums/GraphicsAnimationExportFormat.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.GraphicsAnimationExportFormat), settings: [Ansys.Mechanical.Graphics.AnimationExportSettings](../../../../../Mechanical/Graphics/AnimationExportSettings.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.Graphics.AnimationExportSettings))
 
 Run the ExportAnimation action.
 
@@ -699,7 +699,7 @@ Run the ExportAnimation action.
 
 <a id="FatigueSafetyFactor.ExportToTextFile"></a>
 
-### FatigueSafetyFactor.ExportToTextFile(filePath: System.String)
+### FatigueSafetyFactor.ExportToTextFile(filePath: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Run the ExportToTextFile action.
 
@@ -715,7 +715,7 @@ Run the FetchRemoteResult action.
 
 <a id="FatigueSafetyFactor.GetChildren"></a>
 
-### FatigueSafetyFactor.GetChildren(recurses: System.Boolean, children: System.Collections.Generic.IList[ChildrenType])
+### FatigueSafetyFactor.GetChildren(recurses: [bool](https://docs.python.org/3/library/functions.html#bool), children: List[ChildrenType])
 
 Gets the list of children, filtered by type.
 
@@ -723,7 +723,7 @@ Gets the list of children, filtered by type.
 
 <a id="FatigueSafetyFactor.GetParameter"></a>
 
-### FatigueSafetyFactor.GetParameter(propName: System.String)
+### FatigueSafetyFactor.GetParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Gets the parameter corresponding to the given property.
 
@@ -755,7 +755,7 @@ Run the PromoteToNamedSelection action.
 
 <a id="FatigueSafetyFactor.PropertyByAPIName"></a>
 
-### FatigueSafetyFactor.PropertyByAPIName(name: System.String)
+### FatigueSafetyFactor.PropertyByAPIName(name: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 ```text
 Get a property by its API name.
@@ -766,7 +766,7 @@ If multiple properties have the same API Name, only the first property with that
 
 <a id="FatigueSafetyFactor.PropertyByName"></a>
 
-### FatigueSafetyFactor.PropertyByName(name: System.String)
+### FatigueSafetyFactor.PropertyByName(name: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Get a property by its unique name.
 
@@ -774,7 +774,7 @@ Get a property by its unique name.
 
 <a id="FatigueSafetyFactor.RemoveParameter"></a>
 
-### FatigueSafetyFactor.RemoveParameter(propName: System.String)
+### FatigueSafetyFactor.RemoveParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Removes the parameter from the parameter set corresponding to the given property.
 

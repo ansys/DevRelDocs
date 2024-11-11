@@ -17,7 +17,7 @@ Specifies the SolverControlsIncludeNegativeLoadMultiplier.
 ### Attributes
 
 | Name |
-| ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| --------------------------------------------------------------------------------------- |
 | [`No`](#SolverControlsIncludeNegativeLoadMultiplier.No) |
 | [`ProgramControlled`](#SolverControlsIncludeNegativeLoadMultiplier.ProgramControlled) |
 | [`Yes`](#SolverControlsIncludeNegativeLoadMultiplier.Yes) |

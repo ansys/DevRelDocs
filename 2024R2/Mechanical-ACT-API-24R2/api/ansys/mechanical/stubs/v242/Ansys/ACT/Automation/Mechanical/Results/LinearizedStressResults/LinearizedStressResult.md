@@ -17,7 +17,7 @@ Defines a LinearizedStressResult.
 ### Methods
 
 | Name | Description |
-|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------|
+|------------------------------------------------------------------------------|-----------------------------------------------------------------------------------|
 | [`Activate`](#LinearizedStressResult.Activate)                               | Activate the current object.                                                      |
 | [`AddAlert`](#LinearizedStressResult.AddAlert)                               | Creates a new Alert                                                               |
 | [`AddComment`](#LinearizedStressResult.AddComment)                           | Creates a new child Comment.                                                      |
@@ -48,7 +48,7 @@ Defines a LinearizedStressResult.
 ### Properties
 
 | Name | Description |
-|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------|
+|--------------------------------------------------------------------------------------------------|------------------------------------------------------------------------|
 | [`Amplitude`](#LinearizedStressResult.Amplitude)                                                 | Gets or sets the Amplitude.                                            |
 | [`Average`](#LinearizedStressResult.Average)                                                     | Gets the Average.                                                      |
 | [`AverageRadiusOfCurvature`](#LinearizedStressResult.AverageRadiusOfCurvature)                   | Gets or sets the AverageRadiusOfCurvature.                             |
@@ -114,7 +114,7 @@ Defines a LinearizedStressResult.
 | [`Subtype`](#LinearizedStressResult.Subtype)                                                     | Gets or sets the Subtype.                                              |
 | [`Suppressed`](#LinearizedStressResult.Suppressed)                                               | Gets or sets the Suppressed.                                           |
 | [`Surface`](#LinearizedStressResult.Surface)                                                     | Surface property.                                                      |
-| [`SurfaceCoating`](#LinearizedStressResult.SurfaceCoating)                                                                                                                                                          | SurfaceCoating property.                                               |
+| [`SurfaceCoating`](#LinearizedStressResult.SurfaceCoating)                                       | SurfaceCoating property.                                               |
 | [`SweepingPhase`](#LinearizedStressResult.SweepingPhase)                                         | Gets or sets the SweepingPhase.                                        |
 | [`ThroughThicknessBendingStress`](#LinearizedStressResult.ThroughThicknessBendingStress)         | Gets or sets the ThroughThicknessBendingStress.                        |
 | [`Time`](#LinearizedStressResult.Time)                                                           | Gets the Time.                                                         |
@@ -126,7 +126,7 @@ Defines a LinearizedStressResult.
 | [`TotalInside`](#LinearizedStressResult.TotalInside)                                             | Gets the TotalInside.                                                  |
 | [`TotalOutside`](#LinearizedStressResult.TotalOutside)                                           | Gets the TotalOutside.                                                 |
 | [`VisibleProperties`](#LinearizedStressResult.VisibleProperties)                                 | Gets the list of properties that are visible for this object.          |
-| [`WaterfallShowTextOnMosaic`](#LinearizedStressResult.WaterfallShowTextOnMosaic)                                                                                                                                    | Gets or sets the Waterfall Mosaic Text Property.                       |
+| [`WaterfallShowTextOnMosaic`](#LinearizedStressResult.WaterfallShowTextOnMosaic)                 | Gets or sets the Waterfall Mosaic Text Property.                       |
 | [`ZeroThroughThicknessBendingStress`](#LinearizedStressResult.ZeroThroughThicknessBendingStress) | Gets or sets the ZeroThroughThicknessBendingStress.                    |
 
 <a id="property-detail"></a>
@@ -135,7 +135,7 @@ Defines a LinearizedStressResult.
 
 <a id="LinearizedStressResult.Amplitude"></a>
 
-### *property* LinearizedStressResult.Amplitude *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* LinearizedStressResult.Amplitude *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Amplitude.
 
@@ -183,7 +183,7 @@ Gets or sets the By.
 
 <a id="LinearizedStressResult.CalculateTimeHistory"></a>
 
-### *property* LinearizedStressResult.CalculateTimeHistory *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* LinearizedStressResult.CalculateTimeHistory *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the CalculateTimeHistory.
 
@@ -191,7 +191,7 @@ Gets or sets the CalculateTimeHistory.
 
 <a id="LinearizedStressResult.Children"></a>
 
-### *property* LinearizedStressResult.Children *: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* LinearizedStressResult.Children *: List[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of children.
 
@@ -199,7 +199,7 @@ Gets the list of children.
 
 <a id="LinearizedStressResult.CombinationNumber"></a>
 
-### *property* LinearizedStressResult.CombinationNumber *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* LinearizedStressResult.CombinationNumber *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Combination Number for a Solution Combination result.
 
@@ -207,7 +207,7 @@ Gets or sets the Combination Number for a Solution Combination result.
 
 <a id="LinearizedStressResult.Comments"></a>
 
-### *property* LinearizedStressResult.Comments *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Comment](../../../../../../../v241/Ansys/ACT/Automation/Mechanical/Comment.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* LinearizedStressResult.Comments *: Iterable[[Ansys.ACT.Automation.Mechanical.Comment](../../Comment.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated comments.
 
@@ -215,7 +215,7 @@ Gets the list of associated comments.
 
 <a id="LinearizedStressResult.CoordinateSystem"></a>
 
-### *property* LinearizedStressResult.CoordinateSystem *: [Ansys.ACT.Automation.Mechanical.CoordinateSystem](../../../../../../../v241/Ansys/ACT/Automation/Mechanical/CoordinateSystem.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.CoordinateSystem) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* LinearizedStressResult.CoordinateSystem *: [Ansys.ACT.Automation.Mechanical.CoordinateSystem](../../CoordinateSystem.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.CoordinateSystem) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Coordinate System.
 Accepts/Returns None for Solution Coordinate System in the general case (if applicable).
@@ -225,7 +225,7 @@ Accepts/Returns None for Fiber Coordinate System for a result that is sub scoped
 
 <a id="LinearizedStressResult.CrackFrontNumber"></a>
 
-### *property* LinearizedStressResult.CrackFrontNumber *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* LinearizedStressResult.CrackFrontNumber *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the CrackFrontNumber.
 
@@ -265,7 +265,7 @@ Gets or sets the DpfEvaluation.
 
 <a id="LinearizedStressResult.Figures"></a>
 
-### *property* LinearizedStressResult.Figures *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Figure](../../../../../../../v241/Ansys/ACT/Automation/Mechanical/Figure.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* LinearizedStressResult.Figures *: Iterable[[Ansys.ACT.Automation.Mechanical.Figure](../../Figure.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated figures.
 
@@ -281,7 +281,7 @@ Gets or sets the Frequency.
 
 <a id="LinearizedStressResult.GlobalIDs"></a>
 
-### *property* LinearizedStressResult.GlobalIDs *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* LinearizedStressResult.GlobalIDs *: [str](https://docs.python.org/3/library/stdtypes.html#str) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the GlobalIDs.
 
@@ -297,7 +297,7 @@ Gets or sets the GraphControlsXAxis.
 
 <a id="LinearizedStressResult.Identifier"></a>
 
-### *property* LinearizedStressResult.Identifier *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* LinearizedStressResult.Identifier *: [str](https://docs.python.org/3/library/stdtypes.html#str) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Identifier.
 
@@ -305,7 +305,7 @@ Gets or sets the Identifier.
 
 <a id="LinearizedStressResult.Images"></a>
 
-### *property* LinearizedStressResult.Images *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Image](../../../../../../../v241/Ansys/ACT/Automation/Mechanical/Image.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* LinearizedStressResult.Images *: Iterable[[Ansys.ACT.Automation.Mechanical.Image](../../Image.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated images.
 
@@ -321,7 +321,7 @@ Gets the internal object. For advanced usage only.
 
 <a id="LinearizedStressResult.IsSolved"></a>
 
-### *property* LinearizedStressResult.IsSolved *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* LinearizedStressResult.IsSolved *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the IsSolved.
 
@@ -337,7 +337,7 @@ Gets or sets the ItemType.
 
 <a id="LinearizedStressResult.IterationNumber"></a>
 
-### *property* LinearizedStressResult.IterationNumber *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* LinearizedStressResult.IterationNumber *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the IterationNumber.
 
@@ -353,7 +353,7 @@ Gets or sets the Linearized2DBehavior.
 
 <a id="LinearizedStressResult.LoadMultiplier"></a>
 
-### *property* LinearizedStressResult.LoadMultiplier *: System.Double | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* LinearizedStressResult.LoadMultiplier *: [float](https://docs.python.org/3/library/functions.html#float) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the LoadMultiplier.
 
@@ -361,7 +361,7 @@ Gets the LoadMultiplier.
 
 <a id="LinearizedStressResult.LoadStep"></a>
 
-### *property* LinearizedStressResult.LoadStep *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* LinearizedStressResult.LoadStep *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the LoadStep.
 
@@ -369,7 +369,7 @@ Gets the LoadStep.
 
 <a id="LinearizedStressResult.LoadStepForMaximumOfMaximumValues"></a>
 
-### *property* LinearizedStressResult.LoadStepForMaximumOfMaximumValues *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* LinearizedStressResult.LoadStepForMaximumOfMaximumValues *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Get the Load Step for the maximum of maximum values.
 
@@ -377,7 +377,7 @@ Get the Load Step for the maximum of maximum values.
 
 <a id="LinearizedStressResult.LoadStepForMaximumOfMinimumValues"></a>
 
-### *property* LinearizedStressResult.LoadStepForMaximumOfMinimumValues *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* LinearizedStressResult.LoadStepForMaximumOfMinimumValues *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Get the Load Step for the maximum of minimum values.
 
@@ -385,7 +385,7 @@ Get the Load Step for the maximum of minimum values.
 
 <a id="LinearizedStressResult.LoadStepForMinimumOfMaximumValues"></a>
 
-### *property* LinearizedStressResult.LoadStepForMinimumOfMaximumValues *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* LinearizedStressResult.LoadStepForMinimumOfMaximumValues *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Get the Load Step for the minimum of maximum values.
 
@@ -393,7 +393,7 @@ Get the Load Step for the minimum of maximum values.
 
 <a id="LinearizedStressResult.LoadStepForMinimumOfMinimumValues"></a>
 
-### *property* LinearizedStressResult.LoadStepForMinimumOfMinimumValues *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* LinearizedStressResult.LoadStepForMinimumOfMinimumValues *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Get the Load Step for the minimum of minimum values.
 
@@ -401,7 +401,7 @@ Get the Load Step for the minimum of minimum values.
 
 <a id="LinearizedStressResult.LoadStepNumber"></a>
 
-### *property* LinearizedStressResult.LoadStepNumber *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* LinearizedStressResult.LoadStepNumber *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the LoadStepNumber.
 
@@ -425,7 +425,7 @@ Gets the Maximum.
 
 <a id="LinearizedStressResult.MaximumOccursOn"></a>
 
-### *property* LinearizedStressResult.MaximumOccursOn *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* LinearizedStressResult.MaximumOccursOn *: [str](https://docs.python.org/3/library/stdtypes.html#str) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the MaximumOccursOn.
 
@@ -489,7 +489,7 @@ Gets the Minimum.
 
 <a id="LinearizedStressResult.MinimumOccursOn"></a>
 
-### *property* LinearizedStressResult.MinimumOccursOn *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* LinearizedStressResult.MinimumOccursOn *: [str](https://docs.python.org/3/library/stdtypes.html#str) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the MinimumOccursOn.
 
@@ -513,7 +513,7 @@ Gets the MinimumOfMinimumOverTime.
 
 <a id="LinearizedStressResult.NamedSelections"></a>
 
-### *property* LinearizedStressResult.NamedSelections *: System.Collections.Generic.IEnumerable[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* LinearizedStressResult.NamedSelections *: Iterable[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the NamedSelections.
 
@@ -577,7 +577,7 @@ Gets or sets the Position.
 
 <a id="LinearizedStressResult.Properties"></a>
 
-### *property* LinearizedStressResult.Properties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* LinearizedStressResult.Properties *: [tuple](https://docs.python.org/3/library/stdtypes.html#tuple)[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of properties for this object.
 
@@ -593,7 +593,7 @@ Gets or sets the ScopingMethod.
 
 <a id="LinearizedStressResult.SetNumber"></a>
 
-### *property* LinearizedStressResult.SetNumber *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* LinearizedStressResult.SetNumber *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Set Number.
 
@@ -609,7 +609,7 @@ Gets or sets the SolutionCombinationDriver.
 
 <a id="LinearizedStressResult.SolverComponentIDs"></a>
 
-### *property* LinearizedStressResult.SolverComponentIDs *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* LinearizedStressResult.SolverComponentIDs *: [str](https://docs.python.org/3/library/stdtypes.html#str) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the SolverComponentIDs.
 
@@ -625,7 +625,7 @@ Gets or sets the StressStrainType.
 
 <a id="LinearizedStressResult.Substep"></a>
 
-### *property* LinearizedStressResult.Substep *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* LinearizedStressResult.Substep *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the Substep.
 
@@ -641,7 +641,7 @@ Gets or sets the Subtype.
 
 <a id="LinearizedStressResult.Suppressed"></a>
 
-### *property* LinearizedStressResult.Suppressed *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* LinearizedStressResult.Suppressed *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Suppressed.
 
@@ -745,7 +745,7 @@ Gets the TotalOutside.
 
 <a id="LinearizedStressResult.VisibleProperties"></a>
 
-### *property* LinearizedStressResult.VisibleProperties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* LinearizedStressResult.VisibleProperties *: [tuple](https://docs.python.org/3/library/stdtypes.html#tuple)[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of properties that are visible for this object.
 
@@ -753,7 +753,7 @@ Gets the list of properties that are visible for this object.
 
 <a id="LinearizedStressResult.WaterfallShowTextOnMosaic"></a>
 
-### *property* LinearizedStressResult.WaterfallShowTextOnMosaic *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* LinearizedStressResult.WaterfallShowTextOnMosaic *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Waterfall Mosaic Text Property.
 
@@ -761,7 +761,7 @@ Gets or sets the Waterfall Mosaic Text Property.
 
 <a id="LinearizedStressResult.ZeroThroughThicknessBendingStress"></a>
 
-### *property* LinearizedStressResult.ZeroThroughThicknessBendingStress *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* LinearizedStressResult.ZeroThroughThicknessBendingStress *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the ZeroThroughThicknessBendingStress.
 
@@ -813,7 +813,7 @@ Creates a new child Figure.
 
 <a id="LinearizedStressResult.AddImage"></a>
 
-### LinearizedStressResult.AddImage(filePath: System.String)
+### LinearizedStressResult.AddImage(filePath: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 ```text
 Creates a new child Image.
@@ -841,7 +841,7 @@ Copies all visible properties from this object to another.
 
 <a id="LinearizedStressResult.CreateParameter"></a>
 
-### LinearizedStressResult.CreateParameter(propName: System.String)
+### LinearizedStressResult.CreateParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 CreateParameter method.
 
@@ -889,7 +889,7 @@ Run the EvaluateAllResults action.
 
 <a id="LinearizedStressResult.ExportAnimation"></a>
 
-### LinearizedStressResult.ExportAnimation(filePath: System.String, format: [Ansys.Mechanical.DataModel.Enums.GraphicsAnimationExportFormat](../../../../../Mechanical/DataModel/Enums/GraphicsAnimationExportFormat.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.GraphicsAnimationExportFormat), settings: [Ansys.Mechanical.Graphics.AnimationExportSettings](../../../../../Mechanical/Graphics/AnimationExportSettings.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.Graphics.AnimationExportSettings))
+### LinearizedStressResult.ExportAnimation(filePath: [str](https://docs.python.org/3/library/stdtypes.html#str), format: [Ansys.Mechanical.DataModel.Enums.GraphicsAnimationExportFormat](../../../../../Mechanical/DataModel/Enums/GraphicsAnimationExportFormat.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.GraphicsAnimationExportFormat), settings: [Ansys.Mechanical.Graphics.AnimationExportSettings](../../../../../Mechanical/Graphics/AnimationExportSettings.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.Graphics.AnimationExportSettings))
 
 Run the ExportAnimation action.
 
@@ -897,7 +897,7 @@ Run the ExportAnimation action.
 
 <a id="LinearizedStressResult.ExportToTextFile"></a>
 
-### LinearizedStressResult.ExportToTextFile(filePath: System.String)
+### LinearizedStressResult.ExportToTextFile(filePath: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Run the ExportToTextFile action.
 
@@ -913,7 +913,7 @@ Run the FetchRemoteResult action.
 
 <a id="LinearizedStressResult.GetChildren"></a>
 
-### LinearizedStressResult.GetChildren(recurses: System.Boolean, children: System.Collections.Generic.IList[ChildrenType])
+### LinearizedStressResult.GetChildren(recurses: [bool](https://docs.python.org/3/library/functions.html#bool), children: List[ChildrenType])
 
 Gets the list of children, filtered by type.
 
@@ -921,7 +921,7 @@ Gets the list of children, filtered by type.
 
 <a id="LinearizedStressResult.GetParameter"></a>
 
-### LinearizedStressResult.GetParameter(propName: System.String)
+### LinearizedStressResult.GetParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Gets the parameter corresponding to the given property.
 
@@ -953,7 +953,7 @@ Run the PromoteToNamedSelection action.
 
 <a id="LinearizedStressResult.PropertyByAPIName"></a>
 
-### LinearizedStressResult.PropertyByAPIName(name: System.String)
+### LinearizedStressResult.PropertyByAPIName(name: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 ```text
 Get a property by its API name.
@@ -964,7 +964,7 @@ If multiple properties have the same API Name, only the first property with that
 
 <a id="LinearizedStressResult.PropertyByName"></a>
 
-### LinearizedStressResult.PropertyByName(name: System.String)
+### LinearizedStressResult.PropertyByName(name: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Get a property by its unique name.
 
@@ -972,7 +972,7 @@ Get a property by its unique name.
 
 <a id="LinearizedStressResult.RemoveParameter"></a>
 
-### LinearizedStressResult.RemoveParameter(propName: System.String)
+### LinearizedStressResult.RemoveParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Removes the parameter from the parameter set corresponding to the given property.
 

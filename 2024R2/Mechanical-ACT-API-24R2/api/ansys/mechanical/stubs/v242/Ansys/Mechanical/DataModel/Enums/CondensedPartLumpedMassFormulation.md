@@ -17,7 +17,7 @@ Specifies the CondensedPartLumpedMassFormulation.
 ### Attributes
 
 | Name |
-| ------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| ------------------------------------------------------------------------------ |
 | [`Off`](#CondensedPartLumpedMassFormulation.Off) |
 | [`On`](#CondensedPartLumpedMassFormulation.On) |
 | [`ProgramControlled`](#CondensedPartLumpedMassFormulation.ProgramControlled) |

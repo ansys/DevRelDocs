@@ -17,7 +17,7 @@ Specifies the TransientApplicationType.
 ### Attributes
 
 | Name |
-| ------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| ---------------------------------------------------------------------------- |
 | [`HighSpeedDynamics`](#TransientApplicationType.HighSpeedDynamics) |
 | [`Impact`](#TransientApplicationType.Impact) |
 | [`LowSpeedDynamics`](#TransientApplicationType.LowSpeedDynamics) |

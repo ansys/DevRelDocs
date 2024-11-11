@@ -17,7 +17,7 @@ Specifies the ContactConstraintType.
 ### Attributes
 
 | Name |
-| ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| ----------------------------------------------------------------------------------------------- |
 | [`DistributedAllDirections`](#ContactConstraintType.DistributedAllDirections) |
 | [`DistributedAnywhereInsidePinball`](#ContactConstraintType.DistributedAnywhereInsidePinball) |
 | [`DistributedNormalOnly`](#ContactConstraintType.DistributedNormalOnly) |

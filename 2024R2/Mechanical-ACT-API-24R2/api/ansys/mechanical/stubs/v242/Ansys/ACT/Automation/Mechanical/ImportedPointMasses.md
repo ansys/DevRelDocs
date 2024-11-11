@@ -56,7 +56,7 @@ Defines a ImportedPointMasses.
 
 <a id="ImportedPointMasses.Children"></a>
 
-### *property* ImportedPointMasses.Children *: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ImportedPointMasses.Children *: List[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of children.
 
@@ -64,7 +64,7 @@ Gets the list of children.
 
 <a id="ImportedPointMasses.Comments"></a>
 
-### *property* ImportedPointMasses.Comments *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Comment](../../../../../v241/Ansys/ACT/Automation/Mechanical/Comment.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ImportedPointMasses.Comments *: Iterable[[Ansys.ACT.Automation.Mechanical.Comment](Comment.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated comments.
 
@@ -72,7 +72,7 @@ Gets the list of associated comments.
 
 <a id="ImportedPointMasses.Count"></a>
 
-### *property* ImportedPointMasses.Count *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ImportedPointMasses.Count *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the NumberOfRows.
 
@@ -88,7 +88,7 @@ Gets the current DataModelObject’s category.
 
 <a id="ImportedPointMasses.Figures"></a>
 
-### *property* ImportedPointMasses.Figures *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Figure](../../../../../v241/Ansys/ACT/Automation/Mechanical/Figure.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ImportedPointMasses.Figures *: Iterable[[Ansys.ACT.Automation.Mechanical.Figure](Figure.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated figures.
 
@@ -96,7 +96,7 @@ Gets the list of associated figures.
 
 <a id="ImportedPointMasses.Images"></a>
 
-### *property* ImportedPointMasses.Images *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Image](../../../../../v241/Ansys/ACT/Automation/Mechanical/Image.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ImportedPointMasses.Images *: Iterable[[Ansys.ACT.Automation.Mechanical.Image](Image.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated images.
 
@@ -112,7 +112,7 @@ Gets the internal object. For advanced usage only.
 
 <a id="ImportedPointMasses.Properties"></a>
 
-### *property* ImportedPointMasses.Properties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ImportedPointMasses.Properties *: [tuple](https://docs.python.org/3/library/stdtypes.html#tuple)[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of properties for this object.
 
@@ -120,7 +120,7 @@ Gets the list of properties for this object.
 
 <a id="ImportedPointMasses.ReadOnly"></a>
 
-### *property* ImportedPointMasses.ReadOnly *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ImportedPointMasses.ReadOnly *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the ReadOnly.
 
@@ -128,7 +128,7 @@ Gets or sets the ReadOnly.
 
 <a id="ImportedPointMasses.Suppressed"></a>
 
-### *property* ImportedPointMasses.Suppressed *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ImportedPointMasses.Suppressed *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Suppressed.
 
@@ -136,7 +136,7 @@ Gets or sets the Suppressed.
 
 <a id="ImportedPointMasses.VisibleProperties"></a>
 
-### *property* ImportedPointMasses.VisibleProperties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ImportedPointMasses.VisibleProperties *: [tuple](https://docs.python.org/3/library/stdtypes.html#tuple)[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of properties that are visible for this object.
 
@@ -172,7 +172,7 @@ Creates a new child Figure.
 
 <a id="ImportedPointMasses.AddImage"></a>
 
-### ImportedPointMasses.AddImage(filePath: System.String)
+### ImportedPointMasses.AddImage(filePath: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 ```text
 Creates a new child Image.
@@ -192,7 +192,7 @@ Copies all visible properties from this object to another.
 
 <a id="ImportedPointMasses.CreateParameter"></a>
 
-### ImportedPointMasses.CreateParameter(propName: System.String)
+### ImportedPointMasses.CreateParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Creates a new parameter for a Property.
 
@@ -216,7 +216,7 @@ Creates a copy of the current DataModelObject.
 
 <a id="ImportedPointMasses.GetChildren"></a>
 
-### ImportedPointMasses.GetChildren(recurses: System.Boolean, children: System.Collections.Generic.IList[ChildrenType])
+### ImportedPointMasses.GetChildren(recurses: [bool](https://docs.python.org/3/library/functions.html#bool), children: List[ChildrenType])
 
 Gets the list of children, filtered by type.
 
@@ -224,7 +224,7 @@ Gets the list of children, filtered by type.
 
 <a id="ImportedPointMasses.GetParameter"></a>
 
-### ImportedPointMasses.GetParameter(propName: System.String)
+### ImportedPointMasses.GetParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Gets the parameter corresponding to the given property.
 
@@ -248,7 +248,7 @@ Run the GroupSimilarObjects action.
 
 <a id="ImportedPointMasses.PropertyByAPIName"></a>
 
-### ImportedPointMasses.PropertyByAPIName(name: System.String)
+### ImportedPointMasses.PropertyByAPIName(name: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 ```text
 Get a property by its API name.
@@ -259,7 +259,7 @@ If multiple properties have the same API Name, only the first property with that
 
 <a id="ImportedPointMasses.PropertyByName"></a>
 
-### ImportedPointMasses.PropertyByName(name: System.String)
+### ImportedPointMasses.PropertyByName(name: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Get a property by its unique name.
 
@@ -267,7 +267,7 @@ Get a property by its unique name.
 
 <a id="ImportedPointMasses.RemoveParameter"></a>
 
-### ImportedPointMasses.RemoveParameter(propName: System.String)
+### ImportedPointMasses.RemoveParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Removes the parameter from the parameter set corresponding to the given property.
 

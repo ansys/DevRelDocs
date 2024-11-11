@@ -73,7 +73,7 @@ ThermalCondition class.
 
 <a id="ThermalCondition.Children"></a>
 
-### *property* ThermalCondition.Children *: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ThermalCondition.Children *: List[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of children.
 
@@ -81,7 +81,7 @@ Gets the list of children.
 
 <a id="ThermalCondition.Comments"></a>
 
-### *property* ThermalCondition.Comments *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Comment](../../../../../../v241/Ansys/ACT/Automation/Mechanical/Comment.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ThermalCondition.Comments *: Iterable[[Ansys.ACT.Automation.Mechanical.Comment](../Comment.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated comments.
 
@@ -105,7 +105,7 @@ Gets the DefineBy.
 
 <a id="ThermalCondition.Figures"></a>
 
-### *property* ThermalCondition.Figures *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Figure](../../../../../../v241/Ansys/ACT/Automation/Mechanical/Figure.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ThermalCondition.Figures *: Iterable[[Ansys.ACT.Automation.Mechanical.Figure](../Figure.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated figures.
 
@@ -121,7 +121,7 @@ Gets or sets the GraphControlsXAxis.
 
 <a id="ThermalCondition.Images"></a>
 
-### *property* ThermalCondition.Images *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Image](../../../../../../v241/Ansys/ACT/Automation/Mechanical/Image.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ThermalCondition.Images *: Iterable[[Ansys.ACT.Automation.Mechanical.Image](../Image.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated images.
 
@@ -153,7 +153,7 @@ Gets or sets the LoadVectorAssignment.
 
 <a id="ThermalCondition.LoadVectorNumber"></a>
 
-### *property* ThermalCondition.LoadVectorNumber *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ThermalCondition.LoadVectorNumber *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the LoadVectorNumber.
 
@@ -169,7 +169,7 @@ Gets or sets the Location.
 
 <a id="ThermalCondition.Magnitude"></a>
 
-### *property* ThermalCondition.Magnitude *: System.Object | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ThermalCondition.Magnitude *: Any | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Magnitude.
 
@@ -177,7 +177,7 @@ Gets or sets the Magnitude.
 
 <a id="ThermalCondition.NumberOfSegments"></a>
 
-### *property* ThermalCondition.NumberOfSegments *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ThermalCondition.NumberOfSegments *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the NumberOfSegments.
 
@@ -185,7 +185,7 @@ Gets or sets the NumberOfSegments.
 
 <a id="ThermalCondition.Properties"></a>
 
-### *property* ThermalCondition.Properties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ThermalCondition.Properties *: [tuple](https://docs.python.org/3/library/stdtypes.html#tuple)[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of properties for this object.
 
@@ -209,7 +209,7 @@ Gets or sets the RangeMinimum.
 
 <a id="ThermalCondition.ReadOnly"></a>
 
-### *property* ThermalCondition.ReadOnly *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ThermalCondition.ReadOnly *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the ReadOnly.
 
@@ -217,7 +217,7 @@ Gets or sets the ReadOnly.
 
 <a id="ThermalCondition.SharedRefBody"></a>
 
-### *property* ThermalCondition.SharedRefBody *: [Ansys.ACT.Automation.Mechanical.Body](../../../../../../v241/Ansys/ACT/Automation/Mechanical/Body.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Body) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ThermalCondition.SharedRefBody *: [Ansys.ACT.Automation.Mechanical.Body](../Body.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Body) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the SharedRefBody.
 
@@ -233,7 +233,7 @@ Gets or sets the ShellFace.
 
 <a id="ThermalCondition.Suppressed"></a>
 
-### *property* ThermalCondition.Suppressed *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ThermalCondition.Suppressed *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Suppressed.
 
@@ -241,7 +241,7 @@ Gets or sets the Suppressed.
 
 <a id="ThermalCondition.VisibleProperties"></a>
 
-### *property* ThermalCondition.VisibleProperties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ThermalCondition.VisibleProperties *: [tuple](https://docs.python.org/3/library/stdtypes.html#tuple)[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of properties that are visible for this object.
 
@@ -249,7 +249,7 @@ Gets the list of properties that are visible for this object.
 
 <a id="ThermalCondition.XYZFunctionCoordinateSystem"></a>
 
-### *property* ThermalCondition.XYZFunctionCoordinateSystem *: [Ansys.ACT.Automation.Mechanical.CoordinateSystem](../../../../../../v241/Ansys/ACT/Automation/Mechanical/CoordinateSystem.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.CoordinateSystem) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ThermalCondition.XYZFunctionCoordinateSystem *: [Ansys.ACT.Automation.Mechanical.CoordinateSystem](../CoordinateSystem.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.CoordinateSystem) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the XYZFunctionCoordinateSystem.
 
@@ -285,7 +285,7 @@ Creates a new child Figure.
 
 <a id="ThermalCondition.AddImage"></a>
 
-### ThermalCondition.AddImage(filePath: System.String)
+### ThermalCondition.AddImage(filePath: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 ```text
 Creates a new child Image.
@@ -305,7 +305,7 @@ Copies all visible properties from this object to another.
 
 <a id="ThermalCondition.CreateParameter"></a>
 
-### ThermalCondition.CreateParameter(propName: System.String)
+### ThermalCondition.CreateParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Creates a new parameter for a Property.
 
@@ -329,7 +329,7 @@ Creates a copy of the current DataModelObject.
 
 <a id="ThermalCondition.GetActivateAtLoadStep"></a>
 
-### ThermalCondition.GetActivateAtLoadStep(stepNumber: System.UInt32)
+### ThermalCondition.GetActivateAtLoadStep(stepNumber: [int](https://docs.python.org/3/library/functions.html#int))
 
 GetActivateAtLoadStep method.
 
@@ -337,7 +337,7 @@ GetActivateAtLoadStep method.
 
 <a id="ThermalCondition.GetChildren"></a>
 
-### ThermalCondition.GetChildren(recurses: System.Boolean, children: System.Collections.Generic.IList[ChildrenType])
+### ThermalCondition.GetChildren(recurses: [bool](https://docs.python.org/3/library/functions.html#bool), children: List[ChildrenType])
 
 Gets the list of children, filtered by type.
 
@@ -345,7 +345,7 @@ Gets the list of children, filtered by type.
 
 <a id="ThermalCondition.GetComponentActivateAtLoadStep"></a>
 
-### ThermalCondition.GetComponentActivateAtLoadStep(component: System.String, stepNumber: System.UInt32)
+### ThermalCondition.GetComponentActivateAtLoadStep(component: [str](https://docs.python.org/3/library/stdtypes.html#str), stepNumber: [int](https://docs.python.org/3/library/functions.html#int))
 
 GetComponentActivateAtLoadStep method.
 
@@ -353,7 +353,7 @@ GetComponentActivateAtLoadStep method.
 
 <a id="ThermalCondition.GetParameter"></a>
 
-### ThermalCondition.GetParameter(propName: System.String)
+### ThermalCondition.GetParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Gets the parameter corresponding to the given property.
 
@@ -385,7 +385,7 @@ Run the PromoteToNamedSelection action.
 
 <a id="ThermalCondition.PropertyByAPIName"></a>
 
-### ThermalCondition.PropertyByAPIName(name: System.String)
+### ThermalCondition.PropertyByAPIName(name: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 ```text
 Get a property by its API name.
@@ -396,7 +396,7 @@ If multiple properties have the same API Name, only the first property with that
 
 <a id="ThermalCondition.PropertyByName"></a>
 
-### ThermalCondition.PropertyByName(name: System.String)
+### ThermalCondition.PropertyByName(name: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Get a property by its unique name.
 
@@ -404,7 +404,7 @@ Get a property by its unique name.
 
 <a id="ThermalCondition.RemoveParameter"></a>
 
-### ThermalCondition.RemoveParameter(propName: System.String)
+### ThermalCondition.RemoveParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Removes the parameter from the parameter set corresponding to the given property.
 
@@ -412,7 +412,7 @@ Removes the parameter from the parameter set corresponding to the given property
 
 <a id="ThermalCondition.SetActivateAtLoadStep"></a>
 
-### ThermalCondition.SetActivateAtLoadStep(stepNumber: System.UInt32, bActive: System.Boolean)
+### ThermalCondition.SetActivateAtLoadStep(stepNumber: [int](https://docs.python.org/3/library/functions.html#int), bActive: [bool](https://docs.python.org/3/library/functions.html#bool))
 
 SetActivateAtLoadStep method.
 
@@ -420,7 +420,7 @@ SetActivateAtLoadStep method.
 
 <a id="ThermalCondition.SetComponentActivateAtLoadStep"></a>
 
-### ThermalCondition.SetComponentActivateAtLoadStep(component: System.String, stepNumber: System.UInt32, bActive: System.Boolean)
+### ThermalCondition.SetComponentActivateAtLoadStep(component: [str](https://docs.python.org/3/library/stdtypes.html#str), stepNumber: [int](https://docs.python.org/3/library/functions.html#int), bActive: [bool](https://docs.python.org/3/library/functions.html#bool))
 
 SetComponentActivateAtLoadStep method.
 

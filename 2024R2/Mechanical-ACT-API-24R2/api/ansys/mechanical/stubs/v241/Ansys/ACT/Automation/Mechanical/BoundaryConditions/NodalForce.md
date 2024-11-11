@@ -17,7 +17,7 @@ Defines a NodalDisplacement.
 ### Methods
 
 | Name | Description |
-|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------|
+|--------------------------------------------------------------------------------|-----------------------------------------------------------------------------------|
 | [`Activate`](#NodalForce.Activate)                                             | Activate the current object.                                                      |
 | [`AddComment`](#NodalForce.AddComment)                                         | Creates a new child Comment.                                                      |
 | [`AddFigure`](#NodalForce.AddFigure)                                           | Creates a new child Figure.                                                       |
@@ -42,7 +42,7 @@ Defines a NodalDisplacement.
 ### Properties
 
 | Name | Description |
-|-----------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------|
+|--------------------------------------------------------------------------|---------------------------------------------------------------|
 | [`Children`](#NodalForce.Children)                                       | Gets the list of children.                                    |
 | [`Comments`](#NodalForce.Comments)                                       | Gets the list of associated comments.                         |
 | [`CoordinateSystem`](#NodalForce.CoordinateSystem)                       | Gets the CoordinateSystem.                                    |
@@ -80,7 +80,7 @@ Defines a NodalDisplacement.
 
 <a id="NodalForce.Children"></a>
 
-### *property* NodalForce.Children *: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* NodalForce.Children *: List[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of children.
 
@@ -88,7 +88,7 @@ Gets the list of children.
 
 <a id="NodalForce.Comments"></a>
 
-### *property* NodalForce.Comments *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Comment](../Comment.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* NodalForce.Comments *: Iterable[[Ansys.ACT.Automation.Mechanical.Comment](../Comment.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated comments.
 
@@ -104,7 +104,7 @@ Gets the CoordinateSystem.
 
 <a id="NodalForce.DataModelObjectCategory"></a>
 
-### *property* NodalForce.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../../v242/Ansys/Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* NodalForce.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the current DataModelObject’s category.
 
@@ -112,7 +112,7 @@ Gets the current DataModelObject’s category.
 
 <a id="NodalForce.DivideLoadByNodes"></a>
 
-### *property* NodalForce.DivideLoadByNodes *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* NodalForce.DivideLoadByNodes *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the DivideLoadByNodes.
 
@@ -120,7 +120,7 @@ Gets or sets the DivideLoadByNodes.
 
 <a id="NodalForce.DynamicRelaxationBehavior"></a>
 
-### *property* NodalForce.DynamicRelaxationBehavior *: [Ansys.Mechanical.DataModel.Enums.DynamicRelaxationBehaviorType](../../../../../../v242/Ansys/Mechanical/DataModel/Enums/DynamicRelaxationBehaviorType.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.DynamicRelaxationBehaviorType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* NodalForce.DynamicRelaxationBehavior *: [Ansys.Mechanical.DataModel.Enums.DynamicRelaxationBehaviorType](../../../../Mechanical/DataModel/Enums/DynamicRelaxationBehaviorType.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DynamicRelaxationBehaviorType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the DynamicRelaxationBehavior.
 
@@ -128,7 +128,7 @@ Gets or sets the DynamicRelaxationBehavior.
 
 <a id="NodalForce.Figures"></a>
 
-### *property* NodalForce.Figures *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Figure](../Figure.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* NodalForce.Figures *: Iterable[[Ansys.ACT.Automation.Mechanical.Figure](../Figure.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated figures.
 
@@ -136,7 +136,7 @@ Gets the list of associated figures.
 
 <a id="NodalForce.GraphControlsXAxis"></a>
 
-### *property* NodalForce.GraphControlsXAxis *: [Ansys.Mechanical.DataModel.Enums.LoadVariableVariationType](../../../../../../v242/Ansys/Mechanical/DataModel/Enums/LoadVariableVariationType.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.LoadVariableVariationType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* NodalForce.GraphControlsXAxis *: [Ansys.Mechanical.DataModel.Enums.LoadVariableVariationType](../../../../Mechanical/DataModel/Enums/LoadVariableVariationType.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.LoadVariableVariationType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the GraphControlsXAxis.
 
@@ -144,7 +144,7 @@ Gets or sets the GraphControlsXAxis.
 
 <a id="NodalForce.HarmonicIndex"></a>
 
-### *property* NodalForce.HarmonicIndex *: [Ansys.ACT.Mechanical.Fields.Field](../../../../../../v242/Ansys/ACT/Mechanical/Fields/Field.md#ansys.mechanical.stubs.v242.Ansys.ACT.Mechanical.Fields.Field) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* NodalForce.HarmonicIndex *: [Ansys.ACT.Mechanical.Fields.Field](../../../Mechanical/Fields/Field.md#ansys.mechanical.stubs.v241.Ansys.ACT.Mechanical.Fields.Field) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the HarmonicIndex.
 
@@ -152,7 +152,7 @@ Gets or sets the HarmonicIndex.
 
 <a id="NodalForce.Images"></a>
 
-### *property* NodalForce.Images *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Image](../Image.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* NodalForce.Images *: Iterable[[Ansys.ACT.Automation.Mechanical.Image](../Image.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated images.
 
@@ -160,7 +160,7 @@ Gets the list of associated images.
 
 <a id="NodalForce.IndependentVariable"></a>
 
-### *property* NodalForce.IndependentVariable *: [Ansys.Mechanical.DataModel.Enums.LoadVariableVariationType](../../../../../../v242/Ansys/Mechanical/DataModel/Enums/LoadVariableVariationType.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.LoadVariableVariationType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* NodalForce.IndependentVariable *: [Ansys.Mechanical.DataModel.Enums.LoadVariableVariationType](../../../../Mechanical/DataModel/Enums/LoadVariableVariationType.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.LoadVariableVariationType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the IndependentVariable.
 
@@ -176,7 +176,7 @@ Gets the internal object. For advanced usage only.
 
 <a id="NodalForce.LoadVectorAssignment"></a>
 
-### *property* NodalForce.LoadVectorAssignment *: [Ansys.Mechanical.DataModel.Enums.LoadVectorAssignment](../../../../../../v242/Ansys/Mechanical/DataModel/Enums/LoadVectorAssignment.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.LoadVectorAssignment) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* NodalForce.LoadVectorAssignment *: [Ansys.Mechanical.DataModel.Enums.LoadVectorAssignment](../../../../Mechanical/DataModel/Enums/LoadVectorAssignment.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.LoadVectorAssignment) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the LoadVectorAssignment.
 
@@ -184,7 +184,7 @@ Gets or sets the LoadVectorAssignment.
 
 <a id="NodalForce.LoadVectorNumber"></a>
 
-### *property* NodalForce.LoadVectorNumber *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* NodalForce.LoadVectorNumber *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the LoadVectorNumber.
 
@@ -200,7 +200,7 @@ Gets or sets the Location.
 
 <a id="NodalForce.NonCyclicLoadingType"></a>
 
-### *property* NodalForce.NonCyclicLoadingType *: [Ansys.Mechanical.DataModel.Enums.NonCyclicLoadingType](../../../../../../v242/Ansys/Mechanical/DataModel/Enums/NonCyclicLoadingType.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.NonCyclicLoadingType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* NodalForce.NonCyclicLoadingType *: [Ansys.Mechanical.DataModel.Enums.NonCyclicLoadingType](../../../../Mechanical/DataModel/Enums/NonCyclicLoadingType.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.NonCyclicLoadingType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the NonCyclicLoadingType.
 
@@ -208,7 +208,7 @@ Gets or sets the NonCyclicLoadingType.
 
 <a id="NodalForce.NumberOfSegments"></a>
 
-### *property* NodalForce.NumberOfSegments *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* NodalForce.NumberOfSegments *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the NumberOfSegments.
 
@@ -224,7 +224,7 @@ Gets or sets the PhaseAngle.
 
 <a id="NodalForce.Properties"></a>
 
-### *property* NodalForce.Properties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* NodalForce.Properties *: [tuple](https://docs.python.org/3/library/stdtypes.html#tuple)[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of properties for this object.
 
@@ -248,7 +248,7 @@ Gets or sets the RangeMinimum.
 
 <a id="NodalForce.ReadOnly"></a>
 
-### *property* NodalForce.ReadOnly *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* NodalForce.ReadOnly *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the ReadOnly.
 
@@ -256,7 +256,7 @@ Gets or sets the ReadOnly.
 
 <a id="NodalForce.SectorNumber"></a>
 
-### *property* NodalForce.SectorNumber *: [Ansys.ACT.Mechanical.Fields.Field](../../../../../../v242/Ansys/ACT/Mechanical/Fields/Field.md#ansys.mechanical.stubs.v242.Ansys.ACT.Mechanical.Fields.Field) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* NodalForce.SectorNumber *: [Ansys.ACT.Mechanical.Fields.Field](../../../Mechanical/Fields/Field.md#ansys.mechanical.stubs.v241.Ansys.ACT.Mechanical.Fields.Field) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the SectorNumber.
 
@@ -272,7 +272,7 @@ Gets or sets the SharedRefBody.
 
 <a id="NodalForce.Suppressed"></a>
 
-### *property* NodalForce.Suppressed *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* NodalForce.Suppressed *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Suppressed.
 
@@ -280,7 +280,7 @@ Gets or sets the Suppressed.
 
 <a id="NodalForce.VisibleProperties"></a>
 
-### *property* NodalForce.VisibleProperties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* NodalForce.VisibleProperties *: [tuple](https://docs.python.org/3/library/stdtypes.html#tuple)[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of properties that are visible for this object.
 
@@ -288,7 +288,7 @@ Gets the list of properties that are visible for this object.
 
 <a id="NodalForce.XComponent"></a>
 
-### *property* NodalForce.XComponent *: [Ansys.ACT.Mechanical.Fields.Field](../../../../../../v242/Ansys/ACT/Mechanical/Fields/Field.md#ansys.mechanical.stubs.v242.Ansys.ACT.Mechanical.Fields.Field) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* NodalForce.XComponent *: [Ansys.ACT.Mechanical.Fields.Field](../../../Mechanical/Fields/Field.md#ansys.mechanical.stubs.v241.Ansys.ACT.Mechanical.Fields.Field) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the XComponent.
 
@@ -304,7 +304,7 @@ Gets or sets the XYZFunctionCoordinateSystem.
 
 <a id="NodalForce.YComponent"></a>
 
-### *property* NodalForce.YComponent *: [Ansys.ACT.Mechanical.Fields.Field](../../../../../../v242/Ansys/ACT/Mechanical/Fields/Field.md#ansys.mechanical.stubs.v242.Ansys.ACT.Mechanical.Fields.Field) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* NodalForce.YComponent *: [Ansys.ACT.Mechanical.Fields.Field](../../../Mechanical/Fields/Field.md#ansys.mechanical.stubs.v241.Ansys.ACT.Mechanical.Fields.Field) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the YComponent.
 
@@ -312,7 +312,7 @@ Gets the YComponent.
 
 <a id="NodalForce.ZComponent"></a>
 
-### *property* NodalForce.ZComponent *: [Ansys.ACT.Mechanical.Fields.Field](../../../../../../v242/Ansys/ACT/Mechanical/Fields/Field.md#ansys.mechanical.stubs.v242.Ansys.ACT.Mechanical.Fields.Field) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* NodalForce.ZComponent *: [Ansys.ACT.Mechanical.Fields.Field](../../../Mechanical/Fields/Field.md#ansys.mechanical.stubs.v241.Ansys.ACT.Mechanical.Fields.Field) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the ZComponent.
 
@@ -348,7 +348,7 @@ Creates a new child Figure.
 
 <a id="NodalForce.AddImage"></a>
 
-### NodalForce.AddImage(filePath: System.String)
+### NodalForce.AddImage(filePath: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 ```text
 Creates a new child Image.
@@ -368,7 +368,7 @@ Copies all visible properties from this object to another.
 
 <a id="NodalForce.CreateParameter"></a>
 
-### NodalForce.CreateParameter(propName: System.String)
+### NodalForce.CreateParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Creates a new parameter for a Property.
 
@@ -392,7 +392,7 @@ Creates a copy of the current DataModelObject.
 
 <a id="NodalForce.GetActivateAtLoadStep"></a>
 
-### NodalForce.GetActivateAtLoadStep(stepNumber: System.UInt32)
+### NodalForce.GetActivateAtLoadStep(stepNumber: [int](https://docs.python.org/3/library/functions.html#int))
 
 GetActivateAtLoadStep method.
 
@@ -400,7 +400,7 @@ GetActivateAtLoadStep method.
 
 <a id="NodalForce.GetChildren"></a>
 
-### NodalForce.GetChildren(recurses: System.Boolean, children: System.Collections.Generic.IList[ChildrenType])
+### NodalForce.GetChildren(recurses: [bool](https://docs.python.org/3/library/functions.html#bool), children: List[ChildrenType])
 
 Gets the list of children, filtered by type.
 
@@ -408,7 +408,7 @@ Gets the list of children, filtered by type.
 
 <a id="NodalForce.GetComponentActivateAtLoadStep"></a>
 
-### NodalForce.GetComponentActivateAtLoadStep(component: System.String, stepNumber: System.UInt32)
+### NodalForce.GetComponentActivateAtLoadStep(component: [str](https://docs.python.org/3/library/stdtypes.html#str), stepNumber: [int](https://docs.python.org/3/library/functions.html#int))
 
 GetComponentActivateAtLoadStep method.
 
@@ -416,7 +416,7 @@ GetComponentActivateAtLoadStep method.
 
 <a id="NodalForce.GetParameter"></a>
 
-### NodalForce.GetParameter(propName: System.String)
+### NodalForce.GetParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Gets the parameter corresponding to the given property.
 
@@ -448,7 +448,7 @@ Run the PromoteToNamedSelection action.
 
 <a id="NodalForce.PropertyByAPIName"></a>
 
-### NodalForce.PropertyByAPIName(name: System.String)
+### NodalForce.PropertyByAPIName(name: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 ```text
 Get a property by its API name.
@@ -459,7 +459,7 @@ If multiple properties have the same API Name, only the first property with that
 
 <a id="NodalForce.PropertyByName"></a>
 
-### NodalForce.PropertyByName(name: System.String)
+### NodalForce.PropertyByName(name: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Get a property by its unique name.
 
@@ -467,7 +467,7 @@ Get a property by its unique name.
 
 <a id="NodalForce.RemoveParameter"></a>
 
-### NodalForce.RemoveParameter(propName: System.String)
+### NodalForce.RemoveParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Removes the parameter from the parameter set corresponding to the given property.
 
@@ -475,7 +475,7 @@ Removes the parameter from the parameter set corresponding to the given property
 
 <a id="NodalForce.SetActivateAtLoadStep"></a>
 
-### NodalForce.SetActivateAtLoadStep(stepNumber: System.UInt32, bActive: System.Boolean)
+### NodalForce.SetActivateAtLoadStep(stepNumber: [int](https://docs.python.org/3/library/functions.html#int), bActive: [bool](https://docs.python.org/3/library/functions.html#bool))
 
 SetActivateAtLoadStep method.
 
@@ -483,7 +483,7 @@ SetActivateAtLoadStep method.
 
 <a id="NodalForce.SetComponentActivateAtLoadStep"></a>
 
-### NodalForce.SetComponentActivateAtLoadStep(component: System.String, stepNumber: System.UInt32, bActive: System.Boolean)
+### NodalForce.SetComponentActivateAtLoadStep(component: [str](https://docs.python.org/3/library/stdtypes.html#str), stepNumber: [int](https://docs.python.org/3/library/functions.html#int), bActive: [bool](https://docs.python.org/3/library/functions.html#bool))
 
 SetComponentActivateAtLoadStep method.
 

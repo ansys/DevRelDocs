@@ -17,7 +17,7 @@ Specifies the ContactFaceEdgeOption.
 ### Attributes
 
 | Name |
-| ---------------------------------------------------------------------------------------------------------------------------------------------------- |
+| ----------------------------------------------------------------------- |
 | [`No`](#ContactFaceEdgeOption.No) |
 | [`OnlyBeamBodyEdges`](#ContactFaceEdgeOption.OnlyBeamBodyEdges) |
 | [`OnlySolidBodyEdges`](#ContactFaceEdgeOption.OnlySolidBodyEdges) |

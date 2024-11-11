@@ -97,7 +97,7 @@ Defines a ImportedLoadGroup.
 
 <a id="ImportedLoadGroup.Children"></a>
 
-### *property* ImportedLoadGroup.Children *: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ImportedLoadGroup.Children *: List[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of children.
 
@@ -105,7 +105,7 @@ Gets the list of children.
 
 <a id="ImportedLoadGroup.Comments"></a>
 
-### *property* ImportedLoadGroup.Comments *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Comment](../../../../../../v241/Ansys/ACT/Automation/Mechanical/Comment.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ImportedLoadGroup.Comments *: Iterable[[Ansys.ACT.Automation.Mechanical.Comment](../Comment.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated comments.
 
@@ -121,7 +121,7 @@ Gets the current DataModelObject’s category.
 
 <a id="ImportedLoadGroup.DeleteMappedDataFilesAfterImport"></a>
 
-### *property* ImportedLoadGroup.DeleteMappedDataFilesAfterImport *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ImportedLoadGroup.DeleteMappedDataFilesAfterImport *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the DeleteMappedDataFilesAfterImport.
 
@@ -129,7 +129,7 @@ Gets or sets the DeleteMappedDataFilesAfterImport.
 
 <a id="ImportedLoadGroup.Figures"></a>
 
-### *property* ImportedLoadGroup.Figures *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Figure](../../../../../../v241/Ansys/ACT/Automation/Mechanical/Figure.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ImportedLoadGroup.Figures *: Iterable[[Ansys.ACT.Automation.Mechanical.Figure](../Figure.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated figures.
 
@@ -137,7 +137,7 @@ Gets the list of associated figures.
 
 <a id="ImportedLoadGroup.FilesDirectory"></a>
 
-### *property* ImportedLoadGroup.FilesDirectory *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ImportedLoadGroup.FilesDirectory *: [str](https://docs.python.org/3/library/stdtypes.html#str) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the FilesDirectory.
 
@@ -145,7 +145,7 @@ Gets the FilesDirectory.
 
 <a id="ImportedLoadGroup.Images"></a>
 
-### *property* ImportedLoadGroup.Images *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Image](../../../../../../v241/Ansys/ACT/Automation/Mechanical/Image.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ImportedLoadGroup.Images *: Iterable[[Ansys.ACT.Automation.Mechanical.Image](../Image.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated images.
 
@@ -161,7 +161,7 @@ Gets the internal object. For advanced usage only.
 
 <a id="ImportedLoadGroup.Properties"></a>
 
-### *property* ImportedLoadGroup.Properties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ImportedLoadGroup.Properties *: [tuple](https://docs.python.org/3/library/stdtypes.html#tuple)[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of properties for this object.
 
@@ -169,7 +169,7 @@ Gets the list of properties for this object.
 
 <a id="ImportedLoadGroup.ResultFile"></a>
 
-### *property* ImportedLoadGroup.ResultFile *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ImportedLoadGroup.ResultFile *: [str](https://docs.python.org/3/library/stdtypes.html#str) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the ResultFile.
 
@@ -177,7 +177,7 @@ Gets or sets the ResultFile.
 
 <a id="ImportedLoadGroup.ResultFileTimestamp"></a>
 
-### *property* ImportedLoadGroup.ResultFileTimestamp *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ImportedLoadGroup.ResultFileTimestamp *: [str](https://docs.python.org/3/library/stdtypes.html#str) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the ResultFileTimestamp.
 
@@ -193,7 +193,7 @@ Gets or sets the ResultFileUnitSystem.
 
 <a id="ImportedLoadGroup.Source"></a>
 
-### *property* ImportedLoadGroup.Source *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ImportedLoadGroup.Source *: [str](https://docs.python.org/3/library/stdtypes.html#str) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the Source.
 
@@ -209,7 +209,7 @@ Gets or sets the SourceDimension.
 
 <a id="ImportedLoadGroup.Suppressed"></a>
 
-### *property* ImportedLoadGroup.Suppressed *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ImportedLoadGroup.Suppressed *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Suppressed.
 
@@ -217,7 +217,7 @@ Gets or sets the Suppressed.
 
 <a id="ImportedLoadGroup.TransferStep"></a>
 
-### *property* ImportedLoadGroup.TransferStep *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ImportedLoadGroup.TransferStep *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Controls which additive simulation step is used for the data transfer.
 
@@ -225,7 +225,7 @@ Controls which additive simulation step is used for the data transfer.
 
 <a id="ImportedLoadGroup.TransferTemperaturesDuringSolve"></a>
 
-### *property* ImportedLoadGroup.TransferTemperaturesDuringSolve *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ImportedLoadGroup.TransferTemperaturesDuringSolve *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the TransferTemperaturesDuringSolve.
 
@@ -233,7 +233,7 @@ Gets or sets the TransferTemperaturesDuringSolve.
 
 <a id="ImportedLoadGroup.VisibleProperties"></a>
 
-### *property* ImportedLoadGroup.VisibleProperties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ImportedLoadGroup.VisibleProperties *: [tuple](https://docs.python.org/3/library/stdtypes.html#tuple)[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of properties that are visible for this object.
 
@@ -269,7 +269,7 @@ Creates a new child Figure.
 
 <a id="ImportedLoadGroup.AddImage"></a>
 
-### ImportedLoadGroup.AddImage(filePath: System.String)
+### ImportedLoadGroup.AddImage(filePath: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 ```text
 Creates a new child Image.
@@ -497,7 +497,7 @@ Run the CreateExternalLoadVelocitiesAndSyncAnalysisSettings action.
 
 <a id="ImportedLoadGroup.CreateParameter"></a>
 
-### ImportedLoadGroup.CreateParameter(propName: System.String)
+### ImportedLoadGroup.CreateParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Creates a new parameter for a Property.
 
@@ -537,7 +537,7 @@ Creates a copy of the current DataModelObject.
 
 <a id="ImportedLoadGroup.GetChildren"></a>
 
-### ImportedLoadGroup.GetChildren(recurses: System.Boolean, children: System.Collections.Generic.IList[ChildrenType])
+### ImportedLoadGroup.GetChildren(recurses: [bool](https://docs.python.org/3/library/functions.html#bool), children: List[ChildrenType])
 
 Gets the list of children, filtered by type.
 
@@ -551,7 +551,7 @@ Gets the list of children, filtered by type.
 
 <a id="ImportedLoadGroup.GetParameter"></a>
 
-### ImportedLoadGroup.GetParameter(propName: System.String)
+### ImportedLoadGroup.GetParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Gets the parameter corresponding to the given property.
 
@@ -589,7 +589,7 @@ Run the ImportLoad action.
 
 <a id="ImportedLoadGroup.PropertyByAPIName"></a>
 
-### ImportedLoadGroup.PropertyByAPIName(name: System.String)
+### ImportedLoadGroup.PropertyByAPIName(name: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 ```text
 Get a property by its API name.
@@ -600,7 +600,7 @@ If multiple properties have the same API Name, only the first property with that
 
 <a id="ImportedLoadGroup.PropertyByName"></a>
 
-### ImportedLoadGroup.PropertyByName(name: System.String)
+### ImportedLoadGroup.PropertyByName(name: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Get a property by its unique name.
 
@@ -624,7 +624,7 @@ Reloads the external data files for current Imported Load Group.
 
 <a id="ImportedLoadGroup.RemoveParameter"></a>
 
-### ImportedLoadGroup.RemoveParameter(propName: System.String)
+### ImportedLoadGroup.RemoveParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Removes the parameter from the parameter set corresponding to the given property.
 
@@ -632,7 +632,7 @@ Removes the parameter from the parameter set corresponding to the given property
 
 <a id="ImportedLoadGroup.SetResultFile"></a>
 
-### ImportedLoadGroup.SetResultFile(resultFile: System.String, unitSystem: [Ansys.Mechanical.DataModel.Enums.WBUnitSystemType](../../../../Mechanical/DataModel/Enums/WBUnitSystemType.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.WBUnitSystemType))
+### ImportedLoadGroup.SetResultFile(resultFile: [str](https://docs.python.org/3/library/stdtypes.html#str), unitSystem: [Ansys.Mechanical.DataModel.Enums.WBUnitSystemType](../../../../Mechanical/DataModel/Enums/WBUnitSystemType.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.WBUnitSystemType))
 
 Sets the ResultFile with unitSystem supplied. For MAPDL Results File without a unit system.
 

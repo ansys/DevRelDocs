@@ -17,7 +17,7 @@ Defines a Geometry.
 ### Methods
 
 | Name | Description |
-|-------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------|
+|----------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------|
 | [`Activate`](#Geometry.Activate)                                                                   | Activate the current object.                                                      |
 | [`AddComment`](#Geometry.AddComment)                                                               | Creates a new child Comment.                                                      |
 | [`AddDistributedMass`](#Geometry.AddDistributedMass)                                               | Creates a new DistributedMass                                                     |
@@ -54,7 +54,7 @@ Defines a Geometry.
 ### Properties
 
 | Name | Description |
-|---------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------|
+|------------------------------------------------------------------------------|---------------------------------------------------------------|
 | [`ActiveBodies`](#Geometry.ActiveBodies)                                     | Gets the ActiveBodies.                                        |
 | [`AnalysisType`](#Geometry.AnalysisType)                                     | Gets the AnalysisType.                                        |
 | [`AssignMaterialOnUpdate`](#Geometry.AssignMaterialOnUpdate)                 | Gets or sets the AssignMaterialOnUpdate.                      |
@@ -127,7 +127,7 @@ Defines a Geometry.
 
 <a id="Geometry.ActiveBodies"></a>
 
-### *property* Geometry.ActiveBodies *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Geometry.ActiveBodies *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the ActiveBodies.
 
@@ -135,7 +135,7 @@ Gets the ActiveBodies.
 
 <a id="Geometry.AnalysisType"></a>
 
-### *property* Geometry.AnalysisType *: [Ansys.Mechanical.DataModel.Enums.GeometryDimensionType](../../../../../v242/Ansys/Mechanical/DataModel/Enums/GeometryDimensionType.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.GeometryDimensionType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Geometry.AnalysisType *: [Ansys.Mechanical.DataModel.Enums.GeometryDimensionType](../../../Mechanical/DataModel/Enums/GeometryDimensionType.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.GeometryDimensionType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the AnalysisType.
 
@@ -143,7 +143,7 @@ Gets the AnalysisType.
 
 <a id="Geometry.AssignMaterialOnUpdate"></a>
 
-### *property* Geometry.AssignMaterialOnUpdate *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Geometry.AssignMaterialOnUpdate *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the AssignMaterialOnUpdate.
 
@@ -151,7 +151,7 @@ Gets or sets the AssignMaterialOnUpdate.
 
 <a id="Geometry.AttachFileViaTempFile"></a>
 
-### *property* Geometry.AttachFileViaTempFile *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Geometry.AttachFileViaTempFile *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the AttachFileViaTempFile.
 
@@ -159,7 +159,7 @@ Gets or sets the AttachFileViaTempFile.
 
 <a id="Geometry.AttributeKey"></a>
 
-### *property* Geometry.AttributeKey *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Geometry.AttributeKey *: [str](https://docs.python.org/3/library/stdtypes.html#str) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the AttributeKey.
 
@@ -167,7 +167,7 @@ Gets the AttributeKey.
 
 <a id="Geometry.Attributes"></a>
 
-### *property* Geometry.Attributes *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Geometry.Attributes *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the Attributes.
 
@@ -175,7 +175,7 @@ Gets the Attributes.
 
 <a id="Geometry.Average"></a>
 
-### *property* Geometry.Average *: System.Double | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Geometry.Average *: [float](https://docs.python.org/3/library/functions.html#float) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the Average.
 
@@ -183,7 +183,7 @@ Gets the Average.
 
 <a id="Geometry.Bodies"></a>
 
-### *property* Geometry.Bodies *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Geometry.Bodies *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the Bodies.
 
@@ -191,7 +191,7 @@ Gets the Bodies.
 
 <a id="Geometry.CanChangeCADUnits"></a>
 
-### *property* Geometry.CanChangeCADUnits *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Geometry.CanChangeCADUnits *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the CanChangeCADUnits.
 
@@ -199,7 +199,7 @@ Gets the CanChangeCADUnits.
 
 <a id="Geometry.Children"></a>
 
-### *property* Geometry.Children *: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Geometry.Children *: List[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of children.
 
@@ -207,7 +207,7 @@ Gets the list of children.
 
 <a id="Geometry.Comments"></a>
 
-### *property* Geometry.Comments *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Comment](Comment.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Geometry.Comments *: Iterable[[Ansys.ACT.Automation.Mechanical.Comment](Comment.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated comments.
 
@@ -215,7 +215,7 @@ Gets the list of associated comments.
 
 <a id="Geometry.ComparePartsOnUpdate"></a>
 
-### *property* Geometry.ComparePartsOnUpdate *: [Ansys.Mechanical.DataModel.Enums.ComparePartsOnUpdateType](../../../../../v242/Ansys/Mechanical/DataModel/Enums/ComparePartsOnUpdateType.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.ComparePartsOnUpdateType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Geometry.ComparePartsOnUpdate *: [Ansys.Mechanical.DataModel.Enums.ComparePartsOnUpdateType](../../../Mechanical/DataModel/Enums/ComparePartsOnUpdateType.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.ComparePartsOnUpdateType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the ComparePartsOnUpdate.
 
@@ -223,7 +223,7 @@ Gets the ComparePartsOnUpdate.
 
 <a id="Geometry.ComparePartsTolerance"></a>
 
-### *property* Geometry.ComparePartsTolerance *: [Ansys.Mechanical.DataModel.Enums.ComparePartsToleranceType](../../../../../v242/Ansys/Mechanical/DataModel/Enums/ComparePartsToleranceType.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.ComparePartsToleranceType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Geometry.ComparePartsTolerance *: [Ansys.Mechanical.DataModel.Enums.ComparePartsToleranceType](../../../Mechanical/DataModel/Enums/ComparePartsToleranceType.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.ComparePartsToleranceType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the ComparePartsTolerance.
 
@@ -231,7 +231,7 @@ Gets the ComparePartsTolerance.
 
 <a id="Geometry.DataModelObjectCategory"></a>
 
-### *property* Geometry.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../v242/Ansys/Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Geometry.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the current DataModelObject’s category.
 
@@ -239,7 +239,7 @@ Gets the current DataModelObject’s category.
 
 <a id="Geometry.DecomposeDisjointGeometry"></a>
 
-### *property* Geometry.DecomposeDisjointGeometry *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Geometry.DecomposeDisjointGeometry *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the DecomposeDisjointGeometry.
 
@@ -247,7 +247,7 @@ Gets the DecomposeDisjointGeometry.
 
 <a id="Geometry.DisplayStyle"></a>
 
-### *property* Geometry.DisplayStyle *: [Ansys.Mechanical.DataModel.Enums.PrototypeDisplayStyleType](../../../../../v242/Ansys/Mechanical/DataModel/Enums/PrototypeDisplayStyleType.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.PrototypeDisplayStyleType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Geometry.DisplayStyle *: [Ansys.Mechanical.DataModel.Enums.PrototypeDisplayStyleType](../../../Mechanical/DataModel/Enums/PrototypeDisplayStyleType.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.PrototypeDisplayStyleType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the DisplayStyle.
 
@@ -255,7 +255,7 @@ Gets or sets the DisplayStyle.
 
 <a id="Geometry.ElementControl"></a>
 
-### *property* Geometry.ElementControl *: [Ansys.Mechanical.DataModel.Enums.ElementControl](../../../../../v242/Ansys/Mechanical/DataModel/Enums/ElementControl.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.ElementControl) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Geometry.ElementControl *: [Ansys.Mechanical.DataModel.Enums.ElementControl](../../../Mechanical/DataModel/Enums/ElementControl.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.ElementControl) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the ElementControl.
 
@@ -263,7 +263,7 @@ Gets or sets the ElementControl.
 
 <a id="Geometry.Elements"></a>
 
-### *property* Geometry.Elements *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Geometry.Elements *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the Elements.
 
@@ -271,7 +271,7 @@ Gets the Elements.
 
 <a id="Geometry.EnclosureAndSymmetryProcessing"></a>
 
-### *property* Geometry.EnclosureAndSymmetryProcessing *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Geometry.EnclosureAndSymmetryProcessing *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the EnclosureAndSymmetryProcessing.
 
@@ -303,7 +303,7 @@ Gets or sets the FiberLength.
 
 <a id="Geometry.Figures"></a>
 
-### *property* Geometry.Figures *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Figure](Figure.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Geometry.Figures *: Iterable[[Ansys.ACT.Automation.Mechanical.Figure](Figure.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated figures.
 
@@ -311,7 +311,7 @@ Gets the list of associated figures.
 
 <a id="Geometry.GeometryPreferencesReadOnly"></a>
 
-### *property* Geometry.GeometryPreferencesReadOnly *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Geometry.GeometryPreferencesReadOnly *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the GeometryPreferencesReadOnly.
 
@@ -319,7 +319,7 @@ Gets the GeometryPreferencesReadOnly.
 
 <a id="Geometry.Images"></a>
 
-### *property* Geometry.Images *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Image](Image.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Geometry.Images *: Iterable[[Ansys.ACT.Automation.Mechanical.Image](Image.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated images.
 
@@ -327,7 +327,7 @@ Gets the list of associated images.
 
 <a id="Geometry.ImportCoordinateSystems"></a>
 
-### *property* Geometry.ImportCoordinateSystems *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Geometry.ImportCoordinateSystems *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the ImportCoordinateSystems.
 
@@ -343,7 +343,7 @@ Gets the internal object. For advanced usage only.
 
 <a id="Geometry.LengthUnit"></a>
 
-### *property* Geometry.LengthUnit *: [Ansys.Mechanical.DataModel.Enums.WBUnitSystemType](../../../../../v242/Ansys/Mechanical/DataModel/Enums/WBUnitSystemType.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.WBUnitSystemType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Geometry.LengthUnit *: [Ansys.Mechanical.DataModel.Enums.WBUnitSystemType](../../../Mechanical/DataModel/Enums/WBUnitSystemType.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.WBUnitSystemType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the LengthUnit.
 
@@ -375,7 +375,7 @@ Gets the LengthZ.
 
 <a id="Geometry.LineBodies"></a>
 
-### *property* Geometry.LineBodies *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Geometry.LineBodies *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the LineBodies.
 
@@ -391,7 +391,7 @@ Gets the Mass.
 
 <a id="Geometry.MaterialProperties"></a>
 
-### *property* Geometry.MaterialProperties *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Geometry.MaterialProperties *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the MaterialProperties.
 
@@ -399,7 +399,7 @@ Gets the MaterialProperties.
 
 <a id="Geometry.Maximum"></a>
 
-### *property* Geometry.Maximum *: System.Double | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Geometry.Maximum *: [float](https://docs.python.org/3/library/functions.html#float) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the Maximum.
 
@@ -407,7 +407,7 @@ Gets the Maximum.
 
 <a id="Geometry.MeshMetric"></a>
 
-### *property* Geometry.MeshMetric *: [Ansys.Mechanical.DataModel.Enums.MeshMetricType](../../../../../v242/Ansys/Mechanical/DataModel/Enums/MeshMetricType.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.MeshMetricType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Geometry.MeshMetric *: [Ansys.Mechanical.DataModel.Enums.MeshMetricType](../../../Mechanical/DataModel/Enums/MeshMetricType.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.MeshMetricType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the MeshMetric.
 
@@ -423,7 +423,7 @@ Gets the MeshVolume.
 
 <a id="Geometry.Minimum"></a>
 
-### *property* Geometry.Minimum *: System.Double | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Geometry.Minimum *: [float](https://docs.python.org/3/library/functions.html#float) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the Minimum.
 
@@ -431,7 +431,7 @@ Gets the Minimum.
 
 <a id="Geometry.MixedImportResolution"></a>
 
-### *property* Geometry.MixedImportResolution *: [Ansys.Mechanical.DataModel.Enums.SecondaryImportPrefType](../../../../../v242/Ansys/Mechanical/DataModel/Enums/SecondaryImportPrefType.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.SecondaryImportPrefType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Geometry.MixedImportResolution *: [Ansys.Mechanical.DataModel.Enums.SecondaryImportPrefType](../../../Mechanical/DataModel/Enums/SecondaryImportPrefType.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.SecondaryImportPrefType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the MixedImportResolution.
 
@@ -439,7 +439,7 @@ Gets the MixedImportResolution.
 
 <a id="Geometry.Model2DBehavior"></a>
 
-### *property* Geometry.Model2DBehavior *: [Ansys.Mechanical.DataModel.Enums.Model2DBehavior](../../../../../v242/Ansys/Mechanical/DataModel/Enums/Model2DBehavior.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.Model2DBehavior) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Geometry.Model2DBehavior *: [Ansys.Mechanical.DataModel.Enums.Model2DBehavior](../../../Mechanical/DataModel/Enums/Model2DBehavior.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.Model2DBehavior) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Model2DBehavior.
 
@@ -447,7 +447,7 @@ Gets or sets the Model2DBehavior.
 
 <a id="Geometry.NamedSelectionKey"></a>
 
-### *property* Geometry.NamedSelectionKey *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Geometry.NamedSelectionKey *: [str](https://docs.python.org/3/library/stdtypes.html#str) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the NamedSelectionKey.
 
@@ -455,7 +455,7 @@ Gets the NamedSelectionKey.
 
 <a id="Geometry.NamedSelections"></a>
 
-### *property* Geometry.NamedSelections *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Geometry.NamedSelections *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the NamedSelections.
 
@@ -463,7 +463,7 @@ Gets the NamedSelections.
 
 <a id="Geometry.Nodes"></a>
 
-### *property* Geometry.Nodes *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Geometry.Nodes *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the Nodes.
 
@@ -471,7 +471,7 @@ Gets the Nodes.
 
 <a id="Geometry.ParameterKey"></a>
 
-### *property* Geometry.ParameterKey *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Geometry.ParameterKey *: [str](https://docs.python.org/3/library/stdtypes.html#str) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the ParameterKey.
 
@@ -479,7 +479,7 @@ Gets the ParameterKey.
 
 <a id="Geometry.Parameters"></a>
 
-### *property* Geometry.Parameters *: [Ansys.Mechanical.DataModel.Enums.ImportParameterType](../../../../../v242/Ansys/Mechanical/DataModel/Enums/ImportParameterType.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.ImportParameterType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Geometry.Parameters *: [Ansys.Mechanical.DataModel.Enums.ImportParameterType](../../../Mechanical/DataModel/Enums/ImportParameterType.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.ImportParameterType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the Parameters.
 
@@ -487,7 +487,7 @@ Gets the Parameters.
 
 <a id="Geometry.Properties"></a>
 
-### *property* Geometry.Properties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Geometry.Properties *: [tuple](https://docs.python.org/3/library/stdtypes.html#tuple)[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of properties for this object.
 
@@ -495,7 +495,7 @@ Gets the list of properties for this object.
 
 <a id="Geometry.ReaderModeSavesUpdatedFile"></a>
 
-### *property* Geometry.ReaderModeSavesUpdatedFile *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Geometry.ReaderModeSavesUpdatedFile *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the ReaderModeSavesUpdatedFile.
 
@@ -503,7 +503,7 @@ Gets or sets the ReaderModeSavesUpdatedFile.
 
 <a id="Geometry.ScaleFactorValue"></a>
 
-### *property* Geometry.ScaleFactorValue *: System.Double | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Geometry.ScaleFactorValue *: [float](https://docs.python.org/3/library/functions.html#float) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the ScaleFactorValue.
 
@@ -519,7 +519,7 @@ Gets the SheetSurfaceArea.
 
 <a id="Geometry.SmartCADUpdate"></a>
 
-### *property* Geometry.SmartCADUpdate *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Geometry.SmartCADUpdate *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the SmartCADUpdate.
 
@@ -527,7 +527,7 @@ Gets the SmartCADUpdate.
 
 <a id="Geometry.SolidBodies"></a>
 
-### *property* Geometry.SolidBodies *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Geometry.SolidBodies *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the SolidBodies.
 
@@ -535,7 +535,7 @@ Gets the SolidBodies.
 
 <a id="Geometry.Source"></a>
 
-### *property* Geometry.Source *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Geometry.Source *: [str](https://docs.python.org/3/library/stdtypes.html#str) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the Source.
 
@@ -543,7 +543,7 @@ Gets the Source.
 
 <a id="Geometry.StandardDeviation"></a>
 
-### *property* Geometry.StandardDeviation *: System.Double | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Geometry.StandardDeviation *: [float](https://docs.python.org/3/library/functions.html#float) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the StandardDeviation.
 
@@ -559,7 +559,7 @@ Gets the SurfaceArea.
 
 <a id="Geometry.SurfaceBodies"></a>
 
-### *property* Geometry.SurfaceBodies *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Geometry.SurfaceBodies *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the SurfaceBodies.
 
@@ -567,7 +567,7 @@ Gets the SurfaceBodies.
 
 <a id="Geometry.TemporaryDirectory"></a>
 
-### *property* Geometry.TemporaryDirectory *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Geometry.TemporaryDirectory *: [str](https://docs.python.org/3/library/stdtypes.html#str) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the TemporaryDirectory.
 
@@ -575,7 +575,7 @@ Gets or sets the TemporaryDirectory.
 
 <a id="Geometry.Tolerance2D"></a>
 
-### *property* Geometry.Tolerance2D *: System.Double | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Geometry.Tolerance2D *: [float](https://docs.python.org/3/library/functions.html#float) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Tolerance2D.
 
@@ -583,7 +583,7 @@ Gets or sets the Tolerance2D.
 
 <a id="Geometry.Type"></a>
 
-### *property* Geometry.Type *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Geometry.Type *: [str](https://docs.python.org/3/library/stdtypes.html#str) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the Type.
 
@@ -591,7 +591,7 @@ Gets the Type.
 
 <a id="Geometry.UseAssociativity"></a>
 
-### *property* Geometry.UseAssociativity *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Geometry.UseAssociativity *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the UseAssociativity.
 
@@ -599,7 +599,7 @@ Gets the UseAssociativity.
 
 <a id="Geometry.UseInstances"></a>
 
-### *property* Geometry.UseInstances *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Geometry.UseInstances *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the UseInstances.
 
@@ -607,7 +607,7 @@ Gets the UseInstances.
 
 <a id="Geometry.VisibleProperties"></a>
 
-### *property* Geometry.VisibleProperties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Geometry.VisibleProperties *: [tuple](https://docs.python.org/3/library/stdtypes.html#tuple)[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of properties that are visible for this object.
 
@@ -691,7 +691,7 @@ Creates a new child Figure.
 
 <a id="Geometry.AddImage"></a>
 
-### Geometry.AddImage(filePath: System.String)
+### Geometry.AddImage(filePath: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 ```text
 Creates a new child Image.
@@ -759,7 +759,7 @@ Creates a new child Thickness.
 
 <a id="Geometry.CenterOfMass"></a>
 
-### Geometry.CenterOfMass(geoBodies: System.Collections.Generic.IList[Ansys.ACT.Interfaces.Geometry.IBaseGeoBody], pointMasses: System.Collections.Generic.IList[[Ansys.ACT.Automation.Mechanical.PointMass](../../../../../v242/Ansys/ACT/Automation/Mechanical/PointMass.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.PointMass)], distributedMasses: System.Collections.Generic.IList[[Ansys.ACT.Automation.Mechanical.DistributedMass](DistributedMass.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.DistributedMass)])
+### Geometry.CenterOfMass(geoBodies: List[Ansys.ACT.Interfaces.Geometry.IBaseGeoBody], pointMasses: List[[Ansys.ACT.Automation.Mechanical.PointMass](PointMass.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.PointMass)], distributedMasses: List[[Ansys.ACT.Automation.Mechanical.DistributedMass](DistributedMass.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.DistributedMass)])
 
 CenterOfMass method.
 
@@ -775,7 +775,7 @@ Copies all visible properties from this object to another.
 
 <a id="Geometry.CreateParameter"></a>
 
-### Geometry.CreateParameter(paramPath: System.String)
+### Geometry.CreateParameter(paramPath: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Creates a new parameter for a Property.
 
@@ -807,7 +807,7 @@ Gets the Body associated with the given IGeoBody
 
 <a id="Geometry.GetChildren"></a>
 
-### Geometry.GetChildren(recurses: System.Boolean, children: System.Collections.Generic.IList[ChildrenType])
+### Geometry.GetChildren(recurses: [bool](https://docs.python.org/3/library/functions.html#bool), children: List[ChildrenType])
 
 Gets the list of children, filtered by type.
 
@@ -815,7 +815,7 @@ Gets the list of children, filtered by type.
 
 <a id="Geometry.GetParameter"></a>
 
-### Geometry.GetParameter(propName: System.String)
+### Geometry.GetParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Gets the parameter corresponding to the given property.
 
@@ -855,7 +855,7 @@ Invert all parts Suppressed property.
 
 <a id="Geometry.PropertyByAPIName"></a>
 
-### Geometry.PropertyByAPIName(name: System.String)
+### Geometry.PropertyByAPIName(name: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 ```text
 Get a property by its API name.
@@ -866,7 +866,7 @@ If multiple properties have the same API Name, only the first property with that
 
 <a id="Geometry.PropertyByName"></a>
 
-### Geometry.PropertyByName(name: System.String)
+### Geometry.PropertyByName(name: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Get a property by its unique name.
 
@@ -874,7 +874,7 @@ Get a property by its unique name.
 
 <a id="Geometry.RemoveParameter"></a>
 
-### Geometry.RemoveParameter(paramPath: System.String)
+### Geometry.RemoveParameter(paramPath: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Removes the parameter from the parameter set corresponding to the given property.
 

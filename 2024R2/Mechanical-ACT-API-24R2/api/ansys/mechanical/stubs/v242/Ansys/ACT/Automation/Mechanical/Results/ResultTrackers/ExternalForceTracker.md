@@ -17,7 +17,7 @@ Defines a ExternalForceTracker.
 ### Methods
 
 | Name | Description |
-|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------|
+|----------------------------------------------------------------------------|-----------------------------------------------------------------------------------|
 | [`Activate`](#ExternalForceTracker.Activate)                               | Activate the current object.                                                      |
 | [`AddComment`](#ExternalForceTracker.AddComment)                           | Creates a new child Comment.                                                      |
 | [`AddImage`](#ExternalForceTracker.AddImage)                               | Creates a new child Image.                                                        |
@@ -40,7 +40,7 @@ Defines a ExternalForceTracker.
 ### Properties
 
 | Name | Description |
-|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------|
+|------------------------------------------------------------------------------------|---------------------------------------------------------------|
 | [`AccelerationType`](#ExternalForceTracker.AccelerationType)                       | Gets or sets the AccelerationType.                            |
 | [`BoundaryCondition`](#ExternalForceTracker.BoundaryCondition)                     | Gets or sets the BoundaryCondition.                           |
 | [`ChartDimensions`](#ExternalForceTracker.ChartDimensions)                         | Gets or sets the Chart Dimensions                             |
@@ -104,7 +104,7 @@ Gets or sets the AccelerationType.
 
 <a id="ExternalForceTracker.BoundaryCondition"></a>
 
-### *property* ExternalForceTracker.BoundaryCondition *: [Ansys.ACT.Automation.Mechanical.BoundaryConditions.GenericBoundaryCondition](../../../../../../../v241/Ansys/ACT/Automation/Mechanical/BoundaryConditions/GenericBoundaryCondition.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.BoundaryConditions.GenericBoundaryCondition) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ExternalForceTracker.BoundaryCondition *: [Ansys.ACT.Automation.Mechanical.BoundaryConditions.GenericBoundaryCondition](../../BoundaryConditions/GenericBoundaryCondition.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.BoundaryConditions.GenericBoundaryCondition) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the BoundaryCondition.
 
@@ -128,7 +128,7 @@ Gets or sets the ChartViewingStyle.
 
 <a id="ExternalForceTracker.Children"></a>
 
-### *property* ExternalForceTracker.Children *: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ExternalForceTracker.Children *: List[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of children.
 
@@ -136,7 +136,7 @@ Gets the list of children.
 
 <a id="ExternalForceTracker.Comments"></a>
 
-### *property* ExternalForceTracker.Comments *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Comment](../../../../../../../v241/Ansys/ACT/Automation/Mechanical/Comment.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ExternalForceTracker.Comments *: Iterable[[Ansys.ACT.Automation.Mechanical.Comment](../../Comment.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated comments.
 
@@ -144,7 +144,7 @@ Gets the list of associated comments.
 
 <a id="ExternalForceTracker.CoordinateSystem"></a>
 
-### *property* ExternalForceTracker.CoordinateSystem *: [Ansys.ACT.Automation.Mechanical.CoordinateSystem](../../../../../../../v241/Ansys/ACT/Automation/Mechanical/CoordinateSystem.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.CoordinateSystem) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ExternalForceTracker.CoordinateSystem *: [Ansys.ACT.Automation.Mechanical.CoordinateSystem](../../CoordinateSystem.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.CoordinateSystem) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the CoordinateSystem.
 
@@ -160,7 +160,7 @@ Gets or sets the CurvesAppearanceDisplay.
 
 <a id="ExternalForceTracker.CutFrequency"></a>
 
-### *property* ExternalForceTracker.CutFrequency *: System.Double | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ExternalForceTracker.CutFrequency *: [float](https://docs.python.org/3/library/functions.html#float) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the CutFrequency.
 
@@ -200,7 +200,7 @@ Gets or sets the Duration.
 
 <a id="ExternalForceTracker.EnhancedTracking"></a>
 
-### *property* ExternalForceTracker.EnhancedTracking *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ExternalForceTracker.EnhancedTracking *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the EnhancedTracking.
 
@@ -240,7 +240,7 @@ Gets the FrequencyAtMaximumAmplitude.
 
 <a id="ExternalForceTracker.GeometrySelectionString"></a>
 
-### *property* ExternalForceTracker.GeometrySelectionString *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ExternalForceTracker.GeometrySelectionString *: [str](https://docs.python.org/3/library/stdtypes.html#str) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the GeometrySelectionString.
 
@@ -248,7 +248,7 @@ Gets or sets the GeometrySelectionString.
 
 <a id="ExternalForceTracker.Images"></a>
 
-### *property* ExternalForceTracker.Images *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Image](../../../../../../../v241/Ansys/ACT/Automation/Mechanical/Image.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ExternalForceTracker.Images *: Iterable[[Ansys.ACT.Automation.Mechanical.Image](../../Image.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated images.
 
@@ -272,7 +272,7 @@ Gets the internal object. For advanced usage only.
 
 <a id="ExternalForceTracker.IsSolved"></a>
 
-### *property* ExternalForceTracker.IsSolved *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ExternalForceTracker.IsSolved *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the IsSolved.
 
@@ -280,7 +280,7 @@ Gets the IsSolved.
 
 <a id="ExternalForceTracker.LoadStepNumber"></a>
 
-### *property* ExternalForceTracker.LoadStepNumber *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ExternalForceTracker.LoadStepNumber *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the LoadStepNumber.
 
@@ -352,7 +352,7 @@ Gets the PhaseAngle.
 
 <a id="ExternalForceTracker.Properties"></a>
 
-### *property* ExternalForceTracker.Properties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ExternalForceTracker.Properties *: [tuple](https://docs.python.org/3/library/stdtypes.html#tuple)[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of properties for this object.
 
@@ -392,7 +392,7 @@ Gets the ResultChartType.
 
 <a id="ExternalForceTracker.SectorNumber"></a>
 
-### *property* ExternalForceTracker.SectorNumber *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ExternalForceTracker.SectorNumber *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the SectorNumber.
 
@@ -416,7 +416,7 @@ Gets or sets the SpatialResolution.
 
 <a id="ExternalForceTracker.Spring"></a>
 
-### *property* ExternalForceTracker.Spring *: [Ansys.ACT.Automation.Mechanical.Connections.Spring](../../../../../../../v241/Ansys/ACT/Automation/Mechanical/Connections/Spring.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Connections.Spring) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ExternalForceTracker.Spring *: [Ansys.ACT.Automation.Mechanical.Connections.Spring](../../Connections/Spring.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Connections.Spring) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Spring.
 
@@ -432,7 +432,7 @@ Gets or sets the StressStrainType.
 
 <a id="ExternalForceTracker.Suppressed"></a>
 
-### *property* ExternalForceTracker.Suppressed *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ExternalForceTracker.Suppressed *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Suppressed.
 
@@ -448,7 +448,7 @@ Gets or sets the TimeHistoryDisplay.
 
 <a id="ExternalForceTracker.UseParentFrequencyRange"></a>
 
-### *property* ExternalForceTracker.UseParentFrequencyRange *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ExternalForceTracker.UseParentFrequencyRange *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the UseParentFrequencyRange.
 
@@ -464,7 +464,7 @@ Gets or sets the VelocityType.
 
 <a id="ExternalForceTracker.VisibleProperties"></a>
 
-### *property* ExternalForceTracker.VisibleProperties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ExternalForceTracker.VisibleProperties *: [tuple](https://docs.python.org/3/library/stdtypes.html#tuple)[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of properties that are visible for this object.
 
@@ -500,7 +500,7 @@ Creates a new child Comment.
 
 <a id="ExternalForceTracker.AddImage"></a>
 
-### ExternalForceTracker.AddImage(filePath: System.String)
+### ExternalForceTracker.AddImage(filePath: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 ```text
 Creates a new child Image.
@@ -528,7 +528,7 @@ Copies all visible properties from this object to another.
 
 <a id="ExternalForceTracker.CreateParameter"></a>
 
-### ExternalForceTracker.CreateParameter(propName: System.String)
+### ExternalForceTracker.CreateParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Creates a new parameter for a Property.
 
@@ -560,7 +560,7 @@ Run the EvaluateAllResults action.
 
 <a id="ExternalForceTracker.ExportAnimation"></a>
 
-### ExternalForceTracker.ExportAnimation(filePath: System.String, format: [Ansys.Mechanical.DataModel.Enums.GraphicsAnimationExportFormat](../../../../../Mechanical/DataModel/Enums/GraphicsAnimationExportFormat.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.GraphicsAnimationExportFormat), settings: [Ansys.Mechanical.Graphics.AnimationExportSettings](../../../../../Mechanical/Graphics/AnimationExportSettings.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.Graphics.AnimationExportSettings))
+### ExternalForceTracker.ExportAnimation(filePath: [str](https://docs.python.org/3/library/stdtypes.html#str), format: [Ansys.Mechanical.DataModel.Enums.GraphicsAnimationExportFormat](../../../../../Mechanical/DataModel/Enums/GraphicsAnimationExportFormat.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.GraphicsAnimationExportFormat), settings: [Ansys.Mechanical.Graphics.AnimationExportSettings](../../../../../Mechanical/Graphics/AnimationExportSettings.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.Graphics.AnimationExportSettings))
 
 Run the ExportAnimation action.
 
@@ -568,7 +568,7 @@ Run the ExportAnimation action.
 
 <a id="ExternalForceTracker.GetChildren"></a>
 
-### ExternalForceTracker.GetChildren(recurses: System.Boolean, children: System.Collections.Generic.IList[ChildrenType])
+### ExternalForceTracker.GetChildren(recurses: [bool](https://docs.python.org/3/library/functions.html#bool), children: List[ChildrenType])
 
 Gets the list of children, filtered by type.
 
@@ -576,7 +576,7 @@ Gets the list of children, filtered by type.
 
 <a id="ExternalForceTracker.GetParameter"></a>
 
-### ExternalForceTracker.GetParameter(propName: System.String)
+### ExternalForceTracker.GetParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Gets the parameter corresponding to the given property.
 
@@ -600,7 +600,7 @@ Run the GroupSimilarObjects action.
 
 <a id="ExternalForceTracker.PropertyByAPIName"></a>
 
-### ExternalForceTracker.PropertyByAPIName(name: System.String)
+### ExternalForceTracker.PropertyByAPIName(name: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 ```text
 Get a property by its API name.
@@ -611,7 +611,7 @@ If multiple properties have the same API Name, only the first property with that
 
 <a id="ExternalForceTracker.PropertyByName"></a>
 
-### ExternalForceTracker.PropertyByName(name: System.String)
+### ExternalForceTracker.PropertyByName(name: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Get a property by its unique name.
 
@@ -619,7 +619,7 @@ Get a property by its unique name.
 
 <a id="ExternalForceTracker.RemoveParameter"></a>
 
-### ExternalForceTracker.RemoveParameter(propName: System.String)
+### ExternalForceTracker.RemoveParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Removes the parameter from the parameter set corresponding to the given property.
 

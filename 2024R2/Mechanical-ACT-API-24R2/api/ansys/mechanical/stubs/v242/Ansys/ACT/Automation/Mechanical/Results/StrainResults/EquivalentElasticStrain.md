@@ -17,7 +17,7 @@ Defines a EquivalentElasticStrain.
 ### Methods
 
 | Name | Description |
-|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------|
+|-------------------------------------------------------------------------------|-----------------------------------------------------------------------------------|
 | [`Activate`](#EquivalentElasticStrain.Activate)                               | Activate the current object.                                                      |
 | [`AddAlert`](#EquivalentElasticStrain.AddAlert)                               | Creates a new Alert                                                               |
 | [`AddComment`](#EquivalentElasticStrain.AddComment)                           | Creates a new child Comment.                                                      |
@@ -48,7 +48,7 @@ Defines a EquivalentElasticStrain.
 ### Properties
 
 | Name | Description |
-|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------|
+|---------------------------------------------------------------------------------------------------|------------------------------------------------------------------------|
 | [`Amplitude`](#EquivalentElasticStrain.Amplitude)                                                 | Gets or sets the Amplitude.                                            |
 | [`Average`](#EquivalentElasticStrain.Average)                                                     | Gets the Average.                                                      |
 | [`AverageAcrossBodies`](#EquivalentElasticStrain.AverageAcrossBodies)                             | Gets or sets the AverageAcrossBodies.                                  |
@@ -112,7 +112,7 @@ Defines a EquivalentElasticStrain.
 | [`Substep`](#EquivalentElasticStrain.Substep)                                                     | Gets the Substep.                                                      |
 | [`Suppressed`](#EquivalentElasticStrain.Suppressed)                                               | Gets or sets the Suppressed.                                           |
 | [`Surface`](#EquivalentElasticStrain.Surface)                                                     | Surface property.                                                      |
-| [`SurfaceCoating`](#EquivalentElasticStrain.SurfaceCoating)                                                                                                                                                 | SurfaceCoating property.                                               |
+| [`SurfaceCoating`](#EquivalentElasticStrain.SurfaceCoating)                                       | SurfaceCoating property.                                               |
 | [`SweepingPhase`](#EquivalentElasticStrain.SweepingPhase)                                         | Gets or sets the SweepingPhase.                                        |
 | [`Time`](#EquivalentElasticStrain.Time)                                                           | Gets the Time.                                                         |
 | [`TimeForMaximumOfMaximumValues`](#EquivalentElasticStrain.TimeForMaximumOfMaximumValues)         | Get the Time for the maximum of maximum values.                        |
@@ -120,7 +120,7 @@ Defines a EquivalentElasticStrain.
 | [`TimeForMinimumOfMaximumValues`](#EquivalentElasticStrain.TimeForMinimumOfMaximumValues)         | Get the Time for the minimum of maximum values.                        |
 | [`TimeForMinimumOfMinimumValues`](#EquivalentElasticStrain.TimeForMinimumOfMinimumValues)         | Get the Time for the minimum of minimum values.                        |
 | [`VisibleProperties`](#EquivalentElasticStrain.VisibleProperties)                                 | Gets the list of properties that are visible for this object.          |
-| [`WaterfallShowTextOnMosaic`](#EquivalentElasticStrain.WaterfallShowTextOnMosaic)                                                                                                                           | Gets or sets the Waterfall Mosaic Text Property.                       |
+| [`WaterfallShowTextOnMosaic`](#EquivalentElasticStrain.WaterfallShowTextOnMosaic)                 | Gets or sets the Waterfall Mosaic Text Property.                       |
 
 <a id="property-detail"></a>
 
@@ -128,7 +128,7 @@ Defines a EquivalentElasticStrain.
 
 <a id="EquivalentElasticStrain.Amplitude"></a>
 
-### *property* EquivalentElasticStrain.Amplitude *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* EquivalentElasticStrain.Amplitude *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Amplitude.
 
@@ -144,7 +144,7 @@ Gets the Average.
 
 <a id="EquivalentElasticStrain.AverageAcrossBodies"></a>
 
-### *property* EquivalentElasticStrain.AverageAcrossBodies *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* EquivalentElasticStrain.AverageAcrossBodies *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the AverageAcrossBodies.
 
@@ -160,7 +160,7 @@ Gets or sets the By.
 
 <a id="EquivalentElasticStrain.CalculateTimeHistory"></a>
 
-### *property* EquivalentElasticStrain.CalculateTimeHistory *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* EquivalentElasticStrain.CalculateTimeHistory *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the CalculateTimeHistory.
 
@@ -168,7 +168,7 @@ Gets or sets the CalculateTimeHistory.
 
 <a id="EquivalentElasticStrain.Children"></a>
 
-### *property* EquivalentElasticStrain.Children *: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* EquivalentElasticStrain.Children *: List[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of children.
 
@@ -176,7 +176,7 @@ Gets the list of children.
 
 <a id="EquivalentElasticStrain.CombinationNumber"></a>
 
-### *property* EquivalentElasticStrain.CombinationNumber *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* EquivalentElasticStrain.CombinationNumber *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Combination Number for a Solution Combination result.
 
@@ -184,7 +184,7 @@ Gets or sets the Combination Number for a Solution Combination result.
 
 <a id="EquivalentElasticStrain.Comments"></a>
 
-### *property* EquivalentElasticStrain.Comments *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Comment](../../../../../../../v241/Ansys/ACT/Automation/Mechanical/Comment.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* EquivalentElasticStrain.Comments *: Iterable[[Ansys.ACT.Automation.Mechanical.Comment](../../Comment.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated comments.
 
@@ -192,7 +192,7 @@ Gets the list of associated comments.
 
 <a id="EquivalentElasticStrain.CoordinateSystem"></a>
 
-### *property* EquivalentElasticStrain.CoordinateSystem *: [Ansys.ACT.Automation.Mechanical.CoordinateSystem](../../../../../../../v241/Ansys/ACT/Automation/Mechanical/CoordinateSystem.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.CoordinateSystem) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* EquivalentElasticStrain.CoordinateSystem *: [Ansys.ACT.Automation.Mechanical.CoordinateSystem](../../CoordinateSystem.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.CoordinateSystem) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Coordinate System.
 Accepts/Returns None for Solution Coordinate System in the general case (if applicable).
@@ -202,7 +202,7 @@ Accepts/Returns None for Fiber Coordinate System for a result that is sub scoped
 
 <a id="EquivalentElasticStrain.CrackFrontNumber"></a>
 
-### *property* EquivalentElasticStrain.CrackFrontNumber *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* EquivalentElasticStrain.CrackFrontNumber *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the CrackFrontNumber.
 
@@ -210,7 +210,7 @@ Gets or sets the CrackFrontNumber.
 
 <a id="EquivalentElasticStrain.CyclicMode"></a>
 
-### *property* EquivalentElasticStrain.CyclicMode *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* EquivalentElasticStrain.CyclicMode *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the CyclicMode.
 
@@ -250,7 +250,7 @@ Gets or sets the DpfEvaluation.
 
 <a id="EquivalentElasticStrain.EnvironmentSelection"></a>
 
-### *property* EquivalentElasticStrain.EnvironmentSelection *: [Ansys.ACT.Automation.Mechanical.Analysis](../../../../../../../v241/Ansys/ACT/Automation/Mechanical/Analysis.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Analysis) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* EquivalentElasticStrain.EnvironmentSelection *: [Ansys.ACT.Automation.Mechanical.Analysis](../../Analysis.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Analysis) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the EnvironmentSelection.
 
@@ -258,7 +258,7 @@ Gets or sets the EnvironmentSelection.
 
 <a id="EquivalentElasticStrain.Figures"></a>
 
-### *property* EquivalentElasticStrain.Figures *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Figure](../../../../../../../v241/Ansys/ACT/Automation/Mechanical/Figure.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* EquivalentElasticStrain.Figures *: Iterable[[Ansys.ACT.Automation.Mechanical.Figure](../../Figure.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated figures.
 
@@ -274,7 +274,7 @@ Gets or sets the Frequency.
 
 <a id="EquivalentElasticStrain.GlobalIDs"></a>
 
-### *property* EquivalentElasticStrain.GlobalIDs *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* EquivalentElasticStrain.GlobalIDs *: [str](https://docs.python.org/3/library/stdtypes.html#str) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the GlobalIDs.
 
@@ -290,7 +290,7 @@ Gets or sets the GraphControlsXAxis.
 
 <a id="EquivalentElasticStrain.HarmonicIndex"></a>
 
-### *property* EquivalentElasticStrain.HarmonicIndex *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* EquivalentElasticStrain.HarmonicIndex *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the HarmonicIndex.
 
@@ -298,7 +298,7 @@ Gets or sets the HarmonicIndex.
 
 <a id="EquivalentElasticStrain.Identifier"></a>
 
-### *property* EquivalentElasticStrain.Identifier *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* EquivalentElasticStrain.Identifier *: [str](https://docs.python.org/3/library/stdtypes.html#str) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Identifier.
 
@@ -306,7 +306,7 @@ Gets or sets the Identifier.
 
 <a id="EquivalentElasticStrain.Images"></a>
 
-### *property* EquivalentElasticStrain.Images *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Image](../../../../../../../v241/Ansys/ACT/Automation/Mechanical/Image.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* EquivalentElasticStrain.Images *: Iterable[[Ansys.ACT.Automation.Mechanical.Image](../../Image.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated images.
 
@@ -322,7 +322,7 @@ Gets the internal object. For advanced usage only.
 
 <a id="EquivalentElasticStrain.IsSolved"></a>
 
-### *property* EquivalentElasticStrain.IsSolved *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* EquivalentElasticStrain.IsSolved *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the IsSolved.
 
@@ -338,7 +338,7 @@ Gets or sets the ItemType.
 
 <a id="EquivalentElasticStrain.IterationNumber"></a>
 
-### *property* EquivalentElasticStrain.IterationNumber *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* EquivalentElasticStrain.IterationNumber *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the IterationNumber.
 
@@ -346,7 +346,7 @@ Gets the IterationNumber.
 
 <a id="EquivalentElasticStrain.IterationStep"></a>
 
-### *property* EquivalentElasticStrain.IterationStep *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* EquivalentElasticStrain.IterationStep *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the IterationStep.
 
@@ -354,7 +354,7 @@ Gets or sets the IterationStep.
 
 <a id="EquivalentElasticStrain.LoadMultiplier"></a>
 
-### *property* EquivalentElasticStrain.LoadMultiplier *: System.Double | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* EquivalentElasticStrain.LoadMultiplier *: [float](https://docs.python.org/3/library/functions.html#float) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the LoadMultiplier.
 
@@ -362,7 +362,7 @@ Gets the LoadMultiplier.
 
 <a id="EquivalentElasticStrain.LoadStep"></a>
 
-### *property* EquivalentElasticStrain.LoadStep *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* EquivalentElasticStrain.LoadStep *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the LoadStep.
 
@@ -370,7 +370,7 @@ Gets the LoadStep.
 
 <a id="EquivalentElasticStrain.LoadStepForMaximumOfMaximumValues"></a>
 
-### *property* EquivalentElasticStrain.LoadStepForMaximumOfMaximumValues *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* EquivalentElasticStrain.LoadStepForMaximumOfMaximumValues *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Get the Load Step for the maximum of maximum values.
 
@@ -378,7 +378,7 @@ Get the Load Step for the maximum of maximum values.
 
 <a id="EquivalentElasticStrain.LoadStepForMaximumOfMinimumValues"></a>
 
-### *property* EquivalentElasticStrain.LoadStepForMaximumOfMinimumValues *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* EquivalentElasticStrain.LoadStepForMaximumOfMinimumValues *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Get the Load Step for the maximum of minimum values.
 
@@ -386,7 +386,7 @@ Get the Load Step for the maximum of minimum values.
 
 <a id="EquivalentElasticStrain.LoadStepForMinimumOfMaximumValues"></a>
 
-### *property* EquivalentElasticStrain.LoadStepForMinimumOfMaximumValues *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* EquivalentElasticStrain.LoadStepForMinimumOfMaximumValues *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Get the Load Step for the minimum of maximum values.
 
@@ -394,7 +394,7 @@ Get the Load Step for the minimum of maximum values.
 
 <a id="EquivalentElasticStrain.LoadStepForMinimumOfMinimumValues"></a>
 
-### *property* EquivalentElasticStrain.LoadStepForMinimumOfMinimumValues *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* EquivalentElasticStrain.LoadStepForMinimumOfMinimumValues *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Get the Load Step for the minimum of minimum values.
 
@@ -402,7 +402,7 @@ Get the Load Step for the minimum of minimum values.
 
 <a id="EquivalentElasticStrain.LoadStepNumber"></a>
 
-### *property* EquivalentElasticStrain.LoadStepNumber *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* EquivalentElasticStrain.LoadStepNumber *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the LoadStepNumber.
 
@@ -426,7 +426,7 @@ Gets the Maximum.
 
 <a id="EquivalentElasticStrain.MaximumOccursOn"></a>
 
-### *property* EquivalentElasticStrain.MaximumOccursOn *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* EquivalentElasticStrain.MaximumOccursOn *: [str](https://docs.python.org/3/library/stdtypes.html#str) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the MaximumOccursOn.
 
@@ -458,7 +458,7 @@ Gets the Minimum.
 
 <a id="EquivalentElasticStrain.MinimumOccursOn"></a>
 
-### *property* EquivalentElasticStrain.MinimumOccursOn *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* EquivalentElasticStrain.MinimumOccursOn *: [str](https://docs.python.org/3/library/stdtypes.html#str) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the MinimumOccursOn.
 
@@ -482,7 +482,7 @@ Gets the MinimumOfMinimumOverTime.
 
 <a id="EquivalentElasticStrain.Mode"></a>
 
-### *property* EquivalentElasticStrain.Mode *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* EquivalentElasticStrain.Mode *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Mode.
 
@@ -490,7 +490,7 @@ Gets or sets the Mode.
 
 <a id="EquivalentElasticStrain.NamedSelections"></a>
 
-### *property* EquivalentElasticStrain.NamedSelections *: System.Collections.Generic.IEnumerable[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* EquivalentElasticStrain.NamedSelections *: Iterable[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the NamedSelections.
 
@@ -514,7 +514,7 @@ Gets or sets the PhaseIncrement.
 
 <a id="EquivalentElasticStrain.Plies"></a>
 
-### *property* EquivalentElasticStrain.Plies *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.ImportedPliesCollection](../../../../../../../v241/Ansys/ACT/Automation/Mechanical/ImportedPliesCollection.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.ImportedPliesCollection)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* EquivalentElasticStrain.Plies *: Iterable[[Ansys.ACT.Automation.Mechanical.ImportedPliesCollection](../../ImportedPliesCollection.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.ImportedPliesCollection)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Plies property.
 
@@ -530,7 +530,7 @@ Gets the result table.
 
 <a id="EquivalentElasticStrain.Ply"></a>
 
-### *property* EquivalentElasticStrain.Ply *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.AnalysisPly](../../../../../../../v241/Ansys/ACT/Automation/Mechanical/AnalysisPly.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.AnalysisPly)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* EquivalentElasticStrain.Ply *: Iterable[[Ansys.ACT.Automation.Mechanical.AnalysisPly](../../AnalysisPly.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.AnalysisPly)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Ply selection.
 
@@ -546,7 +546,7 @@ Gets or sets the Position.
 
 <a id="EquivalentElasticStrain.Properties"></a>
 
-### *property* EquivalentElasticStrain.Properties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* EquivalentElasticStrain.Properties *: [tuple](https://docs.python.org/3/library/stdtypes.html#tuple)[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of properties for this object.
 
@@ -570,7 +570,7 @@ Gets or sets the ScopingMethod.
 
 <a id="EquivalentElasticStrain.SetNumber"></a>
 
-### *property* EquivalentElasticStrain.SetNumber *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* EquivalentElasticStrain.SetNumber *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Set Number.
 
@@ -586,7 +586,7 @@ Gets or sets the SolutionCombinationDriver.
 
 <a id="EquivalentElasticStrain.SolverComponentIDs"></a>
 
-### *property* EquivalentElasticStrain.SolverComponentIDs *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* EquivalentElasticStrain.SolverComponentIDs *: [str](https://docs.python.org/3/library/stdtypes.html#str) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the SolverComponentIDs.
 
@@ -610,7 +610,7 @@ Gets or sets the SubScopeBy.
 
 <a id="EquivalentElasticStrain.Substep"></a>
 
-### *property* EquivalentElasticStrain.Substep *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* EquivalentElasticStrain.Substep *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the Substep.
 
@@ -618,7 +618,7 @@ Gets the Substep.
 
 <a id="EquivalentElasticStrain.Suppressed"></a>
 
-### *property* EquivalentElasticStrain.Suppressed *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* EquivalentElasticStrain.Suppressed *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Suppressed.
 
@@ -690,7 +690,7 @@ Get the Time for the minimum of minimum values.
 
 <a id="EquivalentElasticStrain.VisibleProperties"></a>
 
-### *property* EquivalentElasticStrain.VisibleProperties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* EquivalentElasticStrain.VisibleProperties *: [tuple](https://docs.python.org/3/library/stdtypes.html#tuple)[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of properties that are visible for this object.
 
@@ -698,7 +698,7 @@ Gets the list of properties that are visible for this object.
 
 <a id="EquivalentElasticStrain.WaterfallShowTextOnMosaic"></a>
 
-### *property* EquivalentElasticStrain.WaterfallShowTextOnMosaic *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* EquivalentElasticStrain.WaterfallShowTextOnMosaic *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Waterfall Mosaic Text Property.
 
@@ -750,7 +750,7 @@ Creates a new child Figure.
 
 <a id="EquivalentElasticStrain.AddImage"></a>
 
-### EquivalentElasticStrain.AddImage(filePath: System.String)
+### EquivalentElasticStrain.AddImage(filePath: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 ```text
 Creates a new child Image.
@@ -778,7 +778,7 @@ Copies all visible properties from this object to another.
 
 <a id="EquivalentElasticStrain.CreateParameter"></a>
 
-### EquivalentElasticStrain.CreateParameter(propName: System.String)
+### EquivalentElasticStrain.CreateParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 CreateParameter method.
 
@@ -826,7 +826,7 @@ Run the EvaluateAllResults action.
 
 <a id="EquivalentElasticStrain.ExportAnimation"></a>
 
-### EquivalentElasticStrain.ExportAnimation(filePath: System.String, format: [Ansys.Mechanical.DataModel.Enums.GraphicsAnimationExportFormat](../../../../../Mechanical/DataModel/Enums/GraphicsAnimationExportFormat.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.GraphicsAnimationExportFormat), settings: [Ansys.Mechanical.Graphics.AnimationExportSettings](../../../../../Mechanical/Graphics/AnimationExportSettings.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.Graphics.AnimationExportSettings))
+### EquivalentElasticStrain.ExportAnimation(filePath: [str](https://docs.python.org/3/library/stdtypes.html#str), format: [Ansys.Mechanical.DataModel.Enums.GraphicsAnimationExportFormat](../../../../../Mechanical/DataModel/Enums/GraphicsAnimationExportFormat.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.GraphicsAnimationExportFormat), settings: [Ansys.Mechanical.Graphics.AnimationExportSettings](../../../../../Mechanical/Graphics/AnimationExportSettings.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.Graphics.AnimationExportSettings))
 
 Run the ExportAnimation action.
 
@@ -834,7 +834,7 @@ Run the ExportAnimation action.
 
 <a id="EquivalentElasticStrain.ExportToTextFile"></a>
 
-### EquivalentElasticStrain.ExportToTextFile(filePath: System.String)
+### EquivalentElasticStrain.ExportToTextFile(filePath: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Run the ExportToTextFile action.
 
@@ -850,7 +850,7 @@ Run the FetchRemoteResult action.
 
 <a id="EquivalentElasticStrain.GetChildren"></a>
 
-### EquivalentElasticStrain.GetChildren(recurses: System.Boolean, children: System.Collections.Generic.IList[ChildrenType])
+### EquivalentElasticStrain.GetChildren(recurses: [bool](https://docs.python.org/3/library/functions.html#bool), children: List[ChildrenType])
 
 Gets the list of children, filtered by type.
 
@@ -858,7 +858,7 @@ Gets the list of children, filtered by type.
 
 <a id="EquivalentElasticStrain.GetParameter"></a>
 
-### EquivalentElasticStrain.GetParameter(propName: System.String)
+### EquivalentElasticStrain.GetParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Gets the parameter corresponding to the given property.
 
@@ -890,7 +890,7 @@ Run the PromoteToNamedSelection action.
 
 <a id="EquivalentElasticStrain.PropertyByAPIName"></a>
 
-### EquivalentElasticStrain.PropertyByAPIName(name: System.String)
+### EquivalentElasticStrain.PropertyByAPIName(name: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 ```text
 Get a property by its API name.
@@ -901,7 +901,7 @@ If multiple properties have the same API Name, only the first property with that
 
 <a id="EquivalentElasticStrain.PropertyByName"></a>
 
-### EquivalentElasticStrain.PropertyByName(name: System.String)
+### EquivalentElasticStrain.PropertyByName(name: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Get a property by its unique name.
 
@@ -909,7 +909,7 @@ Get a property by its unique name.
 
 <a id="EquivalentElasticStrain.RemoveParameter"></a>
 
-### EquivalentElasticStrain.RemoveParameter(propName: System.String)
+### EquivalentElasticStrain.RemoveParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Removes the parameter from the parameter set corresponding to the given property.
 

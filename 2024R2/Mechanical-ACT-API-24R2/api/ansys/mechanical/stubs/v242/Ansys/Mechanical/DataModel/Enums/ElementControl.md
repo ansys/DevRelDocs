@@ -17,7 +17,7 @@ Specifies the ElementControl.
 ### Attributes
 
 | Name |
-| -------------------------------------------------------------------------------------------------------------------------------- |
+| ---------------------------------------------------------- |
 | [`Manual`](#ElementControl.Manual) |
 | [`ProgramControlled`](#ElementControl.ProgramControlled) |
 

@@ -17,7 +17,7 @@ Defines a MagneticDirectionalForces.
 ### Methods
 
 | Name | Description |
-|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------|
+|---------------------------------------------------------------------------------|-----------------------------------------------------------------------------------|
 | [`Activate`](#MagneticDirectionalForces.Activate)                               | Activate the current object.                                                      |
 | [`AddAlert`](#MagneticDirectionalForces.AddAlert)                               | Creates a new Alert                                                               |
 | [`AddComment`](#MagneticDirectionalForces.AddComment)                           | Creates a new child Comment.                                                      |
@@ -48,7 +48,7 @@ Defines a MagneticDirectionalForces.
 ### Properties
 
 | Name | Description |
-|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------|
+|-----------------------------------------------------------------------------------------------------|------------------------------------------------------------------------|
 | [`Average`](#MagneticDirectionalForces.Average)                                                     | Gets the Average.                                                      |
 | [`AverageAcrossBodies`](#MagneticDirectionalForces.AverageAcrossBodies)                             | Gets or sets the AverageAcrossBodies.                                  |
 | [`By`](#MagneticDirectionalForces.By)                                                               | Gets or sets the By.                                                   |
@@ -99,14 +99,14 @@ Defines a MagneticDirectionalForces.
 | [`Substep`](#MagneticDirectionalForces.Substep)                                                     | Gets the Substep.                                                      |
 | [`Suppressed`](#MagneticDirectionalForces.Suppressed)                                               | Gets or sets the Suppressed.                                           |
 | [`Surface`](#MagneticDirectionalForces.Surface)                                                     | Surface property.                                                      |
-| [`SurfaceCoating`](#MagneticDirectionalForces.SurfaceCoating)                                                                                                                                                            | SurfaceCoating property.                                               |
+| [`SurfaceCoating`](#MagneticDirectionalForces.SurfaceCoating)                                       | SurfaceCoating property.                                               |
 | [`Time`](#MagneticDirectionalForces.Time)                                                           | Gets the Time.                                                         |
 | [`TimeForMaximumOfMaximumValues`](#MagneticDirectionalForces.TimeForMaximumOfMaximumValues)         | Get the Time for the maximum of maximum values.                        |
 | [`TimeForMaximumOfMinimumValues`](#MagneticDirectionalForces.TimeForMaximumOfMinimumValues)         | Get the Time for the maximum of minimum values.                        |
 | [`TimeForMinimumOfMaximumValues`](#MagneticDirectionalForces.TimeForMinimumOfMaximumValues)         | Get the Time for the minimum of maximum values.                        |
 | [`TimeForMinimumOfMinimumValues`](#MagneticDirectionalForces.TimeForMinimumOfMinimumValues)         | Get the Time for the minimum of minimum values.                        |
 | [`VisibleProperties`](#MagneticDirectionalForces.VisibleProperties)                                 | Gets the list of properties that are visible for this object.          |
-| [`WaterfallShowTextOnMosaic`](#MagneticDirectionalForces.WaterfallShowTextOnMosaic)                                                                                                                                      | Gets or sets the Waterfall Mosaic Text Property.                       |
+| [`WaterfallShowTextOnMosaic`](#MagneticDirectionalForces.WaterfallShowTextOnMosaic)                 | Gets or sets the Waterfall Mosaic Text Property.                       |
 
 <a id="property-detail"></a>
 
@@ -122,7 +122,7 @@ Gets the Average.
 
 <a id="MagneticDirectionalForces.AverageAcrossBodies"></a>
 
-### *property* MagneticDirectionalForces.AverageAcrossBodies *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* MagneticDirectionalForces.AverageAcrossBodies *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the AverageAcrossBodies.
 
@@ -138,7 +138,7 @@ Gets or sets the By.
 
 <a id="MagneticDirectionalForces.CalculateTimeHistory"></a>
 
-### *property* MagneticDirectionalForces.CalculateTimeHistory *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* MagneticDirectionalForces.CalculateTimeHistory *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the CalculateTimeHistory.
 
@@ -146,7 +146,7 @@ Gets or sets the CalculateTimeHistory.
 
 <a id="MagneticDirectionalForces.Children"></a>
 
-### *property* MagneticDirectionalForces.Children *: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* MagneticDirectionalForces.Children *: List[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of children.
 
@@ -154,7 +154,7 @@ Gets the list of children.
 
 <a id="MagneticDirectionalForces.CombinationNumber"></a>
 
-### *property* MagneticDirectionalForces.CombinationNumber *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* MagneticDirectionalForces.CombinationNumber *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Combination Number for a Solution Combination result.
 
@@ -162,7 +162,7 @@ Gets or sets the Combination Number for a Solution Combination result.
 
 <a id="MagneticDirectionalForces.Comments"></a>
 
-### *property* MagneticDirectionalForces.Comments *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Comment](../../../../../../../v241/Ansys/ACT/Automation/Mechanical/Comment.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* MagneticDirectionalForces.Comments *: Iterable[[Ansys.ACT.Automation.Mechanical.Comment](../../Comment.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated comments.
 
@@ -170,7 +170,7 @@ Gets the list of associated comments.
 
 <a id="MagneticDirectionalForces.CoordinateSystem"></a>
 
-### *property* MagneticDirectionalForces.CoordinateSystem *: [Ansys.ACT.Automation.Mechanical.CoordinateSystem](../../../../../../../v241/Ansys/ACT/Automation/Mechanical/CoordinateSystem.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.CoordinateSystem) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* MagneticDirectionalForces.CoordinateSystem *: [Ansys.ACT.Automation.Mechanical.CoordinateSystem](../../CoordinateSystem.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.CoordinateSystem) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Coordinate System.
 Accepts/Returns None for Solution Coordinate System in the general case (if applicable).
@@ -180,7 +180,7 @@ Accepts/Returns None for Fiber Coordinate System for a result that is sub scoped
 
 <a id="MagneticDirectionalForces.CrackFrontNumber"></a>
 
-### *property* MagneticDirectionalForces.CrackFrontNumber *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* MagneticDirectionalForces.CrackFrontNumber *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the CrackFrontNumber.
 
@@ -228,7 +228,7 @@ Gets or sets the ElectromagneticResultType.
 
 <a id="MagneticDirectionalForces.Figures"></a>
 
-### *property* MagneticDirectionalForces.Figures *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Figure](../../../../../../../v241/Ansys/ACT/Automation/Mechanical/Figure.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* MagneticDirectionalForces.Figures *: Iterable[[Ansys.ACT.Automation.Mechanical.Figure](../../Figure.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated figures.
 
@@ -236,7 +236,7 @@ Gets the list of associated figures.
 
 <a id="MagneticDirectionalForces.GlobalIDs"></a>
 
-### *property* MagneticDirectionalForces.GlobalIDs *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* MagneticDirectionalForces.GlobalIDs *: [str](https://docs.python.org/3/library/stdtypes.html#str) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the GlobalIDs.
 
@@ -252,7 +252,7 @@ Gets or sets the GraphControlsXAxis.
 
 <a id="MagneticDirectionalForces.Identifier"></a>
 
-### *property* MagneticDirectionalForces.Identifier *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* MagneticDirectionalForces.Identifier *: [str](https://docs.python.org/3/library/stdtypes.html#str) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Identifier.
 
@@ -260,7 +260,7 @@ Gets or sets the Identifier.
 
 <a id="MagneticDirectionalForces.Images"></a>
 
-### *property* MagneticDirectionalForces.Images *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Image](../../../../../../../v241/Ansys/ACT/Automation/Mechanical/Image.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* MagneticDirectionalForces.Images *: Iterable[[Ansys.ACT.Automation.Mechanical.Image](../../Image.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated images.
 
@@ -276,7 +276,7 @@ Gets the internal object. For advanced usage only.
 
 <a id="MagneticDirectionalForces.IsSolved"></a>
 
-### *property* MagneticDirectionalForces.IsSolved *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* MagneticDirectionalForces.IsSolved *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the IsSolved.
 
@@ -292,7 +292,7 @@ Gets or sets the ItemType.
 
 <a id="MagneticDirectionalForces.IterationNumber"></a>
 
-### *property* MagneticDirectionalForces.IterationNumber *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* MagneticDirectionalForces.IterationNumber *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the IterationNumber.
 
@@ -300,7 +300,7 @@ Gets the IterationNumber.
 
 <a id="MagneticDirectionalForces.LoadStep"></a>
 
-### *property* MagneticDirectionalForces.LoadStep *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* MagneticDirectionalForces.LoadStep *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the LoadStep.
 
@@ -308,7 +308,7 @@ Gets the LoadStep.
 
 <a id="MagneticDirectionalForces.LoadStepForMaximumOfMaximumValues"></a>
 
-### *property* MagneticDirectionalForces.LoadStepForMaximumOfMaximumValues *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* MagneticDirectionalForces.LoadStepForMaximumOfMaximumValues *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Get the Load Step for the maximum of maximum values.
 
@@ -316,7 +316,7 @@ Get the Load Step for the maximum of maximum values.
 
 <a id="MagneticDirectionalForces.LoadStepForMaximumOfMinimumValues"></a>
 
-### *property* MagneticDirectionalForces.LoadStepForMaximumOfMinimumValues *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* MagneticDirectionalForces.LoadStepForMaximumOfMinimumValues *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Get the Load Step for the maximum of minimum values.
 
@@ -324,7 +324,7 @@ Get the Load Step for the maximum of minimum values.
 
 <a id="MagneticDirectionalForces.LoadStepForMinimumOfMaximumValues"></a>
 
-### *property* MagneticDirectionalForces.LoadStepForMinimumOfMaximumValues *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* MagneticDirectionalForces.LoadStepForMinimumOfMaximumValues *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Get the Load Step for the minimum of maximum values.
 
@@ -332,7 +332,7 @@ Get the Load Step for the minimum of maximum values.
 
 <a id="MagneticDirectionalForces.LoadStepForMinimumOfMinimumValues"></a>
 
-### *property* MagneticDirectionalForces.LoadStepForMinimumOfMinimumValues *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* MagneticDirectionalForces.LoadStepForMinimumOfMinimumValues *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Get the Load Step for the minimum of minimum values.
 
@@ -340,7 +340,7 @@ Get the Load Step for the minimum of minimum values.
 
 <a id="MagneticDirectionalForces.LoadStepNumber"></a>
 
-### *property* MagneticDirectionalForces.LoadStepNumber *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* MagneticDirectionalForces.LoadStepNumber *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the LoadStepNumber.
 
@@ -364,7 +364,7 @@ Gets the Maximum.
 
 <a id="MagneticDirectionalForces.MaximumOccursOn"></a>
 
-### *property* MagneticDirectionalForces.MaximumOccursOn *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* MagneticDirectionalForces.MaximumOccursOn *: [str](https://docs.python.org/3/library/stdtypes.html#str) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the MaximumOccursOn.
 
@@ -396,7 +396,7 @@ Gets the Minimum.
 
 <a id="MagneticDirectionalForces.MinimumOccursOn"></a>
 
-### *property* MagneticDirectionalForces.MinimumOccursOn *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* MagneticDirectionalForces.MinimumOccursOn *: [str](https://docs.python.org/3/library/stdtypes.html#str) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the MinimumOccursOn.
 
@@ -420,7 +420,7 @@ Gets the MinimumOfMinimumOverTime.
 
 <a id="MagneticDirectionalForces.NamedSelections"></a>
 
-### *property* MagneticDirectionalForces.NamedSelections *: System.Collections.Generic.IEnumerable[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* MagneticDirectionalForces.NamedSelections *: Iterable[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the NamedSelections.
 
@@ -452,7 +452,7 @@ Gets the result table.
 
 <a id="MagneticDirectionalForces.Properties"></a>
 
-### *property* MagneticDirectionalForces.Properties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* MagneticDirectionalForces.Properties *: [tuple](https://docs.python.org/3/library/stdtypes.html#tuple)[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of properties for this object.
 
@@ -468,7 +468,7 @@ Gets or sets the ScopingMethod.
 
 <a id="MagneticDirectionalForces.SetNumber"></a>
 
-### *property* MagneticDirectionalForces.SetNumber *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* MagneticDirectionalForces.SetNumber *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Set Number.
 
@@ -484,7 +484,7 @@ Gets or sets the SolutionCombinationDriver.
 
 <a id="MagneticDirectionalForces.SolverComponentIDs"></a>
 
-### *property* MagneticDirectionalForces.SolverComponentIDs *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* MagneticDirectionalForces.SolverComponentIDs *: [str](https://docs.python.org/3/library/stdtypes.html#str) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the SolverComponentIDs.
 
@@ -492,7 +492,7 @@ Gets or sets the SolverComponentIDs.
 
 <a id="MagneticDirectionalForces.Substep"></a>
 
-### *property* MagneticDirectionalForces.Substep *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* MagneticDirectionalForces.Substep *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the Substep.
 
@@ -500,7 +500,7 @@ Gets the Substep.
 
 <a id="MagneticDirectionalForces.Suppressed"></a>
 
-### *property* MagneticDirectionalForces.Suppressed *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* MagneticDirectionalForces.Suppressed *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Suppressed.
 
@@ -564,7 +564,7 @@ Get the Time for the minimum of minimum values.
 
 <a id="MagneticDirectionalForces.VisibleProperties"></a>
 
-### *property* MagneticDirectionalForces.VisibleProperties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* MagneticDirectionalForces.VisibleProperties *: [tuple](https://docs.python.org/3/library/stdtypes.html#tuple)[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of properties that are visible for this object.
 
@@ -572,7 +572,7 @@ Gets the list of properties that are visible for this object.
 
 <a id="MagneticDirectionalForces.WaterfallShowTextOnMosaic"></a>
 
-### *property* MagneticDirectionalForces.WaterfallShowTextOnMosaic *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* MagneticDirectionalForces.WaterfallShowTextOnMosaic *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Waterfall Mosaic Text Property.
 
@@ -624,7 +624,7 @@ Creates a new child Figure.
 
 <a id="MagneticDirectionalForces.AddImage"></a>
 
-### MagneticDirectionalForces.AddImage(filePath: System.String)
+### MagneticDirectionalForces.AddImage(filePath: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 ```text
 Creates a new child Image.
@@ -652,7 +652,7 @@ Copies all visible properties from this object to another.
 
 <a id="MagneticDirectionalForces.CreateParameter"></a>
 
-### MagneticDirectionalForces.CreateParameter(propName: System.String)
+### MagneticDirectionalForces.CreateParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 CreateParameter method.
 
@@ -700,7 +700,7 @@ Run the EvaluateAllResults action.
 
 <a id="MagneticDirectionalForces.ExportAnimation"></a>
 
-### MagneticDirectionalForces.ExportAnimation(filePath: System.String, format: [Ansys.Mechanical.DataModel.Enums.GraphicsAnimationExportFormat](../../../../../Mechanical/DataModel/Enums/GraphicsAnimationExportFormat.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.GraphicsAnimationExportFormat), settings: [Ansys.Mechanical.Graphics.AnimationExportSettings](../../../../../Mechanical/Graphics/AnimationExportSettings.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.Graphics.AnimationExportSettings))
+### MagneticDirectionalForces.ExportAnimation(filePath: [str](https://docs.python.org/3/library/stdtypes.html#str), format: [Ansys.Mechanical.DataModel.Enums.GraphicsAnimationExportFormat](../../../../../Mechanical/DataModel/Enums/GraphicsAnimationExportFormat.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.GraphicsAnimationExportFormat), settings: [Ansys.Mechanical.Graphics.AnimationExportSettings](../../../../../Mechanical/Graphics/AnimationExportSettings.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.Graphics.AnimationExportSettings))
 
 Run the ExportAnimation action.
 
@@ -708,7 +708,7 @@ Run the ExportAnimation action.
 
 <a id="MagneticDirectionalForces.ExportToTextFile"></a>
 
-### MagneticDirectionalForces.ExportToTextFile(filePath: System.String)
+### MagneticDirectionalForces.ExportToTextFile(filePath: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Run the ExportToTextFile action.
 
@@ -724,7 +724,7 @@ Run the FetchRemoteResult action.
 
 <a id="MagneticDirectionalForces.GetChildren"></a>
 
-### MagneticDirectionalForces.GetChildren(recurses: System.Boolean, children: System.Collections.Generic.IList[ChildrenType])
+### MagneticDirectionalForces.GetChildren(recurses: [bool](https://docs.python.org/3/library/functions.html#bool), children: List[ChildrenType])
 
 Gets the list of children, filtered by type.
 
@@ -732,7 +732,7 @@ Gets the list of children, filtered by type.
 
 <a id="MagneticDirectionalForces.GetParameter"></a>
 
-### MagneticDirectionalForces.GetParameter(propName: System.String)
+### MagneticDirectionalForces.GetParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Gets the parameter corresponding to the given property.
 
@@ -764,7 +764,7 @@ Run the PromoteToNamedSelection action.
 
 <a id="MagneticDirectionalForces.PropertyByAPIName"></a>
 
-### MagneticDirectionalForces.PropertyByAPIName(name: System.String)
+### MagneticDirectionalForces.PropertyByAPIName(name: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 ```text
 Get a property by its API name.
@@ -775,7 +775,7 @@ If multiple properties have the same API Name, only the first property with that
 
 <a id="MagneticDirectionalForces.PropertyByName"></a>
 
-### MagneticDirectionalForces.PropertyByName(name: System.String)
+### MagneticDirectionalForces.PropertyByName(name: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Get a property by its unique name.
 
@@ -783,7 +783,7 @@ Get a property by its unique name.
 
 <a id="MagneticDirectionalForces.RemoveParameter"></a>
 
-### MagneticDirectionalForces.RemoveParameter(propName: System.String)
+### MagneticDirectionalForces.RemoveParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Removes the parameter from the parameter set corresponding to the given property.
 

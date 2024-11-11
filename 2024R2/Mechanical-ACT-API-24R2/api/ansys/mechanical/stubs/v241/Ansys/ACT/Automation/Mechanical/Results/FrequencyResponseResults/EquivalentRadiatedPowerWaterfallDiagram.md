@@ -121,7 +121,7 @@ Gets the Average.
 
 <a id="EquivalentRadiatedPowerWaterfallDiagram.By"></a>
 
-### *property* EquivalentRadiatedPowerWaterfallDiagram.By *: [Ansys.Mechanical.DataModel.Enums.SetDriverStyle](../../../../../../../v242/Ansys/Mechanical/DataModel/Enums/SetDriverStyle.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.SetDriverStyle) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* EquivalentRadiatedPowerWaterfallDiagram.By *: [Ansys.Mechanical.DataModel.Enums.SetDriverStyle](../../../../../Mechanical/DataModel/Enums/SetDriverStyle.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.SetDriverStyle) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the By.
 
@@ -129,7 +129,7 @@ Gets or sets the By.
 
 <a id="EquivalentRadiatedPowerWaterfallDiagram.CalculateTimeHistory"></a>
 
-### *property* EquivalentRadiatedPowerWaterfallDiagram.CalculateTimeHistory *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* EquivalentRadiatedPowerWaterfallDiagram.CalculateTimeHistory *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the CalculateTimeHistory.
 
@@ -137,7 +137,7 @@ Gets or sets the CalculateTimeHistory.
 
 <a id="EquivalentRadiatedPowerWaterfallDiagram.Children"></a>
 
-### *property* EquivalentRadiatedPowerWaterfallDiagram.Children *: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* EquivalentRadiatedPowerWaterfallDiagram.Children *: List[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of children.
 
@@ -145,7 +145,7 @@ Gets the list of children.
 
 <a id="EquivalentRadiatedPowerWaterfallDiagram.CombinationNumber"></a>
 
-### *property* EquivalentRadiatedPowerWaterfallDiagram.CombinationNumber *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* EquivalentRadiatedPowerWaterfallDiagram.CombinationNumber *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Combination Number for a Solution Combination result.
 
@@ -153,7 +153,7 @@ Gets or sets the Combination Number for a Solution Combination result.
 
 <a id="EquivalentRadiatedPowerWaterfallDiagram.Comments"></a>
 
-### *property* EquivalentRadiatedPowerWaterfallDiagram.Comments *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Comment](../../Comment.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* EquivalentRadiatedPowerWaterfallDiagram.Comments *: Iterable[[Ansys.ACT.Automation.Mechanical.Comment](../../Comment.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated comments.
 
@@ -171,7 +171,7 @@ Accepts/Returns None for Fiber Coordinate System for a result that is sub scoped
 
 <a id="EquivalentRadiatedPowerWaterfallDiagram.CrackFrontNumber"></a>
 
-### *property* EquivalentRadiatedPowerWaterfallDiagram.CrackFrontNumber *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* EquivalentRadiatedPowerWaterfallDiagram.CrackFrontNumber *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the CrackFrontNumber.
 
@@ -179,7 +179,7 @@ Gets or sets the CrackFrontNumber.
 
 <a id="EquivalentRadiatedPowerWaterfallDiagram.DataModelObjectCategory"></a>
 
-### *property* EquivalentRadiatedPowerWaterfallDiagram.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../../../v242/Ansys/Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* EquivalentRadiatedPowerWaterfallDiagram.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the current DataModelObject’s category.
 
@@ -187,7 +187,7 @@ Gets the current DataModelObject’s category.
 
 <a id="EquivalentRadiatedPowerWaterfallDiagram.DisplayOption"></a>
 
-### *property* EquivalentRadiatedPowerWaterfallDiagram.DisplayOption *: [Ansys.Mechanical.DataModel.Enums.ResultAveragingType](../../../../../../../v242/Ansys/Mechanical/DataModel/Enums/ResultAveragingType.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.ResultAveragingType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* EquivalentRadiatedPowerWaterfallDiagram.DisplayOption *: [Ansys.Mechanical.DataModel.Enums.ResultAveragingType](../../../../../Mechanical/DataModel/Enums/ResultAveragingType.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.ResultAveragingType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the DisplayOption.
 
@@ -195,7 +195,7 @@ Gets or sets the DisplayOption.
 
 <a id="EquivalentRadiatedPowerWaterfallDiagram.DisplayPanel"></a>
 
-### *property* EquivalentRadiatedPowerWaterfallDiagram.DisplayPanel *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* EquivalentRadiatedPowerWaterfallDiagram.DisplayPanel *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the DisplayPanel.
 
@@ -211,7 +211,7 @@ Gets or sets the DisplayTime.
 
 <a id="EquivalentRadiatedPowerWaterfallDiagram.DpfEvaluation"></a>
 
-### *property* EquivalentRadiatedPowerWaterfallDiagram.DpfEvaluation *: [Ansys.Mechanical.DataModel.Enums.DpfEvaluationType](../../../../../../../v242/Ansys/Mechanical/DataModel/Enums/DpfEvaluationType.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.DpfEvaluationType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* EquivalentRadiatedPowerWaterfallDiagram.DpfEvaluation *: [Ansys.Mechanical.DataModel.Enums.DpfEvaluationType](../../../../../Mechanical/DataModel/Enums/DpfEvaluationType.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DpfEvaluationType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the DpfEvaluation.
 
@@ -219,7 +219,7 @@ Gets or sets the DpfEvaluation.
 
 <a id="EquivalentRadiatedPowerWaterfallDiagram.Figures"></a>
 
-### *property* EquivalentRadiatedPowerWaterfallDiagram.Figures *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Figure](../../Figure.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* EquivalentRadiatedPowerWaterfallDiagram.Figures *: Iterable[[Ansys.ACT.Automation.Mechanical.Figure](../../Figure.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated figures.
 
@@ -227,7 +227,7 @@ Gets the list of associated figures.
 
 <a id="EquivalentRadiatedPowerWaterfallDiagram.GlobalIDs"></a>
 
-### *property* EquivalentRadiatedPowerWaterfallDiagram.GlobalIDs *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* EquivalentRadiatedPowerWaterfallDiagram.GlobalIDs *: [str](https://docs.python.org/3/library/stdtypes.html#str) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the GlobalIDs.
 
@@ -235,7 +235,7 @@ Gets or sets the GlobalIDs.
 
 <a id="EquivalentRadiatedPowerWaterfallDiagram.GraphControlsXAxis"></a>
 
-### *property* EquivalentRadiatedPowerWaterfallDiagram.GraphControlsXAxis *: [Ansys.Mechanical.DataModel.Enums.GraphControlsXAxis](../../../../../../../v242/Ansys/Mechanical/DataModel/Enums/GraphControlsXAxis.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.GraphControlsXAxis) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* EquivalentRadiatedPowerWaterfallDiagram.GraphControlsXAxis *: [Ansys.Mechanical.DataModel.Enums.GraphControlsXAxis](../../../../../Mechanical/DataModel/Enums/GraphControlsXAxis.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.GraphControlsXAxis) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the GraphControlsXAxis.
 
@@ -243,7 +243,7 @@ Gets or sets the GraphControlsXAxis.
 
 <a id="EquivalentRadiatedPowerWaterfallDiagram.Identifier"></a>
 
-### *property* EquivalentRadiatedPowerWaterfallDiagram.Identifier *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* EquivalentRadiatedPowerWaterfallDiagram.Identifier *: [str](https://docs.python.org/3/library/stdtypes.html#str) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Identifier.
 
@@ -251,7 +251,7 @@ Gets or sets the Identifier.
 
 <a id="EquivalentRadiatedPowerWaterfallDiagram.Images"></a>
 
-### *property* EquivalentRadiatedPowerWaterfallDiagram.Images *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Image](../../Image.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* EquivalentRadiatedPowerWaterfallDiagram.Images *: Iterable[[Ansys.ACT.Automation.Mechanical.Image](../../Image.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated images.
 
@@ -267,7 +267,7 @@ Gets the internal object. For advanced usage only.
 
 <a id="EquivalentRadiatedPowerWaterfallDiagram.IsSolved"></a>
 
-### *property* EquivalentRadiatedPowerWaterfallDiagram.IsSolved *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* EquivalentRadiatedPowerWaterfallDiagram.IsSolved *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the IsSolved.
 
@@ -275,7 +275,7 @@ Gets the IsSolved.
 
 <a id="EquivalentRadiatedPowerWaterfallDiagram.ItemType"></a>
 
-### *property* EquivalentRadiatedPowerWaterfallDiagram.ItemType *: [Ansys.Mechanical.DataModel.Enums.ResultFileItemType](../../../../../../../v242/Ansys/Mechanical/DataModel/Enums/ResultFileItemType.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.ResultFileItemType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* EquivalentRadiatedPowerWaterfallDiagram.ItemType *: [Ansys.Mechanical.DataModel.Enums.ResultFileItemType](../../../../../Mechanical/DataModel/Enums/ResultFileItemType.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.ResultFileItemType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the ItemType.
 
@@ -283,7 +283,7 @@ Gets or sets the ItemType.
 
 <a id="EquivalentRadiatedPowerWaterfallDiagram.IterationNumber"></a>
 
-### *property* EquivalentRadiatedPowerWaterfallDiagram.IterationNumber *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* EquivalentRadiatedPowerWaterfallDiagram.IterationNumber *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the IterationNumber.
 
@@ -291,7 +291,7 @@ Gets the IterationNumber.
 
 <a id="EquivalentRadiatedPowerWaterfallDiagram.LoadStep"></a>
 
-### *property* EquivalentRadiatedPowerWaterfallDiagram.LoadStep *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* EquivalentRadiatedPowerWaterfallDiagram.LoadStep *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the LoadStep.
 
@@ -299,7 +299,7 @@ Gets the LoadStep.
 
 <a id="EquivalentRadiatedPowerWaterfallDiagram.LoadStepForMaximumOfMaximumValues"></a>
 
-### *property* EquivalentRadiatedPowerWaterfallDiagram.LoadStepForMaximumOfMaximumValues *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* EquivalentRadiatedPowerWaterfallDiagram.LoadStepForMaximumOfMaximumValues *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Get the Load Step for the maximum of maximum values.
 
@@ -307,7 +307,7 @@ Get the Load Step for the maximum of maximum values.
 
 <a id="EquivalentRadiatedPowerWaterfallDiagram.LoadStepForMaximumOfMinimumValues"></a>
 
-### *property* EquivalentRadiatedPowerWaterfallDiagram.LoadStepForMaximumOfMinimumValues *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* EquivalentRadiatedPowerWaterfallDiagram.LoadStepForMaximumOfMinimumValues *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Get the Load Step for the maximum of minimum values.
 
@@ -315,7 +315,7 @@ Get the Load Step for the maximum of minimum values.
 
 <a id="EquivalentRadiatedPowerWaterfallDiagram.LoadStepForMinimumOfMaximumValues"></a>
 
-### *property* EquivalentRadiatedPowerWaterfallDiagram.LoadStepForMinimumOfMaximumValues *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* EquivalentRadiatedPowerWaterfallDiagram.LoadStepForMinimumOfMaximumValues *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Get the Load Step for the minimum of maximum values.
 
@@ -323,7 +323,7 @@ Get the Load Step for the minimum of maximum values.
 
 <a id="EquivalentRadiatedPowerWaterfallDiagram.LoadStepForMinimumOfMinimumValues"></a>
 
-### *property* EquivalentRadiatedPowerWaterfallDiagram.LoadStepForMinimumOfMinimumValues *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* EquivalentRadiatedPowerWaterfallDiagram.LoadStepForMinimumOfMinimumValues *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Get the Load Step for the minimum of minimum values.
 
@@ -331,7 +331,7 @@ Get the Load Step for the minimum of minimum values.
 
 <a id="EquivalentRadiatedPowerWaterfallDiagram.LoadStepNumber"></a>
 
-### *property* EquivalentRadiatedPowerWaterfallDiagram.LoadStepNumber *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* EquivalentRadiatedPowerWaterfallDiagram.LoadStepNumber *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the LoadStepNumber.
 
@@ -355,7 +355,7 @@ Gets the Maximum.
 
 <a id="EquivalentRadiatedPowerWaterfallDiagram.MaximumOccursOn"></a>
 
-### *property* EquivalentRadiatedPowerWaterfallDiagram.MaximumOccursOn *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* EquivalentRadiatedPowerWaterfallDiagram.MaximumOccursOn *: [str](https://docs.python.org/3/library/stdtypes.html#str) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the MaximumOccursOn.
 
@@ -387,7 +387,7 @@ Gets the Minimum.
 
 <a id="EquivalentRadiatedPowerWaterfallDiagram.MinimumOccursOn"></a>
 
-### *property* EquivalentRadiatedPowerWaterfallDiagram.MinimumOccursOn *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* EquivalentRadiatedPowerWaterfallDiagram.MinimumOccursOn *: [str](https://docs.python.org/3/library/stdtypes.html#str) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the MinimumOccursOn.
 
@@ -411,7 +411,7 @@ Gets the MinimumOfMinimumOverTime.
 
 <a id="EquivalentRadiatedPowerWaterfallDiagram.NamedSelections"></a>
 
-### *property* EquivalentRadiatedPowerWaterfallDiagram.NamedSelections *: System.Collections.Generic.IEnumerable[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* EquivalentRadiatedPowerWaterfallDiagram.NamedSelections *: Iterable[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the NamedSelections.
 
@@ -419,7 +419,7 @@ Gets or sets the NamedSelections.
 
 <a id="EquivalentRadiatedPowerWaterfallDiagram.PanelContribution"></a>
 
-### *property* EquivalentRadiatedPowerWaterfallDiagram.PanelContribution *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* EquivalentRadiatedPowerWaterfallDiagram.PanelContribution *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the PanelContribution.
 
@@ -435,7 +435,7 @@ Gets or sets the PanelsToDisplay.
 
 <a id="EquivalentRadiatedPowerWaterfallDiagram.Path"></a>
 
-### *property* EquivalentRadiatedPowerWaterfallDiagram.Path *: [Ansys.ACT.Automation.Mechanical.Path](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Path.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Path) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* EquivalentRadiatedPowerWaterfallDiagram.Path *: [Ansys.ACT.Automation.Mechanical.Path](../../Path.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Path) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Path property.
 
@@ -443,7 +443,7 @@ Path property.
 
 <a id="EquivalentRadiatedPowerWaterfallDiagram.PlotData"></a>
 
-### *property* EquivalentRadiatedPowerWaterfallDiagram.PlotData *: [Ansys.Mechanical.DataModel.Results.ResultDataTable](../../../../../../../v242/Ansys/Mechanical/DataModel/Results/ResultDataTable.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Results.ResultDataTable) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* EquivalentRadiatedPowerWaterfallDiagram.PlotData *: [Ansys.Mechanical.DataModel.Results.ResultDataTable](../../../../../Mechanical/DataModel/Results/ResultDataTable.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Results.ResultDataTable) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the result table.
 
@@ -451,7 +451,7 @@ Gets the result table.
 
 <a id="EquivalentRadiatedPowerWaterfallDiagram.Properties"></a>
 
-### *property* EquivalentRadiatedPowerWaterfallDiagram.Properties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* EquivalentRadiatedPowerWaterfallDiagram.Properties *: [tuple](https://docs.python.org/3/library/stdtypes.html#tuple)[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of properties for this object.
 
@@ -459,7 +459,7 @@ Gets the list of properties for this object.
 
 <a id="EquivalentRadiatedPowerWaterfallDiagram.ScopingMethod"></a>
 
-### *property* EquivalentRadiatedPowerWaterfallDiagram.ScopingMethod *: [Ansys.Mechanical.DataModel.Enums.GeometryDefineByType](../../../../../../../v242/Ansys/Mechanical/DataModel/Enums/GeometryDefineByType.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.GeometryDefineByType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* EquivalentRadiatedPowerWaterfallDiagram.ScopingMethod *: [Ansys.Mechanical.DataModel.Enums.GeometryDefineByType](../../../../../Mechanical/DataModel/Enums/GeometryDefineByType.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.GeometryDefineByType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the ScopingMethod.
 
@@ -467,7 +467,7 @@ Gets or sets the ScopingMethod.
 
 <a id="EquivalentRadiatedPowerWaterfallDiagram.SetNumber"></a>
 
-### *property* EquivalentRadiatedPowerWaterfallDiagram.SetNumber *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* EquivalentRadiatedPowerWaterfallDiagram.SetNumber *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Set Number.
 
@@ -475,7 +475,7 @@ Gets or sets the Set Number.
 
 <a id="EquivalentRadiatedPowerWaterfallDiagram.SolutionCombinationDriver"></a>
 
-### *property* EquivalentRadiatedPowerWaterfallDiagram.SolutionCombinationDriver *: [Ansys.Mechanical.DataModel.Enums.SolutionCombinationDriverStyle](../../../../../../../v242/Ansys/Mechanical/DataModel/Enums/SolutionCombinationDriverStyle.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.SolutionCombinationDriverStyle) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* EquivalentRadiatedPowerWaterfallDiagram.SolutionCombinationDriver *: [Ansys.Mechanical.DataModel.Enums.SolutionCombinationDriverStyle](../../../../../Mechanical/DataModel/Enums/SolutionCombinationDriverStyle.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.SolutionCombinationDriverStyle) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the SolutionCombinationDriver.
 
@@ -483,7 +483,7 @@ Gets or sets the SolutionCombinationDriver.
 
 <a id="EquivalentRadiatedPowerWaterfallDiagram.SolverComponentIDs"></a>
 
-### *property* EquivalentRadiatedPowerWaterfallDiagram.SolverComponentIDs *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* EquivalentRadiatedPowerWaterfallDiagram.SolverComponentIDs *: [str](https://docs.python.org/3/library/stdtypes.html#str) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the SolverComponentIDs.
 
@@ -491,7 +491,7 @@ Gets or sets the SolverComponentIDs.
 
 <a id="EquivalentRadiatedPowerWaterfallDiagram.Substep"></a>
 
-### *property* EquivalentRadiatedPowerWaterfallDiagram.Substep *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* EquivalentRadiatedPowerWaterfallDiagram.Substep *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the Substep.
 
@@ -499,7 +499,7 @@ Gets the Substep.
 
 <a id="EquivalentRadiatedPowerWaterfallDiagram.Suppressed"></a>
 
-### *property* EquivalentRadiatedPowerWaterfallDiagram.Suppressed *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* EquivalentRadiatedPowerWaterfallDiagram.Suppressed *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Suppressed.
 
@@ -507,7 +507,7 @@ Gets or sets the Suppressed.
 
 <a id="EquivalentRadiatedPowerWaterfallDiagram.Surface"></a>
 
-### *property* EquivalentRadiatedPowerWaterfallDiagram.Surface *: [Ansys.ACT.Automation.Mechanical.Surface](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Surface.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Surface) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* EquivalentRadiatedPowerWaterfallDiagram.Surface *: [Ansys.ACT.Automation.Mechanical.Surface](../../Surface.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Surface) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Surface property.
 
@@ -555,7 +555,7 @@ Get the Time for the minimum of minimum values.
 
 <a id="EquivalentRadiatedPowerWaterfallDiagram.VisibleProperties"></a>
 
-### *property* EquivalentRadiatedPowerWaterfallDiagram.VisibleProperties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* EquivalentRadiatedPowerWaterfallDiagram.VisibleProperties *: [tuple](https://docs.python.org/3/library/stdtypes.html#tuple)[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of properties that are visible for this object.
 
@@ -563,7 +563,7 @@ Gets the list of properties that are visible for this object.
 
 <a id="EquivalentRadiatedPowerWaterfallDiagram.WaterfallPanelShowTextOnMosaic"></a>
 
-### *property* EquivalentRadiatedPowerWaterfallDiagram.WaterfallPanelShowTextOnMosaic *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* EquivalentRadiatedPowerWaterfallDiagram.WaterfallPanelShowTextOnMosaic *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Waterfall Panel Mosaic Text Property.
 
@@ -615,7 +615,7 @@ Creates a new child Figure.
 
 <a id="EquivalentRadiatedPowerWaterfallDiagram.AddImage"></a>
 
-### EquivalentRadiatedPowerWaterfallDiagram.AddImage(filePath: System.String)
+### EquivalentRadiatedPowerWaterfallDiagram.AddImage(filePath: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 ```text
 Creates a new child Image.
@@ -643,7 +643,7 @@ Copies all visible properties from this object to another.
 
 <a id="EquivalentRadiatedPowerWaterfallDiagram.CreateParameter"></a>
 
-### EquivalentRadiatedPowerWaterfallDiagram.CreateParameter(propName: System.String)
+### EquivalentRadiatedPowerWaterfallDiagram.CreateParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 CreateParameter method.
 
@@ -691,7 +691,7 @@ Run the EvaluateAllResults action.
 
 <a id="EquivalentRadiatedPowerWaterfallDiagram.ExportAnimation"></a>
 
-### EquivalentRadiatedPowerWaterfallDiagram.ExportAnimation(filePath: System.String, format: [Ansys.Mechanical.DataModel.Enums.GraphicsAnimationExportFormat](../../../../../../../v242/Ansys/Mechanical/DataModel/Enums/GraphicsAnimationExportFormat.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.GraphicsAnimationExportFormat), settings: [Ansys.Mechanical.Graphics.AnimationExportSettings](../../../../../../../v242/Ansys/Mechanical/Graphics/AnimationExportSettings.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.Graphics.AnimationExportSettings))
+### EquivalentRadiatedPowerWaterfallDiagram.ExportAnimation(filePath: [str](https://docs.python.org/3/library/stdtypes.html#str), format: [Ansys.Mechanical.DataModel.Enums.GraphicsAnimationExportFormat](../../../../../Mechanical/DataModel/Enums/GraphicsAnimationExportFormat.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.GraphicsAnimationExportFormat), settings: [Ansys.Mechanical.Graphics.AnimationExportSettings](../../../../../Mechanical/Graphics/AnimationExportSettings.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.Graphics.AnimationExportSettings))
 
 Run the ExportAnimation action.
 
@@ -699,7 +699,7 @@ Run the ExportAnimation action.
 
 <a id="EquivalentRadiatedPowerWaterfallDiagram.ExportToTextFile"></a>
 
-### EquivalentRadiatedPowerWaterfallDiagram.ExportToTextFile(filePath: System.String)
+### EquivalentRadiatedPowerWaterfallDiagram.ExportToTextFile(filePath: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Run the ExportToTextFile action.
 
@@ -715,7 +715,7 @@ Run the FetchRemoteResult action.
 
 <a id="EquivalentRadiatedPowerWaterfallDiagram.GetChildren"></a>
 
-### EquivalentRadiatedPowerWaterfallDiagram.GetChildren(recurses: System.Boolean, children: System.Collections.Generic.IList[ChildrenType])
+### EquivalentRadiatedPowerWaterfallDiagram.GetChildren(recurses: [bool](https://docs.python.org/3/library/functions.html#bool), children: List[ChildrenType])
 
 Gets the list of children, filtered by type.
 
@@ -723,7 +723,7 @@ Gets the list of children, filtered by type.
 
 <a id="EquivalentRadiatedPowerWaterfallDiagram.GetParameter"></a>
 
-### EquivalentRadiatedPowerWaterfallDiagram.GetParameter(propName: System.String)
+### EquivalentRadiatedPowerWaterfallDiagram.GetParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Gets the parameter corresponding to the given property.
 
@@ -755,7 +755,7 @@ Run the PromoteToNamedSelection action.
 
 <a id="EquivalentRadiatedPowerWaterfallDiagram.PropertyByAPIName"></a>
 
-### EquivalentRadiatedPowerWaterfallDiagram.PropertyByAPIName(name: System.String)
+### EquivalentRadiatedPowerWaterfallDiagram.PropertyByAPIName(name: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 ```text
 Get a property by its API name.
@@ -766,7 +766,7 @@ If multiple properties have the same API Name, only the first property with that
 
 <a id="EquivalentRadiatedPowerWaterfallDiagram.PropertyByName"></a>
 
-### EquivalentRadiatedPowerWaterfallDiagram.PropertyByName(name: System.String)
+### EquivalentRadiatedPowerWaterfallDiagram.PropertyByName(name: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Get a property by its unique name.
 
@@ -774,7 +774,7 @@ Get a property by its unique name.
 
 <a id="EquivalentRadiatedPowerWaterfallDiagram.RemoveParameter"></a>
 
-### EquivalentRadiatedPowerWaterfallDiagram.RemoveParameter(propName: System.String)
+### EquivalentRadiatedPowerWaterfallDiagram.RemoveParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Removes the parameter from the parameter set corresponding to the given property.
 

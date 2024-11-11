@@ -17,7 +17,7 @@ Defines a PrimaryCriterion.
 ### Methods
 
 | Name | Description |
-|-----------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------|
+|------------------------------------------------------------------------|-----------------------------------------------------------------------------------|
 | [`Activate`](#PrimaryCriterion.Activate)                               | Activate the current object.                                                      |
 | [`AddComment`](#PrimaryCriterion.AddComment)                           | Creates a new child Comment.                                                      |
 | [`AddFigure`](#PrimaryCriterion.AddFigure)                             | Creates a new child Figure.                                                       |
@@ -40,7 +40,7 @@ Defines a PrimaryCriterion.
 ### Properties
 
 | Name | Description |
-|-----------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------|
+|------------------------------------------------------------------------------|---------------------------------------------------------------|
 | [`BaseResult`](#PrimaryCriterion.BaseResult)                                 | Gets or sets the BaseResult.                                  |
 | [`BoundaryCondition`](#PrimaryCriterion.BoundaryCondition)                   | Gets or sets the BoundaryCondition.                           |
 | [`Children`](#PrimaryCriterion.Children)                                     | Gets the list of children.                                    |
@@ -96,7 +96,7 @@ Gets or sets the BoundaryCondition.
 
 <a id="PrimaryCriterion.Children"></a>
 
-### *property* PrimaryCriterion.Children *: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* PrimaryCriterion.Children *: List[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of children.
 
@@ -104,7 +104,7 @@ Gets the list of children.
 
 <a id="PrimaryCriterion.Comments"></a>
 
-### *property* PrimaryCriterion.Comments *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Comment](../../../../../v241/Ansys/ACT/Automation/Mechanical/Comment.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* PrimaryCriterion.Comments *: Iterable[[Ansys.ACT.Automation.Mechanical.Comment](Comment.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated comments.
 
@@ -128,7 +128,7 @@ Gets the current DataModelObject’s category.
 
 <a id="PrimaryCriterion.DirectionX"></a>
 
-### *property* PrimaryCriterion.DirectionX *: System.Double | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* PrimaryCriterion.DirectionX *: [float](https://docs.python.org/3/library/functions.html#float) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the DirectionX.
 
@@ -136,7 +136,7 @@ Gets or sets the DirectionX.
 
 <a id="PrimaryCriterion.DirectionY"></a>
 
-### *property* PrimaryCriterion.DirectionY *: System.Double | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* PrimaryCriterion.DirectionY *: [float](https://docs.python.org/3/library/functions.html#float) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the DirectionY.
 
@@ -144,7 +144,7 @@ Gets or sets the DirectionY.
 
 <a id="PrimaryCriterion.DirectionZ"></a>
 
-### *property* PrimaryCriterion.DirectionZ *: System.Double | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* PrimaryCriterion.DirectionZ *: [float](https://docs.python.org/3/library/functions.html#float) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the DirectionZ.
 
@@ -152,7 +152,7 @@ Gets or sets the DirectionZ.
 
 <a id="PrimaryCriterion.DiscretizationError"></a>
 
-### *property* PrimaryCriterion.DiscretizationError *: System.Double | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* PrimaryCriterion.DiscretizationError *: [float](https://docs.python.org/3/library/functions.html#float) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the DiscretizationError.
 
@@ -160,7 +160,7 @@ Gets or sets the DiscretizationError.
 
 <a id="PrimaryCriterion.Figures"></a>
 
-### *property* PrimaryCriterion.Figures *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Figure](../../../../../v241/Ansys/ACT/Automation/Mechanical/Figure.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* PrimaryCriterion.Figures *: Iterable[[Ansys.ACT.Automation.Mechanical.Figure](Figure.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated figures.
 
@@ -184,7 +184,7 @@ Gets or sets the FrequencyReduction.
 
 <a id="PrimaryCriterion.Images"></a>
 
-### *property* PrimaryCriterion.Images *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Image](../../../../../v241/Ansys/ACT/Automation/Mechanical/Image.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* PrimaryCriterion.Images *: Iterable[[Ansys.ACT.Automation.Mechanical.Image](Image.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated images.
 
@@ -232,7 +232,7 @@ Gets or sets the MinimumFrequency.
 
 <a id="PrimaryCriterion.ModeNumber"></a>
 
-### *property* PrimaryCriterion.ModeNumber *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* PrimaryCriterion.ModeNumber *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the ModeNumber.
 
@@ -240,7 +240,7 @@ Gets or sets the ModeNumber.
 
 <a id="PrimaryCriterion.Properties"></a>
 
-### *property* PrimaryCriterion.Properties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* PrimaryCriterion.Properties *: [tuple](https://docs.python.org/3/library/stdtypes.html#tuple)[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of properties for this object.
 
@@ -248,7 +248,7 @@ Gets the list of properties for this object.
 
 <a id="PrimaryCriterion.ReadOnly"></a>
 
-### *property* PrimaryCriterion.ReadOnly *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* PrimaryCriterion.ReadOnly *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the ReadOnly.
 
@@ -296,7 +296,7 @@ Gets or sets the SpatialReductionMethod.
 
 <a id="PrimaryCriterion.Step"></a>
 
-### *property* PrimaryCriterion.Step *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* PrimaryCriterion.Step *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Step.
 
@@ -304,7 +304,7 @@ Gets or sets the Step.
 
 <a id="PrimaryCriterion.Suppressed"></a>
 
-### *property* PrimaryCriterion.Suppressed *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* PrimaryCriterion.Suppressed *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Suppressed.
 
@@ -328,7 +328,7 @@ Gets or sets the VectorReduction.
 
 <a id="PrimaryCriterion.VisibleProperties"></a>
 
-### *property* PrimaryCriterion.VisibleProperties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* PrimaryCriterion.VisibleProperties *: [tuple](https://docs.python.org/3/library/stdtypes.html#tuple)[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of properties that are visible for this object.
 
@@ -364,7 +364,7 @@ Creates a new child Figure.
 
 <a id="PrimaryCriterion.AddImage"></a>
 
-### PrimaryCriterion.AddImage(filePath: System.String)
+### PrimaryCriterion.AddImage(filePath: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 ```text
 Creates a new child Image.
@@ -392,7 +392,7 @@ Copies all visible properties from this object to another.
 
 <a id="PrimaryCriterion.CreateParameter"></a>
 
-### PrimaryCriterion.CreateParameter(propName: System.String)
+### PrimaryCriterion.CreateParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Creates a new parameter for a Property.
 
@@ -424,7 +424,7 @@ Run the EvaluateAllResults action.
 
 <a id="PrimaryCriterion.GetChildren"></a>
 
-### PrimaryCriterion.GetChildren(recurses: System.Boolean, children: System.Collections.Generic.IList[ChildrenType])
+### PrimaryCriterion.GetChildren(recurses: [bool](https://docs.python.org/3/library/functions.html#bool), children: List[ChildrenType])
 
 Gets the list of children, filtered by type.
 
@@ -432,7 +432,7 @@ Gets the list of children, filtered by type.
 
 <a id="PrimaryCriterion.GetParameter"></a>
 
-### PrimaryCriterion.GetParameter(propName: System.String)
+### PrimaryCriterion.GetParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Gets the parameter corresponding to the given property.
 
@@ -456,7 +456,7 @@ Run the GroupSimilarObjects action.
 
 <a id="PrimaryCriterion.PropertyByAPIName"></a>
 
-### PrimaryCriterion.PropertyByAPIName(name: System.String)
+### PrimaryCriterion.PropertyByAPIName(name: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 ```text
 Get a property by its API name.
@@ -467,7 +467,7 @@ If multiple properties have the same API Name, only the first property with that
 
 <a id="PrimaryCriterion.PropertyByName"></a>
 
-### PrimaryCriterion.PropertyByName(name: System.String)
+### PrimaryCriterion.PropertyByName(name: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Get a property by its unique name.
 
@@ -475,7 +475,7 @@ Get a property by its unique name.
 
 <a id="PrimaryCriterion.RemoveParameter"></a>
 
-### PrimaryCriterion.RemoveParameter(propName: System.String)
+### PrimaryCriterion.RemoveParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Removes the parameter from the parameter set corresponding to the given property.
 

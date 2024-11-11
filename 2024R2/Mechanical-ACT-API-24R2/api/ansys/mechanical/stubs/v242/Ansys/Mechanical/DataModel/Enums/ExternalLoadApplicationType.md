@@ -17,7 +17,7 @@ Specifies the ExternalLoadApplicationType.
 ### Attributes
 
 | Name |
-| ------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| ------------------------------------------------------------------------- |
 | [`BoundaryCondition`](#ExternalLoadApplicationType.BoundaryCondition) |
 | [`InitialCondition`](#ExternalLoadApplicationType.InitialCondition) |
 

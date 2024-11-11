@@ -17,7 +17,7 @@ A collection of condensed part interface.
 ### Methods
 
 | Name | Description |
-|-------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------|
+|-------------------------------------------------|----------------------------------------------------|
 | [`Add`](#CondensedPartInterfaces.Add)           | Add new condensed part interface                   |
 | [`Clear`](#CondensedPartInterfaces.Clear)       | Clears all the condensed part interfaces           |
 | [`RemoveAt`](#CondensedPartInterfaces.RemoveAt) | Remove condensed part interface at the given index |
@@ -25,7 +25,7 @@ A collection of condensed part interface.
 ### Properties
 
 | Name | Description |
-|-------------------------------------------------------------------------------------------------------------------------|------------------|
+|-------------------------------------------|------------------|
 | [`Item`](#CondensedPartInterfaces.Item)   | Item property.   |
 
 <a id="property-detail"></a>
@@ -62,7 +62,7 @@ Clears all the condensed part interfaces
 
 <a id="CondensedPartInterfaces.RemoveAt"></a>
 
-### CondensedPartInterfaces.RemoveAt(index: System.Int32)
+### CondensedPartInterfaces.RemoveAt(index: [int](https://docs.python.org/3/library/functions.html#int))
 
 Remove condensed part interface at the given index
 

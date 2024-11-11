@@ -17,7 +17,7 @@ Specifies the NonlinearAdaptivityOptionType.
 ### Attributes
 
 | Name |
-| ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| --------------------------------------------------------------------------------------- |
 | [`JacobianRatio`](#NonlinearAdaptivityOptionType.JacobianRatio) |
 | [`Shape`](#NonlinearAdaptivityOptionType.Shape) |
 | [`Skewness`](#NonlinearAdaptivityOptionType.Skewness) |

@@ -17,7 +17,7 @@ To select the method of AutoNodeMove under PCTet.
 ### Attributes
 
 | Name |
-| ---------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| ----------------------------------------------------------------------- |
 | [`Aggressive`](#AutomaticNodeMovementMethod.Aggressive) |
 | [`Conservative`](#AutomaticNodeMovementMethod.Conservative) |
 | [`Custom`](#AutomaticNodeMovementMethod.Custom) |

@@ -17,7 +17,7 @@ Defines a TemperatureResult.
 ### Methods
 
 | Name | Description |
-|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------|
+|-------------------------------------------------------------------------|-----------------------------------------------------------------------------------|
 | [`Activate`](#TemperatureResult.Activate)                               | Activate the current object.                                                      |
 | [`AddAlert`](#TemperatureResult.AddAlert)                               | Creates a new Alert                                                               |
 | [`AddComment`](#TemperatureResult.AddComment)                           | Creates a new child Comment.                                                      |
@@ -48,7 +48,7 @@ Defines a TemperatureResult.
 ### Properties
 
 | Name | Description |
-|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------|
+|---------------------------------------------------------------------------------------------|------------------------------------------------------------------------|
 | [`Average`](#TemperatureResult.Average)                                                     | Gets the Average.                                                      |
 | [`AverageAcrossBodies`](#TemperatureResult.AverageAcrossBodies)                             | Gets or sets the AverageAcrossBodies.                                  |
 | [`By`](#TemperatureResult.By)                                                               | Gets or sets the By.                                                   |
@@ -100,7 +100,7 @@ Defines a TemperatureResult.
 | [`Substep`](#TemperatureResult.Substep)                                                     | Gets the Substep.                                                      |
 | [`Suppressed`](#TemperatureResult.Suppressed)                                               | Gets or sets the Suppressed.                                           |
 | [`Surface`](#TemperatureResult.Surface)                                                     | Surface property.                                                      |
-| [`SurfaceCoating`](#TemperatureResult.SurfaceCoating)                                                                                                                                            | SurfaceCoating property.                                               |
+| [`SurfaceCoating`](#TemperatureResult.SurfaceCoating)                                       | SurfaceCoating property.                                               |
 | [`ThermalResultType`](#TemperatureResult.ThermalResultType)                                 | Gets or sets the ThermalResultType.                                    |
 | [`Time`](#TemperatureResult.Time)                                                           | Gets the Time.                                                         |
 | [`TimeForMaximumOfMaximumValues`](#TemperatureResult.TimeForMaximumOfMaximumValues)         | Get the Time for the maximum of maximum values.                        |
@@ -108,7 +108,7 @@ Defines a TemperatureResult.
 | [`TimeForMinimumOfMaximumValues`](#TemperatureResult.TimeForMinimumOfMaximumValues)         | Get the Time for the minimum of maximum values.                        |
 | [`TimeForMinimumOfMinimumValues`](#TemperatureResult.TimeForMinimumOfMinimumValues)         | Get the Time for the minimum of minimum values.                        |
 | [`VisibleProperties`](#TemperatureResult.VisibleProperties)                                 | Gets the list of properties that are visible for this object.          |
-| [`WaterfallShowTextOnMosaic`](#TemperatureResult.WaterfallShowTextOnMosaic)                                                                                                                      | Gets or sets the Waterfall Mosaic Text Property.                       |
+| [`WaterfallShowTextOnMosaic`](#TemperatureResult.WaterfallShowTextOnMosaic)                 | Gets or sets the Waterfall Mosaic Text Property.                       |
 
 <a id="property-detail"></a>
 
@@ -124,7 +124,7 @@ Gets the Average.
 
 <a id="TemperatureResult.AverageAcrossBodies"></a>
 
-### *property* TemperatureResult.AverageAcrossBodies *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* TemperatureResult.AverageAcrossBodies *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the AverageAcrossBodies.
 
@@ -140,7 +140,7 @@ Gets or sets the By.
 
 <a id="TemperatureResult.CalculateTimeHistory"></a>
 
-### *property* TemperatureResult.CalculateTimeHistory *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* TemperatureResult.CalculateTimeHistory *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the CalculateTimeHistory.
 
@@ -148,7 +148,7 @@ Gets or sets the CalculateTimeHistory.
 
 <a id="TemperatureResult.Children"></a>
 
-### *property* TemperatureResult.Children *: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* TemperatureResult.Children *: List[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of children.
 
@@ -156,7 +156,7 @@ Gets the list of children.
 
 <a id="TemperatureResult.CombinationNumber"></a>
 
-### *property* TemperatureResult.CombinationNumber *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* TemperatureResult.CombinationNumber *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Combination Number for a Solution Combination result.
 
@@ -164,7 +164,7 @@ Gets or sets the Combination Number for a Solution Combination result.
 
 <a id="TemperatureResult.Comments"></a>
 
-### *property* TemperatureResult.Comments *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Comment](../../../../../../../v241/Ansys/ACT/Automation/Mechanical/Comment.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* TemperatureResult.Comments *: Iterable[[Ansys.ACT.Automation.Mechanical.Comment](../../Comment.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated comments.
 
@@ -172,7 +172,7 @@ Gets the list of associated comments.
 
 <a id="TemperatureResult.CoordinateSystem"></a>
 
-### *property* TemperatureResult.CoordinateSystem *: [Ansys.ACT.Automation.Mechanical.CoordinateSystem](../../../../../../../v241/Ansys/ACT/Automation/Mechanical/CoordinateSystem.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.CoordinateSystem) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* TemperatureResult.CoordinateSystem *: [Ansys.ACT.Automation.Mechanical.CoordinateSystem](../../CoordinateSystem.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.CoordinateSystem) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Coordinate System.
 Accepts/Returns None for Solution Coordinate System in the general case (if applicable).
@@ -182,7 +182,7 @@ Accepts/Returns None for Fiber Coordinate System for a result that is sub scoped
 
 <a id="TemperatureResult.CrackFrontNumber"></a>
 
-### *property* TemperatureResult.CrackFrontNumber *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* TemperatureResult.CrackFrontNumber *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the CrackFrontNumber.
 
@@ -222,7 +222,7 @@ Gets or sets the DpfEvaluation.
 
 <a id="TemperatureResult.Figures"></a>
 
-### *property* TemperatureResult.Figures *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Figure](../../../../../../../v241/Ansys/ACT/Automation/Mechanical/Figure.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* TemperatureResult.Figures *: Iterable[[Ansys.ACT.Automation.Mechanical.Figure](../../Figure.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated figures.
 
@@ -230,7 +230,7 @@ Gets the list of associated figures.
 
 <a id="TemperatureResult.GlobalIDs"></a>
 
-### *property* TemperatureResult.GlobalIDs *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* TemperatureResult.GlobalIDs *: [str](https://docs.python.org/3/library/stdtypes.html#str) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the GlobalIDs.
 
@@ -246,7 +246,7 @@ Gets or sets the GraphControlsXAxis.
 
 <a id="TemperatureResult.Identifier"></a>
 
-### *property* TemperatureResult.Identifier *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* TemperatureResult.Identifier *: [str](https://docs.python.org/3/library/stdtypes.html#str) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Identifier.
 
@@ -254,7 +254,7 @@ Gets or sets the Identifier.
 
 <a id="TemperatureResult.Images"></a>
 
-### *property* TemperatureResult.Images *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Image](../../../../../../../v241/Ansys/ACT/Automation/Mechanical/Image.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* TemperatureResult.Images *: Iterable[[Ansys.ACT.Automation.Mechanical.Image](../../Image.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated images.
 
@@ -270,7 +270,7 @@ Gets the internal object. For advanced usage only.
 
 <a id="TemperatureResult.IsSolved"></a>
 
-### *property* TemperatureResult.IsSolved *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* TemperatureResult.IsSolved *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the IsSolved.
 
@@ -286,7 +286,7 @@ Gets or sets the ItemType.
 
 <a id="TemperatureResult.IterationNumber"></a>
 
-### *property* TemperatureResult.IterationNumber *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* TemperatureResult.IterationNumber *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the IterationNumber.
 
@@ -294,7 +294,7 @@ Gets the IterationNumber.
 
 <a id="TemperatureResult.Layer"></a>
 
-### *property* TemperatureResult.Layer *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* TemperatureResult.Layer *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Layer.
 
@@ -302,7 +302,7 @@ Gets or sets the Layer.
 
 <a id="TemperatureResult.LoadStep"></a>
 
-### *property* TemperatureResult.LoadStep *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* TemperatureResult.LoadStep *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the LoadStep.
 
@@ -310,7 +310,7 @@ Gets the LoadStep.
 
 <a id="TemperatureResult.LoadStepForMaximumOfMaximumValues"></a>
 
-### *property* TemperatureResult.LoadStepForMaximumOfMaximumValues *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* TemperatureResult.LoadStepForMaximumOfMaximumValues *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Get the Load Step for the maximum of maximum values.
 
@@ -318,7 +318,7 @@ Get the Load Step for the maximum of maximum values.
 
 <a id="TemperatureResult.LoadStepForMaximumOfMinimumValues"></a>
 
-### *property* TemperatureResult.LoadStepForMaximumOfMinimumValues *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* TemperatureResult.LoadStepForMaximumOfMinimumValues *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Get the Load Step for the maximum of minimum values.
 
@@ -326,7 +326,7 @@ Get the Load Step for the maximum of minimum values.
 
 <a id="TemperatureResult.LoadStepForMinimumOfMaximumValues"></a>
 
-### *property* TemperatureResult.LoadStepForMinimumOfMaximumValues *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* TemperatureResult.LoadStepForMinimumOfMaximumValues *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Get the Load Step for the minimum of maximum values.
 
@@ -334,7 +334,7 @@ Get the Load Step for the minimum of maximum values.
 
 <a id="TemperatureResult.LoadStepForMinimumOfMinimumValues"></a>
 
-### *property* TemperatureResult.LoadStepForMinimumOfMinimumValues *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* TemperatureResult.LoadStepForMinimumOfMinimumValues *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Get the Load Step for the minimum of minimum values.
 
@@ -342,7 +342,7 @@ Get the Load Step for the minimum of minimum values.
 
 <a id="TemperatureResult.LoadStepNumber"></a>
 
-### *property* TemperatureResult.LoadStepNumber *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* TemperatureResult.LoadStepNumber *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the LoadStepNumber.
 
@@ -366,7 +366,7 @@ Gets the Maximum.
 
 <a id="TemperatureResult.MaximumOccursOn"></a>
 
-### *property* TemperatureResult.MaximumOccursOn *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* TemperatureResult.MaximumOccursOn *: [str](https://docs.python.org/3/library/stdtypes.html#str) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the MaximumOccursOn.
 
@@ -398,7 +398,7 @@ Gets the Minimum.
 
 <a id="TemperatureResult.MinimumOccursOn"></a>
 
-### *property* TemperatureResult.MinimumOccursOn *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* TemperatureResult.MinimumOccursOn *: [str](https://docs.python.org/3/library/stdtypes.html#str) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the MinimumOccursOn.
 
@@ -422,7 +422,7 @@ Gets the MinimumOfMinimumOverTime.
 
 <a id="TemperatureResult.NamedSelections"></a>
 
-### *property* TemperatureResult.NamedSelections *: System.Collections.Generic.IEnumerable[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* TemperatureResult.NamedSelections *: Iterable[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the NamedSelections.
 
@@ -462,7 +462,7 @@ Gets or sets the Position.
 
 <a id="TemperatureResult.Properties"></a>
 
-### *property* TemperatureResult.Properties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* TemperatureResult.Properties *: [tuple](https://docs.python.org/3/library/stdtypes.html#tuple)[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of properties for this object.
 
@@ -478,7 +478,7 @@ Gets or sets the ScopingMethod.
 
 <a id="TemperatureResult.SetNumber"></a>
 
-### *property* TemperatureResult.SetNumber *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* TemperatureResult.SetNumber *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Set Number.
 
@@ -494,7 +494,7 @@ Gets or sets the SolutionCombinationDriver.
 
 <a id="TemperatureResult.SolverComponentIDs"></a>
 
-### *property* TemperatureResult.SolverComponentIDs *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* TemperatureResult.SolverComponentIDs *: [str](https://docs.python.org/3/library/stdtypes.html#str) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the SolverComponentIDs.
 
@@ -502,7 +502,7 @@ Gets or sets the SolverComponentIDs.
 
 <a id="TemperatureResult.Substep"></a>
 
-### *property* TemperatureResult.Substep *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* TemperatureResult.Substep *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the Substep.
 
@@ -510,7 +510,7 @@ Gets the Substep.
 
 <a id="TemperatureResult.Suppressed"></a>
 
-### *property* TemperatureResult.Suppressed *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* TemperatureResult.Suppressed *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Suppressed.
 
@@ -582,7 +582,7 @@ Get the Time for the minimum of minimum values.
 
 <a id="TemperatureResult.VisibleProperties"></a>
 
-### *property* TemperatureResult.VisibleProperties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* TemperatureResult.VisibleProperties *: [tuple](https://docs.python.org/3/library/stdtypes.html#tuple)[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of properties that are visible for this object.
 
@@ -590,7 +590,7 @@ Gets the list of properties that are visible for this object.
 
 <a id="TemperatureResult.WaterfallShowTextOnMosaic"></a>
 
-### *property* TemperatureResult.WaterfallShowTextOnMosaic *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* TemperatureResult.WaterfallShowTextOnMosaic *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Waterfall Mosaic Text Property.
 
@@ -642,7 +642,7 @@ Creates a new child Figure.
 
 <a id="TemperatureResult.AddImage"></a>
 
-### TemperatureResult.AddImage(filePath: System.String)
+### TemperatureResult.AddImage(filePath: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 ```text
 Creates a new child Image.
@@ -670,7 +670,7 @@ Copies all visible properties from this object to another.
 
 <a id="TemperatureResult.CreateParameter"></a>
 
-### TemperatureResult.CreateParameter(propName: System.String)
+### TemperatureResult.CreateParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 CreateParameter method.
 
@@ -718,7 +718,7 @@ Run the EvaluateAllResults action.
 
 <a id="TemperatureResult.ExportAnimation"></a>
 
-### TemperatureResult.ExportAnimation(filePath: System.String, format: [Ansys.Mechanical.DataModel.Enums.GraphicsAnimationExportFormat](../../../../../Mechanical/DataModel/Enums/GraphicsAnimationExportFormat.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.GraphicsAnimationExportFormat), settings: [Ansys.Mechanical.Graphics.AnimationExportSettings](../../../../../Mechanical/Graphics/AnimationExportSettings.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.Graphics.AnimationExportSettings))
+### TemperatureResult.ExportAnimation(filePath: [str](https://docs.python.org/3/library/stdtypes.html#str), format: [Ansys.Mechanical.DataModel.Enums.GraphicsAnimationExportFormat](../../../../../Mechanical/DataModel/Enums/GraphicsAnimationExportFormat.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.GraphicsAnimationExportFormat), settings: [Ansys.Mechanical.Graphics.AnimationExportSettings](../../../../../Mechanical/Graphics/AnimationExportSettings.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.Graphics.AnimationExportSettings))
 
 Run the ExportAnimation action.
 
@@ -726,7 +726,7 @@ Run the ExportAnimation action.
 
 <a id="TemperatureResult.ExportToTextFile"></a>
 
-### TemperatureResult.ExportToTextFile(filePath: System.String)
+### TemperatureResult.ExportToTextFile(filePath: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Run the ExportToTextFile action.
 
@@ -742,7 +742,7 @@ Run the FetchRemoteResult action.
 
 <a id="TemperatureResult.GetChildren"></a>
 
-### TemperatureResult.GetChildren(recurses: System.Boolean, children: System.Collections.Generic.IList[ChildrenType])
+### TemperatureResult.GetChildren(recurses: [bool](https://docs.python.org/3/library/functions.html#bool), children: List[ChildrenType])
 
 Gets the list of children, filtered by type.
 
@@ -750,7 +750,7 @@ Gets the list of children, filtered by type.
 
 <a id="TemperatureResult.GetParameter"></a>
 
-### TemperatureResult.GetParameter(propName: System.String)
+### TemperatureResult.GetParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Gets the parameter corresponding to the given property.
 
@@ -782,7 +782,7 @@ Run the PromoteToNamedSelection action.
 
 <a id="TemperatureResult.PropertyByAPIName"></a>
 
-### TemperatureResult.PropertyByAPIName(name: System.String)
+### TemperatureResult.PropertyByAPIName(name: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 ```text
 Get a property by its API name.
@@ -793,7 +793,7 @@ If multiple properties have the same API Name, only the first property with that
 
 <a id="TemperatureResult.PropertyByName"></a>
 
-### TemperatureResult.PropertyByName(name: System.String)
+### TemperatureResult.PropertyByName(name: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Get a property by its unique name.
 
@@ -801,7 +801,7 @@ Get a property by its unique name.
 
 <a id="TemperatureResult.RemoveParameter"></a>
 
-### TemperatureResult.RemoveParameter(propName: System.String)
+### TemperatureResult.RemoveParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Removes the parameter from the parameter set corresponding to the given property.
 

@@ -17,7 +17,7 @@ Defines a ConnectionGroup.
 ### Methods
 
 | Name | Description |
-|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------|
+|---------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------|
 | [`Activate`](#ConnectionGroup.Activate)                                                     | Activate the current object.                                                      |
 | [`AddComment`](#ConnectionGroup.AddComment)                                                 | Creates a new child Comment.                                                      |
 | [`AddContactRegion`](#ConnectionGroup.AddContactRegion)                                     | Creates a new child ContactRegion.                                                |
@@ -47,7 +47,7 @@ Defines a ConnectionGroup.
 ### Properties
 
 | Name | Description |
-|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------|
+|---------------------------------------------------------------------------------------|---------------------------------------------------------------|
 | [`ActiveConnections`](#ConnectionGroup.ActiveConnections)                             | Gets the ActiveConnections.                                   |
 | [`AutomaticFixedJoints`](#ConnectionGroup.AutomaticFixedJoints)                       | Gets or sets the AutomaticFixedJoints.                        |
 | [`Children`](#ConnectionGroup.Children)                                               | Gets the list of children.                                    |
@@ -89,7 +89,7 @@ Defines a ConnectionGroup.
 
 <a id="ConnectionGroup.ActiveConnections"></a>
 
-### *property* ConnectionGroup.ActiveConnections *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ConnectionGroup.ActiveConnections *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the ActiveConnections.
 
@@ -97,7 +97,7 @@ Gets the ActiveConnections.
 
 <a id="ConnectionGroup.AutomaticFixedJoints"></a>
 
-### *property* ConnectionGroup.AutomaticFixedJoints *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ConnectionGroup.AutomaticFixedJoints *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the AutomaticFixedJoints.
 
@@ -105,7 +105,7 @@ Gets or sets the AutomaticFixedJoints.
 
 <a id="ConnectionGroup.Children"></a>
 
-### *property* ConnectionGroup.Children *: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ConnectionGroup.Children *: List[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of children.
 
@@ -113,7 +113,7 @@ Gets the list of children.
 
 <a id="ConnectionGroup.Comments"></a>
 
-### *property* ConnectionGroup.Comments *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Comment](../Comment.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ConnectionGroup.Comments *: Iterable[[Ansys.ACT.Automation.Mechanical.Comment](../Comment.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated comments.
 
@@ -121,7 +121,7 @@ Gets the list of associated comments.
 
 <a id="ConnectionGroup.ConnectionType"></a>
 
-### *property* ConnectionGroup.ConnectionType *: [Ansys.Mechanical.DataModel.Enums.AutoDetectionType](../../../../../../v242/Ansys/Mechanical/DataModel/Enums/AutoDetectionType.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.AutoDetectionType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ConnectionGroup.ConnectionType *: [Ansys.Mechanical.DataModel.Enums.AutoDetectionType](../../../../Mechanical/DataModel/Enums/AutoDetectionType.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.AutoDetectionType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the ConnectionType.
 
@@ -129,7 +129,7 @@ Gets or sets the ConnectionType.
 
 <a id="ConnectionGroup.Connections"></a>
 
-### *property* ConnectionGroup.Connections *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ConnectionGroup.Connections *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the Connections.
 
@@ -137,7 +137,7 @@ Gets the Connections.
 
 <a id="ConnectionGroup.CylindricalFaces"></a>
 
-### *property* ConnectionGroup.CylindricalFaces *: [Ansys.Mechanical.DataModel.Enums.CylindricalFacesOption](../../../../../../v242/Ansys/Mechanical/DataModel/Enums/CylindricalFacesOption.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.CylindricalFacesOption) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ConnectionGroup.CylindricalFaces *: [Ansys.Mechanical.DataModel.Enums.CylindricalFacesOption](../../../../Mechanical/DataModel/Enums/CylindricalFacesOption.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.CylindricalFacesOption) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the CylindricalFaces.
 
@@ -145,7 +145,7 @@ Gets or sets the CylindricalFaces.
 
 <a id="ConnectionGroup.DataModelObjectCategory"></a>
 
-### *property* ConnectionGroup.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../../v242/Ansys/Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ConnectionGroup.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the current DataModelObject’s category.
 
@@ -153,7 +153,7 @@ Gets the current DataModelObject’s category.
 
 <a id="ConnectionGroup.EdgeEdge"></a>
 
-### *property* ConnectionGroup.EdgeEdge *: [Ansys.Mechanical.DataModel.Enums.ContactEdgeEdgeOption](../../../../../../v242/Ansys/Mechanical/DataModel/Enums/ContactEdgeEdgeOption.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.ContactEdgeEdgeOption) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ConnectionGroup.EdgeEdge *: [Ansys.Mechanical.DataModel.Enums.ContactEdgeEdgeOption](../../../../Mechanical/DataModel/Enums/ContactEdgeEdgeOption.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.ContactEdgeEdgeOption) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the EdgeEdge.
 
@@ -161,7 +161,7 @@ Gets or sets the EdgeEdge.
 
 <a id="ConnectionGroup.EdgeOverlapTolerance"></a>
 
-### *property* ConnectionGroup.EdgeOverlapTolerance *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ConnectionGroup.EdgeOverlapTolerance *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the EdgeOverlapTolerance.
 
@@ -177,7 +177,7 @@ Gets or sets the FaceAngleTolerance.
 
 <a id="ConnectionGroup.FaceEdge"></a>
 
-### *property* ConnectionGroup.FaceEdge *: [Ansys.Mechanical.DataModel.Enums.ContactFaceEdgeOption](../../../../../../v242/Ansys/Mechanical/DataModel/Enums/ContactFaceEdgeOption.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.ContactFaceEdgeOption) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ConnectionGroup.FaceEdge *: [Ansys.Mechanical.DataModel.Enums.ContactFaceEdgeOption](../../../../Mechanical/DataModel/Enums/ContactFaceEdgeOption.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.ContactFaceEdgeOption) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the FaceEdge.
 
@@ -185,7 +185,7 @@ Gets or sets the FaceEdge.
 
 <a id="ConnectionGroup.FaceFace"></a>
 
-### *property* ConnectionGroup.FaceFace *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ConnectionGroup.FaceFace *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the FaceFace.
 
@@ -201,7 +201,7 @@ Gets or sets the FaceFaceDetectionAngleTolerence.
 
 <a id="ConnectionGroup.FaceOverlapTolerance"></a>
 
-### *property* ConnectionGroup.FaceOverlapTolerance *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ConnectionGroup.FaceOverlapTolerance *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the FaceOverlapTolerance.
 
@@ -209,7 +209,7 @@ Gets or sets the FaceOverlapTolerance.
 
 <a id="ConnectionGroup.Figures"></a>
 
-### *property* ConnectionGroup.Figures *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Figure](../Figure.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ConnectionGroup.Figures *: Iterable[[Ansys.ACT.Automation.Mechanical.Figure](../Figure.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated figures.
 
@@ -217,7 +217,7 @@ Gets the list of associated figures.
 
 <a id="ConnectionGroup.GroupBy"></a>
 
-### *property* ConnectionGroup.GroupBy *: [Ansys.Mechanical.DataModel.Enums.ContactGroupingType](../../../../../../v242/Ansys/Mechanical/DataModel/Enums/ContactGroupingType.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.ContactGroupingType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ConnectionGroup.GroupBy *: [Ansys.Mechanical.DataModel.Enums.ContactGroupingType](../../../../Mechanical/DataModel/Enums/ContactGroupingType.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.ContactGroupingType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the GroupBy.
 
@@ -225,7 +225,7 @@ Gets or sets the GroupBy.
 
 <a id="ConnectionGroup.Images"></a>
 
-### *property* ConnectionGroup.Images *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Image](../Image.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ConnectionGroup.Images *: Iterable[[Ansys.ACT.Automation.Mechanical.Image](../Image.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated images.
 
@@ -249,7 +249,7 @@ Gets or sets the Location.
 
 <a id="ConnectionGroup.MinimumDistancePercentage"></a>
 
-### *property* ConnectionGroup.MinimumDistancePercentage *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ConnectionGroup.MinimumDistancePercentage *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the MinimumDistancePercentage.
 
@@ -265,7 +265,7 @@ Gets the MinimumDistanceValue.
 
 <a id="ConnectionGroup.Priority"></a>
 
-### *property* ConnectionGroup.Priority *: [Ansys.Mechanical.DataModel.Enums.ContactFaceEdgePriority](../../../../../../v242/Ansys/Mechanical/DataModel/Enums/ContactFaceEdgePriority.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.ContactFaceEdgePriority) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ConnectionGroup.Priority *: [Ansys.Mechanical.DataModel.Enums.ContactFaceEdgePriority](../../../../Mechanical/DataModel/Enums/ContactFaceEdgePriority.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.ContactFaceEdgePriority) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Priority.
 
@@ -273,7 +273,7 @@ Gets or sets the Priority.
 
 <a id="ConnectionGroup.Properties"></a>
 
-### *property* ConnectionGroup.Properties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ConnectionGroup.Properties *: [tuple](https://docs.python.org/3/library/stdtypes.html#tuple)[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of properties for this object.
 
@@ -281,7 +281,7 @@ Gets the list of properties for this object.
 
 <a id="ConnectionGroup.ReadOnly"></a>
 
-### *property* ConnectionGroup.ReadOnly *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ConnectionGroup.ReadOnly *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the ReadOnly.
 
@@ -289,7 +289,7 @@ Gets or sets the ReadOnly.
 
 <a id="ConnectionGroup.RevoluteJoints"></a>
 
-### *property* ConnectionGroup.RevoluteJoints *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ConnectionGroup.RevoluteJoints *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the RevoluteJoints.
 
@@ -297,7 +297,7 @@ Gets or sets the RevoluteJoints.
 
 <a id="ConnectionGroup.SearchAcross"></a>
 
-### *property* ConnectionGroup.SearchAcross *: [Ansys.Mechanical.DataModel.Enums.ContactSearchingType](../../../../../../v242/Ansys/Mechanical/DataModel/Enums/ContactSearchingType.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.ContactSearchingType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ConnectionGroup.SearchAcross *: [Ansys.Mechanical.DataModel.Enums.ContactSearchingType](../../../../Mechanical/DataModel/Enums/ContactSearchingType.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.ContactSearchingType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the SearchAcross.
 
@@ -305,7 +305,7 @@ Gets or sets the SearchAcross.
 
 <a id="ConnectionGroup.Suppressed"></a>
 
-### *property* ConnectionGroup.Suppressed *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ConnectionGroup.Suppressed *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Suppressed.
 
@@ -313,7 +313,7 @@ Gets or sets the Suppressed.
 
 <a id="ConnectionGroup.ThicknessScaleFactor"></a>
 
-### *property* ConnectionGroup.ThicknessScaleFactor *: System.Double | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ConnectionGroup.ThicknessScaleFactor *: [float](https://docs.python.org/3/library/functions.html#float) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the ThicknessScaleFactor.
 
@@ -321,7 +321,7 @@ Gets or sets the ThicknessScaleFactor.
 
 <a id="ConnectionGroup.ToleranceSlider"></a>
 
-### *property* ConnectionGroup.ToleranceSlider *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ConnectionGroup.ToleranceSlider *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the ToleranceSlider.
 
@@ -329,7 +329,7 @@ Gets or sets the ToleranceSlider.
 
 <a id="ConnectionGroup.ToleranceType"></a>
 
-### *property* ConnectionGroup.ToleranceType *: [Ansys.Mechanical.DataModel.Enums.ContactToleranceType](../../../../../../v242/Ansys/Mechanical/DataModel/Enums/ContactToleranceType.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.ContactToleranceType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ConnectionGroup.ToleranceType *: [Ansys.Mechanical.DataModel.Enums.ContactToleranceType](../../../../Mechanical/DataModel/Enums/ContactToleranceType.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.ContactToleranceType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the ToleranceType.
 
@@ -345,7 +345,7 @@ Gets or sets the ToleranceValue.
 
 <a id="ConnectionGroup.UseRange"></a>
 
-### *property* ConnectionGroup.UseRange *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ConnectionGroup.UseRange *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the UseRange.
 
@@ -353,7 +353,7 @@ Gets or sets the UseRange.
 
 <a id="ConnectionGroup.VisibleProperties"></a>
 
-### *property* ConnectionGroup.VisibleProperties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ConnectionGroup.VisibleProperties *: [tuple](https://docs.python.org/3/library/stdtypes.html#tuple)[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of properties that are visible for this object.
 
@@ -397,7 +397,7 @@ Creates a new child Figure.
 
 <a id="ConnectionGroup.AddImage"></a>
 
-### ConnectionGroup.AddImage(filePath: System.String)
+### ConnectionGroup.AddImage(filePath: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 ```text
 Creates a new child Image.
@@ -449,7 +449,7 @@ Run the CreateAutomaticConnections action.
 
 <a id="ConnectionGroup.CreateParameter"></a>
 
-### ConnectionGroup.CreateParameter(propName: System.String)
+### ConnectionGroup.CreateParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Creates a new parameter for a Property.
 
@@ -481,7 +481,7 @@ Creates a copy of the current DataModelObject.
 
 <a id="ConnectionGroup.GetChildren"></a>
 
-### ConnectionGroup.GetChildren(recurses: System.Boolean, children: System.Collections.Generic.IList[ChildrenType])
+### ConnectionGroup.GetChildren(recurses: [bool](https://docs.python.org/3/library/functions.html#bool), children: List[ChildrenType])
 
 Gets the list of children, filtered by type.
 
@@ -489,7 +489,7 @@ Gets the list of children, filtered by type.
 
 <a id="ConnectionGroup.GetParameter"></a>
 
-### ConnectionGroup.GetParameter(propName: System.String)
+### ConnectionGroup.GetParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Gets the parameter corresponding to the given property.
 
@@ -513,7 +513,7 @@ Run the GroupSimilarObjects action.
 
 <a id="ConnectionGroup.PropertyByAPIName"></a>
 
-### ConnectionGroup.PropertyByAPIName(name: System.String)
+### ConnectionGroup.PropertyByAPIName(name: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 ```text
 Get a property by its API name.
@@ -524,7 +524,7 @@ If multiple properties have the same API Name, only the first property with that
 
 <a id="ConnectionGroup.PropertyByName"></a>
 
-### ConnectionGroup.PropertyByName(name: System.String)
+### ConnectionGroup.PropertyByName(name: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Get a property by its unique name.
 
@@ -532,7 +532,7 @@ Get a property by its unique name.
 
 <a id="ConnectionGroup.RemoveParameter"></a>
 
-### ConnectionGroup.RemoveParameter(propName: System.String)
+### ConnectionGroup.RemoveParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Removes the parameter from the parameter set corresponding to the given property.
 

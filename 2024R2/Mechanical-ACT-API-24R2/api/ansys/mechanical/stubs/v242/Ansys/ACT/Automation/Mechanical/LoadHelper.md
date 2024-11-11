@@ -28,7 +28,7 @@ LoadHelper class.
 
 <a id="LoadHelper.SwitchAmbientTemperatureToTabular"></a>
 
-### *classmethod* LoadHelper.SwitchAmbientTemperatureToTabular(BC: [Ansys.ACT.Automation.Mechanical.BoundaryConditions.Convection](../../../../../v241/Ansys/ACT/Automation/Mechanical/BoundaryConditions/Convection.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.BoundaryConditions.Convection))
+### *classmethod* LoadHelper.SwitchAmbientTemperatureToTabular(BC: [Ansys.ACT.Automation.Mechanical.BoundaryConditions.Convection](BoundaryConditions/Convection.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.BoundaryConditions.Convection))
 
 SwitchAmbientTemperatureToTabular method.
 
@@ -36,7 +36,7 @@ SwitchAmbientTemperatureToTabular method.
 
 <a id="LoadHelper.SwitchFilmCoefficientToTabular"></a>
 
-### *classmethod* LoadHelper.SwitchFilmCoefficientToTabular(BC: [Ansys.ACT.Automation.Mechanical.BoundaryConditions.Convection](../../../../../v241/Ansys/ACT/Automation/Mechanical/BoundaryConditions/Convection.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.BoundaryConditions.Convection))
+### *classmethod* LoadHelper.SwitchFilmCoefficientToTabular(BC: [Ansys.ACT.Automation.Mechanical.BoundaryConditions.Convection](BoundaryConditions/Convection.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.BoundaryConditions.Convection))
 
 SwitchFilmCoefficientToTabular method.
 
@@ -44,7 +44,7 @@ SwitchFilmCoefficientToTabular method.
 
 <a id="LoadHelper.SwitchToTabular"></a>
 
-### *classmethod* LoadHelper.SwitchToTabular(BC: [Ansys.ACT.Automation.Mechanical.BoundaryConditions.GenericBoundaryCondition](../../../../../v241/Ansys/ACT/Automation/Mechanical/BoundaryConditions/GenericBoundaryCondition.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.BoundaryConditions.GenericBoundaryCondition))
+### *classmethod* LoadHelper.SwitchToTabular(BC: [Ansys.ACT.Automation.Mechanical.BoundaryConditions.GenericBoundaryCondition](BoundaryConditions/GenericBoundaryCondition.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.BoundaryConditions.GenericBoundaryCondition))
 
 SwitchToTabular method.
 

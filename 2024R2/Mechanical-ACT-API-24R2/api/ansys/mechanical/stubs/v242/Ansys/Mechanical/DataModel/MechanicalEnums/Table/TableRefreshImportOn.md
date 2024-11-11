@@ -17,7 +17,7 @@ Allows control on when an import should be refreshed.
 ### Attributes
 
 | Name |
-| ----------------------------------------------------------------------------------------------------------------------------------------------------- |
+| ------------------------------------------------------ |
 | [`BeforeSolve`](#TableRefreshImportOn.BeforeSolve) |
 | [`None_`](#TableRefreshImportOn.None_) |
 

@@ -17,7 +17,7 @@ Defines a ElectricPotential.
 ### Methods
 
 | Name | Description |
-|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------|
+|-------------------------------------------------------------------------|-----------------------------------------------------------------------------------|
 | [`Activate`](#ElectricPotential.Activate)                               | Activate the current object.                                                      |
 | [`AddAlert`](#ElectricPotential.AddAlert)                               | Creates a new Alert                                                               |
 | [`AddComment`](#ElectricPotential.AddComment)                           | Creates a new child Comment.                                                      |
@@ -48,7 +48,7 @@ Defines a ElectricPotential.
 ### Properties
 
 | Name | Description |
-|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------|
+|---------------------------------------------------------------------------------------------|------------------------------------------------------------------------|
 | [`Average`](#ElectricPotential.Average)                                                     | Gets the Average.                                                      |
 | [`AverageAcrossBodies`](#ElectricPotential.AverageAcrossBodies)                             | Gets or sets the AverageAcrossBodies.                                  |
 | [`By`](#ElectricPotential.By)                                                               | Gets or sets the By.                                                   |
@@ -98,14 +98,14 @@ Defines a ElectricPotential.
 | [`Substep`](#ElectricPotential.Substep)                                                     | Gets the Substep.                                                      |
 | [`Suppressed`](#ElectricPotential.Suppressed)                                               | Gets or sets the Suppressed.                                           |
 | [`Surface`](#ElectricPotential.Surface)                                                     | Surface property.                                                      |
-| [`SurfaceCoating`](#ElectricPotential.SurfaceCoating)                                                                                                                                                    | SurfaceCoating property.                                               |
+| [`SurfaceCoating`](#ElectricPotential.SurfaceCoating)                                       | SurfaceCoating property.                                               |
 | [`Time`](#ElectricPotential.Time)                                                           | Gets the Time.                                                         |
 | [`TimeForMaximumOfMaximumValues`](#ElectricPotential.TimeForMaximumOfMaximumValues)         | Get the Time for the maximum of maximum values.                        |
 | [`TimeForMaximumOfMinimumValues`](#ElectricPotential.TimeForMaximumOfMinimumValues)         | Get the Time for the maximum of minimum values.                        |
 | [`TimeForMinimumOfMaximumValues`](#ElectricPotential.TimeForMinimumOfMaximumValues)         | Get the Time for the minimum of maximum values.                        |
 | [`TimeForMinimumOfMinimumValues`](#ElectricPotential.TimeForMinimumOfMinimumValues)         | Get the Time for the minimum of minimum values.                        |
 | [`VisibleProperties`](#ElectricPotential.VisibleProperties)                                 | Gets the list of properties that are visible for this object.          |
-| [`WaterfallShowTextOnMosaic`](#ElectricPotential.WaterfallShowTextOnMosaic)                                                                                                                              | Gets or sets the Waterfall Mosaic Text Property.                       |
+| [`WaterfallShowTextOnMosaic`](#ElectricPotential.WaterfallShowTextOnMosaic)                 | Gets or sets the Waterfall Mosaic Text Property.                       |
 
 <a id="property-detail"></a>
 
@@ -121,7 +121,7 @@ Gets the Average.
 
 <a id="ElectricPotential.AverageAcrossBodies"></a>
 
-### *property* ElectricPotential.AverageAcrossBodies *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ElectricPotential.AverageAcrossBodies *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the AverageAcrossBodies.
 
@@ -137,7 +137,7 @@ Gets or sets the By.
 
 <a id="ElectricPotential.CalculateTimeHistory"></a>
 
-### *property* ElectricPotential.CalculateTimeHistory *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ElectricPotential.CalculateTimeHistory *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the CalculateTimeHistory.
 
@@ -145,7 +145,7 @@ Gets or sets the CalculateTimeHistory.
 
 <a id="ElectricPotential.Children"></a>
 
-### *property* ElectricPotential.Children *: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ElectricPotential.Children *: List[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of children.
 
@@ -153,7 +153,7 @@ Gets the list of children.
 
 <a id="ElectricPotential.CombinationNumber"></a>
 
-### *property* ElectricPotential.CombinationNumber *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ElectricPotential.CombinationNumber *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Combination Number for a Solution Combination result.
 
@@ -161,7 +161,7 @@ Gets or sets the Combination Number for a Solution Combination result.
 
 <a id="ElectricPotential.Comments"></a>
 
-### *property* ElectricPotential.Comments *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Comment](../../../../../../../v241/Ansys/ACT/Automation/Mechanical/Comment.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ElectricPotential.Comments *: Iterable[[Ansys.ACT.Automation.Mechanical.Comment](../../Comment.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated comments.
 
@@ -169,7 +169,7 @@ Gets the list of associated comments.
 
 <a id="ElectricPotential.CoordinateSystem"></a>
 
-### *property* ElectricPotential.CoordinateSystem *: [Ansys.ACT.Automation.Mechanical.CoordinateSystem](../../../../../../../v241/Ansys/ACT/Automation/Mechanical/CoordinateSystem.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.CoordinateSystem) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ElectricPotential.CoordinateSystem *: [Ansys.ACT.Automation.Mechanical.CoordinateSystem](../../CoordinateSystem.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.CoordinateSystem) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Coordinate System.
 Accepts/Returns None for Solution Coordinate System in the general case (if applicable).
@@ -179,7 +179,7 @@ Accepts/Returns None for Fiber Coordinate System for a result that is sub scoped
 
 <a id="ElectricPotential.CrackFrontNumber"></a>
 
-### *property* ElectricPotential.CrackFrontNumber *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ElectricPotential.CrackFrontNumber *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the CrackFrontNumber.
 
@@ -227,7 +227,7 @@ Gets or sets the ElectromagneticResultType.
 
 <a id="ElectricPotential.Figures"></a>
 
-### *property* ElectricPotential.Figures *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Figure](../../../../../../../v241/Ansys/ACT/Automation/Mechanical/Figure.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ElectricPotential.Figures *: Iterable[[Ansys.ACT.Automation.Mechanical.Figure](../../Figure.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated figures.
 
@@ -235,7 +235,7 @@ Gets the list of associated figures.
 
 <a id="ElectricPotential.GlobalIDs"></a>
 
-### *property* ElectricPotential.GlobalIDs *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ElectricPotential.GlobalIDs *: [str](https://docs.python.org/3/library/stdtypes.html#str) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the GlobalIDs.
 
@@ -251,7 +251,7 @@ Gets or sets the GraphControlsXAxis.
 
 <a id="ElectricPotential.Identifier"></a>
 
-### *property* ElectricPotential.Identifier *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ElectricPotential.Identifier *: [str](https://docs.python.org/3/library/stdtypes.html#str) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Identifier.
 
@@ -259,7 +259,7 @@ Gets or sets the Identifier.
 
 <a id="ElectricPotential.Images"></a>
 
-### *property* ElectricPotential.Images *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Image](../../../../../../../v241/Ansys/ACT/Automation/Mechanical/Image.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ElectricPotential.Images *: Iterable[[Ansys.ACT.Automation.Mechanical.Image](../../Image.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated images.
 
@@ -275,7 +275,7 @@ Gets the internal object. For advanced usage only.
 
 <a id="ElectricPotential.IsSolved"></a>
 
-### *property* ElectricPotential.IsSolved *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ElectricPotential.IsSolved *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the IsSolved.
 
@@ -291,7 +291,7 @@ Gets or sets the ItemType.
 
 <a id="ElectricPotential.IterationNumber"></a>
 
-### *property* ElectricPotential.IterationNumber *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ElectricPotential.IterationNumber *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the IterationNumber.
 
@@ -299,7 +299,7 @@ Gets the IterationNumber.
 
 <a id="ElectricPotential.LoadStep"></a>
 
-### *property* ElectricPotential.LoadStep *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ElectricPotential.LoadStep *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the LoadStep.
 
@@ -307,7 +307,7 @@ Gets the LoadStep.
 
 <a id="ElectricPotential.LoadStepForMaximumOfMaximumValues"></a>
 
-### *property* ElectricPotential.LoadStepForMaximumOfMaximumValues *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ElectricPotential.LoadStepForMaximumOfMaximumValues *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Get the Load Step for the maximum of maximum values.
 
@@ -315,7 +315,7 @@ Get the Load Step for the maximum of maximum values.
 
 <a id="ElectricPotential.LoadStepForMaximumOfMinimumValues"></a>
 
-### *property* ElectricPotential.LoadStepForMaximumOfMinimumValues *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ElectricPotential.LoadStepForMaximumOfMinimumValues *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Get the Load Step for the maximum of minimum values.
 
@@ -323,7 +323,7 @@ Get the Load Step for the maximum of minimum values.
 
 <a id="ElectricPotential.LoadStepForMinimumOfMaximumValues"></a>
 
-### *property* ElectricPotential.LoadStepForMinimumOfMaximumValues *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ElectricPotential.LoadStepForMinimumOfMaximumValues *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Get the Load Step for the minimum of maximum values.
 
@@ -331,7 +331,7 @@ Get the Load Step for the minimum of maximum values.
 
 <a id="ElectricPotential.LoadStepForMinimumOfMinimumValues"></a>
 
-### *property* ElectricPotential.LoadStepForMinimumOfMinimumValues *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ElectricPotential.LoadStepForMinimumOfMinimumValues *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Get the Load Step for the minimum of minimum values.
 
@@ -339,7 +339,7 @@ Get the Load Step for the minimum of minimum values.
 
 <a id="ElectricPotential.LoadStepNumber"></a>
 
-### *property* ElectricPotential.LoadStepNumber *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ElectricPotential.LoadStepNumber *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the LoadStepNumber.
 
@@ -363,7 +363,7 @@ Gets the Maximum.
 
 <a id="ElectricPotential.MaximumOccursOn"></a>
 
-### *property* ElectricPotential.MaximumOccursOn *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ElectricPotential.MaximumOccursOn *: [str](https://docs.python.org/3/library/stdtypes.html#str) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the MaximumOccursOn.
 
@@ -395,7 +395,7 @@ Gets the Minimum.
 
 <a id="ElectricPotential.MinimumOccursOn"></a>
 
-### *property* ElectricPotential.MinimumOccursOn *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ElectricPotential.MinimumOccursOn *: [str](https://docs.python.org/3/library/stdtypes.html#str) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the MinimumOccursOn.
 
@@ -419,7 +419,7 @@ Gets the MinimumOfMinimumOverTime.
 
 <a id="ElectricPotential.NamedSelections"></a>
 
-### *property* ElectricPotential.NamedSelections *: System.Collections.Generic.IEnumerable[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ElectricPotential.NamedSelections *: Iterable[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the NamedSelections.
 
@@ -443,7 +443,7 @@ Gets the result table.
 
 <a id="ElectricPotential.Properties"></a>
 
-### *property* ElectricPotential.Properties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ElectricPotential.Properties *: [tuple](https://docs.python.org/3/library/stdtypes.html#tuple)[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of properties for this object.
 
@@ -459,7 +459,7 @@ Gets or sets the ScopingMethod.
 
 <a id="ElectricPotential.SetNumber"></a>
 
-### *property* ElectricPotential.SetNumber *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ElectricPotential.SetNumber *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Set Number.
 
@@ -475,7 +475,7 @@ Gets or sets the SolutionCombinationDriver.
 
 <a id="ElectricPotential.SolverComponentIDs"></a>
 
-### *property* ElectricPotential.SolverComponentIDs *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ElectricPotential.SolverComponentIDs *: [str](https://docs.python.org/3/library/stdtypes.html#str) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the SolverComponentIDs.
 
@@ -483,7 +483,7 @@ Gets or sets the SolverComponentIDs.
 
 <a id="ElectricPotential.Substep"></a>
 
-### *property* ElectricPotential.Substep *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ElectricPotential.Substep *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the Substep.
 
@@ -491,7 +491,7 @@ Gets the Substep.
 
 <a id="ElectricPotential.Suppressed"></a>
 
-### *property* ElectricPotential.Suppressed *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ElectricPotential.Suppressed *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Suppressed.
 
@@ -555,7 +555,7 @@ Get the Time for the minimum of minimum values.
 
 <a id="ElectricPotential.VisibleProperties"></a>
 
-### *property* ElectricPotential.VisibleProperties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ElectricPotential.VisibleProperties *: [tuple](https://docs.python.org/3/library/stdtypes.html#tuple)[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of properties that are visible for this object.
 
@@ -563,7 +563,7 @@ Gets the list of properties that are visible for this object.
 
 <a id="ElectricPotential.WaterfallShowTextOnMosaic"></a>
 
-### *property* ElectricPotential.WaterfallShowTextOnMosaic *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ElectricPotential.WaterfallShowTextOnMosaic *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Waterfall Mosaic Text Property.
 
@@ -615,7 +615,7 @@ Creates a new child Figure.
 
 <a id="ElectricPotential.AddImage"></a>
 
-### ElectricPotential.AddImage(filePath: System.String)
+### ElectricPotential.AddImage(filePath: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 ```text
 Creates a new child Image.
@@ -643,7 +643,7 @@ Copies all visible properties from this object to another.
 
 <a id="ElectricPotential.CreateParameter"></a>
 
-### ElectricPotential.CreateParameter(propName: System.String)
+### ElectricPotential.CreateParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 CreateParameter method.
 
@@ -691,7 +691,7 @@ Run the EvaluateAllResults action.
 
 <a id="ElectricPotential.ExportAnimation"></a>
 
-### ElectricPotential.ExportAnimation(filePath: System.String, format: [Ansys.Mechanical.DataModel.Enums.GraphicsAnimationExportFormat](../../../../../Mechanical/DataModel/Enums/GraphicsAnimationExportFormat.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.GraphicsAnimationExportFormat), settings: [Ansys.Mechanical.Graphics.AnimationExportSettings](../../../../../Mechanical/Graphics/AnimationExportSettings.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.Graphics.AnimationExportSettings))
+### ElectricPotential.ExportAnimation(filePath: [str](https://docs.python.org/3/library/stdtypes.html#str), format: [Ansys.Mechanical.DataModel.Enums.GraphicsAnimationExportFormat](../../../../../Mechanical/DataModel/Enums/GraphicsAnimationExportFormat.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.GraphicsAnimationExportFormat), settings: [Ansys.Mechanical.Graphics.AnimationExportSettings](../../../../../Mechanical/Graphics/AnimationExportSettings.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.Graphics.AnimationExportSettings))
 
 Run the ExportAnimation action.
 
@@ -699,7 +699,7 @@ Run the ExportAnimation action.
 
 <a id="ElectricPotential.ExportToTextFile"></a>
 
-### ElectricPotential.ExportToTextFile(filePath: System.String)
+### ElectricPotential.ExportToTextFile(filePath: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Run the ExportToTextFile action.
 
@@ -715,7 +715,7 @@ Run the FetchRemoteResult action.
 
 <a id="ElectricPotential.GetChildren"></a>
 
-### ElectricPotential.GetChildren(recurses: System.Boolean, children: System.Collections.Generic.IList[ChildrenType])
+### ElectricPotential.GetChildren(recurses: [bool](https://docs.python.org/3/library/functions.html#bool), children: List[ChildrenType])
 
 Gets the list of children, filtered by type.
 
@@ -723,7 +723,7 @@ Gets the list of children, filtered by type.
 
 <a id="ElectricPotential.GetParameter"></a>
 
-### ElectricPotential.GetParameter(propName: System.String)
+### ElectricPotential.GetParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Gets the parameter corresponding to the given property.
 
@@ -755,7 +755,7 @@ Run the PromoteToNamedSelection action.
 
 <a id="ElectricPotential.PropertyByAPIName"></a>
 
-### ElectricPotential.PropertyByAPIName(name: System.String)
+### ElectricPotential.PropertyByAPIName(name: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 ```text
 Get a property by its API name.
@@ -766,7 +766,7 @@ If multiple properties have the same API Name, only the first property with that
 
 <a id="ElectricPotential.PropertyByName"></a>
 
-### ElectricPotential.PropertyByName(name: System.String)
+### ElectricPotential.PropertyByName(name: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Get a property by its unique name.
 
@@ -774,7 +774,7 @@ Get a property by its unique name.
 
 <a id="ElectricPotential.RemoveParameter"></a>
 
-### ElectricPotential.RemoveParameter(propName: System.String)
+### ElectricPotential.RemoveParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Removes the parameter from the parameter set corresponding to the given property.
 

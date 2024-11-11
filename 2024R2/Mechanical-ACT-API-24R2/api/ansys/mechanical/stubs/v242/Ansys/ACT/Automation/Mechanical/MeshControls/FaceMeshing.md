@@ -69,7 +69,7 @@ Defines a FaceMeshing.
 
 <a id="FaceMeshing.Active"></a>
 
-### *property* FaceMeshing.Active *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* FaceMeshing.Active *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the Active.
 
@@ -77,7 +77,7 @@ Gets the Active.
 
 <a id="FaceMeshing.Children"></a>
 
-### *property* FaceMeshing.Children *: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* FaceMeshing.Children *: List[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of children.
 
@@ -85,7 +85,7 @@ Gets the list of children.
 
 <a id="FaceMeshing.Comments"></a>
 
-### *property* FaceMeshing.Comments *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Comment](../../../../../../v241/Ansys/ACT/Automation/Mechanical/Comment.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* FaceMeshing.Comments *: Iterable[[Ansys.ACT.Automation.Mechanical.Comment](../Comment.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated comments.
 
@@ -93,7 +93,7 @@ Gets the list of associated comments.
 
 <a id="FaceMeshing.ConstrainBoundary"></a>
 
-### *property* FaceMeshing.ConstrainBoundary *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* FaceMeshing.ConstrainBoundary *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the ConstrainBoundary.
 
@@ -109,7 +109,7 @@ Gets the current DataModelObject’s category.
 
 <a id="FaceMeshing.Figures"></a>
 
-### *property* FaceMeshing.Figures *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Figure](../../../../../../v241/Ansys/ACT/Automation/Mechanical/Figure.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* FaceMeshing.Figures *: Iterable[[Ansys.ACT.Automation.Mechanical.Figure](../Figure.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated figures.
 
@@ -117,7 +117,7 @@ Gets the list of associated figures.
 
 <a id="FaceMeshing.Images"></a>
 
-### *property* FaceMeshing.Images *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Image](../../../../../../v241/Ansys/ACT/Automation/Mechanical/Image.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* FaceMeshing.Images *: Iterable[[Ansys.ACT.Automation.Mechanical.Image](../Image.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated images.
 
@@ -125,7 +125,7 @@ Gets the list of associated images.
 
 <a id="FaceMeshing.InternalNumberOfDivisions"></a>
 
-### *property* FaceMeshing.InternalNumberOfDivisions *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* FaceMeshing.InternalNumberOfDivisions *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the InternalNumberOfDivisions.
 
@@ -149,7 +149,7 @@ Gets or sets the Location.
 
 <a id="FaceMeshing.MappedMesh"></a>
 
-### *property* FaceMeshing.MappedMesh *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* FaceMeshing.MappedMesh *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the MappedMesh.
 
@@ -165,7 +165,7 @@ Gets or sets the Method.
 
 <a id="FaceMeshing.MultiZoneSemiStructured"></a>
 
-### *property* FaceMeshing.MultiZoneSemiStructured *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* FaceMeshing.MultiZoneSemiStructured *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Semi-Structured in MZ Face Meshing (Mapping).
 
@@ -181,7 +181,7 @@ Gets or sets the NamedSelection.
 
 <a id="FaceMeshing.Properties"></a>
 
-### *property* FaceMeshing.Properties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* FaceMeshing.Properties *: [tuple](https://docs.python.org/3/library/stdtypes.html#tuple)[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of properties for this object.
 
@@ -221,7 +221,7 @@ Gets or sets the SpecifiedSides.
 
 <a id="FaceMeshing.Suppressed"></a>
 
-### *property* FaceMeshing.Suppressed *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* FaceMeshing.Suppressed *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Suppressed.
 
@@ -237,7 +237,7 @@ Gets or sets the TransitionType of MZ Face Meshing (Mapping)
 
 <a id="FaceMeshing.VisibleProperties"></a>
 
-### *property* FaceMeshing.VisibleProperties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* FaceMeshing.VisibleProperties *: [tuple](https://docs.python.org/3/library/stdtypes.html#tuple)[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of properties that are visible for this object.
 
@@ -273,7 +273,7 @@ Creates a new child Figure.
 
 <a id="FaceMeshing.AddImage"></a>
 
-### FaceMeshing.AddImage(filePath: System.String)
+### FaceMeshing.AddImage(filePath: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 ```text
 Creates a new child Image.
@@ -293,7 +293,7 @@ Copies all visible properties from this object to another.
 
 <a id="FaceMeshing.CreateParameter"></a>
 
-### FaceMeshing.CreateParameter(propName: System.String)
+### FaceMeshing.CreateParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Creates a new parameter for a Property.
 
@@ -325,7 +325,7 @@ Generate the Mesh.
 
 <a id="FaceMeshing.GetChildren"></a>
 
-### FaceMeshing.GetChildren(recurses: System.Boolean, children: System.Collections.Generic.IList[ChildrenType])
+### FaceMeshing.GetChildren(recurses: [bool](https://docs.python.org/3/library/functions.html#bool), children: List[ChildrenType])
 
 Gets the list of children, filtered by type.
 
@@ -333,7 +333,7 @@ Gets the list of children, filtered by type.
 
 <a id="FaceMeshing.GetParameter"></a>
 
-### FaceMeshing.GetParameter(propName: System.String)
+### FaceMeshing.GetParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Gets the parameter corresponding to the given property.
 
@@ -357,7 +357,7 @@ Run the GroupSimilarObjects action.
 
 <a id="FaceMeshing.PropertyByAPIName"></a>
 
-### FaceMeshing.PropertyByAPIName(name: System.String)
+### FaceMeshing.PropertyByAPIName(name: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 ```text
 Get a property by its API name.
@@ -368,7 +368,7 @@ If multiple properties have the same API Name, only the first property with that
 
 <a id="FaceMeshing.PropertyByName"></a>
 
-### FaceMeshing.PropertyByName(name: System.String)
+### FaceMeshing.PropertyByName(name: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Get a property by its unique name.
 
@@ -376,7 +376,7 @@ Get a property by its unique name.
 
 <a id="FaceMeshing.RemoveParameter"></a>
 
-### FaceMeshing.RemoveParameter(propName: System.String)
+### FaceMeshing.RemoveParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Removes the parameter from the parameter set corresponding to the given property.
 

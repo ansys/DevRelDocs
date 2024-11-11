@@ -17,7 +17,7 @@ Specifies the RandomSamplingType.
 ### Attributes
 
 | Name |
-| ---------------------------------------------------------------------------------------------------------------------- |
+| -------------------------------------------- |
 | [`All`](#RandomSamplingType.All) |
 | [`Multiple`](#RandomSamplingType.Multiple) |
 | [`Single`](#RandomSamplingType.Single) |

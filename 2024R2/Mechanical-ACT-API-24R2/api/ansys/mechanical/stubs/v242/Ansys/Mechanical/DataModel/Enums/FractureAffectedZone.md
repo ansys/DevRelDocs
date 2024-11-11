@@ -17,7 +17,7 @@ Specifies the FractureAffectedZone.
 ### Attributes
 
 | Name |
-| -------------------------------------------------------------------------------------------------------------------------------------------- |
+| ---------------------------------------------------------------- |
 | [`Manual`](#FractureAffectedZone.Manual) |
 | [`ProgramControlled`](#FractureAffectedZone.ProgramControlled) |
 

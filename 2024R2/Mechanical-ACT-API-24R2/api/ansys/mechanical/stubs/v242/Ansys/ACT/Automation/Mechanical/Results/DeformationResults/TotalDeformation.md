@@ -17,7 +17,7 @@ Defines a TotalDeformation.
 ### Methods
 
 | Name | Description |
-|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------|
+|------------------------------------------------------------------------|-----------------------------------------------------------------------------------|
 | [`Activate`](#TotalDeformation.Activate)                               | Activate the current object.                                                      |
 | [`AddAlert`](#TotalDeformation.AddAlert)                               | Creates a new Alert                                                               |
 | [`AddComment`](#TotalDeformation.AddComment)                           | Creates a new child Comment.                                                      |
@@ -48,7 +48,7 @@ Defines a TotalDeformation.
 ### Properties
 
 | Name | Description |
-|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------|
+|--------------------------------------------------------------------------------------------|------------------------------------------------------------------------|
 | [`AccelerationInG`](#TotalDeformation.AccelerationInG)                                     | Gets or sets the AccelerationInG.                                      |
 | [`AllowPhaseSweep`](#TotalDeformation.AllowPhaseSweep)                                     | Gets or sets the AllowPhaseSweep.                                      |
 | [`Amplitude`](#TotalDeformation.Amplitude)                                                 | Gets or sets the Amplitude.                                            |
@@ -118,7 +118,7 @@ Defines a TotalDeformation.
 | [`Substep`](#TotalDeformation.Substep)                                                     | Gets the Substep.                                                      |
 | [`Suppressed`](#TotalDeformation.Suppressed)                                               | Gets or sets the Suppressed.                                           |
 | [`Surface`](#TotalDeformation.Surface)                                                     | Surface property.                                                      |
-| [`SurfaceCoating`](#TotalDeformation.SurfaceCoating)                                                                                                                                               | SurfaceCoating property.                                               |
+| [`SurfaceCoating`](#TotalDeformation.SurfaceCoating)                                       | SurfaceCoating property.                                               |
 | [`SweepingPhase`](#TotalDeformation.SweepingPhase)                                         | Gets or sets the SweepingPhase.                                        |
 | [`Time`](#TotalDeformation.Time)                                                           | Gets the Time.                                                         |
 | [`TimeForMaximumOfMaximumValues`](#TotalDeformation.TimeForMaximumOfMaximumValues)         | Get the Time for the maximum of maximum values.                        |
@@ -126,7 +126,7 @@ Defines a TotalDeformation.
 | [`TimeForMinimumOfMaximumValues`](#TotalDeformation.TimeForMinimumOfMaximumValues)         | Get the Time for the minimum of maximum values.                        |
 | [`TimeForMinimumOfMinimumValues`](#TotalDeformation.TimeForMinimumOfMinimumValues)         | Get the Time for the minimum of minimum values.                        |
 | [`VisibleProperties`](#TotalDeformation.VisibleProperties)                                 | Gets the list of properties that are visible for this object.          |
-| [`WaterfallShowTextOnMosaic`](#TotalDeformation.WaterfallShowTextOnMosaic)                                                                                                                         | Gets or sets the Waterfall Mosaic Text Property.                       |
+| [`WaterfallShowTextOnMosaic`](#TotalDeformation.WaterfallShowTextOnMosaic)                 | Gets or sets the Waterfall Mosaic Text Property.                       |
 
 <a id="property-detail"></a>
 
@@ -134,7 +134,7 @@ Defines a TotalDeformation.
 
 <a id="TotalDeformation.AccelerationInG"></a>
 
-### *property* TotalDeformation.AccelerationInG *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* TotalDeformation.AccelerationInG *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the AccelerationInG.
 
@@ -142,7 +142,7 @@ Gets or sets the AccelerationInG.
 
 <a id="TotalDeformation.AllowPhaseSweep"></a>
 
-### *property* TotalDeformation.AllowPhaseSweep *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* TotalDeformation.AllowPhaseSweep *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the AllowPhaseSweep.
 
@@ -150,7 +150,7 @@ Gets or sets the AllowPhaseSweep.
 
 <a id="TotalDeformation.Amplitude"></a>
 
-### *property* TotalDeformation.Amplitude *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* TotalDeformation.Amplitude *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Amplitude.
 
@@ -174,7 +174,7 @@ Gets or sets the By.
 
 <a id="TotalDeformation.CalculateTimeHistory"></a>
 
-### *property* TotalDeformation.CalculateTimeHistory *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* TotalDeformation.CalculateTimeHistory *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the CalculateTimeHistory.
 
@@ -182,7 +182,7 @@ Gets or sets the CalculateTimeHistory.
 
 <a id="TotalDeformation.Children"></a>
 
-### *property* TotalDeformation.Children *: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* TotalDeformation.Children *: List[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of children.
 
@@ -190,7 +190,7 @@ Gets the list of children.
 
 <a id="TotalDeformation.CombinationNumber"></a>
 
-### *property* TotalDeformation.CombinationNumber *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* TotalDeformation.CombinationNumber *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Combination Number for a Solution Combination result.
 
@@ -198,7 +198,7 @@ Gets or sets the Combination Number for a Solution Combination result.
 
 <a id="TotalDeformation.Comments"></a>
 
-### *property* TotalDeformation.Comments *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Comment](../../../../../../../v241/Ansys/ACT/Automation/Mechanical/Comment.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* TotalDeformation.Comments *: Iterable[[Ansys.ACT.Automation.Mechanical.Comment](../../Comment.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated comments.
 
@@ -206,7 +206,7 @@ Gets the list of associated comments.
 
 <a id="TotalDeformation.CoordinateSystem"></a>
 
-### *property* TotalDeformation.CoordinateSystem *: [Ansys.ACT.Automation.Mechanical.CoordinateSystem](../../../../../../../v241/Ansys/ACT/Automation/Mechanical/CoordinateSystem.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.CoordinateSystem) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* TotalDeformation.CoordinateSystem *: [Ansys.ACT.Automation.Mechanical.CoordinateSystem](../../CoordinateSystem.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.CoordinateSystem) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Coordinate System.
 Accepts/Returns None for Solution Coordinate System in the general case (if applicable).
@@ -216,7 +216,7 @@ Accepts/Returns None for Fiber Coordinate System for a result that is sub scoped
 
 <a id="TotalDeformation.CrackFrontNumber"></a>
 
-### *property* TotalDeformation.CrackFrontNumber *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* TotalDeformation.CrackFrontNumber *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the CrackFrontNumber.
 
@@ -224,7 +224,7 @@ Gets or sets the CrackFrontNumber.
 
 <a id="TotalDeformation.CyclicMode"></a>
 
-### *property* TotalDeformation.CyclicMode *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* TotalDeformation.CyclicMode *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the CyclicMode.
 
@@ -288,7 +288,7 @@ Gets or sets the DpfEvaluation.
 
 <a id="TotalDeformation.EnvironmentSelection"></a>
 
-### *property* TotalDeformation.EnvironmentSelection *: [Ansys.ACT.Automation.Mechanical.Analysis](../../../../../../../v241/Ansys/ACT/Automation/Mechanical/Analysis.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Analysis) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* TotalDeformation.EnvironmentSelection *: [Ansys.ACT.Automation.Mechanical.Analysis](../../Analysis.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Analysis) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the EnvironmentSelection.
 
@@ -296,7 +296,7 @@ Gets or sets the EnvironmentSelection.
 
 <a id="TotalDeformation.Figures"></a>
 
-### *property* TotalDeformation.Figures *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Figure](../../../../../../../v241/Ansys/ACT/Automation/Mechanical/Figure.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* TotalDeformation.Figures *: Iterable[[Ansys.ACT.Automation.Mechanical.Figure](../../Figure.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated figures.
 
@@ -312,7 +312,7 @@ Gets or sets the Frequency.
 
 <a id="TotalDeformation.GlobalIDs"></a>
 
-### *property* TotalDeformation.GlobalIDs *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* TotalDeformation.GlobalIDs *: [str](https://docs.python.org/3/library/stdtypes.html#str) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the GlobalIDs.
 
@@ -328,7 +328,7 @@ Gets or sets the GraphControlsXAxis.
 
 <a id="TotalDeformation.HarmonicIndex"></a>
 
-### *property* TotalDeformation.HarmonicIndex *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* TotalDeformation.HarmonicIndex *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the HarmonicIndex.
 
@@ -336,7 +336,7 @@ Gets or sets the HarmonicIndex.
 
 <a id="TotalDeformation.Identifier"></a>
 
-### *property* TotalDeformation.Identifier *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* TotalDeformation.Identifier *: [str](https://docs.python.org/3/library/stdtypes.html#str) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Identifier.
 
@@ -344,7 +344,7 @@ Gets or sets the Identifier.
 
 <a id="TotalDeformation.Images"></a>
 
-### *property* TotalDeformation.Images *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Image](../../../../../../../v241/Ansys/ACT/Automation/Mechanical/Image.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* TotalDeformation.Images *: Iterable[[Ansys.ACT.Automation.Mechanical.Image](../../Image.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated images.
 
@@ -360,7 +360,7 @@ Gets the internal object. For advanced usage only.
 
 <a id="TotalDeformation.IsSolved"></a>
 
-### *property* TotalDeformation.IsSolved *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* TotalDeformation.IsSolved *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the IsSolved.
 
@@ -376,7 +376,7 @@ Gets or sets the ItemType.
 
 <a id="TotalDeformation.IterationNumber"></a>
 
-### *property* TotalDeformation.IterationNumber *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* TotalDeformation.IterationNumber *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the IterationNumber.
 
@@ -384,7 +384,7 @@ Gets the IterationNumber.
 
 <a id="TotalDeformation.IterationStep"></a>
 
-### *property* TotalDeformation.IterationStep *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* TotalDeformation.IterationStep *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the IterationStep.
 
@@ -392,7 +392,7 @@ Gets or sets the IterationStep.
 
 <a id="TotalDeformation.LoadMultiplier"></a>
 
-### *property* TotalDeformation.LoadMultiplier *: System.Double | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* TotalDeformation.LoadMultiplier *: [float](https://docs.python.org/3/library/functions.html#float) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the LoadMultiplier.
 
@@ -400,7 +400,7 @@ Gets the LoadMultiplier.
 
 <a id="TotalDeformation.LoadStep"></a>
 
-### *property* TotalDeformation.LoadStep *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* TotalDeformation.LoadStep *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the LoadStep.
 
@@ -408,7 +408,7 @@ Gets the LoadStep.
 
 <a id="TotalDeformation.LoadStepForMaximumOfMaximumValues"></a>
 
-### *property* TotalDeformation.LoadStepForMaximumOfMaximumValues *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* TotalDeformation.LoadStepForMaximumOfMaximumValues *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Get the Load Step for the maximum of maximum values.
 
@@ -416,7 +416,7 @@ Get the Load Step for the maximum of maximum values.
 
 <a id="TotalDeformation.LoadStepForMaximumOfMinimumValues"></a>
 
-### *property* TotalDeformation.LoadStepForMaximumOfMinimumValues *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* TotalDeformation.LoadStepForMaximumOfMinimumValues *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Get the Load Step for the maximum of minimum values.
 
@@ -424,7 +424,7 @@ Get the Load Step for the maximum of minimum values.
 
 <a id="TotalDeformation.LoadStepForMinimumOfMaximumValues"></a>
 
-### *property* TotalDeformation.LoadStepForMinimumOfMaximumValues *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* TotalDeformation.LoadStepForMinimumOfMaximumValues *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Get the Load Step for the minimum of maximum values.
 
@@ -432,7 +432,7 @@ Get the Load Step for the minimum of maximum values.
 
 <a id="TotalDeformation.LoadStepForMinimumOfMinimumValues"></a>
 
-### *property* TotalDeformation.LoadStepForMinimumOfMinimumValues *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* TotalDeformation.LoadStepForMinimumOfMinimumValues *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Get the Load Step for the minimum of minimum values.
 
@@ -440,7 +440,7 @@ Get the Load Step for the minimum of minimum values.
 
 <a id="TotalDeformation.LoadStepNumber"></a>
 
-### *property* TotalDeformation.LoadStepNumber *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* TotalDeformation.LoadStepNumber *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the LoadStepNumber.
 
@@ -456,7 +456,7 @@ Gets or sets the Location.
 
 <a id="TotalDeformation.LogarithmicDecrement"></a>
 
-### *property* TotalDeformation.LogarithmicDecrement *: System.Double | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* TotalDeformation.LogarithmicDecrement *: [float](https://docs.python.org/3/library/functions.html#float) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the LogarithmicDecrement.
 
@@ -472,7 +472,7 @@ Gets the Maximum.
 
 <a id="TotalDeformation.MaximumOccursOn"></a>
 
-### *property* TotalDeformation.MaximumOccursOn *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* TotalDeformation.MaximumOccursOn *: [str](https://docs.python.org/3/library/stdtypes.html#str) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the MaximumOccursOn.
 
@@ -504,7 +504,7 @@ Gets the Minimum.
 
 <a id="TotalDeformation.MinimumOccursOn"></a>
 
-### *property* TotalDeformation.MinimumOccursOn *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* TotalDeformation.MinimumOccursOn *: [str](https://docs.python.org/3/library/stdtypes.html#str) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the MinimumOccursOn.
 
@@ -528,7 +528,7 @@ Gets the MinimumOfMinimumOverTime.
 
 <a id="TotalDeformation.ModalDampingRatio"></a>
 
-### *property* TotalDeformation.ModalDampingRatio *: System.Double | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* TotalDeformation.ModalDampingRatio *: [float](https://docs.python.org/3/library/functions.html#float) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the ModalDampingRatio.
 
@@ -536,7 +536,7 @@ Gets the ModalDampingRatio.
 
 <a id="TotalDeformation.Mode"></a>
 
-### *property* TotalDeformation.Mode *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* TotalDeformation.Mode *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Mode.
 
@@ -544,7 +544,7 @@ Gets or sets the Mode.
 
 <a id="TotalDeformation.NamedSelections"></a>
 
-### *property* TotalDeformation.NamedSelections *: System.Collections.Generic.IEnumerable[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* TotalDeformation.NamedSelections *: Iterable[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the NamedSelections.
 
@@ -576,7 +576,7 @@ Gets the result table.
 
 <a id="TotalDeformation.Probability"></a>
 
-### *property* TotalDeformation.Probability *: System.Double | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* TotalDeformation.Probability *: [float](https://docs.python.org/3/library/functions.html#float) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the Probability.
 
@@ -584,7 +584,7 @@ Gets the Probability.
 
 <a id="TotalDeformation.Properties"></a>
 
-### *property* TotalDeformation.Properties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* TotalDeformation.Properties *: [tuple](https://docs.python.org/3/library/stdtypes.html#tuple)[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of properties for this object.
 
@@ -616,7 +616,7 @@ Gets or sets the ScaleFactor.
 
 <a id="TotalDeformation.ScaleFactorValue"></a>
 
-### *property* TotalDeformation.ScaleFactorValue *: System.Double | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* TotalDeformation.ScaleFactorValue *: [float](https://docs.python.org/3/library/functions.html#float) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the ScaleFactorValue.
 
@@ -632,7 +632,7 @@ Gets or sets the ScopingMethod.
 
 <a id="TotalDeformation.SetNumber"></a>
 
-### *property* TotalDeformation.SetNumber *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* TotalDeformation.SetNumber *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Set Number.
 
@@ -648,7 +648,7 @@ Gets or sets the SolutionCombinationDriver.
 
 <a id="TotalDeformation.SolverComponentIDs"></a>
 
-### *property* TotalDeformation.SolverComponentIDs *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* TotalDeformation.SolverComponentIDs *: [str](https://docs.python.org/3/library/stdtypes.html#str) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the SolverComponentIDs.
 
@@ -664,7 +664,7 @@ Gets the Stability.
 
 <a id="TotalDeformation.Substep"></a>
 
-### *property* TotalDeformation.Substep *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* TotalDeformation.Substep *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the Substep.
 
@@ -672,7 +672,7 @@ Gets the Substep.
 
 <a id="TotalDeformation.Suppressed"></a>
 
-### *property* TotalDeformation.Suppressed *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* TotalDeformation.Suppressed *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Suppressed.
 
@@ -744,7 +744,7 @@ Get the Time for the minimum of minimum values.
 
 <a id="TotalDeformation.VisibleProperties"></a>
 
-### *property* TotalDeformation.VisibleProperties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* TotalDeformation.VisibleProperties *: [tuple](https://docs.python.org/3/library/stdtypes.html#tuple)[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of properties that are visible for this object.
 
@@ -752,7 +752,7 @@ Gets the list of properties that are visible for this object.
 
 <a id="TotalDeformation.WaterfallShowTextOnMosaic"></a>
 
-### *property* TotalDeformation.WaterfallShowTextOnMosaic *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* TotalDeformation.WaterfallShowTextOnMosaic *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Waterfall Mosaic Text Property.
 
@@ -804,7 +804,7 @@ Creates a new child Figure.
 
 <a id="TotalDeformation.AddImage"></a>
 
-### TotalDeformation.AddImage(filePath: System.String)
+### TotalDeformation.AddImage(filePath: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 ```text
 Creates a new child Image.
@@ -832,7 +832,7 @@ Copies all visible properties from this object to another.
 
 <a id="TotalDeformation.CreateParameter"></a>
 
-### TotalDeformation.CreateParameter(propName: System.String)
+### TotalDeformation.CreateParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 CreateParameter method.
 
@@ -880,7 +880,7 @@ Run the EvaluateAllResults action.
 
 <a id="TotalDeformation.ExportAnimation"></a>
 
-### TotalDeformation.ExportAnimation(filePath: System.String, format: [Ansys.Mechanical.DataModel.Enums.GraphicsAnimationExportFormat](../../../../../Mechanical/DataModel/Enums/GraphicsAnimationExportFormat.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.GraphicsAnimationExportFormat), settings: [Ansys.Mechanical.Graphics.AnimationExportSettings](../../../../../Mechanical/Graphics/AnimationExportSettings.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.Graphics.AnimationExportSettings))
+### TotalDeformation.ExportAnimation(filePath: [str](https://docs.python.org/3/library/stdtypes.html#str), format: [Ansys.Mechanical.DataModel.Enums.GraphicsAnimationExportFormat](../../../../../Mechanical/DataModel/Enums/GraphicsAnimationExportFormat.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.GraphicsAnimationExportFormat), settings: [Ansys.Mechanical.Graphics.AnimationExportSettings](../../../../../Mechanical/Graphics/AnimationExportSettings.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.Graphics.AnimationExportSettings))
 
 Run the ExportAnimation action.
 
@@ -888,7 +888,7 @@ Run the ExportAnimation action.
 
 <a id="TotalDeformation.ExportToTextFile"></a>
 
-### TotalDeformation.ExportToTextFile(filePath: System.String)
+### TotalDeformation.ExportToTextFile(filePath: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Run the ExportToTextFile action.
 
@@ -904,7 +904,7 @@ Run the FetchRemoteResult action.
 
 <a id="TotalDeformation.GetChildren"></a>
 
-### TotalDeformation.GetChildren(recurses: System.Boolean, children: System.Collections.Generic.IList[ChildrenType])
+### TotalDeformation.GetChildren(recurses: [bool](https://docs.python.org/3/library/functions.html#bool), children: List[ChildrenType])
 
 Gets the list of children, filtered by type.
 
@@ -912,7 +912,7 @@ Gets the list of children, filtered by type.
 
 <a id="TotalDeformation.GetParameter"></a>
 
-### TotalDeformation.GetParameter(propName: System.String)
+### TotalDeformation.GetParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Gets the parameter corresponding to the given property.
 
@@ -944,7 +944,7 @@ Run the PromoteToNamedSelection action.
 
 <a id="TotalDeformation.PropertyByAPIName"></a>
 
-### TotalDeformation.PropertyByAPIName(name: System.String)
+### TotalDeformation.PropertyByAPIName(name: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 ```text
 Get a property by its API name.
@@ -955,7 +955,7 @@ If multiple properties have the same API Name, only the first property with that
 
 <a id="TotalDeformation.PropertyByName"></a>
 
-### TotalDeformation.PropertyByName(name: System.String)
+### TotalDeformation.PropertyByName(name: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Get a property by its unique name.
 
@@ -963,7 +963,7 @@ Get a property by its unique name.
 
 <a id="TotalDeformation.RemoveParameter"></a>
 
-### TotalDeformation.RemoveParameter(propName: System.String)
+### TotalDeformation.RemoveParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Removes the parameter from the parameter set corresponding to the given property.
 

@@ -17,7 +17,7 @@ Defines a FluidHeatTransportRate.
 ### Methods
 
 | Name | Description |
-|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------|
+|------------------------------------------------------------------------------|-----------------------------------------------------------------------------------|
 | [`Activate`](#FluidHeatTransportRate.Activate)                               | Activate the current object.                                                      |
 | [`AddAlert`](#FluidHeatTransportRate.AddAlert)                               | Creates a new Alert                                                               |
 | [`AddComment`](#FluidHeatTransportRate.AddComment)                           | Creates a new child Comment.                                                      |
@@ -48,7 +48,7 @@ Defines a FluidHeatTransportRate.
 ### Properties
 
 | Name | Description |
-|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------|
+|--------------------------------------------------------------------------------------------------|------------------------------------------------------------------------|
 | [`Average`](#FluidHeatTransportRate.Average)                                                     | Gets the Average.                                                      |
 | [`AverageAcrossBodies`](#FluidHeatTransportRate.AverageAcrossBodies)                             | Gets or sets the AverageAcrossBodies.                                  |
 | [`By`](#FluidHeatTransportRate.By)                                                               | Gets or sets the By.                                                   |
@@ -100,7 +100,7 @@ Defines a FluidHeatTransportRate.
 | [`Substep`](#FluidHeatTransportRate.Substep)                                                     | Gets the Substep.                                                      |
 | [`Suppressed`](#FluidHeatTransportRate.Suppressed)                                               | Gets or sets the Suppressed.                                           |
 | [`Surface`](#FluidHeatTransportRate.Surface)                                                     | Surface property.                                                      |
-| [`SurfaceCoating`](#FluidHeatTransportRate.SurfaceCoating)                                                                                                                                                 | SurfaceCoating property.                                               |
+| [`SurfaceCoating`](#FluidHeatTransportRate.SurfaceCoating)                                       | SurfaceCoating property.                                               |
 | [`ThermalResultType`](#FluidHeatTransportRate.ThermalResultType)                                 | Gets or sets the ThermalResultType.                                    |
 | [`Time`](#FluidHeatTransportRate.Time)                                                           | Gets the Time.                                                         |
 | [`TimeForMaximumOfMaximumValues`](#FluidHeatTransportRate.TimeForMaximumOfMaximumValues)         | Get the Time for the maximum of maximum values.                        |
@@ -108,7 +108,7 @@ Defines a FluidHeatTransportRate.
 | [`TimeForMinimumOfMaximumValues`](#FluidHeatTransportRate.TimeForMinimumOfMaximumValues)         | Get the Time for the minimum of maximum values.                        |
 | [`TimeForMinimumOfMinimumValues`](#FluidHeatTransportRate.TimeForMinimumOfMinimumValues)         | Get the Time for the minimum of minimum values.                        |
 | [`VisibleProperties`](#FluidHeatTransportRate.VisibleProperties)                                 | Gets the list of properties that are visible for this object.          |
-| [`WaterfallShowTextOnMosaic`](#FluidHeatTransportRate.WaterfallShowTextOnMosaic)                                                                                                                           | Gets or sets the Waterfall Mosaic Text Property.                       |
+| [`WaterfallShowTextOnMosaic`](#FluidHeatTransportRate.WaterfallShowTextOnMosaic)                 | Gets or sets the Waterfall Mosaic Text Property.                       |
 
 <a id="property-detail"></a>
 
@@ -124,7 +124,7 @@ Gets the Average.
 
 <a id="FluidHeatTransportRate.AverageAcrossBodies"></a>
 
-### *property* FluidHeatTransportRate.AverageAcrossBodies *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* FluidHeatTransportRate.AverageAcrossBodies *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the AverageAcrossBodies.
 
@@ -140,7 +140,7 @@ Gets or sets the By.
 
 <a id="FluidHeatTransportRate.CalculateTimeHistory"></a>
 
-### *property* FluidHeatTransportRate.CalculateTimeHistory *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* FluidHeatTransportRate.CalculateTimeHistory *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the CalculateTimeHistory.
 
@@ -148,7 +148,7 @@ Gets or sets the CalculateTimeHistory.
 
 <a id="FluidHeatTransportRate.Children"></a>
 
-### *property* FluidHeatTransportRate.Children *: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* FluidHeatTransportRate.Children *: List[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of children.
 
@@ -156,7 +156,7 @@ Gets the list of children.
 
 <a id="FluidHeatTransportRate.CombinationNumber"></a>
 
-### *property* FluidHeatTransportRate.CombinationNumber *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* FluidHeatTransportRate.CombinationNumber *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Combination Number for a Solution Combination result.
 
@@ -164,7 +164,7 @@ Gets or sets the Combination Number for a Solution Combination result.
 
 <a id="FluidHeatTransportRate.Comments"></a>
 
-### *property* FluidHeatTransportRate.Comments *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Comment](../../../../../../../v241/Ansys/ACT/Automation/Mechanical/Comment.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* FluidHeatTransportRate.Comments *: Iterable[[Ansys.ACT.Automation.Mechanical.Comment](../../Comment.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated comments.
 
@@ -172,7 +172,7 @@ Gets the list of associated comments.
 
 <a id="FluidHeatTransportRate.CoordinateSystem"></a>
 
-### *property* FluidHeatTransportRate.CoordinateSystem *: [Ansys.ACT.Automation.Mechanical.CoordinateSystem](../../../../../../../v241/Ansys/ACT/Automation/Mechanical/CoordinateSystem.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.CoordinateSystem) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* FluidHeatTransportRate.CoordinateSystem *: [Ansys.ACT.Automation.Mechanical.CoordinateSystem](../../CoordinateSystem.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.CoordinateSystem) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Coordinate System.
 Accepts/Returns None for Solution Coordinate System in the general case (if applicable).
@@ -182,7 +182,7 @@ Accepts/Returns None for Fiber Coordinate System for a result that is sub scoped
 
 <a id="FluidHeatTransportRate.CrackFrontNumber"></a>
 
-### *property* FluidHeatTransportRate.CrackFrontNumber *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* FluidHeatTransportRate.CrackFrontNumber *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the CrackFrontNumber.
 
@@ -222,7 +222,7 @@ Gets or sets the DpfEvaluation.
 
 <a id="FluidHeatTransportRate.Figures"></a>
 
-### *property* FluidHeatTransportRate.Figures *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Figure](../../../../../../../v241/Ansys/ACT/Automation/Mechanical/Figure.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* FluidHeatTransportRate.Figures *: Iterable[[Ansys.ACT.Automation.Mechanical.Figure](../../Figure.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated figures.
 
@@ -230,7 +230,7 @@ Gets the list of associated figures.
 
 <a id="FluidHeatTransportRate.GlobalIDs"></a>
 
-### *property* FluidHeatTransportRate.GlobalIDs *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* FluidHeatTransportRate.GlobalIDs *: [str](https://docs.python.org/3/library/stdtypes.html#str) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the GlobalIDs.
 
@@ -246,7 +246,7 @@ Gets or sets the GraphControlsXAxis.
 
 <a id="FluidHeatTransportRate.Identifier"></a>
 
-### *property* FluidHeatTransportRate.Identifier *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* FluidHeatTransportRate.Identifier *: [str](https://docs.python.org/3/library/stdtypes.html#str) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Identifier.
 
@@ -254,7 +254,7 @@ Gets or sets the Identifier.
 
 <a id="FluidHeatTransportRate.Images"></a>
 
-### *property* FluidHeatTransportRate.Images *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Image](../../../../../../../v241/Ansys/ACT/Automation/Mechanical/Image.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* FluidHeatTransportRate.Images *: Iterable[[Ansys.ACT.Automation.Mechanical.Image](../../Image.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated images.
 
@@ -270,7 +270,7 @@ Gets the internal object. For advanced usage only.
 
 <a id="FluidHeatTransportRate.IsSolved"></a>
 
-### *property* FluidHeatTransportRate.IsSolved *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* FluidHeatTransportRate.IsSolved *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the IsSolved.
 
@@ -286,7 +286,7 @@ Gets or sets the ItemType.
 
 <a id="FluidHeatTransportRate.IterationNumber"></a>
 
-### *property* FluidHeatTransportRate.IterationNumber *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* FluidHeatTransportRate.IterationNumber *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the IterationNumber.
 
@@ -294,7 +294,7 @@ Gets the IterationNumber.
 
 <a id="FluidHeatTransportRate.Layer"></a>
 
-### *property* FluidHeatTransportRate.Layer *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* FluidHeatTransportRate.Layer *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Layer.
 
@@ -302,7 +302,7 @@ Gets or sets the Layer.
 
 <a id="FluidHeatTransportRate.LoadStep"></a>
 
-### *property* FluidHeatTransportRate.LoadStep *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* FluidHeatTransportRate.LoadStep *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the LoadStep.
 
@@ -310,7 +310,7 @@ Gets the LoadStep.
 
 <a id="FluidHeatTransportRate.LoadStepForMaximumOfMaximumValues"></a>
 
-### *property* FluidHeatTransportRate.LoadStepForMaximumOfMaximumValues *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* FluidHeatTransportRate.LoadStepForMaximumOfMaximumValues *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Get the Load Step for the maximum of maximum values.
 
@@ -318,7 +318,7 @@ Get the Load Step for the maximum of maximum values.
 
 <a id="FluidHeatTransportRate.LoadStepForMaximumOfMinimumValues"></a>
 
-### *property* FluidHeatTransportRate.LoadStepForMaximumOfMinimumValues *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* FluidHeatTransportRate.LoadStepForMaximumOfMinimumValues *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Get the Load Step for the maximum of minimum values.
 
@@ -326,7 +326,7 @@ Get the Load Step for the maximum of minimum values.
 
 <a id="FluidHeatTransportRate.LoadStepForMinimumOfMaximumValues"></a>
 
-### *property* FluidHeatTransportRate.LoadStepForMinimumOfMaximumValues *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* FluidHeatTransportRate.LoadStepForMinimumOfMaximumValues *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Get the Load Step for the minimum of maximum values.
 
@@ -334,7 +334,7 @@ Get the Load Step for the minimum of maximum values.
 
 <a id="FluidHeatTransportRate.LoadStepForMinimumOfMinimumValues"></a>
 
-### *property* FluidHeatTransportRate.LoadStepForMinimumOfMinimumValues *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* FluidHeatTransportRate.LoadStepForMinimumOfMinimumValues *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Get the Load Step for the minimum of minimum values.
 
@@ -342,7 +342,7 @@ Get the Load Step for the minimum of minimum values.
 
 <a id="FluidHeatTransportRate.LoadStepNumber"></a>
 
-### *property* FluidHeatTransportRate.LoadStepNumber *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* FluidHeatTransportRate.LoadStepNumber *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the LoadStepNumber.
 
@@ -366,7 +366,7 @@ Gets the Maximum.
 
 <a id="FluidHeatTransportRate.MaximumOccursOn"></a>
 
-### *property* FluidHeatTransportRate.MaximumOccursOn *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* FluidHeatTransportRate.MaximumOccursOn *: [str](https://docs.python.org/3/library/stdtypes.html#str) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the MaximumOccursOn.
 
@@ -398,7 +398,7 @@ Gets the Minimum.
 
 <a id="FluidHeatTransportRate.MinimumOccursOn"></a>
 
-### *property* FluidHeatTransportRate.MinimumOccursOn *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* FluidHeatTransportRate.MinimumOccursOn *: [str](https://docs.python.org/3/library/stdtypes.html#str) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the MinimumOccursOn.
 
@@ -422,7 +422,7 @@ Gets the MinimumOfMinimumOverTime.
 
 <a id="FluidHeatTransportRate.NamedSelections"></a>
 
-### *property* FluidHeatTransportRate.NamedSelections *: System.Collections.Generic.IEnumerable[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* FluidHeatTransportRate.NamedSelections *: Iterable[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the NamedSelections.
 
@@ -462,7 +462,7 @@ Gets or sets the Position.
 
 <a id="FluidHeatTransportRate.Properties"></a>
 
-### *property* FluidHeatTransportRate.Properties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* FluidHeatTransportRate.Properties *: [tuple](https://docs.python.org/3/library/stdtypes.html#tuple)[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of properties for this object.
 
@@ -478,7 +478,7 @@ Gets or sets the ScopingMethod.
 
 <a id="FluidHeatTransportRate.SetNumber"></a>
 
-### *property* FluidHeatTransportRate.SetNumber *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* FluidHeatTransportRate.SetNumber *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Set Number.
 
@@ -494,7 +494,7 @@ Gets or sets the SolutionCombinationDriver.
 
 <a id="FluidHeatTransportRate.SolverComponentIDs"></a>
 
-### *property* FluidHeatTransportRate.SolverComponentIDs *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* FluidHeatTransportRate.SolverComponentIDs *: [str](https://docs.python.org/3/library/stdtypes.html#str) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the SolverComponentIDs.
 
@@ -502,7 +502,7 @@ Gets or sets the SolverComponentIDs.
 
 <a id="FluidHeatTransportRate.Substep"></a>
 
-### *property* FluidHeatTransportRate.Substep *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* FluidHeatTransportRate.Substep *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the Substep.
 
@@ -510,7 +510,7 @@ Gets the Substep.
 
 <a id="FluidHeatTransportRate.Suppressed"></a>
 
-### *property* FluidHeatTransportRate.Suppressed *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* FluidHeatTransportRate.Suppressed *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Suppressed.
 
@@ -582,7 +582,7 @@ Get the Time for the minimum of minimum values.
 
 <a id="FluidHeatTransportRate.VisibleProperties"></a>
 
-### *property* FluidHeatTransportRate.VisibleProperties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* FluidHeatTransportRate.VisibleProperties *: [tuple](https://docs.python.org/3/library/stdtypes.html#tuple)[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of properties that are visible for this object.
 
@@ -590,7 +590,7 @@ Gets the list of properties that are visible for this object.
 
 <a id="FluidHeatTransportRate.WaterfallShowTextOnMosaic"></a>
 
-### *property* FluidHeatTransportRate.WaterfallShowTextOnMosaic *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* FluidHeatTransportRate.WaterfallShowTextOnMosaic *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Waterfall Mosaic Text Property.
 
@@ -642,7 +642,7 @@ Creates a new child Figure.
 
 <a id="FluidHeatTransportRate.AddImage"></a>
 
-### FluidHeatTransportRate.AddImage(filePath: System.String)
+### FluidHeatTransportRate.AddImage(filePath: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 ```text
 Creates a new child Image.
@@ -670,7 +670,7 @@ Copies all visible properties from this object to another.
 
 <a id="FluidHeatTransportRate.CreateParameter"></a>
 
-### FluidHeatTransportRate.CreateParameter(propName: System.String)
+### FluidHeatTransportRate.CreateParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 CreateParameter method.
 
@@ -718,7 +718,7 @@ Run the EvaluateAllResults action.
 
 <a id="FluidHeatTransportRate.ExportAnimation"></a>
 
-### FluidHeatTransportRate.ExportAnimation(filePath: System.String, format: [Ansys.Mechanical.DataModel.Enums.GraphicsAnimationExportFormat](../../../../../Mechanical/DataModel/Enums/GraphicsAnimationExportFormat.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.GraphicsAnimationExportFormat), settings: [Ansys.Mechanical.Graphics.AnimationExportSettings](../../../../../Mechanical/Graphics/AnimationExportSettings.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.Graphics.AnimationExportSettings))
+### FluidHeatTransportRate.ExportAnimation(filePath: [str](https://docs.python.org/3/library/stdtypes.html#str), format: [Ansys.Mechanical.DataModel.Enums.GraphicsAnimationExportFormat](../../../../../Mechanical/DataModel/Enums/GraphicsAnimationExportFormat.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.GraphicsAnimationExportFormat), settings: [Ansys.Mechanical.Graphics.AnimationExportSettings](../../../../../Mechanical/Graphics/AnimationExportSettings.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.Graphics.AnimationExportSettings))
 
 Run the ExportAnimation action.
 
@@ -726,7 +726,7 @@ Run the ExportAnimation action.
 
 <a id="FluidHeatTransportRate.ExportToTextFile"></a>
 
-### FluidHeatTransportRate.ExportToTextFile(filePath: System.String)
+### FluidHeatTransportRate.ExportToTextFile(filePath: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Run the ExportToTextFile action.
 
@@ -742,7 +742,7 @@ Run the FetchRemoteResult action.
 
 <a id="FluidHeatTransportRate.GetChildren"></a>
 
-### FluidHeatTransportRate.GetChildren(recurses: System.Boolean, children: System.Collections.Generic.IList[ChildrenType])
+### FluidHeatTransportRate.GetChildren(recurses: [bool](https://docs.python.org/3/library/functions.html#bool), children: List[ChildrenType])
 
 Gets the list of children, filtered by type.
 
@@ -750,7 +750,7 @@ Gets the list of children, filtered by type.
 
 <a id="FluidHeatTransportRate.GetParameter"></a>
 
-### FluidHeatTransportRate.GetParameter(propName: System.String)
+### FluidHeatTransportRate.GetParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Gets the parameter corresponding to the given property.
 
@@ -782,7 +782,7 @@ Run the PromoteToNamedSelection action.
 
 <a id="FluidHeatTransportRate.PropertyByAPIName"></a>
 
-### FluidHeatTransportRate.PropertyByAPIName(name: System.String)
+### FluidHeatTransportRate.PropertyByAPIName(name: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 ```text
 Get a property by its API name.
@@ -793,7 +793,7 @@ If multiple properties have the same API Name, only the first property with that
 
 <a id="FluidHeatTransportRate.PropertyByName"></a>
 
-### FluidHeatTransportRate.PropertyByName(name: System.String)
+### FluidHeatTransportRate.PropertyByName(name: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Get a property by its unique name.
 
@@ -801,7 +801,7 @@ Get a property by its unique name.
 
 <a id="FluidHeatTransportRate.RemoveParameter"></a>
 
-### FluidHeatTransportRate.RemoveParameter(propName: System.String)
+### FluidHeatTransportRate.RemoveParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Removes the parameter from the parameter set corresponding to the given property.
 

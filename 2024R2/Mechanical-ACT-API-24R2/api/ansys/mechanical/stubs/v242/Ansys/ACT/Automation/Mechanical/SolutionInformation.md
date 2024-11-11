@@ -17,7 +17,7 @@ Defines a SolutionInformation.
 ### Methods
 
 | Name | Description |
-|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------|
+|-----------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------|
 | [`Activate`](#SolutionInformation.Activate)                                                         | Activate the current object.                                                      |
 | [`AddAddedMass`](#SolutionInformation.AddAddedMass)                                                 | Creates a new AddedMassTracker                                                    |
 | [`AddArtificialEnergy`](#SolutionInformation.AddArtificialEnergy)                                   | Creates a new ArtificialEnergyTracker                                             |
@@ -120,7 +120,7 @@ Defines a SolutionInformation.
 ### Properties
 
 | Name | Description |
-|---------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------|
+|-------------------------------------------------------------------------------|---------------------------------------------------------------|
 | [`ActivateVisibility`](#SolutionInformation.ActivateVisibility)               | Gets or sets the ActivateVisibility.                          |
 | [`Children`](#SolutionInformation.Children)                                   | Gets the list of children.                                    |
 | [`Comments`](#SolutionInformation.Comments)                                   | Gets the list of associated comments.                         |
@@ -159,7 +159,7 @@ Defines a SolutionInformation.
 
 <a id="SolutionInformation.ActivateVisibility"></a>
 
-### *property* SolutionInformation.ActivateVisibility *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* SolutionInformation.ActivateVisibility *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the ActivateVisibility.
 
@@ -167,7 +167,7 @@ Gets or sets the ActivateVisibility.
 
 <a id="SolutionInformation.Children"></a>
 
-### *property* SolutionInformation.Children *: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* SolutionInformation.Children *: List[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of children.
 
@@ -175,7 +175,7 @@ Gets the list of children.
 
 <a id="SolutionInformation.Comments"></a>
 
-### *property* SolutionInformation.Comments *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Comment](../../../../../v241/Ansys/ACT/Automation/Mechanical/Comment.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* SolutionInformation.Comments *: Iterable[[Ansys.ACT.Automation.Mechanical.Comment](Comment.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated comments.
 
@@ -207,7 +207,7 @@ Gets or sets the Display.
 
 <a id="SolutionInformation.DisplayFilterDuringSolve"></a>
 
-### *property* SolutionInformation.DisplayFilterDuringSolve *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* SolutionInformation.DisplayFilterDuringSolve *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the DisplayFilterDuringSolve.
 
@@ -215,7 +215,7 @@ Gets or sets the DisplayFilterDuringSolve.
 
 <a id="SolutionInformation.DisplayPoints"></a>
 
-### *property* SolutionInformation.DisplayPoints *: System.Double | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* SolutionInformation.DisplayPoints *: [float](https://docs.python.org/3/library/functions.html#float) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the DisplayPoints.
 
@@ -239,7 +239,7 @@ Gets or sets the DrawConnectionsAttachedTo.
 
 <a id="SolutionInformation.EnvironmentSelection"></a>
 
-### *property* SolutionInformation.EnvironmentSelection *: System.Object | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* SolutionInformation.EnvironmentSelection *: Any | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or Sets the EnvironmentSelection to an Analysis object.
 
@@ -247,7 +247,7 @@ Gets or Sets the EnvironmentSelection to an Analysis object.
 
 <a id="SolutionInformation.Figures"></a>
 
-### *property* SolutionInformation.Figures *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Figure](../../../../../v241/Ansys/ACT/Automation/Mechanical/Figure.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* SolutionInformation.Figures *: Iterable[[Ansys.ACT.Automation.Mechanical.Figure](Figure.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated figures.
 
@@ -255,7 +255,7 @@ Gets the list of associated figures.
 
 <a id="SolutionInformation.IdentifyElementViolations"></a>
 
-### *property* SolutionInformation.IdentifyElementViolations *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* SolutionInformation.IdentifyElementViolations *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the IdentifyElementViolations.
 
@@ -263,7 +263,7 @@ Gets or sets the IdentifyElementViolations.
 
 <a id="SolutionInformation.Images"></a>
 
-### *property* SolutionInformation.Images *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Image](../../../../../v241/Ansys/ACT/Automation/Mechanical/Image.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* SolutionInformation.Images *: Iterable[[Ansys.ACT.Automation.Mechanical.Image](Image.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated images.
 
@@ -295,7 +295,7 @@ Gets or sets the LineThickness.
 
 <a id="SolutionInformation.ModeNumber"></a>
 
-### *property* SolutionInformation.ModeNumber *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* SolutionInformation.ModeNumber *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the ModeNumber.
 
@@ -303,7 +303,7 @@ Gets or sets the ModeNumber.
 
 <a id="SolutionInformation.NewtonRaphsonResiduals"></a>
 
-### *property* SolutionInformation.NewtonRaphsonResiduals *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* SolutionInformation.NewtonRaphsonResiduals *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the NewtonRaphsonResiduals.
 
@@ -311,7 +311,7 @@ Gets or sets the NewtonRaphsonResiduals.
 
 <a id="SolutionInformation.Properties"></a>
 
-### *property* SolutionInformation.Properties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* SolutionInformation.Properties *: [tuple](https://docs.python.org/3/library/stdtypes.html#tuple)[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of properties for this object.
 
@@ -327,7 +327,7 @@ Gets or sets the ResponseConstraint.
 
 <a id="SolutionInformation.ShowChargeResiduals"></a>
 
-### *property* SolutionInformation.ShowChargeResiduals *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* SolutionInformation.ShowChargeResiduals *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the ShowChargeResiduals.
 
@@ -335,7 +335,7 @@ Gets or sets the ShowChargeResiduals.
 
 <a id="SolutionInformation.ShowHeatResiduals"></a>
 
-### *property* SolutionInformation.ShowHeatResiduals *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* SolutionInformation.ShowHeatResiduals *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the ShowHeatResiduals.
 
@@ -343,7 +343,7 @@ Gets or sets the ShowHeatResiduals.
 
 <a id="SolutionInformation.ShowMomentResiduals"></a>
 
-### *property* SolutionInformation.ShowMomentResiduals *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* SolutionInformation.ShowMomentResiduals *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the ShowMomentResiduals.
 
@@ -359,7 +359,7 @@ Gets or sets the SolutionOutput.
 
 <a id="SolutionInformation.StepNumber"></a>
 
-### *property* SolutionInformation.StepNumber *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* SolutionInformation.StepNumber *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the StepNumber.
 
@@ -383,7 +383,7 @@ Gets or sets the SummaryType.
 
 <a id="SolutionInformation.UpdateInterval"></a>
 
-### *property* SolutionInformation.UpdateInterval *: System.Double | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* SolutionInformation.UpdateInterval *: [float](https://docs.python.org/3/library/functions.html#float) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the UpdateInterval.
 
@@ -391,7 +391,7 @@ Gets or sets the UpdateInterval.
 
 <a id="SolutionInformation.VisibleOnResults"></a>
 
-### *property* SolutionInformation.VisibleOnResults *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* SolutionInformation.VisibleOnResults *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the VisibleOnResults.
 
@@ -399,7 +399,7 @@ Gets or sets the VisibleOnResults.
 
 <a id="SolutionInformation.VisibleProperties"></a>
 
-### *property* SolutionInformation.VisibleProperties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* SolutionInformation.VisibleProperties *: [tuple](https://docs.python.org/3/library/stdtypes.html#tuple)[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of properties that are visible for this object.
 
@@ -691,7 +691,7 @@ Creates a new HourglassEnergyTracker
 
 <a id="SolutionInformation.AddImage"></a>
 
-### SolutionInformation.AddImage(filePath: System.String)
+### SolutionInformation.AddImage(filePath: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 ```text
 Creates a new child Image.
@@ -1103,7 +1103,7 @@ Copies all visible properties from this object to another.
 
 <a id="SolutionInformation.CreateParameter"></a>
 
-### SolutionInformation.CreateParameter(propName: System.String)
+### SolutionInformation.CreateParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Creates a new parameter for a Property.
 
@@ -1127,7 +1127,7 @@ Run the EvaluateAllContactTrackers action.
 
 <a id="SolutionInformation.GetChildren"></a>
 
-### SolutionInformation.GetChildren(recurses: System.Boolean, children: System.Collections.Generic.IList[ChildrenType])
+### SolutionInformation.GetChildren(recurses: [bool](https://docs.python.org/3/library/functions.html#bool), children: List[ChildrenType])
 
 Gets the list of children, filtered by type.
 
@@ -1135,7 +1135,7 @@ Gets the list of children, filtered by type.
 
 <a id="SolutionInformation.GetParameter"></a>
 
-### SolutionInformation.GetParameter(propName: System.String)
+### SolutionInformation.GetParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Gets the parameter corresponding to the given property.
 
@@ -1159,7 +1159,7 @@ Run the GroupSimilarObjects action.
 
 <a id="SolutionInformation.ImportResultTrackersFromFile"></a>
 
-### SolutionInformation.ImportResultTrackersFromFile(fileName: System.String)
+### SolutionInformation.ImportResultTrackersFromFile(fileName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Import Result Trackers from File.
 
@@ -1167,7 +1167,7 @@ Import Result Trackers from File.
 
 <a id="SolutionInformation.PropertyByAPIName"></a>
 
-### SolutionInformation.PropertyByAPIName(name: System.String)
+### SolutionInformation.PropertyByAPIName(name: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 ```text
 Get a property by its API name.
@@ -1178,7 +1178,7 @@ If multiple properties have the same API Name, only the first property with that
 
 <a id="SolutionInformation.PropertyByName"></a>
 
-### SolutionInformation.PropertyByName(name: System.String)
+### SolutionInformation.PropertyByName(name: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Get a property by its unique name.
 
@@ -1186,7 +1186,7 @@ Get a property by its unique name.
 
 <a id="SolutionInformation.RemoveParameter"></a>
 
-### SolutionInformation.RemoveParameter(propName: System.String)
+### SolutionInformation.RemoveParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Removes the parameter from the parameter set corresponding to the given property.
 
