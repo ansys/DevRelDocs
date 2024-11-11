@@ -17,7 +17,7 @@ Specifies the ContactPinballType.
 ### Attributes
 
 | Name |
-| -------------------------------------------------------------------------------------------------------------------------------------------- |
+| ------------------------------------------------------------------ |
 | [`AutoDetectionValue`](#ContactPinballType.AutoDetectionValue) |
 | [`Factor`](#ContactPinballType.Factor) |
 | [`ProgramControlled`](#ContactPinballType.ProgramControlled) |

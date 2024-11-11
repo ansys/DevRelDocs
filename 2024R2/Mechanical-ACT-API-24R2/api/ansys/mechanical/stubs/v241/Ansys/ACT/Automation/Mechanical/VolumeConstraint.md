@@ -59,7 +59,7 @@ Defines a VolumeConstraint.
 
 <a id="VolumeConstraint.Children"></a>
 
-### *property* VolumeConstraint.Children *: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* VolumeConstraint.Children *: List[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of children.
 
@@ -67,7 +67,7 @@ Gets the list of children.
 
 <a id="VolumeConstraint.DataModelObjectCategory"></a>
 
-### *property* VolumeConstraint.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../v242/Ansys/Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* VolumeConstraint.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the current DataModelObject’s category.
 
@@ -75,7 +75,7 @@ Gets the current DataModelObject’s category.
 
 <a id="VolumeConstraint.DefineBy"></a>
 
-### *property* VolumeConstraint.DefineBy *: [Ansys.Mechanical.DataModel.Enums.ResponseConstraintDefineBy](../../../../../v242/Ansys/Mechanical/DataModel/Enums/ResponseConstraintDefineBy.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.ResponseConstraintDefineBy) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* VolumeConstraint.DefineBy *: [Ansys.Mechanical.DataModel.Enums.ResponseConstraintDefineBy](../../../Mechanical/DataModel/Enums/ResponseConstraintDefineBy.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.ResponseConstraintDefineBy) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the DefineBy.
 
@@ -83,7 +83,7 @@ Gets or sets the DefineBy.
 
 <a id="VolumeConstraint.EnvironmentSelection"></a>
 
-### *property* VolumeConstraint.EnvironmentSelection *: System.Object | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* VolumeConstraint.EnvironmentSelection *: Any | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or Sets the EnvironmentSelection to an Analysis object or TopoEnvironmentType enum.
 
@@ -123,7 +123,7 @@ Gets or sets the MinimumAbsoluteValue.
 
 <a id="VolumeConstraint.PercentageToRetain"></a>
 
-### *property* VolumeConstraint.PercentageToRetain *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* VolumeConstraint.PercentageToRetain *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the PercentageToRetain.
 
@@ -131,7 +131,7 @@ Gets or sets the PercentageToRetain.
 
 <a id="VolumeConstraint.PercentageToRetainMax"></a>
 
-### *property* VolumeConstraint.PercentageToRetainMax *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* VolumeConstraint.PercentageToRetainMax *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the PercentageToRetainMax.
 
@@ -139,7 +139,7 @@ Gets or sets the PercentageToRetainMax.
 
 <a id="VolumeConstraint.PercentageToRetainMin"></a>
 
-### *property* VolumeConstraint.PercentageToRetainMin *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* VolumeConstraint.PercentageToRetainMin *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the PercentageToRetainMin.
 
@@ -147,7 +147,7 @@ Gets or sets the PercentageToRetainMin.
 
 <a id="VolumeConstraint.Properties"></a>
 
-### *property* VolumeConstraint.Properties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* VolumeConstraint.Properties *: [tuple](https://docs.python.org/3/library/stdtypes.html#tuple)[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of properties for this object.
 
@@ -155,7 +155,7 @@ Gets the list of properties for this object.
 
 <a id="VolumeConstraint.ScopingMethod"></a>
 
-### *property* VolumeConstraint.ScopingMethod *: [Ansys.Mechanical.DataModel.Enums.GeometryDefineByType](../../../../../v242/Ansys/Mechanical/DataModel/Enums/GeometryDefineByType.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.GeometryDefineByType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* VolumeConstraint.ScopingMethod *: [Ansys.Mechanical.DataModel.Enums.GeometryDefineByType](../../../Mechanical/DataModel/Enums/GeometryDefineByType.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.GeometryDefineByType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the ScopingMethod.
 
@@ -163,7 +163,7 @@ Gets or sets the ScopingMethod.
 
 <a id="VolumeConstraint.Selection"></a>
 
-### *property* VolumeConstraint.Selection *: [Ansys.ACT.Automation.Mechanical.OptimizationRegion](../../../../../v242/Ansys/ACT/Automation/Mechanical/OptimizationRegion.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.OptimizationRegion) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* VolumeConstraint.Selection *: [Ansys.ACT.Automation.Mechanical.OptimizationRegion](OptimizationRegion.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.OptimizationRegion) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Selection.
 
@@ -171,7 +171,7 @@ Gets or sets the Selection.
 
 <a id="VolumeConstraint.Suppressed"></a>
 
-### *property* VolumeConstraint.Suppressed *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* VolumeConstraint.Suppressed *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Suppressed.
 
@@ -179,7 +179,7 @@ Gets or sets the Suppressed.
 
 <a id="VolumeConstraint.VisibleProperties"></a>
 
-### *property* VolumeConstraint.VisibleProperties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* VolumeConstraint.VisibleProperties *: [tuple](https://docs.python.org/3/library/stdtypes.html#tuple)[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of properties that are visible for this object.
 
@@ -207,7 +207,7 @@ Copies all visible properties from this object to another.
 
 <a id="VolumeConstraint.CreateParameter"></a>
 
-### VolumeConstraint.CreateParameter(propName: System.String)
+### VolumeConstraint.CreateParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Creates a new parameter for a Property.
 
@@ -231,7 +231,7 @@ Creates a copy of the current DataModelObject.
 
 <a id="VolumeConstraint.GetChildren"></a>
 
-### VolumeConstraint.GetChildren(recurses: System.Boolean, children: System.Collections.Generic.IList[ChildrenType])
+### VolumeConstraint.GetChildren(recurses: [bool](https://docs.python.org/3/library/functions.html#bool), children: List[ChildrenType])
 
 Gets the list of children, filtered by type.
 
@@ -239,7 +239,7 @@ Gets the list of children, filtered by type.
 
 <a id="VolumeConstraint.GetParameter"></a>
 
-### VolumeConstraint.GetParameter(propName: System.String)
+### VolumeConstraint.GetParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Gets the parameter corresponding to the given property.
 
@@ -263,7 +263,7 @@ Run the GroupSimilarObjects action.
 
 <a id="VolumeConstraint.PropertyByAPIName"></a>
 
-### VolumeConstraint.PropertyByAPIName(name: System.String)
+### VolumeConstraint.PropertyByAPIName(name: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 ```text
 Get a property by its API name.
@@ -274,7 +274,7 @@ If multiple properties have the same API Name, only the first property with that
 
 <a id="VolumeConstraint.PropertyByName"></a>
 
-### VolumeConstraint.PropertyByName(name: System.String)
+### VolumeConstraint.PropertyByName(name: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Get a property by its unique name.
 
@@ -282,7 +282,7 @@ Get a property by its unique name.
 
 <a id="VolumeConstraint.RemoveParameter"></a>
 
-### VolumeConstraint.RemoveParameter(propName: System.String)
+### VolumeConstraint.RemoveParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Removes the parameter from the parameter set corresponding to the given property.
 

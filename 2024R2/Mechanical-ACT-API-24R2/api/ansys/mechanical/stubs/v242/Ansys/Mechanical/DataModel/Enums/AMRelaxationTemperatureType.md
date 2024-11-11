@@ -17,7 +17,7 @@ Specifies the AMRelaxationTemperatureType.
 ### Attributes
 
 | Name |
-| -------------------------------------------------------------------------------------------------------------------------------------------------- |
+| --------------------------------------------------------------- |
 | [`None_`](#AMRelaxationTemperatureType.None_) |
 | [`UserSpecified`](#AMRelaxationTemperatureType.UserSpecified) |
 

@@ -31,7 +31,7 @@ Represents a BF command.
 
 <a id="BFCommand.Index"></a>
 
-### *property* BFCommand.Index *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* BFCommand.Index *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the command index.
 
@@ -39,7 +39,7 @@ Gets the command index.
 
 <a id="BFCommand.Lab"></a>
 
-### *property* BFCommand.Lab *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* BFCommand.Lab *: [str](https://docs.python.org/3/library/stdtypes.html#str) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the label.
 
@@ -47,7 +47,7 @@ Gets the label.
 
 <a id="BFCommand.Name"></a>
 
-### *property* BFCommand.Name *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* BFCommand.Name *: [str](https://docs.python.org/3/library/stdtypes.html#str) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the command name.
 
@@ -55,7 +55,7 @@ Gets the command name.
 
 <a id="BFCommand.Node"></a>
 
-### *property* BFCommand.Node *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* BFCommand.Node *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the node number.
 
@@ -63,7 +63,7 @@ Gets the node number.
 
 <a id="BFCommand.ValCount"></a>
 
-### *property* BFCommand.ValCount *: System.Object | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* BFCommand.ValCount *: Any | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the number of values.
 
@@ -71,7 +71,7 @@ Gets the number of values.
 
 <a id="BFCommand.Values"></a>
 
-### *property* BFCommand.Values *: System.Collections.Generic.IReadOnlyList[System.Object] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* BFCommand.Values *: [tuple](https://docs.python.org/3/library/stdtypes.html#tuple)[Any] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the values.
 

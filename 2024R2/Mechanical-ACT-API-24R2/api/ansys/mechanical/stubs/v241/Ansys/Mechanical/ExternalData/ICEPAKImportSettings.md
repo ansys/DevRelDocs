@@ -29,7 +29,7 @@ T:Ansys.Mechanical.ExternalData.ICEPAKImportSettings defines how to import exter
 
 <a id="ICEPAKImportSettings.Format"></a>
 
-### *property* ICEPAKImportSettings.Format *: [Ansys.Mechanical.DataModel.MechanicalEnums.ExternalData.ImportFormat](../../../../v242/Ansys/Mechanical/DataModel/MechanicalEnums/ExternalData/ImportFormat.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.MechanicalEnums.ExternalData.ImportFormat) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ICEPAKImportSettings.Format *: [Ansys.Mechanical.DataModel.MechanicalEnums.ExternalData.ImportFormat](../DataModel/MechanicalEnums/ExternalData/ImportFormat.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.MechanicalEnums.ExternalData.ImportFormat) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the existing corresponding format.
 
@@ -37,7 +37,7 @@ Gets the existing corresponding format.
 
 <a id="ICEPAKImportSettings.SupportingFileDescription"></a>
 
-### *property* ICEPAKImportSettings.SupportingFileDescription *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ICEPAKImportSettings.SupportingFileDescription *: [str](https://docs.python.org/3/library/stdtypes.html#str) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 The supporting file description. This is optional.
 
@@ -45,7 +45,7 @@ The supporting file description. This is optional.
 
 <a id="ICEPAKImportSettings.SupportingFileIdentifier"></a>
 
-### *property* ICEPAKImportSettings.SupportingFileIdentifier *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ICEPAKImportSettings.SupportingFileIdentifier *: [str](https://docs.python.org/3/library/stdtypes.html#str) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 The supporting file identifier. The identifier should be unique, otherwise, an exception will be
 thrown during the import.
@@ -54,7 +54,7 @@ thrown during the import.
 
 <a id="ICEPAKImportSettings.SupportingFilePath"></a>
 
-### *property* ICEPAKImportSettings.SupportingFilePath *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ICEPAKImportSettings.SupportingFilePath *: [str](https://docs.python.org/3/library/stdtypes.html#str) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 The supporting file path of the ICEPAK INFO file.
 

@@ -80,7 +80,7 @@ Defines a NonlinearAdaptiveRegion.
 
 <a id="NonlinearAdaptiveRegion.BufferElements"></a>
 
-### *property* NonlinearAdaptiveRegion.BufferElements *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* NonlinearAdaptiveRegion.BufferElements *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the BufferElements.
 
@@ -88,7 +88,7 @@ Gets or sets the BufferElements.
 
 <a id="NonlinearAdaptiveRegion.BufferLayers"></a>
 
-### *property* NonlinearAdaptiveRegion.BufferLayers *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* NonlinearAdaptiveRegion.BufferLayers *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the BufferLayers.
 
@@ -104,7 +104,7 @@ Gets or sets the CheckAt.
 
 <a id="NonlinearAdaptiveRegion.CheckAtValue"></a>
 
-### *property* NonlinearAdaptiveRegion.CheckAtValue *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* NonlinearAdaptiveRegion.CheckAtValue *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the CheckAtValue.
 
@@ -112,7 +112,7 @@ Gets or sets the CheckAtValue.
 
 <a id="NonlinearAdaptiveRegion.Children"></a>
 
-### *property* NonlinearAdaptiveRegion.Children *: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* NonlinearAdaptiveRegion.Children *: List[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of children.
 
@@ -120,7 +120,7 @@ Gets the list of children.
 
 <a id="NonlinearAdaptiveRegion.Comments"></a>
 
-### *property* NonlinearAdaptiveRegion.Comments *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Comment](../../../../../../v241/Ansys/ACT/Automation/Mechanical/Comment.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* NonlinearAdaptiveRegion.Comments *: Iterable[[Ansys.ACT.Automation.Mechanical.Comment](../Comment.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated comments.
 
@@ -128,7 +128,7 @@ Gets the list of associated comments.
 
 <a id="NonlinearAdaptiveRegion.CoordinateSystem"></a>
 
-### *property* NonlinearAdaptiveRegion.CoordinateSystem *: [Ansys.ACT.Automation.Mechanical.CoordinateSystem](../../../../../../v241/Ansys/ACT/Automation/Mechanical/CoordinateSystem.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.CoordinateSystem) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* NonlinearAdaptiveRegion.CoordinateSystem *: [Ansys.ACT.Automation.Mechanical.CoordinateSystem](../CoordinateSystem.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.CoordinateSystem) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the CoordinateSystem.
 
@@ -160,7 +160,7 @@ Gets or sets the EndTime.
 
 <a id="NonlinearAdaptiveRegion.EnergyCoefficient"></a>
 
-### *property* NonlinearAdaptiveRegion.EnergyCoefficient *: System.Double | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* NonlinearAdaptiveRegion.EnergyCoefficient *: [float](https://docs.python.org/3/library/functions.html#float) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the EnergyCoefficient.
 
@@ -168,7 +168,7 @@ Gets or sets the EnergyCoefficient.
 
 <a id="NonlinearAdaptiveRegion.Figures"></a>
 
-### *property* NonlinearAdaptiveRegion.Figures *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Figure](../../../../../../v241/Ansys/ACT/Automation/Mechanical/Figure.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* NonlinearAdaptiveRegion.Figures *: Iterable[[Ansys.ACT.Automation.Mechanical.Figure](../Figure.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated figures.
 
@@ -184,7 +184,7 @@ Gets or sets the HexDomCheckAt.
 
 <a id="NonlinearAdaptiveRegion.HexDomCheckAtValue"></a>
 
-### *property* NonlinearAdaptiveRegion.HexDomCheckAtValue *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* NonlinearAdaptiveRegion.HexDomCheckAtValue *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the HexDomCheckAtValue.
 
@@ -216,7 +216,7 @@ Gets or sets the HexDomTimeRange.
 
 <a id="NonlinearAdaptiveRegion.Images"></a>
 
-### *property* NonlinearAdaptiveRegion.Images *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Image](../../../../../../v241/Ansys/ACT/Automation/Mechanical/Image.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* NonlinearAdaptiveRegion.Images *: Iterable[[Ansys.ACT.Automation.Mechanical.Image](../Image.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated images.
 
@@ -232,7 +232,7 @@ Gets the internal object. For advanced usage only.
 
 <a id="NonlinearAdaptiveRegion.JacobianRatioValue"></a>
 
-### *property* NonlinearAdaptiveRegion.JacobianRatioValue *: System.Double | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* NonlinearAdaptiveRegion.JacobianRatioValue *: [float](https://docs.python.org/3/library/functions.html#float) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the JacobianRatioValue.
 
@@ -288,7 +288,7 @@ Gets or sets the Option.
 
 <a id="NonlinearAdaptiveRegion.Properties"></a>
 
-### *property* NonlinearAdaptiveRegion.Properties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* NonlinearAdaptiveRegion.Properties *: [tuple](https://docs.python.org/3/library/stdtypes.html#tuple)[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of properties for this object.
 
@@ -296,7 +296,7 @@ Gets the list of properties for this object.
 
 <a id="NonlinearAdaptiveRegion.RemeshLayerEnd"></a>
 
-### *property* NonlinearAdaptiveRegion.RemeshLayerEnd *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* NonlinearAdaptiveRegion.RemeshLayerEnd *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the RemeshLayerEnd.
 
@@ -304,7 +304,7 @@ Gets or sets the RemeshLayerEnd.
 
 <a id="NonlinearAdaptiveRegion.RemeshLayerFrequency"></a>
 
-### *property* NonlinearAdaptiveRegion.RemeshLayerFrequency *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* NonlinearAdaptiveRegion.RemeshLayerFrequency *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the RemeshLayerFrequency.
 
@@ -312,7 +312,7 @@ Gets or sets the RemeshLayerFrequency.
 
 <a id="NonlinearAdaptiveRegion.RemeshLayerStart"></a>
 
-### *property* NonlinearAdaptiveRegion.RemeshLayerStart *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* NonlinearAdaptiveRegion.RemeshLayerStart *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the RemeshLayerStart.
 
@@ -320,7 +320,7 @@ Gets or sets the RemeshLayerStart.
 
 <a id="NonlinearAdaptiveRegion.SkewnessValue"></a>
 
-### *property* NonlinearAdaptiveRegion.SkewnessValue *: System.Double | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* NonlinearAdaptiveRegion.SkewnessValue *: [float](https://docs.python.org/3/library/functions.html#float) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the SkewnessValue.
 
@@ -336,7 +336,7 @@ Gets or sets the StartTime.
 
 <a id="NonlinearAdaptiveRegion.Suppressed"></a>
 
-### *property* NonlinearAdaptiveRegion.Suppressed *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* NonlinearAdaptiveRegion.Suppressed *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Suppressed.
 
@@ -352,7 +352,7 @@ Gets or sets the TimeRange.
 
 <a id="NonlinearAdaptiveRegion.VisibleProperties"></a>
 
-### *property* NonlinearAdaptiveRegion.VisibleProperties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* NonlinearAdaptiveRegion.VisibleProperties *: [tuple](https://docs.python.org/3/library/stdtypes.html#tuple)[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of properties that are visible for this object.
 
@@ -388,7 +388,7 @@ Creates a new child Figure.
 
 <a id="NonlinearAdaptiveRegion.AddImage"></a>
 
-### NonlinearAdaptiveRegion.AddImage(filePath: System.String)
+### NonlinearAdaptiveRegion.AddImage(filePath: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 ```text
 Creates a new child Image.
@@ -408,7 +408,7 @@ Copies all visible properties from this object to another.
 
 <a id="NonlinearAdaptiveRegion.CreateParameter"></a>
 
-### NonlinearAdaptiveRegion.CreateParameter(propName: System.String)
+### NonlinearAdaptiveRegion.CreateParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Creates a new parameter for a Property.
 
@@ -432,7 +432,7 @@ Creates a copy of the current DataModelObject.
 
 <a id="NonlinearAdaptiveRegion.GetChildren"></a>
 
-### NonlinearAdaptiveRegion.GetChildren(recurses: System.Boolean, children: System.Collections.Generic.IList[ChildrenType])
+### NonlinearAdaptiveRegion.GetChildren(recurses: [bool](https://docs.python.org/3/library/functions.html#bool), children: List[ChildrenType])
 
 Gets the list of children, filtered by type.
 
@@ -440,7 +440,7 @@ Gets the list of children, filtered by type.
 
 <a id="NonlinearAdaptiveRegion.GetParameter"></a>
 
-### NonlinearAdaptiveRegion.GetParameter(propName: System.String)
+### NonlinearAdaptiveRegion.GetParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Gets the parameter corresponding to the given property.
 
@@ -464,7 +464,7 @@ Run the GroupSimilarObjects action.
 
 <a id="NonlinearAdaptiveRegion.PropertyByAPIName"></a>
 
-### NonlinearAdaptiveRegion.PropertyByAPIName(name: System.String)
+### NonlinearAdaptiveRegion.PropertyByAPIName(name: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 ```text
 Get a property by its API name.
@@ -475,7 +475,7 @@ If multiple properties have the same API Name, only the first property with that
 
 <a id="NonlinearAdaptiveRegion.PropertyByName"></a>
 
-### NonlinearAdaptiveRegion.PropertyByName(name: System.String)
+### NonlinearAdaptiveRegion.PropertyByName(name: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Get a property by its unique name.
 
@@ -483,7 +483,7 @@ Get a property by its unique name.
 
 <a id="NonlinearAdaptiveRegion.RemoveParameter"></a>
 
-### NonlinearAdaptiveRegion.RemoveParameter(propName: System.String)
+### NonlinearAdaptiveRegion.RemoveParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Removes the parameter from the parameter set corresponding to the given property.
 

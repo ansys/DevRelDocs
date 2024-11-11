@@ -64,7 +64,7 @@ SelectionWorksheet class.
 
 <a id="SelectionWorksheet.RowCount"></a>
 
-### *property* SelectionWorksheet.RowCount *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* SelectionWorksheet.RowCount *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 <!-- !! processed by numpydoc !! -->
 
@@ -82,7 +82,7 @@ Adds a Row to the worksheet.
 
 <a id="SelectionWorksheet.DeleteRow"></a>
 
-### SelectionWorksheet.DeleteRow(index: System.Int32)
+### SelectionWorksheet.DeleteRow(index: [int](https://docs.python.org/3/library/functions.html#int))
 
 Deletes a row from the worksheet at index.
 
@@ -98,7 +98,7 @@ Generate the selection from the worksheet.
 
 <a id="SelectionWorksheet.GetAction"></a>
 
-### SelectionWorksheet.GetAction(index: System.Int32)
+### SelectionWorksheet.GetAction(index: [int](https://docs.python.org/3/library/functions.html#int))
 
 Gets the worksheet Action property at index.
 
@@ -106,7 +106,7 @@ Gets the worksheet Action property at index.
 
 <a id="SelectionWorksheet.GetBodyTypeValue"></a>
 
-### SelectionWorksheet.GetBodyTypeValue(index: System.Int32)
+### SelectionWorksheet.GetBodyTypeValue(index: [int](https://docs.python.org/3/library/functions.html#int))
 
 Gets the worksheet Body Type Value property at index.
 
@@ -114,7 +114,7 @@ Gets the worksheet Body Type Value property at index.
 
 <a id="SelectionWorksheet.GetCoordinateSystemSelection"></a>
 
-### SelectionWorksheet.GetCoordinateSystemSelection(index: System.Int32)
+### SelectionWorksheet.GetCoordinateSystemSelection(index: [int](https://docs.python.org/3/library/functions.html#int))
 
 Gets the worksheet CoordinateSystemSelection property at index.
 
@@ -122,7 +122,7 @@ Gets the worksheet CoordinateSystemSelection property at index.
 
 <a id="SelectionWorksheet.GetCriterion"></a>
 
-### SelectionWorksheet.GetCriterion(index: System.Int32)
+### SelectionWorksheet.GetCriterion(index: [int](https://docs.python.org/3/library/functions.html#int))
 
 Gets the worksheet Criterion property at index.
 
@@ -130,7 +130,7 @@ Gets the worksheet Criterion property at index.
 
 <a id="SelectionWorksheet.GetCriterionActive"></a>
 
-### SelectionWorksheet.GetCriterionActive(index: System.Int32)
+### SelectionWorksheet.GetCriterionActive(index: [int](https://docs.python.org/3/library/functions.html#int))
 
 Gets the worksheet CriterionActive property at index.
 
@@ -138,7 +138,7 @@ Gets the worksheet CriterionActive property at index.
 
 <a id="SelectionWorksheet.GetEdgeTypeValue"></a>
 
-### SelectionWorksheet.GetEdgeTypeValue(index: System.Int32)
+### SelectionWorksheet.GetEdgeTypeValue(index: [int](https://docs.python.org/3/library/functions.html#int))
 
 Gets the worksheet Edge Type Value property at index.
 
@@ -146,7 +146,7 @@ Gets the worksheet Edge Type Value property at index.
 
 <a id="SelectionWorksheet.GetFaceTypeValue"></a>
 
-### SelectionWorksheet.GetFaceTypeValue(index: System.Int32)
+### SelectionWorksheet.GetFaceTypeValue(index: [int](https://docs.python.org/3/library/functions.html#int))
 
 Gets the worksheet Face Type Value property at index.
 
@@ -154,7 +154,7 @@ Gets the worksheet Face Type Value property at index.
 
 <a id="SelectionWorksheet.GetGeometryType"></a>
 
-### SelectionWorksheet.GetGeometryType(index: System.Int32)
+### SelectionWorksheet.GetGeometryType(index: [int](https://docs.python.org/3/library/functions.html#int))
 
 Gets the worksheet GeometryType property at index.
 
@@ -162,7 +162,7 @@ Gets the worksheet GeometryType property at index.
 
 <a id="SelectionWorksheet.GetLowerBound"></a>
 
-### SelectionWorksheet.GetLowerBound(index: System.Int32)
+### SelectionWorksheet.GetLowerBound(index: [int](https://docs.python.org/3/library/functions.html#int))
 
 Gets the worksheet LowerBound property at index.
 
@@ -170,7 +170,7 @@ Gets the worksheet LowerBound property at index.
 
 <a id="SelectionWorksheet.GetMeshElementTypeValue"></a>
 
-### SelectionWorksheet.GetMeshElementTypeValue(index: System.Int32)
+### SelectionWorksheet.GetMeshElementTypeValue(index: [int](https://docs.python.org/3/library/functions.html#int))
 
 Gets the worksheet Mesh Element Type Value property at index.
 
@@ -178,7 +178,7 @@ Gets the worksheet Mesh Element Type Value property at index.
 
 <a id="SelectionWorksheet.GetOperator"></a>
 
-### SelectionWorksheet.GetOperator(index: System.Int32)
+### SelectionWorksheet.GetOperator(index: [int](https://docs.python.org/3/library/functions.html#int))
 
 Gets the worksheet Operator property at index.
 
@@ -186,7 +186,7 @@ Gets the worksheet Operator property at index.
 
 <a id="SelectionWorksheet.GetStringValue"></a>
 
-### SelectionWorksheet.GetStringValue(index: System.Int32)
+### SelectionWorksheet.GetStringValue(index: [int](https://docs.python.org/3/library/functions.html#int))
 
 Gets the worksheet StringValue property at index.
 
@@ -194,7 +194,7 @@ Gets the worksheet StringValue property at index.
 
 <a id="SelectionWorksheet.GetTag"></a>
 
-### SelectionWorksheet.GetTag(index: System.UInt32)
+### SelectionWorksheet.GetTag(index: [int](https://docs.python.org/3/library/functions.html#int))
 
 Gets the worksheet Tag property at index.
 
@@ -202,7 +202,7 @@ Gets the worksheet Tag property at index.
 
 <a id="SelectionWorksheet.GetUpperBound"></a>
 
-### SelectionWorksheet.GetUpperBound(index: System.Int32)
+### SelectionWorksheet.GetUpperBound(index: [int](https://docs.python.org/3/library/functions.html#int))
 
 Gets the worksheet UpperBound property at index.
 
@@ -210,7 +210,7 @@ Gets the worksheet UpperBound property at index.
 
 <a id="SelectionWorksheet.GetValue"></a>
 
-### SelectionWorksheet.GetValue(index: System.Int32)
+### SelectionWorksheet.GetValue(index: [int](https://docs.python.org/3/library/functions.html#int))
 
 Gets the worksheet Value property at index.
 
@@ -218,7 +218,7 @@ Gets the worksheet Value property at index.
 
 <a id="SelectionWorksheet.SetAction"></a>
 
-### SelectionWorksheet.SetAction(index: System.Int32, newVal: Ansys.Mechanical.DataModel.Enums.NamedSelectionWorksheetAction)
+### SelectionWorksheet.SetAction(index: [int](https://docs.python.org/3/library/functions.html#int), newVal: Ansys.Mechanical.DataModel.Enums.NamedSelectionWorksheetAction)
 
 Sets the worksheet Action property at index.
 
@@ -226,7 +226,7 @@ Sets the worksheet Action property at index.
 
 <a id="SelectionWorksheet.SetBodyTypeValue"></a>
 
-### SelectionWorksheet.SetBodyTypeValue(index: System.Int32, newVal: Ansys.Mechanical.DataModel.Enums.NamedSelectionWorksheetBodyTypeValues)
+### SelectionWorksheet.SetBodyTypeValue(index: [int](https://docs.python.org/3/library/functions.html#int), newVal: Ansys.Mechanical.DataModel.Enums.NamedSelectionWorksheetBodyTypeValues)
 
 Sets the worksheet Body Type Value property at index.
 
@@ -234,7 +234,7 @@ Sets the worksheet Body Type Value property at index.
 
 <a id="SelectionWorksheet.SetCoordinateSystemSelection"></a>
 
-### SelectionWorksheet.SetCoordinateSystemSelection(index: System.Int32, newVal: System.UInt32)
+### SelectionWorksheet.SetCoordinateSystemSelection(index: [int](https://docs.python.org/3/library/functions.html#int), newVal: [int](https://docs.python.org/3/library/functions.html#int))
 
 Sets the worksheet CoordinateSystemSelection property at index.
 
@@ -242,7 +242,7 @@ Sets the worksheet CoordinateSystemSelection property at index.
 
 <a id="SelectionWorksheet.SetCriterion"></a>
 
-### SelectionWorksheet.SetCriterion(index: System.Int32, value: Ansys.Mechanical.DataModel.Enums.NamedSelectionWorksheetCriterion)
+### SelectionWorksheet.SetCriterion(index: [int](https://docs.python.org/3/library/functions.html#int), value: Ansys.Mechanical.DataModel.Enums.NamedSelectionWorksheetCriterion)
 
 Sets the worksheet Criterion property at index.
 
@@ -250,7 +250,7 @@ Sets the worksheet Criterion property at index.
 
 <a id="SelectionWorksheet.SetCriterionActive"></a>
 
-### SelectionWorksheet.SetCriterionActive(index: System.Int32, newVal: System.Boolean)
+### SelectionWorksheet.SetCriterionActive(index: [int](https://docs.python.org/3/library/functions.html#int), newVal: [bool](https://docs.python.org/3/library/functions.html#bool))
 
 Sets the worksheet CriterionActive property at index.
 
@@ -258,7 +258,7 @@ Sets the worksheet CriterionActive property at index.
 
 <a id="SelectionWorksheet.SetEdgeTypeValue"></a>
 
-### SelectionWorksheet.SetEdgeTypeValue(index: System.Int32, newVal: Ansys.Mechanical.DataModel.Enums.NamedSelectionWorksheetEdgeTypeValues)
+### SelectionWorksheet.SetEdgeTypeValue(index: [int](https://docs.python.org/3/library/functions.html#int), newVal: Ansys.Mechanical.DataModel.Enums.NamedSelectionWorksheetEdgeTypeValues)
 
 Sets the worksheet Edge Type Value property at index.
 
@@ -266,7 +266,7 @@ Sets the worksheet Edge Type Value property at index.
 
 <a id="SelectionWorksheet.SetEntityType"></a>
 
-### SelectionWorksheet.SetEntityType(index: System.Int32, newVal: Ansys.Mechanical.DataModel.Enums.NamedSelectionWorksheetEntityType)
+### SelectionWorksheet.SetEntityType(index: [int](https://docs.python.org/3/library/functions.html#int), newVal: Ansys.Mechanical.DataModel.Enums.NamedSelectionWorksheetEntityType)
 
 Sets the worksheet GeometryType property at index.
 
@@ -274,7 +274,7 @@ Sets the worksheet GeometryType property at index.
 
 <a id="SelectionWorksheet.SetFaceTypeValue"></a>
 
-### SelectionWorksheet.SetFaceTypeValue(index: System.Int32, newVal: Ansys.Mechanical.DataModel.Enums.NamedSelectionWorksheetFaceTypeValues)
+### SelectionWorksheet.SetFaceTypeValue(index: [int](https://docs.python.org/3/library/functions.html#int), newVal: Ansys.Mechanical.DataModel.Enums.NamedSelectionWorksheetFaceTypeValues)
 
 Sets the worksheet Face Type Value property at index.
 
@@ -282,7 +282,7 @@ Sets the worksheet Face Type Value property at index.
 
 <a id="SelectionWorksheet.SetLowerBound"></a>
 
-### SelectionWorksheet.SetLowerBound(index: System.Int32, newVal: System.Double)
+### SelectionWorksheet.SetLowerBound(index: [int](https://docs.python.org/3/library/functions.html#int), newVal: [float](https://docs.python.org/3/library/functions.html#float))
 
 Sets the worksheet LowerBound property at index.
 
@@ -290,7 +290,7 @@ Sets the worksheet LowerBound property at index.
 
 <a id="SelectionWorksheet.SetMeshElementTypeValue"></a>
 
-### SelectionWorksheet.SetMeshElementTypeValue(index: System.Int32, newVal: [Ansys.Mechanical.DataModel.Enums.MeshElementShape](../../../../../v242/Ansys/Mechanical/DataModel/Enums/MeshElementShape.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.MeshElementShape))
+### SelectionWorksheet.SetMeshElementTypeValue(index: [int](https://docs.python.org/3/library/functions.html#int), newVal: [Ansys.Mechanical.DataModel.Enums.MeshElementShape](../../../Mechanical/DataModel/Enums/MeshElementShape.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.MeshElementShape))
 
 Sets the worksheet Mesh Element Type Value property at index.
 
@@ -298,7 +298,7 @@ Sets the worksheet Mesh Element Type Value property at index.
 
 <a id="SelectionWorksheet.SetOperator"></a>
 
-### SelectionWorksheet.SetOperator(index: System.Int32, newVal: [Ansys.Mechanical.DataModel.Enums.NamedSelectionWorksheetOperator](../../../../../v242/Ansys/Mechanical/DataModel/Enums/NamedSelectionWorksheetOperator.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.NamedSelectionWorksheetOperator))
+### SelectionWorksheet.SetOperator(index: [int](https://docs.python.org/3/library/functions.html#int), newVal: [Ansys.Mechanical.DataModel.Enums.NamedSelectionWorksheetOperator](../../../Mechanical/DataModel/Enums/NamedSelectionWorksheetOperator.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.NamedSelectionWorksheetOperator))
 
 Sets the worksheet Operator property at index.
 
@@ -306,7 +306,7 @@ Sets the worksheet Operator property at index.
 
 <a id="SelectionWorksheet.SetStringValue"></a>
 
-### SelectionWorksheet.SetStringValue(index: System.Int32, newVal: System.String)
+### SelectionWorksheet.SetStringValue(index: [int](https://docs.python.org/3/library/functions.html#int), newVal: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Sets the worksheet StringValue property at index.
 
@@ -314,7 +314,7 @@ Sets the worksheet StringValue property at index.
 
 <a id="SelectionWorksheet.SetTag"></a>
 
-### SelectionWorksheet.SetTag(index: System.UInt32, newVal: System.String)
+### SelectionWorksheet.SetTag(index: [int](https://docs.python.org/3/library/functions.html#int), newVal: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Sets the worksheet Tag property at index.
 
@@ -322,7 +322,7 @@ Sets the worksheet Tag property at index.
 
 <a id="SelectionWorksheet.SetUpperBound"></a>
 
-### SelectionWorksheet.SetUpperBound(index: System.Int32, newVal: System.Double)
+### SelectionWorksheet.SetUpperBound(index: [int](https://docs.python.org/3/library/functions.html#int), newVal: [float](https://docs.python.org/3/library/functions.html#float))
 
 Sets the worksheet UpperBound property at index.
 
@@ -330,7 +330,7 @@ Sets the worksheet UpperBound property at index.
 
 <a id="SelectionWorksheet.SetValue"></a>
 
-### SelectionWorksheet.SetValue(index: System.Int32, newVal: System.Double)
+### SelectionWorksheet.SetValue(index: [int](https://docs.python.org/3/library/functions.html#int), newVal: [float](https://docs.python.org/3/library/functions.html#float))
 
 Sets the worksheet Value property at index.
 

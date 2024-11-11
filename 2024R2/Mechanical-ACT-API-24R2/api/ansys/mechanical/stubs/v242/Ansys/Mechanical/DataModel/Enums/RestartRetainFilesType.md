@@ -17,7 +17,7 @@ Specifies the RestartRetainFilesType.
 ### Attributes
 
 | Name |
-| -------------------------------------------------------------------------------------------------------------------- |
+| -------------------------------------- |
 | [`No`](#RestartRetainFilesType.No) |
 | [`Yes`](#RestartRetainFilesType.Yes) |
 

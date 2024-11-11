@@ -17,7 +17,7 @@ Specifies the PatchIndependentDefineType.
 ### Attributes
 
 | Name |
-| ---------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| ------------------------------------------------------------------------ |
 | [`ApproxNumElements`](#PatchIndependentDefineType.ApproxNumElements) |
 | [`MaxElementSize`](#PatchIndependentDefineType.MaxElementSize) |
 

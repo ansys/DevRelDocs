@@ -17,7 +17,7 @@ Specifies the InitialConditionsType.
 ### Attributes
 
 | Name |
-| ------------------------------------------------------------------------------------------------------------------------------------------ |
+| ------------------------------------------------------------- |
 | [`Acceleration`](#InitialConditionsType.Acceleration) |
 | [`AngularVelocity`](#InitialConditionsType.AngularVelocity) |
 | [`AtRest`](#InitialConditionsType.AtRest) |

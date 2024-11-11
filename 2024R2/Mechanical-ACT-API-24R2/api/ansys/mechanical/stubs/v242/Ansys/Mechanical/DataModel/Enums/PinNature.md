@@ -17,7 +17,7 @@ FMI standards
 ### Attributes
 
 | Name |
-| -------------------------------------------------------------------------------------------------------------------- |
+| --------------------------------------------------- |
 | [`InputQuantities`](#PinNature.InputQuantities) |
 | [`OutputQuantities`](#PinNature.OutputQuantities) |
 

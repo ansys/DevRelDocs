@@ -17,7 +17,7 @@ Specifies the DSRBDContactDetection.
 ### Attributes
 
 | Name |
-| ---------------------------------------------------------------------------------------------------------------------------------------------------- |
+| ----------------------------------------------------------------------- |
 | [`kCDGeometryBased`](#DSRBDContactDetection.kCDGeometryBased) |
 | [`kCDMeshBased`](#DSRBDContactDetection.kCDMeshBased) |
 | [`kCDProgramControlled`](#DSRBDContactDetection.kCDProgramControlled) |

@@ -17,7 +17,7 @@ Specifies the PassFailResult.
 ### Attributes
 
 | Name |
-| ---------------------------------------------------------------------------------------------------------------------- |
+| ------------------------------------------------ |
 | [`FailedAbove`](#PassFailResult.FailedAbove) |
 | [`FailedBelow`](#PassFailResult.FailedBelow) |
 | [`PassedAbove`](#PassFailResult.PassedAbove) |

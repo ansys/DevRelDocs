@@ -17,7 +17,7 @@ Specifies the Section Plane type.
 ### Attributes
 
 | Name |
-| ------------------------------------------------------------------------------------------------------------------------------------ |
+| ------------------------------------------------------------ |
 | [`AgainstDirection`](#SectionPlaneType.AgainstDirection) |
 | [`AlongDirection`](#SectionPlaneType.AlongDirection) |
 | [`PlaneOnly`](#SectionPlaneType.PlaneOnly) |

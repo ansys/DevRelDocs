@@ -17,7 +17,7 @@ Specifies the ResponseConstraintType.
 ### Attributes
 
 | Name |
-| -------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| -------------------------------------------------------------------------------------------- |
 | [`CenterOfGravityConstraint`](#ResponseConstraintType.CenterOfGravityConstraint) |
 | [`ComplianceConstraint`](#ResponseConstraintType.ComplianceConstraint) |
 | [`CriterionConstraint`](#ResponseConstraintType.CriterionConstraint) |

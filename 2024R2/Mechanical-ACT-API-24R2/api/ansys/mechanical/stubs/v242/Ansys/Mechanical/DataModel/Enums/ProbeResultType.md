@@ -17,7 +17,7 @@ Specifies the ProbeResultType.
 ### Attributes
 
 | Name |
-| ------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| ------------------------------------------------------------------------------------------------- |
 | [`AccelerationProbe`](#ProbeResultType.AccelerationProbe) |
 | [`AngularAccelerationProbe`](#ProbeResultType.AngularAccelerationProbe) |
 | [`AngularVelocityProbe`](#ProbeResultType.AngularVelocityProbe) |

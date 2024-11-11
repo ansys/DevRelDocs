@@ -17,7 +17,7 @@ Specifies the WaveType.
 ### Attributes
 
 | Name |
-| ---------------------------------------------------------------------------------------------------------------------------------- |
+| ------------------------------------------------------------------ |
 | [`BackEnclosedLoudspeaker`](#WaveType.BackEnclosedLoudspeaker) |
 | [`BareLoudspeaker`](#WaveType.BareLoudspeaker) |
 | [`CircularDuct`](#WaveType.CircularDuct) |

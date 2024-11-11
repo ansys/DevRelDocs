@@ -17,7 +17,7 @@ Specifies the CondensedPartInterfaceMethod.
 ### Attributes
 
 | Name |
-| ------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| ------------------------------------------------------------------------------ |
 | [`Fixed`](#CondensedPartInterfaceMethod.Fixed) |
 | [`Free`](#CondensedPartInterfaceMethod.Free) |
 | [`ResidualFlexibleFree`](#CondensedPartInterfaceMethod.ResidualFlexibleFree) |

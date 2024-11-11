@@ -17,7 +17,7 @@ Specifies the Fluent Export Mesh Type.
 ### Attributes
 
 | Name |
-| ---------------------------------------------------------------------------------------------------------------------------------------------- |
+| ------------------------------------------------------------------ |
 | [`LargeModelSupport`](#FluentExportMeshType.LargeModelSupport) |
 | [`Standard`](#FluentExportMeshType.Standard) |
 

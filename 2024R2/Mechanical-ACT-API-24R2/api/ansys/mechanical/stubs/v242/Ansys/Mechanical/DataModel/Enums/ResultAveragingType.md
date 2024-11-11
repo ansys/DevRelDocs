@@ -17,7 +17,7 @@ Specifies the ResultAveragingType.
 ### Attributes
 
 | Name |
-| ---------------------------------------------------------------------------------------------------------------------------------------------- |
+| ------------------------------------------------------------------- |
 | [`Averaged`](#ResultAveragingType.Averaged) |
 | [`ElementalDifference`](#ResultAveragingType.ElementalDifference) |
 | [`ElementalFraction`](#ResultAveragingType.ElementalFraction) |

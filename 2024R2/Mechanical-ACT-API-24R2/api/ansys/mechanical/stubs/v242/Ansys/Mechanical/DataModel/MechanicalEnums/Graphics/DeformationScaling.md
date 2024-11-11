@@ -17,7 +17,7 @@ Specifies the DeformationScaling.
 ### Attributes
 
 | Name |
-| -------------------------------------------------------------------------------------------------------------------------------------- |
+| -------------------------------------- |
 | [`Auto`](#DeformationScaling.Auto) |
 | [`True_`](#DeformationScaling.True_) |
 

@@ -17,7 +17,7 @@ Specifies the Chart Axis Scale Type.
 ### Attributes
 
 | Name |
-| -------------------------------------------------------------------------------------------------------------------- |
+| ------------------------------------------ |
 | [`Linear`](#ChartAxisScaleType.Linear) |
 | [`LogLog`](#ChartAxisScaleType.LogLog) |
 | [`LogX`](#ChartAxisScaleType.LogX) |

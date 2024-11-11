@@ -17,7 +17,7 @@ To select the mesh workflow control type.
 ### Attributes
 
 | Name |
-| ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| --------------------------------------------------------------------------------------------------- |
 | [`Checkpoint`](#ControlType.Checkpoint) |
 | [`ConstantSizeSurfaceMesh`](#ControlType.ConstantSizeSurfaceMesh) |
 | [`ConstantSizeVolumeMesh`](#ControlType.ConstantSizeVolumeMesh) |

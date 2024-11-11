@@ -35,7 +35,7 @@ ISolveConfiguration interface.
 
 <a id="ISolveConfiguration.Default"></a>
 
-### *property* ISolveConfiguration.Default *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ISolveConfiguration.Default *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets whether or not this SolveConfiguration is the default configuration.
 
@@ -43,7 +43,7 @@ Gets whether or not this SolveConfiguration is the default configuration.
 
 <a id="ISolveConfiguration.Name"></a>
 
-### *property* ISolveConfiguration.Name *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ISolveConfiguration.Name *: [str](https://docs.python.org/3/library/stdtypes.html#str) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the name of the SolveConfiguraiton Object
 
@@ -51,7 +51,7 @@ Gets or sets the name of the SolveConfiguraiton Object
 
 <a id="ISolveConfiguration.Settings"></a>
 
-### *property* ISolveConfiguration.Settings *: [Ansys.ACT.Mechanical.Application.SolveProcessSettings.IQueueSettings](../../../../../../v242/Ansys/ACT/Mechanical/Application/SolveProcessSettings/IQueueSettings.md#ansys.mechanical.stubs.v242.Ansys.ACT.Mechanical.Application.SolveProcessSettings.IQueueSettings) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ISolveConfiguration.Settings *: [Ansys.ACT.Mechanical.Application.SolveProcessSettings.IQueueSettings](IQueueSettings.md#ansys.mechanical.stubs.v241.Ansys.ACT.Mechanical.Application.SolveProcessSettings.IQueueSettings) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the QueueSettings object for the configuration.
 
@@ -59,7 +59,7 @@ Gets the QueueSettings object for the configuration.
 
 <a id="ISolveConfiguration.SolveProcessSettings"></a>
 
-### *property* ISolveConfiguration.SolveProcessSettings *: [Ansys.ACT.Mechanical.Application.SolveProcessSettings.ISolveProcessSettings](../../../../../../v242/Ansys/ACT/Mechanical/Application/SolveProcessSettings/ISolveProcessSettings.md#ansys.mechanical.stubs.v242.Ansys.ACT.Mechanical.Application.SolveProcessSettings.ISolveProcessSettings) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ISolveConfiguration.SolveProcessSettings *: [Ansys.ACT.Mechanical.Application.SolveProcessSettings.ISolveProcessSettings](ISolveProcessSettings.md#ansys.mechanical.stubs.v241.Ansys.ACT.Mechanical.Application.SolveProcessSettings.ISolveProcessSettings) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the SolveProcessSettings for the current object.
 

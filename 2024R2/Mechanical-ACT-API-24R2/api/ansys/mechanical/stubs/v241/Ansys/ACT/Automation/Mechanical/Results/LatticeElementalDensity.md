@@ -74,7 +74,7 @@ Defines a LatticeElementalDensity.
 
 <a id="LatticeElementalDensity.CalculateTimeHistory"></a>
 
-### *property* LatticeElementalDensity.CalculateTimeHistory *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* LatticeElementalDensity.CalculateTimeHistory *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the CalculateTimeHistory.
 
@@ -82,7 +82,7 @@ Gets or sets the CalculateTimeHistory.
 
 <a id="LatticeElementalDensity.Children"></a>
 
-### *property* LatticeElementalDensity.Children *: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* LatticeElementalDensity.Children *: List[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of children.
 
@@ -90,7 +90,7 @@ Gets the list of children.
 
 <a id="LatticeElementalDensity.Comments"></a>
 
-### *property* LatticeElementalDensity.Comments *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Comment](../Comment.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* LatticeElementalDensity.Comments *: Iterable[[Ansys.ACT.Automation.Mechanical.Comment](../Comment.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated comments.
 
@@ -98,7 +98,7 @@ Gets the list of associated comments.
 
 <a id="LatticeElementalDensity.DataModelObjectCategory"></a>
 
-### *property* LatticeElementalDensity.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../../v242/Ansys/Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* LatticeElementalDensity.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the current DataModelObject’s category.
 
@@ -106,7 +106,7 @@ Gets the current DataModelObject’s category.
 
 <a id="LatticeElementalDensity.ExclusionsParticipation"></a>
 
-### *property* LatticeElementalDensity.ExclusionsParticipation *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* LatticeElementalDensity.ExclusionsParticipation *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the ExclusionsParticipation.
 
@@ -114,7 +114,7 @@ Gets or sets the ExclusionsParticipation.
 
 <a id="LatticeElementalDensity.Figures"></a>
 
-### *property* LatticeElementalDensity.Figures *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Figure](../Figure.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* LatticeElementalDensity.Figures *: Iterable[[Ansys.ACT.Automation.Mechanical.Figure](../Figure.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated figures.
 
@@ -138,7 +138,7 @@ Gets the FinalVolume.
 
 <a id="LatticeElementalDensity.Images"></a>
 
-### *property* LatticeElementalDensity.Images *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Image](../Image.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* LatticeElementalDensity.Images *: Iterable[[Ansys.ACT.Automation.Mechanical.Image](../Image.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated images.
 
@@ -154,7 +154,7 @@ Gets the internal object. For advanced usage only.
 
 <a id="LatticeElementalDensity.IterationNumber"></a>
 
-### *property* LatticeElementalDensity.IterationNumber *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* LatticeElementalDensity.IterationNumber *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the IterationNumber.
 
@@ -162,7 +162,7 @@ Gets the IterationNumber.
 
 <a id="LatticeElementalDensity.IterationStep"></a>
 
-### *property* LatticeElementalDensity.IterationStep *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* LatticeElementalDensity.IterationStep *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the IterationStep.
 
@@ -178,7 +178,7 @@ Gets or sets the Location.
 
 <a id="LatticeElementalDensity.Maximum"></a>
 
-### *property* LatticeElementalDensity.Maximum *: System.Double | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* LatticeElementalDensity.Maximum *: [float](https://docs.python.org/3/library/functions.html#float) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the Maximum.
 
@@ -186,7 +186,7 @@ Gets the Maximum.
 
 <a id="LatticeElementalDensity.Minimum"></a>
 
-### *property* LatticeElementalDensity.Minimum *: System.Double | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* LatticeElementalDensity.Minimum *: [float](https://docs.python.org/3/library/functions.html#float) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the Minimum.
 
@@ -210,7 +210,7 @@ Gets the OriginalVolume.
 
 <a id="LatticeElementalDensity.PercentMassOfOriginal"></a>
 
-### *property* LatticeElementalDensity.PercentMassOfOriginal *: System.Double | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* LatticeElementalDensity.PercentMassOfOriginal *: [float](https://docs.python.org/3/library/functions.html#float) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the PercentMassOfOriginal.
 
@@ -218,7 +218,7 @@ Gets the PercentMassOfOriginal.
 
 <a id="LatticeElementalDensity.PercentVolumeOfOriginal"></a>
 
-### *property* LatticeElementalDensity.PercentVolumeOfOriginal *: System.Double | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* LatticeElementalDensity.PercentVolumeOfOriginal *: [float](https://docs.python.org/3/library/functions.html#float) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the PercentVolumeOfOriginal.
 
@@ -226,7 +226,7 @@ Gets the PercentVolumeOfOriginal.
 
 <a id="LatticeElementalDensity.Properties"></a>
 
-### *property* LatticeElementalDensity.Properties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* LatticeElementalDensity.Properties *: [tuple](https://docs.python.org/3/library/stdtypes.html#tuple)[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of properties for this object.
 
@@ -234,7 +234,7 @@ Gets the list of properties for this object.
 
 <a id="LatticeElementalDensity.ScopingMethod"></a>
 
-### *property* LatticeElementalDensity.ScopingMethod *: [Ansys.Mechanical.DataModel.Enums.GeometryDefineByType](../../../../../../v242/Ansys/Mechanical/DataModel/Enums/GeometryDefineByType.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.GeometryDefineByType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* LatticeElementalDensity.ScopingMethod *: [Ansys.Mechanical.DataModel.Enums.GeometryDefineByType](../../../../Mechanical/DataModel/Enums/GeometryDefineByType.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.GeometryDefineByType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the ScopingMethod.
 
@@ -242,7 +242,7 @@ Gets or sets the ScopingMethod.
 
 <a id="LatticeElementalDensity.Selection"></a>
 
-### *property* LatticeElementalDensity.Selection *: [Ansys.ACT.Automation.Mechanical.OptimizationRegion](../../../../../../v242/Ansys/ACT/Automation/Mechanical/OptimizationRegion.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.OptimizationRegion) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* LatticeElementalDensity.Selection *: [Ansys.ACT.Automation.Mechanical.OptimizationRegion](../OptimizationRegion.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.OptimizationRegion) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Selection.
 
@@ -250,7 +250,7 @@ Gets or sets the Selection.
 
 <a id="LatticeElementalDensity.ShowOptimizedRegion"></a>
 
-### *property* LatticeElementalDensity.ShowOptimizedRegion *: [Ansys.Mechanical.DataModel.Enums.TopologyOptimizationResultShowType](../../../../../../v242/Ansys/Mechanical/DataModel/Enums/TopologyOptimizationResultShowType.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.TopologyOptimizationResultShowType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* LatticeElementalDensity.ShowOptimizedRegion *: [Ansys.Mechanical.DataModel.Enums.TopologyOptimizationResultShowType](../../../../Mechanical/DataModel/Enums/TopologyOptimizationResultShowType.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.TopologyOptimizationResultShowType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the ShowOptimizedRegion.
 
@@ -258,7 +258,7 @@ Gets or sets the ShowOptimizedRegion.
 
 <a id="LatticeElementalDensity.Suppressed"></a>
 
-### *property* LatticeElementalDensity.Suppressed *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* LatticeElementalDensity.Suppressed *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Suppressed.
 
@@ -266,7 +266,7 @@ Gets or sets the Suppressed.
 
 <a id="LatticeElementalDensity.VisibleProperties"></a>
 
-### *property* LatticeElementalDensity.VisibleProperties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* LatticeElementalDensity.VisibleProperties *: [tuple](https://docs.python.org/3/library/stdtypes.html#tuple)[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of properties that are visible for this object.
 
@@ -302,7 +302,7 @@ Creates a new child Figure.
 
 <a id="LatticeElementalDensity.AddImage"></a>
 
-### LatticeElementalDensity.AddImage(filePath: System.String)
+### LatticeElementalDensity.AddImage(filePath: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 ```text
 Creates a new child Image.
@@ -330,7 +330,7 @@ Copies all visible properties from this object to another.
 
 <a id="LatticeElementalDensity.CreateParameter"></a>
 
-### LatticeElementalDensity.CreateParameter(propName: System.String)
+### LatticeElementalDensity.CreateParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Creates a new parameter for a Property.
 
@@ -362,7 +362,7 @@ Run the EvaluateAllResults action.
 
 <a id="LatticeElementalDensity.ExportAnimation"></a>
 
-### LatticeElementalDensity.ExportAnimation(filePath: System.String, format: [Ansys.Mechanical.DataModel.Enums.GraphicsAnimationExportFormat](../../../../../../v242/Ansys/Mechanical/DataModel/Enums/GraphicsAnimationExportFormat.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.GraphicsAnimationExportFormat), settings: [Ansys.Mechanical.Graphics.AnimationExportSettings](../../../../../../v242/Ansys/Mechanical/Graphics/AnimationExportSettings.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.Graphics.AnimationExportSettings))
+### LatticeElementalDensity.ExportAnimation(filePath: [str](https://docs.python.org/3/library/stdtypes.html#str), format: [Ansys.Mechanical.DataModel.Enums.GraphicsAnimationExportFormat](../../../../Mechanical/DataModel/Enums/GraphicsAnimationExportFormat.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.GraphicsAnimationExportFormat), settings: [Ansys.Mechanical.Graphics.AnimationExportSettings](../../../../Mechanical/Graphics/AnimationExportSettings.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.Graphics.AnimationExportSettings))
 
 Run the ExportAnimation action.
 
@@ -370,7 +370,7 @@ Run the ExportAnimation action.
 
 <a id="LatticeElementalDensity.GetChildren"></a>
 
-### LatticeElementalDensity.GetChildren(recurses: System.Boolean, children: System.Collections.Generic.IList[ChildrenType])
+### LatticeElementalDensity.GetChildren(recurses: [bool](https://docs.python.org/3/library/functions.html#bool), children: List[ChildrenType])
 
 Gets the list of children, filtered by type.
 
@@ -378,7 +378,7 @@ Gets the list of children, filtered by type.
 
 <a id="LatticeElementalDensity.GetParameter"></a>
 
-### LatticeElementalDensity.GetParameter(propName: System.String)
+### LatticeElementalDensity.GetParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Gets the parameter corresponding to the given property.
 
@@ -402,7 +402,7 @@ Run the GroupSimilarObjects action.
 
 <a id="LatticeElementalDensity.PropertyByAPIName"></a>
 
-### LatticeElementalDensity.PropertyByAPIName(name: System.String)
+### LatticeElementalDensity.PropertyByAPIName(name: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 ```text
 Get a property by its API name.
@@ -413,7 +413,7 @@ If multiple properties have the same API Name, only the first property with that
 
 <a id="LatticeElementalDensity.PropertyByName"></a>
 
-### LatticeElementalDensity.PropertyByName(name: System.String)
+### LatticeElementalDensity.PropertyByName(name: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Get a property by its unique name.
 
@@ -421,7 +421,7 @@ Get a property by its unique name.
 
 <a id="LatticeElementalDensity.RemoveParameter"></a>
 
-### LatticeElementalDensity.RemoveParameter(propName: System.String)
+### LatticeElementalDensity.RemoveParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Removes the parameter from the parameter set corresponding to the given property.
 

@@ -64,7 +64,7 @@ Defines a PreMeshedCyclicRegion.
 
 <a id="PreMeshedCyclicRegion.BoundaryDOFOrientation"></a>
 
-### *property* PreMeshedCyclicRegion.BoundaryDOFOrientation *: [Ansys.Mechanical.DataModel.Enums.SymmetryBoundaryDOFOrientation](../../../../../v242/Ansys/Mechanical/DataModel/Enums/SymmetryBoundaryDOFOrientation.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.SymmetryBoundaryDOFOrientation) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* PreMeshedCyclicRegion.BoundaryDOFOrientation *: [Ansys.Mechanical.DataModel.Enums.SymmetryBoundaryDOFOrientation](../../../Mechanical/DataModel/Enums/SymmetryBoundaryDOFOrientation.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.SymmetryBoundaryDOFOrientation) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the BoundaryDOFOrientation.
 
@@ -72,7 +72,7 @@ Gets or sets the BoundaryDOFOrientation.
 
 <a id="PreMeshedCyclicRegion.Children"></a>
 
-### *property* PreMeshedCyclicRegion.Children *: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* PreMeshedCyclicRegion.Children *: List[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of children.
 
@@ -80,7 +80,7 @@ Gets the list of children.
 
 <a id="PreMeshedCyclicRegion.Comments"></a>
 
-### *property* PreMeshedCyclicRegion.Comments *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Comment](Comment.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* PreMeshedCyclicRegion.Comments *: Iterable[[Ansys.ACT.Automation.Mechanical.Comment](Comment.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated comments.
 
@@ -96,7 +96,7 @@ Gets or sets the CoordinateSystem.
 
 <a id="PreMeshedCyclicRegion.DataModelObjectCategory"></a>
 
-### *property* PreMeshedCyclicRegion.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../v242/Ansys/Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* PreMeshedCyclicRegion.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the current DataModelObject’s category.
 
@@ -104,7 +104,7 @@ Gets the current DataModelObject’s category.
 
 <a id="PreMeshedCyclicRegion.Figures"></a>
 
-### *property* PreMeshedCyclicRegion.Figures *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Figure](Figure.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* PreMeshedCyclicRegion.Figures *: Iterable[[Ansys.ACT.Automation.Mechanical.Figure](Figure.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated figures.
 
@@ -120,7 +120,7 @@ Gets or sets the HighBoundaryLocation.
 
 <a id="PreMeshedCyclicRegion.Images"></a>
 
-### *property* PreMeshedCyclicRegion.Images *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Image](Image.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* PreMeshedCyclicRegion.Images *: Iterable[[Ansys.ACT.Automation.Mechanical.Image](Image.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated images.
 
@@ -152,7 +152,7 @@ Gets or sets the LowBoundaryLocation.
 
 <a id="PreMeshedCyclicRegion.NumberOfSectors"></a>
 
-### *property* PreMeshedCyclicRegion.NumberOfSectors *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* PreMeshedCyclicRegion.NumberOfSectors *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the NumberOfSectors.
 
@@ -160,7 +160,7 @@ Gets or sets the NumberOfSectors.
 
 <a id="PreMeshedCyclicRegion.Properties"></a>
 
-### *property* PreMeshedCyclicRegion.Properties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* PreMeshedCyclicRegion.Properties *: [tuple](https://docs.python.org/3/library/stdtypes.html#tuple)[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of properties for this object.
 
@@ -168,7 +168,7 @@ Gets the list of properties for this object.
 
 <a id="PreMeshedCyclicRegion.ReadOnly"></a>
 
-### *property* PreMeshedCyclicRegion.ReadOnly *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* PreMeshedCyclicRegion.ReadOnly *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the ReadOnly.
 
@@ -176,7 +176,7 @@ Gets or sets the ReadOnly.
 
 <a id="PreMeshedCyclicRegion.RelativeDistanceTolerance"></a>
 
-### *property* PreMeshedCyclicRegion.RelativeDistanceTolerance *: System.Double | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* PreMeshedCyclicRegion.RelativeDistanceTolerance *: [float](https://docs.python.org/3/library/functions.html#float) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the RelativeDistanceTolerance.
 
@@ -184,7 +184,7 @@ Gets or sets the RelativeDistanceTolerance.
 
 <a id="PreMeshedCyclicRegion.ScopeMode"></a>
 
-### *property* PreMeshedCyclicRegion.ScopeMode *: [Ansys.Mechanical.DataModel.Enums.AutomaticOrManual](../../../../../v242/Ansys/Mechanical/DataModel/Enums/AutomaticOrManual.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.AutomaticOrManual) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* PreMeshedCyclicRegion.ScopeMode *: [Ansys.Mechanical.DataModel.Enums.AutomaticOrManual](../../../Mechanical/DataModel/Enums/AutomaticOrManual.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.AutomaticOrManual) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the ScopeMode.
 
@@ -192,7 +192,7 @@ Gets the ScopeMode.
 
 <a id="PreMeshedCyclicRegion.Suppressed"></a>
 
-### *property* PreMeshedCyclicRegion.Suppressed *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* PreMeshedCyclicRegion.Suppressed *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Suppressed.
 
@@ -200,7 +200,7 @@ Gets or sets the Suppressed.
 
 <a id="PreMeshedCyclicRegion.VisibleProperties"></a>
 
-### *property* PreMeshedCyclicRegion.VisibleProperties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* PreMeshedCyclicRegion.VisibleProperties *: [tuple](https://docs.python.org/3/library/stdtypes.html#tuple)[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of properties that are visible for this object.
 
@@ -236,7 +236,7 @@ Creates a new child Figure.
 
 <a id="PreMeshedCyclicRegion.AddImage"></a>
 
-### PreMeshedCyclicRegion.AddImage(filePath: System.String)
+### PreMeshedCyclicRegion.AddImage(filePath: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 ```text
 Creates a new child Image.
@@ -256,7 +256,7 @@ Copies all visible properties from this object to another.
 
 <a id="PreMeshedCyclicRegion.CreateParameter"></a>
 
-### PreMeshedCyclicRegion.CreateParameter(propName: System.String)
+### PreMeshedCyclicRegion.CreateParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Creates a new parameter for a Property.
 
@@ -288,7 +288,7 @@ Flips the High and Low Boundaries.
 
 <a id="PreMeshedCyclicRegion.GetChildren"></a>
 
-### PreMeshedCyclicRegion.GetChildren(recurses: System.Boolean, children: System.Collections.Generic.IList[ChildrenType])
+### PreMeshedCyclicRegion.GetChildren(recurses: [bool](https://docs.python.org/3/library/functions.html#bool), children: List[ChildrenType])
 
 Gets the list of children, filtered by type.
 
@@ -296,7 +296,7 @@ Gets the list of children, filtered by type.
 
 <a id="PreMeshedCyclicRegion.GetParameter"></a>
 
-### PreMeshedCyclicRegion.GetParameter(propName: System.String)
+### PreMeshedCyclicRegion.GetParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Gets the parameter corresponding to the given property.
 
@@ -320,7 +320,7 @@ Run the GroupSimilarObjects action.
 
 <a id="PreMeshedCyclicRegion.PropertyByAPIName"></a>
 
-### PreMeshedCyclicRegion.PropertyByAPIName(name: System.String)
+### PreMeshedCyclicRegion.PropertyByAPIName(name: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 ```text
 Get a property by its API name.
@@ -331,7 +331,7 @@ If multiple properties have the same API Name, only the first property with that
 
 <a id="PreMeshedCyclicRegion.PropertyByName"></a>
 
-### PreMeshedCyclicRegion.PropertyByName(name: System.String)
+### PreMeshedCyclicRegion.PropertyByName(name: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Get a property by its unique name.
 
@@ -339,7 +339,7 @@ Get a property by its unique name.
 
 <a id="PreMeshedCyclicRegion.RemoveParameter"></a>
 
-### PreMeshedCyclicRegion.RemoveParameter(propName: System.String)
+### PreMeshedCyclicRegion.RemoveParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Removes the parameter from the parameter set corresponding to the given property.
 

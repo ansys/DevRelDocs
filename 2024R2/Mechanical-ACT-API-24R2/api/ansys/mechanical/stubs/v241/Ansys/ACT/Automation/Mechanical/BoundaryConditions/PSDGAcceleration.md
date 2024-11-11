@@ -17,7 +17,7 @@ Defines a PSDGAcceleration.
 ### Methods
 
 | Name | Description |
-|---------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------|
+|------------------------------------------------------------------------|-----------------------------------------------------------------------------------|
 | [`Activate`](#PSDGAcceleration.Activate)                               | Activate the current object.                                                      |
 | [`AddComment`](#PSDGAcceleration.AddComment)                           | Creates a new child Comment.                                                      |
 | [`AddFigure`](#PSDGAcceleration.AddFigure)                             | Creates a new child Figure.                                                       |
@@ -37,7 +37,7 @@ Defines a PSDGAcceleration.
 ### Properties
 
 | Name | Description |
-|---------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------|
+|------------------------------------------------------------------------|---------------------------------------------------------------|
 | [`BoundaryCondition`](#PSDGAcceleration.BoundaryCondition)             | Gets or sets the BoundaryCondition.                           |
 | [`Children`](#PSDGAcceleration.Children)                               | Gets the list of children.                                    |
 | [`Comments`](#PSDGAcceleration.Comments)                               | Gets the list of associated comments.                         |
@@ -57,7 +57,7 @@ Defines a PSDGAcceleration.
 
 <a id="PSDGAcceleration.BoundaryCondition"></a>
 
-### *property* PSDGAcceleration.BoundaryCondition *: System.Object | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* PSDGAcceleration.BoundaryCondition *: Any | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the BoundaryCondition.
 
@@ -65,7 +65,7 @@ Gets or sets the BoundaryCondition.
 
 <a id="PSDGAcceleration.Children"></a>
 
-### *property* PSDGAcceleration.Children *: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* PSDGAcceleration.Children *: List[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of children.
 
@@ -73,7 +73,7 @@ Gets the list of children.
 
 <a id="PSDGAcceleration.Comments"></a>
 
-### *property* PSDGAcceleration.Comments *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Comment](../Comment.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* PSDGAcceleration.Comments *: Iterable[[Ansys.ACT.Automation.Mechanical.Comment](../Comment.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated comments.
 
@@ -81,7 +81,7 @@ Gets the list of associated comments.
 
 <a id="PSDGAcceleration.DataModelObjectCategory"></a>
 
-### *property* PSDGAcceleration.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../../v242/Ansys/Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* PSDGAcceleration.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the current DataModelObject’s category.
 
@@ -89,7 +89,7 @@ Gets the current DataModelObject’s category.
 
 <a id="PSDGAcceleration.Direction"></a>
 
-### *property* PSDGAcceleration.Direction *: [Ansys.Mechanical.DataModel.Enums.NormalOrientationType](../../../../../../v242/Ansys/Mechanical/DataModel/Enums/NormalOrientationType.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.NormalOrientationType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* PSDGAcceleration.Direction *: [Ansys.Mechanical.DataModel.Enums.NormalOrientationType](../../../../Mechanical/DataModel/Enums/NormalOrientationType.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.NormalOrientationType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Direction.
 
@@ -97,7 +97,7 @@ Gets or sets the Direction.
 
 <a id="PSDGAcceleration.Figures"></a>
 
-### *property* PSDGAcceleration.Figures *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Figure](../Figure.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* PSDGAcceleration.Figures *: Iterable[[Ansys.ACT.Automation.Mechanical.Figure](../Figure.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated figures.
 
@@ -105,7 +105,7 @@ Gets the list of associated figures.
 
 <a id="PSDGAcceleration.Images"></a>
 
-### *property* PSDGAcceleration.Images *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Image](../Image.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* PSDGAcceleration.Images *: Iterable[[Ansys.ACT.Automation.Mechanical.Image](../Image.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated images.
 
@@ -121,7 +121,7 @@ Gets the internal object. For advanced usage only.
 
 <a id="PSDGAcceleration.LoadData"></a>
 
-### *property* PSDGAcceleration.LoadData *: [Ansys.ACT.Mechanical.Fields.Field](../../../../../../v242/Ansys/ACT/Mechanical/Fields/Field.md#ansys.mechanical.stubs.v242.Ansys.ACT.Mechanical.Fields.Field) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* PSDGAcceleration.LoadData *: [Ansys.ACT.Mechanical.Fields.Field](../../../Mechanical/Fields/Field.md#ansys.mechanical.stubs.v241.Ansys.ACT.Mechanical.Fields.Field) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the LoadData.
 
@@ -129,7 +129,7 @@ Gets or sets the LoadData.
 
 <a id="PSDGAcceleration.Properties"></a>
 
-### *property* PSDGAcceleration.Properties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* PSDGAcceleration.Properties *: [tuple](https://docs.python.org/3/library/stdtypes.html#tuple)[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of properties for this object.
 
@@ -137,7 +137,7 @@ Gets the list of properties for this object.
 
 <a id="PSDGAcceleration.Suppressed"></a>
 
-### *property* PSDGAcceleration.Suppressed *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* PSDGAcceleration.Suppressed *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Suppressed.
 
@@ -145,7 +145,7 @@ Gets or sets the Suppressed.
 
 <a id="PSDGAcceleration.VisibleProperties"></a>
 
-### *property* PSDGAcceleration.VisibleProperties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* PSDGAcceleration.VisibleProperties *: [tuple](https://docs.python.org/3/library/stdtypes.html#tuple)[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of properties that are visible for this object.
 
@@ -181,7 +181,7 @@ Creates a new child Figure.
 
 <a id="PSDGAcceleration.AddImage"></a>
 
-### PSDGAcceleration.AddImage(filePath: System.String)
+### PSDGAcceleration.AddImage(filePath: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 ```text
 Creates a new child Image.
@@ -201,7 +201,7 @@ Copies all visible properties from this object to another.
 
 <a id="PSDGAcceleration.CreateParameter"></a>
 
-### PSDGAcceleration.CreateParameter(propName: System.String)
+### PSDGAcceleration.CreateParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Creates a new parameter for a Property.
 
@@ -225,7 +225,7 @@ Creates a copy of the current DataModelObject.
 
 <a id="PSDGAcceleration.GetChildren"></a>
 
-### PSDGAcceleration.GetChildren(recurses: System.Boolean, children: System.Collections.Generic.IList[ChildrenType])
+### PSDGAcceleration.GetChildren(recurses: [bool](https://docs.python.org/3/library/functions.html#bool), children: List[ChildrenType])
 
 Gets the list of children, filtered by type.
 
@@ -233,7 +233,7 @@ Gets the list of children, filtered by type.
 
 <a id="PSDGAcceleration.GetParameter"></a>
 
-### PSDGAcceleration.GetParameter(propName: System.String)
+### PSDGAcceleration.GetParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Gets the parameter corresponding to the given property.
 
@@ -257,7 +257,7 @@ Run the GroupSimilarObjects action.
 
 <a id="PSDGAcceleration.PropertyByAPIName"></a>
 
-### PSDGAcceleration.PropertyByAPIName(name: System.String)
+### PSDGAcceleration.PropertyByAPIName(name: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 ```text
 Get a property by its API name.
@@ -268,7 +268,7 @@ If multiple properties have the same API Name, only the first property with that
 
 <a id="PSDGAcceleration.PropertyByName"></a>
 
-### PSDGAcceleration.PropertyByName(name: System.String)
+### PSDGAcceleration.PropertyByName(name: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Get a property by its unique name.
 
@@ -276,7 +276,7 @@ Get a property by its unique name.
 
 <a id="PSDGAcceleration.RemoveParameter"></a>
 
-### PSDGAcceleration.RemoveParameter(propName: System.String)
+### PSDGAcceleration.RemoveParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Removes the parameter from the parameter set corresponding to the given property.
 

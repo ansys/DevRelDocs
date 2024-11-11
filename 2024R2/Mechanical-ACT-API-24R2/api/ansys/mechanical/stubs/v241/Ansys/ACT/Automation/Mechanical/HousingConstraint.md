@@ -17,7 +17,7 @@ Defines a HousingConstraint.
 ### Methods
 
 | Name | Description |
-|-------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------|
+|-------------------------------------------------------------------------|-----------------------------------------------------------------------------------|
 | [`Activate`](#HousingConstraint.Activate)                               | Activate the current object.                                                      |
 | [`CopyTo`](#HousingConstraint.CopyTo)                                   | Copies all visible properties from this object to another.                        |
 | [`CreateParameter`](#HousingConstraint.CreateParameter)                 | Creates a new parameter for a Property.                                           |
@@ -35,7 +35,7 @@ Defines a HousingConstraint.
 ### Properties
 
 | Name | Description |
-|-------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------|
+|-------------------------------------------------------------------------|---------------------------------------------------------------|
 | [`Children`](#HousingConstraint.Children)                               | Gets the list of children.                                    |
 | [`DataModelObjectCategory`](#HousingConstraint.DataModelObjectCategory) | Gets the current DataModelObject’s category.                  |
 | [`HousingLocation`](#HousingConstraint.HousingLocation)                 | Gets or sets the HousingLocation.                             |
@@ -54,7 +54,7 @@ Defines a HousingConstraint.
 
 <a id="HousingConstraint.Children"></a>
 
-### *property* HousingConstraint.Children *: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* HousingConstraint.Children *: List[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of children.
 
@@ -62,7 +62,7 @@ Gets the list of children.
 
 <a id="HousingConstraint.DataModelObjectCategory"></a>
 
-### *property* HousingConstraint.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../v242/Ansys/Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* HousingConstraint.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the current DataModelObject’s category.
 
@@ -78,7 +78,7 @@ Gets or sets the HousingLocation.
 
 <a id="HousingConstraint.HousingScopingMethod"></a>
 
-### *property* HousingConstraint.HousingScopingMethod *: [Ansys.Mechanical.DataModel.Enums.GeometryDefineByType](../../../../../v242/Ansys/Mechanical/DataModel/Enums/GeometryDefineByType.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.GeometryDefineByType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* HousingConstraint.HousingScopingMethod *: [Ansys.Mechanical.DataModel.Enums.GeometryDefineByType](../../../Mechanical/DataModel/Enums/GeometryDefineByType.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.GeometryDefineByType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the HousingScopingMethod.
 
@@ -102,7 +102,7 @@ Gets or sets the Location.
 
 <a id="HousingConstraint.Properties"></a>
 
-### *property* HousingConstraint.Properties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* HousingConstraint.Properties *: [tuple](https://docs.python.org/3/library/stdtypes.html#tuple)[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of properties for this object.
 
@@ -110,7 +110,7 @@ Gets the list of properties for this object.
 
 <a id="HousingConstraint.ScopingMethod"></a>
 
-### *property* HousingConstraint.ScopingMethod *: [Ansys.Mechanical.DataModel.Enums.GeometryDefineByType](../../../../../v242/Ansys/Mechanical/DataModel/Enums/GeometryDefineByType.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.GeometryDefineByType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* HousingConstraint.ScopingMethod *: [Ansys.Mechanical.DataModel.Enums.GeometryDefineByType](../../../Mechanical/DataModel/Enums/GeometryDefineByType.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.GeometryDefineByType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the ScopingMethod.
 
@@ -118,7 +118,7 @@ Gets or sets the ScopingMethod.
 
 <a id="HousingConstraint.Selection"></a>
 
-### *property* HousingConstraint.Selection *: [Ansys.ACT.Automation.Mechanical.OptimizationRegion](../../../../../v242/Ansys/ACT/Automation/Mechanical/OptimizationRegion.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.OptimizationRegion) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* HousingConstraint.Selection *: [Ansys.ACT.Automation.Mechanical.OptimizationRegion](OptimizationRegion.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.OptimizationRegion) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Selection.
 
@@ -126,7 +126,7 @@ Gets or sets the Selection.
 
 <a id="HousingConstraint.Suppressed"></a>
 
-### *property* HousingConstraint.Suppressed *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* HousingConstraint.Suppressed *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Suppressed.
 
@@ -134,7 +134,7 @@ Gets or sets the Suppressed.
 
 <a id="HousingConstraint.VisibleProperties"></a>
 
-### *property* HousingConstraint.VisibleProperties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* HousingConstraint.VisibleProperties *: [tuple](https://docs.python.org/3/library/stdtypes.html#tuple)[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of properties that are visible for this object.
 
@@ -162,7 +162,7 @@ Copies all visible properties from this object to another.
 
 <a id="HousingConstraint.CreateParameter"></a>
 
-### HousingConstraint.CreateParameter(propName: System.String)
+### HousingConstraint.CreateParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Creates a new parameter for a Property.
 
@@ -186,7 +186,7 @@ Creates a copy of the current DataModelObject.
 
 <a id="HousingConstraint.GetChildren"></a>
 
-### HousingConstraint.GetChildren(recurses: System.Boolean, children: System.Collections.Generic.IList[ChildrenType])
+### HousingConstraint.GetChildren(recurses: [bool](https://docs.python.org/3/library/functions.html#bool), children: List[ChildrenType])
 
 Gets the list of children, filtered by type.
 
@@ -194,7 +194,7 @@ Gets the list of children, filtered by type.
 
 <a id="HousingConstraint.GetParameter"></a>
 
-### HousingConstraint.GetParameter(propName: System.String)
+### HousingConstraint.GetParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Gets the parameter corresponding to the given property.
 
@@ -218,7 +218,7 @@ Run the GroupSimilarObjects action.
 
 <a id="HousingConstraint.PropertyByAPIName"></a>
 
-### HousingConstraint.PropertyByAPIName(name: System.String)
+### HousingConstraint.PropertyByAPIName(name: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 ```text
 Get a property by its API name.
@@ -229,7 +229,7 @@ If multiple properties have the same API Name, only the first property with that
 
 <a id="HousingConstraint.PropertyByName"></a>
 
-### HousingConstraint.PropertyByName(name: System.String)
+### HousingConstraint.PropertyByName(name: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Get a property by its unique name.
 
@@ -237,7 +237,7 @@ Get a property by its unique name.
 
 <a id="HousingConstraint.RemoveParameter"></a>
 
-### HousingConstraint.RemoveParameter(propName: System.String)
+### HousingConstraint.RemoveParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Removes the parameter from the parameter set corresponding to the given property.
 

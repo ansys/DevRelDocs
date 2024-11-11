@@ -17,7 +17,7 @@ Specifies the GeometryDefineByType.
 ### Attributes
 
 | Name |
-| -------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| ---------------------------------------------------------------------------- |
 | [`AllOptimizationRegions`](#GeometryDefineByType.AllOptimizationRegions) |
 | [`AnalysisPly`](#GeometryDefineByType.AnalysisPly) |
 | [`BeamConnection`](#GeometryDefineByType.BeamConnection) |

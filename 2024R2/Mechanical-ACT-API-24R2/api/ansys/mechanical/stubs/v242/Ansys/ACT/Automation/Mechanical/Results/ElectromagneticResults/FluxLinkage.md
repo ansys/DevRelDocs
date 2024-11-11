@@ -17,7 +17,7 @@ Defines a FluxLinkage.
 ### Methods
 
 | Name | Description |
-|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------|
+|-------------------------------------------------------------------|-----------------------------------------------------------------------------------|
 | [`Activate`](#FluxLinkage.Activate)                               | Activate the current object.                                                      |
 | [`AddComment`](#FluxLinkage.AddComment)                           | Creates a new child Comment.                                                      |
 | [`AddImage`](#FluxLinkage.AddImage)                               | Creates a new child Image.                                                        |
@@ -36,7 +36,7 @@ Defines a FluxLinkage.
 ### Properties
 
 | Name | Description |
-|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------|
+|-------------------------------------------------------------------|---------------------------------------------------------------|
 | [`Children`](#FluxLinkage.Children)                               | Gets the list of children.                                    |
 | [`Comments`](#FluxLinkage.Comments)                               | Gets the list of associated comments.                         |
 | [`DataModelObjectCategory`](#FluxLinkage.DataModelObjectCategory) | Gets the current DataModelObject’s category.                  |
@@ -52,7 +52,7 @@ Defines a FluxLinkage.
 
 <a id="FluxLinkage.Children"></a>
 
-### *property* FluxLinkage.Children *: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* FluxLinkage.Children *: List[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of children.
 
@@ -60,7 +60,7 @@ Gets the list of children.
 
 <a id="FluxLinkage.Comments"></a>
 
-### *property* FluxLinkage.Comments *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Comment](../../../../../../../v241/Ansys/ACT/Automation/Mechanical/Comment.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* FluxLinkage.Comments *: Iterable[[Ansys.ACT.Automation.Mechanical.Comment](../../Comment.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated comments.
 
@@ -76,7 +76,7 @@ Gets the current DataModelObject’s category.
 
 <a id="FluxLinkage.Images"></a>
 
-### *property* FluxLinkage.Images *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Image](../../../../../../../v241/Ansys/ACT/Automation/Mechanical/Image.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* FluxLinkage.Images *: Iterable[[Ansys.ACT.Automation.Mechanical.Image](../../Image.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated images.
 
@@ -92,7 +92,7 @@ Gets the internal object. For advanced usage only.
 
 <a id="FluxLinkage.Multiplier"></a>
 
-### *property* FluxLinkage.Multiplier *: System.Double | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* FluxLinkage.Multiplier *: [float](https://docs.python.org/3/library/functions.html#float) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Multiplier.
 
@@ -100,7 +100,7 @@ Gets or sets the Multiplier.
 
 <a id="FluxLinkage.Properties"></a>
 
-### *property* FluxLinkage.Properties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* FluxLinkage.Properties *: [tuple](https://docs.python.org/3/library/stdtypes.html#tuple)[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of properties for this object.
 
@@ -108,7 +108,7 @@ Gets the list of properties for this object.
 
 <a id="FluxLinkage.VisibleProperties"></a>
 
-### *property* FluxLinkage.VisibleProperties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* FluxLinkage.VisibleProperties *: [tuple](https://docs.python.org/3/library/stdtypes.html#tuple)[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of properties that are visible for this object.
 
@@ -136,7 +136,7 @@ Creates a new child Comment.
 
 <a id="FluxLinkage.AddImage"></a>
 
-### FluxLinkage.AddImage(filePath: System.String)
+### FluxLinkage.AddImage(filePath: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 ```text
 Creates a new child Image.
@@ -156,7 +156,7 @@ Copies all visible properties from this object to another.
 
 <a id="FluxLinkage.CreateParameter"></a>
 
-### FluxLinkage.CreateParameter(propName: System.String)
+### FluxLinkage.CreateParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Creates a new parameter for a Property.
 
@@ -180,7 +180,7 @@ Creates a copy of the current DataModelObject.
 
 <a id="FluxLinkage.GetChildren"></a>
 
-### FluxLinkage.GetChildren(recurses: System.Boolean, children: System.Collections.Generic.IList[ChildrenType])
+### FluxLinkage.GetChildren(recurses: [bool](https://docs.python.org/3/library/functions.html#bool), children: List[ChildrenType])
 
 Gets the list of children, filtered by type.
 
@@ -188,7 +188,7 @@ Gets the list of children, filtered by type.
 
 <a id="FluxLinkage.GetParameter"></a>
 
-### FluxLinkage.GetParameter(propName: System.String)
+### FluxLinkage.GetParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Gets the parameter corresponding to the given property.
 
@@ -212,7 +212,7 @@ Run the GroupSimilarObjects action.
 
 <a id="FluxLinkage.PropertyByAPIName"></a>
 
-### FluxLinkage.PropertyByAPIName(name: System.String)
+### FluxLinkage.PropertyByAPIName(name: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 ```text
 Get a property by its API name.
@@ -223,7 +223,7 @@ If multiple properties have the same API Name, only the first property with that
 
 <a id="FluxLinkage.PropertyByName"></a>
 
-### FluxLinkage.PropertyByName(name: System.String)
+### FluxLinkage.PropertyByName(name: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Get a property by its unique name.
 
@@ -231,7 +231,7 @@ Get a property by its unique name.
 
 <a id="FluxLinkage.RemoveParameter"></a>
 
-### FluxLinkage.RemoveParameter(propName: System.String)
+### FluxLinkage.RemoveParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Removes the parameter from the parameter set corresponding to the given property.
 

@@ -17,7 +17,7 @@ Specifies the FutureIntentType.
 ### Attributes
 
 | Name |
-| ---------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| ---------------------------------------------------------------------------------------------- |
 | [`HarmonicAnalysis`](#FutureIntentType.HarmonicAnalysis) |
 | [`ModeSuperpositionAnalysis`](#FutureIntentType.ModeSuperpositionAnalysis) |
 | [`MotionAnalysis`](#FutureIntentType.MotionAnalysis) |

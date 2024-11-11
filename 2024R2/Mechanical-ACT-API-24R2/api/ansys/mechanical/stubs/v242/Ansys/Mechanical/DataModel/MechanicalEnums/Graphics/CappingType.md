@@ -17,7 +17,7 @@ Specifies the CappingType.
 ### Attributes
 
 | Name |
-| ---------------------------------------------------------------------------------------------------------------------------- |
+| ----------------------------------- |
 | [`Bottom`](#CappingType.Bottom) |
 | [`Iso`](#CappingType.Iso) |
 | [`Top`](#CappingType.Top) |

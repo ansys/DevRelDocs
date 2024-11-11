@@ -17,7 +17,7 @@ Defines a CriterionConstraint.
 ### Methods
 
 | Name | Description |
-|-----------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------|
+|---------------------------------------------------------------------------|-----------------------------------------------------------------------------------|
 | [`Activate`](#CriterionConstraint.Activate)                               | Activate the current object.                                                      |
 | [`CopyTo`](#CriterionConstraint.CopyTo)                                   | Copies all visible properties from this object to another.                        |
 | [`CreateParameter`](#CriterionConstraint.CreateParameter)                 | Creates a new parameter for a Property.                                           |
@@ -35,7 +35,7 @@ Defines a CriterionConstraint.
 ### Properties
 
 | Name | Description |
-|-----------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------|
+|---------------------------------------------------------------------------|------------------------------------------------------------------------------------------|
 | [`Children`](#CriterionConstraint.Children)                               | Gets the list of children.                                                               |
 | [`Criterion`](#CriterionConstraint.Criterion)                             | Gets or sets the Criterion.                                                              |
 | [`DataModelObjectCategory`](#CriterionConstraint.DataModelObjectCategory) | Gets the current DataModelObject’s category.                                             |
@@ -54,7 +54,7 @@ Defines a CriterionConstraint.
 
 <a id="CriterionConstraint.Children"></a>
 
-### *property* CriterionConstraint.Children *: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* CriterionConstraint.Children *: List[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of children.
 
@@ -70,7 +70,7 @@ Gets or sets the Criterion.
 
 <a id="CriterionConstraint.DataModelObjectCategory"></a>
 
-### *property* CriterionConstraint.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../v242/Ansys/Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* CriterionConstraint.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the current DataModelObject’s category.
 
@@ -78,7 +78,7 @@ Gets the current DataModelObject’s category.
 
 <a id="CriterionConstraint.EnvironmentSelection"></a>
 
-### *property* CriterionConstraint.EnvironmentSelection *: System.Object | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* CriterionConstraint.EnvironmentSelection *: Any | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or Sets the EnvironmentSelection to an Analysis object or TopoEnvironmentType enum.
 
@@ -86,7 +86,7 @@ Gets or Sets the EnvironmentSelection to an Analysis object or TopoEnvironmentTy
 
 <a id="CriterionConstraint.InitialValue"></a>
 
-### *property* CriterionConstraint.InitialValue *: System.Double | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* CriterionConstraint.InitialValue *: [float](https://docs.python.org/3/library/functions.html#float) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the InitialValue.
 
@@ -102,7 +102,7 @@ Gets the internal object. For advanced usage only.
 
 <a id="CriterionConstraint.LowerBound"></a>
 
-### *property* CriterionConstraint.LowerBound *: System.Double | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* CriterionConstraint.LowerBound *: [float](https://docs.python.org/3/library/functions.html#float) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the LowerBound.
 
@@ -110,7 +110,7 @@ Gets or sets the LowerBound.
 
 <a id="CriterionConstraint.Properties"></a>
 
-### *property* CriterionConstraint.Properties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* CriterionConstraint.Properties *: [tuple](https://docs.python.org/3/library/stdtypes.html#tuple)[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of properties for this object.
 
@@ -118,7 +118,7 @@ Gets the list of properties for this object.
 
 <a id="CriterionConstraint.Suppressed"></a>
 
-### *property* CriterionConstraint.Suppressed *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* CriterionConstraint.Suppressed *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Suppressed.
 
@@ -126,7 +126,7 @@ Gets or sets the Suppressed.
 
 <a id="CriterionConstraint.UpperBound"></a>
 
-### *property* CriterionConstraint.UpperBound *: System.Double | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* CriterionConstraint.UpperBound *: [float](https://docs.python.org/3/library/functions.html#float) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the UpperBound.
 
@@ -134,7 +134,7 @@ Gets or sets the UpperBound.
 
 <a id="CriterionConstraint.VisibleProperties"></a>
 
-### *property* CriterionConstraint.VisibleProperties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* CriterionConstraint.VisibleProperties *: [tuple](https://docs.python.org/3/library/stdtypes.html#tuple)[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of properties that are visible for this object.
 
@@ -162,7 +162,7 @@ Copies all visible properties from this object to another.
 
 <a id="CriterionConstraint.CreateParameter"></a>
 
-### CriterionConstraint.CreateParameter(propName: System.String)
+### CriterionConstraint.CreateParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Creates a new parameter for a Property.
 
@@ -186,7 +186,7 @@ Creates a copy of the current DataModelObject.
 
 <a id="CriterionConstraint.GetChildren"></a>
 
-### CriterionConstraint.GetChildren(recurses: System.Boolean, children: System.Collections.Generic.IList[ChildrenType])
+### CriterionConstraint.GetChildren(recurses: [bool](https://docs.python.org/3/library/functions.html#bool), children: List[ChildrenType])
 
 Gets the list of children, filtered by type.
 
@@ -194,7 +194,7 @@ Gets the list of children, filtered by type.
 
 <a id="CriterionConstraint.GetParameter"></a>
 
-### CriterionConstraint.GetParameter(propName: System.String)
+### CriterionConstraint.GetParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Gets the parameter corresponding to the given property.
 
@@ -218,7 +218,7 @@ Run the GroupSimilarObjects action.
 
 <a id="CriterionConstraint.PropertyByAPIName"></a>
 
-### CriterionConstraint.PropertyByAPIName(name: System.String)
+### CriterionConstraint.PropertyByAPIName(name: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 ```text
 Get a property by its API name.
@@ -229,7 +229,7 @@ If multiple properties have the same API Name, only the first property with that
 
 <a id="CriterionConstraint.PropertyByName"></a>
 
-### CriterionConstraint.PropertyByName(name: System.String)
+### CriterionConstraint.PropertyByName(name: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Get a property by its unique name.
 
@@ -237,7 +237,7 @@ Get a property by its unique name.
 
 <a id="CriterionConstraint.RemoveParameter"></a>
 
-### CriterionConstraint.RemoveParameter(propName: System.String)
+### CriterionConstraint.RemoveParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Removes the parameter from the parameter set corresponding to the given property.
 

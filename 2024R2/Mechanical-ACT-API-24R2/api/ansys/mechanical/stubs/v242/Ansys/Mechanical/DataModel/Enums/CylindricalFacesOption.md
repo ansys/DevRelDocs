@@ -17,7 +17,7 @@ Specifies the CylindricalFacesOption.
 ### Attributes
 
 | Name |
-| ------------------------------------------------------------------------------------------------------------------------------ |
+| ------------------------------------------------ |
 | [`Exclude`](#CylindricalFacesOption.Exclude) |
 | [`Include`](#CylindricalFacesOption.Include) |
 | [`Only`](#CylindricalFacesOption.Only) |

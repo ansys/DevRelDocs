@@ -17,7 +17,7 @@ Defines a Voltage.
 ### Methods
 
 | Name | Description |
-|---------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------|
+|---------------------------------------------------------------|-----------------------------------------------------------------------------------|
 | [`Activate`](#Voltage.Activate)                               | Activate the current object.                                                      |
 | [`AddComment`](#Voltage.AddComment)                           | Creates a new child Comment.                                                      |
 | [`AddFigure`](#Voltage.AddFigure)                             | Creates a new child Figure.                                                       |
@@ -40,7 +40,7 @@ Defines a Voltage.
 ### Properties
 
 | Name | Description |
-|---------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------|
+|---------------------------------------------------------------|---------------------------------------------------------------|
 | [`Children`](#Voltage.Children)                               | Gets the list of children.                                    |
 | [`Comments`](#Voltage.Comments)                               | Gets the list of associated comments.                         |
 | [`DataModelObjectCategory`](#Voltage.DataModelObjectCategory) | Gets the current DataModelObject’s category.                  |
@@ -64,7 +64,7 @@ Defines a Voltage.
 
 <a id="Voltage.Children"></a>
 
-### *property* Voltage.Children *: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Voltage.Children *: List[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of children.
 
@@ -72,7 +72,7 @@ Gets the list of children.
 
 <a id="Voltage.Comments"></a>
 
-### *property* Voltage.Comments *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Comment](../Comment.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Voltage.Comments *: Iterable[[Ansys.ACT.Automation.Mechanical.Comment](../Comment.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated comments.
 
@@ -80,7 +80,7 @@ Gets the list of associated comments.
 
 <a id="Voltage.DataModelObjectCategory"></a>
 
-### *property* Voltage.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../../v242/Ansys/Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Voltage.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the current DataModelObject’s category.
 
@@ -88,7 +88,7 @@ Gets the current DataModelObject’s category.
 
 <a id="Voltage.Figures"></a>
 
-### *property* Voltage.Figures *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Figure](../Figure.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Voltage.Figures *: Iterable[[Ansys.ACT.Automation.Mechanical.Figure](../Figure.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated figures.
 
@@ -96,7 +96,7 @@ Gets the list of associated figures.
 
 <a id="Voltage.Images"></a>
 
-### *property* Voltage.Images *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Image](../Image.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Voltage.Images *: Iterable[[Ansys.ACT.Automation.Mechanical.Image](../Image.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated images.
 
@@ -120,7 +120,7 @@ Gets or sets the Location.
 
 <a id="Voltage.Magnitude"></a>
 
-### *property* Voltage.Magnitude *: [Ansys.ACT.Mechanical.Fields.Field](../../../../../../v242/Ansys/ACT/Mechanical/Fields/Field.md#ansys.mechanical.stubs.v242.Ansys.ACT.Mechanical.Fields.Field) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Voltage.Magnitude *: [Ansys.ACT.Mechanical.Fields.Field](../../../Mechanical/Fields/Field.md#ansys.mechanical.stubs.v241.Ansys.ACT.Mechanical.Fields.Field) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the Magnitude.
 
@@ -128,7 +128,7 @@ Gets the Magnitude.
 
 <a id="Voltage.NumberOfSegments"></a>
 
-### *property* Voltage.NumberOfSegments *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Voltage.NumberOfSegments *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the NumberOfSegments.
 
@@ -144,7 +144,7 @@ Gets or sets the PhaseAngle.
 
 <a id="Voltage.Properties"></a>
 
-### *property* Voltage.Properties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Voltage.Properties *: [tuple](https://docs.python.org/3/library/stdtypes.html#tuple)[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of properties for this object.
 
@@ -152,7 +152,7 @@ Gets the list of properties for this object.
 
 <a id="Voltage.ReadOnly"></a>
 
-### *property* Voltage.ReadOnly *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Voltage.ReadOnly *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the ReadOnly.
 
@@ -168,7 +168,7 @@ Gets or sets the SharedRefBody.
 
 <a id="Voltage.Suppressed"></a>
 
-### *property* Voltage.Suppressed *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Voltage.Suppressed *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Suppressed.
 
@@ -176,7 +176,7 @@ Gets or sets the Suppressed.
 
 <a id="Voltage.VisibleProperties"></a>
 
-### *property* Voltage.VisibleProperties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Voltage.VisibleProperties *: [tuple](https://docs.python.org/3/library/stdtypes.html#tuple)[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of properties that are visible for this object.
 
@@ -220,7 +220,7 @@ Creates a new child Figure.
 
 <a id="Voltage.AddImage"></a>
 
-### Voltage.AddImage(filePath: System.String)
+### Voltage.AddImage(filePath: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 ```text
 Creates a new child Image.
@@ -240,7 +240,7 @@ Copies all visible properties from this object to another.
 
 <a id="Voltage.CreateParameter"></a>
 
-### Voltage.CreateParameter(propName: System.String)
+### Voltage.CreateParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Creates a new parameter for a Property.
 
@@ -264,7 +264,7 @@ Creates a copy of the current DataModelObject.
 
 <a id="Voltage.GetActivateAtLoadStep"></a>
 
-### Voltage.GetActivateAtLoadStep(stepNumber: System.UInt32)
+### Voltage.GetActivateAtLoadStep(stepNumber: [int](https://docs.python.org/3/library/functions.html#int))
 
 GetActivateAtLoadStep method.
 
@@ -272,7 +272,7 @@ GetActivateAtLoadStep method.
 
 <a id="Voltage.GetChildren"></a>
 
-### Voltage.GetChildren(recurses: System.Boolean, children: System.Collections.Generic.IList[ChildrenType])
+### Voltage.GetChildren(recurses: [bool](https://docs.python.org/3/library/functions.html#bool), children: List[ChildrenType])
 
 Gets the list of children, filtered by type.
 
@@ -280,7 +280,7 @@ Gets the list of children, filtered by type.
 
 <a id="Voltage.GetParameter"></a>
 
-### Voltage.GetParameter(propName: System.String)
+### Voltage.GetParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Gets the parameter corresponding to the given property.
 
@@ -312,7 +312,7 @@ Run the PromoteToNamedSelection action.
 
 <a id="Voltage.PropertyByAPIName"></a>
 
-### Voltage.PropertyByAPIName(name: System.String)
+### Voltage.PropertyByAPIName(name: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 ```text
 Get a property by its API name.
@@ -323,7 +323,7 @@ If multiple properties have the same API Name, only the first property with that
 
 <a id="Voltage.PropertyByName"></a>
 
-### Voltage.PropertyByName(name: System.String)
+### Voltage.PropertyByName(name: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Get a property by its unique name.
 
@@ -331,7 +331,7 @@ Get a property by its unique name.
 
 <a id="Voltage.RemoveParameter"></a>
 
-### Voltage.RemoveParameter(propName: System.String)
+### Voltage.RemoveParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Removes the parameter from the parameter set corresponding to the given property.
 
@@ -339,7 +339,7 @@ Removes the parameter from the parameter set corresponding to the given property
 
 <a id="Voltage.SetActivateAtLoadStep"></a>
 
-### Voltage.SetActivateAtLoadStep(stepNumber: System.UInt32, bActive: System.Boolean)
+### Voltage.SetActivateAtLoadStep(stepNumber: [int](https://docs.python.org/3/library/functions.html#int), bActive: [bool](https://docs.python.org/3/library/functions.html#bool))
 
 SetActivateAtLoadStep method.
 

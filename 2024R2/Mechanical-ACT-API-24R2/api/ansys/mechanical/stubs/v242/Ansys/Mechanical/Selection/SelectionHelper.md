@@ -17,7 +17,7 @@ SelectionHelper class.
 ### Constructors
 
 | Name | Description |
-|---------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------|
+|-------------------------------------------------------------|----------------------------------------------------------------------------------------------------------|
 | [`CastRayOnGeometry`](#SelectionHelper.CastRayOnGeometry)   | Finds geometry entities intersecting input BoundVector and returns them in list of GeometryRayCastHit.   |
 | [`CreateVector3D`](#SelectionHelper.CreateVector3D)         | Creates a Vector3D object based on the given selection and reverse flag.                                 |
 
@@ -38,7 +38,7 @@ These are returned in the order they are hit, each item containing the entity an
 
 <a id="SelectionHelper.CreateVector3D"></a>
 
-### *classmethod* SelectionHelper.CreateVector3D(selection: Ansys.ACT.Interfaces.Common.ISelectionInfo, reversed: System.Boolean)
+### *classmethod* SelectionHelper.CreateVector3D(selection: Ansys.ACT.Interfaces.Common.ISelectionInfo, reversed: [bool](https://docs.python.org/3/library/functions.html#bool))
 
 ```text
 Creates a Vector3D object based on the given selection and reverse flag.

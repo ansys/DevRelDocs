@@ -17,7 +17,7 @@ Specifies the RestartSaveAtSubstep.
 ### Attributes
 
 | Name |
-| ------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| -------------------------------------------------------------------------- |
 | [`All`](#RestartSaveAtSubstep.All) |
 | [`EquallySpaced`](#RestartSaveAtSubstep.EquallySpaced) |
 | [`Last`](#RestartSaveAtSubstep.Last) |

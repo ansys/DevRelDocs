@@ -70,7 +70,7 @@ Temperature class.
 
 <a id="Temperature.ApplyToEntireBody"></a>
 
-### *property* Temperature.ApplyToEntireBody *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Temperature.ApplyToEntireBody *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the ApplyToEntireBody.
 
@@ -78,7 +78,7 @@ Gets or sets the ApplyToEntireBody.
 
 <a id="Temperature.Children"></a>
 
-### *property* Temperature.Children *: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Temperature.Children *: List[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of children.
 
@@ -86,7 +86,7 @@ Gets the list of children.
 
 <a id="Temperature.Comments"></a>
 
-### *property* Temperature.Comments *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Comment](../../../../../../v241/Ansys/ACT/Automation/Mechanical/Comment.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Temperature.Comments *: Iterable[[Ansys.ACT.Automation.Mechanical.Comment](../Comment.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated comments.
 
@@ -110,7 +110,7 @@ Gets the DefineBy.
 
 <a id="Temperature.Figures"></a>
 
-### *property* Temperature.Figures *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Figure](../../../../../../v241/Ansys/ACT/Automation/Mechanical/Figure.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Temperature.Figures *: Iterable[[Ansys.ACT.Automation.Mechanical.Figure](../Figure.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated figures.
 
@@ -126,7 +126,7 @@ Gets or sets the GraphControlsXAxis.
 
 <a id="Temperature.Images"></a>
 
-### *property* Temperature.Images *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Image](../../../../../../v241/Ansys/ACT/Automation/Mechanical/Image.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Temperature.Images *: Iterable[[Ansys.ACT.Automation.Mechanical.Image](../Image.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated images.
 
@@ -158,7 +158,7 @@ Gets or sets the Location.
 
 <a id="Temperature.Magnitude"></a>
 
-### *property* Temperature.Magnitude *: System.Object | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Temperature.Magnitude *: Any | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Magnitude.
 
@@ -166,7 +166,7 @@ Gets or sets the Magnitude.
 
 <a id="Temperature.NumberOfSegments"></a>
 
-### *property* Temperature.NumberOfSegments *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Temperature.NumberOfSegments *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the NumberOfSegments.
 
@@ -174,7 +174,7 @@ Gets or sets the NumberOfSegments.
 
 <a id="Temperature.Properties"></a>
 
-### *property* Temperature.Properties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Temperature.Properties *: [tuple](https://docs.python.org/3/library/stdtypes.html#tuple)[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of properties for this object.
 
@@ -198,7 +198,7 @@ Gets or sets the RangeMinimum.
 
 <a id="Temperature.ReadOnly"></a>
 
-### *property* Temperature.ReadOnly *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Temperature.ReadOnly *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the ReadOnly.
 
@@ -206,7 +206,7 @@ Gets or sets the ReadOnly.
 
 <a id="Temperature.SharedRefBody"></a>
 
-### *property* Temperature.SharedRefBody *: [Ansys.ACT.Automation.Mechanical.Body](../../../../../../v241/Ansys/ACT/Automation/Mechanical/Body.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Body) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Temperature.SharedRefBody *: [Ansys.ACT.Automation.Mechanical.Body](../Body.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Body) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the SharedRefBody.
 
@@ -222,7 +222,7 @@ Gets or sets the ShellFace.
 
 <a id="Temperature.Suppressed"></a>
 
-### *property* Temperature.Suppressed *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Temperature.Suppressed *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Suppressed.
 
@@ -230,7 +230,7 @@ Gets or sets the Suppressed.
 
 <a id="Temperature.VisibleProperties"></a>
 
-### *property* Temperature.VisibleProperties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Temperature.VisibleProperties *: [tuple](https://docs.python.org/3/library/stdtypes.html#tuple)[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of properties that are visible for this object.
 
@@ -238,7 +238,7 @@ Gets the list of properties that are visible for this object.
 
 <a id="Temperature.XYZFunctionCoordinateSystem"></a>
 
-### *property* Temperature.XYZFunctionCoordinateSystem *: [Ansys.ACT.Automation.Mechanical.CoordinateSystem](../../../../../../v241/Ansys/ACT/Automation/Mechanical/CoordinateSystem.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.CoordinateSystem) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Temperature.XYZFunctionCoordinateSystem *: [Ansys.ACT.Automation.Mechanical.CoordinateSystem](../CoordinateSystem.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.CoordinateSystem) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the XYZFunctionCoordinateSystem.
 
@@ -274,7 +274,7 @@ Creates a new child Figure.
 
 <a id="Temperature.AddImage"></a>
 
-### Temperature.AddImage(filePath: System.String)
+### Temperature.AddImage(filePath: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 ```text
 Creates a new child Image.
@@ -294,7 +294,7 @@ Copies all visible properties from this object to another.
 
 <a id="Temperature.CreateParameter"></a>
 
-### Temperature.CreateParameter(propName: System.String)
+### Temperature.CreateParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Creates a new parameter for a Property.
 
@@ -318,7 +318,7 @@ Creates a copy of the current DataModelObject.
 
 <a id="Temperature.GetActivateAtLoadStep"></a>
 
-### Temperature.GetActivateAtLoadStep(stepNumber: System.UInt32)
+### Temperature.GetActivateAtLoadStep(stepNumber: [int](https://docs.python.org/3/library/functions.html#int))
 
 GetActivateAtLoadStep method.
 
@@ -326,7 +326,7 @@ GetActivateAtLoadStep method.
 
 <a id="Temperature.GetChildren"></a>
 
-### Temperature.GetChildren(recurses: System.Boolean, children: System.Collections.Generic.IList[ChildrenType])
+### Temperature.GetChildren(recurses: [bool](https://docs.python.org/3/library/functions.html#bool), children: List[ChildrenType])
 
 Gets the list of children, filtered by type.
 
@@ -334,7 +334,7 @@ Gets the list of children, filtered by type.
 
 <a id="Temperature.GetParameter"></a>
 
-### Temperature.GetParameter(propName: System.String)
+### Temperature.GetParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Gets the parameter corresponding to the given property.
 
@@ -366,7 +366,7 @@ Run the PromoteToNamedSelection action.
 
 <a id="Temperature.PropertyByAPIName"></a>
 
-### Temperature.PropertyByAPIName(name: System.String)
+### Temperature.PropertyByAPIName(name: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 ```text
 Get a property by its API name.
@@ -377,7 +377,7 @@ If multiple properties have the same API Name, only the first property with that
 
 <a id="Temperature.PropertyByName"></a>
 
-### Temperature.PropertyByName(name: System.String)
+### Temperature.PropertyByName(name: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Get a property by its unique name.
 
@@ -385,7 +385,7 @@ Get a property by its unique name.
 
 <a id="Temperature.RemoveParameter"></a>
 
-### Temperature.RemoveParameter(propName: System.String)
+### Temperature.RemoveParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Removes the parameter from the parameter set corresponding to the given property.
 
@@ -393,7 +393,7 @@ Removes the parameter from the parameter set corresponding to the given property
 
 <a id="Temperature.SetActivateAtLoadStep"></a>
 
-### Temperature.SetActivateAtLoadStep(stepNumber: System.UInt32, bActive: System.Boolean)
+### Temperature.SetActivateAtLoadStep(stepNumber: [int](https://docs.python.org/3/library/functions.html#int), bActive: [bool](https://docs.python.org/3/library/functions.html#bool))
 
 SetActivateAtLoadStep method.
 

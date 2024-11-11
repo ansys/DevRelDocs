@@ -17,7 +17,7 @@ Defines a AccelerationWaterfallDiagram.
 ### Methods
 
 | Name | Description |
-|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------|
+|------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------|
 | [`Activate`](#AccelerationWaterfallDiagram.Activate)                               | Activate the current object.                                                      |
 | [`AddAlert`](#AccelerationWaterfallDiagram.AddAlert)                               | Creates a new Alert                                                               |
 | [`AddComment`](#AccelerationWaterfallDiagram.AddComment)                           | Creates a new child Comment.                                                      |
@@ -48,7 +48,7 @@ Defines a AccelerationWaterfallDiagram.
 ### Properties
 
 | Name | Description |
-|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------|
+|--------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------|
 | [`Average`](#AccelerationWaterfallDiagram.Average)                                                     | Gets the Average.                                                      |
 | [`By`](#AccelerationWaterfallDiagram.By)                                                               | Gets or sets the By.                                                   |
 | [`CalculateTimeHistory`](#AccelerationWaterfallDiagram.CalculateTimeHistory)                           | Gets or sets the CalculateTimeHistory.                                 |
@@ -93,13 +93,13 @@ Defines a AccelerationWaterfallDiagram.
 | [`Path`](#AccelerationWaterfallDiagram.Path)                                                           | Path property.                                                         |
 | [`PlotData`](#AccelerationWaterfallDiagram.PlotData)                                                   | Gets the result table.                                                 |
 | [`Properties`](#AccelerationWaterfallDiagram.Properties)                                               | Gets the list of properties for this object.                           |
-| [`STFTCutoffFrequency`](#AccelerationWaterfallDiagram.STFTCutoffFrequency)                                                                                                                                                       | Gets or sets the STFTCutoffFrequency.                                  |
-| [`STFTEndTime`](#AccelerationWaterfallDiagram.STFTEndTime)                                                                                                                                                                       | Gets or sets the STFTEndTime.                                          |
-| [`STFTMinFreqResolution`](#AccelerationWaterfallDiagram.STFTMinFreqResolution)                                                                                                                                                   | Gets or sets the STFTMinFreqResolution.                                |
-| [`STFTNumberSlice`](#AccelerationWaterfallDiagram.STFTNumberSlice)                                                                                                                                                               | Gets or sets the STFTNumberSlice.                                      |
-| [`STFTOverlap`](#AccelerationWaterfallDiagram.STFTOverlap)                                                                                                                                                                       | Gets or sets the STFTOverlap.                                          |
-| [`STFTStartTime`](#AccelerationWaterfallDiagram.STFTStartTime)                                                                                                                                                                   | Gets or sets the STFTStartTime.                                        |
-| [`STFTWindowType`](#AccelerationWaterfallDiagram.STFTWindowType)                                                                                                                                                                 | Gets or sets the STFTWindowType.                                       |
+| [`STFTCutoffFrequency`](#AccelerationWaterfallDiagram.STFTCutoffFrequency)                             | Gets or sets the STFTCutoffFrequency.                                  |
+| [`STFTEndTime`](#AccelerationWaterfallDiagram.STFTEndTime)                                             | Gets or sets the STFTEndTime.                                          |
+| [`STFTMinFreqResolution`](#AccelerationWaterfallDiagram.STFTMinFreqResolution)                         | Gets or sets the STFTMinFreqResolution.                                |
+| [`STFTNumberSlice`](#AccelerationWaterfallDiagram.STFTNumberSlice)                                     | Gets or sets the STFTNumberSlice.                                      |
+| [`STFTOverlap`](#AccelerationWaterfallDiagram.STFTOverlap)                                             | Gets or sets the STFTOverlap.                                          |
+| [`STFTStartTime`](#AccelerationWaterfallDiagram.STFTStartTime)                                         | Gets or sets the STFTStartTime.                                        |
+| [`STFTWindowType`](#AccelerationWaterfallDiagram.STFTWindowType)                                       | Gets or sets the STFTWindowType.                                       |
 | [`ScopingMethod`](#AccelerationWaterfallDiagram.ScopingMethod)                                         | Gets or sets the ScopingMethod.                                        |
 | [`SetNumber`](#AccelerationWaterfallDiagram.SetNumber)                                                 | Gets or sets the Set Number.                                           |
 | [`SolutionCombinationDriver`](#AccelerationWaterfallDiagram.SolutionCombinationDriver)                 | Gets or sets the SolutionCombinationDriver.                            |
@@ -108,14 +108,14 @@ Defines a AccelerationWaterfallDiagram.
 | [`Substep`](#AccelerationWaterfallDiagram.Substep)                                                     | Gets the Substep.                                                      |
 | [`Suppressed`](#AccelerationWaterfallDiagram.Suppressed)                                               | Gets or sets the Suppressed.                                           |
 | [`Surface`](#AccelerationWaterfallDiagram.Surface)                                                     | Surface property.                                                      |
-| [`SurfaceCoating`](#AccelerationWaterfallDiagram.SurfaceCoating)                                                                                                                                                                 | SurfaceCoating property.                                               |
+| [`SurfaceCoating`](#AccelerationWaterfallDiagram.SurfaceCoating)                                       | SurfaceCoating property.                                               |
 | [`Time`](#AccelerationWaterfallDiagram.Time)                                                           | Gets the Time.                                                         |
 | [`TimeForMaximumOfMaximumValues`](#AccelerationWaterfallDiagram.TimeForMaximumOfMaximumValues)         | Get the Time for the maximum of maximum values.                        |
 | [`TimeForMaximumOfMinimumValues`](#AccelerationWaterfallDiagram.TimeForMaximumOfMinimumValues)         | Get the Time for the maximum of minimum values.                        |
 | [`TimeForMinimumOfMaximumValues`](#AccelerationWaterfallDiagram.TimeForMinimumOfMaximumValues)         | Get the Time for the minimum of maximum values.                        |
 | [`TimeForMinimumOfMinimumValues`](#AccelerationWaterfallDiagram.TimeForMinimumOfMinimumValues)         | Get the Time for the minimum of minimum values.                        |
 | [`VisibleProperties`](#AccelerationWaterfallDiagram.VisibleProperties)                                 | Gets the list of properties that are visible for this object.          |
-| [`WaterfallShowTextOnMosaic`](#AccelerationWaterfallDiagram.WaterfallShowTextOnMosaic)                                                                                                                                           | Gets or sets the Waterfall Mosaic Text Property.                       |
+| [`WaterfallShowTextOnMosaic`](#AccelerationWaterfallDiagram.WaterfallShowTextOnMosaic)                 | Gets or sets the Waterfall Mosaic Text Property.                       |
 
 <a id="property-detail"></a>
 
@@ -139,7 +139,7 @@ Gets or sets the By.
 
 <a id="AccelerationWaterfallDiagram.CalculateTimeHistory"></a>
 
-### *property* AccelerationWaterfallDiagram.CalculateTimeHistory *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AccelerationWaterfallDiagram.CalculateTimeHistory *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the CalculateTimeHistory.
 
@@ -147,7 +147,7 @@ Gets or sets the CalculateTimeHistory.
 
 <a id="AccelerationWaterfallDiagram.Children"></a>
 
-### *property* AccelerationWaterfallDiagram.Children *: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AccelerationWaterfallDiagram.Children *: List[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of children.
 
@@ -155,7 +155,7 @@ Gets the list of children.
 
 <a id="AccelerationWaterfallDiagram.CombinationNumber"></a>
 
-### *property* AccelerationWaterfallDiagram.CombinationNumber *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AccelerationWaterfallDiagram.CombinationNumber *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Combination Number for a Solution Combination result.
 
@@ -163,7 +163,7 @@ Gets or sets the Combination Number for a Solution Combination result.
 
 <a id="AccelerationWaterfallDiagram.Comments"></a>
 
-### *property* AccelerationWaterfallDiagram.Comments *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Comment](../../../../../../../v241/Ansys/ACT/Automation/Mechanical/Comment.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AccelerationWaterfallDiagram.Comments *: Iterable[[Ansys.ACT.Automation.Mechanical.Comment](../../Comment.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated comments.
 
@@ -171,7 +171,7 @@ Gets the list of associated comments.
 
 <a id="AccelerationWaterfallDiagram.CoordinateSystem"></a>
 
-### *property* AccelerationWaterfallDiagram.CoordinateSystem *: [Ansys.ACT.Automation.Mechanical.CoordinateSystem](../../../../../../../v241/Ansys/ACT/Automation/Mechanical/CoordinateSystem.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.CoordinateSystem) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AccelerationWaterfallDiagram.CoordinateSystem *: [Ansys.ACT.Automation.Mechanical.CoordinateSystem](../../CoordinateSystem.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.CoordinateSystem) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Coordinate System.
 Accepts/Returns None for Solution Coordinate System in the general case (if applicable).
@@ -181,7 +181,7 @@ Accepts/Returns None for Fiber Coordinate System for a result that is sub scoped
 
 <a id="AccelerationWaterfallDiagram.CrackFrontNumber"></a>
 
-### *property* AccelerationWaterfallDiagram.CrackFrontNumber *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AccelerationWaterfallDiagram.CrackFrontNumber *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the CrackFrontNumber.
 
@@ -205,7 +205,7 @@ Gets or sets the DisplayOption.
 
 <a id="AccelerationWaterfallDiagram.DisplayPanel"></a>
 
-### *property* AccelerationWaterfallDiagram.DisplayPanel *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AccelerationWaterfallDiagram.DisplayPanel *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the DisplayPanel.
 
@@ -229,7 +229,7 @@ Gets or sets the DpfEvaluation.
 
 <a id="AccelerationWaterfallDiagram.Figures"></a>
 
-### *property* AccelerationWaterfallDiagram.Figures *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Figure](../../../../../../../v241/Ansys/ACT/Automation/Mechanical/Figure.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AccelerationWaterfallDiagram.Figures *: Iterable[[Ansys.ACT.Automation.Mechanical.Figure](../../Figure.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated figures.
 
@@ -237,7 +237,7 @@ Gets the list of associated figures.
 
 <a id="AccelerationWaterfallDiagram.GlobalIDs"></a>
 
-### *property* AccelerationWaterfallDiagram.GlobalIDs *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AccelerationWaterfallDiagram.GlobalIDs *: [str](https://docs.python.org/3/library/stdtypes.html#str) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the GlobalIDs.
 
@@ -253,7 +253,7 @@ Gets or sets the GraphControlsXAxis.
 
 <a id="AccelerationWaterfallDiagram.Identifier"></a>
 
-### *property* AccelerationWaterfallDiagram.Identifier *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AccelerationWaterfallDiagram.Identifier *: [str](https://docs.python.org/3/library/stdtypes.html#str) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Identifier.
 
@@ -261,7 +261,7 @@ Gets or sets the Identifier.
 
 <a id="AccelerationWaterfallDiagram.Images"></a>
 
-### *property* AccelerationWaterfallDiagram.Images *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Image](../../../../../../../v241/Ansys/ACT/Automation/Mechanical/Image.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AccelerationWaterfallDiagram.Images *: Iterable[[Ansys.ACT.Automation.Mechanical.Image](../../Image.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated images.
 
@@ -277,7 +277,7 @@ Gets the internal object. For advanced usage only.
 
 <a id="AccelerationWaterfallDiagram.IsSolved"></a>
 
-### *property* AccelerationWaterfallDiagram.IsSolved *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AccelerationWaterfallDiagram.IsSolved *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the IsSolved.
 
@@ -293,7 +293,7 @@ Gets or sets the ItemType.
 
 <a id="AccelerationWaterfallDiagram.IterationNumber"></a>
 
-### *property* AccelerationWaterfallDiagram.IterationNumber *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AccelerationWaterfallDiagram.IterationNumber *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the IterationNumber.
 
@@ -301,7 +301,7 @@ Gets the IterationNumber.
 
 <a id="AccelerationWaterfallDiagram.LoadStep"></a>
 
-### *property* AccelerationWaterfallDiagram.LoadStep *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AccelerationWaterfallDiagram.LoadStep *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the LoadStep.
 
@@ -309,7 +309,7 @@ Gets the LoadStep.
 
 <a id="AccelerationWaterfallDiagram.LoadStepForMaximumOfMaximumValues"></a>
 
-### *property* AccelerationWaterfallDiagram.LoadStepForMaximumOfMaximumValues *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AccelerationWaterfallDiagram.LoadStepForMaximumOfMaximumValues *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Get the Load Step for the maximum of maximum values.
 
@@ -317,7 +317,7 @@ Get the Load Step for the maximum of maximum values.
 
 <a id="AccelerationWaterfallDiagram.LoadStepForMaximumOfMinimumValues"></a>
 
-### *property* AccelerationWaterfallDiagram.LoadStepForMaximumOfMinimumValues *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AccelerationWaterfallDiagram.LoadStepForMaximumOfMinimumValues *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Get the Load Step for the maximum of minimum values.
 
@@ -325,7 +325,7 @@ Get the Load Step for the maximum of minimum values.
 
 <a id="AccelerationWaterfallDiagram.LoadStepForMinimumOfMaximumValues"></a>
 
-### *property* AccelerationWaterfallDiagram.LoadStepForMinimumOfMaximumValues *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AccelerationWaterfallDiagram.LoadStepForMinimumOfMaximumValues *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Get the Load Step for the minimum of maximum values.
 
@@ -333,7 +333,7 @@ Get the Load Step for the minimum of maximum values.
 
 <a id="AccelerationWaterfallDiagram.LoadStepForMinimumOfMinimumValues"></a>
 
-### *property* AccelerationWaterfallDiagram.LoadStepForMinimumOfMinimumValues *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AccelerationWaterfallDiagram.LoadStepForMinimumOfMinimumValues *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Get the Load Step for the minimum of minimum values.
 
@@ -341,7 +341,7 @@ Get the Load Step for the minimum of minimum values.
 
 <a id="AccelerationWaterfallDiagram.LoadStepNumber"></a>
 
-### *property* AccelerationWaterfallDiagram.LoadStepNumber *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AccelerationWaterfallDiagram.LoadStepNumber *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the LoadStepNumber.
 
@@ -365,7 +365,7 @@ Gets the Maximum.
 
 <a id="AccelerationWaterfallDiagram.MaximumOccursOn"></a>
 
-### *property* AccelerationWaterfallDiagram.MaximumOccursOn *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AccelerationWaterfallDiagram.MaximumOccursOn *: [str](https://docs.python.org/3/library/stdtypes.html#str) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the MaximumOccursOn.
 
@@ -397,7 +397,7 @@ Gets the Minimum.
 
 <a id="AccelerationWaterfallDiagram.MinimumOccursOn"></a>
 
-### *property* AccelerationWaterfallDiagram.MinimumOccursOn *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AccelerationWaterfallDiagram.MinimumOccursOn *: [str](https://docs.python.org/3/library/stdtypes.html#str) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the MinimumOccursOn.
 
@@ -421,7 +421,7 @@ Gets the MinimumOfMinimumOverTime.
 
 <a id="AccelerationWaterfallDiagram.NamedSelections"></a>
 
-### *property* AccelerationWaterfallDiagram.NamedSelections *: System.Collections.Generic.IEnumerable[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AccelerationWaterfallDiagram.NamedSelections *: Iterable[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the NamedSelections.
 
@@ -437,7 +437,7 @@ Gets or sets the NormalOrientation.
 
 <a id="AccelerationWaterfallDiagram.PanelContribution"></a>
 
-### *property* AccelerationWaterfallDiagram.PanelContribution *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AccelerationWaterfallDiagram.PanelContribution *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the PanelContribution.
 
@@ -445,7 +445,7 @@ Gets or sets the PanelContribution.
 
 <a id="AccelerationWaterfallDiagram.PanelsToDisplay"></a>
 
-### *property* AccelerationWaterfallDiagram.PanelsToDisplay *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AccelerationWaterfallDiagram.PanelsToDisplay *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the PanelsToDisplay.
 
@@ -469,7 +469,7 @@ Gets the result table.
 
 <a id="AccelerationWaterfallDiagram.Properties"></a>
 
-### *property* AccelerationWaterfallDiagram.Properties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AccelerationWaterfallDiagram.Properties *: [tuple](https://docs.python.org/3/library/stdtypes.html#tuple)[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of properties for this object.
 
@@ -501,7 +501,7 @@ Gets or sets the STFTMinFreqResolution.
 
 <a id="AccelerationWaterfallDiagram.STFTNumberSlice"></a>
 
-### *property* AccelerationWaterfallDiagram.STFTNumberSlice *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AccelerationWaterfallDiagram.STFTNumberSlice *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the STFTNumberSlice.
 
@@ -509,7 +509,7 @@ Gets or sets the STFTNumberSlice.
 
 <a id="AccelerationWaterfallDiagram.STFTOverlap"></a>
 
-### *property* AccelerationWaterfallDiagram.STFTOverlap *: System.Double | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AccelerationWaterfallDiagram.STFTOverlap *: [float](https://docs.python.org/3/library/functions.html#float) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the STFTOverlap.
 
@@ -541,7 +541,7 @@ Gets or sets the ScopingMethod.
 
 <a id="AccelerationWaterfallDiagram.SetNumber"></a>
 
-### *property* AccelerationWaterfallDiagram.SetNumber *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AccelerationWaterfallDiagram.SetNumber *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Set Number.
 
@@ -557,7 +557,7 @@ Gets or sets the SolutionCombinationDriver.
 
 <a id="AccelerationWaterfallDiagram.SolverComponentIDs"></a>
 
-### *property* AccelerationWaterfallDiagram.SolverComponentIDs *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AccelerationWaterfallDiagram.SolverComponentIDs *: [str](https://docs.python.org/3/library/stdtypes.html#str) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the SolverComponentIDs.
 
@@ -573,7 +573,7 @@ Gets or sets the SpatialResolution.
 
 <a id="AccelerationWaterfallDiagram.Substep"></a>
 
-### *property* AccelerationWaterfallDiagram.Substep *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AccelerationWaterfallDiagram.Substep *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the Substep.
 
@@ -581,7 +581,7 @@ Gets the Substep.
 
 <a id="AccelerationWaterfallDiagram.Suppressed"></a>
 
-### *property* AccelerationWaterfallDiagram.Suppressed *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AccelerationWaterfallDiagram.Suppressed *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Suppressed.
 
@@ -645,7 +645,7 @@ Get the Time for the minimum of minimum values.
 
 <a id="AccelerationWaterfallDiagram.VisibleProperties"></a>
 
-### *property* AccelerationWaterfallDiagram.VisibleProperties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AccelerationWaterfallDiagram.VisibleProperties *: [tuple](https://docs.python.org/3/library/stdtypes.html#tuple)[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of properties that are visible for this object.
 
@@ -653,7 +653,7 @@ Gets the list of properties that are visible for this object.
 
 <a id="AccelerationWaterfallDiagram.WaterfallShowTextOnMosaic"></a>
 
-### *property* AccelerationWaterfallDiagram.WaterfallShowTextOnMosaic *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AccelerationWaterfallDiagram.WaterfallShowTextOnMosaic *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Waterfall Mosaic Text Property.
 
@@ -705,7 +705,7 @@ Creates a new child Figure.
 
 <a id="AccelerationWaterfallDiagram.AddImage"></a>
 
-### AccelerationWaterfallDiagram.AddImage(filePath: System.String)
+### AccelerationWaterfallDiagram.AddImage(filePath: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 ```text
 Creates a new child Image.
@@ -733,7 +733,7 @@ Copies all visible properties from this object to another.
 
 <a id="AccelerationWaterfallDiagram.CreateParameter"></a>
 
-### AccelerationWaterfallDiagram.CreateParameter(propName: System.String)
+### AccelerationWaterfallDiagram.CreateParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 CreateParameter method.
 
@@ -781,7 +781,7 @@ Run the EvaluateAllResults action.
 
 <a id="AccelerationWaterfallDiagram.ExportAnimation"></a>
 
-### AccelerationWaterfallDiagram.ExportAnimation(filePath: System.String, format: [Ansys.Mechanical.DataModel.Enums.GraphicsAnimationExportFormat](../../../../../Mechanical/DataModel/Enums/GraphicsAnimationExportFormat.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.GraphicsAnimationExportFormat), settings: [Ansys.Mechanical.Graphics.AnimationExportSettings](../../../../../Mechanical/Graphics/AnimationExportSettings.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.Graphics.AnimationExportSettings))
+### AccelerationWaterfallDiagram.ExportAnimation(filePath: [str](https://docs.python.org/3/library/stdtypes.html#str), format: [Ansys.Mechanical.DataModel.Enums.GraphicsAnimationExportFormat](../../../../../Mechanical/DataModel/Enums/GraphicsAnimationExportFormat.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.GraphicsAnimationExportFormat), settings: [Ansys.Mechanical.Graphics.AnimationExportSettings](../../../../../Mechanical/Graphics/AnimationExportSettings.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.Graphics.AnimationExportSettings))
 
 Run the ExportAnimation action.
 
@@ -789,7 +789,7 @@ Run the ExportAnimation action.
 
 <a id="AccelerationWaterfallDiagram.ExportToTextFile"></a>
 
-### AccelerationWaterfallDiagram.ExportToTextFile(filePath: System.String)
+### AccelerationWaterfallDiagram.ExportToTextFile(filePath: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Run the ExportToTextFile action.
 
@@ -805,7 +805,7 @@ Run the FetchRemoteResult action.
 
 <a id="AccelerationWaterfallDiagram.GetChildren"></a>
 
-### AccelerationWaterfallDiagram.GetChildren(recurses: System.Boolean, children: System.Collections.Generic.IList[ChildrenType])
+### AccelerationWaterfallDiagram.GetChildren(recurses: [bool](https://docs.python.org/3/library/functions.html#bool), children: List[ChildrenType])
 
 Gets the list of children, filtered by type.
 
@@ -813,7 +813,7 @@ Gets the list of children, filtered by type.
 
 <a id="AccelerationWaterfallDiagram.GetParameter"></a>
 
-### AccelerationWaterfallDiagram.GetParameter(propName: System.String)
+### AccelerationWaterfallDiagram.GetParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Gets the parameter corresponding to the given property.
 
@@ -845,7 +845,7 @@ Run the PromoteToNamedSelection action.
 
 <a id="AccelerationWaterfallDiagram.PropertyByAPIName"></a>
 
-### AccelerationWaterfallDiagram.PropertyByAPIName(name: System.String)
+### AccelerationWaterfallDiagram.PropertyByAPIName(name: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 ```text
 Get a property by its API name.
@@ -856,7 +856,7 @@ If multiple properties have the same API Name, only the first property with that
 
 <a id="AccelerationWaterfallDiagram.PropertyByName"></a>
 
-### AccelerationWaterfallDiagram.PropertyByName(name: System.String)
+### AccelerationWaterfallDiagram.PropertyByName(name: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Get a property by its unique name.
 
@@ -864,7 +864,7 @@ Get a property by its unique name.
 
 <a id="AccelerationWaterfallDiagram.RemoveParameter"></a>
 
-### AccelerationWaterfallDiagram.RemoveParameter(propName: System.String)
+### AccelerationWaterfallDiagram.RemoveParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Removes the parameter from the parameter set corresponding to the given property.
 

@@ -43,7 +43,7 @@ Defines the configuration for the Maximum Stress failure criterion for reinforce
 
 <a id="MaximumStressSettings.EvaluateMaterialOneDirectionFailure"></a>
 
-### *property* MaximumStressSettings.EvaluateMaterialOneDirectionFailure *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* MaximumStressSettings.EvaluateMaterialOneDirectionFailure *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets whether the failure criterion is evaluated in the material 1 direction.
 : The corresponding failure label is ‘s1’.
@@ -52,7 +52,7 @@ Gets or sets whether the failure criterion is evaluated in the material 1 direct
 
 <a id="MaximumStressSettings.EvaluateMaterialThreeDirectionFailure"></a>
 
-### *property* MaximumStressSettings.EvaluateMaterialThreeDirectionFailure *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* MaximumStressSettings.EvaluateMaterialThreeDirectionFailure *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets whether the failure criterion is evaluated in the out-of-plane direction.
 : The corresponding failure label is ‘s3’.
@@ -61,7 +61,7 @@ Gets or sets whether the failure criterion is evaluated in the out-of-plane dire
 
 <a id="MaximumStressSettings.EvaluateMaterialTwoDirectionFailure"></a>
 
-### *property* MaximumStressSettings.EvaluateMaterialTwoDirectionFailure *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* MaximumStressSettings.EvaluateMaterialTwoDirectionFailure *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets whether the failure criterion is evaluated in the material 2 direction.
 : The corresponding failure label is ‘s2’.
@@ -70,7 +70,7 @@ Gets or sets whether the failure criterion is evaluated in the material 2 direct
 
 <a id="MaximumStressSettings.EvaluateShearOneThreeFailure"></a>
 
-### *property* MaximumStressSettings.EvaluateShearOneThreeFailure *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* MaximumStressSettings.EvaluateShearOneThreeFailure *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets whether failure is evaluated for the out-of-plane shear s13.
 : The corresponding failure label is ‘s13’.
@@ -79,7 +79,7 @@ Gets or sets whether failure is evaluated for the out-of-plane shear s13.
 
 <a id="MaximumStressSettings.EvaluateShearOneTwoFailure"></a>
 
-### *property* MaximumStressSettings.EvaluateShearOneTwoFailure *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* MaximumStressSettings.EvaluateShearOneTwoFailure *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets whether failure is evaluated for the in-plane shear s12.
 : The corresponding failure label is ‘s12’.
@@ -88,7 +88,7 @@ Gets or sets whether failure is evaluated for the in-plane shear s12.
 
 <a id="MaximumStressSettings.EvaluateShearTwoThreeFailure"></a>
 
-### *property* MaximumStressSettings.EvaluateShearTwoThreeFailure *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* MaximumStressSettings.EvaluateShearTwoThreeFailure *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets whether failure is evaluated for the out-of-plane shear s23.
 : The corresponding failure label is ‘s23’.
@@ -97,7 +97,7 @@ Gets or sets whether failure is evaluated for the out-of-plane shear s23.
 
 <a id="MaximumStressSettings.MaterialOneDirectionFailureWeightingFactor"></a>
 
-### *property* MaximumStressSettings.MaterialOneDirectionFailureWeightingFactor *: System.Double | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* MaximumStressSettings.MaterialOneDirectionFailureWeightingFactor *: [float](https://docs.python.org/3/library/functions.html#float) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the weighting factor for the failure criterion in the material 1 direction.
 
@@ -105,7 +105,7 @@ Gets or sets the weighting factor for the failure criterion in the material 1 di
 
 <a id="MaximumStressSettings.MaterialThreeDirectionFailureWeightingFactor"></a>
 
-### *property* MaximumStressSettings.MaterialThreeDirectionFailureWeightingFactor *: System.Double | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* MaximumStressSettings.MaterialThreeDirectionFailureWeightingFactor *: [float](https://docs.python.org/3/library/functions.html#float) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the weighting factor for the failure criterion in the out-of-plane direction.
 
@@ -113,7 +113,7 @@ Gets or sets the weighting factor for the failure criterion in the out-of-plane 
 
 <a id="MaximumStressSettings.MaterialTwoDirectionFailureWeightingFactor"></a>
 
-### *property* MaximumStressSettings.MaterialTwoDirectionFailureWeightingFactor *: System.Double | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* MaximumStressSettings.MaterialTwoDirectionFailureWeightingFactor *: [float](https://docs.python.org/3/library/functions.html#float) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the weighting factor for the failure criterion in the material 2 direction.
 
@@ -121,7 +121,7 @@ Gets or sets the weighting factor for the failure criterion in the material 2 di
 
 <a id="MaximumStressSettings.ShearOneThreeFailureWeightingFactor"></a>
 
-### *property* MaximumStressSettings.ShearOneThreeFailureWeightingFactor *: System.Double | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* MaximumStressSettings.ShearOneThreeFailureWeightingFactor *: [float](https://docs.python.org/3/library/functions.html#float) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the weighting factor for failure due to out-of-plane shear s13.
 
@@ -129,7 +129,7 @@ Gets or sets the weighting factor for failure due to out-of-plane shear s13.
 
 <a id="MaximumStressSettings.ShearOneTwoFailureWeightingFactor"></a>
 
-### *property* MaximumStressSettings.ShearOneTwoFailureWeightingFactor *: System.Double | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* MaximumStressSettings.ShearOneTwoFailureWeightingFactor *: [float](https://docs.python.org/3/library/functions.html#float) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the weighting factor for failure due to in-plane shear s12.
 
@@ -137,7 +137,7 @@ Gets or sets the weighting factor for failure due to in-plane shear s12.
 
 <a id="MaximumStressSettings.ShearTwoThreeFailureWeightingFactor"></a>
 
-### *property* MaximumStressSettings.ShearTwoThreeFailureWeightingFactor *: System.Double | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* MaximumStressSettings.ShearTwoThreeFailureWeightingFactor *: [float](https://docs.python.org/3/library/functions.html#float) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the weighting factor for failure due to out-of-plane shear s23.
 

@@ -17,7 +17,7 @@ Specifies the ConnectionScopingType.
 ### Attributes
 
 | Name |
-| ------------------------------------------------------------------------------------------------------------------------------------ |
+| ------------------------------------------------------- |
 | [`BodyToBody`](#ConnectionScopingType.BodyToBody) |
 | [`BodyToGround`](#ConnectionScopingType.BodyToGround) |
 

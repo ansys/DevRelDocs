@@ -40,7 +40,7 @@ The class representing solve process settings.
 
 <a id="SolveProcessSettings.AdditionalCommandLineArguments"></a>
 
-### *property* SolveProcessSettings.AdditionalCommandLineArguments *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* SolveProcessSettings.AdditionalCommandLineArguments *: [str](https://docs.python.org/3/library/stdtypes.html#str) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Any additional command line arguments to give to the solver.
 
@@ -48,7 +48,7 @@ Any additional command line arguments to give to the solver.
 
 <a id="SolveProcessSettings.CustomExecutablePath"></a>
 
-### *property* SolveProcessSettings.CustomExecutablePath *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* SolveProcessSettings.CustomExecutablePath *: [str](https://docs.python.org/3/library/stdtypes.html#str) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 The custom executable path for user programmable features in the solver.
 
@@ -56,7 +56,7 @@ The custom executable path for user programmable features in the solver.
 
 <a id="SolveProcessSettings.DCSAutoDownloadResults"></a>
 
-### *property* SolveProcessSettings.DCSAutoDownloadResults *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* SolveProcessSettings.DCSAutoDownloadResults *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Whether results need to be automatically downloaded for DCS job after completion.
 
@@ -64,7 +64,7 @@ Whether results need to be automatically downloaded for DCS job after completion
 
 <a id="SolveProcessSettings.DistributeSolution"></a>
 
-### *property* SolveProcessSettings.DistributeSolution *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* SolveProcessSettings.DistributeSolution *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Whether to run the solution in distributed mode.
 
@@ -72,7 +72,7 @@ Whether to run the solution in distributed mode.
 
 <a id="SolveProcessSettings.GPUAccelerationDevice"></a>
 
-### *property* SolveProcessSettings.GPUAccelerationDevice *: [Ansys.Mechanical.DataModel.Enums.GPUAccelerationDevicesType](../../../../../../v242/Ansys/Mechanical/DataModel/Enums/GPUAccelerationDevicesType.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.GPUAccelerationDevicesType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* SolveProcessSettings.GPUAccelerationDevice *: [Ansys.Mechanical.DataModel.Enums.GPUAccelerationDevicesType](../../../../Mechanical/DataModel/Enums/GPUAccelerationDevicesType.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.GPUAccelerationDevicesType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 The GPU Acceleration device the solver will use.
 
@@ -80,7 +80,7 @@ The GPU Acceleration device the solver will use.
 
 <a id="SolveProcessSettings.HybridParallel"></a>
 
-### *property* SolveProcessSettings.HybridParallel *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* SolveProcessSettings.HybridParallel *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Whether to run the solution in hybrid parallel.
 
@@ -88,7 +88,7 @@ Whether to run the solution in hybrid parallel.
 
 <a id="SolveProcessSettings.LicenseQueuing"></a>
 
-### *property* SolveProcessSettings.LicenseQueuing *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* SolveProcessSettings.LicenseQueuing *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Whether license queueing is active.
 
@@ -96,7 +96,7 @@ Whether license queueing is active.
 
 <a id="SolveProcessSettings.ManualLinuxSettings"></a>
 
-### *property* SolveProcessSettings.ManualLinuxSettings *: [Ansys.ACT.Mechanical.Application.SolveProcessSettings.LinuxSettings](../../../../../../v242/Ansys/ACT/Mechanical/Application/SolveProcessSettings/LinuxSettings.md#ansys.mechanical.stubs.v242.Ansys.ACT.Mechanical.Application.SolveProcessSettings.LinuxSettings) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* SolveProcessSettings.ManualLinuxSettings *: [Ansys.ACT.Mechanical.Application.SolveProcessSettings.LinuxSettings](LinuxSettings.md#ansys.mechanical.stubs.v241.Ansys.ACT.Mechanical.Application.SolveProcessSettings.LinuxSettings) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Returns the manual linux settings.
 
@@ -104,7 +104,7 @@ Returns the manual linux settings.
 
 <a id="SolveProcessSettings.ManualSolverMemorySettings"></a>
 
-### *property* SolveProcessSettings.ManualSolverMemorySettings *: [Ansys.ACT.Mechanical.Application.SolveProcessSettings.SolverMemorySettings](../../../../../../v242/Ansys/ACT/Mechanical/Application/SolveProcessSettings/SolverMemorySettings.md#ansys.mechanical.stubs.v242.Ansys.ACT.Mechanical.Application.SolveProcessSettings.SolverMemorySettings) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* SolveProcessSettings.ManualSolverMemorySettings *: [Ansys.ACT.Mechanical.Application.SolveProcessSettings.SolverMemorySettings](SolverMemorySettings.md#ansys.mechanical.stubs.v241.Ansys.ACT.Mechanical.Application.SolveProcessSettings.SolverMemorySettings) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Returns the manual solver memory settings.
 
@@ -112,7 +112,7 @@ Returns the manual solver memory settings.
 
 <a id="SolveProcessSettings.MaxNumberOfCores"></a>
 
-### *property* SolveProcessSettings.MaxNumberOfCores *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* SolveProcessSettings.MaxNumberOfCores *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 The maximum number of cores the solver will use.
 
@@ -120,7 +120,7 @@ The maximum number of cores the solver will use.
 
 <a id="SolveProcessSettings.NumberOfGPUDevices"></a>
 
-### *property* SolveProcessSettings.NumberOfGPUDevices *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* SolveProcessSettings.NumberOfGPUDevices *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 The number of GPU devices.
 
@@ -128,7 +128,7 @@ The number of GPU devices.
 
 <a id="SolveProcessSettings.NumberOfProcesses"></a>
 
-### *property* SolveProcessSettings.NumberOfProcesses *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* SolveProcessSettings.NumberOfProcesses *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 The number of processes the solver will use.
 
@@ -136,7 +136,7 @@ The number of processes the solver will use.
 
 <a id="SolveProcessSettings.SolveInSynchronousMode"></a>
 
-### *property* SolveProcessSettings.SolveInSynchronousMode *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* SolveProcessSettings.SolveInSynchronousMode *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Whether the solve will be in synchronous mode.
 
@@ -144,7 +144,7 @@ Whether the solve will be in synchronous mode.
 
 <a id="SolveProcessSettings.ThreadsPerProcess"></a>
 
-### *property* SolveProcessSettings.ThreadsPerProcess *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* SolveProcessSettings.ThreadsPerProcess *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 The threads per process the solver will use.
 
@@ -152,7 +152,7 @@ The threads per process the solver will use.
 
 <a id="SolveProcessSettings.UseSharedLicense"></a>
 
-### *property* SolveProcessSettings.UseSharedLicense *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* SolveProcessSettings.UseSharedLicense *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Whether the solver will use a shared license.
 

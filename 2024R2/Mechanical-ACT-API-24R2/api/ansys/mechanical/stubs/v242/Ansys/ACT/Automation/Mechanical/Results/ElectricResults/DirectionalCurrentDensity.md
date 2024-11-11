@@ -17,7 +17,7 @@ Defines a DirectionalCurrentDensity.
 ### Methods
 
 | Name | Description |
-|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------|
+|---------------------------------------------------------------------------------|-----------------------------------------------------------------------------------|
 | [`Activate`](#DirectionalCurrentDensity.Activate)                               | Activate the current object.                                                      |
 | [`AddAlert`](#DirectionalCurrentDensity.AddAlert)                               | Creates a new Alert                                                               |
 | [`AddComment`](#DirectionalCurrentDensity.AddComment)                           | Creates a new child Comment.                                                      |
@@ -48,7 +48,7 @@ Defines a DirectionalCurrentDensity.
 ### Properties
 
 | Name | Description |
-|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------|
+|-----------------------------------------------------------------------------------------------------|------------------------------------------------------------------------|
 | [`Amplitude`](#DirectionalCurrentDensity.Amplitude)                                                 | Gets or sets the Amplitude.                                            |
 | [`Average`](#DirectionalCurrentDensity.Average)                                                     | Gets the Average.                                                      |
 | [`AverageAcrossBodies`](#DirectionalCurrentDensity.AverageAcrossBodies)                             | Gets or sets the AverageAcrossBodies.                                  |
@@ -103,7 +103,7 @@ Defines a DirectionalCurrentDensity.
 | [`Substep`](#DirectionalCurrentDensity.Substep)                                                     | Gets the Substep.                                                      |
 | [`Suppressed`](#DirectionalCurrentDensity.Suppressed)                                               | Gets or sets the Suppressed.                                           |
 | [`Surface`](#DirectionalCurrentDensity.Surface)                                                     | Surface property.                                                      |
-| [`SurfaceCoating`](#DirectionalCurrentDensity.SurfaceCoating)                                                                                                                                                     | SurfaceCoating property.                                               |
+| [`SurfaceCoating`](#DirectionalCurrentDensity.SurfaceCoating)                                       | SurfaceCoating property.                                               |
 | [`SweepingPhase`](#DirectionalCurrentDensity.SweepingPhase)                                         | Gets or sets the SweepingPhase.                                        |
 | [`Time`](#DirectionalCurrentDensity.Time)                                                           | Gets the Time.                                                         |
 | [`TimeForMaximumOfMaximumValues`](#DirectionalCurrentDensity.TimeForMaximumOfMaximumValues)         | Get the Time for the maximum of maximum values.                        |
@@ -111,7 +111,7 @@ Defines a DirectionalCurrentDensity.
 | [`TimeForMinimumOfMaximumValues`](#DirectionalCurrentDensity.TimeForMinimumOfMaximumValues)         | Get the Time for the minimum of maximum values.                        |
 | [`TimeForMinimumOfMinimumValues`](#DirectionalCurrentDensity.TimeForMinimumOfMinimumValues)         | Get the Time for the minimum of minimum values.                        |
 | [`VisibleProperties`](#DirectionalCurrentDensity.VisibleProperties)                                 | Gets the list of properties that are visible for this object.          |
-| [`WaterfallShowTextOnMosaic`](#DirectionalCurrentDensity.WaterfallShowTextOnMosaic)                                                                                                                               | Gets or sets the Waterfall Mosaic Text Property.                       |
+| [`WaterfallShowTextOnMosaic`](#DirectionalCurrentDensity.WaterfallShowTextOnMosaic)                 | Gets or sets the Waterfall Mosaic Text Property.                       |
 
 <a id="property-detail"></a>
 
@@ -119,7 +119,7 @@ Defines a DirectionalCurrentDensity.
 
 <a id="DirectionalCurrentDensity.Amplitude"></a>
 
-### *property* DirectionalCurrentDensity.Amplitude *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* DirectionalCurrentDensity.Amplitude *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Amplitude.
 
@@ -135,7 +135,7 @@ Gets the Average.
 
 <a id="DirectionalCurrentDensity.AverageAcrossBodies"></a>
 
-### *property* DirectionalCurrentDensity.AverageAcrossBodies *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* DirectionalCurrentDensity.AverageAcrossBodies *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the AverageAcrossBodies.
 
@@ -151,7 +151,7 @@ Gets or sets the By.
 
 <a id="DirectionalCurrentDensity.CalculateTimeHistory"></a>
 
-### *property* DirectionalCurrentDensity.CalculateTimeHistory *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* DirectionalCurrentDensity.CalculateTimeHistory *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the CalculateTimeHistory.
 
@@ -159,7 +159,7 @@ Gets or sets the CalculateTimeHistory.
 
 <a id="DirectionalCurrentDensity.Children"></a>
 
-### *property* DirectionalCurrentDensity.Children *: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* DirectionalCurrentDensity.Children *: List[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of children.
 
@@ -167,7 +167,7 @@ Gets the list of children.
 
 <a id="DirectionalCurrentDensity.CombinationNumber"></a>
 
-### *property* DirectionalCurrentDensity.CombinationNumber *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* DirectionalCurrentDensity.CombinationNumber *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Combination Number for a Solution Combination result.
 
@@ -175,7 +175,7 @@ Gets or sets the Combination Number for a Solution Combination result.
 
 <a id="DirectionalCurrentDensity.Comments"></a>
 
-### *property* DirectionalCurrentDensity.Comments *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Comment](../../../../../../../v241/Ansys/ACT/Automation/Mechanical/Comment.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* DirectionalCurrentDensity.Comments *: Iterable[[Ansys.ACT.Automation.Mechanical.Comment](../../Comment.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated comments.
 
@@ -183,7 +183,7 @@ Gets the list of associated comments.
 
 <a id="DirectionalCurrentDensity.CoordinateSystem"></a>
 
-### *property* DirectionalCurrentDensity.CoordinateSystem *: [Ansys.ACT.Automation.Mechanical.CoordinateSystem](../../../../../../../v241/Ansys/ACT/Automation/Mechanical/CoordinateSystem.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.CoordinateSystem) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* DirectionalCurrentDensity.CoordinateSystem *: [Ansys.ACT.Automation.Mechanical.CoordinateSystem](../../CoordinateSystem.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.CoordinateSystem) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Coordinate System.
 Accepts/Returns None for Solution Coordinate System in the general case (if applicable).
@@ -193,7 +193,7 @@ Accepts/Returns None for Fiber Coordinate System for a result that is sub scoped
 
 <a id="DirectionalCurrentDensity.CrackFrontNumber"></a>
 
-### *property* DirectionalCurrentDensity.CrackFrontNumber *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* DirectionalCurrentDensity.CrackFrontNumber *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the CrackFrontNumber.
 
@@ -241,7 +241,7 @@ Gets or sets the ElectricResultType.
 
 <a id="DirectionalCurrentDensity.Figures"></a>
 
-### *property* DirectionalCurrentDensity.Figures *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Figure](../../../../../../../v241/Ansys/ACT/Automation/Mechanical/Figure.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* DirectionalCurrentDensity.Figures *: Iterable[[Ansys.ACT.Automation.Mechanical.Figure](../../Figure.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated figures.
 
@@ -257,7 +257,7 @@ Gets or sets the Frequency.
 
 <a id="DirectionalCurrentDensity.GlobalIDs"></a>
 
-### *property* DirectionalCurrentDensity.GlobalIDs *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* DirectionalCurrentDensity.GlobalIDs *: [str](https://docs.python.org/3/library/stdtypes.html#str) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the GlobalIDs.
 
@@ -273,7 +273,7 @@ Gets or sets the GraphControlsXAxis.
 
 <a id="DirectionalCurrentDensity.Identifier"></a>
 
-### *property* DirectionalCurrentDensity.Identifier *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* DirectionalCurrentDensity.Identifier *: [str](https://docs.python.org/3/library/stdtypes.html#str) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Identifier.
 
@@ -281,7 +281,7 @@ Gets or sets the Identifier.
 
 <a id="DirectionalCurrentDensity.Images"></a>
 
-### *property* DirectionalCurrentDensity.Images *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Image](../../../../../../../v241/Ansys/ACT/Automation/Mechanical/Image.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* DirectionalCurrentDensity.Images *: Iterable[[Ansys.ACT.Automation.Mechanical.Image](../../Image.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated images.
 
@@ -297,7 +297,7 @@ Gets the internal object. For advanced usage only.
 
 <a id="DirectionalCurrentDensity.IsSolved"></a>
 
-### *property* DirectionalCurrentDensity.IsSolved *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* DirectionalCurrentDensity.IsSolved *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the IsSolved.
 
@@ -313,7 +313,7 @@ Gets or sets the ItemType.
 
 <a id="DirectionalCurrentDensity.IterationNumber"></a>
 
-### *property* DirectionalCurrentDensity.IterationNumber *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* DirectionalCurrentDensity.IterationNumber *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the IterationNumber.
 
@@ -321,7 +321,7 @@ Gets the IterationNumber.
 
 <a id="DirectionalCurrentDensity.LoadStep"></a>
 
-### *property* DirectionalCurrentDensity.LoadStep *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* DirectionalCurrentDensity.LoadStep *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the LoadStep.
 
@@ -329,7 +329,7 @@ Gets the LoadStep.
 
 <a id="DirectionalCurrentDensity.LoadStepForMaximumOfMaximumValues"></a>
 
-### *property* DirectionalCurrentDensity.LoadStepForMaximumOfMaximumValues *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* DirectionalCurrentDensity.LoadStepForMaximumOfMaximumValues *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Get the Load Step for the maximum of maximum values.
 
@@ -337,7 +337,7 @@ Get the Load Step for the maximum of maximum values.
 
 <a id="DirectionalCurrentDensity.LoadStepForMaximumOfMinimumValues"></a>
 
-### *property* DirectionalCurrentDensity.LoadStepForMaximumOfMinimumValues *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* DirectionalCurrentDensity.LoadStepForMaximumOfMinimumValues *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Get the Load Step for the maximum of minimum values.
 
@@ -345,7 +345,7 @@ Get the Load Step for the maximum of minimum values.
 
 <a id="DirectionalCurrentDensity.LoadStepForMinimumOfMaximumValues"></a>
 
-### *property* DirectionalCurrentDensity.LoadStepForMinimumOfMaximumValues *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* DirectionalCurrentDensity.LoadStepForMinimumOfMaximumValues *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Get the Load Step for the minimum of maximum values.
 
@@ -353,7 +353,7 @@ Get the Load Step for the minimum of maximum values.
 
 <a id="DirectionalCurrentDensity.LoadStepForMinimumOfMinimumValues"></a>
 
-### *property* DirectionalCurrentDensity.LoadStepForMinimumOfMinimumValues *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* DirectionalCurrentDensity.LoadStepForMinimumOfMinimumValues *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Get the Load Step for the minimum of minimum values.
 
@@ -361,7 +361,7 @@ Get the Load Step for the minimum of minimum values.
 
 <a id="DirectionalCurrentDensity.LoadStepNumber"></a>
 
-### *property* DirectionalCurrentDensity.LoadStepNumber *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* DirectionalCurrentDensity.LoadStepNumber *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the LoadStepNumber.
 
@@ -385,7 +385,7 @@ Gets the Maximum.
 
 <a id="DirectionalCurrentDensity.MaximumOccursOn"></a>
 
-### *property* DirectionalCurrentDensity.MaximumOccursOn *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* DirectionalCurrentDensity.MaximumOccursOn *: [str](https://docs.python.org/3/library/stdtypes.html#str) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the MaximumOccursOn.
 
@@ -417,7 +417,7 @@ Gets the Minimum.
 
 <a id="DirectionalCurrentDensity.MinimumOccursOn"></a>
 
-### *property* DirectionalCurrentDensity.MinimumOccursOn *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* DirectionalCurrentDensity.MinimumOccursOn *: [str](https://docs.python.org/3/library/stdtypes.html#str) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the MinimumOccursOn.
 
@@ -441,7 +441,7 @@ Gets the MinimumOfMinimumOverTime.
 
 <a id="DirectionalCurrentDensity.NamedSelections"></a>
 
-### *property* DirectionalCurrentDensity.NamedSelections *: System.Collections.Generic.IEnumerable[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* DirectionalCurrentDensity.NamedSelections *: Iterable[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the NamedSelections.
 
@@ -481,7 +481,7 @@ Gets the result table.
 
 <a id="DirectionalCurrentDensity.Properties"></a>
 
-### *property* DirectionalCurrentDensity.Properties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* DirectionalCurrentDensity.Properties *: [tuple](https://docs.python.org/3/library/stdtypes.html#tuple)[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of properties for this object.
 
@@ -505,7 +505,7 @@ Gets or sets the ScopingMethod.
 
 <a id="DirectionalCurrentDensity.SetNumber"></a>
 
-### *property* DirectionalCurrentDensity.SetNumber *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* DirectionalCurrentDensity.SetNumber *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Set Number.
 
@@ -521,7 +521,7 @@ Gets or sets the SolutionCombinationDriver.
 
 <a id="DirectionalCurrentDensity.SolverComponentIDs"></a>
 
-### *property* DirectionalCurrentDensity.SolverComponentIDs *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* DirectionalCurrentDensity.SolverComponentIDs *: [str](https://docs.python.org/3/library/stdtypes.html#str) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the SolverComponentIDs.
 
@@ -529,7 +529,7 @@ Gets or sets the SolverComponentIDs.
 
 <a id="DirectionalCurrentDensity.Substep"></a>
 
-### *property* DirectionalCurrentDensity.Substep *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* DirectionalCurrentDensity.Substep *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the Substep.
 
@@ -537,7 +537,7 @@ Gets the Substep.
 
 <a id="DirectionalCurrentDensity.Suppressed"></a>
 
-### *property* DirectionalCurrentDensity.Suppressed *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* DirectionalCurrentDensity.Suppressed *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Suppressed.
 
@@ -609,7 +609,7 @@ Get the Time for the minimum of minimum values.
 
 <a id="DirectionalCurrentDensity.VisibleProperties"></a>
 
-### *property* DirectionalCurrentDensity.VisibleProperties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* DirectionalCurrentDensity.VisibleProperties *: [tuple](https://docs.python.org/3/library/stdtypes.html#tuple)[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of properties that are visible for this object.
 
@@ -617,7 +617,7 @@ Gets the list of properties that are visible for this object.
 
 <a id="DirectionalCurrentDensity.WaterfallShowTextOnMosaic"></a>
 
-### *property* DirectionalCurrentDensity.WaterfallShowTextOnMosaic *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* DirectionalCurrentDensity.WaterfallShowTextOnMosaic *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Waterfall Mosaic Text Property.
 
@@ -669,7 +669,7 @@ Creates a new child Figure.
 
 <a id="DirectionalCurrentDensity.AddImage"></a>
 
-### DirectionalCurrentDensity.AddImage(filePath: System.String)
+### DirectionalCurrentDensity.AddImage(filePath: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 ```text
 Creates a new child Image.
@@ -697,7 +697,7 @@ Copies all visible properties from this object to another.
 
 <a id="DirectionalCurrentDensity.CreateParameter"></a>
 
-### DirectionalCurrentDensity.CreateParameter(propName: System.String)
+### DirectionalCurrentDensity.CreateParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 CreateParameter method.
 
@@ -745,7 +745,7 @@ Run the EvaluateAllResults action.
 
 <a id="DirectionalCurrentDensity.ExportAnimation"></a>
 
-### DirectionalCurrentDensity.ExportAnimation(filePath: System.String, format: [Ansys.Mechanical.DataModel.Enums.GraphicsAnimationExportFormat](../../../../../Mechanical/DataModel/Enums/GraphicsAnimationExportFormat.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.GraphicsAnimationExportFormat), settings: [Ansys.Mechanical.Graphics.AnimationExportSettings](../../../../../Mechanical/Graphics/AnimationExportSettings.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.Graphics.AnimationExportSettings))
+### DirectionalCurrentDensity.ExportAnimation(filePath: [str](https://docs.python.org/3/library/stdtypes.html#str), format: [Ansys.Mechanical.DataModel.Enums.GraphicsAnimationExportFormat](../../../../../Mechanical/DataModel/Enums/GraphicsAnimationExportFormat.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.GraphicsAnimationExportFormat), settings: [Ansys.Mechanical.Graphics.AnimationExportSettings](../../../../../Mechanical/Graphics/AnimationExportSettings.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.Graphics.AnimationExportSettings))
 
 Run the ExportAnimation action.
 
@@ -753,7 +753,7 @@ Run the ExportAnimation action.
 
 <a id="DirectionalCurrentDensity.ExportToTextFile"></a>
 
-### DirectionalCurrentDensity.ExportToTextFile(filePath: System.String)
+### DirectionalCurrentDensity.ExportToTextFile(filePath: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Run the ExportToTextFile action.
 
@@ -769,7 +769,7 @@ Run the FetchRemoteResult action.
 
 <a id="DirectionalCurrentDensity.GetChildren"></a>
 
-### DirectionalCurrentDensity.GetChildren(recurses: System.Boolean, children: System.Collections.Generic.IList[ChildrenType])
+### DirectionalCurrentDensity.GetChildren(recurses: [bool](https://docs.python.org/3/library/functions.html#bool), children: List[ChildrenType])
 
 Gets the list of children, filtered by type.
 
@@ -777,7 +777,7 @@ Gets the list of children, filtered by type.
 
 <a id="DirectionalCurrentDensity.GetParameter"></a>
 
-### DirectionalCurrentDensity.GetParameter(propName: System.String)
+### DirectionalCurrentDensity.GetParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Gets the parameter corresponding to the given property.
 
@@ -809,7 +809,7 @@ Run the PromoteToNamedSelection action.
 
 <a id="DirectionalCurrentDensity.PropertyByAPIName"></a>
 
-### DirectionalCurrentDensity.PropertyByAPIName(name: System.String)
+### DirectionalCurrentDensity.PropertyByAPIName(name: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 ```text
 Get a property by its API name.
@@ -820,7 +820,7 @@ If multiple properties have the same API Name, only the first property with that
 
 <a id="DirectionalCurrentDensity.PropertyByName"></a>
 
-### DirectionalCurrentDensity.PropertyByName(name: System.String)
+### DirectionalCurrentDensity.PropertyByName(name: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Get a property by its unique name.
 
@@ -828,7 +828,7 @@ Get a property by its unique name.
 
 <a id="DirectionalCurrentDensity.RemoveParameter"></a>
 
-### DirectionalCurrentDensity.RemoveParameter(propName: System.String)
+### DirectionalCurrentDensity.RemoveParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Removes the parameter from the parameter set corresponding to the given property.
 

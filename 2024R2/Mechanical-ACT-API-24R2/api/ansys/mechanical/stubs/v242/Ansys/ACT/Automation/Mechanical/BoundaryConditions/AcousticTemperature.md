@@ -73,7 +73,7 @@ Defines a AcousticTemperature.
 
 <a id="AcousticTemperature.Children"></a>
 
-### *property* AcousticTemperature.Children *: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AcousticTemperature.Children *: List[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of children.
 
@@ -81,7 +81,7 @@ Gets the list of children.
 
 <a id="AcousticTemperature.Comments"></a>
 
-### *property* AcousticTemperature.Comments *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Comment](../../../../../../v241/Ansys/ACT/Automation/Mechanical/Comment.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AcousticTemperature.Comments *: Iterable[[Ansys.ACT.Automation.Mechanical.Comment](../Comment.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated comments.
 
@@ -105,7 +105,7 @@ Gets the DefineBy.
 
 <a id="AcousticTemperature.Figures"></a>
 
-### *property* AcousticTemperature.Figures *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Figure](../../../../../../v241/Ansys/ACT/Automation/Mechanical/Figure.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AcousticTemperature.Figures *: Iterable[[Ansys.ACT.Automation.Mechanical.Figure](../Figure.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated figures.
 
@@ -121,7 +121,7 @@ Gets or sets the GraphControlsXAxis.
 
 <a id="AcousticTemperature.Images"></a>
 
-### *property* AcousticTemperature.Images *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Image](../../../../../../v241/Ansys/ACT/Automation/Mechanical/Image.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AcousticTemperature.Images *: Iterable[[Ansys.ACT.Automation.Mechanical.Image](../Image.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated images.
 
@@ -153,7 +153,7 @@ Gets or sets the LoadVectorAssignment.
 
 <a id="AcousticTemperature.LoadVectorNumber"></a>
 
-### *property* AcousticTemperature.LoadVectorNumber *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AcousticTemperature.LoadVectorNumber *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the LoadVectorNumber.
 
@@ -169,7 +169,7 @@ Gets or sets the Location.
 
 <a id="AcousticTemperature.Magnitude"></a>
 
-### *property* AcousticTemperature.Magnitude *: System.Object | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AcousticTemperature.Magnitude *: Any | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Magnitude.
 
@@ -177,7 +177,7 @@ Gets or sets the Magnitude.
 
 <a id="AcousticTemperature.NumberOfSegments"></a>
 
-### *property* AcousticTemperature.NumberOfSegments *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AcousticTemperature.NumberOfSegments *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the NumberOfSegments.
 
@@ -185,7 +185,7 @@ Gets or sets the NumberOfSegments.
 
 <a id="AcousticTemperature.Properties"></a>
 
-### *property* AcousticTemperature.Properties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AcousticTemperature.Properties *: [tuple](https://docs.python.org/3/library/stdtypes.html#tuple)[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of properties for this object.
 
@@ -209,7 +209,7 @@ Gets or sets the RangeMinimum.
 
 <a id="AcousticTemperature.ReadOnly"></a>
 
-### *property* AcousticTemperature.ReadOnly *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AcousticTemperature.ReadOnly *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the ReadOnly.
 
@@ -217,7 +217,7 @@ Gets or sets the ReadOnly.
 
 <a id="AcousticTemperature.SharedRefBody"></a>
 
-### *property* AcousticTemperature.SharedRefBody *: [Ansys.ACT.Automation.Mechanical.Body](../../../../../../v241/Ansys/ACT/Automation/Mechanical/Body.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Body) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AcousticTemperature.SharedRefBody *: [Ansys.ACT.Automation.Mechanical.Body](../Body.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Body) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the SharedRefBody.
 
@@ -233,7 +233,7 @@ Gets or sets the ShellFace.
 
 <a id="AcousticTemperature.Suppressed"></a>
 
-### *property* AcousticTemperature.Suppressed *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AcousticTemperature.Suppressed *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Suppressed.
 
@@ -241,7 +241,7 @@ Gets or sets the Suppressed.
 
 <a id="AcousticTemperature.VisibleProperties"></a>
 
-### *property* AcousticTemperature.VisibleProperties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AcousticTemperature.VisibleProperties *: [tuple](https://docs.python.org/3/library/stdtypes.html#tuple)[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of properties that are visible for this object.
 
@@ -249,7 +249,7 @@ Gets the list of properties that are visible for this object.
 
 <a id="AcousticTemperature.XYZFunctionCoordinateSystem"></a>
 
-### *property* AcousticTemperature.XYZFunctionCoordinateSystem *: [Ansys.ACT.Automation.Mechanical.CoordinateSystem](../../../../../../v241/Ansys/ACT/Automation/Mechanical/CoordinateSystem.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.CoordinateSystem) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AcousticTemperature.XYZFunctionCoordinateSystem *: [Ansys.ACT.Automation.Mechanical.CoordinateSystem](../CoordinateSystem.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.CoordinateSystem) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the XYZFunctionCoordinateSystem.
 
@@ -285,7 +285,7 @@ Creates a new child Figure.
 
 <a id="AcousticTemperature.AddImage"></a>
 
-### AcousticTemperature.AddImage(filePath: System.String)
+### AcousticTemperature.AddImage(filePath: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 ```text
 Creates a new child Image.
@@ -305,7 +305,7 @@ Copies all visible properties from this object to another.
 
 <a id="AcousticTemperature.CreateParameter"></a>
 
-### AcousticTemperature.CreateParameter(propName: System.String)
+### AcousticTemperature.CreateParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Creates a new parameter for a Property.
 
@@ -329,7 +329,7 @@ Creates a copy of the current DataModelObject.
 
 <a id="AcousticTemperature.GetActivateAtLoadStep"></a>
 
-### AcousticTemperature.GetActivateAtLoadStep(stepNumber: System.UInt32)
+### AcousticTemperature.GetActivateAtLoadStep(stepNumber: [int](https://docs.python.org/3/library/functions.html#int))
 
 GetActivateAtLoadStep method.
 
@@ -337,7 +337,7 @@ GetActivateAtLoadStep method.
 
 <a id="AcousticTemperature.GetChildren"></a>
 
-### AcousticTemperature.GetChildren(recurses: System.Boolean, children: System.Collections.Generic.IList[ChildrenType])
+### AcousticTemperature.GetChildren(recurses: [bool](https://docs.python.org/3/library/functions.html#bool), children: List[ChildrenType])
 
 Gets the list of children, filtered by type.
 
@@ -345,7 +345,7 @@ Gets the list of children, filtered by type.
 
 <a id="AcousticTemperature.GetComponentActivateAtLoadStep"></a>
 
-### AcousticTemperature.GetComponentActivateAtLoadStep(component: System.String, stepNumber: System.UInt32)
+### AcousticTemperature.GetComponentActivateAtLoadStep(component: [str](https://docs.python.org/3/library/stdtypes.html#str), stepNumber: [int](https://docs.python.org/3/library/functions.html#int))
 
 GetComponentActivateAtLoadStep method.
 
@@ -353,7 +353,7 @@ GetComponentActivateAtLoadStep method.
 
 <a id="AcousticTemperature.GetParameter"></a>
 
-### AcousticTemperature.GetParameter(propName: System.String)
+### AcousticTemperature.GetParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Gets the parameter corresponding to the given property.
 
@@ -385,7 +385,7 @@ Run the PromoteToNamedSelection action.
 
 <a id="AcousticTemperature.PropertyByAPIName"></a>
 
-### AcousticTemperature.PropertyByAPIName(name: System.String)
+### AcousticTemperature.PropertyByAPIName(name: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 ```text
 Get a property by its API name.
@@ -396,7 +396,7 @@ If multiple properties have the same API Name, only the first property with that
 
 <a id="AcousticTemperature.PropertyByName"></a>
 
-### AcousticTemperature.PropertyByName(name: System.String)
+### AcousticTemperature.PropertyByName(name: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Get a property by its unique name.
 
@@ -404,7 +404,7 @@ Get a property by its unique name.
 
 <a id="AcousticTemperature.RemoveParameter"></a>
 
-### AcousticTemperature.RemoveParameter(propName: System.String)
+### AcousticTemperature.RemoveParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Removes the parameter from the parameter set corresponding to the given property.
 
@@ -412,7 +412,7 @@ Removes the parameter from the parameter set corresponding to the given property
 
 <a id="AcousticTemperature.SetActivateAtLoadStep"></a>
 
-### AcousticTemperature.SetActivateAtLoadStep(stepNumber: System.UInt32, bActive: System.Boolean)
+### AcousticTemperature.SetActivateAtLoadStep(stepNumber: [int](https://docs.python.org/3/library/functions.html#int), bActive: [bool](https://docs.python.org/3/library/functions.html#bool))
 
 SetActivateAtLoadStep method.
 
@@ -420,7 +420,7 @@ SetActivateAtLoadStep method.
 
 <a id="AcousticTemperature.SetComponentActivateAtLoadStep"></a>
 
-### AcousticTemperature.SetComponentActivateAtLoadStep(component: System.String, stepNumber: System.UInt32, bActive: System.Boolean)
+### AcousticTemperature.SetComponentActivateAtLoadStep(component: [str](https://docs.python.org/3/library/stdtypes.html#str), stepNumber: [int](https://docs.python.org/3/library/functions.html#int), bActive: [bool](https://docs.python.org/3/library/functions.html#bool))
 
 SetComponentActivateAtLoadStep method.
 

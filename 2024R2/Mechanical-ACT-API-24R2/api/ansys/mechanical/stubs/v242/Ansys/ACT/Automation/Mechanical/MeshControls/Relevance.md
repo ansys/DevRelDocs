@@ -17,7 +17,7 @@ Defines a Relevance.
 ### Methods
 
 | Name | Description |
-|-------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------|
+|-----------------------------------------------------------------|-----------------------------------------------------------------------------------|
 | [`Activate`](#Relevance.Activate)                               | Activate the current object.                                                      |
 | [`AddComment`](#Relevance.AddComment)                           | Creates a new child Comment.                                                      |
 | [`AddFigure`](#Relevance.AddFigure)                             | Creates a new child Figure.                                                       |
@@ -39,7 +39,7 @@ Defines a Relevance.
 ### Properties
 
 | Name | Description |
-|-------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------|
+|-----------------------------------------------------------------|---------------------------------------------------------------|
 | [`Children`](#Relevance.Children)                               | Gets the list of children.                                    |
 | [`Comments`](#Relevance.Comments)                               | Gets the list of associated comments.                         |
 | [`DataModelObjectCategory`](#Relevance.DataModelObjectCategory) | Gets the current DataModelObject’s category.                  |
@@ -60,7 +60,7 @@ Defines a Relevance.
 
 <a id="Relevance.Children"></a>
 
-### *property* Relevance.Children *: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Relevance.Children *: List[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of children.
 
@@ -68,7 +68,7 @@ Gets the list of children.
 
 <a id="Relevance.Comments"></a>
 
-### *property* Relevance.Comments *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Comment](../../../../../../v241/Ansys/ACT/Automation/Mechanical/Comment.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Relevance.Comments *: Iterable[[Ansys.ACT.Automation.Mechanical.Comment](../Comment.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated comments.
 
@@ -84,7 +84,7 @@ Gets the current DataModelObject’s category.
 
 <a id="Relevance.Figures"></a>
 
-### *property* Relevance.Figures *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Figure](../../../../../../v241/Ansys/ACT/Automation/Mechanical/Figure.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Relevance.Figures *: Iterable[[Ansys.ACT.Automation.Mechanical.Figure](../Figure.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated figures.
 
@@ -92,7 +92,7 @@ Gets the list of associated figures.
 
 <a id="Relevance.Images"></a>
 
-### *property* Relevance.Images *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Image](../../../../../../v241/Ansys/ACT/Automation/Mechanical/Image.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Relevance.Images *: Iterable[[Ansys.ACT.Automation.Mechanical.Image](../Image.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated images.
 
@@ -124,7 +124,7 @@ Gets or sets the NamedSelection.
 
 <a id="Relevance.PartRelavance"></a>
 
-### *property* Relevance.PartRelavance *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Relevance.PartRelavance *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the PartRelavance.
 
@@ -132,7 +132,7 @@ Gets the PartRelavance.
 
 <a id="Relevance.Properties"></a>
 
-### *property* Relevance.Properties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Relevance.Properties *: [tuple](https://docs.python.org/3/library/stdtypes.html#tuple)[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of properties for this object.
 
@@ -148,7 +148,7 @@ Gets or sets the ScopingMethod.
 
 <a id="Relevance.Suppressed"></a>
 
-### *property* Relevance.Suppressed *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Relevance.Suppressed *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Suppressed.
 
@@ -156,7 +156,7 @@ Gets or sets the Suppressed.
 
 <a id="Relevance.VisibleProperties"></a>
 
-### *property* Relevance.VisibleProperties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Relevance.VisibleProperties *: [tuple](https://docs.python.org/3/library/stdtypes.html#tuple)[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of properties that are visible for this object.
 
@@ -192,7 +192,7 @@ Creates a new child Figure.
 
 <a id="Relevance.AddImage"></a>
 
-### Relevance.AddImage(filePath: System.String)
+### Relevance.AddImage(filePath: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 ```text
 Creates a new child Image.
@@ -212,7 +212,7 @@ Copies all visible properties from this object to another.
 
 <a id="Relevance.CreateParameter"></a>
 
-### Relevance.CreateParameter(propName: System.String)
+### Relevance.CreateParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Creates a new parameter for a Property.
 
@@ -244,7 +244,7 @@ Generate the Mesh.
 
 <a id="Relevance.GetChildren"></a>
 
-### Relevance.GetChildren(recurses: System.Boolean, children: System.Collections.Generic.IList[ChildrenType])
+### Relevance.GetChildren(recurses: [bool](https://docs.python.org/3/library/functions.html#bool), children: List[ChildrenType])
 
 Gets the list of children, filtered by type.
 
@@ -252,7 +252,7 @@ Gets the list of children, filtered by type.
 
 <a id="Relevance.GetParameter"></a>
 
-### Relevance.GetParameter(propName: System.String)
+### Relevance.GetParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Gets the parameter corresponding to the given property.
 
@@ -276,7 +276,7 @@ Run the GroupSimilarObjects action.
 
 <a id="Relevance.PropertyByAPIName"></a>
 
-### Relevance.PropertyByAPIName(name: System.String)
+### Relevance.PropertyByAPIName(name: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 ```text
 Get a property by its API name.
@@ -287,7 +287,7 @@ If multiple properties have the same API Name, only the first property with that
 
 <a id="Relevance.PropertyByName"></a>
 
-### Relevance.PropertyByName(name: System.String)
+### Relevance.PropertyByName(name: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Get a property by its unique name.
 
@@ -295,7 +295,7 @@ Get a property by its unique name.
 
 <a id="Relevance.RemoveParameter"></a>
 
-### Relevance.RemoveParameter(propName: System.String)
+### Relevance.RemoveParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Removes the parameter from the parameter set corresponding to the given property.
 

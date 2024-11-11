@@ -57,7 +57,7 @@ Defines a Convergence.
 
 <a id="Convergence.AllowableChange"></a>
 
-### *property* Convergence.AllowableChange *: System.Double | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Convergence.AllowableChange *: [float](https://docs.python.org/3/library/functions.html#float) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the AllowableChange.
 
@@ -65,7 +65,7 @@ Gets or sets the AllowableChange.
 
 <a id="Convergence.Children"></a>
 
-### *property* Convergence.Children *: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Convergence.Children *: List[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of children.
 
@@ -73,7 +73,7 @@ Gets the list of children.
 
 <a id="Convergence.Comments"></a>
 
-### *property* Convergence.Comments *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Comment](../Comment.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Convergence.Comments *: Iterable[[Ansys.ACT.Automation.Mechanical.Comment](../Comment.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated comments.
 
@@ -81,7 +81,7 @@ Gets the list of associated comments.
 
 <a id="Convergence.DataModelObjectCategory"></a>
 
-### *property* Convergence.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../../v242/Ansys/Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Convergence.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the current DataModelObject’s category.
 
@@ -89,7 +89,7 @@ Gets the current DataModelObject’s category.
 
 <a id="Convergence.Figures"></a>
 
-### *property* Convergence.Figures *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Figure](../Figure.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Convergence.Figures *: Iterable[[Ansys.ACT.Automation.Mechanical.Figure](../Figure.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated figures.
 
@@ -97,7 +97,7 @@ Gets the list of associated figures.
 
 <a id="Convergence.Images"></a>
 
-### *property* Convergence.Images *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Image](../Image.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Convergence.Images *: Iterable[[Ansys.ACT.Automation.Mechanical.Image](../Image.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated images.
 
@@ -113,7 +113,7 @@ Gets the internal object. For advanced usage only.
 
 <a id="Convergence.IsConverged"></a>
 
-### *property* Convergence.IsConverged *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Convergence.IsConverged *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the IsConverged.
 
@@ -121,7 +121,7 @@ Gets the IsConverged.
 
 <a id="Convergence.LastChange"></a>
 
-### *property* Convergence.LastChange *: System.Double | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Convergence.LastChange *: [float](https://docs.python.org/3/library/functions.html#float) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the LastChange.
 
@@ -129,7 +129,7 @@ Gets the LastChange.
 
 <a id="Convergence.Properties"></a>
 
-### *property* Convergence.Properties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Convergence.Properties *: [tuple](https://docs.python.org/3/library/stdtypes.html#tuple)[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of properties for this object.
 
@@ -137,7 +137,7 @@ Gets the list of properties for this object.
 
 <a id="Convergence.Type"></a>
 
-### *property* Convergence.Type *: [Ansys.Mechanical.DataModel.Enums.ConvergenceType](../../../../../../v242/Ansys/Mechanical/DataModel/Enums/ConvergenceType.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.ConvergenceType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Convergence.Type *: [Ansys.Mechanical.DataModel.Enums.ConvergenceType](../../../../Mechanical/DataModel/Enums/ConvergenceType.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.ConvergenceType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Type.
 
@@ -145,7 +145,7 @@ Gets or sets the Type.
 
 <a id="Convergence.VisibleProperties"></a>
 
-### *property* Convergence.VisibleProperties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Convergence.VisibleProperties *: [tuple](https://docs.python.org/3/library/stdtypes.html#tuple)[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of properties that are visible for this object.
 
@@ -181,7 +181,7 @@ Creates a new child Figure.
 
 <a id="Convergence.AddImage"></a>
 
-### Convergence.AddImage(filePath: System.String)
+### Convergence.AddImage(filePath: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 ```text
 Creates a new child Image.
@@ -201,7 +201,7 @@ Copies all visible properties from this object to another.
 
 <a id="Convergence.CreateParameter"></a>
 
-### Convergence.CreateParameter(propName: System.String)
+### Convergence.CreateParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Creates a new parameter for a Property.
 
@@ -225,7 +225,7 @@ Creates a copy of the current DataModelObject.
 
 <a id="Convergence.GetChildren"></a>
 
-### Convergence.GetChildren(recurses: System.Boolean, children: System.Collections.Generic.IList[ChildrenType])
+### Convergence.GetChildren(recurses: [bool](https://docs.python.org/3/library/functions.html#bool), children: List[ChildrenType])
 
 Gets the list of children, filtered by type.
 
@@ -233,7 +233,7 @@ Gets the list of children, filtered by type.
 
 <a id="Convergence.GetParameter"></a>
 
-### Convergence.GetParameter(propName: System.String)
+### Convergence.GetParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Gets the parameter corresponding to the given property.
 
@@ -257,7 +257,7 @@ Run the GroupSimilarObjects action.
 
 <a id="Convergence.PropertyByAPIName"></a>
 
-### Convergence.PropertyByAPIName(name: System.String)
+### Convergence.PropertyByAPIName(name: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 ```text
 Get a property by its API name.
@@ -268,7 +268,7 @@ If multiple properties have the same API Name, only the first property with that
 
 <a id="Convergence.PropertyByName"></a>
 
-### Convergence.PropertyByName(name: System.String)
+### Convergence.PropertyByName(name: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Get a property by its unique name.
 
@@ -276,7 +276,7 @@ Get a property by its unique name.
 
 <a id="Convergence.RemoveParameter"></a>
 
-### Convergence.RemoveParameter(propName: System.String)
+### Convergence.RemoveParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Removes the parameter from the parameter set corresponding to the given property.
 

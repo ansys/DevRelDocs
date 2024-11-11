@@ -17,7 +17,7 @@ Specifies the EnclosureType.
 ### Attributes
 
 | Name |
-| ---------------------------------------------------------------------------------------------------------- |
+| ------------------------------------- |
 | [`Open`](#EnclosureType.Open) |
 | [`Perfect`](#EnclosureType.Perfect) |
 

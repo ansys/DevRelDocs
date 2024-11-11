@@ -34,7 +34,7 @@ Represents an element associated to an EBLOCK command.
 
 <a id="CommandElement.Csys"></a>
 
-### *property* CommandElement.Csys *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* CommandElement.Csys *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the coordinate system number.
 
@@ -42,7 +42,7 @@ Gets the coordinate system number.
 
 <a id="CommandElement.ElementShapeFlag"></a>
 
-### *property* CommandElement.ElementShapeFlag *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* CommandElement.ElementShapeFlag *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the element shape flag used for contact element types.
 
@@ -50,7 +50,7 @@ Gets the element shape flag used for contact element types.
 
 <a id="CommandElement.Id"></a>
 
-### *property* CommandElement.Id *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* CommandElement.Id *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the element number.
 
@@ -58,7 +58,7 @@ Gets the element number.
 
 <a id="CommandElement.Mat"></a>
 
-### *property* CommandElement.Mat *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* CommandElement.Mat *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the material number.
 
@@ -66,7 +66,7 @@ Gets the material number.
 
 <a id="CommandElement.NodeCount"></a>
 
-### *property* CommandElement.NodeCount *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* CommandElement.NodeCount *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the number of nodes.
 
@@ -74,7 +74,7 @@ Gets the number of nodes.
 
 <a id="CommandElement.Nodes"></a>
 
-### *property* CommandElement.Nodes *: System.Collections.Generic.IReadOnlyList[System.Int32] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* CommandElement.Nodes *: [tuple](https://docs.python.org/3/library/stdtypes.html#tuple)[[int](https://docs.python.org/3/library/functions.html#int)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the nodes.
 
@@ -82,7 +82,7 @@ Gets the nodes.
 
 <a id="CommandElement.Real"></a>
 
-### *property* CommandElement.Real *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* CommandElement.Real *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the real constant set number.
 
@@ -90,7 +90,7 @@ Gets the real constant set number.
 
 <a id="CommandElement.Section"></a>
 
-### *property* CommandElement.Section *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* CommandElement.Section *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the section number.
 
@@ -98,7 +98,7 @@ Gets the section number.
 
 <a id="CommandElement.Type"></a>
 
-### *property* CommandElement.Type *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* CommandElement.Type *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the element type number.
 

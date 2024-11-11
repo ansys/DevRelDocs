@@ -119,7 +119,7 @@ Gets or sets the BoundaryConditionSelection. In order to select the option ‘We
 
 <a id="ElectromechanicalCouplingCoefficient.By"></a>
 
-### *property* ElectromechanicalCouplingCoefficient.By *: [Ansys.Mechanical.DataModel.Enums.SetDriverStyle](../../../../../../../v242/Ansys/Mechanical/DataModel/Enums/SetDriverStyle.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.SetDriverStyle) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ElectromechanicalCouplingCoefficient.By *: [Ansys.Mechanical.DataModel.Enums.SetDriverStyle](../../../../../Mechanical/DataModel/Enums/SetDriverStyle.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.SetDriverStyle) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the By.
 
@@ -127,7 +127,7 @@ Gets or sets the By.
 
 <a id="ElectromechanicalCouplingCoefficient.Children"></a>
 
-### *property* ElectromechanicalCouplingCoefficient.Children *: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ElectromechanicalCouplingCoefficient.Children *: List[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of children.
 
@@ -135,7 +135,7 @@ Gets the list of children.
 
 <a id="ElectromechanicalCouplingCoefficient.Comments"></a>
 
-### *property* ElectromechanicalCouplingCoefficient.Comments *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Comment](../../Comment.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ElectromechanicalCouplingCoefficient.Comments *: Iterable[[Ansys.ACT.Automation.Mechanical.Comment](../../Comment.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated comments.
 
@@ -159,7 +159,7 @@ Gets or sets the CoordinateSystemSelection.
 
 <a id="ElectromechanicalCouplingCoefficient.DataModelObjectCategory"></a>
 
-### *property* ElectromechanicalCouplingCoefficient.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../../../v242/Ansys/Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ElectromechanicalCouplingCoefficient.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the current DataModelObject’s category.
 
@@ -175,7 +175,7 @@ Gets or sets the DisplayTime.
 
 <a id="ElectromechanicalCouplingCoefficient.DpfEvaluation"></a>
 
-### *property* ElectromechanicalCouplingCoefficient.DpfEvaluation *: [Ansys.Mechanical.DataModel.Enums.DpfEvaluationType](../../../../../../../v242/Ansys/Mechanical/DataModel/Enums/DpfEvaluationType.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.DpfEvaluationType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ElectromechanicalCouplingCoefficient.DpfEvaluation *: [Ansys.Mechanical.DataModel.Enums.DpfEvaluationType](../../../../../Mechanical/DataModel/Enums/DpfEvaluationType.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DpfEvaluationType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the DpfEvaluation.
 
@@ -183,7 +183,7 @@ Gets or sets the DpfEvaluation.
 
 <a id="ElectromechanicalCouplingCoefficient.ElectromechanicalCouplingCoefficientValue"></a>
 
-### *property* ElectromechanicalCouplingCoefficient.ElectromechanicalCouplingCoefficientValue *: System.Double | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ElectromechanicalCouplingCoefficient.ElectromechanicalCouplingCoefficientValue *: [float](https://docs.python.org/3/library/functions.html#float) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the ElectromechanicalCouplingCoefficientValue.
 
@@ -191,7 +191,7 @@ Gets the ElectromechanicalCouplingCoefficientValue.
 
 <a id="ElectromechanicalCouplingCoefficient.Figures"></a>
 
-### *property* ElectromechanicalCouplingCoefficient.Figures *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Figure](../../Figure.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ElectromechanicalCouplingCoefficient.Figures *: Iterable[[Ansys.ACT.Automation.Mechanical.Figure](../../Figure.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated figures.
 
@@ -215,7 +215,7 @@ Gets or sets the GeometryLocation.
 
 <a id="ElectromechanicalCouplingCoefficient.Images"></a>
 
-### *property* ElectromechanicalCouplingCoefficient.Images *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Image](../../Image.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ElectromechanicalCouplingCoefficient.Images *: Iterable[[Ansys.ACT.Automation.Mechanical.Image](../../Image.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated images.
 
@@ -231,7 +231,7 @@ Gets the internal object. For advanced usage only.
 
 <a id="ElectromechanicalCouplingCoefficient.IsSolved"></a>
 
-### *property* ElectromechanicalCouplingCoefficient.IsSolved *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ElectromechanicalCouplingCoefficient.IsSolved *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the IsSolved.
 
@@ -239,7 +239,7 @@ Gets the IsSolved.
 
 <a id="ElectromechanicalCouplingCoefficient.IterationNumber"></a>
 
-### *property* ElectromechanicalCouplingCoefficient.IterationNumber *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ElectromechanicalCouplingCoefficient.IterationNumber *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the IterationNumber.
 
@@ -247,7 +247,7 @@ Gets the IterationNumber.
 
 <a id="ElectromechanicalCouplingCoefficient.LoadStep"></a>
 
-### *property* ElectromechanicalCouplingCoefficient.LoadStep *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ElectromechanicalCouplingCoefficient.LoadStep *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the LoadStep.
 
@@ -255,7 +255,7 @@ Gets the LoadStep.
 
 <a id="ElectromechanicalCouplingCoefficient.LoadStepNumber"></a>
 
-### *property* ElectromechanicalCouplingCoefficient.LoadStepNumber *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ElectromechanicalCouplingCoefficient.LoadStepNumber *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the LoadStepNumber.
 
@@ -263,7 +263,7 @@ Gets or sets the LoadStepNumber.
 
 <a id="ElectromechanicalCouplingCoefficient.LocationMethod"></a>
 
-### *property* ElectromechanicalCouplingCoefficient.LocationMethod *: [Ansys.Mechanical.DataModel.Enums.LocationDefinitionMethod](../../../../../../../v242/Ansys/Mechanical/DataModel/Enums/LocationDefinitionMethod.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.LocationDefinitionMethod) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ElectromechanicalCouplingCoefficient.LocationMethod *: [Ansys.Mechanical.DataModel.Enums.LocationDefinitionMethod](../../../../../Mechanical/DataModel/Enums/LocationDefinitionMethod.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.LocationDefinitionMethod) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the LocationMethod.
 
@@ -271,7 +271,7 @@ Gets or sets the LocationMethod.
 
 <a id="ElectromechanicalCouplingCoefficient.MaximumElectromechanicalCouplingCoefficient"></a>
 
-### *property* ElectromechanicalCouplingCoefficient.MaximumElectromechanicalCouplingCoefficient *: System.Double | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ElectromechanicalCouplingCoefficient.MaximumElectromechanicalCouplingCoefficient *: [float](https://docs.python.org/3/library/functions.html#float) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the MaximumElectromechanicalCouplingCoefficient.
 
@@ -319,7 +319,7 @@ Gets or sets the MeshConnectionSelection.
 
 <a id="ElectromechanicalCouplingCoefficient.MinimumElectromechanicalCouplingCoefficient"></a>
 
-### *property* ElectromechanicalCouplingCoefficient.MinimumElectromechanicalCouplingCoefficient *: System.Double | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ElectromechanicalCouplingCoefficient.MinimumElectromechanicalCouplingCoefficient *: [float](https://docs.python.org/3/library/functions.html#float) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the MinimumElectromechanicalCouplingCoefficient.
 
@@ -367,7 +367,7 @@ Gets or sets the Orientation. Accepts/Returns None if it is the Solution Coordin
 
 <a id="ElectromechanicalCouplingCoefficient.Properties"></a>
 
-### *property* ElectromechanicalCouplingCoefficient.Properties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ElectromechanicalCouplingCoefficient.Properties *: [tuple](https://docs.python.org/3/library/stdtypes.html#tuple)[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of properties for this object.
 
@@ -375,7 +375,7 @@ Gets the list of properties for this object.
 
 <a id="ElectromechanicalCouplingCoefficient.RemotePointSelection"></a>
 
-### *property* ElectromechanicalCouplingCoefficient.RemotePointSelection *: [Ansys.ACT.Automation.Mechanical.RemotePoint](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/RemotePoint.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.RemotePoint) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ElectromechanicalCouplingCoefficient.RemotePointSelection *: [Ansys.ACT.Automation.Mechanical.RemotePoint](../../RemotePoint.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.RemotePoint) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the RemotePointSelection.
 
@@ -391,7 +391,7 @@ Gets the ReportedFrequency.
 
 <a id="ElectromechanicalCouplingCoefficient.ResultSelection"></a>
 
-### *property* ElectromechanicalCouplingCoefficient.ResultSelection *: [Ansys.Mechanical.DataModel.Enums.ProbeDisplayFilter](../../../../../../../v242/Ansys/Mechanical/DataModel/Enums/ProbeDisplayFilter.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.ProbeDisplayFilter) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ElectromechanicalCouplingCoefficient.ResultSelection *: [Ansys.Mechanical.DataModel.Enums.ProbeDisplayFilter](../../../../../Mechanical/DataModel/Enums/ProbeDisplayFilter.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.ProbeDisplayFilter) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the ResultSelection.
 
@@ -399,7 +399,7 @@ Gets or sets the ResultSelection.
 
 <a id="ElectromechanicalCouplingCoefficient.SetNumber"></a>
 
-### *property* ElectromechanicalCouplingCoefficient.SetNumber *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ElectromechanicalCouplingCoefficient.SetNumber *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the SetNumber.
 
@@ -407,7 +407,7 @@ Gets or sets the SetNumber.
 
 <a id="ElectromechanicalCouplingCoefficient.SpatialResolution"></a>
 
-### *property* ElectromechanicalCouplingCoefficient.SpatialResolution *: [Ansys.Mechanical.DataModel.Enums.MinimumOrMaximum](../../../../../../../v242/Ansys/Mechanical/DataModel/Enums/MinimumOrMaximum.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.MinimumOrMaximum) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ElectromechanicalCouplingCoefficient.SpatialResolution *: [Ansys.Mechanical.DataModel.Enums.MinimumOrMaximum](../../../../../Mechanical/DataModel/Enums/MinimumOrMaximum.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.MinimumOrMaximum) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the SpatialResolution.
 
@@ -423,7 +423,7 @@ Gets or sets the SpringSelection.
 
 <a id="ElectromechanicalCouplingCoefficient.Substep"></a>
 
-### *property* ElectromechanicalCouplingCoefficient.Substep *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ElectromechanicalCouplingCoefficient.Substep *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the Substep.
 
@@ -431,7 +431,7 @@ Gets the Substep.
 
 <a id="ElectromechanicalCouplingCoefficient.Summation"></a>
 
-### *property* ElectromechanicalCouplingCoefficient.Summation *: [Ansys.Mechanical.DataModel.Enums.MomentsAtSummationPointType](../../../../../../../v242/Ansys/Mechanical/DataModel/Enums/MomentsAtSummationPointType.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.MomentsAtSummationPointType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ElectromechanicalCouplingCoefficient.Summation *: [Ansys.Mechanical.DataModel.Enums.MomentsAtSummationPointType](../../../../../Mechanical/DataModel/Enums/MomentsAtSummationPointType.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.MomentsAtSummationPointType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Summation.
 
@@ -439,7 +439,7 @@ Gets or sets the Summation.
 
 <a id="ElectromechanicalCouplingCoefficient.Suppressed"></a>
 
-### *property* ElectromechanicalCouplingCoefficient.Suppressed *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ElectromechanicalCouplingCoefficient.Suppressed *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Suppressed.
 
@@ -447,7 +447,7 @@ Gets or sets the Suppressed.
 
 <a id="ElectromechanicalCouplingCoefficient.SurfaceSelection"></a>
 
-### *property* ElectromechanicalCouplingCoefficient.SurfaceSelection *: [Ansys.ACT.Automation.Mechanical.Surface](../../../../../../../v242/Ansys/ACT/Automation/Mechanical/Surface.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Surface) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ElectromechanicalCouplingCoefficient.SurfaceSelection *: [Ansys.ACT.Automation.Mechanical.Surface](../../Surface.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Surface) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the MeshConnectionSelection.
 
@@ -479,7 +479,7 @@ Gets the Total.
 
 <a id="ElectromechanicalCouplingCoefficient.Type"></a>
 
-### *property* ElectromechanicalCouplingCoefficient.Type *: [Ansys.Mechanical.DataModel.Enums.ProbeResultType](../../../../../../../v242/Ansys/Mechanical/DataModel/Enums/ProbeResultType.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.ProbeResultType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ElectromechanicalCouplingCoefficient.Type *: [Ansys.Mechanical.DataModel.Enums.ProbeResultType](../../../../../Mechanical/DataModel/Enums/ProbeResultType.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.ProbeResultType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the Type.
 
@@ -487,7 +487,7 @@ Gets the Type.
 
 <a id="ElectromechanicalCouplingCoefficient.VisibleProperties"></a>
 
-### *property* ElectromechanicalCouplingCoefficient.VisibleProperties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ElectromechanicalCouplingCoefficient.VisibleProperties *: [tuple](https://docs.python.org/3/library/stdtypes.html#tuple)[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of properties that are visible for this object.
 
@@ -547,7 +547,7 @@ Creates a new child Figure.
 
 <a id="ElectromechanicalCouplingCoefficient.AddImage"></a>
 
-### ElectromechanicalCouplingCoefficient.AddImage(filePath: System.String)
+### ElectromechanicalCouplingCoefficient.AddImage(filePath: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 ```text
 Creates a new child Image.
@@ -575,7 +575,7 @@ Copies all visible properties from this object to another.
 
 <a id="ElectromechanicalCouplingCoefficient.CreateParameter"></a>
 
-### ElectromechanicalCouplingCoefficient.CreateParameter(propName: System.String)
+### ElectromechanicalCouplingCoefficient.CreateParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Creates a new parameter for a Property.
 
@@ -615,7 +615,7 @@ Run the EvaluateAllResults action.
 
 <a id="ElectromechanicalCouplingCoefficient.ExportAnimation"></a>
 
-### ElectromechanicalCouplingCoefficient.ExportAnimation(filePath: System.String, format: [Ansys.Mechanical.DataModel.Enums.GraphicsAnimationExportFormat](../../../../../../../v242/Ansys/Mechanical/DataModel/Enums/GraphicsAnimationExportFormat.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.GraphicsAnimationExportFormat), settings: [Ansys.Mechanical.Graphics.AnimationExportSettings](../../../../../../../v242/Ansys/Mechanical/Graphics/AnimationExportSettings.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.Graphics.AnimationExportSettings))
+### ElectromechanicalCouplingCoefficient.ExportAnimation(filePath: [str](https://docs.python.org/3/library/stdtypes.html#str), format: [Ansys.Mechanical.DataModel.Enums.GraphicsAnimationExportFormat](../../../../../Mechanical/DataModel/Enums/GraphicsAnimationExportFormat.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.GraphicsAnimationExportFormat), settings: [Ansys.Mechanical.Graphics.AnimationExportSettings](../../../../../Mechanical/Graphics/AnimationExportSettings.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.Graphics.AnimationExportSettings))
 
 Run the ExportAnimation action.
 
@@ -623,7 +623,7 @@ Run the ExportAnimation action.
 
 <a id="ElectromechanicalCouplingCoefficient.GetChildren"></a>
 
-### ElectromechanicalCouplingCoefficient.GetChildren(recurses: System.Boolean, children: System.Collections.Generic.IList[ChildrenType])
+### ElectromechanicalCouplingCoefficient.GetChildren(recurses: [bool](https://docs.python.org/3/library/functions.html#bool), children: List[ChildrenType])
 
 Gets the list of children, filtered by type.
 
@@ -631,7 +631,7 @@ Gets the list of children, filtered by type.
 
 <a id="ElectromechanicalCouplingCoefficient.GetParameter"></a>
 
-### ElectromechanicalCouplingCoefficient.GetParameter(propName: System.String)
+### ElectromechanicalCouplingCoefficient.GetParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Gets the parameter corresponding to the given property.
 
@@ -655,7 +655,7 @@ Run the GroupSimilarObjects action.
 
 <a id="ElectromechanicalCouplingCoefficient.PropertyByAPIName"></a>
 
-### ElectromechanicalCouplingCoefficient.PropertyByAPIName(name: System.String)
+### ElectromechanicalCouplingCoefficient.PropertyByAPIName(name: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 ```text
 Get a property by its API name.
@@ -666,7 +666,7 @@ If multiple properties have the same API Name, only the first property with that
 
 <a id="ElectromechanicalCouplingCoefficient.PropertyByName"></a>
 
-### ElectromechanicalCouplingCoefficient.PropertyByName(name: System.String)
+### ElectromechanicalCouplingCoefficient.PropertyByName(name: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Get a property by its unique name.
 
@@ -674,7 +674,7 @@ Get a property by its unique name.
 
 <a id="ElectromechanicalCouplingCoefficient.RemoveParameter"></a>
 
-### ElectromechanicalCouplingCoefficient.RemoveParameter(propName: System.String)
+### ElectromechanicalCouplingCoefficient.RemoveParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Removes the parameter from the parameter set corresponding to the given property.
 

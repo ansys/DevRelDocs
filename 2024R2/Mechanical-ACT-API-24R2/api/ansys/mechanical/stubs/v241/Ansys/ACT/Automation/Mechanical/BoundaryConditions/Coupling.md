@@ -17,7 +17,7 @@ Defines a Coupling.
 ### Methods
 
 | Name | Description |
-|-----------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------|
+|----------------------------------------------------------------|-----------------------------------------------------------------------------------|
 | [`Activate`](#Coupling.Activate)                               | Activate the current object.                                                      |
 | [`AddComment`](#Coupling.AddComment)                           | Creates a new child Comment.                                                      |
 | [`AddImage`](#Coupling.AddImage)                               | Creates a new child Image.                                                        |
@@ -36,7 +36,7 @@ Defines a Coupling.
 ### Properties
 
 | Name | Description |
-|-----------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------|
+|----------------------------------------------------------------|---------------------------------------------------------------|
 | [`Children`](#Coupling.Children)                               | Gets the list of children.                                    |
 | [`Comments`](#Coupling.Comments)                               | Gets the list of associated comments.                         |
 | [`DOFSelection`](#Coupling.DOFSelection)                       | Gets or sets the DOFSelection.                                |
@@ -55,7 +55,7 @@ Defines a Coupling.
 
 <a id="Coupling.Children"></a>
 
-### *property* Coupling.Children *: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Coupling.Children *: List[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of children.
 
@@ -63,7 +63,7 @@ Gets the list of children.
 
 <a id="Coupling.Comments"></a>
 
-### *property* Coupling.Comments *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Comment](../Comment.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Coupling.Comments *: Iterable[[Ansys.ACT.Automation.Mechanical.Comment](../Comment.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated comments.
 
@@ -71,7 +71,7 @@ Gets the list of associated comments.
 
 <a id="Coupling.DOFSelection"></a>
 
-### *property* Coupling.DOFSelection *: [Ansys.Mechanical.DataModel.Enums.CouplingConditionDOFType](../../../../../../v242/Ansys/Mechanical/DataModel/Enums/CouplingConditionDOFType.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.CouplingConditionDOFType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Coupling.DOFSelection *: [Ansys.Mechanical.DataModel.Enums.CouplingConditionDOFType](../../../../Mechanical/DataModel/Enums/CouplingConditionDOFType.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.CouplingConditionDOFType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the DOFSelection.
 
@@ -79,7 +79,7 @@ Gets or sets the DOFSelection.
 
 <a id="Coupling.DataModelObjectCategory"></a>
 
-### *property* Coupling.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../../v242/Ansys/Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Coupling.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the current DataModelObject’s category.
 
@@ -87,7 +87,7 @@ Gets the current DataModelObject’s category.
 
 <a id="Coupling.Images"></a>
 
-### *property* Coupling.Images *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Image](../Image.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Coupling.Images *: Iterable[[Ansys.ACT.Automation.Mechanical.Image](../Image.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated images.
 
@@ -103,7 +103,7 @@ Gets the internal object. For advanced usage only.
 
 <a id="Coupling.LocalCoordinates"></a>
 
-### *property* Coupling.LocalCoordinates *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Coupling.LocalCoordinates *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the LocalCoordinates.
 
@@ -119,7 +119,7 @@ Gets or sets the Location.
 
 <a id="Coupling.Properties"></a>
 
-### *property* Coupling.Properties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Coupling.Properties *: [tuple](https://docs.python.org/3/library/stdtypes.html#tuple)[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of properties for this object.
 
@@ -127,7 +127,7 @@ Gets the list of properties for this object.
 
 <a id="Coupling.Suppressed"></a>
 
-### *property* Coupling.Suppressed *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Coupling.Suppressed *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Suppressed.
 
@@ -135,7 +135,7 @@ Gets or sets the Suppressed.
 
 <a id="Coupling.VisibleProperties"></a>
 
-### *property* Coupling.VisibleProperties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Coupling.VisibleProperties *: [tuple](https://docs.python.org/3/library/stdtypes.html#tuple)[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of properties that are visible for this object.
 
@@ -163,7 +163,7 @@ Creates a new child Comment.
 
 <a id="Coupling.AddImage"></a>
 
-### Coupling.AddImage(filePath: System.String)
+### Coupling.AddImage(filePath: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 ```text
 Creates a new child Image.
@@ -183,7 +183,7 @@ Copies all visible properties from this object to another.
 
 <a id="Coupling.CreateParameter"></a>
 
-### Coupling.CreateParameter(propName: System.String)
+### Coupling.CreateParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Creates a new parameter for a Property.
 
@@ -207,7 +207,7 @@ Creates a copy of the current DataModelObject.
 
 <a id="Coupling.GetChildren"></a>
 
-### Coupling.GetChildren(recurses: System.Boolean, children: System.Collections.Generic.IList[ChildrenType])
+### Coupling.GetChildren(recurses: [bool](https://docs.python.org/3/library/functions.html#bool), children: List[ChildrenType])
 
 Gets the list of children, filtered by type.
 
@@ -215,7 +215,7 @@ Gets the list of children, filtered by type.
 
 <a id="Coupling.GetParameter"></a>
 
-### Coupling.GetParameter(propName: System.String)
+### Coupling.GetParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Gets the parameter corresponding to the given property.
 
@@ -239,7 +239,7 @@ Run the GroupSimilarObjects action.
 
 <a id="Coupling.PropertyByAPIName"></a>
 
-### Coupling.PropertyByAPIName(name: System.String)
+### Coupling.PropertyByAPIName(name: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 ```text
 Get a property by its API name.
@@ -250,7 +250,7 @@ If multiple properties have the same API Name, only the first property with that
 
 <a id="Coupling.PropertyByName"></a>
 
-### Coupling.PropertyByName(name: System.String)
+### Coupling.PropertyByName(name: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Get a property by its unique name.
 
@@ -258,7 +258,7 @@ Get a property by its unique name.
 
 <a id="Coupling.RemoveParameter"></a>
 
-### Coupling.RemoveParameter(propName: System.String)
+### Coupling.RemoveParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Removes the parameter from the parameter set corresponding to the given property.
 

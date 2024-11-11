@@ -17,7 +17,7 @@ Settings object to control Graphics.ExportViewports behavior.
 ### Properties
 
 | Name | Description |
-|------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+|-------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [`AppendGraph`](#GraphicsViewportsExportSettings.AppendGraph)                       | Specifies whether to append the viewport graph(s) to the exported image. Defaults to false.                                                                                                                                                                                             |
 | [`Background`](#GraphicsViewportsExportSettings.Background)                         | Specifies the background color. Defaults to GraphicsAppearanceSetting.                                                                                                                                                                                                                  |
 | [`BorderStyle`](#GraphicsViewportsExportSettings.BorderStyle)                       | Specifies which borders to add, if any, to the exported viewports image.                                                                                                                                                                                                                |
@@ -34,7 +34,7 @@ Settings object to control Graphics.ExportViewports behavior.
 
 <a id="GraphicsViewportsExportSettings.AppendGraph"></a>
 
-### *property* GraphicsViewportsExportSettings.AppendGraph *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* GraphicsViewportsExportSettings.AppendGraph *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Specifies whether to append the viewport graph(s) to the exported image. Defaults to false.
 
@@ -68,7 +68,7 @@ Specifies what to include in the capture. Defaults to ImageAndLegend.
 
 <a id="GraphicsViewportsExportSettings.CurrentGraphicsDisplay"></a>
 
-### *property* GraphicsViewportsExportSettings.CurrentGraphicsDisplay *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* GraphicsViewportsExportSettings.CurrentGraphicsDisplay *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Specifies whether to use the current graphics display settings. Defaults to true.
 
@@ -76,7 +76,7 @@ Specifies whether to use the current graphics display settings. Defaults to true
 
 <a id="GraphicsViewportsExportSettings.FontMagnification"></a>
 
-### *property* GraphicsViewportsExportSettings.FontMagnification *: System.Double | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* GraphicsViewportsExportSettings.FontMagnification *: [float](https://docs.python.org/3/library/functions.html#float) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Specifies the font magnification factor. Defaults to 1.0.
 
@@ -84,7 +84,7 @@ Specifies the font magnification factor. Defaults to 1.0.
 
 <a id="GraphicsViewportsExportSettings.Height"></a>
 
-### *property* GraphicsViewportsExportSettings.Height *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* GraphicsViewportsExportSettings.Height *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Specifies the image height. Defaults to 0. If width AND height are zero, this uses the current dimensions. If only one of the two are nonzero, the current dimension’s ratio is used along with the nonzero of the two properties to determine the computed value of the zero property.
 
@@ -100,7 +100,7 @@ Specifies the resolution type. Defaults to NormalResolution.
 
 <a id="GraphicsViewportsExportSettings.Width"></a>
 
-### *property* GraphicsViewportsExportSettings.Width *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* GraphicsViewportsExportSettings.Width *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Specifies the image width. Defaults to 0. If width AND height are zero, this uses the current dimensions. If only one of the two are nonzero, the current dimension’s ratio is used along with the nonzero of the two properties to determine the computed value of the zero property.
 

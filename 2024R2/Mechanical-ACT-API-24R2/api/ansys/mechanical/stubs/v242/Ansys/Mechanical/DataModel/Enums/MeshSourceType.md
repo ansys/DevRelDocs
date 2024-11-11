@@ -17,7 +17,7 @@ Specifies the MeshSourceType.
 ### Attributes
 
 | Name |
-| -------------------------------------------------------------------------------------------------------------------------------- |
+| ---------------------------------------------------------- |
 | [`Mechanical`](#MeshSourceType.Mechanical) |
 | [`ProgramControlled`](#MeshSourceType.ProgramControlled) |
 | [`ResultFile`](#MeshSourceType.ResultFile) |

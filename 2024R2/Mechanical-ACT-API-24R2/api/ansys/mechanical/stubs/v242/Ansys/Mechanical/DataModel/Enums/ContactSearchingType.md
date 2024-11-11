@@ -17,7 +17,7 @@ Specifies the ContactSearchingType.
 ### Attributes
 
 | Name |
-| -------------------------------------------------------------------------------------------------------------------------------------------- |
+| ---------------------------------------------------------------- |
 | [`AcrossAssemblies`](#ContactSearchingType.AcrossAssemblies) |
 | [`AcrossBodies`](#ContactSearchingType.AcrossBodies) |
 | [`AcrossFiles`](#ContactSearchingType.AcrossFiles) |

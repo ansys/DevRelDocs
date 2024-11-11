@@ -17,7 +17,7 @@ Specifies the AMLayerHeightType.
 ### Attributes
 
 | Name |
-| -------------------------------------------------------------------------------------------------------------------------------------- |
+| ------------------------------------------------------------- |
 | [`Manual`](#AMLayerHeightType.Manual) |
 | [`ProgramControlled`](#AMLayerHeightType.ProgramControlled) |
 

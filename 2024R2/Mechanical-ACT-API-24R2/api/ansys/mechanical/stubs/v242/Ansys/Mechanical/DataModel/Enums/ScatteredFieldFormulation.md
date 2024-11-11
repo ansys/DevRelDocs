@@ -17,7 +17,7 @@ Specifies the ScatteredFieldFormulation.
 ### Attributes
 
 | Name |
-| ------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| --------------------------------------------------------------------- |
 | [`Off`](#ScatteredFieldFormulation.Off) |
 | [`On`](#ScatteredFieldFormulation.On) |
 | [`ProgramControlled`](#ScatteredFieldFormulation.ProgramControlled) |

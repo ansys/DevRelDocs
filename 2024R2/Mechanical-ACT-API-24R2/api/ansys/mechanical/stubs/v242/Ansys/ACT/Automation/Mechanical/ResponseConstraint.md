@@ -17,7 +17,7 @@ Defines a ResponseConstraint.
 ### Methods
 
 | Name | Description |
-|---------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------|
+|--------------------------------------------------------------------------|-----------------------------------------------------------------------------------|
 | [`Activate`](#ResponseConstraint.Activate)                               | Activate the current object.                                                      |
 | [`CopyTo`](#ResponseConstraint.CopyTo)                                   | Copies all visible properties from this object to another.                        |
 | [`CreateParameter`](#ResponseConstraint.CreateParameter)                 | Creates a new parameter for a Property.                                           |
@@ -35,7 +35,7 @@ Defines a ResponseConstraint.
 ### Properties
 
 | Name | Description |
-|---------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------|
+|--------------------------------------------------------------------------|------------------------------------------------------------------------------------------|
 | [`Children`](#ResponseConstraint.Children)                               | Gets the list of children.                                                               |
 | [`DataModelObjectCategory`](#ResponseConstraint.DataModelObjectCategory) | Gets the current DataModelObject’s category.                                             |
 | [`EnvironmentSelection`](#ResponseConstraint.EnvironmentSelection)       | Gets or Sets the EnvironmentSelection to an Analysis object or TopoEnvironmentType enum. |
@@ -50,7 +50,7 @@ Defines a ResponseConstraint.
 
 <a id="ResponseConstraint.Children"></a>
 
-### *property* ResponseConstraint.Children *: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ResponseConstraint.Children *: List[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of children.
 
@@ -66,7 +66,7 @@ Gets the current DataModelObject’s category.
 
 <a id="ResponseConstraint.EnvironmentSelection"></a>
 
-### *property* ResponseConstraint.EnvironmentSelection *: System.Object | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ResponseConstraint.EnvironmentSelection *: Any | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or Sets the EnvironmentSelection to an Analysis object or TopoEnvironmentType enum.
 
@@ -82,7 +82,7 @@ Gets the internal object. For advanced usage only.
 
 <a id="ResponseConstraint.Properties"></a>
 
-### *property* ResponseConstraint.Properties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ResponseConstraint.Properties *: [tuple](https://docs.python.org/3/library/stdtypes.html#tuple)[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of properties for this object.
 
@@ -90,7 +90,7 @@ Gets the list of properties for this object.
 
 <a id="ResponseConstraint.Suppressed"></a>
 
-### *property* ResponseConstraint.Suppressed *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ResponseConstraint.Suppressed *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Suppressed.
 
@@ -98,7 +98,7 @@ Gets or sets the Suppressed.
 
 <a id="ResponseConstraint.VisibleProperties"></a>
 
-### *property* ResponseConstraint.VisibleProperties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ResponseConstraint.VisibleProperties *: [tuple](https://docs.python.org/3/library/stdtypes.html#tuple)[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of properties that are visible for this object.
 
@@ -126,7 +126,7 @@ Copies all visible properties from this object to another.
 
 <a id="ResponseConstraint.CreateParameter"></a>
 
-### ResponseConstraint.CreateParameter(propName: System.String)
+### ResponseConstraint.CreateParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Creates a new parameter for a Property.
 
@@ -150,7 +150,7 @@ Creates a copy of the current DataModelObject.
 
 <a id="ResponseConstraint.GetChildren"></a>
 
-### ResponseConstraint.GetChildren(recurses: System.Boolean, children: System.Collections.Generic.IList[ChildrenType])
+### ResponseConstraint.GetChildren(recurses: [bool](https://docs.python.org/3/library/functions.html#bool), children: List[ChildrenType])
 
 Gets the list of children, filtered by type.
 
@@ -158,7 +158,7 @@ Gets the list of children, filtered by type.
 
 <a id="ResponseConstraint.GetParameter"></a>
 
-### ResponseConstraint.GetParameter(propName: System.String)
+### ResponseConstraint.GetParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Gets the parameter corresponding to the given property.
 
@@ -182,7 +182,7 @@ Run the GroupSimilarObjects action.
 
 <a id="ResponseConstraint.PropertyByAPIName"></a>
 
-### ResponseConstraint.PropertyByAPIName(name: System.String)
+### ResponseConstraint.PropertyByAPIName(name: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 ```text
 Get a property by its API name.
@@ -193,7 +193,7 @@ If multiple properties have the same API Name, only the first property with that
 
 <a id="ResponseConstraint.PropertyByName"></a>
 
-### ResponseConstraint.PropertyByName(name: System.String)
+### ResponseConstraint.PropertyByName(name: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Get a property by its unique name.
 
@@ -201,7 +201,7 @@ Get a property by its unique name.
 
 <a id="ResponseConstraint.RemoveParameter"></a>
 
-### ResponseConstraint.RemoveParameter(propName: System.String)
+### ResponseConstraint.RemoveParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Removes the parameter from the parameter set corresponding to the given property.
 

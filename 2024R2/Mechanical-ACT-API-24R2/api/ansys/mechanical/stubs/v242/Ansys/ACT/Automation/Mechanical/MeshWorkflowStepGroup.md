@@ -17,17 +17,17 @@ Object that wraps IDSEngineeringModelWorkflow.
 ### Methods
 
 | Name | Description |
-|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+|-----------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [`Activate`](#MeshWorkflowStepGroup.Activate)                                                       | Activate the current object.                                                                                                                                                                                                                                                                                                      |
 | [`AddFigure`](#MeshWorkflowStepGroup.AddFigure)                                                     | Creates a new child Figure.                                                                                                                                                                                                                                                                                                       |
 | [`AddImage`](#MeshWorkflowStepGroup.AddImage)                                                       | Creates a new child Image.                                                                                                                                                                                                                                                                                                        |
-| [`AddSettings`](#MeshWorkflowStepGroup.AddSettings)                                                                                                                             | Add the settings of the input SettingsType to the Steps node.                                                                                                                                                                                                                                                                     |
+| [`AddSettings`](#MeshWorkflowStepGroup.AddSettings)                                                 | Add the settings of the input SettingsType to the Steps node.                                                                                                                                                                                                                                                                     |
 | [`AddStep`](#MeshWorkflowStepGroup.AddStep)                                                         | Add another operation to the sequence of steps to be executed for the mesh workflow.                                                                                                                                                                                                                                              |
 | [`CopyTo`](#MeshWorkflowStepGroup.CopyTo)                                                           | Copies all visible properties from this object to another.                                                                                                                                                                                                                                                                        |
 | [`CreateParameter`](#MeshWorkflowStepGroup.CreateParameter)                                         | Creates a new parameter for a Property.                                                                                                                                                                                                                                                                                           |
 | [`Delete`](#MeshWorkflowStepGroup.Delete)                                                           | Run the Delete action.                                                                                                                                                                                                                                                                                                            |
 | [`DeleteAllStepsAndClearGeneratedData`](#MeshWorkflowStepGroup.DeleteAllStepsAndClearGeneratedData) | Deletes all steps and reset workflow type to undefined and also resets all inactive geometry parts/bodies to active again, clears the output data, and resets the state of the child objects (“Input”, “Steps”, “Output”) to the initial state. However, any user-defined settings such as the “Input” node scoping are retained. |
-| [`DeleteSettings`](#MeshWorkflowStepGroup.DeleteSettings)                                                                                                                       | Delete the settings of the input SettingsType from the Steps node. All the Settings specific entries are removed automatically to the Steps details.                                                                                                                                                                              |
+| [`DeleteSettings`](#MeshWorkflowStepGroup.DeleteSettings)                                           | Delete the settings of the input SettingsType from the Steps node. All the Settings specific entries are removed automatically to the Steps details.                                                                                                                                                                              |
 | [`Duplicate`](#MeshWorkflowStepGroup.Duplicate)                                                     | Creates a copy of the current DataModelObject.                                                                                                                                                                                                                                                                                    |
 | [`ExecuteAllSteps`](#MeshWorkflowStepGroup.ExecuteAllSteps)                                         | Executes all steps defined under the “StepGroup” object (which is the “Steps” node in the UI).                                                                                                                                                                                                                                    |
 | [`ExecuteNextStep`](#MeshWorkflowStepGroup.ExecuteNextStep)                                         | Executes the next step, i.e. the next operation which is ready to be executed under the parent “StepGroup” object.                                                                                                                                                                                                                |
@@ -36,7 +36,7 @@ Object that wraps IDSEngineeringModelWorkflow.
 | [`GetParameter`](#MeshWorkflowStepGroup.GetParameter)                                               | Gets the parameter corresponding to the given property.                                                                                                                                                                                                                                                                           |
 | [`GroupAllSimilarChildren`](#MeshWorkflowStepGroup.GroupAllSimilarChildren)                         | Run the GroupAllSimilarChildren action.                                                                                                                                                                                                                                                                                           |
 | [`GroupSimilarObjects`](#MeshWorkflowStepGroup.GroupSimilarObjects)                                 | Run the GroupSimilarObjects action.                                                                                                                                                                                                                                                                                               |
-| [`PropagateSettings`](#MeshWorkflowStepGroup.PropagateSettings)                                                                                                                 | Propagate the settings of the input SettingsType to the attributes of the Step nodes. The meshing attributes of the Step nodes will then be automatically defined based on the physical parameters of the settings. Otherwise, the meshing attributes need to be manually specified.                                              |
+| [`PropagateSettings`](#MeshWorkflowStepGroup.PropagateSettings)                                     | Propagate the settings of the input SettingsType to the attributes of the Step nodes. The meshing attributes of the Step nodes will then be automatically defined based on the physical parameters of the settings. Otherwise, the meshing attributes need to be manually specified.                                              |
 | [`PropertyByAPIName`](#MeshWorkflowStepGroup.PropertyByAPIName)                                     | Get a property by its API name.                                                                                                                                                                                                                                                                                                   |
 | [`PropertyByName`](#MeshWorkflowStepGroup.PropertyByName)                                           | Get a property by its unique name.                                                                                                                                                                                                                                                                                                |
 | [`RemoveParameter`](#MeshWorkflowStepGroup.RemoveParameter)                                         | Removes the parameter from the parameter set corresponding to the given property.                                                                                                                                                                                                                                                 |
@@ -45,20 +45,20 @@ Object that wraps IDSEngineeringModelWorkflow.
 ### Properties
 
 | Name | Description |
-|---------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [`AnalysisFrequency`](#MeshWorkflowStepGroup.AnalysisFrequency)                                                                                         | Defines the analysis frequency of the acoustic scenario.                                                                                                                                                                   |
+|-----------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| [`AnalysisFrequency`](#MeshWorkflowStepGroup.AnalysisFrequency)             | Defines the analysis frequency of the acoustic scenario.                                                                                                                                                                   |
 | [`Children`](#MeshWorkflowStepGroup.Children)                               | Gets the list of children.                                                                                                                                                                                                 |
 | [`DataModelObjectCategory`](#MeshWorkflowStepGroup.DataModelObjectCategory) | Gets the current DataModelObject’s category.                                                                                                                                                                               |
 | [`Figures`](#MeshWorkflowStepGroup.Figures)                                 | Gets the list of associated figures.                                                                                                                                                                                       |
 | [`Images`](#MeshWorkflowStepGroup.Images)                                   | Gets the list of associated images.                                                                                                                                                                                        |
 | [`InternalObject`](#MeshWorkflowStepGroup.InternalObject)                   | Gets the internal object. For advanced usage only.                                                                                                                                                                         |
-| [`MeshSize`](#MeshWorkflowStepGroup.MeshSize)                                                                                                           | Defines the mesh size of the acoustic scenario based on the wave velocity and the frequency.                                                                                                                               |
-| [`NumberOfAcousticLayers`](#MeshWorkflowStepGroup.NumberOfAcousticLayers)                                                                               | Gets the number of layers in the acoustic region. This value is determined based on whether quadratic elements are enabled (see P:Ansys.ACT.Automation.Mechanical.MeshWorkflowStepGroup.QuadraticElements).                |
+| [`MeshSize`](#MeshWorkflowStepGroup.MeshSize)                               | Defines the mesh size of the acoustic scenario based on the wave velocity and the frequency.                                                                                                                               |
+| [`NumberOfAcousticLayers`](#MeshWorkflowStepGroup.NumberOfAcousticLayers)   | Gets the number of layers in the acoustic region. This value is determined based on whether quadratic elements are enabled (see P:Ansys.ACT.Automation.Mechanical.MeshWorkflowStepGroup.QuadraticElements).                |
 | [`NumberOfCores`](#MeshWorkflowStepGroup.NumberOfCores)                     | Defines how many CPU cores to be used in an operation (if supported by the operation).                                                                                                                                     |
-| [`NumberOfPMLs`](#MeshWorkflowStepGroup.NumberOfPMLs)                                                                                                   | Gets the number of layers in the perfectly meshed layers region. This value is determined based on whether quadratic elements are enabled (see P:Ansys.ACT.Automation.Mechanical.MeshWorkflowStepGroup.QuadraticElements). |
+| [`NumberOfPMLs`](#MeshWorkflowStepGroup.NumberOfPMLs)                       | Gets the number of layers in the perfectly meshed layers region. This value is determined based on whether quadratic elements are enabled (see P:Ansys.ACT.Automation.Mechanical.MeshWorkflowStepGroup.QuadraticElements). |
 | [`Properties`](#MeshWorkflowStepGroup.Properties)                           | Gets the list of properties for this object.                                                                                                                                                                               |
-| [`QuadraticElements`](#MeshWorkflowStepGroup.QuadraticElements)                                                                                         | Defines if the quadratic elements are used for the mesh generation.                                                                                                                                                        |
-| [`SpeedOfSound`](#MeshWorkflowStepGroup.SpeedOfSound)                                                                                                   | Defines the speed of sound in the acoustic scenario.                                                                                                                                                                       |
+| [`QuadraticElements`](#MeshWorkflowStepGroup.QuadraticElements)             | Defines if the quadratic elements are used for the mesh generation.                                                                                                                                                        |
+| [`SpeedOfSound`](#MeshWorkflowStepGroup.SpeedOfSound)                       | Defines the speed of sound in the acoustic scenario.                                                                                                                                                                       |
 | [`VisibleProperties`](#MeshWorkflowStepGroup.VisibleProperties)             | Gets the list of properties that are visible for this object.                                                                                                                                                              |
 
 <a id="property-detail"></a>
@@ -75,7 +75,7 @@ Defines the analysis frequency of the acoustic scenario.
 
 <a id="MeshWorkflowStepGroup.Children"></a>
 
-### *property* MeshWorkflowStepGroup.Children *: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* MeshWorkflowStepGroup.Children *: List[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of children.
 
@@ -91,7 +91,7 @@ Gets the current DataModelObject’s category.
 
 <a id="MeshWorkflowStepGroup.Figures"></a>
 
-### *property* MeshWorkflowStepGroup.Figures *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Figure](../../../../../v241/Ansys/ACT/Automation/Mechanical/Figure.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* MeshWorkflowStepGroup.Figures *: Iterable[[Ansys.ACT.Automation.Mechanical.Figure](Figure.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated figures.
 
@@ -99,7 +99,7 @@ Gets the list of associated figures.
 
 <a id="MeshWorkflowStepGroup.Images"></a>
 
-### *property* MeshWorkflowStepGroup.Images *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Image](../../../../../v241/Ansys/ACT/Automation/Mechanical/Image.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* MeshWorkflowStepGroup.Images *: Iterable[[Ansys.ACT.Automation.Mechanical.Image](Image.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated images.
 
@@ -123,7 +123,7 @@ Defines the mesh size of the acoustic scenario based on the wave velocity and th
 
 <a id="MeshWorkflowStepGroup.NumberOfAcousticLayers"></a>
 
-### *property* MeshWorkflowStepGroup.NumberOfAcousticLayers *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* MeshWorkflowStepGroup.NumberOfAcousticLayers *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the number of layers in the acoustic region. This value is determined based on whether quadratic elements are enabled (see P:Ansys.ACT.Automation.Mechanical.MeshWorkflowStepGroup.QuadraticElements).
 
@@ -131,7 +131,7 @@ Gets the number of layers in the acoustic region. This value is determined based
 
 <a id="MeshWorkflowStepGroup.NumberOfCores"></a>
 
-### *property* MeshWorkflowStepGroup.NumberOfCores *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* MeshWorkflowStepGroup.NumberOfCores *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Defines how many CPU cores to be used in an operation (if supported by the operation).
 
@@ -139,7 +139,7 @@ Defines how many CPU cores to be used in an operation (if supported by the opera
 
 <a id="MeshWorkflowStepGroup.NumberOfPMLs"></a>
 
-### *property* MeshWorkflowStepGroup.NumberOfPMLs *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* MeshWorkflowStepGroup.NumberOfPMLs *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the number of layers in the perfectly meshed layers region. This value is determined based on whether quadratic elements are enabled (see P:Ansys.ACT.Automation.Mechanical.MeshWorkflowStepGroup.QuadraticElements).
 
@@ -147,7 +147,7 @@ Gets the number of layers in the perfectly meshed layers region. This value is d
 
 <a id="MeshWorkflowStepGroup.Properties"></a>
 
-### *property* MeshWorkflowStepGroup.Properties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* MeshWorkflowStepGroup.Properties *: [tuple](https://docs.python.org/3/library/stdtypes.html#tuple)[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of properties for this object.
 
@@ -155,7 +155,7 @@ Gets the list of properties for this object.
 
 <a id="MeshWorkflowStepGroup.QuadraticElements"></a>
 
-### *property* MeshWorkflowStepGroup.QuadraticElements *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* MeshWorkflowStepGroup.QuadraticElements *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Defines if the quadratic elements are used for the mesh generation.
 
@@ -171,7 +171,7 @@ Defines the speed of sound in the acoustic scenario.
 
 <a id="MeshWorkflowStepGroup.VisibleProperties"></a>
 
-### *property* MeshWorkflowStepGroup.VisibleProperties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* MeshWorkflowStepGroup.VisibleProperties *: [tuple](https://docs.python.org/3/library/stdtypes.html#tuple)[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of properties that are visible for this object.
 
@@ -199,7 +199,7 @@ Creates a new child Figure.
 
 <a id="MeshWorkflowStepGroup.AddImage"></a>
 
-### MeshWorkflowStepGroup.AddImage(filePath: System.String)
+### MeshWorkflowStepGroup.AddImage(filePath: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 ```text
 Creates a new child Image.
@@ -235,7 +235,7 @@ Copies all visible properties from this object to another.
 
 <a id="MeshWorkflowStepGroup.CreateParameter"></a>
 
-### MeshWorkflowStepGroup.CreateParameter(propName: System.String)
+### MeshWorkflowStepGroup.CreateParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Creates a new parameter for a Property.
 
@@ -291,7 +291,7 @@ Executes the next step, i.e. the next operation which is ready to be executed un
 
 <a id="MeshWorkflowStepGroup.ExecuteUpToStep"></a>
 
-### MeshWorkflowStepGroup.ExecuteUpToStep(arg: System.Object)
+### MeshWorkflowStepGroup.ExecuteUpToStep(arg: Any)
 
 Executes any not yet ready steps up to and including the specified step.
 
@@ -299,7 +299,7 @@ Executes any not yet ready steps up to and including the specified step.
 
 <a id="MeshWorkflowStepGroup.GetChildren"></a>
 
-### MeshWorkflowStepGroup.GetChildren(recurses: System.Boolean, children: System.Collections.Generic.IList[ChildrenType])
+### MeshWorkflowStepGroup.GetChildren(recurses: [bool](https://docs.python.org/3/library/functions.html#bool), children: List[ChildrenType])
 
 Gets the list of children, filtered by type.
 
@@ -307,7 +307,7 @@ Gets the list of children, filtered by type.
 
 <a id="MeshWorkflowStepGroup.GetParameter"></a>
 
-### MeshWorkflowStepGroup.GetParameter(propName: System.String)
+### MeshWorkflowStepGroup.GetParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Gets the parameter corresponding to the given property.
 
@@ -339,7 +339,7 @@ Propagate the settings of the input SettingsType to the attributes of the Step n
 
 <a id="MeshWorkflowStepGroup.PropertyByAPIName"></a>
 
-### MeshWorkflowStepGroup.PropertyByAPIName(name: System.String)
+### MeshWorkflowStepGroup.PropertyByAPIName(name: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 ```text
 Get a property by its API name.
@@ -350,7 +350,7 @@ If multiple properties have the same API Name, only the first property with that
 
 <a id="MeshWorkflowStepGroup.PropertyByName"></a>
 
-### MeshWorkflowStepGroup.PropertyByName(name: System.String)
+### MeshWorkflowStepGroup.PropertyByName(name: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Get a property by its unique name.
 
@@ -358,7 +358,7 @@ Get a property by its unique name.
 
 <a id="MeshWorkflowStepGroup.RemoveParameter"></a>
 
-### MeshWorkflowStepGroup.RemoveParameter(propName: System.String)
+### MeshWorkflowStepGroup.RemoveParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Removes the parameter from the parameter set corresponding to the given property.
 
@@ -366,7 +366,7 @@ Removes the parameter from the parameter set corresponding to the given property
 
 <a id="MeshWorkflowStepGroup.RevertToStep"></a>
 
-### MeshWorkflowStepGroup.RevertToStep(arg: System.Object)
+### MeshWorkflowStepGroup.RevertToStep(arg: Any)
 
 Revert to the specified step; if no checkpoint is available, then an exception will be raised.
 

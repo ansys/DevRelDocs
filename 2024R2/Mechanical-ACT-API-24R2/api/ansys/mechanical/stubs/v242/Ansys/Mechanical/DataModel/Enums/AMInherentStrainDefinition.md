@@ -17,7 +17,7 @@ Specifies the AMInherentStrainDefinition.
 ### Attributes
 
 | Name |
-| ------------------------------------------------------------------------------------------------------------------------------------------------ |
+| -------------------------------------------------------------- |
 | [`Anisotropic`](#AMInherentStrainDefinition.Anisotropic) |
 | [`Isotropic`](#AMInherentStrainDefinition.Isotropic) |
 | [`ScanPattern`](#AMInherentStrainDefinition.ScanPattern) |

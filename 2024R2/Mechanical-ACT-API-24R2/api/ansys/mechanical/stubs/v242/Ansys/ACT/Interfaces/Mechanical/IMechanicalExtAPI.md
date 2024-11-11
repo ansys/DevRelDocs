@@ -17,7 +17,7 @@ Exposes the main entry point of all ATC APIs.
 ### Methods
 
 | Name | Description |
-|-------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------|
+|-------------------------------------------------------------------|-------------------------------------------------------|
 | [`LockPrePostLicense`](#IMechanicalExtAPI.LockPrePostLicense)     | Locks the license used by the PRE/POST application.   |
 | [`UnlockPrePostLicense`](#IMechanicalExtAPI.UnlockPrePostLicense) | R                                                     |
 

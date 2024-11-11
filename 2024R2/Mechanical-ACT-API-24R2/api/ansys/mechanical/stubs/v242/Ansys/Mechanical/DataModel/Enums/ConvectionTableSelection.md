@@ -17,7 +17,7 @@ Specifies the ConvectionTableSelection.
 ### Attributes
 
 | Name |
-| -------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| ------------------------------------------------------------------------ |
 | [`AmbientTemperature`](#ConvectionTableSelection.AmbientTemperature) |
 | [`FilmCoefficient`](#ConvectionTableSelection.FilmCoefficient) |
 

@@ -17,7 +17,7 @@ GeometryRayCastHit, contains geoEntity and vector normal
 ### Properties
 
 | Name | Description |
-|---------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------|
+|----------------------------------------------|-------------------------------------------------------------------------------|
 | [`Entity`](#GeometryRayCastHit.Entity)       | Geometry entity hit by ray cast                                               |
 | [`HitVector`](#GeometryRayCastHit.HitVector) | BoundVector with location and normal direction on geometry entity to ray cast |
 

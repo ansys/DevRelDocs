@@ -17,7 +17,7 @@ Specifies the BoltLoadDefineBy.
 ### Attributes
 
 | Name |
-| ------------------------------------------------------------------------------------------------------------------------ |
+| ------------------------------------------------ |
 | [`Adjustment`](#BoltLoadDefineBy.Adjustment) |
 | [`Increment`](#BoltLoadDefineBy.Increment) |
 | [`Load`](#BoltLoadDefineBy.Load) |

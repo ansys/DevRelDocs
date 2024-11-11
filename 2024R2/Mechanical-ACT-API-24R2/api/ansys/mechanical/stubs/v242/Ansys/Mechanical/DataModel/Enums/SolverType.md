@@ -17,7 +17,7 @@ Specifies the SolverType.
 ### Attributes
 
 | Name |
-| ------------------------------------------------------------------------------------------------------------------------ |
+| ------------------------------------------------------ |
 | [`Direct`](#SolverType.Direct) |
 | [`FullDamped`](#SolverType.FullDamped) |
 | [`Iterative`](#SolverType.Iterative) |

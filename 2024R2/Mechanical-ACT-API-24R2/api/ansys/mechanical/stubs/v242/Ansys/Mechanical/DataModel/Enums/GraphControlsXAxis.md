@@ -17,7 +17,7 @@ Specifies the GraphControlsXAxis.
 ### Attributes
 
 | Name |
-| -------------------------------------------------------------------------------------------------------------------------- |
+| ------------------------------------------------ |
 | [`Frequency`](#GraphControlsXAxis.Frequency) |
 | [`Mode`](#GraphControlsXAxis.Mode) |
 | [`Phase`](#GraphControlsXAxis.Phase) |

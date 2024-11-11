@@ -17,7 +17,7 @@ Specifies the NonlinearAdaptivityUpdateType.
 ### Attributes
 
 | Name |
-| -------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| ------------------------------------------------------------------------------------- |
 | [`EquallySpacedPoints`](#NonlinearAdaptivityUpdateType.EquallySpacedPoints) |
 | [`SpecifiedRecurrenceRate`](#NonlinearAdaptivityUpdateType.SpecifiedRecurrenceRate) |
 

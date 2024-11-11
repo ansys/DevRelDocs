@@ -17,7 +17,7 @@ Specifies the ShellMBPOrientationType.
 ### Attributes
 
 | Name |
-| ---------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| --------------------------------------------------------------------------------- |
 | [`LocalElementDirection11`](#ShellMBPOrientationType.LocalElementDirection11) |
 | [`LocalElementDirection12`](#ShellMBPOrientationType.LocalElementDirection12) |
 | [`LocalElementDirection22`](#ShellMBPOrientationType.LocalElementDirection22) |

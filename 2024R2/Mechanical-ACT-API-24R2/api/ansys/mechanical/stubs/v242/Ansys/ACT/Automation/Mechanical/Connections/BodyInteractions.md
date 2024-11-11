@@ -75,7 +75,7 @@ Gets or sets the BodySelfContact.
 
 <a id="BodyInteractions.Children"></a>
 
-### *property* BodyInteractions.Children *: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* BodyInteractions.Children *: List[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of children.
 
@@ -83,7 +83,7 @@ Gets the list of children.
 
 <a id="BodyInteractions.Comments"></a>
 
-### *property* BodyInteractions.Comments *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Comment](../../../../../../v241/Ansys/ACT/Automation/Mechanical/Comment.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* BodyInteractions.Comments *: Iterable[[Ansys.ACT.Automation.Mechanical.Comment](../Comment.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated comments.
 
@@ -107,7 +107,7 @@ Gets the current DataModelObject’s category.
 
 <a id="BodyInteractions.EdgeOnEdgeContact"></a>
 
-### *property* BodyInteractions.EdgeOnEdgeContact *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* BodyInteractions.EdgeOnEdgeContact *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the EdgeOnEdgeContact.
 
@@ -123,7 +123,7 @@ Gets or sets the ElementSelfContact.
 
 <a id="BodyInteractions.Figures"></a>
 
-### *property* BodyInteractions.Figures *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Figure](../../../../../../v241/Ansys/ACT/Automation/Mechanical/Figure.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* BodyInteractions.Figures *: Iterable[[Ansys.ACT.Automation.Mechanical.Figure](../Figure.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated figures.
 
@@ -139,7 +139,7 @@ Gets or sets the Formulation.
 
 <a id="BodyInteractions.Images"></a>
 
-### *property* BodyInteractions.Images *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Image](../../../../../../v241/Ansys/ACT/Automation/Mechanical/Image.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* BodyInteractions.Images *: Iterable[[Ansys.ACT.Automation.Mechanical.Image](../Image.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated images.
 
@@ -179,7 +179,7 @@ Gets or sets the NodalShellThickness.
 
 <a id="BodyInteractions.PinballFactor"></a>
 
-### *property* BodyInteractions.PinballFactor *: System.Double | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* BodyInteractions.PinballFactor *: [float](https://docs.python.org/3/library/functions.html#float) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the PinballFactor.
 
@@ -187,7 +187,7 @@ Gets or sets the PinballFactor.
 
 <a id="BodyInteractions.Properties"></a>
 
-### *property* BodyInteractions.Properties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* BodyInteractions.Properties *: [tuple](https://docs.python.org/3/library/stdtypes.html#tuple)[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of properties for this object.
 
@@ -195,7 +195,7 @@ Gets the list of properties for this object.
 
 <a id="BodyInteractions.ShellThicknessFactor"></a>
 
-### *property* BodyInteractions.ShellThicknessFactor *: System.Double | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* BodyInteractions.ShellThicknessFactor *: [float](https://docs.python.org/3/library/functions.html#float) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the ShellThicknessFactor.
 
@@ -211,7 +211,7 @@ Gets or sets the SlidingContact.
 
 <a id="BodyInteractions.TimestepSafetyFactor"></a>
 
-### *property* BodyInteractions.TimestepSafetyFactor *: System.Double | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* BodyInteractions.TimestepSafetyFactor *: [float](https://docs.python.org/3/library/functions.html#float) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the TimestepSafetyFactor.
 
@@ -219,7 +219,7 @@ Gets or sets the TimestepSafetyFactor.
 
 <a id="BodyInteractions.Tolerance"></a>
 
-### *property* BodyInteractions.Tolerance *: System.Double | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* BodyInteractions.Tolerance *: [float](https://docs.python.org/3/library/functions.html#float) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Tolerance.
 
@@ -227,7 +227,7 @@ Gets or sets the Tolerance.
 
 <a id="BodyInteractions.VisibleProperties"></a>
 
-### *property* BodyInteractions.VisibleProperties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* BodyInteractions.VisibleProperties *: [tuple](https://docs.python.org/3/library/stdtypes.html#tuple)[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of properties that are visible for this object.
 
@@ -271,7 +271,7 @@ Creates a new child Figure.
 
 <a id="BodyInteractions.AddImage"></a>
 
-### BodyInteractions.AddImage(filePath: System.String)
+### BodyInteractions.AddImage(filePath: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 ```text
 Creates a new child Image.
@@ -291,7 +291,7 @@ Copies all visible properties from this object to another.
 
 <a id="BodyInteractions.CreateParameter"></a>
 
-### BodyInteractions.CreateParameter(propName: System.String)
+### BodyInteractions.CreateParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Creates a new parameter for a Property.
 
@@ -315,7 +315,7 @@ Creates a copy of the current DataModelObject.
 
 <a id="BodyInteractions.GetChildren"></a>
 
-### BodyInteractions.GetChildren(recurses: System.Boolean, children: System.Collections.Generic.IList[ChildrenType])
+### BodyInteractions.GetChildren(recurses: [bool](https://docs.python.org/3/library/functions.html#bool), children: List[ChildrenType])
 
 Gets the list of children, filtered by type.
 
@@ -323,7 +323,7 @@ Gets the list of children, filtered by type.
 
 <a id="BodyInteractions.GetParameter"></a>
 
-### BodyInteractions.GetParameter(propName: System.String)
+### BodyInteractions.GetParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Gets the parameter corresponding to the given property.
 
@@ -347,7 +347,7 @@ Run the GroupSimilarObjects action.
 
 <a id="BodyInteractions.PropertyByAPIName"></a>
 
-### BodyInteractions.PropertyByAPIName(name: System.String)
+### BodyInteractions.PropertyByAPIName(name: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 ```text
 Get a property by its API name.
@@ -358,7 +358,7 @@ If multiple properties have the same API Name, only the first property with that
 
 <a id="BodyInteractions.PropertyByName"></a>
 
-### BodyInteractions.PropertyByName(name: System.String)
+### BodyInteractions.PropertyByName(name: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Get a property by its unique name.
 
@@ -366,7 +366,7 @@ Get a property by its unique name.
 
 <a id="BodyInteractions.RemoveParameter"></a>
 
-### BodyInteractions.RemoveParameter(propName: System.String)
+### BodyInteractions.RemoveParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Removes the parameter from the parameter set corresponding to the given property.
 

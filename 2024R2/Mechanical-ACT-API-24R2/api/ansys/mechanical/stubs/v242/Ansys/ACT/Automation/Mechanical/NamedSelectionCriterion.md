@@ -17,7 +17,7 @@ NamedSelectionCriterion class.
 ### Properties
 
 | Name | Description |
-|-----------------------------------------------------------------------------------------------------------------------------------------------|----------------------------|
+|-----------------------------------------------------------------|----------------------------|
 | [`Action`](#NamedSelectionCriterion.Action)                     | Action property.           |
 | [`Active`](#NamedSelectionCriterion.Active)                     | Active property.           |
 | [`CoordinateSystem`](#NamedSelectionCriterion.CoordinateSystem) | CoordinateSystem property. |
@@ -42,7 +42,7 @@ Action property.
 
 <a id="NamedSelectionCriterion.Active"></a>
 
-### *property* NamedSelectionCriterion.Active *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* NamedSelectionCriterion.Active *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Active property.
 
@@ -50,7 +50,7 @@ Active property.
 
 <a id="NamedSelectionCriterion.CoordinateSystem"></a>
 
-### *property* NamedSelectionCriterion.CoordinateSystem *: [Ansys.ACT.Automation.Mechanical.CoordinateSystem](../../../../../v241/Ansys/ACT/Automation/Mechanical/CoordinateSystem.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.CoordinateSystem) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* NamedSelectionCriterion.CoordinateSystem *: [Ansys.ACT.Automation.Mechanical.CoordinateSystem](CoordinateSystem.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.CoordinateSystem) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 CoordinateSystem property.
 
@@ -74,7 +74,7 @@ EntityType property.
 
 <a id="NamedSelectionCriterion.LowerBound"></a>
 
-### *property* NamedSelectionCriterion.LowerBound *: System.Object | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* NamedSelectionCriterion.LowerBound *: Any | [None](https://docs.python.org/3/library/constants.html#None)*
 
 LowerBound property.
 
@@ -90,7 +90,7 @@ Operator property.
 
 <a id="NamedSelectionCriterion.UpperBound"></a>
 
-### *property* NamedSelectionCriterion.UpperBound *: System.Object | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* NamedSelectionCriterion.UpperBound *: Any | [None](https://docs.python.org/3/library/constants.html#None)*
 
 UpperBound property.
 
@@ -98,7 +98,7 @@ UpperBound property.
 
 <a id="NamedSelectionCriterion.Value"></a>
 
-### *property* NamedSelectionCriterion.Value *: System.Object | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* NamedSelectionCriterion.Value *: Any | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Value property.
 

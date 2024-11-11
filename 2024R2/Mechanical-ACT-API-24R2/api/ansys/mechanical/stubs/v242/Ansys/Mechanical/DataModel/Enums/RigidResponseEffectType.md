@@ -17,7 +17,7 @@ Specifies the RigidResponseEffectType.
 ### Attributes
 
 | Name |
-| ------------------------------------------------------------------------------------------------------------------------------ |
+| ----------------------------------------------- |
 | [`Gupta`](#RigidResponseEffectType.Gupta) |
 | [`Lindely`](#RigidResponseEffectType.Lindely) |
 

@@ -58,7 +58,7 @@ Defines a CompositeFailureTool.
 
 <a id="CompositeFailureTool.Children"></a>
 
-### *property* CompositeFailureTool.Children *: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* CompositeFailureTool.Children *: List[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of children.
 
@@ -66,7 +66,7 @@ Gets the list of children.
 
 <a id="CompositeFailureTool.Comments"></a>
 
-### *property* CompositeFailureTool.Comments *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Comment](../../Comment.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* CompositeFailureTool.Comments *: Iterable[[Ansys.ACT.Automation.Mechanical.Comment](../../Comment.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated comments.
 
@@ -74,7 +74,7 @@ Gets the list of associated comments.
 
 <a id="CompositeFailureTool.DataModelObjectCategory"></a>
 
-### *property* CompositeFailureTool.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../../../v242/Ansys/Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* CompositeFailureTool.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the current DataModelObject’s category.
 
@@ -82,7 +82,7 @@ Gets the current DataModelObject’s category.
 
 <a id="CompositeFailureTool.Figures"></a>
 
-### *property* CompositeFailureTool.Figures *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Figure](../../Figure.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* CompositeFailureTool.Figures *: Iterable[[Ansys.ACT.Automation.Mechanical.Figure](../../Figure.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated figures.
 
@@ -90,7 +90,7 @@ Gets the list of associated figures.
 
 <a id="CompositeFailureTool.Images"></a>
 
-### *property* CompositeFailureTool.Images *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Image](../../Image.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* CompositeFailureTool.Images *: Iterable[[Ansys.ACT.Automation.Mechanical.Image](../../Image.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated images.
 
@@ -106,7 +106,7 @@ Gets the internal object. For advanced usage only.
 
 <a id="CompositeFailureTool.Properties"></a>
 
-### *property* CompositeFailureTool.Properties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* CompositeFailureTool.Properties *: [tuple](https://docs.python.org/3/library/stdtypes.html#tuple)[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of properties for this object.
 
@@ -114,7 +114,7 @@ Gets the list of properties for this object.
 
 <a id="CompositeFailureTool.VisibleProperties"></a>
 
-### *property* CompositeFailureTool.VisibleProperties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* CompositeFailureTool.VisibleProperties *: [tuple](https://docs.python.org/3/library/stdtypes.html#tuple)[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of properties that are visible for this object.
 
@@ -150,7 +150,7 @@ Creates a new child Figure.
 
 <a id="CompositeFailureTool.AddGroupedScopedACPResults"></a>
 
-### CompositeFailureTool.AddGroupedScopedACPResults(resultType: [Ansys.Mechanical.DataModel.Enums.ResultType](../../../../../../../v242/Ansys/Mechanical/DataModel/Enums/ResultType.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.ResultType), selectedPlies: System.Collections.Generic.IEnumerable[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject])
+### CompositeFailureTool.AddGroupedScopedACPResults(resultType: [Ansys.Mechanical.DataModel.Enums.ResultType](../../../../../Mechanical/DataModel/Enums/ResultType.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.ResultType), selectedPlies: Iterable[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject])
 
 AddGroupedScopedACPResults method.
 
@@ -158,7 +158,7 @@ AddGroupedScopedACPResults method.
 
 <a id="CompositeFailureTool.AddImage"></a>
 
-### CompositeFailureTool.AddImage(filePath: System.String)
+### CompositeFailureTool.AddImage(filePath: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 ```text
 Creates a new child Image.
@@ -202,7 +202,7 @@ Copies all visible properties from this object to another.
 
 <a id="CompositeFailureTool.CreateParameter"></a>
 
-### CompositeFailureTool.CreateParameter(propName: System.String)
+### CompositeFailureTool.CreateParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Creates a new parameter for a Property.
 
@@ -234,7 +234,7 @@ Run the EvaluateAllResults action.
 
 <a id="CompositeFailureTool.GetChildren"></a>
 
-### CompositeFailureTool.GetChildren(recurses: System.Boolean, children: System.Collections.Generic.IList[ChildrenType])
+### CompositeFailureTool.GetChildren(recurses: [bool](https://docs.python.org/3/library/functions.html#bool), children: List[ChildrenType])
 
 Gets the list of children, filtered by type.
 
@@ -242,7 +242,7 @@ Gets the list of children, filtered by type.
 
 <a id="CompositeFailureTool.GetParameter"></a>
 
-### CompositeFailureTool.GetParameter(propName: System.String)
+### CompositeFailureTool.GetParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Gets the parameter corresponding to the given property.
 
@@ -266,7 +266,7 @@ Run the GroupSimilarObjects action.
 
 <a id="CompositeFailureTool.PropertyByAPIName"></a>
 
-### CompositeFailureTool.PropertyByAPIName(name: System.String)
+### CompositeFailureTool.PropertyByAPIName(name: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 ```text
 Get a property by its API name.
@@ -277,7 +277,7 @@ If multiple properties have the same API Name, only the first property with that
 
 <a id="CompositeFailureTool.PropertyByName"></a>
 
-### CompositeFailureTool.PropertyByName(name: System.String)
+### CompositeFailureTool.PropertyByName(name: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Get a property by its unique name.
 
@@ -285,7 +285,7 @@ Get a property by its unique name.
 
 <a id="CompositeFailureTool.RemoveParameter"></a>
 
-### CompositeFailureTool.RemoveParameter(propName: System.String)
+### CompositeFailureTool.RemoveParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Removes the parameter from the parameter set corresponding to the given property.
 

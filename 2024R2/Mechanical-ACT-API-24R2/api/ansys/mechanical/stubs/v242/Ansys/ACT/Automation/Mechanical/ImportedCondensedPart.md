@@ -87,7 +87,7 @@ Defines a ImportedCondensedPart.
 
 <a id="ImportedCondensedPart.ActualNodeOffset"></a>
 
-### *property* ImportedCondensedPart.ActualNodeOffset *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ImportedCondensedPart.ActualNodeOffset *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the ActualNodeOffset.
 
@@ -95,7 +95,7 @@ Gets the ActualNodeOffset.
 
 <a id="ImportedCondensedPart.Children"></a>
 
-### *property* ImportedCondensedPart.Children *: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ImportedCondensedPart.Children *: List[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of children.
 
@@ -103,7 +103,7 @@ Gets the list of children.
 
 <a id="ImportedCondensedPart.Comments"></a>
 
-### *property* ImportedCondensedPart.Comments *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Comment](../../../../../v241/Ansys/ACT/Automation/Mechanical/Comment.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ImportedCondensedPart.Comments *: Iterable[[Ansys.ACT.Automation.Mechanical.Comment](Comment.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated comments.
 
@@ -111,7 +111,7 @@ Gets the list of associated comments.
 
 <a id="ImportedCondensedPart.CondensedPartFileName"></a>
 
-### *property* ImportedCondensedPart.CondensedPartFileName *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ImportedCondensedPart.CondensedPartFileName *: [str](https://docs.python.org/3/library/stdtypes.html#str) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the CondensedPartFileName.
 
@@ -127,7 +127,7 @@ Gets or sets the CondensedPartUnitSystem.
 
 <a id="ImportedCondensedPart.CoordinateSystem"></a>
 
-### *property* ImportedCondensedPart.CoordinateSystem *: [Ansys.ACT.Automation.Mechanical.CoordinateSystem](../../../../../v241/Ansys/ACT/Automation/Mechanical/CoordinateSystem.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.CoordinateSystem) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ImportedCondensedPart.CoordinateSystem *: [Ansys.ACT.Automation.Mechanical.CoordinateSystem](CoordinateSystem.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.CoordinateSystem) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the CoordinateSystem.
 
@@ -151,7 +151,7 @@ Gets the current DataModelObject’s category.
 
 <a id="ImportedCondensedPart.Figures"></a>
 
-### *property* ImportedCondensedPart.Figures *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Figure](../../../../../v241/Ansys/ACT/Automation/Mechanical/Figure.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ImportedCondensedPart.Figures *: Iterable[[Ansys.ACT.Automation.Mechanical.Figure](Figure.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated figures.
 
@@ -175,7 +175,7 @@ Gets or sets the GeometrySelection.
 
 <a id="ImportedCondensedPart.Images"></a>
 
-### *property* ImportedCondensedPart.Images *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Image](../../../../../v241/Ansys/ACT/Automation/Mechanical/Image.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ImportedCondensedPart.Images *: Iterable[[Ansys.ACT.Automation.Mechanical.Image](Image.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated images.
 
@@ -207,7 +207,7 @@ Gets the internal object. For advanced usage only.
 
 <a id="ImportedCondensedPart.NodeOffset"></a>
 
-### *property* ImportedCondensedPart.NodeOffset *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ImportedCondensedPart.NodeOffset *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the NodeOffset.
 
@@ -215,7 +215,7 @@ Gets or sets the NodeOffset.
 
 <a id="ImportedCondensedPart.NumberInterfaceEntries"></a>
 
-### *property* ImportedCondensedPart.NumberInterfaceEntries *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ImportedCondensedPart.NumberInterfaceEntries *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the NumberInterfaceEntries.
 
@@ -223,7 +223,7 @@ Gets the NumberInterfaceEntries.
 
 <a id="ImportedCondensedPart.NumberMasterNodes"></a>
 
-### *property* ImportedCondensedPart.NumberMasterNodes *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ImportedCondensedPart.NumberMasterNodes *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the NumberMasterNodes.
 
@@ -239,7 +239,7 @@ Gets the Physics.
 
 <a id="ImportedCondensedPart.Properties"></a>
 
-### *property* ImportedCondensedPart.Properties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ImportedCondensedPart.Properties *: [tuple](https://docs.python.org/3/library/stdtypes.html#tuple)[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of properties for this object.
 
@@ -255,7 +255,7 @@ Gets or sets the ReferenceTemperature.
 
 <a id="ImportedCondensedPart.SolutionName"></a>
 
-### *property* ImportedCondensedPart.SolutionName *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ImportedCondensedPart.SolutionName *: [str](https://docs.python.org/3/library/stdtypes.html#str) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the SolutionName.
 
@@ -271,7 +271,7 @@ Gets or sets the SolutionNameMode.
 
 <a id="ImportedCondensedPart.SolverFilesDirectory"></a>
 
-### *property* ImportedCondensedPart.SolverFilesDirectory *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ImportedCondensedPart.SolverFilesDirectory *: [str](https://docs.python.org/3/library/stdtypes.html#str) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the SolverFilesDirectory.
 
@@ -295,7 +295,7 @@ Gets or sets the SolverUnits.
 
 <a id="ImportedCondensedPart.Suppressed"></a>
 
-### *property* ImportedCondensedPart.Suppressed *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ImportedCondensedPart.Suppressed *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Suppressed.
 
@@ -303,7 +303,7 @@ Gets or sets the Suppressed.
 
 <a id="ImportedCondensedPart.TemperatureUnits"></a>
 
-### *property* ImportedCondensedPart.TemperatureUnits *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ImportedCondensedPart.TemperatureUnits *: [str](https://docs.python.org/3/library/stdtypes.html#str) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the TemperatureUnits.
 
@@ -311,7 +311,7 @@ Gets the TemperatureUnits.
 
 <a id="ImportedCondensedPart.VisibleProperties"></a>
 
-### *property* ImportedCondensedPart.VisibleProperties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ImportedCondensedPart.VisibleProperties *: [tuple](https://docs.python.org/3/library/stdtypes.html#tuple)[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of properties that are visible for this object.
 
@@ -355,7 +355,7 @@ Creates a new child Figure.
 
 <a id="ImportedCondensedPart.AddImage"></a>
 
-### ImportedCondensedPart.AddImage(filePath: System.String)
+### ImportedCondensedPart.AddImage(filePath: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 ```text
 Creates a new child Image.
@@ -383,7 +383,7 @@ Copies all visible properties from this object to another.
 
 <a id="ImportedCondensedPart.CreateJointFromNodeIds"></a>
 
-### ImportedCondensedPart.CreateJointFromNodeIds(selectedNodeIds: System.Collections.Generic.IEnumerable[System.Int32])
+### ImportedCondensedPart.CreateJointFromNodeIds(selectedNodeIds: Iterable[[int](https://docs.python.org/3/library/functions.html#int)])
 
 CreateJointFromNodeIds method.
 
@@ -391,7 +391,7 @@ CreateJointFromNodeIds method.
 
 <a id="ImportedCondensedPart.CreateJoints"></a>
 
-### ImportedCondensedPart.CreateJoints(selectedInterfaceIDNumbers: System.Collections.Generic.IEnumerable[System.Int32])
+### ImportedCondensedPart.CreateJoints(selectedInterfaceIDNumbers: Iterable[[int](https://docs.python.org/3/library/functions.html#int)])
 
 CreateJoints method.
 
@@ -399,7 +399,7 @@ CreateJoints method.
 
 <a id="ImportedCondensedPart.CreateNodalNamedSelectionFromNodeIds"></a>
 
-### ImportedCondensedPart.CreateNodalNamedSelectionFromNodeIds(selectedNodeIds: System.Collections.Generic.IEnumerable[System.Int32])
+### ImportedCondensedPart.CreateNodalNamedSelectionFromNodeIds(selectedNodeIds: Iterable[[int](https://docs.python.org/3/library/functions.html#int)])
 
 CreateNodalNamedSelectionFromNodeIds method.
 
@@ -407,7 +407,7 @@ CreateNodalNamedSelectionFromNodeIds method.
 
 <a id="ImportedCondensedPart.CreateNodalNamedSelections"></a>
 
-### ImportedCondensedPart.CreateNodalNamedSelections(selectedInterfaceIDNumbers: System.Collections.Generic.IEnumerable[System.Int32])
+### ImportedCondensedPart.CreateNodalNamedSelections(selectedInterfaceIDNumbers: Iterable[[int](https://docs.python.org/3/library/functions.html#int)])
 
 CreateNodalNamedSelections method.
 
@@ -415,7 +415,7 @@ CreateNodalNamedSelections method.
 
 <a id="ImportedCondensedPart.CreateParameter"></a>
 
-### ImportedCondensedPart.CreateParameter(propName: System.String)
+### ImportedCondensedPart.CreateParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Creates a new parameter for a Property.
 
@@ -423,7 +423,7 @@ Creates a new parameter for a Property.
 
 <a id="ImportedCondensedPart.CreateRemotePointFromNodeIds"></a>
 
-### ImportedCondensedPart.CreateRemotePointFromNodeIds(selectedNodeIds: System.Collections.Generic.IEnumerable[System.Int32])
+### ImportedCondensedPart.CreateRemotePointFromNodeIds(selectedNodeIds: Iterable[[int](https://docs.python.org/3/library/functions.html#int)])
 
 CreateRemotePointFromNodeIds method.
 
@@ -431,7 +431,7 @@ CreateRemotePointFromNodeIds method.
 
 <a id="ImportedCondensedPart.CreateRemotePoints"></a>
 
-### ImportedCondensedPart.CreateRemotePoints(selectedInterfaceIDNumbers: System.Collections.Generic.IEnumerable[System.Int32])
+### ImportedCondensedPart.CreateRemotePoints(selectedInterfaceIDNumbers: Iterable[[int](https://docs.python.org/3/library/functions.html#int)])
 
 CreateRemotePoints method.
 
@@ -455,7 +455,7 @@ Creates a copy of the current DataModelObject.
 
 <a id="ImportedCondensedPart.GetChildren"></a>
 
-### ImportedCondensedPart.GetChildren(recurses: System.Boolean, children: System.Collections.Generic.IList[ChildrenType])
+### ImportedCondensedPart.GetChildren(recurses: [bool](https://docs.python.org/3/library/functions.html#bool), children: List[ChildrenType])
 
 Gets the list of children, filtered by type.
 
@@ -471,7 +471,7 @@ Get all the Node Locations of the Original Interfaces Data table.
 
 <a id="ImportedCondensedPart.GetParameter"></a>
 
-### ImportedCondensedPart.GetParameter(propName: System.String)
+### ImportedCondensedPart.GetParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Gets the parameter corresponding to the given property.
 
@@ -511,7 +511,7 @@ Run the Import Condensed Part action.
 
 <a id="ImportedCondensedPart.PropertyByAPIName"></a>
 
-### ImportedCondensedPart.PropertyByAPIName(name: System.String)
+### ImportedCondensedPart.PropertyByAPIName(name: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 ```text
 Get a property by its API name.
@@ -522,7 +522,7 @@ If multiple properties have the same API Name, only the first property with that
 
 <a id="ImportedCondensedPart.PropertyByName"></a>
 
-### ImportedCondensedPart.PropertyByName(name: System.String)
+### ImportedCondensedPart.PropertyByName(name: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Get a property by its unique name.
 
@@ -538,7 +538,7 @@ Run the Read Interface Data action.
 
 <a id="ImportedCondensedPart.RemoveParameter"></a>
 
-### ImportedCondensedPart.RemoveParameter(propName: System.String)
+### ImportedCondensedPart.RemoveParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Removes the parameter from the parameter set corresponding to the given property.
 
@@ -546,7 +546,7 @@ Removes the parameter from the parameter set corresponding to the given property
 
 <a id="ImportedCondensedPart.UpdateNodeLocation"></a>
 
-### ImportedCondensedPart.UpdateNodeLocation(iNodeID: System.Int32, locX: Ansys.Core.Units.Quantity, locY: Ansys.Core.Units.Quantity, locZ: Ansys.Core.Units.Quantity, rotX: Ansys.Core.Units.Quantity, rotY: Ansys.Core.Units.Quantity, rotZ: Ansys.Core.Units.Quantity)
+### ImportedCondensedPart.UpdateNodeLocation(iNodeID: [int](https://docs.python.org/3/library/functions.html#int), locX: Ansys.Core.Units.Quantity, locY: Ansys.Core.Units.Quantity, locZ: Ansys.Core.Units.Quantity, rotX: Ansys.Core.Units.Quantity, rotY: Ansys.Core.Units.Quantity, rotZ: Ansys.Core.Units.Quantity)
 
 Update Node Location of Original Interfaces Data view table.
 

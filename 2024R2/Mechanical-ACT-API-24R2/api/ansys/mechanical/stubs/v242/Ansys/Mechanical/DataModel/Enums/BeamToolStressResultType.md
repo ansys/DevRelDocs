@@ -17,7 +17,7 @@ Specifies the BeamToolStressResultType.
 ### Attributes
 
 | Name |
-| ------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| ---------------------------------------------------------------------------- |
 | [`DirectStress`](#BeamToolStressResultType.DirectStress) |
 | [`MaximumBendingStress`](#BeamToolStressResultType.MaximumBendingStress) |
 | [`MaximumCombinedStress`](#BeamToolStressResultType.MaximumCombinedStress) |

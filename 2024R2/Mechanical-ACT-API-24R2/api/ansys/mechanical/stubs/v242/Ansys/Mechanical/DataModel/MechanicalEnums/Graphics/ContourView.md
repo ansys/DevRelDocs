@@ -17,7 +17,7 @@ Specifies the ContourView.
 ### Attributes
 
 | Name |
-| ------------------------------------------------------------------------------------------------------------------------------------------ |
+| ------------------------------------------------- |
 | [`ContourBands`](#ContourView.ContourBands) |
 | [`Isolines`](#ContourView.Isolines) |
 | [`SmoothContours`](#ContourView.SmoothContours) |

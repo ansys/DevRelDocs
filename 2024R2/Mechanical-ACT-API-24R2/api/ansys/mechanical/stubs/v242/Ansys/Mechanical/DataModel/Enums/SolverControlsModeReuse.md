@@ -17,7 +17,7 @@ Specifies the SolverControlsModeReuse.
 ### Attributes
 
 | Name |
-| -------------------------------------------------------------------------------------------------------------------------------------------------- |
+| ------------------------------------------------------------------- |
 | [`No`](#SolverControlsModeReuse.No) |
 | [`ProgramControlled`](#SolverControlsModeReuse.ProgramControlled) |
 | [`Yes`](#SolverControlsModeReuse.Yes) |

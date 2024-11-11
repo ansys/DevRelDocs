@@ -17,7 +17,7 @@ Specifies the TargetCorrection.
 ### Attributes
 
 | Name |
-| -------------------------------------------------------------------------------------------------------------------- |
+| -------------------------------------------- |
 | [`No`](#TargetCorrection.No) |
 | [`Smoothing`](#TargetCorrection.Smoothing) |
 

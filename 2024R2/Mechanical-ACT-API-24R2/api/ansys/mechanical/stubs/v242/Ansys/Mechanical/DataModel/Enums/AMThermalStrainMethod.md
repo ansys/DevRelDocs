@@ -17,7 +17,7 @@ Specifies the AMThermalStrainMethod.
 ### Attributes
 
 | Name |
-| ------------------------------------------------------------------------------------------------------------------------------------------ |
+| ------------------------------------------------------------- |
 | [`FullThermal`](#AMThermalStrainMethod.FullThermal) |
 | [`MachineLearning`](#AMThermalStrainMethod.MachineLearning) |
 

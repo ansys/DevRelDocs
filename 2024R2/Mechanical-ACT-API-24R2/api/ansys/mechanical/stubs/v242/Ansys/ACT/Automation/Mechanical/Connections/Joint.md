@@ -141,7 +141,7 @@ Returns the Bushing Coeffients worksheet associated with Bushing Joint.
 
 <a id="Joint.Children"></a>
 
-### *property* Joint.Children *: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Joint.Children *: List[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of children.
 
@@ -149,7 +149,7 @@ Gets the list of children.
 
 <a id="Joint.Comments"></a>
 
-### *property* Joint.Comments *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Comment](../../../../../../v241/Ansys/ACT/Automation/Mechanical/Comment.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Joint.Comments *: Iterable[[Ansys.ACT.Automation.Mechanical.Comment](../Comment.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated comments.
 
@@ -189,7 +189,7 @@ Gets or sets the EffectiveLength.
 
 <a id="Joint.ElementCoordinateSystem"></a>
 
-### *property* Joint.ElementCoordinateSystem *: [Ansys.ACT.Automation.Mechanical.CoordinateSystem](../../../../../../v241/Ansys/ACT/Automation/Mechanical/CoordinateSystem.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.CoordinateSystem) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Joint.ElementCoordinateSystem *: [Ansys.ACT.Automation.Mechanical.CoordinateSystem](../CoordinateSystem.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.CoordinateSystem) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the ElementCoordinateSystem.
 
@@ -197,7 +197,7 @@ Gets or sets the ElementCoordinateSystem.
 
 <a id="Joint.Figures"></a>
 
-### *property* Joint.Figures *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Figure](../../../../../../v241/Ansys/ACT/Automation/Mechanical/Figure.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Joint.Figures *: Iterable[[Ansys.ACT.Automation.Mechanical.Figure](../Figure.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated figures.
 
@@ -213,7 +213,7 @@ Gets or sets the Formulation.
 
 <a id="Joint.FrictionCoefficient"></a>
 
-### *property* Joint.FrictionCoefficient *: System.Double | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Joint.FrictionCoefficient *: [float](https://docs.python.org/3/library/functions.html#float) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the FrictionCoefficient.
 
@@ -229,7 +229,7 @@ Gets or sets the GeneralPrimitiveType.
 
 <a id="Joint.Images"></a>
 
-### *property* Joint.Images *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Image](../../../../../../v241/Ansys/ACT/Automation/Mechanical/Image.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Joint.Images *: Iterable[[Ansys.ACT.Automation.Mechanical.Image](../Image.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated images.
 
@@ -261,7 +261,7 @@ Gets the internal object. For advanced usage only.
 
 <a id="Joint.JointElementAPDLName"></a>
 
-### *property* Joint.JointElementAPDLName *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Joint.JointElementAPDLName *: [str](https://docs.python.org/3/library/stdtypes.html#str) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the JointElementAPDLName.
 
@@ -285,7 +285,7 @@ Gets or sets the MobileAppliedBy.
 
 <a id="Joint.MobileBeamMaterial"></a>
 
-### *property* Joint.MobileBeamMaterial *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Joint.MobileBeamMaterial *: [str](https://docs.python.org/3/library/stdtypes.html#str) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the MobileBeamMaterial.
 
@@ -309,7 +309,7 @@ Gets or sets the MobileBehavior.
 
 <a id="Joint.MobileBody"></a>
 
-### *property* Joint.MobileBody *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Joint.MobileBody *: [str](https://docs.python.org/3/library/stdtypes.html#str) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the MobileBody.
 
@@ -317,7 +317,7 @@ Gets the MobileBody.
 
 <a id="Joint.MobileCoordinateSystem"></a>
 
-### *property* Joint.MobileCoordinateSystem *: [Ansys.ACT.Automation.Mechanical.CoordinateSystem](../../../../../../v241/Ansys/ACT/Automation/Mechanical/CoordinateSystem.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.CoordinateSystem) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Joint.MobileCoordinateSystem *: [Ansys.ACT.Automation.Mechanical.CoordinateSystem](../CoordinateSystem.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.CoordinateSystem) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the MobileCoordinateSystem.
 
@@ -349,7 +349,7 @@ Gets or sets the MobilePinballRegion.
 
 <a id="Joint.MobileRelaxationMethod"></a>
 
-### *property* Joint.MobileRelaxationMethod *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Joint.MobileRelaxationMethod *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the MobileRelaxationMethod.
 
@@ -365,7 +365,7 @@ Gets or sets the OuterRadius.
 
 <a id="Joint.Properties"></a>
 
-### *property* Joint.Properties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Joint.Properties *: [tuple](https://docs.python.org/3/library/stdtypes.html#tuple)[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of properties for this object.
 
@@ -509,7 +509,7 @@ Gets or sets the Radius.
 
 <a id="Joint.ReadOnly"></a>
 
-### *property* Joint.ReadOnly *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Joint.ReadOnly *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the ReadOnly.
 
@@ -525,7 +525,7 @@ Gets or sets the ReferenceAppliedBy.
 
 <a id="Joint.ReferenceBeamMaterial"></a>
 
-### *property* Joint.ReferenceBeamMaterial *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Joint.ReferenceBeamMaterial *: [str](https://docs.python.org/3/library/stdtypes.html#str) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the ReferenceBeamMaterial.
 
@@ -549,7 +549,7 @@ Gets or sets the ReferenceBehavior.
 
 <a id="Joint.ReferenceBody"></a>
 
-### *property* Joint.ReferenceBody *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Joint.ReferenceBody *: [str](https://docs.python.org/3/library/stdtypes.html#str) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the ReferenceBody.
 
@@ -557,7 +557,7 @@ Gets the ReferenceBody.
 
 <a id="Joint.ReferenceCoordinateSystem"></a>
 
-### *property* Joint.ReferenceCoordinateSystem *: [Ansys.ACT.Automation.Mechanical.CoordinateSystem](../../../../../../v241/Ansys/ACT/Automation/Mechanical/CoordinateSystem.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.CoordinateSystem) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Joint.ReferenceCoordinateSystem *: [Ansys.ACT.Automation.Mechanical.CoordinateSystem](../CoordinateSystem.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.CoordinateSystem) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the ReferenceCoordinateSystem.
 
@@ -589,7 +589,7 @@ Gets or sets the ReferencePinballRegion.
 
 <a id="Joint.ReferenceRelaxationMethod"></a>
 
-### *property* Joint.ReferenceRelaxationMethod *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Joint.ReferenceRelaxationMethod *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the ReferenceRelaxationMethod.
 
@@ -597,7 +597,7 @@ Gets or sets the ReferenceRelaxationMethod.
 
 <a id="Joint.RestitutionFactor"></a>
 
-### *property* Joint.RestitutionFactor *: System.Double | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Joint.RestitutionFactor *: [float](https://docs.python.org/3/library/functions.html#float) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the RestitutionFactor.
 
@@ -629,7 +629,7 @@ Gets or sets the SolverElementType.
 
 <a id="Joint.Suppressed"></a>
 
-### *property* Joint.Suppressed *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Joint.Suppressed *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Suppressed.
 
@@ -637,7 +637,7 @@ Gets or sets the Suppressed.
 
 <a id="Joint.SuppressedForSolve"></a>
 
-### *property* Joint.SuppressedForSolve *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Joint.SuppressedForSolve *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the SuppressedForSolve.
 
@@ -693,7 +693,7 @@ Gets or sets the Type.
 
 <a id="Joint.VisibleProperties"></a>
 
-### *property* Joint.VisibleProperties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Joint.VisibleProperties *: [tuple](https://docs.python.org/3/library/stdtypes.html#tuple)[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of properties that are visible for this object.
 
@@ -833,7 +833,7 @@ Creates a new child Figure.
 
 <a id="Joint.AddImage"></a>
 
-### Joint.AddImage(filePath: System.String)
+### Joint.AddImage(filePath: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 ```text
 Creates a new child Image.
@@ -853,7 +853,7 @@ Copies all visible properties from this object to another.
 
 <a id="Joint.CreateParameter"></a>
 
-### Joint.CreateParameter(propName: System.String)
+### Joint.CreateParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Creates a new parameter for a Property.
 
@@ -885,7 +885,7 @@ Run the FlipReferenceMobile action.
 
 <a id="Joint.GetChildren"></a>
 
-### Joint.GetChildren(recurses: System.Boolean, children: System.Collections.Generic.IList[ChildrenType])
+### Joint.GetChildren(recurses: [bool](https://docs.python.org/3/library/functions.html#bool), children: List[ChildrenType])
 
 Gets the list of children, filtered by type.
 
@@ -893,7 +893,7 @@ Gets the list of children, filtered by type.
 
 <a id="Joint.GetParameter"></a>
 
-### Joint.GetParameter(propName: System.String)
+### Joint.GetParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Gets the parameter corresponding to the given property.
 
@@ -933,7 +933,7 @@ Run the PromoteToRemotePoint action.
 
 <a id="Joint.PropertyByAPIName"></a>
 
-### Joint.PropertyByAPIName(name: System.String)
+### Joint.PropertyByAPIName(name: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 ```text
 Get a property by its API name.
@@ -944,7 +944,7 @@ If multiple properties have the same API Name, only the first property with that
 
 <a id="Joint.PropertyByName"></a>
 
-### Joint.PropertyByName(name: System.String)
+### Joint.PropertyByName(name: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Get a property by its unique name.
 
@@ -952,7 +952,7 @@ Get a property by its unique name.
 
 <a id="Joint.RemoveParameter"></a>
 
-### Joint.RemoveParameter(propName: System.String)
+### Joint.RemoveParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Removes the parameter from the parameter set corresponding to the given property.
 

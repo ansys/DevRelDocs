@@ -62,7 +62,7 @@ Gets or sets the Axis.
 
 <a id="ExtrusionManufacturingConstraint.Children"></a>
 
-### *property* ExtrusionManufacturingConstraint.Children *: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ExtrusionManufacturingConstraint.Children *: List[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of children.
 
@@ -70,7 +70,7 @@ Gets the list of children.
 
 <a id="ExtrusionManufacturingConstraint.CoordinateSystem"></a>
 
-### *property* ExtrusionManufacturingConstraint.CoordinateSystem *: [Ansys.ACT.Automation.Mechanical.CoordinateSystem](../../../../../v241/Ansys/ACT/Automation/Mechanical/CoordinateSystem.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.CoordinateSystem) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ExtrusionManufacturingConstraint.CoordinateSystem *: [Ansys.ACT.Automation.Mechanical.CoordinateSystem](CoordinateSystem.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.CoordinateSystem) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the CoordinateSystem.
 
@@ -102,7 +102,7 @@ Gets or sets the Location.
 
 <a id="ExtrusionManufacturingConstraint.Properties"></a>
 
-### *property* ExtrusionManufacturingConstraint.Properties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ExtrusionManufacturingConstraint.Properties *: [tuple](https://docs.python.org/3/library/stdtypes.html#tuple)[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of properties for this object.
 
@@ -126,7 +126,7 @@ Gets or sets the Selection.
 
 <a id="ExtrusionManufacturingConstraint.Suppressed"></a>
 
-### *property* ExtrusionManufacturingConstraint.Suppressed *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ExtrusionManufacturingConstraint.Suppressed *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Suppressed.
 
@@ -134,7 +134,7 @@ Gets or sets the Suppressed.
 
 <a id="ExtrusionManufacturingConstraint.VisibleProperties"></a>
 
-### *property* ExtrusionManufacturingConstraint.VisibleProperties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ExtrusionManufacturingConstraint.VisibleProperties *: [tuple](https://docs.python.org/3/library/stdtypes.html#tuple)[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of properties that are visible for this object.
 
@@ -162,7 +162,7 @@ Copies all visible properties from this object to another.
 
 <a id="ExtrusionManufacturingConstraint.CreateParameter"></a>
 
-### ExtrusionManufacturingConstraint.CreateParameter(propName: System.String)
+### ExtrusionManufacturingConstraint.CreateParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Creates a new parameter for a Property.
 
@@ -186,7 +186,7 @@ Creates a copy of the current DataModelObject.
 
 <a id="ExtrusionManufacturingConstraint.GetChildren"></a>
 
-### ExtrusionManufacturingConstraint.GetChildren(recurses: System.Boolean, children: System.Collections.Generic.IList[ChildrenType])
+### ExtrusionManufacturingConstraint.GetChildren(recurses: [bool](https://docs.python.org/3/library/functions.html#bool), children: List[ChildrenType])
 
 Gets the list of children, filtered by type.
 
@@ -194,7 +194,7 @@ Gets the list of children, filtered by type.
 
 <a id="ExtrusionManufacturingConstraint.GetParameter"></a>
 
-### ExtrusionManufacturingConstraint.GetParameter(propName: System.String)
+### ExtrusionManufacturingConstraint.GetParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Gets the parameter corresponding to the given property.
 
@@ -218,7 +218,7 @@ Run the GroupSimilarObjects action.
 
 <a id="ExtrusionManufacturingConstraint.PropertyByAPIName"></a>
 
-### ExtrusionManufacturingConstraint.PropertyByAPIName(name: System.String)
+### ExtrusionManufacturingConstraint.PropertyByAPIName(name: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 ```text
 Get a property by its API name.
@@ -229,7 +229,7 @@ If multiple properties have the same API Name, only the first property with that
 
 <a id="ExtrusionManufacturingConstraint.PropertyByName"></a>
 
-### ExtrusionManufacturingConstraint.PropertyByName(name: System.String)
+### ExtrusionManufacturingConstraint.PropertyByName(name: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Get a property by its unique name.
 
@@ -237,7 +237,7 @@ Get a property by its unique name.
 
 <a id="ExtrusionManufacturingConstraint.RemoveParameter"></a>
 
-### ExtrusionManufacturingConstraint.RemoveParameter(propName: System.String)
+### ExtrusionManufacturingConstraint.RemoveParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Removes the parameter from the parameter set corresponding to the given property.
 

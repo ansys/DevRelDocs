@@ -17,7 +17,7 @@ Represents a SECTYPE command.
 ### Properties
 
 | Name | Description |
-|----------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------|
+|------------------------------------------|--------------------------------------------------------------------------------------------------------|
 | [`Index`](#SectypeCommand.Index)         | Gets the command index.                                                                                |
 | [`Name`](#SectypeCommand.Name)           | Gets the command name.                                                                                 |
 | [`RefineKey`](#SectypeCommand.RefineKey) | Mesh refinement level for thin-walled beam sections. Default is zero. Meaningless if type is not BEAM. |
@@ -32,7 +32,7 @@ Represents a SECTYPE command.
 
 <a id="SectypeCommand.Index"></a>
 
-### *property* SectypeCommand.Index *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* SectypeCommand.Index *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the command index.
 
@@ -40,7 +40,7 @@ Gets the command index.
 
 <a id="SectypeCommand.Name"></a>
 
-### *property* SectypeCommand.Name *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* SectypeCommand.Name *: [str](https://docs.python.org/3/library/stdtypes.html#str) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the command name.
 
@@ -48,7 +48,7 @@ Gets the command name.
 
 <a id="SectypeCommand.RefineKey"></a>
 
-### *property* SectypeCommand.RefineKey *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* SectypeCommand.RefineKey *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Mesh refinement level for thin-walled beam sections. Default is zero. Meaningless if type is not BEAM.
 
@@ -56,7 +56,7 @@ Mesh refinement level for thin-walled beam sections. Default is zero. Meaningles
 
 <a id="SectypeCommand.Secid"></a>
 
-### *property* SectypeCommand.Secid *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* SectypeCommand.Secid *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the section type number.
 
@@ -64,7 +64,7 @@ Gets the section type number.
 
 <a id="SectypeCommand.Secname"></a>
 
-### *property* SectypeCommand.Secname *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* SectypeCommand.Secname *: [str](https://docs.python.org/3/library/stdtypes.html#str) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the section name.
 
@@ -72,7 +72,7 @@ Gets the section name.
 
 <a id="SectypeCommand.Subtype"></a>
 
-### *property* SectypeCommand.Subtype *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* SectypeCommand.Subtype *: [str](https://docs.python.org/3/library/stdtypes.html#str) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the subtype.
 
@@ -80,7 +80,7 @@ Gets the subtype.
 
 <a id="SectypeCommand.Type"></a>
 
-### *property* SectypeCommand.Type *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* SectypeCommand.Type *: [str](https://docs.python.org/3/library/stdtypes.html#str) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Get the type.
 

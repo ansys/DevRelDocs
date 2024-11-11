@@ -17,7 +17,7 @@ Defines a Part.
 ### Methods
 
 | Name | Description |
-|-----------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------|
+|------------------------------------------------------------|-----------------------------------------------------------------------------------|
 | [`Activate`](#Part.Activate)                               | Activate the current object.                                                      |
 | [`AddComment`](#Part.AddComment)                           | Creates a new child Comment.                                                      |
 | [`AddFigure`](#Part.AddFigure)                             | Creates a new child Figure.                                                       |
@@ -41,7 +41,7 @@ Defines a Part.
 ### Properties
 
 | Name | Description |
-|-----------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------|
+|------------------------------------------------------------|---------------------------------------------------------------|
 | [`ApproximateSurfaceArea`](#Part.ApproximateSurfaceArea)   | Gets the ApproximateSurfaceArea.                              |
 | [`Assignment`](#Part.Assignment)                           | Gets or sets the Assignment.                                  |
 | [`Average`](#Part.Average)                                 | Gets the Average.                                             |
@@ -86,7 +86,7 @@ Defines a Part.
 
 <a id="Part.ApproximateSurfaceArea"></a>
 
-### *property* Part.ApproximateSurfaceArea *: System.Double | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Part.ApproximateSurfaceArea *: [float](https://docs.python.org/3/library/functions.html#float) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the ApproximateSurfaceArea.
 
@@ -94,7 +94,7 @@ Gets the ApproximateSurfaceArea.
 
 <a id="Part.Assignment"></a>
 
-### *property* Part.Assignment *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Part.Assignment *: [str](https://docs.python.org/3/library/stdtypes.html#str) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Assignment.
 
@@ -102,7 +102,7 @@ Gets or sets the Assignment.
 
 <a id="Part.Average"></a>
 
-### *property* Part.Average *: System.Double | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Part.Average *: [float](https://docs.python.org/3/library/functions.html#float) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the Average.
 
@@ -134,7 +134,7 @@ Gets the CentroidZ.
 
 <a id="Part.Children"></a>
 
-### *property* Part.Children *: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Part.Children *: List[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of children.
 
@@ -142,7 +142,7 @@ Gets the list of children.
 
 <a id="Part.Comments"></a>
 
-### *property* Part.Comments *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Comment](../../../../../v241/Ansys/ACT/Automation/Mechanical/Comment.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Part.Comments *: Iterable[[Ansys.ACT.Automation.Mechanical.Comment](Comment.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated comments.
 
@@ -150,7 +150,7 @@ Gets the list of associated comments.
 
 <a id="Part.ConfigurationId"></a>
 
-### *property* Part.ConfigurationId *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Part.ConfigurationId *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the related Result Mesh’s ConfigurationId.
 
@@ -158,7 +158,7 @@ Gets the related Result Mesh’s ConfigurationId.
 
 <a id="Part.CoordinateSystem"></a>
 
-### *property* Part.CoordinateSystem *: [Ansys.ACT.Automation.Mechanical.CoordinateSystem](../../../../../v241/Ansys/ACT/Automation/Mechanical/CoordinateSystem.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.CoordinateSystem) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Part.CoordinateSystem *: [Ansys.ACT.Automation.Mechanical.CoordinateSystem](CoordinateSystem.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.CoordinateSystem) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the CoordinateSystem.
 
@@ -174,7 +174,7 @@ Gets the current DataModelObject’s category.
 
 <a id="Part.Elements"></a>
 
-### *property* Part.Elements *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Part.Elements *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the Elements.
 
@@ -182,7 +182,7 @@ Gets the Elements.
 
 <a id="Part.Figures"></a>
 
-### *property* Part.Figures *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Figure](../../../../../v241/Ansys/ACT/Automation/Mechanical/Figure.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Part.Figures *: Iterable[[Ansys.ACT.Automation.Mechanical.Figure](Figure.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated figures.
 
@@ -190,7 +190,7 @@ Gets the list of associated figures.
 
 <a id="Part.Hidden"></a>
 
-### *property* Part.Hidden *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Part.Hidden *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Hide or show the body.
 
@@ -198,7 +198,7 @@ Hide or show the body.
 
 <a id="Part.Images"></a>
 
-### *property* Part.Images *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Image](../../../../../v241/Ansys/ACT/Automation/Mechanical/Image.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Part.Images *: Iterable[[Ansys.ACT.Automation.Mechanical.Image](Image.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated images.
 
@@ -246,7 +246,7 @@ Gets the Mass.
 
 <a id="Part.Material"></a>
 
-### *property* Part.Material *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Part.Material *: [str](https://docs.python.org/3/library/stdtypes.html#str) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Material.
 
@@ -254,7 +254,7 @@ Gets or sets the Material.
 
 <a id="Part.MaterialName"></a>
 
-### *property* Part.MaterialName *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Part.MaterialName *: [str](https://docs.python.org/3/library/stdtypes.html#str) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the MaterialName.
 
@@ -262,7 +262,7 @@ Gets or sets the MaterialName.
 
 <a id="Part.Maximum"></a>
 
-### *property* Part.Maximum *: System.Double | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Part.Maximum *: [float](https://docs.python.org/3/library/functions.html#float) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the Maximum.
 
@@ -278,7 +278,7 @@ Gets the MeshMetric.
 
 <a id="Part.Minimum"></a>
 
-### *property* Part.Minimum *: System.Double | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Part.Minimum *: [float](https://docs.python.org/3/library/functions.html#float) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the Minimum.
 
@@ -310,7 +310,7 @@ Gets the MomentOfInertiaIp3.
 
 <a id="Part.Nodes"></a>
 
-### *property* Part.Nodes *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Part.Nodes *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the Nodes.
 
@@ -318,7 +318,7 @@ Gets the Nodes.
 
 <a id="Part.Properties"></a>
 
-### *property* Part.Properties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Part.Properties *: [tuple](https://docs.python.org/3/library/stdtypes.html#tuple)[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of properties for this object.
 
@@ -326,7 +326,7 @@ Gets the list of properties for this object.
 
 <a id="Part.ReadOnly"></a>
 
-### *property* Part.ReadOnly *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Part.ReadOnly *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the ReadOnly.
 
@@ -334,7 +334,7 @@ Gets or sets the ReadOnly.
 
 <a id="Part.ResultMeshId"></a>
 
-### *property* Part.ResultMeshId *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Part.ResultMeshId *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the related Result Mesh’s ObjectId.
 
@@ -342,7 +342,7 @@ Gets the related Result Mesh’s ObjectId.
 
 <a id="Part.StandardDeviation"></a>
 
-### *property* Part.StandardDeviation *: System.Double | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Part.StandardDeviation *: [float](https://docs.python.org/3/library/functions.html#float) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the StandardDeviation.
 
@@ -350,7 +350,7 @@ Gets the StandardDeviation.
 
 <a id="Part.Suppressed"></a>
 
-### *property* Part.Suppressed *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Part.Suppressed *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Suppressed.
 
@@ -358,7 +358,7 @@ Gets or sets the Suppressed.
 
 <a id="Part.Visible"></a>
 
-### *property* Part.Visible *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Part.Visible *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Visible.
 
@@ -366,7 +366,7 @@ Gets or sets the Visible.
 
 <a id="Part.VisibleProperties"></a>
 
-### *property* Part.VisibleProperties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Part.VisibleProperties *: [tuple](https://docs.python.org/3/library/stdtypes.html#tuple)[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of properties that are visible for this object.
 
@@ -410,7 +410,7 @@ Creates a new child Figure.
 
 <a id="Part.AddImage"></a>
 
-### Part.AddImage(filePath: System.String)
+### Part.AddImage(filePath: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 ```text
 Creates a new child Image.
@@ -438,7 +438,7 @@ Copies all visible properties from this object to another.
 
 <a id="Part.CreateParameter"></a>
 
-### Part.CreateParameter(paramPath: System.String)
+### Part.CreateParameter(paramPath: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Creates a new parameter for a Property.
 
@@ -462,7 +462,7 @@ Run the GenerateMesh action.
 
 <a id="Part.GetChildren"></a>
 
-### Part.GetChildren(recurses: System.Boolean, children: System.Collections.Generic.IList[ChildrenType])
+### Part.GetChildren(recurses: [bool](https://docs.python.org/3/library/functions.html#bool), children: List[ChildrenType])
 
 Gets the list of children, filtered by type.
 
@@ -470,7 +470,7 @@ Gets the list of children, filtered by type.
 
 <a id="Part.GetParameter"></a>
 
-### Part.GetParameter(propName: System.String)
+### Part.GetParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Gets the parameter corresponding to the given property.
 
@@ -510,7 +510,7 @@ Run the PreviewSurfaceMesh action.
 
 <a id="Part.PropertyByAPIName"></a>
 
-### Part.PropertyByAPIName(name: System.String)
+### Part.PropertyByAPIName(name: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 ```text
 Get a property by its API name.
@@ -521,7 +521,7 @@ If multiple properties have the same API Name, only the first property with that
 
 <a id="Part.PropertyByName"></a>
 
-### Part.PropertyByName(name: System.String)
+### Part.PropertyByName(name: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Get a property by its unique name.
 
@@ -529,7 +529,7 @@ Get a property by its unique name.
 
 <a id="Part.RemoveParameter"></a>
 
-### Part.RemoveParameter(paramPath: System.String)
+### Part.RemoveParameter(paramPath: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Removes the parameter from the parameter set corresponding to the given property.
 

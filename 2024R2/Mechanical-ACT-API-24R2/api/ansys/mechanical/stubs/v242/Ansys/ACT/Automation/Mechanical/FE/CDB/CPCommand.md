@@ -30,7 +30,7 @@ Represents a CP command.
 
 <a id="CPCommand.Dof"></a>
 
-### *property* CPCommand.Dof *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* CPCommand.Dof *: [str](https://docs.python.org/3/library/stdtypes.html#str) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the degree of freedom label.
 
@@ -38,7 +38,7 @@ Gets the degree of freedom label.
 
 <a id="CPCommand.Index"></a>
 
-### *property* CPCommand.Index *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* CPCommand.Index *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the command index.
 
@@ -46,7 +46,7 @@ Gets the command index.
 
 <a id="CPCommand.Name"></a>
 
-### *property* CPCommand.Name *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* CPCommand.Name *: [str](https://docs.python.org/3/library/stdtypes.html#str) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the command name.
 
@@ -54,7 +54,7 @@ Gets the command name.
 
 <a id="CPCommand.Ncp"></a>
 
-### *property* CPCommand.Ncp *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* CPCommand.Ncp *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the number of coupled nodes.
 
@@ -62,7 +62,7 @@ Gets the number of coupled nodes.
 
 <a id="CPCommand.Nodes"></a>
 
-### *property* CPCommand.Nodes *: System.Collections.Generic.IReadOnlyList[System.Int32] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* CPCommand.Nodes *: [tuple](https://docs.python.org/3/library/stdtypes.html#tuple)[[int](https://docs.python.org/3/library/functions.html#int)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the nodes.
 

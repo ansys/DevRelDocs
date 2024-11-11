@@ -17,7 +17,7 @@ Specifies the DynamicRelaxationBehaviorType.
 ### Attributes
 
 | Name |
-| -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| ------------------------------------------------------------------------------------------- |
 | [`Both`](#DynamicRelaxationBehaviorType.Both) |
 | [`DynamicRelaxationPhaseOnly`](#DynamicRelaxationBehaviorType.DynamicRelaxationPhaseOnly) |
 | [`NormalPhaseOnly`](#DynamicRelaxationBehaviorType.NormalPhaseOnly) |

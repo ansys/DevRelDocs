@@ -17,7 +17,7 @@ Specifies the Selected Frequency Range Type.
 ### Attributes
 
 | Name |
-| ------------------------------------------------------------------------------------------------------------------ |
+| ---------------------------------------- |
 | [`Full`](#FrequencyRangeType.Full) |
 | [`Manual`](#FrequencyRangeType.Manual) |
 

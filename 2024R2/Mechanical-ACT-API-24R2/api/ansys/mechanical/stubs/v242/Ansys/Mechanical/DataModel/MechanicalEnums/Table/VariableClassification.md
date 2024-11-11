@@ -24,7 +24,7 @@ same name in the frontend Angular project.
 ### Attributes
 
 | Name |
-| --------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| -------------------------------------------------------- |
 | [`Independent`](#VariableClassification.Independent) |
 | [`Real`](#VariableClassification.Real) |
 | [`Real_i`](#VariableClassification.Real_i) |

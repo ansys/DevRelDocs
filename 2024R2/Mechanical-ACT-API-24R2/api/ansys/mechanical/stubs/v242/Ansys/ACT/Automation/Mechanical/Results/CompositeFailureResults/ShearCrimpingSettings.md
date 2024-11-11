@@ -34,7 +34,7 @@ Defines the configuration for the Face Sheet Crimping failure criterion for sand
 
 <a id="ShearCrimpingSettings.CoreWeightingFactor"></a>
 
-### *property* ShearCrimpingSettings.CoreWeightingFactor *: System.Double | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ShearCrimpingSettings.CoreWeightingFactor *: [float](https://docs.python.org/3/library/functions.html#float) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the weighting factor of core material of crimping allowable.
 
@@ -42,7 +42,7 @@ Gets or sets the weighting factor of core material of crimping allowable.
 
 <a id="ShearCrimpingSettings.FaceSheetWeightingFactor"></a>
 
-### *property* ShearCrimpingSettings.FaceSheetWeightingFactor *: System.Double | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ShearCrimpingSettings.FaceSheetWeightingFactor *: [float](https://docs.python.org/3/library/functions.html#float) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the weighting factor of face sheets of crimping allowable.
 
@@ -50,7 +50,7 @@ Gets or sets the weighting factor of face sheets of crimping allowable.
 
 <a id="ShearCrimpingSettings.WeightingFactor"></a>
 
-### *property* ShearCrimpingSettings.WeightingFactor *: System.Double | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ShearCrimpingSettings.WeightingFactor *: [float](https://docs.python.org/3/library/functions.html#float) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the weighting factor for shear crimping failure.
 : The corresponding failure label is ‘sc’.

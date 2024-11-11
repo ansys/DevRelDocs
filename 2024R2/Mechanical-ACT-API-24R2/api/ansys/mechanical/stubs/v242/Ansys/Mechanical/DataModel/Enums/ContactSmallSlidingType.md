@@ -17,7 +17,7 @@ Specifies the ContactSmallSlidingType.
 ### Attributes
 
 | Name |
-| -------------------------------------------------------------------------------------------------------------------------------------------------- |
+| ------------------------------------------------------------------- |
 | [`Adaptive`](#ContactSmallSlidingType.Adaptive) |
 | [`Off`](#ContactSmallSlidingType.Off) |
 | [`On`](#ContactSmallSlidingType.On) |

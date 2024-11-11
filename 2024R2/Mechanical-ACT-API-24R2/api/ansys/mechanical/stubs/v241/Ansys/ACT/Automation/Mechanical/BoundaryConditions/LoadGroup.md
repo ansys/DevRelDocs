@@ -17,7 +17,7 @@ Defines a LoadGroup.
 ### Methods
 
 | Name | Description |
-|-------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------|
+|-----------------------------------------------------------------|-----------------------------------------------------------------------------------|
 | [`Activate`](#LoadGroup.Activate)                               | Activate the current object.                                                      |
 | [`AddComment`](#LoadGroup.AddComment)                           | Creates a new child Comment.                                                      |
 | [`AddCurrent`](#LoadGroup.AddCurrent)                           | Creates a new Current                                                             |
@@ -40,7 +40,7 @@ Defines a LoadGroup.
 ### Properties
 
 | Name | Description |
-|-------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------|
+|-----------------------------------------------------------------------------|---------------------------------------------------------------|
 | [`Children`](#LoadGroup.Children)                                           | Gets the list of children.                                    |
 | [`Comments`](#LoadGroup.Comments)                                           | Gets the list of associated comments.                         |
 | [`ConductingArea`](#LoadGroup.ConductingArea)                               | Gets or sets the ConductingArea.                              |
@@ -71,7 +71,7 @@ Defines a LoadGroup.
 
 <a id="LoadGroup.Children"></a>
 
-### *property* LoadGroup.Children *: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* LoadGroup.Children *: List[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of children.
 
@@ -79,7 +79,7 @@ Gets the list of children.
 
 <a id="LoadGroup.Comments"></a>
 
-### *property* LoadGroup.Comments *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Comment](../Comment.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* LoadGroup.Comments *: Iterable[[Ansys.ACT.Automation.Mechanical.Comment](../Comment.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated comments.
 
@@ -103,7 +103,7 @@ Gets or sets the ConductorCurrent.
 
 <a id="LoadGroup.ConductorType"></a>
 
-### *property* LoadGroup.ConductorType *: [Ansys.Mechanical.DataModel.Enums.SourceConductorType](../../../../../../v242/Ansys/Mechanical/DataModel/Enums/SourceConductorType.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.SourceConductorType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* LoadGroup.ConductorType *: [Ansys.Mechanical.DataModel.Enums.SourceConductorType](../../../../Mechanical/DataModel/Enums/SourceConductorType.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.SourceConductorType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the ConductorType.
 
@@ -111,7 +111,7 @@ Gets or sets the ConductorType.
 
 <a id="LoadGroup.DataImportStatus"></a>
 
-### *property* LoadGroup.DataImportStatus *: [Ansys.Mechanical.DataModel.Enums.DataImportStatus](../../../../../../v242/Ansys/Mechanical/DataModel/Enums/DataImportStatus.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.DataImportStatus) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* LoadGroup.DataImportStatus *: [Ansys.Mechanical.DataModel.Enums.DataImportStatus](../../../../Mechanical/DataModel/Enums/DataImportStatus.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataImportStatus) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the DataImportStatus.
 
@@ -119,7 +119,7 @@ Gets the DataImportStatus.
 
 <a id="LoadGroup.DataModelObjectCategory"></a>
 
-### *property* LoadGroup.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../../v242/Ansys/Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* LoadGroup.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the current DataModelObject’s category.
 
@@ -127,7 +127,7 @@ Gets the current DataModelObject’s category.
 
 <a id="LoadGroup.Figures"></a>
 
-### *property* LoadGroup.Figures *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Figure](../Figure.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* LoadGroup.Figures *: Iterable[[Ansys.ACT.Automation.Mechanical.Figure](../Figure.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated figures.
 
@@ -135,7 +135,7 @@ Gets the list of associated figures.
 
 <a id="LoadGroup.GroupingType"></a>
 
-### *property* LoadGroup.GroupingType *: [Ansys.Mechanical.DataModel.Enums.LoadGroupingType](../../../../../../v242/Ansys/Mechanical/DataModel/Enums/LoadGroupingType.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.LoadGroupingType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* LoadGroup.GroupingType *: [Ansys.Mechanical.DataModel.Enums.LoadGroupingType](../../../../Mechanical/DataModel/Enums/LoadGroupingType.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.LoadGroupingType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the GroupingType.
 
@@ -143,7 +143,7 @@ Gets or sets the GroupingType.
 
 <a id="LoadGroup.Images"></a>
 
-### *property* LoadGroup.Images *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Image](../Image.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* LoadGroup.Images *: Iterable[[Ansys.ACT.Automation.Mechanical.Image](../Image.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated images.
 
@@ -151,7 +151,7 @@ Gets the list of associated images.
 
 <a id="LoadGroup.ImportedDataType"></a>
 
-### *property* LoadGroup.ImportedDataType *: [Ansys.Mechanical.DataModel.Enums.DataTypeOptions](../../../../../../v242/Ansys/Mechanical/DataModel/Enums/DataTypeOptions.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.DataTypeOptions) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* LoadGroup.ImportedDataType *: [Ansys.Mechanical.DataModel.Enums.DataTypeOptions](../../../../Mechanical/DataModel/Enums/DataTypeOptions.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataTypeOptions) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the ImportedDataType.
 
@@ -175,7 +175,7 @@ Gets or sets the Location.
 
 <a id="LoadGroup.NumberOfFrequenciesToConsider"></a>
 
-### *property* LoadGroup.NumberOfFrequenciesToConsider *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* LoadGroup.NumberOfFrequenciesToConsider *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the NumberOfFrequenciesToConsider.
 
@@ -183,7 +183,7 @@ Gets or sets the NumberOfFrequenciesToConsider.
 
 <a id="LoadGroup.NumberOfTurns"></a>
 
-### *property* LoadGroup.NumberOfTurns *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* LoadGroup.NumberOfTurns *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the NumberOfTurns.
 
@@ -191,7 +191,7 @@ Gets or sets the NumberOfTurns.
 
 <a id="LoadGroup.OnDataRefreshOption"></a>
 
-### *property* LoadGroup.OnDataRefreshOption *: [Ansys.Mechanical.DataModel.Enums.RemotePointUpdateOptions](../../../../../../v242/Ansys/Mechanical/DataModel/Enums/RemotePointUpdateOptions.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.RemotePointUpdateOptions) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* LoadGroup.OnDataRefreshOption *: [Ansys.Mechanical.DataModel.Enums.RemotePointUpdateOptions](../../../../Mechanical/DataModel/Enums/RemotePointUpdateOptions.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.RemotePointUpdateOptions) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the OnDataRefreshOption.
 
@@ -207,7 +207,7 @@ Gets or sets the PhaseAngle.
 
 <a id="LoadGroup.Properties"></a>
 
-### *property* LoadGroup.Properties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* LoadGroup.Properties *: [tuple](https://docs.python.org/3/library/stdtypes.html#tuple)[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of properties for this object.
 
@@ -215,7 +215,7 @@ Gets the list of properties for this object.
 
 <a id="LoadGroup.SolutionId"></a>
 
-### *property* LoadGroup.SolutionId *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* LoadGroup.SolutionId *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the SolutionId.
 
@@ -223,7 +223,7 @@ Gets or sets the SolutionId.
 
 <a id="LoadGroup.Suppressed"></a>
 
-### *property* LoadGroup.Suppressed *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* LoadGroup.Suppressed *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Suppressed.
 
@@ -231,7 +231,7 @@ Gets or sets the Suppressed.
 
 <a id="LoadGroup.TransferFileName"></a>
 
-### *property* LoadGroup.TransferFileName *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* LoadGroup.TransferFileName *: [str](https://docs.python.org/3/library/stdtypes.html#str) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the TransferFileName.
 
@@ -239,7 +239,7 @@ Gets or sets the TransferFileName.
 
 <a id="LoadGroup.UseInternalRemotePoints"></a>
 
-### *property* LoadGroup.UseInternalRemotePoints *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* LoadGroup.UseInternalRemotePoints *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the UseInternalRemotePoints.
 
@@ -247,7 +247,7 @@ Gets or sets the UseInternalRemotePoints.
 
 <a id="LoadGroup.VisibleProperties"></a>
 
-### *property* LoadGroup.VisibleProperties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* LoadGroup.VisibleProperties *: [tuple](https://docs.python.org/3/library/stdtypes.html#tuple)[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of properties that are visible for this object.
 
@@ -291,7 +291,7 @@ Creates a new child Figure.
 
 <a id="LoadGroup.AddImage"></a>
 
-### LoadGroup.AddImage(filePath: System.String)
+### LoadGroup.AddImage(filePath: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 ```text
 Creates a new child Image.
@@ -319,7 +319,7 @@ Copies all visible properties from this object to another.
 
 <a id="LoadGroup.CreateParameter"></a>
 
-### LoadGroup.CreateParameter(propName: System.String)
+### LoadGroup.CreateParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Creates a new parameter for a Property.
 
@@ -351,7 +351,7 @@ Run the action to generate the remote loads from the source data.
 
 <a id="LoadGroup.GetChildren"></a>
 
-### LoadGroup.GetChildren(recurses: System.Boolean, children: System.Collections.Generic.IList[ChildrenType])
+### LoadGroup.GetChildren(recurses: [bool](https://docs.python.org/3/library/functions.html#bool), children: List[ChildrenType])
 
 Gets the list of children, filtered by type.
 
@@ -359,7 +359,7 @@ Gets the list of children, filtered by type.
 
 <a id="LoadGroup.GetParameter"></a>
 
-### LoadGroup.GetParameter(propName: System.String)
+### LoadGroup.GetParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Gets the parameter corresponding to the given property.
 
@@ -383,7 +383,7 @@ Run the GroupSimilarObjects action.
 
 <a id="LoadGroup.PropertyByAPIName"></a>
 
-### LoadGroup.PropertyByAPIName(name: System.String)
+### LoadGroup.PropertyByAPIName(name: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 ```text
 Get a property by its API name.
@@ -394,7 +394,7 @@ If multiple properties have the same API Name, only the first property with that
 
 <a id="LoadGroup.PropertyByName"></a>
 
-### LoadGroup.PropertyByName(name: System.String)
+### LoadGroup.PropertyByName(name: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Get a property by its unique name.
 
@@ -402,7 +402,7 @@ Get a property by its unique name.
 
 <a id="LoadGroup.RemoveParameter"></a>
 
-### LoadGroup.RemoveParameter(propName: System.String)
+### LoadGroup.RemoveParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Removes the parameter from the parameter set corresponding to the given property.
 

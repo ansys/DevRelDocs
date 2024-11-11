@@ -17,7 +17,7 @@ Specifies the MeshNodeType.
 ### Attributes
 
 | Name |
-| -------------------------------------------------------------------------------------------------------- |
+| ------------------------------------ |
 | [`Corner`](#MeshNodeType.Corner) |
 | [`Midside`](#MeshNodeType.Midside) |
 

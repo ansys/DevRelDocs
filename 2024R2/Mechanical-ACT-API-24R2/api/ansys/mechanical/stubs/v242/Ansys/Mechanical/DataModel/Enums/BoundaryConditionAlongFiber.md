@@ -17,7 +17,7 @@ Specifies the BoundaryConditionAlongFiber.
 ### Attributes
 
 | Name |
-| -------------------------------------------------------------------------------------------------------------------------------------------------- |
+| --------------------------------------------------------------- |
 | [`Displacement`](#BoundaryConditionAlongFiber.Displacement) |
 | [`Force`](#BoundaryConditionAlongFiber.Force) |
 | [`Free`](#BoundaryConditionAlongFiber.Free) |

@@ -17,7 +17,7 @@ Specifies the MeshControlPinchGeomtryType.
 ### Attributes
 
 | Name |
-| ------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| ------------------------------------------------------------------- |
 | [`AddPinchMaster`](#MeshControlPinchGeomtryType.AddPinchMaster) |
 | [`AddPinchSlave`](#MeshControlPinchGeomtryType.AddPinchSlave) |
 | [`SetPinchMaster`](#MeshControlPinchGeomtryType.SetPinchMaster) |

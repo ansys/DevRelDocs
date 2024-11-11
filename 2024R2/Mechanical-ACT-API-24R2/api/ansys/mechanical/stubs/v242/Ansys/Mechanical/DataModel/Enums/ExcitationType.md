@@ -17,7 +17,7 @@ Specifies the ExcitationType.
 ### Attributes
 
 | Name |
-| ---------------------------------------------------------------------------------------------------------------- |
+| ------------------------------------------ |
 | [`Pressure`](#ExcitationType.Pressure) |
 | [`Velocity`](#ExcitationType.Velocity) |
 

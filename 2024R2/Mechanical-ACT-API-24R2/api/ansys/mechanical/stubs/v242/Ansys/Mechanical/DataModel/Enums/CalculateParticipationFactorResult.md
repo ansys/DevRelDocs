@@ -17,7 +17,7 @@ Specifies the CalculateParticipationFactorResult.
 ### Attributes
 
 | Name |
-| ------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| ------------------------------------------------------------------------------ |
 | [`No`](#CalculateParticipationFactorResult.No) |
 | [`ProgramControlled`](#CalculateParticipationFactorResult.ProgramControlled) |
 | [`Yes`](#CalculateParticipationFactorResult.Yes) |

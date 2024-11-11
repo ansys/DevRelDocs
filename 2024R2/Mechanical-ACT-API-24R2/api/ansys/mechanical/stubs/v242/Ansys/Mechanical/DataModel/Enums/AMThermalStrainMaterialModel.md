@@ -17,7 +17,7 @@ Specifies the AMThermalStrainMaterialModel.
 ### Attributes
 
 | Name |
-| ---------------------------------------------------------------------------------------------------------------------------------------------- |
+| ---------------------------------------------------------- |
 | [`Al357`](#AMThermalStrainMaterialModel.Al357) |
 | [`AlSi10Mg`](#AMThermalStrainMaterialModel.AlSi10Mg) |
 | [`CoCr`](#AMThermalStrainMaterialModel.CoCr) |

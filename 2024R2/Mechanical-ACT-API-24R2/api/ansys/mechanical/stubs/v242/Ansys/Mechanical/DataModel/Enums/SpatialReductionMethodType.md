@@ -17,7 +17,7 @@ Specifies the SpatialReductionMethodType.
 ### Attributes
 
 | Name |
-| -------------------------------------------------------------------------------------------------------------------------------------------- |
+| ---------------------------------------------------------- |
 | [`Continuous`](#SpatialReductionMethodType.Continuous) |
 | [`Discrete`](#SpatialReductionMethodType.Discrete) |
 

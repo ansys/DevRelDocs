@@ -41,7 +41,7 @@ Wrapper for Camera in Mechanical.
 
 <a id="MechanicalCameraWrapper.FocalPoint"></a>
 
-### *property* MechanicalCameraWrapper.FocalPoint *: [Ansys.Mechanical.Graphics.Point](../../../../../v242/Ansys/Mechanical/Graphics/Point.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.Graphics.Point) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* MechanicalCameraWrapper.FocalPoint *: [Ansys.Mechanical.Graphics.Point](../../../Mechanical/Graphics/Point.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.Graphics.Point) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 The focal point of the camera (coordinates are in the global coordinate system).
 
@@ -85,7 +85,7 @@ The vector pointing from the focal point to the camera.
 
 <a id="MechanicalCameraWrapper.GetAsString"></a>
 
-### MechanicalCameraWrapper.GetAsString(appType: [Ansys.Mechanical.DataModel.Enums.ApplicationType](../../../../../v242/Ansys/Mechanical/DataModel/Enums/ApplicationType.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.ApplicationType))
+### MechanicalCameraWrapper.GetAsString(appType: [Ansys.Mechanical.DataModel.Enums.ApplicationType](../../../Mechanical/DataModel/Enums/ApplicationType.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.ApplicationType))
 
 Retrieves the view commands as related to the application type as a string.
 
@@ -101,7 +101,7 @@ Shifts the camera position horizontally or vertically based on x and y quantitie
 
 <a id="MechanicalCameraWrapper.Rotate"></a>
 
-### MechanicalCameraWrapper.Rotate(angle: System.Double, axis: [Ansys.Mechanical.DataModel.Enums.CameraAxisType](../../../../../v242/Ansys/Mechanical/DataModel/Enums/CameraAxisType.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.CameraAxisType))
+### MechanicalCameraWrapper.Rotate(angle: [float](https://docs.python.org/3/library/functions.html#float), axis: [Ansys.Mechanical.DataModel.Enums.CameraAxisType](../../../Mechanical/DataModel/Enums/CameraAxisType.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.CameraAxisType))
 
 Rotates the camera about an axis.
 
@@ -117,7 +117,7 @@ Fits the view to the specified selection. If null is supplied, fits the view to 
 
 <a id="MechanicalCameraWrapper.SetSpecificViewOrientation"></a>
 
-### MechanicalCameraWrapper.SetSpecificViewOrientation(type: [Ansys.Mechanical.DataModel.Enums.ViewOrientationType](../../../../../v242/Ansys/Mechanical/DataModel/Enums/ViewOrientationType.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.ViewOrientationType))
+### MechanicalCameraWrapper.SetSpecificViewOrientation(type: [Ansys.Mechanical.DataModel.Enums.ViewOrientationType](../../../Mechanical/DataModel/Enums/ViewOrientationType.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.ViewOrientationType))
 
 Sets a specific view orientation.
 
@@ -125,7 +125,7 @@ Sets a specific view orientation.
 
 <a id="MechanicalCameraWrapper.Zoom"></a>
 
-### MechanicalCameraWrapper.Zoom(zoomVal: System.Double)
+### MechanicalCameraWrapper.Zoom(zoomVal: [float](https://docs.python.org/3/library/functions.html#float))
 
 Zooms in or out on the model.
 

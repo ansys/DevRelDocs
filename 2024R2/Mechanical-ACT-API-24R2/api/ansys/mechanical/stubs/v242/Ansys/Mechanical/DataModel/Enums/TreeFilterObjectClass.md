@@ -17,7 +17,7 @@ Specifies the TreeFilterObjectClass.
 ### Attributes
 
 | Name |
-| ------------------------------------------------------------------------------------------------------------------------------------------------ |
+| ------------------------------------------------------------------- |
 | [`All`](#TreeFilterObjectClass.All) |
 | [`BoundaryConditions`](#TreeFilterObjectClass.BoundaryConditions) |
 | [`Commands`](#TreeFilterObjectClass.Commands) |

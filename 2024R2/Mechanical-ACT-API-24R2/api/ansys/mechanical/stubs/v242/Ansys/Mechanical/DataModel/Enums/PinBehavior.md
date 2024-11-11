@@ -17,7 +17,7 @@ Specifies the PinBehavior.
 ### Attributes
 
 | Name |
-| ------------------------------------------------------------------------------------------------------------------------ |
+| ----------------------------------------------------- |
 | [`PinAcceleration`](#PinBehavior.PinAcceleration) |
 | [`PinForce`](#PinBehavior.PinForce) |
 | [`PinPosition`](#PinBehavior.PinPosition) |

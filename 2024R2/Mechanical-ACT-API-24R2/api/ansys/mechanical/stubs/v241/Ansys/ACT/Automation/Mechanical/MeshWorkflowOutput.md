@@ -52,7 +52,7 @@ Object that wraps IDSEngineeringModelMeshDomainAuto.
 
 <a id="MeshWorkflowOutput.Children"></a>
 
-### *property* MeshWorkflowOutput.Children *: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* MeshWorkflowOutput.Children *: List[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of children.
 
@@ -60,7 +60,7 @@ Gets the list of children.
 
 <a id="MeshWorkflowOutput.DataModelObjectCategory"></a>
 
-### *property* MeshWorkflowOutput.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../v242/Ansys/Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* MeshWorkflowOutput.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the current DataModelObject’s category.
 
@@ -68,7 +68,7 @@ Gets the current DataModelObject’s category.
 
 <a id="MeshWorkflowOutput.DataTransferType"></a>
 
-### *property* MeshWorkflowOutput.DataTransferType *: [Ansys.Mechanical.DataModel.MechanicalEnums.MeshWorkflow.DataTransferType](../../../../../v242/Ansys/Mechanical/DataModel/MechanicalEnums/MeshWorkflow/DataTransferType.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.MechanicalEnums.MeshWorkflow.DataTransferType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* MeshWorkflowOutput.DataTransferType *: [Ansys.Mechanical.DataModel.MechanicalEnums.MeshWorkflow.DataTransferType](../../../Mechanical/DataModel/MechanicalEnums/MeshWorkflow/DataTransferType.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.MechanicalEnums.MeshWorkflow.DataTransferType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Defines how the PrimeMesh model data should be transferred back into Geometry part(s) and associated mesh(es).
 
@@ -76,7 +76,7 @@ Defines how the PrimeMesh model data should be transferred back into Geometry pa
 
 <a id="MeshWorkflowOutput.Figures"></a>
 
-### *property* MeshWorkflowOutput.Figures *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Figure](Figure.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* MeshWorkflowOutput.Figures *: Iterable[[Ansys.ACT.Automation.Mechanical.Figure](Figure.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated figures.
 
@@ -84,7 +84,7 @@ Gets the list of associated figures.
 
 <a id="MeshWorkflowOutput.Images"></a>
 
-### *property* MeshWorkflowOutput.Images *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Image](Image.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* MeshWorkflowOutput.Images *: Iterable[[Ansys.ACT.Automation.Mechanical.Image](Image.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated images.
 
@@ -100,7 +100,7 @@ Gets the internal object. For advanced usage only.
 
 <a id="MeshWorkflowOutput.Properties"></a>
 
-### *property* MeshWorkflowOutput.Properties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* MeshWorkflowOutput.Properties *: [tuple](https://docs.python.org/3/library/stdtypes.html#tuple)[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of properties for this object.
 
@@ -108,7 +108,7 @@ Gets the list of properties for this object.
 
 <a id="MeshWorkflowOutput.VisibleProperties"></a>
 
-### *property* MeshWorkflowOutput.VisibleProperties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* MeshWorkflowOutput.VisibleProperties *: [tuple](https://docs.python.org/3/library/stdtypes.html#tuple)[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of properties that are visible for this object.
 
@@ -136,7 +136,7 @@ Creates a new child Figure.
 
 <a id="MeshWorkflowOutput.AddImage"></a>
 
-### MeshWorkflowOutput.AddImage(filePath: System.String)
+### MeshWorkflowOutput.AddImage(filePath: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 ```text
 Creates a new child Image.
@@ -156,7 +156,7 @@ Copies all visible properties from this object to another.
 
 <a id="MeshWorkflowOutput.CreateParameter"></a>
 
-### MeshWorkflowOutput.CreateParameter(propName: System.String)
+### MeshWorkflowOutput.CreateParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Creates a new parameter for a Property.
 
@@ -180,7 +180,7 @@ Creates a copy of the current DataModelObject.
 
 <a id="MeshWorkflowOutput.GetChildren"></a>
 
-### MeshWorkflowOutput.GetChildren(recurses: System.Boolean, children: System.Collections.Generic.IList[ChildrenType])
+### MeshWorkflowOutput.GetChildren(recurses: [bool](https://docs.python.org/3/library/functions.html#bool), children: List[ChildrenType])
 
 Gets the list of children, filtered by type.
 
@@ -188,7 +188,7 @@ Gets the list of children, filtered by type.
 
 <a id="MeshWorkflowOutput.GetParameter"></a>
 
-### MeshWorkflowOutput.GetParameter(propName: System.String)
+### MeshWorkflowOutput.GetParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Gets the parameter corresponding to the given property.
 
@@ -212,7 +212,7 @@ Run the GroupSimilarObjects action.
 
 <a id="MeshWorkflowOutput.PropertyByAPIName"></a>
 
-### MeshWorkflowOutput.PropertyByAPIName(name: System.String)
+### MeshWorkflowOutput.PropertyByAPIName(name: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 ```text
 Get a property by its API name.
@@ -223,7 +223,7 @@ If multiple properties have the same API Name, only the first property with that
 
 <a id="MeshWorkflowOutput.PropertyByName"></a>
 
-### MeshWorkflowOutput.PropertyByName(name: System.String)
+### MeshWorkflowOutput.PropertyByName(name: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Get a property by its unique name.
 
@@ -231,7 +231,7 @@ Get a property by its unique name.
 
 <a id="MeshWorkflowOutput.RemoveParameter"></a>
 
-### MeshWorkflowOutput.RemoveParameter(propName: System.String)
+### MeshWorkflowOutput.RemoveParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Removes the parameter from the parameter set corresponding to the given property.
 

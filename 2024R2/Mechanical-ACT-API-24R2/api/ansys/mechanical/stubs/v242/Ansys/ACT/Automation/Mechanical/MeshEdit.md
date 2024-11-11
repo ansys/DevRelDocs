@@ -17,7 +17,7 @@ Defines a MeshEdit.
 ### Methods
 
 | Name | Description |
-|-----------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------|
+|--------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------|
 | [`Activate`](#MeshEdit.Activate)                                                     | Activate the current object.                                                      |
 | [`AddComment`](#MeshEdit.AddComment)                                                 | Creates a new child Comment.                                                      |
 | [`AddContactMatchGroup`](#MeshEdit.AddContactMatchGroup)                             | Creates a new ContactMatchGroup                                                   |
@@ -51,7 +51,7 @@ Defines a MeshEdit.
 ### Properties
 
 | Name | Description |
-|-------------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------|
+|----------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------|
 | [`AssociateToPullGeometry`](#MeshEdit.AssociateToPullGeometry)                                     | To Migrate Boundary Conditions from profile to resulting Pull bodies.   |
 | [`Children`](#MeshEdit.Children)                                                                   | Gets the list of children.                                              |
 | [`Comments`](#MeshEdit.Comments)                                                                   | Gets the list of associated comments.                                   |
@@ -70,7 +70,7 @@ Defines a MeshEdit.
 
 <a id="MeshEdit.AssociateToPullGeometry"></a>
 
-### *property* MeshEdit.AssociateToPullGeometry *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* MeshEdit.AssociateToPullGeometry *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 To Migrate Boundary Conditions from profile to resulting Pull bodies.
 
@@ -78,7 +78,7 @@ To Migrate Boundary Conditions from profile to resulting Pull bodies.
 
 <a id="MeshEdit.Children"></a>
 
-### *property* MeshEdit.Children *: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* MeshEdit.Children *: List[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of children.
 
@@ -86,7 +86,7 @@ Gets the list of children.
 
 <a id="MeshEdit.Comments"></a>
 
-### *property* MeshEdit.Comments *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Comment](../../../../../v241/Ansys/ACT/Automation/Mechanical/Comment.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* MeshEdit.Comments *: Iterable[[Ansys.ACT.Automation.Mechanical.Comment](Comment.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated comments.
 
@@ -102,7 +102,7 @@ Gets the current DataModelObject’s category.
 
 <a id="MeshEdit.Figures"></a>
 
-### *property* MeshEdit.Figures *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Figure](../../../../../v241/Ansys/ACT/Automation/Mechanical/Figure.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* MeshEdit.Figures *: Iterable[[Ansys.ACT.Automation.Mechanical.Figure](Figure.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated figures.
 
@@ -118,7 +118,7 @@ Gets or sets the GenerateAutomaticMeshConnectionsOnRefresh.
 
 <a id="MeshEdit.Images"></a>
 
-### *property* MeshEdit.Images *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Image](../../../../../v241/Ansys/ACT/Automation/Mechanical/Image.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* MeshEdit.Images *: Iterable[[Ansys.ACT.Automation.Mechanical.Image](Image.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated images.
 
@@ -134,7 +134,7 @@ Gets the internal object. For advanced usage only.
 
 <a id="MeshEdit.Properties"></a>
 
-### *property* MeshEdit.Properties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* MeshEdit.Properties *: [tuple](https://docs.python.org/3/library/stdtypes.html#tuple)[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of properties for this object.
 
@@ -142,7 +142,7 @@ Gets the list of properties for this object.
 
 <a id="MeshEdit.TransparencyEnabled"></a>
 
-### *property* MeshEdit.TransparencyEnabled *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* MeshEdit.TransparencyEnabled *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the TransparencyEnabled.
 
@@ -150,7 +150,7 @@ Gets or sets the TransparencyEnabled.
 
 <a id="MeshEdit.VisibleProperties"></a>
 
-### *property* MeshEdit.VisibleProperties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* MeshEdit.VisibleProperties *: [tuple](https://docs.python.org/3/library/stdtypes.html#tuple)[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of properties that are visible for this object.
 
@@ -202,7 +202,7 @@ Creates a new child Figure.
 
 <a id="MeshEdit.AddImage"></a>
 
-### MeshEdit.AddImage(filePath: System.String)
+### MeshEdit.AddImage(filePath: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 ```text
 Creates a new child Image.
@@ -302,7 +302,7 @@ Run the CreateNamedSelectionForSharedNodes action.
 
 <a id="MeshEdit.CreateParameter"></a>
 
-### MeshEdit.CreateParameter(propName: System.String)
+### MeshEdit.CreateParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Creates a new parameter for a Property.
 
@@ -326,7 +326,7 @@ Generate all mesh edits.
 
 <a id="MeshEdit.GetChildren"></a>
 
-### MeshEdit.GetChildren(recurses: System.Boolean, children: System.Collections.Generic.IList[ChildrenType])
+### MeshEdit.GetChildren(recurses: [bool](https://docs.python.org/3/library/functions.html#bool), children: List[ChildrenType])
 
 Gets the list of children, filtered by type.
 
@@ -334,7 +334,7 @@ Gets the list of children, filtered by type.
 
 <a id="MeshEdit.GetParameter"></a>
 
-### MeshEdit.GetParameter(propName: System.String)
+### MeshEdit.GetParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Gets the parameter corresponding to the given property.
 
@@ -358,7 +358,7 @@ Run the GroupSimilarObjects action.
 
 <a id="MeshEdit.PropertyByAPIName"></a>
 
-### MeshEdit.PropertyByAPIName(name: System.String)
+### MeshEdit.PropertyByAPIName(name: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 ```text
 Get a property by its API name.
@@ -369,7 +369,7 @@ If multiple properties have the same API Name, only the first property with that
 
 <a id="MeshEdit.PropertyByName"></a>
 
-### MeshEdit.PropertyByName(name: System.String)
+### MeshEdit.PropertyByName(name: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Get a property by its unique name.
 
@@ -377,7 +377,7 @@ Get a property by its unique name.
 
 <a id="MeshEdit.RemoveParameter"></a>
 
-### MeshEdit.RemoveParameter(propName: System.String)
+### MeshEdit.RemoveParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Removes the parameter from the parameter set corresponding to the given property.
 

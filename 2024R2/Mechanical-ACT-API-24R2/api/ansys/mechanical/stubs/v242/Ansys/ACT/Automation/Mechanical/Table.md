@@ -17,7 +17,7 @@ Defines a Table.
 ### Methods
 
 | Name | Description |
-|-------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------|
+|-------------------------------------------------------------|-----------------------------------------------------------------------------------|
 | [`Activate`](#Table.Activate)                               | Activate the current object.                                                      |
 | [`AddComment`](#Table.AddComment)                           | Creates a new child Comment.                                                      |
 | [`AddFigure`](#Table.AddFigure)                             | Creates a new child Figure.                                                       |
@@ -40,7 +40,7 @@ Defines a Table.
 ### Properties
 
 | Name | Description |
-|-------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------|
+|-------------------------------------------------------------|----------------------------------------------------------------------------------------|
 | [`APDLName`](#Table.APDLName)                               | Gets or sets the name of the Table when explicitly written to the APDL input file.     |
 | [`Children`](#Table.Children)                               | Gets the list of children.                                                             |
 | [`Comments`](#Table.Comments)                               | Gets the list of associated comments.                                                  |
@@ -62,7 +62,7 @@ Defines a Table.
 
 <a id="Table.APDLName"></a>
 
-### *property* Table.APDLName *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Table.APDLName *: [str](https://docs.python.org/3/library/stdtypes.html#str) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the name of the Table when explicitly written to the APDL input file.
 
@@ -70,7 +70,7 @@ Gets or sets the name of the Table when explicitly written to the APDL input fil
 
 <a id="Table.Children"></a>
 
-### *property* Table.Children *: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Table.Children *: List[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of children.
 
@@ -78,7 +78,7 @@ Gets the list of children.
 
 <a id="Table.Comments"></a>
 
-### *property* Table.Comments *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Comment](../../../../../v241/Ansys/ACT/Automation/Mechanical/Comment.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Table.Comments *: Iterable[[Ansys.ACT.Automation.Mechanical.Comment](Comment.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated comments.
 
@@ -94,7 +94,7 @@ Gets the current DataModelObject’s category.
 
 <a id="Table.Figures"></a>
 
-### *property* Table.Figures *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Figure](../../../../../v241/Ansys/ACT/Automation/Mechanical/Figure.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Table.Figures *: Iterable[[Ansys.ACT.Automation.Mechanical.Figure](Figure.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated figures.
 
@@ -102,7 +102,7 @@ Gets the list of associated figures.
 
 <a id="Table.Images"></a>
 
-### *property* Table.Images *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Image](../../../../../v241/Ansys/ACT/Automation/Mechanical/Image.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Table.Images *: Iterable[[Ansys.ACT.Automation.Mechanical.Image](Image.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated images.
 
@@ -118,7 +118,7 @@ Gets the internal object. For advanced usage only.
 
 <a id="Table.IsStrictSizing"></a>
 
-### *property* Table.IsStrictSizing *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Table.IsStrictSizing *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Whether column add/create/import/refresh operations cannot grow the number of rows.
 
@@ -134,7 +134,7 @@ Gets or sets the PathType.
 
 <a id="Table.Properties"></a>
 
-### *property* Table.Properties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Table.Properties *: [tuple](https://docs.python.org/3/library/stdtypes.html#tuple)[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of properties for this object.
 
@@ -150,7 +150,7 @@ Gets or sets the RefreshImportOn.
 
 <a id="Table.SendToSolver"></a>
 
-### *property* Table.SendToSolver *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Table.SendToSolver *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Get whether the Table will be explicitly written to the APDL input file.
 
@@ -158,7 +158,7 @@ Get whether the Table will be explicitly written to the APDL input file.
 
 <a id="Table.SpatialCoordinateSystem"></a>
 
-### *property* Table.SpatialCoordinateSystem *: [Ansys.ACT.Automation.Mechanical.CoordinateSystem](../../../../../v241/Ansys/ACT/Automation/Mechanical/CoordinateSystem.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.CoordinateSystem) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Table.SpatialCoordinateSystem *: [Ansys.ACT.Automation.Mechanical.CoordinateSystem](CoordinateSystem.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.CoordinateSystem) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the coordinate system applied to the Table’s spatial independent columns.
 
@@ -166,7 +166,7 @@ Gets or sets the coordinate system applied to the Table’s spatial independent 
 
 <a id="Table.VisibleProperties"></a>
 
-### *property* Table.VisibleProperties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* Table.VisibleProperties *: [tuple](https://docs.python.org/3/library/stdtypes.html#tuple)[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of properties that are visible for this object.
 
@@ -202,7 +202,7 @@ Creates a new child Figure.
 
 <a id="Table.AddImage"></a>
 
-### Table.AddImage(filePath: System.String)
+### Table.AddImage(filePath: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 ```text
 Creates a new child Image.
@@ -222,7 +222,7 @@ Copies all visible properties from this object to another.
 
 <a id="Table.CreateAndAddColumn"></a>
 
-### Table.CreateAndAddColumn(variableType: [Ansys.Mechanical.DataModel.MechanicalEnums.Table.VariableType](../../../Mechanical/DataModel/MechanicalEnums/Table/VariableType.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.MechanicalEnums.Table.VariableType), variableClassification: [Ansys.Mechanical.DataModel.MechanicalEnums.Table.VariableClassification](../../../Mechanical/DataModel/MechanicalEnums/Table/VariableClassification.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.MechanicalEnums.Table.VariableClassification), data: System.Collections.IEnumerable, unit: System.String, name: System.String)
+### Table.CreateAndAddColumn(variableType: [Ansys.Mechanical.DataModel.MechanicalEnums.Table.VariableType](../../../Mechanical/DataModel/MechanicalEnums/Table/VariableType.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.MechanicalEnums.Table.VariableType), variableClassification: [Ansys.Mechanical.DataModel.MechanicalEnums.Table.VariableClassification](../../../Mechanical/DataModel/MechanicalEnums/Table/VariableClassification.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.MechanicalEnums.Table.VariableClassification), data: Iterable, unit: [str](https://docs.python.org/3/library/stdtypes.html#str), name: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Creates and adds a new column (data series) to the table.
 
@@ -230,7 +230,7 @@ Creates and adds a new column (data series) to the table.
 
 <a id="Table.CreateParameter"></a>
 
-### Table.CreateParameter(propName: System.String)
+### Table.CreateParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Creates a new parameter for a Property.
 
@@ -246,7 +246,7 @@ Creates a copy of the current DataModelObject.
 
 <a id="Table.GetChildren"></a>
 
-### Table.GetChildren(recurses: System.Boolean, children: System.Collections.Generic.IList[ChildrenType])
+### Table.GetChildren(recurses: [bool](https://docs.python.org/3/library/functions.html#bool), children: List[ChildrenType])
 
 Gets the list of children, filtered by type.
 
@@ -270,7 +270,7 @@ Get the settings used for an import operation.
 
 <a id="Table.GetParameter"></a>
 
-### Table.GetParameter(propName: System.String)
+### Table.GetParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Gets the parameter corresponding to the given property.
 
@@ -294,13 +294,13 @@ Run the GroupSimilarObjects action.
 
 <a id="Table.Import"></a>
 
-### Table.Import(dataURI: System.String, format: [Ansys.Mechanical.DataModel.MechanicalEnums.Table.ImportFormat](../../../Mechanical/DataModel/MechanicalEnums/Table/ImportFormat.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.MechanicalEnums.Table.ImportFormat), settings: [Ansys.Mechanical.Table.ImportSettingsBase](../../../Mechanical/Table/ImportSettingsBase.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.Table.ImportSettingsBase))
+### Table.Import(dataURI: [str](https://docs.python.org/3/library/stdtypes.html#str), format: [Ansys.Mechanical.DataModel.MechanicalEnums.Table.ImportFormat](../../../Mechanical/DataModel/MechanicalEnums/Table/ImportFormat.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.MechanicalEnums.Table.ImportFormat), settings: [Ansys.Mechanical.Table.ImportSettingsBase](../../../Mechanical/Table/ImportSettingsBase.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.Table.ImportSettingsBase))
 
 <!-- !! processed by numpydoc !! -->
 
 <a id="Table.PropertyByAPIName"></a>
 
-### Table.PropertyByAPIName(name: System.String)
+### Table.PropertyByAPIName(name: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 ```text
 Get a property by its API name.
@@ -311,7 +311,7 @@ If multiple properties have the same API Name, only the first property with that
 
 <a id="Table.PropertyByName"></a>
 
-### Table.PropertyByName(name: System.String)
+### Table.PropertyByName(name: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Get a property by its unique name.
 
@@ -319,7 +319,7 @@ Get a property by its unique name.
 
 <a id="Table.RemoveParameter"></a>
 
-### Table.RemoveParameter(propName: System.String)
+### Table.RemoveParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Removes the parameter from the parameter set corresponding to the given property.
 

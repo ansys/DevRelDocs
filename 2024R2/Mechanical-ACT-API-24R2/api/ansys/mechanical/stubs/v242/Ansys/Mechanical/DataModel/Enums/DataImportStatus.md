@@ -17,7 +17,7 @@ Specifies the DataImportStatus.
 ### Attributes
 
 | Name |
-| ------------------------------------------------------------------------------------------------------------------ |
+| ------------------------------------------ |
 | [`Failed`](#DataImportStatus.Failed) |
 | [`NoData`](#DataImportStatus.NoData) |
 | [`Obsolete`](#DataImportStatus.Obsolete) |

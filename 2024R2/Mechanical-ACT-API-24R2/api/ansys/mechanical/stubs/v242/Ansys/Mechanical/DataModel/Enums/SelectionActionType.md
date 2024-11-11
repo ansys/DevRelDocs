@@ -17,7 +17,7 @@ Specifies the selction action type.
 ### Attributes
 
 | Name |
-| ------------------------------------------------------------------------------------------------------------------------------ |
+| --------------------------------------------------- |
 | [`Add`](#SelectionActionType.Add) |
 | [`Convert`](#SelectionActionType.Convert) |
 | [`Diagnostics`](#SelectionActionType.Diagnostics) |

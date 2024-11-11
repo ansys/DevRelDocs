@@ -17,7 +17,7 @@ Specifies the RobustFrequenciesReductionType.
 ### Attributes
 
 | Name |
-| ------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| ---------------------------------------------------------------- |
 | [`Average`](#RobustFrequenciesReductionType.Average) |
 | [`ModeTracking`](#RobustFrequenciesReductionType.ModeTracking) |
 | [`SmoothMin`](#RobustFrequenciesReductionType.SmoothMin) |

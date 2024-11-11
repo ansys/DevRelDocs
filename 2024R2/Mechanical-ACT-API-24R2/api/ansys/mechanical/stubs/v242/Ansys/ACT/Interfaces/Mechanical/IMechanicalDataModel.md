@@ -17,14 +17,14 @@ Defines the data model of the Mechanical application.
 ### Methods
 
 | Name | Description |
-|-----------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------|
+|--------------------------------------------------------------------------------------|---------------------------------------------------|
 | [`CurrentUnitFromQuantityName`](#IMechanicalDataModel.CurrentUnitFromQuantityName)   | Returns the current unit from a quantity name.    |
 | [`GetUserObjectById`](#IMechanicalDataModel.GetUserObjectById)                       | Gets the user object based on the application id. |
 
 ### Properties
 
 | Name | Description |
-|-------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------|
+|----------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------|
 | [`ObjectTags`](#IMechanicalDataModel.ObjectTags)   | Gets the ObjectTags object for the Data Model, which represents the current list of tags visable in the User Interface.   |
 | [`Project`](#IMechanicalDataModel.Project)         | Gets the project object. Main object of the tree of Mechanical.                                                           |
 | [`Tree`](#IMechanicalDataModel.Tree)               | Gets the tree of Mechanical.                                                                                              |
@@ -63,7 +63,7 @@ Gets the tree of Mechanical.
 
 <a id="IMechanicalDataModel.CurrentUnitFromQuantityName"></a>
 
-### IMechanicalDataModel.CurrentUnitFromQuantityName(quantityName: System.String)
+### IMechanicalDataModel.CurrentUnitFromQuantityName(quantityName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Returns the current unit from a quantity name.
 
@@ -71,7 +71,7 @@ Returns the current unit from a quantity name.
 
 <a id="IMechanicalDataModel.GetUserObjectById"></a>
 
-### IMechanicalDataModel.GetUserObjectById(id: System.Int32)
+### IMechanicalDataModel.GetUserObjectById(id: [int](https://docs.python.org/3/library/functions.html#int))
 
 Gets the user object based on the application id.
 

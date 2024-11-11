@@ -17,7 +17,7 @@ Specifies the CacheResultsInMemory.
 ### Attributes
 
 | Name |
-| -------------------------------------------------------------------------------------------------------------------------------------- |
+| ---------------------------------------------------------- |
 | [`AsRequested`](#CacheResultsInMemory.AsRequested) |
 | [`DuringSolution`](#CacheResultsInMemory.DuringSolution) |
 | [`Never`](#CacheResultsInMemory.Never) |

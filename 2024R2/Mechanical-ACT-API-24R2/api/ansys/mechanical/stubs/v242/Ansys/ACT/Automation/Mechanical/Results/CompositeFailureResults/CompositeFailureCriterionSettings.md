@@ -32,7 +32,7 @@ Base class for settings objects which contain the configuration of a single fail
 
 <a id="CompositeFailureCriterionSettings.Active"></a>
 
-### *property* CompositeFailureCriterionSettings.Active *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* CompositeFailureCriterionSettings.Active *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets whether the failure criterion is evaluated.
 

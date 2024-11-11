@@ -17,7 +17,7 @@ Specifies the Application type.
 ### Attributes
 
 | Name |
-| -------------------------------------------------------------------------------------------------------------------- |
+| --------------------------------------------- |
 | [`MAPDL`](#ApplicationType.MAPDL) |
 | [`Mechanical`](#ApplicationType.Mechanical) |
 

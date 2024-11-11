@@ -17,7 +17,7 @@ Defines a LimitBoundary.
 ### Methods
 
 | Name | Description |
-|---------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------|
+|---------------------------------------------------------------------|-----------------------------------------------------------------------------------|
 | [`Activate`](#LimitBoundary.Activate)                               | Activate the current object.                                                      |
 | [`AddComment`](#LimitBoundary.AddComment)                           | Creates a new child Comment.                                                      |
 | [`AddFigure`](#LimitBoundary.AddFigure)                             | Creates a new child Figure.                                                       |
@@ -38,7 +38,7 @@ Defines a LimitBoundary.
 ### Properties
 
 | Name | Description |
-|---------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------|
+|---------------------------------------------------------------------|---------------------------------------------------------------|
 | [`Children`](#LimitBoundary.Children)                               | Gets the list of children.                                    |
 | [`Comments`](#LimitBoundary.Comments)                               | Gets the list of associated comments.                         |
 | [`DataModelObjectCategory`](#LimitBoundary.DataModelObjectCategory) | Gets the current DataModelObject’s category.                  |
@@ -67,7 +67,7 @@ Defines a LimitBoundary.
 
 <a id="LimitBoundary.Children"></a>
 
-### *property* LimitBoundary.Children *: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* LimitBoundary.Children *: List[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of children.
 
@@ -75,7 +75,7 @@ Gets the list of children.
 
 <a id="LimitBoundary.Comments"></a>
 
-### *property* LimitBoundary.Comments *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Comment](../Comment.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* LimitBoundary.Comments *: Iterable[[Ansys.ACT.Automation.Mechanical.Comment](../Comment.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated comments.
 
@@ -83,7 +83,7 @@ Gets the list of associated comments.
 
 <a id="LimitBoundary.DataModelObjectCategory"></a>
 
-### *property* LimitBoundary.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../../v242/Ansys/Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* LimitBoundary.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the current DataModelObject’s category.
 
@@ -91,7 +91,7 @@ Gets the current DataModelObject’s category.
 
 <a id="LimitBoundary.Figures"></a>
 
-### *property* LimitBoundary.Figures *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Figure](../Figure.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* LimitBoundary.Figures *: Iterable[[Ansys.ACT.Automation.Mechanical.Figure](../Figure.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated figures.
 
@@ -99,7 +99,7 @@ Gets the list of associated figures.
 
 <a id="LimitBoundary.Images"></a>
 
-### *property* LimitBoundary.Images *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Image](../Image.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* LimitBoundary.Images *: Iterable[[Ansys.ACT.Automation.Mechanical.Image](../Image.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated images.
 
@@ -115,7 +115,7 @@ Gets the internal object. For advanced usage only.
 
 <a id="LimitBoundary.LimitBCDirection"></a>
 
-### *property* LimitBoundary.LimitBCDirection *: [Ansys.Mechanical.DataModel.Enums.LimitBCDirection](../../../../../../v242/Ansys/Mechanical/DataModel/Enums/LimitBCDirection.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.LimitBCDirection) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* LimitBoundary.LimitBCDirection *: [Ansys.Mechanical.DataModel.Enums.LimitBCDirection](../../../../Mechanical/DataModel/Enums/LimitBCDirection.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.LimitBCDirection) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the LimitBCDirection.
 
@@ -195,7 +195,7 @@ Gets or sets the Location.
 
 <a id="LimitBoundary.Properties"></a>
 
-### *property* LimitBoundary.Properties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* LimitBoundary.Properties *: [tuple](https://docs.python.org/3/library/stdtypes.html#tuple)[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of properties for this object.
 
@@ -203,7 +203,7 @@ Gets the list of properties for this object.
 
 <a id="LimitBoundary.ReadOnly"></a>
 
-### *property* LimitBoundary.ReadOnly *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* LimitBoundary.ReadOnly *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the ReadOnly.
 
@@ -219,7 +219,7 @@ Gets or sets the SharedRefBody.
 
 <a id="LimitBoundary.Suppressed"></a>
 
-### *property* LimitBoundary.Suppressed *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* LimitBoundary.Suppressed *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Suppressed.
 
@@ -227,7 +227,7 @@ Gets or sets the Suppressed.
 
 <a id="LimitBoundary.VisibleProperties"></a>
 
-### *property* LimitBoundary.VisibleProperties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* LimitBoundary.VisibleProperties *: [tuple](https://docs.python.org/3/library/stdtypes.html#tuple)[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of properties that are visible for this object.
 
@@ -263,7 +263,7 @@ Creates a new child Figure.
 
 <a id="LimitBoundary.AddImage"></a>
 
-### LimitBoundary.AddImage(filePath: System.String)
+### LimitBoundary.AddImage(filePath: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 ```text
 Creates a new child Image.
@@ -283,7 +283,7 @@ Copies all visible properties from this object to another.
 
 <a id="LimitBoundary.CreateParameter"></a>
 
-### LimitBoundary.CreateParameter(propName: System.String)
+### LimitBoundary.CreateParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Creates a new parameter for a Property.
 
@@ -307,7 +307,7 @@ Creates a copy of the current DataModelObject.
 
 <a id="LimitBoundary.GetChildren"></a>
 
-### LimitBoundary.GetChildren(recurses: System.Boolean, children: System.Collections.Generic.IList[ChildrenType])
+### LimitBoundary.GetChildren(recurses: [bool](https://docs.python.org/3/library/functions.html#bool), children: List[ChildrenType])
 
 Gets the list of children, filtered by type.
 
@@ -315,7 +315,7 @@ Gets the list of children, filtered by type.
 
 <a id="LimitBoundary.GetParameter"></a>
 
-### LimitBoundary.GetParameter(propName: System.String)
+### LimitBoundary.GetParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Gets the parameter corresponding to the given property.
 
@@ -347,7 +347,7 @@ Run the PromoteToNamedSelection action.
 
 <a id="LimitBoundary.PropertyByAPIName"></a>
 
-### LimitBoundary.PropertyByAPIName(name: System.String)
+### LimitBoundary.PropertyByAPIName(name: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 ```text
 Get a property by its API name.
@@ -358,7 +358,7 @@ If multiple properties have the same API Name, only the first property with that
 
 <a id="LimitBoundary.PropertyByName"></a>
 
-### LimitBoundary.PropertyByName(name: System.String)
+### LimitBoundary.PropertyByName(name: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Get a property by its unique name.
 
@@ -366,7 +366,7 @@ Get a property by its unique name.
 
 <a id="LimitBoundary.RemoveParameter"></a>
 
-### LimitBoundary.RemoveParameter(propName: System.String)
+### LimitBoundary.RemoveParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Removes the parameter from the parameter set corresponding to the given property.
 

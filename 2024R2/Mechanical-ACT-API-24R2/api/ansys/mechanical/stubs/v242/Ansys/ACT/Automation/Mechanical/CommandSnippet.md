@@ -78,7 +78,7 @@ Defines a CommandSnippet.
 
 <a id="CommandSnippet.Children"></a>
 
-### *property* CommandSnippet.Children *: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* CommandSnippet.Children *: List[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of children.
 
@@ -86,7 +86,7 @@ Gets the list of children.
 
 <a id="CommandSnippet.Comments"></a>
 
-### *property* CommandSnippet.Comments *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Comment](../../../../../v241/Ansys/ACT/Automation/Mechanical/Comment.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* CommandSnippet.Comments *: Iterable[[Ansys.ACT.Automation.Mechanical.Comment](Comment.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated comments.
 
@@ -102,7 +102,7 @@ Gets the current DataModelObject’s category.
 
 <a id="CommandSnippet.Figures"></a>
 
-### *property* CommandSnippet.Figures *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Figure](../../../../../v241/Ansys/ACT/Automation/Mechanical/Figure.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* CommandSnippet.Figures *: Iterable[[Ansys.ACT.Automation.Mechanical.Figure](Figure.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated figures.
 
@@ -110,7 +110,7 @@ Gets the list of associated figures.
 
 <a id="CommandSnippet.FileName"></a>
 
-### *property* CommandSnippet.FileName *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* CommandSnippet.FileName *: [str](https://docs.python.org/3/library/stdtypes.html#str) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the FileName.
 
@@ -118,7 +118,7 @@ Gets the FileName.
 
 <a id="CommandSnippet.Images"></a>
 
-### *property* CommandSnippet.Images *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Image](../../../../../v241/Ansys/ACT/Automation/Mechanical/Image.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* CommandSnippet.Images *: Iterable[[Ansys.ACT.Automation.Mechanical.Image](Image.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated images.
 
@@ -126,7 +126,7 @@ Gets the list of associated images.
 
 <a id="CommandSnippet.Input"></a>
 
-### *property* CommandSnippet.Input *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* CommandSnippet.Input *: [str](https://docs.python.org/3/library/stdtypes.html#str) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Text.
 
@@ -134,7 +134,7 @@ Gets or sets the Text.
 
 <a id="CommandSnippet.InputArgument1"></a>
 
-### *property* CommandSnippet.InputArgument1 *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* CommandSnippet.InputArgument1 *: [str](https://docs.python.org/3/library/stdtypes.html#str) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the InputArgument1.
 
@@ -142,7 +142,7 @@ Gets or sets the InputArgument1.
 
 <a id="CommandSnippet.InputArgument2"></a>
 
-### *property* CommandSnippet.InputArgument2 *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* CommandSnippet.InputArgument2 *: [str](https://docs.python.org/3/library/stdtypes.html#str) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the InputArgument2.
 
@@ -150,7 +150,7 @@ Gets or sets the InputArgument2.
 
 <a id="CommandSnippet.InputArgument3"></a>
 
-### *property* CommandSnippet.InputArgument3 *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* CommandSnippet.InputArgument3 *: [str](https://docs.python.org/3/library/stdtypes.html#str) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the InputArgument3.
 
@@ -158,7 +158,7 @@ Gets or sets the InputArgument3.
 
 <a id="CommandSnippet.InputArgument4"></a>
 
-### *property* CommandSnippet.InputArgument4 *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* CommandSnippet.InputArgument4 *: [str](https://docs.python.org/3/library/stdtypes.html#str) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the InputArgument4.
 
@@ -166,7 +166,7 @@ Gets or sets the InputArgument4.
 
 <a id="CommandSnippet.InputArgument5"></a>
 
-### *property* CommandSnippet.InputArgument5 *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* CommandSnippet.InputArgument5 *: [str](https://docs.python.org/3/library/stdtypes.html#str) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the InputArgument5.
 
@@ -174,7 +174,7 @@ Gets or sets the InputArgument5.
 
 <a id="CommandSnippet.InputArgument6"></a>
 
-### *property* CommandSnippet.InputArgument6 *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* CommandSnippet.InputArgument6 *: [str](https://docs.python.org/3/library/stdtypes.html#str) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the InputArgument6.
 
@@ -182,7 +182,7 @@ Gets or sets the InputArgument6.
 
 <a id="CommandSnippet.InputArgument7"></a>
 
-### *property* CommandSnippet.InputArgument7 *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* CommandSnippet.InputArgument7 *: [str](https://docs.python.org/3/library/stdtypes.html#str) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the InputArgument7.
 
@@ -190,7 +190,7 @@ Gets or sets the InputArgument7.
 
 <a id="CommandSnippet.InputArgument8"></a>
 
-### *property* CommandSnippet.InputArgument8 *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* CommandSnippet.InputArgument8 *: [str](https://docs.python.org/3/library/stdtypes.html#str) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the InputArgument8.
 
@@ -198,7 +198,7 @@ Gets or sets the InputArgument8.
 
 <a id="CommandSnippet.InputArgument9"></a>
 
-### *property* CommandSnippet.InputArgument9 *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* CommandSnippet.InputArgument9 *: [str](https://docs.python.org/3/library/stdtypes.html#str) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the InputArgument9.
 
@@ -214,7 +214,7 @@ Gets the internal object. For advanced usage only.
 
 <a id="CommandSnippet.InvalidateSolution"></a>
 
-### *property* CommandSnippet.InvalidateSolution *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* CommandSnippet.InvalidateSolution *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the InvalidateSolution.
 
@@ -222,7 +222,7 @@ Gets or sets the InvalidateSolution.
 
 <a id="CommandSnippet.IssueSolveCommand"></a>
 
-### *property* CommandSnippet.IssueSolveCommand *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* CommandSnippet.IssueSolveCommand *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the IssueSolveCommand.
 
@@ -230,7 +230,7 @@ Gets or sets the IssueSolveCommand.
 
 <a id="CommandSnippet.OutputParameters"></a>
 
-### *property* CommandSnippet.OutputParameters *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.CommandOutputParameter] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* CommandSnippet.OutputParameters *: [tuple](https://docs.python.org/3/library/stdtypes.html#tuple)[Ansys.ACT.Automation.Mechanical.CommandOutputParameter] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets a list of the command snippet’s output parameters.
 
@@ -238,7 +238,7 @@ Gets a list of the command snippet’s output parameters.
 
 <a id="CommandSnippet.OutputSearchPrefix"></a>
 
-### *property* CommandSnippet.OutputSearchPrefix *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* CommandSnippet.OutputSearchPrefix *: [str](https://docs.python.org/3/library/stdtypes.html#str) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the OutputSearchPrefix.
 
@@ -246,7 +246,7 @@ Gets or sets the OutputSearchPrefix.
 
 <a id="CommandSnippet.Properties"></a>
 
-### *property* CommandSnippet.Properties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* CommandSnippet.Properties *: [tuple](https://docs.python.org/3/library/stdtypes.html#tuple)[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of properties for this object.
 
@@ -254,7 +254,7 @@ Gets the list of properties for this object.
 
 <a id="CommandSnippet.ReadOnly"></a>
 
-### *property* CommandSnippet.ReadOnly *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* CommandSnippet.ReadOnly *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the ReadOnly.
 
@@ -262,7 +262,7 @@ Gets or sets the ReadOnly.
 
 <a id="CommandSnippet.SnippetFileStatus"></a>
 
-### *property* CommandSnippet.SnippetFileStatus *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* CommandSnippet.SnippetFileStatus *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the SnippetFileStatus.
 
@@ -278,7 +278,7 @@ Gets the SolverTarget.
 
 <a id="CommandSnippet.StepNumber"></a>
 
-### *property* CommandSnippet.StepNumber *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* CommandSnippet.StepNumber *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the StepNumber.
 
@@ -294,7 +294,7 @@ Gets or sets the StepSelectionMode.
 
 <a id="CommandSnippet.Suppressed"></a>
 
-### *property* CommandSnippet.Suppressed *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* CommandSnippet.Suppressed *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Suppressed.
 
@@ -302,7 +302,7 @@ Gets or sets the Suppressed.
 
 <a id="CommandSnippet.VisibleProperties"></a>
 
-### *property* CommandSnippet.VisibleProperties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* CommandSnippet.VisibleProperties *: [tuple](https://docs.python.org/3/library/stdtypes.html#tuple)[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of properties that are visible for this object.
 
@@ -338,7 +338,7 @@ Creates a new child Figure.
 
 <a id="CommandSnippet.AddImage"></a>
 
-### CommandSnippet.AddImage(filePath: System.String)
+### CommandSnippet.AddImage(filePath: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 ```text
 Creates a new child Image.
@@ -350,7 +350,7 @@ if not, the image will be a screen capture of the Geometry window.
 
 <a id="CommandSnippet.AppendText"></a>
 
-### CommandSnippet.AppendText(NewText: System.String)
+### CommandSnippet.AppendText(NewText: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Append Text.
 
@@ -366,7 +366,7 @@ Copies all visible properties from this object to another.
 
 <a id="CommandSnippet.CreateParameter"></a>
 
-### CommandSnippet.CreateParameter(propName: System.String)
+### CommandSnippet.CreateParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Creates a new parameter for a Property.
 
@@ -390,7 +390,7 @@ Creates a copy of the current DataModelObject.
 
 <a id="CommandSnippet.ExportTextFile"></a>
 
-### CommandSnippet.ExportTextFile(TextFile: System.String)
+### CommandSnippet.ExportTextFile(TextFile: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Export to Textfile.
 
@@ -398,7 +398,7 @@ Export to Textfile.
 
 <a id="CommandSnippet.GetChildren"></a>
 
-### CommandSnippet.GetChildren(recurses: System.Boolean, children: System.Collections.Generic.IList[ChildrenType])
+### CommandSnippet.GetChildren(recurses: [bool](https://docs.python.org/3/library/functions.html#bool), children: List[ChildrenType])
 
 Gets the list of children, filtered by type.
 
@@ -406,7 +406,7 @@ Gets the list of children, filtered by type.
 
 <a id="CommandSnippet.GetParameter"></a>
 
-### CommandSnippet.GetParameter(propName: System.String)
+### CommandSnippet.GetParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Gets the parameter corresponding to the given property.
 
@@ -430,7 +430,7 @@ Run the GroupSimilarObjects action.
 
 <a id="CommandSnippet.ImportTextFile"></a>
 
-### CommandSnippet.ImportTextFile(TextFile: System.String)
+### CommandSnippet.ImportTextFile(TextFile: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Import from Textfile.
 
@@ -438,7 +438,7 @@ Import from Textfile.
 
 <a id="CommandSnippet.PropertyByAPIName"></a>
 
-### CommandSnippet.PropertyByAPIName(name: System.String)
+### CommandSnippet.PropertyByAPIName(name: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 ```text
 Get a property by its API name.
@@ -449,7 +449,7 @@ If multiple properties have the same API Name, only the first property with that
 
 <a id="CommandSnippet.PropertyByName"></a>
 
-### CommandSnippet.PropertyByName(name: System.String)
+### CommandSnippet.PropertyByName(name: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Get a property by its unique name.
 
@@ -457,7 +457,7 @@ Get a property by its unique name.
 
 <a id="CommandSnippet.RemoveParameter"></a>
 
-### CommandSnippet.RemoveParameter(propName: System.String)
+### CommandSnippet.RemoveParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Removes the parameter from the parameter set corresponding to the given property.
 

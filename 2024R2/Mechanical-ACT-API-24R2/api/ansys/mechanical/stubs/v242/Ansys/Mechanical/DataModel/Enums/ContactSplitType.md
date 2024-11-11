@@ -17,7 +17,7 @@ Specifies the ContactSplitType.
 ### Attributes
 
 | Name |
-| ------------------------------------------------------------------------------------------------------------------------------------ |
+| ------------------------------------------------------------ |
 | [`Off`](#ContactSplitType.Off) |
 | [`On`](#ContactSplitType.On) |
 | [`ProgramControlled`](#ContactSplitType.ProgramControlled) |

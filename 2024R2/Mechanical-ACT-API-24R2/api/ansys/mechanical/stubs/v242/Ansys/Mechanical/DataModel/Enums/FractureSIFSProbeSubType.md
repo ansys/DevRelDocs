@@ -17,7 +17,7 @@ Specifies the FractureSIFSProbeSubType.
 ### Attributes
 
 | Name |
-| ------------------------------------------------------------------------------------------------------------------------ |
+| ---------------------------------------- |
 | [`K1`](#FractureSIFSProbeSubType.K1) |
 | [`K2`](#FractureSIFSProbeSubType.K2) |
 | [`K3`](#FractureSIFSProbeSubType.K3) |

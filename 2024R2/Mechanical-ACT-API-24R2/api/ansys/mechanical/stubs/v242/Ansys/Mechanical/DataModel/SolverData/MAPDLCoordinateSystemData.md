@@ -17,7 +17,7 @@ MAPDLCoordinateSystemData class.
 ### Properties
 
 | Name | Description |
-|-------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------|
+|-----------------------------------------------------|-------------------------------------------------|
 | [`SystemId`](#MAPDLCoordinateSystemData.SystemId)   | Gets the System Id for the coordinate system.   |
 
 <a id="property-detail"></a>
@@ -26,7 +26,7 @@ MAPDLCoordinateSystemData class.
 
 <a id="MAPDLCoordinateSystemData.SystemId"></a>
 
-### *property* MAPDLCoordinateSystemData.SystemId *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* MAPDLCoordinateSystemData.SystemId *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the System Id for the coordinate system.
 

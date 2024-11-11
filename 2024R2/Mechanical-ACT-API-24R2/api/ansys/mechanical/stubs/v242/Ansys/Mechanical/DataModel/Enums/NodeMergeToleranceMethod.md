@@ -17,7 +17,7 @@ To select the method of AutoNodeMove under PCTet.
 ### Attributes
 
 | Name |
-| ---------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| -------------------------------------------------------------------------------- |
 | [`AbsoluteValue`](#NodeMergeToleranceMethod.AbsoluteValue) |
 | [`PercentageOfElementSize`](#NodeMergeToleranceMethod.PercentageOfElementSize) |
 | [`ProgramControlled`](#NodeMergeToleranceMethod.ProgramControlled) |

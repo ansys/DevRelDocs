@@ -28,7 +28,7 @@ ISolverMemorySettings interface.
 
 <a id="ISolverMemorySettings.Active"></a>
 
-### *property* ISolverMemorySettings.Active *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ISolverMemorySettings.Active *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets whether or not manual memory settings are active in the current configuration.
 
@@ -36,7 +36,7 @@ Gets or sets whether or not manual memory settings are active in the current con
 
 <a id="ISolverMemorySettings.Database"></a>
 
-### *property* ISolverMemorySettings.Database *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ISolverMemorySettings.Database *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the database memory amount (MB).
 
@@ -44,7 +44,7 @@ Gets or sets the database memory amount (MB).
 
 <a id="ISolverMemorySettings.Workspace"></a>
 
-### *property* ISolverMemorySettings.Workspace *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ISolverMemorySettings.Workspace *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the workspace memory amount (megabytes).
 

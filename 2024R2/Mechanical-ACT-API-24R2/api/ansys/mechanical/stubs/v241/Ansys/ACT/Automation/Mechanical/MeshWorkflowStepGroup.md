@@ -58,7 +58,7 @@ Object that wraps IDSEngineeringModelWorkflow.
 
 <a id="MeshWorkflowStepGroup.Children"></a>
 
-### *property* MeshWorkflowStepGroup.Children *: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* MeshWorkflowStepGroup.Children *: List[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of children.
 
@@ -66,7 +66,7 @@ Gets the list of children.
 
 <a id="MeshWorkflowStepGroup.DataModelObjectCategory"></a>
 
-### *property* MeshWorkflowStepGroup.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../v242/Ansys/Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* MeshWorkflowStepGroup.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the current DataModelObject’s category.
 
@@ -74,7 +74,7 @@ Gets the current DataModelObject’s category.
 
 <a id="MeshWorkflowStepGroup.Figures"></a>
 
-### *property* MeshWorkflowStepGroup.Figures *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Figure](Figure.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* MeshWorkflowStepGroup.Figures *: Iterable[[Ansys.ACT.Automation.Mechanical.Figure](Figure.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated figures.
 
@@ -82,7 +82,7 @@ Gets the list of associated figures.
 
 <a id="MeshWorkflowStepGroup.Images"></a>
 
-### *property* MeshWorkflowStepGroup.Images *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Image](Image.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* MeshWorkflowStepGroup.Images *: Iterable[[Ansys.ACT.Automation.Mechanical.Image](Image.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated images.
 
@@ -98,7 +98,7 @@ Gets the internal object. For advanced usage only.
 
 <a id="MeshWorkflowStepGroup.NumberOfCores"></a>
 
-### *property* MeshWorkflowStepGroup.NumberOfCores *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* MeshWorkflowStepGroup.NumberOfCores *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Defines how many CPU cores to be used in an operation (if supported by the operation).
 
@@ -106,7 +106,7 @@ Defines how many CPU cores to be used in an operation (if supported by the opera
 
 <a id="MeshWorkflowStepGroup.Properties"></a>
 
-### *property* MeshWorkflowStepGroup.Properties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* MeshWorkflowStepGroup.Properties *: [tuple](https://docs.python.org/3/library/stdtypes.html#tuple)[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of properties for this object.
 
@@ -114,7 +114,7 @@ Gets the list of properties for this object.
 
 <a id="MeshWorkflowStepGroup.VisibleProperties"></a>
 
-### *property* MeshWorkflowStepGroup.VisibleProperties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* MeshWorkflowStepGroup.VisibleProperties *: [tuple](https://docs.python.org/3/library/stdtypes.html#tuple)[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of properties that are visible for this object.
 
@@ -142,7 +142,7 @@ Creates a new child Figure.
 
 <a id="MeshWorkflowStepGroup.AddImage"></a>
 
-### MeshWorkflowStepGroup.AddImage(filePath: System.String)
+### MeshWorkflowStepGroup.AddImage(filePath: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 ```text
 Creates a new child Image.
@@ -154,7 +154,7 @@ if not, the image will be a screen capture of the Geometry window.
 
 <a id="MeshWorkflowStepGroup.AddStep"></a>
 
-### MeshWorkflowStepGroup.AddStep(type: [Ansys.Mechanical.DataModel.MechanicalEnums.MeshWorkflow.OperationType](../../../../../v242/Ansys/Mechanical/DataModel/MechanicalEnums/MeshWorkflow/OperationType.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.MechanicalEnums.MeshWorkflow.OperationType))
+### MeshWorkflowStepGroup.AddStep(type: [Ansys.Mechanical.DataModel.MechanicalEnums.MeshWorkflow.OperationType](../../../Mechanical/DataModel/MechanicalEnums/MeshWorkflow/OperationType.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.MechanicalEnums.MeshWorkflow.OperationType))
 
 Add another operation to the sequence of steps to be executed for the mesh workflow.
 
@@ -170,7 +170,7 @@ Copies all visible properties from this object to another.
 
 <a id="MeshWorkflowStepGroup.CreateParameter"></a>
 
-### MeshWorkflowStepGroup.CreateParameter(propName: System.String)
+### MeshWorkflowStepGroup.CreateParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Creates a new parameter for a Property.
 
@@ -218,7 +218,7 @@ Executes the next step, i.e. the next operation which is ready to be executed un
 
 <a id="MeshWorkflowStepGroup.ExecuteUpToStep"></a>
 
-### MeshWorkflowStepGroup.ExecuteUpToStep(arg: System.Object)
+### MeshWorkflowStepGroup.ExecuteUpToStep(arg: Any)
 
 Executes any not yet ready steps up to and including the specified step.
 
@@ -226,7 +226,7 @@ Executes any not yet ready steps up to and including the specified step.
 
 <a id="MeshWorkflowStepGroup.GetChildren"></a>
 
-### MeshWorkflowStepGroup.GetChildren(recurses: System.Boolean, children: System.Collections.Generic.IList[ChildrenType])
+### MeshWorkflowStepGroup.GetChildren(recurses: [bool](https://docs.python.org/3/library/functions.html#bool), children: List[ChildrenType])
 
 Gets the list of children, filtered by type.
 
@@ -234,7 +234,7 @@ Gets the list of children, filtered by type.
 
 <a id="MeshWorkflowStepGroup.GetParameter"></a>
 
-### MeshWorkflowStepGroup.GetParameter(propName: System.String)
+### MeshWorkflowStepGroup.GetParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Gets the parameter corresponding to the given property.
 
@@ -258,7 +258,7 @@ Run the GroupSimilarObjects action.
 
 <a id="MeshWorkflowStepGroup.PropertyByAPIName"></a>
 
-### MeshWorkflowStepGroup.PropertyByAPIName(name: System.String)
+### MeshWorkflowStepGroup.PropertyByAPIName(name: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 ```text
 Get a property by its API name.
@@ -269,7 +269,7 @@ If multiple properties have the same API Name, only the first property with that
 
 <a id="MeshWorkflowStepGroup.PropertyByName"></a>
 
-### MeshWorkflowStepGroup.PropertyByName(name: System.String)
+### MeshWorkflowStepGroup.PropertyByName(name: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Get a property by its unique name.
 
@@ -277,7 +277,7 @@ Get a property by its unique name.
 
 <a id="MeshWorkflowStepGroup.RemoveParameter"></a>
 
-### MeshWorkflowStepGroup.RemoveParameter(propName: System.String)
+### MeshWorkflowStepGroup.RemoveParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Removes the parameter from the parameter set corresponding to the given property.
 
@@ -285,7 +285,7 @@ Removes the parameter from the parameter set corresponding to the given property
 
 <a id="MeshWorkflowStepGroup.RevertToStep"></a>
 
-### MeshWorkflowStepGroup.RevertToStep(arg: System.Object)
+### MeshWorkflowStepGroup.RevertToStep(arg: Any)
 
 Revert to the specified step; if no checkpoint is available, then an exception will be raised.
 

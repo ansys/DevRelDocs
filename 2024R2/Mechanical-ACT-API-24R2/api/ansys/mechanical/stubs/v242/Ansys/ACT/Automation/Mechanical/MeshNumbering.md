@@ -17,7 +17,7 @@ Defines a MeshNumbering.
 ### Methods
 
 | Name | Description |
-|-----------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------|
+|---------------------------------------------------------------------|-----------------------------------------------------------------------------------|
 | [`Activate`](#MeshNumbering.Activate)                               | Activate the current object.                                                      |
 | [`AddComment`](#MeshNumbering.AddComment)                           | Creates a new child Comment.                                                      |
 | [`AddFigure`](#MeshNumbering.AddFigure)                             | Creates a new child Figure.                                                       |
@@ -39,7 +39,7 @@ Defines a MeshNumbering.
 ### Properties
 
 | Name | Description |
-|-----------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------|
+|---------------------------------------------------------------------|---------------------------------------------------------------|
 | [`Children`](#MeshNumbering.Children)                               | Gets the list of children.                                    |
 | [`Comments`](#MeshNumbering.Comments)                               | Gets the list of associated comments.                         |
 | [`CompressNodeNumbers`](#MeshNumbering.CompressNodeNumbers)         | Gets or sets the CompressNodeNumbers.                         |
@@ -59,7 +59,7 @@ Defines a MeshNumbering.
 
 <a id="MeshNumbering.Children"></a>
 
-### *property* MeshNumbering.Children *: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* MeshNumbering.Children *: List[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of children.
 
@@ -67,7 +67,7 @@ Gets the list of children.
 
 <a id="MeshNumbering.Comments"></a>
 
-### *property* MeshNumbering.Comments *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Comment](../../../../../v241/Ansys/ACT/Automation/Mechanical/Comment.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* MeshNumbering.Comments *: Iterable[[Ansys.ACT.Automation.Mechanical.Comment](Comment.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated comments.
 
@@ -75,7 +75,7 @@ Gets the list of associated comments.
 
 <a id="MeshNumbering.CompressNodeNumbers"></a>
 
-### *property* MeshNumbering.CompressNodeNumbers *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* MeshNumbering.CompressNodeNumbers *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the CompressNodeNumbers.
 
@@ -91,7 +91,7 @@ Gets the current DataModelObject’s category.
 
 <a id="MeshNumbering.ElementOffset"></a>
 
-### *property* MeshNumbering.ElementOffset *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* MeshNumbering.ElementOffset *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the ElementOffset.
 
@@ -99,7 +99,7 @@ Gets or sets the ElementOffset.
 
 <a id="MeshNumbering.Figures"></a>
 
-### *property* MeshNumbering.Figures *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Figure](../../../../../v241/Ansys/ACT/Automation/Mechanical/Figure.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* MeshNumbering.Figures *: Iterable[[Ansys.ACT.Automation.Mechanical.Figure](Figure.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated figures.
 
@@ -107,7 +107,7 @@ Gets the list of associated figures.
 
 <a id="MeshNumbering.Images"></a>
 
-### *property* MeshNumbering.Images *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Image](../../../../../v241/Ansys/ACT/Automation/Mechanical/Image.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* MeshNumbering.Images *: Iterable[[Ansys.ACT.Automation.Mechanical.Image](Image.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated images.
 
@@ -123,7 +123,7 @@ Gets the internal object. For advanced usage only.
 
 <a id="MeshNumbering.NodeOffset"></a>
 
-### *property* MeshNumbering.NodeOffset *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* MeshNumbering.NodeOffset *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the NodeOffset.
 
@@ -131,7 +131,7 @@ Gets or sets the NodeOffset.
 
 <a id="MeshNumbering.Properties"></a>
 
-### *property* MeshNumbering.Properties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* MeshNumbering.Properties *: [tuple](https://docs.python.org/3/library/stdtypes.html#tuple)[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of properties for this object.
 
@@ -139,7 +139,7 @@ Gets the list of properties for this object.
 
 <a id="MeshNumbering.Suppressed"></a>
 
-### *property* MeshNumbering.Suppressed *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* MeshNumbering.Suppressed *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Suppressed.
 
@@ -147,7 +147,7 @@ Gets or sets the Suppressed.
 
 <a id="MeshNumbering.VisibleProperties"></a>
 
-### *property* MeshNumbering.VisibleProperties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* MeshNumbering.VisibleProperties *: [tuple](https://docs.python.org/3/library/stdtypes.html#tuple)[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of properties that are visible for this object.
 
@@ -183,7 +183,7 @@ Creates a new child Figure.
 
 <a id="MeshNumbering.AddImage"></a>
 
-### MeshNumbering.AddImage(filePath: System.String)
+### MeshNumbering.AddImage(filePath: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 ```text
 Creates a new child Image.
@@ -211,7 +211,7 @@ Copies all visible properties from this object to another.
 
 <a id="MeshNumbering.CreateParameter"></a>
 
-### MeshNumbering.CreateParameter(propName: System.String)
+### MeshNumbering.CreateParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Creates a new parameter for a Property.
 
@@ -235,7 +235,7 @@ Creates a copy of the current DataModelObject.
 
 <a id="MeshNumbering.GetChildren"></a>
 
-### MeshNumbering.GetChildren(recurses: System.Boolean, children: System.Collections.Generic.IList[ChildrenType])
+### MeshNumbering.GetChildren(recurses: [bool](https://docs.python.org/3/library/functions.html#bool), children: List[ChildrenType])
 
 Gets the list of children, filtered by type.
 
@@ -243,7 +243,7 @@ Gets the list of children, filtered by type.
 
 <a id="MeshNumbering.GetParameter"></a>
 
-### MeshNumbering.GetParameter(propName: System.String)
+### MeshNumbering.GetParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Gets the parameter corresponding to the given property.
 
@@ -267,7 +267,7 @@ Run the GroupSimilarObjects action.
 
 <a id="MeshNumbering.PropertyByAPIName"></a>
 
-### MeshNumbering.PropertyByAPIName(name: System.String)
+### MeshNumbering.PropertyByAPIName(name: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 ```text
 Get a property by its API name.
@@ -278,7 +278,7 @@ If multiple properties have the same API Name, only the first property with that
 
 <a id="MeshNumbering.PropertyByName"></a>
 
-### MeshNumbering.PropertyByName(name: System.String)
+### MeshNumbering.PropertyByName(name: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Get a property by its unique name.
 
@@ -286,7 +286,7 @@ Get a property by its unique name.
 
 <a id="MeshNumbering.RemoveParameter"></a>
 
-### MeshNumbering.RemoveParameter(propName: System.String)
+### MeshNumbering.RemoveParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Removes the parameter from the parameter set corresponding to the given property.
 

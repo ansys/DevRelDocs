@@ -17,7 +17,7 @@ Specifies the SnapType.
 ### Attributes
 
 | Name |
-| ---------------------------------------------------------------------------------------------------------------------- |
+| ------------------------------------------------------ |
 | [`ElementSizeFactor`](#SnapType.ElementSizeFactor) |
 | [`ManualTolerance`](#SnapType.ManualTolerance) |
 

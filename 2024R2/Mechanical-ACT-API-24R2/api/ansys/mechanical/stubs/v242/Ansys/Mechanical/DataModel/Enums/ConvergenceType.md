@@ -17,7 +17,7 @@ Specifies the ConvergenceType.
 ### Attributes
 
 | Name |
-| ------------------------------------------------------------------------------------------------------------------------------ |
+| ------------------------------------------------------- |
 | [`ForceSummation`](#ConvergenceType.ForceSummation) |
 | [`Frequency`](#ConvergenceType.Frequency) |
 | [`Maximum`](#ConvergenceType.Maximum) |

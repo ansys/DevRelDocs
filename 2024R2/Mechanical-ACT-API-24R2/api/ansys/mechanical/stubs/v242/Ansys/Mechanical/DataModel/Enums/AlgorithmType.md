@@ -17,7 +17,7 @@ Specifies the AlgorithmType.
 ### Attributes
 
 | Name |
-| ------------------------------------------------------------------------------------------------------------------------------ |
+| --------------------------------------------------------- |
 | [`MFD`](#AlgorithmType.MFD) |
 | [`ProgramControlled`](#AlgorithmType.ProgramControlled) |
 | [`SCPIP`](#AlgorithmType.SCPIP) |

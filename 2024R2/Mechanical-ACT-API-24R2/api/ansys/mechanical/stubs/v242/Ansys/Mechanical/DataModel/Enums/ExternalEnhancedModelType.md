@@ -17,7 +17,7 @@ Specifies the ExternalEnhancedModelType.
 ### Attributes
 
 | Name |
-| ------------------------------------------------------------------------------------------------------------------------------------------------ |
+| --------------------------------------------------------------- |
 | [`ImportedPlies`](#ExternalEnhancedModelType.ImportedPlies) |
 
 <a id="attribute-detail"></a>

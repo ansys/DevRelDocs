@@ -15,7 +15,7 @@ Bases: [`enum.Enum`](https://docs.python.org/3/library/enum.html#enum.Enum)
 ### Attributes
 
 | Name |
-| ---------------------------------------------------------------------------------------------------------------------------------------- |
+| --------------------------------------------------------------- |
 | [`Quadrilaterals`](#FaceMeshingMethod.Quadrilaterals) |
 | [`TrianglesBestSplit`](#FaceMeshingMethod.TrianglesBestSplit) |
 

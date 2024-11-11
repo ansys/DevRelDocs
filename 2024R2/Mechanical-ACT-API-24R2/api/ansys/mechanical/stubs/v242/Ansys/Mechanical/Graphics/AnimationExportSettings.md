@@ -17,7 +17,7 @@ AnimationExportSettings class.
 ### Properties
 
 | Name | Description |
-|--------------------------------------------------------------------------------------------------------------------|-------------------------------|
+|-----------------------------------------------|-------------------------------|
 | [`Height`](#AnimationExportSettings.Height)   | Specifies the video height.   |
 | [`Width`](#AnimationExportSettings.Width)     | Specifies the video width.    |
 
@@ -27,7 +27,7 @@ AnimationExportSettings class.
 
 <a id="AnimationExportSettings.Height"></a>
 
-### *property* AnimationExportSettings.Height *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AnimationExportSettings.Height *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Specifies the video height.
 
@@ -35,7 +35,7 @@ Specifies the video height.
 
 <a id="AnimationExportSettings.Width"></a>
 
-### *property* AnimationExportSettings.Width *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* AnimationExportSettings.Width *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Specifies the video width.
 

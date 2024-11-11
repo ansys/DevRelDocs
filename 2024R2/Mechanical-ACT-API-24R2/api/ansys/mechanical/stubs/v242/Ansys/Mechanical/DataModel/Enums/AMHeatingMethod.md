@@ -17,7 +17,7 @@ Specifies the AMHeatingMethod.
 ### Attributes
 
 | Name |
-| -------------------------------------------------------------------------------------------------------------------------------------- |
+| --------------------------------------------------------------- |
 | [`MeltingTemperature`](#AMHeatingMethod.MeltingTemperature) |
 | [`Power`](#AMHeatingMethod.Power) |
 

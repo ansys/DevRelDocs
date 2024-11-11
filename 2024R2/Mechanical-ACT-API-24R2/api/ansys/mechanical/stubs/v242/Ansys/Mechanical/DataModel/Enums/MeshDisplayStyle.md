@@ -17,7 +17,7 @@ Specifies the MeshDisplayStyle.
 ### Attributes
 
 | Name |
-| -------------------------------------------------------------------------------------------------------------------------------------------------- |
+| -------------------------------------------------------------------------- |
 | [`AspectRatio`](#MeshDisplayStyle.AspectRatio) |
 | [`AspectRatioEXD`](#MeshDisplayStyle.AspectRatioEXD) |
 | [`CharacteristicLength`](#MeshDisplayStyle.CharacteristicLength) |

@@ -17,7 +17,7 @@ ChartXAxis class.
 ### Properties
 
 | Name | Description |
-|-------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------|
+|--------------------------------------------------|-------------------------------------------------------------------------------------------------------------------|
 | [`ComponentIndex`](#ChartXAxis.ComponentIndex)   | Gets or sets the component index for the chart.                                                                   |
 | [`ObjectSelection`](#ChartXAxis.ObjectSelection) | Gets or sets the object being used to control the X Axis. Setting to None returns to common independent variable. |
 
@@ -27,7 +27,7 @@ ChartXAxis class.
 
 <a id="ChartXAxis.ComponentIndex"></a>
 
-### *property* ChartXAxis.ComponentIndex *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ChartXAxis.ComponentIndex *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the component index for the chart.
 

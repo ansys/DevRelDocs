@@ -17,7 +17,7 @@ Specifies the TotalOrDirectional.
 ### Attributes
 
 | Name |
-| ------------------------------------------------------------------------------------------------------------------------------ |
+| ---------------------------------------------------- |
 | [`Directional`](#TotalOrDirectional.Directional) |
 | [`Total`](#TotalOrDirectional.Total) |
 

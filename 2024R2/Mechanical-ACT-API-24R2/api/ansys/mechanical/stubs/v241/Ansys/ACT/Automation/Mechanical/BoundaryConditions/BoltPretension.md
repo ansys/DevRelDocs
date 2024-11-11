@@ -17,7 +17,7 @@ Defines a BoltPretension.
 ### Methods
 
 | Name | Description |
-|---------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------|
+|--------------------------------------------------------------------------|-----------------------------------------------------------------------------------|
 | [`Activate`](#BoltPretension.Activate)                                   | Activate the current object.                                                      |
 | [`AddComment`](#BoltPretension.AddComment)                               | Creates a new child Comment.                                                      |
 | [`AddFigure`](#BoltPretension.AddFigure)                                 | Creates a new child Figure.                                                       |
@@ -41,7 +41,7 @@ Defines a BoltPretension.
 ### Properties
 
 | Name | Description |
-|-------------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------|
+|------------------------------------------------------------------------|-------------------------------------------------------------------------------------------|
 | [`Children`](#BoltPretension.Children)                                 | Gets the list of children.                                                                |
 | [`Comments`](#BoltPretension.Comments)                                 | Gets the list of associated comments.                                                     |
 | [`CoordinateSystem`](#BoltPretension.CoordinateSystem)                 | Gets or sets the CoordinateSystem.                                                        |
@@ -69,7 +69,7 @@ Defines a BoltPretension.
 
 <a id="BoltPretension.Children"></a>
 
-### *property* BoltPretension.Children *: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* BoltPretension.Children *: List[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of children.
 
@@ -77,7 +77,7 @@ Gets the list of children.
 
 <a id="BoltPretension.Comments"></a>
 
-### *property* BoltPretension.Comments *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Comment](../Comment.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* BoltPretension.Comments *: Iterable[[Ansys.ACT.Automation.Mechanical.Comment](../Comment.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated comments.
 
@@ -93,7 +93,7 @@ Gets or sets the CoordinateSystem.
 
 <a id="BoltPretension.CoordinateSystemBehavior"></a>
 
-### *property* BoltPretension.CoordinateSystemBehavior *: [Ansys.Mechanical.DataModel.Enums.CoordinateSystemBehavior](../../../../../../v242/Ansys/Mechanical/DataModel/Enums/CoordinateSystemBehavior.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.CoordinateSystemBehavior) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* BoltPretension.CoordinateSystemBehavior *: [Ansys.Mechanical.DataModel.Enums.CoordinateSystemBehavior](../../../../Mechanical/DataModel/Enums/CoordinateSystemBehavior.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.CoordinateSystemBehavior) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the CoordinateSystemBehavior.
 
@@ -101,7 +101,7 @@ Gets or sets the CoordinateSystemBehavior.
 
 <a id="BoltPretension.DataModelObjectCategory"></a>
 
-### *property* BoltPretension.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../../v242/Ansys/Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* BoltPretension.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the current DataModelObject’s category.
 
@@ -109,7 +109,7 @@ Gets the current DataModelObject’s category.
 
 <a id="BoltPretension.DefineBy"></a>
 
-### *property* BoltPretension.DefineBy *: [Ansys.Mechanical.DataModel.Enums.BoltLoadDefineBy](../../../../../../v242/Ansys/Mechanical/DataModel/Enums/BoltLoadDefineBy.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.BoltLoadDefineBy) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* BoltPretension.DefineBy *: [Ansys.Mechanical.DataModel.Enums.BoltLoadDefineBy](../../../../Mechanical/DataModel/Enums/BoltLoadDefineBy.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.BoltLoadDefineBy) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets a value indicating how the bolt pretension is defined at the analysis’ current step.
 
@@ -117,7 +117,7 @@ Gets a value indicating how the bolt pretension is defined at the analysis’ cu
 
 <a id="BoltPretension.Figures"></a>
 
-### *property* BoltPretension.Figures *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Figure](../Figure.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* BoltPretension.Figures *: Iterable[[Ansys.ACT.Automation.Mechanical.Figure](../Figure.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated figures.
 
@@ -125,7 +125,7 @@ Gets the list of associated figures.
 
 <a id="BoltPretension.Formulation"></a>
 
-### *property* BoltPretension.Formulation *: [Ansys.Mechanical.DataModel.Enums.FormulationType](../../../../../../v242/Ansys/Mechanical/DataModel/Enums/FormulationType.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.FormulationType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* BoltPretension.Formulation *: [Ansys.Mechanical.DataModel.Enums.FormulationType](../../../../Mechanical/DataModel/Enums/FormulationType.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.FormulationType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Formulation.
 
@@ -133,7 +133,7 @@ Gets or sets the Formulation.
 
 <a id="BoltPretension.Images"></a>
 
-### *property* BoltPretension.Images *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Image](../Image.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* BoltPretension.Images *: Iterable[[Ansys.ACT.Automation.Mechanical.Image](../Image.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated images.
 
@@ -141,7 +141,7 @@ Gets the list of associated images.
 
 <a id="BoltPretension.Increment"></a>
 
-### *property* BoltPretension.Increment *: [Ansys.ACT.Mechanical.Fields.Field](../../../../../../v242/Ansys/ACT/Mechanical/Fields/Field.md#ansys.mechanical.stubs.v242.Ansys.ACT.Mechanical.Fields.Field) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* BoltPretension.Increment *: [Ansys.ACT.Mechanical.Fields.Field](../../../Mechanical/Fields/Field.md#ansys.mechanical.stubs.v241.Ansys.ACT.Mechanical.Fields.Field) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the Increment.
 
@@ -165,7 +165,7 @@ Gets or sets the Location.
 
 <a id="BoltPretension.Preadjustment"></a>
 
-### *property* BoltPretension.Preadjustment *: [Ansys.ACT.Mechanical.Fields.Field](../../../../../../v242/Ansys/ACT/Mechanical/Fields/Field.md#ansys.mechanical.stubs.v242.Ansys.ACT.Mechanical.Fields.Field) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* BoltPretension.Preadjustment *: [Ansys.ACT.Mechanical.Fields.Field](../../../Mechanical/Fields/Field.md#ansys.mechanical.stubs.v241.Ansys.ACT.Mechanical.Fields.Field) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the Preadjustment.
 
@@ -173,7 +173,7 @@ Gets the Preadjustment.
 
 <a id="BoltPretension.Preload"></a>
 
-### *property* BoltPretension.Preload *: [Ansys.ACT.Mechanical.Fields.Field](../../../../../../v242/Ansys/ACT/Mechanical/Fields/Field.md#ansys.mechanical.stubs.v242.Ansys.ACT.Mechanical.Fields.Field) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* BoltPretension.Preload *: [Ansys.ACT.Mechanical.Fields.Field](../../../Mechanical/Fields/Field.md#ansys.mechanical.stubs.v241.Ansys.ACT.Mechanical.Fields.Field) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the Preload.
 
@@ -181,7 +181,7 @@ Gets the Preload.
 
 <a id="BoltPretension.Properties"></a>
 
-### *property* BoltPretension.Properties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* BoltPretension.Properties *: [tuple](https://docs.python.org/3/library/stdtypes.html#tuple)[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of properties for this object.
 
@@ -189,7 +189,7 @@ Gets the list of properties for this object.
 
 <a id="BoltPretension.ReadOnly"></a>
 
-### *property* BoltPretension.ReadOnly *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* BoltPretension.ReadOnly *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the ReadOnly.
 
@@ -197,7 +197,7 @@ Gets or sets the ReadOnly.
 
 <a id="BoltPretension.SolveBehaviourType"></a>
 
-### *property* BoltPretension.SolveBehaviourType *: [Ansys.Mechanical.DataModel.Enums.SolveBehaviourType](../../../../../../v242/Ansys/Mechanical/DataModel/Enums/SolveBehaviourType.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.SolveBehaviourType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* BoltPretension.SolveBehaviourType *: [Ansys.Mechanical.DataModel.Enums.SolveBehaviourType](../../../../Mechanical/DataModel/Enums/SolveBehaviourType.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.SolveBehaviourType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the SolveBehaviourType.
 
@@ -205,7 +205,7 @@ Gets or sets the SolveBehaviourType.
 
 <a id="BoltPretension.Suppressed"></a>
 
-### *property* BoltPretension.Suppressed *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* BoltPretension.Suppressed *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Suppressed.
 
@@ -221,7 +221,7 @@ Gets or sets the Tolerance.
 
 <a id="BoltPretension.VisibleProperties"></a>
 
-### *property* BoltPretension.VisibleProperties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* BoltPretension.VisibleProperties *: [tuple](https://docs.python.org/3/library/stdtypes.html#tuple)[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of properties that are visible for this object.
 
@@ -257,7 +257,7 @@ Creates a new child Figure.
 
 <a id="BoltPretension.AddImage"></a>
 
-### BoltPretension.AddImage(filePath: System.String)
+### BoltPretension.AddImage(filePath: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 ```text
 Creates a new child Image.
@@ -277,7 +277,7 @@ Copies all visible properties from this object to another.
 
 <a id="BoltPretension.CreateParameter"></a>
 
-### BoltPretension.CreateParameter(propName: System.String)
+### BoltPretension.CreateParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Creates a new parameter for a Property.
 
@@ -301,7 +301,7 @@ Creates a copy of the current DataModelObject.
 
 <a id="BoltPretension.GetChildren"></a>
 
-### BoltPretension.GetChildren(recurses: System.Boolean, children: System.Collections.Generic.IList[ChildrenType])
+### BoltPretension.GetChildren(recurses: [bool](https://docs.python.org/3/library/functions.html#bool), children: List[ChildrenType])
 
 Gets the list of children, filtered by type.
 
@@ -309,7 +309,7 @@ Gets the list of children, filtered by type.
 
 <a id="BoltPretension.GetDefineBy"></a>
 
-### BoltPretension.GetDefineBy(stepNumber: System.Int32)
+### BoltPretension.GetDefineBy(stepNumber: [int](https://docs.python.org/3/library/functions.html#int))
 
 Gets the Bolt Define By value at a given solution step.
 
@@ -317,7 +317,7 @@ Gets the Bolt Define By value at a given solution step.
 
 <a id="BoltPretension.GetParameter"></a>
 
-### BoltPretension.GetParameter(propName: System.String)
+### BoltPretension.GetParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Gets the parameter corresponding to the given property.
 
@@ -357,7 +357,7 @@ Run the PromoteToNamedSelection action.
 
 <a id="BoltPretension.PropertyByAPIName"></a>
 
-### BoltPretension.PropertyByAPIName(name: System.String)
+### BoltPretension.PropertyByAPIName(name: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 ```text
 Get a property by its API name.
@@ -368,7 +368,7 @@ If multiple properties have the same API Name, only the first property with that
 
 <a id="BoltPretension.PropertyByName"></a>
 
-### BoltPretension.PropertyByName(name: System.String)
+### BoltPretension.PropertyByName(name: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Get a property by its unique name.
 
@@ -376,7 +376,7 @@ Get a property by its unique name.
 
 <a id="BoltPretension.RemoveParameter"></a>
 
-### BoltPretension.RemoveParameter(propName: System.String)
+### BoltPretension.RemoveParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Removes the parameter from the parameter set corresponding to the given property.
 
@@ -384,7 +384,7 @@ Removes the parameter from the parameter set corresponding to the given property
 
 <a id="BoltPretension.SetDefineBy"></a>
 
-### BoltPretension.SetDefineBy(stepNumber: System.Int32, type: [Ansys.Mechanical.DataModel.Enums.BoltLoadDefineBy](../../../../../../v242/Ansys/Mechanical/DataModel/Enums/BoltLoadDefineBy.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.BoltLoadDefineBy))
+### BoltPretension.SetDefineBy(stepNumber: [int](https://docs.python.org/3/library/functions.html#int), type: [Ansys.Mechanical.DataModel.Enums.BoltLoadDefineBy](../../../../Mechanical/DataModel/Enums/BoltLoadDefineBy.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.BoltLoadDefineBy))
 
 Sets the Bolt Define By value for a given solution step.
 

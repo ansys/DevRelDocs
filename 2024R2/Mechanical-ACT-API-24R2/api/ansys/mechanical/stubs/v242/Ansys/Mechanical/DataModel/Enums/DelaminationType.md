@@ -17,7 +17,7 @@ Specifies the DelaminationType.
 ### Attributes
 
 | Name |
-| -------------------------------------------------------------------------------------------------------------------------------------------- |
+| -------------------------------------------------------------------- |
 | [`ContactDebonding`](#DelaminationType.ContactDebonding) |
 | [`CrackGrowth`](#DelaminationType.CrackGrowth) |
 | [`InterfaceDelamination`](#DelaminationType.InterfaceDelamination) |

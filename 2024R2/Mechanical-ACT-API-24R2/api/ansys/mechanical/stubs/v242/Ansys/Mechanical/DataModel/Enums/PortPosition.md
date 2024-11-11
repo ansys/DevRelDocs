@@ -17,7 +17,7 @@ Specifies the PortPosition.
 ### Attributes
 
 | Name |
-| ------------------------------------------------------------------------------------------------------------ |
+| ---------------------------------------- |
 | [`Exterior`](#PortPosition.Exterior) |
 | [`Interior`](#PortPosition.Interior) |
 

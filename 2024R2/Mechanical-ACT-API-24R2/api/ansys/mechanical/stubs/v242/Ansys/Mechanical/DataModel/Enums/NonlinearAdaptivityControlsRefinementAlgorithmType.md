@@ -17,7 +17,7 @@ Specifies the NonlinearAdaptivityControlsRefinementAlgorithmType.
 ### Attributes
 
 | Name |
-| -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| ---------------------------------------------------------------------------------------------- |
 | [`GeneralRemeshing`](#NonlinearAdaptivityControlsRefinementAlgorithmType.GeneralRemeshing) |
 | [`MeshSplitting`](#NonlinearAdaptivityControlsRefinementAlgorithmType.MeshSplitting) |
 

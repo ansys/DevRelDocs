@@ -59,7 +59,7 @@ Defines a ExternalEnhancedModel.
 
 <a id="ExternalEnhancedModel.Children"></a>
 
-### *property* ExternalEnhancedModel.Children *: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ExternalEnhancedModel.Children *: List[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of children.
 
@@ -67,7 +67,7 @@ Gets the list of children.
 
 <a id="ExternalEnhancedModel.Comments"></a>
 
-### *property* ExternalEnhancedModel.Comments *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Comment](../../../../../v241/Ansys/ACT/Automation/Mechanical/Comment.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ExternalEnhancedModel.Comments *: Iterable[[Ansys.ACT.Automation.Mechanical.Comment](Comment.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated comments.
 
@@ -83,7 +83,7 @@ Gets the current DataModelObject’s category.
 
 <a id="ExternalEnhancedModel.Figures"></a>
 
-### *property* ExternalEnhancedModel.Figures *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Figure](../../../../../v241/Ansys/ACT/Automation/Mechanical/Figure.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ExternalEnhancedModel.Figures *: Iterable[[Ansys.ACT.Automation.Mechanical.Figure](Figure.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated figures.
 
@@ -91,7 +91,7 @@ Gets the list of associated figures.
 
 <a id="ExternalEnhancedModel.Images"></a>
 
-### *property* ExternalEnhancedModel.Images *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Image](../../../../../v241/Ansys/ACT/Automation/Mechanical/Image.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ExternalEnhancedModel.Images *: Iterable[[Ansys.ACT.Automation.Mechanical.Image](Image.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated images.
 
@@ -107,7 +107,7 @@ Gets the internal object. For advanced usage only.
 
 <a id="ExternalEnhancedModel.LayerToDisplay"></a>
 
-### *property* ExternalEnhancedModel.LayerToDisplay *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ExternalEnhancedModel.LayerToDisplay *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the LayerToDisplay.
 
@@ -115,7 +115,7 @@ Gets or sets the LayerToDisplay.
 
 <a id="ExternalEnhancedModel.MaximumNumberOfLayers"></a>
 
-### *property* ExternalEnhancedModel.MaximumNumberOfLayers *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ExternalEnhancedModel.MaximumNumberOfLayers *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the MaximumNumberOfLayers.
 
@@ -123,7 +123,7 @@ Gets the MaximumNumberOfLayers.
 
 <a id="ExternalEnhancedModel.NonlinearEffects"></a>
 
-### *property* ExternalEnhancedModel.NonlinearEffects *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ExternalEnhancedModel.NonlinearEffects *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the NonlinearEffects.
 
@@ -131,7 +131,7 @@ Gets or sets the NonlinearEffects.
 
 <a id="ExternalEnhancedModel.Properties"></a>
 
-### *property* ExternalEnhancedModel.Properties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ExternalEnhancedModel.Properties *: [tuple](https://docs.python.org/3/library/stdtypes.html#tuple)[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of properties for this object.
 
@@ -139,7 +139,7 @@ Gets the list of properties for this object.
 
 <a id="ExternalEnhancedModel.Suppressed"></a>
 
-### *property* ExternalEnhancedModel.Suppressed *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ExternalEnhancedModel.Suppressed *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Suppressed.
 
@@ -147,7 +147,7 @@ Gets or sets the Suppressed.
 
 <a id="ExternalEnhancedModel.ThermalStrainEffects"></a>
 
-### *property* ExternalEnhancedModel.ThermalStrainEffects *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ExternalEnhancedModel.ThermalStrainEffects *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the ThermalStrainEffects.
 
@@ -163,7 +163,7 @@ Gets the Type.
 
 <a id="ExternalEnhancedModel.VisibleProperties"></a>
 
-### *property* ExternalEnhancedModel.VisibleProperties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ExternalEnhancedModel.VisibleProperties *: [tuple](https://docs.python.org/3/library/stdtypes.html#tuple)[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of properties that are visible for this object.
 
@@ -199,7 +199,7 @@ Creates a new child Figure.
 
 <a id="ExternalEnhancedModel.AddImage"></a>
 
-### ExternalEnhancedModel.AddImage(filePath: System.String)
+### ExternalEnhancedModel.AddImage(filePath: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 ```text
 Creates a new child Image.
@@ -219,7 +219,7 @@ Copies all visible properties from this object to another.
 
 <a id="ExternalEnhancedModel.CreateParameter"></a>
 
-### ExternalEnhancedModel.CreateParameter(propName: System.String)
+### ExternalEnhancedModel.CreateParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Creates a new parameter for a Property.
 
@@ -235,7 +235,7 @@ Creates a copy of the current DataModelObject.
 
 <a id="ExternalEnhancedModel.GetChildren"></a>
 
-### ExternalEnhancedModel.GetChildren(recurses: System.Boolean, children: System.Collections.Generic.IList[ChildrenType])
+### ExternalEnhancedModel.GetChildren(recurses: [bool](https://docs.python.org/3/library/functions.html#bool), children: List[ChildrenType])
 
 Gets the list of children, filtered by type.
 
@@ -243,7 +243,7 @@ Gets the list of children, filtered by type.
 
 <a id="ExternalEnhancedModel.GetParameter"></a>
 
-### ExternalEnhancedModel.GetParameter(propName: System.String)
+### ExternalEnhancedModel.GetParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Gets the parameter corresponding to the given property.
 
@@ -267,7 +267,7 @@ Run the GroupSimilarObjects action.
 
 <a id="ExternalEnhancedModel.PropertyByAPIName"></a>
 
-### ExternalEnhancedModel.PropertyByAPIName(name: System.String)
+### ExternalEnhancedModel.PropertyByAPIName(name: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 ```text
 Get a property by its API name.
@@ -278,7 +278,7 @@ If multiple properties have the same API Name, only the first property with that
 
 <a id="ExternalEnhancedModel.PropertyByName"></a>
 
-### ExternalEnhancedModel.PropertyByName(name: System.String)
+### ExternalEnhancedModel.PropertyByName(name: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Get a property by its unique name.
 
@@ -294,7 +294,7 @@ Run the RegroupToDefault action.
 
 <a id="ExternalEnhancedModel.RemoveParameter"></a>
 
-### ExternalEnhancedModel.RemoveParameter(propName: System.String)
+### ExternalEnhancedModel.RemoveParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Removes the parameter from the parameter set corresponding to the given property.
 

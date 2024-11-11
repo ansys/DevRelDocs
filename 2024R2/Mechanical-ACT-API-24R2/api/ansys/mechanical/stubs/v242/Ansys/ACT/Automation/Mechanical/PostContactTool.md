@@ -17,7 +17,7 @@ Defines a PostContactTool.
 ### Methods
 
 | Name | Description |
-|---------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------|
+|-----------------------------------------------------------------------------------|-----------------------------------------------------------------------------------|
 | [`Activate`](#PostContactTool.Activate)                                           | Activate the current object.                                                      |
 | [`AddComment`](#PostContactTool.AddComment)                                       | Creates a new child Comment.                                                      |
 | [`AddFigure`](#PostContactTool.AddFigure)                                         | Creates a new child Figure.                                                       |
@@ -49,7 +49,7 @@ Defines a PostContactTool.
 ### Properties
 
 | Name | Description |
-|---------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------|
+|-----------------------------------------------------------------------|---------------------------------------------------------------|
 | [`Children`](#PostContactTool.Children)                               | Gets the list of children.                                    |
 | [`Comments`](#PostContactTool.Comments)                               | Gets the list of associated comments.                         |
 | [`DataModelObjectCategory`](#PostContactTool.DataModelObjectCategory) | Gets the current DataModelObject’s category.                  |
@@ -67,7 +67,7 @@ Defines a PostContactTool.
 
 <a id="PostContactTool.Children"></a>
 
-### *property* PostContactTool.Children *: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* PostContactTool.Children *: List[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of children.
 
@@ -75,7 +75,7 @@ Gets the list of children.
 
 <a id="PostContactTool.Comments"></a>
 
-### *property* PostContactTool.Comments *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Comment](../../../../../v241/Ansys/ACT/Automation/Mechanical/Comment.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* PostContactTool.Comments *: Iterable[[Ansys.ACT.Automation.Mechanical.Comment](Comment.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated comments.
 
@@ -91,7 +91,7 @@ Gets the current DataModelObject’s category.
 
 <a id="PostContactTool.Figures"></a>
 
-### *property* PostContactTool.Figures *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Figure](../../../../../v241/Ansys/ACT/Automation/Mechanical/Figure.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* PostContactTool.Figures *: Iterable[[Ansys.ACT.Automation.Mechanical.Figure](Figure.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated figures.
 
@@ -99,7 +99,7 @@ Gets the list of associated figures.
 
 <a id="PostContactTool.Images"></a>
 
-### *property* PostContactTool.Images *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Image](../../../../../v241/Ansys/ACT/Automation/Mechanical/Image.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* PostContactTool.Images *: Iterable[[Ansys.ACT.Automation.Mechanical.Image](Image.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated images.
 
@@ -123,7 +123,7 @@ Gets or sets the Location.
 
 <a id="PostContactTool.Properties"></a>
 
-### *property* PostContactTool.Properties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* PostContactTool.Properties *: [tuple](https://docs.python.org/3/library/stdtypes.html#tuple)[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of properties for this object.
 
@@ -139,7 +139,7 @@ Gets or sets the ScopingMethod.
 
 <a id="PostContactTool.VisibleProperties"></a>
 
-### *property* PostContactTool.VisibleProperties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* PostContactTool.VisibleProperties *: [tuple](https://docs.python.org/3/library/stdtypes.html#tuple)[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of properties that are visible for this object.
 
@@ -207,7 +207,7 @@ Creates a new ContactHeatFlux
 
 <a id="PostContactTool.AddImage"></a>
 
-### PostContactTool.AddImage(filePath: System.String)
+### PostContactTool.AddImage(filePath: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 ```text
 Creates a new child Image.
@@ -275,7 +275,7 @@ Copies all visible properties from this object to another.
 
 <a id="PostContactTool.CreateParameter"></a>
 
-### PostContactTool.CreateParameter(propName: System.String)
+### PostContactTool.CreateParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Creates a new parameter for a Property.
 
@@ -315,7 +315,7 @@ Generate Initial Contact Results and Mesh Parts
 
 <a id="PostContactTool.GetChildren"></a>
 
-### PostContactTool.GetChildren(recurses: System.Boolean, children: System.Collections.Generic.IList[ChildrenType])
+### PostContactTool.GetChildren(recurses: [bool](https://docs.python.org/3/library/functions.html#bool), children: List[ChildrenType])
 
 Gets the list of children, filtered by type.
 
@@ -323,7 +323,7 @@ Gets the list of children, filtered by type.
 
 <a id="PostContactTool.GetParameter"></a>
 
-### PostContactTool.GetParameter(propName: System.String)
+### PostContactTool.GetParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Gets the parameter corresponding to the given property.
 
@@ -347,7 +347,7 @@ Run the GroupSimilarObjects action.
 
 <a id="PostContactTool.PropertyByAPIName"></a>
 
-### PostContactTool.PropertyByAPIName(name: System.String)
+### PostContactTool.PropertyByAPIName(name: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 ```text
 Get a property by its API name.
@@ -358,7 +358,7 @@ If multiple properties have the same API Name, only the first property with that
 
 <a id="PostContactTool.PropertyByName"></a>
 
-### PostContactTool.PropertyByName(name: System.String)
+### PostContactTool.PropertyByName(name: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Get a property by its unique name.
 
@@ -366,7 +366,7 @@ Get a property by its unique name.
 
 <a id="PostContactTool.RemoveParameter"></a>
 
-### PostContactTool.RemoveParameter(propName: System.String)
+### PostContactTool.RemoveParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Removes the parameter from the parameter set corresponding to the given property.
 

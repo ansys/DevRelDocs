@@ -17,7 +17,7 @@ Defines a InitialCondition.
 ### Methods
 
 | Name | Description |
-|-----------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------|
+|------------------------------------------------------------------------|-----------------------------------------------------------------------------------|
 | [`Activate`](#InitialCondition.Activate)                               | Activate the current object.                                                      |
 | [`AddCommandSnippet`](#InitialCondition.AddCommandSnippet)             | Creates a new child CommandSnippet.                                               |
 | [`AddComment`](#InitialCondition.AddComment)                           | Creates a new child Comment.                                                      |
@@ -38,7 +38,7 @@ Defines a InitialCondition.
 ### Properties
 
 | Name | Description |
-|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------|
+|------------------------------------------------------------------------------------------------------|---------------------------------------------------------------|
 | [`Children`](#InitialCondition.Children)                                                             | Gets the list of children.                                    |
 | [`Comments`](#InitialCondition.Comments)                                                             | Gets the list of associated comments.                         |
 | [`ContactStatus`](#InitialCondition.ContactStatus)                                                   | Gets or sets the ContactStatus.                               |
@@ -97,7 +97,7 @@ Defines a InitialCondition.
 
 <a id="InitialCondition.Children"></a>
 
-### *property* InitialCondition.Children *: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* InitialCondition.Children *: List[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of children.
 
@@ -105,7 +105,7 @@ Gets the list of children.
 
 <a id="InitialCondition.Comments"></a>
 
-### *property* InitialCondition.Comments *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Comment](Comment.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* InitialCondition.Comments *: Iterable[[Ansys.ACT.Automation.Mechanical.Comment](Comment.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated comments.
 
@@ -113,7 +113,7 @@ Gets the list of associated comments.
 
 <a id="InitialCondition.ContactStatus"></a>
 
-### *property* InitialCondition.ContactStatus *: [Ansys.Mechanical.DataModel.Enums.PreStressContactStatus](../../../../../v242/Ansys/Mechanical/DataModel/Enums/PreStressContactStatus.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.PreStressContactStatus) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* InitialCondition.ContactStatus *: [Ansys.Mechanical.DataModel.Enums.PreStressContactStatus](../../../Mechanical/DataModel/Enums/PreStressContactStatus.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.PreStressContactStatus) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the ContactStatus.
 
@@ -129,7 +129,7 @@ Gets or sets the CoordinateSystem.
 
 <a id="InitialCondition.DataModelObjectCategory"></a>
 
-### *property* InitialCondition.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../v242/Ansys/Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* InitialCondition.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the current DataModelObject’s category.
 
@@ -137,7 +137,7 @@ Gets the current DataModelObject’s category.
 
 <a id="InitialCondition.DefineBy"></a>
 
-### *property* InitialCondition.DefineBy *: [Ansys.Mechanical.DataModel.Enums.LoadDefineBy](../../../../../v242/Ansys/Mechanical/DataModel/Enums/LoadDefineBy.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.LoadDefineBy) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* InitialCondition.DefineBy *: [Ansys.Mechanical.DataModel.Enums.LoadDefineBy](../../../Mechanical/DataModel/Enums/LoadDefineBy.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.LoadDefineBy) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the DefineBy.
 
@@ -153,7 +153,7 @@ Gets or sets the Direction.
 
 <a id="InitialCondition.DropDirection"></a>
 
-### *property* InitialCondition.DropDirection *: [Ansys.Mechanical.DataModel.Enums.DropDirection](../../../../../v242/Ansys/Mechanical/DataModel/Enums/DropDirection.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.DropDirection) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* InitialCondition.DropDirection *: [Ansys.Mechanical.DataModel.Enums.DropDirection](../../../Mechanical/DataModel/Enums/DropDirection.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DropDirection) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the DropDirection.
 
@@ -169,7 +169,7 @@ Gets or sets the DropHeight.
 
 <a id="InitialCondition.DropTestDefineBy"></a>
 
-### *property* InitialCondition.DropTestDefineBy *: [Ansys.Mechanical.DataModel.Enums.DropTestDefineBy](../../../../../v242/Ansys/Mechanical/DataModel/Enums/DropTestDefineBy.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.DropTestDefineBy) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* InitialCondition.DropTestDefineBy *: [Ansys.Mechanical.DataModel.Enums.DropTestDefineBy](../../../Mechanical/DataModel/Enums/DropTestDefineBy.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DropTestDefineBy) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the DropTestDefineBy.
 
@@ -185,7 +185,7 @@ Gets or sets the ExplicitPreStressTime.
 
 <a id="InitialCondition.Figures"></a>
 
-### *property* InitialCondition.Figures *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Figure](Figure.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* InitialCondition.Figures *: Iterable[[Ansys.ACT.Automation.Mechanical.Figure](Figure.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated figures.
 
@@ -193,7 +193,7 @@ Gets the list of associated figures.
 
 <a id="InitialCondition.Images"></a>
 
-### *property* InitialCondition.Images *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Image](Image.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* InitialCondition.Images *: Iterable[[Ansys.ACT.Automation.Mechanical.Image](Image.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated images.
 
@@ -217,7 +217,7 @@ Gets or sets the InitialEnvironment.
 
 <a id="InitialCondition.InitialTemperature"></a>
 
-### *property* InitialCondition.InitialTemperature *: [Ansys.Mechanical.DataModel.Enums.InitialTemperatureType](../../../../../v242/Ansys/Mechanical/DataModel/Enums/InitialTemperatureType.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.InitialTemperatureType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* InitialCondition.InitialTemperature *: [Ansys.Mechanical.DataModel.Enums.InitialTemperatureType](../../../Mechanical/DataModel/Enums/InitialTemperatureType.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.InitialTemperatureType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the InitialTemperature.
 
@@ -233,7 +233,7 @@ Gets or sets the InitialTemperatureValue.
 
 <a id="InitialCondition.InputType"></a>
 
-### *property* InitialCondition.InputType *: [Ansys.Mechanical.DataModel.Enums.InitialConditionsType](../../../../../v242/Ansys/Mechanical/DataModel/Enums/InitialConditionsType.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.InitialConditionsType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* InitialCondition.InputType *: [Ansys.Mechanical.DataModel.Enums.InitialConditionsType](../../../Mechanical/DataModel/Enums/InitialConditionsType.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.InitialConditionsType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the InputType.
 
@@ -249,7 +249,7 @@ Gets the internal object. For advanced usage only.
 
 <a id="InitialCondition.LoadControl"></a>
 
-### *property* InitialCondition.LoadControl *: [Ansys.Mechanical.DataModel.Enums.PreStressLoadControl](../../../../../v242/Ansys/Mechanical/DataModel/Enums/PreStressLoadControl.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.PreStressLoadControl) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* InitialCondition.LoadControl *: [Ansys.Mechanical.DataModel.Enums.PreStressLoadControl](../../../Mechanical/DataModel/Enums/PreStressLoadControl.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.PreStressLoadControl) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the LoadControl.
 
@@ -305,7 +305,7 @@ Gets or sets the ModalICEnvironment.
 
 <a id="InitialCondition.Mode"></a>
 
-### *property* InitialCondition.Mode *: [Ansys.Mechanical.DataModel.Enums.PreStressMode](../../../../../v242/Ansys/Mechanical/DataModel/Enums/PreStressMode.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.PreStressMode) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* InitialCondition.Mode *: [Ansys.Mechanical.DataModel.Enums.PreStressMode](../../../Mechanical/DataModel/Enums/PreStressMode.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.PreStressMode) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Mode.
 
@@ -313,7 +313,7 @@ Gets or sets the Mode.
 
 <a id="InitialCondition.NewtonRaphsonOption"></a>
 
-### *property* InitialCondition.NewtonRaphsonOption *: [Ansys.Mechanical.DataModel.Enums.NewtonRaphsonType](../../../../../v242/Ansys/Mechanical/DataModel/Enums/NewtonRaphsonType.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.NewtonRaphsonType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* InitialCondition.NewtonRaphsonOption *: [Ansys.Mechanical.DataModel.Enums.NewtonRaphsonType](../../../Mechanical/DataModel/Enums/NewtonRaphsonType.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.NewtonRaphsonType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the NewtonRaphsonOption.
 
@@ -321,7 +321,7 @@ Gets the NewtonRaphsonOption.
 
 <a id="InitialCondition.PreStressDefineBy"></a>
 
-### *property* InitialCondition.PreStressDefineBy *: [Ansys.Mechanical.DataModel.Enums.PreStressStateType](../../../../../v242/Ansys/Mechanical/DataModel/Enums/PreStressStateType.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.PreStressStateType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* InitialCondition.PreStressDefineBy *: [Ansys.Mechanical.DataModel.Enums.PreStressStateType](../../../Mechanical/DataModel/Enums/PreStressStateType.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.PreStressStateType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the PreStressDefineBy.
 
@@ -377,7 +377,7 @@ Gets or sets the PreStressICEnvironment.
 
 <a id="InitialCondition.PreStressLoadStep"></a>
 
-### *property* InitialCondition.PreStressLoadStep *: System.Double | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* InitialCondition.PreStressLoadStep *: [float](https://docs.python.org/3/library/functions.html#float) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the PreStressLoadStep.
 
@@ -393,7 +393,7 @@ Gets or sets the PreStressTime.
 
 <a id="InitialCondition.PressureInitialization"></a>
 
-### *property* InitialCondition.PressureInitialization *: [Ansys.Mechanical.DataModel.Enums.PressureInitializationType](../../../../../v242/Ansys/Mechanical/DataModel/Enums/PressureInitializationType.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.PressureInitializationType) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* InitialCondition.PressureInitialization *: [Ansys.Mechanical.DataModel.Enums.PressureInitializationType](../../../Mechanical/DataModel/Enums/PressureInitializationType.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.PressureInitializationType) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the PressureInitialization.
 
@@ -401,7 +401,7 @@ Gets or sets the PressureInitialization.
 
 <a id="InitialCondition.Properties"></a>
 
-### *property* InitialCondition.Properties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* InitialCondition.Properties *: [tuple](https://docs.python.org/3/library/stdtypes.html#tuple)[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of properties for this object.
 
@@ -417,7 +417,7 @@ Gets or sets the ReferenceTemperature.
 
 <a id="InitialCondition.ReportedLoadStep"></a>
 
-### *property* InitialCondition.ReportedLoadStep *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* InitialCondition.ReportedLoadStep *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the ReportedLoadStep.
 
@@ -425,7 +425,7 @@ Gets the ReportedLoadStep.
 
 <a id="InitialCondition.ReportedSubStep"></a>
 
-### *property* InitialCondition.ReportedSubStep *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* InitialCondition.ReportedSubStep *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the ReportedSubStep.
 
@@ -433,7 +433,7 @@ Gets the ReportedSubStep.
 
 <a id="InitialCondition.ReportedTime"></a>
 
-### *property* InitialCondition.ReportedTime *: System.Double | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* InitialCondition.ReportedTime *: [float](https://docs.python.org/3/library/functions.html#float) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the ReportedTime.
 
@@ -441,7 +441,7 @@ Gets the ReportedTime.
 
 <a id="InitialCondition.Suppressed"></a>
 
-### *property* InitialCondition.Suppressed *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* InitialCondition.Suppressed *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Suppressed.
 
@@ -457,7 +457,7 @@ Gets or sets the Time.
 
 <a id="InitialCondition.TimeStepFactor"></a>
 
-### *property* InitialCondition.TimeStepFactor *: System.Double | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* InitialCondition.TimeStepFactor *: [float](https://docs.python.org/3/library/functions.html#float) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the TimeStepFactor.
 
@@ -473,7 +473,7 @@ Gets or sets the Magnitude.
 
 <a id="InitialCondition.VisibleProperties"></a>
 
-### *property* InitialCondition.VisibleProperties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* InitialCondition.VisibleProperties *: [tuple](https://docs.python.org/3/library/stdtypes.html#tuple)[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of properties that are visible for this object.
 
@@ -541,7 +541,7 @@ Creates a new child Figure.
 
 <a id="InitialCondition.AddImage"></a>
 
-### InitialCondition.AddImage(filePath: System.String)
+### InitialCondition.AddImage(filePath: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 ```text
 Creates a new child Image.
@@ -561,7 +561,7 @@ Copies all visible properties from this object to another.
 
 <a id="InitialCondition.CreateParameter"></a>
 
-### InitialCondition.CreateParameter(propName: System.String)
+### InitialCondition.CreateParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Creates a new parameter for a Property.
 
@@ -585,7 +585,7 @@ Creates a copy of the current DataModelObject.
 
 <a id="InitialCondition.GetChildren"></a>
 
-### InitialCondition.GetChildren(recurses: System.Boolean, children: System.Collections.Generic.IList[ChildrenType])
+### InitialCondition.GetChildren(recurses: [bool](https://docs.python.org/3/library/functions.html#bool), children: List[ChildrenType])
 
 Gets the list of children, filtered by type.
 
@@ -593,7 +593,7 @@ Gets the list of children, filtered by type.
 
 <a id="InitialCondition.GetParameter"></a>
 
-### InitialCondition.GetParameter(propName: System.String)
+### InitialCondition.GetParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Gets the parameter corresponding to the given property.
 
@@ -617,7 +617,7 @@ Run the GroupSimilarObjects action.
 
 <a id="InitialCondition.PropertyByAPIName"></a>
 
-### InitialCondition.PropertyByAPIName(name: System.String)
+### InitialCondition.PropertyByAPIName(name: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 ```text
 Get a property by its API name.
@@ -628,7 +628,7 @@ If multiple properties have the same API Name, only the first property with that
 
 <a id="InitialCondition.PropertyByName"></a>
 
-### InitialCondition.PropertyByName(name: System.String)
+### InitialCondition.PropertyByName(name: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Get a property by its unique name.
 
@@ -636,7 +636,7 @@ Get a property by its unique name.
 
 <a id="InitialCondition.RemoveParameter"></a>
 
-### InitialCondition.RemoveParameter(propName: System.String)
+### InitialCondition.RemoveParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Removes the parameter from the parameter set corresponding to the given property.
 

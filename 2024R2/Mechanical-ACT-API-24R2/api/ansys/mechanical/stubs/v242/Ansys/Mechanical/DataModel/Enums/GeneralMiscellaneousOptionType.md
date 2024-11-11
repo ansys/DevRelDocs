@@ -17,7 +17,7 @@ Specifies the GeneralMiscellaneousOptionType.
 ### Attributes
 
 | Name |
-| ---------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| -------------------------------------------------------------------------- |
 | [`AcousticBodies`](#GeneralMiscellaneousOptionType.AcousticBodies) |
 | [`AllBodies`](#GeneralMiscellaneousOptionType.AllBodies) |
 | [`ProgramControlled`](#GeneralMiscellaneousOptionType.ProgramControlled) |

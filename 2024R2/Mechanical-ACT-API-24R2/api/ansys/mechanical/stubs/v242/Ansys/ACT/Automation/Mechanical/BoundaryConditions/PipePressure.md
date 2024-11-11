@@ -71,7 +71,7 @@ Defines a PipePressure.
 
 <a id="PipePressure.Children"></a>
 
-### *property* PipePressure.Children *: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* PipePressure.Children *: List[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of children.
 
@@ -79,7 +79,7 @@ Gets the list of children.
 
 <a id="PipePressure.Comments"></a>
 
-### *property* PipePressure.Comments *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Comment](../../../../../../v241/Ansys/ACT/Automation/Mechanical/Comment.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* PipePressure.Comments *: Iterable[[Ansys.ACT.Automation.Mechanical.Comment](../Comment.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated comments.
 
@@ -95,7 +95,7 @@ Gets the current DataModelObject’s category.
 
 <a id="PipePressure.Figures"></a>
 
-### *property* PipePressure.Figures *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Figure](../../../../../../v241/Ansys/ACT/Automation/Mechanical/Figure.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* PipePressure.Figures *: Iterable[[Ansys.ACT.Automation.Mechanical.Figure](../Figure.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated figures.
 
@@ -111,7 +111,7 @@ Gets or sets the GraphControlsXAxis.
 
 <a id="PipePressure.Images"></a>
 
-### *property* PipePressure.Images *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Image](../../../../../../v241/Ansys/ACT/Automation/Mechanical/Image.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* PipePressure.Images *: Iterable[[Ansys.ACT.Automation.Mechanical.Image](../Image.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated images.
 
@@ -159,7 +159,7 @@ Gets the Magnitude.
 
 <a id="PipePressure.NumberOfSegments"></a>
 
-### *property* PipePressure.NumberOfSegments *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* PipePressure.NumberOfSegments *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the NumberOfSegments.
 
@@ -175,7 +175,7 @@ Gets or sets the PhaseAngle.
 
 <a id="PipePressure.Properties"></a>
 
-### *property* PipePressure.Properties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* PipePressure.Properties *: [tuple](https://docs.python.org/3/library/stdtypes.html#tuple)[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of properties for this object.
 
@@ -199,7 +199,7 @@ Gets or sets the RangeMinimum.
 
 <a id="PipePressure.ReadOnly"></a>
 
-### *property* PipePressure.ReadOnly *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* PipePressure.ReadOnly *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the ReadOnly.
 
@@ -207,7 +207,7 @@ Gets or sets the ReadOnly.
 
 <a id="PipePressure.SharedRefBody"></a>
 
-### *property* PipePressure.SharedRefBody *: [Ansys.ACT.Automation.Mechanical.Body](../../../../../../v241/Ansys/ACT/Automation/Mechanical/Body.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Body) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* PipePressure.SharedRefBody *: [Ansys.ACT.Automation.Mechanical.Body](../Body.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Body) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the SharedRefBody.
 
@@ -215,7 +215,7 @@ Gets or sets the SharedRefBody.
 
 <a id="PipePressure.Suppressed"></a>
 
-### *property* PipePressure.Suppressed *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* PipePressure.Suppressed *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Suppressed.
 
@@ -223,7 +223,7 @@ Gets or sets the Suppressed.
 
 <a id="PipePressure.VisibleProperties"></a>
 
-### *property* PipePressure.VisibleProperties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* PipePressure.VisibleProperties *: [tuple](https://docs.python.org/3/library/stdtypes.html#tuple)[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of properties that are visible for this object.
 
@@ -231,7 +231,7 @@ Gets the list of properties that are visible for this object.
 
 <a id="PipePressure.XYZFunctionCoordinateSystem"></a>
 
-### *property* PipePressure.XYZFunctionCoordinateSystem *: [Ansys.ACT.Automation.Mechanical.CoordinateSystem](../../../../../../v241/Ansys/ACT/Automation/Mechanical/CoordinateSystem.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.CoordinateSystem) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* PipePressure.XYZFunctionCoordinateSystem *: [Ansys.ACT.Automation.Mechanical.CoordinateSystem](../CoordinateSystem.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.CoordinateSystem) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the XYZFunctionCoordinateSystem.
 
@@ -267,7 +267,7 @@ Creates a new child Figure.
 
 <a id="PipePressure.AddImage"></a>
 
-### PipePressure.AddImage(filePath: System.String)
+### PipePressure.AddImage(filePath: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 ```text
 Creates a new child Image.
@@ -287,7 +287,7 @@ Copies all visible properties from this object to another.
 
 <a id="PipePressure.CreateParameter"></a>
 
-### PipePressure.CreateParameter(propName: System.String)
+### PipePressure.CreateParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Creates a new parameter for a Property.
 
@@ -311,7 +311,7 @@ Creates a copy of the current DataModelObject.
 
 <a id="PipePressure.GetActivateAtLoadStep"></a>
 
-### PipePressure.GetActivateAtLoadStep(stepNumber: System.UInt32)
+### PipePressure.GetActivateAtLoadStep(stepNumber: [int](https://docs.python.org/3/library/functions.html#int))
 
 GetActivateAtLoadStep method.
 
@@ -319,7 +319,7 @@ GetActivateAtLoadStep method.
 
 <a id="PipePressure.GetChildren"></a>
 
-### PipePressure.GetChildren(recurses: System.Boolean, children: System.Collections.Generic.IList[ChildrenType])
+### PipePressure.GetChildren(recurses: [bool](https://docs.python.org/3/library/functions.html#bool), children: List[ChildrenType])
 
 Gets the list of children, filtered by type.
 
@@ -327,7 +327,7 @@ Gets the list of children, filtered by type.
 
 <a id="PipePressure.GetComponentActivateAtLoadStep"></a>
 
-### PipePressure.GetComponentActivateAtLoadStep(component: System.String, stepNumber: System.UInt32)
+### PipePressure.GetComponentActivateAtLoadStep(component: [str](https://docs.python.org/3/library/stdtypes.html#str), stepNumber: [int](https://docs.python.org/3/library/functions.html#int))
 
 GetComponentActivateAtLoadStep method.
 
@@ -335,7 +335,7 @@ GetComponentActivateAtLoadStep method.
 
 <a id="PipePressure.GetParameter"></a>
 
-### PipePressure.GetParameter(propName: System.String)
+### PipePressure.GetParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Gets the parameter corresponding to the given property.
 
@@ -367,7 +367,7 @@ Run the PromoteToNamedSelection action.
 
 <a id="PipePressure.PropertyByAPIName"></a>
 
-### PipePressure.PropertyByAPIName(name: System.String)
+### PipePressure.PropertyByAPIName(name: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 ```text
 Get a property by its API name.
@@ -378,7 +378,7 @@ If multiple properties have the same API Name, only the first property with that
 
 <a id="PipePressure.PropertyByName"></a>
 
-### PipePressure.PropertyByName(name: System.String)
+### PipePressure.PropertyByName(name: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Get a property by its unique name.
 
@@ -386,7 +386,7 @@ Get a property by its unique name.
 
 <a id="PipePressure.RemoveParameter"></a>
 
-### PipePressure.RemoveParameter(propName: System.String)
+### PipePressure.RemoveParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Removes the parameter from the parameter set corresponding to the given property.
 
@@ -394,7 +394,7 @@ Removes the parameter from the parameter set corresponding to the given property
 
 <a id="PipePressure.SetActivateAtLoadStep"></a>
 
-### PipePressure.SetActivateAtLoadStep(stepNumber: System.UInt32, bActive: System.Boolean)
+### PipePressure.SetActivateAtLoadStep(stepNumber: [int](https://docs.python.org/3/library/functions.html#int), bActive: [bool](https://docs.python.org/3/library/functions.html#bool))
 
 SetActivateAtLoadStep method.
 
@@ -402,7 +402,7 @@ SetActivateAtLoadStep method.
 
 <a id="PipePressure.SetComponentActivateAtLoadStep"></a>
 
-### PipePressure.SetComponentActivateAtLoadStep(component: System.String, stepNumber: System.UInt32, bActive: System.Boolean)
+### PipePressure.SetComponentActivateAtLoadStep(component: [str](https://docs.python.org/3/library/stdtypes.html#str), stepNumber: [int](https://docs.python.org/3/library/functions.html#int), bActive: [bool](https://docs.python.org/3/library/functions.html#bool))
 
 SetComponentActivateAtLoadStep method.
 

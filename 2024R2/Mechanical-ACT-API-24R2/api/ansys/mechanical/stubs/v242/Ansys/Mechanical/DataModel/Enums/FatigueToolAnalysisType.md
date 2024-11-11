@@ -17,7 +17,7 @@ Specifies the FatigueToolAnalysisType.
 ### Attributes
 
 | Name |
-| -------------------------------------------------------------------------------------------------------------------------------------- |
+| ------------------------------------------------------- |
 | [`StrainLife`](#FatigueToolAnalysisType.StrainLife) |
 | [`StressLife`](#FatigueToolAnalysisType.StressLife) |
 

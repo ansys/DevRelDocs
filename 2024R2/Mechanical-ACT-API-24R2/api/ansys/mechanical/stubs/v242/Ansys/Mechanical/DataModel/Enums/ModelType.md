@@ -17,7 +17,7 @@ Specifies the ModelType.
 ### Attributes
 
 | Name |
-| ------------------------------------------------------------------------------------------------------------------------------------------------ |
+| ------------------------------------------------------------------------------- |
 | [`Type_2_5DZDirectionExtrusion`](#ModelType.Type_2_5DZDirectionExtrusion) |
 | [`Type_2_5YAxisRotationExtrusion`](#ModelType.Type_2_5YAxisRotationExtrusion) |
 | [`Type_3D`](#ModelType.Type_3D) |

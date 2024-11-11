@@ -17,7 +17,7 @@ Specifies the View Orientation type.
 ### Attributes
 
 | Name |
-| -------------------------------------------------------------------------------------------------------------------- |
+| ----------------------------------------- |
 | [`Back`](#ViewOrientationType.Back) |
 | [`Bottom`](#ViewOrientationType.Bottom) |
 | [`Front`](#ViewOrientationType.Front) |

@@ -17,7 +17,7 @@ LayeredSectionWorksheet class.
 ### Methods
 
 | Name | Description |
-|-----------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------|
+|-----------------------------------------------------------------------------------|------------------------------------------------------------------------|
 | [`AddThicknessLayer`](#LayeredSectionWorksheet.AddThicknessLayer)                 | Add a row to the LayeredSectionWorksheet                               |
 | [`DeleteRow`](#LayeredSectionWorksheet.DeleteRow)                                 | Delete a row from the LayeredSectionWorksheet                          |
 | [`GetAngle`](#LayeredSectionWorksheet.GetAngle)                                   | Gets the angle for the LayeredSection at the row index specifiied.     |
@@ -32,7 +32,7 @@ LayeredSectionWorksheet class.
 ### Properties
 
 | Name | Description |
-|---------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------|
+|---------------------------------------------------|-------------------------------------------------------|
 | [`RowCount`](#LayeredSectionWorksheet.RowCount)   | Gets the number of entries (rows) in the worksheet.   |
 
 <a id="property-detail"></a>
@@ -41,7 +41,7 @@ LayeredSectionWorksheet class.
 
 <a id="LayeredSectionWorksheet.RowCount"></a>
 
-### *property* LayeredSectionWorksheet.RowCount *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* LayeredSectionWorksheet.RowCount *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the number of entries (rows) in the worksheet.
 
@@ -53,7 +53,7 @@ Gets the number of entries (rows) in the worksheet.
 
 <a id="LayeredSectionWorksheet.AddThicknessLayer"></a>
 
-### LayeredSectionWorksheet.AddThicknessLayer(materialname: System.String, thickness: System.Double, angle: System.Double)
+### LayeredSectionWorksheet.AddThicknessLayer(materialname: [str](https://docs.python.org/3/library/stdtypes.html#str), thickness: [float](https://docs.python.org/3/library/functions.html#float), angle: [float](https://docs.python.org/3/library/functions.html#float))
 
 ```text
 Add a row to the LayeredSectionWorksheet
@@ -65,7 +65,7 @@ LayeredSectionWorksheet indices are zero based and ordered in the Z direction.
 
 <a id="LayeredSectionWorksheet.DeleteRow"></a>
 
-### LayeredSectionWorksheet.DeleteRow(index: System.Int32)
+### LayeredSectionWorksheet.DeleteRow(index: [int](https://docs.python.org/3/library/functions.html#int))
 
 ```text
 Delete a row from the LayeredSectionWorksheet
@@ -76,7 +76,7 @@ LayeredSectionWorksheet indices are zero based and ordered in the Z direction.
 
 <a id="LayeredSectionWorksheet.GetAngle"></a>
 
-### LayeredSectionWorksheet.GetAngle(index: System.Int32)
+### LayeredSectionWorksheet.GetAngle(index: [int](https://docs.python.org/3/library/functions.html#int))
 
 ```text
 Gets the angle for the LayeredSection at the row index specifiied.
@@ -87,7 +87,7 @@ LayeredSectionWorksheet indices are zero based and ordered in the Z direction.
 
 <a id="LayeredSectionWorksheet.GetMaterial"></a>
 
-### LayeredSectionWorksheet.GetMaterial(index: System.Int32)
+### LayeredSectionWorksheet.GetMaterial(index: [int](https://docs.python.org/3/library/functions.html#int))
 
 ```text
 Gets the material for the LayeredSection at the row index specifiied.
@@ -98,7 +98,7 @@ LayeredSectionWorksheet indices are zero based and ordered in the Z direction.
 
 <a id="LayeredSectionWorksheet.GetThickness"></a>
 
-### LayeredSectionWorksheet.GetThickness(index: System.Int32)
+### LayeredSectionWorksheet.GetThickness(index: [int](https://docs.python.org/3/library/functions.html#int))
 
 ```text
 Gets the thickness for the LayeredSection at the row index specifiied.
@@ -109,7 +109,7 @@ LayeredSectionWorksheet indices are zero based and ordered in the Z direction.
 
 <a id="LayeredSectionWorksheet.InsertThicknessLayerAbove"></a>
 
-### LayeredSectionWorksheet.InsertThicknessLayerAbove(materialname: System.String, thickness: System.Double, angle: System.Double, index: System.Int32)
+### LayeredSectionWorksheet.InsertThicknessLayerAbove(materialname: [str](https://docs.python.org/3/library/stdtypes.html#str), thickness: [float](https://docs.python.org/3/library/functions.html#float), angle: [float](https://docs.python.org/3/library/functions.html#float), index: [int](https://docs.python.org/3/library/functions.html#int))
 
 ```text
 Insert a new layer to the LayeredSectionWorksheet
@@ -121,7 +121,7 @@ LayeredSectionWorksheet indices are zero based and ordered in the Z direction.
 
 <a id="LayeredSectionWorksheet.InsertThicknessLayerBelow"></a>
 
-### LayeredSectionWorksheet.InsertThicknessLayerBelow(materialname: System.String, thickness: System.Double, angle: System.Double, index: System.Int32)
+### LayeredSectionWorksheet.InsertThicknessLayerBelow(materialname: [str](https://docs.python.org/3/library/stdtypes.html#str), thickness: [float](https://docs.python.org/3/library/functions.html#float), angle: [float](https://docs.python.org/3/library/functions.html#float), index: [int](https://docs.python.org/3/library/functions.html#int))
 
 ```text
 Insert a new layer to the LayeredSectionWorksheet
@@ -133,7 +133,7 @@ LayeredSectionWorksheet indices are zero based and ordered in the Z direction.
 
 <a id="LayeredSectionWorksheet.SetAngle"></a>
 
-### LayeredSectionWorksheet.SetAngle(index: System.Int32, angle: System.Double)
+### LayeredSectionWorksheet.SetAngle(index: [int](https://docs.python.org/3/library/functions.html#int), angle: [float](https://docs.python.org/3/library/functions.html#float))
 
 ```text
 Set the angle for the LayeredSection at the row index specifiied.
@@ -144,7 +144,7 @@ LayeredSectionWorksheet indices are zero based and ordered in the Z direction.
 
 <a id="LayeredSectionWorksheet.SetMaterial"></a>
 
-### LayeredSectionWorksheet.SetMaterial(index: System.Int32, materialname: System.String)
+### LayeredSectionWorksheet.SetMaterial(index: [int](https://docs.python.org/3/library/functions.html#int), materialname: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 ```text
 Set the material for the LayeredSection at the row index specifiied.
@@ -155,7 +155,7 @@ LayeredSectionWorksheet indices are zero based and ordered in the Z direction.
 
 <a id="LayeredSectionWorksheet.SetThickness"></a>
 
-### LayeredSectionWorksheet.SetThickness(index: System.Int32, thickness: System.Double)
+### LayeredSectionWorksheet.SetThickness(index: [int](https://docs.python.org/3/library/functions.html#int), thickness: [float](https://docs.python.org/3/library/functions.html#float))
 
 ```text
 Set the thickness for the LayeredSection at the row index specifiied.

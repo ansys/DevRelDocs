@@ -17,7 +17,7 @@ Defines a SpotWeldConnection.
 ### Methods
 
 | Name | Description |
-|------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------|
+|--------------------------------------------------------------------------------|-----------------------------------------------------------------------------------|
 | [`Activate`](#SpotWeldConnection.Activate)                                     | Activate the current object.                                                      |
 | [`AddComment`](#SpotWeldConnection.AddComment)                                 | Creates a new child Comment.                                                      |
 | [`AddImage`](#SpotWeldConnection.AddImage)                                     | Creates a new child Image.                                                        |
@@ -42,7 +42,7 @@ Defines a SpotWeldConnection.
 ### Properties
 
 | Name | Description |
-|------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------|
+|--------------------------------------------------------------------------|---------------------------------------------------------------|
 | [`AngleTolerance`](#SpotWeldConnection.AngleTolerance)                   | Gets or sets the AngleTolerance.                              |
 | [`Children`](#SpotWeldConnection.Children)                               | Gets the list of children.                                    |
 | [`Comments`](#SpotWeldConnection.Comments)                               | Gets the list of associated comments.                         |
@@ -80,7 +80,7 @@ Gets or sets the AngleTolerance.
 
 <a id="SpotWeldConnection.Children"></a>
 
-### *property* SpotWeldConnection.Children *: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* SpotWeldConnection.Children *: List[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of children.
 
@@ -88,7 +88,7 @@ Gets the list of children.
 
 <a id="SpotWeldConnection.Comments"></a>
 
-### *property* SpotWeldConnection.Comments *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Comment](../Comment.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* SpotWeldConnection.Comments *: Iterable[[Ansys.ACT.Automation.Mechanical.Comment](../Comment.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated comments.
 
@@ -96,7 +96,7 @@ Gets the list of associated comments.
 
 <a id="SpotWeldConnection.ConnectionBehavior"></a>
 
-### *property* SpotWeldConnection.ConnectionBehavior *: [Ansys.Mechanical.DataModel.Enums.StiffnessBehavior](../../../../../../v242/Ansys/Mechanical/DataModel/Enums/StiffnessBehavior.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.StiffnessBehavior) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* SpotWeldConnection.ConnectionBehavior *: [Ansys.Mechanical.DataModel.Enums.StiffnessBehavior](../../../../Mechanical/DataModel/Enums/StiffnessBehavior.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.StiffnessBehavior) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the ConnectionBehavior.
 
@@ -104,7 +104,7 @@ Gets or sets the ConnectionBehavior.
 
 <a id="SpotWeldConnection.DataModelObjectCategory"></a>
 
-### *property* SpotWeldConnection.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../../../v242/Ansys/Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* SpotWeldConnection.DataModelObjectCategory *: [Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory](../../../../Mechanical/DataModel/Enums/DataModelObjectCategory.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.DataModelObjectCategory) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the current DataModelObject’s category.
 
@@ -112,7 +112,7 @@ Gets the current DataModelObject’s category.
 
 <a id="SpotWeldConnection.Images"></a>
 
-### *property* SpotWeldConnection.Images *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Image](../Image.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* SpotWeldConnection.Images *: Iterable[[Ansys.ACT.Automation.Mechanical.Image](../Image.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated images.
 
@@ -128,7 +128,7 @@ Gets the internal object. For advanced usage only.
 
 <a id="SpotWeldConnection.Material"></a>
 
-### *property* SpotWeldConnection.Material *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* SpotWeldConnection.Material *: [str](https://docs.python.org/3/library/stdtypes.html#str) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Material.
 
@@ -136,7 +136,7 @@ Gets or sets the Material.
 
 <a id="SpotWeldConnection.NumWeldPoints"></a>
 
-### *property* SpotWeldConnection.NumWeldPoints *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* SpotWeldConnection.NumWeldPoints *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the NumWeldPoints.
 
@@ -144,7 +144,7 @@ Gets the NumWeldPoints.
 
 <a id="SpotWeldConnection.NumberOfLayers"></a>
 
-### *property* SpotWeldConnection.NumberOfLayers *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* SpotWeldConnection.NumberOfLayers *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the NumberOfLayers.
 
@@ -160,7 +160,7 @@ Gets or sets the PenetrationTolerance.
 
 <a id="SpotWeldConnection.Properties"></a>
 
-### *property* SpotWeldConnection.Properties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* SpotWeldConnection.Properties *: [tuple](https://docs.python.org/3/library/stdtypes.html#tuple)[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of properties for this object.
 
@@ -176,7 +176,7 @@ Gets or sets the Radius.
 
 <a id="SpotWeldConnection.ReadOnly"></a>
 
-### *property* SpotWeldConnection.ReadOnly *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* SpotWeldConnection.ReadOnly *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the ReadOnly.
 
@@ -192,7 +192,7 @@ Gets or sets the SearchDistance.
 
 <a id="SpotWeldConnection.ShellThicknessEffect"></a>
 
-### *property* SpotWeldConnection.ShellThicknessEffect *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* SpotWeldConnection.ShellThicknessEffect *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the ShellThicknessEffect.
 
@@ -216,7 +216,7 @@ Gets or sets the SourceGeometry.
 
 <a id="SpotWeldConnection.StiffnessBehavior"></a>
 
-### *property* SpotWeldConnection.StiffnessBehavior *: [Ansys.Mechanical.DataModel.Enums.StiffnessBehavior](../../../../../../v242/Ansys/Mechanical/DataModel/Enums/StiffnessBehavior.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.StiffnessBehavior) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* SpotWeldConnection.StiffnessBehavior *: [Ansys.Mechanical.DataModel.Enums.StiffnessBehavior](../../../../Mechanical/DataModel/Enums/StiffnessBehavior.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.StiffnessBehavior) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the StiffnessBehavior.
 
@@ -232,7 +232,7 @@ Gets or sets the TargetGeometry.
 
 <a id="SpotWeldConnection.Type"></a>
 
-### *property* SpotWeldConnection.Type *: [Ansys.Mechanical.DataModel.Enums.SpotWeldTypes](../../../../../../v242/Ansys/Mechanical/DataModel/Enums/SpotWeldTypes.md#ansys.mechanical.stubs.v242.Ansys.Mechanical.DataModel.Enums.SpotWeldTypes) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* SpotWeldConnection.Type *: [Ansys.Mechanical.DataModel.Enums.SpotWeldTypes](../../../../Mechanical/DataModel/Enums/SpotWeldTypes.md#ansys.mechanical.stubs.v241.Ansys.Mechanical.DataModel.Enums.SpotWeldTypes) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Type.
 
@@ -240,7 +240,7 @@ Gets or sets the Type.
 
 <a id="SpotWeldConnection.VisibleProperties"></a>
 
-### *property* SpotWeldConnection.VisibleProperties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* SpotWeldConnection.VisibleProperties *: [tuple](https://docs.python.org/3/library/stdtypes.html#tuple)[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of properties that are visible for this object.
 
@@ -268,7 +268,7 @@ Creates a new child Comment.
 
 <a id="SpotWeldConnection.AddImage"></a>
 
-### SpotWeldConnection.AddImage(filePath: System.String)
+### SpotWeldConnection.AddImage(filePath: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 ```text
 Creates a new child Image.
@@ -280,7 +280,7 @@ if not, the image will be a screen capture of the Geometry window.
 
 <a id="SpotWeldConnection.AddNewSpotWeld"></a>
 
-### SpotWeldConnection.AddNewSpotWeld(customId: System.Int32)
+### SpotWeldConnection.AddNewSpotWeld(customId: [int](https://docs.python.org/3/library/functions.html#int))
 
 Add a new spot weld with/without a customID.
 
@@ -296,7 +296,7 @@ Copies all visible properties from this object to another.
 
 <a id="SpotWeldConnection.CreateParameter"></a>
 
-### SpotWeldConnection.CreateParameter(propName: System.String)
+### SpotWeldConnection.CreateParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Creates a new parameter for a Property.
 
@@ -320,7 +320,7 @@ Creates a copy of the current DataModelObject.
 
 <a id="SpotWeldConnection.ExportToCSVFile"></a>
 
-### SpotWeldConnection.ExportToCSVFile(fileName: System.String)
+### SpotWeldConnection.ExportToCSVFile(fileName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Export the contents to a CSV file.
 
@@ -328,7 +328,7 @@ Export the contents to a CSV file.
 
 <a id="SpotWeldConnection.GetChildren"></a>
 
-### SpotWeldConnection.GetChildren(recurses: System.Boolean, children: System.Collections.Generic.IList[ChildrenType])
+### SpotWeldConnection.GetChildren(recurses: [bool](https://docs.python.org/3/library/functions.html#bool), children: List[ChildrenType])
 
 Gets the list of children, filtered by type.
 
@@ -336,7 +336,7 @@ Gets the list of children, filtered by type.
 
 <a id="SpotWeldConnection.GetParameter"></a>
 
-### SpotWeldConnection.GetParameter(propName: System.String)
+### SpotWeldConnection.GetParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Gets the parameter corresponding to the given property.
 
@@ -360,7 +360,7 @@ Run the GroupSimilarObjects action.
 
 <a id="SpotWeldConnection.PropertyByAPIName"></a>
 
-### SpotWeldConnection.PropertyByAPIName(name: System.String)
+### SpotWeldConnection.PropertyByAPIName(name: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 ```text
 Get a property by its API name.
@@ -371,7 +371,7 @@ If multiple properties have the same API Name, only the first property with that
 
 <a id="SpotWeldConnection.PropertyByName"></a>
 
-### SpotWeldConnection.PropertyByName(name: System.String)
+### SpotWeldConnection.PropertyByName(name: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Get a property by its unique name.
 
@@ -379,7 +379,7 @@ Get a property by its unique name.
 
 <a id="SpotWeldConnection.RemoveParameter"></a>
 
-### SpotWeldConnection.RemoveParameter(propName: System.String)
+### SpotWeldConnection.RemoveParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Removes the parameter from the parameter set corresponding to the given property.
 
@@ -387,7 +387,7 @@ Removes the parameter from the parameter set corresponding to the given property
 
 <a id="SpotWeldConnection.RemoveSpotWeld"></a>
 
-### SpotWeldConnection.RemoveSpotWeld(spotWeldId: System.Int32)
+### SpotWeldConnection.RemoveSpotWeld(spotWeldId: [int](https://docs.python.org/3/library/functions.html#int))
 
 Remove an existing spot weld.
 
@@ -395,7 +395,7 @@ Remove an existing spot weld.
 
 <a id="SpotWeldConnection.SetXCoordinate"></a>
 
-### SpotWeldConnection.SetXCoordinate(spotWeldId: System.Int32, val: Ansys.Core.Units.Quantity)
+### SpotWeldConnection.SetXCoordinate(spotWeldId: [int](https://docs.python.org/3/library/functions.html#int), val: Ansys.Core.Units.Quantity)
 
 Set the X coordinate given the Spot Weld ID.
 
@@ -403,7 +403,7 @@ Set the X coordinate given the Spot Weld ID.
 
 <a id="SpotWeldConnection.SetYCoordinate"></a>
 
-### SpotWeldConnection.SetYCoordinate(spotWeldId: System.Int32, val: Ansys.Core.Units.Quantity)
+### SpotWeldConnection.SetYCoordinate(spotWeldId: [int](https://docs.python.org/3/library/functions.html#int), val: Ansys.Core.Units.Quantity)
 
 Set the Y coordinate given the Spot Weld ID.
 
@@ -411,7 +411,7 @@ Set the Y coordinate given the Spot Weld ID.
 
 <a id="SpotWeldConnection.SetZCoordinate"></a>
 
-### SpotWeldConnection.SetZCoordinate(spotWeldId: System.Int32, val: Ansys.Core.Units.Quantity)
+### SpotWeldConnection.SetZCoordinate(spotWeldId: [int](https://docs.python.org/3/library/functions.html#int), val: Ansys.Core.Units.Quantity)
 
 Set the Z coordinate given the Spot Weld ID.
 

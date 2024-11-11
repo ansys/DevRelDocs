@@ -17,7 +17,7 @@ Defines a ModelImport.
 ### Methods
 
 | Name | Description |
-|-------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------|
+|-------------------------------------------------------------------|-----------------------------------------------------------------------------------|
 | [`Activate`](#ModelImport.Activate)                               | Activate the current object.                                                      |
 | [`AddComment`](#ModelImport.AddComment)                           | Creates a new child Comment.                                                      |
 | [`AddFigure`](#ModelImport.AddFigure)                             | Creates a new child Figure.                                                       |
@@ -36,9 +36,9 @@ Defines a ModelImport.
 ### Properties
 
 | Name | Description |
-|-----------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------|
+|-----------------------------------------------------------------------------------|---------------------------------------------------------------|
 | [`AnalysisTypeDimensionSetting`](#ModelImport.AnalysisTypeDimensionSetting)       | Gets or sets the AnalysisTypeDimensionSetting.                |
-| [`ApplicationSourceSetting`](#ModelImport.ApplicationSourceSetting)                                                                                 | Gets the ApplicationSourceSetting.                            |
+| [`ApplicationSourceSetting`](#ModelImport.ApplicationSourceSetting)               | Gets the ApplicationSourceSetting.                            |
 | [`BodyGroupByAnsysElmTypeNumber`](#ModelImport.BodyGroupByAnsysElmTypeNumber)     | Gets or sets the BodyGroupByAnsysElmTypeNumber.               |
 | [`BodyGroupByMaterialNumber`](#ModelImport.BodyGroupByMaterialNumber)             | Gets or sets the BodyGroupByMaterialNumber.                   |
 | [`BodyGroupByThickness`](#ModelImport.BodyGroupByThickness)                       | Gets or sets the BodyGroupByThickness.                        |
@@ -57,7 +57,7 @@ Defines a ModelImport.
 | [`Images`](#ModelImport.Images)                                                   | Gets the list of associated images.                           |
 | [`ImportMaterials`](#ModelImport.ImportMaterials)                                 | Gets or sets the ImportMaterials.                             |
 | [`InternalObject`](#ModelImport.InternalObject)                                   | Gets the internal object. For advanced usage only.            |
-| [`MaterialConsolidation`](#ModelImport.MaterialConsolidation)                                                                                       | Gets or sets the MaterialConsolidation.                       |
+| [`MaterialConsolidation`](#ModelImport.MaterialConsolidation)                     | Gets or sets the MaterialConsolidation.                       |
 | [`ModelImportSourceFilePath`](#ModelImport.ModelImportSourceFilePath)             | Gets or sets the ModelImportSourceFilePath.                   |
 | [`NodalComponentKey`](#ModelImport.NodalComponentKey)                             | Gets or sets the NodalComponentKey.                           |
 | [`NodeAndElementRenumberingMethod`](#ModelImport.NodeAndElementRenumberingMethod) | Gets or sets the NodeAndElementRenumberingMethod.             |
@@ -70,7 +70,7 @@ Defines a ModelImport.
 | [`ProcessNodalComponents`](#ModelImport.ProcessNodalComponents)                   | Gets or sets the ProcessNodalComponents.                      |
 | [`ProcessValidBlockedCDBFile`](#ModelImport.ProcessValidBlockedCDBFile)           | Gets or sets the ProcessValidBlockedCDBFile.                  |
 | [`Properties`](#ModelImport.Properties)                                           | Gets the list of properties for this object.                  |
-| [`SourceIdentifier`](#ModelImport.SourceIdentifier)                                                                                                 | Gets the SourceIdentifier.                                    |
+| [`SourceIdentifier`](#ModelImport.SourceIdentifier)                               | Gets the SourceIdentifier.                                    |
 | [`ToleranceAngle`](#ModelImport.ToleranceAngle)                                   | Gets or sets the ToleranceAngle.                              |
 | [`UnitSystemTypeForImport`](#ModelImport.UnitSystemTypeForImport)                 | Gets or sets the UnitSystemTypeForImport.                     |
 | [`VertexInsertionAngle`](#ModelImport.VertexInsertionAngle)                       | Gets or sets the VertexInsertionAngle.                        |
@@ -98,7 +98,7 @@ Gets the ApplicationSourceSetting.
 
 <a id="ModelImport.BodyGroupByAnsysElmTypeNumber"></a>
 
-### *property* ModelImport.BodyGroupByAnsysElmTypeNumber *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ModelImport.BodyGroupByAnsysElmTypeNumber *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the BodyGroupByAnsysElmTypeNumber.
 
@@ -106,7 +106,7 @@ Gets or sets the BodyGroupByAnsysElmTypeNumber.
 
 <a id="ModelImport.BodyGroupByMaterialNumber"></a>
 
-### *property* ModelImport.BodyGroupByMaterialNumber *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ModelImport.BodyGroupByMaterialNumber *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the BodyGroupByMaterialNumber.
 
@@ -114,7 +114,7 @@ Gets or sets the BodyGroupByMaterialNumber.
 
 <a id="ModelImport.BodyGroupByThickness"></a>
 
-### *property* ModelImport.BodyGroupByThickness *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ModelImport.BodyGroupByThickness *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the BodyGroupByThickness.
 
@@ -122,7 +122,7 @@ Gets or sets the BodyGroupByThickness.
 
 <a id="ModelImport.Children"></a>
 
-### *property* ModelImport.Children *: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ModelImport.Children *: List[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of children.
 
@@ -130,7 +130,7 @@ Gets the list of children.
 
 <a id="ModelImport.Comments"></a>
 
-### *property* ModelImport.Comments *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Comment](../../../../../v241/Ansys/ACT/Automation/Mechanical/Comment.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ModelImport.Comments *: Iterable[[Ansys.ACT.Automation.Mechanical.Comment](Comment.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated comments.
 
@@ -138,7 +138,7 @@ Gets the list of associated comments.
 
 <a id="ModelImport.CreateGeometry"></a>
 
-### *property* ModelImport.CreateGeometry *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ModelImport.CreateGeometry *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the CreateGeometry.
 
@@ -146,7 +146,7 @@ Gets or sets the CreateGeometry.
 
 <a id="ModelImport.CreateGeometryEdgeComponents"></a>
 
-### *property* ModelImport.CreateGeometryEdgeComponents *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ModelImport.CreateGeometryEdgeComponents *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the CreateGeometryEdgeComponents.
 
@@ -154,7 +154,7 @@ Gets or sets the CreateGeometryEdgeComponents.
 
 <a id="ModelImport.CreateGeometryFaceComponents"></a>
 
-### *property* ModelImport.CreateGeometryFaceComponents *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ModelImport.CreateGeometryFaceComponents *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the CreateGeometryFaceComponents.
 
@@ -162,7 +162,7 @@ Gets or sets the CreateGeometryFaceComponents.
 
 <a id="ModelImport.CreateGeometryVertexComponent"></a>
 
-### *property* ModelImport.CreateGeometryVertexComponent *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ModelImport.CreateGeometryVertexComponent *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the CreateGeometryVertexComponent.
 
@@ -178,7 +178,7 @@ Gets the current DataModelObject’s category.
 
 <a id="ModelImport.ElementComponentKey"></a>
 
-### *property* ModelImport.ElementComponentKey *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ModelImport.ElementComponentKey *: [str](https://docs.python.org/3/library/stdtypes.html#str) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the ElementComponentKey.
 
@@ -186,7 +186,7 @@ Gets or sets the ElementComponentKey.
 
 <a id="ModelImport.ElementOffset"></a>
 
-### *property* ModelImport.ElementOffset *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ModelImport.ElementOffset *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the ElementOffset.
 
@@ -194,7 +194,7 @@ Gets or sets the ElementOffset.
 
 <a id="ModelImport.FaceComponentKey"></a>
 
-### *property* ModelImport.FaceComponentKey *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ModelImport.FaceComponentKey *: [str](https://docs.python.org/3/library/stdtypes.html#str) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the FaceComponentKey.
 
@@ -202,7 +202,7 @@ Gets or sets the FaceComponentKey.
 
 <a id="ModelImport.Figures"></a>
 
-### *property* ModelImport.Figures *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Figure](../../../../../v241/Ansys/ACT/Automation/Mechanical/Figure.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ModelImport.Figures *: Iterable[[Ansys.ACT.Automation.Mechanical.Figure](Figure.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated figures.
 
@@ -210,7 +210,7 @@ Gets the list of associated figures.
 
 <a id="ModelImport.GeometryComponentKey"></a>
 
-### *property* ModelImport.GeometryComponentKey *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ModelImport.GeometryComponentKey *: [str](https://docs.python.org/3/library/stdtypes.html#str) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the GeometryComponentKey.
 
@@ -218,7 +218,7 @@ Gets or sets the GeometryComponentKey.
 
 <a id="ModelImport.Images"></a>
 
-### *property* ModelImport.Images *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Image](../../../../../v241/Ansys/ACT/Automation/Mechanical/Image.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ModelImport.Images *: Iterable[[Ansys.ACT.Automation.Mechanical.Image](Image.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated images.
 
@@ -226,7 +226,7 @@ Gets the list of associated images.
 
 <a id="ModelImport.ImportMaterials"></a>
 
-### *property* ModelImport.ImportMaterials *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ModelImport.ImportMaterials *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the ImportMaterials.
 
@@ -242,7 +242,7 @@ Gets the internal object. For advanced usage only.
 
 <a id="ModelImport.MaterialConsolidation"></a>
 
-### *property* ModelImport.MaterialConsolidation *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ModelImport.MaterialConsolidation *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the MaterialConsolidation.
 
@@ -250,7 +250,7 @@ Gets or sets the MaterialConsolidation.
 
 <a id="ModelImport.ModelImportSourceFilePath"></a>
 
-### *property* ModelImport.ModelImportSourceFilePath *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ModelImport.ModelImportSourceFilePath *: [str](https://docs.python.org/3/library/stdtypes.html#str) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the ModelImportSourceFilePath.
 
@@ -258,7 +258,7 @@ Gets or sets the ModelImportSourceFilePath.
 
 <a id="ModelImport.NodalComponentKey"></a>
 
-### *property* ModelImport.NodalComponentKey *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ModelImport.NodalComponentKey *: [str](https://docs.python.org/3/library/stdtypes.html#str) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the NodalComponentKey.
 
@@ -274,7 +274,7 @@ Gets or sets the NodeAndElementRenumberingMethod.
 
 <a id="ModelImport.NodeOffset"></a>
 
-### *property* ModelImport.NodeOffset *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ModelImport.NodeOffset *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the NodeOffset.
 
@@ -282,7 +282,7 @@ Gets or sets the NodeOffset.
 
 <a id="ModelImport.ProcessElementComponents"></a>
 
-### *property* ModelImport.ProcessElementComponents *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ModelImport.ProcessElementComponents *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the ProcessElementComponents.
 
@@ -290,7 +290,7 @@ Gets or sets the ProcessElementComponents.
 
 <a id="ModelImport.ProcessFaceComponents"></a>
 
-### *property* ModelImport.ProcessFaceComponents *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ModelImport.ProcessFaceComponents *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the ProcessFaceComponents.
 
@@ -298,7 +298,7 @@ Gets or sets the ProcessFaceComponents.
 
 <a id="ModelImport.ProcessLineBodies"></a>
 
-### *property* ModelImport.ProcessLineBodies *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ModelImport.ProcessLineBodies *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the ProcessLineBodies.
 
@@ -306,7 +306,7 @@ Gets or sets the ProcessLineBodies.
 
 <a id="ModelImport.ProcessMesh200Elms"></a>
 
-### *property* ModelImport.ProcessMesh200Elms *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ModelImport.ProcessMesh200Elms *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the ProcessMesh200Elms.
 
@@ -314,7 +314,7 @@ Gets or sets the ProcessMesh200Elms.
 
 <a id="ModelImport.ProcessModelData"></a>
 
-### *property* ModelImport.ProcessModelData *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ModelImport.ProcessModelData *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the ProcessModelData.
 
@@ -322,7 +322,7 @@ Gets or sets the ProcessModelData.
 
 <a id="ModelImport.ProcessNodalComponents"></a>
 
-### *property* ModelImport.ProcessNodalComponents *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ModelImport.ProcessNodalComponents *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the ProcessNodalComponents.
 
@@ -330,7 +330,7 @@ Gets or sets the ProcessNodalComponents.
 
 <a id="ModelImport.ProcessValidBlockedCDBFile"></a>
 
-### *property* ModelImport.ProcessValidBlockedCDBFile *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ModelImport.ProcessValidBlockedCDBFile *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the ProcessValidBlockedCDBFile.
 
@@ -338,7 +338,7 @@ Gets or sets the ProcessValidBlockedCDBFile.
 
 <a id="ModelImport.Properties"></a>
 
-### *property* ModelImport.Properties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ModelImport.Properties *: [tuple](https://docs.python.org/3/library/stdtypes.html#tuple)[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of properties for this object.
 
@@ -346,7 +346,7 @@ Gets the list of properties for this object.
 
 <a id="ModelImport.SourceIdentifier"></a>
 
-### *property* ModelImport.SourceIdentifier *: System.String | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ModelImport.SourceIdentifier *: [str](https://docs.python.org/3/library/stdtypes.html#str) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the SourceIdentifier.
 
@@ -378,7 +378,7 @@ Gets or sets the VertexInsertionAngle.
 
 <a id="ModelImport.VisibleProperties"></a>
 
-### *property* ModelImport.VisibleProperties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* ModelImport.VisibleProperties *: [tuple](https://docs.python.org/3/library/stdtypes.html#tuple)[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of properties that are visible for this object.
 
@@ -414,7 +414,7 @@ Creates a new child Figure.
 
 <a id="ModelImport.AddImage"></a>
 
-### ModelImport.AddImage(filePath: System.String)
+### ModelImport.AddImage(filePath: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 ```text
 Creates a new child Image.
@@ -434,7 +434,7 @@ Copies all visible properties from this object to another.
 
 <a id="ModelImport.CreateParameter"></a>
 
-### ModelImport.CreateParameter(propName: System.String)
+### ModelImport.CreateParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Creates a new parameter for a Property.
 
@@ -450,7 +450,7 @@ Creates a copy of the current DataModelObject.
 
 <a id="ModelImport.GetChildren"></a>
 
-### ModelImport.GetChildren(recurses: System.Boolean, children: System.Collections.Generic.IList[ChildrenType])
+### ModelImport.GetChildren(recurses: [bool](https://docs.python.org/3/library/functions.html#bool), children: List[ChildrenType])
 
 Gets the list of children, filtered by type.
 
@@ -458,7 +458,7 @@ Gets the list of children, filtered by type.
 
 <a id="ModelImport.GetParameter"></a>
 
-### ModelImport.GetParameter(propName: System.String)
+### ModelImport.GetParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Gets the parameter corresponding to the given property.
 
@@ -482,7 +482,7 @@ Run the GroupSimilarObjects action.
 
 <a id="ModelImport.PropertyByAPIName"></a>
 
-### ModelImport.PropertyByAPIName(name: System.String)
+### ModelImport.PropertyByAPIName(name: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 ```text
 Get a property by its API name.
@@ -493,7 +493,7 @@ If multiple properties have the same API Name, only the first property with that
 
 <a id="ModelImport.PropertyByName"></a>
 
-### ModelImport.PropertyByName(name: System.String)
+### ModelImport.PropertyByName(name: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Get a property by its unique name.
 
@@ -501,7 +501,7 @@ Get a property by its unique name.
 
 <a id="ModelImport.RemoveParameter"></a>
 
-### ModelImport.RemoveParameter(propName: System.String)
+### ModelImport.RemoveParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Removes the parameter from the parameter set corresponding to the given property.
 

@@ -17,7 +17,7 @@ Specifies the SourceConductorType.
 ### Attributes
 
 | Name |
-| ------------------------------------------------------------------------------------------------------------------------ |
+| --------------------------------------------- |
 | [`Solid`](#SourceConductorType.Solid) |
 | [`Stranded`](#SourceConductorType.Stranded) |
 

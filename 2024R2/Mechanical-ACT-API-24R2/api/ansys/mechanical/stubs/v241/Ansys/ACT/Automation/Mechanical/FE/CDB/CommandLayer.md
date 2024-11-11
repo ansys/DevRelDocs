@@ -17,7 +17,7 @@ Represents a layer associated to a shell SECBLOCK command.
 ### Properties
 
 | Name | Description |
-|----------------------------------------------------------------------------------------------------------------|-----------------------------------------------------|
+|--------------------------------|-----------------------------------------------------|
 | [`Mat`](#CommandLayer.Mat)     | Gets the material number.                           |
 | [`Numpt`](#CommandLayer.Numpt) | Gets the number of integration points in the layer. |
 | [`Theta`](#CommandLayer.Theta) | Gets the layer orientation angle.                   |
@@ -29,7 +29,7 @@ Represents a layer associated to a shell SECBLOCK command.
 
 <a id="CommandLayer.Mat"></a>
 
-### *property* CommandLayer.Mat *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* CommandLayer.Mat *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the material number.
 
@@ -37,7 +37,7 @@ Gets the material number.
 
 <a id="CommandLayer.Numpt"></a>
 
-### *property* CommandLayer.Numpt *: System.UInt32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* CommandLayer.Numpt *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the number of integration points in the layer.
 
@@ -45,7 +45,7 @@ Gets the number of integration points in the layer.
 
 <a id="CommandLayer.Theta"></a>
 
-### *property* CommandLayer.Theta *: System.Double | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* CommandLayer.Theta *: [float](https://docs.python.org/3/library/functions.html#float) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the layer orientation angle.
 
@@ -53,7 +53,7 @@ Gets the layer orientation angle.
 
 <a id="CommandLayer.Thick"></a>
 
-### *property* CommandLayer.Thick *: System.Double | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* CommandLayer.Thick *: [float](https://docs.python.org/3/library/functions.html#float) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the thickness.
 

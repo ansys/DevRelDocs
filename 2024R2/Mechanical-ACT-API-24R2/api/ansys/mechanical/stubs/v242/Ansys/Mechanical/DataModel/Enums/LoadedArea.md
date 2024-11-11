@@ -17,7 +17,7 @@ Specifies the LoadedArea.
 ### Attributes
 
 | Name |
-| -------------------------------------------------------------------------------------------------------- |
+| -------------------------------------- |
 | [`Deformed`](#LoadedArea.Deformed) |
 | [`Initial`](#LoadedArea.Initial) |
 

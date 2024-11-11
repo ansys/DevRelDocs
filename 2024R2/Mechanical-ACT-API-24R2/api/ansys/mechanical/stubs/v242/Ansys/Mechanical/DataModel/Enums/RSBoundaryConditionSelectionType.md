@@ -17,7 +17,7 @@ Specifies the RSBoundaryConditionSelectionType.
 ### Attributes
 
 | Name |
-| ---------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| ------------------------------------------------------------------ |
 | [`AllSupports`](#RSBoundaryConditionSelectionType.AllSupports) |
 | [`None_`](#RSBoundaryConditionSelectionType.None_) |
 

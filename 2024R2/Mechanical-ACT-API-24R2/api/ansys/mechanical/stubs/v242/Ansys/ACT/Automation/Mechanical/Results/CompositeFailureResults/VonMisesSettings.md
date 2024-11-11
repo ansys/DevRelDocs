@@ -36,7 +36,7 @@ Defines the configuration for the Von Mises failure criterion for isotropic mate
 
 <a id="VonMisesSettings.ConsiderInterlaminarNormalStresses"></a>
 
-### *property* VonMisesSettings.ConsiderInterlaminarNormalStresses *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* VonMisesSettings.ConsiderInterlaminarNormalStresses *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets whether interlaminar normal stresses are evaluated.
 
@@ -44,7 +44,7 @@ Gets or sets whether interlaminar normal stresses are evaluated.
 
 <a id="VonMisesSettings.EvaluateStrainFailure"></a>
 
-### *property* VonMisesSettings.EvaluateStrainFailure *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* VonMisesSettings.EvaluateStrainFailure *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets whether strain failure is evaluated. The corresponding failure label is ‘vMe’.
 
@@ -52,7 +52,7 @@ Gets or sets whether strain failure is evaluated. The corresponding failure labe
 
 <a id="VonMisesSettings.EvaluateStressFailure"></a>
 
-### *property* VonMisesSettings.EvaluateStressFailure *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* VonMisesSettings.EvaluateStressFailure *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets whether stress failure is evaluated. The corresponding failure label is ‘vMs’
 
@@ -60,7 +60,7 @@ Gets or sets whether stress failure is evaluated. The corresponding failure labe
 
 <a id="VonMisesSettings.StrainFailureWeightingFactor"></a>
 
-### *property* VonMisesSettings.StrainFailureWeightingFactor *: System.Double | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* VonMisesSettings.StrainFailureWeightingFactor *: [float](https://docs.python.org/3/library/functions.html#float) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the weighting factor for the strain failure (vMe) evaluation.
 
@@ -68,7 +68,7 @@ Gets or sets the weighting factor for the strain failure (vMe) evaluation.
 
 <a id="VonMisesSettings.StressFailureWeightingFactor"></a>
 
-### *property* VonMisesSettings.StressFailureWeightingFactor *: System.Double | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* VonMisesSettings.StressFailureWeightingFactor *: [float](https://docs.python.org/3/library/functions.html#float) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the weighting factor for the stress failure (vMs) evaluation.
 

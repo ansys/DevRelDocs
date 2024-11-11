@@ -17,7 +17,7 @@ Specifies the VirtualCellGroupRepairBehaviorType.
 ### Attributes
 
 | Name |
-| ---------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| ---------------------------------------------------------------- |
 | [`All`](#VirtualCellGroupRepairBehaviorType.All) |
 | [`Slivers`](#VirtualCellGroupRepairBehaviorType.Slivers) |
 | [`SmallEdges`](#VirtualCellGroupRepairBehaviorType.SmallEdges) |

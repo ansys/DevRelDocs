@@ -17,7 +17,7 @@ Specifies the FEConnectionDisplay.
 ### Attributes
 
 | Name |
-| ------------------------------------------------------------------------------------------------------------------------------ |
+| --------------------------------------------------- |
 | [`All`](#FEConnectionDisplay.All) |
 | [`Beam`](#FEConnectionDisplay.Beam) |
 | [`CE`](#FEConnectionDisplay.CE) |

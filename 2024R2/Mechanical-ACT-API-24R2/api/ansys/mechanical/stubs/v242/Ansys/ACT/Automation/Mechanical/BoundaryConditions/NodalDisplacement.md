@@ -75,7 +75,7 @@ Defines a NodalDisplacement.
 
 <a id="NodalDisplacement.Children"></a>
 
-### *property* NodalDisplacement.Children *: System.Collections.Generic.IList[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* NodalDisplacement.Children *: List[Ansys.Mechanical.DataModel.Interfaces.IDataModelObject] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of children.
 
@@ -83,7 +83,7 @@ Gets the list of children.
 
 <a id="NodalDisplacement.Comments"></a>
 
-### *property* NodalDisplacement.Comments *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Comment](../../../../../../v241/Ansys/ACT/Automation/Mechanical/Comment.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* NodalDisplacement.Comments *: Iterable[[Ansys.ACT.Automation.Mechanical.Comment](../Comment.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Comment)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated comments.
 
@@ -91,7 +91,7 @@ Gets the list of associated comments.
 
 <a id="NodalDisplacement.CoordinateSystem"></a>
 
-### *property* NodalDisplacement.CoordinateSystem *: [Ansys.ACT.Automation.Mechanical.CoordinateSystem](../../../../../../v241/Ansys/ACT/Automation/Mechanical/CoordinateSystem.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.CoordinateSystem) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* NodalDisplacement.CoordinateSystem *: [Ansys.ACT.Automation.Mechanical.CoordinateSystem](../CoordinateSystem.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.CoordinateSystem) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the CoordinateSystem.
 
@@ -115,7 +115,7 @@ Gets or sets the DynamicRelaxationBehavior.
 
 <a id="NodalDisplacement.Figures"></a>
 
-### *property* NodalDisplacement.Figures *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Figure](../../../../../../v241/Ansys/ACT/Automation/Mechanical/Figure.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* NodalDisplacement.Figures *: Iterable[[Ansys.ACT.Automation.Mechanical.Figure](../Figure.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Figure)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated figures.
 
@@ -131,7 +131,7 @@ Gets or sets the GraphControlsXAxis.
 
 <a id="NodalDisplacement.Images"></a>
 
-### *property* NodalDisplacement.Images *: System.Collections.Generic.IEnumerable[[Ansys.ACT.Automation.Mechanical.Image](../../../../../../v241/Ansys/ACT/Automation/Mechanical/Image.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* NodalDisplacement.Images *: Iterable[[Ansys.ACT.Automation.Mechanical.Image](../Image.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Image)] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of associated images.
 
@@ -163,7 +163,7 @@ Gets or sets the Location.
 
 <a id="NodalDisplacement.NumberOfSegments"></a>
 
-### *property* NodalDisplacement.NumberOfSegments *: System.Int32 | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* NodalDisplacement.NumberOfSegments *: [int](https://docs.python.org/3/library/functions.html#int) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the NumberOfSegments.
 
@@ -179,7 +179,7 @@ Gets or sets the PhaseAngle.
 
 <a id="NodalDisplacement.Properties"></a>
 
-### *property* NodalDisplacement.Properties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* NodalDisplacement.Properties *: [tuple](https://docs.python.org/3/library/stdtypes.html#tuple)[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of properties for this object.
 
@@ -203,7 +203,7 @@ Gets or sets the RangeMinimum.
 
 <a id="NodalDisplacement.ReadOnly"></a>
 
-### *property* NodalDisplacement.ReadOnly *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* NodalDisplacement.ReadOnly *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the ReadOnly.
 
@@ -211,7 +211,7 @@ Gets or sets the ReadOnly.
 
 <a id="NodalDisplacement.ReverseDirectionForInverseSteps"></a>
 
-### *property* NodalDisplacement.ReverseDirectionForInverseSteps *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* NodalDisplacement.ReverseDirectionForInverseSteps *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the ReverseDirectionForInverseSteps.
 
@@ -219,7 +219,7 @@ Gets or sets the ReverseDirectionForInverseSteps.
 
 <a id="NodalDisplacement.SharedRefBody"></a>
 
-### *property* NodalDisplacement.SharedRefBody *: [Ansys.ACT.Automation.Mechanical.Body](../../../../../../v241/Ansys/ACT/Automation/Mechanical/Body.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.Body) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* NodalDisplacement.SharedRefBody *: [Ansys.ACT.Automation.Mechanical.Body](../Body.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.Body) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the SharedRefBody.
 
@@ -227,7 +227,7 @@ Gets or sets the SharedRefBody.
 
 <a id="NodalDisplacement.Suppressed"></a>
 
-### *property* NodalDisplacement.Suppressed *: System.Boolean | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* NodalDisplacement.Suppressed *: [bool](https://docs.python.org/3/library/functions.html#bool) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the Suppressed.
 
@@ -235,7 +235,7 @@ Gets or sets the Suppressed.
 
 <a id="NodalDisplacement.VisibleProperties"></a>
 
-### *property* NodalDisplacement.VisibleProperties *: System.Collections.Generic.IReadOnlyList[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* NodalDisplacement.VisibleProperties *: [tuple](https://docs.python.org/3/library/stdtypes.html#tuple)[Ansys.ACT.Automation.Mechanical.Property] | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets the list of properties that are visible for this object.
 
@@ -251,7 +251,7 @@ Gets the XComponent.
 
 <a id="NodalDisplacement.XYZFunctionCoordinateSystem"></a>
 
-### *property* NodalDisplacement.XYZFunctionCoordinateSystem *: [Ansys.ACT.Automation.Mechanical.CoordinateSystem](../../../../../../v241/Ansys/ACT/Automation/Mechanical/CoordinateSystem.md#ansys.mechanical.stubs.v241.Ansys.ACT.Automation.Mechanical.CoordinateSystem) | [None](https://docs.python.org/3/library/constants.html#None)*
+### *property* NodalDisplacement.XYZFunctionCoordinateSystem *: [Ansys.ACT.Automation.Mechanical.CoordinateSystem](../CoordinateSystem.md#ansys.mechanical.stubs.v242.Ansys.ACT.Automation.Mechanical.CoordinateSystem) | [None](https://docs.python.org/3/library/constants.html#None)*
 
 Gets or sets the XYZFunctionCoordinateSystem.
 
@@ -303,7 +303,7 @@ Creates a new child Figure.
 
 <a id="NodalDisplacement.AddImage"></a>
 
-### NodalDisplacement.AddImage(filePath: System.String)
+### NodalDisplacement.AddImage(filePath: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 ```text
 Creates a new child Image.
@@ -323,7 +323,7 @@ Copies all visible properties from this object to another.
 
 <a id="NodalDisplacement.CreateParameter"></a>
 
-### NodalDisplacement.CreateParameter(propName: System.String)
+### NodalDisplacement.CreateParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Creates a new parameter for a Property.
 
@@ -347,7 +347,7 @@ Creates a copy of the current DataModelObject.
 
 <a id="NodalDisplacement.GetActivateAtLoadStep"></a>
 
-### NodalDisplacement.GetActivateAtLoadStep(stepNumber: System.UInt32)
+### NodalDisplacement.GetActivateAtLoadStep(stepNumber: [int](https://docs.python.org/3/library/functions.html#int))
 
 GetActivateAtLoadStep method.
 
@@ -355,7 +355,7 @@ GetActivateAtLoadStep method.
 
 <a id="NodalDisplacement.GetChildren"></a>
 
-### NodalDisplacement.GetChildren(recurses: System.Boolean, children: System.Collections.Generic.IList[ChildrenType])
+### NodalDisplacement.GetChildren(recurses: [bool](https://docs.python.org/3/library/functions.html#bool), children: List[ChildrenType])
 
 Gets the list of children, filtered by type.
 
@@ -363,7 +363,7 @@ Gets the list of children, filtered by type.
 
 <a id="NodalDisplacement.GetComponentActivateAtLoadStep"></a>
 
-### NodalDisplacement.GetComponentActivateAtLoadStep(component: System.String, stepNumber: System.UInt32)
+### NodalDisplacement.GetComponentActivateAtLoadStep(component: [str](https://docs.python.org/3/library/stdtypes.html#str), stepNumber: [int](https://docs.python.org/3/library/functions.html#int))
 
 GetComponentActivateAtLoadStep method.
 
@@ -371,7 +371,7 @@ GetComponentActivateAtLoadStep method.
 
 <a id="NodalDisplacement.GetParameter"></a>
 
-### NodalDisplacement.GetParameter(propName: System.String)
+### NodalDisplacement.GetParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Gets the parameter corresponding to the given property.
 
@@ -403,7 +403,7 @@ Run the PromoteToNamedSelection action.
 
 <a id="NodalDisplacement.PropertyByAPIName"></a>
 
-### NodalDisplacement.PropertyByAPIName(name: System.String)
+### NodalDisplacement.PropertyByAPIName(name: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 ```text
 Get a property by its API name.
@@ -414,7 +414,7 @@ If multiple properties have the same API Name, only the first property with that
 
 <a id="NodalDisplacement.PropertyByName"></a>
 
-### NodalDisplacement.PropertyByName(name: System.String)
+### NodalDisplacement.PropertyByName(name: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Get a property by its unique name.
 
@@ -422,7 +422,7 @@ Get a property by its unique name.
 
 <a id="NodalDisplacement.RemoveParameter"></a>
 
-### NodalDisplacement.RemoveParameter(propName: System.String)
+### NodalDisplacement.RemoveParameter(propName: [str](https://docs.python.org/3/library/stdtypes.html#str))
 
 Removes the parameter from the parameter set corresponding to the given property.
 
@@ -430,7 +430,7 @@ Removes the parameter from the parameter set corresponding to the given property
 
 <a id="NodalDisplacement.SetActivateAtLoadStep"></a>
 
-### NodalDisplacement.SetActivateAtLoadStep(stepNumber: System.UInt32, bActive: System.Boolean)
+### NodalDisplacement.SetActivateAtLoadStep(stepNumber: [int](https://docs.python.org/3/library/functions.html#int), bActive: [bool](https://docs.python.org/3/library/functions.html#bool))
 
 SetActivateAtLoadStep method.
 
@@ -438,7 +438,7 @@ SetActivateAtLoadStep method.
 
 <a id="NodalDisplacement.SetComponentActivateAtLoadStep"></a>
 
-### NodalDisplacement.SetComponentActivateAtLoadStep(component: System.String, stepNumber: System.UInt32, bActive: System.Boolean)
+### NodalDisplacement.SetComponentActivateAtLoadStep(component: [str](https://docs.python.org/3/library/stdtypes.html#str), stepNumber: [int](https://docs.python.org/3/library/functions.html#int), bActive: [bool](https://docs.python.org/3/library/functions.html#bool))
 
 SetComponentActivateAtLoadStep method.
 
